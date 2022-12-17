@@ -1,6 +1,8 @@
-def FldRelationDesc():
-    '''public FldRelationDesc(final MboValue mbv)
+def ():
+    '''returns FldRelationDesc\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

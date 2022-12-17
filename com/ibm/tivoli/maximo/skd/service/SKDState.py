@@ -1,39 +1,52 @@
 def getSite():
-    '''public String getSite()
+    '''returns String\n\n
+    getSite()\n
     '''
 def setSite():
-    '''public void setSite(final String site)
+    '''returns None\n\n
+    setSite(final String site)\n
     '''
 def getOrg():
-    '''public String getOrg()
+    '''returns String\n\n
+    getOrg()\n
     '''
 def setOrg():
-    '''public void setOrg(final String org)
+    '''returns None\n\n
+    setOrg(final String org)\n
     '''
 def getData():
-    '''public String getData()
+    '''returns String\n\n
+    getData()\n
     '''
 def setData():
-    '''public void setData(final String data)
+    '''returns None\n\n
+    setData(final String data)\n
     '''
 def getProjectId():
-    '''public String getProjectId()
+    '''returns String\n\n
+    getProjectId()\n
     '''
 def setProjectId():
-    '''public void setProjectId(final String projectId)
+    '''returns None\n\n
+    setProjectId(final String projectId)\n
     '''
 def getUser():
-    '''public UserInfo getUser()
+    '''returns UserInfo\n\n
+    getUser()\n
     '''
 def setUser():
-    '''public void setUser(final UserInfo user)
+    '''returns None\n\n
+    setUser(final UserInfo user)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

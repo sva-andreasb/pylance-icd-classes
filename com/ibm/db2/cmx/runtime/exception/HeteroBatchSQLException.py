@@ -1,81 +1,95 @@
-def HeteroBatchSQLException():
-    '''public HeteroBatchSQLException()
-    public HeteroBatchSQLException(final SQLException exceptionContainer_, final int originalOffsetInChain_)
+def ():
+    '''returns HeteroBatchSQLException\n\n
+    ()\n
+    (final SQLException exceptionContainer_, final int originalOffsetInChain_)\n
     '''
 def getNextException():
-    '''public SQLException getNextException()
+    '''returns SQLException\n\n
+    getNextException()\n
     '''
 def getNextHeteroBatchSQLException():
-    '''public HeteroBatchSQLException getNextHeteroBatchSQLException()
+    '''returns HeteroBatchSQLException\n\n
+    getNextHeteroBatchSQLException()\n
     '''
 def getOriginalOffsetInChain():
-    '''public int getOriginalOffsetInChain()
+    '''returns int\n\n
+    getOriginalOffsetInChain()\n
     '''
 def getUnderlyingSQLException():
-    '''public SQLException getUnderlyingSQLException()
+    '''returns SQLException\n\n
+    getUnderlyingSQLException()\n
     '''
 def isRowSpecificSQLException():
-    '''public boolean isRowSpecificSQLException()
+    '''returns boolean\n\n
+    isRowSpecificSQLException()\n
     '''
 def implementsDB2Diagnosable():
-    '''public boolean implementsDB2Diagnosable()
-    '''
-def setNextException():
-    '''public synchronized void setNextException(final SQLException ex)
-    '''
-def setNextHeteroBatchSQLException():
-    '''public synchronized void setNextHeteroBatchSQLException(final HeteroBatchSQLException ex)
+    '''returns boolean\n\n
+    implementsDB2Diagnosable()\n
     '''
 def getBindDiagnostics():
-    '''public DBBindDiagnostics getBindDiagnostics()
+    '''returns DBBindDiagnostics\n\n
+    getBindDiagnostics()\n
     '''
 def getSqlca():
-    '''public DB2Sqlca getSqlca()
+    '''returns DB2Sqlca\n\n
+    getSqlca()\n
     '''
 def getThrowable():
-    '''public Throwable getThrowable()
+    '''returns Throwable\n\n
+    getThrowable()\n
     '''
 def printTrace():
-    '''public void printTrace(final PrintWriter printWriter, final String s)
+    '''returns None\n\n
+    printTrace(final PrintWriter printWriter, final String s)\n
     '''
 def getBatchElementOffset():
-    '''public int getBatchElementOffset()
+    '''returns int\n\n
+    getBatchElementOffset()\n
     '''
 def getStmtOffset():
-    '''public int getStmtOffset()
+    '''returns int\n\n
+    getStmtOffset()\n
     '''
 def getErrorCode():
-    '''public int getErrorCode()
+    '''returns int\n\n
+    getErrorCode()\n
     '''
 def getSQLState():
-    '''public String getSQLState()
+    '''returns String\n\n
+    getSQLState()\n
     '''
 def fillInStackTrace():
-    '''public Throwable fillInStackTrace()
+    '''returns Throwable\n\n
+    fillInStackTrace()\n
     '''
 def getCause():
-    '''public Throwable getCause()
+    '''returns Throwable\n\n
+    getCause()\n
     '''
 def getLocalizedMessage():
-    '''public String getLocalizedMessage()
+    '''returns String\n\n
+    getLocalizedMessage()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getStackTrace():
-    '''public StackTraceElement[] getStackTrace()
-    '''
-def initCause():
-    '''public synchronized Throwable initCause(final Throwable t)
+    '''returns StackTraceElement[]\n\n
+    getStackTrace()\n
     '''
 def printStackTrace():
-    '''public void printStackTrace()
-    public void printStackTrace(final PrintStream printStream)
-    public void printStackTrace(final PrintWriter printWriter)
+    '''returns None\n\n
+    printStackTrace()\n
+    printStackTrace(final PrintStream printStream)\n
+    printStackTrace(final PrintWriter printWriter)\n
     '''
 def setStackTrace():
-    '''public void setStackTrace(final StackTraceElement[] array)
+    '''returns None\n\n
+    setStackTrace(final StackTraceElement[] array)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,70 +1,44 @@
-def run():
-    '''public static void run(final String hostName, final InputStream in, final OutputStream out)
-    public static void run(final HttpServletRequest request, final HttpServletResponse response)
-    '''
-def getRunning():
-    '''public static ESIProcessor[] getRunning()
-    '''
-def collectEdgeStats():
-    '''public static synchronized int collectEdgeStats(final int _gatherWhat)
-    '''
-def invalidateIds():
-    '''public static void invalidateIds(final Iterator ids)
-    '''
-def clearCaches():
-    '''public static void clearCaches()
-    '''
-def resetCounters():
-    '''public static void resetCounters()
-    '''
-def gather():
-    '''public static synchronized ESIProcessorStats[] gather(final int gatherWhat)
-    '''
 def isAlive():
-    '''public boolean isAlive()
-    '''
-def markDead():
-    '''public synchronized void markDead()
+    '''returns boolean\n\n
+    isAlive()\n
     '''
 def getHostName():
-    '''public String getHostName()
+    '''returns String\n\n
+    getHostName()\n
     '''
 def getPID():
-    '''public int getPID()
-    '''
-def invalidateId():
-    '''public synchronized void invalidateId(final String id)
-    '''
-def clearCache():
-    '''public synchronized void clearCache()
-    '''
-def resetCounter():
-    '''public synchronized void resetCounter()
-    '''
-def submit():
-    '''public synchronized void submit(final ESIProcessorRequest request)
+    '''returns int\n\n
+    getPID()\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def readInt():
-    '''public int readInt()
+    '''returns int\n\n
+    readInt()\n
     '''
 def readString():
-    '''public String readString()
+    '''returns String\n\n
+    readString()\n
     '''
 def writeInt():
-    '''public void writeInt(final int val)
+    '''returns None\n\n
+    writeInt(final int val)\n
     '''
 def writeString():
-    '''public void writeString(final String str)
+    '''returns None\n\n
+    writeString(final String str)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def flushWithResponse():
-    '''public void flushWithResponse()
+    '''returns None\n\n
+    flushWithResponse()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,64 +1,81 @@
 REFID_TARGETS = "String  \"ant.targets\""
 def canParseAntlibDescriptor():
-    '''public boolean canParseAntlibDescriptor(final Resource resource)
+    '''returns boolean\n\n
+    canParseAntlibDescriptor(final Resource resource)\n
     '''
 def parseAntlibDescriptor():
-    '''public UnknownElement parseAntlibDescriptor(final Project containingProject, final Resource resource)
+    '''returns UnknownElement\n\n
+    parseAntlibDescriptor(final Project containingProject, final Resource resource)\n
     '''
 def parseUnknownElement():
-    '''public UnknownElement parseUnknownElement(final Project project, final URL source)
+    '''returns UnknownElement\n\n
+    parseUnknownElement(final Project project, final URL source)\n
     '''
 def parse():
-    '''public void parse(final Project project, final Object source)
-    public void parse(final Project project, final Object source, final RootHandler handler)
+    '''returns None\n\n
+    parse(final Project project, final Object source)\n
+    parse(final Project project, final Object source, final RootHandler handler)\n
     '''
 def onStartElement():
-    '''public void onStartElement(final String uri, final String tag, final String qname, final Attributes attrs, final AntXMLContext context)
-    public void onStartElement(final String uri, final String tag, final String qname, final Attributes attrs, final AntXMLContext context)
-    public void onStartElement(final String uri, final String tag, final String qname, final Attributes attrs, final AntXMLContext context)
-    public void onStartElement(final String uri, final String tag, final String qname, final Attributes attrs, final AntXMLContext context)
+    '''returns None\n\n
+    onStartElement(final String uri, final String tag, final String qname, final Attributes attrs, final AntXMLContext context)\n
+    onStartElement(final String uri, final String tag, final String qname, final Attributes attrs, final AntXMLContext context)\n
+    onStartElement(final String uri, final String tag, final String qname, final Attributes attrs, final AntXMLContext context)\n
+    onStartElement(final String uri, final String tag, final String qname, final Attributes attrs, final AntXMLContext context)\n
     '''
 def onStartChild():
-    '''public AntHandler onStartChild(final String uri, final String tag, final String qname, final Attributes attrs, final AntXMLContext context)
-    public AntHandler onStartChild(final String uri, final String name, final String qname, final Attributes attrs, final AntXMLContext context)
-    public AntHandler onStartChild(final String uri, final String name, final String qname, final Attributes attrs, final AntXMLContext context)
-    public AntHandler onStartChild(final String uri, final String name, final String qname, final Attributes attrs, final AntXMLContext context)
-    public AntHandler onStartChild(final String uri, final String tag, final String qname, final Attributes attrs, final AntXMLContext context)
+    '''returns AntHandler\n\n
+    onStartChild(final String uri, final String tag, final String qname, final Attributes attrs, final AntXMLContext context)\n
+    onStartChild(final String uri, final String name, final String qname, final Attributes attrs, final AntXMLContext context)\n
+    onStartChild(final String uri, final String name, final String qname, final Attributes attrs, final AntXMLContext context)\n
+    onStartChild(final String uri, final String name, final String qname, final Attributes attrs, final AntXMLContext context)\n
+    onStartChild(final String uri, final String tag, final String qname, final Attributes attrs, final AntXMLContext context)\n
     '''
 def onEndChild():
-    '''public void onEndChild(final String uri, final String tag, final String qname, final AntXMLContext context)
+    '''returns None\n\n
+    onEndChild(final String uri, final String tag, final String qname, final AntXMLContext context)\n
     '''
 def onEndElement():
-    '''public void onEndElement(final String uri, final String tag, final AntXMLContext context)
-    public void onEndElement(final String uri, final String tag, final AntXMLContext context)
-    public void onEndElement(final String uri, final String tag, final AntXMLContext context)
+    '''returns None\n\n
+    onEndElement(final String uri, final String tag, final AntXMLContext context)\n
+    onEndElement(final String uri, final String tag, final AntXMLContext context)\n
+    onEndElement(final String uri, final String tag, final AntXMLContext context)\n
     '''
 def characters():
-    '''public void characters(final char[] buf, final int start, final int count, final AntXMLContext context)
-    public void characters(final char[] buf, final int start, final int count)
-    public void characters(final char[] buf, final int start, final int count, final AntXMLContext context)
+    '''returns None\n\n
+    characters(final char[] buf, final int start, final int count, final AntXMLContext context)\n
+    characters(final char[] buf, final int start, final int count)\n
+    characters(final char[] buf, final int start, final int count, final AntXMLContext context)\n
     '''
-def RootHandler():
-    '''public RootHandler(final AntXMLContext context, final AntHandler rootHandler)
+def ():
+    '''returns RootHandler\n\n
+    (final AntXMLContext context, final AntHandler rootHandler)\n
     '''
 def getCurrentAntHandler():
-    '''public AntHandler getCurrentAntHandler()
+    '''returns AntHandler\n\n
+    getCurrentAntHandler()\n
     '''
 def resolveEntity():
-    '''public InputSource resolveEntity(final String publicId, final String systemId)
+    '''returns InputSource\n\n
+    resolveEntity(final String publicId, final String systemId)\n
     '''
 def startElement():
-    '''public void startElement(final String uri, final String tag, final String qname, final Attributes attrs)
+    '''returns None\n\n
+    startElement(final String uri, final String tag, final String qname, final Attributes attrs)\n
     '''
 def setDocumentLocator():
-    '''public void setDocumentLocator(final org.xml.sax.Locator locator)
+    '''returns None\n\n
+    setDocumentLocator(final org.xml.sax.Locator locator)\n
     '''
 def endElement():
-    '''public void endElement(final String uri, final String name, final String qName)
+    '''returns None\n\n
+    endElement(final String uri, final String name, final String qName)\n
     '''
 def startPrefixMapping():
-    '''public void startPrefixMapping(final String prefix, final String uri)
+    '''returns None\n\n
+    startPrefixMapping(final String prefix, final String uri)\n
     '''
 def endPrefixMapping():
-    '''public void endPrefixMapping(final String prefix)
+    '''returns None\n\n
+    endPrefixMapping(final String prefix)\n
     '''

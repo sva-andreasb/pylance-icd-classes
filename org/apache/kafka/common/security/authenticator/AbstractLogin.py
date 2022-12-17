@@ -1,12 +1,16 @@
 def configure():
-    '''public void configure(final Map<String, ?> configs, final JaasContext jaasContext)
+    '''returns None\n\n
+    configure(final Map<String, ?> configs, final JaasContext jaasContext)\n
     '''
 def login():
-    '''public LoginContext login()
+    '''returns LoginContext\n\n
+    login()\n
     '''
 def subject():
-    '''public Subject subject()
+    '''returns Subject\n\n
+    subject()\n
     '''
 def handle():
-    '''public void handle(final Callback[] callbacks)
+    '''returns None\n\n
+    handle(final Callback[] callbacks)\n
     '''

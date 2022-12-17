@@ -1,32 +1,42 @@
-def StringUCharacterIterator():
-    '''public StringUCharacterIterator(final String str)
-    public StringUCharacterIterator()
+def ():
+    '''returns StringUCharacterIterator\n\n
+    (final String str)\n
+    ()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def current():
-    '''public int current()
+    '''returns int\n\n
+    current()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def next():
-    '''public int next()
+    '''returns int\n\n
+    next()\n
     '''
 def previous():
-    '''public int previous()
+    '''returns int\n\n
+    previous()\n
     '''
 def setIndex():
-    '''public void setIndex(final int currentIndex)
+    '''returns None\n\n
+    setIndex(final int currentIndex)\n
     '''
 def getText():
-    '''public int getText(final char[] fillIn, final int offset)
-    public String getText()
+    '''returns String\n\n
+    getText(final char[] fillIn, final int offset)\n
+    getText()\n
     '''
 def setText():
-    '''public void setText(final String text)
+    '''returns None\n\n
+    setText(final String text)\n
     '''

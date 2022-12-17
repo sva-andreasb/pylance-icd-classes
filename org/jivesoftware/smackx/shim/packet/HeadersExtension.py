@@ -1,20 +1,22 @@
 ELEMENT = "String  \"headers\""
 NAMESPACE = "String  \"http://jabber.org/protocol/shim\""
-def HeadersExtension():
-    '''public HeadersExtension(final List<Header> headerList)
+def ():
+    '''returns HeadersExtension\n\n
+    (final List<Header> headerList)\n
     '''
 def getHeaders():
-    '''public List<Header> getHeaders()
+    '''returns List<Header>\n\n
+    getHeaders()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    '''
-def from():
-    '''public static HeadersExtension from(final Stanza packet)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

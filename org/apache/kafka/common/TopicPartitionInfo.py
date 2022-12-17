@@ -1,24 +1,32 @@
-def TopicPartitionInfo():
-    '''public TopicPartitionInfo(final int partition, final Node leader, final List<Node> replicas, final List<Node> isr)
+def ():
+    '''returns TopicPartitionInfo\n\n
+    (final int partition, final Node leader, final List<Node> replicas, final List<Node> isr)\n
     '''
 def partition():
-    '''public int partition()
+    '''returns int\n\n
+    partition()\n
     '''
 def leader():
-    '''public Node leader()
+    '''returns Node\n\n
+    leader()\n
     '''
 def replicas():
-    '''public List<Node> replicas()
+    '''returns List<Node>\n\n
+    replicas()\n
     '''
 def isr():
-    '''public List<Node> isr()
+    '''returns List<Node>\n\n
+    isr()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

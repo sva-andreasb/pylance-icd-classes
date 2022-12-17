@@ -1,45 +1,59 @@
 HEADER = "String  \"<?xml version=\\"1.0\\" encoding=\\"UTF-8\\"?>\n<!DOCTYPE favorites\n PUBLIC \\"-//Sun Microsystems Inc.//DTD JavaHelp Favorites Version 2.0//EN\\"\n        \\"http://java.sun.com/products/javahelp/favorites_2_0.dtd\\">\n\n<favorites version=\\"2.0\\">\n\""
 ELEMENT = "String  \"favoriteitem\""
 FOOTER = "String  \"</favorites>\""
-def FavoritesNode():
-    '''public FavoritesNode(final FavoritesItem favoritesItem)
+def ():
+    '''returns FavoritesNode\n\n
+    (final FavoritesItem favoritesItem)\n
     '''
 def getAllowsChildren():
-    '''public boolean getAllowsChildren()
+    '''returns boolean\n\n
+    getAllowsChildren()\n
     '''
 def add():
-    '''public void add(final DefaultMutableTreeNode newChild)
+    '''returns None\n\n
+    add(final DefaultMutableTreeNode newChild)\n
     '''
 def remove():
-    '''public void remove(final DefaultMutableTreeNode aChild)
+    '''returns None\n\n
+    remove(final DefaultMutableTreeNode aChild)\n
     '''
 def getVisibleChildCount():
-    '''public int getVisibleChildCount()
+    '''returns int\n\n
+    getVisibleChildCount()\n
     '''
 def getOffset():
-    '''public String getOffset()
+    '''returns String\n\n
+    getOffset()\n
     '''
 def export():
-    '''public void export(final OutputStream out)
+    '''returns None\n\n
+    export(final OutputStream out)\n
     '''
 def exportNode():
-    '''public void exportNode(final OutputStreamWriter outputStreamWriter)
+    '''returns None\n\n
+    exportNode(final OutputStreamWriter outputStreamWriter)\n
     '''
 def exportHeader():
-    '''public OutputStreamWriter exportHeader(final OutputStream out)
+    '''returns OutputStreamWriter\n\n
+    exportHeader(final OutputStream out)\n
     '''
 def getXMLHeader():
-    '''public String getXMLHeader()
+    '''returns String\n\n
+    getXMLHeader()\n
     '''
 def getXMLElement():
-    '''public String getXMLElement()
+    '''returns String\n\n
+    getXMLElement()\n
     '''
 def getDeepCopy():
-    '''public FavoritesNode getDeepCopy()
+    '''returns FavoritesNode\n\n
+    getDeepCopy()\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def setVisible():
-    '''public void setVisible(final boolean visible)
+    '''returns None\n\n
+    setVisible(final boolean visible)\n
     '''

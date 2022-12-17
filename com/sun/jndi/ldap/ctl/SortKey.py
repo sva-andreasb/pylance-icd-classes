@@ -1,13 +1,17 @@
-def SortKey():
-    '''public SortKey(final String attrID)
-    public SortKey(final String attrID, final boolean b, final String matchingRuleID)
+def ():
+    '''returns SortKey\n\n
+    (final String attrID)\n
+    (final String attrID, final boolean b, final String matchingRuleID)\n
     '''
 def getAttributeID():
-    '''public String getAttributeID()
+    '''returns String\n\n
+    getAttributeID()\n
     '''
 def getMatchingRuleID():
-    '''public String getMatchingRuleID()
+    '''returns String\n\n
+    getMatchingRuleID()\n
     '''
 def isAscending():
-    '''public boolean isAscending()
+    '''returns boolean\n\n
+    isAscending()\n
     '''

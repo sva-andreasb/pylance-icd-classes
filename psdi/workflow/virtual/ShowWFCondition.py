@@ -1,3 +1,4 @@
-def ShowWFCondition():
-    '''public ShowWFCondition(final MboSet ms)
+def ():
+    '''returns ShowWFCondition\n\n
+    (final MboSet ms)\n
     '''

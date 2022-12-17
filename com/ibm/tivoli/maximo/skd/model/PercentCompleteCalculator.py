@@ -1,13 +1,17 @@
-def PercentCompleteCalculator():
-    '''public PercentCompleteCalculator(final IMXActivityModelProcessor processor, final IPercentCompleteMethod method, final IPercentCompleteSummaryMethod summaryMethod, final IMXGanttModelChangedHandler changeHandler)
+def ():
+    '''returns PercentCompleteCalculator\n\n
+    (final IMXActivityModelProcessor processor, final IPercentCompleteMethod method, final IPercentCompleteSummaryMethod summaryMethod, final IMXGanttModelChangedHandler changeHandler)\n
     '''
 def updatePercentComplete():
-    '''public void updatePercentComplete(final List<IMXActivity> activities)
-    public void updatePercentComplete(final IMXActivity parent)
+    '''returns None\n\n
+    updatePercentComplete(final List<IMXActivity> activities)\n
+    updatePercentComplete(final IMXActivity parent)\n
     '''
 def getProcessed():
-    '''public int getProcessed()
+    '''returns int\n\n
+    getProcessed()\n
     '''
 def getChanged():
-    '''public int getChanged()
+    '''returns int\n\n
+    getChanged()\n
     '''

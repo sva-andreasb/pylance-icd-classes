@@ -1,12 +1,16 @@
-def ConfigDataNotFoundException():
-    '''public ConfigDataNotFoundException(final String docUri, final ConfigDataId id, final Exception cause)
+def ():
+    '''returns ConfigDataNotFoundException\n\n
+    (final String docUri, final ConfigDataId id, final Exception cause)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getDocumentUri():
-    '''public String getDocumentUri()
+    '''returns String\n\n
+    getDocumentUri()\n
     '''
 def getConfigDataId():
-    '''public ConfigDataId getConfigDataId()
+    '''returns ConfigDataId\n\n
+    getConfigDataId()\n
     '''

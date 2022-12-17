@@ -1,53 +1,69 @@
 SVG = "String  \"svg\""
 GIF = "String  \"gif\""
 JPEG = "String  \"jpeg\""
-def ViewDefiner():
-    '''public ViewDefiner(final String imageType, final String viewType, final long zoomLevel, final long version)
-    public ViewDefiner(final String imageType, final String viewName, final long version)
-    public ViewDefiner(final String viewName, final long version)
+def ():
+    '''returns ViewDefiner\n\n
+    (final String imageType, final String viewType, final long zoomLevel, final long version)\n
+    (final String imageType, final String viewName, final long version)\n
+    (final String viewName, final long version)\n
     '''
 def getImageType():
-    '''public String getImageType()
+    '''returns String\n\n
+    getImageType()\n
     '''
 def setImageType():
-    '''public void setImageType(final String imageType)
+    '''returns None\n\n
+    setImageType(final String imageType)\n
     '''
 def getViewName():
-    '''public String getViewName()
+    '''returns String\n\n
+    getViewName()\n
     '''
 def setViewName():
-    '''public void setViewName(final String viewType)
+    '''returns None\n\n
+    setViewName(final String viewType)\n
     '''
 def getZoomLevel():
-    '''public long getZoomLevel()
+    '''returns long\n\n
+    getZoomLevel()\n
     '''
 def setZoomLevel():
-    '''public void setZoomLevel(final long zoomLevel)
+    '''returns None\n\n
+    setZoomLevel(final long zoomLevel)\n
     '''
 def getReferringComponentId():
-    '''public Guid getReferringComponentId()
+    '''returns Guid\n\n
+    getReferringComponentId()\n
     '''
 def setReferringComponentId():
-    '''public void setReferringComponentId(final Guid referringComponentId)
+    '''returns None\n\n
+    setReferringComponentId(final Guid referringComponentId)\n
     '''
 def getVersion():
-    '''public long getVersion()
+    '''returns long\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final long version)
+    '''returns None\n\n
+    setVersion(final long version)\n
     '''
 def getDomainHostName():
-    '''public String getDomainHostName()
+    '''returns String\n\n
+    getDomainHostName()\n
     '''
 def setDomainHostName():
-    '''public void setDomainHostName(final String domainHostName)
+    '''returns None\n\n
+    setDomainHostName(final String domainHostName)\n
     '''
 def getDomainPort():
-    '''public int getDomainPort()
+    '''returns int\n\n
+    getDomainPort()\n
     '''
 def setDomainPort():
-    '''public void setDomainPort(final int domainPort)
+    '''returns None\n\n
+    setDomainPort(final int domainPort)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

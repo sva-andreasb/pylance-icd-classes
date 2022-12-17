@@ -1,3 +1,4 @@
-def TripleMatchIterator():
-    '''public TripleMatchIterator(final Triple m, final Iterator<Triple> iter)
+def ():
+    '''returns TripleMatchIterator\n\n
+    (final Triple m, final Iterator<Triple> iter)\n
     '''

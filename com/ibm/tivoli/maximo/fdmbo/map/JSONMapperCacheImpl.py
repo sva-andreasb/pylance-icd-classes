@@ -1,23 +1,22 @@
 NAME = "String  \"JSONMAP\""
-def JSONMapperCacheImpl():
-    '''public JSONMapperCacheImpl()
+def ():
+    '''returns JSONMapperCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
-    '''
-def getAllMaps():
-    '''public Map<String, JSONMapInfo> getAllMaps()
+    '''returns None\n\n
+    init()\n
     '''
 def getMapInfo():
-    '''public JSONMapInfo getMapInfo(final String mapName)
+    '''returns JSONMapInfo\n\n
+    getMapInfo(final String mapName)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
-    '''
-def refresh():
-    '''public synchronized void refresh()
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''

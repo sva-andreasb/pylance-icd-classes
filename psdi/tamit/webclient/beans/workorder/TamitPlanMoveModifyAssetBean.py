@@ -1,3 +1,4 @@
 def MOVEANDMODIFYALLASSETS():
-    '''public int MOVEANDMODIFYALLASSETS()
+    '''returns int\n\n
+    MOVEANDMODIFYALLASSETS()\n
     '''

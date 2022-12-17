@@ -1,45 +1,60 @@
 def getIss():
-    '''public String getIss()
+    '''returns String\n\n
+    getIss()\n
     '''
 def getExt():
-    '''public String getExt()
+    '''returns String\n\n
+    getExt()\n
     '''
 def getAtHash():
-    '''public String getAtHash()
+    '''returns String\n\n
+    getAtHash()\n
     '''
 def getSub():
-    '''public String getSub()
+    '''returns String\n\n
+    getSub()\n
     '''
 def getEmailVerified():
-    '''public String getEmailVerified()
+    '''returns String\n\n
+    getEmailVerified()\n
     '''
 def getRealmName():
-    '''public String getRealmName()
+    '''returns String\n\n
+    getRealmName()\n
     '''
 def getUniqueSecurityName():
-    '''public String getUniqueSecurityName()
+    '''returns String\n\n
+    getUniqueSecurityName()\n
     '''
 def getPreferredUsername():
-    '''public String getPreferredUsername()
+    '''returns String\n\n
+    getPreferredUsername()\n
     '''
 def getGivenName():
-    '''public String getGivenName()
+    '''returns String\n\n
+    getGivenName()\n
     '''
 def getAud():
-    '''public String getAud()
+    '''returns String\n\n
+    getAud()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getExp():
-    '''public String getExp()
+    '''returns String\n\n
+    getExp()\n
     '''
 def getIat():
-    '''public String getIat()
+    '''returns String\n\n
+    getIat()\n
     '''
 def getFamilyName():
-    '''public String getFamilyName()
+    '''returns String\n\n
+    getFamilyName()\n
     '''
 def getEmail():
-    '''public String getEmail()
+    '''returns String\n\n
+    getEmail()\n
     '''

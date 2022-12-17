@@ -1,33 +1,44 @@
-def MessageErrorHandler():
-    '''public MessageErrorHandler(final String queue)
+def ():
+    '''returns MessageErrorHandler\n\n
+    (final String queue)\n
     '''
 def initializeEmailInfo():
-    '''public void initializeEmailInfo()
+    '''returns None\n\n
+    initializeEmailInfo()\n
     '''
 def getErrorMsgForSeqQueue():
-    '''public JMSData getErrorMsgForSeqQueue(final String queueName)
+    '''returns JMSData\n\n
+    getErrorMsgForSeqQueue(final String queueName)\n
     '''
 def canProcess():
-    '''public int canProcess(final Map<String, String> properties)
+    '''returns int\n\n
+    canProcess(final Map<String, String> properties)\n
     '''
 def handleError():
-    '''public boolean handleError(final Exception t, final Map<String, String> msgProperties)
+    '''returns boolean\n\n
+    handleError(final Exception t, final Map<String, String> msgProperties)\n
     '''
 def getCorrectedFile():
-    '''public JMSData getCorrectedFile(final JMSData data)
+    '''returns JMSData\n\n
+    getCorrectedFile(final JMSData data)\n
     '''
 def success():
-    '''public void success(final JMSData data)
+    '''returns None\n\n
+    success(final JMSData data)\n
     '''
 def getJMSData():
-    '''public JMSData getJMSData(final Map<String, String> msgProperties)
+    '''returns JMSData\n\n
+    getJMSData(final Map<String, String> msgProperties)\n
     '''
 def emailError():
-    '''public void emailError(final Exception t, final String uniqueId)
+    '''returns None\n\n
+    emailError(final Exception t, final String uniqueId)\n
     '''
 def emailToBeSent():
-    '''public boolean emailToBeSent(final Map<String, String> msgProperties)
+    '''returns boolean\n\n
+    emailToBeSent(final Map<String, String> msgProperties)\n
     '''
 def setMaxTryCount():
-    '''public void setMaxTryCount(final int newMaxTryCount)
+    '''returns None\n\n
+    setMaxTryCount(final int newMaxTryCount)\n
     '''

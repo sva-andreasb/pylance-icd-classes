@@ -1,21 +1,24 @@
-def NonBlockingJsonParser():
-    '''public NonBlockingJsonParser(final IOContext ctxt, final int parserFeatures, final ByteQuadsCanonicalizer sym)
+def ():
+    '''returns NonBlockingJsonParser\n\n
+    (final IOContext ctxt, final int parserFeatures, final ByteQuadsCanonicalizer sym)\n
     '''
 def getNonBlockingInputFeeder():
-    '''public ByteArrayFeeder getNonBlockingInputFeeder()
-    '''
-def needMoreInput():
-    '''public final boolean needMoreInput()
+    '''returns ByteArrayFeeder\n\n
+    getNonBlockingInputFeeder()\n
     '''
 def feedInput():
-    '''public void feedInput(final byte[] buf, final int start, final int end)
+    '''returns None\n\n
+    feedInput(final byte[] buf, final int start, final int end)\n
     '''
 def endOfInput():
-    '''public void endOfInput()
+    '''returns None\n\n
+    endOfInput()\n
     '''
 def releaseBuffered():
-    '''public int releaseBuffered(final OutputStream out)
+    '''returns int\n\n
+    releaseBuffered(final OutputStream out)\n
     '''
 def nextToken():
-    '''public JsonToken nextToken()
+    '''returns JsonToken\n\n
+    nextToken()\n
     '''

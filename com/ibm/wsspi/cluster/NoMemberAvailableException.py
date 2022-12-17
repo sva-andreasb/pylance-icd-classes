@@ -1,5 +1,6 @@
-def NoMemberAvailableException():
-    '''public NoMemberAvailableException()
-    public NoMemberAvailableException(final Identity memberIdentity)
-    public NoMemberAvailableException(final String message)
+def ():
+    '''returns NoMemberAvailableException\n\n
+    ()\n
+    (final Identity memberIdentity)\n
+    (final String message)\n
     '''

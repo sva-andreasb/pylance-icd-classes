@@ -1,15 +1,20 @@
-def XMLExtendedPropertyHandler():
-    '''public XMLExtendedPropertyHandler(final boolean showHidden, final boolean dropNulls)
+def ():
+    '''returns XMLExtendedPropertyHandler\n\n
+    (final boolean showHidden, final boolean dropNulls)\n
     '''
 def handleFormulas():
-    '''public void handleFormulas(final XMLStreamWriter writer, final MboRemote pmbo, final String formulaProp)
+    '''returns None\n\n
+    handleFormulas(final XMLStreamWriter writer, final MboRemote pmbo, final String formulaProp)\n
     '''
 def handleScripts():
-    '''public void handleScripts(final XMLStreamWriter writer, final MboRemote mbo, final String scriptProp)
+    '''returns None\n\n
+    handleScripts(final XMLStreamWriter writer, final MboRemote mbo, final String scriptProp)\n
     '''
 def getExtendedMboColumnTitle():
-    '''public void getExtendedMboColumnTitle(final String extAttrName, final MboRemote mbo)
+    '''returns None\n\n
+    getExtendedMboColumnTitle(final String extAttrName, final MboRemote mbo)\n
     '''
 def setExtendedMboColumnElement():
-    '''public void setExtendedMboColumnElement(final XMLStreamWriter writer, final String extAttrName, final String alias, final MboRemote mbo)
+    '''returns None\n\n
+    setExtendedMboColumnElement(final XMLStreamWriter writer, final String extAttrName, final String alias, final MboRemote mbo)\n
     '''

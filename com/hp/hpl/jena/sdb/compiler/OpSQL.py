@@ -1,46 +1,61 @@
-def OpSQL():
-    '''public OpSQL(final SqlNode sqlNode, final Op original, final SDBRequest request)
+def ():
+    '''returns OpSQL\n\n
+    (final SqlNode sqlNode, final Op original, final SDBRequest request)\n
     '''
 def eval():
-    '''public QueryIterator eval(final QueryIterator input, final ExecutionContext execCxt)
+    '''returns QueryIterator\n\n
+    eval(final QueryIterator input, final ExecutionContext execCxt)\n
     '''
 def exec():
-    '''public QueryIterator exec(final ExecutionContext execCxt)
-    public QueryIterator exec(Binding parent, final ExecutionContext execCxt)
+    '''returns QueryIterator\n\n
+    exec(final ExecutionContext execCxt)\n
+    exec(Binding parent, final ExecutionContext execCxt)\n
     '''
 def getOriginal():
-    '''public Op getOriginal()
+    '''returns Op\n\n
+    getOriginal()\n
     '''
 def effectiveOp():
-    '''public Op effectiveOp()
+    '''returns Op\n\n
+    effectiveOp()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equalTo():
-    '''public boolean equalTo(final Op other, final NodeIsomorphismMap labelMap)
+    '''returns boolean\n\n
+    equalTo(final Op other, final NodeIsomorphismMap labelMap)\n
     '''
 def getRequest():
-    '''public SDBRequest getRequest()
+    '''returns SDBRequest\n\n
+    getRequest()\n
     '''
 def output():
-    '''public void output(final IndentedWriter out)
+    '''returns None\n\n
+    output(final IndentedWriter out)\n
     '''
 def toSQL():
-    '''public String toSQL()
+    '''returns String\n\n
+    toSQL()\n
     '''
 def getSqlNode():
-    '''public SqlNode getSqlNode()
+    '''returns SqlNode\n\n
+    getSqlNode()\n
     '''
 def resetSqlNode():
-    '''public void resetSqlNode(final SqlNode sqlNode2)
+    '''returns None\n\n
+    resetSqlNode(final SqlNode sqlNode2)\n
     '''
 def getBridge():
-    '''public SQLBridge getBridge()
+    '''returns SQLBridge\n\n
+    getBridge()\n
     '''
 def setBridge():
-    '''public void setBridge(final SQLBridge bridge)
+    '''returns None\n\n
+    setBridge(final SQLBridge bridge)\n
     '''
 def outputArgs():
-    '''public void outputArgs(final IndentedWriter out, final SerializationContext sCxt)
+    '''returns None\n\n
+    outputArgs(final IndentedWriter out, final SerializationContext sCxt)\n
     '''

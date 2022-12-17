@@ -1,3 +1,4 @@
 def associate():
-    '''public int associate()
+    '''returns int\n\n
+    associate()\n
     '''

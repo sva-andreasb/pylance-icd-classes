@@ -1,3 +1,4 @@
 def getMboValueInfo():
-    '''public MboValueInfoStatic getMboValueInfo(final String attribute)
+    '''returns MboValueInfoStatic\n\n
+    getMboValueInfo(final String attribute)\n
     '''

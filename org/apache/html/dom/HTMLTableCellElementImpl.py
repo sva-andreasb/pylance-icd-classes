@@ -1,93 +1,124 @@
 def getCellIndex():
-    '''public int getCellIndex()
+    '''returns int\n\n
+    getCellIndex()\n
     '''
 def setCellIndex():
-    '''public void setCellIndex(int n)
+    '''returns None\n\n
+    setCellIndex(int n)\n
     '''
 def getAbbr():
-    '''public String getAbbr()
+    '''returns String\n\n
+    getAbbr()\n
     '''
 def setAbbr():
-    '''public void setAbbr(final String s)
+    '''returns None\n\n
+    setAbbr(final String s)\n
     '''
 def getAlign():
-    '''public String getAlign()
+    '''returns String\n\n
+    getAlign()\n
     '''
 def setAlign():
-    '''public void setAlign(final String s)
+    '''returns None\n\n
+    setAlign(final String s)\n
     '''
 def getAxis():
-    '''public String getAxis()
+    '''returns String\n\n
+    getAxis()\n
     '''
 def setAxis():
-    '''public void setAxis(final String s)
+    '''returns None\n\n
+    setAxis(final String s)\n
     '''
 def getBgColor():
-    '''public String getBgColor()
+    '''returns String\n\n
+    getBgColor()\n
     '''
 def setBgColor():
-    '''public void setBgColor(final String s)
+    '''returns None\n\n
+    setBgColor(final String s)\n
     '''
 def getCh():
-    '''public String getCh()
+    '''returns String\n\n
+    getCh()\n
     '''
 def setCh():
-    '''public void setCh(String substring)
+    '''returns None\n\n
+    setCh(String substring)\n
     '''
 def getChOff():
-    '''public String getChOff()
+    '''returns String\n\n
+    getChOff()\n
     '''
 def setChOff():
-    '''public void setChOff(final String s)
+    '''returns None\n\n
+    setChOff(final String s)\n
     '''
 def getColSpan():
-    '''public int getColSpan()
+    '''returns int\n\n
+    getColSpan()\n
     '''
 def setColSpan():
-    '''public void setColSpan(final int i)
+    '''returns None\n\n
+    setColSpan(final int i)\n
     '''
 def getHeaders():
-    '''public String getHeaders()
+    '''returns String\n\n
+    getHeaders()\n
     '''
 def setHeaders():
-    '''public void setHeaders(final String s)
+    '''returns None\n\n
+    setHeaders(final String s)\n
     '''
 def getHeight():
-    '''public String getHeight()
+    '''returns String\n\n
+    getHeight()\n
     '''
 def setHeight():
-    '''public void setHeight(final String s)
+    '''returns None\n\n
+    setHeight(final String s)\n
     '''
 def getNoWrap():
-    '''public boolean getNoWrap()
+    '''returns boolean\n\n
+    getNoWrap()\n
     '''
 def setNoWrap():
-    '''public void setNoWrap(final boolean b)
+    '''returns None\n\n
+    setNoWrap(final boolean b)\n
     '''
 def getRowSpan():
-    '''public int getRowSpan()
+    '''returns int\n\n
+    getRowSpan()\n
     '''
 def setRowSpan():
-    '''public void setRowSpan(final int i)
+    '''returns None\n\n
+    setRowSpan(final int i)\n
     '''
 def getScope():
-    '''public String getScope()
+    '''returns String\n\n
+    getScope()\n
     '''
 def setScope():
-    '''public void setScope(final String s)
+    '''returns None\n\n
+    setScope(final String s)\n
     '''
 def getVAlign():
-    '''public String getVAlign()
+    '''returns String\n\n
+    getVAlign()\n
     '''
 def setVAlign():
-    '''public void setVAlign(final String s)
+    '''returns None\n\n
+    setVAlign(final String s)\n
     '''
 def getWidth():
-    '''public String getWidth()
+    '''returns String\n\n
+    getWidth()\n
     '''
 def setWidth():
-    '''public void setWidth(final String s)
+    '''returns None\n\n
+    setWidth(final String s)\n
     '''
-def HTMLTableCellElementImpl():
-    '''public HTMLTableCellElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLTableCellElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

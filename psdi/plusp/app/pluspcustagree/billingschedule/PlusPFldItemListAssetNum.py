@@ -1,17 +1,22 @@
-def PlusPFldItemListAssetNum():
-    '''public PlusPFldItemListAssetNum(final MboValue mbv, final String criteriaName, final String siteAttrib)
-    public PlusPFldItemListAssetNum(final MboValue mbv, final String criteriaName)
-    public PlusPFldItemListAssetNum(final MboValue mbv)
+def ():
+    '''returns PlusPFldItemListAssetNum\n\n
+    (final MboValue mbv, final String criteriaName, final String siteAttrib)\n
+    (final MboValue mbv, final String criteriaName)\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote valueFromLookup)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote valueFromLookup)\n
     '''

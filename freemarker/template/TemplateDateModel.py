@@ -1,0 +1,5 @@
+UNKNOWN = "int  0"
+TIME = "int  1"
+DATE = "int  2"
+DATETIME = "int  3"
+TYPE_NAMES = "List  Collections.unmodifiableList((List<?>)Arrays.asList(\"UNKNOWN\", \"TIME\", \"DATE\", \"DATETIME\"))"

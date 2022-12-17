@@ -1,15 +1,20 @@
-def TypeSafeEnum():
-    '''public TypeSafeEnum(final String name, final int key)
+def ():
+    '''returns TypeSafeEnum\n\n
+    (final String name, final int key)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getKey():
-    '''public byte getKey()
+    '''returns byte\n\n
+    getKey()\n
     '''
 def write():
-    '''public void write(final DataOutputStream s)
+    '''returns None\n\n
+    write(final DataOutputStream s)\n
     '''

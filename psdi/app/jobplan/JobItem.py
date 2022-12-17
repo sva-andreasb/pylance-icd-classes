@@ -1,45 +1,60 @@
-def JobItem():
-    '''public JobItem(final MboSet ms)
+def ():
+    '''returns JobItem\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def setLineCost():
-    '''public void setLineCost()
+    '''returns None\n\n
+    setLineCost()\n
     '''
 def setUnitCost():
-    '''public void setUnitCost()
+    '''returns None\n\n
+    setUnitCost()\n
     '''
 def setVendor():
-    '''public void setVendor()
+    '''returns None\n\n
+    setVendor()\n
     '''
 def setUnitCostFromInvvendor():
-    '''public void setUnitCostFromInvvendor()
+    '''returns None\n\n
+    setUnitCostFromInvvendor()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def setToolRate():
-    '''public void setToolRate()
+    '''returns None\n\n
+    setToolRate()\n
     '''
 def validateStoreLocSite():
-    '''public void validateStoreLocSite()
+    '''returns None\n\n
+    validateStoreLocSite()\n
     '''
 def getOrgForGL():
-    '''public String getOrgForGL(final String lookupAttr)
+    '''returns String\n\n
+    getOrgForGL(final String lookupAttr)\n
     '''

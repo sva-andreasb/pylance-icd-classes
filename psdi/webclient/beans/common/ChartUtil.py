@@ -2,63 +2,79 @@ chartTypeTrend = "String  \"trend\""
 chartTypeDial = "String  \"dial\""
 chartTypeBar = "String  \"bar\""
 chartTypePie = "String  \"pie\""
-def ChartUtil():
-    '''public ChartUtil()
+def ():
+    '''returns ChartUtil\n\n
+    ()\n
     '''
 def roundUp():
-    '''public double roundUp(final double val)
+    '''returns double\n\n
+    roundUp(final double val)\n
     '''
 def roundUpWithLog():
-    '''public double roundUpWithLog(double val)
+    '''returns double\n\n
+    roundUpWithLog(double val)\n
     '''
 def roundDown():
-    '''public double roundDown(final double val)
+    '''returns double\n\n
+    roundDown(final double val)\n
     '''
 def log():
-    '''public double log(final double value, final int base)
+    '''returns double\n\n
+    log(final double value, final int base)\n
     '''
 def formatNum():
-    '''public String formatNum(final double number, final int numfracdigits)
+    '''returns String\n\n
+    formatNum(final double number, final int numfracdigits)\n
     '''
 def numFracDigits():
-    '''public int numFracDigits(double number)
+    '''returns int\n\n
+    numFracDigits(double number)\n
     '''
 def computeTics():
-    '''public Vector computeTics(final double minVal, final double maxVal, final int maxTicks, final double step)
+    '''returns Vector\n\n
+    computeTics(final double minVal, final double maxVal, final int maxTicks, final double step)\n
     '''
 def tic():
-    '''public double tic(final double minVal, final double maxVal, final int maxTicks)
+    '''returns double\n\n
+    tic(final double minVal, final double maxVal, final int maxTicks)\n
     '''
 def getChartFont():
-    '''public String getChartFont(final WebClientSession sc)
+    '''returns String\n\n
+    getChartFont(final WebClientSession sc)\n
     '''
 def numberOfDigits():
-    '''public int numberOfDigits(final double value, final Locale userLocale)
+    '''returns int\n\n
+    numberOfDigits(final double value, final Locale userLocale)\n
     '''
 def getKPITrendChartColors():
-    '''public String[] getKPITrendChartColors(final WebClientSession wcs)
+    '''returns String[]\n\n
+    getKPITrendChartColors(final WebClientSession wcs)\n
     '''
 def getKPIChartColors():
-    '''public Properties getKPIChartColors(final WebClientSession wcs)
+    '''returns Properties\n\n
+    getKPIChartColors(final WebClientSession wcs)\n
     '''
 def getResultSetChartColors():
-    '''public String[] getResultSetChartColors(final WebClientSession wcs)
-    '''
-def getChartUtil():
-    '''public static synchronized ChartUtil getChartUtil()
+    '''returns String[]\n\n
+    getResultSetChartColors(final WebClientSession wcs)\n
     '''
 def loadChartPropertiesDOM():
-    '''public void loadChartPropertiesDOM()
+    '''returns None\n\n
+    loadChartPropertiesDOM()\n
     '''
 def decodeColor():
-    '''public Color decodeColor(final String hexValue)
+    '''returns Color\n\n
+    decodeColor(final String hexValue)\n
     '''
 def makeColorTableString():
-    '''public String makeColorTableString(final String[] colorTable)
+    '''returns String\n\n
+    makeColorTableString(final String[] colorTable)\n
     '''
 def getDefaultColor():
-    '''public String getDefaultColor()
+    '''returns String\n\n
+    getDefaultColor()\n
     '''
 def formatNumber():
-    '''public String formatNumber(final double dNumber, final Locale userLocale)
+    '''returns String\n\n
+    formatNumber(final double dNumber, final Locale userLocale)\n
     '''

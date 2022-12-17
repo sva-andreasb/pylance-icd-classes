@@ -1,39 +1,36 @@
-def JSONAnalyzer():
-    '''public JSONAnalyzer()
+def ():
+    '''returns JSONAnalyzer\n\n
+    ()\n
     '''
 def ingest():
-    '''public JSONResourceInfo ingest(final byte[] jsonData, final byte[] schemaData, final String resourceName, final String collectionProp, final String dateType, final String dateFormat, final boolean optimize)
+    '''returns JSONResourceInfo\n\n
+    ingest(final byte[] jsonData, final byte[] schemaData, final String resourceName, final String collectionProp, final String dateType, final String dateFormat, final boolean optimize)\n
     '''
 def isDateTime():
-    '''public boolean isDateTime(final String dateType, final String dateFormat, final String data)
+    '''returns boolean\n\n
+    isDateTime(final String dateType, final String dateFormat, final String data)\n
     '''
 def isDateTimeInMiliSec():
-    '''public boolean isDateTimeInMiliSec(final String dateType, final String propName, final long data)
-    '''
-def getMappedName():
-    '''public static String getMappedName(String propName, final boolean isObject)
-    '''
-def getResolvedName():
-    '''public static String getResolvedName(final String origPropName, String propName, int start)
+    '''returns boolean\n\n
+    isDateTimeInMiliSec(final String dateType, final String propName, final long data)\n
     '''
 def optimize():
-    '''public void optimize(final JSONResourceInfo resInfo)
-    '''
-def getResolvedAttrName():
-    '''public static String getResolvedAttrName(final String origAttrName, String attrName, final Set<String> props, int start)
-    '''
-def replaceInvalidChar():
-    '''public static String replaceInvalidChar(final String checkString)
+    '''returns None\n\n
+    optimize(final JSONResourceInfo resInfo)\n
     '''
 def formatParameter():
-    '''public String formatParameter(final String url, final String paramter, final String whereClause)
+    '''returns String\n\n
+    formatParameter(final String url, final String paramter, final String whereClause)\n
     '''
 def findParamters():
-    '''public String findParamters(final String paramName, final String whereClause, final boolean isRequired)
+    '''returns String\n\n
+    findParamters(final String paramName, final String whereClause, final boolean isRequired)\n
     '''
 def licenseCheck():
-    '''public boolean licenseCheck(final String productName)
+    '''returns boolean\n\n
+    licenseCheck(final String productName)\n
     '''
 def logAPICall():
-    '''public void logAPICall(final String productName, final String resourceName, final UserInfo userInfo)
+    '''returns None\n\n
+    logAPICall(final String productName, final String resourceName, final UserInfo userInfo)\n
     '''

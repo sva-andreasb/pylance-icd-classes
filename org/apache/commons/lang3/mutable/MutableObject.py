@@ -1,19 +1,25 @@
-def MutableObject():
-    '''public MutableObject()
-    public MutableObject(final T value)
+def ():
+    '''returns MutableObject\n\n
+    ()\n
+    (final T value)\n
     '''
 def getValue():
-    '''public T getValue()
+    '''returns T\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final T value)
+    '''returns None\n\n
+    setValue(final T value)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

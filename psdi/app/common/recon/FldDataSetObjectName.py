@@ -1,9 +1,12 @@
-def FldDataSetObjectName():
-    '''public FldDataSetObjectName(final MboValue mbv, final String dsOwner, final String dsClassStruct, final String dsAttrib, final String dsTitle, final String op, final String val)
+def ():
+    '''returns FldDataSetObjectName\n\n
+    (final MboValue mbv, final String dsOwner, final String dsClassStruct, final String dsAttrib, final String dsTitle, final String op, final String val)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

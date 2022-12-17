@@ -1,3 +1,4 @@
-def Client():
-    '''public Client()
+def ():
+    '''returns Client\n\n
+    ()\n
     '''

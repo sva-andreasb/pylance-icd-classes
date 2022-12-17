@@ -4,34 +4,39 @@ DRILLDOWN_DIALOG_RETURN_ASSET = "int  2"
 DRILLDOWN_DIALOG_RETURN_SYSTEM = "int  4"
 DRILLDOWN_DIALOG_RETURN_SITE = "int  8"
 DRILLDOWN_DIALOG_RETURN_ALL = "int  15"
-def AssetLocDrilldownBean():
-    '''public AssetLocDrilldownBean()
+def ():
+    '''returns AssetLocDrilldownBean\n\n
+    ()\n
     '''
 def getStartingTab():
-    '''public String getStartingTab()
+    '''returns String\n\n
+    getStartingTab()\n
     '''
 def execute():
-    '''public int execute()
-    '''
-def setValue():
-    '''public synchronized void setValue(final String attribute, final String value)
-    public synchronized void setValue(final String attribute, final MboRemote mboRemote)
+    '''returns int\n\n
+    execute()\n
     '''
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''
 def getflag():
-    '''public boolean getflag(final long flag)
+    '''returns boolean\n\n
+    getflag(final long flag)\n
     '''
 def setflag():
-    '''public void setflag(final long flag)
+    '''returns None\n\n
+    setflag(final long flag)\n
     '''
 def clearflag():
-    '''public void clearflag(final long flag)
+    '''returns None\n\n
+    clearflag(final long flag)\n
     '''
 def wasAssetNull():
-    '''public boolean wasAssetNull()
+    '''returns boolean\n\n
+    wasAssetNull()\n
     '''
 def wasLocNull():
-    '''public boolean wasLocNull()
+    '''returns boolean\n\n
+    wasLocNull()\n
     '''

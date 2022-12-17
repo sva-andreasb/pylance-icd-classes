@@ -1,6 +1,8 @@
-def PmActivityChangeStatus():
-    '''public PmActivityChangeStatus()
+def ():
+    '''returns PmActivityChangeStatus\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

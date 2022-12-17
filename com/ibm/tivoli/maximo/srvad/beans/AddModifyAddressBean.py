@@ -1,12 +1,12 @@
-def AddModifyAddressBean():
-    '''public AddModifyAddressBean()
+def ():
+    '''returns AddModifyAddressBean\n\n
+    ()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

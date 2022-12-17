@@ -1,47 +1,62 @@
 sid = "short  434"
-def DVALRecord():
-    '''public DVALRecord()
-    public DVALRecord(final RecordInputStream in)
+def ():
+    '''returns DVALRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setOptions():
-    '''public void setOptions(final short options)
+    '''returns None\n\n
+    setOptions(final short options)\n
     '''
 def setHorizontalPos():
-    '''public void setHorizontalPos(final int horiz_pos)
+    '''returns None\n\n
+    setHorizontalPos(final int horiz_pos)\n
     '''
 def setVerticalPos():
-    '''public void setVerticalPos(final int vert_pos)
+    '''returns None\n\n
+    setVerticalPos(final int vert_pos)\n
     '''
 def setObjectID():
-    '''public void setObjectID(final int cboID)
+    '''returns None\n\n
+    setObjectID(final int cboID)\n
     '''
 def setDVRecNo():
-    '''public void setDVRecNo(final int dvNo)
+    '''returns None\n\n
+    setDVRecNo(final int dvNo)\n
     '''
 def getOptions():
-    '''public short getOptions()
+    '''returns short\n\n
+    getOptions()\n
     '''
 def getHorizontalPos():
-    '''public int getHorizontalPos()
+    '''returns int\n\n
+    getHorizontalPos()\n
     '''
 def getVerticalPos():
-    '''public int getVerticalPos()
+    '''returns int\n\n
+    getVerticalPos()\n
     '''
 def getObjectID():
-    '''public int getObjectID()
+    '''returns int\n\n
+    getObjectID()\n
     '''
 def getDVRecNo():
-    '''public int getDVRecNo()
+    '''returns int\n\n
+    getDVRecNo()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public DVALRecord clone()
+    '''returns DVALRecord\n\n
+    clone()\n
     '''

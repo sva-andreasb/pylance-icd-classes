@@ -1,6 +1,8 @@
 def accept():
-    '''public boolean accept(final Stanza packet)
+    '''returns boolean\n\n
+    accept(final Stanza packet)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

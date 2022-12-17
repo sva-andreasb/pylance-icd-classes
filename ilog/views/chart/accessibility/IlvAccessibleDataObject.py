@@ -1,31 +1,37 @@
-def IlvAccessibleDataObject():
-    '''public IlvAccessibleDataObject(final IlvChartRenderer a, final IlvObjectModelWithColumns b, final Object c)
-    public IlvAccessibleDataObject(final IlvChartRenderer a, final IlvTreeModelWithColumns b, final Object c, final TreePath d)
-    '''
-def getRenderer():
-    '''public final IlvChartRenderer getRenderer()
+def ():
+    '''returns IlvAccessibleDataObject\n\n
+    (final IlvChartRenderer a, final IlvObjectModelWithColumns b, final Object c)\n
+    (final IlvChartRenderer a, final IlvTreeModelWithColumns b, final Object c, final TreePath d)\n
     '''
 def getModel():
-    '''public IlvObjectModelWithColumns getModel()
+    '''returns IlvObjectModelWithColumns\n\n
+    getModel()\n
     '''
 def getObject():
-    '''public Object getObject()
+    '''returns Object\n\n
+    getObject()\n
     '''
 def getPath():
-    '''public TreePath getPath()
+    '''returns TreePath\n\n
+    getPath()\n
     '''
 def isViewable():
-    '''public boolean isViewable()
+    '''returns boolean\n\n
+    isViewable()\n
     '''
 def drawSelectionHandles():
-    '''public void drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle)
+    '''returns None\n\n
+    drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

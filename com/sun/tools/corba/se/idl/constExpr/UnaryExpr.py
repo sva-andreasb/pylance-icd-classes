@@ -1,11 +1,14 @@
-def UnaryExpr():
-    '''public UnaryExpr(final String op, final Expression operand)
+def ():
+    '''returns UnaryExpr\n\n
+    (final String op, final Expression operand)\n
     '''
 def op():
-    '''public void op(final String s)
-    public String op()
+    '''returns String\n\n
+    op(final String s)\n
+    op()\n
     '''
 def operand():
-    '''public void operand(final Expression operand)
-    public Expression operand()
+    '''returns Expression\n\n
+    operand(final Expression operand)\n
+    operand()\n
     '''

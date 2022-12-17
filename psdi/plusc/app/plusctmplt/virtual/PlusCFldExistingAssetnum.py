@@ -1,39 +1,52 @@
-def PlusCFldExistingAssetnum():
-    '''public PlusCFldExistingAssetnum(final MboValue mbv)
+def ():
+    '''returns PlusCFldExistingAssetnum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String where, final String identifier)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String where, final String identifier)\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String value, final boolean exact)\n
     '''
 def setRelationship():
-    '''public void setRelationship(final String objectName, final String whereClause)
+    '''returns None\n\n
+    setRelationship(final String objectName, final String whereClause)\n
     '''
 def getOriginalWhereClause():
-    '''public String getOriginalWhereClause()
+    '''returns String\n\n
+    getOriginalWhereClause()\n
     '''
 def callSuper_getList():
-    '''public MboSetRemote callSuper_getList()
+    '''returns MboSetRemote\n\n
+    callSuper_getList()\n
     '''
 def callSuper_getMboSet():
-    '''public MboSetRemote callSuper_getMboSet(final String where, final String identifier)
+    '''returns MboSetRemote\n\n
+    callSuper_getMboSet(final String where, final String identifier)\n
     '''
 def callSuper_setValueFromLookup():
-    '''public void callSuper_setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    callSuper_setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def callSuper_setRelationship():
-    '''public void callSuper_setRelationship(final String objectName, final String whereClause)
+    '''returns None\n\n
+    callSuper_setRelationship(final String objectName, final String whereClause)\n
     '''
 def callSuper_smartFind():
-    '''public MboSetRemote callSuper_smartFind(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    callSuper_smartFind(final String value, final boolean exact)\n
     '''

@@ -1,4 +1,5 @@
-def SAXNotSupportedException():
-    '''public SAXNotSupportedException()
-    public SAXNotSupportedException(final String s)
+def ():
+    '''returns SAXNotSupportedException\n\n
+    ()\n
+    (final String s)\n
     '''

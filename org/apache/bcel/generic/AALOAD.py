@@ -1,6 +1,8 @@
-def AALOAD():
-    '''public AALOAD()
+def ():
+    '''returns AALOAD\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

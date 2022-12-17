@@ -1,3 +1,4 @@
-def VpkMsgSetUserName():
-    '''public VpkMsgSetUserName(final int n, final String str)
+def ():
+    '''returns VpkMsgSetUserName\n\n
+    (final int n, final String str)\n
     '''

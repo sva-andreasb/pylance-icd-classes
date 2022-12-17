@@ -1,42 +1,56 @@
-def DMStrucSet():
-    '''public DMStrucSet(final MboServerInterface ms)
+def ():
+    '''returns DMStrucSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def add():
-    '''public MboRemote add(final long uniqueId, final String nodeDesc, final String relationship)
+    '''returns MboRemote\n\n
+    add(final long uniqueId, final String nodeDesc, final String relationship)\n
     '''
 def getAllHierarchies():
-    '''public MboValueData[][] getAllHierarchies(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getAllHierarchies(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getChildren():
-    '''public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getChildren(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getHierarchy():
-    '''public MboValueData[] getHierarchy(final String object, final String key)
+    '''returns MboValueData[]\n\n
+    getHierarchy(final String object, final String key)\n
     '''
 def getParent():
-    '''public MboValueData[] getParent(final String object, final String key, final String[] attrs)
+    '''returns MboValueData[]\n\n
+    getParent(final String object, final String key, final String[] attrs)\n
     '''
 def getPathToTop():
-    '''public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getSiblings():
-    '''public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getSiblings(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getTop():
-    '''public MboValueData[][] getTop(final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getTop(final String[] attrs, final int maxRows)\n
     '''
 def getUniqueIDValue():
-    '''public MboValueData getUniqueIDValue(final String object, final String[] attributes, final String[] values)
+    '''returns MboValueData\n\n
+    getUniqueIDValue(final String object, final String[] attributes, final String[] values)\n
     '''
 def setHierarchy():
-    '''public void setHierarchy(final String object, final String key, final String hierarchy)
+    '''returns None\n\n
+    setHierarchy(final String object, final String key, final String hierarchy)\n
     '''
 def getRelatedMbo():
-    '''public MboRemote getRelatedMbo(final long uniqueId)
+    '''returns MboRemote\n\n
+    getRelatedMbo(final long uniqueId)\n
     '''
 def getNodeMap():
-    '''public DMStrucNodeMap getNodeMap()
+    '''returns DMStrucNodeMap\n\n
+    getNodeMap()\n
     '''
 def setNodeMap():
-    '''public void setNodeMap(final DMStrucNodeMap nodeMap)
+    '''returns None\n\n
+    setNodeMap(final DMStrucNodeMap nodeMap)\n
     '''

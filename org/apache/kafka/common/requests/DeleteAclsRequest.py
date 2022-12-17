@@ -1,24 +1,21 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def DeleteAclsRequest():
-    '''public DeleteAclsRequest(final Struct struct, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final List<AclBindingFilter> filters)\n
     '''
 def filters():
-    '''public List<AclBindingFilter> filters()
+    '''returns List<AclBindingFilter>\n\n
+    filters()\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable throwable)
-    '''
-def parse():
-    '''public static DeleteAclsRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final List<AclBindingFilter> filters)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable throwable)\n
     '''
 def build():
-    '''public DeleteAclsRequest build(final short version)
+    '''returns DeleteAclsRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

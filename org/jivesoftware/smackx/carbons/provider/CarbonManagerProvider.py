@@ -1,3 +1,4 @@
 def parse():
-    '''public CarbonExtension parse(final XmlPullParser parser, final int initialDepth)
+    '''returns CarbonExtension\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

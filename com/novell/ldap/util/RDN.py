@@ -1,32 +1,42 @@
-def RDN():
-    '''public RDN(final String rawValue)
-    public RDN()
+def ():
+    '''returns RDN\n\n
+    (final String rawValue)\n
+    ()\n
     '''
 def equals():
-    '''public boolean equals(final RDN rdn)
+    '''returns boolean\n\n
+    equals(final RDN rdn)\n
     '''
 def add():
-    '''public void add(final String e, final String e2, final String str)
+    '''returns None\n\n
+    add(final String e, final String e2, final String str)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final boolean b)
+    '''returns String\n\n
+    toString()\n
+    toString(final boolean b)\n
     '''
 def explodeRDN():
-    '''public String[] explodeRDN(final boolean b)
+    '''returns String[]\n\n
+    explodeRDN(final boolean b)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getTypes():
-    '''public String[] getTypes()
+    '''returns String[]\n\n
+    getTypes()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getValues():
-    '''public String[] getValues()
+    '''returns String[]\n\n
+    getValues()\n
     '''
 def isMultivalued():
-    '''public boolean isMultivalued()
+    '''returns boolean\n\n
+    isMultivalued()\n
     '''

@@ -14,245 +14,305 @@ ATTACHMENT_ENCAPSULATION_FORMAT_DIME = "String  \"axis.attachment.style.dime\""
 ATTACHMENT_ENCAPSULATION_FORMAT_MTOM = "String  \"axis.attachment.style.mtom\""
 CONNECTION_TIMEOUT_PROPERTY = "String  \"axis.connection.timeout\""
 STREAMING_PROPERTY = "String  \"axis.streaming\""
-def Call():
-    '''public Call(final Service service)
-    public Call(final String url)
-    public Call(final URL url)
+def ():
+    '''returns Call\n\n
+    (final Service service)\n
+    (final String url)\n
+    (final URL url)\n
     '''
 def setProperty():
-    '''public void setProperty(final String name, final Object value)
+    '''returns None\n\n
+    setProperty(final String name, final Object value)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String name)
+    '''returns Object\n\n
+    getProperty(final String name)\n
     '''
 def removeProperty():
-    '''public void removeProperty(final String name)
+    '''returns None\n\n
+    removeProperty(final String name)\n
     '''
 def getPropertyNames():
-    '''public Iterator getPropertyNames()
+    '''returns Iterator\n\n
+    getPropertyNames()\n
     '''
 def isPropertySupported():
-    '''public boolean isPropertySupported(final String name)
+    '''returns boolean\n\n
+    isPropertySupported(final String name)\n
     '''
 def setUsername():
-    '''public void setUsername(final String username)
+    '''returns None\n\n
+    setUsername(final String username)\n
     '''
 def getUsername():
-    '''public String getUsername()
+    '''returns String\n\n
+    getUsername()\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def setMaintainSession():
-    '''public void setMaintainSession(final boolean yesno)
+    '''returns None\n\n
+    setMaintainSession(final boolean yesno)\n
     '''
 def getMaintainSession():
-    '''public boolean getMaintainSession()
+    '''returns boolean\n\n
+    getMaintainSession()\n
     '''
 def setOperationStyle():
-    '''public void setOperationStyle(final String operationStyle)
-    public void setOperationStyle(final Style operationStyle)
+    '''returns None\n\n
+    setOperationStyle(final String operationStyle)\n
+    setOperationStyle(final Style operationStyle)\n
     '''
 def getOperationStyle():
-    '''public Style getOperationStyle()
+    '''returns Style\n\n
+    getOperationStyle()\n
     '''
 def setOperationUse():
-    '''public void setOperationUse(final String operationUse)
-    public void setOperationUse(final Use operationUse)
+    '''returns None\n\n
+    setOperationUse(final String operationUse)\n
+    setOperationUse(final Use operationUse)\n
     '''
 def getOperationUse():
-    '''public Use getOperationUse()
+    '''returns Use\n\n
+    getOperationUse()\n
     '''
 def setUseSOAPAction():
-    '''public void setUseSOAPAction(final boolean useSOAPAction)
+    '''returns None\n\n
+    setUseSOAPAction(final boolean useSOAPAction)\n
     '''
 def useSOAPAction():
-    '''public boolean useSOAPAction()
+    '''returns boolean\n\n
+    useSOAPAction()\n
     '''
 def setSOAPActionURI():
-    '''public void setSOAPActionURI(final String SOAPActionURI)
+    '''returns None\n\n
+    setSOAPActionURI(final String SOAPActionURI)\n
     '''
 def getSOAPActionURI():
-    '''public String getSOAPActionURI()
+    '''returns String\n\n
+    getSOAPActionURI()\n
     '''
 def setEncodingStyle():
-    '''public void setEncodingStyle(final String namespaceURI)
+    '''returns None\n\n
+    setEncodingStyle(final String namespaceURI)\n
     '''
 def getEncodingStyle():
-    '''public String getEncodingStyle()
+    '''returns String\n\n
+    getEncodingStyle()\n
     '''
 def setTargetEndpointAddress():
-    '''public void setTargetEndpointAddress(final String address)
-    public void setTargetEndpointAddress(final URL address)
+    '''returns None\n\n
+    setTargetEndpointAddress(final String address)\n
+    setTargetEndpointAddress(final URL address)\n
     '''
 def getTargetEndpointAddress():
-    '''public String getTargetEndpointAddress()
+    '''returns String\n\n
+    getTargetEndpointAddress()\n
     '''
 def getTimeout():
-    '''public Integer getTimeout()
+    '''returns Integer\n\n
+    getTimeout()\n
     '''
 def setTimeout():
-    '''public void setTimeout(final Integer timeout)
+    '''returns None\n\n
+    setTimeout(final Integer timeout)\n
     '''
 def getStreaming():
-    '''public boolean getStreaming()
+    '''returns boolean\n\n
+    getStreaming()\n
     '''
 def setStreaming():
-    '''public void setStreaming(final boolean useStreaming)
+    '''returns None\n\n
+    setStreaming(final boolean useStreaming)\n
     '''
 def isParameterAndReturnSpecRequired():
-    '''public boolean isParameterAndReturnSpecRequired(final QName operationName)
+    '''returns boolean\n\n
+    isParameterAndReturnSpecRequired(final QName operationName)\n
     '''
 def addParameter():
-    '''public void addParameter(final QName paramName, final QName xmlType, final ParameterMode parameterMode)
-    public void addParameter(final QName paramName, final QName xmlType, final Class javaType, final ParameterMode parameterMode)
-    public void addParameter(final String paramName, final QName xmlType, final ParameterMode parameterMode)
-    public void addParameter(final String paramName, final QName xmlType, final Class javaType, final ParameterMode parameterMode)
+    '''returns None\n\n
+    addParameter(final QName paramName, final QName xmlType, final ParameterMode parameterMode)\n
+    addParameter(final QName paramName, final QName xmlType, final Class javaType, final ParameterMode parameterMode)\n
+    addParameter(final String paramName, final QName xmlType, final ParameterMode parameterMode)\n
+    addParameter(final String paramName, final QName xmlType, final Class javaType, final ParameterMode parameterMode)\n
     '''
 def addParameterAsHeader():
-    '''public void addParameterAsHeader(final QName paramName, final QName xmlType, final ParameterMode parameterMode, final ParameterMode headerMode)
-    public void addParameterAsHeader(final QName paramName, final QName xmlType, final Class javaType, final ParameterMode parameterMode, final ParameterMode headerMode)
+    '''returns None\n\n
+    addParameterAsHeader(final QName paramName, final QName xmlType, final ParameterMode parameterMode, final ParameterMode headerMode)\n
+    addParameterAsHeader(final QName paramName, final QName xmlType, final Class javaType, final ParameterMode parameterMode, final ParameterMode headerMode)\n
     '''
 def getParameterTypeByName():
-    '''public QName getParameterTypeByName(final String paramName)
+    '''returns QName\n\n
+    getParameterTypeByName(final String paramName)\n
     '''
 def getParameterTypeByQName():
-    '''public QName getParameterTypeByQName(final QName paramQName)
+    '''returns QName\n\n
+    getParameterTypeByQName(final QName paramQName)\n
     '''
 def setReturnType():
-    '''public void setReturnType(final QName type)
-    public void setReturnType(final QName xmlType, final Class javaType)
+    '''returns None\n\n
+    setReturnType(final QName type)\n
+    setReturnType(final QName xmlType, final Class javaType)\n
     '''
 def setReturnTypeAsHeader():
-    '''public void setReturnTypeAsHeader(final QName xmlType)
-    public void setReturnTypeAsHeader(final QName xmlType, final Class javaType)
+    '''returns None\n\n
+    setReturnTypeAsHeader(final QName xmlType)\n
+    setReturnTypeAsHeader(final QName xmlType, final Class javaType)\n
     '''
 def getReturnType():
-    '''public QName getReturnType()
+    '''returns QName\n\n
+    getReturnType()\n
     '''
 def setReturnQName():
-    '''public void setReturnQName(final QName qname)
+    '''returns None\n\n
+    setReturnQName(final QName qname)\n
     '''
 def setReturnClass():
-    '''public void setReturnClass(final Class cls)
+    '''returns None\n\n
+    setReturnClass(final Class cls)\n
     '''
 def removeAllParameters():
-    '''public void removeAllParameters()
+    '''returns None\n\n
+    removeAllParameters()\n
     '''
 def getOperationName():
-    '''public QName getOperationName()
+    '''returns QName\n\n
+    getOperationName()\n
     '''
 def setOperationName():
-    '''public void setOperationName(final QName opName)
-    public void setOperationName(final String opName)
+    '''returns None\n\n
+    setOperationName(final QName opName)\n
+    setOperationName(final String opName)\n
     '''
 def setOperation():
-    '''public void setOperation(final String opName)
-    public void setOperation(final QName portName, final String opName)
-    public void setOperation(final QName portName, final QName opName)
-    public void setOperation(final OperationDesc operation)
+    '''returns None\n\n
+    setOperation(final String opName)\n
+    setOperation(final QName portName, final String opName)\n
+    setOperation(final QName portName, final QName opName)\n
+    setOperation(final OperationDesc operation)\n
     '''
 def getPortName():
-    '''public QName getPortName()
+    '''returns QName\n\n
+    getPortName()\n
     '''
 def setPortName():
-    '''public void setPortName(final QName portName)
+    '''returns None\n\n
+    setPortName(final QName portName)\n
     '''
 def getPortTypeName():
-    '''public QName getPortTypeName()
+    '''returns QName\n\n
+    getPortTypeName()\n
     '''
 def setPortTypeName():
-    '''public void setPortTypeName(final QName portType)
+    '''returns None\n\n
+    setPortTypeName(final QName portType)\n
     '''
 def setSOAPVersion():
-    '''public void setSOAPVersion(final SOAPConstants soapConstants)
+    '''returns None\n\n
+    setSOAPVersion(final SOAPConstants soapConstants)\n
     '''
 def invoke():
-    '''public Object invoke(final QName operationName, final Object[] params)
-    public Object invoke(final Object[] params)
-    public SOAPEnvelope invoke(Message msg)
-    public SOAPEnvelope invoke(final SOAPEnvelope env)
-    public Object invoke(final String namespace, final String method, final Object[] args)
-    public Object invoke(final String method, final Object[] args)
-    public Object invoke(final RPCElement body)
-    public void invoke()
+    '''returns None\n\n
+    invoke(final QName operationName, final Object[] params)\n
+    invoke(final Object[] params)\n
+    invoke(Message msg)\n
+    invoke(final SOAPEnvelope env)\n
+    invoke(final String namespace, final String method, final Object[] args)\n
+    invoke(final String method, final Object[] args)\n
+    invoke(final RPCElement body)\n
+    invoke()\n
     '''
 def invokeOneWay():
-    '''public void invokeOneWay(final Object[] params)
-    '''
-def setTransportForProtocol():
-    '''public static void setTransportForProtocol(final String protocol, final Class transportClass)
-    '''
-def initialize():
-    '''public static synchronized void initialize()
-    '''
-def addTransportPackage():
-    '''public static synchronized void addTransportPackage(final String packageName)
+    '''returns None\n\n
+    invokeOneWay(final Object[] params)\n
     '''
 def run():
-    '''public Object run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def setTransport():
-    '''public void setTransport(final Transport trans)
+    '''returns None\n\n
+    setTransport(final Transport trans)\n
     '''
 def getTransportForProtocol():
-    '''public Transport getTransportForProtocol(final String protocol)
+    '''returns Transport\n\n
+    getTransportForProtocol(final String protocol)\n
     '''
 def setRequestMessage():
-    '''public void setRequestMessage(final Message msg)
+    '''returns None\n\n
+    setRequestMessage(final Message msg)\n
     '''
 def getResponseMessage():
-    '''public Message getResponseMessage()
+    '''returns Message\n\n
+    getResponseMessage()\n
     '''
 def getMessageContext():
-    '''public MessageContext getMessageContext()
+    '''returns MessageContext\n\n
+    getMessageContext()\n
     '''
 def addHeader():
-    '''public void addHeader(final SOAPHeaderElement header)
+    '''returns None\n\n
+    addHeader(final SOAPHeaderElement header)\n
     '''
 def clearHeaders():
-    '''public void clearHeaders()
+    '''returns None\n\n
+    clearHeaders()\n
     '''
 def getTypeMapping():
-    '''public TypeMapping getTypeMapping()
+    '''returns TypeMapping\n\n
+    getTypeMapping()\n
     '''
 def registerTypeMapping():
-    '''public void registerTypeMapping(final Class javaType, final QName xmlType, final SerializerFactory sf, final DeserializerFactory df)
-    public void registerTypeMapping(final Class javaType, final QName xmlType, final SerializerFactory sf, final DeserializerFactory df, final boolean force)
-    public void registerTypeMapping(final Class javaType, final QName xmlType, final Class sfClass, final Class dfClass)
-    public void registerTypeMapping(final Class javaType, final QName xmlType, final Class sfClass, final Class dfClass, final boolean force)
+    '''returns None\n\n
+    registerTypeMapping(final Class javaType, final QName xmlType, final SerializerFactory sf, final DeserializerFactory df)\n
+    registerTypeMapping(final Class javaType, final QName xmlType, final SerializerFactory sf, final DeserializerFactory df, final boolean force)\n
+    registerTypeMapping(final Class javaType, final QName xmlType, final Class sfClass, final Class dfClass)\n
+    registerTypeMapping(final Class javaType, final QName xmlType, final Class sfClass, final Class dfClass, final boolean force)\n
     '''
 def setOption():
-    '''public void setOption(final String name, final Object value)
+    '''returns None\n\n
+    setOption(final String name, final Object value)\n
     '''
 def getOutputParams():
-    '''public Map getOutputParams()
+    '''returns Map\n\n
+    getOutputParams()\n
     '''
 def getOutputValues():
-    '''public List getOutputValues()
+    '''returns List\n\n
+    getOutputValues()\n
     '''
 def getService():
-    '''public Service getService()
+    '''returns Service\n\n
+    getService()\n
     '''
 def setSOAPService():
-    '''public void setSOAPService(final SOAPService service)
+    '''returns None\n\n
+    setSOAPService(final SOAPService service)\n
     '''
 def setClientHandlers():
-    '''public void setClientHandlers(final Handler reqHandler, final Handler respHandler)
+    '''returns None\n\n
+    setClientHandlers(final Handler reqHandler, final Handler respHandler)\n
     '''
 def addAttachmentPart():
-    '''public void addAttachmentPart(final Object attachment)
+    '''returns None\n\n
+    addAttachmentPart(final Object attachment)\n
     '''
 def addFault():
-    '''public void addFault(final QName qname, final Class cls, final QName xmlType, final boolean isComplex)
+    '''returns None\n\n
+    addFault(final QName qname, final Class cls, final QName xmlType, final boolean isComplex)\n
     '''
 def getOperation():
-    '''public OperationDesc getOperation()
+    '''returns OperationDesc\n\n
+    getOperation()\n
     '''
 def clearOperation():
-    '''public void clearOperation()
+    '''returns None\n\n
+    clearOperation()\n
     '''

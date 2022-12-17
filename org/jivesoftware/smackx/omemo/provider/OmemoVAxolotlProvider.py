@@ -1,3 +1,4 @@
 def parse():
-    '''public OmemoVAxolotlElement parse(final XmlPullParser parser, final int initialDepth)
+    '''returns OmemoVAxolotlElement\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

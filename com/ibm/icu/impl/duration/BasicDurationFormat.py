@@ -1,22 +1,25 @@
-def getInstance():
-    '''public static BasicDurationFormat getInstance(final ULocale locale)
-    '''
 def format():
-    '''public StringBuffer format(final Object object, final StringBuffer toAppend, final FieldPosition pos)
+    '''returns StringBuffer\n\n
+    format(final Object object, final StringBuffer toAppend, final FieldPosition pos)\n
     '''
-def BasicDurationFormat():
-    '''public BasicDurationFormat()
-    public BasicDurationFormat(final ULocale locale)
+def ():
+    '''returns BasicDurationFormat\n\n
+    ()\n
+    (final ULocale locale)\n
     '''
 def formatDurationFrom():
-    '''public String formatDurationFrom(final long duration, final long referenceDate)
+    '''returns String\n\n
+    formatDurationFrom(final long duration, final long referenceDate)\n
     '''
 def formatDurationFromNow():
-    '''public String formatDurationFromNow(final long duration)
+    '''returns String\n\n
+    formatDurationFromNow(final long duration)\n
     '''
 def formatDurationFromNowTo():
-    '''public String formatDurationFromNowTo(final Date targetDate)
+    '''returns String\n\n
+    formatDurationFromNowTo(final Date targetDate)\n
     '''
 def formatDuration():
-    '''public String formatDuration(final Object obj)
+    '''returns String\n\n
+    formatDuration(final Object obj)\n
     '''

@@ -1,38 +1,46 @@
-def HttpService():
-    '''public HttpService(final HttpProcessor processor, final ConnectionReuseStrategy connStrategy, final HttpResponseFactory responseFactory, final HttpRequestHandlerResolver handlerResolver, final HttpExpectationVerifier expectationVerifier, final HttpParams params)
-    public HttpService(final HttpProcessor processor, final ConnectionReuseStrategy connStrategy, final HttpResponseFactory responseFactory, final HttpRequestHandlerResolver handlerResolver, final HttpParams params)
-    public HttpService(final HttpProcessor proc, final ConnectionReuseStrategy connStrategy, final HttpResponseFactory responseFactory)
-    public HttpService(final HttpProcessor processor, final ConnectionReuseStrategy connStrategy, final HttpResponseFactory responseFactory, final HttpRequestHandlerMapper handlerMapper, final HttpExpectationVerifier expectationVerifier)
-    public HttpService(final HttpProcessor processor, final ConnectionReuseStrategy connStrategy, final HttpResponseFactory responseFactory, final HttpRequestHandlerMapper handlerMapper)
-    public HttpService(final HttpProcessor processor, final HttpRequestHandlerMapper handlerMapper)
+def ():
+    '''returns HttpRequestHandlerResolverAdapter\n\n
+    (final HttpProcessor processor, final ConnectionReuseStrategy connStrategy, final HttpResponseFactory responseFactory, final HttpRequestHandlerResolver handlerResolver, final HttpExpectationVerifier expectationVerifier, final HttpParams params)\n
+    (final HttpProcessor processor, final ConnectionReuseStrategy connStrategy, final HttpResponseFactory responseFactory, final HttpRequestHandlerResolver handlerResolver, final HttpParams params)\n
+    (final HttpProcessor proc, final ConnectionReuseStrategy connStrategy, final HttpResponseFactory responseFactory)\n
+    (final HttpProcessor processor, final ConnectionReuseStrategy connStrategy, final HttpResponseFactory responseFactory, final HttpRequestHandlerMapper handlerMapper, final HttpExpectationVerifier expectationVerifier)\n
+    (final HttpProcessor processor, final ConnectionReuseStrategy connStrategy, final HttpResponseFactory responseFactory, final HttpRequestHandlerMapper handlerMapper)\n
+    (final HttpProcessor processor, final HttpRequestHandlerMapper handlerMapper)\n
+    (final HttpRequestHandlerResolver resolver)\n
     '''
 def setHttpProcessor():
-    '''public void setHttpProcessor(final HttpProcessor processor)
+    '''returns None\n\n
+    setHttpProcessor(final HttpProcessor processor)\n
     '''
 def setConnReuseStrategy():
-    '''public void setConnReuseStrategy(final ConnectionReuseStrategy connStrategy)
+    '''returns None\n\n
+    setConnReuseStrategy(final ConnectionReuseStrategy connStrategy)\n
     '''
 def setResponseFactory():
-    '''public void setResponseFactory(final HttpResponseFactory responseFactory)
+    '''returns None\n\n
+    setResponseFactory(final HttpResponseFactory responseFactory)\n
     '''
 def setParams():
-    '''public void setParams(final HttpParams params)
+    '''returns None\n\n
+    setParams(final HttpParams params)\n
     '''
 def setHandlerResolver():
-    '''public void setHandlerResolver(final HttpRequestHandlerResolver handlerResolver)
+    '''returns None\n\n
+    setHandlerResolver(final HttpRequestHandlerResolver handlerResolver)\n
     '''
 def setExpectationVerifier():
-    '''public void setExpectationVerifier(final HttpExpectationVerifier expectationVerifier)
+    '''returns None\n\n
+    setExpectationVerifier(final HttpExpectationVerifier expectationVerifier)\n
     '''
 def getParams():
-    '''public HttpParams getParams()
+    '''returns HttpParams\n\n
+    getParams()\n
     '''
 def handleRequest():
-    '''public void handleRequest(final HttpServerConnection conn, final HttpContext context)
-    '''
-def HttpRequestHandlerResolverAdapter():
-    '''public HttpRequestHandlerResolverAdapter(final HttpRequestHandlerResolver resolver)
+    '''returns None\n\n
+    handleRequest(final HttpServerConnection conn, final HttpContext context)\n
     '''
 def lookup():
-    '''public HttpRequestHandler lookup(final HttpRequest request)
+    '''returns HttpRequestHandler\n\n
+    lookup(final HttpRequest request)\n
     '''

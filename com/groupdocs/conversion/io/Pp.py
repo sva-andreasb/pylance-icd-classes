@@ -1,30 +1,26 @@
-def Pp():
-    '''public Pp()
-    public Pp(final long fe)
-    public Pp(final long n, final Pq... array)
+def ():
+    '''returns Pp\n\n
+    ()\n
+    (final long fe)\n
+    (final long n, final Pq... array)\n
     '''
 def getInterval():
-    '''public long getInterval()
-    '''
-def setThreadFactory():
-    '''public synchronized void setThreadFactory(final ThreadFactory threadFactory)
+    '''returns long\n\n
+    getInterval()\n
     '''
 def c():
-    '''public void c(final Pq pq)
+    '''returns None\n\n
+    c(final Pq pq)\n
     '''
 def d():
-    '''public void d(final Pq pq)
+    '''returns None\n\n
+    d(final Pq pq)\n
     '''
 def getObservers():
-    '''public Iterable<Pq> getObservers()
-    '''
-def start():
-    '''public synchronized void start()
-    '''
-def stop():
-    '''public synchronized void stop()
-    public synchronized void stop(final long stopInterval)
+    '''returns Iterable<Pq>\n\n
+    getObservers()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

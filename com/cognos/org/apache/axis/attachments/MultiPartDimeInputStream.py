@@ -1,23 +1,30 @@
-def MultiPartDimeInputStream():
-    '''public MultiPartDimeInputStream(final InputStream is)
+def ():
+    '''returns MultiPartDimeInputStream\n\n
+    (final InputStream is)\n
     '''
 def getAttachmentByReference():
-    '''public Part getAttachmentByReference(final String[] id)
+    '''returns Part\n\n
+    getAttachmentByReference(final String[] id)\n
     '''
 def getAttachments():
-    '''public Collection getAttachments()
+    '''returns Collection\n\n
+    getAttachments()\n
     '''
 def getContentLocation():
-    '''public String getContentLocation()
+    '''returns String\n\n
+    getContentLocation()\n
     '''
 def getContentId():
-    '''public String getContentId()
+    '''returns String\n\n
+    getContentId()\n
     '''
 def read():
-    '''public int read(final byte[] b, final int off, final int len)
-    public int read(final byte[] b)
-    public int read()
+    '''returns int\n\n
+    read(final byte[] b, final int off, final int len)\n
+    read(final byte[] b)\n
+    read()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

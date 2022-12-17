@@ -1,6 +1,8 @@
 def getReusableComponents():
-    '''public TokenStreamComponents getReusableComponents(final Analyzer analyzer, final String fieldName)
+    '''returns TokenStreamComponents\n\n
+    getReusableComponents(final Analyzer analyzer, final String fieldName)\n
     '''
 def setReusableComponents():
-    '''public void setReusableComponents(final Analyzer analyzer, final String fieldName, final TokenStreamComponents components)
+    '''returns None\n\n
+    setReusableComponents(final Analyzer analyzer, final String fieldName, final TokenStreamComponents components)\n
     '''

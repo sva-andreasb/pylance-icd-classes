@@ -1,12 +1,16 @@
-def ICCColorSpaceWithIntent():
-    '''public ICCColorSpaceWithIntent(final ICC_Profile p, final RenderingIntent intent, final String profileName, final String profileURI)
+def ():
+    '''returns ICCColorSpaceWithIntent\n\n
+    (final ICC_Profile p, final RenderingIntent intent, final String profileName, final String profileURI)\n
     '''
 def intendedToRGB():
-    '''public float[] intendedToRGB(final float[] values)
+    '''returns float[]\n\n
+    intendedToRGB(final float[] values)\n
     '''
 def getProfileName():
-    '''public String getProfileName()
+    '''returns String\n\n
+    getProfileName()\n
     '''
 def getProfileURI():
-    '''public String getProfileURI()
+    '''returns String\n\n
+    getProfileURI()\n
     '''

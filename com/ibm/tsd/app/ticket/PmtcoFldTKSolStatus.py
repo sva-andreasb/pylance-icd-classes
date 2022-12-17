@@ -1,18 +1,24 @@
-def PmtcoFldTKSolStatus():
-    '''public PmtcoFldTKSolStatus(final MboValue mbv)
+def ():
+    '''returns PmtcoFldTKSolStatus\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def changeTkSolFailStatus():
-    '''public void changeTkSolFailStatus(final String status, final MboRemote ticket)
+    '''returns None\n\n
+    changeTkSolFailStatus(final String status, final MboRemote ticket)\n
     '''
 def createHistorySolutionRecord():
-    '''public void createHistorySolutionRecord(final MboRemote ticketMbo, final String internalStatus)
+    '''returns None\n\n
+    createHistorySolutionRecord(final MboRemote ticketMbo, final String internalStatus)\n
     '''
 def clearCurrentSolInfo():
-    '''public void clearCurrentSolInfo(final MboRemote ticketMbo)
+    '''returns None\n\n
+    clearCurrentSolInfo(final MboRemote ticketMbo)\n
     '''

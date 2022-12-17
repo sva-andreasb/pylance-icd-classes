@@ -1,33 +1,39 @@
-def OslcYamlGenerator():
-    '''public OslcYamlGenerator()
-    public OslcYamlGenerator(final UserInfo userInfo)
-    public OslcYamlGenerator(final String tags)
-    public OslcYamlGenerator(final UserInfo userInfo, final String tags)
+def ():
+    '''returns OslcYamlGenerator\n\n
+    ()\n
+    (final UserInfo userInfo)\n
+    (final String tags)\n
+    (final UserInfo userInfo, final String tags)\n
     '''
 def getParamsObject():
-    '''public JSONObject getParamsObject()
+    '''returns JSONObject\n\n
+    getParamsObject()\n
     '''
 def paramsObjectSourceBuilder():
-    '''public void paramsObjectSourceBuilder(final String methodName, final List<String> paramsList)
+    '''returns None\n\n
+    paramsObjectSourceBuilder(final String methodName, final List<String> paramsList)\n
     '''
 def getParamsObjectSource():
-    '''public List<String> getParamsObjectSource(final String methodName)
+    '''returns List<String>\n\n
+    getParamsObjectSource(final String methodName)\n
     '''
 def getResponseObjectSource():
-    '''public List<String> getResponseObjectSource(final String methodName)
+    '''returns List<String>\n\n
+    getResponseObjectSource(final String methodName)\n
     '''
 def generateYaml():
-    '''public byte[] generateYaml()
+    '''returns byte[]\n\n
+    generateYaml()\n
     '''
 def generateYamlString():
-    '''public String generateYamlString()
+    '''returns String\n\n
+    generateYamlString()\n
     '''
 def generateJson():
-    '''public byte[] generateJson()
-    '''
-def readFromStream():
-    '''public static JSONObject readFromStream(final String path, final String filename)
+    '''returns byte[]\n\n
+    generateJson()\n
     '''
 def setGetOSResourceChildObjectSet():
-    '''public void setGetOSResourceChildObjectSet(final OslcResourceInfo oslcRes, final String osName, final OslcYaml oslcYaml)
+    '''returns None\n\n
+    setGetOSResourceChildObjectSet(final OslcResourceInfo oslcRes, final String osName, final OslcYaml oslcYaml)\n
     '''

@@ -1,6 +1,8 @@
-def CommitGroup():
-    '''public CommitGroup(final MboSet ms)
+def ():
+    '''returns CommitGroup\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

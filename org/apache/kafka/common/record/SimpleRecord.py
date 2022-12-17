@@ -1,31 +1,39 @@
-def SimpleRecord():
-    '''public SimpleRecord(final long timestamp, final ByteBuffer key, final ByteBuffer value, final Header[] headers)
-    public SimpleRecord(final long timestamp, final byte[] key, final byte[] value, final Header[] headers)
-    public SimpleRecord(final long timestamp, final ByteBuffer key, final ByteBuffer value)
-    public SimpleRecord(final long timestamp, final byte[] key, final byte[] value)
-    public SimpleRecord(final long timestamp, final byte[] value)
-    public SimpleRecord(final byte[] value)
-    public SimpleRecord(final byte[] key, final byte[] value)
-    public SimpleRecord(final Record record)
+def ():
+    '''returns SimpleRecord\n\n
+    (final long timestamp, final ByteBuffer key, final ByteBuffer value, final Header[] headers)\n
+    (final long timestamp, final byte[] key, final byte[] value, final Header[] headers)\n
+    (final long timestamp, final ByteBuffer key, final ByteBuffer value)\n
+    (final long timestamp, final byte[] key, final byte[] value)\n
+    (final long timestamp, final byte[] value)\n
+    (final byte[] value)\n
+    (final byte[] key, final byte[] value)\n
+    (final Record record)\n
     '''
 def key():
-    '''public ByteBuffer key()
+    '''returns ByteBuffer\n\n
+    key()\n
     '''
 def value():
-    '''public ByteBuffer value()
+    '''returns ByteBuffer\n\n
+    value()\n
     '''
 def timestamp():
-    '''public long timestamp()
+    '''returns long\n\n
+    timestamp()\n
     '''
 def headers():
-    '''public Header[] headers()
+    '''returns Header[]\n\n
+    headers()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

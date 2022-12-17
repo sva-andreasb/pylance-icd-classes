@@ -1,3 +1,4 @@
-def PPLaborRateSet():
-    '''public PPLaborRateSet(final MboServerInterface ms)
+def ():
+    '''returns PPLaborRateSet\n\n
+    (final MboServerInterface ms)\n
     '''

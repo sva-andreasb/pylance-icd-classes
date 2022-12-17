@@ -1,6 +1,8 @@
-def FldGLConfigureMandatory():
-    '''public FldGLConfigureMandatory(final MboValue mbv)
+def ():
+    '''returns FldGLConfigureMandatory\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

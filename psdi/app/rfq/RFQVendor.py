@@ -1,51 +1,68 @@
-def RFQVendor():
-    '''public RFQVendor(final MboSet ms)
+def ():
+    '''returns RFQVendor\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def createPOHeaderFromRFQ():
-    '''public MboRemote createPOHeaderFromRFQ(final String ponum, final String description)
+    '''returns MboRemote\n\n
+    createPOHeaderFromRFQ(final String ponum, final String description)\n
     '''
 def getRFQLinesForQuotation():
-    '''public MboSetRemote getRFQLinesForQuotation()
+    '''returns MboSetRemote\n\n
+    getRFQLinesForQuotation()\n
     '''
 def copyRFQToQuotation():
-    '''public void copyRFQToQuotation(final MboSetRemote sourceRFQLineSet)
+    '''returns None\n\n
+    copyRFQToQuotation(final MboSetRemote sourceRFQLineSet)\n
     '''
 def createPOFromRFQ():
-    '''public MboRemote createPOFromRFQ(final String ponum, final String description)
+    '''returns MboRemote\n\n
+    createPOFromRFQ(final String ponum, final String description)\n
     '''
 def checkSentCompStatus():
-    '''public void checkSentCompStatus(final String message)
+    '''returns None\n\n
+    checkSentCompStatus(final String message)\n
     '''
 def checkSentStatus():
-    '''public void checkSentStatus()
+    '''returns None\n\n
+    checkSentStatus()\n
     '''
 def checkingBeforeCreatePOCont():
-    '''public void checkingBeforeCreatePOCont(final boolean fromPO)
+    '''returns None\n\n
+    checkingBeforeCreatePOCont(final boolean fromPO)\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def setRelatedMboEditibility():
-    '''public void setRelatedMboEditibility(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    setRelatedMboEditibility(final String relationName, final MboSetRemote mboSet)\n
     '''
 def createNewMboFromRFQ():
-    '''public void createNewMboFromRFQ(final String number, final String description, final String contractType)
+    '''returns None\n\n
+    createNewMboFromRFQ(final String number, final String description, final String contractType)\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset)\n
     '''
 def copyVendorTerms():
-    '''public void copyVendorTerms(final MboSetRemote termsSet)
+    '''returns None\n\n
+    copyVendorTerms(final MboSetRemote termsSet)\n
     '''
 def delete():
-    '''public void delete(final long accessmodifier)
+    '''returns None\n\n
+    delete(final long accessmodifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

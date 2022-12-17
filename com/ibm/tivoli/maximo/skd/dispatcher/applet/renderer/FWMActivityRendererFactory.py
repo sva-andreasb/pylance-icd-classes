@@ -1,3 +1,4 @@
-def FWMActivityRendererFactory():
-    '''public FWMActivityRendererFactory(final IlvScheduleChart chart, final FWMActionsFacade actionsFacade)
+def ():
+    '''returns FWMActivityRendererFactory\n\n
+    (final IlvScheduleChart chart, final FWMActionsFacade actionsFacade)\n
     '''

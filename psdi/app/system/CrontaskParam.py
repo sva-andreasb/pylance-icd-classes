@@ -1,12 +1,16 @@
-def CrontaskParam():
-    '''public CrontaskParam(final MboSet ms)
+def ():
+    '''returns CrontaskParam\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getCrontaskInstance():
-    '''public CrontaskInstanceRemote getCrontaskInstance()
+    '''returns CrontaskInstanceRemote\n\n
+    getCrontaskInstance()\n
     '''

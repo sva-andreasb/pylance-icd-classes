@@ -1,31 +1,40 @@
-def StAXSOAPModelBuilder():
-    '''public StAXSOAPModelBuilder(final XMLStreamReader parser, final String soapVersion)
-    public StAXSOAPModelBuilder(final OMMetaFactory metaFactory, final XMLStreamReader parser, final String soapVersion)
-    public StAXSOAPModelBuilder(final XMLStreamReader parser)
-    public StAXSOAPModelBuilder(final OMMetaFactory metaFactory, final XMLStreamReader parser)
-    public StAXSOAPModelBuilder(final XMLStreamReader parser, final SOAPFactory factory, final String soapVersion)
+def ():
+    '''returns StAXSOAPModelBuilder\n\n
+    (final XMLStreamReader parser, final String soapVersion)\n
+    (final OMMetaFactory metaFactory, final XMLStreamReader parser, final String soapVersion)\n
+    (final XMLStreamReader parser)\n
+    (final OMMetaFactory metaFactory, final XMLStreamReader parser)\n
+    (final XMLStreamReader parser, final SOAPFactory factory, final String soapVersion)\n
     '''
 def getSOAPEnvelope():
-    '''public SOAPEnvelope getSOAPEnvelope()
+    '''returns SOAPEnvelope\n\n
+    getSOAPEnvelope()\n
     '''
 def endElement():
-    '''public void endElement()
+    '''returns None\n\n
+    endElement()\n
     '''
 def getDocumentElement():
-    '''public OMElement getDocumentElement()
+    '''returns OMElement\n\n
+    getDocumentElement()\n
     '''
 def getEnvelopeNamespace():
-    '''public OMNamespace getEnvelopeNamespace()
+    '''returns OMNamespace\n\n
+    getEnvelopeNamespace()\n
     '''
 def isProcessingDetailElements():
-    '''public boolean isProcessingDetailElements()
+    '''returns boolean\n\n
+    isProcessingDetailElements()\n
     '''
 def setProcessingDetailElements():
-    '''public void setProcessingDetailElements(final boolean value)
+    '''returns None\n\n
+    setProcessingDetailElements(final boolean value)\n
     '''
 def getSoapMessage():
-    '''public SOAPMessage getSoapMessage()
+    '''returns SOAPMessage\n\n
+    getSoapMessage()\n
     '''
 def getDocument():
-    '''public OMDocument getDocument()
+    '''returns OMDocument\n\n
+    getDocument()\n
     '''

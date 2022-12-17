@@ -1,6 +1,8 @@
-def DefaultComponentNode():
-    '''public DefaultComponentNode(final String a)
+def ():
+    '''returns DefaultComponentNode\n\n
+    (final String a)\n
     '''
 def getControlType():
-    '''public String getControlType()
+    '''returns String\n\n
+    getControlType()\n
     '''

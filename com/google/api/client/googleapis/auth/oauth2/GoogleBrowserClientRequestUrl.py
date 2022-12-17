@@ -1,31 +1,37 @@
-def GoogleBrowserClientRequestUrl():
-    '''public GoogleBrowserClientRequestUrl(final String clientId, final String redirectUri, final Collection<String> scopes)
-    public GoogleBrowserClientRequestUrl(final GoogleClientSecrets clientSecrets, final String redirectUri, final Collection<String> scopes)
-    '''
-def getApprovalPrompt():
-    '''public final String getApprovalPrompt()
+def ():
+    '''returns GoogleBrowserClientRequestUrl\n\n
+    (final String clientId, final String redirectUri, final Collection<String> scopes)\n
+    (final GoogleClientSecrets clientSecrets, final String redirectUri, final Collection<String> scopes)\n
     '''
 def setApprovalPrompt():
-    '''public GoogleBrowserClientRequestUrl setApprovalPrompt(final String approvalPrompt)
+    '''returns GoogleBrowserClientRequestUrl\n\n
+    setApprovalPrompt(final String approvalPrompt)\n
     '''
 def setResponseTypes():
-    '''public GoogleBrowserClientRequestUrl setResponseTypes(final Collection<String> responseTypes)
+    '''returns GoogleBrowserClientRequestUrl\n\n
+    setResponseTypes(final Collection<String> responseTypes)\n
     '''
 def setRedirectUri():
-    '''public GoogleBrowserClientRequestUrl setRedirectUri(final String redirectUri)
+    '''returns GoogleBrowserClientRequestUrl\n\n
+    setRedirectUri(final String redirectUri)\n
     '''
 def setScopes():
-    '''public GoogleBrowserClientRequestUrl setScopes(final Collection<String> scopes)
+    '''returns GoogleBrowserClientRequestUrl\n\n
+    setScopes(final Collection<String> scopes)\n
     '''
 def setClientId():
-    '''public GoogleBrowserClientRequestUrl setClientId(final String clientId)
+    '''returns GoogleBrowserClientRequestUrl\n\n
+    setClientId(final String clientId)\n
     '''
 def setState():
-    '''public GoogleBrowserClientRequestUrl setState(final String state)
+    '''returns GoogleBrowserClientRequestUrl\n\n
+    setState(final String state)\n
     '''
 def set():
-    '''public GoogleBrowserClientRequestUrl set(final String fieldName, final Object value)
+    '''returns GoogleBrowserClientRequestUrl\n\n
+    set(final String fieldName, final Object value)\n
     '''
 def clone():
-    '''public GoogleBrowserClientRequestUrl clone()
+    '''returns GoogleBrowserClientRequestUrl\n\n
+    clone()\n
     '''

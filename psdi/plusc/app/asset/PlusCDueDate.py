@@ -1,18 +1,24 @@
-def PlusCDueDate():
-    '''public PlusCDueDate(final String worktypecal)
+def ():
+    '''returns PlusCDueDate\n\n
+    (final String worktypecal)\n
     '''
 def getAssetDueDate():
-    '''public Date getAssetDueDate(final AssetRemote mboRemote)
+    '''returns Date\n\n
+    getAssetDueDate(final AssetRemote mboRemote)\n
     '''
 def getToolTransDueDate():
-    '''public Date getToolTransDueDate(final ToolTransRemote mboRemote)
+    '''returns Date\n\n
+    getToolTransDueDate(final ToolTransRemote mboRemote)\n
     '''
 def getLocationDueDate():
-    '''public Date getLocationDueDate(final LocationRemote mboRemote)
+    '''returns Date\n\n
+    getLocationDueDate(final LocationRemote mboRemote)\n
     '''
 def getDateWithServerTimeZone():
-    '''public Date getDateWithServerTimeZone(Date date, final MboRemote mbo)
+    '''returns Date\n\n
+    getDateWithServerTimeZone(Date date, final MboRemote mbo)\n
     '''
 def getWODueDate():
-    '''public Date getWODueDate(final boolean compOrClosed, final WORemote woMboRemote)
+    '''returns Date\n\n
+    getWODueDate(final boolean compOrClosed, final WORemote woMboRemote)\n
     '''

@@ -1,6 +1,8 @@
-def PlusPAppliesToCI():
-    '''public PlusPAppliesToCI(final MboSet set)
+def ():
+    '''returns PlusPAppliesToCI\n\n
+    (final MboSet set)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

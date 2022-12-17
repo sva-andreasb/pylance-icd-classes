@@ -1,36 +1,48 @@
-def ClientParamBean():
-    '''public ClientParamBean(final HttpParams params)
+def ():
+    '''returns ClientParamBean\n\n
+    (final HttpParams params)\n
     '''
 def setConnectionManagerFactoryClassName():
-    '''public void setConnectionManagerFactoryClassName(final String factory)
+    '''returns None\n\n
+    setConnectionManagerFactoryClassName(final String factory)\n
     '''
 def setHandleRedirects():
-    '''public void setHandleRedirects(final boolean handle)
+    '''returns None\n\n
+    setHandleRedirects(final boolean handle)\n
     '''
 def setRejectRelativeRedirect():
-    '''public void setRejectRelativeRedirect(final boolean reject)
+    '''returns None\n\n
+    setRejectRelativeRedirect(final boolean reject)\n
     '''
 def setMaxRedirects():
-    '''public void setMaxRedirects(final int maxRedirects)
+    '''returns None\n\n
+    setMaxRedirects(final int maxRedirects)\n
     '''
 def setAllowCircularRedirects():
-    '''public void setAllowCircularRedirects(final boolean allow)
+    '''returns None\n\n
+    setAllowCircularRedirects(final boolean allow)\n
     '''
 def setHandleAuthentication():
-    '''public void setHandleAuthentication(final boolean handle)
+    '''returns None\n\n
+    setHandleAuthentication(final boolean handle)\n
     '''
 def setCookiePolicy():
-    '''public void setCookiePolicy(final String policy)
+    '''returns None\n\n
+    setCookiePolicy(final String policy)\n
     '''
 def setVirtualHost():
-    '''public void setVirtualHost(final HttpHost host)
+    '''returns None\n\n
+    setVirtualHost(final HttpHost host)\n
     '''
 def setDefaultHeaders():
-    '''public void setDefaultHeaders(final Collection<Header> headers)
+    '''returns None\n\n
+    setDefaultHeaders(final Collection<Header> headers)\n
     '''
 def setDefaultHost():
-    '''public void setDefaultHost(final HttpHost host)
+    '''returns None\n\n
+    setDefaultHost(final HttpHost host)\n
     '''
 def setConnectionManagerTimeout():
-    '''public void setConnectionManagerTimeout(final long timeout)
+    '''returns None\n\n
+    setConnectionManagerTimeout(final long timeout)\n
     '''

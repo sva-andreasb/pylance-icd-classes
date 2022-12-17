@@ -1,75 +1,99 @@
-def QNameSetBuilder():
-    '''public QNameSetBuilder()
-    public QNameSetBuilder(final QNameSetSpecification set)
-    public QNameSetBuilder(final Set excludedURIs, final Set includedURIs, final Set excludedQNamesInIncludedURIs, final Set includedQNamesInExcludedURIs)
-    public QNameSetBuilder(String str, final String targetURI)
+def ():
+    '''returns QNameSetBuilder\n\n
+    ()\n
+    (final QNameSetSpecification set)\n
+    (final Set excludedURIs, final Set includedURIs, final Set excludedQNamesInIncludedURIs, final Set includedQNamesInExcludedURIs)\n
+    (String str, final String targetURI)\n
     '''
 def contains():
-    '''public boolean contains(final QName name)
+    '''returns boolean\n\n
+    contains(final QName name)\n
     '''
 def isAll():
-    '''public boolean isAll()
+    '''returns boolean\n\n
+    isAll()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def intersect():
-    '''public QNameSet intersect(final QNameSetSpecification set)
+    '''returns QNameSet\n\n
+    intersect(final QNameSetSpecification set)\n
     '''
 def union():
-    '''public QNameSet union(final QNameSetSpecification set)
+    '''returns QNameSet\n\n
+    union(final QNameSetSpecification set)\n
     '''
 def inverse():
-    '''public QNameSet inverse()
+    '''returns QNameSet\n\n
+    inverse()\n
     '''
 def containsAll():
-    '''public boolean containsAll(final QNameSetSpecification set)
+    '''returns boolean\n\n
+    containsAll(final QNameSetSpecification set)\n
     '''
 def isDisjoint():
-    '''public boolean isDisjoint(final QNameSetSpecification set)
+    '''returns boolean\n\n
+    isDisjoint(final QNameSetSpecification set)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def invert():
-    '''public void invert()
+    '''returns None\n\n
+    invert()\n
     '''
 def add():
-    '''public void add(final QName qname)
+    '''returns None\n\n
+    add(final QName qname)\n
     '''
 def addNamespace():
-    '''public void addNamespace(final String uri)
+    '''returns None\n\n
+    addNamespace(final String uri)\n
     '''
 def addAll():
-    '''public void addAll(final QNameSetSpecification set)
+    '''returns None\n\n
+    addAll(final QNameSetSpecification set)\n
     '''
 def remove():
-    '''public void remove(final QName qname)
+    '''returns None\n\n
+    remove(final QName qname)\n
     '''
 def removeNamespace():
-    '''public void removeNamespace(final String uri)
+    '''returns None\n\n
+    removeNamespace(final String uri)\n
     '''
 def removeAll():
-    '''public void removeAll(final QNameSetSpecification set)
+    '''returns None\n\n
+    removeAll(final QNameSetSpecification set)\n
     '''
 def restrict():
-    '''public void restrict(final QNameSetSpecification set)
+    '''returns None\n\n
+    restrict(final QNameSetSpecification set)\n
     '''
 def excludedURIs():
-    '''public Set excludedURIs()
+    '''returns Set\n\n
+    excludedURIs()\n
     '''
 def includedURIs():
-    '''public Set includedURIs()
+    '''returns Set\n\n
+    includedURIs()\n
     '''
 def excludedQNamesInIncludedURIs():
-    '''public Set excludedQNamesInIncludedURIs()
+    '''returns Set\n\n
+    excludedQNamesInIncludedURIs()\n
     '''
 def includedQNamesInExcludedURIs():
-    '''public Set includedQNamesInExcludedURIs()
+    '''returns Set\n\n
+    includedQNamesInExcludedURIs()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toQNameSet():
-    '''public QNameSet toQNameSet()
+    '''returns QNameSet\n\n
+    toQNameSet()\n
     '''

@@ -1,3 +1,4 @@
-def TloamWOSet():
-    '''public TloamWOSet(final MboServerInterface ms)
+def ():
+    '''returns TloamWOSet\n\n
+    (final MboServerInterface ms)\n
     '''

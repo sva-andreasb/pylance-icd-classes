@@ -1,55 +1,71 @@
 BUNDLE_CLASSNAME = "String  \"org.apache.batik.css.parser.resources.Messages\""
-def Parser():
-    '''public Parser()
+def ():
+    '''returns Parser\n\n
+    ()\n
     '''
 def getParserVersion():
-    '''public String getParserVersion()
+    '''returns String\n\n
+    getParserVersion()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def formatMessage():
-    '''public String formatMessage(final String key, final Object[] args)
+    '''returns String\n\n
+    formatMessage(final String key, final Object[] args)\n
     '''
 def setDocumentHandler():
-    '''public void setDocumentHandler(final DocumentHandler handler)
+    '''returns None\n\n
+    setDocumentHandler(final DocumentHandler handler)\n
     '''
 def setSelectorFactory():
-    '''public void setSelectorFactory(final SelectorFactory factory)
+    '''returns None\n\n
+    setSelectorFactory(final SelectorFactory factory)\n
     '''
 def setConditionFactory():
-    '''public void setConditionFactory(final ConditionFactory factory)
+    '''returns None\n\n
+    setConditionFactory(final ConditionFactory factory)\n
     '''
 def setErrorHandler():
-    '''public void setErrorHandler(final ErrorHandler handler)
+    '''returns None\n\n
+    setErrorHandler(final ErrorHandler handler)\n
     '''
 def parseStyleSheet():
-    '''public void parseStyleSheet(final InputSource source)
-    public void parseStyleSheet(final String uri)
+    '''returns None\n\n
+    parseStyleSheet(final InputSource source)\n
+    parseStyleSheet(final String uri)\n
     '''
 def parseStyleDeclaration():
-    '''public void parseStyleDeclaration(final InputSource source)
-    public void parseStyleDeclaration(final String source)
+    '''returns None\n\n
+    parseStyleDeclaration(final InputSource source)\n
+    parseStyleDeclaration(final String source)\n
     '''
 def parseRule():
-    '''public void parseRule(final InputSource source)
-    public void parseRule(final String source)
+    '''returns None\n\n
+    parseRule(final InputSource source)\n
+    parseRule(final String source)\n
     '''
 def parseSelectors():
-    '''public SelectorList parseSelectors(final InputSource source)
-    public SelectorList parseSelectors(final String source)
+    '''returns SelectorList\n\n
+    parseSelectors(final InputSource source)\n
+    parseSelectors(final String source)\n
     '''
 def parsePropertyValue():
-    '''public LexicalUnit parsePropertyValue(final InputSource source)
-    public LexicalUnit parsePropertyValue(final String source)
+    '''returns LexicalUnit\n\n
+    parsePropertyValue(final InputSource source)\n
+    parsePropertyValue(final String source)\n
     '''
 def parsePriority():
-    '''public boolean parsePriority(final InputSource source)
-    public boolean parsePriority(final String source)
+    '''returns boolean\n\n
+    parsePriority(final InputSource source)\n
+    parsePriority(final String source)\n
     '''
 def parseMedia():
-    '''public SACMediaList parseMedia(final String mediaText)
+    '''returns SACMediaList\n\n
+    parseMedia(final String mediaText)\n
     '''

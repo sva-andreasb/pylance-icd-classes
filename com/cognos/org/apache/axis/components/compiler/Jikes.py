@@ -1,15 +1,20 @@
 def compile():
-    '''public boolean compile()
+    '''returns boolean\n\n
+    compile()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def StreamPumper():
-    '''public StreamPumper(final BufferedInputStream is, final OutputStream out)
+def ():
+    '''returns StreamPumper\n\n
+    (final BufferedInputStream is, final OutputStream out)\n
     '''
 def pumpStream():
-    '''public void pumpStream()
+    '''returns None\n\n
+    pumpStream()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

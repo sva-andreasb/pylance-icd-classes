@@ -1,3 +1,4 @@
-def PlusPPSMatPricSet():
-    '''public PlusPPSMatPricSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPPSMatPricSet\n\n
+    (final MboServerInterface ms)\n
     '''

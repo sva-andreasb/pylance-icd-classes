@@ -1,46 +1,61 @@
-def QueryCapability():
-    '''public QueryCapability()
-    public QueryCapability(final String title, final URI queryBase)
+def ():
+    '''returns QueryCapability\n\n
+    ()\n
+    (final String title, final URI queryBase)\n
     '''
 def addResourceType():
-    '''public void addResourceType(final URI resourceType)
+    '''returns None\n\n
+    addResourceType(final URI resourceType)\n
     '''
 def addUsage():
-    '''public void addUsage(final URI usage)
+    '''returns None\n\n
+    addUsage(final URI usage)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def getQueryBase():
-    '''public URI getQueryBase()
+    '''returns URI\n\n
+    getQueryBase()\n
     '''
 def getResourceShape():
-    '''public URI getResourceShape()
+    '''returns URI\n\n
+    getResourceShape()\n
     '''
 def getResourceTypes():
-    '''public URI[] getResourceTypes()
+    '''returns URI[]\n\n
+    getResourceTypes()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getUsages():
-    '''public URI[] getUsages()
+    '''returns URI[]\n\n
+    getUsages()\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def setQueryBase():
-    '''public void setQueryBase(final URI queryBase)
+    '''returns None\n\n
+    setQueryBase(final URI queryBase)\n
     '''
 def setResourceShape():
-    '''public void setResourceShape(final URI resourceShape)
+    '''returns None\n\n
+    setResourceShape(final URI resourceShape)\n
     '''
 def setResourceTypes():
-    '''public void setResourceTypes(final URI[] resourceTypes)
+    '''returns None\n\n
+    setResourceTypes(final URI[] resourceTypes)\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def setUsages():
-    '''public void setUsages(final URI[] usages)
+    '''returns None\n\n
+    setUsages(final URI[] usages)\n
     '''

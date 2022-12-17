@@ -1,24 +1,32 @@
-def ASNProjectAppBean():
-    '''public ASNProjectAppBean()
+def ():
+    '''returns ASNProjectAppBean\n\n
+    ()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def VMAINSNRIO():
-    '''public int VMAINSNRIO()
+    '''returns int\n\n
+    VMAINSNRIO()\n
     '''
 def GOTOMAINSNRIO():
-    '''public int GOTOMAINSNRIO()
+    '''returns int\n\n
+    GOTOMAINSNRIO()\n
     '''
 def PUBLISH():
-    '''public int PUBLISH()
+    '''returns int\n\n
+    PUBLISH()\n
     '''
 def COMPARE():
-    '''public int COMPARE()
+    '''returns int\n\n
+    COMPARE()\n
     '''
 def PUBSELECTED():
-    '''public int PUBSELECTED()
+    '''returns int\n\n
+    PUBSELECTED()\n
     '''
 def POPUMATRIX():
-    '''public int POPUMATRIX()
+    '''returns int\n\n
+    POPUMATRIX()\n
     '''

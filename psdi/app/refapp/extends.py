@@ -1,3 +1,4 @@
-def FldGetListNotInSubclass():
-    '''public FldGetListNotInSubclass(final MboValue mbv)
+def ():
+    '''returns FldGetListNotInSubclass\n\n
+    (final MboValue mbv)\n
     '''

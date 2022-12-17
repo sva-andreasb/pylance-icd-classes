@@ -1,6 +1,8 @@
-def MapControlToolItemMbo():
-    '''public MapControlToolItemMbo(final MboSet ms)
+def ():
+    '''returns MapControlToolItemMbo\n\n
+    (final MboSet ms)\n
     '''
 def getMapControlSecurityGroupMboSet():
-    '''public MapControlSecurityGroupMboSet getMapControlSecurityGroupMboSet()
+    '''returns MapControlSecurityGroupMboSet\n\n
+    getMapControlSecurityGroupMboSet()\n
     '''

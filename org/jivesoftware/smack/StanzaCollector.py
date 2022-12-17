@@ -1,50 +1,40 @@
 def cancel():
-    '''public void cancel()
+    '''returns None\n\n
+    cancel()\n
     '''
 def getPacketFilter():
-    '''public StanzaFilter getPacketFilter()
+    '''returns StanzaFilter\n\n
+    getPacketFilter()\n
     '''
 def getStanzaFilter():
-    '''public StanzaFilter getStanzaFilter()
-    '''
-def pollResult():
-    '''public <P extends Stanza> P pollResult()
-    '''
-def pollResultOrThrow():
-    '''public <P extends Stanza> P pollResultOrThrow()
-    '''
-def nextResultBlockForever():
-    '''public <P extends Stanza> P nextResultBlockForever()
-    '''
-def nextResult():
-    '''public <P extends Stanza> P nextResult()
-    public <P extends Stanza> P nextResult(final long timeout)
-    '''
-def nextResultOrThrow():
-    '''public <P extends Stanza> P nextResultOrThrow()
-    public <P extends Stanza> P nextResultOrThrow(final long timeout)
+    '''returns StanzaFilter\n\n
+    getStanzaFilter()\n
     '''
 def getCollectedStanzasAfterCancelled():
-    '''public List<Stanza> getCollectedStanzasAfterCancelled()
+    '''returns List<Stanza>\n\n
+    getCollectedStanzasAfterCancelled()\n
     '''
 def getCollectedCount():
-    '''public int getCollectedCount()
-    '''
-def newConfiguration():
-    '''public static Configuration newConfiguration()
+    '''returns int\n\n
+    getCollectedCount()\n
     '''
 def setPacketFilter():
-    '''public Configuration setPacketFilter(final StanzaFilter packetFilter)
+    '''returns Configuration\n\n
+    setPacketFilter(final StanzaFilter packetFilter)\n
     '''
 def setStanzaFilter():
-    '''public Configuration setStanzaFilter(final StanzaFilter stanzaFilter)
+    '''returns Configuration\n\n
+    setStanzaFilter(final StanzaFilter stanzaFilter)\n
     '''
 def setSize():
-    '''public Configuration setSize(final int size)
+    '''returns Configuration\n\n
+    setSize(final int size)\n
     '''
 def setCollectorToReset():
-    '''public Configuration setCollectorToReset(final StanzaCollector collector)
+    '''returns Configuration\n\n
+    setCollectorToReset(final StanzaCollector collector)\n
     '''
 def setRequest():
-    '''public Configuration setRequest(final Stanza request)
+    '''returns Configuration\n\n
+    setRequest(final Stanza request)\n
     '''

@@ -1,12 +1,16 @@
-def CtrlConditionSet():
-    '''public CtrlConditionSet(final MboServerInterface ms)
+def ():
+    '''returns CtrlConditionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def copyConditionToCtrlCondition():
-    '''public void copyConditionToCtrlCondition(final MboSetRemote conditionSet)
+    '''returns None\n\n
+    copyConditionToCtrlCondition(final MboSetRemote conditionSet)\n
     '''
 def saveTransaction():
-    '''public void saveTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    saveTransaction(final MXTransaction txn)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''

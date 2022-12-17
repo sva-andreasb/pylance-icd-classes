@@ -1,51 +1,65 @@
-def BaseDatatype():
-    '''public BaseDatatype(final String uri)
+def ():
+    '''returns TypedValue\n\n
+    (final String uri)\n
+    (final String lexicalValue, final String datatypeURI)\n
     '''
 def getURI():
-    '''public String getURI()
+    '''returns String\n\n
+    getURI()\n
     '''
 def unparse():
-    '''public String unparse(final Object value)
+    '''returns String\n\n
+    unparse(final Object value)\n
     '''
 def parse():
-    '''public Object parse(final String lexicalForm)
+    '''returns Object\n\n
+    parse(final String lexicalForm)\n
     '''
 def isValid():
-    '''public boolean isValid(final String lexicalForm)
+    '''returns boolean\n\n
+    isValid(final String lexicalForm)\n
     '''
 def isValidLiteral():
-    '''public boolean isValidLiteral(final LiteralLabel lit)
+    '''returns boolean\n\n
+    isValidLiteral(final LiteralLabel lit)\n
     '''
 def isValidValue():
-    '''public boolean isValidValue(final Object valueForm)
+    '''returns boolean\n\n
+    isValidValue(final Object valueForm)\n
     '''
 def isEqual():
-    '''public boolean isEqual(final LiteralLabel value1, final LiteralLabel value2)
+    '''returns boolean\n\n
+    isEqual(final LiteralLabel value1, final LiteralLabel value2)\n
     '''
 def getHashCode():
-    '''public int getHashCode(final LiteralLabel lit)
+    '''returns int\n\n
+    getHashCode(final LiteralLabel lit)\n
     '''
 def langTagCompatible():
-    '''public boolean langTagCompatible(final LiteralLabel value1, final LiteralLabel value2)
+    '''returns boolean\n\n
+    langTagCompatible(final LiteralLabel value1, final LiteralLabel value2)\n
     '''
 def cannonicalise():
-    '''public Object cannonicalise(final Object value)
+    '''returns Object\n\n
+    cannonicalise(final Object value)\n
     '''
 def extendedTypeDefinition():
-    '''public Object extendedTypeDefinition()
+    '''returns Object\n\n
+    extendedTypeDefinition()\n
     '''
 def normalizeSubType():
-    '''public RDFDatatype normalizeSubType(final Object value, final RDFDatatype dt)
+    '''returns RDFDatatype\n\n
+    normalizeSubType(final Object value, final RDFDatatype dt)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def TypedValue():
-    '''public TypedValue(final String lexicalValue, final String datatypeURI)
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

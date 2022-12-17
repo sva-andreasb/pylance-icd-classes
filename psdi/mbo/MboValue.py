@@ -1,273 +1,290 @@
-def MboValue():
-    '''public MboValue()
+def ():
+    '''returns MboValue\n\n
+    ()\n
     '''
 def construct():
-    '''public void construct(final Mbo mbo, final MboValueInfo mvInfo)
+    '''returns None\n\n
+    construct(final Mbo mbo, final MboValueInfo mvInfo)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def getMboValueData():
-    '''public MboValueData getMboValueData()
-    public MboValueData getMboValueData(final boolean ignoreFieldFlags)
+    '''returns MboValueData\n\n
+    getMboValueData()\n
+    getMboValueData(final boolean ignoreFieldFlags)\n
     '''
 def getMbo():
-    '''public Mbo getMbo()
+    '''returns Mbo\n\n
+    getMbo()\n
     '''
 def getDefault():
-    '''public String getDefault()
+    '''returns String\n\n
+    getDefault()\n
     '''
 def hasLongDescription():
-    '''public boolean hasLongDescription()
+    '''returns boolean\n\n
+    hasLongDescription()\n
     '''
 def setDefault():
-    '''public void setDefault(final String val)
+    '''returns None\n\n
+    setDefault(final String val)\n
     '''
 def setValueNull():
-    '''public void setValueNull(final long accessModifier)
-    public void setValueNull()
+    '''returns None\n\n
+    setValueNull(final long accessModifier)\n
+    setValueNull()\n
     '''
 def _setValueNull():
-    '''public void _setValueNull()
+    '''returns None\n\n
+    _setValueNull()\n
     '''
 def isNull():
-    '''public boolean isNull()
+    '''returns boolean\n\n
+    isNull()\n
     '''
 def getCurrentValue():
-    '''public MaxType getCurrentValue()
+    '''returns MaxType\n\n
+    getCurrentValue()\n
     '''
 def getInitialValue():
-    '''public MaxType getInitialValue()
+    '''returns MaxType\n\n
+    getInitialValue()\n
     '''
 def getPreviousValue():
-    '''public MaxType getPreviousValue()
-    '''
-def getString():
-    '''public final String getString()
-    '''
-def getBoolean():
-    '''public final boolean getBoolean()
-    '''
-def getByte():
-    '''public final byte getByte()
-    '''
-def getInt():
-    '''public final int getInt()
-    '''
-def getLong():
-    '''public final long getLong()
-    '''
-def getFloat():
-    '''public final float getFloat()
-    '''
-def getDouble():
-    '''public final double getDouble()
-    '''
-def getBytes():
-    '''public final byte[] getBytes()
-    '''
-def getMaxType():
-    '''public final MaxType getMaxType()
-    '''
-def setValue():
-    '''public final void setValue(final int value)
-    public final void setValue(final int val, final long accessModifier)
-    public final void setValue(final String value)
-    public final void setValue(final String val, final long accessModifier)
-    public final void setValue(final boolean value)
-    public final void setValue(final boolean val, final long accessModifier)
-    public final void setValue(final byte value)
-    public final void setValue(final byte val, final long accessModifier)
-    public final void setValue(final long value)
-    public final void setValue(final long val, final long accessModifier)
-    public final void setValue(final float value)
-    public final void setValue(final float val, final long accessModifier)
-    public final void setValue(final double value)
-    public final void setValue(final double val, final long accessModifier)
-    public final void setValue(final byte[] value)
-    public final void setValue(final byte[] val, final long accessModifier)
-    public final void setValue(final java.util.Date value)
-    public final void setValue(final java.util.Date val, final long accessModifier)
+    '''returns MaxType\n\n
+    getPreviousValue()\n
     '''
 def setCurrentFieldAccess():
-    '''public void setCurrentFieldAccess(final long access)
+    '''returns None\n\n
+    setCurrentFieldAccess(final long access)\n
     '''
 def resetCurrentFieldAccess():
-    '''public void resetCurrentFieldAccess()
+    '''returns None\n\n
+    resetCurrentFieldAccess()\n
     '''
 def getCurrentFieldAccess():
-    '''public long getCurrentFieldAccess()
-    '''
-def validate():
-    '''public final void validate(final long access)
-    public final void validate()
+    '''returns long\n\n
+    getCurrentFieldAccess()\n
     '''
 def isModified():
-    '''public boolean isModified()
+    '''returns boolean\n\n
+    isModified()\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly()
+    '''returns boolean\n\n
+    isReadOnly()\n
     '''
 def setReadOnly():
-    '''public void setReadOnly(final boolean ro)
+    '''returns None\n\n
+    setReadOnly(final boolean ro)\n
     '''
 def isHidden():
-    '''public boolean isHidden()
+    '''returns boolean\n\n
+    isHidden()\n
     '''
 def setHidden():
-    '''public void setHidden(final boolean val)
+    '''returns None\n\n
+    setHidden(final boolean val)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def getMboValueInfo():
-    '''public MboValueInfo getMboValueInfo()
+    '''returns MboValueInfo\n\n
+    getMboValueInfo()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getScale():
-    '''public int getScale()
+    '''returns int\n\n
+    getScale()\n
     '''
 def getColumnTitle():
-    '''public String getColumnTitle()
+    '''returns String\n\n
+    getColumnTitle()\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def smartFill():
-    '''public MboSetRemote smartFill(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFill(final String value, final boolean exact)\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String value, final boolean exact)
-    public MboSetRemote smartFind(final String object, final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String value, final boolean exact)\n
+    smartFind(final String object, final String value, final boolean exact)\n
     '''
 def getMatchingAttr():
-    '''public String getMatchingAttr()
-    public String getMatchingAttr(final String sourceObjectName)
+    '''returns String\n\n
+    getMatchingAttr()\n
+    getMatchingAttr(final String sourceObjectName)\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def setRequired():
-    '''public void setRequired(final boolean state)
+    '''returns None\n\n
+    setRequired(final boolean state)\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def isExtended():
-    '''public boolean isExtended()
+    '''returns boolean\n\n
+    isExtended()\n
     '''
 def isGuaranteedUnique():
-    '''public boolean isGuaranteedUnique()
+    '''returns boolean\n\n
+    isGuaranteedUnique()\n
     '''
 def setGuaranteedUnique():
-    '''public void setGuaranteedUnique(final boolean flag)
+    '''returns None\n\n
+    setGuaranteedUnique(final boolean flag)\n
     '''
 def autoKey():
-    '''public void autoKey()
+    '''returns None\n\n
+    autoKey()\n
     '''
 def autoKeyByMboSiteOrg():
-    '''public void autoKeyByMboSiteOrg()
+    '''returns None\n\n
+    autoKeyByMboSiteOrg()\n
     '''
 def addMboValueListener():
-    '''public void addMboValueListener(final MboValueListener l)
+    '''returns None\n\n
+    addMboValueListener(final MboValueListener l)\n
     '''
 def getListeners():
-    '''public Vector<MboValueListener> getListeners()
+    '''returns Vector<MboValueListener>\n\n
+    getListeners()\n
     '''
 def removeMboValueListener():
-    '''public void removeMboValueListener(final MboValueListener l)
+    '''returns None\n\n
+    removeMboValueListener(final MboValueListener l)\n
     '''
 def checkFieldAccess():
-    '''public void checkFieldAccess(final long accessModifier)
+    '''returns None\n\n
+    checkFieldAccess(final long accessModifier)\n
     '''
 def hasFieldAccess():
-    '''public boolean hasFieldAccess(final long accessModifier)
+    '''returns boolean\n\n
+    hasFieldAccess(final long accessModifier)\n
     '''
 def setFlags():
-    '''public void setFlags(final long flags)
-    public void setFlags(final long flags, final MXException mxe)
+    '''returns None\n\n
+    setFlags(final long flags)\n
+    setFlags(final long flags, final MXException mxe)\n
     '''
 def getFlags():
-    '''public long getFlags()
+    '''returns long\n\n
+    getFlags()\n
     '''
 def setFlag():
-    '''public void setFlag(final long flag, final boolean state)
-    public void setFlag(final long flag, final boolean state, final MXException mxe)
+    '''returns None\n\n
+    setFlag(final long flag, final boolean state)\n
+    setFlag(final long flag, final boolean state, final MXException mxe)\n
     '''
 def isFlagSet():
-    '''public boolean isFlagSet(final long flag)
+    '''returns boolean\n\n
+    isFlagSet(final long flag)\n
     '''
 def getFieldFlagFromMbo():
-    '''public void getFieldFlagFromMbo(final long flag)
+    '''returns None\n\n
+    getFieldFlagFromMbo(final long flag)\n
     '''
 def getMXException():
-    '''public MXException getMXException()
-    '''
-def generateUniqueID():
-    '''public synchronized void generateUniqueID()
+    '''returns MXException\n\n
+    getMXException()\n
     '''
 def isToBeValidated():
-    '''public boolean isToBeValidated()
+    '''returns boolean\n\n
+    isToBeValidated()\n
     '''
 def setToBeValidated():
-    '''public void setToBeValidated(final boolean value)
+    '''returns None\n\n
+    setToBeValidated(final boolean value)\n
     '''
 def getIntegrationService():
-    '''public ServiceRemote getIntegrationService()
+    '''returns ServiceRemote\n\n
+    getIntegrationService()\n
     '''
 def rollbackToCheckpoint():
-    '''public void rollbackToCheckpoint()
+    '''returns None\n\n
+    rollbackToCheckpoint()\n
     '''
 def takeCheckpoint():
-    '''public void takeCheckpoint()
+    '''returns None\n\n
+    takeCheckpoint()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def getAppLink():
-    '''public String[] getAppLink()
+    '''returns String[]\n\n
+    getAppLink()\n
     '''
 def getLookupName():
-    '''public String getLookupName()
+    '''returns String\n\n
+    getLookupName()\n
     '''
 def setBypassOperatorCheck():
-    '''public void setBypassOperatorCheck(final boolean val)
+    '''returns None\n\n
+    setBypassOperatorCheck(final boolean val)\n
     '''
 def setApplicationError():
-    '''public void setApplicationError(final ApplicationError appError)
+    '''returns None\n\n
+    setApplicationError(final ApplicationError appError)\n
     '''
 def getApplicationError():
-    '''public ApplicationError getApplicationError()
+    '''returns ApplicationError\n\n
+    getApplicationError()\n
     '''
 def setCurProcessValue():
-    '''public void setCurProcessValue(final String value)
+    '''returns None\n\n
+    setCurProcessValue(final String value)\n
     '''
 def getCurProcessValue():
-    '''public String getCurProcessValue()
+    '''returns String\n\n
+    getCurProcessValue()\n
     '''
 def setApplicationRequired():
-    '''public void setApplicationRequired(final boolean appRequired)
+    '''returns None\n\n
+    setApplicationRequired(final boolean appRequired)\n
     '''
 def isApplicationRequired():
-    '''public boolean isApplicationRequired()
+    '''returns boolean\n\n
+    isApplicationRequired()\n
     '''
 def isRecordHover():
-    '''public boolean isRecordHover()
+    '''returns boolean\n\n
+    isRecordHover()\n
     '''
 def setRecordHover():
-    '''public void setRecordHover(final boolean isRecordHover)
+    '''returns None\n\n
+    setRecordHover(final boolean isRecordHover)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

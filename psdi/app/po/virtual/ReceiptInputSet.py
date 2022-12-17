@@ -1,63 +1,84 @@
-def ReceiptInputSet():
-    '''public ReceiptInputSet(final MboServerInterface ms)
+def ():
+    '''returns ReceiptInputSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setStorelocString():
-    '''public void setStorelocString(final String storeLoc)
+    '''returns None\n\n
+    setStorelocString(final String storeLoc)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def setupShipmentReceipt():
-    '''public void setupShipmentReceipt(final ShipmentRemote owningShipment)
+    '''returns None\n\n
+    setupShipmentReceipt(final ShipmentRemote owningShipment)\n
     '''
 def createReceiptsForReturnPrepSrv():
-    '''public void createReceiptsForReturnPrepSrv(final MboRemote po)
+    '''returns None\n\n
+    createReceiptsForReturnPrepSrv(final MboRemote po)\n
     '''
 def getShipmentLineSet():
-    '''public MboSetRemote getShipmentLineSet(final MboRemote shipmentRemote)
+    '''returns MboSetRemote\n\n
+    getShipmentLineSet(final MboRemote shipmentRemote)\n
     '''
 def getPOLineSet():
-    '''public MboSetRemote getPOLineSet(final MboRemote poRemote)
+    '''returns MboSetRemote\n\n
+    getPOLineSet(final MboRemote poRemote)\n
     '''
 def setRelationshipStringFromPO():
-    '''public void setRelationshipStringFromPO(final String relationship)
+    '''returns None\n\n
+    setRelationshipStringFromPO(final String relationship)\n
     '''
 def getRelationshipStringFromPO():
-    '''public String getRelationshipStringFromPO()
+    '''returns String\n\n
+    getRelationshipStringFromPO()\n
     '''
 def createReceiptsForReturnPrep():
-    '''public void createReceiptsForReturnPrep(final MboRemote po)
+    '''returns None\n\n
+    createReceiptsForReturnPrep(final MboRemote po)\n
     '''
 def createShipmentReceiptsForReturnPrep():
-    '''public void createShipmentReceiptsForReturnPrep(final MboRemote shipment)
+    '''returns None\n\n
+    createShipmentReceiptsForReturnPrep(final MboRemote shipment)\n
     '''
 def setShipmentReturnVariablesPrep():
-    '''public void setShipmentReturnVariablesPrep(final MboRemote matRecRemote, final MboRemote receiptInputRemote)
+    '''returns None\n\n
+    setShipmentReturnVariablesPrep(final MboRemote matRecRemote, final MboRemote receiptInputRemote)\n
     '''
 def createServReceiptsPrep():
-    '''public void createServReceiptsPrep(final MboSetRemote poLineSet, final MboRemote po)
+    '''returns None\n\n
+    createServReceiptsPrep(final MboSetRemote poLineSet, final MboRemote po)\n
     '''
 def createReturnsForAssets():
-    '''public void createReturnsForAssets(final MboSetRemote poLineSet, final MboRemote po)
+    '''returns None\n\n
+    createReturnsForAssets(final MboSetRemote poLineSet, final MboRemote po)\n
     '''
 def diHasFinancialTransactions():
-    '''public boolean diHasFinancialTransactions(final MatRecTrans mrt, final Asset asset)
+    '''returns boolean\n\n
+    diHasFinancialTransactions(final MatRecTrans mrt, final Asset asset)\n
     '''
 def createMatReceiptsPrep():
-    '''public void createMatReceiptsPrep(final MboSetRemote poLineSet, final MboRemote po)
+    '''returns None\n\n
+    createMatReceiptsPrep(final MboSetRemote poLineSet, final MboRemote po)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def generateServiceReturnReceipts():
-    '''public void generateServiceReturnReceipts(final MboSetRemote servRecTransSetRemote)
+    '''returns None\n\n
+    generateServiceReturnReceipts(final MboSetRemote servRecTransSetRemote)\n
     '''
 def generateReceipts():
-    '''public boolean generateReceipts(final MboSetRemote targetMbos)
+    '''returns boolean\n\n
+    generateReceipts(final MboSetRemote targetMbos)\n
     '''
 def generateReturnReceipts():
-    '''public void generateReturnReceipts(final MboSetRemote targetMboSet)
+    '''returns None\n\n
+    generateReturnReceipts(final MboSetRemote targetMboSet)\n
     '''
 def getInvAdjLifoFifo():
-    '''public double getInvAdjLifoFifo(final MboRemote inv, final long receiptId)
+    '''returns double\n\n
+    getInvAdjLifoFifo(final MboRemote inv, final long receiptId)\n
     '''

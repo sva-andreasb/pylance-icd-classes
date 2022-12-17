@@ -1,81 +1,108 @@
 def getNotificationOccurrenceEvent():
-    '''public Event getNotificationOccurrenceEvent()
+    '''returns Event\n\n
+    getNotificationOccurrenceEvent()\n
     '''
 def setNotificationOccurrenceEvent():
-    '''public void setNotificationOccurrenceEvent(final Event notificationOccurrenceEvent)
+    '''returns None\n\n
+    setNotificationOccurrenceEvent(final Event notificationOccurrenceEvent)\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def setFileName():
-    '''public void setFileName(final String fileName)
+    '''returns None\n\n
+    setFileName(final String fileName)\n
     '''
 def isFileNameSpecified():
-    '''public boolean isFileNameSpecified()
+    '''returns boolean\n\n
+    isFileNameSpecified()\n
     '''
 def unsetFileName():
-    '''public void unsetFileName()
+    '''returns None\n\n
+    unsetFileName()\n
     '''
 def getFileSize():
-    '''public String getFileSize()
+    '''returns String\n\n
+    getFileSize()\n
     '''
 def setFileSize():
-    '''public void setFileSize(final String fileSize)
+    '''returns None\n\n
+    setFileSize(final String fileSize)\n
     '''
 def isFileSizeSpecified():
-    '''public boolean isFileSizeSpecified()
+    '''returns boolean\n\n
+    isFileSizeSpecified()\n
     '''
 def unsetFileSize():
-    '''public void unsetFileSize()
+    '''returns None\n\n
+    unsetFileSize()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getNotificationOccurrenceEventId():
-    '''public Long getNotificationOccurrenceEventId()
+    '''returns Long\n\n
+    getNotificationOccurrenceEventId()\n
     '''
 def setNotificationOccurrenceEventId():
-    '''public void setNotificationOccurrenceEventId(final Long notificationOccurrenceEventId)
+    '''returns None\n\n
+    setNotificationOccurrenceEventId(final Long notificationOccurrenceEventId)\n
     '''
 def isNotificationOccurrenceEventIdSpecified():
-    '''public boolean isNotificationOccurrenceEventIdSpecified()
+    '''returns boolean\n\n
+    isNotificationOccurrenceEventIdSpecified()\n
     '''
 def unsetNotificationOccurrenceEventId():
-    '''public void unsetNotificationOccurrenceEventId()
+    '''returns None\n\n
+    unsetNotificationOccurrenceEventId()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def fileName():
-    '''public Mask fileName()
+    '''returns Mask\n\n
+    fileName()\n
     '''
 def fileSize():
-    '''public Mask fileSize()
+    '''returns Mask\n\n
+    fileSize()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def notificationOccurrenceEventId():
-    '''public Mask notificationOccurrenceEventId()
+    '''returns Mask\n\n
+    notificationOccurrenceEventId()\n
     '''

@@ -1,6 +1,8 @@
 def applyTo():
-    '''public void applyTo(final VEvent element)
+    '''returns None\n\n
+    applyTo(final VEvent element)\n
     '''
 def getSupportedType():
-    '''public Class<VEvent> getSupportedType()
+    '''returns Class<VEvent>\n\n
+    getSupportedType()\n
     '''

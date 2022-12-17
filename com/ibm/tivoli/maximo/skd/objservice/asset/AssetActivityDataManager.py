@@ -1,43 +1,57 @@
-def AssetActivityDataManager():
-    '''public AssetActivityDataManager()
+def ():
+    '''returns AssetActivityDataManager\n\n
+    ()\n
     '''
 def populate():
-    '''public boolean populate()
+    '''returns boolean\n\n
+    populate()\n
     '''
 def populateActivities():
-    '''public void populateActivities(final HashMap<String, ArrayList<String>> queryMap)
+    '''returns None\n\n
+    populateActivities(final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def getDateDBSqlString():
-    '''public String[] getDateDBSqlString(final int dbType)
+    '''returns String[]\n\n
+    getDateDBSqlString(final int dbType)\n
     '''
 def getOrgQuery():
-    '''public String getOrgQuery()
+    '''returns String\n\n
+    getOrgQuery()\n
     '''
 def populateActivityPropertyDetails():
-    '''public void populateActivityPropertyDetails()
+    '''returns None\n\n
+    populateActivityPropertyDetails()\n
     '''
 def populateActivityParentFromAsset():
-    '''public void populateActivityParentFromAsset(final String uniqueidname)
+    '''returns None\n\n
+    populateActivityParentFromAsset(final String uniqueidname)\n
     '''
 def populateActivityDatesFromSkdproject():
-    '''public void populateActivityDatesFromSkdproject()
+    '''returns None\n\n
+    populateActivityDatesFromSkdproject()\n
     '''
 def getCompleteQueryWhere():
-    '''public String getCompleteQueryWhere(final String objectName, final HashMap<String, ArrayList<String>> queryMap)
+    '''returns String\n\n
+    getCompleteQueryWhere(final String objectName, final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def getDefaultRestriction():
-    '''public String getDefaultRestriction(final String objectName)
+    '''returns String\n\n
+    getDefaultRestriction(final String objectName)\n
     '''
 def loadActivity():
-    '''public void loadActivity(final MXActivity activity, final String objectName, final MXGanttModel model)
+    '''returns None\n\n
+    loadActivity(final MXActivity activity, final String objectName, final MXGanttModel model)\n
     '''
 def activityRecordCount():
-    '''public int activityRecordCount(final HashMap<String, ArrayList<String>> queryMap)
+    '''returns int\n\n
+    activityRecordCount(final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def saveActivities():
-    '''public void saveActivities(final IlvGeneralActivity activity)
+    '''returns None\n\n
+    saveActivities(final IlvGeneralActivity activity)\n
     '''
 def applyActivityChange():
-    '''public void applyActivityChange(final MboRemote activityMboRemote, final MXTransaction txn)
-    public void applyActivityChange(final MboRemote activityMboRemote, final String ids, final MXTransaction txn)
+    '''returns None\n\n
+    applyActivityChange(final MboRemote activityMboRemote, final MXTransaction txn)\n
+    applyActivityChange(final MboRemote activityMboRemote, final String ids, final MXTransaction txn)\n
     '''

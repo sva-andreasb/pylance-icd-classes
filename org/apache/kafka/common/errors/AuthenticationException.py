@@ -1,4 +1,5 @@
-def AuthenticationException():
-    '''public AuthenticationException(final String message)
-    public AuthenticationException(final String message, final Throwable cause)
+def ():
+    '''returns AuthenticationException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

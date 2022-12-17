@@ -1,3 +1,4 @@
-def ProcessMonitorSet():
-    '''public ProcessMonitorSet(final MboServerInterface ms)
+def ():
+    '''returns ProcessMonitorSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,12 +1,16 @@
-def Pattern():
-    '''public Pattern(final Element S, final Element P, final Element O)
+def ():
+    '''returns Pattern\n\n
+    (final Element S, final Element P, final Element O)\n
     '''
 def asTripleMatch():
-    '''public TripleMatch asTripleMatch(final Domain d)
+    '''returns TripleMatch\n\n
+    asTripleMatch(final Domain d)\n
     '''
 def match():
-    '''public boolean match(final Domain d, final Triple t)
+    '''returns boolean\n\n
+    match(final Domain d, final Triple t)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

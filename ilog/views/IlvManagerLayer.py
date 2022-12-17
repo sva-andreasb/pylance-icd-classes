@@ -1,73 +1,42 @@
-def IlvManagerLayer():
-    '''public IlvManagerLayer()
-    public IlvManagerLayer(final int n, final int n2)
-    public IlvManagerLayer(final IlvInputStream ilvInputStream)
-    '''
-def getManager():
-    '''public final IlvManager getManager()
-    '''
-def getIndex():
-    '''public final int getIndex()
-    '''
-def isSelectable():
-    '''public final boolean isSelectable()
+def ():
+    '''returns IlvManagerLayer\n\n
+    ()\n
+    (final int n, final int n2)\n
+    (final IlvInputStream ilvInputStream)\n
     '''
 def setAlpha():
-    '''public void setAlpha(final float i)
+    '''returns None\n\n
+    setAlpha(final float i)\n
     '''
 def getAlpha():
-    '''public float getAlpha()
-    '''
-def addVisibilityFilter():
-    '''public final void addVisibilityFilter(final IlvLayerVisibilityFilter obj)
-    '''
-def removeVisibilityFilter():
-    '''public final void removeVisibilityFilter(final IlvLayerVisibilityFilter obj)
-    '''
-def getVisibilityFilters():
-    '''public final Enumeration getVisibilityFilters()
+    '''returns float\n\n
+    getAlpha()\n
     '''
 def isVisible():
-    '''public final boolean isVisible()
-    public boolean isVisible(final IlvManagerView ilvManagerView)
-    '''
-def setProperty():
-    '''public final void setProperty(final String s, final Object o)
-    '''
-def getProperty():
-    '''public final Object getProperty(final String s)
+    '''returns boolean\n\n
+    isVisible(final IlvManagerView ilvManagerView)\n
     '''
 def print():
-    '''public void print(final Graphics graphics, final IlvRect ilvRect, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    print(final Graphics graphics, final IlvRect ilvRect, final IlvTransformer ilvTransformer)\n
     '''
 def apply():
-    '''public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''returns None\n\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
     '''
 def computeBBox():
-    '''public IlvRect computeBBox(final IlvTransformer ilvTransformer)
-    '''
-def setName():
-    '''public synchronized void setName(final String g)
+    '''returns IlvRect\n\n
+    computeBBox(final IlvTransformer ilvTransformer)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def setNamedProperty():
-    '''public final IlvNamedProperty setNamedProperty(final IlvNamedProperty value)
-    '''
-def getNamedProperty():
-    '''public final IlvNamedProperty getNamedProperty(final String key)
-    '''
-def removeNamedProperty():
-    '''public final void removeNamedProperty(final String key)
+    '''returns String\n\n
+    getName()\n
     '''
 def write():
-    '''public void write(final IlvOutputStream ilvOutputStream)
-    '''
-def writeIt():
-    '''public final void writeIt(final IlvOutputStream ilvOutputStream)
+    '''returns None\n\n
+    write(final IlvOutputStream ilvOutputStream)\n
     '''

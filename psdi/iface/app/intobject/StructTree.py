@@ -1,15 +1,20 @@
-def StructTree():
-    '''public StructTree(final MboRemote n)
+def ():
+    '''returns StructTree\n\n
+    (final MboRemote n)\n
     '''
 def getStructMbo():
-    '''public MboRemote getStructMbo()
+    '''returns MboRemote\n\n
+    getStructMbo()\n
     '''
 def addChildren():
-    '''public void addChildren(final StructTree info)
+    '''returns None\n\n
+    addChildren(final StructTree info)\n
     '''
 def getChildren():
-    '''public List<StructTree> getChildren()
+    '''returns List<StructTree>\n\n
+    getChildren()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

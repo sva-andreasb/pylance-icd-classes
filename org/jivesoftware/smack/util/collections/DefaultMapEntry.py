@@ -1,5 +1,6 @@
-def DefaultMapEntry():
-    '''public DefaultMapEntry(final K key, final V value)
-    public DefaultMapEntry(final KeyValue<K, V> pair)
-    public DefaultMapEntry(final Map.Entry<K, V> entry)
+def ():
+    '''returns DefaultMapEntry\n\n
+    (final K key, final V value)\n
+    (final KeyValue<K, V> pair)\n
+    (final Map.Entry<K, V> entry)\n
     '''

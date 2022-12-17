@@ -1,68 +1,90 @@
 DEFAULT_CHARSET = "String  \"ISO-8859-1\""
-def DiskFileItem():
-    '''public DiskFileItem(final String fieldName, final String contentType, final boolean isFormField, final String fileName, final int sizeThreshold, final File repository)
+def ():
+    '''returns DiskFileItem\n\n
+    (final String fieldName, final String contentType, final boolean isFormField, final String fileName, final int sizeThreshold, final File repository)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getCharSet():
-    '''public String getCharSet()
+    '''returns String\n\n
+    getCharSet()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isInMemory():
-    '''public boolean isInMemory()
+    '''returns boolean\n\n
+    isInMemory()\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''
 def get():
-    '''public byte[] get()
+    '''returns byte[]\n\n
+    get()\n
     '''
 def getString():
-    '''public String getString(final String charset)
-    public String getString()
+    '''returns String\n\n
+    getString(final String charset)\n
+    getString()\n
     '''
 def write():
-    '''public void write(final File file)
+    '''returns None\n\n
+    write(final File file)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getFieldName():
-    '''public String getFieldName()
+    '''returns String\n\n
+    getFieldName()\n
     '''
 def setFieldName():
-    '''public void setFieldName(final String fieldName)
+    '''returns None\n\n
+    setFieldName(final String fieldName)\n
     '''
 def isFormField():
-    '''public boolean isFormField()
+    '''returns boolean\n\n
+    isFormField()\n
     '''
 def setFormField():
-    '''public void setFormField(final boolean state)
+    '''returns None\n\n
+    setFormField(final boolean state)\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def getStoreLocation():
-    '''public File getStoreLocation()
+    '''returns File\n\n
+    getStoreLocation()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getHeaders():
-    '''public FileItemHeaders getHeaders()
+    '''returns FileItemHeaders\n\n
+    getHeaders()\n
     '''
 def setHeaders():
-    '''public void setHeaders(final FileItemHeaders pHeaders)
+    '''returns None\n\n
+    setHeaders(final FileItemHeaders pHeaders)\n
     '''
 def getDefaultCharset():
-    '''public String getDefaultCharset()
+    '''returns String\n\n
+    getDefaultCharset()\n
     '''
 def setDefaultCharset():
-    '''public void setDefaultCharset(final String charset)
+    '''returns None\n\n
+    setDefaultCharset(final String charset)\n
     '''

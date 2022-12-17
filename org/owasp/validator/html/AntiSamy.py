@@ -1,12 +1,14 @@
-def AntiSamy():
-    '''public AntiSamy()
-    public AntiSamy(final Policy policy)
+def ():
+    '''returns AntiSamy\n\n
+    ()\n
+    (final Policy policy)\n
     '''
 def scan():
-    '''public CleanResults scan(final String taintedHTML)
-    public CleanResults scan(final String taintedHTML, final int scanType)
-    public CleanResults scan(final String taintedHTML, final Policy policy)
-    public CleanResults scan(final String taintedHTML, final Policy policy, final int scanType)
-    public CleanResults scan(final String taintedHTML, final String filename)
-    public CleanResults scan(final String taintedHTML, final File policyFile)
+    '''returns CleanResults\n\n
+    scan(final String taintedHTML)\n
+    scan(final String taintedHTML, final int scanType)\n
+    scan(final String taintedHTML, final Policy policy)\n
+    scan(final String taintedHTML, final Policy policy, final int scanType)\n
+    scan(final String taintedHTML, final String filename)\n
+    scan(final String taintedHTML, final File policyFile)\n
     '''

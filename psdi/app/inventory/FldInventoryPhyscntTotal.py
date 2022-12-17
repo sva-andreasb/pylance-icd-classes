@@ -1,6 +1,8 @@
-def FldInventoryPhyscntTotal():
-    '''public FldInventoryPhyscntTotal(final MboValue mbv)
+def ():
+    '''returns FldInventoryPhyscntTotal\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

@@ -1,6 +1,8 @@
-def LookupTranslator():
-    '''public LookupTranslator(final CharSequence[]... lookup)
+def ():
+    '''returns LookupTranslator\n\n
+    (final CharSequence[]... lookup)\n
     '''
 def translate():
-    '''public int translate(final CharSequence input, final int index, final Writer out)
+    '''returns int\n\n
+    translate(final CharSequence input, final int index, final Writer out)\n
     '''

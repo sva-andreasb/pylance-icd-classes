@@ -1,6 +1,8 @@
-def MicListener():
-    '''public MicListener(final String pubChannelName, final MaximoEventFilter eventFilter)
+def ():
+    '''returns MicListener\n\n
+    (final String pubChannelName, final MaximoEventFilter eventFilter)\n
     '''
 def structureChanged():
-    '''public void structureChanged(final OSEvent osEvent)
+    '''returns None\n\n
+    structureChanged(final OSEvent osEvent)\n
     '''

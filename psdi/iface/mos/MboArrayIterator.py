@@ -1,31 +1,41 @@
-def MboArrayIterator():
-    '''public MboArrayIterator(final MboRemote[] set)
-    public MboArrayIterator(final MboRemote[] set, final String name, final UserInfo userInfo)
+def ():
+    '''returns MboArrayIterator\n\n
+    (final MboRemote[] set)\n
+    (final MboRemote[] set, final String name, final UserInfo userInfo)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def count():
-    '''public int count()
+    '''returns int\n\n
+    count()\n
     '''
 def get():
-    '''public MboRemote get(final int index)
+    '''returns MboRemote\n\n
+    get(final int index)\n
     '''
 def remove():
-    '''public void remove(final int index)
+    '''returns None\n\n
+    remove(final int index)\n
     '''
 def setDiscardable():
-    '''public void setDiscardable()
+    '''returns None\n\n
+    setDiscardable()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def setSkipFirstNRows():
-    '''public void setSkipFirstNRows(final int skipRows)
+    '''returns None\n\n
+    setSkipFirstNRows(final int skipRows)\n
     '''
 def canSkipRows():
-    '''public boolean canSkipRows()
+    '''returns boolean\n\n
+    canSkipRows()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

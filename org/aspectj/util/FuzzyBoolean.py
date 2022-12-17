@@ -1,51 +1,56 @@
-def fromBoolean():
-    '''public static final FuzzyBoolean fromBoolean(final boolean b)
-    '''
 def alwaysFalse():
-    '''public boolean alwaysFalse()
-    public boolean alwaysFalse()
-    public boolean alwaysFalse()
-    public boolean alwaysFalse()
+    '''returns boolean\n\n
+    alwaysFalse()\n
+    alwaysFalse()\n
+    alwaysFalse()\n
+    alwaysFalse()\n
     '''
 def alwaysTrue():
-    '''public boolean alwaysTrue()
-    public boolean alwaysTrue()
-    public boolean alwaysTrue()
-    public boolean alwaysTrue()
+    '''returns boolean\n\n
+    alwaysTrue()\n
+    alwaysTrue()\n
+    alwaysTrue()\n
+    alwaysTrue()\n
     '''
 def maybeFalse():
-    '''public boolean maybeFalse()
-    public boolean maybeFalse()
-    public boolean maybeFalse()
-    public boolean maybeFalse()
+    '''returns boolean\n\n
+    maybeFalse()\n
+    maybeFalse()\n
+    maybeFalse()\n
+    maybeFalse()\n
     '''
 def maybeTrue():
-    '''public boolean maybeTrue()
-    public boolean maybeTrue()
-    public boolean maybeTrue()
-    public boolean maybeTrue()
+    '''returns boolean\n\n
+    maybeTrue()\n
+    maybeTrue()\n
+    maybeTrue()\n
+    maybeTrue()\n
     '''
 def and():
-    '''public FuzzyBoolean and(final FuzzyBoolean other)
-    public FuzzyBoolean and(final FuzzyBoolean other)
-    public FuzzyBoolean and(final FuzzyBoolean other)
-    public FuzzyBoolean and(final FuzzyBoolean other)
+    '''returns FuzzyBoolean\n\n
+    and(final FuzzyBoolean other)\n
+    and(final FuzzyBoolean other)\n
+    and(final FuzzyBoolean other)\n
+    and(final FuzzyBoolean other)\n
     '''
 def not():
-    '''public FuzzyBoolean not()
-    public FuzzyBoolean not()
-    public FuzzyBoolean not()
-    public FuzzyBoolean not()
+    '''returns FuzzyBoolean\n\n
+    not()\n
+    not()\n
+    not()\n
+    not()\n
     '''
 def or():
-    '''public FuzzyBoolean or(final FuzzyBoolean other)
-    public FuzzyBoolean or(final FuzzyBoolean other)
-    public FuzzyBoolean or(final FuzzyBoolean other)
-    public FuzzyBoolean or(final FuzzyBoolean other)
+    '''returns FuzzyBoolean\n\n
+    or(final FuzzyBoolean other)\n
+    or(final FuzzyBoolean other)\n
+    or(final FuzzyBoolean other)\n
+    or(final FuzzyBoolean other)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''

@@ -1,10 +1,13 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloCPResultPublisher():
-    '''public IloCPResultPublisher(final IloCPDecisionEngine engine)
+def ():
+    '''returns IloCPResultPublisher\n\n
+    (final IloCPDecisionEngine engine)\n
     '''
 def publishEngineResultsState():
-    '''public void publishEngineResultsState()
+    '''returns None\n\n
+    publishEngineResultsState()\n
     '''
 def setOplDecisionEngine():
-    '''public void setOplDecisionEngine(final IloOplDecisionEngine oplDecisionEngine)
+    '''returns None\n\n
+    setOplDecisionEngine(final IloOplDecisionEngine oplDecisionEngine)\n
     '''

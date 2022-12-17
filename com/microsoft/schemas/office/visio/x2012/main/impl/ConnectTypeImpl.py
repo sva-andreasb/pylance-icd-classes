@@ -1,99 +1,132 @@
-def ConnectTypeImpl():
-    '''public ConnectTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns ConnectTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getFromSheet():
-    '''public long getFromSheet()
+    '''returns long\n\n
+    getFromSheet()\n
     '''
 def xgetFromSheet():
-    '''public XmlUnsignedInt xgetFromSheet()
+    '''returns XmlUnsignedInt\n\n
+    xgetFromSheet()\n
     '''
 def setFromSheet():
-    '''public void setFromSheet(final long longValue)
+    '''returns None\n\n
+    setFromSheet(final long longValue)\n
     '''
 def xsetFromSheet():
-    '''public void xsetFromSheet(final XmlUnsignedInt xmlUnsignedInt)
+    '''returns None\n\n
+    xsetFromSheet(final XmlUnsignedInt xmlUnsignedInt)\n
     '''
 def getFromCell():
-    '''public String getFromCell()
+    '''returns String\n\n
+    getFromCell()\n
     '''
 def xgetFromCell():
-    '''public XmlString xgetFromCell()
+    '''returns XmlString\n\n
+    xgetFromCell()\n
     '''
 def isSetFromCell():
-    '''public boolean isSetFromCell()
+    '''returns boolean\n\n
+    isSetFromCell()\n
     '''
 def setFromCell():
-    '''public void setFromCell(final String stringValue)
+    '''returns None\n\n
+    setFromCell(final String stringValue)\n
     '''
 def xsetFromCell():
-    '''public void xsetFromCell(final XmlString xmlString)
+    '''returns None\n\n
+    xsetFromCell(final XmlString xmlString)\n
     '''
 def unsetFromCell():
-    '''public void unsetFromCell()
+    '''returns None\n\n
+    unsetFromCell()\n
     '''
 def getFromPart():
-    '''public int getFromPart()
+    '''returns int\n\n
+    getFromPart()\n
     '''
 def xgetFromPart():
-    '''public XmlInt xgetFromPart()
+    '''returns XmlInt\n\n
+    xgetFromPart()\n
     '''
 def isSetFromPart():
-    '''public boolean isSetFromPart()
+    '''returns boolean\n\n
+    isSetFromPart()\n
     '''
 def setFromPart():
-    '''public void setFromPart(final int intValue)
+    '''returns None\n\n
+    setFromPart(final int intValue)\n
     '''
 def xsetFromPart():
-    '''public void xsetFromPart(final XmlInt xmlInt)
+    '''returns None\n\n
+    xsetFromPart(final XmlInt xmlInt)\n
     '''
 def unsetFromPart():
-    '''public void unsetFromPart()
+    '''returns None\n\n
+    unsetFromPart()\n
     '''
 def getToSheet():
-    '''public long getToSheet()
+    '''returns long\n\n
+    getToSheet()\n
     '''
 def xgetToSheet():
-    '''public XmlUnsignedInt xgetToSheet()
+    '''returns XmlUnsignedInt\n\n
+    xgetToSheet()\n
     '''
 def setToSheet():
-    '''public void setToSheet(final long longValue)
+    '''returns None\n\n
+    setToSheet(final long longValue)\n
     '''
 def xsetToSheet():
-    '''public void xsetToSheet(final XmlUnsignedInt xmlUnsignedInt)
+    '''returns None\n\n
+    xsetToSheet(final XmlUnsignedInt xmlUnsignedInt)\n
     '''
 def getToCell():
-    '''public String getToCell()
+    '''returns String\n\n
+    getToCell()\n
     '''
 def xgetToCell():
-    '''public XmlString xgetToCell()
+    '''returns XmlString\n\n
+    xgetToCell()\n
     '''
 def isSetToCell():
-    '''public boolean isSetToCell()
+    '''returns boolean\n\n
+    isSetToCell()\n
     '''
 def setToCell():
-    '''public void setToCell(final String stringValue)
+    '''returns None\n\n
+    setToCell(final String stringValue)\n
     '''
 def xsetToCell():
-    '''public void xsetToCell(final XmlString xmlString)
+    '''returns None\n\n
+    xsetToCell(final XmlString xmlString)\n
     '''
 def unsetToCell():
-    '''public void unsetToCell()
+    '''returns None\n\n
+    unsetToCell()\n
     '''
 def getToPart():
-    '''public int getToPart()
+    '''returns int\n\n
+    getToPart()\n
     '''
 def xgetToPart():
-    '''public XmlInt xgetToPart()
+    '''returns XmlInt\n\n
+    xgetToPart()\n
     '''
 def isSetToPart():
-    '''public boolean isSetToPart()
+    '''returns boolean\n\n
+    isSetToPart()\n
     '''
 def setToPart():
-    '''public void setToPart(final int intValue)
+    '''returns None\n\n
+    setToPart(final int intValue)\n
     '''
 def xsetToPart():
-    '''public void xsetToPart(final XmlInt xmlInt)
+    '''returns None\n\n
+    xsetToPart(final XmlInt xmlInt)\n
     '''
 def unsetToPart():
-    '''public void unsetToPart()
+    '''returns None\n\n
+    unsetToPart()\n
     '''

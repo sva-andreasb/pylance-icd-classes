@@ -1,3 +1,4 @@
-def XML11DocumentScannerImpl():
-    '''public XML11DocumentScannerImpl()
+def ():
+    '''returns XML11DocumentScannerImpl\n\n
+    ()\n
     '''

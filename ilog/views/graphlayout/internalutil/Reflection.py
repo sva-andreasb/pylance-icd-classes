@@ -1,0 +1,5 @@
+SUCCESS = "int  1"
+AMBIGUOUS = "int  2"
+CLASS_MISMATCH = "int  4"
+METHOD_MISMATCH = "int  8"
+EXCEPTION = "int  16"

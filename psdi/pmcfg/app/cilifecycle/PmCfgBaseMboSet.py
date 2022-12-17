@@ -1,15 +1,20 @@
-def PmCfgBaseMboSet():
-    '''public PmCfgBaseMboSet(final MboServerInterface ms)
+def ():
+    '''returns PmCfgBaseMboSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final int accessModifier, final int ind)
+    '''returns MboRemote\n\n
+    addAtIndex(final int accessModifier, final int ind)\n
     '''
 def getList():
-    '''public MboSetRemote getList(final int row, final String attributeName)
+    '''returns MboSetRemote\n\n
+    getList(final int row, final String attributeName)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

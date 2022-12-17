@@ -1,6 +1,8 @@
 def getNextItems():
-    '''public void getNextItems(final TraversalState traversalState, final UserInfo userInfo)
+    '''returns None\n\n
+    getNextItems(final TraversalState traversalState, final UserInfo userInfo)\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''

@@ -1,0 +1,7 @@
+SQUARE = "int  1"
+DIAMOND = "int  2"
+CIRCLE = "int  3"
+PLUS = "int  4"
+CROSS = "int  5"
+TRIANGLE = "int  6"
+NONE = "int  7"

@@ -1,478 +1,628 @@
 def isHasMessage():
-    '''public Boolean isHasMessage()
+    '''returns Boolean\n\n
+    isHasMessage()\n
     '''
 def setHasMessage():
-    '''public void setHasMessage(final Boolean value)
+    '''returns None\n\n
+    setHasMessage(final Boolean value)\n
     '''
 def getMessage():
-    '''public Message getMessage()
+    '''returns Message\n\n
+    getMessage()\n
     '''
 def setMessage():
-    '''public void setMessage(final Message value)
+    '''returns None\n\n
+    setMessage(final Message value)\n
     '''
 def getActionUITitle():
-    '''public String getActionUITitle()
+    '''returns String\n\n
+    getActionUITitle()\n
     '''
 def setActionUITitle():
-    '''public void setActionUITitle(final String value)
+    '''returns None\n\n
+    setActionUITitle(final String value)\n
     '''
 def isPreActionShowUI():
-    '''public Boolean isPreActionShowUI()
+    '''returns Boolean\n\n
+    isPreActionShowUI()\n
     '''
 def setPreActionShowUI():
-    '''public void setPreActionShowUI(final Boolean value)
+    '''returns None\n\n
+    setPreActionShowUI(final Boolean value)\n
     '''
 def getPreAction():
-    '''public PreAction getPreAction()
+    '''returns PreAction\n\n
+    getPreAction()\n
     '''
 def setPreAction():
-    '''public void setPreAction(final PreAction value)
+    '''returns None\n\n
+    setPreAction(final PreAction value)\n
     '''
 def isHasRunningMessage():
-    '''public Boolean isHasRunningMessage()
+    '''returns Boolean\n\n
+    isHasRunningMessage()\n
     '''
 def setHasRunningMessage():
-    '''public void setHasRunningMessage(final Boolean value)
+    '''returns None\n\n
+    setHasRunningMessage(final Boolean value)\n
     '''
 def getRunningMessage():
-    '''public RunningMessage getRunningMessage()
+    '''returns RunningMessage\n\n
+    getRunningMessage()\n
     '''
 def setRunningMessage():
-    '''public void setRunningMessage(final RunningMessage value)
+    '''returns None\n\n
+    setRunningMessage(final RunningMessage value)\n
     '''
 def isHasTimeRange():
-    '''public Boolean isHasTimeRange()
+    '''returns Boolean\n\n
+    isHasTimeRange()\n
     '''
 def setHasTimeRange():
-    '''public void setHasTimeRange(final Boolean value)
+    '''returns None\n\n
+    setHasTimeRange(final Boolean value)\n
     '''
 def getTimeRange():
-    '''public TimeRange getTimeRange()
+    '''returns TimeRange\n\n
+    getTimeRange()\n
     '''
 def setTimeRange():
-    '''public void setTimeRange(final TimeRange value)
+    '''returns None\n\n
+    setTimeRange(final TimeRange value)\n
     '''
 def isHasStartTime():
-    '''public Boolean isHasStartTime()
+    '''returns Boolean\n\n
+    isHasStartTime()\n
     '''
 def setHasStartTime():
-    '''public void setHasStartTime(final Boolean value)
+    '''returns None\n\n
+    setHasStartTime(final Boolean value)\n
     '''
 def getStartDateTimeOffset():
-    '''public Duration getStartDateTimeOffset()
+    '''returns Duration\n\n
+    getStartDateTimeOffset()\n
     '''
 def setStartDateTimeOffset():
-    '''public void setStartDateTimeOffset(final Duration value)
+    '''returns None\n\n
+    setStartDateTimeOffset(final Duration value)\n
     '''
 def getStartDateTimeLocalOffset():
-    '''public Duration getStartDateTimeLocalOffset()
+    '''returns Duration\n\n
+    getStartDateTimeLocalOffset()\n
     '''
 def setStartDateTimeLocalOffset():
-    '''public void setStartDateTimeLocalOffset(final Duration value)
+    '''returns None\n\n
+    setStartDateTimeLocalOffset(final Duration value)\n
     '''
 def isHasEndTime():
-    '''public Boolean isHasEndTime()
+    '''returns Boolean\n\n
+    isHasEndTime()\n
     '''
 def setHasEndTime():
-    '''public void setHasEndTime(final Boolean value)
+    '''returns None\n\n
+    setHasEndTime(final Boolean value)\n
     '''
 def getEndDateTimeOffset():
-    '''public Duration getEndDateTimeOffset()
+    '''returns Duration\n\n
+    getEndDateTimeOffset()\n
     '''
 def setEndDateTimeOffset():
-    '''public void setEndDateTimeOffset(final Duration value)
+    '''returns None\n\n
+    setEndDateTimeOffset(final Duration value)\n
     '''
 def getEndDateTimeLocalOffset():
-    '''public Duration getEndDateTimeLocalOffset()
+    '''returns Duration\n\n
+    getEndDateTimeLocalOffset()\n
     '''
 def setEndDateTimeLocalOffset():
-    '''public void setEndDateTimeLocalOffset(final Duration value)
+    '''returns None\n\n
+    setEndDateTimeLocalOffset(final Duration value)\n
     '''
 def isHasDayOfWeekConstraint():
-    '''public Boolean isHasDayOfWeekConstraint()
+    '''returns Boolean\n\n
+    isHasDayOfWeekConstraint()\n
     '''
 def setHasDayOfWeekConstraint():
-    '''public void setHasDayOfWeekConstraint(final Boolean value)
+    '''returns None\n\n
+    setHasDayOfWeekConstraint(final Boolean value)\n
     '''
 def getDayOfWeekConstraint():
-    '''public DayOfWeekConstraint getDayOfWeekConstraint()
+    '''returns DayOfWeekConstraint\n\n
+    getDayOfWeekConstraint()\n
     '''
 def setDayOfWeekConstraint():
-    '''public void setDayOfWeekConstraint(final DayOfWeekConstraint value)
+    '''returns None\n\n
+    setDayOfWeekConstraint(final DayOfWeekConstraint value)\n
     '''
 def isUseUTCTime():
-    '''public Boolean isUseUTCTime()
+    '''returns Boolean\n\n
+    isUseUTCTime()\n
     '''
 def setUseUTCTime():
-    '''public void setUseUTCTime(final Boolean value)
+    '''returns None\n\n
+    setUseUTCTime(final Boolean value)\n
     '''
 def getActiveUserRequirement():
-    '''public String getActiveUserRequirement()
+    '''returns String\n\n
+    getActiveUserRequirement()\n
     '''
 def setActiveUserRequirement():
-    '''public void setActiveUserRequirement(final String value)
+    '''returns None\n\n
+    setActiveUserRequirement(final String value)\n
     '''
 def getActiveUserType():
-    '''public String getActiveUserType()
+    '''returns String\n\n
+    getActiveUserType()\n
     '''
 def setActiveUserType():
-    '''public void setActiveUserType(final String value)
+    '''returns None\n\n
+    setActiveUserType(final String value)\n
     '''
 def getUIGroupConstraints():
-    '''public UIGroupConstraints getUIGroupConstraints()
+    '''returns UIGroupConstraints\n\n
+    getUIGroupConstraints()\n
     '''
 def setUIGroupConstraints():
-    '''public void setUIGroupConstraints(final UIGroupConstraints value)
+    '''returns None\n\n
+    setUIGroupConstraints(final UIGroupConstraints value)\n
     '''
 def isHasWhose():
-    '''public Boolean isHasWhose()
+    '''returns Boolean\n\n
+    isHasWhose()\n
     '''
 def setHasWhose():
-    '''public void setHasWhose(final Boolean value)
+    '''returns None\n\n
+    setHasWhose(final Boolean value)\n
     '''
 def getWhose():
-    '''public Whose getWhose()
+    '''returns Whose\n\n
+    getWhose()\n
     '''
 def setWhose():
-    '''public void setWhose(final Whose value)
+    '''returns None\n\n
+    setWhose(final Whose value)\n
     '''
 def isPreActionCacheDownload():
-    '''public Boolean isPreActionCacheDownload()
+    '''returns Boolean\n\n
+    isPreActionCacheDownload()\n
     '''
 def setPreActionCacheDownload():
-    '''public void setPreActionCacheDownload(final Boolean value)
+    '''returns None\n\n
+    setPreActionCacheDownload(final Boolean value)\n
     '''
 def isReapply():
-    '''public Boolean isReapply()
+    '''returns Boolean\n\n
+    isReapply()\n
     '''
 def setReapply():
-    '''public void setReapply(final Boolean value)
+    '''returns None\n\n
+    setReapply(final Boolean value)\n
     '''
 def isHasReapplyLimit():
-    '''public Boolean isHasReapplyLimit()
+    '''returns Boolean\n\n
+    isHasReapplyLimit()\n
     '''
 def setHasReapplyLimit():
-    '''public void setHasReapplyLimit(final Boolean value)
+    '''returns None\n\n
+    setHasReapplyLimit(final Boolean value)\n
     '''
 def getReapplyLimit():
-    '''public BigInteger getReapplyLimit()
+    '''returns BigInteger\n\n
+    getReapplyLimit()\n
     '''
 def setReapplyLimit():
-    '''public void setReapplyLimit(final BigInteger value)
+    '''returns None\n\n
+    setReapplyLimit(final BigInteger value)\n
     '''
 def isHasReapplyInterval():
-    '''public Boolean isHasReapplyInterval()
+    '''returns Boolean\n\n
+    isHasReapplyInterval()\n
     '''
 def setHasReapplyInterval():
-    '''public void setHasReapplyInterval(final Boolean value)
+    '''returns None\n\n
+    setHasReapplyInterval(final Boolean value)\n
     '''
 def getReapplyInterval():
-    '''public Duration getReapplyInterval()
+    '''returns Duration\n\n
+    getReapplyInterval()\n
     '''
 def setReapplyInterval():
-    '''public void setReapplyInterval(final Duration value)
+    '''returns None\n\n
+    setReapplyInterval(final Duration value)\n
     '''
 def isHasRetry():
-    '''public Boolean isHasRetry()
+    '''returns Boolean\n\n
+    isHasRetry()\n
     '''
 def setHasRetry():
-    '''public void setHasRetry(final Boolean value)
+    '''returns None\n\n
+    setHasRetry(final Boolean value)\n
     '''
 def getRetryCount():
-    '''public BigInteger getRetryCount()
+    '''returns BigInteger\n\n
+    getRetryCount()\n
     '''
 def setRetryCount():
-    '''public void setRetryCount(final BigInteger value)
+    '''returns None\n\n
+    setRetryCount(final BigInteger value)\n
     '''
 def getRetryWait():
-    '''public RetryWait getRetryWait()
+    '''returns RetryWait\n\n
+    getRetryWait()\n
     '''
 def setRetryWait():
-    '''public void setRetryWait(final RetryWait value)
+    '''returns None\n\n
+    setRetryWait(final RetryWait value)\n
     '''
 def isHasTemporalDistribution():
-    '''public Boolean isHasTemporalDistribution()
+    '''returns Boolean\n\n
+    isHasTemporalDistribution()\n
     '''
 def setHasTemporalDistribution():
-    '''public void setHasTemporalDistribution(final Boolean value)
+    '''returns None\n\n
+    setHasTemporalDistribution(final Boolean value)\n
     '''
 def getTemporalDistribution():
-    '''public Duration getTemporalDistribution()
+    '''returns Duration\n\n
+    getTemporalDistribution()\n
     '''
 def setTemporalDistribution():
-    '''public void setTemporalDistribution(final Duration value)
+    '''returns None\n\n
+    setTemporalDistribution(final Duration value)\n
     '''
 def isContinueOnErrors():
-    '''public Boolean isContinueOnErrors()
+    '''returns Boolean\n\n
+    isContinueOnErrors()\n
     '''
 def setContinueOnErrors():
-    '''public void setContinueOnErrors(final Boolean value)
+    '''returns None\n\n
+    setContinueOnErrors(final Boolean value)\n
     '''
 def getPostActionBehavior():
-    '''public PostActionBehavior getPostActionBehavior()
+    '''returns PostActionBehavior\n\n
+    getPostActionBehavior()\n
     '''
 def setPostActionBehavior():
-    '''public void setPostActionBehavior(final PostActionBehavior value)
+    '''returns None\n\n
+    setPostActionBehavior(final PostActionBehavior value)\n
     '''
 def isIsOffer():
-    '''public Boolean isIsOffer()
+    '''returns Boolean\n\n
+    isIsOffer()\n
     '''
 def setIsOffer():
-    '''public void setIsOffer(final Boolean value)
+    '''returns None\n\n
+    setIsOffer(final Boolean value)\n
     '''
 def isAnnounceOffer():
-    '''public Boolean isAnnounceOffer()
+    '''returns Boolean\n\n
+    isAnnounceOffer()\n
     '''
 def setAnnounceOffer():
-    '''public void setAnnounceOffer(final Boolean value)
+    '''returns None\n\n
+    setAnnounceOffer(final Boolean value)\n
     '''
 def getOfferCategory():
-    '''public String getOfferCategory()
+    '''returns String\n\n
+    getOfferCategory()\n
     '''
 def setOfferCategory():
-    '''public void setOfferCategory(final String value)
+    '''returns None\n\n
+    setOfferCategory(final String value)\n
     '''
 def getOfferDescriptionHTML():
-    '''public String getOfferDescriptionHTML()
+    '''returns String\n\n
+    getOfferDescriptionHTML()\n
     '''
 def setOfferDescriptionHTML():
-    '''public void setOfferDescriptionHTML(final String value)
+    '''returns None\n\n
+    setOfferDescriptionHTML(final String value)\n
     '''
 def isSun():
-    '''public Boolean isSun()
+    '''returns Boolean\n\n
+    isSun()\n
     '''
 def setSun():
-    '''public void setSun(final Boolean value)
+    '''returns None\n\n
+    setSun(final Boolean value)\n
     '''
 def isMon():
-    '''public Boolean isMon()
+    '''returns Boolean\n\n
+    isMon()\n
     '''
 def setMon():
-    '''public void setMon(final Boolean value)
+    '''returns None\n\n
+    setMon(final Boolean value)\n
     '''
 def isTue():
-    '''public Boolean isTue()
+    '''returns Boolean\n\n
+    isTue()\n
     '''
 def setTue():
-    '''public void setTue(final Boolean value)
+    '''returns None\n\n
+    setTue(final Boolean value)\n
     '''
 def isWed():
-    '''public Boolean isWed()
+    '''returns Boolean\n\n
+    isWed()\n
     '''
 def setWed():
-    '''public void setWed(final Boolean value)
+    '''returns None\n\n
+    setWed(final Boolean value)\n
     '''
 def isThu():
-    '''public Boolean isThu()
+    '''returns Boolean\n\n
+    isThu()\n
     '''
 def setThu():
-    '''public void setThu(final Boolean value)
+    '''returns None\n\n
+    setThu(final Boolean value)\n
     '''
 def isFri():
-    '''public Boolean isFri()
+    '''returns Boolean\n\n
+    isFri()\n
     '''
 def setFri():
-    '''public void setFri(final Boolean value)
+    '''returns None\n\n
+    setFri(final Boolean value)\n
     '''
 def isSat():
-    '''public Boolean isSat()
+    '''returns Boolean\n\n
+    isSat()\n
     '''
 def setSat():
-    '''public void setSat(final Boolean value)
+    '''returns None\n\n
+    setSat(final Boolean value)\n
     '''
 def getTitle():
-    '''public String getTitle()
-    public String getTitle()
-    public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
+    getTitle()\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String value)
-    public void setTitle(final String value)
-    public void setTitle(final String value)
+    '''returns None\n\n
+    setTitle(final String value)\n
+    setTitle(final String value)\n
+    setTitle(final String value)\n
     '''
 def getText():
-    '''public String getText()
-    public String getText()
-    public String getText()
-    public String getText()
+    '''returns String\n\n
+    getText()\n
+    getText()\n
+    getText()\n
+    getText()\n
     '''
 def setText():
-    '''public void setText(final String value)
-    public void setText(final String value)
-    public void setText(final String value)
-    public void setText(final String value)
+    '''returns None\n\n
+    setText(final String value)\n
+    setText(final String value)\n
+    setText(final String value)\n
+    setText(final String value)\n
     '''
 def isShowActionButton():
-    '''public Boolean isShowActionButton()
-    public Boolean isShowActionButton()
+    '''returns Boolean\n\n
+    isShowActionButton()\n
+    isShowActionButton()\n
     '''
 def setShowActionButton():
-    '''public void setShowActionButton(final Boolean value)
-    public void setShowActionButton(final Boolean value)
+    '''returns None\n\n
+    setShowActionButton(final Boolean value)\n
+    setShowActionButton(final Boolean value)\n
     '''
 def isShowCancelButton():
-    '''public Boolean isShowCancelButton()
-    public Boolean isShowCancelButton()
+    '''returns Boolean\n\n
+    isShowCancelButton()\n
+    isShowCancelButton()\n
     '''
 def setShowCancelButton():
-    '''public void setShowCancelButton(final Boolean value)
-    public void setShowCancelButton(final Boolean value)
+    '''returns None\n\n
+    setShowCancelButton(final Boolean value)\n
+    setShowCancelButton(final Boolean value)\n
     '''
 def isAllowPostponement():
-    '''public Boolean isAllowPostponement()
-    public Boolean isAllowPostponement()
+    '''returns Boolean\n\n
+    isAllowPostponement()\n
+    isAllowPostponement()\n
     '''
 def setAllowPostponement():
-    '''public void setAllowPostponement(final Boolean value)
-    public void setAllowPostponement(final Boolean value)
+    '''returns None\n\n
+    setAllowPostponement(final Boolean value)\n
+    setAllowPostponement(final Boolean value)\n
     '''
 def getMaxPostponementInterval():
-    '''public Duration getMaxPostponementInterval()
-    public Duration getMaxPostponementInterval()
+    '''returns Duration\n\n
+    getMaxPostponementInterval()\n
+    getMaxPostponementInterval()\n
     '''
 def setMaxPostponementInterval():
-    '''public void setMaxPostponementInterval(final Duration value)
-    public void setMaxPostponementInterval(final Duration value)
+    '''returns None\n\n
+    setMaxPostponementInterval(final Duration value)\n
+    setMaxPostponementInterval(final Duration value)\n
     '''
 def getPostponementDeadlineOffset():
-    '''public Duration getPostponementDeadlineOffset()
+    '''returns Duration\n\n
+    getPostponementDeadlineOffset()\n
     '''
 def setPostponementDeadlineOffset():
-    '''public void setPostponementDeadlineOffset(final Duration value)
+    '''returns None\n\n
+    setPostponementDeadlineOffset(final Duration value)\n
     '''
 def isHasTimeout():
-    '''public Boolean isHasTimeout()
-    public Boolean isHasTimeout()
+    '''returns Boolean\n\n
+    isHasTimeout()\n
+    isHasTimeout()\n
     '''
 def setHasTimeout():
-    '''public void setHasTimeout(final Boolean value)
-    public void setHasTimeout(final Boolean value)
+    '''returns None\n\n
+    setHasTimeout(final Boolean value)\n
+    setHasTimeout(final Boolean value)\n
     '''
 def getTimeoutInterval():
-    '''public Duration getTimeoutInterval()
-    public Duration getTimeoutInterval()
+    '''returns Duration\n\n
+    getTimeoutInterval()\n
+    getTimeoutInterval()\n
     '''
 def setTimeoutInterval():
-    '''public void setTimeoutInterval(final Duration value)
-    public void setTimeoutInterval(final Duration value)
+    '''returns None\n\n
+    setTimeoutInterval(final Duration value)\n
+    setTimeoutInterval(final Duration value)\n
     '''
 def isAllowCancel():
-    '''public Boolean isAllowCancel()
+    '''returns Boolean\n\n
+    isAllowCancel()\n
     '''
 def setAllowCancel():
-    '''public void setAllowCancel(final Boolean value)
+    '''returns None\n\n
+    setAllowCancel(final Boolean value)\n
     '''
 def getPostActionDeadlineBehavior():
-    '''public ActionDeadlineBehavior getPostActionDeadlineBehavior()
+    '''returns ActionDeadlineBehavior\n\n
+    getPostActionDeadlineBehavior()\n
     '''
 def setPostActionDeadlineBehavior():
-    '''public void setPostActionDeadlineBehavior(final ActionDeadlineBehavior value)
+    '''returns None\n\n
+    setPostActionDeadlineBehavior(final ActionDeadlineBehavior value)\n
     '''
 def getPostActionDeadlineInterval():
-    '''public Duration getPostActionDeadlineInterval()
+    '''returns Duration\n\n
+    getPostActionDeadlineInterval()\n
     '''
 def setPostActionDeadlineInterval():
-    '''public void setPostActionDeadlineInterval(final Duration value)
+    '''returns None\n\n
+    setPostActionDeadlineInterval(final Duration value)\n
     '''
 def getBehavior():
-    '''public String getBehavior()
-    public String getBehavior()
+    '''returns String\n\n
+    getBehavior()\n
+    getBehavior()\n
     '''
 def setBehavior():
-    '''public void setBehavior(final String value)
-    public void setBehavior(final String value)
+    '''returns None\n\n
+    setBehavior(final String value)\n
+    setBehavior(final String value)\n
     '''
 def isAskToSaveWork():
-    '''public Boolean isAskToSaveWork()
+    '''returns Boolean\n\n
+    isAskToSaveWork()\n
     '''
 def setAskToSaveWork():
-    '''public void setAskToSaveWork(final Boolean value)
+    '''returns None\n\n
+    setAskToSaveWork(final Boolean value)\n
     '''
 def getDeadlineBehavior():
-    '''public ActionDeadlineBehavior getDeadlineBehavior()
+    '''returns ActionDeadlineBehavior\n\n
+    getDeadlineBehavior()\n
     '''
 def setDeadlineBehavior():
-    '''public void setDeadlineBehavior(final ActionDeadlineBehavior value)
+    '''returns None\n\n
+    setDeadlineBehavior(final ActionDeadlineBehavior value)\n
     '''
 def getDeadlineType():
-    '''public String getDeadlineType()
+    '''returns String\n\n
+    getDeadlineType()\n
     '''
 def setDeadlineType():
-    '''public void setDeadlineType(final String value)
+    '''returns None\n\n
+    setDeadlineType(final String value)\n
     '''
 def getDeadlineInterval():
-    '''public Duration getDeadlineInterval()
+    '''returns Duration\n\n
+    getDeadlineInterval()\n
     '''
 def setDeadlineInterval():
-    '''public void setDeadlineInterval(final Duration value)
+    '''returns None\n\n
+    setDeadlineInterval(final Duration value)\n
     '''
 def getDeadlineOffset():
-    '''public Duration getDeadlineOffset()
+    '''returns Duration\n\n
+    getDeadlineOffset()\n
     '''
 def setDeadlineOffset():
-    '''public void setDeadlineOffset(final Duration value)
+    '''returns None\n\n
+    setDeadlineOffset(final Duration value)\n
     '''
 def getDeadlineLocalOffset():
-    '''public Duration getDeadlineLocalOffset()
+    '''returns Duration\n\n
+    getDeadlineLocalOffset()\n
     '''
 def setDeadlineLocalOffset():
-    '''public void setDeadlineLocalOffset(final Duration value)
+    '''returns None\n\n
+    setDeadlineLocalOffset(final Duration value)\n
     '''
 def isShowConfirmation():
-    '''public Boolean isShowConfirmation()
+    '''returns Boolean\n\n
+    isShowConfirmation()\n
     '''
 def setShowConfirmation():
-    '''public void setShowConfirmation(final Boolean value)
+    '''returns None\n\n
+    setShowConfirmation(final Boolean value)\n
     '''
 def getConfirmation():
-    '''public String getConfirmation()
+    '''returns String\n\n
+    getConfirmation()\n
     '''
 def setConfirmation():
-    '''public void setConfirmation(final String value)
+    '''returns None\n\n
+    setConfirmation(final String value)\n
     '''
 def getValue():
-    '''public Duration getValue()
-    public String getValue()
+    '''returns String\n\n
+    getValue()\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final Duration value)
-    public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final Duration value)\n
+    setValue(final String value)\n
     '''
 def getStartTime():
-    '''public XMLGregorianCalendar getStartTime()
+    '''returns XMLGregorianCalendar\n\n
+    getStartTime()\n
     '''
 def setStartTime():
-    '''public void setStartTime(final XMLGregorianCalendar value)
+    '''returns None\n\n
+    setStartTime(final XMLGregorianCalendar value)\n
     '''
 def getEndTime():
-    '''public XMLGregorianCalendar getEndTime()
+    '''returns XMLGregorianCalendar\n\n
+    getEndTime()\n
     '''
 def setEndTime():
-    '''public void setEndTime(final XMLGregorianCalendar value)
+    '''returns None\n\n
+    setEndTime(final XMLGregorianCalendar value)\n
     '''
 def getName():
-    '''public String getName()
-    public String getName()
+    '''returns String\n\n
+    getName()\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String value)
-    public void setName(final String value)
+    '''returns None\n\n
+    setName(final String value)\n
+    setName(final String value)\n
     '''
 def getSid():
-    '''public String getSid()
+    '''returns String\n\n
+    getSid()\n
     '''
 def setSid():
-    '''public void setSid(final String value)
+    '''returns None\n\n
+    setSid(final String value)\n
     '''
 def getProperty():
-    '''public String getProperty()
+    '''returns String\n\n
+    getProperty()\n
     '''
 def setProperty():
-    '''public void setProperty(final String value)
+    '''returns None\n\n
+    setProperty(final String value)\n
     '''
 def getRelation():
-    '''public String getRelation()
+    '''returns String\n\n
+    getRelation()\n
     '''
 def setRelation():
-    '''public void setRelation(final String value)
+    '''returns None\n\n
+    setRelation(final String value)\n
     '''

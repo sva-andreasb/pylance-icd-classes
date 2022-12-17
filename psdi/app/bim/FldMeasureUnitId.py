@@ -1,6 +1,8 @@
-def FldMeasureUnitId():
-    '''public FldMeasureUnitId(final MboValue mbv)
+def ():
+    '''returns FldMeasureUnitId\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

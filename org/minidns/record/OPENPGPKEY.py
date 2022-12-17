@@ -1,15 +1,16 @@
-def parse():
-    '''public static OPENPGPKEY parse(final DataInputStream dis, final int length)
-    '''
 def serialize():
-    '''public void serialize(final DataOutputStream dos)
+    '''returns None\n\n
+    serialize(final DataOutputStream dos)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getPublicKeyPacketBase64():
-    '''public String getPublicKeyPacketBase64()
+    '''returns String\n\n
+    getPublicKeyPacketBase64()\n
     '''
 def getPublicKeyPacket():
-    '''public byte[] getPublicKeyPacket()
+    '''returns byte[]\n\n
+    getPublicKeyPacket()\n
     '''

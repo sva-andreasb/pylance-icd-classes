@@ -1,7 +1,9 @@
-def BestMatchSpec():
-    '''public BestMatchSpec(final String[] datepatterns, final boolean oneHeader)
-    public BestMatchSpec()
+def ():
+    '''returns BestMatchSpec\n\n
+    (final String[] datepatterns, final boolean oneHeader)\n
+    ()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

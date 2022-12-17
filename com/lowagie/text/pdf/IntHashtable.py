@@ -1,38 +1,50 @@
-def IntHashtable():
-    '''public IntHashtable(final int initialCapacity, final float loadFactor)
-    public IntHashtable(final int initialCapacity)
-    public IntHashtable()
+def ():
+    '''returns IntHashtable\n\n
+    (final int initialCapacity, final float loadFactor)\n
+    (final int initialCapacity)\n
+    ()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def contains():
-    '''public boolean contains(final int value)
+    '''returns boolean\n\n
+    contains(final int value)\n
     '''
 def containsKey():
-    '''public boolean containsKey(final int key)
+    '''returns boolean\n\n
+    containsKey(final int key)\n
     '''
 def get():
-    '''public int get(final int key)
+    '''returns int\n\n
+    get(final int key)\n
     '''
 def put():
-    '''public int put(final int key, final int value)
+    '''returns int\n\n
+    put(final int key, final int value)\n
     '''
 def remove():
-    '''public int remove(final int key)
+    '''returns int\n\n
+    remove(final int key)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def toOrderedKeys():
-    '''public int[] toOrderedKeys()
+    '''returns int[]\n\n
+    toOrderedKeys()\n
     '''
 def getKeys():
-    '''public int[] getKeys()
+    '''returns int[]\n\n
+    getKeys()\n
     '''
 def getOneKey():
-    '''public int getOneKey()
+    '''returns int\n\n
+    getOneKey()\n
     '''

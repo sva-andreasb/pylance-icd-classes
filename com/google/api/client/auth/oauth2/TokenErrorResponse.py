@@ -1,24 +1,20 @@
-def getError():
-    '''public final String getError()
-    '''
 def setError():
-    '''public TokenErrorResponse setError(final String error)
-    '''
-def getErrorDescription():
-    '''public final String getErrorDescription()
+    '''returns TokenErrorResponse\n\n
+    setError(final String error)\n
     '''
 def setErrorDescription():
-    '''public TokenErrorResponse setErrorDescription(final String errorDescription)
-    '''
-def getErrorUri():
-    '''public final String getErrorUri()
+    '''returns TokenErrorResponse\n\n
+    setErrorDescription(final String errorDescription)\n
     '''
 def setErrorUri():
-    '''public TokenErrorResponse setErrorUri(final String errorUri)
+    '''returns TokenErrorResponse\n\n
+    setErrorUri(final String errorUri)\n
     '''
 def set():
-    '''public TokenErrorResponse set(final String fieldName, final Object value)
+    '''returns TokenErrorResponse\n\n
+    set(final String fieldName, final Object value)\n
     '''
 def clone():
-    '''public TokenErrorResponse clone()
+    '''returns TokenErrorResponse\n\n
+    clone()\n
     '''

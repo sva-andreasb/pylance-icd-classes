@@ -1,3 +1,4 @@
-def CISpecSet():
-    '''public CISpecSet(final MboServerInterface ms)
+def ():
+    '''returns CISpecSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,6 +1,8 @@
-def AttrFormulaSet():
-    '''public AttrFormulaSet(final MboServerInterface ms)
+def ():
+    '''returns AttrFormulaSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

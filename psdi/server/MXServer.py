@@ -4,540 +4,594 @@ TEXT_CONTENT = "String  \"text/plain\""
 MTENABLEDPROPERTY = "String  \"mxe.mt.enabled\""
 REQ_PARAM_S2STOKEN = "String  \"s2stoken\""
 API_KEY = "String  \"apikey\""
-def getMXServer():
-    '''public static MXServer getMXServer()
-    '''
-def getUID():
-    '''public static synchronized Object getUID()
-    '''
-def getMaxSessionID():
-    '''public static synchronized long getMaxSessionID()
-    '''
 def getGuid():
-    '''public UUID getGuid()
+    '''returns UUID\n\n
+    getGuid()\n
     '''
 def getServerHost():
-    '''public String getServerHost()
+    '''returns String\n\n
+    getServerHost()\n
     '''
 def setServerHost():
-    '''public void setServerHost(final String address)
+    '''returns None\n\n
+    setServerHost(final String address)\n
     '''
 def addToMaximoCache():
-    '''public void addToMaximoCache(final String name, final MaximoCache obj)
+    '''returns None\n\n
+    addToMaximoCache(final String name, final MaximoCache obj)\n
     '''
 def removeFromMaximoCache():
-    '''public void removeFromMaximoCache(final String name)
+    '''returns None\n\n
+    removeFromMaximoCache(final String name)\n
     '''
 def getFromMaximoCache():
-    '''public Object getFromMaximoCache(final String name)
+    '''returns Object\n\n
+    getFromMaximoCache(final String name)\n
     '''
 def reloadMaximoCache():
-    '''public void reloadMaximoCache(final boolean flag)
-    public void reloadMaximoCache(final String cacheName, final boolean updateAllServers)
-    public void reloadMaximoCache(final String cacheName, final String key, final boolean flag)
+    '''returns None\n\n
+    reloadMaximoCache(final boolean flag)\n
+    reloadMaximoCache(final String cacheName, final boolean updateAllServers)\n
+    reloadMaximoCache(final String cacheName, final String key, final boolean flag)\n
     '''
 def unloadTenantCache():
-    '''public void unloadTenantCache()
-    public void unloadTenantCache(final String cacheName)
+    '''returns None\n\n
+    unloadTenantCache()\n
+    unloadTenantCache(final String cacheName)\n
     '''
 def unloadInactiveCaches():
-    '''public void unloadInactiveCaches(final long interval)
+    '''returns None\n\n
+    unloadInactiveCaches(final long interval)\n
     '''
 def getLoadedTenants():
-    '''public Map<String, Set<String>> getLoadedTenants()
-    public Set<String> getLoadedTenants(final String cacheName)
+    '''returns Set<String>\n\n
+    getLoadedTenants(final String cacheName)\n
     '''
 def reloadAdminModeByThread():
-    '''public void reloadAdminModeByThread(final String key, final MboRemote listenerMbo)
+    '''returns None\n\n
+    reloadAdminModeByThread(final String key, final MboRemote listenerMbo)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def getValidApps():
-    '''public HashSet getValidApps()
+    '''returns HashSet\n\n
+    getValidApps()\n
     '''
 def isValidApp():
-    '''public boolean isValidApp(final String app)
+    '''returns boolean\n\n
+    isValidApp(final String app)\n
     '''
 def addApp():
-    '''public void addApp(final String app)
+    '''returns None\n\n
+    addApp(final String app)\n
     '''
 def removeApp():
-    '''public void removeApp(final String app)
+    '''returns None\n\n
+    removeApp(final String app)\n
     '''
 def getLicenseKeys():
-    '''public HashSet getLicenseKeys()
+    '''returns HashSet\n\n
+    getLicenseKeys()\n
     '''
 def isReadOnlyApp():
-    '''public boolean isReadOnlyApp(final String app)
+    '''returns boolean\n\n
+    isReadOnlyApp(final String app)\n
     '''
 def getSystemType():
-    '''public String getSystemType()
+    '''returns String\n\n
+    getSystemType()\n
     '''
 def isPermanentLicense():
-    '''public boolean isPermanentLicense()
+    '''returns boolean\n\n
+    isPermanentLicense()\n
     '''
 def getProductKeys():
-    '''public HashSet getProductKeys()
+    '''returns HashSet\n\n
+    getProductKeys()\n
     '''
 def getEvalDaysRemaining():
-    '''public int getEvalDaysRemaining()
+    '''returns int\n\n
+    getEvalDaysRemaining()\n
     '''
 def getBranding():
-    '''public int getBranding()
+    '''returns int\n\n
+    getBranding()\n
     '''
 def getPackagingInfo():
-    '''public void getPackagingInfo(final UserInfo ui)
+    '''returns None\n\n
+    getPackagingInfo(final UserInfo ui)\n
     '''
 def getMaxupgValue():
-    '''public String getMaxupgValue()
+    '''returns String\n\n
+    getMaxupgValue()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name, final UserInfo user)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name, final UserInfo user)\n
     '''
 def init():
-    '''public void init(final Connection sysCon)
-    '''
-def getEventTopicTree():
-    '''public static EventTopicTree getEventTopicTree()
-    '''
-def getEventTopicsCache():
-    '''public static Map getEventTopicsCache()
-    '''
-def getGlobalEventTopicsCache():
-    '''public static Map getGlobalEventTopicsCache()
+    '''returns None\n\n
+    init(final Connection sysCon)\n
     '''
 def getMaximoCacheNames():
-    '''public Set<String> getMaximoCacheNames()
+    '''returns Set<String>\n\n
+    getMaximoCacheNames()\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def getDBManager():
-    '''public DBManager getDBManager()
+    '''returns DBManager\n\n
+    getDBManager()\n
     '''
 def getCronTaskManager():
-    '''public CronTaskManager getCronTaskManager()
+    '''returns CronTaskManager\n\n
+    getCronTaskManager()\n
     '''
 def getNewCronTaskManager():
-    '''public CronTaskManager getNewCronTaskManager()
+    '''returns CronTaskManager\n\n
+    getNewCronTaskManager()\n
     '''
 def isAdminModeOn():
-    '''public boolean isAdminModeOn(final boolean allInstances)
+    '''returns boolean\n\n
+    isAdminModeOn(final boolean allInstances)\n
     '''
 def isAdminModeOff():
-    '''public boolean isAdminModeOff(final boolean allInstances)
+    '''returns boolean\n\n
+    isAdminModeOff(final boolean allInstances)\n
     '''
 def isAdminModePending():
-    '''public boolean isAdminModePending()
+    '''returns boolean\n\n
+    isAdminModePending()\n
     '''
 def listenToAdmin():
-    '''public void listenToAdmin(final MboRemote listenerMbo, final boolean listen)
+    '''returns None\n\n
+    listenToAdmin(final MboRemote listenerMbo, final boolean listen)\n
     '''
 def getMaximoDD():
-    '''public MaximoDD getMaximoDD()
+    '''returns MaximoDD\n\n
+    getMaximoDD()\n
     '''
 def getMaximoMLDD():
-    '''public MaximoMLDD getMaximoMLDD()
+    '''returns MaximoMLDD\n\n
+    getMaximoMLDD()\n
     '''
 def getMaxMessageCache():
-    '''public MaxMessageCache getMaxMessageCache()
+    '''returns MaxMessageCache\n\n
+    getMaxMessageCache()\n
     '''
 def getAutoKeyCache():
-    '''public AutoKeyCache getAutoKeyCache()
+    '''returns AutoKeyCache\n\n
+    getAutoKeyCache()\n
     '''
 def getAppServiceNames():
-    '''public String[] getAppServiceNames()
+    '''returns String[]\n\n
+    getAppServiceNames()\n
     '''
 def lookup():
-    '''public ServiceRemote lookup(final String name)
-    public ServiceRemote lookup(final String name, final UserInfo ui)
+    '''returns ServiceRemote\n\n
+    lookup(final String name)\n
+    lookup(final String name, final UserInfo ui)\n
     '''
 def lookupLocal():
-    '''public ServiceRemote lookupLocal(final String name)
+    '''returns ServiceRemote\n\n
+    lookupLocal(final String name)\n
     '''
 def getLocalAppList():
-    '''public String[] getLocalAppList()
+    '''returns String[]\n\n
+    getLocalAppList()\n
     '''
 def getSrvComm():
-    '''public SrvCommRemote getSrvComm(final String name, final String passwd)
+    '''returns SrvCommRemote\n\n
+    getSrvComm(final String name, final String passwd)\n
     '''
 def getRemoteUsers():
-    '''public Hashtable getRemoteUsers()
+    '''returns Hashtable\n\n
+    getRemoteUsers()\n
     '''
 def getDate():
-    '''public Date getDate()
-    public Date getDate(final Locale l, final TimeZone tz)
-    '''
-def isRMIEnabled():
-    '''public static boolean isRMIEnabled()
-    '''
-def start():
-    '''public static void start(final Properties propsFromFile)
-    '''
-def isMTEnabled():
-    '''public static boolean isMTEnabled()
-    '''
-def isBotcInstalled():
-    '''public static boolean isBotcInstalled()
-    '''
-def isInlineThreadLog():
-    '''public static boolean isInlineThreadLog()
-    '''
-def useClassicMaximo():
-    '''public static boolean useClassicMaximo()
-    '''
-def hasFeatureToggle():
-    '''public static boolean hasFeatureToggle()
-    '''
-def setTenantRegContext():
-    '''public static void setTenantRegContext(final Integer tenantID)
-    '''
-def isTenantRegContext():
-    '''public static boolean isTenantRegContext()
-    '''
-def setTenantContext():
-    '''public static void setTenantContext(final UserInfo ui)
-    public static int setTenantContext(final UserInfo ui, final int tenantID)
-    '''
-def clearTenantContext():
-    '''public static void clearTenantContext()
-    '''
-def getTenantContext():
-    '''public static int getTenantContext()
-    public static int getTenantContext(final boolean tenantNotSetCheck)
-    '''
-def isMasterContext():
-    '''public static boolean isMasterContext()
+    '''returns Date\n\n
+    getDate()\n
+    getDate(final Locale l, final TimeZone tz)\n
     '''
 def removeMaxSessionEntriesDeadForAnHour():
-    '''public void removeMaxSessionEntriesDeadForAnHour(final Connection con)
+    '''returns None\n\n
+    removeMaxSessionEntriesDeadForAnHour(final Connection con)\n
     '''
 def retryAsyncTask():
-    '''public void retryAsyncTask(final Connection con, final String serverName, final String serverHost)
+    '''returns None\n\n
+    retryAsyncTask(final Connection con, final String serverName, final String serverHost)\n
     '''
 def getMAXUPGValue():
-    '''public String getMAXUPGValue(final Connection con, final String name)
+    '''returns String\n\n
+    getMAXUPGValue(final Connection con, final String name)\n
     '''
 def needToRunUpdateDB():
-    '''public void needToRunUpdateDB(final String product, final String maxupg, final String newRelDBVersion, final String lastRelDBVersion, final String varName, final boolean checkHF)
+    '''returns None\n\n
+    needToRunUpdateDB(final String product, final String maxupg, final String newRelDBVersion, final String lastRelDBVersion, final String varName, final boolean checkHF)\n
     '''
 def getConfig():
-    '''public Properties getConfig()
-    public Properties getConfig(final UserInfo userInfo)
+    '''returns Properties\n\n
+    getConfig()\n
+    getConfig(final UserInfo userInfo)\n
     '''
 def getProperty():
-    '''public String getProperty(final String propName)
-    public String getProperty(final String propName, final boolean checkExists)
-    public String getProperty(final String propName, final UserInfo userInfo)
-    public String getProperty(final String propName, final String lang)
-    public String getProperty(final String propName, final String lang, final UserInfo userInfo)
+    '''returns String\n\n
+    getProperty(final String propName)\n
+    getProperty(final String propName, final boolean checkExists)\n
+    getProperty(final String propName, final UserInfo userInfo)\n
+    getProperty(final String propName, final String lang)\n
+    getProperty(final String propName, final String lang, final UserInfo userInfo)\n
     '''
 def getPublicProperty():
-    '''public String getPublicProperty(final String propName)
-    public String getPublicProperty(final String propName, final String lang)
+    '''returns String\n\n
+    getPublicProperty(final String propName)\n
+    getPublicProperty(final String propName, final String lang)\n
     '''
 def getSystemUserInfo():
-    '''public UserInfo getSystemUserInfo()
+    '''returns UserInfo\n\n
+    getSystemUserInfo()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo(final String userIdentity)
+    '''returns UserInfo\n\n
+    getUserInfo(final String userIdentity)\n
     '''
 def enableService():
-    '''public void enableService(final String svc)
+    '''returns None\n\n
+    enableService(final String svc)\n
     '''
 def disableService():
-    '''public void disableService(final String svc)
+    '''returns None\n\n
+    disableService(final String svc)\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''
 def getRegistryHostName():
-    '''public String getRegistryHostName()
+    '''returns String\n\n
+    getRegistryHostName()\n
     '''
 def getRegistryPort():
-    '''public String getRegistryPort()
+    '''returns String\n\n
+    getRegistryPort()\n
     '''
 def getMXServerInfo():
-    '''public MXServerInfo getMXServerInfo()
+    '''returns MXServerInfo\n\n
+    getMXServerInfo()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def validateS2stokenConfigValue():
-    '''public void validateS2stokenConfigValue()
+    '''returns None\n\n
+    validateS2stokenConfigValue()\n
     '''
 def validateThisApiKeyConfigValue():
-    '''public String validateThisApiKeyConfigValue(final String apiKey)
+    '''returns String\n\n
+    validateThisApiKeyConfigValue(final String apiKey)\n
     '''
 def resolveApiKey():
-    '''public String resolveApiKey(final String apikey)
+    '''returns String\n\n
+    resolveApiKey(final String apikey)\n
     '''
 def validateApiKeyConfigValue():
-    '''public String validateApiKeyConfigValue()
+    '''returns String\n\n
+    validateApiKeyConfigValue()\n
     '''
 def isLocal():
-    '''public boolean isLocal(final String serviceUrl)
+    '''returns boolean\n\n
+    isLocal(final String serviceUrl)\n
     '''
 def createMXTransaction():
-    '''public MXTransaction createMXTransaction()
-    '''
-def getBulletinBoard():
-    '''public static BulletinBoardServiceRemote getBulletinBoard()
-    '''
-def sendEMail():
-    '''public static void sendEMail(final String to, final String from, final String subject, final Throwable t)
-    public static void sendEMail(final String to, final String from, final String subject, final String message)
-    public static void sendEMail(final String to, final String from, final String subject, final String message, final String attachment, final String filename)
-    public static void sendEMail(final String[] to, final String from, final String subject, final Throwable t)
-    public static void sendEMail(final String[] to, final String from, final String subject, final String message)
-    public static void sendEMail(final String[] to, final String from, String subject, String message, final String attachment, final String filename)
-    public static void sendEMail(final String to, final String cc, final String bcc, final String from, final String subject, final String message, final String ReplyTo, final String[] fileName, final String[] urlName)
-    public static void sendEMail(final String to, final String cc, final String bcc, final String from, String subject, String message, final String ReplyTo, final String[] fileName, final String[] urlName, final Properties overrideProps)
+    '''returns MXTransaction\n\n
+    createMXTransaction()\n
     '''
 def getSystemProperties():
-    '''public Properties getSystemProperties()
+    '''returns Properties\n\n
+    getSystemProperties()\n
     '''
 def getDatabaseProductName():
-    '''public String getDatabaseProductName()
+    '''returns String\n\n
+    getDatabaseProductName()\n
     '''
 def getDatabaseProductSimpleVersion():
-    '''public String getDatabaseProductSimpleVersion()
+    '''returns String\n\n
+    getDatabaseProductSimpleVersion()\n
     '''
 def getDatabaseProductVersion():
-    '''public String getDatabaseProductVersion()
+    '''returns String\n\n
+    getDatabaseProductVersion()\n
     '''
 def getDBPlatform():
-    '''public int getDBPlatform()
+    '''returns int\n\n
+    getDBPlatform()\n
     '''
 def getDBConnUsed():
-    '''public int getDBConnUsed()
+    '''returns int\n\n
+    getDBConnUsed()\n
     '''
 def getFreeMemory():
-    '''public String[] getFreeMemory()
+    '''returns String[]\n\n
+    getFreeMemory()\n
     '''
 def getUserLicenseKey():
-    '''public String getUserLicenseKey()
+    '''returns String\n\n
+    getUserLicenseKey()\n
     '''
 def getAppServerNameandVersion():
-    '''public String getAppServerNameandVersion()
+    '''returns String\n\n
+    getAppServerNameandVersion()\n
     '''
 def getMEAServerVersion():
-    '''public ArrayList getMEAServerVersion()
+    '''returns ArrayList\n\n
+    getMEAServerVersion()\n
     '''
 def getMXServerVersion():
-    '''public String[] getMXServerVersion()
+    '''returns String[]\n\n
+    getMXServerVersion()\n
     '''
 def isValidSite():
-    '''public boolean isValidSite(final String siteId)
+    '''returns boolean\n\n
+    isValidSite(final String siteId)\n
     '''
 def isValidOrganization():
-    '''public boolean isValidOrganization(final String orgId)
+    '''returns boolean\n\n
+    isValidOrganization(final String orgId)\n
     '''
 def isSiteInOrganization():
-    '''public boolean isSiteInOrganization(final String siteId, final String orgId)
+    '''returns boolean\n\n
+    isSiteInOrganization(final String siteId, final String orgId)\n
     '''
 def getOrganization():
-    '''public String getOrganization(final String siteId)
+    '''returns String\n\n
+    getOrganization(final String siteId)\n
     '''
 def isMxserverStarted():
-    '''public boolean isMxserverStarted()
+    '''returns boolean\n\n
+    isMxserverStarted()\n
     '''
 def checkAdminRestart():
-    '''public void checkAdminRestart()
+    '''returns None\n\n
+    checkAdminRestart()\n
     '''
 def checkFailedTenants():
-    '''public void checkFailedTenants()
+    '''returns None\n\n
+    checkFailedTenants()\n
     '''
 def getMXCipher():
-    '''public MXCipher getMXCipher()
+    '''returns MXCipher\n\n
+    getMXCipher()\n
     '''
 def encData():
-    '''public byte[] encData(final String in, final int type)
+    '''returns byte[]\n\n
+    encData(final String in, final int type)\n
     '''
 def getMXCipherX():
-    '''public MXCipherX getMXCipherX()
+    '''returns MXCipherX\n\n
+    getMXCipherX()\n
     '''
 def getNativeSql():
-    '''public String getNativeSql(final String jdbcSql)
+    '''returns String\n\n
+    getNativeSql(final String jdbcSql)\n
     '''
 def getBulletin():
-    '''public UserInputBulletin getBulletin()
+    '''returns UserInputBulletin\n\n
+    getBulletin()\n
     '''
 def postUserInput():
-    '''public void postUserInput(final String id, final Object value, final UserInfo ui)
+    '''returns None\n\n
+    postUserInput(final String id, final Object value, final UserInfo ui)\n
     '''
 def getUserInput():
-    '''public Object getUserInput(final String id, final UserInfo ui)
+    '''returns Object\n\n
+    getUserInput(final String id, final UserInfo ui)\n
     '''
 def removeUserInput():
-    '''public void removeUserInput(final String id, final UserInfo ui)
+    '''returns None\n\n
+    removeUserInput(final String id, final UserInfo ui)\n
     '''
 def clearUserInput():
-    '''public void clearUserInput(final UserInfo ui)
+    '''returns None\n\n
+    clearUserInput(final UserInfo ui)\n
     '''
 def getBaseLang():
-    '''public String getBaseLang()
+    '''returns String\n\n
+    getBaseLang()\n
     '''
 def getLanguageList():
-    '''public String[][] getLanguageList()
+    '''returns String[][]\n\n
+    getLanguageList()\n
     '''
 def getMessage():
-    '''public String getMessage(final String group, final String key, String langCode)
-    public String getMessage(final MXException mxe, final String langCode)
+    '''returns String\n\n
+    getMessage(final String group, final String key, String langCode)\n
+    getMessage(final MXException mxe, final String langCode)\n
     '''
 def getTaggedMessage():
-    '''public String getTaggedMessage(final String group, final String key, String langCode)
-    public String getTaggedMessage(final MXException mxe, final String langCode)
+    '''returns String\n\n
+    getTaggedMessage(final String group, final String key, String langCode)\n
+    getTaggedMessage(final MXException mxe, final String langCode)\n
     '''
 def getMessages():
-    '''public String[] getMessages(final String group, final String[] key, final String langCode)
-    '''
-def getMasterModifiedObjects():
-    '''public Map<String, String> getMasterModifiedObjects()
+    '''returns String[]\n\n
+    getMessages(final String group, final String[] key, final String langCode)\n
     '''
 def getMasterMboValueInfo():
-    '''public MboValueInfo getMasterMboValueInfo(final MboRemote tenantMbo)
+    '''returns MboValueInfo\n\n
+    getMasterMboValueInfo(final MboRemote tenantMbo)\n
     '''
 def getWarnings():
-    '''public ArrayList getWarnings(final Object id)
+    '''returns ArrayList\n\n
+    getWarnings(final Object id)\n
     '''
 def clearWarnings():
-    '''public void clearWarnings(final Object id)
+    '''returns None\n\n
+    clearWarnings(final Object id)\n
     '''
 def addWarning():
-    '''public void addWarning(final MXException e, final Object id)
+    '''returns None\n\n
+    addWarning(final MXException e, final Object id)\n
     '''
 def hasWarnings():
-    '''public boolean hasWarnings(final Object id)
+    '''returns boolean\n\n
+    hasWarnings(final Object id)\n
     '''
 def incrementMboCount():
-    '''public void incrementMboCount(final String name, final int tenantID)
+    '''returns None\n\n
+    incrementMboCount(final String name, final int tenantID)\n
     '''
 def decrementMboCount():
-    '''public void decrementMboCount(final String name, final int tenantID)
+    '''returns None\n\n
+    decrementMboCount(final String name, final int tenantID)\n
     '''
 def incrementMbosetCount():
-    '''public void incrementMbosetCount(final String name, final int tenantID)
+    '''returns None\n\n
+    incrementMbosetCount(final String name, final int tenantID)\n
     '''
 def decrementMbosetCount():
-    '''public void decrementMbosetCount(final String name)
-    public void decrementMbosetCount(final String name, final int tenantID)
+    '''returns None\n\n
+    decrementMbosetCount(final String name)\n
+    decrementMbosetCount(final String name, final int tenantID)\n
     '''
 def incrementMbosetIPCount():
-    '''public void incrementMbosetIPCount(String objName, final String clientHost, final String clientAddr)
+    '''returns None\n\n
+    incrementMbosetIPCount(String objName, final String clientHost, final String clientAddr)\n
     '''
 def decrementMbosetIPCount():
-    '''public void decrementMbosetIPCount(String objName, final String clientHost, final String clientAddr)
+    '''returns None\n\n
+    decrementMbosetIPCount(String objName, final String clientHost, final String clientAddr)\n
     '''
 def getMboSetIPCount():
-    '''public int getMboSetIPCount(String objName, final String clientHost, final String clientAddr)
+    '''returns int\n\n
+    getMboSetIPCount(String objName, final String clientHost, final String clientAddr)\n
     '''
 def printMaxsessionInfo():
-    '''public String printMaxsessionInfo()
+    '''returns String\n\n
+    printMaxsessionInfo()\n
     '''
 def getMboCount():
-    '''public String getMboCount()
+    '''returns String\n\n
+    getMboCount()\n
     '''
 def getMboSetCount():
-    '''public int getMboSetCount(String objName)
+    '''returns int\n\n
+    getMboSetCount(String objName)\n
     '''
 def getAllTenantsMboCountAsJSON():
-    '''public JSONObject getAllTenantsMboCountAsJSON()
+    '''returns JSONObject\n\n
+    getAllTenantsMboCountAsJSON()\n
     '''
 def getConditionCache():
-    '''public MaxConditionCache getConditionCache()
+    '''returns MaxConditionCache\n\n
+    getConditionCache()\n
     '''
 def getDataRestrictionCache():
-    '''public DataRestrictionCache getDataRestrictionCache()
+    '''returns DataRestrictionCache\n\n
+    getDataRestrictionCache()\n
     '''
 def getMaxDomainCache():
-    '''public MaxDomainCache getMaxDomainCache()
+    '''returns MaxDomainCache\n\n
+    getMaxDomainCache()\n
     '''
 def setupLongOpPipe():
-    '''public InputStream setupLongOpPipe()
+    '''returns InputStream\n\n
+    setupLongOpPipe()\n
     '''
 def clearLongOpPipe():
-    '''public void clearLongOpPipe()
+    '''returns None\n\n
+    clearLongOpPipe()\n
     '''
 def writeLongOpMsg():
-    '''public void writeLongOpMsg(String msg)
+    '''returns None\n\n
+    writeLongOpMsg(String msg)\n
     '''
 def getSQLServerPrefetchRows():
-    '''public int getSQLServerPrefetchRows()
+    '''returns int\n\n
+    getSQLServerPrefetchRows()\n
     '''
 def getSecurityContext():
-    '''public SecurityContextFlag getSecurityContext()
+    '''returns SecurityContextFlag\n\n
+    getSecurityContext()\n
     '''
 def clearSecurityContext():
-    '''public void clearSecurityContext()
+    '''returns None\n\n
+    clearSecurityContext()\n
     '''
 def setSecurityCheck():
-    '''public void setSecurityCheck(final SecurityContextFlag securityFlag)
+    '''returns None\n\n
+    setSecurityCheck(final SecurityContextFlag securityFlag)\n
     '''
 def isSQLServerPrefetchRowsNeeded():
-    '''public boolean isSQLServerPrefetchRowsNeeded()
+    '''returns boolean\n\n
+    isSQLServerPrefetchRowsNeeded()\n
     '''
 def getMxServerConfig():
-    '''public Properties getMxServerConfig()
+    '''returns Properties\n\n
+    getMxServerConfig()\n
     '''
 def getServerCommandRemote():
-    '''public SrvCommRemote getServerCommandRemote(final String name, final String passwd)
-    public SrvCommRemote getServerCommandRemote(final UserInfo userInfo)
+    '''returns SrvCommRemote\n\n
+    getServerCommandRemote(final String name, final String passwd)\n
+    getServerCommandRemote(final UserInfo userInfo)\n
     '''
 def getMboCounts():
-    '''public ArrayList getMboCounts()
-    public ArrayList getMboCounts(final int tenantID)
-    '''
-def getMailAuth():
-    '''public static SmtpAuthenticator getMailAuth()
+    '''returns ArrayList\n\n
+    getMboCounts()\n
+    getMboCounts(final int tenantID)\n
     '''
 def getBaseCalendar():
-    '''public String getBaseCalendar()
+    '''returns String\n\n
+    getBaseCalendar()\n
     '''
 def getTenantIdsList():
-    '''public List<Integer> getTenantIdsList(final UserInfo landlordInfo, final int status)
+    '''returns List<Integer>\n\n
+    getTenantIdsList(final UserInfo landlordInfo, final int status)\n
     '''
 def getAllTenantIdsList():
-    '''public List<Integer> getAllTenantIdsList(final UserInfo landlordInfo)
+    '''returns List<Integer>\n\n
+    getAllTenantIdsList(final UserInfo landlordInfo)\n
     '''
 def collectTenantDBConnInfo():
-    '''public void collectTenantDBConnInfo(final UserInfo info)
+    '''returns None\n\n
+    collectTenantDBConnInfo(final UserInfo info)\n
     '''
 def collectTenantDBConForThisServer():
-    '''public void collectTenantDBConForThisServer(final UserInfo info)
+    '''returns None\n\n
+    collectTenantDBConForThisServer(final UserInfo info)\n
     '''
 def setProxy():
-    '''public void setProxy(final Remote proxy)
+    '''returns None\n\n
+    setProxy(final Remote proxy)\n
     '''
 def getProxy():
-    '''public Remote getProxy()
-    '''
-def getTenantRealmMap():
-    '''public HashMap<String, String> getTenantRealmMap()
+    '''returns Remote\n\n
+    getProxy()\n
     '''
 def clearTenantRealmMap():
-    '''public void clearTenantRealmMap()
+    '''returns None\n\n
+    clearTenantRealmMap()\n
     '''
 def loadCustomApps():
-    '''public void loadCustomApps()
-    public void loadCustomApps(final Connection con)
+    '''returns None\n\n
+    loadCustomApps()\n
+    loadCustomApps(final Connection con)\n
     '''
-def AdminModeThread():
-    '''public AdminModeThread()
+def ():
+    '''returns DBConnStatThread\n\n
+    ()\n
+    ()\n
+    (final String user, final String password)\n
+    (final UserInfo infoT)\n
     '''
 def setKey():
-    '''public void setKey(final String value)
-    '''
-def UnloadInactiveCachesThread():
-    '''public UnloadInactiveCachesThread()
-    '''
-def SmtpAuthenticator():
-    '''public SmtpAuthenticator(final String user, final String password)
-    '''
-def DBConnStatThread():
-    '''public DBConnStatThread(final UserInfo infoT)
+    '''returns None\n\n
+    setKey(final String value)\n
     '''

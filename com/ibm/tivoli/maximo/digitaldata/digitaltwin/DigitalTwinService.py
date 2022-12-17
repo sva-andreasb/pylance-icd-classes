@@ -1,60 +1,79 @@
 DIGITALDATA_LOGGER = "String  \"maximo.digitaldata\""
-def DigitalTwinService():
-    '''public DigitalTwinService(final MXServer mxServer)
-    public DigitalTwinService()
+def ():
+    '''returns DigitalTwinService\n\n
+    (final MXServer mxServer)\n
+    ()\n
     '''
 def getProducts():
-    '''public MboSetRemote getProducts(final MboRemote ddParams, final MboSetRemote dtDataSet)
-    public JSONObject getProducts(final String id)
+    '''returns JSONObject\n\n
+    getProducts(final MboRemote ddParams, final MboSetRemote dtDataSet)\n
+    getProducts(final String id)\n
     '''
 def setProp():
-    '''public void setProp(final MboRemote ddParams)
+    '''returns None\n\n
+    setProp(final MboRemote ddParams)\n
     '''
 def importData():
-    '''public void importData(final MboRemote ddParams, final MboSetRemote dtDataSet)
+    '''returns None\n\n
+    importData(final MboRemote ddParams, final MboSetRemote dtDataSet)\n
     '''
 def addData():
-    '''public void addData(final MboRemote dtData)
+    '''returns None\n\n
+    addData(final MboRemote dtData)\n
     '''
 def addItems():
-    '''public void addItems()
+    '''returns None\n\n
+    addItems()\n
     '''
 def addAsset():
-    '''public void addAsset()
+    '''returns None\n\n
+    addAsset()\n
     '''
 def addJobPlans():
-    '''public void addJobPlans()
+    '''returns None\n\n
+    addJobPlans()\n
     '''
 def validateAuthData():
-    '''public void validateAuthData(final MboRemote ddParams)
+    '''returns None\n\n
+    validateAuthData(final MboRemote ddParams)\n
     '''
 def setSparepartsResp():
-    '''public void setSparepartsResp(final JSONArtifact ja)
+    '''returns None\n\n
+    setSparepartsResp(final JSONArtifact ja)\n
     '''
 def setProductsResp():
-    '''public void setProductsResp(final JSONArtifact ja)
+    '''returns None\n\n
+    setProductsResp(final JSONArtifact ja)\n
     '''
 def setJobplansResp():
-    '''public void setJobplansResp(final JSONArtifact ja)
+    '''returns None\n\n
+    setJobplansResp(final JSONArtifact ja)\n
     '''
 def setAttachmentsResp():
-    '''public void setAttachmentsResp(final JSONArtifact ja)
+    '''returns None\n\n
+    setAttachmentsResp(final JSONArtifact ja)\n
     '''
 def getSpareparts():
-    '''public JSONArray getSpareparts(final String id)
+    '''returns JSONArray\n\n
+    getSpareparts(final String id)\n
     '''
 def getJobPlans():
-    '''public JSONArray getJobPlans(final String id)
+    '''returns JSONArray\n\n
+    getJobPlans(final String id)\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setKeyId():
-    '''public void setKeyId(final String key)
+    '''returns None\n\n
+    setKeyId(final String key)\n
     '''
 def getKeyId():
-    '''public String getKeyId()
+    '''returns String\n\n
+    getKeyId()\n
     '''

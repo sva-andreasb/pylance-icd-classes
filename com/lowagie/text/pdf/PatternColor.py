@@ -1,6 +1,8 @@
-def PatternColor():
-    '''public PatternColor(final PdfPatternPainter painter)
+def ():
+    '''returns PatternColor\n\n
+    (final PdfPatternPainter painter)\n
     '''
 def getPainter():
-    '''public PdfPatternPainter getPainter()
+    '''returns PdfPatternPainter\n\n
+    getPainter()\n
     '''

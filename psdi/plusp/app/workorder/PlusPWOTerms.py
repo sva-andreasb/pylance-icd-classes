@@ -1,6 +1,8 @@
-def PlusPWOTerms():
-    '''public PlusPWOTerms(final MboSet set)
+def ():
+    '''returns PlusPWOTerms\n\n
+    (final MboSet set)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

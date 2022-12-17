@@ -1,95 +1,124 @@
-def TextTypeImpl():
-    '''public TextTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns TextTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getCpList():
-    '''public List<CpType> getCpList()
+    '''returns List<CpType>\n\n
+    getCpList()\n
     '''
 def getCpArray():
-    '''public CpType[] getCpArray()
-    public CpType getCpArray(final int n)
+    '''returns CpType\n\n
+    getCpArray()\n
+    getCpArray(final int n)\n
     '''
 def sizeOfCpArray():
-    '''public int sizeOfCpArray()
+    '''returns int\n\n
+    sizeOfCpArray()\n
     '''
 def setCpArray():
-    '''public void setCpArray(final CpType[] array)
-    public void setCpArray(final int n, final CpType cpType)
+    '''returns None\n\n
+    setCpArray(final CpType[] array)\n
+    setCpArray(final int n, final CpType cpType)\n
     '''
 def insertNewCp():
-    '''public CpType insertNewCp(final int n)
+    '''returns CpType\n\n
+    insertNewCp(final int n)\n
     '''
 def addNewCp():
-    '''public CpType addNewCp()
+    '''returns CpType\n\n
+    addNewCp()\n
     '''
 def removeCp():
-    '''public void removeCp(final int n)
+    '''returns None\n\n
+    removeCp(final int n)\n
     '''
 def getPpList():
-    '''public List<PpType> getPpList()
+    '''returns List<PpType>\n\n
+    getPpList()\n
     '''
 def getPpArray():
-    '''public PpType[] getPpArray()
-    public PpType getPpArray(final int n)
+    '''returns PpType\n\n
+    getPpArray()\n
+    getPpArray(final int n)\n
     '''
 def sizeOfPpArray():
-    '''public int sizeOfPpArray()
+    '''returns int\n\n
+    sizeOfPpArray()\n
     '''
 def setPpArray():
-    '''public void setPpArray(final PpType[] array)
-    public void setPpArray(final int n, final PpType ppType)
+    '''returns None\n\n
+    setPpArray(final PpType[] array)\n
+    setPpArray(final int n, final PpType ppType)\n
     '''
 def insertNewPp():
-    '''public PpType insertNewPp(final int n)
+    '''returns PpType\n\n
+    insertNewPp(final int n)\n
     '''
 def addNewPp():
-    '''public PpType addNewPp()
+    '''returns PpType\n\n
+    addNewPp()\n
     '''
 def removePp():
-    '''public void removePp(final int n)
+    '''returns None\n\n
+    removePp(final int n)\n
     '''
 def getTpList():
-    '''public List<TpType> getTpList()
+    '''returns List<TpType>\n\n
+    getTpList()\n
     '''
 def getTpArray():
-    '''public TpType[] getTpArray()
-    public TpType getTpArray(final int n)
+    '''returns TpType\n\n
+    getTpArray()\n
+    getTpArray(final int n)\n
     '''
 def sizeOfTpArray():
-    '''public int sizeOfTpArray()
+    '''returns int\n\n
+    sizeOfTpArray()\n
     '''
 def setTpArray():
-    '''public void setTpArray(final TpType[] array)
-    public void setTpArray(final int n, final TpType tpType)
+    '''returns None\n\n
+    setTpArray(final TpType[] array)\n
+    setTpArray(final int n, final TpType tpType)\n
     '''
 def insertNewTp():
-    '''public TpType insertNewTp(final int n)
+    '''returns TpType\n\n
+    insertNewTp(final int n)\n
     '''
 def addNewTp():
-    '''public TpType addNewTp()
+    '''returns TpType\n\n
+    addNewTp()\n
     '''
 def removeTp():
-    '''public void removeTp(final int n)
+    '''returns None\n\n
+    removeTp(final int n)\n
     '''
 def getFldList():
-    '''public List<FldType> getFldList()
+    '''returns List<FldType>\n\n
+    getFldList()\n
     '''
 def getFldArray():
-    '''public FldType[] getFldArray()
-    public FldType getFldArray(final int n)
+    '''returns FldType\n\n
+    getFldArray()\n
+    getFldArray(final int n)\n
     '''
 def sizeOfFldArray():
-    '''public int sizeOfFldArray()
+    '''returns int\n\n
+    sizeOfFldArray()\n
     '''
 def setFldArray():
-    '''public void setFldArray(final FldType[] array)
-    public void setFldArray(final int n, final FldType fldType)
+    '''returns None\n\n
+    setFldArray(final FldType[] array)\n
+    setFldArray(final int n, final FldType fldType)\n
     '''
 def insertNewFld():
-    '''public FldType insertNewFld(final int n)
+    '''returns FldType\n\n
+    insertNewFld(final int n)\n
     '''
 def addNewFld():
-    '''public FldType addNewFld()
+    '''returns FldType\n\n
+    addNewFld()\n
     '''
 def removeFld():
-    '''public void removeFld(final int n)
+    '''returns None\n\n
+    removeFld(final int n)\n
     '''

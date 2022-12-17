@@ -1,51 +1,68 @@
-def RadioButtonGroup():
-    '''public RadioButtonGroup()
+def ():
+    '''returns RadioButtonGroup\n\n
+    ()\n
     '''
 def setValue():
-    '''public int setValue(final String value)
+    '''returns int\n\n
+    setValue(final String value)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def preRender():
-    '''public boolean preRender()
+    '''returns boolean\n\n
+    preRender()\n
     '''
 def setRadioButtonsComponent():
-    '''public void setRadioButtonsComponent(final ComponentInstance comp)
+    '''returns None\n\n
+    setRadioButtonsComponent(final ComponentInstance comp)\n
     '''
 def getRadioButtonsComponentId():
-    '''public String getRadioButtonsComponentId()
+    '''returns String\n\n
+    getRadioButtonsComponentId()\n
     '''
 def getRadioButtonsComponentTrueId():
-    '''public String getRadioButtonsComponentTrueId()
+    '''returns String\n\n
+    getRadioButtonsComponentTrueId()\n
     '''
 def addRadioButtonComponentId():
-    '''public void addRadioButtonComponentId(final String id)
+    '''returns None\n\n
+    addRadioButtonComponentId(final String id)\n
     '''
 def getSiblingButtonComponents():
-    '''public String[] getSiblingButtonComponents(final String id)
+    '''returns String[]\n\n
+    getSiblingButtonComponents(final String id)\n
     '''
 def isAsync():
-    '''public boolean isAsync()
+    '''returns boolean\n\n
+    isAsync()\n
     '''
 def getTabindex():
-    '''public int getTabindex(final RadioButton button)
+    '''returns int\n\n
+    getTabindex(final RadioButton button)\n
     '''
 def setRenderNumber():
-    '''public void setRenderNumber(final int renderNumber)
+    '''returns None\n\n
+    setRenderNumber(final int renderNumber)\n
     '''
 def getRenderNumber():
-    '''public int getRenderNumber()
+    '''returns int\n\n
+    getRenderNumber()\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def getCheckedButton():
-    '''public RadioButton getCheckedButton()
+    '''returns RadioButton\n\n
+    getCheckedButton()\n
     '''

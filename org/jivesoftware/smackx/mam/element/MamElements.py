@@ -1,31 +1,25 @@
 NAMESPACE = "String  \"urn:xmpp:mam:1\""
 ELEMENT = "String  \"result\""
-def MamResultExtension():
-    '''public MamResultExtension(final String queryId, final String id, final Forwarded forwarded)
+def ():
+    '''returns NeverJidListElement\n\n
+    (final String queryId, final String id, final Forwarded forwarded)\n
+    (final List<Jid> neverJids)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getForwarded():
-    '''public Forwarded getForwarded()
-    '''
-def getQueryId():
-    '''public final String getQueryId()
+    '''returns Forwarded\n\n
+    getForwarded()\n
     '''
 def getElementName():
-    '''public String getElementName()
-    '''
-def getNamespace():
-    '''public final String getNamespace()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
-    public CharSequence toXML(final String enclosingNamespace)
-    public CharSequence toXML(final String enclosingNamespace)
-    '''
-def from():
-    '''public static MamResultExtension from(final Message message)
-    '''
-def NeverJidListElement():
-    '''public NeverJidListElement(final List<Jid> neverJids)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''

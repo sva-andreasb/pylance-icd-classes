@@ -1,4 +1,5 @@
-def SearchException():
-    '''public SearchException()
-    public SearchException(final String s)
+def ():
+    '''returns SearchException\n\n
+    ()\n
+    (final String s)\n
     '''

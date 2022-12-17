@@ -1,10 +1,13 @@
-def NotFileFilter():
-    '''public NotFileFilter(final IOFileFilter filter)
+def ():
+    '''returns NotFileFilter\n\n
+    (final IOFileFilter filter)\n
     '''
 def accept():
-    '''public boolean accept(final File file)
-    public boolean accept(final File file, final String name)
+    '''returns boolean\n\n
+    accept(final File file)\n
+    accept(final File file, final String name)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

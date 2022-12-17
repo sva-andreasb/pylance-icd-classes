@@ -1,6 +1,8 @@
-def CodeWriter():
-    '''public CodeWriter()
+def ():
+    '''returns CodeWriter\n\n
+    ()\n
     '''
 def openSource():
-    '''public Writer openSource(final JPackage pkg, final String fileName)
+    '''returns Writer\n\n
+    openSource(final JPackage pkg, final String fileName)\n
     '''

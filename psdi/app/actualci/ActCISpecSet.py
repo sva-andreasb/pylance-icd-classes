@@ -1,3 +1,4 @@
-def ActCISpecSet():
-    '''public ActCISpecSet(final MboServerInterface ms)
+def ():
+    '''returns ActCISpecSet\n\n
+    (final MboServerInterface ms)\n
     '''

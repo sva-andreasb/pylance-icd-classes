@@ -1,95 +1,116 @@
 ELEMENT = "String  \"option\""
 FORM_TYPE = "String  \"FORM_TYPE\""
-def FormField():
-    '''public FormField(final String variable)
-    public FormField()
+def ():
+    '''returns Option\n\n
+    (final String variable)\n
+    ()\n
+    (final String value)\n
+    (final String label, final String value)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getLabel():
-    '''public String getLabel()
-    public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
+    getLabel()\n
     '''
 def getOptions():
-    '''public List<Option> getOptions()
+    '''returns List<Option>\n\n
+    getOptions()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def getValues():
-    '''public List<CharSequence> getValues()
+    '''returns List<CharSequence>\n\n
+    getValues()\n
     '''
 def getValuesAsString():
-    '''public List<String> getValuesAsString()
+    '''returns List<String>\n\n
+    getValuesAsString()\n
     '''
 def getFirstValue():
-    '''public String getFirstValue()
+    '''returns String\n\n
+    getFirstValue()\n
     '''
 def getFirstValueAsDate():
-    '''public Date getFirstValueAsDate()
+    '''returns Date\n\n
+    getFirstValueAsDate()\n
     '''
 def getVariable():
-    '''public String getVariable()
+    '''returns String\n\n
+    getVariable()\n
     '''
 def getValidateElement():
-    '''public ValidateElement getValidateElement()
+    '''returns ValidateElement\n\n
+    getValidateElement()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def setRequired():
-    '''public void setRequired(final boolean required)
+    '''returns None\n\n
+    setRequired(final boolean required)\n
     '''
 def setValidateElement():
-    '''public void setValidateElement(final ValidateElement validateElement)
+    '''returns None\n\n
+    setValidateElement(final ValidateElement validateElement)\n
     '''
 def setType():
-    '''public void setType(final Type type)
+    '''returns None\n\n
+    setType(final Type type)\n
     '''
 def addValue():
-    '''public void addValue(final CharSequence value)
-    public void addValue(final Date date)
+    '''returns None\n\n
+    addValue(final CharSequence value)\n
+    addValue(final Date date)\n
     '''
 def addValues():
-    '''public void addValues(final List<? extends CharSequence> newValues)
+    '''returns None\n\n
+    addValues(final List<? extends CharSequence> newValues)\n
     '''
 def addOption():
-    '''public void addOption(final Option option)
+    '''returns None\n\n
+    addOption(final Option option)\n
     '''
 def getElementName():
-    '''public String getElementName()
-    public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
+    getElementName()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def fromString():
-    '''public static Type fromString(String string)
-    '''
-def Option():
-    '''public Option(final String value)
-    public Option(final String label, final String value)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''

@@ -1,3 +1,4 @@
 def generateListTemplate():
-    '''public OslcResourceResponse generateListTemplate(final String osName, final OslcRequest oslcRequest, final MboSetRemote mboSet)
+    '''returns OslcResourceResponse\n\n
+    generateListTemplate(final String osName, final OslcRequest oslcRequest, final MboSetRemote mboSet)\n
     '''

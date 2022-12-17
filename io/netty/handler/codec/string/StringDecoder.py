@@ -1,4 +1,5 @@
-def StringDecoder():
-    '''public StringDecoder()
-    public StringDecoder(final Charset charset)
+def ():
+    '''returns StringDecoder\n\n
+    ()\n
+    (final Charset charset)\n
     '''

@@ -1,6 +1,8 @@
-def FldOSVariant():
-    '''public FldOSVariant(final MboValue mbv)
+def ():
+    '''returns FldOSVariant\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

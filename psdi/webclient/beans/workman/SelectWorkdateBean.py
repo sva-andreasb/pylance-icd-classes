@@ -1,9 +1,8 @@
 def initialize():
-    '''public void initialize()
-    '''
-def setDate():
-    '''public synchronized void setDate(final String controlId, final String attribute, final Date value)
+    '''returns None\n\n
+    initialize()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

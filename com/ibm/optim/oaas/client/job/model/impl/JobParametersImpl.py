@@ -1,83 +1,109 @@
 def getTimeLimit():
-    '''public Long getTimeLimit()
+    '''returns Long\n\n
+    getTimeLimit()\n
     '''
 def setTimeLimit():
-    '''public void setTimeLimit(final Long value)
+    '''returns None\n\n
+    setTimeLimit(final Long value)\n
     '''
 def getLogLimit():
-    '''public Long getLogLimit()
+    '''returns Long\n\n
+    getLogLimit()\n
     '''
 def setLogLimit():
-    '''public void setLogLimit(final Long value)
+    '''returns None\n\n
+    setLogLimit(final Long value)\n
     '''
 def getOplRunConfig():
-    '''public String getOplRunConfig()
+    '''returns String\n\n
+    getOplRunConfig()\n
     '''
 def setOplRunConfig():
-    '''public void setOplRunConfig(final String value)
+    '''returns None\n\n
+    setOplRunConfig(final String value)\n
     '''
 def getResultsFormat():
-    '''public String getResultsFormat()
+    '''returns String\n\n
+    getResultsFormat()\n
     '''
 def setResultsFormat():
-    '''public void setResultsFormat(final String value)
+    '''returns None\n\n
+    setResultsFormat(final String value)\n
     '''
 def getWebhook():
-    '''public String getWebhook()
+    '''returns String\n\n
+    getWebhook()\n
     '''
 def setWebhook():
-    '''public void setWebhook(final String value)
+    '''returns None\n\n
+    setWebhook(final String value)\n
     '''
 def getDropSolve():
-    '''public Boolean getDropSolve()
+    '''returns Boolean\n\n
+    getDropSolve()\n
     '''
 def getNotifyCompletion():
-    '''public Boolean getNotifyCompletion()
+    '''returns Boolean\n\n
+    getNotifyCompletion()\n
     '''
 def setNotifyCompletion():
-    '''public void setNotifyCompletion(final Boolean notify)
+    '''returns None\n\n
+    setNotifyCompletion(final Boolean notify)\n
     '''
 def getAlertTime():
-    '''public Long getAlertTime()
+    '''returns Long\n\n
+    getAlertTime()\n
     '''
 def getJobCores():
-    '''public Integer getJobCores()
+    '''returns Integer\n\n
+    getJobCores()\n
     '''
 def setJobCores():
-    '''public void setJobCores(final Integer cores)
+    '''returns None\n\n
+    setJobCores(final Integer cores)\n
     '''
 def getJobMemoryMbytes():
-    '''public Integer getJobMemoryMbytes()
+    '''returns Integer\n\n
+    getJobMemoryMbytes()\n
     '''
 def setJobMemoryMbytes():
-    '''public void setJobMemoryMbytes(final Integer mbytes)
+    '''returns None\n\n
+    setJobMemoryMbytes(final Integer mbytes)\n
     '''
 def getBluemixRegion():
-    '''public String getBluemixRegion()
+    '''returns String\n\n
+    getBluemixRegion()\n
     '''
 def setBluemixRegion():
-    '''public void setBluemixRegion(final String bluemixRegion)
+    '''returns None\n\n
+    setBluemixRegion(final String bluemixRegion)\n
     '''
 def setAlertTime():
-    '''public void setAlertTime(final Long value)
+    '''returns None\n\n
+    setAlertTime(final Long value)\n
     '''
 def getAsBoolean():
-    '''public Boolean getAsBoolean(final String name)
-    public boolean getAsBoolean(final String name, final boolean defaultValue)
+    '''returns boolean\n\n
+    getAsBoolean(final String name)\n
+    getAsBoolean(final String name, final boolean defaultValue)\n
     '''
 def getAsString():
-    '''public String getAsString(final String name)
-    public String getAsString(final String name, final String defaultValue)
+    '''returns String\n\n
+    getAsString(final String name)\n
+    getAsString(final String name, final String defaultValue)\n
     '''
 def getAsDouble():
-    '''public Double getAsDouble(final String name)
-    public double getAsDouble(final String name, final double defaultValue)
+    '''returns double\n\n
+    getAsDouble(final String name)\n
+    getAsDouble(final String name, final double defaultValue)\n
     '''
 def getAsLong():
-    '''public Long getAsLong(final String name)
-    public long getAsLong(final String name, final long defaultValue)
+    '''returns long\n\n
+    getAsLong(final String name)\n
+    getAsLong(final String name, final long defaultValue)\n
     '''
 def getAsInteger():
-    '''public Integer getAsInteger(final String name)
-    public int getAsInteger(final String name, final int defaultValue)
+    '''returns int\n\n
+    getAsInteger(final String name)\n
+    getAsInteger(final String name, final int defaultValue)\n
     '''

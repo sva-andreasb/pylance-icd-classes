@@ -1,15 +1,17 @@
 BE = "int  0"
-def BuddhistCalendar():
-    '''public BuddhistCalendar()
-    public BuddhistCalendar(final TimeZone zone)
-    public BuddhistCalendar(final Locale aLocale)
-    public BuddhistCalendar(final ULocale locale)
-    public BuddhistCalendar(final TimeZone zone, final Locale aLocale)
-    public BuddhistCalendar(final TimeZone zone, final ULocale locale)
-    public BuddhistCalendar(final Date date)
-    public BuddhistCalendar(final int year, final int month, final int date)
-    public BuddhistCalendar(final int year, final int month, final int date, final int hour, final int minute, final int second)
+def ():
+    '''returns BuddhistCalendar\n\n
+    ()\n
+    (final TimeZone zone)\n
+    (final Locale aLocale)\n
+    (final ULocale locale)\n
+    (final TimeZone zone, final Locale aLocale)\n
+    (final TimeZone zone, final ULocale locale)\n
+    (final Date date)\n
+    (final int year, final int month, final int date)\n
+    (final int year, final int month, final int date, final int hour, final int minute, final int second)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''

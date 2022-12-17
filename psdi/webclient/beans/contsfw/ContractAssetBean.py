@@ -1,3 +1,4 @@
 def associateassets():
-    '''public int associateassets()
+    '''returns int\n\n
+    associateassets()\n
     '''

@@ -1,6 +1,8 @@
-def DeleteCommand():
-    '''public DeleteCommand(final T object)
+def ():
+    '''returns DeleteCommand\n\n
+    (final T object)\n
     '''
 def accept():
-    '''public void accept(final CommandVisitor<T> visitor)
+    '''returns None\n\n
+    accept(final CommandVisitor<T> visitor)\n
     '''

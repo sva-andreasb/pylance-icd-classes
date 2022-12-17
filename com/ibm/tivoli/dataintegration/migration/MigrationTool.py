@@ -1,18 +1,20 @@
-def MigrationTool():
-    '''public MigrationTool()
+def ():
+    '''returns MigrationTool\n\n
+    ()\n
     '''
 def migrate():
-    '''public long migrate()
+    '''returns long\n\n
+    migrate()\n
     '''
 def getLongHelp():
-    '''public String getLongHelp(final Locale locale)
+    '''returns String\n\n
+    getLongHelp(final Locale locale)\n
     '''
 def getShortHelp():
-    '''public String getShortHelp(final Locale locale)
+    '''returns String\n\n
+    getShortHelp(final Locale locale)\n
     '''
 def run():
-    '''public Object run(final Properties props)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns Object\n\n
+    run(final Properties props)\n
     '''

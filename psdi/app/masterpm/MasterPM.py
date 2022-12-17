@@ -1,54 +1,72 @@
-def MasterPM():
-    '''public MasterPM(final MboSet ms)
+def ():
+    '''returns MasterPM\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def createAssociatedPMs():
-    '''public void createAssociatedPMs(final MboSetRemote assetSet, final MboSetRemote locSet)
+    '''returns None\n\n
+    createAssociatedPMs(final MboSetRemote assetSet, final MboSetRemote locSet)\n
     '''
 def setupPMFromMaster():
-    '''public void setupPMFromMaster(final MboRemote pmMbo)
+    '''returns None\n\n
+    setupPMFromMaster(final MboRemote pmMbo)\n
     '''
 def getOrgCount():
-    '''public int getOrgCount()
+    '''returns int\n\n
+    getOrgCount()\n
     '''
 def updateAssociatedPMs():
-    '''public void updateAssociatedPMs(final MboSetRemote siteSet)
+    '''returns None\n\n
+    updateAssociatedPMs(final MboSetRemote siteSet)\n
     '''
 def validateTimeBasedFreq():
-    '''public void validateTimeBasedFreq(final double frequency)
+    '''returns None\n\n
+    validateTimeBasedFreq(final double frequency)\n
     '''
 def plusCUpdateAssociatedPMs():
-    '''public void plusCUpdateAssociatedPMs(final MboSetRemote siteSet)
+    '''returns None\n\n
+    plusCUpdateAssociatedPMs(final MboSetRemote siteSet)\n
     '''
 def plusCCheckPmXtDtNotNull():
-    '''public boolean plusCCheckPmXtDtNotNull(final MboSetRemote siteSet)
+    '''returns boolean\n\n
+    plusCCheckPmXtDtNotNull(final MboSetRemote siteSet)\n
     '''
 def plusCGetAssociatedPMs():
-    '''public HashSet plusCGetAssociatedPMs(final MboSetRemote siteSet)
+    '''returns HashSet\n\n
+    plusCGetAssociatedPMs(final MboSetRemote siteSet)\n
     '''
 def mockItemNum():
-    '''public void mockItemNum(final boolean enableMocking)
+    '''returns None\n\n
+    mockItemNum(final boolean enableMocking)\n
     '''
 def isNull():
-    '''public boolean isNull(final String attributeName)
+    '''returns boolean\n\n
+    isNull(final String attributeName)\n
     '''
 def isValidJPRevNum():
-    '''public boolean isValidJPRevNum(final String jpNum, final String revNum)
+    '''returns boolean\n\n
+    isValidJPRevNum(final String jpNum, final String revNum)\n
     '''

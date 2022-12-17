@@ -1,10 +1,13 @@
-def ar():
-    '''public ar(final at at)
-    public ar()
+def ():
+    '''returns ar\n\n
+    (final at at)\n
+    ()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def a():
-    '''public void a(final au au)
+    '''returns None\n\n
+    a(final au au)\n
     '''

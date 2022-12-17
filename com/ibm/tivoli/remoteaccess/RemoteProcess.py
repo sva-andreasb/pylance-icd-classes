@@ -1,18 +1,24 @@
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def exitValue():
-    '''public int exitValue()
+    '''returns int\n\n
+    exitValue()\n
     '''
 def getErrorStream():
-    '''public InputStream getErrorStream()
+    '''returns InputStream\n\n
+    getErrorStream()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def waitFor():
-    '''public int waitFor()
+    '''returns int\n\n
+    waitFor()\n
     '''

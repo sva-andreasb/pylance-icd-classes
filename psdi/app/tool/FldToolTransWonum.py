@@ -1,6 +1,8 @@
-def FldToolTransWonum():
-    '''public FldToolTransWonum(final MboValue mbv)
+def ():
+    '''returns FldToolTransWonum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,183 +1,244 @@
-def JobPlan():
-    '''public JobPlan(final MboSet ms)
+def ():
+    '''returns JobPlan\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def getTotals():
-    '''public Vector getTotals(final String siteid)
+    '''returns Vector\n\n
+    getTotals(final String siteid)\n
     '''
 def copySparePartsToJPMatSet():
-    '''public void copySparePartsToJPMatSet(final MboSetRemote sparePartSet)
+    '''returns None\n\n
+    copySparePartsToJPMatSet(final MboSetRemote sparePartSet)\n
     '''
 def createJPTaskFromWOTask():
-    '''public Mbo createJPTaskFromWOTask(final Mbo fromWO, final Mbo fromWOTask, final MboSet jpTasks)
+    '''returns Mbo\n\n
+    createJPTaskFromWOTask(final Mbo fromWO, final Mbo fromWOTask, final MboSet jpTasks)\n
     '''
 def createJPTaskFromWOChild():
-    '''public Mbo createJPTaskFromWOChild(final Mbo fromWO, final Mbo fromWOChild, final MboSet jpTasks)
+    '''returns Mbo\n\n
+    createJPTaskFromWOChild(final Mbo fromWO, final Mbo fromWOChild, final MboSet jpTasks)\n
     '''
 def createJPLaborFromWOLabor():
-    '''public Mbo createJPLaborFromWOLabor(final Mbo fromWO, final Mbo fromWOLabor, final MboSet jpLabors)
+    '''returns Mbo\n\n
+    createJPLaborFromWOLabor(final Mbo fromWO, final Mbo fromWOLabor, final MboSet jpLabors)\n
     '''
 def createJPMaterialFromWOMaterial():
-    '''public Mbo createJPMaterialFromWOMaterial(final Mbo fromWO, final Mbo fromWOMaterial, final MboSet jpMaterials)
+    '''returns Mbo\n\n
+    createJPMaterialFromWOMaterial(final Mbo fromWO, final Mbo fromWOMaterial, final MboSet jpMaterials)\n
     '''
 def createJPServiceFromWPService():
-    '''public Mbo createJPServiceFromWPService(final Mbo fromWO, final Mbo fromWPService, final MboSet jpServiceSet)
+    '''returns Mbo\n\n
+    createJPServiceFromWPService(final Mbo fromWO, final Mbo fromWPService, final MboSet jpServiceSet)\n
     '''
 def createJPToolFromWOTool():
-    '''public Mbo createJPToolFromWOTool(final Mbo fromWO, final Mbo fromWOTool, final MboSet jpTools)
+    '''returns Mbo\n\n
+    createJPToolFromWOTool(final Mbo fromWO, final Mbo fromWOTool, final MboSet jpTools)\n
     '''
 def createJPAssetFromWOAsset():
-    '''public void createJPAssetFromWOAsset(final Mbo fromWO, final MboSet jpAssets)
+    '''returns None\n\n
+    createJPAssetFromWOAsset(final Mbo fromWO, final MboSet jpAssets)\n
     '''
 def createJPTaskRelFromWOTaskRel():
-    '''public Mbo createJPTaskRelFromWOTaskRel(final Mbo fromWO, final Mbo fromWOTaskRel, final MboSet jptaskRelations, final Map<String, Mbo> woTaskLookup)
+    '''returns Mbo\n\n
+    createJPTaskRelFromWOTaskRel(final Mbo fromWO, final Mbo fromWOTaskRel, final MboSet jptaskRelations, final Map<String, Mbo> woTaskLookup)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def validateJPKey():
-    '''public void validateJPKey()
+    '''returns None\n\n
+    validateJPKey()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def deleteJobTaskComponents():
-    '''public void deleteJobTaskComponents(final int jptask, String taskorg, String tasksite)
+    '''returns None\n\n
+    deleteJobTaskComponents(final int jptask, String taskorg, String tasksite)\n
     '''
 def undeleteJobTaskComponents():
-    '''public void undeleteJobTaskComponents(final int jptask, String taskorg, String tasksite)
+    '''returns None\n\n
+    undeleteJobTaskComponents(final int jptask, String taskorg, String tasksite)\n
     '''
 def updatePredecessorFields():
-    '''public void updatePredecessorFields()
+    '''returns None\n\n
+    updatePredecessorFields()\n
     '''
 def componentAdded():
-    '''public void componentAdded()
+    '''returns None\n\n
+    componentAdded()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, Date date, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String status, Date date, final String memo, final long accessModifier)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final JobPlanRemote jobplan, String currentStatus, String desiredStatus)
+    '''returns None\n\n
+    canChangeStatus(final JobPlanRemote jobplan, String currentStatus, String desiredStatus)\n
     '''
 def nestedJobPlans():
-    '''public boolean nestedJobPlans(final JobPlanRemote jobplan, String currentStatus, String desiredStatus)
+    '''returns boolean\n\n
+    nestedJobPlans(final JobPlanRemote jobplan, String currentStatus, String desiredStatus)\n
     '''
 def doChangeStatus():
-    '''public void doChangeStatus(final JobPlanRemote jobplan, String currentStatus, String desiredStatus, final Date date, final String memo)
+    '''returns None\n\n
+    doChangeStatus(final JobPlanRemote jobplan, String currentStatus, String desiredStatus, final Date date, final String memo)\n
     '''
 def getJobPlanComponentSet():
-    '''public MboSetRemote getJobPlanComponentSet(final String maxRelName, final String orgid, final String siteid)
+    '''returns MboSetRemote\n\n
+    getJobPlanComponentSet(final String maxRelName, final String orgid, final String siteid)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def validateProcessFlow():
-    '''public void validateProcessFlow()
+    '''returns None\n\n
+    validateProcessFlow()\n
     '''
 def validateNetwork():
-    '''public void validateNetwork(final Hashtable<String, LinkedList> htSuccessors, final LinkedList<String> startingNodes, final boolean printDebugMsgs)
+    '''returns None\n\n
+    validateNetwork(final Hashtable<String, LinkedList> htSuccessors, final LinkedList<String> startingNodes, final boolean printDebugMsgs)\n
     '''
 def findMatchingTasks():
-    '''public Stack<MboRemote> findMatchingTasks(final MboSetRemote taskSet, final String orgid, final String siteid, final String jptask)
+    '''returns Stack<MboRemote>\n\n
+    findMatchingTasks(final MboSetRemote taskSet, final String orgid, final String siteid, final String jptask)\n
     '''
 def suspendChildrensProcessFlow():
-    '''public void suspendChildrensProcessFlow(final boolean torf)
+    '''returns None\n\n
+    suspendChildrensProcessFlow(final boolean torf)\n
     '''
 def setChildrensFlowControl():
-    '''public void setChildrensFlowControl(final boolean torf)
+    '''returns None\n\n
+    setChildrensFlowControl(final boolean torf)\n
     '''
 def changeChildrensFieldValue():
-    '''public void changeChildrensFieldValue(final String fieldname, final String fieldvalue, final long accessModifier)
+    '''returns None\n\n
+    changeChildrensFieldValue(final String fieldname, final String fieldvalue, final long accessModifier)\n
     '''
 def propagateRevisionStatus():
-    '''public void propagateRevisionStatus(final JobPlanRemote newRevision)
+    '''returns None\n\n
+    propagateRevisionStatus(final JobPlanRemote newRevision)\n
     '''
 def propagateRevisionNumber():
-    '''public void propagateRevisionNumber(final JobPlanRemote newRevision)
+    '''returns None\n\n
+    propagateRevisionNumber(final JobPlanRemote newRevision)\n
     '''
 def revise():
-    '''public MboRemote revise(final String revDescription)
+    '''returns MboRemote\n\n
+    revise(final String revDescription)\n
     '''
 def canRevise():
-    '''public void canRevise()
+    '''returns None\n\n
+    canRevise()\n
     '''
 def setReadOnlyFields():
-    '''public void setReadOnlyFields()
+    '''returns None\n\n
+    setReadOnlyFields()\n
     '''
 def isRevEnabled():
-    '''public boolean isRevEnabled()
+    '''returns boolean\n\n
+    isRevEnabled()\n
     '''
 def isRevisionStatusNotAllowed():
-    '''public boolean isRevisionStatusNotAllowed()
+    '''returns boolean\n\n
+    isRevisionStatusNotAllowed()\n
     '''
 def setStatusHistoryFields():
-    '''public void setStatusHistoryFields(final JobPlan jp, final Date date, final String memo)
+    '''returns None\n\n
+    setStatusHistoryFields(final JobPlan jp, final Date date, final String memo)\n
     '''
 def active():
-    '''public void active(final MboRemote jobplan, final String currentMaxStatus, final String desiredStatus, final Date date)
+    '''returns None\n\n
+    active(final MboRemote jobplan, final String currentMaxStatus, final String desiredStatus, final Date date)\n
     '''
 def getNextRevNum():
-    '''public int getNextRevNum()
+    '''returns int\n\n
+    getNextRevNum()\n
     '''
 def getMaxValidStatusRevNum():
-    '''public int getMaxValidStatusRevNum()
+    '''returns int\n\n
+    getMaxValidStatusRevNum()\n
     '''
 def getSpecificStringOfSites():
-    '''public String getSpecificStringOfSites(final MboSetRemote jobPlanSubSets)
+    '''returns String\n\n
+    getSpecificStringOfSites(final MboSetRemote jobPlanSubSets)\n
     '''
 def copyCrewTypeToWpLaborSet():
-    '''public void copyCrewTypeToWpLaborSet(final MboSetRemote crewTypeSet)
+    '''returns None\n\n
+    copyCrewTypeToWpLaborSet(final MboSetRemote crewTypeSet)\n
     '''
 def getHistoryFlag():
-    '''public boolean getHistoryFlag()
+    '''returns boolean\n\n
+    getHistoryFlag()\n
     '''
 def canDeleteAttachedDocs():
-    '''public void canDeleteAttachedDocs()
+    '''returns None\n\n
+    canDeleteAttachedDocs()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def setRelatedMboEditibility():
-    '''public void setRelatedMboEditibility(final String relationName, final MboSetRemote relatedSet)
+    '''returns None\n\n
+    setRelatedMboEditibility(final String relationName, final MboSetRemote relatedSet)\n
     '''
 def setRevisedStatus():
-    '''public void setRevisedStatus(final boolean value)
+    '''returns None\n\n
+    setRevisedStatus(final boolean value)\n
     '''
 def getRevisedStatus():
-    '''public boolean getRevisedStatus()
+    '''returns boolean\n\n
+    getRevisedStatus()\n
     '''
 def setListPage():
-    '''public void setListPage(final boolean value)
+    '''returns None\n\n
+    setListPage(final boolean value)\n
     '''
 def getListPage():
-    '''public boolean getListPage()
+    '''returns boolean\n\n
+    getListPage()\n
     '''
 def isDuringDUPLICATE():
-    '''public boolean isDuringDUPLICATE()
+    '''returns boolean\n\n
+    isDuringDUPLICATE()\n
     '''
 def setDuringDUPLICATE():
-    '''public void setDuringDUPLICATE(final boolean value)
+    '''returns None\n\n
+    setDuringDUPLICATE(final boolean value)\n
     '''

@@ -1,3 +1,4 @@
 def toUnicode():
-    '''public String toUnicode(final String punycode)
+    '''returns String\n\n
+    toUnicode(final String punycode)\n
     '''

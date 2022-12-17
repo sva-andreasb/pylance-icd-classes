@@ -1,3 +1,4 @@
-def ReportParameter():
-    '''public ReportParameter(final MboSet ms)
+def ():
+    '''returns ReportParameter\n\n
+    (final MboSet ms)\n
     '''

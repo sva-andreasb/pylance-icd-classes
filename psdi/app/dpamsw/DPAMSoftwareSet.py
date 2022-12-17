@@ -1,3 +1,4 @@
-def DPAMSoftwareSet():
-    '''public DPAMSoftwareSet(final MboServerInterface ms)
+def ():
+    '''returns DPAMSoftwareSet\n\n
+    (final MboServerInterface ms)\n
     '''

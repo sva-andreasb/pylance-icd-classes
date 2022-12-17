@@ -1,3 +1,4 @@
-def ViewItemAvailabilityBean():
-    '''public ViewItemAvailabilityBean()
+def ():
+    '''returns ViewItemAvailabilityBean\n\n
+    ()\n
     '''

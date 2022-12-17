@@ -1,9 +1,12 @@
-def FldPersonAddress():
-    '''public FldPersonAddress(final MboValue mbv)
+def ():
+    '''returns FldPersonAddress\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo, final long accessModifier)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo, final long accessModifier)\n
     '''

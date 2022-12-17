@@ -1,9 +1,12 @@
 def __findattr_ex__():
-    '''public PyObject __findattr_ex__(final String name)
+    '''returns PyObject\n\n
+    __findattr_ex__(final String name)\n
     '''
 def __call__():
-    '''public PyObject __call__(final PyObject[] args, final String[] keywords)
+    '''returns PyObject\n\n
+    __call__(final PyObject[] args, final String[] keywords)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

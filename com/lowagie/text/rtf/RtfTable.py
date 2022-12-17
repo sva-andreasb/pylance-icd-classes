@@ -1,12 +1,16 @@
-def RtfTable():
-    '''public RtfTable(final RtfWriter writer)
+def ():
+    '''returns RtfTable\n\n
+    (final RtfWriter writer)\n
     '''
 def importTable():
-    '''public boolean importTable(final Table table, final int pageWidth)
+    '''returns boolean\n\n
+    importTable(final Table table, final int pageWidth)\n
     '''
 def writeTable():
-    '''public boolean writeTable(final ByteArrayOutputStream os)
+    '''returns boolean\n\n
+    writeTable(final ByteArrayOutputStream os)\n
     '''
 def setMerge():
-    '''public void setMerge(final int x, final int y, final int mergeType, final RtfCell mergeCell)
+    '''returns None\n\n
+    setMerge(final int x, final int y, final int mergeType, final RtfCell mergeCell)\n
     '''

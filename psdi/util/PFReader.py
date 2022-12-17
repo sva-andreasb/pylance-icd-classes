@@ -1,6 +1,8 @@
-def PFReader():
-    '''public PFReader()
+def ():
+    '''returns PFReader\n\n
+    ()\n
     '''
 def getProductKeys():
-    '''public HashSet<String> getProductKeys()
+    '''returns HashSet<String>\n\n
+    getProductKeys()\n
     '''

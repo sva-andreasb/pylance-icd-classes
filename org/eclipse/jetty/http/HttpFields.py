@@ -1,137 +1,154 @@
 __COOKIE_DELIM = "String  \"\\"\\\n\r\t\f\b%+ ;=\""
 __separators = "String  \", \t\""
-def formatDate():
-    '''public static String formatDate(final long date)
-    public String formatDate(final long date)
-    '''
-def formatCookieDate():
-    '''public static void formatCookieDate(final StringBuilder buf, final long date)
-    public static String formatCookieDate(final long date)
-    public void formatCookieDate(final StringBuilder buf, final long date)
-    '''
-def parseDate():
-    '''public static long parseDate(final String date)
-    '''
-def HttpFields():
-    '''public HttpFields()
-    public HttpFields(final int maxCookieVersion)
+def ():
+    '''returns HttpFields\n\n
+    ()\n
+    (final int maxCookieVersion)\n
     '''
 def getFieldNames():
-    '''public Enumeration<String> getFieldNames()
+    '''returns Enumeration<String>\n\n
+    getFieldNames()\n
     '''
 def nextElement():
-    '''public String nextElement()
-    public String nextElement()
-    public String nextElement()
-    public String nextElement()
+    '''returns String\n\n
+    nextElement()\n
+    nextElement()\n
+    nextElement()\n
+    nextElement()\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
-    public boolean hasMoreElements()
-    public boolean hasMoreElements()
-    public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
+    hasMoreElements()\n
+    hasMoreElements()\n
+    hasMoreElements()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getField():
-    '''public Field getField(final int i)
+    '''returns Field\n\n
+    getField(final int i)\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Buffer name)
-    public boolean containsKey(final String name)
+    '''returns boolean\n\n
+    containsKey(final Buffer name)\n
+    containsKey(final String name)\n
     '''
 def getStringField():
-    '''public String getStringField(final String name)
-    public String getStringField(final Buffer name)
+    '''returns String\n\n
+    getStringField(final String name)\n
+    getStringField(final Buffer name)\n
     '''
 def get():
-    '''public Buffer get(final Buffer name)
+    '''returns Buffer\n\n
+    get(final Buffer name)\n
     '''
 def getValues():
-    '''public Enumeration<String> getValues(final String name)
-    public Enumeration<String> getValues(final Buffer name)
-    public Enumeration<String> getValues(final String name, final String separators)
+    '''returns Enumeration<String>\n\n
+    getValues(final String name)\n
+    getValues(final Buffer name)\n
+    getValues(final String name, final String separators)\n
     '''
 def put():
-    '''public void put(final String name, final String value)
-    public void put(final Buffer name, final String value)
-    public void put(Buffer name, Buffer value)
-    public void put(final String name, final List<?> list)
+    '''returns None\n\n
+    put(final String name, final String value)\n
+    put(final Buffer name, final String value)\n
+    put(Buffer name, Buffer value)\n
+    put(final String name, final List<?> list)\n
     '''
 def add():
-    '''public void add(final String name, final String value)
-    public void add(Buffer name, Buffer value)
-    public void add(final HttpFields fields)
+    '''returns None\n\n
+    add(final String name, final String value)\n
+    add(Buffer name, Buffer value)\n
+    add(final HttpFields fields)\n
     '''
 def remove():
-    '''public void remove(final String name)
-    public void remove(Buffer name)
+    '''returns None\n\n
+    remove(final String name)\n
+    remove(Buffer name)\n
     '''
 def getLongField():
-    '''public long getLongField(final String name)
-    public long getLongField(final Buffer name)
+    '''returns long\n\n
+    getLongField(final String name)\n
+    getLongField(final Buffer name)\n
     '''
 def getDateField():
-    '''public long getDateField(final String name)
+    '''returns long\n\n
+    getDateField(final String name)\n
     '''
 def putLongField():
-    '''public void putLongField(final Buffer name, final long value)
-    public void putLongField(final String name, final long value)
+    '''returns None\n\n
+    putLongField(final Buffer name, final long value)\n
+    putLongField(final String name, final long value)\n
     '''
 def addLongField():
-    '''public void addLongField(final String name, final long value)
-    public void addLongField(final Buffer name, final long value)
+    '''returns None\n\n
+    addLongField(final String name, final long value)\n
+    addLongField(final Buffer name, final long value)\n
     '''
 def putDateField():
-    '''public void putDateField(final Buffer name, final long date)
-    public void putDateField(final String name, final long date)
+    '''returns None\n\n
+    putDateField(final Buffer name, final long date)\n
+    putDateField(final String name, final long date)\n
     '''
 def addDateField():
-    '''public void addDateField(final String name, final long date)
+    '''returns None\n\n
+    addDateField(final String name, final long date)\n
     '''
 def addSetCookie():
-    '''public void addSetCookie(final HttpCookie cookie)
-    public void addSetCookie(final String name, final String value, final String domain, final String path, final long maxAge, final String comment, final boolean isSecure, final boolean isHttpOnly, int version)
+    '''returns None\n\n
+    addSetCookie(final HttpCookie cookie)\n
+    addSetCookie(final String name, final String value, final String domain, final String path, final long maxAge, final String comment, final boolean isSecure, final boolean isHttpOnly, int version)\n
     '''
 def putTo():
-    '''public void putTo(final Buffer buffer)
-    public void putTo(final Buffer buffer)
+    '''returns None\n\n
+    putTo(final Buffer buffer)\n
+    putTo(final Buffer buffer)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
-def valueParameters():
-    '''public static String valueParameters(final String value, final Map<String, String> parameters)
+def formatDate():
+    '''returns String\n\n
+    formatDate(final long date)\n
     '''
-def getQuality():
-    '''public static Float getQuality(final String value)
-    '''
-def qualityList():
-    '''public static List qualityList(final Enumeration e)
+def formatCookieDate():
+    '''returns None\n\n
+    formatCookieDate(final StringBuilder buf, final long date)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getNameOrdinal():
-    '''public int getNameOrdinal()
+    '''returns int\n\n
+    getNameOrdinal()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getValueBuffer():
-    '''public Buffer getValueBuffer()
+    '''returns Buffer\n\n
+    getValueBuffer()\n
     '''
 def getValueOrdinal():
-    '''public int getValueOrdinal()
+    '''returns int\n\n
+    getValueOrdinal()\n
     '''
 def getIntValue():
-    '''public int getIntValue()
+    '''returns int\n\n
+    getIntValue()\n
     '''
 def getLongValue():
-    '''public long getLongValue()
+    '''returns long\n\n
+    getLongValue()\n
     '''

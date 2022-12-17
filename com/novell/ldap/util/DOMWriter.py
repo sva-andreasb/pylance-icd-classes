@@ -1,32 +1,42 @@
-def DOMWriter():
-    '''public DOMWriter()
+def ():
+    '''returns DOMWriter\n\n
+    ()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def isRequest():
-    '''public boolean isRequest()
+    '''returns boolean\n\n
+    isRequest()\n
     '''
 def writeComments():
-    '''public void writeComments(final String s)
+    '''returns None\n\n
+    writeComments(final String s)\n
     '''
 def writeMessage():
-    '''public void writeMessage(final LDAPMessage ldapMessage)
+    '''returns None\n\n
+    writeMessage(final LDAPMessage ldapMessage)\n
     '''
 def writeEntry():
-    '''public void writeEntry(final LDAPEntry ldapEntry)
-    public void writeEntry(final LDAPEntry ldapEntry, final LDAPControl[] array)
-    public void writeEntry(final LDAPEntry ldapEntry, final LDAPControl[] array, final String s)
+    '''returns None\n\n
+    writeEntry(final LDAPEntry ldapEntry)\n
+    writeEntry(final LDAPEntry ldapEntry, final LDAPControl[] array)\n
+    writeEntry(final LDAPEntry ldapEntry, final LDAPControl[] array, final String s)\n
     '''
 def message2Element():
-    '''public Element message2Element(final LDAPMessage ldapMessage)
+    '''returns Element\n\n
+    message2Element(final LDAPMessage ldapMessage)\n
     '''
 def writeError():
-    '''public void writeError(final Exception ex)
+    '''returns None\n\n
+    writeError(final Exception ex)\n
     '''
 def getRootElement():
-    '''public Element getRootElement()
+    '''returns Element\n\n
+    getRootElement()\n
     '''
 def finish():
-    '''public void finish()
+    '''returns None\n\n
+    finish()\n
     '''

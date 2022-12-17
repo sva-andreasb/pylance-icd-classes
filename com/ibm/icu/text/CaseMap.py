@@ -1,46 +1,38 @@
-def toLower():
-    '''public static Lower toLower()
-    '''
-def toUpper():
-    '''public static Upper toUpper()
-    '''
-def toTitle():
-    '''public static Title toTitle()
-    '''
-def fold():
-    '''public static Fold fold()
-    '''
 def omitUnchangedText():
-    '''public Lower omitUnchangedText()
-    public Upper omitUnchangedText()
-    public Title omitUnchangedText()
-    public Fold omitUnchangedText()
+    '''returns Fold\n\n
+    omitUnchangedText()\n
+    omitUnchangedText()\n
+    omitUnchangedText()\n
+    omitUnchangedText()\n
     '''
 def apply():
-    '''public String apply(final Locale locale, final CharSequence src)
-    public <A extends Appendable> A apply(final Locale locale, final CharSequence src, final A dest, final Edits edits)
-    public String apply(final Locale locale, final CharSequence src)
-    public <A extends Appendable> A apply(final Locale locale, final CharSequence src, final A dest, final Edits edits)
-    public String apply(Locale locale, BreakIterator iter, final CharSequence src)
-    public <A extends Appendable> A apply(Locale locale, BreakIterator iter, final CharSequence src, final A dest, final Edits edits)
-    public String apply(final CharSequence src)
-    public <A extends Appendable> A apply(final CharSequence src, final A dest, final Edits edits)
+    '''returns String\n\n
+    apply(final Locale locale, final CharSequence src)\n
+    apply(final Locale locale, final CharSequence src)\n
+    apply(Locale locale, BreakIterator iter, final CharSequence src)\n
+    apply(final CharSequence src)\n
     '''
 def wholeString():
-    '''public Title wholeString()
+    '''returns Title\n\n
+    wholeString()\n
     '''
 def sentences():
-    '''public Title sentences()
+    '''returns Title\n\n
+    sentences()\n
     '''
 def noLowercase():
-    '''public Title noLowercase()
+    '''returns Title\n\n
+    noLowercase()\n
     '''
 def noBreakAdjustment():
-    '''public Title noBreakAdjustment()
+    '''returns Title\n\n
+    noBreakAdjustment()\n
     '''
 def adjustToCased():
-    '''public Title adjustToCased()
+    '''returns Title\n\n
+    adjustToCased()\n
     '''
 def turkic():
-    '''public Fold turkic()
+    '''returns Fold\n\n
+    turkic()\n
     '''

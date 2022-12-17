@@ -1,39 +1,51 @@
-def LocalizableSupport():
-    '''public LocalizableSupport(final String s, final Class cls)
-    public LocalizableSupport(final String s, final Class cls, final ClassLoader cl)
-    public LocalizableSupport(final String s)
-    public LocalizableSupport(final String s, final ClassLoader cl)
+def ():
+    '''returns LocalizableSupport\n\n
+    (final String s, final Class cls)\n
+    (final String s, final Class cls, final ClassLoader cl)\n
+    (final String s)\n
+    (final String s, final ClassLoader cl)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale l)
+    '''returns None\n\n
+    setLocale(final Locale l)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setLocaleGroup():
-    '''public void setLocaleGroup(final LocaleGroup lg)
+    '''returns None\n\n
+    setLocaleGroup(final LocaleGroup lg)\n
     '''
 def getLocaleGroup():
-    '''public LocaleGroup getLocaleGroup()
+    '''returns LocaleGroup\n\n
+    getLocaleGroup()\n
     '''
 def setDefaultLocale():
-    '''public void setDefaultLocale(final Locale l)
+    '''returns None\n\n
+    setDefaultLocale(final Locale l)\n
     '''
 def getDefaultLocale():
-    '''public Locale getDefaultLocale()
+    '''returns Locale\n\n
+    getDefaultLocale()\n
     '''
 def formatMessage():
-    '''public String formatMessage(final String key, final Object[] args)
+    '''returns String\n\n
+    formatMessage(final String key, final Object[] args)\n
     '''
 def getResourceBundle():
-    '''public ResourceBundle getResourceBundle()
+    '''returns ResourceBundle\n\n
+    getResourceBundle()\n
     '''
 def getString():
-    '''public String getString(final String key)
+    '''returns String\n\n
+    getString(final String key)\n
     '''
 def getInteger():
-    '''public int getInteger(final String key)
+    '''returns int\n\n
+    getInteger(final String key)\n
     '''
 def getCharacter():
-    '''public int getCharacter(final String key)
+    '''returns int\n\n
+    getCharacter(final String key)\n
     '''

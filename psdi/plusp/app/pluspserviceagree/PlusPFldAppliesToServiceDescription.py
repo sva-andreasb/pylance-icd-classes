@@ -1,3 +1,4 @@
-def PlusPFldAppliesToServiceDescription():
-    '''public PlusPFldAppliesToServiceDescription(final MboValue mboValue)
+def ():
+    '''returns PlusPFldAppliesToServiceDescription\n\n
+    (final MboValue mboValue)\n
     '''

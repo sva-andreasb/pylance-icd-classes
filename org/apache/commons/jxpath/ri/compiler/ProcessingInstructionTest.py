@@ -1,9 +1,12 @@
-def ProcessingInstructionTest():
-    '''public ProcessingInstructionTest(final String target)
+def ():
+    '''returns ProcessingInstructionTest\n\n
+    (final String target)\n
     '''
 def getTarget():
-    '''public String getTarget()
+    '''returns String\n\n
+    getTarget()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

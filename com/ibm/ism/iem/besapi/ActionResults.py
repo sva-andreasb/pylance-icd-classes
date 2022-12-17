@@ -1,29 +1,37 @@
 def getActionID():
-    '''public BigInteger getActionID()
-    public BigInteger getActionID()
+    '''returns BigInteger\n\n
+    getActionID()\n
+    getActionID()\n
     '''
 def setActionID():
-    '''public void setActionID(final BigInteger value)
-    public void setActionID(final BigInteger value)
+    '''returns None\n\n
+    setActionID(final BigInteger value)\n
+    setActionID(final BigInteger value)\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final String value)
+    '''returns None\n\n
+    setStatus(final String value)\n
     '''
 def getComputer():
-    '''public List<ComputerResultType> getComputer()
-    public List<ComputerResultType> getComputer()
+    '''returns List<ComputerResultType>\n\n
+    getComputer()\n
+    getComputer()\n
     '''
 def getMemberActionResult():
-    '''public List<MemberActionResult> getMemberActionResult()
+    '''returns List<MemberActionResult>\n\n
+    getMemberActionResult()\n
     '''
 def getResource():
-    '''public String getResource()
-    public String getResource()
+    '''returns String\n\n
+    getResource()\n
+    getResource()\n
     '''
 def setResource():
-    '''public void setResource(final String value)
-    public void setResource(final String value)
+    '''returns None\n\n
+    setResource(final String value)\n
+    setResource(final String value)\n
     '''

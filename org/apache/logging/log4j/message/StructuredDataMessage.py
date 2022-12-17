@@ -1,48 +1,58 @@
-def StructuredDataMessage():
-    '''public StructuredDataMessage(final String id, final String msg, final String type)
-    public StructuredDataMessage(final String id, final String msg, final String type, final int maxLength)
-    public StructuredDataMessage(final String id, final String msg, final String type, final Map<String, String> data)
-    public StructuredDataMessage(final String id, final String msg, final String type, final Map<String, String> data, final int maxLength)
-    public StructuredDataMessage(final StructuredDataId id, final String msg, final String type)
-    public StructuredDataMessage(final StructuredDataId id, final String msg, final String type, final int maxLength)
-    public StructuredDataMessage(final StructuredDataId id, final String msg, final String type, final Map<String, String> data)
-    public StructuredDataMessage(final StructuredDataId id, final String msg, final String type, final Map<String, String> data, final int maxLength)
+def ():
+    '''returns StructuredDataMessage\n\n
+    (final String id, final String msg, final String type)\n
+    (final String id, final String msg, final String type, final int maxLength)\n
+    (final String id, final String msg, final String type, final Map<String, String> data)\n
+    (final String id, final String msg, final String type, final Map<String, String> data, final int maxLength)\n
+    (final StructuredDataId id, final String msg, final String type)\n
+    (final StructuredDataId id, final String msg, final String type, final int maxLength)\n
+    (final StructuredDataId id, final String msg, final String type, final Map<String, String> data)\n
+    (final StructuredDataId id, final String msg, final String type, final Map<String, String> data, final int maxLength)\n
     '''
 def getFormats():
-    '''public String[] getFormats()
+    '''returns String[]\n\n
+    getFormats()\n
     '''
 def getId():
-    '''public StructuredDataId getId()
+    '''returns StructuredDataId\n\n
+    getId()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def formatTo():
-    '''public void formatTo(final StringBuilder buffer)
-    public void formatTo(final String[] formats, final StringBuilder buffer)
+    '''returns None\n\n
+    formatTo(final StringBuilder buffer)\n
+    formatTo(final String[] formats, final StringBuilder buffer)\n
     '''
 def getFormat():
-    '''public String getFormat()
+    '''returns String\n\n
+    getFormat()\n
     '''
 def asString():
-    '''public String asString()
-    public String asString(final String format)
-    public final String asString(final Format format, final StructuredDataId structuredDataId)
-    public final void asString(final Format format, final StructuredDataId structuredDataId, final StringBuilder sb)
+    '''returns String\n\n
+    asString()\n
+    asString(final String format)\n
     '''
 def getFormattedMessage():
-    '''public String getFormattedMessage()
-    public String getFormattedMessage(final String[] formats)
+    '''returns String\n\n
+    getFormattedMessage()\n
+    getFormattedMessage(final String[] formats)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def newInstance():
-    '''public StructuredDataMessage newInstance(final Map<String, String> map)
+    '''returns StructuredDataMessage\n\n
+    newInstance(final Map<String, String> map)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

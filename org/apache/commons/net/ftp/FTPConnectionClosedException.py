@@ -1,4 +1,5 @@
-def FTPConnectionClosedException():
-    '''public FTPConnectionClosedException()
-    public FTPConnectionClosedException(final String message)
+def ():
+    '''returns FTPConnectionClosedException\n\n
+    ()\n
+    (final String message)\n
     '''

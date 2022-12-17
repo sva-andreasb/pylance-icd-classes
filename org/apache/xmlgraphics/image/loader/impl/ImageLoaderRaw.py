@@ -1,9 +1,12 @@
-def ImageLoaderRaw():
-    '''public ImageLoaderRaw(final ImageFlavor targetFlavor)
+def ():
+    '''returns ImageLoaderRaw\n\n
+    (final ImageFlavor targetFlavor)\n
     '''
 def getTargetFlavor():
-    '''public ImageFlavor getTargetFlavor()
+    '''returns ImageFlavor\n\n
+    getTargetFlavor()\n
     '''
 def loadImage():
-    '''public Image loadImage(final ImageInfo info, final Map hints, final ImageSessionContext session)
+    '''returns Image\n\n
+    loadImage(final ImageInfo info, final Map hints, final ImageSessionContext session)\n
     '''

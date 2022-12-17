@@ -1,3 +1,4 @@
-def WeatherUsageSet():
-    '''public WeatherUsageSet(final MboServerInterface ms)
+def ():
+    '''returns WeatherUsageSet\n\n
+    (final MboServerInterface ms)\n
     '''

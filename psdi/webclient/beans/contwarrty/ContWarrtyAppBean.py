@@ -1,18 +1,24 @@
 def DETAILREP():
-    '''public int DETAILREP()
+    '''returns int\n\n
+    DETAILREP()\n
     '''
 def PRINTDOCS():
-    '''public int PRINTDOCS()
+    '''returns int\n\n
+    PRINTDOCS()\n
     '''
 def ASSOCCOMM():
-    '''public int ASSOCCOMM()
+    '''returns int\n\n
+    ASSOCCOMM()\n
     '''
 def AUTHSITES():
-    '''public int AUTHSITES()
+    '''returns int\n\n
+    AUTHSITES()\n
     '''
 def PMTSCHED():
-    '''public int PMTSCHED()
+    '''returns int\n\n
+    PMTSCHED()\n
     '''
 def REVCONT():
-    '''public int REVCONT()
+    '''returns int\n\n
+    REVCONT()\n
     '''

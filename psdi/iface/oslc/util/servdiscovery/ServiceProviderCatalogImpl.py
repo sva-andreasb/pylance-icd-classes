@@ -1,34 +1,43 @@
-def ServiceProviderCatalogImpl():
-    '''public ServiceProviderCatalogImpl(final String serviceProviderCatalogURL, final String accessToken, final String accessSecret, final String consumerKey, final String consumerSecret)
-    public ServiceProviderCatalogImpl(final JSONArtifact otherServiceProviderCatalog)
+def ():
+    '''returns ServiceProviderCatalogImpl\n\n
+    (final String serviceProviderCatalogURL, final String accessToken, final String accessSecret, final String consumerKey, final String consumerSecret)\n
+    (final JSONArtifact otherServiceProviderCatalog)\n
     '''
 def getArtifactContainersList():
-    '''public List<String> getArtifactContainersList()
+    '''returns List<String>\n\n
+    getArtifactContainersList()\n
     '''
 def getDefaultCreationDialog():
-    '''public String getDefaultCreationDialog(final String artifactContainer)
+    '''returns String\n\n
+    getDefaultCreationDialog(final String artifactContainer)\n
     '''
 def getDefaultCreationDialogWidth():
-    '''public String getDefaultCreationDialogWidth(final String artifactContainer)
+    '''returns String\n\n
+    getDefaultCreationDialogWidth(final String artifactContainer)\n
     '''
 def getDefaultCreationDialogHeight():
-    '''public String getDefaultCreationDialogHeight(final String artifactContainer)
+    '''returns String\n\n
+    getDefaultCreationDialogHeight(final String artifactContainer)\n
     '''
 def getDefaultSelectionDialog():
-    '''public String getDefaultSelectionDialog(final String artifactContainer)
+    '''returns String\n\n
+    getDefaultSelectionDialog(final String artifactContainer)\n
     '''
 def getDefaultSelectionDialogWidth():
-    '''public String getDefaultSelectionDialogWidth(final String artifactContainer)
+    '''returns String\n\n
+    getDefaultSelectionDialogWidth(final String artifactContainer)\n
     '''
 def getDefaultSelectionDialogHeight():
-    '''public String getDefaultSelectionDialogHeight(final String artifactContainer)
+    '''returns String\n\n
+    getDefaultSelectionDialogHeight(final String artifactContainer)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''

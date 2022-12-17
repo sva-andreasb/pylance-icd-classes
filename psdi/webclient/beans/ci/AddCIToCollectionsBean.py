@@ -1,6 +1,8 @@
-def AddCIToCollectionsBean():
-    '''public AddCIToCollectionsBean()
+def ():
+    '''returns AddCIToCollectionsBean\n\n
+    ()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''

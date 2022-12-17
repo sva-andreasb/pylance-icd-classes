@@ -1,47 +1,59 @@
-def CCILogger():
-    '''public CCILogger(final MXLogger logger)
+def ():
+    '''returns CCILogger\n\n
+    (final MXLogger logger)\n
     '''
 def isDebug():
-    '''public boolean isDebug()
+    '''returns boolean\n\n
+    isDebug()\n
     '''
 def isInfo():
-    '''public boolean isInfo()
+    '''returns boolean\n\n
+    isInfo()\n
     '''
 def isWarn():
-    '''public boolean isWarn()
+    '''returns boolean\n\n
+    isWarn()\n
     '''
 def isError():
-    '''public boolean isError()
+    '''returns boolean\n\n
+    isError()\n
     '''
 def debug():
-    '''public void debug(final String className, final String method, final String msg)
-    public void debug(final String className, final String method, final String msg, final Throwable t)
+    '''returns None\n\n
+    debug(final String className, final String method, final String msg)\n
+    debug(final String className, final String method, final String msg, final Throwable t)\n
     '''
 def info():
-    '''public void info(final String className, final String method, final String msg)
-    public void info(final String className, final String method, final String msg, final Throwable t)
+    '''returns None\n\n
+    info(final String className, final String method, final String msg)\n
+    info(final String className, final String method, final String msg, final Throwable t)\n
     '''
 def warn():
-    '''public void warn(final String className, final String method, final String msg)
-    public void warn(final String className, final String method, final String msg, final Throwable t)
+    '''returns None\n\n
+    warn(final String className, final String method, final String msg)\n
+    warn(final String className, final String method, final String msg, final Throwable t)\n
     '''
 def error():
-    '''public void error(final String className, final String method, final String msg)
-    public void error(final String className, final String method, final String msg, final Throwable t)
+    '''returns None\n\n
+    error(final String className, final String method, final String msg)\n
+    error(final String className, final String method, final String msg, final Throwable t)\n
     '''
 def fatal():
-    '''public void fatal(final String className, final String method, final String msg)
-    public void fatal(final String className, final String method, final String msg, final Throwable t)
+    '''returns None\n\n
+    fatal(final String className, final String method, final String msg)\n
+    fatal(final String className, final String method, final String msg, final Throwable t)\n
     '''
 def debugEntry():
-    '''public void debugEntry(final String className, final String method, final Object[] params)
-    public void debugEntry(final String className, final String method)
-    public void debugEntry(final String className, final String method, final Object param1)
-    public void debugEntry(final String className, final String method, final Object param1, final Object param2)
-    public void debugEntry(final String className, final String method, final Object param1, final Object param2, final Object param3)
-    public void debugEntry(final String className, final String method, final Object param1, final Object param2, final Object param3, final Object param4)
+    '''returns None\n\n
+    debugEntry(final String className, final String method, final Object[] params)\n
+    debugEntry(final String className, final String method)\n
+    debugEntry(final String className, final String method, final Object param1)\n
+    debugEntry(final String className, final String method, final Object param1, final Object param2)\n
+    debugEntry(final String className, final String method, final Object param1, final Object param2, final Object param3)\n
+    debugEntry(final String className, final String method, final Object param1, final Object param2, final Object param3, final Object param4)\n
     '''
 def debugExit():
-    '''public void debugExit(final String className, final String method, final Object returnValue)
-    public void debugExit(final String className, final String method)
+    '''returns None\n\n
+    debugExit(final String className, final String method, final Object returnValue)\n
+    debugExit(final String className, final String method)\n
     '''

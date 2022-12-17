@@ -1,7 +1,9 @@
-def ShapeDebuggerRenderer():
-    '''public ShapeDebuggerRenderer()
-    public ShapeDebuggerRenderer(final Graphics2D g)
+def ():
+    '''returns ShapeDebuggerRenderer\n\n
+    ()\n
+    (final Graphics2D g)\n
     '''
 def setDebugAcceptor():
-    '''public void setDebugAcceptor(final ShapeVisitorAcceptor acceptor)
+    '''returns None\n\n
+    setDebugAcceptor(final ShapeVisitorAcceptor acceptor)\n
     '''

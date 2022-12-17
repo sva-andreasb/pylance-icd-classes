@@ -1,12 +1,16 @@
-def CloseShieldWriter():
-    '''public CloseShieldWriter(final Writer delegate)
+def ():
+    '''returns CloseShieldWriter\n\n
+    (final Writer delegate)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def write():
-    '''public void write(final char[] cbuf, final int off, final int len)
+    '''returns None\n\n
+    write(final char[] cbuf, final int off, final int len)\n
     '''

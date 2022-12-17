@@ -1,3 +1,4 @@
-def ReconCIResult():
-    '''public ReconCIResult(final MboSet ms)
+def ():
+    '''returns ReconCIResult\n\n
+    (final MboSet ms)\n
     '''

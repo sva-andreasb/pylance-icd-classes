@@ -1,7 +1,9 @@
-def StrictContentLengthStrategy():
-    '''public StrictContentLengthStrategy(final int implicitLen)
-    public StrictContentLengthStrategy()
+def ():
+    '''returns StrictContentLengthStrategy\n\n
+    (final int implicitLen)\n
+    ()\n
     '''
 def determineLength():
-    '''public long determineLength(final HttpMessage message)
+    '''returns long\n\n
+    determineLength(final HttpMessage message)\n
     '''

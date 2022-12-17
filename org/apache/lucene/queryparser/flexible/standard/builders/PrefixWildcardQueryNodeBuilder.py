@@ -1,3 +1,4 @@
 def build():
-    '''public PrefixQuery build(final QueryNode queryNode)
+    '''returns PrefixQuery\n\n
+    build(final QueryNode queryNode)\n
     '''

@@ -1,29 +1,35 @@
 ELEMENT_NAME = "String  \"occupants-info\""
 NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
-def OccupantsInfo():
-    '''public OccupantsInfo(final String roomID)
+def ():
+    '''returns OccupantInfo\n\n
+    (final String roomID)\n
+    (final String jid, final String nickname, final Date joined)\n
     '''
 def getRoomID():
-    '''public String getRoomID()
+    '''returns String\n\n
+    getRoomID()\n
     '''
 def getOccupantsCount():
-    '''public int getOccupantsCount()
+    '''returns int\n\n
+    getOccupantsCount()\n
     '''
 def getOccupants():
-    '''public Set<OccupantInfo> getOccupants()
-    '''
-def OccupantInfo():
-    '''public OccupantInfo(final String jid, final String nickname, final Date joined)
+    '''returns Set<OccupantInfo>\n\n
+    getOccupants()\n
     '''
 def getJID():
-    '''public String getJID()
+    '''returns String\n\n
+    getJID()\n
     '''
 def getNickname():
-    '''public String getNickname()
+    '''returns String\n\n
+    getNickname()\n
     '''
 def getJoined():
-    '''public Date getJoined()
+    '''returns Date\n\n
+    getJoined()\n
     '''
 def parse():
-    '''public OccupantsInfo parse(final XmlPullParser parser, final int initialDepth)
+    '''returns OccupantsInfo\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

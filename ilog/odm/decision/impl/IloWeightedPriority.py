@@ -1,23 +1,27 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloWeightedPriority():
-    '''public IloWeightedPriority(final IloPriority priority, final double weight, final int idx)
-    public IloWeightedPriority(final IloPriority priority, final double weight)
+def ():
+    '''returns Comparator\n\n
+    (final IloPriority priority, final double weight, final int idx)\n
+    (final IloPriority priority, final double weight)\n
+    ()\n
     '''
 def getPriority():
-    '''public IloPriority getPriority()
+    '''returns IloPriority\n\n
+    getPriority()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def setIndex():
-    '''public void setIndex(final int v)
+    '''returns None\n\n
+    setIndex(final int v)\n
     '''
 def getWeight():
-    '''public double getWeight()
-    '''
-def Comparator():
-    '''public Comparator()
+    '''returns double\n\n
+    getWeight()\n
     '''
 def compare():
-    '''public int compare(final IloWeightedPriority wp0, final IloWeightedPriority wp1)
+    '''returns int\n\n
+    compare(final IloWeightedPriority wp0, final IloWeightedPriority wp1)\n
     '''

@@ -1,3 +1,4 @@
 def getState():
-    '''public String getState(final String methodName)
+    '''returns String\n\n
+    getState(final String methodName)\n
     '''

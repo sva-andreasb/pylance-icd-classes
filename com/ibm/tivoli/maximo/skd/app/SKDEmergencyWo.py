@@ -1,21 +1,24 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
-def SKDEmergencyWo():
-    '''public SKDEmergencyWo(final MboSet ms)
+def ():
+    '''returns SKDEmergencyWo\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setQueryValues():
-    '''public void setQueryValues(final String whereClause)
+    '''returns None\n\n
+    setQueryValues(final String whereClause)\n
     '''
 def saveQuickQueryQbe():
-    '''public void saveQuickQueryQbe(final Hashtable<String, String> savedQbeAttributes)
-    '''
-def getQuickQueryQbe():
-    '''public Hashtable<String, String> getQuickQueryQbe()
+    '''returns None\n\n
+    saveQuickQueryQbe(final Hashtable<String, String> savedQbeAttributes)\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''

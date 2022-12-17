@@ -1,40 +1,52 @@
-def IndexElement():
-    '''public IndexElement(final String name, final Namespace namespace)
-    public IndexElement(final String name)
-    public IndexElement(final String name, final String uri)
-    public IndexElement(final String name, final String prefix, final String uri)
-    public IndexElement(final String tbname, final String ixname, final HashMap newIndex, final HashMap oldIndex)
+def ():
+    '''returns IndexElement\n\n
+    (final String name, final Namespace namespace)\n
+    (final String name)\n
+    (final String name, final String uri)\n
+    (final String name, final String prefix, final String uri)\n
+    (final String tbname, final String ixname, final HashMap newIndex, final HashMap oldIndex)\n
     '''
 def getIndexName():
-    '''public String getIndexName()
+    '''returns String\n\n
+    getIndexName()\n
     '''
 def getIndexAttributes():
-    '''public List getIndexAttributes()
+    '''returns List\n\n
+    getIndexAttributes()\n
     '''
 def getKeys():
-    '''public List getKeys()
+    '''returns List\n\n
+    getKeys()\n
     '''
 def getColNames():
-    '''public String[] getColNames()
+    '''returns String[]\n\n
+    getColNames()\n
     '''
 def getAddSql():
-    '''public ArrayList getAddSql(final String tbname, final String ixname, final Connection con, final Util util, HashMap oldIndex)
+    '''returns ArrayList\n\n
+    getAddSql(final String tbname, final String ixname, final Connection con, final Util util, HashMap oldIndex)\n
     '''
 def getDropSql():
-    '''public ArrayList getDropSql(final String tbname, final String ixname, final Connection con, final Util util, final HashMap oldIndex)
+    '''returns ArrayList\n\n
+    getDropSql(final String tbname, final String ixname, final Connection con, final Util util, final HashMap oldIndex)\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def getNewChanged():
-    '''public String getNewChanged()
+    '''returns String\n\n
+    getNewChanged()\n
     '''
 def setNewChanged():
-    '''public void setNewChanged(final String in)
+    '''returns None\n\n
+    setNewChanged(final String in)\n
     '''
 def getSequenceName():
-    '''public String getSequenceName(final String table, final String column)
+    '''returns String\n\n
+    getSequenceName(final String table, final String column)\n
     '''
 def toHashmap():
-    '''public HashMap toHashmap(final HashMap oldMap)
+    '''returns HashMap\n\n
+    toHashmap(final HashMap oldMap)\n
     '''

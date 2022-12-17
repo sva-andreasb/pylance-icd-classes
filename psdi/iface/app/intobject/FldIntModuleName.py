@@ -1,3 +1,4 @@
-def FldIntModuleName():
-    '''public FldIntModuleName(final MboValue mbv)
+def ():
+    '''returns FldIntModuleName\n\n
+    (final MboValue mbv)\n
     '''

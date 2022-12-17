@@ -1,44 +1,58 @@
-def PolynomialFunction():
-    '''public PolynomialFunction(final double[] c)
+def ():
+    '''returns PolynomialFunction\n\n
+    (final double[] c)\n
     '''
 def value():
-    '''public double value(final double x)
-    public DerivativeStructure value(final DerivativeStructure t)
-    public double value(final double x, final double... parameters)
+    '''returns double\n\n
+    value(final double x)\n
+    value(final DerivativeStructure t)\n
+    value(final double x, final double... parameters)\n
     '''
 def degree():
-    '''public int degree()
+    '''returns int\n\n
+    degree()\n
     '''
 def getCoefficients():
-    '''public double[] getCoefficients()
+    '''returns double[]\n\n
+    getCoefficients()\n
     '''
 def add():
-    '''public PolynomialFunction add(final PolynomialFunction p)
+    '''returns PolynomialFunction\n\n
+    add(final PolynomialFunction p)\n
     '''
 def subtract():
-    '''public PolynomialFunction subtract(final PolynomialFunction p)
+    '''returns PolynomialFunction\n\n
+    subtract(final PolynomialFunction p)\n
     '''
 def negate():
-    '''public PolynomialFunction negate()
+    '''returns PolynomialFunction\n\n
+    negate()\n
     '''
 def multiply():
-    '''public PolynomialFunction multiply(final PolynomialFunction p)
+    '''returns PolynomialFunction\n\n
+    multiply(final PolynomialFunction p)\n
     '''
 def polynomialDerivative():
-    '''public PolynomialFunction polynomialDerivative()
+    '''returns PolynomialFunction\n\n
+    polynomialDerivative()\n
     '''
 def derivative():
-    '''public UnivariateFunction derivative()
+    '''returns UnivariateFunction\n\n
+    derivative()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def gradient():
-    '''public double[] gradient(final double x, final double... parameters)
+    '''returns double[]\n\n
+    gradient(final double x, final double... parameters)\n
     '''

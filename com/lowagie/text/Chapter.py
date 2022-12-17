@@ -1,11 +1,10 @@
-def Chapter():
-    '''public Chapter(final Paragraph title, final int number)
-    public Chapter(final String title, final int number)
-    public Chapter(final Properties attributes, final int number)
+def ():
+    '''returns Chapter\n\n
+    (final Paragraph title, final int number)\n
+    (final String title, final int number)\n
+    (final Properties attributes, final int number)\n
     '''
 def type():
-    '''public int type()
-    '''
-def isTag():
-    '''public static boolean isTag(final String tag)
+    '''returns int\n\n
+    type()\n
     '''

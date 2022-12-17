@@ -1,9 +1,12 @@
-def DefaultAndCondition():
-    '''public DefaultAndCondition(final Condition c1, final Condition c2)
+def ():
+    '''returns DefaultAndCondition\n\n
+    (final Condition c1, final Condition c2)\n
     '''
 def getConditionType():
-    '''public short getConditionType()
+    '''returns short\n\n
+    getConditionType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

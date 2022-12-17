@@ -1,34 +1,45 @@
-def IlvTimeScrollAction():
-    '''public IlvTimeScrollAction(final IlvTimeScrollable ilvTimeScrollable, final int n, final String s, final KeyStroke keyStroke, final String s2, final String s3)
-    public IlvTimeScrollAction(final IlvTimeScrollable c, final int d, final String s, final Icon icon, final KeyStroke keyStroke, final String s2, final String s3)
+def ():
+    '''returns IlvTimeScrollAction\n\n
+    (final IlvTimeScrollable ilvTimeScrollable, final int n, final String s, final KeyStroke keyStroke, final String s2, final String s3)\n
+    (final IlvTimeScrollable c, final int d, final String s, final Icon icon, final KeyStroke keyStroke, final String s2, final String s3)\n
     '''
 def visibleDurationChanged():
-    '''public void visibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)
+    '''returns None\n\n
+    visibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)\n
     '''
 def visibleTimeChanged():
-    '''public void visibleTimeChanged(final VisibleTimeChangedEvent visibleTimeChangedEvent)
+    '''returns None\n\n
+    visibleTimeChanged(final VisibleTimeChangedEvent visibleTimeChangedEvent)\n
     '''
 def minVisibleTimeChanged():
-    '''public void minVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)
+    '''returns None\n\n
+    minVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)\n
     '''
 def maxVisibleTimeChanged():
-    '''public void maxVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)
+    '''returns None\n\n
+    maxVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)\n
     '''
 def minVisibleDurationChanged():
-    '''public void minVisibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)
+    '''returns None\n\n
+    minVisibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)\n
     '''
 def getDirection():
-    '''public int getDirection()
+    '''returns int\n\n
+    getDirection()\n
     '''
 def getScrollFactor():
-    '''public double getScrollFactor()
+    '''returns double\n\n
+    getScrollFactor()\n
     '''
 def setScrollFactor():
-    '''public void setScrollFactor(final double e)
+    '''returns None\n\n
+    setScrollFactor(final double e)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def removeFromTimeScrollable():
-    '''public void removeFromTimeScrollable()
+    '''returns None\n\n
+    removeFromTimeScrollable()\n
     '''

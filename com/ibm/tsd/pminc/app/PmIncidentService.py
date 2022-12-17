@@ -1,4 +1,5 @@
-def PmIncidentService():
-    '''public PmIncidentService()
-    public PmIncidentService(final MXServer mxServer)
+def ():
+    '''returns PmIncidentService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

@@ -1,6 +1,8 @@
-def TargetCellRenderer():
-    '''public TargetCellRenderer()
+def ():
+    '''returns TargetCellRenderer\n\n
+    ()\n
     '''
 def getListCellRendererComponent():
-    '''public Component getListCellRendererComponent(final JList list, final Object value, final int index, final boolean isSelected, final boolean cellHasFocus)
+    '''returns Component\n\n
+    getListCellRendererComponent(final JList list, final Object value, final int index, final boolean isSelected, final boolean cellHasFocus)\n
     '''

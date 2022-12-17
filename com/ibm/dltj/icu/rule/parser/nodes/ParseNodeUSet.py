@@ -1,18 +1,20 @@
-def getCopyright():
-    '''public static String getCopyright()
-    '''
 def setInputSet():
-    '''public void setInputSet(final UnicodeSet inputSet)
+    '''returns None\n\n
+    setInputSet(final UnicodeSet inputSet)\n
     '''
 def getInputSet():
-    '''public UnicodeSet getInputSet()
+    '''returns UnicodeSet\n\n
+    getInputSet()\n
     '''
 def flatten():
-    '''public void flatten(final StringBuffer sb)
+    '''returns None\n\n
+    flatten(final StringBuffer sb)\n
     '''
 def getStatementName():
-    '''public String getStatementName()
+    '''returns String\n\n
+    getStatementName()\n
     '''
 def isType():
-    '''public boolean isType(final int n)
+    '''returns boolean\n\n
+    isType(final int n)\n
     '''

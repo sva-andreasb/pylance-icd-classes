@@ -1,47 +1,62 @@
 sid = "short  516"
-def LabelRecord():
-    '''public LabelRecord()
-    public LabelRecord(final RecordInputStream in)
+def ():
+    '''returns LabelRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def getRow():
-    '''public int getRow()
+    '''returns int\n\n
+    getRow()\n
     '''
 def getColumn():
-    '''public short getColumn()
+    '''returns short\n\n
+    getColumn()\n
     '''
 def getXFIndex():
-    '''public short getXFIndex()
+    '''returns short\n\n
+    getXFIndex()\n
     '''
 def getStringLength():
-    '''public short getStringLength()
+    '''returns short\n\n
+    getStringLength()\n
     '''
 def isUnCompressedUnicode():
-    '''public boolean isUnCompressedUnicode()
+    '''returns boolean\n\n
+    isUnCompressedUnicode()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def serialize():
-    '''public int serialize(final int offset, final byte[] data)
+    '''returns int\n\n
+    serialize(final int offset, final byte[] data)\n
     '''
 def getRecordSize():
-    '''public int getRecordSize()
+    '''returns int\n\n
+    getRecordSize()\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setColumn():
-    '''public void setColumn(final short col)
+    '''returns None\n\n
+    setColumn(final short col)\n
     '''
 def setRow():
-    '''public void setRow(final int row)
+    '''returns None\n\n
+    setRow(final int row)\n
     '''
 def setXFIndex():
-    '''public void setXFIndex(final short xf)
+    '''returns None\n\n
+    setXFIndex(final short xf)\n
     '''
 def clone():
-    '''public LabelRecord clone()
+    '''returns LabelRecord\n\n
+    clone()\n
     '''

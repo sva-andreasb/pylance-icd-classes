@@ -1,12 +1,16 @@
-def PlusPFldCustAssocCustomer():
-    '''public PlusPFldCustAssocCustomer(final MboValue mboValue)
+def ():
+    '''returns PlusPFldCustAssocCustomer\n\n
+    (final MboValue mboValue)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

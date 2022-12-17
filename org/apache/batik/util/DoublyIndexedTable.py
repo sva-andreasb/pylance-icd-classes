@@ -1,48 +1,57 @@
-def DoublyIndexedTable():
-    '''public DoublyIndexedTable()
-    public DoublyIndexedTable(final int c)
-    public DoublyIndexedTable(final DoublyIndexedTable other)
+def ():
+    '''returns TableIterator\n\n
+    ()\n
+    (final int c)\n
+    (final DoublyIndexedTable other)\n
+    (final int hash, final Object key1, final Object key2, final Object value, final Entry next)\n
+    ()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def put():
-    '''public Object put(final Object o1, final Object o2, final Object value)
+    '''returns Object\n\n
+    put(final Object o1, final Object o2, final Object value)\n
     '''
 def get():
-    '''public Object get(final Object o1, final Object o2)
+    '''returns Object\n\n
+    get(final Object o1, final Object o2)\n
     '''
 def remove():
-    '''public Object remove(final Object o1, final Object o2)
-    public void remove()
+    '''returns None\n\n
+    remove(final Object o1, final Object o2)\n
+    remove()\n
     '''
 def getValuesArray():
-    '''public Object[] getValuesArray()
+    '''returns Object[]\n\n
+    getValuesArray()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def iterator():
-    '''public Iterator iterator()
-    '''
-def Entry():
-    '''public Entry(final int hash, final Object key1, final Object key2, final Object value, final Entry next)
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def getKey1():
-    '''public Object getKey1()
+    '''returns Object\n\n
+    getKey1()\n
     '''
 def getKey2():
-    '''public Object getKey2()
+    '''returns Object\n\n
+    getKey2()\n
     '''
 def getValue():
-    '''public Object getValue()
-    '''
-def TableIterator():
-    '''public TableIterator()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''

@@ -1,6 +1,8 @@
-def AppLinkCellRenderer():
-    '''public AppLinkCellRenderer()
+def ():
+    '''returns AppLinkCellRenderer\n\n
+    ()\n
     '''
 def getTableCellRendererComponent():
-    '''public Component getTableCellRendererComponent(final JTable table, final Object value, final boolean isSelected, final boolean hasFocus, final int row, final int column)
+    '''returns Component\n\n
+    getTableCellRendererComponent(final JTable table, final Object value, final boolean isSelected, final boolean hasFocus, final int row, final int column)\n
     '''

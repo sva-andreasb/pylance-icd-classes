@@ -1,8 +1,10 @@
 ID_ALREADY_USED = "String  \"Dashboard.Exception.IDAlreadyUsed\""
-def IlvDashboardException():
-    '''public IlvDashboardException(final String s)
-    public IlvDashboardException(final String s, final Exception cause)
+def ():
+    '''returns IlvDashboardException\n\n
+    (final String s)\n
+    (final String s, final Exception cause)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''

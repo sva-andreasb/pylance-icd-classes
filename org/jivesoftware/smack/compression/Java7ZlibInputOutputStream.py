@@ -1,18 +1,24 @@
-def Java7ZlibInputOutputStream():
-    '''public Java7ZlibInputOutputStream()
+def ():
+    '''returns Java7ZlibInputOutputStream\n\n
+    ()\n
     '''
 def isSupported():
-    '''public boolean isSupported()
+    '''returns boolean\n\n
+    isSupported()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream(final InputStream inputStream)
+    '''returns InputStream\n\n
+    getInputStream(final InputStream inputStream)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream(final OutputStream outputStream)
+    '''returns OutputStream\n\n
+    getOutputStream(final OutputStream outputStream)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''

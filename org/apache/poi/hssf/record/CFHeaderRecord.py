@@ -1,12 +1,15 @@
 sid = "short  432"
-def CFHeaderRecord():
-    '''public CFHeaderRecord()
-    public CFHeaderRecord(final CellRangeAddress[] regions, final int nRules)
-    public CFHeaderRecord(final RecordInputStream in)
+def ():
+    '''returns CFHeaderRecord\n\n
+    ()\n
+    (final CellRangeAddress[] regions, final int nRules)\n
+    (final RecordInputStream in)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public CFHeaderRecord clone()
+    '''returns CFHeaderRecord\n\n
+    clone()\n
     '''

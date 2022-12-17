@@ -1,3 +1,4 @@
 def translate():
-    '''public int translate(final CharSequence input, final int index, final Writer out)
+    '''returns int\n\n
+    translate(final CharSequence input, final int index, final Writer out)\n
     '''

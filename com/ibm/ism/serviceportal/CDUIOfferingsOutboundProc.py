@@ -1,18 +1,24 @@
-def CDUIOfferingsOutboundProc():
-    '''public CDUIOfferingsOutboundProc()
+def ():
+    '''returns CDUIOfferingsOutboundProc\n\n
+    ()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''returns int\n\n
+    checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)\n
     '''
 def search():
-    '''public void search(final MboSetRemote mboSet, final String text, final String status, final String presentationtype)
+    '''returns None\n\n
+    search(final MboSetRemote mboSet, final String text, final String status, final String presentationtype)\n
     '''
 def recentlyAddedOfferings():
-    '''public void recentlyAddedOfferings(final MboSetRemote mboSet, final int dateOffset)
+    '''returns None\n\n
+    recentlyAddedOfferings(final MboSetRemote mboSet, final int dateOffset)\n
     '''
 def previouslyRequestedOfferings():
-    '''public void previouslyRequestedOfferings(final MboSetRemote mboSet, final int dateOffset)
+    '''returns None\n\n
+    previouslyRequestedOfferings(final MboSetRemote mboSet, final int dateOffset)\n
     '''
 def frequentlyUsedOfferings():
-    '''public void frequentlyUsedOfferings(final MboSetRemote mboSet, final int dateOffset, int inLimit)
+    '''returns None\n\n
+    frequentlyUsedOfferings(final MboSetRemote mboSet, final int dateOffset, int inLimit)\n
     '''

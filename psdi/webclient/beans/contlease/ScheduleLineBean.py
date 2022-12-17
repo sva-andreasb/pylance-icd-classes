@@ -1,6 +1,8 @@
 def createinvoices():
-    '''public int createinvoices()
+    '''returns int\n\n
+    createinvoices()\n
     '''
 def selectasset():
-    '''public int selectasset()
+    '''returns int\n\n
+    selectasset()\n
     '''

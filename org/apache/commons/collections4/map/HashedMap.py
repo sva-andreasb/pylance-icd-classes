@@ -1,9 +1,7 @@
-def HashedMap():
-    '''public HashedMap()
-    public HashedMap(final int initialCapacity)
-    public HashedMap(final int initialCapacity, final float loadFactor)
-    public HashedMap(final Map<? extends K, ? extends V> map)
-    '''
-def clone():
-    '''public HashedMap<K, V> clone()
+def ():
+    '''returns HashedMap\n\n
+    ()\n
+    (final int initialCapacity)\n
+    (final int initialCapacity, final float loadFactor)\n
+    (final Map<? extends K, ? extends V> map)\n
     '''

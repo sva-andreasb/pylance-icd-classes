@@ -1,60 +1,80 @@
-def CreateReportRelationshipInfo():
-    '''public CreateReportRelationshipInfo()
+def ():
+    '''returns CreateReportRelationshipInfo\n\n
+    ()\n
     '''
 def getParentObjectID():
-    '''public int getParentObjectID()
+    '''returns int\n\n
+    getParentObjectID()\n
     '''
 def setParentObjectID():
-    '''public void setParentObjectID(final int parentObjectID)
+    '''returns None\n\n
+    setParentObjectID(final int parentObjectID)\n
     '''
 def getParentObjectName():
-    '''public String getParentObjectName()
+    '''returns String\n\n
+    getParentObjectName()\n
     '''
 def setParentObjectName():
-    '''public void setParentObjectName(final String mboName)
+    '''returns None\n\n
+    setParentObjectName(final String mboName)\n
     '''
 def getChildObjectID():
-    '''public int getChildObjectID()
+    '''returns int\n\n
+    getChildObjectID()\n
     '''
 def setChildObjectID():
-    '''public void setChildObjectID(final int childObjectID)
+    '''returns None\n\n
+    setChildObjectID(final int childObjectID)\n
     '''
 def getChildObjectName():
-    '''public String getChildObjectName()
+    '''returns String\n\n
+    getChildObjectName()\n
     '''
 def setChildObjectName():
-    '''public void setChildObjectName(final String mboName)
+    '''returns None\n\n
+    setChildObjectName(final String mboName)\n
     '''
 def getParentEntityName():
-    '''public String getParentEntityName()
+    '''returns String\n\n
+    getParentEntityName()\n
     '''
 def setParentEntityName():
-    '''public void setParentEntityName(final String entityName)
+    '''returns None\n\n
+    setParentEntityName(final String entityName)\n
     '''
 def getChildEntityName():
-    '''public String getChildEntityName()
+    '''returns String\n\n
+    getChildEntityName()\n
     '''
 def setChildEntityName():
-    '''public void setChildEntityName(final String entityName)
+    '''returns None\n\n
+    setChildEntityName(final String entityName)\n
     '''
 def getChildViewName():
-    '''public String getChildViewName()
+    '''returns String\n\n
+    getChildViewName()\n
     '''
 def setChildViewName():
-    '''public void setChildViewName(final String viewName)
+    '''returns None\n\n
+    setChildViewName(final String viewName)\n
     '''
 def getWhereClause():
-    '''public String getWhereClause()
+    '''returns String\n\n
+    getWhereClause()\n
     '''
 def setWhereClause():
-    '''public void setWhereClause(final String whereClause)
+    '''returns None\n\n
+    setWhereClause(final String whereClause)\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def setRequired():
-    '''public void setRequired(final boolean required)
+    '''returns None\n\n
+    setRequired(final boolean required)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

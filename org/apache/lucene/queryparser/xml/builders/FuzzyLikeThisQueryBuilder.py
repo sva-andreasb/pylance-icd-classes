@@ -1,6 +1,8 @@
-def FuzzyLikeThisQueryBuilder():
-    '''public FuzzyLikeThisQueryBuilder(final Analyzer analyzer)
+def ():
+    '''returns FuzzyLikeThisQueryBuilder\n\n
+    (final Analyzer analyzer)\n
     '''
 def getQuery():
-    '''public Query getQuery(final Element e)
+    '''returns Query\n\n
+    getQuery(final Element e)\n
     '''

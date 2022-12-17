@@ -1,31 +1,20 @@
-def TzOffsetFrom():
-    '''public TzOffsetFrom()
-    public TzOffsetFrom(final String aValue)
-    public TzOffsetFrom(final ParameterList aList, final String aValue)
-    public TzOffsetFrom(final UtcOffset anOffset)
-    public TzOffsetFrom(final ZoneOffset anOffset)
-    public TzOffsetFrom(final ParameterList aList, final UtcOffset anOffset)
-    public TzOffsetFrom(final ParameterList aList, final ZoneOffset anOffset)
-    '''
-def getOffset():
-    '''public final ZoneOffset getOffset()
-    '''
-def setValue():
-    '''public final void setValue(final String aValue)
-    '''
-def getValue():
-    '''public final String getValue()
-    '''
-def setOffset():
-    '''public final void setOffset(final ZoneOffset offset)
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final String aValue)\n
+    (final ParameterList aList, final String aValue)\n
+    (final UtcOffset anOffset)\n
+    (final ZoneOffset anOffset)\n
+    (final ParameterList aList, final UtcOffset anOffset)\n
+    (final ParameterList aList, final ZoneOffset anOffset)\n
+    ()\n
     '''
 def validate():
-    '''public void validate()
-    '''
-def Factory():
-    '''public Factory()
+    '''returns None\n\n
+    validate()\n
     '''
 def createProperty():
-    '''public Property createProperty(final ParameterList parameters, final String value)
-    public Property createProperty()
+    '''returns Property\n\n
+    createProperty(final ParameterList parameters, final String value)\n
+    createProperty()\n
     '''

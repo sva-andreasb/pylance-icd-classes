@@ -1,3 +1,4 @@
-def PmcfgReconCIResultSet():
-    '''public PmcfgReconCIResultSet(final MboServerInterface ms)
+def ():
+    '''returns PmcfgReconCIResultSet\n\n
+    (final MboServerInterface ms)\n
     '''

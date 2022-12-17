@@ -1,37 +1,29 @@
-def Method():
-    '''public Method(final Method c)
-    public Method(final int access_flags, final int name_index, final int signature_index, final Attribute[] attributes, final ConstantPool constant_pool)
+def ():
+    '''returns Method\n\n
+    (final Method c)\n
+    (final int access_flags, final int name_index, final int signature_index, final Attribute[] attributes, final ConstantPool constant_pool)\n
     '''
 def accept():
-    '''public void accept(final ClassVisitor v)
+    '''returns None\n\n
+    accept(final ClassVisitor v)\n
     '''
 def setAttributes():
-    '''public void setAttributes(final Attribute[] attributes)
-    '''
-def getCode():
-    '''public final Code getCode()
-    '''
-def getExceptionTable():
-    '''public final ExceptionTable getExceptionTable()
-    '''
-def getLocalVariableTable():
-    '''public final LocalVariableTable getLocalVariableTable()
-    '''
-def getLineNumberTable():
-    '''public final LineNumberTable getLineNumberTable()
-    '''
-def toString():
-    '''public final String toString()
+    '''returns None\n\n
+    setAttributes(final Attribute[] attributes)\n
     '''
 def getReturnType():
-    '''public Type getReturnType()
+    '''returns Type\n\n
+    getReturnType()\n
     '''
 def getArgumentTypes():
-    '''public Type[] getArgumentTypes()
+    '''returns Type[]\n\n
+    getArgumentTypes()\n
     '''
 def getAnnotationsOnParameter():
-    '''public AnnotationGen[] getAnnotationsOnParameter(final int i)
+    '''returns AnnotationGen[]\n\n
+    getAnnotationsOnParameter(final int i)\n
     '''
 def getParameterAnnotations():
-    '''public AnnotationGen[][] getParameterAnnotations()
+    '''returns AnnotationGen[][]\n\n
+    getParameterAnnotations()\n
     '''

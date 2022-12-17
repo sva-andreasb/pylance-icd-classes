@@ -1,12 +1,16 @@
-def PlusCFldDSOrgId():
-    '''public PlusCFldDSOrgId(final MboValue mbv)
+def ():
+    '''returns PlusCFldDSOrgId\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def buildListCriteria():
-    '''public String buildListCriteria()
+    '''returns String\n\n
+    buildListCriteria()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

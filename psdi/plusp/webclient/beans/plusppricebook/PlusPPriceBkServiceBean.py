@@ -1,9 +1,8 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def setQbe():
-    '''public void setQbe(final String s, final String expression)
-    '''
-def getQbe():
-    '''public synchronized String getQbe(final String s)
+    '''returns None\n\n
+    setQbe(final String s, final String expression)\n
     '''

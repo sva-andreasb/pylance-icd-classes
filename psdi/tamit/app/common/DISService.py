@@ -1,32 +1,38 @@
 PRODUCT_NAME = "String  \"ProductName\""
-def getDISService():
-    '''public static synchronized DISService getDISService(final UserInfo userInfo)
-    '''
 def shutDown():
-    '''public void shutDown()
+    '''returns None\n\n
+    shutDown()\n
     '''
 def getMSS():
-    '''public Guid getMSS(final String productName)
+    '''returns Guid\n\n
+    getMSS(final String productName)\n
     '''
 def registerByMbo():
-    '''public Guid registerByMbo(final MboRemote mbo, final boolean setValue)
-    public Guid registerByMbo(final MboRemote mbo, final boolean setValue, final UserInfo callersUserInfo)
+    '''returns Guid\n\n
+    registerByMbo(final MboRemote mbo, final boolean setValue)\n
+    registerByMbo(final MboRemote mbo, final boolean setValue, final UserInfo callersUserInfo)\n
     '''
 def registerByMboSet():
-    '''public Guid[] registerByMboSet(final MboSetRemote mbos, final boolean setValue)
+    '''returns Guid[]\n\n
+    registerByMboSet(final MboSetRemote mbos, final boolean setValue)\n
     '''
 def registerByCdm():
-    '''public Guid[] registerByCdm(final String productName, HashMap[] cdmAttributes)
+    '''returns Guid[]\n\n
+    registerByCdm(final String productName, HashMap[] cdmAttributes)\n
     '''
 def getAllClassesForMBO():
-    '''public List<String> getAllClassesForMBO(final String mboObjectName)
+    '''returns List<String>\n\n
+    getAllClassesForMBO(final String mboObjectName)\n
     '''
 def namingAttributeChanged():
-    '''public boolean namingAttributeChanged(final MboRemote mbo)
+    '''returns boolean\n\n
+    namingAttributeChanged(final MboRemote mbo)\n
     '''
 def cleanse():
-    '''public String cleanse(final String cdmObjectName, final String cdmAttributeName, final String value)
+    '''returns String\n\n
+    cleanse(final String cdmObjectName, final String cdmAttributeName, final String value)\n
     '''
 def hasVMID():
-    '''public boolean hasVMID(final MboRemote mbo)
+    '''returns boolean\n\n
+    hasVMID(final MboRemote mbo)\n
     '''

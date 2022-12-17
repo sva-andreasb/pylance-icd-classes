@@ -1,64 +1,79 @@
-def CacheProxyWriter():
-    '''public CacheProxyWriter()
-    public CacheProxyWriter(final Writer writer)
-    public CacheProxyWriter(final FragmentComposer fc)
-    public CacheProxyWriter(final Writer writer, final FragmentComposer fc)
+def ():
+    '''returns NullWriter\n\n
+    ()\n
+    (final Writer writer)\n
+    (final FragmentComposer fc)\n
+    (final Writer writer, final FragmentComposer fc)\n
+    ()\n
     '''
 def getWriter():
-    '''public Writer getWriter()
+    '''returns Writer\n\n
+    getWriter()\n
     '''
 def setWriter():
-    '''public void setWriter(final Writer writer)
+    '''returns None\n\n
+    setWriter(final Writer writer)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def resetBuffer():
-    '''public void resetBuffer()
+    '''returns None\n\n
+    resetBuffer()\n
     '''
 def setCaching():
-    '''public void setCaching(final boolean caching)
+    '''returns None\n\n
+    setCaching(final boolean caching)\n
     '''
 def isCaching():
-    '''public boolean isCaching()
+    '''returns boolean\n\n
+    isCaching()\n
     '''
 def getCachedData():
-    '''public char[] getCachedData()
+    '''returns char[]\n\n
+    getCachedData()\n
     '''
 def setDelayWrite():
-    '''public void setDelayWrite(final boolean flag, final boolean pdcv)
+    '''returns None\n\n
+    setDelayWrite(final boolean flag, final boolean pdcv)\n
     '''
 def flush():
-    '''public void flush()
-    public void flush()
+    '''returns None\n\n
+    flush()\n
+    flush()\n
     '''
 def close():
-    '''public void close()
-    public void close()
+    '''returns None\n\n
+    close()\n
+    close()\n
     '''
 def checkError():
-    '''public boolean checkError()
+    '''returns boolean\n\n
+    checkError()\n
     '''
 def write():
-    '''public void write(final int c)
-    public void write(final char[] buf, final int off, final int len)
-    public void write(final char[] buf)
-    public void write(final String s, final int off, final int len)
-    public void write(final String s)
-    public void write(final char[] c, final int i, final int j)
+    '''returns None\n\n
+    write(final int c)\n
+    write(final char[] buf, final int off, final int len)\n
+    write(final char[] buf)\n
+    write(final String s, final int off, final int len)\n
+    write(final String s)\n
+    write(final char[] c, final int i, final int j)\n
     '''
 def println():
-    '''public void println()
+    '''returns None\n\n
+    println()\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''
 def getArdListener():
-    '''public ARDIncludeListener getArdListener()
+    '''returns ARDIncludeListener\n\n
+    getArdListener()\n
     '''
 def initListener():
-    '''public void initListener(final FragmentComposer fc)
-    '''
-def NullWriter():
-    '''public NullWriter()
+    '''returns None\n\n
+    initListener(final FragmentComposer fc)\n
     '''

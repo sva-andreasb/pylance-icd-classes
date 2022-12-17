@@ -1,9 +1,12 @@
 def selectitemsagreeswitems():
-    '''public int selectitemsagreeswitems()
+    '''returns int\n\n
+    selectitemsagreeswitems()\n
     '''
 def selectassetsagreeswitems():
-    '''public int selectassetsagreeswitems()
+    '''returns int\n\n
+    selectassetsagreeswitems()\n
     '''
 def disableSelectAssetsButton():
-    '''public void disableSelectAssetsButton(final boolean disabled)
+    '''returns None\n\n
+    disableSelectAssetsButton(final boolean disabled)\n
     '''

@@ -1,4 +1,5 @@
-def ReconCompRuleService():
-    '''public ReconCompRuleService()
-    public ReconCompRuleService(final MXServer mxServer)
+def ():
+    '''returns ReconCompRuleService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

@@ -1,45 +1,60 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getDataType():
-    '''public String getDataType()
+    '''returns String\n\n
+    getDataType()\n
     '''
 def setDataType():
-    '''public void setDataType(final String dataType)
+    '''returns None\n\n
+    setDataType(final String dataType)\n
     '''
 def getDatabase():
-    '''public String getDatabase()
+    '''returns String\n\n
+    getDatabase()\n
     '''
 def setDatabase():
-    '''public void setDatabase(final String database)
+    '''returns None\n\n
+    setDatabase(final String database)\n
     '''
 def getColumnOverride():
-    '''public XMLColumnOverride getColumnOverride()
+    '''returns XMLColumnOverride\n\n
+    getColumnOverride()\n
     '''
 def setColumnOverride():
-    '''public void setColumnOverride(final XMLColumnOverride columnOverride)
+    '''returns None\n\n
+    setColumnOverride(final XMLColumnOverride columnOverride)\n
     '''
 def getValue():
-    '''public XMLValue getValue()
+    '''returns XMLValue\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final XMLValue value)
+    '''returns None\n\n
+    setValue(final XMLValue value)\n
     '''
 def getOriginalValue():
-    '''public String getOriginalValue()
+    '''returns String\n\n
+    getOriginalValue()\n
     '''
 def setOriginalValue():
-    '''public void setOriginalValue(final String originalValue)
+    '''returns None\n\n
+    setOriginalValue(final String originalValue)\n
     '''
 def getDatabaseValue():
-    '''public Object getDatabaseValue()
+    '''returns Object\n\n
+    getDatabaseValue()\n
     '''
 def setDatabaseValue():
-    '''public void setDatabaseValue(final Object databaseValue)
+    '''returns None\n\n
+    setDatabaseValue(final Object databaseValue)\n
     '''

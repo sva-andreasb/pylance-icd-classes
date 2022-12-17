@@ -1,9 +1,12 @@
-def PlusPReceiptInput():
-    '''public PlusPReceiptInput(final MboSet arg0)
+def ():
+    '''returns PlusPReceiptInput\n\n
+    (final MboSet arg0)\n
     '''
 def createReceipt():
-    '''public MboRemote createReceipt(final MboSetRemote targetSet)
+    '''returns MboRemote\n\n
+    createReceipt(final MboSetRemote targetSet)\n
     '''
 def createReturnReceipt():
-    '''public MboRemote createReturnReceipt(final MboSetRemote targetSet)
+    '''returns MboRemote\n\n
+    createReturnReceipt(final MboSetRemote targetSet)\n
     '''

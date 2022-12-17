@@ -1,18 +1,24 @@
-def ConnectionStateEventData():
-    '''public ConnectionStateEventData(final ASN1Object asn1Object)
+def ():
+    '''returns ConnectionStateEventData\n\n
+    (final ASN1Object asn1Object)\n
     '''
 def getConnectiondn():
-    '''public String getConnectiondn()
+    '''returns String\n\n
+    getConnectiondn()\n
     '''
 def getNewFlags():
-    '''public int getNewFlags()
+    '''returns int\n\n
+    getNewFlags()\n
     '''
 def getOldFlags():
-    '''public int getOldFlags()
+    '''returns int\n\n
+    getOldFlags()\n
     '''
 def getSourceModule():
-    '''public String getSourceModule()
+    '''returns String\n\n
+    getSourceModule()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

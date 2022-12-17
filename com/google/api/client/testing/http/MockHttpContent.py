@@ -1,27 +1,32 @@
-def MockHttpContent():
-    '''public MockHttpContent()
+def ():
+    '''returns MockHttpContent\n\n
+    ()\n
     '''
 def getLength():
-    '''public long getLength()
+    '''returns long\n\n
+    getLength()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def retrySupported():
-    '''public boolean retrySupported()
-    '''
-def getContent():
-    '''public final byte[] getContent()
+    '''returns boolean\n\n
+    retrySupported()\n
     '''
 def setContent():
-    '''public MockHttpContent setContent(final byte[] content)
+    '''returns MockHttpContent\n\n
+    setContent(final byte[] content)\n
     '''
 def setLength():
-    '''public MockHttpContent setLength(final long length)
+    '''returns MockHttpContent\n\n
+    setLength(final long length)\n
     '''
 def setType():
-    '''public MockHttpContent setType(final String type)
+    '''returns MockHttpContent\n\n
+    setType(final String type)\n
     '''

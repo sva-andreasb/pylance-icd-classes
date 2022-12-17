@@ -1,6 +1,8 @@
-def FldActionGrpSequence():
-    '''public FldActionGrpSequence(final MboValue mbv)
+def ():
+    '''returns FldActionGrpSequence\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

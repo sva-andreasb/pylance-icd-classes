@@ -1,3 +1,4 @@
 def filterworkorder():
-    '''public int filterworkorder()
+    '''returns int\n\n
+    filterworkorder()\n
     '''

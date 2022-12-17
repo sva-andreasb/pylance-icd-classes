@@ -1,258 +1,343 @@
-def PlusCDSTO():
-    '''public PlusCDSTO()
+def ():
+    '''returns PlusCDSTO\n\n
+    ()\n
     '''
 def setValue():
-    '''public void setValue(final String key, final Object object)
-    public void setValue(final String keyName, final Object object, final boolean markField)
-    public void setValue(final String key, final Object object, final long validationFlag)
-    public void setValue(final String keyName, final Object object, final long validationFlag, final boolean markField)
+    '''returns None\n\n
+    setValue(final String key, final Object object)\n
+    setValue(final String keyName, final Object object, final boolean markField)\n
+    setValue(final String key, final Object object, final long validationFlag)\n
+    setValue(final String keyName, final Object object, final long validationFlag, final boolean markField)\n
     '''
 def getBoolean():
-    '''public Boolean getBoolean(final String key)
+    '''returns Boolean\n\n
+    getBoolean(final String key)\n
     '''
 def getCHANGEBY():
-    '''public String getCHANGEBY()
+    '''returns String\n\n
+    getCHANGEBY()\n
     '''
 def getCHANGEDATE():
-    '''public Date getCHANGEDATE()
+    '''returns Date\n\n
+    getCHANGEDATE()\n
     '''
 def getChangedFields():
-    '''public Set getChangedFields()
+    '''returns Set\n\n
+    getChangedFields()\n
     '''
 def getDate():
-    '''public Date getDate(final String key)
+    '''returns Date\n\n
+    getDate(final String key)\n
     '''
 def getDESCRIPTION():
-    '''public String getDESCRIPTION()
+    '''returns String\n\n
+    getDESCRIPTION()\n
     '''
 def getDESCRIPTION_LONGDESCRIPTION():
-    '''public String getDESCRIPTION_LONGDESCRIPTION()
+    '''returns String\n\n
+    getDESCRIPTION_LONGDESCRIPTION()\n
     '''
 def getDS1():
-    '''public String getDS1()
+    '''returns String\n\n
+    getDS1()\n
     '''
 def getDS10():
-    '''public String getDS10()
+    '''returns String\n\n
+    getDS10()\n
     '''
 def getDS2():
-    '''public String getDS2()
+    '''returns String\n\n
+    getDS2()\n
     '''
 def getDS3():
-    '''public String getDS3()
+    '''returns String\n\n
+    getDS3()\n
     '''
 def getDS4():
-    '''public String getDS4()
+    '''returns String\n\n
+    getDS4()\n
     '''
 def getDS5():
-    '''public String getDS5()
+    '''returns String\n\n
+    getDS5()\n
     '''
 def getDS6():
-    '''public String getDS6()
+    '''returns String\n\n
+    getDS6()\n
     '''
 def getDS7():
-    '''public String getDS7()
+    '''returns String\n\n
+    getDS7()\n
     '''
 def getDS8():
-    '''public String getDS8()
+    '''returns String\n\n
+    getDS8()\n
     '''
 def getDS9():
-    '''public String getDS9()
+    '''returns String\n\n
+    getDS9()\n
     '''
 def getDSPLANNUM():
-    '''public String getDSPLANNUM()
+    '''returns String\n\n
+    getDSPLANNUM()\n
     '''
 def getHASLD():
-    '''public Boolean getHASLD()
+    '''returns Boolean\n\n
+    getHASLD()\n
     '''
 def getHISTORYFLAG():
-    '''public Boolean getHISTORYFLAG()
+    '''returns Boolean\n\n
+    getHISTORYFLAG()\n
     '''
 def getInt():
-    '''public Integer getInt(final String key)
+    '''returns Integer\n\n
+    getInt(final String key)\n
     '''
 def getLANGCODE():
-    '''public String getLANGCODE()
+    '''returns String\n\n
+    getLANGCODE()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getLong():
-    '''public Long getLong(final String key)
+    '''returns Long\n\n
+    getLong(final String key)\n
     '''
 def getNP_STATUSMEMO():
-    '''public String getNP_STATUSMEMO()
+    '''returns String\n\n
+    getNP_STATUSMEMO()\n
     '''
 def getObject():
-    '''public Object getObject(final String key)
+    '''returns Object\n\n
+    getObject(final String key)\n
     '''
 def getORGID():
-    '''public String getORGID()
+    '''returns String\n\n
+    getORGID()\n
     '''
 def getPlusCDSInstrTO():
-    '''public PlusCDSInstrTO getPlusCDSInstrTO()
+    '''returns PlusCDSInstrTO\n\n
+    getPlusCDSInstrTO()\n
     '''
 def getPlusCDSPointTO():
-    '''public PlusCDSPointTO getPlusCDSPointTO()
+    '''returns PlusCDSPointTO\n\n
+    getPlusCDSPointTO()\n
     '''
 def getPlusCDSTO():
-    '''public PlusCDSTO getPlusCDSTO()
+    '''returns PlusCDSTO\n\n
+    getPlusCDSTO()\n
     '''
 def getREVCOMMENTS():
-    '''public String getREVCOMMENTS()
+    '''returns String\n\n
+    getREVCOMMENTS()\n
     '''
 def getREVCOMMENTS_LONGDESCRIPTION():
-    '''public String getREVCOMMENTS_LONGDESCRIPTION()
+    '''returns String\n\n
+    getREVCOMMENTS_LONGDESCRIPTION()\n
     '''
 def getREVISIONNUM():
-    '''public Integer getREVISIONNUM()
+    '''returns Integer\n\n
+    getREVISIONNUM()\n
     '''
 def getSITEID():
-    '''public String getSITEID()
+    '''returns String\n\n
+    getSITEID()\n
     '''
 def getSTATUS():
-    '''public String getSTATUS()
+    '''returns String\n\n
+    getSTATUS()\n
     '''
 def getSTATUSDATE():
-    '''public Date getSTATUSDATE()
+    '''returns Date\n\n
+    getSTATUSDATE()\n
     '''
 def getString():
-    '''public String getString(final String key)
+    '''returns String\n\n
+    getString(final String key)\n
     '''
 def getTOSITEID():
-    '''public String getTOSITEID()
+    '''returns String\n\n
+    getTOSITEID()\n
     '''
 def getVIEWASLOOP():
-    '''public Boolean getVIEWASLOOP()
+    '''returns Boolean\n\n
+    getVIEWASLOOP()\n
     '''
 def isNull():
-    '''public boolean isNull(final String key)
+    '''returns boolean\n\n
+    isNull(final String key)\n
     '''
 def isRoundUpField():
-    '''public boolean isRoundUpField()
+    '''returns boolean\n\n
+    isRoundUpField()\n
     '''
 def setCHANGEBY():
-    '''public void setCHANGEBY(final String changeby)
+    '''returns None\n\n
+    setCHANGEBY(final String changeby)\n
     '''
 def setCHANGEDATE():
-    '''public void setCHANGEDATE(final Date changedate)
+    '''returns None\n\n
+    setCHANGEDATE(final Date changedate)\n
     '''
 def setDESCRIPTION():
-    '''public void setDESCRIPTION(final String description)
+    '''returns None\n\n
+    setDESCRIPTION(final String description)\n
     '''
 def setDESCRIPTION_LONGDESCRIPTION():
-    '''public void setDESCRIPTION_LONGDESCRIPTION(final String description_longdescription)
+    '''returns None\n\n
+    setDESCRIPTION_LONGDESCRIPTION(final String description_longdescription)\n
     '''
 def setDS1():
-    '''public void setDS1(final String ds1)
+    '''returns None\n\n
+    setDS1(final String ds1)\n
     '''
 def setDS10():
-    '''public void setDS10(final String ds10)
+    '''returns None\n\n
+    setDS10(final String ds10)\n
     '''
 def setDS2():
-    '''public void setDS2(final String ds2)
+    '''returns None\n\n
+    setDS2(final String ds2)\n
     '''
 def setDS3():
-    '''public void setDS3(final String ds3)
+    '''returns None\n\n
+    setDS3(final String ds3)\n
     '''
 def setDS4():
-    '''public void setDS4(final String ds4)
+    '''returns None\n\n
+    setDS4(final String ds4)\n
     '''
 def setDS5():
-    '''public void setDS5(final String ds5)
+    '''returns None\n\n
+    setDS5(final String ds5)\n
     '''
 def setDS6():
-    '''public void setDS6(final String ds6)
+    '''returns None\n\n
+    setDS6(final String ds6)\n
     '''
 def setDS7():
-    '''public void setDS7(final String ds7)
+    '''returns None\n\n
+    setDS7(final String ds7)\n
     '''
 def setDS8():
-    '''public void setDS8(final String ds8)
+    '''returns None\n\n
+    setDS8(final String ds8)\n
     '''
 def setDS9():
-    '''public void setDS9(final String ds9)
+    '''returns None\n\n
+    setDS9(final String ds9)\n
     '''
 def setDSPLANNUM():
-    '''public void setDSPLANNUM(final String dsplannum)
+    '''returns None\n\n
+    setDSPLANNUM(final String dsplannum)\n
     '''
 def setFieldName():
-    '''public void setFieldName(final String name)
+    '''returns None\n\n
+    setFieldName(final String name)\n
     '''
 def setHASLD():
-    '''public void setHASLD(final Boolean hasld)
+    '''returns None\n\n
+    setHASLD(final Boolean hasld)\n
     '''
 def setHISTORYFLAG():
-    '''public void setHISTORYFLAG(final Boolean historyflag)
+    '''returns None\n\n
+    setHISTORYFLAG(final Boolean historyflag)\n
     '''
 def setLANGCODE():
-    '''public void setLANGCODE(final String langcode)
+    '''returns None\n\n
+    setLANGCODE(final String langcode)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def setNP_STATUSMEMO():
-    '''public void setNP_STATUSMEMO(final String np_statusmemo)
+    '''returns None\n\n
+    setNP_STATUSMEMO(final String np_statusmemo)\n
     '''
 def setORGID():
-    '''public void setORGID(final String orgid)
+    '''returns None\n\n
+    setORGID(final String orgid)\n
     '''
 def setREVCOMMENTS():
-    '''public void setREVCOMMENTS(final String revcomments)
+    '''returns None\n\n
+    setREVCOMMENTS(final String revcomments)\n
     '''
 def setREVCOMMENTS_LONGDESCRIPTION():
-    '''public void setREVCOMMENTS_LONGDESCRIPTION(final String revcomments_longdescription)
+    '''returns None\n\n
+    setREVCOMMENTS_LONGDESCRIPTION(final String revcomments_longdescription)\n
     '''
 def setREVISIONNUM():
-    '''public void setREVISIONNUM(final Integer revisionnum)
+    '''returns None\n\n
+    setREVISIONNUM(final Integer revisionnum)\n
     '''
 def setSITEID():
-    '''public void setSITEID(final String siteid)
+    '''returns None\n\n
+    setSITEID(final String siteid)\n
     '''
 def setSTATUS():
-    '''public void setSTATUS(final String status)
+    '''returns None\n\n
+    setSTATUS(final String status)\n
     '''
 def setSTATUSDATE():
-    '''public void setSTATUSDATE(final Date statusdate)
+    '''returns None\n\n
+    setSTATUSDATE(final Date statusdate)\n
     '''
 def setTOSITEID():
-    '''public void setTOSITEID(final String tositeid)
+    '''returns None\n\n
+    setTOSITEID(final String tositeid)\n
     '''
 def setVIEWASLOOP():
-    '''public void setVIEWASLOOP(final Boolean viewasloop)
+    '''returns None\n\n
+    setVIEWASLOOP(final Boolean viewasloop)\n
     '''
 def setPlusCDSTO():
-    '''public void setPlusCDSTO(final PlusCDSTO plusCDSTO)
+    '''returns None\n\n
+    setPlusCDSTO(final PlusCDSTO plusCDSTO)\n
     '''
 def setPlusCDSInstTO():
-    '''public void setPlusCDSInstTO(final PlusCDSInstrTO plusCDSInstrTO)
+    '''returns None\n\n
+    setPlusCDSInstTO(final PlusCDSInstrTO plusCDSInstrTO)\n
     '''
 def setPlusCDSPointTO():
-    '''public void setPlusCDSPointTO(final PlusCDSPointTO plusCDSPointTO)
+    '''returns None\n\n
+    setPlusCDSPointTO(final PlusCDSPointTO plusCDSPointTO)\n
     '''
 def clearAllChangedFieldsSets():
-    '''public void clearAllChangedFieldsSets()
+    '''returns None\n\n
+    clearAllChangedFieldsSets()\n
     '''
 def setPlusCWODSTO():
-    '''public void setPlusCWODSTO(final PlusCWODSTO plusCWODSTO)
+    '''returns None\n\n
+    setPlusCWODSTO(final PlusCWODSTO plusCWODSTO)\n
     '''
 def getPlusCWODSTO():
-    '''public PlusCWODSTO getPlusCWODSTO()
+    '''returns PlusCWODSTO\n\n
+    getPlusCWODSTO()\n
     '''
 def setPlusCWODSInstrTO():
-    '''public void setPlusCWODSInstrTO(final PlusCWODSInstrTO plusCWODSInstrTO)
+    '''returns None\n\n
+    setPlusCWODSInstrTO(final PlusCWODSInstrTO plusCWODSInstrTO)\n
     '''
 def getPlusCWODSInstrTO():
-    '''public PlusCWODSInstrTO getPlusCWODSInstrTO()
+    '''returns PlusCWODSInstrTO\n\n
+    getPlusCWODSInstrTO()\n
     '''
 def setPlusCWODSPointTO():
-    '''public void setPlusCWODSPointTO(final PlusCWODSPointTO plusCWODSPointTO)
+    '''returns None\n\n
+    setPlusCWODSPointTO(final PlusCWODSPointTO plusCWODSPointTO)\n
     '''
 def getPlusCWODSPointTO():
-    '''public PlusCWODSPointTO getPlusCWODSPointTO()
+    '''returns PlusCWODSPointTO\n\n
+    getPlusCWODSPointTO()\n
     '''
 def getValidationFlag():
-    '''public long getValidationFlag(final String key)
+    '''returns long\n\n
+    getValidationFlag(final String key)\n
     '''
 def getNonPersistentFieldsName():
-    '''public Set getNonPersistentFieldsName()
+    '''returns Set\n\n
+    getNonPersistentFieldsName()\n
     '''

@@ -1,6 +1,8 @@
-def FldWPLicensePRNum():
-    '''public FldWPLicensePRNum(final MboValue mbv)
+def ():
+    '''returns FldWPLicensePRNum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

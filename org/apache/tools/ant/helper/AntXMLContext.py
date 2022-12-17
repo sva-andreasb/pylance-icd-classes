@@ -1,91 +1,121 @@
-def AntXMLContext():
-    '''public AntXMLContext(final Project project)
+def ():
+    '''returns AntXMLContext\n\n
+    (final Project project)\n
     '''
 def setBuildFile():
-    '''public void setBuildFile(final File buildFile)
-    public void setBuildFile(final URL buildFile)
+    '''returns None\n\n
+    setBuildFile(final File buildFile)\n
+    setBuildFile(final URL buildFile)\n
     '''
 def getBuildFile():
-    '''public File getBuildFile()
+    '''returns File\n\n
+    getBuildFile()\n
     '''
 def getBuildFileParent():
-    '''public File getBuildFileParent()
+    '''returns File\n\n
+    getBuildFileParent()\n
     '''
 def getBuildFileURL():
-    '''public URL getBuildFileURL()
+    '''returns URL\n\n
+    getBuildFileURL()\n
     '''
 def getBuildFileParentURL():
-    '''public URL getBuildFileParentURL()
+    '''returns URL\n\n
+    getBuildFileParentURL()\n
     '''
 def getProject():
-    '''public Project getProject()
+    '''returns Project\n\n
+    getProject()\n
     '''
 def getCurrentProjectName():
-    '''public String getCurrentProjectName()
+    '''returns String\n\n
+    getCurrentProjectName()\n
     '''
 def setCurrentProjectName():
-    '''public void setCurrentProjectName(final String name)
+    '''returns None\n\n
+    setCurrentProjectName(final String name)\n
     '''
 def currentWrapper():
-    '''public RuntimeConfigurable currentWrapper()
+    '''returns RuntimeConfigurable\n\n
+    currentWrapper()\n
     '''
 def parentWrapper():
-    '''public RuntimeConfigurable parentWrapper()
+    '''returns RuntimeConfigurable\n\n
+    parentWrapper()\n
     '''
 def pushWrapper():
-    '''public void pushWrapper(final RuntimeConfigurable wrapper)
+    '''returns None\n\n
+    pushWrapper(final RuntimeConfigurable wrapper)\n
     '''
 def popWrapper():
-    '''public void popWrapper()
+    '''returns None\n\n
+    popWrapper()\n
     '''
 def getWrapperStack():
-    '''public Vector getWrapperStack()
+    '''returns Vector\n\n
+    getWrapperStack()\n
     '''
 def addTarget():
-    '''public void addTarget(final Target target)
+    '''returns None\n\n
+    addTarget(final Target target)\n
     '''
 def getCurrentTarget():
-    '''public Target getCurrentTarget()
+    '''returns Target\n\n
+    getCurrentTarget()\n
     '''
 def getImplicitTarget():
-    '''public Target getImplicitTarget()
+    '''returns Target\n\n
+    getImplicitTarget()\n
     '''
 def setCurrentTarget():
-    '''public void setCurrentTarget(final Target target)
+    '''returns None\n\n
+    setCurrentTarget(final Target target)\n
     '''
 def setImplicitTarget():
-    '''public void setImplicitTarget(final Target target)
+    '''returns None\n\n
+    setImplicitTarget(final Target target)\n
     '''
 def getTargets():
-    '''public Vector getTargets()
+    '''returns Vector\n\n
+    getTargets()\n
     '''
 def configureId():
-    '''public void configureId(final Object element, final Attributes attr)
+    '''returns None\n\n
+    configureId(final Object element, final Attributes attr)\n
     '''
 def getLocator():
-    '''public Locator getLocator()
+    '''returns Locator\n\n
+    getLocator()\n
     '''
 def setLocator():
-    '''public void setLocator(final Locator locator)
+    '''returns None\n\n
+    setLocator(final Locator locator)\n
     '''
 def isIgnoringProjectTag():
-    '''public boolean isIgnoringProjectTag()
+    '''returns boolean\n\n
+    isIgnoringProjectTag()\n
     '''
 def setIgnoreProjectTag():
-    '''public void setIgnoreProjectTag(final boolean flag)
+    '''returns None\n\n
+    setIgnoreProjectTag(final boolean flag)\n
     '''
 def startPrefixMapping():
-    '''public void startPrefixMapping(final String prefix, final String uri)
+    '''returns None\n\n
+    startPrefixMapping(final String prefix, final String uri)\n
     '''
 def endPrefixMapping():
-    '''public void endPrefixMapping(final String prefix)
+    '''returns None\n\n
+    endPrefixMapping(final String prefix)\n
     '''
 def getPrefixMapping():
-    '''public String getPrefixMapping(final String prefix)
+    '''returns String\n\n
+    getPrefixMapping(final String prefix)\n
     '''
 def getCurrentTargets():
-    '''public Map getCurrentTargets()
+    '''returns Map\n\n
+    getCurrentTargets()\n
     '''
 def setCurrentTargets():
-    '''public void setCurrentTargets(final Map currentTargets)
+    '''returns None\n\n
+    setCurrentTargets(final Map currentTargets)\n
     '''

@@ -1,12 +1,16 @@
-def MaxDomValCondition():
-    '''public MaxDomValCondition(final MboSet ms)
+def ():
+    '''returns MaxDomValCondition\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def loadValueDesc():
-    '''public void loadValueDesc()
+    '''returns None\n\n
+    loadValueDesc()\n
     '''

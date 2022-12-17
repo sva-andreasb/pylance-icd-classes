@@ -1,5 +1,6 @@
-def InvalidCredentialsException():
-    '''public InvalidCredentialsException()
-    public InvalidCredentialsException(final String message)
-    public InvalidCredentialsException(final String message, final Throwable cause)
+def ():
+    '''returns InvalidCredentialsException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

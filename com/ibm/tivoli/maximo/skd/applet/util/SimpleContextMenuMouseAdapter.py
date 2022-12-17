@@ -1,13 +1,17 @@
-def SimpleContextMenuMouseAdapter():
-    '''public SimpleContextMenuMouseAdapter()
-    public SimpleContextMenuMouseAdapter(final JPopupMenu menu)
+def ():
+    '''returns SimpleContextMenuMouseAdapter\n\n
+    ()\n
+    (final JPopupMenu menu)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
     '''
 def setMenu():
-    '''public void setMenu(final JPopupMenu menu)
+    '''returns None\n\n
+    setMenu(final JPopupMenu menu)\n
     '''
 def getMenu():
-    '''public JPopupMenu getMenu(final MouseEvent e)
+    '''returns JPopupMenu\n\n
+    getMenu(final MouseEvent e)\n
     '''

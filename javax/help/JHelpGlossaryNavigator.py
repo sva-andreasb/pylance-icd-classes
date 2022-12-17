@@ -1,8 +1,10 @@
-def JHelpGlossaryNavigator():
-    '''public JHelpGlossaryNavigator(final NavigatorView navigatorView)
-    public JHelpGlossaryNavigator(final NavigatorView navigatorView, final HelpModel helpModel)
-    public JHelpGlossaryNavigator(final HelpSet set, final String s, final String s2)
+def ():
+    '''returns JHelpGlossaryNavigator\n\n
+    (final NavigatorView navigatorView)\n
+    (final NavigatorView navigatorView, final HelpModel helpModel)\n
+    (final HelpSet set, final String s, final String s2)\n
     '''
 def getUIClassID():
-    '''public String getUIClassID()
+    '''returns String\n\n
+    getUIClassID()\n
     '''

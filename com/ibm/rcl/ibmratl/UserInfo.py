@@ -1,21 +1,28 @@
-def UserInfo():
-    '''public UserInfo(final String szName, final String szHost, final String szKey, final String szTime, final String szDisplayName, final int iNumLicenses)
+def ():
+    '''returns UserInfo\n\n
+    (final String szName, final String szHost, final String szKey, final String szTime, final String szDisplayName, final int iNumLicenses)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getTime():
-    '''public String getTime()
+    '''returns String\n\n
+    getTime()\n
     '''
 def getNoOfLicenses():
-    '''public int getNoOfLicenses()
+    '''returns int\n\n
+    getNoOfLicenses()\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''

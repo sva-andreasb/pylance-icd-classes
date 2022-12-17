@@ -11,47 +11,52 @@ FILTER_HIDE_ALL_NOT_FOUND = "int  0"
 FILTER_HIDE_ALL_NOT_FOUND_ITERATE_ALL = "int  1"
 FILTER_SHOW_ALL_FOUND = "int  2"
 FILTER_SHOW_ALL_FOUND_WITH_CHILDREN = "int  3"
-def UIOptions():
-    '''public UIOptions(final Properties skdProps)
+def ():
+    '''returns Paging\n\n
+    (final Properties skdProps)\n
+    ()\n
+    (final String action2, final String label)\n
+    (final int childPartLength, final int childPartMin, final int ganttPaging, final boolean progressiveRendering)\n
     '''
 def canEdit():
-    '''public boolean canEdit(final String field)
+    '''returns boolean\n\n
+    canEdit(final String field)\n
     '''
 def setCanEdit():
-    '''public void setCanEdit(final String field)
+    '''returns None\n\n
+    setCanEdit(final String field)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String prop)
-    public String getProperty(final String prop, final String def)
+    '''returns String\n\n
+    getProperty(final String prop)\n
+    getProperty(final String prop, final String def)\n
     '''
 def getIntProperty():
-    '''public int getIntProperty(final String prop, final int defValue)
+    '''returns int\n\n
+    getIntProperty(final String prop, final int defValue)\n
     '''
 def getBooleanProperty():
-    '''public boolean getBooleanProperty(final String prop, final boolean defValue)
+    '''returns boolean\n\n
+    getBooleanProperty(final String prop, final boolean defValue)\n
     '''
 def addColumn():
-    '''public void addColumn(final TreeGridColumn col)
-    '''
-def ToolbarOptions():
-    '''public ToolbarOptions()
+    '''returns None\n\n
+    addColumn(final TreeGridColumn col)\n
     '''
 def addItem():
-    '''public ToolBarItem addItem(final String action, final String label)
-    public ToolBarItem addItem(final String action)
+    '''returns ToolBarItem\n\n
+    addItem(final String action, final String label)\n
+    addItem(final String action)\n
     '''
 def getItem():
-    '''public ToolBarItem getItem(final String item)
+    '''returns ToolBarItem\n\n
+    getItem(final String item)\n
     '''
 def hasItem():
-    '''public boolean hasItem(final String item)
-    '''
-def ToolBarItem():
-    '''public ToolBarItem(final String action2, final String label)
+    '''returns boolean\n\n
+    hasItem(final String item)\n
     '''
 def addPrintHeader():
-    '''public void addPrintHeader(final String printHeader)
-    '''
-def Paging():
-    '''public Paging(final int childPartLength, final int childPartMin, final int ganttPaging, final boolean progressiveRendering)
+    '''returns None\n\n
+    addPrintHeader(final String printHeader)\n
     '''

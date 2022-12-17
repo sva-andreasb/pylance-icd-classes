@@ -1,15 +1,20 @@
-def SurveyManagement():
-    '''public SurveyManagement(final MboSet ms)
+def ():
+    '''returns SurveyManagement\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def enableFields():
-    '''public void enableFields(final boolean enable)
+    '''returns None\n\n
+    enableFields(final boolean enable)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

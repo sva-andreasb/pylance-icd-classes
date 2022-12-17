@@ -30,79 +30,104 @@ OBJECT_TYPE_RESERVED7 = "short  27"
 OBJECT_TYPE_RESERVED8 = "short  28"
 OBJECT_TYPE_RESERVED9 = "short  29"
 OBJECT_TYPE_MICROSOFT_OFFICE_DRAWING = "short  30"
-def CommonObjectDataSubRecord():
-    '''public CommonObjectDataSubRecord()
-    public CommonObjectDataSubRecord(final LittleEndianInput in, final int size)
+def ():
+    '''returns CommonObjectDataSubRecord\n\n
+    ()\n
+    (final LittleEndianInput in, final int size)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public CommonObjectDataSubRecord clone()
+    '''returns CommonObjectDataSubRecord\n\n
+    clone()\n
     '''
 def getObjectType():
-    '''public short getObjectType()
+    '''returns short\n\n
+    getObjectType()\n
     '''
 def setObjectType():
-    '''public void setObjectType(final short field_1_objectType)
+    '''returns None\n\n
+    setObjectType(final short field_1_objectType)\n
     '''
 def getObjectId():
-    '''public int getObjectId()
+    '''returns int\n\n
+    getObjectId()\n
     '''
 def setObjectId():
-    '''public void setObjectId(final int field_2_objectId)
+    '''returns None\n\n
+    setObjectId(final int field_2_objectId)\n
     '''
 def getOption():
-    '''public short getOption()
+    '''returns short\n\n
+    getOption()\n
     '''
 def setOption():
-    '''public void setOption(final short field_3_option)
+    '''returns None\n\n
+    setOption(final short field_3_option)\n
     '''
 def getReserved1():
-    '''public int getReserved1()
+    '''returns int\n\n
+    getReserved1()\n
     '''
 def setReserved1():
-    '''public void setReserved1(final int field_4_reserved1)
+    '''returns None\n\n
+    setReserved1(final int field_4_reserved1)\n
     '''
 def getReserved2():
-    '''public int getReserved2()
+    '''returns int\n\n
+    getReserved2()\n
     '''
 def setReserved2():
-    '''public void setReserved2(final int field_5_reserved2)
+    '''returns None\n\n
+    setReserved2(final int field_5_reserved2)\n
     '''
 def getReserved3():
-    '''public int getReserved3()
+    '''returns int\n\n
+    getReserved3()\n
     '''
 def setReserved3():
-    '''public void setReserved3(final int field_6_reserved3)
+    '''returns None\n\n
+    setReserved3(final int field_6_reserved3)\n
     '''
 def setLocked():
-    '''public void setLocked(final boolean value)
+    '''returns None\n\n
+    setLocked(final boolean value)\n
     '''
 def isLocked():
-    '''public boolean isLocked()
+    '''returns boolean\n\n
+    isLocked()\n
     '''
 def setPrintable():
-    '''public void setPrintable(final boolean value)
+    '''returns None\n\n
+    setPrintable(final boolean value)\n
     '''
 def isPrintable():
-    '''public boolean isPrintable()
+    '''returns boolean\n\n
+    isPrintable()\n
     '''
 def setAutofill():
-    '''public void setAutofill(final boolean value)
+    '''returns None\n\n
+    setAutofill(final boolean value)\n
     '''
 def isAutofill():
-    '''public boolean isAutofill()
+    '''returns boolean\n\n
+    isAutofill()\n
     '''
 def setAutoline():
-    '''public void setAutoline(final boolean value)
+    '''returns None\n\n
+    setAutoline(final boolean value)\n
     '''
 def isAutoline():
-    '''public boolean isAutoline()
+    '''returns boolean\n\n
+    isAutoline()\n
     '''

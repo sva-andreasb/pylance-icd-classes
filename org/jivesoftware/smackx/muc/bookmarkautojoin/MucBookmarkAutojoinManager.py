@@ -1,18 +1,16 @@
-def setAutojoinPerDefault():
-    '''public static void setAutojoinPerDefault(final boolean autojoin)
-    '''
-def getInstanceFor():
-    '''public static synchronized MucBookmarkAutojoinManager getInstanceFor(final XMPPConnection connection)
-    '''
 def authenticated():
-    '''public void authenticated(final XMPPConnection connection, final boolean resumed)
+    '''returns None\n\n
+    authenticated(final XMPPConnection connection, final boolean resumed)\n
     '''
 def setAutojoinEnabled():
-    '''public void setAutojoinEnabled(final boolean autojoin)
+    '''returns None\n\n
+    setAutojoinEnabled(final boolean autojoin)\n
     '''
 def autojoinBookmarkedConferences():
-    '''public void autojoinBookmarkedConferences()
+    '''returns None\n\n
+    autojoinBookmarkedConferences()\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

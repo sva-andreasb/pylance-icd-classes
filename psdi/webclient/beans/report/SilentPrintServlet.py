@@ -8,18 +8,23 @@ DOCLINK_GETTOKEN = "int  22"
 VALIDATE_URL = "int  44"
 PREPARE_DOC = "int  55"
 securedDocPrefix = "String  \"securedAttachmentNonApplet=\""
-def SilentPrintServlet():
-    '''public SilentPrintServlet()
+def ():
+    '''returns SilentPrintServlet\n\n
+    ()\n
     '''
 def doGet():
-    '''public void doGet(final HttpServletRequest requ, final HttpServletResponse resp)
+    '''returns None\n\n
+    doGet(final HttpServletRequest requ, final HttpServletResponse resp)\n
     '''
 def doPost():
-    '''public void doPost(final HttpServletRequest requ, final HttpServletResponse resp)
+    '''returns None\n\n
+    doPost(final HttpServletRequest requ, final HttpServletResponse resp)\n
     '''
 def doWork():
-    '''public void doWork(final HttpServletRequest requ, final HttpServletResponse resp)
+    '''returns None\n\n
+    doWork(final HttpServletRequest requ, final HttpServletResponse resp)\n
     '''
 def concatPDFFiles():
-    '''public boolean concatPDFFiles(final String outPutDirPath, final String outPutFilePath, final Vector<PathAndReportFlag> listOfFiles)
+    '''returns boolean\n\n
+    concatPDFFiles(final String outPutDirPath, final String outPutFilePath, final Vector<PathAndReportFlag> listOfFiles)\n
     '''

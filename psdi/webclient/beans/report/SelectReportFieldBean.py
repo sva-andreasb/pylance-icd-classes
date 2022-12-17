@@ -1,12 +1,16 @@
-def SelectReportFieldBean():
-    '''public SelectReportFieldBean()
+def ():
+    '''returns SelectReportFieldBean\n\n
+    ()\n
     '''
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def highlightrow():
-    '''public int highlightrow(final int row)
+    '''returns int\n\n
+    highlightrow(final int row)\n
     '''

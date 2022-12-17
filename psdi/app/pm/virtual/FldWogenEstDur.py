@@ -1,6 +1,8 @@
-def FldWogenEstDur():
-    '''public FldWogenEstDur(final MboValue mbv)
+def ():
+    '''returns FldWogenEstDur\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

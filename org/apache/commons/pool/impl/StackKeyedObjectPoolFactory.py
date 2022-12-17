@@ -1,11 +1,13 @@
-def StackKeyedObjectPoolFactory():
-    '''public StackKeyedObjectPoolFactory()
-    public StackKeyedObjectPoolFactory(final int max)
-    public StackKeyedObjectPoolFactory(final int max, final int init)
-    public StackKeyedObjectPoolFactory(final KeyedPoolableObjectFactory factory)
-    public StackKeyedObjectPoolFactory(final KeyedPoolableObjectFactory factory, final int max)
-    public StackKeyedObjectPoolFactory(final KeyedPoolableObjectFactory factory, final int max, final int init)
+def ():
+    '''returns StackKeyedObjectPoolFactory\n\n
+    ()\n
+    (final int max)\n
+    (final int max, final int init)\n
+    (final KeyedPoolableObjectFactory factory)\n
+    (final KeyedPoolableObjectFactory factory, final int max)\n
+    (final KeyedPoolableObjectFactory factory, final int max, final int init)\n
     '''
 def createPool():
-    '''public KeyedObjectPool createPool()
+    '''returns KeyedObjectPool\n\n
+    createPool()\n
     '''

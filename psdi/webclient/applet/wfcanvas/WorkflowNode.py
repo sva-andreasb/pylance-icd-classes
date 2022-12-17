@@ -1,86 +1,114 @@
 NODE_CURRENT = "int  1"
 NODE_ERROR = "int  2"
-def WorkflowNode():
-    '''public WorkflowNode(final String id)
+def ():
+    '''returns WorkflowNode\n\n
+    (final String id)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def getWorkflow():
-    '''public Workflow getWorkflow()
+    '''returns Workflow\n\n
+    getWorkflow()\n
     '''
 def setWorkflow():
-    '''public void setWorkflow(final Workflow workflow)
+    '''returns None\n\n
+    setWorkflow(final Workflow workflow)\n
     '''
 def getRow():
-    '''public int getRow()
+    '''returns int\n\n
+    getRow()\n
     '''
 def setRow():
-    '''public void setRow(final int row)
+    '''returns None\n\n
+    setRow(final int row)\n
     '''
 def setMboRow():
-    '''public void setMboRow(final int row)
+    '''returns None\n\n
+    setMboRow(final int row)\n
     '''
 def getMboRow():
-    '''public int getMboRow()
+    '''returns int\n\n
+    getMboRow()\n
     '''
 def getColumn():
-    '''public int getColumn()
+    '''returns int\n\n
+    getColumn()\n
     '''
 def setColumn():
-    '''public void setColumn(final int column)
+    '''returns None\n\n
+    setColumn(final int column)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def setState():
-    '''public void setState(final int state)
+    '''returns None\n\n
+    setState(final int state)\n
     '''
 def testState():
-    '''public boolean testState(final int state)
+    '''returns boolean\n\n
+    testState(final int state)\n
     '''
 def clearState():
-    '''public void clearState(final int state)
+    '''returns None\n\n
+    clearState(final int state)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def copy():
-    '''public WorkflowEntity copy()
+    '''returns WorkflowEntity\n\n
+    copy()\n
     '''
 def restoreFrom():
-    '''public void restoreFrom(final WorkflowEntity entity)
+    '''returns None\n\n
+    restoreFrom(final WorkflowEntity entity)\n
     '''
 def getMaximumIncoming():
-    '''public int getMaximumIncoming()
+    '''returns int\n\n
+    getMaximumIncoming()\n
     '''
 def getMaximumOutgoing():
-    '''public int getMaximumOutgoing()
+    '''returns int\n\n
+    getMaximumOutgoing()\n
     '''
 def getMinimumIncoming():
-    '''public int getMinimumIncoming()
+    '''returns int\n\n
+    getMinimumIncoming()\n
     '''
 def getMinimumOutgoing():
-    '''public int getMinimumOutgoing()
+    '''returns int\n\n
+    getMinimumOutgoing()\n
     '''
 def setErrorKey():
-    '''public void setErrorKey(final String errorKey)
+    '''returns None\n\n
+    setErrorKey(final String errorKey)\n
     '''
 def getErrorKey():
-    '''public String getErrorKey()
+    '''returns String\n\n
+    getErrorKey()\n
     '''
 def hasProperties():
-    '''public boolean hasProperties()
+    '''returns boolean\n\n
+    hasProperties()\n
     '''

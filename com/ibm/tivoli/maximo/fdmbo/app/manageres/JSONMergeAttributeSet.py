@@ -1,12 +1,16 @@
-def JSONMergeAttributeSet():
-    '''public JSONMergeAttributeSet(final MboServerInterface ms)
+def ():
+    '''returns JSONMergeAttributeSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def getExistingAttributes():
-    '''public Set<String> getExistingAttributes(final MboRemote thisMbo)
+    '''returns Set<String>\n\n
+    getExistingAttributes(final MboRemote thisMbo)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

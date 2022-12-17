@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static final OSUserEndPointCache getInstance()
-    '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getEndpointForUser():
-    '''public List<UserEndPointInfo> getEndpointForUser(final String userName)
+    '''returns List<UserEndPointInfo>\n\n
+    getEndpointForUser(final String userName)\n
     '''

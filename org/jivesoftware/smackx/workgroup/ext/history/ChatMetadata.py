@@ -1,20 +1,22 @@
 ELEMENT_NAME = "String  \"chat-metadata\""
 NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
-def ChatMetadata():
-    '''public ChatMetadata()
+def ():
+    '''returns ChatMetadata\n\n
+    ()\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def setSessionID():
-    '''public void setSessionID(final String sessionID)
+    '''returns None\n\n
+    setSessionID(final String sessionID)\n
     '''
 def setMetadata():
-    '''public void setMetadata(final Map<String, List<String>> metadata)
-    '''
-def getMetadata():
-    '''public Map<String, List<String>> getMetadata()
+    '''returns None\n\n
+    setMetadata(final Map<String, List<String>> metadata)\n
     '''
 def parse():
-    '''public ChatMetadata parse(final XmlPullParser parser, final int initialDepth)
+    '''returns ChatMetadata\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

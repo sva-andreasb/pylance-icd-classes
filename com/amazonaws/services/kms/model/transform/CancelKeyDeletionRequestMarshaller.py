@@ -1,6 +1,8 @@
-def CancelKeyDeletionRequestMarshaller():
-    '''public CancelKeyDeletionRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+def ():
+    '''returns CancelKeyDeletionRequestMarshaller\n\n
+    (final SdkJsonProtocolFactory protocolFactory)\n
     '''
 def marshall():
-    '''public Request<CancelKeyDeletionRequest> marshall(final CancelKeyDeletionRequest cancelKeyDeletionRequest)
+    '''returns Request<CancelKeyDeletionRequest>\n\n
+    marshall(final CancelKeyDeletionRequest cancelKeyDeletionRequest)\n
     '''

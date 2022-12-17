@@ -1,6 +1,8 @@
-def FldWOAssetsToMoveAssetnum():
-    '''public FldWOAssetsToMoveAssetnum(final MboValue mbv)
+def ():
+    '''returns FldWOAssetsToMoveAssetnum\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

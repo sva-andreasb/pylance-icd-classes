@@ -1,6 +1,8 @@
-def ShowPlanToolSet():
-    '''public ShowPlanToolSet(final MboRemote owner)
+def ():
+    '''returns ShowPlanToolSet\n\n
+    (final MboRemote owner)\n
     '''
 def updateHours():
-    '''public void updateHours()
+    '''returns None\n\n
+    updateHours()\n
     '''

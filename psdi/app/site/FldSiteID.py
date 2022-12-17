@@ -1,9 +1,12 @@
-def FldSiteID():
-    '''public FldSiteID(final MboValue mbv)
+def ():
+    '''returns FldSiteID\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

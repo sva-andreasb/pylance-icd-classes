@@ -1,10 +1,13 @@
 def parseFileList():
-    '''public FTPFile[] parseFileList(final InputStream listStream, final String encoding)
-    public FTPFile[] parseFileList(final InputStream listStream)
+    '''returns FTPFile[]\n\n
+    parseFileList(final InputStream listStream, final String encoding)\n
+    parseFileList(final InputStream listStream)\n
     '''
 def readNextEntry():
-    '''public String readNextEntry(final BufferedReader reader)
+    '''returns String\n\n
+    readNextEntry(final BufferedReader reader)\n
     '''
 def preParse():
-    '''public List preParse(final List original)
+    '''returns List\n\n
+    preParse(final List original)\n
     '''

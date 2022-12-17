@@ -1,54 +1,72 @@
-def FieldQueryNode():
-    '''public FieldQueryNode(final CharSequence field, final CharSequence text, final int begin, final int end)
+def ():
+    '''returns FieldQueryNode\n\n
+    (final CharSequence field, final CharSequence text, final int begin, final int end)\n
     '''
 def toQueryString():
-    '''public CharSequence toQueryString(final EscapeQuerySyntax escaper)
+    '''returns CharSequence\n\n
+    toQueryString(final EscapeQuerySyntax escaper)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getTextAsString():
-    '''public String getTextAsString()
+    '''returns String\n\n
+    getTextAsString()\n
     '''
 def getFieldAsString():
-    '''public String getFieldAsString()
+    '''returns String\n\n
+    getFieldAsString()\n
     '''
 def getBegin():
-    '''public int getBegin()
+    '''returns int\n\n
+    getBegin()\n
     '''
 def setBegin():
-    '''public void setBegin(final int begin)
+    '''returns None\n\n
+    setBegin(final int begin)\n
     '''
 def getEnd():
-    '''public int getEnd()
+    '''returns int\n\n
+    getEnd()\n
     '''
 def setEnd():
-    '''public void setEnd(final int end)
+    '''returns None\n\n
+    setEnd(final int end)\n
     '''
 def getField():
-    '''public CharSequence getField()
+    '''returns CharSequence\n\n
+    getField()\n
     '''
 def setField():
-    '''public void setField(final CharSequence field)
+    '''returns None\n\n
+    setField(final CharSequence field)\n
     '''
 def getPositionIncrement():
-    '''public int getPositionIncrement()
+    '''returns int\n\n
+    getPositionIncrement()\n
     '''
 def setPositionIncrement():
-    '''public void setPositionIncrement(final int pi)
+    '''returns None\n\n
+    setPositionIncrement(final int pi)\n
     '''
 def getText():
-    '''public CharSequence getText()
+    '''returns CharSequence\n\n
+    getText()\n
     '''
 def setText():
-    '''public void setText(final CharSequence text)
+    '''returns None\n\n
+    setText(final CharSequence text)\n
     '''
 def cloneTree():
-    '''public FieldQueryNode cloneTree()
+    '''returns FieldQueryNode\n\n
+    cloneTree()\n
     '''
 def getValue():
-    '''public CharSequence getValue()
+    '''returns CharSequence\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final CharSequence value)
+    '''returns None\n\n
+    setValue(final CharSequence value)\n
     '''

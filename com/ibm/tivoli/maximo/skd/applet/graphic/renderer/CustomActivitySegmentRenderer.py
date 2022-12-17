@@ -1,75 +1,100 @@
-def CustomActivitySegmentRenderer():
-    '''public CustomActivitySegmentRenderer()
+def ():
+    '''returns CustomActivitySegmentRenderer\n\n
+    ()\n
     '''
 def setEdited():
-    '''public void setEdited(final boolean edited, final MXActivity pm)
+    '''returns None\n\n
+    setEdited(final boolean edited, final MXActivity pm)\n
     '''
 def isDeleted():
-    '''public boolean isDeleted()
+    '''returns boolean\n\n
+    isDeleted()\n
     '''
 def setDeleted():
-    '''public void setDeleted(final boolean bool)
+    '''returns None\n\n
+    setDeleted(final boolean bool)\n
     '''
 def draw():
-    '''public void draw(final Graphics dst, final IlvActivityGraphic ag, final IlvTransformer t)
+    '''returns None\n\n
+    draw(final Graphics dst, final IlvActivityGraphic ag, final IlvTransformer t)\n
     '''
 def setupOverlapping():
-    '''public void setupOverlapping(final IlvActivityGraphic ag, final Graphics dst, final IlvTransformer t, final IlvRect rect)
+    '''returns None\n\n
+    setupOverlapping(final IlvActivityGraphic ag, final Graphics dst, final IlvTransformer t, final IlvRect rect)\n
     '''
 def markOtherSegmentsImmovable():
-    '''public void markOtherSegmentsImmovable(final MXActivity pm)
+    '''returns None\n\n
+    markOtherSegmentsImmovable(final MXActivity pm)\n
     '''
 def isMoveable():
-    '''public boolean isMoveable(final MXActivity pm)
+    '''returns boolean\n\n
+    isMoveable(final MXActivity pm)\n
     '''
 def setMoveable():
-    '''public void setMoveable(final boolean moveflag, final MXActivity pm)
+    '''returns None\n\n
+    setMoveable(final boolean moveflag, final MXActivity pm)\n
     '''
 def isEdited():
-    '''public boolean isEdited()
+    '''returns boolean\n\n
+    isEdited()\n
     '''
 def setOnlyEditedFlag():
-    '''public void setOnlyEditedFlag(final boolean edited)
+    '''returns None\n\n
+    setOnlyEditedFlag(final boolean edited)\n
     '''
 def getSequenceNum():
-    '''public int getSequenceNum()
+    '''returns int\n\n
+    getSequenceNum()\n
     '''
 def setSequenceNum():
-    '''public void setSequenceNum(final int sequenceNum)
+    '''returns None\n\n
+    setSequenceNum(final int sequenceNum)\n
     '''
 def isFirstSegment():
-    '''public boolean isFirstSegment()
+    '''returns boolean\n\n
+    isFirstSegment()\n
     '''
 def setFirstSegment():
-    '''public void setFirstSegment(final boolean isFirstSegment)
+    '''returns None\n\n
+    setFirstSegment(final boolean isFirstSegment)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)
+    '''returns String\n\n
+    getToolTipText(final IlvActivityGraphic ag, final IlvPoint p, final IlvTransformer t)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setOverLappingDates():
-    '''public void setOverLappingDates(final Date overLapStart, final Date overLapEnd)
+    '''returns None\n\n
+    setOverLappingDates(final Date overLapStart, final Date overLapEnd)\n
     '''
 def clearOverLappingDates():
-    '''public void clearOverLappingDates()
+    '''returns None\n\n
+    clearOverLappingDates()\n
     '''
 def setOverlapFlag():
-    '''public void setOverlapFlag(final int flag)
+    '''returns None\n\n
+    setOverlapFlag(final int flag)\n
     '''
 def getOverlapFlag():
-    '''public int getOverlapFlag()
+    '''returns int\n\n
+    getOverlapFlag()\n
     '''
 def hasOverlappingDates():
-    '''public boolean hasOverlappingDates()
+    '''returns boolean\n\n
+    hasOverlappingDates()\n
     '''
 def setLocked():
-    '''public void setLocked(final boolean pmLocked)
+    '''returns None\n\n
+    setLocked(final boolean pmLocked)\n
     '''
 def isLocked():
-    '''public boolean isLocked()
+    '''returns boolean\n\n
+    isLocked()\n
     '''
 def isDummyHourAdded():
-    '''public boolean isDummyHourAdded()
+    '''returns boolean\n\n
+    isDummyHourAdded()\n
     '''

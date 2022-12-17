@@ -1,9 +1,12 @@
-def SynchronizedObjectFactory():
-    '''public SynchronizedObjectFactory(final ObjectFactory factory)
+def ():
+    '''returns SynchronizedObjectFactory\n\n
+    (final ObjectFactory factory)\n
     '''
 def getInstance():
-    '''public Object getInstance(final Object o)
+    '''returns Object\n\n
+    getInstance(final Object o)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

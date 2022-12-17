@@ -1,12 +1,16 @@
-def MXNodeElement():
-    '''public MXNodeElement(final String id, final Object element)
+def ():
+    '''returns MXNodeElement\n\n
+    (final String id, final Object element)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getElement():
-    '''public Object getElement()
+    '''returns Object\n\n
+    getElement()\n
     '''
 def setElement():
-    '''public void setElement(final Object element)
+    '''returns None\n\n
+    setElement(final Object element)\n
     '''

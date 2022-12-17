@@ -1,3 +1,4 @@
-def CommandLoadException():
-    '''public CommandLoadException(final Throwable th)
+def ():
+    '''returns CommandLoadException\n\n
+    (final Throwable th)\n
     '''

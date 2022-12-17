@@ -1,141 +1,144 @@
 def getConfigurationSource():
-    '''public ConfigurationSource getConfigurationSource()
+    '''returns ConfigurationSource\n\n
+    getConfigurationSource()\n
     '''
 def getPluginPackages():
-    '''public List<String> getPluginPackages()
-    '''
-def getProperties():
-    '''public Map<String, String> getProperties()
+    '''returns List<String>\n\n
+    getPluginPackages()\n
     '''
 def getScriptManager():
-    '''public ScriptManager getScriptManager()
+    '''returns ScriptManager\n\n
+    getScriptManager()\n
     '''
 def setScriptManager():
-    '''public void setScriptManager(final ScriptManager scriptManager)
+    '''returns None\n\n
+    setScriptManager(final ScriptManager scriptManager)\n
     '''
 def getPluginManager():
-    '''public PluginManager getPluginManager()
+    '''returns PluginManager\n\n
+    getPluginManager()\n
     '''
 def setPluginManager():
-    '''public void setPluginManager(final PluginManager pluginManager)
+    '''returns None\n\n
+    setPluginManager(final PluginManager pluginManager)\n
     '''
 def getWatchManager():
-    '''public WatchManager getWatchManager()
+    '''returns WatchManager\n\n
+    getWatchManager()\n
     '''
 def getScheduler():
-    '''public ConfigurationScheduler getScheduler()
+    '''returns ConfigurationScheduler\n\n
+    getScheduler()\n
     '''
 def getRootNode():
-    '''public Node getRootNode()
+    '''returns Node\n\n
+    getRootNode()\n
     '''
 def getAsyncLoggerConfigDelegate():
-    '''public AsyncLoggerConfigDelegate getAsyncLoggerConfigDelegate()
+    '''returns AsyncLoggerConfigDelegate\n\n
+    getAsyncLoggerConfigDelegate()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''returns boolean\n\n
+    stop(final long timeout, final TimeUnit timeUnit)\n
     '''
 def isShutdownHookEnabled():
-    '''public boolean isShutdownHookEnabled()
+    '''returns boolean\n\n
+    isShutdownHookEnabled()\n
     '''
 def getShutdownTimeoutMillis():
-    '''public long getShutdownTimeoutMillis()
+    '''returns long\n\n
+    getShutdownTimeoutMillis()\n
     '''
 def setup():
-    '''public void setup()
-    '''
-def getComponent():
-    '''public <T> T getComponent(final String componentName)
+    '''returns None\n\n
+    setup()\n
     '''
 def addComponent():
-    '''public void addComponent(final String componentName, final Object obj)
+    '''returns None\n\n
+    addComponent(final String componentName, final Object obj)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def addListener():
-    '''public void addListener(final ConfigurationListener listener)
+    '''returns None\n\n
+    addListener(final ConfigurationListener listener)\n
     '''
 def removeListener():
-    '''public void removeListener(final ConfigurationListener listener)
-    '''
-def getAppender():
-    '''public <T extends Appender> T getAppender(final String appenderName)
-    '''
-def getAppenders():
-    '''public Map<String, Appender> getAppenders()
+    '''returns None\n\n
+    removeListener(final ConfigurationListener listener)\n
     '''
 def addAppender():
-    '''public void addAppender(final Appender appender)
+    '''returns None\n\n
+    addAppender(final Appender appender)\n
     '''
 def getStrSubstitutor():
-    '''public StrSubstitutor getStrSubstitutor()
+    '''returns StrSubstitutor\n\n
+    getStrSubstitutor()\n
     '''
 def getConfigurationStrSubstitutor():
-    '''public StrSubstitutor getConfigurationStrSubstitutor()
+    '''returns StrSubstitutor\n\n
+    getConfigurationStrSubstitutor()\n
     '''
 def setAdvertiser():
-    '''public void setAdvertiser(final Advertiser advertiser)
+    '''returns None\n\n
+    setAdvertiser(final Advertiser advertiser)\n
     '''
 def getAdvertiser():
-    '''public Advertiser getAdvertiser()
+    '''returns Advertiser\n\n
+    getAdvertiser()\n
     '''
 def getReliabilityStrategy():
-    '''public ReliabilityStrategy getReliabilityStrategy(final LoggerConfig loggerConfig)
-    '''
-def addLoggerAppender():
-    '''public synchronized void addLoggerAppender(final Logger logger, final Appender appender)
-    '''
-def addLoggerFilter():
-    '''public synchronized void addLoggerFilter(final Logger logger, final Filter filter)
-    '''
-def setLoggerAdditive():
-    '''public synchronized void setLoggerAdditive(final Logger logger, final boolean additive)
-    '''
-def removeAppender():
-    '''public synchronized void removeAppender(final String appenderName)
+    '''returns ReliabilityStrategy\n\n
+    getReliabilityStrategy(final LoggerConfig loggerConfig)\n
     '''
 def getCustomLevels():
-    '''public List<CustomLevelConfig> getCustomLevels()
+    '''returns List<CustomLevelConfig>\n\n
+    getCustomLevels()\n
     '''
 def getLoggerConfig():
-    '''public LoggerConfig getLoggerConfig(final String loggerName)
+    '''returns LoggerConfig\n\n
+    getLoggerConfig(final String loggerName)\n
     '''
 def getLoggerContext():
-    '''public LoggerContext getLoggerContext()
+    '''returns LoggerContext\n\n
+    getLoggerContext()\n
     '''
 def getRootLogger():
-    '''public LoggerConfig getRootLogger()
-    '''
-def getLoggers():
-    '''public Map<String, LoggerConfig> getLoggers()
+    '''returns LoggerConfig\n\n
+    getRootLogger()\n
     '''
 def getLogger():
-    '''public LoggerConfig getLogger(final String loggerName)
-    '''
-def addLogger():
-    '''public synchronized void addLogger(final String loggerName, final LoggerConfig loggerConfig)
-    '''
-def removeLogger():
-    '''public synchronized void removeLogger(final String loggerName)
+    '''returns LoggerConfig\n\n
+    getLogger(final String loggerName)\n
     '''
 def createConfiguration():
-    '''public void createConfiguration(final Node node, final LogEvent event)
+    '''returns None\n\n
+    createConfiguration(final Node node, final LogEvent event)\n
     '''
 def createPluginObject():
-    '''public Object createPluginObject(final PluginType<?> type, final Node node)
+    '''returns Object\n\n
+    createPluginObject(final PluginType<?> type, final Node node)\n
     '''
 def getNanoClock():
-    '''public NanoClock getNanoClock()
+    '''returns NanoClock\n\n
+    getNanoClock()\n
     '''
 def setNanoClock():
-    '''public void setNanoClock(final NanoClock nanoClock)
+    '''returns None\n\n
+    setNanoClock(final NanoClock nanoClock)\n
     '''

@@ -1,12 +1,16 @@
 def directoryOpened():
-    '''public void directoryOpened(final DirectoryEvent directoryEvent)
+    '''returns None\n\n
+    directoryOpened(final DirectoryEvent directoryEvent)\n
     '''
 def directoryOpenFailed():
-    '''public void directoryOpenFailed(final DirectoryEvent directoryEvent)
+    '''returns None\n\n
+    directoryOpenFailed(final DirectoryEvent directoryEvent)\n
     '''
 def entriesQueried():
-    '''public void entriesQueried(final DirectoryEvent directoryEvent)
+    '''returns None\n\n
+    entriesQueried(final DirectoryEvent directoryEvent)\n
     '''
 def entriesQueryFailed():
-    '''public void entriesQueryFailed(final DirectoryEvent directoryEvent)
+    '''returns None\n\n
+    entriesQueryFailed(final DirectoryEvent directoryEvent)\n
     '''

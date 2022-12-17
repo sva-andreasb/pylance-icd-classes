@@ -1,3 +1,4 @@
-def AttachModelException():
-    '''public AttachModelException(final Throwable th)
+def ():
+    '''returns AttachModelException\n\n
+    (final Throwable th)\n
     '''

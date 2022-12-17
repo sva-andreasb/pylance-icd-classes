@@ -1,12 +1,16 @@
-def NeuronString():
-    '''public NeuronString(final int num, final boolean wrap, final FeatureInitializer[] featureInit)
+def ():
+    '''returns NeuronString\n\n
+    (final int num, final boolean wrap, final FeatureInitializer[] featureInit)\n
     '''
 def getNetwork():
-    '''public Network getNetwork()
+    '''returns Network\n\n
+    getNetwork()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def getFeatures():
-    '''public double[] getFeatures(final int i)
+    '''returns double[]\n\n
+    getFeatures(final int i)\n
     '''

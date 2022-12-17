@@ -1,9 +1,12 @@
-def TLOAMFldPoNum():
-    '''public TLOAMFldPoNum(final MboValue mbv)
+def ():
+    '''returns TLOAMFldPoNum\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

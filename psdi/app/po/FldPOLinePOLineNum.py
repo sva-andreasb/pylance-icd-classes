@@ -1,6 +1,8 @@
-def FldPOLinePOLineNum():
-    '''public FldPOLinePOLineNum(final MboValue mbv)
+def ():
+    '''returns FldPOLinePOLineNum\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

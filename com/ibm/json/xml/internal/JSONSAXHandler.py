@@ -1,22 +1,29 @@
-def JSONSAXHandler():
-    '''public JSONSAXHandler(final OutputStream out)
-    public JSONSAXHandler(final OutputStream out, final boolean b)
+def ():
+    '''returns JSONSAXHandler\n\n
+    (final OutputStream out)\n
+    (final OutputStream out, final boolean b)\n
     '''
 def startElement():
-    '''public void startElement(final String s, final String s2, final String s3, final Attributes attributes)
+    '''returns None\n\n
+    startElement(final String s, final String s2, final String s3, final Attributes attributes)\n
     '''
 def endElement():
-    '''public void endElement(final String s, final String s2, final String s3)
+    '''returns None\n\n
+    endElement(final String s, final String s2, final String s3)\n
     '''
 def characters():
-    '''public void characters(final char[] value, final int offset, final int count)
+    '''returns None\n\n
+    characters(final char[] value, final int offset, final int count)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def flushBuffer():
-    '''public void flushBuffer()
+    '''returns None\n\n
+    flushBuffer()\n
     '''

@@ -1,3 +1,4 @@
-def JobServiceSet():
-    '''public JobServiceSet(final MboServerInterface ms)
+def ():
+    '''returns JobServiceSet\n\n
+    (final MboServerInterface ms)\n
     '''

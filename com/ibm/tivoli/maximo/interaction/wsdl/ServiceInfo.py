@@ -1,15 +1,20 @@
-def ServiceInfo():
-    '''public ServiceInfo(final String name, final List<PortInfo> ports)
+def ():
+    '''returns ServiceInfo\n\n
+    (final String name, final List<PortInfo> ports)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getPorts():
-    '''public List<PortInfo> getPorts()
+    '''returns List<PortInfo>\n\n
+    getPorts()\n
     '''
 def getPortInfo():
-    '''public PortInfo getPortInfo(final String name)
+    '''returns PortInfo\n\n
+    getPortInfo(final String name)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,15 +1,20 @@
-def FaultTolerantNegotiator():
-    '''public FaultTolerantNegotiator(final XMPPConnection connection, final StreamNegotiator primary, final StreamNegotiator secondary)
+def ():
+    '''returns FaultTolerantNegotiator\n\n
+    (final XMPPConnection connection, final StreamNegotiator primary, final StreamNegotiator secondary)\n
     '''
 def newStreamInitiation():
-    '''public void newStreamInitiation(final Jid from, final String streamID)
+    '''returns None\n\n
+    newStreamInitiation(final Jid from, final String streamID)\n
     '''
 def createIncomingStream():
-    '''public InputStream createIncomingStream(final StreamInitiation initiation)
+    '''returns InputStream\n\n
+    createIncomingStream(final StreamInitiation initiation)\n
     '''
 def createOutgoingStream():
-    '''public OutputStream createOutgoingStream(final String streamID, final Jid initiator, final Jid target)
+    '''returns OutputStream\n\n
+    createOutgoingStream(final String streamID, final Jid initiator, final Jid target)\n
     '''
 def getNamespaces():
-    '''public String[] getNamespaces()
+    '''returns String[]\n\n
+    getNamespaces()\n
     '''

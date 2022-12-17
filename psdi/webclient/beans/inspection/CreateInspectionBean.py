@@ -1,9 +1,8 @@
 def initialize():
-    '''public void initialize()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns None\n\n
+    initialize()\n
     '''
 def setInspFormNum():
-    '''public void setInspFormNum(final String inspformnum)
+    '''returns None\n\n
+    setInspFormNum(final String inspformnum)\n
     '''

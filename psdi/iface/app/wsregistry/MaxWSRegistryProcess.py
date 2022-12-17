@@ -1,12 +1,16 @@
-def MaxWSRegistryProcess():
-    '''public MaxWSRegistryProcess()
+def ():
+    '''returns MaxWSRegistryProcess\n\n
+    ()\n
     '''
 def checkAdditionalRules():
-    '''public void checkAdditionalRules()
+    '''returns None\n\n
+    checkAdditionalRules()\n
     '''
 def afterProcess():
-    '''public void afterProcess()
+    '''returns None\n\n
+    afterProcess()\n
     '''
 def processDeployment():
-    '''public void processDeployment(final List<Long> processList, final boolean deploy)
+    '''returns None\n\n
+    processDeployment(final List<Long> processList, final boolean deploy)\n
     '''

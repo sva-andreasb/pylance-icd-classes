@@ -1,9 +1,11 @@
-def i():
-    '''public i(final ILoader<Diagram, FromDiagramsOptions> loader, final ToPdfOptions toPdfOptions)
-    public i(final f f)
+def ():
+    '''returns i\n\n
+    (final ILoader<Diagram, FromDiagramsOptions> loader, final ToPdfOptions toPdfOptions)\n
+    (final f f)\n
     '''
 def toPdf():
-    '''public void toPdf(final OutputStream outputStream)
-    public void toPdf(final String savePath)
-    public void toPdf(final IStreamCallback<InputStream> dataCallback)
+    '''returns None\n\n
+    toPdf(final OutputStream outputStream)\n
+    toPdf(final String savePath)\n
+    toPdf(final IStreamCallback<InputStream> dataCallback)\n
     '''

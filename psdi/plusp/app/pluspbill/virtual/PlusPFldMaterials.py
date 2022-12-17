@@ -1,7 +1,9 @@
-def PlusPFldMaterials():
-    '''public PlusPFldMaterials()
-    public PlusPFldMaterials(final MboValue mbv)
+def ():
+    '''returns PlusPFldMaterials\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

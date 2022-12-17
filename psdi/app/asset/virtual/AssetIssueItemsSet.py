@@ -1,3 +1,4 @@
-def AssetIssueItemsSet():
-    '''public AssetIssueItemsSet(final MboServerInterface ms)
+def ():
+    '''returns AssetIssueItemsSet\n\n
+    (final MboServerInterface ms)\n
     '''

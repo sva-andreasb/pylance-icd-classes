@@ -1,6 +1,8 @@
-def PlusPFldSLADeliveryTime():
-    '''public PlusPFldSLADeliveryTime(final MboValue mbv)
+def ():
+    '''returns PlusPFldSLADeliveryTime\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

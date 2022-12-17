@@ -1,85 +1,102 @@
 XML_NAMESPACE_URI = "String  \"http://www.w3.org/XML/1998/namespace\""
 XMLNS_NAMESPACE_URI = "String  \"http://www.w3.org/2000/xmlns/\""
-def JDOMNodePointer():
-    '''public JDOMNodePointer(final Object node, final Locale locale)
-    public JDOMNodePointer(final Object node, final Locale locale, final String id)
-    public JDOMNodePointer(final NodePointer parent, final Object node)
+def ():
+    '''returns JDOMNodePointer\n\n
+    (final Object node, final Locale locale)\n
+    (final Object node, final Locale locale, final String id)\n
+    (final NodePointer parent, final Object node)\n
     '''
 def childIterator():
-    '''public NodeIterator childIterator(final NodeTest test, final boolean reverse, final NodePointer startWith)
+    '''returns NodeIterator\n\n
+    childIterator(final NodeTest test, final boolean reverse, final NodePointer startWith)\n
     '''
 def attributeIterator():
-    '''public NodeIterator attributeIterator(final QName name)
+    '''returns NodeIterator\n\n
+    attributeIterator(final QName name)\n
     '''
 def namespaceIterator():
-    '''public NodeIterator namespaceIterator()
+    '''returns NodeIterator\n\n
+    namespaceIterator()\n
     '''
 def namespacePointer():
-    '''public NodePointer namespacePointer(final String prefix)
+    '''returns NodePointer\n\n
+    namespacePointer(final String prefix)\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
-    public String getNamespaceURI(final String prefix)
+    '''returns String\n\n
+    getNamespaceURI()\n
+    getNamespaceURI(final String prefix)\n
     '''
 def compareChildNodePointers():
-    '''public int compareChildNodePointers(final NodePointer pointer1, final NodePointer pointer2)
+    '''returns int\n\n
+    compareChildNodePointers(final NodePointer pointer1, final NodePointer pointer2)\n
     '''
 def getBaseValue():
-    '''public Object getBaseValue()
+    '''returns Object\n\n
+    getBaseValue()\n
     '''
 def isCollection():
-    '''public boolean isCollection()
+    '''returns boolean\n\n
+    isCollection()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getExpandedName():
-    '''public QName getExpandedName()
+    '''returns QName\n\n
+    getExpandedName()\n
     '''
 def getImmediateNode():
-    '''public Object getImmediateNode()
+    '''returns Object\n\n
+    getImmediateNode()\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
+    '''returns None\n\n
+    setValue(final Object value)\n
     '''
 def testNode():
-    '''public boolean testNode(final NodeTest test)
-    public static boolean testNode(final NodePointer pointer, final Object node, final NodeTest test)
-    '''
-def getPrefix():
-    '''public static String getPrefix(final Object node)
-    '''
-def getLocalName():
-    '''public static String getLocalName(final Object node)
+    '''returns boolean\n\n
+    testNode(final NodeTest test)\n
     '''
 def isLanguage():
-    '''public boolean isLanguage(final String lang)
+    '''returns boolean\n\n
+    isLanguage(final String lang)\n
     '''
 def createChild():
-    '''public NodePointer createChild(final JXPathContext context, final QName name, int index)
-    public NodePointer createChild(final JXPathContext context, final QName name, final int index, final Object value)
+    '''returns NodePointer\n\n
+    createChild(final JXPathContext context, final QName name, int index)\n
+    createChild(final JXPathContext context, final QName name, final int index, final Object value)\n
     '''
 def createAttribute():
-    '''public NodePointer createAttribute(final JXPathContext context, final QName name)
+    '''returns NodePointer\n\n
+    createAttribute(final JXPathContext context, final QName name)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def asPath():
-    '''public String asPath()
+    '''returns String\n\n
+    asPath()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''

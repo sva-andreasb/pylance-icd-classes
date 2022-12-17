@@ -1,3 +1,4 @@
-def CraftSkillSet():
-    '''public CraftSkillSet(final MboServerInterface ms)
+def ():
+    '''returns CraftSkillSet\n\n
+    (final MboServerInterface ms)\n
     '''

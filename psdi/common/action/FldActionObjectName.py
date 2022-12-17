@@ -1,12 +1,16 @@
-def FldActionObjectName():
-    '''public FldActionObjectName(final MboValue mbv)
+def ():
+    '''returns FldActionObjectName\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

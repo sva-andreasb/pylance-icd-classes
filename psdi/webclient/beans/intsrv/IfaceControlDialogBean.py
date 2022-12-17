@@ -1,27 +1,32 @@
 def cntlproperties():
-    '''public int cntlproperties()
+    '''returns int\n\n
+    cntlproperties()\n
     '''
 def addvalcontrol():
-    '''public int addvalcontrol()
+    '''returns int\n\n
+    addvalcontrol()\n
     '''
 def addboolcontrol():
-    '''public int addboolcontrol()
+    '''returns int\n\n
+    addboolcontrol()\n
     '''
 def addlistcontrol():
-    '''public int addlistcontrol()
+    '''returns int\n\n
+    addlistcontrol()\n
     '''
 def addxrefcontrol():
-    '''public int addxrefcontrol()
+    '''returns int\n\n
+    addxrefcontrol()\n
     '''
 def addcontrol():
-    '''public int addcontrol(final String controltype)
+    '''returns int\n\n
+    addcontrol(final String controltype)\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
-    '''
-def insert():
-    '''public synchronized void insert()
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def selectControlDialog():
-    '''public int selectControlDialog()
+    '''returns int\n\n
+    selectControlDialog()\n
     '''

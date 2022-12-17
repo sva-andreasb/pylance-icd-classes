@@ -1,11 +1,13 @@
-def DatatypeConfigurationException():
-    '''public DatatypeConfigurationException()
-    public DatatypeConfigurationException(final String message)
-    public DatatypeConfigurationException(final String message, final Throwable t)
-    public DatatypeConfigurationException(final Throwable t)
+def ():
+    '''returns DatatypeConfigurationException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable t)\n
+    (final Throwable t)\n
     '''
 def printStackTrace():
-    '''public void printStackTrace()
-    public void printStackTrace(final PrintStream printStream)
-    public void printStackTrace(final PrintWriter s)
+    '''returns None\n\n
+    printStackTrace()\n
+    printStackTrace(final PrintStream printStream)\n
+    printStackTrace(final PrintWriter s)\n
     '''

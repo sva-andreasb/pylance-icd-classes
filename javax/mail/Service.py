@@ -1,26 +1,22 @@
-def close():
-    '''public synchronized void close()
-    '''
 def connect():
-    '''public void connect()
-    public void connect(String host, int port, String user, String password)
-    public void connect(final String host, final String user, final String password)
+    '''returns None\n\n
+    connect()\n
+    connect(String host, int port, String user, String password)\n
+    connect(final String host, final String user, final String password)\n
     '''
 def dispatch():
-    '''public void dispatch(final Object listener)
+    '''returns None\n\n
+    dispatch(final Object listener)\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getURLName():
-    '''public URLName getURLName()
-    '''
-def addConnectionListener():
-    '''public synchronized void addConnectionListener(final ConnectionListener l)
-    '''
-def removeConnectionListener():
-    '''public synchronized void removeConnectionListener(final ConnectionListener l)
+    '''returns URLName\n\n
+    getURLName()\n
     '''

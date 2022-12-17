@@ -1,21 +1,20 @@
-def nullTransformer():
-    '''public static <I, O> Transformer<I, O> nullTransformer()
-    '''
-def constantTransformer():
-    '''public static <I, O> Transformer<I, O> constantTransformer(final O constantToReturn)
-    '''
-def ConstantTransformer():
-    '''public ConstantTransformer(final O constantToReturn)
+def ():
+    '''returns ConstantTransformer\n\n
+    (final O constantToReturn)\n
     '''
 def transform():
-    '''public O transform(final I input)
+    '''returns O\n\n
+    transform(final I input)\n
     '''
 def getConstant():
-    '''public O getConstant()
+    '''returns O\n\n
+    getConstant()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

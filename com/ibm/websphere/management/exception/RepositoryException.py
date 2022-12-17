@@ -1,6 +1,7 @@
-def RepositoryException():
-    '''public RepositoryException()
-    public RepositoryException(final String msg)
-    public RepositoryException(final Throwable th, final String msg)
-    public RepositoryException(final Throwable th)
+def ():
+    '''returns RepositoryException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable th, final String msg)\n
+    (final Throwable th)\n
     '''

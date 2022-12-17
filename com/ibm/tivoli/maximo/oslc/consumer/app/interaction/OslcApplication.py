@@ -1,3 +1,4 @@
-def OslcApplication():
-    '''public OslcApplication(final MboSet ms)
+def ():
+    '''returns OslcApplication\n\n
+    (final MboSet ms)\n
     '''

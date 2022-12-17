@@ -1,118 +1,138 @@
-def getInstance():
-    '''public static LimitChronology getInstance(final Chronology chronology, final ReadableDateTime readableDateTime, final ReadableDateTime readableDateTime2)
-    '''
 def getLowerLimit():
-    '''public DateTime getLowerLimit()
+    '''returns DateTime\n\n
+    getLowerLimit()\n
     '''
 def getUpperLimit():
-    '''public DateTime getUpperLimit()
+    '''returns DateTime\n\n
+    getUpperLimit()\n
     '''
 def withUTC():
-    '''public Chronology withUTC()
+    '''returns Chronology\n\n
+    withUTC()\n
     '''
 def withZone():
-    '''public Chronology withZone(DateTimeZone default1)
+    '''returns Chronology\n\n
+    withZone(DateTimeZone default1)\n
     '''
 def getDateTimeMillis():
-    '''public long getDateTimeMillis(final int n, final int n2, final int n3, final int n4)
-    public long getDateTimeMillis(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)
-    public long getDateTimeMillis(long dateTimeMillis, final int n, final int n2, final int n3, final int n4)
+    '''returns long\n\n
+    getDateTimeMillis(final int n, final int n2, final int n3, final int n4)\n
+    getDateTimeMillis(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)\n
+    getDateTimeMillis(long dateTimeMillis, final int n, final int n2, final int n3, final int n4)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getValue():
-    '''public int getValue(final long n, final long n2)
+    '''returns int\n\n
+    getValue(final long n, final long n2)\n
     '''
 def getValueAsLong():
-    '''public long getValueAsLong(final long n, final long n2)
+    '''returns long\n\n
+    getValueAsLong(final long n, final long n2)\n
     '''
 def getMillis():
-    '''public long getMillis(final int n, final long n2)
-    public long getMillis(final long n, final long n2)
+    '''returns long\n\n
+    getMillis(final int n, final long n2)\n
+    getMillis(final long n, final long n2)\n
     '''
 def add():
-    '''public long add(final long n, final int n2)
-    public long add(final long n, final long n2)
-    public long add(final long n, final int n2)
-    public long add(final long n, final long n2)
+    '''returns long\n\n
+    add(final long n, final int n2)\n
+    add(final long n, final long n2)\n
+    add(final long n, final int n2)\n
+    add(final long n, final long n2)\n
     '''
 def getDifference():
-    '''public int getDifference(final long n, final long n2)
-    public int getDifference(final long n, final long n2)
+    '''returns int\n\n
+    getDifference(final long n, final long n2)\n
+    getDifference(final long n, final long n2)\n
     '''
 def getDifferenceAsLong():
-    '''public long getDifferenceAsLong(final long n, final long n2)
-    public long getDifferenceAsLong(final long n, final long n2)
+    '''returns long\n\n
+    getDifferenceAsLong(final long n, final long n2)\n
+    getDifferenceAsLong(final long n, final long n2)\n
     '''
 def get():
-    '''public int get(final long n)
+    '''returns int\n\n
+    get(final long n)\n
     '''
 def getAsText():
-    '''public String getAsText(final long n, final Locale locale)
+    '''returns String\n\n
+    getAsText(final long n, final Locale locale)\n
     '''
 def getAsShortText():
-    '''public String getAsShortText(final long n, final Locale locale)
+    '''returns String\n\n
+    getAsShortText(final long n, final Locale locale)\n
     '''
 def addWrapField():
-    '''public long addWrapField(final long n, final int n2)
+    '''returns long\n\n
+    addWrapField(final long n, final int n2)\n
     '''
 def set():
-    '''public long set(final long n, final int n2)
-    public long set(final long n, final String s, final Locale locale)
-    '''
-def getDurationField():
-    '''public final DurationField getDurationField()
-    '''
-def getRangeDurationField():
-    '''public final DurationField getRangeDurationField()
+    '''returns long\n\n
+    set(final long n, final int n2)\n
+    set(final long n, final String s, final Locale locale)\n
     '''
 def isLeap():
-    '''public boolean isLeap(final long n)
+    '''returns boolean\n\n
+    isLeap(final long n)\n
     '''
 def getLeapAmount():
-    '''public int getLeapAmount(final long n)
-    '''
-def getLeapDurationField():
-    '''public final DurationField getLeapDurationField()
+    '''returns int\n\n
+    getLeapAmount(final long n)\n
     '''
 def roundFloor():
-    '''public long roundFloor(final long n)
+    '''returns long\n\n
+    roundFloor(final long n)\n
     '''
 def roundCeiling():
-    '''public long roundCeiling(final long n)
+    '''returns long\n\n
+    roundCeiling(final long n)\n
     '''
 def roundHalfFloor():
-    '''public long roundHalfFloor(final long n)
+    '''returns long\n\n
+    roundHalfFloor(final long n)\n
     '''
 def roundHalfCeiling():
-    '''public long roundHalfCeiling(final long n)
+    '''returns long\n\n
+    roundHalfCeiling(final long n)\n
     '''
 def roundHalfEven():
-    '''public long roundHalfEven(final long n)
+    '''returns long\n\n
+    roundHalfEven(final long n)\n
     '''
 def remainder():
-    '''public long remainder(final long n)
+    '''returns long\n\n
+    remainder(final long n)\n
     '''
 def getMinimumValue():
-    '''public int getMinimumValue(final long n)
+    '''returns int\n\n
+    getMinimumValue(final long n)\n
     '''
 def getMaximumValue():
-    '''public int getMaximumValue(final long n)
+    '''returns int\n\n
+    getMaximumValue(final long n)\n
     '''
 def getMaximumTextLength():
-    '''public int getMaximumTextLength(final Locale locale)
+    '''returns int\n\n
+    getMaximumTextLength(final Locale locale)\n
     '''
 def getMaximumShortTextLength():
-    '''public int getMaximumShortTextLength(final Locale locale)
+    '''returns int\n\n
+    getMaximumShortTextLength(final Locale locale)\n
     '''

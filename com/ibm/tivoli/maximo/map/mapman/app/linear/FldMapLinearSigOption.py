@@ -1,3 +1,4 @@
-def FldMapLinearSigOption():
-    '''public FldMapLinearSigOption(final MboValue mbv)
+def ():
+    '''returns FldMapLinearSigOption\n\n
+    (final MboValue mbv)\n
     '''

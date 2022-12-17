@@ -1,9 +1,12 @@
-def StringDecoder():
-    '''public StringDecoder(final String s)
+def ():
+    '''returns StringDecoder\n\n
+    (final String s)\n
     '''
 def readChar():
-    '''public int readChar()
+    '''returns int\n\n
+    readChar()\n
     '''
 def dispose():
-    '''public void dispose()
+    '''returns None\n\n
+    dispose()\n
     '''

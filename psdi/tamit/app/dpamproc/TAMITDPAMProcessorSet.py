@@ -1,3 +1,4 @@
-def TAMITDPAMProcessorSet():
-    '''public TAMITDPAMProcessorSet(final MboServerInterface ms)
+def ():
+    '''returns TAMITDPAMProcessorSet\n\n
+    (final MboServerInterface ms)\n
     '''

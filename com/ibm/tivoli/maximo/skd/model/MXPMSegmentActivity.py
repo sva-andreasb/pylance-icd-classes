@@ -1,33 +1,34 @@
-def MXPMSegmentActivity():
-    '''public MXPMSegmentActivity(final String id, final String name, final Date start, final Date end, final MXActivity parent, final int seq)
+def ():
+    '''returns MXPMSegmentActivity\n\n
+    (final String id, final String name, final Date start, final Date end, final MXActivity parent, final int seq)\n
     '''
 def getParent():
-    '''public MXActivity getParent()
+    '''returns MXActivity\n\n
+    getParent()\n
     '''
 def getSequence():
-    '''public int getSequence()
+    '''returns int\n\n
+    getSequence()\n
     '''
 def setEndTime():
-    '''public void setEndTime(final Date endTime)
+    '''returns None\n\n
+    setEndTime(final Date endTime)\n
     '''
 def setStartTime():
-    '''public void setStartTime(final Date startTime)
+    '''returns None\n\n
+    setStartTime(final Date startTime)\n
     '''
 def setTimeInterval():
-    '''public void setTimeInterval(final Date arg0, final Date arg1)
-    public void setTimeInterval(final IlvTimeInterval arg0)
+    '''returns None\n\n
+    setTimeInterval(final Date arg0, final Date arg1)\n
+    setTimeInterval(final IlvTimeInterval arg0)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String property, final Object value)
-    public Object setProperty(final String property, final Object value, final boolean ignoreChangeTracking)
+    '''returns Object\n\n
+    setProperty(final String property, final Object value)\n
+    setProperty(final String property, final Object value, final boolean ignoreChangeTracking)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String arg0)
-    '''
-def isPMActivityID():
-    '''public static boolean isPMActivityID(final String id)
-    '''
-def getPMActivity():
-    '''public static MXPMSegmentActivity getPMActivity(final MXGanttModel model, final String id)
-    public static MXPMSegmentActivity getPMActivity(final MXActivity pmParentRow, final int seqId)
+    '''returns Object\n\n
+    getProperty(final String arg0)\n
     '''

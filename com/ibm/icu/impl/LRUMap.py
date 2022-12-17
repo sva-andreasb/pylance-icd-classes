@@ -1,4 +1,5 @@
-def LRUMap():
-    '''public LRUMap()
-    public LRUMap(final int initialCapacity, final int maxCapacity)
+def ():
+    '''returns LRUMap\n\n
+    ()\n
+    (final int initialCapacity, final int maxCapacity)\n
     '''

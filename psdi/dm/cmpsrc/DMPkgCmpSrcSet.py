@@ -1,3 +1,4 @@
-def DMPkgCmpSrcSet():
-    '''public DMPkgCmpSrcSet(final MboServerInterface ms)
+def ():
+    '''returns DMPkgCmpSrcSet\n\n
+    (final MboServerInterface ms)\n
     '''

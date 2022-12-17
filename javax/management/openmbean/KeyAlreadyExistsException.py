@@ -1,4 +1,5 @@
-def KeyAlreadyExistsException():
-    '''public KeyAlreadyExistsException()
-    public KeyAlreadyExistsException(final String s)
+def ():
+    '''returns KeyAlreadyExistsException\n\n
+    ()\n
+    (final String s)\n
     '''

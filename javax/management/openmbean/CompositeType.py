@@ -1,27 +1,36 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def isValue():
-    '''public boolean isValue(final Object o)
+    '''returns boolean\n\n
+    isValue(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final String key)
+    '''returns boolean\n\n
+    containsKey(final String key)\n
     '''
 def keySet():
-    '''public Set keySet()
+    '''returns Set\n\n
+    keySet()\n
     '''
 def getDescription():
-    '''public String getDescription(final String key)
+    '''returns String\n\n
+    getDescription(final String key)\n
     '''
 def getType():
-    '''public OpenType getType(final String key)
+    '''returns OpenType\n\n
+    getType(final String key)\n
     '''
-def CompositeType():
-    '''public CompositeType(final String s, final String s2, final String[] array, final String[] array2, final OpenType[] array3)
+def ():
+    '''returns CompositeType\n\n
+    (final String s, final String s2, final String[] array, final String[] array2, final OpenType[] array3)\n
     '''

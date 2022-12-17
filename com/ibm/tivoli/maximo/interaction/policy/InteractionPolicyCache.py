@@ -1,12 +1,8 @@
-def getInstance():
-    '''public static final InteractionPolicyCache getInstance()
-    '''
 def getName():
-    '''public String getName()
-    '''
-def getAllPolices():
-    '''public Map<String, PolicyInfo> getAllPolices()
+    '''returns String\n\n
+    getName()\n
     '''
 def getPolicyInfo():
-    '''public PolicyInfo getPolicyInfo(final String id)
+    '''returns PolicyInfo\n\n
+    getPolicyInfo(final String id)\n
     '''

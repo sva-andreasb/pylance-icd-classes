@@ -1,15 +1,17 @@
-def FWMActivityListener():
-    '''public FWMActivityListener(final FWMActionsFacade actionsFacade, final IlvGanttModel model)
+def ():
+    '''returns ActivityTimeIntervalHandler\n\n
+    (final FWMActionsFacade actionsFacade, final IlvGanttModel model)\n
+    (final long originalSaved)\n
     '''
 def activityChanged():
-    '''public void activityChanged(final ActivityEvent event)
-    '''
-def ActivityTimeIntervalHandler():
-    '''public ActivityTimeIntervalHandler(final long originalSaved)
+    '''returns None\n\n
+    activityChanged(final ActivityEvent event)\n
     '''
 def updateTime():
-    '''public void updateTime(final long updTime)
+    '''returns None\n\n
+    updateTime(final long updTime)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

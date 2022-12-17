@@ -1,9 +1,12 @@
-def Lucene80DocValuesFormat():
-    '''public Lucene80DocValuesFormat()
+def ():
+    '''returns Lucene80DocValuesFormat\n\n
+    ()\n
     '''
 def fieldsConsumer():
-    '''public DocValuesConsumer fieldsConsumer(final SegmentWriteState state)
+    '''returns DocValuesConsumer\n\n
+    fieldsConsumer(final SegmentWriteState state)\n
     '''
 def fieldsProducer():
-    '''public DocValuesProducer fieldsProducer(final SegmentReadState state)
+    '''returns DocValuesProducer\n\n
+    fieldsProducer(final SegmentReadState state)\n
     '''

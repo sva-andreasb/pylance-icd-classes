@@ -1,69 +1,92 @@
 def getDefaultValue():
-    '''public String getDefaultValue()
+    '''returns String\n\n
+    getDefaultValue()\n
     '''
 def setDefaultValue():
-    '''public void setDefaultValue(final String s)
+    '''returns None\n\n
+    setDefaultValue(final String s)\n
     '''
 def getAccessKey():
-    '''public String getAccessKey()
+    '''returns String\n\n
+    getAccessKey()\n
     '''
 def setAccessKey():
-    '''public void setAccessKey(String substring)
+    '''returns None\n\n
+    setAccessKey(String substring)\n
     '''
 def getCols():
-    '''public int getCols()
+    '''returns int\n\n
+    getCols()\n
     '''
 def setCols():
-    '''public void setCols(final int i)
+    '''returns None\n\n
+    setCols(final int i)\n
     '''
 def getDisabled():
-    '''public boolean getDisabled()
+    '''returns boolean\n\n
+    getDisabled()\n
     '''
 def setDisabled():
-    '''public void setDisabled(final boolean b)
+    '''returns None\n\n
+    setDisabled(final boolean b)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getReadOnly():
-    '''public boolean getReadOnly()
+    '''returns boolean\n\n
+    getReadOnly()\n
     '''
 def setReadOnly():
-    '''public void setReadOnly(final boolean b)
+    '''returns None\n\n
+    setReadOnly(final boolean b)\n
     '''
 def getRows():
-    '''public int getRows()
+    '''returns int\n\n
+    getRows()\n
     '''
 def setRows():
-    '''public void setRows(final int i)
+    '''returns None\n\n
+    setRows(final int i)\n
     '''
 def getTabIndex():
-    '''public int getTabIndex()
+    '''returns int\n\n
+    getTabIndex()\n
     '''
 def setTabIndex():
-    '''public void setTabIndex(final int i)
+    '''returns None\n\n
+    setTabIndex(final int i)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String s)
+    '''returns None\n\n
+    setValue(final String s)\n
     '''
 def blur():
-    '''public void blur()
+    '''returns None\n\n
+    blur()\n
     '''
 def focus():
-    '''public void focus()
+    '''returns None\n\n
+    focus()\n
     '''
 def select():
-    '''public void select()
+    '''returns None\n\n
+    select()\n
     '''
-def HTMLTextAreaElementImpl():
-    '''public HTMLTextAreaElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLTextAreaElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

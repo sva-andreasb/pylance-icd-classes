@@ -1,6 +1,8 @@
 def createBinaryEncoder():
-    '''public BinaryEncoder createBinaryEncoder(final Encoding encoding)
+    '''returns BinaryEncoder\n\n
+    createBinaryEncoder(final Encoding encoding)\n
     '''
 def createStringEncoder():
-    '''public StringEncoder createStringEncoder(final Encoding encoding)
+    '''returns StringEncoder\n\n
+    createStringEncoder(final Encoding encoding)\n
     '''

@@ -1,53 +1,55 @@
-def IlvBPMNFlowValidator():
-    '''public IlvBPMNFlowValidator()
+def ():
+    '''returns IlvBPMNFlowValidator\n\n
+    ()\n
     '''
 def addRule():
-    '''public void addRule(final FlowRule flowRule)
+    '''returns None\n\n
+    addRule(final FlowRule flowRule)\n
     '''
 def insertRule():
-    '''public void insertRule(final int index, final FlowRule flowRule)
+    '''returns None\n\n
+    insertRule(final int index, final FlowRule flowRule)\n
     '''
 def removeRule():
-    '''public void removeRule(final FlowRule o)
+    '''returns None\n\n
+    removeRule(final FlowRule o)\n
     '''
 def getRuleCount():
-    '''public int getRuleCount()
+    '''returns int\n\n
+    getRuleCount()\n
     '''
 def getRule():
-    '''public FlowRule getRule(final int index)
+    '''returns FlowRule\n\n
+    getRule(final int index)\n
     '''
 def isValidSource():
-    '''public boolean isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)
-    public boolean isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)
-    public boolean isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)
-    public boolean isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)
-    public boolean isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)
-    public boolean isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)
-    public boolean isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)
-    public boolean isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)
-    public boolean isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)
-    public boolean isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)
+    '''returns boolean\n\n
+    isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)\n
+    isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)\n
+    isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)\n
+    isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)\n
+    isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)\n
+    isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)\n
+    isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)\n
+    isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)\n
+    isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)\n
+    isValidSource(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)\n
     '''
 def isValidTarget():
-    '''public boolean isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)
-    public boolean isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)
-    public boolean isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)
-    public boolean isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)
-    public boolean isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)
-    public boolean isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)
-    public boolean isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)
-    public boolean isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)
-    public boolean isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)
-    public boolean isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)
-    public boolean isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)
-    public boolean isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)
-    public boolean isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)
-    public boolean isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)
-    public boolean isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)
-    '''
-def areInSameLane():
-    '''public static boolean areInSameLane(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)
-    '''
-def areInSamePool():
-    '''public static boolean areInSamePool(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2)
+    '''returns boolean\n\n
+    isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)\n
+    isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)\n
+    isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)\n
+    isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)\n
+    isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)\n
+    isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)\n
+    isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)\n
+    isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)\n
+    isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)\n
+    isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)\n
+    isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)\n
+    isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)\n
+    isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)\n
+    isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)\n
+    isValidTarget(final IlvSDMEngine ilvSDMEngine, final Object o, final Object o2, final Object o3)\n
     '''

@@ -1,3 +1,4 @@
-def Base64SerializerFactory():
-    '''public Base64SerializerFactory(final Class javaType, final QName xmlType)
+def ():
+    '''returns Base64SerializerFactory\n\n
+    (final Class javaType, final QName xmlType)\n
     '''

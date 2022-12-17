@@ -1,82 +1,101 @@
 ELEMENT = "String  \"item\""
 NAMESPACE = "String  \"jabber:iq:roster\""
 GROUP = "String  \"group\""
-def RosterPacket():
-    '''public RosterPacket()
+def ():
+    '''returns Item\n\n
+    ()\n
+    (final BareJid jid, final String name)\n
+    (final BareJid jid, final String name, final boolean subscriptionPending)\n
     '''
 def addRosterItem():
-    '''public void addRosterItem(final Item item)
+    '''returns None\n\n
+    addRosterItem(final Item item)\n
     '''
 def getRosterItemCount():
-    '''public int getRosterItemCount()
+    '''returns int\n\n
+    getRosterItemCount()\n
     '''
 def getRosterItems():
-    '''public List<Item> getRosterItems()
+    '''returns List<Item>\n\n
+    getRosterItems()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final String version)
-    '''
-def Item():
-    '''public Item(final BareJid jid, final String name)
-    public Item(final BareJid jid, final String name, final boolean subscriptionPending)
+    '''returns None\n\n
+    setVersion(final String version)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getUser():
-    '''public String getUser()
+    '''returns String\n\n
+    getUser()\n
     '''
 def getJid():
-    '''public BareJid getJid()
+    '''returns BareJid\n\n
+    getJid()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getItemType():
-    '''public ItemType getItemType()
+    '''returns ItemType\n\n
+    getItemType()\n
     '''
 def setItemType():
-    '''public void setItemType(final ItemType itemType)
+    '''returns None\n\n
+    setItemType(final ItemType itemType)\n
     '''
 def setSubscriptionPending():
-    '''public void setSubscriptionPending(final boolean subscriptionPending)
+    '''returns None\n\n
+    setSubscriptionPending(final boolean subscriptionPending)\n
     '''
 def isSubscriptionPending():
-    '''public boolean isSubscriptionPending()
+    '''returns boolean\n\n
+    isSubscriptionPending()\n
     '''
 def isApproved():
-    '''public boolean isApproved()
+    '''returns boolean\n\n
+    isApproved()\n
     '''
 def setApproved():
-    '''public void setApproved(final boolean approved)
+    '''returns None\n\n
+    setApproved(final boolean approved)\n
     '''
 def getGroupNames():
-    '''public Set<String> getGroupNames()
+    '''returns Set<String>\n\n
+    getGroupNames()\n
     '''
 def addGroupName():
-    '''public void addGroupName(final String groupName)
+    '''returns None\n\n
+    addGroupName(final String groupName)\n
     '''
 def removeGroupName():
-    '''public void removeGroupName(final String groupName)
+    '''returns None\n\n
+    removeGroupName(final String groupName)\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    '''
-def fromString():
-    '''public static ItemType fromString(final String string)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def asSymbol():
-    '''public String asSymbol()
+    '''returns String\n\n
+    asSymbol()\n
     '''

@@ -1,13 +1,17 @@
-def STTService():
-    '''public STTService(final MXServer mxServer)
-    public STTService()
+def ():
+    '''returns STTService\n\n
+    (final MXServer mxServer)\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getSTTToken():
-    '''public String getSTTToken()
+    '''returns String\n\n
+    getSTTToken()\n
     '''
 def getStaticKeywords():
-    '''public String getStaticKeywords()
+    '''returns String\n\n
+    getStaticKeywords()\n
     '''

@@ -1,0 +1,2 @@
+MAXGTRIDSIZE = "int  64"
+MAXBQUALSIZE = "int  64"

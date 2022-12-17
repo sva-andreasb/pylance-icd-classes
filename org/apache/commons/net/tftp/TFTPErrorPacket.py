@@ -6,15 +6,19 @@ ILLEGAL_OPERATION = "int  4"
 UNKNOWN_TID = "int  5"
 FILE_EXISTS = "int  6"
 NO_SUCH_USER = "int  7"
-def TFTPErrorPacket():
-    '''public TFTPErrorPacket(final InetAddress destination, final int port, final int error, final String message)
+def ():
+    '''returns TFTPErrorPacket\n\n
+    (final InetAddress destination, final int port, final int error, final String message)\n
     '''
 def newDatagram():
-    '''public DatagramPacket newDatagram()
+    '''returns DatagramPacket\n\n
+    newDatagram()\n
     '''
 def getError():
-    '''public int getError()
+    '''returns int\n\n
+    getError()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

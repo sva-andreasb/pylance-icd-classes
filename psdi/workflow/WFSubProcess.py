@@ -1,27 +1,36 @@
-def WFSubProcess():
-    '''public WFSubProcess(final MboSet ms)
+def ():
+    '''returns WFSubProcess\n\n
+    (final MboSet ms)\n
     '''
 def getProcess():
-    '''public WFProcessRemote getProcess()
+    '''returns WFProcessRemote\n\n
+    getProcess()\n
     '''
 def getEnabledWFProcess():
-    '''public WFProcess getEnabledWFProcess()
+    '''returns WFProcess\n\n
+    getEnabledWFProcess()\n
     '''
 def buildSubProcessList():
-    '''public void buildSubProcessList(final Hashtable<String, String> h)
+    '''returns None\n\n
+    buildSubProcessList(final Hashtable<String, String> h)\n
     '''
 def wfValidate():
-    '''public void wfValidate(final Vector<MXException> errs, final Hashtable<String, String> hinfo)
+    '''returns None\n\n
+    wfValidate(final Vector<MXException> errs, final Hashtable<String, String> hinfo)\n
     '''
 def canTakePositive():
-    '''public boolean canTakePositive()
+    '''returns boolean\n\n
+    canTakePositive()\n
     '''
 def canTakeNegative():
-    '''public boolean canTakeNegative()
+    '''returns boolean\n\n
+    canTakeNegative()\n
     '''
 def addedAction():
-    '''public void addedAction(final boolean wasPositive)
+    '''returns None\n\n
+    addedAction(final boolean wasPositive)\n
     '''
 def removedAction():
-    '''public void removedAction(final boolean wasPositive)
+    '''returns None\n\n
+    removedAction(final boolean wasPositive)\n
     '''

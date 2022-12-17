@@ -1,6 +1,8 @@
-def PlusCFldRepairLimit():
-    '''public PlusCFldRepairLimit(final MboValue mbv)
+def ():
+    '''returns PlusCFldRepairLimit\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,9 +1,8 @@
 def scheduledetail():
-    '''public int scheduledetail()
+    '''returns int\n\n
+    scheduledetail()\n
     '''
 def deleteschedule():
-    '''public int deleteschedule()
-    '''
-def save():
-    '''public synchronized void save()
+    '''returns int\n\n
+    deleteschedule()\n
     '''

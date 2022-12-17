@@ -1,7 +1,8 @@
 def getType():
-    '''public short getType(final STObject stObject)
+    '''returns short\n\n
+    getType(final STObject stObject)\n
     '''
 def getWatchedObject():
-    '''public STWatchedObject getWatchedObject(final int n, final STId stId, final String s, final String s2)
-    public final STWatchedObject getWatchedObject(final STObject stObject)
+    '''returns STWatchedObject\n\n
+    getWatchedObject(final int n, final STId stId, final String s, final String s2)\n
     '''

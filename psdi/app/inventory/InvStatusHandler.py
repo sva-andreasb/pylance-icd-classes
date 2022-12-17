@@ -1,30 +1,40 @@
-def InvStatusHandler():
-    '''public InvStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns InvStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String desiredStatus)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String desiredStatus)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)\n
     '''
 def canPending():
-    '''public void canPending()
+    '''returns None\n\n
+    canPending()\n
     '''
 def canPlanning():
-    '''public void canPlanning()
+    '''returns None\n\n
+    canPlanning()\n
     '''
 def canActive():
-    '''public void canActive()
+    '''returns None\n\n
+    canActive()\n
     '''
 def canPendobs():
-    '''public void canPendobs()
+    '''returns None\n\n
+    canPendobs()\n
     '''
 def canObsolete():
-    '''public void canObsolete()
+    '''returns None\n\n
+    canObsolete()\n
     '''
 def validateChangeStatus():
-    '''public void validateChangeStatus(final String currentStatus, final String desiredStatus, final Date asOfDate, final String memo)
+    '''returns None\n\n
+    validateChangeStatus(final String currentStatus, final String desiredStatus, final Date asOfDate, final String memo)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String desiredStatus, final Date asOfDate, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String desiredStatus, final Date asOfDate, final String memo)\n
     '''

@@ -1,6 +1,8 @@
-def DefaultResourceURIResolver():
-    '''public DefaultResourceURIResolver(final RouterHandler handler)
+def ():
+    '''returns DefaultResourceURIResolver\n\n
+    (final RouterHandler handler)\n
     '''
 def resolve():
-    '''public Resource resolve(final Resource res)
+    '''returns Resource\n\n
+    resolve(final Resource res)\n
     '''

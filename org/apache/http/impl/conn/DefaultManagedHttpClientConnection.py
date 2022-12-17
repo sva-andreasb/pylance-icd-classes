@@ -1,28 +1,37 @@
-def DefaultManagedHttpClientConnection():
-    '''public DefaultManagedHttpClientConnection(final String id, final int buffersize, final int fragmentSizeHint, final CharsetDecoder chardecoder, final CharsetEncoder charencoder, final MessageConstraints constraints, final ContentLengthStrategy incomingContentStrategy, final ContentLengthStrategy outgoingContentStrategy, final HttpMessageWriterFactory<HttpRequest> requestWriterFactory, final HttpMessageParserFactory<HttpResponse> responseParserFactory)
-    public DefaultManagedHttpClientConnection(final String id, final int buffersize)
+def ():
+    '''returns DefaultManagedHttpClientConnection\n\n
+    (final String id, final int buffersize, final int fragmentSizeHint, final CharsetDecoder chardecoder, final CharsetEncoder charencoder, final MessageConstraints constraints, final ContentLengthStrategy incomingContentStrategy, final ContentLengthStrategy outgoingContentStrategy, final HttpMessageWriterFactory<HttpRequest> requestWriterFactory, final HttpMessageParserFactory<HttpResponse> responseParserFactory)\n
+    (final String id, final int buffersize)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String id)
+    '''returns Object\n\n
+    getAttribute(final String id)\n
     '''
 def removeAttribute():
-    '''public Object removeAttribute(final String id)
+    '''returns Object\n\n
+    removeAttribute(final String id)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String id, final Object obj)
+    '''returns None\n\n
+    setAttribute(final String id, final Object obj)\n
     '''
 def bind():
-    '''public void bind(final Socket socket)
+    '''returns None\n\n
+    bind(final Socket socket)\n
     '''
 def getSocket():
-    '''public Socket getSocket()
+    '''returns Socket\n\n
+    getSocket()\n
     '''
 def getSSLSession():
-    '''public SSLSession getSSLSession()
+    '''returns SSLSession\n\n
+    getSSLSession()\n
     '''

@@ -1,33 +1,44 @@
-def AssetFeatureSpec():
-    '''public AssetFeatureSpec(final MboSet ms)
+def ():
+    '''returns AssetFeatureSpec\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def addDetailInfor():
-    '''public void addDetailInfor(final MboRemote mbo, final MboRemote classspec)
+    '''returns None\n\n
+    addDetailInfor(final MboRemote mbo, final MboRemote classspec)\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def isChangeByUserWhenSetFromLookup():
-    '''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''returns boolean\n\n
+    isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)\n
     '''
 def isSpecModified():
-    '''public boolean isSpecModified()
+    '''returns boolean\n\n
+    isSpecModified()\n
     '''
 def getSpecHistory():
-    '''public MboSetRemote getSpecHistory()
+    '''returns MboSetRemote\n\n
+    getSpecHistory()\n
     '''
 def updateSpecHistory():
-    '''public void updateSpecHistory()
+    '''returns None\n\n
+    updateSpecHistory()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

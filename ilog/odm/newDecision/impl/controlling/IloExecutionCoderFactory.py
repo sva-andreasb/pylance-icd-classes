@@ -1,41 +1,31 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def makeDecisionExecutionEncoder():
-    '''public static IloDecisionExecutionController makeDecisionExecutionEncoder(final IloEngineExecutionController target)
-    '''
-def makeDecisionExecutionDecoder():
-    '''public static IloEngineExecutionController makeDecisionExecutionDecoder(final IloDecisionExecutionController controller)
-    '''
-def isAbortOrder():
-    '''public static boolean isAbortOrder(final String orderType)
-    '''
-def isAcceptSolutionOrder():
-    '''public static boolean isAcceptSolutionOrder(final String orderType)
-    '''
-def isSkipCurrentGoalSearch():
-    '''public static boolean isSkipCurrentGoalSearch(final String orderType)
-    '''
-def Encoder():
-    '''public Encoder(final IloEngineExecutionController controller)
+def ():
+    '''returns Decoder\n\n
+    (final IloEngineExecutionController controller)\n
+    (final IloDecisionExecutionController controller)\n
     '''
 def skipCurrentGoalBoundSearch():
-    '''public void skipCurrentGoalBoundSearch()
+    '''returns None\n\n
+    skipCurrentGoalBoundSearch()\n
     '''
 def skipRelaxationMinimization():
-    '''public void skipRelaxationMinimization()
+    '''returns None\n\n
+    skipRelaxationMinimization()\n
     '''
 def skipRelaxationPriority():
-    '''public void skipRelaxationPriority()
+    '''returns None\n\n
+    skipRelaxationPriority()\n
     '''
 def acceptCurrentSolution():
-    '''public void acceptCurrentSolution()
+    '''returns None\n\n
+    acceptCurrentSolution()\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def sendControllingOrder():
-    '''public void sendControllingOrder(final long orderId, final String orderType, final Serializable[] orderParameter)
-    public void sendControllingOrder(final long orderId, final String orderType, final Serializable[] orderParameter)
-    '''
-def Decoder():
-    '''public Decoder(final IloDecisionExecutionController controller)
+    '''returns None\n\n
+    sendControllingOrder(final long orderId, final String orderType, final Serializable[] orderParameter)\n
+    sendControllingOrder(final long orderId, final String orderType, final Serializable[] orderParameter)\n
     '''

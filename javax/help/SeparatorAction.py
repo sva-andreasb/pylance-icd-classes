@@ -1,3 +1,4 @@
-def SeparatorAction():
-    '''public SeparatorAction(final Object o)
+def ():
+    '''returns SeparatorAction\n\n
+    (final Object o)\n
     '''

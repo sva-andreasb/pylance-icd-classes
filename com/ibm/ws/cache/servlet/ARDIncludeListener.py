@@ -1,24 +1,28 @@
-def ARDIncludeListener():
-    '''public ARDIncludeListener(final FragmentComposer fc)
+def ():
+    '''returns ARDIncludeListener\n\n
+    (final FragmentComposer fc)\n
     '''
 def endPlaceholder():
-    '''public void endPlaceholder(final HttpServletRequest req, final HttpServletResponse resp, final IIncludeData iData)
+    '''returns None\n\n
+    endPlaceholder(final HttpServletRequest req, final HttpServletResponse resp, final IIncludeData iData)\n
     '''
 def startPlaceholder():
-    '''public void startPlaceholder(final HttpServletRequest req, final HttpServletResponse resp, final IIncludeData iData)
+    '''returns None\n\n
+    startPlaceholder(final HttpServletRequest req, final HttpServletResponse resp, final IIncludeData iData)\n
     '''
 def placeholderWriteFailure():
-    '''public void placeholderWriteFailure(final HttpServletRequest req, final HttpServletResponse resp, final IIncludeData iiData)
-    '''
-def fragmentComposerCleanup():
-    '''public static void fragmentComposerCleanup(final String childID, final FragmentComposer parent)
+    '''returns None\n\n
+    placeholderWriteFailure(final HttpServletRequest req, final HttpServletResponse resp, final IIncludeData iiData)\n
     '''
 def includePreInvoke():
-    '''public void includePreInvoke(final HttpServletRequest req, final HttpServletResponse resp, final AsyncRequestDispatcherConfig config)
+    '''returns None\n\n
+    includePreInvoke(final HttpServletRequest req, final HttpServletResponse resp, final AsyncRequestDispatcherConfig config)\n
     '''
 def startListeningForARD():
-    '''public void startListeningForARD(final FragmentComposer fc)
+    '''returns None\n\n
+    startListeningForARD(final FragmentComposer fc)\n
     '''
 def isPlaceholderWriteInProgress():
-    '''public boolean isPlaceholderWriteInProgress()
+    '''returns boolean\n\n
+    isPlaceholderWriteInProgress()\n
     '''

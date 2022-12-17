@@ -1,55 +1,54 @@
-def PropertiesUtil():
-    '''public PropertiesUtil(final Properties props)
-    public PropertiesUtil(final String propertiesFileName)
-    '''
-def getProperties():
-    '''public static PropertiesUtil getProperties()
+def ():
+    '''returns PropertiesUtil\n\n
+    (final Properties props)\n
+    (final String propertiesFileName)\n
     '''
 def hasProperty():
-    '''public boolean hasProperty(final String name)
+    '''returns boolean\n\n
+    hasProperty(final String name)\n
     '''
 def getBooleanProperty():
-    '''public boolean getBooleanProperty(final String name)
-    public boolean getBooleanProperty(final String name, final boolean defaultValue)
-    public boolean getBooleanProperty(final String name, final boolean defaultValueIfAbsent, final boolean defaultValueIfPresent)
-    public Boolean getBooleanProperty(final String[] prefixes, final String key, final Supplier<Boolean> supplier)
+    '''returns Boolean\n\n
+    getBooleanProperty(final String name)\n
+    getBooleanProperty(final String name, final boolean defaultValue)\n
+    getBooleanProperty(final String name, final boolean defaultValueIfAbsent, final boolean defaultValueIfPresent)\n
+    getBooleanProperty(final String[] prefixes, final String key, final Supplier<Boolean> supplier)\n
     '''
 def getCharsetProperty():
-    '''public Charset getCharsetProperty(final String name)
-    public Charset getCharsetProperty(final String name, final Charset defaultValue)
+    '''returns Charset\n\n
+    getCharsetProperty(final String name)\n
+    getCharsetProperty(final String name, final Charset defaultValue)\n
     '''
 def getDoubleProperty():
-    '''public double getDoubleProperty(final String name, final double defaultValue)
+    '''returns double\n\n
+    getDoubleProperty(final String name, final double defaultValue)\n
     '''
 def getIntegerProperty():
-    '''public int getIntegerProperty(final String name, final int defaultValue)
-    public Integer getIntegerProperty(final String[] prefixes, final String key, final Supplier<Integer> supplier)
+    '''returns Integer\n\n
+    getIntegerProperty(final String name, final int defaultValue)\n
+    getIntegerProperty(final String[] prefixes, final String key, final Supplier<Integer> supplier)\n
     '''
 def getLongProperty():
-    '''public long getLongProperty(final String name, final long defaultValue)
-    public Long getLongProperty(final String[] prefixes, final String key, final Supplier<Long> supplier)
+    '''returns Long\n\n
+    getLongProperty(final String name, final long defaultValue)\n
+    getLongProperty(final String[] prefixes, final String key, final Supplier<Long> supplier)\n
     '''
 def getDurationProperty():
-    '''public Duration getDurationProperty(final String name, final Duration defaultValue)
-    public Duration getDurationProperty(final String[] prefixes, final String key, final Supplier<Duration> supplier)
+    '''returns Duration\n\n
+    getDurationProperty(final String name, final Duration defaultValue)\n
+    getDurationProperty(final String[] prefixes, final String key, final Supplier<Duration> supplier)\n
     '''
 def getStringProperty():
-    '''public String getStringProperty(final String[] prefixes, final String key, final Supplier<String> supplier)
-    public String getStringProperty(final String name)
-    public String getStringProperty(final String name, final String defaultValue)
-    '''
-def getSystemProperties():
-    '''public static Properties getSystemProperties()
+    '''returns String\n\n
+    getStringProperty(final String[] prefixes, final String key, final Supplier<String> supplier)\n
+    getStringProperty(final String name)\n
+    getStringProperty(final String name, final String defaultValue)\n
     '''
 def reload():
-    '''public void reload()
-    '''
-def extractSubset():
-    '''public static Properties extractSubset(final Properties properties, final String prefix)
-    '''
-def partitionOnCommonPrefixes():
-    '''public static Map<String, Properties> partitionOnCommonPrefixes(final Properties properties)
+    '''returns None\n\n
+    reload()\n
     '''
 def isOsWindows():
-    '''public boolean isOsWindows()
+    '''returns boolean\n\n
+    isOsWindows()\n
     '''

@@ -1,30 +1,39 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloOplDecisionEngineFactory():
-    '''public IloOplDecisionEngineFactory(final IloOplModelSourceFactory modelSourceFactory, final IloReportHandler reportHandler, final IloApplicationContext applicationContext)
-    public IloOplDecisionEngineFactory(final IloOplModelSourceFactory oplModelSourceFactory)
-    public IloOplDecisionEngineFactory(final IloOptimDesc optimDesc, final IloODMOptimElements config, final IloReportHandler reportHandler, final IloApplicationContext applicationContext)
+def ():
+    '''returns IloOplDecisionEngineFactory\n\n
+    (final IloOplModelSourceFactory modelSourceFactory, final IloReportHandler reportHandler, final IloApplicationContext applicationContext)\n
+    (final IloOplModelSourceFactory oplModelSourceFactory)\n
+    (final IloOptimDesc optimDesc, final IloODMOptimElements config, final IloReportHandler reportHandler, final IloApplicationContext applicationContext)\n
     '''
 def addDataFile():
-    '''public void addDataFile(final URL file)
+    '''returns None\n\n
+    addDataFile(final URL file)\n
     '''
 def addDataSourceFactory():
-    '''public void addDataSourceFactory(final IloOplDataSourceFactory datasource)
+    '''returns None\n\n
+    addDataSourceFactory(final IloOplDataSourceFactory datasource)\n
     '''
 def getReportHandler():
-    '''public IloReportHandler getReportHandler()
+    '''returns IloReportHandler\n\n
+    getReportHandler()\n
     '''
 def updateMappingFile():
-    '''public void updateMappingFile(final URL mapFile)
+    '''returns None\n\n
+    updateMappingFile(final URL mapFile)\n
     '''
 def getOplSourceFactory():
-    '''public IloOplModelSourceFactory getOplSourceFactory()
+    '''returns IloOplModelSourceFactory\n\n
+    getOplSourceFactory()\n
     '''
 def setOptimizationDescription():
-    '''public void setOptimizationDescription(final IloOptimDesc desc)
+    '''returns None\n\n
+    setOptimizationDescription(final IloOptimDesc desc)\n
     '''
 def getOptimizationDescription():
-    '''public IloOptimDesc getOptimizationDescription()
+    '''returns IloOptimDesc\n\n
+    getOptimizationDescription()\n
     '''
 def makeDecisionEngine():
-    '''public IloOplDecisionEngine makeDecisionEngine(final IloScenario scenario)
+    '''returns IloOplDecisionEngine\n\n
+    makeDecisionEngine(final IloScenario scenario)\n
     '''

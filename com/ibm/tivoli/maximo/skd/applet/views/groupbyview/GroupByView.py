@@ -1,74 +1,94 @@
-def GroupByView():
-    '''public GroupByView()
+def ():
+    '''returns GroupByView\n\n
+    ()\n
     '''
 def setResourceViewContext():
-    '''public void setResourceViewContext(final ResourceViewContext context)
+    '''returns None\n\n
+    setResourceViewContext(final ResourceViewContext context)\n
     '''
 def initializeView():
-    '''public Component initializeView()
+    '''returns Component\n\n
+    initializeView()\n
     '''
 def adjustmentValueChanged():
-    '''public void adjustmentValueChanged(final AdjustmentEvent e)
+    '''returns None\n\n
+    adjustmentValueChanged(final AdjustmentEvent e)\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final SelectionEvent evt)
+    '''returns None\n\n
+    selectionChanged(final SelectionEvent evt)\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent e)
+    '''returns None\n\n
+    componentResized(final ComponentEvent e)\n
     '''
 def attachModel():
-    '''public void attachModel(final AppletGanttModel model)
+    '''returns None\n\n
+    attachModel(final AppletGanttModel model)\n
     '''
 def applyActivityQbeFilter():
-    '''public void applyActivityQbeFilter(final Map<String, String> map)
+    '''returns None\n\n
+    applyActivityQbeFilter(final Map<String, String> map)\n
     '''
 def applyActivityFilter():
-    '''public void applyActivityFilter(final String s)
+    '''returns None\n\n
+    applyActivityFilter(final String s)\n
     '''
 def attachGanttModelToViewComponents():
-    '''public void attachGanttModelToViewComponents()
-    public void attachGanttModelToViewComponents(final String groupByPropertyName, final String propertyTitle)
+    '''returns None\n\n
+    attachGanttModelToViewComponents()\n
+    attachGanttModelToViewComponents(final String groupByPropertyName, final String propertyTitle)\n
     '''
 def detachGanttModelFromViewComponents():
-    '''public void detachGanttModelFromViewComponents()
+    '''returns None\n\n
+    detachGanttModelFromViewComponents()\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def isEditable():
-    '''public boolean isEditable(final IlvHierarchyNode row)
+    '''returns boolean\n\n
+    isEditable(final IlvHierarchyNode row)\n
     '''
 def getDividerComponent():
-    '''public Object getDividerComponent()
+    '''returns Object\n\n
+    getDividerComponent()\n
     '''
 def activityChanged():
-    '''public void activityChanged(final ActivityEvent activityEvent)
+    '''returns None\n\n
+    activityChanged(final ActivityEvent activityEvent)\n
     '''
 def compare():
-    '''public int compare(final IMXActivityPropertyInfo a01, final IMXActivityPropertyInfo a02)
-    public int compare(final IlvResource a01, final IlvResource a02)
+    '''returns int\n\n
+    compare(final IMXActivityPropertyInfo a01, final IMXActivityPropertyInfo a02)\n
+    compare(final IlvResource a01, final IlvResource a02)\n
     '''
 def setSortedResourceChildren():
-    '''public void setSortedResourceChildren(final Map<IlvResource, List<IlvResource>> sortedResourceChildren)
-    '''
-def getSortedResourceChildren():
-    '''public Map<IlvResource, List<IlvResource>> getSortedResourceChildren()
+    '''returns None\n\n
+    setSortedResourceChildren(final Map<IlvResource, List<IlvResource>> sortedResourceChildren)\n
     '''
 def getChildIndex():
-    '''public int getChildIndex(final IlvHierarchyNode parent, final IlvHierarchyNode child)
+    '''returns int\n\n
+    getChildIndex(final IlvHierarchyNode parent, final IlvHierarchyNode child)\n
     '''
 def getParentResourceIndex():
-    '''public int getParentResourceIndex(final IlvResource resource)
+    '''returns int\n\n
+    getParentResourceIndex(final IlvResource resource)\n
     '''
 def getChildResource():
-    '''public IlvResource getChildResource(final IlvResource parent, final int index)
+    '''returns IlvResource\n\n
+    getChildResource(final IlvResource parent, final int index)\n
     '''
 def getChildResourceIndex():
-    '''public int getChildResourceIndex(final IlvResource parent, final IlvResource child)
+    '''returns int\n\n
+    getChildResourceIndex(final IlvResource parent, final IlvResource child)\n
     '''
 def childResourceIterator():
-    '''public Iterator<IlvResource> childResourceIterator(final IlvResource parent)
+    '''returns Iterator<IlvResource>\n\n
+    childResourceIterator(final IlvResource parent)\n
     '''

@@ -1,18 +1,24 @@
-def ServletCacheServiceImpl():
-    '''public ServletCacheServiceImpl()
+def ():
+    '''returns ServletCacheServiceImpl\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize(final Object config)
+    '''returns None\n\n
+    initialize(final Object config)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def stateChanged():
-    '''public void stateChanged(final DeployedObjectEvent doe)
+    '''returns None\n\n
+    stateChanged(final DeployedObjectEvent doe)\n
     '''
 def vetoableChange():
-    '''public void vetoableChange(final PropertyChangeEvent pce)
+    '''returns None\n\n
+    vetoableChange(final PropertyChangeEvent pce)\n
     '''

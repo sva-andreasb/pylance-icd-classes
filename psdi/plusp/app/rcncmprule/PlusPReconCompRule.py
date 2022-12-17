@@ -1,6 +1,8 @@
-def PlusPReconCompRule():
-    '''public PlusPReconCompRule(final MboSet arg0)
+def ():
+    '''returns PlusPReconCompRule\n\n
+    (final MboSet arg0)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

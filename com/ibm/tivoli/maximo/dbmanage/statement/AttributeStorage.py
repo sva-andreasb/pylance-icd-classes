@@ -1,85 +1,92 @@
-def AttributeStorage():
-    '''public AttributeStorage(final String[] names, final AttributeClass[] storage)
-    public AttributeStorage(final AttributeStorageDefinition definition)
-    public AttributeStorage(final AttributeStorageDefinition asd, final Element element)
+def ():
+    '''returns AttributeStorage\n\n
+    (final String[] names, final AttributeClass[] storage)\n
+    (final AttributeStorageDefinition definition)\n
+    (final AttributeStorageDefinition asd, final Element element)\n
     '''
 def set():
-    '''public void set(final String attrName, final Object value)
+    '''returns None\n\n
+    set(final String attrName, final Object value)\n
     '''
 def get():
-    '''public Object get(final String attrName)
-    public Object get(final int n)
-    '''
-def getInt():
-    '''public final Integer getInt(final String attrName)
-    '''
-def getBoolean():
-    '''public final Boolean getBoolean(final String attrName)
-    '''
-def getDouble():
-    '''public final Double getDouble(final String attrName)
-    '''
-def getLong():
-    '''public final Long getLong(final String attrName)
-    '''
-def getString():
-    '''public final String getString(final String attrName)
+    '''returns Object\n\n
+    get(final String attrName)\n
+    get(final int n)\n
     '''
 def isSet():
-    '''public boolean isSet(final String attrName)
+    '''returns boolean\n\n
+    isSet(final String attrName)\n
     '''
 def clear():
-    '''public void clear(final String attrName)
+    '''returns None\n\n
+    clear(final String attrName)\n
     '''
 def loadFromElement():
-    '''public void loadFromElement(final Element fromElement)
+    '''returns None\n\n
+    loadFromElement(final Element fromElement)\n
     '''
 def saveToElement():
-    '''public void saveToElement(final Element toElement)
-    public void saveToElement(final String[] columnDefAttributes, final Element toElement)
+    '''returns None\n\n
+    saveToElement(final Element toElement)\n
+    saveToElement(final String[] columnDefAttributes, final Element toElement)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getSetAttr():
-    '''public Set<String> getSetAttr()
+    '''returns Set<String>\n\n
+    getSetAttr()\n
     '''
 def setWithIgnore():
-    '''public void setWithIgnore(final String string, final Object object)
+    '''returns None\n\n
+    setWithIgnore(final String string, final Object object)\n
     '''
 def copyFromStorage():
-    '''public void copyFromStorage(final AttributeStorage attr)
+    '''returns None\n\n
+    copyFromStorage(final AttributeStorage attr)\n
     '''
 def loadFromResultSet():
-    '''public void loadFromResultSet(final ResultSet rs)
+    '''returns None\n\n
+    loadFromResultSet(final ResultSet rs)\n
     '''
 def hasAttribute():
-    '''public boolean hasAttribute(final String attrName)
+    '''returns boolean\n\n
+    hasAttribute(final String attrName)\n
     '''
 def getAttrClass():
-    '''public AttributeClass getAttrClass(final String attr)
+    '''returns AttributeClass\n\n
+    getAttrClass(final String attr)\n
     '''
 def getNameIterator():
-    '''public Iterator<String> getNameIterator()
+    '''returns Iterator<String>\n\n
+    getNameIterator()\n
     '''
 def getValues():
-    '''public Object[] getValues()
+    '''returns Object[]\n\n
+    getValues()\n
     '''
 def getDefinition():
-    '''public AttributeStorageDefinition getDefinition()
+    '''returns AttributeStorageDefinition\n\n
+    getDefinition()\n
     '''
 def getCommaLine():
-    '''public String getCommaLine()
+    '''returns String\n\n
+    getCommaLine()\n
     '''
 def getTimestamp():
-    '''public Timestamp getTimestamp(final String attrName)
+    '''returns Timestamp\n\n
+    getTimestamp(final String attrName)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hasNoValues():
-    '''public boolean hasNoValues()
+    '''returns boolean\n\n
+    hasNoValues()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

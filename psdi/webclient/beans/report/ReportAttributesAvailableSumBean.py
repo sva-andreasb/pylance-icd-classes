@@ -1,9 +1,12 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def addAttributeSum():
-    '''public int addAttributeSum(final MboRemote attribute)
+    '''returns int\n\n
+    addAttributeSum(final MboRemote attribute)\n
     '''

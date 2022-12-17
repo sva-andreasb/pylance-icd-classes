@@ -1,36 +1,48 @@
-def SelectionCriteriaImpl():
-    '''public SelectionCriteriaImpl(final Identity identity, final Map map)
+def ():
+    '''returns SelectionCriteriaImpl\n\n
+    (final Identity identity, final Map map)\n
     '''
 def getIdentity():
-    '''public Identity getIdentity()
+    '''returns Identity\n\n
+    getIdentity()\n
     '''
 def getAttributes():
-    '''public Map getAttributes()
+    '''returns Map\n\n
+    getAttributes()\n
     '''
 def match():
-    '''public void match(final List modifiedMembers)
+    '''returns None\n\n
+    match(final List modifiedMembers)\n
     '''
 def select():
-    '''public Target select()
+    '''returns Target\n\n
+    select()\n
     '''
 def isAffinityKeyPresent():
-    '''public boolean isAffinityKeyPresent()
+    '''returns boolean\n\n
+    isAffinityKeyPresent()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def handleNotification():
-    '''public void handleNotification(final DescriptionKey key, final String type, final Object userData, final Object handback)
+    '''returns None\n\n
+    handleNotification(final DescriptionKey key, final String type, final Object userData, final Object handback)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getTargetFromIdentity():
-    '''public TargetImpl getTargetFromIdentity(final ArrayList<Identity> clusters, final ClusterMemberDescription memberDescription)
+    '''returns TargetImpl\n\n
+    getTargetFromIdentity(final ArrayList<Identity> clusters, final ClusterMemberDescription memberDescription)\n
     '''
 def getTargetsCached():
-    '''public Collection<Target> getTargetsCached()
+    '''returns Collection<Target>\n\n
+    getTargetsCached()\n
     '''

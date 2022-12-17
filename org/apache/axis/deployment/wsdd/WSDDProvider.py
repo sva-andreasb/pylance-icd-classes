@@ -1,12 +1,8 @@
-def registerProvider():
-    '''public static void registerProvider(final QName uri, final WSDDProvider prov)
-    '''
 def getOperations():
-    '''public WSDDOperation[] getOperations()
+    '''returns WSDDOperation[]\n\n
+    getOperations()\n
     '''
 def getOperation():
-    '''public WSDDOperation getOperation(final String name)
-    '''
-def getInstance():
-    '''public static Handler getInstance(final QName providerType, final WSDDService service, final EngineConfiguration registry)
+    '''returns WSDDOperation\n\n
+    getOperation(final String name)\n
     '''

@@ -1,3 +1,4 @@
-def MfMailCfgSet():
-    '''public MfMailCfgSet(final MboServerInterface ms)
+def ():
+    '''returns MfMailCfgSet\n\n
+    (final MboServerInterface ms)\n
     '''

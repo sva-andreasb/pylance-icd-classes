@@ -1,16 +1,20 @@
-def DotTerminatedMessageWriter():
-    '''public DotTerminatedMessageWriter(final Writer output)
+def ():
+    '''returns DotTerminatedMessageWriter\n\n
+    (final Writer output)\n
     '''
 def write():
-    '''public void write(final int ch)
-    public void write(final char[] buffer, int offset, int length)
-    public void write(final char[] buffer)
-    public void write(final String string)
-    public void write(final String string, final int offset, final int length)
+    '''returns None\n\n
+    write(final int ch)\n
+    write(final char[] buffer, int offset, int length)\n
+    write(final char[] buffer)\n
+    write(final String string)\n
+    write(final String string, final int offset, final int length)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

@@ -1,50 +1,66 @@
-def NonBlockingJsonParserBase():
-    '''public NonBlockingJsonParserBase(final IOContext ctxt, final int parserFeatures, final ByteQuadsCanonicalizer sym)
+def ():
+    '''returns NonBlockingJsonParserBase\n\n
+    (final IOContext ctxt, final int parserFeatures, final ByteQuadsCanonicalizer sym)\n
     '''
 def getCodec():
-    '''public ObjectCodec getCodec()
+    '''returns ObjectCodec\n\n
+    getCodec()\n
     '''
 def setCodec():
-    '''public void setCodec(final ObjectCodec c)
+    '''returns None\n\n
+    setCodec(final ObjectCodec c)\n
     '''
 def canParseAsync():
-    '''public boolean canParseAsync()
+    '''returns boolean\n\n
+    canParseAsync()\n
     '''
 def getInputSource():
-    '''public Object getInputSource()
+    '''returns Object\n\n
+    getInputSource()\n
     '''
 def hasTextCharacters():
-    '''public boolean hasTextCharacters()
+    '''returns boolean\n\n
+    hasTextCharacters()\n
     '''
 def getCurrentLocation():
-    '''public JsonLocation getCurrentLocation()
+    '''returns JsonLocation\n\n
+    getCurrentLocation()\n
     '''
 def getTokenLocation():
-    '''public JsonLocation getTokenLocation()
+    '''returns JsonLocation\n\n
+    getTokenLocation()\n
     '''
 def getText():
-    '''public String getText()
-    public int getText(final Writer writer)
+    '''returns int\n\n
+    getText()\n
+    getText(final Writer writer)\n
     '''
 def getValueAsString():
-    '''public String getValueAsString()
-    public String getValueAsString(final String defValue)
+    '''returns String\n\n
+    getValueAsString()\n
+    getValueAsString(final String defValue)\n
     '''
 def getTextCharacters():
-    '''public char[] getTextCharacters()
+    '''returns char[]\n\n
+    getTextCharacters()\n
     '''
 def getTextLength():
-    '''public int getTextLength()
+    '''returns int\n\n
+    getTextLength()\n
     '''
 def getTextOffset():
-    '''public int getTextOffset()
+    '''returns int\n\n
+    getTextOffset()\n
     '''
 def getBinaryValue():
-    '''public byte[] getBinaryValue(final Base64Variant b64variant)
+    '''returns byte[]\n\n
+    getBinaryValue(final Base64Variant b64variant)\n
     '''
 def readBinaryValue():
-    '''public int readBinaryValue(final Base64Variant b64variant, final OutputStream out)
+    '''returns int\n\n
+    readBinaryValue(final Base64Variant b64variant, final OutputStream out)\n
     '''
 def getEmbeddedObject():
-    '''public Object getEmbeddedObject()
+    '''returns Object\n\n
+    getEmbeddedObject()\n
     '''

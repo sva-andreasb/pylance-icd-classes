@@ -1,0 +1,5 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(STPenAlignment.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"stpenalignmentd775type\")"
+CTR = "Enum  Enum.forString(\"ctr\")"
+IN = "Enum  Enum.forString(\"in\")"
+INT_CTR = "int  1"
+INT_IN = "int  2"

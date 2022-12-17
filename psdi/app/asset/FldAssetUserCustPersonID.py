@@ -1,6 +1,8 @@
-def FldAssetUserCustPersonID():
-    '''public FldAssetUserCustPersonID(final MboValue mbv)
+def ():
+    '''returns FldAssetUserCustPersonID\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

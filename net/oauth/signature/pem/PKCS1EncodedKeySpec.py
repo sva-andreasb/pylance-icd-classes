@@ -1,6 +1,8 @@
-def PKCS1EncodedKeySpec():
-    '''public PKCS1EncodedKeySpec(final byte[] keyBytes)
+def ():
+    '''returns PKCS1EncodedKeySpec\n\n
+    (final byte[] keyBytes)\n
     '''
 def getKeySpec():
-    '''public RSAPrivateCrtKeySpec getKeySpec()
+    '''returns RSAPrivateCrtKeySpec\n\n
+    getKeySpec()\n
     '''

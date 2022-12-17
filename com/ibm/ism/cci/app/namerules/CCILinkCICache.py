@@ -1,25 +1,25 @@
-def CCILinkCICache():
-    '''public CCILinkCICache()
-    public CCILinkCICache(final String classstructureid, final List<MXException> exList)
-    '''
-def getClassMappingMap():
-    '''public ConcurrentHashMap<String, ArrayList<String>> getClassMappingMap()
+def ():
+    '''returns CCILinkCICache\n\n
+    ()\n
+    (final String classstructureid, final List<MXException> exList)\n
     '''
 def getGroupMappingList():
-    '''public ArrayList<String> getGroupMappingList(final String nmrGroupNum)
+    '''returns ArrayList<String>\n\n
+    getGroupMappingList(final String nmrGroupNum)\n
     '''
 def getNameRules():
-    '''public List<NameRuleInfo> getNameRules()
+    '''returns List<NameRuleInfo>\n\n
+    getNameRules()\n
     '''
 def getClassstructureid():
-    '''public String getClassstructureid()
+    '''returns String\n\n
+    getClassstructureid()\n
     '''
 def getClassificationid():
-    '''public String getClassificationid()
+    '''returns String\n\n
+    getClassificationid()\n
     '''
 def getClassStructuresToLink():
-    '''public List<String> getClassStructuresToLink()
-    '''
-def isNull():
-    '''public static boolean isNull(final String t)
+    '''returns List<String>\n\n
+    getClassStructuresToLink()\n
     '''

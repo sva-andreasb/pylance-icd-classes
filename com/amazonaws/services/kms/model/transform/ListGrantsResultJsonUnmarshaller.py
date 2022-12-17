@@ -1,6 +1,4 @@
 def unmarshall():
-    '''public ListGrantsResult unmarshall(final JsonUnmarshallerContext context)
-    '''
-def getInstance():
-    '''public static ListGrantsResultJsonUnmarshaller getInstance()
+    '''returns ListGrantsResult\n\n
+    unmarshall(final JsonUnmarshallerContext context)\n
     '''

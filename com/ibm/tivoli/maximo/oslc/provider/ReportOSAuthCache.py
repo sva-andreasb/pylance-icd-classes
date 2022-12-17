@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static final ReportOSAuthCache getInstance()
-    '''
 def hasPermission():
-    '''public boolean hasPermission(final String fName, final UserInfo userInfo)
+    '''returns boolean\n\n
+    hasPermission(final String fName, final UserInfo userInfo)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

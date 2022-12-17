@@ -1,6 +1,8 @@
-def Session():
-    '''public Session()
+def ():
+    '''returns Session\n\n
+    ()\n
     '''
 def getChildElementXML():
-    '''public String getChildElementXML()
+    '''returns String\n\n
+    getChildElementXML()\n
     '''

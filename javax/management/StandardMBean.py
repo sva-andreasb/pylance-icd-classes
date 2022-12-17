@@ -1,36 +1,29 @@
-def getImplementationClass():
-    '''public synchronized Class getImplementationClass()
-    '''
-def getMBeanInterface():
-    '''public final synchronized Class getMBeanInterface()
-    '''
-def getImplementation():
-    '''public synchronized Object getImplementation()
-    '''
-def setImplementation():
-    '''public synchronized void setImplementation(final Object o)
-    '''
 def setAttribute():
-    '''public void setAttribute(final Attribute attribute)
+    '''returns None\n\n
+    setAttribute(final Attribute attribute)\n
     '''
 def getMBeanInfo():
-    '''public MBeanInfo getMBeanInfo()
+    '''returns MBeanInfo\n\n
+    getMBeanInfo()\n
     '''
-def StandardMBean():
-    '''public StandardMBean(final Object o, final Class clazz)
+def ():
+    '''returns StandardMBeanMeta\n\n
+    (final Object o, final Class clazz)\n
+    ()\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String s)
+    '''returns Object\n\n
+    getAttribute(final String s)\n
     '''
 def getAttributes():
-    '''public AttributeList getAttributes(final String[] array)
+    '''returns AttributeList\n\n
+    getAttributes(final String[] array)\n
     '''
 def setAttributes():
-    '''public AttributeList setAttributes(final AttributeList list)
+    '''returns AttributeList\n\n
+    setAttributes(final AttributeList list)\n
     '''
 def invoke():
-    '''public Object invoke(final String s, final Object[] array, final String[] array2)
-    '''
-def StandardMBeanMeta():
-    '''public StandardMBeanMeta()
+    '''returns Object\n\n
+    invoke(final String s, final Object[] array, final String[] array2)\n
     '''

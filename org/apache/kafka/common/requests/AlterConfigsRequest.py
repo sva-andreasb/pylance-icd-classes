@@ -1,40 +1,32 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def AlterConfigsRequest():
-    '''public AlterConfigsRequest(final short version, final Map<Resource, Config> configs, final boolean validateOnly)
-    public AlterConfigsRequest(final Struct struct, final short version)
-    '''
-def configs():
-    '''public Map<Resource, Config> configs()
+def ():
+    '''returns Builder\n\n
+    (final short version, final Map<Resource, Config> configs, final boolean validateOnly)\n
+    (final Struct struct, final short version)\n
+    (final Collection<ConfigEntry> entries)\n
+    (final String name, final String value)\n
+    (final Map<Resource, Config> configs, final boolean validateOnly)\n
     '''
 def validateOnly():
-    '''public boolean validateOnly()
+    '''returns boolean\n\n
+    validateOnly()\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-    '''
-def parse():
-    '''public static AlterConfigsRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Config():
-    '''public Config(final Collection<ConfigEntry> entries)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def entries():
-    '''public Collection<ConfigEntry> entries()
-    '''
-def ConfigEntry():
-    '''public ConfigEntry(final String name, final String value)
+    '''returns Collection<ConfigEntry>\n\n
+    entries()\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def value():
-    '''public String value()
-    '''
-def Builder():
-    '''public Builder(final Map<Resource, Config> configs, final boolean validateOnly)
+    '''returns String\n\n
+    value()\n
     '''
 def build():
-    '''public AlterConfigsRequest build(final short version)
+    '''returns AlterConfigsRequest\n\n
+    build(final short version)\n
     '''

@@ -1,64 +1,68 @@
-def LZ4FrameOutputStream():
-    '''public LZ4FrameOutputStream(final OutputStream out, final BLOCKSIZE blockSize, final FLG.Bits... bits)
-    public LZ4FrameOutputStream(final OutputStream out, final BLOCKSIZE blockSize, final long knownSize, final FLG.Bits... bits)
-    public LZ4FrameOutputStream(final OutputStream out, final BLOCKSIZE blockSize)
-    public LZ4FrameOutputStream(final OutputStream out)
+def ():
+    '''returns FrameInfo\n\n
+    (final OutputStream out, final BLOCKSIZE blockSize, final FLG.Bits... bits)\n
+    (final OutputStream out, final BLOCKSIZE blockSize, final long knownSize, final FLG.Bits... bits)\n
+    (final OutputStream out, final BLOCKSIZE blockSize)\n
+    (final OutputStream out)\n
+    (final int version, final Bits... bits)\n
+    (final FLG flg, final BD bd)\n
     '''
 def write():
-    '''public void write(final int b)
-    public void write(final byte[] b, int off, int len)
+    '''returns None\n\n
+    write(final int b)\n
+    write(final byte[] b, int off, int len)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getIndicator():
-    '''public int getIndicator()
-    '''
-def valueOf():
-    '''public static BLOCKSIZE valueOf(final int indicator)
-    '''
-def FLG():
-    '''public FLG(final int version, final Bits... bits)
-    '''
-def fromByte():
-    '''public static FLG fromByte(final byte flg)
-    public static BD fromByte(final byte bd)
+    '''returns int\n\n
+    getIndicator()\n
     '''
 def toByte():
-    '''public byte toByte()
-    public byte toByte()
+    '''returns byte\n\n
+    toByte()\n
+    toByte()\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final Bits bit)
-    public boolean isEnabled(final FLG.Bits bit)
+    '''returns boolean\n\n
+    isEnabled(final Bits bit)\n
+    isEnabled(final FLG.Bits bit)\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def getBlockMaximumSize():
-    '''public int getBlockMaximumSize()
-    '''
-def FrameInfo():
-    '''public FrameInfo(final FLG flg, final BD bd)
+    '''returns int\n\n
+    getBlockMaximumSize()\n
     '''
 def getFLG():
-    '''public FLG getFLG()
+    '''returns FLG\n\n
+    getFLG()\n
     '''
 def getBD():
-    '''public BD getBD()
+    '''returns BD\n\n
+    getBD()\n
     '''
 def updateStreamHash():
-    '''public void updateStreamHash(final byte[] buff, final int off, final int len)
+    '''returns None\n\n
+    updateStreamHash(final byte[] buff, final int off, final int len)\n
     '''
 def currentStreamHash():
-    '''public int currentStreamHash()
+    '''returns int\n\n
+    currentStreamHash()\n
     '''
 def finish():
-    '''public void finish()
+    '''returns None\n\n
+    finish()\n
     '''
 def isFinished():
-    '''public boolean isFinished()
+    '''returns boolean\n\n
+    isFinished()\n
     '''

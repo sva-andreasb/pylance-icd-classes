@@ -1,12 +1,16 @@
-def ByteArrayPartSource():
-    '''public ByteArrayPartSource(final String fileName, final byte[] bytes)
+def ():
+    '''returns ByteArrayPartSource\n\n
+    (final String fileName, final byte[] bytes)\n
     '''
 def getLength():
-    '''public long getLength()
+    '''returns long\n\n
+    getLength()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def createInputStream():
-    '''public InputStream createInputStream()
+    '''returns InputStream\n\n
+    createInputStream()\n
     '''

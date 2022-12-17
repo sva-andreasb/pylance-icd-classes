@@ -1,96 +1,81 @@
 FORMAT_NAME_JSON = "String  \"JSON\""
-def JsonFactory():
-    '''public JsonFactory()
-    public JsonFactory(final ObjectCodec oc)
+def ():
+    '''returns JsonFactory\n\n
+    ()\n
+    (final ObjectCodec oc)\n
     '''
 def getFormatName():
-    '''public String getFormatName()
+    '''returns String\n\n
+    getFormatName()\n
     '''
 def hasFormat():
-    '''public MatchStrength hasFormat(final InputAccessor acc)
+    '''returns MatchStrength\n\n
+    hasFormat(final InputAccessor acc)\n
     '''
 def version():
-    '''public Version version()
-    '''
-def configure():
-    '''public final JsonFactory configure(final JsonParser.Feature f, final boolean state)
-    public final JsonFactory configure(final JsonGenerator.Feature f, final boolean state)
+    '''returns Version\n\n
+    version()\n
     '''
 def enable():
-    '''public JsonFactory enable(final JsonParser.Feature f)
-    public JsonFactory enable(final JsonGenerator.Feature f)
+    '''returns JsonFactory\n\n
+    enable(final JsonParser.Feature f)\n
+    enable(final JsonGenerator.Feature f)\n
     '''
 def disable():
-    '''public JsonFactory disable(final JsonParser.Feature f)
-    public JsonFactory disable(final JsonGenerator.Feature f)
-    '''
-def isEnabled():
-    '''public final boolean isEnabled(final JsonParser.Feature f)
-    public final boolean isEnabled(final JsonGenerator.Feature f)
-    '''
-def enableParserFeature():
-    '''public final void enableParserFeature(final JsonParser.Feature f)
-    '''
-def disableParserFeature():
-    '''public final void disableParserFeature(final JsonParser.Feature f)
-    '''
-def setParserFeature():
-    '''public final void setParserFeature(final JsonParser.Feature f, final boolean state)
-    '''
-def isParserFeatureEnabled():
-    '''public final boolean isParserFeatureEnabled(final JsonParser.Feature f)
+    '''returns JsonFactory\n\n
+    disable(final JsonParser.Feature f)\n
+    disable(final JsonGenerator.Feature f)\n
     '''
 def getInputDecorator():
-    '''public InputDecorator getInputDecorator()
+    '''returns InputDecorator\n\n
+    getInputDecorator()\n
     '''
 def setInputDecorator():
-    '''public JsonFactory setInputDecorator(final InputDecorator d)
-    '''
-def enableGeneratorFeature():
-    '''public final void enableGeneratorFeature(final JsonGenerator.Feature f)
-    '''
-def disableGeneratorFeature():
-    '''public final void disableGeneratorFeature(final JsonGenerator.Feature f)
-    '''
-def setGeneratorFeature():
-    '''public final void setGeneratorFeature(final JsonGenerator.Feature f, final boolean state)
-    '''
-def isGeneratorFeatureEnabled():
-    '''public final boolean isGeneratorFeatureEnabled(final JsonGenerator.Feature f)
+    '''returns JsonFactory\n\n
+    setInputDecorator(final InputDecorator d)\n
     '''
 def getCharacterEscapes():
-    '''public CharacterEscapes getCharacterEscapes()
+    '''returns CharacterEscapes\n\n
+    getCharacterEscapes()\n
     '''
 def setCharacterEscapes():
-    '''public JsonFactory setCharacterEscapes(final CharacterEscapes esc)
+    '''returns JsonFactory\n\n
+    setCharacterEscapes(final CharacterEscapes esc)\n
     '''
 def getOutputDecorator():
-    '''public OutputDecorator getOutputDecorator()
+    '''returns OutputDecorator\n\n
+    getOutputDecorator()\n
     '''
 def setOutputDecorator():
-    '''public JsonFactory setOutputDecorator(final OutputDecorator d)
+    '''returns JsonFactory\n\n
+    setOutputDecorator(final OutputDecorator d)\n
     '''
 def setCodec():
-    '''public JsonFactory setCodec(final ObjectCodec oc)
+    '''returns JsonFactory\n\n
+    setCodec(final ObjectCodec oc)\n
     '''
 def getCodec():
-    '''public ObjectCodec getCodec()
+    '''returns ObjectCodec\n\n
+    getCodec()\n
     '''
 def createJsonParser():
-    '''public JsonParser createJsonParser(final File f)
-    public JsonParser createJsonParser(final URL url)
-    public JsonParser createJsonParser(InputStream in)
-    public JsonParser createJsonParser(Reader r)
-    public JsonParser createJsonParser(final byte[] data)
-    public JsonParser createJsonParser(final byte[] data, final int offset, final int len)
-    public JsonParser createJsonParser(final String content)
+    '''returns JsonParser\n\n
+    createJsonParser(final File f)\n
+    createJsonParser(final URL url)\n
+    createJsonParser(InputStream in)\n
+    createJsonParser(Reader r)\n
+    createJsonParser(final byte[] data)\n
+    createJsonParser(final byte[] data, final int offset, final int len)\n
+    createJsonParser(final String content)\n
     '''
 def createJsonGenerator():
-    '''public JsonGenerator createJsonGenerator(OutputStream out, final JsonEncoding enc)
-    public JsonGenerator createJsonGenerator(Writer out)
-    public JsonGenerator createJsonGenerator(final OutputStream out)
-    public JsonGenerator createJsonGenerator(final File f, final JsonEncoding enc)
+    '''returns JsonGenerator\n\n
+    createJsonGenerator(OutputStream out, final JsonEncoding enc)\n
+    createJsonGenerator(Writer out)\n
+    createJsonGenerator(final OutputStream out)\n
+    createJsonGenerator(final File f, final JsonEncoding enc)\n
     '''
 def _getBufferRecycler():
-    '''public BufferRecycler _getBufferRecycler()
+    '''returns BufferRecycler\n\n
+    _getBufferRecycler()\n
     '''

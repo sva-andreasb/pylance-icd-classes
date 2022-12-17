@@ -1,6 +1,8 @@
-def FldLaborCraft():
-    '''public FldLaborCraft(final MboValue mbv)
+def ():
+    '''returns FldLaborCraft\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

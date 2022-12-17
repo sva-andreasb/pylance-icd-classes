@@ -1,15 +1,20 @@
-def FmtLayout2():
-    '''public FmtLayout2(final SDBConnection connection)
+def ():
+    '''returns FmtLayout2\n\n
+    (final SDBConnection connection)\n
     '''
 def format():
-    '''public void format()
+    '''returns None\n\n
+    format()\n
     '''
 def truncate():
-    '''public void truncate()
+    '''returns None\n\n
+    truncate()\n
     '''
 def addIndexes():
-    '''public void addIndexes()
+    '''returns None\n\n
+    addIndexes()\n
     '''
 def dropIndexes():
-    '''public void dropIndexes()
+    '''returns None\n\n
+    dropIndexes()\n
     '''

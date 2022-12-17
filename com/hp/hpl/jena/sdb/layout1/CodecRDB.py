@@ -1,10 +1,13 @@
-def CodecRDB():
-    '''public CodecRDB(final IRDBDriver driver)
-    public CodecRDB(final ModelRDB modelRDB)
+def ():
+    '''returns CodecRDB\n\n
+    (final IRDBDriver driver)\n
+    (final ModelRDB modelRDB)\n
     '''
 def encode():
-    '''public String encode(final Node node)
+    '''returns String\n\n
+    encode(final Node node)\n
     '''
 def decode():
-    '''public Node decode(final String s)
+    '''returns Node\n\n
+    decode(final String s)\n
     '''

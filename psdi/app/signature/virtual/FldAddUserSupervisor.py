@@ -1,3 +1,4 @@
-def FldAddUserSupervisor():
-    '''public FldAddUserSupervisor(final MboValue mbv)
+def ():
+    '''returns FldAddUserSupervisor\n\n
+    (final MboValue mbv)\n
     '''

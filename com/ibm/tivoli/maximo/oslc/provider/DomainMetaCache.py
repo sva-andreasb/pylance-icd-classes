@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static final DomainMetaCache getInstance()
-    '''
 def getDomainMeta():
-    '''public JSONObject getDomainMeta(final String valueid)
+    '''returns JSONObject\n\n
+    getDomainMeta(final String valueid)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

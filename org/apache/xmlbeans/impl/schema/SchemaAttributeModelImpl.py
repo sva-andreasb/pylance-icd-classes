@@ -1,28 +1,37 @@
-def SchemaAttributeModelImpl():
-    '''public SchemaAttributeModelImpl()
-    public SchemaAttributeModelImpl(final SchemaAttributeModel sam)
+def ():
+    '''returns SchemaAttributeModelImpl\n\n
+    ()\n
+    (final SchemaAttributeModel sam)\n
     '''
 def getAttributes():
-    '''public SchemaLocalAttribute[] getAttributes()
+    '''returns SchemaLocalAttribute[]\n\n
+    getAttributes()\n
     '''
 def getAttribute():
-    '''public SchemaLocalAttribute getAttribute(final QName name)
+    '''returns SchemaLocalAttribute\n\n
+    getAttribute(final QName name)\n
     '''
 def addAttribute():
-    '''public void addAttribute(final SchemaLocalAttribute attruse)
+    '''returns None\n\n
+    addAttribute(final SchemaLocalAttribute attruse)\n
     '''
 def removeProhibitedAttribute():
-    '''public void removeProhibitedAttribute(final QName name)
+    '''returns None\n\n
+    removeProhibitedAttribute(final QName name)\n
     '''
 def getWildcardSet():
-    '''public QNameSet getWildcardSet()
+    '''returns QNameSet\n\n
+    getWildcardSet()\n
     '''
 def setWildcardSet():
-    '''public void setWildcardSet(final QNameSet set)
+    '''returns None\n\n
+    setWildcardSet(final QNameSet set)\n
     '''
 def getWildcardProcess():
-    '''public int getWildcardProcess()
+    '''returns int\n\n
+    getWildcardProcess()\n
     '''
 def setWildcardProcess():
-    '''public void setWildcardProcess(final int proc)
+    '''returns None\n\n
+    setWildcardProcess(final int proc)\n
     '''

@@ -1,24 +1,32 @@
-def MaxExtIfaceIn():
-    '''public MaxExtIfaceIn(final MboSet ms)
+def ():
+    '''returns MaxExtIfaceIn\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def fillIfaceDetails():
-    '''public void fillIfaceDetails()
+    '''returns None\n\n
+    fillIfaceDetails()\n
     '''
 def importData():
-    '''public FileLoaderImpl importData(final InputStream in, final String fileType, final String delimiter, final boolean ispreview, final MboRemote npMbo, final boolean isFileExtract, final String fileName, final String textQualifier)
+    '''returns FileLoaderImpl\n\n
+    importData(final InputStream in, final String fileType, final String delimiter, final boolean ispreview, final MboRemote npMbo, final boolean isFileExtract, final String fileName, final String textQualifier)\n
     '''

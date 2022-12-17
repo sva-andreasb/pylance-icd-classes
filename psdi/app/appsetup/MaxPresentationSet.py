@@ -1,3 +1,4 @@
-def MaxPresentationSet():
-    '''public MaxPresentationSet(final MboServerInterface ms)
+def ():
+    '''returns MaxPresentationSet\n\n
+    (final MboServerInterface ms)\n
     '''

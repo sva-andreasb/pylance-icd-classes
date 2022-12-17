@@ -1,22 +1,29 @@
-def RFC2965Spec():
-    '''public RFC2965Spec()
-    public RFC2965Spec(final String[] datepatterns, final boolean oneHeader)
+def ():
+    '''returns RFC2965Spec\n\n
+    ()\n
+    (final String[] datepatterns, final boolean oneHeader)\n
     '''
 def parse():
-    '''public List<Cookie> parse(final Header header, final CookieOrigin origin)
+    '''returns List<Cookie>\n\n
+    parse(final Header header, final CookieOrigin origin)\n
     '''
 def validate():
-    '''public void validate(final Cookie cookie, final CookieOrigin origin)
+    '''returns None\n\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
     '''
 def match():
-    '''public boolean match(final Cookie cookie, final CookieOrigin origin)
+    '''returns boolean\n\n
+    match(final Cookie cookie, final CookieOrigin origin)\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def getVersionHeader():
-    '''public Header getVersionHeader()
+    '''returns Header\n\n
+    getVersionHeader()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,3 +1,4 @@
 def APPLYALLASSETLOC():
-    '''public int APPLYALLASSETLOC()
+    '''returns int\n\n
+    APPLYALLASSETLOC()\n
     '''

@@ -1,12 +1,12 @@
-def IloCplex__BarrierCallbackI():
-    '''public IloCplex__BarrierCallbackI(final long cPtr, final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__BarrierCallbackI obj)
+def ():
+    '''returns IloCplex__BarrierCallbackI\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getDualObjValue():
-    '''public double getDualObjValue()
+    '''returns double\n\n
+    getDualObjValue()\n
     '''

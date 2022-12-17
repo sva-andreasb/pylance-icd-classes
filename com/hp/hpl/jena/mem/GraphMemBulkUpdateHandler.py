@@ -1,6 +1,8 @@
-def GraphMemBulkUpdateHandler():
-    '''public GraphMemBulkUpdateHandler(final GraphWithPerform graph)
+def ():
+    '''returns GraphMemBulkUpdateHandler\n\n
+    (final GraphWithPerform graph)\n
     '''
 def removeAll():
-    '''public void removeAll()
+    '''returns None\n\n
+    removeAll()\n
     '''

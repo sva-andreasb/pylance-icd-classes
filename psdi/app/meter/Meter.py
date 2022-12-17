@@ -1,36 +1,48 @@
-def Meter():
-    '''public Meter(final MboSet ms)
+def ():
+    '''returns Meter\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getMeterType():
-    '''public String getMeterType()
+    '''returns String\n\n
+    getMeterType()\n
     '''
 def isContinuous():
-    '''public boolean isContinuous()
+    '''returns boolean\n\n
+    isContinuous()\n
     '''
 def isGauge():
-    '''public boolean isGauge()
+    '''returns boolean\n\n
+    isGauge()\n
     '''
 def isCharacteristic():
-    '''public boolean isCharacteristic()
+    '''returns boolean\n\n
+    isCharacteristic()\n
     '''
 def isContinuousOrGauge():
-    '''public boolean isContinuousOrGauge()
+    '''returns boolean\n\n
+    isContinuousOrGauge()\n
     '''
 def isGaugeOrCharacteristic():
-    '''public boolean isGaugeOrCharacteristic()
+    '''returns boolean\n\n
+    isGaugeOrCharacteristic()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def getTheScaleForReadings():
-    '''public int getTheScaleForReadings()
+    '''returns int\n\n
+    getTheScaleForReadings()\n
     '''

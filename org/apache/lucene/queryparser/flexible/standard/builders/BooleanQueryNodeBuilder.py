@@ -1,3 +1,4 @@
 def build():
-    '''public BooleanQuery build(final QueryNode queryNode)
+    '''returns BooleanQuery\n\n
+    build(final QueryNode queryNode)\n
     '''

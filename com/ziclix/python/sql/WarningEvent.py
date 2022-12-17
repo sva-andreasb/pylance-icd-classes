@@ -1,6 +1,8 @@
-def WarningEvent():
-    '''public WarningEvent(final Object source, final SQLWarning warning)
+def ():
+    '''returns WarningEvent\n\n
+    (final Object source, final SQLWarning warning)\n
     '''
 def getWarning():
-    '''public SQLWarning getWarning()
+    '''returns SQLWarning\n\n
+    getWarning()\n
     '''

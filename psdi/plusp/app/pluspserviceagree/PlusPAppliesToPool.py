@@ -1,18 +1,24 @@
-def PlusPAppliesToPool():
-    '''public PlusPAppliesToPool(final MboSet set)
+def ():
+    '''returns PlusPAppliesToPool\n\n
+    (final MboSet set)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset, final long mboAddFlags)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def setAppliesToPoolFieldFlags():
-    '''public void setAppliesToPoolFieldFlags()
+    '''returns None\n\n
+    setAppliesToPoolFieldFlags()\n
     '''

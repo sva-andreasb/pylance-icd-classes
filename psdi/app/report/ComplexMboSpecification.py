@@ -1,6 +1,8 @@
-def ComplexMboSpecification():
-    '''public ComplexMboSpecification(final MboSpecification spec1, final MboSpecification spec2, final Operator operator)
+def ():
+    '''returns ComplexMboSpecification\n\n
+    (final MboSpecification spec1, final MboSpecification spec2, final Operator operator)\n
     '''
 def isSatisfiedBy():
-    '''public boolean isSatisfiedBy(final MboRemote mbo)
+    '''returns boolean\n\n
+    isSatisfiedBy(final MboRemote mbo)\n
     '''

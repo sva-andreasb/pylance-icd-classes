@@ -1,9 +1,12 @@
-def SizeTerm():
-    '''public SizeTerm(final int comparison, final int size)
+def ():
+    '''returns SizeTerm\n\n
+    (final int comparison, final int size)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def match():
-    '''public boolean match(final Message msg)
+    '''returns boolean\n\n
+    match(final Message msg)\n
     '''

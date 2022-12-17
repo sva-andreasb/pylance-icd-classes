@@ -1,22 +1,21 @@
-def balloonToToolTip():
-    '''public static void balloonToToolTip(final BalloonTip bT, final int initialDelay, final int showDelay)
-    '''
-def toolTipToBalloon():
-    '''public static void toolTipToBalloon(final BalloonTip bT)
-    '''
-def ToolTipController():
-    '''public ToolTipController(final BalloonTip balloonTip, final int initialDelay, final int showDelay)
+def ():
+    '''returns ToolTipController\n\n
+    (final BalloonTip balloonTip, final int initialDelay, final int showDelay)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def mouseEntered():
-    '''public void mouseEntered(final MouseEvent e)
+    '''returns None\n\n
+    mouseEntered(final MouseEvent e)\n
     '''
 def mouseExited():
-    '''public void mouseExited(final MouseEvent e)
+    '''returns None\n\n
+    mouseExited(final MouseEvent e)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
     '''

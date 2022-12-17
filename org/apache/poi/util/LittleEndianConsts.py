@@ -1,0 +1,5 @@
+BYTE_SIZE = "int  1"
+SHORT_SIZE = "int  2"
+INT_SIZE = "int  4"
+LONG_SIZE = "int  8"
+DOUBLE_SIZE = "int  8"

@@ -1,3 +1,4 @@
 def cancelappt():
-    '''public int cancelappt()
+    '''returns int\n\n
+    cancelappt()\n
     '''

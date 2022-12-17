@@ -1,9 +1,12 @@
-def RoleInfo():
-    '''public RoleInfo()
+def ():
+    '''returns RoleInfo\n\n
+    ()\n
     '''
 def addUser():
-    '''public void addUser(final String personId)
+    '''returns None\n\n
+    addUser(final String personId)\n
     '''
 def hasUser():
-    '''public boolean hasUser(final String personId)
+    '''returns boolean\n\n
+    hasUser(final String personId)\n
     '''

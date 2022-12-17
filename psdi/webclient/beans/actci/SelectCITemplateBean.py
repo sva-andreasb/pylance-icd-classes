@@ -1,6 +1,8 @@
-def SelectCITemplateBean():
-    '''public SelectCITemplateBean()
+def ():
+    '''returns SelectCITemplateBean\n\n
+    ()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''

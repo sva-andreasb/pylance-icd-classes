@@ -1,6 +1,8 @@
-def OMChildrenNamespaceIterator():
-    '''public OMChildrenNamespaceIterator(final OMNode currentChild, final String uri)
+def ():
+    '''returns OMChildrenNamespaceIterator\n\n
+    (final OMNode currentChild, final String uri)\n
     '''
 def isEqual():
-    '''public boolean isEqual(final QName searchQName, final QName currentQName)
+    '''returns boolean\n\n
+    isEqual(final QName searchQName, final QName currentQName)\n
     '''

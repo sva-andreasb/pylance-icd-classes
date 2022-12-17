@@ -1,78 +1,86 @@
-def LicenseAcceptanceProcess():
-    '''public LicenseAcceptanceProcess(final LAP lapMan, final String laPath, final String mPath, final String statusPath, final Locale locale)
-    '''
-def copyStatus():
-    '''public static void copyStatus(final String str, final String str2)
-    '''
-def deleteStatus():
-    '''public static boolean deleteStatus(final String str)
+def ():
+    '''returns LicenseAcceptanceProcess\n\n
+    (final LAP lapMan, final String laPath, final String mPath, final String statusPath, final Locale locale)\n
     '''
 def getCurrentLocale():
-    '''public Locale getCurrentLocale()
+    '''returns Locale\n\n
+    getCurrentLocale()\n
     '''
 def getExportPathName():
-    '''public String getExportPathName()
+    '''returns String\n\n
+    getExportPathName()\n
     '''
 def getLAP():
-    '''public LAP getLAP()
+    '''returns LAP\n\n
+    getLAP()\n
     '''
 def getLAPResources():
-    '''public LAPResources getLAPResources()
+    '''returns LAPResources\n\n
+    getLAPResources()\n
     '''
 def getLicense():
-    '''public License getLicense()
+    '''returns License\n\n
+    getLicense()\n
     '''
 def getLicenseAgreement():
-    '''public String[] getLicenseAgreement()
-    public String[] getLicenseAgreement(final Locale locale)
+    '''returns String[]\n\n
+    getLicenseAgreement()\n
+    getLicenseAgreement(final Locale locale)\n
     '''
 def getNonIBMText():
-    '''public String[] getNonIBMText()
+    '''returns String[]\n\n
+    getNonIBMText()\n
     '''
 def hasNonIBMFile():
-    '''public boolean hasNonIBMFile()
+    '''returns boolean\n\n
+    hasNonIBMFile()\n
     '''
 def getLicenseAgreementPrint():
-    '''public String[] getLicenseAgreementPrint()
-    public String[] getLicenseAgreementPrint(final Locale locale)
+    '''returns String[]\n\n
+    getLicenseAgreementPrint()\n
+    getLicenseAgreementPrint(final Locale locale)\n
     '''
 def getNextLocale():
-    '''public Locale getNextLocale()
-    '''
-def getOSLocale():
-    '''public static Locale getOSLocale()
+    '''returns Locale\n\n
+    getNextLocale()\n
     '''
 def getStatus():
-    '''public int getStatus()
-    public static int getStatus(final String s)
+    '''returns int\n\n
+    getStatus()\n
     '''
 def getSupportedLanguages():
-    '''public SupportedLanguages getSupportedLanguages()
+    '''returns SupportedLanguages\n\n
+    getSupportedLanguages()\n
     '''
 def isFocusTraversable():
-    '''public boolean isFocusTraversable()
+    '''returns boolean\n\n
+    isFocusTraversable()\n
     '''
 def isMultiLanguage():
-    '''public boolean isMultiLanguage()
+    '''returns boolean\n\n
+    isMultiLanguage()\n
     '''
 def nextLocale():
-    '''public Locale nextLocale()
-    '''
-def putStatus():
-    '''public static void putStatus(final String s, final int n)
+    '''returns Locale\n\n
+    nextLocale()\n
     '''
 def setCurrentLocale():
-    '''public void setCurrentLocale(final Locale locale)
+    '''returns None\n\n
+    setCurrentLocale(final Locale locale)\n
     '''
 def setLicense():
-    '''public void setLicense(final License license)
+    '''returns None\n\n
+    setLicense(final License license)\n
     '''
 def setNoExportLA():
-    '''public void setNoExportLA()
+    '''returns None\n\n
+    setNoExportLA()\n
     '''
 def setResources():
-    '''public void setResources(final LAPResources lapResources)
+    '''returns None\n\n
+    setResources(final LAPResources lapResources)\n
     '''
 def setStatus():
-    '''public void setStatus(final int n)
+    '''returns None\n\n
+    setStatus(final int n)\n
     '''

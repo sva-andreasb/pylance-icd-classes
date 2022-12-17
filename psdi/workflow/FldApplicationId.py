@@ -1,3 +1,4 @@
-def FldApplicationId():
-    '''public FldApplicationId(final MboValue mbv)
+def ():
+    '''returns FldApplicationId\n\n
+    (final MboValue mbv)\n
     '''

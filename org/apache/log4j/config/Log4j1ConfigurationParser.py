@@ -1,6 +1,8 @@
-def Log4j1ConfigurationParser():
-    '''public Log4j1ConfigurationParser()
+def ():
+    '''returns Log4j1ConfigurationParser\n\n
+    ()\n
     '''
 def buildConfigurationBuilder():
-    '''public ConfigurationBuilder<BuiltConfiguration> buildConfigurationBuilder(final InputStream input)
+    '''returns ConfigurationBuilder<BuiltConfiguration>\n\n
+    buildConfigurationBuilder(final InputStream input)\n
     '''

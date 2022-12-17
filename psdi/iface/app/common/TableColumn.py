@@ -1,6 +1,8 @@
-def TableColumn():
-    '''public TableColumn(final MboSet ms)
+def ():
+    '''returns TableColumn\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

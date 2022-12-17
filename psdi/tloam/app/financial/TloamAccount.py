@@ -1,6 +1,8 @@
-def TloamAccount():
-    '''public TloamAccount(final MboSet ms)
+def ():
+    '''returns TloamAccount\n\n
+    (final MboSet ms)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

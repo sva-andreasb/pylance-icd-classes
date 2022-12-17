@@ -1,32 +1,42 @@
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String prefix)
+    '''returns None\n\n
+    setPrefix(final String prefix)\n
     '''
 def withPrefix():
-    '''public ReplicationRule withPrefix(final String prefix)
+    '''returns ReplicationRule\n\n
+    withPrefix(final String prefix)\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final String status)
-    public void setStatus(final ReplicationRuleStatus status)
+    '''returns None\n\n
+    setStatus(final String status)\n
+    setStatus(final ReplicationRuleStatus status)\n
     '''
 def withStatus():
-    '''public ReplicationRule withStatus(final String status)
-    public ReplicationRule withStatus(final ReplicationRuleStatus status)
+    '''returns ReplicationRule\n\n
+    withStatus(final String status)\n
+    withStatus(final ReplicationRuleStatus status)\n
     '''
 def getDestinationConfig():
-    '''public ReplicationDestinationConfig getDestinationConfig()
+    '''returns ReplicationDestinationConfig\n\n
+    getDestinationConfig()\n
     '''
 def setDestinationConfig():
-    '''public void setDestinationConfig(final ReplicationDestinationConfig destinationConfig)
+    '''returns None\n\n
+    setDestinationConfig(final ReplicationDestinationConfig destinationConfig)\n
     '''
 def withDestinationConfig():
-    '''public ReplicationRule withDestinationConfig(final ReplicationDestinationConfig destinationConfig)
+    '''returns ReplicationRule\n\n
+    withDestinationConfig(final ReplicationDestinationConfig destinationConfig)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

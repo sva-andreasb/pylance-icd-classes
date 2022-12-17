@@ -1,10 +1,13 @@
-def JSONPojoConvertorFactory():
-    '''public JSONPojoConvertorFactory(final JSON json)
-    public JSONPojoConvertorFactory(final JSON json, final boolean fromJSON)
+def ():
+    '''returns JSONPojoConvertorFactory\n\n
+    (final JSON json)\n
+    (final JSON json, final boolean fromJSON)\n
     '''
 def toJSON():
-    '''public void toJSON(final Object obj, final JSON.Output out)
+    '''returns None\n\n
+    toJSON(final Object obj, final JSON.Output out)\n
     '''
 def fromJSON():
-    '''public Object fromJSON(final Map object)
+    '''returns Object\n\n
+    fromJSON(final Map object)\n
     '''

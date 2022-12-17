@@ -1,60 +1,72 @@
-def JsonReader():
-    '''public JsonReader(final Reader in)
-    '''
-def setLenient():
-    '''public final void setLenient(final boolean lenient)
-    '''
-def isLenient():
-    '''public final boolean isLenient()
+def ():
+    '''returns JsonReader\n\n
+    (final Reader in)\n
     '''
 def beginArray():
-    '''public void beginArray()
+    '''returns None\n\n
+    beginArray()\n
     '''
 def endArray():
-    '''public void endArray()
+    '''returns None\n\n
+    endArray()\n
     '''
 def beginObject():
-    '''public void beginObject()
+    '''returns None\n\n
+    beginObject()\n
     '''
 def endObject():
-    '''public void endObject()
+    '''returns None\n\n
+    endObject()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def peek():
-    '''public JsonToken peek()
+    '''returns JsonToken\n\n
+    peek()\n
     '''
 def nextName():
-    '''public String nextName()
+    '''returns String\n\n
+    nextName()\n
     '''
 def nextString():
-    '''public String nextString()
+    '''returns String\n\n
+    nextString()\n
     '''
 def nextBoolean():
-    '''public boolean nextBoolean()
+    '''returns boolean\n\n
+    nextBoolean()\n
     '''
 def nextNull():
-    '''public void nextNull()
+    '''returns None\n\n
+    nextNull()\n
     '''
 def nextDouble():
-    '''public double nextDouble()
+    '''returns double\n\n
+    nextDouble()\n
     '''
 def nextLong():
-    '''public long nextLong()
+    '''returns long\n\n
+    nextLong()\n
     '''
 def nextInt():
-    '''public int nextInt()
+    '''returns int\n\n
+    nextInt()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def skipValue():
-    '''public void skipValue()
+    '''returns None\n\n
+    skipValue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def promoteNameToValue():
-    '''public void promoteNameToValue(final JsonReader reader)
+    '''returns None\n\n
+    promoteNameToValue(final JsonReader reader)\n
     '''

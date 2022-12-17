@@ -1,30 +1,40 @@
-def StringTokenIterator():
-    '''public StringTokenIterator(final String text, final String dlms)
+def ():
+    '''returns StringTokenIterator\n\n
+    (final String text, final String dlms)\n
     '''
 def first():
-    '''public String first()
+    '''returns String\n\n
+    first()\n
     '''
 def current():
-    '''public String current()
+    '''returns String\n\n
+    current()\n
     '''
 def currentStart():
-    '''public int currentStart()
+    '''returns int\n\n
+    currentStart()\n
     '''
 def currentEnd():
-    '''public int currentEnd()
+    '''returns int\n\n
+    currentEnd()\n
     '''
 def isDone():
-    '''public boolean isDone()
+    '''returns boolean\n\n
+    isDone()\n
     '''
 def next():
-    '''public String next()
+    '''returns String\n\n
+    next()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def setStart():
-    '''public StringTokenIterator setStart(final int offset)
+    '''returns StringTokenIterator\n\n
+    setStart(final int offset)\n
     '''
 def setText():
-    '''public StringTokenIterator setText(final String text)
+    '''returns StringTokenIterator\n\n
+    setText(final String text)\n
     '''

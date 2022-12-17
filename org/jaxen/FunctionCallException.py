@@ -1,8 +1,10 @@
-def FunctionCallException():
-    '''public FunctionCallException(final String message)
-    public FunctionCallException(final Throwable nestedException)
-    public FunctionCallException(final String message, final Exception nestedException)
+def ():
+    '''returns FunctionCallException\n\n
+    (final String message)\n
+    (final Throwable nestedException)\n
+    (final String message, final Exception nestedException)\n
     '''
 def getNestedException():
-    '''public Throwable getNestedException()
+    '''returns Throwable\n\n
+    getNestedException()\n
     '''

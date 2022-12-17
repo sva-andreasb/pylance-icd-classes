@@ -1,24 +1,32 @@
-def SystemMapMgr():
-    '''public SystemMapMgr(final ModelProcessIntf loader)
+def ():
+    '''returns SystemMapMgr\n\n
+    (final ModelProcessIntf loader)\n
     '''
 def hasEntry():
-    '''public boolean hasEntry(final String systemName)
+    '''returns boolean\n\n
+    hasEntry(final String systemName)\n
     '''
 def getMapEntry():
-    '''public SystemMapEntry getMapEntry(final String cobieSystem)
+    '''returns SystemMapEntry\n\n
+    getMapEntry(final String cobieSystem)\n
     '''
 def getSystemMapSet():
-    '''public MboSetRemote getSystemMapSet()
+    '''returns MboSetRemote\n\n
+    getSystemMapSet()\n
     '''
 def getCOBieSystem():
-    '''public String getCOBieSystem()
+    '''returns String\n\n
+    getCOBieSystem()\n
     '''
 def getMaximoSystem():
-    '''public String getMaximoSystem()
+    '''returns String\n\n
+    getMaximoSystem()\n
     '''
 def getConnectionLocation():
-    '''public String getConnectionLocation()
+    '''returns String\n\n
+    getConnectionLocation()\n
     '''
 def isNetwork():
-    '''public boolean isNetwork()
+    '''returns boolean\n\n
+    isNetwork()\n
     '''

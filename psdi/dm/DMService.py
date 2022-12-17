@@ -1,19 +1,22 @@
-def DMService():
-    '''public DMService()
-    public DMService(final MXServer mxServer)
+def ():
+    '''returns DBCompareThread\n\n
+    ()\n
+    (final MXServer mxServer)\n
+    (final HashMap<String, String> params, final UserInfo ui)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getDMEventListenerMgr():
-    '''public DMEventListenerMgr getDMEventListenerMgr()
+    '''returns DMEventListenerMgr\n\n
+    getDMEventListenerMgr()\n
     '''
 def compareDatabase():
-    '''public void compareDatabase(final String target, final String packageName, final String jobNum, final UserInfo ui)
-    '''
-def DBCompareThread():
-    '''public DBCompareThread(final HashMap<String, String> params, final UserInfo ui)
+    '''returns None\n\n
+    compareDatabase(final String target, final String packageName, final String jobNum, final UserInfo ui)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

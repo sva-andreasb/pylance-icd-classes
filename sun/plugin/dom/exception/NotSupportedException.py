@@ -1,3 +1,4 @@
-def NotSupportedException():
-    '''public NotSupportedException(final String message)
+def ():
+    '''returns NotSupportedException\n\n
+    (final String message)\n
     '''

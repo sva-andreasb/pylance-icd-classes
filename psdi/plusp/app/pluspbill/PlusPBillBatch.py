@@ -1,83 +1,106 @@
-def PlusPBillBatch():
-    '''public PlusPBillBatch(final MboSet ms)
+def ():
+    '''returns PlusPBillBatch\n\n
+    (final MboSet ms)\n
     '''
 def getLogger():
-    '''public PlusPLog getLogger()
+    '''returns PlusPLog\n\n
+    getLogger()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def setFlagsForStatus():
-    '''public void setFlagsForStatus()
+    '''returns None\n\n
+    setFlagsForStatus()\n
     '''
 def createBillLines():
-    '''public boolean createBillLines()
-    public boolean createBillLines(final String s)
-    '''
-def getService():
-    '''public static PlusPCopyServiceRemote getService(final String s)
+    '''returns boolean\n\n
+    createBillLines()\n
+    createBillLines(final String s)\n
     '''
 def validateTransaction():
-    '''public boolean validateTransaction(final MboRemote mboRemote, final MboRemote mboRemote2)
+    '''returns boolean\n\n
+    validateTransaction(final MboRemote mboRemote, final MboRemote mboRemote2)\n
     '''
 def calculateTotals():
-    '''public void calculateTotals()
+    '''returns None\n\n
+    calculateTotals()\n
     '''
 def getTicketSet():
-    '''public MboSetRemote getTicketSet(final boolean b)
+    '''returns MboSetRemote\n\n
+    getTicketSet(final boolean b)\n
     '''
 def getWOSet():
-    '''public MboSetRemote getWOSet(final boolean b)
+    '''returns MboSetRemote\n\n
+    getWOSet(final boolean b)\n
     '''
 def getSOSet():
-    '''public MboSetRemote getSOSet(final boolean b)
+    '''returns MboSetRemote\n\n
+    getSOSet(final boolean b)\n
     '''
 def updateBillBatchTotals():
-    '''public void updateBillBatchTotals(final MboRemote mboRemote, final String s, final String s2)
-    public void updateBillBatchTotals()
+    '''returns None\n\n
+    updateBillBatchTotals(final MboRemote mboRemote, final String s, final String s2)\n
+    updateBillBatchTotals()\n
     '''
 def getBillableStatusWhereClause():
-    '''public String getBillableStatusWhereClause(final String listName, final String value, final String s)
+    '''returns String\n\n
+    getBillableStatusWhereClause(final String listName, final String value, final String s)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def isBilled():
-    '''public boolean isBilled()
+    '''returns boolean\n\n
+    isBilled()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String val, final Date asOfDate, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String val, final Date asOfDate, final String memo, final long accessModifier)\n
     '''
 def setValueCustomerCurrencyTotal():
-    '''public void setValueCustomerCurrencyTotal()
+    '''returns None\n\n
+    setValueCustomerCurrencyTotal()\n
     '''
 def setRevisionNum():
-    '''public void setRevisionNum()
+    '''returns None\n\n
+    setRevisionNum()\n
     '''
 def canCreateBillLines():
-    '''public void canCreateBillLines()
+    '''returns None\n\n
+    canCreateBillLines()\n
     '''
 def hasCopyInProgress():
-    '''public boolean hasCopyInProgress()
+    '''returns boolean\n\n
+    hasCopyInProgress()\n
     '''
 def updateCopyHistory():
-    '''public void updateCopyHistory(final String errKey, final String... params)
+    '''returns None\n\n
+    updateCopyHistory(final String errKey, final String... params)\n
     '''
 def getBillBatchCopy():
-    '''public MboRemote getBillBatchCopy()
+    '''returns MboRemote\n\n
+    getBillBatchCopy()\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String changeToStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String changeToStatus, final long accessModifier)\n
     '''
 def setBillBatchFilters():
-    '''public void setBillBatchFilters(final MboRemote e)
+    '''returns None\n\n
+    setBillBatchFilters(final MboRemote e)\n
     '''
 def getBillBatchFilters():
-    '''public HashSet<MboRemote> getBillBatchFilters()
+    '''returns HashSet<MboRemote>\n\n
+    getBillBatchFilters()\n
     '''

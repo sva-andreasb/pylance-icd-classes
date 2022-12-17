@@ -1,90 +1,120 @@
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def setRequired():
-    '''public void setRequired(final boolean required)
+    '''returns None\n\n
+    setRequired(final boolean required)\n
     '''
 def isAllowBlank():
-    '''public boolean isAllowBlank()
+    '''returns boolean\n\n
+    isAllowBlank()\n
     '''
 def setAllowBlank():
-    '''public void setAllowBlank(final boolean allowBlank)
+    '''returns None\n\n
+    setAllowBlank(final boolean allowBlank)\n
     '''
 def isAllowNull():
-    '''public boolean isAllowNull()
+    '''returns boolean\n\n
+    isAllowNull()\n
     '''
 def setAllowNull():
-    '''public void setAllowNull(final boolean allowNull)
+    '''returns None\n\n
+    setAllowNull(final boolean allowNull)\n
     '''
 def isConcealValue():
-    '''public boolean isConcealValue()
+    '''returns boolean\n\n
+    isConcealValue()\n
     '''
 def setConcealValue():
-    '''public void setConcealValue(final boolean concealValue)
+    '''returns None\n\n
+    setConcealValue(final boolean concealValue)\n
     '''
 def getControlType():
-    '''public String getControlType()
+    '''returns String\n\n
+    getControlType()\n
     '''
 def setControlType():
-    '''public void setControlType(final String controlType)
+    '''returns None\n\n
+    setControlType(final String controlType)\n
     '''
 def getDataType():
-    '''public String getDataType()
+    '''returns String\n\n
+    getDataType()\n
     '''
 def setDataType():
-    '''public void setDataType(final String dataType)
+    '''returns None\n\n
+    setDataType(final String dataType)\n
     '''
 def getDefaultValue():
-    '''public String getDefaultValue()
+    '''returns String\n\n
+    getDefaultValue()\n
     '''
 def setDefaultValue():
-    '''public void setDefaultValue(final String defaultValue)
+    '''returns None\n\n
+    setDefaultValue(final String defaultValue)\n
     '''
 def getFormatCategory():
-    '''public String getFormatCategory()
+    '''returns String\n\n
+    getFormatCategory()\n
     '''
 def setFormatCategory():
-    '''public void setFormatCategory(final String formatCategory)
+    '''returns None\n\n
+    setFormatCategory(final String formatCategory)\n
     '''
 def getFormatPattern():
-    '''public String getFormatPattern()
+    '''returns String\n\n
+    getFormatPattern()\n
     '''
 def setFormatPattern():
-    '''public void setFormatPattern(final String formatPattern)
+    '''returns None\n\n
+    setFormatPattern(final String formatPattern)\n
     '''
 def getHelpText():
-    '''public String getHelpText()
+    '''returns String\n\n
+    getHelpText()\n
     '''
 def setHelpText():
-    '''public void setHelpText(final String helpText)
+    '''returns None\n\n
+    setHelpText(final String helpText)\n
     '''
 def isHidden():
-    '''public boolean isHidden()
+    '''returns boolean\n\n
+    isHidden()\n
     '''
 def setHidden():
-    '''public void setHidden(final boolean hidden)
+    '''returns None\n\n
+    setHidden(final boolean hidden)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getPromptText():
-    '''public String getPromptText()
+    '''returns String\n\n
+    getPromptText()\n
     '''
 def setPromptText():
-    '''public void setPromptText(final String promptText)
+    '''returns None\n\n
+    setPromptText(final String promptText)\n
     '''
 def getHelpTextKey():
-    '''public String getHelpTextKey()
+    '''returns String\n\n
+    getHelpTextKey()\n
     '''
 def setHelpTextKey():
-    '''public void setHelpTextKey(final String helpTextKey)
+    '''returns None\n\n
+    setHelpTextKey(final String helpTextKey)\n
     '''
 def getPromptTextKey():
-    '''public String getPromptTextKey()
+    '''returns String\n\n
+    getPromptTextKey()\n
     '''
 def setPromptTextKey():
-    '''public void setPromptTextKey(final String promptTextKey)
+    '''returns None\n\n
+    setPromptTextKey(final String promptTextKey)\n
     '''

@@ -1,3 +1,4 @@
 def genpswd():
-    '''public int genpswd()
+    '''returns int\n\n
+    genpswd()\n
     '''

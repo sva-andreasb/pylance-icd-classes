@@ -1,3 +1,4 @@
-def SRTotalByStatus():
-    '''public SRTotalByStatus(final MboSet ms)
+def ():
+    '''returns SRTotalByStatus\n\n
+    (final MboSet ms)\n
     '''

@@ -1,3 +1,4 @@
-def GetBucketLifecycleConfigurationRequest():
-    '''public GetBucketLifecycleConfigurationRequest(final String bucketName)
+def ():
+    '''returns GetBucketLifecycleConfigurationRequest\n\n
+    (final String bucketName)\n
     '''

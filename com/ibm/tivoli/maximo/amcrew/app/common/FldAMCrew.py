@@ -1,6 +1,8 @@
-def FldAMCrew():
-    '''public FldAMCrew(final MboValue mbv)
+def ():
+    '''returns FldAMCrew\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

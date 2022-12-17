@@ -1,6 +1,8 @@
 def translateError():
-    '''public SQLException translateError(final SQLException ex)
+    '''returns SQLException\n\n
+    translateError(final SQLException ex)\n
     '''
 def activateServerTranslation():
-    '''public void activateServerTranslation(final Connection conn)
+    '''returns None\n\n
+    activateServerTranslation(final Connection conn)\n
     '''

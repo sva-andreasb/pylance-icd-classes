@@ -1,163 +1,212 @@
-def visit():
-    '''public final R visit(final Tree tree, final P p2)
-    public final R visit(final Iterable<? extends Tree> iterable, final P p2)
-    '''
 def visitCompilationUnit():
-    '''public R visitCompilationUnit(final CompilationUnitTree compilationUnitTree, final P p2)
+    '''returns R\n\n
+    visitCompilationUnit(final CompilationUnitTree compilationUnitTree, final P p2)\n
     '''
 def visitImport():
-    '''public R visitImport(final ImportTree importTree, final P p2)
+    '''returns R\n\n
+    visitImport(final ImportTree importTree, final P p2)\n
     '''
 def visitClass():
-    '''public R visitClass(final ClassTree classTree, final P p2)
+    '''returns R\n\n
+    visitClass(final ClassTree classTree, final P p2)\n
     '''
 def visitMethod():
-    '''public R visitMethod(final MethodTree methodTree, final P p2)
+    '''returns R\n\n
+    visitMethod(final MethodTree methodTree, final P p2)\n
     '''
 def visitVariable():
-    '''public R visitVariable(final VariableTree variableTree, final P p2)
+    '''returns R\n\n
+    visitVariable(final VariableTree variableTree, final P p2)\n
     '''
 def visitEmptyStatement():
-    '''public R visitEmptyStatement(final EmptyStatementTree emptyStatementTree, final P p2)
+    '''returns R\n\n
+    visitEmptyStatement(final EmptyStatementTree emptyStatementTree, final P p2)\n
     '''
 def visitBlock():
-    '''public R visitBlock(final BlockTree blockTree, final P p2)
+    '''returns R\n\n
+    visitBlock(final BlockTree blockTree, final P p2)\n
     '''
 def visitDoWhileLoop():
-    '''public R visitDoWhileLoop(final DoWhileLoopTree doWhileLoopTree, final P p2)
+    '''returns R\n\n
+    visitDoWhileLoop(final DoWhileLoopTree doWhileLoopTree, final P p2)\n
     '''
 def visitWhileLoop():
-    '''public R visitWhileLoop(final WhileLoopTree whileLoopTree, final P p2)
+    '''returns R\n\n
+    visitWhileLoop(final WhileLoopTree whileLoopTree, final P p2)\n
     '''
 def visitForLoop():
-    '''public R visitForLoop(final ForLoopTree forLoopTree, final P p2)
+    '''returns R\n\n
+    visitForLoop(final ForLoopTree forLoopTree, final P p2)\n
     '''
 def visitEnhancedForLoop():
-    '''public R visitEnhancedForLoop(final EnhancedForLoopTree enhancedForLoopTree, final P p2)
+    '''returns R\n\n
+    visitEnhancedForLoop(final EnhancedForLoopTree enhancedForLoopTree, final P p2)\n
     '''
 def visitLabeledStatement():
-    '''public R visitLabeledStatement(final LabeledStatementTree labeledStatementTree, final P p2)
+    '''returns R\n\n
+    visitLabeledStatement(final LabeledStatementTree labeledStatementTree, final P p2)\n
     '''
 def visitSwitch():
-    '''public R visitSwitch(final SwitchTree switchTree, final P p2)
+    '''returns R\n\n
+    visitSwitch(final SwitchTree switchTree, final P p2)\n
     '''
 def visitCase():
-    '''public R visitCase(final CaseTree caseTree, final P p2)
+    '''returns R\n\n
+    visitCase(final CaseTree caseTree, final P p2)\n
     '''
 def visitSynchronized():
-    '''public R visitSynchronized(final SynchronizedTree synchronizedTree, final P p2)
+    '''returns R\n\n
+    visitSynchronized(final SynchronizedTree synchronizedTree, final P p2)\n
     '''
 def visitTry():
-    '''public R visitTry(final TryTree tryTree, final P p2)
+    '''returns R\n\n
+    visitTry(final TryTree tryTree, final P p2)\n
     '''
 def visitCatch():
-    '''public R visitCatch(final CatchTree catchTree, final P p2)
+    '''returns R\n\n
+    visitCatch(final CatchTree catchTree, final P p2)\n
     '''
 def visitConditionalExpression():
-    '''public R visitConditionalExpression(final ConditionalExpressionTree conditionalExpressionTree, final P p2)
+    '''returns R\n\n
+    visitConditionalExpression(final ConditionalExpressionTree conditionalExpressionTree, final P p2)\n
     '''
 def visitIf():
-    '''public R visitIf(final IfTree ifTree, final P p2)
+    '''returns R\n\n
+    visitIf(final IfTree ifTree, final P p2)\n
     '''
 def visitExpressionStatement():
-    '''public R visitExpressionStatement(final ExpressionStatementTree expressionStatementTree, final P p2)
+    '''returns R\n\n
+    visitExpressionStatement(final ExpressionStatementTree expressionStatementTree, final P p2)\n
     '''
 def visitBreak():
-    '''public R visitBreak(final BreakTree breakTree, final P p2)
+    '''returns R\n\n
+    visitBreak(final BreakTree breakTree, final P p2)\n
     '''
 def visitContinue():
-    '''public R visitContinue(final ContinueTree continueTree, final P p2)
+    '''returns R\n\n
+    visitContinue(final ContinueTree continueTree, final P p2)\n
     '''
 def visitReturn():
-    '''public R visitReturn(final ReturnTree returnTree, final P p2)
+    '''returns R\n\n
+    visitReturn(final ReturnTree returnTree, final P p2)\n
     '''
 def visitThrow():
-    '''public R visitThrow(final ThrowTree throwTree, final P p2)
+    '''returns R\n\n
+    visitThrow(final ThrowTree throwTree, final P p2)\n
     '''
 def visitAssert():
-    '''public R visitAssert(final AssertTree assertTree, final P p2)
+    '''returns R\n\n
+    visitAssert(final AssertTree assertTree, final P p2)\n
     '''
 def visitMethodInvocation():
-    '''public R visitMethodInvocation(final MethodInvocationTree methodInvocationTree, final P p2)
+    '''returns R\n\n
+    visitMethodInvocation(final MethodInvocationTree methodInvocationTree, final P p2)\n
     '''
 def visitNewClass():
-    '''public R visitNewClass(final NewClassTree newClassTree, final P p2)
+    '''returns R\n\n
+    visitNewClass(final NewClassTree newClassTree, final P p2)\n
     '''
 def visitNewArray():
-    '''public R visitNewArray(final NewArrayTree newArrayTree, final P p2)
+    '''returns R\n\n
+    visitNewArray(final NewArrayTree newArrayTree, final P p2)\n
     '''
 def visitLambdaExpression():
-    '''public R visitLambdaExpression(final LambdaExpressionTree lambdaExpressionTree, final P p2)
+    '''returns R\n\n
+    visitLambdaExpression(final LambdaExpressionTree lambdaExpressionTree, final P p2)\n
     '''
 def visitParenthesized():
-    '''public R visitParenthesized(final ParenthesizedTree parenthesizedTree, final P p2)
+    '''returns R\n\n
+    visitParenthesized(final ParenthesizedTree parenthesizedTree, final P p2)\n
     '''
 def visitAssignment():
-    '''public R visitAssignment(final AssignmentTree assignmentTree, final P p2)
+    '''returns R\n\n
+    visitAssignment(final AssignmentTree assignmentTree, final P p2)\n
     '''
 def visitCompoundAssignment():
-    '''public R visitCompoundAssignment(final CompoundAssignmentTree compoundAssignmentTree, final P p2)
+    '''returns R\n\n
+    visitCompoundAssignment(final CompoundAssignmentTree compoundAssignmentTree, final P p2)\n
     '''
 def visitUnary():
-    '''public R visitUnary(final UnaryTree unaryTree, final P p2)
+    '''returns R\n\n
+    visitUnary(final UnaryTree unaryTree, final P p2)\n
     '''
 def visitBinary():
-    '''public R visitBinary(final BinaryTree binaryTree, final P p2)
+    '''returns R\n\n
+    visitBinary(final BinaryTree binaryTree, final P p2)\n
     '''
 def visitTypeCast():
-    '''public R visitTypeCast(final TypeCastTree typeCastTree, final P p2)
+    '''returns R\n\n
+    visitTypeCast(final TypeCastTree typeCastTree, final P p2)\n
     '''
 def visitInstanceOf():
-    '''public R visitInstanceOf(final InstanceOfTree instanceOfTree, final P p2)
+    '''returns R\n\n
+    visitInstanceOf(final InstanceOfTree instanceOfTree, final P p2)\n
     '''
 def visitArrayAccess():
-    '''public R visitArrayAccess(final ArrayAccessTree arrayAccessTree, final P p2)
+    '''returns R\n\n
+    visitArrayAccess(final ArrayAccessTree arrayAccessTree, final P p2)\n
     '''
 def visitMemberSelect():
-    '''public R visitMemberSelect(final MemberSelectTree memberSelectTree, final P p2)
+    '''returns R\n\n
+    visitMemberSelect(final MemberSelectTree memberSelectTree, final P p2)\n
     '''
 def visitMemberReference():
-    '''public R visitMemberReference(final MemberReferenceTree memberReferenceTree, final P p2)
+    '''returns R\n\n
+    visitMemberReference(final MemberReferenceTree memberReferenceTree, final P p2)\n
     '''
 def visitIdentifier():
-    '''public R visitIdentifier(final IdentifierTree identifierTree, final P p2)
+    '''returns R\n\n
+    visitIdentifier(final IdentifierTree identifierTree, final P p2)\n
     '''
 def visitLiteral():
-    '''public R visitLiteral(final LiteralTree literalTree, final P p2)
+    '''returns R\n\n
+    visitLiteral(final LiteralTree literalTree, final P p2)\n
     '''
 def visitPrimitiveType():
-    '''public R visitPrimitiveType(final PrimitiveTypeTree primitiveTypeTree, final P p2)
+    '''returns R\n\n
+    visitPrimitiveType(final PrimitiveTypeTree primitiveTypeTree, final P p2)\n
     '''
 def visitArrayType():
-    '''public R visitArrayType(final ArrayTypeTree arrayTypeTree, final P p2)
+    '''returns R\n\n
+    visitArrayType(final ArrayTypeTree arrayTypeTree, final P p2)\n
     '''
 def visitParameterizedType():
-    '''public R visitParameterizedType(final ParameterizedTypeTree parameterizedTypeTree, final P p2)
+    '''returns R\n\n
+    visitParameterizedType(final ParameterizedTypeTree parameterizedTypeTree, final P p2)\n
     '''
 def visitUnionType():
-    '''public R visitUnionType(final UnionTypeTree unionTypeTree, final P p2)
+    '''returns R\n\n
+    visitUnionType(final UnionTypeTree unionTypeTree, final P p2)\n
     '''
 def visitIntersectionType():
-    '''public R visitIntersectionType(final IntersectionTypeTree intersectionTypeTree, final P p2)
+    '''returns R\n\n
+    visitIntersectionType(final IntersectionTypeTree intersectionTypeTree, final P p2)\n
     '''
 def visitTypeParameter():
-    '''public R visitTypeParameter(final TypeParameterTree typeParameterTree, final P p2)
+    '''returns R\n\n
+    visitTypeParameter(final TypeParameterTree typeParameterTree, final P p2)\n
     '''
 def visitWildcard():
-    '''public R visitWildcard(final WildcardTree wildcardTree, final P p2)
+    '''returns R\n\n
+    visitWildcard(final WildcardTree wildcardTree, final P p2)\n
     '''
 def visitModifiers():
-    '''public R visitModifiers(final ModifiersTree modifiersTree, final P p2)
+    '''returns R\n\n
+    visitModifiers(final ModifiersTree modifiersTree, final P p2)\n
     '''
 def visitAnnotation():
-    '''public R visitAnnotation(final AnnotationTree annotationTree, final P p2)
+    '''returns R\n\n
+    visitAnnotation(final AnnotationTree annotationTree, final P p2)\n
     '''
 def visitAnnotatedType():
-    '''public R visitAnnotatedType(final AnnotatedTypeTree annotatedTypeTree, final P p2)
+    '''returns R\n\n
+    visitAnnotatedType(final AnnotatedTypeTree annotatedTypeTree, final P p2)\n
     '''
 def visitErroneous():
-    '''public R visitErroneous(final ErroneousTree erroneousTree, final P p2)
+    '''returns R\n\n
+    visitErroneous(final ErroneousTree erroneousTree, final P p2)\n
     '''
 def visitOther():
-    '''public R visitOther(final Tree tree, final P p2)
+    '''returns R\n\n
+    visitOther(final Tree tree, final P p2)\n
     '''

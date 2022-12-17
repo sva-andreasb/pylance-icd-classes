@@ -1,12 +1,16 @@
-def CtrlGroupSet():
-    '''public CtrlGroupSet(final MboServerInterface ms)
+def ():
+    '''returns CtrlGroupSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def copyMaxGroupToCtrlGroup():
-    '''public void copyMaxGroupToCtrlGroup(final MboSetRemote maxGroupSet)
+    '''returns None\n\n
+    copyMaxGroupToCtrlGroup(final MboSetRemote maxGroupSet)\n
     '''
 def saveTransaction():
-    '''public void saveTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    saveTransaction(final MXTransaction txn)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''

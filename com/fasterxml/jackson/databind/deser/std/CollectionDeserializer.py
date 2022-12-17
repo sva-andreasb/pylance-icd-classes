@@ -1,34 +1,42 @@
-def CollectionDeserializer():
-    '''public CollectionDeserializer(final JavaType collectionType, final JsonDeserializer<Object> valueDeser, final TypeDeserializer valueTypeDeser, final ValueInstantiator valueInstantiator)
+def ():
+    '''returns CollectionReferringAccumulator\n\n
+    (final JavaType collectionType, final JsonDeserializer<Object> valueDeser, final TypeDeserializer valueTypeDeser, final ValueInstantiator valueInstantiator)\n
+    (final Class<?> elementType, final Collection<Object> result)\n
     '''
 def isCachable():
-    '''public boolean isCachable()
+    '''returns boolean\n\n
+    isCachable()\n
     '''
 def createContextual():
-    '''public CollectionDeserializer createContextual(final DeserializationContext ctxt, final BeanProperty property)
+    '''returns CollectionDeserializer\n\n
+    createContextual(final DeserializationContext ctxt, final BeanProperty property)\n
     '''
 def getContentDeserializer():
-    '''public JsonDeserializer<Object> getContentDeserializer()
+    '''returns JsonDeserializer<Object>\n\n
+    getContentDeserializer()\n
     '''
 def getValueInstantiator():
-    '''public ValueInstantiator getValueInstantiator()
+    '''returns ValueInstantiator\n\n
+    getValueInstantiator()\n
     '''
 def deserialize():
-    '''public Collection<Object> deserialize(final JsonParser p, final DeserializationContext ctxt)
-    public Collection<Object> deserialize(final JsonParser p, final DeserializationContext ctxt, final Collection<Object> result)
+    '''returns Collection<Object>\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt, final Collection<Object> result)\n
     '''
 def deserializeWithType():
-    '''public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
-    '''
-def CollectionReferringAccumulator():
-    '''public CollectionReferringAccumulator(final Class<?> elementType, final Collection<Object> result)
+    '''returns Object\n\n
+    deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)\n
     '''
 def add():
-    '''public void add(final Object value)
+    '''returns None\n\n
+    add(final Object value)\n
     '''
 def resolveForwardReference():
-    '''public void resolveForwardReference(final Object id, final Object value)
+    '''returns None\n\n
+    resolveForwardReference(final Object id, final Object value)\n
     '''
 def handleResolvedForwardReference():
-    '''public void handleResolvedForwardReference(final Object id, final Object value)
+    '''returns None\n\n
+    handleResolvedForwardReference(final Object id, final Object value)\n
     '''

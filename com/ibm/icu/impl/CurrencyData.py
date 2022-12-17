@@ -1,42 +1,37 @@
 def getInstance():
-    '''public CurrencyDisplayInfo getInstance(final ULocale locale, final boolean withFallback)
+    '''returns CurrencyDisplayInfo\n\n
+    getInstance(final ULocale locale, final boolean withFallback)\n
     '''
 def hasData():
-    '''public boolean hasData()
+    '''returns boolean\n\n
+    hasData()\n
     '''
-def CurrencyFormatInfo():
-    '''public CurrencyFormatInfo(final String currencyPattern, final char monetarySeparator, final char monetaryGroupingSeparator)
-    '''
-def CurrencySpacingInfo():
-    '''public CurrencySpacingInfo(final String beforeCurrencyMatch, final String beforeContextMatch, final String beforeInsert, final String afterCurrencyMatch, final String afterContextMatch, final String afterInsert)
-    '''
-def getWithFallback():
-    '''public static final CurrencyDisplayInfo getWithFallback(final boolean fallback)
+def ():
+    '''returns CurrencySpacingInfo\n\n
+    (final String currencyPattern, final char monetarySeparator, final char monetaryGroupingSeparator)\n
+    (final String beforeCurrencyMatch, final String beforeContextMatch, final String beforeInsert, final String afterCurrencyMatch, final String afterContextMatch, final String afterInsert)\n
     '''
 def getName():
-    '''public String getName(final String isoCode)
+    '''returns String\n\n
+    getName(final String isoCode)\n
     '''
 def getPluralName():
-    '''public String getPluralName(final String isoCode, final String pluralType)
+    '''returns String\n\n
+    getPluralName(final String isoCode, final String pluralType)\n
     '''
 def getSymbol():
-    '''public String getSymbol(final String isoCode)
-    '''
-def symbolMap():
-    '''public Map<String, String> symbolMap()
-    '''
-def nameMap():
-    '''public Map<String, String> nameMap()
+    '''returns String\n\n
+    getSymbol(final String isoCode)\n
     '''
 def getLocale():
-    '''public ULocale getLocale()
-    '''
-def getUnitPatterns():
-    '''public Map<String, String> getUnitPatterns()
+    '''returns ULocale\n\n
+    getLocale()\n
     '''
 def getFormatInfo():
-    '''public CurrencyFormatInfo getFormatInfo(final String isoCode)
+    '''returns CurrencyFormatInfo\n\n
+    getFormatInfo(final String isoCode)\n
     '''
 def getSpacingInfo():
-    '''public CurrencySpacingInfo getSpacingInfo()
+    '''returns CurrencySpacingInfo\n\n
+    getSpacingInfo()\n
     '''

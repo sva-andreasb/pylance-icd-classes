@@ -1,3 +1,4 @@
-def MarshallingEncoder():
-    '''public MarshallingEncoder(final MarshallerProvider provider)
+def ():
+    '''returns MarshallingEncoder\n\n
+    (final MarshallerProvider provider)\n
     '''

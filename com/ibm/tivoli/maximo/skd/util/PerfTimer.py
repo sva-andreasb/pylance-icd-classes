@@ -1,21 +1,24 @@
-def PerfTimer():
-    '''public PerfTimer(final String baseMsg)
+def ():
+    '''returns PerfTimer\n\n
+    (final String baseMsg)\n
     '''
 def restart():
-    '''public void restart()
+    '''returns None\n\n
+    restart()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def tick():
-    '''public void tick()
+    '''returns None\n\n
+    tick()\n
     '''
 def logDelta():
-    '''public void logDelta(final String msg)
+    '''returns None\n\n
+    logDelta(final String msg)\n
     '''
 def done():
-    '''public void done()
-    '''
-def create():
-    '''public static PerfTimer create(final String baseMsg)
+    '''returns None\n\n
+    done()\n
     '''

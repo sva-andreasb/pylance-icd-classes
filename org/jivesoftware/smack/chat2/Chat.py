@@ -1,7 +1,9 @@
 def send():
-    '''public void send(final CharSequence message)
-    public void send(final Message message)
+    '''returns None\n\n
+    send(final CharSequence message)\n
+    send(final Message message)\n
     '''
 def getXmppAddressOfChatPartner():
-    '''public EntityBareJid getXmppAddressOfChatPartner()
+    '''returns EntityBareJid\n\n
+    getXmppAddressOfChatPartner()\n
     '''

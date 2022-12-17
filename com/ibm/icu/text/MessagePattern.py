@@ -1,116 +1,148 @@
 ARG_NAME_NOT_NUMBER = "int  -1"
 ARG_NAME_NOT_VALID = "int  -2"
 NO_NUMERIC_VALUE = "double  -1.23456789E8"
-def MessagePattern():
-    '''public MessagePattern()
-    public MessagePattern(final ApostropheMode mode)
-    public MessagePattern(final String pattern)
+def ():
+    '''returns MessagePattern\n\n
+    ()\n
+    (final ApostropheMode mode)\n
+    (final String pattern)\n
     '''
 def parse():
-    '''public MessagePattern parse(final String pattern)
+    '''returns MessagePattern\n\n
+    parse(final String pattern)\n
     '''
 def parseChoiceStyle():
-    '''public MessagePattern parseChoiceStyle(final String pattern)
+    '''returns MessagePattern\n\n
+    parseChoiceStyle(final String pattern)\n
     '''
 def parsePluralStyle():
-    '''public MessagePattern parsePluralStyle(final String pattern)
+    '''returns MessagePattern\n\n
+    parsePluralStyle(final String pattern)\n
     '''
 def parseSelectStyle():
-    '''public MessagePattern parseSelectStyle(final String pattern)
+    '''returns MessagePattern\n\n
+    parseSelectStyle(final String pattern)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def clearPatternAndSetApostropheMode():
-    '''public void clearPatternAndSetApostropheMode(final ApostropheMode mode)
+    '''returns None\n\n
+    clearPatternAndSetApostropheMode(final ApostropheMode mode)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
-    public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def getApostropheMode():
-    '''public ApostropheMode getApostropheMode()
+    '''returns ApostropheMode\n\n
+    getApostropheMode()\n
     '''
 def getPatternString():
-    '''public String getPatternString()
+    '''returns String\n\n
+    getPatternString()\n
     '''
 def hasNamedArguments():
-    '''public boolean hasNamedArguments()
+    '''returns boolean\n\n
+    hasNamedArguments()\n
     '''
 def hasNumberedArguments():
-    '''public boolean hasNumberedArguments()
+    '''returns boolean\n\n
+    hasNumberedArguments()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def validateArgumentName():
-    '''public static int validateArgumentName(final String name)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def autoQuoteApostropheDeep():
-    '''public String autoQuoteApostropheDeep()
+    '''returns String\n\n
+    autoQuoteApostropheDeep()\n
     '''
 def countParts():
-    '''public int countParts()
+    '''returns int\n\n
+    countParts()\n
     '''
 def getPart():
-    '''public Part getPart(final int i)
+    '''returns Part\n\n
+    getPart(final int i)\n
     '''
 def getPatternIndex():
-    '''public int getPatternIndex(final int partIndex)
+    '''returns int\n\n
+    getPatternIndex(final int partIndex)\n
     '''
 def getSubstring():
-    '''public String getSubstring(final Part part)
+    '''returns String\n\n
+    getSubstring(final Part part)\n
     '''
 def partSubstringMatches():
-    '''public boolean partSubstringMatches(final Part part, final String s)
+    '''returns boolean\n\n
+    partSubstringMatches(final Part part, final String s)\n
     '''
 def getNumericValue():
-    '''public double getNumericValue(final Part part)
+    '''returns double\n\n
+    getNumericValue(final Part part)\n
     '''
 def getPluralOffset():
-    '''public double getPluralOffset(final int pluralStart)
+    '''returns double\n\n
+    getPluralOffset(final int pluralStart)\n
     '''
 def getLimitPartIndex():
-    '''public int getLimitPartIndex(final int start)
+    '''returns int\n\n
+    getLimitPartIndex(final int start)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def cloneAsThawed():
-    '''public MessagePattern cloneAsThawed()
+    '''returns MessagePattern\n\n
+    cloneAsThawed()\n
     '''
 def freeze():
-    '''public MessagePattern freeze()
+    '''returns MessagePattern\n\n
+    freeze()\n
     '''
 def isFrozen():
-    '''public boolean isFrozen()
+    '''returns boolean\n\n
+    isFrozen()\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getLimit():
-    '''public int getLimit()
+    '''returns int\n\n
+    getLimit()\n
     '''
 def getValue():
-    '''public int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''
 def getArgType():
-    '''public ArgType getArgType()
+    '''returns ArgType\n\n
+    getArgType()\n
     '''
 def hasNumericValue():
-    '''public boolean hasNumericValue()
+    '''returns boolean\n\n
+    hasNumericValue()\n
     '''
 def hasPluralStyle():
-    '''public boolean hasPluralStyle()
+    '''returns boolean\n\n
+    hasPluralStyle()\n
     '''

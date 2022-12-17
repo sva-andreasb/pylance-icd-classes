@@ -1,6 +1,8 @@
 def getOption():
-    '''public String getOption()
+    '''returns String\n\n
+    getOption()\n
     '''
 def setOption():
-    '''public void setOption(final String value)
+    '''returns None\n\n
+    setOption(final String value)\n
     '''

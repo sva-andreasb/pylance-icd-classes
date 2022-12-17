@@ -1,37 +1,49 @@
 def login():
-    '''public boolean login(final String username, final String password)
-    public boolean login(final String username, String timestamp, final String secret)
+    '''returns boolean\n\n
+    login(final String username, final String password)\n
+    login(final String username, String timestamp, final String secret)\n
     '''
 def logout():
-    '''public boolean logout()
+    '''returns boolean\n\n
+    logout()\n
     '''
 def noop():
-    '''public boolean noop()
+    '''returns boolean\n\n
+    noop()\n
     '''
 def deleteMessage():
-    '''public boolean deleteMessage(final int messageId)
+    '''returns boolean\n\n
+    deleteMessage(final int messageId)\n
     '''
 def reset():
-    '''public boolean reset()
+    '''returns boolean\n\n
+    reset()\n
     '''
 def status():
-    '''public POP3MessageInfo status()
+    '''returns POP3MessageInfo\n\n
+    status()\n
     '''
 def listMessage():
-    '''public POP3MessageInfo listMessage(final int messageId)
+    '''returns POP3MessageInfo\n\n
+    listMessage(final int messageId)\n
     '''
 def listMessages():
-    '''public POP3MessageInfo[] listMessages()
+    '''returns POP3MessageInfo[]\n\n
+    listMessages()\n
     '''
 def listUniqueIdentifier():
-    '''public POP3MessageInfo listUniqueIdentifier(final int messageId)
+    '''returns POP3MessageInfo\n\n
+    listUniqueIdentifier(final int messageId)\n
     '''
 def listUniqueIdentifiers():
-    '''public POP3MessageInfo[] listUniqueIdentifiers()
+    '''returns POP3MessageInfo[]\n\n
+    listUniqueIdentifiers()\n
     '''
 def retrieveMessage():
-    '''public Reader retrieveMessage(final int messageId)
+    '''returns Reader\n\n
+    retrieveMessage(final int messageId)\n
     '''
 def retrieveMessageTop():
-    '''public Reader retrieveMessageTop(final int messageId, final int numLines)
+    '''returns Reader\n\n
+    retrieveMessageTop(final int messageId, final int numLines)\n
     '''

@@ -1,4 +1,5 @@
-def DefaultHttpRequestWriter():
-    '''public DefaultHttpRequestWriter(final SessionOutputBuffer buffer, final LineFormatter formatter)
-    public DefaultHttpRequestWriter(final SessionOutputBuffer buffer)
+def ():
+    '''returns DefaultHttpRequestWriter\n\n
+    (final SessionOutputBuffer buffer, final LineFormatter formatter)\n
+    (final SessionOutputBuffer buffer)\n
     '''

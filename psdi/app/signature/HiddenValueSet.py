@@ -1,12 +1,16 @@
-def HiddenValueSet():
-    '''public HiddenValueSet(final Mbo ownerMbo, final String[] attrNames)
+def ():
+    '''returns HiddenValueSet\n\n
+    (final Mbo ownerMbo, final String[] attrNames)\n
     '''
 def getMboValue():
-    '''public MboValue getMboValue(String attrName)
+    '''returns MboValue\n\n
+    getMboValue(String attrName)\n
     '''
 def setValue():
-    '''public void setValue(final String attrName, final String val, final long accessModifier)
+    '''returns None\n\n
+    setValue(final String attrName, final String val, final long accessModifier)\n
     '''
 def setValueNull():
-    '''public void setValueNull(final String attrName, final long accessModifier)
+    '''returns None\n\n
+    setValueNull(final String attrName, final long accessModifier)\n
     '''

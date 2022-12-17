@@ -1,6 +1,8 @@
-def Messages_sk():
-    '''public Messages_sk()
+def ():
+    '''returns Messages_sk\n\n
+    ()\n
     '''
 def getContents():
-    '''public Object[][] getContents()
+    '''returns Object[][]\n\n
+    getContents()\n
     '''

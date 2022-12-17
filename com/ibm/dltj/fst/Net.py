@@ -1,95 +1,92 @@
-def Net():
-    '''public Net()
+def ():
+    '''returns StackElement\n\n
+    ()\n
+    (final String key, final Object value)\n
+    (final Node n, final int pos, final String chars)\n
     '''
 def first():
-    '''public Node first()
-    '''
-def add():
-    '''public final void add(final CharacterIterator characterIterator, final int n, final Object o)
-    '''
-def read_contents():
-    '''public synchronized long read_contents(final DataInput dataInput, final GlossReader glossReader)
+    '''returns Node\n\n
+    first()\n
     '''
 def get():
-    '''public Object get(final CharacterIterator characterIterator, final int n)
-    public Object get(final String s)
+    '''returns Object\n\n
+    get(final CharacterIterator characterIterator, final int n)\n
+    get(final String s)\n
     '''
 def traverse():
-    '''public int traverse(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)
+    '''returns int\n\n
+    traverse(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)\n
     '''
 def traverseReversed():
-    '''public int traverseReversed(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)
-    '''
-def normalizingTraverse():
-    '''public final int normalizingTraverse(final CharacterIterator characterIterator, final MatchBuffer matchBuffer, final Normalizer.Mode mode)
-    '''
-def whitespaceIgnoringTraverse():
-    '''public final int whitespaceIgnoringTraverse(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)
+    '''returns int\n\n
+    traverseReversed(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)\n
     '''
 def traverseLongest():
-    '''public boolean traverseLongest(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)
+    '''returns boolean\n\n
+    traverseLongest(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)\n
     '''
 def traverseLongestReversed():
-    '''public boolean traverseLongestReversed(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)
-    '''
-def setChainPolicy():
-    '''public final void setChainPolicy(final boolean enchain)
+    '''returns boolean\n\n
+    traverseLongestReversed(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)\n
     '''
 def setOwnerDictionary():
-    '''public void setOwnerDictionary(final Dictionary ownerDictionary)
-    '''
-def getChainPolicy():
-    '''public final boolean getChainPolicy()
-    '''
-def isContracted():
-    '''public final boolean isContracted()
+    '''returns None\n\n
+    setOwnerDictionary(final Dictionary ownerDictionary)\n
     '''
 def processGlosses():
-    '''public void processGlosses(final GlossProcessor glossProcessor)
+    '''returns None\n\n
+    processGlosses(final GlossProcessor glossProcessor)\n
     '''
 def endReading():
-    '''public void endReading()
+    '''returns None\n\n
+    endReading()\n
     '''
 def asMap():
-    '''public void asMap(final Map map)
+    '''returns None\n\n
+    asMap(final Map map)\n
     '''
 def remove():
-    '''public int remove(final CharacterIterator characterIterator, final int n)
-    public void remove()
+    '''returns None\n\n
+    remove(final CharacterIterator characterIterator, final int n)\n
+    remove()\n
     '''
 def iterator():
-    '''public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def iteratorAC():
-    '''public Iterator iteratorAC(final String s)
+    '''returns Iterator\n\n
+    iteratorAC(final String s)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
-    '''
-def Entry():
-    '''public Entry(final String key, final Object value)
+    '''returns Object\n\n
+    next()\n
     '''
 def getKey():
-    '''public Object getKey()
+    '''returns Object\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public Object setValue(final Object o)
-    '''
-def StackElement():
-    '''public StackElement(final Node n, final int pos, final String chars)
+    '''returns Object\n\n
+    setValue(final Object o)\n
     '''
 def push():
-    '''public void push(final Object e)
+    '''returns None\n\n
+    push(final Object e)\n
     '''
 def pop():
-    '''public Object pop()
+    '''returns Object\n\n
+    pop()\n
     '''
 def top():
-    '''public Object top()
+    '''returns Object\n\n
+    top()\n
     '''

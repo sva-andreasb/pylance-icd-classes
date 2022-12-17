@@ -1,11 +1,9 @@
-def ReplyBuilder():
-    '''public ReplyBuilder()
-    public ReplyBuilder(final int result)
-    '''
-def newErrorReply():
-    '''public static JSONObject newErrorReply(final String msg, final Throwable e)
-    public static JSONObject newErrorReply(final String msg)
+def ():
+    '''returns ReplyBuilder\n\n
+    ()\n
+    (final int result)\n
     '''
 def IO():
-    '''public JSONObject IO()
+    '''returns JSONObject\n\n
+    IO()\n
     '''

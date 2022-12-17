@@ -1,24 +1,24 @@
-def transformingBag():
-    '''public static <E> Bag<E> transformingBag(final Bag<E> bag, final Transformer<? super E, ? extends E> transformer)
-    '''
-def transformedBag():
-    '''public static <E> Bag<E> transformedBag(final Bag<E> bag, final Transformer<? super E, ? extends E> transformer)
-    '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getCount():
-    '''public int getCount(final Object object)
+    '''returns int\n\n
+    getCount(final Object object)\n
     '''
 def remove():
-    '''public boolean remove(final Object object, final int nCopies)
+    '''returns boolean\n\n
+    remove(final Object object, final int nCopies)\n
     '''
 def add():
-    '''public boolean add(final E object, final int nCopies)
+    '''returns boolean\n\n
+    add(final E object, final int nCopies)\n
     '''
 def uniqueSet():
-    '''public Set<E> uniqueSet()
+    '''returns Set<E>\n\n
+    uniqueSet()\n
     '''

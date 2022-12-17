@@ -1,24 +1,32 @@
-def ProxyPanel():
-    '''public ProxyPanel(final ConfigurationInfo configurationInfo)
+def ():
+    '''returns ProxyPanel\n\n
+    (final ConfigurationInfo configurationInfo)\n
     '''
 def isCellEditable():
-    '''public boolean isCellEditable(final int row, final int column)
+    '''returns boolean\n\n
+    isCellEditable(final int row, final int column)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def keyTyped():
-    '''public void keyTyped(final KeyEvent keyEvent)
+    '''returns None\n\n
+    keyTyped(final KeyEvent keyEvent)\n
     '''
 def keyReleased():
-    '''public void keyReleased(final KeyEvent keyEvent)
+    '''returns None\n\n
+    keyReleased(final KeyEvent keyEvent)\n
     '''
 def keyPressed():
-    '''public void keyPressed(final KeyEvent keyEvent)
+    '''returns None\n\n
+    keyPressed(final KeyEvent keyEvent)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def tableChanged():
-    '''public void tableChanged(final TableModelEvent tableModelEvent)
+    '''returns None\n\n
+    tableChanged(final TableModelEvent tableModelEvent)\n
     '''

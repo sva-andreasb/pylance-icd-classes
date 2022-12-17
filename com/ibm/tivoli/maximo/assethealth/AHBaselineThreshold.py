@@ -1,3 +1,4 @@
-def AHBaselineThreshold():
-    '''public AHBaselineThreshold(final MboSet ms)
+def ():
+    '''returns AHBaselineThreshold\n\n
+    (final MboSet ms)\n
     '''

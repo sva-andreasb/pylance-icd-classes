@@ -16,12 +16,3 @@ SSL_MODE_SERVER = "int  1"
 SSL_MODE_COMBINED = "int  2"
 SSL_SELECTOR_FAILURE_NO_ADVERTISE = "int  0"
 SSL_SELECTOR_FAILURE_CHOOSE_MY_LAST_PROTOCOL = "int  1"
-def setCipherSuites():
-    '''public static boolean setCipherSuites(final long ssl, final String ciphers)
-    '''
-def setTlsExtHostName():
-    '''public static void setTlsExtHostName(final long ssl, String hostname)
-    '''
-def setKeyMaterialServerSide():
-    '''public static void setKeyMaterialServerSide(final long ssl, final long chain, final long key)
-    '''

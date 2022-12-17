@@ -1,17 +1,22 @@
 sid = "short  10"
 ENCODED_SIZE = "int  4"
-def EOFRecord():
-    '''public EOFRecord(final RecordInputStream in)
+def ():
+    '''returns EOFRecord\n\n
+    (final RecordInputStream in)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public EOFRecord clone()
+    '''returns EOFRecord\n\n
+    clone()\n
     '''

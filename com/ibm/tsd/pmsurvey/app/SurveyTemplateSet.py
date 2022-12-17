@@ -1,3 +1,4 @@
-def SurveyTemplateSet():
-    '''public SurveyTemplateSet(final MboServerInterface ms)
+def ():
+    '''returns SurveyTemplateSet\n\n
+    (final MboServerInterface ms)\n
     '''

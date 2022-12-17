@@ -1,24 +1,32 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isAutoJoin():
-    '''public boolean isAutoJoin()
+    '''returns boolean\n\n
+    isAutoJoin()\n
     '''
 def getJid():
-    '''public EntityBareJid getJid()
+    '''returns EntityBareJid\n\n
+    getJid()\n
     '''
 def getNickname():
-    '''public Resourcepart getNickname()
+    '''returns Resourcepart\n\n
+    getNickname()\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def isShared():
-    '''public boolean isShared()
+    '''returns boolean\n\n
+    isShared()\n
     '''

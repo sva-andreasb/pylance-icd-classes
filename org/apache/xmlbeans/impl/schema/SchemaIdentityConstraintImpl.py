@@ -1,90 +1,120 @@
-def SchemaIdentityConstraintImpl():
-    '''public SchemaIdentityConstraintImpl(final SchemaContainer c)
+def ():
+    '''returns SchemaIdentityConstraintImpl\n\n
+    (final SchemaContainer c)\n
     '''
 def setFilename():
-    '''public void setFilename(final String filename)
+    '''returns None\n\n
+    setFilename(final String filename)\n
     '''
 def getSourceName():
-    '''public String getSourceName()
+    '''returns String\n\n
+    getSourceName()\n
     '''
 def getSelector():
-    '''public String getSelector()
+    '''returns String\n\n
+    getSelector()\n
     '''
 def getSelectorPath():
-    '''public Object getSelectorPath()
+    '''returns Object\n\n
+    getSelectorPath()\n
     '''
 def setAnnotation():
-    '''public void setAnnotation(final SchemaAnnotation ann)
+    '''returns None\n\n
+    setAnnotation(final SchemaAnnotation ann)\n
     '''
 def getAnnotation():
-    '''public SchemaAnnotation getAnnotation()
+    '''returns SchemaAnnotation\n\n
+    getAnnotation()\n
     '''
 def setNSMap():
-    '''public void setNSMap(final Map nsMap)
+    '''returns None\n\n
+    setNSMap(final Map nsMap)\n
     '''
 def getNSMap():
-    '''public Map getNSMap()
+    '''returns Map\n\n
+    getNSMap()\n
     '''
 def setSelector():
-    '''public void setSelector(final String selector)
+    '''returns None\n\n
+    setSelector(final String selector)\n
     '''
 def setFields():
-    '''public void setFields(final String[] fields)
+    '''returns None\n\n
+    setFields(final String[] fields)\n
     '''
 def getFields():
-    '''public String[] getFields()
+    '''returns String[]\n\n
+    getFields()\n
     '''
 def getFieldPath():
-    '''public Object getFieldPath(final int index)
+    '''returns Object\n\n
+    getFieldPath(final int index)\n
     '''
 def buildPaths():
-    '''public void buildPaths()
+    '''returns None\n\n
+    buildPaths()\n
     '''
 def setReferencedKey():
-    '''public void setReferencedKey(final Ref key)
+    '''returns None\n\n
+    setReferencedKey(final Ref key)\n
     '''
 def getReferencedKey():
-    '''public SchemaIdentityConstraint getReferencedKey()
+    '''returns SchemaIdentityConstraint\n\n
+    getReferencedKey()\n
     '''
 def setConstraintCategory():
-    '''public void setConstraintCategory(final int type)
+    '''returns None\n\n
+    setConstraintCategory(final int type)\n
     '''
 def getConstraintCategory():
-    '''public int getConstraintCategory()
+    '''returns int\n\n
+    getConstraintCategory()\n
     '''
 def setName():
-    '''public void setName(final QName name)
+    '''returns None\n\n
+    setName(final QName name)\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getComponentType():
-    '''public int getComponentType()
+    '''returns int\n\n
+    getComponentType()\n
     '''
 def getTypeSystem():
-    '''public SchemaTypeSystem getTypeSystem()
+    '''returns SchemaTypeSystem\n\n
+    getTypeSystem()\n
     '''
 def setParseContext():
-    '''public void setParseContext(final XmlObject o, final String targetNamespace, final boolean chameleon)
+    '''returns None\n\n
+    setParseContext(final XmlObject o, final String targetNamespace, final boolean chameleon)\n
     '''
 def getParseObject():
-    '''public XmlObject getParseObject()
+    '''returns XmlObject\n\n
+    getParseObject()\n
     '''
 def getTargetNamespace():
-    '''public String getTargetNamespace()
+    '''returns String\n\n
+    getTargetNamespace()\n
     '''
 def getChameleonNamespace():
-    '''public String getChameleonNamespace()
+    '''returns String\n\n
+    getChameleonNamespace()\n
     '''
 def isResolved():
-    '''public boolean isResolved()
+    '''returns boolean\n\n
+    isResolved()\n
     '''
 def getRef():
-    '''public Ref getRef()
+    '''returns Ref\n\n
+    getRef()\n
     '''
 def getUserData():
-    '''public Object getUserData()
+    '''returns Object\n\n
+    getUserData()\n
     '''
 def setUserData():
-    '''public void setUserData(final Object data)
+    '''returns None\n\n
+    setUserData(final Object data)\n
     '''

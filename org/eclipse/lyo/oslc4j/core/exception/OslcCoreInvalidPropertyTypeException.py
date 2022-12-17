@@ -1,6 +1,8 @@
-def OslcCoreInvalidPropertyTypeException():
-    '''public OslcCoreInvalidPropertyTypeException(final Class<?> resourceClass, final Method method, final Class<?> returnType)
+def ():
+    '''returns OslcCoreInvalidPropertyTypeException\n\n
+    (final Class<?> resourceClass, final Method method, final Class<?> returnType)\n
     '''
 def getMethod():
-    '''public Method getMethod()
+    '''returns Method\n\n
+    getMethod()\n
     '''

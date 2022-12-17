@@ -1,30 +1,32 @@
-def OslcErrorHandler():
-    '''public OslcErrorHandler(final UserInfo userInfo)
+def ():
+    '''returns OslcErrorHandler\n\n
+    (final UserInfo userInfo)\n
     '''
 def setNoErrorTracking():
-    '''public void setNoErrorTracking(final boolean noErrTracking)
-    '''
-def errorToJson():
-    '''public static void errorToJson(final Map<String, Exception> errors, final Mbo mbo)
-    '''
-def serializeError():
-    '''public static JSONObject serializeError(final String attr, final Throwable e, final Mbo mbo, final boolean ignoreApiErrs)
+    '''returns None\n\n
+    setNoErrorTracking(final boolean noErrTracking)\n
     '''
 def setForErrorSerialization():
-    '''public void setForErrorSerialization(final boolean errser)
+    '''returns None\n\n
+    setForErrorSerialization(final boolean errser)\n
     '''
 def serializeExtendedError():
-    '''public byte[] serializeExtendedError(final String bmxId, final Map<String, String> headers, final OslcRequest request)
+    '''returns byte[]\n\n
+    serializeExtendedError(final String bmxId, final Map<String, String> headers, final OslcRequest request)\n
     '''
 def getExtendedErrorURL():
-    '''public String getExtendedErrorURL(final MXException me)
+    '''returns String\n\n
+    getExtendedErrorURL(final MXException me)\n
     '''
 def getErrorId():
-    '''public String getErrorId(final MXException me)
+    '''returns String\n\n
+    getErrorId(final MXException me)\n
     '''
 def sendJsonError():
-    '''public void sendJsonError(final OslcErrorResponse osr, final HttpServletRequest request, final HttpServletResponse resp, final int errorcode, final JSONObject optionsJo, final JSONArray params)
+    '''returns None\n\n
+    sendJsonError(final OslcErrorResponse osr, final HttpServletRequest request, final HttpServletResponse resp, final int errorcode, final JSONObject optionsJo, final JSONArray params)\n
     '''
 def handleError():
-    '''public OslcErrorResponse handleError(Throwable t, final HttpServletRequest request, final HttpServletResponse resp)
+    '''returns OslcErrorResponse\n\n
+    handleError(Throwable t, final HttpServletRequest request, final HttpServletResponse resp)\n
     '''

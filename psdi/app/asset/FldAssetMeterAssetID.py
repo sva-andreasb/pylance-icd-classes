@@ -1,6 +1,8 @@
-def FldAssetMeterAssetID():
-    '''public FldAssetMeterAssetID(final MboValue mbv)
+def ():
+    '''returns FldAssetMeterAssetID\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

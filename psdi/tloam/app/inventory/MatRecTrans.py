@@ -1,18 +1,24 @@
-def MatRecTrans():
-    '''public MatRecTrans(final MboSet ms)
+def ():
+    '''returns MatRecTrans\n\n
+    (final MboSet ms)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def processStatus():
-    '''public void processStatus()
+    '''returns None\n\n
+    processStatus()\n
     '''
 def synchLicTrans():
-    '''public void synchLicTrans()
+    '''returns None\n\n
+    synchLicTrans()\n
     '''

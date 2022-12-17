@@ -1,3 +1,4 @@
 def COPYLOCATTRSET():
-    '''public int COPYLOCATTRSET()
+    '''returns int\n\n
+    COPYLOCATTRSET()\n
     '''

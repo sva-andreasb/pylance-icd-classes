@@ -1,115 +1,149 @@
-def IlvWizardPanel():
-    '''public IlvWizardPanel(final LayoutManager layout)
-    public IlvWizardPanel()
+def ():
+    '''returns PageNode\n\n
+    (final LayoutManager layout)\n
+    ()\n
+    (final IlvWizardPage a)\n
     '''
 def setFormModel():
-    '''public void setFormModel(final IlvFormModel formModel)
+    '''returns None\n\n
+    setFormModel(final IlvFormModel formModel)\n
     '''
 def getFormModel():
-    '''public IlvFormModel getFormModel()
+    '''returns IlvFormModel\n\n
+    getFormModel()\n
     '''
 def commit():
-    '''public boolean commit()
+    '''returns boolean\n\n
+    commit()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String g)
+    '''returns None\n\n
+    setTitle(final String g)\n
     '''
 def askForCommit():
-    '''public void askForCommit(final IlvWizardPage ilvWizardPage)
+    '''returns None\n\n
+    askForCommit(final IlvWizardPage ilvWizardPage)\n
     '''
 def addPage():
-    '''public int addPage(final IlvWizardPage ilvWizardPage)
+    '''returns int\n\n
+    addPage(final IlvWizardPage ilvWizardPage)\n
     '''
 def removePage():
-    '''public boolean removePage(final IlvWizardPage ilvWizardPage)
+    '''returns boolean\n\n
+    removePage(final IlvWizardPage ilvWizardPage)\n
     '''
 def getPageCount():
-    '''public int getPageCount()
+    '''returns int\n\n
+    getPageCount()\n
     '''
 def getPage():
-    '''public IlvWizardPage getPage(final int n)
-    public IlvWizardPage getPage()
+    '''returns IlvWizardPage\n\n
+    getPage(final int n)\n
+    getPage()\n
     '''
 def setActivePage():
-    '''public boolean setActivePage(final int a)
-    public boolean setActivePage(final IlvWizardPage ilvWizardPage)
+    '''returns boolean\n\n
+    setActivePage(final int a)\n
+    setActivePage(final IlvWizardPage ilvWizardPage)\n
     '''
 def getPageIndex():
-    '''public int getPageIndex(final IlvWizardPage ilvWizardPage)
+    '''returns int\n\n
+    getPageIndex(final IlvWizardPage ilvWizardPage)\n
     '''
 def getServicesProvider():
-    '''public IlvServicesProvider getServicesProvider()
+    '''returns IlvServicesProvider\n\n
+    getServicesProvider()\n
     '''
 def setServicesProvider():
-    '''public void setServicesProvider(final IlvServicesProvider ilvServicesProvider)
+    '''returns None\n\n
+    setServicesProvider(final IlvServicesProvider ilvServicesProvider)\n
     '''
 def getCurrentPageIndex():
-    '''public int getCurrentPageIndex()
+    '''returns int\n\n
+    getCurrentPageIndex()\n
     '''
 def getCurrentPage():
-    '''public IlvWizardPage getCurrentPage()
+    '''returns IlvWizardPage\n\n
+    getCurrentPage()\n
     '''
 def addWizardPanelListener():
-    '''public void addWizardPanelListener(final WizardPanelListener wizardPanelListener)
+    '''returns None\n\n
+    addWizardPanelListener(final WizardPanelListener wizardPanelListener)\n
     '''
 def removeWizardPanelListener():
-    '''public boolean removeWizardPanelListener(final WizardPanelListener wizardPanelListener)
+    '''returns boolean\n\n
+    removeWizardPanelListener(final WizardPanelListener wizardPanelListener)\n
     '''
 def getPageErrors():
-    '''public Iterator getPageErrors(final IlvWizardPage ilvWizardPage)
+    '''returns Iterator\n\n
+    getPageErrors(final IlvWizardPage ilvWizardPage)\n
     '''
 def hasErrors():
-    '''public boolean hasErrors(final IlvWizardPage ilvWizardPage)
-    public boolean hasErrors()
+    '''returns boolean\n\n
+    hasErrors(final IlvWizardPage ilvWizardPage)\n
+    hasErrors()\n
     '''
 def addWizardError():
-    '''public void addWizardError(final IlvWizardError ilvWizardError)
+    '''returns None\n\n
+    addWizardError(final IlvWizardError ilvWizardError)\n
     '''
 def removeWizardError():
-    '''public boolean removeWizardError(final IlvWizardError ilvWizardError)
+    '''returns boolean\n\n
+    removeWizardError(final IlvWizardError ilvWizardError)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def validationErrorAdded():
-    '''public void validationErrorAdded(final ValidationEvent validationEvent)
+    '''returns None\n\n
+    validationErrorAdded(final ValidationEvent validationEvent)\n
     '''
 def validationErrorRemoved():
-    '''public void validationErrorRemoved(final ValidationEvent validationEvent)
+    '''returns None\n\n
+    validationErrorRemoved(final ValidationEvent validationEvent)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
-    '''
-def PageNode():
-    '''public PageNode(final IlvWizardPage a)
+    '''returns None\n\n
+    remove()\n
     '''
 def getPageContainer():
-    '''public Container getPageContainer()
+    '''returns Container\n\n
+    getPageContainer()\n
     '''
 def getForm():
-    '''public IlvForm getForm()
+    '''returns IlvForm\n\n
+    getForm()\n
     '''
 def isInitialized():
-    '''public boolean isInitialized()
+    '''returns boolean\n\n
+    isInitialized()\n
     '''
 def setInitialized():
-    '''public void setInitialized(final boolean b)
+    '''returns None\n\n
+    setInitialized(final boolean b)\n
     '''
 def addError():
-    '''public void addError(final IlvWizardError ilvWizardError)
+    '''returns None\n\n
+    addError(final IlvWizardError ilvWizardError)\n
     '''
 def removeError():
-    '''public boolean removeError(final IlvWizardError ilvWizardError)
+    '''returns boolean\n\n
+    removeError(final IlvWizardError ilvWizardError)\n
     '''
 def getErrors():
-    '''public List getErrors()
+    '''returns List\n\n
+    getErrors()\n
     '''

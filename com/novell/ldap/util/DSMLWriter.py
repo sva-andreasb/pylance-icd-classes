@@ -1,37 +1,48 @@
 def setResumeOnError():
-    '''public void setResumeOnError(final boolean resumeOnError)
+    '''returns None\n\n
+    setResumeOnError(final boolean resumeOnError)\n
     '''
-def DSMLWriter():
-    '''public DSMLWriter(final String name)
-    public DSMLWriter(final OutputStream out)
-    public DSMLWriter(final Writer out)
+def ():
+    '''returns DSMLWriter\n\n
+    (final String name)\n
+    (final OutputStream out)\n
+    (final Writer out)\n
     '''
 def writeError():
-    '''public void writeError(final Exception ex)
+    '''returns None\n\n
+    writeError(final Exception ex)\n
     '''
 def finish():
-    '''public void finish()
+    '''returns None\n\n
+    finish()\n
     '''
 def writeComments():
-    '''public void writeComments(final String str)
+    '''returns None\n\n
+    writeComments(final String str)\n
     '''
 def writeMessage():
-    '''public void writeMessage(final LDAPMessage ldapMessage)
+    '''returns None\n\n
+    writeMessage(final LDAPMessage ldapMessage)\n
     '''
 def writeEntry():
-    '''public void writeEntry(final LDAPEntry ldapEntry)
-    public void writeEntry(final LDAPEntry ldapEntry, final LDAPControl[] array)
-    public void writeEntry(final LDAPEntry ldapEntry, final LDAPControl[] array, final String str)
+    '''returns None\n\n
+    writeEntry(final LDAPEntry ldapEntry)\n
+    writeEntry(final LDAPEntry ldapEntry, final LDAPControl[] array)\n
+    writeEntry(final LDAPEntry ldapEntry, final LDAPControl[] array, final String str)\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def isRequest():
-    '''public boolean isRequest()
+    '''returns boolean\n\n
+    isRequest()\n
     '''
 def useIndent():
-    '''public void useIndent(final boolean indent)
+    '''returns None\n\n
+    useIndent(final boolean indent)\n
     '''
 def setIndent():
-    '''public void setIndent(final int n)
+    '''returns None\n\n
+    setIndent(final int n)\n
     '''

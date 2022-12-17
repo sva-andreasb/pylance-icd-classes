@@ -1,70 +1,93 @@
-def JSPCache():
-    '''public JSPCache()
+def ():
+    '''returns JSPCache\n\n
+    ()\n
     '''
 def setCache():
-    '''public void setCache(final DCache cache)
+    '''returns None\n\n
+    setCache(final DCache cache)\n
     '''
 def setBatchUpdateDaemon():
-    '''public void setBatchUpdateDaemon(final BatchUpdateDaemon batchUpdateDaemon)
+    '''returns None\n\n
+    setBatchUpdateDaemon(final BatchUpdateDaemon batchUpdateDaemon)\n
     '''
 def setRemoteServices():
-    '''public void setRemoteServices(final RemoteServices remoteServices)
+    '''returns None\n\n
+    setRemoteServices(final RemoteServices remoteServices)\n
     '''
 def setExternalCacheServices():
-    '''public void setExternalCacheServices(final com.ibm.ws.cache.intf.ExternalCacheServices externalCacheServices)
+    '''returns None\n\n
+    setExternalCacheServices(final com.ibm.ws.cache.intf.ExternalCacheServices externalCacheServices)\n
     '''
 def setDefaultPriority():
-    '''public void setDefaultPriority(final int defaultPriority)
+    '''returns None\n\n
+    setDefaultPriority(final int defaultPriority)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def setExternalCacheFragment():
-    '''public void setExternalCacheFragment(final String id, final ExternalCacheFragment externalCacheFragment)
+    '''returns None\n\n
+    setExternalCacheFragment(final String id, final ExternalCacheFragment externalCacheFragment)\n
     '''
 def setValue():
-    '''public void setValue(final EntryInfo entryInfo, final FragmentComposerMemento memento, final ExternalCacheFragment externalCacheFragment)
+    '''returns None\n\n
+    setValue(final EntryInfo entryInfo, final FragmentComposerMemento memento, final ExternalCacheFragment externalCacheFragment)\n
     '''
 def setValidatorExpirationTime():
-    '''public void setValidatorExpirationTime(final EntryInfo entryInfo, final FragmentComposerMemento memento)
+    '''returns None\n\n
+    setValidatorExpirationTime(final EntryInfo entryInfo, final FragmentComposerMemento memento)\n
     '''
 def updateStatisticsForVBC():
-    '''public void updateStatisticsForVBC(final CacheEntry cacheEntry, final boolean directive)
+    '''returns None\n\n
+    updateStatisticsForVBC(final CacheEntry cacheEntry, final boolean directive)\n
     '''
 def getEntry():
-    '''public CacheEntry getEntry(final String id)
-    public CacheEntry getEntry(final EntryInfo entryInfo)
+    '''returns CacheEntry\n\n
+    getEntry(final String id)\n
+    getEntry(final EntryInfo entryInfo)\n
     '''
 def isValid():
-    '''public boolean isValid(final String id)
+    '''returns boolean\n\n
+    isValid(final String id)\n
     '''
 def getValue():
-    '''public Object getValue(final EntryInfo entryInfo, final boolean askPermission)
+    '''returns Object\n\n
+    getValue(final EntryInfo entryInfo, final boolean askPermission)\n
     '''
 def invalidateById():
-    '''public void invalidateById(final String id, final boolean waitOnInvalidation)
+    '''returns None\n\n
+    invalidateById(final String id, final boolean waitOnInvalidation)\n
     '''
 def invalidateByTemplate():
-    '''public void invalidateByTemplate(final String template, final boolean waitOnInvalidation)
+    '''returns None\n\n
+    invalidateByTemplate(final String template, final boolean waitOnInvalidation)\n
     '''
 def shouldPull():
-    '''public boolean shouldPull(final int share, final String id)
+    '''returns boolean\n\n
+    shouldPull(final int share, final String id)\n
     '''
 def preInvoke():
-    '''public void preInvoke(final String cacheGroup, final CacheProxyRequest request, final CacheProxyResponse response)
+    '''returns None\n\n
+    preInvoke(final String cacheGroup, final CacheProxyRequest request, final CacheProxyResponse response)\n
     '''
 def postInvoke():
-    '''public void postInvoke(final String cacheGroup, final CacheProxyRequest request, final CacheProxyResponse response)
+    '''returns None\n\n
+    postInvoke(final String cacheGroup, final CacheProxyRequest request, final CacheProxyResponse response)\n
     '''
 def isCascadeCachespecProperties():
-    '''public boolean isCascadeCachespecProperties()
+    '''returns boolean\n\n
+    isCascadeCachespecProperties()\n
     '''
 def isAutoFlushIncludes():
-    '''public boolean isAutoFlushIncludes()
+    '''returns boolean\n\n
+    isAutoFlushIncludes()\n
     '''
 def alwaysSetSurrogateControlHdr():
-    '''public boolean alwaysSetSurrogateControlHdr()
+    '''returns boolean\n\n
+    alwaysSetSurrogateControlHdr()\n
     '''
 def getFilteredStatusCodes():
-    '''public int[] getFilteredStatusCodes()
+    '''returns int[]\n\n
+    getFilteredStatusCodes()\n
     '''

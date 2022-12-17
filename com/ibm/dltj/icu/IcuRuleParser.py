@@ -1,21 +1,24 @@
-def IcuRuleParser():
-    '''public IcuRuleParser()
+def ():
+    '''returns IcuRuleParser\n\n
+    ()\n
     '''
 def getContext():
-    '''public RuleParserContext getContext()
+    '''returns RuleParserContext\n\n
+    getContext()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def parse():
-    '''public void parse()
+    '''returns None\n\n
+    parse()\n
     '''
 def setLogLevel():
-    '''public void setLogLevel(final Level level)
+    '''returns None\n\n
+    setLogLevel(final Level level)\n
     '''
 def setLogStream():
-    '''public void setLogStream(final OutputStream log)
-    '''
-def main():
-    '''public static void main(final String[] array)
+    '''returns None\n\n
+    setLogStream(final OutputStream log)\n
     '''

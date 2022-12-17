@@ -1,10 +1,13 @@
 def sign():
-    '''public byte[] sign(final String stringData, final byte[] key, final SigningAlgorithm algorithm)
+    '''returns byte[]\n\n
+    sign(final String stringData, final byte[] key, final SigningAlgorithm algorithm)\n
     '''
 def signWithMac():
-    '''public byte[] signWithMac(final String stringData, final Mac mac)
+    '''returns byte[]\n\n
+    signWithMac(final String stringData, final Mac mac)\n
     '''
 def hash():
-    '''public byte[] hash(final String text)
-    public byte[] hash(final byte[] data)
+    '''returns byte[]\n\n
+    hash(final String text)\n
+    hash(final byte[] data)\n
     '''

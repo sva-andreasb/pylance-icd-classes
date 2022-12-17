@@ -1,20 +1,26 @@
 ELEMENT = "String  \"destroy\""
-def Destroy():
-    '''public Destroy(final Destroy other)
-    public Destroy(final EntityBareJid alternativeJid, final String reason)
+def ():
+    '''returns Destroy\n\n
+    (final Destroy other)\n
+    (final EntityBareJid alternativeJid, final String reason)\n
     '''
 def getJid():
-    '''public EntityBareJid getJid()
+    '''returns EntityBareJid\n\n
+    getJid()\n
     '''
 def getReason():
-    '''public String getReason()
+    '''returns String\n\n
+    getReason()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def clone():
-    '''public Destroy clone()
+    '''returns Destroy\n\n
+    clone()\n
     '''

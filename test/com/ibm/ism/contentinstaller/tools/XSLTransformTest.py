@@ -1,3 +1,4 @@
 def testPerformXSLTransformation():
-    '''public void testPerformXSLTransformation()
+    '''returns None\n\n
+    testPerformXSLTransformation()\n
     '''

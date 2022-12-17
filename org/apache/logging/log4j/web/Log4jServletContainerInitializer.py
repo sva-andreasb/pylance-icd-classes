@@ -1,3 +1,4 @@
 def onStartup():
-    '''public void onStartup(final Set<Class<?>> classes, final ServletContext servletContext)
+    '''returns None\n\n
+    onStartup(final Set<Class<?>> classes, final ServletContext servletContext)\n
     '''

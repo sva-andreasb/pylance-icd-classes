@@ -1,36 +1,48 @@
-def PrivateGroup():
-    '''public PrivateGroup(final String id, final String name, final String desc, final boolean open, final Vector users)
+def ():
+    '''returns PrivateGroup\n\n
+    (final String id, final String name, final String desc, final boolean open, final Vector users)\n
     '''
 def setGroupOpenStatus():
-    '''public void setGroupOpenStatus(final boolean open)
+    '''returns None\n\n
+    setGroupOpenStatus(final boolean open)\n
     '''
 def getGroupOpenStatus():
-    '''public boolean getGroupOpenStatus()
+    '''returns boolean\n\n
+    getGroupOpenStatus()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getBLId():
-    '''public String getBLId()
+    '''returns String\n\n
+    getBLId()\n
     '''
 def getDesc():
-    '''public String getDesc()
+    '''returns String\n\n
+    getDesc()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getUsersInGroup():
-    '''public Vector getUsersInGroup()
+    '''returns Vector\n\n
+    getUsersInGroup()\n
     '''
 def addUser():
-    '''public boolean addUser(final BLUser blUser)
+    '''returns boolean\n\n
+    addUser(final BLUser blUser)\n
     '''
 def removeUser():
-    '''public boolean removeUser(final BLUser blUser)
+    '''returns boolean\n\n
+    removeUser(final BLUser blUser)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

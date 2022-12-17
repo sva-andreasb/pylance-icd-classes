@@ -1,3 +1,4 @@
-def WebSocket13FrameEncoder():
-    '''public WebSocket13FrameEncoder(final boolean maskPayload)
+def ():
+    '''returns WebSocket13FrameEncoder\n\n
+    (final boolean maskPayload)\n
     '''

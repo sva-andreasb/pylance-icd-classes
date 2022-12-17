@@ -1,57 +1,69 @@
-def setUniqueList():
-    '''public static <E> SetUniqueList<E> setUniqueList(final List<E> list)
-    '''
 def asSet():
-    '''public Set<E> asSet()
+    '''returns Set<E>\n\n
+    asSet()\n
     '''
 def add():
-    '''public boolean add(final E object)
-    public void add(final int index, final E object)
-    public void add(final E object)
+    '''returns None\n\n
+    add(final E object)\n
+    add(final int index, final E object)\n
+    add(final E object)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> coll)
-    public boolean addAll(final int index, final Collection<? extends E> coll)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> coll)\n
+    addAll(final int index, final Collection<? extends E> coll)\n
     '''
 def set():
-    '''public E set(final int index, final E object)
-    public void set(final E object)
+    '''returns None\n\n
+    set(final int index, final E object)\n
+    set(final E object)\n
     '''
 def remove():
-    '''public boolean remove(final Object object)
-    public E remove(final int index)
-    public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove(final Object object)\n
+    remove(final int index)\n
+    remove()\n
+    remove()\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> coll)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def contains():
-    '''public boolean contains(final Object object)
+    '''returns boolean\n\n
+    contains(final Object object)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> coll)\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def listIterator():
-    '''public ListIterator<E> listIterator()
-    public ListIterator<E> listIterator(final int index)
+    '''returns ListIterator<E>\n\n
+    listIterator()\n
+    listIterator(final int index)\n
     '''
 def subList():
-    '''public List<E> subList(final int fromIndex, final int toIndex)
+    '''returns List<E>\n\n
+    subList(final int fromIndex, final int toIndex)\n
     '''
 def next():
-    '''public E next()
-    public E next()
+    '''returns E\n\n
+    next()\n
+    next()\n
     '''
 def previous():
-    '''public E previous()
+    '''returns E\n\n
+    previous()\n
     '''

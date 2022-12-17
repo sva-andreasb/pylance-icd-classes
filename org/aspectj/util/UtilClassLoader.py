@@ -1,12 +1,16 @@
-def UtilClassLoader():
-    '''public UtilClassLoader(final URL[] urls, final File[] dirs)
+def ():
+    '''returns UtilClassLoader\n\n
+    (final URL[] urls, final File[] dirs)\n
     '''
 def getResource():
-    '''public URL getResource(final String name)
+    '''returns URL\n\n
+    getResource(final String name)\n
     '''
 def getResourceAsStream():
-    '''public InputStream getResourceAsStream(final String name)
+    '''returns InputStream\n\n
+    getResourceAsStream(final String name)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

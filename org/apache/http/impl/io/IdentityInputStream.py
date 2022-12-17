@@ -1,13 +1,17 @@
-def IdentityInputStream():
-    '''public IdentityInputStream(final SessionInputBuffer in)
+def ():
+    '''returns IdentityInputStream\n\n
+    (final SessionInputBuffer in)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''

@@ -1,21 +1,28 @@
-def ServiceStorage():
-    '''public ServiceStorage(final MXServer mxServer)
+def ():
+    '''returns ServiceStorage\n\n
+    (final MXServer mxServer)\n
     '''
 def lookup():
-    '''public ServiceRemote lookup(final String serviceName)
+    '''returns ServiceRemote\n\n
+    lookup(final String serviceName)\n
     '''
 def lookupLocal():
-    '''public ServiceRemote lookupLocal(final String svcName)
+    '''returns ServiceRemote\n\n
+    lookupLocal(final String svcName)\n
     '''
 def configure():
-    '''public boolean configure(final String serverUrl, String input, String type)
+    '''returns boolean\n\n
+    configure(final String serverUrl, String input, String type)\n
     '''
 def elements():
-    '''public Enumeration elements()
+    '''returns Enumeration\n\n
+    elements()\n
     '''
 def getLocalAppList():
-    '''public String[] getLocalAppList()
+    '''returns String[]\n\n
+    getLocalAppList()\n
     '''
 def getLocalServices():
-    '''public Enumeration getLocalServices()
+    '''returns Enumeration\n\n
+    getLocalServices()\n
     '''

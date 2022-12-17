@@ -1,3 +1,4 @@
-def AMCrewWorkZoneSet():
-    '''public AMCrewWorkZoneSet(final MboServerInterface ms)
+def ():
+    '''returns AMCrewWorkZoneSet\n\n
+    (final MboServerInterface ms)\n
     '''

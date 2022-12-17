@@ -1,3 +1,4 @@
-def WorkTypeSet():
-    '''public WorkTypeSet(final MboServerInterface ms)
+def ():
+    '''returns WorkTypeSet\n\n
+    (final MboServerInterface ms)\n
     '''

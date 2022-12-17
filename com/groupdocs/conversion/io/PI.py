@@ -1,23 +1,30 @@
-def PI():
-    '''public PI(final int threshold)
+def ():
+    '''returns PI\n\n
+    (final int threshold)\n
     '''
 def write():
-    '''public void write(final int b)
-    public void write(final byte[] b)
-    public void write(final byte[] b, final int off, final int len)
+    '''returns None\n\n
+    write(final int b)\n
+    write(final byte[] b)\n
+    write(final byte[] b, final int off, final int len)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getThreshold():
-    '''public int getThreshold()
+    '''returns int\n\n
+    getThreshold()\n
     '''
 def getByteCount():
-    '''public long getByteCount()
+    '''returns long\n\n
+    getByteCount()\n
     '''
 def isThresholdExceeded():
-    '''public boolean isThresholdExceeded()
+    '''returns boolean\n\n
+    isThresholdExceeded()\n
     '''

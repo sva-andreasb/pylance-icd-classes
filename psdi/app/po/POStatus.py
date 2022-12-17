@@ -1,12 +1,16 @@
-def POStatus():
-    '''public POStatus(final MboSet ms)
+def ():
+    '''returns POStatus\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getPOStatusRecord():
-    '''public Vector getPOStatusRecord()
+    '''returns Vector\n\n
+    getPOStatusRecord()\n
     '''

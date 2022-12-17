@@ -8,68 +8,82 @@ POLICY_IGNORE = "String  \"ignore\""
 POLICY_FAILALL = "String  \"failall\""
 PROPERTIES = "int  0"
 XML = "int  1"
-def Definer():
-    '''public Definer()
+def ():
+    '''returns OnError\n\n
+    ()\n
+    ()\n
+    (final String value)\n
     '''
 def setOnError():
-    '''public void setOnError(final OnError onError)
+    '''returns None\n\n
+    setOnError(final OnError onError)\n
     '''
 def setFormat():
-    '''public void setFormat(final Format format)
+    '''returns None\n\n
+    setFormat(final Format format)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''
 def getResource():
-    '''public String getResource()
+    '''returns String\n\n
+    getResource()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public Object nextElement()
-    '''
-def makeResourceFromURI():
-    '''public static String makeResourceFromURI(final String uri)
+    '''returns Object\n\n
+    nextElement()\n
     '''
 def setFile():
-    '''public void setFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def setResource():
-    '''public void setResource(final String res)
+    '''returns None\n\n
+    setResource(final String res)\n
     '''
 def setAntlib():
-    '''public void setAntlib(final String antlib)
+    '''returns None\n\n
+    setAntlib(final String antlib)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getClassname():
-    '''public String getClassname()
+    '''returns String\n\n
+    getClassname()\n
     '''
 def setClassname():
-    '''public void setClassname(final String classname)
+    '''returns None\n\n
+    setClassname(final String classname)\n
     '''
 def setAdapter():
-    '''public void setAdapter(final String adapter)
+    '''returns None\n\n
+    setAdapter(final String adapter)\n
     '''
 def setAdaptTo():
-    '''public void setAdaptTo(final String adaptTo)
+    '''returns None\n\n
+    setAdaptTo(final String adaptTo)\n
     '''
 def initialValue():
-    '''public Object initialValue()
-    '''
-def OnError():
-    '''public OnError()
-    public OnError(final String value)
+    '''returns Object\n\n
+    initialValue()\n
     '''
 def getValues():
-    '''public String[] getValues()
-    public String[] getValues()
+    '''returns String[]\n\n
+    getValues()\n
+    getValues()\n
     '''

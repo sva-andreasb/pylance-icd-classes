@@ -1,3 +1,4 @@
-def GuestTrustEmail():
-    '''public GuestTrustEmail(final MboSet ms)
+def ():
+    '''returns GuestTrustEmail\n\n
+    (final MboSet ms)\n
     '''

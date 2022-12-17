@@ -1,18 +1,24 @@
-def PlusPBSServList():
-    '''public PlusPBSServList(final MboSet set)
+def ():
+    '''returns PlusPBSServList\n\n
+    (final MboSet set)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def createSalesOrder():
-    '''public MboRemote createSalesOrder(final MboRemote mboRemote)
+    '''returns MboRemote\n\n
+    createSalesOrder(final MboRemote mboRemote)\n
     '''
 def createGBTrans():
-    '''public MboRemote createGBTrans(final MboRemote mboRemote)
+    '''returns MboRemote\n\n
+    createGBTrans(final MboRemote mboRemote)\n
     '''
 def getAttributePricing():
-    '''public double getAttributePricing(final MboRemote mboRemote)
+    '''returns double\n\n
+    getAttributePricing(final MboRemote mboRemote)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

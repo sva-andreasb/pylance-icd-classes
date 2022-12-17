@@ -1,6 +1,8 @@
-def ExponentialDecayFunction():
-    '''public ExponentialDecayFunction(final double initValue, final double valueAtNumCall, final long numCall)
+def ():
+    '''returns ExponentialDecayFunction\n\n
+    (final double initValue, final double valueAtNumCall, final long numCall)\n
     '''
 def value():
-    '''public double value(final long numCall)
+    '''returns double\n\n
+    value(final long numCall)\n
     '''

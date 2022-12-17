@@ -1,71 +1,84 @@
-def ProgressLoggerBase():
-    '''public ProgressLoggerBase(final String messageBundleName)
+def ():
+    '''returns ProgressLoggerBase\n\n
+    (final String messageBundleName)\n
     '''
 def getErrorCount():
-    '''public int getErrorCount()
+    '''returns int\n\n
+    getErrorCount()\n
     '''
 def getWarningCount():
-    '''public int getWarningCount()
+    '''returns int\n\n
+    getWarningCount()\n
     '''
 def getPercentCompelete():
-    '''public int getPercentCompelete()
+    '''returns int\n\n
+    getPercentCompelete()\n
     '''
 def setItemCount():
-    '''public void setItemCount(final long count)
+    '''returns None\n\n
+    setItemCount(final long count)\n
     '''
 def error():
-    '''public void error(final String msg)
-    public void error(final String msg, final String[] params)
+    '''returns None\n\n
+    error(final String msg)\n
+    error(final String msg, final String[] params)\n
     '''
 def exception():
-    '''public void exception(final Throwable t)
-    public void exception(final String pageName, final String itemName, final Throwable t)
-    public void exception(final String pageName, final String itemName, final String fieldName, final Throwable t)
+    '''returns None\n\n
+    exception(final Throwable t)\n
+    exception(final String pageName, final String itemName, final Throwable t)\n
+    exception(final String pageName, final String itemName, final String fieldName, final Throwable t)\n
     '''
 def message():
-    '''public void message(final String msg)
-    public void message(final String msg, final String[] params)
+    '''returns None\n\n
+    message(final String msg)\n
+    message(final String msg, final String[] params)\n
     '''
 def progressMsg():
-    '''public void progressMsg(final String msg)
-    public void progressMsg(final String msg, final String[] params)
+    '''returns None\n\n
+    progressMsg(final String msg)\n
+    progressMsg(final String msg, final String[] params)\n
     '''
 def start():
-    '''public void start(final int startStatus)
+    '''returns None\n\n
+    start(final int startStatus)\n
     '''
 def warning():
-    '''public void warning(final String msg)
-    public void warning(final String msg, final String[] params)
+    '''returns None\n\n
+    warning(final String msg)\n
+    warning(final String msg, final String[] params)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def dataIntegrityMessage():
-    '''public void dataIntegrityMessage(final String msg)
-    public void dataIntegrityMessage(String msg, final String[] params)
+    '''returns None\n\n
+    dataIntegrityMessage(final String msg)\n
+    dataIntegrityMessage(String msg, final String[] params)\n
     '''
 def setLoader():
-    '''public void setLoader(final ModelLoaderBase loader)
+    '''returns None\n\n
+    setLoader(final ModelLoaderBase loader)\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def loadComplete():
-    '''public void loadComplete()
+    '''returns None\n\n
+    loadComplete()\n
     '''
 def itemProcessed():
-    '''public void itemProcessed(final long count)
-    public void itemProcessed()
+    '''returns None\n\n
+    itemProcessed(final long count)\n
+    itemProcessed()\n
     '''
 def setLogLevel():
-    '''public void setLogLevel(final long level)
+    '''returns None\n\n
+    setLogLevel(final long level)\n
     '''
 def setMaxLogSize():
-    '''public void setMaxLogSize(final int maxLogSize)
-    '''
-def formatMessage():
-    '''public static String formatMessage(String msg, final String[] params)
-    '''
-def messageFromException():
-    '''public static String messageFromException(final Throwable t)
+    '''returns None\n\n
+    setMaxLogSize(final int maxLogSize)\n
     '''

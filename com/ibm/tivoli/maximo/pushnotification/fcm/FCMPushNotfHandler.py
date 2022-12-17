@@ -1,28 +1,36 @@
 PUSHNOTF_LOGGER = "String  \"maximo.pushnotification\""
 FCMPUSHNOTF_REGISTRATIONTOKEN = "String  \"REGISTRATIONTOKEN\""
 MESSAGE_KEY = "String  \"message\""
-def FCMPushNotfHandler():
-    '''public FCMPushNotfHandler()
-    public FCMPushNotfHandler(final NotificationMessage notificationMessage)
+def ():
+    '''returns FCMPushNotfHandler\n\n
+    ()\n
+    (final NotificationMessage notificationMessage)\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
 def setProviderCredentials():
-    '''public void setProviderCredentials(final String deviceType, final String serviceAcctJson, final String projectId, final String endPointUrl, final String projectUri, final String messageUri, final String messagingScope)
+    '''returns None\n\n
+    setProviderCredentials(final String deviceType, final String serviceAcctJson, final String projectId, final String endPointUrl, final String projectUri, final String messageUri, final String messagingScope)\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map metaData, byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map metaData, byte[] data)\n
     '''
 def getHandlerURL():
-    '''public String getHandlerURL()
+    '''returns String\n\n
+    getHandlerURL()\n
     '''
 def getHeaders():
-    '''public Map getHeaders(final String serviceacctjson)
+    '''returns Map\n\n
+    getHeaders(final String serviceacctjson)\n
     '''
 def getFCMNotificationMessage():
-    '''public JSONObject getFCMNotificationMessage()
+    '''returns JSONObject\n\n
+    getFCMNotificationMessage()\n
     '''
 def getFCMDataMessage():
-    '''public JSONObject getFCMDataMessage()
+    '''returns JSONObject\n\n
+    getFCMDataMessage()\n
     '''

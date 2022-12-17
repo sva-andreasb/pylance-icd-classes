@@ -1,21 +1,28 @@
-def JAXRPCCacheHandler():
-    '''public JAXRPCCacheHandler()
+def ():
+    '''returns JAXRPCCacheHandler\n\n
+    ()\n
     '''
 def handleRequest():
-    '''public boolean handleRequest(final MessageContext context)
+    '''returns boolean\n\n
+    handleRequest(final MessageContext context)\n
     '''
 def handleResponse():
-    '''public boolean handleResponse(final MessageContext context)
+    '''returns boolean\n\n
+    handleResponse(final MessageContext context)\n
     '''
 def handleFault():
-    '''public boolean handleFault(final MessageContext context)
+    '''returns boolean\n\n
+    handleFault(final MessageContext context)\n
     '''
 def init():
-    '''public void init(final HandlerInfo config)
+    '''returns None\n\n
+    init(final HandlerInfo config)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def preHandleIncoming():
-    '''public void preHandleIncoming(final MessageContext context)
+    '''returns None\n\n
+    preHandleIncoming(final MessageContext context)\n
     '''

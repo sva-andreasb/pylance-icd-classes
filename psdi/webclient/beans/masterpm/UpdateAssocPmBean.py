@@ -1,6 +1,8 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def isCalibrationInstalled():
-    '''public boolean isCalibrationInstalled()
+    '''returns boolean\n\n
+    isCalibrationInstalled()\n
     '''

@@ -1,3 +1,4 @@
-def PlusPAppliesToCondSet():
-    '''public PlusPAppliesToCondSet(final MboServerInterface mboServerInterface)
+def ():
+    '''returns PlusPAppliesToCondSet\n\n
+    (final MboServerInterface mboServerInterface)\n
     '''

@@ -1,90 +1,119 @@
 def getValueTypeDesc():
-    '''public String getValueTypeDesc()
-    public String getValueTypeDesc()
+    '''returns String\n\n
+    getValueTypeDesc()\n
+    getValueTypeDesc()\n
     '''
 def canInstantiate():
-    '''public boolean canInstantiate()
+    '''returns boolean\n\n
+    canInstantiate()\n
     '''
 def canCreateFromString():
-    '''public boolean canCreateFromString()
+    '''returns boolean\n\n
+    canCreateFromString()\n
     '''
 def canCreateFromInt():
-    '''public boolean canCreateFromInt()
+    '''returns boolean\n\n
+    canCreateFromInt()\n
     '''
 def canCreateFromLong():
-    '''public boolean canCreateFromLong()
+    '''returns boolean\n\n
+    canCreateFromLong()\n
     '''
 def canCreateFromDouble():
-    '''public boolean canCreateFromDouble()
+    '''returns boolean\n\n
+    canCreateFromDouble()\n
     '''
 def canCreateFromBoolean():
-    '''public boolean canCreateFromBoolean()
+    '''returns boolean\n\n
+    canCreateFromBoolean()\n
     '''
 def canCreateUsingDefault():
-    '''public boolean canCreateUsingDefault()
+    '''returns boolean\n\n
+    canCreateUsingDefault()\n
     '''
 def canCreateUsingDelegate():
-    '''public boolean canCreateUsingDelegate()
+    '''returns boolean\n\n
+    canCreateUsingDelegate()\n
     '''
 def canCreateUsingArrayDelegate():
-    '''public boolean canCreateUsingArrayDelegate()
+    '''returns boolean\n\n
+    canCreateUsingArrayDelegate()\n
     '''
 def canCreateFromObjectWith():
-    '''public boolean canCreateFromObjectWith()
+    '''returns boolean\n\n
+    canCreateFromObjectWith()\n
     '''
 def getFromObjectArguments():
-    '''public SettableBeanProperty[] getFromObjectArguments(final DeserializationConfig config)
+    '''returns SettableBeanProperty[]\n\n
+    getFromObjectArguments(final DeserializationConfig config)\n
     '''
 def getDelegateType():
-    '''public JavaType getDelegateType(final DeserializationConfig config)
+    '''returns JavaType\n\n
+    getDelegateType(final DeserializationConfig config)\n
     '''
 def getArrayDelegateType():
-    '''public JavaType getArrayDelegateType(final DeserializationConfig config)
+    '''returns JavaType\n\n
+    getArrayDelegateType(final DeserializationConfig config)\n
     '''
 def createUsingDefault():
-    '''public Object createUsingDefault(final DeserializationContext ctxt)
+    '''returns Object\n\n
+    createUsingDefault(final DeserializationContext ctxt)\n
     '''
 def createFromObjectWith():
-    '''public Object createFromObjectWith(final DeserializationContext ctxt, final Object[] args)
-    public Object createFromObjectWith(final DeserializationContext ctxt, final SettableBeanProperty[] props, final PropertyValueBuffer buffer)
+    '''returns Object\n\n
+    createFromObjectWith(final DeserializationContext ctxt, final Object[] args)\n
+    createFromObjectWith(final DeserializationContext ctxt, final SettableBeanProperty[] props, final PropertyValueBuffer buffer)\n
     '''
 def createUsingDelegate():
-    '''public Object createUsingDelegate(final DeserializationContext ctxt, final Object delegate)
+    '''returns Object\n\n
+    createUsingDelegate(final DeserializationContext ctxt, final Object delegate)\n
     '''
 def createUsingArrayDelegate():
-    '''public Object createUsingArrayDelegate(final DeserializationContext ctxt, final Object delegate)
+    '''returns Object\n\n
+    createUsingArrayDelegate(final DeserializationContext ctxt, final Object delegate)\n
     '''
 def createFromString():
-    '''public Object createFromString(final DeserializationContext ctxt, final String value)
+    '''returns Object\n\n
+    createFromString(final DeserializationContext ctxt, final String value)\n
     '''
 def createFromInt():
-    '''public Object createFromInt(final DeserializationContext ctxt, final int value)
+    '''returns Object\n\n
+    createFromInt(final DeserializationContext ctxt, final int value)\n
     '''
 def createFromLong():
-    '''public Object createFromLong(final DeserializationContext ctxt, final long value)
+    '''returns Object\n\n
+    createFromLong(final DeserializationContext ctxt, final long value)\n
     '''
 def createFromDouble():
-    '''public Object createFromDouble(final DeserializationContext ctxt, final double value)
+    '''returns Object\n\n
+    createFromDouble(final DeserializationContext ctxt, final double value)\n
     '''
 def createFromBoolean():
-    '''public Object createFromBoolean(final DeserializationContext ctxt, final boolean value)
+    '''returns Object\n\n
+    createFromBoolean(final DeserializationContext ctxt, final boolean value)\n
     '''
 def getDefaultCreator():
-    '''public AnnotatedWithParams getDefaultCreator()
+    '''returns AnnotatedWithParams\n\n
+    getDefaultCreator()\n
     '''
 def getDelegateCreator():
-    '''public AnnotatedWithParams getDelegateCreator()
+    '''returns AnnotatedWithParams\n\n
+    getDelegateCreator()\n
     '''
 def getArrayDelegateCreator():
-    '''public AnnotatedWithParams getArrayDelegateCreator()
+    '''returns AnnotatedWithParams\n\n
+    getArrayDelegateCreator()\n
     '''
 def getWithArgsCreator():
-    '''public AnnotatedWithParams getWithArgsCreator()
+    '''returns AnnotatedWithParams\n\n
+    getWithArgsCreator()\n
     '''
 def getIncompleteParameter():
-    '''public AnnotatedParameter getIncompleteParameter()
+    '''returns AnnotatedParameter\n\n
+    getIncompleteParameter()\n
     '''
-def Base():
-    '''public Base(final Class<?> type)
-    public Base(final JavaType type)
+def ():
+    '''returns Base\n\n
+    (final Class<?> type)\n
+    (final JavaType type)\n
     '''

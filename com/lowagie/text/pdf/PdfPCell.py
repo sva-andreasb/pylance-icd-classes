@@ -1,179 +1,237 @@
-def PdfPCell():
-    '''public PdfPCell()
-    public PdfPCell(final Phrase phrase)
-    public PdfPCell(final Image image)
-    public PdfPCell(final Image image, final boolean fit)
-    public PdfPCell(final PdfPTable table)
-    public PdfPCell(final PdfPCell cell)
+def ():
+    '''returns PdfPCell\n\n
+    ()\n
+    (final Phrase phrase)\n
+    (final Image image)\n
+    (final Image image, final boolean fit)\n
+    (final PdfPTable table)\n
+    (final PdfPCell cell)\n
     '''
 def addElement():
-    '''public void addElement(final Element element)
+    '''returns None\n\n
+    addElement(final Element element)\n
     '''
 def getPhrase():
-    '''public Phrase getPhrase()
+    '''returns Phrase\n\n
+    getPhrase()\n
     '''
 def setPhrase():
-    '''public void setPhrase(final Phrase phrase)
+    '''returns None\n\n
+    setPhrase(final Phrase phrase)\n
     '''
 def getHorizontalAlignment():
-    '''public int getHorizontalAlignment()
+    '''returns int\n\n
+    getHorizontalAlignment()\n
     '''
 def setHorizontalAlignment():
-    '''public void setHorizontalAlignment(final int horizontalAlignment)
+    '''returns None\n\n
+    setHorizontalAlignment(final int horizontalAlignment)\n
     '''
 def getVerticalAlignment():
-    '''public int getVerticalAlignment()
+    '''returns int\n\n
+    getVerticalAlignment()\n
     '''
 def setVerticalAlignment():
-    '''public void setVerticalAlignment(final int verticalAlignment)
+    '''returns None\n\n
+    setVerticalAlignment(final int verticalAlignment)\n
     '''
 def getEffectivePaddingLeft():
-    '''public float getEffectivePaddingLeft()
+    '''returns float\n\n
+    getEffectivePaddingLeft()\n
     '''
 def getPaddingLeft():
-    '''public float getPaddingLeft()
+    '''returns float\n\n
+    getPaddingLeft()\n
     '''
 def setPaddingLeft():
-    '''public void setPaddingLeft(final float paddingLeft)
+    '''returns None\n\n
+    setPaddingLeft(final float paddingLeft)\n
     '''
 def getEffectivePaddingRight():
-    '''public float getEffectivePaddingRight()
+    '''returns float\n\n
+    getEffectivePaddingRight()\n
     '''
 def getPaddingRight():
-    '''public float getPaddingRight()
+    '''returns float\n\n
+    getPaddingRight()\n
     '''
 def setPaddingRight():
-    '''public void setPaddingRight(final float paddingRight)
+    '''returns None\n\n
+    setPaddingRight(final float paddingRight)\n
     '''
 def getEffectivePaddingTop():
-    '''public float getEffectivePaddingTop()
+    '''returns float\n\n
+    getEffectivePaddingTop()\n
     '''
 def getPaddingTop():
-    '''public float getPaddingTop()
+    '''returns float\n\n
+    getPaddingTop()\n
     '''
 def setPaddingTop():
-    '''public void setPaddingTop(final float paddingTop)
+    '''returns None\n\n
+    setPaddingTop(final float paddingTop)\n
     '''
 def getEffectivePaddingBottom():
-    '''public float getEffectivePaddingBottom()
+    '''returns float\n\n
+    getEffectivePaddingBottom()\n
     '''
 def getPaddingBottom():
-    '''public float getPaddingBottom()
+    '''returns float\n\n
+    getPaddingBottom()\n
     '''
 def setPaddingBottom():
-    '''public void setPaddingBottom(final float paddingBottom)
+    '''returns None\n\n
+    setPaddingBottom(final float paddingBottom)\n
     '''
 def setPadding():
-    '''public void setPadding(final float padding)
+    '''returns None\n\n
+    setPadding(final float padding)\n
     '''
 def isUseBorderPadding():
-    '''public boolean isUseBorderPadding()
+    '''returns boolean\n\n
+    isUseBorderPadding()\n
     '''
 def setUseBorderPadding():
-    '''public void setUseBorderPadding(final boolean use)
+    '''returns None\n\n
+    setUseBorderPadding(final boolean use)\n
     '''
 def setLeading():
-    '''public void setLeading(final float fixedLeading, final float multipliedLeading)
+    '''returns None\n\n
+    setLeading(final float fixedLeading, final float multipliedLeading)\n
     '''
 def getLeading():
-    '''public float getLeading()
+    '''returns float\n\n
+    getLeading()\n
     '''
 def getMultipliedLeading():
-    '''public float getMultipliedLeading()
+    '''returns float\n\n
+    getMultipliedLeading()\n
     '''
 def setIndent():
-    '''public void setIndent(final float indent)
+    '''returns None\n\n
+    setIndent(final float indent)\n
     '''
 def getIndent():
-    '''public float getIndent()
+    '''returns float\n\n
+    getIndent()\n
     '''
 def getExtraParagraphSpace():
-    '''public float getExtraParagraphSpace()
+    '''returns float\n\n
+    getExtraParagraphSpace()\n
     '''
 def setExtraParagraphSpace():
-    '''public void setExtraParagraphSpace(final float extraParagraphSpace)
+    '''returns None\n\n
+    setExtraParagraphSpace(final float extraParagraphSpace)\n
     '''
 def getFixedHeight():
-    '''public float getFixedHeight()
+    '''returns float\n\n
+    getFixedHeight()\n
     '''
 def setFixedHeight():
-    '''public void setFixedHeight(final float fixedHeight)
+    '''returns None\n\n
+    setFixedHeight(final float fixedHeight)\n
     '''
 def isNoWrap():
-    '''public boolean isNoWrap()
+    '''returns boolean\n\n
+    isNoWrap()\n
     '''
 def setNoWrap():
-    '''public void setNoWrap(final boolean noWrap)
+    '''returns None\n\n
+    setNoWrap(final boolean noWrap)\n
     '''
 def getMinimumHeight():
-    '''public float getMinimumHeight()
+    '''returns float\n\n
+    getMinimumHeight()\n
     '''
 def setMinimumHeight():
-    '''public void setMinimumHeight(final float minimumHeight)
+    '''returns None\n\n
+    setMinimumHeight(final float minimumHeight)\n
     '''
 def getColspan():
-    '''public int getColspan()
+    '''returns int\n\n
+    getColspan()\n
     '''
 def setColspan():
-    '''public void setColspan(final int colspan)
+    '''returns None\n\n
+    setColspan(final int colspan)\n
     '''
 def setFollowingIndent():
-    '''public void setFollowingIndent(final float indent)
+    '''returns None\n\n
+    setFollowingIndent(final float indent)\n
     '''
 def getFollowingIndent():
-    '''public float getFollowingIndent()
+    '''returns float\n\n
+    getFollowingIndent()\n
     '''
 def setRightIndent():
-    '''public void setRightIndent(final float indent)
+    '''returns None\n\n
+    setRightIndent(final float indent)\n
     '''
 def getRightIndent():
-    '''public float getRightIndent()
+    '''returns float\n\n
+    getRightIndent()\n
     '''
 def getSpaceCharRatio():
-    '''public float getSpaceCharRatio()
+    '''returns float\n\n
+    getSpaceCharRatio()\n
     '''
 def setSpaceCharRatio():
-    '''public void setSpaceCharRatio(final float spaceCharRatio)
+    '''returns None\n\n
+    setSpaceCharRatio(final float spaceCharRatio)\n
     '''
 def setRunDirection():
-    '''public void setRunDirection(final int runDirection)
+    '''returns None\n\n
+    setRunDirection(final int runDirection)\n
     '''
 def getRunDirection():
-    '''public int getRunDirection()
+    '''returns int\n\n
+    getRunDirection()\n
     '''
 def getImage():
-    '''public Image getImage()
+    '''returns Image\n\n
+    getImage()\n
     '''
 def setImage():
-    '''public void setImage(final Image image)
+    '''returns None\n\n
+    setImage(final Image image)\n
     '''
 def getCellEvent():
-    '''public PdfPCellEvent getCellEvent()
+    '''returns PdfPCellEvent\n\n
+    getCellEvent()\n
     '''
 def setCellEvent():
-    '''public void setCellEvent(final PdfPCellEvent cellEvent)
+    '''returns None\n\n
+    setCellEvent(final PdfPCellEvent cellEvent)\n
     '''
 def getArabicOptions():
-    '''public int getArabicOptions()
+    '''returns int\n\n
+    getArabicOptions()\n
     '''
 def setArabicOptions():
-    '''public void setArabicOptions(final int arabicOptions)
+    '''returns None\n\n
+    setArabicOptions(final int arabicOptions)\n
     '''
 def isUseAscender():
-    '''public boolean isUseAscender()
+    '''returns boolean\n\n
+    isUseAscender()\n
     '''
 def setUseAscender():
-    '''public void setUseAscender(final boolean use)
+    '''returns None\n\n
+    setUseAscender(final boolean use)\n
     '''
 def isUseDescender():
-    '''public boolean isUseDescender()
+    '''returns boolean\n\n
+    isUseDescender()\n
     '''
 def setUseDescender():
-    '''public void setUseDescender(final boolean useDescender)
+    '''returns None\n\n
+    setUseDescender(final boolean useDescender)\n
     '''
 def getColumn():
-    '''public ColumnText getColumn()
+    '''returns ColumnText\n\n
+    getColumn()\n
     '''
 def setColumn():
-    '''public void setColumn(final ColumnText column)
+    '''returns None\n\n
+    setColumn(final ColumnText column)\n
     '''

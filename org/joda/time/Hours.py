@@ -1,66 +1,66 @@
-def hours():
-    '''public static Hours hours(final int n)
-    '''
-def hoursBetween():
-    '''public static Hours hoursBetween(final ReadableInstant readableInstant, final ReadableInstant readableInstant2)
-    public static Hours hoursBetween(final ReadablePartial readablePartial, final ReadablePartial readablePartial2)
-    '''
-def hoursIn():
-    '''public static Hours hoursIn(final ReadableInterval readableInterval)
-    '''
-def standardHoursIn():
-    '''public static Hours standardHoursIn(final ReadablePeriod readablePeriod)
-    '''
-def parseHours():
-    '''public static Hours parseHours(final String s)
-    '''
 def getFieldType():
-    '''public DurationFieldType getFieldType()
+    '''returns DurationFieldType\n\n
+    getFieldType()\n
     '''
 def getPeriodType():
-    '''public PeriodType getPeriodType()
+    '''returns PeriodType\n\n
+    getPeriodType()\n
     '''
 def toStandardWeeks():
-    '''public Weeks toStandardWeeks()
+    '''returns Weeks\n\n
+    toStandardWeeks()\n
     '''
 def toStandardDays():
-    '''public Days toStandardDays()
+    '''returns Days\n\n
+    toStandardDays()\n
     '''
 def toStandardMinutes():
-    '''public Minutes toStandardMinutes()
+    '''returns Minutes\n\n
+    toStandardMinutes()\n
     '''
 def toStandardSeconds():
-    '''public Seconds toStandardSeconds()
+    '''returns Seconds\n\n
+    toStandardSeconds()\n
     '''
 def toStandardDuration():
-    '''public Duration toStandardDuration()
+    '''returns Duration\n\n
+    toStandardDuration()\n
     '''
 def getHours():
-    '''public int getHours()
+    '''returns int\n\n
+    getHours()\n
     '''
 def plus():
-    '''public Hours plus(final int n)
-    public Hours plus(final Hours hours)
+    '''returns Hours\n\n
+    plus(final int n)\n
+    plus(final Hours hours)\n
     '''
 def minus():
-    '''public Hours minus(final int n)
-    public Hours minus(final Hours hours)
+    '''returns Hours\n\n
+    minus(final int n)\n
+    minus(final Hours hours)\n
     '''
 def multipliedBy():
-    '''public Hours multipliedBy(final int n)
+    '''returns Hours\n\n
+    multipliedBy(final int n)\n
     '''
 def dividedBy():
-    '''public Hours dividedBy(final int n)
+    '''returns Hours\n\n
+    dividedBy(final int n)\n
     '''
 def negated():
-    '''public Hours negated()
+    '''returns Hours\n\n
+    negated()\n
     '''
 def isGreaterThan():
-    '''public boolean isGreaterThan(final Hours hours)
+    '''returns boolean\n\n
+    isGreaterThan(final Hours hours)\n
     '''
 def isLessThan():
-    '''public boolean isLessThan(final Hours hours)
+    '''returns boolean\n\n
+    isLessThan(final Hours hours)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,25 +1,30 @@
-def LifecycleManagerImpl():
-    '''public LifecycleManagerImpl()
+def ():
+    '''returns FileDeletor\n\n
+    ()\n
+    (final int interval, final File file)\n
     '''
 def create():
-    '''public FileAccessor create(final String attachmentDir)
+    '''returns FileAccessor\n\n
+    create(final String attachmentDir)\n
     '''
 def delete():
-    '''public void delete(final File file)
+    '''returns None\n\n
+    delete(final File file)\n
     '''
 def deleteOnExit():
-    '''public void deleteOnExit(final File file)
+    '''returns None\n\n
+    deleteOnExit(final File file)\n
     '''
 def deleteOnTimeInterval():
-    '''public void deleteOnTimeInterval(final int interval, final File file)
+    '''returns None\n\n
+    deleteOnTimeInterval(final int interval, final File file)\n
     '''
 def run():
-    '''public Object run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def getFileAccessor():
-    '''public FileAccessor getFileAccessor(final String fileName)
-    '''
-def FileDeletor():
-    '''public FileDeletor(final int interval, final File file)
+    '''returns FileAccessor\n\n
+    getFileAccessor(final String fileName)\n
     '''

@@ -1,11 +1,10 @@
-def IterableComparator():
-    '''public IterableComparator()
-    public IterableComparator(final Comparator<T> comparator)
-    public IterableComparator(final Comparator<T> comparator, final boolean shorterFirst)
+def ():
+    '''returns IterableComparator\n\n
+    ()\n
+    (final Comparator<T> comparator)\n
+    (final Comparator<T> comparator, final boolean shorterFirst)\n
     '''
 def compare():
-    '''public int compare(final Iterable<T> a, final Iterable<T> b)
-    '''
-def compareIterables():
-    '''public static <T> int compareIterables(final Iterable<T> a, final Iterable<T> b)
+    '''returns int\n\n
+    compare(final Iterable<T> a, final Iterable<T> b)\n
     '''

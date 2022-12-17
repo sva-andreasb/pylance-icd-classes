@@ -1,3 +1,4 @@
-def MonitorEventRequest():
-    '''public MonitorEventRequest(final EdirEventSpecifier[] array)
+def ():
+    '''returns MonitorEventRequest\n\n
+    (final EdirEventSpecifier[] array)\n
     '''

@@ -1,6 +1,8 @@
-def Control():
-    '''public Control(final MboSet ms)
+def ():
+    '''returns Control\n\n
+    (final MboSet ms)\n
     '''
 def getMapControlToolItemMboSet():
-    '''public MapControlToolItemMboSet getMapControlToolItemMboSet()
+    '''returns MapControlToolItemMboSet\n\n
+    getMapControlToolItemMboSet()\n
     '''

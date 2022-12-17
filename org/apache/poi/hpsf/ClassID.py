@@ -1,33 +1,43 @@
 LENGTH = "int  16"
-def ClassID():
-    '''public ClassID(final byte[] src, final int offset)
-    public ClassID()
-    public ClassID(final String externalForm)
+def ():
+    '''returns ClassID\n\n
+    (final byte[] src, final int offset)\n
+    ()\n
+    (final String externalForm)\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def getBytes():
-    '''public byte[] getBytes()
+    '''returns byte[]\n\n
+    getBytes()\n
     '''
 def setBytes():
-    '''public void setBytes(final byte[] bytes)
+    '''returns None\n\n
+    setBytes(final byte[] bytes)\n
     '''
 def read():
-    '''public byte[] read(final byte[] src, final int offset)
+    '''returns byte[]\n\n
+    read(final byte[] src, final int offset)\n
     '''
 def write():
-    '''public void write(final byte[] dst, final int offset)
+    '''returns None\n\n
+    write(final byte[] dst, final int offset)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def equalsInverted():
-    '''public boolean equalsInverted(final ClassID o)
+    '''returns boolean\n\n
+    equalsInverted(final ClassID o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

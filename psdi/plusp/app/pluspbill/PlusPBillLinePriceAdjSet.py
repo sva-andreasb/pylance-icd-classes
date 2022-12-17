@@ -1,6 +1,8 @@
-def PlusPBillLinePriceAdjSet():
-    '''public PlusPBillLinePriceAdjSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPBillLinePriceAdjSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def validateEditConditions():
-    '''public void validateEditConditions()
+    '''returns None\n\n
+    validateEditConditions()\n
     '''

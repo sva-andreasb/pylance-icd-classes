@@ -1,6 +1,8 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def executeScriptAction():
-    '''public void executeScriptAction()
+    '''returns None\n\n
+    executeScriptAction()\n
     '''

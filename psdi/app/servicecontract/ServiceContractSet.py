@@ -1,3 +1,4 @@
-def ServiceContractSet():
-    '''public ServiceContractSet(final MboServerInterface ms)
+def ():
+    '''returns ServiceContractSet\n\n
+    (final MboServerInterface ms)\n
     '''

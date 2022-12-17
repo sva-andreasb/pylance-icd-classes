@@ -1,39 +1,51 @@
-def QueryParamsInfo():
-    '''public QueryParamsInfo(final String name, final String description)
-    public QueryParamsInfo(final String name, final String type, final boolean required, final Object defaultVal, final String description)
-    public QueryParamsInfo(final String name, final String type, final boolean required, final Object defaultVal, final String description, final Set<String> enumSet)
-    public QueryParamsInfo(final String name, final String type, final boolean required, final Object defaultVal, final String description, final Set<String> enumSet, final Long maxVal, final Long minVal, final Integer maxLength)
+def ():
+    '''returns QueryParamsInfo\n\n
+    (final String name, final String description)\n
+    (final String name, final String type, final boolean required, final Object defaultVal, final String description)\n
+    (final String name, final String type, final boolean required, final Object defaultVal, final String description, final Set<String> enumSet)\n
+    (final String name, final String type, final boolean required, final Object defaultVal, final String description, final Set<String> enumSet, final Long maxVal, final Long minVal, final Integer maxLength)\n
     '''
 def getMaxLength():
-    '''public Integer getMaxLength()
+    '''returns Integer\n\n
+    getMaxLength()\n
     '''
 def getMaxVal():
-    '''public Long getMaxVal()
+    '''returns Long\n\n
+    getMaxVal()\n
     '''
 def getMinVal():
-    '''public Long getMinVal()
+    '''returns Long\n\n
+    getMinVal()\n
     '''
 def getEnumSet():
-    '''public Set<String> getEnumSet()
+    '''returns Set<String>\n\n
+    getEnumSet()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def getDefaultVal():
-    '''public Object getDefaultVal()
+    '''returns Object\n\n
+    getDefaultVal()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def isNumeric():
-    '''public boolean isNumeric()
+    '''returns boolean\n\n
+    isNumeric()\n
     '''
 def isAln():
-    '''public boolean isAln()
+    '''returns boolean\n\n
+    isAln()\n
     '''

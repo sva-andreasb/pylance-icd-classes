@@ -1,3 +1,4 @@
-def SKDAssignmentVal():
-    '''public SKDAssignmentVal(final MboSet ms)
+def ():
+    '''returns SKDAssignmentVal\n\n
+    (final MboSet ms)\n
     '''

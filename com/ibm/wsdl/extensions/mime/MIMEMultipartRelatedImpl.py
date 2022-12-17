@@ -1,25 +1,33 @@
 serialVersionUID = "long  1L"
-def MIMEMultipartRelatedImpl():
-    '''public MIMEMultipartRelatedImpl()
+def ():
+    '''returns MIMEMultipartRelatedImpl\n\n
+    ()\n
     '''
 def setElementType():
-    '''public void setElementType(final QName elementType)
+    '''returns None\n\n
+    setElementType(final QName elementType)\n
     '''
 def getElementType():
-    '''public QName getElementType()
+    '''returns QName\n\n
+    getElementType()\n
     '''
 def setRequired():
-    '''public void setRequired(final Boolean required)
+    '''returns None\n\n
+    setRequired(final Boolean required)\n
     '''
 def getRequired():
-    '''public Boolean getRequired()
+    '''returns Boolean\n\n
+    getRequired()\n
     '''
 def addMIMEPart():
-    '''public void addMIMEPart(final MIMEPart mimePart)
+    '''returns None\n\n
+    addMIMEPart(final MIMEPart mimePart)\n
     '''
 def getMIMEParts():
-    '''public List getMIMEParts()
+    '''returns List\n\n
+    getMIMEParts()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

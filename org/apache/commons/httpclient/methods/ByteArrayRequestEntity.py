@@ -1,19 +1,25 @@
-def ByteArrayRequestEntity():
-    '''public ByteArrayRequestEntity(final byte[] content)
-    public ByteArrayRequestEntity(final byte[] content, final String contentType)
+def ():
+    '''returns ByteArrayRequestEntity\n\n
+    (final byte[] content)\n
+    (final byte[] content, final String contentType)\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def writeRequest():
-    '''public void writeRequest(final OutputStream out)
+    '''returns None\n\n
+    writeRequest(final OutputStream out)\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def getContent():
-    '''public byte[] getContent()
+    '''returns byte[]\n\n
+    getContent()\n
     '''

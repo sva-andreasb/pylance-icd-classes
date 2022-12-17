@@ -1,21 +1,28 @@
-def BcelCflowCounterFieldAdder():
-    '''public BcelCflowCounterFieldAdder(final ResolvedMember cflowCounterField)
+def ():
+    '''returns BcelCflowCounterFieldAdder\n\n
+    (final ResolvedMember cflowCounterField)\n
     '''
 def munge():
-    '''public boolean munge(final BcelClassWeaver weaver)
+    '''returns boolean\n\n
+    munge(final BcelClassWeaver weaver)\n
     '''
 def getMatchingSyntheticMember():
-    '''public ResolvedMember getMatchingSyntheticMember(final Member member)
+    '''returns ResolvedMember\n\n
+    getMatchingSyntheticMember(final Member member)\n
     '''
 def getSignature():
-    '''public ResolvedMember getSignature()
+    '''returns ResolvedMember\n\n
+    getSignature()\n
     '''
 def matches():
-    '''public boolean matches(final ResolvedType onType)
+    '''returns boolean\n\n
+    matches(final ResolvedType onType)\n
     '''
 def existsToSupportShadowMunging():
-    '''public boolean existsToSupportShadowMunging()
+    '''returns boolean\n\n
+    existsToSupportShadowMunging()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

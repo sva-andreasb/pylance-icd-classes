@@ -1,9 +1,12 @@
-def FldCraftSkillLevel():
-    '''public FldCraftSkillLevel(final MboValue mbv)
+def ():
+    '''returns FldCraftSkillLevel\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''

@@ -1,3 +1,4 @@
-def PmCfgFldCronTaskInstName():
-    '''public PmCfgFldCronTaskInstName(final MboValue mbv)
+def ():
+    '''returns PmCfgFldCronTaskInstName\n\n
+    (final MboValue mbv)\n
     '''

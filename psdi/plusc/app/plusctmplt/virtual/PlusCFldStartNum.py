@@ -1,6 +1,8 @@
-def PlusCFldStartNum():
-    '''public PlusCFldStartNum(final MboValue mbv)
+def ():
+    '''returns PlusCFldStartNum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

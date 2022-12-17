@@ -1,21 +1,28 @@
-def FieldInstruction():
-    '''public FieldInstruction(final short opcode, final int index)
+def ():
+    '''returns FieldInstruction\n\n
+    (final short opcode, final int index)\n
     '''
 def toString():
-    '''public String toString(final ConstantPool cp)
+    '''returns String\n\n
+    toString(final ConstantPool cp)\n
     '''
 def getType():
-    '''public Type getType(final ConstantPool cpg)
+    '''returns Type\n\n
+    getType(final ConstantPool cpg)\n
     '''
 def getFieldType():
-    '''public Type getFieldType(final ConstantPool cpg)
+    '''returns Type\n\n
+    getFieldType(final ConstantPool cpg)\n
     '''
 def getFieldName():
-    '''public String getFieldName(final ConstantPool cpg)
+    '''returns String\n\n
+    getFieldName(final ConstantPool cpg)\n
     '''
 def produceStack():
-    '''public int produceStack(final ConstantPool cpg)
+    '''returns int\n\n
+    produceStack(final ConstantPool cpg)\n
     '''
 def consumeStack():
-    '''public int consumeStack(final ConstantPool cpg)
+    '''returns int\n\n
+    consumeStack(final ConstantPool cpg)\n
     '''

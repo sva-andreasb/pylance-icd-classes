@@ -1,48 +1,64 @@
-def ServletWrapper():
-    '''public ServletWrapper(final Servlet s)
+def ():
+    '''returns ServletWrapper\n\n
+    (final Servlet s)\n
     '''
 def configChanged():
-    '''public void configChanged()
+    '''returns None\n\n
+    configChanged()\n
     '''
 def prepareMetadata():
-    '''public void prepareMetadata(final CacheProxyRequest request, final CacheProxyResponse response)
+    '''returns None\n\n
+    prepareMetadata(final CacheProxyRequest request, final CacheProxyResponse response)\n
     '''
 def getId():
-    '''public String getId(final HttpServletRequest req)
+    '''returns String\n\n
+    getId(final HttpServletRequest req)\n
     '''
 def getSharingPolicy():
-    '''public int getSharingPolicy(final HttpServletRequest req)
+    '''returns int\n\n
+    getSharingPolicy(final HttpServletRequest req)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def getServletConfig():
-    '''public ServletConfig getServletConfig()
+    '''returns ServletConfig\n\n
+    getServletConfig()\n
     '''
 def getServletInfo():
-    '''public String getServletInfo()
+    '''returns String\n\n
+    getServletInfo()\n
     '''
 def getServletContext():
-    '''public ServletContext getServletContext()
+    '''returns ServletContext\n\n
+    getServletContext()\n
     '''
 def init():
-    '''public void init(final ServletConfig sc)
+    '''returns None\n\n
+    init(final ServletConfig sc)\n
     '''
 def service():
-    '''public void service(final ServletRequest request, final ServletResponse response)
+    '''returns None\n\n
+    service(final ServletRequest request, final ServletResponse response)\n
     '''
 def getProxiedServlet():
-    '''public Servlet getProxiedServlet()
+    '''returns Servlet\n\n
+    getProxiedServlet()\n
     '''
 def serviceProxied():
-    '''public void serviceProxied(final ServletRequest request, final ServletResponse response)
+    '''returns None\n\n
+    serviceProxied(final ServletRequest request, final ServletResponse response)\n
     '''
 def _jspService():
-    '''public void _jspService(final HttpServletRequest request, final HttpServletResponse response)
+    '''returns None\n\n
+    _jspService(final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def jspInit():
-    '''public void jspInit()
+    '''returns None\n\n
+    jspInit()\n
     '''
 def jspDestroy():
-    '''public void jspDestroy()
+    '''returns None\n\n
+    jspDestroy()\n
     '''

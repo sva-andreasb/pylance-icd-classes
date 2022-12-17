@@ -1,25 +1,33 @@
-def ILogResourcesGanttModelToTreeGridSerializer():
-    '''public ILogResourcesGanttModelToTreeGridSerializer(final TreeGridUtil.ITGSerializationHelper helper, final UIOptions options, final IActivityFilter activityFilter)
-    public ILogResourcesGanttModelToTreeGridSerializer(final TreeGridUtil.ITGSerializationHelper helper, final UIOptions options)
+def ():
+    '''returns ILogResourcesGanttModelToTreeGridSerializer\n\n
+    (final TreeGridUtil.ITGSerializationHelper helper, final UIOptions options, final IActivityFilter activityFilter)\n
+    (final TreeGridUtil.ITGSerializationHelper helper, final UIOptions options)\n
     '''
 def serialize():
-    '''public void serialize(final Future<MXGanttModel> in, final HttpServletRequest request, final HttpServletResponse resp)
+    '''returns None\n\n
+    serialize(final Future<MXGanttModel> in, final HttpServletRequest request, final HttpServletResponse resp)\n
     '''
 def writeJsonrResource():
-    '''public void writeJsonrResource(final TGJsonWriter jsonWriter, final MXGanttModel model, final MXResource mxr, List<String> columns)
+    '''returns None\n\n
+    writeJsonrResource(final TGJsonWriter jsonWriter, final MXGanttModel model, final MXResource mxr, List<String> columns)\n
     '''
 def encodeBackgroundEntry():
-    '''public String encodeBackgroundEntry(final Date start, final Date end, final String color)
+    '''returns String\n\n
+    encodeBackgroundEntry(final Date start, final Date end, final String color)\n
     '''
 def encodeRunActivity():
-    '''public void encodeRunActivity(final TGJsonWriter jsonWriter, final MXGanttModel model, final MXResource mxr, final MXActivity act, final MXReservation resv)
+    '''returns None\n\n
+    encodeRunActivity(final TGJsonWriter jsonWriter, final MXGanttModel model, final MXResource mxr, final MXActivity act, final MXReservation resv)\n
     '''
 def isFlatModel():
-    '''public boolean isFlatModel()
+    '''returns boolean\n\n
+    isFlatModel()\n
     '''
 def setFlatModel():
-    '''public void setFlatModel(final boolean flatModel)
+    '''returns None\n\n
+    setFlatModel(final boolean flatModel)\n
     '''
 def encondeResource():
-    '''public void encondeResource(final TGJsonWriter jsonWriter, final MXGanttModel model, final MXResource mxr, List<String> columns)
+    '''returns None\n\n
+    encondeResource(final TGJsonWriter jsonWriter, final MXGanttModel model, final MXResource mxr, List<String> columns)\n
     '''

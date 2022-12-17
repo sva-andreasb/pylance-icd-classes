@@ -1,28 +1,37 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def TimeWindowRow():
-    '''public TimeWindowRow(final TimeWindowSheet sheet, final TimeWindowSet twSet, final boolean visible, final int treeLevel)
+def ():
+    '''returns TimeWindowRow\n\n
+    (final TimeWindowSheet sheet, final TimeWindowSet twSet, final boolean visible, final int treeLevel)\n
     '''
 def getTreeLevel():
-    '''public int getTreeLevel()
+    '''returns int\n\n
+    getTreeLevel()\n
     '''
 def getTimeWindowGraphics():
-    '''public TimeWindowGraphic[] getTimeWindowGraphics()
+    '''returns TimeWindowGraphic[]\n\n
+    getTimeWindowGraphics()\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def setVisible():
-    '''public void setVisible(final boolean visible)
+    '''returns None\n\n
+    setVisible(final boolean visible)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def getTimeWindowSet():
-    '''public TimeWindowSet getTimeWindowSet()
+    '''returns TimeWindowSet\n\n
+    getTimeWindowSet()\n
     '''

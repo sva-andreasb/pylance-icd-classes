@@ -1,30 +1,36 @@
-def IloCplex__ContinuousCallbackI():
-    '''public IloCplex__ContinuousCallbackI(final long cPtr, final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__ContinuousCallbackI obj)
+def ():
+    '''returns IloCplex__ContinuousCallbackI\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getObjValue():
-    '''public double getObjValue()
+    '''returns double\n\n
+    getObjValue()\n
     '''
 def getInfeasibility():
-    '''public double getInfeasibility()
+    '''returns double\n\n
+    getInfeasibility()\n
     '''
 def getDualInfeasibility():
-    '''public double getDualInfeasibility()
+    '''returns double\n\n
+    getDualInfeasibility()\n
     '''
 def isFeasible():
-    '''public boolean isFeasible()
+    '''returns boolean\n\n
+    isFeasible()\n
     '''
 def isDualFeasible():
-    '''public boolean isDualFeasible()
+    '''returns boolean\n\n
+    isDualFeasible()\n
     '''
 def getNiterations64():
-    '''public long getNiterations64()
+    '''returns long\n\n
+    getNiterations64()\n
     '''
 def getNiterations():
-    '''public int getNiterations()
+    '''returns int\n\n
+    getNiterations()\n
     '''

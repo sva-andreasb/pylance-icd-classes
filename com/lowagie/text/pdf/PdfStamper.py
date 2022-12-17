@@ -1,89 +1,111 @@
-def PdfStamper():
-    '''public PdfStamper(final PdfReader reader, final OutputStream os)
-    public PdfStamper(final PdfReader reader, final OutputStream os, final char pdfVersion)
-    public PdfStamper(final PdfReader reader, final OutputStream os, final char pdfVersion, final boolean append)
+def ():
+    '''returns PdfStamper\n\n
+    (final PdfReader reader, final OutputStream os)\n
+    (final PdfReader reader, final OutputStream os, final char pdfVersion)\n
+    (final PdfReader reader, final OutputStream os, final char pdfVersion, final boolean append)\n
     '''
 def getMoreInfo():
-    '''public HashMap getMoreInfo()
+    '''returns HashMap\n\n
+    getMoreInfo()\n
     '''
 def setMoreInfo():
-    '''public void setMoreInfo(final HashMap moreInfo)
+    '''returns None\n\n
+    setMoreInfo(final HashMap moreInfo)\n
     '''
 def insertPage():
-    '''public void insertPage(final int pageNumber, final Rectangle mediabox)
+    '''returns None\n\n
+    insertPage(final int pageNumber, final Rectangle mediabox)\n
     '''
 def getSignatureAppearance():
-    '''public PdfSignatureAppearance getSignatureAppearance()
+    '''returns PdfSignatureAppearance\n\n
+    getSignatureAppearance()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getUnderContent():
-    '''public PdfContentByte getUnderContent(final int pageNum)
+    '''returns PdfContentByte\n\n
+    getUnderContent(final int pageNum)\n
     '''
 def getOverContent():
-    '''public PdfContentByte getOverContent(final int pageNum)
+    '''returns PdfContentByte\n\n
+    getOverContent(final int pageNum)\n
     '''
 def isRotateContents():
-    '''public boolean isRotateContents()
+    '''returns boolean\n\n
+    isRotateContents()\n
     '''
 def setRotateContents():
-    '''public void setRotateContents(final boolean rotateContents)
+    '''returns None\n\n
+    setRotateContents(final boolean rotateContents)\n
     '''
 def setEncryption():
-    '''public void setEncryption(final byte[] userPassword, final byte[] ownerPassword, final int permissions, final boolean strength128Bits)
-    public void setEncryption(final boolean strength, final String userPassword, final String ownerPassword, final int permissions)
+    '''returns None\n\n
+    setEncryption(final byte[] userPassword, final byte[] ownerPassword, final int permissions, final boolean strength128Bits)\n
+    setEncryption(final boolean strength, final String userPassword, final String ownerPassword, final int permissions)\n
     '''
 def getImportedPage():
-    '''public PdfImportedPage getImportedPage(final PdfReader reader, final int pageNumber)
+    '''returns PdfImportedPage\n\n
+    getImportedPage(final PdfReader reader, final int pageNumber)\n
     '''
 def getWriter():
-    '''public PdfWriter getWriter()
+    '''returns PdfWriter\n\n
+    getWriter()\n
     '''
 def getReader():
-    '''public PdfReader getReader()
+    '''returns PdfReader\n\n
+    getReader()\n
     '''
 def getAcroFields():
-    '''public AcroFields getAcroFields()
+    '''returns AcroFields\n\n
+    getAcroFields()\n
     '''
 def setFormFlattening():
-    '''public void setFormFlattening(final boolean flat)
+    '''returns None\n\n
+    setFormFlattening(final boolean flat)\n
     '''
 def addAnnotation():
-    '''public void addAnnotation(final PdfAnnotation annot, final int page)
+    '''returns None\n\n
+    addAnnotation(final PdfAnnotation annot, final int page)\n
     '''
 def addComments():
-    '''public void addComments(final FdfReader fdf)
+    '''returns None\n\n
+    addComments(final FdfReader fdf)\n
     '''
 def setOutlines():
-    '''public void setOutlines(final List outlines)
+    '''returns None\n\n
+    setOutlines(final List outlines)\n
     '''
 def partialFormFlattening():
-    '''public boolean partialFormFlattening(final String name)
+    '''returns boolean\n\n
+    partialFormFlattening(final String name)\n
     '''
 def addJavaScript():
-    '''public void addJavaScript(final String js)
+    '''returns None\n\n
+    addJavaScript(final String js)\n
     '''
 def setViewerPreferences():
-    '''public void setViewerPreferences(final int preferences)
+    '''returns None\n\n
+    setViewerPreferences(final int preferences)\n
     '''
 def isFullCompression():
-    '''public boolean isFullCompression()
+    '''returns boolean\n\n
+    isFullCompression()\n
     '''
 def setFullCompression():
-    '''public void setFullCompression()
+    '''returns None\n\n
+    setFullCompression()\n
     '''
 def setPageAction():
-    '''public void setPageAction(final PdfName actionType, final PdfAction action, final int page)
+    '''returns None\n\n
+    setPageAction(final PdfName actionType, final PdfAction action, final int page)\n
     '''
 def setDuration():
-    '''public void setDuration(final int seconds, final int page)
+    '''returns None\n\n
+    setDuration(final int seconds, final int page)\n
     '''
 def setTransition():
-    '''public void setTransition(final PdfTransition transition, final int page)
-    '''
-def createSignature():
-    '''public static PdfStamper createSignature(final PdfReader reader, final OutputStream os, final char pdfVersion, File tempFile, final boolean append)
-    public static PdfStamper createSignature(final PdfReader reader, final OutputStream os, final char pdfVersion)
-    public static PdfStamper createSignature(final PdfReader reader, final OutputStream os, final char pdfVersion, final File tempFile)
+    '''returns None\n\n
+    setTransition(final PdfTransition transition, final int page)\n
     '''

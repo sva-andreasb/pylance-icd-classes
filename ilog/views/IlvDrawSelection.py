@@ -1,25 +1,33 @@
-def IlvDrawSelection():
-    '''public IlvDrawSelection(final IlvGraphic ilvGraphic)
+def ():
+    '''returns IlvDrawSelection\n\n
+    (final IlvGraphic ilvGraphic)\n
     '''
 def direction():
-    '''public int direction(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)
+    '''returns int\n\n
+    direction(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)\n
     '''
 def getHandleCardinal():
-    '''public int getHandleCardinal()
+    '''returns int\n\n
+    getHandleCardinal()\n
     '''
 def getHandle():
-    '''public int getHandle(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)
-    public IlvPoint getHandle(final int n, final IlvTransformer ilvTransformer)
+    '''returns IlvPoint\n\n
+    getHandle(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)\n
+    getHandle(final int n, final IlvTransformer ilvTransformer)\n
     '''
 def boundingBox():
-    '''public IlvRect boundingBox(final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    boundingBox(final IlvTransformer ilvTransformer)\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    draw(final Graphics graphics, final IlvTransformer ilvTransformer)\n
     '''
 def isOptimizedDrawingEnabled():
-    '''public boolean isOptimizedDrawingEnabled()
+    '''returns boolean\n\n
+    isOptimizedDrawingEnabled()\n
     '''
 def supportsResize():
-    '''public boolean supportsResize()
+    '''returns boolean\n\n
+    supportsResize()\n
     '''

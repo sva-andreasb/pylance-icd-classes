@@ -1,21 +1,20 @@
-def RunConfigDBBean():
-    '''public RunConfigDBBean()
+def ():
+    '''returns RunConfigDBBean\n\n
+    ()\n
     '''
 def configdb_nonstruct_start():
-    '''public int configdb_nonstruct_start()
+    '''returns int\n\n
+    configdb_nonstruct_start()\n
     '''
 def configdb_struct_start():
-    '''public int configdb_struct_start()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns int\n\n
+    configdb_struct_start()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def refreshStatus():
-    '''public int refreshStatus()
-    '''
-def checkESigAuthenticated():
-    '''public synchronized void checkESigAuthenticated(String option)
+    '''returns int\n\n
+    refreshStatus()\n
     '''

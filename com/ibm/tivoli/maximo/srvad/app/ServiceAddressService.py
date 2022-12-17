@@ -1,33 +1,44 @@
-def ServiceAddressService():
-    '''public ServiceAddressService(final MXServer mxServer)
+def ():
+    '''returns ServiceAddressService\n\n
+    (final MXServer mxServer)\n
     '''
 def hasServiceAddressData():
-    '''public boolean hasServiceAddressData(final MboRemote mbo)
+    '''returns boolean\n\n
+    hasServiceAddressData(final MboRemote mbo)\n
     '''
 def isSAInfoEditable():
-    '''public boolean isSAInfoEditable(final MboRemote mbo)
+    '''returns boolean\n\n
+    isSAInfoEditable(final MboRemote mbo)\n
     '''
 def isAddressMasterMaximo():
-    '''public boolean isAddressMasterMaximo(final MboRemote mbo)
+    '''returns boolean\n\n
+    isAddressMasterMaximo(final MboRemote mbo)\n
     '''
 def isAddressDetailRequired():
-    '''public boolean isAddressDetailRequired(final MboRemote mbo)
+    '''returns boolean\n\n
+    isAddressDetailRequired(final MboRemote mbo)\n
     '''
 def isCoordinatesLatLong():
-    '''public boolean isCoordinatesLatLong(final MboRemote mbo)
+    '''returns boolean\n\n
+    isCoordinatesLatLong(final MboRemote mbo)\n
     '''
 def getStreetOrderFormat():
-    '''public String[] getStreetOrderFormat(final MboRemote mbo)
+    '''returns String[]\n\n
+    getStreetOrderFormat(final MboRemote mbo)\n
     '''
 def isSAMessagePrompt():
-    '''public boolean isSAMessagePrompt(final MboRemote mbo)
+    '''returns boolean\n\n
+    isSAMessagePrompt(final MboRemote mbo)\n
     '''
 def getLatLngFromAddressableMbo():
-    '''public JSONObject getLatLngFromAddressableMbo(final MboRemote mboWithXY)
+    '''returns JSONObject\n\n
+    getLatLngFromAddressableMbo(final MboRemote mboWithXY)\n
     '''
 def getLatLngFromAutolocatableMbos():
-    '''public List<JSONObject> getLatLngFromAutolocatableMbos(final MboSetRemote mboSet)
+    '''returns List<JSONObject>\n\n
+    getLatLngFromAutolocatableMbos(final MboSetRemote mboSet)\n
     '''
 def call():
-    '''public JSONObject call()
+    '''returns JSONObject\n\n
+    call()\n
     '''

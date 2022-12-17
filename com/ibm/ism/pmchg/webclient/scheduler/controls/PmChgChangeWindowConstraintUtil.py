@@ -1,9 +1,12 @@
-def PmChgChangeWindowConstraintUtil():
-    '''public PmChgChangeWindowConstraintUtil(final Map<String, PmChgSchedulerTaskInfo> map)
+def ():
+    '''returns PmChgChangeWindowConstraintUtil\n\n
+    (final Map<String, PmChgSchedulerTaskInfo> map)\n
     '''
 def applyChangeWindowConstraints():
-    '''public void applyChangeWindowConstraints(final MboRemote changeMbo, final Date startDate, final Date endDate)
+    '''returns None\n\n
+    applyChangeWindowConstraints(final MboRemote changeMbo, final Date startDate, final Date endDate)\n
     '''
 def applyChangeWindowConstraintsForImpTask():
-    '''public void applyChangeWindowConstraintsForImpTask(final MboRemote taskMbo, final Date startDate, final Date endDate)
+    '''returns None\n\n
+    applyChangeWindowConstraintsForImpTask(final MboRemote taskMbo, final Date startDate, final Date endDate)\n
     '''

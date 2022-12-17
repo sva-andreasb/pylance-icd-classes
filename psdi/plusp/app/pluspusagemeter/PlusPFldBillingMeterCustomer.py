@@ -1,6 +1,8 @@
-def PlusPFldBillingMeterCustomer():
-    '''public PlusPFldBillingMeterCustomer(final MboValue mboValue)
+def ():
+    '''returns PlusPFldBillingMeterCustomer\n\n
+    (final MboValue mboValue)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

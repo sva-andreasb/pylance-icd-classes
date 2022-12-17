@@ -1,6 +1,8 @@
 def toUnicodeString():
-    '''public String toUnicodeString(final byte[] array, final int n, final int n2)
+    '''returns String\n\n
+    toUnicodeString(final byte[] array, final int n, final int n2)\n
     '''
 def toUnicodeStringWithReplacement():
-    '''public String toUnicodeStringWithReplacement(final byte[] array, final int n, final int n2)
+    '''returns String\n\n
+    toUnicodeStringWithReplacement(final byte[] array, final int n, final int n2)\n
     '''

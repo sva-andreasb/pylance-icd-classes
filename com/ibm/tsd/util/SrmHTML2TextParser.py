@@ -1,36 +1,44 @@
-def SrmHTML2TextParser():
-    '''public SrmHTML2TextParser()
-    '''
-def parse():
-    '''public synchronized String parse(final String aHtmlString)
+def ():
+    '''returns SrmHTML2TextParser\n\n
+    ()\n
     '''
 def handleComment():
-    '''public void handleComment(final char[] data, final int pos)
+    '''returns None\n\n
+    handleComment(final char[] data, final int pos)\n
     '''
 def handleEndOfLineString():
-    '''public void handleEndOfLineString(final String eol)
+    '''returns None\n\n
+    handleEndOfLineString(final String eol)\n
     '''
 def handleEndTag():
-    '''public void handleEndTag(final HTML.Tag tag, final int pos)
+    '''returns None\n\n
+    handleEndTag(final HTML.Tag tag, final int pos)\n
     '''
 def handleError():
-    '''public void handleError(final String errorMsg, final int pos)
+    '''returns None\n\n
+    handleError(final String errorMsg, final int pos)\n
     '''
 def handleSimpleTag():
-    '''public void handleSimpleTag(final HTML.Tag tag, final MutableAttributeSet a, final int pos)
+    '''returns None\n\n
+    handleSimpleTag(final HTML.Tag tag, final MutableAttributeSet a, final int pos)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def handleStartTag():
-    '''public void handleStartTag(final HTML.Tag tag, final MutableAttributeSet a, final int pos)
+    '''returns None\n\n
+    handleStartTag(final HTML.Tag tag, final MutableAttributeSet a, final int pos)\n
     '''
 def moreRTEConversion():
-    '''public char[] moreRTEConversion(final char[] data)
+    '''returns char[]\n\n
+    moreRTEConversion(final char[] data)\n
     '''
 def handleText():
-    '''public void handleText(char[] data, final int pos)
+    '''returns None\n\n
+    handleText(char[] data, final int pos)\n
     '''
 def getParser():
-    '''public Parser getParser()
+    '''returns Parser\n\n
+    getParser()\n
     '''

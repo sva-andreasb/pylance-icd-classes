@@ -2,8 +2,10 @@ MANUAL = "int  1"
 LABORMOD = "int  4"
 SPATIAL = "int  5"
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def createScenario():
-    '''public int createScenario()
+    '''returns int\n\n
+    createScenario()\n
     '''

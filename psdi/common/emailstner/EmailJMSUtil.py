@@ -1,6 +1,8 @@
 def sendMessage():
-    '''public void sendMessage(final HashMap<String, Object> msgMap, final Object qSession, final Object qSender)
+    '''returns None\n\n
+    sendMessage(final HashMap<String, Object> msgMap, final Object qSession, final Object qSender)\n
     '''
 def emailJMS():
-    '''public Map emailJMS(boolean isJMS, final Object qSession, final InboundCommCfgData cfgData, final MboRemote inboundCommCfgMbo, final MXLogger logger, int jmsFailCount)
+    '''returns Map\n\n
+    emailJMS(boolean isJMS, final Object qSession, final InboundCommCfgData cfgData, final MboRemote inboundCommCfgMbo, final MXLogger logger, int jmsFailCount)\n
     '''

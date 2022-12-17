@@ -1,21 +1,28 @@
-def RuleHandler():
-    '''public RuleHandler()
+def ():
+    '''returns RuleHandler\n\n
+    ()\n
     '''
 def addRule():
-    '''public void addRule(final String name, final ElementHandler elemHandler)
+    '''returns None\n\n
+    addRule(final String name, final ElementHandler elemHandler)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def startElement():
-    '''public void startElement(final String uri, final String name, final String qName, final Attributes attrs)
+    '''returns None\n\n
+    startElement(final String uri, final String name, final String qName, final Attributes attrs)\n
     '''
 def endElement():
-    '''public void endElement(final String uri, final String name, final String qName)
+    '''returns None\n\n
+    endElement(final String uri, final String name, final String qName)\n
     '''
 def characters():
-    '''public void characters(final char[] chars, final int start, final int length)
+    '''returns None\n\n
+    characters(final char[] chars, final int start, final int length)\n
     '''

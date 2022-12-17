@@ -1,6 +1,8 @@
-def ProcessMonitor():
-    '''public ProcessMonitor(final MboSet ms)
+def ():
+    '''returns ProcessMonitor\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

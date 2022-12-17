@@ -1,9 +1,12 @@
-def HttpSelfRegRequestWrapper():
-    '''public HttpSelfRegRequestWrapper(final HttpServletRequest servletRequest)
+def ():
+    '''returns HttpSelfRegRequestWrapper\n\n
+    (final HttpServletRequest servletRequest)\n
     '''
 def getParameterValues():
-    '''public String[] getParameterValues(final String parameter)
+    '''returns String[]\n\n
+    getParameterValues(final String parameter)\n
     '''
 def getParameter():
-    '''public String getParameter(final String parameter)
+    '''returns String\n\n
+    getParameter(final String parameter)\n
     '''

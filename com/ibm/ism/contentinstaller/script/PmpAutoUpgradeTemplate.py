@@ -1,5 +1,6 @@
-def PmpAutoUpgradeTemplate():
-    '''public PmpAutoUpgradeTemplate(final Connection con)
-    public PmpAutoUpgradeTemplate(final Connection con, final PrintStream ps)
-    public PmpAutoUpgradeTemplate(final Connection con, final HashMap params, final PrintStream ps)
+def ():
+    '''returns PmpAutoUpgradeTemplate\n\n
+    (final Connection con)\n
+    (final Connection con, final PrintStream ps)\n
+    (final Connection con, final HashMap params, final PrintStream ps)\n
     '''

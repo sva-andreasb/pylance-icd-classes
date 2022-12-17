@@ -1,3 +1,4 @@
-def SigOptionFlagDlgProxySet():
-    '''public SigOptionFlagDlgProxySet(final MboServerInterface ms)
+def ():
+    '''returns SigOptionFlagDlgProxySet\n\n
+    (final MboServerInterface ms)\n
     '''

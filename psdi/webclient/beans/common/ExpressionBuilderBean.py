@@ -1,48 +1,56 @@
-def ExpressionBuilderBean():
-    '''public ExpressionBuilderBean()
+def ():
+    '''returns ExpressionBuilderBean\n\n
+    ()\n
     '''
 def getShowMath():
-    '''public boolean getShowMath()
+    '''returns boolean\n\n
+    getShowMath()\n
     '''
 def getShowCond():
-    '''public boolean getShowCond()
+    '''returns boolean\n\n
+    getShowCond()\n
     '''
 def getShowKeywords():
-    '''public boolean getShowKeywords()
+    '''returns boolean\n\n
+    getShowKeywords()\n
     '''
 def getShowMisc():
-    '''public boolean getShowMisc()
+    '''returns boolean\n\n
+    getShowMisc()\n
     '''
 def getShowExpression():
-    '''public boolean getShowExpression()
+    '''returns boolean\n\n
+    getShowExpression()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def setValue():
-    '''public void setValue(final String attr, final String value, final long am)
+    '''returns None\n\n
+    setValue(final String attr, final String value, final long am)\n
     '''
 def expressionbuilderdate():
-    '''public void expressionbuilderdate()
+    '''returns None\n\n
+    expressionbuilderdate()\n
     '''
 def expressionbuildereventinvalue():
-    '''public void expressionbuildereventinvalue()
-    '''
-def setDate():
-    '''public synchronized void setDate(final Long value)
+    '''returns None\n\n
+    expressionbuildereventinvalue()\n
     '''
 def getExpressionBuilderMbo():
-    '''public MboRemote getExpressionBuilderMbo()
-    '''
-def getString():
-    '''public synchronized String getString(final String attribute)
+    '''returns MboRemote\n\n
+    getExpressionBuilderMbo()\n
     '''
 def getRelationshipTree():
-    '''public HashMap getRelationshipTree()
+    '''returns HashMap\n\n
+    getRelationshipTree()\n
     '''
 def getTreeObject():
-    '''public String getTreeObject()
+    '''returns String\n\n
+    getTreeObject()\n
     '''
 def getCurrentMboSet():
-    '''public MboSetRemote getCurrentMboSet()
+    '''returns MboSetRemote\n\n
+    getCurrentMboSet()\n
     '''

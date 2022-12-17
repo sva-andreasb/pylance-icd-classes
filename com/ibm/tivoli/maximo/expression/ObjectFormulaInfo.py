@@ -1,19 +1,21 @@
-def ObjectFormulaInfo():
-    '''public ObjectFormulaInfo(final String formula)
-    public ObjectFormulaInfo(final String fname, final String formula, final String classname)
+def ():
+    '''returns ObjectFormulaInfo\n\n
+    (final String formula)\n
+    (final String fname, final String formula, final String classname)\n
     '''
 def getFormula():
-    '''public String getFormula()
+    '''returns String\n\n
+    getFormula()\n
     '''
 def getFname():
-    '''public String getFname()
+    '''returns String\n\n
+    getFname()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def addConditionalFormula():
-    '''public void addConditionalFormula(final String condition, final String formula)
-    '''
-def getConditionalFormulas():
-    '''public Map<String, String> getConditionalFormulas()
+    '''returns None\n\n
+    addConditionalFormula(final String condition, final String formula)\n
     '''

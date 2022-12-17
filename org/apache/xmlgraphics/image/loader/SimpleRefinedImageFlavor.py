@@ -1,3 +1,4 @@
-def SimpleRefinedImageFlavor():
-    '''public SimpleRefinedImageFlavor(final ImageFlavor parentFlavor, final String name)
+def ():
+    '''returns SimpleRefinedImageFlavor\n\n
+    (final ImageFlavor parentFlavor, final String name)\n
     '''

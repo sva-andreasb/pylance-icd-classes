@@ -1,3 +1,4 @@
 def getLoggerContext():
-    '''public LoggerContext getLoggerContext()
+    '''returns LoggerContext\n\n
+    getLoggerContext()\n
     '''

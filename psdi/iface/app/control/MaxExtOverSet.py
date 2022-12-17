@@ -1,3 +1,4 @@
-def MaxExtOverSet():
-    '''public MaxExtOverSet(final MboServerInterface ms)
+def ():
+    '''returns MaxExtOverSet\n\n
+    (final MboServerInterface ms)\n
     '''

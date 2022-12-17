@@ -1,31 +1,41 @@
 def stateChanged():
-    '''public void stateChanged(final ChangeEvent changeEvent)
+    '''returns None\n\n
+    stateChanged(final ChangeEvent changeEvent)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def getModel():
-    '''public ConfigurationInfo getModel()
+    '''returns ConfigurationInfo\n\n
+    getModel()\n
     '''
 def setAdvancedPanelText():
-    '''public void setAdvancedPanelText()
+    '''returns None\n\n
+    setAdvancedPanelText()\n
     '''
 def setCertificatePanelText():
-    '''public void setCertificatePanelText()
+    '''returns None\n\n
+    setCertificatePanelText()\n
     '''
 def setAdvancedPanel():
-    '''public void setAdvancedPanel(final int textSize)
+    '''returns None\n\n
+    setAdvancedPanel(final int textSize)\n
     '''
 def showControlPanelHelp():
-    '''public void showControlPanelHelp()
+    '''returns None\n\n
+    showControlPanelHelp()\n
     '''
 def hyperlinkUpdate():
-    '''public void hyperlinkUpdate(final HyperlinkEvent hyperlinkEvent)
+    '''returns None\n\n
+    hyperlinkUpdate(final HyperlinkEvent hyperlinkEvent)\n
     '''
 def windowClosing():
-    '''public void windowClosing(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowClosing(final WindowEvent windowEvent)\n
     '''

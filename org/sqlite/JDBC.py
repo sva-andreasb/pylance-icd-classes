@@ -1,28 +1,29 @@
 PREFIX = "String  \"jdbc:sqlite:\""
 def getMajorVersion():
-    '''public int getMajorVersion()
+    '''returns int\n\n
+    getMajorVersion()\n
     '''
 def getMinorVersion():
-    '''public int getMinorVersion()
+    '''returns int\n\n
+    getMinorVersion()\n
     '''
 def jdbcCompliant():
-    '''public boolean jdbcCompliant()
+    '''returns boolean\n\n
+    jdbcCompliant()\n
     '''
 def getParentLogger():
-    '''public Logger getParentLogger()
+    '''returns Logger\n\n
+    getParentLogger()\n
     '''
 def acceptsURL():
-    '''public boolean acceptsURL(final String url)
-    '''
-def isValidURL():
-    '''public static boolean isValidURL(final String url)
+    '''returns boolean\n\n
+    acceptsURL(final String url)\n
     '''
 def getPropertyInfo():
-    '''public DriverPropertyInfo[] getPropertyInfo(final String url, final Properties info)
+    '''returns DriverPropertyInfo[]\n\n
+    getPropertyInfo(final String url, final Properties info)\n
     '''
 def connect():
-    '''public Connection connect(final String url, final Properties info)
-    '''
-def createConnection():
-    '''public static SQLiteConnection createConnection(String url, final Properties prop)
+    '''returns Connection\n\n
+    connect(final String url, final Properties info)\n
     '''

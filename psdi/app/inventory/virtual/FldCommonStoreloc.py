@@ -1,9 +1,12 @@
-def FldCommonStoreloc():
-    '''public FldCommonStoreloc(final MboValue mbv)
+def ():
+    '''returns FldCommonStoreloc\n\n
+    (final MboValue mbv)\n
     '''
 def getInventory():
-    '''public InventoryRemote getInventory()
+    '''returns InventoryRemote\n\n
+    getInventory()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

@@ -1,13 +1,17 @@
-def SimpleOptionHandler():
-    '''public SimpleOptionHandler(final int optcode, final boolean initlocal, final boolean initremote, final boolean acceptlocal, final boolean acceptremote)
-    public SimpleOptionHandler(final int optcode)
+def ():
+    '''returns SimpleOptionHandler\n\n
+    (final int optcode, final boolean initlocal, final boolean initremote, final boolean acceptlocal, final boolean acceptremote)\n
+    (final int optcode)\n
     '''
 def answerSubnegotiation():
-    '''public int[] answerSubnegotiation(final int[] suboptionData, final int suboptionLength)
+    '''returns int[]\n\n
+    answerSubnegotiation(final int[] suboptionData, final int suboptionLength)\n
     '''
 def startSubnegotiationLocal():
-    '''public int[] startSubnegotiationLocal()
+    '''returns int[]\n\n
+    startSubnegotiationLocal()\n
     '''
 def startSubnegotiationRemote():
-    '''public int[] startSubnegotiationRemote()
+    '''returns int[]\n\n
+    startSubnegotiationRemote()\n
     '''

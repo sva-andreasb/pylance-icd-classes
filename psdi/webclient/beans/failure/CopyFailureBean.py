@@ -1,3 +1,4 @@
 def callMethod():
-    '''public int callMethod(final WebClientEvent event, final Class[] paramTypes, final Object[] params)
+    '''returns int\n\n
+    callMethod(final WebClientEvent event, final Class[] paramTypes, final Object[] params)\n
     '''

@@ -1,6 +1,7 @@
-def ConfigServiceException():
-    '''public ConfigServiceException()
-    public ConfigServiceException(final String msg)
-    public ConfigServiceException(final Throwable th, final String msg)
-    public ConfigServiceException(final Throwable th)
+def ():
+    '''returns ConfigServiceException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable th, final String msg)\n
+    (final Throwable th)\n
     '''

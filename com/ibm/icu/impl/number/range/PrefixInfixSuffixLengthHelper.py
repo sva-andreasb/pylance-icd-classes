@@ -1,15 +1,20 @@
-def PrefixInfixSuffixLengthHelper():
-    '''public PrefixInfixSuffixLengthHelper()
+def ():
+    '''returns PrefixInfixSuffixLengthHelper\n\n
+    ()\n
     '''
 def index0():
-    '''public int index0()
+    '''returns int\n\n
+    index0()\n
     '''
 def index1():
-    '''public int index1()
+    '''returns int\n\n
+    index1()\n
     '''
 def index2():
-    '''public int index2()
+    '''returns int\n\n
+    index2()\n
     '''
 def index3():
-    '''public int index3()
+    '''returns int\n\n
+    index3()\n
     '''

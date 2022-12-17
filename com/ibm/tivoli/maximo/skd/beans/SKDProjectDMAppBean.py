@@ -1,60 +1,72 @@
-def SKDProjectDMAppBean():
-    '''public SKDProjectDMAppBean()
+def ():
+    '''returns SKDProjectDMAppBean\n\n
+    ()\n
     '''
 def DMTabChanged():
-    '''public int DMTabChanged()
-    '''
-def getString():
-    '''public synchronized String getString(final String attribute)
+    '''returns int\n\n
+    DMTabChanged()\n
     '''
 def isValidationInProgress():
-    '''public boolean isValidationInProgress()
+    '''returns boolean\n\n
+    isValidationInProgress()\n
     '''
 def getSKDDataValOption():
-    '''public MboRemote getSKDDataValOption()
+    '''returns MboRemote\n\n
+    getSKDDataValOption()\n
     '''
 def validateQuery():
-    '''public int validateQuery()
+    '''returns int\n\n
+    validateQuery()\n
     '''
 def validateCalendar():
-    '''public int validateCalendar()
+    '''returns int\n\n
+    validateCalendar()\n
     '''
 def validateWork():
-    '''public int validateWork()
+    '''returns int\n\n
+    validateWork()\n
     '''
 def validateConstraints():
-    '''public int validateConstraints()
+    '''returns int\n\n
+    validateConstraints()\n
     '''
 def validateResource():
-    '''public int validateResource()
+    '''returns int\n\n
+    validateResource()\n
     '''
 def validateAssign():
-    '''public int validateAssign()
+    '''returns int\n\n
+    validateAssign()\n
     '''
 def REFRESH():
-    '''public int REFRESH()
+    '''returns int\n\n
+    REFRESH()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def skdProjectDataChange():
-    '''public int skdProjectDataChange()
+    '''returns int\n\n
+    skdProjectDataChange()\n
     '''
 def validationopfailed():
-    '''public int validationopfailed()
+    '''returns int\n\n
+    validationopfailed()\n
     '''
 def filterWorkByErrorType():
-    '''public int filterWorkByErrorType()
+    '''returns int\n\n
+    filterWorkByErrorType()\n
     '''
 def filterConstraintByErrorType():
-    '''public int filterConstraintByErrorType()
+    '''returns int\n\n
+    filterConstraintByErrorType()\n
     '''
 def filterResourceByErrorType():
-    '''public int filterResourceByErrorType()
+    '''returns int\n\n
+    filterResourceByErrorType()\n
     '''
 def filterAssignByErrorType():
-    '''public int filterAssignByErrorType()
-    '''
-def setValue():
-    '''public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
+    '''returns int\n\n
+    filterAssignByErrorType()\n
     '''

@@ -1,9 +1,8 @@
 def checkProxyClass():
-    '''public void checkProxyClass(final Class proxyClass)
-    '''
-def getProxy():
-    '''public synchronized Object getProxy()
+    '''returns None\n\n
+    checkProxyClass(final Class proxyClass)\n
     '''
 def setProxy():
-    '''public void setProxy(final Object o)
+    '''returns None\n\n
+    setProxy(final Object o)\n
     '''

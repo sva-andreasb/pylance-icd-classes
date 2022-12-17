@@ -1,10 +1,13 @@
-def MaxEmpactProcess():
-    '''public MaxEmpactProcess()
+def ():
+    '''returns MaxEmpactProcess\n\n
+    ()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules()
-    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules()\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''
 def checkWOStatus():
-    '''public void checkWOStatus()
+    '''returns None\n\n
+    checkWOStatus()\n
     '''

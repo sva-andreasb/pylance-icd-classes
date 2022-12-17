@@ -1,36 +1,48 @@
-def FldCommonCrossSiteLocation():
-    '''public FldCommonCrossSiteLocation(final MboValue mbv, final String criteriaName)
+def ():
+    '''returns FldCommonCrossSiteLocation\n\n
+    (final MboValue mbv, final String criteriaName)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def setWonumField():
-    '''public void setWonumField(final String wonumField)
+    '''returns None\n\n
+    setWonumField(final String wonumField)\n
     '''
 def setAssetnumField():
-    '''public void setAssetnumField(final String assetnumField)
+    '''returns None\n\n
+    setAssetnumField(final String assetnumField)\n
     '''
 def setGLDebitAcctField():
-    '''public void setGLDebitAcctField(final String gldebitacctField)
+    '''returns None\n\n
+    setGLDebitAcctField(final String gldebitacctField)\n
     '''
 def setChargeStoreField():
-    '''public void setChargeStoreField(final String chargestoreField)
+    '''returns None\n\n
+    setChargeStoreField(final String chargestoreField)\n
     '''
 def setItemnumField():
-    '''public void setItemnumField(final String itemnumField)
+    '''returns None\n\n
+    setItemnumField(final String itemnumField)\n
     '''
 def setItemsetidField():
-    '''public void setItemsetidField(final String itemsetidField)
+    '''returns None\n\n
+    setItemsetidField(final String itemsetidField)\n
     '''
 def setStoreLocField():
-    '''public void setStoreLocField(final String storelocField, final boolean clearStorelocField)
+    '''returns None\n\n
+    setStoreLocField(final String storelocField, final boolean clearStorelocField)\n
     '''
 def setLaborcodeField():
-    '''public void setLaborcodeField(final String laborcodeField)
+    '''returns None\n\n
+    setLaborcodeField(final String laborcodeField)\n
     '''
 def setToolnumField():
-    '''public void setToolnumField(final String toolnumField)
+    '''returns None\n\n
+    setToolnumField(final String toolnumField)\n
     '''
 def setMRField():
-    '''public void setMRField(final String mrnumField, final String mrlinenumField)
+    '''returns None\n\n
+    setMRField(final String mrnumField, final String mrlinenumField)\n
     '''

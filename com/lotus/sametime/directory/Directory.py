@@ -1,25 +1,25 @@
 def getTitle():
-    '''public String getTitle()
-    '''
-def addDirectoryListener():
-    '''public synchronized void addDirectoryListener(final DirectoryListener obj)
-    '''
-def removeDirectoryListener():
-    '''public synchronized void removeDirectoryListener(final DirectoryListener obj)
+    '''returns String\n\n
+    getTitle()\n
     '''
 def queryEntries():
-    '''public Integer queryEntries(final boolean b)
-    public Integer queryEntries(final String s)
+    '''returns Integer\n\n
+    queryEntries(final boolean b)\n
+    queryEntries(final String s)\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def setMaxEntries():
-    '''public void setMaxEntries(final short chunkSize)
+    '''returns None\n\n
+    setMaxEntries(final short chunkSize)\n
     '''
 def getMaxEntries():
-    '''public short getMaxEntries()
+    '''returns short\n\n
+    getMaxEntries()\n
     '''

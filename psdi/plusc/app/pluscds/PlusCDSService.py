@@ -1,7 +1,9 @@
-def PlusCDSService():
-    '''public PlusCDSService()
-    public PlusCDSService(final MXServer mxServer)
+def ():
+    '''returns PlusCDSService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

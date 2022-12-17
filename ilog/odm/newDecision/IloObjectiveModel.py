@@ -1,28 +1,37 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloObjectiveModel():
-    '''public IloObjectiveModel(final IloGoalsDesc descs)
+def ():
+    '''returns IloObjectiveModel\n\n
+    (final IloGoalsDesc descs)\n
     '''
 def getModelGoalByName():
-    '''public IloGoalModel getModelGoalByName(final String id)
+    '''returns IloGoalModel\n\n
+    getModelGoalByName(final String id)\n
     '''
 def hasGoals():
-    '''public boolean hasGoals()
+    '''returns boolean\n\n
+    hasGoals()\n
     '''
 def makeObjective():
-    '''public void makeObjective(final IloOplModel oplModel, final IloModeler modeler, final IloEngineRequest request, final IloScenario currentScenario, final IloIssueReporter reporter)
+    '''returns None\n\n
+    makeObjective(final IloOplModel oplModel, final IloModeler modeler, final IloEngineRequest request, final IloScenario currentScenario, final IloIssueReporter reporter)\n
     '''
 def updateOneGoal():
-    '''public void updateOneGoal(final String goalId, final Double newWeight, final Boolean newActive)
+    '''returns None\n\n
+    updateOneGoal(final String goalId, final Double newWeight, final Boolean newActive)\n
     '''
 def getVisibleGoals():
-    '''public Iterator<IloGoalModel> getVisibleGoals()
+    '''returns Iterator<IloGoalModel>\n\n
+    getVisibleGoals()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public IloGoalModel next()
+    '''returns IloGoalModel\n\n
+    next()\n
     '''

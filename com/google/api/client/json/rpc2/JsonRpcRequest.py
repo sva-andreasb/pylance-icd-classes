@@ -1,27 +1,36 @@
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def getId():
-    '''public Object getId()
+    '''returns Object\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Object id)
+    '''returns None\n\n
+    setId(final Object id)\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''
 def setMethod():
-    '''public void setMethod(final String method)
+    '''returns None\n\n
+    setMethod(final String method)\n
     '''
 def getParameters():
-    '''public Object getParameters()
+    '''returns Object\n\n
+    getParameters()\n
     '''
 def setParameters():
-    '''public void setParameters(final Object parameters)
+    '''returns None\n\n
+    setParameters(final Object parameters)\n
     '''
 def set():
-    '''public JsonRpcRequest set(final String fieldName, final Object value)
+    '''returns JsonRpcRequest\n\n
+    set(final String fieldName, final Object value)\n
     '''
 def clone():
-    '''public JsonRpcRequest clone()
+    '''returns JsonRpcRequest\n\n
+    clone()\n
     '''

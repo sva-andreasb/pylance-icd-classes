@@ -1,12 +1,16 @@
-def JDOMAttributeIterator():
-    '''public JDOMAttributeIterator(final NodePointer parent, final QName name)
+def ():
+    '''returns JDOMAttributeIterator\n\n
+    (final NodePointer parent, final QName name)\n
     '''
 def getNodePointer():
-    '''public NodePointer getNodePointer()
+    '''returns NodePointer\n\n
+    getNodePointer()\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def setPosition():
-    '''public boolean setPosition(final int position)
+    '''returns boolean\n\n
+    setPosition(final int position)\n
     '''

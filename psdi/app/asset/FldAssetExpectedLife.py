@@ -1,6 +1,8 @@
-def FldAssetExpectedLife():
-    '''public FldAssetExpectedLife(final MboValue mbv)
+def ():
+    '''returns FldAssetExpectedLife\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

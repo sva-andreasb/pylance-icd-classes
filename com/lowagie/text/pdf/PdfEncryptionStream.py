@@ -1,13 +1,17 @@
-def PdfEncryptionStream():
-    '''public PdfEncryptionStream(final OutputStream out, final PdfEncryption enc)
+def ():
+    '''returns PdfEncryptionStream\n\n
+    (final OutputStream out, final PdfEncryption enc)\n
     '''
 def write():
-    '''public void write(final byte[] b, final int off, final int len)
-    public void write(final int b)
+    '''returns None\n\n
+    write(final byte[] b, final int off, final int len)\n
+    write(final int b)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''

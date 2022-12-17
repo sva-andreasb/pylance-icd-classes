@@ -1,9 +1,12 @@
-def FldLaborQualCertificateNum():
-    '''public FldLaborQualCertificateNum(final MboValue mbv)
+def ():
+    '''returns FldLaborQualCertificateNum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

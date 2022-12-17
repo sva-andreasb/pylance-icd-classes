@@ -1,39 +1,52 @@
-def TableCell():
-    '''public TableCell()
+def ():
+    '''returns TableCell\n\n
+    ()\n
     '''
 def getTableCol():
-    '''public TableCol getTableCol()
+    '''returns TableCol\n\n
+    getTableCol()\n
     '''
 def getColumnNum():
-    '''public int getColumnNum()
+    '''returns int\n\n
+    getColumnNum()\n
     '''
 def getCellId():
-    '''public String getCellId(final int row)
+    '''returns String\n\n
+    getCellId(final int row)\n
     '''
 def getRow():
-    '''public TableRow getRow()
+    '''returns TableRow\n\n
+    getRow()\n
     '''
 def getTable():
-    '''public Table getTable()
+    '''returns Table\n\n
+    getTable()\n
     '''
 def setColumnId():
-    '''public void setColumnId(final String id)
+    '''returns None\n\n
+    setColumnId(final String id)\n
     '''
 def getColumnId():
-    '''public String getColumnId()
+    '''returns String\n\n
+    getColumnId()\n
     '''
 def setDesignerSelected():
-    '''public ControlInstance setDesignerSelected(final boolean selected)
+    '''returns ControlInstance\n\n
+    setDesignerSelected(final boolean selected)\n
     '''
 def getDesignerSelected():
-    '''public boolean getDesignerSelected()
+    '''returns boolean\n\n
+    getDesignerSelected()\n
     '''
 def isNumeric():
-    '''public boolean isNumeric()
+    '''returns boolean\n\n
+    isNumeric()\n
     '''
 def isLTROnly():
-    '''public boolean isLTROnly()
+    '''returns boolean\n\n
+    isLTROnly()\n
     '''
 def maintainControlId():
-    '''public boolean maintainControlId()
+    '''returns boolean\n\n
+    maintainControlId()\n
     '''

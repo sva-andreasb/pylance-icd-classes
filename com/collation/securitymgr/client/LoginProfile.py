@@ -1,26 +1,34 @@
-def LoginProfile():
-    '''public LoginProfile(final long session, final String usrname, final GregorianCalendar expiry, final int invalidlogins, final Properties attrs)
-    public LoginProfile(final long session, final String usrname, final GregorianCalendar expiry, final int invalidlogins, final Properties attrs, final Set groups)
-    public LoginProfile(final long session, final String usrname, final GregorianCalendar expiry, final int invalidlogins, final Properties attrs, final Set groups, final SerializableCookie SSOToken)
+def ():
+    '''returns LoginProfile\n\n
+    (final long session, final String usrname, final GregorianCalendar expiry, final int invalidlogins, final Properties attrs)\n
+    (final long session, final String usrname, final GregorianCalendar expiry, final int invalidlogins, final Properties attrs, final Set groups)\n
+    (final long session, final String usrname, final GregorianCalendar expiry, final int invalidlogins, final Properties attrs, final Set groups, final SerializableCookie SSOToken)\n
     '''
 def getSession():
-    '''public SessionContext getSession()
+    '''returns SessionContext\n\n
+    getSession()\n
     '''
 def getUser():
-    '''public String getUser()
+    '''returns String\n\n
+    getUser()\n
     '''
 def getPasswordExpiry():
-    '''public GregorianCalendar getPasswordExpiry()
+    '''returns GregorianCalendar\n\n
+    getPasswordExpiry()\n
     '''
 def getInvalidLoginAttempts():
-    '''public int getInvalidLoginAttempts()
+    '''returns int\n\n
+    getInvalidLoginAttempts()\n
     '''
 def getAttributes():
-    '''public Properties getAttributes()
+    '''returns Properties\n\n
+    getAttributes()\n
     '''
 def getGroupMembership():
-    '''public Set getGroupMembership()
+    '''returns Set\n\n
+    getGroupMembership()\n
     '''
 def getSSOToken():
-    '''public SerializableCookie getSSOToken()
+    '''returns SerializableCookie\n\n
+    getSSOToken()\n
     '''

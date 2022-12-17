@@ -1,10 +1,8 @@
-def switchTransformer():
-    '''public static <I, O> Transformer<I, O> switchTransformer(final Predicate<? super I>[] predicates, final Transformer<? super I, ? extends O>[] transformers, final Transformer<? super I, ? extends O> defaultTransformer)
-    public static <I, O> Transformer<I, O> switchTransformer(final Map<? extends Predicate<? super I>, ? extends Transformer<? super I, ? extends O>> map)
-    '''
-def SwitchTransformer():
-    '''public SwitchTransformer(final Predicate<? super I>[] predicates, final Transformer<? super I, ? extends O>[] transformers, final Transformer<? super I, ? extends O> defaultTransformer)
+def ():
+    '''returns SwitchTransformer\n\n
+    (final Predicate<? super I>[] predicates, final Transformer<? super I, ? extends O>[] transformers, final Transformer<? super I, ? extends O> defaultTransformer)\n
     '''
 def transform():
-    '''public O transform(final I input)
+    '''returns O\n\n
+    transform(final I input)\n
     '''

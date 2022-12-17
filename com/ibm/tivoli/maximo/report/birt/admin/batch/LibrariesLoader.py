@@ -1,22 +1,25 @@
-def LibrariesLoader():
-    '''public LibrariesLoader()
-    public LibrariesLoader(final MXLogger reportAdminServiceLogger)
+def ():
+    '''returns LibrariesLoader\n\n
+    ()\n
+    (final MXLogger reportAdminServiceLogger)\n
     '''
 def loadLibraries():
-    '''public ArrayList loadLibraries(final String reportsXMLFile)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns ArrayList\n\n
+    loadLibraries(final String reportsXMLFile)\n
     '''
 def resolveEntity():
-    '''public InputSource resolveEntity(final String publicId, final String systemId)
+    '''returns InputSource\n\n
+    resolveEntity(final String publicId, final String systemId)\n
     '''
 def error():
-    '''public void error(final SAXParseException e)
+    '''returns None\n\n
+    error(final SAXParseException e)\n
     '''
 def fatalError():
-    '''public void fatalError(final SAXParseException e)
+    '''returns None\n\n
+    fatalError(final SAXParseException e)\n
     '''
 def warning():
-    '''public void warning(final SAXParseException exception)
+    '''returns None\n\n
+    warning(final SAXParseException exception)\n
     '''

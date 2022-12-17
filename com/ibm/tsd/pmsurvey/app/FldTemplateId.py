@@ -1,3 +1,4 @@
-def FldTemplateId():
-    '''public FldTemplateId(final MboValue mbv)
+def ():
+    '''returns FldTemplateId\n\n
+    (final MboValue mbv)\n
     '''

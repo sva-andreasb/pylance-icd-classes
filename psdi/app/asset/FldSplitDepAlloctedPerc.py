@@ -1,12 +1,16 @@
-def FldSplitDepAlloctedPerc():
-    '''public FldSplitDepAlloctedPerc(final MboValue mbv)
+def ():
+    '''returns FldSplitDepAlloctedPerc\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

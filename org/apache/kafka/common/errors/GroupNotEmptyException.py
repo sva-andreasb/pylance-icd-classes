@@ -1,6 +1,8 @@
-def GroupNotEmptyException():
-    '''public GroupNotEmptyException(final String groupId)
+def ():
+    '''returns GroupNotEmptyException\n\n
+    (final String groupId)\n
     '''
 def groupId():
-    '''public String groupId()
+    '''returns String\n\n
+    groupId()\n
     '''

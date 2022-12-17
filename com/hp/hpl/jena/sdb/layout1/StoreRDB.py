@@ -1,12 +1,12 @@
-def StoreRDB():
-    '''public StoreRDB(final StoreDesc desc, final ModelRDB model)
-    '''
-def makeSDBConnection():
-    '''public static SDBConnection makeSDBConnection(final ModelRDB model)
+def ():
+    '''returns StoreRDB\n\n
+    (final StoreDesc desc, final ModelRDB model)\n
     '''
 def getModel():
-    '''public ModelRDB getModel()
+    '''returns ModelRDB\n\n
+    getModel()\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''

@@ -1,30 +1,40 @@
-def ViolationImpl():
-    '''public ViolationImpl(final IRI iri, final int slot, final int code)
+def ():
+    '''returns ViolationImpl\n\n
+    (final IRI iri, final int slot, final int code)\n
     '''
 def getViolationCode():
-    '''public int getViolationCode()
+    '''returns int\n\n
+    getViolationCode()\n
     '''
 def getIRI():
-    '''public IRI getIRI()
+    '''returns IRI\n\n
+    getIRI()\n
     '''
 def getComponent():
-    '''public int getComponent()
+    '''returns int\n\n
+    getComponent()\n
     '''
 def component():
-    '''public String component()
+    '''returns String\n\n
+    component()\n
     '''
 def codeName():
-    '''public String codeName()
+    '''returns String\n\n
+    codeName()\n
     '''
 def isError():
-    '''public boolean isError()
+    '''returns boolean\n\n
+    isError()\n
     '''
 def getShortMessage():
-    '''public String getShortMessage()
+    '''returns String\n\n
+    getShortMessage()\n
     '''
 def getLongMessage():
-    '''public String getLongMessage()
+    '''returns String\n\n
+    getLongMessage()\n
     '''
 def getSpecificationURL():
-    '''public String getSpecificationURL()
+    '''returns String\n\n
+    getSpecificationURL()\n
     '''

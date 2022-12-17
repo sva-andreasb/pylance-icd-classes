@@ -1,15 +1,20 @@
-def StringDeserializer():
-    '''public StringDeserializer()
+def ():
+    '''returns StringDeserializer\n\n
+    ()\n
     '''
 def isCachable():
-    '''public boolean isCachable()
+    '''returns boolean\n\n
+    isCachable()\n
     '''
 def getEmptyValue():
-    '''public Object getEmptyValue(final DeserializationContext ctxt)
+    '''returns Object\n\n
+    getEmptyValue(final DeserializationContext ctxt)\n
     '''
 def deserialize():
-    '''public String deserialize(final JsonParser p, final DeserializationContext ctxt)
+    '''returns String\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
     '''
 def deserializeWithType():
-    '''public String deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
+    '''returns String\n\n
+    deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)\n
     '''

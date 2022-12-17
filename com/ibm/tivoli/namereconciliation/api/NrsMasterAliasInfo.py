@@ -1,33 +1,44 @@
 def getAliasClassType():
-    '''public String getAliasClassType()
+    '''returns String\n\n
+    getAliasClassType()\n
     '''
 def getAliasGUID():
-    '''public Guid getAliasGUID()
+    '''returns Guid\n\n
+    getAliasGUID()\n
     '''
 def getAliasName():
-    '''public String getAliasName()
+    '''returns String\n\n
+    getAliasName()\n
     '''
 def getMasterGUID():
-    '''public Guid getMasterGUID()
+    '''returns Guid\n\n
+    getMasterGUID()\n
     '''
 def getMasterName():
-    '''public String getMasterName()
+    '''returns String\n\n
+    getMasterName()\n
     '''
 def setAliasClassType():
-    '''public void setAliasClassType(final String classString)
+    '''returns None\n\n
+    setAliasClassType(final String classString)\n
     '''
 def setAliasGUID():
-    '''public void setAliasGUID(final Guid guid)
+    '''returns None\n\n
+    setAliasGUID(final Guid guid)\n
     '''
 def setAliasName():
-    '''public void setAliasName(final String name)
+    '''returns None\n\n
+    setAliasName(final String name)\n
     '''
 def setMasterGUID():
-    '''public void setMasterGUID(final Guid guid)
+    '''returns None\n\n
+    setMasterGUID(final Guid guid)\n
     '''
 def setMasterName():
-    '''public void setMasterName(final String name)
+    '''returns None\n\n
+    setMasterName(final String name)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

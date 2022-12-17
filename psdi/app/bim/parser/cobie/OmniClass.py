@@ -1,28 +1,37 @@
-def OmniClass():
-    '''public OmniClass(final String name, final String title, final int level, final String definition)
-    public OmniClass(final OmniClassNumber oomniclassNumber, final String definition)
+def ():
+    '''returns OmniClass\n\n
+    (final String name, final String title, final int level, final String definition)\n
+    (final OmniClassNumber oomniclassNumber, final String definition)\n
     '''
 def addChild():
-    '''public void addChild(final OmniClass child)
+    '''returns None\n\n
+    addChild(final OmniClass child)\n
     '''
 def getChildern():
-    '''public Enumeration<OmniClass> getChildern()
+    '''returns Enumeration<OmniClass>\n\n
+    getChildern()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getMemberCount():
-    '''public long getMemberCount()
+    '''returns long\n\n
+    getMemberCount()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getDefinition():
-    '''public String getDefinition()
+    '''returns String\n\n
+    getDefinition()\n
     '''
 def getLevel():
-    '''public int getLevel()
+    '''returns int\n\n
+    getLevel()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

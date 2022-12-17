@@ -1,3 +1,4 @@
-def MaxLabels():
-    '''public MaxLabels(final MboSet ms)
+def ():
+    '''returns MaxLabels\n\n
+    (final MboSet ms)\n
     '''

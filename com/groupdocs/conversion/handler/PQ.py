@@ -1,5 +1,6 @@
 def setLicense():
-    '''public void setLicense(final String licenseName)
-    public void setLicense(final InputStream stream)
-    public void setLicense(final File licenseFile)
+    '''returns None\n\n
+    setLicense(final String licenseName)\n
+    setLicense(final InputStream stream)\n
+    setLicense(final File licenseFile)\n
     '''

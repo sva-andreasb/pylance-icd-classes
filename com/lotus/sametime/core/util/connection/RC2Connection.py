@@ -1,12 +1,16 @@
-def RC2Connection():
-    '''public RC2Connection(final Connection realConn, final byte[] key)
+def ():
+    '''returns RC2Connection\n\n
+    (final Connection realConn, final byte[] key)\n
     '''
 def setKeepAliveParams():
-    '''public void setKeepAliveParams(final long n, final byte[] array)
+    '''returns None\n\n
+    setKeepAliveParams(final long n, final byte[] array)\n
     '''
 def getConnectionInfo():
-    '''public ConnectionInfo getConnectionInfo()
+    '''returns ConnectionInfo\n\n
+    getConnectionInfo()\n
     '''
 def getLocalAddress():
-    '''public InetAddress getLocalAddress()
+    '''returns InetAddress\n\n
+    getLocalAddress()\n
     '''

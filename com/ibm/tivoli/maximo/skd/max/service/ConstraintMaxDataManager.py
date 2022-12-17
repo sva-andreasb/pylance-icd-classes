@@ -1,27 +1,35 @@
-def ConstraintMaxDataManager():
-    '''public ConstraintMaxDataManager(final MXServer mxServer)
+def ():
+    '''returns ConstraintMaxDataManager\n\n
+    (final MXServer mxServer)\n
     '''
 def populateDataObjects():
-    '''public void populateDataObjects(final MboRemote projectMbo, final Map<String, ArrayList<String>> queryMap)
+    '''returns None\n\n
+    populateDataObjects(final MboRemote projectMbo, final Map<String, ArrayList<String>> queryMap)\n
     '''
 def loadDataObjects():
-    '''public JSONArray loadDataObjects(final Schedule schedule, final Activity activity, final MboRemote projectMbo, final DataSpec dataSpec, final Long offsetRecord)
-    public JSONArray loadDataObjects(final Schedule schedule, final JSONArray activities, final MboRemote projectMbo, final DataSpec dataSpec, final Long offsetRecord)
-    public JSONArray loadDataObjects(final Schedule schedule, final DataSpec dataSpec, final List<String> ids)
-    public JSONArray loadDataObjects(final Schedule schedule, final DataSpec dataSpec, final Long offsetRecord, final boolean parentOnly)
+    '''returns JSONArray\n\n
+    loadDataObjects(final Schedule schedule, final Activity activity, final MboRemote projectMbo, final DataSpec dataSpec, final Long offsetRecord)\n
+    loadDataObjects(final Schedule schedule, final JSONArray activities, final MboRemote projectMbo, final DataSpec dataSpec, final Long offsetRecord)\n
+    loadDataObjects(final Schedule schedule, final DataSpec dataSpec, final List<String> ids)\n
+    loadDataObjects(final Schedule schedule, final DataSpec dataSpec, final Long offsetRecord, final boolean parentOnly)\n
     '''
 def processChanges():
-    '''public void processChanges(final MboRemote projectMbo, final List<Constraint> constraintChanges)
+    '''returns None\n\n
+    processChanges(final MboRemote projectMbo, final List<Constraint> constraintChanges)\n
     '''
 def commitChanges():
-    '''public void commitChanges(final MboRemote projectMbo, final MboSetRemote constraintSet, final String selectedIDs)
+    '''returns None\n\n
+    commitChanges(final MboRemote projectMbo, final MboSetRemote constraintSet, final String selectedIDs)\n
     '''
 def getPageCount():
-    '''public int getPageCount(final Schedule schedule, final DataSpec dataSpec, final boolean parentOnly)
+    '''returns int\n\n
+    getPageCount(final Schedule schedule, final DataSpec dataSpec, final boolean parentOnly)\n
     '''
 def getRowCount():
-    '''public int getRowCount(final Schedule schedule, final DataSpec dataSpec, final boolean parentOnly)
+    '''returns int\n\n
+    getRowCount(final Schedule schedule, final DataSpec dataSpec, final boolean parentOnly)\n
     '''
 def bulkLoadDataObjects():
-    '''public JSONArray bulkLoadDataObjects(final Schedule schedule, final DataSpec dataSpec, final Long offsetRecord)
+    '''returns JSONArray\n\n
+    bulkLoadDataObjects(final Schedule schedule, final DataSpec dataSpec, final Long offsetRecord)\n
     '''

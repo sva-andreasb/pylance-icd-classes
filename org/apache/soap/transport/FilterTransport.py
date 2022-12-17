@@ -1,15 +1,20 @@
-def FilterTransport():
-    '''public FilterTransport(final EnvelopeEditor editor, final SOAPTransport transport)
+def ():
+    '''returns FilterTransport\n\n
+    (final EnvelopeEditor editor, final SOAPTransport transport)\n
     '''
 def getHeaders():
-    '''public Hashtable getHeaders()
+    '''returns Hashtable\n\n
+    getHeaders()\n
     '''
 def getResponseSOAPContext():
-    '''public SOAPContext getResponseSOAPContext()
+    '''returns SOAPContext\n\n
+    getResponseSOAPContext()\n
     '''
 def receive():
-    '''public BufferedReader receive()
+    '''returns BufferedReader\n\n
+    receive()\n
     '''
 def send():
-    '''public void send(final URL url, final String s, final Hashtable hashtable, final Envelope envelope, final SOAPMappingRegistry soapMappingRegistry, final SOAPContext soapContext)
+    '''returns None\n\n
+    send(final URL url, final String s, final Hashtable hashtable, final Envelope envelope, final SOAPMappingRegistry soapMappingRegistry, final SOAPContext soapContext)\n
     '''

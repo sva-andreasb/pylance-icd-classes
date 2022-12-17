@@ -1,15 +1,20 @@
-def ApptBookWorkOrderBean():
-    '''public ApptBookWorkOrderBean()
+def ():
+    '''returns ApptBookWorkOrderBean\n\n
+    ()\n
     '''
 def clearapptbk():
-    '''public int clearapptbk()
+    '''returns int\n\n
+    clearapptbk()\n
     '''
 def searchapptbk():
-    '''public int searchapptbk()
+    '''returns int\n\n
+    searchapptbk()\n
     '''
 def setApptBook():
-    '''public void setApptBook()
+    '''returns None\n\n
+    setApptBook()\n
     '''
 def getApptBook():
-    '''public MboRemote getApptBook()
+    '''returns MboRemote\n\n
+    getApptBook()\n
     '''

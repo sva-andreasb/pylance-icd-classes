@@ -1,3 +1,4 @@
-def CCICdmCiType():
-    '''public CCICdmCiType(final MboSet ms)
+def ():
+    '''returns CCICdmCiType\n\n
+    (final MboSet ms)\n
     '''

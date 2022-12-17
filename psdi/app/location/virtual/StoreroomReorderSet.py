@@ -1,24 +1,29 @@
-def StoreroomReorderSet():
-    '''public StoreroomReorderSet(final MboServerInterface ms)
+def ():
+    '''returns AsyncProcess\n\n
+    (final MboServerInterface ms)\n
+    (final LocationRemote location, final LocationSetRemote locationSet, final String reorderFromStore, final String reorderFromStoreSiteId)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def updateInventoryReorderStore():
-    '''public boolean updateInventoryReorderStore()
+    '''returns boolean\n\n
+    updateInventoryReorderStore()\n
     '''
 def confirmReorderNullNotNull():
-    '''public boolean confirmReorderNullNotNull()
+    '''returns boolean\n\n
+    confirmReorderNullNotNull()\n
     '''
 def updateInventoryReorderStoreRun():
-    '''public boolean updateInventoryReorderStoreRun(final LocationRemote location, final LocationSetRemote locationSet, final String reorderFromStore, final String reorderFromStoreSiteId)
+    '''returns boolean\n\n
+    updateInventoryReorderStoreRun(final LocationRemote location, final LocationSetRemote locationSet, final String reorderFromStore, final String reorderFromStoreSiteId)\n
     '''
 def writeEmail():
-    '''public void writeEmail()
-    '''
-def AsyncProcess():
-    '''public AsyncProcess(final LocationRemote location, final LocationSetRemote locationSet, final String reorderFromStore, final String reorderFromStoreSiteId)
+    '''returns None\n\n
+    writeEmail()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

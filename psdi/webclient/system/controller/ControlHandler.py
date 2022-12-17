@@ -1,31 +1,41 @@
 CANCEL_EVENT = "int  0"
-def ControlHandler():
-    '''public ControlHandler(final ControlInstance masterInstance)
+def ():
+    '''returns ControlHandler\n\n
+    (final ControlInstance masterInstance)\n
     '''
 def getMasterInstance():
-    '''public ControlInstance getMasterInstance()
+    '''returns ControlInstance\n\n
+    getMasterInstance()\n
     '''
 def getProperty():
-    '''public String getProperty(final Object key)
+    '''returns String\n\n
+    getProperty(final Object key)\n
     '''
 def getProperties():
-    '''public ControlProperties getProperties()
+    '''returns ControlProperties\n\n
+    getProperties()\n
     '''
 def setProperty():
-    '''public void setProperty(final String key, final String value)
+    '''returns None\n\n
+    setProperty(final String key, final String value)\n
     '''
 def handleEvent():
-    '''public int handleEvent(final WebClientEvent event)
+    '''returns int\n\n
+    handleEvent(final WebClientEvent event)\n
     '''
 def getChildren():
-    '''public ArrayList<ControlHandler> getChildren()
+    '''returns ArrayList<ControlHandler>\n\n
+    getChildren()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getParent():
-    '''public ControlHandler getParent()
+    '''returns ControlHandler\n\n
+    getParent()\n
     '''
 def getRegisteredHandler():
-    '''public ControlHandler getRegisteredHandler(final String id)
+    '''returns ControlHandler\n\n
+    getRegisteredHandler(final String id)\n
     '''

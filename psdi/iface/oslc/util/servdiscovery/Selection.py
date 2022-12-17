@@ -1,3 +1,4 @@
-def Selection():
-    '''public Selection(final JSONObject jsonObject)
+def ():
+    '''returns Selection\n\n
+    (final JSONObject jsonObject)\n
     '''

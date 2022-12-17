@@ -1,6 +1,8 @@
-def ReportFileExport():
-    '''public ReportFileExport(final MboSet ms)
+def ():
+    '''returns ReportFileExport\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

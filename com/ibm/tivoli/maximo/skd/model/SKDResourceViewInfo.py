@@ -1,57 +1,76 @@
-def SKDResourceViewInfo():
-    '''public SKDResourceViewInfo()
+def ():
+    '''returns SKDResourceViewInfo\n\n
+    ()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def getUseWith():
-    '''public String getUseWith()
+    '''returns String\n\n
+    getUseWith()\n
     '''
 def setUseWith():
-    '''public void setUseWith(final String useWith)
+    '''returns None\n\n
+    setUseWith(final String useWith)\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def setIndex():
-    '''public void setIndex(final int index)
+    '''returns None\n\n
+    setIndex(final int index)\n
     '''
 def getToolTip():
-    '''public String getToolTip()
+    '''returns String\n\n
+    getToolTip()\n
     '''
 def setToolTip():
-    '''public void setToolTip(final String toolTip)
+    '''returns None\n\n
+    setToolTip(final String toolTip)\n
     '''
 def getIconName():
-    '''public String getIconName()
+    '''returns String\n\n
+    getIconName()\n
     '''
 def setIconName():
-    '''public void setIconName(final String iconName)
+    '''returns None\n\n
+    setIconName(final String iconName)\n
     '''
 def getProjectId():
-    '''public String getProjectId()
+    '''returns String\n\n
+    getProjectId()\n
     '''
 def setProjectId():
-    '''public void setProjectId(final String projId)
+    '''returns None\n\n
+    setProjectId(final String projId)\n
     '''
 def isResourceViewEnabled():
-    '''public boolean isResourceViewEnabled()
+    '''returns boolean\n\n
+    isResourceViewEnabled()\n
     '''
 def setIsResourceViewEnabled():
-    '''public void setIsResourceViewEnabled(final boolean isResourceViewEnabled)
+    '''returns None\n\n
+    setIsResourceViewEnabled(final boolean isResourceViewEnabled)\n
     '''

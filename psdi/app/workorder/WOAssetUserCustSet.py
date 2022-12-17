@@ -1,3 +1,4 @@
-def WOAssetUserCustSet():
-    '''public WOAssetUserCustSet(final MboServerInterface ms)
+def ():
+    '''returns WOAssetUserCustSet\n\n
+    (final MboServerInterface ms)\n
     '''

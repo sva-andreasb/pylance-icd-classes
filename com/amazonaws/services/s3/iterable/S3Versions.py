@@ -1,39 +1,40 @@
-def inBucket():
-    '''public static S3Versions inBucket(final AmazonS3 s3, final String bucketName)
-    '''
-def withPrefix():
-    '''public static S3Versions withPrefix(final AmazonS3 s3, final String bucketName, final String prefix)
-    '''
-def forKey():
-    '''public static S3Versions forKey(final AmazonS3 s3, final String bucketName, final String key)
-    '''
 def withBatchSize():
-    '''public S3Versions withBatchSize(final int batchSize)
+    '''returns S3Versions\n\n
+    withBatchSize(final int batchSize)\n
     '''
 def getBatchSize():
-    '''public Integer getBatchSize()
+    '''returns Integer\n\n
+    getBatchSize()\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getS3():
-    '''public AmazonS3 getS3()
+    '''returns AmazonS3\n\n
+    getS3()\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def iterator():
-    '''public Iterator<S3VersionSummary> iterator()
+    '''returns Iterator<S3VersionSummary>\n\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public S3VersionSummary next()
+    '''returns S3VersionSummary\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

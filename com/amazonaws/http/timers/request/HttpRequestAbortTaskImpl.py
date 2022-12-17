@@ -1,12 +1,16 @@
-def HttpRequestAbortTaskImpl():
-    '''public HttpRequestAbortTaskImpl(final HttpRequestBase httpRequest)
+def ():
+    '''returns HttpRequestAbortTaskImpl\n\n
+    (final HttpRequestBase httpRequest)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def httpRequestAborted():
-    '''public boolean httpRequestAborted()
+    '''returns boolean\n\n
+    httpRequestAborted()\n
     '''
 def isEnabled():
-    '''public boolean isEnabled()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''

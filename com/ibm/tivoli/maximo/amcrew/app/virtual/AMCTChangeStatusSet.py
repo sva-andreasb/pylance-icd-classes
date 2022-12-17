@@ -1,3 +1,4 @@
-def AMCTChangeStatusSet():
-    '''public AMCTChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns AMCTChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,9 +1,12 @@
-def UserMTNPSet():
-    '''public UserMTNPSet(final MboServerInterface ms)
+def ():
+    '''returns UserMTNPSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def process():
-    '''public List<ConsultantInfo> process()
+    '''returns List<ConsultantInfo>\n\n
+    process()\n
     '''

@@ -1,11 +1,14 @@
 ELEMENT = "String  \"query\""
 NAMESPACE = "String  \"urn:xmpp:muclight:0#configuration\""
-def MUCLightConfigurationIQ():
-    '''public MUCLightConfigurationIQ(final String version, final MUCLightRoomConfiguration configuration)
+def ():
+    '''returns MUCLightConfigurationIQ\n\n
+    (final String version, final MUCLightRoomConfiguration configuration)\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def getConfiguration():
-    '''public MUCLightRoomConfiguration getConfiguration()
+    '''returns MUCLightRoomConfiguration\n\n
+    getConfiguration()\n
     '''

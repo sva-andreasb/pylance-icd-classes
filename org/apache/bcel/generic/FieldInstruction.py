@@ -1,12 +1,16 @@
 def toString():
-    '''public String toString(final ConstantPool cp)
+    '''returns String\n\n
+    toString(final ConstantPool cp)\n
     '''
 def getType():
-    '''public Type getType(final ConstantPoolGen cpg)
+    '''returns Type\n\n
+    getType(final ConstantPoolGen cpg)\n
     '''
 def getFieldType():
-    '''public Type getFieldType(final ConstantPoolGen cpg)
+    '''returns Type\n\n
+    getFieldType(final ConstantPoolGen cpg)\n
     '''
 def getFieldName():
-    '''public String getFieldName(final ConstantPoolGen cpg)
+    '''returns String\n\n
+    getFieldName(final ConstantPoolGen cpg)\n
     '''

@@ -1,3 +1,4 @@
 def parse():
-    '''public JingleIBBTransport parse(final XmlPullParser parser, final int initialDepth)
+    '''returns JingleIBBTransport\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

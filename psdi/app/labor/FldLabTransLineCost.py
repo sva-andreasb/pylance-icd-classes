@@ -1,6 +1,8 @@
-def FldLabTransLineCost():
-    '''public FldLabTransLineCost(final MboValue mbv)
+def ():
+    '''returns FldLabTransLineCost\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

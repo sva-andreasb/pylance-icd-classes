@@ -1,4 +1,5 @@
-def IllegalWriteException():
-    '''public IllegalWriteException()
-    public IllegalWriteException(final String s)
+def ():
+    '''returns IllegalWriteException\n\n
+    ()\n
+    (final String s)\n
     '''

@@ -1,6 +1,8 @@
-def ReconLinkExpression():
-    '''public ReconLinkExpression(final ReconInfo reconInfo)
+def ():
+    '''returns ReconLinkExpression\n\n
+    (final ReconInfo reconInfo)\n
     '''
 def evaluateLinkExpression():
-    '''public List evaluateLinkExpression(final ReconValue leadingObject, final SubordinateSetAttribute[] subordinateSetAttributes)
+    '''returns List\n\n
+    evaluateLinkExpression(final ReconValue leadingObject, final SubordinateSetAttribute[] subordinateSetAttributes)\n
     '''

@@ -1,0 +1,5 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(STLayoutTarget.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"stlayouttarget19f1type\")"
+INNER = "Enum  Enum.forString(\"inner\")"
+OUTER = "Enum  Enum.forString(\"outer\")"
+INT_INNER = "int  1"
+INT_OUTER = "int  2"

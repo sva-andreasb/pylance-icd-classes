@@ -1,49 +1,65 @@
 def getMenuType():
-    '''public String getMenuType()
+    '''returns String\n\n
+    getMenuType()\n
     '''
 def getModuleApp():
-    '''public String getModuleApp()
+    '''returns String\n\n
+    getModuleApp()\n
     '''
 def getElementType():
-    '''public String getElementType()
+    '''returns String\n\n
+    getElementType()\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def getPositionAsString():
-    '''public String getPositionAsString()
+    '''returns String\n\n
+    getPositionAsString()\n
     '''
 def getSubPosition():
-    '''public int getSubPosition()
+    '''returns int\n\n
+    getSubPosition()\n
     '''
 def getSubPositionAsString():
-    '''public String getSubPositionAsString()
+    '''returns String\n\n
+    getSubPositionAsString()\n
     '''
 def getKeyValue():
-    '''public String getKeyValue()
+    '''returns String\n\n
+    getKeyValue()\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''
 def getAccessKey():
-    '''public String getAccessKey()
+    '''returns String\n\n
+    getAccessKey()\n
     '''
 def getTabDisplay():
-    '''public String getTabDisplay()
+    '''returns String\n\n
+    getTabDisplay()\n
     '''
 def getImage():
-    '''public String getImage()
+    '''returns String\n\n
+    getImage()\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def getHeaderDescription():
-    '''public String getHeaderDescription()
-    public String getHeaderDescription(final UserInfo ui)
+    '''returns String\n\n
+    getHeaderDescription()\n
+    getHeaderDescription(final UserInfo ui)\n
     '''
 def getTypedReference():
-    '''public MaxMenuInfoBase getTypedReference()
+    '''returns MaxMenuInfoBase\n\n
+    getTypedReference()\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

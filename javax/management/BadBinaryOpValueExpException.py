@@ -1,9 +1,12 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getExp():
-    '''public ValueExp getExp()
+    '''returns ValueExp\n\n
+    getExp()\n
     '''
-def BadBinaryOpValueExpException():
-    '''public BadBinaryOpValueExpException(final ValueExp exp)
+def ():
+    '''returns BadBinaryOpValueExpException\n\n
+    (final ValueExp exp)\n
     '''

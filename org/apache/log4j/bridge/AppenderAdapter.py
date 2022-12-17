@@ -1,15 +1,20 @@
-def AppenderAdapter():
-    '''public AppenderAdapter(final Appender appender)
+def ():
+    '''returns AppenderAdapter\n\n
+    (final Appender appender)\n
     '''
 def getAdapter():
-    '''public Adapter getAdapter()
+    '''returns Adapter\n\n
+    getAdapter()\n
     '''
 def append():
-    '''public void append(final LogEvent event)
+    '''returns None\n\n
+    append(final LogEvent event)\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def getAppender():
-    '''public Appender getAppender()
+    '''returns Appender\n\n
+    getAppender()\n
     '''

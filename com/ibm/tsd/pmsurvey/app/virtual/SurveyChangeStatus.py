@@ -1,3 +1,4 @@
-def SurveyChangeStatus():
-    '''public SurveyChangeStatus(final MboSet ms)
+def ():
+    '''returns SurveyChangeStatus\n\n
+    (final MboSet ms)\n
     '''

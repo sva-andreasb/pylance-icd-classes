@@ -1,34 +1,37 @@
-def getAuthenticator():
-    '''public static synchronized DefaultAuthenticator getAuthenticator()
-    '''
-def reset():
-    '''public static synchronized void reset()
-    '''
 def setProxyAuth():
-    '''public void setProxyAuth(final String proxyAuth)
+    '''returns None\n\n
+    setProxyAuth(final String proxyAuth)\n
     '''
 def setAuth():
-    '''public void setAuth(final File f, final Receiver l)
+    '''returns None\n\n
+    setAuth(final File f, final Receiver l)\n
     '''
 def run():
-    '''public Void run()
-    public Void run()
+    '''returns Void\n\n
+    run()\n
+    run()\n
     '''
 def onParsingError():
-    '''public void onParsingError(final String line, final Locator loc)
+    '''returns None\n\n
+    onParsingError(final String line, final Locator loc)\n
     '''
 def onError():
-    '''public void onError(final Exception e, final Locator loc)
+    '''returns None\n\n
+    onError(final Exception e, final Locator loc)\n
     '''
-def AuthInfo():
-    '''public AuthInfo(final URL url, final String user, final String password)
+def ():
+    '''returns AuthInfo\n\n
+    (final URL url, final String user, final String password)\n
     '''
 def getUser():
-    '''public String getUser()
+    '''returns String\n\n
+    getUser()\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def matchingHost():
-    '''public boolean matchingHost(final URL requestingURL)
+    '''returns boolean\n\n
+    matchingHost(final URL requestingURL)\n
     '''

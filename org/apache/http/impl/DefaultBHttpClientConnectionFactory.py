@@ -1,9 +1,11 @@
-def DefaultBHttpClientConnectionFactory():
-    '''public DefaultBHttpClientConnectionFactory(final ConnectionConfig cconfig, final ContentLengthStrategy incomingContentStrategy, final ContentLengthStrategy outgoingContentStrategy, final HttpMessageWriterFactory<HttpRequest> requestWriterFactory, final HttpMessageParserFactory<HttpResponse> responseParserFactory)
-    public DefaultBHttpClientConnectionFactory(final ConnectionConfig cconfig, final HttpMessageWriterFactory<HttpRequest> requestWriterFactory, final HttpMessageParserFactory<HttpResponse> responseParserFactory)
-    public DefaultBHttpClientConnectionFactory(final ConnectionConfig cconfig)
-    public DefaultBHttpClientConnectionFactory()
+def ():
+    '''returns DefaultBHttpClientConnectionFactory\n\n
+    (final ConnectionConfig cconfig, final ContentLengthStrategy incomingContentStrategy, final ContentLengthStrategy outgoingContentStrategy, final HttpMessageWriterFactory<HttpRequest> requestWriterFactory, final HttpMessageParserFactory<HttpResponse> responseParserFactory)\n
+    (final ConnectionConfig cconfig, final HttpMessageWriterFactory<HttpRequest> requestWriterFactory, final HttpMessageParserFactory<HttpResponse> responseParserFactory)\n
+    (final ConnectionConfig cconfig)\n
+    ()\n
     '''
 def createConnection():
-    '''public DefaultBHttpClientConnection createConnection(final Socket socket)
+    '''returns DefaultBHttpClientConnection\n\n
+    createConnection(final Socket socket)\n
     '''

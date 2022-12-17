@@ -1,41 +1,18 @@
 NO_LIMIT = "int  0"
-def TimedSemaphore():
-    '''public TimedSemaphore(final long timePeriod, final TimeUnit timeUnit, final int limit)
-    public TimedSemaphore(final ScheduledExecutorService service, final long timePeriod, final TimeUnit timeUnit, final int limit)
-    '''
-def getLimit():
-    '''public final synchronized int getLimit()
-    '''
-def setLimit():
-    '''public final synchronized void setLimit(final int limit)
-    '''
-def shutdown():
-    '''public synchronized void shutdown()
-    '''
-def isShutdown():
-    '''public synchronized boolean isShutdown()
-    '''
-def acquire():
-    '''public synchronized void acquire()
-    '''
-def getLastAcquiresPerPeriod():
-    '''public synchronized int getLastAcquiresPerPeriod()
-    '''
-def getAcquireCount():
-    '''public synchronized int getAcquireCount()
-    '''
-def getAvailablePermits():
-    '''public synchronized int getAvailablePermits()
-    '''
-def getAverageCallsPerPeriod():
-    '''public synchronized double getAverageCallsPerPeriod()
+def ():
+    '''returns TimedSemaphore\n\n
+    (final long timePeriod, final TimeUnit timeUnit, final int limit)\n
+    (final ScheduledExecutorService service, final long timePeriod, final TimeUnit timeUnit, final int limit)\n
     '''
 def getPeriod():
-    '''public long getPeriod()
+    '''returns long\n\n
+    getPeriod()\n
     '''
 def getUnit():
-    '''public TimeUnit getUnit()
+    '''returns TimeUnit\n\n
+    getUnit()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

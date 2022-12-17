@@ -1,17 +1,22 @@
-def IlvSelectAllAccelerator():
-    '''public IlvSelectAllAccelerator(final int n, final int n2, final char c, final int n3, final boolean b)
-    public IlvSelectAllAccelerator(final int n, final int n2, final int n3, final boolean b)
-    public IlvSelectAllAccelerator(final int n, final int n2, final int n3)
+def ():
+    '''returns IlvSelectAllAccelerator\n\n
+    (final int n, final int n2, final char c, final int n3, final boolean b)\n
+    (final int n, final int n2, final int n3, final boolean b)\n
+    (final int n, final int n2, final int n3)\n
     '''
 def setSelectAll():
-    '''public void setSelectAll(final boolean b)
+    '''returns None\n\n
+    setSelectAll(final boolean b)\n
     '''
 def isSelectAll():
-    '''public boolean isSelectAll()
+    '''returns boolean\n\n
+    isSelectAll()\n
     '''
 def setTraverse():
-    '''public void setTraverse(final boolean b)
+    '''returns None\n\n
+    setTraverse(final boolean b)\n
     '''
 def isTraverse():
-    '''public boolean isTraverse()
+    '''returns boolean\n\n
+    isTraverse()\n
     '''

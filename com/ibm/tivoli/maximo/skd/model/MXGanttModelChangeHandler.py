@@ -1,6 +1,8 @@
-def MXGanttModelChangeHandler():
-    '''public MXGanttModelChangeHandler(final MXGanttModel model, final SKDAppServiceBeanRemote appServiceBean)
+def ():
+    '''returns MXGanttModelChangeHandler\n\n
+    (final MXGanttModel model, final SKDAppServiceBeanRemote appServiceBean)\n
     '''
 def handleModifiedActivity():
-    '''public void handleModifiedActivity(final IMXActivity currentActivity)
+    '''returns None\n\n
+    handleModifiedActivity(final IMXActivity currentActivity)\n
     '''

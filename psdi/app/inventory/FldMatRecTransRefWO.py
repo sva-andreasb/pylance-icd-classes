@@ -1,6 +1,8 @@
-def FldMatRecTransRefWO():
-    '''public FldMatRecTransRefWO(final MboValue mbv)
+def ():
+    '''returns FldMatRecTransRefWO\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

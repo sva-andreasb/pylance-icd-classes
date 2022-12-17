@@ -1,15 +1,12 @@
-def isTaggedWith():
-    '''public static boolean isTaggedWith(final Throwable throwable, final Object tag)
-    '''
-def throwCauseIfTaggedWith():
-    '''public static void throwCauseIfTaggedWith(final Throwable throwable, final Object tag)
-    '''
-def p():
-    '''public p(final IOException ex, final Serializable b)
+def ():
+    '''returns p\n\n
+    (final IOException ex, final Serializable b)\n
     '''
 def getTag():
-    '''public Serializable getTag()
+    '''returns Serializable\n\n
+    getTag()\n
     '''
 def getCause():
-    '''public IOException getCause()
+    '''returns IOException\n\n
+    getCause()\n
     '''

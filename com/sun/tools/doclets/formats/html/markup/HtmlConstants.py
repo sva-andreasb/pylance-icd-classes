@@ -1,0 +1,5 @@
+MAIN_ROLE = "String  \"main\""
+NAV_ROLE = "String  \"navigation\""
+BANNER_ROLE = "String  \"banner\""
+INFO_ROLE = "String  \"contentinfo\""
+DEFAULT_HEADER = "String  \"Header1\""

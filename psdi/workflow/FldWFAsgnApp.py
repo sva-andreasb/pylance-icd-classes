@@ -1,3 +1,4 @@
-def FldWFAsgnApp():
-    '''public FldWFAsgnApp(final MboValue mbv)
+def ():
+    '''returns FldWFAsgnApp\n\n
+    (final MboValue mbv)\n
     '''

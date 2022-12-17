@@ -1,24 +1,32 @@
-def PlusCWODSPointSet():
-    '''public PlusCWODSPointSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCWODSPointSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def initDataDictionary():
-    '''public void initDataDictionary()
+    '''returns None\n\n
+    initDataDictionary()\n
     '''
 def setAttrProperty():
-    '''public void setAttrProperty(final MboValueInfo mvInfo, final MboValueInfo mvInfo1)
+    '''returns None\n\n
+    setAttrProperty(final MboValueInfo mvInfo, final MboValueInfo mvInfo1)\n
     '''
 def getAveragesSetOwner():
-    '''public MboRemote getAveragesSetOwner(final String point)
+    '''returns MboRemote\n\n
+    getAveragesSetOwner(final String point)\n
     '''
 def getMboServer():
-    '''public MboServerInterface getMboServer()
+    '''returns MboServerInterface\n\n
+    getMboServer()\n
     '''
 def getAveragesPoints():
-    '''public List getAveragesPoints()
+    '''returns List\n\n
+    getAveragesPoints()\n
     '''
 def deleteAll():
-    '''public void deleteAll(final long accessModifier)
+    '''returns None\n\n
+    deleteAll(final long accessModifier)\n
     '''

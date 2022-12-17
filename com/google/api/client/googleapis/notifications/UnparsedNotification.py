@@ -1,42 +1,48 @@
-def UnparsedNotification():
-    '''public UnparsedNotification(final long messageNumber, final String resourceState, final String resourceId, final String resourceUri, final String channelId)
-    '''
-def getContentType():
-    '''public final String getContentType()
+def ():
+    '''returns UnparsedNotification\n\n
+    (final long messageNumber, final String resourceState, final String resourceId, final String resourceUri, final String channelId)\n
     '''
 def setContentType():
-    '''public UnparsedNotification setContentType(final String contentType)
-    '''
-def getContentStream():
-    '''public final InputStream getContentStream()
+    '''returns UnparsedNotification\n\n
+    setContentType(final String contentType)\n
     '''
 def setContentStream():
-    '''public UnparsedNotification setContentStream(final InputStream contentStream)
+    '''returns UnparsedNotification\n\n
+    setContentStream(final InputStream contentStream)\n
     '''
 def setMessageNumber():
-    '''public UnparsedNotification setMessageNumber(final long messageNumber)
+    '''returns UnparsedNotification\n\n
+    setMessageNumber(final long messageNumber)\n
     '''
 def setResourceState():
-    '''public UnparsedNotification setResourceState(final String resourceState)
+    '''returns UnparsedNotification\n\n
+    setResourceState(final String resourceState)\n
     '''
 def setResourceId():
-    '''public UnparsedNotification setResourceId(final String resourceId)
+    '''returns UnparsedNotification\n\n
+    setResourceId(final String resourceId)\n
     '''
 def setResourceUri():
-    '''public UnparsedNotification setResourceUri(final String resourceUri)
+    '''returns UnparsedNotification\n\n
+    setResourceUri(final String resourceUri)\n
     '''
 def setChannelId():
-    '''public UnparsedNotification setChannelId(final String channelId)
+    '''returns UnparsedNotification\n\n
+    setChannelId(final String channelId)\n
     '''
 def setChannelExpiration():
-    '''public UnparsedNotification setChannelExpiration(final String channelExpiration)
+    '''returns UnparsedNotification\n\n
+    setChannelExpiration(final String channelExpiration)\n
     '''
 def setChannelToken():
-    '''public UnparsedNotification setChannelToken(final String channelToken)
+    '''returns UnparsedNotification\n\n
+    setChannelToken(final String channelToken)\n
     '''
 def setChanged():
-    '''public UnparsedNotification setChanged(final String changed)
+    '''returns UnparsedNotification\n\n
+    setChanged(final String changed)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

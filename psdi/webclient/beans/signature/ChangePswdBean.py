@@ -1,9 +1,12 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def submit():
-    '''public int submit()
+    '''returns int\n\n
+    submit()\n
     '''
 def canExit():
-    '''public boolean canExit()
+    '''returns boolean\n\n
+    canExit()\n
     '''

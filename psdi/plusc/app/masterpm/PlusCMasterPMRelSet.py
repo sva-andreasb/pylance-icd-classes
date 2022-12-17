@@ -1,3 +1,4 @@
-def PlusCMasterPMRelSet():
-    '''public PlusCMasterPMRelSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCMasterPMRelSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,15 +1,20 @@
 def allocateBuffer():
-    '''public ByteBuffer allocateBuffer(final int id)
+    '''returns ByteBuffer\n\n
+    allocateBuffer(final int id)\n
     '''
 def get():
-    '''public ByteBuffer get(final int id)
+    '''returns ByteBuffer\n\n
+    get(final int id)\n
     '''
 def put():
-    '''public void put(final int id, final ByteBuffer block)
+    '''returns None\n\n
+    put(final int id, final ByteBuffer block)\n
     '''
 def freeBlock():
-    '''public void freeBlock(final int id)
+    '''returns None\n\n
+    freeBlock(final int id)\n
     '''
 def sync():
-    '''public void sync(final boolean force)
+    '''returns None\n\n
+    sync(final boolean force)\n
     '''

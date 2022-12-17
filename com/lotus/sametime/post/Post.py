@@ -1,54 +1,64 @@
-def addPostListener():
-    '''public synchronized void addPostListener(final PostListener obj)
-    '''
-def removePostListener():
-    '''public synchronized void removePostListener(final PostListener obj)
-    '''
 def send():
-    '''public void send()
+    '''returns None\n\n
+    send()\n
     '''
 def respond():
-    '''public void respond(final int v, final String str)
+    '''returns None\n\n
+    respond(final int v, final String str)\n
     '''
 def setDetailsType():
-    '''public void setDetailsType(final int detailsType)
+    '''returns None\n\n
+    setDetailsType(final int detailsType)\n
     '''
 def getDetailsType():
-    '''public int getDetailsType()
+    '''returns int\n\n
+    getDetailsType()\n
     '''
 def setDetails():
-    '''public void setDetails(final byte[] details)
+    '''returns None\n\n
+    setDetails(final byte[] details)\n
     '''
 def getDetails():
-    '''public byte[] getDetails()
+    '''returns byte[]\n\n
+    getDetails()\n
     '''
 def setMessage():
-    '''public void setMessage(final String postText)
+    '''returns None\n\n
+    setMessage(final String postText)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def addUser():
-    '''public void addUser(final STUser obj)
+    '''returns None\n\n
+    addUser(final STUser obj)\n
     '''
 def getSenderDetails():
-    '''public STUserInstance getSenderDetails()
+    '''returns STUserInstance\n\n
+    getSenderDetails()\n
     '''
 def imOpened():
-    '''public void imOpened(final ImEvent imEvent)
+    '''returns None\n\n
+    imOpened(final ImEvent imEvent)\n
     '''
 def openImFailed():
-    '''public void openImFailed(final ImEvent imEvent)
+    '''returns None\n\n
+    openImFailed(final ImEvent imEvent)\n
     '''
 def dataReceived():
-    '''public void dataReceived(final ImEvent imEvent)
+    '''returns None\n\n
+    dataReceived(final ImEvent imEvent)\n
     '''

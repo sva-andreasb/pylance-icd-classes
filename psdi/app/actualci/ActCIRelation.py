@@ -1,6 +1,8 @@
-def ActCIRelation():
-    '''public ActCIRelation(final MboSet ms)
+def ():
+    '''returns ActCIRelation\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

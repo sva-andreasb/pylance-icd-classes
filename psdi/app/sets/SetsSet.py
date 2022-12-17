@@ -1,15 +1,20 @@
-def SetsSet():
-    '''public SetsSet(final MboServerInterface ms)
+def ():
+    '''returns SetsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getUserPrefWhere():
-    '''public String getUserPrefWhere()
+    '''returns String\n\n
+    getUserPrefWhere()\n
     '''
 def setItemSettype():
-    '''public void setItemSettype()
+    '''returns None\n\n
+    setItemSettype()\n
     '''
 def setCompanySettype():
-    '''public void setCompanySettype()
+    '''returns None\n\n
+    setCompanySettype()\n
     '''
 def appendToWhere():
-    '''public String appendToWhere()
+    '''returns String\n\n
+    appendToWhere()\n
     '''

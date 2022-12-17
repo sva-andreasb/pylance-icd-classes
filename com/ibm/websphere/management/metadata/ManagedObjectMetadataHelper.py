@@ -11,60 +11,76 @@ NODE_OS_WINDOWS = "String  \"windows\""
 NODE_OS_ZOS = "String  \"os390\""
 NODE_SYSPLEX_NAME = "String  \"com.ibm.websphere.nodeSysplexName\""
 NODE_DEPLOYED_FEATURES = "String  \"com.ibm.websphere.deployed.features\""
-def ManagedObjectMetadataHelper():
-    '''public ManagedObjectMetadataHelper(final ManagedObjectMetadataAccessor metadataAccessor)
+def ():
+    '''returns VersionParser\n\n
+    (final ManagedObjectMetadataAccessor metadataAccessor)\n
+    (final String inputString)\n
     '''
 def getAccessor():
-    '''public ManagedObjectMetadataAccessor getAccessor()
+    '''returns ManagedObjectMetadataAccessor\n\n
+    getAccessor()\n
     '''
 def getNodeMajorVersion():
-    '''public String getNodeMajorVersion(final String nodeName)
+    '''returns String\n\n
+    getNodeMajorVersion(final String nodeName)\n
     '''
 def getNodeMinorVersion():
-    '''public String getNodeMinorVersion(final String nodeName)
+    '''returns String\n\n
+    getNodeMinorVersion(final String nodeName)\n
     '''
 def getNodeUpdateVersion():
-    '''public String getNodeUpdateVersion(final String nodeName)
+    '''returns String\n\n
+    getNodeUpdateVersion(final String nodeName)\n
     '''
 def getNodeServiceVersion():
-    '''public String getNodeServiceVersion(final String nodeName)
+    '''returns String\n\n
+    getNodeServiceVersion(final String nodeName)\n
     '''
 def getNodeBaseProductVersion():
-    '''public String getNodeBaseProductVersion(final String nodeName)
+    '''returns String\n\n
+    getNodeBaseProductVersion(final String nodeName)\n
     '''
 def getNodeBaseProductShortName():
-    '''public String getNodeBaseProductShortName(final String nodeName)
+    '''returns String\n\n
+    getNodeBaseProductShortName(final String nodeName)\n
     '''
 def compareNodeVersion():
-    '''public int compareNodeVersion(final String nodeName, final String version)
+    '''returns int\n\n
+    compareNodeVersion(final String nodeName, final String version)\n
     '''
 def isNodeZOS():
-    '''public boolean isNodeZOS(final String nodeName)
+    '''returns boolean\n\n
+    isNodeZOS(final String nodeName)\n
     '''
 def getNodePlatformOS():
-    '''public String getNodePlatformOS(final String nodeName)
+    '''returns String\n\n
+    getNodePlatformOS(final String nodeName)\n
     '''
 def getNodeSysplexName():
-    '''public String getNodeSysplexName(final String nodeName)
+    '''returns String\n\n
+    getNodeSysplexName(final String nodeName)\n
     '''
 def getNodeProductVersions():
-    '''public SortedMap getNodeProductVersions(final String nodeName)
+    '''returns SortedMap\n\n
+    getNodeProductVersions(final String nodeName)\n
     '''
 def getNodeDeployedFeatures():
-    '''public ArrayList getNodeDeployedFeatures(final String nodeName)
+    '''returns ArrayList\n\n
+    getNodeDeployedFeatures(final String nodeName)\n
     '''
 def getNodeProductsAndVersions():
-    '''public Properties getNodeProductsAndVersions(final String nodeName)
+    '''returns Properties\n\n
+    getNodeProductsAndVersions(final String nodeName)\n
     '''
 def listRuntimeComponents():
-    '''public ArrayList listRuntimeComponents(final String nodeName)
-    '''
-def VersionParser():
-    '''public VersionParser(final String inputString)
+    '''returns ArrayList\n\n
+    listRuntimeComponents(final String nodeName)\n
     '''
 def hasMoreComponents():
-    '''public boolean hasMoreComponents()
+    '''returns boolean\n\n
+    hasMoreComponents()\n
     '''
 def nextComponent():
-    '''public int nextComponent()
+    '''returns int\n\n
+    nextComponent()\n
     '''

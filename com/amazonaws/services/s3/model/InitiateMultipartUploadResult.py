@@ -1,36 +1,48 @@
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def getUploadId():
-    '''public String getUploadId()
+    '''returns String\n\n
+    getUploadId()\n
     '''
 def setUploadId():
-    '''public void setUploadId(final String uploadId)
+    '''returns None\n\n
+    setUploadId(final String uploadId)\n
     '''
 def getAbortDate():
-    '''public Date getAbortDate()
+    '''returns Date\n\n
+    getAbortDate()\n
     '''
 def setAbortDate():
-    '''public void setAbortDate(final Date abortDate)
+    '''returns None\n\n
+    setAbortDate(final Date abortDate)\n
     '''
 def getAbortRuleId():
-    '''public String getAbortRuleId()
+    '''returns String\n\n
+    getAbortRuleId()\n
     '''
 def setAbortRuleId():
-    '''public void setAbortRuleId(final String abortRuleId)
+    '''returns None\n\n
+    setAbortRuleId(final String abortRuleId)\n
     '''
 def isRequesterCharged():
-    '''public boolean isRequesterCharged()
+    '''returns boolean\n\n
+    isRequesterCharged()\n
     '''
 def setRequesterCharged():
-    '''public void setRequesterCharged(final boolean isRequesterCharged)
+    '''returns None\n\n
+    setRequesterCharged(final boolean isRequesterCharged)\n
     '''

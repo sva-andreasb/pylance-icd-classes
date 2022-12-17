@@ -1,6 +1,8 @@
 def hasChanged():
-    '''public boolean hasChanged()
+    '''returns boolean\n\n
+    hasChanged()\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''

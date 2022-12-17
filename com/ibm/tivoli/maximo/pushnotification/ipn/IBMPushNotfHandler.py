@@ -1,33 +1,43 @@
 PUSHNOTF_LOGGER = "String  \"maximo.pushnotification\""
 MESSAGE_KEY = "String  \"message\""
-def IBMPushNotfHandler():
-    '''public IBMPushNotfHandler(final NotificationMessage notificationMessage)
-    public IBMPushNotfHandler()
+def ():
+    '''returns IBMPushNotfHandler\n\n
+    (final NotificationMessage notificationMessage)\n
+    ()\n
     '''
 def setProviderCredentials():
-    '''public void setProviderCredentials(final String deviceType, final String clientSecret, final String appGUID, final String authURL, final String endpointUrl, final String apiKey)
+    '''returns None\n\n
+    setProviderCredentials(final String deviceType, final String clientSecret, final String appGUID, final String authURL, final String endpointUrl, final String apiKey)\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map metaData, byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map metaData, byte[] data)\n
     '''
 def getHandlerURL():
-    '''public String getHandlerURL()
+    '''returns String\n\n
+    getHandlerURL()\n
     '''
 def getAuthURL():
-    '''public String getAuthURL()
+    '''returns String\n\n
+    getAuthURL()\n
     '''
 def getHeaders():
-    '''public Map getHeaders()
+    '''returns Map\n\n
+    getHeaders()\n
     '''
 def getIBMNotificationMessage():
-    '''public IBMNotificationMessage getIBMNotificationMessage()
+    '''returns IBMNotificationMessage\n\n
+    getIBMNotificationMessage()\n
     '''
 def setMessagePayload():
-    '''public void setMessagePayload()
+    '''returns None\n\n
+    setMessagePayload()\n
     '''
 def getMessagePayload():
-    '''public byte[] getMessagePayload()
+    '''returns byte[]\n\n
+    getMessagePayload()\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''

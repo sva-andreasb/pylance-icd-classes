@@ -1,12 +1,16 @@
-def FldDataSetClassStructureId():
-    '''public FldDataSetClassStructureId(final MboValue mbv, final String dsOwner, final String dsObj, final String dsAttr)
+def ():
+    '''returns FldDataSetClassStructureId\n\n
+    (final MboValue mbv, final String dsOwner, final String dsObj, final String dsAttr)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

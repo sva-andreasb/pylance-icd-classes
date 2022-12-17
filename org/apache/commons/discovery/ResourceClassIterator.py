@@ -1,6 +1,8 @@
 def nextResource():
-    '''public Resource nextResource()
+    '''returns Resource\n\n
+    nextResource()\n
     '''
 def nextResourceName():
-    '''public String nextResourceName()
+    '''returns String\n\n
+    nextResourceName()\n
     '''

@@ -1,103 +1,117 @@
-def BaseDataIntegrationTask():
-    '''public BaseDataIntegrationTask()
-    public BaseDataIntegrationTask(final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final StringProp defaultDescription, final StringProp defaultScreenTip, final MultilingualStringProp description, final NonNegativeIntegerProp displaySequence, final BooleanProp hidden, final AnyURIProp iconURI, final MultilingualStringProp screenTip, final BooleanProp shown, final BooleanProp viewed, final BaseClassArrayProp connections, final BaseClassArrayProp contact, final StringProp contactEMail, final BaseClassArrayProp metadataModel, final BaseClassArrayProp metadataModelPackage, final OptionArrayProp options, final AnyTypeProp ownerPassport, final StringProp packageBase, final ParameterValueArrayProp parameters, final RetentionRuleArrayProp retentions, final StringProp routingServerGroup, final StringProp routingServerGroupEdition, final BooleanProp runAsOwner, final DataIntegrationServiceSpecificationProp specification)
+def ():
+    '''returns BaseDataIntegrationTask\n\n
+    ()\n
+    (final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final StringProp defaultDescription, final StringProp defaultScreenTip, final MultilingualStringProp description, final NonNegativeIntegerProp displaySequence, final BooleanProp hidden, final AnyURIProp iconURI, final MultilingualStringProp screenTip, final BooleanProp shown, final BooleanProp viewed, final BaseClassArrayProp connections, final BaseClassArrayProp contact, final StringProp contactEMail, final BaseClassArrayProp metadataModel, final BaseClassArrayProp metadataModelPackage, final OptionArrayProp options, final AnyTypeProp ownerPassport, final StringProp packageBase, final ParameterValueArrayProp parameters, final RetentionRuleArrayProp retentions, final StringProp routingServerGroup, final StringProp routingServerGroupEdition, final BooleanProp runAsOwner, final DataIntegrationServiceSpecificationProp specification)\n
     '''
 def getConnections():
-    '''public BaseClassArrayProp getConnections()
+    '''returns BaseClassArrayProp\n\n
+    getConnections()\n
     '''
 def setConnections():
-    '''public void setConnections(final BaseClassArrayProp connections)
+    '''returns None\n\n
+    setConnections(final BaseClassArrayProp connections)\n
     '''
 def getContact():
-    '''public BaseClassArrayProp getContact()
+    '''returns BaseClassArrayProp\n\n
+    getContact()\n
     '''
 def setContact():
-    '''public void setContact(final BaseClassArrayProp contact)
+    '''returns None\n\n
+    setContact(final BaseClassArrayProp contact)\n
     '''
 def getContactEMail():
-    '''public StringProp getContactEMail()
+    '''returns StringProp\n\n
+    getContactEMail()\n
     '''
 def setContactEMail():
-    '''public void setContactEMail(final StringProp contactEMail)
+    '''returns None\n\n
+    setContactEMail(final StringProp contactEMail)\n
     '''
 def getMetadataModel():
-    '''public BaseClassArrayProp getMetadataModel()
+    '''returns BaseClassArrayProp\n\n
+    getMetadataModel()\n
     '''
 def setMetadataModel():
-    '''public void setMetadataModel(final BaseClassArrayProp metadataModel)
+    '''returns None\n\n
+    setMetadataModel(final BaseClassArrayProp metadataModel)\n
     '''
 def getMetadataModelPackage():
-    '''public BaseClassArrayProp getMetadataModelPackage()
+    '''returns BaseClassArrayProp\n\n
+    getMetadataModelPackage()\n
     '''
 def setMetadataModelPackage():
-    '''public void setMetadataModelPackage(final BaseClassArrayProp metadataModelPackage)
+    '''returns None\n\n
+    setMetadataModelPackage(final BaseClassArrayProp metadataModelPackage)\n
     '''
 def getOptions():
-    '''public OptionArrayProp getOptions()
+    '''returns OptionArrayProp\n\n
+    getOptions()\n
     '''
 def setOptions():
-    '''public void setOptions(final OptionArrayProp options)
+    '''returns None\n\n
+    setOptions(final OptionArrayProp options)\n
     '''
 def getOwnerPassport():
-    '''public AnyTypeProp getOwnerPassport()
+    '''returns AnyTypeProp\n\n
+    getOwnerPassport()\n
     '''
 def setOwnerPassport():
-    '''public void setOwnerPassport(final AnyTypeProp ownerPassport)
+    '''returns None\n\n
+    setOwnerPassport(final AnyTypeProp ownerPassport)\n
     '''
 def getPackageBase():
-    '''public StringProp getPackageBase()
+    '''returns StringProp\n\n
+    getPackageBase()\n
     '''
 def setPackageBase():
-    '''public void setPackageBase(final StringProp packageBase)
+    '''returns None\n\n
+    setPackageBase(final StringProp packageBase)\n
     '''
 def getParameters():
-    '''public ParameterValueArrayProp getParameters()
+    '''returns ParameterValueArrayProp\n\n
+    getParameters()\n
     '''
 def setParameters():
-    '''public void setParameters(final ParameterValueArrayProp parameters)
+    '''returns None\n\n
+    setParameters(final ParameterValueArrayProp parameters)\n
     '''
 def getRetentions():
-    '''public RetentionRuleArrayProp getRetentions()
+    '''returns RetentionRuleArrayProp\n\n
+    getRetentions()\n
     '''
 def setRetentions():
-    '''public void setRetentions(final RetentionRuleArrayProp retentions)
+    '''returns None\n\n
+    setRetentions(final RetentionRuleArrayProp retentions)\n
     '''
 def getRoutingServerGroup():
-    '''public StringProp getRoutingServerGroup()
+    '''returns StringProp\n\n
+    getRoutingServerGroup()\n
     '''
 def setRoutingServerGroup():
-    '''public void setRoutingServerGroup(final StringProp routingServerGroup)
+    '''returns None\n\n
+    setRoutingServerGroup(final StringProp routingServerGroup)\n
     '''
 def getRoutingServerGroupEdition():
-    '''public StringProp getRoutingServerGroupEdition()
+    '''returns StringProp\n\n
+    getRoutingServerGroupEdition()\n
     '''
 def setRoutingServerGroupEdition():
-    '''public void setRoutingServerGroupEdition(final StringProp routingServerGroupEdition)
+    '''returns None\n\n
+    setRoutingServerGroupEdition(final StringProp routingServerGroupEdition)\n
     '''
 def getRunAsOwner():
-    '''public BooleanProp getRunAsOwner()
+    '''returns BooleanProp\n\n
+    getRunAsOwner()\n
     '''
 def setRunAsOwner():
-    '''public void setRunAsOwner(final BooleanProp runAsOwner)
+    '''returns None\n\n
+    setRunAsOwner(final BooleanProp runAsOwner)\n
     '''
 def getSpecification():
-    '''public DataIntegrationServiceSpecificationProp getSpecification()
+    '''returns DataIntegrationServiceSpecificationProp\n\n
+    getSpecification()\n
     '''
 def setSpecification():
-    '''public void setSpecification(final DataIntegrationServiceSpecificationProp specification)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setSpecification(final DataIntegrationServiceSpecificationProp specification)\n
     '''

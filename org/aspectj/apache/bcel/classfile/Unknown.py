@@ -1,22 +1,13 @@
-def Unknown():
-    '''public Unknown(final Unknown c)
-    public Unknown(final int name_index, final int length, final byte[] bytes, final ConstantPool constant_pool)
+def ():
+    '''returns Unknown\n\n
+    (final Unknown c)\n
+    (final int name_index, final int length, final byte[] bytes, final ConstantPool constant_pool)\n
     '''
 def accept():
-    '''public void accept(final ClassVisitor v)
-    '''
-def dump():
-    '''public final void dump(final DataOutputStream file)
-    '''
-def getBytes():
-    '''public final byte[] getBytes()
+    '''returns None\n\n
+    accept(final ClassVisitor v)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def setBytes():
-    '''public final void setBytes(final byte[] bytes)
-    '''
-def toString():
-    '''public final String toString()
+    '''returns String\n\n
+    getName()\n
     '''

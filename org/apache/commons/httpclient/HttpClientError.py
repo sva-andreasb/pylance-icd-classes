@@ -1,4 +1,5 @@
-def HttpClientError():
-    '''public HttpClientError()
-    public HttpClientError(final String message)
+def ():
+    '''returns HttpClientError\n\n
+    ()\n
+    (final String message)\n
     '''

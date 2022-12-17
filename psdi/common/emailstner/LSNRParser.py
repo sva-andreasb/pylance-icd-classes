@@ -1,30 +1,40 @@
-def LSNRParser():
-    '''public LSNRParser()
+def ():
+    '''returns LSNRParser\n\n
+    ()\n
     '''
 def emailFormatMode():
-    '''public int emailFormatMode(final MboRemote inboundComm)
+    '''returns int\n\n
+    emailFormatMode(final MboRemote inboundComm)\n
     '''
 def getObjectName():
-    '''public String getObjectName(final MboRemote inboundComm, final int formatMode)
+    '''returns String\n\n
+    getObjectName(final MboRemote inboundComm, final int formatMode)\n
     '''
 def getActionName():
-    '''public String getActionName(final MboRemote inboundComm, final int formatMode)
+    '''returns String\n\n
+    getActionName(final MboRemote inboundComm, final int formatMode)\n
     '''
 def isPrimaryKeyProvided():
-    '''public boolean isPrimaryKeyProvided(final MboRemote inboundComm, final String objectName, final Hashtable has)
+    '''returns boolean\n\n
+    isPrimaryKeyProvided(final MboRemote inboundComm, final String objectName, final Hashtable has)\n
     '''
 def getPrimaryKeyCols():
-    '''public String[] getPrimaryKeyCols(final MboRemote inboundComm)
+    '''returns String[]\n\n
+    getPrimaryKeyCols(final MboRemote inboundComm)\n
     '''
 def getAttributeValues():
-    '''public Hashtable getAttributeValues(final MboRemote inboundComm, final int formatMode)
+    '''returns Hashtable\n\n
+    getAttributeValues(final MboRemote inboundComm, final int formatMode)\n
     '''
 def readFormattedMessageToHashtable():
-    '''public Hashtable readFormattedMessageToHashtable(final MboRemote inboundComm, final int formatMode)
+    '''returns Hashtable\n\n
+    readFormattedMessageToHashtable(final MboRemote inboundComm, final int formatMode)\n
     '''
 def getWhereClauseForQuery():
-    '''public String getWhereClauseForQuery(final MboRemote inboundComm, final int formatMode)
+    '''returns String\n\n
+    getWhereClauseForQuery(final MboRemote inboundComm, final int formatMode)\n
     '''
 def getResultColumnsForQuery():
-    '''public String getResultColumnsForQuery(final MboRemote inboundComm, final int formatMode)
+    '''returns String\n\n
+    getResultColumnsForQuery(final MboRemote inboundComm, final int formatMode)\n
     '''

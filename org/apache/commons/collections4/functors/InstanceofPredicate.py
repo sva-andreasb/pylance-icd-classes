@@ -1,9 +1,8 @@
-def instanceOfPredicate():
-    '''public static Predicate<Object> instanceOfPredicate(final Class<?> type)
-    '''
-def InstanceofPredicate():
-    '''public InstanceofPredicate(final Class<?> type)
+def ():
+    '''returns InstanceofPredicate\n\n
+    (final Class<?> type)\n
     '''
 def evaluate():
-    '''public boolean evaluate(final Object object)
+    '''returns boolean\n\n
+    evaluate(final Object object)\n
     '''

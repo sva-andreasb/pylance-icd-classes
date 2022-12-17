@@ -1,48 +1,64 @@
-def RtfPageSetting():
-    '''public RtfPageSetting(final RtfDocument doc)
+def ():
+    '''returns RtfPageSetting\n\n
+    (final RtfDocument doc)\n
     '''
 def writeDefinition():
-    '''public byte[] writeDefinition()
+    '''returns byte[]\n\n
+    writeDefinition()\n
     '''
 def writeSectionDefinition():
-    '''public byte[] writeSectionDefinition()
+    '''returns byte[]\n\n
+    writeSectionDefinition()\n
     '''
 def getMarginBottom():
-    '''public int getMarginBottom()
+    '''returns int\n\n
+    getMarginBottom()\n
     '''
 def setMarginBottom():
-    '''public void setMarginBottom(final int marginBottom)
+    '''returns None\n\n
+    setMarginBottom(final int marginBottom)\n
     '''
 def getMarginLeft():
-    '''public int getMarginLeft()
+    '''returns int\n\n
+    getMarginLeft()\n
     '''
 def setMarginLeft():
-    '''public void setMarginLeft(final int marginLeft)
+    '''returns None\n\n
+    setMarginLeft(final int marginLeft)\n
     '''
 def getMarginRight():
-    '''public int getMarginRight()
+    '''returns int\n\n
+    getMarginRight()\n
     '''
 def setMarginRight():
-    '''public void setMarginRight(final int marginRight)
+    '''returns None\n\n
+    setMarginRight(final int marginRight)\n
     '''
 def getMarginTop():
-    '''public int getMarginTop()
+    '''returns int\n\n
+    getMarginTop()\n
     '''
 def setMarginTop():
-    '''public void setMarginTop(final int marginTop)
+    '''returns None\n\n
+    setMarginTop(final int marginTop)\n
     '''
 def getPageHeight():
-    '''public int getPageHeight()
+    '''returns int\n\n
+    getPageHeight()\n
     '''
 def setPageHeight():
-    '''public void setPageHeight(final int pageHeight)
+    '''returns None\n\n
+    setPageHeight(final int pageHeight)\n
     '''
 def getPageWidth():
-    '''public int getPageWidth()
+    '''returns int\n\n
+    getPageWidth()\n
     '''
 def setPageWidth():
-    '''public void setPageWidth(final int pageWidth)
+    '''returns None\n\n
+    setPageWidth(final int pageWidth)\n
     '''
 def setPageSize():
-    '''public void setPageSize(final Rectangle pageSize)
+    '''returns None\n\n
+    setPageSize(final Rectangle pageSize)\n
     '''

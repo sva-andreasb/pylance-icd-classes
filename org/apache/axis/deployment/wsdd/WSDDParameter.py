@@ -1,14 +1,18 @@
-def WSDDParameter():
-    '''public WSDDParameter(final Element e, final OperationDesc parent)
-    public WSDDParameter()
-    public WSDDParameter(final ParameterDesc parameter)
+def ():
+    '''returns WSDDParameter\n\n
+    (final Element e, final OperationDesc parent)\n
+    ()\n
+    (final ParameterDesc parameter)\n
     '''
 def writeToContext():
-    '''public void writeToContext(final SerializationContext context)
+    '''returns None\n\n
+    writeToContext(final SerializationContext context)\n
     '''
 def getParameter():
-    '''public ParameterDesc getParameter()
+    '''returns ParameterDesc\n\n
+    getParameter()\n
     '''
 def setParameter():
-    '''public void setParameter(final ParameterDesc parameter)
+    '''returns None\n\n
+    setParameter(final ParameterDesc parameter)\n
     '''

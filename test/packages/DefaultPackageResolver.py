@@ -1,18 +1,24 @@
-def DefaultPackageResolver():
-    '''public DefaultPackageResolver(final IProgressMonitor monitor)
+def ():
+    '''returns DefaultPackageResolver\n\n
+    (final IProgressMonitor monitor)\n
     '''
 def getMaximoResolver():
-    '''public MaximoResolver getMaximoResolver()
+    '''returns MaximoResolver\n\n
+    getMaximoResolver()\n
     '''
 def getProgressMonitor():
-    '''public IProgressMonitor getProgressMonitor()
+    '''returns IProgressMonitor\n\n
+    getProgressMonitor()\n
     '''
 def resolveObjectStructureDir():
-    '''public File resolveObjectStructureDir(final String objStructPath)
+    '''returns File\n\n
+    resolveObjectStructureDir(final String objStructPath)\n
     '''
 def resolveOutputDir():
-    '''public File resolveOutputDir(final String outputPath)
+    '''returns File\n\n
+    resolveOutputDir(final String outputPath)\n
     '''
 def resolveSchemaPath():
-    '''public InputStream resolveSchemaPath(final String schemaPath)
+    '''returns InputStream\n\n
+    resolveSchemaPath(final String schemaPath)\n
     '''

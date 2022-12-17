@@ -1,9 +1,12 @@
-def BasicAWSCredentials():
-    '''public BasicAWSCredentials(final String accessKey, final String secretKey)
+def ():
+    '''returns BasicAWSCredentials\n\n
+    (final String accessKey, final String secretKey)\n
     '''
 def getAWSAccessKeyId():
-    '''public String getAWSAccessKeyId()
+    '''returns String\n\n
+    getAWSAccessKeyId()\n
     '''
 def getAWSSecretKey():
-    '''public String getAWSSecretKey()
+    '''returns String\n\n
+    getAWSSecretKey()\n
     '''

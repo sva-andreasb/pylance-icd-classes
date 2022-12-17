@@ -1,57 +1,69 @@
-def RosterPacket():
-    '''public RosterPacket()
+def ():
+    '''returns Item\n\n
+    ()\n
+    (final String user, final String name)\n
     '''
 def addRosterItem():
-    '''public void addRosterItem(final Item item)
+    '''returns None\n\n
+    addRosterItem(final Item item)\n
     '''
 def getRosterItemCount():
-    '''public int getRosterItemCount()
+    '''returns int\n\n
+    getRosterItemCount()\n
     '''
 def getRosterItems():
-    '''public Collection<Item> getRosterItems()
+    '''returns Collection<Item>\n\n
+    getRosterItems()\n
     '''
 def getChildElementXML():
-    '''public String getChildElementXML()
-    '''
-def Item():
-    '''public Item(final String user, final String name)
+    '''returns String\n\n
+    getChildElementXML()\n
     '''
 def getUser():
-    '''public String getUser()
+    '''returns String\n\n
+    getUser()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getItemType():
-    '''public ItemType getItemType()
+    '''returns ItemType\n\n
+    getItemType()\n
     '''
 def setItemType():
-    '''public void setItemType(final ItemType itemType)
+    '''returns None\n\n
+    setItemType(final ItemType itemType)\n
     '''
 def getItemStatus():
-    '''public ItemStatus getItemStatus()
+    '''returns ItemStatus\n\n
+    getItemStatus()\n
     '''
 def setItemStatus():
-    '''public void setItemStatus(final ItemStatus itemStatus)
+    '''returns None\n\n
+    setItemStatus(final ItemStatus itemStatus)\n
     '''
 def getGroupNames():
-    '''public Set<String> getGroupNames()
+    '''returns Set<String>\n\n
+    getGroupNames()\n
     '''
 def addGroupName():
-    '''public void addGroupName(final String groupName)
+    '''returns None\n\n
+    addGroupName(final String groupName)\n
     '''
 def removeGroupName():
-    '''public void removeGroupName(final String groupName)
+    '''returns None\n\n
+    removeGroupName(final String groupName)\n
     '''
 def toXML():
-    '''public String toXML()
-    '''
-def fromString():
-    '''public static ItemStatus fromString(String value)
+    '''returns String\n\n
+    toXML()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

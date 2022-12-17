@@ -1,18 +1,24 @@
-def OmemoDevice():
-    '''public OmemoDevice(final BareJid jid, final int deviceId)
+def ():
+    '''returns OmemoDevice\n\n
+    (final BareJid jid, final int deviceId)\n
     '''
 def getJid():
-    '''public BareJid getJid()
+    '''returns BareJid\n\n
+    getJid()\n
     '''
 def getDeviceId():
-    '''public int getDeviceId()
+    '''returns int\n\n
+    getDeviceId()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

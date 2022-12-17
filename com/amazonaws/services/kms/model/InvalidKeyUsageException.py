@@ -1,3 +1,4 @@
-def InvalidKeyUsageException():
-    '''public InvalidKeyUsageException(final String message)
+def ():
+    '''returns InvalidKeyUsageException\n\n
+    (final String message)\n
     '''

@@ -1,28 +1,25 @@
-def IQ():
-    '''public IQ()
+def ():
+    '''returns IQ\n\n
+    ()\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final Type type)
+    '''returns None\n\n
+    setType(final Type type)\n
     '''
 def toXML():
-    '''public String toXML()
-    '''
-def createResultIQ():
-    '''public static IQ createResultIQ(final IQ request)
+    '''returns String\n\n
+    toXML()\n
     '''
 def getChildElementXML():
-    '''public String getChildElementXML()
-    public String getChildElementXML()
-    '''
-def createErrorResponse():
-    '''public static IQ createErrorResponse(final IQ request, final XMPPError error)
-    '''
-def fromString():
-    '''public static Type fromString(String type)
+    '''returns String\n\n
+    getChildElementXML()\n
+    getChildElementXML()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

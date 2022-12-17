@@ -1,15 +1,20 @@
-def HSplitPaneDividerLocChangeListener():
-    '''public HSplitPaneDividerLocChangeListener(final String sourceName)
+def ():
+    '''returns HSplitPaneDividerLocChangeListener\n\n
+    (final String sourceName)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent event)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent event)\n
     '''
 def chartDividerLocationChanged():
-    '''public void chartDividerLocationChanged(final ChartDividerEvent e)
+    '''returns None\n\n
+    chartDividerLocationChanged(final ChartDividerEvent e)\n
     '''
 def register():
-    '''public void register(final Object o)
+    '''returns None\n\n
+    register(final Object o)\n
     '''
 def unregister():
-    '''public void unregister(final Object o)
+    '''returns None\n\n
+    unregister(final Object o)\n
     '''

@@ -1,36 +1,40 @@
-def BusMemberService():
-    '''public BusMemberService(final MXServer mxServer)
+def ():
+    '''returns BusMemberService\n\n
+    (final MXServer mxServer)\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getMemberId():
-    '''public String getMemberId()
+    '''returns String\n\n
+    getMemberId()\n
     '''
 def getMemberName():
-    '''public String getMemberName()
+    '''returns String\n\n
+    getMemberName()\n
     '''
 def getMemberInfo():
-    '''public BusResource getMemberInfo(final BusRequest request)
+    '''returns BusResource\n\n
+    getMemberInfo(final BusRequest request)\n
     '''
 def getCountOfLoggedInUsers():
-    '''public int getCountOfLoggedInUsers(final BusRequest request, final String serverName, final String host)
+    '''returns int\n\n
+    getCountOfLoggedInUsers(final BusRequest request, final String serverName, final String host)\n
     '''
 def getLoggedInUserDetails():
-    '''public JSONArtifact getLoggedInUserDetails(final BusRequest request, final String serverName, final String host)
+    '''returns JSONArtifact\n\n
+    getLoggedInUserDetails(final BusRequest request, final String serverName, final String host)\n
     '''
 def getClassInfo():
-    '''public BusResource getClassInfo(String classURI)
-    '''
-def throwableToString():
-    '''public static String throwableToString(final Throwable t)
-    '''
-def stackTraceToString():
-    '''public static String stackTraceToString(final StackTraceElement[] stackTrace)
+    '''returns BusResource\n\n
+    getClassInfo(String classURI)\n
     '''
 def getResourceInfo():
-    '''public BusResource getResourceInfo(final List<String> path, final BusRequest request)
+    '''returns BusResource\n\n
+    getResourceInfo(final List<String> path, final BusRequest request)\n
     '''
 def createURI():
-    '''public String createURI(final List<String> resPath)
+    '''returns String\n\n
+    createURI(final List<String> resPath)\n
     '''

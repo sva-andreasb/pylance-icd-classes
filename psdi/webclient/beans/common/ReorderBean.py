@@ -1,27 +1,36 @@
-def ReorderBean():
-    '''public ReorderBean()
+def ():
+    '''returns ReorderBean\n\n
+    ()\n
     '''
 def reorderpad():
-    '''public void reorderpad(final boolean direct)
+    '''returns None\n\n
+    reorderpad(final boolean direct)\n
     '''
 def reorderresults():
-    '''public void reorderresults(final boolean direct, final boolean async)
+    '''returns None\n\n
+    reorderresults(final boolean direct, final boolean async)\n
     '''
 def reorderpaddirect():
-    '''public int reorderpaddirect()
+    '''returns int\n\n
+    reorderpaddirect()\n
     '''
 def reorderresultsdirect():
-    '''public int reorderresultsdirect()
+    '''returns int\n\n
+    reorderresultsdirect()\n
     '''
 def reorderpaditem():
-    '''public int reorderpaditem()
+    '''returns int\n\n
+    reorderpaditem()\n
     '''
 def reorderresultsitem():
-    '''public int reorderresultsitem()
+    '''returns int\n\n
+    reorderresultsitem()\n
     '''
 def getInventorySet():
-    '''public MboSetRemote getInventorySet()
+    '''returns MboSetRemote\n\n
+    getInventorySet()\n
     '''
 def getReorderItemsSet():
-    '''public MboSetRemote getReorderItemsSet()
+    '''returns MboSetRemote\n\n
+    getReorderItemsSet()\n
     '''

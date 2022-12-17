@@ -1,21 +1,28 @@
-def ContractLeaseEnd():
-    '''public ContractLeaseEnd(final MboSet ms)
+def ():
+    '''returns ContractLeaseEnd\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getAssetList():
-    '''public ContractAssetSetRemote getAssetList(final MboSetRemote contractAssets, final MboSetRemote selectedAssets)
+    '''returns ContractAssetSetRemote\n\n
+    getAssetList(final MboSetRemote contractAssets, final MboSetRemote selectedAssets)\n
     '''
 def copyAssetsToContLeaseEndAsset():
-    '''public void copyAssetsToContLeaseEndAsset(final MboSetRemote contLeaseEndAssetSet, final MboSetRemote selectedAssetSet, final boolean purchaseFlag)
+    '''returns None\n\n
+    copyAssetsToContLeaseEndAsset(final MboSetRemote contLeaseEndAssetSet, final MboSetRemote selectedAssetSet, final boolean purchaseFlag)\n
     '''
 def setPOAutoKey():
-    '''public void setPOAutoKey()
+    '''returns None\n\n
+    setPOAutoKey()\n
     '''
 def setInvoiceAutoKey():
-    '''public void setInvoiceAutoKey()
+    '''returns None\n\n
+    setInvoiceAutoKey()\n
     '''

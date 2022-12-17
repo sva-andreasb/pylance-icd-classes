@@ -1,33 +1,40 @@
 def toString():
-    '''public String toString()
-    '''
-def appendTo():
-    '''public <A extends Appendable> A appendTo(final A appendable)
+    '''returns String\n\n
+    toString()\n
     '''
 def charAt():
-    '''public char charAt(final int index)
+    '''returns char\n\n
+    charAt(final int index)\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def subSequence():
-    '''public CharSequence subSequence(final int start, final int end)
+    '''returns CharSequence\n\n
+    subSequence(final int start, final int end)\n
     '''
 def nextPosition():
-    '''public boolean nextPosition(final ConstrainedFieldPosition cfpos)
+    '''returns boolean\n\n
+    nextPosition(final ConstrainedFieldPosition cfpos)\n
     '''
 def toCharacterIterator():
-    '''public AttributedCharacterIterator toCharacterIterator()
+    '''returns AttributedCharacterIterator\n\n
+    toCharacterIterator()\n
     '''
 def getFirstBigDecimal():
-    '''public BigDecimal getFirstBigDecimal()
+    '''returns BigDecimal\n\n
+    getFirstBigDecimal()\n
     '''
 def getSecondBigDecimal():
-    '''public BigDecimal getSecondBigDecimal()
+    '''returns BigDecimal\n\n
+    getSecondBigDecimal()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''

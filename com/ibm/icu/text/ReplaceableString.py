@@ -1,33 +1,43 @@
-def ReplaceableString():
-    '''public ReplaceableString(final String str)
-    public ReplaceableString(final StringBuffer buf)
-    public ReplaceableString()
+def ():
+    '''returns ReplaceableString\n\n
+    (final String str)\n
+    (final StringBuffer buf)\n
+    ()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def substring():
-    '''public String substring(final int start, final int limit)
+    '''returns String\n\n
+    substring(final int start, final int limit)\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def charAt():
-    '''public char charAt(final int offset)
+    '''returns char\n\n
+    charAt(final int offset)\n
     '''
 def char32At():
-    '''public int char32At(final int offset)
+    '''returns int\n\n
+    char32At(final int offset)\n
     '''
 def getChars():
-    '''public void getChars(final int srcStart, final int srcLimit, final char[] dst, final int dstStart)
+    '''returns None\n\n
+    getChars(final int srcStart, final int srcLimit, final char[] dst, final int dstStart)\n
     '''
 def replace():
-    '''public void replace(final int start, final int limit, final String text)
-    public void replace(final int start, final int limit, final char[] chars, final int charsStart, final int charsLen)
+    '''returns None\n\n
+    replace(final int start, final int limit, final String text)\n
+    replace(final int start, final int limit, final char[] chars, final int charsStart, final int charsLen)\n
     '''
 def copy():
-    '''public void copy(final int start, final int limit, final int dest)
+    '''returns None\n\n
+    copy(final int start, final int limit, final int dest)\n
     '''
 def hasMetaData():
-    '''public boolean hasMetaData()
+    '''returns boolean\n\n
+    hasMetaData()\n
     '''

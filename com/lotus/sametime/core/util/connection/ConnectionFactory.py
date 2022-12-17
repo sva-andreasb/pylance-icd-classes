@@ -1,18 +1,20 @@
-def ConnectionFactory():
-    '''public ConnectionFactory()
+def ():
+    '''returns ConnectionFactory\n\n
+    ()\n
     '''
 def connect():
-    '''public void connect(final Connection[] connectionsToTry, final String host, final byte[] initialMsg, final ConnectionListener listener)
-    '''
-def cancelConnect():
-    '''public synchronized void cancelConnect()
+    '''returns None\n\n
+    connect(final Connection[] connectionsToTry, final String host, final byte[] initialMsg, final ConnectionListener listener)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def setConnectionsToTry():
-    '''public void setConnectionsToTry(final Connection[] connectionsToTry)
+    '''returns None\n\n
+    setConnectionsToTry(final Connection[] connectionsToTry)\n
     '''
 def getConnectionsToTry():
-    '''public Connection[] getConnectionsToTry()
+    '''returns Connection[]\n\n
+    getConnectionsToTry()\n
     '''

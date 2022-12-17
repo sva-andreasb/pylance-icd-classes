@@ -1,10 +1,13 @@
-def PmtcoSelectClassificationBean():
-    '''public PmtcoSelectClassificationBean()
+def ():
+    '''returns PmtcoSelectClassificationBean\n\n
+    ()\n
     '''
 def refineSelectClassification():
-    '''public int refineSelectClassification()
-    public void refineSelectClassification(final MboSetRemote classifications)
+    '''returns None\n\n
+    refineSelectClassification()\n
+    refineSelectClassification(final MboSetRemote classifications)\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''

@@ -1,22 +1,29 @@
-def Relationship():
-    '''public Relationship()
-    public Relationship(final String relationshipType, final ObjectId sourceId, final ObjectId targetId)
+def ():
+    '''returns Relationship\n\n
+    ()\n
+    (final String relationshipType, final ObjectId sourceId, final ObjectId targetId)\n
     '''
 def getRelationshipType():
-    '''public String getRelationshipType()
+    '''returns String\n\n
+    getRelationshipType()\n
     '''
 def getSourceInstance():
-    '''public ObjectId getSourceInstance()
+    '''returns ObjectId\n\n
+    getSourceInstance()\n
     '''
 def getTargetInstance():
-    '''public ObjectId getTargetInstance()
+    '''returns ObjectId\n\n
+    getTargetInstance()\n
     '''
 def setRelationshipType():
-    '''public void setRelationshipType(final String relationshipType)
+    '''returns None\n\n
+    setRelationshipType(final String relationshipType)\n
     '''
 def setSourceInstance():
-    '''public void setSourceInstance(final ObjectId sourceId)
+    '''returns None\n\n
+    setSourceInstance(final ObjectId sourceId)\n
     '''
 def setTargetInstance():
-    '''public void setTargetInstance(final ObjectId targetId)
+    '''returns None\n\n
+    setTargetInstance(final ObjectId targetId)\n
     '''

@@ -1,30 +1,39 @@
-def AttributeListImpl():
-    '''public AttributeListImpl()
-    public AttributeListImpl(final AttributeList attributeList)
+def ():
+    '''returns AttributeListImpl\n\n
+    ()\n
+    (final AttributeList attributeList)\n
     '''
 def setAttributeList():
-    '''public void setAttributeList(final AttributeList list)
+    '''returns None\n\n
+    setAttributeList(final AttributeList list)\n
     '''
 def addAttribute():
-    '''public void addAttribute(final String obj, final String obj2, final String obj3)
+    '''returns None\n\n
+    addAttribute(final String obj, final String obj2, final String obj3)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final String o)
+    '''returns None\n\n
+    removeAttribute(final String o)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getName():
-    '''public String getName(final int index)
+    '''returns String\n\n
+    getName(final int index)\n
     '''
 def getType():
-    '''public String getType(final int index)
-    public String getType(final String o)
+    '''returns String\n\n
+    getType(final int index)\n
+    getType(final String o)\n
     '''
 def getValue():
-    '''public String getValue(final int index)
-    public String getValue(final String o)
+    '''returns String\n\n
+    getValue(final int index)\n
+    getValue(final String o)\n
     '''

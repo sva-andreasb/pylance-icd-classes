@@ -1,6 +1,8 @@
 def _ids():
-    '''public String[] _ids()
+    '''returns String[]\n\n
+    _ids()\n
     '''
 def wlmable():
-    '''public boolean wlmable()
+    '''returns boolean\n\n
+    wlmable()\n
     '''

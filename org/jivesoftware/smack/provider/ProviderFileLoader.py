@@ -1,16 +1,21 @@
-def ProviderFileLoader():
-    '''public ProviderFileLoader(final InputStream providerStream)
-    public ProviderFileLoader(final InputStream providerStream, final ClassLoader classLoader)
+def ():
+    '''returns ProviderFileLoader\n\n
+    (final InputStream providerStream)\n
+    (final InputStream providerStream, final ClassLoader classLoader)\n
     '''
 def getIQProviderInfo():
-    '''public Collection<IQProviderInfo> getIQProviderInfo()
+    '''returns Collection<IQProviderInfo>\n\n
+    getIQProviderInfo()\n
     '''
 def getExtensionProviderInfo():
-    '''public Collection<ExtensionProviderInfo> getExtensionProviderInfo()
+    '''returns Collection<ExtensionProviderInfo>\n\n
+    getExtensionProviderInfo()\n
     '''
 def getStreamFeatureProviderInfo():
-    '''public Collection<StreamFeatureProviderInfo> getStreamFeatureProviderInfo()
+    '''returns Collection<StreamFeatureProviderInfo>\n\n
+    getStreamFeatureProviderInfo()\n
     '''
 def getLoadingExceptions():
-    '''public List<Exception> getLoadingExceptions()
+    '''returns List<Exception>\n\n
+    getLoadingExceptions()\n
     '''

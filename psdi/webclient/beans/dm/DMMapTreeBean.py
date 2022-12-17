@@ -1,15 +1,16 @@
-def DMMapTreeBean():
-    '''public DMMapTreeBean()
+def ():
+    '''returns DMMapTreeBean\n\n
+    ()\n
     '''
 def handleok():
-    '''public int handleok()
+    '''returns int\n\n
+    handleok()\n
     '''
 def handlecancel():
-    '''public int handlecancel()
+    '''returns int\n\n
+    handlecancel()\n
     '''
 def selectnode():
-    '''public int selectnode()
-    '''
-def structureChangedEvent():
-    '''public synchronized void structureChangedEvent(final DataBean speaker)
+    '''returns int\n\n
+    selectnode()\n
     '''

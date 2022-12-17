@@ -1,6 +1,8 @@
-def PromoteAction():
-    '''public PromoteAction()
+def ():
+    '''returns PromoteAction\n\n
+    ()\n
     '''
 def applyCustomAction():
-    '''public void applyCustomAction(final MboRemote promotedMbo, final Object[] args)
+    '''returns None\n\n
+    applyCustomAction(final MboRemote promotedMbo, final Object[] args)\n
     '''

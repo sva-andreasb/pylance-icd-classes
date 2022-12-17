@@ -3,37 +3,45 @@ PROPERTY_QUEUEIDLETIMESECONDS = "String  \"mxe.report.birt.queueidletimeseconds\
 PROPERTY_DISABLEQUEUEMANAGER = "String  \"mxe.report.birt.disablequeuemanager\""
 DEFAULT_MAX_CONCURRENT_THREADCOUNT = "int  3"
 PROPERTY_MAXCONCURRENTRUN = "String  \"mxe.report.birt.maxconcurrentrun\""
-def ReportQueueManager():
-    '''public ReportQueueManager()
+def ():
+    '''returns ReportRunThread\n\n
+    ()\n
+    ()\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def acquireLock():
-    '''public boolean acquireLock(final long runQueueId)
+    '''returns boolean\n\n
+    acquireLock(final long runQueueId)\n
     '''
 def removeRunReport():
-    '''public void removeRunReport(final long runQueueId)
+    '''returns None\n\n
+    removeRunReport(final long runQueueId)\n
     '''
 def getMaxAllowedActiveReportThreads():
-    '''public int getMaxAllowedActiveReportThreads()
+    '''returns int\n\n
+    getMaxAllowedActiveReportThreads()\n
     '''
 def getQueueIdleTime():
-    '''public int getQueueIdleTime()
+    '''returns int\n\n
+    getQueueIdleTime()\n
     '''
 def createFileFromStream():
-    '''public void createFileFromStream(final File file, final InputStream inputStream)
-    '''
-def ReportRunThread():
-    '''public ReportRunThread()
+    '''returns None\n\n
+    createFileFromStream(final File file, final InputStream inputStream)\n
     '''
 def startDoingWork():
-    '''public void startDoingWork()
+    '''returns None\n\n
+    startDoingWork()\n
     '''
 def markShutdown():
-    '''public void markShutdown()
+    '''returns None\n\n
+    markShutdown()\n
     '''
 def isWaitingForWork():
-    '''public boolean isWaitingForWork()
+    '''returns boolean\n\n
+    isWaitingForWork()\n
     '''

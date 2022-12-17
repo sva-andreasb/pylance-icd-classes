@@ -1,6 +1,8 @@
-def PlusPFldLabTransType():
-    '''public PlusPFldLabTransType(final MboValue arg0)
+def ():
+    '''returns PlusPFldLabTransType\n\n
+    (final MboValue arg0)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

@@ -1,46 +1,52 @@
-def validLine():
-    '''public static final void validLine(final int line)
-    '''
-def validColumn():
-    '''public static final void validColumn(final int column)
-    '''
-def SourceLocation():
-    '''public SourceLocation(final File file, final int line)
-    public SourceLocation(final File file, final int line, final int endLine)
-    public SourceLocation(final File file, final int line, final int endLine, final int column)
-    public SourceLocation(File file, final int line, final int endLine, int column, final String context)
-    public SourceLocation(final File file, final int line, final int endLine, final int column, final String context, final String sourceFileName)
+def ():
+    '''returns SourceLocation\n\n
+    (final File file, final int line)\n
+    (final File file, final int line, final int endLine)\n
+    (final File file, final int line, final int endLine, final int column)\n
+    (File file, final int line, final int endLine, int column, final String context)\n
+    (final File file, final int line, final int endLine, final int column, final String context, final String sourceFileName)\n
     '''
 def getSourceFile():
-    '''public File getSourceFile()
+    '''returns File\n\n
+    getSourceFile()\n
     '''
 def getLine():
-    '''public int getLine()
+    '''returns int\n\n
+    getLine()\n
     '''
 def getColumn():
-    '''public int getColumn()
+    '''returns int\n\n
+    getColumn()\n
     '''
 def getEndLine():
-    '''public int getEndLine()
+    '''returns int\n\n
+    getEndLine()\n
     '''
 def getContext():
-    '''public String getContext()
+    '''returns String\n\n
+    getContext()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getOffset():
-    '''public int getOffset()
+    '''returns int\n\n
+    getOffset()\n
     '''
 def setOffset():
-    '''public void setOffset(final int i)
+    '''returns None\n\n
+    setOffset(final int i)\n
     '''
 def getSourceFileName():
-    '''public String getSourceFileName()
+    '''returns String\n\n
+    getSourceFileName()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

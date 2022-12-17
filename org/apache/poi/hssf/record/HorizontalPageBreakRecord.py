@@ -1,11 +1,14 @@
 sid = "short  27"
-def HorizontalPageBreakRecord():
-    '''public HorizontalPageBreakRecord()
-    public HorizontalPageBreakRecord(final RecordInputStream in)
+def ():
+    '''returns HorizontalPageBreakRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public PageBreakRecord clone()
+    '''returns PageBreakRecord\n\n
+    clone()\n
     '''

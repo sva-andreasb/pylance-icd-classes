@@ -1,27 +1,31 @@
-def FileCleaningTracker():
-    '''public FileCleaningTracker()
+def ():
+    '''returns FileCleaningTracker\n\n
+    ()\n
     '''
 def track():
-    '''public void track(final File file, final Object marker)
-    public void track(final File file, final Object marker, final FileDeleteStrategy deleteStrategy)
-    public void track(final String path, final Object marker)
-    public void track(final String path, final Object marker, final FileDeleteStrategy deleteStrategy)
+    '''returns None\n\n
+    track(final File file, final Object marker)\n
+    track(final File file, final Object marker, final FileDeleteStrategy deleteStrategy)\n
+    track(final String path, final Object marker)\n
+    track(final String path, final Object marker, final FileDeleteStrategy deleteStrategy)\n
     '''
 def getTrackCount():
-    '''public int getTrackCount()
+    '''returns int\n\n
+    getTrackCount()\n
     '''
 def getDeleteFailures():
-    '''public List<String> getDeleteFailures()
-    '''
-def exitWhenFinished():
-    '''public synchronized void exitWhenFinished()
+    '''returns List<String>\n\n
+    getDeleteFailures()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def delete():
-    '''public boolean delete()
+    '''returns boolean\n\n
+    delete()\n
     '''

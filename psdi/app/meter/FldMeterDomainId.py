@@ -1,3 +1,4 @@
-def FldMeterDomainId():
-    '''public FldMeterDomainId(final MboValue mbv)
+def ():
+    '''returns FldMeterDomainId\n\n
+    (final MboValue mbv)\n
     '''

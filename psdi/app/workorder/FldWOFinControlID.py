@@ -1,6 +1,8 @@
-def FldWOFinControlID():
-    '''public FldWOFinControlID(final MboValue mbv)
+def ():
+    '''returns FldWOFinControlID\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,102 +1,136 @@
-def NtpV3Impl():
-    '''public NtpV3Impl()
+def ():
+    '''returns NtpV3Impl\n\n
+    ()\n
     '''
 def getMode():
-    '''public int getMode()
+    '''returns int\n\n
+    getMode()\n
     '''
 def getModeName():
-    '''public String getModeName()
+    '''returns String\n\n
+    getModeName()\n
     '''
 def setMode():
-    '''public void setMode(final int mode)
+    '''returns None\n\n
+    setMode(final int mode)\n
     '''
 def getLeapIndicator():
-    '''public int getLeapIndicator()
+    '''returns int\n\n
+    getLeapIndicator()\n
     '''
 def setLeapIndicator():
-    '''public void setLeapIndicator(final int li)
+    '''returns None\n\n
+    setLeapIndicator(final int li)\n
     '''
 def getPoll():
-    '''public int getPoll()
+    '''returns int\n\n
+    getPoll()\n
     '''
 def setPoll():
-    '''public void setPoll(final int poll)
+    '''returns None\n\n
+    setPoll(final int poll)\n
     '''
 def getPrecision():
-    '''public int getPrecision()
+    '''returns int\n\n
+    getPrecision()\n
     '''
 def setPrecision():
-    '''public void setPrecision(final int precision)
+    '''returns None\n\n
+    setPrecision(final int precision)\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final int version)
+    '''returns None\n\n
+    setVersion(final int version)\n
     '''
 def getStratum():
-    '''public int getStratum()
+    '''returns int\n\n
+    getStratum()\n
     '''
 def setStratum():
-    '''public void setStratum(final int stratum)
+    '''returns None\n\n
+    setStratum(final int stratum)\n
     '''
 def getRootDelay():
-    '''public int getRootDelay()
+    '''returns int\n\n
+    getRootDelay()\n
     '''
 def getRootDelayInMillisDouble():
-    '''public double getRootDelayInMillisDouble()
+    '''returns double\n\n
+    getRootDelayInMillisDouble()\n
     '''
 def getRootDispersion():
-    '''public int getRootDispersion()
+    '''returns int\n\n
+    getRootDispersion()\n
     '''
 def getRootDispersionInMillis():
-    '''public long getRootDispersionInMillis()
+    '''returns long\n\n
+    getRootDispersionInMillis()\n
     '''
 def getRootDispersionInMillisDouble():
-    '''public double getRootDispersionInMillisDouble()
+    '''returns double\n\n
+    getRootDispersionInMillisDouble()\n
     '''
 def setReferenceId():
-    '''public void setReferenceId(int refId)
+    '''returns None\n\n
+    setReferenceId(int refId)\n
     '''
 def getReferenceId():
-    '''public int getReferenceId()
+    '''returns int\n\n
+    getReferenceId()\n
     '''
 def getReferenceIdString():
-    '''public String getReferenceIdString()
+    '''returns String\n\n
+    getReferenceIdString()\n
     '''
 def getTransmitTimeStamp():
-    '''public TimeStamp getTransmitTimeStamp()
+    '''returns TimeStamp\n\n
+    getTransmitTimeStamp()\n
     '''
 def setTransmitTime():
-    '''public void setTransmitTime(final TimeStamp ts)
+    '''returns None\n\n
+    setTransmitTime(final TimeStamp ts)\n
     '''
 def setOriginateTimeStamp():
-    '''public void setOriginateTimeStamp(final TimeStamp ts)
+    '''returns None\n\n
+    setOriginateTimeStamp(final TimeStamp ts)\n
     '''
 def getOriginateTimeStamp():
-    '''public TimeStamp getOriginateTimeStamp()
+    '''returns TimeStamp\n\n
+    getOriginateTimeStamp()\n
     '''
 def getReferenceTimeStamp():
-    '''public TimeStamp getReferenceTimeStamp()
+    '''returns TimeStamp\n\n
+    getReferenceTimeStamp()\n
     '''
 def setReferenceTime():
-    '''public void setReferenceTime(final TimeStamp ts)
+    '''returns None\n\n
+    setReferenceTime(final TimeStamp ts)\n
     '''
 def getReceiveTimeStamp():
-    '''public TimeStamp getReceiveTimeStamp()
+    '''returns TimeStamp\n\n
+    getReceiveTimeStamp()\n
     '''
 def setReceiveTimeStamp():
-    '''public void setReceiveTimeStamp(final TimeStamp ts)
+    '''returns None\n\n
+    setReceiveTimeStamp(final TimeStamp ts)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getDatagramPacket():
-    '''public DatagramPacket getDatagramPacket()
+    '''returns DatagramPacket\n\n
+    getDatagramPacket()\n
     '''
 def setDatagramPacket():
-    '''public void setDatagramPacket(final DatagramPacket srcDp)
+    '''returns None\n\n
+    setDatagramPacket(final DatagramPacket srcDp)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

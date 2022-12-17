@@ -1,52 +1,69 @@
-def EscherArrayProperty():
-    '''public EscherArrayProperty(final short id, final byte[] complexData)
-    public EscherArrayProperty(final short propertyNumber, final boolean isBlipId, final byte[] complexData)
+def ():
+    '''returns EscherArrayProperty\n\n
+    (final short id, final byte[] complexData)\n
+    (final short propertyNumber, final boolean isBlipId, final byte[] complexData)\n
     '''
 def getNumberOfElementsInArray():
-    '''public int getNumberOfElementsInArray()
+    '''returns int\n\n
+    getNumberOfElementsInArray()\n
     '''
 def setNumberOfElementsInArray():
-    '''public void setNumberOfElementsInArray(final int numberOfElements)
+    '''returns None\n\n
+    setNumberOfElementsInArray(final int numberOfElements)\n
     '''
 def getNumberOfElementsInMemory():
-    '''public int getNumberOfElementsInMemory()
+    '''returns int\n\n
+    getNumberOfElementsInMemory()\n
     '''
 def setNumberOfElementsInMemory():
-    '''public void setNumberOfElementsInMemory(final int numberOfElements)
+    '''returns None\n\n
+    setNumberOfElementsInMemory(final int numberOfElements)\n
     '''
 def getSizeOfElements():
-    '''public short getSizeOfElements()
+    '''returns short\n\n
+    getSizeOfElements()\n
     '''
 def setSizeOfElements():
-    '''public void setSizeOfElements(final int sizeOfElements)
+    '''returns None\n\n
+    setSizeOfElements(final int sizeOfElements)\n
     '''
 def getElement():
-    '''public byte[] getElement(final int index)
+    '''returns byte[]\n\n
+    getElement(final int index)\n
     '''
 def setElement():
-    '''public void setElement(final int index, final byte[] element)
+    '''returns None\n\n
+    setElement(final int index, final byte[] element)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toXml():
-    '''public String toXml(final String tab)
+    '''returns String\n\n
+    toXml(final String tab)\n
     '''
 def setArrayData():
-    '''public int setArrayData(final byte[] data, final int offset)
+    '''returns int\n\n
+    setArrayData(final byte[] data, final int offset)\n
     '''
 def serializeSimplePart():
-    '''public int serializeSimplePart(final byte[] data, final int pos)
+    '''returns int\n\n
+    serializeSimplePart(final byte[] data, final int pos)\n
     '''
 def iterator():
-    '''public Iterator<byte[]> iterator()
+    '''returns Iterator<byte[]>\n\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public byte[] next()
+    '''returns byte[]\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

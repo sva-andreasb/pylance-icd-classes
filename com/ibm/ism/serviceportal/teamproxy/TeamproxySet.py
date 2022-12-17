@@ -1,3 +1,4 @@
-def TeamproxySet():
-    '''public TeamproxySet(final MboServerInterface ms)
+def ():
+    '''returns TeamproxySet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,9 +1,12 @@
 def startValidation():
-    '''public int startValidation()
+    '''returns int\n\n
+    startValidation()\n
     '''
 def refreshStatus():
-    '''public int refreshStatus()
+    '''returns int\n\n
+    refreshStatus()\n
     '''
 def docancel():
-    '''public int docancel()
+    '''returns int\n\n
+    docancel()\n
     '''

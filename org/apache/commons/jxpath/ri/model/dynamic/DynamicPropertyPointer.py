@@ -1,43 +1,57 @@
-def DynamicPropertyPointer():
-    '''public DynamicPropertyPointer(final NodePointer parent, final DynamicPropertyHandler handler)
+def ():
+    '''returns DynamicPropertyPointer\n\n
+    (final NodePointer parent, final DynamicPropertyHandler handler)\n
     '''
 def isContainer():
-    '''public boolean isContainer()
+    '''returns boolean\n\n
+    isContainer()\n
     '''
 def getPropertyCount():
-    '''public int getPropertyCount()
+    '''returns int\n\n
+    getPropertyCount()\n
     '''
 def getPropertyNames():
-    '''public String[] getPropertyNames()
+    '''returns String[]\n\n
+    getPropertyNames()\n
     '''
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def setPropertyName():
-    '''public void setPropertyName(final String propertyName)
+    '''returns None\n\n
+    setPropertyName(final String propertyName)\n
     '''
 def getPropertyIndex():
-    '''public int getPropertyIndex()
+    '''returns int\n\n
+    getPropertyIndex()\n
     '''
 def setPropertyIndex():
-    '''public void setPropertyIndex(final int index)
+    '''returns None\n\n
+    setPropertyIndex(final int index)\n
     '''
 def getBaseValue():
-    '''public Object getBaseValue()
+    '''returns Object\n\n
+    getBaseValue()\n
     '''
 def getImmediateNode():
-    '''public Object getImmediateNode()
+    '''returns Object\n\n
+    getImmediateNode()\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
+    '''returns None\n\n
+    setValue(final Object value)\n
     '''
 def createPath():
-    '''public NodePointer createPath(final JXPathContext context)
-    public NodePointer createPath(final JXPathContext context, final Object value)
+    '''returns NodePointer\n\n
+    createPath(final JXPathContext context)\n
+    createPath(final JXPathContext context, final Object value)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def asPath():
-    '''public String asPath()
+    '''returns String\n\n
+    asPath()\n
     '''

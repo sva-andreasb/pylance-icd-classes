@@ -1,10 +1,5 @@
-def ICUTransliteratorFactory():
-    '''public ICUTransliteratorFactory()
-    public ICUTransliteratorFactory(final String s)
-    '''
-def getCopyright():
-    '''public static String getCopyright()
-    '''
-def getTransliterator():
-    '''public synchronized Transliterator getTransliterator(String s)
+def ():
+    '''returns ICUTransliteratorFactory\n\n
+    ()\n
+    (final String s)\n
     '''

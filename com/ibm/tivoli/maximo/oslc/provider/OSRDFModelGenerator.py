@@ -1,14 +1,18 @@
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
-def OSRDFModelGenerator():
-    '''public OSRDFModelGenerator(final String osName, final OslcRequest oslcRequest, final Map<String, Mbo> linkedResourceCache)
+def ():
+    '''returns OSRDFModelGenerator\n\n
+    (final String osName, final OslcRequest oslcRequest, final Map<String, Mbo> linkedResourceCache)\n
     '''
 def generateRDFModel():
-    '''public Model generateRDFModel(final Mbo mbo, final boolean compact)
-    public Model generateRDFModel(final MboIterator mboSet)
+    '''returns Model\n\n
+    generateRDFModel(final Mbo mbo, final boolean compact)\n
+    generateRDFModel(final MboIterator mboSet)\n
     '''
 def serializeResource():
-    '''public OslcResourceResponse serializeResource(final MboIterator mboSet)
-    public OslcResourceResponse serializeResource(final Mbo mbo)
+    '''returns OslcResourceResponse\n\n
+    serializeResource(final MboIterator mboSet)\n
+    serializeResource(final Mbo mbo)\n
     '''

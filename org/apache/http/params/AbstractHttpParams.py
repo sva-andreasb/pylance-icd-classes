@@ -1,33 +1,44 @@
 def getLongParameter():
-    '''public long getLongParameter(final String name, final long defaultValue)
+    '''returns long\n\n
+    getLongParameter(final String name, final long defaultValue)\n
     '''
 def setLongParameter():
-    '''public HttpParams setLongParameter(final String name, final long value)
+    '''returns HttpParams\n\n
+    setLongParameter(final String name, final long value)\n
     '''
 def getIntParameter():
-    '''public int getIntParameter(final String name, final int defaultValue)
+    '''returns int\n\n
+    getIntParameter(final String name, final int defaultValue)\n
     '''
 def setIntParameter():
-    '''public HttpParams setIntParameter(final String name, final int value)
+    '''returns HttpParams\n\n
+    setIntParameter(final String name, final int value)\n
     '''
 def getDoubleParameter():
-    '''public double getDoubleParameter(final String name, final double defaultValue)
+    '''returns double\n\n
+    getDoubleParameter(final String name, final double defaultValue)\n
     '''
 def setDoubleParameter():
-    '''public HttpParams setDoubleParameter(final String name, final double value)
+    '''returns HttpParams\n\n
+    setDoubleParameter(final String name, final double value)\n
     '''
 def getBooleanParameter():
-    '''public boolean getBooleanParameter(final String name, final boolean defaultValue)
+    '''returns boolean\n\n
+    getBooleanParameter(final String name, final boolean defaultValue)\n
     '''
 def setBooleanParameter():
-    '''public HttpParams setBooleanParameter(final String name, final boolean value)
+    '''returns HttpParams\n\n
+    setBooleanParameter(final String name, final boolean value)\n
     '''
 def isParameterTrue():
-    '''public boolean isParameterTrue(final String name)
+    '''returns boolean\n\n
+    isParameterTrue(final String name)\n
     '''
 def isParameterFalse():
-    '''public boolean isParameterFalse(final String name)
+    '''returns boolean\n\n
+    isParameterFalse(final String name)\n
     '''
 def getNames():
-    '''public Set<String> getNames()
+    '''returns Set<String>\n\n
+    getNames()\n
     '''

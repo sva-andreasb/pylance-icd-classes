@@ -1,9 +1,12 @@
-def FldSiteBillToShipTo():
-    '''public FldSiteBillToShipTo(final MboValue mbv)
+def ():
+    '''returns FldSiteBillToShipTo\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,29 +1,38 @@
 def getMetaDataName():
-    '''public String getMetaDataName(final PyObject name)
+    '''returns String\n\n
+    getMetaDataName(final PyObject name)\n
     '''
 def getProcedure():
-    '''public Procedure getProcedure(final PyCursor cursor, final PyObject name)
+    '''returns Procedure\n\n
+    getProcedure(final PyCursor cursor, final PyObject name)\n
     '''
 def getRowId():
-    '''public PyObject getRowId(final Statement stmt)
+    '''returns PyObject\n\n
+    getRowId(final Statement stmt)\n
     '''
 def preExecute():
-    '''public void preExecute(final Statement stmt)
+    '''returns None\n\n
+    preExecute(final Statement stmt)\n
     '''
 def postExecute():
-    '''public void postExecute(final Statement stmt)
+    '''returns None\n\n
+    postExecute(final Statement stmt)\n
     '''
 def setJDBCObject():
-    '''public void setJDBCObject(final PreparedStatement stmt, final int index, final PyObject object)
-    public void setJDBCObject(final PreparedStatement stmt, final int index, PyObject object, final int type)
+    '''returns None\n\n
+    setJDBCObject(final PreparedStatement stmt, final int index, final PyObject object)\n
+    setJDBCObject(final PreparedStatement stmt, final int index, PyObject object, final int type)\n
     '''
 def getPyObject():
-    '''public PyObject getPyObject(final ResultSet set, final int col, final int type)
-    public PyObject getPyObject(final CallableStatement stmt, final int col, final int type)
+    '''returns PyObject\n\n
+    getPyObject(final ResultSet set, final int col, final int type)\n
+    getPyObject(final CallableStatement stmt, final int col, final int type)\n
     '''
 def registerOut():
-    '''public void registerOut(final CallableStatement statement, final int index, final int colType, final int dataType, final String dataTypeName)
+    '''returns None\n\n
+    registerOut(final CallableStatement statement, final int index, final int colType, final int dataType, final String dataTypeName)\n
     '''
 def __chain__():
-    '''public PyObject __chain__()
+    '''returns PyObject\n\n
+    __chain__()\n
     '''

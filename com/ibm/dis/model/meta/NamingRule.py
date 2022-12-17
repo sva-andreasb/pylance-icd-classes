@@ -1,28 +1,37 @@
-def NamingRule():
-    '''public NamingRule(final int priority, final Set<NamingRuleAttribute> namingRuleEntries)
-    public NamingRule(final int priority, final NamingRuleAttribute... attributes)
+def ():
+    '''returns NamingRule\n\n
+    (final int priority, final Set<NamingRuleAttribute> namingRuleEntries)\n
+    (final int priority, final NamingRuleAttribute... attributes)\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''
 def setPriority():
-    '''public void setPriority(final int priority)
+    '''returns None\n\n
+    setPriority(final int priority)\n
     '''
 def getNamingRuleEntries():
-    '''public Set<NamingRuleAttribute> getNamingRuleEntries()
+    '''returns Set<NamingRuleAttribute>\n\n
+    getNamingRuleEntries()\n
     '''
 def addNamingRuleEntries():
-    '''public void addNamingRuleEntries(final NamingRuleAttribute namingRuleEntry)
+    '''returns None\n\n
+    addNamingRuleEntries(final NamingRuleAttribute namingRuleEntry)\n
     '''
 def setNamingRuleEntries():
-    '''public void setNamingRuleEntries(final Set<NamingRuleAttribute> namingRuleEntries)
+    '''returns None\n\n
+    setNamingRuleEntries(final Set<NamingRuleAttribute> namingRuleEntries)\n
     '''
 def compareTo():
-    '''public int compareTo(final NamingRule o)
+    '''returns int\n\n
+    compareTo(final NamingRule o)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

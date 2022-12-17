@@ -1,16 +1,17 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def call():
-    '''public IloOdmApplicationKeyImpl call()
-    '''
-def getKey():
-    '''public final IloOdmApplicationKeyImpl getKey()
+    '''returns IloOdmApplicationKeyImpl\n\n
+    call()\n
     '''
 def getDefaultSettingsName():
-    '''public String getDefaultSettingsName()
+    '''returns String\n\n
+    getDefaultSettingsName()\n
     '''
 def copyNonDuplicateDeploymentConfiguration():
-    '''public IloOdmDeploymentSettingsImpl copyNonDuplicateDeploymentConfiguration(final IloOdmDeploymentSettings sourceSettings, final String newSettingsName)
+    '''returns IloOdmDeploymentSettingsImpl\n\n
+    copyNonDuplicateDeploymentConfiguration(final IloOdmDeploymentSettings sourceSettings, final String newSettingsName)\n
     '''
 def configSetToInputStream():
-    '''public InputStream configSetToInputStream(final String settingName)
+    '''returns InputStream\n\n
+    configSetToInputStream(final String settingName)\n
     '''

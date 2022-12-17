@@ -1,3 +1,4 @@
-def FldSysMapLocsys():
-    '''public FldSysMapLocsys(final MboValue mbv)
+def ():
+    '''returns FldSysMapLocsys\n\n
+    (final MboValue mbv)\n
     '''

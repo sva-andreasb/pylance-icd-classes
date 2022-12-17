@@ -1,20 +1,16 @@
-def PatternStageBase():
-    '''public PatternStageBase(final QueryNodeFactory factory, final Graph graph, final Mapping map, final ExpressionSet constraints, final Triple[] triples)
-    '''
-def deliver():
-    '''public synchronized Pipe deliver(final Pipe sink)
+def ():
+    '''returns Work\n\n
+    (final QueryNodeFactory factory, final Graph graph, final Mapping map, final ExpressionSet constraints, final Triple[] triples)\n
+    (final String name)\n
+    (final Pipe source, final Pipe sink, final StageElement e)\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
-    '''
-def PatternStageThread():
-    '''public PatternStageThread(final String name)
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def put():
-    '''public void put(final Work w)
-    '''
-def Work():
-    '''public Work(final Pipe source, final Pipe sink, final StageElement e)
+    '''returns None\n\n
+    put(final Work w)\n
     '''

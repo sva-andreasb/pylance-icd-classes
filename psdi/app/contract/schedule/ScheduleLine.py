@@ -1,27 +1,36 @@
-def ScheduleLine():
-    '''public ScheduleLine(final MboSet ms)
+def ():
+    '''returns ScheduleLine\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def afterAdd():
-    '''public void afterAdd()
+    '''returns None\n\n
+    afterAdd()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def getScheduledInvoiceLines():
-    '''public MboSetRemote getScheduledInvoiceLines()
+    '''returns MboSetRemote\n\n
+    getScheduledInvoiceLines()\n
     '''

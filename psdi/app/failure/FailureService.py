@@ -1,7 +1,9 @@
-def FailureService():
-    '''public FailureService()
-    public FailureService(final MXServer mxServer)
+def ():
+    '''returns FailureService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def initCriteriaList():
-    '''public void initCriteriaList(final Hashtable criteriaTable)
+    '''returns None\n\n
+    initCriteriaList(final Hashtable criteriaTable)\n
     '''

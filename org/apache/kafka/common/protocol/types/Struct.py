@@ -1,108 +1,134 @@
-def Struct():
-    '''public Struct(final Schema schema)
+def ():
+    '''returns Struct\n\n
+    (final Schema schema)\n
     '''
 def schema():
-    '''public Schema schema()
+    '''returns Schema\n\n
+    schema()\n
     '''
 def get():
-    '''public Object get(final BoundField field)
-    public Byte get(final Field.Int8 field)
-    public Integer get(final Field.Int32 field)
-    public Long get(final Field.Int64 field)
-    public Short get(final Field.Int16 field)
-    public String get(final Field.Str field)
-    public String get(final Field.NullableStr field)
-    public Object get(final String name)
+    '''returns Object\n\n
+    get(final BoundField field)\n
+    get(final Field.Int8 field)\n
+    get(final Field.Int32 field)\n
+    get(final Field.Int64 field)\n
+    get(final Field.Int16 field)\n
+    get(final Field.Str field)\n
+    get(final Field.NullableStr field)\n
+    get(final String name)\n
     '''
 def getOrElse():
-    '''public Long getOrElse(final Field.Int64 field, final long alternative)
-    public Short getOrElse(final Field.Int16 field, final short alternative)
-    public Integer getOrElse(final Field.Int32 field, final int alternative)
-    public String getOrElse(final Field.NullableStr field, final String alternative)
-    public String getOrElse(final Field.Str field, final String alternative)
+    '''returns String\n\n
+    getOrElse(final Field.Int64 field, final long alternative)\n
+    getOrElse(final Field.Int16 field, final short alternative)\n
+    getOrElse(final Field.Int32 field, final int alternative)\n
+    getOrElse(final Field.NullableStr field, final String alternative)\n
+    getOrElse(final Field.Str field, final String alternative)\n
     '''
 def hasField():
-    '''public boolean hasField(final String name)
-    public boolean hasField(final Field def)
+    '''returns boolean\n\n
+    hasField(final String name)\n
+    hasField(final Field def)\n
     '''
 def getStruct():
-    '''public Struct getStruct(final BoundField field)
-    public Struct getStruct(final String name)
+    '''returns Struct\n\n
+    getStruct(final BoundField field)\n
+    getStruct(final String name)\n
     '''
 def getByte():
-    '''public Byte getByte(final BoundField field)
-    public byte getByte(final String name)
+    '''returns byte\n\n
+    getByte(final BoundField field)\n
+    getByte(final String name)\n
     '''
 def getRecords():
-    '''public Records getRecords(final String name)
+    '''returns Records\n\n
+    getRecords(final String name)\n
     '''
 def getShort():
-    '''public Short getShort(final BoundField field)
-    public Short getShort(final String name)
+    '''returns Short\n\n
+    getShort(final BoundField field)\n
+    getShort(final String name)\n
     '''
 def getInt():
-    '''public Integer getInt(final BoundField field)
-    public Integer getInt(final String name)
+    '''returns Integer\n\n
+    getInt(final BoundField field)\n
+    getInt(final String name)\n
     '''
 def getUnsignedInt():
-    '''public Long getUnsignedInt(final String name)
+    '''returns Long\n\n
+    getUnsignedInt(final String name)\n
     '''
 def getLong():
-    '''public Long getLong(final BoundField field)
-    public Long getLong(final String name)
+    '''returns Long\n\n
+    getLong(final BoundField field)\n
+    getLong(final String name)\n
     '''
 def getArray():
-    '''public Object[] getArray(final BoundField field)
-    public Object[] getArray(final String name)
+    '''returns Object[]\n\n
+    getArray(final BoundField field)\n
+    getArray(final String name)\n
     '''
 def getString():
-    '''public String getString(final BoundField field)
-    public String getString(final String name)
+    '''returns String\n\n
+    getString(final BoundField field)\n
+    getString(final String name)\n
     '''
 def getBoolean():
-    '''public Boolean getBoolean(final BoundField field)
-    public Boolean getBoolean(final String name)
+    '''returns Boolean\n\n
+    getBoolean(final BoundField field)\n
+    getBoolean(final String name)\n
     '''
 def getBytes():
-    '''public ByteBuffer getBytes(final BoundField field)
-    public ByteBuffer getBytes(final String name)
+    '''returns ByteBuffer\n\n
+    getBytes(final BoundField field)\n
+    getBytes(final String name)\n
     '''
 def set():
-    '''public Struct set(final BoundField field, final Object value)
-    public Struct set(final String name, final Object value)
-    public Struct set(final Field.Str def, final String value)
-    public Struct set(final Field.NullableStr def, final String value)
-    public Struct set(final Field.Int8 def, final byte value)
-    public Struct set(final Field.Int32 def, final int value)
-    public Struct set(final Field.Int64 def, final long value)
-    public Struct set(final Field.Int16 def, final short value)
+    '''returns Struct\n\n
+    set(final BoundField field, final Object value)\n
+    set(final String name, final Object value)\n
+    set(final Field.Str def, final String value)\n
+    set(final Field.NullableStr def, final String value)\n
+    set(final Field.Int8 def, final byte value)\n
+    set(final Field.Int32 def, final int value)\n
+    set(final Field.Int64 def, final long value)\n
+    set(final Field.Int16 def, final short value)\n
     '''
 def setIfExists():
-    '''public Struct setIfExists(final Field def, final Object value)
-    public Struct setIfExists(final String fieldName, final Object value)
+    '''returns Struct\n\n
+    setIfExists(final Field def, final Object value)\n
+    setIfExists(final String fieldName, final Object value)\n
     '''
 def instance():
-    '''public Struct instance(final BoundField field)
-    public Struct instance(final String field)
+    '''returns Struct\n\n
+    instance(final BoundField field)\n
+    instance(final String field)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def sizeOf():
-    '''public int sizeOf()
+    '''returns int\n\n
+    sizeOf()\n
     '''
 def writeTo():
-    '''public void writeTo(final ByteBuffer buffer)
+    '''returns None\n\n
+    writeTo(final ByteBuffer buffer)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

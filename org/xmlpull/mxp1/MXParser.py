@@ -1,117 +1,155 @@
-def MXParser():
-    '''public MXParser()
+def ():
+    '''returns MXParser\n\n
+    ()\n
     '''
 def setFeature():
-    '''public void setFeature(final String name, final boolean state)
+    '''returns None\n\n
+    setFeature(final String name, final boolean state)\n
     '''
 def getFeature():
-    '''public boolean getFeature(final String name)
+    '''returns boolean\n\n
+    getFeature(final String name)\n
     '''
 def setProperty():
-    '''public void setProperty(final String name, final Object value)
+    '''returns None\n\n
+    setProperty(final String name, final Object value)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String name)
+    '''returns Object\n\n
+    getProperty(final String name)\n
     '''
 def setInput():
-    '''public void setInput(final Reader in)
-    public void setInput(final InputStream inputStream, final String inputEncoding)
+    '''returns None\n\n
+    setInput(final Reader in)\n
+    setInput(final InputStream inputStream, final String inputEncoding)\n
     '''
 def getInputEncoding():
-    '''public String getInputEncoding()
+    '''returns String\n\n
+    getInputEncoding()\n
     '''
 def defineEntityReplacementText():
-    '''public void defineEntityReplacementText(final String entityName, final String replacementText)
+    '''returns None\n\n
+    defineEntityReplacementText(final String entityName, final String replacementText)\n
     '''
 def getNamespaceCount():
-    '''public int getNamespaceCount(final int depth)
+    '''returns int\n\n
+    getNamespaceCount(final int depth)\n
     '''
 def getNamespacePrefix():
-    '''public String getNamespacePrefix(final int pos)
+    '''returns String\n\n
+    getNamespacePrefix(final int pos)\n
     '''
 def getNamespaceUri():
-    '''public String getNamespaceUri(final int pos)
+    '''returns String\n\n
+    getNamespaceUri(final int pos)\n
     '''
 def getNamespace():
-    '''public String getNamespace(final String prefix)
-    public String getNamespace()
+    '''returns String\n\n
+    getNamespace(final String prefix)\n
+    getNamespace()\n
     '''
 def getDepth():
-    '''public int getDepth()
+    '''returns int\n\n
+    getDepth()\n
     '''
 def getPositionDescription():
-    '''public String getPositionDescription()
+    '''returns String\n\n
+    getPositionDescription()\n
     '''
 def getLineNumber():
-    '''public int getLineNumber()
+    '''returns int\n\n
+    getLineNumber()\n
     '''
 def getColumnNumber():
-    '''public int getColumnNumber()
+    '''returns int\n\n
+    getColumnNumber()\n
     '''
 def isWhitespace():
-    '''public boolean isWhitespace()
+    '''returns boolean\n\n
+    isWhitespace()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getTextCharacters():
-    '''public char[] getTextCharacters(final int[] holderForStartAndLength)
+    '''returns char[]\n\n
+    getTextCharacters(final int[] holderForStartAndLength)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def isEmptyElementTag():
-    '''public boolean isEmptyElementTag()
+    '''returns boolean\n\n
+    isEmptyElementTag()\n
     '''
 def getAttributeCount():
-    '''public int getAttributeCount()
+    '''returns int\n\n
+    getAttributeCount()\n
     '''
 def getAttributeNamespace():
-    '''public String getAttributeNamespace(final int index)
+    '''returns String\n\n
+    getAttributeNamespace(final int index)\n
     '''
 def getAttributeName():
-    '''public String getAttributeName(final int index)
+    '''returns String\n\n
+    getAttributeName(final int index)\n
     '''
 def getAttributePrefix():
-    '''public String getAttributePrefix(final int index)
+    '''returns String\n\n
+    getAttributePrefix(final int index)\n
     '''
 def getAttributeType():
-    '''public String getAttributeType(final int index)
+    '''returns String\n\n
+    getAttributeType(final int index)\n
     '''
 def isAttributeDefault():
-    '''public boolean isAttributeDefault(final int index)
+    '''returns boolean\n\n
+    isAttributeDefault(final int index)\n
     '''
 def getAttributeValue():
-    '''public String getAttributeValue(final int index)
-    public String getAttributeValue(String namespace, final String name)
+    '''returns String\n\n
+    getAttributeValue(final int index)\n
+    getAttributeValue(String namespace, final String name)\n
     '''
 def getEventType():
-    '''public int getEventType()
+    '''returns int\n\n
+    getEventType()\n
     '''
 def require():
-    '''public void require(final int type, final String namespace, final String name)
+    '''returns None\n\n
+    require(final int type, final String namespace, final String name)\n
     '''
 def skipSubTree():
-    '''public void skipSubTree()
+    '''returns None\n\n
+    skipSubTree()\n
     '''
 def nextText():
-    '''public String nextText()
+    '''returns String\n\n
+    nextText()\n
     '''
 def nextTag():
-    '''public int nextTag()
+    '''returns int\n\n
+    nextTag()\n
     '''
 def next():
-    '''public int next()
+    '''returns int\n\n
+    next()\n
     '''
 def nextToken():
-    '''public int nextToken()
+    '''returns int\n\n
+    nextToken()\n
     '''
 def parseEndTag():
-    '''public int parseEndTag()
+    '''returns int\n\n
+    parseEndTag()\n
     '''
 def parseStartTag():
-    '''public int parseStartTag()
+    '''returns int\n\n
+    parseStartTag()\n
     '''

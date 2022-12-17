@@ -1,3 +1,4 @@
-def MaxPushProviderDevTypeSet():
-    '''public MaxPushProviderDevTypeSet(final MboServerInterface ms)
+def ():
+    '''returns MaxPushProviderDevTypeSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,55 +1,65 @@
-def UploadObjectRequest():
-    '''public UploadObjectRequest(final String bucketName, final String key, final File file)
-    public UploadObjectRequest(final String bucketName, final String key, final InputStream input, final ObjectMetadata metadata)
+def ():
+    '''returns UploadObjectRequest\n\n
+    (final String bucketName, final String key, final File file)\n
+    (final String bucketName, final String key, final InputStream input, final ObjectMetadata metadata)\n
     '''
 def getPartSize():
-    '''public long getPartSize()
+    '''returns long\n\n
+    getPartSize()\n
     '''
 def withPartSize():
-    '''public UploadObjectRequest withPartSize(final long partSize)
+    '''returns UploadObjectRequest\n\n
+    withPartSize(final long partSize)\n
     '''
 def getDiskLimit():
-    '''public long getDiskLimit()
+    '''returns long\n\n
+    getDiskLimit()\n
     '''
 def withDiskLimit():
-    '''public UploadObjectRequest withDiskLimit(final long diskLimit)
+    '''returns UploadObjectRequest\n\n
+    withDiskLimit(final long diskLimit)\n
     '''
 def getExecutorService():
-    '''public ExecutorService getExecutorService()
+    '''returns ExecutorService\n\n
+    getExecutorService()\n
     '''
 def withExecutorService():
-    '''public UploadObjectRequest withExecutorService(final ExecutorService executorService)
+    '''returns UploadObjectRequest\n\n
+    withExecutorService(final ExecutorService executorService)\n
     '''
 def getMultiFileOutputStream():
-    '''public MultiFileOutputStream getMultiFileOutputStream()
+    '''returns MultiFileOutputStream\n\n
+    getMultiFileOutputStream()\n
     '''
 def withMultiFileOutputStream():
-    '''public UploadObjectRequest withMultiFileOutputStream(final MultiFileOutputStream multiFileOutputStream)
+    '''returns UploadObjectRequest\n\n
+    withMultiFileOutputStream(final MultiFileOutputStream multiFileOutputStream)\n
     '''
 def getUploadObjectObserver():
-    '''public UploadObjectObserver getUploadObjectObserver()
+    '''returns UploadObjectObserver\n\n
+    getUploadObjectObserver()\n
     '''
 def withUploadObjectObserver():
-    '''public UploadObjectRequest withUploadObjectObserver(final UploadObjectObserver uploadObjectObserver)
-    '''
-def getMaterialsDescription():
-    '''public Map<String, String> getMaterialsDescription()
+    '''returns UploadObjectRequest\n\n
+    withUploadObjectObserver(final UploadObjectObserver uploadObjectObserver)\n
     '''
 def setMaterialsDescription():
-    '''public void setMaterialsDescription(final Map<String, String> materialsDescription)
+    '''returns None\n\n
+    setMaterialsDescription(final Map<String, String> materialsDescription)\n
     '''
 def withMaterialsDescription():
-    '''public UploadObjectRequest withMaterialsDescription(final Map<String, String> materialsDescription)
+    '''returns UploadObjectRequest\n\n
+    withMaterialsDescription(final Map<String, String> materialsDescription)\n
     '''
 def getUploadPartMetadata():
-    '''public ObjectMetadata getUploadPartMetadata()
+    '''returns ObjectMetadata\n\n
+    getUploadPartMetadata()\n
     '''
 def setUploadPartMetadata():
-    '''public void setUploadPartMetadata(final ObjectMetadata partUploadMetadata)
-    '''
-def withUploadPartMetadata():
-    '''public <T extends UploadObjectRequest> T withUploadPartMetadata(final ObjectMetadata partUploadMetadata)
+    '''returns None\n\n
+    setUploadPartMetadata(final ObjectMetadata partUploadMetadata)\n
     '''
 def clone():
-    '''public UploadObjectRequest clone()
+    '''returns UploadObjectRequest\n\n
+    clone()\n
     '''

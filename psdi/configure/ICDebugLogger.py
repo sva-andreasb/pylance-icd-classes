@@ -1,12 +1,12 @@
-def ICDebugLogger():
-    '''public ICDebugLogger(final File loggingDir)
-    '''
-def setup():
-    '''public static void setup(final File loggingDir)
+def ():
+    '''returns ICDebugLogger\n\n
+    (final File loggingDir)\n
     '''
 def doAppend():
-    '''public void doAppend(final LoggingEvent event)
+    '''returns None\n\n
+    doAppend(final LoggingEvent event)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

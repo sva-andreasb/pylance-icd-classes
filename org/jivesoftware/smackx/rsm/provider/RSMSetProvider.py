@@ -1,3 +1,4 @@
 def parse():
-    '''public RSMSet parse(final XmlPullParser parser, final int initialDepth)
+    '''returns RSMSet\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

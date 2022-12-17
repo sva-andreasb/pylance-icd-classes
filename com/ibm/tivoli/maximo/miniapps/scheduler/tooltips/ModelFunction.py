@@ -1,8 +1,10 @@
 FUNCTION_NAME = "String  \"model\""
-def ModelFunction():
-    '''public ModelFunction(final boolean isCompare)
-    public ModelFunction(final boolean isCompare, final String scenarioName)
+def ():
+    '''returns ModelFunction\n\n
+    (final boolean isCompare)\n
+    (final boolean isCompare, final String scenarioName)\n
     '''
 def apply():
-    '''public String apply(final String fName, final String fValue, final GanttTextResolver<?> textResolver)
+    '''returns String\n\n
+    apply(final String fName, final String fValue, final GanttTextResolver<?> textResolver)\n
     '''

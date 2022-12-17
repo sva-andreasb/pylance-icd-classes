@@ -1,41 +1,54 @@
-def SKDActivityAdjust():
-    '''public SKDActivityAdjust(final Locale l, final TimeZone tz)
+def ():
+    '''returns SKDActivityAdjust\n\n
+    (final Locale l, final TimeZone tz)\n
     '''
 def adjustActivityForMergedShiftList():
-    '''public void adjustActivityForMergedShiftList(final MXActivity activity, final MXGanttModel model)
-    public void adjustActivityForMergedShiftList(final Activity activity, final Schedule schedule)
+    '''returns None\n\n
+    adjustActivityForMergedShiftList(final MXActivity activity, final MXGanttModel model)\n
+    adjustActivityForMergedShiftList(final Activity activity, final Schedule schedule)\n
     '''
 def getActivityStartAndEndDates():
-    '''public IlvTimeInterval getActivityStartAndEndDates(Date startDate, Date endDate, double duration, final ArrayList<Date> mergedNonWorkPeriods)
+    '''returns IlvTimeInterval\n\n
+    getActivityStartAndEndDates(Date startDate, Date endDate, double duration, final ArrayList<Date> mergedNonWorkPeriods)\n
     '''
 def getShiftWorkPeriod():
-    '''public ArrayList<Date> getShiftWorkPeriod(final String shift, final MXGanttModel model, final boolean shiftDate)
-    public ArrayList<Date> getShiftWorkPeriod(final String shift, final Schedule schedule, final boolean shiftDate)
+    '''returns ArrayList<Date>\n\n
+    getShiftWorkPeriod(final String shift, final MXGanttModel model, final boolean shiftDate)\n
+    getShiftWorkPeriod(final String shift, final Schedule schedule, final boolean shiftDate)\n
     '''
 def getNonWorkingHours():
-    '''public double getNonWorkingHours(final ArrayList<Date> mergedNonWorkPeriods, final Date startDate, final Date endDate)
+    '''returns double\n\n
+    getNonWorkingHours(final ArrayList<Date> mergedNonWorkPeriods, final Date startDate, final Date endDate)\n
     '''
 def getShiftEnd():
-    '''public Date getShiftEnd(final Date scheduleDate, final Schedule schedule)
+    '''returns Date\n\n
+    getShiftEnd(final Date scheduleDate, final Schedule schedule)\n
     '''
 def addWorkingHours():
-    '''public Date addWorkingHours(final Schedule schedule, Date date, final double workingHours, final boolean isInterruptible)
+    '''returns Date\n\n
+    addWorkingHours(final Schedule schedule, Date date, final double workingHours, final boolean isInterruptible)\n
     '''
 def subtractWorkingHours():
-    '''public Date subtractWorkingHours(final Schedule schedule, Date date, final double workingHours, final boolean isInterruptible)
+    '''returns Date\n\n
+    subtractWorkingHours(final Schedule schedule, Date date, final double workingHours, final boolean isInterruptible)\n
     '''
 def getFirstAvailableWorkingDate():
-    '''public Date getFirstAvailableWorkingDate(final Date scheduleDate, final Schedule schedule)
+    '''returns Date\n\n
+    getFirstAvailableWorkingDate(final Date scheduleDate, final Schedule schedule)\n
     '''
 def getPreviousAvailableWorkingDate():
-    '''public Date getPreviousAvailableWorkingDate(final Date scheduleDate, final Schedule schedule)
+    '''returns Date\n\n
+    getPreviousAvailableWorkingDate(final Date scheduleDate, final Schedule schedule)\n
     '''
 def isWorkingDate():
-    '''public boolean isWorkingDate(final Date scheduleDate, final Schedule schedule)
+    '''returns boolean\n\n
+    isWorkingDate(final Date scheduleDate, final Schedule schedule)\n
     '''
 def getWorkingHoursBetweenStartAndEndDates():
-    '''public double getWorkingHoursBetweenStartAndEndDates(final Schedule schedule, final Date startDate, final Date endDate)
+    '''returns double\n\n
+    getWorkingHoursBetweenStartAndEndDates(final Schedule schedule, final Date startDate, final Date endDate)\n
     '''
 def getNonWorkingHoursBetweenStartAndEndDates():
-    '''public double getNonWorkingHoursBetweenStartAndEndDates(final Schedule schedule, final Date startDate, final Date endDate)
+    '''returns double\n\n
+    getNonWorkingHoursBetweenStartAndEndDates(final Schedule schedule, final Date startDate, final Date endDate)\n
     '''

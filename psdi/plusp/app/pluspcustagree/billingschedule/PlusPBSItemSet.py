@@ -1,3 +1,4 @@
-def PlusPBSItemSet():
-    '''public PlusPBSItemSet(final MboServerInterface mboServerInterface)
+def ():
+    '''returns PlusPBSItemSet\n\n
+    (final MboServerInterface mboServerInterface)\n
     '''

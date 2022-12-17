@@ -1,3 +1,4 @@
-def PlusPBillLineFilterSet():
-    '''public PlusPBillLineFilterSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPBillLineFilterSet\n\n
+    (final MboServerInterface ms)\n
     '''

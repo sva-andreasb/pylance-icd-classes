@@ -1,18 +1,24 @@
-def Dyadic():
-    '''public Dyadic(final Graph L, final Graph R)
+def ():
+    '''returns Dyadic\n\n
+    (final Graph L, final Graph R)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def dependsOn():
-    '''public boolean dependsOn(final Graph other)
+    '''returns boolean\n\n
+    dependsOn(final Graph other)\n
     '''
 def union():
-    '''public Union union(final Graph X)
+    '''returns Union\n\n
+    union(final Graph X)\n
     '''
 def getL():
-    '''public Object getL()
+    '''returns Object\n\n
+    getL()\n
     '''
 def getR():
-    '''public Object getR()
+    '''returns Object\n\n
+    getR()\n
     '''

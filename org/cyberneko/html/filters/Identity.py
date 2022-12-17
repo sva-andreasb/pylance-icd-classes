@@ -1,9 +1,12 @@
 def startElement():
-    '''public void startElement(final QName element, final XMLAttributes attributes, final Augmentations augs)
+    '''returns None\n\n
+    startElement(final QName element, final XMLAttributes attributes, final Augmentations augs)\n
     '''
 def emptyElement():
-    '''public void emptyElement(final QName element, final XMLAttributes attributes, final Augmentations augs)
+    '''returns None\n\n
+    emptyElement(final QName element, final XMLAttributes attributes, final Augmentations augs)\n
     '''
 def endElement():
-    '''public void endElement(final QName element, final Augmentations augs)
+    '''returns None\n\n
+    endElement(final QName element, final Augmentations augs)\n
     '''

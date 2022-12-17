@@ -1,21 +1,28 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getUID():
-    '''public UID getUID()
+    '''returns UID\n\n
+    getUID()\n
     '''
 def isPreview():
-    '''public boolean isPreview()
+    '''returns boolean\n\n
+    isPreview()\n
     '''
 def getLoginUserName():
-    '''public String getLoginUserName()
+    '''returns String\n\n
+    getLoginUserName()\n
     '''
 def commitOnConnectionFree():
-    '''public boolean commitOnConnectionFree()
+    '''returns boolean\n\n
+    commitOnConnectionFree()\n
     '''
 def getTenantID():
-    '''public int getTenantID()
+    '''returns int\n\n
+    getTenantID()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

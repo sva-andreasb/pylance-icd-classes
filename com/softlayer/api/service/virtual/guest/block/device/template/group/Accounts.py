@@ -1,57 +1,76 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getGroup():
-    '''public Group getGroup()
+    '''returns Group\n\n
+    getGroup()\n
     '''
 def setGroup():
-    '''public void setGroup(final Group group)
+    '''returns None\n\n
+    setGroup(final Group group)\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getGroupId():
-    '''public Long getGroupId()
+    '''returns Long\n\n
+    getGroupId()\n
     '''
 def setGroupId():
-    '''public void setGroupId(final Long groupId)
+    '''returns None\n\n
+    setGroupId(final Long groupId)\n
     '''
 def isGroupIdSpecified():
-    '''public boolean isGroupIdSpecified()
+    '''returns boolean\n\n
+    isGroupIdSpecified()\n
     '''
 def unsetGroupId():
-    '''public void unsetGroupId()
+    '''returns None\n\n
+    unsetGroupId()\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def groupId():
-    '''public Mask groupId()
+    '''returns Mask\n\n
+    groupId()\n
     '''

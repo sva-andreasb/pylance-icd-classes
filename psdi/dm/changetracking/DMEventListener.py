@@ -1,33 +1,44 @@
-def DMEventListener():
-    '''public DMEventListener(final String pkgDefName, final String source)
+def ():
+    '''returns DMEventListener\n\n
+    (final String pkgDefName, final String source)\n
     '''
 def eventAction():
-    '''public void eventAction(final EventMessage em)
+    '''returns None\n\n
+    eventAction(final EventMessage em)\n
     '''
 def eventValidate():
-    '''public boolean eventValidate(final EventMessage em)
+    '''returns boolean\n\n
+    eventValidate(final EventMessage em)\n
     '''
 def postCommitEventAction():
-    '''public void postCommitEventAction(final EventMessage em)
+    '''returns None\n\n
+    postCommitEventAction(final EventMessage em)\n
     '''
 def preSaveEventAction():
-    '''public void preSaveEventAction(final EventMessage em)
+    '''returns None\n\n
+    preSaveEventAction(final EventMessage em)\n
     '''
 def preSaveInternalEventAction():
-    '''public void preSaveInternalEventAction(final EventMessage em)
+    '''returns None\n\n
+    preSaveInternalEventAction(final EventMessage em)\n
     '''
 def postSaveInternalEventAction():
-    '''public void postSaveInternalEventAction(final EventMessage em)
+    '''returns None\n\n
+    postSaveInternalEventAction(final EventMessage em)\n
     '''
 def trackEvents():
-    '''public void trackEvents(final EventMessage em)
+    '''returns None\n\n
+    trackEvents(final EventMessage em)\n
     '''
 def isValidPerson():
-    '''public boolean isValidPerson(final MboRemote eventMbo)
+    '''returns boolean\n\n
+    isValidPerson(final MboRemote eventMbo)\n
     '''
 def isValidEvent():
-    '''public boolean isValidEvent(MboRemote eventMbo)
+    '''returns boolean\n\n
+    isValidEvent(MboRemote eventMbo)\n
     '''
 def writeToEventTracking():
-    '''public void writeToEventTracking(final MboRemote eventMbo, final String eventName)
+    '''returns None\n\n
+    writeToEventTracking(final MboRemote eventMbo, final String eventName)\n
     '''

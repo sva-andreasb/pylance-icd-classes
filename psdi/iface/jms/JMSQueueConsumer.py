@@ -1,17 +1,20 @@
-def JMSQueueConsumer():
-    '''public JMSQueueConsumer(final String destinationName, final String conFactoryName, final String selector, final int txMode, final Properties env)
-    public JMSQueueConsumer(final String destinationName, final String selector, final Session session, final Properties env)
-    public JMSQueueConsumer(final String destinationName, final String conFactoryName, final String selector, final int txMode, final Properties env, final String providerUserName, final String providerPassword)
-    public JMSQueueConsumer(final String destinationName, final String conFactoryName, final String selector, final int txMode, final int receiveMode, final long waitTimeOut, final Properties env)
-    public JMSQueueConsumer(final String destinationName, final String conFactoryName, final String selector, final int txMode, final int receiveMode, final long waitTimeOut, final Properties env, final String providerUserName, final String providerPassword)
+def ():
+    '''returns JMSQueueConsumer\n\n
+    (final String destinationName, final String conFactoryName, final String selector, final int txMode, final Properties env)\n
+    (final String destinationName, final String selector, final Session session, final Properties env)\n
+    (final String destinationName, final String conFactoryName, final String selector, final int txMode, final Properties env, final String providerUserName, final String providerPassword)\n
+    (final String destinationName, final String conFactoryName, final String selector, final int txMode, final int receiveMode, final long waitTimeOut, final Properties env)\n
+    (final String destinationName, final String conFactoryName, final String selector, final int txMode, final int receiveMode, final long waitTimeOut, final Properties env, final String providerUserName, final String providerPassword)\n
     '''
 def deleteMessage():
-    '''public Map<String, String> deleteMessage()
-    public String deleteMessage(final boolean autocommit)
+    '''returns String\n\n
+    deleteMessage(final boolean autocommit)\n
     '''
 def deleteAllMessages():
-    '''public int deleteAllMessages()
+    '''returns int\n\n
+    deleteAllMessages()\n
     '''
 def createClientInSession():
-    '''public JMSClient createClientInSession()
+    '''returns JMSClient\n\n
+    createClientInSession()\n
     '''

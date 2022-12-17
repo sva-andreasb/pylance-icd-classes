@@ -1,12 +1,16 @@
-def GAWorkViewBean():
-    '''public GAWorkViewBean()
+def ():
+    '''returns GAWorkViewBean\n\n
+    ()\n
     '''
 def async_set_filtered_assignments():
-    '''public void async_set_filtered_assignments(@MXEventParam("filter") final JSONArray filter)
+    '''returns None\n\n
+    async_set_filtered_assignments(@MXEventParam("filter") final JSONArray filter)\n
     '''
 def autoRefreshModel():
-    '''public ReplyBuilder autoRefreshModel(@MXEventParam("projectid") final String projectId)
+    '''returns ReplyBuilder\n\n
+    autoRefreshModel(@MXEventParam("projectid") final String projectId)\n
     '''
 def onReset():
-    '''public void onReset()
+    '''returns None\n\n
+    onReset()\n
     '''

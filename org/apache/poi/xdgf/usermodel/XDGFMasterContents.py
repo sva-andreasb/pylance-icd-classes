@@ -1,6 +1,8 @@
-def XDGFMasterContents():
-    '''public XDGFMasterContents(final PackagePart part, final XDGFDocument document)
+def ():
+    '''returns XDGFMasterContents\n\n
+    (final PackagePart part, final XDGFDocument document)\n
     '''
 def getMaster():
-    '''public XDGFMaster getMaster()
+    '''returns XDGFMaster\n\n
+    getMaster()\n
     '''

@@ -1,15 +1,20 @@
-def CompositeImageLoader():
-    '''public CompositeImageLoader(final ImageLoader[] loaders)
+def ():
+    '''returns CompositeImageLoader\n\n
+    (final ImageLoader[] loaders)\n
     '''
 def getTargetFlavor():
-    '''public ImageFlavor getTargetFlavor()
+    '''returns ImageFlavor\n\n
+    getTargetFlavor()\n
     '''
 def getUsagePenalty():
-    '''public int getUsagePenalty()
+    '''returns int\n\n
+    getUsagePenalty()\n
     '''
 def loadImage():
-    '''public Image loadImage(final ImageInfo info, final Map hints, final ImageSessionContext session)
+    '''returns Image\n\n
+    loadImage(final ImageInfo info, final Map hints, final ImageSessionContext session)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

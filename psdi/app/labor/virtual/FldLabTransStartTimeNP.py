@@ -1,9 +1,12 @@
-def FldLabTransStartTimeNP():
-    '''public FldLabTransStartTimeNP(final MboValue mbv)
+def ():
+    '''returns FldLabTransStartTimeNP\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

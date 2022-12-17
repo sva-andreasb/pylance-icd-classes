@@ -1,63 +1,84 @@
-def ReportInfo():
-    '''public ReportInfo(final String name)
+def ():
+    '''returns ReportInfo\n\n
+    (final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String attributeName, final String attributeValue)
+    '''returns None\n\n
+    setAttribute(final String attributeName, final String attributeValue)\n
     '''
 def getAttribute():
-    '''public String getAttribute(final String attributeName)
+    '''returns String\n\n
+    getAttribute(final String attributeName)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final String attributeName)
+    '''returns None\n\n
+    removeAttribute(final String attributeName)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def getAttributes():
-    '''public Iterator getAttributes()
+    '''returns Iterator\n\n
+    getAttributes()\n
     '''
 def addReportResourceInfo():
-    '''public void addReportResourceInfo(final ReportResourceInfo rsInfo)
+    '''returns None\n\n
+    addReportResourceInfo(final ReportResourceInfo rsInfo)\n
     '''
 def getReportResources():
-    '''public Iterator getReportResources()
+    '''returns Iterator\n\n
+    getReportResources()\n
     '''
 def getReportResourcesList():
-    '''public List<ReportResourceInfo> getReportResourcesList()
+    '''returns List<ReportResourceInfo>\n\n
+    getReportResourcesList()\n
     '''
 def getReportResourcesSize():
-    '''public int getReportResourcesSize()
+    '''returns int\n\n
+    getReportResourcesSize()\n
     '''
 def getReportResourcesZipData():
-    '''public byte[] getReportResourcesZipData()
+    '''returns byte[]\n\n
+    getReportResourcesZipData()\n
     '''
 def setReportResourcesZipData():
-    '''public void setReportResourcesZipData(final byte[] resourcesZipData)
+    '''returns None\n\n
+    setReportResourcesZipData(final byte[] resourcesZipData)\n
     '''
 def getContent():
-    '''public byte[] getContent()
+    '''returns byte[]\n\n
+    getContent()\n
     '''
 def setReportContent():
-    '''public void setReportContent(final byte[] reportContent)
+    '''returns None\n\n
+    setReportContent(final byte[] reportContent)\n
     '''
 def setParameter():
-    '''public void setParameter(final String paramName, final ReportParameterInfo paramInfo)
+    '''returns None\n\n
+    setParameter(final String paramName, final ReportParameterInfo paramInfo)\n
     '''
 def getParameter():
-    '''public ReportParameterInfo getParameter(final String paramName)
+    '''returns ReportParameterInfo\n\n
+    getParameter(final String paramName)\n
     '''
 def removeParameter():
-    '''public void removeParameter(final String paramName)
+    '''returns None\n\n
+    removeParameter(final String paramName)\n
     '''
 def getParameters():
-    '''public Iterator getParameters()
+    '''returns Iterator\n\n
+    getParameters()\n
     '''
 def getParameterSet():
-    '''public Set<String> getParameterSet()
+    '''returns Set<String>\n\n
+    getParameterSet()\n
     '''
 def getReportParametersSize():
-    '''public int getReportParametersSize()
+    '''returns int\n\n
+    getReportParametersSize()\n
     '''

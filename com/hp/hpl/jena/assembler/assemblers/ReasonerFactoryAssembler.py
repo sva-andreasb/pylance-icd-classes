@@ -1,18 +1,19 @@
 def open():
-    '''public Object open(final Assembler a, final Resource root, final Mode irrelevant)
+    '''returns Object\n\n
+    open(final Assembler a, final Resource root, final Mode irrelevant)\n
     '''
 def create():
-    '''public Reasoner create(final Resource configuration)
-    public Reasoner create(final Resource configuration)
+    '''returns Reasoner\n\n
+    create(final Resource configuration)\n
+    create(final Resource configuration)\n
     '''
 def getCapabilities():
-    '''public Model getCapabilities()
-    public Model getCapabilities()
+    '''returns Model\n\n
+    getCapabilities()\n
+    getCapabilities()\n
     '''
 def getURI():
-    '''public String getURI()
-    public String getURI()
-    '''
-def getReasonerFactoryByURL():
-    '''public static ReasonerFactory getReasonerFactoryByURL(final Resource root, final Resource reasonerURL)
+    '''returns String\n\n
+    getURI()\n
+    getURI()\n
     '''

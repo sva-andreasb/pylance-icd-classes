@@ -1,6 +1,8 @@
-def RFC6265LaxSpec():
-    '''public RFC6265LaxSpec()
+def ():
+    '''returns RFC6265LaxSpec\n\n
+    ()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

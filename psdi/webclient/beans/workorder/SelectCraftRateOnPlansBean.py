@@ -1,3 +1,4 @@
 def getCRSet():
-    '''public MboSetRemote getCRSet(final MboRemote woMbo)
+    '''returns MboSetRemote\n\n
+    getCRSet(final MboRemote woMbo)\n
     '''

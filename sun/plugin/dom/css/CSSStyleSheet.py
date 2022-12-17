@@ -1,15 +1,20 @@
-def CSSStyleSheet():
-    '''public CSSStyleSheet(final DOMObject domObject, final Node node)
+def ():
+    '''returns CSSStyleSheet\n\n
+    (final DOMObject domObject, final Node node)\n
     '''
 def getOwnerRule():
-    '''public CSSRule getOwnerRule()
+    '''returns CSSRule\n\n
+    getOwnerRule()\n
     '''
 def getCssRules():
-    '''public CSSRuleList getCssRules()
+    '''returns CSSRuleList\n\n
+    getCssRules()\n
     '''
 def insertRule():
-    '''public int insertRule(final String s, final int value)
+    '''returns int\n\n
+    insertRule(final String s, final int value)\n
     '''
 def deleteRule():
-    '''public void deleteRule(final int value)
+    '''returns None\n\n
+    deleteRule(final int value)\n
     '''

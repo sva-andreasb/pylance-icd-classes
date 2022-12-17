@@ -1,4 +1,5 @@
-def ShortWrapperHolder():
-    '''public ShortWrapperHolder()
-    public ShortWrapperHolder(final Short value)
+def ():
+    '''returns ShortWrapperHolder\n\n
+    ()\n
+    (final Short myshort)\n
     '''

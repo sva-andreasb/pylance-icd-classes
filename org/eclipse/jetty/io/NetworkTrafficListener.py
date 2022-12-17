@@ -1,12 +1,16 @@
 def opened():
-    '''public void opened(final Socket socket)
+    '''returns None\n\n
+    opened(final Socket socket)\n
     '''
 def incoming():
-    '''public void incoming(final Socket socket, final Buffer bytes)
+    '''returns None\n\n
+    incoming(final Socket socket, final Buffer bytes)\n
     '''
 def outgoing():
-    '''public void outgoing(final Socket socket, final Buffer bytes)
+    '''returns None\n\n
+    outgoing(final Socket socket, final Buffer bytes)\n
     '''
 def closed():
-    '''public void closed(final Socket socket)
+    '''returns None\n\n
+    closed(final Socket socket)\n
     '''

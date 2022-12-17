@@ -1,15 +1,19 @@
-def Sigmoid():
-    '''public Sigmoid()
-    public Sigmoid(final double lo, final double hi)
+def ():
+    '''returns Sigmoid\n\n
+    ()\n
+    (final double lo, final double hi)\n
     '''
 def derivative():
-    '''public UnivariateFunction derivative()
+    '''returns UnivariateFunction\n\n
+    derivative()\n
     '''
 def value():
-    '''public double value(final double x)
-    public DerivativeStructure value(final DerivativeStructure t)
-    public double value(final double x, final double... param)
+    '''returns double\n\n
+    value(final double x)\n
+    value(final DerivativeStructure t)\n
+    value(final double x, final double... param)\n
     '''
 def gradient():
-    '''public double[] gradient(final double x, final double... param)
+    '''returns double[]\n\n
+    gradient(final double x, final double... param)\n
     '''

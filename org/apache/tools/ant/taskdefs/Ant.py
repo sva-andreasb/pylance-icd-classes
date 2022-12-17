@@ -1,73 +1,94 @@
-def Ant():
-    '''public Ant()
-    public Ant(final Task owner)
+def ():
+    '''returns Reference\n\n
+    ()\n
+    (final Task owner)\n
+    ()\n
     '''
 def setUseNativeBasedir():
-    '''public void setUseNativeBasedir(final boolean b)
+    '''returns None\n\n
+    setUseNativeBasedir(final boolean b)\n
     '''
 def setInheritAll():
-    '''public void setInheritAll(final boolean value)
+    '''returns None\n\n
+    setInheritAll(final boolean value)\n
     '''
 def setInheritRefs():
-    '''public void setInheritRefs(final boolean value)
+    '''returns None\n\n
+    setInheritRefs(final boolean value)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def handleOutput():
-    '''public void handleOutput(final String outputToHandle)
+    '''returns None\n\n
+    handleOutput(final String outputToHandle)\n
     '''
 def handleInput():
-    '''public int handleInput(final byte[] buffer, final int offset, final int length)
+    '''returns int\n\n
+    handleInput(final byte[] buffer, final int offset, final int length)\n
     '''
 def handleFlush():
-    '''public void handleFlush(final String toFlush)
+    '''returns None\n\n
+    handleFlush(final String toFlush)\n
     '''
 def handleErrorOutput():
-    '''public void handleErrorOutput(final String errorOutputToHandle)
+    '''returns None\n\n
+    handleErrorOutput(final String errorOutputToHandle)\n
     '''
 def handleErrorFlush():
-    '''public void handleErrorFlush(final String errorOutputToFlush)
+    '''returns None\n\n
+    handleErrorFlush(final String errorOutputToFlush)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setDir():
-    '''public void setDir(final File dir)
+    '''returns None\n\n
+    setDir(final File dir)\n
     '''
 def setAntfile():
-    '''public void setAntfile(final String antFile)
+    '''returns None\n\n
+    setAntfile(final String antFile)\n
     '''
 def setTarget():
-    '''public void setTarget(final String targetToAdd)
+    '''returns None\n\n
+    setTarget(final String targetToAdd)\n
     '''
 def setOutput():
-    '''public void setOutput(final String outputFile)
+    '''returns None\n\n
+    setOutput(final String outputFile)\n
     '''
 def createProperty():
-    '''public Property createProperty()
+    '''returns Property\n\n
+    createProperty()\n
     '''
 def addReference():
-    '''public void addReference(final Reference ref)
+    '''returns None\n\n
+    addReference(final Reference ref)\n
     '''
 def addConfiguredTarget():
-    '''public void addConfiguredTarget(final TargetElement t)
+    '''returns None\n\n
+    addConfiguredTarget(final TargetElement t)\n
     '''
 def addPropertyset():
-    '''public void addPropertyset(final PropertySet ps)
-    '''
-def Reference():
-    '''public Reference()
+    '''returns None\n\n
+    addPropertyset(final PropertySet ps)\n
     '''
 def setToRefid():
-    '''public void setToRefid(final String targetid)
+    '''returns None\n\n
+    setToRefid(final String targetid)\n
     '''
 def getToRefid():
-    '''public String getToRefid()
+    '''returns String\n\n
+    getToRefid()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

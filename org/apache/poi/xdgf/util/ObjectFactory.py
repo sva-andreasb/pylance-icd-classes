@@ -1,9 +1,12 @@
-def ObjectFactory():
-    '''public ObjectFactory()
+def ():
+    '''returns ObjectFactory\n\n
+    ()\n
     '''
 def put():
-    '''public void put(final String typeName, final Class<? extends T> cls, final Class<?>... varargs)
+    '''returns None\n\n
+    put(final String typeName, final Class<? extends T> cls, final Class<?>... varargs)\n
     '''
 def load():
-    '''public T load(final String name, final Object... varargs)
+    '''returns T\n\n
+    load(final String name, final Object... varargs)\n
     '''

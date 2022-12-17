@@ -1,4 +1,5 @@
-def FldRelationNum():
-    '''public FldRelationNum(final MboValue mbv)
-    public FldRelationNum(final MboValue mbv, String criteriaName)
+def ():
+    '''returns FldRelationNum\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, String criteriaName)\n
     '''

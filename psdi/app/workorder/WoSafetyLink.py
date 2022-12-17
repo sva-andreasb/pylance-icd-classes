@@ -1,57 +1,76 @@
-def WoSafetyLink():
-    '''public WoSafetyLink(final MboSet ms)
+def ():
+    '''returns WoSafetyLink\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setAssetDescription():
-    '''public void setAssetDescription(final boolean tagout)
+    '''returns None\n\n
+    setAssetDescription(final boolean tagout)\n
     '''
 def copyAttributesFromHazard():
-    '''public void copyAttributesFromHazard(final MboRemote hazardMbo)
+    '''returns None\n\n
+    copyAttributesFromHazard(final MboRemote hazardMbo)\n
     '''
 def copyAttributesFromTagout():
-    '''public void copyAttributesFromTagout(final MboRemote tagMbo)
+    '''returns None\n\n
+    copyAttributesFromTagout(final MboRemote tagMbo)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def toBeSaved():
-    '''public boolean toBeSaved()
+    '''returns boolean\n\n
+    toBeSaved()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def maintainWoHazard():
-    '''public void maintainWoHazard()
+    '''returns None\n\n
+    maintainWoHazard()\n
     '''
 def maintainWoTagout():
-    '''public void maintainWoTagout()
+    '''returns None\n\n
+    maintainWoTagout()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def isHazardEnabled():
-    '''public boolean isHazardEnabled()
+    '''returns boolean\n\n
+    isHazardEnabled()\n
     '''
 def isPrecautionEnabled():
-    '''public boolean isPrecautionEnabled()
+    '''returns boolean\n\n
+    isPrecautionEnabled()\n
     '''
 def isTagOutEnabled():
-    '''public boolean isTagOutEnabled()
+    '''returns boolean\n\n
+    isTagOutEnabled()\n
     '''

@@ -1,15 +1,20 @@
-def KPITrendGraph():
-    '''public KPITrendGraph(final List kpis, final Date from, final Date to, final String range, final long mainKPI, final WebClientSession clientsession)
+def ():
+    '''returns KPITrendGraph\n\n
+    (final List kpis, final Date from, final Date to, final String range, final long mainKPI, final WebClientSession clientsession)\n
     '''
 def getDates():
-    '''public Vector getDates(final int datePart, final int points, final GregorianCalendar g, final int skip)
+    '''returns Vector\n\n
+    getDates(final int datePart, final int points, final GregorianCalendar g, final int skip)\n
     '''
 def getXIncrement():
-    '''public int getXIncrement()
+    '''returns int\n\n
+    getXIncrement()\n
     '''
 def makeChartData():
-    '''public LineChartData makeChartData()
+    '''returns LineChartData\n\n
+    makeChartData()\n
     '''
 def getColor():
-    '''public String getColor(final int i)
+    '''returns String\n\n
+    getColor(final int i)\n
     '''

@@ -1,9 +1,8 @@
-def PlusPFldWPLaborVendor():
-    '''public PlusPFldWPLaborVendor(final MboValue arg0)
+def ():
+    '''returns PlusPFldWPLaborVendor\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
-    '''
-def getVendorCustomerFilterWhere():
-    '''public static String getVendorCustomerFilterWhere()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,18 +1,23 @@
-def IlvCurrentTimeIndicator():
-    '''public IlvCurrentTimeIndicator()
-    public IlvCurrentTimeIndicator(final int n)
-    public IlvCurrentTimeIndicator(final IlvGraphic ilvGraphic)
-    public IlvCurrentTimeIndicator(final int a, final IlvGraphic ilvGraphic)
+def ():
+    '''returns IlvCurrentTimeIndicator\n\n
+    ()\n
+    (final int n)\n
+    (final IlvGraphic ilvGraphic)\n
+    (final int a, final IlvGraphic ilvGraphic)\n
     '''
 def getRefreshFrequency():
-    '''public int getRefreshFrequency()
+    '''returns int\n\n
+    getRefreshFrequency()\n
     '''
 def setRefreshFrequency():
-    '''public void setRefreshFrequency(final int n)
+    '''returns None\n\n
+    setRefreshFrequency(final int n)\n
     '''
 def setTime():
-    '''public void setTime(final Date date)
+    '''returns None\n\n
+    setTime(final Date date)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''

@@ -1,24 +1,32 @@
 def blRetrieveSucceeded():
-    '''public void blRetrieveSucceeded(final BLEvent blEvent)
+    '''returns None\n\n
+    blRetrieveSucceeded(final BLEvent blEvent)\n
     '''
 def blRetrieveFailed():
-    '''public void blRetrieveFailed(final BLEvent blEvent)
+    '''returns None\n\n
+    blRetrieveFailed(final BLEvent blEvent)\n
     '''
 def blSetSucceeded():
-    '''public void blSetSucceeded(final BLEvent blEvent)
+    '''returns None\n\n
+    blSetSucceeded(final BLEvent blEvent)\n
     '''
 def blSetFailed():
-    '''public void blSetFailed(final BLEvent blEvent)
+    '''returns None\n\n
+    blSetFailed(final BLEvent blEvent)\n
     '''
 def blUpdated():
-    '''public void blUpdated(final BLEvent blEvent)
+    '''returns None\n\n
+    blUpdated(final BLEvent blEvent)\n
     '''
 def serviceUnavailable():
-    '''public void serviceUnavailable(final BLEvent blEvent)
+    '''returns None\n\n
+    serviceUnavailable(final BLEvent blEvent)\n
     '''
 def serviceAvailable():
-    '''public void serviceAvailable(final BLEvent blEvent)
+    '''returns None\n\n
+    serviceAvailable(final BLEvent blEvent)\n
     '''
 def blOverflowed():
-    '''public void blOverflowed(final BLEvent blEvent)
+    '''returns None\n\n
+    blOverflowed(final BLEvent blEvent)\n
     '''

@@ -1,102 +1,64 @@
-def standard():
-    '''public static PeriodType standard()
-    '''
-def yearMonthDayTime():
-    '''public static PeriodType yearMonthDayTime()
-    '''
-def yearMonthDay():
-    '''public static PeriodType yearMonthDay()
-    '''
-def yearWeekDayTime():
-    '''public static PeriodType yearWeekDayTime()
-    '''
-def yearWeekDay():
-    '''public static PeriodType yearWeekDay()
-    '''
-def yearDayTime():
-    '''public static PeriodType yearDayTime()
-    '''
-def yearDay():
-    '''public static PeriodType yearDay()
-    '''
-def dayTime():
-    '''public static PeriodType dayTime()
-    '''
-def time():
-    '''public static PeriodType time()
-    '''
-def years():
-    '''public static PeriodType years()
-    '''
-def months():
-    '''public static PeriodType months()
-    '''
-def weeks():
-    '''public static PeriodType weeks()
-    '''
-def days():
-    '''public static PeriodType days()
-    '''
-def hours():
-    '''public static PeriodType hours()
-    '''
-def minutes():
-    '''public static PeriodType minutes()
-    '''
-def seconds():
-    '''public static PeriodType seconds()
-    '''
-def millis():
-    '''public static PeriodType millis()
-    '''
-def forFields():
-    '''public static synchronized PeriodType forFields(final DurationFieldType[] a)
-    '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getFieldType():
-    '''public DurationFieldType getFieldType(final int n)
+    '''returns DurationFieldType\n\n
+    getFieldType(final int n)\n
     '''
 def isSupported():
-    '''public boolean isSupported(final DurationFieldType durationFieldType)
+    '''returns boolean\n\n
+    isSupported(final DurationFieldType durationFieldType)\n
     '''
 def indexOf():
-    '''public int indexOf(final DurationFieldType durationFieldType)
+    '''returns int\n\n
+    indexOf(final DurationFieldType durationFieldType)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def withYearsRemoved():
-    '''public PeriodType withYearsRemoved()
+    '''returns PeriodType\n\n
+    withYearsRemoved()\n
     '''
 def withMonthsRemoved():
-    '''public PeriodType withMonthsRemoved()
+    '''returns PeriodType\n\n
+    withMonthsRemoved()\n
     '''
 def withWeeksRemoved():
-    '''public PeriodType withWeeksRemoved()
+    '''returns PeriodType\n\n
+    withWeeksRemoved()\n
     '''
 def withDaysRemoved():
-    '''public PeriodType withDaysRemoved()
+    '''returns PeriodType\n\n
+    withDaysRemoved()\n
     '''
 def withHoursRemoved():
-    '''public PeriodType withHoursRemoved()
+    '''returns PeriodType\n\n
+    withHoursRemoved()\n
     '''
 def withMinutesRemoved():
-    '''public PeriodType withMinutesRemoved()
+    '''returns PeriodType\n\n
+    withMinutesRemoved()\n
     '''
 def withSecondsRemoved():
-    '''public PeriodType withSecondsRemoved()
+    '''returns PeriodType\n\n
+    withSecondsRemoved()\n
     '''
 def withMillisRemoved():
-    '''public PeriodType withMillisRemoved()
+    '''returns PeriodType\n\n
+    withMillisRemoved()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

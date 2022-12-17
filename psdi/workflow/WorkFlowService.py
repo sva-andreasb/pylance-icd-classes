@@ -1,35 +1,46 @@
-def WorkFlowService():
-    '''public WorkFlowService()
-    public WorkFlowService(final MXServer mxServer)
+def ():
+    '''returns WorkFlowService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def getActiveInstances():
-    '''public WFInstanceSetRemote getActiveInstances(final MboRemote mbo)
+    '''returns WFInstanceSetRemote\n\n
+    getActiveInstances(final MboRemote mbo)\n
     '''
 def validateCondition():
-    '''public void validateCondition(final MboRemote onBehalfOf, final String customAttr, final String condAttr)
+    '''returns None\n\n
+    validateCondition(final MboRemote onBehalfOf, final String customAttr, final String condAttr)\n
     '''
 def evaluateCondition():
-    '''public boolean evaluateCondition(final Mbo onBehalfOf, final String customclass, final String condition, final MboRemote mbo)
+    '''returns boolean\n\n
+    evaluateCondition(final Mbo onBehalfOf, final String customclass, final String condition, final MboRemote mbo)\n
     '''
 def initiateWorkflow():
-    '''public void initiateWorkflow(final String processName, final MboRemote target)
+    '''returns None\n\n
+    initiateWorkflow(final String processName, final MboRemote target)\n
     '''
 def getWFLogger():
-    '''public MXLogger getWFLogger()
-    public MXLogger getWFLogger(final Mbo mbo)
+    '''returns MXLogger\n\n
+    getWFLogger()\n
+    getWFLogger(final Mbo mbo)\n
     '''
 def completeAssignment():
-    '''public void completeAssignment(@WSMboKey("WFASSIGNMENT") final WFAssignmentRemote assign, final String memo, final boolean accepted)
+    '''returns None\n\n
+    completeAssignment(@WSMboKey("WFASSIGNMENT") final WFAssignmentRemote assign, final String memo, final boolean accepted)\n
     '''
 def isActiveProcess():
-    '''public boolean isActiveProcess(final String processName, final String mboName, final UserInfo ui)
+    '''returns boolean\n\n
+    isActiveProcess(final String processName, final String mboName, final UserInfo ui)\n
     '''
 def getDefaultAppForObject():
-    '''public String getDefaultAppForObject(final UserInfo ui, final String objectName)
+    '''returns String\n\n
+    getDefaultAppForObject(final UserInfo ui, final String objectName)\n
     '''

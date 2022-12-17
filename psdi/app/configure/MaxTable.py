@@ -1,3 +1,4 @@
-def MaxTable():
-    '''public MaxTable(final MboSet ms)
+def ():
+    '''returns MaxTable\n\n
+    (final MboSet ms)\n
     '''

@@ -1,4 +1,5 @@
-def IntHolder():
-    '''public IntHolder()
-    public IntHolder(final int value)
+def ():
+    '''returns IntHolder\n\n
+    ()\n
+    (final int myint)\n
     '''

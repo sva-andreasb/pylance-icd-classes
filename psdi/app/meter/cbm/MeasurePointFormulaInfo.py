@@ -1,27 +1,36 @@
-def MeasurePointFormulaInfo():
-    '''public MeasurePointFormulaInfo(final String meterName, final String defaultFormula)
+def ():
+    '''returns MeasurePointFormulaInfo\n\n
+    (final String meterName, final String defaultFormula)\n
     '''
 def getMeterName():
-    '''public String getMeterName()
+    '''returns String\n\n
+    getMeterName()\n
     '''
 def getDefaultFormula():
-    '''public String getDefaultFormula()
+    '''returns String\n\n
+    getDefaultFormula()\n
     '''
 def setAssetMeterFormula():
-    '''public void setAssetMeterFormula(final String siteid, final String assetnum, final String formula)
+    '''returns None\n\n
+    setAssetMeterFormula(final String siteid, final String assetnum, final String formula)\n
     '''
 def setLocMeterFormula():
-    '''public void setLocMeterFormula(final String siteid, final String location, final String formula)
+    '''returns None\n\n
+    setLocMeterFormula(final String siteid, final String location, final String formula)\n
     '''
 def getFormulaForAssetMeter():
-    '''public String getFormulaForAssetMeter(final String siteid, final String assetnum)
+    '''returns String\n\n
+    getFormulaForAssetMeter(final String siteid, final String assetnum)\n
     '''
 def getFormulaForAssetMeterMbo():
-    '''public String getFormulaForAssetMeterMbo(final MboRemote assetMeter)
+    '''returns String\n\n
+    getFormulaForAssetMeterMbo(final MboRemote assetMeter)\n
     '''
 def getFormulaForLocMeter():
-    '''public String getFormulaForLocMeter(final String siteid, final String location)
+    '''returns String\n\n
+    getFormulaForLocMeter(final String siteid, final String location)\n
     '''
 def getFormulaForLocMeterMbo():
-    '''public String getFormulaForLocMeterMbo(final MboRemote locMeter)
+    '''returns String\n\n
+    getFormulaForLocMeterMbo(final MboRemote locMeter)\n
     '''

@@ -1,18 +1,24 @@
-def IoTFHistorianInfo():
-    '''public IoTFHistorianInfo(final String historian, final String endPointName, final String processor, final boolean isDefault, final boolean isIoTHistorian)
+def ():
+    '''returns IoTFHistorianInfo\n\n
+    (final String historian, final String endPointName, final String processor, final boolean isDefault, final boolean isIoTHistorian)\n
     '''
 def getHistorian():
-    '''public String getHistorian()
+    '''returns String\n\n
+    getHistorian()\n
     '''
 def getEndPointName():
-    '''public String getEndPointName()
+    '''returns String\n\n
+    getEndPointName()\n
     '''
 def getProcessorClass():
-    '''public String getProcessorClass()
+    '''returns String\n\n
+    getProcessorClass()\n
     '''
 def isDefault():
-    '''public boolean isDefault()
+    '''returns boolean\n\n
+    isDefault()\n
     '''
 def isIoTHistorian():
-    '''public boolean isIoTHistorian()
+    '''returns boolean\n\n
+    isIoTHistorian()\n
     '''

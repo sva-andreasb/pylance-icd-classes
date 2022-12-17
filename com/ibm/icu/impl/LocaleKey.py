@@ -1,35 +1,37 @@
 KIND_ANY = "int  -1"
-def createWithCanonicalFallback():
-    '''public static LocaleKey createWithCanonicalFallback(final String primaryID, final String canonicalFallbackID)
-    public static LocaleKey createWithCanonicalFallback(final String primaryID, final String canonicalFallbackID, final int kind)
-    '''
-def createWithCanonical():
-    '''public static LocaleKey createWithCanonical(final ULocale locale, final String canonicalFallbackID, final int kind)
-    '''
 def prefix():
-    '''public String prefix()
+    '''returns String\n\n
+    prefix()\n
     '''
 def kind():
-    '''public int kind()
+    '''returns int\n\n
+    kind()\n
     '''
 def canonicalID():
-    '''public String canonicalID()
+    '''returns String\n\n
+    canonicalID()\n
     '''
 def currentID():
-    '''public String currentID()
+    '''returns String\n\n
+    currentID()\n
     '''
 def currentDescriptor():
-    '''public String currentDescriptor()
+    '''returns String\n\n
+    currentDescriptor()\n
     '''
 def canonicalLocale():
-    '''public ULocale canonicalLocale()
+    '''returns ULocale\n\n
+    canonicalLocale()\n
     '''
 def currentLocale():
-    '''public ULocale currentLocale()
+    '''returns ULocale\n\n
+    currentLocale()\n
     '''
 def fallback():
-    '''public boolean fallback()
+    '''returns boolean\n\n
+    fallback()\n
     '''
 def isFallbackOf():
-    '''public boolean isFallbackOf(final String id)
+    '''returns boolean\n\n
+    isFallbackOf(final String id)\n
     '''

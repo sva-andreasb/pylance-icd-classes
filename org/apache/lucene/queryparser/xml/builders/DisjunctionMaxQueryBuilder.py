@@ -1,6 +1,8 @@
-def DisjunctionMaxQueryBuilder():
-    '''public DisjunctionMaxQueryBuilder(final QueryBuilder factory)
+def ():
+    '''returns DisjunctionMaxQueryBuilder\n\n
+    (final QueryBuilder factory)\n
     '''
 def getQuery():
-    '''public Query getQuery(final Element e)
+    '''returns Query\n\n
+    getQuery(final Element e)\n
     '''

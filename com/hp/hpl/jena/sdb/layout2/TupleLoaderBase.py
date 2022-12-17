@@ -1,57 +1,76 @@
-def TupleLoaderBase():
-    '''public TupleLoaderBase(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
+def ():
+    '''returns TupleLoaderBase\n\n
+    (final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)\n
     '''
 def getArity():
-    '''public int getArity()
+    '''returns int\n\n
+    getArity()\n
     '''
 def load():
-    '''public void load(final Node... row)
+    '''returns None\n\n
+    load(final Node... row)\n
     '''
 def unload():
-    '''public void unload(final Node... row)
+    '''returns None\n\n
+    unload(final Node... row)\n
     '''
 def finish():
-    '''public void finish()
+    '''returns None\n\n
+    finish()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getNodeLoader():
-    '''public String getNodeLoader()
+    '''returns String\n\n
+    getNodeLoader()\n
     '''
 def getTupleLoader():
-    '''public String getTupleLoader()
+    '''returns String\n\n
+    getTupleLoader()\n
     '''
 def getCreateTempNodes():
-    '''public String getCreateTempNodes()
+    '''returns String\n\n
+    getCreateTempNodes()\n
     '''
 def getCreateTempTuples():
-    '''public String getCreateTempTuples()
+    '''returns String\n\n
+    getCreateTempTuples()\n
     '''
 def getInsertTempNodes():
-    '''public String getInsertTempNodes()
+    '''returns String\n\n
+    getInsertTempNodes()\n
     '''
 def getInsertTempTuples():
-    '''public String getInsertTempTuples()
+    '''returns String\n\n
+    getInsertTempTuples()\n
     '''
 def getLoadNodes():
-    '''public String getLoadNodes()
+    '''returns String\n\n
+    getLoadNodes()\n
     '''
 def getClearTempNodes():
-    '''public String getClearTempNodes()
+    '''returns String\n\n
+    getClearTempNodes()\n
     '''
 def getClearTempTuples():
-    '''public String getClearTempTuples()
+    '''returns String\n\n
+    getClearTempTuples()\n
     '''
 def clearsOnCommit():
-    '''public boolean clearsOnCommit()
+    '''returns boolean\n\n
+    clearsOnCommit()\n
     '''
 def addToStatement():
-    '''public void addToStatement(final PreparedStatement s)
+    '''returns None\n\n
+    addToStatement(final PreparedStatement s)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''

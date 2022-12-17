@@ -1,3 +1,4 @@
-def OMHierarchyException():
-    '''public OMHierarchyException(final String message)
+def ():
+    '''returns OMHierarchyException\n\n
+    (final String message)\n
     '''

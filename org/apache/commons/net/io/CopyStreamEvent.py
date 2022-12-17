@@ -1,13 +1,17 @@
 UNKNOWN_STREAM_SIZE = "long  -1L"
-def CopyStreamEvent():
-    '''public CopyStreamEvent(final Object source, final long totalBytesTransferred, final int bytesTransferred, final long streamSize)
+def ():
+    '''returns CopyStreamEvent\n\n
+    (final Object source, final long totalBytesTransferred, final int bytesTransferred, final long streamSize)\n
     '''
 def getBytesTransferred():
-    '''public int getBytesTransferred()
+    '''returns int\n\n
+    getBytesTransferred()\n
     '''
 def getTotalBytesTransferred():
-    '''public long getTotalBytesTransferred()
+    '''returns long\n\n
+    getTotalBytesTransferred()\n
     '''
 def getStreamSize():
-    '''public long getStreamSize()
+    '''returns long\n\n
+    getStreamSize()\n
     '''

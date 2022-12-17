@@ -1,9 +1,8 @@
-def Any2LsRGBRed():
-    '''public Any2LsRGBRed(final CachableRed src)
-    '''
-def sRGBToLsRGB():
-    '''public static final double sRGBToLsRGB(final double value)
+def ():
+    '''returns Any2LsRGBRed\n\n
+    (final CachableRed src)\n
     '''
 def copyData():
-    '''public WritableRaster copyData(final WritableRaster wr)
+    '''returns WritableRaster\n\n
+    copyData(final WritableRaster wr)\n
     '''

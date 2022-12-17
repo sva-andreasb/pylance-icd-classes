@@ -1,15 +1,12 @@
-def setup():
-    '''public static void setup()
-    '''
-def getInstance():
-    '''public static LibIdnXmppStringprep getInstance()
-    '''
 def localprep():
-    '''public String localprep(final String string)
+    '''returns String\n\n
+    localprep(final String string)\n
     '''
 def domainprep():
-    '''public String domainprep(final String string)
+    '''returns String\n\n
+    domainprep(final String string)\n
     '''
 def resourceprep():
-    '''public String resourceprep(final String string)
+    '''returns String\n\n
+    resourceprep(final String string)\n
     '''

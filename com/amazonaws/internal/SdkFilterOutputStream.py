@@ -1,9 +1,8 @@
-def SdkFilterOutputStream():
-    '''public SdkFilterOutputStream(final OutputStream out)
+def ():
+    '''returns SdkFilterOutputStream\n\n
+    (final OutputStream out)\n
     '''
 def isMetricActivated():
-    '''public boolean isMetricActivated()
-    '''
-def release():
-    '''public final void release()
+    '''returns boolean\n\n
+    isMetricActivated()\n
     '''

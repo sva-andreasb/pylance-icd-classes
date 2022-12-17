@@ -1,45 +1,60 @@
 def setApplication():
-    '''public void setApplication(final IlvApplication ilvApplication)
+    '''returns None\n\n
+    setApplication(final IlvApplication ilvApplication)\n
     '''
 def getContainerTemplate():
-    '''public IlvContainerTemplate getContainerTemplate(final String s)
+    '''returns IlvContainerTemplate\n\n
+    getContainerTemplate(final String s)\n
     '''
 def getContainerTemplateName():
-    '''public String getContainerTemplateName(final IlvContainerTemplate ilvContainerTemplate)
+    '''returns String\n\n
+    getContainerTemplateName(final IlvContainerTemplate ilvContainerTemplate)\n
     '''
 def getContainerTemplates():
-    '''public IlvContainerTemplate[] getContainerTemplates()
+    '''returns IlvContainerTemplate[]\n\n
+    getContainerTemplates()\n
     '''
 def addContainerTemplate():
-    '''public void addContainerTemplate(final String s, final IlvContainerTemplate ilvContainerTemplate)
+    '''returns None\n\n
+    addContainerTemplate(final String s, final IlvContainerTemplate ilvContainerTemplate)\n
     '''
 def removeContainerTemplate():
-    '''public void removeContainerTemplate(final IlvContainerTemplate ilvContainerTemplate)
+    '''returns None\n\n
+    removeContainerTemplate(final IlvContainerTemplate ilvContainerTemplate)\n
     '''
 def registerStaticView():
-    '''public void registerStaticView(final String s, final IlvDocumentView ilvDocumentView)
+    '''returns None\n\n
+    registerStaticView(final String s, final IlvDocumentView ilvDocumentView)\n
     '''
 def unregisterStaticView():
-    '''public void unregisterStaticView(final IlvDocumentView ilvDocumentView)
+    '''returns None\n\n
+    unregisterStaticView(final IlvDocumentView ilvDocumentView)\n
     '''
 def registerStaticContainer():
-    '''public void registerStaticContainer(final String s, final IlvViewContainer ilvViewContainer)
+    '''returns None\n\n
+    registerStaticContainer(final String s, final IlvViewContainer ilvViewContainer)\n
     '''
 def readSettings():
-    '''public void readSettings(final IlvSettings ilvSettings)
+    '''returns None\n\n
+    readSettings(final IlvSettings ilvSettings)\n
     '''
 def getViewContainer():
-    '''public IlvViewContainer getViewContainer()
+    '''returns IlvViewContainer\n\n
+    getViewContainer()\n
     '''
 def unregisterStaticContainer():
-    '''public boolean unregisterStaticContainer(final IlvViewContainer ilvViewContainer)
+    '''returns boolean\n\n
+    unregisterStaticContainer(final IlvViewContainer ilvViewContainer)\n
     '''
 def containerActivated():
-    '''public void containerActivated(final IlvViewContainer ilvViewContainer)
+    '''returns None\n\n
+    containerActivated(final IlvViewContainer ilvViewContainer)\n
     '''
 def activate():
-    '''public void activate()
+    '''returns None\n\n
+    activate()\n
     '''
 def isContainerVisible():
-    '''public boolean isContainerVisible()
+    '''returns boolean\n\n
+    isContainerVisible()\n
     '''

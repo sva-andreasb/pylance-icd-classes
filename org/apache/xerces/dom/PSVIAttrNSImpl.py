@@ -1,58 +1,77 @@
-def PSVIAttrNSImpl():
-    '''public PSVIAttrNSImpl(final CoreDocumentImpl coreDocumentImpl, final String s, final String s2, final String s3)
-    public PSVIAttrNSImpl(final CoreDocumentImpl coreDocumentImpl, final String s, final String s2)
+def ():
+    '''returns PSVIAttrNSImpl\n\n
+    (final CoreDocumentImpl coreDocumentImpl, final String s, final String s2, final String s3)\n
+    (final CoreDocumentImpl coreDocumentImpl, final String s, final String s2)\n
     '''
 def constant():
-    '''public ItemPSVI constant()
+    '''returns ItemPSVI\n\n
+    constant()\n
     '''
 def isConstant():
-    '''public boolean isConstant()
+    '''returns boolean\n\n
+    isConstant()\n
     '''
 def getSchemaDefault():
-    '''public String getSchemaDefault()
+    '''returns String\n\n
+    getSchemaDefault()\n
     '''
 def getSchemaNormalizedValue():
-    '''public String getSchemaNormalizedValue()
+    '''returns String\n\n
+    getSchemaNormalizedValue()\n
     '''
 def getIsSchemaSpecified():
-    '''public boolean getIsSchemaSpecified()
+    '''returns boolean\n\n
+    getIsSchemaSpecified()\n
     '''
 def getValidationAttempted():
-    '''public short getValidationAttempted()
+    '''returns short\n\n
+    getValidationAttempted()\n
     '''
 def getValidity():
-    '''public short getValidity()
+    '''returns short\n\n
+    getValidity()\n
     '''
 def getErrorCodes():
-    '''public StringList getErrorCodes()
+    '''returns StringList\n\n
+    getErrorCodes()\n
     '''
 def getErrorMessages():
-    '''public StringList getErrorMessages()
+    '''returns StringList\n\n
+    getErrorMessages()\n
     '''
 def getValidationContext():
-    '''public String getValidationContext()
+    '''returns String\n\n
+    getValidationContext()\n
     '''
 def getTypeDefinition():
-    '''public XSTypeDefinition getTypeDefinition()
+    '''returns XSTypeDefinition\n\n
+    getTypeDefinition()\n
     '''
 def getMemberTypeDefinition():
-    '''public XSSimpleTypeDefinition getMemberTypeDefinition()
+    '''returns XSSimpleTypeDefinition\n\n
+    getMemberTypeDefinition()\n
     '''
 def getAttributeDeclaration():
-    '''public XSAttributeDeclaration getAttributeDeclaration()
+    '''returns XSAttributeDeclaration\n\n
+    getAttributeDeclaration()\n
     '''
 def setPSVI():
-    '''public void setPSVI(final AttributePSVI attributePSVI)
+    '''returns None\n\n
+    setPSVI(final AttributePSVI attributePSVI)\n
     '''
 def getActualNormalizedValue():
-    '''public Object getActualNormalizedValue()
+    '''returns Object\n\n
+    getActualNormalizedValue()\n
     '''
 def getActualNormalizedValueType():
-    '''public short getActualNormalizedValueType()
+    '''returns short\n\n
+    getActualNormalizedValueType()\n
     '''
 def getItemValueTypes():
-    '''public ShortList getItemValueTypes()
+    '''returns ShortList\n\n
+    getItemValueTypes()\n
     '''
 def getSchemaValue():
-    '''public XSValue getSchemaValue()
+    '''returns XSValue\n\n
+    getSchemaValue()\n
     '''

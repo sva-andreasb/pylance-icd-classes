@@ -1,15 +1,20 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
-def MBeanParameterInfo():
-    '''public MBeanParameterInfo(final String s, final String type, final String s2)
+def ():
+    '''returns MBeanParameterInfo\n\n
+    (final String s, final String type, final String s2)\n
     '''

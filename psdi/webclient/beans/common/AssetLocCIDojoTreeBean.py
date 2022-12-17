@@ -1,21 +1,24 @@
-def AssetLocCIDojoTreeBean():
-    '''public AssetLocCIDojoTreeBean()
+def ():
+    '''returns AssetLocCIDojoTreeBean\n\n
+    ()\n
     '''
 def hideAllSections():
-    '''public void hideAllSections(final List<String> sections)
+    '''returns None\n\n
+    hideAllSections(final List<String> sections)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def createWorkOrder():
-    '''public int createWorkOrder()
+    '''returns int\n\n
+    createWorkOrder()\n
     '''
 def createServiceRequest():
-    '''public int createServiceRequest()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns int\n\n
+    createServiceRequest()\n
     '''

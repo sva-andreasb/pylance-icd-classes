@@ -1,12 +1,16 @@
-def LicenseReservation():
-    '''public LicenseReservation(final MboSet ms)
+def ():
+    '''returns LicenseReservation\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long flags)
+    '''returns None\n\n
+    delete(final long flags)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

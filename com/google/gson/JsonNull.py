@@ -1,9 +1,12 @@
-def JsonNull():
-    '''public JsonNull()
+def ():
+    '''returns JsonNull\n\n
+    ()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''

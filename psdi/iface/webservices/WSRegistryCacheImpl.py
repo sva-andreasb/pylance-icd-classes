@@ -1,36 +1,38 @@
 NAME = "String  \"MXWSREGISTRY\""
 def init():
-    '''public void init()
-    public void init(final boolean tenantOnly)
+    '''returns None\n\n
+    init()\n
+    init(final boolean tenantOnly)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def reload():
-    '''public synchronized void reload()
-    public void reload(final String key)
-    '''
-def reloadAll():
-    '''public synchronized void reloadAll()
+    '''returns None\n\n
+    reload(final String key)\n
     '''
 def loadDeployedServices():
-    '''public void loadDeployedServices(final ServletConfig config)
+    '''returns None\n\n
+    loadDeployedServices(final ServletConfig config)\n
     '''
 def getServerDeployer():
-    '''public ServerDeployer getServerDeployer()
+    '''returns ServerDeployer\n\n
+    getServerDeployer()\n
     '''
 def resetServerDeployer():
-    '''public void resetServerDeployer()
-    '''
-def getWSRegistryMap():
-    '''public Map<String, WSRegistryInfo> getWSRegistryMap()
+    '''returns None\n\n
+    resetServerDeployer()\n
     '''
 def clearTenant():
-    '''public void clearTenant()
+    '''returns None\n\n
+    clearTenant()\n
     '''
 def getLoadedTenants():
-    '''public Set<Integer> getLoadedTenants()
+    '''returns Set<Integer>\n\n
+    getLoadedTenants()\n
     '''
 def getWSRegistryInfo():
-    '''public WSRegistryInfo getWSRegistryInfo(final String name)
+    '''returns WSRegistryInfo\n\n
+    getWSRegistryInfo(final String name)\n
     '''

@@ -1,69 +1,74 @@
 ERROR_CONDITION_AND_TEXT_NAMESPACE = "String  \"urn:ietf:params:xml:ns:xmpp-stanzas\""
 NAMESPACE = "String  \"urn:ietf:params:xml:ns:xmpp-stanzas\""
 ERROR = "String  \"error\""
-def StanzaError():
-    '''public StanzaError(final Condition condition, String conditionText, final String errorGenerator, final Type type, final Map<String, String> descriptiveTexts, final List<ExtensionElement> extensions, final Stanza stanza)
+def ():
+    '''returns StanzaError\n\n
+    (final Condition condition, String conditionText, final String errorGenerator, final Type type, final Map<String, String> descriptiveTexts, final List<ExtensionElement> extensions, final Stanza stanza)\n
     '''
 def getCondition():
-    '''public Condition getCondition()
+    '''returns Condition\n\n
+    getCondition()\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def getErrorGenerator():
-    '''public String getErrorGenerator()
+    '''returns String\n\n
+    getErrorGenerator()\n
     '''
 def getConditionText():
-    '''public String getConditionText()
+    '''returns String\n\n
+    getConditionText()\n
     '''
 def getStanza():
-    '''public Stanza getStanza()
+    '''returns Stanza\n\n
+    getStanza()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML()
-    public XmlStringBuilder toXML(final String enclosingNamespace)
-    '''
-def from():
-    '''public static Builder from(final Condition condition, final String descriptiveText)
-    '''
-def getBuilder():
-    '''public static Builder getBuilder()
-    public static Builder getBuilder(final Condition condition)
-    public static Builder getBuilder(final StanzaError xmppError)
+    '''returns XmlStringBuilder\n\n
+    toXML()\n
+    toXML(final String enclosingNamespace)\n
     '''
 def setCondition():
-    '''public Builder setCondition(final Condition condition)
+    '''returns Builder\n\n
+    setCondition(final Condition condition)\n
     '''
 def setType():
-    '''public Builder setType(final Type type)
+    '''returns Builder\n\n
+    setType(final Type type)\n
     '''
 def setConditionText():
-    '''public Builder setConditionText(final String conditionText)
+    '''returns Builder\n\n
+    setConditionText(final String conditionText)\n
     '''
 def setErrorGenerator():
-    '''public Builder setErrorGenerator(final String errorGenerator)
+    '''returns Builder\n\n
+    setErrorGenerator(final String errorGenerator)\n
     '''
 def setStanza():
-    '''public Builder setStanza(final Stanza stanza)
+    '''returns Builder\n\n
+    setStanza(final Stanza stanza)\n
     '''
 def copyFrom():
-    '''public Builder copyFrom(final StanzaError xmppError)
+    '''returns Builder\n\n
+    copyFrom(final StanzaError xmppError)\n
     '''
 def build():
-    '''public StanzaError build()
-    '''
-def fromString():
-    '''public static Type fromString(String string)
-    public static Condition fromString(String string)
+    '''returns StanzaError\n\n
+    build()\n
     '''

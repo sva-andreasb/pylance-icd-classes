@@ -1,6 +1,8 @@
 def add():
-    '''public JArray add(final JExpression e)
+    '''returns JArray\n\n
+    add(final JExpression e)\n
     '''
 def generate():
-    '''public void generate(final JFormatter f)
+    '''returns None\n\n
+    generate(final JFormatter f)\n
     '''

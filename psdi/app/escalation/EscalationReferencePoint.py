@@ -1,18 +1,20 @@
-def EscalationReferencePoint():
-    '''public EscalationReferencePoint(final MboSet ms)
+def ():
+    '''returns EscalationReferencePoint\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
-    '''
-def loadSkipFieldCopyHashSet():
-    '''public static void loadSkipFieldCopyHashSet()
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

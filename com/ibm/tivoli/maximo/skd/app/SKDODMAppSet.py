@@ -1,3 +1,4 @@
-def SKDODMAppSet():
-    '''public SKDODMAppSet(final MboServerInterface ms)
+def ():
+    '''returns SKDODMAppSet\n\n
+    (final MboServerInterface ms)\n
     '''

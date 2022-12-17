@@ -1,9 +1,11 @@
-def AbortedException():
-    '''public AbortedException(final String message, final Throwable t)
-    public AbortedException(final Throwable t)
-    public AbortedException(final String message)
-    public AbortedException()
+def ():
+    '''returns AbortedException\n\n
+    (final String message, final Throwable t)\n
+    (final Throwable t)\n
+    (final String message)\n
+    ()\n
     '''
 def isRetryable():
-    '''public boolean isRetryable()
+    '''returns boolean\n\n
+    isRetryable()\n
     '''

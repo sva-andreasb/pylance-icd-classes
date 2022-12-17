@@ -1,3 +1,4 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

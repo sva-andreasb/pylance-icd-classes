@@ -1,9 +1,12 @@
 def expressionbuildereventinvalue():
-    '''public void expressionbuildereventinvalue()
+    '''returns None\n\n
+    expressionbuildereventinvalue()\n
     '''
 def validateExp():
-    '''public void validateExp()
+    '''returns None\n\n
+    validateExp()\n
     '''
 def validateCustomClass():
-    '''public void validateCustomClass(final String customClass)
+    '''returns None\n\n
+    validateCustomClass(final String customClass)\n
     '''

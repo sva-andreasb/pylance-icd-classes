@@ -1,19 +1,13 @@
 ELEMENT = "String  \"store\""
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getHintType():
-    '''public MessageProcessingHintType getHintType()
-    '''
-def from():
-    '''public static StoreHint from(final Message message)
-    '''
-def hasHint():
-    '''public static boolean hasHint(final Message message)
-    '''
-def set():
-    '''public static void set(final Message message)
+    '''returns MessageProcessingHintType\n\n
+    getHintType()\n
     '''

@@ -1,34 +1,45 @@
-def DN():
-    '''public DN()
-    public DN(final String s)
+def ():
+    '''returns DN\n\n
+    ()\n
+    (final String s)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final DN dn)
+    '''returns boolean\n\n
+    equals(final DN dn)\n
     '''
 def explodeDN():
-    '''public String[] explodeDN(final boolean b)
+    '''returns String[]\n\n
+    explodeDN(final boolean b)\n
     '''
 def countRDNs():
-    '''public int countRDNs()
+    '''returns int\n\n
+    countRDNs()\n
     '''
 def getRDNs():
-    '''public Vector getRDNs()
+    '''returns Vector\n\n
+    getRDNs()\n
     '''
 def isDescendantOf():
-    '''public boolean isDescendantOf(final DN dn)
+    '''returns boolean\n\n
+    isDescendantOf(final DN dn)\n
     '''
 def getParent():
-    '''public DN getParent()
+    '''returns DN\n\n
+    getParent()\n
     '''
 def addRDN():
-    '''public void addRDN(final RDN element)
+    '''returns None\n\n
+    addRDN(final RDN element)\n
     '''
 def addRDNToFront():
-    '''public void addRDNToFront(final RDN element)
+    '''returns None\n\n
+    addRDNToFront(final RDN element)\n
     '''
 def addRDNToBack():
-    '''public void addRDNToBack(final RDN e)
+    '''returns None\n\n
+    addRDNToBack(final RDN e)\n
     '''

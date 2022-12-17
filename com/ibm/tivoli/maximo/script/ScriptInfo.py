@@ -1,39 +1,44 @@
-def ScriptInfo():
-    '''public ScriptInfo(final String name, final String scriptLanguge, final String scriptSource, final byte[] scriptBinarySource, final String logLevel, final boolean interfaceScript, final boolean active)
+def ():
+    '''returns ScriptInfo\n\n
+    (final String name, final String scriptLanguge, final String scriptSource, final byte[] scriptBinarySource, final String logLevel, final boolean interfaceScript, final boolean active)\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def isInterfaceScript():
-    '''public boolean isInterfaceScript()
-    '''
-def getLaunchPoints():
-    '''public Map<String, ScriptLaunchPointInfo> getLaunchPoints()
+    '''returns boolean\n\n
+    isInterfaceScript()\n
     '''
 def getLaunchPoint():
-    '''public ScriptLaunchPointInfo getLaunchPoint(final String launchPointName)
+    '''returns ScriptLaunchPointInfo\n\n
+    getLaunchPoint(final String launchPointName)\n
     '''
 def getLogLevel():
-    '''public String getLogLevel()
+    '''returns String\n\n
+    getLogLevel()\n
     '''
 def isLogLevelDebug():
-    '''public boolean isLogLevelDebug()
+    '''returns boolean\n\n
+    isLogLevelDebug()\n
     '''
 def isLogLevelInfo():
-    '''public boolean isLogLevelInfo()
+    '''returns boolean\n\n
+    isLogLevelInfo()\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getScriptParams():
-    '''public Map<String, ScriptParamInfo> getScriptParams()
+    '''returns String\n\n
+    getName()\n
     '''
 def getScriptLanguge():
-    '''public String getScriptLanguge()
+    '''returns String\n\n
+    getScriptLanguge()\n
     '''
 def getScriptSource():
-    '''public String getScriptSource()
+    '''returns String\n\n
+    getScriptSource()\n
     '''
 def getScriptBinarySource():
-    '''public byte[] getScriptBinarySource()
+    '''returns byte[]\n\n
+    getScriptBinarySource()\n
     '''

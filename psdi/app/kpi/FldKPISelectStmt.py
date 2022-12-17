@@ -1,6 +1,8 @@
-def FldKPISelectStmt():
-    '''public FldKPISelectStmt(final MboValue mbv)
+def ():
+    '''returns FldKPISelectStmt\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

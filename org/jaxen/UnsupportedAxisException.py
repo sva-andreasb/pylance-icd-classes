@@ -1,3 +1,4 @@
-def UnsupportedAxisException():
-    '''public UnsupportedAxisException(final String msg)
+def ():
+    '''returns UnsupportedAxisException\n\n
+    (final String msg)\n
     '''

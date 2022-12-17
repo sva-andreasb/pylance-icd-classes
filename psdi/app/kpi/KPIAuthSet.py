@@ -1,3 +1,4 @@
-def KPIAuthSet():
-    '''public KPIAuthSet(final MboServerInterface ms)
+def ():
+    '''returns KPIAuthSet\n\n
+    (final MboServerInterface ms)\n
     '''

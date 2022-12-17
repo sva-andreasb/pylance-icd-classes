@@ -1,7 +1,9 @@
 SI_EXTENSION = "String  \"si\""
 def read():
-    '''public SegmentInfo read(final Directory dir, final String segment, final byte[] segmentID, final IOContext context)
+    '''returns SegmentInfo\n\n
+    read(final Directory dir, final String segment, final byte[] segmentID, final IOContext context)\n
     '''
 def write():
-    '''public void write(final Directory dir, final SegmentInfo si, final IOContext ioContext)
+    '''returns None\n\n
+    write(final Directory dir, final SegmentInfo si, final IOContext ioContext)\n
     '''

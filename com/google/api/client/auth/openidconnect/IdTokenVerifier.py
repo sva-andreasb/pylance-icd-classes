@@ -1,48 +1,34 @@
 DEFAULT_TIME_SKEW_SECONDS = "long  300L"
-def IdTokenVerifier():
-    '''public IdTokenVerifier()
-    '''
-def getClock():
-    '''public final Clock getClock()
-    public final Clock getClock()
-    '''
-def getAcceptableTimeSkewSeconds():
-    '''public final long getAcceptableTimeSkewSeconds()
-    public final long getAcceptableTimeSkewSeconds()
-    '''
-def getIssuer():
-    '''public final String getIssuer()
-    public final String getIssuer()
-    '''
-def getIssuers():
-    '''public final Collection<String> getIssuers()
-    public final Collection<String> getIssuers()
-    '''
-def getAudience():
-    '''public final Collection<String> getAudience()
-    public final Collection<String> getAudience()
+def ():
+    '''returns Builder\n\n
+    ()\n
+    ()\n
     '''
 def verify():
-    '''public boolean verify(final IdToken idToken)
-    '''
-def Builder():
-    '''public Builder()
+    '''returns boolean\n\n
+    verify(final IdToken idToken)\n
     '''
 def build():
-    '''public IdTokenVerifier build()
+    '''returns IdTokenVerifier\n\n
+    build()\n
     '''
 def setClock():
-    '''public Builder setClock(final Clock clock)
+    '''returns Builder\n\n
+    setClock(final Clock clock)\n
     '''
 def setIssuer():
-    '''public Builder setIssuer(final String issuer)
+    '''returns Builder\n\n
+    setIssuer(final String issuer)\n
     '''
 def setIssuers():
-    '''public Builder setIssuers(final Collection<String> issuers)
+    '''returns Builder\n\n
+    setIssuers(final Collection<String> issuers)\n
     '''
 def setAudience():
-    '''public Builder setAudience(final Collection<String> audience)
+    '''returns Builder\n\n
+    setAudience(final Collection<String> audience)\n
     '''
 def setAcceptableTimeSkewSeconds():
-    '''public Builder setAcceptableTimeSkewSeconds(final long acceptableTimeSkewSeconds)
+    '''returns Builder\n\n
+    setAcceptableTimeSkewSeconds(final long acceptableTimeSkewSeconds)\n
     '''

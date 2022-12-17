@@ -1,36 +1,32 @@
-def toString():
-    '''public final String toString()
-    '''
-def register():
-    '''public static void register()
-    '''
-def deregister():
-    '''public static void deregister()
-    '''
-def isRegistered():
-    '''public static boolean isRegistered()
-    '''
-def SQLServerDriver():
-    '''public SQLServerDriver()
+def ():
+    '''returns SQLServerDriver\n\n
+    ()\n
     '''
 def connect():
-    '''public Connection connect(final String Url, final Properties suppliedProperties)
+    '''returns Connection\n\n
+    connect(final String Url, final Properties suppliedProperties)\n
     '''
 def acceptsURL():
-    '''public boolean acceptsURL(final String url)
+    '''returns boolean\n\n
+    acceptsURL(final String url)\n
     '''
 def getPropertyInfo():
-    '''public DriverPropertyInfo[] getPropertyInfo(final String Url, final Properties Info)
+    '''returns DriverPropertyInfo[]\n\n
+    getPropertyInfo(final String Url, final Properties Info)\n
     '''
 def getMajorVersion():
-    '''public int getMajorVersion()
+    '''returns int\n\n
+    getMajorVersion()\n
     '''
 def getMinorVersion():
-    '''public int getMinorVersion()
+    '''returns int\n\n
+    getMinorVersion()\n
     '''
 def getParentLogger():
-    '''public Logger getParentLogger()
+    '''returns Logger\n\n
+    getParentLogger()\n
     '''
 def jdbcCompliant():
-    '''public boolean jdbcCompliant()
+    '''returns boolean\n\n
+    jdbcCompliant()\n
     '''

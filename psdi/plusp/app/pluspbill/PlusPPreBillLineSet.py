@@ -1,9 +1,12 @@
-def PlusPPreBillLineSet():
-    '''public PlusPPreBillLineSet(final MboServerInterface mboServerInterface)
+def ():
+    '''returns PlusPPreBillLineSet\n\n
+    (final MboServerInterface mboServerInterface)\n
     '''
 def appendToWhere():
-    '''public String appendToWhere()
+    '''returns String\n\n
+    appendToWhere()\n
     '''
 def getMboWithoutTotalUpdate():
-    '''public MboRemote getMboWithoutTotalUpdate(final int n)
+    '''returns MboRemote\n\n
+    getMboWithoutTotalUpdate(final int n)\n
     '''

@@ -1,18 +1,20 @@
-def LocaleString():
-    '''public LocaleString(final String id, final String property, final String value)
+def ():
+    '''returns LocaleString\n\n
+    (final String id, final String property, final String value)\n
     '''
 def getUniqueKey():
-    '''public String getUniqueKey()
-    '''
-def makeUniqueKey():
-    '''public static String makeUniqueKey(final String id, final String property)
+    '''returns String\n\n
+    getUniqueKey()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getProperty():
-    '''public String getProperty()
+    '''returns String\n\n
+    getProperty()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''

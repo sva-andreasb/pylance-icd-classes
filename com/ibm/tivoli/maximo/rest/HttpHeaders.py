@@ -1,21 +1,28 @@
 def getHeader():
-    '''public List<String> getHeader(final String headerName)
+    '''returns List<String>\n\n
+    getHeader(final String headerName)\n
     '''
 def setIfModifiedSince():
-    '''public void setIfModifiedSince(final Date ifModifiedSince)
+    '''returns None\n\n
+    setIfModifiedSince(final Date ifModifiedSince)\n
     '''
 def getIfModifiedSince():
-    '''public Date getIfModifiedSince()
+    '''returns Date\n\n
+    getIfModifiedSince()\n
     '''
 def containsHeader():
-    '''public boolean containsHeader(final String headerName)
+    '''returns boolean\n\n
+    containsHeader(final String headerName)\n
     '''
 def isNoCache():
-    '''public boolean isNoCache()
+    '''returns boolean\n\n
+    isNoCache()\n
     '''
 def matchesEtagToNoneMatchHeader():
-    '''public boolean matchesEtagToNoneMatchHeader(final String etag)
+    '''returns boolean\n\n
+    matchesEtagToNoneMatchHeader(final String etag)\n
     '''
 def matchesEtagToMatchHeader():
-    '''public boolean matchesEtagToMatchHeader(final String etag)
+    '''returns boolean\n\n
+    matchesEtagToMatchHeader(final String etag)\n
     '''

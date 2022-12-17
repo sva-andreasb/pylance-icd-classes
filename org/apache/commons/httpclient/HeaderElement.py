@@ -1,20 +1,16 @@
-def HeaderElement():
-    '''public HeaderElement()
-    public HeaderElement(final String name, final String value)
-    public HeaderElement(final String name, final String value, final NameValuePair[] parameters)
-    public HeaderElement(final char[] chars, final int offset, final int length)
-    public HeaderElement(final char[] chars)
+def ():
+    '''returns HeaderElement\n\n
+    ()\n
+    (final String name, final String value)\n
+    (final String name, final String value, final NameValuePair[] parameters)\n
+    (final char[] chars, final int offset, final int length)\n
+    (final char[] chars)\n
     '''
 def getParameters():
-    '''public NameValuePair[] getParameters()
-    '''
-def parseElements():
-    '''public static final HeaderElement[] parseElements(final char[] headerValue)
-    public static final HeaderElement[] parseElements(final String headerValue)
-    '''
-def parse():
-    '''public static final HeaderElement[] parse(final String headerValue)
+    '''returns NameValuePair[]\n\n
+    getParameters()\n
     '''
 def getParameterByName():
-    '''public NameValuePair getParameterByName(final String name)
+    '''returns NameValuePair\n\n
+    getParameterByName(final String name)\n
     '''

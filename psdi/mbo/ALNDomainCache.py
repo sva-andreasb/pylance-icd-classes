@@ -1,12 +1,12 @@
-def getInstance():
-    '''public static final ALNDomainCache getInstance()
-    '''
 def getDescForValue():
-    '''public String getDescForValue(final String domainid, final String orgid, final String siteid, final String value, final UserInfo userInfo)
+    '''returns String\n\n
+    getDescForValue(final String domainid, final String orgid, final String siteid, final String value, final UserInfo userInfo)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def processAPIRequest():
-    '''public void processAPIRequest(final String key, final UserInfo userInfo, final JSONObject jo)
+    '''returns None\n\n
+    processAPIRequest(final String key, final UserInfo userInfo, final JSONObject jo)\n
     '''

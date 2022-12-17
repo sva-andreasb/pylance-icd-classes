@@ -1,22 +1,25 @@
-def ByteArrayContent():
-    '''public ByteArrayContent(final String type, final byte[] array)
-    public ByteArrayContent(final String type, final byte[] array, final int offset, final int length)
-    '''
-def fromString():
-    '''public static ByteArrayContent fromString(final String type, final String contentString)
+def ():
+    '''returns ByteArrayContent\n\n
+    (final String type, final byte[] array)\n
+    (final String type, final byte[] array, final int offset, final int length)\n
     '''
 def getLength():
-    '''public long getLength()
+    '''returns long\n\n
+    getLength()\n
     '''
 def retrySupported():
-    '''public boolean retrySupported()
+    '''returns boolean\n\n
+    retrySupported()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def setType():
-    '''public ByteArrayContent setType(final String type)
+    '''returns ByteArrayContent\n\n
+    setType(final String type)\n
     '''
 def setCloseInputStream():
-    '''public ByteArrayContent setCloseInputStream(final boolean closeInputStream)
+    '''returns ByteArrayContent\n\n
+    setCloseInputStream(final boolean closeInputStream)\n
     '''

@@ -1,21 +1,24 @@
 def setApp():
-    '''public void setApp(final String appName)
+    '''returns None\n\n
+    setApp(final String appName)\n
     '''
 def execute():
-    '''public int execute(final MboSetRemote mboset)
+    '''returns int\n\n
+    execute(final MboSetRemote mboset)\n
     '''
 def doRefresh():
-    '''public int doRefresh()
+    '''returns int\n\n
+    doRefresh()\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''
 def updateClassstructure():
-    '''public void updateClassstructure(final String hierarchypath)
+    '''returns None\n\n
+    updateClassstructure(final String hierarchypath)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
-    '''
-def getList():
-    '''public synchronized MboSetRemote getList(final int nRow, final String attribute)
+    '''returns None\n\n
+    clearClassification()\n
     '''

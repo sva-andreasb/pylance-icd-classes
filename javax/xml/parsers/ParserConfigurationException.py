@@ -1,4 +1,5 @@
-def ParserConfigurationException():
-    '''public ParserConfigurationException()
-    public ParserConfigurationException(final String message)
+def ():
+    '''returns ParserConfigurationException\n\n
+    ()\n
+    (final String message)\n
     '''

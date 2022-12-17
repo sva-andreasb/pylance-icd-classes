@@ -1,6 +1,8 @@
-def MfMailSTSendAction():
-    '''public MfMailSTSendAction()
+def ():
+    '''returns MfMailSTSendAction\n\n
+    ()\n
     '''
 def applyCustomAction():
-    '''public void applyCustomAction(final MboRemote originalMbo, final Object[] arg1)
+    '''returns None\n\n
+    applyCustomAction(final MboRemote originalMbo, final Object[] arg1)\n
     '''

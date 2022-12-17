@@ -1,3 +1,4 @@
-def ViewSecurityDetSet():
-    '''public ViewSecurityDetSet(final MboServerInterface ms)
+def ():
+    '''returns ViewSecurityDetSet\n\n
+    (final MboServerInterface ms)\n
     '''

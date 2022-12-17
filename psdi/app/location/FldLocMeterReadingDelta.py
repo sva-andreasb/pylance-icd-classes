@@ -1,6 +1,8 @@
-def FldLocMeterReadingDelta():
-    '''public FldLocMeterReadingDelta(final MboValue mbv)
+def ():
+    '''returns FldLocMeterReadingDelta\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,69 +1,92 @@
-def NamingRuleIdentifier():
-    '''public NamingRuleIdentifier()
+def ():
+    '''returns NamingRuleIdentifier\n\n
+    ()\n
     '''
 def getSuperiorType():
-    '''public String getSuperiorType()
+    '''returns String\n\n
+    getSuperiorType()\n
     '''
 def isNamingContext():
-    '''public boolean isNamingContext()
+    '''returns boolean\n\n
+    isNamingContext()\n
     '''
 def setIsNamingContext():
-    '''public void setIsNamingContext(final boolean isNamingContext)
+    '''returns None\n\n
+    setIsNamingContext(final boolean isNamingContext)\n
     '''
 def getKeyword():
-    '''public String getKeyword()
+    '''returns String\n\n
+    getKeyword()\n
     '''
 def setKeyword():
-    '''public void setKeyword(final String keyword)
+    '''returns None\n\n
+    setKeyword(final String keyword)\n
     '''
 def getRelationship():
-    '''public String getRelationship()
+    '''returns String\n\n
+    getRelationship()\n
     '''
 def setRelationship():
-    '''public void setRelationship(final String relationship)
+    '''returns None\n\n
+    setRelationship(final String relationship)\n
     '''
 def getRelationshipSource():
-    '''public String getRelationshipSource()
+    '''returns String\n\n
+    getRelationshipSource()\n
     '''
 def setRelationshipSource():
-    '''public void setRelationshipSource(final String relationshipSource)
+    '''returns None\n\n
+    setRelationshipSource(final String relationshipSource)\n
     '''
 def getRelationshipTarget():
-    '''public String getRelationshipTarget()
+    '''returns String\n\n
+    getRelationshipTarget()\n
     '''
 def setRelationshipTarget():
-    '''public void setRelationshipTarget(final String relationshipTarget)
+    '''returns None\n\n
+    setRelationshipTarget(final String relationshipTarget)\n
     '''
 def isRequired():
-    '''public boolean isRequired()
+    '''returns boolean\n\n
+    isRequired()\n
     '''
 def setRequired():
-    '''public void setRequired(final boolean required)
+    '''returns None\n\n
+    setRequired(final boolean required)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def isOmitted():
-    '''public boolean isOmitted()
+    '''returns boolean\n\n
+    isOmitted()\n
     '''
 def setIsOmitted():
-    '''public void setIsOmitted(final boolean isOmitted)
+    '''returns None\n\n
+    setIsOmitted(final boolean isOmitted)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def setOrder():
-    '''public void setOrder(final int order)
+    '''returns None\n\n
+    setOrder(final int order)\n
     '''
 def getOrder():
-    '''public int getOrder()
+    '''returns int\n\n
+    getOrder()\n
     '''
 def compareTo():
-    '''public int compareTo(final NamingRuleIdentifier other)
+    '''returns int\n\n
+    compareTo(final NamingRuleIdentifier other)\n
     '''

@@ -1,76 +1,81 @@
-def JSONResourceInfo():
-    '''public JSONResourceInfo(final String resourceName, final String resourceType, final String useWith, final String endPointName, final String url, final boolean multiple, final String description, final String targetObject, final String collectionProp, final String pageParams, final String orderbyParam, final String nullFormat, final String stringQualifier, final int fetchLimit, final boolean enabled, final String processor)
-    public JSONResourceInfo(final JSONObjectInfo joi, final String resourceName, final boolean multiple)
+def ():
+    '''returns JSONResourceInfo\n\n
+    (final String resourceName, final String resourceType, final String useWith, final String endPointName, final String url, final boolean multiple, final String description, final String targetObject, final String collectionProp, final String pageParams, final String orderbyParam, final String nullFormat, final String stringQualifier, final int fetchLimit, final boolean enabled, final String processor)\n
+    (final JSONObjectInfo joi, final String resourceName, final boolean multiple)\n
     '''
 def setRootObject():
-    '''public void setRootObject(final JSONObjectInfo joi)
+    '''returns None\n\n
+    setRootObject(final JSONObjectInfo joi)\n
     '''
 def getRootObject():
-    '''public JSONObjectInfo getRootObject()
-    '''
-def getObjectMap():
-    '''public Map<String, JSONObjectInfo> getObjectMap()
-    '''
-def getPropToObjectMap():
-    '''public Map<String, JSONObjectInfo> getPropToObjectMap()
-    '''
-def getAttributeMap():
-    '''public Map<String, Map<String, String>> getAttributeMap()
-    '''
-def getMergeAttributeMap():
-    '''public Map<Integer, Map<String, JSONMapAttributeInfo>> getMergeAttributeMap()
-    '''
-def getAttributesForObject():
-    '''public Map<String, String> getAttributesForObject(final String objectname)
+    '''returns JSONObjectInfo\n\n
+    getRootObject()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getResourceType():
-    '''public String getResourceType()
+    '''returns String\n\n
+    getResourceType()\n
     '''
 def getUseWith():
-    '''public String getUseWith()
+    '''returns String\n\n
+    getUseWith()\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def setUrl():
-    '''public void setUrl(final String url)
+    '''returns None\n\n
+    setUrl(final String url)\n
     '''
 def getEndPointName():
-    '''public String getEndPointName()
+    '''returns String\n\n
+    getEndPointName()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getTargetObject():
-    '''public String getTargetObject()
+    '''returns String\n\n
+    getTargetObject()\n
     '''
 def getCollectionProp():
-    '''public String getCollectionProp()
+    '''returns String\n\n
+    getCollectionProp()\n
     '''
 def isMultiple():
-    '''public boolean isMultiple()
+    '''returns boolean\n\n
+    isMultiple()\n
     '''
 def isEnabled():
-    '''public boolean isEnabled()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''
 def getFetchLImit():
-    '''public int getFetchLImit()
+    '''returns int\n\n
+    getFetchLImit()\n
     '''
 def getPagingParams():
-    '''public String getPagingParams()
+    '''returns String\n\n
+    getPagingParams()\n
     '''
 def getStringQualifier():
-    '''public String getStringQualifier()
+    '''returns String\n\n
+    getStringQualifier()\n
     '''
 def getNullFormat():
-    '''public String getNullFormat()
+    '''returns String\n\n
+    getNullFormat()\n
     '''
 def getOrderByParam():
-    '''public String getOrderByParam()
+    '''returns String\n\n
+    getOrderByParam()\n
     '''
 def getResourceProcessor():
-    '''public String getResourceProcessor()
+    '''returns String\n\n
+    getResourceProcessor()\n
     '''

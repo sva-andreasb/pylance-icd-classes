@@ -1,3 +1,4 @@
-def MaxIMPropSet():
-    '''public MaxIMPropSet(final MboServerInterface ms)
+def ():
+    '''returns MaxIMPropSet\n\n
+    (final MboServerInterface ms)\n
     '''

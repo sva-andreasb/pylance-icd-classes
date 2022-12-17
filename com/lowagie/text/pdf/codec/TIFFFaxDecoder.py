@@ -1,15 +1,16 @@
-def TIFFFaxDecoder():
-    '''public TIFFFaxDecoder(final int fillOrder, final int w, final int h)
+def ():
+    '''returns TIFFFaxDecoder\n\n
+    (final int fillOrder, final int w, final int h)\n
     '''
 def decode1D():
-    '''public void decode1D(final byte[] buffer, final byte[] compData, final int startX, final int height)
+    '''returns None\n\n
+    decode1D(final byte[] buffer, final byte[] compData, final int startX, final int height)\n
     '''
 def decodeNextScanline():
-    '''public void decodeNextScanline(final byte[] buffer, final int lineOffset, int bitOffset)
+    '''returns None\n\n
+    decodeNextScanline(final byte[] buffer, final int lineOffset, int bitOffset)\n
     '''
 def decode2D():
-    '''public void decode2D(final byte[] buffer, final byte[] compData, final int startX, final int height, final long tiffT4Options)
-    '''
-def decodeT6():
-    '''public synchronized void decodeT6(final byte[] buffer, final byte[] compData, final int startX, final int height, final long tiffT6Options)
+    '''returns None\n\n
+    decode2D(final byte[] buffer, final byte[] compData, final int startX, final int height, final long tiffT4Options)\n
     '''

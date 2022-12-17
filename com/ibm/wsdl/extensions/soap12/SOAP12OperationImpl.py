@@ -1,37 +1,49 @@
 serialVersionUID = "long  1L"
-def SOAP12OperationImpl():
-    '''public SOAP12OperationImpl()
+def ():
+    '''returns SOAP12OperationImpl\n\n
+    ()\n
     '''
 def setElementType():
-    '''public void setElementType(final QName elementType)
+    '''returns None\n\n
+    setElementType(final QName elementType)\n
     '''
 def getElementType():
-    '''public QName getElementType()
+    '''returns QName\n\n
+    getElementType()\n
     '''
 def setRequired():
-    '''public void setRequired(final Boolean required)
+    '''returns None\n\n
+    setRequired(final Boolean required)\n
     '''
 def getRequired():
-    '''public Boolean getRequired()
+    '''returns Boolean\n\n
+    getRequired()\n
     '''
 def setSoapActionURI():
-    '''public void setSoapActionURI(final String soapActionURI)
+    '''returns None\n\n
+    setSoapActionURI(final String soapActionURI)\n
     '''
 def getSoapActionURI():
-    '''public String getSoapActionURI()
+    '''returns String\n\n
+    getSoapActionURI()\n
     '''
 def setSoapActionRequired():
-    '''public void setSoapActionRequired(final Boolean soapActionRequired)
+    '''returns None\n\n
+    setSoapActionRequired(final Boolean soapActionRequired)\n
     '''
 def getSoapActionRequired():
-    '''public Boolean getSoapActionRequired()
+    '''returns Boolean\n\n
+    getSoapActionRequired()\n
     '''
 def setStyle():
-    '''public void setStyle(final String style)
+    '''returns None\n\n
+    setStyle(final String style)\n
     '''
 def getStyle():
-    '''public String getStyle()
+    '''returns String\n\n
+    getStyle()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

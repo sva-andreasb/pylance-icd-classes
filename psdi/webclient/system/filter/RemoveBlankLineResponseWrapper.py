@@ -1,24 +1,32 @@
-def RemoveBlankLineResponseWrapper():
-    '''public RemoveBlankLineResponseWrapper(final HttpServletResponse response)
+def ():
+    '''returns RemoveBlankLineResponseWrapper\n\n
+    (final HttpServletResponse response)\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''
 def getOutputStream():
-    '''public ServletOutputStream getOutputStream()
+    '''returns ServletOutputStream\n\n
+    getOutputStream()\n
     '''
 def getWriter():
-    '''public PrintWriter getWriter()
+    '''returns PrintWriter\n\n
+    getWriter()\n
     '''
 def setContentLength():
-    '''public void setContentLength(final int length)
+    '''returns None\n\n
+    setContentLength(final int length)\n
     '''
 def getContentLength():
-    '''public int getContentLength()
+    '''returns int\n\n
+    getContentLength()\n
     '''
 def setContentType():
-    '''public void setContentType(final String type)
+    '''returns None\n\n
+    setContentType(final String type)\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''

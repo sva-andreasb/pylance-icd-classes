@@ -1,27 +1,36 @@
-def DBCompare():
-    '''public DBCompare(final MXServer server, final UserInfo ui, final HashMap params, final Connection con)
+def ():
+    '''returns DBCompare\n\n
+    (final MXServer server, final UserInfo ui, final HashMap params, final Connection con)\n
     '''
 def process():
-    '''public void process()
+    '''returns None\n\n
+    process()\n
     '''
 def doConnect():
-    '''public void doConnect()
+    '''returns None\n\n
+    doConnect()\n
     '''
 def doCompare():
-    '''public void doCompare()
+    '''returns None\n\n
+    doCompare()\n
     '''
 def readParams():
-    '''public void readParams(final HashMap params)
+    '''returns None\n\n
+    readParams(final HashMap params)\n
     '''
 def endProcess():
-    '''public void endProcess(final boolean errors)
+    '''returns None\n\n
+    endProcess(final boolean errors)\n
     '''
 def showMXException():
-    '''public void showMXException(final MXException e, final int level)
+    '''returns None\n\n
+    showMXException(final MXException e, final int level)\n
     '''
 def showMessage():
-    '''public void showMessage(final String e, final int level)
+    '''returns None\n\n
+    showMessage(final String e, final int level)\n
     '''
 def doSql():
-    '''public void doSql(final String sql)
+    '''returns None\n\n
+    doSql(final String sql)\n
     '''

@@ -1,18 +1,24 @@
-def FunctionInfo():
-    '''public FunctionInfo(final String fName, final String implName, final String implType, final int numParams)
+def ():
+    '''returns FunctionInfo\n\n
+    (final String fName, final String implName, final String implType, final int numParams)\n
     '''
 def getfName():
-    '''public String getfName()
+    '''returns String\n\n
+    getfName()\n
     '''
 def getImplName():
-    '''public String getImplName()
+    '''returns String\n\n
+    getImplName()\n
     '''
 def getImplType():
-    '''public String getImplType()
+    '''returns String\n\n
+    getImplType()\n
     '''
 def getNumParams():
-    '''public int getNumParams()
+    '''returns int\n\n
+    getNumParams()\n
     '''
 def isScript():
-    '''public boolean isScript()
+    '''returns boolean\n\n
+    isScript()\n
     '''

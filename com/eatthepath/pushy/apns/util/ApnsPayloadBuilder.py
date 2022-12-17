@@ -1,75 +1,99 @@
 DEFAULT_SOUND_FILENAME = "String  \"default\""
-def ApnsPayloadBuilder():
-    '''public ApnsPayloadBuilder()
+def ():
+    '''returns ApnsPayloadBuilder\n\n
+    ()\n
     '''
 def setPreferStringRepresentationForAlerts():
-    '''public ApnsPayloadBuilder setPreferStringRepresentationForAlerts(final boolean preferStringRepresentationForAlerts)
+    '''returns ApnsPayloadBuilder\n\n
+    setPreferStringRepresentationForAlerts(final boolean preferStringRepresentationForAlerts)\n
     '''
 def setAlertBody():
-    '''public ApnsPayloadBuilder setAlertBody(final String alertBody)
+    '''returns ApnsPayloadBuilder\n\n
+    setAlertBody(final String alertBody)\n
     '''
 def setLocalizedAlertMessage():
-    '''public ApnsPayloadBuilder setLocalizedAlertMessage(final String localizedAlertKey, final String... alertArguments)
+    '''returns ApnsPayloadBuilder\n\n
+    setLocalizedAlertMessage(final String localizedAlertKey, final String... alertArguments)\n
     '''
 def setAlertTitle():
-    '''public ApnsPayloadBuilder setAlertTitle(final String alertTitle)
+    '''returns ApnsPayloadBuilder\n\n
+    setAlertTitle(final String alertTitle)\n
     '''
 def setLocalizedAlertTitle():
-    '''public ApnsPayloadBuilder setLocalizedAlertTitle(final String localizedAlertTitleKey, final String... alertTitleArguments)
+    '''returns ApnsPayloadBuilder\n\n
+    setLocalizedAlertTitle(final String localizedAlertTitleKey, final String... alertTitleArguments)\n
     '''
 def setAlertSubtitle():
-    '''public ApnsPayloadBuilder setAlertSubtitle(final String alertSubtitle)
+    '''returns ApnsPayloadBuilder\n\n
+    setAlertSubtitle(final String alertSubtitle)\n
     '''
 def setLocalizedAlertSubtitle():
-    '''public ApnsPayloadBuilder setLocalizedAlertSubtitle(final String localizedAlertSubtitleKey, final String... alertSubtitleArguments)
+    '''returns ApnsPayloadBuilder\n\n
+    setLocalizedAlertSubtitle(final String localizedAlertSubtitleKey, final String... alertSubtitleArguments)\n
     '''
 def setLaunchImageFileName():
-    '''public ApnsPayloadBuilder setLaunchImageFileName(final String launchImageFilename)
+    '''returns ApnsPayloadBuilder\n\n
+    setLaunchImageFileName(final String launchImageFilename)\n
     '''
 def setShowActionButton():
-    '''public ApnsPayloadBuilder setShowActionButton(final boolean showActionButton)
+    '''returns ApnsPayloadBuilder\n\n
+    setShowActionButton(final boolean showActionButton)\n
     '''
 def setActionButtonLabel():
-    '''public ApnsPayloadBuilder setActionButtonLabel(final String action)
+    '''returns ApnsPayloadBuilder\n\n
+    setActionButtonLabel(final String action)\n
     '''
 def setLocalizedActionButtonKey():
-    '''public ApnsPayloadBuilder setLocalizedActionButtonKey(final String localizedActionButtonKey)
+    '''returns ApnsPayloadBuilder\n\n
+    setLocalizedActionButtonKey(final String localizedActionButtonKey)\n
     '''
 def setBadgeNumber():
-    '''public ApnsPayloadBuilder setBadgeNumber(final Integer badgeNumber)
+    '''returns ApnsPayloadBuilder\n\n
+    setBadgeNumber(final Integer badgeNumber)\n
     '''
 def setCategoryName():
-    '''public ApnsPayloadBuilder setCategoryName(final String categoryName)
+    '''returns ApnsPayloadBuilder\n\n
+    setCategoryName(final String categoryName)\n
     '''
 def setSoundFileName():
-    '''public ApnsPayloadBuilder setSoundFileName(final String soundFileName)
+    '''returns ApnsPayloadBuilder\n\n
+    setSoundFileName(final String soundFileName)\n
     '''
 def setSound():
-    '''public ApnsPayloadBuilder setSound(final String soundFileName)
-    public ApnsPayloadBuilder setSound(final String soundFileName, final boolean isCriticalAlert, final double soundVolume)
+    '''returns ApnsPayloadBuilder\n\n
+    setSound(final String soundFileName)\n
+    setSound(final String soundFileName, final boolean isCriticalAlert, final double soundVolume)\n
     '''
 def setContentAvailable():
-    '''public ApnsPayloadBuilder setContentAvailable(final boolean contentAvailable)
+    '''returns ApnsPayloadBuilder\n\n
+    setContentAvailable(final boolean contentAvailable)\n
     '''
 def setMutableContent():
-    '''public ApnsPayloadBuilder setMutableContent(final boolean mutableContent)
+    '''returns ApnsPayloadBuilder\n\n
+    setMutableContent(final boolean mutableContent)\n
     '''
 def setThreadId():
-    '''public ApnsPayloadBuilder setThreadId(final String threadId)
+    '''returns ApnsPayloadBuilder\n\n
+    setThreadId(final String threadId)\n
     '''
 def setTargetContentId():
-    '''public ApnsPayloadBuilder setTargetContentId(final String targetContentId)
+    '''returns ApnsPayloadBuilder\n\n
+    setTargetContentId(final String targetContentId)\n
     '''
 def setSummaryArgument():
-    '''public ApnsPayloadBuilder setSummaryArgument(final String summaryArgument)
+    '''returns ApnsPayloadBuilder\n\n
+    setSummaryArgument(final String summaryArgument)\n
     '''
 def setSummaryArgumentCount():
-    '''public ApnsPayloadBuilder setSummaryArgumentCount(final Integer summaryArgumentCount)
+    '''returns ApnsPayloadBuilder\n\n
+    setSummaryArgumentCount(final Integer summaryArgumentCount)\n
     '''
 def setUrlArguments():
-    '''public ApnsPayloadBuilder setUrlArguments(final List<String> arguments)
-    public ApnsPayloadBuilder setUrlArguments(final String... arguments)
+    '''returns ApnsPayloadBuilder\n\n
+    setUrlArguments(final List<String> arguments)\n
+    setUrlArguments(final String... arguments)\n
     '''
 def addCustomProperty():
-    '''public ApnsPayloadBuilder addCustomProperty(final String key, final Object value)
+    '''returns ApnsPayloadBuilder\n\n
+    addCustomProperty(final String key, final Object value)\n
     '''

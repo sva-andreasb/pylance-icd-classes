@@ -1,18 +1,24 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String value)
+    '''returns None\n\n
+    setName(final String value)\n
     '''
 def getEvaluationPeriod():
-    '''public Duration getEvaluationPeriod()
+    '''returns Duration\n\n
+    getEvaluationPeriod()\n
     '''
 def setEvaluationPeriod():
-    '''public void setEvaluationPeriod(final Duration value)
+    '''returns None\n\n
+    setEvaluationPeriod(final Duration value)\n
     '''
 def isKeepStatistics():
-    '''public Boolean isKeepStatistics()
+    '''returns Boolean\n\n
+    isKeepStatistics()\n
     '''
 def setKeepStatistics():
-    '''public void setKeepStatistics(final Boolean value)
+    '''returns None\n\n
+    setKeepStatistics(final Boolean value)\n
     '''

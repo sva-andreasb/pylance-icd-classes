@@ -1,3 +1,4 @@
-def LeaseViewLineSet():
-    '''public LeaseViewLineSet(final MboServerInterface ms)
+def ():
+    '''returns LeaseViewLineSet\n\n
+    (final MboServerInterface ms)\n
     '''

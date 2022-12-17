@@ -1,43 +1,57 @@
-def TransformGloss():
-    '''public TransformGloss()
-    public TransformGloss(final TransformClassGloss classGloss, final TransformRuleGloss[] array)
+def ():
+    '''returns TransformGloss\n\n
+    ()\n
+    (final TransformClassGloss classGloss, final TransformRuleGloss[] array)\n
     '''
 def getTransformClassGloss():
-    '''public Gloss getTransformClassGloss()
+    '''returns Gloss\n\n
+    getTransformClassGloss()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def read():
-    '''public void read(final DataInputStream dataInputStream, final int n)
+    '''returns None\n\n
+    read(final DataInputStream dataInputStream, final int n)\n
     '''
 def write():
-    '''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''returns None\n\n
+    write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def recalcPointers():
-    '''public void recalcPointers(final Gloss[] array)
+    '''returns None\n\n
+    recalcPointers(final Gloss[] array)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def doesRuleApply():
-    '''public boolean doesRuleApply(final int n, final String s)
+    '''returns boolean\n\n
+    doesRuleApply(final int n, final String s)\n
     '''
 def getPOS():
-    '''public int getPOS(final int n)
+    '''returns int\n\n
+    getPOS(final int n)\n
     '''
 def getFeatureMaskCount():
-    '''public int getFeatureMaskCount(final int n)
+    '''returns int\n\n
+    getFeatureMaskCount(final int n)\n
     '''
 def getFeatureMask():
-    '''public int getFeatureMask(final int n, final int n2)
+    '''returns int\n\n
+    getFeatureMask(final int n, final int n2)\n
     '''
 def getSurfaceform():
-    '''public String getSurfaceform(final int n, final String s)
+    '''returns String\n\n
+    getSurfaceform(final int n, final String s)\n
     '''

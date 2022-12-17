@@ -1,9 +1,8 @@
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def getUserId():
-    '''public String getUserId()
-    '''
-def getIMStatus():
-    '''public static IMUserStatus getIMStatus(final STUserStatus stUserStatus)
+    '''returns String\n\n
+    getUserId()\n
     '''

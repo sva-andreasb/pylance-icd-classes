@@ -1,12 +1,16 @@
 def getLayoutUI():
-    '''public JSONObject getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)
+    '''returns JSONObject\n\n
+    getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)\n
     '''
 def changeResourceDisplayMode():
-    '''public JSONObject changeResourceDisplayMode(final WebClientSession sess, @MXEventParam("display") final String display)
+    '''returns JSONObject\n\n
+    changeResourceDisplayMode(final WebClientSession sess, @MXEventParam("display") final String display)\n
     '''
 def getProjectData():
-    '''public JSONObject getProjectData(final WebClientSession sess)
+    '''returns JSONObject\n\n
+    getProjectData(final WebClientSession sess)\n
     '''
 def getTooltipForDate():
-    '''public DynamicTooltip getTooltipForDate(final WebClientSession sess, @MXEventParam("projectid") final String projectid, @MXEventParam("col") final String col, @MXEventParam("id") final String id, @MXEventParam("date") final long date)
+    '''returns DynamicTooltip\n\n
+    getTooltipForDate(final WebClientSession sess, @MXEventParam("projectid") final String projectid, @MXEventParam("col") final String col, @MXEventParam("id") final String id, @MXEventParam("date") final long date)\n
     '''

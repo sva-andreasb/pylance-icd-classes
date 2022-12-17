@@ -1,3 +1,4 @@
-def FldNetDeviceNodeName():
-    '''public FldNetDeviceNodeName(final MboValue mbv)
+def ():
+    '''returns FldNetDeviceNodeName\n\n
+    (final MboValue mbv)\n
     '''

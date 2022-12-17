@@ -1,3 +1,4 @@
-def PlusCAssetTemplateDumStatusSet():
-    '''public PlusCAssetTemplateDumStatusSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCAssetTemplateDumStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

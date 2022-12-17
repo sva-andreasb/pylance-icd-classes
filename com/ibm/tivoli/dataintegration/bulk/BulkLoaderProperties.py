@@ -1,93 +1,124 @@
 def readBulkProperties():
-    '''public void readBulkProperties()
+    '''returns None\n\n
+    readBulkProperties()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def setFileName():
-    '''public void setFileName(final String string)
+    '''returns None\n\n
+    setFileName(final String string)\n
     '''
 def getWorkingDir():
-    '''public String getWorkingDir()
+    '''returns String\n\n
+    getWorkingDir()\n
     '''
 def setWorkingDir():
-    '''public void setWorkingDir(final String string)
+    '''returns None\n\n
+    setWorkingDir(final String string)\n
     '''
 def getResultsDir():
-    '''public String getResultsDir()
+    '''returns String\n\n
+    getResultsDir()\n
     '''
 def setResultsDir():
-    '''public void setResultsDir(final String string)
+    '''returns None\n\n
+    setResultsDir(final String string)\n
     '''
 def getUsername():
-    '''public String getUsername()
+    '''returns String\n\n
+    getUsername()\n
     '''
 def setUsername():
-    '''public void setUsername(final String user)
+    '''returns None\n\n
+    setUsername(final String user)\n
     '''
 def getOverRideFlag():
-    '''public boolean getOverRideFlag()
+    '''returns boolean\n\n
+    getOverRideFlag()\n
     '''
 def setOverRideFlag():
-    '''public void setOverRideFlag(final boolean inFlag)
+    '''returns None\n\n
+    setOverRideFlag(final boolean inFlag)\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def setPassword():
-    '''public void setPassword(final String inPwd)
+    '''returns None\n\n
+    setPassword(final String inPwd)\n
     '''
 def getKeepDays():
-    '''public int getKeepDays()
+    '''returns int\n\n
+    getKeepDays()\n
     '''
 def setKeepDays():
-    '''public void setKeepDays(final int inDays)
+    '''returns None\n\n
+    setKeepDays(final int inDays)\n
     '''
 def getBatchSize():
-    '''public int getBatchSize()
+    '''returns int\n\n
+    getBatchSize()\n
     '''
 def setBatchSize():
-    '''public void setBatchSize(final int size)
+    '''returns None\n\n
+    setBatchSize(final int size)\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def setUrl():
-    '''public void setUrl(final String hostname)
+    '''returns None\n\n
+    setUrl(final String hostname)\n
     '''
 def getDriver():
-    '''public String getDriver()
+    '''returns String\n\n
+    getDriver()\n
     '''
 def setDriver():
-    '''public void setDriver(final String driver)
+    '''returns None\n\n
+    setDriver(final String driver)\n
     '''
 def getStatsEnabled():
-    '''public boolean getStatsEnabled()
+    '''returns boolean\n\n
+    getStatsEnabled()\n
     '''
 def setStatsEnabled():
-    '''public void setStatsEnabled(final boolean enabled)
+    '''returns None\n\n
+    setStatsEnabled(final boolean enabled)\n
     '''
 def getWorkdirCleanupEnabled():
-    '''public boolean getWorkdirCleanupEnabled()
+    '''returns boolean\n\n
+    getWorkdirCleanupEnabled()\n
     '''
 def setWorkdirCleanupEnabled():
-    '''public void setWorkdirCleanupEnabled(final boolean enabled)
+    '''returns None\n\n
+    setWorkdirCleanupEnabled(final boolean enabled)\n
     '''
 def setCreateWorkingCopy():
-    '''public void setCreateWorkingCopy(final boolean enabled)
+    '''returns None\n\n
+    setCreateWorkingCopy(final boolean enabled)\n
     '''
 def getCreateWorkingCopy():
-    '''public boolean getCreateWorkingCopy()
+    '''returns boolean\n\n
+    getCreateWorkingCopy()\n
     '''
 def getCliPropFile():
-    '''public String getCliPropFile()
+    '''returns String\n\n
+    getCliPropFile()\n
     '''
 def setSuccessResults():
-    '''public void setSuccessResults(final boolean success)
+    '''returns None\n\n
+    setSuccessResults(final boolean success)\n
     '''
 def getSuccessResults():
-    '''public boolean getSuccessResults()
+    '''returns boolean\n\n
+    getSuccessResults()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

@@ -1,3 +1,4 @@
 def fault():
-    '''public void fault(final SOAPFaultEvent soapFaultEvent)
+    '''returns None\n\n
+    fault(final SOAPFaultEvent soapFaultEvent)\n
     '''

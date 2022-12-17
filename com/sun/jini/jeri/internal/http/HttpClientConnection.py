@@ -1,31 +1,41 @@
-def HttpClientConnection():
-    '''public HttpClientConnection(final String s, final int n, final HttpClientSocketFactory httpClientSocketFactory, final HttpClientManager manager)
-    public HttpClientConnection(final String s, final int n, final String s2, final int n2, final boolean b, final HttpClientSocketFactory httpClientSocketFactory, final HttpClientManager manager)
+def ():
+    '''returns HttpClientConnection\n\n
+    (final String s, final int n, final HttpClientSocketFactory httpClientSocketFactory, final HttpClientManager manager)\n
+    (final String s, final int n, final String s2, final int n2, final boolean b, final HttpClientSocketFactory httpClientSocketFactory, final HttpClientManager manager)\n
     '''
 def ping():
-    '''public boolean ping()
+    '''returns boolean\n\n
+    ping()\n
     '''
 def newRequest():
-    '''public OutboundRequest newRequest()
+    '''returns OutboundRequest\n\n
+    newRequest()\n
     '''
 def getSocket():
-    '''public Socket getSocket()
+    '''returns Socket\n\n
+    getSocket()\n
     '''
 def shutdown():
-    '''public boolean shutdown(final boolean b)
+    '''returns boolean\n\n
+    shutdown(final boolean b)\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''
 def populateContext():
-    '''public void populateContext(final Collection collection)
+    '''returns None\n\n
+    populateContext(final Collection collection)\n
     '''
 def getUnfulfilledConstraints():
-    '''public InvocationConstraints getUnfulfilledConstraints()
+    '''returns InvocationConstraints\n\n
+    getUnfulfilledConstraints()\n
     '''
 def getRequestOutputStream():
-    '''public OutputStream getRequestOutputStream()
+    '''returns OutputStream\n\n
+    getRequestOutputStream()\n
     '''
 def getResponseInputStream():
-    '''public InputStream getResponseInputStream()
+    '''returns InputStream\n\n
+    getResponseInputStream()\n
     '''

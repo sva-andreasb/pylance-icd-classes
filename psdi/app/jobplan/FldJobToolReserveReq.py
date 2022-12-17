@@ -1,9 +1,12 @@
-def FldJobToolReserveReq():
-    '''public FldJobToolReserveReq(final MboValue mbv)
+def ():
+    '''returns FldJobToolReserveReq\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

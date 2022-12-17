@@ -1,17 +1,22 @@
-def FetchProfile():
-    '''public FetchProfile()
+def ():
+    '''returns FetchProfile\n\n
+    ()\n
     '''
 def getHeaderNames():
-    '''public String[] getHeaderNames()
+    '''returns String[]\n\n
+    getHeaderNames()\n
     '''
 def add():
-    '''public void add(final String headerName)
-    public void add(final Item item)
+    '''returns None\n\n
+    add(final String headerName)\n
+    add(final Item item)\n
     '''
 def contains():
-    '''public boolean contains(final String headerName)
-    public boolean contains(final Item item)
+    '''returns boolean\n\n
+    contains(final String headerName)\n
+    contains(final Item item)\n
     '''
 def getItems():
-    '''public Item[] getItems()
+    '''returns Item[]\n\n
+    getItems()\n
     '''

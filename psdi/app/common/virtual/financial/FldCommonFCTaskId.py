@@ -1,6 +1,8 @@
-def FldCommonFCTaskId():
-    '''public FldCommonFCTaskId(final MboValue mbv)
+def ():
+    '''returns FldCommonFCTaskId\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

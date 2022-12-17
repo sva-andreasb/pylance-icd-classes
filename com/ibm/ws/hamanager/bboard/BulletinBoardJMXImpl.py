@@ -1,6 +1,8 @@
-def BulletinBoardJMXImpl():
-    '''public BulletinBoardJMXImpl(final CoordinatorImpl coord)
+def ():
+    '''returns BulletinBoardJMXImpl\n\n
+    (final CoordinatorImpl coord)\n
     '''
 def getSnapshot():
-    '''public BulletinBoardSnapshot getSnapshot(final String boardName, final String subjectFilter, final Integer maxSubjects)
+    '''returns BulletinBoardSnapshot\n\n
+    getSnapshot(final String boardName, final String subjectFilter, final Integer maxSubjects)\n
     '''

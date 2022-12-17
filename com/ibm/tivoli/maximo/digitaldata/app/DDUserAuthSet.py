@@ -1,3 +1,4 @@
-def DDUserAuthSet():
-    '''public DDUserAuthSet(final MboServerInterface ms)
+def ():
+    '''returns DDUserAuthSet\n\n
+    (final MboServerInterface ms)\n
     '''

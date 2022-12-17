@@ -1,21 +1,28 @@
 def getBlockSize():
-    '''public int getBlockSize()
+    '''returns int\n\n
+    getBlockSize()\n
     '''
 def getSegmentSize():
-    '''public int getSegmentSize()
+    '''returns int\n\n
+    getSegmentSize()\n
     '''
 def getSyncTick():
-    '''public int getSyncTick()
+    '''returns int\n\n
+    getSyncTick()\n
     '''
 def getBlockReadCacheSize():
-    '''public int getBlockReadCacheSize()
+    '''returns int\n\n
+    getBlockReadCacheSize()\n
     '''
 def getBlockWriteCacheSize():
-    '''public int getBlockWriteCacheSize()
+    '''returns int\n\n
+    getBlockWriteCacheSize()\n
     '''
 def getNode2NodeIdCacheSize():
-    '''public int getNode2NodeIdCacheSize()
+    '''returns int\n\n
+    getNode2NodeIdCacheSize()\n
     '''
 def getNodeId2NodeCacheSize():
-    '''public int getNodeId2NodeCacheSize()
+    '''returns int\n\n
+    getNodeId2NodeCacheSize()\n
     '''

@@ -1,3 +1,4 @@
-def BIMAttributeMapEntrySet():
-    '''public BIMAttributeMapEntrySet(final MboServerInterface ms)
+def ():
+    '''returns BIMAttributeMapEntrySet\n\n
+    (final MboServerInterface ms)\n
     '''

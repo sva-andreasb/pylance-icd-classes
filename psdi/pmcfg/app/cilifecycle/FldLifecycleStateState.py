@@ -1,6 +1,8 @@
-def FldLifecycleStateState():
-    '''public FldLifecycleStateState(final MboValue mbv)
+def ():
+    '''returns FldLifecycleStateState\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

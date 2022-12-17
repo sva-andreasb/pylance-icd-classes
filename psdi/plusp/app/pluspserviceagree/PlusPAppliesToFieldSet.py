@@ -1,3 +1,4 @@
-def PlusPAppliesToFieldSet():
-    '''public PlusPAppliesToFieldSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPAppliesToFieldSet\n\n
+    (final MboServerInterface ms)\n
     '''

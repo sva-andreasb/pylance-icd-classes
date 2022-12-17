@@ -18,61 +18,68 @@ WEB25WAR_DD = "String  \"WEB25WAR_DD\""
 RAR_DD = "String  \"RAR_DD\""
 RAR_BND = "String  \"RAR_BND\""
 DEPL_RES = "String  \"edit.deplresource\""
-def AppDeploymentInfo():
-    '''public AppDeploymentInfo()
-    public AppDeploymentInfo(final Hashtable prefs)
-    '''
-def createDefaultDeployEJBOptions():
-    '''public static Hashtable createDefaultDeployEJBOptions()
-    '''
-def createDefaultDeployWSOptions():
-    '''public static Hashtable createDefaultDeployWSOptions()
+def ():
+    '''returns AppDeploymentInfo\n\n
+    ()\n
+    (final Hashtable prefs)\n
     '''
 def getAppOptions():
-    '''public Hashtable getAppOptions()
+    '''returns Hashtable\n\n
+    getAppOptions()\n
     '''
 def setAppOptions():
-    '''public void setAppOptions(final Hashtable h)
+    '''returns None\n\n
+    setAppOptions(final Hashtable h)\n
     '''
 def getApplication():
-    '''public Application getApplication()
+    '''returns Application\n\n
+    getApplication()\n
     '''
 def setApplication():
-    '''public void setApplication(final Application a)
+    '''returns None\n\n
+    setApplication(final Application a)\n
     '''
 def getApplicationBindings():
-    '''public ApplicationBinding getApplicationBindings()
+    '''returns ApplicationBinding\n\n
+    getApplicationBindings()\n
     '''
 def setApplicationBindings():
-    '''public void setApplicationBindings(final ApplicationBinding a)
+    '''returns None\n\n
+    setApplicationBindings(final ApplicationBinding a)\n
     '''
 def getApplicationExtensions():
-    '''public ApplicationExtension getApplicationExtensions()
+    '''returns ApplicationExtension\n\n
+    getApplicationExtensions()\n
     '''
 def setApplicationExtensions():
-    '''public void setApplicationExtensions(final ApplicationExtension a)
+    '''returns None\n\n
+    setApplicationExtensions(final ApplicationExtension a)\n
     '''
 def getModuleConfig():
-    '''public Vector getModuleConfig(final String configType)
+    '''returns Vector\n\n
+    getModuleConfig(final String configType)\n
     '''
 def setModuleConfig():
-    '''public void setModuleConfig(final String configType, final Vector val)
+    '''returns None\n\n
+    setModuleConfig(final String configType, final Vector val)\n
     '''
 def getAllURIStrings():
-    '''public Vector getAllURIStrings()
+    '''returns Vector\n\n
+    getAllURIStrings()\n
     '''
 def printAppInfo():
-    '''public void printAppInfo(final PrintStream out)
+    '''returns None\n\n
+    printAppInfo(final PrintStream out)\n
     '''
 def saveAsFile():
-    '''public void saveAsFile(final String moduleUri, final String fileUriInModule, final InputStream inputStream)
+    '''returns None\n\n
+    saveAsFile(final String moduleUri, final String fileUriInModule, final InputStream inputStream)\n
     '''
 def getJ2EEAppVersion():
-    '''public String getJ2EEAppVersion()
-    '''
-def getLocalHost():
-    '''public static String getLocalHost()
+    '''returns String\n\n
+    getJ2EEAppVersion()\n
     '''
 def getAppDeploymentResource():
-    '''public Resource getAppDeploymentResource(final boolean processEmbeddedCfg)
+    '''returns Resource\n\n
+    getAppDeploymentResource(final boolean processEmbeddedCfg)\n
     '''

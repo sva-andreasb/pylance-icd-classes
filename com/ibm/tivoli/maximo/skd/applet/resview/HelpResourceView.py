@@ -1,6 +1,8 @@
-def HelpResourceView():
-    '''public HelpResourceView(final String help)
+def ():
+    '''returns HelpResourceView\n\n
+    (final String help)\n
     '''
 def initializeView():
-    '''public Component initializeView()
+    '''returns Component\n\n
+    initializeView()\n
     '''

@@ -1,4 +1,5 @@
-def TransactionRequiredLocalException():
-    '''public TransactionRequiredLocalException()
-    public TransactionRequiredLocalException(final String message)
+def ():
+    '''returns TransactionRequiredLocalException\n\n
+    ()\n
+    (final String message)\n
     '''

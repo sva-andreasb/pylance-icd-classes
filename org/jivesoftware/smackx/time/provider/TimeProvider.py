@@ -1,3 +1,4 @@
-def TimeProvider():
-    '''public TimeProvider()
+def ():
+    '''returns TimeProvider\n\n
+    ()\n
     '''

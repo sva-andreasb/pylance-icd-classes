@@ -1,12 +1,16 @@
-def IoTFCfg():
-    '''public IoTFCfg(final MboSet ms)
+def ():
+    '''returns IoTFCfg\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def resetEndPoint():
-    '''public void resetEndPoint()
+    '''returns None\n\n
+    resetEndPoint()\n
     '''

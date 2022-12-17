@@ -1,6 +1,8 @@
-def FldErlstWoGenDate():
-    '''public FldErlstWoGenDate(final MboValue mbv)
+def ():
+    '''returns FldErlstWoGenDate\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

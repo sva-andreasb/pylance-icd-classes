@@ -1,58 +1,77 @@
-def InvoiceLineSet():
-    '''public InvoiceLineSet(final MboServerInterface ms)
+def ():
+    '''returns InvoiceLineSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def addInvoiceLineWithKey():
-    '''public InvoiceLineRemote addInvoiceLineWithKey(final String key)
+    '''returns InvoiceLineRemote\n\n
+    addInvoiceLineWithKey(final String key)\n
     '''
 def createInvoiceLine():
-    '''public void createInvoiceLine(final MboRemote receiptOrPOLine, final double qty, final double cost)
+    '''returns None\n\n
+    createInvoiceLine(final MboRemote receiptOrPOLine, final double qty, final double cost)\n
     '''
 def clearAllocatedLines():
-    '''public void clearAllocatedLines()
+    '''returns None\n\n
+    clearAllocatedLines()\n
     '''
 def allocateServices():
-    '''public void allocateServices()
-    public void allocateServices(final InvoiceLineSetRemote acceptingLines)
+    '''returns None\n\n
+    allocateServices()\n
+    allocateServices(final InvoiceLineSetRemote acceptingLines)\n
     '''
 def hasAllocatedLines():
-    '''public boolean hasAllocatedLines()
+    '''returns boolean\n\n
+    hasAllocatedLines()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def getInvoiceForQueryOnly():
-    '''public MboRemote getInvoiceForQueryOnly(final String invoicenum, final String siteid)
+    '''returns MboRemote\n\n
+    getInvoiceForQueryOnly(final String invoicenum, final String siteid)\n
     '''
 def setInvoiceforQueryOnly():
-    '''public void setInvoiceforQueryOnly(final MboRemote invoice)
+    '''returns None\n\n
+    setInvoiceforQueryOnly(final MboRemote invoice)\n
     '''
 def getPOForQueryOnly():
-    '''public MboRemote getPOForQueryOnly(final String ponum, final String positeid, final String porevisionnum)
+    '''returns MboRemote\n\n
+    getPOForQueryOnly(final String ponum, final String positeid, final String porevisionnum)\n
     '''
 def setPOforQueryOnly():
-    '''public void setPOforQueryOnly(final MboRemote po)
+    '''returns None\n\n
+    setPOforQueryOnly(final MboRemote po)\n
     '''
 def getCompaniesForQueryOnly():
-    '''public MboRemote getCompaniesForQueryOnly(final String vendor, final String orgid)
+    '''returns MboRemote\n\n
+    getCompaniesForQueryOnly(final String vendor, final String orgid)\n
     '''
 def setCompaniesforQueryOnly():
-    '''public void setCompaniesforQueryOnly(final MboRemote company)
+    '''returns None\n\n
+    setCompaniesforQueryOnly(final MboRemote company)\n
     '''
 def getTaxTypeForQueryOnly():
-    '''public MboRemote getTaxTypeForQueryOnly(final String typeCode, final String orgid)
+    '''returns MboRemote\n\n
+    getTaxTypeForQueryOnly(final String typeCode, final String orgid)\n
     '''
 def setTaxTypeforQueryOnly():
-    '''public void setTaxTypeforQueryOnly(final MboRemote taxType)
+    '''returns None\n\n
+    setTaxTypeforQueryOnly(final MboRemote taxType)\n
     '''
 def getTaxRateForQueryOnly():
-    '''public Double getTaxRateForQueryOnly(final String typeCode, final String taxCode, final String orgID, final String currentDate)
+    '''returns Double\n\n
+    getTaxRateForQueryOnly(final String typeCode, final String taxCode, final String orgID, final String currentDate)\n
     '''
 def setTaxRateforQueryOnly():
-    '''public void setTaxRateforQueryOnly(final String typeCode, final String taxCode, final String orgID, final String currentDate, final double rate)
+    '''returns None\n\n
+    setTaxRateforQueryOnly(final String typeCode, final String taxCode, final String orgID, final String currentDate, final double rate)\n
     '''
 def getTaxForQueryOnly():
-    '''public MboRemote getTaxForQueryOnly(final String typeCode, final String taxCode, final String orgid)
+    '''returns MboRemote\n\n
+    getTaxForQueryOnly(final String typeCode, final String taxCode, final String orgid)\n
     '''
 def setTaxforQueryOnly():
-    '''public void setTaxforQueryOnly(final MboRemote tax)
+    '''returns None\n\n
+    setTaxforQueryOnly(final MboRemote tax)\n
     '''

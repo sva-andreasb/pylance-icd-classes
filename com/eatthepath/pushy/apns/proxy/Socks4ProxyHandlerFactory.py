@@ -1,7 +1,9 @@
-def Socks4ProxyHandlerFactory():
-    '''public Socks4ProxyHandlerFactory(final SocketAddress proxyAddress)
-    public Socks4ProxyHandlerFactory(final SocketAddress proxyAddress, final String username)
+def ():
+    '''returns Socks4ProxyHandlerFactory\n\n
+    (final SocketAddress proxyAddress)\n
+    (final SocketAddress proxyAddress, final String username)\n
     '''
 def createProxyHandler():
-    '''public ProxyHandler createProxyHandler()
+    '''returns ProxyHandler\n\n
+    createProxyHandler()\n
     '''

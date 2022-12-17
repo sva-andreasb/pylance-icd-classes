@@ -1,3 +1,4 @@
-def SourceOrTargetViewWorkDetailsBean():
-    '''public SourceOrTargetViewWorkDetailsBean()
+def ():
+    '''returns SourceOrTargetViewWorkDetailsBean\n\n
+    ()\n
     '''

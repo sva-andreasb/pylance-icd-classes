@@ -16,9 +16,3 @@ _ATTRIBUTE_METAINFO_ENUM_TYPE = "String  \"ENUM\""
 _ATTRIBUTE_METAINFO_START = "String  \"_Attribute_MetaInfo_Start\""
 _ATTRIBUTE_METAINFO_REMOVED = "String  \"_Attribute_MetaInfo_Removed\""
 _ATTRIBUTE_METAINFO_DEPRECATED = "String  \"_Attribute_MetaInfo_Deprecated\""
-def isSystemAttribute():
-    '''public static boolean isSystemAttribute(final String attrName)
-    '''
-def isAttributeMetaInfo():
-    '''public static boolean isAttributeMetaInfo(final String attrName)
-    '''

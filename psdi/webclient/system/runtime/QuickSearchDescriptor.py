@@ -1,3 +1,4 @@
 def canCreateControl():
-    '''public boolean canCreateControl(final PageInstance page, final ControlInstance parentControl, final Element element)
+    '''returns boolean\n\n
+    canCreateControl(final PageInstance page, final ControlInstance parentControl, final Element element)\n
     '''

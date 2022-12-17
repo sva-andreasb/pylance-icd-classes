@@ -1,15 +1,16 @@
-def getInstance():
-    '''public static CharSet getInstance(final String... setStrs)
-    '''
 def contains():
-    '''public boolean contains(final char ch)
+    '''returns boolean\n\n
+    contains(final char ch)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

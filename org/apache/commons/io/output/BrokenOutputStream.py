@@ -1,13 +1,17 @@
-def BrokenOutputStream():
-    '''public BrokenOutputStream(final IOException exception)
-    public BrokenOutputStream()
+def ():
+    '''returns BrokenOutputStream\n\n
+    (final IOException exception)\n
+    ()\n
     '''
 def write():
-    '''public void write(final int b)
+    '''returns None\n\n
+    write(final int b)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

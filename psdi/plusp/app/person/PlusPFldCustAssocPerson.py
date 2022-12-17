@@ -1,3 +1,4 @@
-def PlusPFldCustAssocPerson():
-    '''public PlusPFldCustAssocPerson(final MboValue mboValue)
+def ():
+    '''returns PlusPFldCustAssocPerson\n\n
+    (final MboValue mboValue)\n
     '''

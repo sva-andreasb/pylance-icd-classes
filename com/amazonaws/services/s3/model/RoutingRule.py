@@ -1,18 +1,24 @@
 def setCondition():
-    '''public void setCondition(final RoutingRuleCondition condition)
+    '''returns None\n\n
+    setCondition(final RoutingRuleCondition condition)\n
     '''
 def getCondition():
-    '''public RoutingRuleCondition getCondition()
+    '''returns RoutingRuleCondition\n\n
+    getCondition()\n
     '''
 def withCondition():
-    '''public RoutingRule withCondition(final RoutingRuleCondition condition)
+    '''returns RoutingRule\n\n
+    withCondition(final RoutingRuleCondition condition)\n
     '''
 def setRedirect():
-    '''public void setRedirect(final RedirectRule redirect)
+    '''returns None\n\n
+    setRedirect(final RedirectRule redirect)\n
     '''
 def getRedirect():
-    '''public RedirectRule getRedirect()
+    '''returns RedirectRule\n\n
+    getRedirect()\n
     '''
 def withRedirect():
-    '''public RoutingRule withRedirect(final RedirectRule redirect)
+    '''returns RoutingRule\n\n
+    withRedirect(final RedirectRule redirect)\n
     '''

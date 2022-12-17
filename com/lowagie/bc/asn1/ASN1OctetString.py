@@ -1,17 +1,17 @@
-def getInstance():
-    '''public static ASN1OctetString getInstance(final ASN1TaggedObject obj, final boolean explicit)
-    public static ASN1OctetString getInstance(final Object obj)
-    '''
-def ASN1OctetString():
-    '''public ASN1OctetString(final byte[] string)
-    public ASN1OctetString(final DEREncodable obj)
+def ():
+    '''returns ASN1OctetString\n\n
+    (final byte[] string)\n
+    (final DEREncodable obj)\n
     '''
 def getOctets():
-    '''public byte[] getOctets()
+    '''returns byte[]\n\n
+    getOctets()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

@@ -1,21 +1,28 @@
-def DrillDown():
-    '''public DrillDown(final MboSet ms)
+def ():
+    '''returns DrillDown\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def showAllSystems():
-    '''public void showAllSystems()
+    '''returns None\n\n
+    showAllSystems()\n
     '''
 def getOringatingAttr():
-    '''public String getOringatingAttr()
+    '''returns String\n\n
+    getOringatingAttr()\n
     '''
 def setOrinatingType():
-    '''public void setOrinatingType(final int origType)
+    '''returns None\n\n
+    setOrinatingType(final int origType)\n
     '''
 def getOrinatingType():
-    '''public int getOrinatingType()
+    '''returns int\n\n
+    getOrinatingType()\n
     '''

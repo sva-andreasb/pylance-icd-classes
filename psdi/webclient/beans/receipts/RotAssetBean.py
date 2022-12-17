@@ -1,3 +1,4 @@
 def autoNumberAll():
-    '''public int autoNumberAll()
+    '''returns int\n\n
+    autoNumberAll()\n
     '''

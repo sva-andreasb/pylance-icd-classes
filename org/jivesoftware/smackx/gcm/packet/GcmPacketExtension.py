@@ -1,14 +1,14 @@
 ELEMENT = "String  \"gcm\""
 NAMESPACE = "String  \"google:mobile:data\""
-def GcmPacketExtension():
-    '''public GcmPacketExtension(final String json)
+def ():
+    '''returns GcmPacketExtension\n\n
+    (final String json)\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def getElementName():
-    '''public String getElementName()
-    '''
-def from():
-    '''public static GcmPacketExtension from(final Stanza packet)
+    '''returns String\n\n
+    getElementName()\n
     '''

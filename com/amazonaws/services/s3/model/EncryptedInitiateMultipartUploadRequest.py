@@ -1,22 +1,25 @@
-def EncryptedInitiateMultipartUploadRequest():
-    '''public EncryptedInitiateMultipartUploadRequest(final String bucketName, final String key)
-    public EncryptedInitiateMultipartUploadRequest(final String bucketName, final String key, final ObjectMetadata objectMetadata)
-    '''
-def getMaterialsDescription():
-    '''public Map<String, String> getMaterialsDescription()
+def ():
+    '''returns EncryptedInitiateMultipartUploadRequest\n\n
+    (final String bucketName, final String key)\n
+    (final String bucketName, final String key, final ObjectMetadata objectMetadata)\n
     '''
 def setMaterialsDescription():
-    '''public void setMaterialsDescription(final Map<String, String> materialsDescription)
+    '''returns None\n\n
+    setMaterialsDescription(final Map<String, String> materialsDescription)\n
     '''
 def withMaterialsDescription():
-    '''public EncryptedInitiateMultipartUploadRequest withMaterialsDescription(final Map<String, String> materialsDescription)
+    '''returns EncryptedInitiateMultipartUploadRequest\n\n
+    withMaterialsDescription(final Map<String, String> materialsDescription)\n
     '''
 def isCreateEncryptionMaterial():
-    '''public boolean isCreateEncryptionMaterial()
+    '''returns boolean\n\n
+    isCreateEncryptionMaterial()\n
     '''
 def setCreateEncryptionMaterial():
-    '''public void setCreateEncryptionMaterial(final boolean createEncryptionMaterial)
+    '''returns None\n\n
+    setCreateEncryptionMaterial(final boolean createEncryptionMaterial)\n
     '''
 def withCreateEncryptionMaterial():
-    '''public EncryptedInitiateMultipartUploadRequest withCreateEncryptionMaterial(final boolean createEncryptionMaterial)
+    '''returns EncryptedInitiateMultipartUploadRequest\n\n
+    withCreateEncryptionMaterial(final boolean createEncryptionMaterial)\n
     '''

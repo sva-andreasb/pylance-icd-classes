@@ -1,3 +1,4 @@
-def PlusCFldInstrCalRangeEU():
-    '''public PlusCFldInstrCalRangeEU(final MboValue mbv)
+def ():
+    '''returns PlusCFldInstrCalRangeEU\n\n
+    (final MboValue mbv)\n
     '''

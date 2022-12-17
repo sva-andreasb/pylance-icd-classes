@@ -1,7 +1,9 @@
-def VMStartException():
-    '''public VMStartException(final Process process)
-    public VMStartException(final String message, final Process process)
+def ():
+    '''returns VMStartException\n\n
+    (final Process process)\n
+    (final String message, final Process process)\n
     '''
 def process():
-    '''public Process process()
+    '''returns Process\n\n
+    process()\n
     '''

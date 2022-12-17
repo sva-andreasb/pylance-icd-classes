@@ -1,3 +1,4 @@
-def StoreTriplesNodesHashDB2():
-    '''public StoreTriplesNodesHashDB2(final SDBConnection connection, final StoreDesc desc)
+def ():
+    '''returns StoreTriplesNodesHashDB2\n\n
+    (final SDBConnection connection, final StoreDesc desc)\n
     '''

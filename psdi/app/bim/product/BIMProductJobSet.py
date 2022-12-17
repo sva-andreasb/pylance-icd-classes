@@ -1,3 +1,4 @@
-def BIMProductJobSet():
-    '''public BIMProductJobSet(final MboServerInterface ms)
+def ():
+    '''returns BIMProductJobSet\n\n
+    (final MboServerInterface ms)\n
     '''

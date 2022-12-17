@@ -1,70 +1,93 @@
-def RESTMboSet():
-    '''public RESTMboSet(final MboServerInterface ms)
+def ():
+    '''returns RESTMboSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def load():
-    '''public void load(int index)
+    '''returns None\n\n
+    load(int index)\n
     '''
 def invoke():
-    '''public byte[] invoke(final int index, final boolean forCount)
+    '''returns byte[]\n\n
+    invoke(final int index, final boolean forCount)\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''
 def getOpAndValue():
-    '''public Object[] getOpAndValue(final String expression)
+    '''returns Object[]\n\n
+    getOpAndValue(final String expression)\n
     '''
 def resetQbe():
-    '''public void resetQbe()
+    '''returns None\n\n
+    resetQbe()\n
     '''
 def getHTTPQueryMethod():
-    '''public String getHTTPQueryMethod()
+    '''returns String\n\n
+    getHTTPQueryMethod()\n
     '''
 def formatUrl():
-    '''public String formatUrl(final String url, final String method)
+    '''returns String\n\n
+    formatUrl(final String url, final String method)\n
     '''
 def formatUrlForSortPage():
-    '''public String formatUrlForSortPage(final String url, final int index, final boolean forCount, final String method)
+    '''returns String\n\n
+    formatUrlForSortPage(final String url, final int index, final boolean forCount, final String method)\n
     '''
 def formatPostData():
-    '''public byte[] formatPostData(final int index, final boolean forCount)
+    '''returns byte[]\n\n
+    formatPostData(final int index, final boolean forCount)\n
     '''
 def formatPostDataForNextPage():
-    '''public byte[] formatPostDataForNextPage(final byte[] data, final int index)
+    '''returns byte[]\n\n
+    formatPostDataForNextPage(final byte[] data, final int index)\n
     '''
 def getWhereSeparator():
-    '''public String getWhereSeparator()
+    '''returns String\n\n
+    getWhereSeparator()\n
     '''
 def formatWhere():
-    '''public void formatWhere(final List<String> whereList, final String where)
+    '''returns None\n\n
+    formatWhere(final List<String> whereList, final String where)\n
     '''
 def formatUrlForNextPage():
-    '''public String formatUrlForNextPage(final String url, final int index, final String method)
+    '''returns String\n\n
+    formatUrlForNextPage(final String url, final int index, final String method)\n
     '''
 def getOrderByClouse():
-    '''public String getOrderByClouse()
+    '''returns String\n\n
+    getOrderByClouse()\n
     '''
 def getCountClause():
-    '''public String getCountClause()
+    '''returns String\n\n
+    getCountClause()\n
     '''
 def getPagingParams():
-    '''public String[] getPagingParams()
+    '''returns String[]\n\n
+    getPagingParams()\n
     '''
 def getStringQualifier():
-    '''public String getStringQualifier()
+    '''returns String\n\n
+    getStringQualifier()\n
     '''
 def getUrl():
-    '''public String getUrl(final HTTPHandler handler, final boolean forCount)
+    '''returns String\n\n
+    getUrl(final HTTPHandler handler, final boolean forCount)\n
     '''
 def getWhereToFormat():
-    '''public String getWhereToFormat(final String where)
-    public String getWhereToFormat(final String where, final boolean isRelationship)
+    '''returns String\n\n
+    getWhereToFormat(final String where)\n
+    getWhereToFormat(final String where, final boolean isRelationship)\n
     '''
 def moveTo():
-    '''public MboRemote moveTo(final int pos)
+    '''returns MboRemote\n\n
+    moveTo(final int pos)\n
     '''
 def moveNext():
-    '''public MboRemote moveNext()
+    '''returns MboRemote\n\n
+    moveNext()\n
     '''

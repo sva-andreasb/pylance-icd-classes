@@ -1,6 +1,8 @@
-def MboConfigInfo():
-    '''public MboConfigInfo()
+def ():
+    '''returns MboConfigInfo\n\n
+    ()\n
     '''
 def getActionDescriptor():
-    '''public MboActionDescriptor getActionDescriptor(final String mboName, final String actionName, final String propValue)
+    '''returns MboActionDescriptor\n\n
+    getActionDescriptor(final String mboName, final String actionName, final String propValue)\n
     '''

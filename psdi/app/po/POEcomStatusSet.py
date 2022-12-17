@@ -1,3 +1,4 @@
-def POEcomStatusSet():
-    '''public POEcomStatusSet(final MboServerInterface ms)
+def ():
+    '''returns POEcomStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

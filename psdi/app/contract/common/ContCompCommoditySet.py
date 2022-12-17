@@ -1,9 +1,12 @@
-def ContCompCommoditySet():
-    '''public ContCompCommoditySet(final MboServerInterface ms)
+def ():
+    '''returns ContCompCommoditySet\n\n
+    (final MboServerInterface ms)\n
     '''
 def copyFromCommodityGroupSet():
-    '''public void copyFromCommodityGroupSet(final MboSetRemote commoditySet)
+    '''returns None\n\n
+    copyFromCommodityGroupSet(final MboSetRemote commoditySet)\n
     '''
 def copyFromCommodityCodeSet():
-    '''public void copyFromCommodityCodeSet(final MboSetRemote commoditySet, final String parent)
+    '''returns None\n\n
+    copyFromCommodityCodeSet(final MboSetRemote commoditySet, final String parent)\n
     '''

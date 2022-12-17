@@ -1,24 +1,32 @@
 def isInheritedProperty():
-    '''public boolean isInheritedProperty()
+    '''returns boolean\n\n
+    isInheritedProperty()\n
     '''
 def isAnimatableProperty():
-    '''public boolean isAnimatableProperty()
+    '''returns boolean\n\n
+    isAnimatableProperty()\n
     '''
 def isAdditiveProperty():
-    '''public boolean isAdditiveProperty()
+    '''returns boolean\n\n
+    isAdditiveProperty()\n
     '''
 def getPropertyType():
-    '''public int getPropertyType()
+    '''returns int\n\n
+    getPropertyType()\n
     '''
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def getDefaultValue():
-    '''public Value getDefaultValue()
+    '''returns Value\n\n
+    getDefaultValue()\n
     '''
 def createValue():
-    '''public Value createValue(final LexicalUnit lu, final CSSEngine engine)
+    '''returns Value\n\n
+    createValue(final LexicalUnit lu, final CSSEngine engine)\n
     '''
 def computeValue():
-    '''public Value computeValue(final CSSStylableElement elt, final String pseudo, final CSSEngine engine, final int idx, final StyleMap sm, final Value value)
+    '''returns Value\n\n
+    computeValue(final CSSStylableElement elt, final String pseudo, final CSSEngine engine, final int idx, final StyleMap sm, final Value value)\n
     '''

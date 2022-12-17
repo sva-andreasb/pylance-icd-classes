@@ -1,12 +1,16 @@
 def setControlRegistry():
-    '''public void setControlRegistry(final Document controlRegistry)
+    '''returns None\n\n
+    setControlRegistry(final Document controlRegistry)\n
     '''
 def getControlRegistry():
-    '''public Document getControlRegistry()
+    '''returns Document\n\n
+    getControlRegistry()\n
     '''
 def setComponentRegistry():
-    '''public void setComponentRegistry(final Document componentRegistry)
+    '''returns None\n\n
+    setComponentRegistry(final Document componentRegistry)\n
     '''
 def getComponentRegistry():
-    '''public Document getComponentRegistry()
+    '''returns Document\n\n
+    getComponentRegistry()\n
     '''

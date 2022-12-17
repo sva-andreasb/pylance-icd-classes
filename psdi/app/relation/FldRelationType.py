@@ -1,6 +1,8 @@
-def FldRelationType():
-    '''public FldRelationType(final MboValue mbv)
+def ():
+    '''returns FldRelationType\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

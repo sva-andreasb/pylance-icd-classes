@@ -1,3 +1,4 @@
-def InspQuestionSet():
-    '''public InspQuestionSet(final MboServerInterface ms)
+def ():
+    '''returns InspQuestionSet\n\n
+    (final MboServerInterface ms)\n
     '''

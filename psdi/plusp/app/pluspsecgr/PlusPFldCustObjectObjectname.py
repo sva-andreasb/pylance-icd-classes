@@ -1,3 +1,4 @@
-def PlusPFldCustObjectObjectname():
-    '''public PlusPFldCustObjectObjectname(final MboValue mbv)
+def ():
+    '''returns PlusPFldCustObjectObjectname\n\n
+    (final MboValue mbv)\n
     '''

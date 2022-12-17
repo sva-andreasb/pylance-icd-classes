@@ -1,3 +1,4 @@
 def validate():
-    '''public void validate(final T target)
+    '''returns None\n\n
+    validate(final T target)\n
     '''

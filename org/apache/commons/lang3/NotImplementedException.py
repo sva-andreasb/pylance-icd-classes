@@ -1,11 +1,13 @@
-def NotImplementedException():
-    '''public NotImplementedException(final String message)
-    public NotImplementedException(final Throwable cause)
-    public NotImplementedException(final String message, final Throwable cause)
-    public NotImplementedException(final String message, final String code)
-    public NotImplementedException(final Throwable cause, final String code)
-    public NotImplementedException(final String message, final Throwable cause, final String code)
+def ():
+    '''returns NotImplementedException\n\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
+    (final String message, final String code)\n
+    (final Throwable cause, final String code)\n
+    (final String message, final Throwable cause, final String code)\n
     '''
 def getCode():
-    '''public String getCode()
+    '''returns String\n\n
+    getCode()\n
     '''

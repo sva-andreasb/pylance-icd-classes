@@ -1,15 +1,12 @@
-def CachingTokenFilter():
-    '''public CachingTokenFilter(final TokenStream input)
+def ():
+    '''returns CachingTokenFilter\n\n
+    (final TokenStream input)\n
     '''
 def reset():
-    '''public void reset()
-    '''
-def incrementToken():
-    '''public final boolean incrementToken()
-    '''
-def end():
-    '''public final void end()
+    '''returns None\n\n
+    reset()\n
     '''
 def isCached():
-    '''public boolean isCached()
+    '''returns boolean\n\n
+    isCached()\n
     '''

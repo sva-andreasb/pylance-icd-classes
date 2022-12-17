@@ -1,12 +1,15 @@
-def PdfDashPattern():
-    '''public PdfDashPattern()
-    public PdfDashPattern(final float dash)
-    public PdfDashPattern(final float dash, final float gap)
-    public PdfDashPattern(final float dash, final float gap, final float phase)
+def ():
+    '''returns PdfDashPattern\n\n
+    ()\n
+    (final float dash)\n
+    (final float dash, final float gap)\n
+    (final float dash, final float gap, final float phase)\n
     '''
 def add():
-    '''public void add(final float n)
+    '''returns None\n\n
+    add(final float n)\n
     '''
 def toPdf():
-    '''public void toPdf(final PdfWriter writer, final OutputStream os)
+    '''returns None\n\n
+    toPdf(final PdfWriter writer, final OutputStream os)\n
     '''

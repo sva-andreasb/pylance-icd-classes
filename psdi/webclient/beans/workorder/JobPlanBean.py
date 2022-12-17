@@ -1,6 +1,8 @@
 def REFRESHLIST():
-    '''public int REFRESHLIST()
+    '''returns int\n\n
+    REFRESHLIST()\n
     '''
 def REVISE():
-    '''public int REVISE()
+    '''returns int\n\n
+    REVISE()\n
     '''

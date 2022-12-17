@@ -1,6 +1,8 @@
-def POStatusHandler():
-    '''public POStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns POStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def approve():
-    '''public void approve(final Date date)
+    '''returns None\n\n
+    approve(final Date date)\n
     '''

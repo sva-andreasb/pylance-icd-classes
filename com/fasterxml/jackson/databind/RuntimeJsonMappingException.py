@@ -1,5 +1,6 @@
-def RuntimeJsonMappingException():
-    '''public RuntimeJsonMappingException(final JsonMappingException cause)
-    public RuntimeJsonMappingException(final String message)
-    public RuntimeJsonMappingException(final String message, final JsonMappingException cause)
+def ():
+    '''returns RuntimeJsonMappingException\n\n
+    (final JsonMappingException cause)\n
+    (final String message)\n
+    (final String message, final JsonMappingException cause)\n
     '''

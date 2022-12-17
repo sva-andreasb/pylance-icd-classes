@@ -1,6 +1,4 @@
-def CastorSerializerFactory():
-    '''public CastorSerializerFactory(final Class javaType, final QName xmlType)
-    '''
-def create():
-    '''public static SerializerFactory create(final Class javaType, final QName xmlType)
+def ():
+    '''returns CastorSerializerFactory\n\n
+    (final Class javaType, final QName xmlType)\n
     '''

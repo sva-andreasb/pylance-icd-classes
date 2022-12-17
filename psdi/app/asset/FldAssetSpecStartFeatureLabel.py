@@ -1,3 +1,4 @@
-def FldAssetSpecStartFeatureLabel():
-    '''public FldAssetSpecStartFeatureLabel(final MboValue mbv)
+def ():
+    '''returns FldAssetSpecStartFeatureLabel\n\n
+    (final MboValue mbv)\n
     '''

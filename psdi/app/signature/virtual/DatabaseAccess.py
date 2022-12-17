@@ -1,9 +1,12 @@
-def DatabaseAccess():
-    '''public DatabaseAccess(final MboSet ms)
+def ():
+    '''returns DatabaseAccess\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def saveAccess():
-    '''public void saveAccess()
+    '''returns None\n\n
+    saveAccess()\n
     '''

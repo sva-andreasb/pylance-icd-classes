@@ -1,22 +1,24 @@
 ELEMENT = "String  \"register\""
 NAMESPACE = "String  \"http://jabber.org/features/iq-register\""
-def Registration():
-    '''public Registration()
-    public Registration(final Map<String, String> attributes)
-    public Registration(final String instructions, final Map<String, String> attributes)
+def ():
+    '''returns Registration\n\n
+    ()\n
+    (final Map<String, String> attributes)\n
+    (final String instructions, final Map<String, String> attributes)\n
     '''
 def getInstructions():
-    '''public String getInstructions()
-    '''
-def getAttributes():
-    '''public Map<String, String> getAttributes()
+    '''returns String\n\n
+    getInstructions()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''

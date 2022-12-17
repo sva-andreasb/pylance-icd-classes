@@ -1,9 +1,12 @@
 def createconfirm():
-    '''public int createconfirm()
+    '''returns int\n\n
+    createconfirm()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def confirmok():
-    '''public int confirmok()
+    '''returns int\n\n
+    confirmok()\n
     '''

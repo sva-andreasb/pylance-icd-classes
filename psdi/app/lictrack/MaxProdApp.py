@@ -1,6 +1,8 @@
-def MaxProdApp():
-    '''public MaxProdApp(final MboSet ms)
+def ():
+    '''returns MaxProdApp\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

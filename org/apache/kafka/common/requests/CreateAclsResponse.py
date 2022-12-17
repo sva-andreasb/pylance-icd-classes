@@ -1,28 +1,22 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def CreateAclsResponse():
-    '''public CreateAclsResponse(final int throttleTimeMs, final List<AclCreationResponse> aclCreationResponses)
-    public CreateAclsResponse(final Struct struct)
+def ():
+    '''returns AclCreationResponse\n\n
+    (final int throttleTimeMs, final List<AclCreationResponse> aclCreationResponses)\n
+    (final Struct struct)\n
+    (final ApiError error)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def aclCreationResponses():
-    '''public List<AclCreationResponse> aclCreationResponses()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
-    '''
-def parse():
-    '''public static CreateAclsResponse parse(final ByteBuffer buffer, final short version)
-    '''
-def AclCreationResponse():
-    '''public AclCreationResponse(final ApiError error)
+    '''returns List<AclCreationResponse>\n\n
+    aclCreationResponses()\n
     '''
 def error():
-    '''public ApiError error()
+    '''returns ApiError\n\n
+    error()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

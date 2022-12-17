@@ -1,3 +1,4 @@
-def CreateRelInputSet():
-    '''public CreateRelInputSet(final MboServerInterface ms)
+def ():
+    '''returns CreateRelInputSet\n\n
+    (final MboServerInterface ms)\n
     '''

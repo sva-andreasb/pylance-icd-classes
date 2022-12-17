@@ -1,21 +1,28 @@
-def PlusPClassStructureSet():
-    '''public PlusPClassStructureSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPClassStructureSet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def isExceptionToCustomerFilter():
-    '''public boolean isExceptionToCustomerFilter(final MboRemote mboRemote)
+    '''returns boolean\n\n
+    isExceptionToCustomerFilter(final MboRemote mboRemote)\n
     '''
 def getExceptionsToCustomerFilter():
-    '''public ArrayList<String> getExceptionsToCustomerFilter()
+    '''returns ArrayList<String>\n\n
+    getExceptionsToCustomerFilter()\n
     '''
 def setOriginatingObject():
-    '''public void setOriginatingObject(final MboRemote mboRemote)
+    '''returns None\n\n
+    setOriginatingObject(final MboRemote mboRemote)\n
     '''
 def getUseWithSql():
-    '''public String getUseWithSql()
+    '''returns String\n\n
+    getUseWithSql()\n
     '''
 def getOriginatingObject():
-    '''public MboRemote getOriginatingObject()
+    '''returns MboRemote\n\n
+    getOriginatingObject()\n
     '''
 def getQualifiedWhere():
-    '''public String getQualifiedWhere()
+    '''returns String\n\n
+    getQualifiedWhere()\n
     '''

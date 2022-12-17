@@ -1,3 +1,4 @@
-def InspFormUseWithSet():
-    '''public InspFormUseWithSet(final MboServerInterface ms)
+def ():
+    '''returns InspFormUseWithSet\n\n
+    (final MboServerInterface ms)\n
     '''

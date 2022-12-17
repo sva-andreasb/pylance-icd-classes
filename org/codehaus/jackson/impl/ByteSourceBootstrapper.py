@@ -1,16 +1,17 @@
-def ByteSourceBootstrapper():
-    '''public ByteSourceBootstrapper(final IOContext ctxt, final InputStream in)
-    public ByteSourceBootstrapper(final IOContext ctxt, final byte[] inputBuffer, final int inputStart, final int inputLen)
+def ():
+    '''returns ByteSourceBootstrapper\n\n
+    (final IOContext ctxt, final InputStream in)\n
+    (final IOContext ctxt, final byte[] inputBuffer, final int inputStart, final int inputLen)\n
     '''
 def detectEncoding():
-    '''public JsonEncoding detectEncoding()
+    '''returns JsonEncoding\n\n
+    detectEncoding()\n
     '''
 def constructReader():
-    '''public Reader constructReader()
+    '''returns Reader\n\n
+    constructReader()\n
     '''
 def constructParser():
-    '''public JsonParser constructParser(final int features, final ObjectCodec codec, final BytesToNameCanonicalizer rootByteSymbols, final CharsToNameCanonicalizer rootCharSymbols)
-    '''
-def hasJSONFormat():
-    '''public static MatchStrength hasJSONFormat(final InputAccessor acc)
+    '''returns JsonParser\n\n
+    constructParser(final int features, final ObjectCodec codec, final BytesToNameCanonicalizer rootByteSymbols, final CharsToNameCanonicalizer rootCharSymbols)\n
     '''

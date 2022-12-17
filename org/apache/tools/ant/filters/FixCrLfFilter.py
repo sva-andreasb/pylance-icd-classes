@@ -1,121 +1,128 @@
-def FixCrLfFilter():
-    '''public FixCrLfFilter()
-    public FixCrLfFilter(final Reader in)
+def ():
+    '''returns RemoveTabFilter\n\n
+    ()\n
+    (final Reader in)\n
+    (final Reader in)\n
+    (final Reader in)\n
+    (final Reader in, final String eolString, final boolean fixLast)\n
+    (final Reader in)\n
+    (final Reader in)\n
+    (final Reader in, final int tabLength)\n
+    (final Reader in, final int tabLength)\n
     '''
 def chain():
-    '''public Reader chain(final Reader rdr)
+    '''returns Reader\n\n
+    chain(final Reader rdr)\n
     '''
 def getEof():
-    '''public AddAsisRemove getEof()
+    '''returns AddAsisRemove\n\n
+    getEof()\n
     '''
 def getEol():
-    '''public CrLf getEol()
+    '''returns CrLf\n\n
+    getEol()\n
     '''
 def getFixlast():
-    '''public boolean getFixlast()
+    '''returns boolean\n\n
+    getFixlast()\n
     '''
 def getJavafiles():
-    '''public boolean getJavafiles()
+    '''returns boolean\n\n
+    getJavafiles()\n
     '''
 def getTab():
-    '''public AddAsisRemove getTab()
+    '''returns AddAsisRemove\n\n
+    getTab()\n
     '''
 def getTablength():
-    '''public int getTablength()
-    '''
-def read():
-    '''public synchronized int read()
-    public int read()
-    public int read(final char[] buf)
-    public int read(final char[] buf, int start, int length)
-    public int read()
-    public int read()
-    public int read()
-    public int read()
-    public int read()
-    public int read()
+    '''returns int\n\n
+    getTablength()\n
     '''
 def setEof():
-    '''public void setEof(final AddAsisRemove attr)
+    '''returns None\n\n
+    setEof(final AddAsisRemove attr)\n
     '''
 def setEol():
-    '''public void setEol(final CrLf attr)
+    '''returns None\n\n
+    setEol(final CrLf attr)\n
     '''
 def setFixlast():
-    '''public void setFixlast(final boolean fixlast)
+    '''returns None\n\n
+    setFixlast(final boolean fixlast)\n
     '''
 def setJavafiles():
-    '''public void setJavafiles(final boolean javafiles)
+    '''returns None\n\n
+    setJavafiles(final boolean javafiles)\n
     '''
 def setTab():
-    '''public void setTab(final AddAsisRemove attr)
+    '''returns None\n\n
+    setTab(final AddAsisRemove attr)\n
     '''
 def setTablength():
-    '''public void setTablength(final int tabLength)
-    '''
-def SimpleFilterReader():
-    '''public SimpleFilterReader(final Reader in)
+    '''returns None\n\n
+    setTablength(final int tabLength)\n
     '''
 def push():
-    '''public void push(final char c)
-    public void push(final int c)
-    public void push(final char[] cs, final int start, final int length)
-    public void push(final char[] cs)
-    public void push(final String s)
+    '''returns None\n\n
+    push(final char c)\n
+    push(final int c)\n
+    push(final char[] cs, final int start, final int length)\n
+    push(final char[] cs)\n
+    push(final String s)\n
     '''
 def editsBlocked():
-    '''public boolean editsBlocked()
-    public boolean editsBlocked()
+    '''returns boolean\n\n
+    editsBlocked()\n
+    editsBlocked()\n
+    '''
+def read():
+    '''returns int\n\n
+    read()\n
+    read(final char[] buf)\n
+    read(final char[] buf, int start, int length)\n
+    read()\n
+    read()\n
+    read()\n
+    read()\n
+    read()\n
+    read()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def ready():
-    '''public boolean ready()
+    '''returns boolean\n\n
+    ready()\n
     '''
 def mark():
-    '''public void mark(final int i)
+    '''returns None\n\n
+    mark(final int i)\n
     '''
 def skip():
-    '''public long skip(final long i)
-    '''
-def MaskJavaTabLiteralsFilter():
-    '''public MaskJavaTabLiteralsFilter(final Reader in)
-    '''
-def NormalizeEolFilter():
-    '''public NormalizeEolFilter(final Reader in, final String eolString, final boolean fixLast)
-    '''
-def AddEofFilter():
-    '''public AddEofFilter(final Reader in)
-    '''
-def RemoveEofFilter():
-    '''public RemoveEofFilter(final Reader in)
-    '''
-def AddTabFilter():
-    '''public AddTabFilter(final Reader in, final int tabLength)
-    '''
-def RemoveTabFilter():
-    '''public RemoveTabFilter(final Reader in, final int tabLength)
+    '''returns long\n\n
+    skip(final long i)\n
     '''
 def getValues():
-    '''public String[] getValues()
-    public String[] getValues()
+    '''returns String[]\n\n
+    getValues()\n
+    getValues()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
-    public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
-    '''
-def newInstance():
-    '''public static AddAsisRemove newInstance(final String value)
-    public static CrLf newInstance(final String value)
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''

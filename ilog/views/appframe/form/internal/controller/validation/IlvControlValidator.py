@@ -3,20 +3,26 @@ VALIDATE_ON_APPLY = "int  2"
 VALIDATE_ON_FOCUS_LOST = "int  4"
 VALIDATE_ON_CHANGE = "int  8"
 def connect():
-    '''public void connect(final Object control, final IlvForm ilvForm, final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    connect(final Object control, final IlvForm ilvForm, final IlvEditionContext ilvEditionContext)\n
     '''
 def getValidationMode():
-    '''public int getValidationMode()
+    '''returns int\n\n
+    getValidationMode()\n
     '''
 def read():
-    '''public void read(final Element element)
+    '''returns None\n\n
+    read(final Element element)\n
     '''
 def getEditor():
-    '''public IlvFormEditor getEditor()
+    '''returns IlvFormEditor\n\n
+    getEditor()\n
     '''
 def setEditor():
-    '''public void setEditor(final IlvFormEditor editor)
+    '''returns None\n\n
+    setEditor(final IlvFormEditor editor)\n
     '''
 def getForm():
-    '''public IlvForm getForm()
+    '''returns IlvForm\n\n
+    getForm()\n
     '''

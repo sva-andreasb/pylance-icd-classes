@@ -1,82 +1,93 @@
-def SccdChatService():
-    '''public SccdChatService()
-    public SccdChatService(final MXServer mxServer)
+def ():
+    '''returns SccdChatService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def restart():
-    '''public void restart()
+    '''returns None\n\n
+    restart()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def createSRWithTemplate():
-    '''public SRRemote createSRWithTemplate(final TKTemplateRemote template, final String originator)
+    '''returns SRRemote\n\n
+    createSRWithTemplate(final TKTemplateRemote template, final String originator)\n
     '''
 def createServiceRequest():
-    '''public SRRemote createServiceRequest(final SolutionRemote solution, final String originator)
+    '''returns SRRemote\n\n
+    createServiceRequest(final SolutionRemote solution, final String originator)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def setChatOwner():
-    '''public void setChatOwner(final String ticketUid, final String agent)
+    '''returns None\n\n
+    setChatOwner(final String ticketUid, final String agent)\n
     '''
 def addCommLog():
-    '''public void addCommLog(final String ticketUid, final String userId, final String agentId, final List<Map<String, Object>> chatHistory, final String ticketclass, final String agentClientId, final String userClientId)
+    '''returns None\n\n
+    addCommLog(final String ticketUid, final String userId, final String agentId, final List<Map<String, Object>> chatHistory, final String ticketclass, final String agentClientId, final String userClientId)\n
     '''
 def addChatUser():
-    '''public void addChatUser(final String ticketUID, final String clientID, final String personID, final String tkClass, final String ticketID, final boolean isNewSR, final String queueID, final String nodeUrl)
-    '''
-def getQueueCounts():
-    '''public Map<String, Object> getQueueCounts()
-    '''
-def getOldestUser():
-    '''public ConcurrentHashMap<String, String> getOldestUser(final String[] queues)
+    '''returns None\n\n
+    addChatUser(final String ticketUID, final String clientID, final String personID, final String tkClass, final String ticketID, final boolean isNewSR, final String queueID, final String nodeUrl)\n
     '''
 def setUserAgentInfo():
-    '''public int setUserAgentInfo(final String agentPersonID, final String agentClientID, final String chatChannel, final String useruuid, final String nodeUrl)
-    '''
-def getSessionInfo():
-    '''public ConcurrentHashMap<String, String> getSessionInfo(final String clientID)
+    '''returns int\n\n
+    setUserAgentInfo(final String agentPersonID, final String agentClientID, final String chatChannel, final String useruuid, final String nodeUrl)\n
     '''
 def deleteChat():
-    '''public void deleteChat(final String channel, final boolean timedOut)
+    '''returns None\n\n
+    deleteChat(final String channel, final boolean timedOut)\n
     '''
 def deleteAbandonedChat():
-    '''public void deleteAbandonedChat(final String clientid, final String ticketUid)
+    '''returns None\n\n
+    deleteAbandonedChat(final String clientid, final String ticketUid)\n
     '''
 def deleteServiceRequest():
-    '''public void deleteServiceRequest(final String ticketUid)
+    '''returns None\n\n
+    deleteServiceRequest(final String ticketUid)\n
     '''
 def updateChatStatus():
-    '''public void updateChatStatus(final String status, final String clientID)
-    '''
-def getEntryByChannel():
-    '''public ConcurrentHashMap<String, String> getEntryByChannel(final String chatChannel)
+    '''returns None\n\n
+    updateChatStatus(final String status, final String clientID)\n
     '''
 def registerHost():
-    '''public void registerHost(final String URL)
+    '''returns None\n\n
+    registerHost(final String URL)\n
     '''
 def getOortCloud():
-    '''public ArrayList<String> getOortCloud(final String URL)
+    '''returns ArrayList<String>\n\n
+    getOortCloud(final String URL)\n
     '''
 def releaseChatRequest():
-    '''public void releaseChatRequest(final String useruuid)
+    '''returns None\n\n
+    releaseChatRequest(final String useruuid)\n
     '''
 def cleanUpChats():
-    '''public void cleanUpChats(final String nodeurl)
+    '''returns None\n\n
+    cleanUpChats(final String nodeurl)\n
     '''
 def getAgentDisplayName():
-    '''public String getAgentDisplayName(final String agentID)
+    '''returns String\n\n
+    getAgentDisplayName(final String agentID)\n
     '''
 def getRequestPersonID():
-    '''public String getRequestPersonID()
+    '''returns String\n\n
+    getRequestPersonID()\n
     '''
 def isChatAgent():
-    '''public boolean isChatAgent(final String personID)
+    '''returns boolean\n\n
+    isChatAgent(final String personID)\n
     '''
 def getAgentChatQueues():
-    '''public String[] getAgentChatQueues(final String personID)
+    '''returns String[]\n\n
+    getAgentChatQueues(final String personID)\n
     '''
 def isUserAssignedToChannel():
-    '''public boolean isUserAssignedToChannel(final String channelID, final String sessionPersonID)
+    '''returns boolean\n\n
+    isUserAssignedToChannel(final String channelID, final String sessionPersonID)\n
     '''

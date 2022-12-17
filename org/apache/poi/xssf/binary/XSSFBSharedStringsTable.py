@@ -1,18 +1,24 @@
-def XSSFBSharedStringsTable():
-    '''public XSSFBSharedStringsTable(final OPCPackage pkg)
+def ():
+    '''returns XSSFBSharedStringsTable\n\n
+    (final OPCPackage pkg)\n
     '''
 def getItems():
-    '''public List<String> getItems()
+    '''returns List<String>\n\n
+    getItems()\n
     '''
 def getEntryAt():
-    '''public String getEntryAt(final int i)
+    '''returns String\n\n
+    getEntryAt(final int i)\n
     '''
 def getCount():
-    '''public int getCount()
+    '''returns int\n\n
+    getCount()\n
     '''
 def getUniqueCount():
-    '''public int getUniqueCount()
+    '''returns int\n\n
+    getUniqueCount()\n
     '''
 def handleRecord():
-    '''public void handleRecord(final int recordType, final byte[] data)
+    '''returns None\n\n
+    handleRecord(final int recordType, final byte[] data)\n
     '''

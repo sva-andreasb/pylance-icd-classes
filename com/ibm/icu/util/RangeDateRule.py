@@ -1,19 +1,25 @@
-def RangeDateRule():
-    '''public RangeDateRule()
+def ():
+    '''returns RangeDateRule\n\n
+    ()\n
     '''
 def add():
-    '''public void add(final DateRule rule)
-    public void add(final Date start, final DateRule rule)
+    '''returns None\n\n
+    add(final DateRule rule)\n
+    add(final Date start, final DateRule rule)\n
     '''
 def firstAfter():
-    '''public Date firstAfter(final Date start)
+    '''returns Date\n\n
+    firstAfter(final Date start)\n
     '''
 def firstBetween():
-    '''public Date firstBetween(final Date start, final Date end)
+    '''returns Date\n\n
+    firstBetween(final Date start, final Date end)\n
     '''
 def isOn():
-    '''public boolean isOn(final Date date)
+    '''returns boolean\n\n
+    isOn(final Date date)\n
     '''
 def isBetween():
-    '''public boolean isBetween(final Date start, final Date end)
+    '''returns boolean\n\n
+    isBetween(final Date start, final Date end)\n
     '''

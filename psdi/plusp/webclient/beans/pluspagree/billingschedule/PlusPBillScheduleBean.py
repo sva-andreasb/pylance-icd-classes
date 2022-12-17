@@ -1,9 +1,8 @@
-def setCurrentRow():
-    '''public synchronized boolean setCurrentRow(final int currentRow)
-    '''
 def fireChildChangedEvent():
-    '''public void fireChildChangedEvent()
+    '''returns None\n\n
+    fireChildChangedEvent()\n
     '''
 def previewbillingdates():
-    '''public void previewbillingdates()
+    '''returns None\n\n
+    previewbillingdates()\n
     '''

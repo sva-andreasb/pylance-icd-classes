@@ -1,22 +1,29 @@
-def ClassLoaderRepository():
-    '''public ClassLoaderRepository(final ClassLoader loader)
+def ():
+    '''returns ClassLoaderRepository\n\n
+    (final ClassLoader loader)\n
     '''
 def storeClass():
-    '''public void storeClass(final JavaClass clazz)
+    '''returns None\n\n
+    storeClass(final JavaClass clazz)\n
     '''
 def removeClass():
-    '''public void removeClass(final JavaClass clazz)
+    '''returns None\n\n
+    removeClass(final JavaClass clazz)\n
     '''
 def findClass():
-    '''public JavaClass findClass(final String className)
+    '''returns JavaClass\n\n
+    findClass(final String className)\n
     '''
 def loadClass():
-    '''public JavaClass loadClass(final String className)
-    public JavaClass loadClass(final Class clazz)
+    '''returns JavaClass\n\n
+    loadClass(final String className)\n
+    loadClass(final Class clazz)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def getClassPath():
-    '''public ClassPath getClassPath()
+    '''returns ClassPath\n\n
+    getClassPath()\n
     '''

@@ -1,3 +1,4 @@
-def AdvancedSigOptionSet():
-    '''public AdvancedSigOptionSet(final MboServerInterface ms)
+def ():
+    '''returns AdvancedSigOptionSet\n\n
+    (final MboServerInterface ms)\n
     '''

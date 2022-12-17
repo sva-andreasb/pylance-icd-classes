@@ -1,13 +1,17 @@
-def AlternateIIOPAddressHolder():
-    '''public AlternateIIOPAddressHolder()
-    public AlternateIIOPAddressHolder(final AlternateIIOPAddress value)
+def ():
+    '''returns AlternateIIOPAddressHolder\n\n
+    ()\n
+    (final AlternateIIOPAddress value)\n
     '''
 def _read():
-    '''public void _read(final InputStream inputStream)
+    '''returns None\n\n
+    _read(final InputStream inputStream)\n
     '''
 def _write():
-    '''public void _write(final OutputStream outputStream)
+    '''returns None\n\n
+    _write(final OutputStream outputStream)\n
     '''
 def _type():
-    '''public TypeCode _type()
+    '''returns TypeCode\n\n
+    _type()\n
     '''

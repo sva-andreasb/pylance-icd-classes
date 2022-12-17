@@ -1,9 +1,12 @@
-def DefaultErrorResponseHandler():
-    '''public DefaultErrorResponseHandler(final List<Unmarshaller<AmazonServiceException, Node>> unmarshallerList)
+def ():
+    '''returns DefaultErrorResponseHandler\n\n
+    (final List<Unmarshaller<AmazonServiceException, Node>> unmarshallerList)\n
     '''
 def handle():
-    '''public AmazonServiceException handle(final HttpResponse errorResponse)
+    '''returns AmazonServiceException\n\n
+    handle(final HttpResponse errorResponse)\n
     '''
 def needsConnectionLeftOpen():
-    '''public boolean needsConnectionLeftOpen()
+    '''returns boolean\n\n
+    needsConnectionLeftOpen()\n
     '''

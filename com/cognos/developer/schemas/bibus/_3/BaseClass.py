@@ -1,127 +1,149 @@
-def BaseClass():
-    '''public BaseClass()
-    public BaseClass(final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version)
+def ():
+    '''returns BaseClass\n\n
+    ()\n
+    (final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version)\n
     '''
 def getAncestors():
-    '''public AncestorInfoArrayProp getAncestors()
+    '''returns AncestorInfoArrayProp\n\n
+    getAncestors()\n
     '''
 def setAncestors():
-    '''public void setAncestors(final AncestorInfoArrayProp ancestors)
+    '''returns None\n\n
+    setAncestors(final AncestorInfoArrayProp ancestors)\n
     '''
 def getCreationTime():
-    '''public DateTimeProp getCreationTime()
+    '''returns DateTimeProp\n\n
+    getCreationTime()\n
     '''
 def setCreationTime():
-    '''public void setCreationTime(final DateTimeProp creationTime)
+    '''returns None\n\n
+    setCreationTime(final DateTimeProp creationTime)\n
     '''
 def getDefaultName():
-    '''public TokenProp getDefaultName()
+    '''returns TokenProp\n\n
+    getDefaultName()\n
     '''
 def setDefaultName():
-    '''public void setDefaultName(final TokenProp defaultName)
+    '''returns None\n\n
+    setDefaultName(final TokenProp defaultName)\n
     '''
 def getDisabled():
-    '''public BooleanProp getDisabled()
+    '''returns BooleanProp\n\n
+    getDisabled()\n
     '''
 def setDisabled():
-    '''public void setDisabled(final BooleanProp disabled)
+    '''returns None\n\n
+    setDisabled(final BooleanProp disabled)\n
     '''
 def getHasChildren():
-    '''public BooleanProp getHasChildren()
+    '''returns BooleanProp\n\n
+    getHasChildren()\n
     '''
 def setHasChildren():
-    '''public void setHasChildren(final BooleanProp hasChildren)
+    '''returns None\n\n
+    setHasChildren(final BooleanProp hasChildren)\n
     '''
 def getModificationTime():
-    '''public DateTimeProp getModificationTime()
+    '''returns DateTimeProp\n\n
+    getModificationTime()\n
     '''
 def setModificationTime():
-    '''public void setModificationTime(final DateTimeProp modificationTime)
+    '''returns None\n\n
+    setModificationTime(final DateTimeProp modificationTime)\n
     '''
 def getName():
-    '''public MultilingualTokenProp getName()
+    '''returns MultilingualTokenProp\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final MultilingualTokenProp name)
+    '''returns None\n\n
+    setName(final MultilingualTokenProp name)\n
     '''
 def getObjectClass():
-    '''public ClassEnumProp getObjectClass()
+    '''returns ClassEnumProp\n\n
+    getObjectClass()\n
     '''
 def setObjectClass():
-    '''public void setObjectClass(final ClassEnumProp objectClass)
+    '''returns None\n\n
+    setObjectClass(final ClassEnumProp objectClass)\n
     '''
 def getOwner():
-    '''public BaseClassArrayProp getOwner()
+    '''returns BaseClassArrayProp\n\n
+    getOwner()\n
     '''
 def setOwner():
-    '''public void setOwner(final BaseClassArrayProp owner)
+    '''returns None\n\n
+    setOwner(final BaseClassArrayProp owner)\n
     '''
 def getParent():
-    '''public BaseClassArrayProp getParent()
+    '''returns BaseClassArrayProp\n\n
+    getParent()\n
     '''
 def setParent():
-    '''public void setParent(final BaseClassArrayProp parent)
+    '''returns None\n\n
+    setParent(final BaseClassArrayProp parent)\n
     '''
 def getPermissions():
-    '''public NmtokenArrayProp getPermissions()
+    '''returns NmtokenArrayProp\n\n
+    getPermissions()\n
     '''
 def setPermissions():
-    '''public void setPermissions(final NmtokenArrayProp permissions)
+    '''returns None\n\n
+    setPermissions(final NmtokenArrayProp permissions)\n
     '''
 def getPolicies():
-    '''public PolicyArrayProp getPolicies()
+    '''returns PolicyArrayProp\n\n
+    getPolicies()\n
     '''
 def setPolicies():
-    '''public void setPolicies(final PolicyArrayProp policies)
+    '''returns None\n\n
+    setPolicies(final PolicyArrayProp policies)\n
     '''
 def getPosition():
-    '''public NonNegativeIntegerProp getPosition()
+    '''returns NonNegativeIntegerProp\n\n
+    getPosition()\n
     '''
 def setPosition():
-    '''public void setPosition(final NonNegativeIntegerProp position)
+    '''returns None\n\n
+    setPosition(final NonNegativeIntegerProp position)\n
     '''
 def getSearchPath():
-    '''public StringProp getSearchPath()
+    '''returns StringProp\n\n
+    getSearchPath()\n
     '''
 def setSearchPath():
-    '''public void setSearchPath(final StringProp searchPath)
+    '''returns None\n\n
+    setSearchPath(final StringProp searchPath)\n
     '''
 def getStoreID():
-    '''public GuidProp getStoreID()
+    '''returns GuidProp\n\n
+    getStoreID()\n
     '''
 def setStoreID():
-    '''public void setStoreID(final GuidProp storeID)
+    '''returns None\n\n
+    setStoreID(final GuidProp storeID)\n
     '''
 def getTenantID():
-    '''public StringProp getTenantID()
+    '''returns StringProp\n\n
+    getTenantID()\n
     '''
 def setTenantID():
-    '''public void setTenantID(final StringProp tenantID)
+    '''returns None\n\n
+    setTenantID(final StringProp tenantID)\n
     '''
 def getUsage():
-    '''public NmtokenProp getUsage()
+    '''returns NmtokenProp\n\n
+    getUsage()\n
     '''
 def setUsage():
-    '''public void setUsage(final NmtokenProp usage)
+    '''returns None\n\n
+    setUsage(final NmtokenProp usage)\n
     '''
 def getVersion():
-    '''public PositiveIntegerProp getVersion()
+    '''returns PositiveIntegerProp\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final PositiveIntegerProp version)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setVersion(final PositiveIntegerProp version)\n
     '''

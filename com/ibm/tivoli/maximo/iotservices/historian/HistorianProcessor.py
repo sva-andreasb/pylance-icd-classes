@@ -1,9 +1,12 @@
-def HistorianProcessor():
-    '''public HistorianProcessor()
+def ():
+    '''returns HistorianProcessor\n\n
+    ()\n
     '''
 def processResource():
-    '''public JSONArtifact processResource(final JSONResourceInfo resourceInfo, final MboRemote owner, final UserInfo userInfo, final int pageSize, final int currentPage, final JSONAnalyzer jsonAnalyzer)
+    '''returns JSONArtifact\n\n
+    processResource(final JSONResourceInfo resourceInfo, final MboRemote owner, final UserInfo userInfo, final int pageSize, final int currentPage, final JSONAnalyzer jsonAnalyzer)\n
     '''
 def pingHistorian():
-    '''public boolean pingHistorian(final IoTConnectionService srv)
+    '''returns boolean\n\n
+    pingHistorian(final IoTConnectionService srv)\n
     '''

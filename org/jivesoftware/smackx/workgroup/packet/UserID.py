@@ -1,20 +1,26 @@
 ELEMENT_NAME = "String  \"user\""
 NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
-def UserID():
-    '''public UserID(final Jid userID)
+def ():
+    '''returns UserID\n\n
+    (final Jid userID)\n
     '''
 def getUserID():
-    '''public Jid getUserID()
+    '''returns Jid\n\n
+    getUserID()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def parse():
-    '''public UserID parse(final XmlPullParser parser, final int initialDepth)
+    '''returns UserID\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

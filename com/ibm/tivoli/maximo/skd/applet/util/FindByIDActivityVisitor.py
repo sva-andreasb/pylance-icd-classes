@@ -1,15 +1,20 @@
-def FindByIDActivityVisitor():
-    '''public FindByIDActivityVisitor(final String id)
+def ():
+    '''returns FindByIDActivityVisitor\n\n
+    (final String id)\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''
 def visit():
-    '''public void visit(final IlvActivity item, final IlvGanttChart chart, final HasCancelled state)
+    '''returns None\n\n
+    visit(final IlvActivity item, final IlvGanttChart chart, final HasCancelled state)\n
     '''
 def cancel():
-    '''public void cancel()
+    '''returns None\n\n
+    cancel()\n
     '''
 def getActivity():
-    '''public IlvActivity getActivity()
+    '''returns IlvActivity\n\n
+    getActivity()\n
     '''

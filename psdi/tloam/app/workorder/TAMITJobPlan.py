@@ -1,15 +1,20 @@
-def TAMITJobPlan():
-    '''public TAMITJobPlan(final MboSet ms)
+def ():
+    '''returns TAMITJobPlan\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def getTotals():
-    '''public Vector getTotals(final String siteid)
+    '''returns Vector\n\n
+    getTotals(final String siteid)\n
     '''
 def getLicCostTotal():
-    '''public double getLicCostTotal()
+    '''returns double\n\n
+    getLicCostTotal()\n
     '''

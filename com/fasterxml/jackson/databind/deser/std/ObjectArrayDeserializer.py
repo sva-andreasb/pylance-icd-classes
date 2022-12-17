@@ -1,28 +1,37 @@
-def ObjectArrayDeserializer():
-    '''public ObjectArrayDeserializer(final JavaType arrayType, final JsonDeserializer<Object> elemDeser, final TypeDeserializer elemTypeDeser)
+def ():
+    '''returns ObjectArrayDeserializer\n\n
+    (final JavaType arrayType, final JsonDeserializer<Object> elemDeser, final TypeDeserializer elemTypeDeser)\n
     '''
 def withDeserializer():
-    '''public ObjectArrayDeserializer withDeserializer(final TypeDeserializer elemTypeDeser, final JsonDeserializer<?> elemDeser)
+    '''returns ObjectArrayDeserializer\n\n
+    withDeserializer(final TypeDeserializer elemTypeDeser, final JsonDeserializer<?> elemDeser)\n
     '''
 def withResolved():
-    '''public ObjectArrayDeserializer withResolved(final TypeDeserializer elemTypeDeser, final JsonDeserializer<?> elemDeser, final NullValueProvider nuller, final Boolean unwrapSingle)
+    '''returns ObjectArrayDeserializer\n\n
+    withResolved(final TypeDeserializer elemTypeDeser, final JsonDeserializer<?> elemDeser, final NullValueProvider nuller, final Boolean unwrapSingle)\n
     '''
 def isCachable():
-    '''public boolean isCachable()
+    '''returns boolean\n\n
+    isCachable()\n
     '''
 def getContentDeserializer():
-    '''public JsonDeserializer<Object> getContentDeserializer()
+    '''returns JsonDeserializer<Object>\n\n
+    getContentDeserializer()\n
     '''
 def getEmptyAccessPattern():
-    '''public AccessPattern getEmptyAccessPattern()
+    '''returns AccessPattern\n\n
+    getEmptyAccessPattern()\n
     '''
 def getEmptyValue():
-    '''public Object getEmptyValue(final DeserializationContext ctxt)
+    '''returns Object\n\n
+    getEmptyValue(final DeserializationContext ctxt)\n
     '''
 def deserialize():
-    '''public Object[] deserialize(final JsonParser p, final DeserializationContext ctxt)
-    public Object[] deserialize(final JsonParser p, final DeserializationContext ctxt, final Object[] intoValue)
+    '''returns Object[]\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt, final Object[] intoValue)\n
     '''
 def deserializeWithType():
-    '''public Object[] deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
+    '''returns Object[]\n\n
+    deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)\n
     '''

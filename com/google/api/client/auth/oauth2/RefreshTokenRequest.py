@@ -1,27 +1,32 @@
-def RefreshTokenRequest():
-    '''public RefreshTokenRequest(final HttpTransport transport, final JsonFactory jsonFactory, final GenericUrl tokenServerUrl, final String refreshToken)
+def ():
+    '''returns RefreshTokenRequest\n\n
+    (final HttpTransport transport, final JsonFactory jsonFactory, final GenericUrl tokenServerUrl, final String refreshToken)\n
     '''
 def setRequestInitializer():
-    '''public RefreshTokenRequest setRequestInitializer(final HttpRequestInitializer requestInitializer)
+    '''returns RefreshTokenRequest\n\n
+    setRequestInitializer(final HttpRequestInitializer requestInitializer)\n
     '''
 def setTokenServerUrl():
-    '''public RefreshTokenRequest setTokenServerUrl(final GenericUrl tokenServerUrl)
+    '''returns RefreshTokenRequest\n\n
+    setTokenServerUrl(final GenericUrl tokenServerUrl)\n
     '''
 def setScopes():
-    '''public RefreshTokenRequest setScopes(final Collection<String> scopes)
+    '''returns RefreshTokenRequest\n\n
+    setScopes(final Collection<String> scopes)\n
     '''
 def setGrantType():
-    '''public RefreshTokenRequest setGrantType(final String grantType)
+    '''returns RefreshTokenRequest\n\n
+    setGrantType(final String grantType)\n
     '''
 def setClientAuthentication():
-    '''public RefreshTokenRequest setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
-    '''
-def getRefreshToken():
-    '''public final String getRefreshToken()
+    '''returns RefreshTokenRequest\n\n
+    setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)\n
     '''
 def setRefreshToken():
-    '''public RefreshTokenRequest setRefreshToken(final String refreshToken)
+    '''returns RefreshTokenRequest\n\n
+    setRefreshToken(final String refreshToken)\n
     '''
 def set():
-    '''public RefreshTokenRequest set(final String fieldName, final Object value)
+    '''returns RefreshTokenRequest\n\n
+    set(final String fieldName, final Object value)\n
     '''

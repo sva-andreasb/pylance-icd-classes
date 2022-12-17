@@ -1,93 +1,124 @@
-def WFDesignAppBean():
-    '''public WFDesignAppBean()
+def ():
+    '''returns WFDesignAppBean\n\n
+    ()\n
     '''
 def bindBeans():
-    '''public void bindBeans(final String targetControlId)
+    '''returns None\n\n
+    bindBeans(final String targetControlId)\n
     '''
 def addnode():
-    '''public int addnode()
+    '''returns int\n\n
+    addnode()\n
     '''
 def movenode():
-    '''public int movenode()
+    '''returns int\n\n
+    movenode()\n
     '''
 def selectnode():
-    '''public int selectnode()
+    '''returns int\n\n
+    selectnode()\n
     '''
 def deletenode():
-    '''public int deletenode()
+    '''returns int\n\n
+    deletenode()\n
     '''
 def addaction():
-    '''public int addaction()
+    '''returns int\n\n
+    addaction()\n
     '''
 def selectaction():
-    '''public int selectaction()
+    '''returns int\n\n
+    selectaction()\n
     '''
 def deleteaction():
-    '''public int deleteaction()
+    '''returns int\n\n
+    deleteaction()\n
     '''
 def getNodes():
-    '''public DataBean getNodes(final String targetControlId)
+    '''returns DataBean\n\n
+    getNodes(final String targetControlId)\n
     '''
 def getActions():
-    '''public DataBean getActions(final String targetControlId)
+    '''returns DataBean\n\n
+    getActions(final String targetControlId)\n
     '''
 def getCanvas():
-    '''public ControlInstance getCanvas(final String targetControlId)
+    '''returns ControlInstance\n\n
+    getCanvas(final String targetControlId)\n
     '''
 def setZoom():
-    '''public boolean setZoom(final String targetControlId, final String zoomValue)
+    '''returns boolean\n\n
+    setZoom(final String targetControlId, final String zoomValue)\n
     '''
 def VALIDATE():
-    '''public int VALIDATE()
+    '''returns int\n\n
+    VALIDATE()\n
     '''
 def ACTIVATE():
-    '''public void ACTIVATE()
+    '''returns None\n\n
+    ACTIVATE()\n
     '''
 def DEACTIVATE():
-    '''public void DEACTIVATE()
+    '''returns None\n\n
+    DEACTIVATE()\n
     '''
 def ENABLE():
-    '''public int ENABLE()
+    '''returns int\n\n
+    ENABLE()\n
     '''
 def DISABLE():
-    '''public void DISABLE()
+    '''returns None\n\n
+    DISABLE()\n
     '''
 def DELETABLE():
-    '''public void DELETABLE()
+    '''returns None\n\n
+    DELETABLE()\n
     '''
 def NODELETE():
-    '''public void NODELETE()
+    '''returns None\n\n
+    NODELETE()\n
     '''
 def CREATEREV():
-    '''public void CREATEREV()
+    '''returns None\n\n
+    CREATEREV()\n
     '''
 def RESYNC():
-    '''public void RESYNC()
+    '''returns None\n\n
+    RESYNC()\n
     '''
 def AUTOINIT():
-    '''public void AUTOINIT()
+    '''returns None\n\n
+    AUTOINIT()\n
     '''
 def ATOINITCLR():
-    '''public void ATOINITCLR()
+    '''returns None\n\n
+    ATOINITCLR()\n
     '''
 def VIEWSYNC():
-    '''public int VIEWSYNC()
+    '''returns int\n\n
+    VIEWSYNC()\n
     '''
 def getExtraResources():
-    '''public List<WebResource> getExtraResources(final String servletBaseUrl, final String miniappBaseUrl)
+    '''returns List<WebResource>\n\n
+    getExtraResources(final String servletBaseUrl, final String miniappBaseUrl)\n
     '''
 def filterCss():
-    '''public String filterCss(String css, final MiniAppControl control)
+    '''returns String\n\n
+    filterCss(String css, final MiniAppControl control)\n
     '''
 def loadWFDesignerXmlForProject():
-    '''public String loadWFDesignerXmlForProject(@MXEventParam("project") final String project)
+    '''returns String\n\n
+    loadWFDesignerXmlForProject(@MXEventParam("project") final String project)\n
     '''
 def loadMiniAppResource():
-    '''public String loadMiniAppResource()
+    '''returns String\n\n
+    loadMiniAppResource()\n
     '''
 def loadWFDesignerStringsForProject():
-    '''public String loadWFDesignerStringsForProject(@MXEventParam("project") final String project)
+    '''returns String\n\n
+    loadWFDesignerStringsForProject(@MXEventParam("project") final String project)\n
     '''
 def loadLocalizedStringsResource():
-    '''public String loadLocalizedStringsResource()
+    '''returns String\n\n
+    loadLocalizedStringsResource()\n
     '''

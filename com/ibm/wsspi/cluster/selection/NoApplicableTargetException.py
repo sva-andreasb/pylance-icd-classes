@@ -1,3 +1,4 @@
-def NoApplicableTargetException():
-    '''public NoApplicableTargetException(final String message)
+def ():
+    '''returns NoApplicableTargetException\n\n
+    (final String message)\n
     '''

@@ -1,21 +1,28 @@
-def SetBucketAccelerateConfigurationRequest():
-    '''public SetBucketAccelerateConfigurationRequest(final String bucketName, final BucketAccelerateConfiguration configuration)
+def ():
+    '''returns SetBucketAccelerateConfigurationRequest\n\n
+    (final String bucketName, final BucketAccelerateConfiguration configuration)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public SetBucketAccelerateConfigurationRequest withBucketName(final String bucketName)
+    '''returns SetBucketAccelerateConfigurationRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getAccelerateConfiguration():
-    '''public BucketAccelerateConfiguration getAccelerateConfiguration()
+    '''returns BucketAccelerateConfiguration\n\n
+    getAccelerateConfiguration()\n
     '''
 def setAccelerateConfiguration():
-    '''public void setAccelerateConfiguration(final BucketAccelerateConfiguration accelerateConfiguration)
+    '''returns None\n\n
+    setAccelerateConfiguration(final BucketAccelerateConfiguration accelerateConfiguration)\n
     '''
 def withAccelerateConfiguration():
-    '''public SetBucketAccelerateConfigurationRequest withAccelerateConfiguration(final BucketAccelerateConfiguration accelerateConfiguration)
+    '''returns SetBucketAccelerateConfigurationRequest\n\n
+    withAccelerateConfiguration(final BucketAccelerateConfiguration accelerateConfiguration)\n
     '''

@@ -1,6 +1,8 @@
-def PrimitiveCompareResults():
-    '''public PrimitiveCompareResults(final Object left, final Object right)
+def ():
+    '''returns PrimitiveCompareResults\n\n
+    (final Object left, final Object right)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''

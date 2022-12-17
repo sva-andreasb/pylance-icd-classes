@@ -1,3 +1,4 @@
-def VendorStatusSet():
-    '''public VendorStatusSet(final MboServerInterface ms)
+def ():
+    '''returns VendorStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

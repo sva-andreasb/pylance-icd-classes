@@ -1,18 +1,24 @@
-def SqlUnion():
-    '''public SqlUnion(final SqlNode left, final SqlNode right)
+def ():
+    '''returns SqlUnion\n\n
+    (final SqlNode left, final SqlNode right)\n
     '''
 def getIdScope():
-    '''public Scope getIdScope()
+    '''returns Scope\n\n
+    getIdScope()\n
     '''
 def getNodeScope():
-    '''public Scope getNodeScope()
+    '''returns Scope\n\n
+    getNodeScope()\n
     '''
 def apply():
-    '''public SqlNode apply(final SqlTransform transform, final SqlNode left, final SqlNode right)
+    '''returns SqlNode\n\n
+    apply(final SqlTransform transform, final SqlNode left, final SqlNode right)\n
     '''
 def copy():
-    '''public SqlNode copy(final SqlNode left, final SqlNode right)
+    '''returns SqlNode\n\n
+    copy(final SqlNode left, final SqlNode right)\n
     '''
 def visit():
-    '''public void visit(final SqlNodeVisitor visitor)
+    '''returns None\n\n
+    visit(final SqlNodeVisitor visitor)\n
     '''

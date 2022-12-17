@@ -1,34 +1,45 @@
-def CalculatedTimeWindowSet():
-    '''public CalculatedTimeWindowSet(final String id, final String name, final String description, final boolean unavailable)
-    public CalculatedTimeWindowSet(final String description, final boolean unavailable)
+def ():
+    '''returns CalculatedTimeWindowSet\n\n
+    (final String id, final String name, final String description, final boolean unavailable)\n
+    (final String description, final boolean unavailable)\n
     '''
 def addChild():
-    '''public void addChild(final TimeWindowSet child)
+    '''returns None\n\n
+    addChild(final TimeWindowSet child)\n
     '''
 def removeChild():
-    '''public void removeChild(final TimeWindowSet child)
+    '''returns None\n\n
+    removeChild(final TimeWindowSet child)\n
     '''
 def clearChildren():
-    '''public void clearChildren()
+    '''returns None\n\n
+    clearChildren()\n
     '''
 def computeTimeWindows():
-    '''public void computeTimeWindows()
+    '''returns None\n\n
+    computeTimeWindows()\n
     '''
 def findFirstChildById():
-    '''public TimeWindowSet findFirstChildById(final String id)
+    '''returns TimeWindowSet\n\n
+    findFirstChildById(final String id)\n
     '''
 def fetchTimeWindowSetsById():
-    '''public void fetchTimeWindowSetsById(final List<TimeWindowSet> list, final String id)
+    '''returns None\n\n
+    fetchTimeWindowSetsById(final List<TimeWindowSet> list, final String id)\n
     '''
 def getChildrenIterator():
-    '''public Iterator<TimeWindowSet> getChildrenIterator()
+    '''returns Iterator<TimeWindowSet>\n\n
+    getChildrenIterator()\n
     '''
 def getChildCount():
-    '''public int getChildCount()
+    '''returns int\n\n
+    getChildCount()\n
     '''
 def getChildAt():
-    '''public TimeWindowSet getChildAt(final int index)
+    '''returns TimeWindowSet\n\n
+    getChildAt(final int index)\n
     '''
 def resetDisabledFlag():
-    '''public void resetDisabledFlag()
+    '''returns None\n\n
+    resetDisabledFlag()\n
     '''

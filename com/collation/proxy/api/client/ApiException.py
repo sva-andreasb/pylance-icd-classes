@@ -1,6 +1,7 @@
-def ApiException():
-    '''public ApiException()
-    public ApiException(final String msg)
-    public ApiException(final String msg, final Throwable cause)
-    public ApiException(final Throwable cause)
+def ():
+    '''returns ApiException\n\n
+    ()\n
+    (final String msg)\n
+    (final String msg, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

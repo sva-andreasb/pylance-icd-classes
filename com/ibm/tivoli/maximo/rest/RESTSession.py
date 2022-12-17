@@ -1,30 +1,40 @@
 def getMXSession():
-    '''public MXSession getMXSession()
+    '''returns MXSession\n\n
+    getMXSession()\n
     '''
 def valueBound():
-    '''public void valueBound(final HttpSessionBindingEvent arg0)
+    '''returns None\n\n
+    valueBound(final HttpSessionBindingEvent arg0)\n
     '''
 def valueUnbound():
-    '''public void valueUnbound(final HttpSessionBindingEvent arg0)
+    '''returns None\n\n
+    valueUnbound(final HttpSessionBindingEvent arg0)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String name)
+    '''returns Object\n\n
+    getAttribute(final String name)\n
     '''
 def setAttribute():
-    '''public Object setAttribute(final String name, final Object value)
+    '''returns Object\n\n
+    setAttribute(final String name, final Object value)\n
     '''
 def getCachedResource():
-    '''public Resource getCachedResource(final String rootResourceContext, final String key)
+    '''returns Resource\n\n
+    getCachedResource(final String rootResourceContext, final String key)\n
     '''
 def clearResourceCache():
-    '''public void clearResourceCache(final String resourceRootContext)
+    '''returns None\n\n
+    clearResourceCache(final String resourceRootContext)\n
     '''
 def cacheResource():
-    '''public void cacheResource(final String rootResourceContext, final String key, final Resource resource)
+    '''returns None\n\n
+    cacheResource(final String rootResourceContext, final String key, final Resource resource)\n
     '''
 def releseResource():
-    '''public void releseResource(final String resourceId)
+    '''returns None\n\n
+    releseResource(final String resourceId)\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''

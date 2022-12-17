@@ -1,6 +1,8 @@
-def FldDocinfoStatus():
-    '''public FldDocinfoStatus(final MboValue mbv)
+def ():
+    '''returns FldDocinfoStatus\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

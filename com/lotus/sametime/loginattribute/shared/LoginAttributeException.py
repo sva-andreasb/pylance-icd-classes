@@ -1,6 +1,7 @@
-def LoginAttributeException():
-    '''public LoginAttributeException()
-    public LoginAttributeException(final String message)
-    public LoginAttributeException(final String message, final Throwable cause)
-    public LoginAttributeException(final Throwable cause)
+def ():
+    '''returns LoginAttributeException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

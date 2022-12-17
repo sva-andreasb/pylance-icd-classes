@@ -1,25 +1,33 @@
-def PtrBuffer():
-    '''public PtrBuffer(final ByteBuffer bb, final int num)
+def ():
+    '''returns PtrBuffer\n\n
+    (final ByteBuffer bb, final int num)\n
     '''
 def get():
-    '''public int get(final int idx)
+    '''returns int\n\n
+    get(final int idx)\n
     '''
 def getHigh():
-    '''public int getHigh()
+    '''returns int\n\n
+    getHigh()\n
     '''
 def getLow():
-    '''public int getLow()
+    '''returns int\n\n
+    getLow()\n
     '''
 def add():
-    '''public void add(final int val)
-    public void add(final int idx, final int val)
+    '''returns None\n\n
+    add(final int val)\n
+    add(final int idx, final int val)\n
     '''
 def set():
-    '''public void set(final int idx, final int val)
+    '''returns None\n\n
+    set(final int idx, final int val)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def duplicate():
-    '''public PtrBuffer duplicate()
+    '''returns PtrBuffer\n\n
+    duplicate()\n
     '''

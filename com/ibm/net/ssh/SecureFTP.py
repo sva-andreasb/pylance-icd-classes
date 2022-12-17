@@ -35,144 +35,186 @@ PATH_STAT_IF = "byte  2"
 PATH_STAT_ALWAYS = "byte  3"
 SEPARATOR = "String  \"/\""
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getErrorStream():
-    '''public InputStream getErrorStream()
+    '''returns InputStream\n\n
+    getErrorStream()\n
     '''
 def close():
-    '''public void close()
-    public void close()
-    public void close()
+    '''returns None\n\n
+    close()\n
+    close()\n
+    close()\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def openFile():
-    '''public Handle openFile(final String filename, final int accessFlags)
-    public Handle openFile(final FileAttributes initialAttributes, final int accessFlags)
+    '''returns Handle\n\n
+    openFile(final String filename, final int accessFlags)\n
+    openFile(final FileAttributes initialAttributes, final int accessFlags)\n
     '''
 def closeHandle():
-    '''public Status closeHandle(Handle handle)
+    '''returns Status\n\n
+    closeHandle(Handle handle)\n
     '''
 def getFileInputStream():
-    '''public InputStream getFileInputStream(final String filename)
+    '''returns InputStream\n\n
+    getFileInputStream(final String filename)\n
     '''
 def getFile():
-    '''public Status getFile(final String remoteFile, final File localFile, final boolean overwrite)
+    '''returns Status\n\n
+    getFile(final String remoteFile, final File localFile, final boolean overwrite)\n
     '''
 def run():
-    '''public Object run()
-    public Object run()
-    public Object run()
-    public Object run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def readFile():
-    '''public int readFile(final Handle fileHandle, final long offset, final int length, final byte[] output, final int outputOffset)
+    '''returns int\n\n
+    readFile(final Handle fileHandle, final long offset, final int length, final byte[] output, final int outputOffset)\n
     '''
 def getFileOutputStream():
-    '''public OutputStream getFileOutputStream(final String filename, final boolean append)
+    '''returns OutputStream\n\n
+    getFileOutputStream(final String filename, final boolean append)\n
     '''
 def putFile():
-    '''public Status putFile(final File localFile, String remotePath, final boolean overwrite)
+    '''returns Status\n\n
+    putFile(final File localFile, String remotePath, final boolean overwrite)\n
     '''
 def writeFile():
-    '''public Status writeFile(final Handle fileHandle, final long fileOffset, final byte[] data, final int offset, final int length)
+    '''returns Status\n\n
+    writeFile(final Handle fileHandle, final long fileOffset, final byte[] data, final int offset, final int length)\n
     '''
 def exists():
-    '''public boolean exists(final String path)
+    '''returns boolean\n\n
+    exists(final String path)\n
     '''
 def getFileSize():
-    '''public long getFileSize(final String path)
+    '''returns long\n\n
+    getFileSize(final String path)\n
     '''
 def getAttributes():
-    '''public FileAttributes getAttributes(final String path, final int flags)
-    public FileAttributes getAttributes(final Handle fileHandle, final int flags)
+    '''returns FileAttributes\n\n
+    getAttributes(final String path, final int flags)\n
+    getAttributes(final Handle fileHandle, final int flags)\n
     '''
 def setAttributes():
-    '''public Status setAttributes(final FileAttributes attributes)
-    public Status setAttributes(final Handle fileHandle, final FileAttributes attributes)
+    '''returns Status\n\n
+    setAttributes(final FileAttributes attributes)\n
+    setAttributes(final Handle fileHandle, final FileAttributes attributes)\n
     '''
 def openDirectory():
-    '''public Handle openDirectory(String path)
+    '''returns Handle\n\n
+    openDirectory(String path)\n
     '''
 def readDirectory():
-    '''public FileAttributes[] readDirectory(final Handle handle, final FileAttributesFilter filter)
-    public FileAttributes[] readDirectory(final Handle handle)
+    '''returns FileAttributes[]\n\n
+    readDirectory(final Handle handle, final FileAttributesFilter filter)\n
+    readDirectory(final Handle handle)\n
     '''
 def removeFile():
-    '''public Status removeFile(final String filename)
+    '''returns Status\n\n
+    removeFile(final String filename)\n
     '''
 def makeDirectory():
-    '''public Status makeDirectory(final String path)
-    public Status makeDirectory(final FileAttributes initialAttributes)
+    '''returns Status\n\n
+    makeDirectory(final String path)\n
+    makeDirectory(final FileAttributes initialAttributes)\n
     '''
 def makeDirectories():
-    '''public Status makeDirectories(final String path)
+    '''returns Status\n\n
+    makeDirectories(final String path)\n
     '''
 def removeDirectory():
-    '''public Status removeDirectory(final String path)
+    '''returns Status\n\n
+    removeDirectory(final String path)\n
     '''
 def getAbsolutePath():
-    '''public FileAttributes getAbsolutePath(final String path)
-    public FileAttributes getAbsolutePath(final String originalPath, final String composePath, final byte controlByte)
+    '''returns FileAttributes\n\n
+    getAbsolutePath(final String path)\n
+    getAbsolutePath(final String originalPath, final String composePath, final byte controlByte)\n
     '''
 def getLinkAttributes():
-    '''public FileAttributes getLinkAttributes(final String path, final int flags)
+    '''returns FileAttributes\n\n
+    getLinkAttributes(final String path, final int flags)\n
     '''
 def renameFile():
-    '''public Status renameFile(final String oldPath, final String newPath, final boolean overwrite)
+    '''returns Status\n\n
+    renameFile(final String oldPath, final String newPath, final boolean overwrite)\n
     '''
 def readLink():
-    '''public FileAttributes readLink(final String path)
+    '''returns FileAttributes\n\n
+    readLink(final String path)\n
     '''
 def makeLink():
-    '''public Status makeLink(final String newLinkPath, final String existingPath, final boolean isSymbolic)
+    '''returns Status\n\n
+    makeLink(final String newLinkPath, final String existingPath, final boolean isSymbolic)\n
     '''
 def checkFile():
-    '''public Status checkFile(final String filename, final long startOffset, final long length, final String hash)
-    public Status checkFile(final Handle fileHandle, final long startOffset, final long length, final String hash)
+    '''returns Status\n\n
+    checkFile(final String filename, final long startOffset, final long length, final String hash)\n
+    checkFile(final Handle fileHandle, final long startOffset, final long length, final String hash)\n
     '''
 def getAvailableSpace():
-    '''public Status getAvailableSpace(final String path)
+    '''returns Status\n\n
+    getAvailableSpace(final String path)\n
     '''
 def getHomeDirectory():
-    '''public FileAttributes getHomeDirectory()
-    public FileAttributes getHomeDirectory(String username)
+    '''returns FileAttributes\n\n
+    getHomeDirectory()\n
+    getHomeDirectory(String username)\n
     '''
 def lockFile():
-    '''public Status lockFile(final Handle handle, final long offset, final long length, final int lockMask)
+    '''returns Status\n\n
+    lockFile(final Handle handle, final long offset, final long length, final int lockMask)\n
     '''
 def unlockFile():
-    '''public Status unlockFile(final Handle handle, final long offset, final long length)
+    '''returns Status\n\n
+    unlockFile(final Handle handle, final long offset, final long length)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] data, final int offset, final int length)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] data, final int offset, final int length)\n
     '''
 def skip():
-    '''public long skip(final long n)
+    '''returns long\n\n
+    skip(final long n)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def mark():
-    '''public void mark(final int readLimit)
+    '''returns None\n\n
+    mark(final int readLimit)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def write():
-    '''public void write(final int data)
-    public void write(final byte[] data, final int offset, final int length)
+    '''returns None\n\n
+    write(final int data)\n
+    write(final byte[] data, final int offset, final int length)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''

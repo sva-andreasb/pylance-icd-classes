@@ -1,9 +1,12 @@
-def BingMapsTravelTimeMatrix():
-    '''public BingMapsTravelTimeMatrix()
+def ():
+    '''returns BingMapsTravelTimeMatrix\n\n
+    ()\n
     '''
 def calculateTravelTimeMatrixFor():
-    '''public List<Long> calculateTravelTimeMatrixFor(final List<SKDMAPInputParamInfo> originPoints, final List<SKDMAPInputParamInfo> destinationPoints, final UserInfo userInfo)
+    '''returns List<Long>\n\n
+    calculateTravelTimeMatrixFor(final List<SKDMAPInputParamInfo> originPoints, final List<SKDMAPInputParamInfo> destinationPoints, final UserInfo userInfo)\n
     '''
 def call():
-    '''public Long call()
+    '''returns Long\n\n
+    call()\n
     '''

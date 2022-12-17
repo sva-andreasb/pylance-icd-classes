@@ -1,3 +1,4 @@
-def PlusPWPMaterialSet():
-    '''public PlusPWPMaterialSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPWPMaterialSet\n\n
+    (final MboServerInterface arg0)\n
     '''

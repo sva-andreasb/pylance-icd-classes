@@ -1,11 +1,14 @@
-def RFC6265CookieSpecProvider():
-    '''public RFC6265CookieSpecProvider(final CompatibilityLevel compatibilityLevel, final PublicSuffixMatcher publicSuffixMatcher)
-    public RFC6265CookieSpecProvider(final PublicSuffixMatcher publicSuffixMatcher)
-    public RFC6265CookieSpecProvider()
+def ():
+    '''returns RFC6265CookieSpecProvider\n\n
+    (final CompatibilityLevel compatibilityLevel, final PublicSuffixMatcher publicSuffixMatcher)\n
+    (final PublicSuffixMatcher publicSuffixMatcher)\n
+    ()\n
     '''
 def create():
-    '''public CookieSpec create(final HttpContext context)
+    '''returns CookieSpec\n\n
+    create(final HttpContext context)\n
     '''
 def validate():
-    '''public void validate(final Cookie cookie, final CookieOrigin origin)
+    '''returns None\n\n
+    validate(final Cookie cookie, final CookieOrigin origin)\n
     '''

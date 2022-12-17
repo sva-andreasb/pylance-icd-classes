@@ -1,7 +1,9 @@
 IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def PmGuiTopologySwimlaneSet():
-    '''public PmGuiTopologySwimlaneSet(final MboServerInterface ms)
+def ():
+    '''returns PmGuiTopologySwimlaneSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def removeClassificationGroup():
-    '''public void removeClassificationGroup(final String classificationGroupid)
+    '''returns None\n\n
+    removeClassificationGroup(final String classificationGroupid)\n
     '''

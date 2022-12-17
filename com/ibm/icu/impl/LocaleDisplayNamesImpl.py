@@ -1,52 +1,52 @@
-def getInstance():
-    '''public static LocaleDisplayNames getInstance(final ULocale locale, final DialectHandling dialectHandling)
-    '''
-def LocaleDisplayNamesImpl():
-    '''public LocaleDisplayNamesImpl(final ULocale locale, final DialectHandling dialectHandling)
+def ():
+    '''returns ICUDataTable\n\n
+    (final ULocale locale, final DialectHandling dialectHandling)\n
+    (final String path, final ULocale locale)\n
     '''
 def getLocale():
-    '''public ULocale getLocale()
-    public ULocale getLocale()
+    '''returns ULocale\n\n
+    getLocale()\n
+    getLocale()\n
     '''
 def getDialectHandling():
-    '''public DialectHandling getDialectHandling()
+    '''returns DialectHandling\n\n
+    getDialectHandling()\n
     '''
 def localeDisplayName():
-    '''public String localeDisplayName(final ULocale locale)
-    public String localeDisplayName(final Locale locale)
-    public String localeDisplayName(final String localeId)
+    '''returns String\n\n
+    localeDisplayName(final ULocale locale)\n
+    localeDisplayName(final Locale locale)\n
+    localeDisplayName(final String localeId)\n
     '''
 def languageDisplayName():
-    '''public String languageDisplayName(final String lang)
+    '''returns String\n\n
+    languageDisplayName(final String lang)\n
     '''
 def scriptDisplayName():
-    '''public String scriptDisplayName(final String script)
-    public String scriptDisplayName(final int scriptCode)
+    '''returns String\n\n
+    scriptDisplayName(final String script)\n
+    scriptDisplayName(final int scriptCode)\n
     '''
 def regionDisplayName():
-    '''public String regionDisplayName(final String region)
+    '''returns String\n\n
+    regionDisplayName(final String region)\n
     '''
 def variantDisplayName():
-    '''public String variantDisplayName(final String variant)
+    '''returns String\n\n
+    variantDisplayName(final String variant)\n
     '''
 def keyDisplayName():
-    '''public String keyDisplayName(final String key)
+    '''returns String\n\n
+    keyDisplayName(final String key)\n
     '''
 def keyValueDisplayName():
-    '''public String keyValueDisplayName(final String key, final String value)
-    '''
-def haveData():
-    '''public static boolean haveData(final DataTableType type)
-    '''
-def ICUDataTable():
-    '''public ICUDataTable(final String path, final ULocale locale)
+    '''returns String\n\n
+    keyValueDisplayName(final String key, final String value)\n
     '''
 def get():
-    '''public String get(final String tableName, final String subTableName, final String code)
-    public DataTable get(final ULocale locale)
-    public DataTable get(final ULocale locale)
-    public LocaleDisplayNames get(final ULocale locale, final DialectHandling dialectHandling)
-    '''
-def load():
-    '''public static DataTables load(final String className)
+    '''returns LocaleDisplayNames\n\n
+    get(final String tableName, final String subTableName, final String code)\n
+    get(final ULocale locale)\n
+    get(final ULocale locale)\n
+    get(final ULocale locale, final DialectHandling dialectHandling)\n
     '''

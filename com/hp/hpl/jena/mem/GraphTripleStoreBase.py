@@ -1,39 +1,52 @@
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def add():
-    '''public void add(final Triple t)
+    '''returns None\n\n
+    add(final Triple t)\n
     '''
 def delete():
-    '''public void delete(final Triple t)
+    '''returns None\n\n
+    delete(final Triple t)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def listSubjects():
-    '''public ExtendedIterator<Node> listSubjects()
+    '''returns ExtendedIterator<Node>\n\n
+    listSubjects()\n
     '''
 def listPredicates():
-    '''public ExtendedIterator<Node> listPredicates()
+    '''returns ExtendedIterator<Node>\n\n
+    listPredicates()\n
     '''
 def listObjects():
-    '''public ExtendedIterator<Node> listObjects()
+    '''returns ExtendedIterator<Node>\n\n
+    listObjects()\n
     '''
 def contains():
-    '''public boolean contains(final Triple t)
+    '''returns boolean\n\n
+    contains(final Triple t)\n
     '''
 def containsByEquality():
-    '''public boolean containsByEquality(final Triple t)
+    '''returns boolean\n\n
+    containsByEquality(final Triple t)\n
     '''
 def find():
-    '''public ExtendedIterator<Triple> find(final TripleMatch tm)
+    '''returns ExtendedIterator<Triple>\n\n
+    find(final TripleMatch tm)\n
     '''
 def map1():
-    '''public Node map1(final Object o)
+    '''returns Node\n\n
+    map1(final Object o)\n
     '''

@@ -1,3 +1,4 @@
-def S_NotEqual():
-    '''public S_NotEqual(final SqlExpr left, final SqlExpr right)
+def ():
+    '''returns S_NotEqual\n\n
+    (final SqlExpr left, final SqlExpr right)\n
     '''

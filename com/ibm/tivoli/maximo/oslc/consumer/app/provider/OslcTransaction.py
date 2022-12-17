@@ -1,3 +1,4 @@
-def OslcTransaction():
-    '''public OslcTransaction(final MboSet ms)
+def ():
+    '''returns OslcTransaction\n\n
+    (final MboSet ms)\n
     '''

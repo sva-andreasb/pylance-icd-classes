@@ -1,15 +1,20 @@
 def getActionID():
-    '''public BigInteger getActionID()
+    '''returns BigInteger\n\n
+    getActionID()\n
     '''
 def setActionID():
-    '''public void setActionID(final BigInteger value)
+    '''returns None\n\n
+    setActionID(final BigInteger value)\n
     '''
 def getComputer():
-    '''public List<ComputerResultType> getComputer()
+    '''returns List<ComputerResultType>\n\n
+    getComputer()\n
     '''
 def getResource():
-    '''public String getResource()
+    '''returns String\n\n
+    getResource()\n
     '''
 def setResource():
-    '''public void setResource(final String value)
+    '''returns None\n\n
+    setResource(final String value)\n
     '''

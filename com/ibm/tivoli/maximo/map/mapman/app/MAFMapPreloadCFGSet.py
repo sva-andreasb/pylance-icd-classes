@@ -1,3 +1,4 @@
-def MAFMapPreloadCFGSet():
-    '''public MAFMapPreloadCFGSet(final MboServerInterface ms)
+def ():
+    '''returns MAFMapPreloadCFGSet\n\n
+    (final MboServerInterface ms)\n
     '''

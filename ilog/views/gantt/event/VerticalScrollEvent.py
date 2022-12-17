@@ -1,9 +1,12 @@
-def VerticalScrollEvent():
-    '''public VerticalScrollEvent(final IlvVerticalScrollable source, final int a)
+def ():
+    '''returns VerticalScrollEvent\n\n
+    (final IlvVerticalScrollable source, final int a)\n
     '''
 def getVerticalScrollable():
-    '''public IlvVerticalScrollable getVerticalScrollable()
+    '''returns IlvVerticalScrollable\n\n
+    getVerticalScrollable()\n
     '''
 def getValue():
-    '''public int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''

@@ -1,3 +1,4 @@
-def SimpleFormatDataImportSet():
-    '''public SimpleFormatDataImportSet(final MboServerInterface ms)
+def ():
+    '''returns SimpleFormatDataImportSet\n\n
+    (final MboServerInterface ms)\n
     '''

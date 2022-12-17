@@ -1,6 +1,8 @@
-def IoTClaimedException():
-    '''public IoTClaimedException(final IoTClaimed iotClaimed)
+def ():
+    '''returns IoTClaimedException\n\n
+    (final IoTClaimed iotClaimed)\n
     '''
 def getIoTClaimed():
-    '''public IoTClaimed getIoTClaimed()
+    '''returns IoTClaimed\n\n
+    getIoTClaimed()\n
     '''

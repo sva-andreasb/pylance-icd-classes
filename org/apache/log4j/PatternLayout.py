@@ -1,9 +1,12 @@
-def PatternLayout():
-    '''public PatternLayout(final String pattern)
+def ():
+    '''returns PatternLayout\n\n
+    (final String pattern)\n
     '''
 def format():
-    '''public String format(final LoggingEvent event)
+    '''returns String\n\n
+    format(final LoggingEvent event)\n
     '''
 def ignoresThrowable():
-    '''public boolean ignoresThrowable()
+    '''returns boolean\n\n
+    ignoresThrowable()\n
     '''

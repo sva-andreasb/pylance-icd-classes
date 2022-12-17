@@ -1,3 +1,4 @@
 def readCatalog():
-    '''public void readCatalog(final Catalog catalog, final InputStream is)
+    '''returns None\n\n
+    readCatalog(final Catalog catalog, final InputStream is)\n
     '''

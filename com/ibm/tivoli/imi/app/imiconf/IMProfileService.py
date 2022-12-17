@@ -1,4 +1,5 @@
-def IMProfileService():
-    '''public IMProfileService()
-    public IMProfileService(final MXServer mxServer)
+def ():
+    '''returns IMProfileService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

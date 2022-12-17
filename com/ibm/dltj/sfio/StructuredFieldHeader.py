@@ -1,37 +1,44 @@
 TYPE_BEGIN = "byte  98"
 TYPE_END = "byte  101"
 MAXDATALENGTH = "int  32760"
-def getCopyright():
-    '''public static String getCopyright()
-    '''
-def StructuredFieldHeader():
-    '''public StructuredFieldHeader(final byte sfClass, final byte sfType, final byte sfForm, final byte sfFlags)
-    public StructuredFieldHeader(final byte[] array)
+def ():
+    '''returns StructuredFieldHeader\n\n
+    (final byte sfClass, final byte sfType, final byte sfForm, final byte sfFlags)\n
+    (final byte[] array)\n
     '''
 def isType():
-    '''public boolean isType(final byte b)
+    '''returns boolean\n\n
+    isType(final byte b)\n
     '''
 def getType():
-    '''public byte getType()
+    '''returns byte\n\n
+    getType()\n
     '''
 def isForm():
-    '''public boolean isForm(final byte b)
+    '''returns boolean\n\n
+    isForm(final byte b)\n
     '''
 def getForm():
-    '''public byte getForm()
+    '''returns byte\n\n
+    getForm()\n
     '''
 def getSFClass():
-    '''public int getSFClass()
+    '''returns int\n\n
+    getSFClass()\n
     '''
 def isClass():
-    '''public boolean isClass(final int n)
+    '''returns boolean\n\n
+    isClass(final int n)\n
     '''
 def getInt():
-    '''public int getInt(final byte[] array, final int n)
+    '''returns int\n\n
+    getInt(final byte[] array, final int n)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

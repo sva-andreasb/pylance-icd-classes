@@ -1,18 +1,20 @@
-def FieldAttributes():
-    '''public FieldAttributes(final Field f)
+def ():
+    '''returns FieldAttributes\n\n
+    (final Field f)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDeclaredType():
-    '''public Type getDeclaredType()
-    '''
-def getAnnotation():
-    '''public <T extends Annotation> T getAnnotation(final Class<T> annotation)
+    '''returns Type\n\n
+    getDeclaredType()\n
     '''
 def getAnnotations():
-    '''public Collection<Annotation> getAnnotations()
+    '''returns Collection<Annotation>\n\n
+    getAnnotations()\n
     '''
 def hasModifier():
-    '''public boolean hasModifier(final int modifier)
+    '''returns boolean\n\n
+    hasModifier(final int modifier)\n
     '''

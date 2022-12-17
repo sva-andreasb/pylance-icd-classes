@@ -1,40 +1,51 @@
 def withMinExponentDigits():
-    '''public ScientificNotation withMinExponentDigits(final int minExponentDigits)
+    '''returns ScientificNotation\n\n
+    withMinExponentDigits(final int minExponentDigits)\n
     '''
 def withExponentSignDisplay():
-    '''public ScientificNotation withExponentSignDisplay(final NumberFormatter.SignDisplay exponentSignDisplay)
+    '''returns ScientificNotation\n\n
+    withExponentSignDisplay(final NumberFormatter.SignDisplay exponentSignDisplay)\n
     '''
 def processQuantity():
-    '''public MicroProps processQuantity(final DecimalQuantity quantity)
+    '''returns MicroProps\n\n
+    processQuantity(final DecimalQuantity quantity)\n
     '''
 def getMultiplier():
-    '''public int getMultiplier(final int magnitude)
+    '''returns int\n\n
+    getMultiplier(final int magnitude)\n
     '''
 def getPrefixLength():
-    '''public int getPrefixLength()
-    public int getPrefixLength()
+    '''returns int\n\n
+    getPrefixLength()\n
+    getPrefixLength()\n
     '''
 def getCodePointCount():
-    '''public int getCodePointCount()
-    public int getCodePointCount()
+    '''returns int\n\n
+    getCodePointCount()\n
+    getCodePointCount()\n
     '''
 def isStrong():
-    '''public boolean isStrong()
-    public boolean isStrong()
+    '''returns boolean\n\n
+    isStrong()\n
+    isStrong()\n
     '''
 def containsField():
-    '''public boolean containsField(final Format.Field field)
-    public boolean containsField(final Format.Field field)
+    '''returns boolean\n\n
+    containsField(final Format.Field field)\n
+    containsField(final Format.Field field)\n
     '''
 def getParameters():
-    '''public Parameters getParameters()
-    public Parameters getParameters()
+    '''returns Parameters\n\n
+    getParameters()\n
+    getParameters()\n
     '''
 def semanticallyEquivalent():
-    '''public boolean semanticallyEquivalent(final Modifier other)
-    public boolean semanticallyEquivalent(final Modifier other)
+    '''returns boolean\n\n
+    semanticallyEquivalent(final Modifier other)\n
+    semanticallyEquivalent(final Modifier other)\n
     '''
 def apply():
-    '''public int apply(final FormattedStringBuilder output, final int leftIndex, final int rightIndex)
-    public int apply(final FormattedStringBuilder output, final int leftIndex, final int rightIndex)
+    '''returns int\n\n
+    apply(final FormattedStringBuilder output, final int leftIndex, final int rightIndex)\n
+    apply(final FormattedStringBuilder output, final int leftIndex, final int rightIndex)\n
     '''

@@ -1,3 +1,4 @@
 def setInspFormNum():
-    '''public void setInspFormNum(final String inspformnum)
+    '''returns None\n\n
+    setInspFormNum(final String inspformnum)\n
     '''

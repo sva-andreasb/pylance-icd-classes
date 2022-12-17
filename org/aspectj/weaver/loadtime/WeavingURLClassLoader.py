@@ -1,16 +1,20 @@
 WEAVING_CLASS_PATH = "String  \"aj.class.path\""
 WEAVING_ASPECT_PATH = "String  \"aj.aspect.path\""
-def WeavingURLClassLoader():
-    '''public WeavingURLClassLoader(final ClassLoader parent)
-    public WeavingURLClassLoader(final URL[] urls, final ClassLoader parent)
-    public WeavingURLClassLoader(final URL[] classURLs, final URL[] aspectURLs, final ClassLoader parent)
+def ():
+    '''returns WeavingURLClassLoader\n\n
+    (final ClassLoader parent)\n
+    (final URL[] urls, final ClassLoader parent)\n
+    (final URL[] classURLs, final URL[] aspectURLs, final ClassLoader parent)\n
     '''
 def getClassLoaderName():
-    '''public String getClassLoaderName()
+    '''returns String\n\n
+    getClassLoaderName()\n
     '''
 def getAspectURLs():
-    '''public URL[] getAspectURLs()
+    '''returns URL[]\n\n
+    getAspectURLs()\n
     '''
 def acceptClass():
-    '''public void acceptClass(final String name, final byte[] classBytes, final byte[] weavedBytes)
+    '''returns None\n\n
+    acceptClass(final String name, final byte[] classBytes, final byte[] weavedBytes)\n
     '''

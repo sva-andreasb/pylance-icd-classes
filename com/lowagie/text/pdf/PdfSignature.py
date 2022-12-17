@@ -1,27 +1,36 @@
-def PdfSignature():
-    '''public PdfSignature(final PdfName filter, final PdfName subFilter)
+def ():
+    '''returns PdfSignature\n\n
+    (final PdfName filter, final PdfName subFilter)\n
     '''
 def setByteRange():
-    '''public void setByteRange(final int[] range)
+    '''returns None\n\n
+    setByteRange(final int[] range)\n
     '''
 def setContents():
-    '''public void setContents(final byte[] contents)
+    '''returns None\n\n
+    setContents(final byte[] contents)\n
     '''
 def setCert():
-    '''public void setCert(final byte[] cert)
+    '''returns None\n\n
+    setCert(final byte[] cert)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def setDate():
-    '''public void setDate(final PdfDate date)
+    '''returns None\n\n
+    setDate(final PdfDate date)\n
     '''
 def setLocation():
-    '''public void setLocation(final String name)
+    '''returns None\n\n
+    setLocation(final String name)\n
     '''
 def setReason():
-    '''public void setReason(final String name)
+    '''returns None\n\n
+    setReason(final String name)\n
     '''
 def setContact():
-    '''public void setContact(final String name)
+    '''returns None\n\n
+    setContact(final String name)\n
     '''

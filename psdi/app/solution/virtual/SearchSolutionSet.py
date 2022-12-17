@@ -1,9 +1,12 @@
-def SearchSolutionSet():
-    '''public SearchSolutionSet(final MboServerInterface ms)
+def ():
+    '''returns SearchSolutionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getLDSearchType():
-    '''public String getLDSearchType()
+    '''returns String\n\n
+    getLDSearchType()\n
     '''
 def checkMethodAccess():
-    '''public void checkMethodAccess(final String methodName, final long accessModifier)
+    '''returns None\n\n
+    checkMethodAccess(final String methodName, final long accessModifier)\n
     '''

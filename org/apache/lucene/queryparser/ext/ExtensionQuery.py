@@ -1,12 +1,16 @@
-def ExtensionQuery():
-    '''public ExtensionQuery(final QueryParser topLevelParser, final String field, final String rawQueryString)
+def ():
+    '''returns ExtensionQuery\n\n
+    (final QueryParser topLevelParser, final String field, final String rawQueryString)\n
     '''
 def getField():
-    '''public String getField()
+    '''returns String\n\n
+    getField()\n
     '''
 def getRawQueryString():
-    '''public String getRawQueryString()
+    '''returns String\n\n
+    getRawQueryString()\n
     '''
 def getTopLevelParser():
-    '''public QueryParser getTopLevelParser()
+    '''returns QueryParser\n\n
+    getTopLevelParser()\n
     '''

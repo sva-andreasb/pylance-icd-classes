@@ -1,3 +1,4 @@
-def NetDeviceSet():
-    '''public NetDeviceSet(final MboServerInterface ms)
+def ():
+    '''returns NetDeviceSet\n\n
+    (final MboServerInterface ms)\n
     '''

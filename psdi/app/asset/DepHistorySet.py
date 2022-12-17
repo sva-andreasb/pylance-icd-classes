@@ -1,3 +1,4 @@
-def DepHistorySet():
-    '''public DepHistorySet(final MboServerInterface ms)
+def ():
+    '''returns DepHistorySet\n\n
+    (final MboServerInterface ms)\n
     '''

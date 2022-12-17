@@ -1,15 +1,20 @@
-def DepSchedSet():
-    '''public DepSchedSet(final MboServerInterface ms)
+def ():
+    '''returns DepSchedSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def generateDepSchedule():
-    '''public boolean generateDepSchedule(final MboRemote asset, final boolean previewAction)
+    '''returns boolean\n\n
+    generateDepSchedule(final MboRemote asset, final boolean previewAction)\n
     '''
 def setSchedGenerationParamsUsed():
-    '''public void setSchedGenerationParamsUsed(final boolean originalValues)
+    '''returns None\n\n
+    setSchedGenerationParamsUsed(final boolean originalValues)\n
     '''
 def haveSchedGenParamsChanged():
-    '''public boolean haveSchedGenParamsChanged()
+    '''returns boolean\n\n
+    haveSchedGenParamsChanged()\n
     '''
 def getRecalcPointMbo():
-    '''public MboRemote getRecalcPointMbo()
+    '''returns MboRemote\n\n
+    getRecalcPointMbo()\n
     '''

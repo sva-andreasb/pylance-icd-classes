@@ -1,3 +1,4 @@
-def PlusCToolDSSet():
-    '''public PlusCToolDSSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCToolDSSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,145 +1,190 @@
-def DeployedMeter():
-    '''public DeployedMeter(final MboSet ms)
+def ():
+    '''returns validateALNValueForDecimalUse\n\n
+    (final MboSet ms)\n
+    ()\n
     '''
 def isNegativeAdjustment():
-    '''public boolean isNegativeAdjustment()
+    '''returns boolean\n\n
+    isNegativeAdjustment()\n
     '''
 def setAdjustmentIsNegative():
-    '''public void setAdjustmentIsNegative(final boolean adjustmentIsNegative)
+    '''returns None\n\n
+    setAdjustmentIsNegative(final boolean adjustmentIsNegative)\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def addModifiedReadingsForAvgCalc():
-    '''public void addModifiedReadingsForAvgCalc(final MboRemote reading)
+    '''returns None\n\n
+    addModifiedReadingsForAvgCalc(final MboRemote reading)\n
     '''
 def getOrigMRUpdate():
-    '''public Mbo getOrigMRUpdate()
+    '''returns Mbo\n\n
+    getOrigMRUpdate()\n
     '''
 def setOrigMRUpdate():
-    '''public void setOrigMRUpdate(final Mbo origMRUpdate)
+    '''returns None\n\n
+    setOrigMRUpdate(final Mbo origMRUpdate)\n
     '''
 def returnDeploymentInfo():
-    '''public Object[] returnDeploymentInfo()
+    '''returns Object[]\n\n
+    returnDeploymentInfo()\n
     '''
 def isReadingMostRecentReading():
-    '''public boolean isReadingMostRecentReading(final Date readingDate)
+    '''returns boolean\n\n
+    isReadingMostRecentReading(final Date readingDate)\n
     '''
 def setIsReadingUpdate():
-    '''public void setIsReadingUpdate(final boolean isUpdate)
+    '''returns None\n\n
+    setIsReadingUpdate(final boolean isUpdate)\n
     '''
 def getIsReadingUpdate():
-    '''public boolean getIsReadingUpdate()
+    '''returns boolean\n\n
+    getIsReadingUpdate()\n
     '''
 def getIsWOMeterProcess():
-    '''public boolean getIsWOMeterProcess()
+    '''returns boolean\n\n
+    getIsWOMeterProcess()\n
     '''
 def getSupressUniquenessErrorFlag():
-    '''public boolean getSupressUniquenessErrorFlag()
+    '''returns boolean\n\n
+    getSupressUniquenessErrorFlag()\n
     '''
 def getNextMeterReading():
-    '''public MboRemote getNextMeterReading(Date followingDate)
+    '''returns MboRemote\n\n
+    getNextMeterReading(Date followingDate)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def canDeleteForecast():
-    '''public boolean canDeleteForecast(final String message)
+    '''returns boolean\n\n
+    canDeleteForecast(final String message)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def meterInGroupToDeployedMeter():
-    '''public void meterInGroupToDeployedMeter(final MeterInGroupRemote meter, final boolean supressUniquenessError)
-    public void meterInGroupToDeployedMeter(final MeterInGroupRemote meter, final boolean supressUniquenessError, final boolean supressDupSeqNumWarning)
+    '''returns None\n\n
+    meterInGroupToDeployedMeter(final MeterInGroupRemote meter, final boolean supressUniquenessError)\n
+    meterInGroupToDeployedMeter(final MeterInGroupRemote meter, final boolean supressUniquenessError, final boolean supressDupSeqNumWarning)\n
     '''
 def isCurrentlyBeingAddedOnMeterGroupChange():
-    '''public boolean isCurrentlyBeingAddedOnMeterGroupChange()
+    '''returns boolean\n\n
+    isCurrentlyBeingAddedOnMeterGroupChange()\n
     '''
 def setCurrentlyBeingAddedOnMeterGroupChange():
-    '''public void setCurrentlyBeingAddedOnMeterGroupChange(final boolean currentlyBeingAddedOnMeterGroupChange)
+    '''returns None\n\n
+    setCurrentlyBeingAddedOnMeterGroupChange(final boolean currentlyBeingAddedOnMeterGroupChange)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getAvgCalcMethod():
-    '''public String getAvgCalcMethod()
+    '''returns String\n\n
+    getAvgCalcMethod()\n
     '''
 def getReadingType():
-    '''public String getReadingType()
+    '''returns String\n\n
+    getReadingType()\n
     '''
 def getTheMeter():
-    '''public MeterRemote getTheMeter()
+    '''returns MeterRemote\n\n
+    getTheMeter()\n
     '''
 def setSkipAverageRefresh():
-    '''public void setSkipAverageRefresh(final boolean actReadInUpdateRangeAfterNewRead)
+    '''returns None\n\n
+    setSkipAverageRefresh(final boolean actReadInUpdateRangeAfterNewRead)\n
     '''
 def getSkipAverageRefresh():
-    '''public boolean getSkipAverageRefresh()
+    '''returns boolean\n\n
+    getSkipAverageRefresh()\n
     '''
 def setTypeSpecificFlags():
-    '''public void setTypeSpecificFlags()
+    '''returns None\n\n
+    setTypeSpecificFlags()\n
     '''
 def enableDisable():
-    '''public void enableDisable()
+    '''returns None\n\n
+    enableDisable()\n
     '''
 def refreshPreviousReadingInfo():
-    '''public void refreshPreviousReadingInfo(final Date previousToDate)
+    '''returns None\n\n
+    refreshPreviousReadingInfo(final Date previousToDate)\n
     '''
 def getPreviousMeterReading():
-    '''public MboRemote getPreviousMeterReading(Date previousToDate)
+    '''returns MboRemote\n\n
+    getPreviousMeterReading(Date previousToDate)\n
     '''
 def getReadingValueAsDouble():
-    '''public double getReadingValueAsDouble(final Date dt)
+    '''returns double\n\n
+    getReadingValueAsDouble(final Date dt)\n
     '''
 def getMeterReadingForKnownDate():
-    '''public MboRemote getMeterReadingForKnownDate(final Date dt)
+    '''returns MboRemote\n\n
+    getMeterReadingForKnownDate(final Date dt)\n
     '''
 def setPreviousReadingInfoOnInit():
-    '''public void setPreviousReadingInfoOnInit()
+    '''returns None\n\n
+    setPreviousReadingInfoOnInit()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def processNonContinuousReadings():
-    '''public void processNonContinuousReadings()
+    '''returns None\n\n
+    processNonContinuousReadings()\n
     '''
 def addReading():
-    '''public MboRemote addReading()
+    '''returns MboRemote\n\n
+    addReading()\n
     '''
 def maintainWOMeter():
-    '''public void maintainWOMeter(final MboRemote reading)
+    '''returns None\n\n
+    maintainWOMeter(final MboRemote reading)\n
     '''
 def returnReadingForWOMeterProcessing():
-    '''public MboRemote returnReadingForWOMeterProcessing()
+    '''returns MboRemote\n\n
+    returnReadingForWOMeterProcessing()\n
     '''
 def resetMeter():
-    '''public void resetMeter()
+    '''returns None\n\n
+    resetMeter()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def enterReadingOnMaterialIssue():
-    '''public boolean enterReadingOnMaterialIssue()
+    '''returns boolean\n\n
+    enterReadingOnMaterialIssue()\n
     '''
 def validateALNEnteredDecimalValue():
-    '''public void validateALNEnteredDecimalValue(final String readingAttribute)
+    '''returns None\n\n
+    validateALNEnteredDecimalValue(final String readingAttribute)\n
     '''
 def pmForecastExistsForMeterOnPM():
-    '''public boolean pmForecastExistsForMeterOnPM()
-    '''
-def validateALNValueForDecimalUse():
-    '''public validateALNValueForDecimalUse()
+    '''returns boolean\n\n
+    pmForecastExistsForMeterOnPM()\n
     '''
 def getDecimalRegex():
-    '''public String getDecimalRegex(final Locale locale)
+    '''returns String\n\n
+    getDecimalRegex(final Locale locale)\n
     '''

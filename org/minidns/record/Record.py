@@ -1,60 +1,52 @@
-def parse():
-    '''public static Record<Data> parse(final DataInputStream dis, final byte[] data)
-    '''
-def Record():
-    '''public Record(final DnsName name, final TYPE type, final CLASS clazz, final long ttl, final D payloadData, final boolean unicastQuery)
-    public Record(final String name, final TYPE type, final CLASS clazz, final long ttl, final D payloadData, final boolean unicastQuery)
-    public Record(final String name, final TYPE type, final int clazzValue, final long ttl, final D payloadData)
-    public Record(final DnsName name, final TYPE type, final int clazzValue, final long ttl, final D payloadData)
+def ():
+    '''returns Record\n\n
+    (final DnsName name, final TYPE type, final CLASS clazz, final long ttl, final D payloadData, final boolean unicastQuery)\n
+    (final String name, final TYPE type, final CLASS clazz, final long ttl, final D payloadData, final boolean unicastQuery)\n
+    (final String name, final TYPE type, final int clazzValue, final long ttl, final D payloadData)\n
+    (final DnsName name, final TYPE type, final int clazzValue, final long ttl, final D payloadData)\n
     '''
 def toOutputStream():
-    '''public void toOutputStream(final DataOutputStream dos)
+    '''returns None\n\n
+    toOutputStream(final DataOutputStream dos)\n
     '''
 def toByteArray():
-    '''public byte[] toByteArray()
+    '''returns byte[]\n\n
+    toByteArray()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isAnswer():
-    '''public boolean isAnswer(final Question q)
+    '''returns boolean\n\n
+    isAnswer(final Question q)\n
     '''
 def isUnicastQuery():
-    '''public boolean isUnicastQuery()
+    '''returns boolean\n\n
+    isUnicastQuery()\n
     '''
 def getPayload():
-    '''public D getPayload()
+    '''returns D\n\n
+    getPayload()\n
     '''
 def getTtl():
-    '''public long getTtl()
+    '''returns long\n\n
+    getTtl()\n
     '''
 def getQuestion():
-    '''public Question getQuestion()
+    '''returns Question\n\n
+    getQuestion()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
-    '''
-def ifPossibleAs():
-    '''public <E extends Data> Record<E> ifPossibleAs(final Class<E> dataClass)
-    '''
-def filter():
-    '''public static <E extends Data> void filter(final Collection<Record<E>> result, final Class<E> dataClass, final Collection<Record<? extends Data>> input)
-    public static <E extends Data> List<Record<E>> filter(final Class<E> dataClass, final Collection<Record<? extends Data>> input)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def getValue():
-    '''public int getValue()
-    public int getValue()
-    '''
-def getDataClass():
-    '''public <D extends Data> Class<D> getDataClass()
-    '''
-def getType():
-    '''public static TYPE getType(final int value)
-    public static <D extends Data> TYPE getType(final Class<D> dataClass)
-    '''
-def getClass():
-    '''public static CLASS getClass(final int value)
+    '''returns int\n\n
+    getValue()\n
+    getValue()\n
     '''

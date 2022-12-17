@@ -1,9 +1,12 @@
-def NormalDataExtractor():
-    '''public NormalDataExtractor(final Field field, final Map detailData, final Guid id, final TableContent tableContent, final DetailTableModel tableModel, final long version)
+def ():
+    '''returns NormalDataExtractor\n\n
+    (final Field field, final Map detailData, final Guid id, final TableContent tableContent, final DetailTableModel tableModel, final long version)\n
     '''
 def generateData():
-    '''public List generateData()
+    '''returns List\n\n
+    generateData()\n
     '''
 def getRow():
-    '''public int getRow()
+    '''returns int\n\n
+    getRow()\n
     '''

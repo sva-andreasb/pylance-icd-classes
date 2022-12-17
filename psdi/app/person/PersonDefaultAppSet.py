@@ -1,6 +1,8 @@
-def PersonDefaultAppSet():
-    '''public PersonDefaultAppSet(final MboServerInterface ms)
+def ():
+    '''returns PersonDefaultAppSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

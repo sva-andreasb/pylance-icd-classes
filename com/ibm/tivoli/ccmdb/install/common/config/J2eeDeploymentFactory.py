@@ -1,3 +1,4 @@
 def getInstance():
-    '''public ICfgConfigurationStep getInstance()
+    '''returns ICfgConfigurationStep\n\n
+    getInstance()\n
     '''

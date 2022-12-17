@@ -1,9 +1,12 @@
 def getStoredProcedureResult():
-    '''public StoredProcedureResult getStoredProcedureResult(final CallableStatement callableStatement, final StatementDescriptor statementDescriptor, final Object... array)
+    '''returns StoredProcedureResult\n\n
+    getStoredProcedureResult(final CallableStatement callableStatement, final StatementDescriptor statementDescriptor, final Object... array)\n
     '''
 def handleCall():
-    '''public T handleCall(final CallableStatement callableStatement, final Object... array)
+    '''returns T\n\n
+    handleCall(final CallableStatement callableStatement, final Object... array)\n
     '''
 def getDBTimestamp():
-    '''public DBTimestamp getDBTimestamp(final CallableStatement callableStatement, final int n)
+    '''returns DBTimestamp\n\n
+    getDBTimestamp(final CallableStatement callableStatement, final int n)\n
     '''

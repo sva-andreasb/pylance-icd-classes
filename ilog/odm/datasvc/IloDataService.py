@@ -1,0 +1,5 @@
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
+CHECK_DATA_CATEGORY = "String  \"check\""
+UPDATE_CATEGORY = "String  \"update\""
+EXPORT_CATEGORY = "String  \"export\""
+MIGRATE_CATEGORY = "String  \"migrate\""

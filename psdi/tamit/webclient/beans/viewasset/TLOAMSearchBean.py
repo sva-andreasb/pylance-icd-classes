@@ -1,12 +1,16 @@
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def searchasset():
-    '''public int searchasset()
+    '''returns int\n\n
+    searchasset()\n
     '''
 def clearasset():
-    '''public int clearasset()
+    '''returns int\n\n
+    clearasset()\n
     '''
 def returnAsset():
-    '''public int returnAsset()
+    '''returns int\n\n
+    returnAsset()\n
     '''

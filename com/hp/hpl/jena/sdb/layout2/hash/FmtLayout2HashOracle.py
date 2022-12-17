@@ -1,3 +1,4 @@
-def FmtLayout2HashOracle():
-    '''public FmtLayout2HashOracle(final SDBConnection connection)
+def ():
+    '''returns FmtLayout2HashOracle\n\n
+    (final SDBConnection connection)\n
     '''

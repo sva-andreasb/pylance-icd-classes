@@ -1,6 +1,8 @@
-def FldAssetCINum():
-    '''public FldAssetCINum(final MboValue mbv)
+def ():
+    '''returns FldAssetCINum\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

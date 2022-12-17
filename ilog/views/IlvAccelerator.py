@@ -1,27 +1,31 @@
-def IlvAccelerator():
-    '''public IlvAccelerator(final KeyStroke e, final boolean f)
-    public IlvAccelerator(final int d, final int b, final char c, final int a, final boolean f)
-    public IlvAccelerator(final int n, final int n2, final int n3, final boolean b)
-    public IlvAccelerator(final int n, final int n2, final int n3)
+def ():
+    '''returns IlvAccelerator\n\n
+    (final KeyStroke e, final boolean f)\n
+    (final int d, final int b, final char c, final int a, final boolean f)\n
+    (final int n, final int n2, final int n3, final boolean b)\n
+    (final int n, final int n2, final int n3)\n
     '''
 def getEventType():
-    '''public int getEventType()
+    '''returns int\n\n
+    getEventType()\n
     '''
 def getKeyCode():
-    '''public int getKeyCode()
+    '''returns int\n\n
+    getKeyCode()\n
     '''
 def getKeyChar():
-    '''public int getKeyChar()
+    '''returns int\n\n
+    getKeyChar()\n
     '''
 def getModifier():
-    '''public int getModifier()
+    '''returns int\n\n
+    getModifier()\n
     '''
 def setConsumeEvents():
-    '''public void setConsumeEvents(final boolean f)
+    '''returns None\n\n
+    setConsumeEvents(final boolean f)\n
     '''
 def isConsumeEvents():
-    '''public boolean isConsumeEvents()
-    '''
-def CtrlChar():
-    '''public static char CtrlChar(final char c)
+    '''returns boolean\n\n
+    isConsumeEvents()\n
     '''

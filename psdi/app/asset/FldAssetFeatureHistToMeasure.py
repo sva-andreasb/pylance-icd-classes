@@ -1,6 +1,8 @@
-def FldAssetFeatureHistToMeasure():
-    '''public FldAssetFeatureHistToMeasure(final MboValue mbv)
+def ():
+    '''returns FldAssetFeatureHistToMeasure\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

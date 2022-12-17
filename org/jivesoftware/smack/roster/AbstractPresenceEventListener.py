@@ -1,15 +1,20 @@
 def presenceAvailable():
-    '''public void presenceAvailable(final FullJid address, final Presence availablePresence)
+    '''returns None\n\n
+    presenceAvailable(final FullJid address, final Presence availablePresence)\n
     '''
 def presenceUnavailable():
-    '''public void presenceUnavailable(final FullJid address, final Presence presence)
+    '''returns None\n\n
+    presenceUnavailable(final FullJid address, final Presence presence)\n
     '''
 def presenceError():
-    '''public void presenceError(final Jid address, final Presence errorPresence)
+    '''returns None\n\n
+    presenceError(final Jid address, final Presence errorPresence)\n
     '''
 def presenceSubscribed():
-    '''public void presenceSubscribed(final BareJid address, final Presence subscribedPresence)
+    '''returns None\n\n
+    presenceSubscribed(final BareJid address, final Presence subscribedPresence)\n
     '''
 def presenceUnsubscribed():
-    '''public void presenceUnsubscribed(final BareJid address, final Presence unsubscribedPresence)
+    '''returns None\n\n
+    presenceUnsubscribed(final BareJid address, final Presence unsubscribedPresence)\n
     '''

@@ -1,9 +1,8 @@
-def PmIncidentChgStatusAppBean():
-    '''public PmIncidentChgStatusAppBean()
-    '''
-def execute():
-    '''public synchronized int execute()
+def ():
+    '''returns PmIncidentChgStatusAppBean\n\n
+    ()\n
     '''
 def getProperty():
-    '''public String getProperty(final String propName)
+    '''returns String\n\n
+    getProperty(final String propName)\n
     '''

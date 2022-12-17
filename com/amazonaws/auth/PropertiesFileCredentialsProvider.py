@@ -1,12 +1,16 @@
-def PropertiesFileCredentialsProvider():
-    '''public PropertiesFileCredentialsProvider(final String credentialsFilePath)
+def ():
+    '''returns PropertiesFileCredentialsProvider\n\n
+    (final String credentialsFilePath)\n
     '''
 def getCredentials():
-    '''public AWSCredentials getCredentials()
+    '''returns AWSCredentials\n\n
+    getCredentials()\n
     '''
 def refresh():
-    '''public void refresh()
+    '''returns None\n\n
+    refresh()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

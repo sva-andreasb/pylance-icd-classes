@@ -1,15 +1,20 @@
-def Reference():
-    '''public Reference(final T r)
+def ():
+    '''returns Reference\n\n
+    (final T r)\n
     '''
 def clone():
-    '''public Reference<T> clone()
+    '''returns Reference<T>\n\n
+    clone()\n
     '''
 def readOnly():
-    '''public T readOnly()
+    '''returns T\n\n
+    readOnly()\n
     '''
 def copyOnWrite():
-    '''public T copyOnWrite()
+    '''returns T\n\n
+    copyOnWrite()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

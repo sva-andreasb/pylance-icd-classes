@@ -1,10 +1,13 @@
-def FldAssignRate():
-    '''public FldAssignRate(final MboValue mbv)
+def ():
+    '''returns FldAssignRate\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def getPayRateFromLCR():
-    '''public double getPayRateFromLCR()
-    public double getPayRateFromLCR(final boolean isCraftNull)
+    '''returns double\n\n
+    getPayRateFromLCR()\n
+    getPayRateFromLCR(final boolean isCraftNull)\n
     '''

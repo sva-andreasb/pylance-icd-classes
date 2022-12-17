@@ -1,3 +1,4 @@
-def APIRoute():
-    '''public APIRoute(final MboSet ms)
+def ():
+    '''returns APIRoute\n\n
+    (final MboSet ms)\n
     '''

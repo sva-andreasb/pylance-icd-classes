@@ -1,57 +1,68 @@
-def release():
-    '''public synchronized void release()
-    '''
 def exists():
-    '''public boolean exists()
+    '''returns boolean\n\n
+    exists()\n
     '''
 def isDirectory():
-    '''public boolean isDirectory()
+    '''returns boolean\n\n
+    isDirectory()\n
     '''
 def lastModified():
-    '''public long lastModified()
+    '''returns long\n\n
+    lastModified()\n
     '''
 def length():
-    '''public long length()
+    '''returns long\n\n
+    length()\n
     '''
 def getURL():
-    '''public URL getURL()
+    '''returns URL\n\n
+    getURL()\n
     '''
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getInputStream():
-    '''public synchronized InputStream getInputStream()
+    '''returns String\n\n
+    getName()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def delete():
-    '''public boolean delete()
+    '''returns boolean\n\n
+    delete()\n
     '''
 def renameTo():
-    '''public boolean renameTo(final Resource dest)
+    '''returns boolean\n\n
+    renameTo(final Resource dest)\n
     '''
 def list():
-    '''public String[] list()
+    '''returns String[]\n\n
+    list()\n
     '''
 def addPath():
-    '''public Resource addPath(String path)
+    '''returns Resource\n\n
+    addPath(String path)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getUseCaches():
-    '''public boolean getUseCaches()
+    '''returns boolean\n\n
+    getUseCaches()\n
     '''
 def isContainedIn():
-    '''public boolean isContainedIn(final Resource containingResource)
+    '''returns boolean\n\n
+    isContainedIn(final Resource containingResource)\n
     '''

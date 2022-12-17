@@ -1,12 +1,16 @@
-def MssList():
-    '''public MssList()
+def ():
+    '''returns MssList\n\n
+    ()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def write():
-    '''public void write(final String id, final long offset, final String classType, final String accessInfoURI, final String cdmVersion, final String cdmRelease, final String cdmModifier)
+    '''returns None\n\n
+    write(final String id, final long offset, final String classType, final String accessInfoURI, final String cdmVersion, final String cdmRelease, final String cdmModifier)\n
     '''
 def getEntry():
-    '''public MssEntry getEntry(final int x)
+    '''returns MssEntry\n\n
+    getEntry(final int x)\n
     '''

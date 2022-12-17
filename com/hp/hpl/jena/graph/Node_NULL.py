@@ -1,9 +1,12 @@
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def visitWith():
-    '''public Object visitWith(final NodeVisitor v)
+    '''returns Object\n\n
+    visitWith(final NodeVisitor v)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

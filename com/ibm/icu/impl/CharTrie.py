@@ -1,37 +1,25 @@
-def CharTrie():
-    '''public CharTrie(final InputStream inputStream, final DataManipulate dataManipulate)
-    public CharTrie(final int initialValue, final int leadUnitValue, final DataManipulate dataManipulate)
+def ():
+    '''returns CharTrie\n\n
+    (final InputStream inputStream, final DataManipulate dataManipulate)\n
+    (final int initialValue, final int leadUnitValue, final DataManipulate dataManipulate)\n
     '''
 def putIndexData():
-    '''public void putIndexData(final UCharacterProperty friend)
-    '''
-def getCodePointValue():
-    '''public final char getCodePointValue(final int ch)
-    '''
-def getLeadValue():
-    '''public final char getLeadValue(final char ch)
-    '''
-def getBMPValue():
-    '''public final char getBMPValue(final char ch)
-    '''
-def getSurrogateValue():
-    '''public final char getSurrogateValue(final char lead, final char trail)
-    '''
-def getTrailValue():
-    '''public final char getTrailValue(final int leadvalue, final char trail)
-    '''
-def getLatin1LinearValue():
-    '''public final char getLatin1LinearValue(final char ch)
+    '''returns None\n\n
+    putIndexData(final UCharacterProperty friend)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def getPrivateIndex():
-    '''public char[] getPrivateIndex()
+    '''returns char[]\n\n
+    getPrivateIndex()\n
     '''
 def getPrivateData():
-    '''public char[] getPrivateData()
+    '''returns char[]\n\n
+    getPrivateData()\n
     '''
 def getPrivateInitialValue():
-    '''public int getPrivateInitialValue()
+    '''returns int\n\n
+    getPrivateInitialValue()\n
     '''

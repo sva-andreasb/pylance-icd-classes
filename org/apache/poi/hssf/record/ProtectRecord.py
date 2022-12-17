@@ -1,23 +1,30 @@
 sid = "short  18"
-def ProtectRecord():
-    '''public ProtectRecord(final boolean isProtected)
-    public ProtectRecord(final RecordInputStream in)
+def ():
+    '''returns ProtectRecord\n\n
+    (final boolean isProtected)\n
+    (final RecordInputStream in)\n
     '''
 def setProtect():
-    '''public void setProtect(final boolean protect)
+    '''returns None\n\n
+    setProtect(final boolean protect)\n
     '''
 def getProtect():
-    '''public boolean getProtect()
+    '''returns boolean\n\n
+    getProtect()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

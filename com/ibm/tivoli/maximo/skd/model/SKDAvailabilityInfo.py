@@ -1,33 +1,44 @@
-def SKDAvailabilityInfo():
-    '''public SKDAvailabilityInfo()
+def ():
+    '''returns SKDAvailabilityInfo\n\n
+    ()\n
     '''
 def setWorkPeriodSet():
-    '''public void setWorkPeriodSet(final ArrayList<Date[]> l)
+    '''returns None\n\n
+    setWorkPeriodSet(final ArrayList<Date[]> l)\n
     '''
 def getWorkPeriodSet():
-    '''public ArrayList<Date[]> getWorkPeriodSet()
+    '''returns ArrayList<Date[]>\n\n
+    getWorkPeriodSet()\n
     '''
 def setOperationalSet():
-    '''public void setOperationalSet(final ArrayList<Date[]> l)
+    '''returns None\n\n
+    setOperationalSet(final ArrayList<Date[]> l)\n
     '''
 def getOperationalSet():
-    '''public ArrayList<Date[]> getOperationalSet()
+    '''returns ArrayList<Date[]>\n\n
+    getOperationalSet()\n
     '''
 def setMaintenanceSet():
-    '''public void setMaintenanceSet(final ArrayList<Date[]> l)
+    '''returns None\n\n
+    setMaintenanceSet(final ArrayList<Date[]> l)\n
     '''
 def getMaintenanceSet():
-    '''public ArrayList<Date[]> getMaintenanceSet()
+    '''returns ArrayList<Date[]>\n\n
+    getMaintenanceSet()\n
     '''
 def setKeyStr():
-    '''public void setKeyStr(final String str)
+    '''returns None\n\n
+    setKeyStr(final String str)\n
     '''
 def getKeyStr():
-    '''public String getKeyStr()
+    '''returns String\n\n
+    getKeyStr()\n
     '''
 def setDescription():
-    '''public void setDescription(final String desc)
+    '''returns None\n\n
+    setDescription(final String desc)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''

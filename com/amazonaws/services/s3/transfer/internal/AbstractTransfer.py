@@ -1,44 +1,32 @@
-def isDone():
-    '''public final synchronized boolean isDone()
-    '''
 def waitForCompletion():
-    '''public void waitForCompletion()
+    '''returns None\n\n
+    waitForCompletion()\n
     '''
 def waitForException():
-    '''public AmazonClientException waitForException()
+    '''returns AmazonClientException\n\n
+    waitForException()\n
     '''
 def getDescription():
-    '''public String getDescription()
-    '''
-def getState():
-    '''public synchronized TransferState getState()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setState():
-    '''public void setState(final TransferState state)
+    '''returns None\n\n
+    setState(final TransferState state)\n
     '''
 def notifyStateChangeListeners():
-    '''public void notifyStateChangeListeners(final TransferState state)
-    '''
-def addProgressListener():
-    '''public synchronized void addProgressListener(final ProgressListener listener)
-    public synchronized void addProgressListener(final com.amazonaws.services.s3.model.ProgressListener listener)
-    '''
-def removeProgressListener():
-    '''public synchronized void removeProgressListener(final ProgressListener listener)
-    public synchronized void removeProgressListener(final com.amazonaws.services.s3.model.ProgressListener listener)
-    '''
-def addStateChangeListener():
-    '''public synchronized void addStateChangeListener(final TransferStateChangeListener listener)
-    '''
-def removeStateChangeListener():
-    '''public synchronized void removeStateChangeListener(final TransferStateChangeListener listener)
+    '''returns None\n\n
+    notifyStateChangeListeners(final TransferState state)\n
     '''
 def getProgress():
-    '''public TransferProgress getProgress()
+    '''returns TransferProgress\n\n
+    getProgress()\n
     '''
 def setMonitor():
-    '''public void setMonitor(final TransferMonitor monitor)
+    '''returns None\n\n
+    setMonitor(final TransferMonitor monitor)\n
     '''
 def getMonitor():
-    '''public TransferMonitor getMonitor()
+    '''returns TransferMonitor\n\n
+    getMonitor()\n
     '''

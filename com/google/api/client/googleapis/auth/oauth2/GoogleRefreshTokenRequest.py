@@ -1,27 +1,36 @@
-def GoogleRefreshTokenRequest():
-    '''public GoogleRefreshTokenRequest(final HttpTransport transport, final JsonFactory jsonFactory, final String refreshToken, final String clientId, final String clientSecret)
+def ():
+    '''returns GoogleRefreshTokenRequest\n\n
+    (final HttpTransport transport, final JsonFactory jsonFactory, final String refreshToken, final String clientId, final String clientSecret)\n
     '''
 def setRequestInitializer():
-    '''public GoogleRefreshTokenRequest setRequestInitializer(final HttpRequestInitializer requestInitializer)
+    '''returns GoogleRefreshTokenRequest\n\n
+    setRequestInitializer(final HttpRequestInitializer requestInitializer)\n
     '''
 def setTokenServerUrl():
-    '''public GoogleRefreshTokenRequest setTokenServerUrl(final GenericUrl tokenServerUrl)
+    '''returns GoogleRefreshTokenRequest\n\n
+    setTokenServerUrl(final GenericUrl tokenServerUrl)\n
     '''
 def setScopes():
-    '''public GoogleRefreshTokenRequest setScopes(final Collection<String> scopes)
+    '''returns GoogleRefreshTokenRequest\n\n
+    setScopes(final Collection<String> scopes)\n
     '''
 def setGrantType():
-    '''public GoogleRefreshTokenRequest setGrantType(final String grantType)
+    '''returns GoogleRefreshTokenRequest\n\n
+    setGrantType(final String grantType)\n
     '''
 def setClientAuthentication():
-    '''public GoogleRefreshTokenRequest setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
+    '''returns GoogleRefreshTokenRequest\n\n
+    setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)\n
     '''
 def setRefreshToken():
-    '''public GoogleRefreshTokenRequest setRefreshToken(final String refreshToken)
+    '''returns GoogleRefreshTokenRequest\n\n
+    setRefreshToken(final String refreshToken)\n
     '''
 def execute():
-    '''public GoogleTokenResponse execute()
+    '''returns GoogleTokenResponse\n\n
+    execute()\n
     '''
 def set():
-    '''public GoogleRefreshTokenRequest set(final String fieldName, final Object value)
+    '''returns GoogleRefreshTokenRequest\n\n
+    set(final String fieldName, final Object value)\n
     '''

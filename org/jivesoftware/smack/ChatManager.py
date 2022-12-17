@@ -1,26 +1,34 @@
 def accept():
-    '''public boolean accept(final Packet packet)
+    '''returns boolean\n\n
+    accept(final Packet packet)\n
     '''
 def processPacket():
-    '''public void processPacket(final Packet packet)
+    '''returns None\n\n
+    processPacket(final Packet packet)\n
     '''
 def createChat():
-    '''public Chat createChat(final String userJID, final MessageListener listener)
-    public Chat createChat(final String userJID, String thread, final MessageListener listener)
+    '''returns Chat\n\n
+    createChat(final String userJID, final MessageListener listener)\n
+    createChat(final String userJID, String thread, final MessageListener listener)\n
     '''
 def getThreadChat():
-    '''public Chat getThreadChat(final String thread)
+    '''returns Chat\n\n
+    getThreadChat(final String thread)\n
     '''
 def addChatListener():
-    '''public void addChatListener(final ChatManagerListener listener)
+    '''returns None\n\n
+    addChatListener(final ChatManagerListener listener)\n
     '''
 def removeChatListener():
-    '''public void removeChatListener(final ChatManagerListener listener)
+    '''returns None\n\n
+    removeChatListener(final ChatManagerListener listener)\n
     '''
 def getChatListeners():
-    '''public Collection<ChatManagerListener> getChatListeners()
+    '''returns Collection<ChatManagerListener>\n\n
+    getChatListeners()\n
     '''
 def addOutgoingMessageInterceptor():
-    '''public void addOutgoingMessageInterceptor(final PacketInterceptor packetInterceptor)
-    public void addOutgoingMessageInterceptor(final PacketInterceptor packetInterceptor, final PacketFilter filter)
+    '''returns None\n\n
+    addOutgoingMessageInterceptor(final PacketInterceptor packetInterceptor)\n
+    addOutgoingMessageInterceptor(final PacketInterceptor packetInterceptor, final PacketFilter filter)\n
     '''

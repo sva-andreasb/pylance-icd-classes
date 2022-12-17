@@ -1,3 +1,4 @@
-def CommitPersonSet():
-    '''public CommitPersonSet(final MboServerInterface ms)
+def ():
+    '''returns CommitPersonSet\n\n
+    (final MboServerInterface ms)\n
     '''

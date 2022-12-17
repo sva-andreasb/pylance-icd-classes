@@ -1,0 +1,5 @@
+DATATYPE_SINGLE = "int  1"
+DATATYPE_IS_MANY = "int  2"
+IS_MANY_ADD = "int  3"
+IS_MANY_MOVE = "int  4"
+OTHER = "int  5"

@@ -3,46 +3,60 @@ MONTH_MASK = "short  2"
 DAY_MASK = "short  4"
 TIME_MASK = "short  8"
 FULL_MASK = "short  15"
-def XSDDateTime():
-    '''public XSDDateTime(final Object value, final int mask)
-    public XSDDateTime(final Calendar date)
+def ():
+    '''returns XSDDateTime\n\n
+    (final Object value, final int mask)\n
+    (final Calendar date)\n
     '''
 def getNarrowedDatatype():
-    '''public XSDDatatype getNarrowedDatatype()
+    '''returns XSDDatatype\n\n
+    getNarrowedDatatype()\n
     '''
 def narrowType():
-    '''public void narrowType(final XSDDatatype dt)
+    '''returns None\n\n
+    narrowType(final XSDDatatype dt)\n
     '''
 def asCalendar():
-    '''public Calendar asCalendar()
+    '''returns Calendar\n\n
+    asCalendar()\n
     '''
 def getYears():
-    '''public int getYears()
+    '''returns int\n\n
+    getYears()\n
     '''
 def getMonths():
-    '''public int getMonths()
+    '''returns int\n\n
+    getMonths()\n
     '''
 def getDays():
-    '''public int getDays()
+    '''returns int\n\n
+    getDays()\n
     '''
 def getHours():
-    '''public int getHours()
+    '''returns int\n\n
+    getHours()\n
     '''
 def getMinutes():
-    '''public int getMinutes()
+    '''returns int\n\n
+    getMinutes()\n
     '''
 def getFullSeconds():
-    '''public int getFullSeconds()
+    '''returns int\n\n
+    getFullSeconds()\n
     '''
 def getSeconds():
-    '''public double getSeconds()
+    '''returns double\n\n
+    getSeconds()\n
     '''
 def getTimePart():
-    '''public double getTimePart()
+    '''returns double\n\n
+    getTimePart()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def timeLexicalForm():
-    '''public String timeLexicalForm()
+    '''returns String\n\n
+    timeLexicalForm()\n
     '''

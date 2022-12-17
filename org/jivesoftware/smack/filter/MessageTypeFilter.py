@@ -1,6 +1,8 @@
-def MessageTypeFilter():
-    '''public MessageTypeFilter(final Message.Type type)
+def ():
+    '''returns MessageTypeFilter\n\n
+    (final Message.Type type)\n
     '''
 def accept():
-    '''public boolean accept(final Packet packet)
+    '''returns boolean\n\n
+    accept(final Packet packet)\n
     '''

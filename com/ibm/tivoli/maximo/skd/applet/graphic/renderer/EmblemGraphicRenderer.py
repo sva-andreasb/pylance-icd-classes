@@ -1,32 +1,42 @@
-def EmblemGraphicRenderer():
-    '''public EmblemGraphicRenderer(final String imagePath)
-    public EmblemGraphicRenderer(final String imagePath, final Visibiliy visibility)
-    public EmblemGraphicRenderer(final String imagePath, final Location location, final Visibiliy visibility)
+def ():
+    '''returns EmblemGraphicRenderer\n\n
+    (final String imagePath)\n
+    (final String imagePath, final Visibiliy visibility)\n
+    (final String imagePath, final Location location, final Visibiliy visibility)\n
     '''
 def draw():
-    '''public void draw(final Graphics g, final IlvActivityGraphic paramIlvActivityGraphic, final IlvTransformer paramIlvTransformer)
+    '''returns None\n\n
+    draw(final Graphics g, final IlvActivityGraphic paramIlvActivityGraphic, final IlvTransformer paramIlvTransformer)\n
     '''
 def getVisibility():
-    '''public Visibiliy getVisibility()
+    '''returns Visibiliy\n\n
+    getVisibility()\n
     '''
 def setVisibility():
-    '''public void setVisibility(final Visibiliy visibility)
+    '''returns None\n\n
+    setVisibility(final Visibiliy visibility)\n
     '''
 def getImagePath():
-    '''public String getImagePath()
+    '''returns String\n\n
+    getImagePath()\n
     '''
 def setImagePath():
-    '''public void setImagePath(final String imagePath)
+    '''returns None\n\n
+    setImagePath(final String imagePath)\n
     '''
 def getEmblemSize():
-    '''public int getEmblemSize()
+    '''returns int\n\n
+    getEmblemSize()\n
     '''
 def setEmblemSize():
-    '''public void setEmblemSize(final int emblemSize)
+    '''returns None\n\n
+    setEmblemSize(final int emblemSize)\n
     '''
 def getLocation():
-    '''public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
     '''
 def setLocation():
-    '''public void setLocation(final Location location)
+    '''returns None\n\n
+    setLocation(final Location location)\n
     '''

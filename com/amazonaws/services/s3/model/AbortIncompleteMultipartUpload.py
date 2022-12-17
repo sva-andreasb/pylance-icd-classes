@@ -1,15 +1,20 @@
 def getDaysAfterInitiation():
-    '''public int getDaysAfterInitiation()
+    '''returns int\n\n
+    getDaysAfterInitiation()\n
     '''
 def setDaysAfterInitiation():
-    '''public void setDaysAfterInitiation(final int daysAfterInitiation)
+    '''returns None\n\n
+    setDaysAfterInitiation(final int daysAfterInitiation)\n
     '''
 def withDaysAfterInitiation():
-    '''public AbortIncompleteMultipartUpload withDaysAfterInitiation(final int daysAfterInitiation)
+    '''returns AbortIncompleteMultipartUpload\n\n
+    withDaysAfterInitiation(final int daysAfterInitiation)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

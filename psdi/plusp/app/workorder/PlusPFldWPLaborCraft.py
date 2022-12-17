@@ -1,6 +1,8 @@
-def PlusPFldWPLaborCraft():
-    '''public PlusPFldWPLaborCraft(final MboValue arg0)
+def ():
+    '''returns PlusPFldWPLaborCraft\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

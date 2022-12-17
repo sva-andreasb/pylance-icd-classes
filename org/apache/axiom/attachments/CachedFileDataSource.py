@@ -1,9 +1,12 @@
-def CachedFileDataSource():
-    '''public CachedFileDataSource(final File arg0)
+def ():
+    '''returns CachedFileDataSource\n\n
+    (final File arg0)\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def setContentType():
-    '''public void setContentType(final String contentType)
+    '''returns None\n\n
+    setContentType(final String contentType)\n
     '''

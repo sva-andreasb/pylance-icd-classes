@@ -1,3 +1,4 @@
-def FmtLayout2IndexDB2():
-    '''public FmtLayout2IndexDB2(final SDBConnection connection)
+def ():
+    '''returns FmtLayout2IndexDB2\n\n
+    (final SDBConnection connection)\n
     '''

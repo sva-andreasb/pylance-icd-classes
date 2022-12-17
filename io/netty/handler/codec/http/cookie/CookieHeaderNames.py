@@ -1,0 +1,7 @@
+PATH = "String  \"Path\""
+EXPIRES = "String  \"Expires\""
+MAX_AGE = "String  \"Max-Age\""
+DOMAIN = "String  \"Domain\""
+SECURE = "String  \"Secure\""
+HTTPONLY = "String  \"HTTPOnly\""
+SAMESITE = "String  \"SameSite\""

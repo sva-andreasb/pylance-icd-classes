@@ -1,6 +1,8 @@
 def editIncoming():
-    '''public void editIncoming(final Reader reader, final Writer writer)
+    '''returns None\n\n
+    editIncoming(final Reader reader, final Writer writer)\n
     '''
 def editOutgoing():
-    '''public void editOutgoing(final Reader reader, final Writer writer)
+    '''returns None\n\n
+    editOutgoing(final Reader reader, final Writer writer)\n
     '''

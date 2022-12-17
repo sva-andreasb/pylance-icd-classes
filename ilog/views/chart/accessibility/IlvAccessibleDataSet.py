@@ -1,24 +1,24 @@
-def IlvAccessibleDataSet():
-    '''public IlvAccessibleDataSet(final IlvChartRenderer a, final IlvDataSet b)
-    '''
-def getRenderer():
-    '''public final IlvChartRenderer getRenderer()
-    '''
-def getDataSet():
-    '''public final IlvDataSet getDataSet()
+def ():
+    '''returns IlvAccessibleDataSet\n\n
+    (final IlvChartRenderer a, final IlvDataSet b)\n
     '''
 def isViewable():
-    '''public boolean isViewable()
+    '''returns boolean\n\n
+    isViewable()\n
     '''
 def drawSelectionHandles():
-    '''public void drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle)
+    '''returns None\n\n
+    drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

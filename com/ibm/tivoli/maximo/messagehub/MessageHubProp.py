@@ -1,6 +1,8 @@
-def MessageHubProp():
-    '''public MessageHubProp(final MboSet ms)
+def ():
+    '''returns MessageHubProp\n\n
+    (final MboSet ms)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

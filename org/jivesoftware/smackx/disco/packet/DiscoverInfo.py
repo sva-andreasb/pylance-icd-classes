@@ -1,97 +1,118 @@
 ELEMENT = "String  \"query\""
 NAMESPACE = "String  \"http://jabber.org/protocol/disco#info\""
-def DiscoverInfo():
-    '''public DiscoverInfo()
-    public DiscoverInfo(final DiscoverInfo d)
+def ():
+    '''returns Feature\n\n
+    ()\n
+    (final DiscoverInfo d)\n
+    (final Identity identity)\n
+    (final String category, final String type)\n
+    (final String category, final String name, final String type)\n
+    (final String category, final String type, final String name, final String lang)\n
+    (final Feature feature)\n
+    (final CharSequence variable)\n
+    (final String variable)\n
     '''
 def addFeature():
-    '''public boolean addFeature(final String feature)
-    public boolean addFeature(final Feature feature)
+    '''returns boolean\n\n
+    addFeature(final String feature)\n
+    addFeature(final Feature feature)\n
     '''
 def addFeatures():
-    '''public void addFeatures(final Collection<String> featuresToAdd)
+    '''returns None\n\n
+    addFeatures(final Collection<String> featuresToAdd)\n
     '''
 def getFeatures():
-    '''public List<Feature> getFeatures()
+    '''returns List<Feature>\n\n
+    getFeatures()\n
     '''
 def addIdentity():
-    '''public void addIdentity(final Identity identity)
+    '''returns None\n\n
+    addIdentity(final Identity identity)\n
     '''
 def addIdentities():
-    '''public void addIdentities(final Collection<Identity> identitiesToAdd)
+    '''returns None\n\n
+    addIdentities(final Collection<Identity> identitiesToAdd)\n
     '''
 def getIdentities():
-    '''public List<Identity> getIdentities()
-    public List<Identity> getIdentities(final String category, final String type)
+    '''returns List<Identity>\n\n
+    getIdentities()\n
+    getIdentities(final String category, final String type)\n
     '''
 def hasIdentity():
-    '''public boolean hasIdentity(final String category, final String type)
+    '''returns boolean\n\n
+    hasIdentity(final String category, final String type)\n
     '''
 def getNode():
-    '''public String getNode()
+    '''returns String\n\n
+    getNode()\n
     '''
 def setNode():
-    '''public void setNode(final String node)
+    '''returns None\n\n
+    setNode(final String node)\n
     '''
 def containsFeature():
-    '''public boolean containsFeature(final CharSequence feature)
+    '''returns boolean\n\n
+    containsFeature(final CharSequence feature)\n
     '''
 def containsDuplicateIdentities():
-    '''public boolean containsDuplicateIdentities()
+    '''returns boolean\n\n
+    containsDuplicateIdentities()\n
     '''
 def containsDuplicateFeatures():
-    '''public boolean containsDuplicateFeatures()
+    '''returns boolean\n\n
+    containsDuplicateFeatures()\n
     '''
 def clone():
-    '''public DiscoverInfo clone()
-    public Identity clone()
-    public Feature clone()
-    '''
-def Identity():
-    '''public Identity(final Identity identity)
-    public Identity(final String category, final String type)
-    public Identity(final String category, final String name, final String type)
-    public Identity(final String category, final String type, final String name, final String lang)
+    '''returns Feature\n\n
+    clone()\n
+    clone()\n
+    clone()\n
     '''
 def getCategory():
-    '''public String getCategory()
+    '''returns String\n\n
+    getCategory()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getLanguage():
-    '''public String getLanguage()
+    '''returns String\n\n
+    getLanguage()\n
     '''
 def isOfCategoryAndType():
-    '''public boolean isOfCategoryAndType(final String category, final String type)
+    '''returns boolean\n\n
+    isOfCategoryAndType(final String category, final String type)\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML()
-    public XmlStringBuilder toXML()
+    '''returns XmlStringBuilder\n\n
+    toXML()\n
+    toXML()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def compareTo():
-    '''public int compareTo(final Identity other)
+    '''returns int\n\n
+    compareTo(final Identity other)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def Feature():
-    '''public Feature(final Feature feature)
-    public Feature(final CharSequence variable)
-    public Feature(final String variable)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getVar():
-    '''public String getVar()
+    '''returns String\n\n
+    getVar()\n
     '''

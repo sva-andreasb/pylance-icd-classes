@@ -1,9 +1,12 @@
-def SLRouteSet():
-    '''public SLRouteSet(final MboServerInterface ms)
+def ():
+    '''returns SLRouteSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def addRoutes():
-    '''public int addRoutes(final MboRemote resource, final LocationRemote startLoc, final LocationRemote endLoc, final Date start, final Date end)
+    '''returns int\n\n
+    addRoutes(final MboRemote resource, final LocationRemote startLoc, final LocationRemote endLoc, final Date start, final Date end)\n
     '''
 def addRoute():
-    '''public SLRouteRemote addRoute(final MboRemote resource, final LocationRemote startLoc, final LocationRemote endLoc, final GregorianCalendar routeDate)
+    '''returns SLRouteRemote\n\n
+    addRoute(final MboRemote resource, final LocationRemote startLoc, final LocationRemote endLoc, final GregorianCalendar routeDate)\n
     '''

@@ -1,36 +1,48 @@
-def CompMaster():
-    '''public CompMaster(final MboSet ms)
+def ():
+    '''returns CompMaster\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def updateRelatedCompanyContacts():
-    '''public void updateRelatedCompanyContacts()
+    '''returns None\n\n
+    updateRelatedCompanyContacts()\n
     '''
 def getAttributesToCopy():
-    '''public Vector getAttributesToCopy(final boolean copyModifiedOnly)
+    '''returns Vector\n\n
+    getAttributesToCopy(final boolean copyModifiedOnly)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def createCompaniesForOrgs():
-    '''public MboSetRemote createCompaniesForOrgs(final MboSetRemote organizationSetRemote)
+    '''returns MboSetRemote\n\n
+    createCompaniesForOrgs(final MboSetRemote organizationSetRemote)\n
     '''
 def setRemitContactInfo():
-    '''public void setRemitContactInfo(final MboRemote remitCont)
+    '''returns None\n\n
+    setRemitContactInfo(final MboRemote remitCont)\n
     '''
 def setContactInfo():
-    '''public void setContactInfo(final MboRemote cont)
+    '''returns None\n\n
+    setContactInfo(final MboRemote cont)\n
     '''

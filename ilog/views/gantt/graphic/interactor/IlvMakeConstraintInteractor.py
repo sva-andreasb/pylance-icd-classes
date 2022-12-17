@@ -1,18 +1,20 @@
-def IlvMakeConstraintInteractor():
-    '''public IlvMakeConstraintInteractor()
-    '''
-def getGanttModel():
-    '''public final IlvGanttModel getGanttModel()
+def ():
+    '''returns IlvMakeConstraintInteractor\n\n
+    ()\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def createObject():
-    '''public IlvLinkImage createObject(final IlvGraphic ilvGraphic, final IlvGraphic ilvGraphic2, final IlvPoint[] array, final boolean b)
+    '''returns IlvLinkImage\n\n
+    createObject(final IlvGraphic ilvGraphic, final IlvGraphic ilvGraphic2, final IlvPoint[] array, final boolean b)\n
     '''
 def createConstraint():
-    '''public IlvConstraint createConstraint(final IlvActivityGraphic ilvActivityGraphic, final IlvActivityGraphic ilvActivityGraphic2, final IlvConstraintType ilvConstraintType)
+    '''returns IlvConstraint\n\n
+    createConstraint(final IlvActivityGraphic ilvActivityGraphic, final IlvActivityGraphic ilvActivityGraphic2, final IlvConstraintType ilvConstraintType)\n
     '''
 def getLinkImageClass():
-    '''public Class getLinkImageClass()
+    '''returns Class\n\n
+    getLinkImageClass()\n
     '''

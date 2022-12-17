@@ -1,4 +1,5 @@
-def RedisEncoder():
-    '''public RedisEncoder()
-    public RedisEncoder(final RedisMessagePool messagePool)
+def ():
+    '''returns RedisEncoder\n\n
+    ()\n
+    (final RedisMessagePool messagePool)\n
     '''

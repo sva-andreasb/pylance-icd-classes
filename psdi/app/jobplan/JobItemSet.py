@@ -1,9 +1,12 @@
-def JobItemSet():
-    '''public JobItemSet(final MboServerInterface ms)
+def ():
+    '''returns JobItemSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setOwner():
-    '''public void setOwner(final MboRemote mbo)
+    '''returns None\n\n
+    setOwner(final MboRemote mbo)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

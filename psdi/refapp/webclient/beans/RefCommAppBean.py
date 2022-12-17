@@ -1,21 +1,28 @@
 def withlongop():
-    '''public int withlongop()
+    '''returns int\n\n
+    withlongop()\n
     '''
 def lostrequesttest():
-    '''public int lostrequesttest()
+    '''returns int\n\n
+    lostrequesttest()\n
     '''
 def withoutlongop():
-    '''public int withoutlongop()
+    '''returns int\n\n
+    withoutlongop()\n
     '''
 def retry_pass():
-    '''public int retry_pass()
+    '''returns int\n\n
+    retry_pass()\n
     '''
 def retry_fail():
-    '''public int retry_fail()
+    '''returns int\n\n
+    retry_fail()\n
     '''
 def wogen_dialog():
-    '''public int wogen_dialog()
+    '''returns int\n\n
+    wogen_dialog()\n
     '''
 def outoforder():
-    '''public int outoforder()
+    '''returns int\n\n
+    outoforder()\n
     '''

@@ -1,12 +1,16 @@
 def getRegion():
-    '''public String getRegion()
+    '''returns String\n\n
+    getRegion()\n
     '''
 def setRegion():
-    '''public void setRegion(final String region)
+    '''returns None\n\n
+    setRegion(final String region)\n
     '''
 def getService():
-    '''public String getService()
+    '''returns String\n\n
+    getService()\n
     '''
 def setService():
-    '''public void setService(final String service)
+    '''returns None\n\n
+    setService(final String service)\n
     '''

@@ -1,24 +1,28 @@
-def IloCplex__NodeEvaluatorI():
-    '''public IloCplex__NodeEvaluatorI(final long cPtr, final boolean cMemoryOwn)
+def ():
+    '''returns IloCplex__NodeEvaluatorI\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
     '''
 def setOwn():
-    '''public void setOwn(final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__NodeEvaluatorI obj)
+    '''returns None\n\n
+    setOwn(final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def evaluate():
-    '''public double evaluate()
+    '''returns double\n\n
+    evaluate()\n
     '''
 def duplicateEvaluator():
-    '''public IloCplex__NodeEvaluatorI duplicateEvaluator()
+    '''returns IloCplex__NodeEvaluatorI\n\n
+    duplicateEvaluator()\n
     '''
 def subsume():
-    '''public boolean subsume(final double evalBest, final double evalCurrent)
+    '''returns boolean\n\n
+    subsume(final double evalBest, final double evalCurrent)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

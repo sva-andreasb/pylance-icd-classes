@@ -1,26 +1,30 @@
-def Parser():
-    '''public Parser(final String uri, final IRIImpl iri)
+def ():
+    '''returns Parser\n\n
+    (final String uri, final IRIImpl iri)\n
     '''
 def has():
-    '''public boolean has(final int f)
+    '''returns boolean\n\n
+    has(final int f)\n
     '''
 def start():
-    '''public int start(final int f)
+    '''returns int\n\n
+    start(final int f)\n
     '''
 def end():
-    '''public int end(final int f)
+    '''returns int\n\n
+    end(final int f)\n
     '''
 def get():
-    '''public String get(final int f)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns String\n\n
+    get(final int f)\n
     '''
 def recordError():
-    '''public void recordError(final int range, final int e)
-    public void recordError(final int range, final int e, final Exception ex)
+    '''returns None\n\n
+    recordError(final int range, final int e)\n
+    recordError(final int range, final int e, final Exception ex)\n
     '''
 def matchedRule():
-    '''public void matchedRule(final int range, final int rule)
-    public void matchedRule(final int range, final int rule, final String string)
+    '''returns None\n\n
+    matchedRule(final int range, final int rule)\n
+    matchedRule(final int range, final int rule, final String string)\n
     '''

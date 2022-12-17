@@ -1,18 +1,20 @@
-def ConstantInitializer():
-    '''public ConstantInitializer(final T obj)
-    '''
-def getObject():
-    '''public final T getObject()
+def ():
+    '''returns ConstantInitializer\n\n
+    (final T obj)\n
     '''
 def get():
-    '''public T get()
+    '''returns T\n\n
+    get()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

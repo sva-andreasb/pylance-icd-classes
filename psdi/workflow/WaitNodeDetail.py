@@ -1,30 +1,40 @@
 def validateNode():
-    '''public void validateNode(final Vector<MXException> errs, final Hashtable<String, String> hinfo)
+    '''returns None\n\n
+    validateNode(final Vector<MXException> errs, final Hashtable<String, String> hinfo)\n
     '''
 def canTakePositive():
-    '''public boolean canTakePositive()
+    '''returns boolean\n\n
+    canTakePositive()\n
     '''
 def canTakeNegative():
-    '''public boolean canTakeNegative()
+    '''returns boolean\n\n
+    canTakeNegative()\n
     '''
 def addedAction():
-    '''public void addedAction(final boolean wasPositive)
+    '''returns None\n\n
+    addedAction(final boolean wasPositive)\n
     '''
 def removedAction():
-    '''public void removedAction(final boolean wasPositive)
+    '''returns None\n\n
+    removedAction(final boolean wasPositive)\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def activate():
-    '''public void activate()
+    '''returns None\n\n
+    activate()\n
     '''
 def deactivate():
-    '''public void deactivate()
+    '''returns None\n\n
+    deactivate()\n
     '''

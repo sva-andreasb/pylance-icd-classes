@@ -1,3 +1,4 @@
-def PlusPAppliesToField():
-    '''public PlusPAppliesToField(final MboSet ms)
+def ():
+    '''returns PlusPAppliesToField\n\n
+    (final MboSet ms)\n
     '''

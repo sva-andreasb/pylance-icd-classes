@@ -1,15 +1,16 @@
-def FileItemHeadersImpl():
-    '''public FileItemHeadersImpl()
+def ():
+    '''returns FileItemHeadersImpl\n\n
+    ()\n
     '''
 def getHeader():
-    '''public String getHeader(final String name)
+    '''returns String\n\n
+    getHeader(final String name)\n
     '''
 def getHeaderNames():
-    '''public Iterator<String> getHeaderNames()
+    '''returns Iterator<String>\n\n
+    getHeaderNames()\n
     '''
 def getHeaders():
-    '''public Iterator<String> getHeaders(final String name)
-    '''
-def addHeader():
-    '''public synchronized void addHeader(final String name, final String value)
+    '''returns Iterator<String>\n\n
+    getHeaders(final String name)\n
     '''

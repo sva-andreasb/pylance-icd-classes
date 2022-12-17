@@ -1,97 +1,126 @@
-def IlvSwingForm():
-    '''public IlvSwingForm(final Container b)
-    public IlvSwingForm()
+def ():
+    '''returns TitledBorderListener\n\n
+    (final Container b)\n
+    ()\n
+    (final TitledBorder a, final String b)\n
     '''
 def addControl():
-    '''public boolean addControl(Object contentPane, final Object o, final Object constraints, final int n)
+    '''returns boolean\n\n
+    addControl(Object contentPane, final Object o, final Object constraints, final int n)\n
     '''
 def removeControl():
-    '''public boolean removeControl(final Object o)
+    '''returns boolean\n\n
+    removeControl(final Object o)\n
     '''
 def getComponent():
-    '''public Component getComponent(final String s)
+    '''returns Component\n\n
+    getComponent(final String s)\n
     '''
 def setLayout():
-    '''public Object setLayout(final Object o, final Object o2)
+    '''returns Object\n\n
+    setLayout(final Object o, final Object o2)\n
     '''
 def getLayout():
-    '''public Object getLayout(final Object o)
+    '''returns Object\n\n
+    getLayout(final Object o)\n
     '''
 def layoutControl():
-    '''public void layoutControl(final Object o)
+    '''returns None\n\n
+    layoutControl(final Object o)\n
     '''
 def getList():
-    '''public JList getList(final String s)
+    '''returns JList\n\n
+    getList(final String s)\n
     '''
 def getButton():
-    '''public JButton getButton(final String s)
+    '''returns JButton\n\n
+    getButton(final String s)\n
     '''
 def getLabel():
-    '''public JLabel getLabel(final String s)
+    '''returns JLabel\n\n
+    getLabel(final String s)\n
     '''
 def getComboBox():
-    '''public JComboBox getComboBox(final String s)
+    '''returns JComboBox\n\n
+    getComboBox(final String s)\n
     '''
 def getTextField():
-    '''public JTextField getTextField(final String s)
+    '''returns JTextField\n\n
+    getTextField(final String s)\n
     '''
 def getTabbedPane():
-    '''public JTabbedPane getTabbedPane(final String s)
+    '''returns JTabbedPane\n\n
+    getTabbedPane(final String s)\n
     '''
 def getCheckBox():
-    '''public JCheckBox getCheckBox(final String s)
+    '''returns JCheckBox\n\n
+    getCheckBox(final String s)\n
     '''
 def getRadio():
-    '''public JRadioButton getRadio(final String s)
+    '''returns JRadioButton\n\n
+    getRadio(final String s)\n
     '''
 def getTree():
-    '''public JTree getTree(final String s)
+    '''returns JTree\n\n
+    getTree(final String s)\n
     '''
 def getTable():
-    '''public JTable getTable(final String s)
+    '''returns JTable\n\n
+    getTable(final String s)\n
     '''
 def getTextArea():
-    '''public JTextArea getTextArea(final String s)
+    '''returns JTextArea\n\n
+    getTextArea(final String s)\n
     '''
 def getMenu():
-    '''public JMenu getMenu(final String s)
+    '''returns JMenu\n\n
+    getMenu(final String s)\n
     '''
 def getPanel():
-    '''public JPanel getPanel(final String s)
+    '''returns JPanel\n\n
+    getPanel(final String s)\n
     '''
 def replaceStringResources():
-    '''public void replaceStringResources(final Component component, final boolean b)
+    '''returns None\n\n
+    replaceStringResources(final Component component, final boolean b)\n
     '''
 def getFormContainer():
-    '''public Container getFormContainer()
+    '''returns Container\n\n
+    getFormContainer()\n
     '''
 def setFormContainer():
-    '''public void setFormContainer(final Container b)
+    '''returns None\n\n
+    setFormContainer(final Container b)\n
     '''
 def getMenus():
-    '''public JMenu[] getMenus()
+    '''returns JMenu[]\n\n
+    getMenus()\n
     '''
 def setFocus():
-    '''public void setFocus(final Object o)
+    '''returns None\n\n
+    setFocus(final Object o)\n
     '''
 def hasFocus():
-    '''public boolean hasFocus(final Object o)
+    '''returns boolean\n\n
+    hasFocus(final Object o)\n
     '''
 def repaint():
-    '''public void repaint(final Object o)
+    '''returns None\n\n
+    repaint(final Object o)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String anObject, final Object o)
+    '''returns Object\n\n
+    setProperty(final String anObject, final Object o)\n
     '''
 def getControlOrientation():
-    '''public ComponentOrientation getControlOrientation(final Object o)
+    '''returns ComponentOrientation\n\n
+    getControlOrientation(final Object o)\n
     '''
 def setControlOrientation():
-    '''public void setControlOrientation(final Object o, final ComponentOrientation componentOrientation)
-    '''
-def TitledBorderListener():
-    '''public TitledBorderListener(final TitledBorder a, final String b)
+    '''returns None\n\n
+    setControlOrientation(final Object o, final ComponentOrientation componentOrientation)\n
     '''
 def localeChanged():
-    '''public void localeChanged(final FormLocaleEvent formLocaleEvent)
+    '''returns None\n\n
+    localeChanged(final FormLocaleEvent formLocaleEvent)\n
     '''

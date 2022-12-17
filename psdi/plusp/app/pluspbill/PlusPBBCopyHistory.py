@@ -1,3 +1,4 @@
-def PlusPBBCopyHistory():
-    '''public PlusPBBCopyHistory(final MboSet ms)
+def ():
+    '''returns PlusPBBCopyHistory\n\n
+    (final MboSet ms)\n
     '''

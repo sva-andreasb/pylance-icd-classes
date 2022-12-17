@@ -1,6 +1,8 @@
-def ModelNumIDGenerator():
-    '''public ModelNumIDGenerator(final int num)
+def ():
+    '''returns ModelNumIDGenerator\n\n
+    (final int num)\n
     '''
 def generateId():
-    '''public String generateId(final IMXPropertyGetterSetter node)
+    '''returns String\n\n
+    generateId(final IMXPropertyGetterSetter node)\n
     '''

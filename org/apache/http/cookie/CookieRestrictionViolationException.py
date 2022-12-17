@@ -1,4 +1,5 @@
-def CookieRestrictionViolationException():
-    '''public CookieRestrictionViolationException()
-    public CookieRestrictionViolationException(final String message)
+def ():
+    '''returns CookieRestrictionViolationException\n\n
+    ()\n
+    (final String message)\n
     '''

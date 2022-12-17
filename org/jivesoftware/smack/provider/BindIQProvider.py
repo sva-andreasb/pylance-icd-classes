@@ -1,3 +1,4 @@
 def parse():
-    '''public Bind parse(final XmlPullParser parser, final int initialDepth)
+    '''returns Bind\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

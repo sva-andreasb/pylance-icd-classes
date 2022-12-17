@@ -1,6 +1,7 @@
-def NotLeaderForPartitionException():
-    '''public NotLeaderForPartitionException()
-    public NotLeaderForPartitionException(final String message)
-    public NotLeaderForPartitionException(final Throwable cause)
-    public NotLeaderForPartitionException(final String message, final Throwable cause)
+def ():
+    '''returns NotLeaderForPartitionException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
     '''

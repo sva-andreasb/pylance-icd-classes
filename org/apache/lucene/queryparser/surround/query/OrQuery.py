@@ -1,12 +1,16 @@
-def OrQuery():
-    '''public OrQuery(final List<SrndQuery> queries, final boolean infix, final String opName)
+def ():
+    '''returns OrQuery\n\n
+    (final List<SrndQuery> queries, final boolean infix, final String opName)\n
     '''
 def makeLuceneQueryFieldNoBoost():
-    '''public Query makeLuceneQueryFieldNoBoost(final String fieldName, final BasicQueryFactory qf)
+    '''returns Query\n\n
+    makeLuceneQueryFieldNoBoost(final String fieldName, final BasicQueryFactory qf)\n
     '''
 def distanceSubQueryNotAllowed():
-    '''public String distanceSubQueryNotAllowed()
+    '''returns String\n\n
+    distanceSubQueryNotAllowed()\n
     '''
 def addSpanQueries():
-    '''public void addSpanQueries(final SpanNearClauseFactory sncf)
+    '''returns None\n\n
+    addSpanQueries(final SpanNearClauseFactory sncf)\n
     '''

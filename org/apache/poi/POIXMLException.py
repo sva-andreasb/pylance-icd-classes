@@ -1,6 +1,7 @@
-def POIXMLException():
-    '''public POIXMLException()
-    public POIXMLException(final String msg)
-    public POIXMLException(final String msg, final Throwable cause)
-    public POIXMLException(final Throwable cause)
+def ():
+    '''returns POIXMLException\n\n
+    ()\n
+    (final String msg)\n
+    (final String msg, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

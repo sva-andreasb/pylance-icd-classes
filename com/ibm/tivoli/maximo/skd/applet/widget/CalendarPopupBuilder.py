@@ -1,43 +1,51 @@
-def CalendarPopupBuilder():
-    '''public CalendarPopupBuilder()
+def ():
+    '''returns YearMouseAdapter\n\n
+    ()\n
+    ()\n
+    (final IlvJCalendar cal, final int yearOffset)\n
     '''
 def calendarChanged():
-    '''public void calendarChanged(final CalendarModelEvent evt)
+    '''returns None\n\n
+    calendarChanged(final CalendarModelEvent evt)\n
     '''
 def setButtonText():
-    '''public CalendarPopupBuilder setButtonText(final String text)
+    '''returns CalendarPopupBuilder\n\n
+    setButtonText(final String text)\n
     '''
 def setCalendarListener():
-    '''public CalendarPopupBuilder setCalendarListener(final CalendarListener listener)
+    '''returns CalendarPopupBuilder\n\n
+    setCalendarListener(final CalendarListener listener)\n
     '''
 def setCalendar():
-    '''public CalendarPopupBuilder setCalendar(final Calendar cal)
-    public CalendarPopupBuilder setCalendar(final Date date)
+    '''returns CalendarPopupBuilder\n\n
+    setCalendar(final Calendar cal)\n
+    setCalendar(final Date date)\n
     '''
 def create():
-    '''public JDialog create()
+    '''returns JDialog\n\n
+    create()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def windowLostFocus():
-    '''public void windowLostFocus(final WindowEvent e)
+    '''returns None\n\n
+    windowLostFocus(final WindowEvent e)\n
     '''
 def windowGainedFocus():
-    '''public void windowGainedFocus(final WindowEvent e)
+    '''returns None\n\n
+    windowGainedFocus(final WindowEvent e)\n
     '''
 def createAndShowAt():
-    '''public void createAndShowAt(final int x, final int y)
-    '''
-def LocalizedHeaderRenderer():
-    '''public LocalizedHeaderRenderer()
+    '''returns None\n\n
+    createAndShowAt(final int x, final int y)\n
     '''
 def getCalendarHeaderRendererComponent():
-    '''public Component getCalendarHeaderRendererComponent(final IlvJCalendarPanel calendarPanel, final Calendar calendar, final int column)
-    '''
-def YearMouseAdapter():
-    '''public YearMouseAdapter(final IlvJCalendar cal, final int yearOffset)
+    '''returns Component\n\n
+    getCalendarHeaderRendererComponent(final IlvJCalendarPanel calendarPanel, final Calendar calendar, final int column)\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent e)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent e)\n
     '''

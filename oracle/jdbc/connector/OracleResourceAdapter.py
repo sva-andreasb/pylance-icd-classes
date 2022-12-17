@@ -1,15 +1,20 @@
 def start():
-    '''public void start(final BootstrapContext bootstrapContext)
+    '''returns None\n\n
+    start(final BootstrapContext bootstrapContext)\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def endpointActivation():
-    '''public void endpointActivation(final MessageEndpointFactory messageEndpointFactory, final ActivationSpec activationSpec)
+    '''returns None\n\n
+    endpointActivation(final MessageEndpointFactory messageEndpointFactory, final ActivationSpec activationSpec)\n
     '''
 def endpointDeactivation():
-    '''public void endpointDeactivation(final MessageEndpointFactory messageEndpointFactory, final ActivationSpec activationSpec)
+    '''returns None\n\n
+    endpointDeactivation(final MessageEndpointFactory messageEndpointFactory, final ActivationSpec activationSpec)\n
     '''
 def getXAResources():
-    '''public XAResource[] getXAResources(final ActivationSpec[] array)
+    '''returns XAResource[]\n\n
+    getXAResources(final ActivationSpec[] array)\n
     '''

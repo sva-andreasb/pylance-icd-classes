@@ -1,54 +1,68 @@
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def getCount():
-    '''public int getCount(final Object object)
-    public int getCount()
+    '''returns int\n\n
+    getCount(final Object object)\n
+    getCount()\n
     '''
 def contains():
-    '''public boolean contains(final Object object)
+    '''returns boolean\n\n
+    contains(final Object object)\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def add():
-    '''public int add(final E object, final int occurrences)
+    '''returns int\n\n
+    add(final E object, final int occurrences)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def remove():
-    '''public int remove(final Object object, final int occurrences)
-    public void remove()
-    public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove(final Object object, final int occurrences)\n
+    remove()\n
+    remove()\n
+    remove()\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public <T> T[] toArray(T[] array)
+    '''returns Object[]\n\n
+    toArray()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
-    public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object object)\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
-def MapBasedMultiSetIterator():
-    '''public MapBasedMultiSetIterator(final AbstractMapMultiSet<E> parent)
+def ():
+    '''returns MapBasedMultiSetIterator\n\n
+    (final AbstractMapMultiSet<E> parent)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
-    public E next()
+    '''returns E\n\n
+    next()\n
+    next()\n
     '''
 def getElement():
-    '''public E getElement()
+    '''returns E\n\n
+    getElement()\n
     '''

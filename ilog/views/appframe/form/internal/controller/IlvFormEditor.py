@@ -10,135 +10,176 @@ MODEL_DATA_CONNEXION_STEP = "int  16"
 MODEL_DATA_CONNECTED_STEP = "int  32"
 UI_CONNEXION_STEP = "int  64"
 UI_INITIALIZATION_STEP = "int  128"
-def IlvFormEditor():
-    '''public IlvFormEditor()
+def ():
+    '''returns ValueDependentListener\n\n
+    ()\n
+    (final IlvFormEditor a)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def setParent():
-    '''public void setParent(final IlvFormContainerEditor c)
+    '''returns None\n\n
+    setParent(final IlvFormContainerEditor c)\n
     '''
 def getParent():
-    '''public IlvFormContainerEditor getParent()
+    '''returns IlvFormContainerEditor\n\n
+    getParent()\n
     '''
 def getEditionContext():
-    '''public IlvEditionContext getEditionContext()
+    '''returns IlvEditionContext\n\n
+    getEditionContext()\n
     '''
 def getForm():
-    '''public IlvForm getForm()
+    '''returns IlvForm\n\n
+    getForm()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def construct():
-    '''public void construct(final IlvEditionContext b)
+    '''returns None\n\n
+    construct(final IlvEditionContext b)\n
     '''
 def initializeUI():
-    '''public void initializeUI(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    initializeUI(final IlvEditionContext ilvEditionContext)\n
     '''
 def commitChanges():
-    '''public void commitChanges(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    commitChanges(final IlvEditionContext ilvEditionContext)\n
     '''
 def connectModel():
-    '''public void connectModel(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    connectModel(final IlvEditionContext ilvEditionContext)\n
     '''
 def modelConnected():
-    '''public void modelConnected(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    modelConnected(final IlvEditionContext ilvEditionContext)\n
     '''
 def disconnectModel():
-    '''public void disconnectModel(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    disconnectModel(final IlvEditionContext ilvEditionContext)\n
     '''
 def connectUI():
-    '''public void connectUI(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    connectUI(final IlvEditionContext ilvEditionContext)\n
     '''
 def disconnectUI():
-    '''public void disconnectUI(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    disconnectUI(final IlvEditionContext ilvEditionContext)\n
     '''
 def isRelevant():
-    '''public boolean isRelevant()
+    '''returns boolean\n\n
+    isRelevant()\n
     '''
 def setRelevant():
-    '''public void setRelevant(final boolean b)
+    '''returns None\n\n
+    setRelevant(final boolean b)\n
     '''
 def getInitializationStep():
-    '''public int getInitializationStep()
+    '''returns int\n\n
+    getInitializationStep()\n
     '''
 def getProcessingStep():
-    '''public int getProcessingStep()
+    '''returns int\n\n
+    getProcessingStep()\n
     '''
 def isInitializing():
-    '''public boolean isInitializing()
+    '''returns boolean\n\n
+    isInitializing()\n
     '''
 def setEditorStatus():
-    '''public void setEditorStatus(final int n, final int n2)
+    '''returns None\n\n
+    setEditorStatus(final int n, final int n2)\n
     '''
 def getFormModel():
-    '''public IlvFormModel getFormModel()
+    '''returns IlvFormModel\n\n
+    getFormModel()\n
     '''
 def getModelQuery():
-    '''public IlvSettingsQuery getModelQuery()
+    '''returns IlvSettingsQuery\n\n
+    getModelQuery()\n
     '''
 def getBooleanProperty():
-    '''public boolean getBooleanProperty(final String s, final boolean b)
+    '''returns boolean\n\n
+    getBooleanProperty(final String s, final boolean b)\n
     '''
 def setBooleanProperty():
-    '''public void setBooleanProperty(final String s, final boolean b)
+    '''returns None\n\n
+    setBooleanProperty(final String s, final boolean b)\n
     '''
 def read():
-    '''public void read(final Element element)
+    '''returns None\n\n
+    read(final Element element)\n
     '''
 def addEditorListener():
-    '''public void addEditorListener(final FormEditorListener formEditorListener)
+    '''returns None\n\n
+    addEditorListener(final FormEditorListener formEditorListener)\n
     '''
 def removeEditorListener():
-    '''public boolean removeEditorListener(final FormEditorListener formEditorListener)
+    '''returns boolean\n\n
+    removeEditorListener(final FormEditorListener formEditorListener)\n
     '''
 def addValueDependentEditor():
-    '''public void addValueDependentEditor(final IlvFormEditor ilvFormEditor)
+    '''returns None\n\n
+    addValueDependentEditor(final IlvFormEditor ilvFormEditor)\n
     '''
 def removeValueDependentEditor():
-    '''public boolean removeValueDependentEditor(final IlvFormEditor ilvFormEditor)
+    '''returns boolean\n\n
+    removeValueDependentEditor(final IlvFormEditor ilvFormEditor)\n
     '''
 def updateRelevancyState():
-    '''public void updateRelevancyState()
+    '''returns None\n\n
+    updateRelevancyState()\n
     '''
 def validate():
-    '''public IlvValidationError validate(final int n, final IlvEditionContext ilvEditionContext)
+    '''returns IlvValidationError\n\n
+    validate(final int n, final IlvEditionContext ilvEditionContext)\n
     '''
 def setValidators():
-    '''public void setValidators(final IlvValidatorList d)
+    '''returns None\n\n
+    setValidators(final IlvValidatorList d)\n
     '''
 def getValidators():
-    '''public IlvValidatorList getValidators()
+    '''returns IlvValidatorList\n\n
+    getValidators()\n
     '''
 def setProperty():
-    '''public Object setProperty(final String s, final Object o)
+    '''returns Object\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''
 def addPropertyChangeListener():
-    '''public void addPropertyChangeListener(final PropertyChangeListener propertyChangeListener)
+    '''returns None\n\n
+    addPropertyChangeListener(final PropertyChangeListener propertyChangeListener)\n
     '''
 def removePropertyChangeListener():
-    '''public void removePropertyChangeListener(final PropertyChangeListener propertyChangeListener)
-    '''
-def ValueDependentListener():
-    '''public ValueDependentListener(final IlvFormEditor a)
+    '''returns None\n\n
+    removePropertyChangeListener(final PropertyChangeListener propertyChangeListener)\n
     '''
 def lock():
-    '''public void lock()
+    '''returns None\n\n
+    lock()\n
     '''
 def unlock():
-    '''public boolean unlock()
+    '''returns boolean\n\n
+    unlock()\n
     '''
 def validationErrorAdded():
-    '''public void validationErrorAdded(final ValidationEvent validationEvent)
+    '''returns None\n\n
+    validationErrorAdded(final ValidationEvent validationEvent)\n
     '''
 def validationErrorRemoved():
-    '''public void validationErrorRemoved(final ValidationEvent validationEvent)
+    '''returns None\n\n
+    validationErrorRemoved(final ValidationEvent validationEvent)\n
     '''

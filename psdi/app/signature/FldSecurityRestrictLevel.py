@@ -1,12 +1,16 @@
-def FldSecurityRestrictLevel():
-    '''public FldSecurityRestrictLevel(final MboValue mbv)
+def ():
+    '''returns FldSecurityRestrictLevel\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def setListCriteria():
-    '''public void setListCriteria(String listWhere)
+    '''returns None\n\n
+    setListCriteria(String listWhere)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

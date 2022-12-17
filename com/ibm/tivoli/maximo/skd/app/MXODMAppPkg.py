@@ -1,3 +1,4 @@
-def MXODMAppPkg():
-    '''public MXODMAppPkg(final MboSet ms)
+def ():
+    '''returns MXODMAppPkg\n\n
+    (final MboSet ms)\n
     '''

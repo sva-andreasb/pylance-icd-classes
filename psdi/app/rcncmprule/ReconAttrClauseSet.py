@@ -1,9 +1,12 @@
-def ReconAttrClauseSet():
-    '''public ReconAttrClauseSet(final MboServerInterface ms)
+def ():
+    '''returns ReconAttrClauseSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def hasMatchesFound():
-    '''public boolean hasMatchesFound()
+    '''returns boolean\n\n
+    hasMatchesFound()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

@@ -1,42 +1,56 @@
 def isMarkedToExpire():
-    '''public boolean isMarkedToExpire()
+    '''returns boolean\n\n
+    isMarkedToExpire()\n
     '''
-def MonitoredData():
-    '''public MonitoredData(final int dispatchToken, final String clientUUID, final String driverId, final String datasourceId, final long sendTime_clientClock, final long reportingInterval, final int monitorLevel, final MonitoredDataSourceAttributes firstConnectDataSourceAttributes, final ArrayList<MonitoredStatementExecutionData> completedStatementExecutionData, final ArrayList<MonitoredTransactionExecutionData> completedTransactionData, final MonitoredWebsphereData websphereData)
+def ():
+    '''returns MonitoredData\n\n
+    (final int dispatchToken, final String clientUUID, final String driverId, final String datasourceId, final long sendTime_clientClock, final long reportingInterval, final int monitorLevel, final MonitoredDataSourceAttributes firstConnectDataSourceAttributes, final ArrayList<MonitoredStatementExecutionData> completedStatementExecutionData, final ArrayList<MonitoredTransactionExecutionData> completedTransactionData, final MonitoredWebsphereData websphereData)\n
     '''
 def getReceiveTime_serverClock():
-    '''public long getReceiveTime_serverClock()
+    '''returns long\n\n
+    getReceiveTime_serverClock()\n
     '''
 def getClientUUID():
-    '''public String getClientUUID()
+    '''returns String\n\n
+    getClientUUID()\n
     '''
 def getDriverId():
-    '''public String getDriverId()
+    '''returns String\n\n
+    getDriverId()\n
     '''
 def getDatasourceId():
-    '''public String getDatasourceId()
+    '''returns String\n\n
+    getDatasourceId()\n
     '''
 def getSendTime_clientClock():
-    '''public long getSendTime_clientClock()
+    '''returns long\n\n
+    getSendTime_clientClock()\n
     '''
 def getReportingInterval():
-    '''public long getReportingInterval()
+    '''returns long\n\n
+    getReportingInterval()\n
     '''
 def getMonitorLevel():
-    '''public int getMonitorLevel()
+    '''returns int\n\n
+    getMonitorLevel()\n
     '''
 def getFirstConnectDataSourceAttributes():
-    '''public MonitoredDataSourceAttributes getFirstConnectDataSourceAttributes()
+    '''returns MonitoredDataSourceAttributes\n\n
+    getFirstConnectDataSourceAttributes()\n
     '''
 def getCompletedStatementExecutionData():
-    '''public ArrayList<MonitoredStatementExecutionData> getCompletedStatementExecutionData()
+    '''returns ArrayList<MonitoredStatementExecutionData>\n\n
+    getCompletedStatementExecutionData()\n
     '''
 def getCompletedTransactionData():
-    '''public ArrayList<MonitoredTransactionExecutionData> getCompletedTransactionData()
+    '''returns ArrayList<MonitoredTransactionExecutionData>\n\n
+    getCompletedTransactionData()\n
     '''
 def getWebsphereData():
-    '''public MonitoredWebsphereData getWebsphereData()
+    '''returns MonitoredWebsphereData\n\n
+    getWebsphereData()\n
     '''
 def getDispatchToken():
-    '''public int getDispatchToken()
+    '''returns int\n\n
+    getDispatchToken()\n
     '''

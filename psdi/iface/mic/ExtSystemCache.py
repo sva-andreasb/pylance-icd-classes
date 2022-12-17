@@ -1,21 +1,20 @@
-def getInstance():
-    '''public static synchronized ExtSystemCache getInstance()
-    '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getAllSystems():
-    '''public Map getAllSystems()
+    '''returns Map\n\n
+    getAllSystems()\n
     '''
 def getExtSystemInfo():
-    '''public ExtSystemInfo getExtSystemInfo(final String name)
+    '''returns ExtSystemInfo\n\n
+    getExtSystemInfo(final String name)\n
     '''
 def isExtSystemEnabled():
-    '''public boolean isExtSystemEnabled(final String sysname)
+    '''returns boolean\n\n
+    isExtSystemEnabled(final String sysname)\n
     '''
 def isAnyExtSystemEnabled():
-    '''public boolean isAnyExtSystemEnabled()
-    '''
-def reload():
-    '''public synchronized void reload()
+    '''returns boolean\n\n
+    isAnyExtSystemEnabled()\n
     '''

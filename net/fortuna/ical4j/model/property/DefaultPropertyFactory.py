@@ -1,9 +1,12 @@
-def DefaultPropertyFactory():
-    '''public DefaultPropertyFactory()
+def ():
+    '''returns DefaultPropertyFactory\n\n
+    ()\n
     '''
 def newInstance():
-    '''public Object newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)
+    '''returns Object\n\n
+    newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)\n
     '''
 def setKlass():
-    '''public void setKlass(final Class<? extends Property> klass)
+    '''returns None\n\n
+    setKlass(final Class<? extends Property> klass)\n
     '''

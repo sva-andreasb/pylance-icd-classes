@@ -1,18 +1,24 @@
-def PropertyBuilder():
-    '''public PropertyBuilder()
+def ():
+    '''returns PropertyBuilder\n\n
+    ()\n
     '''
 def factories():
-    '''public PropertyBuilder factories(final List<PropertyFactory<?>> factories)
+    '''returns PropertyBuilder\n\n
+    factories(final List<PropertyFactory<?>> factories)\n
     '''
 def name():
-    '''public PropertyBuilder name(final String name)
+    '''returns PropertyBuilder\n\n
+    name(final String name)\n
     '''
 def value():
-    '''public PropertyBuilder value(final String value)
+    '''returns PropertyBuilder\n\n
+    value(final String value)\n
     '''
 def parameter():
-    '''public PropertyBuilder parameter(final Parameter parameter)
+    '''returns PropertyBuilder\n\n
+    parameter(final Parameter parameter)\n
     '''
 def build():
-    '''public Property build()
+    '''returns Property\n\n
+    build()\n
     '''

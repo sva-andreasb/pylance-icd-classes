@@ -1,3 +1,4 @@
-def PlusPPersonSet():
-    '''public PlusPPersonSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPPersonSet\n\n
+    (final MboServerInterface arg0)\n
     '''

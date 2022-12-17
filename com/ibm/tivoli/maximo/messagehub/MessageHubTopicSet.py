@@ -1,3 +1,4 @@
-def MessageHubTopicSet():
-    '''public MessageHubTopicSet(final MboServerInterface ms)
+def ():
+    '''returns MessageHubTopicSet\n\n
+    (final MboServerInterface ms)\n
     '''

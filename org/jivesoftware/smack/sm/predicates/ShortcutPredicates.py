@@ -1,13 +1,17 @@
-def ShortcutPredicates():
-    '''public ShortcutPredicates()
-    public ShortcutPredicates(final Collection<? extends StanzaFilter> predicates)
+def ():
+    '''returns ShortcutPredicates\n\n
+    ()\n
+    (final Collection<? extends StanzaFilter> predicates)\n
     '''
 def addPredicate():
-    '''public boolean addPredicate(final StanzaFilter predicate)
+    '''returns boolean\n\n
+    addPredicate(final StanzaFilter predicate)\n
     '''
 def removePredicate():
-    '''public boolean removePredicate(final StanzaFilter prediacte)
+    '''returns boolean\n\n
+    removePredicate(final StanzaFilter prediacte)\n
     '''
 def accept():
-    '''public boolean accept(final Stanza packet)
+    '''returns boolean\n\n
+    accept(final Stanza packet)\n
     '''

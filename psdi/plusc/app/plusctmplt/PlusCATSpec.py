@@ -1,48 +1,64 @@
-def PlusCATSpec():
-    '''public PlusCATSpec(final MboSet ms)
+def ():
+    '''returns PlusCATSpec\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getDataType():
-    '''public String getDataType()
+    '''returns String\n\n
+    getDataType()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def setALNorNUMReadOnly():
-    '''public void setALNorNUMReadOnly()
+    '''returns None\n\n
+    setALNorNUMReadOnly()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def getAssetTemplateMboSetInfo():
-    '''public MboSetInfo getAssetTemplateMboSetInfo()
+    '''returns MboSetInfo\n\n
+    getAssetTemplateMboSetInfo()\n
     '''
 def getDomainId():
-    '''public String getDomainId()
+    '''returns String\n\n
+    getDomainId()\n
     '''
 def getClassSpecRecord():
-    '''public MboRemote getClassSpecRecord()
+    '''returns MboRemote\n\n
+    getClassSpecRecord()\n
     '''
 def getAssetAttributeMbo():
-    '''public MboRemote getAssetAttributeMbo()
+    '''returns MboRemote\n\n
+    getAssetAttributeMbo()\n
     '''
 def generateDesc():
-    '''public String generateDesc()
+    '''returns String\n\n
+    generateDesc()\n
     '''
 def setValue():
-    '''public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''returns None\n\n
+    setValue(final String attributeName, final String val, final long accessModifier)\n
     '''
 def getClassSpecUseWith():
-    '''public MboRemote getClassSpecUseWith(final MboRemote classSpec, final String objectName)
+    '''returns MboRemote\n\n
+    getClassSpecUseWith(final MboRemote classSpec, final String objectName)\n
     '''
 def canGenerateDesc():
-    '''public MboRemote canGenerateDesc()
+    '''returns MboRemote\n\n
+    canGenerateDesc()\n
     '''
 def getNumValueBeforeFormat():
-    '''public String getNumValueBeforeFormat()
+    '''returns String\n\n
+    getNumValueBeforeFormat()\n
     '''

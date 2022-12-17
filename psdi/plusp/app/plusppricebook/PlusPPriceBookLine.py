@@ -1,36 +1,48 @@
-def PlusPPriceBookLine():
-    '''public PlusPPriceBookLine(final MboSet ms)
+def ():
+    '''returns PlusPPriceBookLine\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset, final long mboAddFlags)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def doRefresh():
-    '''public void doRefresh()
+    '''returns None\n\n
+    doRefresh()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def createItemConditions():
-    '''public void createItemConditions()
+    '''returns None\n\n
+    createItemConditions()\n
     '''
 def copyItemConditions():
-    '''public void copyItemConditions(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyItemConditions(final MboSetRemote mboSetRemote)\n
     '''
 def getInternalConditionPricing():
-    '''public String getInternalConditionPricing()
+    '''returns String\n\n
+    getInternalConditionPricing()\n
     '''
 def getLineClassificationPrice():
-    '''public double getLineClassificationPrice(final MboRemote mbo)
+    '''returns double\n\n
+    getLineClassificationPrice(final MboRemote mbo)\n
     '''

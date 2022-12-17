@@ -1,14 +1,18 @@
 def processWorkbookEvents():
-    '''public void processWorkbookEvents(final HSSFRequest req, final POIFSFileSystem fs)
-    public void processWorkbookEvents(final HSSFRequest req, final DirectoryNode dir)
+    '''returns None\n\n
+    processWorkbookEvents(final HSSFRequest req, final POIFSFileSystem fs)\n
+    processWorkbookEvents(final HSSFRequest req, final DirectoryNode dir)\n
     '''
 def abortableProcessWorkbookEvents():
-    '''public short abortableProcessWorkbookEvents(final HSSFRequest req, final POIFSFileSystem fs)
-    public short abortableProcessWorkbookEvents(final HSSFRequest req, final DirectoryNode dir)
+    '''returns short\n\n
+    abortableProcessWorkbookEvents(final HSSFRequest req, final POIFSFileSystem fs)\n
+    abortableProcessWorkbookEvents(final HSSFRequest req, final DirectoryNode dir)\n
     '''
 def processEvents():
-    '''public void processEvents(final HSSFRequest req, final InputStream in)
+    '''returns None\n\n
+    processEvents(final HSSFRequest req, final InputStream in)\n
     '''
 def abortableProcessEvents():
-    '''public short abortableProcessEvents(final HSSFRequest req, final InputStream in)
+    '''returns short\n\n
+    abortableProcessEvents(final HSSFRequest req, final InputStream in)\n
     '''

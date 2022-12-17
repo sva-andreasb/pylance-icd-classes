@@ -1,27 +1,36 @@
-def LoaderComponentAssembly():
-    '''public LoaderComponentAssembly(final ModelProcessIntf loader)
+def ():
+    '''returns LoaderComponentAssembly\n\n
+    (final ModelProcessIntf loader)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def validatePage():
-    '''public int validatePage(final Page page)
+    '''returns int\n\n
+    validatePage(final Page page)\n
     '''
 def loadPage():
-    '''public int loadPage(final Page page)
+    '''returns int\n\n
+    loadPage(final Page page)\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def canProcessItem():
-    '''public boolean canProcessItem(final ItemASSEMBLY item)
+    '''returns boolean\n\n
+    canProcessItem(final ItemASSEMBLY item)\n
     '''
 def matchItem():
-    '''public MboRemote matchItem(final ItemASSEMBLY assembly, final MboSetRemote mboSet)
+    '''returns MboRemote\n\n
+    matchItem(final ItemASSEMBLY assembly, final MboSetRemote mboSet)\n
     '''
 def addItem():
-    '''public MboRemote addItem(final ItemASSEMBLY assembly, final MboSetRemote mboSet)
+    '''returns MboRemote\n\n
+    addItem(final ItemASSEMBLY assembly, final MboSetRemote mboSet)\n
     '''
 def validateItem():
-    '''public void validateItem(final ItemASSEMBLY assembly, final MboSetRemote mboSet)
+    '''returns None\n\n
+    validateItem(final ItemASSEMBLY assembly, final MboSetRemote mboSet)\n
     '''

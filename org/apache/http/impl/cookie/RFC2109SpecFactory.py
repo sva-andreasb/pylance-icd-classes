@@ -1,10 +1,13 @@
-def RFC2109SpecFactory():
-    '''public RFC2109SpecFactory(final String[] datepatterns, final boolean oneHeader)
-    public RFC2109SpecFactory()
+def ():
+    '''returns RFC2109SpecFactory\n\n
+    (final String[] datepatterns, final boolean oneHeader)\n
+    ()\n
     '''
 def newInstance():
-    '''public CookieSpec newInstance(final HttpParams params)
+    '''returns CookieSpec\n\n
+    newInstance(final HttpParams params)\n
     '''
 def create():
-    '''public CookieSpec create(final HttpContext context)
+    '''returns CookieSpec\n\n
+    create(final HttpContext context)\n
     '''

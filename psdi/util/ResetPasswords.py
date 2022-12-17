@@ -1,13 +1,13 @@
-def ResetPasswords():
-    '''public ResetPasswords(final Connection con, final Properties properties, final String sysUser, final boolean forceChange, final String sysPassword, final String pswdFilename)
-    public ResetPasswords(final Connection con, final Properties properties, final String sysUser, final boolean forceChange, final String sysPassword, final String pswdFilename, String paramUserid)
+def ():
+    '''returns ResetPasswords\n\n
+    (final Connection con, final Properties properties, final String sysUser, final boolean forceChange, final String sysPassword, final String pswdFilename)\n
+    (final Connection con, final Properties properties, final String sysUser, final boolean forceChange, final String sysPassword, final String pswdFilename, String paramUserid)\n
     '''
 def bytefileUpdate():
-    '''public void bytefileUpdate(final String pswdFilename)
+    '''returns None\n\n
+    bytefileUpdate(final String pswdFilename)\n
     '''
 def rowFound():
-    '''public boolean rowFound(final String sql)
-    '''
-def main():
-    '''public static void main(final String[] argv)
+    '''returns boolean\n\n
+    rowFound(final String sql)\n
     '''

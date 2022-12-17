@@ -1,71 +1,85 @@
 publicIDString = "String  \"-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN\""
 publicIDString_V2 = "String  \"-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN\""
-def TOCView():
-    '''public TOCView(final HelpSet set, final String s, final String s2, final Hashtable hashtable)
-    public TOCView(final HelpSet set, final String s, final String s2, final Locale locale, final Hashtable hashtable)
+def ():
+    '''returns DefaultTOCFactory\n\n
+    (final HelpSet set, final String s, final String s2, final Hashtable hashtable)\n
+    (final HelpSet set, final String s, final String s2, final Locale locale, final Hashtable hashtable)\n
+    ()\n
     '''
 def createNavigator():
-    '''public Component createNavigator(final HelpModel helpModel)
+    '''returns Component\n\n
+    createNavigator(final HelpModel helpModel)\n
     '''
 def getMergeType():
-    '''public String getMergeType()
+    '''returns String\n\n
+    getMergeType()\n
     '''
 def getDataAsTree():
-    '''public DefaultMutableTreeNode getDataAsTree()
-    '''
-def parse():
-    '''public static DefaultMutableTreeNode parse(final URL url, final HelpSet set, final Locale locale, final TreeItemFactory treeItemFactory)
-    public static DefaultMutableTreeNode parse(final URL obj, final HelpSet set, final Locale locale, final TreeItemFactory treeItemFactory, final TOCView tocView)
+    '''returns DefaultMutableTreeNode\n\n
+    getDataAsTree()\n
     '''
 def setCategoryOpenImageID():
-    '''public void setCategoryOpenImageID(final String s)
+    '''returns None\n\n
+    setCategoryOpenImageID(final String s)\n
     '''
 def setCategoryClosedImageID():
-    '''public void setCategoryClosedImageID(final String s)
+    '''returns None\n\n
+    setCategoryClosedImageID(final String s)\n
     '''
 def setTopicImageID():
-    '''public void setTopicImageID(final String s)
-    '''
-def DefaultTOCFactory():
-    '''public DefaultTOCFactory()
+    '''returns None\n\n
+    setTopicImageID(final String s)\n
     '''
 def parsingStarted():
-    '''public void parsingStarted(final URL source)
+    '''returns None\n\n
+    parsingStarted(final URL source)\n
     '''
 def processDOCTYPE():
-    '''public void processDOCTYPE(final String s, final String s2, final String s3)
+    '''returns None\n\n
+    processDOCTYPE(final String s, final String s2, final String s3)\n
     '''
 def processPI():
-    '''public void processPI(final HelpSet set, final String s, final String s2)
+    '''returns None\n\n
+    processPI(final HelpSet set, final String s, final String s2)\n
     '''
 def createItem():
-    '''public TreeItem createItem(final String s, final Hashtable hashtable, final HelpSet set, final Locale locale)
-    public TreeItem createItem()
+    '''returns TreeItem\n\n
+    createItem(final String s, final Hashtable hashtable, final HelpSet set, final Locale locale)\n
+    createItem()\n
     '''
 def reportMessage():
-    '''public void reportMessage(final String obj, final boolean b)
+    '''returns None\n\n
+    reportMessage(final String obj, final boolean b)\n
     '''
 def listMessages():
-    '''public Enumeration listMessages()
+    '''returns Enumeration\n\n
+    listMessages()\n
     '''
 def parsingEnded():
-    '''public DefaultMutableTreeNode parsingEnded(final DefaultMutableTreeNode defaultMutableTreeNode)
+    '''returns DefaultMutableTreeNode\n\n
+    parsingEnded(final DefaultMutableTreeNode defaultMutableTreeNode)\n
     '''
 def tagFound():
-    '''public void tagFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    tagFound(final ParserEvent parserEvent)\n
     '''
 def piFound():
-    '''public void piFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    piFound(final ParserEvent parserEvent)\n
     '''
 def doctypeFound():
-    '''public void doctypeFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    doctypeFound(final ParserEvent parserEvent)\n
     '''
 def textFound():
-    '''public void textFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    textFound(final ParserEvent parserEvent)\n
     '''
 def commentFound():
-    '''public void commentFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    commentFound(final ParserEvent parserEvent)\n
     '''
 def errorFound():
-    '''public void errorFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    errorFound(final ParserEvent parserEvent)\n
     '''

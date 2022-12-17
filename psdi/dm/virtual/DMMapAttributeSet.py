@@ -1,3 +1,4 @@
-def DMMapAttributeSet():
-    '''public DMMapAttributeSet(final MboServerInterface ms)
+def ():
+    '''returns DMMapAttributeSet\n\n
+    (final MboServerInterface ms)\n
     '''

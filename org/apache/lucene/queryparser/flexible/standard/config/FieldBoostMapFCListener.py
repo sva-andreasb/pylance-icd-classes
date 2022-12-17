@@ -1,6 +1,8 @@
-def FieldBoostMapFCListener():
-    '''public FieldBoostMapFCListener(final QueryConfigHandler config)
+def ():
+    '''returns FieldBoostMapFCListener\n\n
+    (final QueryConfigHandler config)\n
     '''
 def buildFieldConfig():
-    '''public void buildFieldConfig(final FieldConfig fieldConfig)
+    '''returns None\n\n
+    buildFieldConfig(final FieldConfig fieldConfig)\n
     '''

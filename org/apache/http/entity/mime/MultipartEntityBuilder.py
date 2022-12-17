@@ -1,46 +1,55 @@
-def create():
-    '''public static MultipartEntityBuilder create()
-    '''
 def setMode():
-    '''public MultipartEntityBuilder setMode(final HttpMultipartMode mode)
+    '''returns MultipartEntityBuilder\n\n
+    setMode(final HttpMultipartMode mode)\n
     '''
 def setLaxMode():
-    '''public MultipartEntityBuilder setLaxMode()
+    '''returns MultipartEntityBuilder\n\n
+    setLaxMode()\n
     '''
 def setStrictMode():
-    '''public MultipartEntityBuilder setStrictMode()
+    '''returns MultipartEntityBuilder\n\n
+    setStrictMode()\n
     '''
 def setBoundary():
-    '''public MultipartEntityBuilder setBoundary(final String boundary)
+    '''returns MultipartEntityBuilder\n\n
+    setBoundary(final String boundary)\n
     '''
 def setMimeSubtype():
-    '''public MultipartEntityBuilder setMimeSubtype(final String subType)
+    '''returns MultipartEntityBuilder\n\n
+    setMimeSubtype(final String subType)\n
     '''
 def seContentType():
-    '''public MultipartEntityBuilder seContentType(final ContentType contentType)
+    '''returns MultipartEntityBuilder\n\n
+    seContentType(final ContentType contentType)\n
     '''
 def setContentType():
-    '''public MultipartEntityBuilder setContentType(final ContentType contentType)
+    '''returns MultipartEntityBuilder\n\n
+    setContentType(final ContentType contentType)\n
     '''
 def setCharset():
-    '''public MultipartEntityBuilder setCharset(final Charset charset)
+    '''returns MultipartEntityBuilder\n\n
+    setCharset(final Charset charset)\n
     '''
 def addPart():
-    '''public MultipartEntityBuilder addPart(final FormBodyPart bodyPart)
-    public MultipartEntityBuilder addPart(final String name, final ContentBody contentBody)
+    '''returns MultipartEntityBuilder\n\n
+    addPart(final FormBodyPart bodyPart)\n
+    addPart(final String name, final ContentBody contentBody)\n
     '''
 def addTextBody():
-    '''public MultipartEntityBuilder addTextBody(final String name, final String text, final ContentType contentType)
-    public MultipartEntityBuilder addTextBody(final String name, final String text)
+    '''returns MultipartEntityBuilder\n\n
+    addTextBody(final String name, final String text, final ContentType contentType)\n
+    addTextBody(final String name, final String text)\n
     '''
 def addBinaryBody():
-    '''public MultipartEntityBuilder addBinaryBody(final String name, final byte[] b, final ContentType contentType, final String filename)
-    public MultipartEntityBuilder addBinaryBody(final String name, final byte[] b)
-    public MultipartEntityBuilder addBinaryBody(final String name, final File file, final ContentType contentType, final String filename)
-    public MultipartEntityBuilder addBinaryBody(final String name, final File file)
-    public MultipartEntityBuilder addBinaryBody(final String name, final InputStream stream, final ContentType contentType, final String filename)
-    public MultipartEntityBuilder addBinaryBody(final String name, final InputStream stream)
+    '''returns MultipartEntityBuilder\n\n
+    addBinaryBody(final String name, final byte[] b, final ContentType contentType, final String filename)\n
+    addBinaryBody(final String name, final byte[] b)\n
+    addBinaryBody(final String name, final File file, final ContentType contentType, final String filename)\n
+    addBinaryBody(final String name, final File file)\n
+    addBinaryBody(final String name, final InputStream stream, final ContentType contentType, final String filename)\n
+    addBinaryBody(final String name, final InputStream stream)\n
     '''
 def build():
-    '''public HttpEntity build()
+    '''returns HttpEntity\n\n
+    build()\n
     '''

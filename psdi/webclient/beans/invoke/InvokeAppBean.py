@@ -1,3 +1,4 @@
 def VEWRQXML():
-    '''public int VEWRQXML()
+    '''returns int\n\n
+    VEWRQXML()\n
     '''

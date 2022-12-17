@@ -1,12 +1,16 @@
 def isOpen():
-    '''public boolean isOpen()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def checkCol():
-    '''public int checkCol(int col)
+    '''returns int\n\n
+    checkCol(int col)\n
     '''
 def checkMeta():
-    '''public void checkMeta()
+    '''returns None\n\n
+    checkMeta()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

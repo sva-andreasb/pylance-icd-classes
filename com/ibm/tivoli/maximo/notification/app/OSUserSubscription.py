@@ -1,6 +1,8 @@
-def OSUserSubscription():
-    '''public OSUserSubscription(final MboSet ms)
+def ():
+    '''returns OSUserSubscription\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

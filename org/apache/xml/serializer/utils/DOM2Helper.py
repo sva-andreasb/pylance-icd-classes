@@ -1,6 +1,8 @@
 def getLocalNameOfNode():
-    '''public String getLocalNameOfNode(final Node n)
+    '''returns String\n\n
+    getLocalNameOfNode(final Node n)\n
     '''
 def getNamespaceOfNode():
-    '''public String getNamespaceOfNode(final Node n)
+    '''returns String\n\n
+    getNamespaceOfNode(final Node n)\n
     '''

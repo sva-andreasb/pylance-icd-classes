@@ -1,47 +1,52 @@
-def setDefaultConfiguration():
-    '''public static void setDefaultConfiguration(final EngineConfiguration config)
-    '''
-def AdminClient():
-    '''public AdminClient()
-    public AdminClient(final boolean ignored)
+def ():
+    '''returns AdminClient\n\n
+    ()\n
+    (final boolean ignored)\n
     '''
 def getCall():
-    '''public Call getCall()
+    '''returns Call\n\n
+    getCall()\n
     '''
 def list():
-    '''public String list(final Options opts)
-    public String list()
+    '''returns String\n\n
+    list(final Options opts)\n
+    list()\n
     '''
 def quit():
-    '''public String quit(final Options opts)
-    public String quit()
+    '''returns String\n\n
+    quit(final Options opts)\n
+    quit()\n
     '''
 def undeployHandler():
-    '''public String undeployHandler(final String handlerName)
+    '''returns String\n\n
+    undeployHandler(final String handlerName)\n
     '''
 def undeployService():
-    '''public String undeployService(final String serviceName)
+    '''returns String\n\n
+    undeployService(final String serviceName)\n
     '''
 def process():
-    '''public String process(String[] args)
-    public String process(final InputStream input)
-    public String process(final URL xmlURL)
-    public String process(final String xmlFile)
-    public String process(final Options opts, final String xmlFile)
-    public String process(final Options opts, final InputStream input)
+    '''returns String\n\n
+    process(String[] args)\n
+    process(final InputStream input)\n
+    process(final URL xmlURL)\n
+    process(final String xmlFile)\n
+    process(final Options opts, final String xmlFile)\n
+    process(final Options opts, final InputStream input)\n
     '''
 def processOpts():
-    '''public void processOpts(final Options opts)
+    '''returns None\n\n
+    processOpts(final Options opts)\n
     '''
 def setLogin():
-    '''public void setLogin(final String user, final String password)
+    '''returns None\n\n
+    setLogin(final String user, final String password)\n
     '''
 def setTargetEndpointAddress():
-    '''public void setTargetEndpointAddress(final URL address)
+    '''returns None\n\n
+    setTargetEndpointAddress(final URL address)\n
     '''
 def setTransport():
-    '''public void setTransport(final String transportName)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns None\n\n
+    setTransport(final String transportName)\n
     '''

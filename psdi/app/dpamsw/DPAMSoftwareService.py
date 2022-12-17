@@ -1,4 +1,5 @@
-def DPAMSoftwareService():
-    '''public DPAMSoftwareService()
-    public DPAMSoftwareService(final MXServer mxServer)
+def ():
+    '''returns DPAMSoftwareService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

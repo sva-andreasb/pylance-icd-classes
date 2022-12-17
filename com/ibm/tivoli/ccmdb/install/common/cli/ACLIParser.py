@@ -1,3 +1,4 @@
 def parseCLICommandLine():
-    '''public CLIParseResult parseCLICommandLine(final String[] commandArgs)
+    '''returns CLIParseResult\n\n
+    parseCLICommandLine(final String[] commandArgs)\n
     '''

@@ -1,9 +1,12 @@
 def select_materials_mu():
-    '''public int select_materials_mu()
+    '''returns int\n\n
+    select_materials_mu()\n
     '''
 def getNoChargeFieldName():
-    '''public String getNoChargeFieldName()
+    '''returns String\n\n
+    getNoChargeFieldName()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''

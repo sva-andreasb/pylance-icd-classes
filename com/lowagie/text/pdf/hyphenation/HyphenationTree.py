@@ -1,26 +1,34 @@
-def HyphenationTree():
-    '''public HyphenationTree()
+def ():
+    '''returns HyphenationTree\n\n
+    ()\n
     '''
 def loadInternalPatterns():
-    '''public void loadInternalPatterns(final String filename)
-    public void loadInternalPatterns(final InputStream is)
+    '''returns None\n\n
+    loadInternalPatterns(final String filename)\n
+    loadInternalPatterns(final InputStream is)\n
     '''
 def findPattern():
-    '''public String findPattern(final String pat)
+    '''returns String\n\n
+    findPattern(final String pat)\n
     '''
 def hyphenate():
-    '''public Hyphenation hyphenate(final String word, final int remainCharCount, final int pushCharCount)
-    public Hyphenation hyphenate(final char[] w, final int offset, final int len, final int remainCharCount, final int pushCharCount)
+    '''returns Hyphenation\n\n
+    hyphenate(final String word, final int remainCharCount, final int pushCharCount)\n
+    hyphenate(final char[] w, final int offset, final int len, final int remainCharCount, final int pushCharCount)\n
     '''
 def addClass():
-    '''public void addClass(final String chargroup)
+    '''returns None\n\n
+    addClass(final String chargroup)\n
     '''
 def addException():
-    '''public void addException(final String word, final ArrayList hyphenatedword)
+    '''returns None\n\n
+    addException(final String word, final ArrayList hyphenatedword)\n
     '''
 def addPattern():
-    '''public void addPattern(final String pattern, final String ivalue)
+    '''returns None\n\n
+    addPattern(final String pattern, final String ivalue)\n
     '''
 def printStats():
-    '''public void printStats()
+    '''returns None\n\n
+    printStats()\n
     '''

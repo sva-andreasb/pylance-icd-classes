@@ -1,9 +1,12 @@
-def CachedFile():
-    '''public CachedFile(final File file, final MessageHeader headers, final URL url)
+def ():
+    '''returns CachedFile\n\n
+    (final File file, final MessageHeader headers, final URL url)\n
     '''
 def getHeaderFields():
-    '''public MessageHeader getHeaderFields()
+    '''returns MessageHeader\n\n
+    getHeaderFields()\n
     '''
 def getURL():
-    '''public URL getURL()
+    '''returns URL\n\n
+    getURL()\n
     '''

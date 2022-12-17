@@ -1,40 +1,53 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloScenarioInfo():
-    '''public IloScenarioInfo()
+def ():
+    '''returns IloScenarioInfo\n\n
+    ()\n
     '''
 def getInput():
-    '''public IloScenarioInput getInput()
+    '''returns IloScenarioInput\n\n
+    getInput()\n
     '''
 def setInput():
-    '''public void setInput(final IloScenarioInput input)
+    '''returns None\n\n
+    setInput(final IloScenarioInput input)\n
     '''
 def getScenario():
-    '''public IloScenario getScenario()
+    '''returns IloScenario\n\n
+    getScenario()\n
     '''
 def setScenario():
-    '''public void setScenario(final IloScenario scenario)
+    '''returns None\n\n
+    setScenario(final IloScenario scenario)\n
     '''
 def getRequest():
-    '''public IloEngineRequest getRequest()
+    '''returns IloEngineRequest\n\n
+    getRequest()\n
     '''
 def setRequest():
-    '''public void setRequest(final IloEngineRequest request)
+    '''returns None\n\n
+    setRequest(final IloEngineRequest request)\n
     '''
 def getSolveReport():
-    '''public IloSolutionReport getSolveReport()
+    '''returns IloSolutionReport\n\n
+    getSolveReport()\n
     '''
 def setSolutionReport():
-    '''public void setSolutionReport(final IloSolutionReport solutionReport)
+    '''returns None\n\n
+    setSolutionReport(final IloSolutionReport solutionReport)\n
     '''
 def getRequirementReport():
-    '''public IloSolutionReport getRequirementReport()
+    '''returns IloSolutionReport\n\n
+    getRequirementReport()\n
     '''
 def getInterrupter():
-    '''public IloSolvingInterrupter getInterrupter()
+    '''returns IloSolvingInterrupter\n\n
+    getInterrupter()\n
     '''
 def setInterrupter():
-    '''public void setInterrupter(final IloSolvingInterrupter interrupter)
+    '''returns None\n\n
+    setInterrupter(final IloSolvingInterrupter interrupter)\n
     '''
 def getChrono():
-    '''public IloChrono getChrono()
+    '''returns IloChrono\n\n
+    getChrono()\n
     '''

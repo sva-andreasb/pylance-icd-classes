@@ -1,4 +1,5 @@
-def MissingExtensionException():
-    '''public MissingExtensionException(final Object[] params, final OperationException e)
-    public MissingExtensionException(final String name)
+def ():
+    '''returns MissingExtensionException\n\n
+    (final Object[] params, final OperationException e)\n
+    (final String name)\n
     '''

@@ -1,18 +1,24 @@
-def IdleConnectionHandler():
-    '''public IdleConnectionHandler()
+def ():
+    '''returns IdleConnectionHandler\n\n
+    ()\n
     '''
 def add():
-    '''public void add(final HttpConnection connection, final long validDuration, final TimeUnit unit)
+    '''returns None\n\n
+    add(final HttpConnection connection, final long validDuration, final TimeUnit unit)\n
     '''
 def remove():
-    '''public boolean remove(final HttpConnection connection)
+    '''returns boolean\n\n
+    remove(final HttpConnection connection)\n
     '''
 def removeAll():
-    '''public void removeAll()
+    '''returns None\n\n
+    removeAll()\n
     '''
 def closeIdleConnections():
-    '''public void closeIdleConnections(final long idleTime)
+    '''returns None\n\n
+    closeIdleConnections(final long idleTime)\n
     '''
 def closeExpiredConnections():
-    '''public void closeExpiredConnections()
+    '''returns None\n\n
+    closeExpiredConnections()\n
     '''

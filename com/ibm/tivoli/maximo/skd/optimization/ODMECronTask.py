@@ -1,25 +1,33 @@
-def ODMECronTask():
-    '''public ODMECronTask()
+def ():
+    '''returns ODMECronTask\n\n
+    ()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def getParam():
-    '''public String[] getParam()
+    '''returns String[]\n\n
+    getParam()\n
     '''
 def getProject():
-    '''public SKDProject getProject(final String[] projectAndScenario)
+    '''returns SKDProject\n\n
+    getProject(final String[] projectAndScenario)\n
     '''
 def setProject():
-    '''public void setProject(final SKDProject project)
+    '''returns None\n\n
+    setProject(final SKDProject project)\n
     '''
 def setODMEName():
-    '''public void setODMEName(final String name)
+    '''returns None\n\n
+    setODMEName(final String name)\n
     '''
 def setRefreshSKDData():
-    '''public void setRefreshSKDData(final boolean refresh)
+    '''returns None\n\n
+    setRefreshSKDData(final boolean refresh)\n
     '''
 def sendODMEEmail():
-    '''public void sendODMEEmail(final SKDProject project, final Date startDate, final Date endDate, final boolean success)
-    public void sendODMEEmail(final SKDProject project, final Date startDate, final Date endDate, final boolean success, final String sucesscommtemp, final String failcommtemp)
+    '''returns None\n\n
+    sendODMEEmail(final SKDProject project, final Date startDate, final Date endDate, final boolean success)\n
+    sendODMEEmail(final SKDProject project, final Date startDate, final Date endDate, final boolean success, final String sucesscommtemp, final String failcommtemp)\n
     '''

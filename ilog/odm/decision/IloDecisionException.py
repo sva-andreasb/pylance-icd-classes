@@ -16,57 +16,21 @@ CONSTRAINT_NOT_FOUND = "String  \"CONSTRAINT_NOT_FOUND\""
 INCONSISTENT_PROPS_DEF = "String  \"INCONSISTENT_PROPS_DEF\""
 PARALLEL_CPLEX_NOT_SUPPORTED = "String  \"PARALLEL_CPLEX_NOT_SUPPORTED\""
 ERRORS_REPORTED_FROM_OPL = "String  \"ERRORS_REPORTED_FROM_OPL\""
-def IloDecisionException():
-    '''public IloDecisionException(final String code)
-    public IloDecisionException(final String code, final Object param)
-    public IloDecisionException(final String code, final Object param1, final Object param2)
-    public IloDecisionException(final String code, final Object[] params)
-    public IloDecisionException(final Throwable e, final boolean keepStack)
-    public IloDecisionException(final String code, final Object[] params, final Throwable e, final boolean keepStack)
-    '''
-def internalError():
-    '''public static IloDecisionException internalError()
-    '''
-def multipleParentError():
-    '''public static IloDecisionException multipleParentError(final String childName, final String newParent, final String oldParent)
-    '''
-def illegalContext():
-    '''public static IloDecisionException illegalContext()
-    '''
-def badParamValue():
-    '''public static IloDecisionException badParamValue(final int num, final Class<?> type)
-    '''
-def propertyNotSelected():
-    '''public static IloDecisionException propertyNotSelected(final String name, final Class<?> eltType)
-    '''
-def propertyNotFound():
-    '''public static IloDecisionException propertyNotFound(final String name, final Class<?> eltType)
-    '''
-def operationNotImplemented():
-    '''public static IloDecisionException operationNotImplemented(final String name)
-    '''
-def unknownConstraint():
-    '''public static IloDecisionException unknownConstraint(final String ctName)
-    '''
-def wrappedError():
-    '''public static IloDecisionException wrappedError(final Exception e)
-    '''
-def invalidGoalExpression():
-    '''public static IloDecisionException invalidGoalExpression(final String expressionName)
-    '''
-def modelContainsError():
-    '''public static IloDecisionException modelContainsError()
-    '''
-def postProcessErrors():
-    '''public static IloDecisionException postProcessErrors()
-    '''
-def parallelCplexNotSupported():
-    '''public static IloDecisionException parallelCplexNotSupported()
+def ():
+    '''returns IloDecisionException\n\n
+    (final String code)\n
+    (final String code, final Object param)\n
+    (final String code, final Object param1, final Object param2)\n
+    (final String code, final Object[] params)\n
+    (final Throwable e, final boolean keepStack)\n
+    (final String code, final Object[] params, final Throwable e, final boolean keepStack)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def printStackTrace():
-    '''public void printStackTrace()
-    public void printStackTrace(final PrintStream s)
+    '''returns None\n\n
+    printStackTrace()\n
+    printStackTrace(final PrintStream s)\n
     '''

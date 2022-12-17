@@ -1,3 +1,4 @@
-def FldLicTransLicenseNum():
-    '''public FldLicTransLicenseNum(final MboValue mbv)
+def ():
+    '''returns FldLicTransLicenseNum\n\n
+    (final MboValue mbv)\n
     '''

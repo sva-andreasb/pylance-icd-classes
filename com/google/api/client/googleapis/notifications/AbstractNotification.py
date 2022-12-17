@@ -1,51 +1,36 @@
 def toString():
-    '''public String toString()
-    '''
-def getMessageNumber():
-    '''public final long getMessageNumber()
+    '''returns String\n\n
+    toString()\n
     '''
 def setMessageNumber():
-    '''public AbstractNotification setMessageNumber(final long messageNumber)
-    '''
-def getResourceState():
-    '''public final String getResourceState()
+    '''returns AbstractNotification\n\n
+    setMessageNumber(final long messageNumber)\n
     '''
 def setResourceState():
-    '''public AbstractNotification setResourceState(final String resourceState)
-    '''
-def getResourceId():
-    '''public final String getResourceId()
+    '''returns AbstractNotification\n\n
+    setResourceState(final String resourceState)\n
     '''
 def setResourceId():
-    '''public AbstractNotification setResourceId(final String resourceId)
-    '''
-def getResourceUri():
-    '''public final String getResourceUri()
+    '''returns AbstractNotification\n\n
+    setResourceId(final String resourceId)\n
     '''
 def setResourceUri():
-    '''public AbstractNotification setResourceUri(final String resourceUri)
-    '''
-def getChannelId():
-    '''public final String getChannelId()
+    '''returns AbstractNotification\n\n
+    setResourceUri(final String resourceUri)\n
     '''
 def setChannelId():
-    '''public AbstractNotification setChannelId(final String channelId)
-    '''
-def getChannelExpiration():
-    '''public final String getChannelExpiration()
+    '''returns AbstractNotification\n\n
+    setChannelId(final String channelId)\n
     '''
 def setChannelExpiration():
-    '''public AbstractNotification setChannelExpiration(final String channelExpiration)
-    '''
-def getChannelToken():
-    '''public final String getChannelToken()
+    '''returns AbstractNotification\n\n
+    setChannelExpiration(final String channelExpiration)\n
     '''
 def setChannelToken():
-    '''public AbstractNotification setChannelToken(final String channelToken)
-    '''
-def getChanged():
-    '''public final String getChanged()
+    '''returns AbstractNotification\n\n
+    setChannelToken(final String channelToken)\n
     '''
 def setChanged():
-    '''public AbstractNotification setChanged(final String changed)
+    '''returns AbstractNotification\n\n
+    setChanged(final String changed)\n
     '''

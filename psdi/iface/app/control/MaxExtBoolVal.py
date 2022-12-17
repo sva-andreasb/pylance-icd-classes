@@ -1,12 +1,16 @@
-def MaxExtBoolVal():
-    '''public MaxExtBoolVal(final MboSet ms)
+def ():
+    '''returns MaxExtBoolVal\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

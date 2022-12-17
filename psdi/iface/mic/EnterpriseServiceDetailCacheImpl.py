@@ -1,20 +1,26 @@
 NAME = "String  \"MAXIFACEINDETAIL\""
-def EnterpriseServiceDetailCacheImpl():
-    '''public EnterpriseServiceDetailCacheImpl()
+def ():
+    '''returns EnterpriseServiceDetailCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getEnterpriseServiceList():
-    '''public List<EnterpriseServiceInfo> getEnterpriseServiceList(final String srv)
+    '''returns List<EnterpriseServiceInfo>\n\n
+    getEnterpriseServiceList(final String srv)\n
     '''
 def getEnterpriseServiceInfo():
-    '''public EnterpriseServiceInfo getEnterpriseServiceInfo(final String srv, final String mosName)
+    '''returns EnterpriseServiceInfo\n\n
+    getEnterpriseServiceInfo(final String srv, final String mosName)\n
     '''

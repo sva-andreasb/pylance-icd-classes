@@ -1,37 +1,31 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def LeaderAndIsrRequest():
-    '''public LeaderAndIsrRequest(final Struct struct, final short version)
+def ():
+    '''returns PartitionState\n\n
+    (final Struct struct, final short version)\n
+    (final short version, final int controllerId, final int controllerEpoch, final Map<TopicPartition, PartitionState> partitionStates, final Set<Node> liveLeaders)\n
+    (final int controllerEpoch, final int leader, final int leaderEpoch, final List<Integer> isr, final int zkVersion, final List<Integer> replicas, final boolean isNew)\n
     '''
 def getErrorResponse():
-    '''public LeaderAndIsrResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''returns LeaderAndIsrResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def controllerId():
-    '''public int controllerId()
+    '''returns int\n\n
+    controllerId()\n
     '''
 def controllerEpoch():
-    '''public int controllerEpoch()
-    '''
-def partitionStates():
-    '''public Map<TopicPartition, PartitionState> partitionStates()
+    '''returns int\n\n
+    controllerEpoch()\n
     '''
 def liveLeaders():
-    '''public Set<Node> liveLeaders()
-    '''
-def parse():
-    '''public static LeaderAndIsrRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final short version, final int controllerId, final int controllerEpoch, final Map<TopicPartition, PartitionState> partitionStates, final Set<Node> liveLeaders)
+    '''returns Set<Node>\n\n
+    liveLeaders()\n
     '''
 def build():
-    '''public LeaderAndIsrRequest build(final short version)
+    '''returns LeaderAndIsrRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def PartitionState():
-    '''public PartitionState(final int controllerEpoch, final int leader, final int leaderEpoch, final List<Integer> isr, final int zkVersion, final List<Integer> replicas, final boolean isNew)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''

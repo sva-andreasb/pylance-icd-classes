@@ -1,33 +1,44 @@
-def LoaderComponent():
-    '''public LoaderComponent(final ModelLoaderBase loader)
+def ():
+    '''returns LoaderComponent\n\n
+    (final ModelLoaderBase loader)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def canProcessItem():
-    '''public boolean canProcessItem(final ItemCOMPONENT component)
+    '''returns boolean\n\n
+    canProcessItem(final ItemCOMPONENT component)\n
     '''
 def matchItem():
-    '''public MboRemote matchItem(final ItemCOMPONENT component, MboSetRemote assetSet)
+    '''returns MboRemote\n\n
+    matchItem(final ItemCOMPONENT component, MboSetRemote assetSet)\n
     '''
 def addItem():
-    '''public MboRemote addItem(final ItemCOMPONENT component, final MboSetRemote assetSet)
+    '''returns MboRemote\n\n
+    addItem(final ItemCOMPONENT component, final MboSetRemote assetSet)\n
     '''
 def update():
-    '''public void update(final MboRemote mbo, final ItemCOMPONENT component)
+    '''returns None\n\n
+    update(final MboRemote mbo, final ItemCOMPONENT component)\n
     '''
 def validateItem():
-    '''public void validateItem(final ItemCOMPONENT component, final MboSetRemote mboSet)
+    '''returns None\n\n
+    validateItem(final ItemCOMPONENT component, final MboSetRemote mboSet)\n
     '''
 def addAttributeValues():
-    '''public int addAttributeValues(final MboRemote assetMbo, final ItemCOMPONENT component)
+    '''returns int\n\n
+    addAttributeValues(final MboRemote assetMbo, final ItemCOMPONENT component)\n
     '''
 def addOperatinLocation():
-    '''public MboRemote addOperatinLocation(final ItemCOMPONENT component, final String parentId)
+    '''returns MboRemote\n\n
+    addOperatinLocation(final ItemCOMPONENT component, final String parentId)\n
     '''
 def setupPMFromMaster():
-    '''public void setupPMFromMaster(final MboRemote masterpmMbo, final MboRemote pmMbo, final ItemBase item)
+    '''returns None\n\n
+    setupPMFromMaster(final MboRemote masterpmMbo, final MboRemote pmMbo, final ItemBase item)\n
     '''

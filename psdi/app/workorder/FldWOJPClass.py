@@ -1,6 +1,8 @@
-def FldWOJPClass():
-    '''public FldWOJPClass(final MboValue mbv)
+def ():
+    '''returns FldWOJPClass\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

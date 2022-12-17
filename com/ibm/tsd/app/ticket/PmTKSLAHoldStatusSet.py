@@ -1,3 +1,4 @@
-def PmTKSLAHoldStatusSet():
-    '''public PmTKSLAHoldStatusSet(final MboServerInterface ms)
+def ():
+    '''returns PmTKSLAHoldStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

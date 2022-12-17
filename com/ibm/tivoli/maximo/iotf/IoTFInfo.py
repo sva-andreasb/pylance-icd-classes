@@ -1,31 +1,40 @@
-def IoTFInfo():
-    '''public IoTFInfo(final String org, final String apiKey, final String authToken, final String historian, final String processor)
+def ():
+    '''returns IoTFInfo\n\n
+    (final String org, final String apiKey, final String authToken, final String historian, final String processor)\n
     '''
 def getOrg():
-    '''public String getOrg()
+    '''returns String\n\n
+    getOrg()\n
     '''
 def getApiKey():
-    '''public String getApiKey()
+    '''returns String\n\n
+    getApiKey()\n
     '''
 def getAuthToken():
-    '''public String getAuthToken()
+    '''returns String\n\n
+    getAuthToken()\n
     '''
 def getProcessorClassName():
-    '''public String getProcessorClassName()
+    '''returns String\n\n
+    getProcessorClassName()\n
     '''
 def getIoTConnector():
-    '''public IoTProcessor getIoTConnector()
+    '''returns IoTProcessor\n\n
+    getIoTConnector()\n
     '''
 def getHistorianEndPoint():
-    '''public String getHistorianEndPoint()
+    '''returns String\n\n
+    getHistorianEndPoint()\n
     '''
 def getHistorian():
-    '''public String getHistorian()
+    '''returns String\n\n
+    getHistorian()\n
     '''
 def getDeviceTypeInfo():
-    '''public Map<String, IoTFDeviceTypeInfo> getDeviceTypeInfo()
-    public IoTFDeviceTypeInfo getDeviceTypeInfo(final String deviceType)
+    '''returns IoTFDeviceTypeInfo\n\n
+    getDeviceTypeInfo(final String deviceType)\n
     '''
 def addDeviceTypeInfo():
-    '''public void addDeviceTypeInfo(final IoTFDeviceTypeInfo devicetypeInfo)
+    '''returns None\n\n
+    addDeviceTypeInfo(final IoTFDeviceTypeInfo devicetypeInfo)\n
     '''

@@ -7,126 +7,74 @@ DLT_REL_COMPAT_V61 = "int  6100"
 DLT_REL_COMPAT_V70 = "int  7000"
 RELEASE_COMPAT_DEFAULT = "int  6100"
 LATIN1 = "String  \"Latin1\""
-def DictionaryInfo():
-    '''public DictionaryInfo()
-    public DictionaryInfo(final long n, final boolean b, final boolean b2, final boolean b3, final boolean b4, final boolean b5, final String s)
-    public DictionaryInfo(final long n, final boolean b, final boolean b2, final boolean b3, final boolean b4, final boolean b5, final String s, final boolean b6, final boolean b7, final boolean b8)
-    public DictionaryInfo(final long version, final boolean isEditable, final boolean isMinimizable, final boolean isMinimized, final boolean isDeterministic, final boolean isReversed, final String copyrightStatement, final boolean isProperCase, final boolean isLowerCase, final boolean isViewable, final int releaseCompatibility)
-    '''
-def clear():
-    '''public synchronized void clear()
-    '''
-def getLanguages():
-    '''public synchronized String[] getLanguages()
-    '''
-def getLanguagesSet():
-    '''public synchronized Set getLanguagesSet()
-    '''
-def getLocales():
-    '''public synchronized Locale[] getLocales()
-    '''
-def getFunctions():
-    '''public synchronized Integer[] getFunctions(final String key)
+def ():
+    '''returns DictionaryInfo\n\n
+    ()\n
+    (final long n, final boolean b, final boolean b2, final boolean b3, final boolean b4, final boolean b5, final String s)\n
+    (final long n, final boolean b, final boolean b2, final boolean b3, final boolean b4, final boolean b5, final String s, final boolean b6, final boolean b7, final boolean b8)\n
+    (final long version, final boolean isEditable, final boolean isMinimizable, final boolean isMinimized, final boolean isDeterministic, final boolean isReversed, final String copyrightStatement, final boolean isProperCase, final boolean isLowerCase, final boolean isViewable, final int releaseCompatibility)\n
     '''
 def hasFunction():
-    '''public boolean hasFunction(final int value)
-    '''
-def getCopyrightStatement():
-    '''public synchronized String getCopyrightStatement()
+    '''returns boolean\n\n
+    hasFunction(final int value)\n
     '''
 def setCopyrightStatement():
-    '''public void setCopyrightStatement(final String copyrightStatement)
-    '''
-def getHeaderLength():
-    '''public synchronized long getHeaderLength()
-    '''
-def isBigEndian():
-    '''public synchronized boolean isBigEndian()
-    '''
-def isDeterministic():
-    '''public synchronized boolean isDeterministic()
+    '''returns None\n\n
+    setCopyrightStatement(final String copyrightStatement)\n
     '''
 def isEditable():
-    '''public boolean isEditable()
+    '''returns boolean\n\n
+    isEditable()\n
     '''
 def setNotEditable():
-    '''public void setNotEditable()
+    '''returns None\n\n
+    setNotEditable()\n
     '''
 def setNotViewable():
-    '''public void setNotViewable()
-    '''
-def isMinimizable():
-    '''public synchronized boolean isMinimizable()
-    '''
-def isMinimized():
-    '''public synchronized boolean isMinimized()
-    '''
-def isReversed():
-    '''public synchronized boolean isReversed()
-    '''
-def getLangToTypesMap():
-    '''public synchronized TreeMap getLangToTypesMap()
-    '''
-def getLast_modified():
-    '''public synchronized int getLast_modified()
-    '''
-def getNumberOfLanguages():
-    '''public synchronized long getNumberOfLanguages()
-    '''
-def getNumberOfLinks():
-    '''public synchronized long getNumberOfLinks()
-    '''
-def getNumberOfGlosses():
-    '''public synchronized long getNumberOfGlosses()
-    '''
-def getNumberOfPools():
-    '''public synchronized long getNumberOfPools()
-    '''
-def getNumberOfStates():
-    '''public synchronized long getNumberOfStates()
+    '''returns None\n\n
+    setNotViewable()\n
     '''
 def getVersion():
-    '''public long getVersion()
+    '''returns long\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final int n)
-    '''
-def getVersionStr():
-    '''public synchronized String getVersionStr()
+    '''returns None\n\n
+    setVersion(final int n)\n
     '''
 def getReleaseCompatibility():
-    '''public int getReleaseCompatibility()
+    '''returns int\n\n
+    getReleaseCompatibility()\n
     '''
 def isProperCase():
-    '''public boolean isProperCase()
+    '''returns boolean\n\n
+    isProperCase()\n
     '''
 def isLowerCase():
-    '''public boolean isLowerCase()
+    '''returns boolean\n\n
+    isLowerCase()\n
     '''
 def isViewable():
-    '''public boolean isViewable()
+    '''returns boolean\n\n
+    isViewable()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
-    '''
-def addType():
-    '''public synchronized void addType(final String s, final int n)
-    '''
-def mergeCopyright():
-    '''public synchronized void mergeCopyright(final String str)
-    '''
-def getGlossCompatibilityLevel():
-    '''public static int getGlossCompatibilityLevel(final int n)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

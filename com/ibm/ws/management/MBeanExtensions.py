@@ -1,9 +1,12 @@
-def MBeanExtensions():
-    '''public MBeanExtensions(final ConfigObject adminServiceCO, final VariableMap variableMap, final ExtClassLoader publicClassLoader)
+def ():
+    '''returns MBeanExtensions\n\n
+    (final ConfigObject adminServiceCO, final VariableMap variableMap, final ExtClassLoader publicClassLoader)\n
     '''
 def getDescriptorUri():
-    '''public String getDescriptorUri(final String type)
+    '''returns String\n\n
+    getDescriptorUri(final String type)\n
     '''
 def getClasspath():
-    '''public List getClasspath(final String type)
+    '''returns List\n\n
+    getClasspath(final String type)\n
     '''

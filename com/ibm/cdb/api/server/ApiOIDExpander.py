@@ -1,9 +1,12 @@
-def ApiOIDExpander():
-    '''public ApiOIDExpander(final DataWorker api)
+def ():
+    '''returns ApiOIDExpander\n\n
+    (final DataWorker api)\n
     '''
 def check():
-    '''public boolean check(final Class cls, final String name)
+    '''returns boolean\n\n
+    check(final Class cls, final String name)\n
     '''
 def fetch():
-    '''public Object fetch(final Object val)
+    '''returns Object\n\n
+    fetch(final Object val)\n
     '''

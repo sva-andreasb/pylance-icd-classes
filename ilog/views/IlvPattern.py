@@ -1,3 +1,4 @@
-def IlvPattern():
-    '''public IlvPattern(final int n, final Color color, final Color color2)
+def ():
+    '''returns IlvPattern\n\n
+    (final int n, final Color color, final Color color2)\n
     '''

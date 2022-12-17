@@ -1,6 +1,8 @@
-def MessageConstraintException():
-    '''public MessageConstraintException(final String message)
+def ():
+    '''returns MessageConstraintException\n\n
+    (final String message)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

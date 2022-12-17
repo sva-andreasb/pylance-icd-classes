@@ -1,48 +1,52 @@
-def CloudEnv():
-    '''public CloudEnv()
+def ():
+    '''returns CloudEnv\n\n
+    ()\n
     '''
 def getOAuth2URL():
-    '''public String getOAuth2URL()
+    '''returns String\n\n
+    getOAuth2URL()\n
     '''
 def getAuthCodeURL():
-    '''public String getAuthCodeURL()
+    '''returns String\n\n
+    getAuthCodeURL()\n
     '''
 def getDataAPIURL():
-    '''public String getDataAPIURL()
+    '''returns String\n\n
+    getDataAPIURL()\n
     '''
 def getAccountsAPIURL():
-    '''public String getAccountsAPIURL()
+    '''returns String\n\n
+    getAccountsAPIURL()\n
     '''
 def getDPURL():
-    '''public String getDPURL()
+    '''returns String\n\n
+    getDPURL()\n
     '''
 def setDPURL():
-    '''public void setDPURL(final String dp)
-    '''
-def createHTTPClient():
-    '''public static HttpClient createHTTPClient()
-    '''
-def createHTTPSSLClient():
-    '''public static HttpClient createHTTPSSLClient(final HttpClient base)
-    '''
-def getHttpHeaders():
-    '''public Map<String, String> getHttpHeaders()
+    '''returns None\n\n
+    setDPURL(final String dp)\n
     '''
 def setHttpHeaders():
-    '''public void setHttpHeaders(final Map<String, String> httpHeaders)
+    '''returns None\n\n
+    setHttpHeaders(final Map<String, String> httpHeaders)\n
     '''
 def getBaseURL():
-    '''public String getBaseURL()
+    '''returns String\n\n
+    getBaseURL()\n
     '''
 def setBaseURL():
-    '''public void setBaseURL(final String baseURL)
+    '''returns None\n\n
+    setBaseURL(final String baseURL)\n
     '''
 def checkClientTrusted():
-    '''public void checkClientTrusted(final X509Certificate[] xcs, final String string)
+    '''returns None\n\n
+    checkClientTrusted(final X509Certificate[] xcs, final String string)\n
     '''
 def checkServerTrusted():
-    '''public void checkServerTrusted(final X509Certificate[] xcs, final String string)
+    '''returns None\n\n
+    checkServerTrusted(final X509Certificate[] xcs, final String string)\n
     '''
 def getAcceptedIssuers():
-    '''public X509Certificate[] getAcceptedIssuers()
+    '''returns X509Certificate[]\n\n
+    getAcceptedIssuers()\n
     '''

@@ -1,9 +1,12 @@
 def warning():
-    '''public void warning(final CSSParseException e)
+    '''returns None\n\n
+    warning(final CSSParseException e)\n
     '''
 def error():
-    '''public void error(final CSSParseException e)
+    '''returns None\n\n
+    error(final CSSParseException e)\n
     '''
 def fatalError():
-    '''public void fatalError(final CSSParseException e)
+    '''returns None\n\n
+    fatalError(final CSSParseException e)\n
     '''

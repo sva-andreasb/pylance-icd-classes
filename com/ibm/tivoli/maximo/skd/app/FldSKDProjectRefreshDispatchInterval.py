@@ -1,6 +1,8 @@
-def FldSKDProjectRefreshDispatchInterval():
-    '''public FldSKDProjectRefreshDispatchInterval(final MboValue mbv)
+def ():
+    '''returns FldSKDProjectRefreshDispatchInterval\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

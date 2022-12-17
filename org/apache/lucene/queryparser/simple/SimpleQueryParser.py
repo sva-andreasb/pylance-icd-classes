@@ -8,14 +8,17 @@ ESCAPE_OPERATOR = "int  64"
 WHITESPACE_OPERATOR = "int  128"
 FUZZY_OPERATOR = "int  256"
 NEAR_OPERATOR = "int  512"
-def SimpleQueryParser():
-    '''public SimpleQueryParser(final Analyzer analyzer, final String field)
-    public SimpleQueryParser(final Analyzer analyzer, final Map<String, Float> weights)
-    public SimpleQueryParser(final Analyzer analyzer, final Map<String, Float> weights, final int flags)
+def ():
+    '''returns SimpleQueryParser\n\n
+    (final Analyzer analyzer, final String field)\n
+    (final Analyzer analyzer, final Map<String, Float> weights)\n
+    (final Analyzer analyzer, final Map<String, Float> weights, final int flags)\n
     '''
 def parse():
-    '''public Query parse(final String queryText)
+    '''returns Query\n\n
+    parse(final String queryText)\n
     '''
 def setDefaultOperator():
-    '''public void setDefaultOperator(final BooleanClause.Occur operator)
+    '''returns None\n\n
+    setDefaultOperator(final BooleanClause.Occur operator)\n
     '''

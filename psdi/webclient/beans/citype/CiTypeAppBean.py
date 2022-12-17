@@ -1,6 +1,8 @@
 def STATUS():
-    '''public int STATUS()
+    '''returns int\n\n
+    STATUS()\n
     '''
 def isUseWithActCISet():
-    '''public boolean isUseWithActCISet()
+    '''returns boolean\n\n
+    isUseWithActCISet()\n
     '''

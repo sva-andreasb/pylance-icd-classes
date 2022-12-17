@@ -1,65 +1,86 @@
-def GSMaxProjectAppBean():
-    '''public GSMaxProjectAppBean()
+def ():
+    '''returns GSMaxProjectAppBean\n\n
+    ()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def STATUS():
-    '''public int STATUS()
+    '''returns int\n\n
+    STATUS()\n
     '''
 def loadSchedule():
-    '''public Schedule loadSchedule()
+    '''returns Schedule\n\n
+    loadSchedule()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
-    public UserInfo getUserInfo()
-    public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
+    getUserInfo()\n
+    getUserInfo()\n
     '''
 def RECALPC():
-    '''public int RECALPC()
+    '''returns int\n\n
+    RECALPC()\n
     '''
 def RECALPC_LONGOP():
-    '''public int RECALPC_LONGOP()
+    '''returns int\n\n
+    RECALPC_LONGOP()\n
     '''
 def UPDSUM():
-    '''public int UPDSUM()
+    '''returns int\n\n
+    UPDSUM()\n
     '''
 def UPDSUMMARY_LONGOP():
-    '''public int UPDSUMMARY_LONGOP()
+    '''returns int\n\n
+    UPDSUMMARY_LONGOP()\n
     '''
 def calculatelaborhrs():
-    '''public int calculatelaborhrs()
+    '''returns int\n\n
+    calculatelaborhrs()\n
     '''
 def calculatewocost():
-    '''public int calculatewocost()
+    '''returns int\n\n
+    calculatewocost()\n
     '''
 def VMAINSNRIO():
-    '''public int VMAINSNRIO()
+    '''returns int\n\n
+    VMAINSNRIO()\n
     '''
 def sentViewScenarioEvent():
-    '''public void sentViewScenarioEvent(final String selectedScenarioProject, final MboRemote defaultSKDProject)
+    '''returns None\n\n
+    sentViewScenarioEvent(final String selectedScenarioProject, final MboRemote defaultSKDProject)\n
     '''
 def REFRESH():
-    '''public int REFRESH()
+    '''returns int\n\n
+    REFRESH()\n
     '''
 def REFRESHALL():
-    '''public int REFRESHALL()
+    '''returns int\n\n
+    REFRESHALL()\n
     '''
 def solutionsTabChanged():
-    '''public int solutionsTabChanged()
+    '''returns int\n\n
+    solutionsTabChanged()\n
     '''
 def compareTabLoaded():
-    '''public int compareTabLoaded()
+    '''returns int\n\n
+    compareTabLoaded()\n
     '''
 def resourceTabChanged():
-    '''public int resourceTabChanged()
+    '''returns int\n\n
+    resourceTabChanged()\n
     '''
 def checkWOSelected():
-    '''public String checkWOSelected(final String[] selectedRecords)
+    '''returns String\n\n
+    checkWOSelected(final String[] selectedRecords)\n
     '''
 def OPASCPSPARAM():
-    '''public int OPASCPSPARAM()
+    '''returns int\n\n
+    OPASCPSPARAM()\n
     '''

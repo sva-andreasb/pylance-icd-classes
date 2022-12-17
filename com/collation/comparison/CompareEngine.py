@@ -1,14 +1,14 @@
 def compare():
-    '''public CompareResults compare(final ModelObject object1, final ModelObject object2, final boolean deep)
-    public CompareResults compare(final ModelObject obj1, final ModelObject[] objs, final boolean deep)
-    public CompareResults compare(final ModelObject[] objs1, final ModelObject[] objs2, final boolean deep)
+    '''returns CompareResults\n\n
+    compare(final ModelObject object1, final ModelObject object2, final boolean deep)\n
+    compare(final ModelObject obj1, final ModelObject[] objs, final boolean deep)\n
+    compare(final ModelObject[] objs1, final ModelObject[] objs2, final boolean deep)\n
     '''
 def compareComposite():
-    '''public CompareResults compareComposite(final Composite composite1, final Composite composite2, final boolean deep)
+    '''returns CompareResults\n\n
+    compareComposite(final Composite composite1, final Composite composite2, final boolean deep)\n
     '''
 def compareApps():
-    '''public CompareResults compareApps(final Application application1, final Application application2, final boolean deep)
-    '''
-def getCompareClass():
-    '''public static String getCompareClass(final String cls)
+    '''returns CompareResults\n\n
+    compareApps(final Application application1, final Application application2, final boolean deep)\n
     '''

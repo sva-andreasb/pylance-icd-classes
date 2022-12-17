@@ -1,4 +1,5 @@
-def FinderException():
-    '''public FinderException()
-    public FinderException(final String message)
+def ():
+    '''returns FinderException\n\n
+    ()\n
+    (final String message)\n
     '''

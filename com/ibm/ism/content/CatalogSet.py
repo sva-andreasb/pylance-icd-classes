@@ -1,3 +1,4 @@
-def CatalogSet():
-    '''public CatalogSet(final MboServerInterface ms)
+def ():
+    '''returns CatalogSet\n\n
+    (final MboServerInterface ms)\n
     '''

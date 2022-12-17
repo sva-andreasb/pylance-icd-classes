@@ -2,27 +2,28 @@ HIDDEN_PROP_PARAM_NAME = "String  \"ADTCommandProps\""
 STEP_DISPLAY_FORMAT_KEY = "String  \"StepDisplayFormatKey\""
 MULTIPLE_SCOPES_PER_STEP_FORMAT_VALUE = "String  \"MultipleScopesPerStepFormatValue\""
 ONE_SCOPE_PER_STEP_FORMAT_VALUE = "String  \"OneScopePerStepFormatValue\""
-def AsyncCommandClient():
-    '''public AsyncCommandClient(final Session session, final AsyncCommandHandlerIF clientNotifHandler)
+def ():
+    '''returns CmdNotificationHandlerImpl\n\n
+    (final Session session, final AsyncCommandHandlerIF clientNotifHandler)\n
+    ()\n
     '''
 def execute():
-    '''public void execute(final AdminCommand adminCmd)
+    '''returns None\n\n
+    execute(final AdminCommand adminCmd)\n
     '''
 def processCommandParameters():
-    '''public void processCommandParameters(final AdminCommand adminCmd)
+    '''returns None\n\n
+    processCommandParameters(final AdminCommand adminCmd)\n
     '''
 def setStepDisplayFormat():
-    '''public void setStepDisplayFormat(final AdminCommand adminCmd, final String displayFormat)
-    '''
-def CmdNotificationHandlerImpl():
-    '''public CmdNotificationHandlerImpl()
-    '''
-def handleCmdNotification():
-    '''public synchronized void handleCmdNotification(final CommandNotification cn)
+    '''returns None\n\n
+    setStepDisplayFormat(final AdminCommand adminCmd, final String displayFormat)\n
     '''
 def getCommandStatus():
-    '''public String getCommandStatus()
+    '''returns String\n\n
+    getCommandStatus()\n
     '''
 def getCommandResult():
-    '''public CommandResult getCommandResult()
+    '''returns CommandResult\n\n
+    getCommandResult()\n
     '''

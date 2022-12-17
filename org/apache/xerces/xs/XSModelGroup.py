@@ -1,0 +1,3 @@
+COMPOSITOR_SEQUENCE = "short  1"
+COMPOSITOR_CHOICE = "short  2"
+COMPOSITOR_ALL = "short  3"

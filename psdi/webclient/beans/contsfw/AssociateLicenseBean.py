@@ -1,3 +1,4 @@
 def assosiate():
-    '''public int assosiate()
+    '''returns int\n\n
+    assosiate()\n
     '''

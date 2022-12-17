@@ -1,22 +1,17 @@
-def RomanList():
-    '''public RomanList(final int symbolIndent)
-    public RomanList(final boolean romanlower, final int symbolIndent)
+def ():
+    '''returns RomanList\n\n
+    (final int symbolIndent)\n
+    (final boolean romanlower, final int symbolIndent)\n
     '''
 def setRomanLower():
-    '''public void setRomanLower(final boolean romanlower)
+    '''returns None\n\n
+    setRomanLower(final boolean romanlower)\n
     '''
 def isRomanLower():
-    '''public boolean isRomanLower()
+    '''returns boolean\n\n
+    isRomanLower()\n
     '''
 def add():
-    '''public boolean add(final Object o)
-    '''
-def toRoman():
-    '''public static String toRoman(final int number)
-    '''
-def toRomanUppercase():
-    '''public static String toRomanUppercase(final int number)
-    '''
-def toRomanLowerCase():
-    '''public static String toRomanLowerCase(int number)
+    '''returns boolean\n\n
+    add(final Object o)\n
     '''

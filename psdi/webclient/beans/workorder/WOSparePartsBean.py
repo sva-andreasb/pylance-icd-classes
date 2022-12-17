@@ -1,3 +1,4 @@
 def setApp():
-    '''public void setApp(final String appName)
+    '''returns None\n\n
+    setApp(final String appName)\n
     '''

@@ -1,15 +1,16 @@
-def RegisterDocBean():
-    '''public RegisterDocBean()
+def ():
+    '''returns RegisterDocBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
-    '''
-def insert():
-    '''public synchronized void insert()
+    '''returns None\n\n
+    initialize()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

@@ -1,3 +1,4 @@
-def SKDPersonSearch():
-    '''public SKDPersonSearch(final MboSet ms)
+def ():
+    '''returns SKDPersonSearch\n\n
+    (final MboSet ms)\n
     '''

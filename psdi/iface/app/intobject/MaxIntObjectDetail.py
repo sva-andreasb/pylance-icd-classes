@@ -1,89 +1,110 @@
-def MaxIntObjectDetail():
-    '''public MaxIntObjectDetail(final MboSet ms)
+def ():
+    '''returns MaxIntObjectDetail\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def fillRelations():
-    '''public void fillRelations()
+    '''returns None\n\n
+    fillRelations()\n
     '''
 def handleShowRelation():
-    '''public void handleShowRelation()
+    '''returns None\n\n
+    handleShowRelation()\n
     '''
 def createNPIncludeColumns():
-    '''public void createNPIncludeColumns(final String tbname)
+    '''returns None\n\n
+    createNPIncludeColumns(final String tbname)\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
-    public int compare(final Object o1, final Object o2)
-    public int compare(final String o1, final String o2)
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
+    compare(final Object o1, final Object o2)\n
+    compare(final String o1, final String o2)\n
     '''
 def createAliasPersistentMbo():
-    '''public void createAliasPersistentMbo()
+    '''returns None\n\n
+    createAliasPersistentMbo()\n
     '''
 def createNPAlias():
-    '''public void createNPAlias()
+    '''returns None\n\n
+    createNPAlias()\n
     '''
 def createNPExcludeColumns():
-    '''public Map createNPExcludeColumns(final String tbname)
+    '''returns Map\n\n
+    createNPExcludeColumns(final String tbname)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def npTOpFillUp():
-    '''public void npTOpFillUp(final String relation)
+    '''returns None\n\n
+    npTOpFillUp(final String relation)\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def isTop():
-    '''public boolean isTop()
+    '''returns boolean\n\n
+    isTop()\n
     '''
 def hasChildren():
-    '''public boolean hasChildren()
+    '''returns boolean\n\n
+    hasChildren()\n
     '''
 def setHasChildrenOnParent():
-    '''public void setHasChildrenOnParent()
+    '''returns None\n\n
+    setHasChildrenOnParent()\n
     '''
 def hasParents():
-    '''public boolean hasParents()
+    '''returns boolean\n\n
+    hasParents()\n
     '''
 def setParent():
-    '''public void setParent(final int objId, final String parentObjName)
+    '''returns None\n\n
+    setParent(final int objId, final String parentObjName)\n
     '''
 def validateSiblingChildren():
-    '''public void validateSiblingChildren()
+    '''returns None\n\n
+    validateSiblingChildren()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
-    '''
-def getIncludeExcludeCols():
-    '''public Map<String, String> getIncludeExcludeCols()
-    '''
-def getIntObjAlias():
-    '''public Map<String, String> getIntObjAlias()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def createNPSettingRelation():
-    '''public void createNPSettingRelation(final String objName)
+    '''returns None\n\n
+    createNPSettingRelation(final String objName)\n
     '''
 def createSettingRestriction():
-    '''public void createSettingRestriction()
+    '''returns None\n\n
+    createSettingRestriction()\n
     '''

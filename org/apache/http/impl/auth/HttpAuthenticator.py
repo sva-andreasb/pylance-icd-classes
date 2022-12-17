@@ -1,13 +1,17 @@
-def HttpAuthenticator():
-    '''public HttpAuthenticator(final Log log)
-    public HttpAuthenticator()
+def ():
+    '''returns HttpAuthenticator\n\n
+    (final Log log)\n
+    ()\n
     '''
 def isAuthenticationRequested():
-    '''public boolean isAuthenticationRequested(final HttpHost host, final HttpResponse response, final AuthenticationStrategy authStrategy, final AuthState authState, final HttpContext context)
+    '''returns boolean\n\n
+    isAuthenticationRequested(final HttpHost host, final HttpResponse response, final AuthenticationStrategy authStrategy, final AuthState authState, final HttpContext context)\n
     '''
 def handleAuthChallenge():
-    '''public boolean handleAuthChallenge(final HttpHost host, final HttpResponse response, final AuthenticationStrategy authStrategy, final AuthState authState, final HttpContext context)
+    '''returns boolean\n\n
+    handleAuthChallenge(final HttpHost host, final HttpResponse response, final AuthenticationStrategy authStrategy, final AuthState authState, final HttpContext context)\n
     '''
 def generateAuthResponse():
-    '''public void generateAuthResponse(final HttpRequest request, final AuthState authState, final HttpContext context)
+    '''returns None\n\n
+    generateAuthResponse(final HttpRequest request, final AuthState authState, final HttpContext context)\n
     '''

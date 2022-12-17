@@ -1,9 +1,12 @@
-def OrgSetHolderForConditionalUI():
-    '''public OrgSetHolderForConditionalUI(final MboSet ms)
+def ():
+    '''returns OrgSetHolderForConditionalUI\n\n
+    (final MboSet ms)\n
     '''
 def setOrgSet():
-    '''public void setOrgSet(final MboSetRemote orgSet)
+    '''returns None\n\n
+    setOrgSet(final MboSetRemote orgSet)\n
     '''
 def getOrgSet():
-    '''public MboSetRemote getOrgSet()
+    '''returns MboSetRemote\n\n
+    getOrgSet()\n
     '''

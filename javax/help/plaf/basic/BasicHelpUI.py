@@ -1,46 +1,53 @@
-def createUI():
-    '''public static ComponentUI createUI(final JComponent component)
-    '''
-def BasicHelpUI():
-    '''public BasicHelpUI(final JHelp help)
+def ():
+    '''returns BasicHelpUI\n\n
+    (final JHelp help)\n
     '''
 def installUI():
-    '''public void installUI(final JComponent component)
+    '''returns None\n\n
+    installUI(final JComponent component)\n
     '''
 def uninstallUI():
-    '''public void uninstallUI(final JComponent component)
+    '''returns None\n\n
+    uninstallUI(final JComponent component)\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize(final JComponent component)
+    '''returns Dimension\n\n
+    getPreferredSize(final JComponent component)\n
     '''
 def getMinimumSize():
-    '''public Dimension getMinimumSize(final JComponent component)
+    '''returns Dimension\n\n
+    getMinimumSize(final JComponent component)\n
     '''
 def getMaximumSize():
-    '''public Dimension getMaximumSize(final JComponent component)
+    '''returns Dimension\n\n
+    getMaximumSize(final JComponent component)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def addNavigator():
-    '''public void addNavigator(final JHelpNavigator component)
+    '''returns None\n\n
+    addNavigator(final JHelpNavigator component)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def removeNavigator():
-    '''public void removeNavigator(final JHelpNavigator helpNavigator)
+    '''returns None\n\n
+    removeNavigator(final JHelpNavigator helpNavigator)\n
     '''
 def getHelpNavigators():
-    '''public Enumeration getHelpNavigators()
+    '''returns Enumeration\n\n
+    getHelpNavigators()\n
     '''
 def setCurrentNavigator():
-    '''public void setCurrentNavigator(final JHelpNavigator selectedComponent)
+    '''returns None\n\n
+    setCurrentNavigator(final JHelpNavigator selectedComponent)\n
     '''
 def getCurrentNavigator():
-    '''public JHelpNavigator getCurrentNavigator()
-    '''
-def getIcon():
-    '''public static ImageIcon getIcon(final Class obj, final String s)
+    '''returns JHelpNavigator\n\n
+    getCurrentNavigator()\n
     '''

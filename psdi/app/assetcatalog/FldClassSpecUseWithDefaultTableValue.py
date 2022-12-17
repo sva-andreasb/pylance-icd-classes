@@ -1,12 +1,16 @@
-def FldClassSpecUseWithDefaultTableValue():
-    '''public FldClassSpecUseWithDefaultTableValue(final MboValue mbv)
+def ():
+    '''returns FldClassSpecUseWithDefaultTableValue\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def getLookupName():
-    '''public String getLookupName()
+    '''returns String\n\n
+    getLookupName()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

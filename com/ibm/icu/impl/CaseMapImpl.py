@@ -2,85 +2,76 @@ TITLECASE_WHOLE_STRING = "int  32"
 TITLECASE_SENTENCES = "int  64"
 TITLECASE_ADJUST_TO_CASED = "int  1024"
 OMIT_UNCHANGED_TEXT = "int  16384"
-def addTitleAdjustmentOption():
-    '''public static int addTitleAdjustmentOption(final int options, final int newOption)
-    '''
-def addTitleIteratorOption():
-    '''public static int addTitleIteratorOption(final int options, final int newOption)
-    '''
-def getTitleBreakIterator():
-    '''public static BreakIterator getTitleBreakIterator(final Locale locale, int options, BreakIterator iter)
-    public static BreakIterator getTitleBreakIterator(final ULocale locale, int options, BreakIterator iter)
-    '''
-def toLower():
-    '''public static String toLower(final int caseLocale, final int options, final CharSequence src)
-    public static <A extends Appendable> A toLower(final int caseLocale, final int options, final CharSequence src, final A dest, final Edits edits)
-    '''
-def toUpper():
-    '''public static String toUpper(final int caseLocale, final int options, final CharSequence src)
-    public static <A extends Appendable> A toUpper(final int caseLocale, final int options, final CharSequence src, final A dest, final Edits edits)
-    '''
-def toTitle():
-    '''public static String toTitle(final int caseLocale, final int options, final BreakIterator iter, final CharSequence src)
-    public static <A extends Appendable> A toTitle(final int caseLocale, final int options, final BreakIterator titleIter, final CharSequence src, final A dest, final Edits edits)
-    '''
-def fold():
-    '''public static String fold(final int options, final CharSequence src)
-    public static <A extends Appendable> A fold(final int options, final CharSequence src, final A dest, final Edits edits)
-    '''
-def StringContextIterator():
-    '''public StringContextIterator(final CharSequence src)
-    public StringContextIterator(final CharSequence src, final int cpStart, final int cpLimit)
+def ():
+    '''returns StringContextIterator\n\n
+    (final CharSequence src)\n
+    (final CharSequence src, final int cpStart, final int cpLimit)\n
     '''
 def setLimit():
-    '''public void setLimit(final int lim)
+    '''returns None\n\n
+    setLimit(final int lim)\n
     '''
 def moveToLimit():
-    '''public void moveToLimit()
+    '''returns None\n\n
+    moveToLimit()\n
     '''
 def nextCaseMapCP():
-    '''public int nextCaseMapCP()
+    '''returns int\n\n
+    nextCaseMapCP()\n
     '''
 def setCPStartAndLimit():
-    '''public void setCPStartAndLimit(final int s, final int l)
+    '''returns None\n\n
+    setCPStartAndLimit(final int s, final int l)\n
     '''
 def getCPStart():
-    '''public int getCPStart()
+    '''returns int\n\n
+    getCPStart()\n
     '''
 def getCPLimit():
-    '''public int getCPLimit()
+    '''returns int\n\n
+    getCPLimit()\n
     '''
 def getCPLength():
-    '''public int getCPLength()
+    '''returns int\n\n
+    getCPLength()\n
     '''
 def reset():
-    '''public void reset(final int direction)
+    '''returns None\n\n
+    reset(final int direction)\n
     '''
 def next():
-    '''public int next()
-    public int next(final int n)
-    public int next()
+    '''returns int\n\n
+    next()\n
+    next(final int n)\n
+    next()\n
     '''
 def first():
-    '''public int first()
+    '''returns int\n\n
+    first()\n
     '''
 def last():
-    '''public int last()
+    '''returns int\n\n
+    last()\n
     '''
 def previous():
-    '''public int previous()
+    '''returns int\n\n
+    previous()\n
     '''
 def following():
-    '''public int following(final int offset)
+    '''returns int\n\n
+    following(final int offset)\n
     '''
 def current():
-    '''public int current()
+    '''returns int\n\n
+    current()\n
     '''
 def getText():
-    '''public CharacterIterator getText()
+    '''returns CharacterIterator\n\n
+    getText()\n
     '''
 def setText():
-    '''public void setText(final CharacterIterator newText)
-    public void setText(final CharSequence newText)
-    public void setText(final String newText)
+    '''returns None\n\n
+    setText(final CharacterIterator newText)\n
+    setText(final CharSequence newText)\n
+    setText(final String newText)\n
     '''

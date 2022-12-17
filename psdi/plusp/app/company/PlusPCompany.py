@@ -1,3 +1,4 @@
-def PlusPCompany():
-    '''public PlusPCompany(final MboSet arg0)
+def ():
+    '''returns PlusPCompany\n\n
+    (final MboSet arg0)\n
     '''

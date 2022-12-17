@@ -1,3 +1,4 @@
 def export():
-    '''public int export()
+    '''returns int\n\n
+    export()\n
     '''

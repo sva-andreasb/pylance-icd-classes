@@ -1,33 +1,43 @@
 def serviceAvailable():
-    '''public void serviceAvailable(final AwarenessServiceEvent awarenessServiceEvent)
-    public void serviceAvailable(final ServiceEvent serviceEvent)
-    public void serviceAvailable(final LoginAttributeEvent loginAttributeEvent)
+    '''returns None\n\n
+    serviceAvailable(final AwarenessServiceEvent awarenessServiceEvent)\n
+    serviceAvailable(final ServiceEvent serviceEvent)\n
+    serviceAvailable(final LoginAttributeEvent loginAttributeEvent)\n
     '''
 def serviceUnavailable():
-    '''public void serviceUnavailable(final AwarenessServiceEvent awarenessServiceEvent)
-    public void serviceUnavailable(final LoginAttributeEvent loginAttributeEvent)
+    '''returns None\n\n
+    serviceUnavailable(final AwarenessServiceEvent awarenessServiceEvent)\n
+    serviceUnavailable(final LoginAttributeEvent loginAttributeEvent)\n
     '''
 def attrChanged():
-    '''public void attrChanged(final AttributeEvent attributeEvent)
+    '''returns None\n\n
+    attrChanged(final AttributeEvent attributeEvent)\n
     '''
 def attrRemoved():
-    '''public void attrRemoved(final AttributeEvent attributeEvent)
+    '''returns None\n\n
+    attrRemoved(final AttributeEvent attributeEvent)\n
     '''
 def attrContentQueried():
-    '''public void attrContentQueried(final AttributeEvent attributeEvent)
+    '''returns None\n\n
+    attrContentQueried(final AttributeEvent attributeEvent)\n
     '''
 def queryAttrContentFailed():
-    '''public void queryAttrContentFailed(final AttributeEvent attributeEvent)
+    '''returns None\n\n
+    queryAttrContentFailed(final AttributeEvent attributeEvent)\n
     '''
 def publishLoginAttributeResponse():
-    '''public void publishLoginAttributeResponse(final LoginAttributeEvent loginAttributeEvent)
+    '''returns None\n\n
+    publishLoginAttributeResponse(final LoginAttributeEvent loginAttributeEvent)\n
     '''
 def removeLoginAttributeResponse():
-    '''public void removeLoginAttributeResponse(final LoginAttributeEvent loginAttributeEvent)
+    '''returns None\n\n
+    removeLoginAttributeResponse(final LoginAttributeEvent loginAttributeEvent)\n
     '''
 def loggedIn():
-    '''public void loggedIn(final LoginEvent loginEvent)
+    '''returns None\n\n
+    loggedIn(final LoginEvent loginEvent)\n
     '''
 def loggedOut():
-    '''public void loggedOut(final LoginEvent loginEvent)
+    '''returns None\n\n
+    loggedOut(final LoginEvent loginEvent)\n
     '''

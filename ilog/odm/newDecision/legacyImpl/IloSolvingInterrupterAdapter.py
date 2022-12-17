@@ -1,28 +1,37 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloSolvingInterrupterAdapter():
-    '''public IloSolvingInterrupterAdapter(final IloSolvingInterrupter interrupter)
+def ():
+    '''returns IloSolvingInterrupterAdapter\n\n
+    (final IloSolvingInterrupter interrupter)\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def requestResultRefresh():
-    '''public void requestResultRefresh()
+    '''returns None\n\n
+    requestResultRefresh()\n
     '''
 def skipCurrentExecutionTask():
-    '''public void skipCurrentExecutionTask()
+    '''returns None\n\n
+    skipCurrentExecutionTask()\n
     '''
 def skipCurrentGoalBoundSearch():
-    '''public void skipCurrentGoalBoundSearch()
+    '''returns None\n\n
+    skipCurrentGoalBoundSearch()\n
     '''
 def skipRelaxationMinimization():
-    '''public void skipRelaxationMinimization()
+    '''returns None\n\n
+    skipRelaxationMinimization()\n
     '''
 def skipRelaxationPriority():
-    '''public void skipRelaxationPriority()
+    '''returns None\n\n
+    skipRelaxationPriority()\n
     '''
 def acceptCurrentSolution():
-    '''public void acceptCurrentSolution()
+    '''returns None\n\n
+    acceptCurrentSolution()\n
     '''
 def sendControllingOrder():
-    '''public void sendControllingOrder(final long orderId, final String orderType, final Serializable[] orderParameter)
+    '''returns None\n\n
+    sendControllingOrder(final long orderId, final String orderType, final Serializable[] orderParameter)\n
     '''

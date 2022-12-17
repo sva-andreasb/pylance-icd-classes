@@ -1,79 +1,79 @@
-def IoTFService():
-    '''public IoTFService(final MXServer mxServer)
-    public IoTFService()
+def ():
+    '''returns IoTFService\n\n
+    (final MXServer mxServer)\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getDeviceTypesNotIn():
-    '''public List<Object> getDeviceTypesNotIn(@WSMboKey("IOTFCFG") final MboRemote iotf, final List<String> excludeTheseTypes, final String sort)
+    '''returns List<Object>\n\n
+    getDeviceTypesNotIn(@WSMboKey("IOTFCFG") final MboRemote iotf, final List<String> excludeTheseTypes, final String sort)\n
     '''
 def getNotMappedYetDeviceTypes():
-    '''public List<Object> getNotMappedYetDeviceTypes(@WSMboKey("IOTFCFG") final MboRemote iotf, final String sort)
+    '''returns List<Object>\n\n
+    getNotMappedYetDeviceTypes(@WSMboKey("IOTFCFG") final MboRemote iotf, final String sort)\n
     '''
 def getAllIoTHistorians():
-    '''public List<Object> getAllIoTHistorians()
-    '''
-def validateHistorianEndPoint():
-    '''public Map<String, Object> validateHistorianEndPoint(final String orgid, final String url, final String user, final String password, final String bucket, final String dbname)
+    '''returns List<Object>\n\n
+    getAllIoTHistorians()\n
     '''
 def pingHistorian():
-    '''public boolean pingHistorian()
+    '''returns boolean\n\n
+    pingHistorian()\n
     '''
 def getHistorianDatabaseName():
-    '''public String getHistorianDatabaseName(final String orgid, final String historian, final Date dt)
+    '''returns String\n\n
+    getHistorianDatabaseName(final String orgid, final String historian, final Date dt)\n
     '''
 def getAnyHistorianDatabaseName():
-    '''public String getAnyHistorianDatabaseName(final String orgid, final String historian, String choice, String bucket, final Date dt, final int offset, final boolean isDefault)
+    '''returns String\n\n
+    getAnyHistorianDatabaseName(final String orgid, final String historian, String choice, String bucket, final Date dt, final int offset, final boolean isDefault)\n
     '''
 def getAllDeviceTypes():
-    '''public List<Object> getAllDeviceTypes(@WSMboKey("IOTFCFG") final MboRemote iotf, final String sort)
-    '''
-def pingIoT():
-    '''public Map<String, Object> pingIoT(final String iotfOrg, final String apiKey, final String authToken, final String processclass)
-    '''
-def pingIoTF():
-    '''public Map<String, Object> pingIoTF(final String iotfOrg, final String apiKey, final String authToken)
-    '''
-def testConnectivity():
-    '''public Map<String, Object> testConnectivity(@WSMboKey("IOTFCFG") final MboRemote iotfOrg)
+    '''returns List<Object>\n\n
+    getAllDeviceTypes(@WSMboKey("IOTFCFG") final MboRemote iotf, final String sort)\n
     '''
 def getLastMessageFromCache():
-    '''public Map<String, Object> getLastMessageFromCache(@WSMboKey("IOTFCFG") final MboRemote iotf, final String deviceType)
-    public JSONArray getLastMessageFromCache(final String org, final String apiKey, final String authToken, final String type, final String deviceid)
-    '''
-def getLastMessageFromCacheForDevice():
-    '''public Map<String, Object> getLastMessageFromCacheForDevice(@WSMboKey("IOTFCFG") final MboRemote iotf, final String deviceType, final String deviceid)
+    '''returns JSONArray\n\n
+    getLastMessageFromCache(final String org, final String apiKey, final String authToken, final String type, final String deviceid)\n
     '''
 def canDeleteOrg():
-    '''public void canDeleteOrg(@WSMboKey("IOTFCFG") final MboRemote iotf)
+    '''returns None\n\n
+    canDeleteOrg(@WSMboKey("IOTFCFG") final MboRemote iotf)\n
     '''
 def canDeleteDeviceType():
-    '''public void canDeleteDeviceType(@WSMboKey("IOTFDEVICETYPECFG") final MboRemote iotf)
+    '''returns None\n\n
+    canDeleteDeviceType(@WSMboKey("IOTFDEVICETYPECFG") final MboRemote iotf)\n
     '''
 def clearDeviceRefernceForOrg():
-    '''public void clearDeviceRefernceForOrg(@WSMboKey("IOTFCFG") final MboRemote iotf)
+    '''returns None\n\n
+    clearDeviceRefernceForOrg(@WSMboKey("IOTFCFG") final MboRemote iotf)\n
     '''
 def clearDeviceRefernce():
-    '''public void clearDeviceRefernce(@WSMboKey("IOTFDEVICETYPECFG") final MboRemote iotf)
-    '''
-def checkCronTaskInstance():
-    '''public Map<String, Object> checkCronTaskInstance(final String instancename)
+    '''returns None\n\n
+    clearDeviceRefernce(@WSMboKey("IOTFDEVICETYPECFG") final MboRemote iotf)\n
     '''
 def syncDevices():
-    '''public void syncDevices(final String iotfOrg, final UserInfo userInfo)
+    '''returns None\n\n
+    syncDevices(final String iotfOrg, final UserInfo userInfo)\n
     '''
 def getDevices():
-    '''public List<Object> getDevices(final String iotfOrg, final UserInfo userInfo, final String deviceType, final int limit)
-    public List<Object> getDevices(final String iotfOrg, final String apiKey, final String apiToken, final String deviceType, final int limit)
+    '''returns List<Object>\n\n
+    getDevices(final String iotfOrg, final UserInfo userInfo, final String deviceType, final int limit)\n
+    getDevices(final String iotfOrg, final String apiKey, final String apiToken, final String deviceType, final int limit)\n
     '''
 def deleteDocument():
-    '''public void deleteDocument(final Map<String, Object> metaData, String postUrl, final HTTPHandler handler)
+    '''returns None\n\n
+    deleteDocument(final Map<String, Object> metaData, String postUrl, final HTTPHandler handler)\n
     '''
 def invokeIoTAPI():
-    '''public byte[] invokeIoTAPI(final String org, final String apiKey, final String authToken, final String apiURL)
+    '''returns byte[]\n\n
+    invokeIoTAPI(final String org, final String apiKey, final String authToken, final String apiURL)\n
     '''
 def getBaseIoTURL():
-    '''public String getBaseIoTURL(final String org)
-    public String getBaseIoTURL(final String org, final String endPointName)
+    '''returns String\n\n
+    getBaseIoTURL(final String org)\n
+    getBaseIoTURL(final String org, final String endPointName)\n
     '''

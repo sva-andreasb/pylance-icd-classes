@@ -1,35 +1,46 @@
-def GraphRDBMaker():
-    '''public GraphRDBMaker(final IDBConnection c, final ReificationStyle style)
+def ():
+    '''returns GraphRDBMaker\n\n
+    (final IDBConnection c, final ReificationStyle style)\n
     '''
 def accept():
-    '''public boolean accept(final String x)
+    '''returns boolean\n\n
+    accept(final String x)\n
     '''
 def getGraph():
-    '''public Graph getGraph()
+    '''returns Graph\n\n
+    getGraph()\n
     '''
 def openGraph():
-    '''public Graph openGraph()
-    public Graph openGraph(final String name, final boolean strict)
+    '''returns Graph\n\n
+    openGraph()\n
+    openGraph(final String name, final boolean strict)\n
     '''
 def createGraph():
-    '''public Graph createGraph()
-    public Graph createGraph(final String name, final boolean strict)
+    '''returns Graph\n\n
+    createGraph()\n
+    createGraph(final String name, final boolean strict)\n
     '''
 def freshGraphName():
-    '''public String freshGraphName()
+    '''returns String\n\n
+    freshGraphName()\n
     '''
 def removeGraph():
-    '''public void removeGraph(final String name)
+    '''returns None\n\n
+    removeGraph(final String name)\n
     '''
 def hasGraph():
-    '''public boolean hasGraph(final String name)
+    '''returns boolean\n\n
+    hasGraph(final String name)\n
     '''
 def removeAll():
-    '''public void removeAll()
+    '''returns None\n\n
+    removeAll()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def listGraphs():
-    '''public ExtendedIterator<String> listGraphs()
+    '''returns ExtendedIterator<String>\n\n
+    listGraphs()\n
     '''

@@ -1,6 +1,8 @@
-def ReEncryptRequestMarshaller():
-    '''public ReEncryptRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+def ():
+    '''returns ReEncryptRequestMarshaller\n\n
+    (final SdkJsonProtocolFactory protocolFactory)\n
     '''
 def marshall():
-    '''public Request<ReEncryptRequest> marshall(final ReEncryptRequest reEncryptRequest)
+    '''returns Request<ReEncryptRequest>\n\n
+    marshall(final ReEncryptRequest reEncryptRequest)\n
     '''

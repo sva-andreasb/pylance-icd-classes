@@ -1,13 +1,17 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloOplConstraintHander():
-    '''public IloOplConstraintHander(final IloDefaultRecursiveHandler previous, final String name, final IloRequirementFolderDesc parent, final Attributes atts)
+def ():
+    '''returns IloOplConstraintHander\n\n
+    (final IloDefaultRecursiveHandler previous, final String name, final IloRequirementFolderDesc parent, final Attributes atts)\n
     '''
 def startElement():
-    '''public void startElement(final String namespaceURI, final String localName, final String qName, final Attributes atts)
+    '''returns None\n\n
+    startElement(final String namespaceURI, final String localName, final String qName, final Attributes atts)\n
     '''
 def endElement():
-    '''public void endElement(final String namespaceURI, final String localName, final String qName)
+    '''returns None\n\n
+    endElement(final String namespaceURI, final String localName, final String qName)\n
     '''
 def getOplConstraintDesc():
-    '''public IloOplConstraintDesc getOplConstraintDesc()
+    '''returns IloOplConstraintDesc\n\n
+    getOplConstraintDesc()\n
     '''

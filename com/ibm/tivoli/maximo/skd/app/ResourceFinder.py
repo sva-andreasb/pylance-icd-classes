@@ -1,30 +1,28 @@
-def ResourceFinder():
-    '''public ResourceFinder(final long skdprojectid, final String emQuery)
+def ():
+    '''returns ResourceFinder\n\n
+    (final long skdprojectid, final String emQuery)\n
     '''
 def getAvailResoures():
-    '''public List getAvailResoures(final UserInfo userInfo, final String type, final MboRemote wo, final MboRemote req)
+    '''returns List\n\n
+    getAvailResoures(final UserInfo userInfo, final String type, final MboRemote wo, final MboRemote req)\n
     '''
 def getProjectResoures():
-    '''public List getProjectResoures()
+    '''returns List\n\n
+    getProjectResoures()\n
     '''
 def getProjectReassignResoures():
-    '''public List getProjectReassignResoures()
-    '''
-def getResourceProjectAssignedSet():
-    '''public HashMap<String, MboSetRemote> getResourceProjectAssignedSet()
+    '''returns List\n\n
+    getProjectReassignResoures()\n
     '''
 def getClosestResoureList():
-    '''public List getClosestResoureList(final List resoureSet, final String type, final MboRemote wo, final MboRemote req, final boolean assignedlist)
-    '''
-def getTravelTimeForResoureList():
-    '''public HashMap<String, Double> getTravelTimeForResoureList(final List resoureSet, final String type, final MboRemote wo, final MboRemote req, final boolean assignedlist)
-    '''
-def getWOandTravelTimeForResoureList():
-    '''public HashMap<String, HashMap<String, Double>> getWOandTravelTimeForResoureList(final List resoureSet, final String type, final MboRemote wo, final MboRemote req, final boolean assignedlist)
+    '''returns List\n\n
+    getClosestResoureList(final List resoureSet, final String type, final MboRemote wo, final MboRemote req, final boolean assignedlist)\n
     '''
 def getDateDBSqlString():
-    '''public String getDateDBSqlString()
+    '''returns String\n\n
+    getDateDBSqlString()\n
     '''
 def isAvailableByCalendar():
-    '''public boolean isAvailableByCalendar(final UserInfo userInfo, final MboRemote resourceRemote, final MboRemote personCal, Date dateVal, AvailCalc availCalc, final boolean considerBreaks, final int mins)
+    '''returns boolean\n\n
+    isAvailableByCalendar(final UserInfo userInfo, final MboRemote resourceRemote, final MboRemote personCal, Date dateVal, AvailCalc availCalc, final boolean considerBreaks, final int mins)\n
     '''

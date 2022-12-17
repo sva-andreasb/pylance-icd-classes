@@ -1,3 +1,4 @@
-def AMCrewWoLabSet():
-    '''public AMCrewWoLabSet(final MboServerInterface ms)
+def ():
+    '''returns AMCrewWoLabSet\n\n
+    (final MboServerInterface ms)\n
     '''

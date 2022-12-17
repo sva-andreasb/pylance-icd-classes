@@ -1,66 +1,84 @@
-def InventoryAppBean():
-    '''public InventoryAppBean()
+def ():
+    '''returns InventoryAppBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def RELLOCKS():
-    '''public int RELLOCKS()
+    '''returns int\n\n
+    RELLOCKS()\n
     '''
 def RELLOCKSNODIALOG():
-    '''public int RELLOCKSNODIALOG()
+    '''returns int\n\n
+    RELLOCKSNODIALOG()\n
     '''
 def PHYSCNTADJ():
-    '''public int PHYSCNTADJ()
+    '''returns int\n\n
+    PHYSCNTADJ()\n
     '''
 def KITMAKE():
-    '''public int KITMAKE()
+    '''returns int\n\n
+    KITMAKE()\n
     '''
 def KITBREAK():
-    '''public int KITBREAK()
+    '''returns int\n\n
+    KITBREAK()\n
     '''
 def ISSUE():
-    '''public int ISSUE()
+    '''returns int\n\n
+    ISSUE()\n
     '''
 def ISSUEMULTI():
-    '''public int ISSUEMULTI()
+    '''returns int\n\n
+    ISSUEMULTI()\n
     '''
 def TRANSFER():
-    '''public int TRANSFER()
+    '''returns int\n\n
+    TRANSFER()\n
     '''
 def RECONCILE():
-    '''public int RECONCILE()
+    '''returns int\n\n
+    RECONCILE()\n
     '''
 def CURBALADJ():
-    '''public int CURBALADJ()
+    '''returns int\n\n
+    CURBALADJ()\n
     '''
 def AVGCOSTADJ():
-    '''public int AVGCOSTADJ()
+    '''returns int\n\n
+    AVGCOSTADJ()\n
     '''
 def STDCOSTADJ():
-    '''public int STDCOSTADJ()
+    '''returns int\n\n
+    STDCOSTADJ()\n
     '''
 def TAXCODES():
-    '''public int TAXCODES()
+    '''returns int\n\n
+    TAXCODES()\n
     '''
 def STATUS():
-    '''public int STATUS()
+    '''returns int\n\n
+    STATUS()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
-    '''
-def getMbo():
-    '''public synchronized MboRemote getMbo()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def getcurrEvent():
-    '''public String getcurrEvent()
+    '''returns String\n\n
+    getcurrEvent()\n
     '''
 def getInvSet():
-    '''public MboSetRemote getInvSet()
+    '''returns MboSetRemote\n\n
+    getInvSet()\n
     '''
 def hasSigOptionAccess():
-    '''public boolean hasSigOptionAccess(final int row, final String sigOption)
+    '''returns boolean\n\n
+    hasSigOptionAccess(final int row, final String sigOption)\n
     '''

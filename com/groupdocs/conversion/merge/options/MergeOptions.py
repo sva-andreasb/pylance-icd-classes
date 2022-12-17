@@ -1,3 +1,4 @@
-def MergeOptions():
-    '''public MergeOptions()
+def ():
+    '''returns MergeOptions\n\n
+    ()\n
     '''

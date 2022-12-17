@@ -1,23 +1,30 @@
 sid = "short  12"
-def CalcCountRecord():
-    '''public CalcCountRecord()
-    public CalcCountRecord(final RecordInputStream in)
+def ():
+    '''returns CalcCountRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setIterations():
-    '''public void setIterations(final short iterations)
+    '''returns None\n\n
+    setIterations(final short iterations)\n
     '''
 def getIterations():
-    '''public short getIterations()
+    '''returns short\n\n
+    getIterations()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public CalcCountRecord clone()
+    '''returns CalcCountRecord\n\n
+    clone()\n
     '''

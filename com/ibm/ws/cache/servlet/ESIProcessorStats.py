@@ -1,48 +1,64 @@
-def ESIProcessorStats():
-    '''public ESIProcessorStats(final ESIProcessor processor, final int gatherWhat)
+def ():
+    '''returns ESIProcessorStats\n\n
+    (final ESIProcessor processor, final int gatherWhat)\n
     '''
 def getHostName():
-    '''public String getHostName()
+    '''returns String\n\n
+    getHostName()\n
     '''
 def getPID():
-    '''public int getPID()
+    '''returns int\n\n
+    getPID()\n
     '''
 def getCacheHits():
-    '''public int getCacheHits()
+    '''returns int\n\n
+    getCacheHits()\n
     '''
 def setCacheHits():
-    '''public void setCacheHits(final int hits)
+    '''returns None\n\n
+    setCacheHits(final int hits)\n
     '''
 def getCacheMissesByUrl():
-    '''public int getCacheMissesByUrl()
+    '''returns int\n\n
+    getCacheMissesByUrl()\n
     '''
 def setCacheMissesByUrl():
-    '''public void setCacheMissesByUrl(final int misses)
+    '''returns None\n\n
+    setCacheMissesByUrl(final int misses)\n
     '''
 def getCacheMissesById():
-    '''public int getCacheMissesById()
+    '''returns int\n\n
+    getCacheMissesById()\n
     '''
 def setCacheMissesById():
-    '''public void setCacheMissesById(final int misses)
+    '''returns None\n\n
+    setCacheMissesById(final int misses)\n
     '''
 def getCacheExpires():
-    '''public int getCacheExpires()
+    '''returns int\n\n
+    getCacheExpires()\n
     '''
 def setCacheExpires():
-    '''public void setCacheExpires(final int expires)
+    '''returns None\n\n
+    setCacheExpires(final int expires)\n
     '''
 def getCachePurges():
-    '''public int getCachePurges()
+    '''returns int\n\n
+    getCachePurges()\n
     '''
 def setCachePurges():
-    '''public void setCachePurges(final int purges)
+    '''returns None\n\n
+    setCachePurges(final int purges)\n
     '''
 def addCacheEntryStats():
-    '''public void addCacheEntryStats(final ESICacheEntryStats cacheEntry)
+    '''returns None\n\n
+    addCacheEntryStats(final ESICacheEntryStats cacheEntry)\n
     '''
 def getCacheEntryStats():
-    '''public ESICacheEntryStats[] getCacheEntryStats()
+    '''returns ESICacheEntryStats[]\n\n
+    getCacheEntryStats()\n
     '''
 def handle():
-    '''public void handle()
+    '''returns None\n\n
+    handle()\n
     '''

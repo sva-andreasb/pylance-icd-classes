@@ -1,64 +1,73 @@
-def getConstantSet():
-    '''public static ConstantSet getConstantSet(final String name)
-    '''
 def getConstant():
-    '''public Constant getConstant(final String name)
-    public Constant getConstant(final int value)
+    '''returns Constant\n\n
+    getConstant(final String name)\n
+    getConstant(final int value)\n
     '''
 def getValue():
-    '''public int getValue(final String name)
+    '''returns int\n\n
+    getValue(final String name)\n
     '''
 def getName():
-    '''public String getName(final int value)
+    '''returns String\n\n
+    getName(final int value)\n
     '''
 def minValue():
-    '''public long minValue()
+    '''returns long\n\n
+    minValue()\n
     '''
 def maxValue():
-    '''public long maxValue()
+    '''returns long\n\n
+    maxValue()\n
     '''
 def iterator():
-    '''public Iterator<Constant> iterator()
+    '''returns Iterator<Constant>\n\n
+    iterator()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns boolean\n\n
+    contains(final Object o)\n
     '''
 def value():
-    '''public int value()
+    '''returns int\n\n
+    value()\n
     '''
 def intValue():
-    '''public int intValue()
+    '''returns int\n\n
+    intValue()\n
     '''
 def longValue():
-    '''public long longValue()
+    '''returns long\n\n
+    longValue()\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def defined():
-    '''public boolean defined()
+    '''returns boolean\n\n
+    defined()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
-    '''
-def toString():
-    '''public final String toString()
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def next():
-    '''public Constant next()
+    '''returns Constant\n\n
+    next()\n
     '''

@@ -1,16 +1,21 @@
-def XlsInputTokenizer():
-    '''public XlsInputTokenizer(final String fileName, final FileInputStream is)
+def ():
+    '''returns XlsInputTokenizer\n\n
+    (final String fileName, final FileInputStream is)\n
     '''
 def setCurrentTab():
-    '''public boolean setCurrentTab(final String name)
-    public boolean setCurrentTab(final int idx)
+    '''returns boolean\n\n
+    setCurrentTab(final String name)\n
+    setCurrentTab(final int idx)\n
     '''
 def setCurrentTabBySubString():
-    '''public boolean setCurrentTabBySubString(String name)
+    '''returns boolean\n\n
+    setCurrentTabBySubString(String name)\n
     '''
 def getRow():
-    '''public String[] getRow()
+    '''returns String[]\n\n
+    getRow()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

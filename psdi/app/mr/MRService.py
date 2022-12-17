@@ -1,25 +1,33 @@
-def MRService():
-    '''public MRService()
-    public MRService(final MXServer mxServer)
+def ():
+    '''returns MRService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def isMRValid():
-    '''public void isMRValid(final UserInfo userInfo, final String mrnum)
+    '''returns None\n\n
+    isMRValid(final UserInfo userInfo, final String mrnum)\n
     '''
 def getNewMRMboSet():
-    '''public MboSetRemote getNewMRMboSet(final String mrnum, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getNewMRMboSet(final String mrnum, final UserInfo userInfo)\n
     '''
 def getFavorites():
-    '''public MboSetRemote getFavorites(final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getFavorites(final UserInfo userInfo)\n
     '''
 def addToFavorites():
-    '''public void addToFavorites(final UserInfo userInfo, final MboRemote mrLineRemote)
+    '''returns None\n\n
+    addToFavorites(final UserInfo userInfo, final MboRemote mrLineRemote)\n
     '''
 def addFromFavorites():
-    '''public void addFromFavorites(final MboRemote mr, final MboSetRemote mrLineSetRemote, final MboSetRemote favItemSetRemote)
+    '''returns None\n\n
+    addFromFavorites(final MboRemote mr, final MboSetRemote mrLineSetRemote, final MboSetRemote favItemSetRemote)\n
     '''
 def itemOrServiceAlreadyOnFavorites():
-    '''public boolean itemOrServiceAlreadyOnFavorites(final MboSetRemote mrLineSetRemote, final String[] attrs, final String[] attrNames)
+    '''returns boolean\n\n
+    itemOrServiceAlreadyOnFavorites(final MboSetRemote mrLineSetRemote, final String[] attrs, final String[] attrNames)\n
     '''
 def changeStatus():
-    '''public void changeStatus(@WSMboKey("MR") final MRRemote mr, final String status, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(@WSMboKey("MR") final MRRemote mr, final String status, final Date date, final String memo)\n
     '''

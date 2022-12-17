@@ -1,35 +1,45 @@
-def AgentService_ServiceLocator():
-    '''public AgentService_ServiceLocator()
-    public AgentService_ServiceLocator(final EngineConfiguration config)
-    public AgentService_ServiceLocator(final String wsdlLoc, final QName sName)
+def ():
+    '''returns AgentService_ServiceLocator\n\n
+    ()\n
+    (final EngineConfiguration config)\n
+    (final String wsdlLoc, final QName sName)\n
     '''
 def getagentServiceAddress():
-    '''public String getagentServiceAddress()
+    '''returns String\n\n
+    getagentServiceAddress()\n
     '''
 def getagentServiceWSDDServiceName():
-    '''public String getagentServiceWSDDServiceName()
+    '''returns String\n\n
+    getagentServiceWSDDServiceName()\n
     '''
 def setagentServiceWSDDServiceName():
-    '''public void setagentServiceWSDDServiceName(final String name)
+    '''returns None\n\n
+    setagentServiceWSDDServiceName(final String name)\n
     '''
 def getagentService():
-    '''public AgentService_PortType getagentService()
-    public AgentService_PortType getagentService(final URL portAddress)
+    '''returns AgentService_PortType\n\n
+    getagentService()\n
+    getagentService(final URL portAddress)\n
     '''
 def setagentServiceEndpointAddress():
-    '''public void setagentServiceEndpointAddress(final String address)
+    '''returns None\n\n
+    setagentServiceEndpointAddress(final String address)\n
     '''
 def getPort():
-    '''public Remote getPort(final Class serviceEndpointInterface)
-    public Remote getPort(final QName portName, final Class serviceEndpointInterface)
+    '''returns Remote\n\n
+    getPort(final Class serviceEndpointInterface)\n
+    getPort(final QName portName, final Class serviceEndpointInterface)\n
     '''
 def getServiceName():
-    '''public QName getServiceName()
+    '''returns QName\n\n
+    getServiceName()\n
     '''
 def getPorts():
-    '''public Iterator getPorts()
+    '''returns Iterator\n\n
+    getPorts()\n
     '''
 def setEndpointAddress():
-    '''public void setEndpointAddress(final String portName, final String address)
-    public void setEndpointAddress(final QName portName, final String address)
+    '''returns None\n\n
+    setEndpointAddress(final String portName, final String address)\n
+    setEndpointAddress(final QName portName, final String address)\n
     '''

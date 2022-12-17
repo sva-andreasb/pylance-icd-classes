@@ -1,103 +1,126 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloExplanation():
-    '''public IloExplanation()
-    public IloExplanation(final boolean hasFailed, final String[] propertyList)
+def ():
+    '''returns Objective\n\n
+    ()\n
+    (final boolean hasFailed, final String[] propertyList)\n
+    (final String name, final Serializable[] properties)\n
+    (final String name, final Serializable[] properties)\n
+    (final String name, final Serializable[] properties)\n
     '''
 def getProperties():
-    '''public String[] getProperties()
-    public Serializable[] getProperties()
+    '''returns Serializable[]\n\n
+    getProperties()\n
+    getProperties()\n
     '''
 def getPropertyIndex():
-    '''public int getPropertyIndex(String prop)
+    '''returns int\n\n
+    getPropertyIndex(String prop)\n
     '''
 def complete():
-    '''public void complete()
+    '''returns None\n\n
+    complete()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def addElement():
-    '''public void addElement(final Element element)
-    public void addElement(final Element child)
+    '''returns None\n\n
+    addElement(final Element element)\n
+    addElement(final Element child)\n
     '''
 def removeElement():
-    '''public boolean removeElement(final Element element)
+    '''returns boolean\n\n
+    removeElement(final Element element)\n
     '''
 def removeRequirement():
-    '''public boolean removeRequirement(final Requirement req)
+    '''returns boolean\n\n
+    removeRequirement(final Requirement req)\n
     '''
 def insertRequirementCopy():
-    '''public Requirement insertRequirementCopy(final Requirement oreq, final boolean force, final boolean copyProperties)
+    '''returns Requirement\n\n
+    insertRequirementCopy(final Requirement oreq, final boolean force, final boolean copyProperties)\n
     '''
 def getRequirement():
-    '''public Requirement getRequirement(final IloRequirementId id)
+    '''returns Requirement\n\n
+    getRequirement(final IloRequirementId id)\n
     '''
 def getSameRequirement():
-    '''public Requirement getSameRequirement(final Requirement oreq)
+    '''returns Requirement\n\n
+    getSameRequirement(final Requirement oreq)\n
     '''
 def getObjective():
-    '''public Objective getObjective(final IloObjectiveId id)
-    public Objective getObjective(final String name)
+    '''returns Objective\n\n
+    getObjective(final IloObjectiveId id)\n
+    getObjective(final String name)\n
     '''
 def print():
-    '''public void print(final OutputStream os)
-    '''
-def Element():
-    '''public Element(final String name, final Serializable[] properties)
+    '''returns None\n\n
+    print(final OutputStream os)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getParent():
-    '''public Element getParent()
+    '''returns Element\n\n
+    getParent()\n
     '''
 def getExplanation():
-    '''public IloExplanation getExplanation()
+    '''returns IloExplanation\n\n
+    getExplanation()\n
     '''
 def getProperty():
-    '''public Serializable getProperty(final int idx)
+    '''returns Serializable\n\n
+    getProperty(final int idx)\n
     '''
 def setClosed():
-    '''public void setClosed(final boolean status)
+    '''returns None\n\n
+    setClosed(final boolean status)\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode()
-    '''
-def Requirement():
-    '''public Requirement(final String name, final Serializable[] properties)
+    '''returns int\n\n
+    hashCode()\n
+    hashCode()\n
     '''
 def getPriority():
-    '''public IloPriority getPriority()
+    '''returns IloPriority\n\n
+    getPriority()\n
     '''
 def setPriority():
-    '''public void setPriority(final IloPriority prio)
+    '''returns None\n\n
+    setPriority(final IloPriority prio)\n
     '''
 def getRequirementId():
-    '''public IloRequirementId getRequirementId()
+    '''returns IloRequirementId\n\n
+    getRequirementId()\n
     '''
 def getParentRequirement():
-    '''public Requirement getParentRequirement()
-    '''
-def Objective():
-    '''public Objective(final String name, final Serializable[] properties)
+    '''returns Requirement\n\n
+    getParentRequirement()\n
     '''
 def getObjectiveId():
-    '''public IloObjectiveId getObjectiveId()
+    '''returns IloObjectiveId\n\n
+    getObjectiveId()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

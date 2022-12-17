@@ -1,52 +1,53 @@
-def RuleBasedTimeZone():
-    '''public RuleBasedTimeZone(final String id, final InitialTimeZoneRule initialRule)
+def ():
+    '''returns RuleBasedTimeZone\n\n
+    (final String id, final InitialTimeZoneRule initialRule)\n
     '''
 def addTransitionRule():
-    '''public void addTransitionRule(final TimeZoneRule rule)
+    '''returns None\n\n
+    addTransitionRule(final TimeZoneRule rule)\n
     '''
 def getOffset():
-    '''public int getOffset(final int era, int year, final int month, final int day, final int dayOfWeek, final int milliseconds)
-    public void getOffset(final long time, final boolean local, final int[] offsets)
+    '''returns None\n\n
+    getOffset(final int era, int year, final int month, final int day, final int dayOfWeek, final int milliseconds)\n
+    getOffset(final long time, final boolean local, final int[] offsets)\n
     '''
 def getOffsetFromLocal():
-    '''public void getOffsetFromLocal(final long date, final int nonExistingTimeOpt, final int duplicatedTimeOpt, final int[] offsets)
+    '''returns None\n\n
+    getOffsetFromLocal(final long date, final int nonExistingTimeOpt, final int duplicatedTimeOpt, final int[] offsets)\n
     '''
 def getRawOffset():
-    '''public int getRawOffset()
+    '''returns int\n\n
+    getRawOffset()\n
     '''
 def inDaylightTime():
-    '''public boolean inDaylightTime(final Date date)
+    '''returns boolean\n\n
+    inDaylightTime(final Date date)\n
     '''
 def setRawOffset():
-    '''public void setRawOffset(final int offsetMillis)
+    '''returns None\n\n
+    setRawOffset(final int offsetMillis)\n
     '''
 def useDaylightTime():
-    '''public boolean useDaylightTime()
-    '''
-def observesDaylightTime():
-    '''public boolean observesDaylightTime()
+    '''returns boolean\n\n
+    useDaylightTime()\n
     '''
 def hasSameRules():
-    '''public boolean hasSameRules(final TimeZone other)
+    '''returns boolean\n\n
+    hasSameRules(final TimeZone other)\n
     '''
 def getTimeZoneRules():
-    '''public TimeZoneRule[] getTimeZoneRules()
+    '''returns TimeZoneRule[]\n\n
+    getTimeZoneRules()\n
     '''
 def getNextTransition():
-    '''public TimeZoneTransition getNextTransition(final long base, final boolean inclusive)
+    '''returns TimeZoneTransition\n\n
+    getNextTransition(final long base, final boolean inclusive)\n
     '''
 def getPreviousTransition():
-    '''public TimeZoneTransition getPreviousTransition(final long base, final boolean inclusive)
+    '''returns TimeZoneTransition\n\n
+    getPreviousTransition(final long base, final boolean inclusive)\n
     '''
 def clone():
-    '''public Object clone()
-    '''
-def isFrozen():
-    '''public boolean isFrozen()
-    '''
-def freeze():
-    '''public TimeZone freeze()
-    '''
-def cloneAsThawed():
-    '''public TimeZone cloneAsThawed()
+    '''returns Object\n\n
+    clone()\n
     '''

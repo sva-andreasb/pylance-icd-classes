@@ -1,12 +1,16 @@
-def ReportLabel():
-    '''public ReportLabel(final MboSet ms)
+def ():
+    '''returns ReportLabel\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def sigopGranted():
-    '''public boolean sigopGranted(final String optionname)
+    '''returns boolean\n\n
+    sigopGranted(final String optionname)\n
     '''
 def checkSiteOrgAccessForSave():
-    '''public void checkSiteOrgAccessForSave()
+    '''returns None\n\n
+    checkSiteOrgAccessForSave()\n
     '''

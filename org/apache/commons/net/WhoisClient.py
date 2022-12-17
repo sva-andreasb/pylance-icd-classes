@@ -1,11 +1,14 @@
 DEFAULT_HOST = "String  \"whois.internic.net\""
 DEFAULT_PORT = "int  43"
-def WhoisClient():
-    '''public WhoisClient()
+def ():
+    '''returns WhoisClient\n\n
+    ()\n
     '''
 def query():
-    '''public String query(final String handle)
+    '''returns String\n\n
+    query(final String handle)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream(final String handle)
+    '''returns InputStream\n\n
+    getInputStream(final String handle)\n
     '''

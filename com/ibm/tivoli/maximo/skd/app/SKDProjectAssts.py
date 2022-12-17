@@ -1,6 +1,8 @@
-def SKDProjectAssts():
-    '''public SKDProjectAssts(final MboSet ms)
+def ():
+    '''returns SKDProjectAssts\n\n
+    (final MboSet ms)\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''

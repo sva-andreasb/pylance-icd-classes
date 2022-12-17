@@ -1,39 +1,52 @@
-def IMMessageHandlerSTImpl():
-    '''public IMMessageHandlerSTImpl(final IMSessionSTImpl session, final InstantMessagingService imService, final IMUser imPartner, final STUser stPartner)
+def ():
+    '''returns IMMessageHandlerSTImpl\n\n
+    (final IMSessionSTImpl session, final InstantMessagingService imService, final IMUser imPartner, final STUser stPartner)\n
     '''
 def addListener():
-    '''public void addListener(final IMMessageListener imMessageListener)
+    '''returns None\n\n
+    addListener(final IMMessageListener imMessageListener)\n
     '''
 def removeListener():
-    '''public void removeListener(final IMMessageListener imMessageListener)
+    '''returns None\n\n
+    removeListener(final IMMessageListener imMessageListener)\n
     '''
 def removeAllListeners():
-    '''public void removeAllListeners()
+    '''returns None\n\n
+    removeAllListeners()\n
     '''
 def imReceived():
-    '''public void imReceived(final ImEvent imEvent)
+    '''returns None\n\n
+    imReceived(final ImEvent imEvent)\n
     '''
 def sendMessage():
-    '''public String sendMessage(final String s)
+    '''returns String\n\n
+    sendMessage(final String s)\n
     '''
 def imOpened():
-    '''public void imOpened(final ImEvent imEvent)
+    '''returns None\n\n
+    imOpened(final ImEvent imEvent)\n
     '''
 def openImFailed():
-    '''public void openImFailed(final ImEvent imEvent)
+    '''returns None\n\n
+    openImFailed(final ImEvent imEvent)\n
     '''
 def textReceived():
-    '''public void textReceived(final ImEvent imEvent)
+    '''returns None\n\n
+    textReceived(final ImEvent imEvent)\n
     '''
 def dataReceived():
-    '''public void dataReceived(final ImEvent imEvent)
+    '''returns None\n\n
+    dataReceived(final ImEvent imEvent)\n
     '''
 def closeConversation():
-    '''public void closeConversation()
+    '''returns None\n\n
+    closeConversation()\n
     '''
 def imClosed():
-    '''public void imClosed(final ImEvent imEvent)
+    '''returns None\n\n
+    imClosed(final ImEvent imEvent)\n
     '''
 def isOpened():
-    '''public boolean isOpened()
+    '''returns boolean\n\n
+    isOpened()\n
     '''

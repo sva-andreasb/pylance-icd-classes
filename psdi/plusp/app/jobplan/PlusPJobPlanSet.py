@@ -1,6 +1,8 @@
-def PlusPJobPlanSet():
-    '''public PlusPJobPlanSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPJobPlanSet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def getValidJobPlansForTaskGivenOrgAndSite():
-    '''public void getValidJobPlansForTaskGivenOrgAndSite(final String orgid, final String siteid, final String status, final Long jobplanid)
+    '''returns None\n\n
+    getValidJobPlansForTaskGivenOrgAndSite(final String orgid, final String siteid, final String status, final Long jobplanid)\n
     '''

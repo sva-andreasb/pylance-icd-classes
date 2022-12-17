@@ -1,6 +1,8 @@
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
-def TLOAMFldTransferLicAllocation():
-    '''public TLOAMFldTransferLicAllocation(final MboValue mbv)
+def ():
+    '''returns TLOAMFldTransferLicAllocation\n\n
+    (final MboValue mbv)\n
     '''

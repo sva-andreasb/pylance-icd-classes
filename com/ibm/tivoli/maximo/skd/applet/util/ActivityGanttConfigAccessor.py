@@ -1,12 +1,16 @@
-def ActivityGanttConfigAccessor():
-    '''public ActivityGanttConfigAccessor(final IGanttConfigInfo info)
+def ():
+    '''returns ActivityGanttConfigAccessor\n\n
+    (final IGanttConfigInfo info)\n
     '''
 def getNames():
-    '''public Iterator<String> getNames()
+    '''returns Iterator<String>\n\n
+    getNames()\n
     '''
 def getInfo():
-    '''public IMXGanttPropertyInfo getInfo(final String name)
+    '''returns IMXGanttPropertyInfo\n\n
+    getInfo(final String name)\n
     '''
 def getColumnName():
-    '''public String getColumnName(final String propName)
+    '''returns String\n\n
+    getColumnName(final String propName)\n
     '''

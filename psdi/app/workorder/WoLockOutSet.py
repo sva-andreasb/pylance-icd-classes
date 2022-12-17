@@ -1,9 +1,12 @@
-def WoLockOutSet():
-    '''public WoLockOutSet(final MboServerInterface ms)
+def ():
+    '''returns WoLockOutSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def copyFromLockOut():
-    '''public MboRemote copyFromLockOut(final MboRemote lockOut, final String dataSource)
+    '''returns MboRemote\n\n
+    copyFromLockOut(final MboRemote lockOut, final String dataSource)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

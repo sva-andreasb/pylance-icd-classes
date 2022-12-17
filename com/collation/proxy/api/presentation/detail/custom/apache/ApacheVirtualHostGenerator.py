@@ -1,6 +1,8 @@
-def ApacheVirtualHostGenerator():
-    '''public ApacheVirtualHostGenerator()
+def ():
+    '''returns ApacheVirtualHostGenerator\n\n
+    ()\n
     '''
 def getModel():
-    '''public DetailTableModel getModel()
+    '''returns DetailTableModel\n\n
+    getModel()\n
     '''

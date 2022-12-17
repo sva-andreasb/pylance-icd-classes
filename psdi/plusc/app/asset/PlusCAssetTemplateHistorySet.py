@@ -1,3 +1,4 @@
-def PlusCAssetTemplateHistorySet():
-    '''public PlusCAssetTemplateHistorySet(final MboServerInterface ms)
+def ():
+    '''returns PlusCAssetTemplateHistorySet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,25 +1,33 @@
-def MaximoCacheWrapper():
-    '''public MaximoCacheWrapper(final MaximoCache theReal)
+def ():
+    '''returns MaximoCacheWrapper\n\n
+    (final MaximoCache theReal)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def unloadTenant():
-    '''public void unloadTenant()
+    '''returns None\n\n
+    unloadTenant()\n
     '''
 def getLoadedTenants():
-    '''public Set<Integer> getLoadedTenants()
+    '''returns Set<Integer>\n\n
+    getLoadedTenants()\n
     '''
 def getMaximoCache():
-    '''public MaximoCache getMaximoCache()
+    '''returns MaximoCache\n\n
+    getMaximoCache()\n
     '''
 def unloadInactiveCaches():
-    '''public void unloadInactiveCaches(final long interval)
+    '''returns None\n\n
+    unloadInactiveCaches(final long interval)\n
     '''

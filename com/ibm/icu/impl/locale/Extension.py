@@ -1,16 +1,16 @@
 def getKey():
-    '''public char getKey()
+    '''returns char\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def create():
-    '''public static Extension create(final StringTokenIterator itr, final LanguageTag.ParseStatus sts)
-    public static Extension create(char key, final StringTokenIterator val, final LanguageTag.ParseStatus sts)
+    '''returns String\n\n
+    toString()\n
     '''

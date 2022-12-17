@@ -1,9 +1,12 @@
-def GotoDayActionListener():
-    '''public GotoDayActionListener(final IlvTimeScrollController controller, final JButton gotoButton)
+def ():
+    '''returns GotoDayActionListener\n\n
+    (final IlvTimeScrollController controller, final JButton gotoButton)\n
     '''
 def zoom():
-    '''public void zoom(final IlvTimeScrollController controller)
+    '''returns None\n\n
+    zoom(final IlvTimeScrollController controller)\n
     '''
 def onDateSelected():
-    '''public void onDateSelected(final Calendar value)
+    '''returns None\n\n
+    onDateSelected(final Calendar value)\n
     '''

@@ -1,3 +1,4 @@
-def PlusPWPServiceSet():
-    '''public PlusPWPServiceSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPWPServiceSet\n\n
+    (final MboServerInterface arg0)\n
     '''

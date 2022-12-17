@@ -1,38 +1,47 @@
 def matches():
-    '''public boolean matches(final char[] target)
-    public boolean matches(final char[] target, final int start, final int end)
-    public boolean matches(final char[] target, final Match match)
-    public boolean matches(final char[] target, final int start, final int end, Match match)
-    public boolean matches(final String target)
-    public boolean matches(final String target, final int start, final int end)
-    public boolean matches(final String target, final Match match)
-    public boolean matches(final String target, final int start, final int end, Match match)
-    public boolean matches(final CharacterIterator target)
-    public boolean matches(final CharacterIterator target, Match match)
+    '''returns boolean\n\n
+    matches(final char[] target)\n
+    matches(final char[] target, final int start, final int end)\n
+    matches(final char[] target, final Match match)\n
+    matches(final char[] target, final int start, final int end, Match match)\n
+    matches(final String target)\n
+    matches(final String target, final int start, final int end)\n
+    matches(final String target, final Match match)\n
+    matches(final String target, final int start, final int end, Match match)\n
+    matches(final CharacterIterator target)\n
+    matches(final CharacterIterator target, Match match)\n
     '''
-def RegularExpression():
-    '''public RegularExpression(final String regex)
-    public RegularExpression(final String regex, final String options)
+def ():
+    '''returns RegularExpression\n\n
+    (final String regex)\n
+    (final String regex, final String options)\n
     '''
 def setPattern():
-    '''public void setPattern(final String newPattern)
-    public void setPattern(final String newPattern, final String options)
+    '''returns None\n\n
+    setPattern(final String newPattern)\n
+    setPattern(final String newPattern, final String options)\n
     '''
 def getPattern():
-    '''public String getPattern()
+    '''returns String\n\n
+    getPattern()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getOptions():
-    '''public String getOptions()
+    '''returns String\n\n
+    getOptions()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getNumberOfGroups():
-    '''public int getNumberOfGroups()
+    '''returns int\n\n
+    getNumberOfGroups()\n
     '''

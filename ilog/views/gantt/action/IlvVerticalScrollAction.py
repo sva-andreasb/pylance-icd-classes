@@ -1,36 +1,47 @@
 PIXEL_SCROLL = "int  0"
 ROW_SCROLL = "int  1"
-def IlvVerticalScrollAction():
-    '''public IlvVerticalScrollAction(final IlvVerticalScrollable ilvVerticalScrollable, final int n, final String s, final KeyStroke keyStroke, final String s2, final String s3)
-    public IlvVerticalScrollAction(final IlvVerticalScrollable c, final int d, final String s, final Icon icon, final KeyStroke keyStroke, final String s2, final String s3)
+def ():
+    '''returns IlvVerticalScrollAction\n\n
+    (final IlvVerticalScrollable ilvVerticalScrollable, final int n, final String s, final KeyStroke keyStroke, final String s2, final String s3)\n
+    (final IlvVerticalScrollable c, final int d, final String s, final Icon icon, final KeyStroke keyStroke, final String s2, final String s3)\n
     '''
 def verticalPositionChanged():
-    '''public void verticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)
+    '''returns None\n\n
+    verticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)\n
     '''
 def verticalExtentChanged():
-    '''public void verticalExtentChanged(final VerticalScrollEvent verticalScrollEvent)
+    '''returns None\n\n
+    verticalExtentChanged(final VerticalScrollEvent verticalScrollEvent)\n
     '''
 def maxVerticalPositionChanged():
-    '''public void maxVerticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)
+    '''returns None\n\n
+    maxVerticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)\n
     '''
 def getDirection():
-    '''public int getDirection()
+    '''returns int\n\n
+    getDirection()\n
     '''
 def getScrollMode():
-    '''public int getScrollMode()
+    '''returns int\n\n
+    getScrollMode()\n
     '''
 def setScrollMode():
-    '''public void setScrollMode(final int f)
+    '''returns None\n\n
+    setScrollMode(final int f)\n
     '''
 def getScrollFactor():
-    '''public double getScrollFactor()
+    '''returns double\n\n
+    getScrollFactor()\n
     '''
 def setScrollFactor():
-    '''public void setScrollFactor(final double e)
+    '''returns None\n\n
+    setScrollFactor(final double e)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def removeFromVerticalScrollable():
-    '''public void removeFromVerticalScrollable()
+    '''returns None\n\n
+    removeFromVerticalScrollable()\n
     '''

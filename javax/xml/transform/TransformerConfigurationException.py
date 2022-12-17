@@ -1,8 +1,9 @@
-def TransformerConfigurationException():
-    '''public TransformerConfigurationException()
-    public TransformerConfigurationException(final String s)
-    public TransformerConfigurationException(final Throwable t)
-    public TransformerConfigurationException(final String s, final Throwable t)
-    public TransformerConfigurationException(final String s, final SourceLocator sourceLocator)
-    public TransformerConfigurationException(final String s, final SourceLocator sourceLocator, final Throwable t)
+def ():
+    '''returns TransformerConfigurationException\n\n
+    ()\n
+    (final String s)\n
+    (final Throwable t)\n
+    (final String s, final Throwable t)\n
+    (final String s, final SourceLocator sourceLocator)\n
+    (final String s, final SourceLocator sourceLocator, final Throwable t)\n
     '''

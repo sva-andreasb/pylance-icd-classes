@@ -1,36 +1,44 @@
-def IloCplex__CrossoverCallbackI():
-    '''public IloCplex__CrossoverCallbackI(final long cPtr, final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__CrossoverCallbackI obj)
+def ():
+    '''returns IloCplex__CrossoverCallbackI\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getNprimalPushes64():
-    '''public long getNprimalPushes64()
+    '''returns long\n\n
+    getNprimalPushes64()\n
     '''
 def getNprimalPushes():
-    '''public int getNprimalPushes()
+    '''returns int\n\n
+    getNprimalPushes()\n
     '''
 def getNprimalExchanges64():
-    '''public long getNprimalExchanges64()
+    '''returns long\n\n
+    getNprimalExchanges64()\n
     '''
 def getNprimalExchanges():
-    '''public int getNprimalExchanges()
+    '''returns int\n\n
+    getNprimalExchanges()\n
     '''
 def getNdualPushes64():
-    '''public long getNdualPushes64()
+    '''returns long\n\n
+    getNdualPushes64()\n
     '''
 def getNdualPushes():
-    '''public int getNdualPushes()
+    '''returns int\n\n
+    getNdualPushes()\n
     '''
 def getNdualExchanges64():
-    '''public long getNdualExchanges64()
+    '''returns long\n\n
+    getNdualExchanges64()\n
     '''
 def getNdualExchanges():
-    '''public int getNdualExchanges()
+    '''returns int\n\n
+    getNdualExchanges()\n
     '''
 def getNsuperbasics():
-    '''public int getNsuperbasics()
+    '''returns int\n\n
+    getNsuperbasics()\n
     '''

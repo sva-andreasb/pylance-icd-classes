@@ -1,3 +1,4 @@
-def PlusPAgreementSet():
-    '''public PlusPAgreementSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPAgreementSet\n\n
+    (final MboServerInterface ms)\n
     '''

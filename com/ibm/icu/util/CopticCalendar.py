@@ -11,20 +11,19 @@ PAONA = "int  9"
 EPEP = "int  10"
 MESRA = "int  11"
 NASIE = "int  12"
-def CopticCalendar():
-    '''public CopticCalendar()
-    public CopticCalendar(final TimeZone zone)
-    public CopticCalendar(final Locale aLocale)
-    public CopticCalendar(final ULocale locale)
-    public CopticCalendar(final TimeZone zone, final Locale aLocale)
-    public CopticCalendar(final TimeZone zone, final ULocale locale)
-    public CopticCalendar(final int year, final int month, final int date)
-    public CopticCalendar(final Date date)
-    public CopticCalendar(final int year, final int month, final int date, final int hour, final int minute, final int second)
+def ():
+    '''returns CopticCalendar\n\n
+    ()\n
+    (final TimeZone zone)\n
+    (final Locale aLocale)\n
+    (final ULocale locale)\n
+    (final TimeZone zone, final Locale aLocale)\n
+    (final TimeZone zone, final ULocale locale)\n
+    (final int year, final int month, final int date)\n
+    (final Date date)\n
+    (final int year, final int month, final int date, final int hour, final int minute, final int second)\n
     '''
 def getType():
-    '''public String getType()
-    '''
-def copticToJD():
-    '''public static int copticToJD(final long year, final int month, final int date)
+    '''returns String\n\n
+    getType()\n
     '''

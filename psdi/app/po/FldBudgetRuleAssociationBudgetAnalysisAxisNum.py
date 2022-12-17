@@ -1,3 +1,4 @@
-def FldBudgetRuleAssociationBudgetAnalysisAxisNum():
-    '''public FldBudgetRuleAssociationBudgetAnalysisAxisNum(final MboValue mbv)
+def ():
+    '''returns FldBudgetRuleAssociationBudgetAnalysisAxisNum\n\n
+    (final MboValue mbv)\n
     '''

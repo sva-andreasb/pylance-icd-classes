@@ -5,27 +5,35 @@ KPITEMPLATEVARVALUEID = "String  \"KPITEMPLATEVARVALUEID\""
 VARNAME = "String  \"VARNAME\""
 VARVALUE = "String  \"VARVALUE\""
 RELATIONSHIP_KPITEMPLATEVARIABLE = "String  \"KPITEMPLATEVARIABLE\""
-def KPITemplateVariableValue():
-    '''public KPITemplateVariableValue(final MboSet ms)
+def ():
+    '''returns KPITemplateVariableValue\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getMaxObject():
-    '''public String getMaxObject()
+    '''returns String\n\n
+    getMaxObject()\n
     '''
 def getMaxAttribute():
-    '''public String getMaxAttribute()
+    '''returns String\n\n
+    getMaxAttribute()\n
     '''
 def getMaxType():
-    '''public String getMaxType()
+    '''returns String\n\n
+    getMaxType()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''

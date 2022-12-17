@@ -1,12 +1,16 @@
-def TableColumnSet():
-    '''public TableColumnSet(final MboServerInterface ms)
+def ():
+    '''returns TableColumnSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def fillData():
-    '''public void fillData(final MboSetRemote parent)
+    '''returns None\n\n
+    fillData(final MboSetRemote parent)\n
     '''
 def fillParent():
-    '''public void fillParent(final MboSetRemote parent)
+    '''returns None\n\n
+    fillParent(final MboSetRemote parent)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

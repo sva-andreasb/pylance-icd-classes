@@ -1,8 +1,10 @@
-def ConnectTimeoutException():
-    '''public ConnectTimeoutException()
-    public ConnectTimeoutException(final String message)
-    public ConnectTimeoutException(final IOException cause, final HttpHost host, final InetAddress... remoteAddresses)
+def ():
+    '''returns ConnectTimeoutException\n\n
+    ()\n
+    (final String message)\n
+    (final IOException cause, final HttpHost host, final InetAddress... remoteAddresses)\n
     '''
 def getHost():
-    '''public HttpHost getHost()
+    '''returns HttpHost\n\n
+    getHost()\n
     '''

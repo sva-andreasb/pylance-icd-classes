@@ -1,12 +1,16 @@
-def ExternalUser():
-    '''public ExternalUser(final String id, final String name, final String desc)
+def ():
+    '''returns ExternalUser\n\n
+    (final String id, final String name, final String desc)\n
     '''
 def getBLId():
-    '''public String getBLId()
+    '''returns String\n\n
+    getBLId()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDesc():
-    '''public String getDesc()
+    '''returns String\n\n
+    getDesc()\n
     '''

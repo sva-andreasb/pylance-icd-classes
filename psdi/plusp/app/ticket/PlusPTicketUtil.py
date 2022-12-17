@@ -1,51 +1,60 @@
-def PlusPTicketUtil():
-    '''public PlusPTicketUtil(final Mbo ticket)
+def ():
+    '''returns PlusPTicketUtil\n\n
+    (final Mbo ticket)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def warnAssociatedWithBillBatch():
-    '''public boolean warnAssociatedWithBillBatch(final String s)
-    '''
-def calculateTotals():
-    '''public static void calculateTotals(final MboRemote mboRemote, final boolean b, final boolean b2)
+    '''returns boolean\n\n
+    warnAssociatedWithBillBatch(final String s)\n
     '''
 def resetAddressUserInput():
-    '''public void resetAddressUserInput()
+    '''returns None\n\n
+    resetAddressUserInput()\n
     '''
 def setStreetAddress():
-    '''public void setStreetAddress()
+    '''returns None\n\n
+    setStreetAddress()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def removePS():
-    '''public boolean removePS(final String ek)
+    '''returns boolean\n\n
+    removePS(final String ek)\n
     '''
 def recalculatePrices():
-    '''public void recalculatePrices(final MboRemote mboRemote)
+    '''returns None\n\n
+    recalculatePrices(final MboRemote mboRemote)\n
     '''
 def allowPropagateKeyValue():
-    '''public boolean allowPropagateKeyValue()
+    '''returns boolean\n\n
+    allowPropagateKeyValue()\n
     '''
 def duplicateExtraMbos():
-    '''public void duplicateExtraMbos(final MboRemote mboRemote)
+    '''returns None\n\n
+    duplicateExtraMbos(final MboRemote mboRemote)\n
     '''
 def skipCopyField():
-    '''public boolean skipCopyField(final MboValueInfo mboValueInfo)
-    '''
-def updateTicketChildrenInformation():
-    '''public static void updateTicketChildrenInformation(final MboRemote mboRemote, final String s, final String s2)
+    '''returns boolean\n\n
+    skipCopyField(final MboValueInfo mboValueInfo)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long n)
+    '''returns None\n\n
+    delete(final long n)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def hasBeenBilled():
-    '''public boolean hasBeenBilled()
+    '''returns boolean\n\n
+    hasBeenBilled()\n
     '''

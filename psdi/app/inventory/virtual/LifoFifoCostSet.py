@@ -1,9 +1,12 @@
-def LifoFifoCostSet():
-    '''public LifoFifoCostSet(final MboServerInterface ms)
+def ():
+    '''returns LifoFifoCostSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def addLifoFifoCostRecords():
-    '''public void addLifoFifoCostRecords()
+    '''returns None\n\n
+    addLifoFifoCostRecords()\n
     '''
 def setFields():
-    '''public MboRemote setFields(final MboRemote invLifoFifoCost, final MboRemote lifoFifoCost, final MboRemote inventory)
+    '''returns MboRemote\n\n
+    setFields(final MboRemote invLifoFifoCost, final MboRemote lifoFifoCost, final MboRemote inventory)\n
     '''

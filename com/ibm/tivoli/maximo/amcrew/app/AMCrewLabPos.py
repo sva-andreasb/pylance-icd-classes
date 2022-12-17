@@ -1,39 +1,49 @@
-def AMCrewLabPos():
-    '''public AMCrewLabPos(final MboSet ms)
+def ():
+    '''returns LaborStatusCompare\n\n
+    (final MboSet ms)\n
+    (final MboRemote currentLabor)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def deleteAssociatedQuals():
-    '''public void deleteAssociatedQuals(final String position)
+    '''returns None\n\n
+    deleteAssociatedQuals(final String position)\n
     '''
 def deleteAssociatedLabor():
-    '''public void deleteAssociatedLabor(final String position)
+    '''returns None\n\n
+    deleteAssociatedLabor(final String position)\n
     '''
 def setRequirementStatus():
-    '''public void setRequirementStatus(final String amcrew, final String orgid, final Date crewShiftStart, final Date crewShiftEnd, final Date crewDate)
+    '''returns None\n\n
+    setRequirementStatus(final String amcrew, final String orgid, final Date crewShiftStart, final Date crewShiftEnd, final Date crewDate)\n
     '''
 def setStatusFromAssignedLabor():
-    '''public void setStatusFromAssignedLabor(final MboSet laborSet, final Date crewShiftStart, final Date crewShiftEnd, final Date crewDate)
+    '''returns None\n\n
+    setStatusFromAssignedLabor(final MboSet laborSet, final Date crewShiftStart, final Date crewShiftEnd, final Date crewDate)\n
     '''
 def sortLaborWithModAvail():
-    '''public ArrayList<LaborStatusCompare> sortLaborWithModAvail(final MboSet laborSet, final Date crewDate)
-    '''
-def LaborStatusCompare():
-    '''public LaborStatusCompare(final MboRemote currentLabor)
+    '''returns ArrayList<LaborStatusCompare>\n\n
+    sortLaborWithModAvail(final MboSet laborSet, final Date crewDate)\n
     '''
 def compareTo():
-    '''public int compareTo(final LaborStatusCompare compareLabor)
+    '''returns int\n\n
+    compareTo(final LaborStatusCompare compareLabor)\n
     '''

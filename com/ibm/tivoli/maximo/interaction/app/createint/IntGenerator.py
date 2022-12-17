@@ -1,111 +1,124 @@
-def IntGenerator():
-    '''public IntGenerator(final MboSet ms)
+def ():
+    '''returns IntGenerator\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def parseWSDL():
-    '''public void parseWSDL()
+    '''returns None\n\n
+    parseWSDL()\n
     '''
 def setPortAndOperation():
-    '''public boolean setPortAndOperation()
+    '''returns boolean\n\n
+    setPortAndOperation()\n
     '''
 def viewSchema():
-    '''public void viewSchema()
+    '''returns None\n\n
+    viewSchema()\n
     '''
 def viewOptimizedSchemaRequest():
-    '''public void viewOptimizedSchemaRequest(final boolean fill)
+    '''returns None\n\n
+    viewOptimizedSchemaRequest(final boolean fill)\n
     '''
 def viewOptimizedSchemaResponse():
-    '''public void viewOptimizedSchemaResponse(final boolean fill)
+    '''returns None\n\n
+    viewOptimizedSchemaResponse(final boolean fill)\n
     '''
 def setRequestArtifacts():
-    '''public void setRequestArtifacts()
+    '''returns None\n\n
+    setRequestArtifacts()\n
     '''
 def setResponseArtifacts():
-    '''public void setResponseArtifacts()
+    '''returns None\n\n
+    setResponseArtifacts()\n
     '''
 def fillObjStrUi():
-    '''public void fillObjStrUi(final boolean isReq)
+    '''returns None\n\n
+    fillObjStrUi(final boolean isReq)\n
     '''
 def processnode():
-    '''public void processnode(final WSIOTreeSetRemote treeSet, final LinkedHashMap<String, String> removeMap, final boolean isRequest)
+    '''returns None\n\n
+    processnode(final WSIOTreeSetRemote treeSet, final LinkedHashMap<String, String> removeMap, final boolean isRequest)\n
     '''
 def select():
-    '''public void select()
+    '''returns None\n\n
+    select()\n
     '''
 def unselect():
-    '''public void unselect()
+    '''returns None\n\n
+    unselect()\n
     '''
 def validateMappings():
-    '''public String validateMappings(final boolean isResponse)
+    '''returns String\n\n
+    validateMappings(final boolean isResponse)\n
     '''
 def createIntegrationArtifacts():
-    '''public String createIntegrationArtifacts(final String label, final byte[] presentataion)
-    '''
-def addRemoveID():
-    '''public LinkedHashMap<String, String> addRemoveID(final String id)
-    '''
-def undoRemove():
-    '''public LinkedHashMap<String, String> undoRemove(final String id)
-    '''
-def undoAllRemove():
-    '''public LinkedHashMap<String, String> undoAllRemove()
-    '''
-def undoRemoveLast():
-    '''public LinkedHashMap<String, String> undoRemoveLast()
-    '''
-def getRemoveMap():
-    '''public LinkedHashMap<String, String> getRemoveMap()
+    '''returns String\n\n
+    createIntegrationArtifacts(final String label, final byte[] presentataion)\n
     '''
 def getOBPInfo():
-    '''public OBPInfo getOBPInfo()
+    '''returns OBPInfo\n\n
+    getOBPInfo()\n
     '''
 def getOBPGenerator():
-    '''public OBPGenerator getOBPGenerator()
+    '''returns OBPGenerator\n\n
+    getOBPGenerator()\n
     '''
 def getParentTbName():
-    '''public String getParentTbName(final String hierPath)
+    '''returns String\n\n
+    getParentTbName(final String hierPath)\n
     '''
 def checkMappingObject():
-    '''public void checkMappingObject(final String colsRelation)
+    '''returns None\n\n
+    checkMappingObject(final String colsRelation)\n
     '''
 def setWSIO():
-    '''public void setWSIO(final WSIO in)
+    '''returns None\n\n
+    setWSIO(final WSIO in)\n
     '''
 def setWSIOAttribute():
-    '''public void setWSIOAttribute(final WSIOAttribute inAttr)
+    '''returns None\n\n
+    setWSIOAttribute(final WSIOAttribute inAttr)\n
     '''
 def getWSIO():
-    '''public WSIO getWSIO()
+    '''returns WSIO\n\n
+    getWSIO()\n
     '''
 def getWSIOAttribute():
-    '''public WSIOAttribute getWSIOAttribute()
+    '''returns WSIOAttribute\n\n
+    getWSIOAttribute()\n
     '''
 def fillAttributes():
-    '''public MboSetRemote fillAttributes(final MboRemote parent, final MboRemote thisMbo, final boolean removeExisting)
-    '''
-def getExistingAttributes():
-    '''public Map<String, String> getExistingAttributes(final MboSetRemote set, final MboRemote thisMbo)
+    '''returns MboSetRemote\n\n
+    fillAttributes(final MboRemote parent, final MboRemote thisMbo, final boolean removeExisting)\n
     '''
 def logStep():
-    '''public void logStep(final int step, final String label)
+    '''returns None\n\n
+    logStep(final int step, final String label)\n
     '''
 def logWSIOStep():
-    '''public void logWSIOStep(final boolean isReq, final String label)
+    '''returns None\n\n
+    logWSIOStep(final boolean isReq, final String label)\n
     '''
 def logMappingStep():
-    '''public void logMappingStep(final boolean isReq, final String label, final String wsioObjectName, final String objectName, final String objectRelationName, final String attributeName, final String locationPath, final String value)
+    '''returns None\n\n
+    logMappingStep(final boolean isReq, final String label, final String wsioObjectName, final String objectName, final String objectRelationName, final String attributeName, final String locationPath, final String value)\n
     '''
 def logCancel():
-    '''public void logCancel()
+    '''returns None\n\n
+    logCancel()\n
     '''
 def logUISelectionStep():
-    '''public void logUISelectionStep(final boolean isReq, final String label)
+    '''returns None\n\n
+    logUISelectionStep(final boolean isReq, final String label)\n
     '''

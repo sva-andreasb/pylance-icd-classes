@@ -1,4 +1,5 @@
-def OperationsException():
-    '''public OperationsException()
-    public OperationsException(final String s)
+def ():
+    '''returns OperationsException\n\n
+    ()\n
+    (final String s)\n
     '''

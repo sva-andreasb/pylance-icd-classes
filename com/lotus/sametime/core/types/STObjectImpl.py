@@ -1,25 +1,33 @@
-def STObjectImpl():
-    '''public STObjectImpl(final STId stId, final String s, final String s2)
-    public STObjectImpl(final NdrInputStream ndrInputStream)
+def ():
+    '''returns STObjectImpl\n\n
+    (final STId stId, final String s, final String s2)\n
+    (final NdrInputStream ndrInputStream)\n
     '''
 def getId():
-    '''public STId getId()
+    '''returns STId\n\n
+    getId()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDesc():
-    '''public String getDesc()
+    '''returns String\n\n
+    getDesc()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

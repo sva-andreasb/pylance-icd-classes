@@ -1,6 +1,8 @@
-def ForMatchingPredicateOrAfterXStanzas():
-    '''public ForMatchingPredicateOrAfterXStanzas(final StanzaFilter predicate, final int count)
+def ():
+    '''returns ForMatchingPredicateOrAfterXStanzas\n\n
+    (final StanzaFilter predicate, final int count)\n
     '''
 def accept():
-    '''public boolean accept(final Stanza packet)
+    '''returns boolean\n\n
+    accept(final Stanza packet)\n
     '''

@@ -1,3 +1,4 @@
-def GetBucketVersioningConfigurationRequest():
-    '''public GetBucketVersioningConfigurationRequest(final String bucketName)
+def ():
+    '''returns GetBucketVersioningConfigurationRequest\n\n
+    (final String bucketName)\n
     '''

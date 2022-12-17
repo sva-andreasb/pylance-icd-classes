@@ -1,10 +1,13 @@
-def WSDDArrayMapping():
-    '''public WSDDArrayMapping()
-    public WSDDArrayMapping(final Element e)
+def ():
+    '''returns WSDDArrayMapping\n\n
+    ()\n
+    (final Element e)\n
     '''
 def getInnerType():
-    '''public QName getInnerType()
+    '''returns QName\n\n
+    getInnerType()\n
     '''
 def writeToContext():
-    '''public void writeToContext(final SerializationContext context)
+    '''returns None\n\n
+    writeToContext(final SerializationContext context)\n
     '''

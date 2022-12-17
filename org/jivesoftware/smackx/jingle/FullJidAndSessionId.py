@@ -1,15 +1,20 @@
-def FullJidAndSessionId():
-    '''public FullJidAndSessionId(final FullJid fullJid, final String sessionId)
+def ():
+    '''returns FullJidAndSessionId\n\n
+    (final FullJid fullJid, final String sessionId)\n
     '''
 def getFullJid():
-    '''public FullJid getFullJid()
+    '''returns FullJid\n\n
+    getFullJid()\n
     '''
 def getSessionId():
-    '''public String getSessionId()
+    '''returns String\n\n
+    getSessionId()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''

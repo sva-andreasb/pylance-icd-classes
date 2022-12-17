@@ -1,36 +1,48 @@
-def JobTask():
-    '''public JobTask(final MboSet ms)
+def ():
+    '''returns JobTask\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def validateJPTaskKey():
-    '''public void validateJPTaskKey()
+    '''returns None\n\n
+    validateJPTaskKey()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboSet)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboSet)\n
     '''
 def validateCondPredExist():
-    '''public void validateCondPredExist(final String attributeName)
+    '''returns None\n\n
+    validateCondPredExist(final String attributeName)\n
     '''

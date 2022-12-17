@@ -1,33 +1,40 @@
-def RemoveApp():
-    '''public RemoveApp()
-    '''
-def main():
-    '''public static void main(final String[] argv)
+def ():
+    '''returns RemoveApp\n\n
+    ()\n
     '''
 def setUsername():
-    '''public void setUsername(final String s)
+    '''returns None\n\n
+    setUsername(final String s)\n
     '''
 def setPassword():
-    '''public void setPassword(final String s)
+    '''returns None\n\n
+    setPassword(final String s)\n
     '''
 def setDriver():
-    '''public void setDriver(final String s)
+    '''returns None\n\n
+    setDriver(final String s)\n
     '''
 def setUrl():
-    '''public void setUrl(final String s)
+    '''returns None\n\n
+    setUrl(final String s)\n
     '''
 def setJspRoot():
-    '''public void setJspRoot(final String s)
+    '''returns None\n\n
+    setJspRoot(final String s)\n
     '''
 def setAppFolder():
-    '''public void setAppFolder(final String s)
+    '''returns None\n\n
+    setAppFolder(final String s)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def updateDB():
-    '''public void updateDB()
+    '''returns None\n\n
+    updateDB()\n
     '''
 def removeAppFiles():
-    '''public void removeAppFiles()
+    '''returns None\n\n
+    removeAppFiles()\n
     '''

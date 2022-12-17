@@ -1,58 +1,32 @@
-def name():
-    '''public final String name()
-    public final String name()
-    '''
-def getLoggerName():
-    '''public final String getLoggerName()
-    public final String getLoggerName()
-    '''
 def getLogger():
-    '''public Logger getLogger()
-    public Logger getLogger()
-    '''
-def getResourceBundleName():
-    '''public final String getResourceBundleName()
-    public final String getResourceBundleName()
-    '''
-def getLevel():
-    '''public final Level getLevel()
-    public final Level getLevel()
-    '''
-def log():
-    '''public final void log(final Object... parameters)
-    public final void log(final Throwable throwable)
-    public final void log(final Throwable throwable, final Object... parameters)
-    public final void log(final Logger logger, final Throwable throwable, Object... parameters)
-    public final void log(final Object... parameters)
-    public final void log(final Throwable throwable)
-    public final void log(final Throwable throwable, final Object... parameters)
-    public final void log(final Logger logger, final Throwable throwable, Object... parameters)
+    '''returns Logger\n\n
+    getLogger()\n
+    getLogger()\n
     '''
 def fine():
-    '''public void fine(final String fmt, final Object... params)
-    public void fine(final OaasMessageCode code, final Object... params)
-    public void fine(final String fmt, final Object... params)
-    public void fine(final OaasMessageCode code, final Object... params)
+    '''returns None\n\n
+    fine(final String fmt, final Object... params)\n
+    fine(final OaasMessageCode code, final Object... params)\n
+    fine(final String fmt, final Object... params)\n
+    fine(final OaasMessageCode code, final Object... params)\n
     '''
 def finest():
-    '''public void finest(final String fmt, final Object... params)
-    public void finest(final String fmt, final Object... params)
+    '''returns None\n\n
+    finest(final String fmt, final Object... params)\n
+    finest(final String fmt, final Object... params)\n
     '''
 def entering():
-    '''public void entering(final String sourceClass, final String sourceMethod, final Object... params)
-    public void entering(final String sourceClass, final String sourceMethod, final Object... params)
+    '''returns None\n\n
+    entering(final String sourceClass, final String sourceMethod, final Object... params)\n
+    entering(final String sourceClass, final String sourceMethod, final Object... params)\n
     '''
 def extractMessage():
-    '''public String extractMessage(final Object... parameters)
-    public String extractMessage(final Object... parameters)
+    '''returns String\n\n
+    extractMessage(final Object... parameters)\n
+    extractMessage(final Object... parameters)\n
     '''
 def isLoggable():
-    '''public boolean isLoggable(final Level level)
-    public boolean isLoggable(final Level level)
-    '''
-def initializeCodes():
-    '''public static void initializeCodes(final Class<? extends OaasMessageCode> clazz, final String loggerName, final String resourceBundleName)
-    public static void initializeCodes(final Class<? extends OaasMessageCode> clazz, final String loggerName)
-    public static void initializeCodes(final Class<? extends OaasMessageCode> clazz, final String loggerName, final String resourceBundleName)
-    public static void initializeCodes(final Class<? extends OaasMessageCode> clazz, final String loggerName)
+    '''returns boolean\n\n
+    isLoggable(final Level level)\n
+    isLoggable(final Level level)\n
     '''

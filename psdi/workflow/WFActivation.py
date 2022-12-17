@@ -1,6 +1,8 @@
-def WFActivation():
-    '''public WFActivation(final MboSet ms)
+def ():
+    '''returns WFActivation\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

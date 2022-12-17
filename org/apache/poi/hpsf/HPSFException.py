@@ -1,9 +1,11 @@
-def HPSFException():
-    '''public HPSFException()
-    public HPSFException(final String msg)
-    public HPSFException(final Throwable reason)
-    public HPSFException(final String msg, final Throwable reason)
+def ():
+    '''returns HPSFException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable reason)\n
+    (final String msg, final Throwable reason)\n
     '''
 def getReason():
-    '''public Throwable getReason()
+    '''returns Throwable\n\n
+    getReason()\n
     '''

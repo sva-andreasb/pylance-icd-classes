@@ -1,24 +1,28 @@
-def DefaultWSExit():
-    '''public DefaultWSExit()
+def ():
+    '''returns DefaultWSExit\n\n
+    ()\n
     '''
 def setScript():
-    '''public void setScript(final String scriptExit)
+    '''returns None\n\n
+    setScript(final String scriptExit)\n
     '''
 def setEndpoint():
-    '''public void setEndpoint(final String epName)
+    '''returns None\n\n
+    setEndpoint(final String epName)\n
     '''
 def setMetaData():
-    '''public void setMetaData(final Map metaData)
+    '''returns None\n\n
+    setMetaData(final Map metaData)\n
     '''
 def responseError():
-    '''public void responseError(final Exception ex)
+    '''returns None\n\n
+    responseError(final Exception ex)\n
     '''
 def responseOk():
-    '''public void responseOk(final byte[] respData)
-    '''
-def getRequestSOAPHeaders():
-    '''public Map<QName, List<String>> getRequestSOAPHeaders(final byte[] requestData, final Map<QName, List<String>> reqHeaders)
+    '''returns None\n\n
+    responseOk(final byte[] respData)\n
     '''
 def setResponseHeaders():
-    '''public void setResponseHeaders(final Map<QName, List<String>> responseHeaders)
+    '''returns None\n\n
+    setResponseHeaders(final Map<QName, List<String>> responseHeaders)\n
     '''

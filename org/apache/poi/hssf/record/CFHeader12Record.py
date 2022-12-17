@@ -1,24 +1,31 @@
 sid = "short  2169"
-def CFHeader12Record():
-    '''public CFHeader12Record()
-    public CFHeader12Record(final CellRangeAddress[] regions, final int nRules)
-    public CFHeader12Record(final RecordInputStream in)
+def ():
+    '''returns CFHeader12Record\n\n
+    ()\n
+    (final CellRangeAddress[] regions, final int nRules)\n
+    (final RecordInputStream in)\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def getFutureRecordType():
-    '''public short getFutureRecordType()
+    '''returns short\n\n
+    getFutureRecordType()\n
     '''
 def getFutureHeader():
-    '''public FtrHeader getFutureHeader()
+    '''returns FtrHeader\n\n
+    getFutureHeader()\n
     '''
 def getAssociatedRange():
-    '''public CellRangeAddress getAssociatedRange()
+    '''returns CellRangeAddress\n\n
+    getAssociatedRange()\n
     '''
 def clone():
-    '''public CFHeader12Record clone()
+    '''returns CFHeader12Record\n\n
+    clone()\n
     '''

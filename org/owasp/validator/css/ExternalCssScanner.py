@@ -1,3 +1,4 @@
-def ExternalCssScanner():
-    '''public ExternalCssScanner(final InternalPolicy policy, final ResourceBundle messages)
+def ():
+    '''returns ExternalCssScanner\n\n
+    (final InternalPolicy policy, final ResourceBundle messages)\n
     '''

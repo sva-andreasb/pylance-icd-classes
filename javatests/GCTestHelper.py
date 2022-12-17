@@ -1,22 +1,9 @@
-def reflectionTraverseTestField():
-    '''public static PyObject reflectionTraverseTestField()
-    '''
-def reflectionTraverseTestList():
-    '''public static PyObject reflectionTraverseTestList()
-    '''
-def reflectionTraverseTestArray():
-    '''public static PyObject reflectionTraverseTestArray()
-    '''
-def reflectionTraverseTestPyList():
-    '''public static PyObject reflectionTraverseTestPyList()
-    '''
-def reflectionTraverseTestCycle():
-    '''public static PyObject reflectionTraverseTestCycle()
-    '''
 def finalize():
-    '''public void finalize()
-    public void finalize()
+    '''returns None\n\n
+    finalize()\n
+    finalize()\n
     '''
-def PyReflectionTraversed():
-    '''public PyReflectionTraversed()
+def ():
+    '''returns PyReflectionTraversed\n\n
+    ()\n
     '''

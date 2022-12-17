@@ -1,24 +1,16 @@
 def setSearchView():
-    '''public void setSearchView(final SearchView view)
+    '''returns None\n\n
+    setSearchView(final SearchView view)\n
     '''
 def setHelpBroker():
-    '''public void setHelpBroker(final HelpBroker hb)
+    '''returns None\n\n
+    setHelpBroker(final HelpBroker hb)\n
     '''
 def setQuery():
-    '''public void setQuery(final String query)
-    '''
-def doStartTag():
-    '''public synchronized int doStartTag()
+    '''returns None\n\n
+    setQuery(final String query)\n
     '''
 def doAfterBody():
-    '''public int doAfterBody()
-    '''
-def itemsFound():
-    '''public synchronized void itemsFound(final SearchEvent searchEvent)
-    '''
-def searchStarted():
-    '''public synchronized void searchStarted(final SearchEvent searchEvent)
-    '''
-def searchFinished():
-    '''public synchronized void searchFinished(final SearchEvent searchEvent)
+    '''returns int\n\n
+    doAfterBody()\n
     '''

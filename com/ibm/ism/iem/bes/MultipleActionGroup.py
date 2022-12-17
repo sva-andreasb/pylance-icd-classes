@@ -1,69 +1,92 @@
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String value)
+    '''returns None\n\n
+    setTitle(final String value)\n
     '''
 def getRelevance():
-    '''public RelevanceString getRelevance()
+    '''returns RelevanceString\n\n
+    getRelevance()\n
     '''
 def setRelevance():
-    '''public void setRelevance(final RelevanceString value)
+    '''returns None\n\n
+    setRelevance(final RelevanceString value)\n
     '''
 def getPreGroupActionScript():
-    '''public ActionScript getPreGroupActionScript()
+    '''returns ActionScript\n\n
+    getPreGroupActionScript()\n
     '''
 def setPreGroupActionScript():
-    '''public void setPreGroupActionScript(final ActionScript value)
+    '''returns None\n\n
+    setPreGroupActionScript(final ActionScript value)\n
     '''
 def getMemberAction():
-    '''public List<MemberAction> getMemberAction()
+    '''returns List<MemberAction>\n\n
+    getMemberAction()\n
     '''
 def getPostGroupActionScript():
-    '''public ActionScript getPostGroupActionScript()
+    '''returns ActionScript\n\n
+    getPostGroupActionScript()\n
     '''
 def setPostGroupActionScript():
-    '''public void setPostGroupActionScript(final ActionScript value)
+    '''returns None\n\n
+    setPostGroupActionScript(final ActionScript value)\n
     '''
 def getSettings():
-    '''public ActionSettingsType getSettings()
+    '''returns ActionSettingsType\n\n
+    getSettings()\n
     '''
 def setSettings():
-    '''public void setSettings(final ActionSettingsType value)
+    '''returns None\n\n
+    setSettings(final ActionSettingsType value)\n
     '''
 def getSettingsLocks():
-    '''public ActionSettingsLocks getSettingsLocks()
+    '''returns ActionSettingsLocks\n\n
+    getSettingsLocks()\n
     '''
 def setSettingsLocks():
-    '''public void setSettingsLocks(final ActionSettingsLocks value)
+    '''returns None\n\n
+    setSettingsLocks(final ActionSettingsLocks value)\n
     '''
 def getDomain():
-    '''public String getDomain()
+    '''returns String\n\n
+    getDomain()\n
     '''
 def setDomain():
-    '''public void setDomain(final String value)
+    '''returns None\n\n
+    setDomain(final String value)\n
     '''
 def getTarget():
-    '''public BESActionTarget getTarget()
+    '''returns BESActionTarget\n\n
+    getTarget()\n
     '''
 def setTarget():
-    '''public void setTarget(final BESActionTarget value)
+    '''returns None\n\n
+    setTarget(final BESActionTarget value)\n
     '''
 def getSourceFixletID():
-    '''public BESSourceSiteAndFixlet getSourceFixletID()
+    '''returns BESSourceSiteAndFixlet\n\n
+    getSourceFixletID()\n
     '''
 def setSourceFixletID():
-    '''public void setSourceFixletID(final BESSourceSiteAndFixlet value)
+    '''returns None\n\n
+    setSourceFixletID(final BESSourceSiteAndFixlet value)\n
     '''
 def isSkipUI():
-    '''public Boolean isSkipUI()
+    '''returns Boolean\n\n
+    isSkipUI()\n
     '''
 def setSkipUI():
-    '''public void setSkipUI(final Boolean value)
+    '''returns None\n\n
+    setSkipUI(final Boolean value)\n
     '''
 def isIncludeInGroupRelevance():
-    '''public Boolean isIncludeInGroupRelevance()
+    '''returns Boolean\n\n
+    isIncludeInGroupRelevance()\n
     '''
 def setIncludeInGroupRelevance():
-    '''public void setIncludeInGroupRelevance(final Boolean value)
+    '''returns None\n\n
+    setIncludeInGroupRelevance(final Boolean value)\n
     '''

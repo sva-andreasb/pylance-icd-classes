@@ -1,98 +1,130 @@
-def HttpURLConnection():
-    '''public HttpURLConnection(final HttpMethod method, final URL url)
+def ():
+    '''returns HttpURLConnection\n\n
+    (final HttpMethod method, final URL url)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getErrorStream():
-    '''public InputStream getErrorStream()
+    '''returns InputStream\n\n
+    getErrorStream()\n
     '''
 def disconnect():
-    '''public void disconnect()
+    '''returns None\n\n
+    disconnect()\n
     '''
 def connect():
-    '''public void connect()
+    '''returns None\n\n
+    connect()\n
     '''
 def usingProxy():
-    '''public boolean usingProxy()
+    '''returns boolean\n\n
+    usingProxy()\n
     '''
 def getRequestMethod():
-    '''public String getRequestMethod()
+    '''returns String\n\n
+    getRequestMethod()\n
     '''
 def getResponseCode():
-    '''public int getResponseCode()
+    '''returns int\n\n
+    getResponseCode()\n
     '''
 def getResponseMessage():
-    '''public String getResponseMessage()
+    '''returns String\n\n
+    getResponseMessage()\n
     '''
 def getHeaderField():
-    '''public String getHeaderField(final String name)
-    public String getHeaderField(final int position)
+    '''returns String\n\n
+    getHeaderField(final String name)\n
+    getHeaderField(final int position)\n
     '''
 def getHeaderFieldKey():
-    '''public String getHeaderFieldKey(final int keyPosition)
+    '''returns String\n\n
+    getHeaderFieldKey(final int keyPosition)\n
     '''
 def getURL():
-    '''public URL getURL()
+    '''returns URL\n\n
+    getURL()\n
     '''
 def setInstanceFollowRedirects():
-    '''public void setInstanceFollowRedirects(final boolean isFollowingRedirects)
+    '''returns None\n\n
+    setInstanceFollowRedirects(final boolean isFollowingRedirects)\n
     '''
 def getInstanceFollowRedirects():
-    '''public boolean getInstanceFollowRedirects()
+    '''returns boolean\n\n
+    getInstanceFollowRedirects()\n
     '''
 def setRequestMethod():
-    '''public void setRequestMethod(final String method)
+    '''returns None\n\n
+    setRequestMethod(final String method)\n
     '''
 def getPermission():
-    '''public Permission getPermission()
+    '''returns Permission\n\n
+    getPermission()\n
     '''
 def getContent():
-    '''public Object getContent()
-    public Object getContent(final Class[] classes)
+    '''returns Object\n\n
+    getContent()\n
+    getContent(final Class[] classes)\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def setDoInput():
-    '''public void setDoInput(final boolean isInput)
+    '''returns None\n\n
+    setDoInput(final boolean isInput)\n
     '''
 def getDoInput():
-    '''public boolean getDoInput()
+    '''returns boolean\n\n
+    getDoInput()\n
     '''
 def setDoOutput():
-    '''public void setDoOutput(final boolean isOutput)
+    '''returns None\n\n
+    setDoOutput(final boolean isOutput)\n
     '''
 def getDoOutput():
-    '''public boolean getDoOutput()
+    '''returns boolean\n\n
+    getDoOutput()\n
     '''
 def setAllowUserInteraction():
-    '''public void setAllowUserInteraction(final boolean isAllowInteraction)
+    '''returns None\n\n
+    setAllowUserInteraction(final boolean isAllowInteraction)\n
     '''
 def getAllowUserInteraction():
-    '''public boolean getAllowUserInteraction()
+    '''returns boolean\n\n
+    getAllowUserInteraction()\n
     '''
 def setUseCaches():
-    '''public void setUseCaches(final boolean isUsingCaches)
+    '''returns None\n\n
+    setUseCaches(final boolean isUsingCaches)\n
     '''
 def getUseCaches():
-    '''public boolean getUseCaches()
+    '''returns boolean\n\n
+    getUseCaches()\n
     '''
 def setIfModifiedSince():
-    '''public void setIfModifiedSince(final long modificationDate)
+    '''returns None\n\n
+    setIfModifiedSince(final long modificationDate)\n
     '''
 def getIfModifiedSince():
-    '''public long getIfModifiedSince()
+    '''returns long\n\n
+    getIfModifiedSince()\n
     '''
 def getDefaultUseCaches():
-    '''public boolean getDefaultUseCaches()
+    '''returns boolean\n\n
+    getDefaultUseCaches()\n
     '''
 def setDefaultUseCaches():
-    '''public void setDefaultUseCaches(final boolean isUsingCaches)
+    '''returns None\n\n
+    setDefaultUseCaches(final boolean isUsingCaches)\n
     '''
 def setRequestProperty():
-    '''public void setRequestProperty(final String key, final String value)
+    '''returns None\n\n
+    setRequestProperty(final String key, final String value)\n
     '''
 def getRequestProperty():
-    '''public String getRequestProperty(final String key)
+    '''returns String\n\n
+    getRequestProperty(final String key)\n
     '''

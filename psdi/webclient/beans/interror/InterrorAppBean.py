@@ -1,33 +1,44 @@
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def setPageStartIndex():
-    '''public boolean setPageStartIndex(final int nRow)
+    '''returns boolean\n\n
+    setPageStartIndex(final int nRow)\n
     '''
 def resetErrorList():
-    '''public int resetErrorList()
+    '''returns int\n\n
+    resetErrorList()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def REFRESH():
-    '''public int REFRESH()
+    '''returns int\n\n
+    REFRESH()\n
     '''
 def STATUS():
-    '''public int STATUS()
+    '''returns int\n\n
+    STATUS()\n
     '''
 def DELETEALL():
-    '''public int DELETEALL()
+    '''returns int\n\n
+    DELETEALL()\n
     '''
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def PROCESSALL():
-    '''public int PROCESSALL()
+    '''returns int\n\n
+    PROCESSALL()\n
     '''
 def PROCESSSEL():
-    '''public int PROCESSSEL()
+    '''returns int\n\n
+    PROCESSSEL()\n
     '''
 def detail():
-    '''public int detail()
+    '''returns int\n\n
+    detail()\n
     '''

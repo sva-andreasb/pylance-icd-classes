@@ -1,4 +1,5 @@
-def AMCrewService():
-    '''public AMCrewService()
-    public AMCrewService(final MXServer mxServer)
+def ():
+    '''returns AMCrewService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

@@ -1,6 +1,8 @@
-def SingleThreadServletWrapper():
-    '''public SingleThreadServletWrapper(final Servlet s)
+def ():
+    '''returns SingleThreadServletWrapper\n\n
+    (final Servlet s)\n
     '''
 def getProxiedClass():
-    '''public Class getProxiedClass()
+    '''returns Class\n\n
+    getProxiedClass()\n
     '''

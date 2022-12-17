@@ -1,18 +1,24 @@
-def Cleaner():
-    '''public Cleaner(final Whitelist whitelist)
+def ():
+    '''returns Cleaner\n\n
+    (final Whitelist whitelist)\n
     '''
 def clean():
-    '''public Document clean(final Document dirtyDocument)
+    '''returns Document\n\n
+    clean(final Document dirtyDocument)\n
     '''
 def isValid():
-    '''public boolean isValid(final Document dirtyDocument)
+    '''returns boolean\n\n
+    isValid(final Document dirtyDocument)\n
     '''
 def isValidBodyHtml():
-    '''public boolean isValidBodyHtml(final String bodyHtml)
+    '''returns boolean\n\n
+    isValidBodyHtml(final String bodyHtml)\n
     '''
 def head():
-    '''public void head(final Node source, final int depth)
+    '''returns None\n\n
+    head(final Node source, final int depth)\n
     '''
 def tail():
-    '''public void tail(final Node source, final int depth)
+    '''returns None\n\n
+    tail(final Node source, final int depth)\n
     '''

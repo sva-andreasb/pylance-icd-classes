@@ -1,15 +1,20 @@
-def SimpleCache():
-    '''public SimpleCache(final int threshold)
+def ():
+    '''returns SimpleCache\n\n
+    (final int threshold)\n
     '''
 def put():
-    '''public void put(final K id, final V val)
+    '''returns None\n\n
+    put(final K id, final V val)\n
     '''
 def get():
-    '''public V get(final K id)
+    '''returns V\n\n
+    get(final K id)\n
     '''
 def setLimit():
-    '''public void setLimit(final int threshold)
+    '''returns None\n\n
+    setLimit(final int threshold)\n
     '''
 def getLimit():
-    '''public int getLimit()
+    '''returns int\n\n
+    getLimit()\n
     '''

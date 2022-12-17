@@ -1,3 +1,4 @@
-def PlusPFldGBTransWoNum():
-    '''public PlusPFldGBTransWoNum(final MboValue mbv)
+def ():
+    '''returns PlusPFldGBTransWoNum\n\n
+    (final MboValue mbv)\n
     '''

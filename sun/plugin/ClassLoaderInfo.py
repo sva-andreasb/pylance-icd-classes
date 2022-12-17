@@ -1,39 +1,20 @@
-def reset():
-    '''public static synchronized void reset()
-    '''
-def clearClassLoaderCache():
-    '''public static synchronized void clearClassLoaderCache()
-    '''
-def dumpClassLoaderCache():
-    '''public static synchronized void dumpClassLoaderCache(final PrintStream printStream)
-    '''
-def markNotCachable():
-    '''public static synchronized void markNotCachable(final URL url, final String s)
-    '''
-def find():
-    '''public static synchronized ClassLoaderInfo find(final URL url, final String s)
-    '''
 def getLocalJarsLoaded():
-    '''public boolean getLocalJarsLoaded()
+    '''returns boolean\n\n
+    getLocalJarsLoaded()\n
     '''
 def setLocalJarsLoaded():
-    '''public void setLocalJarsLoaded(final boolean localJarsLoaded)
+    '''returns None\n\n
+    setLocalJarsLoaded(final boolean localJarsLoaded)\n
     '''
-def lock():
-    '''public final synchronized void lock()
-    '''
-def unlock():
-    '''public final synchronized void unlock()
-    '''
-def checkListsValidity():
-    '''public static synchronized boolean checkListsValidity()
-    '''
-def LoaderReference():
-    '''public LoaderReference(final ClassLoader referent)
+def ():
+    '''returns LoaderReference\n\n
+    (final ClassLoader referent)\n
     '''
 def getCodebase():
-    '''public String getCodebase()
+    '''returns String\n\n
+    getCodebase()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''

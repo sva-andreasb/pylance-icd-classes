@@ -1,12 +1,16 @@
-def FWMActivityBar():
-    '''public FWMActivityBar()
+def ():
+    '''returns FWMActivityBar\n\n
+    ()\n
     '''
 def draw():
-    '''public void draw(final Graphics dst, final IlvActivityGraphic ag, final IlvTransformer t)
+    '''returns None\n\n
+    draw(final Graphics dst, final IlvActivityGraphic ag, final IlvTransformer t)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvActivityGraphic arg0, final IlvPoint arg1, final IlvTransformer arg2)
+    '''returns String\n\n
+    getToolTipText(final IlvActivityGraphic arg0, final IlvPoint arg1, final IlvTransformer arg2)\n
     '''
 def drawDummyActivity():
-    '''public void drawDummyActivity(final String activityType, final Graphics dst, final IlvActivityGraphic ag, final IlvTransformer t)
+    '''returns None\n\n
+    drawDummyActivity(final String activityType, final Graphics dst, final IlvActivityGraphic ag, final IlvTransformer t)\n
     '''

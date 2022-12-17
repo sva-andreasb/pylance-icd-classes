@@ -1,3 +1,4 @@
-def CompatibleMarshallingEncoder():
-    '''public CompatibleMarshallingEncoder(final MarshallerProvider provider)
+def ():
+    '''returns CompatibleMarshallingEncoder\n\n
+    (final MarshallerProvider provider)\n
     '''

@@ -1,21 +1,28 @@
-def Attribute():
-    '''public Attribute(final String name, final List<Pattern> allowedRegexps, final List<String> allowedValues, final String onInvalidStr, final String description)
+def ():
+    '''returns Attribute\n\n
+    (final String name, final List<Pattern> allowedRegexps, final List<String> allowedValues, final String onInvalidStr, final String description)\n
     '''
 def matchesAllowedExpression():
-    '''public boolean matchesAllowedExpression(final String value)
+    '''returns boolean\n\n
+    matchesAllowedExpression(final String value)\n
     '''
 def containsAllowedValue():
-    '''public boolean containsAllowedValue(final String valueInLowerCase)
+    '''returns boolean\n\n
+    containsAllowedValue(final String valueInLowerCase)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getOnInvalid():
-    '''public String getOnInvalid()
+    '''returns String\n\n
+    getOnInvalid()\n
     '''
 def mutate():
-    '''public Attribute mutate(final String onInvalid, final String description)
+    '''returns Attribute\n\n
+    mutate(final String onInvalid, final String description)\n
     '''
 def matcherRegEx():
-    '''public String matcherRegEx(final boolean hasNext)
+    '''returns String\n\n
+    matcherRegEx(final boolean hasNext)\n
     '''

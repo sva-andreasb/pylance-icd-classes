@@ -1,10 +1,12 @@
-def AppletMessageHandler():
-    '''public AppletMessageHandler(final String baseKey)
+def ():
+    '''returns AppletMessageHandler\n\n
+    (final String baseKey)\n
     '''
 def getMessage():
-    '''public String getMessage(final String s)
-    public String getMessage(final String s, Object o)
-    public String getMessage(final String s, Object o, Object o2)
-    public String getMessage(final String s, Object o, Object o2, Object o3)
-    public String getMessage(final String s, final Object[] obj)
+    '''returns String\n\n
+    getMessage(final String s)\n
+    getMessage(final String s, Object o)\n
+    getMessage(final String s, Object o, Object o2)\n
+    getMessage(final String s, Object o, Object o2, Object o3)\n
+    getMessage(final String s, final Object[] obj)\n
     '''

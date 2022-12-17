@@ -1,13 +1,13 @@
-def H():
-    '''public H(final InputStream inputStream, final FromProjectsOptions a)
+def ():
+    '''returns H\n\n
+    (final InputStream inputStream, final FromProjectsOptions a)\n
     '''
 def a():
-    '''public ca a()
-    public FromProjectsOptions a()
+    '''returns FromProjectsOptions\n\n
+    a()\n
+    a()\n
     '''
 def getPagesCount():
-    '''public int getPagesCount()
-    '''
-def bindSaveOptions():
-    '''public ILoader<ca, FromProjectsOptions> bindSaveOptions(final SaveOptions saveOptions)
+    '''returns int\n\n
+    getPagesCount()\n
     '''

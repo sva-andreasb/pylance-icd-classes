@@ -1,36 +1,36 @@
 MAX_OBJNAME_LENGTH = "int  20"
-def OBPGenerator():
-    '''public OBPGenerator(final String interactionName)
-    public OBPGenerator(final String interactionName, final boolean ignoreAttributes)
-    public OBPGenerator(final String interactionName, final boolean ignoreAttributes, final boolean ignoreWildcards)
-    public OBPGenerator(final String interactionName, final boolean ignoreAttributes, final boolean ignoreWildcards, final boolean ignoreRecursion)
-    public OBPGenerator(final String interactionName, final boolean ignoreAttributes, final boolean ignoreWildcards, final boolean ignoreRecursion, final boolean treatListAsAtomic)
-    public OBPGenerator(final String interactionName, final boolean ignoreAttributes, final boolean ignoreWildcards, final boolean ignoreRecursion, final boolean treatListAsAtomic, final boolean processResponse)
-    '''
-def cloneOBP():
-    '''public static OBPInfo cloneOBP(final OBPInfo obpInfo)
+def ():
+    '''returns OBPGenerator\n\n
+    (final String interactionName)\n
+    (final String interactionName, final boolean ignoreAttributes)\n
+    (final String interactionName, final boolean ignoreAttributes, final boolean ignoreWildcards)\n
+    (final String interactionName, final boolean ignoreAttributes, final boolean ignoreWildcards, final boolean ignoreRecursion)\n
+    (final String interactionName, final boolean ignoreAttributes, final boolean ignoreWildcards, final boolean ignoreRecursion, final boolean treatListAsAtomic)\n
+    (final String interactionName, final boolean ignoreAttributes, final boolean ignoreWildcards, final boolean ignoreRecursion, final boolean treatListAsAtomic, final boolean processResponse)\n
     '''
 def parse():
-    '''public static OBPInfo parse(final byte[] obpDoc)
-    public OBPInfo parse(final File file)
-    '''
-def toBytes():
-    '''public static byte[] toBytes(final OBPInfo obpInfo)
+    '''returns OBPInfo\n\n
+    parse(final File file)\n
     '''
 def create():
-    '''public OBPInfo create(final URL wsdlURL, final String serviceName, final String portName, final String operationName)
-    public OBPInfo create(final WSDLInfo wsdlInfo, final String serviceName, final String portName, final String operationName)
-    public OBPInfo create(final InputStream wsdlStream, final String operationName)
+    '''returns OBPInfo\n\n
+    create(final URL wsdlURL, final String serviceName, final String portName, final String operationName)\n
+    create(final WSDLInfo wsdlInfo, final String serviceName, final String portName, final String operationName)\n
+    create(final InputStream wsdlStream, final String operationName)\n
     '''
 def optimizeRequest():
-    '''public OBPInfo optimizeRequest(OBPInfo obpInfo)
+    '''returns OBPInfo\n\n
+    optimizeRequest(OBPInfo obpInfo)\n
     '''
 def optimizeResponse():
-    '''public OBPInfo optimizeResponse(OBPInfo obpInfo)
+    '''returns OBPInfo\n\n
+    optimizeResponse(OBPInfo obpInfo)\n
     '''
 def getSampleRequestXML():
-    '''public byte[] getSampleRequestXML()
+    '''returns byte[]\n\n
+    getSampleRequestXML()\n
     '''
 def getSampleResponseXML():
-    '''public byte[] getSampleResponseXML()
+    '''returns byte[]\n\n
+    getSampleResponseXML()\n
     '''

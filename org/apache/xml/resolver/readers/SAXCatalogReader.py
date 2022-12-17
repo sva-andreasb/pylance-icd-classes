@@ -1,65 +1,85 @@
 def setParserFactory():
-    '''public void setParserFactory(final SAXParserFactory parserFactory)
+    '''returns None\n\n
+    setParserFactory(final SAXParserFactory parserFactory)\n
     '''
 def setParserClass():
-    '''public void setParserClass(final String parserClass)
+    '''returns None\n\n
+    setParserClass(final String parserClass)\n
     '''
 def getParserFactory():
-    '''public SAXParserFactory getParserFactory()
+    '''returns SAXParserFactory\n\n
+    getParserFactory()\n
     '''
 def getParserClass():
-    '''public String getParserClass()
+    '''returns String\n\n
+    getParserClass()\n
     '''
 def setClassLoader():
-    '''public void setClassLoader(final ClassLoader loader)
+    '''returns None\n\n
+    setClassLoader(final ClassLoader loader)\n
     '''
-def SAXCatalogReader():
-    '''public SAXCatalogReader()
-    public SAXCatalogReader(final SAXParserFactory parserFactory)
-    public SAXCatalogReader(final String parserClass)
+def ():
+    '''returns SAXCatalogReader\n\n
+    ()\n
+    (final SAXParserFactory parserFactory)\n
+    (final String parserClass)\n
     '''
 def setCatalogParser():
-    '''public void setCatalogParser(String namespaceURI, final String rootElement, final String parserClass)
+    '''returns None\n\n
+    setCatalogParser(String namespaceURI, final String rootElement, final String parserClass)\n
     '''
 def getCatalogParser():
-    '''public String getCatalogParser(String namespaceURI, final String rootElement)
+    '''returns String\n\n
+    getCatalogParser(String namespaceURI, final String rootElement)\n
     '''
 def readCatalog():
-    '''public void readCatalog(final Catalog catalog, final String fileUrl)
-    public void readCatalog(final Catalog catalog, final InputStream is)
+    '''returns None\n\n
+    readCatalog(final Catalog catalog, final String fileUrl)\n
+    readCatalog(final Catalog catalog, final InputStream is)\n
     '''
 def setDocumentLocator():
-    '''public void setDocumentLocator(final Locator locator)
+    '''returns None\n\n
+    setDocumentLocator(final Locator locator)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def startElement():
-    '''public void startElement(final String name, final AttributeList atts)
-    public void startElement(final String namespaceURI, final String localName, final String qName, final Attributes atts)
+    '''returns None\n\n
+    startElement(final String name, final AttributeList atts)\n
+    startElement(final String namespaceURI, final String localName, final String qName, final Attributes atts)\n
     '''
 def endElement():
-    '''public void endElement(final String name)
-    public void endElement(final String namespaceURI, final String localName, final String qName)
+    '''returns None\n\n
+    endElement(final String name)\n
+    endElement(final String namespaceURI, final String localName, final String qName)\n
     '''
 def characters():
-    '''public void characters(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    characters(final char[] ch, final int start, final int length)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    ignorableWhitespace(final char[] ch, final int start, final int length)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String target, final String data)
+    '''returns None\n\n
+    processingInstruction(final String target, final String data)\n
     '''
 def startPrefixMapping():
-    '''public void startPrefixMapping(final String prefix, final String uri)
+    '''returns None\n\n
+    startPrefixMapping(final String prefix, final String uri)\n
     '''
 def endPrefixMapping():
-    '''public void endPrefixMapping(final String prefix)
+    '''returns None\n\n
+    endPrefixMapping(final String prefix)\n
     '''
 def skippedEntity():
-    '''public void skippedEntity(final String name)
+    '''returns None\n\n
+    skippedEntity(final String name)\n
     '''

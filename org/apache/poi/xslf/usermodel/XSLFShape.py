@@ -1,51 +1,64 @@
-def getXmlObject():
-    '''public final XmlObject getXmlObject()
-    '''
 def getSheet():
-    '''public XSLFSheet getSheet()
+    '''returns XSLFSheet\n\n
+    getSheet()\n
     '''
 def getShapeName():
-    '''public String getShapeName()
+    '''returns String\n\n
+    getShapeName()\n
     '''
 def getShapeId():
-    '''public int getShapeId()
+    '''returns int\n\n
+    getShapeId()\n
     '''
 def setParent():
-    '''public void setParent(final XSLFShapeContainer parent)
+    '''returns None\n\n
+    setParent(final XSLFShapeContainer parent)\n
     '''
 def getParent():
-    '''public XSLFShapeContainer getParent()
+    '''returns XSLFShapeContainer\n\n
+    getParent()\n
     '''
 def fetch():
-    '''public boolean fetch(final XSLFShape shape)
+    '''returns boolean\n\n
+    fetch(final XSLFShape shape)\n
     '''
 def getPlaceholder():
-    '''public Placeholder getPlaceholder()
+    '''returns Placeholder\n\n
+    getPlaceholder()\n
     '''
 def getImageData():
-    '''public InputStream getImageData()
+    '''returns InputStream\n\n
+    getImageData()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getAlpha():
-    '''public int getAlpha()
+    '''returns int\n\n
+    getAlpha()\n
     '''
 def compare():
-    '''public int compare(final CTGradientStop o1, final CTGradientStop o2)
+    '''returns int\n\n
+    compare(final CTGradientStop o1, final CTGradientStop o2)\n
     '''
 def getGradientAngle():
-    '''public double getGradientAngle()
+    '''returns double\n\n
+    getGradientAngle()\n
     '''
 def getGradientColors():
-    '''public ColorStyle[] getGradientColors()
+    '''returns ColorStyle[]\n\n
+    getGradientColors()\n
     '''
 def getGradientFractions():
-    '''public float[] getGradientFractions()
+    '''returns float[]\n\n
+    getGradientFractions()\n
     '''
 def isRotatedWithShape():
-    '''public boolean isRotatedWithShape()
+    '''returns boolean\n\n
+    isRotatedWithShape()\n
     '''
 def draw():
-    '''public void draw(final Graphics2D graphics, final Rectangle2D bounds)
+    '''returns None\n\n
+    draw(final Graphics2D graphics, final Rectangle2D bounds)\n
     '''

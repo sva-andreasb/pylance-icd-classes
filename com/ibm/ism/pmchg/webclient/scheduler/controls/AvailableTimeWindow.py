@@ -1,21 +1,28 @@
-def AvailableTimeWindow():
-    '''public AvailableTimeWindow(final String id, final List<TimeWindow> timeWindows, final boolean available)
+def ():
+    '''returns AvailableTimeWindow\n\n
+    (final String id, final List<TimeWindow> timeWindows, final boolean available)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def getTimeWindows():
-    '''public List<TimeWindow> getTimeWindows()
+    '''returns List<TimeWindow>\n\n
+    getTimeWindows()\n
     '''
 def setTimeWindows():
-    '''public void setTimeWindows(final List<TimeWindow> timeWindows)
+    '''returns None\n\n
+    setTimeWindows(final List<TimeWindow> timeWindows)\n
     '''
 def isAvailable():
-    '''public boolean isAvailable()
+    '''returns boolean\n\n
+    isAvailable()\n
     '''
 def setAvailable():
-    '''public void setAvailable(final boolean available)
+    '''returns None\n\n
+    setAvailable(final boolean available)\n
     '''

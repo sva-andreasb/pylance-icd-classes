@@ -1,9 +1,12 @@
-def TAMITFldGroupName():
-    '''public TAMITFldGroupName(final MboValue mbv)
+def ():
+    '''returns TAMITFldGroupName\n\n
+    (final MboValue mbv)\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

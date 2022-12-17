@@ -1,6 +1,8 @@
-def Status_Update():
-    '''public Status_Update(final String str, final int i)
+def ():
+    '''returns Status_Update\n\n
+    (final String str, final int i)\n
     '''
 def getResult():
-    '''public Status getResult()
+    '''returns Status\n\n
+    getResult()\n
     '''

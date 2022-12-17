@@ -18,27 +18,35 @@ RELATIONSHIP_VARIABLES = "String  \"KPITEMPLATEVARS\""
 RELATIONSHIP_KPIS = "String  \"KPITEMPLATEMAINS\""
 RELATIONSHIP_EXISTING_KPIS = "String  \"KPITEMPLATES\""
 RELATIONSHIP_ALL_KPIS = "String  \"ALLKPIS\""
-def KPITemplate():
-    '''public KPITemplate(final MboSet ms)
+def ():
+    '''returns KPITemplate\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def validateQuery():
-    '''public void validateQuery()
+    '''returns None\n\n
+    validateQuery()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''

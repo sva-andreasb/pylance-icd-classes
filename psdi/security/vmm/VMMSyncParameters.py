@@ -1,27 +1,28 @@
-def VMMSyncParameters():
-    '''public VMMSyncParameters()
+def ():
+    '''returns VMMSyncParameters\n\n
+    ()\n
     '''
 def get():
-    '''public String get(final String parameterName)
+    '''returns String\n\n
+    get(final String parameterName)\n
     '''
 def put():
-    '''public void put(final String parameterName, final String value)
+    '''returns None\n\n
+    put(final String parameterName, final String value)\n
     '''
 def getParameters():
-    '''public Iterator getParameters()
+    '''returns Iterator\n\n
+    getParameters()\n
     '''
 def checkpointMapToString():
-    '''public String checkpointMapToString(final HashMap in)
-    '''
-def checkpointStringToMap():
-    '''public HashMap<String, String> checkpointStringToMap(final String in)
-    '''
-def checkpointObjectToMap():
-    '''public HashMap<String, String> checkpointObjectToMap(final DataObject inDO)
+    '''returns String\n\n
+    checkpointMapToString(final HashMap in)\n
     '''
 def checkpointMapToObject():
-    '''public DataObject checkpointMapToObject(final HashMap<String, String> cpMap, final DataObject controlDO, final boolean fullSync)
+    '''returns DataObject\n\n
+    checkpointMapToObject(final HashMap<String, String> cpMap, final DataObject controlDO, final boolean fullSync)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''

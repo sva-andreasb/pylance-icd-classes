@@ -1,3 +1,4 @@
-def WorkCenterTemplateSet():
-    '''public WorkCenterTemplateSet(final MboServerInterface ms)
+def ():
+    '''returns WorkCenterTemplateSet\n\n
+    (final MboServerInterface ms)\n
     '''

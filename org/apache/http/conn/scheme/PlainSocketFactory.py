@@ -1,18 +1,15 @@
-def getSocketFactory():
-    '''public static PlainSocketFactory getSocketFactory()
-    '''
-def PlainSocketFactory():
-    '''public PlainSocketFactory(final HostNameResolver nameResolver)
-    public PlainSocketFactory()
+def ():
+    '''returns PlainSocketFactory\n\n
+    (final HostNameResolver nameResolver)\n
+    ()\n
     '''
 def createSocket():
-    '''public Socket createSocket(final HttpParams params)
-    public Socket createSocket()
+    '''returns Socket\n\n
+    createSocket(final HttpParams params)\n
+    createSocket()\n
     '''
 def connectSocket():
-    '''public Socket connectSocket(final Socket socket, final InetSocketAddress remoteAddress, final InetSocketAddress localAddress, final HttpParams params)
-    public Socket connectSocket(final Socket socket, final String host, final int port, final InetAddress localAddress, final int localPort, final HttpParams params)
-    '''
-def isSecure():
-    '''public final boolean isSecure(final Socket sock)
+    '''returns Socket\n\n
+    connectSocket(final Socket socket, final InetSocketAddress remoteAddress, final InetSocketAddress localAddress, final HttpParams params)\n
+    connectSocket(final Socket socket, final String host, final int port, final InetAddress localAddress, final int localPort, final HttpParams params)\n
     '''

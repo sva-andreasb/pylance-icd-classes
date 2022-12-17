@@ -1,38 +1,43 @@
-def JStaticJavaFile():
-    '''public JStaticJavaFile(final JPackage _pkg, final String className, final String _resourceName)
-    public JStaticJavaFile(final JPackage _pkg, final String _className, final URL _source, final LineFilter _filter)
-    '''
-def getJClass():
-    '''public final JClass getJClass()
+def ():
+    '''returns ChainFilter\n\n
+    (final JPackage _pkg, final String className, final String _resourceName)\n
+    (final JPackage _pkg, final String _className, final URL _source, final LineFilter _filter)\n
+    (final LineFilter first, final LineFilter second)\n
     '''
 def process():
-    '''public String process(final String line)
-    public String process(String line)
-    '''
-def ChainFilter():
-    '''public ChainFilter(final LineFilter first, final LineFilter second)
+    '''returns String\n\n
+    process(final String line)\n
+    process(String line)\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def fullName():
-    '''public String fullName()
+    '''returns String\n\n
+    fullName()\n
     '''
 def _package():
-    '''public JPackage _package()
+    '''returns JPackage\n\n
+    _package()\n
     '''
 def _extends():
-    '''public JClass _extends()
+    '''returns JClass\n\n
+    _extends()\n
     '''
 def _implements():
-    '''public Iterator<JClass> _implements()
+    '''returns Iterator<JClass>\n\n
+    _implements()\n
     '''
 def isInterface():
-    '''public boolean isInterface()
+    '''returns boolean\n\n
+    isInterface()\n
     '''
 def isAbstract():
-    '''public boolean isAbstract()
+    '''returns boolean\n\n
+    isAbstract()\n
     '''
 def typeParams():
-    '''public JTypeVar[] typeParams()
+    '''returns JTypeVar[]\n\n
+    typeParams()\n
     '''

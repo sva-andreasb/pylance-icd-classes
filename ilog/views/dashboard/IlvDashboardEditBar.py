@@ -1,3 +1,4 @@
-def IlvDashboardEditBar():
-    '''public IlvDashboardEditBar()
+def ():
+    '''returns IlvDashboardEditBar\n\n
+    ()\n
     '''

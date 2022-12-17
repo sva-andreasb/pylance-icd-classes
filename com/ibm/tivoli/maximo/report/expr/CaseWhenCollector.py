@@ -1,6 +1,8 @@
-def CaseWhenCollector():
-    '''public CaseWhenCollector()
+def ():
+    '''returns CaseWhenCollector\n\n
+    ()\n
     '''
 def accept():
-    '''public boolean accept(final Node n)
+    '''returns boolean\n\n
+    accept(final Node n)\n
     '''

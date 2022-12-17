@@ -1,3 +1,4 @@
-def HttpResponseWriter():
-    '''public HttpResponseWriter(final SessionOutputBuffer buffer, final LineFormatter formatter, final HttpParams params)
+def ():
+    '''returns HttpResponseWriter\n\n
+    (final SessionOutputBuffer buffer, final LineFormatter formatter, final HttpParams params)\n
     '''

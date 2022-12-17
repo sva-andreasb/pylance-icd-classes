@@ -1,3 +1,4 @@
-def GuestTrustPolicy():
-    '''public GuestTrustPolicy(final MboSet ms)
+def ():
+    '''returns GuestTrustPolicy\n\n
+    (final MboSet ms)\n
     '''

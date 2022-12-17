@@ -1,6 +1,8 @@
 def create():
-    '''public ConnManager create(final ConnectionEndpoint connectionEndpoint)
+    '''returns ConnManager\n\n
+    create(final ConnectionEndpoint connectionEndpoint)\n
     '''
 def newRequest():
-    '''public OutboundRequestIterator newRequest(final OutboundRequestHandle outboundRequestHandle)
+    '''returns OutboundRequestIterator\n\n
+    newRequest(final OutboundRequestHandle outboundRequestHandle)\n
     '''

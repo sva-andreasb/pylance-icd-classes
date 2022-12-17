@@ -1,69 +1,85 @@
-def DMCollection():
-    '''public DMCollection(final MboSet ms)
+def ():
+    '''returns ExceptionInfo\n\n
+    (final MboSet ms)\n
+    ()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def createPackageDef():
-    '''public void createPackageDef()
+    '''returns None\n\n
+    createPackageDef()\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
     '''
 def importConfig():
-    '''public void importConfig(final byte[] fileContents, final boolean addConfig, final int limit)
+    '''returns None\n\n
+    importConfig(final byte[] fileContents, final boolean addConfig, final int limit)\n
     '''
 def isValidationRunning():
-    '''public boolean isValidationRunning()
-    '''
-def ExceptionInfo():
-    '''public ExceptionInfo()
+    '''returns boolean\n\n
+    isValidationRunning()\n
     '''
 def setExceptionCfgObject():
-    '''public void setExceptionCfgObject(final String obj)
+    '''returns None\n\n
+    setExceptionCfgObject(final String obj)\n
     '''
 def getExceptionCfgObject():
-    '''public String getExceptionCfgObject()
+    '''returns String\n\n
+    getExceptionCfgObject()\n
     '''
 def setDependentCfgObject():
-    '''public void setDependentCfgObject(final String obj)
+    '''returns None\n\n
+    setDependentCfgObject(final String obj)\n
     '''
 def getDependentCfgObject():
-    '''public String getDependentCfgObject()
+    '''returns String\n\n
+    getDependentCfgObject()\n
     '''
 def setExceptionObjectName():
-    '''public void setExceptionObjectName(final String obj)
+    '''returns None\n\n
+    setExceptionObjectName(final String obj)\n
     '''
 def getExceptionObjectName():
-    '''public String getExceptionObjectName()
+    '''returns String\n\n
+    getExceptionObjectName()\n
     '''
 def setDependentObjectName():
-    '''public void setDependentObjectName(final String obj)
+    '''returns None\n\n
+    setDependentObjectName(final String obj)\n
     '''
 def getDependentObjectName():
-    '''public String getDependentObjectName()
+    '''returns String\n\n
+    getDependentObjectName()\n
     '''
 def setCondition():
-    '''public void setCondition(final String cond)
+    '''returns None\n\n
+    setCondition(final String cond)\n
     '''
 def getCondition():
-    '''public String getCondition()
+    '''returns String\n\n
+    getCondition()\n
     '''
 def setExceptionName():
-    '''public void setExceptionName(final String str)
+    '''returns None\n\n
+    setExceptionName(final String str)\n
     '''
 def getExceptionName():
-    '''public String getExceptionName()
+    '''returns String\n\n
+    getExceptionName()\n
     '''
 def setColumnMap():
-    '''public void setColumnMap(final HashMap<String, String> map)
-    '''
-def getColumnMap():
-    '''public HashMap<String, String> getColumnMap()
+    '''returns None\n\n
+    setColumnMap(final HashMap<String, String> map)\n
     '''

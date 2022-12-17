@@ -1,100 +1,131 @@
-def ConstantPoolGen():
-    '''public ConstantPoolGen(final Constant[] cs)
-    public ConstantPoolGen(final ConstantPool cp)
-    public ConstantPoolGen()
+def ():
+    '''returns ConstantPoolGen\n\n
+    (final Constant[] cs)\n
+    (final ConstantPool cp)\n
+    ()\n
     '''
 def lookupString():
-    '''public int lookupString(final String str)
+    '''returns int\n\n
+    lookupString(final String str)\n
     '''
 def addString():
-    '''public int addString(final String str)
+    '''returns int\n\n
+    addString(final String str)\n
     '''
 def lookupClass():
-    '''public int lookupClass(final String str)
+    '''returns int\n\n
+    lookupClass(final String str)\n
     '''
 def addClass():
-    '''public int addClass(final String str)
-    public int addClass(final ObjectType type)
+    '''returns int\n\n
+    addClass(final String str)\n
+    addClass(final ObjectType type)\n
     '''
 def addArrayClass():
-    '''public int addArrayClass(final ArrayType type)
+    '''returns int\n\n
+    addArrayClass(final ArrayType type)\n
     '''
 def lookupInteger():
-    '''public int lookupInteger(final int n)
+    '''returns int\n\n
+    lookupInteger(final int n)\n
     '''
 def addInteger():
-    '''public int addInteger(final int n)
+    '''returns int\n\n
+    addInteger(final int n)\n
     '''
 def lookupFloat():
-    '''public int lookupFloat(final float n)
+    '''returns int\n\n
+    lookupFloat(final float n)\n
     '''
 def addFloat():
-    '''public int addFloat(final float n)
+    '''returns int\n\n
+    addFloat(final float n)\n
     '''
 def lookupUtf8():
-    '''public int lookupUtf8(final String n)
+    '''returns int\n\n
+    lookupUtf8(final String n)\n
     '''
 def addUtf8():
-    '''public int addUtf8(final String n)
+    '''returns int\n\n
+    addUtf8(final String n)\n
     '''
 def lookupLong():
-    '''public int lookupLong(final long n)
+    '''returns int\n\n
+    lookupLong(final long n)\n
     '''
 def addLong():
-    '''public int addLong(final long n)
+    '''returns int\n\n
+    addLong(final long n)\n
     '''
 def lookupDouble():
-    '''public int lookupDouble(final double n)
+    '''returns int\n\n
+    lookupDouble(final double n)\n
     '''
 def addDouble():
-    '''public int addDouble(final double n)
+    '''returns int\n\n
+    addDouble(final double n)\n
     '''
 def lookupNameAndType():
-    '''public int lookupNameAndType(final String name, final String signature)
+    '''returns int\n\n
+    lookupNameAndType(final String name, final String signature)\n
     '''
 def addNameAndType():
-    '''public int addNameAndType(final String name, final String signature)
+    '''returns int\n\n
+    addNameAndType(final String name, final String signature)\n
     '''
 def lookupMethodref():
-    '''public int lookupMethodref(final String class_name, final String method_name, final String signature)
-    public int lookupMethodref(final MethodGen method)
+    '''returns int\n\n
+    lookupMethodref(final String class_name, final String method_name, final String signature)\n
+    lookupMethodref(final MethodGen method)\n
     '''
 def addMethodref():
-    '''public int addMethodref(final String class_name, final String method_name, final String signature)
-    public int addMethodref(final MethodGen method)
+    '''returns int\n\n
+    addMethodref(final String class_name, final String method_name, final String signature)\n
+    addMethodref(final MethodGen method)\n
     '''
 def lookupInterfaceMethodref():
-    '''public int lookupInterfaceMethodref(final String class_name, final String method_name, final String signature)
-    public int lookupInterfaceMethodref(final MethodGen method)
+    '''returns int\n\n
+    lookupInterfaceMethodref(final String class_name, final String method_name, final String signature)\n
+    lookupInterfaceMethodref(final MethodGen method)\n
     '''
 def addInterfaceMethodref():
-    '''public int addInterfaceMethodref(final String class_name, final String method_name, final String signature)
-    public int addInterfaceMethodref(final MethodGen method)
+    '''returns int\n\n
+    addInterfaceMethodref(final String class_name, final String method_name, final String signature)\n
+    addInterfaceMethodref(final MethodGen method)\n
     '''
 def lookupFieldref():
-    '''public int lookupFieldref(final String class_name, final String field_name, final String signature)
+    '''returns int\n\n
+    lookupFieldref(final String class_name, final String field_name, final String signature)\n
     '''
 def addFieldref():
-    '''public int addFieldref(final String class_name, final String field_name, final String signature)
+    '''returns int\n\n
+    addFieldref(final String class_name, final String field_name, final String signature)\n
     '''
 def getConstant():
-    '''public Constant getConstant(final int i)
+    '''returns Constant\n\n
+    getConstant(final int i)\n
     '''
 def setConstant():
-    '''public void setConstant(final int i, final Constant c)
+    '''returns None\n\n
+    setConstant(final int i, final Constant c)\n
     '''
 def getConstantPool():
-    '''public ConstantPool getConstantPool()
+    '''returns ConstantPool\n\n
+    getConstantPool()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def getFinalConstantPool():
-    '''public ConstantPool getFinalConstantPool()
+    '''returns ConstantPool\n\n
+    getFinalConstantPool()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def addConstant():
-    '''public int addConstant(final Constant c, final ConstantPoolGen cp)
+    '''returns int\n\n
+    addConstant(final Constant c, final ConstantPoolGen cp)\n
     '''

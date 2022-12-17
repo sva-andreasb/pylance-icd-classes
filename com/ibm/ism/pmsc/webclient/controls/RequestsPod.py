@@ -1,22 +1,29 @@
-def RequestsPod():
-    '''public RequestsPod()
+def ():
+    '''returns RequestsPod\n\n
+    ()\n
     '''
 def setColumnName():
-    '''public void setColumnName(final String columnName)
+    '''returns None\n\n
+    setColumnName(final String columnName)\n
     '''
 def setTicketObject():
-    '''public void setTicketObject(final String ticketObject)
+    '''returns None\n\n
+    setTicketObject(final String ticketObject)\n
     '''
 def getResultSetAttributes():
-    '''public Map getResultSetAttributes()
-    public Map getResultSetAttributes(String key)
+    '''returns Map\n\n
+    getResultSetAttributes()\n
+    getResultSetAttributes(String key)\n
     '''
 def getColumnType():
-    '''public Map getColumnType()
+    '''returns Map\n\n
+    getColumnType()\n
     '''
 def getInvalidColumn():
-    '''public List<String> getInvalidColumn()
+    '''returns List<String>\n\n
+    getInvalidColumn()\n
     '''
 def pmsc_getTicketStatusCount():
-    '''public int pmsc_getTicketStatusCount()
+    '''returns int\n\n
+    pmsc_getTicketStatusCount()\n
     '''

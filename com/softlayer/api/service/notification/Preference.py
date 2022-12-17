@@ -1,120 +1,160 @@
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def isDescriptionSpecified():
-    '''public boolean isDescriptionSpecified()
+    '''returns boolean\n\n
+    isDescriptionSpecified()\n
     '''
 def unsetDescription():
-    '''public void unsetDescription()
+    '''returns None\n\n
+    unsetDescription()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getKeyName():
-    '''public String getKeyName()
+    '''returns String\n\n
+    getKeyName()\n
     '''
 def setKeyName():
-    '''public void setKeyName(final String keyName)
+    '''returns None\n\n
+    setKeyName(final String keyName)\n
     '''
 def isKeyNameSpecified():
-    '''public boolean isKeyNameSpecified()
+    '''returns boolean\n\n
+    isKeyNameSpecified()\n
     '''
 def unsetKeyName():
-    '''public void unsetKeyName()
+    '''returns None\n\n
+    unsetKeyName()\n
     '''
 def getMaximumValue():
-    '''public String getMaximumValue()
+    '''returns String\n\n
+    getMaximumValue()\n
     '''
 def setMaximumValue():
-    '''public void setMaximumValue(final String maximumValue)
+    '''returns None\n\n
+    setMaximumValue(final String maximumValue)\n
     '''
 def isMaximumValueSpecified():
-    '''public boolean isMaximumValueSpecified()
+    '''returns boolean\n\n
+    isMaximumValueSpecified()\n
     '''
 def unsetMaximumValue():
-    '''public void unsetMaximumValue()
+    '''returns None\n\n
+    unsetMaximumValue()\n
     '''
 def getMinimumValue():
-    '''public String getMinimumValue()
+    '''returns String\n\n
+    getMinimumValue()\n
     '''
 def setMinimumValue():
-    '''public void setMinimumValue(final String minimumValue)
+    '''returns None\n\n
+    setMinimumValue(final String minimumValue)\n
     '''
 def isMinimumValueSpecified():
-    '''public boolean isMinimumValueSpecified()
+    '''returns boolean\n\n
+    isMinimumValueSpecified()\n
     '''
 def unsetMinimumValue():
-    '''public void unsetMinimumValue()
+    '''returns None\n\n
+    unsetMinimumValue()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def isNameSpecified():
-    '''public boolean isNameSpecified()
+    '''returns boolean\n\n
+    isNameSpecified()\n
     '''
 def unsetName():
-    '''public void unsetName()
+    '''returns None\n\n
+    unsetName()\n
     '''
 def getUnits():
-    '''public String getUnits()
+    '''returns String\n\n
+    getUnits()\n
     '''
 def setUnits():
-    '''public void setUnits(final String units)
+    '''returns None\n\n
+    setUnits(final String units)\n
     '''
 def isUnitsSpecified():
-    '''public boolean isUnitsSpecified()
+    '''returns boolean\n\n
+    isUnitsSpecified()\n
     '''
 def unsetUnits():
-    '''public void unsetUnits()
+    '''returns None\n\n
+    unsetUnits()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def isValueSpecified():
-    '''public boolean isValueSpecified()
+    '''returns boolean\n\n
+    isValueSpecified()\n
     '''
 def unsetValue():
-    '''public void unsetValue()
+    '''returns None\n\n
+    unsetValue()\n
     '''
 def description():
-    '''public Mask description()
+    '''returns Mask\n\n
+    description()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def keyName():
-    '''public Mask keyName()
+    '''returns Mask\n\n
+    keyName()\n
     '''
 def maximumValue():
-    '''public Mask maximumValue()
+    '''returns Mask\n\n
+    maximumValue()\n
     '''
 def minimumValue():
-    '''public Mask minimumValue()
+    '''returns Mask\n\n
+    minimumValue()\n
     '''
 def name():
-    '''public Mask name()
+    '''returns Mask\n\n
+    name()\n
     '''
 def units():
-    '''public Mask units()
+    '''returns Mask\n\n
+    units()\n
     '''
 def value():
-    '''public Mask value()
+    '''returns Mask\n\n
+    value()\n
     '''

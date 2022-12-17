@@ -1,12 +1,12 @@
-def parse():
-    '''public static NSEC3PARAM parse(final DataInputStream dis)
-    '''
 def serialize():
-    '''public void serialize(final DataOutputStream dos)
+    '''returns None\n\n
+    serialize(final DataOutputStream dos)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getSaltLength():
-    '''public int getSaltLength()
+    '''returns int\n\n
+    getSaltLength()\n
     '''

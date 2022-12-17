@@ -1,3 +1,4 @@
-def WOLinearSearchSet():
-    '''public WOLinearSearchSet(final MboServerInterface ms)
+def ():
+    '''returns WOLinearSearchSet\n\n
+    (final MboServerInterface ms)\n
     '''

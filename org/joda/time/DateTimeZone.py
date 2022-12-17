@@ -1,91 +1,62 @@
-def getDefault():
-    '''public static DateTimeZone getDefault()
-    '''
-def setDefault():
-    '''public static void setDefault(final DateTimeZone newValue)
-    '''
-def forID():
-    '''public static DateTimeZone forID(String printOffset)
-    '''
-def forOffsetHours():
-    '''public static DateTimeZone forOffsetHours(final int n)
-    '''
-def forOffsetHoursMinutes():
-    '''public static DateTimeZone forOffsetHoursMinutes(final int i, int a)
-    '''
-def forOffsetMillis():
-    '''public static DateTimeZone forOffsetMillis(final int i)
-    '''
-def forTimeZone():
-    '''public static DateTimeZone forTimeZone(final TimeZone timeZone)
-    '''
-def getAvailableIDs():
-    '''public static Set<String> getAvailableIDs()
-    '''
-def getProvider():
-    '''public static Provider getProvider()
-    '''
-def setProvider():
-    '''public static void setProvider(Provider defaultProvider)
-    '''
-def getNameProvider():
-    '''public static NameProvider getNameProvider()
-    '''
-def setNameProvider():
-    '''public static void setNameProvider(NameProvider defaultNameProvider)
-    '''
-def getID():
-    '''public final String getID()
-    '''
 def getShortName():
-    '''public final String getShortName(final long n)
-    public String getShortName(final long n, Locale default1)
+    '''returns String\n\n
+    getShortName(final long n, Locale default1)\n
     '''
 def getName():
-    '''public final String getName(final long n)
-    public String getName(final long n, Locale default1)
-    '''
-def getOffset():
-    '''public final int getOffset(final ReadableInstant readableInstant)
+    '''returns String\n\n
+    getName(final long n, Locale default1)\n
     '''
 def isStandardOffset():
-    '''public boolean isStandardOffset(final long n)
+    '''returns boolean\n\n
+    isStandardOffset(final long n)\n
     '''
 def getOffsetFromLocal():
-    '''public int getOffsetFromLocal(final long n)
+    '''returns int\n\n
+    getOffsetFromLocal(final long n)\n
     '''
 def convertUTCToLocal():
-    '''public long convertUTCToLocal(final long n)
+    '''returns long\n\n
+    convertUTCToLocal(final long n)\n
     '''
 def convertLocalToUTC():
-    '''public long convertLocalToUTC(final long n, final boolean b, final long n2)
-    public long convertLocalToUTC(final long n, final boolean b)
+    '''returns long\n\n
+    convertLocalToUTC(final long n, final boolean b, final long n2)\n
+    convertLocalToUTC(final long n, final boolean b)\n
     '''
 def getMillisKeepLocal():
-    '''public long getMillisKeepLocal(DateTimeZone default1, final long n)
+    '''returns long\n\n
+    getMillisKeepLocal(DateTimeZone default1, final long n)\n
     '''
 def isLocalDateTimeGap():
-    '''public boolean isLocalDateTimeGap(final LocalDateTime localDateTime)
+    '''returns boolean\n\n
+    isLocalDateTimeGap(final LocalDateTime localDateTime)\n
     '''
 def adjustOffset():
-    '''public long adjustOffset(final long n, final boolean b)
+    '''returns long\n\n
+    adjustOffset(final long n, final boolean b)\n
     '''
 def toTimeZone():
-    '''public TimeZone toTimeZone()
+    '''returns TimeZone\n\n
+    toTimeZone()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getZone():
-    '''public DateTimeZone getZone()
+    '''returns DateTimeZone\n\n
+    getZone()\n
     '''
 def withUTC():
-    '''public Chronology withUTC()
+    '''returns Chronology\n\n
+    withUTC()\n
     '''
 def withZone():
-    '''public Chronology withZone(final DateTimeZone dateTimeZone)
+    '''returns Chronology\n\n
+    withZone(final DateTimeZone dateTimeZone)\n
     '''

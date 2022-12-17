@@ -1,10 +1,12 @@
 def omitUnchangedText():
-    '''public Fold omitUnchangedText()
+    '''returns Fold\n\n
+    omitUnchangedText()\n
     '''
 def turkic():
-    '''public Fold turkic()
+    '''returns Fold\n\n
+    turkic()\n
     '''
 def apply():
-    '''public String apply(final CharSequence src)
-    public <A extends Appendable> A apply(final CharSequence src, final A dest, final Edits edits)
+    '''returns String\n\n
+    apply(final CharSequence src)\n
     '''

@@ -1,4 +1,5 @@
-def DuplicateRequestException():
-    '''public DuplicateRequestException()
-    public DuplicateRequestException(final String message)
+def ():
+    '''returns DuplicateRequestException\n\n
+    ()\n
+    (final String message)\n
     '''

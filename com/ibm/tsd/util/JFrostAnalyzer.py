@@ -1,13 +1,17 @@
-def JFrostAnalyzer():
-    '''public JFrostAnalyzer(final String loc, final boolean indexing, final MboRemote refMbo)
-    public JFrostAnalyzer(final MboRemote refMbo)
+def ():
+    '''returns JFrostAnalyzer\n\n
+    (final String loc, final boolean indexing, final MboRemote refMbo)\n
+    (final MboRemote refMbo)\n
     '''
 def getIndexing():
-    '''public boolean getIndexing()
+    '''returns boolean\n\n
+    getIndexing()\n
     '''
 def setIndexing():
-    '''public void setIndexing(final boolean index)
+    '''returns None\n\n
+    setIndexing(final boolean index)\n
     '''
 def setLocale():
-    '''public void setLocale(final String locale)
+    '''returns None\n\n
+    setLocale(final String locale)\n
     '''

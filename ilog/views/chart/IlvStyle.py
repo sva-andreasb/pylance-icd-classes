@@ -1,214 +1,246 @@
 def getBeanDescriptor():
-    '''public BeanDescriptor getBeanDescriptor()
-    public BeanDescriptor getBeanDescriptor()
-    public BeanDescriptor getBeanDescriptor()
+    '''returns BeanDescriptor\n\n
+    getBeanDescriptor()\n
+    getBeanDescriptor()\n
+    getBeanDescriptor()\n
     '''
 def getAdditionalBeanInfo():
-    '''public BeanInfo[] getAdditionalBeanInfo()
-    public BeanInfo[] getAdditionalBeanInfo()
-    public BeanInfo[] getAdditionalBeanInfo()
+    '''returns BeanInfo[]\n\n
+    getAdditionalBeanInfo()\n
+    getAdditionalBeanInfo()\n
+    getAdditionalBeanInfo()\n
     '''
 def getPropertyDescriptors():
-    '''public PropertyDescriptor[] getPropertyDescriptors()
-    public PropertyDescriptor[] getPropertyDescriptors()
-    public PropertyDescriptor[] getPropertyDescriptors()
+    '''returns PropertyDescriptor[]\n\n
+    getPropertyDescriptors()\n
+    getPropertyDescriptors()\n
+    getPropertyDescriptors()\n
     '''
 def getIcon():
-    '''public Image getIcon(final int n)
-    public Image getIcon(final int n)
-    public Image getIcon(final int n)
+    '''returns Image\n\n
+    getIcon(final int n)\n
+    getIcon(final int n)\n
+    getIcon(final int n)\n
     '''
-def IlvStyle():
-    '''public IlvStyle()
-    public IlvStyle(final Paint paint, final Paint paint2)
-    public IlvStyle(final Stroke stroke, final Paint paint)
-    public IlvStyle(final float width, final Paint paint)
-    public IlvStyle(final Paint paint)
-    public IlvStyle(final Stroke stroke, final Paint paint, final Paint paint2)
-    '''
-def createStroked():
-    '''public static IlvStyle createStroked(final Paint paint)
-    '''
-def isAbsolutePaint():
-    '''public final boolean isAbsolutePaint()
+def ():
+    '''returns IntensityChange\n\n
+    ()\n
+    (final Paint paint, final Paint paint2)\n
+    (final Stroke stroke, final Paint paint)\n
+    (final float width, final Paint paint)\n
+    (final Paint paint)\n
+    (final Stroke stroke, final Paint paint, final Paint paint2)\n
+    (final int a)\n
     '''
 def setAbsolutePaint():
-    '''public void setAbsolutePaint(final boolean p)
-    '''
-def isStrokeOn():
-    '''public final boolean isStrokeOn()
+    '''returns None\n\n
+    setAbsolutePaint(final boolean p)\n
     '''
 def setStrokeOn():
-    '''public IlvStyle setStrokeOn(final boolean m)
-    '''
-def isFillOn():
-    '''public final boolean isFillOn()
+    '''returns IlvStyle\n\n
+    setStrokeOn(final boolean m)\n
     '''
 def setFillOn():
-    '''public IlvStyle setFillOn(final boolean l)
+    '''returns IlvStyle\n\n
+    setFillOn(final boolean l)\n
     '''
 def getStroke():
-    '''public Stroke getStroke()
+    '''returns Stroke\n\n
+    getStroke()\n
     '''
 def getStrokePaint():
-    '''public Paint getStrokePaint()
+    '''returns Paint\n\n
+    getStrokePaint()\n
     '''
 def getStrokeColor():
-    '''public Color getStrokeColor()
+    '''returns Color\n\n
+    getStrokeColor()\n
     '''
 def setStroke():
-    '''public IlvStyle setStroke(final Stroke stroke)
-    public IlvStyle setStroke(final Stroke stroke, final Paint paint)
+    '''returns IlvStyle\n\n
+    setStroke(final Stroke stroke)\n
+    setStroke(final Stroke stroke, final Paint paint)\n
     '''
 def setStrokePaint():
-    '''public IlvStyle setStrokePaint(final Paint paint)
+    '''returns IlvStyle\n\n
+    setStrokePaint(final Paint paint)\n
     '''
 def getFillPaint():
-    '''public Paint getFillPaint()
+    '''returns Paint\n\n
+    getFillPaint()\n
     '''
 def getFillColor():
-    '''public Color getFillColor()
+    '''returns Color\n\n
+    getFillColor()\n
     '''
 def setFillPaint():
-    '''public IlvStyle setFillPaint(final Paint paint)
+    '''returns IlvStyle\n\n
+    setFillPaint(final Paint paint)\n
     '''
 def applyStroke():
-    '''public void applyStroke(final Graphics graphics)
+    '''returns None\n\n
+    applyStroke(final Graphics graphics)\n
     '''
 def restoreStroke():
-    '''public void restoreStroke(final Graphics graphics)
+    '''returns None\n\n
+    restoreStroke(final Graphics graphics)\n
     '''
 def renderRect():
-    '''public void renderRect(final Graphics graphics, final double n, final double n2, final double n3, final double n4)
-    public void renderRect(final Graphics graphics, final int n, final int n2, final int n3, final int n4)
+    '''returns None\n\n
+    renderRect(final Graphics graphics, final double n, final double n2, final double n3, final double n4)\n
+    renderRect(final Graphics graphics, final int n, final int n2, final int n3, final int n4)\n
     '''
 def renderSquare():
-    '''public void renderSquare(final Graphics graphics, int n, int n2, int n3)
+    '''returns None\n\n
+    renderSquare(final Graphics graphics, int n, int n2, int n3)\n
     '''
 def renderPoints():
-    '''public void renderPoints(final Graphics graphics, final double[] array, final double[] array2, int doubleToInts)
-    public void renderPoints(final Graphics graphics, final int[] array, final int[] array2, final int n)
+    '''returns None\n\n
+    renderPoints(final Graphics graphics, final double[] array, final double[] array2, int doubleToInts)\n
+    renderPoints(final Graphics graphics, final int[] array, final int[] array2, final int n)\n
     '''
 def renderOval():
-    '''public void renderOval(final Graphics graphics, final int n, final int n2, final int n3, final int n4)
+    '''returns None\n\n
+    renderOval(final Graphics graphics, final int n, final int n2, final int n3, final int n4)\n
     '''
 def renderCircle():
-    '''public void renderCircle(final Graphics graphics, int n, int n2, int n3)
+    '''returns None\n\n
+    renderCircle(final Graphics graphics, int n, int n2, int n3)\n
     '''
 def renderShape():
-    '''public void renderShape(final Graphics graphics, final Shape shape)
+    '''returns None\n\n
+    renderShape(final Graphics graphics, final Shape shape)\n
     '''
 def drawPolyline():
-    '''public void drawPolyline(final Graphics graphics, final double[] array, final double[] array2, int doubleToInts)
-    public void drawPolyline(final Graphics graphics, final double[] array, final double[] array2, int doubleToInts, final IlvMarker ilvMarker, final int n)
-    public void drawPolyline(final Graphics graphics, final int[] array, final int[] array2, final int n)
+    '''returns None\n\n
+    drawPolyline(final Graphics graphics, final double[] array, final double[] array2, int doubleToInts)\n
+    drawPolyline(final Graphics graphics, final double[] array, final double[] array2, int doubleToInts, final IlvMarker ilvMarker, final int n)\n
+    drawPolyline(final Graphics graphics, final int[] array, final int[] array2, final int n)\n
     '''
 def fillPolygon():
-    '''public void fillPolygon(final Graphics graphics, final double[] array, final double[] array2, int doubleToInts)
-    public void fillPolygon(final Graphics graphics, final int[] array, final int[] array2, final int n)
+    '''returns None\n\n
+    fillPolygon(final Graphics graphics, final double[] array, final double[] array2, int doubleToInts)\n
+    fillPolygon(final Graphics graphics, final int[] array, final int[] array2, final int n)\n
     '''
 def drawRect():
-    '''public void drawRect(final Graphics graphics, final double n, final double n2, final double n3, final double n4)
-    public void drawRect(final Graphics graphics, final int n, final int n2, final int n3, final int n4)
+    '''returns None\n\n
+    drawRect(final Graphics graphics, final double n, final double n2, final double n3, final double n4)\n
+    drawRect(final Graphics graphics, final int n, final int n2, final int n3, final int n4)\n
     '''
 def fillRect():
-    '''public void fillRect(final Graphics graphics, final int n, final int n2, final int n3, final int n4)
+    '''returns None\n\n
+    fillRect(final Graphics graphics, final int n, final int n2, final int n3, final int n4)\n
     '''
 def drawLine():
-    '''public void drawLine(final Graphics graphics, final double n, final double n2, final double n3, final double n4)
-    public void drawLine(final Graphics graphics, final int n, final int n2, final int n3, final int n4)
+    '''returns None\n\n
+    drawLine(final Graphics graphics, final double n, final double n2, final double n3, final double n4)\n
+    drawLine(final Graphics graphics, final int n, final int n2, final int n3, final int n4)\n
     '''
 def drawOval():
-    '''public void drawOval(final Graphics graphics, final double n, final double n2, final double n3, final double n4)
-    public void drawOval(final Graphics graphics, final int n, final int n2, final int n3, final int n4)
+    '''returns None\n\n
+    drawOval(final Graphics graphics, final double n, final double n2, final double n3, final double n4)\n
+    drawOval(final Graphics graphics, final int n, final int n2, final int n3, final int n4)\n
     '''
 def fillOval():
-    '''public void fillOval(final Graphics graphics, final double n, final double n2, final double n3, final double n4)
-    public void fillOval(final Graphics graphics, final int n, final int n2, final int n3, final int n4)
+    '''returns None\n\n
+    fillOval(final Graphics graphics, final double n, final double n2, final double n3, final double n4)\n
+    fillOval(final Graphics graphics, final int n, final int n2, final int n3, final int n4)\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics, final Shape shape)
+    '''returns None\n\n
+    draw(final Graphics graphics, final Shape shape)\n
     '''
 def fill():
-    '''public void fill(final Graphics graphics, final Shape shape)
+    '''returns None\n\n
+    fill(final Graphics graphics, final Shape shape)\n
     '''
 def quickBounds():
-    '''public boolean quickBounds()
+    '''returns boolean\n\n
+    quickBounds()\n
     '''
 def expand():
-    '''public final void expand(final Rectangle2D rectangle2D)
-    public void expand(final boolean b, final Rectangle2D rectangle2D)
+    '''returns None\n\n
+    expand(final boolean b, final Rectangle2D rectangle2D)\n
     '''
 def getBounds():
-    '''public final Rectangle2D getBounds(final int[] array, final int[] array2, final int n, final Rectangle2D rectangle2D)
-    public Rectangle2D getBounds(final int[] array, final int[] array2, final int n, final boolean b, final boolean b2, Rectangle2D shapeBounds)
-    public final Rectangle2D getBounds(final double[] array, final double[] array2, final int n, final Rectangle2D rectangle2D)
-    public Rectangle2D getBounds(final double[] array, final double[] array2, int doubleToInts, final boolean b, final boolean b2, Rectangle2D bounds)
+    '''returns Rectangle2D\n\n
+    getBounds(final int[] array, final int[] array2, final int n, final boolean b, final boolean b2, Rectangle2D shapeBounds)\n
+    getBounds(final double[] array, final double[] array2, int doubleToInts, final boolean b, final boolean b2, Rectangle2D bounds)\n
     '''
 def getShapeBounds():
-    '''public Rectangle2D getShapeBounds(final Shape shape)
+    '''returns Rectangle2D\n\n
+    getShapeBounds(final Shape shape)\n
     '''
 def brighther():
-    '''public IlvStyle brighther()
+    '''returns IlvStyle\n\n
+    brighther()\n
     '''
 def brighter():
-    '''public IlvStyle brighter()
+    '''returns IlvStyle\n\n
+    brighter()\n
     '''
 def darker():
-    '''public IlvStyle darker()
+    '''returns IlvStyle\n\n
+    darker()\n
     '''
 def pointsContains():
-    '''public boolean pointsContains(final double[] array, final double[] array2, final int n, final double n2, final double n3)
+    '''returns boolean\n\n
+    pointsContains(final double[] array, final double[] array2, final int n, final double n2, final double n3)\n
     '''
 def distanceToPoints():
-    '''public double distanceToPoints(final double[] array, final double[] array2, final int n, final double n2, final double n3, final boolean b)
+    '''returns double\n\n
+    distanceToPoints(final double[] array, final double[] array2, final int n, final double n2, final double n3, final boolean b)\n
     '''
 def polygonContains():
-    '''public boolean polygonContains(final double[] array, final double[] array2, final int n, final double n2, final double n3)
+    '''returns boolean\n\n
+    polygonContains(final double[] array, final double[] array2, final int n, final double n2, final double n3)\n
     '''
 def distanceToPolygon():
-    '''public double distanceToPolygon(final double[] array, final double[] array2, final int n, final double n2, final double n3, final boolean b)
+    '''returns double\n\n
+    distanceToPolygon(final double[] array, final double[] array2, final int n, final double n2, final double n3, final boolean b)\n
     '''
 def polylineContains():
-    '''public boolean polylineContains(final double[] array, final double[] array2, final int n, final double n2, final double n3)
+    '''returns boolean\n\n
+    polylineContains(final double[] array, final double[] array2, final int n, final double n2, final double n3)\n
     '''
 def distanceToPolyline():
-    '''public double distanceToPolyline(final double[] array, final double[] array2, final int n, final double n2, final double n3, final boolean b)
+    '''returns double\n\n
+    distanceToPolyline(final double[] array, final double[] array2, final int n, final double n2, final double n3, final boolean b)\n
     '''
 def shapeContains():
-    '''public boolean shapeContains(final Shape shape, final double n, final double n2)
+    '''returns boolean\n\n
+    shapeContains(final Shape shape, final double n, final double n2)\n
     '''
 def distanceToShape():
-    '''public double distanceToShape(final Shape shape, final double n, final double n2, final boolean b)
-    '''
-def isFilterOn():
-    '''public static final boolean isFilterOn()
-    '''
-def setFilterOn():
-    '''public static void setFilterOn(final boolean d)
+    '''returns double\n\n
+    distanceToShape(final Shape shape, final double n, final double n2, final boolean b)\n
     '''
 def copy():
-    '''public IlvStyle copy()
+    '''returns IlvStyle\n\n
+    copy()\n
     '''
 def copyInto():
-    '''public void copyInto(final IlvStyle ilvStyle)
+    '''returns None\n\n
+    copyInto(final IlvStyle ilvStyle)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
-    '''
-def IntensityChange():
-    '''public IntensityChange(final int a)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getLevel():
-    '''public int getLevel()
+    '''returns int\n\n
+    getLevel()\n
     '''
 def change():
-    '''public IlvStyle change(final IlvStyle ilvStyle)
-    public IlvChartRenderer change(final IlvChartRenderer ilvChartRenderer)
+    '''returns IlvChartRenderer\n\n
+    change(final IlvStyle ilvStyle)\n
+    change(final IlvChartRenderer ilvChartRenderer)\n
     '''
 def isCompatibleValue():
-    '''public boolean isCompatibleValue(final Object o)
+    '''returns boolean\n\n
+    isCompatibleValue(final Object o)\n
     '''

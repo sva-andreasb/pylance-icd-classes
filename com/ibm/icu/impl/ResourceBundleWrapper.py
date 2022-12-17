@@ -1,15 +1,16 @@
 def getKeys():
-    '''public Enumeration<String> getKeys()
+    '''returns Enumeration<String>\n\n
+    getKeys()\n
     '''
 def getULocale():
-    '''public ULocale getULocale()
+    '''returns ULocale\n\n
+    getULocale()\n
     '''
 def getParent():
-    '''public UResourceBundle getParent()
-    '''
-def getBundleInstance():
-    '''public static UResourceBundle getBundleInstance(final String baseName, final String localeID, final ClassLoader root, final boolean disableFallback)
+    '''returns UResourceBundle\n\n
+    getParent()\n
     '''
 def run():
-    '''public InputStream run()
+    '''returns InputStream\n\n
+    run()\n
     '''

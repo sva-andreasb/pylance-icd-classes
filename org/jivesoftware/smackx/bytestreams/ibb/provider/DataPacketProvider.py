@@ -1,4 +1,5 @@
 def parse():
-    '''public Data parse(final XmlPullParser parser, final int initialDepth)
-    public DataPacketExtension parse(final XmlPullParser parser, final int initialDepth)
+    '''returns DataPacketExtension\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

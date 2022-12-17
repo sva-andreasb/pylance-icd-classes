@@ -1,15 +1,20 @@
 def getThroughputMetricType():
-    '''public ThroughputMetricType getThroughputMetricType()
+    '''returns ThroughputMetricType\n\n
+    getThroughputMetricType()\n
     '''
 def getByteCount():
-    '''public int getByteCount()
+    '''returns int\n\n
+    getByteCount()\n
     '''
 def getDurationNano():
-    '''public long getDurationNano()
+    '''returns long\n\n
+    getDurationNano()\n
     '''
 def getProviderId():
-    '''public String getProviderId()
+    '''returns String\n\n
+    getProviderId()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

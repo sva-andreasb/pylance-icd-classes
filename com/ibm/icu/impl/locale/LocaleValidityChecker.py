@@ -1,13 +1,17 @@
-def LocaleValidityChecker():
-    '''public LocaleValidityChecker(final Set<ValidIdentifiers.Datasubtype> datasubtypes)
-    public LocaleValidityChecker(final ValidIdentifiers.Datasubtype... datasubtypes)
+def ():
+    '''returns LocaleValidityChecker\n\n
+    (final Set<ValidIdentifiers.Datasubtype> datasubtypes)\n
+    (final ValidIdentifiers.Datasubtype... datasubtypes)\n
     '''
 def isValid():
-    '''public boolean isValid(final ULocale locale, final Where where)
+    '''returns boolean\n\n
+    isValid(final ULocale locale, final Where where)\n
     '''
 def set():
-    '''public boolean set(final ValidIdentifiers.Datatype datatype, final String code)
+    '''returns boolean\n\n
+    set(final ValidIdentifiers.Datatype datatype, final String code)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

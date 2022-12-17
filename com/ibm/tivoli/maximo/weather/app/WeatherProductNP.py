@@ -1,3 +1,4 @@
-def WeatherProductNP():
-    '''public WeatherProductNP(final MboSet ms)
+def ():
+    '''returns WeatherProductNP\n\n
+    (final MboSet ms)\n
     '''

@@ -1,45 +1,60 @@
-def RequestWrapper():
-    '''public RequestWrapper(final HttpRequest request)
+def ():
+    '''returns RequestWrapper\n\n
+    (final HttpRequest request)\n
     '''
 def resetHeaders():
-    '''public void resetHeaders()
+    '''returns None\n\n
+    resetHeaders()\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''
 def setMethod():
-    '''public void setMethod(final String method)
+    '''returns None\n\n
+    setMethod(final String method)\n
     '''
 def getProtocolVersion():
-    '''public ProtocolVersion getProtocolVersion()
+    '''returns ProtocolVersion\n\n
+    getProtocolVersion()\n
     '''
 def setProtocolVersion():
-    '''public void setProtocolVersion(final ProtocolVersion version)
+    '''returns None\n\n
+    setProtocolVersion(final ProtocolVersion version)\n
     '''
 def getURI():
-    '''public URI getURI()
+    '''returns URI\n\n
+    getURI()\n
     '''
 def setURI():
-    '''public void setURI(final URI uri)
+    '''returns None\n\n
+    setURI(final URI uri)\n
     '''
 def getRequestLine():
-    '''public RequestLine getRequestLine()
+    '''returns RequestLine\n\n
+    getRequestLine()\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def isAborted():
-    '''public boolean isAborted()
+    '''returns boolean\n\n
+    isAborted()\n
     '''
 def getOriginal():
-    '''public HttpRequest getOriginal()
+    '''returns HttpRequest\n\n
+    getOriginal()\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def getExecCount():
-    '''public int getExecCount()
+    '''returns int\n\n
+    getExecCount()\n
     '''
 def incrementExecCount():
-    '''public void incrementExecCount()
+    '''returns None\n\n
+    incrementExecCount()\n
     '''

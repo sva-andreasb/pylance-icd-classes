@@ -1,22 +1,22 @@
-def KeyStoreConfiguration():
-    '''public KeyStoreConfiguration(final String location, final PasswordProvider passwordProvider, final String keyStoreType, final String keyManagerFactoryAlgorithm)
-    public KeyStoreConfiguration(final String location, final char[] password, final String keyStoreType, final String keyManagerFactoryAlgorithm)
-    public KeyStoreConfiguration(final String location, final String password, final String keyStoreType, final String keyManagerFactoryAlgorithm)
-    '''
-def createKeyStoreConfiguration():
-    '''public static KeyStoreConfiguration createKeyStoreConfiguration(@PluginAttribute("location") final String location, @PluginAttribute(value = "password", sensitive = true) final char[] password, @PluginAttribute("passwordEnvironmentVariable") final String passwordEnvironmentVariable, @PluginAttribute("passwordFile") final String passwordFile, @PluginAttribute("type") final String keyStoreType, @PluginAttribute("keyManagerFactoryAlgorithm") final String keyManagerFactoryAlgorithm)
-    public static KeyStoreConfiguration createKeyStoreConfiguration(final String location, final char[] password, final String keyStoreType, final String keyManagerFactoryAlgorithm)
-    public static KeyStoreConfiguration createKeyStoreConfiguration(final String location, final String password, final String keyStoreType, final String keyManagerFactoryAlgorithm)
+def ():
+    '''returns KeyStoreConfiguration\n\n
+    (final String location, final PasswordProvider passwordProvider, final String keyStoreType, final String keyManagerFactoryAlgorithm)\n
+    (final String location, final char[] password, final String keyStoreType, final String keyManagerFactoryAlgorithm)\n
+    (final String location, final String password, final String keyStoreType, final String keyManagerFactoryAlgorithm)\n
     '''
 def initKeyManagerFactory():
-    '''public KeyManagerFactory initKeyManagerFactory()
+    '''returns KeyManagerFactory\n\n
+    initKeyManagerFactory()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getKeyManagerFactoryAlgorithm():
-    '''public String getKeyManagerFactoryAlgorithm()
+    '''returns String\n\n
+    getKeyManagerFactoryAlgorithm()\n
     '''

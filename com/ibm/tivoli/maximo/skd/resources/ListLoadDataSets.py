@@ -1,9 +1,12 @@
-def ListLoadDataSets():
-    '''public ListLoadDataSets(final String resourceDisplay)
+def ():
+    '''returns ListLoadDataSets\n\n
+    (final String resourceDisplay)\n
     '''
 def isBucketDataSet():
-    '''public boolean isBucketDataSet()
+    '''returns boolean\n\n
+    isBucketDataSet()\n
     '''
 def getSelectedDataSet():
-    '''public AbstractShiftBucketDataSet getSelectedDataSet()
+    '''returns AbstractShiftBucketDataSet\n\n
+    getSelectedDataSet()\n
     '''

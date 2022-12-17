@@ -1,12 +1,12 @@
-def FldKPIVariableMaxType():
-    '''public FldKPIVariableMaxType(final MboValue mbv)
+def ():
+    '''returns FldKPIVariableMaxType\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
-    '''
-def setTypeFromObject():
-    '''public static void setTypeFromObject(final MboRemote mbo)
+    '''returns None\n\n
+    action()\n
     '''

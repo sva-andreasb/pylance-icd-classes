@@ -1,31 +1,20 @@
-def Duration():
-    '''public Duration()
-    public Duration(final ParameterList aList, final String aValue)
-    public Duration(final Dur duration)
-    public Duration(final TemporalAmount duration)
-    public Duration(final ParameterList aList, final Dur duration)
-    public Duration(final ParameterList aList, final TemporalAmount duration)
-    public Duration(final Date start, final Date end)
-    '''
-def getDuration():
-    '''public final TemporalAmount getDuration()
-    '''
-def setValue():
-    '''public final void setValue(final String aValue)
-    '''
-def getValue():
-    '''public final String getValue()
-    '''
-def setDuration():
-    '''public final void setDuration(final TemporalAmount duration)
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final ParameterList aList, final String aValue)\n
+    (final Dur duration)\n
+    (final TemporalAmount duration)\n
+    (final ParameterList aList, final Dur duration)\n
+    (final ParameterList aList, final TemporalAmount duration)\n
+    (final Date start, final Date end)\n
+    ()\n
     '''
 def validate():
-    '''public void validate()
-    '''
-def Factory():
-    '''public Factory()
+    '''returns None\n\n
+    validate()\n
     '''
 def createProperty():
-    '''public Property createProperty(final ParameterList parameters, final String value)
-    public Property createProperty()
+    '''returns Property\n\n
+    createProperty(final ParameterList parameters, final String value)\n
+    createProperty()\n
     '''

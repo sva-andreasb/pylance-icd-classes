@@ -1,30 +1,32 @@
-def IlvSelection():
-    '''public IlvSelection(final IlvGraphic a)
+def ():
+    '''returns IlvSelection\n\n
+    (final IlvGraphic a)\n
     '''
 def copy():
-    '''public IlvGraphic copy()
-    '''
-def getObject():
-    '''public final IlvGraphic getObject()
+    '''returns IlvGraphic\n\n
+    copy()\n
     '''
 def applyTransform():
-    '''public void applyTransform(final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    applyTransform(final IlvTransformer ilvTransformer)\n
     '''
 def isOptimizedDrawingEnabled():
-    '''public boolean isOptimizedDrawingEnabled()
+    '''returns boolean\n\n
+    isOptimizedDrawingEnabled()\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def onEnter():
-    '''public void onEnter(final IlvObjectInteractorContext ilvObjectInteractorContext)
+    '''returns None\n\n
+    onEnter(final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''
 def onExit():
-    '''public void onExit(final IlvObjectInteractorContext ilvObjectInteractorContext)
+    '''returns None\n\n
+    onExit(final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''
 def getDefaultInteractor():
-    '''public String getDefaultInteractor()
-    '''
-def SetDefaultInteractor():
-    '''public static void SetDefaultInteractor(final String b)
+    '''returns String\n\n
+    getDefaultInteractor()\n
     '''

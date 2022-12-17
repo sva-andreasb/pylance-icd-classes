@@ -1,22 +1,29 @@
-def BusResourceCollection():
-    '''public BusResourceCollection(final String uri)
-    public BusResourceCollection()
+def ():
+    '''returns BusResourceCollection\n\n
+    (final String uri)\n
+    ()\n
     '''
 def addResource():
-    '''public void addResource(final BusResource res)
+    '''returns None\n\n
+    addResource(final BusResource res)\n
     '''
 def getMembers():
-    '''public List<BusResource> getMembers()
+    '''returns List<BusResource>\n\n
+    getMembers()\n
     '''
 def setNextPageURI():
-    '''public void setNextPageURI(final String uri)
+    '''returns None\n\n
+    setNextPageURI(final String uri)\n
     '''
 def getNextPageURI():
-    '''public String getNextPageURI()
+    '''returns String\n\n
+    getNextPageURI()\n
     '''
 def setTotalCount():
-    '''public void setTotalCount(final int totalCount)
+    '''returns None\n\n
+    setTotalCount(final int totalCount)\n
     '''
 def getTotalCount():
-    '''public int getTotalCount()
+    '''returns int\n\n
+    getTotalCount()\n
     '''

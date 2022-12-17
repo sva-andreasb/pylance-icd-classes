@@ -1,9 +1,8 @@
 def GENKPI():
-    '''public int GENKPI()
+    '''returns int\n\n
+    GENKPI()\n
     '''
 def DELETE():
-    '''public int DELETE()
-    '''
-def save():
-    '''public synchronized void save()
+    '''returns int\n\n
+    DELETE()\n
     '''

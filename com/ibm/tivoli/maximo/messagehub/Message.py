@@ -1,10 +1,12 @@
-def Message():
-    '''public Message(final Map<String, String> metaData, final byte[] data)
+def ():
+    '''returns Message\n\n
+    (final Map<String, String> metaData, final byte[] data)\n
     '''
 def getMetaData():
-    '''public Map<String, String> getMetaData()
-    public String getMetaData(final String key)
+    '''returns String\n\n
+    getMetaData(final String key)\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''

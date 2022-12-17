@@ -1,18 +1,24 @@
 def setIcon():
-    '''public void setIcon(final Icon icon)
+    '''returns None\n\n
+    setIcon(final Icon icon)\n
     '''
 def getIcon():
-    '''public Icon getIcon()
+    '''returns Icon\n\n
+    getIcon()\n
     '''
 def merge():
-    '''public void merge(final NavigatorView navigatorView)
+    '''returns None\n\n
+    merge(final NavigatorView navigatorView)\n
     '''
 def remove():
-    '''public void remove(final NavigatorView navigatorView)
+    '''returns None\n\n
+    remove(final NavigatorView navigatorView)\n
     '''
 def getImageIcon():
-    '''public ImageIcon getImageIcon(final NavigatorView navigatorView)
+    '''returns ImageIcon\n\n
+    getImageIcon(final NavigatorView navigatorView)\n
     '''
 def getAddAction():
-    '''public Action getAddAction()
+    '''returns Action\n\n
+    getAddAction()\n
     '''

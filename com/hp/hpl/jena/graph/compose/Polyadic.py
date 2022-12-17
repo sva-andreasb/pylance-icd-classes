@@ -1,41 +1,54 @@
-def Polyadic():
-    '''public Polyadic()
-    public Polyadic(final Graph[] graphs)
-    public Polyadic(final Iterator<Graph> graphs)
+def ():
+    '''returns Polyadic\n\n
+    ()\n
+    (final Graph[] graphs)\n
+    (final Iterator<Graph> graphs)\n
     '''
 def getPrefixMapping():
-    '''public PrefixMapping getPrefixMapping()
+    '''returns PrefixMapping\n\n
+    getPrefixMapping()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def dependsOn():
-    '''public boolean dependsOn(final Graph graph)
+    '''returns boolean\n\n
+    dependsOn(final Graph graph)\n
     '''
 def addGraph():
-    '''public void addGraph(final Graph graph)
+    '''returns None\n\n
+    addGraph(final Graph graph)\n
     '''
 def removeGraph():
-    '''public void removeGraph(final Graph graph)
+    '''returns None\n\n
+    removeGraph(final Graph graph)\n
     '''
 def getBaseGraph():
-    '''public Graph getBaseGraph()
+    '''returns Graph\n\n
+    getBaseGraph()\n
     '''
 def getRequiredBaseGraph():
-    '''public Graph getRequiredBaseGraph()
+    '''returns Graph\n\n
+    getRequiredBaseGraph()\n
     '''
 def setBaseGraph():
-    '''public void setBaseGraph(final Graph graph)
+    '''returns None\n\n
+    setBaseGraph(final Graph graph)\n
     '''
 def getSubGraphs():
-    '''public List<Graph> getSubGraphs()
+    '''returns List<Graph>\n\n
+    getSubGraphs()\n
     '''
 def getBulkUpdateHandler():
-    '''public BulkUpdateHandler getBulkUpdateHandler()
+    '''returns BulkUpdateHandler\n\n
+    getBulkUpdateHandler()\n
     '''
 def getTransactionHandler():
-    '''public TransactionHandler getTransactionHandler()
+    '''returns TransactionHandler\n\n
+    getTransactionHandler()\n
     '''
 def getCapabilities():
-    '''public Capabilities getCapabilities()
+    '''returns Capabilities\n\n
+    getCapabilities()\n
     '''

@@ -1,3 +1,4 @@
-def BaseCredentialMapper():
-    '''public BaseCredentialMapper(final UserInfo userInfo, final String endpointName)
+def ():
+    '''returns BaseCredentialMapper\n\n
+    (final UserInfo userInfo, final String endpointName)\n
     '''

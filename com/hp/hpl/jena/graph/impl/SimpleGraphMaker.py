@@ -1,26 +1,34 @@
-def SimpleGraphMaker():
-    '''public SimpleGraphMaker(final ReificationStyle style)
-    public SimpleGraphMaker()
+def ():
+    '''returns SimpleGraphMaker\n\n
+    (final ReificationStyle style)\n
+    ()\n
     '''
 def create():
-    '''public Graph create()
+    '''returns Graph\n\n
+    create()\n
     '''
 def createGraph():
-    '''public Graph createGraph(final String name, final boolean strict)
+    '''returns Graph\n\n
+    createGraph(final String name, final boolean strict)\n
     '''
 def openGraph():
-    '''public Graph openGraph(final String name, final boolean strict)
-    public Graph openGraph()
+    '''returns Graph\n\n
+    openGraph(final String name, final boolean strict)\n
+    openGraph()\n
     '''
 def removeGraph():
-    '''public void removeGraph(final String name)
+    '''returns None\n\n
+    removeGraph(final String name)\n
     '''
 def hasGraph():
-    '''public boolean hasGraph(final String name)
+    '''returns boolean\n\n
+    hasGraph(final String name)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def listGraphs():
-    '''public ExtendedIterator<String> listGraphs()
+    '''returns ExtendedIterator<String>\n\n
+    listGraphs()\n
     '''

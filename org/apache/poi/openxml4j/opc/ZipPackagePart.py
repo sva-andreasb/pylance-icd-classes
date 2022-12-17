@@ -1,22 +1,29 @@
-def ZipPackagePart():
-    '''public ZipPackagePart(final OPCPackage container, final PackagePartName partName, final String contentType)
-    public ZipPackagePart(final OPCPackage container, final ZipEntry zipEntry, final PackagePartName partName, final String contentType)
+def ():
+    '''returns ZipPackagePart\n\n
+    (final OPCPackage container, final PackagePartName partName, final String contentType)\n
+    (final OPCPackage container, final ZipEntry zipEntry, final PackagePartName partName, final String contentType)\n
     '''
 def getZipArchive():
-    '''public ZipEntry getZipArchive()
+    '''returns ZipEntry\n\n
+    getZipArchive()\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''
 def save():
-    '''public boolean save(final OutputStream os)
+    '''returns boolean\n\n
+    save(final OutputStream os)\n
     '''
 def load():
-    '''public boolean load(final InputStream ios)
+    '''returns boolean\n\n
+    load(final InputStream ios)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''

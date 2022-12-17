@@ -1,3 +1,4 @@
-def RefSecondarySet():
-    '''public RefSecondarySet(final MboServerInterface ms)
+def ():
+    '''returns RefSecondarySet\n\n
+    (final MboServerInterface ms)\n
     '''

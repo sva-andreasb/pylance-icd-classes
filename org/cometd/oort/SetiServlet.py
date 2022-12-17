@@ -1,15 +1,20 @@
 def getServletConfig():
-    '''public ServletConfig getServletConfig()
+    '''returns ServletConfig\n\n
+    getServletConfig()\n
     '''
 def getServletInfo():
-    '''public String getServletInfo()
+    '''returns String\n\n
+    getServletInfo()\n
     '''
 def init():
-    '''public void init(final ServletConfig config)
+    '''returns None\n\n
+    init(final ServletConfig config)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def service():
-    '''public void service(final ServletRequest req, final ServletResponse res)
+    '''returns None\n\n
+    service(final ServletRequest req, final ServletResponse res)\n
     '''

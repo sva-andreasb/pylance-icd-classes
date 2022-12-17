@@ -1,80 +1,81 @@
 IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def CCIBaselineToActualHandler():
-    '''public CCIBaselineToActualHandler(final CCIBaselineRemote sourceBaseline)
+def ():
+    '''returns CCIBaselineToActualHandler\n\n
+    (final CCIBaselineRemote sourceBaseline)\n
     '''
 def resolveTargetMember():
-    '''public CCITargetResolutionResult resolveTargetMember(final MboRemote sourceMember, final UserInfo userInfo)
+    '''returns CCITargetResolutionResult\n\n
+    resolveTargetMember(final MboRemote sourceMember, final UserInfo userInfo)\n
     '''
 def isLinkRuleBased():
-    '''public boolean isLinkRuleBased()
+    '''returns boolean\n\n
+    isLinkRuleBased()\n
     '''
 def getSourceMembers():
-    '''public MboSetRemote getSourceMembers()
+    '''returns MboSetRemote\n\n
+    getSourceMembers()\n
     '''
 def getSourceAttributes():
-    '''public MboSetRemote getSourceAttributes(final MboRemote sourceMember, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getSourceAttributes(final MboRemote sourceMember, final UserInfo userInfo)\n
     '''
 def getTargetAttributes():
-    '''public MboSetRemote getTargetAttributes(final MboRemote targetMember, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getTargetAttributes(final MboRemote targetMember, final UserInfo userInfo)\n
     '''
 def getSourceDescriptor():
-    '''public CCIComparedObjectDescriptor getSourceDescriptor()
+    '''returns CCIComparedObjectDescriptor\n\n
+    getSourceDescriptor()\n
     '''
 def getTargetDescriptor():
-    '''public CCIComparedObjectDescriptor getTargetDescriptor()
-    '''
-def registerAttributeDifference():
-    '''public synchronized boolean registerAttributeDifference(final MboRemote sourceMember, final MboRemote targetMember, final String assetAttrID, final String sourceAttrValue, final String targetAttrValue, final String sourceAttrUnitOfMeasure, final String targetAttrUnitOfMeasure, final CCIAttributeDifferenceEnum difference, final UserInfo userInfo)
-    '''
-def registerRelationDifference():
-    '''public synchronized boolean registerRelationDifference(final MboRemote sourceMember, final MboRemote targetMember, final MboRemote newRelation, final MboRemote deletedRelation, final boolean srcRelation, final UserInfo userInfo)
-    '''
-def registerMemberResult():
-    '''public synchronized void registerMemberResult(final MboRemote sourceMember, final CCIComparisonResultCodeEnum resultCode, final UserInfo userInfo)
+    '''returns CCIComparedObjectDescriptor\n\n
+    getTargetDescriptor()\n
     '''
 def getRequestID():
-    '''public long getRequestID()
+    '''returns long\n\n
+    getRequestID()\n
     '''
 def getSourceMemberSourceRelations():
-    '''public MboSetRemote getSourceMemberSourceRelations(final MboRemote sourceMember, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getSourceMemberSourceRelations(final MboRemote sourceMember, final UserInfo userInfo)\n
     '''
 def getSourceMemberTargetRelations():
-    '''public MboSetRemote getSourceMemberTargetRelations(final MboRemote sourceMember, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getSourceMemberTargetRelations(final MboRemote sourceMember, final UserInfo userInfo)\n
     '''
 def getTargetMemberSourceRelations():
-    '''public MboSetRemote getTargetMemberSourceRelations(final MboRemote targetMember, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getTargetMemberSourceRelations(final MboRemote targetMember, final UserInfo userInfo)\n
     '''
 def getTargetMemberTargetRelations():
-    '''public MboSetRemote getTargetMemberTargetRelations(final MboRemote targetMember, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getTargetMemberTargetRelations(final MboRemote targetMember, final UserInfo userInfo)\n
     '''
 def isSourceMemberSourceRelationInTargetMemberSourceRelations():
-    '''public boolean isSourceMemberSourceRelationInTargetMemberSourceRelations(final MboRemote sourceMember, final MboRemote sourceMemberSourceRelation, final Map<String, MboRemote> targetMemberSourceRelationsMap, final UserInfo userInfo)
+    '''returns boolean\n\n
+    isSourceMemberSourceRelationInTargetMemberSourceRelations(final MboRemote sourceMember, final MboRemote sourceMemberSourceRelation, final Map<String, MboRemote> targetMemberSourceRelationsMap, final UserInfo userInfo)\n
     '''
 def isSourceMemberTargetRelationInTargetMemberTargetRelations():
-    '''public boolean isSourceMemberTargetRelationInTargetMemberTargetRelations(final MboRemote sourceMember, final MboRemote sourceMemberTargetRelation, final Map<String, MboRemote> targetMemberTargetRelationsMap, final UserInfo userInfo)
-    '''
-def getLinkedActCINumForCI():
-    '''public static String getLinkedActCINumForCI(final String cinum, final UserInfo userInfo)
-    public static String getLinkedActCINumForCI(final MboRemote ciRelation, final String attribute, final UserInfo userInfo)
+    '''returns boolean\n\n
+    isSourceMemberTargetRelationInTargetMemberTargetRelations(final MboRemote sourceMember, final MboRemote sourceMemberTargetRelation, final Map<String, MboRemote> targetMemberTargetRelationsMap, final UserInfo userInfo)\n
     '''
 def getSourceRelations():
-    '''public MboSetRemote getSourceRelations(final Date asOf, final String actCINum, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getSourceRelations(final Date asOf, final String actCINum, final UserInfo userInfo)\n
     '''
 def userIsAuthorizedToSourceRelation():
-    '''public boolean userIsAuthorizedToSourceRelation(final MboRemote sourceMember, final MboRemote sourceRelation, final UserInfo userInfo)
+    '''returns boolean\n\n
+    userIsAuthorizedToSourceRelation(final MboRemote sourceMember, final MboRemote sourceRelation, final UserInfo userInfo)\n
     '''
 def userIsAuthorizedToTargetRelation():
-    '''public boolean userIsAuthorizedToTargetRelation(final MboRemote targetMember, final MboRemote targetRelation, final UserInfo userInfo)
-    '''
-def registerNoFullAccessAuthorizationError():
-    '''public synchronized void registerNoFullAccessAuthorizationError(final UserInfo userInfo)
+    '''returns boolean\n\n
+    userIsAuthorizedToTargetRelation(final MboRemote targetMember, final MboRemote targetRelation, final UserInfo userInfo)\n
     '''
 def comparisonStarted():
-    '''public void comparisonStarted(final MboRemote sourceMember)
-    '''
-def comparisonCompleted():
-    '''public synchronized void comparisonCompleted(final MboRemote sourceMember)
+    '''returns None\n\n
+    comparisonStarted(final MboRemote sourceMember)\n
     '''
 def reacquireSourceMember():
-    '''public MboRemote reacquireSourceMember(final MboRemote sourceMember, final UserInfo userInfo)
+    '''returns MboRemote\n\n
+    reacquireSourceMember(final MboRemote sourceMember, final UserInfo userInfo)\n
     '''

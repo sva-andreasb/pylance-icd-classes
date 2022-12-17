@@ -1,6 +1,8 @@
-def RETURN():
-    '''public RETURN()
+def ():
+    '''returns RETURN\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

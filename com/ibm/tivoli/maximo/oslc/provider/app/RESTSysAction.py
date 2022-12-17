@@ -1,3 +1,4 @@
-def RESTSysAction():
-    '''public RESTSysAction(final MboSet ms)
+def ():
+    '''returns RESTSysAction\n\n
+    (final MboSet ms)\n
     '''

@@ -1,10 +1,13 @@
-def InstructionCLV():
-    '''public InstructionCLV(final short opcode)
-    public InstructionCLV(final short opcode, final int localVariableIndex)
+def ():
+    '''returns InstructionCLV\n\n
+    (final short opcode)\n
+    (final short opcode, final int localVariableIndex)\n
     '''
 def setIndex():
-    '''public void setIndex(final int localVariableIndex)
+    '''returns None\n\n
+    setIndex(final int localVariableIndex)\n
     '''
 def canSetIndex():
-    '''public boolean canSetIndex()
+    '''returns boolean\n\n
+    canSetIndex()\n
     '''

@@ -1,31 +1,41 @@
-def ConfigElementImpl():
-    '''public ConfigElementImpl(final int type)
-    public ConfigElementImpl(final int type, final String id, final String method, final boolean excludeAll, final HashSet exclude, final String dataId, final String invalidate, final boolean ignoreValue, final boolean required)
+def ():
+    '''returns ConfigElementImpl\n\n
+    (final int type)\n
+    (final int type, final String id, final String method, final boolean excludeAll, final HashSet exclude, final String dataId, final String invalidate, final boolean ignoreValue, final boolean required)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''
 def getDataId():
-    '''public String getDataId()
+    '''returns String\n\n
+    getDataId()\n
     '''
 def getInvalidate():
-    '''public String getInvalidate()
+    '''returns String\n\n
+    getInvalidate()\n
     '''
 def getExclude():
-    '''public HashSet getExclude()
+    '''returns HashSet\n\n
+    getExclude()\n
     '''
 def getExcludeAll():
-    '''public boolean getExcludeAll()
+    '''returns boolean\n\n
+    getExcludeAll()\n
     '''
 def getRequired():
-    '''public boolean getRequired()
+    '''returns boolean\n\n
+    getRequired()\n
     '''
 def getIgnoreValue():
-    '''public boolean getIgnoreValue()
+    '''returns boolean\n\n
+    getIgnoreValue()\n
     '''

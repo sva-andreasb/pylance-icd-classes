@@ -1,3 +1,4 @@
-def PlusPFldAgreement():
-    '''public PlusPFldAgreement(final MboValue mbv)
+def ():
+    '''returns PlusPFldAgreement\n\n
+    (final MboValue mbv)\n
     '''

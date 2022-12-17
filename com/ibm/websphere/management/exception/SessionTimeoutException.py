@@ -1,6 +1,8 @@
-def SessionTimeoutException():
-    '''public SessionTimeoutException(final Session session)
+def ():
+    '''returns SessionTimeoutException\n\n
+    (final Session session)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

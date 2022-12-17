@@ -1,26 +1,34 @@
-def Trie2Writable():
-    '''public Trie2Writable(final int initialValueP, final int errorValueP)
-    public Trie2Writable(final Trie2 source)
+def ():
+    '''returns Trie2Writable\n\n
+    (final int initialValueP, final int errorValueP)\n
+    (final Trie2 source)\n
     '''
 def set():
-    '''public Trie2Writable set(final int c, final int value)
+    '''returns Trie2Writable\n\n
+    set(final int c, final int value)\n
     '''
 def setRange():
-    '''public Trie2Writable setRange(int start, final int end, final int value, final boolean overwrite)
-    public Trie2Writable setRange(final Range range, final boolean overwrite)
+    '''returns Trie2Writable\n\n
+    setRange(int start, final int end, final int value, final boolean overwrite)\n
+    setRange(final Range range, final boolean overwrite)\n
     '''
 def setForLeadSurrogateCodeUnit():
-    '''public Trie2Writable setForLeadSurrogateCodeUnit(final char codeUnit, final int value)
+    '''returns Trie2Writable\n\n
+    setForLeadSurrogateCodeUnit(final char codeUnit, final int value)\n
     '''
 def get():
-    '''public int get(final int codePoint)
+    '''returns int\n\n
+    get(final int codePoint)\n
     '''
 def getFromU16SingleLead():
-    '''public int getFromU16SingleLead(final char c)
+    '''returns int\n\n
+    getFromU16SingleLead(final char c)\n
     '''
 def toTrie2_16():
-    '''public Trie2_16 toTrie2_16()
+    '''returns Trie2_16\n\n
+    toTrie2_16()\n
     '''
 def toTrie2_32():
-    '''public Trie2_32 toTrie2_32()
+    '''returns Trie2_32\n\n
+    toTrie2_32()\n
     '''

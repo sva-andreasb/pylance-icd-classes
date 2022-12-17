@@ -1,7 +1,9 @@
-def AbstractMessageWriter():
-    '''public AbstractMessageWriter(final SessionOutputBuffer buffer, final LineFormatter formatter, final HttpParams params)
-    public AbstractMessageWriter(final SessionOutputBuffer buffer, final LineFormatter formatter)
+def ():
+    '''returns AbstractMessageWriter\n\n
+    (final SessionOutputBuffer buffer, final LineFormatter formatter, final HttpParams params)\n
+    (final SessionOutputBuffer buffer, final LineFormatter formatter)\n
     '''
 def write():
-    '''public void write(final T message)
+    '''returns None\n\n
+    write(final T message)\n
     '''

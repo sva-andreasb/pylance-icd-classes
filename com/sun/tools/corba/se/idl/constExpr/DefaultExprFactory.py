@@ -1,74 +1,97 @@
 def and():
-    '''public And and(final Expression expression, final Expression expression2)
+    '''returns And\n\n
+    and(final Expression expression, final Expression expression2)\n
     '''
 def booleanAnd():
-    '''public BooleanAnd booleanAnd(final Expression expression, final Expression expression2)
+    '''returns BooleanAnd\n\n
+    booleanAnd(final Expression expression, final Expression expression2)\n
     '''
 def booleanNot():
-    '''public BooleanNot booleanNot(final Expression expression)
+    '''returns BooleanNot\n\n
+    booleanNot(final Expression expression)\n
     '''
 def booleanOr():
-    '''public BooleanOr booleanOr(final Expression expression, final Expression expression2)
+    '''returns BooleanOr\n\n
+    booleanOr(final Expression expression, final Expression expression2)\n
     '''
 def divide():
-    '''public Divide divide(final Expression expression, final Expression expression2)
+    '''returns Divide\n\n
+    divide(final Expression expression, final Expression expression2)\n
     '''
 def equal():
-    '''public Equal equal(final Expression expression, final Expression expression2)
+    '''returns Equal\n\n
+    equal(final Expression expression, final Expression expression2)\n
     '''
 def greaterEqual():
-    '''public GreaterEqual greaterEqual(final Expression expression, final Expression expression2)
+    '''returns GreaterEqual\n\n
+    greaterEqual(final Expression expression, final Expression expression2)\n
     '''
 def greaterThan():
-    '''public GreaterThan greaterThan(final Expression expression, final Expression expression2)
+    '''returns GreaterThan\n\n
+    greaterThan(final Expression expression, final Expression expression2)\n
     '''
 def lessEqual():
-    '''public LessEqual lessEqual(final Expression expression, final Expression expression2)
+    '''returns LessEqual\n\n
+    lessEqual(final Expression expression, final Expression expression2)\n
     '''
 def lessThan():
-    '''public LessThan lessThan(final Expression expression, final Expression expression2)
+    '''returns LessThan\n\n
+    lessThan(final Expression expression, final Expression expression2)\n
     '''
 def minus():
-    '''public Minus minus(final Expression expression, final Expression expression2)
+    '''returns Minus\n\n
+    minus(final Expression expression, final Expression expression2)\n
     '''
 def modulo():
-    '''public Modulo modulo(final Expression expression, final Expression expression2)
+    '''returns Modulo\n\n
+    modulo(final Expression expression, final Expression expression2)\n
     '''
 def negative():
-    '''public Negative negative(final Expression expression)
+    '''returns Negative\n\n
+    negative(final Expression expression)\n
     '''
 def not():
-    '''public Not not(final Expression expression)
+    '''returns Not\n\n
+    not(final Expression expression)\n
     '''
 def notEqual():
-    '''public NotEqual notEqual(final Expression expression, final Expression expression2)
+    '''returns NotEqual\n\n
+    notEqual(final Expression expression, final Expression expression2)\n
     '''
 def or():
-    '''public Or or(final Expression expression, final Expression expression2)
+    '''returns Or\n\n
+    or(final Expression expression, final Expression expression2)\n
     '''
 def plus():
-    '''public Plus plus(final Expression expression, final Expression expression2)
+    '''returns Plus\n\n
+    plus(final Expression expression, final Expression expression2)\n
     '''
 def positive():
-    '''public Positive positive(final Expression expression)
+    '''returns Positive\n\n
+    positive(final Expression expression)\n
     '''
 def shiftLeft():
-    '''public ShiftLeft shiftLeft(final Expression expression, final Expression expression2)
+    '''returns ShiftLeft\n\n
+    shiftLeft(final Expression expression, final Expression expression2)\n
     '''
 def shiftRight():
-    '''public ShiftRight shiftRight(final Expression expression, final Expression expression2)
+    '''returns ShiftRight\n\n
+    shiftRight(final Expression expression, final Expression expression2)\n
     '''
 def terminal():
-    '''public Terminal terminal(final String s, final Character c, final boolean b)
-    public Terminal terminal(final String s, final Boolean b)
-    public Terminal terminal(final String s, final BigInteger bigInteger)
-    public Terminal terminal(final String s, final Double n)
-    public Terminal terminal(final String s, final boolean b)
-    public Terminal terminal(final ConstEntry constEntry)
+    '''returns Terminal\n\n
+    terminal(final String s, final Character c, final boolean b)\n
+    terminal(final String s, final Boolean b)\n
+    terminal(final String s, final BigInteger bigInteger)\n
+    terminal(final String s, final Double n)\n
+    terminal(final String s, final boolean b)\n
+    terminal(final ConstEntry constEntry)\n
     '''
 def times():
-    '''public Times times(final Expression expression, final Expression expression2)
+    '''returns Times\n\n
+    times(final Expression expression, final Expression expression2)\n
     '''
 def xor():
-    '''public Xor xor(final Expression expression, final Expression expression2)
+    '''returns Xor\n\n
+    xor(final Expression expression, final Expression expression2)\n
     '''

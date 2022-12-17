@@ -1,9 +1,8 @@
 def setApp():
-    '''public void setApp(final String appName)
+    '''returns None\n\n
+    setApp(final String appName)\n
     '''
 def execute():
-    '''public int execute(final MboSetRemote docs)
-    '''
-def close():
-    '''public synchronized void close()
+    '''returns int\n\n
+    execute(final MboSetRemote docs)\n
     '''

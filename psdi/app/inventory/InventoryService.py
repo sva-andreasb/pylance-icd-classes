@@ -1,152 +1,200 @@
-def InventoryService():
-    '''public InventoryService()
-    public InventoryService(final MXServer mxServer)
+def ():
+    '''returns InventoryService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def setAdjustmentType():
-    '''public void setAdjustmentType(final int type, final MboRemote invAdjust)
+    '''returns None\n\n
+    setAdjustmentType(final int type, final MboRemote invAdjust)\n
     '''
 def getItemsInStore():
-    '''public MboSetRemote getItemsInStore(final UserInfo userInfo, final String storeroom)
+    '''returns MboSetRemote\n\n
+    getItemsInStore(final UserInfo userInfo, final String storeroom)\n
     '''
 def createIssue():
-    '''public MboRemote createIssue(final UserInfo userInfo, final MboSetRemote issueSet, final String itemnum, final String location, final String siteid, final String ownersysid1)
-    public MboRemote createIssue(final UserInfo userInfo, final String itemnum, final String location, final String siteid, final String bin, final String lot, final String rotasset, final double qty)
+    '''returns MboRemote\n\n
+    createIssue(final UserInfo userInfo, final MboSetRemote issueSet, final String itemnum, final String location, final String siteid, final String ownersysid1)\n
+    createIssue(final UserInfo userInfo, final String itemnum, final String location, final String siteid, final String bin, final String lot, final String rotasset, final double qty)\n
     '''
 def getItemSetIdFromSite():
-    '''public String getItemSetIdFromSite(final UserInfo userInfo, final String siteid)
+    '''returns String\n\n
+    getItemSetIdFromSite(final UserInfo userInfo, final String siteid)\n
     '''
 def createMiscReceipt():
-    '''public MboRemote createMiscReceipt(final UserInfo userInfo, final MboSetRemote existingReceiptSet, final String itemnum, final String toStoreLoc, final String siteid, final String ownersysid)
+    '''returns MboRemote\n\n
+    createMiscReceipt(final UserInfo userInfo, final MboSetRemote existingReceiptSet, final String itemnum, final String toStoreLoc, final String siteid, final String ownersysid)\n
     '''
 def getCurrentBalance():
-    '''public double getCurrentBalance(final UserInfo userInfo, final String itemnum, final String itemsetid, final String location, final String binnum, final String lotnum)
+    '''returns double\n\n
+    getCurrentBalance(final UserInfo userInfo, final String itemnum, final String itemsetid, final String location, final String binnum, final String lotnum)\n
     '''
 def getBalances():
-    '''public MboSetRemote getBalances(final UserInfo userInfo, final String itemnum, final String itemsetid, final String location, final String siteid)
+    '''returns MboSetRemote\n\n
+    getBalances(final UserInfo userInfo, final String itemnum, final String itemsetid, final String location, final String siteid)\n
     '''
 def getBalancesForInventorySet():
-    '''public MboSetRemote getBalancesForInventorySet(final MboSetRemote inventorySet)
+    '''returns MboSetRemote\n\n
+    getBalancesForInventorySet(final MboSetRemote inventorySet)\n
     '''
 def getUnauthInvSet():
-    '''public Vector getUnauthInvSet()
+    '''returns Vector\n\n
+    getUnauthInvSet()\n
     '''
 def canGoNegative():
-    '''public void canGoNegative(final UserInfo userInfo, final double toBeIssued, final String itemnum, final String itemsetid, final String location, final String siteid)
-    public void canGoNegative(final UserInfo userInfo, final double toBeIssued, final String itemnum, final String itemsetid, final String location)
-    public void canGoNegative(final UserInfo userInfo, final double toBeIssued, final double totalAvailable, final MboRemote sourceMbo)
-    public void canGoNegative(final UserInfo userInfo, final double toBeIssued, final String itemnum, final String itemsetid, final String location, final String binnum, final String lotnum, final String siteid)
-    public void canGoNegative(final UserInfo userInfo, final double toBeIssued, final double curbal, final double totalAvailable, final MboRemote sourceMbo)
-    public void canGoNegative(final UserInfo userInfo, final double toBeIssued, final double curbal, final double totalAvailable, final MboRemote sourceMbo, final String costType)
+    '''returns None\n\n
+    canGoNegative(final UserInfo userInfo, final double toBeIssued, final String itemnum, final String itemsetid, final String location, final String siteid)\n
+    canGoNegative(final UserInfo userInfo, final double toBeIssued, final String itemnum, final String itemsetid, final String location)\n
+    canGoNegative(final UserInfo userInfo, final double toBeIssued, final double totalAvailable, final MboRemote sourceMbo)\n
+    canGoNegative(final UserInfo userInfo, final double toBeIssued, final String itemnum, final String itemsetid, final String location, final String binnum, final String lotnum, final String siteid)\n
+    canGoNegative(final UserInfo userInfo, final double toBeIssued, final double curbal, final double totalAvailable, final MboRemote sourceMbo)\n
+    canGoNegative(final UserInfo userInfo, final double toBeIssued, final double curbal, final double totalAvailable, final MboRemote sourceMbo, final String costType)\n
     '''
 def isSameStoreroomTransfer():
-    '''public boolean isSameStoreroomTransfer(final MboRemote sourceMbo)
+    '''returns boolean\n\n
+    isSameStoreroomTransfer(final MboRemote sourceMbo)\n
     '''
 def findItemsForPhysCount():
-    '''public MboSetRemote findItemsForPhysCount(final UserInfo userInfo, final String location)
+    '''returns MboSetRemote\n\n
+    findItemsForPhysCount(final UserInfo userInfo, final String location)\n
     '''
 def getBins():
-    '''public MboSetRemote getBins(final UserInfo userInfo, final String location, final String binnum)
+    '''returns MboSetRemote\n\n
+    getBins(final UserInfo userInfo, final String location, final String binnum)\n
     '''
 def getLots():
-    '''public MboSetRemote getLots(final UserInfo userInfo, final String itemnum, final String itemsetid, final String location, final String binnum)
+    '''returns MboSetRemote\n\n
+    getLots(final UserInfo userInfo, final String itemnum, final String itemsetid, final String location, final String binnum)\n
     '''
 def getReservationsForWO():
-    '''public MboSetRemote getReservationsForWO(final UserInfo userInfo, final String wonum)
+    '''returns MboSetRemote\n\n
+    getReservationsForWO(final UserInfo userInfo, final String wonum)\n
     '''
 def getReservationsForMR():
-    '''public MboSetRemote getReservationsForMR(final UserInfo userInfo, final String mrnum)
+    '''returns MboSetRemote\n\n
+    getReservationsForMR(final UserInfo userInfo, final String mrnum)\n
     '''
 def isWOValid():
-    '''public MboRemote isWOValid(final UserInfo userInfo, final String wonum)
+    '''returns MboRemote\n\n
+    isWOValid(final UserInfo userInfo, final String wonum)\n
     '''
 def isMRValid():
-    '''public void isMRValid(final UserInfo userInfo, final String mrnum)
+    '''returns None\n\n
+    isMRValid(final UserInfo userInfo, final String mrnum)\n
     '''
 def getMatReceiptSet():
-    '''public MboSetRemote getMatReceiptSet(final UserInfo ui, final String ponum)
+    '''returns MboSetRemote\n\n
+    getMatReceiptSet(final UserInfo ui, final String ponum)\n
     '''
 def validateBinLot():
-    '''public void validateBinLot(final Inventory inv, final String binnum, final String lotnum)
+    '''returns None\n\n
+    validateBinLot(final Inventory inv, final String binnum, final String lotnum)\n
     '''
 def validateInventory():
-    '''public MboRemote validateInventory(final UserInfo userInfo, final String item, final String itemsetid, final String location)
+    '''returns MboRemote\n\n
+    validateInventory(final UserInfo userInfo, final String item, final String itemsetid, final String location)\n
     '''
 def isCourierOrLabor():
-    '''public boolean isCourierOrLabor(final UserInfo userInfo, final String location)
+    '''returns boolean\n\n
+    isCourierOrLabor(final UserInfo userInfo, final String location)\n
     '''
 def getDefaultLotNum():
-    '''public String getDefaultLotNum(final MboRemote mbo)
+    '''returns String\n\n
+    getDefaultLotNum(final MboRemote mbo)\n
     '''
 def getConversionFactor():
-    '''public double getConversionFactor(final UserInfo userInfo, final String fromUOM, final String toUOM, final String itemSetID, final String itemNum)
-    public double getConversionFactor(final UserInfo userInfo, final String fromUOM, final String toUOM, final String itemSetID)
+    '''returns double\n\n
+    getConversionFactor(final UserInfo userInfo, final String fromUOM, final String toUOM, final String itemSetID, final String itemNum)\n
+    getConversionFactor(final UserInfo userInfo, final String fromUOM, final String toUOM, final String itemSetID)\n
     '''
 def getUnitConversionFactor():
-    '''public String getUnitConversionFactor(final UserInfo userInfo, final String fromUOM, final String toUOM, final String itemSetID, final String itemNum)
+    '''returns String\n\n
+    getUnitConversionFactor(final UserInfo userInfo, final String fromUOM, final String toUOM, final String itemSetID, final String itemNum)\n
     '''
 def adjustCurrentBalance():
-    '''public void adjustCurrentBalance(@WSMboKey("INVBALANCES") final MboRemote invBalances, final String newBalance, final double stdcost, final double avgcost, final String conditioncode)
+    '''returns None\n\n
+    adjustCurrentBalance(@WSMboKey("INVBALANCES") final MboRemote invBalances, final String newBalance, final double stdcost, final double avgcost, final String conditioncode)\n
     '''
 def getConversionFactorToStoreroom():
-    '''public MboRemote getConversionFactorToStoreroom(@WSMboKey("TRANSFERCURITEM") final MboRemote mbo, final String tostoreloc, final String tositeid)
+    '''returns MboRemote\n\n
+    getConversionFactorToStoreroom(@WSMboKey("TRANSFERCURITEM") final MboRemote mbo, final String tostoreloc, final String tositeid)\n
     '''
 def createInvbalances():
-    '''public void createInvbalances(@WSMboKey("INVENTORY") final MboRemote invMbo, final String itemnum, final String location, final String siteid, final String binnum, final String lotnum, final String conditioncode, final String itemsetid, final String curbal, final UserInfo userInfo)
+    '''returns None\n\n
+    createInvbalances(@WSMboKey("INVENTORY") final MboRemote invMbo, final String itemnum, final String location, final String siteid, final String binnum, final String lotnum, final String conditioncode, final String itemsetid, final String curbal, final UserInfo userInfo)\n
     '''
 def adjustPhysicalCount():
-    '''public void adjustPhysicalCount(@WSMboKey("INVBALANCES") final MboRemote invMbo, final String itemnum, final String location, final String siteid, final String binnum, final String lotnum, final String itemsetid, final double physcnt, final UserInfo userInfo)
+    '''returns None\n\n
+    adjustPhysicalCount(@WSMboKey("INVBALANCES") final MboRemote invMbo, final String itemnum, final String location, final String siteid, final String binnum, final String lotnum, final String itemsetid, final double physcnt, final UserInfo userInfo)\n
     '''
 def previewReconcile():
-    '''public void previewReconcile(@WSMboSetQbe("INVBALANCES") final MboSetRemote invBalSetMbo)
+    '''returns None\n\n
+    previewReconcile(@WSMboSetQbe("INVBALANCES") final MboSetRemote invBalSetMbo)\n
     '''
 def reconcile():
-    '''public MboSetRemote reconcile(@WSMboSetQbe("INVBALANCES") final MboSetRemote invBalSetMbo)
+    '''returns MboSetRemote\n\n
+    reconcile(@WSMboSetQbe("INVBALANCES") final MboSetRemote invBalSetMbo)\n
     '''
 def createReturnForIssueStoreloc():
-    '''public MboRemote createReturnForIssueStoreloc(@WSMboKey("MAUSETRANS") final MboRemote issueMbo)
+    '''returns MboRemote\n\n
+    createReturnForIssueStoreloc(@WSMboKey("MAUSETRANS") final MboRemote issueMbo)\n
     '''
 def updateInventory():
-    '''public MboRemote updateInventory(@WSMboKey("INVBALANCES") final MboRemote invMbo, final String itemnum, final String location, final String siteid, final String itemsetid, final UserInfo userInfo)
+    '''returns MboRemote\n\n
+    updateInventory(@WSMboKey("INVBALANCES") final MboRemote invMbo, final String itemnum, final String location, final String siteid, final String itemsetid, final UserInfo userInfo)\n
     '''
 def getStoreroom():
-    '''public MboRemote getStoreroom(final UserInfo userInfo, final String location, final String siteid)
+    '''returns MboRemote\n\n
+    getStoreroom(final UserInfo userInfo, final String location, final String siteid)\n
     '''
 def updateAllInventory():
-    '''public MboSetRemote updateAllInventory(@WSMboSetQbe("INVBALANCES") final MboSetRemote invBalSetMbo, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    updateAllInventory(@WSMboSetQbe("INVBALANCES") final MboSetRemote invBalSetMbo, final UserInfo userInfo)\n
     '''
 def createIssueForNonStock():
-    '''public MboRemote createIssueForNonStock(final UserInfo userInfo, MboSetRemote issueSet, final String itemnum, final String itemsetid, final String location, final String siteid, final String ownersysid1)
+    '''returns MboRemote\n\n
+    createIssueForNonStock(final UserInfo userInfo, MboSetRemote issueSet, final String itemnum, final String itemsetid, final String location, final String siteid, final String ownersysid1)\n
     '''
 def createPickList():
-    '''public MboRemote createPickList(@WSMboSetQbe("INVRESERVE") final MboSetRemote msr, final String pldescription, final String plnum, final Date reqdate, final String storeroom, final String siteid, final UserInfo userInfo, MXTransaction trans)
+    '''returns MboRemote\n\n
+    createPickList(@WSMboSetQbe("INVRESERVE") final MboSetRemote msr, final String pldescription, final String plnum, final Date reqdate, final String storeroom, final String siteid, final UserInfo userInfo, MXTransaction trans)\n
     '''
 def updateInvUseLines():
-    '''public void updateInvUseLines(final MboSetRemote msr, final String plnum, final MXTransaction trans)
+    '''returns None\n\n
+    updateInvUseLines(final MboSetRemote msr, final String plnum, final MXTransaction trans)\n
     '''
 def changeStatus():
-    '''public void changeStatus(@WSMboKey("INVPICKLIST") final MboRemote mbo, final String status, final Date asOfDate, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(@WSMboKey("INVPICKLIST") final MboRemote mbo, final String status, final Date asOfDate, final String memo, final long accessModifier)\n
     '''
 def autoSplitRecordSet():
-    '''public MboSetRemote autoSplitRecordSet(@WSMboKey("INVUSELINE") final MboRemote invUseLineMbo, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    autoSplitRecordSet(@WSMboKey("INVUSELINE") final MboRemote invUseLineMbo, final UserInfo userInfo)\n
     '''
 def getLineSplitRecords():
-    '''public MboSetRemote getLineSplitRecords(@WSMboSetQbe("INVBALANCES") final MboSetRemote invbalmsr, @WSMboKey("INVUSELINE") final MboRemote invUseLineMbo, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getLineSplitRecords(@WSMboSetQbe("INVBALANCES") final MboSetRemote invbalmsr, @WSMboKey("INVUSELINE") final MboRemote invUseLineMbo, final UserInfo userInfo)\n
     '''
 def getLineSplitForRotItems():
-    '''public MboSetRemote getLineSplitForRotItems(@WSMboSetQbe("ASSET") final MboSetRemote assetmsr, @WSMboKey("INVUSELINE") final MboRemote invUseLineMbo, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    getLineSplitForRotItems(@WSMboSetQbe("ASSET") final MboSetRemote assetmsr, @WSMboKey("INVUSELINE") final MboRemote invUseLineMbo, final UserInfo userInfo)\n
     '''
 def addReservation():
-    '''public MboRemote addReservation(@WSMboSetQbe("INVRESERVE") final MboSetRemote msr, final String pl_num, final String siteid, final UserInfo userInfo, MXTransaction trans)
+    '''returns MboRemote\n\n
+    addReservation(@WSMboSetQbe("INVRESERVE") final MboSetRemote msr, final String pl_num, final String siteid, final UserInfo userInfo, MXTransaction trans)\n
     '''
 def setZeroNewPhysCnt():
-    '''public void setZeroNewPhysCnt(final long uniqueId, final boolean toRemove)
+    '''returns None\n\n
+    setZeroNewPhysCnt(final long uniqueId, final boolean toRemove)\n
     '''
 def isZeroNewPhysCnt():
-    '''public boolean isZeroNewPhysCnt(final long uniqueId)
+    '''returns boolean\n\n
+    isZeroNewPhysCnt(final long uniqueId)\n
     '''

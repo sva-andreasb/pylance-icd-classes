@@ -1,12 +1,16 @@
-def ZapfDingbatsList():
-    '''public ZapfDingbatsList(final int zn, final int symbolIndent)
+def ():
+    '''returns ZapfDingbatsList\n\n
+    (final int zn, final int symbolIndent)\n
     '''
 def setCharNumber():
-    '''public void setCharNumber(final int zn)
+    '''returns None\n\n
+    setCharNumber(final int zn)\n
     '''
 def getCharNumber():
-    '''public int getCharNumber()
+    '''returns int\n\n
+    getCharNumber()\n
     '''
 def add():
-    '''public boolean add(final Object o)
+    '''returns boolean\n\n
+    add(final Object o)\n
     '''

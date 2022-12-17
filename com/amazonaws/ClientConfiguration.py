@@ -10,271 +10,360 @@ DEFAULT_CONNECTION_MAX_IDLE_MILLIS = "long  60000L"
 DEFAULT_TCP_KEEP_ALIVE = "boolean  false"
 DEFAULT_THROTTLE_RETRIES = "boolean  false"
 DEFAULT_RESPONSE_METADATA_CACHE_SIZE = "int  50"
-def ClientConfiguration():
-    '''public ClientConfiguration()
-    public ClientConfiguration(final ClientConfiguration other)
+def ():
+    '''returns ClientConfiguration\n\n
+    ()\n
+    (final ClientConfiguration other)\n
     '''
 def getProtocol():
-    '''public Protocol getProtocol()
+    '''returns Protocol\n\n
+    getProtocol()\n
     '''
 def setProtocol():
-    '''public void setProtocol(final Protocol protocol)
+    '''returns None\n\n
+    setProtocol(final Protocol protocol)\n
     '''
 def withProtocol():
-    '''public ClientConfiguration withProtocol(final Protocol protocol)
+    '''returns ClientConfiguration\n\n
+    withProtocol(final Protocol protocol)\n
     '''
 def getMaxConnections():
-    '''public int getMaxConnections()
+    '''returns int\n\n
+    getMaxConnections()\n
     '''
 def setMaxConnections():
-    '''public void setMaxConnections(final int maxConnections)
+    '''returns None\n\n
+    setMaxConnections(final int maxConnections)\n
     '''
 def withMaxConnections():
-    '''public ClientConfiguration withMaxConnections(final int maxConnections)
+    '''returns ClientConfiguration\n\n
+    withMaxConnections(final int maxConnections)\n
     '''
 def getUserAgent():
-    '''public String getUserAgent()
+    '''returns String\n\n
+    getUserAgent()\n
     '''
 def setUserAgent():
-    '''public void setUserAgent(final String userAgent)
+    '''returns None\n\n
+    setUserAgent(final String userAgent)\n
     '''
 def withUserAgent():
-    '''public ClientConfiguration withUserAgent(final String userAgent)
+    '''returns ClientConfiguration\n\n
+    withUserAgent(final String userAgent)\n
     '''
 def getLocalAddress():
-    '''public InetAddress getLocalAddress()
+    '''returns InetAddress\n\n
+    getLocalAddress()\n
     '''
 def setLocalAddress():
-    '''public void setLocalAddress(final InetAddress localAddress)
+    '''returns None\n\n
+    setLocalAddress(final InetAddress localAddress)\n
     '''
 def withLocalAddress():
-    '''public ClientConfiguration withLocalAddress(final InetAddress localAddress)
+    '''returns ClientConfiguration\n\n
+    withLocalAddress(final InetAddress localAddress)\n
     '''
 def getProxyHost():
-    '''public String getProxyHost()
+    '''returns String\n\n
+    getProxyHost()\n
     '''
 def setProxyHost():
-    '''public void setProxyHost(final String proxyHost)
+    '''returns None\n\n
+    setProxyHost(final String proxyHost)\n
     '''
 def withProxyHost():
-    '''public ClientConfiguration withProxyHost(final String proxyHost)
+    '''returns ClientConfiguration\n\n
+    withProxyHost(final String proxyHost)\n
     '''
 def getProxyPort():
-    '''public int getProxyPort()
+    '''returns int\n\n
+    getProxyPort()\n
     '''
 def setProxyPort():
-    '''public void setProxyPort(final int proxyPort)
+    '''returns None\n\n
+    setProxyPort(final int proxyPort)\n
     '''
 def withProxyPort():
-    '''public ClientConfiguration withProxyPort(final int proxyPort)
+    '''returns ClientConfiguration\n\n
+    withProxyPort(final int proxyPort)\n
     '''
 def getProxyUsername():
-    '''public String getProxyUsername()
+    '''returns String\n\n
+    getProxyUsername()\n
     '''
 def setProxyUsername():
-    '''public void setProxyUsername(final String proxyUsername)
+    '''returns None\n\n
+    setProxyUsername(final String proxyUsername)\n
     '''
 def withProxyUsername():
-    '''public ClientConfiguration withProxyUsername(final String proxyUsername)
+    '''returns ClientConfiguration\n\n
+    withProxyUsername(final String proxyUsername)\n
     '''
 def getProxyPassword():
-    '''public String getProxyPassword()
+    '''returns String\n\n
+    getProxyPassword()\n
     '''
 def setProxyPassword():
-    '''public void setProxyPassword(final String proxyPassword)
+    '''returns None\n\n
+    setProxyPassword(final String proxyPassword)\n
     '''
 def withProxyPassword():
-    '''public ClientConfiguration withProxyPassword(final String proxyPassword)
+    '''returns ClientConfiguration\n\n
+    withProxyPassword(final String proxyPassword)\n
     '''
 def getProxyDomain():
-    '''public String getProxyDomain()
+    '''returns String\n\n
+    getProxyDomain()\n
     '''
 def setProxyDomain():
-    '''public void setProxyDomain(final String proxyDomain)
+    '''returns None\n\n
+    setProxyDomain(final String proxyDomain)\n
     '''
 def withProxyDomain():
-    '''public ClientConfiguration withProxyDomain(final String proxyDomain)
+    '''returns ClientConfiguration\n\n
+    withProxyDomain(final String proxyDomain)\n
     '''
 def getProxyWorkstation():
-    '''public String getProxyWorkstation()
+    '''returns String\n\n
+    getProxyWorkstation()\n
     '''
 def setProxyWorkstation():
-    '''public void setProxyWorkstation(final String proxyWorkstation)
+    '''returns None\n\n
+    setProxyWorkstation(final String proxyWorkstation)\n
     '''
 def withProxyWorkstation():
-    '''public ClientConfiguration withProxyWorkstation(final String proxyWorkstation)
+    '''returns ClientConfiguration\n\n
+    withProxyWorkstation(final String proxyWorkstation)\n
     '''
 def getRetryPolicy():
-    '''public RetryPolicy getRetryPolicy()
+    '''returns RetryPolicy\n\n
+    getRetryPolicy()\n
     '''
 def setRetryPolicy():
-    '''public void setRetryPolicy(final RetryPolicy retryPolicy)
+    '''returns None\n\n
+    setRetryPolicy(final RetryPolicy retryPolicy)\n
     '''
 def withRetryPolicy():
-    '''public ClientConfiguration withRetryPolicy(final RetryPolicy retryPolicy)
+    '''returns ClientConfiguration\n\n
+    withRetryPolicy(final RetryPolicy retryPolicy)\n
     '''
 def getMaxErrorRetry():
-    '''public int getMaxErrorRetry()
+    '''returns int\n\n
+    getMaxErrorRetry()\n
     '''
 def setMaxErrorRetry():
-    '''public void setMaxErrorRetry(final int maxErrorRetry)
+    '''returns None\n\n
+    setMaxErrorRetry(final int maxErrorRetry)\n
     '''
 def withMaxErrorRetry():
-    '''public ClientConfiguration withMaxErrorRetry(final int maxErrorRetry)
+    '''returns ClientConfiguration\n\n
+    withMaxErrorRetry(final int maxErrorRetry)\n
     '''
 def getSocketTimeout():
-    '''public int getSocketTimeout()
+    '''returns int\n\n
+    getSocketTimeout()\n
     '''
 def setSocketTimeout():
-    '''public void setSocketTimeout(final int socketTimeout)
+    '''returns None\n\n
+    setSocketTimeout(final int socketTimeout)\n
     '''
 def withSocketTimeout():
-    '''public ClientConfiguration withSocketTimeout(final int socketTimeout)
+    '''returns ClientConfiguration\n\n
+    withSocketTimeout(final int socketTimeout)\n
     '''
 def getConnectionTimeout():
-    '''public int getConnectionTimeout()
+    '''returns int\n\n
+    getConnectionTimeout()\n
     '''
 def setConnectionTimeout():
-    '''public void setConnectionTimeout(final int connectionTimeout)
+    '''returns None\n\n
+    setConnectionTimeout(final int connectionTimeout)\n
     '''
 def withConnectionTimeout():
-    '''public ClientConfiguration withConnectionTimeout(final int connectionTimeout)
+    '''returns ClientConfiguration\n\n
+    withConnectionTimeout(final int connectionTimeout)\n
     '''
 def getRequestTimeout():
-    '''public int getRequestTimeout()
+    '''returns int\n\n
+    getRequestTimeout()\n
     '''
 def setRequestTimeout():
-    '''public void setRequestTimeout(final int requestTimeout)
+    '''returns None\n\n
+    setRequestTimeout(final int requestTimeout)\n
     '''
 def withRequestTimeout():
-    '''public ClientConfiguration withRequestTimeout(final int requestTimeout)
+    '''returns ClientConfiguration\n\n
+    withRequestTimeout(final int requestTimeout)\n
     '''
 def getClientExecutionTimeout():
-    '''public int getClientExecutionTimeout()
+    '''returns int\n\n
+    getClientExecutionTimeout()\n
     '''
 def setClientExecutionTimeout():
-    '''public void setClientExecutionTimeout(final int clientExecutionTimeout)
+    '''returns None\n\n
+    setClientExecutionTimeout(final int clientExecutionTimeout)\n
     '''
 def withClientExecutionTimeout():
-    '''public ClientConfiguration withClientExecutionTimeout(final int clientExecutionTimeout)
+    '''returns ClientConfiguration\n\n
+    withClientExecutionTimeout(final int clientExecutionTimeout)\n
     '''
 def useReaper():
-    '''public boolean useReaper()
+    '''returns boolean\n\n
+    useReaper()\n
     '''
 def setUseReaper():
-    '''public void setUseReaper(final boolean use)
+    '''returns None\n\n
+    setUseReaper(final boolean use)\n
     '''
 def withReaper():
-    '''public ClientConfiguration withReaper(final boolean use)
+    '''returns ClientConfiguration\n\n
+    withReaper(final boolean use)\n
     '''
 def useThrottledRetries():
-    '''public boolean useThrottledRetries()
+    '''returns boolean\n\n
+    useThrottledRetries()\n
     '''
 def setUseThrottleRetries():
-    '''public void setUseThrottleRetries(final boolean use)
+    '''returns None\n\n
+    setUseThrottleRetries(final boolean use)\n
     '''
 def withThrottledRetries():
-    '''public ClientConfiguration withThrottledRetries(final boolean use)
+    '''returns ClientConfiguration\n\n
+    withThrottledRetries(final boolean use)\n
     '''
 def useGzip():
-    '''public boolean useGzip()
+    '''returns boolean\n\n
+    useGzip()\n
     '''
 def setUseGzip():
-    '''public void setUseGzip(final boolean use)
+    '''returns None\n\n
+    setUseGzip(final boolean use)\n
     '''
 def withGzip():
-    '''public ClientConfiguration withGzip(final boolean use)
+    '''returns ClientConfiguration\n\n
+    withGzip(final boolean use)\n
     '''
 def getSocketBufferSizeHints():
-    '''public int[] getSocketBufferSizeHints()
+    '''returns int[]\n\n
+    getSocketBufferSizeHints()\n
     '''
 def setSocketBufferSizeHints():
-    '''public void setSocketBufferSizeHints(final int socketSendBufferSizeHint, final int socketReceiveBufferSizeHint)
+    '''returns None\n\n
+    setSocketBufferSizeHints(final int socketSendBufferSizeHint, final int socketReceiveBufferSizeHint)\n
     '''
 def withSocketBufferSizeHints():
-    '''public ClientConfiguration withSocketBufferSizeHints(final int socketSendBufferSizeHint, final int socketReceiveBufferSizeHint)
+    '''returns ClientConfiguration\n\n
+    withSocketBufferSizeHints(final int socketSendBufferSizeHint, final int socketReceiveBufferSizeHint)\n
     '''
 def getSignerOverride():
-    '''public String getSignerOverride()
+    '''returns String\n\n
+    getSignerOverride()\n
     '''
 def setSignerOverride():
-    '''public void setSignerOverride(final String value)
+    '''returns None\n\n
+    setSignerOverride(final String value)\n
     '''
 def withSignerOverride():
-    '''public ClientConfiguration withSignerOverride(final String value)
+    '''returns ClientConfiguration\n\n
+    withSignerOverride(final String value)\n
     '''
 def isPreemptiveBasicProxyAuth():
-    '''public boolean isPreemptiveBasicProxyAuth()
+    '''returns boolean\n\n
+    isPreemptiveBasicProxyAuth()\n
     '''
 def setPreemptiveBasicProxyAuth():
-    '''public void setPreemptiveBasicProxyAuth(final Boolean preemptiveBasicProxyAuth)
+    '''returns None\n\n
+    setPreemptiveBasicProxyAuth(final Boolean preemptiveBasicProxyAuth)\n
     '''
 def withPreemptiveBasicProxyAuth():
-    '''public ClientConfiguration withPreemptiveBasicProxyAuth(final boolean preemptiveBasicProxyAuth)
+    '''returns ClientConfiguration\n\n
+    withPreemptiveBasicProxyAuth(final boolean preemptiveBasicProxyAuth)\n
     '''
 def getConnectionTTL():
-    '''public long getConnectionTTL()
+    '''returns long\n\n
+    getConnectionTTL()\n
     '''
 def setConnectionTTL():
-    '''public void setConnectionTTL(final long connectionTTL)
+    '''returns None\n\n
+    setConnectionTTL(final long connectionTTL)\n
     '''
 def withConnectionTTL():
-    '''public ClientConfiguration withConnectionTTL(final long connectionTTL)
+    '''returns ClientConfiguration\n\n
+    withConnectionTTL(final long connectionTTL)\n
     '''
 def getConnectionMaxIdleMillis():
-    '''public long getConnectionMaxIdleMillis()
+    '''returns long\n\n
+    getConnectionMaxIdleMillis()\n
     '''
 def setConnectionMaxIdleMillis():
-    '''public void setConnectionMaxIdleMillis(final long connectionMaxIdleMillis)
+    '''returns None\n\n
+    setConnectionMaxIdleMillis(final long connectionMaxIdleMillis)\n
     '''
 def withConnectionMaxIdleMillis():
-    '''public ClientConfiguration withConnectionMaxIdleMillis(final long connectionMaxIdleMillis)
+    '''returns ClientConfiguration\n\n
+    withConnectionMaxIdleMillis(final long connectionMaxIdleMillis)\n
     '''
 def useTcpKeepAlive():
-    '''public boolean useTcpKeepAlive()
+    '''returns boolean\n\n
+    useTcpKeepAlive()\n
     '''
 def setUseTcpKeepAlive():
-    '''public void setUseTcpKeepAlive(final boolean use)
+    '''returns None\n\n
+    setUseTcpKeepAlive(final boolean use)\n
     '''
 def withTcpKeepAlive():
-    '''public ClientConfiguration withTcpKeepAlive(final boolean use)
+    '''returns ClientConfiguration\n\n
+    withTcpKeepAlive(final boolean use)\n
     '''
 def getDnsResolver():
-    '''public DnsResolver getDnsResolver()
+    '''returns DnsResolver\n\n
+    getDnsResolver()\n
     '''
 def setDnsResolver():
-    '''public void setDnsResolver(final DnsResolver resolver)
+    '''returns None\n\n
+    setDnsResolver(final DnsResolver resolver)\n
     '''
 def withDnsResolver():
-    '''public ClientConfiguration withDnsResolver(final DnsResolver resolver)
+    '''returns ClientConfiguration\n\n
+    withDnsResolver(final DnsResolver resolver)\n
     '''
 def getResponseMetadataCacheSize():
-    '''public int getResponseMetadataCacheSize()
+    '''returns int\n\n
+    getResponseMetadataCacheSize()\n
     '''
 def setResponseMetadataCacheSize():
-    '''public void setResponseMetadataCacheSize(final int responseMetadataCacheSize)
+    '''returns None\n\n
+    setResponseMetadataCacheSize(final int responseMetadataCacheSize)\n
     '''
 def withResponseMetadataCacheSize():
-    '''public ClientConfiguration withResponseMetadataCacheSize(final int responseMetadataCacheSize)
+    '''returns ClientConfiguration\n\n
+    withResponseMetadataCacheSize(final int responseMetadataCacheSize)\n
     '''
 def getApacheHttpClientConfig():
-    '''public ApacheHttpClientConfig getApacheHttpClientConfig()
+    '''returns ApacheHttpClientConfig\n\n
+    getApacheHttpClientConfig()\n
     '''
 def getSecureRandom():
-    '''public SecureRandom getSecureRandom()
+    '''returns SecureRandom\n\n
+    getSecureRandom()\n
     '''
 def setSecureRandom():
-    '''public void setSecureRandom(final SecureRandom secureRandom)
+    '''returns None\n\n
+    setSecureRandom(final SecureRandom secureRandom)\n
     '''
 def withSecureRandom():
-    '''public ClientConfiguration withSecureRandom(final SecureRandom secureRandom)
+    '''returns ClientConfiguration\n\n
+    withSecureRandom(final SecureRandom secureRandom)\n
     '''
 def isUseExpectContinue():
-    '''public boolean isUseExpectContinue()
+    '''returns boolean\n\n
+    isUseExpectContinue()\n
     '''
 def setUseExpectContinue():
-    '''public void setUseExpectContinue(final boolean useExpectContinue)
+    '''returns None\n\n
+    setUseExpectContinue(final boolean useExpectContinue)\n
     '''
 def withUseExpectContinue():
-    '''public ClientConfiguration withUseExpectContinue(final boolean useExpectContinue)
+    '''returns ClientConfiguration\n\n
+    withUseExpectContinue(final boolean useExpectContinue)\n
     '''

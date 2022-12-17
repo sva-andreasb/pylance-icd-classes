@@ -1,9 +1,11 @@
-def an():
-    '''public an(final at at)
-    public an(final at at, final int n)
-    public an()
-    public an(final an an)
+def ():
+    '''returns an\n\n
+    (final at at)\n
+    (final at at, final int n)\n
+    ()\n
+    (final an an)\n
     '''
 def a():
-    '''public void a(final au au)
+    '''returns None\n\n
+    a(final au au)\n
     '''

@@ -1,12 +1,12 @@
-def RequestMetadata():
-    '''public RequestMetadata(final ConfigResource resource, final Map<String, String> configs)
-    '''
-def configs():
-    '''public Map<String, String> configs()
+def ():
+    '''returns RequestMetadata\n\n
+    (final ConfigResource resource, final Map<String, String> configs)\n
     '''
 def resource():
-    '''public ConfigResource resource()
+    '''returns ConfigResource\n\n
+    resource()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

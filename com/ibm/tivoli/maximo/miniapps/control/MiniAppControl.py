@@ -1,106 +1,129 @@
 CLIENT_EVENT_TARGET_EVENT_NAME = "String  \"pushMiniAppClientEventHandler\""
-def MiniAppControl():
-    '''public MiniAppControl()
+def ():
+    '''returns MiniAppControl\n\n
+    ()\n
     '''
 def loadDesigner():
-    '''public void loadDesigner(final String id)
+    '''returns None\n\n
+    loadDesigner(final String id)\n
     '''
 def loadMiniAppResource():
-    '''public String loadMiniAppResource(final String path)
+    '''returns String\n\n
+    loadMiniAppResource(final String path)\n
     '''
 def loadCSS():
-    '''public String loadCSS()
+    '''returns String\n\n
+    loadCSS()\n
     '''
 def loadMiniAppConfig():
-    '''public String loadMiniAppConfig()
+    '''returns String\n\n
+    loadMiniAppConfig()\n
     '''
 def getPresentationOptions():
-    '''public JSONObject getPresentationOptions()
+    '''returns JSONObject\n\n
+    getPresentationOptions()\n
     '''
 def resolveExtraPaths():
-    '''public List<WebResource> resolveExtraPaths(final String servletBaseUrl, final String miniappBaseUrl)
+    '''returns List<WebResource>\n\n
+    resolveExtraPaths(final String servletBaseUrl, final String miniappBaseUrl)\n
     '''
 def event_fetch():
-    '''public int event_fetch()
+    '''returns int\n\n
+    event_fetch()\n
     '''
 def event_callbean():
-    '''public int event_callbean()
+    '''returns int\n\n
+    event_callbean()\n
     '''
 def event_show_message():
-    '''public int event_show_message()
+    '''returns int\n\n
+    event_show_message()\n
     '''
 def event_yes_no_cancel():
-    '''public int event_yes_no_cancel()
+    '''returns int\n\n
+    event_yes_no_cancel()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def setWebClientSession():
-    '''public void setWebClientSession(final WebClientSession wcs)
+    '''returns None\n\n
+    setWebClientSession(final WebClientSession wcs)\n
     '''
 def pushMiniAppClientEventHandler():
-    '''public int pushMiniAppClientEventHandler()
+    '''returns int\n\n
+    pushMiniAppClientEventHandler()\n
     '''
 def hasClientEvents():
-    '''public boolean hasClientEvents()
+    '''returns boolean\n\n
+    hasClientEvents()\n
     '''
 def getClientEvents():
-    '''public List<ClientEvent> getClientEvents()
-    '''
-def pushClientEvent():
-    '''public static WebClientEvent pushClientEvent(final WebClientSession clientSession, final String controlId, final String eventName, final String eventArgs)
-    '''
-def sendClientEvent():
-    '''public static WebClientEvent sendClientEvent(final WebClientSession clientSession, final String controlId, final String eventName, final String eventArgs)
+    '''returns List<ClientEvent>\n\n
+    getClientEvents()\n
     '''
 def instantiatedatasrc():
-    '''public void instantiatedatasrc()
+    '''returns None\n\n
+    instantiatedatasrc()\n
     '''
 def createDOMId():
-    '''public String createDOMId(final String appId, final String mainClass)
+    '''returns String\n\n
+    createDOMId(final String appId, final String mainClass)\n
     '''
 def isSizedToParent():
-    '''public boolean isSizedToParent()
+    '''returns boolean\n\n
+    isSizedToParent()\n
     '''
 def getSizeToParentId():
-    '''public String getSizeToParentId()
+    '''returns String\n\n
+    getSizeToParentId()\n
     '''
 def getSizeToParentIdForJS():
-    '''public String getSizeToParentIdForJS()
+    '''returns String\n\n
+    getSizeToParentIdForJS()\n
     '''
 def getMiniAppRootDir():
-    '''public String getMiniAppRootDir(final String servletPath, final String miniAppId)
+    '''returns String\n\n
+    getMiniAppRootDir(final String servletPath, final String miniAppId)\n
     '''
 def getMiniAppsDir():
-    '''public String getMiniAppsDir()
+    '''returns String\n\n
+    getMiniAppsDir()\n
     '''
 def getLastWebClientEventInstance():
-    '''public JSONObject getLastWebClientEventInstance()
-    '''
-def isInDevelopment():
-    '''public static boolean isInDevelopment()
+    '''returns JSONObject\n\n
+    getLastWebClientEventInstance()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def currentTabOp():
-    '''public void currentTabOp()
+    '''returns None\n\n
+    currentTabOp()\n
     '''
 def treeGridVisibility():
-    '''public void treeGridVisibility(final Tab currentTab)
+    '''returns None\n\n
+    treeGridVisibility(final Tab currentTab)\n
     '''
 def sendEventToTreeGrid():
-    '''public void sendEventToTreeGrid(final String eventId, final String eventArg)
+    '''returns None\n\n
+    sendEventToTreeGrid(final String eventId, final String eventArg)\n
     '''
 def isMiniAppVisible():
-    '''public boolean isMiniAppVisible()
+    '''returns boolean\n\n
+    isMiniAppVisible()\n
     '''
 def getCurrentTab():
-    '''public Tab getCurrentTab()
+    '''returns Tab\n\n
+    getCurrentTab()\n
     '''

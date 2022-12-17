@@ -1,24 +1,28 @@
-def MXUpgradeUtility():
-    '''public MXUpgradeUtility()
-    '''
-def getMaximoRoot():
-    '''public static String getMaximoRoot()
+def ():
+    '''returns MXUpgradeUtility\n\n
+    ()\n
     '''
 def setLogStream():
-    '''public void setLogStream(final PrintStream ps)
+    '''returns None\n\n
+    setLogStream(final PrintStream ps)\n
     '''
 def setUpdateScriptDocument():
-    '''public void setUpdateScriptDocument(final Document d)
+    '''returns None\n\n
+    setUpdateScriptDocument(final Document d)\n
     '''
 def setUpdateScriptElement():
-    '''public void setUpdateScriptElement(final Element e)
+    '''returns None\n\n
+    setUpdateScriptElement(final Element e)\n
     '''
 def setApplicationTagElement():
-    '''public void setApplicationTagElement(final Element e)
+    '''returns None\n\n
+    setApplicationTagElement(final Element e)\n
     '''
 def writeFormatedDocument():
-    '''public void writeFormatedDocument(final String filename, final Element e)
+    '''returns None\n\n
+    writeFormatedDocument(final String filename, final Element e)\n
     '''
 def parse():
-    '''public Document parse(final String filename)
+    '''returns Document\n\n
+    parse(final String filename)\n
     '''

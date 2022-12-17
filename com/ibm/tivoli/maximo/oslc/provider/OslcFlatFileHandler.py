@@ -1,15 +1,20 @@
-def OslcFlatFileHandler():
-    '''public OslcFlatFileHandler(final MboRemote mbo, final MboSetRemote mboSet)
+def ():
+    '''returns OslcFlatFileHandler\n\n
+    (final MboRemote mbo, final MboSetRemote mboSet)\n
     '''
 def setStablePaging():
-    '''public void setStablePaging(final boolean stablePaging)
+    '''returns None\n\n
+    setStablePaging(final boolean stablePaging)\n
     '''
 def setTotalCount():
-    '''public void setTotalCount(final int totCount)
+    '''returns None\n\n
+    setTotalCount(final int totCount)\n
     '''
 def setProgressIndicator():
-    '''public void setProgressIndicator(final long id)
+    '''returns None\n\n
+    setProgressIndicator(final long id)\n
     '''
 def handleRequest():
-    '''public OslcResourceResponse handleRequest(final String osName, final OslcRequest request)
+    '''returns OslcResourceResponse\n\n
+    handleRequest(final String osName, final OslcRequest request)\n
     '''

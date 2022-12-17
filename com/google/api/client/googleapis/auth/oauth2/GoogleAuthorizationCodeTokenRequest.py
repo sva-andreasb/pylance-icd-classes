@@ -1,31 +1,41 @@
-def GoogleAuthorizationCodeTokenRequest():
-    '''public GoogleAuthorizationCodeTokenRequest(final HttpTransport transport, final JsonFactory jsonFactory, final String clientId, final String clientSecret, final String code, final String redirectUri)
-    public GoogleAuthorizationCodeTokenRequest(final HttpTransport transport, final JsonFactory jsonFactory, final String tokenServerEncodedUrl, final String clientId, final String clientSecret, final String code, final String redirectUri)
+def ():
+    '''returns GoogleAuthorizationCodeTokenRequest\n\n
+    (final HttpTransport transport, final JsonFactory jsonFactory, final String clientId, final String clientSecret, final String code, final String redirectUri)\n
+    (final HttpTransport transport, final JsonFactory jsonFactory, final String tokenServerEncodedUrl, final String clientId, final String clientSecret, final String code, final String redirectUri)\n
     '''
 def setRequestInitializer():
-    '''public GoogleAuthorizationCodeTokenRequest setRequestInitializer(final HttpRequestInitializer requestInitializer)
+    '''returns GoogleAuthorizationCodeTokenRequest\n\n
+    setRequestInitializer(final HttpRequestInitializer requestInitializer)\n
     '''
 def setTokenServerUrl():
-    '''public GoogleAuthorizationCodeTokenRequest setTokenServerUrl(final GenericUrl tokenServerUrl)
+    '''returns GoogleAuthorizationCodeTokenRequest\n\n
+    setTokenServerUrl(final GenericUrl tokenServerUrl)\n
     '''
 def setScopes():
-    '''public GoogleAuthorizationCodeTokenRequest setScopes(final Collection<String> scopes)
+    '''returns GoogleAuthorizationCodeTokenRequest\n\n
+    setScopes(final Collection<String> scopes)\n
     '''
 def setGrantType():
-    '''public GoogleAuthorizationCodeTokenRequest setGrantType(final String grantType)
+    '''returns GoogleAuthorizationCodeTokenRequest\n\n
+    setGrantType(final String grantType)\n
     '''
 def setClientAuthentication():
-    '''public GoogleAuthorizationCodeTokenRequest setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
+    '''returns GoogleAuthorizationCodeTokenRequest\n\n
+    setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)\n
     '''
 def setCode():
-    '''public GoogleAuthorizationCodeTokenRequest setCode(final String code)
+    '''returns GoogleAuthorizationCodeTokenRequest\n\n
+    setCode(final String code)\n
     '''
 def setRedirectUri():
-    '''public GoogleAuthorizationCodeTokenRequest setRedirectUri(final String redirectUri)
+    '''returns GoogleAuthorizationCodeTokenRequest\n\n
+    setRedirectUri(final String redirectUri)\n
     '''
 def execute():
-    '''public GoogleTokenResponse execute()
+    '''returns GoogleTokenResponse\n\n
+    execute()\n
     '''
 def set():
-    '''public GoogleAuthorizationCodeTokenRequest set(final String fieldName, final Object value)
+    '''returns GoogleAuthorizationCodeTokenRequest\n\n
+    set(final String fieldName, final Object value)\n
     '''

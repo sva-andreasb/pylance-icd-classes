@@ -1,59 +1,76 @@
-def CharArrayBuffer():
-    '''public CharArrayBuffer(final int capacity)
+def ():
+    '''returns CharArrayBuffer\n\n
+    (final int capacity)\n
     '''
 def append():
-    '''public void append(final char[] b, final int off, final int len)
-    public void append(final String str)
-    public void append(final CharArrayBuffer b, final int off, final int len)
-    public void append(final CharArrayBuffer b)
-    public void append(final char ch)
-    public void append(final byte[] b, final int off, final int len)
-    public void append(final ByteArrayBuffer b, final int off, final int len)
-    public void append(final Object obj)
+    '''returns None\n\n
+    append(final char[] b, final int off, final int len)\n
+    append(final String str)\n
+    append(final CharArrayBuffer b, final int off, final int len)\n
+    append(final CharArrayBuffer b)\n
+    append(final char ch)\n
+    append(final byte[] b, final int off, final int len)\n
+    append(final ByteArrayBuffer b, final int off, final int len)\n
+    append(final Object obj)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def toCharArray():
-    '''public char[] toCharArray()
+    '''returns char[]\n\n
+    toCharArray()\n
     '''
 def charAt():
-    '''public char charAt(final int i)
+    '''returns char\n\n
+    charAt(final int i)\n
     '''
 def buffer():
-    '''public char[] buffer()
+    '''returns char[]\n\n
+    buffer()\n
     '''
 def capacity():
-    '''public int capacity()
+    '''returns int\n\n
+    capacity()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def ensureCapacity():
-    '''public void ensureCapacity(final int required)
+    '''returns None\n\n
+    ensureCapacity(final int required)\n
     '''
 def setLength():
-    '''public void setLength(final int len)
+    '''returns None\n\n
+    setLength(final int len)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def isFull():
-    '''public boolean isFull()
+    '''returns boolean\n\n
+    isFull()\n
     '''
 def indexOf():
-    '''public int indexOf(final int ch, final int from, final int to)
-    public int indexOf(final int ch)
+    '''returns int\n\n
+    indexOf(final int ch, final int from, final int to)\n
+    indexOf(final int ch)\n
     '''
 def substring():
-    '''public String substring(final int beginIndex, final int endIndex)
+    '''returns String\n\n
+    substring(final int beginIndex, final int endIndex)\n
     '''
 def substringTrimmed():
-    '''public String substringTrimmed(final int beginIndex, final int endIndex)
+    '''returns String\n\n
+    substringTrimmed(final int beginIndex, final int endIndex)\n
     '''
 def subSequence():
-    '''public CharSequence subSequence(final int beginIndex, final int endIndex)
+    '''returns CharSequence\n\n
+    subSequence(final int beginIndex, final int endIndex)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

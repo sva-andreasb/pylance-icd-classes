@@ -1,13 +1,10 @@
 PREFIX = "String  \"/\""
-def TzId():
-    '''public TzId(final String aValue)
-    '''
-def getValue():
-    '''public final String getValue()
-    '''
-def Factory():
-    '''public Factory()
+def ():
+    '''returns Factory\n\n
+    (final String aValue)\n
+    ()\n
     '''
 def createParameter():
-    '''public Parameter createParameter(final String value)
+    '''returns Parameter\n\n
+    createParameter(final String value)\n
     '''

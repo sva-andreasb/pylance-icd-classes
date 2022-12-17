@@ -1,6 +1,8 @@
-def AttributeDesc():
-    '''public AttributeDesc()
+def ():
+    '''returns AttributeDesc\n\n
+    ()\n
     '''
 def setAttributeName():
-    '''public void setAttributeName(final String name)
+    '''returns None\n\n
+    setAttributeName(final String name)\n
     '''

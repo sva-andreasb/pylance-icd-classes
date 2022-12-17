@@ -1,6 +1,8 @@
-def PmSrvFldTkSolution():
-    '''public PmSrvFldTkSolution(final MboValue mbv)
+def ():
+    '''returns PmSrvFldTkSolution\n\n
+    (final MboValue mbv)\n
     '''
 def getPreviousSavedValue():
-    '''public String getPreviousSavedValue()
+    '''returns String\n\n
+    getPreviousSavedValue()\n
     '''

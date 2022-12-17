@@ -1,17 +1,22 @@
-def ConditionTask():
-    '''public ConditionTask()
+def ():
+    '''returns ConditionTask\n\n
+    ()\n
     '''
 def setProperty():
-    '''public void setProperty(final String p)
+    '''returns None\n\n
+    setProperty(final String p)\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
-    public void setValue(final String v)
+    '''returns None\n\n
+    setValue(final Object value)\n
+    setValue(final String v)\n
     '''
 def setElse():
-    '''public void setElse(final Object alt)
-    public void setElse(final String e)
+    '''returns None\n\n
+    setElse(final Object alt)\n
+    setElse(final String e)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

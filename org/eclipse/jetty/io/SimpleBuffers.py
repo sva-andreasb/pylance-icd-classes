@@ -1,13 +1,17 @@
-def SimpleBuffers():
-    '''public SimpleBuffers(final Buffer header, final Buffer buffer)
+def ():
+    '''returns SimpleBuffers\n\n
+    (final Buffer header, final Buffer buffer)\n
     '''
 def getBuffer():
-    '''public Buffer getBuffer()
-    public Buffer getBuffer(final int size)
+    '''returns Buffer\n\n
+    getBuffer()\n
+    getBuffer(final int size)\n
     '''
 def getHeader():
-    '''public Buffer getHeader()
+    '''returns Buffer\n\n
+    getHeader()\n
     '''
 def returnBuffer():
-    '''public void returnBuffer(final Buffer buffer)
+    '''returns None\n\n
+    returnBuffer(final Buffer buffer)\n
     '''

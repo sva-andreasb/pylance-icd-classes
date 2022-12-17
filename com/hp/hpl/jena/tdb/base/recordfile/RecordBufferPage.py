@@ -1,22 +1,17 @@
 LINK = "int  4"
 def getLink():
-    '''public int getLink()
+    '''returns int\n\n
+    getLink()\n
     '''
 def setLink():
-    '''public void setLink(final int link)
-    '''
-def calcRecordSize():
-    '''public static int calcRecordSize(final RecordFactory factory, final int blkSize)
-    '''
-def calcBlockSize():
-    '''public static int calcBlockSize(final RecordFactory factory, final int maxRec)
-    '''
-def getPageMgr():
-    '''public final RecordBufferPageMgr getPageMgr()
+    '''returns None\n\n
+    setLink(final int link)\n
     '''
 def setPageMgr():
-    '''public void setPageMgr(final RecordBufferPageMgr recordBufferPageMgr)
+    '''returns None\n\n
+    setPageMgr(final RecordBufferPageMgr recordBufferPageMgr)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

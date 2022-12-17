@@ -1,9 +1,12 @@
-def CreateServRecSet():
-    '''public CreateServRecSet(final MboServerInterface ms)
+def ():
+    '''returns CreateServRecSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def executeOnSet():
-    '''public void executeOnSet(final MboSetRemote resultSet)
+    '''returns None\n\n
+    executeOnSet(final MboSetRemote resultSet)\n
     '''

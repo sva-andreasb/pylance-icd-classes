@@ -1,6 +1,8 @@
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def STATUSP():
-    '''public int STATUSP()
+    '''returns int\n\n
+    STATUSP()\n
     '''

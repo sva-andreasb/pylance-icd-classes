@@ -1,6 +1,8 @@
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def selectPredWos():
-    '''public int selectPredWos()
+    '''returns int\n\n
+    selectPredWos()\n
     '''

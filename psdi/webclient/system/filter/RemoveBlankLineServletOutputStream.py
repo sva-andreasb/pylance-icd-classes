@@ -1,8 +1,10 @@
-def RemoveBlankLineServletOutputStream():
-    '''public RemoveBlankLineServletOutputStream(final OutputStream output)
+def ():
+    '''returns RemoveBlankLineServletOutputStream\n\n
+    (final OutputStream output)\n
     '''
 def write():
-    '''public void write(final int b)
-    public void write(final byte[] b)
-    public void write(final byte[] b, final int off, final int len)
+    '''returns None\n\n
+    write(final int b)\n
+    write(final byte[] b)\n
+    write(final byte[] b, final int off, final int len)\n
     '''

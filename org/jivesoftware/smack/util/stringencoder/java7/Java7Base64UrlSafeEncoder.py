@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static Java7Base64UrlSafeEncoder getInstance()
-    '''
 def encode():
-    '''public String encode(final String s)
+    '''returns String\n\n
+    encode(final String s)\n
     '''
 def decode():
-    '''public String decode(final String s)
+    '''returns String\n\n
+    decode(final String s)\n
     '''

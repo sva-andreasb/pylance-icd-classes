@@ -1,7 +1,9 @@
 def set():
-    '''public void set(final int tenantID, final E obj)
-    public void set(final E obj)
+    '''returns None\n\n
+    set(final int tenantID, final E obj)\n
+    set(final E obj)\n
     '''
 def get():
-    '''public E get()
+    '''returns E\n\n
+    get()\n
     '''

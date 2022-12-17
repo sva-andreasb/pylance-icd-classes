@@ -1,6 +1,8 @@
-def DERNull():
-    '''public DERNull()
+def ():
+    '''returns DERNull\n\n
+    ()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

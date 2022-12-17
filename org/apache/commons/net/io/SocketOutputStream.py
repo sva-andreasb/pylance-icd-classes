@@ -1,9 +1,12 @@
-def SocketOutputStream():
-    '''public SocketOutputStream(final Socket socket, final OutputStream stream)
+def ():
+    '''returns SocketOutputStream\n\n
+    (final Socket socket, final OutputStream stream)\n
     '''
 def write():
-    '''public void write(final byte[] buffer, final int offset, final int length)
+    '''returns None\n\n
+    write(final byte[] buffer, final int offset, final int length)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

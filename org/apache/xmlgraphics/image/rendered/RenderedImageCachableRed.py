@@ -1,76 +1,97 @@
-def wrap():
-    '''public static CachableRed wrap(final RenderedImage ri)
-    '''
-def RenderedImageCachableRed():
-    '''public RenderedImageCachableRed(final RenderedImage src)
+def ():
+    '''returns RenderedImageCachableRed\n\n
+    (final RenderedImage src)\n
     '''
 def getSources():
-    '''public Vector getSources()
+    '''returns Vector\n\n
+    getSources()\n
     '''
 def getBounds():
-    '''public Rectangle getBounds()
+    '''returns Rectangle\n\n
+    getBounds()\n
     '''
 def getMinX():
-    '''public int getMinX()
+    '''returns int\n\n
+    getMinX()\n
     '''
 def getMinY():
-    '''public int getMinY()
+    '''returns int\n\n
+    getMinY()\n
     '''
 def getWidth():
-    '''public int getWidth()
+    '''returns int\n\n
+    getWidth()\n
     '''
 def getHeight():
-    '''public int getHeight()
+    '''returns int\n\n
+    getHeight()\n
     '''
 def getColorModel():
-    '''public ColorModel getColorModel()
+    '''returns ColorModel\n\n
+    getColorModel()\n
     '''
 def getSampleModel():
-    '''public SampleModel getSampleModel()
+    '''returns SampleModel\n\n
+    getSampleModel()\n
     '''
 def getMinTileX():
-    '''public int getMinTileX()
+    '''returns int\n\n
+    getMinTileX()\n
     '''
 def getMinTileY():
-    '''public int getMinTileY()
+    '''returns int\n\n
+    getMinTileY()\n
     '''
 def getNumXTiles():
-    '''public int getNumXTiles()
+    '''returns int\n\n
+    getNumXTiles()\n
     '''
 def getNumYTiles():
-    '''public int getNumYTiles()
+    '''returns int\n\n
+    getNumYTiles()\n
     '''
 def getTileGridXOffset():
-    '''public int getTileGridXOffset()
+    '''returns int\n\n
+    getTileGridXOffset()\n
     '''
 def getTileGridYOffset():
-    '''public int getTileGridYOffset()
+    '''returns int\n\n
+    getTileGridYOffset()\n
     '''
 def getTileWidth():
-    '''public int getTileWidth()
+    '''returns int\n\n
+    getTileWidth()\n
     '''
 def getTileHeight():
-    '''public int getTileHeight()
+    '''returns int\n\n
+    getTileHeight()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String name)
+    '''returns Object\n\n
+    getProperty(final String name)\n
     '''
 def getPropertyNames():
-    '''public String[] getPropertyNames()
+    '''returns String[]\n\n
+    getPropertyNames()\n
     '''
 def getTile():
-    '''public Raster getTile(final int tileX, final int tileY)
+    '''returns Raster\n\n
+    getTile(final int tileX, final int tileY)\n
     '''
 def copyData():
-    '''public WritableRaster copyData(final WritableRaster raster)
+    '''returns WritableRaster\n\n
+    copyData(final WritableRaster raster)\n
     '''
 def getData():
-    '''public Raster getData()
-    public Raster getData(final Rectangle rect)
+    '''returns Raster\n\n
+    getData()\n
+    getData(final Rectangle rect)\n
     '''
 def getDependencyRegion():
-    '''public Shape getDependencyRegion(final int srcIndex, final Rectangle outputRgn)
+    '''returns Shape\n\n
+    getDependencyRegion(final int srcIndex, final Rectangle outputRgn)\n
     '''
 def getDirtyRegion():
-    '''public Shape getDirtyRegion(final int srcIndex, final Rectangle inputRgn)
+    '''returns Shape\n\n
+    getDirtyRegion(final int srcIndex, final Rectangle inputRgn)\n
     '''

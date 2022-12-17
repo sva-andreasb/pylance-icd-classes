@@ -1,13 +1,17 @@
-def RuleBasedNormalizer():
-    '''public RuleBasedNormalizer(final CharacterBufferPool characterBufferPool, final Pool pool, final Pool pool2)
-    public RuleBasedNormalizer(final CharacterBufferPool characterBufferPool)
+def ():
+    '''returns RuleBasedNormalizer\n\n
+    (final CharacterBufferPool characterBufferPool, final Pool pool, final Pool pool2)\n
+    (final CharacterBufferPool characterBufferPool)\n
     '''
 def assignIncrements():
-    '''public void assignIncrements()
+    '''returns None\n\n
+    assignIncrements()\n
     '''
 def assignOperations():
-    '''public void assignOperations(final AppmWalkerOptions appmWalkerOptions)
+    '''returns None\n\n
+    assignOperations(final AppmWalkerOptions appmWalkerOptions)\n
     '''
 def getTolerance():
-    '''public int getTolerance(final int n)
+    '''returns int\n\n
+    getTolerance(final int n)\n
     '''

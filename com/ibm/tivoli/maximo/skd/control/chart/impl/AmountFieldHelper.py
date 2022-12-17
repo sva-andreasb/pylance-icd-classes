@@ -1,6 +1,8 @@
 def getLabel():
-    '''public String getLabel(final MboSetRemote ms, final MboRemote mbo, final String field)
+    '''returns String\n\n
+    getLabel(final MboSetRemote ms, final MboRemote mbo, final String field)\n
     '''
 def getNumber():
-    '''public Number getNumber(final MboSetRemote ms, final MboRemote mbo, final String field)
+    '''returns Number\n\n
+    getNumber(final MboSetRemote ms, final MboRemote mbo, final String field)\n
     '''

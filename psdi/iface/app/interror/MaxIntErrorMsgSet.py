@@ -1,6 +1,8 @@
-def MaxIntErrorMsgSet():
-    '''public MaxIntErrorMsgSet(final MboServerInterface ms)
+def ():
+    '''returns MaxIntErrorMsgSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

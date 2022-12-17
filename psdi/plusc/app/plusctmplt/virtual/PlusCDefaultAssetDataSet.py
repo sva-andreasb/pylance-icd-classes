@@ -1,3 +1,4 @@
-def PlusCDefaultAssetDataSet():
-    '''public PlusCDefaultAssetDataSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCDefaultAssetDataSet\n\n
+    (final MboServerInterface ms)\n
     '''

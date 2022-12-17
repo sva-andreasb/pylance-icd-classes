@@ -1,6 +1,8 @@
-def FldVMAXSpeed():
-    '''public FldVMAXSpeed(final MboValue mbv)
+def ():
+    '''returns FldVMAXSpeed\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

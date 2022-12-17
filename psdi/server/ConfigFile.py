@@ -1,4 +1,5 @@
-def ConfigFile():
-    '''public ConfigFile()
-    public ConfigFile(final String propFileName)
+def ():
+    '''returns ConfigFile\n\n
+    ()\n
+    (final String propFileName)\n
     '''

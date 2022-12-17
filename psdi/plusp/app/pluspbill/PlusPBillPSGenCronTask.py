@@ -1,6 +1,8 @@
-def PlusPBillPSGenCronTask():
-    '''public PlusPBillPSGenCronTask()
+def ():
+    '''returns PlusPBillPSGenCronTask\n\n
+    ()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''

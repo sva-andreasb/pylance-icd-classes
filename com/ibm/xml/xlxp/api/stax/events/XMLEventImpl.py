@@ -1,81 +1,34 @@
-def XMLEventImpl():
-    '''public XMLEventImpl(final int n)
-    public XMLEventImpl(final int fEventType, final Location location)
-    '''
-def getEventType():
-    '''public final int getEventType()
-    '''
-def getLocation():
-    '''public final Location getLocation()
-    '''
-def isStartElement():
-    '''public final boolean isStartElement()
-    '''
-def isAttribute():
-    '''public final boolean isAttribute()
-    '''
-def isNamespace():
-    '''public final boolean isNamespace()
-    '''
-def isEndElement():
-    '''public final boolean isEndElement()
-    '''
-def isEntityReference():
-    '''public final boolean isEntityReference()
-    '''
-def isProcessingInstruction():
-    '''public final boolean isProcessingInstruction()
-    '''
-def isCharacters():
-    '''public final boolean isCharacters()
-    '''
-def isCData():
-    '''public final boolean isCData()
-    '''
-def isIgnorableWhiteSpace():
-    '''public final boolean isIgnorableWhiteSpace()
-    '''
-def isStartDocument():
-    '''public final boolean isStartDocument()
-    '''
-def isEndDocument():
-    '''public final boolean isEndDocument()
-    '''
-def asStartElement():
-    '''public final StartElement asStartElement()
-    '''
-def asEndElement():
-    '''public final EndElement asEndElement()
-    '''
-def asCharacters():
-    '''public final Characters asCharacters()
-    '''
-def getSchemaType():
-    '''public final QName getSchemaType()
-    '''
-def escape():
-    '''public static String escape(final String s, final int n)
+def ():
+    '''returns XMLEventImpl\n\n
+    (final int n)\n
+    (final int fEventType, final Location location)\n
     '''
 def writeAsEncodedUnicode():
-    '''public void writeAsEncodedUnicode(final XMLStreamWriter xmlStreamWriter)
+    '''returns None\n\n
+    writeAsEncodedUnicode(final XMLStreamWriter xmlStreamWriter)\n
     '''
 def getLineNumber():
-    '''public int getLineNumber()
-    public int getLineNumber()
+    '''returns int\n\n
+    getLineNumber()\n
+    getLineNumber()\n
     '''
 def getColumnNumber():
-    '''public int getColumnNumber()
-    public int getColumnNumber()
+    '''returns int\n\n
+    getColumnNumber()\n
+    getColumnNumber()\n
     '''
 def getCharacterOffset():
-    '''public int getCharacterOffset()
-    public int getCharacterOffset()
+    '''returns int\n\n
+    getCharacterOffset()\n
+    getCharacterOffset()\n
     '''
 def getPublicId():
-    '''public String getPublicId()
-    public String getPublicId()
+    '''returns String\n\n
+    getPublicId()\n
+    getPublicId()\n
     '''
 def getSystemId():
-    '''public String getSystemId()
-    public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
+    getSystemId()\n
     '''

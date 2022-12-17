@@ -1,23 +1,30 @@
 def shutdown():
-    '''public void shutdown(final String fqcn, final ClassLoader loader, final boolean currentContext, final boolean allContexts)
+    '''returns None\n\n
+    shutdown(final String fqcn, final ClassLoader loader, final boolean currentContext, final boolean allContexts)\n
     '''
 def contextShutdown():
-    '''public void contextShutdown(final org.apache.logging.log4j.spi.LoggerContext loggerContext)
+    '''returns None\n\n
+    contextShutdown(final org.apache.logging.log4j.spi.LoggerContext loggerContext)\n
     '''
 def hasContext():
-    '''public boolean hasContext(final String fqcn, final ClassLoader loader, final boolean currentContext)
+    '''returns boolean\n\n
+    hasContext(final String fqcn, final ClassLoader loader, final boolean currentContext)\n
     '''
 def getContext():
-    '''public LoggerContext getContext(final String fqcn, final ClassLoader loader, final boolean currentContext)
-    public LoggerContext getContext(final String fqcn, final ClassLoader loader, final boolean currentContext, final URI configLocation)
-    public LoggerContext getContext(final String fqcn, final ClassLoader loader, final Map.Entry<String, Object> entry, final boolean currentContext, final URI configLocation)
+    '''returns LoggerContext\n\n
+    getContext(final String fqcn, final ClassLoader loader, final boolean currentContext)\n
+    getContext(final String fqcn, final ClassLoader loader, final boolean currentContext, final URI configLocation)\n
+    getContext(final String fqcn, final ClassLoader loader, final Map.Entry<String, Object> entry, final boolean currentContext, final URI configLocation)\n
     '''
 def removeContext():
-    '''public void removeContext(final LoggerContext context)
+    '''returns None\n\n
+    removeContext(final LoggerContext context)\n
     '''
 def isClassLoaderDependent():
-    '''public boolean isClassLoaderDependent()
+    '''returns boolean\n\n
+    isClassLoaderDependent()\n
     '''
 def getLoggerContexts():
-    '''public List<LoggerContext> getLoggerContexts()
+    '''returns List<LoggerContext>\n\n
+    getLoggerContexts()\n
     '''

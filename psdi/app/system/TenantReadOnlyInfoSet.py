@@ -1,3 +1,4 @@
-def TenantReadOnlyInfoSet():
-    '''public TenantReadOnlyInfoSet(final MboServerInterface ms)
+def ():
+    '''returns TenantReadOnlyInfoSet\n\n
+    (final MboServerInterface ms)\n
     '''

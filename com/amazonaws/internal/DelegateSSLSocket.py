@@ -1,178 +1,237 @@
-def DelegateSSLSocket():
-    '''public DelegateSSLSocket(final SSLSocket sock)
+def ():
+    '''returns DelegateSSLSocket\n\n
+    (final SSLSocket sock)\n
     '''
 def connect():
-    '''public void connect(final SocketAddress endpoint)
-    public void connect(final SocketAddress endpoint, final int timeout)
+    '''returns None\n\n
+    connect(final SocketAddress endpoint)\n
+    connect(final SocketAddress endpoint, final int timeout)\n
     '''
 def bind():
-    '''public void bind(final SocketAddress bindpoint)
+    '''returns None\n\n
+    bind(final SocketAddress bindpoint)\n
     '''
 def getInetAddress():
-    '''public InetAddress getInetAddress()
+    '''returns InetAddress\n\n
+    getInetAddress()\n
     '''
 def getLocalAddress():
-    '''public InetAddress getLocalAddress()
+    '''returns InetAddress\n\n
+    getLocalAddress()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getLocalPort():
-    '''public int getLocalPort()
+    '''returns int\n\n
+    getLocalPort()\n
     '''
 def getRemoteSocketAddress():
-    '''public SocketAddress getRemoteSocketAddress()
+    '''returns SocketAddress\n\n
+    getRemoteSocketAddress()\n
     '''
 def getLocalSocketAddress():
-    '''public SocketAddress getLocalSocketAddress()
+    '''returns SocketAddress\n\n
+    getLocalSocketAddress()\n
     '''
 def getChannel():
-    '''public SocketChannel getChannel()
+    '''returns SocketChannel\n\n
+    getChannel()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def setTcpNoDelay():
-    '''public void setTcpNoDelay(final boolean on)
+    '''returns None\n\n
+    setTcpNoDelay(final boolean on)\n
     '''
 def getTcpNoDelay():
-    '''public boolean getTcpNoDelay()
+    '''returns boolean\n\n
+    getTcpNoDelay()\n
     '''
 def setSoLinger():
-    '''public void setSoLinger(final boolean on, final int linger)
+    '''returns None\n\n
+    setSoLinger(final boolean on, final int linger)\n
     '''
 def getSoLinger():
-    '''public int getSoLinger()
+    '''returns int\n\n
+    getSoLinger()\n
     '''
 def sendUrgentData():
-    '''public void sendUrgentData(final int data)
+    '''returns None\n\n
+    sendUrgentData(final int data)\n
     '''
 def setOOBInline():
-    '''public void setOOBInline(final boolean on)
+    '''returns None\n\n
+    setOOBInline(final boolean on)\n
     '''
 def getOOBInline():
-    '''public boolean getOOBInline()
+    '''returns boolean\n\n
+    getOOBInline()\n
     '''
 def setSoTimeout():
-    '''public void setSoTimeout(final int timeout)
+    '''returns None\n\n
+    setSoTimeout(final int timeout)\n
     '''
 def getSoTimeout():
-    '''public int getSoTimeout()
+    '''returns int\n\n
+    getSoTimeout()\n
     '''
 def setSendBufferSize():
-    '''public void setSendBufferSize(final int size)
+    '''returns None\n\n
+    setSendBufferSize(final int size)\n
     '''
 def getSendBufferSize():
-    '''public int getSendBufferSize()
+    '''returns int\n\n
+    getSendBufferSize()\n
     '''
 def setReceiveBufferSize():
-    '''public void setReceiveBufferSize(final int size)
+    '''returns None\n\n
+    setReceiveBufferSize(final int size)\n
     '''
 def getReceiveBufferSize():
-    '''public int getReceiveBufferSize()
+    '''returns int\n\n
+    getReceiveBufferSize()\n
     '''
 def setKeepAlive():
-    '''public void setKeepAlive(final boolean on)
+    '''returns None\n\n
+    setKeepAlive(final boolean on)\n
     '''
 def getKeepAlive():
-    '''public boolean getKeepAlive()
+    '''returns boolean\n\n
+    getKeepAlive()\n
     '''
 def setTrafficClass():
-    '''public void setTrafficClass(final int tc)
+    '''returns None\n\n
+    setTrafficClass(final int tc)\n
     '''
 def getTrafficClass():
-    '''public int getTrafficClass()
+    '''returns int\n\n
+    getTrafficClass()\n
     '''
 def setReuseAddress():
-    '''public void setReuseAddress(final boolean on)
+    '''returns None\n\n
+    setReuseAddress(final boolean on)\n
     '''
 def getReuseAddress():
-    '''public boolean getReuseAddress()
+    '''returns boolean\n\n
+    getReuseAddress()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def shutdownInput():
-    '''public void shutdownInput()
+    '''returns None\n\n
+    shutdownInput()\n
     '''
 def shutdownOutput():
-    '''public void shutdownOutput()
+    '''returns None\n\n
+    shutdownOutput()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def isBound():
-    '''public boolean isBound()
+    '''returns boolean\n\n
+    isBound()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def isInputShutdown():
-    '''public boolean isInputShutdown()
+    '''returns boolean\n\n
+    isInputShutdown()\n
     '''
 def isOutputShutdown():
-    '''public boolean isOutputShutdown()
+    '''returns boolean\n\n
+    isOutputShutdown()\n
     '''
 def setPerformancePreferences():
-    '''public void setPerformancePreferences(final int connectionTime, final int latency, final int bandwidth)
+    '''returns None\n\n
+    setPerformancePreferences(final int connectionTime, final int latency, final int bandwidth)\n
     '''
 def getSupportedCipherSuites():
-    '''public String[] getSupportedCipherSuites()
+    '''returns String[]\n\n
+    getSupportedCipherSuites()\n
     '''
 def getEnabledCipherSuites():
-    '''public String[] getEnabledCipherSuites()
+    '''returns String[]\n\n
+    getEnabledCipherSuites()\n
     '''
 def setEnabledCipherSuites():
-    '''public void setEnabledCipherSuites(final String[] suites)
+    '''returns None\n\n
+    setEnabledCipherSuites(final String[] suites)\n
     '''
 def getSupportedProtocols():
-    '''public String[] getSupportedProtocols()
+    '''returns String[]\n\n
+    getSupportedProtocols()\n
     '''
 def getEnabledProtocols():
-    '''public String[] getEnabledProtocols()
+    '''returns String[]\n\n
+    getEnabledProtocols()\n
     '''
 def setEnabledProtocols():
-    '''public void setEnabledProtocols(final String[] protocols)
+    '''returns None\n\n
+    setEnabledProtocols(final String[] protocols)\n
     '''
 def getSession():
-    '''public SSLSession getSession()
+    '''returns SSLSession\n\n
+    getSession()\n
     '''
 def addHandshakeCompletedListener():
-    '''public void addHandshakeCompletedListener(final HandshakeCompletedListener listener)
+    '''returns None\n\n
+    addHandshakeCompletedListener(final HandshakeCompletedListener listener)\n
     '''
 def removeHandshakeCompletedListener():
-    '''public void removeHandshakeCompletedListener(final HandshakeCompletedListener listener)
+    '''returns None\n\n
+    removeHandshakeCompletedListener(final HandshakeCompletedListener listener)\n
     '''
 def startHandshake():
-    '''public void startHandshake()
+    '''returns None\n\n
+    startHandshake()\n
     '''
 def setUseClientMode():
-    '''public void setUseClientMode(final boolean mode)
+    '''returns None\n\n
+    setUseClientMode(final boolean mode)\n
     '''
 def getUseClientMode():
-    '''public boolean getUseClientMode()
+    '''returns boolean\n\n
+    getUseClientMode()\n
     '''
 def setNeedClientAuth():
-    '''public void setNeedClientAuth(final boolean need)
+    '''returns None\n\n
+    setNeedClientAuth(final boolean need)\n
     '''
 def getNeedClientAuth():
-    '''public boolean getNeedClientAuth()
+    '''returns boolean\n\n
+    getNeedClientAuth()\n
     '''
 def setWantClientAuth():
-    '''public void setWantClientAuth(final boolean want)
+    '''returns None\n\n
+    setWantClientAuth(final boolean want)\n
     '''
 def getWantClientAuth():
-    '''public boolean getWantClientAuth()
+    '''returns boolean\n\n
+    getWantClientAuth()\n
     '''
 def setEnableSessionCreation():
-    '''public void setEnableSessionCreation(final boolean flag)
+    '''returns None\n\n
+    setEnableSessionCreation(final boolean flag)\n
     '''
 def getEnableSessionCreation():
-    '''public boolean getEnableSessionCreation()
+    '''returns boolean\n\n
+    getEnableSessionCreation()\n
     '''

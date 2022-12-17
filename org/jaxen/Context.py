@@ -1,42 +1,56 @@
-def Context():
-    '''public Context(final ContextSupport contextSupport)
+def ():
+    '''returns Context\n\n
+    (final ContextSupport contextSupport)\n
     '''
 def setNodeSet():
-    '''public void setNodeSet(final List nodeSet)
+    '''returns None\n\n
+    setNodeSet(final List nodeSet)\n
     '''
 def getNodeSet():
-    '''public List getNodeSet()
+    '''returns List\n\n
+    getNodeSet()\n
     '''
 def setContextSupport():
-    '''public void setContextSupport(final ContextSupport contextSupport)
+    '''returns None\n\n
+    setContextSupport(final ContextSupport contextSupport)\n
     '''
 def getContextSupport():
-    '''public ContextSupport getContextSupport()
+    '''returns ContextSupport\n\n
+    getContextSupport()\n
     '''
 def getNavigator():
-    '''public Navigator getNavigator()
+    '''returns Navigator\n\n
+    getNavigator()\n
     '''
 def translateNamespacePrefixToUri():
-    '''public String translateNamespacePrefixToUri(final String prefix)
+    '''returns String\n\n
+    translateNamespacePrefixToUri(final String prefix)\n
     '''
 def getVariableValue():
-    '''public Object getVariableValue(final String namespaceURI, final String prefix, final String localName)
+    '''returns Object\n\n
+    getVariableValue(final String namespaceURI, final String prefix, final String localName)\n
     '''
 def getFunction():
-    '''public Function getFunction(final String namespaceURI, final String prefix, final String localName)
+    '''returns Function\n\n
+    getFunction(final String namespaceURI, final String prefix, final String localName)\n
     '''
 def setSize():
-    '''public void setSize(final int size)
+    '''returns None\n\n
+    setSize(final int size)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def setPosition():
-    '''public void setPosition(final int position)
+    '''returns None\n\n
+    setPosition(final int position)\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def duplicate():
-    '''public Context duplicate()
+    '''returns Context\n\n
+    duplicate()\n
     '''

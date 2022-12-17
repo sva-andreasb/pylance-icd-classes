@@ -1,3 +1,4 @@
-def FrGrammarFeatureExtractor():
-    '''public FrGrammarFeatureExtractor()
+def ():
+    '''returns FrGrammarFeatureExtractor\n\n
+    ()\n
     '''

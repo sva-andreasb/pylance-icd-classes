@@ -1,24 +1,32 @@
-def LoaderProduct():
-    '''public LoaderProduct(final ModelLoaderBase loader)
+def ():
+    '''returns LoaderProduct\n\n
+    (final ModelLoaderBase loader)\n
     '''
 def canProcessItem():
-    '''public boolean canProcessItem(final ItemTYPE attrib)
+    '''returns boolean\n\n
+    canProcessItem(final ItemTYPE attrib)\n
     '''
 def matchItem():
-    '''public MboRemote matchItem(final ItemTYPE type, final MboSetRemote typeSet)
+    '''returns MboRemote\n\n
+    matchItem(final ItemTYPE type, final MboSetRemote typeSet)\n
     '''
 def update():
-    '''public void update(final MboRemote mbo, final ItemTYPE type)
+    '''returns None\n\n
+    update(final MboRemote mbo, final ItemTYPE type)\n
     '''
 def addAttributeValues():
-    '''public int addAttributeValues(final MboRemote productMbo, final ItemTYPE product)
+    '''returns int\n\n
+    addAttributeValues(final MboRemote productMbo, final ItemTYPE product)\n
     '''
 def addItemMaster():
-    '''public MboRemote addItemMaster(final ItemTYPE product)
+    '''returns MboRemote\n\n
+    addItemMaster(final ItemTYPE product)\n
     '''
 def addVendorToItem():
-    '''public boolean addVendorToItem(final MboRemote itemMbo, final ItemTYPE product)
+    '''returns boolean\n\n
+    addVendorToItem(final MboRemote itemMbo, final ItemTYPE product)\n
     '''
 def findMatchingDesignSpecById():
-    '''public boolean findMatchingDesignSpecById(final MboRemote mboProduct, final ItemTYPE type)
+    '''returns boolean\n\n
+    findMatchingDesignSpecById(final MboRemote mboProduct, final ItemTYPE type)\n
     '''

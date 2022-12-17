@@ -1,6 +1,8 @@
-def PropfindExchange():
-    '''public PropfindExchange()
+def ():
+    '''returns PropfindExchange\n\n
+    ()\n
     '''
 def exists():
-    '''public boolean exists()
+    '''returns boolean\n\n
+    exists()\n
     '''

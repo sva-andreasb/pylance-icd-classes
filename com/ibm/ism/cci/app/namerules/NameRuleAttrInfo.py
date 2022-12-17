@@ -1,36 +1,40 @@
-def isNull():
-    '''public static boolean isNull(final String t)
-    '''
-def specExists():
-    '''public static boolean specExists(final String t)
-    '''
-def NameRuleAttrInfo():
-    '''public NameRuleAttrInfo(final NmrAttr nmrAttr, final String nmrNum, final NameRuleInfo _parent)
+def ():
+    '''returns NameRuleAttrInfo\n\n
+    (final NmrAttr nmrAttr, final String nmrNum, final NameRuleInfo _parent)\n
     '''
 def getNmrNum():
-    '''public String getNmrNum()
+    '''returns String\n\n
+    getNmrNum()\n
     '''
 def setNmrNum():
-    '''public void setNmrNum(final String nmrNum)
+    '''returns None\n\n
+    setNmrNum(final String nmrNum)\n
     '''
 def isAttr():
-    '''public boolean isAttr()
+    '''returns boolean\n\n
+    isAttr()\n
     '''
 def getAttrId():
-    '''public String getAttrId()
+    '''returns String\n\n
+    getAttrId()\n
     '''
 def getRelationNum():
-    '''public String getRelationNum()
+    '''returns String\n\n
+    getRelationNum()\n
     '''
 def getRelationGroupMapping():
-    '''public String getRelationGroupMapping()
+    '''returns String\n\n
+    getRelationGroupMapping()\n
     '''
 def getUserClassName():
-    '''public String getUserClassName()
+    '''returns String\n\n
+    getUserClassName()\n
     '''
 def getUserClassArgument():
-    '''public String getUserClassArgument()
+    '''returns String\n\n
+    getUserClassArgument()\n
     '''
 def matches():
-    '''public boolean matches(final String attr, final String link)
+    '''returns boolean\n\n
+    matches(final String attr, final String link)\n
     '''

@@ -1,7 +1,9 @@
-def RequestTransformer():
-    '''public RequestTransformer(final UidGenerator uidGenerator)
-    public RequestTransformer(final Organizer organizer, final UidGenerator uidGenerator)
+def ():
+    '''returns RequestTransformer\n\n
+    (final UidGenerator uidGenerator)\n
+    (final Organizer organizer, final UidGenerator uidGenerator)\n
     '''
 def transform():
-    '''public Calendar transform(final Calendar object)
+    '''returns Calendar\n\n
+    transform(final Calendar object)\n
     '''

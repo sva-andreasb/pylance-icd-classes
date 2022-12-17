@@ -4,31 +4,40 @@ PREEMPTIVE_AUTHENTICATION = "String  \"http.authentication.preemptive\""
 REJECT_RELATIVE_REDIRECT = "String  \"http.protocol.reject-relative-redirect\""
 MAX_REDIRECTS = "String  \"http.protocol.max-redirects\""
 ALLOW_CIRCULAR_REDIRECTS = "String  \"http.protocol.allow-circular-redirects\""
-def HttpClientParams():
-    '''public HttpClientParams()
-    public HttpClientParams(final HttpParams defaults)
+def ():
+    '''returns HttpClientParams\n\n
+    ()\n
+    (final HttpParams defaults)\n
     '''
 def getConnectionManagerTimeout():
-    '''public long getConnectionManagerTimeout()
+    '''returns long\n\n
+    getConnectionManagerTimeout()\n
     '''
 def setConnectionManagerTimeout():
-    '''public void setConnectionManagerTimeout(final long timeout)
+    '''returns None\n\n
+    setConnectionManagerTimeout(final long timeout)\n
     '''
 def getConnectionManagerClass():
-    '''public Class getConnectionManagerClass()
+    '''returns Class\n\n
+    getConnectionManagerClass()\n
     '''
 def setConnectionManagerClass():
-    '''public void setConnectionManagerClass(final Class clazz)
+    '''returns None\n\n
+    setConnectionManagerClass(final Class clazz)\n
     '''
 def isAuthenticationPreemptive():
-    '''public boolean isAuthenticationPreemptive()
+    '''returns boolean\n\n
+    isAuthenticationPreemptive()\n
     '''
 def setAuthenticationPreemptive():
-    '''public void setAuthenticationPreemptive(final boolean value)
+    '''returns None\n\n
+    setAuthenticationPreemptive(final boolean value)\n
     '''
 def makeStrict():
-    '''public void makeStrict()
+    '''returns None\n\n
+    makeStrict()\n
     '''
 def makeLenient():
-    '''public void makeLenient()
+    '''returns None\n\n
+    makeLenient()\n
     '''

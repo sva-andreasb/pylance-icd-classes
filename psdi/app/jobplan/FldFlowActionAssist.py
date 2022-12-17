@@ -1,3 +1,4 @@
-def FldFlowActionAssist():
-    '''public FldFlowActionAssist(final MboValue mbv)
+def ():
+    '''returns FldFlowActionAssist\n\n
+    (final MboValue mbv)\n
     '''

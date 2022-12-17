@@ -1,33 +1,37 @@
-def ILogGanttModelToTreeGridUIBuilder():
-    '''public ILogGanttModelToTreeGridUIBuilder(final UserInfo userInfo, final ISKDUIInfo skduiInfo, final WebClientSession sess)
+def ():
+    '''returns InternalField\n\n
+    (final UserInfo userInfo, final ISKDUIInfo skduiInfo, final WebClientSession sess)\n
+    (final String id, final int maxType)\n
     '''
 def getTreeGridUI():
-    '''public JSONObject getTreeGridUI(final Future<MXGanttModel> modelFuture, final UIOptions options, final BaseTreeGridMiniAppBean bean)
-    '''
-def columnIndexOf():
-    '''public static int columnIndexOf(final List<IMXGanttPropertyInfo> columns, final String name)
+    '''returns JSONObject\n\n
+    getTreeGridUI(final Future<MXGanttModel> modelFuture, final UIOptions options, final BaseTreeGridMiniAppBean bean)\n
     '''
 def addInternalColumns():
-    '''public void addInternalColumns(final JSONArray Cols, final List<IMXGanttPropertyInfo> columns)
+    '''returns None\n\n
+    addInternalColumns(final JSONArray Cols, final List<IMXGanttPropertyInfo> columns)\n
     '''
 def addAdditionalColumns():
-    '''public void addAdditionalColumns(final JSONArray Cols)
+    '''returns None\n\n
+    addAdditionalColumns(final JSONArray Cols)\n
     '''
 def getGanttUnits():
-    '''public String getGanttUnits()
+    '''returns String\n\n
+    getGanttUnits()\n
     '''
 def getActivityColumns():
-    '''public List<IMXGanttPropertyInfo> getActivityColumns(final IGanttConfigInfo info)
-    '''
-def InternalField():
-    '''public InternalField(final String id, final int maxType)
+    '''returns List<IMXGanttPropertyInfo>\n\n
+    getActivityColumns(final IGanttConfigInfo info)\n
     '''
 def format():
-    '''public InternalField format(final String fmt)
+    '''returns InternalField\n\n
+    format(final String fmt)\n
     '''
 def visible():
-    '''public InternalField visible()
+    '''returns InternalField\n\n
+    visible()\n
     '''
 def label():
-    '''public InternalField label(final String lab)
+    '''returns InternalField\n\n
+    label(final String lab)\n
     '''

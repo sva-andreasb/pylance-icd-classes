@@ -1,19 +1,9 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def AlterReplicaLogDirsResponse():
-    '''public AlterReplicaLogDirsResponse(final Struct struct)
-    public AlterReplicaLogDirsResponse(final int throttleTimeMs, final Map<TopicPartition, Errors> responses)
+def ():
+    '''returns AlterReplicaLogDirsResponse\n\n
+    (final Struct struct)\n
+    (final int throttleTimeMs, final Map<TopicPartition, Errors> responses)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
-    '''
-def responses():
-    '''public Map<TopicPartition, Errors> responses()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
-    '''
-def parse():
-    '''public static AlterReplicaLogDirsResponse parse(final ByteBuffer buffer, final short version)
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''

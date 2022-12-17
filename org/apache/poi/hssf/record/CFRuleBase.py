@@ -41,122 +41,158 @@ LT = "byte  6"
 GE = "byte  7"
 LE = "byte  8"
 def getConditionType():
-    '''public byte getConditionType()
+    '''returns byte\n\n
+    getConditionType()\n
     '''
 def setComparisonOperation():
-    '''public void setComparisonOperation(final byte operation)
+    '''returns None\n\n
+    setComparisonOperation(final byte operation)\n
     '''
 def getComparisonOperation():
-    '''public byte getComparisonOperation()
+    '''returns byte\n\n
+    getComparisonOperation()\n
     '''
 def containsFontFormattingBlock():
-    '''public boolean containsFontFormattingBlock()
+    '''returns boolean\n\n
+    containsFontFormattingBlock()\n
     '''
 def setFontFormatting():
-    '''public void setFontFormatting(final FontFormatting fontFormatting)
+    '''returns None\n\n
+    setFontFormatting(final FontFormatting fontFormatting)\n
     '''
 def getFontFormatting():
-    '''public FontFormatting getFontFormatting()
+    '''returns FontFormatting\n\n
+    getFontFormatting()\n
     '''
 def containsAlignFormattingBlock():
-    '''public boolean containsAlignFormattingBlock()
+    '''returns boolean\n\n
+    containsAlignFormattingBlock()\n
     '''
 def setAlignFormattingUnchanged():
-    '''public void setAlignFormattingUnchanged()
+    '''returns None\n\n
+    setAlignFormattingUnchanged()\n
     '''
 def containsBorderFormattingBlock():
-    '''public boolean containsBorderFormattingBlock()
+    '''returns boolean\n\n
+    containsBorderFormattingBlock()\n
     '''
 def setBorderFormatting():
-    '''public void setBorderFormatting(final BorderFormatting borderFormatting)
+    '''returns None\n\n
+    setBorderFormatting(final BorderFormatting borderFormatting)\n
     '''
 def getBorderFormatting():
-    '''public BorderFormatting getBorderFormatting()
+    '''returns BorderFormatting\n\n
+    getBorderFormatting()\n
     '''
 def containsPatternFormattingBlock():
-    '''public boolean containsPatternFormattingBlock()
+    '''returns boolean\n\n
+    containsPatternFormattingBlock()\n
     '''
 def setPatternFormatting():
-    '''public void setPatternFormatting(final PatternFormatting patternFormatting)
+    '''returns None\n\n
+    setPatternFormatting(final PatternFormatting patternFormatting)\n
     '''
 def getPatternFormatting():
-    '''public PatternFormatting getPatternFormatting()
+    '''returns PatternFormatting\n\n
+    getPatternFormatting()\n
     '''
 def containsProtectionFormattingBlock():
-    '''public boolean containsProtectionFormattingBlock()
+    '''returns boolean\n\n
+    containsProtectionFormattingBlock()\n
     '''
 def setProtectionFormattingUnchanged():
-    '''public void setProtectionFormattingUnchanged()
+    '''returns None\n\n
+    setProtectionFormattingUnchanged()\n
     '''
 def getOptions():
-    '''public int getOptions()
+    '''returns int\n\n
+    getOptions()\n
     '''
 def isLeftBorderModified():
-    '''public boolean isLeftBorderModified()
+    '''returns boolean\n\n
+    isLeftBorderModified()\n
     '''
 def setLeftBorderModified():
-    '''public void setLeftBorderModified(final boolean modified)
+    '''returns None\n\n
+    setLeftBorderModified(final boolean modified)\n
     '''
 def isRightBorderModified():
-    '''public boolean isRightBorderModified()
+    '''returns boolean\n\n
+    isRightBorderModified()\n
     '''
 def setRightBorderModified():
-    '''public void setRightBorderModified(final boolean modified)
+    '''returns None\n\n
+    setRightBorderModified(final boolean modified)\n
     '''
 def isTopBorderModified():
-    '''public boolean isTopBorderModified()
+    '''returns boolean\n\n
+    isTopBorderModified()\n
     '''
 def setTopBorderModified():
-    '''public void setTopBorderModified(final boolean modified)
+    '''returns None\n\n
+    setTopBorderModified(final boolean modified)\n
     '''
 def isBottomBorderModified():
-    '''public boolean isBottomBorderModified()
+    '''returns boolean\n\n
+    isBottomBorderModified()\n
     '''
 def setBottomBorderModified():
-    '''public void setBottomBorderModified(final boolean modified)
+    '''returns None\n\n
+    setBottomBorderModified(final boolean modified)\n
     '''
 def isTopLeftBottomRightBorderModified():
-    '''public boolean isTopLeftBottomRightBorderModified()
+    '''returns boolean\n\n
+    isTopLeftBottomRightBorderModified()\n
     '''
 def setTopLeftBottomRightBorderModified():
-    '''public void setTopLeftBottomRightBorderModified(final boolean modified)
+    '''returns None\n\n
+    setTopLeftBottomRightBorderModified(final boolean modified)\n
     '''
 def isBottomLeftTopRightBorderModified():
-    '''public boolean isBottomLeftTopRightBorderModified()
+    '''returns boolean\n\n
+    isBottomLeftTopRightBorderModified()\n
     '''
 def setBottomLeftTopRightBorderModified():
-    '''public void setBottomLeftTopRightBorderModified(final boolean modified)
+    '''returns None\n\n
+    setBottomLeftTopRightBorderModified(final boolean modified)\n
     '''
 def isPatternStyleModified():
-    '''public boolean isPatternStyleModified()
+    '''returns boolean\n\n
+    isPatternStyleModified()\n
     '''
 def setPatternStyleModified():
-    '''public void setPatternStyleModified(final boolean modified)
+    '''returns None\n\n
+    setPatternStyleModified(final boolean modified)\n
     '''
 def isPatternColorModified():
-    '''public boolean isPatternColorModified()
+    '''returns boolean\n\n
+    isPatternColorModified()\n
     '''
 def setPatternColorModified():
-    '''public void setPatternColorModified(final boolean modified)
+    '''returns None\n\n
+    setPatternColorModified(final boolean modified)\n
     '''
 def isPatternBackgroundColorModified():
-    '''public boolean isPatternBackgroundColorModified()
+    '''returns boolean\n\n
+    isPatternBackgroundColorModified()\n
     '''
 def setPatternBackgroundColorModified():
-    '''public void setPatternBackgroundColorModified(final boolean modified)
+    '''returns None\n\n
+    setPatternBackgroundColorModified(final boolean modified)\n
     '''
 def getParsedExpression1():
-    '''public Ptg[] getParsedExpression1()
+    '''returns Ptg[]\n\n
+    getParsedExpression1()\n
     '''
 def setParsedExpression1():
-    '''public void setParsedExpression1(final Ptg[] ptgs)
+    '''returns None\n\n
+    setParsedExpression1(final Ptg[] ptgs)\n
     '''
 def getParsedExpression2():
-    '''public Ptg[] getParsedExpression2()
+    '''returns Ptg[]\n\n
+    getParsedExpression2()\n
     '''
 def setParsedExpression2():
-    '''public void setParsedExpression2(final Ptg[] ptgs)
-    '''
-def parseFormula():
-    '''public static Ptg[] parseFormula(final String formula, final HSSFSheet sheet)
+    '''returns None\n\n
+    setParsedExpression2(final Ptg[] ptgs)\n
     '''

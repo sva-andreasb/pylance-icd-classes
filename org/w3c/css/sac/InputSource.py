@@ -1,41 +1,54 @@
-def InputSource():
-    '''public InputSource()
-    public InputSource(final String uri)
-    public InputSource(final Reader characterStream)
+def ():
+    '''returns InputSource\n\n
+    ()\n
+    (final String uri)\n
+    (final Reader characterStream)\n
     '''
 def setURI():
-    '''public void setURI(final String uri)
+    '''returns None\n\n
+    setURI(final String uri)\n
     '''
 def getURI():
-    '''public String getURI()
+    '''returns String\n\n
+    getURI()\n
     '''
 def setByteStream():
-    '''public void setByteStream(final InputStream byteStream)
+    '''returns None\n\n
+    setByteStream(final InputStream byteStream)\n
     '''
 def getByteStream():
-    '''public InputStream getByteStream()
+    '''returns InputStream\n\n
+    getByteStream()\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String encoding)
+    '''returns None\n\n
+    setEncoding(final String encoding)\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def setCharacterStream():
-    '''public void setCharacterStream(final Reader characterStream)
+    '''returns None\n\n
+    setCharacterStream(final Reader characterStream)\n
     '''
 def getCharacterStream():
-    '''public Reader getCharacterStream()
+    '''returns Reader\n\n
+    getCharacterStream()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setMedia():
-    '''public void setMedia(final String media)
+    '''returns None\n\n
+    setMedia(final String media)\n
     '''
 def getMedia():
-    '''public String getMedia()
+    '''returns String\n\n
+    getMedia()\n
     '''

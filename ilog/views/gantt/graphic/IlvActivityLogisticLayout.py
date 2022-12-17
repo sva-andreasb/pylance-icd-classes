@@ -1,29 +1,37 @@
 CASCADE = "int  1"
 PRETTY = "int  2"
 TILE = "int  3"
-def IlvActivityLogisticLayout():
-    '''public IlvActivityLogisticLayout(final int c, final float n, final float n2)
-    public IlvActivityLogisticLayout(final int c)
+def ():
+    '''returns IlvActivityLogisticLayout\n\n
+    (final int c, final float n, final float n2)\n
+    (final int c)\n
     '''
 def getArrangeMode():
-    '''public int getArrangeMode()
+    '''returns int\n\n
+    getArrangeMode()\n
     '''
 def setArrangeMode():
-    '''public void setArrangeMode(final int c)
+    '''returns None\n\n
+    setArrangeMode(final int c)\n
     '''
 def getCascadeOffset():
-    '''public float getCascadeOffset()
+    '''returns float\n\n
+    getCascadeOffset()\n
     '''
 def setCascadeOffset():
-    '''public void setCascadeOffset(final float b)
+    '''returns None\n\n
+    setCascadeOffset(final float b)\n
     '''
 def arrange():
-    '''public void arrange(final IlvGanttRow ilvGanttRow, final IlvActivityGraphic[] array)
-    public void arrange(final IlvGanttRow ilvGanttRow, final IlvActivityGraphic ilvActivityGraphic)
+    '''returns None\n\n
+    arrange(final IlvGanttRow ilvGanttRow, final IlvActivityGraphic[] array)\n
+    arrange(final IlvGanttRow ilvGanttRow, final IlvActivityGraphic ilvActivityGraphic)\n
     '''
 def compare():
-    '''public int compare(final IlvActivityGraphic ilvActivityGraphic, final IlvActivityGraphic ilvActivityGraphic2)
+    '''returns int\n\n
+    compare(final IlvActivityGraphic ilvActivityGraphic, final IlvActivityGraphic ilvActivityGraphic2)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

@@ -1,6 +1,8 @@
-def LayoutSet():
-    '''public LayoutSet(final MboServerInterface ms)
+def ():
+    '''returns LayoutSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def displayConfiguration():
-    '''public void displayConfiguration()
+    '''returns None\n\n
+    displayConfiguration()\n
     '''

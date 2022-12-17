@@ -1,3 +1,4 @@
-def IncidentSet():
-    '''public IncidentSet(final MboServerInterface ms)
+def ():
+    '''returns IncidentSet\n\n
+    (final MboServerInterface ms)\n
     '''

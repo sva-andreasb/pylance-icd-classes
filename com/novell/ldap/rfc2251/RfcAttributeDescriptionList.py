@@ -1,4 +1,5 @@
-def RfcAttributeDescriptionList():
-    '''public RfcAttributeDescriptionList(final int n)
-    public RfcAttributeDescriptionList(final String[] array)
+def ():
+    '''returns RfcAttributeDescriptionList\n\n
+    (final int n)\n
+    (final String[] array)\n
     '''

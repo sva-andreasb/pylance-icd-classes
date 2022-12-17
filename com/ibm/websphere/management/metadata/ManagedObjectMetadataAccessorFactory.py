@@ -1,15 +1,16 @@
-def createAccessor():
-    '''public static ManagedObjectMetadataAccessor createAccessor(Properties props)
-    '''
-def AccessorCacheKey():
-    '''public AccessorCacheKey(final String repositoryRoot, final String cellName)
+def ():
+    '''returns AccessorCacheKey\n\n
+    (final String repositoryRoot, final String cellName)\n
     '''
 def equals():
-    '''public boolean equals(final Object that)
+    '''returns boolean\n\n
+    equals(final Object that)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

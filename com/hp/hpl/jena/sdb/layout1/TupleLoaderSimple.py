@@ -1,9 +1,12 @@
-def TupleLoaderSimple():
-    '''public TupleLoaderSimple(final SDBConnection connection, final TableDesc tableDesc, final EncoderDecoder codec)
+def ():
+    '''returns TupleLoaderSimple\n\n
+    (final SDBConnection connection, final TableDesc tableDesc, final EncoderDecoder codec)\n
     '''
 def getRefForNode():
-    '''public SqlConstant getRefForNode(final Node node)
+    '''returns SqlConstant\n\n
+    getRefForNode(final Node node)\n
     '''
 def insertNode():
-    '''public SqlConstant insertNode(final Node node)
+    '''returns SqlConstant\n\n
+    insertNode(final Node node)\n
     '''

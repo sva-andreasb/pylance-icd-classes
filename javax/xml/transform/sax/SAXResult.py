@@ -1,23 +1,30 @@
 FEATURE = "String  \"http://javax.xml.transform.sax.SAXResult/feature\""
-def SAXResult():
-    '''public SAXResult()
-    public SAXResult(final ContentHandler handler)
+def ():
+    '''returns SAXResult\n\n
+    ()\n
+    (final ContentHandler handler)\n
     '''
 def setHandler():
-    '''public void setHandler(final ContentHandler handler)
+    '''returns None\n\n
+    setHandler(final ContentHandler handler)\n
     '''
 def getHandler():
-    '''public ContentHandler getHandler()
+    '''returns ContentHandler\n\n
+    getHandler()\n
     '''
 def setLexicalHandler():
-    '''public void setLexicalHandler(final LexicalHandler lexhandler)
+    '''returns None\n\n
+    setLexicalHandler(final LexicalHandler lexhandler)\n
     '''
 def getLexicalHandler():
-    '''public LexicalHandler getLexicalHandler()
+    '''returns LexicalHandler\n\n
+    getLexicalHandler()\n
     '''
 def setSystemId():
-    '''public void setSystemId(final String systemId)
+    '''returns None\n\n
+    setSystemId(final String systemId)\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''

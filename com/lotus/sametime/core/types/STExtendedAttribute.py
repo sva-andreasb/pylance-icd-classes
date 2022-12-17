@@ -1,25 +1,31 @@
-def STExtendedAttribute():
-    '''public STExtendedAttribute(final int n, final byte[] array)
-    public STExtendedAttribute(final int n, final String s)
-    public STExtendedAttribute(final int n, final int n2)
-    public STExtendedAttribute(final int n, final long n2)
-    public STExtendedAttribute(final int n, final boolean b)
-    public STExtendedAttribute(final int n)
-    public STExtendedAttribute(final NdrInputStream ndrInputStream)
+def ():
+    '''returns STExtendedAttribute\n\n
+    (final int n, final byte[] array)\n
+    (final int n, final String s)\n
+    (final int n, final int n2)\n
+    (final int n, final long n2)\n
+    (final int n, final boolean b)\n
+    (final int n)\n
+    (final NdrInputStream ndrInputStream)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def getActualSize():
-    '''public int getActualSize()
+    '''returns int\n\n
+    getActualSize()\n
     '''
 def isExistential():
-    '''public boolean isExistential()
+    '''returns boolean\n\n
+    isExistential()\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
-    public void dump(final NdrOutputStream ndrOutputStream, final int n)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
+    dump(final NdrOutputStream ndrOutputStream, final int n)\n
     '''
 def load():
-    '''public void load(final NdrInputStream ndrInputStream)
+    '''returns None\n\n
+    load(final NdrInputStream ndrInputStream)\n
     '''

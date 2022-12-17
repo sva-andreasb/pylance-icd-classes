@@ -1,52 +1,65 @@
-def SdkInternalMap():
-    '''public SdkInternalMap()
-    public SdkInternalMap(final Map<K, V> m)
+def ():
+    '''returns SdkInternalMap\n\n
+    ()\n
+    (final Map<K, V> m)\n
     '''
 def isAutoConstruct():
-    '''public boolean isAutoConstruct()
+    '''returns boolean\n\n
+    isAutoConstruct()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def get():
-    '''public V get(final Object key)
+    '''returns V\n\n
+    get(final Object key)\n
     '''
 def put():
-    '''public V put(final K key, final V value)
+    '''returns V\n\n
+    put(final K key, final V value)\n
     '''
 def remove():
-    '''public V remove(final Object key)
+    '''returns V\n\n
+    remove(final Object key)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends V> m)
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends V> m)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def values():
-    '''public Collection<V> values()
-    '''
-def entrySet():
-    '''public Set<Entry<K, V>> entrySet()
+    '''returns Collection<V>\n\n
+    values()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

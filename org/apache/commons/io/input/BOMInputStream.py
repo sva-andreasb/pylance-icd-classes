@@ -1,33 +1,34 @@
-def BOMInputStream():
-    '''public BOMInputStream(final InputStream delegate)
-    public BOMInputStream(final InputStream delegate, final boolean include)
-    public BOMInputStream(final InputStream delegate, final ByteOrderMark... boms)
-    public BOMInputStream(final InputStream delegate, final boolean include, final ByteOrderMark... boms)
+def ():
+    '''returns BOMInputStream\n\n
+    (final InputStream delegate)\n
+    (final InputStream delegate, final boolean include)\n
+    (final InputStream delegate, final ByteOrderMark... boms)\n
+    (final InputStream delegate, final boolean include, final ByteOrderMark... boms)\n
     '''
 def hasBOM():
-    '''public boolean hasBOM()
-    public boolean hasBOM(final ByteOrderMark bom)
+    '''returns boolean\n\n
+    hasBOM()\n
+    hasBOM(final ByteOrderMark bom)\n
     '''
 def getBOM():
-    '''public ByteOrderMark getBOM()
+    '''returns ByteOrderMark\n\n
+    getBOM()\n
     '''
 def getBOMCharsetName():
-    '''public String getBOMCharsetName()
+    '''returns String\n\n
+    getBOMCharsetName()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] buf, int off, int len)
-    public int read(final byte[] buf)
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns int\n\n
+    read()\n
+    read(final byte[] buf, int off, int len)\n
+    read(final byte[] buf)\n
     '''
 def skip():
-    '''public long skip(final long n)
+    '''returns long\n\n
+    skip(final long n)\n
     '''
 def compare():
-    '''public int compare(final ByteOrderMark bom1, final ByteOrderMark bom2)
+    '''returns int\n\n
+    compare(final ByteOrderMark bom1, final ByteOrderMark bom2)\n
     '''

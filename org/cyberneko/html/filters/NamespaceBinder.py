@@ -1,67 +1,82 @@
 XHTML_1_0_URI = "String  \"http://www.w3.org/1999/xhtml\""
 XML_URI = "String  \"http://www.w3.org/XML/1998/namespace\""
 XMLNS_URI = "String  \"http://www.w3.org/2000/xmlns/\""
-def NamespaceBinder():
-    '''public NamespaceBinder()
+def ():
+    '''returns Entry\n\n
+    ()\n
+    ()\n
+    (final String prefix, final String uri)\n
     '''
 def getRecognizedFeatures():
-    '''public String[] getRecognizedFeatures()
+    '''returns String[]\n\n
+    getRecognizedFeatures()\n
     '''
 def getFeatureDefault():
-    '''public Boolean getFeatureDefault(final String featureId)
+    '''returns Boolean\n\n
+    getFeatureDefault(final String featureId)\n
     '''
 def getRecognizedProperties():
-    '''public String[] getRecognizedProperties()
+    '''returns String[]\n\n
+    getRecognizedProperties()\n
     '''
 def getPropertyDefault():
-    '''public Object getPropertyDefault(final String propertyId)
+    '''returns Object\n\n
+    getPropertyDefault(final String propertyId)\n
     '''
 def reset():
-    '''public void reset(final XMLComponentManager manager)
-    public void reset()
+    '''returns None\n\n
+    reset(final XMLComponentManager manager)\n
+    reset()\n
     '''
 def startDocument():
-    '''public void startDocument(final XMLLocator locator, final String encoding, final NamespaceContext nscontext, final Augmentations augs)
+    '''returns None\n\n
+    startDocument(final XMLLocator locator, final String encoding, final NamespaceContext nscontext, final Augmentations augs)\n
     '''
 def startElement():
-    '''public void startElement(final QName element, final XMLAttributes attrs, final Augmentations augs)
+    '''returns None\n\n
+    startElement(final QName element, final XMLAttributes attrs, final Augmentations augs)\n
     '''
 def emptyElement():
-    '''public void emptyElement(final QName element, final XMLAttributes attrs, final Augmentations augs)
+    '''returns None\n\n
+    emptyElement(final QName element, final XMLAttributes attrs, final Augmentations augs)\n
     '''
 def endElement():
-    '''public void endElement(final QName element, final Augmentations augs)
-    '''
-def NamespaceSupport():
-    '''public NamespaceSupport()
+    '''returns None\n\n
+    endElement(final QName element, final Augmentations augs)\n
     '''
 def getURI():
-    '''public String getURI(final String prefix)
+    '''returns String\n\n
+    getURI(final String prefix)\n
     '''
 def getDeclaredPrefixCount():
-    '''public int getDeclaredPrefixCount()
+    '''returns int\n\n
+    getDeclaredPrefixCount()\n
     '''
 def getDeclaredPrefixAt():
-    '''public String getDeclaredPrefixAt(final int index)
+    '''returns String\n\n
+    getDeclaredPrefixAt(final int index)\n
     '''
 def getParentContext():
-    '''public NamespaceContext getParentContext()
+    '''returns NamespaceContext\n\n
+    getParentContext()\n
     '''
 def pushContext():
-    '''public void pushContext()
+    '''returns None\n\n
+    pushContext()\n
     '''
 def popContext():
-    '''public void popContext()
+    '''returns None\n\n
+    popContext()\n
     '''
 def declarePrefix():
-    '''public boolean declarePrefix(final String prefix, final String uri)
+    '''returns boolean\n\n
+    declarePrefix(final String prefix, final String uri)\n
     '''
 def getPrefix():
-    '''public String getPrefix(final String uri)
+    '''returns String\n\n
+    getPrefix(final String uri)\n
     '''
 def getAllPrefixes():
-    '''public Enumeration getAllPrefixes()
-    '''
-def Entry():
-    '''public Entry(final String prefix, final String uri)
+    '''returns Enumeration\n\n
+    getAllPrefixes()\n
     '''

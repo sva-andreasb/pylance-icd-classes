@@ -1,3 +1,4 @@
-def JSerializedObject():
-    '''public JSerializedObject(final String name, final Object obj)
+def ():
+    '''returns JSerializedObject\n\n
+    (final String name, final Object obj)\n
     '''

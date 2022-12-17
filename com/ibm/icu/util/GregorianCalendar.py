@@ -1,40 +1,46 @@
 BC = "int  0"
 AD = "int  1"
-def GregorianCalendar():
-    '''public GregorianCalendar()
-    public GregorianCalendar(final TimeZone zone)
-    public GregorianCalendar(final Locale aLocale)
-    public GregorianCalendar(final ULocale locale)
-    public GregorianCalendar(final TimeZone zone, final Locale aLocale)
-    public GregorianCalendar(final TimeZone zone, final ULocale locale)
-    public GregorianCalendar(final int year, final int month, final int date)
-    public GregorianCalendar(final int year, final int month, final int date, final int hour, final int minute)
-    public GregorianCalendar(final int year, final int month, final int date, final int hour, final int minute, final int second)
+def ():
+    '''returns GregorianCalendar\n\n
+    ()\n
+    (final TimeZone zone)\n
+    (final Locale aLocale)\n
+    (final ULocale locale)\n
+    (final TimeZone zone, final Locale aLocale)\n
+    (final TimeZone zone, final ULocale locale)\n
+    (final int year, final int month, final int date)\n
+    (final int year, final int month, final int date, final int hour, final int minute)\n
+    (final int year, final int month, final int date, final int hour, final int minute, final int second)\n
     '''
 def setGregorianChange():
-    '''public void setGregorianChange(final Date date)
-    '''
-def getGregorianChange():
-    '''public final Date getGregorianChange()
+    '''returns None\n\n
+    setGregorianChange(final Date date)\n
     '''
 def isLeapYear():
-    '''public boolean isLeapYear(final int year)
+    '''returns boolean\n\n
+    isLeapYear(final int year)\n
     '''
 def isEquivalentTo():
-    '''public boolean isEquivalentTo(final Calendar other)
+    '''returns boolean\n\n
+    isEquivalentTo(final Calendar other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def roll():
-    '''public void roll(final int field, final int amount)
+    '''returns None\n\n
+    roll(final int field, final int amount)\n
     '''
 def getActualMinimum():
-    '''public int getActualMinimum(final int field)
+    '''returns int\n\n
+    getActualMinimum(final int field)\n
     '''
 def getActualMaximum():
-    '''public int getActualMaximum(final int field)
+    '''returns int\n\n
+    getActualMaximum(final int field)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''

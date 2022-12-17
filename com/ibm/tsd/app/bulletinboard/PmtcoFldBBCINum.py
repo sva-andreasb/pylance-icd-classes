@@ -1,3 +1,4 @@
-def PmtcoFldBBCINum():
-    '''public PmtcoFldBBCINum(final MboValue mbv)
+def ():
+    '''returns PmtcoFldBBCINum\n\n
+    (final MboValue mbv)\n
     '''

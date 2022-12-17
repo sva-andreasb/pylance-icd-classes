@@ -1,6 +1,8 @@
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def setWaitingThread():
-    '''public void setWaitingThread(final WaitingThread waitingThread)
+    '''returns None\n\n
+    setWaitingThread(final WaitingThread waitingThread)\n
     '''

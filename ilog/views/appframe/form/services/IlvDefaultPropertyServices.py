@@ -1,24 +1,32 @@
-def IlvDefaultPropertyServices():
-    '''public IlvDefaultPropertyServices()
+def ():
+    '''returns IlvDefaultPropertyServices\n\n
+    ()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String s, final Object o)
+    '''returns Object\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def addPropertyChangeListener():
-    '''public void addPropertyChangeListener(final PropertyChangeListener listener)
+    '''returns None\n\n
+    addPropertyChangeListener(final PropertyChangeListener listener)\n
     '''
 def removePropertyChangeListener():
-    '''public void removePropertyChangeListener(final PropertyChangeListener listener)
+    '''returns None\n\n
+    removePropertyChangeListener(final PropertyChangeListener listener)\n
     '''
 def setServicesDelegate():
-    '''public void setServicesDelegate(final IlvServices b)
+    '''returns None\n\n
+    setServicesDelegate(final IlvServices b)\n
     '''
 def getServicesDelegate():
-    '''public IlvServices getServicesDelegate()
+    '''returns IlvServices\n\n
+    getServicesDelegate()\n
     '''
 def firePropertyChange():
-    '''public void firePropertyChange(final String propertyName, final Object oldValue, final Object newValue)
+    '''returns None\n\n
+    firePropertyChange(final String propertyName, final Object oldValue, final Object newValue)\n
     '''

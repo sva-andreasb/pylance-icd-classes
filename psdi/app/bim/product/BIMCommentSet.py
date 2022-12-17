@@ -2,33 +2,43 @@ QUERY_CHILDREN = "String  \"parentid=:1\""
 QUERY_PARENT = "String  \"bimcommentid=:1\""
 QUERY_SIBLINGS = "String  \" bimcommentid != :1 and parentid in (select parentid from bimcomment where bimcommentid = :1)\""
 QUERY_TOP = "String  \"parentid is null and OWNERTABLE = :1 and OWNERID = :2\""
-def BIMCommentSet():
-    '''public BIMCommentSet(final MboServerInterface ms)
+def ():
+    '''returns BIMCommentSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int ind)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int ind)\n
     '''
 def getChildren():
-    '''public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getChildren(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getParent():
-    '''public MboValueData[] getParent(final String object, final String key, final String[] attrs)
+    '''returns MboValueData[]\n\n
+    getParent(final String object, final String key, final String[] attrs)\n
     '''
 def getSiblings():
-    '''public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getSiblings(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getTop():
-    '''public MboValueData[][] getTop(final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getTop(final String[] attrs, final int maxRows)\n
     '''
 def getPathToTop():
-    '''public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
+    '''returns MboValueData[][]\n\n
+    getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)\n
     '''
 def getLastInsert():
-    '''public MboRemote getLastInsert()
+    '''returns MboRemote\n\n
+    getLastInsert()\n
     '''
 def getParentForAdd():
-    '''public MboRemote getParentForAdd()
+    '''returns MboRemote\n\n
+    getParentForAdd()\n
     '''
 def setParentForAdd():
-    '''public void setParentForAdd(final MboRemote parent)
+    '''returns None\n\n
+    setParentForAdd(final MboRemote parent)\n
     '''

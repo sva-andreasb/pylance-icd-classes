@@ -1,66 +1,88 @@
-def AssetInputSet():
-    '''public AssetInputSet(final MboServerInterface ms)
+def ():
+    '''returns AssetInputSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setDontAllowMEA():
-    '''public void setDontAllowMEA(final boolean doNotAllowMEA)
+    '''returns None\n\n
+    setDontAllowMEA(final boolean doNotAllowMEA)\n
     '''
 def getDontAllowMEA():
-    '''public boolean getDontAllowMEA()
+    '''returns boolean\n\n
+    getDontAllowMEA()\n
     '''
 def setUsingUpdateReceipt():
-    '''public void setUsingUpdateReceipt(final boolean usingUpdateReceipt)
+    '''returns None\n\n
+    setUsingUpdateReceipt(final boolean usingUpdateReceipt)\n
     '''
 def getUsingUpdateReceipt():
-    '''public boolean getUsingUpdateReceipt()
+    '''returns boolean\n\n
+    getUsingUpdateReceipt()\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def getCurrentMatRecSet():
-    '''public MboSetRemote getCurrentMatRecSet(final MboRemote poRemote)
+    '''returns MboSetRemote\n\n
+    getCurrentMatRecSet(final MboRemote poRemote)\n
     '''
 def getMatRecSet():
-    '''public MboSetRemote getMatRecSet(final MboRemote poRemote)
+    '''returns MboSetRemote\n\n
+    getMatRecSet(final MboRemote poRemote)\n
     '''
 def getMatRecSetForShipment():
-    '''public MboSetRemote getMatRecSetForShipment(final MboRemote shipmentRemote)
+    '''returns MboSetRemote\n\n
+    getMatRecSetForShipment(final MboRemote shipmentRemote)\n
     '''
 def createAssetInputSetForShipment():
-    '''public void createAssetInputSetForShipment(final MboSetRemote matRecSetRemote)
+    '''returns None\n\n
+    createAssetInputSetForShipment(final MboSetRemote matRecSetRemote)\n
     '''
 def createAssetInputSet():
-    '''public void createAssetInputSet(final MboSetRemote matRecSetRemote)
+    '''returns None\n\n
+    createAssetInputSet(final MboSetRemote matRecSetRemote)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def checkAssetNumValidity():
-    '''public void checkAssetNumValidity()
+    '''returns None\n\n
+    checkAssetNumValidity()\n
     '''
 def autoNumberAll():
-    '''public void autoNumberAll()
+    '''returns None\n\n
+    autoNumberAll()\n
     '''
 def autoNumberNeeded():
-    '''public void autoNumberNeeded()
+    '''returns None\n\n
+    autoNumberNeeded()\n
     '''
 def getChildAssetSet():
-    '''public MboSetRemote getChildAssetSet()
+    '''returns MboSetRemote\n\n
+    getChildAssetSet()\n
     '''
 def setChildAssetSet():
-    '''public void setChildAssetSet(final MboSetRemote mboset)
+    '''returns None\n\n
+    setChildAssetSet(final MboSetRemote mboset)\n
     '''
 def getAssetInputAndChildAssets():
-    '''public Hashtable getAssetInputAndChildAssets()
+    '''returns Hashtable\n\n
+    getAssetInputAndChildAssets()\n
     '''
 def storeAssetInputAndChildAssets():
-    '''public void storeAssetInputAndChildAssets(final MboRemote assetInput, final Vector newChildAsset)
+    '''returns None\n\n
+    storeAssetInputAndChildAssets(final MboRemote assetInput, final Vector newChildAsset)\n
     '''
 def setStoreroomRecRotating():
-    '''public void setStoreroomRecRotating(final MboRemote storeroom)
+    '''returns None\n\n
+    setStoreroomRecRotating(final MboRemote storeroom)\n
     '''
 def getStoreroomRecRotating():
-    '''public MboRemote getStoreroomRecRotating(final String storeAndSite)
+    '''returns MboRemote\n\n
+    getStoreroomRecRotating(final String storeAndSite)\n
     '''
 def shipmentTransfer():
-    '''public void shipmentTransfer()
+    '''returns None\n\n
+    shipmentTransfer()\n
     '''

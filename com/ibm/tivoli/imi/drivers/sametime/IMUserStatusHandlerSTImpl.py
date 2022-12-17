@@ -1,30 +1,24 @@
-def IMUserStatusHandlerSTImpl():
-    '''public IMUserStatusHandlerSTImpl(final IMSessionSTImpl session, final AwarenessService awarenessService)
+def ():
+    '''returns IMUserStatusHandlerSTImpl\n\n
+    (final IMSessionSTImpl session, final AwarenessService awarenessService)\n
     '''
 def addListener():
-    '''public void addListener(final IMUserStatusListener imUserStatusListener)
+    '''returns None\n\n
+    addListener(final IMUserStatusListener imUserStatusListener)\n
     '''
 def removeListener():
-    '''public void removeListener(final IMUserStatusListener imUserStatusListener)
+    '''returns None\n\n
+    removeListener(final IMUserStatusListener imUserStatusListener)\n
     '''
 def removeAllListeners():
-    '''public void removeAllListeners()
-    '''
-def hasListenedUser():
-    '''public synchronized boolean hasListenedUser(final IMUser imUser)
-    '''
-def addListenedUser():
-    '''public synchronized void addListenedUser(final IMUser imUser)
-    '''
-def removeListenedUser():
-    '''public synchronized void removeListenedUser(final IMUser imUser)
-    '''
-def removeAllListenedUsers():
-    '''public synchronized void removeAllListenedUsers()
+    '''returns None\n\n
+    removeAllListeners()\n
     '''
 def groupCleared():
-    '''public void groupCleared(final StatusEvent statusEvent)
+    '''returns None\n\n
+    groupCleared(final StatusEvent statusEvent)\n
     '''
 def userStatusChanged():
-    '''public void userStatusChanged(final StatusEvent statusEvent)
+    '''returns None\n\n
+    userStatusChanged(final StatusEvent statusEvent)\n
     '''

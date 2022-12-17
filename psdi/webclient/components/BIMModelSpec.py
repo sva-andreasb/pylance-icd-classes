@@ -1,59 +1,78 @@
 TABLE_BUILDINGMODEL = "String  \"BUILDINGMODEL\""
 FIELD_BUILDINGMODELID = "String  \"BUILDINGMODELID\""
 def equals():
-    '''public boolean equals(final BIMModelSpec modelSpec)
+    '''returns boolean\n\n
+    equals(final BIMModelSpec modelSpec)\n
     '''
 def getLocationName():
-    '''public String getLocationName()
+    '''returns String\n\n
+    getLocationName()\n
     '''
 def getLocation():
-    '''public String getLocation()
+    '''returns String\n\n
+    getLocation()\n
     '''
 def getBinding():
-    '''public String getBinding()
+    '''returns String\n\n
+    getBinding()\n
     '''
 def getModelId():
-    '''public long getModelId()
+    '''returns long\n\n
+    getModelId()\n
     '''
 def getModelURL():
-    '''public String getModelURL()
+    '''returns String\n\n
+    getModelURL()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getAssetView():
-    '''public String getAssetView()
+    '''returns String\n\n
+    getAssetView()\n
     '''
 def getLookupView():
-    '''public String getLookupView()
+    '''returns String\n\n
+    getLookupView()\n
     '''
 def getLocationView():
-    '''public String getLocationView()
+    '''returns String\n\n
+    getLocationView()\n
     '''
 def getAttribClass():
-    '''public String getAttribClass()
+    '''returns String\n\n
+    getAttribClass()\n
     '''
 def getAttribName():
-    '''public String getAttribName()
+    '''returns String\n\n
+    getAttribName()\n
     '''
 def getParamName():
-    '''public String getParamName()
+    '''returns String\n\n
+    getParamName()\n
     '''
 def getParamClass():
-    '''public String getParamClass()
+    '''returns String\n\n
+    getParamClass()\n
     '''
 def getSelectionMode():
-    '''public int getSelectionMode()
+    '''returns int\n\n
+    getSelectionMode()\n
     '''
 def getSiteId():
-    '''public String getSiteId()
+    '''returns String\n\n
+    getSiteId()\n
     '''
 def getWorkOrderView():
-    '''public String getWorkOrderView()
+    '''returns String\n\n
+    getWorkOrderView()\n
     '''
 def getModelHostname():
-    '''public String getModelHostname()
+    '''returns String\n\n
+    getModelHostname()\n
     '''

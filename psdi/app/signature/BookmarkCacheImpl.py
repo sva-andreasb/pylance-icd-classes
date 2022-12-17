@@ -1,19 +1,25 @@
-def BookmarkCacheImpl():
-    '''public BookmarkCacheImpl()
+def ():
+    '''returns BookmarkCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getBookmarks():
-    '''public Set<Long> getBookmarks(final String appName, final String userid)
+    '''returns Set<Long>\n\n
+    getBookmarks(final String appName, final String userid)\n
     '''
 def isBookMarked():
-    '''public boolean isBookMarked(final String appName, final String userid, final long id)
+    '''returns boolean\n\n
+    isBookMarked(final String appName, final String userid, final long id)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

@@ -1,73 +1,96 @@
-def AMCrewLaborSet():
-    '''public AMCrewLaborSet(final MboServerInterface ms)
+def ():
+    '''returns AMCrewLaborSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getLaborRequirementStatus():
-    '''public String getLaborRequirementStatus(final MboRemote laborPos)
+    '''returns String\n\n
+    getLaborRequirementStatus(final MboRemote laborPos)\n
     '''
 def getLaborPositionQualStatus():
-    '''public String getLaborPositionQualStatus(final MboRemote crewQual, final Date desireddate)
+    '''returns String\n\n
+    getLaborPositionQualStatus(final MboRemote crewQual, final Date desireddate)\n
     '''
 def getLaborQualStatus():
-    '''public String getLaborQualStatus(final MboRemote crewQual, final Date desireddate)
+    '''returns String\n\n
+    getLaborQualStatus(final MboRemote crewQual, final Date desireddate)\n
     '''
 def getToBeDeletedMbo():
-    '''public MboRemote getToBeDeletedMbo()
+    '''returns MboRemote\n\n
+    getToBeDeletedMbo()\n
     '''
 def needRefresh():
-    '''public boolean needRefresh()
+    '''returns boolean\n\n
+    needRefresh()\n
     '''
 def getEffectiveDate():
-    '''public Date getEffectiveDate(Date effectivedate)
+    '''returns Date\n\n
+    getEffectiveDate(Date effectivedate)\n
     '''
 def getEffectiveDateTimeMinus():
-    '''public Date getEffectiveDateTimeMinus(Date effectivedate)
+    '''returns Date\n\n
+    getEffectiveDateTimeMinus(Date effectivedate)\n
     '''
 def getEffectiveDateTimePlus():
-    '''public Date getEffectiveDateTimePlus(Date effectivedate)
+    '''returns Date\n\n
+    getEffectiveDateTimePlus(Date effectivedate)\n
     '''
 def getEndDate():
-    '''public Date getEndDate(Date enddate)
+    '''returns Date\n\n
+    getEndDate(Date enddate)\n
     '''
 def getCurrentDate():
-    '''public Date getCurrentDate()
+    '''returns Date\n\n
+    getCurrentDate()\n
     '''
 def removeLaborAssignment():
-    '''public MboSetRemote removeLaborAssignment(final MboRemote unrestrictedMbo, final MboRemote amCrewLab, final String dialogID)
-    public MboSetRemote removeLaborAssignment(final MboRemote unrestrictedMbo, final MboRemote amCrewLab, final String dialogID, final MboRemote collision)
+    '''returns MboSetRemote\n\n
+    removeLaborAssignment(final MboRemote unrestrictedMbo, final MboRemote amCrewLab, final String dialogID)\n
+    removeLaborAssignment(final MboRemote unrestrictedMbo, final MboRemote amCrewLab, final String dialogID, final MboRemote collision)\n
     '''
 def createAMCrewLaborForRemove():
-    '''public void createAMCrewLaborForRemove(final MboRemote unrestrictedMbo, final MboRemote amCrewLab, final String dialogID)
+    '''returns None\n\n
+    createAMCrewLaborForRemove(final MboRemote unrestrictedMbo, final MboRemote amCrewLab, final String dialogID)\n
     '''
 def createAMCrewLabor():
-    '''public void createAMCrewLabor(final MboRemote unrestrictedMbo, final MboRemote owner)
-    public void createAMCrewLabor(final MboRemote unrestrictedMbo, final MboRemote owner, final boolean fromNewRow, final String dialogID)
-    public void createAMCrewLabor(final MboRemote unrestrictedMbo, final MboRemote owner, final boolean fromNewRow)
+    '''returns None\n\n
+    createAMCrewLabor(final MboRemote unrestrictedMbo, final MboRemote owner)\n
+    createAMCrewLabor(final MboRemote unrestrictedMbo, final MboRemote owner, final boolean fromNewRow, final String dialogID)\n
+    createAMCrewLabor(final MboRemote unrestrictedMbo, final MboRemote owner, final boolean fromNewRow)\n
     '''
 def checkExistingLabor():
-    '''public void checkExistingLabor(final MboRemote unrestrictedMbo, final MboRemote owner)
+    '''returns None\n\n
+    checkExistingLabor(final MboRemote unrestrictedMbo, final MboRemote owner)\n
     '''
 def checkForSecondEntry():
-    '''public void checkForSecondEntry(final MboRemote unrestrictedMbo, final MboRemote owner)
+    '''returns None\n\n
+    checkForSecondEntry(final MboRemote unrestrictedMbo, final MboRemote owner)\n
     '''
 def createAMCrewLaborSqEntry():
-    '''public void createAMCrewLaborSqEntry(final MboRemote unrestrictedMbo, final MboRemote owner)
+    '''returns None\n\n
+    createAMCrewLaborSqEntry(final MboRemote unrestrictedMbo, final MboRemote owner)\n
     '''
 def checkPositionSequence():
-    '''public void checkPositionSequence(final MboRemote unrestrictedMbo, final MboRemote owner)
+    '''returns None\n\n
+    checkPositionSequence(final MboRemote unrestrictedMbo, final MboRemote owner)\n
     '''
 def checkSetInMemory():
-    '''public boolean checkSetInMemory(final MboRemote unrestrictedMbo, final MboSetRemote foundCollisions)
-    public boolean checkSetInMemory(final MboRemote unrestrictedMbo, final MboSetRemote foundCollisions, final boolean findAnyOverlap)
+    '''returns boolean\n\n
+    checkSetInMemory(final MboRemote unrestrictedMbo, final MboSetRemote foundCollisions)\n
+    checkSetInMemory(final MboRemote unrestrictedMbo, final MboSetRemote foundCollisions, final boolean findAnyOverlap)\n
     '''
 def isFromNewRow():
-    '''public boolean isFromNewRow()
+    '''returns boolean\n\n
+    isFromNewRow()\n
     '''
 def setFromNewRow():
-    '''public void setFromNewRow(final boolean fromNewRow)
+    '''returns None\n\n
+    setFromNewRow(final boolean fromNewRow)\n
     '''
 def updateStatusTableViewStatusDialog():
-    '''public void updateStatusTableViewStatusDialog()
+    '''returns None\n\n
+    updateStatusTableViewStatusDialog()\n
     '''
 def getEndDateTimePlus():
-    '''public Date getEndDateTimePlus(Date enddate)
+    '''returns Date\n\n
+    getEndDateTimePlus(Date enddate)\n
     '''

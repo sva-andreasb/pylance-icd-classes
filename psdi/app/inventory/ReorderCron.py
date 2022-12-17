@@ -1,45 +1,60 @@
-def ReorderCron():
-    '''public ReorderCron()
+def ():
+    '''returns ReorderCron\n\n
+    ()\n
     '''
 def getStoreRoomList():
-    '''public String[][] getStoreRoomList()
+    '''returns String[][]\n\n
+    getStoreRoomList()\n
     '''
 def getDirectIssueSites():
-    '''public String[] getDirectIssueSites()
+    '''returns String[]\n\n
+    getDirectIssueSites()\n
     '''
 def getLeadTime():
-    '''public int getLeadTime()
+    '''returns int\n\n
+    getLeadTime()\n
     '''
 def getUseAgreement():
-    '''public boolean getUseAgreement()
+    '''returns boolean\n\n
+    getUseAgreement()\n
     '''
 def getToEmail():
-    '''public String getToEmail()
+    '''returns String\n\n
+    getToEmail()\n
     '''
 def getFromEmail():
-    '''public String getFromEmail()
+    '''returns String\n\n
+    getFromEmail()\n
     '''
 def getLogFilePath():
-    '''public String getLogFilePath()
+    '''returns String\n\n
+    getLogFilePath()\n
     '''
 def getInoreReorderPoint():
-    '''public boolean getInoreReorderPoint()
+    '''returns boolean\n\n
+    getInoreReorderPoint()\n
     '''
 def getReorderSoft():
-    '''public boolean getReorderSoft()
+    '''returns boolean\n\n
+    getReorderSoft()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def readConfig():
-    '''public void readConfig()
+    '''returns None\n\n
+    readConfig()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def getParameters():
-    '''public CrontaskParamInfo[] getParameters()
+    '''returns CrontaskParamInfo[]\n\n
+    getParameters()\n
     '''
 def getParameterValidationMbo():
-    '''public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
+    '''returns MboRemote\n\n
+    getParameterValidationMbo(final CrontaskInstanceRemote instance)\n
     '''

@@ -1,6 +1,8 @@
-def StoredProcedureResultImpl():
-    '''public StoredProcedureResultImpl()
+def ():
+    '''returns StoredProcedureResultImpl\n\n
+    ()\n
     '''
 def handleCall():
-    '''public StoredProcedureResult handleCall(final CallableStatement callableStatement)
+    '''returns StoredProcedureResult\n\n
+    handleCall(final CallableStatement callableStatement)\n
     '''

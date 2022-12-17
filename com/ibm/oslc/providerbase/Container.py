@@ -1,15 +1,20 @@
-def Container():
-    '''public Container()
+def ():
+    '''returns Container\n\n
+    ()\n
     '''
 def getIpGroup():
-    '''public List<IpGroup> getIpGroup()
+    '''returns List<IpGroup>\n\n
+    getIpGroup()\n
     '''
 def setIpGroup():
-    '''public void setIpGroup(final List<IpGroup> ipGroups)
+    '''returns None\n\n
+    setIpGroup(final List<IpGroup> ipGroups)\n
     '''
 def getFlavor():
-    '''public List<Flavor> getFlavor()
+    '''returns List<Flavor>\n\n
+    getFlavor()\n
     '''
 def setFlavor():
-    '''public void setFlavor(final List<Flavor> flavors)
+    '''returns None\n\n
+    setFlavor(final List<Flavor> flavors)\n
     '''

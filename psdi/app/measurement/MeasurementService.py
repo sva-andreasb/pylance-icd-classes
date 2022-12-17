@@ -1,10 +1,13 @@
-def MeasurementService():
-    '''public MeasurementService()
-    public MeasurementService(final MXServer mxServer)
+def ():
+    '''returns MeasurementService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getConversionFactor():
-    '''public double getConversionFactor(final UserInfo userInfo, final String fromUOM, final String toUOM)
+    '''returns double\n\n
+    getConversionFactor(final UserInfo userInfo, final String fromUOM, final String toUOM)\n
     '''

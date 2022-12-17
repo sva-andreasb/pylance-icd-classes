@@ -1,43 +1,53 @@
 def registerManagementSoftwareSystem():
-    '''public Guid registerManagementSoftwareSystem(final ManagementSoftwareSystem mss)
+    '''returns Guid\n\n
+    registerManagementSoftwareSystem(final ManagementSoftwareSystem mss)\n
     '''
 def updateManagementSoftwareSystem():
-    '''public Guid updateManagementSoftwareSystem(final ManagementSoftwareSystem mss)
+    '''returns Guid\n\n
+    updateManagementSoftwareSystem(final ManagementSoftwareSystem mss)\n
     '''
 def deleteManagementSoftwareSystem():
-    '''public void deleteManagementSoftwareSystem(final Guid mssGuid)
+    '''returns None\n\n
+    deleteManagementSoftwareSystem(final Guid mssGuid)\n
     '''
 def getManagementSoftwareSystemLinks():
-    '''public MSSObjectLink[] getManagementSoftwareSystemLinks(final Guid guid, final Guid mss, final String[] permissions)
+    '''returns MSSObjectLink[]\n\n
+    getManagementSoftwareSystemLinks(final Guid guid, final Guid mss, final String[] permissions)\n
     '''
 def getManagementSoftwareSystems():
-    '''public ManagementSoftwareSystem[] getManagementSoftwareSystems(final Guid guid, final String[] permissions)
+    '''returns ManagementSoftwareSystem[]\n\n
+    getManagementSoftwareSystems(final Guid guid, final String[] permissions)\n
     '''
 def find():
-    '''public ModelObject find(final Guid guid, final int depth, final Guid mss, final String[] permissions)
+    '''returns ModelObject\n\n
+    find(final Guid guid, final int depth, final Guid mss, final String[] permissions)\n
     '''
 def addRelationships():
-    '''public Guid[] addRelationships(final Relationship[] relationships, final Guid mss)
+    '''returns Guid[]\n\n
+    addRelationships(final Relationship[] relationships, final Guid mss)\n
     '''
 def deleteRelationships():
-    '''public void deleteRelationships(final Guid[] guids, final Guid mss)
-    public void deleteRelationships(final String type, final Guid source, final Guid target, final Guid mss)
+    '''returns None\n\n
+    deleteRelationships(final Guid[] guids, final Guid mss)\n
+    deleteRelationships(final String type, final Guid source, final Guid target, final Guid mss)\n
     '''
 def findRelationships():
-    '''public Relationship[] findRelationships(final Guid managedElementGuid, final int direction, final String type, final int scope, final String[] permissions)
+    '''returns Relationship[]\n\n
+    findRelationships(final Guid managedElementGuid, final int direction, final String type, final int scope, final String[] permissions)\n
     '''
 def deleteStale():
-    '''public void deleteStale(final Guid mss, final long date)
+    '''returns None\n\n
+    deleteStale(final Guid mss, final long date)\n
     '''
 def addCollectionMembers():
-    '''public void addCollectionMembers(final Guid collectionGuid, final Guid[] guids)
+    '''returns None\n\n
+    addCollectionMembers(final Guid collectionGuid, final Guid[] guids)\n
     '''
 def removeCollectionMembers():
-    '''public void removeCollectionMembers(final Guid collectionGuid, final Guid[] guids)
-    '''
-def printRelationship():
-    '''public static void printRelationship(final String title, final ModelObject[] relArray)
+    '''returns None\n\n
+    removeCollectionMembers(final Guid collectionGuid, final Guid[] guids)\n
     '''
 def getValidRelationshipTypes():
-    '''public RelationshipType[] getValidRelationshipTypes(final String sourceClass, final String targetClass)
+    '''returns RelationshipType[]\n\n
+    getValidRelationshipTypes(final String sourceClass, final String targetClass)\n
     '''

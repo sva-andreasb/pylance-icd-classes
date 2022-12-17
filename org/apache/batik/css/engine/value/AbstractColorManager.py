@@ -1,9 +1,12 @@
 def createValue():
-    '''public Value createValue(LexicalUnit lu, final CSSEngine engine)
+    '''returns Value\n\n
+    createValue(LexicalUnit lu, final CSSEngine engine)\n
     '''
 def computeValue():
-    '''public Value computeValue(final CSSStylableElement elt, final String pseudo, final CSSEngine engine, final int idx, final StyleMap sm, final Value value)
+    '''returns Value\n\n
+    computeValue(final CSSStylableElement elt, final String pseudo, final CSSEngine engine, final int idx, final StyleMap sm, final Value value)\n
     '''
 def getIdentifiers():
-    '''public StringMap getIdentifiers()
+    '''returns StringMap\n\n
+    getIdentifiers()\n
     '''

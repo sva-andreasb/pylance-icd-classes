@@ -1,15 +1,12 @@
-def PolicyComp():
-    '''public PolicyComp(final STSession stSession)
-    '''
-def addPolicyListener():
-    '''public synchronized void addPolicyListener(final PolicyListener obj)
-    '''
-def removePolicyListener():
-    '''public synchronized void removePolicyListener(final PolicyListener obj)
+def ():
+    '''returns PolicyComp\n\n
+    (final STSession stSession)\n
     '''
 def query():
-    '''public void query(final String[] array)
+    '''returns None\n\n
+    query(final String[] array)\n
     '''
 def queryAll():
-    '''public void queryAll()
+    '''returns None\n\n
+    queryAll()\n
     '''

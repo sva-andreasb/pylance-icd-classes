@@ -1,6 +1,8 @@
-def PmChgFldWOWONum():
-    '''public PmChgFldWOWONum(final MboValue mbv)
+def ():
+    '''returns PmChgFldWOWONum\n\n
+    (final MboValue mbv)\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String value, final boolean exact)\n
     '''

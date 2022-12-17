@@ -1,6 +1,8 @@
-def FldItemInstance():
-    '''public FldItemInstance(final MboValue mbv)
+def ():
+    '''returns FldItemInstance\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

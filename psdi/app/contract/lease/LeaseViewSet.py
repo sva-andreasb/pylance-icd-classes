@@ -1,3 +1,4 @@
-def LeaseViewSet():
-    '''public LeaseViewSet(final MboServerInterface ms)
+def ():
+    '''returns LeaseViewSet\n\n
+    (final MboServerInterface ms)\n
     '''

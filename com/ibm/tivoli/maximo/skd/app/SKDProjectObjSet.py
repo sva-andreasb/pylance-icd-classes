@@ -1,3 +1,4 @@
-def SKDProjectObjSet():
-    '''public SKDProjectObjSet(final MboServerInterface ms)
+def ():
+    '''returns SKDProjectObjSet\n\n
+    (final MboServerInterface ms)\n
     '''

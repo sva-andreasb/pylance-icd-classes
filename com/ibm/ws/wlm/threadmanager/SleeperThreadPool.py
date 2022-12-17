@@ -1,48 +1,55 @@
-def SleeperThreadPool():
-    '''public SleeperThreadPool(final ThreadPool tPool)
+def ():
+    '''returns SleeperThreadPool\n\n
+    (final ThreadPool tPool)\n
     '''
 def getMinimumPoolSize():
-    '''public int getMinimumPoolSize()
+    '''returns int\n\n
+    getMinimumPoolSize()\n
     '''
 def setMinimumPoolSize():
-    '''public void setMinimumPoolSize(final int newMinimum)
+    '''returns None\n\n
+    setMinimumPoolSize(final int newMinimum)\n
     '''
 def getMaximumPoolSize():
-    '''public int getMaximumPoolSize()
+    '''returns int\n\n
+    getMaximumPoolSize()\n
     '''
 def setMaximumPoolSize():
-    '''public void setMaximumPoolSize(final int newMaximum)
+    '''returns None\n\n
+    setMaximumPoolSize(final int newMaximum)\n
     '''
 def Run():
-    '''public void Run(final Runnable command)
+    '''returns None\n\n
+    Run(final Runnable command)\n
     '''
 def RunInTimeOrder():
-    '''public void RunInTimeOrder(final Runnable command)
-    public void RunInTimeOrder(final Runnable command, final int sleepTime)
+    '''returns None\n\n
+    RunInTimeOrder(final Runnable command)\n
+    RunInTimeOrder(final Runnable command, final int sleepTime)\n
     '''
 def RunAfterLast():
-    '''public void RunAfterLast(final Runnable command)
-    public void RunAfterLast(final Runnable command, final int sleepTime)
+    '''returns None\n\n
+    RunAfterLast(final Runnable command)\n
+    RunAfterLast(final Runnable command, final int sleepTime)\n
     '''
 def run():
-    '''public void run()
-    '''
-def getLongestSleepTime():
-    '''public final int getLongestSleepTime()
-    '''
-def queueLength():
-    '''public final int queueLength()
+    '''returns None\n\n
+    run()\n
     '''
 def getNumberOfFreeThread():
-    '''public int getNumberOfFreeThread()
+    '''returns int\n\n
+    getNumberOfFreeThread()\n
     '''
 def inQueue():
-    '''public boolean inQueue(final Runnable command)
+    '''returns boolean\n\n
+    inQueue(final Runnable command)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''

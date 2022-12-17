@@ -5,9 +5,11 @@ FIELD_ATTRIBUTENAME = "String  \"ATTRIBUTENAME\""
 FIELD_COBIEATTRIBUTE = "String  \"COBIEATTRIBUTE\""
 FIELD_MAXTYPE = "String  \"MAXTYPE\""
 FIELD_ISLDOWNER = "String  \"ISLDOWNER\""
-def BIMAttributeMapEntry():
-    '''public BIMAttributeMapEntry(final MboSet ms)
+def ():
+    '''returns BIMAttributeMapEntry\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

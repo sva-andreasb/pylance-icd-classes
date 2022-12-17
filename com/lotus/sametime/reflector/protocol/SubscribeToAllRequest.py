@@ -1,13 +1,17 @@
-def SubscribeToAllRequest():
-    '''public SubscribeToAllRequest(final boolean subscribe)
-    public SubscribeToAllRequest(final NdrInputStream ndrInputStream)
+def ():
+    '''returns SubscribeToAllRequest\n\n
+    (final boolean subscribe)\n
+    (final NdrInputStream ndrInputStream)\n
     '''
 def getMessageType():
-    '''public short getMessageType()
+    '''returns short\n\n
+    getMessageType()\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def isSubscribe():
-    '''public boolean isSubscribe()
+    '''returns boolean\n\n
+    isSubscribe()\n
     '''

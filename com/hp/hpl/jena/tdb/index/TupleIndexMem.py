@@ -1,22 +1,29 @@
-def TupleIndexMem():
-    '''public TupleIndexMem(final int N, final ColumnMap colMapping)
+def ():
+    '''returns TupleIndexMem\n\n
+    (final int N, final ColumnMap colMapping)\n
     '''
 def all():
-    '''public Iterator<Tuple<NodeId>> all()
+    '''returns Iterator<Tuple<NodeId>>\n\n
+    all()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def size():
-    '''public long size()
+    '''returns long\n\n
+    size()\n
     '''
 def sync():
-    '''public void sync()
-    public void sync(final boolean force)
+    '''returns None\n\n
+    sync()\n
+    sync(final boolean force)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

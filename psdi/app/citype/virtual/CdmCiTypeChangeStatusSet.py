@@ -1,3 +1,4 @@
-def CdmCiTypeChangeStatusSet():
-    '''public CdmCiTypeChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns CdmCiTypeChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

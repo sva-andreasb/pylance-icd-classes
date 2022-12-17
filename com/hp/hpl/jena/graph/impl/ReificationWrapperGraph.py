@@ -1,16 +1,21 @@
-def ReificationWrapperGraph():
-    '''public ReificationWrapperGraph(final Graph base, final ReificationStyle style)
+def ():
+    '''returns ReificationWrapperGraph\n\n
+    (final Graph base, final ReificationStyle style)\n
     '''
 def getBase():
-    '''public Graph getBase()
+    '''returns Graph\n\n
+    getBase()\n
     '''
 def find():
-    '''public ExtendedIterator<Triple> find(final TripleMatch tm)
-    public ExtendedIterator<Triple> find(final Node s, final Node p, final Node o)
+    '''returns ExtendedIterator<Triple>\n\n
+    find(final TripleMatch tm)\n
+    find(final Node s, final Node p, final Node o)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

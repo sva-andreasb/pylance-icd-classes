@@ -1,9 +1,12 @@
-def FldReportStyle():
-    '''public FldReportStyle(final MboValue mbv)
+def ():
+    '''returns FldReportStyle\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

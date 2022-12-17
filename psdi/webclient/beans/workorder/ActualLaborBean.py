@@ -1,9 +1,12 @@
 def aclabor():
-    '''public int aclabor()
+    '''returns int\n\n
+    aclabor()\n
     '''
 def selectlaboronactuals():
-    '''public int selectlaboronactuals()
+    '''returns int\n\n
+    selectlaboronactuals()\n
     '''
 def enterbycrew():
-    '''public int enterbycrew()
+    '''returns int\n\n
+    enterbycrew()\n
     '''

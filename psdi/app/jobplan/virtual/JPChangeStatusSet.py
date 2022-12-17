@@ -1,3 +1,4 @@
-def JPChangeStatusSet():
-    '''public JPChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns JPChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

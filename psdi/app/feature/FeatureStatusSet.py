@@ -1,3 +1,4 @@
-def FeatureStatusSet():
-    '''public FeatureStatusSet(final MboServerInterface ms)
+def ():
+    '''returns FeatureStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

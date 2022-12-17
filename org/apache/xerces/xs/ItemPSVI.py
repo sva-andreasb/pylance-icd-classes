@@ -1,0 +1,6 @@
+VALIDITY_NOTKNOWN = "short  0"
+VALIDITY_INVALID = "short  1"
+VALIDITY_VALID = "short  2"
+VALIDATION_NONE = "short  0"
+VALIDATION_PARTIAL = "short  1"
+VALIDATION_FULL = "short  2"

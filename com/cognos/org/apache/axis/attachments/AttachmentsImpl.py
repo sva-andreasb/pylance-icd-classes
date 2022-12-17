@@ -1,63 +1,78 @@
-def AttachmentsImpl():
-    '''public AttachmentsImpl(final Object intialContents, final String contentType, String contentLocation)
+def ():
+    '''returns AttachmentsImpl\n\n
+    (final Object intialContents, final String contentType, String contentLocation)\n
     '''
 def removeAttachmentPart():
-    '''public Part removeAttachmentPart(final String reference)
+    '''returns Part\n\n
+    removeAttachmentPart(final String reference)\n
     '''
 def addAttachmentPart():
-    '''public Part addAttachmentPart(final Part newPart)
+    '''returns Part\n\n
+    addAttachmentPart(final Part newPart)\n
     '''
 def createAttachmentPart():
-    '''public Part createAttachmentPart(final Object datahandler)
-    public Part createAttachmentPart()
+    '''returns Part\n\n
+    createAttachmentPart(final Object datahandler)\n
+    createAttachmentPart()\n
     '''
 def setAttachmentParts():
-    '''public void setAttachmentParts(final Collection parts)
+    '''returns None\n\n
+    setAttachmentParts(final Collection parts)\n
     '''
 def getAttachmentByReference():
-    '''public Part getAttachmentByReference(String reference)
+    '''returns Part\n\n
+    getAttachmentByReference(String reference)\n
     '''
 def getAttachments():
-    '''public Collection getAttachments()
-    public Iterator getAttachments(final MimeHeaders headers)
+    '''returns Iterator\n\n
+    getAttachments()\n
+    getAttachments(final MimeHeaders headers)\n
     '''
 def getRootPart():
-    '''public Part getRootPart()
+    '''returns Part\n\n
+    getRootPart()\n
     '''
 def setRootPart():
-    '''public void setRootPart(final Part newRoot)
+    '''returns None\n\n
+    setRootPart(final Part newRoot)\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def writeContentToStream():
-    '''public void writeContentToStream(final OutputStream os)
+    '''returns None\n\n
+    writeContentToStream(final OutputStream os)\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getAttachmentCount():
-    '''public int getAttachmentCount()
+    '''returns int\n\n
+    getAttachmentCount()\n
     '''
 def isAttachment():
-    '''public boolean isAttachment(final Object value)
+    '''returns boolean\n\n
+    isAttachment(final Object value)\n
     '''
 def removeAllAttachments():
-    '''public void removeAllAttachments()
+    '''returns None\n\n
+    removeAllAttachments()\n
     '''
 def setSendType():
-    '''public void setSendType(final int sendtype)
+    '''returns None\n\n
+    setSendType(final int sendtype)\n
     '''
 def getSendType():
-    '''public int getSendType()
-    public static int getSendType(final String value)
+    '''returns int\n\n
+    getSendType()\n
     '''
 def dispose():
-    '''public void dispose()
-    '''
-def getSendTypeString():
-    '''public static String getSendTypeString(final int value)
+    '''returns None\n\n
+    dispose()\n
     '''
 def getIncomingAttachmentStreams():
-    '''public IncomingAttachmentStreams getIncomingAttachmentStreams()
+    '''returns IncomingAttachmentStreams\n\n
+    getIncomingAttachmentStreams()\n
     '''

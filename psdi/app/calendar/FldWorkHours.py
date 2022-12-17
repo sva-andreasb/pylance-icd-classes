@@ -1,6 +1,8 @@
-def FldWorkHours():
-    '''public FldWorkHours(final MboValue mbv)
+def ():
+    '''returns FldWorkHours\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

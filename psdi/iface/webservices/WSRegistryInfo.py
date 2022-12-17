@@ -1,72 +1,96 @@
-def WSRegistryInfo():
-    '''public WSRegistryInfo()
+def ():
+    '''returns WSRegistryInfo\n\n
+    ()\n
     '''
 def getWSName():
-    '''public String getWSName()
+    '''returns String\n\n
+    getWSName()\n
     '''
 def setWSName():
-    '''public void setWSName(final String c)
+    '''returns None\n\n
+    setWSName(final String c)\n
     '''
 def getDescriprion():
-    '''public String getDescriprion()
+    '''returns String\n\n
+    getDescriprion()\n
     '''
 def getLongDescription():
-    '''public String getLongDescription()
+    '''returns String\n\n
+    getLongDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String e)
+    '''returns None\n\n
+    setDescription(final String e)\n
     '''
 def getSourceName():
-    '''public String getSourceName()
+    '''returns String\n\n
+    getSourceName()\n
     '''
 def setSourceName():
-    '''public void setSourceName(final String e)
+    '''returns None\n\n
+    setSourceName(final String e)\n
     '''
 def getSource():
-    '''public String getSource()
+    '''returns String\n\n
+    getSource()\n
     '''
 def setSource():
-    '''public void setSource(final String e)
+    '''returns None\n\n
+    setSource(final String e)\n
     '''
 def setIsDeployed():
-    '''public void setIsDeployed(final int def)
+    '''returns None\n\n
+    setIsDeployed(final int def)\n
     '''
 def isDeployed():
-    '''public boolean isDeployed()
+    '''returns boolean\n\n
+    isDeployed()\n
     '''
 def setServiceName():
-    '''public void setServiceName(final String rc)
+    '''returns None\n\n
+    setServiceName(final String rc)\n
     '''
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def setExtSystem():
-    '''public void setExtSystem(final String rc)
+    '''returns None\n\n
+    setExtSystem(final String rc)\n
     '''
 def getExtSystem():
-    '''public String getExtSystem()
+    '''returns String\n\n
+    getExtSystem()\n
     '''
 def setServiceImplClassName():
-    '''public void setServiceImplClassName(final String rc)
+    '''returns None\n\n
+    setServiceImplClassName(final String rc)\n
     '''
 def setSOAPVersion():
-    '''public void setSOAPVersion(final String rc)
+    '''returns None\n\n
+    setSOAPVersion(final String rc)\n
     '''
 def getServiceImplClassName():
-    '''public String getServiceImplClassName()
+    '''returns String\n\n
+    getServiceImplClassName()\n
     '''
 def getSOAPVersion():
-    '''public String getSOAPVersion()
+    '''returns String\n\n
+    getSOAPVersion()\n
     '''
 def setIsSynchronous():
-    '''public void setIsSynchronous(final int rp)
+    '''returns None\n\n
+    setIsSynchronous(final int rp)\n
     '''
 def isSynchronous():
-    '''public boolean isSynchronous()
+    '''returns boolean\n\n
+    isSynchronous()\n
     '''
 def addOperations():
-    '''public void addOperations(final String wsname, final String source, final String serviceName)
+    '''returns None\n\n
+    addOperations(final String wsname, final String source, final String serviceName)\n
     '''
 def getOperations():
-    '''public List<WSOperationInfo> getOperations()
+    '''returns List<WSOperationInfo>\n\n
+    getOperations()\n
     '''

@@ -1,11 +1,13 @@
 SELECTALL_CMD = "String  \"SELECTALL\""
 DESELECTALL_CMD = "String  \"DESELECTALL\""
-def FWMAllRowsAction():
-    '''public FWMAllRowsAction(final String arg0, final Icon arg1, final KeyStroke arg2, final String arg3, final String arg4)
-    public FWMAllRowsAction(final String arg0, final Icon arg1, final KeyStroke arg2)
-    public FWMAllRowsAction(final String arg0, final Icon arg1)
-    public FWMAllRowsAction(final String arg0)
+def ():
+    '''returns FWMAllRowsAction\n\n
+    (final String arg0, final Icon arg1, final KeyStroke arg2, final String arg3, final String arg4)\n
+    (final String arg0, final Icon arg1, final KeyStroke arg2)\n
+    (final String arg0, final Icon arg1)\n
+    (final String arg0)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''

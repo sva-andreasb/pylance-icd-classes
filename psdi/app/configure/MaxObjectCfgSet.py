@@ -1,30 +1,40 @@
-def MaxObjectCfgSet():
-    '''public MaxObjectCfgSet(final MboServerInterface ms)
+def ():
+    '''returns MaxObjectCfgSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def finalize():
-    '''public void finalize()
+    '''returns None\n\n
+    finalize()\n
     '''
 def getViewChangedOrderBy():
-    '''public String getViewChangedOrderBy()
+    '''returns String\n\n
+    getViewChangedOrderBy()\n
     '''
 def setOrderBy():
-    '''public void setOrderBy(String orderByClause)
+    '''returns None\n\n
+    setOrderBy(String orderByClause)\n
     '''
 def getValueCHANGE():
-    '''public String getValueCHANGE()
+    '''returns String\n\n
+    getValueCHANGE()\n
     '''
 def getGLMaxtypeLength():
-    '''public int getGLMaxtypeLength()
+    '''returns int\n\n
+    getGLMaxtypeLength()\n
     '''
 def setGLMaxtypeLength():
-    '''public void setGLMaxtypeLength(final int newLength)
+    '''returns None\n\n
+    setGLMaxtypeLength(final int newLength)\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''
 def resetQbe():
-    '''public void resetQbe()
+    '''returns None\n\n
+    resetQbe()\n
     '''

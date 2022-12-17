@@ -1,6 +1,8 @@
-def FastUUIDGen():
-    '''public FastUUIDGen()
+def ():
+    '''returns FastUUIDGen\n\n
+    ()\n
     '''
 def nextUUID():
-    '''public String nextUUID()
+    '''returns String\n\n
+    nextUUID()\n
     '''

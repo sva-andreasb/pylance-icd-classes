@@ -1,3 +1,4 @@
-def PlusPPSFeeSet():
-    '''public PlusPPSFeeSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPPSFeeSet\n\n
+    (final MboServerInterface ms)\n
     '''

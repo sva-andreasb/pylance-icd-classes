@@ -1,47 +1,57 @@
-def TIFFDirectory():
-    '''public TIFFDirectory(final SeekableStream stream, final int directory)
-    public TIFFDirectory(final SeekableStream stream, long ifdOffset, final int directory)
+def ():
+    '''returns TIFFDirectory\n\n
+    (final SeekableStream stream, final int directory)\n
+    (final SeekableStream stream, long ifdOffset, final int directory)\n
     '''
 def getNumEntries():
-    '''public int getNumEntries()
+    '''returns int\n\n
+    getNumEntries()\n
     '''
 def getField():
-    '''public TIFFField getField(final int tag)
+    '''returns TIFFField\n\n
+    getField(final int tag)\n
     '''
 def isTagPresent():
-    '''public boolean isTagPresent(final int tag)
+    '''returns boolean\n\n
+    isTagPresent(final int tag)\n
     '''
 def getTags():
-    '''public int[] getTags()
+    '''returns int[]\n\n
+    getTags()\n
     '''
 def getFields():
-    '''public TIFFField[] getFields()
+    '''returns TIFFField[]\n\n
+    getFields()\n
     '''
 def getFieldAsByte():
-    '''public byte getFieldAsByte(final int tag, final int index)
-    public byte getFieldAsByte(final int tag)
+    '''returns byte\n\n
+    getFieldAsByte(final int tag, final int index)\n
+    getFieldAsByte(final int tag)\n
     '''
 def getFieldAsLong():
-    '''public long getFieldAsLong(final int tag, final int index)
-    public long getFieldAsLong(final int tag)
+    '''returns long\n\n
+    getFieldAsLong(final int tag, final int index)\n
+    getFieldAsLong(final int tag)\n
     '''
 def getFieldAsFloat():
-    '''public float getFieldAsFloat(final int tag, final int index)
-    public float getFieldAsFloat(final int tag)
+    '''returns float\n\n
+    getFieldAsFloat(final int tag, final int index)\n
+    getFieldAsFloat(final int tag)\n
     '''
 def getFieldAsDouble():
-    '''public double getFieldAsDouble(final int tag, final int index)
-    public double getFieldAsDouble(final int tag)
-    '''
-def getNumDirectories():
-    '''public static int getNumDirectories(final SeekableStream stream)
+    '''returns double\n\n
+    getFieldAsDouble(final int tag, final int index)\n
+    getFieldAsDouble(final int tag)\n
     '''
 def isBigEndian():
-    '''public boolean isBigEndian()
+    '''returns boolean\n\n
+    isBigEndian()\n
     '''
 def getIFDOffset():
-    '''public long getIFDOffset()
+    '''returns long\n\n
+    getIFDOffset()\n
     '''
 def getNextIFDOffset():
-    '''public long getNextIFDOffset()
+    '''returns long\n\n
+    getNextIFDOffset()\n
     '''

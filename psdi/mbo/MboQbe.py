@@ -1,108 +1,138 @@
-def MboQbe():
-    '''public MboQbe(final MboSetInfo ms, final boolean processML, final UserInfo userInfo)
-    public MboQbe(final MboSetInfo ms, final Locale l, final TimeZone tz, final boolean ml, final UserInfo userInfo)
+def ():
+    '''returns AttributeExpressions\n\n
+    (final MboSetInfo ms, final boolean processML, final UserInfo userInfo)\n
+    (final MboSetInfo ms, final Locale l, final TimeZone tz, final boolean ml, final UserInfo userInfo)\n
+    (final String attrStrg)\n
     '''
 def addSubQbe():
-    '''public void addSubQbe(final String name, final String[] attributes, final String op, final boolean exactMatch)
-    public void addSubQbe(final String name, final String[] attributes, final String operator)
+    '''returns None\n\n
+    addSubQbe(final String name, final String[] attributes, final String op, final boolean exactMatch)\n
+    addSubQbe(final String name, final String[] attributes, final String operator)\n
     '''
 def setCaseSensitive():
-    '''public void setCaseSensitive(final boolean state)
+    '''returns None\n\n
+    setCaseSensitive(final boolean state)\n
     '''
 def isCaseSensitive():
-    '''public boolean isCaseSensitive()
+    '''returns boolean\n\n
+    isCaseSensitive()\n
     '''
 def setOperatorOr():
-    '''public void setOperatorOr()
+    '''returns None\n\n
+    setOperatorOr()\n
     '''
 def setOperatorAnd():
-    '''public void setOperatorAnd()
+    '''returns None\n\n
+    setOperatorAnd()\n
     '''
 def getOperator():
-    '''public String getOperator()
+    '''returns String\n\n
+    getOperator()\n
     '''
 def setExactMatch():
-    '''public void setExactMatch(final boolean state)
+    '''returns None\n\n
+    setExactMatch(final boolean state)\n
     '''
 def isExactMatch():
-    '''public boolean isExactMatch()
+    '''returns boolean\n\n
+    isExactMatch()\n
     '''
 def ignoreQbeExactMatchSet():
-    '''public void ignoreQbeExactMatchSet(final boolean flag)
+    '''returns None\n\n
+    ignoreQbeExactMatchSet(final boolean flag)\n
     '''
 def isIgnoreQbeExactMatchSet():
-    '''public boolean isIgnoreQbeExactMatchSet()
+    '''returns boolean\n\n
+    isIgnoreQbeExactMatchSet()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale l, final TimeZone t)
+    '''returns None\n\n
+    setLocale(final Locale l, final TimeZone t)\n
     '''
 def setQbe():
-    '''public void setQbe(final String[] attr, final String exp)
-    public void setQbe(final String[] attr, final String[] exp)
-    public void setQbe(final String attr, final String[] exp)
-    public void setQbe(final String attr, final String expr)
+    '''returns None\n\n
+    setQbe(final String[] attr, final String exp)\n
+    setQbe(final String[] attr, final String[] exp)\n
+    setQbe(final String attr, final String[] exp)\n
+    setQbe(final String attr, final String expr)\n
     '''
 def setWhereQbe():
-    '''public void setWhereQbe(final String attrStr, final String value, final String clause)
-    public void setWhereQbe(final boolean isWhereWbe)
+    '''returns None\n\n
+    setWhereQbe(final String attrStr, final String value, final String clause)\n
+    setWhereQbe(final boolean isWhereWbe)\n
     '''
 def getAllQbeKeys():
-    '''public Enumeration getAllQbeKeys()
+    '''returns Enumeration\n\n
+    getAllQbeKeys()\n
     '''
 def getQbe():
-    '''public String getQbe(final String attrStr)
-    public String[][] getQbe()
+    '''returns String[][]\n\n
+    getQbe(final String attrStr)\n
+    getQbe()\n
     '''
 def resetQbe():
-    '''public void resetQbe()
+    '''returns None\n\n
+    resetQbe()\n
     '''
 def getWhere():
-    '''public String getWhere()
-    public String getWhere(final String alias)
-    '''
-def AttributeExpressions():
-    '''public AttributeExpressions(final String attrStrg)
+    '''returns String\n\n
+    getWhere()\n
+    getWhere(final String alias)\n
     '''
 def setValue():
-    '''public void setValue(final String val)
-    public void setValue(final String[] val)
+    '''returns None\n\n
+    setValue(final String val)\n
+    setValue(final String[] val)\n
     '''
 def isWildCardPresentAtFirst():
-    '''public boolean isWildCardPresentAtFirst(final String expr)
+    '''returns boolean\n\n
+    isWildCardPresentAtFirst(final String expr)\n
     '''
 def isWildCardPresentAtLast():
-    '''public boolean isWildCardPresentAtLast(final String expr)
+    '''returns boolean\n\n
+    isWildCardPresentAtLast(final String expr)\n
     '''
 def isWildCardPresent():
-    '''public boolean isWildCardPresent(final String expr)
+    '''returns boolean\n\n
+    isWildCardPresent(final String expr)\n
     '''
 def getGuiFieldName():
-    '''public String getGuiFieldName()
+    '''returns String\n\n
+    getGuiFieldName()\n
     '''
 def getMboName():
-    '''public String getMboName()
+    '''returns String\n\n
+    getMboName()\n
     '''
 def getAttribute():
-    '''public String getAttribute()
+    '''returns String\n\n
+    getAttribute()\n
     '''
 def getPrepend():
-    '''public String getPrepend()
+    '''returns String\n\n
+    getPrepend()\n
     '''
 def getQbeKey():
-    '''public String getQbeKey()
+    '''returns String\n\n
+    getQbeKey()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setUnparsedValue():
-    '''public void setUnparsedValue(final String val)
+    '''returns None\n\n
+    setUnparsedValue(final String val)\n
     '''
 def getWhereSnippet():
-    '''public String getWhereSnippet(final String alias)
+    '''returns String\n\n
+    getWhereSnippet(final String alias)\n
     '''
 def sZettUpperCase():
-    '''public String sZettUpperCase(final String str)
+    '''returns String\n\n
+    sZettUpperCase(final String str)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

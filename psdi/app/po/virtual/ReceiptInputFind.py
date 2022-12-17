@@ -1,6 +1,8 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
-def ReceiptInputFind():
-    '''public ReceiptInputFind(final MboSet ms)
+def ():
+    '''returns ReceiptInputFind\n\n
+    (final MboSet ms)\n
     '''

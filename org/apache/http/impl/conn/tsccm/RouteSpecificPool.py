@@ -1,49 +1,53 @@
-def RouteSpecificPool():
-    '''public RouteSpecificPool(final HttpRoute route, final int maxEntries)
-    public RouteSpecificPool(final HttpRoute route, final ConnPerRoute connPerRoute)
+def ():
+    '''returns RouteSpecificPool\n\n
+    (final HttpRoute route, final int maxEntries)\n
+    (final HttpRoute route, final ConnPerRoute connPerRoute)\n
     '''
 def getMaxForRoute():
-    '''public int getMaxForRoute(final HttpRoute unused)
-    '''
-def getRoute():
-    '''public final HttpRoute getRoute()
-    '''
-def getMaxEntries():
-    '''public final int getMaxEntries()
+    '''returns int\n\n
+    getMaxForRoute(final HttpRoute unused)\n
     '''
 def isUnused():
-    '''public boolean isUnused()
+    '''returns boolean\n\n
+    isUnused()\n
     '''
 def getCapacity():
-    '''public int getCapacity()
-    '''
-def getEntryCount():
-    '''public final int getEntryCount()
+    '''returns int\n\n
+    getCapacity()\n
     '''
 def allocEntry():
-    '''public BasicPoolEntry allocEntry(final Object state)
+    '''returns BasicPoolEntry\n\n
+    allocEntry(final Object state)\n
     '''
 def freeEntry():
-    '''public void freeEntry(final BasicPoolEntry entry)
+    '''returns None\n\n
+    freeEntry(final BasicPoolEntry entry)\n
     '''
 def createdEntry():
-    '''public void createdEntry(final BasicPoolEntry entry)
+    '''returns None\n\n
+    createdEntry(final BasicPoolEntry entry)\n
     '''
 def deleteEntry():
-    '''public boolean deleteEntry(final BasicPoolEntry entry)
+    '''returns boolean\n\n
+    deleteEntry(final BasicPoolEntry entry)\n
     '''
 def dropEntry():
-    '''public void dropEntry()
+    '''returns None\n\n
+    dropEntry()\n
     '''
 def queueThread():
-    '''public void queueThread(final WaitingThread wt)
+    '''returns None\n\n
+    queueThread(final WaitingThread wt)\n
     '''
 def hasThread():
-    '''public boolean hasThread()
+    '''returns boolean\n\n
+    hasThread()\n
     '''
 def nextThread():
-    '''public WaitingThread nextThread()
+    '''returns WaitingThread\n\n
+    nextThread()\n
     '''
 def removeThread():
-    '''public void removeThread(final WaitingThread wt)
+    '''returns None\n\n
+    removeThread(final WaitingThread wt)\n
     '''

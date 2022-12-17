@@ -1,81 +1,108 @@
 def getLowSrc():
-    '''public String getLowSrc()
+    '''returns String\n\n
+    getLowSrc()\n
     '''
 def setLowSrc():
-    '''public void setLowSrc(final String s)
+    '''returns None\n\n
+    setLowSrc(final String s)\n
     '''
 def getSrc():
-    '''public String getSrc()
+    '''returns String\n\n
+    getSrc()\n
     '''
 def setSrc():
-    '''public void setSrc(final String s)
+    '''returns None\n\n
+    setSrc(final String s)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getAlign():
-    '''public String getAlign()
+    '''returns String\n\n
+    getAlign()\n
     '''
 def setAlign():
-    '''public void setAlign(final String s)
+    '''returns None\n\n
+    setAlign(final String s)\n
     '''
 def getAlt():
-    '''public String getAlt()
+    '''returns String\n\n
+    getAlt()\n
     '''
 def setAlt():
-    '''public void setAlt(final String s)
+    '''returns None\n\n
+    setAlt(final String s)\n
     '''
 def getBorder():
-    '''public String getBorder()
+    '''returns String\n\n
+    getBorder()\n
     '''
 def setBorder():
-    '''public void setBorder(final String s)
+    '''returns None\n\n
+    setBorder(final String s)\n
     '''
 def getHeight():
-    '''public String getHeight()
+    '''returns String\n\n
+    getHeight()\n
     '''
 def setHeight():
-    '''public void setHeight(final String s)
+    '''returns None\n\n
+    setHeight(final String s)\n
     '''
 def getHspace():
-    '''public String getHspace()
+    '''returns String\n\n
+    getHspace()\n
     '''
 def setHspace():
-    '''public void setHspace(final String s)
+    '''returns None\n\n
+    setHspace(final String s)\n
     '''
 def getIsMap():
-    '''public boolean getIsMap()
+    '''returns boolean\n\n
+    getIsMap()\n
     '''
 def setIsMap():
-    '''public void setIsMap(final boolean b)
+    '''returns None\n\n
+    setIsMap(final boolean b)\n
     '''
 def getLongDesc():
-    '''public String getLongDesc()
+    '''returns String\n\n
+    getLongDesc()\n
     '''
 def setLongDesc():
-    '''public void setLongDesc(final String s)
+    '''returns None\n\n
+    setLongDesc(final String s)\n
     '''
 def getUseMap():
-    '''public String getUseMap()
+    '''returns String\n\n
+    getUseMap()\n
     '''
 def setUseMap():
-    '''public void setUseMap(final String s)
+    '''returns None\n\n
+    setUseMap(final String s)\n
     '''
 def getVspace():
-    '''public String getVspace()
+    '''returns String\n\n
+    getVspace()\n
     '''
 def setVspace():
-    '''public void setVspace(final String s)
+    '''returns None\n\n
+    setVspace(final String s)\n
     '''
 def getWidth():
-    '''public String getWidth()
+    '''returns String\n\n
+    getWidth()\n
     '''
 def setWidth():
-    '''public void setWidth(final String s)
+    '''returns None\n\n
+    setWidth(final String s)\n
     '''
-def HTMLImageElementImpl():
-    '''public HTMLImageElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLImageElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

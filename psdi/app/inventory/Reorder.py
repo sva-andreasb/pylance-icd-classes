@@ -1,34 +1,45 @@
-def Reorder():
-    '''public Reorder(final MboSet ms)
+def ():
+    '''returns Reorder\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def toExtString():
-    '''public String toExtString()
+    '''returns String\n\n
+    toExtString()\n
     '''
 def processVendorAndCost():
-    '''public void processVendorAndCost(final boolean considerContract, final int allowanceDays)
-    public void processVendorAndCost(final boolean considerContract, final int allowanceDays, final boolean recheckLeadTime)
+    '''returns None\n\n
+    processVendorAndCost(final boolean considerContract, final int allowanceDays)\n
+    processVendorAndCost(final boolean considerContract, final int allowanceDays, final boolean recheckLeadTime)\n
     '''
 def generatePRHeader():
-    '''public PRRemote generatePRHeader(final PRSetRemote prSet)
+    '''returns PRRemote\n\n
+    generatePRHeader(final PRSetRemote prSet)\n
     '''
 def generatePOHeader():
-    '''public PORemote generatePOHeader(final POSetRemote poSet)
+    '''returns PORemote\n\n
+    generatePOHeader(final POSetRemote poSet)\n
     '''
 def generatePRLine():
-    '''public void generatePRLine(final PRRemote pr, final boolean groupByVender)
+    '''returns None\n\n
+    generatePRLine(final PRRemote pr, final boolean groupByVender)\n
     '''
 def getInternalLineType():
-    '''public String getInternalLineType()
+    '''returns String\n\n
+    getInternalLineType()\n
     '''
 def generatePOLine():
-    '''public void generatePOLine(final PRRemote po, final boolean groupByVender)
+    '''returns None\n\n
+    generatePOLine(final PRRemote po, final boolean groupByVender)\n
     '''
 def calculateReorderQtywithInventory():
-    '''public void calculateReorderQtywithInventory(final MboRemote inventoryMbo)
+    '''returns None\n\n
+    calculateReorderQtywithInventory(final MboRemote inventoryMbo)\n
     '''
 def setIgnoreReorderPoint():
-    '''public void setIgnoreReorderPoint(final boolean ignoreReorderPointParam)
+    '''returns None\n\n
+    setIgnoreReorderPoint(final boolean ignoreReorderPointParam)\n
     '''

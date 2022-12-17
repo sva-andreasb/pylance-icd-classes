@@ -1,33 +1,29 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def SyncGroupRequest():
-    '''public SyncGroupRequest(final Struct struct, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final String groupId, final int generationId, final String memberId, final Map<String, ByteBuffer> groupAssignment)\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def groupId():
-    '''public String groupId()
+    '''returns String\n\n
+    groupId()\n
     '''
 def generationId():
-    '''public int generationId()
-    '''
-def groupAssignment():
-    '''public Map<String, ByteBuffer> groupAssignment()
+    '''returns int\n\n
+    generationId()\n
     '''
 def memberId():
-    '''public String memberId()
-    '''
-def parse():
-    '''public static SyncGroupRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final String groupId, final int generationId, final String memberId, final Map<String, ByteBuffer> groupAssignment)
+    '''returns String\n\n
+    memberId()\n
     '''
 def build():
-    '''public SyncGroupRequest build(final short version)
+    '''returns SyncGroupRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

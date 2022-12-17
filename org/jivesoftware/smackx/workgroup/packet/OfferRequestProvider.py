@@ -1,26 +1,30 @@
 ELEMENT = "String  \"offer\""
 NAMESPACE = "String  \"http://jabber.org/protocol/workgroup\""
 def parse():
-    '''public OfferRequestPacket parse(final XmlPullParser parser, final int initialDepth)
+    '''returns OfferRequestPacket\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''
-def OfferRequestPacket():
-    '''public OfferRequestPacket(final Jid userJID, final Jid userID, final int timeout, final Map<String, List<String>> metaData, final String sessionID, final OfferContent content)
+def ():
+    '''returns OfferRequestPacket\n\n
+    (final Jid userJID, final Jid userID, final int timeout, final Map<String, List<String>> metaData, final String sessionID, final OfferContent content)\n
     '''
 def getUserID():
-    '''public Jid getUserID()
+    '''returns Jid\n\n
+    getUserID()\n
     '''
 def getUserJID():
-    '''public Jid getUserJID()
+    '''returns Jid\n\n
+    getUserJID()\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def getTimeout():
-    '''public int getTimeout()
+    '''returns int\n\n
+    getTimeout()\n
     '''
 def getContent():
-    '''public OfferContent getContent()
-    '''
-def getMetaData():
-    '''public Map<String, List<String>> getMetaData()
+    '''returns OfferContent\n\n
+    getContent()\n
     '''

@@ -1,24 +1,28 @@
 def getFamily():
-    '''public String getFamily()
-    '''
-def getComponentType():
-    '''public static String getComponentType()
+    '''returns String\n\n
+    getFamily()\n
     '''
 def getValue():
-    '''public IlvGanttModel getValue()
+    '''returns IlvGanttModel\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final IlvGanttModel a)
+    '''returns None\n\n
+    setValue(final IlvGanttModel a)\n
     '''
 def isRefreshData():
-    '''public boolean isRefreshData()
+    '''returns boolean\n\n
+    isRefreshData()\n
     '''
 def setRefreshData():
-    '''public void setRefreshData(final boolean b)
+    '''returns None\n\n
+    setRefreshData(final boolean b)\n
     '''
 def createModel():
-    '''public IlvGanttModel createModel()
+    '''returns IlvGanttModel\n\n
+    createModel()\n
     '''
 def updateModel():
-    '''public void updateModel(final FacesContext facesContext)
+    '''returns None\n\n
+    updateModel(final FacesContext facesContext)\n
     '''

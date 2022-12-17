@@ -1,6 +1,8 @@
-def FldCommonFinishDate():
-    '''public FldCommonFinishDate(final MboValue mbv)
+def ():
+    '''returns FldCommonFinishDate\n\n
+    (final MboValue mbv)\n
     '''
 def resolveServerStartVSZeroSecondsFinish():
-    '''public boolean resolveServerStartVSZeroSecondsFinish()
+    '''returns boolean\n\n
+    resolveServerStartVSZeroSecondsFinish()\n
     '''

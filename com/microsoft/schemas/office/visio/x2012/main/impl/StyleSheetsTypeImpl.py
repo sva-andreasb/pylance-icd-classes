@@ -1,26 +1,34 @@
-def StyleSheetsTypeImpl():
-    '''public StyleSheetsTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns StyleSheetsTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getStyleSheetList():
-    '''public List<StyleSheetType> getStyleSheetList()
+    '''returns List<StyleSheetType>\n\n
+    getStyleSheetList()\n
     '''
 def getStyleSheetArray():
-    '''public StyleSheetType[] getStyleSheetArray()
-    public StyleSheetType getStyleSheetArray(final int n)
+    '''returns StyleSheetType\n\n
+    getStyleSheetArray()\n
+    getStyleSheetArray(final int n)\n
     '''
 def sizeOfStyleSheetArray():
-    '''public int sizeOfStyleSheetArray()
+    '''returns int\n\n
+    sizeOfStyleSheetArray()\n
     '''
 def setStyleSheetArray():
-    '''public void setStyleSheetArray(final StyleSheetType[] array)
-    public void setStyleSheetArray(final int n, final StyleSheetType styleSheetType)
+    '''returns None\n\n
+    setStyleSheetArray(final StyleSheetType[] array)\n
+    setStyleSheetArray(final int n, final StyleSheetType styleSheetType)\n
     '''
 def insertNewStyleSheet():
-    '''public StyleSheetType insertNewStyleSheet(final int n)
+    '''returns StyleSheetType\n\n
+    insertNewStyleSheet(final int n)\n
     '''
 def addNewStyleSheet():
-    '''public StyleSheetType addNewStyleSheet()
+    '''returns StyleSheetType\n\n
+    addNewStyleSheet()\n
     '''
 def removeStyleSheet():
-    '''public void removeStyleSheet(final int n)
+    '''returns None\n\n
+    removeStyleSheet(final int n)\n
     '''

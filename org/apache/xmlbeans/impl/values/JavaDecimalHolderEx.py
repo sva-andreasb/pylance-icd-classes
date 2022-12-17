@@ -1,0 +1,8 @@
+def schemaType():
+    '''returns SchemaType\n\n
+    schemaType()\n
+    '''
+def ():
+    '''returns JavaDecimalHolderEx\n\n
+    (final SchemaType type, final boolean complex)\n
+    '''

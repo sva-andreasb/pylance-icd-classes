@@ -11,297 +11,363 @@ JAVA_1_4 = "String  \"1.4\""
 TOKEN_START = "String  \"@\""
 TOKEN_END = "String  \"@\""
 def setInputHandler():
-    '''public void setInputHandler(final InputHandler handler)
+    '''returns None\n\n
+    setInputHandler(final InputHandler handler)\n
     '''
 def setDefaultInputStream():
-    '''public void setDefaultInputStream(final InputStream defaultInputStream)
+    '''returns None\n\n
+    setDefaultInputStream(final InputStream defaultInputStream)\n
     '''
 def getDefaultInputStream():
-    '''public InputStream getDefaultInputStream()
+    '''returns InputStream\n\n
+    getDefaultInputStream()\n
     '''
 def getInputHandler():
-    '''public InputHandler getInputHandler()
+    '''returns InputHandler\n\n
+    getInputHandler()\n
     '''
-def Project():
-    '''public Project()
+def ():
+    '''returns Project\n\n
+    ()\n
     '''
 def createSubProject():
-    '''public Project createSubProject()
+    '''returns Project\n\n
+    createSubProject()\n
     '''
 def initSubProject():
-    '''public void initSubProject(final Project subProject)
+    '''returns None\n\n
+    initSubProject(final Project subProject)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initProperties():
-    '''public void initProperties()
+    '''returns None\n\n
+    initProperties()\n
     '''
 def createClassLoader():
-    '''public AntClassLoader createClassLoader(final Path path)
-    public AntClassLoader createClassLoader(final ClassLoader parent, final Path path)
+    '''returns AntClassLoader\n\n
+    createClassLoader(final Path path)\n
+    createClassLoader(final ClassLoader parent, final Path path)\n
     '''
 def setCoreLoader():
-    '''public void setCoreLoader(final ClassLoader coreLoader)
+    '''returns None\n\n
+    setCoreLoader(final ClassLoader coreLoader)\n
     '''
 def getCoreLoader():
-    '''public ClassLoader getCoreLoader()
+    '''returns ClassLoader\n\n
+    getCoreLoader()\n
     '''
 def addBuildListener():
-    '''public void addBuildListener(final BuildListener listener)
+    '''returns None\n\n
+    addBuildListener(final BuildListener listener)\n
     '''
 def removeBuildListener():
-    '''public void removeBuildListener(final BuildListener listener)
+    '''returns None\n\n
+    removeBuildListener(final BuildListener listener)\n
     '''
 def getBuildListeners():
-    '''public Vector getBuildListeners()
+    '''returns Vector\n\n
+    getBuildListeners()\n
     '''
 def log():
-    '''public void log(final String message)
-    public void log(final String message, final int msgLevel)
-    public void log(final String message, final Throwable throwable, final int msgLevel)
-    public void log(final Task task, final String message, final int msgLevel)
-    public void log(final Task task, final String message, final Throwable throwable, final int msgLevel)
-    public void log(final Target target, final String message, final int msgLevel)
-    public void log(final Target target, final String message, final Throwable throwable, final int msgLevel)
+    '''returns None\n\n
+    log(final String message)\n
+    log(final String message, final int msgLevel)\n
+    log(final String message, final Throwable throwable, final int msgLevel)\n
+    log(final Task task, final String message, final int msgLevel)\n
+    log(final Task task, final String message, final Throwable throwable, final int msgLevel)\n
+    log(final Target target, final String message, final int msgLevel)\n
+    log(final Target target, final String message, final Throwable throwable, final int msgLevel)\n
     '''
 def getGlobalFilterSet():
-    '''public FilterSet getGlobalFilterSet()
+    '''returns FilterSet\n\n
+    getGlobalFilterSet()\n
     '''
 def setProperty():
-    '''public void setProperty(final String name, final String value)
+    '''returns None\n\n
+    setProperty(final String name, final String value)\n
     '''
 def setNewProperty():
-    '''public void setNewProperty(final String name, final String value)
+    '''returns None\n\n
+    setNewProperty(final String name, final String value)\n
     '''
 def setUserProperty():
-    '''public void setUserProperty(final String name, final String value)
+    '''returns None\n\n
+    setUserProperty(final String name, final String value)\n
     '''
 def setInheritedProperty():
-    '''public void setInheritedProperty(final String name, final String value)
+    '''returns None\n\n
+    setInheritedProperty(final String name, final String value)\n
     '''
 def getProperty():
-    '''public String getProperty(final String propertyName)
+    '''returns String\n\n
+    getProperty(final String propertyName)\n
     '''
 def replaceProperties():
-    '''public String replaceProperties(final String value)
+    '''returns String\n\n
+    replaceProperties(final String value)\n
     '''
 def getUserProperty():
-    '''public String getUserProperty(final String propertyName)
+    '''returns String\n\n
+    getUserProperty(final String propertyName)\n
     '''
 def getProperties():
-    '''public Hashtable getProperties()
+    '''returns Hashtable\n\n
+    getProperties()\n
     '''
 def getUserProperties():
-    '''public Hashtable getUserProperties()
+    '''returns Hashtable\n\n
+    getUserProperties()\n
     '''
 def getInheritedProperties():
-    '''public Hashtable getInheritedProperties()
+    '''returns Hashtable\n\n
+    getInheritedProperties()\n
     '''
 def copyUserProperties():
-    '''public void copyUserProperties(final Project other)
+    '''returns None\n\n
+    copyUserProperties(final Project other)\n
     '''
 def copyInheritedProperties():
-    '''public void copyInheritedProperties(final Project other)
+    '''returns None\n\n
+    copyInheritedProperties(final Project other)\n
     '''
 def setDefaultTarget():
-    '''public void setDefaultTarget(final String defaultTarget)
+    '''returns None\n\n
+    setDefaultTarget(final String defaultTarget)\n
     '''
 def getDefaultTarget():
-    '''public String getDefaultTarget()
+    '''returns String\n\n
+    getDefaultTarget()\n
     '''
 def setDefault():
-    '''public void setDefault(final String defaultTarget)
+    '''returns None\n\n
+    setDefault(final String defaultTarget)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def addFilter():
-    '''public void addFilter(final String token, final String value)
+    '''returns None\n\n
+    addFilter(final String token, final String value)\n
     '''
 def getFilters():
-    '''public Hashtable getFilters()
+    '''returns Hashtable\n\n
+    getFilters()\n
     '''
 def setBasedir():
-    '''public void setBasedir(final String baseD)
+    '''returns None\n\n
+    setBasedir(final String baseD)\n
     '''
 def setBaseDir():
-    '''public void setBaseDir(File baseDir)
+    '''returns None\n\n
+    setBaseDir(File baseDir)\n
     '''
 def getBaseDir():
-    '''public File getBaseDir()
+    '''returns File\n\n
+    getBaseDir()\n
     '''
 def setKeepGoingMode():
-    '''public void setKeepGoingMode(final boolean keepGoingMode)
+    '''returns None\n\n
+    setKeepGoingMode(final boolean keepGoingMode)\n
     '''
 def isKeepGoingMode():
-    '''public boolean isKeepGoingMode()
-    '''
-def getJavaVersion():
-    '''public static String getJavaVersion()
+    '''returns boolean\n\n
+    isKeepGoingMode()\n
     '''
 def setJavaVersionProperty():
-    '''public void setJavaVersionProperty()
+    '''returns None\n\n
+    setJavaVersionProperty()\n
     '''
 def setSystemProperties():
-    '''public void setSystemProperties()
+    '''returns None\n\n
+    setSystemProperties()\n
     '''
 def addTaskDefinition():
-    '''public void addTaskDefinition(final String taskName, final Class taskClass)
+    '''returns None\n\n
+    addTaskDefinition(final String taskName, final Class taskClass)\n
     '''
 def checkTaskClass():
-    '''public void checkTaskClass(final Class taskClass)
+    '''returns None\n\n
+    checkTaskClass(final Class taskClass)\n
     '''
 def getTaskDefinitions():
-    '''public Hashtable getTaskDefinitions()
+    '''returns Hashtable\n\n
+    getTaskDefinitions()\n
     '''
 def getCopyOfTaskDefinitions():
-    '''public Map getCopyOfTaskDefinitions()
+    '''returns Map\n\n
+    getCopyOfTaskDefinitions()\n
     '''
 def addDataTypeDefinition():
-    '''public void addDataTypeDefinition(final String typeName, final Class typeClass)
+    '''returns None\n\n
+    addDataTypeDefinition(final String typeName, final Class typeClass)\n
     '''
 def getDataTypeDefinitions():
-    '''public Hashtable getDataTypeDefinitions()
+    '''returns Hashtable\n\n
+    getDataTypeDefinitions()\n
     '''
 def getCopyOfDataTypeDefinitions():
-    '''public Map getCopyOfDataTypeDefinitions()
+    '''returns Map\n\n
+    getCopyOfDataTypeDefinitions()\n
     '''
 def addTarget():
-    '''public void addTarget(final Target target)
-    public void addTarget(final String targetName, final Target target)
+    '''returns None\n\n
+    addTarget(final Target target)\n
+    addTarget(final String targetName, final Target target)\n
     '''
 def addOrReplaceTarget():
-    '''public void addOrReplaceTarget(final Target target)
-    public void addOrReplaceTarget(final String targetName, final Target target)
+    '''returns None\n\n
+    addOrReplaceTarget(final Target target)\n
+    addOrReplaceTarget(final String targetName, final Target target)\n
     '''
 def getTargets():
-    '''public Hashtable getTargets()
+    '''returns Hashtable\n\n
+    getTargets()\n
     '''
 def getCopyOfTargets():
-    '''public Map getCopyOfTargets()
+    '''returns Map\n\n
+    getCopyOfTargets()\n
     '''
 def createTask():
-    '''public Task createTask(final String taskType)
+    '''returns Task\n\n
+    createTask(final String taskType)\n
     '''
 def createDataType():
-    '''public Object createDataType(final String typeName)
+    '''returns Object\n\n
+    createDataType(final String typeName)\n
     '''
 def setExecutor():
-    '''public void setExecutor(final Executor e)
+    '''returns None\n\n
+    setExecutor(final Executor e)\n
     '''
 def getExecutor():
-    '''public Executor getExecutor()
+    '''returns Executor\n\n
+    getExecutor()\n
     '''
 def executeTargets():
-    '''public void executeTargets(final Vector names)
+    '''returns None\n\n
+    executeTargets(final Vector names)\n
     '''
 def demuxOutput():
-    '''public void demuxOutput(final String output, final boolean isWarning)
+    '''returns None\n\n
+    demuxOutput(final String output, final boolean isWarning)\n
     '''
 def defaultInput():
-    '''public int defaultInput(final byte[] buffer, final int offset, final int length)
+    '''returns int\n\n
+    defaultInput(final byte[] buffer, final int offset, final int length)\n
     '''
 def demuxInput():
-    '''public int demuxInput(final byte[] buffer, final int offset, final int length)
+    '''returns int\n\n
+    demuxInput(final byte[] buffer, final int offset, final int length)\n
     '''
 def demuxFlush():
-    '''public void demuxFlush(final String output, final boolean isError)
+    '''returns None\n\n
+    demuxFlush(final String output, final boolean isError)\n
     '''
 def executeTarget():
-    '''public void executeTarget(final String targetName)
+    '''returns None\n\n
+    executeTarget(final String targetName)\n
     '''
 def executeSortedTargets():
-    '''public void executeSortedTargets(final Vector sortedTargets)
+    '''returns None\n\n
+    executeSortedTargets(final Vector sortedTargets)\n
     '''
 def resolveFile():
-    '''public File resolveFile(final String fileName, final File rootDir)
-    public File resolveFile(final String fileName)
-    '''
-def translatePath():
-    '''public static String translatePath(final String toProcess)
+    '''returns File\n\n
+    resolveFile(final String fileName, final File rootDir)\n
+    resolveFile(final String fileName)\n
     '''
 def copyFile():
-    '''public void copyFile(final String sourceFile, final String destFile)
-    public void copyFile(final String sourceFile, final String destFile, final boolean filtering)
-    public void copyFile(final String sourceFile, final String destFile, final boolean filtering, final boolean overwrite)
-    public void copyFile(final String sourceFile, final String destFile, final boolean filtering, final boolean overwrite, final boolean preserveLastModified)
-    public void copyFile(final File sourceFile, final File destFile)
-    public void copyFile(final File sourceFile, final File destFile, final boolean filtering)
-    public void copyFile(final File sourceFile, final File destFile, final boolean filtering, final boolean overwrite)
-    public void copyFile(final File sourceFile, final File destFile, final boolean filtering, final boolean overwrite, final boolean preserveLastModified)
+    '''returns None\n\n
+    copyFile(final String sourceFile, final String destFile)\n
+    copyFile(final String sourceFile, final String destFile, final boolean filtering)\n
+    copyFile(final String sourceFile, final String destFile, final boolean filtering, final boolean overwrite)\n
+    copyFile(final String sourceFile, final String destFile, final boolean filtering, final boolean overwrite, final boolean preserveLastModified)\n
+    copyFile(final File sourceFile, final File destFile)\n
+    copyFile(final File sourceFile, final File destFile, final boolean filtering)\n
+    copyFile(final File sourceFile, final File destFile, final boolean filtering, final boolean overwrite)\n
+    copyFile(final File sourceFile, final File destFile, final boolean filtering, final boolean overwrite, final boolean preserveLastModified)\n
     '''
 def setFileLastModified():
-    '''public void setFileLastModified(final File file, final long time)
-    '''
-def toBoolean():
-    '''public static boolean toBoolean(final String s)
-    '''
-def getProject():
-    '''public static Project getProject(final Object o)
-    '''
-def topoSort():
-    '''public final Vector topoSort(final String root, final Hashtable targetTable)
-    public final Vector topoSort(final String root, final Hashtable targetTable, final boolean returnAll)
-    public final Vector topoSort(final String[] root, final Hashtable targetTable, final boolean returnAll)
+    '''returns None\n\n
+    setFileLastModified(final File file, final long time)\n
     '''
 def inheritIDReferences():
-    '''public void inheritIDReferences(final Project parent)
+    '''returns None\n\n
+    inheritIDReferences(final Project parent)\n
     '''
 def addIdReference():
-    '''public void addIdReference(final String id, final Object value)
+    '''returns None\n\n
+    addIdReference(final String id, final Object value)\n
     '''
 def addReference():
-    '''public void addReference(final String referenceName, final Object value)
+    '''returns None\n\n
+    addReference(final String referenceName, final Object value)\n
     '''
 def getReferences():
-    '''public Hashtable getReferences()
+    '''returns Hashtable\n\n
+    getReferences()\n
     '''
 def hasReference():
-    '''public boolean hasReference(final String key)
+    '''returns boolean\n\n
+    hasReference(final String key)\n
     '''
 def getCopyOfReferences():
-    '''public Map getCopyOfReferences()
+    '''returns Map\n\n
+    getCopyOfReferences()\n
     '''
 def getReference():
-    '''public Object getReference(final String key)
+    '''returns Object\n\n
+    getReference(final String key)\n
     '''
 def getElementName():
-    '''public String getElementName(final Object element)
+    '''returns String\n\n
+    getElementName(final Object element)\n
     '''
 def fireBuildStarted():
-    '''public void fireBuildStarted()
+    '''returns None\n\n
+    fireBuildStarted()\n
     '''
 def fireBuildFinished():
-    '''public void fireBuildFinished(final Throwable exception)
+    '''returns None\n\n
+    fireBuildFinished(final Throwable exception)\n
     '''
 def fireSubBuildStarted():
-    '''public void fireSubBuildStarted()
+    '''returns None\n\n
+    fireSubBuildStarted()\n
     '''
 def fireSubBuildFinished():
-    '''public void fireSubBuildFinished(final Throwable exception)
+    '''returns None\n\n
+    fireSubBuildFinished(final Throwable exception)\n
     '''
 def registerThreadTask():
-    '''public void registerThreadTask(final Thread thread, final Task task)
+    '''returns None\n\n
+    registerThreadTask(final Thread thread, final Task task)\n
     '''
 def getThreadTask():
-    '''public Task getThreadTask(final Thread thread)
-    '''
-def setProjectReference():
-    '''public final void setProjectReference(final Object obj)
+    '''returns Task\n\n
+    getThreadTask(final Thread thread)\n
     '''
 def getResource():
-    '''public Resource getResource(final String name)
+    '''returns Resource\n\n
+    getResource(final String name)\n
     '''
 def get():
-    '''public Object get(final Object key)
+    '''returns Object\n\n
+    get(final Object key)\n
     '''

@@ -1,24 +1,32 @@
-def StatusData():
-    '''public StatusData(final StackTraceElement caller, final Level level, final Message msg, final Throwable t, final String threadName)
+def ():
+    '''returns StatusData\n\n
+    (final StackTraceElement caller, final Level level, final Message msg, final Throwable t, final String threadName)\n
     '''
 def getTimestamp():
-    '''public long getTimestamp()
+    '''returns long\n\n
+    getTimestamp()\n
     '''
 def getStackTraceElement():
-    '''public StackTraceElement getStackTraceElement()
+    '''returns StackTraceElement\n\n
+    getStackTraceElement()\n
     '''
 def getLevel():
-    '''public Level getLevel()
+    '''returns Level\n\n
+    getLevel()\n
     '''
 def getMessage():
-    '''public Message getMessage()
+    '''returns Message\n\n
+    getMessage()\n
     '''
 def getThreadName():
-    '''public String getThreadName()
+    '''returns String\n\n
+    getThreadName()\n
     '''
 def getThrowable():
-    '''public Throwable getThrowable()
+    '''returns Throwable\n\n
+    getThrowable()\n
     '''
 def getFormattedStatus():
-    '''public String getFormattedStatus()
+    '''returns String\n\n
+    getFormattedStatus()\n
     '''

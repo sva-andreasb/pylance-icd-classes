@@ -1,6 +1,8 @@
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def JSONMERGE():
-    '''public int JSONMERGE()
+    '''returns int\n\n
+    JSONMERGE()\n
     '''

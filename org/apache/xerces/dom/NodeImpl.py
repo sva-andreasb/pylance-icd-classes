@@ -12,143 +12,185 @@ DOCUMENT_POSITION_CONTAINS = "short  8"
 DOCUMENT_POSITION_IS_CONTAINED = "short  16"
 DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC = "short  32"
 ELEMENT_DEFINITION_NODE = "short  21"
-def NodeImpl():
-    '''public NodeImpl()
+def ():
+    '''returns NodeImpl\n\n
+    ()\n
     '''
 def getNodeValue():
-    '''public String getNodeValue()
+    '''returns String\n\n
+    getNodeValue()\n
     '''
 def setNodeValue():
-    '''public void setNodeValue(final String s)
+    '''returns None\n\n
+    setNodeValue(final String s)\n
     '''
 def appendChild():
-    '''public Node appendChild(final Node node)
+    '''returns Node\n\n
+    appendChild(final Node node)\n
     '''
 def cloneNode():
-    '''public Node cloneNode(final boolean b)
+    '''returns Node\n\n
+    cloneNode(final boolean b)\n
     '''
 def getOwnerDocument():
-    '''public Document getOwnerDocument()
+    '''returns Document\n\n
+    getOwnerDocument()\n
     '''
 def getParentNode():
-    '''public Node getParentNode()
+    '''returns Node\n\n
+    getParentNode()\n
     '''
 def getNextSibling():
-    '''public Node getNextSibling()
+    '''returns Node\n\n
+    getNextSibling()\n
     '''
 def getPreviousSibling():
-    '''public Node getPreviousSibling()
+    '''returns Node\n\n
+    getPreviousSibling()\n
     '''
 def getAttributes():
-    '''public NamedNodeMap getAttributes()
+    '''returns NamedNodeMap\n\n
+    getAttributes()\n
     '''
 def hasAttributes():
-    '''public boolean hasAttributes()
+    '''returns boolean\n\n
+    hasAttributes()\n
     '''
 def hasChildNodes():
-    '''public boolean hasChildNodes()
+    '''returns boolean\n\n
+    hasChildNodes()\n
     '''
 def getChildNodes():
-    '''public NodeList getChildNodes()
+    '''returns NodeList\n\n
+    getChildNodes()\n
     '''
 def getFirstChild():
-    '''public Node getFirstChild()
+    '''returns Node\n\n
+    getFirstChild()\n
     '''
 def getLastChild():
-    '''public Node getLastChild()
+    '''returns Node\n\n
+    getLastChild()\n
     '''
 def insertBefore():
-    '''public Node insertBefore(final Node node, final Node node2)
+    '''returns Node\n\n
+    insertBefore(final Node node, final Node node2)\n
     '''
 def removeChild():
-    '''public Node removeChild(final Node node)
+    '''returns Node\n\n
+    removeChild(final Node node)\n
     '''
 def replaceChild():
-    '''public Node replaceChild(final Node node, final Node node2)
+    '''returns Node\n\n
+    replaceChild(final Node node, final Node node2)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def item():
-    '''public Node item(final int n)
+    '''returns Node\n\n
+    item(final int n)\n
     '''
 def normalize():
-    '''public void normalize()
+    '''returns None\n\n
+    normalize()\n
     '''
 def isSupported():
-    '''public boolean isSupported(final String s, final String s2)
+    '''returns boolean\n\n
+    isSupported(final String s, final String s2)\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI()\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String s)
+    '''returns None\n\n
+    setPrefix(final String s)\n
     '''
 def getLocalName():
-    '''public String getLocalName()
+    '''returns String\n\n
+    getLocalName()\n
     '''
 def addEventListener():
-    '''public void addEventListener(final String s, final EventListener eventListener, final boolean b)
+    '''returns None\n\n
+    addEventListener(final String s, final EventListener eventListener, final boolean b)\n
     '''
 def removeEventListener():
-    '''public void removeEventListener(final String s, final EventListener eventListener, final boolean b)
+    '''returns None\n\n
+    removeEventListener(final String s, final EventListener eventListener, final boolean b)\n
     '''
 def dispatchEvent():
-    '''public boolean dispatchEvent(final Event event)
+    '''returns boolean\n\n
+    dispatchEvent(final Event event)\n
     '''
 def getBaseURI():
-    '''public String getBaseURI()
+    '''returns String\n\n
+    getBaseURI()\n
     '''
 def compareTreePosition():
-    '''public short compareTreePosition(final Node node)
+    '''returns short\n\n
+    compareTreePosition(final Node node)\n
     '''
 def compareDocumentPosition():
-    '''public short compareDocumentPosition(final Node node)
+    '''returns short\n\n
+    compareDocumentPosition(final Node node)\n
     '''
 def getTextContent():
-    '''public String getTextContent()
+    '''returns String\n\n
+    getTextContent()\n
     '''
 def setTextContent():
-    '''public void setTextContent(final String nodeValue)
+    '''returns None\n\n
+    setTextContent(final String nodeValue)\n
     '''
 def isSameNode():
-    '''public boolean isSameNode(final Node node)
+    '''returns boolean\n\n
+    isSameNode(final Node node)\n
     '''
 def isDefaultNamespace():
-    '''public boolean isDefaultNamespace(final String s)
+    '''returns boolean\n\n
+    isDefaultNamespace(final String s)\n
     '''
 def lookupPrefix():
-    '''public String lookupPrefix(final String s)
+    '''returns String\n\n
+    lookupPrefix(final String s)\n
     '''
 def lookupNamespaceURI():
-    '''public String lookupNamespaceURI(final String s)
+    '''returns String\n\n
+    lookupNamespaceURI(final String s)\n
     '''
 def isEqualNode():
-    '''public boolean isEqualNode(final Node node)
+    '''returns boolean\n\n
+    isEqualNode(final Node node)\n
     '''
 def getFeature():
-    '''public Object getFeature(final String s, final String s2)
+    '''returns Object\n\n
+    getFeature(final String s, final String s2)\n
     '''
 def setUserData():
-    '''public Object setUserData(final String s, final Object o, final UserDataHandler userDataHandler)
-    public void setUserData(final Object o)
+    '''returns None\n\n
+    setUserData(final String s, final Object o, final UserDataHandler userDataHandler)\n
+    setUserData(final Object o)\n
     '''
 def getUserData():
-    '''public Object getUserData(final String s)
-    public Object getUserData()
+    '''returns Object\n\n
+    getUserData(final String s)\n
+    getUserData()\n
     '''
 def setReadOnly():
-    '''public void setReadOnly(final boolean b, final boolean b2)
+    '''returns None\n\n
+    setReadOnly(final boolean b, final boolean b2)\n
     '''
 def getReadOnly():
-    '''public boolean getReadOnly()
-    '''
-def needsSyncChildren():
-    '''public final void needsSyncChildren(final boolean b)
+    '''returns boolean\n\n
+    getReadOnly()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

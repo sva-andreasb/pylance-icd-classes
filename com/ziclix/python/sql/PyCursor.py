@@ -1,83 +1,94 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def __setattr__():
-    '''public void __setattr__(final String name, final PyObject value)
+    '''returns None\n\n
+    __setattr__(final String name, final PyObject value)\n
     '''
 def __findattr_ex__():
-    '''public PyObject __findattr_ex__(final String name)
-    '''
-def classDictInit():
-    '''public static void classDictInit(final PyObject dict)
+    '''returns PyObject\n\n
+    __findattr_ex__(final String name)\n
     '''
 def __del__():
-    '''public void __del__()
+    '''returns None\n\n
+    __del__()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def __iter__():
-    '''public PyObject __iter__()
+    '''returns PyObject\n\n
+    __iter__()\n
     '''
 def next():
-    '''public PyObject next()
+    '''returns PyObject\n\n
+    next()\n
     '''
 def __iternext__():
-    '''public PyObject __iternext__()
+    '''returns PyObject\n\n
+    __iternext__()\n
     '''
 def getDataHandler():
-    '''public DataHandler getDataHandler()
+    '''returns DataHandler\n\n
+    getDataHandler()\n
     '''
 def callproc():
-    '''public void callproc(final PyObject name, final PyObject params, final PyObject bindings, final PyObject maxRows)
+    '''returns None\n\n
+    callproc(final PyObject name, final PyObject params, final PyObject bindings, final PyObject maxRows)\n
     '''
 def executemany():
-    '''public void executemany(final PyObject sql, final PyObject params, final PyObject bindings, final PyObject maxRows)
+    '''returns None\n\n
+    executemany(final PyObject sql, final PyObject params, final PyObject bindings, final PyObject maxRows)\n
     '''
 def execute():
-    '''public void execute(final PyObject sql, final PyObject params, final PyObject bindings, final PyObject maxRows)
+    '''returns None\n\n
+    execute(final PyObject sql, final PyObject params, final PyObject bindings, final PyObject maxRows)\n
     '''
 def fetchone():
-    '''public PyObject fetchone()
+    '''returns PyObject\n\n
+    fetchone()\n
     '''
 def fetchall():
-    '''public PyObject fetchall()
+    '''returns PyObject\n\n
+    fetchall()\n
     '''
 def fetchmany():
-    '''public PyObject fetchmany(final int size)
+    '''returns PyObject\n\n
+    fetchmany(final int size)\n
     '''
 def nextset():
-    '''public PyObject nextset()
+    '''returns PyObject\n\n
+    nextset()\n
     '''
 def prepare():
-    '''public PyStatement prepare(final PyObject sql)
+    '''returns PyStatement\n\n
+    prepare(final PyObject sql)\n
     '''
 def scroll():
-    '''public void scroll(final int value, final String mode)
+    '''returns None\n\n
+    scroll(final int value, final String mode)\n
     '''
 def warning():
-    '''public void warning(final WarningEvent event)
-    '''
-def isSeq():
-    '''public static boolean isSeq(final PyObject object)
-    '''
-def hasParams():
-    '''public static boolean hasParams(final PyObject params)
-    '''
-def isSeqSeq():
-    '''public static boolean isSeqSeq(final PyObject object)
+    '''returns None\n\n
+    warning(final WarningEvent event)\n
     '''
 def __enter__():
-    '''public PyObject __enter__(final ThreadState ts)
-    public PyObject __enter__()
+    '''returns PyObject\n\n
+    __enter__(final ThreadState ts)\n
+    __enter__()\n
     '''
 def __exit__():
-    '''public boolean __exit__(final ThreadState ts, final PyException exception)
-    public boolean __exit__(final PyObject type, final PyObject value, final PyObject traceback)
+    '''returns boolean\n\n
+    __exit__(final ThreadState ts, final PyException exception)\n
+    __exit__(final PyObject type, final PyObject value, final PyObject traceback)\n
     '''
 def traverse():
-    '''public int traverse(final Visitproc visit, final Object arg)
+    '''returns int\n\n
+    traverse(final Visitproc visit, final Object arg)\n
     '''
 def refersDirectlyTo():
-    '''public boolean refersDirectlyTo(final PyObject ob)
+    '''returns boolean\n\n
+    refersDirectlyTo(final PyObject ob)\n
     '''

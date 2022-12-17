@@ -1,11 +1,14 @@
 POSITIVE_SIGN = "String  \"+\""
-def PlusCFldSumDir():
-    '''public PlusCFldSumDir()
-    public PlusCFldSumDir(final MboValue mbv)
+def ():
+    '''returns PlusCFldSumDir\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

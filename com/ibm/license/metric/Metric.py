@@ -92,41 +92,53 @@ USER = "String  \"USER\""
 USER_VALUE_UNIT = "String  \"USER_VALUE_UNIT\""
 VIRTUAL_SERVER = "String  \"VIRTUAL_SERVER\""
 VU_VALUE_UNIT = "String  \"VU_VALUE_UNIT\""
-def Metric():
-    '''public Metric()
-    public Metric(final String type, final String subType, final Number value, final Date startTime, final Date endTime)
-    public Metric(final String type, final Number value, final Date timestamp)
+def ():
+    '''returns Metric\n\n
+    ()\n
+    (final String type, final String subType, final Number value, final Date startTime, final Date endTime)\n
+    (final String type, final Number value, final Date timestamp)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def getSubType():
-    '''public String getSubType()
+    '''returns String\n\n
+    getSubType()\n
     '''
 def setSubType():
-    '''public void setSubType(final String subType)
+    '''returns None\n\n
+    setSubType(final String subType)\n
     '''
 def getValue():
-    '''public Number getValue()
+    '''returns Number\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final Number value)
+    '''returns None\n\n
+    setValue(final Number value)\n
     '''
 def getStartTime():
-    '''public Date getStartTime()
+    '''returns Date\n\n
+    getStartTime()\n
     '''
 def setStartTime():
-    '''public void setStartTime(final Date startTime)
+    '''returns None\n\n
+    setStartTime(final Date startTime)\n
     '''
 def getEndTime():
-    '''public Date getEndTime()
+    '''returns Date\n\n
+    getEndTime()\n
     '''
 def setEndTime():
-    '''public void setEndTime(final Date endTime)
+    '''returns None\n\n
+    setEndTime(final Date endTime)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,18 +1,24 @@
-def IlvActivityCompositeGraphicRenderer():
-    '''public IlvActivityCompositeGraphicRenderer()
+def ():
+    '''returns IlvActivityCompositeGraphicRenderer\n\n
+    ()\n
     '''
 def getBounds():
-    '''public IlvRect getBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    getBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)\n
     '''
 def computeBaseBounds():
-    '''public IlvRect computeBaseBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    computeBaseBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)
+    '''returns String\n\n
+    getToolTipText(final IlvActivityGraphic ilvActivityGraphic, final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)\n
     '''
 def createSelection():
-    '''public IlvSelection createSelection(final IlvActivityGraphic ilvActivityGraphic, final String[] array)
+    '''returns IlvSelection\n\n
+    createSelection(final IlvActivityGraphic ilvActivityGraphic, final String[] array)\n
     '''
 def setGraphic():
-    '''public void setGraphic(final IlvGraphic graphic)
+    '''returns None\n\n
+    setGraphic(final IlvGraphic graphic)\n
     '''

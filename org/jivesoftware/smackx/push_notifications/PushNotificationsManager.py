@@ -1,19 +1,21 @@
-def getInstanceFor():
-    '''public static synchronized PushNotificationsManager getInstanceFor(final XMPPConnection connection)
-    '''
 def isSupported():
-    '''public boolean isSupported()
+    '''returns boolean\n\n
+    isSupported()\n
     '''
 def enable():
-    '''public boolean enable(final Jid pushJid, final String node)
-    public boolean enable(final Jid pushJid, final String node, final HashMap<String, String> publishOptions)
+    '''returns boolean\n\n
+    enable(final Jid pushJid, final String node)\n
+    enable(final Jid pushJid, final String node, final HashMap<String, String> publishOptions)\n
     '''
 def disableAll():
-    '''public boolean disableAll(final Jid pushJid)
+    '''returns boolean\n\n
+    disableAll(final Jid pushJid)\n
     '''
 def disable():
-    '''public boolean disable(final Jid pushJid, final String node)
+    '''returns boolean\n\n
+    disable(final Jid pushJid, final String node)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

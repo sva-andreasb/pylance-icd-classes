@@ -1,10 +1,13 @@
-def InvalidConfigDataTypeException():
-    '''public InvalidConfigDataTypeException(final Throwable cause, final String type)
-    public InvalidConfigDataTypeException(final String type)
+def ():
+    '''returns InvalidConfigDataTypeException\n\n
+    (final Throwable cause, final String type)\n
+    (final String type)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

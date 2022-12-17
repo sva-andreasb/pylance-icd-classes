@@ -1,14 +1,18 @@
-def AuthPassword():
-    '''public AuthPassword(final String username, final char[] password)
-    public AuthPassword(final String username, final char[] password, final PublicKeyFile publicKeyFile)
-    public AuthPassword(final String username, final char[] oldPassword, final char[] newPassword)
+def ():
+    '''returns AuthPassword\n\n
+    (final String username, final char[] password)\n
+    (final String username, final char[] password, final PublicKeyFile publicKeyFile)\n
+    (final String username, final char[] oldPassword, final char[] newPassword)\n
     '''
 def getMethodName():
-    '''public String getMethodName()
+    '''returns String\n\n
+    getMethodName()\n
     '''
 def getPassword():
-    '''public char[] getPassword()
+    '''returns char[]\n\n
+    getPassword()\n
     '''
 def getPasswordChangePrompt():
-    '''public String getPasswordChangePrompt()
+    '''returns String\n\n
+    getPasswordChangePrompt()\n
     '''

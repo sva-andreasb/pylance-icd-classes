@@ -1,79 +1,85 @@
-def AsynchDetailDrillThroughTarget():
-    '''public AsynchDetailDrillThroughTarget()
-    public AsynchDetailDrillThroughTarget(final String action, final String drillPathName, final String drillPathScreenTip, final SearchPathSingleObject drillPathSearchPath, final String[] recipients, final SearchPathSingleObject target, final String[] targetAncestorNames, final boolean targetHidden, final String targetIconURI, final String targetName)
+def ():
+    '''returns AsynchDetailDrillThroughTarget\n\n
+    ()\n
+    (final String action, final String drillPathName, final String drillPathScreenTip, final SearchPathSingleObject drillPathSearchPath, final String[] recipients, final SearchPathSingleObject target, final String[] targetAncestorNames, final boolean targetHidden, final String targetIconURI, final String targetName)\n
     '''
 def getAction():
-    '''public String getAction()
+    '''returns String\n\n
+    getAction()\n
     '''
 def setAction():
-    '''public void setAction(final String action)
+    '''returns None\n\n
+    setAction(final String action)\n
     '''
 def getDrillPathName():
-    '''public String getDrillPathName()
+    '''returns String\n\n
+    getDrillPathName()\n
     '''
 def setDrillPathName():
-    '''public void setDrillPathName(final String drillPathName)
+    '''returns None\n\n
+    setDrillPathName(final String drillPathName)\n
     '''
 def getDrillPathScreenTip():
-    '''public String getDrillPathScreenTip()
+    '''returns String\n\n
+    getDrillPathScreenTip()\n
     '''
 def setDrillPathScreenTip():
-    '''public void setDrillPathScreenTip(final String drillPathScreenTip)
+    '''returns None\n\n
+    setDrillPathScreenTip(final String drillPathScreenTip)\n
     '''
 def getDrillPathSearchPath():
-    '''public SearchPathSingleObject getDrillPathSearchPath()
+    '''returns SearchPathSingleObject\n\n
+    getDrillPathSearchPath()\n
     '''
 def setDrillPathSearchPath():
-    '''public void setDrillPathSearchPath(final SearchPathSingleObject drillPathSearchPath)
+    '''returns None\n\n
+    setDrillPathSearchPath(final SearchPathSingleObject drillPathSearchPath)\n
     '''
 def getRecipients():
-    '''public String[] getRecipients()
+    '''returns String[]\n\n
+    getRecipients()\n
     '''
 def setRecipients():
-    '''public void setRecipients(final String[] recipients)
+    '''returns None\n\n
+    setRecipients(final String[] recipients)\n
     '''
 def getTarget():
-    '''public SearchPathSingleObject getTarget()
+    '''returns SearchPathSingleObject\n\n
+    getTarget()\n
     '''
 def setTarget():
-    '''public void setTarget(final SearchPathSingleObject target)
+    '''returns None\n\n
+    setTarget(final SearchPathSingleObject target)\n
     '''
 def getTargetAncestorNames():
-    '''public String[] getTargetAncestorNames()
+    '''returns String[]\n\n
+    getTargetAncestorNames()\n
     '''
 def setTargetAncestorNames():
-    '''public void setTargetAncestorNames(final String[] targetAncestorNames)
+    '''returns None\n\n
+    setTargetAncestorNames(final String[] targetAncestorNames)\n
     '''
 def isTargetHidden():
-    '''public boolean isTargetHidden()
+    '''returns boolean\n\n
+    isTargetHidden()\n
     '''
 def setTargetHidden():
-    '''public void setTargetHidden(final boolean targetHidden)
+    '''returns None\n\n
+    setTargetHidden(final boolean targetHidden)\n
     '''
 def getTargetIconURI():
-    '''public String getTargetIconURI()
+    '''returns String\n\n
+    getTargetIconURI()\n
     '''
 def setTargetIconURI():
-    '''public void setTargetIconURI(final String targetIconURI)
+    '''returns None\n\n
+    setTargetIconURI(final String targetIconURI)\n
     '''
 def getTargetName():
-    '''public String getTargetName()
+    '''returns String\n\n
+    getTargetName()\n
     '''
 def setTargetName():
-    '''public void setTargetName(final String targetName)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setTargetName(final String targetName)\n
     '''

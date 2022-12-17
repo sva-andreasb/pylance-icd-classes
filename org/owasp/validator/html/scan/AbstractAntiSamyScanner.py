@@ -1,4 +1,5 @@
-def AbstractAntiSamyScanner():
-    '''public AbstractAntiSamyScanner(final Policy policy)
-    public AbstractAntiSamyScanner()
+def ():
+    '''returns AbstractAntiSamyScanner\n\n
+    (final Policy policy)\n
+    ()\n
     '''

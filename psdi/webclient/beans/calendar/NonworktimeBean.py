@@ -1,6 +1,8 @@
-def NonworktimeBean():
-    '''public NonworktimeBean()
+def ():
+    '''returns NonworktimeBean\n\n
+    ()\n
     '''
 def applyNonworktime():
-    '''public int applyNonworktime()
+    '''returns int\n\n
+    applyNonworktime()\n
     '''

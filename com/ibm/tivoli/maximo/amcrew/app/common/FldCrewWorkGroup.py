@@ -1,6 +1,8 @@
-def FldCrewWorkGroup():
-    '''public FldCrewWorkGroup(final MboValue mbv)
+def ():
+    '''returns FldCrewWorkGroup\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

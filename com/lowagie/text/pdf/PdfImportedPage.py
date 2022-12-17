@@ -1,24 +1,32 @@
 def getFromReader():
-    '''public PdfImportedPage getFromReader()
+    '''returns PdfImportedPage\n\n
+    getFromReader()\n
     '''
 def getPageNumber():
-    '''public int getPageNumber()
+    '''returns int\n\n
+    getPageNumber()\n
     '''
 def addImage():
-    '''public void addImage(final Image image, final float a, final float b, final float c, final float d, final float e, final float f)
+    '''returns None\n\n
+    addImage(final Image image, final float a, final float b, final float c, final float d, final float e, final float f)\n
     '''
 def addTemplate():
-    '''public void addTemplate(final PdfTemplate template, final float a, final float b, final float c, final float d, final float e, final float f)
+    '''returns None\n\n
+    addTemplate(final PdfTemplate template, final float a, final float b, final float c, final float d, final float e, final float f)\n
     '''
 def getDuplicate():
-    '''public PdfContentByte getDuplicate()
+    '''returns PdfContentByte\n\n
+    getDuplicate()\n
     '''
 def setColorFill():
-    '''public void setColorFill(final PdfSpotColor sp, final float tint)
+    '''returns None\n\n
+    setColorFill(final PdfSpotColor sp, final float tint)\n
     '''
 def setColorStroke():
-    '''public void setColorStroke(final PdfSpotColor sp, final float tint)
+    '''returns None\n\n
+    setColorStroke(final PdfSpotColor sp, final float tint)\n
     '''
 def setFontAndSize():
-    '''public void setFontAndSize(final BaseFont bf, final float size)
+    '''returns None\n\n
+    setFontAndSize(final BaseFont bf, final float size)\n
     '''

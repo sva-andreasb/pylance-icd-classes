@@ -1,6 +1,8 @@
-def FldGLCompCompValue():
-    '''public FldGLCompCompValue(final MboValue mbv)
+def ():
+    '''returns FldGLCompCompValue\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

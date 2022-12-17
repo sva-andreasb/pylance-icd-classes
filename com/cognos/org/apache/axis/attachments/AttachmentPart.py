@@ -1,82 +1,105 @@
-def AttachmentPart():
-    '''public AttachmentPart()
-    public AttachmentPart(final DataHandler dh)
+def ():
+    '''returns AttachmentPart\n\n
+    ()\n
+    (final DataHandler dh)\n
     '''
 def getActivationDataHandler():
-    '''public DataHandler getActivationDataHandler()
+    '''returns DataHandler\n\n
+    getActivationDataHandler()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def addMimeHeader():
-    '''public void addMimeHeader(final String header, final String value)
+    '''returns None\n\n
+    addMimeHeader(final String header, final String value)\n
     '''
 def getFirstMimeHeader():
-    '''public String getFirstMimeHeader(final String header)
+    '''returns String\n\n
+    getFirstMimeHeader(final String header)\n
     '''
 def matches():
-    '''public boolean matches(final MimeHeaders headers)
+    '''returns boolean\n\n
+    matches(final MimeHeaders headers)\n
     '''
 def getContentLocation():
-    '''public String getContentLocation()
+    '''returns String\n\n
+    getContentLocation()\n
     '''
 def setContentLocation():
-    '''public void setContentLocation(final String loc)
+    '''returns None\n\n
+    setContentLocation(final String loc)\n
     '''
 def setContentId():
-    '''public void setContentId(final String newCid)
+    '''returns None\n\n
+    setContentId(final String newCid)\n
     '''
 def getContentId():
-    '''public String getContentId()
+    '''returns String\n\n
+    getContentId()\n
     '''
 def getMatchingMimeHeaders():
-    '''public Iterator getMatchingMimeHeaders(final String[] match)
+    '''returns Iterator\n\n
+    getMatchingMimeHeaders(final String[] match)\n
     '''
 def getNonMatchingMimeHeaders():
-    '''public Iterator getNonMatchingMimeHeaders(final String[] match)
+    '''returns Iterator\n\n
+    getNonMatchingMimeHeaders(final String[] match)\n
     '''
 def getAllMimeHeaders():
-    '''public Iterator getAllMimeHeaders()
+    '''returns Iterator\n\n
+    getAllMimeHeaders()\n
     '''
 def setMimeHeader():
-    '''public void setMimeHeader(final String name, final String value)
+    '''returns None\n\n
+    setMimeHeader(final String name, final String value)\n
     '''
 def removeAllMimeHeaders():
-    '''public void removeAllMimeHeaders()
+    '''returns None\n\n
+    removeAllMimeHeaders()\n
     '''
 def removeMimeHeader():
-    '''public void removeMimeHeader(final String header)
+    '''returns None\n\n
+    removeMimeHeader(final String header)\n
     '''
 def getDataHandler():
-    '''public DataHandler getDataHandler()
+    '''returns DataHandler\n\n
+    getDataHandler()\n
     '''
 def setDataHandler():
-    '''public void setDataHandler(final DataHandler datahandler)
+    '''returns None\n\n
+    setDataHandler(final DataHandler datahandler)\n
     '''
 def getContent():
-    '''public Object getContent()
+    '''returns Object\n\n
+    getContent()\n
     '''
 def setContent():
-    '''public void setContent(final Object object, final String contentType)
+    '''returns None\n\n
+    setContent(final Object object, final String contentType)\n
     '''
 def clearContent():
-    '''public void clearContent()
+    '''returns None\n\n
+    clearContent()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def getMimeHeader():
-    '''public String[] getMimeHeader(final String name)
+    '''returns String[]\n\n
+    getMimeHeader(final String name)\n
     '''
 def getContentIdRef():
-    '''public String getContentIdRef()
+    '''returns String\n\n
+    getContentIdRef()\n
     '''
 def detachAttachmentFile():
-    '''public void detachAttachmentFile()
+    '''returns None\n\n
+    detachAttachmentFile()\n
     '''
 def getAttachmentFile():
-    '''public String getAttachmentFile()
-    '''
-def dispose():
-    '''public synchronized void dispose()
+    '''returns String\n\n
+    getAttachmentFile()\n
     '''

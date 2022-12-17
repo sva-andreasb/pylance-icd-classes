@@ -1,15 +1,20 @@
-def SKDResourceAttrFilter():
-    '''public SKDResourceAttrFilter()
+def ():
+    '''returns SKDResourceAttrFilter\n\n
+    ()\n
     '''
 def filterCraftsBasedOnActivities():
-    '''public void filterCraftsBasedOnActivities(final boolean filterBasedOnActivities)
+    '''returns None\n\n
+    filterCraftsBasedOnActivities(final boolean filterBasedOnActivities)\n
     '''
 def setCraftsNeeded():
-    '''public void setCraftsNeeded(final HashSet craftsNeeded)
+    '''returns None\n\n
+    setCraftsNeeded(final HashSet craftsNeeded)\n
     '''
 def refresh():
-    '''public void refresh()
+    '''returns None\n\n
+    refresh()\n
     '''
 def evaluate():
-    '''public boolean evaluate(final IlvResource resource)
+    '''returns boolean\n\n
+    evaluate(final IlvResource resource)\n
     '''

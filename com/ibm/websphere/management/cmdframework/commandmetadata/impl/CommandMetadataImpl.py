@@ -1,159 +1,212 @@
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final String newVersion)
+    '''returns None\n\n
+    setVersion(final String newVersion)\n
     '''
 def unsetVersion():
-    '''public void unsetVersion()
+    '''returns None\n\n
+    unsetVersion()\n
     '''
 def isSetVersion():
-    '''public boolean isSetVersion()
+    '''returns boolean\n\n
+    isSetVersion()\n
     '''
 def getPriority():
-    '''public String getPriority()
+    '''returns String\n\n
+    getPriority()\n
     '''
 def setPriority():
-    '''public void setPriority(final String newPriority)
+    '''returns None\n\n
+    setPriority(final String newPriority)\n
     '''
 def unsetPriority():
-    '''public void unsetPriority()
+    '''returns None\n\n
+    unsetPriority()\n
     '''
 def isSetPriority():
-    '''public boolean isSetPriority()
+    '''returns boolean\n\n
+    isSetPriority()\n
     '''
 def isPublic():
-    '''public boolean isPublic()
+    '''returns boolean\n\n
+    isPublic()\n
     '''
 def setPublic():
-    '''public void setPublic(final boolean newPublic)
+    '''returns None\n\n
+    setPublic(final boolean newPublic)\n
     '''
 def unsetPublic():
-    '''public void unsetPublic()
+    '''returns None\n\n
+    unsetPublic()\n
     '''
 def isSetPublic():
-    '''public boolean isSetPublic()
+    '''returns boolean\n\n
+    isSetPublic()\n
     '''
 def isPrivate():
-    '''public boolean isPrivate()
+    '''returns boolean\n\n
+    isPrivate()\n
     '''
 def setPrivate():
-    '''public void setPrivate(final boolean newPrivate)
+    '''returns None\n\n
+    setPrivate(final boolean newPrivate)\n
     '''
 def unsetPrivate():
-    '''public void unsetPrivate()
+    '''returns None\n\n
+    unsetPrivate()\n
     '''
 def isSetPrivate():
-    '''public boolean isSetPrivate()
+    '''returns boolean\n\n
+    isSetPrivate()\n
     '''
 def isSupportLocalMode():
-    '''public boolean isSupportLocalMode()
+    '''returns boolean\n\n
+    isSupportLocalMode()\n
     '''
 def setSupportLocalMode():
-    '''public void setSupportLocalMode(final boolean newSupportLocalMode)
+    '''returns None\n\n
+    setSupportLocalMode(final boolean newSupportLocalMode)\n
     '''
 def unsetSupportLocalMode():
-    '''public void unsetSupportLocalMode()
+    '''returns None\n\n
+    unsetSupportLocalMode()\n
     '''
 def isSetSupportLocalMode():
-    '''public boolean isSetSupportLocalMode()
+    '''returns boolean\n\n
+    isSetSupportLocalMode()\n
     '''
 def isTargetObjectRequired():
-    '''public boolean isTargetObjectRequired()
+    '''returns boolean\n\n
+    isTargetObjectRequired()\n
     '''
 def setTargetObjectRequired():
-    '''public void setTargetObjectRequired(final boolean newTargetObjectRequired)
+    '''returns None\n\n
+    setTargetObjectRequired(final boolean newTargetObjectRequired)\n
     '''
 def unsetTargetObjectRequired():
-    '''public void unsetTargetObjectRequired()
+    '''returns None\n\n
+    unsetTargetObjectRequired()\n
     '''
 def isSetTargetObjectRequired():
-    '''public boolean isSetTargetObjectRequired()
+    '''returns boolean\n\n
+    isSetTargetObjectRequired()\n
     '''
 def isTargetObjectAllowed():
-    '''public boolean isTargetObjectAllowed()
+    '''returns boolean\n\n
+    isTargetObjectAllowed()\n
     '''
 def setTargetObjectAllowed():
-    '''public void setTargetObjectAllowed(final boolean newTargetObjectAllowed)
+    '''returns None\n\n
+    setTargetObjectAllowed(final boolean newTargetObjectAllowed)\n
     '''
 def unsetTargetObjectAllowed():
-    '''public void unsetTargetObjectAllowed()
+    '''returns None\n\n
+    unsetTargetObjectAllowed()\n
     '''
 def isSetTargetObjectAllowed():
-    '''public boolean isSetTargetObjectAllowed()
+    '''returns boolean\n\n
+    isSetTargetObjectAllowed()\n
     '''
 def getTargetObjectConfigType():
-    '''public String getTargetObjectConfigType()
+    '''returns String\n\n
+    getTargetObjectConfigType()\n
     '''
 def setTargetObjectConfigType():
-    '''public void setTargetObjectConfigType(final String newTargetObjectConfigType)
+    '''returns None\n\n
+    setTargetObjectConfigType(final String newTargetObjectConfigType)\n
     '''
 def unsetTargetObjectConfigType():
-    '''public void unsetTargetObjectConfigType()
+    '''returns None\n\n
+    unsetTargetObjectConfigType()\n
     '''
 def isSetTargetObjectConfigType():
-    '''public boolean isSetTargetObjectConfigType()
+    '''returns boolean\n\n
+    isSetTargetObjectConfigType()\n
     '''
 def getTargetObjectType():
-    '''public String getTargetObjectType()
+    '''returns String\n\n
+    getTargetObjectType()\n
     '''
 def setTargetObjectType():
-    '''public void setTargetObjectType(final String newTargetObjectType)
+    '''returns None\n\n
+    setTargetObjectType(final String newTargetObjectType)\n
     '''
 def getTargetObjectTitleKey():
-    '''public String getTargetObjectTitleKey()
+    '''returns String\n\n
+    getTargetObjectTitleKey()\n
     '''
 def setTargetObjectTitleKey():
-    '''public void setTargetObjectTitleKey(final String newTargetObjectTitleKey)
+    '''returns None\n\n
+    setTargetObjectTitleKey(final String newTargetObjectTitleKey)\n
     '''
 def getTargetObjectTitle():
-    '''public String getTargetObjectTitle()
+    '''returns String\n\n
+    getTargetObjectTitle()\n
     '''
 def setTargetObjectTitle():
-    '''public void setTargetObjectTitle(final String newTargetObjectTitle)
+    '''returns None\n\n
+    setTargetObjectTitle(final String newTargetObjectTitle)\n
     '''
 def getTargetObjectDescriptionKey():
-    '''public String getTargetObjectDescriptionKey()
+    '''returns String\n\n
+    getTargetObjectDescriptionKey()\n
     '''
 def setTargetObjectDescriptionKey():
-    '''public void setTargetObjectDescriptionKey(final String newTargetObjectDescriptionKey)
+    '''returns None\n\n
+    setTargetObjectDescriptionKey(final String newTargetObjectDescriptionKey)\n
     '''
 def getTargetObjectDescription():
-    '''public String getTargetObjectDescription()
+    '''returns String\n\n
+    getTargetObjectDescription()\n
     '''
 def setTargetObjectDescription():
-    '''public void setTargetObjectDescription(final String newTargetObjectDescription)
+    '''returns None\n\n
+    setTargetObjectDescription(final String newTargetObjectDescription)\n
     '''
 def getExperienceLevel():
-    '''public String getExperienceLevel()
+    '''returns String\n\n
+    getExperienceLevel()\n
     '''
 def setExperienceLevel():
-    '''public void setExperienceLevel(final String newExperienceLevel)
+    '''returns None\n\n
+    setExperienceLevel(final String newExperienceLevel)\n
     '''
 def unsetExperienceLevel():
-    '''public void unsetExperienceLevel()
+    '''returns None\n\n
+    unsetExperienceLevel()\n
     '''
 def isSetExperienceLevel():
-    '''public boolean isSetExperienceLevel()
+    '''returns boolean\n\n
+    isSetExperienceLevel()\n
     '''
 def getParameters():
-    '''public EList getParameters()
+    '''returns EList\n\n
+    getParameters()\n
     '''
 def eInverseRemove():
-    '''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)\n
     '''
 def eGet():
-    '''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''returns Object\n\n
+    eGet(final EStructuralFeature eFeature, final boolean resolve)\n
     '''
 def eSet():
-    '''public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''returns None\n\n
+    eSet(final EStructuralFeature eFeature, final Object newValue)\n
     '''
 def eUnset():
-    '''public void eUnset(final EStructuralFeature eFeature)
+    '''returns None\n\n
+    eUnset(final EStructuralFeature eFeature)\n
     '''
 def eIsSet():
-    '''public boolean eIsSet(final EStructuralFeature eFeature)
+    '''returns boolean\n\n
+    eIsSet(final EStructuralFeature eFeature)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

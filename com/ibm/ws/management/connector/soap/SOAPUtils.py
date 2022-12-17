@@ -1,0 +1,1 @@
+adminServiceURI = "String  \"urn:AdminService\""

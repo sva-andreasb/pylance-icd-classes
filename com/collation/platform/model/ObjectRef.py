@@ -1,21 +1,28 @@
 def setObjGuid():
-    '''public void setObjGuid(final Guid objGuid_)
+    '''returns None\n\n
+    setObjGuid(final Guid objGuid_)\n
     '''
 def setVersion():
-    '''public void setVersion(final long version_)
+    '''returns None\n\n
+    setVersion(final long version_)\n
     '''
-def ObjectRef():
-    '''public ObjectRef(final Guid objGuid, final long version)
+def ():
+    '''returns ObjectRef\n\n
+    (final Guid objGuid, final long version)\n
     '''
 def getObjectGuid():
-    '''public Guid getObjectGuid()
+    '''returns Guid\n\n
+    getObjectGuid()\n
     '''
 def getVersion():
-    '''public long getVersion()
+    '''returns long\n\n
+    getVersion()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

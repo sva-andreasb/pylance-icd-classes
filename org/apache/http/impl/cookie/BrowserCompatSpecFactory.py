@@ -1,11 +1,14 @@
-def BrowserCompatSpecFactory():
-    '''public BrowserCompatSpecFactory(final String[] datepatterns, final SecurityLevel securityLevel)
-    public BrowserCompatSpecFactory(final String[] datepatterns)
-    public BrowserCompatSpecFactory()
+def ():
+    '''returns BrowserCompatSpecFactory\n\n
+    (final String[] datepatterns, final SecurityLevel securityLevel)\n
+    (final String[] datepatterns)\n
+    ()\n
     '''
 def newInstance():
-    '''public CookieSpec newInstance(final HttpParams params)
+    '''returns CookieSpec\n\n
+    newInstance(final HttpParams params)\n
     '''
 def create():
-    '''public CookieSpec create(final HttpContext context)
+    '''returns CookieSpec\n\n
+    create(final HttpContext context)\n
     '''

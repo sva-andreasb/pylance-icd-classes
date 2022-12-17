@@ -1,6 +1,8 @@
-def StepFunction():
-    '''public StepFunction(final double[] x, final double[] y)
+def ():
+    '''returns StepFunction\n\n
+    (final double[] x, final double[] y)\n
     '''
 def value():
-    '''public double value(final double x)
+    '''returns double\n\n
+    value(final double x)\n
     '''

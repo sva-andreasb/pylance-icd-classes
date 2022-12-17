@@ -1,42 +1,43 @@
-def AbstractRequest():
-    '''public AbstractRequest(final short version)
+def ():
+    '''returns Builder\n\n
+    (final short version)\n
+    (final ApiKeys apiKey)\n
+    (final ApiKeys apiKey, final short allowedVersion)\n
+    (final ApiKeys apiKey, final short oldestAllowedVersion, final short latestAllowedVersion)\n
     '''
 def version():
-    '''public short version()
+    '''returns short\n\n
+    version()\n
     '''
 def toSend():
-    '''public Send toSend(final String destination, final RequestHeader header)
+    '''returns Send\n\n
+    toSend(final String destination, final RequestHeader header)\n
     '''
 def serialize():
-    '''public ByteBuffer serialize(final RequestHeader header)
+    '''returns ByteBuffer\n\n
+    serialize(final RequestHeader header)\n
     '''
 def toString():
-    '''public String toString(final boolean verbose)
-    public final String toString()
+    '''returns String\n\n
+    toString(final boolean verbose)\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final Throwable e)
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts(final Throwable e)
-    '''
-def parseRequest():
-    '''public static AbstractRequest parseRequest(final ApiKeys apiKey, final short apiVersion, final Struct struct)
-    '''
-def Builder():
-    '''public Builder(final ApiKeys apiKey)
-    public Builder(final ApiKeys apiKey, final short allowedVersion)
-    public Builder(final ApiKeys apiKey, final short oldestAllowedVersion, final short latestAllowedVersion)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final Throwable e)\n
     '''
 def apiKey():
-    '''public ApiKeys apiKey()
+    '''returns ApiKeys\n\n
+    apiKey()\n
     '''
 def oldestAllowedVersion():
-    '''public short oldestAllowedVersion()
+    '''returns short\n\n
+    oldestAllowedVersion()\n
     '''
 def latestAllowedVersion():
-    '''public short latestAllowedVersion()
+    '''returns short\n\n
+    latestAllowedVersion()\n
     '''
 def build():
-    '''public T build()
+    '''returns T\n\n
+    build()\n
     '''

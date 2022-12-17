@@ -1,26 +1,31 @@
-def SnappyInputStream():
-    '''public SnappyInputStream(final InputStream in)
+def ():
+    '''returns SnappyInputStream\n\n
+    (final InputStream in)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def read():
-    '''public int read(final byte[] array, final int n, final int n2)
-    public int read(final long[] array, final int n, final int n2)
-    public int read(final long[] array)
-    public int read(final double[] array, final int n, final int n2)
-    public int read(final double[] array)
-    public int read(final int[] array)
-    public int read(final int[] array, final int n, final int n2)
-    public int read(final float[] array, final int n, final int n2)
-    public int read(final float[] array)
-    public int read(final short[] array, final int n, final int n2)
-    public int read(final short[] array)
-    public int read()
+    '''returns int\n\n
+    read(final byte[] array, final int n, final int n2)\n
+    read(final long[] array, final int n, final int n2)\n
+    read(final long[] array)\n
+    read(final double[] array, final int n, final int n2)\n
+    read(final double[] array)\n
+    read(final int[] array)\n
+    read(final int[] array, final int n, final int n2)\n
+    read(final float[] array, final int n, final int n2)\n
+    read(final float[] array)\n
+    read(final short[] array, final int n, final int n2)\n
+    read(final short[] array)\n
+    read()\n
     '''
 def rawRead():
-    '''public int rawRead(final Object o, final int n, final int n2)
+    '''returns int\n\n
+    rawRead(final Object o, final int n, final int n2)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''

@@ -1,18 +1,20 @@
-def IEMWizardBean():
-    '''public IEMWizardBean()
+def ():
+    '''returns IEMWizardBean\n\n
+    ()\n
     '''
 def nexttab():
-    '''public int nexttab()
+    '''returns int\n\n
+    nexttab()\n
     '''
 def prevtab():
-    '''public int prevtab()
+    '''returns int\n\n
+    prevtab()\n
     '''
 def complete():
-    '''public int complete()
+    '''returns int\n\n
+    complete()\n
     '''
 def cancelchanges():
-    '''public int cancelchanges()
-    '''
-def insert():
-    '''public synchronized void insert()
+    '''returns int\n\n
+    cancelchanges()\n
     '''

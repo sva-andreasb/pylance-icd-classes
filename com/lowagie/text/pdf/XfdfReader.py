@@ -1,31 +1,41 @@
-def XfdfReader():
-    '''public XfdfReader(final String filename)
-    public XfdfReader(final byte[] xfdfIn)
+def ():
+    '''returns XfdfReader\n\n
+    (final String filename)\n
+    (final byte[] xfdfIn)\n
     '''
 def getFields():
-    '''public HashMap getFields()
+    '''returns HashMap\n\n
+    getFields()\n
     '''
 def getField():
-    '''public String getField(final String name)
+    '''returns String\n\n
+    getField(final String name)\n
     '''
 def getFieldValue():
-    '''public String getFieldValue(final String name)
+    '''returns String\n\n
+    getFieldValue(final String name)\n
     '''
 def getFileSpec():
-    '''public String getFileSpec()
+    '''returns String\n\n
+    getFileSpec()\n
     '''
 def startElement():
-    '''public void startElement(final String tag, final HashMap h)
+    '''returns None\n\n
+    startElement(final String tag, final HashMap h)\n
     '''
 def endElement():
-    '''public void endElement(final String tag)
+    '''returns None\n\n
+    endElement(final String tag)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def text():
-    '''public void text(final String str)
+    '''returns None\n\n
+    text(final String str)\n
     '''

@@ -1,51 +1,68 @@
 def setRoleArn():
-    '''public void setRoleArn(final String roleArn)
+    '''returns None\n\n
+    setRoleArn(final String roleArn)\n
     '''
 def getRoleArn():
-    '''public String getRoleArn()
+    '''returns String\n\n
+    getRoleArn()\n
     '''
 def withRoleArn():
-    '''public RoleInfo withRoleArn(final String roleArn)
+    '''returns RoleInfo\n\n
+    withRoleArn(final String roleArn)\n
     '''
 def setRoleSessionName():
-    '''public void setRoleSessionName(final String roleSessionName)
+    '''returns None\n\n
+    setRoleSessionName(final String roleSessionName)\n
     '''
 def getRoleSessionName():
-    '''public String getRoleSessionName()
+    '''returns String\n\n
+    getRoleSessionName()\n
     '''
 def withRoleSessionName():
-    '''public RoleInfo withRoleSessionName(final String roleSessionName)
+    '''returns RoleInfo\n\n
+    withRoleSessionName(final String roleSessionName)\n
     '''
 def setExternalId():
-    '''public void setExternalId(final String externalId)
+    '''returns None\n\n
+    setExternalId(final String externalId)\n
     '''
 def getExternalId():
-    '''public String getExternalId()
+    '''returns String\n\n
+    getExternalId()\n
     '''
 def withExternalId():
-    '''public RoleInfo withExternalId(final String externalId)
+    '''returns RoleInfo\n\n
+    withExternalId(final String externalId)\n
     '''
 def setLongLivedCredentialsProvider():
-    '''public void setLongLivedCredentialsProvider(final AWSCredentialsProvider longLivedCredentialsProvider)
+    '''returns None\n\n
+    setLongLivedCredentialsProvider(final AWSCredentialsProvider longLivedCredentialsProvider)\n
     '''
 def getLongLivedCredentialsProvider():
-    '''public AWSCredentialsProvider getLongLivedCredentialsProvider()
+    '''returns AWSCredentialsProvider\n\n
+    getLongLivedCredentialsProvider()\n
     '''
 def withLongLivedCredentialsProvider():
-    '''public RoleInfo withLongLivedCredentialsProvider(final AWSCredentialsProvider longLivedCredentialsProvider)
+    '''returns RoleInfo\n\n
+    withLongLivedCredentialsProvider(final AWSCredentialsProvider longLivedCredentialsProvider)\n
     '''
 def withLongLivedCredentials():
-    '''public RoleInfo withLongLivedCredentials(final AWSCredentials longLivedCredentials)
+    '''returns RoleInfo\n\n
+    withLongLivedCredentials(final AWSCredentials longLivedCredentials)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public RoleInfo clone()
+    '''returns RoleInfo\n\n
+    clone()\n
     '''

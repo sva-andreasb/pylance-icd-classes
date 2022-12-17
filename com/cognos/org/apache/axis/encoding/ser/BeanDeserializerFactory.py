@@ -1,6 +1,4 @@
-def BeanDeserializerFactory():
-    '''public BeanDeserializerFactory(final Class javaType, final QName xmlType)
-    '''
-def getProperties():
-    '''public static Map getProperties(final Class javaType, final TypeDesc typeDesc)
+def ():
+    '''returns BeanDeserializerFactory\n\n
+    (final Class javaType, final QName xmlType)\n
     '''

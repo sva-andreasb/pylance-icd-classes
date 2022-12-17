@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static final GuestTrustCache getInstance()
-    '''
 def validate():
-    '''public boolean validate(final String id)
+    '''returns boolean\n\n
+    validate(final String id)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

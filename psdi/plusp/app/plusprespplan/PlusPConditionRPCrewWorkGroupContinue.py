@@ -1,6 +1,8 @@
 def evaluateCondition():
-    '''public boolean evaluateCondition(final MboRemote mboRemote, final Object o)
+    '''returns boolean\n\n
+    evaluateCondition(final MboRemote mboRemote, final Object o)\n
     '''
 def toWhereClause():
-    '''public String toWhereClause(final Object o, final MboSetRemote mboSetRemote)
+    '''returns String\n\n
+    toWhereClause(final Object o, final MboSetRemote mboSetRemote)\n
     '''

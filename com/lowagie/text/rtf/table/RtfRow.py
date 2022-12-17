@@ -1,3 +1,4 @@
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''

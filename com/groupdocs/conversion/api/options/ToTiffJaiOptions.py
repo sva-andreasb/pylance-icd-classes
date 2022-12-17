@@ -14,73 +14,96 @@ DEFLATER_BEST_SPEED = "int  1"
 DEFLATER_DEFLATED = "int  8"
 DEFLATER_FILTERED = "int  1"
 DEFLATER_HUFFMAN_ONLY = "int  2"
-def ToTiffJaiOptions():
-    '''public ToTiffJaiOptions()
-    public ToTiffJaiOptions(final boolean multipage)
+def ():
+    '''returns ToTiffJaiOptions\n\n
+    ()\n
+    (final boolean multipage)\n
     '''
 def isMultipage():
-    '''public boolean isMultipage()
+    '''returns boolean\n\n
+    isMultipage()\n
     '''
 def setMultipage():
-    '''public void setMultipage(final boolean multipage)
+    '''returns None\n\n
+    setMultipage(final boolean multipage)\n
     '''
 def getTileHeight():
-    '''public int getTileHeight()
+    '''returns int\n\n
+    getTileHeight()\n
     '''
 def setTileHeight():
-    '''public void setTileHeight(final int tileHeight)
+    '''returns None\n\n
+    setTileHeight(final int tileHeight)\n
     '''
 def getTileWidth():
-    '''public int getTileWidth()
+    '''returns int\n\n
+    getTileWidth()\n
     '''
 def setTileWidth():
-    '''public void setTileWidth(final int tileWidth)
+    '''returns None\n\n
+    setTileWidth(final int tileWidth)\n
     '''
 def isWriteTiled():
-    '''public boolean isWriteTiled()
+    '''returns boolean\n\n
+    isWriteTiled()\n
     '''
 def setWriteTiled():
-    '''public void setWriteTiled(final boolean writeTiled)
+    '''returns None\n\n
+    setWriteTiled(final boolean writeTiled)\n
     '''
 def isT4PadEOLs():
-    '''public boolean isT4PadEOLs()
+    '''returns boolean\n\n
+    isT4PadEOLs()\n
     '''
 def setT4PadEOLs():
-    '''public void setT4PadEOLs(final boolean t4PadEOLs)
+    '''returns None\n\n
+    setT4PadEOLs(final boolean t4PadEOLs)\n
     '''
 def isT4Encode2D():
-    '''public boolean isT4Encode2D()
+    '''returns boolean\n\n
+    isT4Encode2D()\n
     '''
 def setT4Encode2D():
-    '''public void setT4Encode2D(final boolean t4Encode2D)
+    '''returns None\n\n
+    setT4Encode2D(final boolean t4Encode2D)\n
     '''
 def isReverseFillOrder():
-    '''public boolean isReverseFillOrder()
+    '''returns boolean\n\n
+    isReverseFillOrder()\n
     '''
 def setReverseFillOrder():
-    '''public void setReverseFillOrder(final boolean reverseFillOrder)
+    '''returns None\n\n
+    setReverseFillOrder(final boolean reverseFillOrder)\n
     '''
 def isLittleEndian():
-    '''public boolean isLittleEndian()
+    '''returns boolean\n\n
+    isLittleEndian()\n
     '''
 def setLittleEndian():
-    '''public void setLittleEndian(final boolean littleEndian)
+    '''returns None\n\n
+    setLittleEndian(final boolean littleEndian)\n
     '''
 def isJPEGCompressRGBToYCbCr():
-    '''public boolean isJPEGCompressRGBToYCbCr()
+    '''returns boolean\n\n
+    isJPEGCompressRGBToYCbCr()\n
     '''
 def setJPEGCompressRGBToYCbCr():
-    '''public void setJPEGCompressRGBToYCbCr(final boolean JPEGCompressRGBToYCbCr)
+    '''returns None\n\n
+    setJPEGCompressRGBToYCbCr(final boolean JPEGCompressRGBToYCbCr)\n
     '''
 def getDeflateLevel():
-    '''public int getDeflateLevel()
+    '''returns int\n\n
+    getDeflateLevel()\n
     '''
 def setDeflateLevel():
-    '''public void setDeflateLevel(final int deflateLevel)
+    '''returns None\n\n
+    setDeflateLevel(final int deflateLevel)\n
     '''
 def getCompression():
-    '''public int getCompression()
+    '''returns int\n\n
+    getCompression()\n
     '''
 def setCompression():
-    '''public void setCompression(final int compression)
+    '''returns None\n\n
+    setCompression(final int compression)\n
     '''

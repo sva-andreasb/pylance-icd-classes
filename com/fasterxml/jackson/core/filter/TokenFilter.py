@@ -1,53 +1,69 @@
 def filterStartObject():
-    '''public TokenFilter filterStartObject()
+    '''returns TokenFilter\n\n
+    filterStartObject()\n
     '''
 def filterStartArray():
-    '''public TokenFilter filterStartArray()
+    '''returns TokenFilter\n\n
+    filterStartArray()\n
     '''
 def filterFinishObject():
-    '''public void filterFinishObject()
+    '''returns None\n\n
+    filterFinishObject()\n
     '''
 def filterFinishArray():
-    '''public void filterFinishArray()
+    '''returns None\n\n
+    filterFinishArray()\n
     '''
 def includeProperty():
-    '''public TokenFilter includeProperty(final String name)
+    '''returns TokenFilter\n\n
+    includeProperty(final String name)\n
     '''
 def includeElement():
-    '''public TokenFilter includeElement(final int index)
+    '''returns TokenFilter\n\n
+    includeElement(final int index)\n
     '''
 def includeRootValue():
-    '''public TokenFilter includeRootValue(final int index)
+    '''returns TokenFilter\n\n
+    includeRootValue(final int index)\n
     '''
 def includeValue():
-    '''public boolean includeValue(final JsonParser p)
+    '''returns boolean\n\n
+    includeValue(final JsonParser p)\n
     '''
 def includeBoolean():
-    '''public boolean includeBoolean(final boolean value)
+    '''returns boolean\n\n
+    includeBoolean(final boolean value)\n
     '''
 def includeNull():
-    '''public boolean includeNull()
+    '''returns boolean\n\n
+    includeNull()\n
     '''
 def includeString():
-    '''public boolean includeString(final String value)
+    '''returns boolean\n\n
+    includeString(final String value)\n
     '''
 def includeNumber():
-    '''public boolean includeNumber(final int v)
-    public boolean includeNumber(final long v)
-    public boolean includeNumber(final float v)
-    public boolean includeNumber(final double v)
-    public boolean includeNumber(final BigDecimal v)
-    public boolean includeNumber(final BigInteger v)
+    '''returns boolean\n\n
+    includeNumber(final int v)\n
+    includeNumber(final long v)\n
+    includeNumber(final float v)\n
+    includeNumber(final double v)\n
+    includeNumber(final BigDecimal v)\n
+    includeNumber(final BigInteger v)\n
     '''
 def includeBinary():
-    '''public boolean includeBinary()
+    '''returns boolean\n\n
+    includeBinary()\n
     '''
 def includeRawValue():
-    '''public boolean includeRawValue()
+    '''returns boolean\n\n
+    includeRawValue()\n
     '''
 def includeEmbeddedValue():
-    '''public boolean includeEmbeddedValue(final Object ob)
+    '''returns boolean\n\n
+    includeEmbeddedValue(final Object ob)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

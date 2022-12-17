@@ -1,36 +1,48 @@
-def PlusCPreviewGenAssetSet():
-    '''public PlusCPreviewGenAssetSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCPreviewGenAssetSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def applyTemplateOnExistingAssets():
-    '''public void applyTemplateOnExistingAssets(final PlusCAssetTemplateRemote template)
+    '''returns None\n\n
+    applyTemplateOnExistingAssets(final PlusCAssetTemplateRemote template)\n
     '''
 def applyTemplateOnNewAssets():
-    '''public void applyTemplateOnNewAssets(final PlusCAssetTemplateRemote template)
+    '''returns None\n\n
+    applyTemplateOnNewAssets(final PlusCAssetTemplateRemote template)\n
     '''
 def doChangeAssetStatus():
-    '''public void doChangeAssetStatus(final MboRemote asset, final String desiredStatus)
+    '''returns None\n\n
+    doChangeAssetStatus(final MboRemote asset, final String desiredStatus)\n
     '''
 def doGenerateAssetTemplateHistoryOnAsset():
-    '''public void doGenerateAssetTemplateHistoryOnAsset(final PlusCAssetTemplateRemote template, final MboRemote asset)
+    '''returns None\n\n
+    doGenerateAssetTemplateHistoryOnAsset(final PlusCAssetTemplateRemote template, final MboRemote asset)\n
     '''
 def doGenerateSpecificationsRecords():
-    '''public void doGenerateSpecificationsRecords(final PlusCAssetTemplateRemote template, final MboRemote assetPreview, final MboRemote newAsset)
+    '''returns None\n\n
+    doGenerateSpecificationsRecords(final PlusCAssetTemplateRemote template, final MboRemote assetPreview, final MboRemote newAsset)\n
     '''
 def doSetAssetAttributes():
-    '''public void doSetAssetAttributes(final MboRemote template, final MboRemote assetPreview, final MboRemote newAsset)
+    '''returns None\n\n
+    doSetAssetAttributes(final MboRemote template, final MboRemote assetPreview, final MboRemote newAsset)\n
     '''
 def doUpdateAssetAttributes():
-    '''public void doUpdateAssetAttributes(final MboRemote template, final MboRemote assetPreview, final MboRemote asset)
+    '''returns None\n\n
+    doUpdateAssetAttributes(final MboRemote template, final MboRemote assetPreview, final MboRemote asset)\n
     '''
 def doUpdateSpecificationRecords():
-    '''public MboSetRemote doUpdateSpecificationRecords(final MboRemote template, final MboRemote assetPreview, final MboRemote asset)
+    '''returns MboSetRemote\n\n
+    doUpdateSpecificationRecords(final MboRemote template, final MboRemote assetPreview, final MboRemote asset)\n
     '''
 def createRecordsFromAssets():
-    '''public void createRecordsFromAssets(final Vector selection)
+    '''returns None\n\n
+    createRecordsFromAssets(final Vector selection)\n
     '''
 def isAEligibleAssetNum():
-    '''public boolean isAEligibleAssetNum(final String assetnum, final boolean alreadyAdded)
+    '''returns boolean\n\n
+    isAEligibleAssetNum(final String assetnum, final boolean alreadyAdded)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

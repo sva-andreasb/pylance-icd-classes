@@ -1,15 +1,13 @@
-def CollectionTypeAdapterFactory():
-    '''public CollectionTypeAdapterFactory(final ConstructorConstructor constructorConstructor)
-    '''
-def create():
-    '''public <T> TypeAdapter<T> create(final Gson gson, final TypeToken<T> typeToken)
-    '''
-def Adapter():
-    '''public Adapter(final Gson context, final Type elementType, final TypeAdapter<E> elementTypeAdapter, final ObjectConstructor<? extends Collection<E>> constructor)
+def ():
+    '''returns Adapter\n\n
+    (final ConstructorConstructor constructorConstructor)\n
+    (final Gson context, final Type elementType, final TypeAdapter<E> elementTypeAdapter, final ObjectConstructor<? extends Collection<E>> constructor)\n
     '''
 def read():
-    '''public Collection<E> read(final JsonReader in)
+    '''returns Collection<E>\n\n
+    read(final JsonReader in)\n
     '''
 def write():
-    '''public void write(final JsonWriter out, final Collection<E> collection)
+    '''returns None\n\n
+    write(final JsonWriter out, final Collection<E> collection)\n
     '''

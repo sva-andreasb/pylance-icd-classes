@@ -1,6 +1,8 @@
 def messagesAdded():
-    '''public void messagesAdded(final MessageCountEvent e)
+    '''returns None\n\n
+    messagesAdded(final MessageCountEvent e)\n
     '''
 def messagesRemoved():
-    '''public void messagesRemoved(final MessageCountEvent e)
+    '''returns None\n\n
+    messagesRemoved(final MessageCountEvent e)\n
     '''

@@ -1,21 +1,28 @@
-def MboSetRetainMboPositionResult():
-    '''public MboSetRetainMboPositionResult()
+def ():
+    '''returns MboSetRetainMboPositionResult\n\n
+    ()\n
     '''
 def setMboList():
-    '''public void setMboList(final Vector<Mbo> mboList)
+    '''returns None\n\n
+    setMboList(final Vector<Mbo> mboList)\n
     '''
 def getMboList():
-    '''public Vector<Mbo> getMboList()
+    '''returns Vector<Mbo>\n\n
+    getMboList()\n
     '''
 def setCurrentMboIndex():
-    '''public void setCurrentMboIndex(final int index)
+    '''returns None\n\n
+    setCurrentMboIndex(final int index)\n
     '''
 def getCurrentMboIndex():
-    '''public int getCurrentMboIndex()
+    '''returns int\n\n
+    getCurrentMboIndex()\n
     '''
 def setCurrentMbo():
-    '''public void setCurrentMbo(final MboRemote mbo)
+    '''returns None\n\n
+    setCurrentMbo(final MboRemote mbo)\n
     '''
 def getCurrentMbo():
-    '''public MboRemote getCurrentMbo()
+    '''returns MboRemote\n\n
+    getCurrentMbo()\n
     '''

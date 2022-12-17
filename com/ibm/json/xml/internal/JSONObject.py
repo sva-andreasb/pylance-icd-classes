@@ -1,16 +1,21 @@
-def JSONObject():
-    '''public JSONObject(final String objectName, final Properties attrs)
+def ():
+    '''returns JSONObject\n\n
+    (final String objectName, final Properties attrs)\n
     '''
 def addJSONObject():
-    '''public void addJSONObject(final JSONObject jsonObject)
+    '''returns None\n\n
+    addJSONObject(final JSONObject jsonObject)\n
     '''
 def setTagText():
-    '''public void setTagText(final String tagText)
+    '''returns None\n\n
+    setTagText(final String tagText)\n
     '''
 def getTagText():
-    '''public String getTagText()
+    '''returns String\n\n
+    getTagText()\n
     '''
 def writeObject():
-    '''public void writeObject(final Writer writer, final int n, final boolean b)
-    public void writeObject(final Writer writer, final int n, final boolean b, final boolean b2)
+    '''returns None\n\n
+    writeObject(final Writer writer, final int n, final boolean b)\n
+    writeObject(final Writer writer, final int n, final boolean b, final boolean b2)\n
     '''

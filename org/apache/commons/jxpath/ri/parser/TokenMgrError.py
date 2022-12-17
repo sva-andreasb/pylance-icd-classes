@@ -1,17 +1,18 @@
-def addEscapes():
-    '''public static final String addEscapes(final String str)
-    '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
-def TokenMgrError():
-    '''public TokenMgrError()
-    public TokenMgrError(final String message, final int reason)
-    public TokenMgrError(final boolean EOFSeen, final int lexState, final int errorLine, final int errorColumn, final String errorAfter, final char curChar, final int reason)
+def ():
+    '''returns TokenMgrError\n\n
+    ()\n
+    (final String message, final int reason)\n
+    (final boolean EOFSeen, final int lexState, final int errorLine, final int errorColumn, final String errorAfter, final char curChar, final int reason)\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def getCharacter():
-    '''public char getCharacter()
+    '''returns char\n\n
+    getCharacter()\n
     '''

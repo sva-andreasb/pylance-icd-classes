@@ -1,6 +1,7 @@
-def ParseException():
-    '''public ParseException()
-    public ParseException(final Throwable t)
-    public ParseException(final String msg)
-    public ParseException(final String msg, final Throwable t)
+def ():
+    '''returns ParseException\n\n
+    ()\n
+    (final Throwable t)\n
+    (final String msg)\n
+    (final String msg, final Throwable t)\n
     '''

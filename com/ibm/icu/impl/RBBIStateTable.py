@@ -1,6 +1,8 @@
 def put():
-    '''public int put(final DataOutputStream bytes)
+    '''returns int\n\n
+    put(final DataOutputStream bytes)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''

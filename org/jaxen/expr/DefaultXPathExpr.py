@@ -1,21 +1,28 @@
-def DefaultXPathExpr():
-    '''public DefaultXPathExpr(final Expr rootExpr)
+def ():
+    '''returns DefaultXPathExpr\n\n
+    (final Expr rootExpr)\n
     '''
 def getRootExpr():
-    '''public Expr getRootExpr()
+    '''returns Expr\n\n
+    getRootExpr()\n
     '''
 def setRootExpr():
-    '''public void setRootExpr(final Expr rootExpr)
+    '''returns None\n\n
+    setRootExpr(final Expr rootExpr)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def simplify():
-    '''public void simplify()
+    '''returns None\n\n
+    simplify()\n
     '''
 def asList():
-    '''public List asList(final Context context)
+    '''returns List\n\n
+    asList(final Context context)\n
     '''

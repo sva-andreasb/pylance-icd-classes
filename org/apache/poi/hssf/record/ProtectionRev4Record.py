@@ -1,20 +1,26 @@
 sid = "short  431"
-def ProtectionRev4Record():
-    '''public ProtectionRev4Record(final boolean protect)
-    public ProtectionRev4Record(final RecordInputStream in)
+def ():
+    '''returns ProtectionRev4Record\n\n
+    (final boolean protect)\n
+    (final RecordInputStream in)\n
     '''
 def setProtect():
-    '''public void setProtect(final boolean protect)
+    '''returns None\n\n
+    setProtect(final boolean protect)\n
     '''
 def getProtect():
-    '''public boolean getProtect()
+    '''returns boolean\n\n
+    getProtect()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''

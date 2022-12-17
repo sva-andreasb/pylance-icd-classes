@@ -1,6 +1,8 @@
-def FldLaborStartTime():
-    '''public FldLaborStartTime(final MboValue mbv)
+def ():
+    '''returns FldLaborStartTime\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

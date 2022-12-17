@@ -1,3 +1,4 @@
-def CapacityCalculatorIEMSWD():
-    '''public CapacityCalculatorIEMSWD(final MboRemote license)
+def ():
+    '''returns CapacityCalculatorIEMSWD\n\n
+    (final MboRemote license)\n
     '''

@@ -1,9 +1,12 @@
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def REFRESH():
-    '''public int REFRESH()
+    '''returns int\n\n
+    REFRESH()\n
     '''
 def applink():
-    '''public int applink()
+    '''returns int\n\n
+    applink()\n
     '''

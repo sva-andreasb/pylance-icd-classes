@@ -1,3 +1,4 @@
-def p():
-    '''public p(final ILoader<bp, FromImagesOptions> loader, final T t)
+def ():
+    '''returns p\n\n
+    (final ILoader<bp, FromImagesOptions> loader, final T t)\n
     '''

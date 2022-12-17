@@ -1,14 +1,18 @@
 EMPTY_STRING = "String  \"\""
 FS_KEY = "String  \"file.separator\""
-def SolnInterface():
-    '''public SolnInterface()
+def ():
+    '''returns SolnInterface\n\n
+    ()\n
     '''
 def processExternalData():
-    '''public byte[] processExternalData(final StructureData data, final EnterpriseServiceInfo detailInfo, final UserInfo info, final MXTransaction trans, final String sender)
+    '''returns byte[]\n\n
+    processExternalData(final StructureData data, final EnterpriseServiceInfo detailInfo, final UserInfo info, final MXTransaction trans, final String sender)\n
     '''
 def getProperty():
-    '''public String getProperty(final String key)
+    '''returns String\n\n
+    getProperty(final String key)\n
     '''
 def buildAttachment():
-    '''public File buildAttachment(final String extsolnid, final String steps, final ArrayList<File> attachments, final String defPath)
+    '''returns File\n\n
+    buildAttachment(final String extsolnid, final String steps, final ArrayList<File> attachments, final String defPath)\n
     '''

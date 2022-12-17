@@ -1,3 +1,4 @@
-def LburpStartRequest():
-    '''public LburpStartRequest(final String s)
+def ():
+    '''returns LburpStartRequest\n\n
+    (final String s)\n
     '''

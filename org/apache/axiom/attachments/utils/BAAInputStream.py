@@ -1,23 +1,22 @@
-def BAAInputStream():
-    '''public BAAInputStream(final ArrayList data, final int size)
+def ():
+    '''returns BAAInputStream\n\n
+    (final ArrayList data, final int size)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, int off, final int len)
-    public int read(final byte[] b)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, int off, final int len)\n
+    read(final byte[] b)\n
     '''
 def available():
-    '''public int available()
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
+    '''returns int\n\n
+    available()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream os)
+    '''returns None\n\n
+    writeTo(final OutputStream os)\n
     '''

@@ -1,6 +1,7 @@
-def SerializationException():
-    '''public SerializationException()
-    public SerializationException(final String message)
-    public SerializationException(final Throwable cause)
-    public SerializationException(final String message, final Throwable cause)
+def ():
+    '''returns SerializationException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
     '''

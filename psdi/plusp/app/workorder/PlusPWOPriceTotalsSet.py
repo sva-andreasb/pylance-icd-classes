@@ -1,6 +1,8 @@
-def PlusPWOPriceTotalsSet():
-    '''public PlusPWOPriceTotalsSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPWOPriceTotalsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def rollback():
-    '''public void rollback()
+    '''returns None\n\n
+    rollback()\n
     '''

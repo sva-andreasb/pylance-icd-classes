@@ -1,9 +1,12 @@
 def getClear():
-    '''public String getClear()
+    '''returns String\n\n
+    getClear()\n
     '''
 def setClear():
-    '''public void setClear(final String s)
+    '''returns None\n\n
+    setClear(final String s)\n
     '''
-def HTMLBRElementImpl():
-    '''public HTMLBRElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLBRElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

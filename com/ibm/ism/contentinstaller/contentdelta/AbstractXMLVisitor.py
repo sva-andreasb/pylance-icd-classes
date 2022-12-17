@@ -1,22 +1,14 @@
-def AbstractXMLVisitor():
-    '''public AbstractXMLVisitor()
+def ():
+    '''returns XMLVisitorException\n\n
+    ()\n
+    (final String message, final Element element, final File file)\n
     '''
 def parseAllXmlFilesInDirectory():
-    '''public void parseAllXmlFilesInDirectory(final String directory)
-    public void parseAllXmlFilesInDirectory(final String directory, final boolean allowXmlSnippets, final String[] excludeFileNames)
+    '''returns None\n\n
+    parseAllXmlFilesInDirectory(final String directory)\n
+    parseAllXmlFilesInDirectory(final String directory, final boolean allowXmlSnippets, final String[] excludeFileNames)\n
     '''
 def setKeepRootElementsByFileName():
-    '''public void setKeepRootElementsByFileName(final boolean keepRootElementsByFileName)
-    '''
-def getElementPathInXml():
-    '''public static String getElementPathInXml(final Element element)
-    '''
-def getColumnValue():
-    '''public static String getColumnValue(final Element element, final String columnName)
-    '''
-def getRootElementsByFileName():
-    '''public SortedMap<String, Element> getRootElementsByFileName()
-    '''
-def XMLVisitorException():
-    '''public XMLVisitorException(final String message, final Element element, final File file)
+    '''returns None\n\n
+    setKeepRootElementsByFileName(final boolean keepRootElementsByFileName)\n
     '''

@@ -1,9 +1,12 @@
-def EventResponseService():
-    '''public EventResponseService(final MXServer mxServer)
+def ():
+    '''returns EventResponseService\n\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def registerResponder():
-    '''public void registerResponder(final MboRemote sourceMbo, final MboRemote refMbo, final MboRemote targetMbo, final String eventName, final String validateID, final String presaveID, final String actionID, final String postID)
+    '''returns None\n\n
+    registerResponder(final MboRemote sourceMbo, final MboRemote refMbo, final MboRemote targetMbo, final String eventName, final String validateID, final String presaveID, final String actionID, final String postID)\n
     '''

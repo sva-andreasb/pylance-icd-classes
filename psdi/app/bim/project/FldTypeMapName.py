@@ -1,3 +1,4 @@
-def FldTypeMapName():
-    '''public FldTypeMapName(final MboValue mbv)
+def ():
+    '''returns FldTypeMapName\n\n
+    (final MboValue mbv)\n
     '''

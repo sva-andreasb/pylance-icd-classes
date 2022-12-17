@@ -1,4 +1,5 @@
-def LongHolder():
-    '''public LongHolder()
-    public LongHolder(final long value)
+def ():
+    '''returns LongHolder\n\n
+    ()\n
+    (final long mylong)\n
     '''

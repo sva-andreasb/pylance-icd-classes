@@ -1,6 +1,8 @@
 def refreshlabor():
-    '''public int refreshlabor()
+    '''returns int\n\n
+    refreshlabor()\n
     '''
 def selectrecord():
-    '''public int selectrecord(final MboRemote laborassign)
+    '''returns int\n\n
+    selectrecord(final MboRemote laborassign)\n
     '''

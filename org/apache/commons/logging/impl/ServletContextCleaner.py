@@ -1,6 +1,8 @@
 def contextDestroyed():
-    '''public void contextDestroyed(final ServletContextEvent sce)
+    '''returns None\n\n
+    contextDestroyed(final ServletContextEvent sce)\n
     '''
 def contextInitialized():
-    '''public void contextInitialized(final ServletContextEvent sce)
+    '''returns None\n\n
+    contextInitialized(final ServletContextEvent sce)\n
     '''

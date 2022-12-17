@@ -1,3 +1,4 @@
-def MaxProdAppSet():
-    '''public MaxProdAppSet(final MboServerInterface ms)
+def ():
+    '''returns MaxProdAppSet\n\n
+    (final MboServerInterface ms)\n
     '''

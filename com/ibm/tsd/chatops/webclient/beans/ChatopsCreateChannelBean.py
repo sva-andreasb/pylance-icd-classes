@@ -1,12 +1,8 @@
 def loadTeams():
-    '''public void loadTeams()
+    '''returns None\n\n
+    loadTeams()\n
     '''
 def loadUsers():
-    '''public void loadUsers(final int row)
-    '''
-def createChannel():
-    '''public synchronized int createChannel()
-    '''
-def returnLookupValue():
-    '''public synchronized int returnLookupValue(final MboRemote lookupMbo)
+    '''returns None\n\n
+    loadUsers(final int row)\n
     '''

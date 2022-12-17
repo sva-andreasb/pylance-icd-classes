@@ -1,27 +1,32 @@
-def isCardinalityQRestriction():
-    '''public static boolean isCardinalityQRestriction(final Node node, final EnhGraph eg)
-    '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
-def CardinalityQRestrictionImpl():
-    '''public CardinalityQRestrictionImpl(final Node n, final EnhGraph g)
+def ():
+    '''returns CardinalityQRestrictionImpl\n\n
+    (final Node n, final EnhGraph g)\n
     '''
 def setCardinalityQ():
-    '''public void setCardinalityQ(final int cardinality)
+    '''returns None\n\n
+    setCardinalityQ(final int cardinality)\n
     '''
 def getCardinalityQ():
-    '''public int getCardinalityQ()
+    '''returns int\n\n
+    getCardinalityQ()\n
     '''
 def hasCardinalityQ():
-    '''public boolean hasCardinalityQ(final int cardinality)
+    '''returns boolean\n\n
+    hasCardinalityQ(final int cardinality)\n
     '''
 def removeCardinalityQ():
-    '''public void removeCardinalityQ(final int cardinality)
+    '''returns None\n\n
+    removeCardinalityQ(final int cardinality)\n
     '''
 def wrap():
-    '''public EnhNode wrap(final Node n, final EnhGraph eg)
+    '''returns EnhNode\n\n
+    wrap(final Node n, final EnhGraph eg)\n
     '''
 def canWrap():
-    '''public boolean canWrap(final Node node, final EnhGraph eg)
+    '''returns boolean\n\n
+    canWrap(final Node node, final EnhGraph eg)\n
     '''

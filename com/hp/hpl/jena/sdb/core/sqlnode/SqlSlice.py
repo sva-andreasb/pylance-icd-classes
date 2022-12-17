@@ -1,15 +1,20 @@
 def getLength():
-    '''public long getLength()
+    '''returns long\n\n
+    getLength()\n
     '''
 def getStart():
-    '''public long getStart()
+    '''returns long\n\n
+    getStart()\n
     '''
 def visit():
-    '''public void visit(final SqlNodeVisitor visitor)
+    '''returns None\n\n
+    visit(final SqlNodeVisitor visitor)\n
     '''
 def apply():
-    '''public SqlNode apply(final SqlTransform transform, final SqlNode subNode)
+    '''returns SqlNode\n\n
+    apply(final SqlTransform transform, final SqlNode subNode)\n
     '''
 def copy():
-    '''public SqlNode copy(final SqlNode subNode)
+    '''returns SqlNode\n\n
+    copy(final SqlNode subNode)\n
     '''

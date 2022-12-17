@@ -1,13 +1,17 @@
 MEDIA_NAME = "String  \"JingleMediaManager\""
-def JingleMediaManager():
-    '''public JingleMediaManager(final JingleTransportManager transportManager)
+def ():
+    '''returns JingleMediaManager\n\n
+    (final JingleTransportManager transportManager)\n
     '''
 def getTransportManager():
-    '''public JingleTransportManager getTransportManager()
+    '''returns JingleTransportManager\n\n
+    getTransportManager()\n
     '''
 def getPreferredPayloadType():
-    '''public PayloadType getPreferredPayloadType()
+    '''returns PayloadType\n\n
+    getPreferredPayloadType()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

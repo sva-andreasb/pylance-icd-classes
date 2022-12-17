@@ -1,24 +1,32 @@
-def Tag():
-    '''public Tag(final String name, final Map<String, Attribute> tagAttributes, final String action)
+def ():
+    '''returns Tag\n\n
+    (final String name, final Map<String, Attribute> tagAttributes, final String action)\n
     '''
 def getAction():
-    '''public String getAction()
+    '''returns String\n\n
+    getAction()\n
     '''
 def isAction():
-    '''public boolean isAction(final String action)
+    '''returns boolean\n\n
+    isAction(final String action)\n
     '''
 def mutateAction():
-    '''public Tag mutateAction(final String action)
+    '''returns Tag\n\n
+    mutateAction(final String action)\n
     '''
 def getRegularExpression():
-    '''public String getRegularExpression()
+    '''returns String\n\n
+    getRegularExpression()\n
     '''
 def compare():
-    '''public int compare(final Attribute o1, final Attribute o2)
+    '''returns int\n\n
+    compare(final Attribute o1, final Attribute o2)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getAttributeByName():
-    '''public Attribute getAttributeByName(final String name)
+    '''returns Attribute\n\n
+    getAttributeByName(final String name)\n
     '''

@@ -1,6 +1,8 @@
-def WOTreeBean():
-    '''public WOTreeBean()
+def ():
+    '''returns WOTreeBean\n\n
+    ()\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''

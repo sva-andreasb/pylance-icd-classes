@@ -1,15 +1,16 @@
-def ModAvailBean():
-    '''public ModAvailBean()
-    '''
-def execute():
-    '''public synchronized int execute()
+def ():
+    '''returns ModAvailBean\n\n
+    ()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''

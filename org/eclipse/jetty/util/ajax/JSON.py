@@ -1,137 +1,141 @@
-def JSON():
-    '''public JSON()
+def ():
+    '''returns Literal\n\n
+    ()\n
+    (final String s)\n
+    (final Reader r)\n
+    (final String json)\n
     '''
 def getStringBufferSize():
-    '''public int getStringBufferSize()
+    '''returns int\n\n
+    getStringBufferSize()\n
     '''
 def setStringBufferSize():
-    '''public void setStringBufferSize(final int stringBufferSize)
-    '''
-def registerConvertor():
-    '''public static void registerConvertor(final Class forClass, final Convertor convertor)
-    '''
-def getDefault():
-    '''public static JSON getDefault()
-    '''
-def setDefault():
-    '''public static void setDefault(final JSON json)
-    '''
-def toString():
-    '''public static String toString(final Object object)
-    public static String toString(final Map object)
-    public static String toString(final Object[] array)
-    public String toString()
-    public String toString()
-    '''
-def parse():
-    '''public static Object parse(final String s)
-    public static Object parse(final String s, final boolean stripOuterComment)
-    public static Object parse(final Reader in)
-    public static Object parse(final Reader in, final boolean stripOuterComment)
-    public static Object parse(final InputStream in)
-    public static Object parse(final InputStream in, final boolean stripOuterComment)
-    public Object parse(final Source source, final boolean stripOuterComment)
-    public Object parse(final Source source)
+    '''returns None\n\n
+    setStringBufferSize(final int stringBufferSize)\n
     '''
 def toJSON():
-    '''public String toJSON(final Object object)
-    public void toJSON(final Output out)
+    '''returns None\n\n
+    toJSON(final Object object)\n
+    toJSON(final Output out)\n
     '''
 def fromJSON():
-    '''public Object fromJSON(final String json)
-    public void fromJSON(final Map object)
+    '''returns None\n\n
+    fromJSON(final String json)\n
+    fromJSON(final Map object)\n
     '''
 def append():
-    '''public void append(final StringBuffer buffer, final Object object)
-    public void append(final Appendable buffer, final Object object)
+    '''returns None\n\n
+    append(final StringBuffer buffer, final Object object)\n
+    append(final Appendable buffer, final Object object)\n
     '''
 def appendNull():
-    '''public void appendNull(final StringBuffer buffer)
-    public void appendNull(final Appendable buffer)
+    '''returns None\n\n
+    appendNull(final StringBuffer buffer)\n
+    appendNull(final Appendable buffer)\n
     '''
 def appendJSON():
-    '''public void appendJSON(final StringBuffer buffer, final Convertor convertor, final Object object)
-    public void appendJSON(final Appendable buffer, final Convertor convertor, final Object object)
-    public void appendJSON(final StringBuffer buffer, final Convertible converter)
-    public void appendJSON(final Appendable buffer, final Convertible converter)
-    public void appendJSON(final StringBuffer buffer, final Generator generator)
-    public void appendJSON(final Appendable buffer, final Generator generator)
+    '''returns None\n\n
+    appendJSON(final StringBuffer buffer, final Convertor convertor, final Object object)\n
+    appendJSON(final Appendable buffer, final Convertor convertor, final Object object)\n
+    appendJSON(final StringBuffer buffer, final Convertible converter)\n
+    appendJSON(final Appendable buffer, final Convertible converter)\n
+    appendJSON(final StringBuffer buffer, final Generator generator)\n
+    appendJSON(final Appendable buffer, final Generator generator)\n
     '''
 def appendMap():
-    '''public void appendMap(final StringBuffer buffer, final Map<?, ?> map)
-    public void appendMap(final Appendable buffer, final Map<?, ?> map)
+    '''returns None\n\n
+    appendMap(final StringBuffer buffer, final Map<?, ?> map)\n
+    appendMap(final Appendable buffer, final Map<?, ?> map)\n
     '''
 def appendArray():
-    '''public void appendArray(final StringBuffer buffer, final Collection collection)
-    public void appendArray(final Appendable buffer, final Collection collection)
-    public void appendArray(final StringBuffer buffer, final Object array)
-    public void appendArray(final Appendable buffer, final Object array)
+    '''returns None\n\n
+    appendArray(final StringBuffer buffer, final Collection collection)\n
+    appendArray(final Appendable buffer, final Collection collection)\n
+    appendArray(final StringBuffer buffer, final Object array)\n
+    appendArray(final Appendable buffer, final Object array)\n
     '''
 def appendBoolean():
-    '''public void appendBoolean(final StringBuffer buffer, final Boolean b)
-    public void appendBoolean(final Appendable buffer, final Boolean b)
+    '''returns None\n\n
+    appendBoolean(final StringBuffer buffer, final Boolean b)\n
+    appendBoolean(final Appendable buffer, final Boolean b)\n
     '''
 def appendNumber():
-    '''public void appendNumber(final StringBuffer buffer, final Number number)
-    public void appendNumber(final Appendable buffer, final Number number)
+    '''returns None\n\n
+    appendNumber(final StringBuffer buffer, final Number number)\n
+    appendNumber(final Appendable buffer, final Number number)\n
     '''
 def appendString():
-    '''public void appendString(final StringBuffer buffer, final String string)
-    public void appendString(final Appendable buffer, final String string)
+    '''returns None\n\n
+    appendString(final StringBuffer buffer, final String string)\n
+    appendString(final Appendable buffer, final String string)\n
     '''
 def addConvertor():
-    '''public void addConvertor(final Class forClass, final Convertor convertor)
+    '''returns None\n\n
+    addConvertor(final Class forClass, final Convertor convertor)\n
     '''
 def addConvertorFor():
-    '''public void addConvertorFor(final String name, final Convertor convertor)
+    '''returns None\n\n
+    addConvertorFor(final String name, final Convertor convertor)\n
     '''
 def getConvertorFor():
-    '''public Convertor getConvertorFor(final String name)
+    '''returns Convertor\n\n
+    getConvertorFor(final String name)\n
+    '''
+def parse():
+    '''returns Object\n\n
+    parse(final Source source, final boolean stripOuterComment)\n
+    parse(final Source source)\n
     '''
 def parseNumber():
-    '''public Number parseNumber(final Source source)
+    '''returns Number\n\n
+    parseNumber(final Source source)\n
     '''
 def complete():
-    '''public void complete()
+    '''returns None\n\n
+    complete()\n
     '''
 def add():
-    '''public void add(final Object obj)
-    public void add(final String name, final Object value)
-    public void add(final String name, final double value)
-    public void add(final String name, final long value)
-    public void add(final String name, final boolean value)
+    '''returns None\n\n
+    add(final Object obj)\n
+    add(final String name, final Object value)\n
+    add(final String name, final double value)\n
+    add(final String name, final long value)\n
+    add(final String name, final boolean value)\n
     '''
 def addClass():
-    '''public void addClass(final Class type)
-    '''
-def StringSource():
-    '''public StringSource(final String s)
+    '''returns None\n\n
+    addClass(final Class type)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    hasNext()\n
     '''
 def next():
-    '''public char next()
-    public char next()
+    '''returns char\n\n
+    next()\n
+    next()\n
     '''
 def peek():
-    '''public char peek()
-    public char peek()
+    '''returns char\n\n
+    peek()\n
+    peek()\n
+    '''
+def toString():
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def scratchBuffer():
-    '''public char[] scratchBuffer()
-    public char[] scratchBuffer()
-    '''
-def ReaderSource():
-    '''public ReaderSource(final Reader r)
+    '''returns char[]\n\n
+    scratchBuffer()\n
+    scratchBuffer()\n
     '''
 def setReader():
-    '''public void setReader(final Reader reader)
-    '''
-def Literal():
-    '''public Literal(final String json)
+    '''returns None\n\n
+    setReader(final Reader reader)\n
     '''
 def addJSON():
-    '''public void addJSON(final Appendable buffer)
+    '''returns None\n\n
+    addJSON(final Appendable buffer)\n
     '''

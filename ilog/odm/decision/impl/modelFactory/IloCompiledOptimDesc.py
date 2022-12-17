@@ -1,7 +1,9 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def getDescription():
-    '''public IloOptimDesc getDescription()
+    '''returns IloOptimDesc\n\n
+    getDescription()\n
     '''

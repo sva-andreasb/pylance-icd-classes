@@ -1,6 +1,8 @@
 def ROUTEWF():
-    '''public int ROUTEWF()
+    '''returns int\n\n
+    ROUTEWF()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''

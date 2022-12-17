@@ -1,0 +1,1 @@
+INSTANCE = "Registry  EPackageRegistryImpl.createGlobalRegistry()"

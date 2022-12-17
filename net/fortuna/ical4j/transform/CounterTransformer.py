@@ -1,6 +1,8 @@
-def CounterTransformer():
-    '''public CounterTransformer(final UidGenerator uidGenerator)
+def ():
+    '''returns CounterTransformer\n\n
+    (final UidGenerator uidGenerator)\n
     '''
 def transform():
-    '''public Calendar transform(final Calendar object)
+    '''returns Calendar\n\n
+    transform(final Calendar object)\n
     '''

@@ -1,3 +1,4 @@
-def ClassLoaderObjectInputStream():
-    '''public ClassLoaderObjectInputStream(final ClassLoader classLoader, final InputStream inputStream)
+def ():
+    '''returns ClassLoaderObjectInputStream\n\n
+    (final ClassLoader classLoader, final InputStream inputStream)\n
     '''

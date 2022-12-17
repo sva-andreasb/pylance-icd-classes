@@ -1,3 +1,4 @@
-def ContentTooLongException():
-    '''public ContentTooLongException(final String message)
+def ():
+    '''returns ContentTooLongException\n\n
+    (final String message)\n
     '''

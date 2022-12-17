@@ -1,6 +1,8 @@
-def FldMeasurementMeasureDate():
-    '''public FldMeasurementMeasureDate(final MboValue mbv)
+def ():
+    '''returns FldMeasurementMeasureDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

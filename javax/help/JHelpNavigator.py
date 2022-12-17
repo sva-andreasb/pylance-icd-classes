@@ -1,62 +1,82 @@
-def JHelpNavigator():
-    '''public JHelpNavigator(final NavigatorView view)
-    public JHelpNavigator(final NavigatorView view, final HelpModel model)
+def ():
+    '''returns JHelpNavigator\n\n
+    (final NavigatorView view)\n
+    (final NavigatorView view, final HelpModel model)\n
     '''
 def getSelectedItems():
-    '''public TreeItem[] getSelectedItems()
+    '''returns TreeItem[]\n\n
+    getSelectedItems()\n
     '''
 def setSelectedItems():
-    '''public void setSelectedItems(final TreeItem[] selectedItems)
+    '''returns None\n\n
+    setSelectedItems(final TreeItem[] selectedItems)\n
     '''
 def getUIClassID():
-    '''public String getUIClassID()
+    '''returns String\n\n
+    getUIClassID()\n
     '''
 def canMerge():
-    '''public boolean canMerge(final NavigatorView navigatorView)
+    '''returns boolean\n\n
+    canMerge(final NavigatorView navigatorView)\n
     '''
 def merge():
-    '''public void merge(final NavigatorView navigatorView)
+    '''returns None\n\n
+    merge(final NavigatorView navigatorView)\n
     '''
 def remove():
-    '''public void remove(final NavigatorView navigatorView)
+    '''returns None\n\n
+    remove(final NavigatorView navigatorView)\n
     '''
 def getNavigatorName():
-    '''public String getNavigatorName()
+    '''returns String\n\n
+    getNavigatorName()\n
     '''
 def getNavigatorView():
-    '''public NavigatorView getNavigatorView()
+    '''returns NavigatorView\n\n
+    getNavigatorView()\n
     '''
 def getNavigatorLabel():
-    '''public String getNavigatorLabel()
-    public String getNavigatorLabel(final Locale locale)
+    '''returns String\n\n
+    getNavigatorLabel()\n
+    getNavigatorLabel(final Locale locale)\n
     '''
 def getIcon():
-    '''public Icon getIcon()
+    '''returns Icon\n\n
+    getIcon()\n
     '''
 def setModel():
-    '''public void setModel(final HelpModel helpModel)
+    '''returns None\n\n
+    setModel(final HelpModel helpModel)\n
     '''
 def getModel():
-    '''public HelpModel getModel()
+    '''returns HelpModel\n\n
+    getModel()\n
     '''
 def setUI():
-    '''public void setUI(final HelpNavigatorUI ui)
+    '''returns None\n\n
+    setUI(final HelpNavigatorUI ui)\n
     '''
 def getUI():
-    '''public HelpNavigatorUI getUI()
+    '''returns HelpNavigatorUI\n\n
+    getUI()\n
     '''
 def updateUI():
-    '''public void updateUI()
+    '''returns None\n\n
+    updateUI()\n
     '''
 def addHelpModelListener():
-    '''public void addHelpModelListener(final HelpModelListener helpModelListener)
+    '''returns None\n\n
+    addHelpModelListener(final HelpModelListener helpModelListener)\n
     '''
 def removeHelpModelListener():
-    '''public void removeHelpModelListener(final HelpModelListener helpModelListener)
+    '''returns None\n\n
+    removeHelpModelListener(final HelpModelListener helpModelListener)\n
     '''
 def getAccessibleContext():
-    '''public AccessibleContext getAccessibleContext()
+    '''returns AccessibleContext\n\n
+    getAccessibleContext()\n
     '''
 def getAccessibleRole():
-    '''public AccessibleRole getAccessibleRole()
+    '''returns AccessibleRole\n\n
+    getAccessibleRole()\n
     '''

@@ -1,6 +1,8 @@
 def skipByCINum():
-    '''public boolean skipByCINum(final String cinum)
+    '''returns boolean\n\n
+    skipByCINum(final String cinum)\n
     '''
 def skipByCIProperty():
-    '''public boolean skipByCIProperty(final MboRemote ci, final UserInfo userInfo)
+    '''returns boolean\n\n
+    skipByCIProperty(final MboRemote ci, final UserInfo userInfo)\n
     '''

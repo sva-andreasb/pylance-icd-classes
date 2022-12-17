@@ -1,3 +1,4 @@
-def OslcCommonPropertiesSet():
-    '''public OslcCommonPropertiesSet(final MboServerInterface ms)
+def ():
+    '''returns OslcCommonPropertiesSet\n\n
+    (final MboServerInterface ms)\n
     '''

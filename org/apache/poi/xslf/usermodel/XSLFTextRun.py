@@ -1,139 +1,181 @@
 def getRawText():
-    '''public String getRawText()
+    '''returns String\n\n
+    getRawText()\n
     '''
 def setText():
-    '''public void setText(final String text)
+    '''returns None\n\n
+    setText(final String text)\n
     '''
 def getXmlObject():
-    '''public XmlObject getXmlObject()
+    '''returns XmlObject\n\n
+    getXmlObject()\n
     '''
 def setFontColor():
-    '''public void setFontColor(final Color color)
-    public void setFontColor(final PaintStyle color)
+    '''returns None\n\n
+    setFontColor(final Color color)\n
+    setFontColor(final PaintStyle color)\n
     '''
 def getFontColor():
-    '''public PaintStyle getFontColor()
+    '''returns PaintStyle\n\n
+    getFontColor()\n
     '''
 def fetch():
-    '''public boolean fetch(final CTTextCharacterProperties props)
-    public boolean fetch(final CTTextCharacterProperties props)
-    public boolean fetch(final CTTextCharacterProperties props)
-    public boolean fetch(final CTTextCharacterProperties props)
-    public boolean fetch(final CTTextCharacterProperties props)
-    public boolean fetch(final CTTextCharacterProperties props)
-    public boolean fetch(final CTTextCharacterProperties props)
-    public boolean fetch(final CTTextCharacterProperties props)
-    public boolean fetch(final CTTextCharacterProperties props)
-    public boolean fetch(final CTTextCharacterProperties props)
-    public boolean fetch(final CTTextCharacterProperties props)
+    '''returns boolean\n\n
+    fetch(final CTTextCharacterProperties props)\n
+    fetch(final CTTextCharacterProperties props)\n
+    fetch(final CTTextCharacterProperties props)\n
+    fetch(final CTTextCharacterProperties props)\n
+    fetch(final CTTextCharacterProperties props)\n
+    fetch(final CTTextCharacterProperties props)\n
+    fetch(final CTTextCharacterProperties props)\n
+    fetch(final CTTextCharacterProperties props)\n
+    fetch(final CTTextCharacterProperties props)\n
+    fetch(final CTTextCharacterProperties props)\n
+    fetch(final CTTextCharacterProperties props)\n
     '''
 def setFontSize():
-    '''public void setFontSize(final Double fontSize)
+    '''returns None\n\n
+    setFontSize(final Double fontSize)\n
     '''
 def getFontSize():
-    '''public Double getFontSize()
+    '''returns Double\n\n
+    getFontSize()\n
     '''
 def getCharacterSpacing():
-    '''public double getCharacterSpacing()
+    '''returns double\n\n
+    getCharacterSpacing()\n
     '''
 def setCharacterSpacing():
-    '''public void setCharacterSpacing(final double spc)
+    '''returns None\n\n
+    setCharacterSpacing(final double spc)\n
     '''
 def setFontFamily():
-    '''public void setFontFamily(final String typeface)
-    public void setFontFamily(final String typeface, final FontGroup fontGroup)
+    '''returns None\n\n
+    setFontFamily(final String typeface)\n
+    setFontFamily(final String typeface, final FontGroup fontGroup)\n
     '''
 def setFontInfo():
-    '''public void setFontInfo(final FontInfo fontInfo, final FontGroup fontGroup)
+    '''returns None\n\n
+    setFontInfo(final FontInfo fontInfo, final FontGroup fontGroup)\n
     '''
 def getFontFamily():
-    '''public String getFontFamily()
-    public String getFontFamily(final FontGroup fontGroup)
+    '''returns String\n\n
+    getFontFamily()\n
+    getFontFamily(final FontGroup fontGroup)\n
     '''
 def getFontInfo():
-    '''public FontInfo getFontInfo(final FontGroup fontGroup)
+    '''returns FontInfo\n\n
+    getFontInfo(final FontGroup fontGroup)\n
     '''
 def getPitchAndFamily():
-    '''public byte getPitchAndFamily()
+    '''returns byte\n\n
+    getPitchAndFamily()\n
     '''
 def setStrikethrough():
-    '''public void setStrikethrough(final boolean strike)
+    '''returns None\n\n
+    setStrikethrough(final boolean strike)\n
     '''
 def isStrikethrough():
-    '''public boolean isStrikethrough()
+    '''returns boolean\n\n
+    isStrikethrough()\n
     '''
 def isSuperscript():
-    '''public boolean isSuperscript()
+    '''returns boolean\n\n
+    isSuperscript()\n
     '''
 def setBaselineOffset():
-    '''public void setBaselineOffset(final double baselineOffset)
+    '''returns None\n\n
+    setBaselineOffset(final double baselineOffset)\n
     '''
 def setSuperscript():
-    '''public void setSuperscript(final boolean flag)
+    '''returns None\n\n
+    setSuperscript(final boolean flag)\n
     '''
 def setSubscript():
-    '''public void setSubscript(final boolean flag)
+    '''returns None\n\n
+    setSubscript(final boolean flag)\n
     '''
 def isSubscript():
-    '''public boolean isSubscript()
+    '''returns boolean\n\n
+    isSubscript()\n
     '''
 def setBold():
-    '''public void setBold(final boolean bold)
+    '''returns None\n\n
+    setBold(final boolean bold)\n
     '''
 def isBold():
-    '''public boolean isBold()
+    '''returns boolean\n\n
+    isBold()\n
     '''
 def setItalic():
-    '''public void setItalic(final boolean italic)
+    '''returns None\n\n
+    setItalic(final boolean italic)\n
     '''
 def isItalic():
-    '''public boolean isItalic()
+    '''returns boolean\n\n
+    isItalic()\n
     '''
 def setUnderlined():
-    '''public void setUnderlined(final boolean underline)
+    '''returns None\n\n
+    setUnderlined(final boolean underline)\n
     '''
 def isUnderlined():
-    '''public boolean isUnderlined()
+    '''returns boolean\n\n
+    isUnderlined()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def createHyperlink():
-    '''public XSLFHyperlink createHyperlink()
+    '''returns XSLFHyperlink\n\n
+    createHyperlink()\n
     '''
 def getHyperlink():
-    '''public XSLFHyperlink getHyperlink()
+    '''returns XSLFHyperlink\n\n
+    getHyperlink()\n
     '''
 def copyFrom():
-    '''public void copyFrom(final FontInfo fontInfo)
+    '''returns None\n\n
+    copyFrom(final FontInfo fontInfo)\n
     '''
 def getIndex():
-    '''public Integer getIndex()
+    '''returns Integer\n\n
+    getIndex()\n
     '''
 def setIndex():
-    '''public void setIndex(final int index)
+    '''returns None\n\n
+    setIndex(final int index)\n
     '''
 def getTypeface():
-    '''public String getTypeface()
+    '''returns String\n\n
+    getTypeface()\n
     '''
 def setTypeface():
-    '''public void setTypeface(final String typeface)
+    '''returns None\n\n
+    setTypeface(final String typeface)\n
     '''
 def getCharset():
-    '''public FontCharset getCharset()
+    '''returns FontCharset\n\n
+    getCharset()\n
     '''
 def setCharset():
-    '''public void setCharset(final FontCharset charset)
+    '''returns None\n\n
+    setCharset(final FontCharset charset)\n
     '''
 def getFamily():
-    '''public FontFamily getFamily()
+    '''returns FontFamily\n\n
+    getFamily()\n
     '''
 def setFamily():
-    '''public void setFamily(final FontFamily family)
+    '''returns None\n\n
+    setFamily(final FontFamily family)\n
     '''
 def getPitch():
-    '''public FontPitch getPitch()
+    '''returns FontPitch\n\n
+    getPitch()\n
     '''
 def setPitch():
-    '''public void setPitch(final FontPitch pitch)
+    '''returns None\n\n
+    setPitch(final FontPitch pitch)\n
     '''

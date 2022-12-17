@@ -11,30 +11,18 @@ VVENUE = "String  \"VVENUE\""
 AVAILABLE = "String  \"AVAILABLE\""
 EXPERIMENTAL_PREFIX = "String  \"X-\""
 def toString():
-    '''public String toString()
-    '''
-def getName():
-    '''public final String getName()
-    '''
-def getProperties():
-    '''public final PropertyList<Property> getProperties()
-    public final <C extends Property> PropertyList<C> getProperties(final String name)
-    '''
-def getProperty():
-    '''public final <T extends Property> T getProperty(final String name)
-    '''
-def validate():
-    '''public final void validate()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object arg0)
+    '''returns boolean\n\n
+    equals(final Object arg0)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def copy():
-    '''public Component copy()
-    '''
-def calculateRecurrenceSet():
-    '''public final PeriodList calculateRecurrenceSet(final Period period)
+    '''returns Component\n\n
+    copy()\n
     '''

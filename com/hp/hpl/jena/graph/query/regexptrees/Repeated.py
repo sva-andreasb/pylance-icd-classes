@@ -1,3 +1,4 @@
 def getOperand():
-    '''public RegexpTree getOperand()
+    '''returns RegexpTree\n\n
+    getOperand()\n
     '''

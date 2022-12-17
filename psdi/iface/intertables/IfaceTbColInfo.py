@@ -1,12 +1,16 @@
 def getIfaceTbColName():
-    '''public String getIfaceTbColName()
+    '''returns String\n\n
+    getIfaceTbColName()\n
     '''
 def setIfaceTbColName():
-    '''public boolean setIfaceTbColName(final String ifaceTbColumn)
+    '''returns boolean\n\n
+    setIfaceTbColName(final String ifaceTbColumn)\n
     '''
 def getMboValueInfo():
-    '''public MboValueInfo getMboValueInfo()
+    '''returns MboValueInfo\n\n
+    getMboValueInfo()\n
     '''
 def setMboValueInfo():
-    '''public void setMboValueInfo(final MboValueInfo info)
+    '''returns None\n\n
+    setMboValueInfo(final MboValueInfo info)\n
     '''

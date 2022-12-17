@@ -1,6 +1,8 @@
-def FldWpMatRequestBy():
-    '''public FldWpMatRequestBy(final MboValue mbv)
+def ():
+    '''returns FldWpMatRequestBy\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

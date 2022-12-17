@@ -1,16 +1,13 @@
-def getTkLogger():
-    '''public static TkLogger getTkLogger(final String s)
-    '''
 def setupConfig():
-    '''public void setupConfig()
+    '''returns None\n\n
+    setupConfig()\n
     '''
 def log():
-    '''public void log(final LogRecord record)
+    '''returns None\n\n
+    log(final LogRecord record)\n
     '''
 def logByte():
-    '''public void logByte(final Level level, final String sourceClass, final String sourceMethod, final byte b)
-    public void logByte(final Level level, final String sourceClass, final String sourceMethod, final byte[] array)
-    '''
-def formatBytes():
-    '''public static String formatBytes(final byte[] array)
+    '''returns None\n\n
+    logByte(final Level level, final String sourceClass, final String sourceMethod, final byte b)\n
+    logByte(final Level level, final String sourceClass, final String sourceMethod, final byte[] array)\n
     '''

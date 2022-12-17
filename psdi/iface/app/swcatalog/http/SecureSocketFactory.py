@@ -1,16 +1,16 @@
 def getDefaultCipherSuites():
-    '''public String[] getDefaultCipherSuites()
+    '''returns String[]\n\n
+    getDefaultCipherSuites()\n
     '''
 def getSupportedCipherSuites():
-    '''public String[] getSupportedCipherSuites()
+    '''returns String[]\n\n
+    getSupportedCipherSuites()\n
     '''
 def createSocket():
-    '''public Socket createSocket(final Socket s, final String host, final int port, final boolean autoClose)
-    public Socket createSocket(final String host, final int port)
-    public Socket createSocket(final String host, final int port, final InetAddress localHost, final int localPort)
-    public Socket createSocket(final InetAddress host, final int port)
-    public Socket createSocket(final InetAddress address, final int port, final InetAddress localAddress, final int localPort)
-    '''
-def getSSLSocketFactory():
-    '''public static SSLSocketFactory getSSLSocketFactory()
+    '''returns Socket\n\n
+    createSocket(final Socket s, final String host, final int port, final boolean autoClose)\n
+    createSocket(final String host, final int port)\n
+    createSocket(final String host, final int port, final InetAddress localHost, final int localPort)\n
+    createSocket(final InetAddress host, final int port)\n
+    createSocket(final InetAddress address, final int port, final InetAddress localAddress, final int localPort)\n
     '''

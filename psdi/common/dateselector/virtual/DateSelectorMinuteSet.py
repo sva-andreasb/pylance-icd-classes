@@ -1,6 +1,8 @@
-def DateSelectorMinuteSet():
-    '''public DateSelectorMinuteSet(final MboServerInterface ms)
+def ():
+    '''returns DateSelectorMinuteSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getMinutesForHour():
-    '''public MboSetRemote getMinutesForHour()
+    '''returns MboSetRemote\n\n
+    getMinutesForHour()\n
     '''

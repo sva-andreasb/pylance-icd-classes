@@ -1,49 +1,65 @@
-def RestoreObjectRequest():
-    '''public RestoreObjectRequest(final String bucketName, final String key)
-    public RestoreObjectRequest(final String bucketName, final String key, final int expirationInDays)
+def ():
+    '''returns RestoreObjectRequest\n\n
+    (final String bucketName, final String key)\n
+    (final String bucketName, final String key, final int expirationInDays)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def withBucketName():
-    '''public RestoreObjectRequest withBucketName(final String bucketName)
+    '''returns RestoreObjectRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def withKey():
-    '''public RestoreObjectRequest withKey(final String key)
+    '''returns RestoreObjectRequest\n\n
+    withKey(final String key)\n
     '''
 def getVersionId():
-    '''public String getVersionId()
+    '''returns String\n\n
+    getVersionId()\n
     '''
 def setVersionId():
-    '''public void setVersionId(final String versionId)
+    '''returns None\n\n
+    setVersionId(final String versionId)\n
     '''
 def withVersionId():
-    '''public RestoreObjectRequest withVersionId(final String versionId)
+    '''returns RestoreObjectRequest\n\n
+    withVersionId(final String versionId)\n
     '''
 def setExpirationInDays():
-    '''public void setExpirationInDays(final int expirationInDays)
+    '''returns None\n\n
+    setExpirationInDays(final int expirationInDays)\n
     '''
 def getExpirationInDays():
-    '''public int getExpirationInDays()
+    '''returns int\n\n
+    getExpirationInDays()\n
     '''
 def withExpirationInDays():
-    '''public RestoreObjectRequest withExpirationInDays(final int expirationInDays)
+    '''returns RestoreObjectRequest\n\n
+    withExpirationInDays(final int expirationInDays)\n
     '''
 def isRequesterPays():
-    '''public boolean isRequesterPays()
+    '''returns boolean\n\n
+    isRequesterPays()\n
     '''
 def setRequesterPays():
-    '''public void setRequesterPays(final boolean isRequesterPays)
+    '''returns None\n\n
+    setRequesterPays(final boolean isRequesterPays)\n
     '''
 def withRequesterPays():
-    '''public RestoreObjectRequest withRequesterPays(final boolean isRequesterPays)
+    '''returns RestoreObjectRequest\n\n
+    withRequesterPays(final boolean isRequesterPays)\n
     '''

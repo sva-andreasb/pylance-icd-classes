@@ -71,12 +71,3 @@ KUTEN = "int  69"
 TOUTEN = "int  70"
 DELIMITER = "int  71"
 SUUJI_COMMA = "int  72"
-def toString():
-    '''public static final String toString(final int n)
-    '''
-def toPOS():
-    '''public static final int toPOS(final int n)
-    '''
-def isStopword():
-    '''public static final boolean isStopword(final int n)
-    '''

@@ -1,18 +1,24 @@
-def SKDViewerQThread():
-    '''public SKDViewerQThread()
+def ():
+    '''returns SKDViewerQThread\n\n
+    ()\n
     '''
 def setModelChangesSender():
-    '''public void setModelChangesSender(final ModelChangesSender modelChangesSender)
+    '''returns None\n\n
+    setModelChangesSender(final ModelChangesSender modelChangesSender)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def addModelChanges():
-    '''public void addModelChanges(final GanttModelChanges modelChanges)
+    '''returns None\n\n
+    addModelChanges(final GanttModelChanges modelChanges)\n
     '''
 def hasModelChanges():
-    '''public boolean hasModelChanges()
+    '''returns boolean\n\n
+    hasModelChanges()\n
     '''
 def cancel():
-    '''public void cancel()
+    '''returns None\n\n
+    cancel()\n
     '''

@@ -1,9 +1,12 @@
-def NPAssetOpSKD():
-    '''public NPAssetOpSKD(final MboSet ms)
+def ():
+    '''returns NPAssetOpSKD\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

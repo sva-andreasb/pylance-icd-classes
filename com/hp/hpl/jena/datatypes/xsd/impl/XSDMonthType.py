@@ -1,6 +1,8 @@
-def XSDMonthType():
-    '''public XSDMonthType(final String typename)
+def ():
+    '''returns XSDMonthType\n\n
+    (final String typename)\n
     '''
 def parseValidated():
-    '''public Object parseValidated(final String str)
+    '''returns Object\n\n
+    parseValidated(final String str)\n
     '''

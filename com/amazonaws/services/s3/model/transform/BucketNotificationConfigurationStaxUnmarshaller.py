@@ -1,6 +1,4 @@
-def getInstance():
-    '''public static BucketNotificationConfigurationStaxUnmarshaller getInstance()
-    '''
 def unmarshall():
-    '''public BucketNotificationConfiguration unmarshall(final InputStream inputStream)
+    '''returns BucketNotificationConfiguration\n\n
+    unmarshall(final InputStream inputStream)\n
     '''

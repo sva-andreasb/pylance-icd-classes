@@ -1,21 +1,28 @@
-def TestResult():
-    '''public TestResult()
+def ():
+    '''returns TestResult\n\n
+    ()\n
     '''
 def isReachable():
-    '''public boolean isReachable()
+    '''returns boolean\n\n
+    isReachable()\n
     '''
 def setResult():
-    '''public void setResult(final boolean result)
+    '''returns None\n\n
+    setResult(final boolean result)\n
     '''
 def getIp():
-    '''public String getIp()
+    '''returns String\n\n
+    getIp()\n
     '''
 def setIp():
-    '''public void setIp(final String ip)
+    '''returns None\n\n
+    setIp(final String ip)\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def setPort():
-    '''public void setPort(final int port)
+    '''returns None\n\n
+    setPort(final int port)\n
     '''

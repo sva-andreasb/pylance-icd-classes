@@ -1,6 +1,8 @@
-def ClassAncestor():
-    '''public ClassAncestor(final MboSet ms)
+def ():
+    '''returns ClassAncestor\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

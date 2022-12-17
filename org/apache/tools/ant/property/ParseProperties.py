@@ -1,15 +1,20 @@
-def ParseProperties():
-    '''public ParseProperties(final Project project, final Collection expanders, final GetProperty getProperty)
+def ():
+    '''returns ParseProperties\n\n
+    (final Project project, final Collection expanders, final GetProperty getProperty)\n
     '''
 def getProject():
-    '''public Project getProject()
+    '''returns Project\n\n
+    getProject()\n
     '''
 def parseProperties():
-    '''public Object parseProperties(final String value)
+    '''returns Object\n\n
+    parseProperties(final String value)\n
     '''
 def containsProperties():
-    '''public boolean containsProperties(final String value)
+    '''returns boolean\n\n
+    containsProperties(final String value)\n
     '''
 def parseNextProperty():
-    '''public Object parseNextProperty(final String value, final ParsePosition pos)
+    '''returns Object\n\n
+    parseNextProperty(final String value, final ParsePosition pos)\n
     '''

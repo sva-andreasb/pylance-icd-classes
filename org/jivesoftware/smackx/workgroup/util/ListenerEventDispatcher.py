@@ -1,12 +1,16 @@
-def ListenerEventDispatcher():
-    '''public ListenerEventDispatcher()
+def ():
+    '''returns ListenerEventDispatcher\n\n
+    ()\n
     '''
 def addListenerTriplet():
-    '''public void addListenerTriplet(final Object listenerInstance, final Method listenerMethod, final Object[] methodArguments)
+    '''returns None\n\n
+    addListenerTriplet(final Object listenerInstance, final Method listenerMethod, final Object[] methodArguments)\n
     '''
 def hasFinished():
-    '''public boolean hasFinished()
+    '''returns boolean\n\n
+    hasFinished()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

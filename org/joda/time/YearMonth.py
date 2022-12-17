@@ -1,120 +1,135 @@
 YEAR = "int  0"
 MONTH_OF_YEAR = "int  1"
-def now():
-    '''public static YearMonth now()
-    public static YearMonth now(final DateTimeZone dateTimeZone)
-    public static YearMonth now(final Chronology chronology)
-    '''
-def parse():
-    '''public static YearMonth parse(final String s)
-    public static YearMonth parse(final String s, final DateTimeFormatter dateTimeFormatter)
-    '''
-def fromCalendarFields():
-    '''public static YearMonth fromCalendarFields(final Calendar calendar)
-    '''
-def fromDateFields():
-    '''public static YearMonth fromDateFields(final Date date)
-    '''
-def YearMonth():
-    '''public YearMonth()
-    public YearMonth(final DateTimeZone dateTimeZone)
-    public YearMonth(final Chronology chronology)
-    public YearMonth(final long n)
-    public YearMonth(final long n, final Chronology chronology)
-    public YearMonth(final Object o)
-    public YearMonth(final Object o, final Chronology chronology)
-    public YearMonth(final int n, final int n2)
-    public YearMonth(final int n, final int n2, final Chronology chronology)
+def ():
+    '''returns YearMonth\n\n
+    ()\n
+    (final DateTimeZone dateTimeZone)\n
+    (final Chronology chronology)\n
+    (final long n)\n
+    (final long n, final Chronology chronology)\n
+    (final Object o)\n
+    (final Object o, final Chronology chronology)\n
+    (final int n, final int n2)\n
+    (final int n, final int n2, final Chronology chronology)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getFieldType():
-    '''public DateTimeFieldType getFieldType(final int n)
+    '''returns DateTimeFieldType\n\n
+    getFieldType(final int n)\n
     '''
 def getFieldTypes():
-    '''public DateTimeFieldType[] getFieldTypes()
+    '''returns DateTimeFieldType[]\n\n
+    getFieldTypes()\n
     '''
 def withChronologyRetainFields():
-    '''public YearMonth withChronologyRetainFields(Chronology chronology)
+    '''returns YearMonth\n\n
+    withChronologyRetainFields(Chronology chronology)\n
     '''
 def withField():
-    '''public YearMonth withField(final DateTimeFieldType dateTimeFieldType, final int n)
+    '''returns YearMonth\n\n
+    withField(final DateTimeFieldType dateTimeFieldType, final int n)\n
     '''
 def withFieldAdded():
-    '''public YearMonth withFieldAdded(final DurationFieldType durationFieldType, final int n)
+    '''returns YearMonth\n\n
+    withFieldAdded(final DurationFieldType durationFieldType, final int n)\n
     '''
 def withPeriodAdded():
-    '''public YearMonth withPeriodAdded(final ReadablePeriod readablePeriod, final int n)
+    '''returns YearMonth\n\n
+    withPeriodAdded(final ReadablePeriod readablePeriod, final int n)\n
     '''
 def plus():
-    '''public YearMonth plus(final ReadablePeriod readablePeriod)
+    '''returns YearMonth\n\n
+    plus(final ReadablePeriod readablePeriod)\n
     '''
 def plusYears():
-    '''public YearMonth plusYears(final int n)
+    '''returns YearMonth\n\n
+    plusYears(final int n)\n
     '''
 def plusMonths():
-    '''public YearMonth plusMonths(final int n)
+    '''returns YearMonth\n\n
+    plusMonths(final int n)\n
     '''
 def minus():
-    '''public YearMonth minus(final ReadablePeriod readablePeriod)
+    '''returns YearMonth\n\n
+    minus(final ReadablePeriod readablePeriod)\n
     '''
 def minusYears():
-    '''public YearMonth minusYears(final int n)
+    '''returns YearMonth\n\n
+    minusYears(final int n)\n
     '''
 def minusMonths():
-    '''public YearMonth minusMonths(final int n)
+    '''returns YearMonth\n\n
+    minusMonths(final int n)\n
     '''
 def toLocalDate():
-    '''public LocalDate toLocalDate(final int n)
+    '''returns LocalDate\n\n
+    toLocalDate(final int n)\n
     '''
 def toInterval():
-    '''public Interval toInterval()
-    public Interval toInterval(DateTimeZone zone)
+    '''returns Interval\n\n
+    toInterval()\n
+    toInterval(DateTimeZone zone)\n
     '''
 def getYear():
-    '''public int getYear()
+    '''returns int\n\n
+    getYear()\n
     '''
 def getMonthOfYear():
-    '''public int getMonthOfYear()
+    '''returns int\n\n
+    getMonthOfYear()\n
     '''
 def withYear():
-    '''public YearMonth withYear(final int n)
+    '''returns YearMonth\n\n
+    withYear(final int n)\n
     '''
 def withMonthOfYear():
-    '''public YearMonth withMonthOfYear(final int n)
+    '''returns YearMonth\n\n
+    withMonthOfYear(final int n)\n
     '''
 def property():
-    '''public Property property(final DateTimeFieldType dateTimeFieldType)
+    '''returns Property\n\n
+    property(final DateTimeFieldType dateTimeFieldType)\n
     '''
 def year():
-    '''public Property year()
+    '''returns Property\n\n
+    year()\n
     '''
 def monthOfYear():
-    '''public Property monthOfYear()
+    '''returns Property\n\n
+    monthOfYear()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final String s)
-    public String toString(final String s, final Locale locale)
+    '''returns String\n\n
+    toString()\n
+    toString(final String s)\n
+    toString(final String s, final Locale locale)\n
     '''
 def getField():
-    '''public DateTimeField getField()
+    '''returns DateTimeField\n\n
+    getField()\n
     '''
 def getYearMonth():
-    '''public YearMonth getYearMonth()
+    '''returns YearMonth\n\n
+    getYearMonth()\n
     '''
 def get():
-    '''public int get()
+    '''returns int\n\n
+    get()\n
     '''
 def addToCopy():
-    '''public YearMonth addToCopy(final int n)
+    '''returns YearMonth\n\n
+    addToCopy(final int n)\n
     '''
 def addWrapFieldToCopy():
-    '''public YearMonth addWrapFieldToCopy(final int n)
+    '''returns YearMonth\n\n
+    addWrapFieldToCopy(final int n)\n
     '''
 def setCopy():
-    '''public YearMonth setCopy(final int n)
-    public YearMonth setCopy(final String s, final Locale locale)
-    public YearMonth setCopy(final String s)
+    '''returns YearMonth\n\n
+    setCopy(final int n)\n
+    setCopy(final String s, final Locale locale)\n
+    setCopy(final String s)\n
     '''

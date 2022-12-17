@@ -1,52 +1,55 @@
 UNKNOWN_MEMBER_ID = "String  \"\""
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def JoinGroupRequest():
-    '''public JoinGroupRequest(final Struct struct, final short versionId)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short versionId)\n
+    (final String name, final ByteBuffer metadata)\n
+    (final String groupId, final int sessionTimeout, final String memberId, final String protocolType, final List<ProtocolMetadata> groupProtocols)\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def groupId():
-    '''public String groupId()
+    '''returns String\n\n
+    groupId()\n
     '''
 def sessionTimeout():
-    '''public int sessionTimeout()
+    '''returns int\n\n
+    sessionTimeout()\n
     '''
 def rebalanceTimeout():
-    '''public int rebalanceTimeout()
+    '''returns int\n\n
+    rebalanceTimeout()\n
     '''
 def memberId():
-    '''public String memberId()
+    '''returns String\n\n
+    memberId()\n
     '''
 def groupProtocols():
-    '''public List<ProtocolMetadata> groupProtocols()
+    '''returns List<ProtocolMetadata>\n\n
+    groupProtocols()\n
     '''
 def protocolType():
-    '''public String protocolType()
-    '''
-def parse():
-    '''public static JoinGroupRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def ProtocolMetadata():
-    '''public ProtocolMetadata(final String name, final ByteBuffer metadata)
+    '''returns String\n\n
+    protocolType()\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def metadata():
-    '''public ByteBuffer metadata()
-    '''
-def Builder():
-    '''public Builder(final String groupId, final int sessionTimeout, final String memberId, final String protocolType, final List<ProtocolMetadata> groupProtocols)
+    '''returns ByteBuffer\n\n
+    metadata()\n
     '''
 def setRebalanceTimeout():
-    '''public Builder setRebalanceTimeout(final int rebalanceTimeout)
+    '''returns Builder\n\n
+    setRebalanceTimeout(final int rebalanceTimeout)\n
     '''
 def build():
-    '''public JoinGroupRequest build(final short version)
+    '''returns JoinGroupRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

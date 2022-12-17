@@ -1,6 +1,8 @@
-def PlusPAgreeTemplate():
-    '''public PlusPAgreeTemplate(final MboSet ms)
+def ():
+    '''returns PlusPAgreeTemplate\n\n
+    (final MboSet ms)\n
     '''
 def createAgreementsFromTemplate():
-    '''public void createAgreementsFromTemplate()
+    '''returns None\n\n
+    createAgreementsFromTemplate()\n
     '''

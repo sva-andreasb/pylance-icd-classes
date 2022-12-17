@@ -1,42 +1,56 @@
-def SAX2Parser():
-    '''public SAX2Parser()
+def ():
+    '''returns SAX2Parser\n\n
+    ()\n
     '''
 def consumeEvents():
-    '''public boolean consumeEvents()
+    '''returns boolean\n\n
+    consumeEvents()\n
     '''
 def endDTD():
-    '''public void endDTD()
+    '''returns None\n\n
+    endDTD()\n
     '''
 def skippedExternalSubsetEntity():
-    '''public boolean skippedExternalSubsetEntity()
+    '''returns boolean\n\n
+    skippedExternalSubsetEntity()\n
     '''
 def startDTDEntity():
-    '''public void startDTDEntity()
+    '''returns None\n\n
+    startDTDEntity()\n
     '''
 def endDTDEntity():
-    '''public void endDTDEntity()
+    '''returns None\n\n
+    endDTDEntity()\n
     '''
 def startPE():
-    '''public void startPE(final XMLString xmlString)
+    '''returns None\n\n
+    startPE(final XMLString xmlString)\n
     '''
 def endPE():
-    '''public void endPE(final XMLString xmlString)
+    '''returns None\n\n
+    endPE(final XMLString xmlString)\n
     '''
 def processingInstructionInDTD():
-    '''public void processingInstructionInDTD(final XMLString xmlString, final XMLString xmlString2)
+    '''returns None\n\n
+    processingInstructionInDTD(final XMLString xmlString, final XMLString xmlString2)\n
     '''
 def commentInDTD():
-    '''public void commentInDTD(final XMLString xmlString)
+    '''returns None\n\n
+    commentInDTD(final XMLString xmlString)\n
     '''
 def getDTDHandler():
-    '''public DTDHandler getDTDHandler()
+    '''returns DTDHandler\n\n
+    getDTDHandler()\n
     '''
 def setDTDHandler():
-    '''public void setDTDHandler(final DTDHandler dtdHandler)
+    '''returns None\n\n
+    setDTDHandler(final DTDHandler dtdHandler)\n
     '''
 def getEntityResolver():
-    '''public EntityResolver getEntityResolver()
+    '''returns EntityResolver\n\n
+    getEntityResolver()\n
     '''
 def setEntityResolver():
-    '''public void setEntityResolver(final EntityResolver entityResolver)
+    '''returns None\n\n
+    setEntityResolver(final EntityResolver entityResolver)\n
     '''

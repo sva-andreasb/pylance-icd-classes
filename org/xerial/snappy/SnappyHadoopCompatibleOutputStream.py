@@ -1,4 +1,5 @@
-def SnappyHadoopCompatibleOutputStream():
-    '''public SnappyHadoopCompatibleOutputStream(final OutputStream outputStream)
-    public SnappyHadoopCompatibleOutputStream(final OutputStream outputStream, final int n)
+def ():
+    '''returns SnappyHadoopCompatibleOutputStream\n\n
+    (final OutputStream outputStream)\n
+    (final OutputStream outputStream, final int n)\n
     '''

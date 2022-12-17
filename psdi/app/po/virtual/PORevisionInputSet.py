@@ -1,3 +1,4 @@
-def PORevisionInputSet():
-    '''public PORevisionInputSet(final MboServerInterface ms)
+def ():
+    '''returns PORevisionInputSet\n\n
+    (final MboServerInterface ms)\n
     '''

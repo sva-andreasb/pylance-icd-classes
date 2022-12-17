@@ -1,15 +1,12 @@
-def register():
-    '''public static void register(final String s, final Class clazz)
-    '''
-def getRegisteredResponses():
-    '''public static RespExtensionSet getRegisteredResponses()
-    '''
-def LDAPIntermediateResponse():
-    '''public LDAPIntermediateResponse(final RfcLDAPMessage rfcLDAPMessage)
+def ():
+    '''returns LDAPIntermediateResponse\n\n
+    (final RfcLDAPMessage rfcLDAPMessage)\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def getValue():
-    '''public byte[] getValue()
+    '''returns byte[]\n\n
+    getValue()\n
     '''

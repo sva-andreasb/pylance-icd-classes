@@ -1,3 +1,4 @@
-def RequestAndSize():
-    '''public RequestAndSize(final AbstractRequest request, final int size)
+def ():
+    '''returns RequestAndSize\n\n
+    (final AbstractRequest request, final int size)\n
     '''

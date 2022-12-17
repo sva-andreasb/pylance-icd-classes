@@ -1,3 +1,4 @@
 def process():
-    '''public QueryNode process(QueryNode queryTree)
+    '''returns QueryNode\n\n
+    process(QueryNode queryTree)\n
     '''

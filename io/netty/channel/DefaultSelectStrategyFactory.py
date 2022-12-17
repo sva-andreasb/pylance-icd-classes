@@ -1,3 +1,4 @@
 def newSelectStrategy():
-    '''public SelectStrategy newSelectStrategy()
+    '''returns SelectStrategy\n\n
+    newSelectStrategy()\n
     '''

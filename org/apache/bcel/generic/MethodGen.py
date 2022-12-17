@@ -1,175 +1,218 @@
-def MethodGen():
-    '''public MethodGen(final int access_flags, final Type return_type, final Type[] arg_types, String[] arg_names, final String method_name, final String class_name, final InstructionList il, final ConstantPoolGen cp)
-    public MethodGen(final Method m, final String class_name, final ConstantPoolGen cp)
+def ():
+    '''returns MethodGen\n\n
+    (final int access_flags, final Type return_type, final Type[] arg_types, String[] arg_names, final String method_name, final String class_name, final InstructionList il, final ConstantPoolGen cp)\n
+    (final Method m, final String class_name, final ConstantPoolGen cp)\n
     '''
 def addLocalVariable():
-    '''public LocalVariableGen addLocalVariable(final String name, final Type type, final int slot, final InstructionHandle start, final InstructionHandle end)
-    public LocalVariableGen addLocalVariable(final String name, final Type type, final InstructionHandle start, final InstructionHandle end)
+    '''returns LocalVariableGen\n\n
+    addLocalVariable(final String name, final Type type, final int slot, final InstructionHandle start, final InstructionHandle end)\n
+    addLocalVariable(final String name, final Type type, final InstructionHandle start, final InstructionHandle end)\n
     '''
 def removeLocalVariable():
-    '''public void removeLocalVariable(final LocalVariableGen l)
+    '''returns None\n\n
+    removeLocalVariable(final LocalVariableGen l)\n
     '''
 def removeLocalVariables():
-    '''public void removeLocalVariables()
+    '''returns None\n\n
+    removeLocalVariables()\n
     '''
 def getLocalVariables():
-    '''public LocalVariableGen[] getLocalVariables()
+    '''returns LocalVariableGen[]\n\n
+    getLocalVariables()\n
     '''
 def getLocalVariableTable():
-    '''public LocalVariableTable getLocalVariableTable(final ConstantPoolGen cp)
+    '''returns LocalVariableTable\n\n
+    getLocalVariableTable(final ConstantPoolGen cp)\n
     '''
 def addLineNumber():
-    '''public LineNumberGen addLineNumber(final InstructionHandle ih, final int src_line)
+    '''returns LineNumberGen\n\n
+    addLineNumber(final InstructionHandle ih, final int src_line)\n
     '''
 def removeLineNumber():
-    '''public void removeLineNumber(final LineNumberGen l)
+    '''returns None\n\n
+    removeLineNumber(final LineNumberGen l)\n
     '''
 def removeLineNumbers():
-    '''public void removeLineNumbers()
+    '''returns None\n\n
+    removeLineNumbers()\n
     '''
 def getLineNumbers():
-    '''public LineNumberGen[] getLineNumbers()
+    '''returns LineNumberGen[]\n\n
+    getLineNumbers()\n
     '''
 def getLineNumberTable():
-    '''public LineNumberTable getLineNumberTable(final ConstantPoolGen cp)
+    '''returns LineNumberTable\n\n
+    getLineNumberTable(final ConstantPoolGen cp)\n
     '''
 def addExceptionHandler():
-    '''public CodeExceptionGen addExceptionHandler(final InstructionHandle start_pc, final InstructionHandle end_pc, final InstructionHandle handler_pc, final ObjectType catch_type)
+    '''returns CodeExceptionGen\n\n
+    addExceptionHandler(final InstructionHandle start_pc, final InstructionHandle end_pc, final InstructionHandle handler_pc, final ObjectType catch_type)\n
     '''
 def removeExceptionHandler():
-    '''public void removeExceptionHandler(final CodeExceptionGen c)
+    '''returns None\n\n
+    removeExceptionHandler(final CodeExceptionGen c)\n
     '''
 def removeExceptionHandlers():
-    '''public void removeExceptionHandlers()
+    '''returns None\n\n
+    removeExceptionHandlers()\n
     '''
 def getExceptionHandlers():
-    '''public CodeExceptionGen[] getExceptionHandlers()
+    '''returns CodeExceptionGen[]\n\n
+    getExceptionHandlers()\n
     '''
 def addException():
-    '''public void addException(final String class_name)
+    '''returns None\n\n
+    addException(final String class_name)\n
     '''
 def removeException():
-    '''public void removeException(final String c)
+    '''returns None\n\n
+    removeException(final String c)\n
     '''
 def removeExceptions():
-    '''public void removeExceptions()
+    '''returns None\n\n
+    removeExceptions()\n
     '''
 def getExceptions():
-    '''public String[] getExceptions()
+    '''returns String[]\n\n
+    getExceptions()\n
     '''
 def addCodeAttribute():
-    '''public void addCodeAttribute(final Attribute a)
+    '''returns None\n\n
+    addCodeAttribute(final Attribute a)\n
     '''
 def removeCodeAttribute():
-    '''public void removeCodeAttribute(final Attribute a)
+    '''returns None\n\n
+    removeCodeAttribute(final Attribute a)\n
     '''
 def removeCodeAttributes():
-    '''public void removeCodeAttributes()
+    '''returns None\n\n
+    removeCodeAttributes()\n
     '''
 def getCodeAttributes():
-    '''public Attribute[] getCodeAttributes()
+    '''returns Attribute[]\n\n
+    getCodeAttributes()\n
     '''
 def getMethod():
-    '''public Method getMethod()
+    '''returns Method\n\n
+    getMethod()\n
     '''
 def removeNOPs():
-    '''public void removeNOPs()
+    '''returns None\n\n
+    removeNOPs()\n
     '''
 def setMaxLocals():
-    '''public void setMaxLocals(final int m)
-    public void setMaxLocals()
+    '''returns None\n\n
+    setMaxLocals(final int m)\n
+    setMaxLocals()\n
     '''
 def getMaxLocals():
-    '''public int getMaxLocals()
+    '''returns int\n\n
+    getMaxLocals()\n
     '''
 def setMaxStack():
-    '''public void setMaxStack(final int m)
-    public void setMaxStack()
+    '''returns None\n\n
+    setMaxStack(final int m)\n
+    setMaxStack()\n
     '''
 def getMaxStack():
-    '''public int getMaxStack()
-    public static int getMaxStack(final ConstantPoolGen cp, final InstructionList il, final CodeExceptionGen[] et)
+    '''returns int\n\n
+    getMaxStack()\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String class_name)
+    '''returns None\n\n
+    setClassName(final String class_name)\n
     '''
 def setReturnType():
-    '''public void setReturnType(final Type return_type)
+    '''returns None\n\n
+    setReturnType(final Type return_type)\n
     '''
 def getReturnType():
-    '''public Type getReturnType()
+    '''returns Type\n\n
+    getReturnType()\n
     '''
 def setArgumentTypes():
-    '''public void setArgumentTypes(final Type[] arg_types)
+    '''returns None\n\n
+    setArgumentTypes(final Type[] arg_types)\n
     '''
 def getArgumentTypes():
-    '''public Type[] getArgumentTypes()
+    '''returns Type[]\n\n
+    getArgumentTypes()\n
     '''
 def setArgumentType():
-    '''public void setArgumentType(final int i, final Type type)
+    '''returns None\n\n
+    setArgumentType(final int i, final Type type)\n
     '''
 def getArgumentType():
-    '''public Type getArgumentType(final int i)
+    '''returns Type\n\n
+    getArgumentType(final int i)\n
     '''
 def setArgumentNames():
-    '''public void setArgumentNames(final String[] arg_names)
+    '''returns None\n\n
+    setArgumentNames(final String[] arg_names)\n
     '''
 def getArgumentNames():
-    '''public String[] getArgumentNames()
+    '''returns String[]\n\n
+    getArgumentNames()\n
     '''
 def setArgumentName():
-    '''public void setArgumentName(final int i, final String name)
+    '''returns None\n\n
+    setArgumentName(final int i, final String name)\n
     '''
 def getArgumentName():
-    '''public String getArgumentName(final int i)
+    '''returns String\n\n
+    getArgumentName(final int i)\n
     '''
 def getInstructionList():
-    '''public InstructionList getInstructionList()
+    '''returns InstructionList\n\n
+    getInstructionList()\n
     '''
 def setInstructionList():
-    '''public void setInstructionList(final InstructionList il)
+    '''returns None\n\n
+    setInstructionList(final InstructionList il)\n
     '''
 def getSignature():
-    '''public String getSignature()
+    '''returns String\n\n
+    getSignature()\n
     '''
 def stripAttributes():
-    '''public void stripAttributes(final boolean flag)
+    '''returns None\n\n
+    stripAttributes(final boolean flag)\n
     '''
 def addObserver():
-    '''public void addObserver(final MethodObserver o)
+    '''returns None\n\n
+    addObserver(final MethodObserver o)\n
     '''
 def removeObserver():
-    '''public void removeObserver(final MethodObserver o)
+    '''returns None\n\n
+    removeObserver(final MethodObserver o)\n
     '''
 def update():
-    '''public void update()
-    '''
-def toString():
-    '''public final String toString()
+    '''returns None\n\n
+    update()\n
     '''
 def copy():
-    '''public MethodGen copy(final String class_name, final ConstantPoolGen cp)
-    '''
-def getComparator():
-    '''public static BCELComparator getComparator()
-    '''
-def setComparator():
-    '''public static void setComparator(final BCELComparator comparator)
+    '''returns MethodGen\n\n
+    copy(final String class_name, final ConstantPoolGen cp)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
-    public boolean equals(final Object o1, final Object o2)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
+    equals(final Object o1, final Object o2)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    public int hashCode(final Object o)
+    '''returns int\n\n
+    hashCode()\n
+    hashCode(final Object o)\n
     '''
 def push():
-    '''public void push(final InstructionHandle target, final int stackDepth)
+    '''returns None\n\n
+    push(final InstructionHandle target, final int stackDepth)\n
     '''
 def pop():
-    '''public BranchTarget pop()
+    '''returns BranchTarget\n\n
+    pop()\n
     '''

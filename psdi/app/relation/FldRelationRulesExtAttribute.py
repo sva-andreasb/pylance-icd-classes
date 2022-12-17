@@ -1,3 +1,4 @@
-def FldRelationRulesExtAttribute():
-    '''public FldRelationRulesExtAttribute(final MboValue mbv)
+def ():
+    '''returns FldRelationRulesExtAttribute\n\n
+    (final MboValue mbv)\n
     '''

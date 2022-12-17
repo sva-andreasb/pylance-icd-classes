@@ -1,3 +1,4 @@
-def ReasonerClashException():
-    '''public ReasonerClashException(final Resource root)
+def ():
+    '''returns ReasonerClashException\n\n
+    (final Resource root)\n
     '''

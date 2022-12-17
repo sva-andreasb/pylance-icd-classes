@@ -1,30 +1,40 @@
-def WMAssignTmp():
-    '''public WMAssignTmp(final MboSet ms)
+def ():
+    '''returns WMAssignTmp\n\n
+    (final MboSet ms)\n
     '''
 def getAssignmentID():
-    '''public long getAssignmentID()
+    '''returns long\n\n
+    getAssignmentID()\n
     '''
 def setAssignmentID():
-    '''public void setAssignmentID(final long id)
+    '''returns None\n\n
+    setAssignmentID(final long id)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setAllReadOny():
-    '''public void setAllReadOny()
+    '''returns None\n\n
+    setAllReadOny()\n
     '''
 def setActualDuration():
-    '''public void setActualDuration()
+    '''returns None\n\n
+    setActualDuration()\n
     '''
 def setEstimateDuration():
-    '''public void setEstimateDuration()
+    '''returns None\n\n
+    setEstimateDuration()\n
     '''
 def validateDateTime():
-    '''public Date validateDateTime(final Date date, final Date time)
+    '''returns Date\n\n
+    validateDateTime(final Date date, final Date time)\n
     '''
 def validateFutureTolerance():
-    '''public void validateFutureTolerance()
+    '''returns None\n\n
+    validateFutureTolerance()\n
     '''

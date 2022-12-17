@@ -1,43 +1,57 @@
 def getPolicyNames():
-    '''public List<String> getPolicyNames()
+    '''returns List<String>\n\n
+    getPolicyNames()\n
     '''
 def setPolicyNames():
-    '''public void setPolicyNames(final Collection<String> policyNames)
+    '''returns None\n\n
+    setPolicyNames(final Collection<String> policyNames)\n
     '''
 def withPolicyNames():
-    '''public ListKeyPoliciesResult withPolicyNames(final String... policyNames)
-    public ListKeyPoliciesResult withPolicyNames(final Collection<String> policyNames)
+    '''returns ListKeyPoliciesResult\n\n
+    withPolicyNames(final String... policyNames)\n
+    withPolicyNames(final Collection<String> policyNames)\n
     '''
 def setNextMarker():
-    '''public void setNextMarker(final String nextMarker)
+    '''returns None\n\n
+    setNextMarker(final String nextMarker)\n
     '''
 def getNextMarker():
-    '''public String getNextMarker()
+    '''returns String\n\n
+    getNextMarker()\n
     '''
 def withNextMarker():
-    '''public ListKeyPoliciesResult withNextMarker(final String nextMarker)
+    '''returns ListKeyPoliciesResult\n\n
+    withNextMarker(final String nextMarker)\n
     '''
 def setTruncated():
-    '''public void setTruncated(final Boolean truncated)
+    '''returns None\n\n
+    setTruncated(final Boolean truncated)\n
     '''
 def getTruncated():
-    '''public Boolean getTruncated()
+    '''returns Boolean\n\n
+    getTruncated()\n
     '''
 def withTruncated():
-    '''public ListKeyPoliciesResult withTruncated(final Boolean truncated)
+    '''returns ListKeyPoliciesResult\n\n
+    withTruncated(final Boolean truncated)\n
     '''
 def isTruncated():
-    '''public Boolean isTruncated()
+    '''returns Boolean\n\n
+    isTruncated()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public ListKeyPoliciesResult clone()
+    '''returns ListKeyPoliciesResult\n\n
+    clone()\n
     '''

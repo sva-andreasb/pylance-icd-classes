@@ -1,70 +1,92 @@
-def RequiredModelMBean():
-    '''public RequiredModelMBean()
-    public RequiredModelMBean(final ModelMBeanInfo modelMBeanInfo)
+def ():
+    '''returns RequiredModelMBean\n\n
+    ()\n
+    (final ModelMBeanInfo modelMBeanInfo)\n
     '''
 def load():
-    '''public void load()
+    '''returns None\n\n
+    load()\n
     '''
 def postDeregister():
-    '''public void postDeregister()
+    '''returns None\n\n
+    postDeregister()\n
     '''
 def preDeregister():
-    '''public void preDeregister()
+    '''returns None\n\n
+    preDeregister()\n
     '''
 def store():
-    '''public void store()
+    '''returns None\n\n
+    store()\n
     '''
 def postRegister():
-    '''public void postRegister(final Boolean b)
+    '''returns None\n\n
+    postRegister(final Boolean b)\n
     '''
 def sendNotification():
-    '''public void sendNotification(final String s)
-    public void sendNotification(final Notification notification)
+    '''returns None\n\n
+    sendNotification(final String s)\n
+    sendNotification(final Notification notification)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final Attribute attribute)
+    '''returns None\n\n
+    setAttribute(final Attribute attribute)\n
     '''
 def sendAttributeChangeNotification():
-    '''public void sendAttributeChangeNotification(final AttributeChangeNotification attributeChangeNotification)
-    public void sendAttributeChangeNotification(final Attribute attribute, final Attribute attribute2)
+    '''returns None\n\n
+    sendAttributeChangeNotification(final AttributeChangeNotification attributeChangeNotification)\n
+    sendAttributeChangeNotification(final Attribute attribute, final Attribute attribute2)\n
     '''
 def getMBeanInfo():
-    '''public MBeanInfo getMBeanInfo()
+    '''returns MBeanInfo\n\n
+    getMBeanInfo()\n
     '''
 def getNotificationInfo():
-    '''public MBeanNotificationInfo[] getNotificationInfo()
+    '''returns MBeanNotificationInfo[]\n\n
+    getNotificationInfo()\n
     '''
 def removeNotificationListener():
-    '''public void removeNotificationListener(final NotificationListener notificationListener)
-    public void removeNotificationListener(final NotificationListener notificationListener, final NotificationFilter notificationFilter, final Object o)
+    '''returns None\n\n
+    removeNotificationListener(final NotificationListener notificationListener)\n
+    removeNotificationListener(final NotificationListener notificationListener, final NotificationFilter notificationFilter, final Object o)\n
     '''
 def setModelMBeanInfo():
-    '''public void setModelMBeanInfo(final ModelMBeanInfo modelMBeanInfo)
+    '''returns None\n\n
+    setModelMBeanInfo(final ModelMBeanInfo modelMBeanInfo)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String str)
+    '''returns Object\n\n
+    getAttribute(final String str)\n
     '''
 def setManagedResource():
-    '''public void setManagedResource(final Object managedResource, final String str)
+    '''returns None\n\n
+    setManagedResource(final Object managedResource, final String str)\n
     '''
 def removeAttributeChangeNotificationListener():
-    '''public void removeAttributeChangeNotificationListener(final NotificationListener notificationListener, final String anObject)
+    '''returns None\n\n
+    removeAttributeChangeNotificationListener(final NotificationListener notificationListener, final String anObject)\n
     '''
 def getAttributes():
-    '''public AttributeList getAttributes(final String[] array)
+    '''returns AttributeList\n\n
+    getAttributes(final String[] array)\n
     '''
 def setAttributes():
-    '''public AttributeList setAttributes(final AttributeList list)
+    '''returns AttributeList\n\n
+    setAttributes(final AttributeList list)\n
     '''
 def addAttributeChangeNotificationListener():
-    '''public void addAttributeChangeNotificationListener(final NotificationListener notificationListener, final String str, final Object o)
+    '''returns None\n\n
+    addAttributeChangeNotificationListener(final NotificationListener notificationListener, final String str, final Object o)\n
     '''
 def addNotificationListener():
-    '''public void addNotificationListener(final NotificationListener notificationListener, final NotificationFilter notificationFilter, final Object o)
+    '''returns None\n\n
+    addNotificationListener(final NotificationListener notificationListener, final NotificationFilter notificationFilter, final Object o)\n
     '''
 def preRegister():
-    '''public ObjectName preRegister(final MBeanServer server, final ObjectName objectName)
+    '''returns ObjectName\n\n
+    preRegister(final MBeanServer server, final ObjectName objectName)\n
     '''
 def invoke():
-    '''public Object invoke(final String s, final Object[] array, final String[] array2)
+    '''returns Object\n\n
+    invoke(final String s, final Object[] array, final String[] array2)\n
     '''

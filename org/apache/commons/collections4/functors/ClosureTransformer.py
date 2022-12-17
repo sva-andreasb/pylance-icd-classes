@@ -1,9 +1,8 @@
-def closureTransformer():
-    '''public static <T> Transformer<T, T> closureTransformer(final Closure<? super T> closure)
-    '''
-def ClosureTransformer():
-    '''public ClosureTransformer(final Closure<? super T> closure)
+def ():
+    '''returns ClosureTransformer\n\n
+    (final Closure<? super T> closure)\n
     '''
 def transform():
-    '''public T transform(final T input)
+    '''returns T\n\n
+    transform(final T input)\n
     '''

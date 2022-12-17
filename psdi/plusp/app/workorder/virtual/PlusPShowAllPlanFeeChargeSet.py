@@ -1,3 +1,4 @@
-def PlusPShowAllPlanFeeChargeSet():
-    '''public PlusPShowAllPlanFeeChargeSet(final MboRemote arg0)
+def ():
+    '''returns PlusPShowAllPlanFeeChargeSet\n\n
+    (final MboRemote arg0)\n
     '''

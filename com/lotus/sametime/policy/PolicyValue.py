@@ -6,51 +6,66 @@ ATTR_BINARY = "byte  4"
 SEL_DISABLE = "byte  0"
 SEL_OVERRIDE = "byte  1"
 SEL_INHERIT = "byte  2"
-def PolicyValue():
-    '''public PolicyValue(final String attrID, final byte attrType, final String value)
-    public PolicyValue(final NdrInputStream ndrInputStream)
-    public PolicyValue(final String s, final byte b, final String s2, final String attrName)
-    public PolicyValue(final String s, final byte b, final String s2, final String attrName, final byte selector)
+def ():
+    '''returns PolicyValue\n\n
+    (final String attrID, final byte attrType, final String value)\n
+    (final NdrInputStream ndrInputStream)\n
+    (final String s, final byte b, final String s2, final String attrName)\n
+    (final String s, final byte b, final String s2, final String attrName, final byte selector)\n
     '''
 def getAttrID():
-    '''public String getAttrID()
+    '''returns String\n\n
+    getAttrID()\n
     '''
 def setAttrID():
-    '''public void setAttrID(final String attrID)
+    '''returns None\n\n
+    setAttrID(final String attrID)\n
     '''
 def getAttrType():
-    '''public byte getAttrType()
+    '''returns byte\n\n
+    getAttrType()\n
     '''
 def setAttrType():
-    '''public void setAttrType(final byte attrType)
+    '''returns None\n\n
+    setAttrType(final byte attrType)\n
     '''
 def getAttrValue():
-    '''public String getAttrValue()
+    '''returns String\n\n
+    getAttrValue()\n
     '''
 def setAttrValue():
-    '''public void setAttrValue(final String value)
+    '''returns None\n\n
+    setAttrValue(final String value)\n
     '''
 def getAttrName():
-    '''public String getAttrName()
+    '''returns String\n\n
+    getAttrName()\n
     '''
 def setAttrName():
-    '''public void setAttrName(final String attrName)
+    '''returns None\n\n
+    setAttrName(final String attrName)\n
     '''
 def getSelector():
-    '''public byte getSelector()
+    '''returns byte\n\n
+    getSelector()\n
     '''
 def setSelector():
-    '''public void setSelector(final byte selector)
+    '''returns None\n\n
+    setSelector(final byte selector)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def load():
-    '''public void load(final NdrInputStream ndrInputStream)
+    '''returns None\n\n
+    load(final NdrInputStream ndrInputStream)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

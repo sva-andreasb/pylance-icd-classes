@@ -1,16 +1,21 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def setRMToOplMappingHandler():
-    '''public void setRMToOplMappingHandler(final IloRMToOplMappingHandler mappingHandler)
+    '''returns None\n\n
+    setRMToOplMappingHandler(final IloRMToOplMappingHandler mappingHandler)\n
     '''
 def getRMToOplMappingHandler():
-    '''public IloRMToOplMappingHandler getRMToOplMappingHandler()
+    '''returns IloRMToOplMappingHandler\n\n
+    getRMToOplMappingHandler()\n
     '''
 def getOplToRMMappingHandler():
-    '''public IloOplToRMMappingHandler getOplToRMMappingHandler()
+    '''returns IloOplToRMMappingHandler\n\n
+    getOplToRMMappingHandler()\n
     '''
 def setOplToRMMappingHandler():
-    '''public void setOplToRMMappingHandler(final IloOplToRMMappingHandler mappingHandler)
+    '''returns None\n\n
+    setOplToRMMappingHandler(final IloOplToRMMappingHandler mappingHandler)\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''

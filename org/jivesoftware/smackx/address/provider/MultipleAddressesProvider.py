@@ -1,3 +1,4 @@
 def parse():
-    '''public MultipleAddresses parse(final XmlPullParser parser, final int initialDepth)
+    '''returns MultipleAddresses\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

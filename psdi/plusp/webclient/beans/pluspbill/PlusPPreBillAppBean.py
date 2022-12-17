@@ -1,12 +1,16 @@
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def approveLines():
-    '''public int approveLines()
+    '''returns int\n\n
+    approveLines()\n
     '''
 def VIEWCOSTS():
-    '''public int VIEWCOSTS()
+    '''returns int\n\n
+    VIEWCOSTS()\n
     '''
 def STATUS():
-    '''public int STATUS()
+    '''returns int\n\n
+    STATUS()\n
     '''

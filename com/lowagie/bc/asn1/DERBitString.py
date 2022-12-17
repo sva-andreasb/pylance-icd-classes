@@ -1,24 +1,26 @@
-def getInstance():
-    '''public static DERBitString getInstance(final Object obj)
-    public static DERBitString getInstance(final ASN1TaggedObject obj, final boolean explicit)
-    '''
-def DERBitString():
-    '''public DERBitString(final byte[] data, final int padBits)
-    public DERBitString(final byte[] data)
-    public DERBitString(final DEREncodable obj)
+def ():
+    '''returns DERBitString\n\n
+    (final byte[] data, final int padBits)\n
+    (final byte[] data)\n
+    (final DEREncodable obj)\n
     '''
 def getBytes():
-    '''public byte[] getBytes()
+    '''returns byte[]\n\n
+    getBytes()\n
     '''
 def getPadBits():
-    '''public int getPadBits()
+    '''returns int\n\n
+    getPadBits()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''

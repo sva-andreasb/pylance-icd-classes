@@ -1,16 +1,21 @@
-def JobFileInputImpl():
-    '''public JobFileInputImpl(final String name, final File file)
-    public JobFileInputImpl(final File file)
+def ():
+    '''returns JobFileInputImpl\n\n
+    (final String name, final File file)\n
+    (final File file)\n
     '''
 def getLength():
-    '''public long getLength()
+    '''returns long\n\n
+    getLength()\n
     '''
 def upload():
-    '''public void upload(final JobClient client, final String jobid)
+    '''returns None\n\n
+    upload(final JobClient client, final String jobid)\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''

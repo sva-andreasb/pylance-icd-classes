@@ -1,12 +1,16 @@
-def MasterViewStatusHandler():
-    '''public MasterViewStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns MasterViewStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def close():
-    '''public void close(final String desiredStatus, final Date closeDate)
+    '''returns None\n\n
+    close(final String desiredStatus, final Date closeDate)\n
     '''
 def checkForChildContracts():
-    '''public void checkForChildContracts()
+    '''returns None\n\n
+    checkForChildContracts()\n
     '''
 def cancel():
-    '''public void cancel(final String desiredStatus, final Date date)
+    '''returns None\n\n
+    cancel(final String desiredStatus, final Date date)\n
     '''

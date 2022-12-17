@@ -1,6 +1,8 @@
-def GetEffectivePrivilegesResponse():
-    '''public GetEffectivePrivilegesResponse(final RfcLDAPMessage rfcLDAPMessage)
+def ():
+    '''returns GetEffectivePrivilegesResponse\n\n
+    (final RfcLDAPMessage rfcLDAPMessage)\n
     '''
 def getPrivileges():
-    '''public int getPrivileges()
+    '''returns int\n\n
+    getPrivileges()\n
     '''

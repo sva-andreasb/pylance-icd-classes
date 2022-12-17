@@ -1,4 +1,5 @@
-def UnsupportedDataTypeException():
-    '''public UnsupportedDataTypeException()
-    public UnsupportedDataTypeException(final String s)
+def ():
+    '''returns UnsupportedDataTypeException\n\n
+    ()\n
+    (final String s)\n
     '''

@@ -1,39 +1,52 @@
-def PlusCATMeter():
-    '''public PlusCATMeter(final MboSet ms)
+def ():
+    '''returns PlusCATMeter\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def isDuplicated():
-    '''public boolean isDuplicated()
+    '''returns boolean\n\n
+    isDuplicated()\n
     '''
 def getAvgCalcMethod():
-    '''public String getAvgCalcMethod()
+    '''returns String\n\n
+    getAvgCalcMethod()\n
     '''
 def getMeterType():
-    '''public String getMeterType()
+    '''returns String\n\n
+    getMeterType()\n
     '''
 def isContinuous():
-    '''public boolean isContinuous()
+    '''returns boolean\n\n
+    isContinuous()\n
     '''
 def getTheMeter():
-    '''public MeterRemote getTheMeter()
+    '''returns MeterRemote\n\n
+    getTheMeter()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setTypeSpecificFlags():
-    '''public void setTypeSpecificFlags()
+    '''returns None\n\n
+    setTypeSpecificFlags()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def setInfoBasedOnMeterInGroup():
-    '''public void setInfoBasedOnMeterInGroup(final MeterInGroupRemote meterInGroup)
+    '''returns None\n\n
+    setInfoBasedOnMeterInGroup(final MeterInGroupRemote meterInGroup)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def getAssetTemplateMboSetInfo():
-    '''public MboSetInfo getAssetTemplateMboSetInfo()
+    '''returns MboSetInfo\n\n
+    getAssetTemplateMboSetInfo()\n
     '''

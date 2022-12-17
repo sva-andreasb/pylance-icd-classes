@@ -1,33 +1,44 @@
-def LogRow():
-    '''public LogRow(final String type, final String userid, final Date reqTime, final String resReq, final String method, final Long reqSize, final Long respSize, final String errorMsg, final String queryString, final int status)
+def ():
+    '''returns LogRow\n\n
+    (final String type, final String userid, final Date reqTime, final String resReq, final String method, final Long reqSize, final Long respSize, final String errorMsg, final String queryString, final int status)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getUserid():
-    '''public String getUserid()
+    '''returns String\n\n
+    getUserid()\n
     '''
 def getReqTime():
-    '''public Date getReqTime()
+    '''returns Date\n\n
+    getReqTime()\n
     '''
 def getResReq():
-    '''public String getResReq()
+    '''returns String\n\n
+    getResReq()\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''
 def getReqSize():
-    '''public Long getReqSize()
+    '''returns Long\n\n
+    getReqSize()\n
     '''
 def getRespSize():
-    '''public Long getRespSize()
+    '''returns Long\n\n
+    getRespSize()\n
     '''
 def getErrorMsg():
-    '''public String getErrorMsg()
+    '''returns String\n\n
+    getErrorMsg()\n
     '''
 def getQueryString():
-    '''public String getQueryString()
+    '''returns String\n\n
+    getQueryString()\n
     '''
 def getStatus():
-    '''public int getStatus()
+    '''returns int\n\n
+    getStatus()\n
     '''

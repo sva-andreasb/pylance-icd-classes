@@ -1,7 +1,9 @@
-def MaxPatternLayout():
-    '''public MaxPatternLayout()
-    public MaxPatternLayout(final String pattern)
+def ():
+    '''returns MaxPatternLayout\n\n
+    ()\n
+    (final String pattern)\n
     '''
 def createPatternParser():
-    '''public PatternParser createPatternParser(final String pattern)
+    '''returns PatternParser\n\n
+    createPatternParser(final String pattern)\n
     '''

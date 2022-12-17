@@ -1,24 +1,32 @@
-def UninvoicedReceiptsInfo():
-    '''public UninvoicedReceiptsInfo(final Invoice inv)
+def ():
+    '''returns UninvoicedReceiptsInfo\n\n
+    (final Invoice inv)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def getRemainingQty():
-    '''public double getRemainingQty(final MboRemote receipt)
+    '''returns double\n\n
+    getRemainingQty(final MboRemote receipt)\n
     '''
 def getRemainingCost():
-    '''public double getRemainingCost(final MboRemote receipt)
+    '''returns double\n\n
+    getRemainingCost(final MboRemote receipt)\n
     '''
 def getNewlyAllocated():
-    '''public double[] getNewlyAllocated(final String invoiceLineNum, final String receiptID)
+    '''returns double[]\n\n
+    getNewlyAllocated(final String invoiceLineNum, final String receiptID)\n
     '''
 def getUninvoicedReceipts():
-    '''public Vector<MboRemote> getUninvoicedReceipts(final String poNum, final String polinenum, final int type, final boolean isCreditInvoice, final String siteID, final boolean isNegativeLine, final String receiptID)
+    '''returns Vector<MboRemote>\n\n
+    getUninvoicedReceipts(final String poNum, final String polinenum, final int type, final boolean isCreditInvoice, final String siteID, final boolean isNegativeLine, final String receiptID)\n
     '''
 def update():
-    '''public void update(final MboRemote invoiceLine, final MboRemote receipt, final double qty, final double cost)
+    '''returns None\n\n
+    update(final MboRemote invoiceLine, final MboRemote receipt, final double qty, final double cost)\n
     '''
 def getIssueUnitCost():
-    '''public double getIssueUnitCost(final MboRemote receipt, final MboRemote invoiceLine)
+    '''returns double\n\n
+    getIssueUnitCost(final MboRemote receipt, final MboRemote invoiceLine)\n
     '''

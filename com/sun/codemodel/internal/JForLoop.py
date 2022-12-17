@@ -1,20 +1,26 @@
-def JForLoop():
-    '''public JForLoop()
+def ():
+    '''returns JForLoop\n\n
+    ()\n
     '''
 def init():
-    '''public JVar init(final int mods, final JType type, final String var, final JExpression e)
-    public JVar init(final JType type, final String var, final JExpression e)
-    public void init(final JVar v, final JExpression e)
+    '''returns None\n\n
+    init(final int mods, final JType type, final String var, final JExpression e)\n
+    init(final JType type, final String var, final JExpression e)\n
+    init(final JVar v, final JExpression e)\n
     '''
 def test():
-    '''public void test(final JExpression e)
+    '''returns None\n\n
+    test(final JExpression e)\n
     '''
 def update():
-    '''public void update(final JExpression e)
+    '''returns None\n\n
+    update(final JExpression e)\n
     '''
 def body():
-    '''public JBlock body()
+    '''returns JBlock\n\n
+    body()\n
     '''
 def state():
-    '''public void state(final JFormatter f)
+    '''returns None\n\n
+    state(final JFormatter f)\n
     '''

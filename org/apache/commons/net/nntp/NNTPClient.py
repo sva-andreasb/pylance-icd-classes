@@ -1,76 +1,94 @@
 def retrieveArticle():
-    '''public Reader retrieveArticle(final String articleId, final ArticlePointer pointer)
-    public Reader retrieveArticle(final String articleId)
-    public Reader retrieveArticle()
-    public Reader retrieveArticle(final int articleNumber, final ArticlePointer pointer)
-    public Reader retrieveArticle(final int articleNumber)
+    '''returns Reader\n\n
+    retrieveArticle(final String articleId, final ArticlePointer pointer)\n
+    retrieveArticle(final String articleId)\n
+    retrieveArticle()\n
+    retrieveArticle(final int articleNumber, final ArticlePointer pointer)\n
+    retrieveArticle(final int articleNumber)\n
     '''
 def retrieveArticleHeader():
-    '''public Reader retrieveArticleHeader(final String articleId, final ArticlePointer pointer)
-    public Reader retrieveArticleHeader(final String articleId)
-    public Reader retrieveArticleHeader()
-    public Reader retrieveArticleHeader(final int articleNumber, final ArticlePointer pointer)
-    public Reader retrieveArticleHeader(final int articleNumber)
+    '''returns Reader\n\n
+    retrieveArticleHeader(final String articleId, final ArticlePointer pointer)\n
+    retrieveArticleHeader(final String articleId)\n
+    retrieveArticleHeader()\n
+    retrieveArticleHeader(final int articleNumber, final ArticlePointer pointer)\n
+    retrieveArticleHeader(final int articleNumber)\n
     '''
 def retrieveArticleBody():
-    '''public Reader retrieveArticleBody(final String articleId, final ArticlePointer pointer)
-    public Reader retrieveArticleBody(final String articleId)
-    public Reader retrieveArticleBody()
-    public Reader retrieveArticleBody(final int articleNumber, final ArticlePointer pointer)
-    public Reader retrieveArticleBody(final int articleNumber)
+    '''returns Reader\n\n
+    retrieveArticleBody(final String articleId, final ArticlePointer pointer)\n
+    retrieveArticleBody(final String articleId)\n
+    retrieveArticleBody()\n
+    retrieveArticleBody(final int articleNumber, final ArticlePointer pointer)\n
+    retrieveArticleBody(final int articleNumber)\n
     '''
 def selectNewsgroup():
-    '''public boolean selectNewsgroup(final String newsgroup, final NewsgroupInfo info)
-    public boolean selectNewsgroup(final String newsgroup)
+    '''returns boolean\n\n
+    selectNewsgroup(final String newsgroup, final NewsgroupInfo info)\n
+    selectNewsgroup(final String newsgroup)\n
     '''
 def listHelp():
-    '''public String listHelp()
+    '''returns String\n\n
+    listHelp()\n
     '''
 def selectArticle():
-    '''public boolean selectArticle(final String articleId, final ArticlePointer pointer)
-    public boolean selectArticle(final String articleId)
-    public boolean selectArticle(final ArticlePointer pointer)
-    public boolean selectArticle(final int articleNumber, final ArticlePointer pointer)
-    public boolean selectArticle(final int articleNumber)
+    '''returns boolean\n\n
+    selectArticle(final String articleId, final ArticlePointer pointer)\n
+    selectArticle(final String articleId)\n
+    selectArticle(final ArticlePointer pointer)\n
+    selectArticle(final int articleNumber, final ArticlePointer pointer)\n
+    selectArticle(final int articleNumber)\n
     '''
 def selectPreviousArticle():
-    '''public boolean selectPreviousArticle(final ArticlePointer pointer)
-    public boolean selectPreviousArticle()
+    '''returns boolean\n\n
+    selectPreviousArticle(final ArticlePointer pointer)\n
+    selectPreviousArticle()\n
     '''
 def selectNextArticle():
-    '''public boolean selectNextArticle(final ArticlePointer pointer)
-    public boolean selectNextArticle()
+    '''returns boolean\n\n
+    selectNextArticle(final ArticlePointer pointer)\n
+    selectNextArticle()\n
     '''
 def listNewsgroups():
-    '''public NewsgroupInfo[] listNewsgroups()
-    public NewsgroupInfo[] listNewsgroups(final String wildmat)
+    '''returns NewsgroupInfo[]\n\n
+    listNewsgroups()\n
+    listNewsgroups(final String wildmat)\n
     '''
 def listNewNewsgroups():
-    '''public NewsgroupInfo[] listNewNewsgroups(final NewGroupsOrNewsQuery query)
+    '''returns NewsgroupInfo[]\n\n
+    listNewNewsgroups(final NewGroupsOrNewsQuery query)\n
     '''
 def listNewNews():
-    '''public String[] listNewNews(final NewGroupsOrNewsQuery query)
+    '''returns String[]\n\n
+    listNewNews(final NewGroupsOrNewsQuery query)\n
     '''
 def completePendingCommand():
-    '''public boolean completePendingCommand()
+    '''returns boolean\n\n
+    completePendingCommand()\n
     '''
 def postArticle():
-    '''public Writer postArticle()
+    '''returns Writer\n\n
+    postArticle()\n
     '''
 def forwardArticle():
-    '''public Writer forwardArticle(final String articleId)
+    '''returns Writer\n\n
+    forwardArticle(final String articleId)\n
     '''
 def logout():
-    '''public boolean logout()
+    '''returns boolean\n\n
+    logout()\n
     '''
 def authenticate():
-    '''public boolean authenticate(final String username, final String password)
+    '''returns boolean\n\n
+    authenticate(final String username, final String password)\n
     '''
 def retrieveArticleInfo():
-    '''public Reader retrieveArticleInfo(final int articleNumber)
-    public Reader retrieveArticleInfo(final int lowArticleNumber, final int highArticleNumber)
+    '''returns Reader\n\n
+    retrieveArticleInfo(final int articleNumber)\n
+    retrieveArticleInfo(final int lowArticleNumber, final int highArticleNumber)\n
     '''
 def retrieveHeader():
-    '''public Reader retrieveHeader(final String header, final int articleNumber)
-    public Reader retrieveHeader(final String header, final int lowArticleNumber, final int highArticleNumber)
+    '''returns Reader\n\n
+    retrieveHeader(final String header, final int articleNumber)\n
+    retrieveHeader(final String header, final int lowArticleNumber, final int highArticleNumber)\n
     '''

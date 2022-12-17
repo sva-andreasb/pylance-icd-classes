@@ -1,9 +1,12 @@
-def PackageExportParser():
-    '''public PackageExportParser(final IPackageResolver resolver, final URI pkgUri)
+def ():
+    '''returns PackageExportParser\n\n
+    (final IPackageResolver resolver, final URI pkgUri)\n
     '''
 def getSchemaSource():
-    '''public String getSchemaSource()
+    '''returns String\n\n
+    getSchemaSource()\n
     '''
 def parse():
-    '''public RootTag parse(final Document document)
+    '''returns RootTag\n\n
+    parse(final Document document)\n
     '''

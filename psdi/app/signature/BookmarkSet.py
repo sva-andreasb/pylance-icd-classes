@@ -1,9 +1,12 @@
-def BookmarkSet():
-    '''public BookmarkSet(final MboServerInterface ms)
+def ():
+    '''returns BookmarkSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def addBookmark():
-    '''public void addBookmark(final MboRemote mbo, String app)
+    '''returns None\n\n
+    addBookmark(final MboRemote mbo, String app)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

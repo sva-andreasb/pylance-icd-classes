@@ -1,6 +1,8 @@
-def SessionServiceability():
-    '''public SessionServiceability(final WebClientSession session)
+def ():
+    '''returns SessionServiceability\n\n
+    (final WebClientSession session)\n
     '''
 def entryAdded():
-    '''public void entryAdded(final LogEntry entry)
+    '''returns None\n\n
+    entryAdded(final LogEntry entry)\n
     '''

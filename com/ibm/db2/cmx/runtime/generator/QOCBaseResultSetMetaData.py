@@ -1,39 +1,48 @@
-def QOCBaseResultSetMetaData():
-    '''public QOCBaseResultSetMetaData(final int[] sqlType_, final String[] columnName_)
+def ():
+    '''returns QOCBaseResultSetMetaData\n\n
+    (final int[] sqlType_, final String[] columnName_)\n
     '''
 def getColumnClassName():
-    '''public String getColumnClassName(final int n)
+    '''returns String\n\n
+    getColumnClassName(final int n)\n
     '''
 def getColumnCount():
-    '''public int getColumnCount()
+    '''returns int\n\n
+    getColumnCount()\n
     '''
 def getColumnDisplaySize():
-    '''public int getColumnDisplaySize(final int n)
+    '''returns int\n\n
+    getColumnDisplaySize(final int n)\n
     '''
 def getColumnName():
-    '''public String getColumnName(final int n)
+    '''returns String\n\n
+    getColumnName(final int n)\n
     '''
 def getColumnType():
-    '''public int getColumnType(final int n)
+    '''returns int\n\n
+    getColumnType(final int n)\n
     '''
 def getColumnTypeName():
-    '''public String getColumnTypeName(final int n)
+    '''returns String\n\n
+    getColumnTypeName(final int n)\n
     '''
 def getPrecision():
-    '''public int getPrecision(final int n)
+    '''returns int\n\n
+    getPrecision(final int n)\n
     '''
 def getScale():
-    '''public int getScale(final int n)
+    '''returns int\n\n
+    getScale(final int n)\n
     '''
 def isNullable():
-    '''public int isNullable(final int n)
+    '''returns int\n\n
+    isNullable(final int n)\n
     '''
 def returnColumnValueForObject():
-    '''public Object returnColumnValueForObject(final Object o, final int n)
+    '''returns Object\n\n
+    returnColumnValueForObject(final Object o, final int n)\n
     '''
 def isWrapperFor():
-    '''public boolean isWrapperFor(final Class<?> clazz)
-    '''
-def unwrap():
-    '''public <T> T unwrap(final Class<T> clazz)
+    '''returns boolean\n\n
+    isWrapperFor(final Class<?> clazz)\n
     '''

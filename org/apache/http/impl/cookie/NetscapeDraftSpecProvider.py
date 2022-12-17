@@ -1,7 +1,9 @@
-def NetscapeDraftSpecProvider():
-    '''public NetscapeDraftSpecProvider(final String[] datepatterns)
-    public NetscapeDraftSpecProvider()
+def ():
+    '''returns NetscapeDraftSpecProvider\n\n
+    (final String[] datepatterns)\n
+    ()\n
     '''
 def create():
-    '''public CookieSpec create(final HttpContext context)
+    '''returns CookieSpec\n\n
+    create(final HttpContext context)\n
     '''

@@ -1,25 +1,33 @@
-def ModConfig():
-    '''public ModConfig()
+def ():
+    '''returns ModConfig\n\n
+    ()\n
     '''
 def registerWith():
-    '''public void registerWith(final CmdGeneral cmdLine)
+    '''returns None\n\n
+    registerWith(final CmdGeneral cmdLine)\n
     '''
 def processArgs():
-    '''public void processArgs(final CmdArgModule cmdLine)
+    '''returns None\n\n
+    processArgs(final CmdArgModule cmdLine)\n
     '''
 def addIndexes():
-    '''public boolean addIndexes()
+    '''returns boolean\n\n
+    addIndexes()\n
     '''
 def dropIndexes():
-    '''public boolean dropIndexes()
+    '''returns boolean\n\n
+    dropIndexes()\n
     '''
 def format():
-    '''public boolean format()
+    '''returns boolean\n\n
+    format()\n
     '''
 def createStore():
-    '''public boolean createStore()
+    '''returns boolean\n\n
+    createStore()\n
     '''
 def enact():
-    '''public void enact(final Store store)
-    public void enact(final Store store, final ModTime timer)
+    '''returns None\n\n
+    enact(final Store store)\n
+    enact(final Store store, final ModTime timer)\n
     '''

@@ -1,231 +1,243 @@
-def XmlResponsesSaxParser():
-    '''public XmlResponsesSaxParser()
+def ():
+    '''returns BucketCrossOriginConfigurationHandler\n\n
+    ()\n
+    (final boolean shouldSDKDecodeResponse)\n
+    (final boolean shouldSDKDecodeResponse)\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    (final boolean shouldSDKDecodeResponse)\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
     '''
 def parseListBucketObjectsResponse():
-    '''public ListBucketHandler parseListBucketObjectsResponse(final InputStream inputStream, final boolean shouldSDKDecodeResponse)
+    '''returns ListBucketHandler\n\n
+    parseListBucketObjectsResponse(final InputStream inputStream, final boolean shouldSDKDecodeResponse)\n
     '''
 def parseListObjectsV2Response():
-    '''public ListObjectsV2Handler parseListObjectsV2Response(final InputStream inputStream, final boolean shouldSDKDecodeResponse)
+    '''returns ListObjectsV2Handler\n\n
+    parseListObjectsV2Response(final InputStream inputStream, final boolean shouldSDKDecodeResponse)\n
     '''
 def parseListVersionsResponse():
-    '''public ListVersionsHandler parseListVersionsResponse(final InputStream inputStream, final boolean shouldSDKDecodeResponse)
+    '''returns ListVersionsHandler\n\n
+    parseListVersionsResponse(final InputStream inputStream, final boolean shouldSDKDecodeResponse)\n
     '''
 def parseListMyBucketsResponse():
-    '''public ListAllMyBucketsHandler parseListMyBucketsResponse(final InputStream inputStream)
+    '''returns ListAllMyBucketsHandler\n\n
+    parseListMyBucketsResponse(final InputStream inputStream)\n
     '''
 def parseAccessControlListResponse():
-    '''public AccessControlListHandler parseAccessControlListResponse(final InputStream inputStream)
+    '''returns AccessControlListHandler\n\n
+    parseAccessControlListResponse(final InputStream inputStream)\n
     '''
 def parseLoggingStatusResponse():
-    '''public BucketLoggingConfigurationHandler parseLoggingStatusResponse(final InputStream inputStream)
+    '''returns BucketLoggingConfigurationHandler\n\n
+    parseLoggingStatusResponse(final InputStream inputStream)\n
     '''
 def parseBucketLifecycleConfigurationResponse():
-    '''public BucketLifecycleConfigurationHandler parseBucketLifecycleConfigurationResponse(final InputStream inputStream)
+    '''returns BucketLifecycleConfigurationHandler\n\n
+    parseBucketLifecycleConfigurationResponse(final InputStream inputStream)\n
     '''
 def parseBucketCrossOriginConfigurationResponse():
-    '''public BucketCrossOriginConfigurationHandler parseBucketCrossOriginConfigurationResponse(final InputStream inputStream)
+    '''returns BucketCrossOriginConfigurationHandler\n\n
+    parseBucketCrossOriginConfigurationResponse(final InputStream inputStream)\n
     '''
 def parseBucketLocationResponse():
-    '''public String parseBucketLocationResponse(final InputStream inputStream)
+    '''returns String\n\n
+    parseBucketLocationResponse(final InputStream inputStream)\n
     '''
 def parseVersioningConfigurationResponse():
-    '''public BucketVersioningConfigurationHandler parseVersioningConfigurationResponse(final InputStream inputStream)
+    '''returns BucketVersioningConfigurationHandler\n\n
+    parseVersioningConfigurationResponse(final InputStream inputStream)\n
     '''
 def parseWebsiteConfigurationResponse():
-    '''public BucketWebsiteConfigurationHandler parseWebsiteConfigurationResponse(final InputStream inputStream)
+    '''returns BucketWebsiteConfigurationHandler\n\n
+    parseWebsiteConfigurationResponse(final InputStream inputStream)\n
     '''
 def parseReplicationConfigurationResponse():
-    '''public BucketReplicationConfigurationHandler parseReplicationConfigurationResponse(final InputStream inputStream)
+    '''returns BucketReplicationConfigurationHandler\n\n
+    parseReplicationConfigurationResponse(final InputStream inputStream)\n
     '''
 def parseTaggingConfigurationResponse():
-    '''public BucketTaggingConfigurationHandler parseTaggingConfigurationResponse(final InputStream inputStream)
+    '''returns BucketTaggingConfigurationHandler\n\n
+    parseTaggingConfigurationResponse(final InputStream inputStream)\n
     '''
 def parseAccelerateConfigurationResponse():
-    '''public BucketAccelerateConfigurationHandler parseAccelerateConfigurationResponse(final InputStream inputStream)
+    '''returns BucketAccelerateConfigurationHandler\n\n
+    parseAccelerateConfigurationResponse(final InputStream inputStream)\n
     '''
 def parseDeletedObjectsResult():
-    '''public DeleteObjectsHandler parseDeletedObjectsResult(final InputStream inputStream)
+    '''returns DeleteObjectsHandler\n\n
+    parseDeletedObjectsResult(final InputStream inputStream)\n
     '''
 def parseCopyObjectResponse():
-    '''public CopyObjectResultHandler parseCopyObjectResponse(final InputStream inputStream)
+    '''returns CopyObjectResultHandler\n\n
+    parseCopyObjectResponse(final InputStream inputStream)\n
     '''
 def parseCompleteMultipartUploadResponse():
-    '''public CompleteMultipartUploadHandler parseCompleteMultipartUploadResponse(final InputStream inputStream)
+    '''returns CompleteMultipartUploadHandler\n\n
+    parseCompleteMultipartUploadResponse(final InputStream inputStream)\n
     '''
 def parseInitiateMultipartUploadResponse():
-    '''public InitiateMultipartUploadHandler parseInitiateMultipartUploadResponse(final InputStream inputStream)
+    '''returns InitiateMultipartUploadHandler\n\n
+    parseInitiateMultipartUploadResponse(final InputStream inputStream)\n
     '''
 def parseListMultipartUploadsResponse():
-    '''public ListMultipartUploadsHandler parseListMultipartUploadsResponse(final InputStream inputStream)
+    '''returns ListMultipartUploadsHandler\n\n
+    parseListMultipartUploadsResponse(final InputStream inputStream)\n
     '''
 def parseListPartsResponse():
-    '''public ListPartsHandler parseListPartsResponse(final InputStream inputStream)
+    '''returns ListPartsHandler\n\n
+    parseListPartsResponse(final InputStream inputStream)\n
     '''
 def parseRequestPaymentConfigurationResponse():
-    '''public RequestPaymentConfigurationHandler parseRequestPaymentConfigurationResponse(final InputStream inputStream)
-    '''
-def ListBucketHandler():
-    '''public ListBucketHandler(final boolean shouldSDKDecodeResponse)
+    '''returns RequestPaymentConfigurationHandler\n\n
+    parseRequestPaymentConfigurationResponse(final InputStream inputStream)\n
     '''
 def getObjectListing():
-    '''public ObjectListing getObjectListing()
-    '''
-def ListObjectsV2Handler():
-    '''public ListObjectsV2Handler(final boolean shouldSDKDecodeResponse)
+    '''returns ObjectListing\n\n
+    getObjectListing()\n
     '''
 def getResult():
-    '''public ListObjectsV2Result getResult()
-    '''
-def ListAllMyBucketsHandler():
-    '''public ListAllMyBucketsHandler()
+    '''returns ListObjectsV2Result\n\n
+    getResult()\n
     '''
 def getBuckets():
-    '''public List<Bucket> getBuckets()
+    '''returns List<Bucket>\n\n
+    getBuckets()\n
     '''
 def getOwner():
-    '''public Owner getOwner()
-    '''
-def AccessControlListHandler():
-    '''public AccessControlListHandler()
+    '''returns Owner\n\n
+    getOwner()\n
     '''
 def getAccessControlList():
-    '''public AccessControlList getAccessControlList()
-    '''
-def BucketLoggingConfigurationHandler():
-    '''public BucketLoggingConfigurationHandler()
+    '''returns AccessControlList\n\n
+    getAccessControlList()\n
     '''
 def getBucketLoggingConfiguration():
-    '''public BucketLoggingConfiguration getBucketLoggingConfiguration()
-    '''
-def BucketLocationHandler():
-    '''public BucketLocationHandler()
+    '''returns BucketLoggingConfiguration\n\n
+    getBucketLoggingConfiguration()\n
     '''
 def getLocation():
-    '''public String getLocation()
-    '''
-def CopyObjectResultHandler():
-    '''public CopyObjectResultHandler()
+    '''returns String\n\n
+    getLocation()\n
     '''
 def getLastModified():
-    '''public Date getLastModified()
+    '''returns Date\n\n
+    getLastModified()\n
     '''
 def getVersionId():
-    '''public String getVersionId()
-    public String getVersionId()
+    '''returns String\n\n
+    getVersionId()\n
+    getVersionId()\n
     '''
 def setVersionId():
-    '''public void setVersionId(final String versionId)
-    public void setVersionId(final String versionId)
+    '''returns None\n\n
+    setVersionId(final String versionId)\n
+    setVersionId(final String versionId)\n
     '''
 def getExpirationTime():
-    '''public Date getExpirationTime()
-    public Date getExpirationTime()
+    '''returns Date\n\n
+    getExpirationTime()\n
+    getExpirationTime()\n
     '''
 def setExpirationTime():
-    '''public void setExpirationTime(final Date expirationTime)
-    public void setExpirationTime(final Date expirationTime)
+    '''returns None\n\n
+    setExpirationTime(final Date expirationTime)\n
+    setExpirationTime(final Date expirationTime)\n
     '''
 def getExpirationTimeRuleId():
-    '''public String getExpirationTimeRuleId()
-    public String getExpirationTimeRuleId()
+    '''returns String\n\n
+    getExpirationTimeRuleId()\n
+    getExpirationTimeRuleId()\n
     '''
 def setExpirationTimeRuleId():
-    '''public void setExpirationTimeRuleId(final String expirationTimeRuleId)
-    public void setExpirationTimeRuleId(final String expirationTimeRuleId)
+    '''returns None\n\n
+    setExpirationTimeRuleId(final String expirationTimeRuleId)\n
+    setExpirationTimeRuleId(final String expirationTimeRuleId)\n
     '''
 def getETag():
-    '''public String getETag()
+    '''returns String\n\n
+    getETag()\n
     '''
 def getErrorCode():
-    '''public String getErrorCode()
+    '''returns String\n\n
+    getErrorCode()\n
     '''
 def getErrorHostId():
-    '''public String getErrorHostId()
+    '''returns String\n\n
+    getErrorHostId()\n
     '''
 def getErrorMessage():
-    '''public String getErrorMessage()
+    '''returns String\n\n
+    getErrorMessage()\n
     '''
 def getErrorRequestId():
-    '''public String getErrorRequestId()
+    '''returns String\n\n
+    getErrorRequestId()\n
     '''
 def isErrorResponse():
-    '''public boolean isErrorResponse()
+    '''returns boolean\n\n
+    isErrorResponse()\n
     '''
 def isRequesterCharged():
-    '''public boolean isRequesterCharged()
-    public boolean isRequesterCharged()
+    '''returns boolean\n\n
+    isRequesterCharged()\n
+    isRequesterCharged()\n
     '''
 def setRequesterCharged():
-    '''public void setRequesterCharged(final boolean isRequesterCharged)
-    public void setRequesterCharged(final boolean isRequesterCharged)
-    '''
-def RequestPaymentConfigurationHandler():
-    '''public RequestPaymentConfigurationHandler()
+    '''returns None\n\n
+    setRequesterCharged(final boolean isRequesterCharged)\n
+    setRequesterCharged(final boolean isRequesterCharged)\n
     '''
 def getConfiguration():
-    '''public RequestPaymentConfiguration getConfiguration()
-    public BucketWebsiteConfiguration getConfiguration()
-    public BucketVersioningConfiguration getConfiguration()
-    public BucketAccelerateConfiguration getConfiguration()
-    public BucketReplicationConfiguration getConfiguration()
-    public BucketTaggingConfiguration getConfiguration()
-    public BucketLifecycleConfiguration getConfiguration()
-    public BucketCrossOriginConfiguration getConfiguration()
-    '''
-def ListVersionsHandler():
-    '''public ListVersionsHandler(final boolean shouldSDKDecodeResponse)
+    '''returns BucketCrossOriginConfiguration\n\n
+    getConfiguration()\n
+    getConfiguration()\n
+    getConfiguration()\n
+    getConfiguration()\n
+    getConfiguration()\n
+    getConfiguration()\n
+    getConfiguration()\n
+    getConfiguration()\n
     '''
 def getListing():
-    '''public VersionListing getListing()
-    '''
-def BucketWebsiteConfigurationHandler():
-    '''public BucketWebsiteConfigurationHandler()
-    '''
-def BucketVersioningConfigurationHandler():
-    '''public BucketVersioningConfigurationHandler()
-    '''
-def BucketAccelerateConfigurationHandler():
-    '''public BucketAccelerateConfigurationHandler()
+    '''returns VersionListing\n\n
+    getListing()\n
     '''
 def getCompleteMultipartUploadResult():
-    '''public CompleteMultipartUploadResult getCompleteMultipartUploadResult()
+    '''returns CompleteMultipartUploadResult\n\n
+    getCompleteMultipartUploadResult()\n
     '''
 def getAmazonS3Exception():
-    '''public AmazonS3Exception getAmazonS3Exception()
-    '''
-def InitiateMultipartUploadHandler():
-    '''public InitiateMultipartUploadHandler()
+    '''returns AmazonS3Exception\n\n
+    getAmazonS3Exception()\n
     '''
 def getInitiateMultipartUploadResult():
-    '''public InitiateMultipartUploadResult getInitiateMultipartUploadResult()
-    '''
-def ListMultipartUploadsHandler():
-    '''public ListMultipartUploadsHandler()
+    '''returns InitiateMultipartUploadResult\n\n
+    getInitiateMultipartUploadResult()\n
     '''
 def getListMultipartUploadsResult():
-    '''public MultipartUploadListing getListMultipartUploadsResult()
-    '''
-def ListPartsHandler():
-    '''public ListPartsHandler()
+    '''returns MultipartUploadListing\n\n
+    getListMultipartUploadsResult()\n
     '''
 def getListPartsResult():
-    '''public PartListing getListPartsResult()
-    '''
-def BucketReplicationConfigurationHandler():
-    '''public BucketReplicationConfigurationHandler()
-    '''
-def BucketTaggingConfigurationHandler():
-    '''public BucketTaggingConfigurationHandler()
-    '''
-def DeleteObjectsHandler():
-    '''public DeleteObjectsHandler()
+    '''returns PartListing\n\n
+    getListPartsResult()\n
     '''
 def getDeleteObjectResult():
-    '''public DeleteObjectsResponse getDeleteObjectResult()
-    '''
-def BucketLifecycleConfigurationHandler():
-    '''public BucketLifecycleConfigurationHandler()
-    '''
-def BucketCrossOriginConfigurationHandler():
-    '''public BucketCrossOriginConfigurationHandler()
+    '''returns DeleteObjectsResponse\n\n
+    getDeleteObjectResult()\n
     '''

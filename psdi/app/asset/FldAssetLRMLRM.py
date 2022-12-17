@@ -1,3 +1,4 @@
-def FldAssetLRMLRM():
-    '''public FldAssetLRMLRM(final MboValue mbv)
+def ():
+    '''returns FldAssetLRMLRM\n\n
+    (final MboValue mbv)\n
     '''

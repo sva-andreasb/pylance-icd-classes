@@ -1,3 +1,4 @@
-def N3TurtleJenaWriter():
-    '''public N3TurtleJenaWriter()
+def ():
+    '''returns N3TurtleJenaWriter\n\n
+    ()\n
     '''

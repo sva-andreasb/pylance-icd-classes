@@ -1,88 +1,117 @@
-def ClassSpec():
-    '''public ClassSpec(final MboSet ms)
+def ():
+    '''returns ClassSpec\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def userSaidToDelete():
-    '''public boolean userSaidToDelete()
+    '''returns boolean\n\n
+    userSaidToDelete()\n
     '''
 def delete():
-    '''public void delete(final long access)
+    '''returns None\n\n
+    delete(final long access)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def getAssetAttributeMbo():
-    '''public MboRemote getAssetAttributeMbo()
+    '''returns MboRemote\n\n
+    getAssetAttributeMbo()\n
     '''
 def addOtherSpecs():
-    '''public void addOtherSpecs(final MboSetRemote mboSet)
+    '''returns None\n\n
+    addOtherSpecs(final MboSetRemote mboSet)\n
     '''
 def setColumnsReadOnly():
-    '''public void setColumnsReadOnly(final boolean setReadOnly)
+    '''returns None\n\n
+    setColumnsReadOnly(final boolean setReadOnly)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def populateClassSpecUseWith():
-    '''public void populateClassSpecUseWith(final MboRemote parentClassStructure)
-    public void populateClassSpecUseWith(final MboSetRemote newClassSpecUseWithSet)
+    '''returns None\n\n
+    populateClassSpecUseWith(final MboRemote parentClassStructure)\n
+    populateClassSpecUseWith(final MboSetRemote newClassSpecUseWithSet)\n
     '''
 def populateSequence():
-    '''public int populateSequence(final MboRemote newClassSpecUseWith)
+    '''returns int\n\n
+    populateSequence(final MboRemote newClassSpecUseWith)\n
     '''
 def getTableDomainObject():
-    '''public MboRemote getTableDomainObject()
+    '''returns MboRemote\n\n
+    getTableDomainObject()\n
     '''
 def getClassStructure():
-    '''public ClassStructure getClassStructure()
+    '''returns ClassStructure\n\n
+    getClassStructure()\n
     '''
 def applyDownHierarchy():
-    '''public void applyDownHierarchy()
+    '''returns None\n\n
+    applyDownHierarchy()\n
     '''
 def UnApplyDownHierarchy():
-    '''public void UnApplyDownHierarchy()
+    '''returns None\n\n
+    UnApplyDownHierarchy()\n
     '''
 def inClassificationApp():
-    '''public boolean inClassificationApp()
+    '''returns boolean\n\n
+    inClassificationApp()\n
     '''
 def checkRequiredFields():
-    '''public void checkRequiredFields()
+    '''returns None\n\n
+    checkRequiredFields()\n
     '''
 def setClassSpecForApplyDownHier():
-    '''public void setClassSpecForApplyDownHier(final MboRemote classSpecApplyDownHier)
+    '''returns None\n\n
+    setClassSpecForApplyDownHier(final MboRemote classSpecApplyDownHier)\n
     '''
 def getClassSpecForApplyDownHier():
-    '''public MboRemote getClassSpecForApplyDownHier()
+    '''returns MboRemote\n\n
+    getClassSpecForApplyDownHier()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote newClassSpecSet, final long mboAddFlags)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote newClassSpecSet, final long mboAddFlags)\n
     '''
 def getValueToCrossOver():
-    '''public String getValueToCrossOver(final String srcAttrCSNN, final String tgtSpecObj, final String tgtSpecAttr)
+    '''returns String\n\n
+    getValueToCrossOver(final String srcAttrCSNN, final String tgtSpecObj, final String tgtSpecAttr)\n
     '''
 def canChangeOrgSite():
-    '''public void canChangeOrgSite(final MboValue orgSiteMbv)
+    '''returns None\n\n
+    canChangeOrgSite(final MboValue orgSiteMbv)\n
     '''
 def storeExistingSpec():
-    '''public Hashtable storeExistingSpec(final MboSetRemote existingSpecSet, final String attrName, final String siteidORitemsetid)
+    '''returns Hashtable\n\n
+    storeExistingSpec(final MboSetRemote existingSpecSet, final String attrName, final String siteidORitemsetid)\n
     '''
 def addOtherSpecsLargeForSqlServer():
-    '''public void addOtherSpecsLargeForSqlServer(final String tableName, final String where, int counter)
+    '''returns None\n\n
+    addOtherSpecsLargeForSqlServer(final String tableName, final String where, int counter)\n
     '''
 def copyValuesToChildClassSpec():
-    '''public void copyValuesToChildClassSpec(final MboRemote childClassSpec)
+    '''returns None\n\n
+    copyValuesToChildClassSpec(final MboRemote childClassSpec)\n
     '''
 def setValue():
-    '''public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''returns None\n\n
+    setValue(final String attributeName, final String val, final long accessModifier)\n
     '''
 def getMinMaxSeq():
-    '''public long getMinMaxSeq(final String select)
+    '''returns long\n\n
+    getMinMaxSeq(final String select)\n
     '''
 def getUserDefinedRequired():
-    '''public String[] getUserDefinedRequired(final String specName, int startingIndex)
+    '''returns String[]\n\n
+    getUserDefinedRequired(final String specName, int startingIndex)\n
     '''

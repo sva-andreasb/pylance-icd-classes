@@ -1,3 +1,4 @@
-def StoreSimplePGSQL():
-    '''public StoreSimplePGSQL(final SDBConnection connection, final StoreDesc desc)
+def ():
+    '''returns StoreSimplePGSQL\n\n
+    (final SDBConnection connection, final StoreDesc desc)\n
     '''

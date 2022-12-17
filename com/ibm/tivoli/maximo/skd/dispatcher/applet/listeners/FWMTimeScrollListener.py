@@ -1,18 +1,24 @@
-def FWMTimeScrollListener():
-    '''public FWMTimeScrollListener(final FWMActionsFacade mapFacade, final IlvScheduleChart chart)
+def ():
+    '''returns FWMTimeScrollListener\n\n
+    (final FWMActionsFacade mapFacade, final IlvScheduleChart chart)\n
     '''
 def maxVisibleTimeChanged():
-    '''public void maxVisibleTimeChanged(final TimeChangedEvent arg0)
+    '''returns None\n\n
+    maxVisibleTimeChanged(final TimeChangedEvent arg0)\n
     '''
 def minVisibleTimeChanged():
-    '''public void minVisibleTimeChanged(final TimeChangedEvent arg0)
+    '''returns None\n\n
+    minVisibleTimeChanged(final TimeChangedEvent arg0)\n
     '''
 def visibleDurationChanged():
-    '''public void visibleDurationChanged(final VisibleDurationChangedEvent arg0)
+    '''returns None\n\n
+    visibleDurationChanged(final VisibleDurationChangedEvent arg0)\n
     '''
 def visibleTimeChanged():
-    '''public void visibleTimeChanged(final VisibleTimeChangedEvent arg0)
+    '''returns None\n\n
+    visibleTimeChanged(final VisibleTimeChangedEvent arg0)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

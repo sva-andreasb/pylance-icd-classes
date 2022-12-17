@@ -1,12 +1,16 @@
-def FldAppointmentBookWOStatus():
-    '''public FldAppointmentBookWOStatus(final MboValue mbv)
+def ():
+    '''returns FldAppointmentBookWOStatus\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def getDomainId():
-    '''public String getDomainId()
+    '''returns String\n\n
+    getDomainId()\n
     '''

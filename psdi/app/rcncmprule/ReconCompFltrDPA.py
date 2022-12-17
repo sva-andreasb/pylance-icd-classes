@@ -1,12 +1,16 @@
-def ReconCompFltrDPA():
-    '''public ReconCompFltrDPA(final MboSet ms)
+def ():
+    '''returns ReconCompFltrDPA\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''

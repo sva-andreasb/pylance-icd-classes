@@ -1,6 +1,8 @@
-def Region():
-    '''public Region(@JsonProperty("description") final String description)
+def ():
+    '''returns Region\n\n
+    (@JsonProperty("description") final String description)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''

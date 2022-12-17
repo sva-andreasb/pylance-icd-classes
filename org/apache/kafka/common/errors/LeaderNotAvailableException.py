@@ -1,4 +1,5 @@
-def LeaderNotAvailableException():
-    '''public LeaderNotAvailableException(final String message)
-    public LeaderNotAvailableException(final String message, final Throwable cause)
+def ():
+    '''returns LeaderNotAvailableException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

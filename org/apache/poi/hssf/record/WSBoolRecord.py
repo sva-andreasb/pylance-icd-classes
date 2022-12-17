@@ -1,77 +1,102 @@
 sid = "short  129"
-def WSBoolRecord():
-    '''public WSBoolRecord()
-    public WSBoolRecord(final RecordInputStream in)
+def ():
+    '''returns WSBoolRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setWSBool1():
-    '''public void setWSBool1(final byte bool1)
+    '''returns None\n\n
+    setWSBool1(final byte bool1)\n
     '''
 def setAutobreaks():
-    '''public void setAutobreaks(final boolean ab)
+    '''returns None\n\n
+    setAutobreaks(final boolean ab)\n
     '''
 def setDialog():
-    '''public void setDialog(final boolean isDialog)
+    '''returns None\n\n
+    setDialog(final boolean isDialog)\n
     '''
 def setRowSumsBelow():
-    '''public void setRowSumsBelow(final boolean below)
+    '''returns None\n\n
+    setRowSumsBelow(final boolean below)\n
     '''
 def setRowSumsRight():
-    '''public void setRowSumsRight(final boolean right)
+    '''returns None\n\n
+    setRowSumsRight(final boolean right)\n
     '''
 def setWSBool2():
-    '''public void setWSBool2(final byte bool2)
+    '''returns None\n\n
+    setWSBool2(final byte bool2)\n
     '''
 def setFitToPage():
-    '''public void setFitToPage(final boolean fit2page)
+    '''returns None\n\n
+    setFitToPage(final boolean fit2page)\n
     '''
 def setDisplayGuts():
-    '''public void setDisplayGuts(final boolean guts)
+    '''returns None\n\n
+    setDisplayGuts(final boolean guts)\n
     '''
 def setAlternateExpression():
-    '''public void setAlternateExpression(final boolean altexp)
+    '''returns None\n\n
+    setAlternateExpression(final boolean altexp)\n
     '''
 def setAlternateFormula():
-    '''public void setAlternateFormula(final boolean formula)
+    '''returns None\n\n
+    setAlternateFormula(final boolean formula)\n
     '''
 def getWSBool1():
-    '''public byte getWSBool1()
+    '''returns byte\n\n
+    getWSBool1()\n
     '''
 def getAutobreaks():
-    '''public boolean getAutobreaks()
+    '''returns boolean\n\n
+    getAutobreaks()\n
     '''
 def getDialog():
-    '''public boolean getDialog()
+    '''returns boolean\n\n
+    getDialog()\n
     '''
 def getRowSumsBelow():
-    '''public boolean getRowSumsBelow()
+    '''returns boolean\n\n
+    getRowSumsBelow()\n
     '''
 def getRowSumsRight():
-    '''public boolean getRowSumsRight()
+    '''returns boolean\n\n
+    getRowSumsRight()\n
     '''
 def getWSBool2():
-    '''public byte getWSBool2()
+    '''returns byte\n\n
+    getWSBool2()\n
     '''
 def getFitToPage():
-    '''public boolean getFitToPage()
+    '''returns boolean\n\n
+    getFitToPage()\n
     '''
 def getDisplayGuts():
-    '''public boolean getDisplayGuts()
+    '''returns boolean\n\n
+    getDisplayGuts()\n
     '''
 def getAlternateExpression():
-    '''public boolean getAlternateExpression()
+    '''returns boolean\n\n
+    getAlternateExpression()\n
     '''
 def getAlternateFormula():
-    '''public boolean getAlternateFormula()
+    '''returns boolean\n\n
+    getAlternateFormula()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

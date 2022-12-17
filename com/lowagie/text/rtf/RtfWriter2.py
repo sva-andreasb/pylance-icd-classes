@@ -1,52 +1,65 @@
-def getInstance():
-    '''public static RtfWriter2 getInstance(final Document doc, final OutputStream os)
-    '''
 def setHeader():
-    '''public void setHeader(final HeaderFooter hf)
+    '''returns None\n\n
+    setHeader(final HeaderFooter hf)\n
     '''
 def resetHeader():
-    '''public void resetHeader()
+    '''returns None\n\n
+    resetHeader()\n
     '''
 def setFooter():
-    '''public void setFooter(final HeaderFooter hf)
+    '''returns None\n\n
+    setFooter(final HeaderFooter hf)\n
     '''
 def resetFooter():
-    '''public void resetFooter()
+    '''returns None\n\n
+    resetFooter()\n
     '''
 def setPageCount():
-    '''public void setPageCount(final int i)
+    '''returns None\n\n
+    setPageCount(final int i)\n
     '''
 def resetPageCount():
-    '''public void resetPageCount()
+    '''returns None\n\n
+    resetPageCount()\n
     '''
 def add():
-    '''public boolean add(final Watermark wm)
-    public boolean add(final Element element)
+    '''returns boolean\n\n
+    add(final Watermark wm)\n
+    add(final Element element)\n
     '''
 def removeWatermark():
-    '''public void removeWatermark()
+    '''returns None\n\n
+    removeWatermark()\n
     '''
 def clearTextWrap():
-    '''public void clearTextWrap()
+    '''returns None\n\n
+    clearTextWrap()\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def newPage():
-    '''public boolean newPage()
+    '''returns boolean\n\n
+    newPage()\n
     '''
 def setMargins():
-    '''public boolean setMargins(final float left, final float right, final float top, final float bottom)
+    '''returns boolean\n\n
+    setMargins(final float left, final float right, final float top, final float bottom)\n
     '''
 def setPageSize():
-    '''public boolean setPageSize(final Rectangle rect)
+    '''returns boolean\n\n
+    setPageSize(final Rectangle rect)\n
     '''
 def setAutogenerateTOCEntries():
-    '''public void setAutogenerateTOCEntries(final boolean autogenerate)
+    '''returns None\n\n
+    setAutogenerateTOCEntries(final boolean autogenerate)\n
     '''
 def setDataCacheStyle():
-    '''public void setDataCacheStyle(final int dataCacheStyle)
+    '''returns None\n\n
+    setDataCacheStyle(final int dataCacheStyle)\n
     '''

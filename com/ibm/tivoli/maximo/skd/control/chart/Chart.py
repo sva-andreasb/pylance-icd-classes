@@ -10,63 +10,83 @@ SERIES = "String  \"seriesArray\""
 CHART_TYPE = "String  \"type\""
 AXIS = "String  \"axis\""
 LEGEND = "String  \"legend\""
-def Chart():
-    '''public Chart()
+def ():
+    '''returns Chart\n\n
+    ()\n
     '''
 def getOptionsNode():
-    '''public JSONObject getOptionsNode()
+    '''returns JSONObject\n\n
+    getOptionsNode()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getChartType():
-    '''public ChartType getChartType()
+    '''returns ChartType\n\n
+    getChartType()\n
     '''
 def setChartType():
-    '''public void setChartType(final ChartType type)
+    '''returns None\n\n
+    setChartType(final ChartType type)\n
     '''
 def normalize():
-    '''public Chart normalize()
+    '''returns Chart\n\n
+    normalize()\n
     '''
 def getSeriesArray():
-    '''public JSONArray getSeriesArray()
+    '''returns JSONArray\n\n
+    getSeriesArray()\n
     '''
 def addSeries():
-    '''public void addSeries(final Series s)
+    '''returns None\n\n
+    addSeries(final Series s)\n
     '''
 def compare():
-    '''public int compare(final JSONObject o1, final JSONObject o2)
+    '''returns int\n\n
+    compare(final JSONObject o1, final JSONObject o2)\n
     '''
 def isNormalized():
-    '''public boolean isNormalized()
+    '''returns boolean\n\n
+    isNormalized()\n
     '''
 def setNormalized():
-    '''public void setNormalized(final boolean normalized)
+    '''returns None\n\n
+    setNormalized(final boolean normalized)\n
     '''
 def getXLabels():
-    '''public JSONArray getXLabels()
+    '''returns JSONArray\n\n
+    getXLabels()\n
     '''
 def getYLabels():
-    '''public JSONArray getYLabels()
+    '''returns JSONArray\n\n
+    getYLabels()\n
     '''
 def addAxis():
-    '''public Axis addAxis(final Axis axis)
+    '''returns Axis\n\n
+    addAxis(final Axis axis)\n
     '''
 def getAxis():
-    '''public Axis getAxis(final String id)
+    '''returns Axis\n\n
+    getAxis(final String id)\n
     '''
 def getXAxis():
-    '''public Axis getXAxis()
+    '''returns Axis\n\n
+    getXAxis()\n
     '''
 def getYAxis():
-    '''public Axis getYAxis()
+    '''returns Axis\n\n
+    getYAxis()\n
     '''
 def getLegend():
-    '''public Legend getLegend()
+    '''returns Legend\n\n
+    getLegend()\n
     '''
 def visit():
-    '''public void visit(final ISeriesVisitor visitor)
+    '''returns None\n\n
+    visit(final ISeriesVisitor visitor)\n
     '''

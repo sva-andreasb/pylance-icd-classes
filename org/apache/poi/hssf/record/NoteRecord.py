@@ -1,49 +1,64 @@
 sid = "short  28"
 NOTE_HIDDEN = "short  0"
 NOTE_VISIBLE = "short  2"
-def NoteRecord():
-    '''public NoteRecord()
-    public NoteRecord(final RecordInputStream in)
+def ():
+    '''returns NoteRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getRow():
-    '''public int getRow()
+    '''returns int\n\n
+    getRow()\n
     '''
 def setRow():
-    '''public void setRow(final int row)
+    '''returns None\n\n
+    setRow(final int row)\n
     '''
 def getColumn():
-    '''public int getColumn()
+    '''returns int\n\n
+    getColumn()\n
     '''
 def setColumn():
-    '''public void setColumn(final int col)
+    '''returns None\n\n
+    setColumn(final int col)\n
     '''
 def getFlags():
-    '''public short getFlags()
+    '''returns short\n\n
+    getFlags()\n
     '''
 def setFlags():
-    '''public void setFlags(final short flags)
+    '''returns None\n\n
+    setFlags(final short flags)\n
     '''
 def getShapeId():
-    '''public int getShapeId()
+    '''returns int\n\n
+    getShapeId()\n
     '''
 def setShapeId():
-    '''public void setShapeId(final int id)
+    '''returns None\n\n
+    setShapeId(final int id)\n
     '''
 def getAuthor():
-    '''public String getAuthor()
+    '''returns String\n\n
+    getAuthor()\n
     '''
 def setAuthor():
-    '''public void setAuthor(final String author)
+    '''returns None\n\n
+    setAuthor(final String author)\n
     '''
 def clone():
-    '''public NoteRecord clone()
+    '''returns NoteRecord\n\n
+    clone()\n
     '''

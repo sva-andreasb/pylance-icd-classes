@@ -1,33 +1,44 @@
-def JingleMediaSession():
-    '''public JingleMediaSession(final PayloadType payloadType, final TransportCandidate remote, final TransportCandidate local, final String mediaLocator, final JingleSession jingleSession)
+def ():
+    '''returns JingleMediaSession\n\n
+    (final PayloadType payloadType, final TransportCandidate remote, final TransportCandidate local, final String mediaLocator, final JingleSession jingleSession)\n
     '''
 def getPayloadType():
-    '''public PayloadType getPayloadType()
+    '''returns PayloadType\n\n
+    getPayloadType()\n
     '''
 def getLocal():
-    '''public TransportCandidate getLocal()
+    '''returns TransportCandidate\n\n
+    getLocal()\n
     '''
 def getRemote():
-    '''public TransportCandidate getRemote()
+    '''returns TransportCandidate\n\n
+    getRemote()\n
     '''
 def getMediaLocator():
-    '''public String getMediaLocator()
+    '''returns String\n\n
+    getMediaLocator()\n
     '''
 def setMediaLocator():
-    '''public void setMediaLocator(final String mediaLocator)
+    '''returns None\n\n
+    setMediaLocator(final String mediaLocator)\n
     '''
 def addMediaReceivedListener():
-    '''public void addMediaReceivedListener(final MediaReceivedListener mediaReceivedListener)
+    '''returns None\n\n
+    addMediaReceivedListener(final MediaReceivedListener mediaReceivedListener)\n
     '''
 def removeMediaReceivedListener():
-    '''public void removeMediaReceivedListener(final MediaReceivedListener mediaReceivedListener)
+    '''returns None\n\n
+    removeMediaReceivedListener(final MediaReceivedListener mediaReceivedListener)\n
     '''
 def removeAllMediaReceivedListener():
-    '''public void removeAllMediaReceivedListener()
+    '''returns None\n\n
+    removeAllMediaReceivedListener()\n
     '''
 def mediaReceived():
-    '''public void mediaReceived(final String participant)
+    '''returns None\n\n
+    mediaReceived(final String participant)\n
     '''
 def getJingleSession():
-    '''public JingleSession getJingleSession()
+    '''returns JingleSession\n\n
+    getJingleSession()\n
     '''

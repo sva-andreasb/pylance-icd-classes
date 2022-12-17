@@ -10,26 +10,34 @@ INVITE_15_DECLINED = "int  -2147483637"
 ADD_ALLOWED_USERS_FAILED = "int  -2147483636"
 REMOVE_ALLOWED_USERS_FAILED = "int  -2147483635"
 def getPlace():
-    '''public Place getPlace()
+    '''returns Place\n\n
+    getPlace()\n
     '''
 def getSection():
-    '''public Section getSection()
+    '''returns Section\n\n
+    getSection()\n
     '''
 def getActivity():
-    '''public Activity getActivity()
+    '''returns Activity\n\n
+    getActivity()\n
     '''
 def getReason():
-    '''public int getReason()
+    '''returns int\n\n
+    getReason()\n
     '''
 def getUser():
-    '''public STUser getUser()
+    '''returns STUser\n\n
+    getUser()\n
     '''
 def getActivityType():
-    '''public int getActivityType()
+    '''returns int\n\n
+    getActivityType()\n
     '''
 def addedByMe():
-    '''public boolean addedByMe()
+    '''returns boolean\n\n
+    addedByMe()\n
     '''
 def hasWrapper():
-    '''public boolean hasWrapper()
+    '''returns boolean\n\n
+    hasWrapper()\n
     '''

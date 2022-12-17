@@ -5,57 +5,75 @@ COMPOSING = "String  \"composing\""
 DISPLAYED = "String  \"displayed\""
 DELIVERED = "String  \"delivered\""
 CANCELLED = "String  \"cancelled\""
-def MessageEvent():
-    '''public MessageEvent()
+def ():
+    '''returns MessageEvent\n\n
+    ()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def isComposing():
-    '''public boolean isComposing()
+    '''returns boolean\n\n
+    isComposing()\n
     '''
 def isDelivered():
-    '''public boolean isDelivered()
+    '''returns boolean\n\n
+    isDelivered()\n
     '''
 def isDisplayed():
-    '''public boolean isDisplayed()
+    '''returns boolean\n\n
+    isDisplayed()\n
     '''
 def isOffline():
-    '''public boolean isOffline()
+    '''returns boolean\n\n
+    isOffline()\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''
 def getStanzaId():
-    '''public String getStanzaId()
+    '''returns String\n\n
+    getStanzaId()\n
     '''
 def getEventTypes():
-    '''public List<String> getEventTypes()
+    '''returns List<String>\n\n
+    getEventTypes()\n
     '''
 def setComposing():
-    '''public void setComposing(final boolean composing)
+    '''returns None\n\n
+    setComposing(final boolean composing)\n
     '''
 def setDelivered():
-    '''public void setDelivered(final boolean delivered)
+    '''returns None\n\n
+    setDelivered(final boolean delivered)\n
     '''
 def setDisplayed():
-    '''public void setDisplayed(final boolean displayed)
+    '''returns None\n\n
+    setDisplayed(final boolean displayed)\n
     '''
 def setOffline():
-    '''public void setOffline(final boolean offline)
+    '''returns None\n\n
+    setOffline(final boolean offline)\n
     '''
 def setCancelled():
-    '''public void setCancelled(final boolean cancelled)
+    '''returns None\n\n
+    setCancelled(final boolean cancelled)\n
     '''
 def setStanzaId():
-    '''public void setStanzaId(final String packetID)
+    '''returns None\n\n
+    setStanzaId(final String packetID)\n
     '''
 def isMessageEventRequest():
-    '''public boolean isMessageEventRequest()
+    '''returns boolean\n\n
+    isMessageEventRequest()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''

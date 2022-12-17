@@ -1,22 +1,25 @@
 def setIdentifier():
-    '''public void setIdentifier(final String identifier)
+    '''returns None\n\n
+    setIdentifier(final String identifier)\n
     '''
 def setTopDirectory():
-    '''public void setTopDirectory(final String path)
+    '''returns None\n\n
+    setTopDirectory(final String path)\n
     '''
-def FileSystemDescriptionManager():
-    '''public FileSystemDescriptionManager()
-    public FileSystemDescriptionManager(final String topDirectory)
-    '''
-def getDescription():
-    '''public synchronized Description getDescription(final DescriptionKey key, final String implKey)
+def ():
+    '''returns FileSystemDescriptionManager\n\n
+    ()\n
+    (final String topDirectory)\n
     '''
 def lookupClusterCallback():
-    '''public void lookupClusterCallback(final String clusterName, final Contract contract, final URL location, final DescriptionCallback callback, final Object handback)
+    '''returns None\n\n
+    lookupClusterCallback(final String clusterName, final Contract contract, final URL location, final DescriptionCallback callback, final Object handback)\n
     '''
 def publish():
-    '''public boolean publish(final String identifier, final byte[] data)
+    '''returns boolean\n\n
+    publish(final String identifier, final byte[] data)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

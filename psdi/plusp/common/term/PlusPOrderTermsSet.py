@@ -1,21 +1,28 @@
-def PlusPOrderTermsSet():
-    '''public PlusPOrderTermsSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPOrderTermsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def canEdit():
-    '''public boolean canEdit()
+    '''returns boolean\n\n
+    canEdit()\n
     '''
 def copyTerms():
-    '''public void copyTerms(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyTerms(final MboSetRemote mboSetRemote)\n
     '''
 def addAgreementTerms():
-    '''public void addAgreementTerms(final MboRemote mboRemote, final String s)
+    '''returns None\n\n
+    addAgreementTerms(final MboRemote mboRemote, final String s)\n
     '''
 def removeAgreementTerms():
-    '''public void removeAgreementTerms()
+    '''returns None\n\n
+    removeAgreementTerms()\n
     '''

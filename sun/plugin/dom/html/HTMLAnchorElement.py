@@ -1,81 +1,108 @@
-def HTMLAnchorElement():
-    '''public HTMLAnchorElement(final DOMObject domObject, final HTMLDocument htmlDocument)
+def ():
+    '''returns HTMLAnchorElement\n\n
+    (final DOMObject domObject, final HTMLDocument htmlDocument)\n
     '''
 def getAccessKey():
-    '''public String getAccessKey()
+    '''returns String\n\n
+    getAccessKey()\n
     '''
 def setAccessKey():
-    '''public void setAccessKey(final String s)
+    '''returns None\n\n
+    setAccessKey(final String s)\n
     '''
 def getCharset():
-    '''public String getCharset()
+    '''returns String\n\n
+    getCharset()\n
     '''
 def setCharset():
-    '''public void setCharset(final String s)
+    '''returns None\n\n
+    setCharset(final String s)\n
     '''
 def getCoords():
-    '''public String getCoords()
+    '''returns String\n\n
+    getCoords()\n
     '''
 def setCoords():
-    '''public void setCoords(final String s)
+    '''returns None\n\n
+    setCoords(final String s)\n
     '''
 def getHref():
-    '''public String getHref()
+    '''returns String\n\n
+    getHref()\n
     '''
 def setHref():
-    '''public void setHref(final String s)
+    '''returns None\n\n
+    setHref(final String s)\n
     '''
 def getHreflang():
-    '''public String getHreflang()
+    '''returns String\n\n
+    getHreflang()\n
     '''
 def setHreflang():
-    '''public void setHreflang(final String s)
+    '''returns None\n\n
+    setHreflang(final String s)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def getRel():
-    '''public String getRel()
+    '''returns String\n\n
+    getRel()\n
     '''
 def setRel():
-    '''public void setRel(final String s)
+    '''returns None\n\n
+    setRel(final String s)\n
     '''
 def getRev():
-    '''public String getRev()
+    '''returns String\n\n
+    getRev()\n
     '''
 def setRev():
-    '''public void setRev(final String s)
+    '''returns None\n\n
+    setRev(final String s)\n
     '''
 def getShape():
-    '''public String getShape()
+    '''returns String\n\n
+    getShape()\n
     '''
 def setShape():
-    '''public void setShape(final String s)
+    '''returns None\n\n
+    setShape(final String s)\n
     '''
 def getTabIndex():
-    '''public int getTabIndex()
+    '''returns int\n\n
+    getTabIndex()\n
     '''
 def setTabIndex():
-    '''public void setTabIndex(final int n)
+    '''returns None\n\n
+    setTabIndex(final int n)\n
     '''
 def getTarget():
-    '''public String getTarget()
+    '''returns String\n\n
+    getTarget()\n
     '''
 def setTarget():
-    '''public void setTarget(final String s)
+    '''returns None\n\n
+    setTarget(final String s)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String s)
+    '''returns None\n\n
+    setType(final String s)\n
     '''
 def blur():
-    '''public void blur()
+    '''returns None\n\n
+    blur()\n
     '''
 def focus():
-    '''public void focus()
+    '''returns None\n\n
+    focus()\n
     '''

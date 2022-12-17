@@ -1,3 +1,4 @@
-def MastViewChgStatSet():
-    '''public MastViewChgStatSet(final MboServerInterface ms)
+def ():
+    '''returns MastViewChgStatSet\n\n
+    (final MboServerInterface ms)\n
     '''

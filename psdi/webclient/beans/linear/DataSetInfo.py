@@ -1,7 +1,9 @@
-def DataSetInfo():
-    '''public DataSetInfo(final JSONObject jsonObj)
-    public DataSetInfo(final DataSetInfo setInfo)
+def ():
+    '''returns DataSetInfo\n\n
+    (final JSONObject jsonObj)\n
+    (final DataSetInfo setInfo)\n
     '''
 def getChild():
-    '''public DataSetInfo getChild(final String id)
+    '''returns DataSetInfo\n\n
+    getChild(final String id)\n
     '''

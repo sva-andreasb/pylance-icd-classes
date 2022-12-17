@@ -1,32 +1,42 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def update():
-    '''public void update(final Double rowWeight, final Boolean rowActive)
-    public void update(final double newWeight, final boolean newActive)
+    '''returns None\n\n
+    update(final Double rowWeight, final Boolean rowActive)\n
+    update(final double newWeight, final boolean newActive)\n
     '''
-def IloGoalModel():
-    '''public IloGoalModel(final IloGoalDesc desc)
+def ():
+    '''returns IloGoalModel\n\n
+    (final IloGoalDesc desc)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def isAggregatedSubGoal():
-    '''public boolean isAggregatedSubGoal()
+    '''returns boolean\n\n
+    isAggregatedSubGoal()\n
     '''
 def getWeight():
-    '''public double getWeight()
+    '''returns double\n\n
+    getWeight()\n
     '''
 def retrieveAndStoreConcertExpr():
-    '''public IloNumExpr retrieveAndStoreConcertExpr(final IloOplModel oplModel, final IloIssueReporter reporter)
+    '''returns IloNumExpr\n\n
+    retrieveAndStoreConcertExpr(final IloOplModel oplModel, final IloIssueReporter reporter)\n
     '''
 def getNumExpr():
-    '''public IloNumExpr getNumExpr()
+    '''returns IloNumExpr\n\n
+    getNumExpr()\n
     '''
 def getBreakdown():
-    '''public IloBreakdownVariable getBreakdown()
+    '''returns IloBreakdownVariable\n\n
+    getBreakdown()\n
     '''
 def setGoalBreakdown():
-    '''public void setGoalBreakdown(final IloBreakdownVariable topVariable)
+    '''returns None\n\n
+    setGoalBreakdown(final IloBreakdownVariable topVariable)\n
     '''

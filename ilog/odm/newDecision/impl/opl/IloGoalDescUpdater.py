@@ -1,10 +1,13 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloGoalDescUpdater():
-    '''public IloGoalDescUpdater(final IloReportHandler reporterH)
+def ():
+    '''returns IloGoalDescUpdater\n\n
+    (final IloReportHandler reporterH)\n
     '''
 def updateGoalsDesc():
-    '''public void updateGoalsDesc(final IloOptimDesc optimDesc, final IloODMOptimElements elements)
+    '''returns None\n\n
+    updateGoalsDesc(final IloOptimDesc optimDesc, final IloODMOptimElements elements)\n
     '''
 def updateGoals():
-    '''public boolean updateGoals(final IloSubModelDesc modelDesc, final IloOplModelSourceFactory factory)
+    '''returns boolean\n\n
+    updateGoals(final IloSubModelDesc modelDesc, final IloOplModelSourceFactory factory)\n
     '''

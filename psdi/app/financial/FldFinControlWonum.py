@@ -1,3 +1,4 @@
-def FldFinControlWonum():
-    '''public FldFinControlWonum(final MboValue mbv)
+def ():
+    '''returns FldFinControlWonum\n\n
+    (final MboValue mbv)\n
     '''

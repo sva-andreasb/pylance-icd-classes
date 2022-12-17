@@ -1,28 +1,25 @@
-def Ph():
-    '''public Ph(final File file, final Pi pi)
-    public Ph(final File file, final Pi pi, final long n)
-    public Ph(final File file, final Pi pi, final long n, final boolean b)
-    public Ph(final File file, final Pi pi, final long n, final boolean b, final boolean b2)
-    public Ph(final File file, final Pi pi, final long n, final boolean b, final int n2)
-    public Ph(final File d, final Pi a, final long fd, final boolean dw, final boolean dx, final int n)
-    '''
-def a():
-    '''public static Ph a(final File file, final Pi pi, final long n, final boolean b, final int n2)
-    public static Ph a(final File file, final Pi pi, final long n, final boolean b, final boolean b2, final int n2)
-    public static Ph a(final File file, final Pi pi, final long n, final boolean b)
-    public static Ph a(final File file, final Pi pi, final long n, final boolean b, final boolean b2)
-    public static Ph a(final File file, final Pi pi, final long n)
-    public static Ph a(final File file, final Pi pi)
+def ():
+    '''returns Ph\n\n
+    (final File file, final Pi pi)\n
+    (final File file, final Pi pi, final long n)\n
+    (final File file, final Pi pi, final long n, final boolean b)\n
+    (final File file, final Pi pi, final long n, final boolean b, final boolean b2)\n
+    (final File file, final Pi pi, final long n, final boolean b, final int n2)\n
+    (final File d, final Pi a, final long fd, final boolean dw, final boolean dx, final int n)\n
     '''
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''
 def getDelay():
-    '''public long getDelay()
+    '''returns long\n\n
+    getDelay()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''

@@ -1,6 +1,8 @@
-def TypeMapping():
-    '''public TypeMapping(final String encodingStyle, final QName elementType, final String javaType, final String java2XMLClassName, final String xml2JavaClassName)
+def ():
+    '''returns TypeMapping\n\n
+    (final String encodingStyle, final QName elementType, final String javaType, final String java2XMLClassName, final String xml2JavaClassName)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

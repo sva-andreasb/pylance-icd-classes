@@ -1,36 +1,48 @@
 def getImmediateFlush():
-    '''public boolean getImmediateFlush()
+    '''returns boolean\n\n
+    getImmediateFlush()\n
     '''
 def getManager():
-    '''public M getManager()
+    '''returns M\n\n
+    getManager()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''returns boolean\n\n
+    stop(final long timeout, final TimeUnit timeUnit)\n
     '''
 def append():
-    '''public void append(final LogEvent event)
+    '''returns None\n\n
+    append(final LogEvent event)\n
     '''
-def Builder():
-    '''public Builder()
+def ():
+    '''returns Builder\n\n
+    ()\n
     '''
 def getBufferSize():
-    '''public int getBufferSize()
+    '''returns int\n\n
+    getBufferSize()\n
     '''
 def isBufferedIo():
-    '''public boolean isBufferedIo()
+    '''returns boolean\n\n
+    isBufferedIo()\n
     '''
 def isImmediateFlush():
-    '''public boolean isImmediateFlush()
+    '''returns boolean\n\n
+    isImmediateFlush()\n
     '''
 def withImmediateFlush():
-    '''public B withImmediateFlush(final boolean immediateFlush)
+    '''returns B\n\n
+    withImmediateFlush(final boolean immediateFlush)\n
     '''
 def withBufferedIo():
-    '''public B withBufferedIo(final boolean bufferedIo)
+    '''returns B\n\n
+    withBufferedIo(final boolean bufferedIo)\n
     '''
 def withBufferSize():
-    '''public B withBufferSize(final int bufferSize)
+    '''returns B\n\n
+    withBufferSize(final int bufferSize)\n
     '''

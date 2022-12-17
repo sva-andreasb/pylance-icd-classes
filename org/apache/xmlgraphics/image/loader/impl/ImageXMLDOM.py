@@ -1,16 +1,21 @@
-def ImageXMLDOM():
-    '''public ImageXMLDOM(final ImageInfo info, final Document doc, final String rootNamespace)
-    public ImageXMLDOM(final ImageInfo info, final Document doc, final XMLNamespaceEnabledImageFlavor flavor)
+def ():
+    '''returns ImageXMLDOM\n\n
+    (final ImageInfo info, final Document doc, final String rootNamespace)\n
+    (final ImageInfo info, final Document doc, final XMLNamespaceEnabledImageFlavor flavor)\n
     '''
 def getFlavor():
-    '''public ImageFlavor getFlavor()
+    '''returns ImageFlavor\n\n
+    getFlavor()\n
     '''
 def isCacheable():
-    '''public boolean isCacheable()
+    '''returns boolean\n\n
+    isCacheable()\n
     '''
 def getDocument():
-    '''public Document getDocument()
+    '''returns Document\n\n
+    getDocument()\n
     '''
 def getRootNamespace():
-    '''public String getRootNamespace()
+    '''returns String\n\n
+    getRootNamespace()\n
     '''

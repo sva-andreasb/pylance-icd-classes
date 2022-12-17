@@ -1,6 +1,8 @@
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getFormat():
-    '''public CSVFormat getFormat()
+    '''returns CSVFormat\n\n
+    getFormat()\n
     '''

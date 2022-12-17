@@ -1,34 +1,45 @@
-def ItemSpecSet():
-    '''public ItemSpecSet(final MboServerInterface ms)
+def ():
+    '''returns ItemSpecSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def whereClauseOnAttrAndValues():
-    '''public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classstructureid)
-    public String whereClauseOnAttrAndValues(final String[][] attrAndValues)
+    '''returns String\n\n
+    whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classstructureid)\n
+    whereClauseOnAttrAndValues(final String[][] attrAndValues)\n
     '''
 def saveTransaction():
-    '''public void saveTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    saveTransaction(final MXTransaction txn)\n
     '''
 def processPreparedStatements():
-    '''public void processPreparedStatements()
+    '''returns None\n\n
+    processPreparedStatements()\n
     '''
 def storeSpecInsertStatement():
-    '''public void storeSpecInsertStatement(final String preparedInsert)
+    '''returns None\n\n
+    storeSpecInsertStatement(final String preparedInsert)\n
     '''
 def prepareUpdateClassStructureID():
-    '''public void prepareUpdateClassStructureID()
+    '''returns None\n\n
+    prepareUpdateClassStructureID()\n
     '''
 def prepareDeleteAssetSpec():
-    '''public void prepareDeleteAssetSpec(final boolean isPreprocess)
+    '''returns None\n\n
+    prepareDeleteAssetSpec(final boolean isPreprocess)\n
     '''
 def prepareUpdateAssetSpecHist():
-    '''public void prepareUpdateAssetSpecHist(final boolean isPreprocess)
+    '''returns None\n\n
+    prepareUpdateAssetSpecHist(final boolean isPreprocess)\n
     '''
 def preProcessPreparedStatements():
-    '''public void preProcessPreparedStatements()
+    '''returns None\n\n
+    preProcessPreparedStatements()\n
     '''
 def storeSpecUpdateStatement():
-    '''public void storeSpecUpdateStatement(final String preparedUpdate)
+    '''returns None\n\n
+    storeSpecUpdateStatement(final String preparedUpdate)\n
     '''
 def processPreparedStatementsForUpdate():
-    '''public void processPreparedStatementsForUpdate()
+    '''returns None\n\n
+    processPreparedStatementsForUpdate()\n
     '''

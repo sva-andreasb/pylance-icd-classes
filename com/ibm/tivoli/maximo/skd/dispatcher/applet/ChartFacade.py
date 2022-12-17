@@ -2,94 +2,72 @@ RES_ROW_HEIGHT = "int  25"
 HIER_ROW_HEIGHT = "int  15"
 UNASSIGNED_ROW_HEIGHT = "int  20"
 RESOURCE_WIDTH = "int  200"
-def ChartFacade():
-    '''public ChartFacade(final FWMActionsFacade actionsFacade)
-    '''
-def getChart():
-    '''public static IlvScheduleChart getChart()
-    '''
-def getToolbar():
-    '''public static FWMToolbar getToolbar()
+def ():
+    '''returns ChartFacade\n\n
+    (final FWMActionsFacade actionsFacade)\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent e)
+    '''returns None\n\n
+    componentResized(final ComponentEvent e)\n
     '''
 def adjustmentValueChanged():
-    '''public void adjustmentValueChanged(final AdjustmentEvent e)
+    '''returns None\n\n
+    adjustmentValueChanged(final AdjustmentEvent e)\n
     '''
 def replaceModel():
-    '''public void replaceModel(final IlvGanttModel model, final boolean updateShiftInfo)
+    '''returns None\n\n
+    replaceModel(final IlvGanttModel model, final boolean updateShiftInfo)\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def setStartTimeSafely():
-    '''public void setStartTimeSafely()
-    '''
-def setStartTime():
-    '''public static void setStartTime()
+    '''returns None\n\n
+    setStartTimeSafely()\n
     '''
 def isEditable():
-    '''public boolean isEditable(final IlvHierarchyNode row)
+    '''returns boolean\n\n
+    isEditable(final IlvHierarchyNode row)\n
     '''
 def setColumnWidths():
-    '''public void setColumnWidths()
-    '''
-def getDefaultViewSize():
-    '''public static IlvDuration getDefaultViewSize()
+    '''returns None\n\n
+    setColumnWidths()\n
     '''
 def contentsChanged():
-    '''public void contentsChanged(final ManagerContentChangedEvent event)
+    '''returns None\n\n
+    contentsChanged(final ManagerContentChangedEvent event)\n
     '''
 def setResourceWidth():
-    '''public void setResourceWidth()
+    '''returns None\n\n
+    setResourceWidth()\n
     '''
 def updateResources():
-    '''public void updateResources(final IlvGanttModel newModel)
+    '''returns None\n\n
+    updateResources(final IlvGanttModel newModel)\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent e)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent e)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent e)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent e)\n
     '''
 def mouseEntered():
-    '''public void mouseEntered(final MouseEvent e)
+    '''returns None\n\n
+    mouseEntered(final MouseEvent e)\n
     '''
 def mouseExited():
-    '''public void mouseExited(final MouseEvent e)
-    '''
-def closeGanttSheetToolTip():
-    '''public static void closeGanttSheetToolTip()
-    '''
-def closeResourceTableToolTip():
-    '''public static void closeResourceTableToolTip()
-    '''
-def setTreeExpanded():
-    '''public static void setTreeExpanded(final boolean expand, final boolean refreshMap)
-    '''
-def updateRowsSelection():
-    '''public static void updateRowsSelection(final boolean selected, final boolean refreshMap)
-    '''
-def highlightActivity():
-    '''public static void highlightActivity(final String activityid)
+    '''returns None\n\n
+    mouseExited(final MouseEvent e)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    '''
-def isTiledActivities():
-    '''public static boolean isTiledActivities()
-    '''
-def setTiledActivities():
-    '''public static void setTiledActivities(final boolean tiledActivities)
-    '''
-def refreshActivityLayoutMode():
-    '''public static void refreshActivityLayoutMode()
-    '''
-def isModelReadOnly():
-    '''public static boolean isModelReadOnly()
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''

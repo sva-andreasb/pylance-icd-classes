@@ -1,36 +1,45 @@
-def ServerImpl():
-    '''public ServerImpl(final int port_, final boolean isDaemon_, final String s)
+def ():
+    '''returns RunnableServer\n\n
+    (final int port_, final boolean isDaemon_, final String s)\n
+    (final CMXConnectionEventListener cmxEventListener_)\n
     '''
 def setProcessors():
-    '''public void setProcessors(final Processor[] processors_)
+    '''returns None\n\n
+    setProcessors(final Processor[] processors_)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def queueMessage():
-    '''public void queueMessage(final Message message)
+    '''returns None\n\n
+    queueMessage(final Message message)\n
     '''
 def processEvent():
-    '''public void processEvent(final int n, final CMXConnection cmxConnection)
+    '''returns None\n\n
+    processEvent(final int n, final CMXConnection cmxConnection)\n
     '''
 def getConnections():
-    '''public CMXConnection[] getConnections()
+    '''returns CMXConnection[]\n\n
+    getConnections()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def getActiveClientURLs():
-    '''public String[] getActiveClientURLs()
+    '''returns String[]\n\n
+    getActiveClientURLs()\n
     '''
 def getLogger():
-    '''public Logger getLogger()
-    '''
-def RunnableServer():
-    '''public RunnableServer(final CMXConnectionEventListener cmxEventListener_)
+    '''returns Logger\n\n
+    getLogger()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

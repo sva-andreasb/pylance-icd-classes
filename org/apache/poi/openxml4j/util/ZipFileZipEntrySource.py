@@ -1,12 +1,16 @@
-def ZipFileZipEntrySource():
-    '''public ZipFileZipEntrySource(final ZipFile zipFile)
+def ():
+    '''returns ZipFileZipEntrySource\n\n
+    (final ZipFile zipFile)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream(final ZipEntry entry)
+    '''returns InputStream\n\n
+    getInputStream(final ZipEntry entry)\n
     '''

@@ -1,139 +1,184 @@
-def OMXMLStreamReaderValidator():
-    '''public OMXMLStreamReaderValidator(final OMXMLStreamReader delegate, final boolean throwExceptions)
+def ():
+    '''returns OMXMLStreamReaderValidator\n\n
+    (final OMXMLStreamReader delegate, final boolean throwExceptions)\n
     '''
 def next():
-    '''public int next()
+    '''returns int\n\n
+    next()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getAttributeCount():
-    '''public int getAttributeCount()
+    '''returns int\n\n
+    getAttributeCount()\n
     '''
 def getAttributeLocalName():
-    '''public String getAttributeLocalName(final int arg0)
+    '''returns String\n\n
+    getAttributeLocalName(final int arg0)\n
     '''
 def getAttributeName():
-    '''public QName getAttributeName(final int arg0)
+    '''returns QName\n\n
+    getAttributeName(final int arg0)\n
     '''
 def getAttributeNamespace():
-    '''public String getAttributeNamespace(final int arg0)
+    '''returns String\n\n
+    getAttributeNamespace(final int arg0)\n
     '''
 def getAttributePrefix():
-    '''public String getAttributePrefix(final int arg0)
+    '''returns String\n\n
+    getAttributePrefix(final int arg0)\n
     '''
 def getAttributeType():
-    '''public String getAttributeType(final int arg0)
+    '''returns String\n\n
+    getAttributeType(final int arg0)\n
     '''
 def getAttributeValue():
-    '''public String getAttributeValue(final int arg0)
-    public String getAttributeValue(final String arg0, final String arg1)
+    '''returns String\n\n
+    getAttributeValue(final int arg0)\n
+    getAttributeValue(final String arg0, final String arg1)\n
     '''
 def getCharacterEncodingScheme():
-    '''public String getCharacterEncodingScheme()
+    '''returns String\n\n
+    getCharacterEncodingScheme()\n
     '''
 def getElementText():
-    '''public String getElementText()
+    '''returns String\n\n
+    getElementText()\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def getEventType():
-    '''public int getEventType()
+    '''returns int\n\n
+    getEventType()\n
     '''
 def getLocalName():
-    '''public String getLocalName()
+    '''returns String\n\n
+    getLocalName()\n
     '''
 def getLocation():
-    '''public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getNamespaceContext():
-    '''public NamespaceContext getNamespaceContext()
+    '''returns NamespaceContext\n\n
+    getNamespaceContext()\n
     '''
 def getNamespaceCount():
-    '''public int getNamespaceCount()
+    '''returns int\n\n
+    getNamespaceCount()\n
     '''
 def getNamespacePrefix():
-    '''public String getNamespacePrefix(final int arg0)
+    '''returns String\n\n
+    getNamespacePrefix(final int arg0)\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
-    public String getNamespaceURI(final int arg0)
-    public String getNamespaceURI(final String arg0)
+    '''returns String\n\n
+    getNamespaceURI()\n
+    getNamespaceURI(final int arg0)\n
+    getNamespaceURI(final String arg0)\n
     '''
 def getPIData():
-    '''public String getPIData()
+    '''returns String\n\n
+    getPIData()\n
     '''
 def getPITarget():
-    '''public String getPITarget()
+    '''returns String\n\n
+    getPITarget()\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String arg0)
+    '''returns Object\n\n
+    getProperty(final String arg0)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getTextCharacters():
-    '''public char[] getTextCharacters()
-    public int getTextCharacters(final int arg0, final char[] arg1, final int arg2, final int arg3)
+    '''returns int\n\n
+    getTextCharacters()\n
+    getTextCharacters(final int arg0, final char[] arg1, final int arg2, final int arg3)\n
     '''
 def getTextLength():
-    '''public int getTextLength()
+    '''returns int\n\n
+    getTextLength()\n
     '''
 def getTextStart():
-    '''public int getTextStart()
+    '''returns int\n\n
+    getTextStart()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def hasName():
-    '''public boolean hasName()
+    '''returns boolean\n\n
+    hasName()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def hasText():
-    '''public boolean hasText()
+    '''returns boolean\n\n
+    hasText()\n
     '''
 def isAttributeSpecified():
-    '''public boolean isAttributeSpecified(final int arg0)
+    '''returns boolean\n\n
+    isAttributeSpecified(final int arg0)\n
     '''
 def isCharacters():
-    '''public boolean isCharacters()
+    '''returns boolean\n\n
+    isCharacters()\n
     '''
 def isEndElement():
-    '''public boolean isEndElement()
+    '''returns boolean\n\n
+    isEndElement()\n
     '''
 def isStandalone():
-    '''public boolean isStandalone()
+    '''returns boolean\n\n
+    isStandalone()\n
     '''
 def isStartElement():
-    '''public boolean isStartElement()
+    '''returns boolean\n\n
+    isStartElement()\n
     '''
 def isWhiteSpace():
-    '''public boolean isWhiteSpace()
+    '''returns boolean\n\n
+    isWhiteSpace()\n
     '''
 def nextTag():
-    '''public int nextTag()
+    '''returns int\n\n
+    nextTag()\n
     '''
 def require():
-    '''public void require(final int arg0, final String arg1, final String arg2)
+    '''returns None\n\n
+    require(final int arg0, final String arg1, final String arg2)\n
     '''
 def standaloneSet():
-    '''public boolean standaloneSet()
+    '''returns boolean\n\n
+    standaloneSet()\n
     '''
 def getDataHandler():
-    '''public DataHandler getDataHandler(final String blobcid)
+    '''returns DataHandler\n\n
+    getDataHandler(final String blobcid)\n
     '''
 def isInlineMTOM():
-    '''public boolean isInlineMTOM()
+    '''returns boolean\n\n
+    isInlineMTOM()\n
     '''
 def setInlineMTOM():
-    '''public void setInlineMTOM(final boolean value)
+    '''returns None\n\n
+    setInlineMTOM(final boolean value)\n
     '''

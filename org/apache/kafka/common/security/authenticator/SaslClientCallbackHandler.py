@@ -1,9 +1,12 @@
 def configure():
-    '''public void configure(final Map<String, ?> configs, final Mode mode, final Subject subject, final String mechanism)
+    '''returns None\n\n
+    configure(final Map<String, ?> configs, final Mode mode, final Subject subject, final String mechanism)\n
     '''
 def handle():
-    '''public void handle(final Callback[] callbacks)
+    '''returns None\n\n
+    handle(final Callback[] callbacks)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

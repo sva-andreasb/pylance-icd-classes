@@ -1,15 +1,20 @@
 def maxSecureProcessWorkflow():
-    '''public byte[] maxSecureProcessWorkflow(final String loginid, final String password, final byte[] reqMosData, final String wfName)
+    '''returns byte[]\n\n
+    maxSecureProcessWorkflow(final String loginid, final String password, final byte[] reqMosData, final String wfName)\n
     '''
 def maxAPIKeySecureProcessWorkflow():
-    '''public byte[] maxAPIKeySecureProcessWorkflow(final String apikey, final byte[] reqMosData, final String wfName)
+    '''returns byte[]\n\n
+    maxAPIKeySecureProcessWorkflow(final String apikey, final byte[] reqMosData, final String wfName)\n
     '''
 def processWorkflow():
-    '''public byte[] processWorkflow(final byte[] reqMosData, final String wfName)
+    '''returns byte[]\n\n
+    processWorkflow(final byte[] reqMosData, final String wfName)\n
     '''
 def secureProcessWorkflow():
-    '''public byte[] secureProcessWorkflow(final byte[] reqMosData, final String wfName, final Principal principal)
+    '''returns byte[]\n\n
+    secureProcessWorkflow(final byte[] reqMosData, final String wfName, final Principal principal)\n
     '''
 def secureProcessWorkflowInternal():
-    '''public byte[] secureProcessWorkflowInternal(final UserInfo userInfo, final byte[] processData, String wfName)
+    '''returns byte[]\n\n
+    secureProcessWorkflowInternal(final UserInfo userInfo, final byte[] processData, String wfName)\n
     '''

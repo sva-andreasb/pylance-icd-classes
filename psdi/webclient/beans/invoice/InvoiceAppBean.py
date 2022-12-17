@@ -1,21 +1,28 @@
 def DETAILREP():
-    '''public int DETAILREP()
+    '''returns int\n\n
+    DETAILREP()\n
     '''
 def PRINTDOCS():
-    '''public int PRINTDOCS()
+    '''returns int\n\n
+    PRINTDOCS()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def ALLOCSERV():
-    '''public int ALLOCSERV()
+    '''returns int\n\n
+    ALLOCSERV()\n
     '''
 def REVINVOICE():
-    '''public int REVINVOICE()
+    '''returns int\n\n
+    REVINVOICE()\n
     '''
 def DUPLICATE():
-    '''public int DUPLICATE()
+    '''returns int\n\n
+    DUPLICATE()\n
     '''
 def CHANGEVEND():
-    '''public int CHANGEVEND()
+    '''returns int\n\n
+    CHANGEVEND()\n
     '''

@@ -1,15 +1,12 @@
-def ClientParametersAuthentication():
-    '''public ClientParametersAuthentication(final String clientId, final String clientSecret)
+def ():
+    '''returns ClientParametersAuthentication\n\n
+    (final String clientId, final String clientSecret)\n
     '''
 def initialize():
-    '''public void initialize(final HttpRequest request)
+    '''returns None\n\n
+    initialize(final HttpRequest request)\n
     '''
 def intercept():
-    '''public void intercept(final HttpRequest request)
-    '''
-def getClientId():
-    '''public final String getClientId()
-    '''
-def getClientSecret():
-    '''public final String getClientSecret()
+    '''returns None\n\n
+    intercept(final HttpRequest request)\n
     '''

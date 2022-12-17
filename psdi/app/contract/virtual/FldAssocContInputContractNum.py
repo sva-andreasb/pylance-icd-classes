@@ -1,6 +1,8 @@
-def FldAssocContInputContractNum():
-    '''public FldAssocContInputContractNum(final MboValue mbv)
+def ():
+    '''returns FldAssocContInputContractNum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

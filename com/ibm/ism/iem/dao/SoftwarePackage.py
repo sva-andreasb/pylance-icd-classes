@@ -1,36 +1,48 @@
-def SoftwarePackage():
-    '''public SoftwarePackage()
+def ():
+    '''returns SoftwarePackage\n\n
+    ()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final String version)
+    '''returns None\n\n
+    setVersion(final String version)\n
     '''
 def getVendor():
-    '''public String getVendor()
+    '''returns String\n\n
+    getVendor()\n
     '''
 def setVendor():
-    '''public void setVendor(final String vendor)
+    '''returns None\n\n
+    setVendor(final String vendor)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

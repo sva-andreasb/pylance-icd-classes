@@ -1,15 +1,20 @@
-def OptimizationRunParameters():
-    '''public OptimizationRunParameters()
+def ():
+    '''returns OptimizationRunParameters\n\n
+    ()\n
     '''
 def getInputProcessParams():
-    '''public OptimizationInputProcessParameters getInputProcessParams()
+    '''returns OptimizationInputProcessParameters\n\n
+    getInputProcessParams()\n
     '''
 def setInputProcessParams():
-    '''public void setInputProcessParams(final OptimizationInputProcessParameters inputProcessParams)
+    '''returns None\n\n
+    setInputProcessParams(final OptimizationInputProcessParameters inputProcessParams)\n
     '''
 def getOutputProcessParams():
-    '''public OptimizationOutputProcessParameters getOutputProcessParams()
+    '''returns OptimizationOutputProcessParameters\n\n
+    getOutputProcessParams()\n
     '''
 def setOutputProcessParams():
-    '''public void setOutputProcessParams(final OptimizationOutputProcessParameters outputProcessParams)
+    '''returns None\n\n
+    setOutputProcessParams(final OptimizationOutputProcessParameters outputProcessParams)\n
     '''

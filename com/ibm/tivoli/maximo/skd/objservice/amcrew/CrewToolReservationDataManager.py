@@ -1,28 +1,37 @@
 GRAPHASSIGN = "String  \"CGRPASSIGN\""
-def CrewToolReservationDataManager():
-    '''public CrewToolReservationDataManager()
+def ():
+    '''returns CrewToolReservationDataManager\n\n
+    ()\n
     '''
 def populateReservations():
-    '''public void populateReservations(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)
+    '''returns None\n\n
+    populateReservations(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)\n
     '''
 def populateAssignedReservations():
-    '''public void populateAssignedReservations(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)
+    '''returns None\n\n
+    populateAssignedReservations(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)\n
     '''
 def populateUnassignedReservations():
-    '''public void populateUnassignedReservations(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)
+    '''returns None\n\n
+    populateUnassignedReservations(final HashMap<String, ArrayList<String>> refObjActQueryList, final HashMap<String, ArrayList<String>> refObjResQueryList)\n
     '''
 def loadAdditionalReservations():
-    '''public void loadAdditionalReservations(final MXGanttModel model, final SKDAppService.ActivityData activityData, final SKDAppService.ResourceData resourceData, final SKDAppService.ReservationData reservationData)
+    '''returns None\n\n
+    loadAdditionalReservations(final MXGanttModel model, final SKDAppService.ActivityData activityData, final SKDAppService.ResourceData resourceData, final SKDAppService.ReservationData reservationData)\n
     '''
 def loadOtherAssignmentReservationsTool():
-    '''public void loadOtherAssignmentReservationsTool(final MXGanttModel model, final SKDAppService.ActivityData activityData, final SKDAppService.ResourceData resourceData, final SKDAppService.ReservationData reservationData)
+    '''returns None\n\n
+    loadOtherAssignmentReservationsTool(final MXGanttModel model, final SKDAppService.ActivityData activityData, final SKDAppService.ResourceData resourceData, final SKDAppService.ReservationData reservationData)\n
     '''
 def loadOtherCrewAssignmentReservations():
-    '''public void loadOtherCrewAssignmentReservations(final MXGanttModel model, final SKDAppService.ActivityData activityData, final SKDAppService.ResourceData resourceData, final SKDAppService.ReservationData reservationData)
+    '''returns None\n\n
+    loadOtherCrewAssignmentReservations(final MXGanttModel model, final SKDAppService.ActivityData activityData, final SKDAppService.ResourceData resourceData, final SKDAppService.ReservationData reservationData)\n
     '''
 def getAmcrewAssetExcludeQuery():
-    '''public String getAmcrewAssetExcludeQuery(final int dbType)
+    '''returns String\n\n
+    getAmcrewAssetExcludeQuery(final int dbType)\n
     '''
 def getDateDBSqlString():
-    '''public String[] getDateDBSqlString(final int dbType)
+    '''returns String[]\n\n
+    getDateDBSqlString(final int dbType)\n
     '''

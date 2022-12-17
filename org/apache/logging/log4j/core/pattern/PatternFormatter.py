@@ -1,21 +1,28 @@
-def PatternFormatter():
-    '''public PatternFormatter(final LogEventPatternConverter converter, final FormattingInfo field)
+def ():
+    '''returns PatternFormatter\n\n
+    (final LogEventPatternConverter converter, final FormattingInfo field)\n
     '''
 def format():
-    '''public void format(final LogEvent event, final StringBuilder buf)
+    '''returns None\n\n
+    format(final LogEvent event, final StringBuilder buf)\n
     '''
 def getConverter():
-    '''public LogEventPatternConverter getConverter()
+    '''returns LogEventPatternConverter\n\n
+    getConverter()\n
     '''
 def getFormattingInfo():
-    '''public FormattingInfo getFormattingInfo()
+    '''returns FormattingInfo\n\n
+    getFormattingInfo()\n
     '''
 def handlesThrowable():
-    '''public boolean handlesThrowable()
+    '''returns boolean\n\n
+    handlesThrowable()\n
     '''
 def requiresLocation():
-    '''public boolean requiresLocation()
+    '''returns boolean\n\n
+    requiresLocation()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

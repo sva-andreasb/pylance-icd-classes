@@ -1,15 +1,10 @@
-def getReferenceQueue():
-    '''public static ReferenceQueue getReferenceQueue()
-    '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
-def SoftReferenceCleared():
-    '''public SoftReferenceCleared(final Object o)
-    '''
-def WeakReferenceCleared():
-    '''public WeakReferenceCleared(final Object o)
-    '''
-def PhantomReferenceCleared():
-    '''public PhantomReferenceCleared(final Object o)
+def ():
+    '''returns PhantomReferenceCleared\n\n
+    (final Object o)\n
+    (final Object o)\n
+    (final Object o)\n
     '''

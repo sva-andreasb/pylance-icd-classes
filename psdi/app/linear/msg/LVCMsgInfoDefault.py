@@ -1,3 +1,4 @@
-def LVCMsgInfoDefault():
-    '''public LVCMsgInfoDefault(final MboSet ms)
+def ():
+    '''returns LVCMsgInfoDefault\n\n
+    (final MboSet ms)\n
     '''

@@ -1,3 +1,4 @@
-def CapsVersionAndHash():
-    '''public CapsVersionAndHash(final String version, final String hash)
+def ():
+    '''returns CapsVersionAndHash\n\n
+    (final String version, final String hash)\n
     '''

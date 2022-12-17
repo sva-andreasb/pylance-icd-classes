@@ -1,18 +1,24 @@
-def IlvAddNodeEdit():
-    '''public IlvAddNodeEdit(final IlvDataContainer ilvDataContainer, final Object a, final Object b, final int c)
+def ():
+    '''returns IlvAddNodeEdit\n\n
+    (final IlvDataContainer ilvDataContainer, final Object a, final Object b, final int c)\n
     '''
 def getParentNode():
-    '''public Object getParentNode()
+    '''returns Object\n\n
+    getParentNode()\n
     '''
 def getNode():
-    '''public Object getNode()
+    '''returns Object\n\n
+    getNode()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def undo():
-    '''public void undo()
+    '''returns None\n\n
+    undo()\n
     '''
 def redo():
-    '''public void redo()
+    '''returns None\n\n
+    redo()\n
     '''

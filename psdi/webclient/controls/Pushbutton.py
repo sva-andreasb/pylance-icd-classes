@@ -1,20 +1,26 @@
 DEFAULTBUTTON_PROPERTY = "String  \"defaultbutton\""
 LASTBUTTON_PROPERTY = "String  \"lastbutton\""
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def initAddRowForRecordLock():
-    '''public void initAddRowForRecordLock()
+    '''returns None\n\n
+    initAddRowForRecordLock()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def stopRender():
-    '''public boolean stopRender()
+    '''returns boolean\n\n
+    stopRender()\n
     '''
 def canRemove():
-    '''public boolean canRemove()
+    '''returns boolean\n\n
+    canRemove()\n
     '''
 def getIdExtension():
-    '''public String getIdExtension()
+    '''returns String\n\n
+    getIdExtension()\n
     '''

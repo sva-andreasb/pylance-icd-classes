@@ -1,3 +1,4 @@
-def PlusPUsageMeterSet():
-    '''public PlusPUsageMeterSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPUsageMeterSet\n\n
+    (final MboServerInterface ms)\n
     '''

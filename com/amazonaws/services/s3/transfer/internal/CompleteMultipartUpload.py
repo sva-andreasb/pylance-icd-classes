@@ -1,6 +1,8 @@
-def CompleteMultipartUpload():
-    '''public CompleteMultipartUpload(final String uploadId, final AmazonS3 s3, final PutObjectRequest putObjectRequest, final List<Future<PartETag>> futures, final List<PartETag> eTagsBeforeResume, final ProgressListenerChain progressListenerChain, final UploadMonitor monitor)
+def ():
+    '''returns CompleteMultipartUpload\n\n
+    (final String uploadId, final AmazonS3 s3, final PutObjectRequest putObjectRequest, final List<Future<PartETag>> futures, final List<PartETag> eTagsBeforeResume, final ProgressListenerChain progressListenerChain, final UploadMonitor monitor)\n
     '''
 def call():
-    '''public UploadResult call()
+    '''returns UploadResult\n\n
+    call()\n
     '''

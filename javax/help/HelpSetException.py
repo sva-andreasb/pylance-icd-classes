@@ -1,3 +1,4 @@
-def HelpSetException():
-    '''public HelpSetException(final String message)
+def ():
+    '''returns HelpSetException\n\n
+    (final String message)\n
     '''

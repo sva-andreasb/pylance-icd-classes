@@ -1,9 +1,12 @@
-def CSSEngineEvent():
-    '''public CSSEngineEvent(final CSSEngine source, final Element elt, final int[] props)
+def ():
+    '''returns CSSEngineEvent\n\n
+    (final CSSEngine source, final Element elt, final int[] props)\n
     '''
 def getElement():
-    '''public Element getElement()
+    '''returns Element\n\n
+    getElement()\n
     '''
 def getProperties():
-    '''public int[] getProperties()
+    '''returns int[]\n\n
+    getProperties()\n
     '''

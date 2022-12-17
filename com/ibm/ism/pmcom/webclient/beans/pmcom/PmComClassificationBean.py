@@ -1,22 +1,29 @@
 IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def PmComClassificationBean():
-    '''public PmComClassificationBean()
+def ():
+    '''returns PmComClassificationBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getTop():
-    '''public Object[][] getTop(final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getTop(final String[] dataattributes, final int maxchildren)\n
     '''
 def getChildren():
-    '''public Object[][] getChildren(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getChildren(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def getInternalPmpType():
-    '''public String getInternalPmpType()
+    '''returns String\n\n
+    getInternalPmpType()\n
     '''
 def setInternalPmpType():
-    '''public void setInternalPmpType(final String internalPmpType)
+    '''returns None\n\n
+    setInternalPmpType(final String internalPmpType)\n
     '''

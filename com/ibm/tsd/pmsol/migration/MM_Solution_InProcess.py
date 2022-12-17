@@ -1,6 +1,8 @@
-def MM_Solution_InProcess():
-    '''public MM_Solution_InProcess()
+def ():
+    '''returns MM_Solution_InProcess\n\n
+    ()\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String tableName)\n
     '''

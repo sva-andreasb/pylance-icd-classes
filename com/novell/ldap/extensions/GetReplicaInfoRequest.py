@@ -1,3 +1,4 @@
-def GetReplicaInfoRequest():
-    '''public GetReplicaInfoRequest(final String s, final String s2)
+def ():
+    '''returns GetReplicaInfoRequest\n\n
+    (final String s, final String s2)\n
     '''

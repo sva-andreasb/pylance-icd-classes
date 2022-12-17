@@ -1,54 +1,40 @@
-def TokenRequest():
-    '''public TokenRequest(final HttpTransport transport, final JsonFactory jsonFactory, final GenericUrl tokenServerUrl, final String grantType)
-    '''
-def getTransport():
-    '''public final HttpTransport getTransport()
-    '''
-def getJsonFactory():
-    '''public final JsonFactory getJsonFactory()
-    '''
-def getRequestInitializer():
-    '''public final HttpRequestInitializer getRequestInitializer()
+def ():
+    '''returns TokenRequest\n\n
+    (final HttpTransport transport, final JsonFactory jsonFactory, final GenericUrl tokenServerUrl, final String grantType)\n
     '''
 def setRequestInitializer():
-    '''public TokenRequest setRequestInitializer(final HttpRequestInitializer requestInitializer)
-    '''
-def getClientAuthentication():
-    '''public final HttpExecuteInterceptor getClientAuthentication()
+    '''returns TokenRequest\n\n
+    setRequestInitializer(final HttpRequestInitializer requestInitializer)\n
     '''
 def setClientAuthentication():
-    '''public TokenRequest setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
-    '''
-def getTokenServerUrl():
-    '''public final GenericUrl getTokenServerUrl()
+    '''returns TokenRequest\n\n
+    setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)\n
     '''
 def setTokenServerUrl():
-    '''public TokenRequest setTokenServerUrl(final GenericUrl tokenServerUrl)
-    '''
-def getScopes():
-    '''public final String getScopes()
+    '''returns TokenRequest\n\n
+    setTokenServerUrl(final GenericUrl tokenServerUrl)\n
     '''
 def setScopes():
-    '''public TokenRequest setScopes(final Collection<String> scopes)
-    '''
-def getGrantType():
-    '''public final String getGrantType()
+    '''returns TokenRequest\n\n
+    setScopes(final Collection<String> scopes)\n
     '''
 def setGrantType():
-    '''public TokenRequest setGrantType(final String grantType)
-    '''
-def executeUnparsed():
-    '''public final HttpResponse executeUnparsed()
+    '''returns TokenRequest\n\n
+    setGrantType(final String grantType)\n
     '''
 def initialize():
-    '''public void initialize(final HttpRequest request)
+    '''returns None\n\n
+    initialize(final HttpRequest request)\n
     '''
 def intercept():
-    '''public void intercept(final HttpRequest request)
+    '''returns None\n\n
+    intercept(final HttpRequest request)\n
     '''
 def execute():
-    '''public TokenResponse execute()
+    '''returns TokenResponse\n\n
+    execute()\n
     '''
 def set():
-    '''public TokenRequest set(final String fieldName, final Object value)
+    '''returns TokenRequest\n\n
+    set(final String fieldName, final Object value)\n
     '''

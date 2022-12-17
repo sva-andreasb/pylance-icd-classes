@@ -1,18 +1,24 @@
-def IlvFormReaderFormatExtension():
-    '''public IlvFormReaderFormatExtension(final IlvFormReaderFormat a)
+def ():
+    '''returns IlvFormReaderFormatExtension\n\n
+    (final IlvFormReaderFormat a)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getObjectReader():
-    '''public IlvObjectReader getObjectReader(final Class clazz, final Element element, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns IlvObjectReader\n\n
+    getObjectReader(final Class clazz, final Element element, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def getReaderInfo():
-    '''public ReaderInfo getReaderInfo(final Object o, final Element element, final IlvFormReaderContext ilvFormReaderContext)
+    '''returns ReaderInfo\n\n
+    getReaderInfo(final Object o, final Element element, final IlvFormReaderContext ilvFormReaderContext)\n
     '''
 def isExtensionEmpty():
-    '''public boolean isExtensionEmpty()
+    '''returns boolean\n\n
+    isExtensionEmpty()\n
     '''
 def getControlType():
-    '''public String getControlType(final String s)
+    '''returns String\n\n
+    getControlType(final String s)\n
     '''

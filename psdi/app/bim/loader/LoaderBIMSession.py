@@ -1,18 +1,24 @@
-def LoaderBIMSession():
-    '''public LoaderBIMSession(final ModelProcessIntf loader)
+def ():
+    '''returns LoaderBIMSession\n\n
+    (final ModelProcessIntf loader)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def matchItem():
-    '''public MboRemote matchItem(final ItemFACILITY item, final MboSetRemote typesSet)
+    '''returns MboRemote\n\n
+    matchItem(final ItemFACILITY item, final MboSetRemote typesSet)\n
     '''
 def addItem():
-    '''public MboRemote addItem(final ItemFACILITY item, final MboSetRemote typesSet)
+    '''returns MboRemote\n\n
+    addItem(final ItemFACILITY item, final MboSetRemote typesSet)\n
     '''
 def update():
-    '''public void update(final MboRemote mbo, final ItemFACILITY facility)
+    '''returns None\n\n
+    update(final MboRemote mbo, final ItemFACILITY facility)\n
     '''
 def addAttributeValues():
-    '''public int addAttributeValues(final MboRemote mbo, final ItemFACILITY item)
+    '''returns int\n\n
+    addAttributeValues(final MboRemote mbo, final ItemFACILITY item)\n
     '''

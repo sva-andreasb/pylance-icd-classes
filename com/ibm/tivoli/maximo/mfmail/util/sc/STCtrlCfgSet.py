@@ -1,21 +1,28 @@
-def STCtrlCfgSet():
-    '''public STCtrlCfgSet(final MboServerInterface ms)
+def ():
+    '''returns STCtrlCfgSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def activate():
-    '''public void activate(final boolean isActive)
+    '''returns None\n\n
+    activate(final boolean isActive)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def hasValueInAnyMbo():
-    '''public boolean hasValueInAnyMbo(final String[] attributes)
+    '''returns boolean\n\n
+    hasValueInAnyMbo(final String[] attributes)\n
     '''
 def setReadOnlyToEachMbo():
-    '''public void setReadOnlyToEachMbo(final String[] attributes, final boolean state)
+    '''returns None\n\n
+    setReadOnlyToEachMbo(final String[] attributes, final boolean state)\n
     '''
 def getDataArray():
-    '''public Set<String> getDataArray(final String attribute)
+    '''returns Set<String>\n\n
+    getDataArray(final String attribute)\n
     '''
 def setRequiredStateForReplyTemplate():
-    '''public void setRequiredStateForReplyTemplate()
+    '''returns None\n\n
+    setRequiredStateForReplyTemplate()\n
     '''

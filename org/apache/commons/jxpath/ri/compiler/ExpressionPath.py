@@ -1,24 +1,32 @@
-def ExpressionPath():
-    '''public ExpressionPath(final Expression expression, final Expression[] predicates, final Step[] steps)
+def ():
+    '''returns ExpressionPath\n\n
+    (final Expression expression, final Expression[] predicates, final Step[] steps)\n
     '''
 def getExpression():
-    '''public Expression getExpression()
+    '''returns Expression\n\n
+    getExpression()\n
     '''
 def getPredicates():
-    '''public Expression[] getPredicates()
+    '''returns Expression[]\n\n
+    getPredicates()\n
     '''
 def computeContextDependent():
-    '''public boolean computeContextDependent()
+    '''returns boolean\n\n
+    computeContextDependent()\n
     '''
 def isSimpleExpressionPath():
-    '''public boolean isSimpleExpressionPath()
+    '''returns boolean\n\n
+    isSimpleExpressionPath()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def compute():
-    '''public Object compute(final EvalContext context)
+    '''returns Object\n\n
+    compute(final EvalContext context)\n
     '''
 def computeValue():
-    '''public Object computeValue(final EvalContext context)
+    '''returns Object\n\n
+    computeValue(final EvalContext context)\n
     '''

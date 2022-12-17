@@ -1,6 +1,4 @@
 def unmarshall():
-    '''public KeyMetadata unmarshall(final JsonUnmarshallerContext context)
-    '''
-def getInstance():
-    '''public static KeyMetadataJsonUnmarshaller getInstance()
+    '''returns KeyMetadata\n\n
+    unmarshall(final JsonUnmarshallerContext context)\n
     '''

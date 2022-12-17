@@ -1,3 +1,4 @@
-def ReportProcSchedSet():
-    '''public ReportProcSchedSet(final MboServerInterface ms)
+def ():
+    '''returns ReportProcSchedSet\n\n
+    (final MboServerInterface ms)\n
     '''

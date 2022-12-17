@@ -1,6 +1,8 @@
-def PlusPSLAAssetLoc():
-    '''public PlusPSLAAssetLoc(final MboSet arg0)
+def ():
+    '''returns PlusPSLAAssetLoc\n\n
+    (final MboSet arg0)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

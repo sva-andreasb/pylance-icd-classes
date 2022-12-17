@@ -1,279 +1,355 @@
 ACTIVE_DOCUMENT_NAME = "String  \"ActiveDocument\""
 SHOW_FILE_CHOOSER_ICONS_PROPERTY = "String  \"ShowFileChooserIcons\""
-def IlvDocumentManager():
-    '''public IlvDocumentManager()
+def ():
+    '''returns FileChooserListener\n\n
+    ()\n
+    ()\n
     '''
 def readSettings():
-    '''public void readSettings(final IlvSettingsElement ilvSettingsElement, final Object o)
-    public void readSettings(final IlvSettingsManager settings)
+    '''returns None\n\n
+    readSettings(final IlvSettingsElement ilvSettingsElement, final Object o)\n
+    readSettings(final IlvSettingsManager settings)\n
     '''
 def writeSettings():
-    '''public void writeSettings(final IlvSettingsElement ilvSettingsElement, final Object o)
+    '''returns None\n\n
+    writeSettings(final IlvSettingsElement ilvSettingsElement, final Object o)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def isValidDocument():
-    '''public boolean isValidDocument(final URL url)
+    '''returns boolean\n\n
+    isValidDocument(final URL url)\n
     '''
 def openDocument():
-    '''public IlvDocument openDocument(final URL url, final boolean b, final boolean b2)
-    public IlvFileDocument openDocument(final IlvFileDocumentTemplate ilvFileDocumentTemplate, URL url, IlvFileFilter ilvFileFilter, final boolean b, final boolean b2)
-    public IlvDocument openDocument(final boolean b, final IlvMainWindow ilvMainWindow)
+    '''returns IlvDocument\n\n
+    openDocument(final URL url, final boolean b, final boolean b2)\n
+    openDocument(final IlvFileDocumentTemplate ilvFileDocumentTemplate, URL url, IlvFileFilter ilvFileFilter, final boolean b, final boolean b2)\n
+    openDocument(final boolean b, final IlvMainWindow ilvMainWindow)\n
     '''
 def initializeDocument():
-    '''public boolean initializeDocument(final IlvDocument ilvDocument, final Object o, final DocTemplateInfo docTemplateInfo)
-    public boolean initializeDocument(final IlvDocument ilvDocument, final Object o, final DocTemplateInfo docTemplateInfo)
+    '''returns boolean\n\n
+    initializeDocument(final IlvDocument ilvDocument, final Object o, final DocTemplateInfo docTemplateInfo)\n
+    initializeDocument(final IlvDocument ilvDocument, final Object o, final DocTemplateInfo docTemplateInfo)\n
     '''
 def getOpenedDocument():
-    '''public IlvDocument getOpenedDocument(final URL url)
-    public IlvDocument getOpenedDocument(final int n)
+    '''returns IlvDocument\n\n
+    getOpenedDocument(final URL url)\n
+    getOpenedDocument(final int n)\n
     '''
 def getOpenDocuments():
-    '''public IlvDocument[] getOpenDocuments()
-    public IlvDocument[] getOpenDocuments(final IlvDocumentTemplate ilvDocumentTemplate)
+    '''returns IlvDocument[]\n\n
+    getOpenDocuments()\n
+    getOpenDocuments(final IlvDocumentTemplate ilvDocumentTemplate)\n
     '''
 def openRecentFile():
-    '''public void openRecentFile(final int n)
+    '''returns None\n\n
+    openRecentFile(final int n)\n
     '''
 def showFileChooser():
-    '''public IlvFileChooserSelection[] showFileChooser(final String s, final String s2, final int n, final IlvFileDocumentTemplate ilvFileDocumentTemplate, Component mainComponent)
+    '''returns IlvFileChooserSelection[]\n\n
+    showFileChooser(final String s, final String s2, final int n, final IlvFileDocumentTemplate ilvFileDocumentTemplate, Component mainComponent)\n
     '''
 def initializeFileChooser():
-    '''public void initializeFileChooser(final JFileChooser fileChooser, final String pathname, final int n, final IlvFileDocumentTemplate e)
+    '''returns None\n\n
+    initializeFileChooser(final JFileChooser fileChooser, final String pathname, final int n, final IlvFileDocumentTemplate e)\n
     '''
 def accept():
-    '''public boolean accept(final File file)
+    '''returns boolean\n\n
+    accept(final File file)\n
     '''
 def getDescription():
-    '''public String getDescription()
-    public String getDescription(final File file)
+    '''returns String\n\n
+    getDescription()\n
+    getDescription(final File file)\n
     '''
 def getName():
-    '''public String getName(final File file)
+    '''returns String\n\n
+    getName(final File file)\n
     '''
 def isTraversable():
-    '''public Boolean isTraversable(final File file)
+    '''returns Boolean\n\n
+    isTraversable(final File file)\n
     '''
 def getTypeDescription():
-    '''public String getTypeDescription(final File file)
+    '''returns String\n\n
+    getTypeDescription(final File file)\n
     '''
 def getIcon():
-    '''public Icon getIcon(final File file)
+    '''returns Icon\n\n
+    getIcon(final File file)\n
     '''
 def showAppletFileChooser():
-    '''public IlvFileChooserSelection[] showAppletFileChooser(final String s, final String s2, final int n, final IlvFileDocumentTemplate ilvFileDocumentTemplate, final Component comp)
+    '''returns IlvFileChooserSelection[]\n\n
+    showAppletFileChooser(final String s, final String s2, final int n, final IlvFileDocumentTemplate ilvFileDocumentTemplate, final Component comp)\n
     '''
 def findBestTemplate():
-    '''public IlvFileDocumentTemplate findBestTemplate(final URL url)
-    public IlvFileDocumentTemplate findBestTemplate(final String s)
+    '''returns IlvFileDocumentTemplate\n\n
+    findBestTemplate(final URL url)\n
+    findBestTemplate(final String s)\n
     '''
 def createHTMLBrowser():
-    '''public Window createHTMLBrowser(String string, final URL page, final HyperlinkListener listener, final boolean b, final Frame frame)
+    '''returns Window\n\n
+    createHTMLBrowser(String string, final URL page, final HyperlinkListener listener, final boolean b, final Frame frame)\n
     '''
 def hyperlinkUpdate():
-    '''public void hyperlinkUpdate(final HyperlinkEvent hyperlinkEvent)
-    public void hyperlinkUpdate(final HyperlinkEvent hyperlinkEvent)
+    '''returns None\n\n
+    hyperlinkUpdate(final HyperlinkEvent hyperlinkEvent)\n
+    hyperlinkUpdate(final HyperlinkEvent hyperlinkEvent)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def mouseEntered():
-    '''public void mouseEntered(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseEntered(final MouseEvent mouseEvent)\n
     '''
 def mouseExited():
-    '''public void mouseExited(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseExited(final MouseEvent mouseEvent)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mousePressed(final MouseEvent mouseEvent)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent mouseEvent)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def newDocument():
-    '''public IlvDocument newDocument(final boolean b, final IlvDocumentTemplate ilvDocumentTemplate, final DocumentInitializer documentInitializer, final Object o)
-    public IlvDocument newDocument(final boolean b, final IlvMainWindow ilvMainWindow)
-    public IlvDocument newDocument(final IlvDocumentTemplate ilvDocumentTemplate, final boolean b, final Object o)
-    public IlvDocument newDocument(final Object o, final boolean b)
-    public final IlvDocument newDocument(final boolean b)
-    public final IlvDocument newDocument()
+    '''returns IlvDocument\n\n
+    newDocument(final boolean b, final IlvDocumentTemplate ilvDocumentTemplate, final DocumentInitializer documentInitializer, final Object o)\n
+    newDocument(final boolean b, final IlvMainWindow ilvMainWindow)\n
+    newDocument(final IlvDocumentTemplate ilvDocumentTemplate, final boolean b, final Object o)\n
+    newDocument(final Object o, final boolean b)\n
     '''
 def getMainDocumentTemplates():
-    '''public IlvDocumentTemplate[] getMainDocumentTemplates(final boolean b)
+    '''returns IlvDocumentTemplate[]\n\n
+    getMainDocumentTemplates(final boolean b)\n
     '''
 def newDocumentOnLastTemplate():
-    '''public IlvDocument newDocumentOnLastTemplate(final boolean b, final IlvMainWindow ilvMainWindow)
+    '''returns IlvDocument\n\n
+    newDocumentOnLastTemplate(final boolean b, final IlvMainWindow ilvMainWindow)\n
     '''
 def canCreateDocument():
-    '''public boolean canCreateDocument(final Object o)
+    '''returns boolean\n\n
+    canCreateDocument(final Object o)\n
     '''
 def findDocumentTemplate():
-    '''public IlvDocumentTemplate findDocumentTemplate(final Object o)
+    '''returns IlvDocumentTemplate\n\n
+    findDocumentTemplate(final Object o)\n
     '''
 def saveAllDocuments():
-    '''public boolean saveAllDocuments()
-    public boolean saveAllDocuments()
+    '''returns boolean\n\n
+    saveAllDocuments()\n
+    saveAllDocuments()\n
     '''
 def saveAllDocumentsUI():
-    '''public void saveAllDocumentsUI(final Action action)
+    '''returns None\n\n
+    saveAllDocumentsUI(final Action action)\n
     '''
 def saveDocument():
-    '''public boolean saveDocument(final IlvDocument ilvDocument)
+    '''returns boolean\n\n
+    saveDocument(final IlvDocument ilvDocument)\n
     '''
 def saveFileDocument():
-    '''public boolean saveFileDocument(final IlvFileDocument ilvFileDocument, final String s, IlvFileFilter ilvFileFilter, final boolean b)
+    '''returns boolean\n\n
+    saveFileDocument(final IlvFileDocument ilvFileDocument, final String s, IlvFileFilter ilvFileFilter, final boolean b)\n
     '''
 def saveAsDocument():
-    '''public boolean saveAsDocument(final IlvFileDocument ilvFileDocument)
+    '''returns boolean\n\n
+    saveAsDocument(final IlvFileDocument ilvFileDocument)\n
     '''
 def saveDocumentModifications():
-    '''public boolean saveDocumentModifications(final IlvDocument ilvDocument)
+    '''returns boolean\n\n
+    saveDocumentModifications(final IlvDocument ilvDocument)\n
     '''
 def isEditable():
-    '''public boolean isEditable(final IlvDocument ilvDocument)
+    '''returns boolean\n\n
+    isEditable(final IlvDocument ilvDocument)\n
     '''
 def isSaveable():
-    '''public boolean isSaveable(final IlvDocument ilvDocument)
+    '''returns boolean\n\n
+    isSaveable(final IlvDocument ilvDocument)\n
     '''
 def closeAllDocuments():
-    '''public boolean closeAllDocuments(final boolean b)
+    '''returns boolean\n\n
+    closeAllDocuments(final boolean b)\n
     '''
 def closeAllDocumentsUI():
-    '''public boolean closeAllDocumentsUI(final Action action)
+    '''returns boolean\n\n
+    closeAllDocumentsUI(final Action action)\n
     '''
 def closeDocument():
-    '''public boolean closeDocument(final IlvDocument ilvDocument, final boolean b)
+    '''returns boolean\n\n
+    closeDocument(final IlvDocument ilvDocument, final boolean b)\n
     '''
 def saveModifications():
-    '''public boolean saveModifications()
+    '''returns boolean\n\n
+    saveModifications()\n
     '''
 def getOpenedDocumentCount():
-    '''public int getOpenedDocumentCount()
-    public int getOpenedDocumentCount()
+    '''returns int\n\n
+    getOpenedDocumentCount()\n
+    getOpenedDocumentCount()\n
     '''
 def addToRecentFileList():
-    '''public void addToRecentFileList(final URL url)
+    '''returns None\n\n
+    addToRecentFileList(final URL url)\n
     '''
 def addDocumentTemplate():
-    '''public void addDocumentTemplate(final IlvDocumentTemplate ilvDocumentTemplate)
+    '''returns None\n\n
+    addDocumentTemplate(final IlvDocumentTemplate ilvDocumentTemplate)\n
     '''
 def removeDocumentTemplate():
-    '''public boolean removeDocumentTemplate(final IlvDocumentTemplate ilvDocumentTemplate)
+    '''returns boolean\n\n
+    removeDocumentTemplate(final IlvDocumentTemplate ilvDocumentTemplate)\n
     '''
 def removeDocTemplate():
-    '''public boolean removeDocTemplate(final IlvDocumentTemplate ilvDocumentTemplate)
+    '''returns boolean\n\n
+    removeDocTemplate(final IlvDocumentTemplate ilvDocumentTemplate)\n
     '''
 def getDocumentTemplate():
-    '''public IlvDocumentTemplate getDocumentTemplate(final int n)
-    public IlvDocumentTemplate getDocumentTemplate()
+    '''returns IlvDocumentTemplate\n\n
+    getDocumentTemplate(final int n)\n
+    getDocumentTemplate()\n
     '''
 def getDocumentTemplatesCount():
-    '''public int getDocumentTemplatesCount()
+    '''returns int\n\n
+    getDocumentTemplatesCount()\n
     '''
 def findDocTemplate():
-    '''public IlvDocumentTemplate findDocTemplate(final String anObject)
+    '''returns IlvDocumentTemplate\n\n
+    findDocTemplate(final String anObject)\n
     '''
 def getApplication():
-    '''public IlvApplication getApplication()
+    '''returns IlvApplication\n\n
+    getApplication()\n
     '''
 def readRegistries():
-    '''public void readRegistries()
+    '''returns None\n\n
+    readRegistries()\n
     '''
 def writeRegistries():
-    '''public void writeRegistries()
+    '''returns None\n\n
+    writeRegistries()\n
     '''
 def getRecentFilesList():
-    '''public IlvRecentFileList getRecentFilesList()
+    '''returns IlvRecentFileList\n\n
+    getRecentFilesList()\n
     '''
 def open():
-    '''public boolean open(final IlvRecentFileList.FileInfo fileInfo, final int n)
+    '''returns boolean\n\n
+    open(final IlvRecentFileList.FileInfo fileInfo, final int n)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setApplication():
-    '''public void setApplication(final IlvApplication application)
+    '''returns None\n\n
+    setApplication(final IlvApplication application)\n
     '''
 def getMainWindow():
-    '''public IlvMainWindow getMainWindow()
+    '''returns IlvMainWindow\n\n
+    getMainWindow()\n
     '''
 def setMainWindow():
-    '''public void setMainWindow(final IlvMainWindow f)
+    '''returns None\n\n
+    setMainWindow(final IlvMainWindow f)\n
     '''
 def addOpenedDocument():
-    '''public void addOpenedDocument(final IlvDocument ilvDocument)
-    public void addOpenedDocument(final IlvDocument ilvDocument)
+    '''returns None\n\n
+    addOpenedDocument(final IlvDocument ilvDocument)\n
+    addOpenedDocument(final IlvDocument ilvDocument)\n
     '''
 def removeOpenDocument():
-    '''public boolean removeOpenDocument(final IlvDocument ilvDocument)
-    public boolean removeOpenDocument(final IlvDocument ilvDocument)
+    '''returns boolean\n\n
+    removeOpenDocument(final IlvDocument ilvDocument)\n
+    removeOpenDocument(final IlvDocument ilvDocument)\n
     '''
 def getOpenedDocuments():
-    '''public IlvDocument[] getOpenedDocuments(final IlvDocumentTemplate ilvDocumentTemplate)
-    public IlvDocument[] getOpenedDocuments()
+    '''returns IlvDocument[]\n\n
+    getOpenedDocuments(final IlvDocumentTemplate ilvDocumentTemplate)\n
+    getOpenedDocuments()\n
     '''
 def getOpenedDocumentFromPath():
-    '''public IlvDocument getOpenedDocumentFromPath(final IlvFileDocumentTemplate ilvFileDocumentTemplate, final URL other)
+    '''returns IlvDocument\n\n
+    getOpenedDocumentFromPath(final IlvFileDocumentTemplate ilvFileDocumentTemplate, final URL other)\n
     '''
 def getApplicationListenerList():
-    '''public IlvApplicationListenerList getApplicationListenerList()
+    '''returns IlvApplicationListenerList\n\n
+    getApplicationListenerList()\n
     '''
 def setApplicationListenerList():
-    '''public void setApplicationListenerList(final IlvApplicationListenerList g)
+    '''returns None\n\n
+    setApplicationListenerList(final IlvApplicationListenerList g)\n
     '''
 def addApplicationListener():
-    '''public void addApplicationListener(final ApplicationListener applicationListener)
+    '''returns None\n\n
+    addApplicationListener(final ApplicationListener applicationListener)\n
     '''
 def removeApplicationListener():
-    '''public void removeApplicationListener(final ApplicationListener applicationListener)
+    '''returns None\n\n
+    removeApplicationListener(final ApplicationListener applicationListener)\n
     '''
 def attachDocument():
-    '''public void attachDocument(final IlvDocument ilvDocument, final IlvDocument ilvDocument2)
+    '''returns None\n\n
+    attachDocument(final IlvDocument ilvDocument, final IlvDocument ilvDocument2)\n
     '''
 def detachDocument():
-    '''public void detachDocument(final IlvDocument ilvDocument, final IlvDocument ilvDocument2)
+    '''returns None\n\n
+    detachDocument(final IlvDocument ilvDocument, final IlvDocument ilvDocument2)\n
     '''
 def getActiveDocument():
-    '''public IlvDocument getActiveDocument(final boolean b)
+    '''returns IlvDocument\n\n
+    getActiveDocument(final boolean b)\n
     '''
 def getActiveView():
-    '''public IlvDocumentView getActiveView(final boolean b)
-    '''
-def ShortName():
-    '''public static String ShortName(final Object o)
+    '''returns IlvDocumentView\n\n
+    getActiveView(final boolean b)\n
     '''
 def setActiveDocument():
-    '''public void setActiveDocument(final IlvDocument ilvDocument, final IlvDocumentView ilvDocumentView, final boolean b)
+    '''returns None\n\n
+    setActiveDocument(final IlvDocument ilvDocument, final IlvDocumentView ilvDocumentView, final boolean b)\n
     '''
 def setActiveView():
-    '''public void setActiveView(final IlvDocumentView ilvDocumentView, final boolean b)
+    '''returns None\n\n
+    setActiveView(final IlvDocumentView ilvDocumentView, final boolean b)\n
     '''
 def getActiveDocTemplate():
-    '''public IlvDocumentTemplate getActiveDocTemplate()
+    '''returns IlvDocumentTemplate\n\n
+    getActiveDocTemplate()\n
     '''
 def needSaving():
-    '''public boolean needSaving()
+    '''returns boolean\n\n
+    needSaving()\n
     '''
 def getRecentFileList():
-    '''public IlvRecentFileList getRecentFileList()
+    '''returns IlvRecentFileList\n\n
+    getRecentFileList()\n
     '''
 def setRecentFileList():
-    '''public void setRecentFileList(final IlvRecentFileList c)
+    '''returns None\n\n
+    setRecentFileList(final IlvRecentFileList c)\n
     '''
 def getUntitledCount():
-    '''public int getUntitledCount()
+    '''returns int\n\n
+    getUntitledCount()\n
     '''
 def setUntitledCount():
-    '''public void setUntitledCount(final int d)
-    '''
-def FileChooserListener():
-    '''public FileChooserListener()
+    '''returns None\n\n
+    setUntitledCount(final int d)\n
     '''
 def getSelections():
-    '''public IlvFileChooserSelection[] getSelections()
+    '''returns IlvFileChooserSelection[]\n\n
+    getSelections()\n
     '''

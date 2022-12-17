@@ -1,3 +1,4 @@
-def UserQuerySet():
-    '''public UserQuerySet(final MboServerInterface ms)
+def ():
+    '''returns UserQuerySet\n\n
+    (final MboServerInterface ms)\n
     '''

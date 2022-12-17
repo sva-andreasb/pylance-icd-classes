@@ -1,39 +1,52 @@
-def ConstrainedFieldPosition():
-    '''public ConstrainedFieldPosition()
+def ():
+    '''returns ConstrainedFieldPosition\n\n
+    ()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def constrainField():
-    '''public void constrainField(final Format.Field field)
+    '''returns None\n\n
+    constrainField(final Format.Field field)\n
     '''
 def constrainClass():
-    '''public void constrainClass(final Class<?> classConstraint)
+    '''returns None\n\n
+    constrainClass(final Class<?> classConstraint)\n
     '''
 def constrainFieldAndValue():
-    '''public void constrainFieldAndValue(final Format.Field field, final Object fieldValue)
+    '''returns None\n\n
+    constrainFieldAndValue(final Format.Field field, final Object fieldValue)\n
     '''
 def getStart():
-    '''public int getStart()
+    '''returns int\n\n
+    getStart()\n
     '''
 def getLimit():
-    '''public int getLimit()
+    '''returns int\n\n
+    getLimit()\n
     '''
 def getFieldValue():
-    '''public Object getFieldValue()
+    '''returns Object\n\n
+    getFieldValue()\n
     '''
 def getInt64IterationContext():
-    '''public long getInt64IterationContext()
+    '''returns long\n\n
+    getInt64IterationContext()\n
     '''
 def setInt64IterationContext():
-    '''public void setInt64IterationContext(final long context)
+    '''returns None\n\n
+    setInt64IterationContext(final long context)\n
     '''
 def setState():
-    '''public void setState(final Format.Field field, final Object value, final int start, final int limit)
+    '''returns None\n\n
+    setState(final Format.Field field, final Object value, final int start, final int limit)\n
     '''
 def matchesField():
-    '''public boolean matchesField(final Format.Field field, final Object fieldValue)
+    '''returns boolean\n\n
+    matchesField(final Format.Field field, final Object fieldValue)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,3 +1,4 @@
-def PlusPLineStatusHistorySet():
-    '''public PlusPLineStatusHistorySet(final MboServerInterface ms)
+def ():
+    '''returns PlusPLineStatusHistorySet\n\n
+    (final MboServerInterface ms)\n
     '''

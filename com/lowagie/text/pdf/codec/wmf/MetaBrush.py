@@ -9,18 +9,23 @@ HS_FDIAGONAL = "int  2"
 HS_BDIAGONAL = "int  3"
 HS_CROSS = "int  4"
 HS_DIAGCROSS = "int  5"
-def MetaBrush():
-    '''public MetaBrush()
+def ():
+    '''returns MetaBrush\n\n
+    ()\n
     '''
 def init():
-    '''public void init(final InputMeta in)
+    '''returns None\n\n
+    init(final InputMeta in)\n
     '''
 def getStyle():
-    '''public int getStyle()
+    '''returns int\n\n
+    getStyle()\n
     '''
 def getHatch():
-    '''public int getHatch()
+    '''returns int\n\n
+    getHatch()\n
     '''
 def getColor():
-    '''public Color getColor()
+    '''returns Color\n\n
+    getColor()\n
     '''

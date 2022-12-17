@@ -1,18 +1,16 @@
-def ShiftBean():
-    '''public ShiftBean()
+def ():
+    '''returns ShiftBean\n\n
+    ()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def applyshift():
-    '''public int applyshift()
-    '''
-def save():
-    '''public synchronized void save()
+    '''returns int\n\n
+    applyshift()\n
     '''
 def DefineNewShift():
-    '''public int DefineNewShift()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns int\n\n
+    DefineNewShift()\n
     '''

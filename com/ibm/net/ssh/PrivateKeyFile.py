@@ -1,13 +1,17 @@
-def PrivateKeyFile():
-    '''public PrivateKeyFile(final KeyPair keyPair)
-    public PrivateKeyFile(final String filename, final char[] passPhrase)
+def ():
+    '''returns PrivateKeyFile\n\n
+    (final KeyPair keyPair)\n
+    (final String filename, final char[] passPhrase)\n
     '''
 def getKeyPair():
-    '''public KeyPair getKeyPair()
+    '''returns KeyPair\n\n
+    getKeyPair()\n
     '''
 def load():
-    '''public void load(final String filename, final char[] passPhrase)
+    '''returns None\n\n
+    load(final String filename, final char[] passPhrase)\n
     '''
 def store():
-    '''public boolean store(final String filename, final char[] passPhrase)
+    '''returns boolean\n\n
+    store(final String filename, final char[] passPhrase)\n
     '''

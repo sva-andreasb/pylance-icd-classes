@@ -9,24 +9,30 @@ ROUND_HALF_EVEN = "int  6"
 ROUND_HALF_UP = "int  4"
 ROUND_UNNECESSARY = "int  7"
 ROUND_UP = "int  0"
-def MathContext():
-    '''public MathContext(final int setdigits)
-    public MathContext(final int setdigits, final int setform)
-    public MathContext(final int setdigits, final int setform, final boolean setlostdigits)
-    public MathContext(final int setdigits, final int setform, final boolean setlostdigits, final int setroundingmode)
+def ():
+    '''returns MathContext\n\n
+    (final int setdigits)\n
+    (final int setdigits, final int setform)\n
+    (final int setdigits, final int setform, final boolean setlostdigits)\n
+    (final int setdigits, final int setform, final boolean setlostdigits, final int setroundingmode)\n
     '''
 def getDigits():
-    '''public int getDigits()
+    '''returns int\n\n
+    getDigits()\n
     '''
 def getForm():
-    '''public int getForm()
+    '''returns int\n\n
+    getForm()\n
     '''
 def getLostDigits():
-    '''public boolean getLostDigits()
+    '''returns boolean\n\n
+    getLostDigits()\n
     '''
 def getRoundingMode():
-    '''public int getRoundingMode()
+    '''returns int\n\n
+    getRoundingMode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

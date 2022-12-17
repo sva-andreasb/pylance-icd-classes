@@ -1,25 +1,33 @@
-def RepeatableInputStream():
-    '''public RepeatableInputStream(final InputStream inputStream, final int bufferSize)
+def ():
+    '''returns RepeatableInputStream\n\n
+    (final InputStream inputStream, final int bufferSize)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def mark():
-    '''public void mark(final int readlimit)
+    '''returns None\n\n
+    mark(final int readlimit)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def read():
-    '''public int read(final byte[] out, final int outOffset, final int outLength)
-    public int read()
+    '''returns int\n\n
+    read(final byte[] out, final int outOffset, final int outLength)\n
+    read()\n
     '''
 def getWrappedInputStream():
-    '''public InputStream getWrappedInputStream()
+    '''returns InputStream\n\n
+    getWrappedInputStream()\n
     '''

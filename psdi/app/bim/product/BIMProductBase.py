@@ -69,27 +69,35 @@ DURATION_MONTH = "int  4"
 DURATION_QUARTER = "int  5"
 DURATION_WEEK = "int  6"
 DURATION_YEAR = "int  7"
-def BIMProductBase():
-    '''public BIMProductBase(final MboSet ms)
+def ():
+    '''returns BIMProductBase\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def getDurationUnits():
-    '''public int getDurationUnits(String units)
+    '''returns int\n\n
+    getDurationUnits(String units)\n
     '''

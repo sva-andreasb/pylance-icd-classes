@@ -1,14 +1,18 @@
-def TransliteratingGuesser():
-    '''public TransliteratingGuesser(final UniMorphoSyntax morphoSyntax, final String s)
-    public TransliteratingGuesser(final UniMorphoSyntax morphoSyntax, final String s, final String s2)
+def ():
+    '''returns TransliteratingGuesser\n\n
+    (final UniMorphoSyntax morphoSyntax, final String s)\n
+    (final UniMorphoSyntax morphoSyntax, final String s, final String s2)\n
     '''
 def guess():
-    '''public String guess(final String s)
-    public String guess(final CharacterIterator characterIterator, final int n, final int n2)
+    '''returns String\n\n
+    guess(final String s)\n
+    guess(final CharacterIterator characterIterator, final int n, final int n2)\n
     '''
 def guessingLookup():
-    '''public GlossCollection guessingLookup(final CharacterIterator characterIterator, final int n, final int n2)
+    '''returns GlossCollection\n\n
+    guessingLookup(final CharacterIterator characterIterator, final int n, final int n2)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''

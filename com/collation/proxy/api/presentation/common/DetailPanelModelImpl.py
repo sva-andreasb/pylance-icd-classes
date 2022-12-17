@@ -1,13 +1,17 @@
-def DetailPanelModelImpl():
-    '''public DetailPanelModelImpl()
+def ():
+    '''returns DetailPanelModelImpl\n\n
+    ()\n
     '''
 def addTab():
-    '''public void addTab(final DetailPanelTab tab, final int location)
-    public void addTab(final DetailPanelTab tab)
+    '''returns None\n\n
+    addTab(final DetailPanelTab tab, final int location)\n
+    addTab(final DetailPanelTab tab)\n
     '''
 def getTabs():
-    '''public List getTabs()
+    '''returns List\n\n
+    getTabs()\n
     '''
 def setTabs():
-    '''public void setTabs(final List tabs)
+    '''returns None\n\n
+    setTabs(final List tabs)\n
     '''

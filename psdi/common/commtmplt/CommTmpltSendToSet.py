@@ -1,12 +1,16 @@
-def CommTmpltSendToSet():
-    '''public CommTmpltSendToSet(final MboServerInterface ms)
+def ():
+    '''returns CommTmpltSendToSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def contains():
-    '''public boolean contains(final MboRemote currRecipient, final String type, final String value)
+    '''returns boolean\n\n
+    contains(final MboRemote currRecipient, final String type, final String value)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

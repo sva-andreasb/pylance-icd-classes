@@ -1,16 +1,21 @@
-def PlusCFldDSUncertNumberFormatting():
-    '''public PlusCFldDSUncertNumberFormatting()
-    public PlusCFldDSUncertNumberFormatting(final MboValue mbv)
+def ():
+    '''returns PlusCFldDSUncertNumberFormatting\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def checkTypeFormat():
-    '''public String checkTypeFormat(final String fieldName, final String value, final Locale locale)
+    '''returns String\n\n
+    checkTypeFormat(final String fieldName, final String value, final Locale locale)\n
     '''

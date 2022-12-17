@@ -1,60 +1,78 @@
-def AttributesImpl():
-    '''public AttributesImpl()
-    public AttributesImpl(final Attributes attributes)
+def ():
+    '''returns AttributesImpl\n\n
+    ()\n
+    (final Attributes attributes)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getURI():
-    '''public String getURI(final int n)
+    '''returns String\n\n
+    getURI(final int n)\n
     '''
 def getLocalName():
-    '''public String getLocalName(final int n)
+    '''returns String\n\n
+    getLocalName(final int n)\n
     '''
 def getQName():
-    '''public String getQName(final int n)
+    '''returns String\n\n
+    getQName(final int n)\n
     '''
 def getType():
-    '''public String getType(final int n)
-    public String getType(final String anObject, final String anObject2)
-    public String getType(final String anObject)
+    '''returns String\n\n
+    getType(final int n)\n
+    getType(final String anObject, final String anObject2)\n
+    getType(final String anObject)\n
     '''
 def getValue():
-    '''public String getValue(final int n)
-    public String getValue(final String anObject, final String anObject2)
-    public String getValue(final String anObject)
+    '''returns String\n\n
+    getValue(final int n)\n
+    getValue(final String anObject, final String anObject2)\n
+    getValue(final String anObject)\n
     '''
 def getIndex():
-    '''public int getIndex(final String anObject, final String anObject2)
-    public int getIndex(final String anObject)
+    '''returns int\n\n
+    getIndex(final String anObject, final String anObject2)\n
+    getIndex(final String anObject)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def setAttributes():
-    '''public void setAttributes(final Attributes attributes)
+    '''returns None\n\n
+    setAttributes(final Attributes attributes)\n
     '''
 def addAttribute():
-    '''public void addAttribute(final String s, final String s2, final String s3, final String s4, final String s5)
+    '''returns None\n\n
+    addAttribute(final String s, final String s2, final String s3, final String s4, final String s5)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final int n, final String s, final String s2, final String s3, final String s4, final String s5)
+    '''returns None\n\n
+    setAttribute(final int n, final String s, final String s2, final String s3, final String s4, final String s5)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(int n)
+    '''returns None\n\n
+    removeAttribute(int n)\n
     '''
 def setURI():
-    '''public void setURI(final int n, final String s)
+    '''returns None\n\n
+    setURI(final int n, final String s)\n
     '''
 def setLocalName():
-    '''public void setLocalName(final int n, final String s)
+    '''returns None\n\n
+    setLocalName(final int n, final String s)\n
     '''
 def setQName():
-    '''public void setQName(final int n, final String s)
+    '''returns None\n\n
+    setQName(final int n, final String s)\n
     '''
 def setType():
-    '''public void setType(final int n, final String s)
+    '''returns None\n\n
+    setType(final int n, final String s)\n
     '''
 def setValue():
-    '''public void setValue(final int n, final String s)
+    '''returns None\n\n
+    setValue(final int n, final String s)\n
     '''

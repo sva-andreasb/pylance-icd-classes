@@ -1,21 +1,24 @@
-def ScriptSOAPResp():
-    '''public ScriptSOAPResp(final byte[] msgBodyData, final String endPointName, final Map metaData)
+def ():
+    '''returns ScriptSOAPResp\n\n
+    (final byte[] msgBodyData, final String endPointName, final Map metaData)\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''
 def getMetaData():
-    '''public Map getMetaData()
+    '''returns Map\n\n
+    getMetaData()\n
     '''
 def getEndPointName():
-    '''public String getEndPointName()
+    '''returns String\n\n
+    getEndPointName()\n
     '''
 def setError():
-    '''public void setError(final Exception e)
+    '''returns None\n\n
+    setError(final Exception e)\n
     '''
 def getError():
-    '''public Exception getError()
-    '''
-def getResponseHeaders():
-    '''public Map<QName, List<String>> getResponseHeaders()
+    '''returns Exception\n\n
+    getError()\n
     '''

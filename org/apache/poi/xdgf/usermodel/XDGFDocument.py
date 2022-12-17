@@ -1,21 +1,28 @@
-def XDGFDocument():
-    '''public XDGFDocument(final VisioDocumentType document)
+def ():
+    '''returns XDGFDocument\n\n
+    (final VisioDocumentType document)\n
     '''
 def getXmlObject():
-    '''public VisioDocumentType getXmlObject()
+    '''returns VisioDocumentType\n\n
+    getXmlObject()\n
     '''
 def getStyleById():
-    '''public XDGFStyleSheet getStyleById(final long id)
+    '''returns XDGFStyleSheet\n\n
+    getStyleById(final long id)\n
     '''
 def getDefaultFillStyle():
-    '''public XDGFStyleSheet getDefaultFillStyle()
+    '''returns XDGFStyleSheet\n\n
+    getDefaultFillStyle()\n
     '''
 def getDefaultGuideStyle():
-    '''public XDGFStyleSheet getDefaultGuideStyle()
+    '''returns XDGFStyleSheet\n\n
+    getDefaultGuideStyle()\n
     '''
 def getDefaultLineStyle():
-    '''public XDGFStyleSheet getDefaultLineStyle()
+    '''returns XDGFStyleSheet\n\n
+    getDefaultLineStyle()\n
     '''
 def getDefaultTextStyle():
-    '''public XDGFStyleSheet getDefaultTextStyle()
+    '''returns XDGFStyleSheet\n\n
+    getDefaultTextStyle()\n
     '''

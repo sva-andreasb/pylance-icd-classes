@@ -1,6 +1,8 @@
 def getResource():
-    '''public AccountLicense getResource()
+    '''returns AccountLicense\n\n
+    getResource()\n
     '''
 def setResource():
-    '''public void setResource(final AccountLicense resource)
+    '''returns None\n\n
+    setResource(final AccountLicense resource)\n
     '''

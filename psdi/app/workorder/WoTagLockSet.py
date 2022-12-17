@@ -1,15 +1,20 @@
-def WoTagLockSet():
-    '''public WoTagLockSet(final MboServerInterface ms)
+def ():
+    '''returns WoTagLockSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setThisRelationName():
-    '''public void setThisRelationName(final String relName)
+    '''returns None\n\n
+    setThisRelationName(final String relName)\n
     '''
 def getThisRelationName():
-    '''public String getThisRelationName()
+    '''returns String\n\n
+    getThisRelationName()\n
     '''
 def copyFromTagLock():
-    '''public MboRemote copyFromTagLock(final MboRemote tagLock, final String dataSource)
+    '''returns MboRemote\n\n
+    copyFromTagLock(final MboRemote tagLock, final String dataSource)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

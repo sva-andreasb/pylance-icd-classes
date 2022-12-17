@@ -1,12 +1,16 @@
 def isComplianceEnabled():
-    '''public boolean isComplianceEnabled()
+    '''returns boolean\n\n
+    isComplianceEnabled()\n
     '''
 def createConstraintGraphic():
-    '''public IlvConstraintGraphic createConstraintGraphic(final IlvActivityGraphic from, final IlvActivityGraphic to, final IlvConstraint constraint)
+    '''returns IlvConstraintGraphic\n\n
+    createConstraintGraphic(final IlvActivityGraphic from, final IlvActivityGraphic to, final IlvConstraint constraint)\n
     '''
 def getConnectionPoints():
-    '''public void getConnectionPoints(final IlvPoint src, final IlvPoint dst, final IlvTransformer t)
+    '''returns None\n\n
+    getConnectionPoints(final IlvPoint src, final IlvPoint dst, final IlvTransformer t)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvPoint p, final IlvTransformer t)
+    '''returns String\n\n
+    getToolTipText(final IlvPoint p, final IlvTransformer t)\n
     '''

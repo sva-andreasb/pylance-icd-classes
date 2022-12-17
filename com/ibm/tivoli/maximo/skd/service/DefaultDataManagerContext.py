@@ -1,33 +1,44 @@
-def DefaultDataManagerContext():
-    '''public DefaultDataManagerContext()
+def ():
+    '''returns DefaultDataManagerContext\n\n
+    ()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String objectName)
+    '''returns None\n\n
+    setObjectName(final String objectName)\n
     '''
 def getProjectMbo():
-    '''public MboRemote getProjectMbo()
+    '''returns MboRemote\n\n
+    getProjectMbo()\n
     '''
 def setProjectMbo():
-    '''public void setProjectMbo(final MboRemote projectMbo)
+    '''returns None\n\n
+    setProjectMbo(final MboRemote projectMbo)\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def setUserInfo():
-    '''public void setUserInfo(final UserInfo userInfo)
+    '''returns None\n\n
+    setUserInfo(final UserInfo userInfo)\n
     '''
 def getLogger():
-    '''public MXLogger getLogger()
+    '''returns MXLogger\n\n
+    getLogger()\n
     '''
 def setLogger():
-    '''public void setLogger(final MXLogger logger)
+    '''returns None\n\n
+    setLogger(final MXLogger logger)\n
     '''
 def getSqlLogger():
-    '''public MXLogger getSqlLogger()
+    '''returns MXLogger\n\n
+    getSqlLogger()\n
     '''
 def setSqlLogger():
-    '''public void setSqlLogger(final MXLogger sqlLogger)
+    '''returns None\n\n
+    setSqlLogger(final MXLogger sqlLogger)\n
     '''

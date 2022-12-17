@@ -1,10 +1,13 @@
 OID = "String  \"1.2.840.113556.1.4.319\""
-def PagedResultsResponseControl():
-    '''public PagedResultsResponseControl(final String id, final boolean criticality, final byte[] array)
+def ():
+    '''returns PagedResultsResponseControl\n\n
+    (final String id, final boolean criticality, final byte[] array)\n
     '''
 def getCookie():
-    '''public byte[] getCookie()
+    '''returns byte[]\n\n
+    getCookie()\n
     '''
 def getResultSize():
-    '''public int getResultSize()
+    '''returns int\n\n
+    getResultSize()\n
     '''

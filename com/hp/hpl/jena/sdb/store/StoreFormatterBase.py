@@ -1,6 +1,4 @@
-def StoreFormatterBase():
-    '''public StoreFormatterBase(final SDBConnection connection)
-    '''
-def create():
-    '''public final void create()
+def ():
+    '''returns StoreFormatterBase\n\n
+    (final SDBConnection connection)\n
     '''

@@ -1,16 +1,8 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def matches():
-    '''public boolean matches(final String serverType)
-    '''
-def getAllServers():
-    '''public static Set<ServerType> getAllServers()
-    '''
-def getServer():
-    '''public static ServerType getServer(final String targetStr)
-    public static ServerType getServer(final int dbPlatform)
-    '''
-def findServerType():
-    '''public static ServerType findServerType(final Connection connection)
+    '''returns boolean\n\n
+    matches(final String serverType)\n
     '''

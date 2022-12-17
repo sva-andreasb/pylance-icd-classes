@@ -1,15 +1,16 @@
-def RDFToOSMapper():
-    '''public RDFToOSMapper(final String uri, final byte[] resourceBytes, final UserInfo userInfo, final boolean create)
+def ():
+    '''returns RDFToOSMapper\n\n
+    (final String uri, final byte[] resourceBytes, final UserInfo userInfo, final boolean create)\n
     '''
 def getResourceURI():
-    '''public String getResourceURI()
+    '''returns String\n\n
+    getResourceURI()\n
     '''
 def getOSName():
-    '''public String getOSName()
-    '''
-def generatePartialResource():
-    '''public Map<String, String> generatePartialResource()
+    '''returns String\n\n
+    getOSName()\n
     '''
 def generateOSXML():
-    '''public Document generateOSXML()
+    '''returns Document\n\n
+    generateOSXML()\n
     '''

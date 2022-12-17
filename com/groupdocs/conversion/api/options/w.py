@@ -1,8 +1,10 @@
-def w():
-    '''public w(final ILoader<ay, FromPdfsOptions> loader, final ToHtmlOptions toHtmlOptions)
+def ():
+    '''returns w\n\n
+    (final ILoader<ay, FromPdfsOptions> loader, final ToHtmlOptions toHtmlOptions)\n
     '''
 def toHtml():
-    '''public void toHtml(final OutputStream outputStream, final IResourceCallback resourceCallback)
-    public void toHtml(final String savePath, final IResourceCallback resourceCallback)
-    public void toHtml(final IHtmlStreamCallback<Y> dataCallback)
+    '''returns None\n\n
+    toHtml(final OutputStream outputStream, final IResourceCallback resourceCallback)\n
+    toHtml(final String savePath, final IResourceCallback resourceCallback)\n
+    toHtml(final IHtmlStreamCallback<Y> dataCallback)\n
     '''

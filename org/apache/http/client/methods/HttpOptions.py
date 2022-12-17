@@ -1,12 +1,15 @@
 METHOD_NAME = "String  \"OPTIONS\""
-def HttpOptions():
-    '''public HttpOptions()
-    public HttpOptions(final URI uri)
-    public HttpOptions(final String uri)
+def ():
+    '''returns HttpOptions\n\n
+    ()\n
+    (final URI uri)\n
+    (final String uri)\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''
 def getAllowedMethods():
-    '''public Set<String> getAllowedMethods(final HttpResponse response)
+    '''returns Set<String>\n\n
+    getAllowedMethods(final HttpResponse response)\n
     '''

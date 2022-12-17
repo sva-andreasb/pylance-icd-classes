@@ -1,9 +1,12 @@
-def HttpInetSocketAddress():
-    '''public HttpInetSocketAddress(final HttpHost httphost, final InetAddress addr, final int port)
+def ():
+    '''returns HttpInetSocketAddress\n\n
+    (final HttpHost httphost, final InetAddress addr, final int port)\n
     '''
 def getHttpHost():
-    '''public HttpHost getHttpHost()
+    '''returns HttpHost\n\n
+    getHttpHost()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

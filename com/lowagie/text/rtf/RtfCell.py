@@ -1,30 +1,40 @@
-def RtfCell():
-    '''public RtfCell(final RtfWriter writer, final RtfTable mainTable)
+def ():
+    '''returns RtfCell\n\n
+    (final RtfWriter writer, final RtfTable mainTable)\n
     '''
 def importCell():
-    '''public int importCell(final Cell cell, final int cellLeft, final int cellWidth, final int x, final int y, final int cellpadding)
+    '''returns int\n\n
+    importCell(final Cell cell, final int cellLeft, final int cellWidth, final int x, final int y, final int cellpadding)\n
     '''
 def writeCellSettings():
-    '''public boolean writeCellSettings(final ByteArrayOutputStream os)
+    '''returns boolean\n\n
+    writeCellSettings(final ByteArrayOutputStream os)\n
     '''
 def writeCellContent():
-    '''public boolean writeCellContent(final ByteArrayOutputStream os)
+    '''returns boolean\n\n
+    writeCellContent(final ByteArrayOutputStream os)\n
     '''
 def setMerge():
-    '''public void setMerge(final int mergeType, final RtfCell mergeCell)
+    '''returns None\n\n
+    setMerge(final int mergeType, final RtfCell mergeCell)\n
     '''
 def getStore():
-    '''public Cell getStore()
+    '''returns Cell\n\n
+    getStore()\n
     '''
 def getCellWidth():
-    '''public int getCellWidth()
+    '''returns int\n\n
+    getCellWidth()\n
     '''
 def setCellWidth():
-    '''public void setCellWidth(final int value)
+    '''returns None\n\n
+    setCellWidth(final int value)\n
     '''
 def getCellRight():
-    '''public int getCellRight()
+    '''returns int\n\n
+    getCellRight()\n
     '''
 def setCellRight():
-    '''public void setCellRight(final int value)
+    '''returns None\n\n
+    setCellRight(final int value)\n
     '''

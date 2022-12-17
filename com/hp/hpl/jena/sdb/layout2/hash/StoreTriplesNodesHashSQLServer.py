@@ -1,3 +1,4 @@
-def StoreTriplesNodesHashSQLServer():
-    '''public StoreTriplesNodesHashSQLServer(final SDBConnection connection, final StoreDesc desc)
+def ():
+    '''returns StoreTriplesNodesHashSQLServer\n\n
+    (final SDBConnection connection, final StoreDesc desc)\n
     '''

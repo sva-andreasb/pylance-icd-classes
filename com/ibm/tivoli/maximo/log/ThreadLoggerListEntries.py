@@ -1,3 +1,4 @@
-def ThreadLoggerListEntries():
-    '''public ThreadLoggerListEntries(final String contexname, final String description)
+def ():
+    '''returns ThreadLoggerListEntries\n\n
+    (final String contexname, final String description)\n
     '''

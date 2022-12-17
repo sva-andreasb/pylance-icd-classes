@@ -1,126 +1,167 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def ResourceAvailabilityView():
-    '''public ResourceAvailabilityView()
+def ():
+    '''returns ResourceAvailabilityView\n\n
+    ()\n
     '''
 def attachGanttModelToViewComponents():
-    '''public void attachGanttModelToViewComponents()
+    '''returns None\n\n
+    attachGanttModelToViewComponents()\n
     '''
 def attachModel():
-    '''public void attachModel(final AppletGanttModel model)
+    '''returns None\n\n
+    attachModel(final AppletGanttModel model)\n
     '''
 def detachGanttModelFromViewComponents():
-    '''public void detachGanttModelFromViewComponents()
+    '''returns None\n\n
+    detachGanttModelFromViewComponents()\n
     '''
 def initializeView():
-    '''public Component initializeView()
+    '''returns Component\n\n
+    initializeView()\n
     '''
 def print():
-    '''public void print()
+    '''returns None\n\n
+    print()\n
     '''
 def printPreview():
-    '''public void printPreview()
+    '''returns None\n\n
+    printPreview()\n
     '''
 def printSetup():
-    '''public void printSetup()
+    '''returns None\n\n
+    printSetup()\n
     '''
 def setDividerLocation():
-    '''public void setDividerLocation(final int newLocation)
+    '''returns None\n\n
+    setDividerLocation(final int newLocation)\n
     '''
 def setResourceViewContext():
-    '''public void setResourceViewContext(final ResourceViewContext context)
+    '''returns None\n\n
+    setResourceViewContext(final ResourceViewContext context)\n
     '''
 def activate():
-    '''public void activate()
+    '''returns None\n\n
+    activate()\n
     '''
 def deactivate():
-    '''public void deactivate()
+    '''returns None\n\n
+    deactivate()\n
     '''
 def collapseAvailableResourcesTree():
-    '''public void collapseAvailableResourcesTree()
+    '''returns None\n\n
+    collapseAvailableResourcesTree()\n
     '''
 def enableAvailableResourcesTree():
-    '''public void enableAvailableResourcesTree()
+    '''returns None\n\n
+    enableAvailableResourcesTree()\n
     '''
 def getDividerComponent():
-    '''public Object getDividerComponent()
+    '''returns Object\n\n
+    getDividerComponent()\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final SelectionEvent event)
+    '''returns None\n\n
+    selectionChanged(final SelectionEvent event)\n
     '''
 def rowCollapsed():
-    '''public void rowCollapsed(final TimeWindowRowCollapsedEvent event)
+    '''returns None\n\n
+    rowCollapsed(final TimeWindowRowCollapsedEvent event)\n
     '''
 def rowDisabled():
-    '''public void rowDisabled(final TimeWindowRowDisabledEvent event)
+    '''returns None\n\n
+    rowDisabled(final TimeWindowRowDisabledEvent event)\n
     '''
 def rowExpanded():
-    '''public void rowExpanded(final TimeWindowRowExpandedEvent event)
+    '''returns None\n\n
+    rowExpanded(final TimeWindowRowExpandedEvent event)\n
     '''
 def chartDividerLocationChanged():
-    '''public void chartDividerLocationChanged(final ChartDividerEvent arg0)
-    public void chartDividerLocationChanged(final TimeWindowChartDividerEvent evt)
+    '''returns None\n\n
+    chartDividerLocationChanged(final ChartDividerEvent arg0)\n
+    chartDividerLocationChanged(final TimeWindowChartDividerEvent evt)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def getToolTipString():
-    '''public String getToolTipString(final TimeWindowSet twSet, final TimeWindow tw)
+    '''returns String\n\n
+    getToolTipString(final TimeWindowSet twSet, final TimeWindow tw)\n
     '''
 def activityChanged():
-    '''public void activityChanged(final ActivityEvent evt)
+    '''returns None\n\n
+    activityChanged(final ActivityEvent evt)\n
     '''
 def columnAdded():
-    '''public void columnAdded(final TableColumnModelEvent e)
+    '''returns None\n\n
+    columnAdded(final TableColumnModelEvent e)\n
     '''
 def columnMarginChanged():
-    '''public void columnMarginChanged(final ChangeEvent e)
+    '''returns None\n\n
+    columnMarginChanged(final ChangeEvent e)\n
     '''
 def columnMoved():
-    '''public void columnMoved(final TableColumnModelEvent e)
+    '''returns None\n\n
+    columnMoved(final TableColumnModelEvent e)\n
     '''
 def columnRemoved():
-    '''public void columnRemoved(final TableColumnModelEvent e)
+    '''returns None\n\n
+    columnRemoved(final TableColumnModelEvent e)\n
     '''
 def columnSelectionChanged():
-    '''public void columnSelectionChanged(final ListSelectionEvent e)
+    '''returns None\n\n
+    columnSelectionChanged(final ListSelectionEvent e)\n
     '''
 def treeCollapsed():
-    '''public void treeCollapsed(final TreeExpansionEvent event)
+    '''returns None\n\n
+    treeCollapsed(final TreeExpansionEvent event)\n
     '''
 def treeExpanded():
-    '''public void treeExpanded(final TreeExpansionEvent event)
+    '''returns None\n\n
+    treeExpanded(final TreeExpansionEvent event)\n
     '''
 def constraintChanged():
-    '''public void constraintChanged(final ConstraintEvent event)
+    '''returns None\n\n
+    constraintChanged(final ConstraintEvent event)\n
     '''
 def visibleTimeChanged():
-    '''public void visibleTimeChanged(final VisibleTimeChangedEvent evt)
+    '''returns None\n\n
+    visibleTimeChanged(final VisibleTimeChangedEvent evt)\n
     '''
 def visibleDurationChanged():
-    '''public void visibleDurationChanged(final VisibleDurationChangedEvent evt)
+    '''returns None\n\n
+    visibleDurationChanged(final VisibleDurationChangedEvent evt)\n
     '''
 def minVisibleTimeChanged():
-    '''public void minVisibleTimeChanged(final TimeChangedEvent evt)
+    '''returns None\n\n
+    minVisibleTimeChanged(final TimeChangedEvent evt)\n
     '''
 def maxVisibleTimeChanged():
-    '''public void maxVisibleTimeChanged(final TimeChangedEvent evt)
+    '''returns None\n\n
+    maxVisibleTimeChanged(final TimeChangedEvent evt)\n
     '''
 def minVisibleDurationChanged():
-    '''public void minVisibleDurationChanged(final VisibleDurationChangedEvent evt)
+    '''returns None\n\n
+    minVisibleDurationChanged(final VisibleDurationChangedEvent evt)\n
     '''
 def componentHidden():
-    '''public void componentHidden(final ComponentEvent e)
+    '''returns None\n\n
+    componentHidden(final ComponentEvent e)\n
     '''
 def componentMoved():
-    '''public void componentMoved(final ComponentEvent e)
+    '''returns None\n\n
+    componentMoved(final ComponentEvent e)\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent e)
+    '''returns None\n\n
+    componentResized(final ComponentEvent e)\n
     '''
 def componentShown():
-    '''public void componentShown(final ComponentEvent e)
+    '''returns None\n\n
+    componentShown(final ComponentEvent e)\n
     '''

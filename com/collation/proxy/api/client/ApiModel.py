@@ -1,47 +1,57 @@
-def ApiModel():
-    '''public ApiModel(final String xml)
-    public ApiModel(final ModelObject[] model, final String title, final int depth, final int max_objs, final OIDExpander autofill, final HashMap suppressList)
-    public ApiModel(final ModelObject[] model, final String title, int depth, final String[] attribs, final int max_objs, final OIDExpander autofill, final HashMap suppressList)
-    public ApiModel(final ModelObject[] model, final String title, int depth)
-    public ApiModel(final ModelObject[] model, final String title, int depth, final String[] attribs, final OIDExpander autofill)
-    '''
-def next():
-    '''public synchronized boolean next()
+def ():
+    '''returns ApiModel\n\n
+    (final String xml)\n
+    (final ModelObject[] model, final String title, final int depth, final int max_objs, final OIDExpander autofill, final HashMap suppressList)\n
+    (final ModelObject[] model, final String title, int depth, final String[] attribs, final int max_objs, final OIDExpander autofill, final HashMap suppressList)\n
+    (final ModelObject[] model, final String title, int depth)\n
+    (final ModelObject[] model, final String title, int depth, final String[] attribs, final OIDExpander autofill)\n
     '''
 def toXml():
-    '''public String toXml(final String query)
+    '''returns String\n\n
+    toXml(final String query)\n
     '''
 def toValue():
-    '''public String toValue(final String query)
+    '''returns String\n\n
+    toValue(final String query)\n
     '''
 def toModel():
-    '''public ModelObject[] toModel()
-    public ModelObject[] toModel(final HashMap oidMap, final Class[] oidClasses)
+    '''returns ModelObject[]\n\n
+    toModel()\n
+    toModel(final HashMap oidMap, final Class[] oidClasses)\n
     '''
 def getExportMode():
-    '''public boolean getExportMode()
+    '''returns boolean\n\n
+    getExportMode()\n
     '''
 def setExportMode():
-    '''public void setExportMode(final boolean flag)
+    '''returns None\n\n
+    setExportMode(final boolean flag)\n
     '''
 def getIndent():
-    '''public int getIndent()
+    '''returns int\n\n
+    getIndent()\n
     '''
 def setIndent():
-    '''public void setIndent(final int indent)
+    '''returns None\n\n
+    setIndent(final int indent)\n
     '''
 def setDoDestroy():
-    '''public void setDoDestroy(final boolean destroy)
+    '''returns None\n\n
+    setDoDestroy(final boolean destroy)\n
     '''
 def getAutoFill():
-    '''public OIDExpander getAutoFill()
+    '''returns OIDExpander\n\n
+    getAutoFill()\n
     '''
 def setAutoFill():
-    '''public void setAutoFill(final OIDExpander autofill)
+    '''returns None\n\n
+    setAutoFill(final OIDExpander autofill)\n
     '''
 def getSourceName():
-    '''public String getSourceName()
+    '''returns String\n\n
+    getSourceName()\n
     '''
 def setSourceName():
-    '''public void setSourceName(final String sourceName)
+    '''returns None\n\n
+    setSourceName(final String sourceName)\n
     '''

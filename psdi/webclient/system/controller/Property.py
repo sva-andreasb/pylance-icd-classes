@@ -6,73 +6,95 @@ SYSTEM = "int  64"
 NONCONDITIONAL = "int  128"
 RENDERID = "int  256"
 LABEL_SOURCE_ID = "String  \"id\""
-def Property():
-    '''public Property(final String name)
-    public Property(final String name, final String value)
-    public Property(final Property prop)
+def ():
+    '''returns Property\n\n
+    (final String name)\n
+    (final String name, final String value)\n
+    (final Property prop)\n
     '''
 def setFlag():
-    '''public void setFlag(final long index)
+    '''returns None\n\n
+    setFlag(final long index)\n
     '''
 def setFlags():
-    '''public void setFlags(final long flags)
+    '''returns None\n\n
+    setFlags(final long flags)\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def getValue():
-    '''public String getValue()
-    public String getValue(final List<String> paramValues)
+    '''returns String\n\n
+    getValue()\n
+    getValue(final List<String> paramValues)\n
     '''
 def setDetaultValue():
-    '''public void setDetaultValue(final String val)
+    '''returns None\n\n
+    setDetaultValue(final String val)\n
     '''
 def getDefaultValue():
-    '''public String getDefaultValue()
+    '''returns String\n\n
+    getDefaultValue()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def clearFlags():
-    '''public void clearFlags()
+    '''returns None\n\n
+    clearFlags()\n
     '''
 def clearFlag():
-    '''public void clearFlag(final long index)
+    '''returns None\n\n
+    clearFlag(final long index)\n
     '''
 def getFlag():
-    '''public boolean getFlag(final long index)
+    '''returns boolean\n\n
+    getFlag(final long index)\n
     '''
 def getFlags():
-    '''public long getFlags()
+    '''returns long\n\n
+    getFlags()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def setFlagsFromString():
-    '''public void setFlagsFromString(final String flags)
+    '''returns None\n\n
+    setFlagsFromString(final String flags)\n
     '''
 def setFlagFromString():
-    '''public void setFlagFromString(final String flag)
+    '''returns None\n\n
+    setFlagFromString(final String flag)\n
     '''
 def isParameterized():
-    '''public boolean isParameterized()
+    '''returns boolean\n\n
+    isParameterized()\n
     '''
 def getParameterList():
-    '''public List<String> getParameterList()
+    '''returns List<String>\n\n
+    getParameterList()\n
     '''
 def setRegexPattern():
-    '''public void setRegexPattern(final String regex)
+    '''returns None\n\n
+    setRegexPattern(final String regex)\n
     '''
 def getTranslatable():
-    '''public String getTranslatable(final WebClientSession sc, final String controlId, final String property)
-    public String getTranslatable(final WebClientSession sc, final String controlId, final String property, final String defaultValue)
+    '''returns String\n\n
+    getTranslatable(final WebClientSession sc, final String controlId, final String property)\n
+    getTranslatable(final WebClientSession sc, final String controlId, final String property, final String defaultValue)\n
     '''
 def getString():
-    '''public String getString(final String property)
+    '''returns String\n\n
+    getString(final String property)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

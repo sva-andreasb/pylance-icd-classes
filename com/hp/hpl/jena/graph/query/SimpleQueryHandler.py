@@ -1,27 +1,32 @@
-def SimpleQueryHandler():
-    '''public SimpleQueryHandler(final Graph graph)
+def ():
+    '''returns SimpleQueryHandler\n\n
+    (final Graph graph)\n
     '''
 def patternStage():
-    '''public Stage patternStage(final Mapping map, final ExpressionSet constraints, final Triple[] t)
+    '''returns Stage\n\n
+    patternStage(final Mapping map, final ExpressionSet constraints, final Triple[] t)\n
     '''
 def prepareBindings():
-    '''public BindingQueryPlan prepareBindings(final Query q, final Node[] variables)
+    '''returns BindingQueryPlan\n\n
+    prepareBindings(final Query q, final Node[] variables)\n
     '''
 def prepareTree():
-    '''public TreeQueryPlan prepareTree(final Graph pattern)
+    '''returns TreeQueryPlan\n\n
+    prepareTree(final Graph pattern)\n
     '''
 def objectsFor():
-    '''public ExtendedIterator<Node> objectsFor(final Node s, final Node p)
-    public static ExtendedIterator<Node> objectsFor(final Graph g, final Node s, final Node p)
+    '''returns ExtendedIterator<Node>\n\n
+    objectsFor(final Node s, final Node p)\n
     '''
 def subjectsFor():
-    '''public ExtendedIterator<Node> subjectsFor(final Node p, final Node o)
-    public static ExtendedIterator<Node> subjectsFor(final Graph g, final Node p, final Node o)
+    '''returns ExtendedIterator<Node>\n\n
+    subjectsFor(final Node p, final Node o)\n
     '''
 def predicatesFor():
-    '''public ExtendedIterator<Node> predicatesFor(final Node s, final Node o)
-    public static ExtendedIterator<Node> predicatesFor(final Graph g, final Node s, final Node o)
+    '''returns ExtendedIterator<Node>\n\n
+    predicatesFor(final Node s, final Node o)\n
     '''
 def containsNode():
-    '''public boolean containsNode(final Node n)
+    '''returns boolean\n\n
+    containsNode(final Node n)\n
     '''

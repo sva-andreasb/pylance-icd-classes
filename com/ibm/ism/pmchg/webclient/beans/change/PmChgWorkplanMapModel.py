@@ -1,39 +1,52 @@
-def PmChgWorkplanMapModel():
-    '''public PmChgWorkplanMapModel()
+def ():
+    '''returns PmChgWorkplanMapModel\n\n
+    ()\n
     '''
 def createNode():
-    '''public Object createNode()
+    '''returns Object\n\n
+    createNode()\n
     '''
 def createLink():
-    '''public Object createLink()
+    '''returns Object\n\n
+    createLink()\n
     '''
 def getID():
-    '''public String getID(final Object node)
+    '''returns String\n\n
+    getID(final Object node)\n
     '''
 def setID():
-    '''public void setID(final Object node, final String id)
+    '''returns None\n\n
+    setID(final Object node, final String id)\n
     '''
 def setFrom():
-    '''public void setFrom(final Object link, final Object node)
+    '''returns None\n\n
+    setFrom(final Object link, final Object node)\n
     '''
 def setTo():
-    '''public void setTo(final Object link, final Object node)
+    '''returns None\n\n
+    setTo(final Object link, final Object node)\n
     '''
 def isLink():
-    '''public boolean isLink(final Object obj)
+    '''returns boolean\n\n
+    isLink(final Object obj)\n
     '''
 def getObject():
-    '''public Object getObject(final String id)
+    '''returns Object\n\n
+    getObject(final String id)\n
     '''
 def addObject():
-    '''public void addObject(final Object node, final Object parentNode)
+    '''returns None\n\n
+    addObject(final Object node, final Object parentNode)\n
     '''
 def getObjectProperty():
-    '''public Object getObjectProperty(final Object node, final String name)
+    '''returns Object\n\n
+    getObjectProperty(final Object node, final String name)\n
     '''
 def setObjectProperty():
-    '''public void setObjectProperty(final Object node, final String name, final Object value)
+    '''returns None\n\n
+    setObjectProperty(final Object node, final String name, final Object value)\n
     '''
 def writeXML():
-    '''public void writeXML(final XMLStreamWriter writer)
+    '''returns None\n\n
+    writeXML(final XMLStreamWriter writer)\n
     '''

@@ -33,39 +33,27 @@ CLASSFILE = "int  5"
 MSGFILE = "int  6"
 DB2FILE = "int  7"
 DBCFILE = "int  8"
-def SrmRTEMigrationTool():
-    '''public SrmRTEMigrationTool()
+def ():
+    '''returns SrmRTEMigrationTool\n\n
+    ()\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def getRootDirectory():
-    '''public String getRootDirectory()
+    '''returns String\n\n
+    getRootDirectory()\n
     '''
 def getMaximoRootDirectory():
-    '''public String getMaximoRootDirectory()
-    '''
-def setupLogfile():
-    '''public static void setupLogfile()
-    '''
-def println():
-    '''public static void println(final String line)
-    '''
-def main():
-    '''public static void main(final String[] argv)
+    '''returns String\n\n
+    getMaximoRootDirectory()\n
     '''
 def setup():
-    '''public void setup(final HashMap<String, String> params)
+    '''returns None\n\n
+    setup(final HashMap<String, String> params)\n
     '''
 def getDBType():
-    '''public int getDBType(final Connection con)
-    '''
-def checkSCInstall():
-    '''public static boolean checkSCInstall(final Connection con)
-    '''
-def checkRTEEnabled():
-    '''public static boolean checkRTEEnabled(final Connection con)
-    '''
-def forHTML():
-    '''public static String forHTML(final String aText)
+    '''returns int\n\n
+    getDBType(final Connection con)\n
     '''

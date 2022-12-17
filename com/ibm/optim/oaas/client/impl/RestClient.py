@@ -1,37 +1,43 @@
-def RestClient():
-    '''public RestClient(final CloseableHttpClient client, String url, final String token)
-    public RestClient(final CloseableHttpClient client, String url, final String clientid, final String secret)
+def ():
+    '''returns JsonEntity\n\n
+    (final CloseableHttpClient client, String url, final String token)\n
+    (final CloseableHttpClient client, String url, final String clientid, final String secret)\n
+    (final InputStream in, final CloseableHttpResponse response)\n
+    (final ObjectMapper mapper, final Object obj)\n
     '''
 def getBaseUrl():
-    '''public String getBaseUrl()
+    '''returns String\n\n
+    getBaseUrl()\n
     '''
 def isCompressionEnabled():
-    '''public boolean isCompressionEnabled()
+    '''returns boolean\n\n
+    isCompressionEnabled()\n
     '''
 def setCompression():
-    '''public void setCompression(final boolean compression)
-    '''
-def CloseResponseInputStream():
-    '''public CloseResponseInputStream(final InputStream in, final CloseableHttpResponse response)
+    '''returns None\n\n
+    setCompression(final boolean compression)\n
     '''
 def close():
-    '''public void close()
-    '''
-def JsonEntity():
-    '''public JsonEntity(final ObjectMapper mapper, final Object obj)
+    '''returns None\n\n
+    close()\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def isStreaming():
-    '''public boolean isStreaming()
+    '''returns boolean\n\n
+    isStreaming()\n
     '''
 def getContent():
-    '''public InputStream getContent()
+    '''returns InputStream\n\n
+    getContent()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream outstream)
+    '''returns None\n\n
+    writeTo(final OutputStream outstream)\n
     '''

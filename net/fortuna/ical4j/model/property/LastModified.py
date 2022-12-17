@@ -1,14 +1,14 @@
-def LastModified():
-    '''public LastModified()
-    public LastModified(final String aValue)
-    public LastModified(final ParameterList aList, final String aValue)
-    public LastModified(final DateTime aDate)
-    public LastModified(final ParameterList aList, final DateTime aDate)
-    '''
-def Factory():
-    '''public Factory()
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final String aValue)\n
+    (final ParameterList aList, final String aValue)\n
+    (final DateTime aDate)\n
+    (final ParameterList aList, final DateTime aDate)\n
+    ()\n
     '''
 def createProperty():
-    '''public Property createProperty(final ParameterList parameters, final String value)
-    public Property createProperty()
+    '''returns Property\n\n
+    createProperty(final ParameterList parameters, final String value)\n
+    createProperty()\n
     '''

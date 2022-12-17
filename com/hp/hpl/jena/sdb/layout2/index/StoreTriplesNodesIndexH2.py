@@ -1,3 +1,4 @@
-def StoreTriplesNodesIndexH2():
-    '''public StoreTriplesNodesIndexH2(final SDBConnection connection, final StoreDesc desc)
+def ():
+    '''returns StoreTriplesNodesIndexH2\n\n
+    (final SDBConnection connection, final StoreDesc desc)\n
     '''

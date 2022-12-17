@@ -1,9 +1,12 @@
-def SACommonAssetLoc():
-    '''public SACommonAssetLoc()
+def ():
+    '''returns SACommonAssetLoc\n\n
+    ()\n
     '''
 def saveGISData():
-    '''public void saveGISData(final MboRemote currentMbo, final String address, final String lat, final String lng, final String srvardRelationshipName)
+    '''returns None\n\n
+    saveGISData(final MboRemote currentMbo, final String address, final String lat, final String lng, final String srvardRelationshipName)\n
     '''
 def isGISDataReadonly():
-    '''public boolean isGISDataReadonly(final MboRemote currentMbo)
+    '''returns boolean\n\n
+    isGISDataReadonly(final MboRemote currentMbo)\n
     '''

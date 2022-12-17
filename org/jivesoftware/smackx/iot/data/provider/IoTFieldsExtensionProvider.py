@@ -1,9 +1,12 @@
 def parse():
-    '''public IoTFieldsExtension parse(final XmlPullParser parser, final int initialDepth)
+    '''returns IoTFieldsExtension\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''
 def parseNode():
-    '''public NodeElement parseNode(final XmlPullParser parser)
+    '''returns NodeElement\n\n
+    parseNode(final XmlPullParser parser)\n
     '''
 def parseTimestampElement():
-    '''public TimestampElement parseTimestampElement(final XmlPullParser parser)
+    '''returns TimestampElement\n\n
+    parseTimestampElement(final XmlPullParser parser)\n
     '''

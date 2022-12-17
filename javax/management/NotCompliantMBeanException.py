@@ -1,4 +1,5 @@
-def NotCompliantMBeanException():
-    '''public NotCompliantMBeanException()
-    public NotCompliantMBeanException(final String s)
+def ():
+    '''returns NotCompliantMBeanException\n\n
+    ()\n
+    (final String s)\n
     '''

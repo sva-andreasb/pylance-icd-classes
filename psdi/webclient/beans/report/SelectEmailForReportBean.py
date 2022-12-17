@@ -1,6 +1,8 @@
-def SelectEmailForReportBean():
-    '''public SelectEmailForReportBean()
+def ():
+    '''returns SelectEmailForReportBean\n\n
+    ()\n
     '''
 def copyEmailToReportSet():
-    '''public int copyEmailToReportSet()
+    '''returns int\n\n
+    copyEmailToReportSet()\n
     '''

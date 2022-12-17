@@ -1,12 +1,16 @@
-def ViewSRWorkLogBean():
-    '''public ViewSRWorkLogBean()
+def ():
+    '''returns ViewSRWorkLogBean\n\n
+    ()\n
     '''
 def srpodservicelog():
-    '''public int srpodservicelog()
+    '''returns int\n\n
+    srpodservicelog()\n
     '''
 def selectlog():
-    '''public int selectlog()
+    '''returns int\n\n
+    selectlog()\n
     '''
 def getExtendedToolTip():
-    '''public JSONObject getExtendedToolTip(final JSONObject definition)
+    '''returns JSONObject\n\n
+    getExtendedToolTip(final JSONObject definition)\n
     '''

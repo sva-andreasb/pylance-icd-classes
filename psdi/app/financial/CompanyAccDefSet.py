@@ -1,3 +1,4 @@
-def CompanyAccDefSet():
-    '''public CompanyAccDefSet(final MboServerInterface ms)
+def ():
+    '''returns CompanyAccDefSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,4 +1,5 @@
-def InvalidRecordException():
-    '''public InvalidRecordException(final String s)
-    public InvalidRecordException(final String message, final Throwable cause)
+def ():
+    '''returns InvalidRecordException\n\n
+    (final String s)\n
+    (final String message, final Throwable cause)\n
     '''

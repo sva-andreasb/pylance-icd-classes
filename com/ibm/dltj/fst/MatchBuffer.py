@@ -1,58 +1,69 @@
 def getNumMatches():
-    '''public int getNumMatches()
+    '''returns int\n\n
+    getNumMatches()\n
     '''
 def getMaxIndex():
-    '''public int getMaxIndex()
+    '''returns int\n\n
+    getMaxIndex()\n
     '''
 def setMaxIndex():
-    '''public void setMaxIndex(final int maxIndex)
+    '''returns None\n\n
+    setMaxIndex(final int maxIndex)\n
     '''
-def MatchBuffer():
-    '''public MatchBuffer()
-    public MatchBuffer(final int n)
-    '''
-def grow():
-    '''public final int grow()
-    '''
-def clear():
-    '''public final void clear()
+def ():
+    '''returns MatchBuffer\n\n
+    ()\n
+    (final int n)\n
     '''
 def add():
-    '''public void add(final int maxIndex, final Object o)
+    '''returns None\n\n
+    add(final int maxIndex, final Object o)\n
     '''
 def addReversed():
-    '''public void addReversed(final int maxIndex, final Object o)
+    '''returns None\n\n
+    addReversed(final int maxIndex, final Object o)\n
     '''
 def addMax():
-    '''public boolean addMax(final int maxIndex, final Object o)
+    '''returns boolean\n\n
+    addMax(final int maxIndex, final Object o)\n
     '''
 def addMin():
-    '''public boolean addMin(final int maxIndex, final Object o)
+    '''returns boolean\n\n
+    addMin(final int maxIndex, final Object o)\n
     '''
 def removeRange():
-    '''public void removeRange(final int n, final int n2)
+    '''returns None\n\n
+    removeRange(final int n, final int n2)\n
     '''
 def pushMatch():
-    '''public void pushMatch()
+    '''returns None\n\n
+    pushMatch()\n
     '''
 def prepend():
-    '''public void prepend(final int n, final int n2)
+    '''returns None\n\n
+    prepend(final int n, final int n2)\n
     '''
 def popMatch():
-    '''public void popMatch()
+    '''returns None\n\n
+    popMatch()\n
     '''
 def matchLength():
-    '''public int matchLength()
+    '''returns int\n\n
+    matchLength()\n
     '''
 def getMatchStart():
-    '''public int getMatchStart(final int n)
+    '''returns int\n\n
+    getMatchStart(final int n)\n
     '''
 def getMatchEnd():
-    '''public int getMatchEnd(final int n)
+    '''returns int\n\n
+    getMatchEnd(final int n)\n
     '''
 def removeMatch():
-    '''public void removeMatch(final int n)
+    '''returns None\n\n
+    removeMatch(final int n)\n
     '''
 def verify():
-    '''public void verify()
+    '''returns None\n\n
+    verify()\n
     '''

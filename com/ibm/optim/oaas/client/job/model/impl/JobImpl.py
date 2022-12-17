@@ -1,233 +1,302 @@
 TYPE = "String  \"job\""
-def JobImpl():
-    '''public JobImpl()
+def ():
+    '''returns JobImpl\n\n
+    ()\n
     '''
 def getInitialQueueIndex():
-    '''public Integer getInitialQueueIndex()
+    '''returns Integer\n\n
+    getInitialQueueIndex()\n
     '''
 def setInitialQueueIndex():
-    '''public void setInitialQueueIndex(final Integer initialQueueIndex)
+    '''returns None\n\n
+    setInitialQueueIndex(final Integer initialQueueIndex)\n
     '''
 def getCurrentQueueIndex():
-    '''public Integer getCurrentQueueIndex()
+    '''returns Integer\n\n
+    getCurrentQueueIndex()\n
     '''
 def setCurrentQueueIndex():
-    '''public void setCurrentQueueIndex(final Integer currentQueueIndex)
+    '''returns None\n\n
+    setCurrentQueueIndex(final Integer currentQueueIndex)\n
     '''
 def getMerged():
-    '''public List<String> getMerged()
+    '''returns List<String>\n\n
+    getMerged()\n
     '''
 def addToMerged():
-    '''public void addToMerged(final List<String> tomerge)
+    '''returns None\n\n
+    addToMerged(final List<String> tomerge)\n
     '''
 def getUnmergedConflicts():
-    '''public List<String> getUnmergedConflicts()
+    '''returns List<String>\n\n
+    getUnmergedConflicts()\n
     '''
 def needMerge():
-    '''public boolean needMerge()
+    '''returns boolean\n\n
+    needMerge()\n
     '''
 def getApplicationId():
-    '''public String getApplicationId()
+    '''returns String\n\n
+    getApplicationId()\n
     '''
 def setApplicationId():
-    '''public void setApplicationId(final String applicationId)
+    '''returns None\n\n
+    setApplicationId(final String applicationId)\n
     '''
 def getApplicationVersion():
-    '''public String getApplicationVersion()
+    '''returns String\n\n
+    getApplicationVersion()\n
     '''
 def setApplicationVersion():
-    '''public void setApplicationVersion(final String applicationVersion)
+    '''returns None\n\n
+    setApplicationVersion(final String applicationVersion)\n
     '''
 def getApplicationVersionUsed():
-    '''public String getApplicationVersionUsed()
+    '''returns String\n\n
+    getApplicationVersionUsed()\n
     '''
 def setApplicationVersionUsed():
-    '''public void setApplicationVersionUsed(final String applicationVersionUsed)
+    '''returns None\n\n
+    setApplicationVersionUsed(final String applicationVersionUsed)\n
     '''
 def getExecutionStatus():
-    '''public JobExecutionStatus getExecutionStatus()
+    '''returns JobExecutionStatus\n\n
+    getExecutionStatus()\n
     '''
 def setExecutionStatus():
-    '''public void setExecutionStatus(final JobExecutionStatus status)
+    '''returns None\n\n
+    setExecutionStatus(final JobExecutionStatus status)\n
     '''
 def getCreatedAt():
-    '''public Date getCreatedAt()
+    '''returns Date\n\n
+    getCreatedAt()\n
     '''
 def setCreatedAt():
-    '''public void setCreatedAt(final Date createdAt)
+    '''returns None\n\n
+    setCreatedAt(final Date createdAt)\n
     '''
 def getStartedAt():
-    '''public Date getStartedAt()
+    '''returns Date\n\n
+    getStartedAt()\n
     '''
 def setStartedAt():
-    '''public void setStartedAt(final Date startedAt)
+    '''returns None\n\n
+    setStartedAt(final Date startedAt)\n
     '''
 def getEndedAt():
-    '''public Date getEndedAt()
+    '''returns Date\n\n
+    getEndedAt()\n
     '''
 def setEndedAt():
-    '''public void setEndedAt(final Date endedAt)
+    '''returns None\n\n
+    setEndedAt(final Date endedAt)\n
     '''
 def getEndRecordedAt():
-    '''public Date getEndRecordedAt()
+    '''returns Date\n\n
+    getEndRecordedAt()\n
     '''
 def setEndRecordedAt():
-    '''public void setEndRecordedAt(final Date endRecordedAt)
+    '''returns None\n\n
+    setEndRecordedAt(final Date endRecordedAt)\n
     '''
 def getUpdatedAt():
-    '''public Date getUpdatedAt()
+    '''returns Date\n\n
+    getUpdatedAt()\n
     '''
 def setUpdatedAt():
-    '''public void setUpdatedAt(final Date updatedAt)
+    '''returns None\n\n
+    setUpdatedAt(final Date updatedAt)\n
     '''
 def getParameters():
-    '''public JobParameters getParameters()
+    '''returns JobParameters\n\n
+    getParameters()\n
     '''
 def setParameter():
-    '''public void setParameter(final String name, final String value)
+    '''returns None\n\n
+    setParameter(final String name, final String value)\n
     '''
 def setParameters():
-    '''public void setParameters(final Map<String, String> parameters)
-    public void setParameters(final JobParameters parameters)
+    '''returns None\n\n
+    setParameters(final Map<String, String> parameters)\n
+    setParameters(final JobParameters parameters)\n
     '''
 def getProcessingOwner():
-    '''public String getProcessingOwner()
+    '''returns String\n\n
+    getProcessingOwner()\n
     '''
 def setProcessingOwner():
-    '''public void setProcessingOwner(final String owner)
+    '''returns None\n\n
+    setProcessingOwner(final String owner)\n
     '''
 def getLastProcessingOwner():
-    '''public String getLastProcessingOwner()
+    '''returns String\n\n
+    getLastProcessingOwner()\n
     '''
 def getOwner():
-    '''public String getOwner()
+    '''returns String\n\n
+    getOwner()\n
     '''
 def setOwner():
-    '''public void setOwner(final String owner)
+    '''returns None\n\n
+    setOwner(final String owner)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getAttachments():
-    '''public List<JobAttachment> getAttachments()
+    '''returns List<JobAttachment>\n\n
+    getAttachments()\n
     '''
 def getImplAttachments():
-    '''public List<JobAttachmentImpl> getImplAttachments()
+    '''returns List<JobAttachmentImpl>\n\n
+    getImplAttachments()\n
     '''
 def setAttachments():
-    '''public void setAttachments(final List<JobAttachmentImpl> attachments)
+    '''returns None\n\n
+    setAttachments(final List<JobAttachmentImpl> attachments)\n
     '''
 def getAttachment():
-    '''public JobAttachmentImpl getAttachment(final String name)
+    '''returns JobAttachmentImpl\n\n
+    getAttachment(final String name)\n
     '''
 def getFailureInfo():
-    '''public JobFailureInfoImpl getFailureInfo()
+    '''returns JobFailureInfoImpl\n\n
+    getFailureInfo()\n
     '''
 def setFailureInfo():
-    '''public void setFailureInfo(final JobFailureInfoImpl failure)
+    '''returns None\n\n
+    setFailureInfo(final JobFailureInfoImpl failure)\n
     '''
 def getLanguage():
-    '''public String getLanguage()
+    '''returns String\n\n
+    getLanguage()\n
     '''
 def setLanguage():
-    '''public void setLanguage(final String language)
-    '''
-def getDetails():
-    '''public Map<String, String> getDetails()
+    '''returns None\n\n
+    setLanguage(final String language)\n
     '''
 def setSystemDetails():
-    '''public void setSystemDetails(final Map<String, String> details)
-    '''
-def getSystemDetails():
-    '''public Map<String, String> getSystemDetails()
+    '''returns None\n\n
+    setSystemDetails(final Map<String, String> details)\n
     '''
 def setDetails():
-    '''public void setDetails(final Map<String, String> details)
+    '''returns None\n\n
+    setDetails(final Map<String, String> details)\n
     '''
 def getSolveStatus():
-    '''public JobSolveStatus getSolveStatus()
+    '''returns JobSolveStatus\n\n
+    getSolveStatus()\n
     '''
 def setSolveStatus():
-    '''public void setSolveStatus(final JobSolveStatus solveStatus)
+    '''returns None\n\n
+    setSolveStatus(final JobSolveStatus solveStatus)\n
     '''
 def getInterruptionStatus():
-    '''public JobInterruptionStatus getInterruptionStatus()
+    '''returns JobInterruptionStatus\n\n
+    getInterruptionStatus()\n
     '''
 def setInterruptionStatus():
-    '''public void setInterruptionStatus(final JobInterruptionStatus interruptionStatus)
+    '''returns None\n\n
+    setInterruptionStatus(final JobInterruptionStatus interruptionStatus)\n
     '''
 def getInterruptedAt():
-    '''public Date getInterruptedAt()
+    '''returns Date\n\n
+    getInterruptedAt()\n
     '''
 def setInterruptedAt():
-    '''public void setInterruptedAt(final Date interruptedAt)
+    '''returns None\n\n
+    setInterruptedAt(final Date interruptedAt)\n
     '''
 def getSubmittedAt():
-    '''public Date getSubmittedAt()
+    '''returns Date\n\n
+    getSubmittedAt()\n
     '''
 def setSubmittedAt():
-    '''public void setSubmittedAt(final Date submittedAt)
+    '''returns None\n\n
+    setSubmittedAt(final Date submittedAt)\n
     '''
 def getSubmittedToProcessorAt():
-    '''public Date getSubmittedToProcessorAt()
+    '''returns Date\n\n
+    getSubmittedToProcessorAt()\n
     '''
 def setSubmittedToProcessorAt():
-    '''public void setSubmittedToProcessorAt(final Date submittedToProcessorAt)
+    '''returns None\n\n
+    setSubmittedToProcessorAt(final Date submittedToProcessorAt)\n
     '''
 def getNbLogItems():
-    '''public Long getNbLogItems()
+    '''returns Long\n\n
+    getNbLogItems()\n
     '''
 def setNbLogItems():
-    '''public void setNbLogItems(final Long nbLogItems)
+    '''returns None\n\n
+    setNbLogItems(final Long nbLogItems)\n
     '''
 def getSubscription():
-    '''public JobSubscriptionImpl getSubscription()
+    '''returns JobSubscriptionImpl\n\n
+    getSubscription()\n
     '''
 def setSubscription():
-    '''public void setSubscription(final JobSubscriptionImpl subscription)
+    '''returns None\n\n
+    setSubscription(final JobSubscriptionImpl subscription)\n
     '''
 def getToken():
-    '''public String getToken()
+    '''returns String\n\n
+    getToken()\n
     '''
 def setToken():
-    '''public void setToken(final String token)
+    '''returns None\n\n
+    setToken(final String token)\n
     '''
 def getSubscriptionId():
-    '''public String getSubscriptionId()
+    '''returns String\n\n
+    getSubscriptionId()\n
     '''
 def getApiClient():
-    '''public JobApiClientImpl getApiClient()
+    '''returns JobApiClientImpl\n\n
+    getApiClient()\n
     '''
 def setApiClient():
-    '''public void setApiClient(final JobApiClientImpl apiClient)
+    '''returns None\n\n
+    setApiClient(final JobApiClientImpl apiClient)\n
     '''
 def getSubscriber():
-    '''public JobSubscriberImpl getSubscriber()
+    '''returns JobSubscriberImpl\n\n
+    getSubscriber()\n
     '''
 def setSubscriber():
-    '''public void setSubscriber(final JobSubscriberImpl subscriber)
+    '''returns None\n\n
+    setSubscriber(final JobSubscriberImpl subscriber)\n
     '''
 def getStorageVersion():
-    '''public int getStorageVersion()
+    '''returns int\n\n
+    getStorageVersion()\n
     '''
 def setStorageVersion():
-    '''public void setStorageVersion(final int storageVersion)
+    '''returns None\n\n
+    setStorageVersion(final int storageVersion)\n
     '''
 def getLastDetails():
-    '''public JobDetailsImpl getLastDetails()
+    '''returns JobDetailsImpl\n\n
+    getLastDetails()\n
     '''
 def setLastDetails():
-    '''public void setLastDetails(final JobDetailsImpl lastDetails)
+    '''returns None\n\n
+    setLastDetails(final JobDetailsImpl lastDetails)\n
     '''
 def getETag():
-    '''public String getETag()
+    '''returns String\n\n
+    getETag()\n
     '''
 def isIgnoreJobCount():
-    '''public boolean isIgnoreJobCount()
+    '''returns boolean\n\n
+    isIgnoreJobCount()\n
     '''
 def setIgnoreJobCount():
-    '''public void setIgnoreJobCount(final boolean ignoreJobCount)
+    '''returns None\n\n
+    setIgnoreJobCount(final boolean ignoreJobCount)\n
     '''
 def getEmailForNotification():
-    '''public String getEmailForNotification()
+    '''returns String\n\n
+    getEmailForNotification()\n
     '''

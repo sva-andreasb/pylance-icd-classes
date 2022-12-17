@@ -1,23 +1,25 @@
-def BasicFuture():
-    '''public BasicFuture(final FutureCallback<T> callback)
+def ():
+    '''returns BasicFuture\n\n
+    (final FutureCallback<T> callback)\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''
 def isDone():
-    '''public boolean isDone()
-    '''
-def get():
-    '''public synchronized T get()
-    public synchronized T get(final long timeout, final TimeUnit unit)
+    '''returns boolean\n\n
+    isDone()\n
     '''
 def completed():
-    '''public boolean completed(final T result)
+    '''returns boolean\n\n
+    completed(final T result)\n
     '''
 def failed():
-    '''public boolean failed(final Exception exception)
+    '''returns boolean\n\n
+    failed(final Exception exception)\n
     '''
 def cancel():
-    '''public boolean cancel(final boolean mayInterruptIfRunning)
-    public boolean cancel()
+    '''returns boolean\n\n
+    cancel(final boolean mayInterruptIfRunning)\n
+    cancel()\n
     '''

@@ -1,4 +1,5 @@
-def InvalidSessionTimeoutException():
-    '''public InvalidSessionTimeoutException(final String message, final Throwable cause)
-    public InvalidSessionTimeoutException(final String message)
+def ():
+    '''returns InvalidSessionTimeoutException\n\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
     '''

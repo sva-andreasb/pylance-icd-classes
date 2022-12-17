@@ -1,9 +1,12 @@
-def JobJsonInputImpl():
-    '''public JobJsonInputImpl(final String name, final ObjectMapper mapper, final Object obj)
+def ():
+    '''returns JobJsonInputImpl\n\n
+    (final String name, final ObjectMapper mapper, final Object obj)\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def upload():
-    '''public void upload(final JobClient client, final String jobid)
+    '''returns None\n\n
+    upload(final JobClient client, final String jobid)\n
     '''

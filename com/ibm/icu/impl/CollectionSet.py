@@ -1,40 +1,52 @@
-def CollectionSet():
-    '''public CollectionSet(final Collection<E> data)
+def ():
+    '''returns CollectionSet\n\n
+    (final Collection<E> data)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final Object o)\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public <T> T[] toArray(final T[] a)
+    '''returns Object[]\n\n
+    toArray()\n
     '''
 def add():
-    '''public boolean add(final E e)
+    '''returns boolean\n\n
+    add(final E e)\n
     '''
 def remove():
-    '''public boolean remove(final Object o)
+    '''returns boolean\n\n
+    remove(final Object o)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> c)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> c)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> c)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> c)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> c)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> c)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> c)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> c)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

@@ -1,15 +1,20 @@
-def EnterByCrewBean():
-    '''public EnterByCrewBean()
+def ():
+    '''returns EnterByCrewBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def refreshCrew():
-    '''public int refreshCrew()
+    '''returns int\n\n
+    refreshCrew()\n
     '''
 def selectCrew():
-    '''public int selectCrew()
+    '''returns int\n\n
+    selectCrew()\n
     '''
 def selectWorkDate():
-    '''public int selectWorkDate()
+    '''returns int\n\n
+    selectWorkDate()\n
     '''

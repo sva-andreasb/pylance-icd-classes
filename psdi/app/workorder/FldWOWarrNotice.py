@@ -1,6 +1,8 @@
-def FldWOWarrNotice():
-    '''public FldWOWarrNotice(final MboValue mbv)
+def ():
+    '''returns FldWOWarrNotice\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

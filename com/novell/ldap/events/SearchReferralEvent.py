@@ -1,6 +1,4 @@
-def SearchReferralEvent():
-    '''public SearchReferralEvent(final PsearchEventSource psearchEventSource, final LDAPSearchResultReference ldapSearchResultReference)
-    '''
-def getUrls():
-    '''public final String[] getUrls()
+def ():
+    '''returns SearchReferralEvent\n\n
+    (final PsearchEventSource psearchEventSource, final LDAPSearchResultReference ldapSearchResultReference)\n
     '''

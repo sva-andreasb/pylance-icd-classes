@@ -1,10 +1,9 @@
 copyright = "String  \\"\""
-def ActionBarContributor():
-    '''public ActionBarContributor()
-    '''
-def create():
-    '''public static synchronized ActionBarContributor create(final String lineSeparator)
+def ():
+    '''returns ActionBarContributor\n\n
+    ()\n
     '''
 def generate():
-    '''public String generate(final Object argument)
+    '''returns String\n\n
+    generate(final Object argument)\n
     '''

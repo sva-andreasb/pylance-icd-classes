@@ -1,3 +1,4 @@
-def TimeDeserializerFactory():
-    '''public TimeDeserializerFactory(final Class javaType, final QName xmlType)
+def ():
+    '''returns TimeDeserializerFactory\n\n
+    (final Class javaType, final QName xmlType)\n
     '''

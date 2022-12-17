@@ -1,3 +1,4 @@
-def ReportDesignSet():
-    '''public ReportDesignSet(final MboServerInterface ms)
+def ():
+    '''returns ReportDesignSet\n\n
+    (final MboServerInterface ms)\n
     '''

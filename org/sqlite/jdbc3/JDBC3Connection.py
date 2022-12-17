@@ -1,59 +1,76 @@
 def getCatalog():
-    '''public String getCatalog()
+    '''returns String\n\n
+    getCatalog()\n
     '''
 def setCatalog():
-    '''public void setCatalog(final String catalog)
+    '''returns None\n\n
+    setCatalog(final String catalog)\n
     '''
 def getHoldability():
-    '''public int getHoldability()
+    '''returns int\n\n
+    getHoldability()\n
     '''
 def setHoldability():
-    '''public void setHoldability(final int h)
+    '''returns None\n\n
+    setHoldability(final int h)\n
     '''
 def setTypeMap():
-    '''public void setTypeMap(final Map map)
+    '''returns None\n\n
+    setTypeMap(final Map map)\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly()
+    '''returns boolean\n\n
+    isReadOnly()\n
     '''
 def setReadOnly():
-    '''public void setReadOnly(final boolean ro)
+    '''returns None\n\n
+    setReadOnly(final boolean ro)\n
     '''
 def nativeSQL():
-    '''public String nativeSQL(final String sql)
+    '''returns String\n\n
+    nativeSQL(final String sql)\n
     '''
 def clearWarnings():
-    '''public void clearWarnings()
+    '''returns None\n\n
+    clearWarnings()\n
     '''
 def getWarnings():
-    '''public SQLWarning getWarnings()
+    '''returns SQLWarning\n\n
+    getWarnings()\n
     '''
 def createStatement():
-    '''public Statement createStatement()
-    public Statement createStatement(final int rsType, final int rsConcurr)
+    '''returns Statement\n\n
+    createStatement()\n
+    createStatement(final int rsType, final int rsConcurr)\n
     '''
 def prepareCall():
-    '''public CallableStatement prepareCall(final String sql)
-    public CallableStatement prepareCall(final String sql, final int rst, final int rsc)
-    public CallableStatement prepareCall(final String sql, final int rst, final int rsc, final int rsh)
+    '''returns CallableStatement\n\n
+    prepareCall(final String sql)\n
+    prepareCall(final String sql, final int rst, final int rsc)\n
+    prepareCall(final String sql, final int rst, final int rsc, final int rsh)\n
     '''
 def prepareStatement():
-    '''public PreparedStatement prepareStatement(final String sql)
-    public PreparedStatement prepareStatement(final String sql, final int autoC)
-    public PreparedStatement prepareStatement(final String sql, final int[] colInds)
-    public PreparedStatement prepareStatement(final String sql, final String[] colNames)
-    public PreparedStatement prepareStatement(final String sql, final int rst, final int rsc)
+    '''returns PreparedStatement\n\n
+    prepareStatement(final String sql)\n
+    prepareStatement(final String sql, final int autoC)\n
+    prepareStatement(final String sql, final int[] colInds)\n
+    prepareStatement(final String sql, final String[] colNames)\n
+    prepareStatement(final String sql, final int rst, final int rsc)\n
     '''
 def setSavepoint():
-    '''public Savepoint setSavepoint()
-    public Savepoint setSavepoint(final String name)
+    '''returns Savepoint\n\n
+    setSavepoint()\n
+    setSavepoint(final String name)\n
     '''
 def releaseSavepoint():
-    '''public void releaseSavepoint(final Savepoint savepoint)
+    '''returns None\n\n
+    releaseSavepoint(final Savepoint savepoint)\n
     '''
 def rollback():
-    '''public void rollback(final Savepoint savepoint)
+    '''returns None\n\n
+    rollback(final Savepoint savepoint)\n
     '''
 def createStruct():
-    '''public Struct createStruct(final String t, final Object[] attr)
+    '''returns Struct\n\n
+    createStruct(final String t, final Object[] attr)\n
     '''

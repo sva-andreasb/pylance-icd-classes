@@ -1,3 +1,4 @@
-def PlusPCreateCustomerBillSet():
-    '''public PlusPCreateCustomerBillSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPCreateCustomerBillSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,22 +1,29 @@
-def EnumMapDeserializer():
-    '''public EnumMapDeserializer(final JavaType mapType, final ValueInstantiator valueInst, final KeyDeserializer keyDeser, final JsonDeserializer<?> valueDeser, final TypeDeserializer vtd, final NullValueProvider nuller)
-    public EnumMapDeserializer(final JavaType mapType, final KeyDeserializer keyDeser, final JsonDeserializer<?> valueDeser, final TypeDeserializer vtd)
+def ():
+    '''returns EnumMapDeserializer\n\n
+    (final JavaType mapType, final ValueInstantiator valueInst, final KeyDeserializer keyDeser, final JsonDeserializer<?> valueDeser, final TypeDeserializer vtd, final NullValueProvider nuller)\n
+    (final JavaType mapType, final KeyDeserializer keyDeser, final JsonDeserializer<?> valueDeser, final TypeDeserializer vtd)\n
     '''
 def withResolved():
-    '''public EnumMapDeserializer withResolved(final KeyDeserializer keyDeserializer, final JsonDeserializer<?> valueDeserializer, final TypeDeserializer valueTypeDeser, final NullValueProvider nuller)
+    '''returns EnumMapDeserializer\n\n
+    withResolved(final KeyDeserializer keyDeserializer, final JsonDeserializer<?> valueDeserializer, final TypeDeserializer valueTypeDeser, final NullValueProvider nuller)\n
     '''
 def resolve():
-    '''public void resolve(final DeserializationContext ctxt)
+    '''returns None\n\n
+    resolve(final DeserializationContext ctxt)\n
     '''
 def isCachable():
-    '''public boolean isCachable()
+    '''returns boolean\n\n
+    isCachable()\n
     '''
 def getContentDeserializer():
-    '''public JsonDeserializer<Object> getContentDeserializer()
+    '''returns JsonDeserializer<Object>\n\n
+    getContentDeserializer()\n
     '''
 def getEmptyValue():
-    '''public Object getEmptyValue(final DeserializationContext ctxt)
+    '''returns Object\n\n
+    getEmptyValue(final DeserializationContext ctxt)\n
     '''
 def deserializeWithType():
-    '''public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
+    '''returns Object\n\n
+    deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)\n
     '''

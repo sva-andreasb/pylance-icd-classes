@@ -1,3 +1,4 @@
-def ReportSchedule():
-    '''public ReportSchedule(final MboSet ms)
+def ():
+    '''returns ReportSchedule\n\n
+    (final MboSet ms)\n
     '''

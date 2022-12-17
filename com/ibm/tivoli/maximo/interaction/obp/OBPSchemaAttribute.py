@@ -1,42 +1,56 @@
-def OBPSchemaAttribute():
-    '''public OBPSchemaAttribute(final SchemaLocalAttribute attr)
+def ():
+    '''returns OBPSchemaAttribute\n\n
+    (final SchemaLocalAttribute attr)\n
     '''
 def getDefaultText():
-    '''public String getDefaultText()
+    '''returns String\n\n
+    getDefaultText()\n
     '''
 def getMaxOccurs():
-    '''public BigInteger getMaxOccurs()
+    '''returns BigInteger\n\n
+    getMaxOccurs()\n
     '''
 def getMinOccurs():
-    '''public BigInteger getMinOccurs()
+    '''returns BigInteger\n\n
+    getMinOccurs()\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getType():
-    '''public SchemaType getType()
+    '''returns SchemaType\n\n
+    getType()\n
     '''
 def isAttribute():
-    '''public boolean isAttribute()
+    '''returns boolean\n\n
+    isAttribute()\n
     '''
 def isDefault():
-    '''public boolean isDefault()
+    '''returns boolean\n\n
+    isDefault()\n
     '''
 def isFixed():
-    '''public boolean isFixed()
+    '''returns boolean\n\n
+    isFixed()\n
     '''
 def isRoot():
-    '''public boolean isRoot()
+    '''returns boolean\n\n
+    isRoot()\n
     '''
 def getUse():
-    '''public int getUse()
+    '''returns int\n\n
+    getUse()\n
     '''
 def setXmlRequired():
-    '''public void setXmlRequired(final boolean xmlRequired)
+    '''returns None\n\n
+    setXmlRequired(final boolean xmlRequired)\n
     '''
 def isXmlRequired():
-    '''public boolean isXmlRequired()
+    '''returns boolean\n\n
+    isXmlRequired()\n
     '''
 def isNillable():
-    '''public boolean isNillable()
+    '''returns boolean\n\n
+    isNillable()\n
     '''

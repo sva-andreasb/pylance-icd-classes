@@ -1,6 +1,8 @@
-def PlusCATSparePartSet():
-    '''public PlusCATSparePartSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCATSparePartSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setSpareParts():
-    '''public void setSpareParts(final MboSetRemote ms)
+    '''returns None\n\n
+    setSpareParts(final MboSetRemote ms)\n
     '''

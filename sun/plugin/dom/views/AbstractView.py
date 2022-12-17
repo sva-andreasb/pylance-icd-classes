@@ -1,6 +1,8 @@
-def AbstractView():
-    '''public AbstractView(final DocumentView view)
+def ():
+    '''returns AbstractView\n\n
+    (final DocumentView view)\n
     '''
 def getDocument():
-    '''public DocumentView getDocument()
+    '''returns DocumentView\n\n
+    getDocument()\n
     '''

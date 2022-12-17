@@ -1,57 +1,76 @@
-def MaximoRegistry():
-    '''public MaximoRegistry()
+def ():
+    '''returns MaximoRegistry\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize(final Properties props)
+    '''returns None\n\n
+    initialize(final Properties props)\n
     '''
 def checkPassword():
-    '''public String checkPassword(String userSecurityName, final String passwd)
+    '''returns String\n\n
+    checkPassword(String userSecurityName, final String passwd)\n
     '''
 def mapCertificate():
-    '''public String mapCertificate(final X509Certificate[] cert)
+    '''returns String\n\n
+    mapCertificate(final X509Certificate[] cert)\n
     '''
 def getRealm():
-    '''public String getRealm()
+    '''returns String\n\n
+    getRealm()\n
     '''
 def getUsers():
-    '''public Result getUsers(final String pattern, final int limit)
+    '''returns Result\n\n
+    getUsers(final String pattern, final int limit)\n
     '''
 def getUserDisplayName():
-    '''public String getUserDisplayName(final String userSecurityName)
+    '''returns String\n\n
+    getUserDisplayName(final String userSecurityName)\n
     '''
 def getUniqueUserId():
-    '''public String getUniqueUserId(final String userSecurityName)
+    '''returns String\n\n
+    getUniqueUserId(final String userSecurityName)\n
     '''
 def getUserSecurityName():
-    '''public String getUserSecurityName(final String uniqueUserId)
+    '''returns String\n\n
+    getUserSecurityName(final String uniqueUserId)\n
     '''
 def isValidUser():
-    '''public boolean isValidUser(final String userSecurityName)
+    '''returns boolean\n\n
+    isValidUser(final String userSecurityName)\n
     '''
 def getGroups():
-    '''public Result getGroups(final String pattern, final int limit)
+    '''returns Result\n\n
+    getGroups(final String pattern, final int limit)\n
     '''
 def getGroupDisplayName():
-    '''public String getGroupDisplayName(final String groupSecurityName)
+    '''returns String\n\n
+    getGroupDisplayName(final String groupSecurityName)\n
     '''
 def getUniqueGroupId():
-    '''public String getUniqueGroupId(final String groupSecurityName)
+    '''returns String\n\n
+    getUniqueGroupId(final String groupSecurityName)\n
     '''
 def getUniqueGroupIds():
-    '''public List getUniqueGroupIds(final String uniqueUserId)
+    '''returns List\n\n
+    getUniqueGroupIds(final String uniqueUserId)\n
     '''
 def getGroupSecurityName():
-    '''public String getGroupSecurityName(final String uniqueGroupId)
+    '''returns String\n\n
+    getGroupSecurityName(final String uniqueGroupId)\n
     '''
 def isValidGroup():
-    '''public boolean isValidGroup(final String groupSecurityName)
+    '''returns boolean\n\n
+    isValidGroup(final String groupSecurityName)\n
     '''
 def getGroupsForUser():
-    '''public List getGroupsForUser(final String userSecurityName)
+    '''returns List\n\n
+    getGroupsForUser(final String userSecurityName)\n
     '''
 def getUsersForGroup():
-    '''public Result getUsersForGroup(final String groupSecurityName, final int limit)
+    '''returns Result\n\n
+    getUsersForGroup(final String groupSecurityName, final int limit)\n
     '''
 def createCredential():
-    '''public WSCredential createCredential(final String userSecurityName)
+    '''returns WSCredential\n\n
+    createCredential(final String userSecurityName)\n
     '''

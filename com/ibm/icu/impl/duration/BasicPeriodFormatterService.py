@@ -1,18 +1,20 @@
-def getInstance():
-    '''public static BasicPeriodFormatterService getInstance()
-    '''
-def BasicPeriodFormatterService():
-    '''public BasicPeriodFormatterService(final PeriodFormatterDataService ds)
+def ():
+    '''returns BasicPeriodFormatterService\n\n
+    (final PeriodFormatterDataService ds)\n
     '''
 def newDurationFormatterFactory():
-    '''public DurationFormatterFactory newDurationFormatterFactory()
+    '''returns DurationFormatterFactory\n\n
+    newDurationFormatterFactory()\n
     '''
 def newPeriodFormatterFactory():
-    '''public PeriodFormatterFactory newPeriodFormatterFactory()
+    '''returns PeriodFormatterFactory\n\n
+    newPeriodFormatterFactory()\n
     '''
 def newPeriodBuilderFactory():
-    '''public PeriodBuilderFactory newPeriodBuilderFactory()
+    '''returns PeriodBuilderFactory\n\n
+    newPeriodBuilderFactory()\n
     '''
 def getAvailableLocaleNames():
-    '''public Collection<String> getAvailableLocaleNames()
+    '''returns Collection<String>\n\n
+    getAvailableLocaleNames()\n
     '''

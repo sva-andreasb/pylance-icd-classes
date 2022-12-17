@@ -1,18 +1,24 @@
-def AxisContentHandler():
-    '''public AxisContentHandler(final SerializationContext context)
+def ():
+    '''returns AxisContentHandler\n\n
+    (final SerializationContext context)\n
     '''
 def getContext():
-    '''public SerializationContext getContext()
+    '''returns SerializationContext\n\n
+    getContext()\n
     '''
 def setContext():
-    '''public void setContext(final SerializationContext context)
+    '''returns None\n\n
+    setContext(final SerializationContext context)\n
     '''
 def startElement():
-    '''public void startElement(final String uri, final String localName, final String qName, final Attributes attributes)
+    '''returns None\n\n
+    startElement(final String uri, final String localName, final String qName, final Attributes attributes)\n
     '''
 def endElement():
-    '''public void endElement(final String uri, final String localName, final String qName)
+    '''returns None\n\n
+    endElement(final String uri, final String localName, final String qName)\n
     '''
 def characters():
-    '''public void characters(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    characters(final char[] ch, final int start, final int length)\n
     '''

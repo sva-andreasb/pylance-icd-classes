@@ -1,3 +1,4 @@
-def RecordSLASet():
-    '''public RecordSLASet(final MboServerInterface ms)
+def ():
+    '''returns RecordSLASet\n\n
+    (final MboServerInterface ms)\n
     '''

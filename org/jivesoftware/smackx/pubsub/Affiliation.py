@@ -1,40 +1,48 @@
 ELEMENT = "String  \"affiliation\""
-def Affiliation():
-    '''public Affiliation(final String node, final Type affiliation)
-    public Affiliation(final String node, final Type affiliation, final AffiliationNamespace namespace)
-    public Affiliation(final BareJid jid, final Type affiliation)
-    public Affiliation(final BareJid jid, final Type affiliation, final AffiliationNamespace namespace)
+def ():
+    '''returns Affiliation\n\n
+    (final String node, final Type affiliation)\n
+    (final String node, final Type affiliation, final AffiliationNamespace namespace)\n
+    (final BareJid jid, final Type affiliation)\n
+    (final BareJid jid, final Type affiliation, final AffiliationNamespace namespace)\n
     '''
 def getNodeId():
-    '''public String getNodeId()
+    '''returns String\n\n
+    getNodeId()\n
     '''
 def getNode():
-    '''public String getNode()
+    '''returns String\n\n
+    getNode()\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def getAffiliation():
-    '''public Type getAffiliation()
+    '''returns Type\n\n
+    getAffiliation()\n
     '''
 def getJid():
-    '''public BareJid getJid()
+    '''returns BareJid\n\n
+    getJid()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def getPubSubNamespace():
-    '''public PubSubNamespace getPubSubNamespace()
+    '''returns PubSubNamespace\n\n
+    getPubSubNamespace()\n
     '''
 def isAffiliationModification():
-    '''public boolean isAffiliationModification()
+    '''returns boolean\n\n
+    isAffiliationModification()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    '''
-def fromXmlns():
-    '''public static AffiliationNamespace fromXmlns(final String xmlns)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

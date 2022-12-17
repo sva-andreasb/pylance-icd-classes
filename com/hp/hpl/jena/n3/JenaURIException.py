@@ -1,4 +1,5 @@
-def JenaURIException():
-    '''public JenaURIException(final Exception e)
-    public JenaURIException(final String msg)
+def ():
+    '''returns JenaURIException\n\n
+    (final Exception e)\n
+    (final String msg)\n
     '''

@@ -1,133 +1,168 @@
-def IlvDashboardPropertyPanel():
-    '''public IlvDashboardPropertyPanel(final IlvDashboardEditor ilvDashboardEditor)
+def ():
+    '''returns UrlSelector\n\n
+    (final IlvDashboardEditor ilvDashboardEditor)\n
+    (final Frame frame, final PropertyEditor a, final String s, final ResourceBundle resourceBundle)\n
     '''
 def setDiagram():
-    '''public void setDiagram(final IlvDashboardDiagram diagram)
+    '''returns None\n\n
+    setDiagram(final IlvDashboardDiagram diagram)\n
     '''
 def getTarget():
-    '''public Object getTarget()
+    '''returns Object\n\n
+    getTarget()\n
     '''
 def inspectSelection():
-    '''public void inspectSelection()
+    '''returns None\n\n
+    inspectSelection()\n
     '''
 def setEnabled():
-    '''public void setEnabled(final boolean enabled)
-    public void setEnabled(final boolean b)
+    '''returns None\n\n
+    setEnabled(final boolean enabled)\n
+    setEnabled(final boolean b)\n
     '''
 def getParameterTable():
-    '''public JTable getParameterTable()
+    '''returns JTable\n\n
+    getParameterTable()\n
     '''
 def getPropertyTable():
-    '''public JTable getPropertyTable()
+    '''returns JTable\n\n
+    getPropertyTable()\n
     '''
 def propertyChanged():
-    '''public void propertyChanged(final SDMPropertyChangeEvent sdmPropertyChangeEvent)
+    '''returns None\n\n
+    propertyChanged(final SDMPropertyChangeEvent sdmPropertyChangeEvent)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    '''
-def UrlSelector():
-    '''public UrlSelector(final Frame frame, final PropertyEditor a, final String s, final ResourceBundle resourceBundle)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def redo():
-    '''public void redo()
+    '''returns None\n\n
+    redo()\n
     '''
 def undo():
-    '''public void undo()
+    '''returns None\n\n
+    undo()\n
     '''
 def getColumnCount():
-    '''public int getColumnCount()
+    '''returns int\n\n
+    getColumnCount()\n
     '''
 def getRowCount():
-    '''public int getRowCount()
+    '''returns int\n\n
+    getRowCount()\n
     '''
 def getValueAt():
-    '''public Object getValueAt(final int n, final int n2)
+    '''returns Object\n\n
+    getValueAt(final int n, final int n2)\n
     '''
 def setValueAt():
-    '''public void setValueAt(Object a, final int n, final int n2)
+    '''returns None\n\n
+    setValueAt(Object a, final int n, final int n2)\n
     '''
 def isCellEditable():
-    '''public boolean isCellEditable(final int n, final int n2)
+    '''returns boolean\n\n
+    isCellEditable(final int n, final int n2)\n
     '''
 def getColumnName():
-    '''public String getColumnName(final int n)
+    '''returns String\n\n
+    getColumnName(final int n)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hierarchyChanged():
-    '''public void hierarchyChanged(final HierarchyEvent hierarchyEvent)
+    '''returns None\n\n
+    hierarchyChanged(final HierarchyEvent hierarchyEvent)\n
     '''
 def getCellRenderer():
-    '''public TableCellRenderer getCellRenderer(final int row, final int column)
+    '''returns TableCellRenderer\n\n
+    getCellRenderer(final int row, final int column)\n
     '''
 def getCellEditor():
-    '''public TableCellEditor getCellEditor(final int n, final int n2)
+    '''returns TableCellEditor\n\n
+    getCellEditor(final int n, final int n2)\n
     '''
 def editCellAt():
-    '''public boolean editCellAt(final int row, final int column, final EventObject e)
+    '''returns boolean\n\n
+    editCellAt(final int row, final int column, final EventObject e)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final MouseEvent event)
+    '''returns String\n\n
+    getToolTipText(final MouseEvent event)\n
     '''
 def tableChanged():
-    '''public void tableChanged(final TableModelEvent e)
+    '''returns None\n\n
+    tableChanged(final TableModelEvent e)\n
     '''
 def getBlinkingOnPeriod():
-    '''public long getBlinkingOnPeriod()
+    '''returns long\n\n
+    getBlinkingOnPeriod()\n
     '''
 def getBlinkingOffPeriod():
-    '''public long getBlinkingOffPeriod()
+    '''returns long\n\n
+    getBlinkingOffPeriod()\n
     '''
 def blinkingStateOn():
-    '''public void blinkingStateOn(final boolean b)
+    '''returns None\n\n
+    blinkingStateOn(final boolean b)\n
     '''
 def reDraw():
-    '''public void reDraw()
+    '''returns None\n\n
+    reDraw()\n
     '''
 def getBlinkingObjectOwner():
-    '''public IlvBlinkingObjectOwner getBlinkingObjectOwner()
+    '''returns IlvBlinkingObjectOwner\n\n
+    getBlinkingObjectOwner()\n
     '''
 def paint():
-    '''public void paint(final Graphics g)
+    '''returns None\n\n
+    paint(final Graphics g)\n
     '''
 def getElementAt():
-    '''public Object getElementAt(final int n)
+    '''returns Object\n\n
+    getElementAt(final int n)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def getSelectedItem():
-    '''public Object getSelectedItem()
+    '''returns Object\n\n
+    getSelectedItem()\n
     '''
 def setSelectedItem():
-    '''public void setSelectedItem(final Object b)
+    '''returns None\n\n
+    setSelectedItem(final Object b)\n
     '''
 def getCellEditorValue():
-    '''public Object getCellEditorValue()
+    '''returns Object\n\n
+    getCellEditorValue()\n
     '''
 def getTableCellEditorComponent():
-    '''public Component getTableCellEditorComponent(final JTable table, final Object o, final boolean b, final int b2, final int n)
+    '''returns Component\n\n
+    getTableCellEditorComponent(final JTable table, final Object o, final boolean b, final int b2, final int n)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def parameterChanged():
-    '''public void parameterChanged(final IlvDashboardSymbolParameterEvent ilvDashboardSymbolParameterEvent)
-    '''
-def apply():
-    '''public final void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''returns None\n\n
+    parameterChanged(final IlvDashboardSymbolParameterEvent ilvDashboardSymbolParameterEvent)\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final ManagerSelectionChangedEvent managerSelectionChangedEvent)
+    '''returns None\n\n
+    selectionChanged(final ManagerSelectionChangedEvent managerSelectionChangedEvent)\n
     '''

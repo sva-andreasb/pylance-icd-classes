@@ -1,4 +1,5 @@
-def FldFinancialPeriods():
-    '''public FldFinancialPeriods(final MboValue mbv, final String orgAttr)
-    public FldFinancialPeriods(final MboValue mbv)
+def ():
+    '''returns FldFinancialPeriods\n\n
+    (final MboValue mbv, final String orgAttr)\n
+    (final MboValue mbv)\n
     '''

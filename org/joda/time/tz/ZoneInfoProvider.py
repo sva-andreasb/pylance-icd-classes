@@ -1,11 +1,14 @@
-def ZoneInfoProvider():
-    '''public ZoneInfoProvider(final File iFileDir)
-    public ZoneInfoProvider(final String s)
-    public ZoneInfoProvider(final String s, final ClassLoader classLoader)
+def ():
+    '''returns ZoneInfoProvider\n\n
+    (final File iFileDir)\n
+    (final String s)\n
+    (final String s, final ClassLoader classLoader)\n
     '''
 def getZone():
-    '''public DateTimeZone getZone(final String s)
+    '''returns DateTimeZone\n\n
+    getZone(final String s)\n
     '''
 def getAvailableIDs():
-    '''public Set<String> getAvailableIDs()
+    '''returns Set<String>\n\n
+    getAvailableIDs()\n
     '''

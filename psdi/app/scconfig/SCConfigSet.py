@@ -1,24 +1,32 @@
-def SCConfigSet():
-    '''public SCConfigSet(final MboServerInterface ms)
+def ():
+    '''returns SCConfigSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def isStartCenterConfigured():
-    '''public boolean isStartCenterConfigured()
+    '''returns boolean\n\n
+    isStartCenterConfigured()\n
     '''
 def isSCAdmin():
-    '''public boolean isSCAdmin()
+    '''returns boolean\n\n
+    isSCAdmin()\n
     '''
 def canUpdateSC():
-    '''public boolean canUpdateSC()
+    '''returns boolean\n\n
+    canUpdateSC()\n
     '''
 def getAllowedPortlets():
-    '''public HashSet getAllowedPortlets()
+    '''returns HashSet\n\n
+    getAllowedPortlets()\n
     '''
 def getUserStartCenters():
-    '''public void getUserStartCenters()
+    '''returns None\n\n
+    getUserStartCenters()\n
     '''
 def getUserMobileStartCenters():
-    '''public void getUserMobileStartCenters()
+    '''returns None\n\n
+    getUserMobileStartCenters()\n
     '''
 def getStartCenters():
-    '''public void getStartCenters()
+    '''returns None\n\n
+    getStartCenters()\n
     '''

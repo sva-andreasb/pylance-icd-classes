@@ -10,190 +10,252 @@ SHORT_PARAM = "int  8"
 THROWABLE_PARAM = "int  9"
 OBJECT_PARAM = "int  10"
 STRING_PARAM = "int  11"
-def JdkLogRecord():
-    '''public JdkLogRecord(final Level level, final String msg)
+def ():
+    '''returns JdkLogRecord\n\n
+    (final Level level, final String msg)\n
     '''
 def isParamBoolean():
-    '''public boolean isParamBoolean()
+    '''returns boolean\n\n
+    isParamBoolean()\n
     '''
 def getParamByte():
-    '''public byte getParamByte()
+    '''returns byte\n\n
+    getParamByte()\n
     '''
 def getParamChar():
-    '''public char getParamChar()
+    '''returns char\n\n
+    getParamChar()\n
     '''
 def getParamDouble():
-    '''public double getParamDouble()
+    '''returns double\n\n
+    getParamDouble()\n
     '''
 def getParamFloat():
-    '''public float getParamFloat()
+    '''returns float\n\n
+    getParamFloat()\n
     '''
 def getParamInt():
-    '''public int getParamInt()
+    '''returns int\n\n
+    getParamInt()\n
     '''
 def getParamLong():
-    '''public long getParamLong()
+    '''returns long\n\n
+    getParamLong()\n
     '''
 def getParamShort():
-    '''public short getParamShort()
+    '''returns short\n\n
+    getParamShort()\n
     '''
 def getParamString():
-    '''public String getParamString()
+    '''returns String\n\n
+    getParamString()\n
     '''
 def getParamType():
-    '''public int getParamType()
+    '''returns int\n\n
+    getParamType()\n
     '''
 def setParamBoolean():
-    '''public void setParamBoolean(final boolean b)
+    '''returns None\n\n
+    setParamBoolean(final boolean b)\n
     '''
 def setParamByte():
-    '''public void setParamByte(final byte b)
+    '''returns None\n\n
+    setParamByte(final byte b)\n
     '''
 def setParamChar():
-    '''public void setParamChar(final char c)
+    '''returns None\n\n
+    setParamChar(final char c)\n
     '''
 def setParamDouble():
-    '''public void setParamDouble(final double d)
+    '''returns None\n\n
+    setParamDouble(final double d)\n
     '''
 def setParamFloat():
-    '''public void setParamFloat(final float f)
+    '''returns None\n\n
+    setParamFloat(final float f)\n
     '''
 def setParamInt():
-    '''public void setParamInt(final int i)
+    '''returns None\n\n
+    setParamInt(final int i)\n
     '''
 def setParamLong():
-    '''public void setParamLong(final long l)
+    '''returns None\n\n
+    setParamLong(final long l)\n
     '''
 def setParamShort():
-    '''public void setParamShort(final short s)
+    '''returns None\n\n
+    setParamShort(final short s)\n
     '''
 def setParamString():
-    '''public void setParamString(final String s)
+    '''returns None\n\n
+    setParamString(final String s)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def isTrace():
-    '''public boolean isTrace()
+    '''returns boolean\n\n
+    isTrace()\n
     '''
 def setTrace():
-    '''public void setTrace(final boolean b)
+    '''returns None\n\n
+    setTrace(final boolean b)\n
     '''
 def getMsgType():
-    '''public TraceType getMsgType()
+    '''returns TraceType\n\n
+    getMsgType()\n
     '''
 def setMsgType():
-    '''public void setMsgType(final TraceType i)
+    '''returns None\n\n
+    setMsgType(final TraceType i)\n
     '''
 def getComponent():
-    '''public String getComponent()
+    '''returns String\n\n
+    getComponent()\n
     '''
 def getCorrelationId():
-    '''public String getCorrelationId()
+    '''returns String\n\n
+    getCorrelationId()\n
     '''
 def getExtensions():
-    '''public HashMap getExtensions()
-    public String getExtensions(final String key)
+    '''returns String\n\n
+    getExtensions()\n
+    getExtensions(final String key)\n
     '''
 def getFormattedMessage():
-    '''public String getFormattedMessage()
+    '''returns String\n\n
+    getFormattedMessage()\n
     '''
 def getLocalizable():
-    '''public int getLocalizable()
+    '''returns int\n\n
+    getLocalizable()\n
     '''
 def getMessageLocale():
-    '''public String getMessageLocale()
+    '''returns String\n\n
+    getMessageLocale()\n
     '''
 def getOrganization():
-    '''public String getOrganization()
+    '''returns String\n\n
+    getOrganization()\n
     '''
 def getProcessId():
-    '''public String getProcessId()
+    '''returns String\n\n
+    getProcessId()\n
     '''
 def getProcessName():
-    '''public String getProcessName()
+    '''returns String\n\n
+    getProcessName()\n
     '''
 def getProduct():
-    '''public String getProduct()
+    '''returns String\n\n
+    getProduct()\n
     '''
 def getRawData():
-    '''public byte[] getRawData()
+    '''returns byte[]\n\n
+    getRawData()\n
     '''
 def getStackTrace():
-    '''public String getStackTrace()
+    '''returns String\n\n
+    getStackTrace()\n
     '''
 def getThreadName():
-    '''public String getThreadName()
+    '''returns String\n\n
+    getThreadName()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def setComponent():
-    '''public void setComponent(final String string)
+    '''returns None\n\n
+    setComponent(final String string)\n
     '''
 def setCorrelationId():
-    '''public void setCorrelationId(final String string)
+    '''returns None\n\n
+    setCorrelationId(final String string)\n
     '''
 def setFormattedMessage():
-    '''public void setFormattedMessage(final String string)
+    '''returns None\n\n
+    setFormattedMessage(final String string)\n
     '''
 def setLocalizable():
-    '''public void setLocalizable(final int i)
+    '''returns None\n\n
+    setLocalizable(final int i)\n
     '''
 def setMessageLocale():
-    '''public void setMessageLocale(final String string)
+    '''returns None\n\n
+    setMessageLocale(final String string)\n
     '''
 def setOrganization():
-    '''public void setOrganization(final String string)
+    '''returns None\n\n
+    setOrganization(final String string)\n
     '''
 def setProcessId():
-    '''public void setProcessId(final String string)
+    '''returns None\n\n
+    setProcessId(final String string)\n
     '''
 def setProcessName():
-    '''public void setProcessName(final String string)
+    '''returns None\n\n
+    setProcessName(final String string)\n
     '''
 def setProduct():
-    '''public void setProduct(final String string)
+    '''returns None\n\n
+    setProduct(final String string)\n
     '''
 def setRawData():
-    '''public void setRawData(final byte[] bs)
+    '''returns None\n\n
+    setRawData(final byte[] bs)\n
     '''
 def setStackTrace():
-    '''public void setStackTrace(final String string)
+    '''returns None\n\n
+    setStackTrace(final String string)\n
     '''
 def setThreadName():
-    '''public void setThreadName(final String string)
+    '''returns None\n\n
+    setThreadName(final String string)\n
     '''
 def setVersion():
-    '''public void setVersion(final String string)
+    '''returns None\n\n
+    setVersion(final String string)\n
     '''
 def setCorrelator():
-    '''public void setCorrelator(final Vector stack)
+    '''returns None\n\n
+    setCorrelator(final Vector stack)\n
     '''
 def getCorrelator():
-    '''public Vector getCorrelator()
+    '''returns Vector\n\n
+    getCorrelator()\n
     '''
 def addExtension():
-    '''public void addExtension(final String key, final String value)
+    '''returns None\n\n
+    addExtension(final String key, final String value)\n
     '''
 def addExtensions():
-    '''public void addExtensions(final Map map)
+    '''returns None\n\n
+    addExtensions(final Map map)\n
     '''
 def getMessageResourceBundleName():
-    '''public String getMessageResourceBundleName()
+    '''returns String\n\n
+    getMessageResourceBundleName()\n
     '''
 def setMessageResourceBundleName():
-    '''public void setMessageResourceBundleName(final String string)
+    '''returns None\n\n
+    setMessageResourceBundleName(final String string)\n
     '''
 def getServerName():
-    '''public String getServerName()
+    '''returns String\n\n
+    getServerName()\n
     '''
 def setServerName():
-    '''public void setServerName(final String string)
+    '''returns None\n\n
+    setServerName(final String string)\n
     '''
 def getOffset():
-    '''public int getOffset()
+    '''returns int\n\n
+    getOffset()\n
     '''
 def setOffset():
-    '''public void setOffset(final int i)
+    '''returns None\n\n
+    setOffset(final int i)\n
     '''

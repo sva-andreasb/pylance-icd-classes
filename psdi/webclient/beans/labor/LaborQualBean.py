@@ -1,6 +1,8 @@
 def checkAccess():
-    '''public void checkAccess()
+    '''returns None\n\n
+    checkAccess()\n
     '''
 def renewqual():
-    '''public int renewqual()
+    '''returns int\n\n
+    renewqual()\n
     '''

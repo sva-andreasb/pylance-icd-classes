@@ -1,6 +1,8 @@
-def ConstructorTarget():
-    '''public ConstructorTarget(final Constructor constructor, final Deserializer deSerializer)
+def ():
+    '''returns ConstructorTarget\n\n
+    (final Constructor constructor, final Deserializer deSerializer)\n
     '''
 def set():
-    '''public void set(final Object value)
+    '''returns None\n\n
+    set(final Object value)\n
     '''

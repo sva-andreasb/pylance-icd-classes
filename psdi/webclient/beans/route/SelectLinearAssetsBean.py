@@ -1,12 +1,16 @@
 def REFRESHLIST():
-    '''public int REFRESHLIST()
+    '''returns int\n\n
+    REFRESHLIST()\n
     '''
 def SELECT():
-    '''public void SELECT()
+    '''returns None\n\n
+    SELECT()\n
     '''
 def SELECTRETURN():
-    '''public void SELECTRETURN()
+    '''returns None\n\n
+    SELECTRETURN()\n
     '''
 def gotolinearassetrel():
-    '''public void gotolinearassetrel()
+    '''returns None\n\n
+    gotolinearassetrel()\n
     '''

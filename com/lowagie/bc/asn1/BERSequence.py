@@ -1,5 +1,6 @@
-def BERSequence():
-    '''public BERSequence()
-    public BERSequence(final DEREncodable obj)
-    public BERSequence(final DEREncodableVector v)
+def ():
+    '''returns BERSequence\n\n
+    ()\n
+    (final DEREncodable obj)\n
+    (final DEREncodableVector v)\n
     '''

@@ -1,11 +1,13 @@
 def createSocket():
-    '''public Socket createSocket(final String host, final int port)
-    public Socket createSocket(final InetAddress address, final int port)
-    public Socket createSocket(final String host, final int port, final InetAddress localAddr, final int localPort)
-    public Socket createSocket(final InetAddress address, final int port, final InetAddress localAddr, final int localPort)
+    '''returns Socket\n\n
+    createSocket(final String host, final int port)\n
+    createSocket(final InetAddress address, final int port)\n
+    createSocket(final String host, final int port, final InetAddress localAddr, final int localPort)\n
+    createSocket(final InetAddress address, final int port, final InetAddress localAddr, final int localPort)\n
     '''
 def createServerSocket():
-    '''public ServerSocket createServerSocket(final int port)
-    public ServerSocket createServerSocket(final int port, final int backlog)
-    public ServerSocket createServerSocket(final int port, final int backlog, final InetAddress bindAddr)
+    '''returns ServerSocket\n\n
+    createServerSocket(final int port)\n
+    createServerSocket(final int port, final int backlog)\n
+    createServerSocket(final int port, final int backlog, final InetAddress bindAddr)\n
     '''

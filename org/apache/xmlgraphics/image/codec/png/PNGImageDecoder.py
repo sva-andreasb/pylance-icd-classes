@@ -1,12 +1,12 @@
-def PNGImageDecoder():
-    '''public PNGImageDecoder(final InputStream input, final PNGDecodeParam param)
+def ():
+    '''returns PNGImageDecoder\n\n
+    (final InputStream input, final PNGDecodeParam param)\n
     '''
 def decodeAsRenderedImage():
-    '''public RenderedImage decodeAsRenderedImage(final int page)
-    '''
-def readPNGHeader():
-    '''public static void readPNGHeader(final ImageInputStream inputStream, final ImageSize size)
+    '''returns RenderedImage\n\n
+    decodeAsRenderedImage(final int page)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

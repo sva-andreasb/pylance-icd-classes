@@ -25,12 +25,15 @@ TIFF_SAMPLE_FORMAT = "int  339"
 TIFF_S_MIN_SAMPLE_VALUE = "int  340"
 TIFF_S_MAX_SAMPLE_VALUE = "int  341"
 TIFF_ICC_PROFILE = "int  34675"
-def TIFFImageDecoder():
-    '''public TIFFImageDecoder(final SeekableStream input, final TIFFDecodeParam param)
+def ():
+    '''returns TIFFImageDecoder\n\n
+    (final SeekableStream input, final TIFFDecodeParam param)\n
     '''
 def getNumPages():
-    '''public int getNumPages()
+    '''returns int\n\n
+    getNumPages()\n
     '''
 def decodeAsRenderedImage():
-    '''public RenderedImage decodeAsRenderedImage(final int page)
+    '''returns RenderedImage\n\n
+    decodeAsRenderedImage(final int page)\n
     '''

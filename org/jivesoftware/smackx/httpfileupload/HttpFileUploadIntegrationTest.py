@@ -1,9 +1,12 @@
-def HttpFileUploadIntegrationTest():
-    '''public HttpFileUploadIntegrationTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns HttpFileUploadIntegrationTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def httpFileUploadTest():
-    '''public void httpFileUploadTest()
+    '''returns None\n\n
+    httpFileUploadTest()\n
     '''
 def onUploadProgress():
-    '''public void onUploadProgress(final long uploadedBytes, final long totalBytes)
+    '''returns None\n\n
+    onUploadProgress(final long uploadedBytes, final long totalBytes)\n
     '''

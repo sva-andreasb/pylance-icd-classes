@@ -1,57 +1,76 @@
-def InRecHoverControl():
-    '''public InRecHoverControl(final RecordHover recordHover, final Element controlElement, final ControlDescriptor descriptor)
+def ():
+    '''returns InRecHoverControl\n\n
+    (final RecordHover recordHover, final Element controlElement, final ControlDescriptor descriptor)\n
     '''
 def getUserAgent():
-    '''public String getUserAgent()
+    '''returns String\n\n
+    getUserAgent()\n
     '''
 def getRenderContent():
-    '''public String getRenderContent()
+    '''returns String\n\n
+    getRenderContent()\n
     '''
 def setProperty():
-    '''public void setProperty(final String property, final String value)
+    '''returns None\n\n
+    setProperty(final String property, final String value)\n
     '''
 def getProperty():
-    '''public String getProperty(final String controlProp)
+    '''returns String\n\n
+    getProperty(final String controlProp)\n
     '''
 def getValueForAttribute():
-    '''public String getValueForAttribute(final String attribute, final boolean returnBooleanString)
+    '''returns String\n\n
+    getValueForAttribute(final String attribute, final boolean returnBooleanString)\n
     '''
 def getTitleForAttribute():
-    '''public String getTitleForAttribute(final String dataAttribute)
+    '''returns String\n\n
+    getTitleForAttribute(final String dataAttribute)\n
     '''
 def getFieldSize():
-    '''public String getFieldSize(final String dataAttribute)
+    '''returns String\n\n
+    getFieldSize(final String dataAttribute)\n
     '''
 def getMessage():
-    '''public String getMessage(final String msgGroup, final String msgKey)
+    '''returns String\n\n
+    getMessage(final String msgGroup, final String msgKey)\n
     '''
 def addContent():
-    '''public void addContent(final String content)
+    '''returns None\n\n
+    addContent(final String content)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getCompRenderId():
-    '''public String getCompRenderId(final String componentId)
+    '''returns String\n\n
+    getCompRenderId(final String componentId)\n
     '''
 def getImageURL():
-    '''public String getImageURL()
+    '''returns String\n\n
+    getImageURL()\n
     '''
 def createChildControl():
-    '''public InRecHoverControl createChildControl(final Element controlElement, final InRecHoverControlDescriptor descriptor)
+    '''returns InRecHoverControl\n\n
+    createChildControl(final Element controlElement, final InRecHoverControlDescriptor descriptor)\n
     '''
 def addChildrenRenderContent():
-    '''public void addChildrenRenderContent()
+    '''returns None\n\n
+    addChildrenRenderContent()\n
     '''
 def getRecordHover():
-    '''public RecordHover getRecordHover()
+    '''returns RecordHover\n\n
+    getRecordHover()\n
     '''
 def setComponentProperty():
-    '''public void setComponentProperty(final InRecHoverComponentDescriptor component, final String property, final String value)
+    '''returns None\n\n
+    setComponentProperty(final InRecHoverComponentDescriptor component, final String property, final String value)\n
     '''
 def getComponentProperty():
-    '''public String getComponentProperty(final InRecHoverComponentDescriptor component, final String property)
+    '''returns String\n\n
+    getComponentProperty(final InRecHoverComponentDescriptor component, final String property)\n
     '''
 def getDojoDateFormat():
-    '''public String getDojoDateFormat(final String dataAttribute)
+    '''returns String\n\n
+    getDojoDateFormat(final String dataAttribute)\n
     '''

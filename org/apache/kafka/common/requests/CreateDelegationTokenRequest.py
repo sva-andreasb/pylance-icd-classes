@@ -1,27 +1,25 @@
-def CreateDelegationTokenRequest():
-    '''public CreateDelegationTokenRequest(final Struct struct, final short version)
-    '''
-def parse():
-    '''public static CreateDelegationTokenRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final List<KafkaPrincipal> renewers, final long maxLifeTime)\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def renewers():
-    '''public List<KafkaPrincipal> renewers()
+    '''returns List<KafkaPrincipal>\n\n
+    renewers()\n
     '''
 def maxLifeTime():
-    '''public long maxLifeTime()
-    '''
-def Builder():
-    '''public Builder(final List<KafkaPrincipal> renewers, final long maxLifeTime)
+    '''returns long\n\n
+    maxLifeTime()\n
     '''
 def build():
-    '''public CreateDelegationTokenRequest build(final short version)
+    '''returns CreateDelegationTokenRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

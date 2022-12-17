@@ -1,21 +1,28 @@
 def isAddEvent():
-    '''public boolean isAddEvent()
+    '''returns boolean\n\n
+    isAddEvent()\n
     '''
 def isChangeEvent():
-    '''public boolean isChangeEvent()
+    '''returns boolean\n\n
+    isChangeEvent()\n
     '''
 def isRemoveEvent():
-    '''public boolean isRemoveEvent()
+    '''returns boolean\n\n
+    isRemoveEvent()\n
     '''
 def getChangeEvent():
-    '''public PropertyChangeEvent getChangeEvent()
+    '''returns PropertyChangeEvent\n\n
+    getChangeEvent()\n
     '''
 def setChangeEvent():
-    '''public void setChangeEvent(final PropertyChangeEvent pce)
+    '''returns None\n\n
+    setChangeEvent(final PropertyChangeEvent pce)\n
     '''
 def getBean():
-    '''public DDBean getBean()
+    '''returns DDBean\n\n
+    getBean()\n
     '''
-def XpathEvent():
-    '''public XpathEvent(final DDBean bean, final Object typ)
+def ():
+    '''returns XpathEvent\n\n
+    (final DDBean bean, final Object typ)\n
     '''

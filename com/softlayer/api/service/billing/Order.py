@@ -1,394 +1,520 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getBrand():
-    '''public Brand getBrand()
+    '''returns Brand\n\n
+    getBrand()\n
     '''
 def setBrand():
-    '''public void setBrand(final Brand brand)
+    '''returns None\n\n
+    setBrand(final Brand brand)\n
     '''
 def getCart():
-    '''public Cart getCart()
+    '''returns Cart\n\n
+    getCart()\n
     '''
 def setCart():
-    '''public void setCart(final Cart cart)
+    '''returns None\n\n
+    setCart(final Cart cart)\n
     '''
 def getCoreRestrictedItems():
-    '''public List<Item> getCoreRestrictedItems()
+    '''returns List<Item>\n\n
+    getCoreRestrictedItems()\n
     '''
 def getCreditCardTransactions():
-    '''public List<Transaction> getCreditCardTransactions()
+    '''returns List<Transaction>\n\n
+    getCreditCardTransactions()\n
     '''
 def getExchangeRate():
-    '''public ExchangeRate getExchangeRate()
+    '''returns ExchangeRate\n\n
+    getExchangeRate()\n
     '''
 def setExchangeRate():
-    '''public void setExchangeRate(final ExchangeRate exchangeRate)
+    '''returns None\n\n
+    setExchangeRate(final ExchangeRate exchangeRate)\n
     '''
 def getInitialInvoice():
-    '''public Invoice getInitialInvoice()
+    '''returns Invoice\n\n
+    getInitialInvoice()\n
     '''
 def setInitialInvoice():
-    '''public void setInitialInvoice(final Invoice initialInvoice)
+    '''returns None\n\n
+    setInitialInvoice(final Invoice initialInvoice)\n
     '''
 def getItems():
-    '''public List<Item> getItems()
+    '''returns List<Item>\n\n
+    getItems()\n
     '''
 def getOrderApprovalDate():
-    '''public GregorianCalendar getOrderApprovalDate()
+    '''returns GregorianCalendar\n\n
+    getOrderApprovalDate()\n
     '''
 def setOrderApprovalDate():
-    '''public void setOrderApprovalDate(final GregorianCalendar orderApprovalDate)
+    '''returns None\n\n
+    setOrderApprovalDate(final GregorianCalendar orderApprovalDate)\n
     '''
 def getOrderNonServerMonthlyAmount():
-    '''public BigDecimal getOrderNonServerMonthlyAmount()
+    '''returns BigDecimal\n\n
+    getOrderNonServerMonthlyAmount()\n
     '''
 def setOrderNonServerMonthlyAmount():
-    '''public void setOrderNonServerMonthlyAmount(final BigDecimal orderNonServerMonthlyAmount)
+    '''returns None\n\n
+    setOrderNonServerMonthlyAmount(final BigDecimal orderNonServerMonthlyAmount)\n
     '''
 def getOrderServerMonthlyAmount():
-    '''public BigDecimal getOrderServerMonthlyAmount()
+    '''returns BigDecimal\n\n
+    getOrderServerMonthlyAmount()\n
     '''
 def setOrderServerMonthlyAmount():
-    '''public void setOrderServerMonthlyAmount(final BigDecimal orderServerMonthlyAmount)
+    '''returns None\n\n
+    setOrderServerMonthlyAmount(final BigDecimal orderServerMonthlyAmount)\n
     '''
 def getOrderTopLevelItems():
-    '''public List<Item> getOrderTopLevelItems()
+    '''returns List<Item>\n\n
+    getOrderTopLevelItems()\n
     '''
 def getOrderTotalAmount():
-    '''public BigDecimal getOrderTotalAmount()
+    '''returns BigDecimal\n\n
+    getOrderTotalAmount()\n
     '''
 def setOrderTotalAmount():
-    '''public void setOrderTotalAmount(final BigDecimal orderTotalAmount)
+    '''returns None\n\n
+    setOrderTotalAmount(final BigDecimal orderTotalAmount)\n
     '''
 def getOrderTotalOneTime():
-    '''public BigDecimal getOrderTotalOneTime()
+    '''returns BigDecimal\n\n
+    getOrderTotalOneTime()\n
     '''
 def setOrderTotalOneTime():
-    '''public void setOrderTotalOneTime(final BigDecimal orderTotalOneTime)
+    '''returns None\n\n
+    setOrderTotalOneTime(final BigDecimal orderTotalOneTime)\n
     '''
 def getOrderTotalOneTimeAmount():
-    '''public BigDecimal getOrderTotalOneTimeAmount()
+    '''returns BigDecimal\n\n
+    getOrderTotalOneTimeAmount()\n
     '''
 def setOrderTotalOneTimeAmount():
-    '''public void setOrderTotalOneTimeAmount(final BigDecimal orderTotalOneTimeAmount)
+    '''returns None\n\n
+    setOrderTotalOneTimeAmount(final BigDecimal orderTotalOneTimeAmount)\n
     '''
 def getOrderTotalOneTimeTaxAmount():
-    '''public BigDecimal getOrderTotalOneTimeTaxAmount()
+    '''returns BigDecimal\n\n
+    getOrderTotalOneTimeTaxAmount()\n
     '''
 def setOrderTotalOneTimeTaxAmount():
-    '''public void setOrderTotalOneTimeTaxAmount(final BigDecimal orderTotalOneTimeTaxAmount)
+    '''returns None\n\n
+    setOrderTotalOneTimeTaxAmount(final BigDecimal orderTotalOneTimeTaxAmount)\n
     '''
 def getOrderTotalRecurring():
-    '''public BigDecimal getOrderTotalRecurring()
+    '''returns BigDecimal\n\n
+    getOrderTotalRecurring()\n
     '''
 def setOrderTotalRecurring():
-    '''public void setOrderTotalRecurring(final BigDecimal orderTotalRecurring)
+    '''returns None\n\n
+    setOrderTotalRecurring(final BigDecimal orderTotalRecurring)\n
     '''
 def getOrderTotalRecurringAmount():
-    '''public BigDecimal getOrderTotalRecurringAmount()
+    '''returns BigDecimal\n\n
+    getOrderTotalRecurringAmount()\n
     '''
 def setOrderTotalRecurringAmount():
-    '''public void setOrderTotalRecurringAmount(final BigDecimal orderTotalRecurringAmount)
+    '''returns None\n\n
+    setOrderTotalRecurringAmount(final BigDecimal orderTotalRecurringAmount)\n
     '''
 def getOrderTotalRecurringTaxAmount():
-    '''public BigDecimal getOrderTotalRecurringTaxAmount()
+    '''returns BigDecimal\n\n
+    getOrderTotalRecurringTaxAmount()\n
     '''
 def setOrderTotalRecurringTaxAmount():
-    '''public void setOrderTotalRecurringTaxAmount(final BigDecimal orderTotalRecurringTaxAmount)
+    '''returns None\n\n
+    setOrderTotalRecurringTaxAmount(final BigDecimal orderTotalRecurringTaxAmount)\n
     '''
 def getOrderTotalSetupAmount():
-    '''public BigDecimal getOrderTotalSetupAmount()
+    '''returns BigDecimal\n\n
+    getOrderTotalSetupAmount()\n
     '''
 def setOrderTotalSetupAmount():
-    '''public void setOrderTotalSetupAmount(final BigDecimal orderTotalSetupAmount)
+    '''returns None\n\n
+    setOrderTotalSetupAmount(final BigDecimal orderTotalSetupAmount)\n
     '''
 def setOrderType():
-    '''public void setOrderType(final com.softlayer.api.service.billing.order.Type orderType)
+    '''returns None\n\n
+    setOrderType(final com.softlayer.api.service.billing.order.Type orderType)\n
     '''
 def getPresaleEvent():
-    '''public Event getPresaleEvent()
+    '''returns Event\n\n
+    getPresaleEvent()\n
     '''
 def setPresaleEvent():
-    '''public void setPresaleEvent(final Event presaleEvent)
+    '''returns None\n\n
+    setPresaleEvent(final Event presaleEvent)\n
     '''
 def getQuote():
-    '''public Quote getQuote()
+    '''returns Quote\n\n
+    getQuote()\n
     '''
 def setQuote():
-    '''public void setQuote(final Quote quote)
+    '''returns None\n\n
+    setQuote(final Quote quote)\n
     '''
 def getReferralPartner():
-    '''public Account getReferralPartner()
+    '''returns Account\n\n
+    getReferralPartner()\n
     '''
 def setReferralPartner():
-    '''public void setReferralPartner(final Account referralPartner)
+    '''returns None\n\n
+    setReferralPartner(final Account referralPartner)\n
     '''
 def getUpgradeRequestFlag():
-    '''public Boolean getUpgradeRequestFlag()
+    '''returns Boolean\n\n
+    getUpgradeRequestFlag()\n
     '''
 def setUpgradeRequestFlag():
-    '''public void setUpgradeRequestFlag(final Boolean upgradeRequestFlag)
+    '''returns None\n\n
+    setUpgradeRequestFlag(final Boolean upgradeRequestFlag)\n
     '''
 def getUserRecord():
-    '''public Customer getUserRecord()
+    '''returns Customer\n\n
+    getUserRecord()\n
     '''
 def setUserRecord():
-    '''public void setUserRecord(final Customer userRecord)
+    '''returns None\n\n
+    setUserRecord(final Customer userRecord)\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getImpersonatingUserRecordId():
-    '''public Long getImpersonatingUserRecordId()
+    '''returns Long\n\n
+    getImpersonatingUserRecordId()\n
     '''
 def setImpersonatingUserRecordId():
-    '''public void setImpersonatingUserRecordId(final Long impersonatingUserRecordId)
+    '''returns None\n\n
+    setImpersonatingUserRecordId(final Long impersonatingUserRecordId)\n
     '''
 def isImpersonatingUserRecordIdSpecified():
-    '''public boolean isImpersonatingUserRecordIdSpecified()
+    '''returns boolean\n\n
+    isImpersonatingUserRecordIdSpecified()\n
     '''
 def unsetImpersonatingUserRecordId():
-    '''public void unsetImpersonatingUserRecordId()
+    '''returns None\n\n
+    unsetImpersonatingUserRecordId()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getOrderQuoteId():
-    '''public Long getOrderQuoteId()
+    '''returns Long\n\n
+    getOrderQuoteId()\n
     '''
 def setOrderQuoteId():
-    '''public void setOrderQuoteId(final Long orderQuoteId)
+    '''returns None\n\n
+    setOrderQuoteId(final Long orderQuoteId)\n
     '''
 def isOrderQuoteIdSpecified():
-    '''public boolean isOrderQuoteIdSpecified()
+    '''returns boolean\n\n
+    isOrderQuoteIdSpecified()\n
     '''
 def unsetOrderQuoteId():
-    '''public void unsetOrderQuoteId()
+    '''returns None\n\n
+    unsetOrderQuoteId()\n
     '''
 def getOrderTypeId():
-    '''public Long getOrderTypeId()
+    '''returns Long\n\n
+    getOrderTypeId()\n
     '''
 def setOrderTypeId():
-    '''public void setOrderTypeId(final Long orderTypeId)
+    '''returns None\n\n
+    setOrderTypeId(final Long orderTypeId)\n
     '''
 def isOrderTypeIdSpecified():
-    '''public boolean isOrderTypeIdSpecified()
+    '''returns boolean\n\n
+    isOrderTypeIdSpecified()\n
     '''
 def unsetOrderTypeId():
-    '''public void unsetOrderTypeId()
+    '''returns None\n\n
+    unsetOrderTypeId()\n
     '''
 def getPresaleEventId():
-    '''public Long getPresaleEventId()
+    '''returns Long\n\n
+    getPresaleEventId()\n
     '''
 def setPresaleEventId():
-    '''public void setPresaleEventId(final Long presaleEventId)
+    '''returns None\n\n
+    setPresaleEventId(final Long presaleEventId)\n
     '''
 def isPresaleEventIdSpecified():
-    '''public boolean isPresaleEventIdSpecified()
+    '''returns boolean\n\n
+    isPresaleEventIdSpecified()\n
     '''
 def unsetPresaleEventId():
-    '''public void unsetPresaleEventId()
+    '''returns None\n\n
+    unsetPresaleEventId()\n
     '''
 def getPrivateCloudOrderFlag():
-    '''public Boolean getPrivateCloudOrderFlag()
+    '''returns Boolean\n\n
+    getPrivateCloudOrderFlag()\n
     '''
 def setPrivateCloudOrderFlag():
-    '''public void setPrivateCloudOrderFlag(final Boolean privateCloudOrderFlag)
+    '''returns None\n\n
+    setPrivateCloudOrderFlag(final Boolean privateCloudOrderFlag)\n
     '''
 def isPrivateCloudOrderFlagSpecified():
-    '''public boolean isPrivateCloudOrderFlagSpecified()
+    '''returns boolean\n\n
+    isPrivateCloudOrderFlagSpecified()\n
     '''
 def unsetPrivateCloudOrderFlag():
-    '''public void unsetPrivateCloudOrderFlag()
+    '''returns None\n\n
+    unsetPrivateCloudOrderFlag()\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final String status)
+    '''returns None\n\n
+    setStatus(final String status)\n
     '''
 def isStatusSpecified():
-    '''public boolean isStatusSpecified()
+    '''returns boolean\n\n
+    isStatusSpecified()\n
     '''
 def unsetStatus():
-    '''public void unsetStatus()
+    '''returns None\n\n
+    unsetStatus()\n
     '''
 def getUserRecordId():
-    '''public Long getUserRecordId()
+    '''returns Long\n\n
+    getUserRecordId()\n
     '''
 def setUserRecordId():
-    '''public void setUserRecordId(final Long userRecordId)
+    '''returns None\n\n
+    setUserRecordId(final Long userRecordId)\n
     '''
 def isUserRecordIdSpecified():
-    '''public boolean isUserRecordIdSpecified()
+    '''returns boolean\n\n
+    isUserRecordIdSpecified()\n
     '''
 def unsetUserRecordId():
-    '''public void unsetUserRecordId()
+    '''returns None\n\n
+    unsetUserRecordId()\n
     '''
 def getCoreRestrictedItemCount():
-    '''public Long getCoreRestrictedItemCount()
+    '''returns Long\n\n
+    getCoreRestrictedItemCount()\n
     '''
 def setCoreRestrictedItemCount():
-    '''public void setCoreRestrictedItemCount(final Long coreRestrictedItemCount)
+    '''returns None\n\n
+    setCoreRestrictedItemCount(final Long coreRestrictedItemCount)\n
     '''
 def getCreditCardTransactionCount():
-    '''public Long getCreditCardTransactionCount()
+    '''returns Long\n\n
+    getCreditCardTransactionCount()\n
     '''
 def setCreditCardTransactionCount():
-    '''public void setCreditCardTransactionCount(final Long creditCardTransactionCount)
+    '''returns None\n\n
+    setCreditCardTransactionCount(final Long creditCardTransactionCount)\n
     '''
 def getItemCount():
-    '''public Long getItemCount()
+    '''returns Long\n\n
+    getItemCount()\n
     '''
 def setItemCount():
-    '''public void setItemCount(final Long itemCount)
+    '''returns None\n\n
+    setItemCount(final Long itemCount)\n
     '''
 def getOrderTopLevelItemCount():
-    '''public Long getOrderTopLevelItemCount()
+    '''returns Long\n\n
+    getOrderTopLevelItemCount()\n
     '''
 def setOrderTopLevelItemCount():
-    '''public void setOrderTopLevelItemCount(final Long orderTopLevelItemCount)
+    '''returns None\n\n
+    setOrderTopLevelItemCount(final Long orderTopLevelItemCount)\n
     '''
 def getPaypalTransactionCount():
-    '''public Long getPaypalTransactionCount()
+    '''returns Long\n\n
+    getPaypalTransactionCount()\n
     '''
 def setPaypalTransactionCount():
-    '''public void setPaypalTransactionCount(final Long paypalTransactionCount)
+    '''returns None\n\n
+    setPaypalTransactionCount(final Long paypalTransactionCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def orderApprovalDate():
-    '''public Mask orderApprovalDate()
+    '''returns Mask\n\n
+    orderApprovalDate()\n
     '''
 def orderNonServerMonthlyAmount():
-    '''public Mask orderNonServerMonthlyAmount()
+    '''returns Mask\n\n
+    orderNonServerMonthlyAmount()\n
     '''
 def orderServerMonthlyAmount():
-    '''public Mask orderServerMonthlyAmount()
+    '''returns Mask\n\n
+    orderServerMonthlyAmount()\n
     '''
 def orderTotalAmount():
-    '''public Mask orderTotalAmount()
+    '''returns Mask\n\n
+    orderTotalAmount()\n
     '''
 def orderTotalOneTime():
-    '''public Mask orderTotalOneTime()
+    '''returns Mask\n\n
+    orderTotalOneTime()\n
     '''
 def orderTotalOneTimeAmount():
-    '''public Mask orderTotalOneTimeAmount()
+    '''returns Mask\n\n
+    orderTotalOneTimeAmount()\n
     '''
 def orderTotalOneTimeTaxAmount():
-    '''public Mask orderTotalOneTimeTaxAmount()
+    '''returns Mask\n\n
+    orderTotalOneTimeTaxAmount()\n
     '''
 def orderTotalRecurring():
-    '''public Mask orderTotalRecurring()
+    '''returns Mask\n\n
+    orderTotalRecurring()\n
     '''
 def orderTotalRecurringAmount():
-    '''public Mask orderTotalRecurringAmount()
+    '''returns Mask\n\n
+    orderTotalRecurringAmount()\n
     '''
 def orderTotalRecurringTaxAmount():
-    '''public Mask orderTotalRecurringTaxAmount()
+    '''returns Mask\n\n
+    orderTotalRecurringTaxAmount()\n
     '''
 def orderTotalSetupAmount():
-    '''public Mask orderTotalSetupAmount()
+    '''returns Mask\n\n
+    orderTotalSetupAmount()\n
     '''
 def upgradeRequestFlag():
-    '''public Mask upgradeRequestFlag()
+    '''returns Mask\n\n
+    upgradeRequestFlag()\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def impersonatingUserRecordId():
-    '''public Mask impersonatingUserRecordId()
+    '''returns Mask\n\n
+    impersonatingUserRecordId()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def orderQuoteId():
-    '''public Mask orderQuoteId()
+    '''returns Mask\n\n
+    orderQuoteId()\n
     '''
 def orderTypeId():
-    '''public Mask orderTypeId()
+    '''returns Mask\n\n
+    orderTypeId()\n
     '''
 def presaleEventId():
-    '''public Mask presaleEventId()
+    '''returns Mask\n\n
+    presaleEventId()\n
     '''
 def privateCloudOrderFlag():
-    '''public Mask privateCloudOrderFlag()
+    '''returns Mask\n\n
+    privateCloudOrderFlag()\n
     '''
 def status():
-    '''public Mask status()
+    '''returns Mask\n\n
+    status()\n
     '''
 def userRecordId():
-    '''public Mask userRecordId()
+    '''returns Mask\n\n
+    userRecordId()\n
     '''
 def coreRestrictedItemCount():
-    '''public Mask coreRestrictedItemCount()
+    '''returns Mask\n\n
+    coreRestrictedItemCount()\n
     '''
 def creditCardTransactionCount():
-    '''public Mask creditCardTransactionCount()
+    '''returns Mask\n\n
+    creditCardTransactionCount()\n
     '''
 def itemCount():
-    '''public Mask itemCount()
+    '''returns Mask\n\n
+    itemCount()\n
     '''
 def orderTopLevelItemCount():
-    '''public Mask orderTopLevelItemCount()
+    '''returns Mask\n\n
+    orderTopLevelItemCount()\n
     '''
 def paypalTransactionCount():
-    '''public Mask paypalTransactionCount()
+    '''returns Mask\n\n
+    paypalTransactionCount()\n
     '''

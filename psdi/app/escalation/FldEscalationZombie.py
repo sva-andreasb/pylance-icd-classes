@@ -1,12 +1,16 @@
-def FldEscalationZombie():
-    '''public FldEscalationZombie(final MboValue mbv)
+def ():
+    '''returns FldEscalationZombie\n\n
+    (final MboValue mbv)\n
     '''
 def setListCriteria():
-    '''public void setListCriteria(final String listwhere)
+    '''returns None\n\n
+    setListCriteria(final String listwhere)\n
     '''
 def setZombieListCriteria():
-    '''public void setZombieListCriteria(final String zombielistwhere)
+    '''returns None\n\n
+    setZombieListCriteria(final String zombielistwhere)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

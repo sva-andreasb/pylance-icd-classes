@@ -1,13 +1,17 @@
-def HybridPollingConnection():
-    '''public HybridPollingConnection(final String host, final short port, final boolean useWNet, final boolean secure, final String proxyServer, final short proxyPort, final boolean useSystemProxySettings, final String proxyUserName, final String proxyPass, final boolean popupAuthDialog, final long n)
-    public HybridPollingConnection(final URL hostUrl, final boolean useWNet, final String proxyServer, final short proxyPort, final boolean useSystemProxySettings, final String proxyUserName, final String proxyPass, final boolean popupAuthDialog, final long n)
+def ():
+    '''returns HybridPollingConnection\n\n
+    (final String host, final short port, final boolean useWNet, final boolean secure, final String proxyServer, final short proxyPort, final boolean useSystemProxySettings, final String proxyUserName, final String proxyPass, final boolean popupAuthDialog, final long n)\n
+    (final URL hostUrl, final boolean useWNet, final String proxyServer, final short proxyPort, final boolean useSystemProxySettings, final String proxyUserName, final String proxyPass, final boolean popupAuthDialog, final long n)\n
     '''
 def getHostUrl():
-    '''public URL getHostUrl()
+    '''returns URL\n\n
+    getHostUrl()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getConnectionInfo():
-    '''public ConnectionInfo getConnectionInfo()
+    '''returns ConnectionInfo\n\n
+    getConnectionInfo()\n
     '''

@@ -1,23 +1,26 @@
 MEDIA_NAME = "String  \"JMF\""
-def JmfMediaManager():
-    '''public JmfMediaManager(final JingleTransportManager transportManager)
-    public JmfMediaManager(final String mediaLocator, final JingleTransportManager transportManager)
+def ():
+    '''returns JmfMediaManager\n\n
+    (final JingleTransportManager transportManager)\n
+    (final String mediaLocator, final JingleTransportManager transportManager)\n
     '''
 def createMediaSession():
-    '''public JingleMediaSession createMediaSession(final PayloadType payloadType, final TransportCandidate remote, final TransportCandidate local, final JingleSession jingleSession)
+    '''returns JingleMediaSession\n\n
+    createMediaSession(final PayloadType payloadType, final TransportCandidate remote, final TransportCandidate local, final JingleSession jingleSession)\n
     '''
 def getPayloads():
-    '''public List<PayloadType> getPayloads()
+    '''returns List<PayloadType>\n\n
+    getPayloads()\n
     '''
 def getMediaLocator():
-    '''public String getMediaLocator()
+    '''returns String\n\n
+    getMediaLocator()\n
     '''
 def setMediaLocator():
-    '''public void setMediaLocator(final String mediaLocator)
-    '''
-def setupJMF():
-    '''public static void setupJMF()
+    '''returns None\n\n
+    setMediaLocator(final String mediaLocator)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

@@ -1,7 +1,9 @@
-def DemuxInputStream():
-    '''public DemuxInputStream(final Project project)
+def ():
+    '''returns DemuxInputStream\n\n
+    (final Project project)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] buffer, final int offset, final int length)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] buffer, final int offset, final int length)\n
     '''

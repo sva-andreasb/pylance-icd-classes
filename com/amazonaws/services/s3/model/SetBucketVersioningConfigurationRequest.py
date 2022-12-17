@@ -1,31 +1,41 @@
-def SetBucketVersioningConfigurationRequest():
-    '''public SetBucketVersioningConfigurationRequest(final String bucketName, final BucketVersioningConfiguration configuration)
-    public SetBucketVersioningConfigurationRequest(final String bucketName, final BucketVersioningConfiguration configuration, final MultiFactorAuthentication mfa)
+def ():
+    '''returns SetBucketVersioningConfigurationRequest\n\n
+    (final String bucketName, final BucketVersioningConfiguration configuration)\n
+    (final String bucketName, final BucketVersioningConfiguration configuration, final MultiFactorAuthentication mfa)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public SetBucketVersioningConfigurationRequest withBucketName(final String bucketName)
+    '''returns SetBucketVersioningConfigurationRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getVersioningConfiguration():
-    '''public BucketVersioningConfiguration getVersioningConfiguration()
+    '''returns BucketVersioningConfiguration\n\n
+    getVersioningConfiguration()\n
     '''
 def setVersioningConfiguration():
-    '''public void setVersioningConfiguration(final BucketVersioningConfiguration versioningConfiguration)
+    '''returns None\n\n
+    setVersioningConfiguration(final BucketVersioningConfiguration versioningConfiguration)\n
     '''
 def withVersioningConfiguration():
-    '''public SetBucketVersioningConfigurationRequest withVersioningConfiguration(final BucketVersioningConfiguration versioningConfiguration)
+    '''returns SetBucketVersioningConfigurationRequest\n\n
+    withVersioningConfiguration(final BucketVersioningConfiguration versioningConfiguration)\n
     '''
 def getMfa():
-    '''public MultiFactorAuthentication getMfa()
+    '''returns MultiFactorAuthentication\n\n
+    getMfa()\n
     '''
 def setMfa():
-    '''public void setMfa(final MultiFactorAuthentication mfa)
+    '''returns None\n\n
+    setMfa(final MultiFactorAuthentication mfa)\n
     '''
 def withMfa():
-    '''public SetBucketVersioningConfigurationRequest withMfa(final MultiFactorAuthentication mfa)
+    '''returns SetBucketVersioningConfigurationRequest\n\n
+    withMfa(final MultiFactorAuthentication mfa)\n
     '''

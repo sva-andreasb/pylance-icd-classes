@@ -1,14 +1,18 @@
-def StandardSyntaxParserTokenManager():
-    '''public StandardSyntaxParserTokenManager(final CharStream stream)
-    public StandardSyntaxParserTokenManager(final CharStream stream, final int lexState)
+def ():
+    '''returns StandardSyntaxParserTokenManager\n\n
+    (final CharStream stream)\n
+    (final CharStream stream, final int lexState)\n
     '''
 def ReInit():
-    '''public void ReInit(final CharStream stream)
-    public void ReInit(final CharStream stream, final int lexState)
+    '''returns None\n\n
+    ReInit(final CharStream stream)\n
+    ReInit(final CharStream stream, final int lexState)\n
     '''
 def SwitchTo():
-    '''public void SwitchTo(final int lexState)
+    '''returns None\n\n
+    SwitchTo(final int lexState)\n
     '''
 def getNextToken():
-    '''public Token getNextToken()
+    '''returns Token\n\n
+    getNextToken()\n
     '''

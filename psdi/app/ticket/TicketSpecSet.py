@@ -1,9 +1,12 @@
-def TicketSpecSet():
-    '''public TicketSpecSet(final MboServerInterface ms)
+def ():
+    '''returns TicketSpecSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def whereClauseOnAttrAndValues():
-    '''public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classstructureid)
+    '''returns String\n\n
+    whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classstructureid)\n
     '''
 def toCheckClassSpecUseWith():
-    '''public boolean toCheckClassSpecUseWith()
+    '''returns boolean\n\n
+    toCheckClassSpecUseWith()\n
     '''

@@ -1,15 +1,16 @@
-def PMChangeStatusBean():
-    '''public PMChangeStatusBean()
+def ():
+    '''returns PMChangeStatusBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def beforedolongop():
-    '''public int beforedolongop()
+    '''returns int\n\n
+    beforedolongop()\n
     '''
 def cancelYesNOMessage():
-    '''public boolean cancelYesNOMessage(final Enumeration enumit)
-    '''
-def checkESigAuthenticated():
-    '''public synchronized void checkESigAuthenticated(final String option)
+    '''returns boolean\n\n
+    cancelYesNOMessage(final Enumeration enumit)\n
     '''

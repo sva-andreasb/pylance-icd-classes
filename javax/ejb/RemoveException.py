@@ -1,4 +1,5 @@
-def RemoveException():
-    '''public RemoveException()
-    public RemoveException(final String message)
+def ():
+    '''returns RemoveException\n\n
+    ()\n
+    (final String message)\n
     '''

@@ -1,9 +1,12 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getCurrentDateTime():
-    '''public Date getCurrentDateTime(Date currentDate)
+    '''returns Date\n\n
+    getCurrentDateTime(Date currentDate)\n
     '''
 def refreshhistory():
-    '''public int refreshhistory()
+    '''returns int\n\n
+    refreshhistory()\n
     '''

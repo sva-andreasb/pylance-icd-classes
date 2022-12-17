@@ -1,36 +1,48 @@
-def MXShiftInfo():
-    '''public MXShiftInfo(final long shiftStartTime, final long shiftEndTime)
+def ():
+    '''returns MXShiftInfo\n\n
+    (final long shiftStartTime, final long shiftEndTime)\n
     '''
 def getShiftStartTime():
-    '''public long getShiftStartTime()
+    '''returns long\n\n
+    getShiftStartTime()\n
     '''
 def setShiftStartTime():
-    '''public void setShiftStartTime(final long shiftStartTime)
+    '''returns None\n\n
+    setShiftStartTime(final long shiftStartTime)\n
     '''
 def getShiftEndTime():
-    '''public long getShiftEndTime()
+    '''returns long\n\n
+    getShiftEndTime()\n
     '''
 def setShiftEndTime():
-    '''public void setShiftEndTime(final long shiftEndTime)
+    '''returns None\n\n
+    setShiftEndTime(final long shiftEndTime)\n
     '''
 def getStartlocation():
-    '''public MXActivity getStartlocation()
+    '''returns MXActivity\n\n
+    getStartlocation()\n
     '''
 def setStartlocation():
-    '''public void setStartlocation(final MXActivity startlocation)
+    '''returns None\n\n
+    setStartlocation(final MXActivity startlocation)\n
     '''
 def getEndlocation():
-    '''public MXActivity getEndlocation()
+    '''returns MXActivity\n\n
+    getEndlocation()\n
     '''
 def setEndlocation():
-    '''public void setEndlocation(final MXActivity endlocation)
+    '''returns None\n\n
+    setEndlocation(final MXActivity endlocation)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def compareTo():
-    '''public int compareTo(final MXShiftInfo o)
+    '''returns int\n\n
+    compareTo(final MXShiftInfo o)\n
     '''
 def getTimeInterval():
-    '''public IlvTimeInterval getTimeInterval()
+    '''returns IlvTimeInterval\n\n
+    getTimeInterval()\n
     '''

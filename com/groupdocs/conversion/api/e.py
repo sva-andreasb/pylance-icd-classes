@@ -1,10 +1,13 @@
-def e():
-    '''public e(final ILoader<hU, FromCellsOptions> loader, final T t)
+def ():
+    '''returns a\n\n
+    (final ILoader<hU, FromCellsOptions> loader, final T t)\n
+    (final IResourceCallback a2)\n
     '''
 def a():
-    '''public a(final IResourceCallback a2)
-    public void a(final gG gg)
+    '''returns None\n\n
+    a(final gG gg)\n
     '''
 def b():
-    '''public void b(final gG gg)
+    '''returns None\n\n
+    b(final gG gg)\n
     '''

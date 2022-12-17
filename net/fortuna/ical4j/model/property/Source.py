@@ -1,21 +1,24 @@
 PROPERTY_NAME = "String  \"SOURCE\""
-def Source():
-    '''public Source()
-    public Source(final ParameterList params, final String value)
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final ParameterList params, final String value)\n
+    ()\n
     '''
 def setValue():
-    '''public void setValue(final String aValue)
+    '''returns None\n\n
+    setValue(final String aValue)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getValue():
-    '''public String getValue()
-    '''
-def Factory():
-    '''public Factory()
+    '''returns String\n\n
+    getValue()\n
     '''
 def createProperty():
-    '''public Source createProperty()
-    public Source createProperty(final ParameterList parameters, final String value)
+    '''returns Source\n\n
+    createProperty()\n
+    createProperty(final ParameterList parameters, final String value)\n
     '''

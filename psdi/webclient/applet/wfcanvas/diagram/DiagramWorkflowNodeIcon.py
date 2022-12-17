@@ -1,3 +1,4 @@
-def DiagramWorkflowNodeIcon():
-    '''public DiagramWorkflowNodeIcon(final DiagramWorkflowNode node)
+def ():
+    '''returns DiagramWorkflowNodeIcon\n\n
+    (final DiagramWorkflowNode node)\n
     '''

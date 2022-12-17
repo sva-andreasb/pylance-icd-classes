@@ -1,39 +1,52 @@
-def DefaultProgressivePromise():
-    '''public DefaultProgressivePromise(final EventExecutor executor)
+def ():
+    '''returns DefaultProgressivePromise\n\n
+    (final EventExecutor executor)\n
     '''
 def setProgress():
-    '''public ProgressivePromise<V> setProgress(final long progress, long total)
+    '''returns ProgressivePromise<V>\n\n
+    setProgress(final long progress, long total)\n
     '''
 def tryProgress():
-    '''public boolean tryProgress(final long progress, long total)
+    '''returns boolean\n\n
+    tryProgress(final long progress, long total)\n
     '''
 def addListener():
-    '''public ProgressivePromise<V> addListener(final GenericFutureListener<? extends Future<? super V>> listener)
+    '''returns ProgressivePromise<V>\n\n
+    addListener(final GenericFutureListener<? extends Future<? super V>> listener)\n
     '''
 def addListeners():
-    '''public ProgressivePromise<V> addListeners(final GenericFutureListener<? extends Future<? super V>>... listeners)
+    '''returns ProgressivePromise<V>\n\n
+    addListeners(final GenericFutureListener<? extends Future<? super V>>... listeners)\n
     '''
 def removeListener():
-    '''public ProgressivePromise<V> removeListener(final GenericFutureListener<? extends Future<? super V>> listener)
+    '''returns ProgressivePromise<V>\n\n
+    removeListener(final GenericFutureListener<? extends Future<? super V>> listener)\n
     '''
 def removeListeners():
-    '''public ProgressivePromise<V> removeListeners(final GenericFutureListener<? extends Future<? super V>>... listeners)
+    '''returns ProgressivePromise<V>\n\n
+    removeListeners(final GenericFutureListener<? extends Future<? super V>>... listeners)\n
     '''
 def sync():
-    '''public ProgressivePromise<V> sync()
+    '''returns ProgressivePromise<V>\n\n
+    sync()\n
     '''
 def syncUninterruptibly():
-    '''public ProgressivePromise<V> syncUninterruptibly()
+    '''returns ProgressivePromise<V>\n\n
+    syncUninterruptibly()\n
     '''
 def await():
-    '''public ProgressivePromise<V> await()
+    '''returns ProgressivePromise<V>\n\n
+    await()\n
     '''
 def awaitUninterruptibly():
-    '''public ProgressivePromise<V> awaitUninterruptibly()
+    '''returns ProgressivePromise<V>\n\n
+    awaitUninterruptibly()\n
     '''
 def setSuccess():
-    '''public ProgressivePromise<V> setSuccess(final V result)
+    '''returns ProgressivePromise<V>\n\n
+    setSuccess(final V result)\n
     '''
 def setFailure():
-    '''public ProgressivePromise<V> setFailure(final Throwable cause)
+    '''returns ProgressivePromise<V>\n\n
+    setFailure(final Throwable cause)\n
     '''

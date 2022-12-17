@@ -1,30 +1,40 @@
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def setTableName():
-    '''public void setTableName(final String tableName)
+    '''returns None\n\n
+    setTableName(final String tableName)\n
     '''
 def getWhereClause():
-    '''public String getWhereClause()
+    '''returns String\n\n
+    getWhereClause()\n
     '''
 def setWhereClause():
-    '''public void setWhereClause(final String whereClause)
+    '''returns None\n\n
+    setWhereClause(final String whereClause)\n
     '''
 def getDatabase():
-    '''public String getDatabase()
+    '''returns String\n\n
+    getDatabase()\n
     '''
 def setDatabase():
-    '''public void setDatabase(final String database)
+    '''returns None\n\n
+    setDatabase(final String database)\n
     '''
 def getFailOnError():
-    '''public String getFailOnError()
+    '''returns String\n\n
+    getFailOnError()\n
     '''
 def setFailOnError():
-    '''public void setFailOnError(final String failOnError)
+    '''returns None\n\n
+    setFailOnError(final String failOnError)\n
     '''
 def getColumns():
-    '''public List<XMLColumn> getColumns()
+    '''returns List<XMLColumn>\n\n
+    getColumns()\n
     '''
 def addColumn():
-    '''public void addColumn(final XMLColumn column)
+    '''returns None\n\n
+    addColumn(final XMLColumn column)\n
     '''

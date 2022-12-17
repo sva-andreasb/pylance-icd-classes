@@ -1,6 +1,8 @@
-def ExcerptInputStream():
-    '''public ExcerptInputStream(final InputStream in)
+def ():
+    '''returns ExcerptInputStream\n\n
+    (final InputStream in)\n
     '''
 def getExcerpt():
-    '''public byte[] getExcerpt()
+    '''returns byte[]\n\n
+    getExcerpt()\n
     '''

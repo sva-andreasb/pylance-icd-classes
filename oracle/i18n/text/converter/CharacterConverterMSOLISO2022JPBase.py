@@ -1,37 +1,49 @@
-def CharacterConverterMSOLISO2022JPBase():
-    '''public CharacterConverterMSOLISO2022JPBase()
+def ():
+    '''returns CharacterConverterMSOLISO2022JPBase\n\n
+    ()\n
     '''
 def toUnicodeString():
-    '''public String toUnicodeString(final byte[] array, final int n, final int n2)
+    '''returns String\n\n
+    toUnicodeString(final byte[] array, final int n, final int n2)\n
     '''
 def toUnicodeStringWithReplacement():
-    '''public String toUnicodeStringWithReplacement(final byte[] array, final int n, final int n2)
+    '''returns String\n\n
+    toUnicodeStringWithReplacement(final byte[] array, final int n, final int n2)\n
     '''
 def toOracleString():
-    '''public byte[] toOracleString(final String s)
+    '''returns byte[]\n\n
+    toOracleString(final String s)\n
     '''
 def toOracleStringWithReplacement():
-    '''public byte[] toOracleStringWithReplacement(final char[] array, final int n, final byte[] array2, final int n2, final int[] array3)
+    '''returns byte[]\n\n
+    toOracleStringWithReplacement(final char[] array, final int n, final byte[] array2, final int n2, final int[] array3)\n
     '''
 def toISO2022JPStringFWHW():
-    '''public byte[] toISO2022JPStringFWHW(final char[] array, final int n, final byte[] array2, int n2, final int[] array3, final CharacterConverterBehavior characterConverterBehavior, final int n3)
+    '''returns byte[]\n\n
+    toISO2022JPStringFWHW(final char[] array, final int n, final byte[] array2, int n2, final int[] array3, final CharacterConverterBehavior characterConverterBehavior, final int n3)\n
     '''
 def buildUnicodeToOracleMapping():
-    '''public void buildUnicodeToOracleMapping()
+    '''returns None\n\n
+    buildUnicodeToOracleMapping()\n
     '''
 def hasExtraMappings():
-    '''public boolean hasExtraMappings()
+    '''returns boolean\n\n
+    hasExtraMappings()\n
     '''
 def getOraChar1ByteRep():
-    '''public char getOraChar1ByteRep()
+    '''returns char\n\n
+    getOraChar1ByteRep()\n
     '''
 def getOraChar2ByteRep():
-    '''public char getOraChar2ByteRep()
+    '''returns char\n\n
+    getOraChar2ByteRep()\n
     '''
 def getUCS2CharRep():
-    '''public int getUCS2CharRep()
+    '''returns int\n\n
+    getUCS2CharRep()\n
     '''
 def onFailConversion():
-    '''public void onFailConversion(final int n)
-    public void onFailConversion(final int n)
+    '''returns None\n\n
+    onFailConversion(final int n)\n
+    onFailConversion(final int n)\n
     '''

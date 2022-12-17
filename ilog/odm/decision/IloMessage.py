@@ -1,44 +1,49 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def createMessage():
-    '''public static IloMessage createMessage(final String pattern, final Object[] params)
-    public static IloMessage createMessage(final String text)
-    public IloMessage createMessage(final String patternId, final Object[] params)
-    public IloMessage createMessage(final String msg)
-    '''
 def compareTo():
-    '''public int compareTo(final IloMessage o)
+    '''returns int\n\n
+    compareTo(final IloMessage o)\n
     '''
 def format():
-    '''public Serializable format(final IloMessageParameterFormatter evaluator)
-    public Serializable format(final IloMessageParameterFormatter formatter)
-    public Serializable format(final IloMessageParameterFormatter formatter)
-    public Serializable format(final IloMessageParameterFormatter formatter)
+    '''returns Serializable\n\n
+    format(final IloMessageParameterFormatter evaluator)\n
+    format(final IloMessageParameterFormatter formatter)\n
+    format(final IloMessageParameterFormatter formatter)\n
+    format(final IloMessageParameterFormatter formatter)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def getMessageParameters():
-    '''public Object[] getMessageParameters()
-    public Object[] getMessageParameters()
-    public Object[] getMessageParameters()
-    public Object[] getMessageParameters()
+    '''returns Object[]\n\n
+    getMessageParameters()\n
+    getMessageParameters()\n
+    getMessageParameters()\n
+    getMessageParameters()\n
     '''
 def getText():
-    '''public String getText(final IloMessageParameterFormatter formatter)
+    '''returns String\n\n
+    getText(final IloMessageParameterFormatter formatter)\n
     '''
-def Interpreted():
-    '''public Interpreted(final String fixed, final Serializable[] params, final boolean status)
+def ():
+    '''returns Factory\n\n
+    (final String fixed, final Serializable[] params, final boolean status)\n
+    ()\n
+    (final IloResourceProvider resourceProvider)\n
     '''
 def getParameters():
-    '''public Serializable[] getParameters()
+    '''returns Serializable[]\n\n
+    getParameters()\n
     '''
 def getStatus():
-    '''public boolean getStatus()
+    '''returns boolean\n\n
+    getStatus()\n
     '''
-def Factory():
-    '''public Factory()
-    public Factory(final IloResourceProvider resourceProvider)
+def createMessage():
+    '''returns IloMessage\n\n
+    createMessage(final String patternId, final Object[] params)\n
+    createMessage(final String msg)\n
     '''

@@ -1,15 +1,20 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def attributeSearch():
-    '''public int attributeSearch()
+    '''returns int\n\n
+    attributeSearch()\n
     '''
 def multiSelectRecords():
-    '''public int multiSelectRecords()
+    '''returns int\n\n
+    multiSelectRecords()\n
     '''
 def execute():
-    '''public int execute(final MboSetRemote mboset)
+    '''returns int\n\n
+    execute(final MboSetRemote mboset)\n
     '''

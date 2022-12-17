@@ -1,28 +1,36 @@
 def checkUnicastDiscoveryConstraints():
-    '''public void checkUnicastDiscoveryConstraints(InvocationConstraints empty)
+    '''returns None\n\n
+    checkUnicastDiscoveryConstraints(InvocationConstraints empty)\n
     '''
 def doUnicastDiscovery():
-    '''public UnicastResponse doUnicastDiscovery(final Socket socket, InvocationConstraints empty, final ClassLoader classLoader, final ClassLoader classLoader2, final Collection collection, final ByteBuffer byteBuffer, final ByteBuffer byteBuffer2)
+    '''returns UnicastResponse\n\n
+    doUnicastDiscovery(final Socket socket, InvocationConstraints empty, final ClassLoader classLoader, final ClassLoader classLoader2, final Collection collection, final ByteBuffer byteBuffer, final ByteBuffer byteBuffer2)\n
     '''
 def create():
-    '''public ConnManager create(final ConnectionEndpoint connectionEndpoint)
+    '''returns ConnManager\n\n
+    create(final ConnectionEndpoint connectionEndpoint)\n
     '''
 def newRequest():
-    '''public OutboundRequestIterator newRequest(final OutboundRequestHandle outboundRequestHandle)
+    '''returns OutboundRequestIterator\n\n
+    newRequest(final OutboundRequestHandle outboundRequestHandle)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public OutboundRequest next()
+    '''returns OutboundRequest\n\n
+    next()\n
     '''
 def createSocket():
-    '''public Socket createSocket()
-    public Socket createSocket(final String s, final int n)
-    public Socket createSocket(final InetAddress inetAddress, final int n)
-    public Socket createSocket(final String s, final int n, final InetAddress inetAddress, final int n2)
-    public Socket createSocket(final InetAddress inetAddress, final int n, final InetAddress inetAddress2, final int n2)
+    '''returns Socket\n\n
+    createSocket()\n
+    createSocket(final String s, final int n)\n
+    createSocket(final InetAddress inetAddress, final int n)\n
+    createSocket(final String s, final int n, final InetAddress inetAddress, final int n2)\n
+    createSocket(final InetAddress inetAddress, final int n, final InetAddress inetAddress2, final int n2)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

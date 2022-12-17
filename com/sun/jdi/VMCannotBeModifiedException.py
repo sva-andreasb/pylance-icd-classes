@@ -1,4 +1,5 @@
-def VMCannotBeModifiedException():
-    '''public VMCannotBeModifiedException()
-    public VMCannotBeModifiedException(final String message)
+def ():
+    '''returns VMCannotBeModifiedException\n\n
+    ()\n
+    (final String message)\n
     '''

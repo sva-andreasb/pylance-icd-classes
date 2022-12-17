@@ -1,112 +1,148 @@
-def Property():
-    '''public Property()
-    public Property(final String name, final Occurs occurs, final URI propertyDefinition, final ValueType valueType)
+def ():
+    '''returns Property\n\n
+    ()\n
+    (final String name, final Occurs occurs, final URI propertyDefinition, final ValueType valueType)\n
     '''
 def addAllowedValue():
-    '''public void addAllowedValue(final String allowedValue)
+    '''returns None\n\n
+    addAllowedValue(final String allowedValue)\n
     '''
 def addRange():
-    '''public void addRange(final URI range)
+    '''returns None\n\n
+    addRange(final URI range)\n
     '''
 def compareTo():
-    '''public int compareTo(final Property o)
+    '''returns int\n\n
+    compareTo(final Property o)\n
     '''
 def getAllowedValues():
-    '''public String[] getAllowedValues()
+    '''returns String[]\n\n
+    getAllowedValues()\n
     '''
 def getAllowedValuesRef():
-    '''public URI getAllowedValuesRef()
+    '''returns URI\n\n
+    getAllowedValuesRef()\n
     '''
 def getDefaultValue():
-    '''public String getDefaultValue()
+    '''returns String\n\n
+    getDefaultValue()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getMaxSize():
-    '''public Integer getMaxSize()
+    '''returns Integer\n\n
+    getMaxSize()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getOccurs():
-    '''public URI getOccurs()
+    '''returns URI\n\n
+    getOccurs()\n
     '''
 def getPropertyDefinition():
-    '''public URI getPropertyDefinition()
+    '''returns URI\n\n
+    getPropertyDefinition()\n
     '''
 def getRange():
-    '''public URI[] getRange()
+    '''returns URI[]\n\n
+    getRange()\n
     '''
 def getRepresentation():
-    '''public URI getRepresentation()
+    '''returns URI\n\n
+    getRepresentation()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getValueShape():
-    '''public URI getValueShape()
+    '''returns URI\n\n
+    getValueShape()\n
     '''
 def getValueType():
-    '''public URI getValueType()
+    '''returns URI\n\n
+    getValueType()\n
     '''
 def isHidden():
-    '''public Boolean isHidden()
+    '''returns Boolean\n\n
+    isHidden()\n
     '''
 def isMemberProperty():
-    '''public Boolean isMemberProperty()
+    '''returns Boolean\n\n
+    isMemberProperty()\n
     '''
 def isReadOnly():
-    '''public Boolean isReadOnly()
+    '''returns Boolean\n\n
+    isReadOnly()\n
     '''
 def setAllowedValues():
-    '''public void setAllowedValues(final String[] allowedValues)
+    '''returns None\n\n
+    setAllowedValues(final String[] allowedValues)\n
     '''
 def setAllowedValuesRef():
-    '''public void setAllowedValuesRef(final URI allowedValuesRef)
+    '''returns None\n\n
+    setAllowedValuesRef(final URI allowedValuesRef)\n
     '''
 def setDefaultValue():
-    '''public void setDefaultValue(final String defaultValue)
+    '''returns None\n\n
+    setDefaultValue(final String defaultValue)\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def setHidden():
-    '''public void setHidden(final Boolean hidden)
+    '''returns None\n\n
+    setHidden(final Boolean hidden)\n
     '''
 def setMaxSize():
-    '''public void setMaxSize(final Integer maxSize)
+    '''returns None\n\n
+    setMaxSize(final Integer maxSize)\n
     '''
 def setMemberProperty():
-    '''public void setMemberProperty(final Boolean memberProperty)
+    '''returns None\n\n
+    setMemberProperty(final Boolean memberProperty)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def setOccurs():
-    '''public void setOccurs(final Occurs occurs)
-    public void setOccurs(final URI occurs)
+    '''returns None\n\n
+    setOccurs(final Occurs occurs)\n
+    setOccurs(final URI occurs)\n
     '''
 def setPropertyDefinition():
-    '''public void setPropertyDefinition(final URI propertyDefinition)
+    '''returns None\n\n
+    setPropertyDefinition(final URI propertyDefinition)\n
     '''
 def setRange():
-    '''public void setRange(final URI[] ranges)
+    '''returns None\n\n
+    setRange(final URI[] ranges)\n
     '''
 def setReadOnly():
-    '''public void setReadOnly(final Boolean readOnly)
+    '''returns None\n\n
+    setReadOnly(final Boolean readOnly)\n
     '''
 def setRepresentation():
-    '''public void setRepresentation(final Representation representation)
-    public void setRepresentation(final URI representation)
+    '''returns None\n\n
+    setRepresentation(final Representation representation)\n
+    setRepresentation(final URI representation)\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def setValueShape():
-    '''public void setValueShape(final URI valueShape)
+    '''returns None\n\n
+    setValueShape(final URI valueShape)\n
     '''
 def setValueType():
-    '''public void setValueType(final ValueType valueType)
-    public void setValueType(final URI valueType)
+    '''returns None\n\n
+    setValueType(final ValueType valueType)\n
+    setValueType(final URI valueType)\n
     '''

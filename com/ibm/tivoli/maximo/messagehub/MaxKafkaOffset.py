@@ -1,3 +1,4 @@
-def MaxKafkaOffset():
-    '''public MaxKafkaOffset(final MboSet ms)
+def ():
+    '''returns MaxKafkaOffset\n\n
+    (final MboSet ms)\n
     '''

@@ -19,110 +19,141 @@ OPT_MACRO = "int  8"
 OPT_COMPLEX = "int  16"
 OPT_BUILTIN = "int  32"
 OPT_BINDATA = "int  4096"
-def NameRecord():
-    '''public NameRecord()
-    public NameRecord(final byte builtin, final int sheetNumber)
-    public NameRecord(final RecordInputStream ris)
+def ():
+    '''returns NameRecord\n\n
+    ()\n
+    (final byte builtin, final int sheetNumber)\n
+    (final RecordInputStream ris)\n
     '''
 def setOptionFlag():
-    '''public void setOptionFlag(final short flag)
+    '''returns None\n\n
+    setOptionFlag(final short flag)\n
     '''
 def setKeyboardShortcut():
-    '''public void setKeyboardShortcut(final byte shortcut)
+    '''returns None\n\n
+    setKeyboardShortcut(final byte shortcut)\n
     '''
 def getSheetNumber():
-    '''public int getSheetNumber()
+    '''returns int\n\n
+    getSheetNumber()\n
     '''
 def getFnGroup():
-    '''public byte getFnGroup()
+    '''returns byte\n\n
+    getFnGroup()\n
     '''
 def setSheetNumber():
-    '''public void setSheetNumber(final int value)
+    '''returns None\n\n
+    setSheetNumber(final int value)\n
     '''
 def setNameText():
-    '''public void setNameText(final String name)
+    '''returns None\n\n
+    setNameText(final String name)\n
     '''
 def setCustomMenuText():
-    '''public void setCustomMenuText(final String text)
+    '''returns None\n\n
+    setCustomMenuText(final String text)\n
     '''
 def setDescriptionText():
-    '''public void setDescriptionText(final String text)
+    '''returns None\n\n
+    setDescriptionText(final String text)\n
     '''
 def setHelpTopicText():
-    '''public void setHelpTopicText(final String text)
+    '''returns None\n\n
+    setHelpTopicText(final String text)\n
     '''
 def setStatusBarText():
-    '''public void setStatusBarText(final String text)
+    '''returns None\n\n
+    setStatusBarText(final String text)\n
     '''
 def getOptionFlag():
-    '''public short getOptionFlag()
+    '''returns short\n\n
+    getOptionFlag()\n
     '''
 def getKeyboardShortcut():
-    '''public byte getKeyboardShortcut()
+    '''returns byte\n\n
+    getKeyboardShortcut()\n
     '''
 def isHiddenName():
-    '''public boolean isHiddenName()
+    '''returns boolean\n\n
+    isHiddenName()\n
     '''
 def setHidden():
-    '''public void setHidden(final boolean b)
+    '''returns None\n\n
+    setHidden(final boolean b)\n
     '''
 def isFunctionName():
-    '''public boolean isFunctionName()
+    '''returns boolean\n\n
+    isFunctionName()\n
     '''
 def setFunction():
-    '''public void setFunction(final boolean function)
+    '''returns None\n\n
+    setFunction(final boolean function)\n
     '''
 def hasFormula():
-    '''public boolean hasFormula()
+    '''returns boolean\n\n
+    hasFormula()\n
     '''
 def isCommandName():
-    '''public boolean isCommandName()
+    '''returns boolean\n\n
+    isCommandName()\n
     '''
 def isMacro():
-    '''public boolean isMacro()
+    '''returns boolean\n\n
+    isMacro()\n
     '''
 def isComplexFunction():
-    '''public boolean isComplexFunction()
+    '''returns boolean\n\n
+    isComplexFunction()\n
     '''
 def isBuiltInName():
-    '''public boolean isBuiltInName()
+    '''returns boolean\n\n
+    isBuiltInName()\n
     '''
 def getNameText():
-    '''public String getNameText()
+    '''returns String\n\n
+    getNameText()\n
     '''
 def getBuiltInName():
-    '''public byte getBuiltInName()
+    '''returns byte\n\n
+    getBuiltInName()\n
     '''
 def getNameDefinition():
-    '''public Ptg[] getNameDefinition()
+    '''returns Ptg[]\n\n
+    getNameDefinition()\n
     '''
 def setNameDefinition():
-    '''public void setNameDefinition(final Ptg[] ptgs)
+    '''returns None\n\n
+    setNameDefinition(final Ptg[] ptgs)\n
     '''
 def getCustomMenuText():
-    '''public String getCustomMenuText()
+    '''returns String\n\n
+    getCustomMenuText()\n
     '''
 def getDescriptionText():
-    '''public String getDescriptionText()
+    '''returns String\n\n
+    getDescriptionText()\n
     '''
 def getHelpTopicText():
-    '''public String getHelpTopicText()
+    '''returns String\n\n
+    getHelpTopicText()\n
     '''
 def getStatusBarText():
-    '''public String getStatusBarText()
+    '''returns String\n\n
+    getStatusBarText()\n
     '''
 def serialize():
-    '''public void serialize(final ContinuableRecordOutput out)
+    '''returns None\n\n
+    serialize(final ContinuableRecordOutput out)\n
     '''
 def getExternSheetNumber():
-    '''public int getExternSheetNumber()
+    '''returns int\n\n
+    getExternSheetNumber()\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def isFormula():
-    '''public static final boolean isFormula(final int optValue)
+    '''returns String\n\n
+    toString()\n
     '''

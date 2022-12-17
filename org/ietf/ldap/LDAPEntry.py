@@ -1,18 +1,23 @@
-def LDAPEntry():
-    '''public LDAPEntry()
-    public LDAPEntry(final String s)
-    public LDAPEntry(final String s, final LDAPAttributeSet set)
+def ():
+    '''returns LDAPEntry\n\n
+    ()\n
+    (final String s)\n
+    (final String s, final LDAPAttributeSet set)\n
     '''
 def getAttribute():
-    '''public LDAPAttribute getAttribute(final String s)
+    '''returns LDAPAttribute\n\n
+    getAttribute(final String s)\n
     '''
 def getAttributeSet():
-    '''public LDAPAttributeSet getAttributeSet()
-    public LDAPAttributeSet getAttributeSet(final String s)
+    '''returns LDAPAttributeSet\n\n
+    getAttributeSet()\n
+    getAttributeSet(final String s)\n
     '''
 def getDN():
-    '''public String getDN()
+    '''returns String\n\n
+    getDN()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''

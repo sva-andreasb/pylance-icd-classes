@@ -1,225 +1,300 @@
-def SKDInputParamInfo():
-    '''public SKDInputParamInfo()
+def ():
+    '''returns SKDInputParamInfo\n\n
+    ()\n
     '''
 def getResolutionSec():
-    '''public int getResolutionSec()
+    '''returns int\n\n
+    getResolutionSec()\n
     '''
 def setResolutionSec():
-    '''public void setResolutionSec(final int resolutionSec)
+    '''returns None\n\n
+    setResolutionSec(final int resolutionSec)\n
     '''
 def getSupportSkillLvls():
-    '''public int getSupportSkillLvls()
+    '''returns int\n\n
+    getSupportSkillLvls()\n
     '''
 def setSupportSkillLvls():
-    '''public void setSupportSkillLvls(final int supportSkillLvls)
+    '''returns None\n\n
+    setSupportSkillLvls(final int supportSkillLvls)\n
     '''
 def getPriorityDirection():
-    '''public int getPriorityDirection()
+    '''returns int\n\n
+    getPriorityDirection()\n
     '''
 def setPriorityDirection():
-    '''public void setPriorityDirection(final int priorityDirection)
+    '''returns None\n\n
+    setPriorityDirection(final int priorityDirection)\n
     '''
 def getEnablePriorities():
-    '''public int getEnablePriorities()
+    '''returns int\n\n
+    getEnablePriorities()\n
     '''
 def setEnablePriorities():
-    '''public void setEnablePriorities(final int enablePriorities)
+    '''returns None\n\n
+    setEnablePriorities(final int enablePriorities)\n
     '''
 def getParentZeroMinDur():
-    '''public int getParentZeroMinDur()
+    '''returns int\n\n
+    getParentZeroMinDur()\n
     '''
 def setParentZeroMinDur():
-    '''public void setParentZeroMinDur(final int parentZeroMinDur)
+    '''returns None\n\n
+    setParentZeroMinDur(final int parentZeroMinDur)\n
     '''
 def getHardConstraintAMS():
-    '''public int getHardConstraintAMS()
+    '''returns int\n\n
+    getHardConstraintAMS()\n
     '''
 def setHardConstraintAMS():
-    '''public void setHardConstraintAMS(final int hardConstraintAMS)
+    '''returns None\n\n
+    setHardConstraintAMS(final int hardConstraintAMS)\n
     '''
 def getHardConstraintAOS():
-    '''public int getHardConstraintAOS()
+    '''returns int\n\n
+    getHardConstraintAOS()\n
     '''
 def setHardConstraintAOS():
-    '''public void setHardConstraintAOS(final int hardConstraintAOS)
+    '''returns None\n\n
+    setHardConstraintAOS(final int hardConstraintAOS)\n
     '''
 def getHardConstraintLMS():
-    '''public int getHardConstraintLMS()
+    '''returns int\n\n
+    getHardConstraintLMS()\n
     '''
 def setHardConstraintLMS():
-    '''public void setHardConstraintLMS(final int hardConstraintLMS)
+    '''returns None\n\n
+    setHardConstraintLMS(final int hardConstraintLMS)\n
     '''
 def getHardConstraintLOS():
-    '''public int getHardConstraintLOS()
+    '''returns int\n\n
+    getHardConstraintLOS()\n
     '''
 def setHardConstraintLOS():
-    '''public void setHardConstraintLOS(final int hardConstraintLOS)
+    '''returns None\n\n
+    setHardConstraintLOS(final int hardConstraintLOS)\n
     '''
 def getSolutionPrecision():
-    '''public double getSolutionPrecision()
+    '''returns double\n\n
+    getSolutionPrecision()\n
     '''
 def setSolutionPrecision():
-    '''public void setSolutionPrecision(final double solutionPrecision)
+    '''returns None\n\n
+    setSolutionPrecision(final double solutionPrecision)\n
     '''
 def getEndDateGiven():
-    '''public int getEndDateGiven()
+    '''returns int\n\n
+    getEndDateGiven()\n
     '''
 def setEndDateGiven():
-    '''public void setEndDateGiven(final int endDateGiven)
+    '''returns None\n\n
+    setEndDateGiven(final int endDateGiven)\n
     '''
 def getIterationsLimit():
-    '''public int getIterationsLimit()
+    '''returns int\n\n
+    getIterationsLimit()\n
     '''
 def setIterationsLimit():
-    '''public void setIterationsLimit(final int iterationsLimit)
+    '''returns None\n\n
+    setIterationsLimit(final int iterationsLimit)\n
     '''
 def getDurationIncFactor():
-    '''public double getDurationIncFactor()
+    '''returns double\n\n
+    getDurationIncFactor()\n
     '''
 def setDurationIncFactor():
-    '''public void setDurationIncFactor(final double durationIncFactor)
+    '''returns None\n\n
+    setDurationIncFactor(final double durationIncFactor)\n
     '''
 def getEnableObjectiveToMinInteruption():
-    '''public int getEnableObjectiveToMinInteruption()
+    '''returns int\n\n
+    getEnableObjectiveToMinInteruption()\n
     '''
 def setEnableObjectiveToMinInteruption():
-    '''public void setEnableObjectiveToMinInteruption(final int enableObjectiveToMinInteruption)
+    '''returns None\n\n
+    setEnableObjectiveToMinInteruption(final int enableObjectiveToMinInteruption)\n
     '''
 def getPreserveStartDate():
-    '''public int getPreserveStartDate()
+    '''returns int\n\n
+    getPreserveStartDate()\n
     '''
 def setPreserveStartDate():
-    '''public void setPreserveStartDate(final int preserveStartDate)
+    '''returns None\n\n
+    setPreserveStartDate(final int preserveStartDate)\n
     '''
 def getVperctavail():
-    '''public int getVperctavail()
+    '''returns int\n\n
+    getVperctavail()\n
     '''
 def setVperctavail():
-    '''public void setVperctavail(final int vperctavail)
+    '''returns None\n\n
+    setVperctavail(final int vperctavail)\n
     '''
 def getMaxAssignwo():
-    '''public int getMaxAssignwo()
+    '''returns int\n\n
+    getMaxAssignwo()\n
     '''
 def setMaxAssignwo():
-    '''public void setMaxAssignwo(final int maxAssignwo)
+    '''returns None\n\n
+    setMaxAssignwo(final int maxAssignwo)\n
     '''
 def getMaxCrewlaborwo():
-    '''public int getMaxCrewlaborwo()
+    '''returns int\n\n
+    getMaxCrewlaborwo()\n
     '''
 def setMaxCrewlaborwo():
-    '''public void setMaxCrewlaborwo(final int maxCrewlaborwo)
+    '''returns None\n\n
+    setMaxCrewlaborwo(final int maxCrewlaborwo)\n
     '''
 def getMaxSumprwo():
-    '''public int getMaxSumprwo()
+    '''returns int\n\n
+    getMaxSumprwo()\n
     '''
 def setMaxSumprwo():
-    '''public void setMaxSumprwo(final int maxSumprwo)
+    '''returns None\n\n
+    setMaxSumprwo(final int maxSumprwo)\n
     '''
 def getMinTasktime():
-    '''public int getMinTasktime()
+    '''returns int\n\n
+    getMinTasktime()\n
     '''
 def setMinTasktime():
-    '''public void setMinTasktime(final int minTasktime)
+    '''returns None\n\n
+    setMinTasktime(final int minTasktime)\n
     '''
 def getIncludeTravleTime():
-    '''public int getIncludeTravleTime()
+    '''returns int\n\n
+    getIncludeTravleTime()\n
     '''
 def setIncludeTravleTime():
-    '''public void setIncludeTravleTime(final int includeTravleTime)
+    '''returns None\n\n
+    setIncludeTravleTime(final int includeTravleTime)\n
     '''
 def getMinCrewoverlap():
-    '''public int getMinCrewoverlap()
+    '''returns int\n\n
+    getMinCrewoverlap()\n
     '''
 def setMinCrewoverlap():
-    '''public void setMinCrewoverlap(final int minCrewoverlap)
+    '''returns None\n\n
+    setMinCrewoverlap(final int minCrewoverlap)\n
     '''
 def getMinTravelTime():
-    '''public int getMinTravelTime()
+    '''returns int\n\n
+    getMinTravelTime()\n
     '''
 def setMinTravelTime():
-    '''public void setMinTravelTime(final int minTravelTime)
+    '''returns None\n\n
+    setMinTravelTime(final int minTravelTime)\n
     '''
 def getCSkdWindow():
-    '''public int getCSkdWindow()
+    '''returns int\n\n
+    getCSkdWindow()\n
     '''
 def setCSkdWindow():
-    '''public void setCSkdWindow(final int cSkdWindow)
+    '''returns None\n\n
+    setCSkdWindow(final int cSkdWindow)\n
     '''
 def getCPerctBuffer():
-    '''public int getCPerctBuffer()
+    '''returns int\n\n
+    getCPerctBuffer()\n
     '''
 def setCAssigntimeBuffer():
-    '''public void setCAssigntimeBuffer(final int cAssigntimeBuffer)
+    '''returns None\n\n
+    setCAssigntimeBuffer(final int cAssigntimeBuffer)\n
     '''
 def getCAssigntimeBuffer():
-    '''public int getCAssigntimeBuffer()
+    '''returns int\n\n
+    getCAssigntimeBuffer()\n
     '''
 def setCPerctBuffer():
-    '''public void setCPerctBuffer(final int cPerctBuffer)
+    '''returns None\n\n
+    setCPerctBuffer(final int cPerctBuffer)\n
     '''
 def getVEndDate():
-    '''public Date getVEndDate()
+    '''returns Date\n\n
+    getVEndDate()\n
     '''
 def setVEndDate():
-    '''public void setVEndDate(final Date vEndDate)
+    '''returns None\n\n
+    setVEndDate(final Date vEndDate)\n
     '''
 def getCIncludeExtLabor():
-    '''public boolean getCIncludeExtLabor()
+    '''returns boolean\n\n
+    getCIncludeExtLabor()\n
     '''
 def setCIncludeExtLabor():
-    '''public void setCIncludeExtLabor(final boolean cIncludeExtLabor)
+    '''returns None\n\n
+    setCIncludeExtLabor(final boolean cIncludeExtLabor)\n
     '''
 def getCapacityPlan():
-    '''public int getCapacityPlan()
+    '''returns int\n\n
+    getCapacityPlan()\n
     '''
 def setCapacityPlan():
-    '''public void setCapacityPlan(final int capacityPlan)
+    '''returns None\n\n
+    setCapacityPlan(final int capacityPlan)\n
     '''
 def getRepairWindow():
-    '''public int getRepairWindow()
+    '''returns int\n\n
+    getRepairWindow()\n
     '''
 def setRepairWindow():
-    '''public void setRepairWindow(final int repairWindow)
+    '''returns None\n\n
+    setRepairWindow(final int repairWindow)\n
     '''
 def getCSendMultiCraft():
-    '''public boolean getCSendMultiCraft()
+    '''returns boolean\n\n
+    getCSendMultiCraft()\n
     '''
 def setCSendMultiCraft():
-    '''public void setCSendMultiCraft(final boolean cSendMultiCraft)
+    '''returns None\n\n
+    setCSendMultiCraft(final boolean cSendMultiCraft)\n
     '''
 def getCMatchWorkZone():
-    '''public int getCMatchWorkZone()
+    '''returns int\n\n
+    getCMatchWorkZone()\n
     '''
 def setCMatchWorkZone():
-    '''public void setCMatchWorkZone(final int cMatchWorkZone)
+    '''returns None\n\n
+    setCMatchWorkZone(final int cMatchWorkZone)\n
     '''
 def getCLocationWindow():
-    '''public int getCLocationWindow()
+    '''returns int\n\n
+    getCLocationWindow()\n
     '''
 def setCLocationWindow():
-    '''public void setCLocationWindow(final int cLocationWindow)
+    '''returns None\n\n
+    setCLocationWindow(final int cLocationWindow)\n
     '''
 def getCalendarBreak():
-    '''public int getCalendarBreak()
+    '''returns int\n\n
+    getCalendarBreak()\n
     '''
 def setCalendarBreak():
-    '''public void setCalendarBreak(final int calendarBreak)
+    '''returns None\n\n
+    setCalendarBreak(final int calendarBreak)\n
     '''
 def getCSecWorkZone():
-    '''public int getCSecWorkZone()
+    '''returns int\n\n
+    getCSecWorkZone()\n
     '''
 def setCSecWorkZone():
-    '''public void setCSecWorkZone(final int cSecWorkZone)
+    '''returns None\n\n
+    setCSecWorkZone(final int cSecWorkZone)\n
     '''
 def getRuntimeLimit():
-    '''public int getRuntimeLimit()
+    '''returns int\n\n
+    getRuntimeLimit()\n
     '''
 def setRuntimeLimit():
-    '''public void setRuntimeLimit(final int runTimeLimit)
+    '''returns None\n\n
+    setRuntimeLimit(final int runTimeLimit)\n
     '''
 def getMatchLaborAssignment():
-    '''public int getMatchLaborAssignment()
+    '''returns int\n\n
+    getMatchLaborAssignment()\n
     '''
 def setMatchLaborAssignment():
-    '''public void setMatchLaborAssignment(final int MatchLaborAssignment)
+    '''returns None\n\n
+    setMatchLaborAssignment(final int MatchLaborAssignment)\n
     '''

@@ -1,3 +1,4 @@
-def FldDPAAttributeName():
-    '''public FldDPAAttributeName(final MboValue mbv)
+def ():
+    '''returns FldDPAAttributeName\n\n
+    (final MboValue mbv)\n
     '''

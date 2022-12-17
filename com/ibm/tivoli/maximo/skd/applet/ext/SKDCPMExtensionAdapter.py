@@ -1,18 +1,24 @@
 def initialize():
-    '''public void initialize(final IlvGanttModel model, final IlvActivity[] selectedActivities)
+    '''returns None\n\n
+    initialize(final IlvGanttModel model, final IlvActivity[] selectedActivities)\n
     '''
 def computeEarlyStartAndFinish():
-    '''public SKDCPMAdjustedActivityData computeEarlyStartAndFinish(final IlvGanttModel model, final IlvActivity activity, final Date parentEarlyStart, final Date activityEarlyStart, final Date activityEarlyFinish)
+    '''returns SKDCPMAdjustedActivityData\n\n
+    computeEarlyStartAndFinish(final IlvGanttModel model, final IlvActivity activity, final Date parentEarlyStart, final Date activityEarlyStart, final Date activityEarlyFinish)\n
     '''
 def computeLateStartAndFinish():
-    '''public SKDCPMAdjustedActivityData computeLateStartAndFinish(final IlvGanttModel model, final IlvActivity activity, final Date parentLatestFinish, final Date activityLateStart, final Date activityLatefinish)
+    '''returns SKDCPMAdjustedActivityData\n\n
+    computeLateStartAndFinish(final IlvGanttModel model, final IlvActivity activity, final Date parentLatestFinish, final Date activityLateStart, final Date activityLatefinish)\n
     '''
 def isEarlyStartAndFinishAcceptable():
-    '''public boolean isEarlyStartAndFinishAcceptable(final IlvGanttModel model, final IlvActivity activity, final Date parentEarlyStart, final Date activityEarlyStart, final Date activityEarlyFinish)
+    '''returns boolean\n\n
+    isEarlyStartAndFinishAcceptable(final IlvGanttModel model, final IlvActivity activity, final Date parentEarlyStart, final Date activityEarlyStart, final Date activityEarlyFinish)\n
     '''
 def isLateStartAndFinishAcceptable():
-    '''public boolean isLateStartAndFinishAcceptable(final IlvGanttModel model, final IlvActivity activity, final Date parentLatestFinish, final Date activityLateStart, final Date activityLatefinish)
+    '''returns boolean\n\n
+    isLateStartAndFinishAcceptable(final IlvGanttModel model, final IlvActivity activity, final Date parentLatestFinish, final Date activityLateStart, final Date activityLatefinish)\n
     '''
 def release():
-    '''public void release(final IlvGanttModel model, final IlvActivity[] selectedActivities, final boolean success)
+    '''returns None\n\n
+    release(final IlvGanttModel model, final IlvActivity[] selectedActivities, final boolean success)\n
     '''

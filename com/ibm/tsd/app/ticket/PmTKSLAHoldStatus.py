@@ -1,9 +1,8 @@
-def isTicketStatusBeingAdded():
-    '''public static boolean isTicketStatusBeingAdded(final Mbo mbo)
-    '''
-def PmTKSLAHoldStatus():
-    '''public PmTKSLAHoldStatus(final MboSet ms)
+def ():
+    '''returns PmTKSLAHoldStatus\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

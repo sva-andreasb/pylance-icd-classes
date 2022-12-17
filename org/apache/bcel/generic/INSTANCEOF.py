@@ -1,12 +1,16 @@
-def INSTANCEOF():
-    '''public INSTANCEOF(final int index)
+def ():
+    '''returns INSTANCEOF\n\n
+    (final int index)\n
     '''
 def getExceptions():
-    '''public Class[] getExceptions()
+    '''returns Class[]\n\n
+    getExceptions()\n
     '''
 def getLoadClassType():
-    '''public ObjectType getLoadClassType(final ConstantPoolGen cpg)
+    '''returns ObjectType\n\n
+    getLoadClassType(final ConstantPoolGen cpg)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

@@ -1,25 +1,29 @@
-def createDefaultInstance():
-    '''public static Separators createDefaultInstance()
-    '''
-def Separators():
-    '''public Separators()
-    public Separators(final char objectFieldValueSeparator, final char objectEntrySeparator, final char arrayValueSeparator)
+def ():
+    '''returns Separators\n\n
+    ()\n
+    (final char objectFieldValueSeparator, final char objectEntrySeparator, final char arrayValueSeparator)\n
     '''
 def withObjectFieldValueSeparator():
-    '''public Separators withObjectFieldValueSeparator(final char sep)
+    '''returns Separators\n\n
+    withObjectFieldValueSeparator(final char sep)\n
     '''
 def withObjectEntrySeparator():
-    '''public Separators withObjectEntrySeparator(final char sep)
+    '''returns Separators\n\n
+    withObjectEntrySeparator(final char sep)\n
     '''
 def withArrayValueSeparator():
-    '''public Separators withArrayValueSeparator(final char sep)
+    '''returns Separators\n\n
+    withArrayValueSeparator(final char sep)\n
     '''
 def getObjectFieldValueSeparator():
-    '''public char getObjectFieldValueSeparator()
+    '''returns char\n\n
+    getObjectFieldValueSeparator()\n
     '''
 def getObjectEntrySeparator():
-    '''public char getObjectEntrySeparator()
+    '''returns char\n\n
+    getObjectEntrySeparator()\n
     '''
 def getArrayValueSeparator():
-    '''public char getArrayValueSeparator()
+    '''returns char\n\n
+    getArrayValueSeparator()\n
     '''

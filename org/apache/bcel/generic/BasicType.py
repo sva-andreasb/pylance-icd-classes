@@ -1,9 +1,8 @@
-def getType():
-    '''public static final BasicType getType(final byte type)
-    '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object _type)
+    '''returns boolean\n\n
+    equals(final Object _type)\n
     '''

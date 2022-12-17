@@ -1,26 +1,34 @@
 compression = "boolean  false"
-def StringFile():
-    '''public StringFile(final ObjectFile file)
+def ():
+    '''returns StringFile\n\n
+    (final ObjectFile file)\n
     '''
 def write():
-    '''public long write(String str)
+    '''returns long\n\n
+    write(String str)\n
     '''
 def read():
-    '''public String read(final long id)
+    '''returns String\n\n
+    read(final long id)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def sync():
-    '''public void sync(final boolean force)
+    '''returns None\n\n
+    sync(final boolean force)\n
     '''
 def getByteBufferFile():
-    '''public ObjectFile getByteBufferFile()
+    '''returns ObjectFile\n\n
+    getByteBufferFile()\n
     '''
 def dump():
-    '''public void dump()
-    public void dump(final DumpHandler handler)
+    '''returns None\n\n
+    dump()\n
+    dump(final DumpHandler handler)\n
     '''
 def handle():
-    '''public void handle(final long fileIdx, final String str)
+    '''returns None\n\n
+    handle(final long fileIdx, final String str)\n
     '''

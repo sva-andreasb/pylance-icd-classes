@@ -1,26 +1,34 @@
 sid = "short  193"
-def MMSRecord():
-    '''public MMSRecord()
-    public MMSRecord(final RecordInputStream in)
+def ():
+    '''returns MMSRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setAddMenuCount():
-    '''public void setAddMenuCount(final byte am)
+    '''returns None\n\n
+    setAddMenuCount(final byte am)\n
     '''
 def setDelMenuCount():
-    '''public void setDelMenuCount(final byte dm)
+    '''returns None\n\n
+    setDelMenuCount(final byte dm)\n
     '''
 def getAddMenuCount():
-    '''public byte getAddMenuCount()
+    '''returns byte\n\n
+    getAddMenuCount()\n
     '''
 def getDelMenuCount():
-    '''public byte getDelMenuCount()
+    '''returns byte\n\n
+    getDelMenuCount()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''

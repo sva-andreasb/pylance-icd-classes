@@ -3,52 +3,55 @@ FILTER_TYPE_CHILDRELEASE = "String  \"CHILDRELEASE\""
 FILTER_TYPE_PARENTRELATION = "String  \"PARENTRELATION\""
 FILTER_TYPE_CHILDRELATION = "String  \"CHILDRELATION\""
 FILTER_TYPE_CONVERSIONVARIANT = "String  \"CONVERSIONVARIANT\""
-def SoftwareCatalog():
-    '''public SoftwareCatalog(final MboSet ms)
+def ():
+    '''returns SoftwareCatalog\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setNameAndTypeReadOnly():
-    '''public void setNameAndTypeReadOnly()
+    '''returns None\n\n
+    setNameAndTypeReadOnly()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def toBeSaved():
-    '''public boolean toBeSaved()
+    '''returns boolean\n\n
+    toBeSaved()\n
     '''
 def generateUniqueId():
-    '''public String generateUniqueId()
-    public static String generateUniqueId(String swname, String version, String release, String manufacturer, final String unknownString)
+    '''returns String\n\n
+    generateUniqueId()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def getVuiExhibitID():
-    '''public String getVuiExhibitID()
+    '''returns String\n\n
+    getVuiExhibitID()\n
     '''
 def getParent():
-    '''public SoftwareCatalogRemote getParent()
-    '''
-def getFilterClause():
-    '''public static String getFilterClause(final String requestedType)
-    '''
-def combineSubClauses():
-    '''public static String combineSubClauses(final String[] subClauses)
-    '''
-def getCatalogRecord():
-    '''public static MboRemote getCatalogRecord(final long tloamsoftwareid, final UserInfo userInfo)
+    '''returns SoftwareCatalogRemote\n\n
+    getParent()\n
     '''

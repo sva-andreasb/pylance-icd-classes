@@ -1,4 +1,5 @@
-def JMRuntimeException():
-    '''public JMRuntimeException()
-    public JMRuntimeException(final String message)
+def ():
+    '''returns JMRuntimeException\n\n
+    ()\n
+    (final String message)\n
     '''

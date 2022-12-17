@@ -1,15 +1,14 @@
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
-def Token():
-    '''public Token()
-    public Token(final int kind)
-    public Token(final int kind, final String image)
+def ():
+    '''returns Token\n\n
+    ()\n
+    (final int kind)\n
+    (final int kind, final String image)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def newToken():
-    '''public static Token newToken(final int ofKind, final String image)
-    public static Token newToken(final int ofKind)
+    '''returns String\n\n
+    toString()\n
     '''

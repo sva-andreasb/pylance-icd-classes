@@ -1,63 +1,80 @@
-def Privacy():
-    '''public Privacy()
+def ():
+    '''returns Privacy\n\n
+    ()\n
     '''
 def setPrivacyList():
-    '''public List setPrivacyList(final String listName, final List<PrivacyItem> listItem)
+    '''returns List\n\n
+    setPrivacyList(final String listName, final List<PrivacyItem> listItem)\n
     '''
 def setActivePrivacyList():
-    '''public List<PrivacyItem> setActivePrivacyList()
+    '''returns List<PrivacyItem>\n\n
+    setActivePrivacyList()\n
     '''
 def deletePrivacyList():
-    '''public void deletePrivacyList(final String listName)
+    '''returns None\n\n
+    deletePrivacyList(final String listName)\n
     '''
 def getActivePrivacyList():
-    '''public List<PrivacyItem> getActivePrivacyList()
+    '''returns List<PrivacyItem>\n\n
+    getActivePrivacyList()\n
     '''
 def getDefaultPrivacyList():
-    '''public List<PrivacyItem> getDefaultPrivacyList()
+    '''returns List<PrivacyItem>\n\n
+    getDefaultPrivacyList()\n
     '''
 def getPrivacyList():
-    '''public List<PrivacyItem> getPrivacyList(final String listName)
+    '''returns List<PrivacyItem>\n\n
+    getPrivacyList(final String listName)\n
     '''
 def getItem():
-    '''public PrivacyItem getItem(final String listName, final int order)
+    '''returns PrivacyItem\n\n
+    getItem(final String listName, final int order)\n
     '''
 def changeDefaultList():
-    '''public boolean changeDefaultList(final String newDefault)
+    '''returns boolean\n\n
+    changeDefaultList(final String newDefault)\n
     '''
 def deleteList():
-    '''public void deleteList(final String listName)
+    '''returns None\n\n
+    deleteList(final String listName)\n
     '''
 def getActiveName():
-    '''public String getActiveName()
+    '''returns String\n\n
+    getActiveName()\n
     '''
 def setActiveName():
-    '''public void setActiveName(final String activeName)
+    '''returns None\n\n
+    setActiveName(final String activeName)\n
     '''
 def getDefaultName():
-    '''public String getDefaultName()
+    '''returns String\n\n
+    getDefaultName()\n
     '''
 def setDefaultName():
-    '''public void setDefaultName(final String defaultName)
-    '''
-def getItemLists():
-    '''public Map<String, List<PrivacyItem>> getItemLists()
+    '''returns None\n\n
+    setDefaultName(final String defaultName)\n
     '''
 def isDeclineActiveList():
-    '''public boolean isDeclineActiveList()
+    '''returns boolean\n\n
+    isDeclineActiveList()\n
     '''
 def setDeclineActiveList():
-    '''public void setDeclineActiveList(final boolean declineActiveList)
+    '''returns None\n\n
+    setDeclineActiveList(final boolean declineActiveList)\n
     '''
 def isDeclineDefaultList():
-    '''public boolean isDeclineDefaultList()
+    '''returns boolean\n\n
+    isDeclineDefaultList()\n
     '''
 def setDeclineDefaultList():
-    '''public void setDeclineDefaultList(final boolean declineDefaultList)
+    '''returns None\n\n
+    setDeclineDefaultList(final boolean declineDefaultList)\n
     '''
 def getPrivacyListNames():
-    '''public Set<String> getPrivacyListNames()
+    '''returns Set<String>\n\n
+    getPrivacyListNames()\n
     '''
 def getChildElementXML():
-    '''public String getChildElementXML()
+    '''returns String\n\n
+    getChildElementXML()\n
     '''

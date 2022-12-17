@@ -1,24 +1,32 @@
-def BasicMDCAdapter():
-    '''public BasicMDCAdapter()
+def ():
+    '''returns BasicMDCAdapter\n\n
+    ()\n
     '''
 def put():
-    '''public void put(final String key, final String val)
+    '''returns None\n\n
+    put(final String key, final String val)\n
     '''
 def get():
-    '''public String get(final String key)
+    '''returns String\n\n
+    get(final String key)\n
     '''
 def remove():
-    '''public void remove(final String key)
+    '''returns None\n\n
+    remove(final String key)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def getKeys():
-    '''public Set getKeys()
+    '''returns Set\n\n
+    getKeys()\n
     '''
 def getCopyOfContextMap():
-    '''public Map getCopyOfContextMap()
+    '''returns Map\n\n
+    getCopyOfContextMap()\n
     '''
 def setContextMap():
-    '''public void setContextMap(final Map contextMap)
+    '''returns None\n\n
+    setContextMap(final Map contextMap)\n
     '''

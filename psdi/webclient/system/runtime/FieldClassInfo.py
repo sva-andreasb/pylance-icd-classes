@@ -1,15 +1,20 @@
-def FieldClassInfo():
-    '''public FieldClassInfo(final String name)
+def ():
+    '''returns FieldClassInfo\n\n
+    (final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def hasValidateMethod():
-    '''public boolean hasValidateMethod()
+    '''returns boolean\n\n
+    hasValidateMethod()\n
     '''
 def hasActionMethod():
-    '''public boolean hasActionMethod()
+    '''returns boolean\n\n
+    hasActionMethod()\n
     '''
 def hasGetListMethod():
-    '''public boolean hasGetListMethod()
+    '''returns boolean\n\n
+    hasGetListMethod()\n
     '''

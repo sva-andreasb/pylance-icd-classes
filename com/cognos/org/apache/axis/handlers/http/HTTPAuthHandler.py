@@ -1,3 +1,4 @@
 def invoke():
-    '''public void invoke(final MessageContext msgContext)
+    '''returns None\n\n
+    invoke(final MessageContext msgContext)\n
     '''

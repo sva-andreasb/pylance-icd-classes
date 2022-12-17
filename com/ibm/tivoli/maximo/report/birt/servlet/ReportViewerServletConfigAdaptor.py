@@ -1,15 +1,20 @@
-def ReportViewerServletConfigAdaptor():
-    '''public ReportViewerServletConfigAdaptor(final Servlet servlet, final Dictionary initparams, final ServletContext servletContext)
+def ():
+    '''returns ReportViewerServletConfigAdaptor\n\n
+    (final Servlet servlet, final Dictionary initparams, final ServletContext servletContext)\n
     '''
 def getServletName():
-    '''public String getServletName()
+    '''returns String\n\n
+    getServletName()\n
     '''
 def getServletContext():
-    '''public ServletContext getServletContext()
+    '''returns ServletContext\n\n
+    getServletContext()\n
     '''
 def getInitParameter():
-    '''public String getInitParameter(final String name)
+    '''returns String\n\n
+    getInitParameter(final String name)\n
     '''
 def getInitParameterNames():
-    '''public Enumeration getInitParameterNames()
+    '''returns Enumeration\n\n
+    getInitParameterNames()\n
     '''

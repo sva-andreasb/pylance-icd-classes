@@ -1,3 +1,4 @@
-def InboundCommSet():
-    '''public InboundCommSet(final MboServerInterface ms)
+def ():
+    '''returns InboundCommSet\n\n
+    (final MboServerInterface ms)\n
     '''

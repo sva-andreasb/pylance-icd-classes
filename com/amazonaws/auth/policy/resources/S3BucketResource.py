@@ -1,3 +1,4 @@
-def S3BucketResource():
-    '''public S3BucketResource(final String bucketName)
+def ():
+    '''returns S3BucketResource\n\n
+    (final String bucketName)\n
     '''

@@ -1,4 +1,5 @@
-def InfectionException():
-    '''public InfectionException(final String error)
-    public InfectionException(final String error, final Throwable exception)
+def ():
+    '''returns InfectionException\n\n
+    (final String error)\n
+    (final String error, final Throwable exception)\n
     '''

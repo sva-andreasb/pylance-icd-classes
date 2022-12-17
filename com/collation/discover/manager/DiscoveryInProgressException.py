@@ -1,4 +1,5 @@
-def DiscoveryInProgressException():
-    '''public DiscoveryInProgressException()
-    public DiscoveryInProgressException(final String msg)
+def ():
+    '''returns DiscoveryInProgressException\n\n
+    ()\n
+    (final String msg)\n
     '''

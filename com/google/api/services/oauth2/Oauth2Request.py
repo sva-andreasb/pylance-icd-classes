@@ -1,57 +1,72 @@
-def Oauth2Request():
-    '''public Oauth2Request(final Oauth2 oauth2, final String s, final String s2, final Object o, final Class<T> clazz)
+def ():
+    '''returns Oauth2Request\n\n
+    (final Oauth2 oauth2, final String s, final String s2, final Object o, final Class<T> clazz)\n
     '''
 def getAlt():
-    '''public String getAlt()
+    '''returns String\n\n
+    getAlt()\n
     '''
 def setAlt():
-    '''public Oauth2Request<T> setAlt(final String alt)
+    '''returns Oauth2Request<T>\n\n
+    setAlt(final String alt)\n
     '''
 def getFields():
-    '''public String getFields()
+    '''returns String\n\n
+    getFields()\n
     '''
 def setFields():
-    '''public Oauth2Request<T> setFields(final String fields)
+    '''returns Oauth2Request<T>\n\n
+    setFields(final String fields)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public Oauth2Request<T> setKey(final String key)
+    '''returns Oauth2Request<T>\n\n
+    setKey(final String key)\n
     '''
 def getOauthToken():
-    '''public String getOauthToken()
+    '''returns String\n\n
+    getOauthToken()\n
     '''
 def setOauthToken():
-    '''public Oauth2Request<T> setOauthToken(final String oauthToken)
+    '''returns Oauth2Request<T>\n\n
+    setOauthToken(final String oauthToken)\n
     '''
 def getPrettyPrint():
-    '''public Boolean getPrettyPrint()
+    '''returns Boolean\n\n
+    getPrettyPrint()\n
     '''
 def setPrettyPrint():
-    '''public Oauth2Request<T> setPrettyPrint(final Boolean prettyPrint)
+    '''returns Oauth2Request<T>\n\n
+    setPrettyPrint(final Boolean prettyPrint)\n
     '''
 def getQuotaUser():
-    '''public String getQuotaUser()
+    '''returns String\n\n
+    getQuotaUser()\n
     '''
 def setQuotaUser():
-    '''public Oauth2Request<T> setQuotaUser(final String quotaUser)
+    '''returns Oauth2Request<T>\n\n
+    setQuotaUser(final String quotaUser)\n
     '''
 def getUserIp():
-    '''public String getUserIp()
+    '''returns String\n\n
+    getUserIp()\n
     '''
 def setUserIp():
-    '''public Oauth2Request<T> setUserIp(final String userIp)
-    '''
-def getAbstractGoogleClient():
-    '''public final Oauth2 getAbstractGoogleClient()
+    '''returns Oauth2Request<T>\n\n
+    setUserIp(final String userIp)\n
     '''
 def setDisableGZipContent():
-    '''public Oauth2Request<T> setDisableGZipContent(final boolean disableGZipContent)
+    '''returns Oauth2Request<T>\n\n
+    setDisableGZipContent(final boolean disableGZipContent)\n
     '''
 def setRequestHeaders():
-    '''public Oauth2Request<T> setRequestHeaders(final HttpHeaders requestHeaders)
+    '''returns Oauth2Request<T>\n\n
+    setRequestHeaders(final HttpHeaders requestHeaders)\n
     '''
 def set():
-    '''public Oauth2Request<T> set(final String s, final Object o)
+    '''returns Oauth2Request<T>\n\n
+    set(final String s, final Object o)\n
     '''

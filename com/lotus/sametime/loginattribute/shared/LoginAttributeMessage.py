@@ -2,29 +2,37 @@ LOGIN_PUBLISH_ATTRIBUTE_REQUEST = "short  0"
 LOGIN_REMOVE_ATTRIBUTE_REQUEST = "short  1"
 LOGIN_PUBLISH_ATTRIBUTE_RESPONSE = "short  Short.MIN_VALUE"
 LOGIN_REMOVE_ATTRIBUTE_RESPONSE = "short  -32767"
-def LoginAttributeMessage():
-    '''public LoginAttributeMessage(final short msgType, final int requestId, final int attributeId, final byte[] value)
-    public LoginAttributeMessage(final short msgType, final int requestId, final int status)
-    public LoginAttributeMessage(final short n, final NdrInputStream ndrInputStream)
+def ():
+    '''returns LoginAttributeMessage\n\n
+    (final short msgType, final int requestId, final int attributeId, final byte[] value)\n
+    (final short msgType, final int requestId, final int status)\n
+    (final short n, final NdrInputStream ndrInputStream)\n
     '''
 def setResponseInfo():
-    '''public void setResponseInfo(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    setResponseInfo(final NdrOutputStream ndrOutputStream)\n
     '''
 def getMsgType():
-    '''public short getMsgType()
+    '''returns short\n\n
+    getMsgType()\n
     '''
 def setRequestInfo():
-    '''public void setRequestInfo(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    setRequestInfo(final NdrOutputStream ndrOutputStream)\n
     '''
 def getStatus():
-    '''public int getStatus()
+    '''returns int\n\n
+    getStatus()\n
     '''
 def getRequestId():
-    '''public int getRequestId()
+    '''returns int\n\n
+    getRequestId()\n
     '''
 def getAttributeId():
-    '''public int getAttributeId()
+    '''returns int\n\n
+    getAttributeId()\n
     '''
 def getValue():
-    '''public byte[] getValue()
+    '''returns byte[]\n\n
+    getValue()\n
     '''

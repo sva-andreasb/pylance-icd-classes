@@ -1,3 +1,4 @@
-def RelatedSLASet():
-    '''public RelatedSLASet(final MboServerInterface ms)
+def ():
+    '''returns RelatedSLASet\n\n
+    (final MboServerInterface ms)\n
     '''

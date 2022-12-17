@@ -7,48 +7,55 @@ ATTRIBUTE_TYPE_INVALID = "int  1001"
 LIST_INVALID = "int  2000"
 UNION_INVALID = "int  3000"
 UNDEFINED = "int  10000"
-def forCursorWithDetails():
-    '''public static XmlValidationError forCursorWithDetails(final String message, final String code, final Object[] args, final int severity, final XmlCursor cursor, final QName fieldQName, final QName offendingQname, final SchemaType expectedSchemaType, final List expectedQNames, final int errorType, final SchemaType badSchemaType)
-    '''
-def forLocationWithDetails():
-    '''public static XmlValidationError forLocationWithDetails(final String message, final String code, final Object[] args, final int severity, final Location location, final QName fieldQName, final QName offendingQname, final SchemaType expectedSchemaType, final List expectedQNames, final int errorType, final SchemaType badSchemaType)
-    '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getBadSchemaType():
-    '''public SchemaType getBadSchemaType()
+    '''returns SchemaType\n\n
+    getBadSchemaType()\n
     '''
 def setBadSchemaType():
-    '''public void setBadSchemaType(final SchemaType _badSchemaType)
+    '''returns None\n\n
+    setBadSchemaType(final SchemaType _badSchemaType)\n
     '''
 def getErrorType():
-    '''public int getErrorType()
+    '''returns int\n\n
+    getErrorType()\n
     '''
 def setErrorType():
-    '''public void setErrorType(final int _errorType)
+    '''returns None\n\n
+    setErrorType(final int _errorType)\n
     '''
 def getExpectedQNames():
-    '''public List getExpectedQNames()
+    '''returns List\n\n
+    getExpectedQNames()\n
     '''
 def setExpectedQNames():
-    '''public void setExpectedQNames(final List _expectedQNames)
+    '''returns None\n\n
+    setExpectedQNames(final List _expectedQNames)\n
     '''
 def getFieldQName():
-    '''public QName getFieldQName()
+    '''returns QName\n\n
+    getFieldQName()\n
     '''
 def setFieldQName():
-    '''public void setFieldQName(final QName _fieldQName)
+    '''returns None\n\n
+    setFieldQName(final QName _fieldQName)\n
     '''
 def getOffendingQName():
-    '''public QName getOffendingQName()
+    '''returns QName\n\n
+    getOffendingQName()\n
     '''
 def setOffendingQName():
-    '''public void setOffendingQName(final QName _offendingQName)
+    '''returns None\n\n
+    setOffendingQName(final QName _offendingQName)\n
     '''
 def getExpectedSchemaType():
-    '''public SchemaType getExpectedSchemaType()
+    '''returns SchemaType\n\n
+    getExpectedSchemaType()\n
     '''
 def setExpectedSchemaType():
-    '''public void setExpectedSchemaType(final SchemaType _expectedSchemaType)
+    '''returns None\n\n
+    setExpectedSchemaType(final SchemaType _expectedSchemaType)\n
     '''

@@ -1,3 +1,4 @@
-def Rule():
-    '''public Rule(final MboSet ms)
+def ():
+    '''returns Rule\n\n
+    (final MboSet ms)\n
     '''

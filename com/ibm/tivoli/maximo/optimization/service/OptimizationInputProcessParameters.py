@@ -1,57 +1,76 @@
-def OptimizationInputProcessParameters():
-    '''public OptimizationInputProcessParameters()
+def ():
+    '''returns OptimizationInputProcessParameters\n\n
+    ()\n
     '''
 def getScenarioName():
-    '''public String getScenarioName()
+    '''returns String\n\n
+    getScenarioName()\n
     '''
 def setScenarioName():
-    '''public void setScenarioName(final String scenarioName)
+    '''returns None\n\n
+    setScenarioName(final String scenarioName)\n
     '''
 def setProjectId():
-    '''public void setProjectId(final long projectId)
+    '''returns None\n\n
+    setProjectId(final long projectId)\n
     '''
 def getProjectId():
-    '''public long getProjectId()
+    '''returns long\n\n
+    getProjectId()\n
     '''
 def getInputParameters():
-    '''public Object getInputParameters()
+    '''returns Object\n\n
+    getInputParameters()\n
     '''
 def setInputParameters():
-    '''public void setInputParameters(final Serializable parameters)
+    '''returns None\n\n
+    setInputParameters(final Serializable parameters)\n
     '''
 def setInputProcessParameter():
-    '''public void setInputProcessParameter(final String parameterName, final Serializable entryValue)
+    '''returns None\n\n
+    setInputProcessParameter(final String parameterName, final Serializable entryValue)\n
     '''
 def getInputProcessParameter():
-    '''public Object getInputProcessParameter(final String parameterName)
+    '''returns Object\n\n
+    getInputProcessParameter(final String parameterName)\n
     '''
 def setUserInfo():
-    '''public void setUserInfo(final UserInfo userInfo)
+    '''returns None\n\n
+    setUserInfo(final UserInfo userInfo)\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def getOdmappName():
-    '''public String getOdmappName()
+    '''returns String\n\n
+    getOdmappName()\n
     '''
 def setOdmappName():
-    '''public void setOdmappName(final String odmappName)
+    '''returns None\n\n
+    setOdmappName(final String odmappName)\n
     '''
 def setModel():
-    '''public void setModel(final String model)
+    '''returns None\n\n
+    setModel(final String model)\n
     '''
 def getModel():
-    '''public String getModel()
+    '''returns String\n\n
+    getModel()\n
     '''
 def setModelType():
-    '''public void setModelType(final String modelType)
+    '''returns None\n\n
+    setModelType(final String modelType)\n
     '''
 def getModelType():
-    '''public String getModelType()
+    '''returns String\n\n
+    getModelType()\n
     '''
 def setModelVersion():
-    '''public void setModelVersion(final int modelVersion)
+    '''returns None\n\n
+    setModelVersion(final int modelVersion)\n
     '''
 def getModelVersion():
-    '''public int getModelVersion()
+    '''returns int\n\n
+    getModelVersion()\n
     '''

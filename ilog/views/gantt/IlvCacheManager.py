@@ -1,45 +1,60 @@
 def isReservationCachingEnabled():
-    '''public boolean isReservationCachingEnabled()
+    '''returns boolean\n\n
+    isReservationCachingEnabled()\n
     '''
 def setReservationCachingEnabled():
-    '''public void setReservationCachingEnabled(final boolean b)
+    '''returns None\n\n
+    setReservationCachingEnabled(final boolean b)\n
     '''
 def cacheAllReservations():
-    '''public void cacheAllReservations()
+    '''returns None\n\n
+    cacheAllReservations()\n
     '''
 def getReservationCacheLoadThreshold():
-    '''public float getReservationCacheLoadThreshold()
+    '''returns float\n\n
+    getReservationCacheLoadThreshold()\n
     '''
 def setReservationCacheLoadThreshold():
-    '''public void setReservationCacheLoadThreshold(final float e)
+    '''returns None\n\n
+    setReservationCacheLoadThreshold(final float e)\n
     '''
 def getReservationCacheLoadFactor():
-    '''public float getReservationCacheLoadFactor()
+    '''returns float\n\n
+    getReservationCacheLoadFactor()\n
     '''
 def setReservationCacheLoadFactor():
-    '''public void setReservationCacheLoadFactor(final float f)
+    '''returns None\n\n
+    setReservationCacheLoadFactor(final float f)\n
     '''
 def reservationIterator():
-    '''public Iterator<IlvReservation> reservationIterator(final IlvResource ilvResource)
+    '''returns Iterator<IlvReservation>\n\n
+    reservationIterator(final IlvResource ilvResource)\n
     '''
 def addReservationListener():
-    '''public void addReservationListener(final ReservationListener reservationListener)
+    '''returns None\n\n
+    addReservationListener(final ReservationListener reservationListener)\n
     '''
 def removeReservationListener():
-    '''public void removeReservationListener(final ReservationListener reservationListener)
+    '''returns None\n\n
+    removeReservationListener(final ReservationListener reservationListener)\n
     '''
 def visibleTimeChanged():
-    '''public void visibleTimeChanged(final VisibleTimeChangedEvent visibleTimeChangedEvent)
+    '''returns None\n\n
+    visibleTimeChanged(final VisibleTimeChangedEvent visibleTimeChangedEvent)\n
     '''
 def visibleDurationChanged():
-    '''public void visibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)
+    '''returns None\n\n
+    visibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)\n
     '''
 def minVisibleTimeChanged():
-    '''public void minVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)
+    '''returns None\n\n
+    minVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)\n
     '''
 def maxVisibleTimeChanged():
-    '''public void maxVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)
+    '''returns None\n\n
+    maxVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)\n
     '''
 def minVisibleDurationChanged():
-    '''public void minVisibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)
+    '''returns None\n\n
+    minVisibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)\n
     '''

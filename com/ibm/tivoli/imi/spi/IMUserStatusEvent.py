@@ -1,6 +1,8 @@
-def IMUserStatusEvent():
-    '''public IMUserStatusEvent(final Object o, final IMSession imSession, final IMUser imUser, final IMUser.IMUserStatus userStatus)
+def ():
+    '''returns IMUserStatusEvent\n\n
+    (final Object o, final IMSession imSession, final IMUser imUser, final IMUser.IMUserStatus userStatus)\n
     '''
 def getContent():
-    '''public IMUser getContent()
+    '''returns IMUser\n\n
+    getContent()\n
     '''

@@ -1,9 +1,12 @@
-def CalendarView():
-    '''public CalendarView(final MboSet ms)
+def ():
+    '''returns CalendarView\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setAllDayNDates():
-    '''public void setAllDayNDates(final Date clientAMWorkDate)
+    '''returns None\n\n
+    setAllDayNDates(final Date clientAMWorkDate)\n
     '''

@@ -1,0 +1,5 @@
+LOG4J_LOG_EVENT_FACTORY = "String  \"Log4jLogEventFactory\""
+LOG4J_CONTEXT_SELECTOR = "String  \"Log4jContextSelector\""
+LOG4J_DEFAULT_STATUS_LEVEL = "String  \"Log4jDefaultStatusLevel\""
+JNDI_CONTEXT_NAME = "String  \"java:comp/env/log4j/context-name\""
+MILLIS_IN_SECONDS = "int  1000"

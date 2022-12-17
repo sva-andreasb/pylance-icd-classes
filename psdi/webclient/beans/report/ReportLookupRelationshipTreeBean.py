@@ -1,12 +1,12 @@
 def selectrecord():
-    '''public int selectrecord()
-    '''
-def setRelationshipTreeObject():
-    '''public synchronized void setRelationshipTreeObject()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def setHierarchy():
-    '''public void setHierarchy(final String objectname, final String uniqueid, final String hierarchy)
+    '''returns None\n\n
+    setHierarchy(final String objectname, final String uniqueid, final String hierarchy)\n
     '''
 def getTop():
-    '''public Object[][] getTop(final String[] dataattributes, final int maxchildren)
+    '''returns Object[][]\n\n
+    getTop(final String[] dataattributes, final int maxchildren)\n
     '''

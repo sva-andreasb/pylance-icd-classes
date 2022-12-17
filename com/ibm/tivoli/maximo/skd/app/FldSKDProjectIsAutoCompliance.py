@@ -1,6 +1,8 @@
-def FldSKDProjectIsAutoCompliance():
-    '''public FldSKDProjectIsAutoCompliance(final MboValue mbv)
+def ():
+    '''returns FldSKDProjectIsAutoCompliance\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,17 +1,21 @@
 ELEMENT = "String  \"query\""
 NAMESPACE = "String  \"urn:xmpp:mam:1\""
-def MamQueryIQ():
-    '''public MamQueryIQ(final String queryId)
-    public MamQueryIQ(final DataForm form)
-    public MamQueryIQ(final String queryId, final DataForm form)
-    public MamQueryIQ(final String queryId, final String node, final DataForm dataForm)
+def ():
+    '''returns MamQueryIQ\n\n
+    (final String queryId)\n
+    (final DataForm form)\n
+    (final String queryId, final DataForm form)\n
+    (final String queryId, final String node, final DataForm dataForm)\n
     '''
 def getQueryId():
-    '''public String getQueryId()
+    '''returns String\n\n
+    getQueryId()\n
     '''
 def getNode():
-    '''public String getNode()
+    '''returns String\n\n
+    getNode()\n
     '''
 def getDataForm():
-    '''public DataForm getDataForm()
+    '''returns DataForm\n\n
+    getDataForm()\n
     '''

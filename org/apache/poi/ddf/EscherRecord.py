@@ -1,53 +1,65 @@
 def isContainerRecord():
-    '''public boolean isContainerRecord()
+    '''returns boolean\n\n
+    isContainerRecord()\n
     '''
 def getOptions():
-    '''public short getOptions()
+    '''returns short\n\n
+    getOptions()\n
     '''
 def setOptions():
-    '''public void setOptions(final short options)
+    '''returns None\n\n
+    setOptions(final short options)\n
     '''
 def serialize():
-    '''public byte[] serialize()
-    public int serialize(final int offset, final byte[] data)
+    '''returns int\n\n
+    serialize()\n
+    serialize(final int offset, final byte[] data)\n
     '''
 def getRecordId():
-    '''public short getRecordId()
+    '''returns short\n\n
+    getRecordId()\n
     '''
 def setRecordId():
-    '''public void setRecordId(final short recordId)
+    '''returns None\n\n
+    setRecordId(final short recordId)\n
     '''
 def getChildRecords():
-    '''public List<EscherRecord> getChildRecords()
+    '''returns List<EscherRecord>\n\n
+    getChildRecords()\n
     '''
 def setChildRecords():
-    '''public void setChildRecords(final List<EscherRecord> childRecords)
+    '''returns None\n\n
+    setChildRecords(final List<EscherRecord> childRecords)\n
     '''
 def clone():
-    '''public EscherRecord clone()
+    '''returns EscherRecord\n\n
+    clone()\n
     '''
 def getChild():
-    '''public EscherRecord getChild(final int index)
+    '''returns EscherRecord\n\n
+    getChild(final int index)\n
     '''
 def display():
-    '''public void display(final PrintWriter w, final int indent)
+    '''returns None\n\n
+    display(final PrintWriter w, final int indent)\n
     '''
 def getInstance():
-    '''public short getInstance()
+    '''returns short\n\n
+    getInstance()\n
     '''
 def setInstance():
-    '''public void setInstance(final short value)
+    '''returns None\n\n
+    setInstance(final short value)\n
     '''
 def getVersion():
-    '''public short getVersion()
+    '''returns short\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final short value)
+    '''returns None\n\n
+    setVersion(final short value)\n
     '''
 def toXml():
-    '''public String toXml()
-    public final String toXml(final String tab)
-    '''
-def toString():
-    '''public final String toString()
+    '''returns String\n\n
+    toXml()\n
     '''

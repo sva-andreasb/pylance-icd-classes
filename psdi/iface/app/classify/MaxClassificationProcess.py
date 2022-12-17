@@ -1,9 +1,12 @@
-def MaxClassificationProcess():
-    '''public MaxClassificationProcess()
+def ():
+    '''returns MaxClassificationProcess\n\n
+    ()\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String tableName)\n
     '''
 def createMboSet():
-    '''public MboSetRemote createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MicSetInfo micInfo, final String processTable)
+    '''returns MboSetRemote\n\n
+    createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MicSetInfo micInfo, final String processTable)\n
     '''

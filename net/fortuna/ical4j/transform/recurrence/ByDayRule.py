@@ -1,22 +1,19 @@
-def ByDayRule():
-    '''public ByDayRule(final WeekDayList dayList, final Recur.Frequency frequency)
-    public ByDayRule(final WeekDayList dayList, final Recur.Frequency frequency, final Optional<WeekDay.Day> weekStartDay)
+def ():
+    '''returns YearlyExpansionFilter\n\n
+    (final WeekDayList dayList, final Recur.Frequency frequency)\n
+    (final WeekDayList dayList, final Recur.Frequency frequency, final Optional<WeekDay.Day> weekStartDay)\n
+    (final Value type)\n
+    (final Value type)\n
+    (final Value type)\n
     '''
 def transform():
-    '''public DateList transform(final DateList dates)
+    '''returns DateList\n\n
+    transform(final DateList dates)\n
     '''
 def apply():
-    '''public List<Date> apply(final Date date)
-    public List<Date> apply(final Date date)
-    public List<Date> apply(final Date date)
-    public List<Date> apply(final Date date)
-    '''
-def WeeklyExpansionFilter():
-    '''public WeeklyExpansionFilter(final Value type)
-    '''
-def MonthlyExpansionFilter():
-    '''public MonthlyExpansionFilter(final Value type)
-    '''
-def YearlyExpansionFilter():
-    '''public YearlyExpansionFilter(final Value type)
+    '''returns List<Date>\n\n
+    apply(final Date date)\n
+    apply(final Date date)\n
+    apply(final Date date)\n
+    apply(final Date date)\n
     '''

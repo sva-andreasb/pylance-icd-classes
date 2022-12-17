@@ -1,54 +1,72 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setQueryRefId():
-    '''public void setQueryRefId(final String value)
+    '''returns None\n\n
+    setQueryRefId(final String value)\n
     '''
 def getQueryRefId():
-    '''public String getQueryRefId()
+    '''returns String\n\n
+    getQueryRefId()\n
     '''
 def getDescriptions():
-    '''public ProductDescription[] getDescriptions()
+    '''returns ProductDescription[]\n\n
+    getDescriptions()\n
     '''
 def setDescriptions():
-    '''public void setDescriptions(final ProductDescription[] value)
+    '''returns None\n\n
+    setDescriptions(final ProductDescription[] value)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def get():
-    '''public ProductDescription get(final int index)
+    '''returns ProductDescription\n\n
+    get(final int index)\n
     '''
 def set():
-    '''public void set(final int index, final ProductDescription value)
+    '''returns None\n\n
+    set(final int index, final ProductDescription value)\n
     '''
 def setRecsReturned():
-    '''public void setRecsReturned(final int value)
+    '''returns None\n\n
+    setRecsReturned(final int value)\n
     '''
 def getRecsReturned():
-    '''public int getRecsReturned()
+    '''returns int\n\n
+    getRecsReturned()\n
     '''
 def setRecsAvailable():
-    '''public void setRecsAvailable(final int value)
+    '''returns None\n\n
+    setRecsAvailable(final int value)\n
     '''
 def getRecsAvaialable():
-    '''public int getRecsAvaialable()
+    '''returns int\n\n
+    getRecsAvaialable()\n
     '''
 def setLastRecKey():
-    '''public void setLastRecKey(final String value)
+    '''returns None\n\n
+    setLastRecKey(final String value)\n
     '''
 def getLastRecKey():
-    '''public String getLastRecKey()
+    '''returns String\n\n
+    getLastRecKey()\n
     '''
 def setVendorName():
-    '''public void setVendorName(final String value)
+    '''returns None\n\n
+    setVendorName(final String value)\n
     '''
 def getVendorName():
-    '''public String getVendorName()
+    '''returns String\n\n
+    getVendorName()\n
     '''
 def setVendorId():
-    '''public void setVendorId(final String value)
+    '''returns None\n\n
+    setVendorId(final String value)\n
     '''
 def getVendorId():
-    '''public String getVendorId()
+    '''returns String\n\n
+    getVendorId()\n
     '''

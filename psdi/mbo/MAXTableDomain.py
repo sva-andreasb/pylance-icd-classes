@@ -1,89 +1,108 @@
 ISNULL = "String  \"0\""
 ISNOTNULL = "String  \"1\""
-def MAXTableDomain():
-    '''public MAXTableDomain(final MboValue mbv)
+def ():
+    '''returns MAXTableDomain\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def chooseActualDomainValues():
-    '''public void chooseActualDomainValues()
+    '''returns None\n\n
+    chooseActualDomainValues()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String where)
-    public MboSetRemote getMboSet(final String where, String identifier)
-    public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet(final String where)\n
+    getMboSet(final String where, String identifier)\n
+    getMboSet()\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def setRelationship():
-    '''public void setRelationship(final String objectName, final String whereClause)
+    '''returns None\n\n
+    setRelationship(final String objectName, final String whereClause)\n
     '''
 def setListCriteria():
-    '''public void setListCriteria(final String listWhere)
+    '''returns None\n\n
+    setListCriteria(final String listWhere)\n
     '''
 def setListOrderBy():
-    '''public void setListOrderBy(final String orderBy)
+    '''returns None\n\n
+    setListOrderBy(final String orderBy)\n
     '''
 def setErrorMessage():
-    '''public void setErrorMessage(final String eg, final String ek)
+    '''returns None\n\n
+    setErrorMessage(final String eg, final String ek)\n
     '''
 def getListCriteria():
-    '''public String getListCriteria()
+    '''returns String\n\n
+    getListCriteria()\n
     '''
 def setValueFromLookup():
-    '''public void setValueFromLookup(final MboRemote sourceMbo, final long accessModifier)
-    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''returns None\n\n
+    setValueFromLookup(final MboRemote sourceMbo, final long accessModifier)\n
+    setValueFromLookup(final MboRemote sourceMbo)\n
     '''
 def setLookupKeyMapInOrder():
-    '''public void setLookupKeyMapInOrder(final String[] targetKeys, final String[] sourceKeys)
-    public void setLookupKeyMapInOrder(final String[][] map)
+    '''returns None\n\n
+    setLookupKeyMapInOrder(final String[] targetKeys, final String[] sourceKeys)\n
+    setLookupKeyMapInOrder(final String[][] map)\n
     '''
 def setKeyMap():
-    '''public void setKeyMap(final String sourceMboName, final String[] targetKeys, final String[] sourceKeys)
+    '''returns None\n\n
+    setKeyMap(final String sourceMboName, final String[] targetKeys, final String[] sourceKeys)\n
     '''
 def addToLookupMapCache():
-    '''public void addToLookupMapCache(final String source, final String[][] map)
-    '''
-def setAllAttrsNullable():
-    '''public final void setAllAttrsNullable()
-    '''
-def setNotAllowNullAttrs():
-    '''public final void setNotAllowNullAttrs(final String[] attrs)
+    '''returns None\n\n
+    addToLookupMapCache(final String source, final String[][] map)\n
     '''
 def setMultiKeyWhereForLookup():
-    '''public void setMultiKeyWhereForLookup(final String w)
+    '''returns None\n\n
+    setMultiKeyWhereForLookup(final String w)\n
     '''
 def smartFill():
-    '''public MboSetRemote smartFill(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFill(final String value, final boolean exact)\n
     '''
 def smartFillWithoutReset():
-    '''public MboSetRemote smartFillWithoutReset(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFillWithoutReset(final String value, final boolean exact)\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String value, final boolean exact)
-    public MboSetRemote smartFind(final String sourceObj, final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String value, final boolean exact)\n
+    smartFind(final String sourceObj, final String value, final boolean exact)\n
     '''
 def smartFindWithoutReset():
-    '''public MboSetRemote smartFindWithoutReset(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFindWithoutReset(final String value, final boolean exact)\n
     '''
 def getMatchingAttr():
-    '''public String getMatchingAttr()
-    public String getMatchingAttr(final String sourceObjectName)
+    '''returns String\n\n
+    getMatchingAttr()\n
+    getMatchingAttr(final String sourceObjectName)\n
     '''
 def addConditionalListWhere():
-    '''public void addConditionalListWhere(final String attribute, final String condition, final String where)
+    '''returns None\n\n
+    addConditionalListWhere(final String attribute, final String condition, final String where)\n
     '''
 def clearConditionalListWhere():
-    '''public void clearConditionalListWhere()
+    '''returns None\n\n
+    clearConditionalListWhere()\n
     '''
 def evalConditionalWhere():
-    '''public String evalConditionalWhere(final ArrayList conditionalWhereList)
+    '''returns String\n\n
+    evalConditionalWhere(final ArrayList conditionalWhereList)\n
     '''

@@ -1,3 +1,4 @@
 def getAction():
-    '''public String getAction()
+    '''returns String\n\n
+    getAction()\n
     '''

@@ -1,0 +1,6 @@
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
+IN_ADD_DEFAULT = "boolean  true"
+IN_REPLACE_DEFAULT = "boolean  true"
+INTERNAL_DEFAULT = "boolean  false"
+INTERNAL_DATA_SOURCE = "String  \"INTERNAL\""
+EXTERNAL_DATA_SOURCE = "String  \"EXTERNAL\""

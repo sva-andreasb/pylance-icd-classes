@@ -1,10 +1,13 @@
 NULL_VALUE = "String  \"~NULL~\""
-def BaseFlatToXMLConverter():
-    '''public BaseFlatToXMLConverter(final List<FlatRowSet> rowSetList, final String mosName, final String action, final String transLanguage, final String messageType)
+def ():
+    '''returns BaseFlatToXMLConverter\n\n
+    (final List<FlatRowSet> rowSetList, final String mosName, final String action, final String transLanguage, final String messageType)\n
     '''
 def convert():
-    '''public byte[] convert()
+    '''returns byte[]\n\n
+    convert()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

@@ -1,15 +1,15 @@
-def SOAPException():
-    '''public SOAPException()
-    public SOAPException(final String reason)
-    public SOAPException(final String reason, final Throwable cause)
-    public SOAPException(final Throwable cause)
+def ():
+    '''returns SOAPException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable t)\n
+    (final String message, final Throwable t)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getCause():
-    '''public Throwable getCause()
-    '''
-def initCause():
-    '''public synchronized Throwable initCause(final Throwable cause)
+    '''returns Throwable\n\n
+    getCause()\n
     '''

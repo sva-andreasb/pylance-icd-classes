@@ -1,3 +1,4 @@
-def PmScCustomMBOsSet():
-    '''public PmScCustomMBOsSet(final MboServerInterface ms)
+def ():
+    '''returns PmScCustomMBOsSet\n\n
+    (final MboServerInterface ms)\n
     '''

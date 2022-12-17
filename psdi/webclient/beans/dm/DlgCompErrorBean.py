@@ -1,3 +1,4 @@
 def getMessage():
-    '''public int getMessage()
+    '''returns int\n\n
+    getMessage()\n
     '''

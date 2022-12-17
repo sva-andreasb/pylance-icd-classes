@@ -1,12 +1,8 @@
-def createDaemonThreadFactory():
-    '''public static Log4jThreadFactory createDaemonThreadFactory(final String threadFactoryName)
-    '''
-def createThreadFactory():
-    '''public static Log4jThreadFactory createThreadFactory(final String threadFactoryName)
-    '''
-def Log4jThreadFactory():
-    '''public Log4jThreadFactory(final String threadFactoryName, final boolean daemon, final int priority)
+def ():
+    '''returns Log4jThreadFactory\n\n
+    (final String threadFactoryName, final boolean daemon, final int priority)\n
     '''
 def newThread():
-    '''public Thread newThread(final Runnable runnable)
+    '''returns Thread\n\n
+    newThread(final Runnable runnable)\n
     '''

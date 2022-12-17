@@ -1,3 +1,4 @@
-def ServiceObject():
-    '''public ServiceObject(final MboSet ms)
+def ():
+    '''returns ServiceObject\n\n
+    (final MboSet ms)\n
     '''

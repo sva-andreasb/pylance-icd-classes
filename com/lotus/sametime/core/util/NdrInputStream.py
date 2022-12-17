@@ -1,20 +1,26 @@
-def NdrInputStream():
-    '''public NdrInputStream(final ByteArrayInputStream byteArrayInputStream)
-    public NdrInputStream(final byte[] buf)
+def ():
+    '''returns NdrInputStream\n\n
+    (final ByteArrayInputStream byteArrayInputStream)\n
+    (final byte[] buf)\n
     '''
 def loadMark():
-    '''public void loadMark()
+    '''returns None\n\n
+    loadMark()\n
     '''
 def skipMarks():
-    '''public void skipMarks()
-    public void skipMarks(final int n)
+    '''returns None\n\n
+    skipMarks()\n
+    skipMarks(final int n)\n
     '''
 def position():
-    '''public int position()
+    '''returns int\n\n
+    position()\n
     '''
 def readBytes():
-    '''public byte[] readBytes()
+    '''returns byte[]\n\n
+    readBytes()\n
     '''
 def readInetAddress():
-    '''public InetAddress readInetAddress()
+    '''returns InetAddress\n\n
+    readInetAddress()\n
     '''

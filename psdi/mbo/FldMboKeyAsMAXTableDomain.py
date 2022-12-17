@@ -1,18 +1,24 @@
-def FldMboKeyAsMAXTableDomain():
-    '''public FldMboKeyAsMAXTableDomain(final MboValue mv)
+def ():
+    '''returns FldMboKeyAsMAXTableDomain\n\n
+    (final MboValue mv)\n
     '''
 def setKeyAttributes():
-    '''public void setKeyAttributes(final String[] keys, final String relationship)
+    '''returns None\n\n
+    setKeyAttributes(final String[] keys, final String relationship)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def findRecord():
-    '''public boolean findRecord(final String tbName, final MboRemote enteredMbo, final ArrayList keyArray)
+    '''returns boolean\n\n
+    findRecord(final String tbName, final MboRemote enteredMbo, final ArrayList keyArray)\n
     '''
 def getMboSetForKey():
-    '''public MboSetRemote getMboSetForKey()
+    '''returns MboSetRemote\n\n
+    getMboSetForKey()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

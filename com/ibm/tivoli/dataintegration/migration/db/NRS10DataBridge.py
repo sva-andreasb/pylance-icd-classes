@@ -1,15 +1,20 @@
-def NRS10DataBridge():
-    '''public NRS10DataBridge(final String dbDriver, final String dbUser, final String dbPassword, final String dbUrl)
+def ():
+    '''returns NRS10DataBridge\n\n
+    (final String dbDriver, final String dbUser, final String dbPassword, final String dbUrl)\n
     '''
 def getAliases():
-    '''public ResultSet getAliases()
+    '''returns ResultSet\n\n
+    getAliases()\n
     '''
 def getSuperiors():
-    '''public ResultSet getSuperiors()
+    '''returns ResultSet\n\n
+    getSuperiors()\n
     '''
 def getDuplicates():
-    '''public ResultSet getDuplicates()
+    '''returns ResultSet\n\n
+    getDuplicates()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

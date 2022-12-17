@@ -1,33 +1,44 @@
-def EcommFrame():
-    '''public EcommFrame()
+def ():
+    '''returns EcommFrame\n\n
+    ()\n
     '''
 def runevent():
-    '''public int runevent()
+    '''returns int\n\n
+    runevent()\n
     '''
 def getSendEvent():
-    '''public WebClientEvent getSendEvent()
+    '''returns WebClientEvent\n\n
+    getSendEvent()\n
     '''
 def setSendEvent():
-    '''public void setSendEvent(final WebClientEvent sendEvent)
+    '''returns None\n\n
+    setSendEvent(final WebClientEvent sendEvent)\n
     '''
 def refreshstartpage():
-    '''public int refreshstartpage()
+    '''returns int\n\n
+    refreshstartpage()\n
     '''
 def getStartPage():
-    '''public String getStartPage()
+    '''returns String\n\n
+    getStartPage()\n
     '''
 def setStartPage():
-    '''public void setStartPage(final String startPage)
+    '''returns None\n\n
+    setStartPage(final String startPage)\n
     '''
 def isRefreshStartPage():
-    '''public boolean isRefreshStartPage()
+    '''returns boolean\n\n
+    isRefreshStartPage()\n
     '''
 def setRefreshStartPage():
-    '''public void setRefreshStartPage(final boolean refreshStartPage)
+    '''returns None\n\n
+    setRefreshStartPage(final boolean refreshStartPage)\n
     '''
 def isStartLookup():
-    '''public boolean isStartLookup()
+    '''returns boolean\n\n
+    isStartLookup()\n
     '''
 def setStartLookup():
-    '''public void setStartLookup(final boolean startLookup)
+    '''returns None\n\n
+    setStartLookup(final boolean startLookup)\n
     '''

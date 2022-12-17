@@ -1,4 +1,5 @@
-def FldProcessName():
-    '''public FldProcessName(final MboValue mbv)
-    public FldProcessName(final MboValue mbv, final String objectName)
+def ():
+    '''returns FldProcessName\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final String objectName)\n
     '''

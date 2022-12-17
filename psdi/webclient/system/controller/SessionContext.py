@@ -1,85 +1,113 @@
-def SessionContext():
-    '''public SessionContext(final WebClientSession masterInstance)
+def ():
+    '''returns SessionContext\n\n
+    (final WebClientSession masterInstance)\n
     '''
 def getMasterInstance():
-    '''public WebClientSession getMasterInstance()
+    '''returns WebClientSession\n\n
+    getMasterInstance()\n
     '''
 def getMXSession():
-    '''public MXSession getMXSession()
+    '''returns MXSession\n\n
+    getMXSession()\n
     '''
 def getCurrentApp():
-    '''public AppInstance getCurrentApp()
+    '''returns AppInstance\n\n
+    getCurrentApp()\n
     '''
 def getCurrentAppId():
-    '''public String getCurrentAppId()
+    '''returns String\n\n
+    getCurrentAppId()\n
     '''
 def getCurrentPageId():
-    '''public String getCurrentPageId()
+    '''returns String\n\n
+    getCurrentPageId()\n
     '''
 def setCurrentEvent():
-    '''public void setCurrentEvent(final WebClientEvent event)
+    '''returns None\n\n
+    setCurrentEvent(final WebClientEvent event)\n
     '''
 def getCurrentEvent():
-    '''public WebClientEvent getCurrentEvent()
+    '''returns WebClientEvent\n\n
+    getCurrentEvent()\n
     '''
 def getCurrentEventHandler():
-    '''public ControlHandler getCurrentEventHandler()
+    '''returns ControlHandler\n\n
+    getCurrentEventHandler()\n
     '''
 def getLoginEvent():
-    '''public WebClientEvent getLoginEvent()
+    '''returns WebClientEvent\n\n
+    getLoginEvent()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getTimeZone():
-    '''public TimeZone getTimeZone()
+    '''returns TimeZone\n\n
+    getTimeZone()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def getWorkflowDirector():
-    '''public WorkflowDirector getWorkflowDirector()
+    '''returns WorkflowDirector\n\n
+    getWorkflowDirector()\n
     '''
 def getPreviousApp():
-    '''public AppInstance getPreviousApp()
+    '''returns AppInstance\n\n
+    getPreviousApp()\n
     '''
 def pop():
-    '''public AppInstance pop()
+    '''returns AppInstance\n\n
+    pop()\n
     '''
 def getRequest():
-    '''public HttpServletRequest getRequest()
+    '''returns HttpServletRequest\n\n
+    getRequest()\n
     '''
 def getResponse():
-    '''public HttpServletResponse getResponse()
+    '''returns HttpServletResponse\n\n
+    getResponse()\n
     '''
 def queueRefreshEvent():
-    '''public void queueRefreshEvent()
+    '''returns None\n\n
+    queueRefreshEvent()\n
     '''
 def queueEvent():
-    '''public void queueEvent(final WebClientEvent event)
+    '''returns None\n\n
+    queueEvent(final WebClientEvent event)\n
     '''
 def runLongOp():
-    '''public boolean runLongOp(final DataBean dataSrc, final String method)
-    public boolean runLongOp(final DataBean dataSrc, final WebClientEvent event)
+    '''returns boolean\n\n
+    runLongOp(final DataBean dataSrc, final String method)\n
+    runLongOp(final DataBean dataSrc, final WebClientEvent event)\n
     '''
 def haslongOpStarted():
-    '''public boolean haslongOpStarted()
+    '''returns boolean\n\n
+    haslongOpStarted()\n
     '''
 def haslongOpCompleted():
-    '''public boolean haslongOpCompleted()
+    '''returns boolean\n\n
+    haslongOpCompleted()\n
     '''
 def getSpellSessionAdapter():
-    '''public SpellingSessionAdapter getSpellSessionAdapter()
+    '''returns SpellingSessionAdapter\n\n
+    getSpellSessionAdapter()\n
     '''
 def setSpellSessionAdapter():
-    '''public void setSpellSessionAdapter(final SpellingSessionAdapter spellSessionAdapter)
+    '''returns None\n\n
+    setSpellSessionAdapter(final SpellingSessionAdapter spellSessionAdapter)\n
     '''
 def hasWarnings():
-    '''public boolean hasWarnings()
+    '''returns boolean\n\n
+    hasWarnings()\n
     '''
 def getWarnings():
-    '''public ArrayList<MXException> getWarnings()
+    '''returns ArrayList<MXException>\n\n
+    getWarnings()\n
     '''
 def showLongOpStatus():
-    '''public void showLongOpStatus()
+    '''returns None\n\n
+    showLongOpStatus()\n
     '''

@@ -1,36 +1,48 @@
-def ToggleImage():
-    '''public ToggleImage()
+def ():
+    '''returns ToggleImage\n\n
+    ()\n
     '''
 def getRowNum():
-    '''public String getRowNum()
+    '''returns String\n\n
+    getRowNum()\n
     '''
 def getState():
-    '''public Object getState()
+    '''returns Object\n\n
+    getState()\n
     '''
 def getLastState():
-    '''public Object getLastState()
+    '''returns Object\n\n
+    getLastState()\n
     '''
 def updateState():
-    '''public String updateState(String methodName)
+    '''returns String\n\n
+    updateState(String methodName)\n
     '''
 def stateChanged():
-    '''public boolean stateChanged()
+    '''returns boolean\n\n
+    stateChanged()\n
     '''
 def getSource():
-    '''public String getSource()
+    '''returns String\n\n
+    getSource()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def getClickState():
-    '''public int getClickState()
+    '''returns int\n\n
+    getClickState()\n
     '''
 def canChangeRowFocus():
-    '''public boolean canChangeRowFocus()
+    '''returns boolean\n\n
+    canChangeRowFocus()\n
     '''

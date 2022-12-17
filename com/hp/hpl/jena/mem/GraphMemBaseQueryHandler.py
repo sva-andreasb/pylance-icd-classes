@@ -1,21 +1,28 @@
-def GraphMemBaseQueryHandler():
-    '''public GraphMemBaseQueryHandler(final GraphMemBase graph)
+def ():
+    '''returns GraphMemBaseQueryHandler\n\n
+    (final GraphMemBase graph)\n
     '''
 def objectsFor():
-    '''public ExtendedIterator<Node> objectsFor(final Node s, final Node p)
+    '''returns ExtendedIterator<Node>\n\n
+    objectsFor(final Node s, final Node p)\n
     '''
 def predicatesFor():
-    '''public ExtendedIterator<Node> predicatesFor(final Node s, final Node o)
+    '''returns ExtendedIterator<Node>\n\n
+    predicatesFor(final Node s, final Node o)\n
     '''
 def subjectsFor():
-    '''public ExtendedIterator<Node> subjectsFor(final Node p, final Node o)
+    '''returns ExtendedIterator<Node>\n\n
+    subjectsFor(final Node p, final Node o)\n
     '''
 def findPredicates():
-    '''public ExtendedIterator<Node> findPredicates()
+    '''returns ExtendedIterator<Node>\n\n
+    findPredicates()\n
     '''
 def findObjects():
-    '''public ExtendedIterator<Node> findObjects()
+    '''returns ExtendedIterator<Node>\n\n
+    findObjects()\n
     '''
 def findSubjects():
-    '''public ExtendedIterator<Node> findSubjects()
+    '''returns ExtendedIterator<Node>\n\n
+    findSubjects()\n
     '''

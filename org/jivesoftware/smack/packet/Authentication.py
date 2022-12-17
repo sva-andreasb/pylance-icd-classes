@@ -1,31 +1,41 @@
-def Authentication():
-    '''public Authentication()
+def ():
+    '''returns Authentication\n\n
+    ()\n
     '''
 def getUsername():
-    '''public String getUsername()
+    '''returns String\n\n
+    getUsername()\n
     '''
 def setUsername():
-    '''public void setUsername(final String username)
+    '''returns None\n\n
+    setUsername(final String username)\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def getDigest():
-    '''public String getDigest()
+    '''returns String\n\n
+    getDigest()\n
     '''
 def setDigest():
-    '''public void setDigest(final String connectionID, final String password)
-    public void setDigest(final String digest)
+    '''returns None\n\n
+    setDigest(final String connectionID, final String password)\n
+    setDigest(final String digest)\n
     '''
 def getResource():
-    '''public String getResource()
+    '''returns String\n\n
+    getResource()\n
     '''
 def setResource():
-    '''public void setResource(final String resource)
+    '''returns None\n\n
+    setResource(final String resource)\n
     '''
 def getChildElementXML():
-    '''public String getChildElementXML()
+    '''returns String\n\n
+    getChildElementXML()\n
     '''

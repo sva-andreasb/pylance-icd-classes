@@ -1,7 +1,9 @@
-def SetSelectedVisitor():
-    '''public SetSelectedVisitor(final boolean isSelected)
-    public SetSelectedVisitor(final boolean isSelected, final boolean recurseUp)
+def ():
+    '''returns SetSelectedVisitor\n\n
+    (final boolean isSelected)\n
+    (final boolean isSelected, final boolean recurseUp)\n
     '''
 def visit():
-    '''public void visit(final BaseTag baseTag)
+    '''returns None\n\n
+    visit(final BaseTag baseTag)\n
     '''

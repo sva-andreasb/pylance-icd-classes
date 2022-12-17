@@ -1,3 +1,4 @@
-def PublicURISet():
-    '''public PublicURISet(final MboServerInterface ms)
+def ():
+    '''returns PublicURISet\n\n
+    (final MboServerInterface ms)\n
     '''

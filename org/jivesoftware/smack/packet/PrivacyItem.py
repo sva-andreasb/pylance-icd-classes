@@ -2,59 +2,77 @@ SUBSCRIPTION_BOTH = "String  \"both\""
 SUBSCRIPTION_TO = "String  \"to\""
 SUBSCRIPTION_FROM = "String  \"from\""
 SUBSCRIPTION_NONE = "String  \"none\""
-def PrivacyItem():
-    '''public PrivacyItem(final String type, final boolean allow, final int order)
+def ():
+    '''returns PrivacyItem\n\n
+    (final String type, final boolean allow, final int order)\n
     '''
 def isAllow():
-    '''public boolean isAllow()
+    '''returns boolean\n\n
+    isAllow()\n
     '''
 def isFilterIQ():
-    '''public boolean isFilterIQ()
+    '''returns boolean\n\n
+    isFilterIQ()\n
     '''
 def setFilterIQ():
-    '''public void setFilterIQ(final boolean filterIQ)
+    '''returns None\n\n
+    setFilterIQ(final boolean filterIQ)\n
     '''
 def isFilterMessage():
-    '''public boolean isFilterMessage()
+    '''returns boolean\n\n
+    isFilterMessage()\n
     '''
 def setFilterMessage():
-    '''public void setFilterMessage(final boolean filterMessage)
+    '''returns None\n\n
+    setFilterMessage(final boolean filterMessage)\n
     '''
 def isFilterPresence_in():
-    '''public boolean isFilterPresence_in()
+    '''returns boolean\n\n
+    isFilterPresence_in()\n
     '''
 def setFilterPresence_in():
-    '''public void setFilterPresence_in(final boolean filterPresence_in)
+    '''returns None\n\n
+    setFilterPresence_in(final boolean filterPresence_in)\n
     '''
 def isFilterPresence_out():
-    '''public boolean isFilterPresence_out()
+    '''returns boolean\n\n
+    isFilterPresence_out()\n
     '''
 def setFilterPresence_out():
-    '''public void setFilterPresence_out(final boolean filterPresence_out)
+    '''returns None\n\n
+    setFilterPresence_out(final boolean filterPresence_out)\n
     '''
 def getOrder():
-    '''public int getOrder()
+    '''returns int\n\n
+    getOrder()\n
     '''
 def setOrder():
-    '''public void setOrder(final int order)
+    '''returns None\n\n
+    setOrder(final int order)\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def getType():
-    '''public Type getType()
-    public Type getType()
+    '''returns Type\n\n
+    getType()\n
+    getType()\n
     '''
 def getValue():
-    '''public String getValue()
-    public String getValue()
+    '''returns String\n\n
+    getValue()\n
+    getValue()\n
     '''
 def isFilterEverything():
-    '''public boolean isFilterEverything()
+    '''returns boolean\n\n
+    isFilterEverything()\n
     '''
 def toXML():
-    '''public String toXML()
+    '''returns String\n\n
+    toXML()\n
     '''
 def isSuscription():
-    '''public boolean isSuscription()
+    '''returns boolean\n\n
+    isSuscription()\n
     '''

@@ -1,39 +1,52 @@
-def IpcSelectedPartsSet():
-    '''public IpcSelectedPartsSet(final MboServerInterface ms)
+def ():
+    '''returns IpcSelectedPartsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def returnEquipmentSpares():
-    '''public void returnEquipmentSpares(final SparePartSetRemote spareparts)
+    '''returns None\n\n
+    returnEquipmentSpares(final SparePartSetRemote spareparts)\n
     '''
 def returnWorkOrderPlans():
-    '''public void returnWorkOrderPlans(final ShowPlanMboSetRemote planparts)
+    '''returns None\n\n
+    returnWorkOrderPlans(final ShowPlanMboSetRemote planparts)\n
     '''
 def returnWorkOrderActuals():
-    '''public void returnWorkOrderActuals(final ShowActualMboSetRemote actparts)
+    '''returns None\n\n
+    returnWorkOrderActuals(final ShowActualMboSetRemote actparts)\n
     '''
 def returnDesktopReqs():
-    '''public void returnDesktopReqs(final MRLineSetRemote actparts)
+    '''returns None\n\n
+    returnDesktopReqs(final MRLineSetRemote actparts)\n
     '''
 def returnJobPlans():
-    '''public void returnJobPlans(final JobMaterialSetRemote jobparts)
+    '''returns None\n\n
+    returnJobPlans(final JobMaterialSetRemote jobparts)\n
     '''
 def returnPurchaseReqs():
-    '''public void returnPurchaseReqs(final PRLineSetRemote preqlines)
+    '''returns None\n\n
+    returnPurchaseReqs(final PRLineSetRemote preqlines)\n
     '''
 def returnPurchaseOrders():
-    '''public void returnPurchaseOrders(final POLineSetRemote polines)
+    '''returns None\n\n
+    returnPurchaseOrders(final POLineSetRemote polines)\n
     '''
 def returnRFQ():
-    '''public void returnRFQ(final RFQLineSetRemote rfqlines)
+    '''returns None\n\n
+    returnRFQ(final RFQLineSetRemote rfqlines)\n
     '''
 def returnTransferIn():
-    '''public void returnTransferIn(final MatRecTransSetRemote translines)
+    '''returns None\n\n
+    returnTransferIn(final MatRecTransSetRemote translines)\n
     '''
 def returnTransferOut():
-    '''public void returnTransferOut(final MatRecTransSetRemote translines)
+    '''returns None\n\n
+    returnTransferOut(final MatRecTransSetRemote translines)\n
     '''
 def returnIssues():
-    '''public void returnIssues(final MatUseTransSetRemote translines)
+    '''returns None\n\n
+    returnIssues(final MatUseTransSetRemote translines)\n
     '''
 def returnInvUseLines():
-    '''public void returnInvUseLines(final InvUseLineSetRemote translines)
+    '''returns None\n\n
+    returnInvUseLines(final InvUseLineSetRemote translines)\n
     '''

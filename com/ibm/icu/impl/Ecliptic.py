@@ -1,6 +1,8 @@
-def Ecliptic():
-    '''public Ecliptic(final double lat, final double lon)
+def ():
+    '''returns Ecliptic\n\n
+    (final double lat, final double lon)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

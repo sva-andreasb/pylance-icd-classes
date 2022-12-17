@@ -1,52 +1,69 @@
-def ApptBucket():
-    '''public ApptBucket(final Date start)
-    public ApptBucket(final Date start, final Date end)
+def ():
+    '''returns ApptBucket\n\n
+    (final Date start)\n
+    (final Date start, final Date end)\n
     '''
 def canAccept():
-    '''public boolean canAccept(final Date d)
+    '''returns boolean\n\n
+    canAccept(final Date d)\n
     '''
 def inDateRange():
-    '''public boolean inDateRange(Date s, Date e, final boolean applyMinMax)
+    '''returns boolean\n\n
+    inDateRange(Date s, Date e, final boolean applyMinMax)\n
     '''
 def addAppointment():
-    '''public void addAppointment(final Appointment appt)
+    '''returns None\n\n
+    addAppointment(final Appointment appt)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def iterator():
-    '''public Iterator<Appointment> iterator()
+    '''returns Iterator<Appointment>\n\n
+    iterator()\n
     '''
 def getStart():
-    '''public Date getStart()
+    '''returns Date\n\n
+    getStart()\n
     '''
 def setStart():
-    '''public void setStart(final Date start)
+    '''returns None\n\n
+    setStart(final Date start)\n
     '''
 def getEnd():
-    '''public Date getEnd()
+    '''returns Date\n\n
+    getEnd()\n
     '''
 def setEnd():
-    '''public void setEnd(final Date end)
+    '''returns None\n\n
+    setEnd(final Date end)\n
     '''
 def getAppointmentsAvailable():
-    '''public int getAppointmentsAvailable()
+    '''returns int\n\n
+    getAppointmentsAvailable()\n
     '''
 def setAppointmentsAvailable():
-    '''public void setAppointmentsAvailable(final int totalAppointments)
+    '''returns None\n\n
+    setAppointmentsAvailable(final int totalAppointments)\n
     '''
 def getAppointmentsMade():
-    '''public int getAppointmentsMade()
+    '''returns int\n\n
+    getAppointmentsMade()\n
     '''
 def setAppointmentsMade():
-    '''public void setAppointmentsMade(final int appointmentsMade)
+    '''returns None\n\n
+    setAppointmentsMade(final int appointmentsMade)\n
     '''
 def setDefaultAppointmentsAvailable():
-    '''public void setDefaultAppointmentsAvailable(final int int1)
+    '''returns None\n\n
+    setDefaultAppointmentsAvailable(final int int1)\n
     '''
 def getDefaultAppointmentsAvailable():
-    '''public int getDefaultAppointmentsAvailable()
+    '''returns int\n\n
+    getDefaultAppointmentsAvailable()\n
     '''
 def setTotalAppointments():
-    '''public void setTotalAppointments(final int totalAppointments)
+    '''returns None\n\n
+    setTotalAppointments(final int totalAppointments)\n
     '''

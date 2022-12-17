@@ -1,3 +1,4 @@
-def UResourceTypeMismatchException():
-    '''public UResourceTypeMismatchException(final String msg)
+def ():
+    '''returns UResourceTypeMismatchException\n\n
+    (final String msg)\n
     '''

@@ -1,0 +1,1 @@
+EMPTY_DECLARATION_COLLECTION = "IlvApplicableDeclarationCollection  new IlvEmptyApplicableDeclarationCollection()"

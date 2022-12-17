@@ -1,22 +1,28 @@
-def RenewableCipherLiteInputStream():
-    '''public RenewableCipherLiteInputStream(final InputStream is, final CipherLite cipherLite)
-    public RenewableCipherLiteInputStream(final InputStream is, final CipherLite c, final int buffsize)
-    public RenewableCipherLiteInputStream(final InputStream is, final CipherLite c, final int buffsize, final boolean multipart, final boolean lastMultiPart)
+def ():
+    '''returns RenewableCipherLiteInputStream\n\n
+    (final InputStream is, final CipherLite cipherLite)\n
+    (final InputStream is, final CipherLite c, final int buffsize)\n
+    (final InputStream is, final CipherLite c, final int buffsize, final boolean multipart, final boolean lastMultiPart)\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def mark():
-    '''public void mark(final int readlimit)
+    '''returns None\n\n
+    mark(final int readlimit)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b)
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b)\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def skip():
-    '''public long skip(final long n)
+    '''returns long\n\n
+    skip(final long n)\n
     '''

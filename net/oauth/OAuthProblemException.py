@@ -5,25 +5,28 @@ HTTP_STATUS_CODE = "String  \"HTTP status\""
 HTTP_LOCATION = "String  \"Location\""
 SIGNATURE_BASE_STRING = "String  \"oauth_signature base string\""
 URL = "String  \"URL\""
-def OAuthProblemException():
-    '''public OAuthProblemException()
-    public OAuthProblemException(final String problem)
+def ():
+    '''returns OAuthProblemException\n\n
+    ()\n
+    (final String problem)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def setParameter():
-    '''public void setParameter(final String name, final Object value)
-    '''
-def getParameters():
-    '''public Map<String, Object> getParameters()
+    '''returns None\n\n
+    setParameter(final String name, final Object value)\n
     '''
 def getProblem():
-    '''public String getProblem()
+    '''returns String\n\n
+    getProblem()\n
     '''
 def getHttpStatusCode():
-    '''public int getHttpStatusCode()
+    '''returns int\n\n
+    getHttpStatusCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

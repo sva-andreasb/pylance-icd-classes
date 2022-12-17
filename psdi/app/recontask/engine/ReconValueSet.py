@@ -1,48 +1,63 @@
-def ReconValueSet():
-    '''public ReconValueSet(final boolean isDataSet1, final DataSet dataSet)
-    public ReconValueSet(final boolean isDataSet1, final int initialCapacity)
+def ():
+    '''returns ReconValueSet\n\n
+    (final boolean isDataSet1, final DataSet dataSet)\n
+    (final boolean isDataSet1, final int initialCapacity)\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String objectName)
+    '''returns None\n\n
+    setObjectName(final String objectName)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def isDataSet1():
-    '''public boolean isDataSet1()
+    '''returns boolean\n\n
+    isDataSet1()\n
     '''
 def getUniqueIDIndex():
-    '''public int getUniqueIDIndex()
+    '''returns int\n\n
+    getUniqueIDIndex()\n
     '''
 def getAttributeCount():
-    '''public int getAttributeCount()
+    '''returns int\n\n
+    getAttributeCount()\n
     '''
 def getIndexOfAttribute():
-    '''public int getIndexOfAttribute(final String attributeName)
+    '''returns int\n\n
+    getIndexOfAttribute(final String attributeName)\n
     '''
 def getValue():
-    '''public ReconValue getValue(final int index)
+    '''returns ReconValue\n\n
+    getValue(final int index)\n
     '''
 def getValueCount():
-    '''public int getValueCount()
+    '''returns int\n\n
+    getValueCount()\n
     '''
 def addAttribute():
-    '''public void addAttribute(final String attributeName)
+    '''returns None\n\n
+    addAttribute(final String attributeName)\n
     '''
 def clearValues():
-    '''public void clearValues()
+    '''returns None\n\n
+    clearValues()\n
     '''
 def addValue():
-    '''public ReconValue addValue(final Object[] values)
-    public ReconValue addValue(final Object[] values, final Object[] units)
-    public ReconValue addValue(final ReconValue valueContainer)
+    '''returns ReconValue\n\n
+    addValue(final Object[] values)\n
+    addValue(final Object[] values, final Object[] units)\n
+    addValue(final ReconValue valueContainer)\n
     '''
 def getShallowCopyOValuesContainer():
-    '''public List getShallowCopyOValuesContainer()
+    '''returns List\n\n
+    getShallowCopyOValuesContainer()\n
     '''
 def iterator():
-    '''public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def getDataSet():
-    '''public DataSet getDataSet()
+    '''returns DataSet\n\n
+    getDataSet()\n
     '''

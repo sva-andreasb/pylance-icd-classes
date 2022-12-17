@@ -1,6 +1,8 @@
-def ZOSGeneralGenerator():
-    '''public ZOSGeneralGenerator()
+def ():
+    '''returns ZOSGeneralGenerator\n\n
+    ()\n
     '''
 def getModel():
-    '''public DetailTableModel getModel()
+    '''returns DetailTableModel\n\n
+    getModel()\n
     '''

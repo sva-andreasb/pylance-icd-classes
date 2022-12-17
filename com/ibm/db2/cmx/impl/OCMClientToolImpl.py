@@ -1,7 +1,9 @@
 def clearCache():
-    '''public void clearCache(final String str)
-    public void clearCache()
+    '''returns None\n\n
+    clearCache(final String str)\n
+    clearCache()\n
     '''
 def mainImpl():
-    '''public void mainImpl(final String[] array)
+    '''returns None\n\n
+    mainImpl(final String[] array)\n
     '''

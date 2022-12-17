@@ -1,3 +1,4 @@
-def MapLinearSegIDLabel():
-    '''public MapLinearSegIDLabel()
+def ():
+    '''returns MapLinearSegIDLabel\n\n
+    ()\n
     '''

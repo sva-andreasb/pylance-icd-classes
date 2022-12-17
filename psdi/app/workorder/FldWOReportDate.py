@@ -1,6 +1,8 @@
-def FldWOReportDate():
-    '''public FldWOReportDate(final MboValue mbv)
+def ():
+    '''returns FldWOReportDate\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

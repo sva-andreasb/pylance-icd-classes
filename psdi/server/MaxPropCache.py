@@ -1,68 +1,88 @@
-def MaxPropCache():
-    '''public MaxPropCache()
+def ():
+    '''returns MaxPropCache\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
-    public void init(final Properties propsFromFile)
+    '''returns None\n\n
+    init()\n
+    init(final Properties propsFromFile)\n
     '''
 def override():
-    '''public void override(final String url, final String user, final String password, final String schemaOwner)
+    '''returns None\n\n
+    override(final String url, final String user, final String password, final String schemaOwner)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def reloadFromFile():
-    '''public void reloadFromFile()
+    '''returns None\n\n
+    reloadFromFile()\n
     '''
 def getProperties():
-    '''public Properties getProperties()
+    '''returns Properties\n\n
+    getProperties()\n
     '''
 def getProperty():
-    '''public String getProperty(final String propName)
-    public String getProperty(final String propName, final boolean checkExists)
-    public String getProperty(final String propName, final String lang)
-    public String getProperty(final String propName, final String lang, final UserInfo userInfo, final UUID uuid)
-    public String getProperty(final String propName, final UserInfo userInfo, final UUID uuid)
+    '''returns String\n\n
+    getProperty(final String propName)\n
+    getProperty(final String propName, final boolean checkExists)\n
+    getProperty(final String propName, final String lang)\n
+    getProperty(final String propName, final String lang, final UserInfo userInfo, final UUID uuid)\n
+    getProperty(final String propName, final UserInfo userInfo, final UUID uuid)\n
     '''
 def getPropertyAsObject():
-    '''public Object getPropertyAsObject(final String propName)
+    '''returns Object\n\n
+    getPropertyAsObject(final String propName)\n
     '''
 def propertyExistsInCache():
-    '''public boolean propertyExistsInCache(final String propName)
-    public boolean propertyExistsInCache(final String propName, final String lang)
+    '''returns boolean\n\n
+    propertyExistsInCache(final String propName)\n
+    propertyExistsInCache(final String propName, final String lang)\n
     '''
 def getPublicProperty():
-    '''public String getPublicProperty(final String propName)
-    public String getPublicProperty(final String propName, final String lang)
+    '''returns String\n\n
+    getPublicProperty(final String propName)\n
+    getPublicProperty(final String propName, final String lang)\n
     '''
 def canTenantSee():
-    '''public boolean canTenantSee(final String propName)
+    '''returns boolean\n\n
+    canTenantSee(final String propName)\n
     '''
 def isEncrypted():
-    '''public boolean isEncrypted(final String propName)
+    '''returns boolean\n\n
+    isEncrypted(final String propName)\n
     '''
 def getEncryptedProps():
-    '''public Set getEncryptedProps()
+    '''returns Set\n\n
+    getEncryptedProps()\n
     '''
 def isPublic():
-    '''public boolean isPublic(final String propName)
+    '''returns boolean\n\n
+    isPublic(final String propName)\n
     '''
 def isPrivate():
-    '''public boolean isPrivate(final String propName)
+    '''returns boolean\n\n
+    isPrivate(final String propName)\n
     '''
 def isMTSecure():
-    '''public boolean isMTSecure(final String propName)
+    '''returns boolean\n\n
+    isMTSecure(final String propName)\n
     '''
 def getPrivateProps():
-    '''public Set getPrivateProps()
+    '''returns Set\n\n
+    getPrivateProps()\n
     '''
 def getFilePropNames():
-    '''public Set getFilePropNames()
+    '''returns Set\n\n
+    getFilePropNames()\n
     '''
 def singleToDoubleQuotes():
-    '''public String singleToDoubleQuotes(final String in)
+    '''returns String\n\n
+    singleToDoubleQuotes(final String in)\n
     '''

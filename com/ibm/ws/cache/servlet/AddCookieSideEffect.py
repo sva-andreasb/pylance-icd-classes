@@ -1,9 +1,12 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def AddCookieSideEffect():
-    '''public AddCookieSideEffect(final Cookie cookie)
+def ():
+    '''returns AddCookieSideEffect\n\n
+    (final Cookie cookie)\n
     '''
 def performSideEffect():
-    '''public void performSideEffect(final HttpServletResponse response)
+    '''returns None\n\n
+    performSideEffect(final HttpServletResponse response)\n
     '''

@@ -20,104 +20,90 @@ TABLE16 = "int  5"
 STRING_V2 = "int  6"
 ARRAY16 = "int  9"
 def setLoadingStatus():
-    '''public void setLoadingStatus(final int newStatus)
-    public void setLoadingStatus(final String requestedLocale)
+    '''returns None\n\n
+    setLoadingStatus(final int newStatus)\n
+    setLoadingStatus(final String requestedLocale)\n
     '''
 def getLoadingStatus():
-    '''public int getLoadingStatus()
+    '''returns int\n\n
+    getLoadingStatus()\n
     '''
 def getResPath():
-    '''public String getResPath()
-    '''
-def getFunctionalEquivalent():
-    '''public static final ULocale getFunctionalEquivalent(final String baseName, final ClassLoader loader, final String resName, final String keyword, final ULocale locID, final boolean[] isAvailable, final boolean omitDefault)
-    '''
-def getKeywordValues():
-    '''public static final String[] getKeywordValues(final String baseName, final String keyword)
+    '''returns String\n\n
+    getResPath()\n
     '''
 def getWithFallback():
-    '''public ICUResourceBundle getWithFallback(final String path)
+    '''returns ICUResourceBundle\n\n
+    getWithFallback(final String path)\n
     '''
 def at():
-    '''public ICUResourceBundle at(final int index)
-    public ICUResourceBundle at(final String key)
+    '''returns ICUResourceBundle\n\n
+    at(final int index)\n
+    at(final String key)\n
     '''
 def findTopLevel():
-    '''public ICUResourceBundle findTopLevel(final int index)
-    public ICUResourceBundle findTopLevel(final String aKey)
+    '''returns ICUResourceBundle\n\n
+    findTopLevel(final int index)\n
+    findTopLevel(final String aKey)\n
     '''
 def findWithFallback():
-    '''public ICUResourceBundle findWithFallback(final String path)
+    '''returns ICUResourceBundle\n\n
+    findWithFallback(final String path)\n
     '''
 def getStringWithFallback():
-    '''public String getStringWithFallback(final String path)
-    '''
-def getAvailableLocaleNameSet():
-    '''public static Set<String> getAvailableLocaleNameSet(final String bundlePrefix, final ClassLoader loader)
-    public static Set<String> getAvailableLocaleNameSet()
-    '''
-def getFullLocaleNameSet():
-    '''public static Set<String> getFullLocaleNameSet()
-    public static Set<String> getFullLocaleNameSet(final String bundlePrefix, final ClassLoader loader)
-    '''
-def getAvailableULocales():
-    '''public static final ULocale[] getAvailableULocales(final String baseName, final ClassLoader loader)
-    public static final ULocale[] getAvailableULocales()
-    '''
-def getAvailableLocales():
-    '''public static final Locale[] getAvailableLocales(final String baseName, final ClassLoader loader)
-    public static final Locale[] getAvailableLocales()
-    '''
-def getLocaleList():
-    '''public static final Locale[] getLocaleList(final ULocale[] ulocales)
+    '''returns String\n\n
+    getStringWithFallback(final String path)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def run():
-    '''public List<String> run()
+    '''returns List<String>\n\n
+    run()\n
     '''
 def visit():
-    '''public void visit(final String s)
+    '''returns None\n\n
+    visit(final String s)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
-    public boolean equals(final Object rhs)
-    '''
-def getBundleInstance():
-    '''public static UResourceBundle getBundleInstance(final String baseName, final String localeID, final ClassLoader root, final boolean disableFallback)
-    '''
-def getFullName():
-    '''public static String getFullName(String baseName, String localeName)
-    '''
-def createBundle():
-    '''public static ICUResourceBundle createBundle(final String baseName, final String localeID, final ClassLoader root)
+    '''returns boolean\n\n
+    equals(final Object other)\n
+    equals(final Object rhs)\n
     '''
 def getULocale():
-    '''public ULocale getULocale()
+    '''returns ULocale\n\n
+    getULocale()\n
     '''
 def getParent():
-    '''public UResourceBundle getParent()
+    '''returns UResourceBundle\n\n
+    getParent()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def isAlias():
-    '''public boolean isAlias(final int index)
-    public boolean isAlias()
-    public boolean isAlias(final String k)
+    '''returns boolean\n\n
+    isAlias(final int index)\n
+    isAlias()\n
+    isAlias(final String k)\n
     '''
 def getAliasPath():
-    '''public String getAliasPath(final int index)
-    public String getAliasPath()
-    public String getAliasPath(final String k)
+    '''returns String\n\n
+    getAliasPath(final int index)\n
+    getAliasPath()\n
+    getAliasPath(final String k)\n
     '''
 def getKeysSafe():
-    '''public Enumeration<String> getKeysSafe()
+    '''returns Enumeration<String>\n\n
+    getKeysSafe()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

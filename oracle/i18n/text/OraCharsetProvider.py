@@ -1,6 +1,8 @@
 def charsetForName():
-    '''public Charset charsetForName(final String s)
+    '''returns Charset\n\n
+    charsetForName(final String s)\n
     '''
 def charsets():
-    '''public Iterator charsets()
+    '''returns Iterator\n\n
+    charsets()\n
     '''

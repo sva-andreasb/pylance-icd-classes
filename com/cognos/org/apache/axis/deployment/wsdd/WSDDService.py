@@ -1,82 +1,109 @@
-def WSDDService():
-    '''public WSDDService()
-    public WSDDService(final Element e)
+def ():
+    '''returns WSDDService\n\n
+    ()\n
+    (final Element e)\n
     '''
 def validateDescriptors():
-    '''public void validateDescriptors()
+    '''returns None\n\n
+    validateDescriptors()\n
     '''
 def addTypeMapping():
-    '''public void addTypeMapping(final WSDDTypeMapping mapping)
+    '''returns None\n\n
+    addTypeMapping(final WSDDTypeMapping mapping)\n
     '''
 def addOperation():
-    '''public void addOperation(final WSDDOperation operation)
+    '''returns None\n\n
+    addOperation(final WSDDOperation operation)\n
     '''
 def getServiceDescriptionURL():
-    '''public String getServiceDescriptionURL()
+    '''returns String\n\n
+    getServiceDescriptionURL()\n
     '''
 def setServiceDescriptionURL():
-    '''public void setServiceDescriptionURL(final String sdUrl)
+    '''returns None\n\n
+    setServiceDescriptionURL(final String sdUrl)\n
     '''
 def getProviderQName():
-    '''public QName getProviderQName()
+    '''returns QName\n\n
+    getProviderQName()\n
     '''
 def setProviderQName():
-    '''public void setProviderQName(final QName providerQName)
+    '''returns None\n\n
+    setProviderQName(final QName providerQName)\n
     '''
 def getServiceDesc():
-    '''public ServiceDesc getServiceDesc()
+    '''returns ServiceDesc\n\n
+    getServiceDesc()\n
     '''
 def getStyle():
-    '''public Style getStyle()
+    '''returns Style\n\n
+    getStyle()\n
     '''
 def setStyle():
-    '''public void setStyle(final Style style)
+    '''returns None\n\n
+    setStyle(final Style style)\n
     '''
 def getUse():
-    '''public Use getUse()
+    '''returns Use\n\n
+    getUse()\n
     '''
 def setUse():
-    '''public void setUse(final Use use)
+    '''returns None\n\n
+    setUse(final Use use)\n
     '''
 def getFaultFlows():
-    '''public WSDDFaultFlow[] getFaultFlows()
+    '''returns WSDDFaultFlow[]\n\n
+    getFaultFlows()\n
     '''
 def getNamespaces():
-    '''public Vector getNamespaces()
+    '''returns Vector\n\n
+    getNamespaces()\n
     '''
 def getFaultFlow():
-    '''public WSDDFaultFlow getFaultFlow(final QName name)
+    '''returns WSDDFaultFlow\n\n
+    getFaultFlow(final QName name)\n
     '''
 def makeNewInstance():
-    '''public Handler makeNewInstance(final EngineConfiguration registry)
+    '''returns Handler\n\n
+    makeNewInstance(final EngineConfiguration registry)\n
     '''
 def deployTypeMapping():
-    '''public void deployTypeMapping(final WSDDTypeMapping mapping)
+    '''returns None\n\n
+    deployTypeMapping(final WSDDTypeMapping mapping)\n
     '''
 def writeToContext():
-    '''public void writeToContext(final SerializationContext context)
+    '''returns None\n\n
+    writeToContext(final SerializationContext context)\n
     '''
 def setCachedService():
-    '''public void setCachedService(final SOAPService service)
+    '''returns None\n\n
+    setCachedService(final SOAPService service)\n
     '''
 def getTypeMappings():
-    '''public Vector getTypeMappings()
+    '''returns Vector\n\n
+    getTypeMappings()\n
     '''
 def setTypeMappings():
-    '''public void setTypeMappings(final Vector typeMappings)
+    '''returns None\n\n
+    setTypeMappings(final Vector typeMappings)\n
     '''
 def deployToRegistry():
-    '''public void deployToRegistry(final WSDDDeployment registry)
+    '''returns None\n\n
+    deployToRegistry(final WSDDDeployment registry)\n
     '''
 def removeNamespaceMappings():
-    '''public void removeNamespaceMappings(final WSDDDeployment registry)
+    '''returns None\n\n
+    removeNamespaceMappings(final WSDDDeployment registry)\n
     '''
 def getTypeMapping():
-    '''public TypeMapping getTypeMapping(final String encodingStyle)
+    '''returns TypeMapping\n\n
+    getTypeMapping(final String encodingStyle)\n
     '''
 def getHandlerInfoChain():
-    '''public WSDDJAXRPCHandlerInfoChain getHandlerInfoChain()
+    '''returns WSDDJAXRPCHandlerInfoChain\n\n
+    getHandlerInfoChain()\n
     '''
 def setHandlerInfoChain():
-    '''public void setHandlerInfoChain(final WSDDJAXRPCHandlerInfoChain hichain)
+    '''returns None\n\n
+    setHandlerInfoChain(final WSDDJAXRPCHandlerInfoChain hichain)\n
     '''

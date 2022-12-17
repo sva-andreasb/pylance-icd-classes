@@ -1,7 +1,9 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloMessageParameterArrayFormatter():
-    '''public IloMessageParameterArrayFormatter(final IloMessageParameterFormatter evaluator)
+def ():
+    '''returns IloMessageParameterArrayFormatter\n\n
+    (final IloMessageParameterFormatter evaluator)\n
     '''
 def format():
-    '''public Serializable[] format(final Object[] values)
+    '''returns Serializable[]\n\n
+    format(final Object[] values)\n
     '''

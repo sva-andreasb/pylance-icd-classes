@@ -1,3 +1,4 @@
-def FldClassSpecLinkedToAttribute():
-    '''public FldClassSpecLinkedToAttribute(final MboValue mbv)
+def ():
+    '''returns FldClassSpecLinkedToAttribute\n\n
+    (final MboValue mbv)\n
     '''

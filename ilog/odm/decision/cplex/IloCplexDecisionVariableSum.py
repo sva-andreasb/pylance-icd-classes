@@ -1,14 +1,18 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def getTerms():
-    '''public IloCplexDecisionVariable[] getTerms()
+    '''returns IloCplexDecisionVariable[]\n\n
+    getTerms()\n
     '''
 def getDecisionVariable():
-    '''public IloDecisionVariable getDecisionVariable(final String name)
-    public IloDecisionVariable getDecisionVariable(final IloCompositeId name)
+    '''returns IloDecisionVariable\n\n
+    getDecisionVariable(final String name)\n
+    getDecisionVariable(final IloCompositeId name)\n
     '''
 def internalRemoveVar():
-    '''public void internalRemoveVar(final String string)
+    '''returns None\n\n
+    internalRemoveVar(final String string)\n
     '''
 def internalPutVar():
-    '''public void internalPutVar(final IloDecisionVariable var)
+    '''returns None\n\n
+    internalPutVar(final IloDecisionVariable var)\n
     '''

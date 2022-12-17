@@ -1,16 +1,9 @@
-def PluginManager():
-    '''public PluginManager(final String category)
-    '''
-def main():
-    '''public static void main(final String[] args)
-    '''
-def addPackage():
-    '''public static void addPackage(final String p)
-    '''
-def addPackages():
-    '''public static void addPackages(final Collection<String> packages)
+def ():
+    '''returns PluginManager\n\n
+    (final String category)\n
     '''
 def collectPlugins():
-    '''public void collectPlugins()
-    public void collectPlugins(final List<String> packages)
+    '''returns None\n\n
+    collectPlugins()\n
+    collectPlugins(final List<String> packages)\n
     '''

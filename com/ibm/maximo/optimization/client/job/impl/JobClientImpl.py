@@ -1,117 +1,147 @@
-def JobClientImpl():
-    '''public JobClientImpl(final CloseableHttpClient client, final String url, final String token)
-    public JobClientImpl(final CloseableHttpClient client, final String url, final String clientid, final String secret)
+def ():
+    '''returns InternalCustomEntity\n\n
+    (final CloseableHttpClient client, final String url, final String token)\n
+    (final CloseableHttpClient client, final String url, final String clientid, final String secret)\n
+    (final AttachmentContentWriter entity)\n
     '''
 def getExecutionDetails():
-    '''public JobExecutionDetails getExecutionDetails()
+    '''returns JobExecutionDetails\n\n
+    getExecutionDetails()\n
     '''
 def setExecutionDetails():
-    '''public void setExecutionDetails(final JobExecutionDetails executionDetails)
+    '''returns None\n\n
+    setExecutionDetails(final JobExecutionDetails executionDetails)\n
     '''
 def deleteAllJobs():
-    '''public void deleteAllJobs()
+    '''returns None\n\n
+    deleteAllJobs()\n
     '''
 def getAllJobs():
-    '''public List<JobImpl> getAllJobs()
+    '''returns List<JobImpl>\n\n
+    getAllJobs()\n
     '''
 def createJob():
-    '''public String createJob(final JobCreationData data)
+    '''returns String\n\n
+    createJob(final JobCreationData data)\n
     '''
 def submitJob():
-    '''public String submitJob(final JobCreationData data, final Object... atts)
+    '''returns String\n\n
+    submitJob(final JobCreationData data, final Object... atts)\n
     '''
 def copyJob():
-    '''public String copyJob(final String jobid, final JobCreationData data, final boolean shallow)
+    '''returns String\n\n
+    copyJob(final String jobid, final JobCreationData data, final boolean shallow)\n
     '''
 def recreateJob():
-    '''public String recreateJob(final String jobid, final JobCreationData data, final boolean execute)
+    '''returns String\n\n
+    recreateJob(final String jobid, final JobCreationData data, final boolean execute)\n
     '''
 def getJob():
-    '''public JobImpl getJob(final String id)
+    '''returns JobImpl\n\n
+    getJob(final String id)\n
     '''
 def deleteJob():
-    '''public boolean deleteJob(final String id)
+    '''returns boolean\n\n
+    deleteJob(final String id)\n
     '''
 def getJobExecutionStatus():
-    '''public JobExecutionStatus getJobExecutionStatus(final String id)
+    '''returns JobExecutionStatus\n\n
+    getJobExecutionStatus(final String id)\n
     '''
 def executeJob():
-    '''public void executeJob(final String id)
+    '''returns None\n\n
+    executeJob(final String id)\n
     '''
 def abortJob():
-    '''public void abortJob(final String id)
+    '''returns None\n\n
+    abortJob(final String id)\n
     '''
 def killJob():
-    '''public void killJob(final String id)
+    '''returns None\n\n
+    killJob(final String id)\n
     '''
 def getJobAttachments():
-    '''public List<JobAttachmentImpl> getJobAttachments(final String id)
-    public List<JobAttachmentImpl> getJobAttachments(final String id, final JobAttachmentType type)
+    '''returns List<JobAttachmentImpl>\n\n
+    getJobAttachments(final String id)\n
+    getJobAttachments(final String id, final JobAttachmentType type)\n
     '''
 def deleteJobAttachments():
-    '''public void deleteJobAttachments(final String id)
+    '''returns None\n\n
+    deleteJobAttachments(final String id)\n
     '''
 def createJobAttachment():
-    '''public String createJobAttachment(final String id, final JobAttachmentCreationData att)
+    '''returns String\n\n
+    createJobAttachment(final String id, final JobAttachmentCreationData att)\n
     '''
 def getJobAttachment():
-    '''public JobAttachmentImpl getJobAttachment(final String id, final String attid)
+    '''returns JobAttachmentImpl\n\n
+    getJobAttachment(final String id, final String attid)\n
     '''
 def deleteJobAttachment():
-    '''public boolean deleteJobAttachment(final String id, final String attid)
+    '''returns boolean\n\n
+    deleteJobAttachment(final String id, final String attid)\n
     '''
 def uploadJobAttachment():
-    '''public void uploadJobAttachment(final String id, final String attid, final File archive)
-    public void uploadJobAttachment(final String id, final String attid, final InputStream archive)
-    public void uploadJobAttachment(final String id, final String attid, final ObjectMapper mapper, final Object obj)
-    public void uploadJobAttachment(final String id, final String attid, final AttachmentContentWriter writer)
+    '''returns None\n\n
+    uploadJobAttachment(final String id, final String attid, final File archive)\n
+    uploadJobAttachment(final String id, final String attid, final InputStream archive)\n
+    uploadJobAttachment(final String id, final String attid, final ObjectMapper mapper, final Object obj)\n
+    uploadJobAttachment(final String id, final String attid, final AttachmentContentWriter writer)\n
     '''
 def downloadJobAttachment():
-    '''public void downloadJobAttachment(final String id, final String attid, final File archive)
-    public void downloadJobAttachment(final String id, final String attid, final OutputStream stream)
-    public InputStream downloadJobAttachment(final String id, final String attid)
-    public <T> T downloadJobAttachment(final String id, final String attid, final ObjectMapper mapper, final TypeReference<T> type)
-    public <T> T downloadJobAttachment(final String id, final String attid, final ObjectMapper mapper, final Class<T> type)
+    '''returns InputStream\n\n
+    downloadJobAttachment(final String id, final String attid, final File archive)\n
+    downloadJobAttachment(final String id, final String attid, final OutputStream stream)\n
+    downloadJobAttachment(final String id, final String attid)\n
     '''
 def downloadLog():
-    '''public void downloadLog(final String id, final File archive)
-    public void downloadLog(final String id, final OutputStream stream)
-    public InputStream downloadLog(final String id)
+    '''returns InputStream\n\n
+    downloadLog(final String id, final File archive)\n
+    downloadLog(final String id, final OutputStream stream)\n
+    downloadLog(final String id)\n
     '''
 def getFailureInfo():
-    '''public JobFailureInfo getFailureInfo(final String id)
+    '''returns JobFailureInfo\n\n
+    getFailureInfo(final String id)\n
     '''
 def getJobLogItems():
-    '''public List<JobLogItemImpl> getJobLogItems(final String jobid)
-    public List<JobLogItemImpl> getJobLogItems(final String jobid, final long start)
+    '''returns List<JobLogItemImpl>\n\n
+    getJobLogItems(final String jobid)\n
+    getJobLogItems(final String jobid, final long start)\n
     '''
 def newJobCreationData():
-    '''public JobCreationDataImpl newJobCreationData()
+    '''returns JobCreationDataImpl\n\n
+    newJobCreationData()\n
     '''
 def newInputJobAttachment():
-    '''public JobAttachmentImpl newInputJobAttachment(final String name)
+    '''returns JobAttachmentImpl\n\n
+    newInputJobAttachment(final String name)\n
     '''
 def newRequest():
-    '''public JobRequestBuilderImpl newRequest()
+    '''returns JobRequestBuilderImpl\n\n
+    newRequest()\n
     '''
 def dropAll():
-    '''public void dropAll()
-    '''
-def InternalCustomEntity():
-    '''public InternalCustomEntity(final AttachmentContentWriter entity)
+    '''returns None\n\n
+    dropAll()\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def isStreaming():
-    '''public boolean isStreaming()
+    '''returns boolean\n\n
+    isStreaming()\n
     '''
 def getContent():
-    '''public InputStream getContent()
+    '''returns InputStream\n\n
+    getContent()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream outstream)
+    '''returns None\n\n
+    writeTo(final OutputStream outstream)\n
     '''

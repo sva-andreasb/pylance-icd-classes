@@ -35,12 +35,7 @@ ENABLE_CACHE = "String  \"enableCache\""
 DROP_LABELS = "String  \"dropLabels\""
 LABEL_SIZE_CHANGE = "String  \"labelSizeChange\""
 ID = "String  \"_axisId\""
-def Axis():
-    '''public Axis(final String axisId)
-    '''
-def newXAxis():
-    '''public static Axis newXAxis()
-    '''
-def newYAxis():
-    '''public static Axis newYAxis()
+def ():
+    '''returns Axis\n\n
+    (final String axisId)\n
     '''

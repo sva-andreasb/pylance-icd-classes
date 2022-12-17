@@ -1,66 +1,87 @@
-def WFInstance():
-    '''public WFInstance(final MboSet ms)
+def ():
+    '''returns WFInstance\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getControlledMbo():
-    '''public MboRemote getControlledMbo()
+    '''returns MboRemote\n\n
+    getControlledMbo()\n
     '''
 def setControlledMbo():
-    '''public void setControlledMbo(final MboRemote mbo)
+    '''returns None\n\n
+    setControlledMbo(final MboRemote mbo)\n
     '''
 def initiateWorkflow():
-    '''public void initiateWorkflow(final String memo, final WFProcess wfProcess)
+    '''returns None\n\n
+    initiateWorkflow(final String memo, final WFProcess wfProcess)\n
     '''
 def getActions():
-    '''public WFActionSetRemote getActions()
+    '''returns WFActionSetRemote\n\n
+    getActions()\n
     '''
 def completeWorkflowAssignment():
-    '''public void completeWorkflowAssignment(final int assignment, final int action, final String memo)
-    public void completeWorkflowAssignment(final String assignment, final int action, final String memo)
+    '''returns None\n\n
+    completeWorkflowAssignment(final int assignment, final int action, final String memo)\n
+    completeWorkflowAssignment(final String assignment, final int action, final String memo)\n
     '''
 def applyWorkflowAction():
-    '''public void applyWorkflowAction(final int actionID)
-    public void applyWorkflowAction(final int actionID, final String memo)
+    '''returns None\n\n
+    applyWorkflowAction(final int actionID)\n
+    applyWorkflowAction(final int actionID, final String memo)\n
     '''
 def getWFDiagramInfo():
-    '''public WFViewInfo getWFDiagramInfo(final int callSeq)
+    '''returns WFViewInfo\n\n
+    getWFDiagramInfo(final int callSeq)\n
     '''
 def cancelWorkflowAssignment():
-    '''public void cancelWorkflowAssignment(final WFAssignmentRemote assignment, final String actionMemo)
+    '''returns None\n\n
+    cancelWorkflowAssignment(final WFAssignmentRemote assignment, final String actionMemo)\n
     '''
 def stopWorkflow():
-    '''public void stopWorkflow(final String memo)
+    '''returns None\n\n
+    stopWorkflow(final String memo)\n
     '''
 def getCurrentNode():
-    '''public WFNode getCurrentNode()
+    '''returns WFNode\n\n
+    getCurrentNode()\n
     '''
 def interactionComplete():
-    '''public void interactionComplete()
+    '''returns None\n\n
+    interactionComplete()\n
     '''
 def waitComplete():
-    '''public void waitComplete()
+    '''returns None\n\n
+    waitComplete()\n
     '''
 def atInteraction():
-    '''public boolean atInteraction()
+    '''returns boolean\n\n
+    atInteraction()\n
     '''
 def getInteraction():
-    '''public WFInteractionRemote getInteraction()
+    '''returns WFInteractionRemote\n\n
+    getInteraction()\n
     '''
 def escalateAssignment():
-    '''public void escalateAssignment(final int assignID, final String memo)
-    public void escalateAssignment(final String assignID, final String memo)
+    '''returns None\n\n
+    escalateAssignment(final int assignID, final String memo)\n
+    escalateAssignment(final String assignID, final String memo)\n
     '''
 def atStoppingPoint():
-    '''public boolean atStoppingPoint()
+    '''returns boolean\n\n
+    atStoppingPoint()\n
     '''
 def canAutoCompleteInteraction():
-    '''public boolean canAutoCompleteInteraction()
+    '''returns boolean\n\n
+    canAutoCompleteInteraction()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

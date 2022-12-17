@@ -1,12 +1,16 @@
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def getDefaultValue():
-    '''public Value getDefaultValue()
+    '''returns Value\n\n
+    getDefaultValue()\n
     '''
 def createValue():
-    '''public Value createValue(final LexicalUnit lu, final CSSEngine engine)
+    '''returns Value\n\n
+    createValue(final LexicalUnit lu, final CSSEngine engine)\n
     '''
 def createStringValue():
-    '''public Value createStringValue(final short type, final String value, final CSSEngine engine)
+    '''returns Value\n\n
+    createStringValue(final short type, final String value, final CSSEngine engine)\n
     '''

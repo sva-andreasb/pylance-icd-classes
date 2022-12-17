@@ -1,18 +1,20 @@
 def getSyntaxAndPattern():
-    '''public String getSyntaxAndPattern()
+    '''returns String\n\n
+    getSyntaxAndPattern()\n
     '''
 def getNestedConditions():
-    '''public List<PathCondition> getNestedConditions()
+    '''returns List<PathCondition>\n\n
+    getNestedConditions()\n
     '''
 def accept():
-    '''public boolean accept(final Path basePath, final Path relativePath, final BasicFileAttributes attrs)
+    '''returns boolean\n\n
+    accept(final Path basePath, final Path relativePath, final BasicFileAttributes attrs)\n
     '''
 def beforeFileTreeWalk():
-    '''public void beforeFileTreeWalk()
-    '''
-def createNameCondition():
-    '''public static IfFileName createNameCondition(@PluginAttribute("glob") final String glob, @PluginAttribute("regex") final String regex, @PluginElement("PathConditions") final PathCondition... nestedConditions)
+    '''returns None\n\n
+    beforeFileTreeWalk()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

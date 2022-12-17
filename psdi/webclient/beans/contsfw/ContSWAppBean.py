@@ -1,33 +1,44 @@
 def DETAILREP():
-    '''public int DETAILREP()
+    '''returns int\n\n
+    DETAILREP()\n
     '''
 def PRINTDOCS():
-    '''public int PRINTDOCS()
+    '''returns int\n\n
+    PRINTDOCS()\n
     '''
 def CREATEREPO():
-    '''public int CREATEREPO()
+    '''returns int\n\n
+    CREATEREPO()\n
     '''
 def COPYPRLINE():
-    '''public int COPYPRLINE()
+    '''returns int\n\n
+    COPYPRLINE()\n
     '''
 def COPYPOLINE():
-    '''public int COPYPOLINE()
+    '''returns int\n\n
+    COPYPOLINE()\n
     '''
 def REVCONT():
-    '''public int REVCONT()
+    '''returns int\n\n
+    REVCONT()\n
     '''
 def VIEWRELCOS():
-    '''public int VIEWRELCOS()
+    '''returns int\n\n
+    VIEWRELCOS()\n
     '''
 def CHGST():
-    '''public int CHGST()
+    '''returns int\n\n
+    CHGST()\n
     '''
 def AUTHSITES():
-    '''public int AUTHSITES()
+    '''returns int\n\n
+    AUTHSITES()\n
     '''
 def SWLIC():
-    '''public int SWLIC()
+    '''returns int\n\n
+    SWLIC()\n
     '''
 def APPLYPRAD():
-    '''public int APPLYPRAD()
+    '''returns int\n\n
+    APPLYPRAD()\n
     '''

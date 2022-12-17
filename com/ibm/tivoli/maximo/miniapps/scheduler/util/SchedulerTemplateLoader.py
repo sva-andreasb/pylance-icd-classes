@@ -1,15 +1,20 @@
-def SchedulerTemplateLoader():
-    '''public SchedulerTemplateLoader(final AbstractTreeGridMiniAppBean bean)
+def ():
+    '''returns SchedulerTemplateLoader\n\n
+    (final AbstractTreeGridMiniAppBean bean)\n
     '''
 def closeTemplateSource():
-    '''public void closeTemplateSource(final Object templateSource)
+    '''returns None\n\n
+    closeTemplateSource(final Object templateSource)\n
     '''
 def findTemplateSource():
-    '''public Object findTemplateSource(final String templateName)
+    '''returns Object\n\n
+    findTemplateSource(final String templateName)\n
     '''
 def getLastModified():
-    '''public long getLastModified(final Object templateSource)
+    '''returns long\n\n
+    getLastModified(final Object templateSource)\n
     '''
 def getReader():
-    '''public Reader getReader(final Object templateSource, final String encoding)
+    '''returns Reader\n\n
+    getReader(final Object templateSource, final String encoding)\n
     '''

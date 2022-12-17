@@ -1,18 +1,24 @@
-def MaxTableCfg():
-    '''public MaxTableCfg(final MboSet ms)
+def ():
+    '''returns MaxTableCfg\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getNativePartition():
-    '''public String getNativePartition()
+    '''returns String\n\n
+    getNativePartition()\n
     '''
 def nativeTableExists():
-    '''public boolean nativeTableExists()
+    '''returns boolean\n\n
+    nativeTableExists()\n
     '''
 def nativeAuditTableExists():
-    '''public boolean nativeAuditTableExists()
+    '''returns boolean\n\n
+    nativeAuditTableExists()\n
     '''

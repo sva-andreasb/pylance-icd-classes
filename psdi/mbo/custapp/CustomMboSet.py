@@ -1,3 +1,4 @@
-def CustomMboSet():
-    '''public CustomMboSet(final MboServerInterface ms)
+def ():
+    '''returns CustomMboSet\n\n
+    (final MboServerInterface ms)\n
     '''

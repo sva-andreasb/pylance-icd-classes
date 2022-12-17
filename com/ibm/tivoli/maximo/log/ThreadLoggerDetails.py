@@ -1,6 +1,8 @@
-def ThreadLoggerDetails():
-    '''public ThreadLoggerDetails(final MboSet ms)
+def ():
+    '''returns ThreadLoggerDetails\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

@@ -1,15 +1,17 @@
-def MeterInGroup():
-    '''public MeterInGroup(final MboSet ms)
+def ():
+    '''returns MeterInfo\n\n
+    (final MboSet ms)\n
+    (Connection conMeterInfo)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def save():
-    '''public void save()
-    '''
-def MeterInfo():
-    '''public MeterInfo(Connection conMeterInfo)
+    '''returns None\n\n
+    save()\n
     '''

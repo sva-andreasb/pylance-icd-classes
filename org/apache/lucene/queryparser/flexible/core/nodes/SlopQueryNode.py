@@ -1,24 +1,32 @@
-def SlopQueryNode():
-    '''public SlopQueryNode(final QueryNode query, final int value)
+def ():
+    '''returns SlopQueryNode\n\n
+    (final QueryNode query, final int value)\n
     '''
 def getChild():
-    '''public QueryNode getChild()
+    '''returns QueryNode\n\n
+    getChild()\n
     '''
 def getValue():
-    '''public int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toQueryString():
-    '''public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
+    '''returns CharSequence\n\n
+    toQueryString(final EscapeQuerySyntax escapeSyntaxParser)\n
     '''
 def cloneTree():
-    '''public QueryNode cloneTree()
+    '''returns QueryNode\n\n
+    cloneTree()\n
     '''
 def getField():
-    '''public CharSequence getField()
+    '''returns CharSequence\n\n
+    getField()\n
     '''
 def setField():
-    '''public void setField(final CharSequence fieldName)
+    '''returns None\n\n
+    setField(final CharSequence fieldName)\n
     '''

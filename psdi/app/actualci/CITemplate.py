@@ -1,12 +1,16 @@
-def CITemplate():
-    '''public CITemplate(final MboSet ms)
+def ():
+    '''returns CITemplate\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def clearTopActCIClassification():
-    '''public void clearTopActCIClassification()
+    '''returns None\n\n
+    clearTopActCIClassification()\n
     '''

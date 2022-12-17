@@ -1,6 +1,8 @@
-def FldInventoryLotCnt():
-    '''public FldInventoryLotCnt(final MboValue mbv)
+def ():
+    '''returns FldInventoryLotCnt\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

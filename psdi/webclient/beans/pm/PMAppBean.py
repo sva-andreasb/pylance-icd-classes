@@ -1,48 +1,56 @@
 def VIEWSEQ():
-    '''public int VIEWSEQ()
+    '''returns int\n\n
+    VIEWSEQ()\n
     '''
 def GENERATEFO():
-    '''public int GENERATEFO()
+    '''returns int\n\n
+    GENERATEFO()\n
     '''
 def DELETEFO():
-    '''public int DELETEFO()
+    '''returns int\n\n
+    DELETEFO()\n
     '''
 def CLEARREFO():
-    '''public int CLEARREFO()
+    '''returns int\n\n
+    CLEARREFO()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def forecastTabChanged():
-    '''public int forecastTabChanged()
+    '''returns int\n\n
+    forecastTabChanged()\n
     '''
 def LOCKFO():
-    '''public int LOCKFO()
+    '''returns int\n\n
+    LOCKFO()\n
     '''
 def UNLOCKFO():
-    '''public int UNLOCKFO()
+    '''returns int\n\n
+    UNLOCKFO()\n
     '''
 def LockUnlockForecast():
-    '''public void LockUnlockForecast(final boolean lockForecast)
-    '''
-def setValue():
-    '''public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
-    '''
-def setDate():
-    '''public synchronized void setDate(final String componentId, final Date value)
+    '''returns None\n\n
+    LockUnlockForecast(final boolean lockForecast)\n
     '''
 def extDateDialog():
-    '''public void extDateDialog(final String attribute)
+    '''returns None\n\n
+    extDateDialog(final String attribute)\n
     '''
 def PLUSCOXTDT():
-    '''public int PLUSCOXTDT()
+    '''returns int\n\n
+    PLUSCOXTDT()\n
     '''
 def isCalibrationInstalled():
-    '''public boolean isCalibrationInstalled()
+    '''returns boolean\n\n
+    isCalibrationInstalled()\n
     '''
 def DUPLICATE():
-    '''public int DUPLICATE()
+    '''returns int\n\n
+    DUPLICATE()\n
     '''
 def calculatepmfocost():
-    '''public int calculatepmfocost()
+    '''returns int\n\n
+    calculatepmfocost()\n
     '''

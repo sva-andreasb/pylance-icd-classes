@@ -1,6 +1,8 @@
-def RcvEventFilter():
-    '''public RcvEventFilter(final PublishInfo pubInfo)
+def ():
+    '''returns RcvEventFilter\n\n
+    (final PublishInfo pubInfo)\n
     '''
 def getEventObjects():
-    '''public Set<String> getEventObjects()
+    '''returns Set<String>\n\n
+    getEventObjects()\n
     '''

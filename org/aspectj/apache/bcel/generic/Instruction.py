@@ -1,93 +1,115 @@
-def Instruction():
-    '''public Instruction(final short opcode)
+def ():
+    '''returns Instruction\n\n
+    (final short opcode)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def copy():
-    '''public final Instruction copy()
-    '''
-def readInstruction():
-    '''public static final Instruction readInstruction(final ByteSequence bytes)
+    '''returns String\n\n
+    getName()\n
     '''
 def consumeStack():
-    '''public int consumeStack(final ConstantPool cpg)
+    '''returns int\n\n
+    consumeStack(final ConstantPool cpg)\n
     '''
 def produceStack():
-    '''public int produceStack(final ConstantPool cpg)
+    '''returns int\n\n
+    produceStack(final ConstantPool cpg)\n
     '''
 def getOpcode():
-    '''public short getOpcode()
+    '''returns short\n\n
+    getOpcode()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getType():
-    '''public Type getType()
-    public Type getType(final ConstantPool cp)
+    '''returns Type\n\n
+    getType()\n
+    getType(final ConstantPool cp)\n
     '''
 def getValue():
-    '''public Number getValue()
-    public Object getValue(final ConstantPool cpg)
+    '''returns Object\n\n
+    getValue()\n
+    getValue(final ConstantPool cpg)\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def setIndex():
-    '''public void setIndex(final int i)
+    '''returns None\n\n
+    setIndex(final int i)\n
     '''
 def isLoadInstruction():
-    '''public boolean isLoadInstruction()
+    '''returns boolean\n\n
+    isLoadInstruction()\n
     '''
 def isASTORE():
-    '''public boolean isASTORE()
+    '''returns boolean\n\n
+    isASTORE()\n
     '''
 def isALOAD():
-    '''public boolean isALOAD()
+    '''returns boolean\n\n
+    isALOAD()\n
     '''
 def isStoreInstruction():
-    '''public boolean isStoreInstruction()
+    '''returns boolean\n\n
+    isStoreInstruction()\n
     '''
 def isJsrInstruction():
-    '''public boolean isJsrInstruction()
+    '''returns boolean\n\n
+    isJsrInstruction()\n
     '''
 def isConstantInstruction():
-    '''public boolean isConstantInstruction()
+    '''returns boolean\n\n
+    isConstantInstruction()\n
     '''
 def isConstantPoolInstruction():
-    '''public boolean isConstantPoolInstruction()
+    '''returns boolean\n\n
+    isConstantPoolInstruction()\n
     '''
 def isStackProducer():
-    '''public boolean isStackProducer()
+    '''returns boolean\n\n
+    isStackProducer()\n
     '''
 def isStackConsumer():
-    '''public boolean isStackConsumer()
+    '''returns boolean\n\n
+    isStackConsumer()\n
     '''
 def isIndexedInstruction():
-    '''public boolean isIndexedInstruction()
+    '''returns boolean\n\n
+    isIndexedInstruction()\n
     '''
 def isArrayCreationInstruction():
-    '''public boolean isArrayCreationInstruction()
+    '''returns boolean\n\n
+    isArrayCreationInstruction()\n
     '''
 def getLoadClassType():
-    '''public ObjectType getLoadClassType(final ConstantPool cpg)
+    '''returns ObjectType\n\n
+    getLoadClassType(final ConstantPool cpg)\n
     '''
 def isReturnInstruction():
-    '''public boolean isReturnInstruction()
+    '''returns boolean\n\n
+    isReturnInstruction()\n
     '''
 def isLocalVariableInstruction():
-    '''public boolean isLocalVariableInstruction()
+    '''returns boolean\n\n
+    isLocalVariableInstruction()\n
     '''
 def toString():
-    '''public String toString(final boolean verbose)
-    public String toString()
+    '''returns String\n\n
+    toString(final boolean verbose)\n
+    toString()\n
     '''

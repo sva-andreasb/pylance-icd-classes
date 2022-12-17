@@ -1,6 +1,8 @@
 def clear():
-    '''public int clear()
+    '''returns int\n\n
+    clear()\n
     '''
 def find():
-    '''public int find()
+    '''returns int\n\n
+    find()\n
     '''

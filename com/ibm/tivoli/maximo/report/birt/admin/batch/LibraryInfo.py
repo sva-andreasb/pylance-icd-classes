@@ -1,3 +1,4 @@
-def LibraryInfo():
-    '''public LibraryInfo(final String name)
+def ():
+    '''returns LibraryInfo\n\n
+    (final String name)\n
     '''

@@ -1,9 +1,8 @@
-def IntegrityChecker():
-    '''public IntegrityChecker()
-    '''
-def main():
-    '''public static void main(final String[] args)
+def ():
+    '''returns IntegrityChecker\n\n
+    ()\n
     '''
 def report():
-    '''public void report(final Report report)
+    '''returns None\n\n
+    report(final Report report)\n
     '''

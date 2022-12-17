@@ -1,52 +1,61 @@
-def getReasonBuffer():
-    '''public static Buffer getReasonBuffer(final int code)
-    '''
-def setServerVersion():
-    '''public static void setServerVersion(final String version)
-    '''
-def HttpGenerator():
-    '''public HttpGenerator(final Buffers buffers, final EndPoint io)
+def ():
+    '''returns HttpGenerator\n\n
+    (final Buffers buffers, final EndPoint io)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def addContent():
-    '''public void addContent(Buffer content, final boolean last)
-    public boolean addContent(final byte b)
+    '''returns boolean\n\n
+    addContent(Buffer content, final boolean last)\n
+    addContent(final byte b)\n
     '''
 def sendResponse():
-    '''public void sendResponse(final Buffer response)
+    '''returns None\n\n
+    sendResponse(final Buffer response)\n
     '''
 def prepareUncheckedAddContent():
-    '''public int prepareUncheckedAddContent()
+    '''returns int\n\n
+    prepareUncheckedAddContent()\n
     '''
 def isBufferFull():
-    '''public boolean isBufferFull()
+    '''returns boolean\n\n
+    isBufferFull()\n
     '''
 def send1xx():
-    '''public void send1xx(final int code)
+    '''returns None\n\n
+    send1xx(final int code)\n
     '''
 def isRequest():
-    '''public boolean isRequest()
+    '''returns boolean\n\n
+    isRequest()\n
     '''
 def isResponse():
-    '''public boolean isResponse()
+    '''returns boolean\n\n
+    isResponse()\n
     '''
 def completeHeader():
-    '''public void completeHeader(final HttpFields fields, final boolean allContentAdded)
+    '''returns None\n\n
+    completeHeader(final HttpFields fields, final boolean allContentAdded)\n
     '''
 def complete():
-    '''public void complete()
+    '''returns None\n\n
+    complete()\n
     '''
 def flushBuffer():
-    '''public int flushBuffer()
+    '''returns int\n\n
+    flushBuffer()\n
     '''
 def getBytesBuffered():
-    '''public int getBytesBuffered()
+    '''returns int\n\n
+    getBytesBuffered()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

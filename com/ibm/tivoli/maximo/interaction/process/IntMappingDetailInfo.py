@@ -1,18 +1,24 @@
-def IntMappingDetailInfo():
-    '''public IntMappingDetailInfo(final String attributeName, final String value, final byte[] encryptedValue, final int encryptValue)
+def ():
+    '''returns IntMappingDetailInfo\n\n
+    (final String attributeName, final String value, final byte[] encryptedValue, final int encryptValue)\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''
 def getParameter():
-    '''public String getParameter()
+    '''returns String\n\n
+    getParameter()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getEncryptedValue():
-    '''public byte[] getEncryptedValue()
+    '''returns byte[]\n\n
+    getEncryptedValue()\n
     '''
 def isEncryped():
-    '''public boolean isEncryped()
+    '''returns boolean\n\n
+    isEncryped()\n
     '''

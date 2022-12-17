@@ -1,12 +1,16 @@
-def HiddenValue():
-    '''public HiddenValue(final Mbo ownerMbo, final MboValueInfo mvInfo)
+def ():
+    '''returns HiddenValue\n\n
+    (final Mbo ownerMbo, final MboValueInfo mvInfo)\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getMbo():
-    '''public Mbo getMbo()
+    '''returns Mbo\n\n
+    getMbo()\n
     '''

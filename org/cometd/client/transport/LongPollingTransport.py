@@ -1,21 +1,22 @@
 NAME = "String  \"long-polling\""
 PREFIX = "String  \"long-polling.json\""
-def create():
-    '''public static LongPollingTransport create(final Map<String, Object> options)
-    public static LongPollingTransport create(final Map<String, Object> options, final HttpClient httpClient)
-    '''
-def LongPollingTransport():
-    '''public LongPollingTransport(final Map<String, Object> options, final HttpClient httpClient)
+def ():
+    '''returns LongPollingTransport\n\n
+    (final Map<String, Object> options, final HttpClient httpClient)\n
     '''
 def accept():
-    '''public boolean accept(final String bayeuxVersion)
+    '''returns boolean\n\n
+    accept(final String bayeuxVersion)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def send():
-    '''public void send(final TransportListener listener, final Message.Mutable... messages)
+    '''returns None\n\n
+    send(final TransportListener listener, final Message.Mutable... messages)\n
     '''

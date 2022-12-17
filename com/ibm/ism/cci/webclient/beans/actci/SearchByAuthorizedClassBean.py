@@ -1,6 +1,8 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def setUserWhereAfterParse():
-    '''public void setUserWhereAfterParse(final DataBean results, final String whereClause)
+    '''returns None\n\n
+    setUserWhereAfterParse(final DataBean results, final String whereClause)\n
     '''

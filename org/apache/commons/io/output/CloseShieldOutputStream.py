@@ -1,6 +1,8 @@
-def CloseShieldOutputStream():
-    '''public CloseShieldOutputStream(final OutputStream out)
+def ():
+    '''returns CloseShieldOutputStream\n\n
+    (final OutputStream out)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

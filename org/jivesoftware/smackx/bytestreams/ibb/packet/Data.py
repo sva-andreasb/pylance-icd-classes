@@ -1,6 +1,8 @@
-def Data():
-    '''public Data(final DataPacketExtension data)
+def ():
+    '''returns Data\n\n
+    (final DataPacketExtension data)\n
     '''
 def getDataPacketExtension():
-    '''public DataPacketExtension getDataPacketExtension()
+    '''returns DataPacketExtension\n\n
+    getDataPacketExtension()\n
     '''

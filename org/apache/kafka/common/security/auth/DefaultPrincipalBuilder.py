@@ -1,9 +1,12 @@
 def configure():
-    '''public void configure(final Map<String, ?> configs)
+    '''returns None\n\n
+    configure(final Map<String, ?> configs)\n
     '''
 def buildPrincipal():
-    '''public Principal buildPrincipal(final TransportLayer transportLayer, final Authenticator authenticator)
+    '''returns Principal\n\n
+    buildPrincipal(final TransportLayer transportLayer, final Authenticator authenticator)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

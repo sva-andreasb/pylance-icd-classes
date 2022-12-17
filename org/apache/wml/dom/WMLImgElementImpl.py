@@ -1,69 +1,92 @@
-def WMLImgElementImpl():
-    '''public WMLImgElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+def ():
+    '''returns WMLImgElementImpl\n\n
+    (final WMLDocumentImpl wmlDocumentImpl, final String s)\n
     '''
 def setWidth():
-    '''public void setWidth(final String s)
+    '''returns None\n\n
+    setWidth(final String s)\n
     '''
 def getWidth():
-    '''public String getWidth()
+    '''returns String\n\n
+    getWidth()\n
     '''
 def setClassName():
-    '''public void setClassName(final String s)
+    '''returns None\n\n
+    setClassName(final String s)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setXmlLang():
-    '''public void setXmlLang(final String s)
+    '''returns None\n\n
+    setXmlLang(final String s)\n
     '''
 def getXmlLang():
-    '''public String getXmlLang()
+    '''returns String\n\n
+    getXmlLang()\n
     '''
 def setLocalSrc():
-    '''public void setLocalSrc(final String s)
+    '''returns None\n\n
+    setLocalSrc(final String s)\n
     '''
 def getLocalSrc():
-    '''public String getLocalSrc()
+    '''returns String\n\n
+    getLocalSrc()\n
     '''
 def setHeight():
-    '''public void setHeight(final String s)
+    '''returns None\n\n
+    setHeight(final String s)\n
     '''
 def getHeight():
-    '''public String getHeight()
+    '''returns String\n\n
+    getHeight()\n
     '''
 def setAlign():
-    '''public void setAlign(final String s)
+    '''returns None\n\n
+    setAlign(final String s)\n
     '''
 def getAlign():
-    '''public String getAlign()
+    '''returns String\n\n
+    getAlign()\n
     '''
 def setVspace():
-    '''public void setVspace(final String s)
+    '''returns None\n\n
+    setVspace(final String s)\n
     '''
 def getVspace():
-    '''public String getVspace()
+    '''returns String\n\n
+    getVspace()\n
     '''
 def setAlt():
-    '''public void setAlt(final String s)
+    '''returns None\n\n
+    setAlt(final String s)\n
     '''
 def getAlt():
-    '''public String getAlt()
+    '''returns String\n\n
+    getAlt()\n
     '''
 def setId():
-    '''public void setId(final String s)
+    '''returns None\n\n
+    setId(final String s)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setHspace():
-    '''public void setHspace(final String s)
+    '''returns None\n\n
+    setHspace(final String s)\n
     '''
 def getHspace():
-    '''public String getHspace()
+    '''returns String\n\n
+    getHspace()\n
     '''
 def setSrc():
-    '''public void setSrc(final String s)
+    '''returns None\n\n
+    setSrc(final String s)\n
     '''
 def getSrc():
-    '''public String getSrc()
+    '''returns String\n\n
+    getSrc()\n
     '''

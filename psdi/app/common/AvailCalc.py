@@ -1,62 +1,82 @@
-def AvailCalc():
-    '''public AvailCalc()
+def ():
+    '''returns AvailCalc\n\n
+    ()\n
     '''
 def checkAvailableCalendar():
-    '''public String checkAvailableCalendar(final Date fromDate, final Date toDate, final String shiftnum)
+    '''returns String\n\n
+    checkAvailableCalendar(final Date fromDate, final Date toDate, final String shiftnum)\n
     '''
 def getWPSQL():
-    '''public String getWPSQL(final Date fromDate, final Date toDate)
+    '''returns String\n\n
+    getWPSQL(final Date fromDate, final Date toDate)\n
     '''
 def checkAvailableWorkHrs():
-    '''public double checkAvailableWorkHrs(final Date fromDate, final Date toDate, final String shiftnum)
+    '''returns double\n\n
+    checkAvailableWorkHrs(final Date fromDate, final Date toDate, final String shiftnum)\n
     '''
 def getSqlString():
-    '''public String getSqlString(final boolean istodate, final String str1, final String str2, final String shiftnum)
+    '''returns String\n\n
+    getSqlString(final boolean istodate, final String str1, final String str2, final String shiftnum)\n
     '''
 def getCalDate():
-    '''public Date getCalDate(final Date actualDate)
+    '''returns Date\n\n
+    getCalDate(final Date actualDate)\n
     '''
 def getCalTime():
-    '''public Date getCalTime(final Date actualDate, final String defDate)
-    public Date getCalTime(final String defDate, final boolean isstart)
+    '''returns Date\n\n
+    getCalTime(final Date actualDate, final String defDate)\n
+    getCalTime(final String defDate, final boolean isstart)\n
     '''
 def getNextWorkDate():
-    '''public Date getNextWorkDate(final Date fromDate)
+    '''returns Date\n\n
+    getNextWorkDate(final Date fromDate)\n
     '''
 def getToDate():
-    '''public Date getToDate(final Date fromDate)
+    '''returns Date\n\n
+    getToDate(final Date fromDate)\n
     '''
 def getDateTime():
-    '''public Date getDateTime(final Date workdt, final Date sttime)
+    '''returns Date\n\n
+    getDateTime(final Date workdt, final Date sttime)\n
     '''
 def checkAvailableHours():
-    '''public double checkAvailableHours(final Date workdate, final PersonCalRemote personCal)
+    '''returns double\n\n
+    checkAvailableHours(final Date workdate, final PersonCalRemote personCal)\n
     '''
 def checkAvailableMboList():
-    '''public List<MboRemote> checkAvailableMboList(final Date workdate, final PersonCalRemote personCal)
+    '''returns List<MboRemote>\n\n
+    checkAvailableMboList(final Date workdate, final PersonCalRemote personCal)\n
     '''
 def checkAvailableMbo():
-    '''public MboRemote checkAvailableMbo(final Date workdate, final PersonCalRemote personCal)
+    '''returns MboRemote\n\n
+    checkAvailableMbo(final Date workdate, final PersonCalRemote personCal)\n
     '''
 def checkWorkPeriodMbo():
-    '''public MboRemote checkWorkPeriodMbo(Date workdate, final PersonCalRemote personCal)
+    '''returns MboRemote\n\n
+    checkWorkPeriodMbo(Date workdate, final PersonCalRemote personCal)\n
     '''
 def getStartDateTime():
-    '''public Date getStartDateTime(final Date workdate, final PersonCalRemote personCal)
+    '''returns Date\n\n
+    getStartDateTime(final Date workdate, final PersonCalRemote personCal)\n
     '''
 def getNextWorkDateForCal():
-    '''public Date getNextWorkDateForCal(Date workdate, final String person, final String calnum, final String shiftnum, final String orgid)
+    '''returns Date\n\n
+    getNextWorkDateForCal(Date workdate, final String person, final String calnum, final String shiftnum, final String orgid)\n
     '''
 def getSqlSqfFormat():
-    '''public String getSqlSqfFormat(final String strValue, final Date AvailDate, final String orgid)
+    '''returns String\n\n
+    getSqlSqfFormat(final String strValue, final Date AvailDate, final String orgid)\n
     '''
 def getCompositeWP():
-    '''public MboRemote getCompositeWP(final List<MboRemote> modAvailList, final Date workDate, final PersonRemote person, final String orgid)
-    public MboRemote getCompositeWP(final List<MboRemote> modAvailList, final Date workDate, final PersonRemote person, final String orgid, final boolean isCreateAMGrid)
+    '''returns MboRemote\n\n
+    getCompositeWP(final List<MboRemote> modAvailList, final Date workDate, final PersonRemote person, final String orgid)\n
+    getCompositeWP(final List<MboRemote> modAvailList, final Date workDate, final PersonRemote person, final String orgid, final boolean isCreateAMGrid)\n
     '''
 def getPersonCal():
-    '''public PersonCalRemote getPersonCal(final PersonRemote person, final String orgid)
+    '''returns PersonCalRemote\n\n
+    getPersonCal(final PersonRemote person, final String orgid)\n
     '''
 def getToDateOneYear():
-    '''public Date getToDateOneYear(final Date fromDate)
+    '''returns Date\n\n
+    getToDateOneYear(final Date fromDate)\n
     '''

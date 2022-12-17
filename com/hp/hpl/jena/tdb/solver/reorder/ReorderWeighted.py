@@ -1,3 +1,4 @@
-def ReorderWeighted():
-    '''public ReorderWeighted(final StatsMatcher stats)
+def ():
+    '''returns ReorderWeighted\n\n
+    (final StatsMatcher stats)\n
     '''

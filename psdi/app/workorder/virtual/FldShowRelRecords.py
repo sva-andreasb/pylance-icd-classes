@@ -1,3 +1,4 @@
-def FldShowRelRecords():
-    '''public FldShowRelRecords(final MboValue mbv)
+def ():
+    '''returns FldShowRelRecords\n\n
+    (final MboValue mbv)\n
     '''

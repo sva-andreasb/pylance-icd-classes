@@ -1,6 +1,8 @@
-def FldInvUseLineDisplayReturnedQty():
-    '''public FldInvUseLineDisplayReturnedQty(final MboValue mbv)
+def ():
+    '''returns FldInvUseLineDisplayReturnedQty\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

@@ -1,12 +1,10 @@
-def getInstance():
-    '''public static StackLocator getInstance()
-    public static StackLocator getInstance()
-    '''
 def calcLocation():
-    '''public StackTraceElement calcLocation(final String fqcnOfLogger)
-    public StackTraceElement calcLocation(final String fqcnOfLogger)
+    '''returns StackTraceElement\n\n
+    calcLocation(final String fqcnOfLogger)\n
+    calcLocation(final String fqcnOfLogger)\n
     '''
 def getStackTraceElement():
-    '''public StackTraceElement getStackTraceElement(final int depth)
-    public StackTraceElement getStackTraceElement(final int depth)
+    '''returns StackTraceElement\n\n
+    getStackTraceElement(final int depth)\n
+    getStackTraceElement(final int depth)\n
     '''

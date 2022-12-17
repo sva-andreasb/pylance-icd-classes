@@ -1,7 +1,9 @@
-def RequestDefaultHeaders():
-    '''public RequestDefaultHeaders(final Collection<? extends Header> defaultHeaders)
-    public RequestDefaultHeaders()
+def ():
+    '''returns RequestDefaultHeaders\n\n
+    (final Collection<? extends Header> defaultHeaders)\n
+    ()\n
     '''
 def process():
-    '''public void process(final HttpRequest request, final HttpContext context)
+    '''returns None\n\n
+    process(final HttpRequest request, final HttpContext context)\n
     '''

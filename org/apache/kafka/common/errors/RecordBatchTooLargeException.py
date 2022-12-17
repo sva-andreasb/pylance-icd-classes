@@ -1,6 +1,7 @@
-def RecordBatchTooLargeException():
-    '''public RecordBatchTooLargeException()
-    public RecordBatchTooLargeException(final String message, final Throwable cause)
-    public RecordBatchTooLargeException(final String message)
-    public RecordBatchTooLargeException(final Throwable cause)
+def ():
+    '''returns RecordBatchTooLargeException\n\n
+    ()\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
+    (final Throwable cause)\n
     '''

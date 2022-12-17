@@ -1,3 +1,4 @@
-def PMStatusDummySet():
-    '''public PMStatusDummySet(final MboServerInterface ms)
+def ():
+    '''returns PMStatusDummySet\n\n
+    (final MboServerInterface ms)\n
     '''

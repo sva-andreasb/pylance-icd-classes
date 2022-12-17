@@ -1,15 +1,19 @@
 DOCUMENT_ADDED = "int  0"
 DOCUMENT_DELETED = "int  1"
 DOCUMENT_MODIFIED = "int  2"
-def ConfigChangeNotifier():
-    '''public ConfigChangeNotifier(final String uri, final int type)
+def ():
+    '''returns ConfigChangeNotifier\n\n
+    (final String uri, final int type)\n
     '''
 def getChangeType():
-    '''public int getChangeType()
+    '''returns int\n\n
+    getChangeType()\n
     '''
 def getUri():
-    '''public String getUri()
+    '''returns String\n\n
+    getUri()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

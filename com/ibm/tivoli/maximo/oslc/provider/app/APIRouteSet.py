@@ -1,6 +1,8 @@
-def APIRouteSet():
-    '''public APIRouteSet(final MboServerInterface ms)
+def ():
+    '''returns APIRouteSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

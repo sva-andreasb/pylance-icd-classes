@@ -1,9 +1,8 @@
 def newrecord():
-    '''public int newrecord()
+    '''returns int\n\n
+    newrecord()\n
     '''
 def viewdetails():
-    '''public int viewdetails()
-    '''
-def saverecord():
-    '''public synchronized void saverecord()
+    '''returns int\n\n
+    viewdetails()\n
     '''

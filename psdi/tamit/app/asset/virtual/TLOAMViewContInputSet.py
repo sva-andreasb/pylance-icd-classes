@@ -1,6 +1,8 @@
-def TLOAMViewContInputSet():
-    '''public TLOAMViewContInputSet(final MboServerInterface ms)
+def ():
+    '''returns TLOAMViewContInputSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

@@ -1,18 +1,22 @@
-def TsdIMException():
-    '''public TsdIMException(final Code code)
-    public TsdIMException(final Code code, final String message)
-    public TsdIMException(final Code code, final Throwable throwable)
-    public TsdIMException(final Code code, final String message, final Throwable throwable)
+def ():
+    '''returns TsdIMException\n\n
+    (final Code code)\n
+    (final Code code, final String message)\n
+    (final Code code, final Throwable throwable)\n
+    (final Code code, final String message, final Throwable throwable)\n
     '''
 def getCode():
-    '''public Code getCode()
+    '''returns Code\n\n
+    getCode()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''

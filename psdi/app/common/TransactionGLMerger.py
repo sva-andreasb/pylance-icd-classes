@@ -1,87 +1,116 @@
-def TransactionGLMerger():
-    '''public TransactionGLMerger(final Mbo mbo)
+def ():
+    '''returns TransactionGLMerger\n\n
+    (final Mbo mbo)\n
     '''
 def getMergedDebitGLAccount():
-    '''public String getMergedDebitGLAccount()
+    '''returns String\n\n
+    getMergedDebitGLAccount()\n
     '''
 def mergedGL():
-    '''public String mergedGL(final String topGL, final String bottomGL)
+    '''returns String\n\n
+    mergedGL(final String topGL, final String bottomGL)\n
     '''
 def getInventoryGLAccount():
-    '''public String getInventoryGLAccount()
+    '''returns String\n\n
+    getInventoryGLAccount()\n
     '''
 def getItemOrgInfoGLAccount():
-    '''public String getItemOrgInfoGLAccount()
+    '''returns String\n\n
+    getItemOrgInfoGLAccount()\n
     '''
 def getItemResourceAccount():
-    '''public String getItemResourceAccount()
+    '''returns String\n\n
+    getItemResourceAccount()\n
     '''
 def setMRInfo():
-    '''public void setMRInfo(final String mrnum, final String mrlinenum)
+    '''returns None\n\n
+    setMRInfo(final String mrnum, final String mrlinenum)\n
     '''
 def setItem():
-    '''public void setItem(final String itemnum)
+    '''returns None\n\n
+    setItem(final String itemnum)\n
     '''
 def setOrgID():
-    '''public void setOrgID(final String orgid)
+    '''returns None\n\n
+    setOrgID(final String orgid)\n
     '''
 def setItemSetID():
-    '''public void setItemSetID(final String itemsetid)
+    '''returns None\n\n
+    setItemSetID(final String itemsetid)\n
     '''
 def setAssetnum():
-    '''public void setAssetnum(final String assetnum)
+    '''returns None\n\n
+    setAssetnum(final String assetnum)\n
     '''
 def setWonum():
-    '''public void setWonum(final String wonum)
+    '''returns None\n\n
+    setWonum(final String wonum)\n
     '''
 def setWO():
-    '''public void setWO(final MboRemote wo)
+    '''returns None\n\n
+    setWO(final MboRemote wo)\n
     '''
 def setLocation():
-    '''public void setLocation(final String location)
+    '''returns None\n\n
+    setLocation(final String location)\n
     '''
 def setMRGLAccount():
-    '''public void setMRGLAccount(final String glAcct)
+    '''returns None\n\n
+    setMRGLAccount(final String glAcct)\n
     '''
 def setStoreLoc():
-    '''public void setStoreLoc(final String storeloc)
+    '''returns None\n\n
+    setStoreLoc(final String storeloc)\n
     '''
 def setChargeToStore():
-    '''public void setChargeToStore(final boolean chargeToStore)
+    '''returns None\n\n
+    setChargeToStore(final boolean chargeToStore)\n
     '''
 def setLaborcode():
-    '''public void setLaborcode(final String laborcode)
+    '''returns None\n\n
+    setLaborcode(final String laborcode)\n
     '''
 def setCraft():
-    '''public void setCraft(final String craft)
+    '''returns None\n\n
+    setCraft(final String craft)\n
     '''
 def setSkillLevel():
-    '''public void setSkillLevel(final String skilllevel)
+    '''returns None\n\n
+    setSkillLevel(final String skilllevel)\n
     '''
 def setVendor():
-    '''public void setVendor(final String vendor)
+    '''returns None\n\n
+    setVendor(final String vendor)\n
     '''
 def setContractnum():
-    '''public void setContractnum(final String contractnum)
+    '''returns None\n\n
+    setContractnum(final String contractnum)\n
     '''
 def setToolnum():
-    '''public void setToolnum(final String toolnum)
+    '''returns None\n\n
+    setToolnum(final String toolnum)\n
     '''
 def getTicketResourceAccount():
-    '''public String getTicketResourceAccount()
+    '''returns String\n\n
+    getTicketResourceAccount()\n
     '''
 def setTicketID():
-    '''public void setTicketID(final String ticket)
+    '''returns None\n\n
+    setTicketID(final String ticket)\n
     '''
 def setTicketClass():
-    '''public void setTicketClass(final String ticketclass)
+    '''returns None\n\n
+    setTicketClass(final String ticketclass)\n
     '''
 def setTicket():
-    '''public void setTicket(final MboRemote ticketMbo)
+    '''returns None\n\n
+    setTicket(final MboRemote ticketMbo)\n
     '''
 def setConditionCode():
-    '''public void setConditionCode(final String condCode)
+    '''returns None\n\n
+    setConditionCode(final String condCode)\n
     '''
 def getInventorySetLIFOFIFO():
-    '''public MboSetRemote getInventorySetLIFOFIFO()
+    '''returns MboSetRemote\n\n
+    getInventorySetLIFOFIFO()\n
     '''

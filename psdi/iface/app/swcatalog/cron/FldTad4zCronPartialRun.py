@@ -1,6 +1,8 @@
-def FldTad4zCronPartialRun():
-    '''public FldTad4zCronPartialRun(final MboValue mbv)
+def ():
+    '''returns FldTad4zCronPartialRun\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

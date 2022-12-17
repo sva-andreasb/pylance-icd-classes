@@ -1,26 +1,34 @@
-def BufferedImageCachableRed():
-    '''public BufferedImageCachableRed(final BufferedImage bi)
-    public BufferedImageCachableRed(final BufferedImage bi, final int xloc, final int yloc)
+def ():
+    '''returns BufferedImageCachableRed\n\n
+    (final BufferedImage bi)\n
+    (final BufferedImage bi, final int xloc, final int yloc)\n
     '''
 def getBounds():
-    '''public Rectangle getBounds()
+    '''returns Rectangle\n\n
+    getBounds()\n
     '''
 def getBufferedImage():
-    '''public BufferedImage getBufferedImage()
+    '''returns BufferedImage\n\n
+    getBufferedImage()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String name)
+    '''returns Object\n\n
+    getProperty(final String name)\n
     '''
 def getPropertyNames():
-    '''public String[] getPropertyNames()
+    '''returns String[]\n\n
+    getPropertyNames()\n
     '''
 def getTile():
-    '''public Raster getTile(final int tileX, final int tileY)
+    '''returns Raster\n\n
+    getTile(final int tileX, final int tileY)\n
     '''
 def getData():
-    '''public Raster getData()
-    public Raster getData(final Rectangle rect)
+    '''returns Raster\n\n
+    getData()\n
+    getData(final Rectangle rect)\n
     '''
 def copyData():
-    '''public WritableRaster copyData(final WritableRaster wr)
+    '''returns WritableRaster\n\n
+    copyData(final WritableRaster wr)\n
     '''

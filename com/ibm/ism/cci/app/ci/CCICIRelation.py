@@ -1,6 +1,8 @@
-def CCICIRelation():
-    '''public CCICIRelation(final MboSet ms)
+def ():
+    '''returns CCICIRelation\n\n
+    (final MboSet ms)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

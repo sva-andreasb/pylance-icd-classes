@@ -1,9 +1,8 @@
-def setValue():
-    '''public synchronized void setValue(final String attribute, final String value)
-    '''
 def refreshrecords():
-    '''public int refreshrecords()
+    '''returns int\n\n
+    refreshrecords()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

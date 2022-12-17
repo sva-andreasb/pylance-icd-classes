@@ -1,3 +1,4 @@
-def LocMeterReadingSet():
-    '''public LocMeterReadingSet(final MboServerInterface ms)
+def ():
+    '''returns LocMeterReadingSet\n\n
+    (final MboServerInterface ms)\n
     '''

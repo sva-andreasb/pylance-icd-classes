@@ -1,3 +1,4 @@
-def FldSchemaName():
-    '''public FldSchemaName(final MboValue mbv)
+def ():
+    '''returns FldSchemaName\n\n
+    (final MboValue mbv)\n
     '''

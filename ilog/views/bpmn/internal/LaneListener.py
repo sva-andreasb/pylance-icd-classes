@@ -1,3 +1,4 @@
 def propertyChanged():
-    '''public void propertyChanged(final SDMPropertyChangeEvent sdmPropertyChangeEvent)
+    '''returns None\n\n
+    propertyChanged(final SDMPropertyChangeEvent sdmPropertyChangeEvent)\n
     '''

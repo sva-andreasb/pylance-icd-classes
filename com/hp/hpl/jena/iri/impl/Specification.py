@@ -1,54 +1,68 @@
-def Specification():
-    '''public Specification(final String name, final String type, final String rfc, final String uri, final String title, final String section, final String[] bad, final String[] good)
-    '''
-def get():
-    '''public static Specification get(final String name)
+def ():
+    '''returns Specification\n\n
+    (final String name, final String type, final String rfc, final String uri, final String title, final String section, final String[] bad, final String[] good)\n
     '''
 def getUri():
-    '''public String getUri()
+    '''returns String\n\n
+    getUri()\n
     '''
 def add():
-    '''public void add(final ViolationCodeInfo.InSpec spec, final ViolationCodeInfo info)
+    '''returns None\n\n
+    add(final ViolationCodeInfo.InSpec spec, final ViolationCodeInfo info)\n
     '''
 def getErrors():
-    '''public long getErrors(final int i)
+    '''returns long\n\n
+    getErrors(final int i)\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def addDefinition():
-    '''public void addDefinition(final String string, final String string2, final String string3)
+    '''returns None\n\n
+    addDefinition(final String string, final String string2, final String string3)\n
     '''
 def setDNS():
-    '''public void setDNS(final boolean b)
+    '''returns None\n\n
+    setDNS(final boolean b)\n
     '''
 def port():
-    '''public void port(final int i)
+    '''returns None\n\n
+    port(final int i)\n
     '''
 def prohibit():
-    '''public void prohibit(final int component)
+    '''returns None\n\n
+    prohibit(final int component)\n
     '''
 def require():
-    '''public void require(final int component)
+    '''returns None\n\n
+    require(final int component)\n
     '''
 def setPattern():
-    '''public void setPattern(final int component, final String string)
+    '''returns None\n\n
+    setPattern(final int component, final String string)\n
     '''
 def setReserved():
-    '''public void setReserved(final int component, final String string)
+    '''returns None\n\n
+    setReserved(final int component, final String string)\n
     '''
 def getProhibited():
-    '''public int getProhibited()
+    '''returns int\n\n
+    getProhibited()\n
     '''
 def getRequired():
-    '''public int getRequired()
+    '''returns int\n\n
+    getRequired()\n
     '''
 def isIRISpec():
-    '''public boolean isIRISpec()
+    '''returns boolean\n\n
+    isIRISpec()\n
     '''
 def isSchemeSpec():
-    '''public boolean isSchemeSpec()
+    '''returns boolean\n\n
+    isSchemeSpec()\n
     '''
 def applies():
-    '''public boolean applies(final String scheme)
+    '''returns boolean\n\n
+    applies(final String scheme)\n
     '''

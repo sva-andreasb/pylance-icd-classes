@@ -1,30 +1,40 @@
-def ExternalResourceInfo():
-    '''public ExternalResourceInfo(final String resourceName, final String description, final String endPointName, final String url, final String pagingParams, final int fetchLimit, final String nullFormat, final String stringQualifier, final String collectionProp)
+def ():
+    '''returns ExternalResourceInfo\n\n
+    (final String resourceName, final String description, final String endPointName, final String url, final String pagingParams, final int fetchLimit, final String nullFormat, final String stringQualifier, final String collectionProp)\n
     '''
 def getResourceName():
-    '''public String getResourceName()
+    '''returns String\n\n
+    getResourceName()\n
     '''
 def getPagingParams():
-    '''public String getPagingParams()
+    '''returns String\n\n
+    getPagingParams()\n
     '''
 def getStringQualifier():
-    '''public String getStringQualifier()
+    '''returns String\n\n
+    getStringQualifier()\n
     '''
 def getNullFormat():
-    '''public String getNullFormat()
+    '''returns String\n\n
+    getNullFormat()\n
     '''
 def getEndPointName():
-    '''public String getEndPointName()
+    '''returns String\n\n
+    getEndPointName()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''
 def getCollectionProp():
-    '''public String getCollectionProp()
+    '''returns String\n\n
+    getCollectionProp()\n
     '''
 def getFetchLimit():
-    '''public int getFetchLimit()
+    '''returns int\n\n
+    getFetchLimit()\n
     '''

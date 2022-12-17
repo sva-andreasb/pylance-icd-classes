@@ -1,6 +1,8 @@
-def CLIEnumParameterHandler():
-    '''public CLIEnumParameterHandler(final ICmnLocalizedItem[] enumeratedValues)
+def ():
+    '''returns CLIEnumParameterHandler\n\n
+    (final ICmnLocalizedItem[] enumeratedValues)\n
     '''
 def normalizeAndValidateParameterValue():
-    '''public Object normalizeAndValidateParameterValue(final ICLIParameter descriptor, final String localizedParameterValue, final CLIParseResult results, final String localizedParameterKey)
+    '''returns Object\n\n
+    normalizeAndValidateParameterValue(final ICLIParameter descriptor, final String localizedParameterValue, final CLIParseResult results, final String localizedParameterKey)\n
     '''

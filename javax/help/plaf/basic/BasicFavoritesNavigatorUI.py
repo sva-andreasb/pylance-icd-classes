@@ -1,132 +1,148 @@
-def createUI():
-    '''public static ComponentUI createUI(final JComponent component)
-    '''
-def BasicFavoritesNavigatorUI():
-    '''public BasicFavoritesNavigatorUI(final JHelpFavoritesNavigator helpFavoritesNavigator)
+def ():
+    '''returns FavoritesTree\n\n
+    (final JHelpFavoritesNavigator helpFavoritesNavigator)\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    (final FavoritesNode root)\n
     '''
 def installUI():
-    '''public void installUI(final JComponent component)
+    '''returns None\n\n
+    installUI(final JComponent component)\n
     '''
 def uninstallUI():
-    '''public void uninstallUI(final JComponent component)
+    '''returns None\n\n
+    uninstallUI(final JComponent component)\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize(final JComponent component)
+    '''returns Dimension\n\n
+    getPreferredSize(final JComponent component)\n
     '''
 def getMinimumSize():
-    '''public Dimension getMinimumSize(final JComponent component)
+    '''returns Dimension\n\n
+    getMinimumSize(final JComponent component)\n
     '''
 def getMaximumSize():
-    '''public Dimension getMaximumSize(final JComponent component)
+    '''returns Dimension\n\n
+    getMaximumSize(final JComponent component)\n
     '''
 def idChanged():
-    '''public void idChanged(final HelpModelEvent obj)
+    '''returns None\n\n
+    idChanged(final HelpModelEvent obj)\n
     '''
 def valueChanged():
-    '''public void valueChanged(final TreeSelectionEvent obj)
+    '''returns None\n\n
+    valueChanged(final TreeSelectionEvent obj)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def helpSetAdded():
-    '''public void helpSetAdded(final HelpSetEvent helpSetEvent)
+    '''returns None\n\n
+    helpSetAdded(final HelpSetEvent helpSetEvent)\n
     '''
 def helpSetRemoved():
-    '''public void helpSetRemoved(final HelpSetEvent helpSetEvent)
+    '''returns None\n\n
+    helpSetRemoved(final HelpSetEvent helpSetEvent)\n
     '''
 def saveFavorites():
-    '''public void saveFavorites()
+    '''returns None\n\n
+    saveFavorites()\n
     '''
 def treeStructureChanged():
-    '''public void treeStructureChanged(final TreeModelEvent treeModelEvent)
+    '''returns None\n\n
+    treeStructureChanged(final TreeModelEvent treeModelEvent)\n
     '''
 def treeNodesInserted():
-    '''public void treeNodesInserted(final TreeModelEvent treeModelEvent)
+    '''returns None\n\n
+    treeNodesInserted(final TreeModelEvent treeModelEvent)\n
     '''
 def treeNodesRemoved():
-    '''public void treeNodesRemoved(final TreeModelEvent treeModelEvent)
+    '''returns None\n\n
+    treeNodesRemoved(final TreeModelEvent treeModelEvent)\n
     '''
 def treeNodesChanged():
-    '''public void treeNodesChanged(final TreeModelEvent treeModelEvent)
+    '''returns None\n\n
+    treeNodesChanged(final TreeModelEvent treeModelEvent)\n
     '''
 def getSelectedNode():
-    '''public FavoritesNode getSelectedNode()
+    '''returns FavoritesNode\n\n
+    getSelectedNode()\n
     '''
 def getAddAction():
-    '''public Action getAddAction()
+    '''returns Action\n\n
+    getAddAction()\n
     '''
 def getRemoveAction():
-    '''public Action getRemoveAction()
+    '''returns Action\n\n
+    getRemoveAction()\n
     '''
 def getFolderAction():
-    '''public Action getFolderAction()
+    '''returns Action\n\n
+    getFolderAction()\n
     '''
 def getCutAction():
-    '''public Action getCutAction()
+    '''returns Action\n\n
+    getCutAction()\n
     '''
 def getPasteAction():
-    '''public Action getPasteAction()
+    '''returns Action\n\n
+    getPasteAction()\n
     '''
 def getCopyAction():
-    '''public Action getCopyAction()
-    '''
-def AddAction():
-    '''public AddAction()
+    '''returns Action\n\n
+    getCopyAction()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    '''
-def RemoveAction():
-    '''public RemoveAction()
-    '''
-def FolderAction():
-    '''public FolderAction()
-    '''
-def CutAction():
-    '''public CutAction()
-    '''
-def PasteAction():
-    '''public PasteAction()
-    '''
-def CopyAction():
-    '''public CopyAction()
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mousePressed(final MouseEvent mouseEvent)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent mouseEvent)
-    '''
-def FavoritesTree():
-    '''public FavoritesTree(final FavoritesNode root)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent mouseEvent)\n
     '''
 def dragGestureRecognized():
-    '''public void dragGestureRecognized(final DragGestureEvent trigger)
+    '''returns None\n\n
+    dragGestureRecognized(final DragGestureEvent trigger)\n
     '''
 def dragDropEnd():
-    '''public void dragDropEnd(final DragSourceDropEvent dragSourceDropEvent)
+    '''returns None\n\n
+    dragDropEnd(final DragSourceDropEvent dragSourceDropEvent)\n
     '''
 def dragEnter():
-    '''public void dragEnter(final DragSourceDragEvent cursor)
-    public void dragEnter(final DropTargetDragEvent dropTargetDragEvent)
+    '''returns None\n\n
+    dragEnter(final DragSourceDragEvent cursor)\n
+    dragEnter(final DropTargetDragEvent dropTargetDragEvent)\n
     '''
 def dragOver():
-    '''public void dragOver(final DragSourceDragEvent cursor)
-    public void dragOver(final DropTargetDragEvent dropTargetDragEvent)
+    '''returns None\n\n
+    dragOver(final DragSourceDragEvent cursor)\n
+    dragOver(final DropTargetDragEvent dropTargetDragEvent)\n
     '''
 def dropActionChanged():
-    '''public void dropActionChanged(final DragSourceDragEvent cursor)
-    public void dropActionChanged(final DropTargetDragEvent dropTargetDragEvent)
+    '''returns None\n\n
+    dropActionChanged(final DragSourceDragEvent cursor)\n
+    dropActionChanged(final DropTargetDragEvent dropTargetDragEvent)\n
     '''
 def dragExit():
-    '''public void dragExit(final DragSourceEvent dragSourceEvent)
-    public void dragExit(final DropTargetEvent dropTargetEvent)
+    '''returns None\n\n
+    dragExit(final DragSourceEvent dragSourceEvent)\n
+    dragExit(final DropTargetEvent dropTargetEvent)\n
     '''
 def drop():
-    '''public void drop(final DropTargetDropEvent dropTargetDropEvent)
+    '''returns None\n\n
+    drop(final DropTargetDropEvent dropTargetDropEvent)\n
     '''

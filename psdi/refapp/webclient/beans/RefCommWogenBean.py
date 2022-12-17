@@ -1,6 +1,4 @@
 def test():
-    '''public int test()
-    '''
-def save():
-    '''public synchronized void save()
+    '''returns int\n\n
+    test()\n
     '''

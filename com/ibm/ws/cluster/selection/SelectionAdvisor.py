@@ -1,15 +1,20 @@
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''
 def select():
-    '''public ClusterMemberDescription select()
+    '''returns ClusterMemberDescription\n\n
+    select()\n
     '''
 def getReason():
-    '''public String getReason()
+    '''returns String\n\n
+    getReason()\n
     '''
 def handleNotification():
-    '''public void handleNotification(final DescriptionKey key, final String type, final Object userData, final Object handback)
+    '''returns None\n\n
+    handleNotification(final DescriptionKey key, final String type, final Object userData, final Object handback)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

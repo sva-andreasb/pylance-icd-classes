@@ -1,15 +1,20 @@
-def PmScNewCartTemplateSRTableBean():
-    '''public PmScNewCartTemplateSRTableBean()
+def ():
+    '''returns PmScNewCartTemplateSRTableBean\n\n
+    ()\n
     '''
 def getSelected():
-    '''public ArrayList getSelected()
+    '''returns ArrayList\n\n
+    getSelected()\n
     '''
 def select():
-    '''public void select(final int row)
+    '''returns None\n\n
+    select(final int row)\n
     '''
 def unselect():
-    '''public void unselect(final int row)
+    '''returns None\n\n
+    unselect(final int row)\n
     '''
 def toggleselectallrows():
-    '''public int toggleselectallrows()
+    '''returns int\n\n
+    toggleselectallrows()\n
     '''

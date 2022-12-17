@@ -1,22 +1,25 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def instantiate():
-    '''public static IloRequirementId instantiate(final String reqNm, final IloRequirementId parentId)
-    '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getParentId():
-    '''public IloRequirementId getParentId()
+    '''returns IloRequirementId\n\n
+    getParentId()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def writeToBuffer():
-    '''public void writeToBuffer(final StringBuffer buf)
+    '''returns None\n\n
+    writeToBuffer(final StringBuffer buf)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

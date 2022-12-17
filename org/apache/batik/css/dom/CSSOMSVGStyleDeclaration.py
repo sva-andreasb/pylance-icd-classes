@@ -1,17 +1,16 @@
-def CSSOMSVGStyleDeclaration():
-    '''public CSSOMSVGStyleDeclaration(final ValueProvider vp, final CSSRule parent, final CSSEngine eng)
-    '''
-def StyleDeclarationColorValue():
-    '''public StyleDeclarationColorValue(final String prop)
+def ():
+    '''returns StyleDeclarationPaintValue\n\n
+    (final ValueProvider vp, final CSSRule parent, final CSSEngine eng)\n
+    (final String prop)\n
+    (final String prop)\n
     '''
 def textChanged():
-    '''public void textChanged(final String text)
-    public void textChanged(final String text)
+    '''returns None\n\n
+    textChanged(final String text)\n
+    textChanged(final String text)\n
     '''
 def getValue():
-    '''public Value getValue()
-    public Value getValue()
-    '''
-def StyleDeclarationPaintValue():
-    '''public StyleDeclarationPaintValue(final String prop)
+    '''returns Value\n\n
+    getValue()\n
+    getValue()\n
     '''

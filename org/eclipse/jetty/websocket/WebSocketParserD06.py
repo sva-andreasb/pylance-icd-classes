@@ -1,15 +1,20 @@
-def WebSocketParserD06():
-    '''public WebSocketParserD06(final WebSocketBuffers buffers, final EndPoint endp, final FrameHandler handler, final boolean masked)
+def ():
+    '''returns WebSocketParserD06\n\n
+    (final WebSocketBuffers buffers, final EndPoint endp, final FrameHandler handler, final boolean masked)\n
     '''
 def isBufferEmpty():
-    '''public boolean isBufferEmpty()
+    '''returns boolean\n\n
+    isBufferEmpty()\n
     '''
 def getBuffer():
-    '''public Buffer getBuffer()
+    '''returns Buffer\n\n
+    getBuffer()\n
     '''
 def parseNext():
-    '''public int parseNext()
+    '''returns int\n\n
+    parseNext()\n
     '''
 def fill():
-    '''public void fill(final Buffer buffer)
+    '''returns None\n\n
+    fill(final Buffer buffer)\n
     '''

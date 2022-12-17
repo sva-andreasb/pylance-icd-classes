@@ -1,3 +1,4 @@
-def CommonMboSet():
-    '''public CommonMboSet(final MboServerInterface ms)
+def ():
+    '''returns CommonMboSet\n\n
+    (final MboServerInterface ms)\n
     '''

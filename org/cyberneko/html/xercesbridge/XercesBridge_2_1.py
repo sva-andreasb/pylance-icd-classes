@@ -1,12 +1,16 @@
-def XercesBridge_2_1():
-    '''public XercesBridge_2_1()
+def ():
+    '''returns XercesBridge_2_1\n\n
+    ()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def XMLDocumentHandler_startDocument():
-    '''public void XMLDocumentHandler_startDocument(final XMLDocumentHandler documentHandler, final XMLLocator locator, final String encoding, final NamespaceContext nscontext, final Augmentations augs)
+    '''returns None\n\n
+    XMLDocumentHandler_startDocument(final XMLDocumentHandler documentHandler, final XMLLocator locator, final String encoding, final NamespaceContext nscontext, final Augmentations augs)\n
     '''
 def XMLDocumentFilter_setDocumentSource():
-    '''public void XMLDocumentFilter_setDocumentSource(final XMLDocumentFilter filter, final XMLDocumentSource lastSource)
+    '''returns None\n\n
+    XMLDocumentFilter_setDocumentSource(final XMLDocumentFilter filter, final XMLDocumentSource lastSource)\n
     '''

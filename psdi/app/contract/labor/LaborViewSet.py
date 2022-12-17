@@ -1,3 +1,4 @@
-def LaborViewSet():
-    '''public LaborViewSet(final MboServerInterface ms)
+def ():
+    '''returns LaborViewSet\n\n
+    (final MboServerInterface ms)\n
     '''

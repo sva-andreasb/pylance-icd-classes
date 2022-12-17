@@ -1,27 +1,33 @@
-def MergeResourceProcessor():
-    '''public MergeResourceProcessor(String federatedResourcesStr, final MboSetRemote targetSet, final MboRemote fdOwner)
+def ():
+    '''returns SourceMboInfo\n\n
+    (String federatedResourcesStr, final MboSetRemote targetSet, final MboRemote fdOwner)\n
+    (final MboRemote sourceMbo, final Map<String, JSONMapAttributeInfo> attrMap)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def supportsUpdate():
-    '''public boolean supportsUpdate()
+    '''returns boolean\n\n
+    supportsUpdate()\n
     '''
 def loadFederatedMbos():
-    '''public void loadFederatedMbos(final MboRemote ownerMbo)
+    '''returns None\n\n
+    loadFederatedMbos(final MboRemote ownerMbo)\n
     '''
 def isFederatedMbosLoaded():
-    '''public boolean isFederatedMbosLoaded()
+    '''returns boolean\n\n
+    isFederatedMbosLoaded()\n
     '''
 def setFederatedMbosLoaded():
-    '''public void setFederatedMbosLoaded(final boolean federatedMbosLoaded)
+    '''returns None\n\n
+    setFederatedMbosLoaded(final boolean federatedMbosLoaded)\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''
 def reset():
-    '''public void reset()
-    '''
-def SourceMboInfo():
-    '''public SourceMboInfo(final MboRemote sourceMbo, final Map<String, JSONMapAttributeInfo> attrMap)
+    '''returns None\n\n
+    reset()\n
     '''

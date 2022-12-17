@@ -1,4 +1,5 @@
-def RealmCallback():
-    '''public RealmCallback(final String prompt)
-    public RealmCallback(final String prompt, final String defaultText)
+def ():
+    '''returns RealmCallback\n\n
+    (final String prompt)\n
+    (final String prompt, final String defaultText)\n
     '''

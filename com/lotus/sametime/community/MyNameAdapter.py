@@ -1,6 +1,8 @@
 def myUserNameChanged():
-    '''public void myUserNameChanged(final MyNameEvent myNameEvent)
+    '''returns None\n\n
+    myUserNameChanged(final MyNameEvent myNameEvent)\n
     '''
 def changeMyUserNameDenied():
-    '''public void changeMyUserNameDenied(final MyNameEvent myNameEvent)
+    '''returns None\n\n
+    changeMyUserNameDenied(final MyNameEvent myNameEvent)\n
     '''

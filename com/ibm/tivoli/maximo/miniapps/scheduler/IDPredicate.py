@@ -1,6 +1,8 @@
-def IDPredicate():
-    '''public IDPredicate(final String id)
+def ():
+    '''returns IDPredicate\n\n
+    (final String id)\n
     '''
 def test():
-    '''public boolean test(final IMXActivity in)
+    '''returns boolean\n\n
+    test(final IMXActivity in)\n
     '''

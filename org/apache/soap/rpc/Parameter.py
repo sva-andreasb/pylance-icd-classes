@@ -1,30 +1,40 @@
-def Parameter():
-    '''public Parameter(final String name, final Class type, final Object value, final String encodingStyleURI)
+def ():
+    '''returns Parameter\n\n
+    (final String name, final Class type, final Object value, final String encodingStyleURI)\n
     '''
 def getEncodingStyleURI():
-    '''public String getEncodingStyleURI()
+    '''returns String\n\n
+    getEncodingStyleURI()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getType():
-    '''public Class getType()
+    '''returns Class\n\n
+    getType()\n
     '''
 def getValue():
-    '''public Object getValue()
+    '''returns Object\n\n
+    getValue()\n
     '''
 def setEncodingStyleURI():
-    '''public void setEncodingStyleURI(final String encodingStyleURI)
+    '''returns None\n\n
+    setEncodingStyleURI(final String encodingStyleURI)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def setType():
-    '''public void setType(final Class type)
+    '''returns None\n\n
+    setType(final Class type)\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
+    '''returns None\n\n
+    setValue(final Object value)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

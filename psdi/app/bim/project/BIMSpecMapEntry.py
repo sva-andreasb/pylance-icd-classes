@@ -6,9 +6,11 @@ FIELD_DATATYPE = "String  \"DATATYPE\""
 FIELD_DESCRIPTION = "String  \"DESCRIPTION\""
 FIELD_ORGID = "String  \"ORGID\""
 FIELD_SITEID = "String  \"SITEID\""
-def BIMSpecMapEntry():
-    '''public BIMSpecMapEntry(final MboSet ms)
+def ():
+    '''returns BIMSpecMapEntry\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

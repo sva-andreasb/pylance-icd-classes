@@ -1,12 +1,16 @@
-def AssociationPropertyInfo():
-    '''public AssociationPropertyInfo(final String propertyName, final String propertyNS, final String title)
+def ():
+    '''returns AssociationPropertyInfo\n\n
+    (final String propertyName, final String propertyNS, final String title)\n
     '''
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def getPropertyNS():
-    '''public String getPropertyNS()
+    '''returns String\n\n
+    getPropertyNS()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''

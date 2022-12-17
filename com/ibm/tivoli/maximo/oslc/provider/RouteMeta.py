@@ -1,6 +1,8 @@
-def RouteMeta():
-    '''public RouteMeta(final List<String> pathTokens)
+def ():
+    '''returns RouteMeta\n\n
+    (final List<String> pathTokens)\n
     '''
 def getPathTokens():
-    '''public List<String> getPathTokens()
+    '''returns List<String>\n\n
+    getPathTokens()\n
     '''

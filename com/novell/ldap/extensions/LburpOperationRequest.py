@@ -1,3 +1,4 @@
-def LburpOperationRequest():
-    '''public LburpOperationRequest(final LDAPLburpRequest[] array, final int n)
+def ():
+    '''returns LburpOperationRequest\n\n
+    (final LDAPLburpRequest[] array, final int n)\n
     '''

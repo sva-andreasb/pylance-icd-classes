@@ -1,21 +1,27 @@
-def ReflectorInfo():
-    '''public ReflectorInfo()
-    public ReflectorInfo(final String ip, final short port)
-    public ReflectorInfo(final String ip, final short port, final boolean isAudioProxyEnabled)
-    public ReflectorInfo(final NdrInputStream ndrInputStream)
+def ():
+    '''returns ReflectorInfo\n\n
+    ()\n
+    (final String ip, final short port)\n
+    (final String ip, final short port, final boolean isAudioProxyEnabled)\n
+    (final NdrInputStream ndrInputStream)\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def getIp():
-    '''public String getIp()
+    '''returns String\n\n
+    getIp()\n
     '''
 def getPort():
-    '''public short getPort()
+    '''returns short\n\n
+    getPort()\n
     '''
 def isAudioProxyEnabled():
-    '''public boolean isAudioProxyEnabled()
+    '''returns boolean\n\n
+    isAudioProxyEnabled()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

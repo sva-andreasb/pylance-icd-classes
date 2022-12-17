@@ -7,248 +7,305 @@ DIRECTPRINT_LINK = "String  \"DP\""
 DIRECTPRINT_WATTACH_LINK = "String  \"PAD\""
 LONG_OP_READY = "int  1"
 LONG_OP_INPRG = "int  2"
-def AppBean():
-    '''public AppBean()
+def ():
+    '''returns AppBean\n\n
+    ()\n
     '''
 def getQueryOption():
-    '''public int getQueryOption()
+    '''returns int\n\n
+    getQueryOption()\n
     '''
 def setQueryOption():
-    '''public void setQueryOption(final int option)
+    '''returns None\n\n
+    setQueryOption(final int option)\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
-    public void setupBean(final SessionContext sc)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
+    setupBean(final SessionContext sc)\n
     '''
 def hasStartRecord():
-    '''public boolean hasStartRecord(final long uniqueId)
+    '''returns boolean\n\n
+    hasStartRecord(final long uniqueId)\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def fireStructureChangedEvent():
-    '''public void fireStructureChangedEvent(final DataBean speaker)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns None\n\n
+    fireStructureChangedEvent(final DataBean speaker)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
-    '''
-def save():
-    '''public synchronized void save()
-    '''
-def saveattachment():
-    '''public synchronized void saveattachment()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def autoInitiateWorkflow():
-    '''public void autoInitiateWorkflow()
+    '''returns None\n\n
+    autoInitiateWorkflow()\n
     '''
 def convertPortalParameters():
-    '''public void convertPortalParameters(final WebClientSession wcs)
+    '''returns None\n\n
+    convertPortalParameters(final WebClientSession wcs)\n
     '''
 def getPortalEvent():
-    '''public String getPortalEvent(final DataBean speaker)
+    '''returns String\n\n
+    getPortalEvent(final DataBean speaker)\n
     '''
 def getCurrentRow():
-    '''public int getCurrentRow()
-    '''
-def isEmpty():
-    '''public synchronized boolean isEmpty()
-    '''
-def notExist():
-    '''public synchronized boolean notExist()
+    '''returns int\n\n
+    getCurrentRow()\n
     '''
 def saveYesNoCheck():
-    '''public boolean saveYesNoCheck()
+    '''returns boolean\n\n
+    saveYesNoCheck()\n
     '''
 def canSaveBasedOnLocks():
-    '''public boolean canSaveBasedOnLocks()
+    '''returns boolean\n\n
+    canSaveBasedOnLocks()\n
     '''
 def saveYesNoInteractionCheck():
-    '''public boolean saveYesNoInteractionCheck()
+    '''returns boolean\n\n
+    saveYesNoInteractionCheck()\n
     '''
 def toBeSaved():
-    '''public boolean toBeSaved()
+    '''returns boolean\n\n
+    toBeSaved()\n
     '''
 def getAppInfo():
-    '''public JSONObject getAppInfo()
+    '''returns JSONObject\n\n
+    getAppInfo()\n
     '''
 def appinfo():
-    '''public int appinfo()
+    '''returns int\n\n
+    appinfo()\n
     '''
 def NEXT():
-    '''public int NEXT()
+    '''returns int\n\n
+    NEXT()\n
     '''
 def NAVHISTORY():
-    '''public int NAVHISTORY()
+    '''returns int\n\n
+    NAVHISTORY()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def RUNREPORTS():
-    '''public int RUNREPORTS()
+    '''returns int\n\n
+    RUNREPORTS()\n
     '''
 def RUNREPORTBYNAME():
-    '''public int RUNREPORTBYNAME()
+    '''returns int\n\n
+    RUNREPORTBYNAME()\n
     '''
 def RUNAREPORT():
-    '''public int RUNAREPORT()
+    '''returns int\n\n
+    RUNAREPORT()\n
     '''
 def PREVIOUS():
-    '''public int PREVIOUS()
-    '''
-def insert():
-    '''public synchronized void insert()
+    '''returns int\n\n
+    PREVIOUS()\n
     '''
 def INSERT():
-    '''public int INSERT()
+    '''returns int\n\n
+    INSERT()\n
     '''
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''
 def toggledeleterow():
-    '''public int toggledeleterow()
+    '''returns int\n\n
+    toggledeleterow()\n
     '''
 def DUPLICATE():
-    '''public int DUPLICATE()
+    '''returns int\n\n
+    DUPLICATE()\n
     '''
 def CLEAR():
-    '''public int CLEAR()
+    '''returns int\n\n
+    CLEAR()\n
     '''
 def BOOKMARK():
-    '''public int BOOKMARK()
+    '''returns int\n\n
+    BOOKMARK()\n
     '''
 def RESULTS():
-    '''public int RESULTS()
+    '''returns int\n\n
+    RESULTS()\n
     '''
 def find():
-    '''public int find()
+    '''returns int\n\n
+    find()\n
     '''
 def returnwithvalue():
-    '''public int returnwithvalue()
+    '''returns int\n\n
+    returnwithvalue()\n
     '''
 def returnnovalue():
-    '''public int returnnovalue()
+    '''returns int\n\n
+    returnnovalue()\n
     '''
 def returntoapp():
-    '''public int returntoapp()
+    '''returns int\n\n
+    returntoapp()\n
     '''
 def getQuickFindRemote():
-    '''public MboSetRemote getQuickFindRemote()
+    '''returns MboSetRemote\n\n
+    getQuickFindRemote()\n
     '''
 def setDefaultQbe():
-    '''public void setDefaultQbe(final String attribute, final String expression)
+    '''returns None\n\n
+    setDefaultQbe(final String attribute, final String expression)\n
     '''
 def getResultsBean():
-    '''public ResultsBean getResultsBean()
+    '''returns ResultsBean\n\n
+    getResultsBean()\n
     '''
 def RECORDLOCK():
-    '''public int RECORDLOCK()
+    '''returns int\n\n
+    RECORDLOCK()\n
     '''
 def RECUNLOCK():
-    '''public int RECUNLOCK()
+    '''returns int\n\n
+    RECUNLOCK()\n
     '''
 def STRECLOCK():
-    '''public int STRECLOCK()
+    '''returns int\n\n
+    STRECLOCK()\n
     '''
 def getRecordLockProperties():
-    '''public JSONObject getRecordLockProperties()
+    '''returns JSONObject\n\n
+    getRecordLockProperties()\n
     '''
 def updateForRecordLock():
-    '''public void updateForRecordLock(final ControlInstance control)
+    '''returns None\n\n
+    updateForRecordLock(final ControlInstance control)\n
     '''
 def ROUTEWF():
-    '''public int ROUTEWF()
+    '''returns int\n\n
+    ROUTEWF()\n
     '''
 def STOPWF():
-    '''public int STOPWF()
+    '''returns int\n\n
+    STOPWF()\n
     '''
 def launchwf():
-    '''public int launchwf()
+    '''returns int\n\n
+    launchwf()\n
     '''
 def SEARCHMORE():
-    '''public int SEARCHMORE()
+    '''returns int\n\n
+    SEARCHMORE()\n
     '''
 def SEARCHWHER():
-    '''public int SEARCHWHER()
+    '''returns int\n\n
+    SEARCHWHER()\n
     '''
 def SEARCHATTR():
-    '''public int SEARCHATTR()
+    '''returns int\n\n
+    SEARCHATTR()\n
     '''
 def FLTRLASET():
-    '''public int FLTRLASET()
+    '''returns int\n\n
+    FLTRLASET()\n
     '''
 def setKPIId():
-    '''public void setKPIId(final long newId)
+    '''returns None\n\n
+    setKPIId(final long newId)\n
     '''
 def getKPIId():
-    '''public long getKPIId()
+    '''returns long\n\n
+    getKPIId()\n
     '''
 def getKPIWhere():
-    '''public String getKPIWhere()
+    '''returns String\n\n
+    getKPIWhere()\n
     '''
 def getKPISelect():
-    '''public String getKPISelect()
+    '''returns String\n\n
+    getKPISelect()\n
     '''
 def MODIFYSLAS():
-    '''public int MODIFYSLAS()
+    '''returns int\n\n
+    MODIFYSLAS()\n
     '''
 def moveToUniqueId():
-    '''public int moveToUniqueId(final long uniqueId)
+    '''returns int\n\n
+    moveToUniqueId(final long uniqueId)\n
     '''
 def canExit():
-    '''public boolean canExit()
+    '''returns boolean\n\n
+    canExit()\n
     '''
 def getCurrentQueryName():
-    '''public String getCurrentQueryName()
+    '''returns String\n\n
+    getCurrentQueryName()\n
     '''
 def getCurrentQueryDescription():
-    '''public String getCurrentQueryDescription()
+    '''returns String\n\n
+    getCurrentQueryDescription()\n
     '''
 def HELPWF():
-    '''public int HELPWF()
+    '''returns int\n\n
+    HELPWF()\n
     '''
 def inboxwf():
-    '''public int inboxwf()
+    '''returns int\n\n
+    inboxwf()\n
     '''
 def ensureRecord():
-    '''public void ensureRecord()
+    '''returns None\n\n
+    ensureRecord()\n
     '''
 def setFilterCleared():
-    '''public void setFilterCleared()
+    '''returns None\n\n
+    setFilterCleared()\n
     '''
 def clearfilter():
-    '''public int clearfilter()
+    '''returns int\n\n
+    clearfilter()\n
     '''
 def hasSaveAccess():
-    '''public boolean hasSaveAccess()
+    '''returns boolean\n\n
+    hasSaveAccess()\n
     '''
 def submitPrintJob():
-    '''public int submitPrintJob()
+    '''returns int\n\n
+    submitPrintJob()\n
     '''
 def isUserWhereClauseThroughIntegration():
-    '''public boolean isUserWhereClauseThroughIntegration()
+    '''returns boolean\n\n
+    isUserWhereClauseThroughIntegration()\n
     '''
 def setUserWhereClauseThroughIntegration():
-    '''public void setUserWhereClauseThroughIntegration(final boolean userWhereClauseThroughIntegration)
+    '''returns None\n\n
+    setUserWhereClauseThroughIntegration(final boolean userWhereClauseThroughIntegration)\n
     '''
 def hasSigOptionAccess():
-    '''public boolean hasSigOptionAccess(final int row, final String sigOption, final boolean checkAppLevel)
-    public boolean hasSigOptionAccess(final int row, final String sigOption)
+    '''returns boolean\n\n
+    hasSigOptionAccess(final int row, final String sigOption, final boolean checkAppLevel)\n
+    hasSigOptionAccess(final int row, final String sigOption)\n
     '''
 def refreshFieldErrors():
-    '''public void refreshFieldErrors()
+    '''returns None\n\n
+    refreshFieldErrors()\n
     '''
 def initQuickFIndRemote():
-    '''public MboSetRemote initQuickFIndRemote()
+    '''returns MboSetRemote\n\n
+    initQuickFIndRemote()\n
     '''
 def hasModifications():
-    '''public boolean hasModifications()
+    '''returns boolean\n\n
+    hasModifications()\n
     '''

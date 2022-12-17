@@ -1,25 +1,33 @@
-def Header():
-    '''public Header()
+def ():
+    '''returns Header\n\n
+    ()\n
     '''
 def addField():
-    '''public void addField(final MinimalField field)
+    '''returns None\n\n
+    addField(final MinimalField field)\n
     '''
 def getFields():
-    '''public List<MinimalField> getFields()
-    public List<MinimalField> getFields(final String name)
+    '''returns List<MinimalField>\n\n
+    getFields()\n
+    getFields(final String name)\n
     '''
 def getField():
-    '''public MinimalField getField(final String name)
+    '''returns MinimalField\n\n
+    getField(final String name)\n
     '''
 def removeFields():
-    '''public int removeFields(final String name)
+    '''returns int\n\n
+    removeFields(final String name)\n
     '''
 def setField():
-    '''public void setField(final MinimalField field)
+    '''returns None\n\n
+    setField(final MinimalField field)\n
     '''
 def iterator():
-    '''public Iterator<MinimalField> iterator()
+    '''returns Iterator<MinimalField>\n\n
+    iterator()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,12 +1,16 @@
 def checkAccess():
-    '''public void checkAccess(final MboValue mboValue)
+    '''returns None\n\n
+    checkAccess(final MboValue mboValue)\n
     '''
 def validateRange():
-    '''public void validateRange(final MboValue mboValue, final MboValue mboValue2, final String s, final double n)
+    '''returns None\n\n
+    validateRange(final MboValue mboValue, final MboValue mboValue2, final String s, final double n)\n
     '''
 def validateAssetRangeAndPrice():
-    '''public void validateAssetRangeAndPrice(final MboValue mboValue)
+    '''returns None\n\n
+    validateAssetRangeAndPrice(final MboValue mboValue)\n
     '''
 def checkAccessAlphanum():
-    '''public void checkAccessAlphanum(final MboValue mboValue)
+    '''returns None\n\n
+    checkAccessAlphanum(final MboValue mboValue)\n
     '''

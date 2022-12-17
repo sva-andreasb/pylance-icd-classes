@@ -1,4 +1,5 @@
-def SkeletonSyntaxException():
-    '''public SkeletonSyntaxException(final String message, final CharSequence token)
-    public SkeletonSyntaxException(final String message, final CharSequence token, final Throwable cause)
+def ():
+    '''returns SkeletonSyntaxException\n\n
+    (final String message, final CharSequence token)\n
+    (final String message, final CharSequence token, final Throwable cause)\n
     '''

@@ -1,21 +1,28 @@
-def ReconOperatorCompFilter():
-    '''public ReconOperatorCompFilter(final ReconInfo reconInfo, final DataSet dataSet, final String operator, final int precedence)
+def ():
+    '''returns ReconOperatorCompFilter\n\n
+    (final ReconInfo reconInfo, final DataSet dataSet, final String operator, final int precedence)\n
     '''
 def getInstance():
-    '''public ReconOperator getInstance()
+    '''returns ReconOperator\n\n
+    getInstance()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def evaluateOperator():
-    '''public List<ReconValue> evaluateOperator(final String objectandAttributeName, final String value, final ComparisonQueryHelper qh)
+    '''returns List<ReconValue>\n\n
+    evaluateOperator(final String objectandAttributeName, final String value, final ComparisonQueryHelper qh)\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String objectName)
+    '''returns None\n\n
+    setObjectName(final String objectName)\n
     '''
 def setOperator():
-    '''public void setOperator(final String operator)
+    '''returns None\n\n
+    setOperator(final String operator)\n
     '''
 def setIndexOfAttributeTo():
-    '''public void setIndexOfAttributeTo(final String fullyQualifiedName)
+    '''returns None\n\n
+    setIndexOfAttributeTo(final String fullyQualifiedName)\n
     '''

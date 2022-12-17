@@ -1,9 +1,12 @@
-def TestTraversalAction():
-    '''public TestTraversalAction()
+def ():
+    '''returns TestTraversalAction\n\n
+    ()\n
     '''
 def processState():
-    '''public void processState(final TraversalState state, final UserInfo userInfo)
+    '''returns None\n\n
+    processState(final TraversalState state, final UserInfo userInfo)\n
     '''
 def postTraverseAction():
-    '''public void postTraverseAction(final UserInfo userInfo)
+    '''returns None\n\n
+    postTraverseAction(final UserInfo userInfo)\n
     '''

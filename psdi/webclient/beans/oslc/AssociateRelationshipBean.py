@@ -1,3 +1,4 @@
-def AssociateRelationshipBean():
-    '''public AssociateRelationshipBean()
+def ():
+    '''returns AssociateRelationshipBean\n\n
+    ()\n
     '''

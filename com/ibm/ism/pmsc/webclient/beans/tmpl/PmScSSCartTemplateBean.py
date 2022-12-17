@@ -1,6 +1,8 @@
-def PmScSSCartTemplateBean():
-    '''public PmScSSCartTemplateBean()
+def ():
+    '''returns PmScSSCartTemplateBean\n\n
+    ()\n
     '''
 def addtemplatetocart():
-    '''public int addtemplatetocart()
+    '''returns int\n\n
+    addtemplatetocart()\n
     '''

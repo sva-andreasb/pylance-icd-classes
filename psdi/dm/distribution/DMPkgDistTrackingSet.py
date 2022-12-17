@@ -1,3 +1,4 @@
-def DMPkgDistTrackingSet():
-    '''public DMPkgDistTrackingSet(final MboServerInterface ms)
+def ():
+    '''returns DMPkgDistTrackingSet\n\n
+    (final MboServerInterface ms)\n
     '''

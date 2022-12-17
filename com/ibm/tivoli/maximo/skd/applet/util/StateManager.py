@@ -1,61 +1,65 @@
 EVENT_SAVE_STATE = "String  \"save_state\""
 EVENT_RESTORE_STATE = "String  \"restore_state\""
-def getInstance():
-    '''public static StateManager getInstance()
-    '''
 def getState():
-    '''public AppState getState(final String project)
+    '''returns AppState\n\n
+    getState(final String project)\n
     '''
 def hasState():
-    '''public boolean hasState(final String project)
+    '''returns boolean\n\n
+    hasState(final String project)\n
     '''
 def clearState():
-    '''public void clearState(final String project)
+    '''returns None\n\n
+    clearState(final String project)\n
     '''
 def saveTableState():
-    '''public void saveTableState(final JTable table, final TableState state)
+    '''returns None\n\n
+    saveTableState(final JTable table, final TableState state)\n
     '''
 def compare():
-    '''public int compare(final TableColState o1, final TableColState o2)
+    '''returns int\n\n
+    compare(final TableColState o1, final TableColState o2)\n
     '''
 def saveState():
-    '''public void saveState(final IlvGanttChart chart, final GanttState state)
-    public AppState saveState(final IlvGanttChart chart, final String project)
-    public void saveState(final IlvScheduleChart chart, final AppState state, final String resId)
+    '''returns None\n\n
+    saveState(final IlvGanttChart chart, final GanttState state)\n
+    saveState(final IlvGanttChart chart, final String project)\n
+    saveState(final IlvScheduleChart chart, final AppState state, final String resId)\n
     '''
 def restoreTableState():
-    '''public void restoreTableState(final JTable table, final TableState state)
+    '''returns None\n\n
+    restoreTableState(final JTable table, final TableState state)\n
     '''
 def restoreState():
-    '''public void restoreState(final IlvGanttChart chart, final GanttState state)
-    public AppState restoreState(final IlvGanttChart chart, final String project)
-    public void restoreState(final IlvScheduleChart chart, final AppState state, final String resId)
+    '''returns None\n\n
+    restoreState(final IlvGanttChart chart, final GanttState state)\n
+    restoreState(final IlvGanttChart chart, final String project)\n
+    restoreState(final IlvScheduleChart chart, final AppState state, final String resId)\n
     '''
-def StateManager():
-    '''public StateManager()
+def ():
+    '''returns AppState\n\n
+    ()\n
+    ()\n
+    ()\n
+    ()\n
+    (final String projectid)\n
     '''
 def setPreviousState():
-    '''public void setPreviousState(final AppState state)
+    '''returns None\n\n
+    setPreviousState(final AppState state)\n
     '''
 def getPreviousState():
-    '''public AppState getPreviousState(final String projectId)
+    '''returns AppState\n\n
+    getPreviousState(final String projectId)\n
     '''
 def putState():
-    '''public void putState(final AppState state)
+    '''returns None\n\n
+    putState(final AppState state)\n
     '''
 def visit():
-    '''public void visit(final IlvActivity item, final IlvGanttChart chart, final GanttState state)
-    public void visit(final IlvActivity item, final IlvGanttChart chart, final GanttState state)
-    public void visit(final IlvResource item, final IlvHierarchyChart chart, final GanttState state)
-    public void visit(final IlvResource item, final IlvHierarchyChart chart, final GanttState state)
-    '''
-def TableState():
-    '''public TableState()
-    '''
-def GanttState():
-    '''public GanttState()
-    '''
-def AppState():
-    '''public AppState()
-    public AppState(final String projectid)
+    '''returns None\n\n
+    visit(final IlvActivity item, final IlvGanttChart chart, final GanttState state)\n
+    visit(final IlvActivity item, final IlvGanttChart chart, final GanttState state)\n
+    visit(final IlvResource item, final IlvHierarchyChart chart, final GanttState state)\n
+    visit(final IlvResource item, final IlvHierarchyChart chart, final GanttState state)\n
     '''

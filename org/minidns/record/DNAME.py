@@ -1,7 +1,5 @@
-def parse():
-    '''public static DNAME parse(final DataInputStream dis, final byte[] data)
-    '''
-def DNAME():
-    '''public DNAME(final String target)
-    public DNAME(final DnsName target)
+def ():
+    '''returns DNAME\n\n
+    (final String target)\n
+    (final DnsName target)\n
     '''

@@ -1,6 +1,8 @@
-def PlusPFldServicePriceBook():
-    '''public PlusPFldServicePriceBook(final MboValue mbv)
+def ():
+    '''returns PlusPFldServicePriceBook\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

@@ -1,9 +1,11 @@
 METHOD_NAME = "String  \"PUT\""
-def HttpPut():
-    '''public HttpPut()
-    public HttpPut(final URI uri)
-    public HttpPut(final String uri)
+def ():
+    '''returns HttpPut\n\n
+    ()\n
+    (final URI uri)\n
+    (final String uri)\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''

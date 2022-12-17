@@ -1,17 +1,22 @@
 RECORD_DESCRIPTION = "String  \"msofbtOPT\""
 RECORD_ID = "short  -4085"
 def getInstance():
-    '''public short getInstance()
+    '''returns short\n\n
+    getInstance()\n
     '''
 def getOptions():
-    '''public short getOptions()
+    '''returns short\n\n
+    getOptions()\n
     '''
 def getRecordName():
-    '''public String getRecordName()
+    '''returns String\n\n
+    getRecordName()\n
     '''
 def getVersion():
-    '''public short getVersion()
+    '''returns short\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final short value)
+    '''returns None\n\n
+    setVersion(final short value)\n
     '''

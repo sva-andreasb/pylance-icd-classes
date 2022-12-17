@@ -1,25 +1,33 @@
-def UTF16CollationIterator():
-    '''public UTF16CollationIterator(final CollationData d)
-    public UTF16CollationIterator(final CollationData d, final boolean numeric, final CharSequence s, final int p)
+def ():
+    '''returns UTF16CollationIterator\n\n
+    (final CollationData d)\n
+    (final CollationData d, final boolean numeric, final CharSequence s, final int p)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def resetToOffset():
-    '''public void resetToOffset(final int newOffset)
+    '''returns None\n\n
+    resetToOffset(final int newOffset)\n
     '''
 def getOffset():
-    '''public int getOffset()
+    '''returns int\n\n
+    getOffset()\n
     '''
 def setText():
-    '''public void setText(final boolean numeric, final CharSequence s, final int p)
+    '''returns None\n\n
+    setText(final boolean numeric, final CharSequence s, final int p)\n
     '''
 def nextCodePoint():
-    '''public int nextCodePoint()
+    '''returns int\n\n
+    nextCodePoint()\n
     '''
 def previousCodePoint():
-    '''public int previousCodePoint()
+    '''returns int\n\n
+    previousCodePoint()\n
     '''

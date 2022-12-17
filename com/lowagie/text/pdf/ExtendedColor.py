@@ -4,11 +4,12 @@ TYPE_CMYK = "int  2"
 TYPE_SEPARATION = "int  3"
 TYPE_PATTERN = "int  4"
 TYPE_SHADING = "int  5"
-def ExtendedColor():
-    '''public ExtendedColor(final int type)
-    public ExtendedColor(final int type, final float red, final float green, final float blue)
+def ():
+    '''returns ExtendedColor\n\n
+    (final int type)\n
+    (final int type, final float red, final float green, final float blue)\n
     '''
 def getType():
-    '''public int getType()
-    public static int getType(final Color color)
+    '''returns int\n\n
+    getType()\n
     '''

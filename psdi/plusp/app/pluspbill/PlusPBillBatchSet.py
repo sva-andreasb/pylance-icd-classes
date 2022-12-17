@@ -1,13 +1,17 @@
-def PlusPBillBatchSet():
-    '''public PlusPBillBatchSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPBillBatchSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def positionState():
-    '''public void positionState()
+    '''returns None\n\n
+    positionState()\n
     '''
 def getMboWithoutTotalUpdate():
-    '''public MboRemote getMboWithoutTotalUpdate(final int index)
+    '''returns MboRemote\n\n
+    getMboWithoutTotalUpdate(final int index)\n
     '''
 def getMbo():
-    '''public MboRemote getMbo()
-    public MboRemote getMbo(final int index)
+    '''returns MboRemote\n\n
+    getMbo()\n
+    getMbo(final int index)\n
     '''

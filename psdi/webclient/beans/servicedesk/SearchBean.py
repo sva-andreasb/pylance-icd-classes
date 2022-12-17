@@ -1,30 +1,40 @@
-def SearchBean():
-    '''public SearchBean()
+def ():
+    '''returns SearchBean\n\n
+    ()\n
     '''
 def searchsr():
-    '''public int searchsr()
+    '''returns int\n\n
+    searchsr()\n
     '''
 def clearsr():
-    '''public int clearsr()
+    '''returns int\n\n
+    clearsr()\n
     '''
 def clear():
-    '''public int clear()
+    '''returns int\n\n
+    clear()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def find():
-    '''public int find()
+    '''returns int\n\n
+    find()\n
     '''
 def returnSolution():
-    '''public int returnSolution()
+    '''returns int\n\n
+    returnSolution()\n
     '''
 def filterByLinearAssets():
-    '''public int filterByLinearAssets()
+    '''returns int\n\n
+    filterByLinearAssets()\n
     '''
 def hasSigOptionAccess():
-    '''public boolean hasSigOptionAccess(final int row, final String sigOption)
+    '''returns boolean\n\n
+    hasSigOptionAccess(final int row, final String sigOption)\n
     '''
 def servicelog():
-    '''public int servicelog()
+    '''returns int\n\n
+    servicelog()\n
     '''

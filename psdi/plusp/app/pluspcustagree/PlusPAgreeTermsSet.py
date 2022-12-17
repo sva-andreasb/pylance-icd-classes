@@ -1,9 +1,12 @@
-def PlusPAgreeTermsSet():
-    '''public PlusPAgreeTermsSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPAgreeTermsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def copyTerms():
-    '''public void copyTerms(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyTerms(final MboSetRemote mboSetRemote)\n
     '''

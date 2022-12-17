@@ -1,15 +1,20 @@
-def PlusCFldJPDSPlanNum():
-    '''public PlusCFldJPDSPlanNum(final MboValue mbovalue)
+def ():
+    '''returns PlusCFldJPDSPlanNum\n\n
+    (final MboValue mbovalue)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String value, final boolean exact)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,46 +1,56 @@
 SCRIPT_LOGGER = "String  \"maximo.script\""
-def ScriptCacheImpl():
-    '''public ScriptCacheImpl()
+def ():
+    '''returns ScriptCacheImpl\n\n
+    ()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getScriptInfo():
-    '''public ScriptInfo getScriptInfo(final String name)
+    '''returns ScriptInfo\n\n
+    getScriptInfo(final String name)\n
     '''
 def fireNPSetupEvent():
-    '''public MboRemote fireNPSetupEvent(final NonPersistentMboSet npSet)
+    '''returns MboRemote\n\n
+    fireNPSetupEvent(final NonPersistentMboSet npSet)\n
     '''
 def fireNPExecuteEvent():
-    '''public void fireNPExecuteEvent(final NonPersistentMboSet npSet, final MboRemote mboToWorkOn)
-    public void fireNPExecuteEvent(final NonPersistentMboSet npSet)
+    '''returns None\n\n
+    fireNPExecuteEvent(final NonPersistentMboSet npSet, final MboRemote mboToWorkOn)\n
+    fireNPExecuteEvent(final NonPersistentMboSet npSet)\n
     '''
 def fireAfterDuplicateEvent():
-    '''public void fireAfterDuplicateEvent(final MboRemote mbo, final MboRemote dupMbo)
+    '''returns None\n\n
+    fireAfterDuplicateEvent(final MboRemote mbo, final MboRemote dupMbo)\n
     '''
 def loadScripts():
-    '''public void loadScripts()
+    '''returns None\n\n
+    loadScripts()\n
     '''
 def loadScriptLaunchPoint():
-    '''public void loadScriptLaunchPoint()
-    public void loadScriptLaunchPoint(final String scriptName)
+    '''returns None\n\n
+    loadScriptLaunchPoint()\n
+    loadScriptLaunchPoint(final String scriptName)\n
     '''
 def getObjectScriptAndLPFor():
-    '''public String[] getObjectScriptAndLPFor(final String objectName, final long objectEvent)
-    '''
-def getAllScripts():
-    '''public Map<String, ScriptInfo> getAllScripts()
+    '''returns String[]\n\n
+    getObjectScriptAndLPFor(final String objectName, final long objectEvent)\n
     '''
 def loadScript():
-    '''public void loadScript(final String scriptName)
+    '''returns None\n\n
+    loadScript(final String scriptName)\n
     '''
 def zombieInit():
-    '''public void zombieInit(final EventMessage msg)
+    '''returns None\n\n
+    zombieInit(final EventMessage msg)\n
     '''

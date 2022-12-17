@@ -1,9 +1,8 @@
 def getValue():
-    '''public int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def getStateType():
-    '''public static StateType getStateType(final int value)
+    '''returns String\n\n
+    toString()\n
     '''

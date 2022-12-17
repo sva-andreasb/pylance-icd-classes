@@ -1,24 +1,28 @@
-def getBookmarkManager():
-    '''public static synchronized BookmarkManager getBookmarkManager(final XMPPConnection connection)
-    '''
 def getBookmarkedConferences():
-    '''public List<BookmarkedConference> getBookmarkedConferences()
+    '''returns List<BookmarkedConference>\n\n
+    getBookmarkedConferences()\n
     '''
 def addBookmarkedConference():
-    '''public void addBookmarkedConference(final String name, final EntityBareJid jid, final boolean isAutoJoin, final Resourcepart nickname, final String password)
+    '''returns None\n\n
+    addBookmarkedConference(final String name, final EntityBareJid jid, final boolean isAutoJoin, final Resourcepart nickname, final String password)\n
     '''
 def removeBookmarkedConference():
-    '''public void removeBookmarkedConference(final EntityBareJid jid)
+    '''returns None\n\n
+    removeBookmarkedConference(final EntityBareJid jid)\n
     '''
 def getBookmarkedURLs():
-    '''public List<BookmarkedURL> getBookmarkedURLs()
+    '''returns List<BookmarkedURL>\n\n
+    getBookmarkedURLs()\n
     '''
 def addBookmarkedURL():
-    '''public void addBookmarkedURL(final String URL, final String name, final boolean isRSS)
+    '''returns None\n\n
+    addBookmarkedURL(final String URL, final String name, final boolean isRSS)\n
     '''
 def removeBookmarkedURL():
-    '''public void removeBookmarkedURL(final String bookmarkURL)
+    '''returns None\n\n
+    removeBookmarkedURL(final String bookmarkURL)\n
     '''
 def isSupported():
-    '''public boolean isSupported()
+    '''returns boolean\n\n
+    isSupported()\n
     '''

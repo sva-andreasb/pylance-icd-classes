@@ -1,6 +1,8 @@
-def FldWogenEstLabHrs():
-    '''public FldWogenEstLabHrs(final MboValue mbv)
+def ():
+    '''returns FldWogenEstLabHrs\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

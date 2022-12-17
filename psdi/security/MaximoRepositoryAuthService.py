@@ -1,9 +1,8 @@
-def startService():
-    '''public static MaximoRepositoryAuthService startService()
-    '''
 def checkPassword():
-    '''public void checkPassword(final String loginID, final String enteredPassword)
+    '''returns None\n\n
+    checkPassword(final String loginID, final String enteredPassword)\n
     '''
 def isValidUser():
-    '''public void isValidUser(final String loginID)
+    '''returns None\n\n
+    isValidUser(final String loginID)\n
     '''

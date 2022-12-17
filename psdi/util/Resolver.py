@@ -1,43 +1,44 @@
-def getResolver():
-    '''public static Resolver getResolver()
-    '''
 def setPath():
-    '''public void setPath(final String p)
-    '''
-def setMapResourceFileName():
-    '''public static void setMapResourceFileName(final String fileName)
+    '''returns None\n\n
+    setPath(final String p)\n
     '''
 def resolveMessage():
-    '''public InputStream resolveMessage(final String msg)
+    '''returns InputStream\n\n
+    resolveMessage(final String msg)\n
     '''
 def resolveMenu():
-    '''public InputStream resolveMenu(final String name)
+    '''returns InputStream\n\n
+    resolveMenu(final String name)\n
     '''
 def resolveScreen():
-    '''public String resolveScreen(final String name)
+    '''returns String\n\n
+    resolveScreen(final String name)\n
     '''
 def resolveImage():
-    '''public InputStream resolveImage(final String name)
+    '''returns InputStream\n\n
+    resolveImage(final String name)\n
     '''
 def resolveDoclink():
-    '''public InputStream resolveDoclink(final String name)
+    '''returns InputStream\n\n
+    resolveDoclink(final String name)\n
     '''
 def resolveTextFile():
-    '''public InputStream resolveTextFile(final String name)
-    '''
-def isApp():
-    '''public static boolean isApp()
-    public static void isApp(final boolean state)
+    '''returns InputStream\n\n
+    resolveTextFile(final String name)\n
     '''
 def setApplet():
-    '''public void setApplet(final Applet ap)
+    '''returns None\n\n
+    setApplet(final Applet ap)\n
     '''
 def getApplet():
-    '''public Applet getApplet()
+    '''returns Applet\n\n
+    getApplet()\n
     '''
 def getMessage():
-    '''public Message getMessage(final String bundle, final String key)
+    '''returns Message\n\n
+    getMessage(final String bundle, final String key)\n
     '''
 def getTaggedMessage():
-    '''public Message getTaggedMessage(final String bundle, final String key)
+    '''returns Message\n\n
+    getTaggedMessage(final String bundle, final String key)\n
     '''

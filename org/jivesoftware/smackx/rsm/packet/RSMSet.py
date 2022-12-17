@@ -1,51 +1,54 @@
 ELEMENT = "String  \"set\""
 NAMESPACE = "String  \"http://jabber.org/protocol/rsm\""
-def RSMSet():
-    '''public RSMSet(final int max)
-    public RSMSet(final int max, final int index)
-    public RSMSet(final String item, final PageDirection pageDirection)
-    public RSMSet(final int max, final String item, final PageDirection pageDirection)
-    public RSMSet(final String after, final String before, final int count, final int index, final String last, final int max, final String firstString, final int firstIndex)
+def ():
+    '''returns RSMSet\n\n
+    (final int max)\n
+    (final int max, final int index)\n
+    (final String item, final PageDirection pageDirection)\n
+    (final int max, final String item, final PageDirection pageDirection)\n
+    (final String after, final String before, final int count, final int index, final String last, final int max, final String firstString, final int firstIndex)\n
     '''
 def getAfter():
-    '''public String getAfter()
+    '''returns String\n\n
+    getAfter()\n
     '''
 def getBefore():
-    '''public String getBefore()
+    '''returns String\n\n
+    getBefore()\n
     '''
 def getCount():
-    '''public int getCount()
+    '''returns int\n\n
+    getCount()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def getLast():
-    '''public String getLast()
+    '''returns String\n\n
+    getLast()\n
     '''
 def getMax():
-    '''public int getMax()
+    '''returns int\n\n
+    getMax()\n
     '''
 def getFirst():
-    '''public String getFirst()
+    '''returns String\n\n
+    getFirst()\n
     '''
 def getFirstIndex():
-    '''public int getFirstIndex()
+    '''returns int\n\n
+    getFirstIndex()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    '''
-def from():
-    '''public static RSMSet from(final Stanza packet)
-    '''
-def newAfter():
-    '''public static RSMSet newAfter(final String after)
-    '''
-def newBefore():
-    '''public static RSMSet newBefore(final String before)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

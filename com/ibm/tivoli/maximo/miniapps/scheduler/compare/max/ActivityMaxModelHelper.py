@@ -1,21 +1,20 @@
 def getIDComparator():
-    '''public Comparator<IMXActivity> getIDComparator()
+    '''returns Comparator<IMXActivity>\n\n
+    getIDComparator()\n
     '''
 def isModified():
-    '''public boolean isModified(final IMXGanttModel leftModel, final IMXActivity leftNode, final IMXGanttModel rightModel, final IMXActivity rightNode)
-    '''
-def isActivityDateModified():
-    '''public static boolean isActivityDateModified(final IMXActivity o1, final IMXActivity o2)
-    '''
-def isActivityStatusModified():
-    '''public static boolean isActivityStatusModified(final IMXActivity leftNode, final IMXActivity rightNode)
+    '''returns boolean\n\n
+    isModified(final IMXGanttModel leftModel, final IMXActivity leftNode, final IMXGanttModel rightModel, final IMXActivity rightNode)\n
     '''
 def getMissingNodes():
-    '''public List<IMXActivity> getMissingNodes(final IMXGanttModel model, final String otherProjectID)
+    '''returns List<IMXActivity>\n\n
+    getMissingNodes(final IMXGanttModel model, final String otherProjectID)\n
     '''
 def getPageNodes():
-    '''public List<IMXActivity> getPageNodes(final int pageNumber, final IMXGanttModel model, final String otherProjectID)
+    '''returns List<IMXActivity>\n\n
+    getPageNodes(final int pageNumber, final IMXGanttModel model, final String otherProjectID)\n
     '''
 def compare():
-    '''public int compare(final IMXActivity o1, final IMXActivity o2)
+    '''returns int\n\n
+    compare(final IMXActivity o1, final IMXActivity o2)\n
     '''

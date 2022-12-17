@@ -1,30 +1,39 @@
-def SetObjectAclRequest():
-    '''public SetObjectAclRequest(final String bucketName, final String key, final AccessControlList acl)
-    public SetObjectAclRequest(final String bucketName, final String key, final CannedAccessControlList acl)
-    public SetObjectAclRequest(final String bucketName, final String key, final String versionId, final AccessControlList acl)
-    public SetObjectAclRequest(final String bucketName, final String key, final String versionId, final CannedAccessControlList acl)
+def ():
+    '''returns SetObjectAclRequest\n\n
+    (final String bucketName, final String key, final AccessControlList acl)\n
+    (final String bucketName, final String key, final CannedAccessControlList acl)\n
+    (final String bucketName, final String key, final String versionId, final AccessControlList acl)\n
+    (final String bucketName, final String key, final String versionId, final CannedAccessControlList acl)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getVersionId():
-    '''public String getVersionId()
+    '''returns String\n\n
+    getVersionId()\n
     '''
 def getAcl():
-    '''public AccessControlList getAcl()
+    '''returns AccessControlList\n\n
+    getAcl()\n
     '''
 def getCannedAcl():
-    '''public CannedAccessControlList getCannedAcl()
+    '''returns CannedAccessControlList\n\n
+    getCannedAcl()\n
     '''
 def isRequesterPays():
-    '''public boolean isRequesterPays()
+    '''returns boolean\n\n
+    isRequesterPays()\n
     '''
 def setRequesterPays():
-    '''public void setRequesterPays(final boolean isRequesterPays)
+    '''returns None\n\n
+    setRequesterPays(final boolean isRequesterPays)\n
     '''
 def withRequesterPays():
-    '''public SetObjectAclRequest withRequesterPays(final boolean isRequesterPays)
+    '''returns SetObjectAclRequest\n\n
+    withRequesterPays(final boolean isRequesterPays)\n
     '''

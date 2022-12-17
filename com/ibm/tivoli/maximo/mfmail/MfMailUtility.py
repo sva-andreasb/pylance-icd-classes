@@ -1,46 +1,56 @@
 def sendSTReplyMailVerySmall():
-    '''public void sendSTReplyMailVerySmall(final MboRemote inboundComm, final MboRemote commTemplate, final MboRemote targetMbo, final MboRemote trackEntry, final UserInfo ui, final String valueList, final int deviceClass)
+    '''returns None\n\n
+    sendSTReplyMailVerySmall(final MboRemote inboundComm, final MboRemote commTemplate, final MboRemote targetMbo, final MboRemote trackEntry, final UserInfo ui, final String valueList, final int deviceClass)\n
     '''
 def sendWFNotifyMail():
-    '''public void sendWFNotifyMail(final MboRemote track, final MboRemote tempTargetMbo, final MfMailWFCtrlInfo wc)
+    '''returns None\n\n
+    sendWFNotifyMail(final MboRemote track, final MboRemote tempTargetMbo, final MfMailWFCtrlInfo wc)\n
     '''
 def sendErrorMail():
-    '''public void sendErrorMail(final MboRemote inboundComm, final String template)
-    '''
-def getCommTemplate():
-    '''public static MboRemote getCommTemplate(final String templateId, final UserInfo ui)
+    '''returns None\n\n
+    sendErrorMail(final MboRemote inboundComm, final String template)\n
     '''
 def logMailInfo():
-    '''public void logMailInfo(final MboRemote inboundComm)
-    public static void logMailInfo(final MXLogger pLogger, final MboRemote inboundComm)
+    '''returns None\n\n
+    logMailInfo(final MboRemote inboundComm)\n
     '''
 def sendErrorMailToAdmin():
-    '''public void sendErrorMailToAdmin(final String errMsg, final String template)
+    '''returns None\n\n
+    sendErrorMailToAdmin(final String errMsg, final String template)\n
     '''
 def createInboundCommLog():
-    '''public void createInboundCommLog(final MboRemote inboundComm, final MboRemote targetMbo, final Date cDate)
+    '''returns None\n\n
+    createInboundCommLog(final MboRemote inboundComm, final MboRemote targetMbo, final Date cDate)\n
     '''
 def isKeyAttribute():
-    '''public boolean isKeyAttribute(final String[] keys, final String attribute)
+    '''returns boolean\n\n
+    isKeyAttribute(final String[] keys, final String attribute)\n
     '''
 def getHashSet():
-    '''public HashSet<String> getHashSet(final String commaSeparatedList)
+    '''returns HashSet<String>\n\n
+    getHashSet(final String commaSeparatedList)\n
     '''
 def getSenderFromTemplate():
-    '''public String getSenderFromTemplate(final MboRemote commTemplate)
+    '''returns String\n\n
+    getSenderFromTemplate(final MboRemote commTemplate)\n
     '''
 def getLogger():
-    '''public MXLogger getLogger()
+    '''returns MXLogger\n\n
+    getLogger()\n
     '''
 def setLogger():
-    '''public void setLogger(final MXLogger logger)
+    '''returns None\n\n
+    setLogger(final MXLogger logger)\n
     '''
 def isMailHTML():
-    '''public boolean isMailHTML()
+    '''returns boolean\n\n
+    isMailHTML()\n
     '''
 def checkAppAuth():
-    '''public boolean checkAppAuth(final InboundCommRemote inboundComm, final MboRemote targetMbo)
+    '''returns boolean\n\n
+    checkAppAuth(final InboundCommRemote inboundComm, final MboRemote targetMbo)\n
     '''
 def checkStatusAuth():
-    '''public boolean checkStatusAuth(final InboundCommRemote inboundComm, final MboRemote targetMbo, final UserInfo ui)
+    '''returns boolean\n\n
+    checkStatusAuth(final InboundCommRemote inboundComm, final MboRemote targetMbo, final UserInfo ui)\n
     '''

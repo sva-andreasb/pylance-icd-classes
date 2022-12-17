@@ -1,6 +1,8 @@
-def ProductInfo():
-    '''public ProductInfo(final MboSet ms)
+def ():
+    '''returns ProductInfo\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

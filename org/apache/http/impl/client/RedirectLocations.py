@@ -1,27 +1,35 @@
-def RedirectLocations():
-    '''public RedirectLocations()
+def ():
+    '''returns RedirectLocations\n\n
+    ()\n
     '''
 def contains():
-    '''public boolean contains(final URI uri)
-    public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final URI uri)\n
+    contains(final Object o)\n
     '''
 def add():
-    '''public void add(final URI uri)
-    public void add(final int index, final Object element)
+    '''returns None\n\n
+    add(final URI uri)\n
+    add(final int index, final Object element)\n
     '''
 def remove():
-    '''public boolean remove(final URI uri)
-    public URI remove(final int index)
+    '''returns URI\n\n
+    remove(final URI uri)\n
+    remove(final int index)\n
     '''
 def getAll():
-    '''public List<URI> getAll()
+    '''returns List<URI>\n\n
+    getAll()\n
     '''
 def get():
-    '''public URI get(final int index)
+    '''returns URI\n\n
+    get(final int index)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def set():
-    '''public Object set(final int index, final Object element)
+    '''returns Object\n\n
+    set(final int index, final Object element)\n
     '''

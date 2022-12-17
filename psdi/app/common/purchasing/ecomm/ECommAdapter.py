@@ -1,3 +1,4 @@
-def ECommAdapter():
-    '''public ECommAdapter(final MboSet ms)
+def ():
+    '''returns ECommAdapter\n\n
+    (final MboSet ms)\n
     '''

@@ -1,45 +1,60 @@
-def ImportDocumentHandler():
-    '''public ImportDocumentHandler(final boolean debug, final Connection conn)
+def ():
+    '''returns ImportDocumentHandler\n\n
+    (final boolean debug, final Connection conn)\n
     '''
 def getSaveEntireXML():
-    '''public boolean getSaveEntireXML()
+    '''returns boolean\n\n
+    getSaveEntireXML()\n
     '''
 def setSaveEntireXML():
-    '''public void setSaveEntireXML(final boolean saveEntireXML)
+    '''returns None\n\n
+    setSaveEntireXML(final boolean saveEntireXML)\n
     '''
 def useKeyColumnsForUpdates():
-    '''public boolean useKeyColumnsForUpdates()
+    '''returns boolean\n\n
+    useKeyColumnsForUpdates()\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def startElement():
-    '''public void startElement(final String uri, final String localName, final String name, final Attributes atts)
+    '''returns None\n\n
+    startElement(final String uri, final String localName, final String name, final Attributes atts)\n
     '''
 def characters():
-    '''public void characters(final char[] text, final int start, final int length)
+    '''returns None\n\n
+    characters(final char[] text, final int start, final int length)\n
     '''
 def endElement():
-    '''public void endElement(final String uri, final String localName, final String name)
+    '''returns None\n\n
+    endElement(final String uri, final String localName, final String name)\n
     '''
 def endPrefixMapping():
-    '''public void endPrefixMapping(final String prefix)
+    '''returns None\n\n
+    endPrefixMapping(final String prefix)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    ignorableWhitespace(final char[] ch, final int start, final int length)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String target, final String data)
+    '''returns None\n\n
+    processingInstruction(final String target, final String data)\n
     '''
 def setDocumentLocator():
-    '''public void setDocumentLocator(final Locator locator)
+    '''returns None\n\n
+    setDocumentLocator(final Locator locator)\n
     '''
 def skippedEntity():
-    '''public void skippedEntity(final String name)
+    '''returns None\n\n
+    skippedEntity(final String name)\n
     '''
 def startPrefixMapping():
-    '''public void startPrefixMapping(final String prefix, final String uri)
+    '''returns None\n\n
+    startPrefixMapping(final String prefix, final String uri)\n
     '''

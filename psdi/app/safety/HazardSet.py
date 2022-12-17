@@ -1,3 +1,4 @@
-def HazardSet():
-    '''public HazardSet(final MboServerInterface ms)
+def ():
+    '''returns HazardSet\n\n
+    (final MboServerInterface ms)\n
     '''

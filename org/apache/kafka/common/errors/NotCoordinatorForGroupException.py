@@ -1,6 +1,7 @@
-def NotCoordinatorForGroupException():
-    '''public NotCoordinatorForGroupException()
-    public NotCoordinatorForGroupException(final String message)
-    public NotCoordinatorForGroupException(final String message, final Throwable cause)
-    public NotCoordinatorForGroupException(final Throwable cause)
+def ():
+    '''returns NotCoordinatorForGroupException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

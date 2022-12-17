@@ -1,4 +1,5 @@
-def CalendarHolder():
-    '''public CalendarHolder()
-    public CalendarHolder(final Calendar value)
+def ():
+    '''returns CalendarHolder\n\n
+    ()\n
+    (final Calendar myCalendar)\n
     '''

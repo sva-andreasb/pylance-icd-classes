@@ -1,95 +1,122 @@
 def getResourceLocatorId():
-    '''public String getResourceLocatorId()
+    '''returns String\n\n
+    getResourceLocatorId()\n
     '''
 def setResourceLocatorId():
-    '''public void setResourceLocatorId(final String resourceLocatorId)
+    '''returns None\n\n
+    setResourceLocatorId(final String resourceLocatorId)\n
     '''
 def setDiscard():
-    '''public void setDiscard(final boolean discard)
+    '''returns None\n\n
+    setDiscard(final boolean discard)\n
     '''
 def canDiscard():
-    '''public boolean canDiscard()
+    '''returns boolean\n\n
+    canDiscard()\n
     '''
 def isCachedInSession():
-    '''public boolean isCachedInSession()
+    '''returns boolean\n\n
+    isCachedInSession()\n
     '''
 def setCachedInSession():
-    '''public void setCachedInSession(final boolean cachedInSession)
+    '''returns None\n\n
+    setCachedInSession(final boolean cachedInSession)\n
     '''
 def setResourceMetadata():
-    '''public void setResourceMetadata(final String key, final String value)
+    '''returns None\n\n
+    setResourceMetadata(final String key, final String value)\n
     '''
-def getResourceMetadata():
-    '''public Map<String, String> getResourceMetadata()
-    '''
-def Resource():
-    '''public Resource(final Object resource, final String type, final String name)
-    public Resource(final Object resource, final String type, final String name, final boolean modified)
-    public Resource(final Resource resource)
+def ():
+    '''returns Resource\n\n
+    (final Object resource, final String type, final String name)\n
+    (final Object resource, final String type, final String name, final boolean modified)\n
+    (final Resource resource)\n
     '''
 def getResource():
-    '''public Object getResource()
+    '''returns Object\n\n
+    getResource()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def isModified():
-    '''public boolean isModified()
+    '''returns boolean\n\n
+    isModified()\n
     '''
 def isLink():
-    '''public boolean isLink()
+    '''returns boolean\n\n
+    isLink()\n
     '''
 def setLink():
-    '''public void setLink(final boolean link)
+    '''returns None\n\n
+    setLink(final boolean link)\n
     '''
 def setModified():
-    '''public void setModified(final boolean modified)
+    '''returns None\n\n
+    setModified(final boolean modified)\n
     '''
 def setLastModified():
-    '''public void setLastModified(final Date lastModified)
+    '''returns None\n\n
+    setLastModified(final Date lastModified)\n
     '''
 def getLastModified():
-    '''public Date getLastModified()
+    '''returns Date\n\n
+    getLastModified()\n
     '''
 def getETag():
-    '''public String getETag()
+    '''returns String\n\n
+    getETag()\n
     '''
 def setETag():
-    '''public void setETag(final String etag)
+    '''returns None\n\n
+    setETag(final String etag)\n
     '''
 def getResolvedResourcesCollection():
-    '''public List getResolvedResourcesCollection()
+    '''returns List\n\n
+    getResolvedResourcesCollection()\n
     '''
 def setResolvedResourcesCollection():
-    '''public void setResolvedResourcesCollection(final List resolvedResourcesCollection)
+    '''returns None\n\n
+    setResolvedResourcesCollection(final List resolvedResourcesCollection)\n
     '''
 def getResolvedCollectionSerializeCount():
-    '''public int getResolvedCollectionSerializeCount()
+    '''returns int\n\n
+    getResolvedCollectionSerializeCount()\n
     '''
 def getResolvedCollectionTotalCount():
-    '''public int getResolvedCollectionTotalCount()
+    '''returns int\n\n
+    getResolvedCollectionTotalCount()\n
     '''
 def getResolvedCollectionStartCount():
-    '''public int getResolvedCollectionStartCount()
+    '''returns int\n\n
+    getResolvedCollectionStartCount()\n
     '''
 def setResolvedCollectionTotalCount():
-    '''public void setResolvedCollectionTotalCount(final int resolvedCollectionTotalCount)
+    '''returns None\n\n
+    setResolvedCollectionTotalCount(final int resolvedCollectionTotalCount)\n
     '''
 def setResolvedCollectionStartCount():
-    '''public void setResolvedCollectionStartCount(final int resolvedCollectionStartCount)
+    '''returns None\n\n
+    setResolvedCollectionStartCount(final int resolvedCollectionStartCount)\n
     '''
 def getConfiguredName():
-    '''public String getConfiguredName()
+    '''returns String\n\n
+    getConfiguredName()\n
     '''
 def releaseResource():
-    '''public void releaseResource()
+    '''returns None\n\n
+    releaseResource()\n
     '''

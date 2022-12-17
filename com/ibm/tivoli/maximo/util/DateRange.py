@@ -1,54 +1,65 @@
-def DateRange():
-    '''public DateRange(final Range<Date> range)
-    public DateRange(final Date start, final Date end)
-    public DateRange()
+def ():
+    '''returns DateRange\n\n
+    (final Range<Date> range)\n
+    (final Date start, final Date end)\n
+    ()\n
     '''
 def intersects():
-    '''public boolean intersects(final Date clickdate)
-    public boolean intersects(final Range<Date> date)
+    '''returns boolean\n\n
+    intersects(final Date clickdate)\n
+    intersects(final Range<Date> date)\n
     '''
 def before():
-    '''public boolean before(final Date date)
-    public boolean before(final Range<Date> date)
+    '''returns boolean\n\n
+    before(final Date date)\n
+    before(final Range<Date> date)\n
     '''
 def after():
-    '''public boolean after(final Date d)
-    public boolean after(final Range<Date> date)
+    '''returns boolean\n\n
+    after(final Date d)\n
+    after(final Range<Date> date)\n
     '''
 def normalize():
-    '''public void normalize()
-    public void normalize(final DateRange dates)
+    '''returns None\n\n
+    normalize()\n
+    normalize(final DateRange dates)\n
     '''
 def ensureRange():
-    '''public void ensureRange(final DateRange range)
+    '''returns None\n\n
+    ensureRange(final DateRange range)\n
     '''
 def expandRange():
-    '''public void expandRange(final int days)
-    public void expandRange(final int days, final DateRange other)
+    '''returns None\n\n
+    expandRange(final int days)\n
+    expandRange(final int days, final DateRange other)\n
     '''
 def expandStart():
-    '''public void expandStart(final int days)
-    public void expandStart(final int days, final DateRange other)
+    '''returns None\n\n
+    expandStart(final int days)\n
+    expandStart(final int days, final DateRange other)\n
     '''
 def expandEnd():
-    '''public void expandEnd(final int days)
-    public void expandEnd(final int days, final DateRange other)
+    '''returns None\n\n
+    expandEnd(final int days)\n
+    expandEnd(final int days, final DateRange other)\n
     '''
 def getDurationInMillis():
-    '''public long getDurationInMillis()
+    '''returns long\n\n
+    getDurationInMillis()\n
     '''
 def asRange():
-    '''public Range<Date> asRange()
-    '''
-def asDateRange():
-    '''public static DateRange asDateRange(final Range<Date> range)
+    '''returns Range<Date>\n\n
+    asRange()\n
     '''
 def compareTo():
-    '''public int compareTo(final DateRange o)
+    '''returns int\n\n
+    compareTo(final DateRange o)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

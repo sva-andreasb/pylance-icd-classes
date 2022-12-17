@@ -1,19 +1,25 @@
-def ExpFunctionCacheImpl():
-    '''public ExpFunctionCacheImpl()
+def ():
+    '''returns ExpFunctionCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getFunction():
-    '''public Function getFunction(final String fName, final Expression exp)
+    '''returns Function\n\n
+    getFunction(final String fName, final Expression exp)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def hasFunction():
-    '''public boolean hasFunction(final String fName)
+    '''returns boolean\n\n
+    hasFunction(final String fName)\n
     '''

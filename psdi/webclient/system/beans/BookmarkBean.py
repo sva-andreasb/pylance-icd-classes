@@ -1,12 +1,16 @@
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def bookmark():
-    '''public int bookmark(final MboRemote mbo)
+    '''returns int\n\n
+    bookmark(final MboRemote mbo)\n
     '''
 def deleteBookmark():
-    '''public void deleteBookmark(final long keyValue)
+    '''returns None\n\n
+    deleteBookmark(final long keyValue)\n
     '''

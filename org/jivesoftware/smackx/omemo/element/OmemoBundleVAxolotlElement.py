@@ -1,34 +1,41 @@
-def OmemoBundleVAxolotlElement():
-    '''public OmemoBundleVAxolotlElement(final int signedPreKeyId, final String signedPreKeyB64, final String signedPreKeySigB64, final String identityKeyB64, final HashMap<Integer, String> preKeysB64)
-    public OmemoBundleVAxolotlElement(final int signedPreKeyId, final byte[] signedPreKey, final byte[] signedPreKeySig, final byte[] identityKey, final HashMap<Integer, byte[]> preKeys)
+def ():
+    '''returns OmemoBundleVAxolotlElement\n\n
+    (final int signedPreKeyId, final String signedPreKeyB64, final String signedPreKeySigB64, final String identityKeyB64, final HashMap<Integer, String> preKeysB64)\n
+    (final int signedPreKeyId, final byte[] signedPreKey, final byte[] signedPreKeySig, final byte[] identityKey, final HashMap<Integer, byte[]> preKeys)\n
     '''
 def getSignedPreKey():
-    '''public byte[] getSignedPreKey()
+    '''returns byte[]\n\n
+    getSignedPreKey()\n
     '''
 def getSignedPreKeyId():
-    '''public int getSignedPreKeyId()
+    '''returns int\n\n
+    getSignedPreKeyId()\n
     '''
 def getSignedPreKeySignature():
-    '''public byte[] getSignedPreKeySignature()
+    '''returns byte[]\n\n
+    getSignedPreKeySignature()\n
     '''
 def getIdentityKey():
-    '''public byte[] getIdentityKey()
-    '''
-def getPreKeys():
-    '''public HashMap<Integer, byte[]> getPreKeys()
+    '''returns byte[]\n\n
+    getIdentityKey()\n
     '''
 def getPreKey():
-    '''public byte[] getPreKey(final int id)
+    '''returns byte[]\n\n
+    getPreKey(final int id)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

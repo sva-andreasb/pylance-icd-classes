@@ -1,27 +1,36 @@
-def FTPTimestampParserImpl():
-    '''public FTPTimestampParserImpl()
+def ():
+    '''returns FTPTimestampParserImpl\n\n
+    ()\n
     '''
 def parseTimestamp():
-    '''public Calendar parseTimestamp(final String timestampStr)
+    '''returns Calendar\n\n
+    parseTimestamp(final String timestampStr)\n
     '''
 def getDefaultDateFormat():
-    '''public SimpleDateFormat getDefaultDateFormat()
+    '''returns SimpleDateFormat\n\n
+    getDefaultDateFormat()\n
     '''
 def getDefaultDateFormatString():
-    '''public String getDefaultDateFormatString()
+    '''returns String\n\n
+    getDefaultDateFormatString()\n
     '''
 def getRecentDateFormat():
-    '''public SimpleDateFormat getRecentDateFormat()
+    '''returns SimpleDateFormat\n\n
+    getRecentDateFormat()\n
     '''
 def getRecentDateFormatString():
-    '''public String getRecentDateFormatString()
+    '''returns String\n\n
+    getRecentDateFormatString()\n
     '''
 def getShortMonths():
-    '''public String[] getShortMonths()
+    '''returns String[]\n\n
+    getShortMonths()\n
     '''
 def getServerTimeZone():
-    '''public TimeZone getServerTimeZone()
+    '''returns TimeZone\n\n
+    getServerTimeZone()\n
     '''
 def configure():
-    '''public void configure(final FTPClientConfig config)
+    '''returns None\n\n
+    configure(final FTPClientConfig config)\n
     '''

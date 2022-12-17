@@ -1,6 +1,8 @@
-def ReconLinkValidatorExpression():
-    '''public ReconLinkValidatorExpression(final ReconInfo reconInfo)
+def ():
+    '''returns ReconLinkValidatorExpression\n\n
+    (final ReconInfo reconInfo)\n
     '''
 def validateInfoLinkExpressionTree():
-    '''public boolean validateInfoLinkExpressionTree(final MboRemote validateObject)
+    '''returns boolean\n\n
+    validateInfoLinkExpressionTree(final MboRemote validateObject)\n
     '''

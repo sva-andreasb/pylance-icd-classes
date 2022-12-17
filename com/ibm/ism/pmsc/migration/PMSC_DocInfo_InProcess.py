@@ -6,18 +6,23 @@ OWNERTABLE = "String  \"OWNERTABLE\""
 OWNERID = "String  \"OWNERID\""
 DOCINFOID = "String  \"DOCINFOID\""
 DOCTYPE = "String  \"DOCTYPE\""
-def PMSC_DocInfo_InProcess():
-    '''public PMSC_DocInfo_InProcess()
+def ():
+    '''returns PMSC_DocInfo_InProcess\n\n
+    ()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String tableName)\n
     '''
 def checkValidateErrors():
-    '''public void checkValidateErrors()
+    '''returns None\n\n
+    checkValidateErrors()\n
     '''
 def delete():
-    '''public void delete(final MboRemote mbo, final MosDetailInfo mdi)
+    '''returns None\n\n
+    delete(final MboRemote mbo, final MosDetailInfo mdi)\n
     '''

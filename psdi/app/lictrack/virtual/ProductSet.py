@@ -1,6 +1,8 @@
-def ProductSet():
-    '''public ProductSet(final MboServerInterface ms)
+def ():
+    '''returns ProductSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

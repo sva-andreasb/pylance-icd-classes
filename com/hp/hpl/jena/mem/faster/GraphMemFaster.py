@@ -1,46 +1,54 @@
-def GraphMemFaster():
-    '''public GraphMemFaster()
-    public GraphMemFaster(final ReificationStyle style)
+def ():
+    '''returns GraphMemFasterStatisticsHandler\n\n
+    ()\n
+    (final ReificationStyle style)\n
+    (final FasterTripleStore store, final Reifier reifier)\n
     '''
 def performAdd():
-    '''public void performAdd(final Triple t)
+    '''returns None\n\n
+    performAdd(final Triple t)\n
     '''
 def performDelete():
-    '''public void performDelete(final Triple t)
+    '''returns None\n\n
+    performDelete(final Triple t)\n
     '''
 def graphBaseSize():
-    '''public int graphBaseSize()
+    '''returns int\n\n
+    graphBaseSize()\n
     '''
 def queryHandler():
-    '''public QueryHandler queryHandler()
+    '''returns QueryHandler\n\n
+    queryHandler()\n
     '''
 def graphBaseFind():
-    '''public ExtendedIterator<Triple> graphBaseFind(final TripleMatch m)
+    '''returns ExtendedIterator<Triple>\n\n
+    graphBaseFind(final TripleMatch m)\n
     '''
 def createApplyer():
-    '''public Applyer createApplyer(final ProcessedTriple pt)
-    '''
-def matchesReification():
-    '''public static boolean matchesReification(final QueryTriple pt)
+    '''returns Applyer\n\n
+    createApplyer(final ProcessedTriple pt)\n
     '''
 def applyToTriples():
-    '''public void applyToTriples(final Domain d, final Matcher m, final StageElement next)
+    '''returns None\n\n
+    applyToTriples(final Domain d, final Matcher m, final StageElement next)\n
     '''
 def graphBaseContains():
-    '''public boolean graphBaseContains(final Triple t)
+    '''returns boolean\n\n
+    graphBaseContains(final Triple t)\n
     '''
 def clear():
-    '''public void clear()
-    '''
-def GraphMemFasterStatisticsHandler():
-    '''public GraphMemFasterStatisticsHandler(final FasterTripleStore store, final Reifier reifier)
+    '''returns None\n\n
+    clear()\n
     '''
 def getStatistic():
-    '''public long getStatistic(final Node S, final Node P, final Node O)
+    '''returns long\n\n
+    getStatistic(final Node S, final Node P, final Node O)\n
     '''
 def countsInMap():
-    '''public long countsInMap(final Node a, final NodeToTriplesMapFaster mapA, final Node b, final NodeToTriplesMapFaster mapB)
+    '''returns long\n\n
+    countsInMap(final Node a, final NodeToTriplesMapFaster mapA, final Node b, final NodeToTriplesMapFaster mapB)\n
     '''
 def countInMap():
-    '''public long countInMap(final Node n, final NodeToTriplesMapFaster map)
+    '''returns long\n\n
+    countInMap(final Node n, final NodeToTriplesMapFaster map)\n
     '''

@@ -1,9 +1,12 @@
-def MicSetIn():
-    '''public MicSetIn()
+def ():
+    '''returns MicSetIn\n\n
+    ()\n
     '''
 def processResponse():
-    '''public void processResponse(final StructureData data, final String ifaceName, final Object target, final int action, final UserInfo info, final MXTransaction mxTrans, final Map<String, ?> md)
+    '''returns None\n\n
+    processResponse(final StructureData data, final String ifaceName, final Object target, final int action, final UserInfo info, final MXTransaction mxTrans, final Map<String, ?> md)\n
     '''
 def getSender():
-    '''public String getSender()
+    '''returns String\n\n
+    getSender()\n
     '''

@@ -1,15 +1,20 @@
-def MaximoSequence():
-    '''public MaximoSequence(final Connection con)
+def ():
+    '''returns MaximoSequence\n\n
+    (final Connection con)\n
     '''
 def sequenceNextValueValid():
-    '''public boolean sequenceNextValueValid(final String sequenceName, final Long nextValue)
+    '''returns boolean\n\n
+    sequenceNextValueValid(final String sequenceName, final Long nextValue)\n
     '''
 def getLargestTargetValue():
-    '''public Long getLargestTargetValue(final String sequenceName)
+    '''returns Long\n\n
+    getLargestTargetValue(final String sequenceName)\n
     '''
 def dropSequence():
-    '''public void dropSequence(final String sequenceName)
+    '''returns None\n\n
+    dropSequence(final String sequenceName)\n
     '''
 def createSequence():
-    '''public void createSequence(final String sequenceName, final Long maxReserved)
+    '''returns None\n\n
+    createSequence(final String sequenceName, final Long maxReserved)\n
     '''

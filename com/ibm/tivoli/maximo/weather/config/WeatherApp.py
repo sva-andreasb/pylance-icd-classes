@@ -1,3 +1,4 @@
-def WeatherApp():
-    '''public WeatherApp(final MboSet ms)
+def ():
+    '''returns WeatherApp\n\n
+    (final MboSet ms)\n
     '''

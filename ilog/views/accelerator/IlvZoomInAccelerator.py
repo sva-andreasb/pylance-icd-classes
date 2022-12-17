@@ -1,11 +1,14 @@
-def IlvZoomInAccelerator():
-    '''public IlvZoomInAccelerator(final int n, final int n2, final char c, final int n3, final boolean b)
-    public IlvZoomInAccelerator(final int n, final int n2, final int n3, final boolean b)
-    public IlvZoomInAccelerator(final int n, final int n2, final int n3)
+def ():
+    '''returns IlvZoomInAccelerator\n\n
+    (final int n, final int n2, final char c, final int n3, final boolean b)\n
+    (final int n, final int n2, final int n3, final boolean b)\n
+    (final int n, final int n2, final int n3)\n
     '''
 def getZoomFactor():
-    '''public double getZoomFactor()
+    '''returns double\n\n
+    getZoomFactor()\n
     '''
 def setZoomFactor():
-    '''public void setZoomFactor(final double a)
+    '''returns None\n\n
+    setZoomFactor(final double a)\n
     '''

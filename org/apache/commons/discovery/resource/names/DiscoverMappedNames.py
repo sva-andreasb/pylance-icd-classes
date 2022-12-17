@@ -1,19 +1,21 @@
-def setLog():
-    '''public static void setLog(final Log _log)
-    '''
-def DiscoverMappedNames():
-    '''public DiscoverMappedNames()
+def ():
+    '''returns DiscoverMappedNames\n\n
+    ()\n
     '''
 def map():
-    '''public void map(final String fromName, final String toName)
-    public void map(final String fromName, final String[] toNames)
+    '''returns None\n\n
+    map(final String fromName, final String toName)\n
+    map(final String fromName, final String[] toNames)\n
     '''
 def findResourceNames():
-    '''public ResourceNameIterator findResourceNames(final String resourceName)
+    '''returns ResourceNameIterator\n\n
+    findResourceNames(final String resourceName)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def nextResourceName():
-    '''public String nextResourceName()
+    '''returns String\n\n
+    nextResourceName()\n
     '''

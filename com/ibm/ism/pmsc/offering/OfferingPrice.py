@@ -1,24 +1,32 @@
-def OfferingPrice():
-    '''public OfferingPrice()
+def ():
+    '''returns OfferingPrice\n\n
+    ()\n
     '''
 def getRecurringPrice():
-    '''public double getRecurringPrice()
+    '''returns double\n\n
+    getRecurringPrice()\n
     '''
 def setRecurringPrice():
-    '''public void setRecurringPrice(final double recurringPrice)
+    '''returns None\n\n
+    setRecurringPrice(final double recurringPrice)\n
     '''
 def getOneTimePrice():
-    '''public double getOneTimePrice()
+    '''returns double\n\n
+    getOneTimePrice()\n
     '''
 def setOneTimePrice():
-    '''public void setOneTimePrice(final double oneTimePrice)
+    '''returns None\n\n
+    setOneTimePrice(final double oneTimePrice)\n
     '''
 def getCurrency():
-    '''public String getCurrency()
+    '''returns String\n\n
+    getCurrency()\n
     '''
 def setCurrency():
-    '''public void setCurrency(final String currency)
+    '''returns None\n\n
+    setCurrency(final String currency)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

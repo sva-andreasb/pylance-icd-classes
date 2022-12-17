@@ -1,9 +1,12 @@
-def AssignAuthorizedCIBean():
-    '''public AssignAuthorizedCIBean()
+def ():
+    '''returns AssignAuthorizedCIBean\n\n
+    ()\n
     '''
 def REFRESHLIST():
-    '''public int REFRESHLIST()
+    '''returns int\n\n
+    REFRESHLIST()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''

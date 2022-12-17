@@ -1,39 +1,52 @@
-def AgentChatSession():
-    '''public AgentChatSession(final Date date, final long duration, final String visitorsName, final String visitorsEmail, final String sessionID, final String question)
+def ():
+    '''returns AgentChatSession\n\n
+    (final Date date, final long duration, final String visitorsName, final String visitorsEmail, final String sessionID, final String question)\n
     '''
 def getStartDate():
-    '''public Date getStartDate()
+    '''returns Date\n\n
+    getStartDate()\n
     '''
 def setStartDate():
-    '''public void setStartDate(final Date startDate)
+    '''returns None\n\n
+    setStartDate(final Date startDate)\n
     '''
 def getDuration():
-    '''public long getDuration()
+    '''returns long\n\n
+    getDuration()\n
     '''
 def setDuration():
-    '''public void setDuration(final long duration)
+    '''returns None\n\n
+    setDuration(final long duration)\n
     '''
 def getVisitorsName():
-    '''public String getVisitorsName()
+    '''returns String\n\n
+    getVisitorsName()\n
     '''
 def setVisitorsName():
-    '''public void setVisitorsName(final String visitorsName)
+    '''returns None\n\n
+    setVisitorsName(final String visitorsName)\n
     '''
 def getVisitorsEmail():
-    '''public String getVisitorsEmail()
+    '''returns String\n\n
+    getVisitorsEmail()\n
     '''
 def setVisitorsEmail():
-    '''public void setVisitorsEmail(final String visitorsEmail)
+    '''returns None\n\n
+    setVisitorsEmail(final String visitorsEmail)\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def setSessionID():
-    '''public void setSessionID(final String sessionID)
+    '''returns None\n\n
+    setSessionID(final String sessionID)\n
     '''
 def setQuestion():
-    '''public void setQuestion(final String question)
+    '''returns None\n\n
+    setQuestion(final String question)\n
     '''
 def getQuestion():
-    '''public String getQuestion()
+    '''returns String\n\n
+    getQuestion()\n
     '''

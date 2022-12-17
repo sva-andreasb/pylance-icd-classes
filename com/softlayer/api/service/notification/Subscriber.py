@@ -1,123 +1,164 @@
 def getDeliveryMethods():
-    '''public List<Method> getDeliveryMethods()
+    '''returns List<Method>\n\n
+    getDeliveryMethods()\n
     '''
 def getNotification():
-    '''public Notification getNotification()
+    '''returns Notification\n\n
+    getNotification()\n
     '''
 def setNotification():
-    '''public void setNotification(final Notification notification)
+    '''returns None\n\n
+    setNotification(final Notification notification)\n
     '''
 def getActive():
-    '''public Long getActive()
+    '''returns Long\n\n
+    getActive()\n
     '''
 def setActive():
-    '''public void setActive(final Long active)
+    '''returns None\n\n
+    setActive(final Long active)\n
     '''
 def isActiveSpecified():
-    '''public boolean isActiveSpecified()
+    '''returns boolean\n\n
+    isActiveSpecified()\n
     '''
 def unsetActive():
-    '''public void unsetActive()
+    '''returns None\n\n
+    unsetActive()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getNotificationId():
-    '''public Long getNotificationId()
+    '''returns Long\n\n
+    getNotificationId()\n
     '''
 def setNotificationId():
-    '''public void setNotificationId(final Long notificationId)
+    '''returns None\n\n
+    setNotificationId(final Long notificationId)\n
     '''
 def isNotificationIdSpecified():
-    '''public boolean isNotificationIdSpecified()
+    '''returns boolean\n\n
+    isNotificationIdSpecified()\n
     '''
 def unsetNotificationId():
-    '''public void unsetNotificationId()
+    '''returns None\n\n
+    unsetNotificationId()\n
     '''
 def getNotificationSubscriberTypeId():
-    '''public Long getNotificationSubscriberTypeId()
+    '''returns Long\n\n
+    getNotificationSubscriberTypeId()\n
     '''
 def setNotificationSubscriberTypeId():
-    '''public void setNotificationSubscriberTypeId(final Long notificationSubscriberTypeId)
+    '''returns None\n\n
+    setNotificationSubscriberTypeId(final Long notificationSubscriberTypeId)\n
     '''
 def isNotificationSubscriberTypeIdSpecified():
-    '''public boolean isNotificationSubscriberTypeIdSpecified()
+    '''returns boolean\n\n
+    isNotificationSubscriberTypeIdSpecified()\n
     '''
 def unsetNotificationSubscriberTypeId():
-    '''public void unsetNotificationSubscriberTypeId()
+    '''returns None\n\n
+    unsetNotificationSubscriberTypeId()\n
     '''
 def getNotificationSubscriberTypeResourceId():
-    '''public Long getNotificationSubscriberTypeResourceId()
+    '''returns Long\n\n
+    getNotificationSubscriberTypeResourceId()\n
     '''
 def setNotificationSubscriberTypeResourceId():
-    '''public void setNotificationSubscriberTypeResourceId(final Long notificationSubscriberTypeResourceId)
+    '''returns None\n\n
+    setNotificationSubscriberTypeResourceId(final Long notificationSubscriberTypeResourceId)\n
     '''
 def isNotificationSubscriberTypeResourceIdSpecified():
-    '''public boolean isNotificationSubscriberTypeResourceIdSpecified()
+    '''returns boolean\n\n
+    isNotificationSubscriberTypeResourceIdSpecified()\n
     '''
 def unsetNotificationSubscriberTypeResourceId():
-    '''public void unsetNotificationSubscriberTypeResourceId()
+    '''returns None\n\n
+    unsetNotificationSubscriberTypeResourceId()\n
     '''
 def getDeliveryMethodCount():
-    '''public Long getDeliveryMethodCount()
+    '''returns Long\n\n
+    getDeliveryMethodCount()\n
     '''
 def setDeliveryMethodCount():
-    '''public void setDeliveryMethodCount(final Long deliveryMethodCount)
+    '''returns None\n\n
+    setDeliveryMethodCount(final Long deliveryMethodCount)\n
     '''
 def active():
-    '''public Mask active()
+    '''returns Mask\n\n
+    active()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def notificationId():
-    '''public Mask notificationId()
+    '''returns Mask\n\n
+    notificationId()\n
     '''
 def notificationSubscriberTypeId():
-    '''public Mask notificationSubscriberTypeId()
+    '''returns Mask\n\n
+    notificationSubscriberTypeId()\n
     '''
 def notificationSubscriberTypeResourceId():
-    '''public Mask notificationSubscriberTypeResourceId()
+    '''returns Mask\n\n
+    notificationSubscriberTypeResourceId()\n
     '''
 def deliveryMethodCount():
-    '''public Mask deliveryMethodCount()
+    '''returns Mask\n\n
+    deliveryMethodCount()\n
     '''

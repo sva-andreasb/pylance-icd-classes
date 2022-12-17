@@ -1,59 +1,57 @@
-def getInstance():
-    '''public static final IoTServicesCache getInstance()
-    '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getAllIoTServices():
-    '''public Map getAllIoTServices()
+    '''returns Map\n\n
+    getAllIoTServices()\n
     '''
 def getDefaultHistorian():
-    '''public String getDefaultHistorian()
+    '''returns String\n\n
+    getDefaultHistorian()\n
     '''
 def getDefaultHistorianProcessor():
-    '''public String getDefaultHistorianProcessor()
+    '''returns String\n\n
+    getDefaultHistorianProcessor()\n
     '''
 def getDefaultHistorianEndPoint():
-    '''public String getDefaultHistorianEndPoint()
+    '''returns String\n\n
+    getDefaultHistorianEndPoint()\n
     '''
 def getDefaultHistorianIotServiceName():
-    '''public String getDefaultHistorianIotServiceName()
+    '''returns String\n\n
+    getDefaultHistorianIotServiceName()\n
     '''
 def getAllServicesList():
-    '''public List getAllServicesList()
+    '''returns List\n\n
+    getAllServicesList()\n
     '''
 def getActiveServiceName():
-    '''public String getActiveServiceName()
+    '''returns String\n\n
+    getActiveServiceName()\n
     '''
 def getJsonResourceForActiveService():
-    '''public String getJsonResourceForActiveService()
-    '''
-def getPayloadPropsForAllServices():
-    '''public Map<String, Map<String, String>> getPayloadPropsForAllServices()
-    '''
-def getPayloadProps():
-    '''public Map<String, String> getPayloadProps(final String service)
-    public Map<String, String> getPayloadProps(final String service, final String usedby)
+    '''returns String\n\n
+    getJsonResourceForActiveService()\n
     '''
 def getPayloadPropsUsedBy():
-    '''public IoTPayloadPropsInfo getPayloadPropsUsedBy(final String service, final String property)
+    '''returns IoTPayloadPropsInfo\n\n
+    getPayloadPropsUsedBy(final String service, final String property)\n
     '''
 def isServiceActive():
-    '''public boolean isServiceActive(final String servicename)
+    '''returns boolean\n\n
+    isServiceActive(final String servicename)\n
     '''
 def getIoTService():
-    '''public IoTServicesInfo getIoTService(final String servicename)
-    '''
-def getDeviceTypeInfoForActiveService():
-    '''public Map<String, IoTServiceDeviceTypeInfo> getDeviceTypeInfoForActiveService()
-    '''
-def getAllEndPointInfo():
-    '''public Map<String, List<IoTRestEndPointsInfo>> getAllEndPointInfo()
+    '''returns IoTServicesInfo\n\n
+    getIoTService(final String servicename)\n
     '''
 def getEndPointInfo():
-    '''public List<IoTRestEndPointsInfo> getEndPointInfo(final String servicename)
-    public IoTRestEndPointsInfo getEndPointInfo(final String servicename, final String usedwith)
+    '''returns IoTRestEndPointsInfo\n\n
+    getEndPointInfo(final String servicename)\n
+    getEndPointInfo(final String servicename, final String usedwith)\n
     '''
 def getEndPointValue():
-    '''public String getEndPointValue(final String servicename, final String usedwith)
+    '''returns String\n\n
+    getEndPointValue(final String servicename, final String usedwith)\n
     '''

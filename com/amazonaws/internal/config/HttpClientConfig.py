@@ -1,9 +1,12 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def getRegionMetadataServiceName():
-    '''public String getRegionMetadataServiceName()
+    '''returns String\n\n
+    getRegionMetadataServiceName()\n
     '''

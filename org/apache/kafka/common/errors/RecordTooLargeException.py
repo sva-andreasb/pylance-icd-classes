@@ -1,10 +1,8 @@
-def RecordTooLargeException():
-    '''public RecordTooLargeException()
-    public RecordTooLargeException(final String message, final Throwable cause)
-    public RecordTooLargeException(final String message)
-    public RecordTooLargeException(final Throwable cause)
-    public RecordTooLargeException(final String message, final Map<TopicPartition, Long> recordTooLargePartitions)
-    '''
-def recordTooLargePartitions():
-    '''public Map<TopicPartition, Long> recordTooLargePartitions()
+def ():
+    '''returns RecordTooLargeException\n\n
+    ()\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Map<TopicPartition, Long> recordTooLargePartitions)\n
     '''

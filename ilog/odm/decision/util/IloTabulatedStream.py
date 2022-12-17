@@ -3,19 +3,24 @@ PROP_EQ = "String  \" = \""
 PROP_SEP = "String  \", \""
 NULL_VALUE = "String  \"null\""
 ELLIPSIS = "String  \"[...]\""
-def IloTabulatedStream():
-    '''public IloTabulatedStream(final OutputStream arg0)
-    public IloTabulatedStream(final OutputStream arg0, final boolean arg1)
+def ():
+    '''returns IloTabulatedStream\n\n
+    (final OutputStream arg0)\n
+    (final OutputStream arg0, final boolean arg1)\n
     '''
 def incrIndent():
-    '''public void incrIndent()
+    '''returns None\n\n
+    incrIndent()\n
     '''
 def decrIndent():
-    '''public void decrIndent()
+    '''returns None\n\n
+    decrIndent()\n
     '''
 def print():
-    '''public void print(final String s, final int formatSz)
+    '''returns None\n\n
+    print(final String s, final int formatSz)\n
     '''
 def indent():
-    '''public IloTabulatedStream indent()
+    '''returns IloTabulatedStream\n\n
+    indent()\n
     '''

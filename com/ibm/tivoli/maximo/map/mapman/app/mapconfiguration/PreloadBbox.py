@@ -1,40 +1,53 @@
-def PreloadBbox():
-    '''public PreloadBbox()
-    public PreloadBbox(final String areaName, final Integer initialZoom, final Integer finalZoom, final List<Float> extent, final String spatialReference)
+def ():
+    '''returns PreloadBbox\n\n
+    ()\n
+    (final String areaName, final Integer initialZoom, final Integer finalZoom, final List<Float> extent, final String spatialReference)\n
     '''
 def getAreaId():
-    '''public Long getAreaId()
+    '''returns Long\n\n
+    getAreaId()\n
     '''
 def setAreaId():
-    '''public void setAreaId(final Long areaId)
+    '''returns None\n\n
+    setAreaId(final Long areaId)\n
     '''
 def getAreaName():
-    '''public String getAreaName()
+    '''returns String\n\n
+    getAreaName()\n
     '''
 def setAreaName():
-    '''public void setAreaName(final String areaName)
+    '''returns None\n\n
+    setAreaName(final String areaName)\n
     '''
 def getInitialZoom():
-    '''public Integer getInitialZoom()
+    '''returns Integer\n\n
+    getInitialZoom()\n
     '''
 def setInitialZoom():
-    '''public void setInitialZoom(final Integer initialZoom)
+    '''returns None\n\n
+    setInitialZoom(final Integer initialZoom)\n
     '''
 def getFinalZoom():
-    '''public Integer getFinalZoom()
+    '''returns Integer\n\n
+    getFinalZoom()\n
     '''
 def setFinalZoom():
-    '''public void setFinalZoom(final Integer finalZoom)
+    '''returns None\n\n
+    setFinalZoom(final Integer finalZoom)\n
     '''
 def getExtent():
-    '''public List<Float> getExtent()
+    '''returns List<Float>\n\n
+    getExtent()\n
     '''
 def setExtent():
-    '''public void setExtent(final List<Float> extent)
+    '''returns None\n\n
+    setExtent(final List<Float> extent)\n
     '''
 def getSpatialReference():
-    '''public String getSpatialReference()
+    '''returns String\n\n
+    getSpatialReference()\n
     '''
 def setSpatialReference():
-    '''public void setSpatialReference(final String spatialReference)
+    '''returns None\n\n
+    setSpatialReference(final String spatialReference)\n
     '''

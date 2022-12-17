@@ -1,77 +1,102 @@
 def startDiscovery():
-    '''public void startDiscovery(final RunDefinition runDef, final String runName)
-    public void startDiscovery(final Guid[] guidList, final String runName)
-    public void startDiscovery(final String[] scope, final String runName)
+    '''returns None\n\n
+    startDiscovery(final RunDefinition runDef, final String runName)\n
+    startDiscovery(final Guid[] guidList, final String runName)\n
+    startDiscovery(final String[] scope, final String runName)\n
     '''
 def abortDiscovery():
-    '''public void abortDiscovery()
+    '''returns None\n\n
+    abortDiscovery()\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def rebuildTopology():
-    '''public void rebuildTopology()
+    '''returns None\n\n
+    rebuildTopology()\n
     '''
 def gcTopology():
-    '''public void gcTopology()
+    '''returns None\n\n
+    gcTopology()\n
     '''
 def clearTopology():
-    '''public void clearTopology()
+    '''returns None\n\n
+    clearTopology()\n
     '''
 def synchScopes():
-    '''public void synchScopes()
+    '''returns None\n\n
+    synchScopes()\n
     '''
 def setAnchorHosts():
-    '''public void setAnchorHosts(final String[] hosts)
+    '''returns None\n\n
+    setAnchorHosts(final String[] hosts)\n
     '''
 def setAnchorPort():
-    '''public void setAnchorPort(final int port)
+    '''returns None\n\n
+    setAnchorPort(final int port)\n
     '''
 def getAnchorHosts():
-    '''public String[] getAnchorHosts()
+    '''returns String[]\n\n
+    getAnchorHosts()\n
     '''
 def getAnchorPort():
-    '''public int getAnchorPort()
+    '''returns int\n\n
+    getAnchorPort()\n
     '''
 def createVersion():
-    '''public long createVersion(final String name, final String description)
+    '''returns long\n\n
+    createVersion(final String name, final String description)\n
     '''
 def createEmptyVersion():
-    '''public long createEmptyVersion(final String name, final String description)
+    '''returns long\n\n
+    createEmptyVersion(final String name, final String description)\n
     '''
 def deleteVersion():
-    '''public void deleteVersion(final long versionID)
+    '''returns None\n\n
+    deleteVersion(final long versionID)\n
     '''
 def getAllVersions():
-    '''public TopologyVersion[] getAllVersions()
+    '''returns TopologyVersion[]\n\n
+    getAllVersions()\n
     '''
 def disableDiscovery():
-    '''public void disableDiscovery()
+    '''returns None\n\n
+    disableDiscovery()\n
     '''
 def disableEvents():
-    '''public void disableEvents()
+    '''returns None\n\n
+    disableEvents()\n
     '''
 def enableDiscovery():
-    '''public void enableDiscovery()
+    '''returns None\n\n
+    enableDiscovery()\n
     '''
 def enableEvents():
-    '''public void enableEvents()
+    '''returns None\n\n
+    enableEvents()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def processChanges():
-    '''public void processChanges()
+    '''returns None\n\n
+    processChanges()\n
     '''
 def startBulkload():
-    '''public long startBulkload(final long timeoutInSeconds)
+    '''returns long\n\n
+    startBulkload(final long timeoutInSeconds)\n
     '''
 def endBulkload():
-    '''public void endBulkload(final long transactionId)
+    '''returns None\n\n
+    endBulkload(final long transactionId)\n
     '''
 def registerLocale():
-    '''public void registerLocale(final Locale locale)
+    '''returns None\n\n
+    registerLocale(final Locale locale)\n
     '''
 def unregisterLocale():
-    '''public void unregisterLocale()
+    '''returns None\n\n
+    unregisterLocale()\n
     '''

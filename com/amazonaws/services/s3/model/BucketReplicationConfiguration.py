@@ -1,33 +1,40 @@
-def BucketReplicationConfiguration():
-    '''public BucketReplicationConfiguration()
+def ():
+    '''returns BucketReplicationConfiguration\n\n
+    ()\n
     '''
 def getRoleARN():
-    '''public String getRoleARN()
+    '''returns String\n\n
+    getRoleARN()\n
     '''
 def setRoleARN():
-    '''public void setRoleARN(final String roleARN)
+    '''returns None\n\n
+    setRoleARN(final String roleARN)\n
     '''
 def withRoleARN():
-    '''public BucketReplicationConfiguration withRoleARN(final String roleARN)
-    '''
-def getRules():
-    '''public Map<String, ReplicationRule> getRules()
+    '''returns BucketReplicationConfiguration\n\n
+    withRoleARN(final String roleARN)\n
     '''
 def getRule():
-    '''public ReplicationRule getRule(final String id)
+    '''returns ReplicationRule\n\n
+    getRule(final String id)\n
     '''
 def setRules():
-    '''public void setRules(final Map<String, ReplicationRule> rules)
+    '''returns None\n\n
+    setRules(final Map<String, ReplicationRule> rules)\n
     '''
 def withRules():
-    '''public BucketReplicationConfiguration withRules(final Map<String, ReplicationRule> rules)
+    '''returns BucketReplicationConfiguration\n\n
+    withRules(final Map<String, ReplicationRule> rules)\n
     '''
 def addRule():
-    '''public BucketReplicationConfiguration addRule(final String id, final ReplicationRule rule)
+    '''returns BucketReplicationConfiguration\n\n
+    addRule(final String id, final ReplicationRule rule)\n
     '''
 def removeRule():
-    '''public BucketReplicationConfiguration removeRule(final String id)
+    '''returns BucketReplicationConfiguration\n\n
+    removeRule(final String id)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

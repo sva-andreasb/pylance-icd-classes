@@ -1,3 +1,4 @@
-def MaxEndPointTest():
-    '''public MaxEndPointTest(final MboSet ms)
+def ():
+    '''returns MaxEndPointTest\n\n
+    (final MboSet ms)\n
     '''

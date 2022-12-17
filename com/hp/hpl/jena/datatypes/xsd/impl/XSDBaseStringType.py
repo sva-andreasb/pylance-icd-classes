@@ -1,7 +1,9 @@
-def XSDBaseStringType():
-    '''public XSDBaseStringType(final String typeName)
-    public XSDBaseStringType(final String typeName, final Class<?> javaClass)
+def ():
+    '''returns XSDBaseStringType\n\n
+    (final String typeName)\n
+    (final String typeName, final Class<?> javaClass)\n
     '''
 def isEqual():
-    '''public boolean isEqual(final LiteralLabel value1, final LiteralLabel value2)
+    '''returns boolean\n\n
+    isEqual(final LiteralLabel value1, final LiteralLabel value2)\n
     '''

@@ -1,9 +1,12 @@
-def AlternateAvailData():
-    '''public AlternateAvailData(final List<DateRangeWithValue> availLoadRangeList, final double defaultValue)
+def ():
+    '''returns AlternateAvailData\n\n
+    (final List<DateRangeWithValue> availLoadRangeList, final double defaultValue)\n
     '''
 def getAvailLoadRangeList():
-    '''public List<DateRangeWithValue> getAvailLoadRangeList()
+    '''returns List<DateRangeWithValue>\n\n
+    getAvailLoadRangeList()\n
     '''
 def getDefaultValue():
-    '''public double getDefaultValue()
+    '''returns double\n\n
+    getDefaultValue()\n
     '''

@@ -1,24 +1,24 @@
-def compile():
-    '''public static SimpleFormatter compile(final CharSequence pattern)
-    '''
-def compileMinMaxArguments():
-    '''public static SimpleFormatter compileMinMaxArguments(final CharSequence pattern, final int min, final int max)
-    '''
 def getArgumentLimit():
-    '''public int getArgumentLimit()
+    '''returns int\n\n
+    getArgumentLimit()\n
     '''
 def format():
-    '''public String format(final CharSequence... values)
+    '''returns String\n\n
+    format(final CharSequence... values)\n
     '''
 def formatAndAppend():
-    '''public StringBuilder formatAndAppend(final StringBuilder appendTo, final int[] offsets, final CharSequence... values)
+    '''returns StringBuilder\n\n
+    formatAndAppend(final StringBuilder appendTo, final int[] offsets, final CharSequence... values)\n
     '''
 def formatAndReplace():
-    '''public StringBuilder formatAndReplace(final StringBuilder result, final int[] offsets, final CharSequence... values)
+    '''returns StringBuilder\n\n
+    formatAndReplace(final StringBuilder result, final int[] offsets, final CharSequence... values)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getTextWithNoArguments():
-    '''public String getTextWithNoArguments()
+    '''returns String\n\n
+    getTextWithNoArguments()\n
     '''

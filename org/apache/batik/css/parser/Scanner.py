@@ -1,38 +1,50 @@
-def Scanner():
-    '''public Scanner(final Reader r)
-    public Scanner(final InputStream is, final String enc)
-    public Scanner(final String s)
+def ():
+    '''returns Scanner\n\n
+    (final Reader r)\n
+    (final InputStream is, final String enc)\n
+    (final String s)\n
     '''
 def getLine():
-    '''public int getLine()
+    '''returns int\n\n
+    getLine()\n
     '''
 def getColumn():
-    '''public int getColumn()
+    '''returns int\n\n
+    getColumn()\n
     '''
 def getBuffer():
-    '''public char[] getBuffer()
+    '''returns char[]\n\n
+    getBuffer()\n
     '''
 def getStart():
-    '''public int getStart()
+    '''returns int\n\n
+    getStart()\n
     '''
 def getEnd():
-    '''public int getEnd()
+    '''returns int\n\n
+    getEnd()\n
     '''
 def clearBuffer():
-    '''public void clearBuffer()
+    '''returns None\n\n
+    clearBuffer()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getStringValue():
-    '''public String getStringValue()
+    '''returns String\n\n
+    getStringValue()\n
     '''
 def scanAtRule():
-    '''public void scanAtRule()
+    '''returns None\n\n
+    scanAtRule()\n
     '''
 def next():
-    '''public int next()
+    '''returns int\n\n
+    next()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

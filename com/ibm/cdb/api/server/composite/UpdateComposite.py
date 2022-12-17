@@ -1,9 +1,8 @@
-def main():
-    '''public static void main(final String[] args)
-    '''
-def UpdateComposite():
-    '''public UpdateComposite(final TopologyManager tm)
+def ():
+    '''returns UpdateComposite\n\n
+    (final TopologyManager tm)\n
     '''
 def update():
-    '''public Guid update(final Composite composite)
+    '''returns Guid\n\n
+    update(final Composite composite)\n
     '''

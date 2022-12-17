@@ -1,17 +1,22 @@
-def SPNegoSchemeFactory():
-    '''public SPNegoSchemeFactory(final boolean stripPort, final boolean useCanonicalHostname)
-    public SPNegoSchemeFactory(final boolean stripPort)
-    public SPNegoSchemeFactory()
+def ():
+    '''returns SPNegoSchemeFactory\n\n
+    (final boolean stripPort, final boolean useCanonicalHostname)\n
+    (final boolean stripPort)\n
+    ()\n
     '''
 def isStripPort():
-    '''public boolean isStripPort()
+    '''returns boolean\n\n
+    isStripPort()\n
     '''
 def isUseCanonicalHostname():
-    '''public boolean isUseCanonicalHostname()
+    '''returns boolean\n\n
+    isUseCanonicalHostname()\n
     '''
 def newInstance():
-    '''public AuthScheme newInstance(final HttpParams params)
+    '''returns AuthScheme\n\n
+    newInstance(final HttpParams params)\n
     '''
 def create():
-    '''public AuthScheme create(final HttpContext context)
+    '''returns AuthScheme\n\n
+    create(final HttpContext context)\n
     '''

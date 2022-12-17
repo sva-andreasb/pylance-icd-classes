@@ -1,48 +1,56 @@
-def TIFFEncodeParam():
-    '''public TIFFEncodeParam()
+def ():
+    '''returns TIFFEncodeParam\n\n
+    ()\n
     '''
 def getCompression():
-    '''public CompressionValue getCompression()
+    '''returns CompressionValue\n\n
+    getCompression()\n
     '''
 def setCompression():
-    '''public void setCompression(final CompressionValue compression)
+    '''returns None\n\n
+    setCompression(final CompressionValue compression)\n
     '''
 def getWriteTiled():
-    '''public boolean getWriteTiled()
+    '''returns boolean\n\n
+    getWriteTiled()\n
     '''
 def setWriteTiled():
-    '''public void setWriteTiled(final boolean writeTiled)
+    '''returns None\n\n
+    setWriteTiled(final boolean writeTiled)\n
     '''
 def setTileSize():
-    '''public void setTileSize(final int tileWidth, final int tileHeight)
+    '''returns None\n\n
+    setTileSize(final int tileWidth, final int tileHeight)\n
     '''
 def getTileWidth():
-    '''public int getTileWidth()
+    '''returns int\n\n
+    getTileWidth()\n
     '''
 def getTileHeight():
-    '''public int getTileHeight()
-    '''
-def setExtraImages():
-    '''public synchronized void setExtraImages(final Iterator extraImages)
-    '''
-def getExtraImages():
-    '''public synchronized Iterator getExtraImages()
+    '''returns int\n\n
+    getTileHeight()\n
     '''
 def setDeflateLevel():
-    '''public void setDeflateLevel(final int deflateLevel)
+    '''returns None\n\n
+    setDeflateLevel(final int deflateLevel)\n
     '''
 def getDeflateLevel():
-    '''public int getDeflateLevel()
+    '''returns int\n\n
+    getDeflateLevel()\n
     '''
 def setJPEGCompressRGBToYCbCr():
-    '''public void setJPEGCompressRGBToYCbCr(final boolean convertJPEGRGBToYCbCr)
+    '''returns None\n\n
+    setJPEGCompressRGBToYCbCr(final boolean convertJPEGRGBToYCbCr)\n
     '''
 def getJPEGCompressRGBToYCbCr():
-    '''public boolean getJPEGCompressRGBToYCbCr()
+    '''returns boolean\n\n
+    getJPEGCompressRGBToYCbCr()\n
     '''
 def setExtraFields():
-    '''public void setExtraFields(final TIFFField[] extraFields)
+    '''returns None\n\n
+    setExtraFields(final TIFFField[] extraFields)\n
     '''
 def getExtraFields():
-    '''public TIFFField[] getExtraFields()
+    '''returns TIFFField[]\n\n
+    getExtraFields()\n
     '''

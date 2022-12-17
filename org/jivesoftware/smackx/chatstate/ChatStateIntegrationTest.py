@@ -1,13 +1,17 @@
-def ChatStateIntegrationTest():
-    '''public ChatStateIntegrationTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns ChatStateIntegrationTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def stateChanged():
-    '''public void stateChanged(final Chat chat, final ChatState state, final Message message)
-    public void stateChanged(final Chat chat, final ChatState state, final Message message)
+    '''returns None\n\n
+    stateChanged(final Chat chat, final ChatState state, final Message message)\n
+    stateChanged(final Chat chat, final ChatState state, final Message message)\n
     '''
 def testChatStateListeners():
-    '''public void testChatStateListeners()
+    '''returns None\n\n
+    testChatStateListeners()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''

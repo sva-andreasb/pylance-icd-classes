@@ -1,3 +1,4 @@
-def LMOAttSet():
-    '''public LMOAttSet(final MboServerInterface ms)
+def ():
+    '''returns LMOAttSet\n\n
+    (final MboServerInterface ms)\n
     '''

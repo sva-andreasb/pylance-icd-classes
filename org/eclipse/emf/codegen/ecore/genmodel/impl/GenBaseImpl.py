@@ -1,97 +1,111 @@
 def getGenModel():
-    '''public GenModel getGenModel()
+    '''returns GenModel\n\n
+    getGenModel()\n
     '''
 def capName():
-    '''public String capName(final String name)
+    '''returns String\n\n
+    capName(final String name)\n
     '''
 def uncapName():
-    '''public String uncapName(final String name)
+    '''returns String\n\n
+    uncapName(final String name)\n
     '''
 def uncapPrefixedName():
-    '''public String uncapPrefixedName(final String name)
-    public String uncapPrefixedName(final String name, final boolean forceDifferent)
+    '''returns String\n\n
+    uncapPrefixedName(final String name)\n
+    uncapPrefixedName(final String name, final boolean forceDifferent)\n
     '''
 def safeName():
-    '''public String safeName(final String name)
+    '''returns String\n\n
+    safeName(final String name)\n
     '''
 def canGenerate():
-    '''public boolean canGenerate()
+    '''returns boolean\n\n
+    canGenerate()\n
     '''
 def generate():
-    '''public void generate(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generate(final IProgressMonitor progressMonitor)\n
     '''
 def format():
-    '''public String format(final String name, final char separator, final String prefix, final boolean includePrefix)
+    '''returns String\n\n
+    format(final String name, final char separator, final String prefix, final boolean includePrefix)\n
     '''
 def findGenPackage():
-    '''public GenPackage findGenPackage(final EPackage ePackage)
+    '''returns GenPackage\n\n
+    findGenPackage(final EPackage ePackage)\n
     '''
 def getModelInfo():
-    '''public String getModelInfo()
+    '''returns String\n\n
+    getModelInfo()\n
     '''
 def canGenerateEdit():
-    '''public boolean canGenerateEdit()
+    '''returns boolean\n\n
+    canGenerateEdit()\n
     '''
 def generateEdit():
-    '''public void generateEdit(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generateEdit(final IProgressMonitor progressMonitor)\n
     '''
 def canGenerateEditor():
-    '''public boolean canGenerateEditor()
+    '''returns boolean\n\n
+    canGenerateEditor()\n
     '''
 def generateEditor():
-    '''public void generateEditor(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generateEditor(final IProgressMonitor progressMonitor)\n
     '''
 def canGenerateSchema():
-    '''public boolean canGenerateSchema()
+    '''returns boolean\n\n
+    canGenerateSchema()\n
     '''
 def generateSchema():
-    '''public void generateSchema(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generateSchema(final IProgressMonitor progressMonitor)\n
     '''
 def canGenerateTests():
-    '''public boolean canGenerateTests()
+    '''returns boolean\n\n
+    canGenerateTests()\n
     '''
 def generateTests():
-    '''public void generateTests(final IProgressMonitor progressMonitor)
+    '''returns None\n\n
+    generateTests(final IProgressMonitor progressMonitor)\n
     '''
 def eURIFragmentSegment():
-    '''public String eURIFragmentSegment(final EStructuralFeature eStructuralFeature, final EObject eObject)
+    '''returns String\n\n
+    eURIFragmentSegment(final EStructuralFeature eStructuralFeature, final EObject eObject)\n
     '''
 def eObjectForURIFragmentSegment():
-    '''public EObject eObjectForURIFragmentSegment(final String uriFragmentSegment)
+    '''returns EObject\n\n
+    eObjectForURIFragmentSegment(final String uriFragmentSegment)\n
     '''
 def hasDocumentation():
-    '''public boolean hasDocumentation()
+    '''returns boolean\n\n
+    hasDocumentation()\n
     '''
 def getDocumentation():
-    '''public String getDocumentation(final String indentation)
+    '''returns String\n\n
+    getDocumentation(final String indentation)\n
     '''
-def AnnotationFilterImpl():
-    '''public AnnotationFilterImpl()
+def ():
+    '''returns ColorInformation\n\n
+    ()\n
+    (final String inputFile)\n
+    ()\n
     '''
 def accept():
-    '''public boolean accept(final EModelElement eModelElement, final String source, final String key, final String value)
+    '''returns boolean\n\n
+    accept(final EModelElement eModelElement, final String source, final String key, final String value)\n
     '''
 def getUniqueName():
-    '''public String getUniqueName(final Object o)
+    '''returns String\n\n
+    getUniqueName(final Object o)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection c)
-    '''
-def contains():
-    '''public final boolean contains(final Object o)
-    '''
-def containsName():
-    '''public final boolean containsName(final String name)
-    '''
-def GIFEmitter():
-    '''public GIFEmitter(final String inputFile)
-    '''
-def ColorInformation():
-    '''public ColorInformation()
-    '''
-def getColor():
-    '''public static ColorInformation getColor(int index)
+    '''returns boolean\n\n
+    addAll(final Collection c)\n
     '''
 def scale():
-    '''public byte scale(final int value, final double factor)
+    '''returns byte\n\n
+    scale(final int value, final double factor)\n
     '''

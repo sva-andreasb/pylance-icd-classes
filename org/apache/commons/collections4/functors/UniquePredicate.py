@@ -1,9 +1,8 @@
-def uniquePredicate():
-    '''public static <T> Predicate<T> uniquePredicate()
-    '''
-def UniquePredicate():
-    '''public UniquePredicate()
+def ():
+    '''returns UniquePredicate\n\n
+    ()\n
     '''
 def evaluate():
-    '''public boolean evaluate(final T object)
+    '''returns boolean\n\n
+    evaluate(final T object)\n
     '''

@@ -1,6 +1,8 @@
-def ProjectManager():
-    '''public ProjectManager()
+def ():
+    '''returns ProjectManager\n\n
+    ()\n
     '''
 def loadProject():
-    '''public Schedule loadProject(final String projectId, final IProjectManagerCallback callback)
+    '''returns Schedule\n\n
+    loadProject(final String projectId, final IProjectManagerCallback callback)\n
     '''

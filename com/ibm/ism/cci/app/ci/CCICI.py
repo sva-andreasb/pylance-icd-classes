@@ -4,112 +4,142 @@ intLinkMethodUI = "String  \"User Interface\""
 intLinkMethodReconciliation = "String  \"Reconciliation\""
 intLinkMethodOther = "String  \"Other\""
 linkRuleCreateGeneric = "String  \"CCIAssetCICreateGeneric\""
-def CCICI():
-    '''public CCICI(final MboSet ms)
+def ():
+    '''returns CCICI\n\n
+    (final MboSet ms)\n
     '''
 def isTopLevel():
-    '''public boolean isTopLevel()
+    '''returns boolean\n\n
+    isTopLevel()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def getDISInfo():
-    '''public DISInfo getDISInfo()
+    '''returns DISInfo\n\n
+    getDISInfo()\n
     '''
 def updateCIAssetLinkInfo():
-    '''public void updateCIAssetLinkInfo(final Date linkDate, final String linkBy, final String linkMethod, final String linkRule, final boolean toUpdateLinkRule)
+    '''returns None\n\n
+    updateCIAssetLinkInfo(final Date linkDate, final String linkBy, final String linkMethod, final String linkRule, final boolean toUpdateLinkRule)\n
     '''
 def syncAuthorizedCI():
-    '''public ArrayList<CCIPromotionResults> syncAuthorizedCI(final long synchronizationOptions)
-    public ArrayList<CCIPromotionResults> syncAuthorizedCI(final long synchronizationOptions, final CCITraversalCache cache)
+    '''returns ArrayList<CCIPromotionResults>\n\n
+    syncAuthorizedCI(final long synchronizationOptions)\n
+    syncAuthorizedCI(final long synchronizationOptions, final CCITraversalCache cache)\n
     '''
 def copyAttributeFromActualCI():
-    '''public void copyAttributeFromActualCI(final CISpecRemote ciSpec)
+    '''returns None\n\n
+    copyAttributeFromActualCI(final CISpecRemote ciSpec)\n
     '''
 def getSpecificationAttribute():
-    '''public SpecificationMboRemote getSpecificationAttribute(final String assetAttrID)
+    '''returns SpecificationMboRemote\n\n
+    getSpecificationAttribute(final String assetAttrID)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
-    public void delete(final boolean dontCheckoptherApps, final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
+    delete(final boolean dontCheckoptherApps, final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date asOfDate, final String memo)
-    public void changeStatus(final String status, final Date asOfDate, final String memo, final boolean childFlag)
+    '''returns None\n\n
+    changeStatus(final String status, final Date asOfDate, final String memo)\n
+    changeStatus(final String status, final Date asOfDate, final String memo, final boolean childFlag)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def getSourceRelations():
-    '''public MboSetRemote getSourceRelations(final Date asOf)
-    public MboSetRemote getSourceRelations()
+    '''returns MboSetRemote\n\n
+    getSourceRelations(final Date asOf)\n
+    getSourceRelations()\n
     '''
 def getTargetRelations():
-    '''public MboSetRemote getTargetRelations(final Date asOf)
-    public MboSetRemote getTargetRelations()
+    '''returns MboSetRemote\n\n
+    getTargetRelations(final Date asOf)\n
+    getTargetRelations()\n
     '''
 def handleRFC():
-    '''public void handleRFC(final MboRemote parentCI)
+    '''returns None\n\n
+    handleRFC(final MboRemote parentCI)\n
     '''
 def generateSpecSet():
-    '''public MboSetRemote generateSpecSet(final CCITraversalCache tc)
+    '''returns MboSetRemote\n\n
+    generateSpecSet(final CCITraversalCache tc)\n
     '''
 def processOldAndNewSpecSets():
-    '''public void processOldAndNewSpecSets(final MboSetRemote oldSpecDeletedSet, final MboSetRemote newSpecSet)
+    '''returns None\n\n
+    processOldAndNewSpecSets(final MboSetRemote oldSpecDeletedSet, final MboSetRemote newSpecSet)\n
     '''
 def sortedClassSpecSet():
-    '''public Vector sortedClassSpecSet(final MboSetRemote classSpecSet, final MboRemote mbo)
+    '''returns Vector\n\n
+    sortedClassSpecSet(final MboSetRemote classSpecSet, final MboRemote mbo)\n
     '''
 def addDetailInfor():
-    '''public void addDetailInfor(final SpecificationMboRemote smr, final MboRemote wo, final CCITraversalCache.ClassSpecInfo csi, final CCITraversalCache.ClassSpecUseWithInfo csuwi)
+    '''returns None\n\n
+    addDetailInfor(final SpecificationMboRemote smr, final MboRemote wo, final CCITraversalCache.ClassSpecInfo csi, final CCITraversalCache.ClassSpecUseWithInfo csuwi)\n
     '''
 def createGenericAsset():
-    '''public boolean createGenericAsset()
-    public boolean createGenericAsset(final String reconTaskName)
-    public boolean createGenericAsset(final boolean isValidateDupDisGuid, final boolean isValidateLinkRule, final LinkValidatorMetaLoader linkRuleMetaLoader)
-    '''
-def clearStatusChangeFields():
-    '''public synchronized void clearStatusChangeFields()
+    '''returns boolean\n\n
+    createGenericAsset()\n
+    createGenericAsset(final String reconTaskName)\n
+    createGenericAsset(final boolean isValidateDupDisGuid, final boolean isValidateLinkRule, final LinkValidatorMetaLoader linkRuleMetaLoader)\n
     '''
 def getDefaultStatus():
-    '''public String getDefaultStatus()
+    '''returns String\n\n
+    getDefaultStatus()\n
     '''
 def changeStatusBypassingChecks():
-    '''public void changeStatusBypassingChecks(final String targetStatus, String memo)
+    '''returns None\n\n
+    changeStatusBypassingChecks(final String targetStatus, String memo)\n
     '''
 def hasServiceAddress():
-    '''public boolean hasServiceAddress()
+    '''returns boolean\n\n
+    hasServiceAddress()\n
     '''
 def saveGISData():
-    '''public void saveGISData(final String address, final String lat, final String lng)
+    '''returns None\n\n
+    saveGISData(final String address, final String lat, final String lng)\n
     '''
 def isGISDataReadonly():
-    '''public boolean isGISDataReadonly()
+    '''returns boolean\n\n
+    isGISDataReadonly()\n
     '''
 def getLatitudeY():
-    '''public Double getLatitudeY()
+    '''returns Double\n\n
+    getLatitudeY()\n
     '''
 def getLongitudeX():
-    '''public Double getLongitudeX()
+    '''returns Double\n\n
+    getLongitudeX()\n
     '''
 def getAddressString():
-    '''public String getAddressString()
+    '''returns String\n\n
+    getAddressString()\n
     '''
 def getSAMboFromAssetLoc():
-    '''public MboRemote getSAMboFromAssetLoc()
+    '''returns MboRemote\n\n
+    getSAMboFromAssetLoc()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def getServiceAddress():
-    '''public ServiceAddressRemote getServiceAddress()
+    '''returns ServiceAddressRemote\n\n
+    getServiceAddress()\n
     '''
 def hasCoords():
-    '''public Boolean hasCoords()
+    '''returns Boolean\n\n
+    hasCoords()\n
     '''
 def actionOnAssetNumFld():
-    '''public void actionOnAssetNumFld(final MboRemote asset)
+    '''returns None\n\n
+    actionOnAssetNumFld(final MboRemote asset)\n
     '''

@@ -2,174 +2,213 @@ publicIDString = "String  \"-//Sun Microsystems Inc.//DTD JavaHelp HelpSet Versi
 publicIDString_V2 = "String  \"-//Sun Microsystems Inc.//DTD JavaHelp HelpSet Version 2.0//EN\""
 helpBrokerClass = "String  \"helpBroker/class\""
 helpBrokerLoader = "String  \"helpBroker/loader\""
-def HelpSet():
-    '''public HelpSet(final ClassLoader loader)
-    public HelpSet()
-    public HelpSet(final ClassLoader classLoader, final URL helpset)
-    '''
-def findHelpSet():
-    '''public static URL findHelpSet(final ClassLoader classLoader, final String s, final String s2, final Locale locale)
-    public static URL findHelpSet(final ClassLoader classLoader, final String s, final Locale locale)
-    public static URL findHelpSet(final ClassLoader classLoader, final String s)
+def ():
+    '''returns Presentation\n\n
+    (final ClassLoader loader)\n
+    ()\n
+    (final ClassLoader classLoader, final URL helpset)\n
+    ()\n
+    (final String name, final boolean displayViews, final boolean displayViewImages, final Dimension size, final Point location, final String title, final Map.ID imageID, final boolean toolbar, final Vector helpActions)\n
     '''
 def createHelpBroker():
-    '''public HelpBroker createHelpBroker()
-    public HelpBroker createHelpBroker(final String s)
+    '''returns HelpBroker\n\n
+    createHelpBroker()\n
+    createHelpBroker(final String s)\n
     '''
 def add():
-    '''public void add(final HelpSet set)
+    '''returns None\n\n
+    add(final HelpSet set)\n
     '''
 def remove():
-    '''public boolean remove(final HelpSet obj)
+    '''returns boolean\n\n
+    remove(final HelpSet obj)\n
     '''
 def getHelpSets():
-    '''public Enumeration getHelpSets()
+    '''returns Enumeration\n\n
+    getHelpSets()\n
     '''
 def contains():
-    '''public boolean contains(final HelpSet set)
+    '''returns boolean\n\n
+    contains(final HelpSet set)\n
     '''
 def addHelpSetListener():
-    '''public void addHelpSetListener(final HelpSetListener obj)
+    '''returns None\n\n
+    addHelpSetListener(final HelpSetListener obj)\n
     '''
 def removeHelpSetListener():
-    '''public void removeHelpSetListener(final HelpSetListener helpSetListener)
+    '''returns None\n\n
+    removeHelpSetListener(final HelpSetListener helpSetListener)\n
     '''
 def getTitle():
-    '''public String getTitle()
-    public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String s)
+    '''returns None\n\n
+    setTitle(final String s)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setHomeID():
-    '''public void setHomeID(final String s)
+    '''returns None\n\n
+    setHomeID(final String s)\n
     '''
 def getCombinedMap():
-    '''public Map getCombinedMap()
+    '''returns Map\n\n
+    getCombinedMap()\n
     '''
 def getLocalMap():
-    '''public Map getLocalMap()
+    '''returns Map\n\n
+    getLocalMap()\n
     '''
 def setLocalMap():
-    '''public void setLocalMap(final Map map)
+    '''returns None\n\n
+    setLocalMap(final Map map)\n
     '''
 def getHelpSetURL():
-    '''public URL getHelpSetURL()
+    '''returns URL\n\n
+    getHelpSetURL()\n
     '''
 def getLoader():
-    '''public ClassLoader getLoader()
+    '''returns ClassLoader\n\n
+    getLoader()\n
     '''
 def getNavigatorViews():
-    '''public NavigatorView[] getNavigatorViews()
+    '''returns NavigatorView[]\n\n
+    getNavigatorViews()\n
     '''
 def getNavigatorView():
-    '''public NavigatorView getNavigatorView(final String s)
+    '''returns NavigatorView\n\n
+    getNavigatorView(final String s)\n
     '''
 def getPresentations():
-    '''public Presentation[] getPresentations()
+    '''returns Presentation[]\n\n
+    getPresentations()\n
     '''
 def getPresentation():
-    '''public Presentation getPresentation(final String s)
+    '''returns Presentation\n\n
+    getPresentation(final String s)\n
     '''
 def getDefaultPresentation():
-    '''public Presentation getDefaultPresentation()
+    '''returns Presentation\n\n
+    getDefaultPresentation()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def parse():
-    '''public static HelpSet parse(final URL helpset, final ClassLoader classLoader, final HelpSetFactory helpSetFactory)
+    '''returns String\n\n
+    toString()\n
     '''
 def parseInto():
-    '''public void parseInto(final URL url, final HelpSetFactory helpSetFactory)
+    '''returns None\n\n
+    parseInto(final URL url, final HelpSetFactory helpSetFactory)\n
     '''
 def getKeyData():
-    '''public Object getKeyData(final Object o, final String s)
+    '''returns Object\n\n
+    getKeyData(final Object o, final String s)\n
     '''
 def setKeyData():
-    '''public void setKeyData(final Object o, final String key, final Object value)
-    '''
-def DefaultHelpSetFactory():
-    '''public DefaultHelpSetFactory()
+    '''returns None\n\n
+    setKeyData(final Object o, final String key, final Object value)\n
     '''
 def parsingStarted():
-    '''public void parsingStarted(final URL source)
+    '''returns None\n\n
+    parsingStarted(final URL source)\n
     '''
 def processDOCTYPE():
-    '''public void processDOCTYPE(final String s, final String s2, final String s3)
+    '''returns None\n\n
+    processDOCTYPE(final String s, final String s2, final String s3)\n
     '''
 def processPI():
-    '''public void processPI(final HelpSet set, final String s, final String s2)
+    '''returns None\n\n
+    processPI(final HelpSet set, final String s, final String s2)\n
     '''
 def processTitle():
-    '''public void processTitle(final HelpSet set, final String title)
+    '''returns None\n\n
+    processTitle(final HelpSet set, final String title)\n
     '''
 def processHomeID():
-    '''public void processHomeID(final HelpSet set, final String homeID)
+    '''returns None\n\n
+    processHomeID(final HelpSet set, final String homeID)\n
     '''
 def processMapRef():
-    '''public void processMapRef(final HelpSet set, final Hashtable hashtable)
+    '''returns None\n\n
+    processMapRef(final HelpSet set, final Hashtable hashtable)\n
     '''
 def processView():
-    '''public void processView(final HelpSet set, final String s, final String s2, final String s3, final Hashtable hashtable, final String value, Hashtable hashtable2, final Locale locale)
+    '''returns None\n\n
+    processView(final HelpSet set, final String s, final String s2, final String s3, final Hashtable hashtable, final String value, Hashtable hashtable2, final Locale locale)\n
     '''
 def processPresentation():
-    '''public void processPresentation(final HelpSet set, final String s, final boolean b, final boolean b2, final boolean b3, final Dimension dimension, final Point point, final String s2, final String s3, final boolean b4, final Vector vector)
+    '''returns None\n\n
+    processPresentation(final HelpSet set, final String s, final boolean b, final boolean b2, final boolean b3, final Dimension dimension, final Point point, final String s2, final String s3, final boolean b4, final Vector vector)\n
     '''
 def processSubHelpSet():
-    '''public void processSubHelpSet(final HelpSet set, final Hashtable hashtable)
+    '''returns None\n\n
+    processSubHelpSet(final HelpSet set, final Hashtable hashtable)\n
     '''
 def reportMessage():
-    '''public void reportMessage(final String obj, final boolean b)
+    '''returns None\n\n
+    reportMessage(final String obj, final boolean b)\n
     '''
 def listMessages():
-    '''public Enumeration listMessages()
+    '''returns Enumeration\n\n
+    listMessages()\n
     '''
 def parsingEnded():
-    '''public HelpSet parsingEnded(final HelpSet set)
-    '''
-def Presentation():
-    '''public Presentation(final String name, final boolean displayViews, final boolean displayViewImages, final Dimension size, final Point location, final String title, final Map.ID imageID, final boolean toolbar, final Vector helpActions)
+    '''returns HelpSet\n\n
+    parsingEnded(final HelpSet set)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isViewDisplayed():
-    '''public boolean isViewDisplayed()
+    '''returns boolean\n\n
+    isViewDisplayed()\n
     '''
 def isViewImagesDisplayed():
-    '''public boolean isViewImagesDisplayed()
+    '''returns boolean\n\n
+    isViewImagesDisplayed()\n
     '''
 def getSize():
-    '''public Dimension getSize()
+    '''returns Dimension\n\n
+    getSize()\n
     '''
 def getLocation():
-    '''public Point getLocation()
+    '''returns Point\n\n
+    getLocation()\n
     '''
 def isToolbar():
-    '''public boolean isToolbar()
+    '''returns boolean\n\n
+    isToolbar()\n
     '''
 def getHelpActions():
-    '''public Enumeration getHelpActions(final HelpSet set, final Object o)
+    '''returns Enumeration\n\n
+    getHelpActions(final HelpSet set, final Object o)\n
     '''
 def tagFound():
-    '''public void tagFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    tagFound(final ParserEvent parserEvent)\n
     '''
 def piFound():
-    '''public void piFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    piFound(final ParserEvent parserEvent)\n
     '''
 def doctypeFound():
-    '''public void doctypeFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    doctypeFound(final ParserEvent parserEvent)\n
     '''
 def textFound():
-    '''public void textFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    textFound(final ParserEvent parserEvent)\n
     '''
 def errorFound():
-    '''public void errorFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    errorFound(final ParserEvent parserEvent)\n
     '''
 def commentFound():
-    '''public void commentFound(final ParserEvent parserEvent)
+    '''returns None\n\n
+    commentFound(final ParserEvent parserEvent)\n
     '''

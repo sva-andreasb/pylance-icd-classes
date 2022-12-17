@@ -1,30 +1,40 @@
-def DelegationTokenCache():
-    '''public DelegationTokenCache(final Collection<String> scramMechanisms)
+def ():
+    '''returns DelegationTokenCache\n\n
+    (final Collection<String> scramMechanisms)\n
     '''
 def credential():
-    '''public ScramCredential credential(final String mechanism, final String tokenId)
+    '''returns ScramCredential\n\n
+    credential(final String mechanism, final String tokenId)\n
     '''
 def owner():
-    '''public String owner(final String tokenId)
+    '''returns String\n\n
+    owner(final String tokenId)\n
     '''
 def updateCache():
-    '''public void updateCache(final DelegationToken token, final Map<String, ScramCredential> scramCredentialMap)
+    '''returns None\n\n
+    updateCache(final DelegationToken token, final Map<String, ScramCredential> scramCredentialMap)\n
     '''
 def removeCache():
-    '''public void removeCache(final String tokenId)
+    '''returns None\n\n
+    removeCache(final String tokenId)\n
     '''
 def tokenForHmac():
-    '''public TokenInformation tokenForHmac(final String base64hmac)
+    '''returns TokenInformation\n\n
+    tokenForHmac(final String base64hmac)\n
     '''
 def addToken():
-    '''public TokenInformation addToken(final String tokenId, final TokenInformation tokenInfo)
+    '''returns TokenInformation\n\n
+    addToken(final String tokenId, final TokenInformation tokenInfo)\n
     '''
 def removeToken():
-    '''public void removeToken(final String tokenId)
+    '''returns None\n\n
+    removeToken(final String tokenId)\n
     '''
 def tokens():
-    '''public Collection<TokenInformation> tokens()
+    '''returns Collection<TokenInformation>\n\n
+    tokens()\n
     '''
 def token():
-    '''public TokenInformation token(final String tokenId)
+    '''returns TokenInformation\n\n
+    token(final String tokenId)\n
     '''

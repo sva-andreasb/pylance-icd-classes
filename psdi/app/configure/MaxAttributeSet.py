@@ -1,3 +1,4 @@
-def MaxAttributeSet():
-    '''public MaxAttributeSet(final MboServerInterface ms)
+def ():
+    '''returns MaxAttributeSet\n\n
+    (final MboServerInterface ms)\n
     '''

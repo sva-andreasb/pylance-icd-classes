@@ -1,25 +1,25 @@
-def LineContains():
-    '''public LineContains()
-    public LineContains(final Reader in)
+def ():
+    '''returns LineContains\n\n
+    ()\n
+    (final Reader in)\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''
 def addConfiguredContains():
-    '''public void addConfiguredContains(final Contains contains)
+    '''returns None\n\n
+    addConfiguredContains(final Contains contains)\n
     '''
 def setNegate():
-    '''public void setNegate(final boolean b)
+    '''returns None\n\n
+    setNegate(final boolean b)\n
     '''
 def isNegated():
-    '''public boolean isNegated()
+    '''returns boolean\n\n
+    isNegated()\n
     '''
 def chain():
-    '''public Reader chain(final Reader rdr)
-    '''
-def setValue():
-    '''public final void setValue(final String contains)
-    '''
-def getValue():
-    '''public final String getValue()
+    '''returns Reader\n\n
+    chain(final Reader rdr)\n
     '''

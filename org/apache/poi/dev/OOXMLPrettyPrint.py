@@ -1,6 +1,4 @@
-def OOXMLPrettyPrint():
-    '''public OOXMLPrettyPrint()
-    '''
-def main():
-    '''public static void main(final String[] args)
+def ():
+    '''returns OOXMLPrettyPrint\n\n
+    ()\n
     '''

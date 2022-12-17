@@ -1,21 +1,28 @@
-def PRSet():
-    '''public PRSet(final MboServerInterface ms)
+def ():
+    '''returns PRSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getHistory():
-    '''public boolean getHistory()
+    '''returns boolean\n\n
+    getHistory()\n
     '''
 def setHistory():
-    '''public void setHistory(final boolean historyPRs)
+    '''returns None\n\n
+    setHistory(final boolean historyPRs)\n
     '''
 def setCurrent():
-    '''public void setCurrent(final boolean currentPRs)
+    '''returns None\n\n
+    setCurrent(final boolean currentPRs)\n
     '''
 def getCurrent():
-    '''public boolean getCurrent()
+    '''returns boolean\n\n
+    getCurrent()\n
     '''
 def getUserPrefWhere():
-    '''public String getUserPrefWhere()
+    '''returns String\n\n
+    getUserPrefWhere()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

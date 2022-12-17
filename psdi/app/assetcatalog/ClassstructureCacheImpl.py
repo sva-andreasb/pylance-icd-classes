@@ -1,19 +1,25 @@
-def ClassstructureCacheImpl():
-    '''public ClassstructureCacheImpl()
+def ():
+    '''returns ClassstructureCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDescForClassstructureId():
-    '''public String getDescForClassstructureId(final String classstructureid, final UserInfo userInfo)
+    '''returns String\n\n
+    getDescForClassstructureId(final String classstructureid, final UserInfo userInfo)\n
     '''
 def processAPIRequest():
-    '''public void processAPIRequest(final String key, final UserInfo userInfo, final JSONObject jo)
+    '''returns None\n\n
+    processAPIRequest(final String key, final UserInfo userInfo, final JSONObject jo)\n
     '''

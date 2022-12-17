@@ -1,15 +1,20 @@
-def LocationInfo():
-    '''public LocationInfo()
+def ():
+    '''returns LocationInfo\n\n
+    ()\n
     '''
 def hasChildren():
-    '''public boolean hasChildren()
+    '''returns boolean\n\n
+    hasChildren()\n
     '''
 def setChildren():
-    '''public void setChildren(final boolean children)
+    '''returns None\n\n
+    setChildren(final boolean children)\n
     '''
 def gethPaths():
-    '''public List<List<String>> gethPaths()
+    '''returns List<List<String>>\n\n
+    gethPaths()\n
     '''
 def sethPaths():
-    '''public void sethPaths(final List<List<String>> hPath)
+    '''returns None\n\n
+    sethPaths(final List<List<String>> hPath)\n
     '''

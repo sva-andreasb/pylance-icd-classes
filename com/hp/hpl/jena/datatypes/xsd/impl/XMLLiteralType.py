@@ -1,22 +1,29 @@
 def unparse():
-    '''public String unparse(final Object value)
+    '''returns String\n\n
+    unparse(final Object value)\n
     '''
 def parse():
-    '''public Object parse(final String lexicalForm)
+    '''returns Object\n\n
+    parse(final String lexicalForm)\n
     '''
 def isValid():
-    '''public boolean isValid(final String lexicalForm)
+    '''returns boolean\n\n
+    isValid(final String lexicalForm)\n
     '''
 def fatalError():
-    '''public void fatalError(final SAXParseException e)
+    '''returns None\n\n
+    fatalError(final SAXParseException e)\n
     '''
 def error():
-    '''public void error(final SAXParseException e)
+    '''returns None\n\n
+    error(final SAXParseException e)\n
     '''
 def warning():
-    '''public void warning(final SAXParseException e)
+    '''returns None\n\n
+    warning(final SAXParseException e)\n
     '''
 def statement():
-    '''public void statement(final AResource a, final AResource b, final ALiteral l)
-    public void statement(final AResource a, final AResource b, final AResource l)
+    '''returns None\n\n
+    statement(final AResource a, final AResource b, final ALiteral l)\n
+    statement(final AResource a, final AResource b, final AResource l)\n
     '''

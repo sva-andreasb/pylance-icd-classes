@@ -3,71 +3,82 @@ openGroup = "byte  123"
 closeGroup = "byte  125"
 TWIPSFACTOR = "double  20.0"
 def setGenerateTOCEntries():
-    '''public void setGenerateTOCEntries(final boolean writeTOC)
+    '''returns None\n\n
+    setGenerateTOCEntries(final boolean writeTOC)\n
     '''
 def getGeneratingTOCEntries():
-    '''public boolean getGeneratingTOCEntries()
+    '''returns boolean\n\n
+    getGeneratingTOCEntries()\n
     '''
 def setHasTitlePage():
-    '''public void setHasTitlePage(final boolean hasTitlePage)
+    '''returns None\n\n
+    setHasTitlePage(final boolean hasTitlePage)\n
     '''
 def getHasTitlePage():
-    '''public boolean getHasTitlePage()
+    '''returns boolean\n\n
+    getHasTitlePage()\n
     '''
 def setLandscape():
-    '''public void setLandscape(final boolean landscape)
+    '''returns None\n\n
+    setLandscape(final boolean landscape)\n
     '''
 def getLandscape():
-    '''public boolean getLandscape()
-    '''
-def getInstance():
-    '''public static RtfWriter getInstance(final Document document, final OutputStream os)
+    '''returns boolean\n\n
+    getLandscape()\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def setFooter():
-    '''public void setFooter(final HeaderFooter footer)
+    '''returns None\n\n
+    setFooter(final HeaderFooter footer)\n
     '''
 def setHeader():
-    '''public void setHeader(final HeaderFooter header)
+    '''returns None\n\n
+    setHeader(final HeaderFooter header)\n
     '''
 def resetFooter():
-    '''public void resetFooter()
+    '''returns None\n\n
+    resetFooter()\n
     '''
 def resetHeader():
-    '''public void resetHeader()
+    '''returns None\n\n
+    resetHeader()\n
     '''
 def newPage():
-    '''public boolean newPage()
+    '''returns boolean\n\n
+    newPage()\n
     '''
 def setMargins():
-    '''public boolean setMargins(final float marginLeft, final float marginRight, final float marginTop, final float marginBottom)
+    '''returns boolean\n\n
+    setMargins(final float marginLeft, final float marginRight, final float marginTop, final float marginBottom)\n
     '''
 def setPageSize():
-    '''public boolean setPageSize(final Rectangle pageSize)
+    '''returns boolean\n\n
+    setPageSize(final Rectangle pageSize)\n
     '''
 def writeTOC():
-    '''public boolean writeTOC(final String tocTitle, final Font titleFont, final boolean showTOCasEntry, final Font showTOCEntryFont)
+    '''returns boolean\n\n
+    writeTOC(final String tocTitle, final Font titleFont, final boolean showTOCasEntry, final Font showTOCEntryFont)\n
     '''
 def add():
-    '''public boolean add(final Element element)
-    '''
-def writeInt():
-    '''public static final void writeInt(final OutputStream out, final int i)
+    '''returns boolean\n\n
+    add(final Element element)\n
     '''
 def writeHeadersFooters():
-    '''public void writeHeadersFooters(final ByteArrayOutputStream os)
+    '''returns None\n\n
+    writeHeadersFooters(final ByteArrayOutputStream os)\n
     '''
 def writingHeaderFooter():
-    '''public boolean writingHeaderFooter()
-    '''
-def filterSpecialChar():
-    '''public static final String filterSpecialChar(final String str, final boolean useHex)
+    '''returns boolean\n\n
+    writingHeaderFooter()\n
     '''
 def setMarginMirroring():
-    '''public boolean setMarginMirroring(final boolean MarginMirroring)
+    '''returns boolean\n\n
+    setMarginMirroring(final boolean MarginMirroring)\n
     '''

@@ -1,3 +1,4 @@
-def FldSCTemplateID():
-    '''public FldSCTemplateID(final MboValue mbv)
+def ():
+    '''returns FldSCTemplateID\n\n
+    (final MboValue mbv)\n
     '''

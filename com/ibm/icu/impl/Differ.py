@@ -1,36 +1,48 @@
-def Differ():
-    '''public Differ(final int stackSize, final int matchCount)
+def ():
+    '''returns Differ\n\n
+    (final int stackSize, final int matchCount)\n
     '''
 def add():
-    '''public void add(final Object aStr, final Object bStr)
+    '''returns None\n\n
+    add(final Object aStr, final Object bStr)\n
     '''
 def addA():
-    '''public void addA(final Object aStr)
+    '''returns None\n\n
+    addA(final Object aStr)\n
     '''
 def addB():
-    '''public void addB(final Object bStr)
+    '''returns None\n\n
+    addB(final Object bStr)\n
     '''
 def getALine():
-    '''public int getALine(final int offset)
+    '''returns int\n\n
+    getALine(final int offset)\n
     '''
 def getA():
-    '''public Object getA(final int offset)
+    '''returns Object\n\n
+    getA(final int offset)\n
     '''
 def getACount():
-    '''public int getACount()
+    '''returns int\n\n
+    getACount()\n
     '''
 def getBCount():
-    '''public int getBCount()
+    '''returns int\n\n
+    getBCount()\n
     '''
 def getBLine():
-    '''public int getBLine(final int offset)
+    '''returns int\n\n
+    getBLine(final int offset)\n
     '''
 def getB():
-    '''public Object getB(final int offset)
+    '''returns Object\n\n
+    getB(final int offset)\n
     '''
 def checkMatch():
-    '''public void checkMatch(final boolean finalPass)
+    '''returns None\n\n
+    checkMatch(final boolean finalPass)\n
     '''
 def find():
-    '''public int find(final Object[] aArr, final int aStart, final int aEnd, final Object[] bArr, final int bStart, final int bEnd)
+    '''returns int\n\n
+    find(final Object[] aArr, final int aStart, final int aEnd, final Object[] bArr, final int bStart, final int bEnd)\n
     '''

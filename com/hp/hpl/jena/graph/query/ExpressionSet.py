@@ -1,18 +1,24 @@
-def ExpressionSet():
-    '''public ExpressionSet()
+def ():
+    '''returns ExpressionSet\n\n
+    ()\n
     '''
 def add():
-    '''public ExpressionSet add(final Expression e)
+    '''returns ExpressionSet\n\n
+    add(final Expression e)\n
     '''
 def isComplex():
-    '''public boolean isComplex()
+    '''returns boolean\n\n
+    isComplex()\n
     '''
 def prepare():
-    '''public ValuatorSet prepare(final VariableIndexes vi)
+    '''returns ValuatorSet\n\n
+    prepare(final VariableIndexes vi)\n
     '''
 def iterator():
-    '''public Iterator<Expression> iterator()
+    '''returns Iterator<Expression>\n\n
+    iterator()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

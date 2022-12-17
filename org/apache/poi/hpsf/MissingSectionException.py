@@ -1,6 +1,7 @@
-def MissingSectionException():
-    '''public MissingSectionException()
-    public MissingSectionException(final String msg)
-    public MissingSectionException(final Throwable reason)
-    public MissingSectionException(final String msg, final Throwable reason)
+def ():
+    '''returns MissingSectionException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable reason)\n
+    (final String msg, final Throwable reason)\n
     '''

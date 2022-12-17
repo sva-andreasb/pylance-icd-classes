@@ -1,9 +1,12 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def StatusSideEffect():
-    '''public StatusSideEffect(final int statusCode, final String comment)
+def ():
+    '''returns StatusSideEffect\n\n
+    (final int statusCode, final String comment)\n
     '''
 def performSideEffect():
-    '''public void performSideEffect(final HttpServletResponse response)
+    '''returns None\n\n
+    performSideEffect(final HttpServletResponse response)\n
     '''

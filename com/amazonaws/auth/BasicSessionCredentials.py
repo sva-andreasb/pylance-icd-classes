@@ -1,12 +1,16 @@
-def BasicSessionCredentials():
-    '''public BasicSessionCredentials(final String awsAccessKey, final String awsSecretKey, final String sessionToken)
+def ():
+    '''returns BasicSessionCredentials\n\n
+    (final String awsAccessKey, final String awsSecretKey, final String sessionToken)\n
     '''
 def getAWSAccessKeyId():
-    '''public String getAWSAccessKeyId()
+    '''returns String\n\n
+    getAWSAccessKeyId()\n
     '''
 def getAWSSecretKey():
-    '''public String getAWSSecretKey()
+    '''returns String\n\n
+    getAWSSecretKey()\n
     '''
 def getSessionToken():
-    '''public String getSessionToken()
+    '''returns String\n\n
+    getSessionToken()\n
     '''

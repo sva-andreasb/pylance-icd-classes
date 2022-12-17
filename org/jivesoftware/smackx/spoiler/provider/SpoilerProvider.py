@@ -1,3 +1,4 @@
 def parse():
-    '''public SpoilerElement parse(final XmlPullParser parser, final int initialDepth)
+    '''returns SpoilerElement\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

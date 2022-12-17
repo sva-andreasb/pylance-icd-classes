@@ -1,7 +1,9 @@
-def ResponseServer():
-    '''public ResponseServer(final String originServer)
-    public ResponseServer()
+def ():
+    '''returns ResponseServer\n\n
+    (final String originServer)\n
+    ()\n
     '''
 def process():
-    '''public void process(final HttpResponse response, final HttpContext context)
+    '''returns None\n\n
+    process(final HttpResponse response, final HttpContext context)\n
     '''

@@ -1,63 +1,76 @@
-def LinkedMap():
-    '''public LinkedMap()
-    public LinkedMap(final int initialCapacity)
-    public LinkedMap(final int initialCapacity, final float loadFactor)
-    public LinkedMap(final Map<? extends K, ? extends V> map)
-    '''
-def clone():
-    '''public LinkedMap<K, V> clone()
+def ():
+    '''returns LinkedMap\n\n
+    ()\n
+    (final int initialCapacity)\n
+    (final int initialCapacity, final float loadFactor)\n
+    (final Map<? extends K, ? extends V> map)\n
     '''
 def get():
-    '''public K get(final int index)
-    public K get(final int index)
+    '''returns K\n\n
+    get(final int index)\n
+    get(final int index)\n
     '''
 def getValue():
-    '''public V getValue(final int index)
+    '''returns V\n\n
+    getValue(final int index)\n
     '''
 def indexOf():
-    '''public int indexOf(Object key)
-    public int indexOf(final Object obj)
+    '''returns int\n\n
+    indexOf(Object key)\n
+    indexOf(final Object obj)\n
     '''
 def remove():
-    '''public V remove(final int index)
-    public K remove(final int index)
-    public boolean remove(final Object obj)
+    '''returns boolean\n\n
+    remove(final int index)\n
+    remove(final int index)\n
+    remove(final Object obj)\n
     '''
 def asList():
-    '''public List<K> asList()
+    '''returns List<K>\n\n
+    asList()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def contains():
-    '''public boolean contains(final Object obj)
+    '''returns boolean\n\n
+    contains(final Object obj)\n
     '''
 def lastIndexOf():
-    '''public int lastIndexOf(final Object obj)
+    '''returns int\n\n
+    lastIndexOf(final Object obj)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> coll)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> coll)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public <T> T[] toArray(final T[] array)
+    '''returns Object[]\n\n
+    toArray()\n
     '''
 def iterator():
-    '''public Iterator<K> iterator()
+    '''returns Iterator<K>\n\n
+    iterator()\n
     '''
 def listIterator():
-    '''public ListIterator<K> listIterator()
-    public ListIterator<K> listIterator(final int fromIndex)
+    '''returns ListIterator<K>\n\n
+    listIterator()\n
+    listIterator(final int fromIndex)\n
     '''
 def subList():
-    '''public List<K> subList(final int fromIndexInclusive, final int toIndexExclusive)
+    '''returns List<K>\n\n
+    subList(final int fromIndexInclusive, final int toIndexExclusive)\n
     '''

@@ -1,3 +1,4 @@
-def PlusPFldEnteredBy():
-    '''public PlusPFldEnteredBy(final MboValue mbv)
+def ():
+    '''returns PlusPFldEnteredBy\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,10 +1,13 @@
-def MessageMapper():
-    '''public MessageMapper()
+def ():
+    '''returns MessageMapper\n\n
+    ()\n
     '''
 def getUnTransalatedMessage():
-    '''public String getUnTransalatedMessage(final String transVal)
+    '''returns String\n\n
+    getUnTransalatedMessage(final String transVal)\n
     '''
 def getTransalatedMessage():
-    '''public String getTransalatedMessage(final String errKey)
-    public String getTransalatedMessage(final String errGrp, final String errKey)
+    '''returns String\n\n
+    getTransalatedMessage(final String errKey)\n
+    getTransalatedMessage(final String errGrp, final String errKey)\n
     '''

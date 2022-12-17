@@ -1,23 +1,26 @@
-def setLog():
-    '''public static void setLog(final Log _log)
-    '''
-def DiscoverNamesInFile():
-    '''public DiscoverNamesInFile()
-    public DiscoverNamesInFile(final ClassLoaders loaders)
-    public DiscoverNamesInFile(final ResourceDiscover discoverer)
+def ():
+    '''returns DiscoverNamesInFile\n\n
+    ()\n
+    (final ClassLoaders loaders)\n
+    (final ResourceDiscover discoverer)\n
     '''
 def setDiscoverer():
-    '''public void setDiscoverer(final ResourceDiscover discover)
+    '''returns None\n\n
+    setDiscoverer(final ResourceDiscover discover)\n
     '''
 def getDiscover():
-    '''public ResourceDiscover getDiscover()
+    '''returns ResourceDiscover\n\n
+    getDiscover()\n
     '''
 def findResourceNames():
-    '''public ResourceNameIterator findResourceNames(final String fileName)
+    '''returns ResourceNameIterator\n\n
+    findResourceNames(final String fileName)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def nextResourceName():
-    '''public String nextResourceName()
+    '''returns String\n\n
+    nextResourceName()\n
     '''

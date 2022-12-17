@@ -1,126 +1,166 @@
 NAMESPACE_DC_URI = "String  \"http://purl.org/dc/elements/1.1/\""
 NAMESPACE_CP_URI = "String  \"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\""
 NAMESPACE_DCTERMS_URI = "String  \"http://purl.org/dc/terms/\""
-def PackagePropertiesPart():
-    '''public PackagePropertiesPart(final OPCPackage pack, final PackagePartName partName)
+def ():
+    '''returns PackagePropertiesPart\n\n
+    (final OPCPackage pack, final PackagePartName partName)\n
     '''
 def getCategoryProperty():
-    '''public Nullable<String> getCategoryProperty()
+    '''returns Nullable<String>\n\n
+    getCategoryProperty()\n
     '''
 def getContentStatusProperty():
-    '''public Nullable<String> getContentStatusProperty()
+    '''returns Nullable<String>\n\n
+    getContentStatusProperty()\n
     '''
 def getContentTypeProperty():
-    '''public Nullable<String> getContentTypeProperty()
+    '''returns Nullable<String>\n\n
+    getContentTypeProperty()\n
     '''
 def getCreatedProperty():
-    '''public Nullable<Date> getCreatedProperty()
+    '''returns Nullable<Date>\n\n
+    getCreatedProperty()\n
     '''
 def getCreatedPropertyString():
-    '''public String getCreatedPropertyString()
+    '''returns String\n\n
+    getCreatedPropertyString()\n
     '''
 def getCreatorProperty():
-    '''public Nullable<String> getCreatorProperty()
+    '''returns Nullable<String>\n\n
+    getCreatorProperty()\n
     '''
 def getDescriptionProperty():
-    '''public Nullable<String> getDescriptionProperty()
+    '''returns Nullable<String>\n\n
+    getDescriptionProperty()\n
     '''
 def getIdentifierProperty():
-    '''public Nullable<String> getIdentifierProperty()
+    '''returns Nullable<String>\n\n
+    getIdentifierProperty()\n
     '''
 def getKeywordsProperty():
-    '''public Nullable<String> getKeywordsProperty()
+    '''returns Nullable<String>\n\n
+    getKeywordsProperty()\n
     '''
 def getLanguageProperty():
-    '''public Nullable<String> getLanguageProperty()
+    '''returns Nullable<String>\n\n
+    getLanguageProperty()\n
     '''
 def getLastModifiedByProperty():
-    '''public Nullable<String> getLastModifiedByProperty()
+    '''returns Nullable<String>\n\n
+    getLastModifiedByProperty()\n
     '''
 def getLastPrintedProperty():
-    '''public Nullable<Date> getLastPrintedProperty()
+    '''returns Nullable<Date>\n\n
+    getLastPrintedProperty()\n
     '''
 def getLastPrintedPropertyString():
-    '''public String getLastPrintedPropertyString()
+    '''returns String\n\n
+    getLastPrintedPropertyString()\n
     '''
 def getModifiedProperty():
-    '''public Nullable<Date> getModifiedProperty()
+    '''returns Nullable<Date>\n\n
+    getModifiedProperty()\n
     '''
 def getModifiedPropertyString():
-    '''public String getModifiedPropertyString()
+    '''returns String\n\n
+    getModifiedPropertyString()\n
     '''
 def getRevisionProperty():
-    '''public Nullable<String> getRevisionProperty()
+    '''returns Nullable<String>\n\n
+    getRevisionProperty()\n
     '''
 def getSubjectProperty():
-    '''public Nullable<String> getSubjectProperty()
+    '''returns Nullable<String>\n\n
+    getSubjectProperty()\n
     '''
 def getTitleProperty():
-    '''public Nullable<String> getTitleProperty()
+    '''returns Nullable<String>\n\n
+    getTitleProperty()\n
     '''
 def getVersionProperty():
-    '''public Nullable<String> getVersionProperty()
+    '''returns Nullable<String>\n\n
+    getVersionProperty()\n
     '''
 def setCategoryProperty():
-    '''public void setCategoryProperty(final String category)
+    '''returns None\n\n
+    setCategoryProperty(final String category)\n
     '''
 def setContentStatusProperty():
-    '''public void setContentStatusProperty(final String contentStatus)
+    '''returns None\n\n
+    setContentStatusProperty(final String contentStatus)\n
     '''
 def setContentTypeProperty():
-    '''public void setContentTypeProperty(final String contentType)
+    '''returns None\n\n
+    setContentTypeProperty(final String contentType)\n
     '''
 def setCreatedProperty():
-    '''public void setCreatedProperty(final String created)
-    public void setCreatedProperty(final Nullable<Date> created)
+    '''returns None\n\n
+    setCreatedProperty(final String created)\n
+    setCreatedProperty(final Nullable<Date> created)\n
     '''
 def setCreatorProperty():
-    '''public void setCreatorProperty(final String creator)
+    '''returns None\n\n
+    setCreatorProperty(final String creator)\n
     '''
 def setDescriptionProperty():
-    '''public void setDescriptionProperty(final String description)
+    '''returns None\n\n
+    setDescriptionProperty(final String description)\n
     '''
 def setIdentifierProperty():
-    '''public void setIdentifierProperty(final String identifier)
+    '''returns None\n\n
+    setIdentifierProperty(final String identifier)\n
     '''
 def setKeywordsProperty():
-    '''public void setKeywordsProperty(final String keywords)
+    '''returns None\n\n
+    setKeywordsProperty(final String keywords)\n
     '''
 def setLanguageProperty():
-    '''public void setLanguageProperty(final String language)
+    '''returns None\n\n
+    setLanguageProperty(final String language)\n
     '''
 def setLastModifiedByProperty():
-    '''public void setLastModifiedByProperty(final String lastModifiedBy)
+    '''returns None\n\n
+    setLastModifiedByProperty(final String lastModifiedBy)\n
     '''
 def setLastPrintedProperty():
-    '''public void setLastPrintedProperty(final String lastPrinted)
-    public void setLastPrintedProperty(final Nullable<Date> lastPrinted)
+    '''returns None\n\n
+    setLastPrintedProperty(final String lastPrinted)\n
+    setLastPrintedProperty(final Nullable<Date> lastPrinted)\n
     '''
 def setModifiedProperty():
-    '''public void setModifiedProperty(final String modified)
-    public void setModifiedProperty(final Nullable<Date> modified)
+    '''returns None\n\n
+    setModifiedProperty(final String modified)\n
+    setModifiedProperty(final Nullable<Date> modified)\n
     '''
 def setRevisionProperty():
-    '''public void setRevisionProperty(final String revision)
+    '''returns None\n\n
+    setRevisionProperty(final String revision)\n
     '''
 def setSubjectProperty():
-    '''public void setSubjectProperty(final String subject)
+    '''returns None\n\n
+    setSubjectProperty(final String subject)\n
     '''
 def setTitleProperty():
-    '''public void setTitleProperty(final String title)
+    '''returns None\n\n
+    setTitleProperty(final String title)\n
     '''
 def setVersionProperty():
-    '''public void setVersionProperty(final String version)
+    '''returns None\n\n
+    setVersionProperty(final String version)\n
     '''
 def save():
-    '''public boolean save(final OutputStream zos)
+    '''returns boolean\n\n
+    save(final OutputStream zos)\n
     '''
 def load():
-    '''public boolean load(final InputStream ios)
+    '''returns boolean\n\n
+    load(final InputStream ios)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''

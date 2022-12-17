@@ -1,18 +1,24 @@
-def PmChgWorkplanMapMiniappBean():
-    '''public PmChgWorkplanMapMiniappBean()
+def ():
+    '''returns PmChgWorkplanMapMiniappBean\n\n
+    ()\n
     '''
 def filterCss():
-    '''public String filterCss(final String css, final MiniAppControl miniAppControl)
+    '''returns String\n\n
+    filterCss(final String css, final MiniAppControl miniAppControl)\n
     '''
 def applink():
-    '''public int applink()
+    '''returns int\n\n
+    applink()\n
     '''
 def handleClientDataRequest():
-    '''public JSONObject handleClientDataRequest(@MXEventParam("action") final String action)
+    '''returns JSONObject\n\n
+    handleClientDataRequest(@MXEventParam("action") final String action)\n
     '''
 def getBaseImageUrl():
-    '''public String getBaseImageUrl()
+    '''returns String\n\n
+    getBaseImageUrl()\n
     '''
 def buildModel():
-    '''public String buildModel()
+    '''returns String\n\n
+    buildModel()\n
     '''

@@ -1,9 +1,11 @@
-def NoNullValueHashMap():
-    '''public NoNullValueHashMap()
-    public NoNullValueHashMap(final int initialCapacity)
-    public NoNullValueHashMap(final int initialCapacity, final float loadFactor)
-    public NoNullValueHashMap(final Map<K, V> m)
+def ():
+    '''returns NoNullValueHashMap\n\n
+    ()\n
+    (final int initialCapacity)\n
+    (final int initialCapacity, final float loadFactor)\n
+    (final Map<K, V> m)\n
     '''
 def put():
-    '''public V put(final K key, final V value)
+    '''returns V\n\n
+    put(final K key, final V value)\n
     '''

@@ -1,37 +1,36 @@
-def MBeanServerDelegate():
-    '''public MBeanServerDelegate()
+def ():
+    '''returns MBeanServerDelegate\n\n
+    ()\n
     '''
 def getImplementationName():
-    '''public String getImplementationName()
+    '''returns String\n\n
+    getImplementationName()\n
     '''
 def getImplementationVendor():
-    '''public String getImplementationVendor()
+    '''returns String\n\n
+    getImplementationVendor()\n
     '''
 def getImplementationVersion():
-    '''public String getImplementationVersion()
-    '''
-def getMBeanServerId():
-    '''public synchronized String getMBeanServerId()
+    '''returns String\n\n
+    getImplementationVersion()\n
     '''
 def getSpecificationName():
-    '''public String getSpecificationName()
+    '''returns String\n\n
+    getSpecificationName()\n
     '''
 def getSpecificationVendor():
-    '''public String getSpecificationVendor()
+    '''returns String\n\n
+    getSpecificationVendor()\n
     '''
 def getSpecificationVersion():
-    '''public String getSpecificationVersion()
+    '''returns String\n\n
+    getSpecificationVersion()\n
     '''
 def getNotificationInfo():
-    '''public MBeanNotificationInfo[] getNotificationInfo()
+    '''returns MBeanNotificationInfo[]\n\n
+    getNotificationInfo()\n
     '''
 def sendNotification():
-    '''public void sendNotification(final Notification notification)
-    '''
-def removeNotificationListener():
-    '''public synchronized void removeNotificationListener(final NotificationListener notificationListener)
-    public synchronized void removeNotificationListener(final NotificationListener notificationListener, final NotificationFilter notificationFilter, final Object o)
-    '''
-def addNotificationListener():
-    '''public synchronized void addNotificationListener(final NotificationListener notificationListener, final NotificationFilter notificationFilter, final Object o)
+    '''returns None\n\n
+    sendNotification(final Notification notification)\n
     '''

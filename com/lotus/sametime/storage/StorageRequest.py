@@ -1,9 +1,12 @@
-def StorageRequest():
-    '''public StorageRequest(final Integer requestId, final short type, final Vector data, final STUser stUser)
+def ():
+    '''returns StorageRequest\n\n
+    (final Integer requestId, final short type, final Vector data, final STUser stUser)\n
     '''
 def writeToStream():
-    '''public void writeToStream(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    writeToStream(final NdrOutputStream ndrOutputStream)\n
     '''
 def readResponse():
-    '''public void readResponse(final NdrInputStream ndrInputStream)
+    '''returns None\n\n
+    readResponse(final NdrInputStream ndrInputStream)\n
     '''

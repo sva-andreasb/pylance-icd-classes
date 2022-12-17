@@ -3,42 +3,55 @@ VERTICAL_PANELS = "int  2"
 ONE_OVER_TWO_PANELS = "int  3"
 TWO_OVER_ONE_PANELS = "int  4"
 TWO_OVER_TWO_PANELS = "int  1"
-def Tab():
-    '''public Tab()
+def ():
+    '''returns Tab\n\n
+    ()\n
     '''
 def setChangeHistory():
-    '''public void setChangeHistory(final boolean b)
+    '''returns None\n\n
+    setChangeHistory(final boolean b)\n
     '''
 def getChangeHistory():
-    '''public boolean getChangeHistory()
+    '''returns boolean\n\n
+    getChangeHistory()\n
     '''
 def getIntLayout():
-    '''public int getIntLayout()
+    '''returns int\n\n
+    getIntLayout()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String v)
+    '''returns None\n\n
+    setName(final String v)\n
     '''
 def getTabDataList():
-    '''public List getTabDataList()
+    '''returns List\n\n
+    getTabDataList()\n
     '''
 def getFirstTabData():
-    '''public TabData getFirstTabData()
+    '''returns TabData\n\n
+    getFirstTabData()\n
     '''
 def addTabData():
-    '''public void addTabData(final TabData td)
+    '''returns None\n\n
+    addTabData(final TabData td)\n
     '''
 def addTab():
-    '''public void addTab(final Tab tab)
+    '''returns None\n\n
+    addTab(final Tab tab)\n
     '''
 def getTabList():
-    '''public List getTabList()
+    '''returns List\n\n
+    getTabList()\n
     '''
 def getLayout():
-    '''public String getLayout()
+    '''returns String\n\n
+    getLayout()\n
     '''
 def setLayout():
-    '''public void setLayout(final String l)
+    '''returns None\n\n
+    setLayout(final String l)\n
     '''

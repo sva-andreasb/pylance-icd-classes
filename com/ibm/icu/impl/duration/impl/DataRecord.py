@@ -45,11 +45,8 @@ FULL = "byte  2"
 M = "byte  0"
 F = "byte  1"
 N = "byte  2"
-def read():
-    '''public static DataRecord read(final String ln, final RecordReader in)
-    public static ScopeData read(final RecordReader in)
-    '''
 def write():
-    '''public void write(final RecordWriter out)
-    public void write(final RecordWriter out)
+    '''returns None\n\n
+    write(final RecordWriter out)\n
+    write(final RecordWriter out)\n
     '''

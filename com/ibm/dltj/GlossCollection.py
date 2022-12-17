@@ -1,95 +1,117 @@
-def getCopyright():
-    '''public static String getCopyright()
-    '''
-def GlossCollection():
-    '''public GlossCollection()
-    public GlossCollection(final GlossCollection collection)
-    public GlossCollection(final Gloss gloss)
-    public GlossCollection(final Gloss gloss, final Dictionary dictionary)
-    public GlossCollection(final GlossCollection collection, final Dictionary dictionary)
-    public GlossCollection(final GlossListElement first)
+def ():
+    '''returns GlossCollection\n\n
+    ()\n
+    (final GlossCollection collection)\n
+    (final Gloss gloss)\n
+    (final Gloss gloss, final Dictionary dictionary)\n
+    (final GlossCollection collection, final Dictionary dictionary)\n
+    (final GlossListElement first)\n
     '''
 def setOwnerDictionary():
-    '''public void setOwnerDictionary(final Dictionary ownerDictionary)
+    '''returns None\n\n
+    setOwnerDictionary(final Dictionary ownerDictionary)\n
     '''
 def add():
-    '''public boolean add(final Gloss gloss)
-    public boolean add(final Gloss gloss, final Dictionary dictionary)
-    public boolean add(final Object o)
+    '''returns boolean\n\n
+    add(final Gloss gloss)\n
+    add(final Gloss gloss, final Dictionary dictionary)\n
+    add(final Object o)\n
     '''
 def addAll():
-    '''public boolean addAll(final GlossListElement glossListElement)
-    public boolean addAll(final GlossListElement glossListElement, final Dictionary dictionary)
-    public boolean addAll(final Collection collection)
-    public boolean addAll(final GlossCollection collection)
-    public boolean addAll(final GlossCollection collection, final Dictionary dictionary)
+    '''returns boolean\n\n
+    addAll(final GlossListElement glossListElement)\n
+    addAll(final GlossListElement glossListElement, final Dictionary dictionary)\n
+    addAll(final Collection collection)\n
+    addAll(final GlossCollection collection)\n
+    addAll(final GlossCollection collection, final Dictionary dictionary)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def contains():
-    '''public boolean contains(final Gloss gloss)
-    public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final Gloss gloss)\n
+    contains(final Object o)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection collection)
-    public boolean containsAll(final GlossCollection collection)
+    '''returns boolean\n\n
+    containsAll(final Collection collection)\n
+    containsAll(final GlossCollection collection)\n
     '''
 def getFirst():
-    '''public GlossListElement getFirst()
+    '''returns GlossListElement\n\n
+    getFirst()\n
     '''
 def getGloss():
-    '''public Gloss getGloss(final Class clazz)
+    '''returns Gloss\n\n
+    getGloss(final Class clazz)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def iterator():
-    '''public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def remove():
-    '''public boolean remove(final Gloss gloss)
-    public boolean remove(final Object o)
-    public void remove()
+    '''returns None\n\n
+    remove(final Gloss gloss)\n
+    remove(final Object o)\n
+    remove()\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection collection)
-    public boolean removeAll(final GlossCollection collection)
+    '''returns boolean\n\n
+    removeAll(final Collection collection)\n
+    removeAll(final GlossCollection collection)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection collection)
+    '''returns boolean\n\n
+    retainAll(final Collection collection)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def sort():
-    '''public void sort(final Comparator c)
+    '''returns None\n\n
+    sort(final Comparator c)\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public Object[] toArray(Object[] array)
+    '''returns Object[]\n\n
+    toArray()\n
+    toArray(Object[] array)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def isGeneric():
-    '''public boolean isGeneric()
+    '''returns boolean\n\n
+    isGeneric()\n
     '''
 def writeGlossCollectionDetails():
-    '''public int writeGlossCollectionDetails(final DataOutput dataOutput, final GlossMapper glossMapper)
+    '''returns int\n\n
+    writeGlossCollectionDetails(final DataOutput dataOutput, final GlossMapper glossMapper)\n
     '''
 def readGlossCollectionDetails():
-    '''public int readGlossCollectionDetails(final DataInput dataInput, final Dictionary dictionary)
+    '''returns int\n\n
+    readGlossCollectionDetails(final DataInput dataInput, final Dictionary dictionary)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''

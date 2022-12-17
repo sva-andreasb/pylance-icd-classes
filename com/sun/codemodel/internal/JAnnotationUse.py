@@ -1,36 +1,39 @@
 def getAnnotationClass():
-    '''public JClass getAnnotationClass()
-    '''
-def getAnnotationMembers():
-    '''public Map<String, JAnnotationValue> getAnnotationMembers()
+    '''returns JClass\n\n
+    getAnnotationClass()\n
     '''
 def param():
-    '''public JAnnotationUse param(final String name, final boolean value)
-    public JAnnotationUse param(final String name, final byte value)
-    public JAnnotationUse param(final String name, final char value)
-    public JAnnotationUse param(final String name, final double value)
-    public JAnnotationUse param(final String name, final float value)
-    public JAnnotationUse param(final String name, final long value)
-    public JAnnotationUse param(final String name, final short value)
-    public JAnnotationUse param(final String name, final int value)
-    public JAnnotationUse param(final String name, final String value)
-    public JAnnotationUse param(final String name, final Enum<?> value)
-    public JAnnotationUse param(final String name, final JEnumConstant value)
-    public JAnnotationUse param(final String name, final Class<?> value)
-    public JAnnotationUse param(final String name, final JType type)
-    public JAnnotationUse param(final String name, final JExpression value)
+    '''returns JAnnotationUse\n\n
+    param(final String name, final boolean value)\n
+    param(final String name, final byte value)\n
+    param(final String name, final char value)\n
+    param(final String name, final double value)\n
+    param(final String name, final float value)\n
+    param(final String name, final long value)\n
+    param(final String name, final short value)\n
+    param(final String name, final int value)\n
+    param(final String name, final String value)\n
+    param(final String name, final Enum<?> value)\n
+    param(final String name, final JEnumConstant value)\n
+    param(final String name, final Class<?> value)\n
+    param(final String name, final JType type)\n
+    param(final String name, final JExpression value)\n
     '''
 def annotationParam():
-    '''public JAnnotationUse annotationParam(final String name, final Class<? extends Annotation> value)
+    '''returns JAnnotationUse\n\n
+    annotationParam(final String name, final Class<? extends Annotation> value)\n
     '''
 def generate():
-    '''public void generate(final JFormatter f)
-    public void generate(final JFormatter f)
-    public void generate(final JFormatter f)
+    '''returns None\n\n
+    generate(final JFormatter f)\n
+    generate(final JFormatter f)\n
+    generate(final JFormatter f)\n
     '''
 def paramArray():
-    '''public JAnnotationArrayMember paramArray(final String name)
+    '''returns JAnnotationArrayMember\n\n
+    paramArray(final String name)\n
     '''
 def annotate():
-    '''public JAnnotationUse annotate(final Class<? extends Annotation> clazz)
+    '''returns JAnnotationUse\n\n
+    annotate(final Class<? extends Annotation> clazz)\n
     '''

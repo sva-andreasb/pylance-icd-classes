@@ -1,3 +1,4 @@
 def evaluate():
-    '''public boolean evaluate(final IlvActivity mx)
+    '''returns boolean\n\n
+    evaluate(final IlvActivity mx)\n
     '''

@@ -1,3 +1,4 @@
-def CISpecHisSet():
-    '''public CISpecHisSet(final MboServerInterface ms)
+def ():
+    '''returns CISpecHisSet\n\n
+    (final MboServerInterface ms)\n
     '''

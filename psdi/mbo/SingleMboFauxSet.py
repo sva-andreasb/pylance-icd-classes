@@ -1,12 +1,16 @@
-def SingleMboFauxSet():
-    '''public SingleMboFauxSet(final MboRemote owner, final MboRemote singleMbo, final String mboName)
+def ():
+    '''returns SingleMboFauxSet\n\n
+    (final MboRemote owner, final MboRemote singleMbo, final String mboName)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def fetchMbos():
-    '''public void fetchMbos(final int toPostion)
+    '''returns None\n\n
+    fetchMbos(final int toPostion)\n
     '''
 def getZombie():
-    '''public MboRemote getZombie()
+    '''returns MboRemote\n\n
+    getZombie()\n
     '''

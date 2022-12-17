@@ -1,46 +1,52 @@
 NODENAME = "String  \"payload-type\""
 NAMESPACE = "String  \"urn:xmpp:tmp:jingle:apps:rtp\""
-def JingleContentDescription():
-    '''public JingleContentDescription()
+def ():
+    '''returns Audio\n\n
+    ()\n
+    ()\n
+    (final JinglePayloadType pt)\n
+    (final PayloadType payload)\n
+    ()\n
+    (final PayloadType.Audio audio)\n
     '''
 def getElementName():
-    '''public String getElementName()
-    public static String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def addJinglePayloadType():
-    '''public void addJinglePayloadType(final JinglePayloadType pt)
+    '''returns None\n\n
+    addJinglePayloadType(final JinglePayloadType pt)\n
     '''
 def addAudioPayloadTypes():
-    '''public void addAudioPayloadTypes(final List<PayloadType.Audio> pts)
+    '''returns None\n\n
+    addAudioPayloadTypes(final List<PayloadType.Audio> pts)\n
     '''
 def getJinglePayloadTypes():
-    '''public Iterator<JinglePayloadType> getJinglePayloadTypes()
+    '''returns Iterator<JinglePayloadType>\n\n
+    getJinglePayloadTypes()\n
     '''
 def getJinglePayloadTypesList():
-    '''public ArrayList<JinglePayloadType> getJinglePayloadTypesList()
+    '''returns ArrayList<JinglePayloadType>\n\n
+    getJinglePayloadTypesList()\n
     '''
 def getJinglePayloadTypesCount():
-    '''public int getJinglePayloadTypesCount()
+    '''returns int\n\n
+    getJinglePayloadTypesCount()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
-    public String toXML()
-    '''
-def Audio():
-    '''public Audio()
-    public Audio(final JinglePayloadType pt)
-    public Audio(final PayloadType.Audio audio)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
-    '''
-def JinglePayloadType():
-    '''public JinglePayloadType(final PayloadType payload)
-    public JinglePayloadType()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def getPayloadType():
-    '''public PayloadType getPayloadType()
+    '''returns PayloadType\n\n
+    getPayloadType()\n
     '''
 def setPayload():
-    '''public void setPayload(final PayloadType payload)
+    '''returns None\n\n
+    setPayload(final PayloadType payload)\n
     '''

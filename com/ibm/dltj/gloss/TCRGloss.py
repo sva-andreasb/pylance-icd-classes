@@ -4,37 +4,48 @@ DLT_CORRECTION_TYPE_KEYBOARD = "byte  2"
 DLT_CORRECTION_TYPE_OCR = "byte  3"
 DLT_CORRECTION_TYPE_SYNONYM = "byte  4"
 DLT_CORRECTION_TYPE_NATIONALKEYBOARD = "byte  5"
-def TCRGloss():
-    '''public TCRGloss()
-    public TCRGloss(final int n, final int n2, final int n3, final String s)
+def ():
+    '''returns TCRGloss\n\n
+    ()\n
+    (final int n, final int n2, final int n3, final String s)\n
     '''
 def read():
-    '''public void read(final DataInputStream dataInputStream, final int n)
+    '''returns None\n\n
+    read(final DataInputStream dataInputStream, final int n)\n
     '''
 def write():
-    '''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''returns None\n\n
+    write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getBOFA():
-    '''public int getBOFA()
+    '''returns int\n\n
+    getBOFA()\n
     '''
 def getCost():
-    '''public int getCost()
+    '''returns int\n\n
+    getCost()\n
     '''
 def getRType():
-    '''public int getRType()
+    '''returns int\n\n
+    getRType()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

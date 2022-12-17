@@ -1,6 +1,8 @@
-def PrologCodeWriter():
-    '''public PrologCodeWriter(final CodeWriter core, final String prolog)
+def ():
+    '''returns PrologCodeWriter\n\n
+    (final CodeWriter core, final String prolog)\n
     '''
 def openSource():
-    '''public Writer openSource(final JPackage pkg, final String fileName)
+    '''returns Writer\n\n
+    openSource(final JPackage pkg, final String fileName)\n
     '''

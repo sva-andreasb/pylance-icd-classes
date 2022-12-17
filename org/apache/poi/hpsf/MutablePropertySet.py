@@ -1,4 +1,5 @@
-def MutablePropertySet():
-    '''public MutablePropertySet()
-    public MutablePropertySet(final PropertySet ps)
+def ():
+    '''returns MutablePropertySet\n\n
+    ()\n
+    (final PropertySet ps)\n
     '''

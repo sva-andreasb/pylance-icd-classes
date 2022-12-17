@@ -1,153 +1,126 @@
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
-def ForwarderConfigurationJdo():
-    '''public ForwarderConfigurationJdo(final Guid guid, final TopologyActionContext ctx)
-    public ForwarderConfigurationJdo()
+def ():
+    '''returns ForwarderConfigurationJdo\n\n
+    (final Guid guid, final TopologyActionContext ctx)\n
+    ()\n
     '''
 def getCategory():
-    '''public int getCategory()
+    '''returns int\n\n
+    getCategory()\n
     '''
 def setCategory():
-    '''public void setCategory(final int a)
+    '''returns None\n\n
+    setCategory(final int a)\n
     '''
 def hasCategory():
-    '''public boolean hasCategory()
+    '''returns boolean\n\n
+    hasCategory()\n
     '''
 def getSeverityThreshold():
-    '''public int getSeverityThreshold()
+    '''returns int\n\n
+    getSeverityThreshold()\n
     '''
 def setSeverityThreshold():
-    '''public void setSeverityThreshold(final int a)
+    '''returns None\n\n
+    setSeverityThreshold(final int a)\n
     '''
 def hasSeverityThreshold():
-    '''public boolean hasSeverityThreshold()
+    '''returns boolean\n\n
+    hasSeverityThreshold()\n
     '''
 def getComponentType():
-    '''public String getComponentType()
+    '''returns String\n\n
+    getComponentType()\n
     '''
 def setComponentType():
-    '''public void setComponentType(final String a)
+    '''returns None\n\n
+    setComponentType(final String a)\n
     '''
 def hasComponentType():
-    '''public boolean hasComponentType()
-    '''
-def getAll():
-    '''public static Collection getAll(final TopologyActionContext ctx, final boolean excludeSubclass)
-    '''
-def getAllWithRunId():
-    '''public static Collection getAllWithRunId(final TopologyActionContext ctx, final boolean excludeSubclass)
-    '''
-def gcJdo():
-    '''public static void gcJdo(final TopologyActionContext ctx)
+    '''returns boolean\n\n
+    hasComponentType()\n
     '''
 def getAllAttributes():
-    '''public Map getAllAttributes()
+    '''returns Map\n\n
+    getAllAttributes()\n
     '''
 def generateDisplayName():
-    '''public String generateDisplayName()
-    '''
-def persistJdo():
-    '''public static ForwarderConfigurationJdo persistJdo(final ForwarderConfiguration obj, final TopologyActionContext ctx)
-    public static ForwarderConfigurationJdo persistJdo(final ForwarderConfiguration obj, final Map stknGuidMap, final TopologyActionContext ctx)
-    public static ForwarderConfigurationJdo persistJdo(final ForwarderConfiguration obj, final List guidMap, final TopologyActionContext ctx, final Set processedObjs, final JdoUpdateMap updateMap, final Map stknGuidMap)
-    '''
-def persistJdo3():
-    '''public static ForwarderConfigurationJdo persistJdo3(final ForwarderConfiguration obj, final TopologyActionContext ctx, final Map stknGuidMap)
-    '''
-def getJdoByGuid():
-    '''public static BaseJdo getJdoByGuid(final ForwarderConfiguration obj, final TopologyActionContext ctx)
-    '''
-def getJdo():
-    '''public static BaseJdo getJdo(final ForwarderConfiguration obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    '''
-def findJdo():
-    '''public static BaseJdo findJdo(final ForwarderConfiguration obj, final List guidMap, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    public static BaseJdo findJdo(final ForwarderConfiguration obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    '''
-def findSpecificJdo():
-    '''public static BaseJdo findSpecificJdo(final ForwarderConfiguration obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    '''
-def findJdoTest():
-    '''public static BaseJdo findJdoTest(final ForwarderConfiguration obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    '''
-def findSpecificJdoTest():
-    '''public static BaseJdo findSpecificJdoTest(final ForwarderConfiguration obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
+    '''returns String\n\n
+    generateDisplayName()\n
     '''
 def sameJdo():
-    '''public boolean sameJdo(final ForwarderConfiguration obj, final Map objKeys, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
+    '''returns boolean\n\n
+    sameJdo(final ForwarderConfiguration obj, final Map objKeys, final TopologyActionContext ctx, final JdoUpdateMap updateMap)\n
     '''
 def sameJdoTest():
-    '''public boolean sameJdoTest(final ForwarderConfiguration obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    '''
-def getJdoKeys():
-    '''public static Map getJdoKeys(final ForwarderConfiguration obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
+    '''returns boolean\n\n
+    sameJdoTest(final ForwarderConfiguration obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)\n
     '''
 def similarJdo():
-    '''public boolean similarJdo(final ForwarderConfigurationJdo obj)
+    '''returns boolean\n\n
+    similarJdo(final ForwarderConfigurationJdo obj)\n
     '''
 def updateJdoByObj():
-    '''public void updateJdoByObj(final ForwarderConfiguration obj, final List guidMap, final TopologyActionContext ctx, final Set processedObjs, final JdoUpdateMap updateMap, final Map stknGuidMap, final String attrPriosFromDb)
+    '''returns None\n\n
+    updateJdoByObj(final ForwarderConfiguration obj, final List guidMap, final TopologyActionContext ctx, final Set processedObjs, final JdoUpdateMap updateMap, final Map stknGuidMap, final String attrPriosFromDb)\n
     '''
 def copyJdo():
-    '''public void copyJdo(final BaseJdo copyToJdo, final JdoUpdateMap updateMap)
+    '''returns None\n\n
+    copyJdo(final BaseJdo copyToJdo, final JdoUpdateMap updateMap)\n
     '''
 def removeJdoRefs():
-    '''public void removeJdoRefs(final TopologyActionContext ctx)
-    public void removeJdoRefs(final TopologyActionContext ctx, final Set removedGuidSet)
+    '''returns None\n\n
+    removeJdoRefs(final TopologyActionContext ctx)\n
+    removeJdoRefs(final TopologyActionContext ctx, final Set removedGuidSet)\n
     '''
 def deleteJdoRefs():
-    '''public void deleteJdoRefs(final TopologyActionContext ctx)
-    public void deleteJdoRefs(final TopologyActionContext ctx, final Set removedGuidSet)
+    '''returns None\n\n
+    deleteJdoRefs(final TopologyActionContext ctx)\n
+    deleteJdoRefs(final TopologyActionContext ctx, final Set removedGuidSet)\n
     '''
 def restoreJdo():
-    '''public void restoreJdo(final TopologyActionContext ctx)
+    '''returns None\n\n
+    restoreJdo(final TopologyActionContext ctx)\n
     '''
 def compareJdo():
-    '''public ObjectCompareResults compareJdo(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep)
-    public ObjectCompareResults compareJdo(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep, final TwoDimensionalMap refMap)
+    '''returns ObjectCompareResults\n\n
+    compareJdo(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep)\n
+    compareJdo(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep, final TwoDimensionalMap refMap)\n
     '''
 def compareJdoForMerge():
-    '''public ObjectCompareResults compareJdoForMerge(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep)
-    public ObjectCompareResults compareJdoForMerge(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep, final TwoDimensionalMap refMap)
+    '''returns ObjectCompareResults\n\n
+    compareJdoForMerge(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep)\n
+    compareJdoForMerge(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep, final TwoDimensionalMap refMap)\n
     '''
 def versionedJdoExists():
-    '''public boolean versionedJdoExists(final TopologyActionContext ctx)
+    '''returns boolean\n\n
+    versionedJdoExists(final TopologyActionContext ctx)\n
     '''
 def jdoNewInstance():
-    '''public PersistenceCapable jdoNewInstance(final StateManager jdoStateManager, final Object o)
-    public PersistenceCapable jdoNewInstance(final StateManager jdoStateManager)
+    '''returns PersistenceCapable\n\n
+    jdoNewInstance(final StateManager jdoStateManager, final Object o)\n
+    jdoNewInstance(final StateManager jdoStateManager)\n
     '''
 def jdoReplaceField():
-    '''public void jdoReplaceField(final int n)
+    '''returns None\n\n
+    jdoReplaceField(final int n)\n
     '''
 def jdoReplaceFields():
-    '''public void jdoReplaceFields(final int[] array)
+    '''returns None\n\n
+    jdoReplaceFields(final int[] array)\n
     '''
 def jdoProvideField():
-    '''public void jdoProvideField(final int n)
+    '''returns None\n\n
+    jdoProvideField(final int n)\n
     '''
 def jdoProvideFields():
-    '''public void jdoProvideFields(final int[] array)
+    '''returns None\n\n
+    jdoProvideFields(final int[] array)\n
     '''
 def jdoCopyFields():
-    '''public void jdoCopyFields(final Object o, final int[] array)
-    '''
-def jdoGetcategory_():
-    '''public static final Integer jdoGetcategory_(final ForwarderConfigurationJdo forwarderConfigurationJdo)
-    '''
-def jdoSetcategory_():
-    '''public static final void jdoSetcategory_(final ForwarderConfigurationJdo forwarderConfigurationJdo, final Integer n)
-    '''
-def jdoGetcomponentType_():
-    '''public static final String jdoGetcomponentType_(final ForwarderConfigurationJdo forwarderConfigurationJdo)
-    '''
-def jdoSetcomponentType_():
-    '''public static final void jdoSetcomponentType_(final ForwarderConfigurationJdo forwarderConfigurationJdo, final String s)
-    '''
-def jdoGetseverityThreshold_():
-    '''public static final Integer jdoGetseverityThreshold_(final ForwarderConfigurationJdo forwarderConfigurationJdo)
-    '''
-def jdoSetseverityThreshold_():
-    '''public static final void jdoSetseverityThreshold_(final ForwarderConfigurationJdo forwarderConfigurationJdo, final Integer n)
+    '''returns None\n\n
+    jdoCopyFields(final Object o, final int[] array)\n
     '''

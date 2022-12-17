@@ -1,6 +1,8 @@
-def PmCfgFldClassStructureId():
-    '''public PmCfgFldClassStructureId(final MboValue mbv)
+def ():
+    '''returns PmCfgFldClassStructureId\n\n
+    (final MboValue mbv)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''

@@ -1,15 +1,20 @@
-def OmemoVAxolotlElement():
-    '''public OmemoVAxolotlElement(final OmemoHeader header, final byte[] payload)
+def ():
+    '''returns OmemoVAxolotlElement\n\n
+    (final OmemoHeader header, final byte[] payload)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

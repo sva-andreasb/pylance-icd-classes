@@ -1,18 +1,24 @@
-def DateInterval():
-    '''public DateInterval(final long from, final long to)
+def ():
+    '''returns DateInterval\n\n
+    (final long from, final long to)\n
     '''
 def getFromDate():
-    '''public long getFromDate()
+    '''returns long\n\n
+    getFromDate()\n
     '''
 def getToDate():
-    '''public long getToDate()
+    '''returns long\n\n
+    getToDate()\n
     '''
 def equals():
-    '''public boolean equals(final Object a)
+    '''returns boolean\n\n
+    equals(final Object a)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

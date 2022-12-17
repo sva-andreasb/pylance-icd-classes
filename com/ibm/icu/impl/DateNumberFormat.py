@@ -1,37 +1,48 @@
-def DateNumberFormat():
-    '''public DateNumberFormat(final ULocale loc, final char zeroDigitIn)
+def ():
+    '''returns DateNumberFormat\n\n
+    (final ULocale loc, final char zeroDigitIn)\n
     '''
 def setMaximumIntegerDigits():
-    '''public void setMaximumIntegerDigits(final int newValue)
+    '''returns None\n\n
+    setMaximumIntegerDigits(final int newValue)\n
     '''
 def getMaximumIntegerDigits():
-    '''public int getMaximumIntegerDigits()
+    '''returns int\n\n
+    getMaximumIntegerDigits()\n
     '''
 def setMinimumIntegerDigits():
-    '''public void setMinimumIntegerDigits(final int newValue)
+    '''returns None\n\n
+    setMinimumIntegerDigits(final int newValue)\n
     '''
 def getMinimumIntegerDigits():
-    '''public int getMinimumIntegerDigits()
+    '''returns int\n\n
+    getMinimumIntegerDigits()\n
     '''
 def setParsePositiveOnly():
-    '''public void setParsePositiveOnly(final boolean isPositiveOnly)
+    '''returns None\n\n
+    setParsePositiveOnly(final boolean isPositiveOnly)\n
     '''
 def getZeroDigit():
-    '''public char getZeroDigit()
+    '''returns char\n\n
+    getZeroDigit()\n
     '''
 def setZeroDigit():
-    '''public void setZeroDigit(final char zero)
+    '''returns None\n\n
+    setZeroDigit(final char zero)\n
     '''
 def format():
-    '''public StringBuffer format(final double number, final StringBuffer toAppendTo, final FieldPosition pos)
-    public StringBuffer format(final long numberL, final StringBuffer toAppendTo, final FieldPosition pos)
-    public StringBuffer format(final BigInteger number, final StringBuffer toAppendTo, final FieldPosition pos)
-    public StringBuffer format(final BigDecimal number, final StringBuffer toAppendTo, final FieldPosition pos)
-    public StringBuffer format(final com.ibm.icu.math.BigDecimal number, final StringBuffer toAppendTo, final FieldPosition pos)
+    '''returns StringBuffer\n\n
+    format(final double number, final StringBuffer toAppendTo, final FieldPosition pos)\n
+    format(final long numberL, final StringBuffer toAppendTo, final FieldPosition pos)\n
+    format(final BigInteger number, final StringBuffer toAppendTo, final FieldPosition pos)\n
+    format(final BigDecimal number, final StringBuffer toAppendTo, final FieldPosition pos)\n
+    format(final com.ibm.icu.math.BigDecimal number, final StringBuffer toAppendTo, final FieldPosition pos)\n
     '''
 def parse():
-    '''public Number parse(final String text, final ParsePosition parsePosition)
+    '''returns Number\n\n
+    parse(final String text, final ParsePosition parsePosition)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

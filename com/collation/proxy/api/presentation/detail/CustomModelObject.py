@@ -1,9 +1,12 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def CustomModelObject():
-    '''public CustomModelObject(final ModelObject mo)
+def ():
+    '''returns CustomModelObject\n\n
+    (final ModelObject mo)\n
     '''
 def getModelObject():
-    '''public ModelObject getModelObject()
+    '''returns ModelObject\n\n
+    getModelObject()\n
     '''

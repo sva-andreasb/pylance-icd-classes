@@ -1,12 +1,16 @@
 def getBucketCount():
-    '''public int getBucketCount()
+    '''returns int\n\n
+    getBucketCount()\n
     '''
 def getBucketIndex():
-    '''public int getBucketIndex(final CharSequence name)
+    '''returns int\n\n
+    getBucketIndex(final CharSequence name)\n
     '''
 def getBucket():
-    '''public Bucket<V> getBucket(final int index)
+    '''returns Bucket<V>\n\n
+    getBucket(final int index)\n
     '''
 def iterator():
-    '''public Iterator<Bucket<V>> iterator()
+    '''returns Iterator<Bucket<V>>\n\n
+    iterator()\n
     '''

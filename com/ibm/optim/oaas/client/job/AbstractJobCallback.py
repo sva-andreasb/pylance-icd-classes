@@ -1,24 +1,32 @@
 def created():
-    '''public void created(final JobResponse response)
+    '''returns None\n\n
+    created(final JobResponse response)\n
     '''
 def submitted():
-    '''public void submitted(final JobResponse response)
+    '''returns None\n\n
+    submitted(final JobResponse response)\n
     '''
 def running():
-    '''public void running(final JobResponse response)
+    '''returns None\n\n
+    running(final JobResponse response)\n
     '''
 def processed():
-    '''public void processed(final JobResponse response)
+    '''returns None\n\n
+    processed(final JobResponse response)\n
     '''
 def failed():
-    '''public void failed(final JobResponse response)
+    '''returns None\n\n
+    failed(final JobResponse response)\n
     '''
 def interruption():
-    '''public void interruption(final JobResponse response)
+    '''returns None\n\n
+    interruption(final JobResponse response)\n
     '''
 def exception():
-    '''public void exception(final JobResponse response, final Exception e)
+    '''returns None\n\n
+    exception(final JobResponse response, final Exception e)\n
     '''
 def completed():
-    '''public void completed(final JobResponse response)
+    '''returns None\n\n
+    completed(final JobResponse response)\n
     '''

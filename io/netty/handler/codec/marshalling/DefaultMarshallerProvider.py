@@ -1,6 +1,8 @@
-def DefaultMarshallerProvider():
-    '''public DefaultMarshallerProvider(final MarshallerFactory factory, final MarshallingConfiguration config)
+def ():
+    '''returns DefaultMarshallerProvider\n\n
+    (final MarshallerFactory factory, final MarshallingConfiguration config)\n
     '''
 def getMarshaller():
-    '''public Marshaller getMarshaller(final ChannelHandlerContext ctx)
+    '''returns Marshaller\n\n
+    getMarshaller(final ChannelHandlerContext ctx)\n
     '''

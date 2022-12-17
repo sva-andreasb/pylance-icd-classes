@@ -1,24 +1,32 @@
-def GLComponentsSet():
-    '''public GLComponentsSet(final MboServerInterface ms)
+def ():
+    '''returns GLComponentsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def findValidComponents():
-    '''public void findValidComponents(final int componentNumber, final String[] knownSegments, final boolean withAccessCheck, final boolean fromCOA, String orgID)
+    '''returns None\n\n
+    findValidComponents(final int componentNumber, final String[] knownSegments, final boolean withAccessCheck, final boolean fromCOA, String orgID)\n
     '''
 def getGLFormat():
-    '''public GLFormat getGLFormat(final String orgID)
+    '''returns GLFormat\n\n
+    getGLFormat(final String orgID)\n
     '''
 def activateGLComponents():
-    '''public AccountSetRemote activateGLComponents(final String gla, final Vector compName, final Vector compDesc, final Vector compDescAsName, final Vector compOrder, final String ownerSysID, final String sourceSysID, final String senderSysID)
+    '''returns AccountSetRemote\n\n
+    activateGLComponents(final String gla, final Vector compName, final Vector compDesc, final Vector compDescAsName, final Vector compOrder, final String ownerSysID, final String sourceSysID, final String senderSysID)\n
     '''
 def inActivateGLComponents():
-    '''public AccountSetRemote inActivateGLComponents(final String gla, final Vector compName, final Vector compDesc, final Vector compDescAsName, final Vector compOrder, final String ownerSysID, final String sourceSysID, final String senderSysID)
+    '''returns AccountSetRemote\n\n
+    inActivateGLComponents(final String gla, final Vector compName, final Vector compDesc, final Vector compDescAsName, final Vector compOrder, final String ownerSysID, final String sourceSysID, final String senderSysID)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def getMultiSiteWhere():
-    '''public String getMultiSiteWhere()
+    '''returns String\n\n
+    getMultiSiteWhere()\n
     '''
 def getNextValidCompList():
-    '''public String getNextValidCompList(final String whereClause, final String nextCompAttr)
+    '''returns String\n\n
+    getNextValidCompList(final String whereClause, final String nextCompAttr)\n
     '''

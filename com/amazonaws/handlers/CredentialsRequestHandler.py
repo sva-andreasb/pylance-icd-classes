@@ -1,3 +1,4 @@
 def setCredentials():
-    '''public void setCredentials(final AWSCredentials awsCredentials)
+    '''returns None\n\n
+    setCredentials(final AWSCredentials awsCredentials)\n
     '''

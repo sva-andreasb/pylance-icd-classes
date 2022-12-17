@@ -1,12 +1,13 @@
-def StringIntMap():
-    '''public StringIntMap(final int c)
+def ():
+    '''returns Entry\n\n
+    (final int c)\n
+    (final int hash, final String key, final int value, final Entry next)\n
     '''
 def get():
-    '''public int get(final String key)
+    '''returns int\n\n
+    get(final String key)\n
     '''
 def put():
-    '''public void put(final String key, final int value)
-    '''
-def Entry():
-    '''public Entry(final int hash, final String key, final int value, final Entry next)
+    '''returns None\n\n
+    put(final String key, final int value)\n
     '''

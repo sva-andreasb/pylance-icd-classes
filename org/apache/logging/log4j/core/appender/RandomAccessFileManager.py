@@ -1,30 +1,24 @@
-def getFileManager():
-    '''public static RandomAccessFileManager getFileManager(final String fileName, final boolean append, final boolean immediateFlush, final int bufferSize, final String advertiseURI, final Layout<? extends Serializable> layout, final Configuration configuration)
-    '''
 def isEndOfBatch():
-    '''public Boolean isEndOfBatch()
+    '''returns Boolean\n\n
+    isEndOfBatch()\n
     '''
 def setEndOfBatch():
-    '''public void setEndOfBatch(final boolean endOfBatch)
-    '''
-def flush():
-    '''public synchronized void flush()
-    '''
-def closeOutputStream():
-    '''public synchronized boolean closeOutputStream()
+    '''returns None\n\n
+    setEndOfBatch(final boolean endOfBatch)\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def getBufferSize():
-    '''public int getBufferSize()
+    '''returns int\n\n
+    getBufferSize()\n
     '''
-def getContentFormat():
-    '''public Map<String, String> getContentFormat()
-    '''
-def FactoryData():
-    '''public FactoryData(final boolean append, final boolean immediateFlush, final int bufferSize, final String advertiseURI, final Layout<? extends Serializable> layout, final Configuration configuration)
+def ():
+    '''returns FactoryData\n\n
+    (final boolean append, final boolean immediateFlush, final int bufferSize, final String advertiseURI, final Layout<? extends Serializable> layout, final Configuration configuration)\n
     '''
 def createManager():
-    '''public RandomAccessFileManager createManager(final String name, final FactoryData data)
+    '''returns RandomAccessFileManager\n\n
+    createManager(final String name, final FactoryData data)\n
     '''

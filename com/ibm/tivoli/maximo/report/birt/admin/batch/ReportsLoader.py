@@ -1,30 +1,35 @@
 LIBRARYFOLDER = "String  \"${libraryfolder}\""
-def ReportsLoader():
-    '''public ReportsLoader()
-    public ReportsLoader(final MXLogger reportAdminServiceLogger)
+def ():
+    '''returns ReportsLoader\n\n
+    ()\n
+    (final MXLogger reportAdminServiceLogger)\n
     '''
 def setLibraryFolder():
-    '''public void setLibraryFolder(final String folderName)
+    '''returns None\n\n
+    setLibraryFolder(final String folderName)\n
     '''
 def loadReports():
-    '''public ArrayList<ReportInfo> loadReports(final String reportsXMLFile)
-    public ArrayList<ReportInfo> loadReports(final String reportsXMLFile, final boolean createResourcesZip)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns ArrayList<ReportInfo>\n\n
+    loadReports(final String reportsXMLFile)\n
+    loadReports(final String reportsXMLFile, final boolean createResourcesZip)\n
     '''
 def resolveEntity():
-    '''public InputSource resolveEntity(final String publicId, final String systemId)
+    '''returns InputSource\n\n
+    resolveEntity(final String publicId, final String systemId)\n
     '''
 def error():
-    '''public void error(final SAXParseException e)
+    '''returns None\n\n
+    error(final SAXParseException e)\n
     '''
 def fatalError():
-    '''public void fatalError(final SAXParseException e)
+    '''returns None\n\n
+    fatalError(final SAXParseException e)\n
     '''
 def warning():
-    '''public void warning(final SAXParseException exception)
+    '''returns None\n\n
+    warning(final SAXParseException exception)\n
     '''
 def accept():
-    '''public boolean accept(final File pathname)
+    '''returns boolean\n\n
+    accept(final File pathname)\n
     '''

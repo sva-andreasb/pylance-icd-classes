@@ -1,12 +1,16 @@
-def ObjectIterator():
-    '''public ObjectIterator(final Iterator<?> domain)
+def ():
+    '''returns ObjectIterator\n\n
+    (final Iterator<?> domain)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Node next()
+    '''returns Node\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

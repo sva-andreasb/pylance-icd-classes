@@ -1,9 +1,12 @@
-def RefChildA():
-    '''public RefChildA(final MboSet mboSet0)
+def ():
+    '''returns RefChildA\n\n
+    (final MboSet mboSet0)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

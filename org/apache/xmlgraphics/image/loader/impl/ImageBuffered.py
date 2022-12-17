@@ -1,9 +1,12 @@
-def ImageBuffered():
-    '''public ImageBuffered(final ImageInfo info, final BufferedImage buffered, final Color transparentColor)
+def ():
+    '''returns ImageBuffered\n\n
+    (final ImageInfo info, final BufferedImage buffered, final Color transparentColor)\n
     '''
 def getFlavor():
-    '''public ImageFlavor getFlavor()
+    '''returns ImageFlavor\n\n
+    getFlavor()\n
     '''
 def getBufferedImage():
-    '''public BufferedImage getBufferedImage()
+    '''returns BufferedImage\n\n
+    getBufferedImage()\n
     '''

@@ -1,3 +1,4 @@
-def PlusPFldCommonPoolItem():
-    '''public PlusPFldCommonPoolItem(final MboValue mbv)
+def ():
+    '''returns PlusPFldCommonPoolItem\n\n
+    (final MboValue mbv)\n
     '''

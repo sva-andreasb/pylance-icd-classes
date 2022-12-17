@@ -1,6 +1,8 @@
-def SKDCalendarExport():
-    '''public SKDCalendarExport(final MboSet ms)
+def ():
+    '''returns SKDCalendarExport\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

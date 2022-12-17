@@ -1,10 +1,13 @@
-def LDAPAddRequest():
-    '''public LDAPAddRequest()
-    public LDAPAddRequest(final LDAPEntry ldapEntry, final LDAPControl[] array)
+def ():
+    '''returns LDAPAddRequest\n\n
+    ()\n
+    (final LDAPEntry ldapEntry, final LDAPControl[] array)\n
     '''
 def getEntry():
-    '''public LDAPEntry getEntry()
+    '''returns LDAPEntry\n\n
+    getEntry()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

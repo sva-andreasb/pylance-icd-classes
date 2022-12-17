@@ -1,14 +1,14 @@
 LOGGER = "String  \"maximo.application.rsconfig\""
-def RSConfigService():
-    '''public RSConfigService()
-    public RSConfigService(final MXServer mxServer)
+def ():
+    '''returns RSConfigService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def getMainTableName():
-    '''public String getMainTableName(final String appName, final UserInfo userinfo)
+    '''returns String\n\n
+    getMainTableName(final String appName, final UserInfo userinfo)\n
     '''
 def isDotNotationFieldPersistent():
-    '''public boolean isDotNotationFieldPersistent(final String layoutid, final String fieldName, final UserInfo userinfo)
-    '''
-def getRSConfigMbo():
-    '''public static MboRemote getRSConfigMbo(final MboRemote layout, final String attribute)
+    '''returns boolean\n\n
+    isDotNotationFieldPersistent(final String layoutid, final String fieldName, final UserInfo userinfo)\n
     '''

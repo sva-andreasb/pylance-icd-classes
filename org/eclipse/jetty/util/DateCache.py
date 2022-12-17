@@ -1,32 +1,35 @@
-def DateCache():
-    '''public DateCache()
-    public DateCache(final String format)
-    public DateCache(final String format, final Locale l)
-    public DateCache(final String format, final DateFormatSymbols s)
-    '''
-def setTimeZone():
-    '''public synchronized void setTimeZone(final TimeZone tz)
+def ():
+    '''returns DateCache\n\n
+    ()\n
+    (final String format)\n
+    (final String format, final Locale l)\n
+    (final String format, final DateFormatSymbols s)\n
     '''
 def getTimeZone():
-    '''public TimeZone getTimeZone()
+    '''returns TimeZone\n\n
+    getTimeZone()\n
     '''
 def setTimeZoneID():
-    '''public void setTimeZoneID(final String timeZoneId)
+    '''returns None\n\n
+    setTimeZoneID(final String timeZoneId)\n
     '''
 def format():
-    '''public synchronized String format(final Date inDate)
-    public synchronized String format(final long inDate)
-    public void format(final long inDate, final StringBuilder buffer)
+    '''returns None\n\n
+    format(final long inDate, final StringBuilder buffer)\n
     '''
 def getFormat():
-    '''public SimpleDateFormat getFormat()
+    '''returns SimpleDateFormat\n\n
+    getFormat()\n
     '''
 def getFormatString():
-    '''public String getFormatString()
+    '''returns String\n\n
+    getFormatString()\n
     '''
 def now():
-    '''public String now()
+    '''returns String\n\n
+    now()\n
     '''
 def lastMs():
-    '''public int lastMs()
+    '''returns int\n\n
+    lastMs()\n
     '''

@@ -1,32 +1,42 @@
 sid = "short  81"
-def DConRefRecord():
-    '''public DConRefRecord(final byte[] data)
-    public DConRefRecord(final RecordInputStream inStream)
+def ():
+    '''returns DConRefRecord\n\n
+    (final byte[] data)\n
+    (final RecordInputStream inStream)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def getFirstColumn():
-    '''public int getFirstColumn()
+    '''returns int\n\n
+    getFirstColumn()\n
     '''
 def getFirstRow():
-    '''public int getFirstRow()
+    '''returns int\n\n
+    getFirstRow()\n
     '''
 def getLastColumn():
-    '''public int getLastColumn()
+    '''returns int\n\n
+    getLastColumn()\n
     '''
 def getLastRow():
-    '''public int getLastRow()
+    '''returns int\n\n
+    getLastRow()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getPath():
-    '''public byte[] getPath()
+    '''returns byte[]\n\n
+    getPath()\n
     '''
 def getReadablePath():
-    '''public String getReadablePath()
+    '''returns String\n\n
+    getReadablePath()\n
     '''
 def isExternalRef():
-    '''public boolean isExternalRef()
+    '''returns boolean\n\n
+    isExternalRef()\n
     '''

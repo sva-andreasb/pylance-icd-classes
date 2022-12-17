@@ -1,25 +1,32 @@
-def IteratorChain():
-    '''public IteratorChain()
-    public IteratorChain(final Iterator<? extends E> iterator)
-    public IteratorChain(final Iterator<? extends E> first, final Iterator<? extends E> second)
-    public IteratorChain(final Iterator<? extends E>... iteratorChain)
-    public IteratorChain(final Collection<Iterator<? extends E>> iteratorChain)
+def ():
+    '''returns IteratorChain\n\n
+    ()\n
+    (final Iterator<? extends E> iterator)\n
+    (final Iterator<? extends E> first, final Iterator<? extends E> second)\n
+    (final Iterator<? extends E>... iteratorChain)\n
+    (final Collection<Iterator<? extends E>> iteratorChain)\n
     '''
 def addIterator():
-    '''public void addIterator(final Iterator<? extends E> iterator)
+    '''returns None\n\n
+    addIterator(final Iterator<? extends E> iterator)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isLocked():
-    '''public boolean isLocked()
+    '''returns boolean\n\n
+    isLocked()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

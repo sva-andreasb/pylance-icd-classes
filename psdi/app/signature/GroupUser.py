@@ -1,27 +1,36 @@
-def GroupUser():
-    '''public GroupUser(final MboSet ms)
+def ():
+    '''returns GroupUser\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def checkMethodAccess():
-    '''public void checkMethodAccess(final String methodName, final long accessModifier)
+    '''returns None\n\n
+    checkMethodAccess(final String methodName, final long accessModifier)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def setSSMFlag():
-    '''public void setSSMFlag(final MboRemote owner, final boolean undo)
+    '''returns None\n\n
+    setSSMFlag(final MboRemote owner, final boolean undo)\n
     '''

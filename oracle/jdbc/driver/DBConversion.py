@@ -9,134 +9,120 @@ AL24UTFFSS_CHARSET = "short  870"
 UTF8_CHARSET = "short  871"
 AL32UTF8_CHARSET = "short  873"
 AL16UTF16_CHARSET = "short  2000"
-def DBConversion():
-    '''public DBConversion(final short n, final short n2, final short n3, final boolean isStrictASCIIConversion, final boolean isQuickASCIIConversion)
-    public DBConversion(final short n, final short n2, final short n3)
+def ():
+    '''returns DBConversion\n\n
+    (final short n, final short n2, final short n3, final boolean isStrictASCIIConversion, final boolean isQuickASCIIConversion)\n
+    (final short n, final short n2, final short n3)\n
     '''
 def getServerCharSetId():
-    '''public short getServerCharSetId()
+    '''returns short\n\n
+    getServerCharSetId()\n
     '''
 def getNCharSetId():
-    '''public short getNCharSetId()
+    '''returns short\n\n
+    getNCharSetId()\n
     '''
 def IsNCharFixedWith():
-    '''public boolean IsNCharFixedWith()
+    '''returns boolean\n\n
+    IsNCharFixedWith()\n
     '''
 def getClientCharSet():
-    '''public short getClientCharSet()
+    '''returns short\n\n
+    getClientCharSet()\n
     '''
 def getDbCharSetObj():
-    '''public CharacterSet getDbCharSetObj()
+    '''returns CharacterSet\n\n
+    getDbCharSetObj()\n
     '''
 def getDriverCharSetObj():
-    '''public CharacterSet getDriverCharSetObj()
+    '''returns CharacterSet\n\n
+    getDriverCharSetObj()\n
     '''
 def getDriverNCharSetObj():
-    '''public CharacterSet getDriverNCharSetObj()
-    '''
-def findDriverCharSet():
-    '''public static final short findDriverCharSet(final short n, final short n2)
-    '''
-def stringToDriverCharBytes():
-    '''public static final byte[] stringToDriverCharBytes(final String s, final short n)
+    '''returns CharacterSet\n\n
+    getDriverNCharSetObj()\n
     '''
 def StringToCharBytes():
-    '''public byte[] StringToCharBytes(final String s)
+    '''returns byte[]\n\n
+    StringToCharBytes(final String s)\n
     '''
 def CharBytesToString():
-    '''public String CharBytesToString(final byte[] array, final int n)
-    public String CharBytesToString(final byte[] ascii, final int count, final boolean b)
+    '''returns String\n\n
+    CharBytesToString(final byte[] array, final int n)\n
+    CharBytesToString(final byte[] ascii, final int count, final boolean b)\n
     '''
 def NCharBytesToString():
-    '''public String NCharBytesToString(final byte[] ascii, final int count)
+    '''returns String\n\n
+    NCharBytesToString(final byte[] ascii, final int count)\n
     '''
 def javaCharsToCHARBytes():
-    '''public int javaCharsToCHARBytes(final char[] array, final int n, final byte[] array2)
-    public int javaCharsToCHARBytes(final char[] array, final int n, final byte[] array2, final int n2, final int n3)
+    '''returns int\n\n
+    javaCharsToCHARBytes(final char[] array, final int n, final byte[] array2)\n
+    javaCharsToCHARBytes(final char[] array, final int n, final byte[] array2, final int n2, final int n3)\n
     '''
 def javaCharsToNCHARBytes():
-    '''public int javaCharsToNCHARBytes(final char[] array, final int n, final byte[] array2)
-    public int javaCharsToNCHARBytes(final char[] array, final int n, final byte[] array2, final int n2, final int n3)
+    '''returns int\n\n
+    javaCharsToNCHARBytes(final char[] array, final int n, final byte[] array2)\n
+    javaCharsToNCHARBytes(final char[] array, final int n, final byte[] array2, final int n2, final int n3)\n
     '''
 def CHARBytesToJavaChars():
-    '''public int CHARBytesToJavaChars(final byte[] array, final int n, final char[] array2, final int n2, final int[] array3, final int n3, final boolean b)
-    public int CHARBytesToJavaChars(final byte[] array, final int n, final char[] array2, final int n2, final int[] array3, final int n3)
+    '''returns int\n\n
+    CHARBytesToJavaChars(final byte[] array, final int n, final char[] array2, final int n2, final int[] array3, final int n3, final boolean b)\n
+    CHARBytesToJavaChars(final byte[] array, final int n, final char[] array2, final int n2, final int[] array3, final int n3)\n
     '''
 def NCHARBytesToJavaChars():
-    '''public int NCHARBytesToJavaChars(final byte[] array, final int n, final char[] array2, final int n2, final int[] array3, final int n3)
+    '''returns int\n\n
+    NCHARBytesToJavaChars(final byte[] array, final int n, final char[] array2, final int n2, final int[] array3, final int n3)\n
     '''
 def asciiBytesToCHARBytes():
-    '''public byte[] asciiBytesToCHARBytes(final byte[] array)
+    '''returns byte[]\n\n
+    asciiBytesToCHARBytes(final byte[] array)\n
     '''
 def javaCharsToDbCsBytes():
-    '''public int javaCharsToDbCsBytes(final char[] array, final int n, final byte[] array2)
-    public int javaCharsToDbCsBytes(final char[] value, final int offset, final byte[] array, final int n, final int count)
-    '''
-def javaCharsToUcs2Bytes():
-    '''public static final int javaCharsToUcs2Bytes(final char[] array, final int n, final byte[] array2)
-    public static final int javaCharsToUcs2Bytes(final char[] array, final int n, final byte[] array2, final int n2, final int n3)
-    '''
-def ucs2BytesToJavaChars():
-    '''public static final int ucs2BytesToJavaChars(final byte[] array, final int n, final char[] array2)
-    '''
-def stringToAsciiBytes():
-    '''public static final byte[] stringToAsciiBytes(final String s)
-    '''
-def asciiBytesToJavaChars():
-    '''public static final int asciiBytesToJavaChars(final byte[] array, final int n, final char[] array2)
-    '''
-def javaCharsToAsciiBytes():
-    '''public static final int javaCharsToAsciiBytes(final char[] array, final int n, final byte[] array2)
-    '''
-def isCharSetMultibyte():
-    '''public static final boolean isCharSetMultibyte(final short n)
+    '''returns int\n\n
+    javaCharsToDbCsBytes(final char[] array, final int n, final byte[] array2)\n
+    javaCharsToDbCsBytes(final char[] value, final int offset, final byte[] array, final int n, final int count)\n
     '''
 def getMaxCharbyteSize():
-    '''public int getMaxCharbyteSize()
+    '''returns int\n\n
+    getMaxCharbyteSize()\n
     '''
 def getMaxNCharbyteSize():
-    '''public int getMaxNCharbyteSize()
+    '''returns int\n\n
+    getMaxNCharbyteSize()\n
     '''
 def _getMaxCharbyteSize():
-    '''public int _getMaxCharbyteSize(final short n)
+    '''returns int\n\n
+    _getMaxCharbyteSize(final short n)\n
     '''
 def isUcs2CharSet():
-    '''public boolean isUcs2CharSet()
-    '''
-def RAWBytesToHexChars():
-    '''public static final int RAWBytesToHexChars(final byte[] array, final int n, final char[] array2)
-    '''
-def hexDigit2Nibble():
-    '''public final int hexDigit2Nibble(final char c)
-    '''
-def hexString2Bytes():
-    '''public final byte[] hexString2Bytes(final String s)
-    '''
-def hexChars2Bytes():
-    '''public final byte[] hexChars2Bytes(final char[] array, final int n, final int n2)
+    '''returns boolean\n\n
+    isUcs2CharSet()\n
     '''
 def ConvertStream():
-    '''public InputStream ConvertStream(final InputStream inputStream, final int n)
-    public InputStream ConvertStream(final InputStream inputStream, final int n, final int n2)
-    public InputStream ConvertStream(final Reader reader, final int n, final int n2, final short n3)
+    '''returns InputStream\n\n
+    ConvertStream(final InputStream inputStream, final int n)\n
+    ConvertStream(final InputStream inputStream, final int n, final int n2)\n
+    ConvertStream(final Reader reader, final int n, final int n2, final short n3)\n
     '''
 def ConvertStreamInternal():
-    '''public InputStream ConvertStreamInternal(final InputStream inputStream, final int n, final int n2)
-    public InputStream ConvertStreamInternal(final Reader reader, final int n, final int n2, final short n3)
+    '''returns InputStream\n\n
+    ConvertStreamInternal(final InputStream inputStream, final int n, final int n2)\n
+    ConvertStreamInternal(final Reader reader, final int n, final int n2, final short n3)\n
     '''
 def ConvertCharacterStream():
-    '''public Reader ConvertCharacterStream(final InputStream inputStream, final int n)
-    public Reader ConvertCharacterStream(final InputStream inputStream, final int n, final short formOfUse)
+    '''returns Reader\n\n
+    ConvertCharacterStream(final InputStream inputStream, final int n)\n
+    ConvertCharacterStream(final InputStream inputStream, final int n, final short formOfUse)\n
     '''
 def CharsToStream():
-    '''public InputStream CharsToStream(final char[] array, final int n, final int n2, final int n3)
-    '''
-def getUtfLen():
-    '''public static final int getUtfLen(final char c)
+    '''returns InputStream\n\n
+    CharsToStream(final char[] array, final int n, final int n2, final int n3)\n
     '''
 def needBytes():
-    '''public boolean needBytes()
-    public boolean needBytes(final int n)
-    public boolean needBytes()
-    public boolean needBytes(final int n)
+    '''returns boolean\n\n
+    needBytes()\n
+    needBytes(final int n)\n
+    needBytes()\n
+    needBytes(final int n)\n
     '''

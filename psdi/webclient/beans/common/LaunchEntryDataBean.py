@@ -1,12 +1,16 @@
-def LaunchEntryDataBean():
-    '''public LaunchEntryDataBean()
+def ():
+    '''returns LaunchEntryDataBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def launchselectedentry():
-    '''public int launchselectedentry()
+    '''returns int\n\n
+    launchselectedentry()\n
     '''
 def encode():
-    '''public String encode(final String url)
+    '''returns String\n\n
+    encode(final String url)\n
     '''

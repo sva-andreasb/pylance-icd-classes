@@ -1,56 +1,74 @@
-def JobTask():
-    '''public JobTask()
-    public JobTask(final Parser parser, final ItemJOB job, final ItemJOB owningJob)
+def ():
+    '''returns JobTask\n\n
+    ()\n
+    (final Parser parser, final ItemJOB job, final ItemJOB owningJob)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getDuration():
-    '''public String getDuration()
-    public void getDuration(final String duration)
+    '''returns None\n\n
+    getDuration()\n
+    getDuration(final String duration)\n
     '''
 def getDurationUnits():
-    '''public String getDurationUnits()
+    '''returns String\n\n
+    getDurationUnits()\n
     '''
 def getDurationUnitType():
-    '''public int getDurationUnitType()
+    '''returns int\n\n
+    getDurationUnitType()\n
     '''
 def getExtIdentifier():
-    '''public String getExtIdentifier()
+    '''returns String\n\n
+    getExtIdentifier()\n
     '''
 def getExtObject():
-    '''public String getExtObject()
+    '''returns String\n\n
+    getExtObject()\n
     '''
 def getPreReqs():
-    '''public String[] getPreReqs()
+    '''returns String[]\n\n
+    getPreReqs()\n
     '''
 def getTaskName():
-    '''public String getTaskName()
+    '''returns String\n\n
+    getTaskName()\n
     '''
 def getTaskNumber():
-    '''public int getTaskNumber()
+    '''returns int\n\n
+    getTaskNumber()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def setDuration():
-    '''public void setDuration(final String duration)
+    '''returns None\n\n
+    setDuration(final String duration)\n
     '''
 def setDurationUnits():
-    '''public void setDurationUnits(final String durationUnit)
+    '''returns None\n\n
+    setDurationUnits(final String durationUnit)\n
     '''
 def setExtIdentifier():
-    '''public void setExtIdentifier(final String extIdentifier)
+    '''returns None\n\n
+    setExtIdentifier(final String extIdentifier)\n
     '''
 def setExtObject():
-    '''public void setExtObject(final String extObject)
+    '''returns None\n\n
+    setExtObject(final String extObject)\n
     '''
 def setTaskName():
-    '''public void setTaskName(final String name)
+    '''returns None\n\n
+    setTaskName(final String name)\n
     '''
 def setTaskNumber():
-    '''public void setTaskNumber(final int taskNumber)
+    '''returns None\n\n
+    setTaskNumber(final int taskNumber)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

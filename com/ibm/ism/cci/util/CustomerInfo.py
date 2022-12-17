@@ -1,22 +1,29 @@
 IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def CustomerInfo():
-    '''public CustomerInfo(final PlusPCommonCustAssocMboRemote customerMbo)
+def ():
+    '''returns CustomerInfo\n\n
+    (final PlusPCommonCustAssocMboRemote customerMbo)\n
     '''
 def getCustomer():
-    '''public String getCustomer()
+    '''returns String\n\n
+    getCustomer()\n
     '''
 def setCustomer():
-    '''public void setCustomer(final String customer)
+    '''returns None\n\n
+    setCustomer(final String customer)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def isPrimary():
-    '''public boolean isPrimary()
+    '''returns boolean\n\n
+    isPrimary()\n
     '''
 def setIsPrimary():
-    '''public void setIsPrimary(final boolean isPrimary)
+    '''returns None\n\n
+    setIsPrimary(final boolean isPrimary)\n
     '''

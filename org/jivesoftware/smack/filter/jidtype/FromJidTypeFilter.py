@@ -1,3 +1,4 @@
-def FromJidTypeFilter():
-    '''public FromJidTypeFilter(final JidType jidType)
+def ():
+    '''returns FromJidTypeFilter\n\n
+    (final JidType jidType)\n
     '''

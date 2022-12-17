@@ -1,9 +1,11 @@
-def OpenSslCertificateException():
-    '''public OpenSslCertificateException(final int errorCode)
-    public OpenSslCertificateException(final String msg, final int errorCode)
-    public OpenSslCertificateException(final String message, final Throwable cause, final int errorCode)
-    public OpenSslCertificateException(final Throwable cause, final int errorCode)
+def ():
+    '''returns OpenSslCertificateException\n\n
+    (final int errorCode)\n
+    (final String msg, final int errorCode)\n
+    (final String message, final Throwable cause, final int errorCode)\n
+    (final Throwable cause, final int errorCode)\n
     '''
 def errorCode():
-    '''public int errorCode()
+    '''returns int\n\n
+    errorCode()\n
     '''

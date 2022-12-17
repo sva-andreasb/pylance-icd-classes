@@ -12,18 +12,21 @@ INVALIDINPUTN = "byte  11"
 NLSNOTSUPPORTED = "byte  12"
 INVALIDINPUT = "byte  13"
 CONVERSIONERROR = "byte  14"
-def CoreException():
-    '''public CoreException()
-    public CoreException(final String message)
-    public CoreException(final byte ecode)
+def ():
+    '''returns CoreException\n\n
+    ()\n
+    (final String message)\n
+    (final byte ecode)\n
     '''
 def setErrorCode():
-    '''public void setErrorCode(final byte ecode)
+    '''returns None\n\n
+    setErrorCode(final byte ecode)\n
     '''
 def getErrorCode():
-    '''public byte getErrorCode()
+    '''returns byte\n\n
+    getErrorCode()\n
     '''
 def getMessage():
-    '''public String getMessage()
-    public static String getMessage(final byte b)
+    '''returns String\n\n
+    getMessage()\n
     '''

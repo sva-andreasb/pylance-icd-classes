@@ -1,3 +1,4 @@
 def AddHazardsToWOActionHandler():
-    '''public int AddHazardsToWOActionHandler()
+    '''returns int\n\n
+    AddHazardsToWOActionHandler()\n
     '''

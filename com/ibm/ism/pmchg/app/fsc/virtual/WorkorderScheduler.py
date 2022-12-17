@@ -1,31 +1,41 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def WorkorderScheduler():
-    '''public WorkorderScheduler(final TimeZone timeZone, final Locale locale, final boolean keepShortDurationTWs)
+def ():
+    '''returns WorkorderScheduler\n\n
+    (final TimeZone timeZone, final Locale locale, final boolean keepShortDurationTWs)\n
     '''
 def computeCombinedViewTimeWindows():
-    '''public ScheduleSolution computeCombinedViewTimeWindows(final MboRemote taskMbo, final boolean useSiblingView, final boolean useOwnerShiftView, boolean useChangeWindowView, boolean useCiLoadingView, final boolean useOwnerLoadingView, boolean useRestrictedBlackoutPeriodView, boolean useLockdownBlackoutPeriodView)
+    '''returns ScheduleSolution\n\n
+    computeCombinedViewTimeWindows(final MboRemote taskMbo, final boolean useSiblingView, final boolean useOwnerShiftView, boolean useChangeWindowView, boolean useCiLoadingView, final boolean useOwnerLoadingView, boolean useRestrictedBlackoutPeriodView, boolean useLockdownBlackoutPeriodView)\n
     '''
 def computeTrgCITaskLoadingTimeWindows():
-    '''public List<TimeWindow> computeTrgCITaskLoadingTimeWindows(final MboRemote taskMbo)
+    '''returns List<TimeWindow>\n\n
+    computeTrgCITaskLoadingTimeWindows(final MboRemote taskMbo)\n
     '''
 def computeBlackoutPeriodTimeWindows():
-    '''public List<TimeWindow> computeBlackoutPeriodTimeWindows(final MboRemote taskMbo)
+    '''returns List<TimeWindow>\n\n
+    computeBlackoutPeriodTimeWindows(final MboRemote taskMbo)\n
     '''
 def computeRestrictedBlackoutPeriodTimeWindows():
-    '''public List<TimeWindow> computeRestrictedBlackoutPeriodTimeWindows(final MboRemote taskMbo)
+    '''returns List<TimeWindow>\n\n
+    computeRestrictedBlackoutPeriodTimeWindows(final MboRemote taskMbo)\n
     '''
 def computeLockdownBlackoutPeriodTimeWindows():
-    '''public List<TimeWindow> computeLockdownBlackoutPeriodTimeWindows(final MboRemote taskMbo)
+    '''returns List<TimeWindow>\n\n
+    computeLockdownBlackoutPeriodTimeWindows(final MboRemote taskMbo)\n
     '''
 def computeOwnerTaskLoadingTimeWindows():
-    '''public List<TimeWindow> computeOwnerTaskLoadingTimeWindows(final MboRemote taskMbo)
+    '''returns List<TimeWindow>\n\n
+    computeOwnerTaskLoadingTimeWindows(final MboRemote taskMbo)\n
     '''
 def computeTaskOwnerShiftTimeWindows():
-    '''public List<TimeWindow> computeTaskOwnerShiftTimeWindows(final MboRemote taskMbo)
+    '''returns List<TimeWindow>\n\n
+    computeTaskOwnerShiftTimeWindows(final MboRemote taskMbo)\n
     '''
 def computeTaskCICWTimeWindows():
-    '''public List<TimeWindow> computeTaskCICWTimeWindows(final MboRemote taskMbo)
+    '''returns List<TimeWindow>\n\n
+    computeTaskCICWTimeWindows(final MboRemote taskMbo)\n
     '''
 def computeSiblingTaskTimeWindows():
-    '''public ArrayList<TimeWindow> computeSiblingTaskTimeWindows(final MboRemote taskMbo)
+    '''returns ArrayList<TimeWindow>\n\n
+    computeSiblingTaskTimeWindows(final MboRemote taskMbo)\n
     '''

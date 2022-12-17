@@ -1,3 +1,4 @@
-def ReportJobSet():
-    '''public ReportJobSet(final MboServerInterface ms)
+def ():
+    '''returns ReportJobSet\n\n
+    (final MboServerInterface ms)\n
     '''

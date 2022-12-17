@@ -1,22 +1,29 @@
-def InvoiceService():
-    '''public InvoiceService()
-    public InvoiceService(final MXServer mxServer)
+def ():
+    '''returns InvoiceService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def getConsignmentTransactions():
-    '''public MboSetRemote getConsignmentTransactions(final String invGenType, final UserInfo userInfo, final String vendor)
+    '''returns MboSetRemote\n\n
+    getConsignmentTransactions(final String invGenType, final UserInfo userInfo, final String vendor)\n
     '''
 def addConsignmentTransactions():
-    '''public MboSetRemote addConsignmentTransactions(final MboRemote transMbo, final UserInfo userInfo)
+    '''returns MboSetRemote\n\n
+    addConsignmentTransactions(final MboRemote transMbo, final UserInfo userInfo)\n
     '''
 def setInventoryNextInvoiceDate():
-    '''public void setInventoryNextInvoiceDate(final MboSetRemote consTransactionSet)
+    '''returns None\n\n
+    setInventoryNextInvoiceDate(final MboSetRemote consTransactionSet)\n
     '''
 def createInvoiceLine():
-    '''public InvoiceLineRemote createInvoiceLine(final InvoiceRemote invoice, final String linenum)
+    '''returns InvoiceLineRemote\n\n
+    createInvoiceLine(final InvoiceRemote invoice, final String linenum)\n
     '''
 def changeStatus():
-    '''public void changeStatus(@WSMboKey("INVOICE") final InvoiceRemote invoice, final String status, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(@WSMboKey("INVOICE") final InvoiceRemote invoice, final String status, final Date date, final String memo)\n
     '''
 def createInvoicesForConsignment():
-    '''public InvoiceSetRemote createInvoicesForConsignment(final UserInfo userInfo, final MboSetRemote transSet, final String invGenType)
+    '''returns InvoiceSetRemote\n\n
+    createInvoicesForConsignment(final UserInfo userInfo, final MboSetRemote transSet, final String invGenType)\n
     '''

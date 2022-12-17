@@ -1,65 +1,73 @@
-def Phrase():
-    '''public Phrase()
-    public Phrase(final float leading)
-    public Phrase(final Chunk chunk)
-    public Phrase(final float leading, final Chunk chunk)
-    public Phrase(final String string)
-    public Phrase(final String string, final Font font)
-    public Phrase(final float leading, final String string)
-    public Phrase(final float leading, final String string, final Font font)
-    public Phrase(final Properties attributes)
-    '''
-def getInstance():
-    '''public static final Phrase getInstance(final String string)
-    public static final Phrase getInstance(final int leading, final String string)
-    public static final Phrase getInstance(final int leading, String string, final Font font)
+def ():
+    '''returns Phrase\n\n
+    ()\n
+    (final float leading)\n
+    (final Chunk chunk)\n
+    (final float leading, final Chunk chunk)\n
+    (final String string)\n
+    (final String string, final Font font)\n
+    (final float leading, final String string)\n
+    (final float leading, final String string, final Font font)\n
+    (final Properties attributes)\n
     '''
 def process():
-    '''public boolean process(final ElementListener listener)
+    '''returns boolean\n\n
+    process(final ElementListener listener)\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def getChunks():
-    '''public ArrayList getChunks()
+    '''returns ArrayList\n\n
+    getChunks()\n
     '''
 def add():
-    '''public void add(final int index, final Object o)
-    public boolean add(final Object o)
+    '''returns boolean\n\n
+    add(final int index, final Object o)\n
+    add(final Object o)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection collection)
+    '''returns boolean\n\n
+    addAll(final Collection collection)\n
     '''
 def setLeading():
-    '''public void setLeading(final float leading)
+    '''returns None\n\n
+    setLeading(final float leading)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def leadingDefined():
-    '''public boolean leadingDefined()
+    '''returns boolean\n\n
+    leadingDefined()\n
     '''
 def leading():
-    '''public float leading()
+    '''returns float\n\n
+    leading()\n
     '''
 def font():
-    '''public Font font()
-    '''
-def isTag():
-    '''public static boolean isTag(final String tag)
+    '''returns Font\n\n
+    font()\n
     '''
 def setMarkupAttribute():
-    '''public void setMarkupAttribute(final String name, final String value)
+    '''returns None\n\n
+    setMarkupAttribute(final String name, final String value)\n
     '''
 def setMarkupAttributes():
-    '''public void setMarkupAttributes(final Properties markupAttributes)
+    '''returns None\n\n
+    setMarkupAttributes(final Properties markupAttributes)\n
     '''
 def getMarkupAttribute():
-    '''public String getMarkupAttribute(final String name)
+    '''returns String\n\n
+    getMarkupAttribute(final String name)\n
     '''
 def getMarkupAttributeNames():
-    '''public Set getMarkupAttributeNames()
+    '''returns Set\n\n
+    getMarkupAttributeNames()\n
     '''
 def getMarkupAttributes():
-    '''public Properties getMarkupAttributes()
+    '''returns Properties\n\n
+    getMarkupAttributes()\n
     '''

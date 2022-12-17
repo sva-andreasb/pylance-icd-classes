@@ -1,6 +1,8 @@
-def TicketTotalByStatus():
-    '''public TicketTotalByStatus(final MboSet ms)
+def ():
+    '''returns TicketTotalByStatus\n\n
+    (final MboSet ms)\n
     '''
 def getUniqueIDName():
-    '''public String getUniqueIDName()
+    '''returns String\n\n
+    getUniqueIDName()\n
     '''

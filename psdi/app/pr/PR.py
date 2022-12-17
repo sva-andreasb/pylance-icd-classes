@@ -1,120 +1,158 @@
-def PR():
-    '''public PR(final MboSet ms)
+def ():
+    '''returns PR\n\n
+    (final MboSet ms)\n
     '''
 def getProcess():
-    '''public String getProcess()
+    '''returns String\n\n
+    getProcess()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setBillToShipToInfo():
-    '''public void setBillToShipToInfo()
+    '''returns None\n\n
+    setBillToShipToInfo()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def createPRLineFromReorder():
-    '''public PRLineRemote createPRLineFromReorder(final String description, final String storeloc, final ReorderRemote reoRemote)
+    '''returns PRLineRemote\n\n
+    createPRLineFromReorder(final String description, final String storeloc, final ReorderRemote reoRemote)\n
     '''
 def createPOsFromPR():
-    '''public Vector createPOsFromPR(final Date date)
-    public void createPOsFromPR(final String ponums, final String description)
-    public Vector createPOsFromPR(final Date date, final String ponum, final boolean isApprove, final String description)
-    public Vector createPOsFromPR(final Date date, final String ponum, final boolean isApprove, final String description, final boolean fromUI)
+    '''returns Vector\n\n
+    createPOsFromPR(final Date date)\n
+    createPOsFromPR(final String ponums, final String description)\n
+    createPOsFromPR(final Date date, final String ponum, final boolean isApprove, final String description)\n
+    createPOsFromPR(final Date date, final String ponum, final boolean isApprove, final String description, final boolean fromUI)\n
     '''
 def createPOHeaderFromPR():
-    '''public MboRemote createPOHeaderFromPR(final String ponum, final String description, final MboRemote sourceRemote)
+    '''returns MboRemote\n\n
+    createPOHeaderFromPR(final String ponum, final String description, final MboRemote sourceRemote)\n
     '''
 def getPOsCreateByApproval():
-    '''public Vector getPOsCreateByApproval()
+    '''returns Vector\n\n
+    getPOsCreateByApproval()\n
     '''
 def createRFQHeaderFromPR():
-    '''public MboRemote createRFQHeaderFromPR(final String rfqnum)
+    '''returns MboRemote\n\n
+    createRFQHeaderFromPR(final String rfqnum)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def setRelatedMboEditibility():
-    '''public void setRelatedMboEditibility(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    setRelatedMboEditibility(final String relationName, final MboSetRemote mboSet)\n
     '''
 def copySpareParts():
-    '''public void copySpareParts(final MboSetRemote sparePartSet)
+    '''returns None\n\n
+    copySpareParts(final MboSetRemote sparePartSet)\n
     '''
 def addInvVendorItemsToPRLine():
-    '''public void addInvVendorItemsToPRLine(final MboSetRemote invVendorSetRemote)
+    '''returns None\n\n
+    addInvVendorItemsToPRLine(final MboSetRemote invVendorSetRemote)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String status, final Date date, final String memo, final long accessModifier)\n
     '''
 def wapprPRCreatePO():
-    '''public boolean wapprPRCreatePO()
+    '''returns boolean\n\n
+    wapprPRCreatePO()\n
     '''
 def allLinesHaveContracts():
-    '''public boolean allLinesHaveContracts(final boolean createPO)
-    public boolean allLinesHaveContracts()
+    '''returns boolean\n\n
+    allLinesHaveContracts(final boolean createPO)\n
+    allLinesHaveContracts()\n
     '''
 def checkingBeforeCreatePOCont():
-    '''public boolean checkingBeforeCreatePOCont(final boolean createPO)
+    '''returns boolean\n\n
+    checkingBeforeCreatePOCont(final boolean createPO)\n
     '''
 def usePromptPO():
-    '''public boolean usePromptPO()
+    '''returns boolean\n\n
+    usePromptPO()\n
     '''
 def setPromptPO():
-    '''public void setPromptPO(final boolean setPromptPO)
+    '''returns None\n\n
+    setPromptPO(final boolean setPromptPO)\n
     '''
 def createContractFromPR():
-    '''public void createContractFromPR(final String contractNum, final String description, final String contractType)
+    '''returns None\n\n
+    createContractFromPR(final String contractNum, final String description, final String contractType)\n
     '''
 def isLineContNumFilled():
-    '''public boolean isLineContNumFilled(final MboSetRemote lineSet)
+    '''returns boolean\n\n
+    isLineContNumFilled(final MboSetRemote lineSet)\n
     '''
 def checkWAPPRStatus():
-    '''public void checkWAPPRStatus()
+    '''returns None\n\n
+    checkWAPPRStatus()\n
     '''
 def findMatchedPOVendor():
-    '''public MboRemote findMatchedPOVendor(final MboRemote targetMbo, final Hashtable poHashtable)
+    '''returns MboRemote\n\n
+    findMatchedPOVendor(final MboRemote targetMbo, final Hashtable poHashtable)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def unapproveMR():
-    '''public void unapproveMR(final MboRemote prLine)
-    public void unapproveMR()
-    public void unapproveMR(final String itemnum)
+    '''returns None\n\n
+    unapproveMR(final MboRemote prLine)\n
+    unapproveMR()\n
+    unapproveMR(final String itemnum)\n
     '''
 def processMR():
-    '''public void processMR(final MboSetRemote mrLineSet)
+    '''returns None\n\n
+    processMR(final MboSetRemote mrLineSet)\n
     '''
 def validatePR():
-    '''public void validatePR()
+    '''returns None\n\n
+    validatePR()\n
     '''
 def changePRStatus():
-    '''public void changePRStatus(final MboRemote fromPRLine)
+    '''returns None\n\n
+    changePRStatus(final MboRemote fromPRLine)\n
     '''
 def getCreatedByReorderFlag():
-    '''public boolean getCreatedByReorderFlag()
+    '''returns boolean\n\n
+    getCreatedByReorderFlag()\n
     '''
 def setPOTypeToConsignment():
-    '''public void setPOTypeToConsignment(final MboRemote noContractPOHeader, final MboRemote prLine, final boolean fromUI)
+    '''returns None\n\n
+    setPOTypeToConsignment(final MboRemote noContractPOHeader, final MboRemote prLine, final boolean fromUI)\n
     '''

@@ -1,9 +1,12 @@
-def SelectLicenseKeys():
-    '''public SelectLicenseKeys()
+def ():
+    '''returns SelectLicenseKeys\n\n
+    ()\n
     '''
 def callMethod():
-    '''public int callMethod(final String methodName, final WebClientEvent event, final Class[] paramTypes, final Object[] params)
+    '''returns int\n\n
+    callMethod(final String methodName, final WebClientEvent event, final Class[] paramTypes, final Object[] params)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''

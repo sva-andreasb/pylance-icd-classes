@@ -1,3 +1,4 @@
-def PartAlreadyExistsException():
-    '''public PartAlreadyExistsException(final String message)
+def ():
+    '''returns PartAlreadyExistsException\n\n
+    (final String message)\n
     '''

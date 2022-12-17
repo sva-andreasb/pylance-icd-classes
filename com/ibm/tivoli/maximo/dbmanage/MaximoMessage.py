@@ -1,16 +1,12 @@
-def setDatabaseConnection():
-    '''public static void setDatabaseConnection(final Connection dc)
-    '''
-def getMaximoMessage():
-    '''public static MaximoMessage getMaximoMessage()
-    '''
 def getMessage():
-    '''public String getMessage(final String group, final String key, final Object[] param)
-    public final String getMessage(final Throwable e)
+    '''returns String\n\n
+    getMessage(final String group, final String key, final Object[] param)\n
     '''
 def getMessageWithDefault():
-    '''public String getMessageWithDefault(final String group, final String key, final String defaultMessage, final Object[] param)
+    '''returns String\n\n
+    getMessageWithDefault(final String group, final String key, final String defaultMessage, final Object[] param)\n
     '''
 def getLevel():
-    '''public Level getLevel(final MXException mxe)
+    '''returns Level\n\n
+    getLevel(final MXException mxe)\n
     '''

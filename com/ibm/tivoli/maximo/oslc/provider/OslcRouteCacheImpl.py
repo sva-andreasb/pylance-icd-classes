@@ -1,25 +1,29 @@
-def OslcRouteCacheImpl():
-    '''public OslcRouteCacheImpl()
+def ():
+    '''returns OslcRouteCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getRouteInfo():
-    '''public RouteInfo getRouteInfo(final String route, final String method)
+    '''returns RouteInfo\n\n
+    getRouteInfo(final String route, final String method)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getRoutes():
-    '''public Map<String, RouteInfo> getRoutes()
+    '''returns String\n\n
+    getName()\n
     '''
 def getRoute():
-    '''public RouteInfo getRoute(final String route)
+    '''returns RouteInfo\n\n
+    getRoute(final String route)\n
     '''
 def getPOSTRouteInfo():
-    '''public RouteInfo getPOSTRouteInfo(final String route)
+    '''returns RouteInfo\n\n
+    getPOSTRouteInfo(final String route)\n
     '''

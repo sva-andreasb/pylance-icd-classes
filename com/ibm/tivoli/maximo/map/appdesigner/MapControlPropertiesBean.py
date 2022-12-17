@@ -1,9 +1,8 @@
 def initialize():
-    '''public void initialize()
-    '''
-def setValue():
-    '''public synchronized void setValue(final String attribute, String value, final long accessModifier)
+    '''returns None\n\n
+    initialize()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

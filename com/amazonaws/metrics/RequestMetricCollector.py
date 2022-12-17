@@ -1,7 +1,9 @@
 def isEnabled():
-    '''public boolean isEnabled()
-    public boolean isEnabled()
+    '''returns boolean\n\n
+    isEnabled()\n
+    isEnabled()\n
     '''
 def collectMetrics():
-    '''public void collectMetrics(final Request<?> request, final Response<?> response)
+    '''returns None\n\n
+    collectMetrics(final Request<?> request, final Response<?> response)\n
     '''

@@ -1,9 +1,12 @@
-def IlvFacesGanttPopupSupport():
-    '''public IlvFacesGanttPopupSupport(final IlvGanttServletSupport ilvGanttServletSupport)
+def ():
+    '''returns IlvFacesGanttPopupSupport\n\n
+    (final IlvGanttServletSupport ilvGanttServletSupport)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def getMenu():
-    '''public IlvMenu getMenu()
+    '''returns IlvMenu\n\n
+    getMenu()\n
     '''

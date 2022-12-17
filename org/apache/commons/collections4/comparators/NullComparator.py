@@ -1,15 +1,19 @@
-def NullComparator():
-    '''public NullComparator()
-    public NullComparator(final Comparator<? super E> nonNullComparator)
-    public NullComparator(final boolean nullsAreHigh)
-    public NullComparator(final Comparator<? super E> nonNullComparator, final boolean nullsAreHigh)
+def ():
+    '''returns NullComparator\n\n
+    ()\n
+    (final Comparator<? super E> nonNullComparator)\n
+    (final boolean nullsAreHigh)\n
+    (final Comparator<? super E> nonNullComparator, final boolean nullsAreHigh)\n
     '''
 def compare():
-    '''public int compare(final E o1, final E o2)
+    '''returns int\n\n
+    compare(final E o1, final E o2)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

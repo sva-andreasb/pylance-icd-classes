@@ -7,101 +7,129 @@ FIELD_TYPE_LIST = "int  5"
 FIELD_TYPE_COMBO = "int  6"
 FIELD_TYPE_SIGNATURE = "int  7"
 def getAppearanceStates():
-    '''public String[] getAppearanceStates(final String fieldName)
+    '''returns String[]\n\n
+    getAppearanceStates(final String fieldName)\n
     '''
 def getFieldType():
-    '''public int getFieldType(final String fieldName)
+    '''returns int\n\n
+    getFieldType(final String fieldName)\n
     '''
 def exportAsFdf():
-    '''public void exportAsFdf(final FdfWriter writer)
+    '''returns None\n\n
+    exportAsFdf(final FdfWriter writer)\n
     '''
 def renameField():
-    '''public boolean renameField(final String oldName, String newName)
+    '''returns boolean\n\n
+    renameField(final String oldName, String newName)\n
     '''
 def getField():
-    '''public String getField(final String name)
+    '''returns String\n\n
+    getField(final String name)\n
     '''
 def setFieldProperty():
-    '''public boolean setFieldProperty(final String field, final String name, final Object value, final int[] inst)
-    public boolean setFieldProperty(final String field, final String name, final int value, final int[] inst)
+    '''returns boolean\n\n
+    setFieldProperty(final String field, final String name, final Object value, final int[] inst)\n
+    setFieldProperty(final String field, final String name, final int value, final int[] inst)\n
     '''
 def setFields():
-    '''public void setFields(final FdfReader fdf)
-    public void setFields(final XfdfReader xfdf)
+    '''returns None\n\n
+    setFields(final FdfReader fdf)\n
+    setFields(final XfdfReader xfdf)\n
     '''
 def setField():
-    '''public boolean setField(final String name, final String value)
-    public boolean setField(final String name, String value, final String display)
+    '''returns boolean\n\n
+    setField(final String name, final String value)\n
+    setField(final String name, String value, final String display)\n
     '''
 def getFields():
-    '''public HashMap getFields()
+    '''returns HashMap\n\n
+    getFields()\n
     '''
 def getFieldItem():
-    '''public Item getFieldItem(final String name)
+    '''returns Item\n\n
+    getFieldItem(final String name)\n
     '''
 def getFieldPositions():
-    '''public float[] getFieldPositions(final String name)
+    '''returns float[]\n\n
+    getFieldPositions(final String name)\n
     '''
 def removeFieldsFromPage():
-    '''public boolean removeFieldsFromPage(final int page)
+    '''returns boolean\n\n
+    removeFieldsFromPage(final int page)\n
     '''
 def removeField():
-    '''public boolean removeField(final String name, final int page)
-    public boolean removeField(final String name)
+    '''returns boolean\n\n
+    removeField(final String name, final int page)\n
+    removeField(final String name)\n
     '''
 def isGenerateAppearances():
-    '''public boolean isGenerateAppearances()
+    '''returns boolean\n\n
+    isGenerateAppearances()\n
     '''
 def setGenerateAppearances():
-    '''public void setGenerateAppearances(final boolean generateAppearances)
+    '''returns None\n\n
+    setGenerateAppearances(final boolean generateAppearances)\n
     '''
 def getSignatureNames():
-    '''public ArrayList getSignatureNames()
+    '''returns ArrayList\n\n
+    getSignatureNames()\n
     '''
 def getBlankSignatureNames():
-    '''public ArrayList getBlankSignatureNames()
+    '''returns ArrayList\n\n
+    getBlankSignatureNames()\n
     '''
 def getSignatureDictionary():
-    '''public PdfDictionary getSignatureDictionary(final String name)
+    '''returns PdfDictionary\n\n
+    getSignatureDictionary(final String name)\n
     '''
 def signatureCoversWholeDocument():
-    '''public boolean signatureCoversWholeDocument(final String name)
+    '''returns boolean\n\n
+    signatureCoversWholeDocument(final String name)\n
     '''
 def verifySignature():
-    '''public PdfPKCS7 verifySignature(final String name)
-    public PdfPKCS7 verifySignature(final String name, final String provider)
+    '''returns PdfPKCS7\n\n
+    verifySignature(final String name)\n
+    verifySignature(final String name, final String provider)\n
     '''
 def getTotalRevisions():
-    '''public int getTotalRevisions()
+    '''returns int\n\n
+    getTotalRevisions()\n
     '''
 def getRevision():
-    '''public int getRevision(final String field)
+    '''returns int\n\n
+    getRevision(final String field)\n
     '''
 def extractRevision():
-    '''public InputStream extractRevision(final String field)
+    '''returns InputStream\n\n
+    extractRevision(final String field)\n
     '''
 def getFieldCache():
-    '''public HashMap getFieldCache()
+    '''returns HashMap\n\n
+    getFieldCache()\n
     '''
 def setFieldCache():
-    '''public void setFieldCache(final HashMap fieldCache)
+    '''returns None\n\n
+    setFieldCache(final HashMap fieldCache)\n
     '''
-def Item():
-    '''public Item()
-    '''
-def InstHit():
-    '''public InstHit(final int[] inst)
+def ():
+    '''returns InstHit\n\n
+    ()\n
+    (final int[] inst)\n
     '''
 def isHit():
-    '''public boolean isHit(final int n)
+    '''returns boolean\n\n
+    isHit(final int n)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
     '''

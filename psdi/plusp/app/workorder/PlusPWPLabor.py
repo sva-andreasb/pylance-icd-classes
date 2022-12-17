@@ -1,18 +1,24 @@
-def PlusPWPLabor():
-    '''public PlusPWPLabor(final MboSet arg0)
+def ():
+    '''returns PlusPWPLabor\n\n
+    (final MboSet arg0)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def updatePrice():
-    '''public boolean updatePrice()
+    '''returns boolean\n\n
+    updatePrice()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def refreshRate():
-    '''public void refreshRate()
+    '''returns None\n\n
+    refreshRate()\n
     '''

@@ -1,3 +1,4 @@
-def Socks5InitialRequestDecoder():
-    '''public Socks5InitialRequestDecoder()
+def ():
+    '''returns Socks5InitialRequestDecoder\n\n
+    ()\n
     '''

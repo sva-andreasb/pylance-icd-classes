@@ -1,3 +1,4 @@
-def GetBucketReplicationConfigurationRequest():
-    '''public GetBucketReplicationConfigurationRequest(final String bucketName)
+def ():
+    '''returns GetBucketReplicationConfigurationRequest\n\n
+    (final String bucketName)\n
     '''

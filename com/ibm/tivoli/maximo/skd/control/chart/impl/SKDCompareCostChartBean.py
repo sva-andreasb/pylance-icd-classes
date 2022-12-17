@@ -1,28 +1,25 @@
-def SKDCompareCostChartBean():
-    '''public SKDCompareCostChartBean()
-    '''
-def getChartIds():
-    '''public Map<String, String> getChartIds()
+def ():
+    '''returns ChartConfig\n\n
+    ()\n
+    (final String relationship, final String xcolumn, final FieldHelperFunction xfh, final FieldHelperFunction yfh)\n
     '''
 def getChart():
-    '''public Chart getChart(ChartRequestOptions req)
+    '''returns Chart\n\n
+    getChart(ChartRequestOptions req)\n
     '''
 def createSeries():
-    '''public Series createSeries(final String relation, final ChartConfig config, final String ycolumn, final String seriesLabel)
-    '''
-def getMbo():
-    '''public synchronized MboRemote getMbo()
+    '''returns Series\n\n
+    createSeries(final String relation, final ChartConfig config, final String ycolumn, final String seriesLabel)\n
     '''
 def getLabel():
-    '''public String getLabel(final MboSetRemote ms, final MboRemote mbo, final String field)
-    public String getLabel(final MboSetRemote ms, final MboRemote mbo, final String field)
-    public String getLabel(final MboSetRemote ms, final MboRemote mbo, final String field)
+    '''returns String\n\n
+    getLabel(final MboSetRemote ms, final MboRemote mbo, final String field)\n
+    getLabel(final MboSetRemote ms, final MboRemote mbo, final String field)\n
+    getLabel(final MboSetRemote ms, final MboRemote mbo, final String field)\n
     '''
 def getNumber():
-    '''public Number getNumber(final MboSetRemote ms, final MboRemote mbo, final String field)
-    public Number getNumber(final MboSetRemote ms, final MboRemote mbo, final String field)
-    public Number getNumber(final MboSetRemote ms, final MboRemote mbo, final String field)
-    '''
-def ChartConfig():
-    '''public ChartConfig(final String relationship, final String xcolumn, final FieldHelperFunction xfh, final FieldHelperFunction yfh)
+    '''returns Number\n\n
+    getNumber(final MboSetRemote ms, final MboRemote mbo, final String field)\n
+    getNumber(final MboSetRemote ms, final MboRemote mbo, final String field)\n
+    getNumber(final MboSetRemote ms, final MboRemote mbo, final String field)\n
     '''

@@ -1,86 +1,99 @@
-def empty():
-    '''public static <T> FluentIterable<T> empty()
-    '''
-def of():
-    '''public static <T> FluentIterable<T> of(final T singleton)
-    public static <T> FluentIterable<T> of(final T... elements)
-    public static <T> FluentIterable<T> of(final Iterable<T> iterable)
-    '''
 def append():
-    '''public FluentIterable<E> append(final E... elements)
-    public FluentIterable<E> append(final Iterable<? extends E> other)
+    '''returns FluentIterable<E>\n\n
+    append(final E... elements)\n
+    append(final Iterable<? extends E> other)\n
     '''
 def collate():
-    '''public FluentIterable<E> collate(final Iterable<? extends E> other)
-    public FluentIterable<E> collate(final Iterable<? extends E> other, final Comparator<? super E> comparator)
+    '''returns FluentIterable<E>\n\n
+    collate(final Iterable<? extends E> other)\n
+    collate(final Iterable<? extends E> other, final Comparator<? super E> comparator)\n
     '''
 def eval():
-    '''public FluentIterable<E> eval()
+    '''returns FluentIterable<E>\n\n
+    eval()\n
     '''
 def filter():
-    '''public FluentIterable<E> filter(final Predicate<? super E> predicate)
+    '''returns FluentIterable<E>\n\n
+    filter(final Predicate<? super E> predicate)\n
     '''
 def limit():
-    '''public FluentIterable<E> limit(final long maxSize)
+    '''returns FluentIterable<E>\n\n
+    limit(final long maxSize)\n
     '''
 def loop():
-    '''public FluentIterable<E> loop()
+    '''returns FluentIterable<E>\n\n
+    loop()\n
     '''
 def reverse():
-    '''public FluentIterable<E> reverse()
+    '''returns FluentIterable<E>\n\n
+    reverse()\n
     '''
 def skip():
-    '''public FluentIterable<E> skip(final long elementsToSkip)
-    '''
-def transform():
-    '''public <O> FluentIterable<O> transform(final Transformer<? super E, ? extends O> transformer)
+    '''returns FluentIterable<E>\n\n
+    skip(final long elementsToSkip)\n
     '''
 def unique():
-    '''public FluentIterable<E> unique()
+    '''returns FluentIterable<E>\n\n
+    unique()\n
     '''
 def unmodifiable():
-    '''public FluentIterable<E> unmodifiable()
+    '''returns FluentIterable<E>\n\n
+    unmodifiable()\n
     '''
 def zip():
-    '''public FluentIterable<E> zip(final Iterable<? extends E> other)
-    public FluentIterable<E> zip(final Iterable<? extends E>... others)
+    '''returns FluentIterable<E>\n\n
+    zip(final Iterable<? extends E> other)\n
+    zip(final Iterable<? extends E>... others)\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def asEnumeration():
-    '''public Enumeration<E> asEnumeration()
+    '''returns Enumeration<E>\n\n
+    asEnumeration()\n
     '''
 def allMatch():
-    '''public boolean allMatch(final Predicate<? super E> predicate)
+    '''returns boolean\n\n
+    allMatch(final Predicate<? super E> predicate)\n
     '''
 def anyMatch():
-    '''public boolean anyMatch(final Predicate<? super E> predicate)
+    '''returns boolean\n\n
+    anyMatch(final Predicate<? super E> predicate)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def contains():
-    '''public boolean contains(final Object object)
+    '''returns boolean\n\n
+    contains(final Object object)\n
     '''
 def forEach():
-    '''public void forEach(final Closure<? super E> closure)
+    '''returns None\n\n
+    forEach(final Closure<? super E> closure)\n
     '''
 def get():
-    '''public E get(final int position)
+    '''returns E\n\n
+    get(final int position)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def copyInto():
-    '''public void copyInto(final Collection<? super E> collection)
+    '''returns None\n\n
+    copyInto(final Collection<? super E> collection)\n
     '''
 def toArray():
-    '''public E[] toArray(final Class<E> arrayClass)
+    '''returns E[]\n\n
+    toArray(final Class<E> arrayClass)\n
     '''
 def toList():
-    '''public List<E> toList()
+    '''returns List<E>\n\n
+    toList()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

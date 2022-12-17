@@ -1,6 +1,8 @@
-def WeatherAllProductsSet():
-    '''public WeatherAllProductsSet(final MboServerInterface ms)
+def ():
+    '''returns WeatherAllProductsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def apply():
-    '''public void apply(final MboSetRemote parent)
+    '''returns None\n\n
+    apply(final MboSetRemote parent)\n
     '''

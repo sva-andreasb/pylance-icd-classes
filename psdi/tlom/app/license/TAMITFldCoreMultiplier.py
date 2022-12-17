@@ -1,6 +1,8 @@
-def TAMITFldCoreMultiplier():
-    '''public TAMITFldCoreMultiplier(final MboValue mbv)
+def ():
+    '''returns TAMITFldCoreMultiplier\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

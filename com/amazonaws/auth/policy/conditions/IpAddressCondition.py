@@ -1,4 +1,5 @@
-def IpAddressCondition():
-    '''public IpAddressCondition(final String ipAddressRange)
-    public IpAddressCondition(final IpAddressComparisonType type, final String ipAddressRange)
+def ():
+    '''returns IpAddressCondition\n\n
+    (final String ipAddressRange)\n
+    (final IpAddressComparisonType type, final String ipAddressRange)\n
     '''

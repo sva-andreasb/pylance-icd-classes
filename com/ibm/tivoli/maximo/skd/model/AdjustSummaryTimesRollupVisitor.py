@@ -1,6 +1,8 @@
 def updateSummary():
-    '''public boolean updateSummary(final IMXActivity parent, final List<IMXActivity> children)
+    '''returns boolean\n\n
+    updateSummary(final IMXActivity parent, final List<IMXActivity> children)\n
     '''
 def updateItem():
-    '''public boolean updateItem(final IMXActivity item)
+    '''returns boolean\n\n
+    updateItem(final IMXActivity item)\n
     '''

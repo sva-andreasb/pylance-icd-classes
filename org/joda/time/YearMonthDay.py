@@ -1,147 +1,182 @@
 YEAR = "int  0"
 MONTH_OF_YEAR = "int  1"
 DAY_OF_MONTH = "int  2"
-def fromCalendarFields():
-    '''public static YearMonthDay fromCalendarFields(final Calendar calendar)
-    '''
-def fromDateFields():
-    '''public static YearMonthDay fromDateFields(final Date date)
-    '''
-def YearMonthDay():
-    '''public YearMonthDay()
-    public YearMonthDay(final DateTimeZone dateTimeZone)
-    public YearMonthDay(final Chronology chronology)
-    public YearMonthDay(final long n)
-    public YearMonthDay(final long n, final Chronology chronology)
-    public YearMonthDay(final Object o)
-    public YearMonthDay(final Object o, final Chronology chronology)
-    public YearMonthDay(final int n, final int n2, final int n3)
-    public YearMonthDay(final int n, final int n2, final int n3, final Chronology chronology)
+def ():
+    '''returns YearMonthDay\n\n
+    ()\n
+    (final DateTimeZone dateTimeZone)\n
+    (final Chronology chronology)\n
+    (final long n)\n
+    (final long n, final Chronology chronology)\n
+    (final Object o)\n
+    (final Object o, final Chronology chronology)\n
+    (final int n, final int n2, final int n3)\n
+    (final int n, final int n2, final int n3, final Chronology chronology)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getFieldType():
-    '''public DateTimeFieldType getFieldType(final int n)
+    '''returns DateTimeFieldType\n\n
+    getFieldType(final int n)\n
     '''
 def getFieldTypes():
-    '''public DateTimeFieldType[] getFieldTypes()
+    '''returns DateTimeFieldType[]\n\n
+    getFieldTypes()\n
     '''
 def withChronologyRetainFields():
-    '''public YearMonthDay withChronologyRetainFields(Chronology chronology)
+    '''returns YearMonthDay\n\n
+    withChronologyRetainFields(Chronology chronology)\n
     '''
 def withField():
-    '''public YearMonthDay withField(final DateTimeFieldType dateTimeFieldType, final int n)
+    '''returns YearMonthDay\n\n
+    withField(final DateTimeFieldType dateTimeFieldType, final int n)\n
     '''
 def withFieldAdded():
-    '''public YearMonthDay withFieldAdded(final DurationFieldType durationFieldType, final int n)
+    '''returns YearMonthDay\n\n
+    withFieldAdded(final DurationFieldType durationFieldType, final int n)\n
     '''
 def withPeriodAdded():
-    '''public YearMonthDay withPeriodAdded(final ReadablePeriod readablePeriod, final int n)
+    '''returns YearMonthDay\n\n
+    withPeriodAdded(final ReadablePeriod readablePeriod, final int n)\n
     '''
 def plus():
-    '''public YearMonthDay plus(final ReadablePeriod readablePeriod)
+    '''returns YearMonthDay\n\n
+    plus(final ReadablePeriod readablePeriod)\n
     '''
 def plusYears():
-    '''public YearMonthDay plusYears(final int n)
+    '''returns YearMonthDay\n\n
+    plusYears(final int n)\n
     '''
 def plusMonths():
-    '''public YearMonthDay plusMonths(final int n)
+    '''returns YearMonthDay\n\n
+    plusMonths(final int n)\n
     '''
 def plusDays():
-    '''public YearMonthDay plusDays(final int n)
+    '''returns YearMonthDay\n\n
+    plusDays(final int n)\n
     '''
 def minus():
-    '''public YearMonthDay minus(final ReadablePeriod readablePeriod)
+    '''returns YearMonthDay\n\n
+    minus(final ReadablePeriod readablePeriod)\n
     '''
 def minusYears():
-    '''public YearMonthDay minusYears(final int n)
+    '''returns YearMonthDay\n\n
+    minusYears(final int n)\n
     '''
 def minusMonths():
-    '''public YearMonthDay minusMonths(final int n)
+    '''returns YearMonthDay\n\n
+    minusMonths(final int n)\n
     '''
 def minusDays():
-    '''public YearMonthDay minusDays(final int n)
+    '''returns YearMonthDay\n\n
+    minusDays(final int n)\n
     '''
 def property():
-    '''public Property property(final DateTimeFieldType dateTimeFieldType)
+    '''returns Property\n\n
+    property(final DateTimeFieldType dateTimeFieldType)\n
     '''
 def toLocalDate():
-    '''public LocalDate toLocalDate()
+    '''returns LocalDate\n\n
+    toLocalDate()\n
     '''
 def toDateTimeAtMidnight():
-    '''public DateTime toDateTimeAtMidnight()
-    public DateTime toDateTimeAtMidnight(final DateTimeZone dateTimeZone)
+    '''returns DateTime\n\n
+    toDateTimeAtMidnight()\n
+    toDateTimeAtMidnight(final DateTimeZone dateTimeZone)\n
     '''
 def toDateTimeAtCurrentTime():
-    '''public DateTime toDateTimeAtCurrentTime()
-    public DateTime toDateTimeAtCurrentTime(final DateTimeZone dateTimeZone)
+    '''returns DateTime\n\n
+    toDateTimeAtCurrentTime()\n
+    toDateTimeAtCurrentTime(final DateTimeZone dateTimeZone)\n
     '''
 def toDateMidnight():
-    '''public DateMidnight toDateMidnight()
-    public DateMidnight toDateMidnight(final DateTimeZone dateTimeZone)
+    '''returns DateMidnight\n\n
+    toDateMidnight()\n
+    toDateMidnight(final DateTimeZone dateTimeZone)\n
     '''
 def toDateTime():
-    '''public DateTime toDateTime(final TimeOfDay timeOfDay)
-    public DateTime toDateTime(final TimeOfDay timeOfDay, final DateTimeZone dateTimeZone)
+    '''returns DateTime\n\n
+    toDateTime(final TimeOfDay timeOfDay)\n
+    toDateTime(final TimeOfDay timeOfDay, final DateTimeZone dateTimeZone)\n
     '''
 def toInterval():
-    '''public Interval toInterval()
-    public Interval toInterval(DateTimeZone zone)
+    '''returns Interval\n\n
+    toInterval()\n
+    toInterval(DateTimeZone zone)\n
     '''
 def getYear():
-    '''public int getYear()
+    '''returns int\n\n
+    getYear()\n
     '''
 def getMonthOfYear():
-    '''public int getMonthOfYear()
+    '''returns int\n\n
+    getMonthOfYear()\n
     '''
 def getDayOfMonth():
-    '''public int getDayOfMonth()
+    '''returns int\n\n
+    getDayOfMonth()\n
     '''
 def withYear():
-    '''public YearMonthDay withYear(final int n)
+    '''returns YearMonthDay\n\n
+    withYear(final int n)\n
     '''
 def withMonthOfYear():
-    '''public YearMonthDay withMonthOfYear(final int n)
+    '''returns YearMonthDay\n\n
+    withMonthOfYear(final int n)\n
     '''
 def withDayOfMonth():
-    '''public YearMonthDay withDayOfMonth(final int n)
+    '''returns YearMonthDay\n\n
+    withDayOfMonth(final int n)\n
     '''
 def year():
-    '''public Property year()
+    '''returns Property\n\n
+    year()\n
     '''
 def monthOfYear():
-    '''public Property monthOfYear()
+    '''returns Property\n\n
+    monthOfYear()\n
     '''
 def dayOfMonth():
-    '''public Property dayOfMonth()
+    '''returns Property\n\n
+    dayOfMonth()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getField():
-    '''public DateTimeField getField()
+    '''returns DateTimeField\n\n
+    getField()\n
     '''
 def getYearMonthDay():
-    '''public YearMonthDay getYearMonthDay()
+    '''returns YearMonthDay\n\n
+    getYearMonthDay()\n
     '''
 def get():
-    '''public int get()
+    '''returns int\n\n
+    get()\n
     '''
 def addToCopy():
-    '''public YearMonthDay addToCopy(final int n)
+    '''returns YearMonthDay\n\n
+    addToCopy(final int n)\n
     '''
 def addWrapFieldToCopy():
-    '''public YearMonthDay addWrapFieldToCopy(final int n)
+    '''returns YearMonthDay\n\n
+    addWrapFieldToCopy(final int n)\n
     '''
 def setCopy():
-    '''public YearMonthDay setCopy(final int n)
-    public YearMonthDay setCopy(final String s, final Locale locale)
-    public YearMonthDay setCopy(final String s)
+    '''returns YearMonthDay\n\n
+    setCopy(final int n)\n
+    setCopy(final String s, final Locale locale)\n
+    setCopy(final String s)\n
     '''
 def withMaximumValue():
-    '''public YearMonthDay withMaximumValue()
+    '''returns YearMonthDay\n\n
+    withMaximumValue()\n
     '''
 def withMinimumValue():
-    '''public YearMonthDay withMinimumValue()
+    '''returns YearMonthDay\n\n
+    withMinimumValue()\n
     '''

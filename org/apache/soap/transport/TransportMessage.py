@@ -1,65 +1,86 @@
-def TransportMessage():
-    '''public TransportMessage()
-    public TransportMessage(final InputStream inputStream, final int i, final String contentType, final SOAPContext ctx, final Hashtable headers)
-    public TransportMessage(final String envelope, final SOAPContext ctx, final Hashtable headers)
+def ():
+    '''returns TransportMessage\n\n
+    ()\n
+    (final InputStream inputStream, final int i, final String contentType, final SOAPContext ctx, final Hashtable headers)\n
+    (final String envelope, final SOAPContext ctx, final Hashtable headers)\n
     '''
 def editIncoming():
-    '''public void editIncoming(final EnvelopeEditor envelopeEditor)
+    '''returns None\n\n
+    editIncoming(final EnvelopeEditor envelopeEditor)\n
     '''
 def editOutgoing():
-    '''public void editOutgoing(final EnvelopeEditor envelopeEditor)
+    '''returns None\n\n
+    editOutgoing(final EnvelopeEditor envelopeEditor)\n
     '''
 def getBytes():
-    '''public byte[] getBytes()
+    '''returns byte[]\n\n
+    getBytes()\n
     '''
 def getContentLength():
-    '''public int getContentLength()
+    '''returns int\n\n
+    getContentLength()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getEnvelope():
-    '''public String getEnvelope()
+    '''returns String\n\n
+    getEnvelope()\n
     '''
 def getEnvelopeReader():
-    '''public Reader getEnvelopeReader()
+    '''returns Reader\n\n
+    getEnvelopeReader()\n
     '''
 def getHeader():
-    '''public String getHeader(final String key)
+    '''returns String\n\n
+    getHeader(final String key)\n
     '''
 def getHeaderNames():
-    '''public Enumeration getHeaderNames()
+    '''returns Enumeration\n\n
+    getHeaderNames()\n
     '''
 def getHeaders():
-    '''public Hashtable getHeaders()
+    '''returns Hashtable\n\n
+    getHeaders()\n
     '''
 def getSOAPContext():
-    '''public SOAPContext getSOAPContext()
+    '''returns SOAPContext\n\n
+    getSOAPContext()\n
     '''
 def read():
-    '''public String read()
+    '''returns String\n\n
+    read()\n
     '''
 def readFully():
-    '''public void readFully(final InputStream inputStream)
+    '''returns None\n\n
+    readFully(final InputStream inputStream)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def setBytes():
-    '''public void setBytes(final byte[] bytes)
+    '''returns None\n\n
+    setBytes(final byte[] bytes)\n
     '''
 def setContentType():
-    '''public void setContentType(final String contentType)
+    '''returns None\n\n
+    setContentType(final String contentType)\n
     '''
 def setEnvelope():
-    '''public void setEnvelope(final String envelope)
+    '''returns None\n\n
+    setEnvelope(final String envelope)\n
     '''
 def setHeader():
-    '''public void setHeader(final String key, final String value)
+    '''returns None\n\n
+    setHeader(final String key, final String value)\n
     '''
 def unmarshall():
-    '''public Envelope unmarshall(final DocumentBuilder documentBuilder)
+    '''returns Envelope\n\n
+    unmarshall(final DocumentBuilder documentBuilder)\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream outputStream)
+    '''returns None\n\n
+    writeTo(final OutputStream outputStream)\n
     '''

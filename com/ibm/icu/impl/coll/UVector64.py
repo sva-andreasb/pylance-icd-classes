@@ -1,27 +1,36 @@
-def UVector64():
-    '''public UVector64()
+def ():
+    '''returns UVector64\n\n
+    ()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def elementAti():
-    '''public long elementAti(final int i)
+    '''returns long\n\n
+    elementAti(final int i)\n
     '''
 def getBuffer():
-    '''public long[] getBuffer()
+    '''returns long[]\n\n
+    getBuffer()\n
     '''
 def addElement():
-    '''public void addElement(final long e)
+    '''returns None\n\n
+    addElement(final long e)\n
     '''
 def setElementAt():
-    '''public void setElementAt(final long elem, final int index)
+    '''returns None\n\n
+    setElementAt(final long elem, final int index)\n
     '''
 def insertElementAt():
-    '''public void insertElementAt(final long elem, final int index)
+    '''returns None\n\n
+    insertElementAt(final long elem, final int index)\n
     '''
 def removeAllElements():
-    '''public void removeAllElements()
+    '''returns None\n\n
+    removeAllElements()\n
     '''

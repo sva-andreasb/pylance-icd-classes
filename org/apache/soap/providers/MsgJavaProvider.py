@@ -1,6 +1,8 @@
 def invoke():
-    '''public void invoke(final SOAPContext soapContext, final SOAPContext soapContext2)
+    '''returns None\n\n
+    invoke(final SOAPContext soapContext, final SOAPContext soapContext2)\n
     '''
 def locate():
-    '''public void locate(final DeploymentDescriptor dd, final Envelope envelope, final Call call, final String s, final String targetObjectURI, final SOAPContext soapContext)
+    '''returns None\n\n
+    locate(final DeploymentDescriptor dd, final Envelope envelope, final Call call, final String s, final String targetObjectURI, final SOAPContext soapContext)\n
     '''

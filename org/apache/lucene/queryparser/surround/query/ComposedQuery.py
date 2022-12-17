@@ -1,27 +1,36 @@
-def ComposedQuery():
-    '''public ComposedQuery(final List<SrndQuery> qs, final boolean operatorInfix, final String opName)
+def ():
+    '''returns ComposedQuery\n\n
+    (final List<SrndQuery> qs, final boolean operatorInfix, final String opName)\n
     '''
 def getOperatorName():
-    '''public String getOperatorName()
+    '''returns String\n\n
+    getOperatorName()\n
     '''
 def getSubQueriesIterator():
-    '''public Iterator<SrndQuery> getSubQueriesIterator()
+    '''returns Iterator<SrndQuery>\n\n
+    getSubQueriesIterator()\n
     '''
 def getNrSubQueries():
-    '''public int getNrSubQueries()
+    '''returns int\n\n
+    getNrSubQueries()\n
     '''
 def getSubQuery():
-    '''public SrndQuery getSubQuery(final int qn)
+    '''returns SrndQuery\n\n
+    getSubQuery(final int qn)\n
     '''
 def isOperatorInfix():
-    '''public boolean isOperatorInfix()
+    '''returns boolean\n\n
+    isOperatorInfix()\n
     '''
 def makeLuceneSubQueriesField():
-    '''public List<Query> makeLuceneSubQueriesField(final String fn, final BasicQueryFactory qf)
+    '''returns List<Query>\n\n
+    makeLuceneSubQueriesField(final String fn, final BasicQueryFactory qf)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isFieldsSubQueryAcceptable():
-    '''public boolean isFieldsSubQueryAcceptable()
+    '''returns boolean\n\n
+    isFieldsSubQueryAcceptable()\n
     '''

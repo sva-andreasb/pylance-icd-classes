@@ -1,36 +1,48 @@
-def AdminGroup():
-    '''public AdminGroup(final String name)
+def ():
+    '''returns AdminGroup\n\n
+    (final String name)\n
     '''
 def addMember():
-    '''public boolean addMember(final Principal user)
+    '''returns boolean\n\n
+    addMember(final Principal user)\n
     '''
 def isMember():
-    '''public boolean isMember(final Principal member)
+    '''returns boolean\n\n
+    isMember(final Principal member)\n
     '''
 def iterator():
-    '''public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def members():
-    '''public Enumeration members()
+    '''returns Enumeration\n\n
+    members()\n
     '''
 def membersAsSet():
-    '''public Set membersAsSet()
+    '''returns Set\n\n
+    membersAsSet()\n
     '''
 def removeMember():
-    '''public boolean removeMember(final Principal user)
+    '''returns boolean\n\n
+    removeMember(final Principal user)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def print():
-    '''public void print(final PrintStream printer, final String header)
+    '''returns None\n\n
+    print(final PrintStream printer, final String header)\n
     '''

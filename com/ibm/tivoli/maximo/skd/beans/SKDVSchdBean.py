@@ -1,9 +1,12 @@
-def SKDVSchdBean():
-    '''public SKDVSchdBean()
+def ():
+    '''returns SKDVSchdBean\n\n
+    ()\n
     '''
 def setCronName():
-    '''public void setCronName(final String cronName)
+    '''returns None\n\n
+    setCronName(final String cronName)\n
     '''
 def refresh():
-    '''public int refresh()
+    '''returns int\n\n
+    refresh()\n
     '''

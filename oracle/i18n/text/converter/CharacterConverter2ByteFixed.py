@@ -1,15 +1,20 @@
-def CharacterConverter2ByteFixed():
-    '''public CharacterConverter2ByteFixed()
+def ():
+    '''returns CharacterConverter2ByteFixed\n\n
+    ()\n
     '''
 def toUnicodeString():
-    '''public String toUnicodeString(final byte[] array, final int n, final int n2)
+    '''returns String\n\n
+    toUnicodeString(final byte[] array, final int n, final int n2)\n
     '''
 def toUnicodeStringWithReplacement():
-    '''public String toUnicodeStringWithReplacement(final byte[] array, final int n, final int n2)
+    '''returns String\n\n
+    toUnicodeStringWithReplacement(final byte[] array, final int n, final int n2)\n
     '''
 def toOracleString():
-    '''public byte[] toOracleString(final String s)
+    '''returns byte[]\n\n
+    toOracleString(final String s)\n
     '''
 def toOracleStringWithReplacement():
-    '''public byte[] toOracleStringWithReplacement(final char[] array, final int n, final byte[] array2, int n2, final int[] array3)
+    '''returns byte[]\n\n
+    toOracleStringWithReplacement(final char[] array, final int n, final byte[] array2, int n2, final int[] array3)\n
     '''

@@ -1,6 +1,8 @@
 def setSignatureConfig():
-    '''public void setSignatureConfig(final SignatureConfig signatureConfig)
+    '''returns None\n\n
+    setSignatureConfig(final SignatureConfig signatureConfig)\n
     '''
 def dereference():
-    '''public Data dereference(final URIReference uriReference, final XMLCryptoContext context)
+    '''returns Data\n\n
+    dereference(final URIReference uriReference, final XMLCryptoContext context)\n
     '''

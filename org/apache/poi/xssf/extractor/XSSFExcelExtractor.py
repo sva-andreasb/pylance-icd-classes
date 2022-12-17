@@ -1,28 +1,33 @@
-def XSSFExcelExtractor():
-    '''public XSSFExcelExtractor(final OPCPackage container)
-    public XSSFExcelExtractor(final XSSFWorkbook workbook)
-    '''
-def main():
-    '''public static void main(final String[] args)
+def ():
+    '''returns XSSFExcelExtractor\n\n
+    (final OPCPackage container)\n
+    (final XSSFWorkbook workbook)\n
     '''
 def setIncludeSheetNames():
-    '''public void setIncludeSheetNames(final boolean includeSheetNames)
+    '''returns None\n\n
+    setIncludeSheetNames(final boolean includeSheetNames)\n
     '''
 def setFormulasNotResults():
-    '''public void setFormulasNotResults(final boolean formulasNotResults)
+    '''returns None\n\n
+    setFormulasNotResults(final boolean formulasNotResults)\n
     '''
 def setIncludeCellComments():
-    '''public void setIncludeCellComments(final boolean includeCellComments)
+    '''returns None\n\n
+    setIncludeCellComments(final boolean includeCellComments)\n
     '''
 def setIncludeHeadersFooters():
-    '''public void setIncludeHeadersFooters(final boolean includeHeadersFooters)
+    '''returns None\n\n
+    setIncludeHeadersFooters(final boolean includeHeadersFooters)\n
     '''
 def setIncludeTextBoxes():
-    '''public void setIncludeTextBoxes(final boolean includeTextBoxes)
+    '''returns None\n\n
+    setIncludeTextBoxes(final boolean includeTextBoxes)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''

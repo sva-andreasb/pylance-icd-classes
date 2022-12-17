@@ -1,6 +1,8 @@
-def ResourceBinary():
-    '''public ResourceBinary(final String name)
+def ():
+    '''returns ResourceBinary\n\n
+    (final String name)\n
     '''
 def getResource():
-    '''public Object getResource(final Object obj)
+    '''returns Object\n\n
+    getResource(final Object obj)\n
     '''

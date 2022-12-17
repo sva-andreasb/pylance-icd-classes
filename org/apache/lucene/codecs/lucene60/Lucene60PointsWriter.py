@@ -1,20 +1,26 @@
-def Lucene60PointsWriter():
-    '''public Lucene60PointsWriter(final SegmentWriteState writeState, final int maxPointsInLeafNode, final double maxMBSortInHeap)
-    public Lucene60PointsWriter(final SegmentWriteState writeState)
+def ():
+    '''returns Lucene60PointsWriter\n\n
+    (final SegmentWriteState writeState, final int maxPointsInLeafNode, final double maxMBSortInHeap)\n
+    (final SegmentWriteState writeState)\n
     '''
 def writeField():
-    '''public void writeField(final FieldInfo fieldInfo, final PointsReader reader)
+    '''returns None\n\n
+    writeField(final FieldInfo fieldInfo, final PointsReader reader)\n
     '''
 def visit():
-    '''public void visit(final int docID)
-    public void visit(final int docID, final byte[] packedValue)
+    '''returns None\n\n
+    visit(final int docID)\n
+    visit(final int docID, final byte[] packedValue)\n
     '''
 def merge():
-    '''public void merge(final MergeState mergeState)
+    '''returns None\n\n
+    merge(final MergeState mergeState)\n
     '''
 def finish():
-    '''public void finish()
+    '''returns None\n\n
+    finish()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

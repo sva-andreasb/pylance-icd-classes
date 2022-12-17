@@ -1,6 +1,8 @@
-def FldSKDProjectChangeBy():
-    '''public FldSKDProjectChangeBy(final MboValue mbv)
+def ():
+    '''returns FldSKDProjectChangeBy\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

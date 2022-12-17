@@ -1,138 +1,184 @@
-def ScopedFixlet():
-    '''public ScopedFixlet()
+def ():
+    '''returns ScopedFixlet\n\n
+    ()\n
     '''
 def getSourceSeverity():
-    '''public String getSourceSeverity()
+    '''returns String\n\n
+    getSourceSeverity()\n
     '''
 def setSourceSeverity():
-    '''public void setSourceSeverity(final String sourceSeverity)
+    '''returns None\n\n
+    setSourceSeverity(final String sourceSeverity)\n
     '''
 def getDisplaySourceSeverity():
-    '''public String getDisplaySourceSeverity()
+    '''returns String\n\n
+    getDisplaySourceSeverity()\n
     '''
 def setDisplaySourceSeverity():
-    '''public void setDisplaySourceSeverity(final String displaySourceSeverity)
+    '''returns None\n\n
+    setDisplaySourceSeverity(final String displaySourceSeverity)\n
     '''
 def getDisplayCategory():
-    '''public String getDisplayCategory()
+    '''returns String\n\n
+    getDisplayCategory()\n
     '''
 def setDisplayCategory():
-    '''public void setDisplayCategory(final String displayCategory)
+    '''returns None\n\n
+    setDisplayCategory(final String displayCategory)\n
     '''
 def getDisplaySource():
-    '''public String getDisplaySource()
+    '''returns String\n\n
+    getDisplaySource()\n
     '''
 def setDisplaySource():
-    '''public void setDisplaySource(final String displaySource)
+    '''returns None\n\n
+    setDisplaySource(final String displaySource)\n
     '''
 def getSourceId():
-    '''public String getSourceId()
+    '''returns String\n\n
+    getSourceId()\n
     '''
 def setSourceId():
-    '''public void setSourceId(final String sourceId)
+    '''returns None\n\n
+    setSourceId(final String sourceId)\n
     '''
 def getDisplaySourceId():
-    '''public String getDisplaySourceId()
+    '''returns String\n\n
+    getDisplaySourceId()\n
     '''
 def setDisplaySourceId():
-    '''public void setDisplaySourceId(final String displaySourceId)
+    '''returns None\n\n
+    setDisplaySourceId(final String displaySourceId)\n
     '''
 def getSourceReleaseDate():
-    '''public String getSourceReleaseDate()
+    '''returns String\n\n
+    getSourceReleaseDate()\n
     '''
 def setSourceReleaseDate():
-    '''public void setSourceReleaseDate(final String sourceReleaseDate)
+    '''returns None\n\n
+    setSourceReleaseDate(final String sourceReleaseDate)\n
     '''
 def getCveIdList():
-    '''public String getCveIdList()
+    '''returns String\n\n
+    getCveIdList()\n
     '''
 def setCveIdList():
-    '''public void setCveIdList(final String cveList)
+    '''returns None\n\n
+    setCveIdList(final String cveList)\n
     '''
 def getSansIdList():
-    '''public String getSansIdList()
+    '''returns String\n\n
+    getSansIdList()\n
     '''
 def setSansIdList():
-    '''public void setSansIdList(final String sansList)
+    '''returns None\n\n
+    setSansIdList(final String sansList)\n
     '''
 def getHtmlMessage():
-    '''public String getHtmlMessage()
+    '''returns String\n\n
+    getHtmlMessage()\n
     '''
 def setHtmlMessage():
-    '''public void setHtmlMessage(final String htmlMessage)
+    '''returns None\n\n
+    setHtmlMessage(final String htmlMessage)\n
     '''
 def getHtmlDisplayMessage():
-    '''public String getHtmlDisplayMessage()
+    '''returns String\n\n
+    getHtmlDisplayMessage()\n
     '''
 def setHtmlDisplayMessage():
-    '''public void setHtmlDisplayMessage(final String htmlDisplayMessage)
+    '''returns None\n\n
+    setHtmlDisplayMessage(final String htmlDisplayMessage)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def getApplicableComputerCount():
-    '''public int getApplicableComputerCount()
+    '''returns int\n\n
+    getApplicableComputerCount()\n
     '''
 def setApplicableComputerCount():
-    '''public void setApplicableComputerCount(final int applicableComputerCount)
+    '''returns None\n\n
+    setApplicableComputerCount(final int applicableComputerCount)\n
     '''
 def getId():
-    '''public int getId()
+    '''returns int\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final int id)
+    '''returns None\n\n
+    setId(final int id)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String descr)
+    '''returns None\n\n
+    setDescription(final String descr)\n
     '''
 def getNameOfSite():
-    '''public String getNameOfSite()
+    '''returns String\n\n
+    getNameOfSite()\n
     '''
 def setNameOfSite():
-    '''public void setNameOfSite(final String nameOfSite)
+    '''returns None\n\n
+    setNameOfSite(final String nameOfSite)\n
     '''
 def getTypeOfSite():
-    '''public String getTypeOfSite()
+    '''returns String\n\n
+    getTypeOfSite()\n
     '''
 def setTypeOfSite():
-    '''public void setTypeOfSite(final String typeOfSite)
+    '''returns None\n\n
+    setTypeOfSite(final String typeOfSite)\n
     '''
 def getDisplayNameOfSite():
-    '''public String getDisplayNameOfSite()
+    '''returns String\n\n
+    getDisplayNameOfSite()\n
     '''
 def setDisplayNameOfSite():
-    '''public void setDisplayNameOfSite(final String displayNameOfSite)
+    '''returns None\n\n
+    setDisplayNameOfSite(final String displayNameOfSite)\n
     '''
 def getCategory():
-    '''public String getCategory()
+    '''returns String\n\n
+    getCategory()\n
     '''
 def setCategory():
-    '''public void setCategory(final String category)
+    '''returns None\n\n
+    setCategory(final String category)\n
     '''
 def getSource():
-    '''public String getSource()
+    '''returns String\n\n
+    getSource()\n
     '''
 def setSource():
-    '''public void setSource(final String source)
+    '''returns None\n\n
+    setSource(final String source)\n
     '''
 def getDownloadSize():
-    '''public long getDownloadSize()
+    '''returns long\n\n
+    getDownloadSize()\n
     '''
 def setDownloadSize():
-    '''public void setDownloadSize(final long downloadSize)
+    '''returns None\n\n
+    setDownloadSize(final long downloadSize)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

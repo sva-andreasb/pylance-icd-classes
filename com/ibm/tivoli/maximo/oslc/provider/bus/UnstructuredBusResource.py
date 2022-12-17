@@ -1,33 +1,44 @@
-def UnstructuredBusResource():
-    '''public UnstructuredBusResource(final String uri)
+def ():
+    '''returns UnstructuredBusResource\n\n
+    (final String uri)\n
     '''
 def isStructured():
-    '''public boolean isStructured()
+    '''returns boolean\n\n
+    isStructured()\n
     '''
 def setMimeType():
-    '''public void setMimeType(final String mimeType)
+    '''returns None\n\n
+    setMimeType(final String mimeType)\n
     '''
 def getMimeType():
-    '''public String getMimeType()
+    '''returns String\n\n
+    getMimeType()\n
     '''
 def setData():
-    '''public void setData(final byte[] data)
+    '''returns None\n\n
+    setData(final byte[] data)\n
     '''
 def setInputStream():
-    '''public void setInputStream(final InputStream iStream)
+    '''returns None\n\n
+    setInputStream(final InputStream iStream)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''
 def setHeader():
-    '''public void setHeader(final String header, final String value)
+    '''returns None\n\n
+    setHeader(final String header, final String value)\n
     '''
 def setFile():
-    '''public void setFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''

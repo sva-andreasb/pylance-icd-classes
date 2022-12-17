@@ -1,166 +1,216 @@
 def disableControlTS():
-    '''public void disableControlTS()
+    '''returns None\n\n
+    disableControlTS()\n
     '''
-def ConfigDB():
-    '''public ConfigDB()
-    public ConfigDB(final MXServer server)
+def ():
+    '''returns ConfigDB\n\n
+    ()\n
+    (final MXServer server)\n
     '''
 def setUpgradeCallout():
-    '''public void setUpgradeCallout(final String val)
+    '''returns None\n\n
+    setUpgradeCallout(final String val)\n
     '''
 def process():
-    '''public void process()
+    '''returns None\n\n
+    process()\n
     '''
 def setObjectNames():
-    '''public void setObjectNames(final HashSet objects)
+    '''returns None\n\n
+    setObjectNames(final HashSet objects)\n
     '''
 def setSRTableExists():
-    '''public void setSRTableExists()
+    '''returns None\n\n
+    setSRTableExists()\n
     '''
 def checkForBackup():
-    '''public boolean checkForBackup()
+    '''returns boolean\n\n
+    checkForBackup()\n
     '''
 def adjustMetadata():
-    '''public void adjustMetadata()
+    '''returns None\n\n
+    adjustMetadata()\n
     '''
 def spaceCheck():
-    '''public boolean spaceCheck()
+    '''returns boolean\n\n
+    spaceCheck()\n
     '''
 def getMetadata():
-    '''public void getMetadata()
+    '''returns None\n\n
+    getMetadata()\n
     '''
 def configureTables():
-    '''public void configureTables()
+    '''returns None\n\n
+    configureTables()\n
     '''
 def rebuildExtensionView():
-    '''public void rebuildExtensionView(final String objectName, final String tableName, final boolean isView)
+    '''returns None\n\n
+    rebuildExtensionView(final String objectName, final String tableName, final boolean isView)\n
     '''
 def dropTable():
-    '''public void dropTable(final String tablename)
+    '''returns None\n\n
+    dropTable(final String tablename)\n
     '''
 def createTable():
-    '''public void createTable(final HashMap objInfo)
+    '''returns None\n\n
+    createTable(final HashMap objInfo)\n
     '''
 def addRowstamp():
-    '''public void addRowstamp(final String tablename)
+    '''returns None\n\n
+    addRowstamp(final String tablename)\n
     '''
 def addTenantid():
-    '''public void addTenantid(final String tablename, final String uniqueColumnName, final MTStorageType storageType)
+    '''returns None\n\n
+    addTenantid(final String tablename, final String uniqueColumnName, final MTStorageType storageType)\n
     '''
 def addUniqueColumnToImportedTable():
-    '''public int addUniqueColumnToImportedTable(final String tablename, final String uniqueColumnName, final String sequenceName, final TreeMap attrs)
+    '''returns int\n\n
+    addUniqueColumnToImportedTable(final String tablename, final String uniqueColumnName, final String sequenceName, final TreeMap attrs)\n
     '''
 def createRowstampTrigger():
-    '''public void createRowstampTrigger(final String tablename)
+    '''returns None\n\n
+    createRowstampTrigger(final String tablename)\n
     '''
 def rebuildTable():
-    '''public void rebuildTable(final String tempTbName, final HashMap objInfo)
+    '''returns None\n\n
+    rebuildTable(final String tempTbName, final HashMap objInfo)\n
     '''
 def changingVarcharMultiplier():
-    '''public void changingVarcharMultiplier(final boolean val)
+    '''returns None\n\n
+    changingVarcharMultiplier(final boolean val)\n
     '''
 def alterTable():
-    '''public void alterTable(final HashMap objInfo)
+    '''returns None\n\n
+    alterTable(final HashMap objInfo)\n
     '''
 def addMTPermissions():
-    '''public void addMTPermissions(final String tablename, final String uniqueColumnName, final MTStorageType storageType)
+    '''returns None\n\n
+    addMTPermissions(final String tablename, final String uniqueColumnName, final MTStorageType storageType)\n
     '''
 def getUpgradeDefaultSql():
-    '''public ArrayList getUpgradeDefaultSql(String tablename, String columnname)
+    '''returns ArrayList\n\n
+    getUpgradeDefaultSql(String tablename, String columnname)\n
     '''
 def refreshAttributes():
-    '''public void refreshAttributes()
+    '''returns None\n\n
+    refreshAttributes()\n
     '''
 def updateTenantsDelta():
-    '''public void updateTenantsDelta(final HashMap<String, HashMap<String, HashMap<String, String[]>>> changedObjects, final TreeMap<String, HashMap<String, String>> cfgAttrs, final Map<String, Integer> lastNumbers)
+    '''returns None\n\n
+    updateTenantsDelta(final HashMap<String, HashMap<String, HashMap<String, String[]>>> changedObjects, final TreeMap<String, HashMap<String, String>> cfgAttrs, final Map<String, Integer> lastNumbers)\n
     '''
 def updateDelta():
-    '''public void updateDelta(final Connection tenantCon, final int tenanatId, final TreeMap<String, HashMap<String, String>> cfgAttrs, final Map<String, Integer> lastNumbers)
+    '''returns None\n\n
+    updateDelta(final Connection tenantCon, final int tenanatId, final TreeMap<String, HashMap<String, String>> cfgAttrs, final Map<String, Integer> lastNumbers)\n
     '''
 def renumberAttributeNumber():
-    '''public int renumberAttributeNumber(final String objectname, final TreeMap attrs)
+    '''returns int\n\n
+    renumberAttributeNumber(final String objectname, final TreeMap attrs)\n
     '''
 def configureViews():
-    '''public void configureViews()
+    '''returns None\n\n
+    configureViews()\n
     '''
 def refreshObjects():
-    '''public void refreshObjects()
+    '''returns None\n\n
+    refreshObjects()\n
     '''
 def configureIndexes():
-    '''public void configureIndexes()
+    '''returns None\n\n
+    configureIndexes()\n
     '''
 def rebuildIndexes():
-    '''public void rebuildIndexes(TreeMap indexMeta)
+    '''returns None\n\n
+    rebuildIndexes(TreeMap indexMeta)\n
     '''
 def doLastUpdates():
-    '''public void doLastUpdates()
+    '''returns None\n\n
+    doLastUpdates()\n
     '''
 def updateStoragePartition():
-    '''public void updateStoragePartition()
+    '''returns None\n\n
+    updateStoragePartition()\n
     '''
 def syncEauditParams():
-    '''public void syncEauditParams()
+    '''returns None\n\n
+    syncEauditParams()\n
     '''
 def updateMaxvars():
-    '''public void updateMaxvars()
+    '''returns None\n\n
+    updateMaxvars()\n
     '''
 def showLastMessages():
-    '''public void showLastMessages()
+    '''returns None\n\n
+    showLastMessages()\n
     '''
 def remindUserToCheckIndexes():
-    '''public void remindUserToCheckIndexes()
+    '''returns None\n\n
+    remindUserToCheckIndexes()\n
     '''
 def remindUserBadTriggers():
-    '''public void remindUserBadTriggers()
+    '''returns None\n\n
+    remindUserBadTriggers()\n
     '''
 def remindUserToRestoreData():
-    '''public void remindUserToRestoreData()
+    '''returns None\n\n
+    remindUserToRestoreData()\n
     '''
 def callRestoreFromBackup():
-    '''public void callRestoreFromBackup()
+    '''returns None\n\n
+    callRestoreFromBackup()\n
     '''
 def addQuotes():
-    '''public String addQuotes(String value)
+    '''returns String\n\n
+    addQuotes(String value)\n
     '''
 def doCommit():
-    '''public void doCommit()
+    '''returns None\n\n
+    doCommit()\n
     '''
 def doSql():
-    '''public void doSql(final ArrayList list)
-    public void doSql(final List list)
-    public void doSql(final String sql)
+    '''returns None\n\n
+    doSql(final ArrayList list)\n
+    doSql(final List list)\n
+    doSql(final String sql)\n
     '''
 def doSqlCatchReorg():
-    '''public void doSqlCatchReorg(final AbstractList list)
-    public void doSqlCatchReorg(final String sql)
+    '''returns None\n\n
+    doSqlCatchReorg(final AbstractList list)\n
+    doSqlCatchReorg(final String sql)\n
     '''
 def showMsg():
-    '''public void showMsg(final String str)
+    '''returns None\n\n
+    showMsg(final String str)\n
     '''
 def setBypassTextSearchForUpgrade():
-    '''public void setBypassTextSearchForUpgrade(final boolean value)
+    '''returns None\n\n
+    setBypassTextSearchForUpgrade(final boolean value)\n
     '''
 def setDoReorgCheck():
-    '''public void setDoReorgCheck(final boolean value)
+    '''returns None\n\n
+    setDoReorgCheck(final boolean value)\n
     '''
 def getTextSearchHelper():
-    '''public TextSearch getTextSearchHelper()
+    '''returns TextSearch\n\n
+    getTextSearchHelper()\n
     '''
 def upgradeCallout():
-    '''public void upgradeCallout(String methodName, final String methodPlace, String objectname)
+    '''returns None\n\n
+    upgradeCallout(String methodName, final String methodPlace, String objectname)\n
     '''
 def setThrowErrorFromPrechecks():
-    '''public void setThrowErrorFromPrechecks(final boolean value)
+    '''returns None\n\n
+    setThrowErrorFromPrechecks(final boolean value)\n
     '''
 def endSetupInstance():
-    '''public void endSetupInstance(final String outdir, final String outfile, final HashMap params)
+    '''returns None\n\n
+    endSetupInstance(final String outdir, final String outfile, final HashMap params)\n
     '''
 def endProcessInstance():
-    '''public void endProcessInstance()
+    '''returns None\n\n
+    endProcessInstance()\n
     '''
 def setUserIfno():
-    '''public void setUserIfno(final UserInfo ui)
-    '''
-def main():
-    '''public static void main(final String[] argv)
+    '''returns None\n\n
+    setUserIfno(final UserInfo ui)\n
     '''

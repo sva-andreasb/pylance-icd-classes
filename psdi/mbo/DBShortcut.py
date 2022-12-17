@@ -1,25 +1,33 @@
-def DBShortcut():
-    '''public DBShortcut()
+def ():
+    '''returns DBShortcut\n\n
+    ()\n
     '''
 def connect():
-    '''public void connect(final ConnectionKey conKey)
+    '''returns None\n\n
+    connect(final ConnectionKey conKey)\n
     '''
 def execute():
-    '''public void execute(final int type, final SqlFormat sqlStat)
-    public void execute(final SqlFormat sqlStat)
+    '''returns None\n\n
+    execute(final int type, final SqlFormat sqlStat)\n
+    execute(final SqlFormat sqlStat)\n
     '''
 def executeUpdate():
-    '''public int executeUpdate(final int type, final SqlFormat sqlStat)
+    '''returns int\n\n
+    executeUpdate(final int type, final SqlFormat sqlStat)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def rollBack():
-    '''public void rollBack()
+    '''returns None\n\n
+    rollBack()\n
     '''
 def executeQuery():
-    '''public ResultSet executeQuery(final String sqlStat)
+    '''returns ResultSet\n\n
+    executeQuery(final String sqlStat)\n
     '''

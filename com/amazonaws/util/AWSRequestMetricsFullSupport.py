@@ -1,33 +1,38 @@
-def AWSRequestMetricsFullSupport():
-    '''public AWSRequestMetricsFullSupport()
+def ():
+    '''returns AWSRequestMetricsFullSupport\n\n
+    ()\n
     '''
 def startEvent():
-    '''public void startEvent(final String eventName)
-    public void startEvent(final MetricType f)
+    '''returns None\n\n
+    startEvent(final String eventName)\n
+    startEvent(final MetricType f)\n
     '''
 def endEvent():
-    '''public void endEvent(final String eventName)
-    public void endEvent(final MetricType f)
+    '''returns None\n\n
+    endEvent(final String eventName)\n
+    endEvent(final MetricType f)\n
     '''
 def incrementCounter():
-    '''public void incrementCounter(final String event)
-    public void incrementCounter(final MetricType f)
+    '''returns None\n\n
+    incrementCounter(final String event)\n
+    incrementCounter(final MetricType f)\n
     '''
 def setCounter():
-    '''public void setCounter(final String counterName, final long count)
-    public void setCounter(final MetricType f, final long count)
+    '''returns None\n\n
+    setCounter(final String counterName, final long count)\n
+    setCounter(final MetricType f, final long count)\n
     '''
 def addProperty():
-    '''public void addProperty(final String propertyName, final Object value)
-    public void addProperty(final MetricType f, final Object value)
+    '''returns None\n\n
+    addProperty(final String propertyName, final Object value)\n
+    addProperty(final MetricType f, final Object value)\n
     '''
 def log():
-    '''public void log()
+    '''returns None\n\n
+    log()\n
     '''
 def getProperty():
-    '''public List<Object> getProperty(final String propertyName)
-    public List<Object> getProperty(final MetricType f)
-    '''
-def isEnabled():
-    '''public final boolean isEnabled()
+    '''returns List<Object>\n\n
+    getProperty(final String propertyName)\n
+    getProperty(final MetricType f)\n
     '''

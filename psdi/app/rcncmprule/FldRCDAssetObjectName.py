@@ -1,3 +1,4 @@
-def FldRCDAssetObjectName():
-    '''public FldRCDAssetObjectName(final MboValue mbv)
+def ():
+    '''returns FldRCDAssetObjectName\n\n
+    (final MboValue mbv)\n
     '''

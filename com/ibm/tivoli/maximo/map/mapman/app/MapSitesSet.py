@@ -1,6 +1,8 @@
-def MapSitesSet():
-    '''public MapSitesSet(final MboServerInterface ms)
+def ():
+    '''returns MapSitesSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getMapSite():
-    '''public MapSitesRemote getMapSite(final String siteID)
+    '''returns MapSitesRemote\n\n
+    getMapSite(final String siteID)\n
     '''

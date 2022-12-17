@@ -1,6 +1,8 @@
-def SlackAuthorizeRequestExecutor():
-    '''public SlackAuthorizeRequestExecutor(final SlackRequest request)
+def ():
+    '''returns SlackAuthorizeRequestExecutor\n\n
+    (final SlackRequest request)\n
     '''
 def exec():
-    '''public JSONObject exec()
+    '''returns JSONObject\n\n
+    exec()\n
     '''

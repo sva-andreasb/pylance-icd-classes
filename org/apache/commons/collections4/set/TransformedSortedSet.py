@@ -1,21 +1,20 @@
-def transformingSortedSet():
-    '''public static <E> TransformedSortedSet<E> transformingSortedSet(final SortedSet<E> set, final Transformer<? super E, ? extends E> transformer)
-    '''
-def transformedSortedSet():
-    '''public static <E> TransformedSortedSet<E> transformedSortedSet(final SortedSet<E> set, final Transformer<? super E, ? extends E> transformer)
-    '''
 def first():
-    '''public E first()
+    '''returns E\n\n
+    first()\n
     '''
 def last():
-    '''public E last()
+    '''returns E\n\n
+    last()\n
     '''
 def subSet():
-    '''public SortedSet<E> subSet(final E fromElement, final E toElement)
+    '''returns SortedSet<E>\n\n
+    subSet(final E fromElement, final E toElement)\n
     '''
 def headSet():
-    '''public SortedSet<E> headSet(final E toElement)
+    '''returns SortedSet<E>\n\n
+    headSet(final E toElement)\n
     '''
 def tailSet():
-    '''public SortedSet<E> tailSet(final E fromElement)
+    '''returns SortedSet<E>\n\n
+    tailSet(final E fromElement)\n
     '''

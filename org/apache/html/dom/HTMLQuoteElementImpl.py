@@ -1,9 +1,12 @@
 def getCite():
-    '''public String getCite()
+    '''returns String\n\n
+    getCite()\n
     '''
 def setCite():
-    '''public void setCite(final String s)
+    '''returns None\n\n
+    setCite(final String s)\n
     '''
-def HTMLQuoteElementImpl():
-    '''public HTMLQuoteElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLQuoteElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

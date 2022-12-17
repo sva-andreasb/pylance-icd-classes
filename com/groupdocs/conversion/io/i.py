@@ -1,5 +1,6 @@
-def i():
-    '''public i()
-    public i(final String message)
-    public i(final File obj)
+def ():
+    '''returns i\n\n
+    ()\n
+    (final String message)\n
+    (final File obj)\n
     '''

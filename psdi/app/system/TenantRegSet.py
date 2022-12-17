@@ -2,12 +2,15 @@ ALL = "int  0"
 ACTIVE = "int  1"
 INACTIVE = "int  2"
 NOTDELETED = "int  3"
-def TenantRegSet():
-    '''public TenantRegSet(final MboServerInterface ms)
+def ():
+    '''returns TenantRegSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def userInputChecks():
-    '''public void userInputChecks()
+    '''returns None\n\n
+    userInputChecks()\n
     '''

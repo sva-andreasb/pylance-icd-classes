@@ -1,39 +1,52 @@
 def getAlign():
-    '''public String getAlign()
+    '''returns String\n\n
+    getAlign()\n
     '''
 def setAlign():
-    '''public void setAlign(final String s)
+    '''returns None\n\n
+    setAlign(final String s)\n
     '''
 def getCh():
-    '''public String getCh()
+    '''returns String\n\n
+    getCh()\n
     '''
 def setCh():
-    '''public void setCh(String substring)
+    '''returns None\n\n
+    setCh(String substring)\n
     '''
 def getChOff():
-    '''public String getChOff()
+    '''returns String\n\n
+    getChOff()\n
     '''
 def setChOff():
-    '''public void setChOff(final String s)
+    '''returns None\n\n
+    setChOff(final String s)\n
     '''
 def getSpan():
-    '''public int getSpan()
+    '''returns int\n\n
+    getSpan()\n
     '''
 def setSpan():
-    '''public void setSpan(final int i)
+    '''returns None\n\n
+    setSpan(final int i)\n
     '''
 def getVAlign():
-    '''public String getVAlign()
+    '''returns String\n\n
+    getVAlign()\n
     '''
 def setVAlign():
-    '''public void setVAlign(final String s)
+    '''returns None\n\n
+    setVAlign(final String s)\n
     '''
 def getWidth():
-    '''public String getWidth()
+    '''returns String\n\n
+    getWidth()\n
     '''
 def setWidth():
-    '''public void setWidth(final String s)
+    '''returns None\n\n
+    setWidth(final String s)\n
     '''
-def HTMLTableColElementImpl():
-    '''public HTMLTableColElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLTableColElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

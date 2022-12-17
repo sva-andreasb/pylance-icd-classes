@@ -1,3 +1,4 @@
-def FldLocationServiceAddressCode():
-    '''public FldLocationServiceAddressCode(final MboValue mbv)
+def ():
+    '''returns FldLocationServiceAddressCode\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,40 +1,53 @@
-def WOActivity():
-    '''public WOActivity(final Date activityStartDate, final Date activityEndDate, final double hours, final double resource_qty, final boolean interruptibleFlag, final boolean useOverlappingShifts, final String intShift)
-    public WOActivity(final Date activityStartDate, final Date activityEndDate, final double hours, final double resource_qty, final boolean interruptibleFlag, final boolean useOverlappingShifts, final Date intShiftStartTime, final Date intShiftEndTime, final String intShift)
+def ():
+    '''returns WOActivity\n\n
+    (final Date activityStartDate, final Date activityEndDate, final double hours, final double resource_qty, final boolean interruptibleFlag, final boolean useOverlappingShifts, final String intShift)\n
+    (final Date activityStartDate, final Date activityEndDate, final double hours, final double resource_qty, final boolean interruptibleFlag, final boolean useOverlappingShifts, final Date intShiftStartTime, final Date intShiftEndTime, final String intShift)\n
     '''
 def getInterruptible():
-    '''public boolean getInterruptible()
+    '''returns boolean\n\n
+    getInterruptible()\n
     '''
 def getActivityStartDate():
-    '''public Date getActivityStartDate()
+    '''returns Date\n\n
+    getActivityStartDate()\n
     '''
 def setActivityStartDate():
-    '''public void setActivityStartDate(final Date activityStartDate)
+    '''returns None\n\n
+    setActivityStartDate(final Date activityStartDate)\n
     '''
 def getActivityEndDate():
-    '''public Date getActivityEndDate()
+    '''returns Date\n\n
+    getActivityEndDate()\n
     '''
 def setActivityEndDate():
-    '''public void setActivityEndDate(final Date activityEndDate)
+    '''returns None\n\n
+    setActivityEndDate(final Date activityEndDate)\n
     '''
 def getHoursInShift():
-    '''public double getHoursInShift(final Date shiftStartDate, final UserInfo userInfo, final IMXGanttModel model)
+    '''returns double\n\n
+    getHoursInShift(final Date shiftStartDate, final UserInfo userInfo, final IMXGanttModel model)\n
     '''
 def addOverlappingShifts():
-    '''public void addOverlappingShifts(final Shift shift)
+    '''returns None\n\n
+    addOverlappingShifts(final Shift shift)\n
     '''
 def getOverlappingShiftsCount():
-    '''public int getOverlappingShiftsCount()
+    '''returns int\n\n
+    getOverlappingShiftsCount()\n
     '''
 def getClosestShiftStart():
-    '''public Shift getClosestShiftStart(final Date date)
+    '''returns Shift\n\n
+    getClosestShiftStart(final Date date)\n
     '''
 def compareTo():
-    '''public int compareTo(final WOActivity obj)
+    '''returns int\n\n
+    compareTo(final WOActivity obj)\n
     '''
 def getShifts():
-    '''public ArrayList<Shift> getShifts(final Date shiftStartDate)
+    '''returns ArrayList<Shift>\n\n
+    getShifts(final Date shiftStartDate)\n
     '''
 def getFractionOverlap():
-    '''public double getFractionOverlap(final Date shiftStartDate, final UserInfo userInfo, final IMXGanttModel model)
+    '''returns double\n\n
+    getFractionOverlap(final Date shiftStartDate, final UserInfo userInfo, final IMXGanttModel model)\n
     '''

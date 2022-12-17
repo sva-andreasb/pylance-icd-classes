@@ -1,3 +1,4 @@
-def PmCfgLifecycleAssignmentBean():
-    '''public PmCfgLifecycleAssignmentBean()
+def ():
+    '''returns PmCfgLifecycleAssignmentBean\n\n
+    ()\n
     '''

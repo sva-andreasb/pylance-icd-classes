@@ -1,9 +1,12 @@
-def PlusPCreateCustomerBill():
-    '''public PlusPCreateCustomerBill(final MboSet ms)
+def ():
+    '''returns PlusPCreateCustomerBill\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getNewBillBatch():
-    '''public MboRemote getNewBillBatch()
+    '''returns MboRemote\n\n
+    getNewBillBatch()\n
     '''

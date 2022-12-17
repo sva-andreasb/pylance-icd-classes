@@ -1,6 +1,8 @@
-def UninstallRARTask():
-    '''public UninstallRARTask(final ConfigService configService)
+def ():
+    '''returns UninstallRARTask\n\n
+    (final ConfigService configService)\n
     '''
 def uninstallResourceAdapter():
-    '''public List uninstallResourceAdapter(final Session session, final ObjectName on, final Hashtable options)
+    '''returns List\n\n
+    uninstallResourceAdapter(final Session session, final ObjectName on, final Hashtable options)\n
     '''

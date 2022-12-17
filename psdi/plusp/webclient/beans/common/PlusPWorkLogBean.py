@@ -1,15 +1,16 @@
-def getMbo():
-    '''public synchronized MboRemote getMbo()
-    '''
 def CREATECOMM():
-    '''public int CREATECOMM()
+    '''returns int\n\n
+    CREATECOMM()\n
     '''
 def newcustomerpriceestimate():
-    '''public int newcustomerpriceestimate()
+    '''returns int\n\n
+    newcustomerpriceestimate()\n
     '''
 def acceptAll():
-    '''public int acceptAll()
+    '''returns int\n\n
+    acceptAll()\n
     '''
 def rejectAll():
-    '''public int rejectAll()
+    '''returns int\n\n
+    rejectAll()\n
     '''

@@ -1,74 +1,85 @@
 sid = "short  2170"
-def create():
-    '''public static CFRule12Record create(final HSSFSheet sheet, final String formulaText)
-    public static CFRule12Record create(final HSSFSheet sheet, final byte comparisonOperation, final String formulaText1, final String formulaText2)
-    public static CFRule12Record create(final HSSFSheet sheet, final byte comparisonOperation, final String formulaText1, final String formulaText2, final String formulaTextScale)
-    public static CFRule12Record create(final HSSFSheet sheet, final ExtendedColor color)
-    public static CFRule12Record create(final HSSFSheet sheet, final org.apache.poi.ss.usermodel.IconMultiStateFormatting.IconSet iconSet)
-    '''
-def createColorScale():
-    '''public static CFRule12Record createColorScale(final HSSFSheet sheet)
-    '''
-def CFRule12Record():
-    '''public CFRule12Record(final RecordInputStream in)
+def ():
+    '''returns CFRule12Record\n\n
+    (final RecordInputStream in)\n
     '''
 def containsDataBarBlock():
-    '''public boolean containsDataBarBlock()
+    '''returns boolean\n\n
+    containsDataBarBlock()\n
     '''
 def getDataBarFormatting():
-    '''public DataBarFormatting getDataBarFormatting()
+    '''returns DataBarFormatting\n\n
+    getDataBarFormatting()\n
     '''
 def createDataBarFormatting():
-    '''public DataBarFormatting createDataBarFormatting()
+    '''returns DataBarFormatting\n\n
+    createDataBarFormatting()\n
     '''
 def containsMultiStateBlock():
-    '''public boolean containsMultiStateBlock()
+    '''returns boolean\n\n
+    containsMultiStateBlock()\n
     '''
 def getMultiStateFormatting():
-    '''public IconMultiStateFormatting getMultiStateFormatting()
+    '''returns IconMultiStateFormatting\n\n
+    getMultiStateFormatting()\n
     '''
 def createMultiStateFormatting():
-    '''public IconMultiStateFormatting createMultiStateFormatting()
+    '''returns IconMultiStateFormatting\n\n
+    createMultiStateFormatting()\n
     '''
 def containsColorGradientBlock():
-    '''public boolean containsColorGradientBlock()
+    '''returns boolean\n\n
+    containsColorGradientBlock()\n
     '''
 def getColorGradientFormatting():
-    '''public ColorGradientFormatting getColorGradientFormatting()
+    '''returns ColorGradientFormatting\n\n
+    getColorGradientFormatting()\n
     '''
 def createColorGradientFormatting():
-    '''public ColorGradientFormatting createColorGradientFormatting()
+    '''returns ColorGradientFormatting\n\n
+    createColorGradientFormatting()\n
     '''
 def getParsedExpressionScale():
-    '''public Ptg[] getParsedExpressionScale()
+    '''returns Ptg[]\n\n
+    getParsedExpressionScale()\n
     '''
 def setParsedExpressionScale():
-    '''public void setParsedExpressionScale(final Ptg[] ptgs)
+    '''returns None\n\n
+    setParsedExpressionScale(final Ptg[] ptgs)\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''
 def setPriority():
-    '''public void setPriority(final int priority)
+    '''returns None\n\n
+    setPriority(final int priority)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clone():
-    '''public CFRule12Record clone()
+    '''returns CFRule12Record\n\n
+    clone()\n
     '''
 def getFutureRecordType():
-    '''public short getFutureRecordType()
+    '''returns short\n\n
+    getFutureRecordType()\n
     '''
 def getFutureHeader():
-    '''public FtrHeader getFutureHeader()
+    '''returns FtrHeader\n\n
+    getFutureHeader()\n
     '''
 def getAssociatedRange():
-    '''public CellRangeAddress getAssociatedRange()
+    '''returns CellRangeAddress\n\n
+    getAssociatedRange()\n
     '''

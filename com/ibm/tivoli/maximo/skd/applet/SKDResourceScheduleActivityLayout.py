@@ -1,13 +1,14 @@
-def SKDResourceScheduleActivityLayout():
-    '''public SKDResourceScheduleActivityLayout(final IlvHierarchyChart chart)
+def ():
+    '''returns SKDResourceTilingPolicy\n\n
+    (final IlvHierarchyChart chart)\n
+    ()\n
     '''
 def arrange():
-    '''public void arrange(final IlvGanttRow row, final IlvActivityGraphic[] graphics)
-    public void arrange(final IlvGanttRow row, final IlvActivityGraphic graphic)
+    '''returns None\n\n
+    arrange(final IlvGanttRow row, final IlvActivityGraphic[] graphics)\n
+    arrange(final IlvGanttRow row, final IlvActivityGraphic graphic)\n
     '''
 def compare():
-    '''public int compare(final IlvActivityGraphic ag1, final IlvActivityGraphic ag2)
-    '''
-def SKDResourceTilingPolicy():
-    '''public SKDResourceTilingPolicy()
+    '''returns int\n\n
+    compare(final IlvActivityGraphic ag1, final IlvActivityGraphic ag2)\n
     '''

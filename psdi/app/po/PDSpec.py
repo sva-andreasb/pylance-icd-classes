@@ -1,21 +1,28 @@
-def PDSpec():
-    '''public PDSpec(final MboSet ms)
+def ():
+    '''returns PDSpec\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def addDetailInfor():
-    '''public void addDetailInfor(final MboRemote mbo, final MboRemote classspec)
+    '''returns None\n\n
+    addDetailInfor(final MboRemote mbo, final MboRemote classspec)\n
     '''
 def updateDesc():
-    '''public void updateDesc()
+    '''returns None\n\n
+    updateDesc()\n
     '''
 def sortThisSetByRefObjectLineNum():
-    '''public MboRemote[] sortThisSetByRefObjectLineNum(final MboSetRemote thisSet)
+    '''returns MboRemote[]\n\n
+    sortThisSetByRefObjectLineNum(final MboSetRemote thisSet)\n
     '''
 def getCorrectOwner():
-    '''public MboRemote getCorrectOwner()
+    '''returns MboRemote\n\n
+    getCorrectOwner()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''

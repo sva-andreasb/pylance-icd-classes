@@ -1,153 +1,126 @@
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
-def SnmpTrapAgentConfigurationJdo():
-    '''public SnmpTrapAgentConfigurationJdo(final Guid guid, final TopologyActionContext ctx)
-    public SnmpTrapAgentConfigurationJdo()
+def ():
+    '''returns SnmpTrapAgentConfigurationJdo\n\n
+    (final Guid guid, final TopologyActionContext ctx)\n
+    ()\n
     '''
 def getUseTCPTransport():
-    '''public boolean getUseTCPTransport()
+    '''returns boolean\n\n
+    getUseTCPTransport()\n
     '''
 def setUseTCPTransport():
-    '''public void setUseTCPTransport(final boolean a)
+    '''returns None\n\n
+    setUseTCPTransport(final boolean a)\n
     '''
 def hasUseTCPTransport():
-    '''public boolean hasUseTCPTransport()
+    '''returns boolean\n\n
+    hasUseTCPTransport()\n
     '''
 def getTrapMapper():
-    '''public String getTrapMapper()
+    '''returns String\n\n
+    getTrapMapper()\n
     '''
 def setTrapMapper():
-    '''public void setTrapMapper(final String a)
+    '''returns None\n\n
+    setTrapMapper(final String a)\n
     '''
 def hasTrapMapper():
-    '''public boolean hasTrapMapper()
+    '''returns boolean\n\n
+    hasTrapMapper()\n
     '''
 def getTrapPort():
-    '''public int getTrapPort()
+    '''returns int\n\n
+    getTrapPort()\n
     '''
 def setTrapPort():
-    '''public void setTrapPort(final int a)
+    '''returns None\n\n
+    setTrapPort(final int a)\n
     '''
 def hasTrapPort():
-    '''public boolean hasTrapPort()
-    '''
-def getAll():
-    '''public static Collection getAll(final TopologyActionContext ctx, final boolean excludeSubclass)
-    '''
-def getAllWithRunId():
-    '''public static Collection getAllWithRunId(final TopologyActionContext ctx, final boolean excludeSubclass)
-    '''
-def gcJdo():
-    '''public static void gcJdo(final TopologyActionContext ctx)
+    '''returns boolean\n\n
+    hasTrapPort()\n
     '''
 def getAllAttributes():
-    '''public Map getAllAttributes()
+    '''returns Map\n\n
+    getAllAttributes()\n
     '''
 def generateDisplayName():
-    '''public String generateDisplayName()
-    '''
-def persistJdo():
-    '''public static SnmpTrapAgentConfigurationJdo persistJdo(final SnmpTrapAgentConfiguration obj, final TopologyActionContext ctx)
-    public static SnmpTrapAgentConfigurationJdo persistJdo(final SnmpTrapAgentConfiguration obj, final Map stknGuidMap, final TopologyActionContext ctx)
-    public static SnmpTrapAgentConfigurationJdo persistJdo(final SnmpTrapAgentConfiguration obj, final List guidMap, final TopologyActionContext ctx, final Set processedObjs, final JdoUpdateMap updateMap, final Map stknGuidMap)
-    '''
-def persistJdo3():
-    '''public static SnmpTrapAgentConfigurationJdo persistJdo3(final SnmpTrapAgentConfiguration obj, final TopologyActionContext ctx, final Map stknGuidMap)
-    '''
-def getJdoByGuid():
-    '''public static BaseJdo getJdoByGuid(final SnmpTrapAgentConfiguration obj, final TopologyActionContext ctx)
-    '''
-def getJdo():
-    '''public static BaseJdo getJdo(final SnmpTrapAgentConfiguration obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    '''
-def findJdo():
-    '''public static BaseJdo findJdo(final SnmpTrapAgentConfiguration obj, final List guidMap, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    public static BaseJdo findJdo(final SnmpTrapAgentConfiguration obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    '''
-def findSpecificJdo():
-    '''public static BaseJdo findSpecificJdo(final SnmpTrapAgentConfiguration obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    '''
-def findJdoTest():
-    '''public static BaseJdo findJdoTest(final SnmpTrapAgentConfiguration obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    '''
-def findSpecificJdoTest():
-    '''public static BaseJdo findSpecificJdoTest(final SnmpTrapAgentConfiguration obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
+    '''returns String\n\n
+    generateDisplayName()\n
     '''
 def sameJdo():
-    '''public boolean sameJdo(final SnmpTrapAgentConfiguration obj, final Map objKeys, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
+    '''returns boolean\n\n
+    sameJdo(final SnmpTrapAgentConfiguration obj, final Map objKeys, final TopologyActionContext ctx, final JdoUpdateMap updateMap)\n
     '''
 def sameJdoTest():
-    '''public boolean sameJdoTest(final SnmpTrapAgentConfiguration obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
-    '''
-def getJdoKeys():
-    '''public static Map getJdoKeys(final SnmpTrapAgentConfiguration obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)
+    '''returns boolean\n\n
+    sameJdoTest(final SnmpTrapAgentConfiguration obj, final TopologyActionContext ctx, final JdoUpdateMap updateMap)\n
     '''
 def similarJdo():
-    '''public boolean similarJdo(final SnmpTrapAgentConfigurationJdo obj)
+    '''returns boolean\n\n
+    similarJdo(final SnmpTrapAgentConfigurationJdo obj)\n
     '''
 def updateJdoByObj():
-    '''public void updateJdoByObj(final SnmpTrapAgentConfiguration obj, final List guidMap, final TopologyActionContext ctx, final Set processedObjs, final JdoUpdateMap updateMap, final Map stknGuidMap, final String attrPriosFromDb)
+    '''returns None\n\n
+    updateJdoByObj(final SnmpTrapAgentConfiguration obj, final List guidMap, final TopologyActionContext ctx, final Set processedObjs, final JdoUpdateMap updateMap, final Map stknGuidMap, final String attrPriosFromDb)\n
     '''
 def copyJdo():
-    '''public void copyJdo(final BaseJdo copyToJdo, final JdoUpdateMap updateMap)
+    '''returns None\n\n
+    copyJdo(final BaseJdo copyToJdo, final JdoUpdateMap updateMap)\n
     '''
 def removeJdoRefs():
-    '''public void removeJdoRefs(final TopologyActionContext ctx)
-    public void removeJdoRefs(final TopologyActionContext ctx, final Set removedGuidSet)
+    '''returns None\n\n
+    removeJdoRefs(final TopologyActionContext ctx)\n
+    removeJdoRefs(final TopologyActionContext ctx, final Set removedGuidSet)\n
     '''
 def deleteJdoRefs():
-    '''public void deleteJdoRefs(final TopologyActionContext ctx)
-    public void deleteJdoRefs(final TopologyActionContext ctx, final Set removedGuidSet)
+    '''returns None\n\n
+    deleteJdoRefs(final TopologyActionContext ctx)\n
+    deleteJdoRefs(final TopologyActionContext ctx, final Set removedGuidSet)\n
     '''
 def restoreJdo():
-    '''public void restoreJdo(final TopologyActionContext ctx)
+    '''returns None\n\n
+    restoreJdo(final TopologyActionContext ctx)\n
     '''
 def compareJdo():
-    '''public ObjectCompareResults compareJdo(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep)
-    public ObjectCompareResults compareJdo(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep, final TwoDimensionalMap refMap)
+    '''returns ObjectCompareResults\n\n
+    compareJdo(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep)\n
+    compareJdo(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep, final TwoDimensionalMap refMap)\n
     '''
 def compareJdoForMerge():
-    '''public ObjectCompareResults compareJdoForMerge(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep)
-    public ObjectCompareResults compareJdoForMerge(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep, final TwoDimensionalMap refMap)
+    '''returns ObjectCompareResults\n\n
+    compareJdoForMerge(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep)\n
+    compareJdoForMerge(final BaseJdo o, final boolean includeDynamic, final boolean includeDeep, final TwoDimensionalMap refMap)\n
     '''
 def versionedJdoExists():
-    '''public boolean versionedJdoExists(final TopologyActionContext ctx)
+    '''returns boolean\n\n
+    versionedJdoExists(final TopologyActionContext ctx)\n
     '''
 def jdoNewInstance():
-    '''public PersistenceCapable jdoNewInstance(final StateManager jdoStateManager, final Object o)
-    public PersistenceCapable jdoNewInstance(final StateManager jdoStateManager)
+    '''returns PersistenceCapable\n\n
+    jdoNewInstance(final StateManager jdoStateManager, final Object o)\n
+    jdoNewInstance(final StateManager jdoStateManager)\n
     '''
 def jdoReplaceField():
-    '''public void jdoReplaceField(final int n)
+    '''returns None\n\n
+    jdoReplaceField(final int n)\n
     '''
 def jdoReplaceFields():
-    '''public void jdoReplaceFields(final int[] array)
+    '''returns None\n\n
+    jdoReplaceFields(final int[] array)\n
     '''
 def jdoProvideField():
-    '''public void jdoProvideField(final int n)
+    '''returns None\n\n
+    jdoProvideField(final int n)\n
     '''
 def jdoProvideFields():
-    '''public void jdoProvideFields(final int[] array)
+    '''returns None\n\n
+    jdoProvideFields(final int[] array)\n
     '''
 def jdoCopyFields():
-    '''public void jdoCopyFields(final Object o, final int[] array)
-    '''
-def jdoGettrapMapper_():
-    '''public static final String jdoGettrapMapper_(final SnmpTrapAgentConfigurationJdo snmpTrapAgentConfigurationJdo)
-    '''
-def jdoSettrapMapper_():
-    '''public static final void jdoSettrapMapper_(final SnmpTrapAgentConfigurationJdo snmpTrapAgentConfigurationJdo, final String s)
-    '''
-def jdoGettrapPort_():
-    '''public static final Integer jdoGettrapPort_(final SnmpTrapAgentConfigurationJdo snmpTrapAgentConfigurationJdo)
-    '''
-def jdoSettrapPort_():
-    '''public static final void jdoSettrapPort_(final SnmpTrapAgentConfigurationJdo snmpTrapAgentConfigurationJdo, final Integer n)
-    '''
-def jdoGetuseTCPTransport_():
-    '''public static final Boolean jdoGetuseTCPTransport_(final SnmpTrapAgentConfigurationJdo snmpTrapAgentConfigurationJdo)
-    '''
-def jdoSetuseTCPTransport_():
-    '''public static final void jdoSetuseTCPTransport_(final SnmpTrapAgentConfigurationJdo snmpTrapAgentConfigurationJdo, final Boolean b)
+    '''returns None\n\n
+    jdoCopyFields(final Object o, final int[] array)\n
     '''

@@ -1,3 +1,4 @@
-def PlusPAgreeTemplateSet():
-    '''public PlusPAgreeTemplateSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPAgreeTemplateSet\n\n
+    (final MboServerInterface ms)\n
     '''

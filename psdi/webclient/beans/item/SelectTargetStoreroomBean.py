@@ -1,3 +1,4 @@
 def setQueryBySiteQbe():
-    '''public void setQueryBySiteQbe()
+    '''returns None\n\n
+    setQueryBySiteQbe()\n
     '''

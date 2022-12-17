@@ -1,13 +1,13 @@
-def Signature_attribute():
-    '''public Signature_attribute(final ConstantPool constantPool, final int n)
-    public Signature_attribute(final int n, final int signature_index)
+def ():
+    '''returns Signature_attribute\n\n
+    (final ConstantPool constantPool, final int n)\n
+    (final int n, final int signature_index)\n
     '''
 def getSignature():
-    '''public String getSignature(final ConstantPool constantPool)
+    '''returns String\n\n
+    getSignature(final ConstantPool constantPool)\n
     '''
 def getParsedSignature():
-    '''public Signature getParsedSignature()
-    '''
-def accept():
-    '''public <R, D> R accept(final Visitor<R, D> visitor, final D n)
+    '''returns Signature\n\n
+    getParsedSignature()\n
     '''

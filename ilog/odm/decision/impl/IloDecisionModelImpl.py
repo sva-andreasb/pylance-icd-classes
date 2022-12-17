@@ -1,189 +1,246 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloDecisionModelImpl():
-    '''public IloDecisionModelImpl(final String name, final IloDecisionModel parent)
-    public IloDecisionModelImpl(final String name, final IloSharedDefs defs)
+def ():
+    '''returns IloDecisionModelImpl\n\n
+    (final String name, final IloDecisionModel parent)\n
+    (final String name, final IloSharedDefs defs)\n
     '''
 def setEngineController():
-    '''public void setEngineController(final IloEngineController ctl)
+    '''returns None\n\n
+    setEngineController(final IloEngineController ctl)\n
     '''
 def getEngineController():
-    '''public IloEngineController getEngineController()
+    '''returns IloEngineController\n\n
+    getEngineController()\n
     '''
 def getSharedDefs():
-    '''public IloSharedDefs getSharedDefs()
+    '''returns IloSharedDefs\n\n
+    getSharedDefs()\n
     '''
 def getId():
-    '''public int getId()
+    '''returns int\n\n
+    getId()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def registerRequirement():
-    '''public void registerRequirement(final IloRequirement req, final boolean force)
-    public void registerRequirement(final IloRequirement r)
+    '''returns None\n\n
+    registerRequirement(final IloRequirement req, final boolean force)\n
+    registerRequirement(final IloRequirement r)\n
     '''
 def unregisterRequirement():
-    '''public IloRequirement unregisterRequirement(final String name)
+    '''returns IloRequirement\n\n
+    unregisterRequirement(final String name)\n
     '''
 def internalPutReq():
-    '''public void internalPutReq(final IloRequirement req)
+    '''returns None\n\n
+    internalPutReq(final IloRequirement req)\n
     '''
 def internalRemoveReq():
-    '''public IloRequirement internalRemoveReq(final String name)
+    '''returns IloRequirement\n\n
+    internalRemoveReq(final String name)\n
     '''
 def getRequirement():
-    '''public IloRequirement getRequirement(final String name)
-    public IloRequirement getRequirement(final String name, final boolean searchParent)
-    public IloRequirement getRequirement(final IloRequirementId id)
+    '''returns IloRequirement\n\n
+    getRequirement(final String name)\n
+    getRequirement(final String name, final boolean searchParent)\n
+    getRequirement(final IloRequirementId id)\n
     '''
 def setParentModel():
-    '''public void setParentModel(final IloDecisionModel model)
+    '''returns None\n\n
+    setParentModel(final IloDecisionModel model)\n
     '''
 def getParentModel():
-    '''public IloDecisionModel getParentModel()
+    '''returns IloDecisionModel\n\n
+    getParentModel()\n
     '''
 def getObjective():
-    '''public IloDecisionObjective getObjective(final String name)
-    public IloDecisionObjective getObjective(final String name, final boolean transitive)
-    public IloDecisionObjective getObjective(final IloObjectiveId id)
+    '''returns IloDecisionObjective\n\n
+    getObjective(final String name)\n
+    getObjective(final String name, final boolean transitive)\n
+    getObjective(final IloObjectiveId id)\n
     '''
 def registerObjective():
-    '''public void registerObjective(final IloDecisionObjective o, final boolean force)
+    '''returns None\n\n
+    registerObjective(final IloDecisionObjective o, final boolean force)\n
     '''
 def unregisterObjective():
-    '''public IloDecisionObjective unregisterObjective(final String name)
+    '''returns IloDecisionObjective\n\n
+    unregisterObjective(final String name)\n
     '''
 def getName():
-    '''public String getName()
-    public String getName()
+    '''returns String\n\n
+    getName()\n
+    getName()\n
     '''
 def getObjectivePropsDef():
-    '''public IloPropertiesDef getObjectivePropsDef()
+    '''returns IloPropertiesDef\n\n
+    getObjectivePropsDef()\n
     '''
 def getDecisionVarPropsDef():
-    '''public IloPropertiesDef getDecisionVarPropsDef()
+    '''returns IloPropertiesDef\n\n
+    getDecisionVarPropsDef()\n
     '''
 def getReqPropertiesDef():
-    '''public IloReqPropertiesDef getReqPropertiesDef()
+    '''returns IloReqPropertiesDef\n\n
+    getReqPropertiesDef()\n
     '''
 def nextRequirementId():
-    '''public int nextRequirementId()
+    '''returns int\n\n
+    nextRequirementId()\n
     '''
 def getRequirementFilter():
-    '''public IloRequirementFilter getRequirementFilter(final String name, final boolean transitive)
+    '''returns IloRequirementFilter\n\n
+    getRequirementFilter(final String name, final boolean transitive)\n
     '''
 def registerRequirementFilter():
-    '''public void registerRequirementFilter(final String name, final IloRequirementFilter filter)
+    '''returns None\n\n
+    registerRequirementFilter(final String name, final IloRequirementFilter filter)\n
     '''
 def unregisterRequirementFilter():
-    '''public IloRequirementFilter unregisterRequirementFilter(final String name)
+    '''returns IloRequirementFilter\n\n
+    unregisterRequirementFilter(final String name)\n
     '''
 def getModel():
-    '''public IloDecisionModel getModel()
+    '''returns IloDecisionModel\n\n
+    getModel()\n
     '''
 def objectivesIterator():
-    '''public Iterator<IloDecisionObjective> objectivesIterator()
+    '''returns Iterator<IloDecisionObjective>\n\n
+    objectivesIterator()\n
     '''
 def onRenameRequirement():
-    '''public void onRenameRequirement(final IloRequirement r, final String oldName)
+    '''returns None\n\n
+    onRenameRequirement(final IloRequirement r, final String oldName)\n
     '''
 def getPriority():
-    '''public IloPriority getPriority(final IloRequirement req)
+    '''returns IloPriority\n\n
+    getPriority(final IloRequirement req)\n
     '''
 def getProperty():
-    '''public Object getProperty(final Element elt, final int propIndex)
-    public Object getProperty(final int index, final boolean inherited)
+    '''returns Object\n\n
+    getProperty(final Element elt, final int propIndex)\n
+    getProperty(final int index, final boolean inherited)\n
     '''
 def registerDecisionVariable():
-    '''public void registerDecisionVariable(final IloDecisionVariable v, final boolean force)
+    '''returns None\n\n
+    registerDecisionVariable(final IloDecisionVariable v, final boolean force)\n
     '''
 def getDecisionVariable():
-    '''public IloDecisionVariable getDecisionVariable(final String name)
-    public IloDecisionVariable getDecisionVariable(final String name, final boolean searchParent)
-    public IloDecisionVariable getDecisionVariable(final IloCompositeId name)
+    '''returns IloDecisionVariable\n\n
+    getDecisionVariable(final String name)\n
+    getDecisionVariable(final String name, final boolean searchParent)\n
+    getDecisionVariable(final IloCompositeId name)\n
     '''
 def internalRemoveVar():
-    '''public void internalRemoveVar(final String name)
+    '''returns None\n\n
+    internalRemoveVar(final String name)\n
     '''
 def internalPutVar():
-    '''public void internalPutVar(final IloDecisionVariable var)
+    '''returns None\n\n
+    internalPutVar(final IloDecisionVariable var)\n
     '''
 def getRequirementConnectorImpl():
-    '''public IloRequirementConnectorImpl getRequirementConnectorImpl()
+    '''returns IloRequirementConnectorImpl\n\n
+    getRequirementConnectorImpl()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    hasNext()\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
-    public IloRequirement next()
-    public IloDecisionObjective next()
+    '''returns IloDecisionObjective\n\n
+    next()\n
+    next()\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
-    public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove()\n
+    remove()\n
+    remove()\n
     '''
 def getChildCount():
-    '''public int getChildCount()
+    '''returns int\n\n
+    getChildCount()\n
     '''
 def isComposite():
-    '''public boolean isComposite()
+    '''returns boolean\n\n
+    isComposite()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def getParent():
-    '''public IloRequirementNode getParent()
+    '''returns IloRequirementNode\n\n
+    getParent()\n
     '''
 def getDefaultPriorityManager():
-    '''public IloDefaultPriorityManager getDefaultPriorityManager()
+    '''returns IloDefaultPriorityManager\n\n
+    getDefaultPriorityManager()\n
     '''
 def getIntProperty():
-    '''public int getIntProperty(final int index, final int defaultVal, final boolean inherited)
+    '''returns int\n\n
+    getIntProperty(final int index, final int defaultVal, final boolean inherited)\n
     '''
 def getDoubleProperty():
-    '''public double getDoubleProperty(final int index, final double defaultVal, final boolean inherited)
+    '''returns double\n\n
+    getDoubleProperty(final int index, final double defaultVal, final boolean inherited)\n
     '''
 def getBooleanProperty():
-    '''public boolean getBooleanProperty(final int index, final boolean defaultVal, final boolean inherited)
+    '''returns boolean\n\n
+    getBooleanProperty(final int index, final boolean defaultVal, final boolean inherited)\n
     '''
 def setIntProperty():
-    '''public void setIntProperty(final int index, final int value)
+    '''returns None\n\n
+    setIntProperty(final int index, final int value)\n
     '''
 def setDoubleProperty():
-    '''public void setDoubleProperty(final int index, final double value)
+    '''returns None\n\n
+    setDoubleProperty(final int index, final double value)\n
     '''
 def setBooleanProperty():
-    '''public void setBooleanProperty(final int index, final boolean value)
+    '''returns None\n\n
+    setBooleanProperty(final int index, final boolean value)\n
     '''
 def setProperty():
-    '''public void setProperty(final int index, final Object value)
+    '''returns None\n\n
+    setProperty(final int index, final Object value)\n
     '''
 def internalNullifyProp():
-    '''public void internalNullifyProp(final int index, final boolean propagate)
+    '''returns None\n\n
+    internalNullifyProp(final int index, final boolean propagate)\n
     '''
 def print():
-    '''public IloTabulatedStream print(final IloTabulatedStream stm, final IloPublisher publisher)
+    '''returns IloTabulatedStream\n\n
+    print(final IloTabulatedStream stm, final IloPublisher publisher)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getExplanation():
-    '''public IloMessage getExplanation()
+    '''returns IloMessage\n\n
+    getExplanation()\n
     '''
 def getFormattedExplanation():
-    '''public String getFormattedExplanation(final IloMessageParameterFormatter ctl)
+    '''returns String\n\n
+    getFormattedExplanation(final IloMessageParameterFormatter ctl)\n
     '''
 def setExplanation():
-    '''public void setExplanation(final IloMessage message)
-    public void setExplanation(final String text)
+    '''returns None\n\n
+    setExplanation(final IloMessage message)\n
+    setExplanation(final String text)\n
     '''
 def getController():
-    '''public IloEngineController getController()
+    '''returns IloEngineController\n\n
+    getController()\n
     '''

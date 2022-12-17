@@ -4,13 +4,16 @@ TYPE_RGB = "byte  2"
 TYPE_SHAPEPATH = "byte  3"
 TYPE_SIMPLE = "byte  4"
 TYPE_ARRAY = "byte  5"
-def EscherPropertyMetaData():
-    '''public EscherPropertyMetaData(final String description)
-    public EscherPropertyMetaData(final String description, final byte type)
+def ():
+    '''returns EscherPropertyMetaData\n\n
+    (final String description)\n
+    (final String description, final byte type)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getType():
-    '''public byte getType()
+    '''returns byte\n\n
+    getType()\n
     '''

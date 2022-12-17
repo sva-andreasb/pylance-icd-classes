@@ -1,6 +1,8 @@
-def YearMouseAdapter():
-    '''public YearMouseAdapter(final IlvJCalendar cal, final int yearOffset)
+def ():
+    '''returns YearMouseAdapter\n\n
+    (final IlvJCalendar cal, final int yearOffset)\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent e)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent e)\n
     '''

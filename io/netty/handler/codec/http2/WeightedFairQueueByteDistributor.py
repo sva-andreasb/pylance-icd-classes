@@ -1,39 +1,51 @@
-def WeightedFairQueueByteDistributor():
-    '''public WeightedFairQueueByteDistributor(final Http2Connection connection)
-    public WeightedFairQueueByteDistributor(final Http2Connection connection, final int maxStateOnlySize)
+def ():
+    '''returns WeightedFairQueueByteDistributor\n\n
+    (final Http2Connection connection)\n
+    (final Http2Connection connection, final int maxStateOnlySize)\n
     '''
 def onStreamAdded():
-    '''public void onStreamAdded(final Http2Stream stream)
+    '''returns None\n\n
+    onStreamAdded(final Http2Stream stream)\n
     '''
 def onStreamActive():
-    '''public void onStreamActive(final Http2Stream stream)
+    '''returns None\n\n
+    onStreamActive(final Http2Stream stream)\n
     '''
 def onStreamClosed():
-    '''public void onStreamClosed(final Http2Stream stream)
+    '''returns None\n\n
+    onStreamClosed(final Http2Stream stream)\n
     '''
 def onStreamRemoved():
-    '''public void onStreamRemoved(final Http2Stream stream)
+    '''returns None\n\n
+    onStreamRemoved(final Http2Stream stream)\n
     '''
 def updateStreamableBytes():
-    '''public void updateStreamableBytes(final StreamState state)
+    '''returns None\n\n
+    updateStreamableBytes(final StreamState state)\n
     '''
 def updateDependencyTree():
-    '''public void updateDependencyTree(final int childStreamId, final int parentStreamId, final short weight, final boolean exclusive)
+    '''returns None\n\n
+    updateDependencyTree(final int childStreamId, final int parentStreamId, final short weight, final boolean exclusive)\n
     '''
 def distribute():
-    '''public boolean distribute(int maxBytes, final Writer writer)
+    '''returns boolean\n\n
+    distribute(int maxBytes, final Writer writer)\n
     '''
 def allocationQuantum():
-    '''public void allocationQuantum(final int allocationQuantum)
+    '''returns None\n\n
+    allocationQuantum(final int allocationQuantum)\n
     '''
 def compare():
-    '''public int compare(final State o1, final State o2)
-    public int compare(final State o1, final State o2)
+    '''returns int\n\n
+    compare(final State o1, final State o2)\n
+    compare(final State o1, final State o2)\n
     '''
 def priorityQueueIndex():
-    '''public int priorityQueueIndex(final DefaultPriorityQueue<?> queue)
-    public void priorityQueueIndex(final DefaultPriorityQueue<?> queue, final int i)
+    '''returns None\n\n
+    priorityQueueIndex(final DefaultPriorityQueue<?> queue)\n
+    priorityQueueIndex(final DefaultPriorityQueue<?> queue, final int i)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

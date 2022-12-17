@@ -1,3 +1,4 @@
-def Publisher():
-    '''public Publisher(final String name, final String title, final String uri)
+def ():
+    '''returns Publisher\n\n
+    (final String name, final String title, final String uri)\n
     '''

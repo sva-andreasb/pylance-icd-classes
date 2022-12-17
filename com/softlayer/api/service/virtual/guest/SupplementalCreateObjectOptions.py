@@ -1,30 +1,40 @@
 def getImmediateApprovalOnlyFlag():
-    '''public Boolean getImmediateApprovalOnlyFlag()
+    '''returns Boolean\n\n
+    getImmediateApprovalOnlyFlag()\n
     '''
 def setImmediateApprovalOnlyFlag():
-    '''public void setImmediateApprovalOnlyFlag(final Boolean immediateApprovalOnlyFlag)
+    '''returns None\n\n
+    setImmediateApprovalOnlyFlag(final Boolean immediateApprovalOnlyFlag)\n
     '''
 def isImmediateApprovalOnlyFlagSpecified():
-    '''public boolean isImmediateApprovalOnlyFlagSpecified()
+    '''returns boolean\n\n
+    isImmediateApprovalOnlyFlagSpecified()\n
     '''
 def unsetImmediateApprovalOnlyFlag():
-    '''public void unsetImmediateApprovalOnlyFlag()
+    '''returns None\n\n
+    unsetImmediateApprovalOnlyFlag()\n
     '''
 def getPostInstallScriptUri():
-    '''public String getPostInstallScriptUri()
+    '''returns String\n\n
+    getPostInstallScriptUri()\n
     '''
 def setPostInstallScriptUri():
-    '''public void setPostInstallScriptUri(final String postInstallScriptUri)
+    '''returns None\n\n
+    setPostInstallScriptUri(final String postInstallScriptUri)\n
     '''
 def isPostInstallScriptUriSpecified():
-    '''public boolean isPostInstallScriptUriSpecified()
+    '''returns boolean\n\n
+    isPostInstallScriptUriSpecified()\n
     '''
 def unsetPostInstallScriptUri():
-    '''public void unsetPostInstallScriptUri()
+    '''returns None\n\n
+    unsetPostInstallScriptUri()\n
     '''
 def immediateApprovalOnlyFlag():
-    '''public Mask immediateApprovalOnlyFlag()
+    '''returns Mask\n\n
+    immediateApprovalOnlyFlag()\n
     '''
 def postInstallScriptUri():
-    '''public Mask postInstallScriptUri()
+    '''returns Mask\n\n
+    postInstallScriptUri()\n
     '''

@@ -1,6 +1,8 @@
-def ToggleViewTypeAction():
-    '''public ToggleViewTypeAction()
+def ():
+    '''returns ToggleViewTypeAction\n\n
+    ()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''

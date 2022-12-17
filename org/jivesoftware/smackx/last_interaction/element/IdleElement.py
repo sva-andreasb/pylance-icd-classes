@@ -1,25 +1,24 @@
 NAMESPACE = "String  \"urn:xmpp:idle:1\""
 ELEMENT = "String  \"idle\""
 ATTR_SINCE = "String  \"since\""
-def IdleElement():
-    '''public IdleElement()
-    public IdleElement(final Date since)
+def ():
+    '''returns IdleElement\n\n
+    ()\n
+    (final Date since)\n
     '''
 def getSince():
-    '''public Date getSince()
-    '''
-def addToPresence():
-    '''public static void addToPresence(final Presence presence)
-    '''
-def fromPresence():
-    '''public static IdleElement fromPresence(final Presence presence)
+    '''returns Date\n\n
+    getSince()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''

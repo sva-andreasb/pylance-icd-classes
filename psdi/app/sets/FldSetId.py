@@ -1,15 +1,20 @@
-def FldSetId():
-    '''public FldSetId(final MboValue mbv)
+def ():
+    '''returns FldSetId\n\n
+    (final MboValue mbv)\n
     '''
 def getCriteria():
-    '''public String getCriteria()
+    '''returns String\n\n
+    getCriteria()\n
     '''
 def setCriteriaCOMPANY():
-    '''public void setCriteriaCOMPANY()
+    '''returns None\n\n
+    setCriteriaCOMPANY()\n
     '''
 def setCriteriaITEM():
-    '''public void setCriteriaITEM()
+    '''returns None\n\n
+    setCriteriaITEM()\n
     '''
 def setCriteriaALL():
-    '''public void setCriteriaALL()
+    '''returns None\n\n
+    setCriteriaALL()\n
     '''

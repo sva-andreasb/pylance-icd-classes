@@ -1,12 +1,16 @@
-def ResourceMovedEvent():
-    '''public ResourceMovedEvent(final IlvGanttModel ilvGanttModel, final IlvResource ilvResource, final IlvResource ilvResource2, final int n, final IlvResource ilvResource3, final int n2)
+def ():
+    '''returns ResourceMovedEvent\n\n
+    (final IlvGanttModel ilvGanttModel, final IlvResource ilvResource, final IlvResource ilvResource2, final int n, final IlvResource ilvResource3, final int n2)\n
     '''
 def getResource():
-    '''public IlvResource getResource()
+    '''returns IlvResource\n\n
+    getResource()\n
     '''
 def getOldParent():
-    '''public IlvResource getOldParent()
+    '''returns IlvResource\n\n
+    getOldParent()\n
     '''
 def getNewParent():
-    '''public IlvResource getNewParent()
+    '''returns IlvResource\n\n
+    getNewParent()\n
     '''

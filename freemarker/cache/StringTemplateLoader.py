@@ -1,28 +1,37 @@
-def StringTemplateLoader():
-    '''public StringTemplateLoader()
+def ():
+    '''returns StringTemplateLoader\n\n
+    ()\n
     '''
 def putTemplate():
-    '''public void putTemplate(final String name, final String templateSource)
-    public void putTemplate(final String name, final String templateSource, final long lastModified)
+    '''returns None\n\n
+    putTemplate(final String name, final String templateSource)\n
+    putTemplate(final String name, final String templateSource, final long lastModified)\n
     '''
 def closeTemplateSource():
-    '''public void closeTemplateSource(final Object templateSource)
+    '''returns None\n\n
+    closeTemplateSource(final Object templateSource)\n
     '''
 def findTemplateSource():
-    '''public Object findTemplateSource(final String name)
+    '''returns Object\n\n
+    findTemplateSource(final String name)\n
     '''
 def getLastModified():
-    '''public long getLastModified(final Object templateSource)
+    '''returns long\n\n
+    getLastModified(final Object templateSource)\n
     '''
 def getReader():
-    '''public Reader getReader(final Object templateSource, final String encoding)
+    '''returns Reader\n\n
+    getReader(final Object templateSource, final String encoding)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

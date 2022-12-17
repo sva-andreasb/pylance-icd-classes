@@ -1,19 +1,25 @@
-def NetscapeDraftSpec():
-    '''public NetscapeDraftSpec(final String[] datepatterns)
-    public NetscapeDraftSpec()
+def ():
+    '''returns NetscapeDraftSpec\n\n
+    (final String[] datepatterns)\n
+    ()\n
     '''
 def parse():
-    '''public List<Cookie> parse(final Header header, final CookieOrigin origin)
+    '''returns List<Cookie>\n\n
+    parse(final Header header, final CookieOrigin origin)\n
     '''
 def formatCookies():
-    '''public List<Header> formatCookies(final List<Cookie> cookies)
+    '''returns List<Header>\n\n
+    formatCookies(final List<Cookie> cookies)\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def getVersionHeader():
-    '''public Header getVersionHeader()
+    '''returns Header\n\n
+    getVersionHeader()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

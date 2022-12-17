@@ -1,19 +1,24 @@
 ABSTRACT = "int  0"
 STRUCTURAL = "int  1"
 AUXILIARY = "int  2"
-def LDAPObjectClassSchema():
-    '''public LDAPObjectClassSchema(final String[] array, final String s, final String[] array2, final String s2, final String[] array3, final String[] array4, final int n, final boolean b)
-    public LDAPObjectClassSchema(final String s)
+def ():
+    '''returns LDAPObjectClassSchema\n\n
+    (final String[] array, final String s, final String[] array2, final String s2, final String[] array3, final String[] array4, final int n, final boolean b)\n
+    (final String s)\n
     '''
 def getSuperiors():
-    '''public String[] getSuperiors()
+    '''returns String[]\n\n
+    getSuperiors()\n
     '''
 def getRequiredAttributes():
-    '''public String[] getRequiredAttributes()
+    '''returns String[]\n\n
+    getRequiredAttributes()\n
     '''
 def getOptionalAttributes():
-    '''public String[] getOptionalAttributes()
+    '''returns String[]\n\n
+    getOptionalAttributes()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''

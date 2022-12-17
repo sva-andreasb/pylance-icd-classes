@@ -1,9 +1,11 @@
 TRUE = "String  \"true\""
 FALSE = "String  \"false\""
-def PdfBoolean():
-    '''public PdfBoolean(final boolean value)
-    public PdfBoolean(final String value)
+def ():
+    '''returns PdfBoolean\n\n
+    (final boolean value)\n
+    (final String value)\n
     '''
 def booleanValue():
-    '''public boolean booleanValue()
+    '''returns boolean\n\n
+    booleanValue()\n
     '''

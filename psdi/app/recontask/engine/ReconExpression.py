@@ -8,43 +8,44 @@ TOKEN_DATASET2_FIELD = "int  6"
 TOKEN_VALUE = "int  7"
 TOKEN_LOWEST_VALUE = "int  1"
 TOKEN_HIGHEST_VALUE = "int  7"
-def ReconExpression():
-    '''public ReconExpression(final ReconInfo reconInfo)
+def ():
+    '''returns ReconExpression\n\n
+    (final ReconInfo reconInfo)\n
     '''
 def setExpressionTag():
-    '''public void setExpressionTag(final String expressionTag)
+    '''returns None\n\n
+    setExpressionTag(final String expressionTag)\n
     '''
 def getExpressionTag():
-    '''public String getExpressionTag()
+    '''returns String\n\n
+    getExpressionTag()\n
     '''
 def getCompiledExpressionAsString():
-    '''public String getCompiledExpressionAsString()
+    '''returns String\n\n
+    getCompiledExpressionAsString()\n
     '''
 def addExpressionToken():
-    '''public void addExpressionToken(final int tokenType, final String tokenValue)
-    public void addExpressionToken(final int tokenType, final String tokenValue, final String tokenUnit)
+    '''returns None\n\n
+    addExpressionToken(final int tokenType, final String tokenValue)\n
+    addExpressionToken(final int tokenType, final String tokenValue, final String tokenUnit)\n
     '''
 def prepareAttributeIndexes():
-    '''public void prepareAttributeIndexes(final ReconValueSet leadingSet, final ReconValueSet subordinateSet)
+    '''returns None\n\n
+    prepareAttributeIndexes(final ReconValueSet leadingSet, final ReconValueSet subordinateSet)\n
     '''
 def readExpression():
-    '''public void readExpression(final MboSetRemote reconLinkSet)
+    '''returns None\n\n
+    readExpression(final MboSetRemote reconLinkSet)\n
     '''
 def reset():
-    '''public void reset()
-    '''
-def processOperatorToken():
-    '''public static void processOperatorToken(final Stack operatorStack, final Stack nodeStack, final ReconExpressionToken currentToken)
-    '''
-def processRightParenthesisToken():
-    '''public static void processRightParenthesisToken(final Stack operatorStack, final Stack nodeStack)
-    '''
-def processInfixExpression():
-    '''public static void processInfixExpression(final Stack operatorStack, final Stack nodeStack, final ReconExpressionToken currentToken)
+    '''returns None\n\n
+    reset()\n
     '''
 def getAttributeSet():
-    '''public Set getAttributeSet(final boolean getLeftSide, final boolean stripPrefixes)
+    '''returns Set\n\n
+    getAttributeSet(final boolean getLeftSide, final boolean stripPrefixes)\n
     '''
 def getAttributeToUnitMap():
-    '''public Map getAttributeToUnitMap(final boolean getLeftSide, final boolean stripPrefixes)
+    '''returns Map\n\n
+    getAttributeToUnitMap(final boolean getLeftSide, final boolean stripPrefixes)\n
     '''

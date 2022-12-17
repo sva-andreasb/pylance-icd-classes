@@ -1,6 +1,8 @@
-def MS1252Encoder():
-    '''public MS1252Encoder(final Charset cs)
+def ():
+    '''returns MS1252Encoder\n\n
+    (final Charset cs)\n
     '''
 def canEncode():
-    '''public boolean canEncode(final char c)
+    '''returns boolean\n\n
+    canEncode(final char c)\n
     '''

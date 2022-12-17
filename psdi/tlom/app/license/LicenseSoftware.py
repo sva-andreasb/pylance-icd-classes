@@ -1,21 +1,16 @@
-def LicenseSoftware():
-    '''public LicenseSoftware(final MboSet ms)
+def ():
+    '''returns LicenseSoftware\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
-    '''
-def validateSelection():
-    '''public static boolean validateSelection(final MboRemote sourceMbo, final LicenseRemote license, final MboRemote exclude)
-    '''
-def validateSelManageAsFlg():
-    '''public static void validateSelManageAsFlg(final MboRemote sourceMbo, final LicenseRemote license)
-    '''
-def validateSelMainframeVU():
-    '''public static boolean validateSelMainframeVU(final MboRemote sourceMbo, final LicenseRemote license)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

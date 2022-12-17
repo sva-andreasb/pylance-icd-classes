@@ -1,9 +1,12 @@
-def CtrlCondPropSet():
-    '''public CtrlCondPropSet(final MboServerInterface ms)
+def ():
+    '''returns CtrlCondPropSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def saveTransaction():
-    '''public void saveTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    saveTransaction(final MXTransaction txn)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''

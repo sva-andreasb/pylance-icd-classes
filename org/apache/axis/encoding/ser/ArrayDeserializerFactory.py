@@ -1,10 +1,13 @@
-def ArrayDeserializerFactory():
-    '''public ArrayDeserializerFactory()
-    public ArrayDeserializerFactory(final QName componentXmlType)
+def ():
+    '''returns ArrayDeserializerFactory\n\n
+    ()\n
+    (final QName componentXmlType)\n
     '''
 def getDeserializerAs():
-    '''public Deserializer getDeserializerAs(final String mechanismType)
+    '''returns Deserializer\n\n
+    getDeserializerAs(final String mechanismType)\n
     '''
 def setComponentType():
-    '''public void setComponentType(final QName componentType)
+    '''returns None\n\n
+    setComponentType(final QName componentType)\n
     '''

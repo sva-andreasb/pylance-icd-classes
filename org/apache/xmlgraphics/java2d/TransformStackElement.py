@@ -1,30 +1,20 @@
 def clone():
-    '''public Object clone()
-    '''
-def createTranslateElement():
-    '''public static TransformStackElement createTranslateElement(final double tx, final double ty)
-    '''
-def createRotateElement():
-    '''public static TransformStackElement createRotateElement(final double theta)
-    '''
-def createScaleElement():
-    '''public static TransformStackElement createScaleElement(final double scaleX, final double scaleY)
-    '''
-def createShearElement():
-    '''public static TransformStackElement createShearElement(final double shearX, final double shearY)
-    '''
-def createGeneralTransformElement():
-    '''public static TransformStackElement createGeneralTransformElement(final AffineTransform txf)
+    '''returns Object\n\n
+    clone()\n
     '''
 def isIdentity():
-    '''public boolean isIdentity()
+    '''returns boolean\n\n
+    isIdentity()\n
     '''
 def getTransformParameters():
-    '''public double[] getTransformParameters()
+    '''returns double[]\n\n
+    getTransformParameters()\n
     '''
 def getType():
-    '''public TransformType getType()
+    '''returns TransformType\n\n
+    getType()\n
     '''
 def concatenate():
-    '''public boolean concatenate(final TransformStackElement stackElement)
+    '''returns boolean\n\n
+    concatenate(final TransformStackElement stackElement)\n
     '''

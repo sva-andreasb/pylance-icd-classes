@@ -1,3 +1,4 @@
-def FldMRLineCategory():
-    '''public FldMRLineCategory(final MboValue mbv)
+def ():
+    '''returns FldMRLineCategory\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,35 +1,44 @@
 FEATURE = "String  \"http://javax.xml.transform.stream.StreamSource/feature\""
-def StreamSource():
-    '''public StreamSource()
-    public StreamSource(final InputStream inputStream)
-    public StreamSource(final InputStream inputStream, final String systemId)
-    public StreamSource(final Reader reader)
-    public StreamSource(final Reader reader, final String systemId)
-    public StreamSource(final String systemId)
-    public StreamSource(final File systemId)
+def ():
+    '''returns StreamSource\n\n
+    ()\n
+    (final InputStream inputStream)\n
+    (final InputStream inputStream, final String systemId)\n
+    (final Reader reader)\n
+    (final Reader reader, final String systemId)\n
+    (final String systemId)\n
+    (final File systemId)\n
     '''
 def setInputStream():
-    '''public void setInputStream(final InputStream inputStream)
+    '''returns None\n\n
+    setInputStream(final InputStream inputStream)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def setReader():
-    '''public void setReader(final Reader reader)
+    '''returns None\n\n
+    setReader(final Reader reader)\n
     '''
 def getReader():
-    '''public Reader getReader()
+    '''returns Reader\n\n
+    getReader()\n
     '''
 def setPublicId():
-    '''public void setPublicId(final String publicId)
+    '''returns None\n\n
+    setPublicId(final String publicId)\n
     '''
 def getPublicId():
-    '''public String getPublicId()
+    '''returns String\n\n
+    getPublicId()\n
     '''
 def setSystemId():
-    '''public void setSystemId(final String systemId)
-    public void setSystemId(final File file)
+    '''returns None\n\n
+    setSystemId(final String systemId)\n
+    setSystemId(final File file)\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''

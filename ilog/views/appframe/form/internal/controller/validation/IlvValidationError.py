@@ -2,33 +2,43 @@ WARNING = "int  1"
 FATAL = "int  2"
 STATUS_MESSAGE_TYPE = "int  1"
 PROMPT_MESSAGE_TYPE = "int  2"
-def IlvValidationError():
-    '''public IlvValidationError(final IlvControlValidator e, final String b, final int n, final Object a, final int c)
+def ():
+    '''returns IlvValidationError\n\n
+    (final IlvControlValidator e, final String b, final int n, final Object a, final int c)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getControl():
-    '''public Object getControl()
+    '''returns Object\n\n
+    getControl()\n
     '''
 def setControl():
-    '''public void setControl(final Object a)
+    '''returns None\n\n
+    setControl(final Object a)\n
     '''
 def getSeverity():
-    '''public int getSeverity()
+    '''returns int\n\n
+    getSeverity()\n
     '''
 def setSeverity():
-    '''public void setSeverity(final int c)
+    '''returns None\n\n
+    setSeverity(final int c)\n
     '''
 def getEditor():
-    '''public IlvFormEditor getEditor()
+    '''returns IlvFormEditor\n\n
+    getEditor()\n
     '''
 def getValidator():
-    '''public IlvControlValidator getValidator()
+    '''returns IlvControlValidator\n\n
+    getValidator()\n
     '''
 def getForm():
-    '''public IlvForm getForm()
+    '''returns IlvForm\n\n
+    getForm()\n
     '''
 def getMessageType():
-    '''public int getMessageType()
+    '''returns int\n\n
+    getMessageType()\n
     '''

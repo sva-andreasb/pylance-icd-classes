@@ -1,12 +1,16 @@
-def DOMAttributeIterator():
-    '''public DOMAttributeIterator(final NodePointer parent, final QName name)
+def ():
+    '''returns DOMAttributeIterator\n\n
+    (final NodePointer parent, final QName name)\n
     '''
 def getNodePointer():
-    '''public NodePointer getNodePointer()
+    '''returns NodePointer\n\n
+    getNodePointer()\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def setPosition():
-    '''public boolean setPosition(final int position)
+    '''returns boolean\n\n
+    setPosition(final int position)\n
     '''

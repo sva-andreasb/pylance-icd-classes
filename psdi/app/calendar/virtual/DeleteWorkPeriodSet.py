@@ -1,6 +1,8 @@
-def DeleteWorkPeriodSet():
-    '''public DeleteWorkPeriodSet(final MboServerInterface ms)
+def ():
+    '''returns DeleteWorkPeriodSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

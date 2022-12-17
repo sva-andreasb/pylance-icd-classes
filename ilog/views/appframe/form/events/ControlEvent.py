@@ -1,3 +1,4 @@
-def ControlEvent():
-    '''public ControlEvent(final Object o)
+def ():
+    '''returns ControlEvent\n\n
+    (final Object o)\n
     '''

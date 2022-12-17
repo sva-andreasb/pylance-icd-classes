@@ -1,19 +1,20 @@
 def setTotalTaskWeight():
-    '''public void setTotalTaskWeight(final int totalTaskWeight)
+    '''returns None\n\n
+    setTotalTaskWeight(final int totalTaskWeight)\n
     '''
 def setTotalNumberOfTasks():
-    '''public void setTotalNumberOfTasks(final int numberOfTasks)
-    '''
-def getInstance():
-    '''public static CfgTaskStatusEventSender getInstance(final int totalTaskWeight, final int numberOfTasks)
-    public static CfgTaskStatusEventSender getInstance()
+    '''returns None\n\n
+    setTotalNumberOfTasks(final int numberOfTasks)\n
     '''
 def sendInstallProgressEvent():
-    '''public void sendInstallProgressEvent(final CfgTaskStatusEvent te)
+    '''returns None\n\n
+    sendInstallProgressEvent(final CfgTaskStatusEvent te)\n
     '''
 def setTaskNumber():
-    '''public void setTaskNumber(final int thisTaskNumber)
+    '''returns None\n\n
+    setTaskNumber(final int thisTaskNumber)\n
     '''
 def updateWeightCompleted():
-    '''public void updateWeightCompleted(final int weight)
+    '''returns None\n\n
+    updateWeightCompleted(final int weight)\n
     '''

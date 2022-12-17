@@ -1,3 +1,4 @@
-def FldRFQShipToAttn():
-    '''public FldRFQShipToAttn(final MboValue mbv)
+def ():
+    '''returns FldRFQShipToAttn\n\n
+    (final MboValue mbv)\n
     '''

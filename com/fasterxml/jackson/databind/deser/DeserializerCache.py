@@ -1,18 +1,24 @@
-def DeserializerCache():
-    '''public DeserializerCache()
+def ():
+    '''returns DeserializerCache\n\n
+    ()\n
     '''
 def cachedDeserializersCount():
-    '''public int cachedDeserializersCount()
+    '''returns int\n\n
+    cachedDeserializersCount()\n
     '''
 def flushCachedDeserializers():
-    '''public void flushCachedDeserializers()
+    '''returns None\n\n
+    flushCachedDeserializers()\n
     '''
 def findValueDeserializer():
-    '''public JsonDeserializer<Object> findValueDeserializer(final DeserializationContext ctxt, final DeserializerFactory factory, final JavaType propertyType)
+    '''returns JsonDeserializer<Object>\n\n
+    findValueDeserializer(final DeserializationContext ctxt, final DeserializerFactory factory, final JavaType propertyType)\n
     '''
 def findKeyDeserializer():
-    '''public KeyDeserializer findKeyDeserializer(final DeserializationContext ctxt, final DeserializerFactory factory, final JavaType type)
+    '''returns KeyDeserializer\n\n
+    findKeyDeserializer(final DeserializationContext ctxt, final DeserializerFactory factory, final JavaType type)\n
     '''
 def hasValueDeserializerFor():
-    '''public boolean hasValueDeserializerFor(final DeserializationContext ctxt, final DeserializerFactory factory, final JavaType type)
+    '''returns boolean\n\n
+    hasValueDeserializerFor(final DeserializationContext ctxt, final DeserializerFactory factory, final JavaType type)\n
     '''

@@ -1,36 +1,48 @@
 def connect():
-    '''public void connect(final Object o, final IlvForm ilvForm, final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    connect(final Object o, final IlvForm ilvForm, final IlvEditionContext ilvEditionContext)\n
     '''
 def disconnect():
-    '''public void disconnect(final Object o, final IlvForm ilvForm, final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    disconnect(final Object o, final IlvForm ilvForm, final IlvEditionContext ilvEditionContext)\n
     '''
 def validate():
-    '''public IlvValidationError validate(final int n, final IlvEditionContext ilvEditionContext)
+    '''returns IlvValidationError\n\n
+    validate(final int n, final IlvEditionContext ilvEditionContext)\n
     '''
 def getValidationMode():
-    '''public int getValidationMode()
+    '''returns int\n\n
+    getValidationMode()\n
     '''
 def read():
-    '''public void read(final Element element)
+    '''returns None\n\n
+    read(final Element element)\n
     '''
 def addValidator():
-    '''public void addValidator(final IlvControlValidator ilvControlValidator)
+    '''returns None\n\n
+    addValidator(final IlvControlValidator ilvControlValidator)\n
     '''
 def removeValidator():
-    '''public boolean removeValidator(final IlvControlValidator ilvControlValidator)
+    '''returns boolean\n\n
+    removeValidator(final IlvControlValidator ilvControlValidator)\n
     '''
 def getValidatorCount():
-    '''public int getValidatorCount()
+    '''returns int\n\n
+    getValidatorCount()\n
     '''
 def getValidator():
-    '''public IlvControlValidator getValidator(final int n)
+    '''returns IlvControlValidator\n\n
+    getValidator(final int n)\n
     '''
 def setEditor():
-    '''public void setEditor(final IlvFormEditor ilvFormEditor)
+    '''returns None\n\n
+    setEditor(final IlvFormEditor ilvFormEditor)\n
     '''
 def addValidationListener():
-    '''public void addValidationListener(final ValidationListener validationListener)
+    '''returns None\n\n
+    addValidationListener(final ValidationListener validationListener)\n
     '''
 def removeValidationListener():
-    '''public boolean removeValidationListener(final ValidationListener validationListener)
+    '''returns boolean\n\n
+    removeValidationListener(final ValidationListener validationListener)\n
     '''

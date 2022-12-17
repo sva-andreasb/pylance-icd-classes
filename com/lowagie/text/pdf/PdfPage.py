@@ -1,3 +1,4 @@
 def isParent():
-    '''public boolean isParent()
+    '''returns boolean\n\n
+    isParent()\n
     '''

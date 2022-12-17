@@ -1,33 +1,44 @@
-def TenantReg():
-    '''public TenantReg(final MboSet ms)
+def ():
+    '''returns TenantReg\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def resetPwd():
-    '''public boolean resetPwd()
+    '''returns boolean\n\n
+    resetPwd()\n
     '''
 def resetTenantAdminPwd():
-    '''public boolean resetTenantAdminPwd()
+    '''returns boolean\n\n
+    resetTenantAdminPwd()\n
     '''
 def sendLoginInfo():
-    '''public boolean sendLoginInfo()
+    '''returns boolean\n\n
+    sendLoginInfo()\n
     '''
 def getSessionCount():
-    '''public int getSessionCount(final boolean active)
+    '''returns int\n\n
+    getSessionCount(final boolean active)\n
     '''
 def updateSessionCounts():
-    '''public void updateSessionCounts()
+    '''returns None\n\n
+    updateSessionCounts()\n
     '''

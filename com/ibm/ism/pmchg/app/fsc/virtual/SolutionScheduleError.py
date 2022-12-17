@@ -1,37 +1,49 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def SolutionScheduleError():
-    '''public SolutionScheduleError(final MboRemote woMbo)
+def ():
+    '''returns SolutionScheduleError\n\n
+    (final MboRemote woMbo)\n
     '''
 def setSiblingViewFailed():
-    '''public void setSiblingViewFailed(final boolean failed)
+    '''returns None\n\n
+    setSiblingViewFailed(final boolean failed)\n
     '''
 def setOwnerShiftViewFailed():
-    '''public void setOwnerShiftViewFailed(final boolean failed)
+    '''returns None\n\n
+    setOwnerShiftViewFailed(final boolean failed)\n
     '''
 def setChangeWindowViewFailed():
-    '''public void setChangeWindowViewFailed(final boolean failed)
+    '''returns None\n\n
+    setChangeWindowViewFailed(final boolean failed)\n
     '''
 def setCiLoadingViewFailed():
-    '''public void setCiLoadingViewFailed(final boolean failed)
+    '''returns None\n\n
+    setCiLoadingViewFailed(final boolean failed)\n
     '''
 def setRestrictedBlackoutPeriodViewFailed():
-    '''public void setRestrictedBlackoutPeriodViewFailed(final boolean failed)
+    '''returns None\n\n
+    setRestrictedBlackoutPeriodViewFailed(final boolean failed)\n
     '''
 def setLockdownBlackoutPeriodViewFailed():
-    '''public void setLockdownBlackoutPeriodViewFailed(final boolean failed)
+    '''returns None\n\n
+    setLockdownBlackoutPeriodViewFailed(final boolean failed)\n
     '''
 def setOwnerLoadingViewFailed():
-    '''public void setOwnerLoadingViewFailed(final boolean failed)
+    '''returns None\n\n
+    setOwnerLoadingViewFailed(final boolean failed)\n
     '''
 def setNoWindowIntersections():
-    '''public void setNoWindowIntersections(final boolean failed)
+    '''returns None\n\n
+    setNoWindowIntersections(final boolean failed)\n
     '''
 def setTimeWindowsTooShort():
-    '''public void setTimeWindowsTooShort(final boolean failed, final String maxDuration)
+    '''returns None\n\n
+    setTimeWindowsTooShort(final boolean failed, final String maxDuration)\n
     '''
 def getMessageName():
-    '''public String getMessageName(final boolean noContext)
+    '''returns String\n\n
+    getMessageName(final boolean noContext)\n
     '''
 def getParameterStrings():
-    '''public String[] getParameterStrings(final boolean noContext)
+    '''returns String[]\n\n
+    getParameterStrings(final boolean noContext)\n
     '''

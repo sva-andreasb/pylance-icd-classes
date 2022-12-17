@@ -1,6 +1,8 @@
-def FldItemOrgInfoTaxCode():
-    '''public FldItemOrgInfoTaxCode(final MboValue mbv)
+def ():
+    '''returns FldItemOrgInfoTaxCode\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

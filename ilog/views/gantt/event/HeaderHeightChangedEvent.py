@@ -1,12 +1,16 @@
-def HeaderHeightChangedEvent():
-    '''public HeaderHeightChangedEvent(final Component source, final int a, final int b)
+def ():
+    '''returns HeaderHeightChangedEvent\n\n
+    (final Component source, final int a, final int b)\n
     '''
 def getHeader():
-    '''public Component getHeader()
+    '''returns Component\n\n
+    getHeader()\n
     '''
 def getOldHeight():
-    '''public int getOldHeight()
+    '''returns int\n\n
+    getOldHeight()\n
     '''
 def getNewHeight():
-    '''public int getNewHeight()
+    '''returns int\n\n
+    getNewHeight()\n
     '''

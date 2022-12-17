@@ -1,30 +1,36 @@
-def CoreDOMImplementationImpl():
-    '''public CoreDOMImplementationImpl()
-    '''
-def getDOMImplementation():
-    '''public static DOMImplementation getDOMImplementation()
+def ():
+    '''returns CoreDOMImplementationImpl\n\n
+    ()\n
     '''
 def hasFeature():
-    '''public boolean hasFeature(String substring, final String s)
+    '''returns boolean\n\n
+    hasFeature(String substring, final String s)\n
     '''
 def createDocumentType():
-    '''public DocumentType createDocumentType(final String s, final String s2, final String s3)
+    '''returns DocumentType\n\n
+    createDocumentType(final String s, final String s2, final String s3)\n
     '''
 def createDocument():
-    '''public Document createDocument(final String s, final String s2, final DocumentType documentType)
+    '''returns Document\n\n
+    createDocument(final String s, final String s2, final DocumentType documentType)\n
     '''
 def getFeature():
-    '''public Object getFeature(final String s, final String s2)
+    '''returns Object\n\n
+    getFeature(final String s, final String s2)\n
     '''
 def createLSParser():
-    '''public LSParser createLSParser(final short n, final String s)
+    '''returns LSParser\n\n
+    createLSParser(final short n, final String s)\n
     '''
 def createLSSerializer():
-    '''public LSSerializer createLSSerializer()
+    '''returns LSSerializer\n\n
+    createLSSerializer()\n
     '''
 def createLSInput():
-    '''public LSInput createLSInput()
+    '''returns LSInput\n\n
+    createLSInput()\n
     '''
 def createLSOutput():
-    '''public LSOutput createLSOutput()
+    '''returns LSOutput\n\n
+    createLSOutput()\n
     '''

@@ -1,9 +1,12 @@
-def SurveyReportBean():
-    '''public SurveyReportBean()
+def ():
+    '''returns SurveyReportBean\n\n
+    ()\n
     '''
 def highlightrow():
-    '''public int highlightrow(final int row)
+    '''returns int\n\n
+    highlightrow(final int row)\n
     '''
 def nextrow():
-    '''public int nextrow()
+    '''returns int\n\n
+    nextrow()\n
     '''

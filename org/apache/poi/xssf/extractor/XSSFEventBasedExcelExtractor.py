@@ -1,70 +1,89 @@
-def XSSFEventBasedExcelExtractor():
-    '''public XSSFEventBasedExcelExtractor(final String path)
-    public XSSFEventBasedExcelExtractor(final OPCPackage container)
-    '''
-def main():
-    '''public static void main(final String[] args)
+def ():
+    '''returns XSSFEventBasedExcelExtractor\n\n
+    (final String path)\n
+    (final OPCPackage container)\n
     '''
 def setIncludeSheetNames():
-    '''public void setIncludeSheetNames(final boolean includeSheetNames)
+    '''returns None\n\n
+    setIncludeSheetNames(final boolean includeSheetNames)\n
     '''
 def getIncludeSheetNames():
-    '''public boolean getIncludeSheetNames()
+    '''returns boolean\n\n
+    getIncludeSheetNames()\n
     '''
 def setFormulasNotResults():
-    '''public void setFormulasNotResults(final boolean formulasNotResults)
+    '''returns None\n\n
+    setFormulasNotResults(final boolean formulasNotResults)\n
     '''
 def getFormulasNotResults():
-    '''public boolean getFormulasNotResults()
+    '''returns boolean\n\n
+    getFormulasNotResults()\n
     '''
 def setIncludeHeadersFooters():
-    '''public void setIncludeHeadersFooters(final boolean includeHeadersFooters)
+    '''returns None\n\n
+    setIncludeHeadersFooters(final boolean includeHeadersFooters)\n
     '''
 def getIncludeHeadersFooters():
-    '''public boolean getIncludeHeadersFooters()
+    '''returns boolean\n\n
+    getIncludeHeadersFooters()\n
     '''
 def setIncludeTextBoxes():
-    '''public void setIncludeTextBoxes(final boolean includeTextBoxes)
+    '''returns None\n\n
+    setIncludeTextBoxes(final boolean includeTextBoxes)\n
     '''
 def getIncludeTextBoxes():
-    '''public boolean getIncludeTextBoxes()
+    '''returns boolean\n\n
+    getIncludeTextBoxes()\n
     '''
 def setIncludeCellComments():
-    '''public void setIncludeCellComments(final boolean includeCellComments)
+    '''returns None\n\n
+    setIncludeCellComments(final boolean includeCellComments)\n
     '''
 def getIncludeCellComments():
-    '''public boolean getIncludeCellComments()
+    '''returns boolean\n\n
+    getIncludeCellComments()\n
     '''
 def setConcatenatePhoneticRuns():
-    '''public void setConcatenatePhoneticRuns(final boolean concatenatePhoneticRuns)
+    '''returns None\n\n
+    setConcatenatePhoneticRuns(final boolean concatenatePhoneticRuns)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getPackage():
-    '''public OPCPackage getPackage()
+    '''returns OPCPackage\n\n
+    getPackage()\n
     '''
 def processSheet():
-    '''public void processSheet(final XSSFSheetXMLHandler.SheetContentsHandler sheetContentsExtractor, final StylesTable styles, final CommentsTable comments, final ReadOnlySharedStringsTable strings, final InputStream sheetInputStream)
+    '''returns None\n\n
+    processSheet(final XSSFSheetXMLHandler.SheetContentsHandler sheetContentsExtractor, final StylesTable styles, final CommentsTable comments, final ReadOnlySharedStringsTable strings, final InputStream sheetInputStream)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def startRow():
-    '''public void startRow(final int rowNum)
+    '''returns None\n\n
+    startRow(final int rowNum)\n
     '''
 def endRow():
-    '''public void endRow(final int rowNum)
+    '''returns None\n\n
+    endRow(final int rowNum)\n
     '''
 def cell():
-    '''public void cell(final String cellRef, final String formattedValue, final XSSFComment comment)
+    '''returns None\n\n
+    cell(final String cellRef, final String formattedValue, final XSSFComment comment)\n
     '''
 def headerFooter():
-    '''public void headerFooter(final String text, final boolean isHeader, final String tagName)
+    '''returns None\n\n
+    headerFooter(final String text, final boolean isHeader, final String tagName)\n
     '''

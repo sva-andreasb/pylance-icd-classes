@@ -1,7 +1,9 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloGoalHandler():
-    '''public IloGoalHandler(final IloDefaultRecursiveHandler previous, final IloGoalsDesc goalsDesc, final Attributes attrs)
+def ():
+    '''returns IloGoalHandler\n\n
+    (final IloDefaultRecursiveHandler previous, final IloGoalsDesc goalsDesc, final Attributes attrs)\n
     '''
 def endElement():
-    '''public void endElement(final String namespaceURI, final String localName, final String qName)
+    '''returns None\n\n
+    endElement(final String namespaceURI, final String localName, final String qName)\n
     '''

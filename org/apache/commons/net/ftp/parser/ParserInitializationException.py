@@ -1,7 +1,9 @@
-def ParserInitializationException():
-    '''public ParserInitializationException(final String message)
-    public ParserInitializationException(final String message, final Throwable rootCause)
+def ():
+    '''returns ParserInitializationException\n\n
+    (final String message)\n
+    (final String message, final Throwable rootCause)\n
     '''
 def getRootCause():
-    '''public Throwable getRootCause()
+    '''returns Throwable\n\n
+    getRootCause()\n
     '''

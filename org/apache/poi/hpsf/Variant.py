@@ -46,9 +46,3 @@ VT_RESERVED = "int  32768"
 VT_ILLEGAL = "int  65535"
 VT_ILLEGALMASKED = "int  4095"
 VT_TYPEMASK = "int  4095"
-def getVariantName():
-    '''public static String getVariantName(final long variantType)
-    '''
-def getVariantLength():
-    '''public static int getVariantLength(final long variantType)
-    '''

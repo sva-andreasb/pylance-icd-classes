@@ -1,3 +1,4 @@
-def DateCondition():
-    '''public DateCondition(final DateComparisonType type, final Date date)
+def ():
+    '''returns DateCondition\n\n
+    (final DateComparisonType type, final Date date)\n
     '''

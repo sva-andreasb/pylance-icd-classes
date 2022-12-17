@@ -1,3 +1,4 @@
 def PMJpnumCfg():
-    '''public void PMJpnumCfg(final MboValue thisMboValue, final String status)
+    '''returns None\n\n
+    PMJpnumCfg(final MboValue thisMboValue, final String status)\n
     '''

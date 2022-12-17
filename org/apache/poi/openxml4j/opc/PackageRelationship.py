@@ -4,39 +4,47 @@ RELATIONSHIP_TAG_NAME = "String  \"Relationship\""
 TARGET_ATTRIBUTE_NAME = "String  \"Target\""
 TARGET_MODE_ATTRIBUTE_NAME = "String  \"TargetMode\""
 TYPE_ATTRIBUTE_NAME = "String  \"Type\""
-def PackageRelationship():
-    '''public PackageRelationship(final OPCPackage pkg, final PackagePart sourcePart, final URI targetUri, final TargetMode targetMode, final String relationshipType, final String id)
+def ():
+    '''returns PackageRelationship\n\n
+    (final OPCPackage pkg, final PackagePart sourcePart, final URI targetUri, final TargetMode targetMode, final String relationshipType, final String id)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def getContainerPartRelationship():
-    '''public static URI getContainerPartRelationship()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getPackage():
-    '''public OPCPackage getPackage()
+    '''returns OPCPackage\n\n
+    getPackage()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getRelationshipType():
-    '''public String getRelationshipType()
+    '''returns String\n\n
+    getRelationshipType()\n
     '''
 def getSource():
-    '''public PackagePart getSource()
+    '''returns PackagePart\n\n
+    getSource()\n
     '''
 def getSourceURI():
-    '''public URI getSourceURI()
+    '''returns URI\n\n
+    getSourceURI()\n
     '''
 def getTargetMode():
-    '''public TargetMode getTargetMode()
+    '''returns TargetMode\n\n
+    getTargetMode()\n
     '''
 def getTargetURI():
-    '''public URI getTargetURI()
+    '''returns URI\n\n
+    getTargetURI()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

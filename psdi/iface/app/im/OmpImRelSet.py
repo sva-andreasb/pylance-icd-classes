@@ -1,9 +1,12 @@
-def OmpImRelSet():
-    '''public OmpImRelSet(final MboServerInterface ms)
+def ():
+    '''returns OmpImRelSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

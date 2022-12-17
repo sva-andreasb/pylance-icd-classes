@@ -1,10 +1,13 @@
-def MakeConstraintAction():
-    '''public MakeConstraintAction(final IlvHierarchyChart chart)
+def ():
+    '''returns MakeConstraintAction\n\n
+    (final IlvHierarchyChart chart)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent event)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent event)\n
     '''
 def interactorChanged():
-    '''public void interactorChanged(final InteractorChangedEvent event)
+    '''returns None\n\n
+    interactorChanged(final InteractorChangedEvent event)\n
     '''

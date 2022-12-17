@@ -1,9 +1,8 @@
-def SearchResultEvent():
-    '''public SearchResultEvent(final PsearchEventSource psearchEventSource, final LDAPSearchResult ldapSearchResult, final int n)
-    '''
-def getEntry():
-    '''public final LDAPEntry getEntry()
+def ():
+    '''returns SearchResultEvent\n\n
+    (final PsearchEventSource psearchEventSource, final LDAPSearchResult ldapSearchResult, final int n)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

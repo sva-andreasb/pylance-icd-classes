@@ -1,43 +1,51 @@
-def RestClient():
-    '''public RestClient(final CloseableHttpClient client, String url, final String token)
-    public RestClient(final CloseableHttpClient client, String url, final String clientid, final String secret)
+def ():
+    '''returns CloseResponseInputStream\n\n
+    (final CloseableHttpClient client, String url, final String token)\n
+    (final CloseableHttpClient client, String url, final String clientid, final String secret)\n
+    (final ObjectMapper mapper, final Object obj)\n
+    (final InputStream in, final CloseableHttpResponse response)\n
     '''
 def getBaseUrl():
-    '''public String getBaseUrl()
+    '''returns String\n\n
+    getBaseUrl()\n
     '''
 def isCompressionEnabled():
-    '''public boolean isCompressionEnabled()
+    '''returns boolean\n\n
+    isCompressionEnabled()\n
     '''
 def setCompression():
-    '''public void setCompression(final boolean compression)
+    '''returns None\n\n
+    setCompression(final boolean compression)\n
     '''
 def isTraceCalls():
-    '''public boolean isTraceCalls()
+    '''returns boolean\n\n
+    isTraceCalls()\n
     '''
 def setTraceCalls():
-    '''public void setTraceCalls(final boolean traceCalls)
-    '''
-def JsonEntity():
-    '''public JsonEntity(final ObjectMapper mapper, final Object obj)
+    '''returns None\n\n
+    setTraceCalls(final boolean traceCalls)\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def isStreaming():
-    '''public boolean isStreaming()
+    '''returns boolean\n\n
+    isStreaming()\n
     '''
 def getContent():
-    '''public InputStream getContent()
+    '''returns InputStream\n\n
+    getContent()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream outstream)
-    '''
-def CloseResponseInputStream():
-    '''public CloseResponseInputStream(final InputStream in, final CloseableHttpResponse response)
+    '''returns None\n\n
+    writeTo(final OutputStream outstream)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

@@ -1,12 +1,16 @@
-def MultiUserChatIntegrationTest():
-    '''public MultiUserChatIntegrationTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns MultiUserChatIntegrationTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def mucJoinLeaveTest():
-    '''public void mucJoinLeaveTest()
+    '''returns None\n\n
+    mucJoinLeaveTest()\n
     '''
 def mucTest():
-    '''public void mucTest()
+    '''returns None\n\n
+    mucTest()\n
     '''
 def processMessage():
-    '''public void processMessage(final Message message)
+    '''returns None\n\n
+    processMessage(final Message message)\n
     '''

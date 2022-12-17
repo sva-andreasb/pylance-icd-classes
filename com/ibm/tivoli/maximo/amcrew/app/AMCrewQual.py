@@ -1,24 +1,32 @@
-def AMCrewQual():
-    '''public AMCrewQual(final MboSet ms)
+def ():
+    '''returns AMCrewQual\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def setRequirementStatus():
-    '''public void setRequirementStatus(final MboSet laborSet, final Date crewShiftStart, final Date crewShiftEnd, int quantity)
+    '''returns None\n\n
+    setRequirementStatus(final MboSet laborSet, final Date crewShiftStart, final Date crewShiftEnd, int quantity)\n
     '''
 def isLaborQualValid():
-    '''public boolean isLaborQualValid(final MboRemote amcrewLab, final Date crewDate)
+    '''returns boolean\n\n
+    isLaborQualValid(final MboRemote amcrewLab, final Date crewDate)\n
     '''

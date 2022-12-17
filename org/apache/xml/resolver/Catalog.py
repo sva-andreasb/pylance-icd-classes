@@ -1,60 +1,73 @@
-def Catalog():
-    '''public Catalog()
-    public Catalog(final CatalogManager manager)
+def ():
+    '''returns Catalog\n\n
+    ()\n
+    (final CatalogManager manager)\n
     '''
 def getCatalogManager():
-    '''public CatalogManager getCatalogManager()
+    '''returns CatalogManager\n\n
+    getCatalogManager()\n
     '''
 def setCatalogManager():
-    '''public void setCatalogManager(final CatalogManager manager)
+    '''returns None\n\n
+    setCatalogManager(final CatalogManager manager)\n
     '''
 def setupReaders():
-    '''public void setupReaders()
+    '''returns None\n\n
+    setupReaders()\n
     '''
 def addReader():
-    '''public void addReader(final String mimeType, final CatalogReader reader)
+    '''returns None\n\n
+    addReader(final String mimeType, final CatalogReader reader)\n
     '''
 def getCurrentBase():
-    '''public String getCurrentBase()
+    '''returns String\n\n
+    getCurrentBase()\n
     '''
 def getDefaultOverride():
-    '''public String getDefaultOverride()
+    '''returns String\n\n
+    getDefaultOverride()\n
     '''
 def loadSystemCatalogs():
-    '''public void loadSystemCatalogs()
-    '''
-def parseCatalog():
-    '''public synchronized void parseCatalog(final String fileName)
-    public synchronized void parseCatalog(final String mimeType, final InputStream is)
-    public synchronized void parseCatalog(final URL aUrl)
+    '''returns None\n\n
+    loadSystemCatalogs()\n
     '''
 def addEntry():
-    '''public void addEntry(final CatalogEntry entry)
+    '''returns None\n\n
+    addEntry(final CatalogEntry entry)\n
     '''
 def unknownEntry():
-    '''public void unknownEntry(final Vector strings)
+    '''returns None\n\n
+    unknownEntry(final Vector strings)\n
     '''
 def parseAllCatalogs():
-    '''public void parseAllCatalogs()
+    '''returns None\n\n
+    parseAllCatalogs()\n
     '''
 def resolveDoctype():
-    '''public String resolveDoctype(final String entityName, String publicId, String systemId)
+    '''returns String\n\n
+    resolveDoctype(final String entityName, String publicId, String systemId)\n
     '''
 def resolveDocument():
-    '''public String resolveDocument()
+    '''returns String\n\n
+    resolveDocument()\n
     '''
 def resolveEntity():
-    '''public String resolveEntity(final String entityName, String publicId, String systemId)
+    '''returns String\n\n
+    resolveEntity(final String entityName, String publicId, String systemId)\n
     '''
 def resolveNotation():
-    '''public String resolveNotation(final String notationName, String publicId, String systemId)
+    '''returns String\n\n
+    resolveNotation(final String notationName, String publicId, String systemId)\n
     '''
 def resolvePublic():
-    '''public String resolvePublic(String publicId, String systemId)
+    '''returns String\n\n
+    resolvePublic(String publicId, String systemId)\n
     '''
 def resolveSystem():
-    '''public String resolveSystem(String systemId)
+    '''returns String\n\n
+    resolveSystem(String systemId)\n
     '''
 def resolveURI():
-    '''public String resolveURI(String uri)
+    '''returns String\n\n
+    resolveURI(String uri)\n
     '''

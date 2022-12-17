@@ -1,6 +1,7 @@
-def EncoderException():
-    '''public EncoderException()
-    public EncoderException(final String message)
-    public EncoderException(final String message, final Throwable cause)
-    public EncoderException(final Throwable cause)
+def ():
+    '''returns EncoderException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

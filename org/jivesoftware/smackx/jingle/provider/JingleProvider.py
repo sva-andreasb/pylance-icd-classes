@@ -1,6 +1,4 @@
 def parse():
-    '''public Jingle parse(final XmlPullParser parser, final int initialDepth)
-    '''
-def parseJingleContent():
-    '''public static JingleContent parseJingleContent(final XmlPullParser parser, final int initialDepth)
+    '''returns Jingle\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

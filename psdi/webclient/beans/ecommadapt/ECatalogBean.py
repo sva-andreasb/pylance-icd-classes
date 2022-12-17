@@ -1,6 +1,8 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def searchcatalog():
-    '''public int searchcatalog()
+    '''returns int\n\n
+    searchcatalog()\n
     '''

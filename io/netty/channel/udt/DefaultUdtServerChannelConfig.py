@@ -1,72 +1,88 @@
-def DefaultUdtServerChannelConfig():
-    '''public DefaultUdtServerChannelConfig(final UdtChannel channel, final ChannelUDT channelUDT, final boolean apply)
+def ():
+    '''returns DefaultUdtServerChannelConfig\n\n
+    (final UdtChannel channel, final ChannelUDT channelUDT, final boolean apply)\n
     '''
 def getBacklog():
-    '''public int getBacklog()
-    '''
-def getOption():
-    '''public <T> T getOption(final ChannelOption<T> option)
+    '''returns int\n\n
+    getBacklog()\n
     '''
 def setBacklog():
-    '''public UdtServerChannelConfig setBacklog(final int backlog)
-    '''
-def setOption():
-    '''public <T> boolean setOption(final ChannelOption<T> option, final T value)
+    '''returns UdtServerChannelConfig\n\n
+    setBacklog(final int backlog)\n
     '''
 def setProtocolReceiveBufferSize():
-    '''public UdtServerChannelConfig setProtocolReceiveBufferSize(final int protocolReceiveBufferSize)
+    '''returns UdtServerChannelConfig\n\n
+    setProtocolReceiveBufferSize(final int protocolReceiveBufferSize)\n
     '''
 def setProtocolSendBufferSize():
-    '''public UdtServerChannelConfig setProtocolSendBufferSize(final int protocolSendBufferSize)
+    '''returns UdtServerChannelConfig\n\n
+    setProtocolSendBufferSize(final int protocolSendBufferSize)\n
     '''
 def setReceiveBufferSize():
-    '''public UdtServerChannelConfig setReceiveBufferSize(final int receiveBufferSize)
+    '''returns UdtServerChannelConfig\n\n
+    setReceiveBufferSize(final int receiveBufferSize)\n
     '''
 def setReuseAddress():
-    '''public UdtServerChannelConfig setReuseAddress(final boolean reuseAddress)
+    '''returns UdtServerChannelConfig\n\n
+    setReuseAddress(final boolean reuseAddress)\n
     '''
 def setSendBufferSize():
-    '''public UdtServerChannelConfig setSendBufferSize(final int sendBufferSize)
+    '''returns UdtServerChannelConfig\n\n
+    setSendBufferSize(final int sendBufferSize)\n
     '''
 def setSoLinger():
-    '''public UdtServerChannelConfig setSoLinger(final int soLinger)
+    '''returns UdtServerChannelConfig\n\n
+    setSoLinger(final int soLinger)\n
     '''
 def setSystemReceiveBufferSize():
-    '''public UdtServerChannelConfig setSystemReceiveBufferSize(final int systemSendBufferSize)
+    '''returns UdtServerChannelConfig\n\n
+    setSystemReceiveBufferSize(final int systemSendBufferSize)\n
     '''
 def setSystemSendBufferSize():
-    '''public UdtServerChannelConfig setSystemSendBufferSize(final int systemReceiveBufferSize)
+    '''returns UdtServerChannelConfig\n\n
+    setSystemSendBufferSize(final int systemReceiveBufferSize)\n
     '''
 def setConnectTimeoutMillis():
-    '''public UdtServerChannelConfig setConnectTimeoutMillis(final int connectTimeoutMillis)
+    '''returns UdtServerChannelConfig\n\n
+    setConnectTimeoutMillis(final int connectTimeoutMillis)\n
     '''
 def setMaxMessagesPerRead():
-    '''public UdtServerChannelConfig setMaxMessagesPerRead(final int maxMessagesPerRead)
+    '''returns UdtServerChannelConfig\n\n
+    setMaxMessagesPerRead(final int maxMessagesPerRead)\n
     '''
 def setWriteSpinCount():
-    '''public UdtServerChannelConfig setWriteSpinCount(final int writeSpinCount)
+    '''returns UdtServerChannelConfig\n\n
+    setWriteSpinCount(final int writeSpinCount)\n
     '''
 def setAllocator():
-    '''public UdtServerChannelConfig setAllocator(final ByteBufAllocator allocator)
+    '''returns UdtServerChannelConfig\n\n
+    setAllocator(final ByteBufAllocator allocator)\n
     '''
 def setRecvByteBufAllocator():
-    '''public UdtServerChannelConfig setRecvByteBufAllocator(final RecvByteBufAllocator allocator)
+    '''returns UdtServerChannelConfig\n\n
+    setRecvByteBufAllocator(final RecvByteBufAllocator allocator)\n
     '''
 def setAutoRead():
-    '''public UdtServerChannelConfig setAutoRead(final boolean autoRead)
+    '''returns UdtServerChannelConfig\n\n
+    setAutoRead(final boolean autoRead)\n
     '''
 def setAutoClose():
-    '''public UdtServerChannelConfig setAutoClose(final boolean autoClose)
+    '''returns UdtServerChannelConfig\n\n
+    setAutoClose(final boolean autoClose)\n
     '''
 def setWriteBufferLowWaterMark():
-    '''public UdtServerChannelConfig setWriteBufferLowWaterMark(final int writeBufferLowWaterMark)
+    '''returns UdtServerChannelConfig\n\n
+    setWriteBufferLowWaterMark(final int writeBufferLowWaterMark)\n
     '''
 def setWriteBufferHighWaterMark():
-    '''public UdtServerChannelConfig setWriteBufferHighWaterMark(final int writeBufferHighWaterMark)
+    '''returns UdtServerChannelConfig\n\n
+    setWriteBufferHighWaterMark(final int writeBufferHighWaterMark)\n
     '''
 def setWriteBufferWaterMark():
-    '''public UdtServerChannelConfig setWriteBufferWaterMark(final WriteBufferWaterMark writeBufferWaterMark)
+    '''returns UdtServerChannelConfig\n\n
+    setWriteBufferWaterMark(final WriteBufferWaterMark writeBufferWaterMark)\n
     '''
 def setMessageSizeEstimator():
-    '''public UdtServerChannelConfig setMessageSizeEstimator(final MessageSizeEstimator estimator)
+    '''returns UdtServerChannelConfig\n\n
+    setMessageSizeEstimator(final MessageSizeEstimator estimator)\n
     '''

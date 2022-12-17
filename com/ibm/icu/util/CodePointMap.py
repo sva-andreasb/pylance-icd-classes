@@ -1,47 +1,49 @@
 def getRange():
-    '''public boolean getRange(final int start, final RangeOption option, final int surrogateValue, final ValueFilter filter, final Range range)
+    '''returns boolean\n\n
+    getRange(final int start, final RangeOption option, final int surrogateValue, final ValueFilter filter, final Range range)\n
     '''
 def iterator():
-    '''public Iterator<Range> iterator()
+    '''returns Iterator<Range>\n\n
+    iterator()\n
     '''
 def stringIterator():
-    '''public StringIterator stringIterator(final CharSequence s, final int sIndex)
+    '''returns StringIterator\n\n
+    stringIterator(final CharSequence s, final int sIndex)\n
     '''
-def Range():
-    '''public Range()
+def ():
+    '''returns Range\n\n
+    ()\n
     '''
 def getStart():
-    '''public int getStart()
+    '''returns int\n\n
+    getStart()\n
     '''
 def getEnd():
-    '''public int getEnd()
+    '''returns int\n\n
+    getEnd()\n
     '''
 def getValue():
-    '''public int getValue()
-    public final int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''
 def set():
-    '''public void set(final int start, final int end, final int value)
+    '''returns None\n\n
+    set(final int start, final int end, final int value)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Range next()
-    public boolean next()
-    '''
-def remove():
-    '''public final void remove()
+    '''returns boolean\n\n
+    next()\n
+    next()\n
     '''
 def reset():
-    '''public void reset(final CharSequence s, final int sIndex)
+    '''returns None\n\n
+    reset(final CharSequence s, final int sIndex)\n
     '''
 def previous():
-    '''public boolean previous()
-    '''
-def getIndex():
-    '''public final int getIndex()
-    '''
-def getCodePoint():
-    '''public final int getCodePoint()
+    '''returns boolean\n\n
+    previous()\n
     '''

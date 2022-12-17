@@ -1,3 +1,4 @@
-def PlusCFldCompany():
-    '''public PlusCFldCompany(final MboValue mbv)
+def ():
+    '''returns PlusCFldCompany\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,48 +1,50 @@
 def init():
-    '''public void init()
-    public void init(final MXServer mxs)
+    '''returns None\n\n
+    init()\n
+    init(final MXServer mxs)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def getSigoCache():
-    '''public Map<String, SigOptionInfo> getSigoCache(final String appName)
+    '''returns String\n\n
+    getName()\n
     '''
 def isValidOption():
-    '''public boolean isValidOption(final String appName, final String optionName)
+    '''returns boolean\n\n
+    isValidOption(final String appName, final String optionName)\n
     '''
 def isValidLicense():
-    '''public boolean isValidLicense(final String appName, final String optionName, final boolean checkSigoption)
-    '''
-def getSigoFlags():
-    '''public Map<String, String> getSigoFlags(final String appName, final String optionName)
+    '''returns boolean\n\n
+    isValidLicense(final String appName, final String optionName, final boolean checkSigoption)\n
     '''
 def getSigoAppCache():
-    '''public SigOptionInfo getSigoAppCache(final String appName)
-    '''
-def getMaxAppsCache():
-    '''public Map<String, MaxAppsInfo> getMaxAppsCache()
-    public MaxAppsInfo getMaxAppsCache(final String appName)
+    '''returns SigOptionInfo\n\n
+    getSigoAppCache(final String appName)\n
     '''
 def getMaxAppsForTb():
-    '''public Set<String> getMaxAppsForTb(final String mainTbName)
+    '''returns Set<String>\n\n
+    getMaxAppsForTb(final String mainTbName)\n
     '''
 def getNonMobileMaxAppsForTb():
-    '''public List<String> getNonMobileMaxAppsForTb(final String mainTbName)
+    '''returns List<String>\n\n
+    getNonMobileMaxAppsForTb(final String mainTbName)\n
     '''
 def getAuthAppCache():
-    '''public Set<String> getAuthAppCache()
+    '''returns Set<String>\n\n
+    getAuthAppCache()\n
+    '''
+def getMaxAppsCache():
+    '''returns MaxAppsInfo\n\n
+    getMaxAppsCache(final String appName)\n
     '''
 def getMaxModuleCache():
-    '''public MaxModuleInfo getMaxModuleCache(final String moduleName)
-    '''
-def getModuleMenuCache():
-    '''public Map<String, Map<Integer, MaxMenuInfo>> getModuleMenuCache()
+    '''returns MaxModuleInfo\n\n
+    getMaxModuleCache(final String moduleName)\n
     '''
 def isLoaded():
-    '''public boolean isLoaded()
+    '''returns boolean\n\n
+    isLoaded()\n
     '''

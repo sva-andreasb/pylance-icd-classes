@@ -1,30 +1,40 @@
-def AMCrewAvail():
-    '''public AMCrewAvail(final MboSet ms)
+def ():
+    '''returns AMCrewAvail\n\n
+    (final MboSet ms)\n
     '''
 def setAvailPeriodMbo():
-    '''public void setAvailPeriodMbo(final MboRemote availPeriodMbo)
+    '''returns None\n\n
+    setAvailPeriodMbo(final MboRemote availPeriodMbo)\n
     '''
 def getAvailPeriodMbo():
-    '''public MboRemote getAvailPeriodMbo()
+    '''returns MboRemote\n\n
+    getAvailPeriodMbo()\n
     '''
 def setupFields():
-    '''public void setupFields(final GregorianCalendar startCal, final MboRemote crew)
+    '''returns None\n\n
+    setupFields(final GregorianCalendar startCal, final MboRemote crew)\n
     '''
 def modifiedAvailability():
-    '''public boolean modifiedAvailability()
+    '''returns boolean\n\n
+    modifiedAvailability()\n
     '''
 def saveModifiedAvailability():
-    '''public void saveModifiedAvailability()
+    '''returns None\n\n
+    saveModifiedAvailability()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

@@ -1,15 +1,20 @@
-def FldAMCrewLaborContractNum():
-    '''public FldAMCrewLaborContractNum(final MboValue mbv)
+def ():
+    '''returns FldAMCrewLaborContractNum\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String value, final boolean exact)\n
     '''
 def getSqlForEnteredFields():
-    '''public SqlFormat getSqlForEnteredFields()
+    '''returns SqlFormat\n\n
+    getSqlForEnteredFields()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

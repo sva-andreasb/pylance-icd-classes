@@ -5,12 +5,15 @@ FIELD_SITEID = "String  \"SITEID\""
 FIELD_PRODUCTID = "String  \"PRODUCTID\""
 FIELD_LOCATION = "String  \"LOCATION\""
 FIELD_DESCRIPTION = "String  \"DESCRIPTION\""
-def BIMDesignSpecLoc():
-    '''public BIMDesignSpecLoc(final MboSet ms)
+def ():
+    '''returns BIMDesignSpecLoc\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

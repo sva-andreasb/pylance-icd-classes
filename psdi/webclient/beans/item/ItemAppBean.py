@@ -1,39 +1,52 @@
 def ADDITEMS():
-    '''public int ADDITEMS()
+    '''returns int\n\n
+    ADDITEMS()\n
     '''
 def ADDITEMSBULK():
-    '''public int ADDITEMSBULK()
+    '''returns int\n\n
+    ADDITEMSBULK()\n
     '''
 def CONVERSION():
-    '''public int CONVERSION()
+    '''returns int\n\n
+    CONVERSION()\n
     '''
 def ADDTOOLS():
-    '''public void ADDTOOLS()
+    '''returns None\n\n
+    ADDTOOLS()\n
     '''
 def COPYIAS():
-    '''public int COPYIAS()
+    '''returns int\n\n
+    COPYIAS()\n
     '''
 def ITEMORG():
-    '''public int ITEMORG()
+    '''returns int\n\n
+    ITEMORG()\n
     '''
 def TOOLCHARGE():
-    '''public int TOOLCHARGE()
+    '''returns int\n\n
+    TOOLCHARGE()\n
     '''
 def STATUS():
-    '''public int STATUS()
+    '''returns int\n\n
+    STATUS()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def MKISCREW():
-    '''public int MKISCREW()
+    '''returns int\n\n
+    MKISCREW()\n
     '''
 def CAPCSTADG():
-    '''public int CAPCSTADG()
+    '''returns int\n\n
+    CAPCSTADG()\n
     '''
 def INSERT():
-    '''public int INSERT()
+    '''returns int\n\n
+    INSERT()\n
     '''

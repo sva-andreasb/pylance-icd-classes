@@ -1,40 +1,52 @@
 XMPP_BOSH_NS = "String  \"urn:xmpp:xbosh\""
 BOSH_URI = "String  \"http://jabber.org/protocol/httpbind\""
-def XMPPBOSHConnection():
-    '''public XMPPBOSHConnection(final String username, final String password, final boolean https, final String host, final int port, final String filePath, final DomainBareJid xmppServiceDomain)
-    public XMPPBOSHConnection(final BOSHConfiguration config)
+def ():
+    '''returns XMPPBOSHConnection\n\n
+    (final String username, final String password, final boolean https, final String host, final int port, final String filePath, final DomainBareJid xmppServiceDomain)\n
+    (final BOSHConfiguration config)\n
     '''
 def isSecureConnection():
-    '''public boolean isSecureConnection()
+    '''returns boolean\n\n
+    isSecureConnection()\n
     '''
 def isUsingCompression():
-    '''public boolean isUsingCompression()
+    '''returns boolean\n\n
+    isUsingCompression()\n
     '''
 def sendNonza():
-    '''public void sendNonza(final Nonza element)
+    '''returns None\n\n
+    sendNonza(final Nonza element)\n
     '''
 def instantShutdown():
-    '''public void instantShutdown()
+    '''returns None\n\n
+    instantShutdown()\n
     '''
 def write():
-    '''public void write(final char[] cbuf, final int off, final int len)
+    '''returns None\n\n
+    write(final char[] cbuf, final int off, final int len)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def responseReceived():
-    '''public void responseReceived(final BOSHMessageEvent event)
-    public void responseReceived(final BOSHMessageEvent event)
+    '''returns None\n\n
+    responseReceived(final BOSHMessageEvent event)\n
+    responseReceived(final BOSHMessageEvent event)\n
     '''
 def requestSent():
-    '''public void requestSent(final BOSHMessageEvent event)
+    '''returns None\n\n
+    requestSent(final BOSHMessageEvent event)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def connectionEvent():
-    '''public void connectionEvent(final BOSHClientConnEvent connEvent)
+    '''returns None\n\n
+    connectionEvent(final BOSHClientConnEvent connEvent)\n
     '''

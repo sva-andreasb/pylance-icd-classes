@@ -1,38 +1,50 @@
-def ConstantPool():
-    '''public ConstantPool(final Constant[] constant_pool)
+def ():
+    '''returns ConstantPool\n\n
+    (final Constant[] constant_pool)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''
 def constantToString():
-    '''public String constantToString(Constant c)
-    public String constantToString(final int index, final byte tag)
+    '''returns String\n\n
+    constantToString(Constant c)\n
+    constantToString(final int index, final byte tag)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream file)
+    '''returns None\n\n
+    dump(final DataOutputStream file)\n
     '''
 def getConstant():
-    '''public Constant getConstant(final int index)
-    public Constant getConstant(final int index, final byte tag)
+    '''returns Constant\n\n
+    getConstant(final int index)\n
+    getConstant(final int index, final byte tag)\n
     '''
 def getConstantPool():
-    '''public Constant[] getConstantPool()
+    '''returns Constant[]\n\n
+    getConstantPool()\n
     '''
 def getConstantString():
-    '''public String getConstantString(final int index, final byte tag)
+    '''returns String\n\n
+    getConstantString(final int index, final byte tag)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def setConstant():
-    '''public void setConstant(final int index, final Constant constant)
+    '''returns None\n\n
+    setConstant(final int index, final Constant constant)\n
     '''
 def setConstantPool():
-    '''public void setConstantPool(final Constant[] constant_pool)
+    '''returns None\n\n
+    setConstantPool(final Constant[] constant_pool)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def copy():
-    '''public ConstantPool copy()
+    '''returns ConstantPool\n\n
+    copy()\n
     '''

@@ -1,16 +1,16 @@
-def getInstance():
-    '''public static DERObjectIdentifier getInstance(final Object obj)
-    public static DERObjectIdentifier getInstance(final ASN1TaggedObject obj, final boolean explicit)
-    '''
-def DERObjectIdentifier():
-    '''public DERObjectIdentifier(final String identifier)
+def ():
+    '''returns DERObjectIdentifier\n\n
+    (final String identifier)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

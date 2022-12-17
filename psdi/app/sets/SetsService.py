@@ -1,10 +1,13 @@
-def SetsService():
-    '''public SetsService()
-    public SetsService(final MXServer mxServer)
+def ():
+    '''returns SetsService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def getOrgsForItemSet():
-    '''public Vector getOrgsForItemSet(final String setID, final UserInfo userInfo)
+    '''returns Vector\n\n
+    getOrgsForItemSet(final String setID, final UserInfo userInfo)\n
     '''
 def getOrgsForCompanySet():
-    '''public Vector getOrgsForCompanySet(final String setID, final UserInfo userInfo)
+    '''returns Vector\n\n
+    getOrgsForCompanySet(final String setID, final UserInfo userInfo)\n
     '''

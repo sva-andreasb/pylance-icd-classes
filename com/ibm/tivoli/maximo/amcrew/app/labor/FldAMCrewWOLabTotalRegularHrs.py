@@ -1,6 +1,8 @@
-def FldAMCrewWOLabTotalRegularHrs():
-    '''public FldAMCrewWOLabTotalRegularHrs(final MboValue mbv)
+def ():
+    '''returns FldAMCrewWOLabTotalRegularHrs\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

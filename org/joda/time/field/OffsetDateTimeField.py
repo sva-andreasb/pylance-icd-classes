@@ -1,54 +1,71 @@
-def OffsetDateTimeField():
-    '''public OffsetDateTimeField(final DateTimeField dateTimeField, final int n)
-    public OffsetDateTimeField(final DateTimeField dateTimeField, final DateTimeFieldType dateTimeFieldType, final int n)
-    public OffsetDateTimeField(final DateTimeField dateTimeField, final DateTimeFieldType dateTimeFieldType, final int iOffset, final int iMin, final int iMax)
+def ():
+    '''returns OffsetDateTimeField\n\n
+    (final DateTimeField dateTimeField, final int n)\n
+    (final DateTimeField dateTimeField, final DateTimeFieldType dateTimeFieldType, final int n)\n
+    (final DateTimeField dateTimeField, final DateTimeFieldType dateTimeFieldType, final int iOffset, final int iMin, final int iMax)\n
     '''
 def get():
-    '''public int get(final long n)
+    '''returns int\n\n
+    get(final long n)\n
     '''
 def add():
-    '''public long add(long add, final int n)
-    public long add(long add, final long n)
+    '''returns long\n\n
+    add(long add, final int n)\n
+    add(long add, final long n)\n
     '''
 def addWrapField():
-    '''public long addWrapField(final long n, final int n2)
+    '''returns long\n\n
+    addWrapField(final long n, final int n2)\n
     '''
 def set():
-    '''public long set(final long n, final int n2)
+    '''returns long\n\n
+    set(final long n, final int n2)\n
     '''
 def isLeap():
-    '''public boolean isLeap(final long n)
+    '''returns boolean\n\n
+    isLeap(final long n)\n
     '''
 def getLeapAmount():
-    '''public int getLeapAmount(final long n)
+    '''returns int\n\n
+    getLeapAmount(final long n)\n
     '''
 def getLeapDurationField():
-    '''public DurationField getLeapDurationField()
+    '''returns DurationField\n\n
+    getLeapDurationField()\n
     '''
 def getMinimumValue():
-    '''public int getMinimumValue()
+    '''returns int\n\n
+    getMinimumValue()\n
     '''
 def getMaximumValue():
-    '''public int getMaximumValue()
+    '''returns int\n\n
+    getMaximumValue()\n
     '''
 def roundFloor():
-    '''public long roundFloor(final long n)
+    '''returns long\n\n
+    roundFloor(final long n)\n
     '''
 def roundCeiling():
-    '''public long roundCeiling(final long n)
+    '''returns long\n\n
+    roundCeiling(final long n)\n
     '''
 def roundHalfFloor():
-    '''public long roundHalfFloor(final long n)
+    '''returns long\n\n
+    roundHalfFloor(final long n)\n
     '''
 def roundHalfCeiling():
-    '''public long roundHalfCeiling(final long n)
+    '''returns long\n\n
+    roundHalfCeiling(final long n)\n
     '''
 def roundHalfEven():
-    '''public long roundHalfEven(final long n)
+    '''returns long\n\n
+    roundHalfEven(final long n)\n
     '''
 def remainder():
-    '''public long remainder(final long n)
+    '''returns long\n\n
+    remainder(final long n)\n
     '''
 def getOffset():
-    '''public int getOffset()
+    '''returns int\n\n
+    getOffset()\n
     '''

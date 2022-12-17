@@ -1,25 +1,29 @@
-def collectionSortedBag():
-    '''public static <E> SortedBag<E> collectionSortedBag(final SortedBag<E> bag)
-    '''
-def CollectionSortedBag():
-    '''public CollectionSortedBag(final SortedBag<E> bag)
+def ():
+    '''returns CollectionSortedBag\n\n
+    (final SortedBag<E> bag)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> coll)\n
     '''
 def add():
-    '''public boolean add(final E object)
-    public boolean add(final E object, final int count)
+    '''returns boolean\n\n
+    add(final E object)\n
+    add(final E object, final int count)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> coll)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> coll)\n
     '''
 def remove():
-    '''public boolean remove(final Object object)
+    '''returns boolean\n\n
+    remove(final Object object)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> coll)\n
     '''

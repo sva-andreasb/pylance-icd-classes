@@ -1,22 +1,29 @@
-def StringRequestEntity():
-    '''public StringRequestEntity(final String content)
-    public StringRequestEntity(final String content, final String contentType, final String charset)
+def ():
+    '''returns StringRequestEntity\n\n
+    (final String content)\n
+    (final String content, final String contentType, final String charset)\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def writeRequest():
-    '''public void writeRequest(final OutputStream out)
+    '''returns None\n\n
+    writeRequest(final OutputStream out)\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def getContent():
-    '''public String getContent()
+    '''returns String\n\n
+    getContent()\n
     '''
 def getCharset():
-    '''public String getCharset()
+    '''returns String\n\n
+    getCharset()\n
     '''

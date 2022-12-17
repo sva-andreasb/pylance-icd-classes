@@ -1,21 +1,28 @@
-def MAXSession():
-    '''public MAXSession(final MboSet ms)
+def ():
+    '''returns MAXSession\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def toBeSaved():
-    '''public boolean toBeSaved()
+    '''returns boolean\n\n
+    toBeSaved()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def getMboValue():
-    '''public MboValue getMboValue(final String nameInput)
+    '''returns MboValue\n\n
+    getMboValue(final String nameInput)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

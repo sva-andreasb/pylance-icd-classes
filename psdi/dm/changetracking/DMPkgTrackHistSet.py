@@ -1,3 +1,4 @@
-def DMPkgTrackHistSet():
-    '''public DMPkgTrackHistSet(final MboServerInterface ms)
+def ():
+    '''returns DMPkgTrackHistSet\n\n
+    (final MboServerInterface ms)\n
     '''

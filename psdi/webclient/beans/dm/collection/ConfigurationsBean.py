@@ -1,9 +1,12 @@
 def export():
-    '''public int export()
+    '''returns int\n\n
+    export()\n
     '''
 def exportConfig():
-    '''public int exportConfig()
+    '''returns int\n\n
+    exportConfig()\n
     '''
 def exportDownload():
-    '''public int exportDownload()
+    '''returns int\n\n
+    exportDownload()\n
     '''

@@ -1,28 +1,28 @@
 ELEMENT = "String  \"reason\""
 SID = "String  \"sid\""
-def AlternativeSession():
-    '''public static AlternativeSession AlternativeSession(final String sessionId)
-    public AlternativeSession(final String sessionId)
-    '''
-def JingleReason():
-    '''public JingleReason(final Reason reason)
+def ():
+    '''returns AlternativeSession\n\n
+    (final Reason reason)\n
+    (final String sessionId)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''
 def asEnum():
-    '''public Reason asEnum()
+    '''returns Reason\n\n
+    asEnum()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def fromString():
-    '''public static Reason fromString(final String string)
+    '''returns String\n\n
+    toString()\n
     '''
 def getAlternativeSessionId():
-    '''public String getAlternativeSessionId()
+    '''returns String\n\n
+    getAlternativeSessionId()\n
     '''

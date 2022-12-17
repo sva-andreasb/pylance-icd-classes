@@ -1,3 +1,4 @@
 def downloadfile():
-    '''public int downloadfile()
+    '''returns int\n\n
+    downloadfile()\n
     '''

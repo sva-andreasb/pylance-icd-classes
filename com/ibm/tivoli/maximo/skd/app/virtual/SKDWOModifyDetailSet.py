@@ -1,6 +1,4 @@
-def SKDWOModifyDetailSet():
-    '''public SKDWOModifyDetailSet(final MboServerInterface ms)
-    '''
-def getAttributes():
-    '''public HashMap<String, Integer> getAttributes()
+def ():
+    '''returns SKDWOModifyDetailSet\n\n
+    (final MboServerInterface ms)\n
     '''

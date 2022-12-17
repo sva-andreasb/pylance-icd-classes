@@ -1,7 +1,9 @@
-def InvalidArgument():
-    '''public InvalidArgument(final String s)
-    public InvalidArgument()
+def ():
+    '''returns InvalidArgument\n\n
+    (final String s)\n
+    ()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

@@ -1,60 +1,80 @@
-def IntGeneratorAppBean():
-    '''public IntGeneratorAppBean()
+def ():
+    '''returns IntGeneratorAppBean\n\n
+    ()\n
     '''
 def nexttab():
-    '''public int nexttab()
+    '''returns int\n\n
+    nexttab()\n
     '''
 def getNextTabOrder():
-    '''public int getNextTabOrder(final int currentTabOrder)
+    '''returns int\n\n
+    getNextTabOrder(final int currentTabOrder)\n
     '''
 def prevtab():
-    '''public int prevtab()
+    '''returns int\n\n
+    prevtab()\n
     '''
 def getPreviousTabOrder():
-    '''public int getPreviousTabOrder(final int currentTabOrder)
+    '''returns int\n\n
+    getPreviousTabOrder(final int currentTabOrder)\n
     '''
 def complete():
-    '''public int complete()
+    '''returns int\n\n
+    complete()\n
     '''
 def manageint():
-    '''public int manageint()
+    '''returns int\n\n
+    manageint()\n
     '''
 def optimizereq():
-    '''public int optimizereq()
+    '''returns int\n\n
+    optimizereq()\n
     '''
 def optimizeresp():
-    '''public int optimizeresp()
+    '''returns int\n\n
+    optimizeresp()\n
     '''
 def deletenodereq():
-    '''public int deletenodereq()
+    '''returns int\n\n
+    deletenodereq()\n
     '''
 def deletenoderesp():
-    '''public int deletenoderesp()
+    '''returns int\n\n
+    deletenoderesp()\n
     '''
 def deletenode():
-    '''public int deletenode(final String id, final boolean isRequest)
+    '''returns int\n\n
+    deletenode(final String id, final boolean isRequest)\n
     '''
 def undeletenodereq():
-    '''public int undeletenodereq()
+    '''returns int\n\n
+    undeletenodereq()\n
     '''
 def undeletenoderesp():
-    '''public int undeletenoderesp()
+    '''returns int\n\n
+    undeletenoderesp()\n
     '''
 def undeleteallreq():
-    '''public int undeleteallreq()
+    '''returns int\n\n
+    undeleteallreq()\n
     '''
 def undeleteallresp():
-    '''public int undeleteallresp()
+    '''returns int\n\n
+    undeleteallresp()\n
     '''
 def processnode():
-    '''public int processnode(final WSIOTreeBean treeBean, final LinkedHashMap<String, String> removeMap, final boolean isRequest)
+    '''returns int\n\n
+    processnode(final WSIOTreeBean treeBean, final LinkedHashMap<String, String> removeMap, final boolean isRequest)\n
     '''
 def removeMbo():
-    '''public boolean removeMbo(final MboRemote currentMbo, final String removeID)
+    '''returns boolean\n\n
+    removeMbo(final MboRemote currentMbo, final String removeID)\n
     '''
 def importXML():
-    '''public void importXML(final String presentationXML)
+    '''returns None\n\n
+    importXML(final String presentationXML)\n
     '''
 def cancelchanges():
-    '''public int cancelchanges()
+    '''returns int\n\n
+    cancelchanges()\n
     '''

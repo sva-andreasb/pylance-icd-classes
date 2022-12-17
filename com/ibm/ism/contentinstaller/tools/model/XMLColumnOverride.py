@@ -1,57 +1,76 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isTimestamp():
-    '''public boolean isTimestamp()
+    '''returns boolean\n\n
+    isTimestamp()\n
     '''
 def setTimestamp():
-    '''public void setTimestamp(final boolean isTimestamp)
+    '''returns None\n\n
+    setTimestamp(final boolean isTimestamp)\n
     '''
 def setTimestampOffset():
-    '''public void setTimestampOffset(final String offset)
+    '''returns None\n\n
+    setTimestampOffset(final String offset)\n
     '''
 def setTimestampUnits():
-    '''public void setTimestampUnits(final String units)
+    '''returns None\n\n
+    setTimestampUnits(final String units)\n
     '''
 def getTimestampOffset():
-    '''public String getTimestampOffset()
+    '''returns String\n\n
+    getTimestampOffset()\n
     '''
 def isPositiveOffset():
-    '''public boolean isPositiveOffset()
+    '''returns boolean\n\n
+    isPositiveOffset()\n
     '''
 def getTimestampOffsetInt():
-    '''public int getTimestampOffsetInt()
+    '''returns int\n\n
+    getTimestampOffsetInt()\n
     '''
 def getTimestampUnits():
-    '''public String getTimestampUnits()
+    '''returns String\n\n
+    getTimestampUnits()\n
     '''
 def getSequence():
-    '''public XMLSequenceType getSequence()
+    '''returns XMLSequenceType\n\n
+    getSequence()\n
     '''
 def setSequence():
-    '''public void setSequence(final XMLSequenceType sequence)
+    '''returns None\n\n
+    setSequence(final XMLSequenceType sequence)\n
     '''
 def getSql():
-    '''public XMLSQLType getSql()
+    '''returns XMLSQLType\n\n
+    getSql()\n
     '''
 def setSql():
-    '''public void setSql(final XMLSQLType sql)
+    '''returns None\n\n
+    setSql(final XMLSQLType sql)\n
     '''
 def getValue():
-    '''public XMLValue getValue()
+    '''returns XMLValue\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final XMLValue value)
+    '''returns None\n\n
+    setValue(final XMLValue value)\n
     '''
 def getParentObjectColumn():
-    '''public XMLColumn getParentObjectColumn()
+    '''returns XMLColumn\n\n
+    getParentObjectColumn()\n
     '''
 def setParentObjectColumn():
-    '''public void setParentObjectColumn(final XMLColumn parentColumn)
+    '''returns None\n\n
+    setParentObjectColumn(final XMLColumn parentColumn)\n
     '''
 def getParentValueTag():
-    '''public String getParentValueTag()
+    '''returns String\n\n
+    getParentValueTag()\n
     '''
 def setParentValueTag():
-    '''public void setParentValueTag(final String parentValueTag)
+    '''returns None\n\n
+    setParentValueTag(final String parentValueTag)\n
     '''

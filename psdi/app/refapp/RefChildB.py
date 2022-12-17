@@ -1,3 +1,4 @@
-def RefChildB():
-    '''public RefChildB(final MboSet mboSet0)
+def ():
+    '''returns RefChildB\n\n
+    (final MboSet mboSet0)\n
     '''

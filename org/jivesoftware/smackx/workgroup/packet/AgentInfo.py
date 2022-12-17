@@ -1,20 +1,26 @@
 ELEMENT_NAME = "String  \"agent-info\""
 NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
-def AgentInfo():
-    '''public AgentInfo()
+def ():
+    '''returns AgentInfo\n\n
+    ()\n
     '''
 def getJid():
-    '''public String getJid()
+    '''returns String\n\n
+    getJid()\n
     '''
 def setJid():
-    '''public void setJid(final String jid)
+    '''returns None\n\n
+    setJid(final String jid)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def parse():
-    '''public AgentInfo parse(final XmlPullParser parser, final int initialDepth)
+    '''returns AgentInfo\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

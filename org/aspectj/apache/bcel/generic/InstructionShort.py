@@ -1,15 +1,20 @@
-def InstructionShort():
-    '''public InstructionShort(final short opcode, final short value)
+def ():
+    '''returns InstructionShort\n\n
+    (final short opcode, final short value)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''
 def toString():
-    '''public String toString(final boolean verbose)
+    '''returns String\n\n
+    toString(final boolean verbose)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

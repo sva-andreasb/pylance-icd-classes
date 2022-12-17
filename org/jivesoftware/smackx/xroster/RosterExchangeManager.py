@@ -1,22 +1,24 @@
 NAMESPACE = "String  \"jabber:x:roster\""
 ELEMENT = "String  \"x\""
-def getInstanceFor():
-    '''public static synchronized RosterExchangeManager getInstanceFor(final XMPPConnection connection)
-    '''
-def RosterExchangeManager():
-    '''public RosterExchangeManager(final XMPPConnection connection)
+def ():
+    '''returns RosterExchangeManager\n\n
+    (final XMPPConnection connection)\n
     '''
 def processStanza():
-    '''public void processStanza(final Stanza packet)
+    '''returns None\n\n
+    processStanza(final Stanza packet)\n
     '''
 def addRosterListener():
-    '''public void addRosterListener(final RosterExchangeListener rosterExchangeListener)
+    '''returns None\n\n
+    addRosterListener(final RosterExchangeListener rosterExchangeListener)\n
     '''
 def removeRosterListener():
-    '''public void removeRosterListener(final RosterExchangeListener rosterExchangeListener)
+    '''returns None\n\n
+    removeRosterListener(final RosterExchangeListener rosterExchangeListener)\n
     '''
 def send():
-    '''public void send(final Roster roster, final Jid targetUserID)
-    public void send(final RosterEntry rosterEntry, final Jid targetUserID)
-    public void send(final RosterGroup rosterGroup, final Jid targetUserID)
+    '''returns None\n\n
+    send(final Roster roster, final Jid targetUserID)\n
+    send(final RosterEntry rosterEntry, final Jid targetUserID)\n
+    send(final RosterGroup rosterGroup, final Jid targetUserID)\n
     '''

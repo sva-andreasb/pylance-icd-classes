@@ -1,9 +1,12 @@
-def Text():
-    '''public Text(final DOMObject domObject)
+def ():
+    '''returns Text\n\n
+    (final DOMObject domObject)\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''
 def getNodeType():
-    '''public short getNodeType()
+    '''returns short\n\n
+    getNodeType()\n
     '''

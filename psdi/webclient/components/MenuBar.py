@@ -1,12 +1,16 @@
-def MenuBar():
-    '''public MenuBar()
+def ():
+    '''returns MenuBar\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def setNeedsDesignerRefresh():
-    '''public void setNeedsDesignerRefresh(final boolean ref)
+    '''returns None\n\n
+    setNeedsDesignerRefresh(final boolean ref)\n
     '''
 def getNeedsDesignerRefresh():
-    '''public boolean getNeedsDesignerRefresh()
+    '''returns boolean\n\n
+    getNeedsDesignerRefresh()\n
     '''

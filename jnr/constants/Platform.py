@@ -1,18 +1,19 @@
 BIG_ENDIAN = "int  4321"
 LITTLE_ENDIAN = "int  1234"
 serialVersionUID = "long  1L"
-def getPlatform():
-    '''public static Platform getPlatform()
-    '''
 def getPackagePrefixes():
-    '''public String[] getPackagePrefixes()
+    '''returns String[]\n\n
+    getPackagePrefixes()\n
     '''
 def getArchPackageName():
-    '''public String getArchPackageName()
+    '''returns String\n\n
+    getArchPackageName()\n
     '''
 def getOSPackageName():
-    '''public String getOSPackageName()
+    '''returns String\n\n
+    getOSPackageName()\n
     '''
 def getFakePackageName():
-    '''public String getFakePackageName()
+    '''returns String\n\n
+    getFakePackageName()\n
     '''

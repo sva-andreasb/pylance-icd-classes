@@ -1,9 +1,12 @@
-def PlusPServiceItem():
-    '''public PlusPServiceItem(final MboSet arg0)
+def ():
+    '''returns PlusPServiceItem\n\n
+    (final MboSet arg0)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def setProviderType():
-    '''public void setProviderType()
+    '''returns None\n\n
+    setProviderType()\n
     '''

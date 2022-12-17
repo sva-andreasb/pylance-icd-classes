@@ -1,30 +1,35 @@
 HTTP_ONLY_COOKIES = "String  \"http.using.javascript\""
-def SerializedDataManager():
-    '''public SerializedDataManager()
+def ():
+    '''returns SerializedDataManager\n\n
+    ()\n
     '''
 def cancelCurrentRequests():
-    '''public void cancelCurrentRequests()
+    '''returns None\n\n
+    cancelCurrentRequests()\n
     '''
 def isPost():
-    '''public boolean isPost()
+    '''returns boolean\n\n
+    isPost()\n
     '''
 def convertReplyToObject():
-    '''public boolean convertReplyToObject()
+    '''returns boolean\n\n
+    convertReplyToObject()\n
     '''
 def isCompressed():
-    '''public boolean isCompressed()
-    '''
-def isBusy():
-    '''public synchronized boolean isBusy(final RequestType args)
+    '''returns boolean\n\n
+    isCompressed()\n
     '''
 def fetch():
-    '''public void fetch(final RequestType args, final AsyncReply<ReplyType> replyHandler)
+    '''returns None\n\n
+    fetch(final RequestType args, final AsyncReply<ReplyType> replyHandler)\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public ReplyType run()
+    '''returns ReplyType\n\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def fetchAndWait():
-    '''public ReplyType fetchAndWait(final RequestType args)
+    '''returns ReplyType\n\n
+    fetchAndWait(final RequestType args)\n
     '''

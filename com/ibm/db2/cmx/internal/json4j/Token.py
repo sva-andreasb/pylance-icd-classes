@@ -1,20 +1,26 @@
-def Token():
-    '''public Token()
-    public Token(final String valueString)
-    public Token(final Number valueNumber)
+def ():
+    '''returns Token\n\n
+    ()\n
+    (final String valueString)\n
+    (final Number valueNumber)\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''
 def getNumber():
-    '''public Number getNumber()
+    '''returns Number\n\n
+    getNumber()\n
     '''
 def isString():
-    '''public boolean isString()
+    '''returns boolean\n\n
+    isString()\n
     '''
 def isNumber():
-    '''public boolean isNumber()
+    '''returns boolean\n\n
+    isNumber()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

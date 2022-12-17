@@ -1,27 +1,20 @@
-def isThreadLoggingOn():
-    '''public static boolean isThreadLoggingOn()
-    '''
 def hasLogger():
-    '''public boolean hasLogger(final String loggerName)
+    '''returns boolean\n\n
+    hasLogger(final String loggerName)\n
     '''
 def isLoggerAtInfo():
-    '''public boolean isLoggerAtInfo(final String loggerName)
+    '''returns boolean\n\n
+    isLoggerAtInfo(final String loggerName)\n
     '''
 def getAppender():
-    '''public Appender getAppender()
+    '''returns Appender\n\n
+    getAppender()\n
     '''
 def registerLogger():
-    '''public void registerLogger(final Log4jLogger logger)
-    '''
-def getCurrentContext():
-    '''public static MaxLoggerContext getCurrentContext()
-    '''
-def createCurrentContext():
-    '''public static MaxLoggerContext createCurrentContext(final LogInfo logInfo, final String uniquifier, final UserInfo userInfo)
-    '''
-def destroyCurrentContext():
-    '''public static void destroyCurrentContext()
+    '''returns None\n\n
+    registerLogger(final Log4jLogger logger)\n
     '''
 def getContextId():
-    '''public String getContextId()
+    '''returns String\n\n
+    getContextId()\n
     '''

@@ -1,9 +1,12 @@
-def PlusPSOTermsSet():
-    '''public PlusPSOTermsSet(final MboServerInterface mboServerInterface)
+def ():
+    '''returns PlusPSOTermsSet\n\n
+    (final MboServerInterface mboServerInterface)\n
     '''
 def canEdit():
-    '''public boolean canEdit()
+    '''returns boolean\n\n
+    canEdit()\n
     '''
 def addAgreementTerms():
-    '''public void addAgreementTerms(final MboRemote mboRemote)
+    '''returns None\n\n
+    addAgreementTerms(final MboRemote mboRemote)\n
     '''

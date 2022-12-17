@@ -1,3 +1,4 @@
 def refreshrecords():
-    '''public int refreshrecords()
+    '''returns int\n\n
+    refreshrecords()\n
     '''

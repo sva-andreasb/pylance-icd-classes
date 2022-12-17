@@ -1,69 +1,91 @@
-def IlvDefaultDataContainer():
-    '''public IlvDefaultDataContainer()
+def ():
+    '''returns IlvDefaultDataContainer\n\n
+    ()\n
     '''
 def getParent():
-    '''public Object getParent(final Object key)
+    '''returns Object\n\n
+    getParent(final Object key)\n
     '''
 def getChildAt():
-    '''public Object getChildAt(final Object key, final int n)
+    '''returns Object\n\n
+    getChildAt(final Object key, final int n)\n
     '''
 def getChildCount():
-    '''public int getChildCount(final Object key)
+    '''returns int\n\n
+    getChildCount(final Object key)\n
     '''
 def getIndexOfChild():
-    '''public int getIndexOfChild(final Object key, final Object o)
+    '''returns int\n\n
+    getIndexOfChild(final Object key, final Object o)\n
     '''
 def getTitle():
-    '''public String getTitle(final Object o)
-    public String getTitle()
+    '''returns String\n\n
+    getTitle(final Object o)\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final Object o, final String title)
-    public void setTitle(final String a)
+    '''returns None\n\n
+    setTitle(final Object o, final String title)\n
+    setTitle(final String a)\n
     '''
 def getNodeProperty():
-    '''public Object getNodeProperty(final Object key, final String key2)
+    '''returns Object\n\n
+    getNodeProperty(final Object key, final String key2)\n
     '''
 def setNodeProperty():
-    '''public void setNodeProperty(final Object key, final String key2, final Object value)
+    '''returns None\n\n
+    setNodeProperty(final Object key, final String key2, final Object value)\n
     '''
 def getCategory():
-    '''public String getCategory(final Object o)
+    '''returns String\n\n
+    getCategory(final Object o)\n
     '''
 def insertNode():
-    '''public void insertNode(final Object key, final Object element, int index)
+    '''returns None\n\n
+    insertNode(final Object key, final Object element, int index)\n
     '''
 def removeNode():
-    '''public boolean removeNode(final Object key, final Object key2)
+    '''returns boolean\n\n
+    removeNode(final Object key, final Object key2)\n
     '''
 def acceptChild():
-    '''public boolean acceptChild(final Object o, final String s)
-    public boolean acceptChild(final String s)
+    '''returns boolean\n\n
+    acceptChild(final Object o, final String s)\n
+    acceptChild(final String s)\n
     '''
 def canRemove():
-    '''public boolean canRemove(final Object o, final Object o2)
+    '''returns boolean\n\n
+    canRemove(final Object o, final Object o2)\n
     '''
 def addDataContainerListener():
-    '''public void addDataContainerListener(final DataContainerListener dataContainerListener)
+    '''returns None\n\n
+    addDataContainerListener(final DataContainerListener dataContainerListener)\n
     '''
 def removeDataContainerListener():
-    '''public void removeDataContainerListener(final DataContainerListener dataContainerListener)
+    '''returns None\n\n
+    removeDataContainerListener(final DataContainerListener dataContainerListener)\n
     '''
 def fireNodeAdditionEvent():
-    '''public void fireNodeAdditionEvent(final Object o, final Object o2, final int n)
+    '''returns None\n\n
+    fireNodeAdditionEvent(final Object o, final Object o2, final int n)\n
     '''
 def fireNodeRemovalEvent():
-    '''public void fireNodeRemovalEvent(final Object o, final Object o2, final int n)
+    '''returns None\n\n
+    fireNodeRemovalEvent(final Object o, final Object o2, final int n)\n
     '''
 def firePropertyChangeEvent():
-    '''public void firePropertyChangeEvent(final Object o, final Object o2, final int n, final String s, final Object o3, final Object o4)
+    '''returns None\n\n
+    firePropertyChangeEvent(final Object o, final Object o2, final int n, final String s, final Object o3, final Object o4)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String key)
+    '''returns Object\n\n
+    getProperty(final String key)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String key, final Object value)
+    '''returns Object\n\n
+    setProperty(final String key, final Object value)\n
     '''
 def canRemoveChild():
-    '''public boolean canRemoveChild(final Object o)
+    '''returns boolean\n\n
+    canRemoveChild(final Object o)\n
     '''

@@ -1,40 +1,51 @@
-def MaxTypeDURATION():
-    '''public MaxTypeDURATION(final Locale locale)
+def ():
+    '''returns MaxTypeDURATION\n\n
+    (final Locale locale)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
-    public void setValue(final double value)
-    public void setValue(final float value)
-    public void setValue(final int value)
-    public void setValue(final long value)
-    public void setValue(final MaxType value)
+    '''returns None\n\n
+    setValue(final String value)\n
+    setValue(final double value)\n
+    setValue(final float value)\n
+    setValue(final int value)\n
+    setValue(final long value)\n
+    setValue(final MaxType value)\n
     '''
 def asString():
-    '''public String asString()
+    '''returns String\n\n
+    asString()\n
     '''
 def asLocaleString():
-    '''public String asLocaleString(final Locale l)
-    public String asLocaleString(final Locale l, final TimeZone tz)
-    public String asLocaleString()
+    '''returns String\n\n
+    asLocaleString(final Locale l)\n
+    asLocaleString(final Locale l, final TimeZone tz)\n
+    asLocaleString()\n
     '''
 def asDouble():
-    '''public double asDouble()
+    '''returns double\n\n
+    asDouble()\n
     '''
 def asFloat():
-    '''public float asFloat()
+    '''returns float\n\n
+    asFloat()\n
     '''
 def asInt():
-    '''public int asInt()
+    '''returns int\n\n
+    asInt()\n
     '''
 def asLong():
-    '''public long asLong()
+    '''returns long\n\n
+    asLong()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

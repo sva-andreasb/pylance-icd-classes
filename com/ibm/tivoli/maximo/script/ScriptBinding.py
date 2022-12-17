@@ -1,9 +1,12 @@
-def ScriptBinding():
-    '''public ScriptBinding(final Map<String, Object> map)
+def ():
+    '''returns ScriptBinding\n\n
+    (final Map<String, Object> map)\n
     '''
 def get():
-    '''public Object get(final Object key)
+    '''returns Object\n\n
+    get(final Object key)\n
     '''
 def put():
-    '''public Object put(final String name, final Object value)
+    '''returns Object\n\n
+    put(final String name, final Object value)\n
     '''

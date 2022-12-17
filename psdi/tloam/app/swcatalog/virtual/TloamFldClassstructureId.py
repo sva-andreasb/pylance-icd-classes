@@ -1,6 +1,8 @@
-def TloamFldClassstructureId():
-    '''public TloamFldClassstructureId(final MboValue mbv)
+def ():
+    '''returns TloamFldClassstructureId\n\n
+    (final MboValue mbv)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''

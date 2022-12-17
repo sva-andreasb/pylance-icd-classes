@@ -1,6 +1,8 @@
 def testrun():
-    '''public int testrun()
+    '''returns int\n\n
+    testrun()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

@@ -1,36 +1,44 @@
-def AbstractEscherOptRecord():
-    '''public AbstractEscherOptRecord()
+def ():
+    '''returns AbstractEscherOptRecord\n\n
+    ()\n
     '''
 def addEscherProperty():
-    '''public void addEscherProperty(final EscherProperty prop)
+    '''returns None\n\n
+    addEscherProperty(final EscherProperty prop)\n
     '''
 def fillFields():
-    '''public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
+    '''returns int\n\n
+    fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)\n
     '''
 def getEscherProperties():
-    '''public List<EscherProperty> getEscherProperties()
+    '''returns List<EscherProperty>\n\n
+    getEscherProperties()\n
     '''
 def getEscherProperty():
-    '''public EscherProperty getEscherProperty(final int index)
+    '''returns EscherProperty\n\n
+    getEscherProperty(final int index)\n
     '''
 def getRecordSize():
-    '''public int getRecordSize()
-    '''
-def lookup():
-    '''public <T extends EscherProperty> T lookup(final int propId)
+    '''returns int\n\n
+    getRecordSize()\n
     '''
 def serialize():
-    '''public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
+    '''returns int\n\n
+    serialize(final int offset, final byte[] data, final EscherSerializationListener listener)\n
     '''
 def sortProperties():
-    '''public void sortProperties()
+    '''returns None\n\n
+    sortProperties()\n
     '''
 def compare():
-    '''public int compare(final EscherProperty p1, final EscherProperty p2)
+    '''returns int\n\n
+    compare(final EscherProperty p1, final EscherProperty p2)\n
     '''
 def setEscherProperty():
-    '''public void setEscherProperty(final EscherProperty value)
+    '''returns None\n\n
+    setEscherProperty(final EscherProperty value)\n
     '''
 def removeEscherProperty():
-    '''public void removeEscherProperty(final int num)
+    '''returns None\n\n
+    removeEscherProperty(final int num)\n
     '''

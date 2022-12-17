@@ -1,43 +1,57 @@
 def getPattern():
-    '''public Pattern getPattern()
-    public Pattern getPattern(final boolean shouldSimplify)
+    '''returns Pattern\n\n
+    getPattern()\n
+    getPattern(final boolean shouldSimplify)\n
     '''
 def endXPath():
-    '''public void endXPath()
+    '''returns None\n\n
+    endXPath()\n
     '''
 def endPathExpr():
-    '''public void endPathExpr()
+    '''returns None\n\n
+    endPathExpr()\n
     '''
 def startAbsoluteLocationPath():
-    '''public void startAbsoluteLocationPath()
+    '''returns None\n\n
+    startAbsoluteLocationPath()\n
     '''
 def endAbsoluteLocationPath():
-    '''public void endAbsoluteLocationPath()
+    '''returns None\n\n
+    endAbsoluteLocationPath()\n
     '''
 def startRelativeLocationPath():
-    '''public void startRelativeLocationPath()
+    '''returns None\n\n
+    startRelativeLocationPath()\n
     '''
 def endRelativeLocationPath():
-    '''public void endRelativeLocationPath()
+    '''returns None\n\n
+    endRelativeLocationPath()\n
     '''
 def startNameStep():
-    '''public void startNameStep(final int axis, final String prefix, final String localName)
+    '''returns None\n\n
+    startNameStep(final int axis, final String prefix, final String localName)\n
     '''
 def startTextNodeStep():
-    '''public void startTextNodeStep(final int axis)
+    '''returns None\n\n
+    startTextNodeStep(final int axis)\n
     '''
 def startCommentNodeStep():
-    '''public void startCommentNodeStep(final int axis)
+    '''returns None\n\n
+    startCommentNodeStep(final int axis)\n
     '''
 def startAllNodeStep():
-    '''public void startAllNodeStep(final int axis)
+    '''returns None\n\n
+    startAllNodeStep(final int axis)\n
     '''
 def startProcessingInstructionNodeStep():
-    '''public void startProcessingInstructionNodeStep(final int axis, final String name)
+    '''returns None\n\n
+    startProcessingInstructionNodeStep(final int axis, final String name)\n
     '''
 def startUnionExpr():
-    '''public void startUnionExpr()
+    '''returns None\n\n
+    startUnionExpr()\n
     '''
 def endUnionExpr():
-    '''public void endUnionExpr(final boolean create)
+    '''returns None\n\n
+    endUnionExpr(final boolean create)\n
     '''

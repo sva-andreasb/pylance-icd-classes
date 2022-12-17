@@ -1,6 +1,8 @@
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def checkForRoundForDouble():
-    '''public void checkForRoundForDouble(final double d, final int leftOfDecimal)
+    '''returns None\n\n
+    checkForRoundForDouble(final double d, final int leftOfDecimal)\n
     '''

@@ -1,6 +1,8 @@
-def DmsApiSetting():
-    '''public DmsApiSetting(final MboSet ms)
+def ():
+    '''returns DmsApiSetting\n\n
+    (final MboSet ms)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

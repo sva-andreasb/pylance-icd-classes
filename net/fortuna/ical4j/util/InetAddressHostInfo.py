@@ -1,7 +1,9 @@
-def InetAddressHostInfo():
-    '''public InetAddressHostInfo()
-    public InetAddressHostInfo(final InetAddress address)
+def ():
+    '''returns InetAddressHostInfo\n\n
+    ()\n
+    (final InetAddress address)\n
     '''
 def getHostName():
-    '''public String getHostName()
+    '''returns String\n\n
+    getHostName()\n
     '''

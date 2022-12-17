@@ -1,9 +1,12 @@
 def pluspselect_crafts_rate():
-    '''public int pluspselect_crafts_rate()
+    '''returns int\n\n
+    pluspselect_crafts_rate()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''
 def getNoChargeFieldName():
-    '''public String getNoChargeFieldName()
+    '''returns String\n\n
+    getNoChargeFieldName()\n
     '''

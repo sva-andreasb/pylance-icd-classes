@@ -1,9 +1,12 @@
-def FileLoaderImpl():
-    '''public FileLoaderImpl(final boolean preview, final boolean fromClient, final boolean isFileExtract, final String fileName)
+def ():
+    '''returns FileLoaderImpl\n\n
+    (final boolean preview, final boolean fromClient, final boolean isFileExtract, final String fileName)\n
     '''
 def processData():
-    '''public void processData(final InputStream btIn, final String extSystemName, final String entServiceName, final boolean fromClient)
+    '''returns None\n\n
+    processData(final InputStream btIn, final String extSystemName, final String entServiceName, final boolean fromClient)\n
     '''
 def getExtractOutputFile():
-    '''public String getExtractOutputFile()
+    '''returns String\n\n
+    getExtractOutputFile()\n
     '''

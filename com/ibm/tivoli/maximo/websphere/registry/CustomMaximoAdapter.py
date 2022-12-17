@@ -1,43 +1,57 @@
-def CustomMaximoAdapter():
-    '''public CustomMaximoAdapter()
+def ():
+    '''returns CustomMaximoAdapter\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize(final DataObject reposConfig)
+    '''returns None\n\n
+    initialize(final DataObject reposConfig)\n
     '''
 def create():
-    '''public DataObject create(final DataObject root)
+    '''returns DataObject\n\n
+    create(final DataObject root)\n
     '''
 def get():
-    '''public DataObject get(final DataObject root)
+    '''returns DataObject\n\n
+    get(final DataObject root)\n
     '''
 def delete():
-    '''public DataObject delete(final DataObject root)
+    '''returns DataObject\n\n
+    delete(final DataObject root)\n
     '''
 def update():
-    '''public DataObject update(final DataObject root)
+    '''returns DataObject\n\n
+    update(final DataObject root)\n
     '''
 def search():
-    '''public DataObject search(final DataObject root)
+    '''returns DataObject\n\n
+    search(final DataObject root)\n
     '''
 def login():
-    '''public DataObject login(final DataObject root)
-    public DataObject login(final DataObject account, final DataObject loginCtrl)
+    '''returns DataObject\n\n
+    login(final DataObject root)\n
+    login(final DataObject account, final DataObject loginCtrl)\n
     '''
 def checkPassword():
-    '''public boolean checkPassword(String userSecurityName, final String passwd)
+    '''returns boolean\n\n
+    checkPassword(String userSecurityName, final String passwd)\n
     '''
 def createSchema():
-    '''public DataObject createSchema(final DataObject root)
+    '''returns DataObject\n\n
+    createSchema(final DataObject root)\n
     '''
 def getSchema():
-    '''public DataObject getSchema(final DataObject inRoot)
+    '''returns DataObject\n\n
+    getSchema(final DataObject inRoot)\n
     '''
 def retrieveCustomProperties():
-    '''public void retrieveCustomProperties(final List<?> customProps)
+    '''returns None\n\n
+    retrieveCustomProperties(final List<?> customProps)\n
     '''
 def retrieveBaseEntry():
-    '''public void retrieveBaseEntry(final List<?> baseEntries)
+    '''returns None\n\n
+    retrieveBaseEntry(final List<?> baseEntries)\n
     '''
 def retrieveLoginProperties():
-    '''public void retrieveLoginProperties(final List<?> configLoginProps)
+    '''returns None\n\n
+    retrieveLoginProperties(final List<?> configLoginProps)\n
     '''

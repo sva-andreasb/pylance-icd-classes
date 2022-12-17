@@ -1,3 +1,4 @@
-def BooleanCollector():
-    '''public BooleanCollector()
+def ():
+    '''returns BooleanCollector\n\n
+    ()\n
     '''

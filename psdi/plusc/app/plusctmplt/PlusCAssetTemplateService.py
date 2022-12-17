@@ -1,4 +1,5 @@
-def PlusCAssetTemplateService():
-    '''public PlusCAssetTemplateService()
-    public PlusCAssetTemplateService(final MXServer mxServer)
+def ():
+    '''returns PlusCAssetTemplateService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

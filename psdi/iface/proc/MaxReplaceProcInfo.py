@@ -1,39 +1,52 @@
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String o)
+    '''returns None\n\n
+    setValue(final String o)\n
     '''
 def getValueType():
-    '''public String getValueType()
+    '''returns String\n\n
+    getValueType()\n
     '''
 def setValueType():
-    '''public void setValueType(final String n)
+    '''returns None\n\n
+    setValueType(final String n)\n
     '''
 def getMboTbName():
-    '''public String getMboTbName()
+    '''returns String\n\n
+    getMboTbName()\n
     '''
 def setMboTbName():
-    '''public void setMboTbName(final String n)
+    '''returns None\n\n
+    setMboTbName(final String n)\n
     '''
 def getFieldName():
-    '''public String getFieldName()
+    '''returns String\n\n
+    getFieldName()\n
     '''
 def setFieldName():
-    '''public void setFieldName(final String n)
+    '''returns None\n\n
+    setFieldName(final String n)\n
     '''
 def getRelation():
-    '''public String getRelation()
+    '''returns String\n\n
+    getRelation()\n
     '''
 def setRelation():
-    '''public void setRelation(final String n)
+    '''returns None\n\n
+    setRelation(final String n)\n
     '''
 def setReplaceNull():
-    '''public void setReplaceNull(final int tr)
+    '''returns None\n\n
+    setReplaceNull(final int tr)\n
     '''
 def isReplaceNull():
-    '''public boolean isReplaceNull()
+    '''returns boolean\n\n
+    isReplaceNull()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

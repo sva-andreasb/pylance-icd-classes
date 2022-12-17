@@ -1,25 +1,33 @@
-def OT():
-    '''public OT(final CharSequence charSequence)
+def ():
+    '''returns OT\n\n
+    (final CharSequence charSequence)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def mark():
-    '''public void mark(final int readAheadLimit)
+    '''returns None\n\n
+    mark(final int readAheadLimit)\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''
 def read():
-    '''public int read()
-    public int read(final char[] array, final int offset, final int length)
+    '''returns int\n\n
+    read()\n
+    read(final char[] array, final int offset, final int length)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def skip():
-    '''public long skip(final long n)
+    '''returns long\n\n
+    skip(final long n)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

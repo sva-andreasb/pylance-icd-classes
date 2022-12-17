@@ -1,42 +1,44 @@
-def MosDefinitionImpl():
-    '''public MosDefinitionImpl()
+def ():
+    '''returns MosDefinitionImpl\n\n
+    ()\n
     '''
 def setDefinitionMetaData():
-    '''public void setDefinitionMetaData(final Map<String, ?> defnMetaData)
+    '''returns None\n\n
+    setDefinitionMetaData(final Map<String, ?> defnMetaData)\n
     '''
 def forceDiscardChildMboSet():
-    '''public boolean forceDiscardChildMboSet(final boolean event, final MboSetRemote mboSet, final MosDetailInfo msd)
+    '''returns boolean\n\n
+    forceDiscardChildMboSet(final boolean event, final MboSetRemote mboSet, final MosDetailInfo msd)\n
     '''
 def createNewMbo():
-    '''public MboRemote createNewMbo(final MboSetRemote mboSet)
-    '''
-def scriptSkipMboRules():
-    '''public final int scriptSkipMboRules(final MboRemote mbo, final MosDetailInfo mosDetInfo)
-    '''
-def scriptOverrideRules():
-    '''public final void scriptOverrideRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
-    '''
-def scriptSkipColRules():
-    '''public final Set<String> scriptSkipColRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Set<String> skipCols)
+    '''returns MboRemote\n\n
+    createNewMbo(final MboSetRemote mboSet)\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''returns int\n\n
+    checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)\n
     '''
 def applyAPICondition():
-    '''public int applyAPICondition(final MboRemote mbo, final MosDetailInfo mosDetInfo)
+    '''returns int\n\n
+    applyAPICondition(final MboRemote mbo, final MosDetailInfo mosDetInfo)\n
     '''
 def postSerializationRules():
-    '''public void postSerializationRules(final MboRemote mbo, final MosDetailInfo mosDetInfo)
+    '''returns None\n\n
+    postSerializationRules(final MboRemote mbo, final MosDetailInfo mosDetInfo)\n
     '''
 def getColumnsToSkip():
-    '''public Set<String> getColumnsToSkip(final MboRemote mbo)
+    '''returns Set<String>\n\n
+    getColumnsToSkip(final MboRemote mbo)\n
     '''
 def serializationEnd():
-    '''public byte[] serializationEnd(final byte[] serializedData)
+    '''returns byte[]\n\n
+    serializationEnd(final byte[] serializedData)\n
     '''
 def myCompletedList():
-    '''public void myCompletedList(final MboSetRemote msr, final String queryName, final String app, final String owner)
+    '''returns None\n\n
+    myCompletedList(final MboSetRemote msr, final String queryName, final String app, final String owner)\n
     '''
 def myNotCompletedList():
-    '''public void myNotCompletedList(final MboSetRemote msr, final String queryName, final String app, final String owner)
+    '''returns None\n\n
+    myNotCompletedList(final MboSetRemote msr, final String queryName, final String app, final String owner)\n
     '''

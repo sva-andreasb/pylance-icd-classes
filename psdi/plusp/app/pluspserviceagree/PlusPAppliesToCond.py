@@ -1,36 +1,48 @@
-def PlusPAppliesToCond():
-    '''public PlusPAppliesToCond(final MboSet set)
+def ():
+    '''returns PlusPAppliesToCond\n\n
+    (final MboSet set)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def newStatement():
-    '''public void newStatement(final int n)
+    '''returns None\n\n
+    newStatement(final int n)\n
     '''
 def newRow():
-    '''public void newRow()
+    '''returns None\n\n
+    newRow()\n
     '''
 def newGroup():
-    '''public void newGroup()
+    '''returns None\n\n
+    newGroup()\n
     '''
 def newSubGroup():
-    '''public void newSubGroup()
+    '''returns None\n\n
+    newSubGroup()\n
     '''
 def validateBetweenGroups():
-    '''public void validateBetweenGroups(final String[][] array, final int n, final Hashtable hashtable)
+    '''returns None\n\n
+    validateBetweenGroups(final String[][] array, final int n, final Hashtable hashtable)\n
     '''
 def validateWithinGroup():
-    '''public void validateWithinGroup(final String[][] array, final int n, final Hashtable hashtable)
+    '''returns None\n\n
+    validateWithinGroup(final String[][] array, final int n, final Hashtable hashtable)\n
     '''
 def validateAttributes():
-    '''public Hashtable validateAttributes()
+    '''returns Hashtable\n\n
+    validateAttributes()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def setForMM():
-    '''public void setForMM(final boolean isForMM)
+    '''returns None\n\n
+    setForMM(final boolean isForMM)\n
     '''
 def isForMM():
-    '''public boolean isForMM()
+    '''returns boolean\n\n
+    isForMM()\n
     '''

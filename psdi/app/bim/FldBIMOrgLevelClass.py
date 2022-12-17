@@ -1,6 +1,8 @@
-def FldBIMOrgLevelClass():
-    '''public FldBIMOrgLevelClass(final MboValue mbv)
+def ():
+    '''returns FldBIMOrgLevelClass\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

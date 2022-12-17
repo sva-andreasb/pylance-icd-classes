@@ -1,12 +1,16 @@
 def click():
-    '''public int click()
+    '''returns int\n\n
+    click()\n
     '''
 def preRender():
-    '''public void preRender()
+    '''returns None\n\n
+    preRender()\n
     '''
 def getSiblingButtonComponentIds():
-    '''public String[] getSiblingButtonComponentIds()
+    '''returns String[]\n\n
+    getSiblingButtonComponentIds()\n
     '''
 def getFocusRenderId():
-    '''public String getFocusRenderId()
+    '''returns String\n\n
+    getFocusRenderId()\n
     '''

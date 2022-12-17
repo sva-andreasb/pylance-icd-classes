@@ -1,9 +1,8 @@
-def SecuredWebAppSession():
-    '''public SecuredWebAppSession()
+def ():
+    '''returns SecuredWebAppSession\n\n
+    ()\n
     '''
 def isConnected():
-    '''public boolean isConnected()
-    '''
-def connect():
-    '''public synchronized void connect()
+    '''returns boolean\n\n
+    isConnected()\n
     '''

@@ -1,27 +1,36 @@
-def IloCustomOplDataHandler():
-    '''public IloCustomOplDataHandler(final IloOplFactory oplEnv)
+def ():
+    '''returns IloCustomOplDataHandler\n\n
+    (final IloOplFactory oplEnv)\n
     '''
 def customCloseConnections():
-    '''public void customCloseConnections()
+    '''returns None\n\n
+    customCloseConnections()\n
     '''
 def getDataHandler():
-    '''public IloOplDataHandler getDataHandler()
+    '''returns IloOplDataHandler\n\n
+    getDataHandler()\n
     '''
 def raiseError():
-    '''public void raiseError(final String message)
+    '''returns None\n\n
+    raiseError(final String message)\n
     '''
 def handleConnection():
-    '''public void handleConnection(final String connId, final String subId, final String spec)
+    '''returns None\n\n
+    handleConnection(final String connId, final String subId, final String spec)\n
     '''
 def handleReadElement():
-    '''public void handleReadElement(final String connId, final String name, final String spec)
+    '''returns None\n\n
+    handleReadElement(final String connId, final String name, final String spec)\n
     '''
 def handlePublishElement():
-    '''public void handlePublishElement(final String connId, final String name, final String spec)
+    '''returns None\n\n
+    handlePublishElement(final String connId, final String name, final String spec)\n
     '''
 def handleInvoke():
-    '''public boolean handleInvoke(final String name, final String funcname)
+    '''returns boolean\n\n
+    handleInvoke(final String name, final String funcname)\n
     '''
 def closeConnections():
-    '''public void closeConnections()
+    '''returns None\n\n
+    closeConnections()\n
     '''

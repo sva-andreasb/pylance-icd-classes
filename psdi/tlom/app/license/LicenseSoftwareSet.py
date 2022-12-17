@@ -1,6 +1,8 @@
-def LicenseSoftwareSet():
-    '''public LicenseSoftwareSet(final MboServerInterface ms)
+def ():
+    '''returns LicenseSoftwareSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def isSoftwareExisted():
-    '''public boolean isSoftwareExisted(final long softwareid, final MboRemote exclude)
+    '''returns boolean\n\n
+    isSoftwareExisted(final long softwareid, final MboRemote exclude)\n
     '''

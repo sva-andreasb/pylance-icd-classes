@@ -1,57 +1,76 @@
-def SQLServerBulkCopyOptions():
-    '''public SQLServerBulkCopyOptions()
+def ():
+    '''returns SQLServerBulkCopyOptions\n\n
+    ()\n
     '''
 def getBatchSize():
-    '''public int getBatchSize()
+    '''returns int\n\n
+    getBatchSize()\n
     '''
 def setBatchSize():
-    '''public void setBatchSize(final int batchSize)
+    '''returns None\n\n
+    setBatchSize(final int batchSize)\n
     '''
 def getBulkCopyTimeout():
-    '''public int getBulkCopyTimeout()
+    '''returns int\n\n
+    getBulkCopyTimeout()\n
     '''
 def setBulkCopyTimeout():
-    '''public void setBulkCopyTimeout(final int timeout)
+    '''returns None\n\n
+    setBulkCopyTimeout(final int timeout)\n
     '''
 def isKeepIdentity():
-    '''public boolean isKeepIdentity()
+    '''returns boolean\n\n
+    isKeepIdentity()\n
     '''
 def setKeepIdentity():
-    '''public void setKeepIdentity(final boolean keepIdentity)
+    '''returns None\n\n
+    setKeepIdentity(final boolean keepIdentity)\n
     '''
 def isKeepNulls():
-    '''public boolean isKeepNulls()
+    '''returns boolean\n\n
+    isKeepNulls()\n
     '''
 def setKeepNulls():
-    '''public void setKeepNulls(final boolean keepNulls)
+    '''returns None\n\n
+    setKeepNulls(final boolean keepNulls)\n
     '''
 def isTableLock():
-    '''public boolean isTableLock()
+    '''returns boolean\n\n
+    isTableLock()\n
     '''
 def setTableLock():
-    '''public void setTableLock(final boolean tableLock)
+    '''returns None\n\n
+    setTableLock(final boolean tableLock)\n
     '''
 def isUseInternalTransaction():
-    '''public boolean isUseInternalTransaction()
+    '''returns boolean\n\n
+    isUseInternalTransaction()\n
     '''
 def setUseInternalTransaction():
-    '''public void setUseInternalTransaction(final boolean useInternalTransaction)
+    '''returns None\n\n
+    setUseInternalTransaction(final boolean useInternalTransaction)\n
     '''
 def isCheckConstraints():
-    '''public boolean isCheckConstraints()
+    '''returns boolean\n\n
+    isCheckConstraints()\n
     '''
 def setCheckConstraints():
-    '''public void setCheckConstraints(final boolean checkConstraints)
+    '''returns None\n\n
+    setCheckConstraints(final boolean checkConstraints)\n
     '''
 def isFireTriggers():
-    '''public boolean isFireTriggers()
+    '''returns boolean\n\n
+    isFireTriggers()\n
     '''
 def setFireTriggers():
-    '''public void setFireTriggers(final boolean fireTriggers)
+    '''returns None\n\n
+    setFireTriggers(final boolean fireTriggers)\n
     '''
 def isAllowEncryptedValueModifications():
-    '''public boolean isAllowEncryptedValueModifications()
+    '''returns boolean\n\n
+    isAllowEncryptedValueModifications()\n
     '''
 def setAllowEncryptedValueModifications():
-    '''public void setAllowEncryptedValueModifications(final boolean allowEncryptedValueModifications)
+    '''returns None\n\n
+    setAllowEncryptedValueModifications(final boolean allowEncryptedValueModifications)\n
     '''

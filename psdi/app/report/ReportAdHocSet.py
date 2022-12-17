@@ -1,6 +1,8 @@
-def ReportAdHocSet():
-    '''public ReportAdHocSet(final MboServerInterface ms)
+def ():
+    '''returns ReportAdHocSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

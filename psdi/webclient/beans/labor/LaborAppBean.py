@@ -1,6 +1,8 @@
 def ADDCREWWO():
-    '''public int ADDCREWWO()
+    '''returns int\n\n
+    ADDCREWWO()\n
     '''
 def refreshhistory():
-    '''public int refreshhistory()
+    '''returns int\n\n
+    refreshhistory()\n
     '''

@@ -1,6 +1,8 @@
-def ReportAttachUncPathSet():
-    '''public ReportAttachUncPathSet(final MboServerInterface ms)
+def ():
+    '''returns ReportAttachUncPathSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def save():
-    '''public void save(final long flags)
+    '''returns None\n\n
+    save(final long flags)\n
     '''

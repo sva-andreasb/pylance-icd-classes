@@ -1,157 +1,198 @@
-def getDummyCell():
-    '''public static Cell getDummyCell()
-    '''
-def Cell():
-    '''public Cell()
-    public Cell(final boolean dummy)
-    public Cell(final String content)
-    public Cell(final Element element)
-    public Cell(final Properties attributes)
+def ():
+    '''returns Cell\n\n
+    ()\n
+    (final boolean dummy)\n
+    (final String content)\n
+    (final Element element)\n
+    (final Properties attributes)\n
     '''
 def process():
-    '''public boolean process(final ElementListener listener)
+    '''returns boolean\n\n
+    process(final ElementListener listener)\n
     '''
 def type():
-    '''public int type()
+    '''returns int\n\n
+    type()\n
     '''
 def getChunks():
-    '''public ArrayList getChunks()
+    '''returns ArrayList\n\n
+    getChunks()\n
     '''
 def addElement():
-    '''public void addElement(final Element element)
+    '''returns None\n\n
+    addElement(final Element element)\n
     '''
 def add():
-    '''public boolean add(final Object o)
+    '''returns boolean\n\n
+    add(final Object o)\n
     '''
 def setLeading():
-    '''public void setLeading(final float value)
+    '''returns None\n\n
+    setLeading(final float value)\n
     '''
 def setHorizontalAlignment():
-    '''public void setHorizontalAlignment(final int value)
-    public void setHorizontalAlignment(final String alignment)
+    '''returns None\n\n
+    setHorizontalAlignment(final int value)\n
+    setHorizontalAlignment(final String alignment)\n
     '''
 def setVerticalAlignment():
-    '''public void setVerticalAlignment(final int value)
-    public void setVerticalAlignment(final String alignment)
+    '''returns None\n\n
+    setVerticalAlignment(final int value)\n
+    setVerticalAlignment(final String alignment)\n
     '''
 def setWidth():
-    '''public void setWidth(final String value)
+    '''returns None\n\n
+    setWidth(final String value)\n
     '''
 def setColspan():
-    '''public void setColspan(final int value)
+    '''returns None\n\n
+    setColspan(final int value)\n
     '''
 def setRowspan():
-    '''public void setRowspan(final int value)
+    '''returns None\n\n
+    setRowspan(final int value)\n
     '''
 def setHeader():
-    '''public void setHeader(final boolean value)
+    '''returns None\n\n
+    setHeader(final boolean value)\n
     '''
 def setNoWrap():
-    '''public void setNoWrap(final boolean value)
+    '''returns None\n\n
+    setNoWrap(final boolean value)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def isTable():
-    '''public boolean isTable()
+    '''returns boolean\n\n
+    isTable()\n
     '''
 def getElements():
-    '''public Iterator getElements()
+    '''returns Iterator\n\n
+    getElements()\n
     '''
 def horizontalAlignment():
-    '''public int horizontalAlignment()
+    '''returns int\n\n
+    horizontalAlignment()\n
     '''
 def verticalAlignment():
-    '''public int verticalAlignment()
+    '''returns int\n\n
+    verticalAlignment()\n
     '''
 def cellWidth():
-    '''public String cellWidth()
+    '''returns String\n\n
+    cellWidth()\n
     '''
 def colspan():
-    '''public int colspan()
+    '''returns int\n\n
+    colspan()\n
     '''
 def rowspan():
-    '''public int rowspan()
+    '''returns int\n\n
+    rowspan()\n
     '''
 def leading():
-    '''public float leading()
+    '''returns float\n\n
+    leading()\n
     '''
 def header():
-    '''public boolean header()
+    '''returns boolean\n\n
+    header()\n
     '''
 def noWrap():
-    '''public boolean noWrap()
+    '''returns boolean\n\n
+    noWrap()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def top():
-    '''public float top()
-    public float top(final int margin)
+    '''returns float\n\n
+    top()\n
+    top(final int margin)\n
     '''
 def bottom():
-    '''public float bottom()
-    public float bottom(final int margin)
+    '''returns float\n\n
+    bottom()\n
+    bottom(final int margin)\n
     '''
 def left():
-    '''public float left()
-    public float left(final int margin)
+    '''returns float\n\n
+    left()\n
+    left(final int margin)\n
     '''
 def right():
-    '''public float right()
-    public float right(final int margin)
+    '''returns float\n\n
+    right()\n
+    right(final int margin)\n
     '''
 def setTop():
-    '''public void setTop(final int value)
+    '''returns None\n\n
+    setTop(final int value)\n
     '''
 def setBottom():
-    '''public void setBottom(final int value)
+    '''returns None\n\n
+    setBottom(final int value)\n
     '''
 def setLeft():
-    '''public void setLeft(final int value)
+    '''returns None\n\n
+    setLeft(final int value)\n
     '''
 def setRight():
-    '''public void setRight(final int value)
-    '''
-def isTag():
-    '''public static boolean isTag(final String tag)
+    '''returns None\n\n
+    setRight(final int value)\n
     '''
 def getGroupChange():
-    '''public boolean getGroupChange()
+    '''returns boolean\n\n
+    getGroupChange()\n
     '''
 def setGroupChange():
-    '''public void setGroupChange(final boolean value)
+    '''returns None\n\n
+    setGroupChange(final boolean value)\n
     '''
 def getMaxLines():
-    '''public int getMaxLines()
+    '''returns int\n\n
+    getMaxLines()\n
     '''
 def setMaxLines():
-    '''public void setMaxLines(final int value)
+    '''returns None\n\n
+    setMaxLines(final int value)\n
     '''
 def setShowTruncation():
-    '''public void setShowTruncation(final String value)
+    '''returns None\n\n
+    setShowTruncation(final String value)\n
     '''
 def getShowTruncation():
-    '''public String getShowTruncation()
+    '''returns String\n\n
+    getShowTruncation()\n
     '''
 def setUseAscender():
-    '''public void setUseAscender(final boolean use)
+    '''returns None\n\n
+    setUseAscender(final boolean use)\n
     '''
 def isUseAscender():
-    '''public boolean isUseAscender()
+    '''returns boolean\n\n
+    isUseAscender()\n
     '''
 def setUseDescender():
-    '''public void setUseDescender(final boolean use)
+    '''returns None\n\n
+    setUseDescender(final boolean use)\n
     '''
 def isUseDescender():
-    '''public boolean isUseDescender()
+    '''returns boolean\n\n
+    isUseDescender()\n
     '''
 def setUseBorderPadding():
-    '''public void setUseBorderPadding(final boolean use)
+    '''returns None\n\n
+    setUseBorderPadding(final boolean use)\n
     '''
 def isUseBorderPadding():
-    '''public boolean isUseBorderPadding()
+    '''returns boolean\n\n
+    isUseBorderPadding()\n
     '''

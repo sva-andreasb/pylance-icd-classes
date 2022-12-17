@@ -1,12 +1,16 @@
-def AppCompareResults():
-    '''public AppCompareResults(final CompareResults appResults)
+def ():
+    '''returns AppCompareResults\n\n
+    (final CompareResults appResults)\n
     '''
 def getAppResults():
-    '''public CompareResults getAppResults()
+    '''returns CompareResults\n\n
+    getAppResults()\n
     '''
 def addGroupResults():
-    '''public void addGroupResults(final GroupCompareResults gcr)
+    '''returns None\n\n
+    addGroupResults(final GroupCompareResults gcr)\n
     '''
 def getGroupResults():
-    '''public List getGroupResults()
+    '''returns List\n\n
+    getGroupResults()\n
     '''

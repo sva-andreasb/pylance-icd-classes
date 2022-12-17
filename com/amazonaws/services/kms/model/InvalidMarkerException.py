@@ -1,3 +1,4 @@
-def InvalidMarkerException():
-    '''public InvalidMarkerException(final String message)
+def ():
+    '''returns InvalidMarkerException\n\n
+    (final String message)\n
     '''

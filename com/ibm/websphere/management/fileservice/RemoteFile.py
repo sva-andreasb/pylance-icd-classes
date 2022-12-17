@@ -8,60 +8,27 @@ RAR_FILE = "String  \"RAR_FILE\""
 SAR_FILE = "String  \"SAR_FILE\""
 CLASS_FILE = "String  \"CLASS_FILE\""
 ZIP_FILE = "String  \"ZIP_FILE\""
-def getName():
-    '''public final String getName()
-    '''
-def getPath():
-    '''public final String getPath()
-    '''
-def getAbsolutePath():
-    '''public final String getAbsolutePath()
-    '''
-def getType():
-    '''public final String getType()
-    '''
 def isDirectory():
-    '''public boolean isDirectory()
+    '''returns boolean\n\n
+    isDirectory()\n
     '''
 def isNormalFile():
-    '''public boolean isNormalFile()
-    '''
-def isHidden():
-    '''public final boolean isHidden()
-    '''
-def getParentDirectory():
-    '''public final String getParentDirectory()
+    '''returns boolean\n\n
+    isNormalFile()\n
     '''
 def isRoot():
-    '''public boolean isRoot()
-    '''
-def getSeparator():
-    '''public final String getSeparator()
+    '''returns boolean\n\n
+    isRoot()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def RemoteFile():
-    '''public RemoteFile()
-    '''
-def setName():
-    '''public final void setName(final String name)
-    '''
-def setAbsolutePath():
-    '''public final void setAbsolutePath(final String absPath)
-    '''
-def setType():
-    '''public final void setType(final String type)
-    '''
-def setHidden():
-    '''public final void setHidden(final boolean hidden)
-    '''
-def setParentDirectory():
-    '''public final void setParentDirectory(final String parentDir)
-    '''
-def setSeparator():
-    '''public final void setSeparator(final String separator)
+def ():
+    '''returns RemoteFile\n\n
+    ()\n
     '''
 def dump():
-    '''public String dump()
+    '''returns String\n\n
+    dump()\n
     '''

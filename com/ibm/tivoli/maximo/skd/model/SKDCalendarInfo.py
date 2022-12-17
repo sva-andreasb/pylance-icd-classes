@@ -1,55 +1,65 @@
-def SKDCalendarInfo():
-    '''public SKDCalendarInfo()
+def ():
+    '''returns SKDCalendarInfo\n\n
+    ()\n
     '''
 def setPatternInfo():
-    '''public void setPatternInfo(final int patternDaySeq, final Date patternStarTime, final Date patternEndTime, final double workHour, final boolean nullWorkHour, final int patternStartDay, final int patternEndDay)
-    '''
-def getAllPatternInfo():
-    '''public TreeMap<Integer, SKDWorkTimeInfo> getAllPatternInfo()
+    '''returns None\n\n
+    setPatternInfo(final int patternDaySeq, final Date patternStarTime, final Date patternEndTime, final double workHour, final boolean nullWorkHour, final int patternStartDay, final int patternEndDay)\n
     '''
 def setPatternAppliedWorkDayList():
-    '''public void setPatternAppliedWorkDayList(final ArrayList<Date> date)
+    '''returns None\n\n
+    setPatternAppliedWorkDayList(final ArrayList<Date> date)\n
     '''
 def setPatternNotAppliedWorkDayList():
-    '''public void setPatternNotAppliedWorkDayList(final Date workDate, final SKDWorkTimeInfo info)
+    '''returns None\n\n
+    setPatternNotAppliedWorkDayList(final Date workDate, final SKDWorkTimeInfo info)\n
     '''
 def getPatternAppliedWorkDayList():
-    '''public ArrayList<Date> getPatternAppliedWorkDayList()
-    '''
-def getPatternNotAppliedWorkDayList():
-    '''public TreeMap<Date, SKDWorkTimeInfo> getPatternNotAppliedWorkDayList()
+    '''returns ArrayList<Date>\n\n
+    getPatternAppliedWorkDayList()\n
     '''
 def getPatternIndexForStartWorkDay():
-    '''public int getPatternIndexForStartWorkDay()
+    '''returns int\n\n
+    getPatternIndexForStartWorkDay()\n
     '''
 def setPatternIndexForStartWorkDay():
-    '''public void setPatternIndexForStartWorkDay(final int dayInt)
+    '''returns None\n\n
+    setPatternIndexForStartWorkDay(final int dayInt)\n
     '''
 def getShiftDescription():
-    '''public String getShiftDescription()
+    '''returns String\n\n
+    getShiftDescription()\n
     '''
 def setShiftDescription():
-    '''public void setShiftDescription(final String desc)
+    '''returns None\n\n
+    setShiftDescription(final String desc)\n
     '''
 def setCalendarStartDate():
-    '''public void setCalendarStartDate(final Date calStartDate)
+    '''returns None\n\n
+    setCalendarStartDate(final Date calStartDate)\n
     '''
 def getCalendarStartDate():
-    '''public Date getCalendarStartDate()
+    '''returns Date\n\n
+    getCalendarStartDate()\n
     '''
 def setCalendarStartDay():
-    '''public void setCalendarStartDay(final String patternStartDay)
-    public void setCalendarStartDay(final int patternStartDay)
+    '''returns None\n\n
+    setCalendarStartDay(final String patternStartDay)\n
+    setCalendarStartDay(final int patternStartDay)\n
     '''
 def getPatternStartDay():
-    '''public String getPatternStartDay()
+    '''returns String\n\n
+    getPatternStartDay()\n
     '''
 def getPatternStartDayInt():
-    '''public int getPatternStartDayInt()
+    '''returns int\n\n
+    getPatternStartDayInt()\n
     '''
 def setCalendarEndDay():
-    '''public void setCalendarEndDay(final int patternEndDay)
+    '''returns None\n\n
+    setCalendarEndDay(final int patternEndDay)\n
     '''
 def getPatternEndDayInt():
-    '''public int getPatternEndDayInt()
+    '''returns int\n\n
+    getPatternEndDayInt()\n
     '''

@@ -1,17 +1,22 @@
-def AbstractReferenceCounted():
-    '''public AbstractReferenceCounted()
+def ():
+    '''returns AbstractReferenceCounted\n\n
+    ()\n
     '''
 def refCnt():
-    '''public int refCnt()
+    '''returns int\n\n
+    refCnt()\n
     '''
 def retain():
-    '''public ReferenceCounted retain()
-    public ReferenceCounted retain(final int increment)
+    '''returns ReferenceCounted\n\n
+    retain()\n
+    retain(final int increment)\n
     '''
 def touch():
-    '''public ReferenceCounted touch()
+    '''returns ReferenceCounted\n\n
+    touch()\n
     '''
 def release():
-    '''public boolean release()
-    public boolean release(final int decrement)
+    '''returns boolean\n\n
+    release()\n
+    release(final int decrement)\n
     '''

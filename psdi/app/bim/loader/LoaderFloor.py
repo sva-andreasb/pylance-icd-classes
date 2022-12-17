@@ -1,12 +1,16 @@
-def LoaderFloor():
-    '''public LoaderFloor(final ModelLoaderBase loader)
+def ():
+    '''returns LoaderFloor\n\n
+    (final ModelLoaderBase loader)\n
     '''
 def canProcessItem():
-    '''public boolean canProcessItem(final ItemFLOOR floor)
+    '''returns boolean\n\n
+    canProcessItem(final ItemFLOOR floor)\n
     '''
 def addItem():
-    '''public MboRemote addItem(final ItemFLOOR floor, final MboSetRemote locationSet)
+    '''returns MboRemote\n\n
+    addItem(final ItemFLOOR floor, final MboSetRemote locationSet)\n
     '''
 def update():
-    '''public void update(final MboRemote mbo, final ItemFLOOR floor)
+    '''returns None\n\n
+    update(final MboRemote mbo, final ItemFLOOR floor)\n
     '''

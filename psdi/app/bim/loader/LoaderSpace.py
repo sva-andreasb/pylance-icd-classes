@@ -1,12 +1,16 @@
-def LoaderSpace():
-    '''public LoaderSpace(final ModelLoaderBase loader)
+def ():
+    '''returns LoaderSpace\n\n
+    (final ModelLoaderBase loader)\n
     '''
 def canProcessItem():
-    '''public boolean canProcessItem(final ItemSPACE space)
+    '''returns boolean\n\n
+    canProcessItem(final ItemSPACE space)\n
     '''
 def addItem():
-    '''public MboRemote addItem(final ItemSPACE space, final MboSetRemote locationSet)
+    '''returns MboRemote\n\n
+    addItem(final ItemSPACE space, final MboSetRemote locationSet)\n
     '''
 def update():
-    '''public void update(final MboRemote mbo, final ItemSPACE space)
+    '''returns None\n\n
+    update(final MboRemote mbo, final ItemSPACE space)\n
     '''

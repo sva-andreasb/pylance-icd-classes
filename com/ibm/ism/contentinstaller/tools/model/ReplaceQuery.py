@@ -1,24 +1,32 @@
 def getDatabase():
-    '''public String getDatabase()
+    '''returns String\n\n
+    getDatabase()\n
     '''
 def setDatabase():
-    '''public void setDatabase(final String database)
+    '''returns None\n\n
+    setDatabase(final String database)\n
     '''
 def getReplace():
-    '''public String getReplace()
+    '''returns String\n\n
+    getReplace()\n
     '''
 def setReplace():
-    '''public void setReplace(final String replace)
+    '''returns None\n\n
+    setReplace(final String replace)\n
     '''
 def getQuery():
-    '''public String getQuery()
+    '''returns String\n\n
+    getQuery()\n
     '''
 def setQuery():
-    '''public void setQuery(final String query)
+    '''returns None\n\n
+    setQuery(final String query)\n
     '''
 def getDefaultValue():
-    '''public String getDefaultValue()
+    '''returns String\n\n
+    getDefaultValue()\n
     '''
 def setDefaultValue():
-    '''public void setDefaultValue(final String defaultValue)
+    '''returns None\n\n
+    setDefaultValue(final String defaultValue)\n
     '''

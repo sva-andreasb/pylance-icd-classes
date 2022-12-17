@@ -1,12 +1,12 @@
-def WindowsLineEndingInputStream():
-    '''public WindowsLineEndingInputStream(final InputStream in, final boolean ensureLineFeedAtEndOfFile)
+def ():
+    '''returns WindowsLineEndingInputStream\n\n
+    (final InputStream in, final boolean ensureLineFeedAtEndOfFile)\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''
 def close():
-    '''public void close()
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
+    '''returns None\n\n
+    close()\n
     '''

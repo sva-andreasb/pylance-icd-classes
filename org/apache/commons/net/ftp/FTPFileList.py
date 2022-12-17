@@ -1,15 +1,14 @@
-def create():
-    '''public static FTPFileList create(final InputStream stream, final FTPFileEntryParser parser, final String encoding)
-    public static FTPFileList create(final InputStream stream, final FTPFileEntryParser parser)
-    '''
 def readStream():
-    '''public void readStream(final InputStream stream, final String encoding)
-    public void readStream(final InputStream stream)
+    '''returns None\n\n
+    readStream(final InputStream stream, final String encoding)\n
+    readStream(final InputStream stream)\n
     '''
 def iterator():
-    '''public FTPFileIterator iterator()
-    public FTPFileIterator iterator(final FTPFileEntryParser parser)
+    '''returns FTPFileIterator\n\n
+    iterator()\n
+    iterator(final FTPFileEntryParser parser)\n
     '''
 def getFiles():
-    '''public FTPFile[] getFiles()
+    '''returns FTPFile[]\n\n
+    getFiles()\n
     '''

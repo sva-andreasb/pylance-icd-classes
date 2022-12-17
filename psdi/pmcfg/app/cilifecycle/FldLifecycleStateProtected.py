@@ -1,7 +1,9 @@
-def FldLifecycleStateProtected():
-    '''public FldLifecycleStateProtected()
-    public FldLifecycleStateProtected(final MboValue mbv)
+def ():
+    '''returns FldLifecycleStateProtected\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

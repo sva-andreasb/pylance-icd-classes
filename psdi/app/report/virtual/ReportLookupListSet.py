@@ -1,15 +1,20 @@
-def ReportLookupListSet():
-    '''public ReportLookupListSet(final MboServerInterface ms)
+def ():
+    '''returns ReportLookupListSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def startElement():
-    '''public void startElement(final String namespaceURI, final String localName, final String qName, final Attributes atts)
+    '''returns None\n\n
+    startElement(final String namespaceURI, final String localName, final String qName, final Attributes atts)\n
     '''
 def compare():
-    '''public int compare(final Object element1, final Object element2)
+    '''returns int\n\n
+    compare(final Object element1, final Object element2)\n
     '''

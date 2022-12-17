@@ -1,16 +1,21 @@
-def NotationDeclarationImpl():
-    '''public NotationDeclarationImpl(final String s, final String s2, final String s3)
-    public NotationDeclarationImpl(final String fNotationName, final String fPublicId, final String fSystemId, final Location location)
+def ():
+    '''returns NotationDeclarationImpl\n\n
+    (final String s, final String s2, final String s3)\n
+    (final String fNotationName, final String fPublicId, final String fSystemId, final Location location)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getPublicId():
-    '''public String getPublicId()
+    '''returns String\n\n
+    getPublicId()\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''
 def writeAsEncodedUnicode():
-    '''public void writeAsEncodedUnicode(final Writer writer)
+    '''returns None\n\n
+    writeAsEncodedUnicode(final Writer writer)\n
     '''

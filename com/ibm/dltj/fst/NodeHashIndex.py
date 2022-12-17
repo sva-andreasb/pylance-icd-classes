@@ -1,18 +1,20 @@
-def NodeHashIndex():
-    '''public NodeHashIndex(final Node first)
+def ():
+    '''returns NodeHashIndex\n\n
+    (final Node first)\n
     '''
 def getNodeCount():
-    '''public int getNodeCount()
+    '''returns int\n\n
+    getNodeCount()\n
     '''
 def getGlossCollectionCount():
-    '''public int getGlossCollectionCount()
+    '''returns int\n\n
+    getGlossCollectionCount()\n
     '''
 def write_nodes():
-    '''public void write_nodes(final DataOutput dataOutput, final int n)
+    '''returns None\n\n
+    write_nodes(final DataOutput dataOutput, final int n)\n
     '''
 def write_gloss_header():
-    '''public int write_gloss_header(final DataOutput dataOutput, final GlossMapper glossMapper)
-    '''
-def newHash():
-    '''public static int newHash(int n)
+    '''returns int\n\n
+    write_gloss_header(final DataOutput dataOutput, final GlossMapper glossMapper)\n
     '''

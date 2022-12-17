@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static ClientClusterContextListenerFactory getInstance()
-    '''
 def getDefinitionKey():
-    '''public String getDefinitionKey()
+    '''returns String\n\n
+    getDefinitionKey()\n
     '''
 def getClientClusterContextListener():
-    '''public WLMServiceClientContextListener getClientClusterContextListener(final List clusterDescriptions, final String definitionKey)
+    '''returns WLMServiceClientContextListener\n\n
+    getClientClusterContextListener(final List clusterDescriptions, final String definitionKey)\n
     '''

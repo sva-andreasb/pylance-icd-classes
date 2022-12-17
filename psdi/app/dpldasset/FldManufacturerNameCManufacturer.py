@@ -1,3 +1,4 @@
-def FldManufacturerNameCManufacturer():
-    '''public FldManufacturerNameCManufacturer(final MboValue mbv)
+def ():
+    '''returns FldManufacturerNameCManufacturer\n\n
+    (final MboValue mbv)\n
     '''

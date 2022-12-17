@@ -1,30 +1,36 @@
 def setAccessToken():
-    '''public GoogleTokenResponse setAccessToken(final String accessToken)
+    '''returns GoogleTokenResponse\n\n
+    setAccessToken(final String accessToken)\n
     '''
 def setTokenType():
-    '''public GoogleTokenResponse setTokenType(final String tokenType)
+    '''returns GoogleTokenResponse\n\n
+    setTokenType(final String tokenType)\n
     '''
 def setExpiresInSeconds():
-    '''public GoogleTokenResponse setExpiresInSeconds(final Long expiresIn)
+    '''returns GoogleTokenResponse\n\n
+    setExpiresInSeconds(final Long expiresIn)\n
     '''
 def setRefreshToken():
-    '''public GoogleTokenResponse setRefreshToken(final String refreshToken)
+    '''returns GoogleTokenResponse\n\n
+    setRefreshToken(final String refreshToken)\n
     '''
 def setScope():
-    '''public GoogleTokenResponse setScope(final String scope)
-    '''
-def getIdToken():
-    '''public final String getIdToken()
+    '''returns GoogleTokenResponse\n\n
+    setScope(final String scope)\n
     '''
 def setIdToken():
-    '''public GoogleTokenResponse setIdToken(final String idToken)
+    '''returns GoogleTokenResponse\n\n
+    setIdToken(final String idToken)\n
     '''
 def parseIdToken():
-    '''public GoogleIdToken parseIdToken()
+    '''returns GoogleIdToken\n\n
+    parseIdToken()\n
     '''
 def set():
-    '''public GoogleTokenResponse set(final String fieldName, final Object value)
+    '''returns GoogleTokenResponse\n\n
+    set(final String fieldName, final Object value)\n
     '''
 def clone():
-    '''public GoogleTokenResponse clone()
+    '''returns GoogleTokenResponse\n\n
+    clone()\n
     '''

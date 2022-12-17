@@ -1,53 +1,70 @@
 DEFAULT_MAP_SIZE = "int  6"
-def MultiMap():
-    '''public MultiMap()
-    public MultiMap(final int size)
+def ():
+    '''returns MultiMap\n\n
+    ()\n
+    (final int size)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def containsValue():
-    '''public boolean containsValue(final Object value)
+    '''returns boolean\n\n
+    containsValue(final Object value)\n
     '''
 def getFirst():
-    '''public V getFirst(final Object key)
+    '''returns V\n\n
+    getFirst(final Object key)\n
     '''
 def getAll():
-    '''public List<V> getAll(final Object key)
+    '''returns List<V>\n\n
+    getAll(final Object key)\n
     '''
 def put():
-    '''public boolean put(final K key, final V value)
+    '''returns boolean\n\n
+    put(final K key, final V value)\n
     '''
 def remove():
-    '''public V remove(final Object key)
+    '''returns V\n\n
+    remove(final Object key)\n
     '''
 def removeOne():
-    '''public boolean removeOne(final Object key, final V value)
+    '''returns boolean\n\n
+    removeOne(final Object key, final V value)\n
     '''
 def putAll():
-    '''public void putAll(final Map<? extends K, ? extends V> map)
+    '''returns None\n\n
+    putAll(final Map<? extends K, ? extends V> map)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def keySet():
-    '''public Set<K> keySet()
+    '''returns Set<K>\n\n
+    keySet()\n
     '''
 def values():
-    '''public List<V> values()
+    '''returns List<V>\n\n
+    values()\n
     '''
 def getKey():
-    '''public K getKey()
+    '''returns K\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public V getValue()
+    '''returns V\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public V setValue(final V value)
+    '''returns V\n\n
+    setValue(final V value)\n
     '''

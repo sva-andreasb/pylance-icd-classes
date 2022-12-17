@@ -1,3 +1,4 @@
 def validate():
-    '''public IlvValidationError validate(final int n, final IlvEditionContext ilvEditionContext)
+    '''returns IlvValidationError\n\n
+    validate(final int n, final IlvEditionContext ilvEditionContext)\n
     '''

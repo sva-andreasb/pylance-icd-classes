@@ -1,104 +1,137 @@
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Violation next()
+    '''returns Violation\n\n
+    next()\n
     '''
 def isAbsolute():
-    '''public boolean isAbsolute()
+    '''returns boolean\n\n
+    isAbsolute()\n
     '''
 def isRelative():
-    '''public boolean isRelative()
+    '''returns boolean\n\n
+    isRelative()\n
     '''
 def hasViolation():
-    '''public boolean hasViolation(final boolean includeWarnings)
+    '''returns boolean\n\n
+    hasViolation(final boolean includeWarnings)\n
     '''
 def violations():
-    '''public Iterator<Violation> violations(final boolean includeWarnings)
+    '''returns Iterator<Violation>\n\n
+    violations(final boolean includeWarnings)\n
     '''
 def toURL():
-    '''public URL toURL()
+    '''returns URL\n\n
+    toURL()\n
     '''
 def toASCIIString():
-    '''public String toASCIIString()
+    '''returns String\n\n
+    toASCIIString()\n
     '''
 def relativize():
-    '''public IRI relativize(final String abs, final int flags)
-    public IRI relativize(final String abs)
-    public IRI relativize(final IRI abs)
-    public IRI relativize(final IRI abs, final int flags)
+    '''returns IRI\n\n
+    relativize(final String abs, final int flags)\n
+    relativize(final String abs)\n
+    relativize(final IRI abs)\n
+    relativize(final IRI abs, final int flags)\n
     '''
 def allViolations():
-    '''public Iterator<Violation> allViolations()
+    '''returns Iterator<Violation>\n\n
+    allViolations()\n
     '''
 def getRawUserinfo():
-    '''public String getRawUserinfo()
+    '''returns String\n\n
+    getRawUserinfo()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getRawQuery():
-    '''public String getRawQuery()
+    '''returns String\n\n
+    getRawQuery()\n
     '''
 def getRawFragment():
-    '''public String getRawFragment()
+    '''returns String\n\n
+    getRawFragment()\n
     '''
 def getRawHost():
-    '''public String getRawHost()
+    '''returns String\n\n
+    getRawHost()\n
     '''
 def getScheme():
-    '''public String getScheme()
+    '''returns String\n\n
+    getScheme()\n
     '''
 def getRawPath():
-    '''public String getRawPath()
+    '''returns String\n\n
+    getRawPath()\n
     '''
 def isRootless():
-    '''public boolean isRootless()
+    '''returns boolean\n\n
+    isRootless()\n
     '''
 def getRawAuthority():
-    '''public String getRawAuthority()
+    '''returns String\n\n
+    getRawAuthority()\n
     '''
 def create():
-    '''public IRI create(final IRI i)
-    public IRI create(final String s)
+    '''returns IRI\n\n
+    create(final IRI i)\n
+    create(final String s)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def getAuthority():
-    '''public String getAuthority()
+    '''returns String\n\n
+    getAuthority()\n
     '''
 def getFragment():
-    '''public String getFragment()
+    '''returns String\n\n
+    getFragment()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPath():
-    '''public String getPath()
+    '''returns String\n\n
+    getPath()\n
     '''
 def getQuery():
-    '''public String getQuery()
+    '''returns String\n\n
+    getQuery()\n
     '''
 def getUserinfo():
-    '''public String getUserinfo()
+    '''returns String\n\n
+    getUserinfo()\n
     '''
 def normalize():
-    '''public IRI normalize(final boolean useDns)
+    '''returns IRI\n\n
+    normalize(final boolean useDns)\n
     '''
 def toDisplayString():
-    '''public String toDisplayString()
+    '''returns String\n\n
+    toDisplayString()\n
     '''
 def getASCIIHost():
-    '''public String getASCIIHost()
+    '''returns String\n\n
+    getASCIIHost()\n
     '''
 def ladderEquals():
-    '''public boolean ladderEquals(final IRI iri, final int other)
-    public int ladderEquals(final IRI iri)
+    '''returns int\n\n
+    ladderEquals(final IRI iri, final int other)\n
+    ladderEquals(final IRI iri)\n
     '''

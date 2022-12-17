@@ -1,6 +1,8 @@
-def PlusPFldGBTransQuoteType():
-    '''public PlusPFldGBTransQuoteType(final MboValue mv)
+def ():
+    '''returns PlusPFldGBTransQuoteType\n\n
+    (final MboValue mv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

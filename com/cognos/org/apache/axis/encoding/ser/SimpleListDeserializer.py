@@ -1,25 +1,33 @@
-def SimpleListDeserializer():
-    '''public SimpleListDeserializer(final Class javaType, final QName xmlType)
-    public SimpleListDeserializer(final Class javaType, final QName xmlType, final TypeDesc typeDesc)
+def ():
+    '''returns SimpleListDeserializer\n\n
+    (final Class javaType, final QName xmlType)\n
+    (final Class javaType, final QName xmlType, final TypeDesc typeDesc)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def setConstructor():
-    '''public void setConstructor(final Constructor c)
+    '''returns None\n\n
+    setConstructor(final Constructor c)\n
     '''
 def onStartChild():
-    '''public SOAPHandler onStartChild(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
+    '''returns SOAPHandler\n\n
+    onStartChild(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
     '''
 def characters():
-    '''public void characters(final char[] chars, final int start, final int end)
+    '''returns None\n\n
+    characters(final char[] chars, final int start, final int end)\n
     '''
 def onEndElement():
-    '''public void onEndElement(final String namespace, final String localName, final DeserializationContext context)
+    '''returns None\n\n
+    onEndElement(final String namespace, final String localName, final DeserializationContext context)\n
     '''
 def makeValue():
-    '''public Object makeValue(final String source)
+    '''returns Object\n\n
+    makeValue(final String source)\n
     '''
 def onStartElement():
-    '''public void onStartElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
+    '''returns None\n\n
+    onStartElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
     '''

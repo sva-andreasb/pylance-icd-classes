@@ -1,16 +1,16 @@
 PREFIX_SEPARATOR = "char  ':'"
-def Interpolator():
-    '''public Interpolator(final StrLookup defaultLookup)
-    public Interpolator(final StrLookup defaultLookup, final List<String> pluginPackages)
-    public Interpolator()
-    public Interpolator(final Map<String, String> properties)
-    '''
-def getStrLookupMap():
-    '''public Map<String, StrLookup> getStrLookupMap()
+def ():
+    '''returns Interpolator\n\n
+    (final StrLookup defaultLookup)\n
+    (final StrLookup defaultLookup, final List<String> pluginPackages)\n
+    ()\n
+    (final Map<String, String> properties)\n
     '''
 def lookup():
-    '''public String lookup(final LogEvent event, String var)
+    '''returns String\n\n
+    lookup(final LogEvent event, String var)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,229 +1,302 @@
-def StructureData():
-    '''public StructureData()
-    public StructureData(final String operaton, final String osName, final String lang, final int size, final boolean isEvent, final boolean isResponse)
-    public StructureData(final Document input)
-    public StructureData(final byte[] data)
-    public StructureData(final String data)
+def ():
+    '''returns StructureData\n\n
+    ()\n
+    (final String operaton, final String osName, final String lang, final int size, final boolean isEvent, final boolean isResponse)\n
+    (final Document input)\n
+    (final byte[] data)\n
+    (final String data)\n
     '''
 def isIR():
-    '''public boolean isIR()
+    '''returns boolean\n\n
+    isIR()\n
     '''
 def isBroken():
-    '''public boolean isBroken()
+    '''returns boolean\n\n
+    isBroken()\n
     '''
 def addIntObject():
-    '''public void addIntObject()
+    '''returns None\n\n
+    addIntObject()\n
     '''
 def addObjectStructure():
-    '''public void addObjectStructure()
+    '''returns None\n\n
+    addObjectStructure()\n
     '''
 def moveToNextIntObject():
-    '''public boolean moveToNextIntObject()
+    '''returns boolean\n\n
+    moveToNextIntObject()\n
     '''
 def moveToNextObjectStructure():
-    '''public boolean moveToNextObjectStructure()
+    '''returns boolean\n\n
+    moveToNextObjectStructure()\n
     '''
 def moveToPrevIntObject():
-    '''public boolean moveToPrevIntObject()
+    '''returns boolean\n\n
+    moveToPrevIntObject()\n
     '''
 def moveToPrevObjectStructure():
-    '''public boolean moveToPrevObjectStructure()
+    '''returns boolean\n\n
+    moveToPrevObjectStructure()\n
     '''
 def moveToFirstIntObject():
-    '''public void moveToFirstIntObject()
+    '''returns None\n\n
+    moveToFirstIntObject()\n
     '''
 def moveToFirstObjectStruture():
-    '''public void moveToFirstObjectStruture()
+    '''returns None\n\n
+    moveToFirstObjectStruture()\n
     '''
 def removeCurrentIntObject():
-    '''public void removeCurrentIntObject()
+    '''returns None\n\n
+    removeCurrentIntObject()\n
     '''
 def removeCurrentObjectStructure():
-    '''public void removeCurrentObjectStructure()
+    '''returns None\n\n
+    removeCurrentObjectStructure()\n
     '''
 def removeChildrenFromPrimaryObject():
-    '''public void removeChildrenFromPrimaryObject()
+    '''returns None\n\n
+    removeChildrenFromPrimaryObject()\n
     '''
 def removeChildren():
-    '''public void removeChildren()
+    '''returns None\n\n
+    removeChildren()\n
     '''
 def getData():
-    '''public Document getData()
+    '''returns Document\n\n
+    getData()\n
     '''
 def hasDocument():
-    '''public boolean hasDocument()
+    '''returns boolean\n\n
+    hasDocument()\n
     '''
 def getDataAsBytes():
-    '''public byte[] getDataAsBytes()
+    '''returns byte[]\n\n
+    getDataAsBytes()\n
     '''
 def getDataAsString():
-    '''public String getDataAsString()
+    '''returns String\n\n
+    getDataAsString()\n
     '''
 def getOriginalByteData():
-    '''public byte[] getOriginalByteData()
+    '''returns byte[]\n\n
+    getOriginalByteData()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def breakData():
-    '''public void breakData()
+    '''returns None\n\n
+    breakData()\n
     '''
 def breakIntObject():
-    '''public void breakIntObject()
+    '''returns None\n\n
+    breakIntObject()\n
     '''
 def breakObjectStructure():
-    '''public void breakObjectStructure()
+    '''returns None\n\n
+    breakObjectStructure()\n
     '''
 def setMicData():
-    '''public StructureObject setMicData(final Element data)
+    '''returns StructureObject\n\n
+    setMicData(final Element data)\n
     '''
 def createChildrenData():
-    '''public void createChildrenData(final String name, final boolean setAsCurrent)
+    '''returns None\n\n
+    createChildrenData(final String name, final boolean setAsCurrent)\n
     '''
 def setParentAsCurrent():
-    '''public boolean setParentAsCurrent()
+    '''returns boolean\n\n
+    setParentAsCurrent()\n
     '''
 def getChildrenData():
-    '''public List getChildrenData()
+    '''returns List\n\n
+    getChildrenData()\n
     '''
 def getIntObjectList():
-    '''public List getIntObjectList()
+    '''returns List\n\n
+    getIntObjectList()\n
     '''
 def getPrimaryObjectList():
-    '''public List getPrimaryObjectList()
+    '''returns List\n\n
+    getPrimaryObjectList()\n
     '''
 def getHierarchyObjectList():
-    '''public List getHierarchyObjectList()
+    '''returns List\n\n
+    getHierarchyObjectList()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def isMultiIntObject():
-    '''public boolean isMultiIntObject()
+    '''returns boolean\n\n
+    isMultiIntObject()\n
     '''
 def isMultiObjectStructure():
-    '''public boolean isMultiObjectStructure()
+    '''returns boolean\n\n
+    isMultiObjectStructure()\n
     '''
 def getPrimaryObjectName():
-    '''public String getPrimaryObjectName()
+    '''returns String\n\n
+    getPrimaryObjectName()\n
     '''
 def getLanguage():
-    '''public String getLanguage()
+    '''returns String\n\n
+    getLanguage()\n
     '''
 def getTransLanguage():
-    '''public String getTransLanguage()
+    '''returns String\n\n
+    getTransLanguage()\n
     '''
 def getPrimaryObject():
-    '''public Element getPrimaryObject()
+    '''returns Element\n\n
+    getPrimaryObject()\n
     '''
 def getPrimaryObjectAsObject():
-    '''public Object getPrimaryObjectAsObject()
+    '''returns Object\n\n
+    getPrimaryObjectAsObject()\n
     '''
 def getStructureObject():
-    '''public StructureObject getStructureObject(final int pos)
-    public StructureObject getStructureObject(final String xPathExpression)
+    '''returns StructureObject\n\n
+    getStructureObject(final int pos)\n
+    getStructureObject(final String xPathExpression)\n
     '''
 def getAction():
-    '''public String getAction()
+    '''returns String\n\n
+    getAction()\n
     '''
 def isActionNull():
-    '''public boolean isActionNull()
+    '''returns boolean\n\n
+    isActionNull()\n
     '''
 def isPatch():
-    '''public boolean isPatch()
+    '''returns boolean\n\n
+    isPatch()\n
     '''
 def setIsPatch():
-    '''public void setIsPatch(final boolean isPatch)
+    '''returns None\n\n
+    setIsPatch(final boolean isPatch)\n
     '''
 def getMessageID():
-    '''public String getMessageID()
+    '''returns String\n\n
+    getMessageID()\n
     '''
 def removeCurrentData():
-    '''public void removeCurrentData()
+    '''returns None\n\n
+    removeCurrentData()\n
     '''
 def setPrimaryObject():
-    '''public void setPrimaryObject(final Element h)
-    public void setPrimaryObject(final String name)
+    '''returns None\n\n
+    setPrimaryObject(final Element h)\n
+    setPrimaryObject(final String name)\n
     '''
 def setCurrentPosition():
-    '''public void setCurrentPosition(final int pos)
+    '''returns None\n\n
+    setCurrentPosition(final int pos)\n
     '''
 def getCurrentPosition():
-    '''public int getCurrentPosition()
+    '''returns int\n\n
+    getCurrentPosition()\n
     '''
 def getRootName():
-    '''public String getRootName()
+    '''returns String\n\n
+    getRootName()\n
     '''
 def setAction():
-    '''public void setAction(final String action)
+    '''returns None\n\n
+    setAction(final String action)\n
     '''
 def setActionNull():
-    '''public void setActionNull()
+    '''returns None\n\n
+    setActionNull()\n
     '''
 def setChildrenData():
-    '''public void setChildrenData(final List<Element> l)
+    '''returns None\n\n
+    setChildrenData(final List<Element> l)\n
     '''
 def setAsCurrent():
-    '''public StructureObject setAsCurrent(final Element data)
-    public StructureObject setAsCurrent(final Object data)
-    public void setAsCurrent(final List data, final int i)
-    public StructureObject setAsCurrent()
-    public StructureObject setAsCurrent(final String xPathExpression)
+    '''returns StructureObject\n\n
+    setAsCurrent(final Element data)\n
+    setAsCurrent(final Object data)\n
+    setAsCurrent(final List data, final int i)\n
+    setAsCurrent()\n
+    setAsCurrent(final String xPathExpression)\n
     '''
 def getXPathData():
-    '''public String getXPathData(final String xPathExpression)
+    '''returns String\n\n
+    getXPathData(final String xPathExpression)\n
     '''
 def getStructureObjectList():
-    '''public List getStructureObjectList(final String xPathExpression)
+    '''returns List\n\n
+    getStructureObjectList(final String xPathExpression)\n
     '''
 def setMessageID():
-    '''public void setMessageID(final String id)
+    '''returns None\n\n
+    setMessageID(final String id)\n
     '''
 def setMboArray():
-    '''public void setMboArray(final ArrayList<MboRemote> in)
+    '''returns None\n\n
+    setMboArray(final ArrayList<MboRemote> in)\n
     '''
 def setCurrentMbo():
-    '''public void setCurrentMbo(final MboRemote mbo)
+    '''returns None\n\n
+    setCurrentMbo(final MboRemote mbo)\n
     '''
 def getCurrentMbo():
-    '''public MboRemote getCurrentMbo()
+    '''returns MboRemote\n\n
+    getCurrentMbo()\n
     '''
 def getMboArray():
-    '''public ArrayList<MboRemote> getMboArray()
+    '''returns ArrayList<MboRemote>\n\n
+    getMboArray()\n
     '''
 def getRealMbo():
-    '''public MboRemote getRealMbo(final String objectName)
+    '''returns MboRemote\n\n
+    getRealMbo(final String objectName)\n
     '''
 def setRealMbo():
-    '''public void setRealMbo(final MboRemote rm)
+    '''returns None\n\n
+    setRealMbo(final MboRemote rm)\n
     '''
 def getCurrentObject():
-    '''public StructureObject getCurrentObject()
+    '''returns StructureObject\n\n
+    getCurrentObject()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def getBuild():
-    '''public String getBuild()
+    '''returns String\n\n
+    getBuild()\n
     '''
 def getMajorVersion():
-    '''public String getMajorVersion()
+    '''returns String\n\n
+    getMajorVersion()\n
     '''
 def getMinorVersion():
-    '''public String getMinorVersion()
+    '''returns String\n\n
+    getMinorVersion()\n
     '''
 def getDbBuild():
-    '''public String getDbBuild()
+    '''returns String\n\n
+    getDbBuild()\n
     '''
 def getJsonRequest():
-    '''public OslcRequest getJsonRequest()
+    '''returns OslcRequest\n\n
+    getJsonRequest()\n
     '''
 def getMboFromMemory():
-    '''public MboRemote getMboFromMemory()
+    '''returns MboRemote\n\n
+    getMboFromMemory()\n
     '''
 def setJsonRequest():
-    '''public void setJsonRequest(final OslcRequest jsonRequest)
+    '''returns None\n\n
+    setJsonRequest(final OslcRequest jsonRequest)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

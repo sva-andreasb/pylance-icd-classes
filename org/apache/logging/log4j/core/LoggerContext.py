@@ -1,113 +1,136 @@
 PROPERTY_CONFIG = "String  \"config\""
-def LoggerContext():
-    '''public LoggerContext(final String name)
-    public LoggerContext(final String name, final Object externalContext)
-    public LoggerContext(final String name, final Object externalContext, final URI configLocn)
-    public LoggerContext(final String name, final Object externalContext, final String configLocn)
+def ():
+    '''returns LoggerContext\n\n
+    (final String name)\n
+    (final String name, final Object externalContext)\n
+    (final String name, final Object externalContext, final URI configLocn)\n
+    (final String name, final Object externalContext, final String configLocn)\n
     '''
 def addShutdownListener():
-    '''public void addShutdownListener(final LoggerContextShutdownAware listener)
+    '''returns None\n\n
+    addShutdownListener(final LoggerContextShutdownAware listener)\n
     '''
 def getListeners():
-    '''public List<LoggerContextShutdownAware> getListeners()
-    '''
-def getContext():
-    '''public static LoggerContext getContext()
-    public static LoggerContext getContext(final boolean currentContext)
-    public static LoggerContext getContext(final ClassLoader loader, final boolean currentContext, final URI configLocation)
+    '''returns List<LoggerContextShutdownAware>\n\n
+    getListeners()\n
     '''
 def start():
-    '''public void start()
-    public void start(final Configuration config)
+    '''returns None\n\n
+    start()\n
+    start(final Configuration config)\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def terminate():
-    '''public void terminate()
+    '''returns None\n\n
+    terminate()\n
     '''
 def stop():
-    '''public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''returns boolean\n\n
+    stop(final long timeout, final TimeUnit timeUnit)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getRootLogger():
-    '''public Logger getRootLogger()
+    '''returns Logger\n\n
+    getRootLogger()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getObject():
-    '''public Object getObject(final String key)
+    '''returns Object\n\n
+    getObject(final String key)\n
     '''
 def putObject():
-    '''public Object putObject(final String key, final Object value)
+    '''returns Object\n\n
+    putObject(final String key, final Object value)\n
     '''
 def putObjectIfAbsent():
-    '''public Object putObjectIfAbsent(final String key, final Object value)
+    '''returns Object\n\n
+    putObjectIfAbsent(final String key, final Object value)\n
     '''
 def removeObject():
-    '''public Object removeObject(final String key)
-    public boolean removeObject(final String key, final Object value)
+    '''returns boolean\n\n
+    removeObject(final String key)\n
+    removeObject(final String key, final Object value)\n
     '''
 def setExternalContext():
-    '''public void setExternalContext(final Object context)
+    '''returns None\n\n
+    setExternalContext(final Object context)\n
     '''
 def getExternalContext():
-    '''public Object getExternalContext()
+    '''returns Object\n\n
+    getExternalContext()\n
     '''
 def getLogger():
-    '''public Logger getLogger(final String name)
-    public Logger getLogger(final String name, final MessageFactory messageFactory)
+    '''returns Logger\n\n
+    getLogger(final String name)\n
+    getLogger(final String name, final MessageFactory messageFactory)\n
     '''
 def getLoggers():
-    '''public Collection<Logger> getLoggers()
+    '''returns Collection<Logger>\n\n
+    getLoggers()\n
     '''
 def hasLogger():
-    '''public boolean hasLogger(final String name)
-    public boolean hasLogger(final String name, final MessageFactory messageFactory)
-    public boolean hasLogger(final String name, final Class<? extends MessageFactory> messageFactoryClass)
+    '''returns boolean\n\n
+    hasLogger(final String name)\n
+    hasLogger(final String name, final MessageFactory messageFactory)\n
+    hasLogger(final String name, final Class<? extends MessageFactory> messageFactoryClass)\n
     '''
 def getConfiguration():
-    '''public Configuration getConfiguration()
+    '''returns Configuration\n\n
+    getConfiguration()\n
     '''
 def addFilter():
-    '''public void addFilter(final Filter filter)
+    '''returns None\n\n
+    addFilter(final Filter filter)\n
     '''
 def removeFilter():
-    '''public void removeFilter(final Filter filter)
+    '''returns None\n\n
+    removeFilter(final Filter filter)\n
     '''
 def setConfiguration():
-    '''public Configuration setConfiguration(final Configuration config)
+    '''returns Configuration\n\n
+    setConfiguration(final Configuration config)\n
     '''
 def addPropertyChangeListener():
-    '''public void addPropertyChangeListener(final PropertyChangeListener listener)
+    '''returns None\n\n
+    addPropertyChangeListener(final PropertyChangeListener listener)\n
     '''
 def removePropertyChangeListener():
-    '''public void removePropertyChangeListener(final PropertyChangeListener listener)
+    '''returns None\n\n
+    removePropertyChangeListener(final PropertyChangeListener listener)\n
     '''
 def getConfigLocation():
-    '''public URI getConfigLocation()
+    '''returns URI\n\n
+    getConfigLocation()\n
     '''
 def setConfigLocation():
-    '''public void setConfigLocation(final URI configLocation)
+    '''returns None\n\n
+    setConfigLocation(final URI configLocation)\n
     '''
 def reconfigure():
-    '''public void reconfigure()
-    public void reconfigure(final Configuration configuration)
+    '''returns None\n\n
+    reconfigure()\n
+    reconfigure(final Configuration configuration)\n
     '''
 def updateLoggers():
-    '''public void updateLoggers()
-    public void updateLoggers(final Configuration config)
-    '''
-def onChange():
-    '''public synchronized void onChange(final Reconfigurable reconfigurable)
+    '''returns None\n\n
+    updateLoggers()\n
+    updateLoggers(final Configuration config)\n
     '''

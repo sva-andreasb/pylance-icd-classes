@@ -1,24 +1,31 @@
-def BaseKeyedObjectPool():
-    '''public BaseKeyedObjectPool()
+def ():
+    '''returns BaseKeyedObjectPool\n\n
+    ()\n
     '''
 def addObject():
-    '''public void addObject(final Object key)
+    '''returns None\n\n
+    addObject(final Object key)\n
     '''
 def getNumIdle():
-    '''public int getNumIdle(final Object key)
-    public int getNumIdle()
+    '''returns int\n\n
+    getNumIdle(final Object key)\n
+    getNumIdle()\n
     '''
 def getNumActive():
-    '''public int getNumActive(final Object key)
-    public int getNumActive()
+    '''returns int\n\n
+    getNumActive(final Object key)\n
+    getNumActive()\n
     '''
 def clear():
-    '''public void clear()
-    public void clear(final Object key)
+    '''returns None\n\n
+    clear()\n
+    clear(final Object key)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def setFactory():
-    '''public void setFactory(final KeyedPoolableObjectFactory factory)
+    '''returns None\n\n
+    setFactory(final KeyedPoolableObjectFactory factory)\n
     '''

@@ -1,10 +1,13 @@
-def PathFileComparator():
-    '''public PathFileComparator()
-    public PathFileComparator(final IOCase caseSensitivity)
+def ():
+    '''returns PathFileComparator\n\n
+    ()\n
+    (final IOCase caseSensitivity)\n
     '''
 def compare():
-    '''public int compare(final File file1, final File file2)
+    '''returns int\n\n
+    compare(final File file1, final File file2)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

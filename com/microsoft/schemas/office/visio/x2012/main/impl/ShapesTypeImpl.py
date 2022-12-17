@@ -1,26 +1,34 @@
-def ShapesTypeImpl():
-    '''public ShapesTypeImpl(final SchemaType schemaType)
+def ():
+    '''returns ShapesTypeImpl\n\n
+    (final SchemaType schemaType)\n
     '''
 def getShapeList():
-    '''public List<ShapeSheetType> getShapeList()
+    '''returns List<ShapeSheetType>\n\n
+    getShapeList()\n
     '''
 def getShapeArray():
-    '''public ShapeSheetType[] getShapeArray()
-    public ShapeSheetType getShapeArray(final int n)
+    '''returns ShapeSheetType\n\n
+    getShapeArray()\n
+    getShapeArray(final int n)\n
     '''
 def sizeOfShapeArray():
-    '''public int sizeOfShapeArray()
+    '''returns int\n\n
+    sizeOfShapeArray()\n
     '''
 def setShapeArray():
-    '''public void setShapeArray(final ShapeSheetType[] array)
-    public void setShapeArray(final int n, final ShapeSheetType shapeSheetType)
+    '''returns None\n\n
+    setShapeArray(final ShapeSheetType[] array)\n
+    setShapeArray(final int n, final ShapeSheetType shapeSheetType)\n
     '''
 def insertNewShape():
-    '''public ShapeSheetType insertNewShape(final int n)
+    '''returns ShapeSheetType\n\n
+    insertNewShape(final int n)\n
     '''
 def addNewShape():
-    '''public ShapeSheetType addNewShape()
+    '''returns ShapeSheetType\n\n
+    addNewShape()\n
     '''
 def removeShape():
-    '''public void removeShape(final int n)
+    '''returns None\n\n
+    removeShape(final int n)\n
     '''

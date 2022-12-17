@@ -1,4 +1,5 @@
-def PdfXConformanceException():
-    '''public PdfXConformanceException()
-    public PdfXConformanceException(final String s)
+def ():
+    '''returns PdfXConformanceException\n\n
+    ()\n
+    (final String s)\n
     '''

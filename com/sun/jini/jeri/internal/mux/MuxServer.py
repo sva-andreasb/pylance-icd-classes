@@ -1,14 +1,18 @@
-def MuxServer():
-    '''public MuxServer(final OutputStream outputStream, final InputStream inputStream, final RequestDispatcher requestDispatcher)
-    public MuxServer(final SocketChannel socketChannel, final RequestDispatcher requestDispatcher)
+def ():
+    '''returns MuxServer\n\n
+    (final OutputStream outputStream, final InputStream inputStream, final RequestDispatcher requestDispatcher)\n
+    (final SocketChannel socketChannel, final RequestDispatcher requestDispatcher)\n
     '''
 def shutdown():
-    '''public void shutdown(final String s)
+    '''returns None\n\n
+    shutdown(final String s)\n
     '''
 def shutdownGracefully():
-    '''public boolean shutdownGracefully()
+    '''returns boolean\n\n
+    shutdownGracefully()\n
     '''
 def run():
-    '''public void run()
-    public Object run()
+    '''returns Object\n\n
+    run()\n
+    run()\n
     '''

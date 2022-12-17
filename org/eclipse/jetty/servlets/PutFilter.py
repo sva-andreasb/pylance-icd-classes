@@ -2,30 +2,39 @@ __PUT = "String  \"PUT\""
 __DELETE = "String  \"DELETE\""
 __MOVE = "String  \"MOVE\""
 __OPTIONS = "String  \"OPTIONS\""
-def PutFilter():
-    '''public PutFilter()
+def ():
+    '''returns PutFilter\n\n
+    ()\n
     '''
 def init():
-    '''public void init(final FilterConfig config)
+    '''returns None\n\n
+    init(final FilterConfig config)\n
     '''
 def doFilter():
-    '''public void doFilter(final ServletRequest req, final ServletResponse res, final FilterChain chain)
+    '''returns None\n\n
+    doFilter(final ServletRequest req, final ServletResponse res, final FilterChain chain)\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def handlePut():
-    '''public void handlePut(final HttpServletRequest request, final HttpServletResponse response, final String pathInContext, final File file)
+    '''returns None\n\n
+    handlePut(final HttpServletRequest request, final HttpServletResponse response, final String pathInContext, final File file)\n
     '''
 def handleDelete():
-    '''public void handleDelete(final HttpServletRequest request, final HttpServletResponse response, final String pathInContext, final File file)
+    '''returns None\n\n
+    handleDelete(final HttpServletRequest request, final HttpServletResponse response, final String pathInContext, final File file)\n
     '''
 def handleMove():
-    '''public void handleMove(final HttpServletRequest request, final HttpServletResponse response, final String pathInContext, final File file)
+    '''returns None\n\n
+    handleMove(final HttpServletRequest request, final HttpServletResponse response, final String pathInContext, final File file)\n
     '''
 def handleOptions():
-    '''public void handleOptions(final FilterChain chain, final HttpServletRequest request, final HttpServletResponse response)
+    '''returns None\n\n
+    handleOptions(final FilterChain chain, final HttpServletRequest request, final HttpServletResponse response)\n
     '''
 def setHeader():
-    '''public void setHeader(final String name, String value)
+    '''returns None\n\n
+    setHeader(final String name, String value)\n
     '''

@@ -1,4 +1,5 @@
-def NNTPConnectionClosedException():
-    '''public NNTPConnectionClosedException()
-    public NNTPConnectionClosedException(final String message)
+def ():
+    '''returns NNTPConnectionClosedException\n\n
+    ()\n
+    (final String message)\n
     '''

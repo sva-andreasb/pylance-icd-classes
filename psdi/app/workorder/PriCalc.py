@@ -1,9 +1,12 @@
-def PriCalc():
-    '''public PriCalc(final MboSet ms)
+def ():
+    '''returns PriCalc\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setWoPriorityCalFormula():
-    '''public void setWoPriorityCalFormula(final String formula)
+    '''returns None\n\n
+    setWoPriorityCalFormula(final String formula)\n
     '''

@@ -1,26 +1,34 @@
-def IlvDiagrammerMenu():
-    '''public IlvDiagrammerMenu(ResourceBundle bundle, final String s, final Action[] actions)
-    public IlvDiagrammerMenu(final String s, final Action[] array)
-    public IlvDiagrammerMenu(final String s)
+def ():
+    '''returns IlvDiagrammerMenu\n\n
+    (ResourceBundle bundle, final String s, final Action[] actions)\n
+    (final String s, final Action[] array)\n
+    (final String s)\n
     '''
 def setActions():
-    '''public void setActions(final Action[] a)
+    '''returns None\n\n
+    setActions(final Action[] a)\n
     '''
 def getActions():
-    '''public Action[] getActions()
+    '''returns Action[]\n\n
+    getActions()\n
     '''
 def addAction():
-    '''public AbstractButton addAction(final Action action)
+    '''returns AbstractButton\n\n
+    addAction(final Action action)\n
     '''
 def insertAction():
-    '''public AbstractButton insertAction(final Action action, final int n)
+    '''returns AbstractButton\n\n
+    insertAction(final Action action, final int n)\n
     '''
 def addActions():
-    '''public void addActions(final Action[] array)
+    '''returns None\n\n
+    addActions(final Action[] array)\n
     '''
 def indexOf():
-    '''public int indexOf(final Action action)
+    '''returns int\n\n
+    indexOf(final Action action)\n
     '''
 def removeAction():
-    '''public void removeAction(final Action action)
+    '''returns None\n\n
+    removeAction(final Action action)\n
     '''

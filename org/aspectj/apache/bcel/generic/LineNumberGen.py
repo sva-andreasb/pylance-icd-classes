@@ -1,27 +1,36 @@
-def LineNumberGen():
-    '''public LineNumberGen(final InstructionHandle ih, final int src_line)
+def ():
+    '''returns LineNumberGen\n\n
+    (final InstructionHandle ih, final int src_line)\n
     '''
 def containsTarget():
-    '''public boolean containsTarget(final InstructionHandle ih)
+    '''returns boolean\n\n
+    containsTarget(final InstructionHandle ih)\n
     '''
 def updateTarget():
-    '''public void updateTarget(final InstructionHandle old_ih, final InstructionHandle new_ih)
+    '''returns None\n\n
+    updateTarget(final InstructionHandle old_ih, final InstructionHandle new_ih)\n
     '''
 def getLineNumber():
-    '''public LineNumber getLineNumber()
+    '''returns LineNumber\n\n
+    getLineNumber()\n
     '''
 def setInstruction():
-    '''public void setInstruction(final InstructionHandle ih)
+    '''returns None\n\n
+    setInstruction(final InstructionHandle ih)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getInstruction():
-    '''public InstructionHandle getInstruction()
+    '''returns InstructionHandle\n\n
+    getInstruction()\n
     '''
 def setSourceLine():
-    '''public void setSourceLine(final int src_line)
+    '''returns None\n\n
+    setSourceLine(final int src_line)\n
     '''
 def getSourceLine():
-    '''public int getSourceLine()
+    '''returns int\n\n
+    getSourceLine()\n
     '''

@@ -1,6 +1,8 @@
-def WFCtrlSet():
-    '''public WFCtrlSet(final MboServerInterface ms)
+def ():
+    '''returns WFCtrlSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getMboInstance():
-    '''public Mbo getMboInstance(final MboSet ms)
+    '''returns Mbo\n\n
+    getMboInstance(final MboSet ms)\n
     '''

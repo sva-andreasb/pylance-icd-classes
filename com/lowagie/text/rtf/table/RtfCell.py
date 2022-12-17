@@ -1,24 +1,31 @@
-def RtfCell():
-    '''public RtfCell()
-    public RtfCell(final String content)
-    public RtfCell(final Element element)
-    public RtfCell(final Properties properties)
+def ():
+    '''returns RtfCell\n\n
+    ()\n
+    (final String content)\n
+    (final Element element)\n
+    (final Properties properties)\n
     '''
 def writeDefinition():
-    '''public byte[] writeDefinition()
+    '''returns byte[]\n\n
+    writeDefinition()\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''
 def setBorders():
-    '''public void setBorders(final RtfBorderGroup borderGroup)
+    '''returns None\n\n
+    setBorders(final RtfBorderGroup borderGroup)\n
     '''
 def setRtfDocument():
-    '''public void setRtfDocument(final RtfDocument doc)
+    '''returns None\n\n
+    setRtfDocument(final RtfDocument doc)\n
     '''
 def setInTable():
-    '''public void setInTable(final boolean inTable)
+    '''returns None\n\n
+    setInTable(final boolean inTable)\n
     '''
 def setInHeader():
-    '''public void setInHeader(final boolean inHeader)
+    '''returns None\n\n
+    setInHeader(final boolean inHeader)\n
     '''

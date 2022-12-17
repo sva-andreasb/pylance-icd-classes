@@ -1,15 +1,20 @@
-def FldMatServQuantity():
-    '''public FldMatServQuantity(final MboValue mbv)
+def ():
+    '''returns FldMatServQuantity\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def isTransferIn():
-    '''public boolean isTransferIn()
+    '''returns boolean\n\n
+    isTransferIn()\n
     '''
 def isTransferOut():
-    '''public boolean isTransferOut()
+    '''returns boolean\n\n
+    isTransferOut()\n
     '''

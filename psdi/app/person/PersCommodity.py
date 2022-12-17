@@ -1,9 +1,12 @@
-def PersCommodity():
-    '''public PersCommodity(final MboSet ms)
+def ():
+    '''returns PersCommodity\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''

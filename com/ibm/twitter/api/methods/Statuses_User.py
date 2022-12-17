@@ -1,6 +1,8 @@
-def Statuses_User():
-    '''public Statuses_User(final String str)
+def ():
+    '''returns Statuses_User\n\n
+    (final String str)\n
     '''
 def getResult():
-    '''public List<Status> getResult()
+    '''returns List<Status>\n\n
+    getResult()\n
     '''

@@ -1,10 +1,13 @@
-def ValiditySet():
-    '''public ValiditySet(final Set<String> plainData, final boolean makeMap)
+def ():
+    '''returns ValiditySet\n\n
+    (final Set<String> plainData, final boolean makeMap)\n
     '''
 def contains():
-    '''public boolean contains(final String code)
-    public boolean contains(final String key, final String value)
+    '''returns boolean\n\n
+    contains(final String code)\n
+    contains(final String key, final String value)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

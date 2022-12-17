@@ -1,3 +1,4 @@
-def MaxUsrDBAuthInfoSet():
-    '''public MaxUsrDBAuthInfoSet(final MboServerInterface ms)
+def ():
+    '''returns MaxUsrDBAuthInfoSet\n\n
+    (final MboServerInterface ms)\n
     '''

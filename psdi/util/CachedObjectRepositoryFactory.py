@@ -1,15 +1,16 @@
-def CachedObjectRepositoryFactory():
-    '''public CachedObjectRepositoryFactory()
-    '''
-def getInstance():
-    '''public static CachedObjectRepositoryFactory getInstance()
+def ():
+    '''returns CachedObjectRepositoryFactory\n\n
+    ()\n
     '''
 def createRepository():
-    '''public CachedObjectRepository createRepository(final String name)
+    '''returns CachedObjectRepository\n\n
+    createRepository(final String name)\n
     '''
 def createMasterRepository():
-    '''public CachedObjectRepository createMasterRepository(final String name)
+    '''returns CachedObjectRepository\n\n
+    createMasterRepository(final String name)\n
     '''
 def getRepository():
-    '''public CachedObjectRepository getRepository(final String name)
+    '''returns CachedObjectRepository\n\n
+    getRepository(final String name)\n
     '''

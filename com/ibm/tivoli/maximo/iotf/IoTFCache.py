@@ -1,21 +1,16 @@
-def getInstance():
-    '''public static final IoTFCache getInstance()
-    '''
 def getIoTFInfo():
-    '''public IoTFInfo getIoTFInfo(final String org)
-    '''
-def getIoTFs():
-    '''public Map<String, IoTFInfo> getIoTFs()
+    '''returns IoTFInfo\n\n
+    getIoTFInfo(final String org)\n
     '''
 def getIoTFHistorianInfo():
-    '''public IoTFHistorianInfo getIoTFHistorianInfo(final String hist)
-    '''
-def getAllHistorians():
-    '''public Map<String, IoTFHistorianInfo> getAllHistorians()
+    '''returns IoTFHistorianInfo\n\n
+    getIoTFHistorianInfo(final String hist)\n
     '''
 def getDefaultHistorian():
-    '''public String getDefaultHistorian()
+    '''returns String\n\n
+    getDefaultHistorian()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

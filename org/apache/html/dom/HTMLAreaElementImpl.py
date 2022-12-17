@@ -1,51 +1,68 @@
 def getAccessKey():
-    '''public String getAccessKey()
+    '''returns String\n\n
+    getAccessKey()\n
     '''
 def setAccessKey():
-    '''public void setAccessKey(String substring)
+    '''returns None\n\n
+    setAccessKey(String substring)\n
     '''
 def getAlt():
-    '''public String getAlt()
+    '''returns String\n\n
+    getAlt()\n
     '''
 def setAlt():
-    '''public void setAlt(final String s)
+    '''returns None\n\n
+    setAlt(final String s)\n
     '''
 def getCoords():
-    '''public String getCoords()
+    '''returns String\n\n
+    getCoords()\n
     '''
 def setCoords():
-    '''public void setCoords(final String s)
+    '''returns None\n\n
+    setCoords(final String s)\n
     '''
 def getHref():
-    '''public String getHref()
+    '''returns String\n\n
+    getHref()\n
     '''
 def setHref():
-    '''public void setHref(final String s)
+    '''returns None\n\n
+    setHref(final String s)\n
     '''
 def getNoHref():
-    '''public boolean getNoHref()
+    '''returns boolean\n\n
+    getNoHref()\n
     '''
 def setNoHref():
-    '''public void setNoHref(final boolean b)
+    '''returns None\n\n
+    setNoHref(final boolean b)\n
     '''
 def getShape():
-    '''public String getShape()
+    '''returns String\n\n
+    getShape()\n
     '''
 def setShape():
-    '''public void setShape(final String s)
+    '''returns None\n\n
+    setShape(final String s)\n
     '''
 def getTabIndex():
-    '''public int getTabIndex()
+    '''returns int\n\n
+    getTabIndex()\n
     '''
 def setTabIndex():
-    '''public void setTabIndex(final int i)
+    '''returns None\n\n
+    setTabIndex(final int i)\n
     '''
 def getTarget():
-    '''public String getTarget()
+    '''returns String\n\n
+    getTarget()\n
     '''
 def setTarget():
-    '''public void setTarget(final String s)
+    '''returns None\n\n
+    setTarget(final String s)\n
     '''
-def HTMLAreaElementImpl():
-    '''public HTMLAreaElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+def ():
+    '''returns HTMLAreaElementImpl\n\n
+    (final HTMLDocumentImpl htmlDocumentImpl, final String s)\n
     '''

@@ -1,6 +1,8 @@
 def acceptInboundMessage():
-    '''public boolean acceptInboundMessage(final Object msg)
+    '''returns boolean\n\n
+    acceptInboundMessage(final Object msg)\n
     '''
 def channelRead():
-    '''public void channelRead(final ChannelHandlerContext ctx, final Object msg)
+    '''returns None\n\n
+    channelRead(final ChannelHandlerContext ctx, final Object msg)\n
     '''

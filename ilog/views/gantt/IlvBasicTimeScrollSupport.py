@@ -1,40 +1,53 @@
-def IlvBasicTimeScrollSupport():
-    '''public IlvBasicTimeScrollSupport()
-    public IlvBasicTimeScrollSupport(final IlvBasicTimeScrollSupport ilvBasicTimeScrollSupport)
+def ():
+    '''returns IlvBasicTimeScrollSupport\n\n
+    ()\n
+    (final IlvBasicTimeScrollSupport ilvBasicTimeScrollSupport)\n
     '''
 def getMinVisibleTime():
-    '''public Date getMinVisibleTime()
+    '''returns Date\n\n
+    getMinVisibleTime()\n
     '''
 def setMinVisibleTime():
-    '''public void setMinVisibleTime(final Date date)
+    '''returns None\n\n
+    setMinVisibleTime(final Date date)\n
     '''
 def getMaxVisibleTime():
-    '''public Date getMaxVisibleTime()
+    '''returns Date\n\n
+    getMaxVisibleTime()\n
     '''
 def setMaxVisibleTime():
-    '''public void setMaxVisibleTime(final Date date)
+    '''returns None\n\n
+    setMaxVisibleTime(final Date date)\n
     '''
 def getMinVisibleDuration():
-    '''public IlvDuration getMinVisibleDuration()
+    '''returns IlvDuration\n\n
+    getMinVisibleDuration()\n
     '''
 def setMinVisibleDuration():
-    '''public void setMinVisibleDuration(final IlvDuration ilvDuration)
+    '''returns None\n\n
+    setMinVisibleDuration(final IlvDuration ilvDuration)\n
     '''
 def getVisibleTime():
-    '''public Date getVisibleTime()
+    '''returns Date\n\n
+    getVisibleTime()\n
     '''
 def setVisibleTime():
-    '''public void setVisibleTime(final Date date)
+    '''returns None\n\n
+    setVisibleTime(final Date date)\n
     '''
 def getVisibleDuration():
-    '''public IlvDuration getVisibleDuration()
+    '''returns IlvDuration\n\n
+    getVisibleDuration()\n
     '''
 def setVisibleDuration():
-    '''public void setVisibleDuration(final IlvDuration ilvDuration)
+    '''returns None\n\n
+    setVisibleDuration(final IlvDuration ilvDuration)\n
     '''
 def getVisibleInterval():
-    '''public IlvTimeInterval getVisibleInterval()
+    '''returns IlvTimeInterval\n\n
+    getVisibleInterval()\n
     '''
 def setVisibleInterval():
-    '''public void setVisibleInterval(final Date date, final IlvDuration ilvDuration)
+    '''returns None\n\n
+    setVisibleInterval(final Date date, final IlvDuration ilvDuration)\n
     '''

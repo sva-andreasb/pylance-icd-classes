@@ -1,13 +1,17 @@
-def IteratorEnumeration():
-    '''public IteratorEnumeration()
-    public IteratorEnumeration(final Iterator<? extends E> iterator)
+def ():
+    '''returns IteratorEnumeration\n\n
+    ()\n
+    (final Iterator<? extends E> iterator)\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public E nextElement()
+    '''returns E\n\n
+    nextElement()\n
     '''
 def setIterator():
-    '''public void setIterator(final Iterator<? extends E> iterator)
+    '''returns None\n\n
+    setIterator(final Iterator<? extends E> iterator)\n
     '''

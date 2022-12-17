@@ -1,140 +1,111 @@
-def CronTaskManager():
-    '''public CronTaskManager()
-    public CronTaskManager(final MXServer mxServer)
+def ():
+    '''returns CronIncrementThread\n\n
+    ()\n
+    (final MXServer mxServer)\n
+    (final CronTaskManager cm)\n
+    ()\n
     '''
 def configFromProperties():
-    '''public void configFromProperties()
-    '''
-def configure():
-    '''public synchronized void configure(final Properties configData)
-    '''
-def config():
-    '''public synchronized void config(final Properties configData)
+    '''returns None\n\n
+    configFromProperties()\n
     '''
 def suspendCrontasks():
-    '''public void suspendCrontasks()
-    '''
-def resumeCrontasks():
-    '''public synchronized void resumeCrontasks()
+    '''returns None\n\n
+    suspendCrontasks()\n
     '''
 def isReadyForAdminMode():
-    '''public boolean isReadyForAdminMode()
+    '''returns boolean\n\n
+    isReadyForAdminMode()\n
     '''
 def activeCronThreads():
-    '''public Enumeration activeCronThreads()
+    '''returns Enumeration\n\n
+    activeCronThreads()\n
     '''
 def loadCrontask():
-    '''public void loadCrontask(final String taskName, final String instanceName, final String className)
-    '''
-def initialzeCronTaskInfo():
-    '''public synchronized boolean initialzeCronTaskInfo(final String taskName, final String instanceName)
-    '''
-def insertFirstRowIntoTask():
-    '''public synchronized void insertFirstRowIntoTask(final String task)
-    '''
-def updateLastEnd():
-    '''public synchronized int updateLastEnd(final CronTask cron, final String taskName, final String instanceName)
-    '''
-def updateTaskInfoByAnotherServer():
-    '''public synchronized int updateTaskInfoByAnotherServer(final CronTask cron, final String taskName, final String instanceName)
-    '''
-def getLastTaskInfo():
-    '''public synchronized Date[] getLastTaskInfo(final CronTask cron, final String taskName, final String instanceName)
-    '''
-def getLastRunTime():
-    '''public synchronized Date getLastRunTime(final CronTask cron, final String taskName, final String instanceName)
-    '''
-def init():
-    '''public synchronized void init()
-    '''
-def destroy():
-    '''public synchronized void destroy()
-    '''
-def shutdown():
-    '''public synchronized void shutdown()
-    '''
-def isShutdown():
-    '''public synchronized boolean isShutdown()
-    '''
-def add():
-    '''public synchronized void add(final CronTask newTask, final String taskName, final String instanceName)
-    '''
-def remove():
-    '''public synchronized void remove(final CronTask task, final String taskName, final String instanceName)
-    '''
-def get():
-    '''public synchronized CronTask get(final String name, final String instanceName)
-    '''
-def isSleeping():
-    '''public synchronized boolean isSleeping(final String taskName, final String instanceName)
+    '''returns None\n\n
+    loadCrontask(final String taskName, final String instanceName, final String className)\n
     '''
 def restart():
-    '''public void restart()
+    '''returns None\n\n
+    restart()\n
     '''
 def handleAutoRemoval():
-    '''public void handleAutoRemoval(final CronTask cronTask)
+    '''returns None\n\n
+    handleAutoRemoval(final CronTask cronTask)\n
     '''
 def getInstanceMbo():
-    '''public CrontaskInstanceRemote getInstanceMbo(final String taskName, final String instanceName)
+    '''returns CrontaskInstanceRemote\n\n
+    getInstanceMbo(final String taskName, final String instanceName)\n
     '''
 def deactivate():
-    '''public void deactivate(final String taskName, final String instName)
-    public void deactivate(final String key)
+    '''returns None\n\n
+    deactivate(final String taskName, final String instName)\n
+    deactivate(final String key)\n
     '''
 def activate():
-    '''public void activate(final CrontaskInstanceRemote inst)
+    '''returns None\n\n
+    activate(final CrontaskInstanceRemote inst)\n
     '''
 def runTenantsChanged():
-    '''public void runTenantsChanged()
+    '''returns None\n\n
+    runTenantsChanged()\n
     '''
 def logSql():
-    '''public void logSql(final String sql, final Connection con)
+    '''returns None\n\n
+    logSql(final String sql, final Connection con)\n
     '''
 def setLastKPICronTaskRun():
-    '''public void setLastKPICronTaskRun()
+    '''returns None\n\n
+    setLastKPICronTaskRun()\n
     '''
 def getLastKPICronTaskRun():
-    '''public Date getLastKPICronTaskRun()
+    '''returns Date\n\n
+    getLastKPICronTaskRun()\n
     '''
 def eventValidate():
-    '''public boolean eventValidate(final EventMessage em)
+    '''returns boolean\n\n
+    eventValidate(final EventMessage em)\n
     '''
 def preSaveEventAction():
-    '''public void preSaveEventAction(final EventMessage em)
+    '''returns None\n\n
+    preSaveEventAction(final EventMessage em)\n
     '''
 def eventAction():
-    '''public void eventAction(final EventMessage em)
+    '''returns None\n\n
+    eventAction(final EventMessage em)\n
     '''
 def postCommitEventAction():
-    '''public void postCommitEventAction(final EventMessage em)
+    '''returns None\n\n
+    postCommitEventAction(final EventMessage em)\n
     '''
 def markShutdown():
-    '''public void markShutdown()
+    '''returns None\n\n
+    markShutdown()\n
     '''
 def isMarkedForShutDown():
-    '''public boolean isMarkedForShutDown()
+    '''returns boolean\n\n
+    isMarkedForShutDown()\n
     '''
 def startTask():
-    '''public void startTask()
+    '''returns None\n\n
+    startTask()\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
-    public void run()
-    '''
-def MonitorThread():
-    '''public MonitorThread(final CronTaskManager cm)
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def removeDeadSessions():
-    '''public void removeDeadSessions()
+    '''returns None\n\n
+    removeDeadSessions()\n
     '''
 def removeDeadTenantSessions():
-    '''public void removeDeadTenantSessions()
+    '''returns None\n\n
+    removeDeadTenantSessions()\n
     '''
 def printTaskSchedulerInfo():
-    '''public void printTaskSchedulerInfo()
-    '''
-def CronIncrementThread():
-    '''public CronIncrementThread()
+    '''returns None\n\n
+    printTaskSchedulerInfo()\n
     '''

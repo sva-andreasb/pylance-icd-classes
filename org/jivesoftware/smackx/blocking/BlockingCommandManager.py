@@ -1,47 +1,58 @@
 NAMESPACE = "String  \"urn:xmpp:blocking\""
-def getInstanceFor():
-    '''public static synchronized BlockingCommandManager getInstanceFor(final XMPPConnection connection)
-    '''
 def handleIQRequest():
-    '''public IQ handleIQRequest(final IQ iqRequest)
-    public IQ handleIQRequest(final IQ iqRequest)
+    '''returns IQ\n\n
+    handleIQRequest(final IQ iqRequest)\n
+    handleIQRequest(final IQ iqRequest)\n
     '''
 def authenticated():
-    '''public void authenticated(final XMPPConnection connection, final boolean resumed)
+    '''returns None\n\n
+    authenticated(final XMPPConnection connection, final boolean resumed)\n
     '''
 def isSupportedByServer():
-    '''public boolean isSupportedByServer()
+    '''returns boolean\n\n
+    isSupportedByServer()\n
     '''
 def getBlockList():
-    '''public List<Jid> getBlockList()
+    '''returns List<Jid>\n\n
+    getBlockList()\n
     '''
 def blockContacts():
-    '''public void blockContacts(final List<Jid> jids)
+    '''returns None\n\n
+    blockContacts(final List<Jid> jids)\n
     '''
 def unblockContacts():
-    '''public void unblockContacts(final List<Jid> jids)
+    '''returns None\n\n
+    unblockContacts(final List<Jid> jids)\n
     '''
 def unblockAll():
-    '''public void unblockAll()
+    '''returns None\n\n
+    unblockAll()\n
     '''
 def addJidsBlockedListener():
-    '''public void addJidsBlockedListener(final JidsBlockedListener jidsBlockedListener)
+    '''returns None\n\n
+    addJidsBlockedListener(final JidsBlockedListener jidsBlockedListener)\n
     '''
 def removeJidsBlockedListener():
-    '''public void removeJidsBlockedListener(final JidsBlockedListener jidsBlockedListener)
+    '''returns None\n\n
+    removeJidsBlockedListener(final JidsBlockedListener jidsBlockedListener)\n
     '''
 def addJidsUnblockedListener():
-    '''public void addJidsUnblockedListener(final JidsUnblockedListener jidsUnblockedListener)
+    '''returns None\n\n
+    addJidsUnblockedListener(final JidsUnblockedListener jidsUnblockedListener)\n
     '''
 def removeJidsUnblockedListener():
-    '''public void removeJidsUnblockedListener(final JidsUnblockedListener jidsUnblockedListener)
+    '''returns None\n\n
+    removeJidsUnblockedListener(final JidsUnblockedListener jidsUnblockedListener)\n
     '''
 def addAllJidsUnblockedListener():
-    '''public void addAllJidsUnblockedListener(final AllJidsUnblockedListener allJidsUnblockedListener)
+    '''returns None\n\n
+    addAllJidsUnblockedListener(final AllJidsUnblockedListener allJidsUnblockedListener)\n
     '''
 def removeAllJidsUnblockedListener():
-    '''public void removeAllJidsUnblockedListener(final AllJidsUnblockedListener allJidsUnblockedListener)
+    '''returns None\n\n
+    removeAllJidsUnblockedListener(final AllJidsUnblockedListener allJidsUnblockedListener)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

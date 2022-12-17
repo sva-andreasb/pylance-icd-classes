@@ -1,3 +1,4 @@
-def ThreadLoggerList():
-    '''public ThreadLoggerList(final MboSet ms)
+def ():
+    '''returns ThreadLoggerList\n\n
+    (final MboSet ms)\n
     '''

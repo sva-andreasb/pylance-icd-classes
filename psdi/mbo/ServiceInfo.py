@@ -1,18 +1,24 @@
-def ServiceInfo():
-    '''public ServiceInfo(final String name, final String className, final boolean singleton)
+def ():
+    '''returns ServiceInfo\n\n
+    (final String name, final String className, final boolean singleton)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def singleton():
-    '''public boolean singleton()
+    '''returns boolean\n\n
+    singleton()\n
     '''
 def getServiceClass():
-    '''public Class getServiceClass()
+    '''returns Class\n\n
+    getServiceClass()\n
     '''
 def getServiceLogger():
-    '''public MXLogger getServiceLogger()
+    '''returns MXLogger\n\n
+    getServiceLogger()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

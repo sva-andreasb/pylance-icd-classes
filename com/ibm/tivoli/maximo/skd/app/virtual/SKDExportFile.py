@@ -1,3 +1,4 @@
-def SKDExportFile():
-    '''public SKDExportFile(final MboSet ms)
+def ():
+    '''returns SKDExportFile\n\n
+    (final MboSet ms)\n
     '''

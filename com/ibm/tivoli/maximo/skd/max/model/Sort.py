@@ -1,24 +1,32 @@
-def Sort():
-    '''public Sort(final String col, final SortOrder order)
+def ():
+    '''returns Sort\n\n
+    (final String col, final SortOrder order)\n
     '''
 def getColumn():
-    '''public String getColumn()
+    '''returns String\n\n
+    getColumn()\n
     '''
 def setColumn():
-    '''public void setColumn(final String col)
+    '''returns None\n\n
+    setColumn(final String col)\n
     '''
 def getOrder():
-    '''public SortOrder getOrder()
+    '''returns SortOrder\n\n
+    getOrder()\n
     '''
 def setOrder():
-    '''public void setOrder(final SortOrder order)
+    '''returns None\n\n
+    setOrder(final SortOrder order)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

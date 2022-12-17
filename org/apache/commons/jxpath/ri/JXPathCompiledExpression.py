@@ -1,34 +1,45 @@
-def JXPathCompiledExpression():
-    '''public JXPathCompiledExpression(final String xpath, final Expression expression)
+def ():
+    '''returns JXPathCompiledExpression\n\n
+    (final String xpath, final Expression expression)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getValue():
-    '''public Object getValue(final JXPathContext context)
-    public Object getValue(final JXPathContext context, final Class requiredType)
+    '''returns Object\n\n
+    getValue(final JXPathContext context)\n
+    getValue(final JXPathContext context, final Class requiredType)\n
     '''
 def setValue():
-    '''public void setValue(final JXPathContext context, final Object value)
+    '''returns None\n\n
+    setValue(final JXPathContext context, final Object value)\n
     '''
 def createPath():
-    '''public Pointer createPath(final JXPathContext context)
+    '''returns Pointer\n\n
+    createPath(final JXPathContext context)\n
     '''
 def createPathAndSetValue():
-    '''public Pointer createPathAndSetValue(final JXPathContext context, final Object value)
+    '''returns Pointer\n\n
+    createPathAndSetValue(final JXPathContext context, final Object value)\n
     '''
 def iterate():
-    '''public Iterator iterate(final JXPathContext context)
+    '''returns Iterator\n\n
+    iterate(final JXPathContext context)\n
     '''
 def getPointer():
-    '''public Pointer getPointer(final JXPathContext context, final String xpath)
+    '''returns Pointer\n\n
+    getPointer(final JXPathContext context, final String xpath)\n
     '''
 def iteratePointers():
-    '''public Iterator iteratePointers(final JXPathContext context)
+    '''returns Iterator\n\n
+    iteratePointers(final JXPathContext context)\n
     '''
 def removePath():
-    '''public void removePath(final JXPathContext context)
+    '''returns None\n\n
+    removePath(final JXPathContext context)\n
     '''
 def removeAll():
-    '''public void removeAll(final JXPathContext context)
+    '''returns None\n\n
+    removeAll(final JXPathContext context)\n
     '''

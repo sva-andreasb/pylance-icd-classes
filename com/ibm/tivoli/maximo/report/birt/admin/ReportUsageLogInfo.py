@@ -1,102 +1,136 @@
-def ReportUsageLogInfo():
-    '''public ReportUsageLogInfo()
+def ():
+    '''returns ReportUsageLogInfo\n\n
+    ()\n
     '''
 def setStatus():
-    '''public void setStatus(final String status, final String msg)
+    '''returns None\n\n
+    setStatus(final String status, final String msg)\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def setAppName():
-    '''public void setAppName(final String appName)
+    '''returns None\n\n
+    setAppName(final String appName)\n
     '''
 def getEndDate():
-    '''public Date getEndDate()
+    '''returns Date\n\n
+    getEndDate()\n
     '''
 def setEndDate():
-    '''public void setEndDate(final Date endDate)
+    '''returns None\n\n
+    setEndDate(final Date endDate)\n
     '''
 def getEnterDate():
-    '''public Date getEnterDate()
+    '''returns Date\n\n
+    getEnterDate()\n
     '''
 def setEnterDate():
-    '''public void setEnterDate(final Date enterDate)
+    '''returns None\n\n
+    setEnterDate(final Date enterDate)\n
     '''
 def getHostName():
-    '''public String getHostName()
+    '''returns String\n\n
+    getHostName()\n
     '''
 def setHostName():
-    '''public void setHostName(final String hostName)
+    '''returns None\n\n
+    setHostName(final String hostName)\n
     '''
 def isImmediateJob():
-    '''public boolean isImmediateJob()
+    '''returns boolean\n\n
+    isImmediateJob()\n
     '''
 def setImmediateJob():
-    '''public void setImmediateJob(final boolean immediateJob)
+    '''returns None\n\n
+    setImmediateJob(final boolean immediateJob)\n
     '''
 def isTransientReport():
-    '''public boolean isTransientReport()
+    '''returns boolean\n\n
+    isTransientReport()\n
     '''
 def setTransientReport():
-    '''public void setTransientReport(final boolean isTransientReport)
+    '''returns None\n\n
+    setTransientReport(final boolean isTransientReport)\n
     '''
 def getReportName():
-    '''public String getReportName()
+    '''returns String\n\n
+    getReportName()\n
     '''
 def setReportName():
-    '''public void setReportName(final String reportName)
+    '''returns None\n\n
+    setReportName(final String reportName)\n
     '''
 def getRuntime():
-    '''public long getRuntime()
+    '''returns long\n\n
+    getRuntime()\n
     '''
 def setRuntime():
-    '''public void setRuntime(final long runtime)
+    '''returns None\n\n
+    setRuntime(final long runtime)\n
     '''
 def getServerName():
-    '''public String getServerName()
+    '''returns String\n\n
+    getServerName()\n
     '''
 def setServerName():
-    '''public void setServerName(final String serverName)
+    '''returns None\n\n
+    setServerName(final String serverName)\n
     '''
 def getStartDate():
-    '''public Date getStartDate()
+    '''returns Date\n\n
+    getStartDate()\n
     '''
 def setStartDate():
-    '''public void setStartDate(final Date startDate)
+    '''returns None\n\n
+    setStartDate(final Date startDate)\n
     '''
 def isSuccess():
-    '''public boolean isSuccess()
+    '''returns boolean\n\n
+    isSuccess()\n
     '''
 def setSuccess():
-    '''public void setSuccess(final boolean success)
+    '''returns None\n\n
+    setSuccess(final boolean success)\n
     '''
 def getUserId():
-    '''public String getUserId()
+    '''returns String\n\n
+    getUserId()\n
     '''
 def setUserId():
-    '''public void setUserId(final String userId)
+    '''returns None\n\n
+    setUserId(final String userId)\n
     '''
 def isReportExecuted():
-    '''public boolean isReportExecuted()
+    '''returns boolean\n\n
+    isReportExecuted()\n
     '''
 def setReportExecuted():
-    '''public void setReportExecuted(final boolean reportExecuted)
+    '''returns None\n\n
+    setReportExecuted(final boolean reportExecuted)\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''
 def setCancelled():
-    '''public void setCancelled(final boolean cancelled)
+    '''returns None\n\n
+    setCancelled(final boolean cancelled)\n
     '''
 def setEmailFileType():
-    '''public void setEmailFileType(final String emailFileType)
+    '''returns None\n\n
+    setEmailFileType(final String emailFileType)\n
     '''
 def getEmailFileType():
-    '''public String getEmailFileType()
+    '''returns String\n\n
+    getEmailFileType()\n
     '''

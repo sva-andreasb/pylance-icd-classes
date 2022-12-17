@@ -1,22 +1,29 @@
-def Document():
-    '''public Document(final String docURI, final DocumentDigest digest)
-    public Document(final String docURI)
+def ():
+    '''returns Document\n\n
+    (final String docURI, final DocumentDigest digest)\n
+    (final String docURI)\n
     '''
 def getURI():
-    '''public String getURI()
+    '''returns String\n\n
+    getURI()\n
     '''
 def setURI():
-    '''public void setURI(final String newURI)
+    '''returns None\n\n
+    setURI(final String newURI)\n
     '''
 def getDigest():
-    '''public DocumentDigest getDigest()
+    '''returns DocumentDigest\n\n
+    getDigest()\n
     '''
 def getTempName():
-    '''public String getTempName()
+    '''returns String\n\n
+    getTempName()\n
     '''
 def getOverwrite():
-    '''public boolean getOverwrite()
+    '''returns boolean\n\n
+    getOverwrite()\n
     '''
 def setOverwrite():
-    '''public void setOverwrite(final boolean b)
+    '''returns None\n\n
+    setOverwrite(final boolean b)\n
     '''

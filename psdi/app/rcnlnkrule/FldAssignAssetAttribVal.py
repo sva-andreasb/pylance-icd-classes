@@ -1,3 +1,4 @@
-def FldAssignAssetAttribVal():
-    '''public FldAssignAssetAttribVal(final MboValue mbv)
+def ():
+    '''returns FldAssignAssetAttribVal\n\n
+    (final MboValue mbv)\n
     '''

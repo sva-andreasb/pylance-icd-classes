@@ -1,3 +1,4 @@
-def RelativeURIException():
-    '''public RelativeURIException(final String msg)
+def ():
+    '''returns RelativeURIException\n\n
+    (final String msg)\n
     '''

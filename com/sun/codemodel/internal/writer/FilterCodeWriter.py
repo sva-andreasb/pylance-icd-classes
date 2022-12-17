@@ -1,12 +1,16 @@
-def FilterCodeWriter():
-    '''public FilterCodeWriter(final CodeWriter core)
+def ():
+    '''returns FilterCodeWriter\n\n
+    (final CodeWriter core)\n
     '''
 def openBinary():
-    '''public OutputStream openBinary(final JPackage pkg, final String fileName)
+    '''returns OutputStream\n\n
+    openBinary(final JPackage pkg, final String fileName)\n
     '''
 def openSource():
-    '''public Writer openSource(final JPackage pkg, final String fileName)
+    '''returns Writer\n\n
+    openSource(final JPackage pkg, final String fileName)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

@@ -1,15 +1,20 @@
-def JSONMapAttributeInfo():
-    '''public JSONMapAttributeInfo(final String targetName, final String sourceName, final String sourceType, final boolean editable)
+def ():
+    '''returns JSONMapAttributeInfo\n\n
+    (final String targetName, final String sourceName, final String sourceType, final boolean editable)\n
     '''
 def getSource():
-    '''public String getSource()
+    '''returns String\n\n
+    getSource()\n
     '''
 def getTargetAttribute():
-    '''public String getTargetAttribute()
+    '''returns String\n\n
+    getTargetAttribute()\n
     '''
 def getSourceType():
-    '''public String getSourceType()
+    '''returns String\n\n
+    getSourceType()\n
     '''
 def isEditable():
-    '''public boolean isEditable()
+    '''returns boolean\n\n
+    isEditable()\n
     '''

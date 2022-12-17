@@ -1,3 +1,4 @@
-def FldWFAppToolbarSeq():
-    '''public FldWFAppToolbarSeq(final MboValue mbv)
+def ():
+    '''returns FldWFAppToolbarSeq\n\n
+    (final MboValue mbv)\n
     '''

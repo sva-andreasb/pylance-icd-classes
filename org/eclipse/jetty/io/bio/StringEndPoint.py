@@ -1,13 +1,17 @@
-def StringEndPoint():
-    '''public StringEndPoint()
-    public StringEndPoint(final String encoding)
+def ():
+    '''returns StringEndPoint\n\n
+    ()\n
+    (final String encoding)\n
     '''
 def setInput():
-    '''public void setInput(final String s)
+    '''returns None\n\n
+    setInput(final String s)\n
     '''
 def getOutput():
-    '''public String getOutput()
+    '''returns String\n\n
+    getOutput()\n
     '''
 def hasMore():
-    '''public boolean hasMore()
+    '''returns boolean\n\n
+    hasMore()\n
     '''

@@ -5,49 +5,56 @@ CONNECT_TIMEOUT_OPTION = "String  \"connectTimeout\""
 IDLE_TIMEOUT_OPTION = "String  \"idleTimeout\""
 MAX_MESSAGE_SIZE_OPTION = "String  \"maxMessageSize\""
 UNIQUE_MESSAGE_ID_GUARANTEED_OPTION = "String  \"uniqueMessageIdGuaranteed\""
-def create():
-    '''public static WebSocketTransport create(final Map<String, Object> options, final WebSocketClientFactory webSocketClientFactory)
-    public static WebSocketTransport create(final Map<String, Object> options, final WebSocketClientFactory webSocketClientFactory, final ScheduledExecutorService scheduler)
-    '''
-def WebSocketTransport():
-    '''public WebSocketTransport(final Map<String, Object> options, final WebSocketClientFactory webSocketClientFactory, final ScheduledExecutorService scheduler)
+def ():
+    '''returns WebSocketExchange\n\n
+    (final Map<String, Object> options, final WebSocketClientFactory webSocketClientFactory, final ScheduledExecutorService scheduler)\n
+    (final Message.Mutable message, final TransportListener listener, final ScheduledFuture<?> task)\n
     '''
 def setMessageTransportListener():
-    '''public void setMessageTransportListener(final TransportListener listener)
+    '''returns None\n\n
+    setMessageTransportListener(final TransportListener listener)\n
     '''
 def accept():
-    '''public boolean accept(final String version)
+    '''returns boolean\n\n
+    accept(final String version)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def terminate():
-    '''public void terminate()
+    '''returns None\n\n
+    terminate()\n
     '''
 def send():
-    '''public void send(final TransportListener listener, final Message.Mutable... messages)
+    '''returns None\n\n
+    send(final TransportListener listener, final Message.Mutable... messages)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def onOpen():
-    '''public void onOpen(final WebSocket.Connection connection)
+    '''returns None\n\n
+    onOpen(final WebSocket.Connection connection)\n
     '''
 def onClose():
-    '''public void onClose(final int closeCode, final String message)
+    '''returns None\n\n
+    onClose(final int closeCode, final String message)\n
     '''
 def onMessage():
-    '''public void onMessage(final String data)
-    '''
-def WebSocketExchange():
-    '''public WebSocketExchange(final Message.Mutable message, final TransportListener listener, final ScheduledFuture<?> task)
+    '''returns None\n\n
+    onMessage(final String data)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

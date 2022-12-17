@@ -1,14 +1,18 @@
-def ProxyOutputStream():
-    '''public ProxyOutputStream(final OutputStream proxy)
+def ():
+    '''returns ProxyOutputStream\n\n
+    (final OutputStream proxy)\n
     '''
 def write():
-    '''public void write(final int idx)
-    public void write(final byte[] bts)
-    public void write(final byte[] bts, final int st, final int end)
+    '''returns None\n\n
+    write(final int idx)\n
+    write(final byte[] bts)\n
+    write(final byte[] bts, final int st, final int end)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

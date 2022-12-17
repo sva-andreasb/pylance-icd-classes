@@ -1,62 +1,56 @@
 LOGGING_AWS_REQUEST_METRIC = "boolean  true"
-def AmazonWebServiceClient():
-    '''public AmazonWebServiceClient(final ClientConfiguration clientConfiguration)
-    public AmazonWebServiceClient(final ClientConfiguration clientConfiguration, final RequestMetricCollector requestMetricCollector)
+def ():
+    '''returns AmazonWebServiceClient\n\n
+    (final ClientConfiguration clientConfiguration)\n
+    (final ClientConfiguration clientConfiguration, final RequestMetricCollector requestMetricCollector)\n
     '''
 def setEndpoint():
-    '''public void setEndpoint(final String endpoint)
+    '''returns None\n\n
+    setEndpoint(final String endpoint)\n
     '''
 def getSignerByURI():
-    '''public Signer getSignerByURI(final URI uri)
+    '''returns Signer\n\n
+    getSignerByURI(final URI uri)\n
     '''
 def setRegion():
-    '''public void setRegion(final Region region)
-    '''
-def configureRegion():
-    '''public final void configureRegion(final Regions region)
+    '''returns None\n\n
+    setRegion(final Region region)\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def addRequestHandler():
-    '''public void addRequestHandler(final RequestHandler requestHandler)
-    public void addRequestHandler(final RequestHandler2 requestHandler2)
+    '''returns None\n\n
+    addRequestHandler(final RequestHandler requestHandler)\n
+    addRequestHandler(final RequestHandler2 requestHandler2)\n
     '''
 def removeRequestHandler():
-    '''public void removeRequestHandler(final RequestHandler requestHandler)
-    public void removeRequestHandler(final RequestHandler2 requestHandler2)
+    '''returns None\n\n
+    removeRequestHandler(final RequestHandler requestHandler)\n
+    removeRequestHandler(final RequestHandler2 requestHandler2)\n
     '''
 def setTimeOffset():
-    '''public void setTimeOffset(final int timeOffset)
+    '''returns None\n\n
+    setTimeOffset(final int timeOffset)\n
     '''
 def withTimeOffset():
-    '''public AmazonWebServiceClient withTimeOffset(final int timeOffset)
+    '''returns AmazonWebServiceClient\n\n
+    withTimeOffset(final int timeOffset)\n
     '''
 def getTimeOffset():
-    '''public int getTimeOffset()
+    '''returns int\n\n
+    getTimeOffset()\n
     '''
 def getRequestMetricsCollector():
-    '''public RequestMetricCollector getRequestMetricsCollector()
+    '''returns RequestMetricCollector\n\n
+    getRequestMetricsCollector()\n
     '''
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def getEndpointPrefix():
-    '''public String getEndpointPrefix()
-    '''
-def setServiceNameIntern():
-    '''public final void setServiceNameIntern(final String serviceName)
-    '''
-def getSignerRegionOverride():
-    '''public final String getSignerRegionOverride()
-    '''
-def setSignerRegionOverride():
-    '''public final void setSignerRegionOverride(final String signerRegionOverride)
-    '''
-def withRegion():
-    '''public <T extends AmazonWebServiceClient> T withRegion(final Region region)
-    public <T extends AmazonWebServiceClient> T withRegion(final Regions region)
-    '''
-def withEndpoint():
-    '''public <T extends AmazonWebServiceClient> T withEndpoint(final String endpoint)
+    '''returns String\n\n
+    getEndpointPrefix()\n
     '''

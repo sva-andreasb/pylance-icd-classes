@@ -1,3 +1,4 @@
 def countWords():
-    '''public int countWords(final ExtendedInterface obj)
+    '''returns int\n\n
+    countWords(final ExtendedInterface obj)\n
     '''

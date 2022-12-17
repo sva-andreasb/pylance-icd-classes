@@ -1,9 +1,8 @@
 def action():
-    '''public OslcResourceResponse action(final OslcRequest request, final byte[] actionData)
+    '''returns OslcResourceResponse\n\n
+    action(final OslcRequest request, final byte[] actionData)\n
     '''
 def isGET():
-    '''public boolean isGET()
-    '''
-def getRequestQueryParams():
-    '''public Map<String, RESTParamInfo> getRequestQueryParams()
+    '''returns boolean\n\n
+    isGET()\n
     '''

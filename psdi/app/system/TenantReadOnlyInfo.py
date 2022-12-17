@@ -1,3 +1,4 @@
-def TenantReadOnlyInfo():
-    '''public TenantReadOnlyInfo(final MboSet ms)
+def ():
+    '''returns TenantReadOnlyInfo\n\n
+    (final MboSet ms)\n
     '''

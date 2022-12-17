@@ -1,3 +1,4 @@
-def MXODMAppPkgSet():
-    '''public MXODMAppPkgSet(final MboServerInterface ms)
+def ():
+    '''returns MXODMAppPkgSet\n\n
+    (final MboServerInterface ms)\n
     '''

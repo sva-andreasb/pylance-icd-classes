@@ -1,8 +1,10 @@
-def SyslogAppenderBuilder():
-    '''public SyslogAppenderBuilder()
-    public SyslogAppenderBuilder(final String prefix, final Properties props)
+def ():
+    '''returns SyslogAppenderBuilder\n\n
+    ()\n
+    (final String prefix, final Properties props)\n
     '''
 def parseAppender():
-    '''public Appender parseAppender(final Element appenderElement, final XmlConfiguration config)
-    public Appender parseAppender(final String name, final String appenderPrefix, final String layoutPrefix, final String filterPrefix, final Properties props, final PropertiesConfiguration configuration)
+    '''returns Appender\n\n
+    parseAppender(final Element appenderElement, final XmlConfiguration config)\n
+    parseAppender(final String name, final String appenderPrefix, final String layoutPrefix, final String filterPrefix, final Properties props, final PropertiesConfiguration configuration)\n
     '''

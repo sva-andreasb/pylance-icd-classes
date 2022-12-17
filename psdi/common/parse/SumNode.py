@@ -1,28 +1,37 @@
-def SumNode():
-    '''public SumNode(final TreeNode oper1, final String operator, final TreeNode oper2)
+def ():
+    '''returns SumNode\n\n
+    (final TreeNode oper1, final String operator, final TreeNode oper2)\n
     '''
 def validate():
-    '''public void validate(final MboRemote mbo)
+    '''returns None\n\n
+    validate(final MboRemote mbo)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final MboRemote mbo)
+    '''returns boolean\n\n
+    getBoolean(final MboRemote mbo)\n
     '''
 def getDate():
-    '''public Date getDate(final MboRemote mbo)
+    '''returns Date\n\n
+    getDate(final MboRemote mbo)\n
     '''
 def getString():
-    '''public String getString(final MboRemote mbo)
+    '''returns String\n\n
+    getString(final MboRemote mbo)\n
     '''
 def getDouble():
-    '''public double getDouble(final MboRemote mbo)
+    '''returns double\n\n
+    getDouble(final MboRemote mbo)\n
     '''
 def getInt():
-    '''public int getInt(final MboRemote mbo)
+    '''returns int\n\n
+    getInt(final MboRemote mbo)\n
     '''
 def getNodeDataType():
-    '''public int getNodeDataType()
-    public int getNodeDataType(final MboRemote mbo)
+    '''returns int\n\n
+    getNodeDataType()\n
+    getNodeDataType(final MboRemote mbo)\n
     '''
 def setOperands():
-    '''public void setOperands(final MboRemote mbo, final Vector operands)
+    '''returns None\n\n
+    setOperands(final MboRemote mbo, final Vector operands)\n
     '''

@@ -1,3 +1,4 @@
 def compare():
-    '''public int compare(final Date o1, final Date o2)
+    '''returns int\n\n
+    compare(final Date o1, final Date o2)\n
     '''

@@ -1,6 +1,8 @@
-def FldLaborCrewAssignment():
-    '''public FldLaborCrewAssignment(final MboValue mbv)
+def ():
+    '''returns FldLaborCrewAssignment\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

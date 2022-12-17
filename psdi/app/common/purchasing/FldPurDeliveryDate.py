@@ -1,6 +1,8 @@
-def FldPurDeliveryDate():
-    '''public FldPurDeliveryDate(final MboValue mbv)
+def ():
+    '''returns FldPurDeliveryDate\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

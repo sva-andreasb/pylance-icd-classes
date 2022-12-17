@@ -1,15 +1,20 @@
-def MAXF():
-    '''public MAXF(final Expression exp, final String name, final int numParams)
+def ():
+    '''returns MAXF\n\n
+    (final Expression exp, final String name, final int numParams)\n
     '''
 def eval():
-    '''public BigDecimal eval(final List<BigDecimal> parameters)
+    '''returns BigDecimal\n\n
+    eval(final List<BigDecimal> parameters)\n
     '''
 def max():
-    '''public BigDecimal max(final MboRemote mbo, final String relName, final String attributeName, final String timeLineAttrName, final BigDecimal limitDurationOrCount)
+    '''returns BigDecimal\n\n
+    max(final MboRemote mbo, final String relName, final String attributeName, final String timeLineAttrName, final BigDecimal limitDurationOrCount)\n
     '''
 def getRelation():
-    '''public String getRelation(String relation)
+    '''returns String\n\n
+    getRelation(String relation)\n
     '''
 def getEvalMbo():
-    '''public MboRemote getEvalMbo(String relation, final MboRemote mbo, final MboSetRemote msr)
+    '''returns MboRemote\n\n
+    getEvalMbo(String relation, final MboRemote mbo, final MboSetRemote msr)\n
     '''

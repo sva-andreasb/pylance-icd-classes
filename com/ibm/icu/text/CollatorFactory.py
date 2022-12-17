@@ -1,11 +1,14 @@
 def visible():
-    '''public boolean visible()
+    '''returns boolean\n\n
+    visible()\n
     '''
 def createCollator():
-    '''public Collator createCollator(final ULocale loc)
-    public Collator createCollator(final Locale loc)
+    '''returns Collator\n\n
+    createCollator(final ULocale loc)\n
+    createCollator(final Locale loc)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName(final Locale objectLocale, final Locale displayLocale)
-    public String getDisplayName(final ULocale objectLocale, final ULocale displayLocale)
+    '''returns String\n\n
+    getDisplayName(final Locale objectLocale, final Locale displayLocale)\n
+    getDisplayName(final ULocale objectLocale, final ULocale displayLocale)\n
     '''

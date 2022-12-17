@@ -1,3 +1,4 @@
 def addlinkrule():
-    '''public int addlinkrule()
+    '''returns int\n\n
+    addlinkrule()\n
     '''

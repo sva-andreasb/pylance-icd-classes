@@ -1,33 +1,43 @@
 def receive():
-    '''public void receive(final Message.Mutable message)
+    '''returns None\n\n
+    receive(final Message.Mutable message)\n
     '''
 def getServerSession():
-    '''public ServerSession getServerSession()
+    '''returns ServerSession\n\n
+    getServerSession()\n
     '''
 def handshake():
-    '''public void handshake()
-    public void handshake(final Map<String, Object> template)
+    '''returns None\n\n
+    handshake()\n
+    handshake(final Map<String, Object> template)\n
     '''
 def disconnect():
-    '''public void disconnect()
+    '''returns None\n\n
+    disconnect()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def isHandshook():
-    '''public boolean isHandshook()
+    '''returns boolean\n\n
+    isHandshook()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getSession():
-    '''public ClientSession getSession()
+    '''returns ClientSession\n\n
+    getSession()\n
     '''
 def publish():
-    '''public void publish(final Object data)
-    public void publish(final Object data, final String messageId)
+    '''returns None\n\n
+    publish(final Object data)\n
+    publish(final Object data, final String messageId)\n
     '''

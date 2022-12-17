@@ -1,40 +1,47 @@
-def SdkJsonGenerator():
-    '''public SdkJsonGenerator(final JsonFactory factory, final String contentType)
+def ():
+    '''returns JsonGenerationException\n\n
+    (final JsonFactory factory, final String contentType)\n
+    (final Throwable t)\n
     '''
 def writeStartArray():
-    '''public StructuredJsonGenerator writeStartArray()
+    '''returns StructuredJsonGenerator\n\n
+    writeStartArray()\n
     '''
 def writeEndArray():
-    '''public StructuredJsonGenerator writeEndArray()
+    '''returns StructuredJsonGenerator\n\n
+    writeEndArray()\n
     '''
 def writeStartObject():
-    '''public StructuredJsonGenerator writeStartObject()
+    '''returns StructuredJsonGenerator\n\n
+    writeStartObject()\n
     '''
 def writeEndObject():
-    '''public StructuredJsonGenerator writeEndObject()
+    '''returns StructuredJsonGenerator\n\n
+    writeEndObject()\n
     '''
 def writeFieldName():
-    '''public StructuredJsonGenerator writeFieldName(final String fieldName)
+    '''returns StructuredJsonGenerator\n\n
+    writeFieldName(final String fieldName)\n
     '''
 def writeValue():
-    '''public StructuredJsonGenerator writeValue(final String val)
-    public StructuredJsonGenerator writeValue(final boolean bool)
-    public StructuredJsonGenerator writeValue(final long val)
-    public StructuredJsonGenerator writeValue(final double val)
-    public StructuredJsonGenerator writeValue(final float val)
-    public StructuredJsonGenerator writeValue(final short val)
-    public StructuredJsonGenerator writeValue(final int val)
-    public StructuredJsonGenerator writeValue(final ByteBuffer bytes)
-    public StructuredJsonGenerator writeValue(final Date date)
-    public StructuredJsonGenerator writeValue(final BigDecimal value)
-    public StructuredJsonGenerator writeValue(final BigInteger value)
+    '''returns StructuredJsonGenerator\n\n
+    writeValue(final String val)\n
+    writeValue(final boolean bool)\n
+    writeValue(final long val)\n
+    writeValue(final double val)\n
+    writeValue(final float val)\n
+    writeValue(final short val)\n
+    writeValue(final int val)\n
+    writeValue(final ByteBuffer bytes)\n
+    writeValue(final Date date)\n
+    writeValue(final BigDecimal value)\n
+    writeValue(final BigInteger value)\n
     '''
 def getBytes():
-    '''public byte[] getBytes()
+    '''returns byte[]\n\n
+    getBytes()\n
     '''
 def getContentType():
-    '''public String getContentType()
-    '''
-def JsonGenerationException():
-    '''public JsonGenerationException(final Throwable t)
+    '''returns String\n\n
+    getContentType()\n
     '''

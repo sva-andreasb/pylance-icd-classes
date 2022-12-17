@@ -1,3 +1,4 @@
-def ReportDependSet():
-    '''public ReportDependSet(final MboServerInterface ms)
+def ():
+    '''returns ReportDependSet\n\n
+    (final MboServerInterface ms)\n
     '''

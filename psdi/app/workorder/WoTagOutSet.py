@@ -1,9 +1,12 @@
-def WoTagOutSet():
-    '''public WoTagOutSet(final MboServerInterface ms)
+def ():
+    '''returns WoTagOutSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def copyFromTagOut():
-    '''public MboRemote copyFromTagOut(final MboRemote tagOut, final String dataSource)
+    '''returns MboRemote\n\n
+    copyFromTagOut(final MboRemote tagOut, final String dataSource)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

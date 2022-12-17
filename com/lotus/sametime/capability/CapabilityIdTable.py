@@ -1,3 +1,4 @@
-def CapabilityIdTable():
-    '''public CapabilityIdTable()
+def ():
+    '''returns CapabilityIdTable\n\n
+    ()\n
     '''

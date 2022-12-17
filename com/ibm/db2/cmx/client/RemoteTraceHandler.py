@@ -1,15 +1,20 @@
 def setTraceBufferSizeFlushThreshold():
-    '''public void setTraceBufferSizeFlushThreshold(final int n)
+    '''returns None\n\n
+    setTraceBufferSizeFlushThreshold(final int n)\n
     '''
 def setTraceBufferFlushInterval():
-    '''public void setTraceBufferFlushInterval(final int n)
+    '''returns None\n\n
+    setTraceBufferFlushInterval(final int n)\n
     '''
 def publish():
-    '''public void publish(final LogRecord logRecord)
+    '''returns None\n\n
+    publish(final LogRecord logRecord)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

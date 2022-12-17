@@ -6,319 +6,424 @@ FORM_BODYINSTREAM = "int  5"
 FORM_FAULT = "int  6"
 FORM_OPTIMIZED = "int  7"
 ALLOW_FORM_OPTIMIZATION = "String  \"axis.form.optimization\""
-def SOAPPart():
-    '''public SOAPPart(final Message parent, final Object initialContents, final boolean isBodyStream)
+def ():
+    '''returns SOAPPart\n\n
+    (final Message parent, final Object initialContents, final boolean isBodyStream)\n
     '''
 def getMessage():
-    '''public Message getMessage()
+    '''returns Message\n\n
+    getMessage()\n
     '''
 def setMessage():
-    '''public void setMessage(final Message msg)
+    '''returns None\n\n
+    setMessage(final Message msg)\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def setSOAPEnvelope():
-    '''public void setSOAPEnvelope(final SOAPEnvelope env)
+    '''returns None\n\n
+    setSOAPEnvelope(final SOAPEnvelope env)\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream os)
-    public void writeTo(final Writer writer)
+    '''returns None\n\n
+    writeTo(final OutputStream os)\n
+    writeTo(final Writer writer)\n
     '''
 def getCurrentMessage():
-    '''public Object getCurrentMessage()
+    '''returns Object\n\n
+    getCurrentMessage()\n
     '''
 def setCurrentMessage():
-    '''public void setCurrentMessage(final Object currMsg, final int form)
+    '''returns None\n\n
+    setCurrentMessage(final Object currMsg, final int form)\n
     '''
 def getCurrentForm():
-    '''public int getCurrentForm()
+    '''returns int\n\n
+    getCurrentForm()\n
     '''
 def getAsBytes():
-    '''public byte[] getAsBytes()
+    '''returns byte[]\n\n
+    getAsBytes()\n
     '''
 def saveChanges():
-    '''public void saveChanges()
+    '''returns None\n\n
+    saveChanges()\n
     '''
 def getAsString():
-    '''public String getAsString()
+    '''returns String\n\n
+    getAsString()\n
     '''
 def getAsSOAPEnvelope():
-    '''public SOAPEnvelope getAsSOAPEnvelope()
+    '''returns SOAPEnvelope\n\n
+    getAsSOAPEnvelope()\n
     '''
 def addMimeHeader():
-    '''public void addMimeHeader(final String header, final String value)
+    '''returns None\n\n
+    addMimeHeader(final String header, final String value)\n
     '''
 def getContentLocation():
-    '''public String getContentLocation()
+    '''returns String\n\n
+    getContentLocation()\n
     '''
 def setContentLocation():
-    '''public void setContentLocation(final String loc)
+    '''returns None\n\n
+    setContentLocation(final String loc)\n
     '''
 def setContentId():
-    '''public void setContentId(final String newCid)
+    '''returns None\n\n
+    setContentId(final String newCid)\n
     '''
 def getContentId():
-    '''public String getContentId()
+    '''returns String\n\n
+    getContentId()\n
     '''
 def getContentIdRef():
-    '''public String getContentIdRef()
+    '''returns String\n\n
+    getContentIdRef()\n
     '''
 def getMatchingMimeHeaders():
-    '''public Iterator getMatchingMimeHeaders(final String[] match)
+    '''returns Iterator\n\n
+    getMatchingMimeHeaders(final String[] match)\n
     '''
 def getNonMatchingMimeHeaders():
-    '''public Iterator getNonMatchingMimeHeaders(final String[] match)
+    '''returns Iterator\n\n
+    getNonMatchingMimeHeaders(final String[] match)\n
     '''
 def setContent():
-    '''public void setContent(final Source source)
+    '''returns None\n\n
+    setContent(final Source source)\n
     '''
 def getContent():
-    '''public Source getContent()
+    '''returns Source\n\n
+    getContent()\n
     '''
 def getAllMimeHeaders():
-    '''public Iterator getAllMimeHeaders()
+    '''returns Iterator\n\n
+    getAllMimeHeaders()\n
     '''
 def setMimeHeader():
-    '''public void setMimeHeader(final String name, final String value)
+    '''returns None\n\n
+    setMimeHeader(final String name, final String value)\n
     '''
 def getMimeHeader():
-    '''public String[] getMimeHeader(final String name)
+    '''returns String[]\n\n
+    getMimeHeader(final String name)\n
     '''
 def removeAllMimeHeaders():
-    '''public void removeAllMimeHeaders()
+    '''returns None\n\n
+    removeAllMimeHeaders()\n
     '''
 def removeMimeHeader():
-    '''public void removeMimeHeader(final String header)
+    '''returns None\n\n
+    removeMimeHeader(final String header)\n
     '''
 def getSOAPDocument():
-    '''public Document getSOAPDocument()
+    '''returns Document\n\n
+    getSOAPDocument()\n
     '''
 def getDoctype():
-    '''public DocumentType getDoctype()
+    '''returns DocumentType\n\n
+    getDoctype()\n
     '''
 def getImplementation():
-    '''public DOMImplementation getImplementation()
+    '''returns DOMImplementation\n\n
+    getImplementation()\n
     '''
 def getDocumentElement():
-    '''public Element getDocumentElement()
+    '''returns Element\n\n
+    getDocumentElement()\n
     '''
 def createElement():
-    '''public Element createElement(final String tagName)
+    '''returns Element\n\n
+    createElement(final String tagName)\n
     '''
 def createDocumentFragment():
-    '''public DocumentFragment createDocumentFragment()
+    '''returns DocumentFragment\n\n
+    createDocumentFragment()\n
     '''
 def createTextNode():
-    '''public Text createTextNode(final String data)
+    '''returns Text\n\n
+    createTextNode(final String data)\n
     '''
 def createComment():
-    '''public Comment createComment(final String data)
+    '''returns Comment\n\n
+    createComment(final String data)\n
     '''
 def createCDATASection():
-    '''public CDATASection createCDATASection(final String data)
+    '''returns CDATASection\n\n
+    createCDATASection(final String data)\n
     '''
 def createProcessingInstruction():
-    '''public ProcessingInstruction createProcessingInstruction(final String target, final String data)
+    '''returns ProcessingInstruction\n\n
+    createProcessingInstruction(final String target, final String data)\n
     '''
 def createAttribute():
-    '''public Attr createAttribute(final String name)
+    '''returns Attr\n\n
+    createAttribute(final String name)\n
     '''
 def createEntityReference():
-    '''public EntityReference createEntityReference(final String name)
+    '''returns EntityReference\n\n
+    createEntityReference(final String name)\n
     '''
 def getElementsByTagName():
-    '''public NodeList getElementsByTagName(final String tagname)
+    '''returns NodeList\n\n
+    getElementsByTagName(final String tagname)\n
     '''
 def importNode():
-    '''public Node importNode(final Node importedNode, final boolean deep)
+    '''returns Node\n\n
+    importNode(final Node importedNode, final boolean deep)\n
     '''
 def createElementNS():
-    '''public Element createElementNS(final String namespaceURI, final String qualifiedName)
+    '''returns Element\n\n
+    createElementNS(final String namespaceURI, final String qualifiedName)\n
     '''
 def createAttributeNS():
-    '''public Attr createAttributeNS(final String namespaceURI, final String qualifiedName)
+    '''returns Attr\n\n
+    createAttributeNS(final String namespaceURI, final String qualifiedName)\n
     '''
 def getElementsByTagNameNS():
-    '''public NodeList getElementsByTagNameNS(final String namespaceURI, final String localName)
+    '''returns NodeList\n\n
+    getElementsByTagNameNS(final String namespaceURI, final String localName)\n
     '''
 def getElementById():
-    '''public Element getElementById(final String elementId)
+    '''returns Element\n\n
+    getElementById(final String elementId)\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String s)
+    '''returns None\n\n
+    setEncoding(final String s)\n
     '''
 def getStandalone():
-    '''public boolean getStandalone()
+    '''returns boolean\n\n
+    getStandalone()\n
     '''
 def setStandalone():
-    '''public void setStandalone(final boolean flag)
+    '''returns None\n\n
+    setStandalone(final boolean flag)\n
     '''
 def getStrictErrorChecking():
-    '''public boolean getStrictErrorChecking()
+    '''returns boolean\n\n
+    getStrictErrorChecking()\n
     '''
 def setStrictErrorChecking():
-    '''public void setStrictErrorChecking(final boolean flag)
+    '''returns None\n\n
+    setStrictErrorChecking(final boolean flag)\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''
 def setVersion():
-    '''public void setVersion(final String s)
+    '''returns None\n\n
+    setVersion(final String s)\n
     '''
 def adoptNode():
-    '''public Node adoptNode(final Node node)
+    '''returns Node\n\n
+    adoptNode(final Node node)\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''
 def getNodeValue():
-    '''public String getNodeValue()
+    '''returns String\n\n
+    getNodeValue()\n
     '''
 def setNodeValue():
-    '''public void setNodeValue(final String nodeValue)
+    '''returns None\n\n
+    setNodeValue(final String nodeValue)\n
     '''
 def getNodeType():
-    '''public short getNodeType()
+    '''returns short\n\n
+    getNodeType()\n
     '''
 def getParentNode():
-    '''public Node getParentNode()
+    '''returns Node\n\n
+    getParentNode()\n
     '''
 def getChildNodes():
-    '''public NodeList getChildNodes()
+    '''returns NodeList\n\n
+    getChildNodes()\n
     '''
 def getFirstChild():
-    '''public Node getFirstChild()
+    '''returns Node\n\n
+    getFirstChild()\n
     '''
 def getLastChild():
-    '''public Node getLastChild()
+    '''returns Node\n\n
+    getLastChild()\n
     '''
 def getPreviousSibling():
-    '''public Node getPreviousSibling()
+    '''returns Node\n\n
+    getPreviousSibling()\n
     '''
 def getNextSibling():
-    '''public Node getNextSibling()
+    '''returns Node\n\n
+    getNextSibling()\n
     '''
 def getAttributes():
-    '''public NamedNodeMap getAttributes()
+    '''returns NamedNodeMap\n\n
+    getAttributes()\n
     '''
 def getOwnerDocument():
-    '''public Document getOwnerDocument()
+    '''returns Document\n\n
+    getOwnerDocument()\n
     '''
 def insertBefore():
-    '''public Node insertBefore(final Node newChild, final Node refChild)
+    '''returns Node\n\n
+    insertBefore(final Node newChild, final Node refChild)\n
     '''
 def replaceChild():
-    '''public Node replaceChild(final Node newChild, final Node oldChild)
+    '''returns Node\n\n
+    replaceChild(final Node newChild, final Node oldChild)\n
     '''
 def removeChild():
-    '''public Node removeChild(final Node oldChild)
+    '''returns Node\n\n
+    removeChild(final Node oldChild)\n
     '''
 def appendChild():
-    '''public Node appendChild(final Node newChild)
+    '''returns Node\n\n
+    appendChild(final Node newChild)\n
     '''
 def hasChildNodes():
-    '''public boolean hasChildNodes()
+    '''returns boolean\n\n
+    hasChildNodes()\n
     '''
 def cloneNode():
-    '''public Node cloneNode(final boolean deep)
+    '''returns Node\n\n
+    cloneNode(final boolean deep)\n
     '''
 def normalize():
-    '''public void normalize()
+    '''returns None\n\n
+    normalize()\n
     '''
 def isSupported():
-    '''public boolean isSupported(final String feature, final String version)
+    '''returns boolean\n\n
+    isSupported(final String feature, final String version)\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI()\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String prefix)
+    '''returns None\n\n
+    setPrefix(final String prefix)\n
     '''
 def getLocalName():
-    '''public String getLocalName()
+    '''returns String\n\n
+    getLocalName()\n
     '''
 def hasAttributes():
-    '''public boolean hasAttributes()
+    '''returns boolean\n\n
+    hasAttributes()\n
     '''
 def isBodyStream():
-    '''public boolean isBodyStream()
+    '''returns boolean\n\n
+    isBodyStream()\n
     '''
 def getDocumentURI():
-    '''public String getDocumentURI()
+    '''returns String\n\n
+    getDocumentURI()\n
     '''
 def getDomConfig():
-    '''public DOMConfiguration getDomConfig()
+    '''returns DOMConfiguration\n\n
+    getDomConfig()\n
     '''
 def getInputEncoding():
-    '''public String getInputEncoding()
+    '''returns String\n\n
+    getInputEncoding()\n
     '''
 def getXmlEncoding():
-    '''public String getXmlEncoding()
+    '''returns String\n\n
+    getXmlEncoding()\n
     '''
 def getXmlStandalone():
-    '''public boolean getXmlStandalone()
+    '''returns boolean\n\n
+    getXmlStandalone()\n
     '''
 def getXmlVersion():
-    '''public String getXmlVersion()
+    '''returns String\n\n
+    getXmlVersion()\n
     '''
 def normalizeDocument():
-    '''public void normalizeDocument()
+    '''returns None\n\n
+    normalizeDocument()\n
     '''
 def renameNode():
-    '''public Node renameNode(final Node n, final String namespaceURI, final String qualifiedName)
+    '''returns Node\n\n
+    renameNode(final Node n, final String namespaceURI, final String qualifiedName)\n
     '''
 def setDocumentURI():
-    '''public void setDocumentURI(final String documentURI)
+    '''returns None\n\n
+    setDocumentURI(final String documentURI)\n
     '''
 def setXmlStandalone():
-    '''public void setXmlStandalone(final boolean xmlStandalone)
+    '''returns None\n\n
+    setXmlStandalone(final boolean xmlStandalone)\n
     '''
 def setXmlVersion():
-    '''public void setXmlVersion(final String xmlVersion)
+    '''returns None\n\n
+    setXmlVersion(final String xmlVersion)\n
     '''
 def compareDocumentPosition():
-    '''public short compareDocumentPosition(final Node other)
+    '''returns short\n\n
+    compareDocumentPosition(final Node other)\n
     '''
 def getBaseURI():
-    '''public String getBaseURI()
+    '''returns String\n\n
+    getBaseURI()\n
     '''
 def getFeature():
-    '''public Object getFeature(final String feature, final String version)
+    '''returns Object\n\n
+    getFeature(final String feature, final String version)\n
     '''
 def getTextContent():
-    '''public String getTextContent()
+    '''returns String\n\n
+    getTextContent()\n
     '''
 def getUserData():
-    '''public Object getUserData(final String key)
+    '''returns Object\n\n
+    getUserData(final String key)\n
     '''
 def isDefaultNamespace():
-    '''public boolean isDefaultNamespace(final String namespaceURI)
+    '''returns boolean\n\n
+    isDefaultNamespace(final String namespaceURI)\n
     '''
 def isEqualNode():
-    '''public boolean isEqualNode(final Node arg)
+    '''returns boolean\n\n
+    isEqualNode(final Node arg)\n
     '''
 def isSameNode():
-    '''public boolean isSameNode(final Node other)
+    '''returns boolean\n\n
+    isSameNode(final Node other)\n
     '''
 def lookupNamespaceURI():
-    '''public String lookupNamespaceURI(final String prefix)
+    '''returns String\n\n
+    lookupNamespaceURI(final String prefix)\n
     '''
 def lookupPrefix():
-    '''public String lookupPrefix(final String namespaceURI)
+    '''returns String\n\n
+    lookupPrefix(final String namespaceURI)\n
     '''
 def setTextContent():
-    '''public void setTextContent(final String textContent)
+    '''returns None\n\n
+    setTextContent(final String textContent)\n
     '''
 def setUserData():
-    '''public Object setUserData(final String key, final Object data, final UserDataHandler handler)
+    '''returns Object\n\n
+    setUserData(final String key, final Object data, final UserDataHandler handler)\n
     '''

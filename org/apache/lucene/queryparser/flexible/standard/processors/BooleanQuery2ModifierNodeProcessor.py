@@ -1,12 +1,16 @@
-def BooleanQuery2ModifierNodeProcessor():
-    '''public BooleanQuery2ModifierNodeProcessor()
+def ():
+    '''returns BooleanQuery2ModifierNodeProcessor\n\n
+    ()\n
     '''
 def process():
-    '''public QueryNode process(final QueryNode queryTree)
+    '''returns QueryNode\n\n
+    process(final QueryNode queryTree)\n
     '''
 def setQueryConfigHandler():
-    '''public void setQueryConfigHandler(final QueryConfigHandler queryConfigHandler)
+    '''returns None\n\n
+    setQueryConfigHandler(final QueryConfigHandler queryConfigHandler)\n
     '''
 def getQueryConfigHandler():
-    '''public QueryConfigHandler getQueryConfigHandler()
+    '''returns QueryConfigHandler\n\n
+    getQueryConfigHandler()\n
     '''

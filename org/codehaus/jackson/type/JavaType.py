@@ -1,84 +1,80 @@
 def withValueHandler():
-    '''public JavaType withValueHandler(final Object h)
+    '''returns JavaType\n\n
+    withValueHandler(final Object h)\n
     '''
 def withContentValueHandler():
-    '''public JavaType withContentValueHandler(final Object h)
+    '''returns JavaType\n\n
+    withContentValueHandler(final Object h)\n
     '''
 def setValueHandler():
-    '''public void setValueHandler(final Object h)
+    '''returns None\n\n
+    setValueHandler(final Object h)\n
     '''
 def narrowBy():
-    '''public JavaType narrowBy(final Class<?> subclass)
+    '''returns JavaType\n\n
+    narrowBy(final Class<?> subclass)\n
     '''
 def forcedNarrowBy():
-    '''public JavaType forcedNarrowBy(final Class<?> subclass)
+    '''returns JavaType\n\n
+    forcedNarrowBy(final Class<?> subclass)\n
     '''
 def widenBy():
-    '''public JavaType widenBy(final Class<?> superclass)
-    '''
-def hasRawClass():
-    '''public final boolean hasRawClass(final Class<?> clz)
+    '''returns JavaType\n\n
+    widenBy(final Class<?> superclass)\n
     '''
 def isAbstract():
-    '''public boolean isAbstract()
+    '''returns boolean\n\n
+    isAbstract()\n
     '''
 def isConcrete():
-    '''public boolean isConcrete()
+    '''returns boolean\n\n
+    isConcrete()\n
     '''
 def isThrowable():
-    '''public boolean isThrowable()
+    '''returns boolean\n\n
+    isThrowable()\n
     '''
 def isArrayType():
-    '''public boolean isArrayType()
-    '''
-def isEnumType():
-    '''public final boolean isEnumType()
-    '''
-def isInterface():
-    '''public final boolean isInterface()
-    '''
-def isPrimitive():
-    '''public final boolean isPrimitive()
-    '''
-def isFinal():
-    '''public final boolean isFinal()
+    '''returns boolean\n\n
+    isArrayType()\n
     '''
 def isCollectionLikeType():
-    '''public boolean isCollectionLikeType()
+    '''returns boolean\n\n
+    isCollectionLikeType()\n
     '''
 def isMapLikeType():
-    '''public boolean isMapLikeType()
+    '''returns boolean\n\n
+    isMapLikeType()\n
     '''
 def hasGenericTypes():
-    '''public boolean hasGenericTypes()
+    '''returns boolean\n\n
+    hasGenericTypes()\n
     '''
 def getKeyType():
-    '''public JavaType getKeyType()
+    '''returns JavaType\n\n
+    getKeyType()\n
     '''
 def getContentType():
-    '''public JavaType getContentType()
+    '''returns JavaType\n\n
+    getContentType()\n
     '''
 def containedTypeCount():
-    '''public int containedTypeCount()
+    '''returns int\n\n
+    containedTypeCount()\n
     '''
 def containedType():
-    '''public JavaType containedType(final int index)
+    '''returns JavaType\n\n
+    containedType(final int index)\n
     '''
 def containedTypeName():
-    '''public String containedTypeName(final int index)
-    '''
-def getValueHandler():
-    '''public <T> T getValueHandler()
-    '''
-def getTypeHandler():
-    '''public <T> T getTypeHandler()
+    '''returns String\n\n
+    containedTypeName(final int index)\n
     '''
 def getGenericSignature():
-    '''public String getGenericSignature()
+    '''returns String\n\n
+    getGenericSignature()\n
     '''
 def getErasedSignature():
-    '''public String getErasedSignature()
-    '''
-def hashCode():
-    '''public final int hashCode()
+    '''returns String\n\n
+    getErasedSignature()\n
     '''

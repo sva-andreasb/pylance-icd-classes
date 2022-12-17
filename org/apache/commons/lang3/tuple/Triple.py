@@ -1,16 +1,17 @@
-def of():
-    '''public static <L, M, R> Triple<L, M, R> of(final L left, final M middle, final R right)
-    '''
 def compareTo():
-    '''public int compareTo(final Triple<L, M, R> other)
+    '''returns int\n\n
+    compareTo(final Triple<L, M, R> other)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final String format)
+    '''returns String\n\n
+    toString()\n
+    toString(final String format)\n
     '''

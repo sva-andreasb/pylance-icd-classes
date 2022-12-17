@@ -1,45 +1,60 @@
 def getDomainId():
-    '''public String getDomainId()
+    '''returns String\n\n
+    getDomainId()\n
     '''
 def setDomainId():
-    '''public void setDomainId(final String domainId)
+    '''returns None\n\n
+    setDomainId(final String domainId)\n
     '''
 def isDomainIdSpecified():
-    '''public boolean isDomainIdSpecified()
+    '''returns boolean\n\n
+    isDomainIdSpecified()\n
     '''
 def unsetDomainId():
-    '''public void unsetDomainId()
+    '''returns None\n\n
+    unsetDomainId()\n
     '''
 def getUserId():
-    '''public String getUserId()
+    '''returns String\n\n
+    getUserId()\n
     '''
 def setUserId():
-    '''public void setUserId(final String userId)
+    '''returns None\n\n
+    setUserId(final String userId)\n
     '''
 def isUserIdSpecified():
-    '''public boolean isUserIdSpecified()
+    '''returns boolean\n\n
+    isUserIdSpecified()\n
     '''
 def unsetUserId():
-    '''public void unsetUserId()
+    '''returns None\n\n
+    unsetUserId()\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def setUserName():
-    '''public void setUserName(final String userName)
+    '''returns None\n\n
+    setUserName(final String userName)\n
     '''
 def isUserNameSpecified():
-    '''public boolean isUserNameSpecified()
+    '''returns boolean\n\n
+    isUserNameSpecified()\n
     '''
 def unsetUserName():
-    '''public void unsetUserName()
+    '''returns None\n\n
+    unsetUserName()\n
     '''
 def domainId():
-    '''public Mask domainId()
+    '''returns Mask\n\n
+    domainId()\n
     '''
 def userId():
-    '''public Mask userId()
+    '''returns Mask\n\n
+    userId()\n
     '''
 def userName():
-    '''public Mask userName()
+    '''returns Mask\n\n
+    userName()\n
     '''

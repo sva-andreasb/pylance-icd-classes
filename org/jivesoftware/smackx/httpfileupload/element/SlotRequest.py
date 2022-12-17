@@ -1,15 +1,19 @@
 ELEMENT = "String  \"request\""
 NAMESPACE = "String  \"urn:xmpp:http:upload:0\""
-def SlotRequest():
-    '''public SlotRequest(final DomainBareJid uploadServiceAddress, final String filename, final long size)
-    public SlotRequest(final DomainBareJid uploadServiceAddress, final String filename, final long size, final String contentType)
+def ():
+    '''returns SlotRequest\n\n
+    (final DomainBareJid uploadServiceAddress, final String filename, final long size)\n
+    (final DomainBareJid uploadServiceAddress, final String filename, final long size, final String contentType)\n
     '''
 def getFilename():
-    '''public String getFilename()
+    '''returns String\n\n
+    getFilename()\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''

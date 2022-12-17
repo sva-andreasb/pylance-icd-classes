@@ -1,13 +1,14 @@
-def DelayCacheManagementThread():
-    '''public DelayCacheManagementThread(final int cycleTime)
+def ():
+    '''returns Publish\n\n
+    (final int cycleTime)\n
+    (final DescriptionKey key)\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def Publish():
-    '''public Publish(final DescriptionKey key)
+    '''returns String\n\n
+    toString()\n
     '''

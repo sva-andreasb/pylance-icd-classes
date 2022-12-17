@@ -1,6 +1,8 @@
-def PmSrvFldClassificationDesc():
-    '''public PmSrvFldClassificationDesc(final MboValue mbv)
+def ():
+    '''returns PmSrvFldClassificationDesc\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

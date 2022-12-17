@@ -1,3 +1,4 @@
-def PmCfgFldEscalation():
-    '''public PmCfgFldEscalation(final MboValue mbv)
+def ():
+    '''returns PmCfgFldEscalation\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,3 +1,4 @@
-def FldErrQueue():
-    '''public FldErrQueue(final MboValue mbv)
+def ():
+    '''returns FldErrQueue\n\n
+    (final MboValue mbv)\n
     '''

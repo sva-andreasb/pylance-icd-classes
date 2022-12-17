@@ -1,12 +1,12 @@
-def PmStatusSummaryBean():
-    '''public PmStatusSummaryBean()
-    '''
-def sort():
-    '''public synchronized void sort(final String sOrderByClause)
+def ():
+    '''returns PmStatusSummaryBean\n\n
+    ()\n
     '''
 def elapseTime():
-    '''public String elapseTime(final long dtime)
+    '''returns String\n\n
+    elapseTime(final long dtime)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

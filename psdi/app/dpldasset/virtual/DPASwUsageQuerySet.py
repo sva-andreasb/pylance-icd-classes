@@ -1,7 +1,9 @@
-def DPASwUsageQuerySet():
-    '''public DPASwUsageQuerySet(final MboServerInterface ms)
+def ():
+    '''returns DPASwUsageQuerySet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
-    public void execute(final MboRemote owningConversion)
+    '''returns None\n\n
+    execute()\n
+    execute(final MboRemote owningConversion)\n
     '''

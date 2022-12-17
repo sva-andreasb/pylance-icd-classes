@@ -1,3 +1,4 @@
-def ItemOrgChgStatusSet():
-    '''public ItemOrgChgStatusSet(final MboServerInterface ms)
+def ():
+    '''returns ItemOrgChgStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

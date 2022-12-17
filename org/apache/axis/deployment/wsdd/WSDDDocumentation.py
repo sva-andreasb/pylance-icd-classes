@@ -1,13 +1,17 @@
-def WSDDDocumentation():
-    '''public WSDDDocumentation(final String value)
-    public WSDDDocumentation(final Element e)
+def ():
+    '''returns WSDDDocumentation\n\n
+    (final String value)\n
+    (final Element e)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def writeToContext():
-    '''public void writeToContext(final SerializationContext context)
+    '''returns None\n\n
+    writeToContext(final SerializationContext context)\n
     '''

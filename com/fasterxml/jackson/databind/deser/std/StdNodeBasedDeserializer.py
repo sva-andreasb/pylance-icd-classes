@@ -1,9 +1,12 @@
 def resolve():
-    '''public void resolve(final DeserializationContext ctxt)
+    '''returns None\n\n
+    resolve(final DeserializationContext ctxt)\n
     '''
 def deserialize():
-    '''public T deserialize(final JsonParser jp, final DeserializationContext ctxt)
+    '''returns T\n\n
+    deserialize(final JsonParser jp, final DeserializationContext ctxt)\n
     '''
 def deserializeWithType():
-    '''public Object deserializeWithType(final JsonParser jp, final DeserializationContext ctxt, final TypeDeserializer td)
+    '''returns Object\n\n
+    deserializeWithType(final JsonParser jp, final DeserializationContext ctxt, final TypeDeserializer td)\n
     '''

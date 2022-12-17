@@ -1,3 +1,4 @@
 def getDistanceMeasure():
-    '''public DistanceMeasure getDistanceMeasure()
+    '''returns DistanceMeasure\n\n
+    getDistanceMeasure()\n
     '''

@@ -1,54 +1,71 @@
-def CircularFifoQueue():
-    '''public CircularFifoQueue()
-    public CircularFifoQueue(final int size)
-    public CircularFifoQueue(final Collection<? extends E> coll)
+def ():
+    '''returns CircularFifoQueue\n\n
+    ()\n
+    (final int size)\n
+    (final Collection<? extends E> coll)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def isFull():
-    '''public boolean isFull()
+    '''returns boolean\n\n
+    isFull()\n
     '''
 def isAtFullCapacity():
-    '''public boolean isAtFullCapacity()
+    '''returns boolean\n\n
+    isAtFullCapacity()\n
     '''
 def maxSize():
-    '''public int maxSize()
+    '''returns int\n\n
+    maxSize()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def add():
-    '''public boolean add(final E element)
+    '''returns boolean\n\n
+    add(final E element)\n
     '''
 def get():
-    '''public E get(final int index)
+    '''returns E\n\n
+    get(final int index)\n
     '''
 def offer():
-    '''public boolean offer(final E element)
+    '''returns boolean\n\n
+    offer(final E element)\n
     '''
 def poll():
-    '''public E poll()
+    '''returns E\n\n
+    poll()\n
     '''
 def element():
-    '''public E element()
+    '''returns E\n\n
+    element()\n
     '''
 def peek():
-    '''public E peek()
+    '''returns E\n\n
+    peek()\n
     '''
 def remove():
-    '''public E remove()
-    public void remove()
+    '''returns None\n\n
+    remove()\n
+    remove()\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''

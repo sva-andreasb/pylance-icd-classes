@@ -1,15 +1,20 @@
-def PlusPFldBSNextBillDate():
-    '''public PlusPFldBSNextBillDate(final MboValue mbv)
+def ():
+    '''returns PlusPFldBSNextBillDate\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

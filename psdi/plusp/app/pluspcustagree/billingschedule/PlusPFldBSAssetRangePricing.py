@@ -1,12 +1,12 @@
-def PlusPFldBSAssetRangePricing():
-    '''public PlusPFldBSAssetRangePricing(final MboValue mbv)
+def ():
+    '''returns PlusPFldBSAssetRangePricing\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def validate():
-    '''public void validate()
-    '''
-def validateRangeAndPrice():
-    '''public static void validateRangeAndPrice(final MboValue mboValue)
+    '''returns None\n\n
+    validate()\n
     '''

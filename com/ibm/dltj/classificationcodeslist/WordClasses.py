@@ -1,16 +1,21 @@
 COPYRIGHT = "String  \"\n\n(C) Copyright IBM Corp. 2003, 2007.\n\n\""
-def WordClasses():
-    '''public WordClasses()
+def ():
+    '''returns WordClasses\n\n
+    ()\n
     '''
 def setClassificationCodes():
-    '''public void setClassificationCodes(final RuleBasedBreakIterator ruleBasedBreakIterator)
+    '''returns None\n\n
+    setClassificationCodes(final RuleBasedBreakIterator ruleBasedBreakIterator)\n
     '''
 def getRuleStatus():
-    '''public int getRuleStatus()
+    '''returns int\n\n
+    getRuleStatus()\n
     '''
 def getRuleStatusLength():
-    '''public int getRuleStatusLength()
+    '''returns int\n\n
+    getRuleStatusLength()\n
     '''
 def getRuleStatusVec():
-    '''public int[] getRuleStatusVec()
+    '''returns int[]\n\n
+    getRuleStatusVec()\n
     '''

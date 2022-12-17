@@ -1,3 +1,4 @@
-def OSLCRelationshipSet():
-    '''public OSLCRelationshipSet(final MboServerInterface ms)
+def ():
+    '''returns OSLCRelationshipSet\n\n
+    (final MboServerInterface ms)\n
     '''

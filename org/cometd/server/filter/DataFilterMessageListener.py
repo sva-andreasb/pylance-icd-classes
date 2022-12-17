@@ -1,7 +1,9 @@
-def DataFilterMessageListener():
-    '''public DataFilterMessageListener(final DataFilter... filters)
-    public DataFilterMessageListener(final BayeuxServer bayeux, final DataFilter... filters)
+def ():
+    '''returns DataFilterMessageListener\n\n
+    (final DataFilter... filters)\n
+    (final BayeuxServer bayeux, final DataFilter... filters)\n
     '''
 def onMessage():
-    '''public boolean onMessage(final ServerSession from, final ServerChannel channel, final ServerMessage.Mutable message)
+    '''returns boolean\n\n
+    onMessage(final ServerSession from, final ServerChannel channel, final ServerMessage.Mutable message)\n
     '''

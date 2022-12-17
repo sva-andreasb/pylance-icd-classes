@@ -1,3 +1,4 @@
-def PlusCATMasterPMSet():
-    '''public PlusCATMasterPMSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCATMasterPMSet\n\n
+    (final MboServerInterface ms)\n
     '''

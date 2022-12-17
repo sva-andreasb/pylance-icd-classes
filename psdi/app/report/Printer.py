@@ -1,3 +1,4 @@
-def Printer():
-    '''public Printer(final MboSet ms)
+def ():
+    '''returns Printer\n\n
+    (final MboSet ms)\n
     '''

@@ -1,3 +1,4 @@
 def parseXML():
-    '''public Object parseXML(final InputStream stream)
+    '''returns Object\n\n
+    parseXML(final InputStream stream)\n
     '''

@@ -1,8 +1,10 @@
-def ImgPostscript():
-    '''public ImgPostscript(final URL url)
-    public ImgPostscript(final String filename)
-    public ImgPostscript(final byte[] img)
+def ():
+    '''returns ImgPostscript\n\n
+    (final URL url)\n
+    (final String filename)\n
+    (final byte[] img)\n
     '''
 def readPostscript():
-    '''public void readPostscript(final PdfTemplate template)
+    '''returns None\n\n
+    readPostscript(final PdfTemplate template)\n
     '''

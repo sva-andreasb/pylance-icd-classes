@@ -1,27 +1,36 @@
-def PositionIncrementAttributeImpl():
-    '''public PositionIncrementAttributeImpl()
+def ():
+    '''returns PositionIncrementAttributeImpl\n\n
+    ()\n
     '''
 def setPositionIncrement():
-    '''public void setPositionIncrement(final int positionIncrement)
+    '''returns None\n\n
+    setPositionIncrement(final int positionIncrement)\n
     '''
 def getPositionIncrement():
-    '''public int getPositionIncrement()
+    '''returns int\n\n
+    getPositionIncrement()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def copyTo():
-    '''public void copyTo(final AttributeImpl target)
+    '''returns None\n\n
+    copyTo(final AttributeImpl target)\n
     '''
 def reflectWith():
-    '''public void reflectWith(final AttributeReflector reflector)
+    '''returns None\n\n
+    reflectWith(final AttributeReflector reflector)\n
     '''

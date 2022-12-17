@@ -1,5 +1,6 @@
-def EncryptedDocumentException():
-    '''public EncryptedDocumentException(final String s)
-    public EncryptedDocumentException(final String message, final Throwable cause)
-    public EncryptedDocumentException(final Throwable cause)
+def ():
+    '''returns EncryptedDocumentException\n\n
+    (final String s)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

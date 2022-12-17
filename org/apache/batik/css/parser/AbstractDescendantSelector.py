@@ -1,6 +1,8 @@
 def getAncestorSelector():
-    '''public Selector getAncestorSelector()
+    '''returns Selector\n\n
+    getAncestorSelector()\n
     '''
 def getSimpleSelector():
-    '''public SimpleSelector getSimpleSelector()
+    '''returns SimpleSelector\n\n
+    getSimpleSelector()\n
     '''

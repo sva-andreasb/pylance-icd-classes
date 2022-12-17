@@ -1,3 +1,4 @@
-def RFQChangeStatusSet():
-    '''public RFQChangeStatusSet(final MboServerInterface ms)
+def ():
+    '''returns RFQChangeStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

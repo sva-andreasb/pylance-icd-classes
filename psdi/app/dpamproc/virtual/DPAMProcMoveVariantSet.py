@@ -1,3 +1,4 @@
-def DPAMProcMoveVariantSet():
-    '''public DPAMProcMoveVariantSet(final MboServerInterface ms)
+def ():
+    '''returns DPAMProcMoveVariantSet\n\n
+    (final MboServerInterface ms)\n
     '''

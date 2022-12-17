@@ -1,0 +1,5 @@
+SPREAD_PAD = "short  1"
+SPREAD_REFLECT = "short  2"
+SPREAD_REPEAT = "short  3"
+SRGB = "short  0"
+LINEAR_RGB = "short  1"

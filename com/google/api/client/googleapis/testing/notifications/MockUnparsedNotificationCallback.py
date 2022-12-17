@@ -1,6 +1,8 @@
 def wasCalled():
-    '''public boolean wasCalled()
+    '''returns boolean\n\n
+    wasCalled()\n
     '''
 def onNotification():
-    '''public void onNotification(final StoredChannel storedChannel, final UnparsedNotification notification)
+    '''returns None\n\n
+    onNotification(final StoredChannel storedChannel, final UnparsedNotification notification)\n
     '''

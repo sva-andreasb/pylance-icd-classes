@@ -1,6 +1,8 @@
-def ShiftSet():
-    '''public ShiftSet(final MboServerInterface ms)
+def ():
+    '''returns ShiftSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def indexOf():
-    '''public int indexOf(final long uid)
+    '''returns int\n\n
+    indexOf(final long uid)\n
     '''

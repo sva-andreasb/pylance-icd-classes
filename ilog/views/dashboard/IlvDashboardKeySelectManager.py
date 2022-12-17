@@ -1,48 +1,64 @@
-def IlvDashboardKeySelectManager():
-    '''public IlvDashboardKeySelectManager(final IlvDashboardDiagram a)
+def ():
+    '''returns IlvDashboardKeySelectManager\n\n
+    (final IlvDashboardDiagram a)\n
     '''
 def updateSelectionChain():
-    '''public void updateSelectionChain()
+    '''returns None\n\n
+    updateSelectionChain()\n
     '''
 def select():
-    '''public void select(final IlvDashboardSymbol o)
+    '''returns None\n\n
+    select(final IlvDashboardSymbol o)\n
     '''
 def getSelected():
-    '''public IlvDashboardSymbol getSelected()
+    '''returns IlvDashboardSymbol\n\n
+    getSelected()\n
     '''
 def removeSelectableSymbol():
-    '''public void removeSelectableSymbol(final IlvDashboardSymbol o)
+    '''returns None\n\n
+    removeSelectableSymbol(final IlvDashboardSymbol o)\n
     '''
 def selectNext():
-    '''public void selectNext()
+    '''returns None\n\n
+    selectNext()\n
     '''
 def selectPrevious():
-    '''public void selectPrevious()
+    '''returns None\n\n
+    selectPrevious()\n
     '''
 def selectAt():
-    '''public void selectAt(final float n, final float n2, final IlvManagerView ilvManagerView)
+    '''returns None\n\n
+    selectAt(final float n, final float n2, final IlvManagerView ilvManagerView)\n
     '''
 def focusGained():
-    '''public void focusGained()
+    '''returns None\n\n
+    focusGained()\n
     '''
 def focusLost():
-    '''public void focusLost()
+    '''returns None\n\n
+    focusLost()\n
     '''
 def adjustmentFinished():
-    '''public void adjustmentFinished(final SDMModelEvent sdmModelEvent)
+    '''returns None\n\n
+    adjustmentFinished(final SDMModelEvent sdmModelEvent)\n
     '''
 def dataChanged():
-    '''public void dataChanged(final SDMModelEvent sdmModelEvent)
+    '''returns None\n\n
+    dataChanged(final SDMModelEvent sdmModelEvent)\n
     '''
 def linkDestinationChanged():
-    '''public void linkDestinationChanged(final SDMModelEvent sdmModelEvent)
+    '''returns None\n\n
+    linkDestinationChanged(final SDMModelEvent sdmModelEvent)\n
     '''
 def linkSourceChanged():
-    '''public void linkSourceChanged(final SDMModelEvent sdmModelEvent)
+    '''returns None\n\n
+    linkSourceChanged(final SDMModelEvent sdmModelEvent)\n
     '''
 def objectAdded():
-    '''public void objectAdded(final SDMModelEvent sdmModelEvent)
+    '''returns None\n\n
+    objectAdded(final SDMModelEvent sdmModelEvent)\n
     '''
 def objectRemoved():
-    '''public void objectRemoved(final SDMModelEvent sdmModelEvent)
+    '''returns None\n\n
+    objectRemoved(final SDMModelEvent sdmModelEvent)\n
     '''

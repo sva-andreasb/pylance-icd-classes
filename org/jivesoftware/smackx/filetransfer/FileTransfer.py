@@ -1,40 +1,53 @@
 def getFileSize():
-    '''public long getFileSize()
+    '''returns long\n\n
+    getFileSize()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def getFilePath():
-    '''public String getFilePath()
+    '''returns String\n\n
+    getFilePath()\n
     '''
 def getPeer():
-    '''public Jid getPeer()
+    '''returns Jid\n\n
+    getPeer()\n
     '''
 def getProgress():
-    '''public double getProgress()
+    '''returns double\n\n
+    getProgress()\n
     '''
 def isDone():
-    '''public boolean isDone()
+    '''returns boolean\n\n
+    isDone()\n
     '''
 def getStatus():
-    '''public Status getStatus()
+    '''returns Status\n\n
+    getStatus()\n
     '''
 def getError():
-    '''public Error getError()
+    '''returns Error\n\n
+    getError()\n
     '''
 def getException():
-    '''public Exception getException()
+    '''returns Exception\n\n
+    getException()\n
     '''
 def getStreamID():
-    '''public String getStreamID()
+    '''returns String\n\n
+    getStreamID()\n
     '''
 def getAmountWritten():
-    '''public long getAmountWritten()
+    '''returns long\n\n
+    getAmountWritten()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

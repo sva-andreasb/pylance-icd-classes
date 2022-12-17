@@ -1,44 +1,58 @@
-def FeatureInfo():
-    '''public FeatureInfo(final int expiryDays, final int isFloating, final int isAvailable, final int isUsed, final String vendorString, final String noticeString)
-    public FeatureInfo(final int n, final int n2, final int n3, final int n4, final int isDemo, final int isNodeLocked, final int isTokenBased, final int tokenCount, final String tokenFeature, final String s, final String s2, final String licenseFile, final UserInfo[] usersInfo)
-    public FeatureInfo(final int expiryDays, final String vendorString)
+def ():
+    '''returns FeatureInfo\n\n
+    (final int expiryDays, final int isFloating, final int isAvailable, final int isUsed, final String vendorString, final String noticeString)\n
+    (final int n, final int n2, final int n3, final int n4, final int isDemo, final int isNodeLocked, final int isTokenBased, final int tokenCount, final String tokenFeature, final String s, final String s2, final String licenseFile, final UserInfo[] usersInfo)\n
+    (final int expiryDays, final String vendorString)\n
     '''
 def getExpiryDays():
-    '''public int getExpiryDays()
+    '''returns int\n\n
+    getExpiryDays()\n
     '''
 def isAvailable():
-    '''public int isAvailable()
+    '''returns int\n\n
+    isAvailable()\n
     '''
 def isFloating():
-    '''public int isFloating()
+    '''returns int\n\n
+    isFloating()\n
     '''
 def isUsed():
-    '''public int isUsed()
+    '''returns int\n\n
+    isUsed()\n
     '''
 def getVendorString():
-    '''public String getVendorString()
+    '''returns String\n\n
+    getVendorString()\n
     '''
 def getNoticeString():
-    '''public String getNoticeString()
+    '''returns String\n\n
+    getNoticeString()\n
     '''
 def getUsersInfo():
-    '''public UserInfo[] getUsersInfo()
+    '''returns UserInfo[]\n\n
+    getUsersInfo()\n
     '''
 def getLicenseFile():
-    '''public String getLicenseFile()
+    '''returns String\n\n
+    getLicenseFile()\n
     '''
 def getIsDemo():
-    '''public int getIsDemo()
+    '''returns int\n\n
+    getIsDemo()\n
     '''
 def getIsNodeLocked():
-    '''public int getIsNodeLocked()
+    '''returns int\n\n
+    getIsNodeLocked()\n
     '''
 def isTokenBased():
-    '''public int isTokenBased()
+    '''returns int\n\n
+    isTokenBased()\n
     '''
 def getTokenFeature():
-    '''public String getTokenFeature()
+    '''returns String\n\n
+    getTokenFeature()\n
     '''
 def getTokenCount():
-    '''public int getTokenCount()
+    '''returns int\n\n
+    getTokenCount()\n
     '''

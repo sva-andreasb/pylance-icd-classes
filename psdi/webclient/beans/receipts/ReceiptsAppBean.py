@@ -1,27 +1,32 @@
 def SHIPRECPTS():
-    '''public int SHIPRECPTS()
+    '''returns int\n\n
+    SHIPRECPTS()\n
     '''
 def APPRRCPTS():
-    '''public int APPRRCPTS()
+    '''returns int\n\n
+    APPRRCPTS()\n
     '''
 def approvereceipts():
-    '''public int approvereceipts()
+    '''returns int\n\n
+    approvereceipts()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
-    '''
-def save():
-    '''public synchronized void save()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def CLEAR():
-    '''public int CLEAR()
+    '''returns int\n\n
+    CLEAR()\n
     '''
 def canExit():
-    '''public boolean canExit()
+    '''returns boolean\n\n
+    canExit()\n
     '''
 def wasProblemsPosted():
-    '''public MboRemote wasProblemsPosted()
+    '''returns MboRemote\n\n
+    wasProblemsPosted()\n
     '''
 def removeFromPosting():
-    '''public void removeFromPosting()
+    '''returns None\n\n
+    removeFromPosting()\n
     '''

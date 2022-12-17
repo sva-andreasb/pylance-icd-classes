@@ -1,270 +1,333 @@
-def now():
-    '''public static LocalDate now()
-    public static LocalDate now(final DateTimeZone dateTimeZone)
-    public static LocalDate now(final Chronology chronology)
-    '''
-def parse():
-    '''public static LocalDate parse(final String s)
-    public static LocalDate parse(final String s, final DateTimeFormatter dateTimeFormatter)
-    '''
-def fromCalendarFields():
-    '''public static LocalDate fromCalendarFields(final Calendar calendar)
-    '''
-def fromDateFields():
-    '''public static LocalDate fromDateFields(final Date time)
-    '''
-def LocalDate():
-    '''public LocalDate()
-    public LocalDate(final DateTimeZone dateTimeZone)
-    public LocalDate(final Chronology chronology)
-    public LocalDate(final long n)
-    public LocalDate(final long n, final DateTimeZone dateTimeZone)
-    public LocalDate(final long n, Chronology iChronology)
-    public LocalDate(final Object o)
-    public LocalDate(final Object o, final DateTimeZone dateTimeZone)
-    public LocalDate(final Object o, Chronology chronology)
-    public LocalDate(final int n, final int n2, final int n3)
-    public LocalDate(final int n, final int n2, final int n3, Chronology withUTC)
+def ():
+    '''returns LocalDate\n\n
+    ()\n
+    (final DateTimeZone dateTimeZone)\n
+    (final Chronology chronology)\n
+    (final long n)\n
+    (final long n, final DateTimeZone dateTimeZone)\n
+    (final long n, Chronology iChronology)\n
+    (final Object o)\n
+    (final Object o, final DateTimeZone dateTimeZone)\n
+    (final Object o, Chronology chronology)\n
+    (final int n, final int n2, final int n3)\n
+    (final int n, final int n2, final int n3, Chronology withUTC)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def getValue():
-    '''public int getValue(final int i)
+    '''returns int\n\n
+    getValue(final int i)\n
     '''
 def get():
-    '''public int get(final DateTimeFieldType obj)
+    '''returns int\n\n
+    get(final DateTimeFieldType obj)\n
     '''
 def isSupported():
-    '''public boolean isSupported(final DateTimeFieldType dateTimeFieldType)
-    public boolean isSupported(final DurationFieldType durationFieldType)
+    '''returns boolean\n\n
+    isSupported(final DateTimeFieldType dateTimeFieldType)\n
+    isSupported(final DurationFieldType durationFieldType)\n
     '''
 def getChronology():
-    '''public Chronology getChronology()
+    '''returns Chronology\n\n
+    getChronology()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def compareTo():
-    '''public int compareTo(final ReadablePartial readablePartial)
+    '''returns int\n\n
+    compareTo(final ReadablePartial readablePartial)\n
     '''
 def toDateTimeAtStartOfDay():
-    '''public DateTime toDateTimeAtStartOfDay()
-    public DateTime toDateTimeAtStartOfDay(DateTimeZone zone)
+    '''returns DateTime\n\n
+    toDateTimeAtStartOfDay()\n
+    toDateTimeAtStartOfDay(DateTimeZone zone)\n
     '''
 def toDateTimeAtMidnight():
-    '''public DateTime toDateTimeAtMidnight()
-    public DateTime toDateTimeAtMidnight(DateTimeZone zone)
+    '''returns DateTime\n\n
+    toDateTimeAtMidnight()\n
+    toDateTimeAtMidnight(DateTimeZone zone)\n
     '''
 def toDateTimeAtCurrentTime():
-    '''public DateTime toDateTimeAtCurrentTime()
-    public DateTime toDateTimeAtCurrentTime(DateTimeZone zone)
+    '''returns DateTime\n\n
+    toDateTimeAtCurrentTime()\n
+    toDateTimeAtCurrentTime(DateTimeZone zone)\n
     '''
 def toDateMidnight():
-    '''public DateMidnight toDateMidnight()
-    public DateMidnight toDateMidnight(DateTimeZone zone)
+    '''returns DateMidnight\n\n
+    toDateMidnight()\n
+    toDateMidnight(DateTimeZone zone)\n
     '''
 def toLocalDateTime():
-    '''public LocalDateTime toLocalDateTime(final LocalTime localTime)
+    '''returns LocalDateTime\n\n
+    toLocalDateTime(final LocalTime localTime)\n
     '''
 def toDateTime():
-    '''public DateTime toDateTime(final LocalTime localTime)
-    public DateTime toDateTime(final LocalTime localTime, final DateTimeZone dateTimeZone)
+    '''returns DateTime\n\n
+    toDateTime(final LocalTime localTime)\n
+    toDateTime(final LocalTime localTime, final DateTimeZone dateTimeZone)\n
     '''
 def toInterval():
-    '''public Interval toInterval()
-    public Interval toInterval(DateTimeZone zone)
+    '''returns Interval\n\n
+    toInterval()\n
+    toInterval(DateTimeZone zone)\n
     '''
 def toDate():
-    '''public Date toDate()
+    '''returns Date\n\n
+    toDate()\n
     '''
 def withFields():
-    '''public LocalDate withFields(final ReadablePartial readablePartial)
+    '''returns LocalDate\n\n
+    withFields(final ReadablePartial readablePartial)\n
     '''
 def withField():
-    '''public LocalDate withField(final DateTimeFieldType obj, final int n)
+    '''returns LocalDate\n\n
+    withField(final DateTimeFieldType obj, final int n)\n
     '''
 def withFieldAdded():
-    '''public LocalDate withFieldAdded(final DurationFieldType obj, final int n)
+    '''returns LocalDate\n\n
+    withFieldAdded(final DurationFieldType obj, final int n)\n
     '''
 def withPeriodAdded():
-    '''public LocalDate withPeriodAdded(final ReadablePeriod readablePeriod, final int n)
+    '''returns LocalDate\n\n
+    withPeriodAdded(final ReadablePeriod readablePeriod, final int n)\n
     '''
 def plus():
-    '''public LocalDate plus(final ReadablePeriod readablePeriod)
+    '''returns LocalDate\n\n
+    plus(final ReadablePeriod readablePeriod)\n
     '''
 def plusYears():
-    '''public LocalDate plusYears(final int n)
+    '''returns LocalDate\n\n
+    plusYears(final int n)\n
     '''
 def plusMonths():
-    '''public LocalDate plusMonths(final int n)
+    '''returns LocalDate\n\n
+    plusMonths(final int n)\n
     '''
 def plusWeeks():
-    '''public LocalDate plusWeeks(final int n)
+    '''returns LocalDate\n\n
+    plusWeeks(final int n)\n
     '''
 def plusDays():
-    '''public LocalDate plusDays(final int n)
+    '''returns LocalDate\n\n
+    plusDays(final int n)\n
     '''
 def minus():
-    '''public LocalDate minus(final ReadablePeriod readablePeriod)
+    '''returns LocalDate\n\n
+    minus(final ReadablePeriod readablePeriod)\n
     '''
 def minusYears():
-    '''public LocalDate minusYears(final int n)
+    '''returns LocalDate\n\n
+    minusYears(final int n)\n
     '''
 def minusMonths():
-    '''public LocalDate minusMonths(final int n)
+    '''returns LocalDate\n\n
+    minusMonths(final int n)\n
     '''
 def minusWeeks():
-    '''public LocalDate minusWeeks(final int n)
+    '''returns LocalDate\n\n
+    minusWeeks(final int n)\n
     '''
 def minusDays():
-    '''public LocalDate minusDays(final int n)
+    '''returns LocalDate\n\n
+    minusDays(final int n)\n
     '''
 def property():
-    '''public Property property(final DateTimeFieldType obj)
+    '''returns Property\n\n
+    property(final DateTimeFieldType obj)\n
     '''
 def getEra():
-    '''public int getEra()
+    '''returns int\n\n
+    getEra()\n
     '''
 def getCenturyOfEra():
-    '''public int getCenturyOfEra()
+    '''returns int\n\n
+    getCenturyOfEra()\n
     '''
 def getYearOfEra():
-    '''public int getYearOfEra()
+    '''returns int\n\n
+    getYearOfEra()\n
     '''
 def getYearOfCentury():
-    '''public int getYearOfCentury()
+    '''returns int\n\n
+    getYearOfCentury()\n
     '''
 def getYear():
-    '''public int getYear()
+    '''returns int\n\n
+    getYear()\n
     '''
 def getWeekyear():
-    '''public int getWeekyear()
+    '''returns int\n\n
+    getWeekyear()\n
     '''
 def getMonthOfYear():
-    '''public int getMonthOfYear()
+    '''returns int\n\n
+    getMonthOfYear()\n
     '''
 def getWeekOfWeekyear():
-    '''public int getWeekOfWeekyear()
+    '''returns int\n\n
+    getWeekOfWeekyear()\n
     '''
 def getDayOfYear():
-    '''public int getDayOfYear()
+    '''returns int\n\n
+    getDayOfYear()\n
     '''
 def getDayOfMonth():
-    '''public int getDayOfMonth()
+    '''returns int\n\n
+    getDayOfMonth()\n
     '''
 def getDayOfWeek():
-    '''public int getDayOfWeek()
+    '''returns int\n\n
+    getDayOfWeek()\n
     '''
 def withEra():
-    '''public LocalDate withEra(final int n)
+    '''returns LocalDate\n\n
+    withEra(final int n)\n
     '''
 def withCenturyOfEra():
-    '''public LocalDate withCenturyOfEra(final int n)
+    '''returns LocalDate\n\n
+    withCenturyOfEra(final int n)\n
     '''
 def withYearOfEra():
-    '''public LocalDate withYearOfEra(final int n)
+    '''returns LocalDate\n\n
+    withYearOfEra(final int n)\n
     '''
 def withYearOfCentury():
-    '''public LocalDate withYearOfCentury(final int n)
+    '''returns LocalDate\n\n
+    withYearOfCentury(final int n)\n
     '''
 def withYear():
-    '''public LocalDate withYear(final int n)
+    '''returns LocalDate\n\n
+    withYear(final int n)\n
     '''
 def withWeekyear():
-    '''public LocalDate withWeekyear(final int n)
+    '''returns LocalDate\n\n
+    withWeekyear(final int n)\n
     '''
 def withMonthOfYear():
-    '''public LocalDate withMonthOfYear(final int n)
+    '''returns LocalDate\n\n
+    withMonthOfYear(final int n)\n
     '''
 def withWeekOfWeekyear():
-    '''public LocalDate withWeekOfWeekyear(final int n)
+    '''returns LocalDate\n\n
+    withWeekOfWeekyear(final int n)\n
     '''
 def withDayOfYear():
-    '''public LocalDate withDayOfYear(final int n)
+    '''returns LocalDate\n\n
+    withDayOfYear(final int n)\n
     '''
 def withDayOfMonth():
-    '''public LocalDate withDayOfMonth(final int n)
+    '''returns LocalDate\n\n
+    withDayOfMonth(final int n)\n
     '''
 def withDayOfWeek():
-    '''public LocalDate withDayOfWeek(final int n)
+    '''returns LocalDate\n\n
+    withDayOfWeek(final int n)\n
     '''
 def era():
-    '''public Property era()
+    '''returns Property\n\n
+    era()\n
     '''
 def centuryOfEra():
-    '''public Property centuryOfEra()
+    '''returns Property\n\n
+    centuryOfEra()\n
     '''
 def yearOfCentury():
-    '''public Property yearOfCentury()
+    '''returns Property\n\n
+    yearOfCentury()\n
     '''
 def yearOfEra():
-    '''public Property yearOfEra()
+    '''returns Property\n\n
+    yearOfEra()\n
     '''
 def year():
-    '''public Property year()
+    '''returns Property\n\n
+    year()\n
     '''
 def weekyear():
-    '''public Property weekyear()
+    '''returns Property\n\n
+    weekyear()\n
     '''
 def monthOfYear():
-    '''public Property monthOfYear()
+    '''returns Property\n\n
+    monthOfYear()\n
     '''
 def weekOfWeekyear():
-    '''public Property weekOfWeekyear()
+    '''returns Property\n\n
+    weekOfWeekyear()\n
     '''
 def dayOfYear():
-    '''public Property dayOfYear()
+    '''returns Property\n\n
+    dayOfYear()\n
     '''
 def dayOfMonth():
-    '''public Property dayOfMonth()
+    '''returns Property\n\n
+    dayOfMonth()\n
     '''
 def dayOfWeek():
-    '''public Property dayOfWeek()
+    '''returns Property\n\n
+    dayOfWeek()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final String s)
-    public String toString(final String s, final Locale locale)
+    '''returns String\n\n
+    toString()\n
+    toString(final String s)\n
+    toString(final String s, final Locale locale)\n
     '''
 def getField():
-    '''public DateTimeField getField()
+    '''returns DateTimeField\n\n
+    getField()\n
     '''
 def getLocalDate():
-    '''public LocalDate getLocalDate()
+    '''returns LocalDate\n\n
+    getLocalDate()\n
     '''
 def addToCopy():
-    '''public LocalDate addToCopy(final int n)
+    '''returns LocalDate\n\n
+    addToCopy(final int n)\n
     '''
 def addWrapFieldToCopy():
-    '''public LocalDate addWrapFieldToCopy(final int n)
+    '''returns LocalDate\n\n
+    addWrapFieldToCopy(final int n)\n
     '''
 def setCopy():
-    '''public LocalDate setCopy(final int n)
-    public LocalDate setCopy(final String s, final Locale locale)
-    public LocalDate setCopy(final String s)
+    '''returns LocalDate\n\n
+    setCopy(final int n)\n
+    setCopy(final String s, final Locale locale)\n
+    setCopy(final String s)\n
     '''
 def withMaximumValue():
-    '''public LocalDate withMaximumValue()
+    '''returns LocalDate\n\n
+    withMaximumValue()\n
     '''
 def withMinimumValue():
-    '''public LocalDate withMinimumValue()
+    '''returns LocalDate\n\n
+    withMinimumValue()\n
     '''
 def roundFloorCopy():
-    '''public LocalDate roundFloorCopy()
+    '''returns LocalDate\n\n
+    roundFloorCopy()\n
     '''
 def roundCeilingCopy():
-    '''public LocalDate roundCeilingCopy()
+    '''returns LocalDate\n\n
+    roundCeilingCopy()\n
     '''
 def roundHalfFloorCopy():
-    '''public LocalDate roundHalfFloorCopy()
+    '''returns LocalDate\n\n
+    roundHalfFloorCopy()\n
     '''
 def roundHalfCeilingCopy():
-    '''public LocalDate roundHalfCeilingCopy()
+    '''returns LocalDate\n\n
+    roundHalfCeilingCopy()\n
     '''
 def roundHalfEvenCopy():
-    '''public LocalDate roundHalfEvenCopy()
+    '''returns LocalDate\n\n
+    roundHalfEvenCopy()\n
     '''

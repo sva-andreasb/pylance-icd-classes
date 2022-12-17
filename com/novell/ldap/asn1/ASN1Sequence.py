@@ -1,10 +1,12 @@
 TAG = "int  16"
-def ASN1Sequence():
-    '''public ASN1Sequence()
-    public ASN1Sequence(final int n)
-    public ASN1Sequence(final ASN1Object[] array, final int n)
-    public ASN1Sequence(final ASN1Decoder asn1Decoder, final InputStream inputStream, final int n)
+def ():
+    '''returns ASN1Sequence\n\n
+    ()\n
+    (final int n)\n
+    (final ASN1Object[] array, final int n)\n
+    (final ASN1Decoder asn1Decoder, final InputStream inputStream, final int n)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

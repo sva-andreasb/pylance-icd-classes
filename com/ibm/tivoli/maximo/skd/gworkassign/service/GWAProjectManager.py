@@ -1,6 +1,8 @@
-def GWAProjectManager():
-    '''public GWAProjectManager()
+def ():
+    '''returns GWAProjectManager\n\n
+    ()\n
     '''
 def loadProject():
-    '''public GWASchedule loadProject(final String projectId, final IProjectManagerCallback callback)
+    '''returns GWASchedule\n\n
+    loadProject(final String projectId, final IProjectManagerCallback callback)\n
     '''

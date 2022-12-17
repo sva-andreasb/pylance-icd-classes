@@ -1,45 +1,60 @@
 def setRtfDocument():
-    '''public void setRtfDocument(final RtfDocument doc)
+    '''returns None\n\n
+    setRtfDocument(final RtfDocument doc)\n
     '''
 def write():
-    '''public byte[] write()
+    '''returns byte[]\n\n
+    write()\n
     '''
 def isFieldAlt():
-    '''public boolean isFieldAlt()
+    '''returns boolean\n\n
+    isFieldAlt()\n
     '''
 def setFieldAlt():
-    '''public void setFieldAlt(final boolean fieldAlt)
+    '''returns None\n\n
+    setFieldAlt(final boolean fieldAlt)\n
     '''
 def isFieldDirty():
-    '''public boolean isFieldDirty()
+    '''returns boolean\n\n
+    isFieldDirty()\n
     '''
 def setFieldDirty():
-    '''public void setFieldDirty(final boolean fieldDirty)
+    '''returns None\n\n
+    setFieldDirty(final boolean fieldDirty)\n
     '''
 def isFieldEdit():
-    '''public boolean isFieldEdit()
+    '''returns boolean\n\n
+    isFieldEdit()\n
     '''
 def setFieldEdit():
-    '''public void setFieldEdit(final boolean fieldEdit)
+    '''returns None\n\n
+    setFieldEdit(final boolean fieldEdit)\n
     '''
 def isFieldLocked():
-    '''public boolean isFieldLocked()
+    '''returns boolean\n\n
+    isFieldLocked()\n
     '''
 def setFieldLocked():
-    '''public void setFieldLocked(final boolean fieldLocked)
+    '''returns None\n\n
+    setFieldLocked(final boolean fieldLocked)\n
     '''
 def isFieldPrivate():
-    '''public boolean isFieldPrivate()
+    '''returns boolean\n\n
+    isFieldPrivate()\n
     '''
 def setFieldPrivate():
-    '''public void setFieldPrivate(final boolean fieldPrivate)
+    '''returns None\n\n
+    setFieldPrivate(final boolean fieldPrivate)\n
     '''
 def setInTable():
-    '''public void setInTable(final boolean inTable)
+    '''returns None\n\n
+    setInTable(final boolean inTable)\n
     '''
 def setInHeader():
-    '''public void setInHeader(final boolean inHeader)
+    '''returns None\n\n
+    setInHeader(final boolean inHeader)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''

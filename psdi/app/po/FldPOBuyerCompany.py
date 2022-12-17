@@ -1,3 +1,4 @@
-def FldPOBuyerCompany():
-    '''public FldPOBuyerCompany(final MboValue mbv)
+def ():
+    '''returns FldPOBuyerCompany\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,12 +1,15 @@
-def ReversedLinesFileReader():
-    '''public ReversedLinesFileReader(final File file)
-    public ReversedLinesFileReader(final File file, final Charset charset)
-    public ReversedLinesFileReader(final File file, final int blockSize, final Charset encoding)
-    public ReversedLinesFileReader(final File file, final int blockSize, final String encoding)
+def ():
+    '''returns ReversedLinesFileReader\n\n
+    (final File file)\n
+    (final File file, final Charset charset)\n
+    (final File file, final int blockSize, final Charset encoding)\n
+    (final File file, final int blockSize, final String encoding)\n
     '''
 def readLine():
-    '''public String readLine()
+    '''returns String\n\n
+    readLine()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

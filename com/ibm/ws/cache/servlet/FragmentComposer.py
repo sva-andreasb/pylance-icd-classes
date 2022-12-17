@@ -3,251 +3,321 @@ WAS_CACHED = "int  1"
 POPULATED_CACHE = "int  2"
 SERVLET_REQUEST = "int  1"
 PORTLET_CACHE_REQUEST = "int  2"
-def FragmentComposer():
-    '''public FragmentComposer(final CacheProxyRequest request, final CacheProxyResponse response)
-    public FragmentComposer()
+def ():
+    '''returns FragmentComposer\n\n
+    (final CacheProxyRequest request, final CacheProxyResponse response)\n
+    ()\n
     '''
 def resetRequestAndResponseOnly():
-    '''public void resetRequestAndResponseOnly(final CacheProxyRequest request, final CacheProxyResponse response)
+    '''returns None\n\n
+    resetRequestAndResponseOnly(final CacheProxyRequest request, final CacheProxyResponse response)\n
     '''
 def reset():
-    '''public void reset(final CacheProxyRequest request, final CacheProxyResponse response)
+    '''returns None\n\n
+    reset(final CacheProxyRequest request, final CacheProxyResponse response)\n
     '''
 def addContents():
-    '''public void addContents(final Object[] contents)
+    '''returns None\n\n
+    addContents(final Object[] contents)\n
     '''
 def setDoNotConsume():
-    '''public void setDoNotConsume(final boolean dnc)
+    '''returns None\n\n
+    setDoNotConsume(final boolean dnc)\n
     '''
 def getDoNotConsume():
-    '''public boolean getDoNotConsume()
+    '''returns boolean\n\n
+    getDoNotConsume()\n
     '''
 def setConsumeSubfragments():
-    '''public void setConsumeSubfragments(final boolean csf)
+    '''returns None\n\n
+    setConsumeSubfragments(final boolean csf)\n
     '''
 def getConsumeSubfragments():
-    '''public boolean getConsumeSubfragments()
+    '''returns boolean\n\n
+    getConsumeSubfragments()\n
     '''
 def getHasCacheableConsumingParent():
-    '''public boolean getHasCacheableConsumingParent()
+    '''returns boolean\n\n
+    getHasCacheableConsumingParent()\n
     '''
 def setHasCacheableConsumingParent():
-    '''public void setHasCacheableConsumingParent(final boolean hccp)
+    '''returns None\n\n
+    setHasCacheableConsumingParent(final boolean hccp)\n
     '''
 def setBufferSize():
-    '''public void setBufferSize(final int size)
+    '''returns None\n\n
+    setBufferSize(final int size)\n
     '''
 def getBufferSize():
-    '''public int getBufferSize()
+    '''returns int\n\n
+    getBufferSize()\n
     '''
 def resetBuffer():
-    '''public void resetBuffer()
+    '''returns None\n\n
+    resetBuffer()\n
     '''
 def requestFinished():
-    '''public void requestFinished()
+    '''returns None\n\n
+    requestFinished()\n
     '''
 def shouldCacheOutput():
-    '''public boolean shouldCacheOutput()
+    '''returns boolean\n\n
+    shouldCacheOutput()\n
     '''
 def isExternallyCached():
-    '''public boolean isExternallyCached()
+    '''returns boolean\n\n
+    isExternallyCached()\n
     '''
 def setParentExternallyCacheable():
-    '''public void setParentExternallyCacheable(final boolean parentExternal)
+    '''returns None\n\n
+    setParentExternallyCacheable(final boolean parentExternal)\n
     '''
 def shouldExternalCacheOutput():
-    '''public boolean shouldExternalCacheOutput()
+    '''returns boolean\n\n
+    shouldExternalCacheOutput()\n
     '''
 def startChildFragmentComposer():
-    '''public void startChildFragmentComposer(final FragmentComposer fragmentComposer)
+    '''returns None\n\n
+    startChildFragmentComposer(final FragmentComposer fragmentComposer)\n
     '''
 def endChildFragmentComposer():
-    '''public void endChildFragmentComposer(final FragmentComposer child)
+    '''returns None\n\n
+    endChildFragmentComposer(final FragmentComposer child)\n
     '''
 def saveCachedData():
-    '''public void saveCachedData()
+    '''returns None\n\n
+    saveCachedData()\n
     '''
 def getOutputStream():
-    '''public ServletOutputStream getOutputStream()
+    '''returns ServletOutputStream\n\n
+    getOutputStream()\n
     '''
 def getPrintWriter():
-    '''public PrintWriter getPrintWriter()
+    '''returns PrintWriter\n\n
+    getPrintWriter()\n
     '''
 def getMemento():
-    '''public FragmentComposerMemento getMemento(final CacheProxyRequest request)
+    '''returns FragmentComposerMemento\n\n
+    getMemento(final CacheProxyRequest request)\n
     '''
 def copyContentForParents():
-    '''public void copyContentForParents()
+    '''returns None\n\n
+    copyContentForParents()\n
     '''
 def getContextPath():
-    '''public String getContextPath()
+    '''returns String\n\n
+    getContextPath()\n
     '''
 def toByteArray():
-    '''public byte[] toByteArray(final String charEnc)
+    '''returns byte[]\n\n
+    toByteArray(final String charEnc)\n
     '''
 def getCacheType():
-    '''public int getCacheType()
+    '''returns int\n\n
+    getCacheType()\n
     '''
 def setCacheType():
-    '''public void setCacheType(final int cacheType)
+    '''returns None\n\n
+    setCacheType(final int cacheType)\n
     '''
 def getParent():
-    '''public FragmentComposer getParent()
+    '''returns FragmentComposer\n\n
+    getParent()\n
     '''
 def setParent():
-    '''public void setParent(final FragmentComposer fc)
+    '''returns None\n\n
+    setParent(final FragmentComposer fc)\n
     '''
 def isExternalPage():
-    '''public boolean isExternalPage()
+    '''returns boolean\n\n
+    isExternalPage()\n
     '''
 def setExternalPage():
-    '''public void setExternalPage(final boolean externalPage)
+    '''returns None\n\n
+    setExternalPage(final boolean externalPage)\n
     '''
 def setAttributeTableBytes():
-    '''public void setAttributeTableBytes(final byte[] attributeTableBytes)
+    '''returns None\n\n
+    setAttributeTableBytes(final byte[] attributeTableBytes)\n
     '''
 def getAttributeTableBytes():
-    '''public byte[] getAttributeTableBytes()
+    '''returns byte[]\n\n
+    getAttributeTableBytes()\n
     '''
 def setAttributeTable():
-    '''public void setAttributeTable(final CacheProxyRequest.Attribute[] attributeTable)
+    '''returns None\n\n
+    setAttributeTable(final CacheProxyRequest.Attribute[] attributeTable)\n
     '''
 def getFragmentInfo():
-    '''public FragmentInfo getFragmentInfo()
+    '''returns FragmentInfo\n\n
+    getFragmentInfo()\n
     '''
 def setFragmentInfo():
-    '''public void setFragmentInfo(final FragmentInfo fragmentInfo)
+    '''returns None\n\n
+    setFragmentInfo(final FragmentInfo fragmentInfo)\n
     '''
 def getURI():
-    '''public String getURI()
+    '''returns String\n\n
+    getURI()\n
     '''
 def setURI():
-    '''public void setURI(final String uri)
+    '''returns None\n\n
+    setURI(final String uri)\n
     '''
 def getServletClassName():
-    '''public String getServletClassName()
+    '''returns String\n\n
+    getServletClassName()\n
     '''
 def setServletClassName():
-    '''public void setServletClassName(final String servletClassName)
+    '''returns None\n\n
+    setServletClassName(final String servletClassName)\n
     '''
 def getInclude():
-    '''public boolean getInclude()
+    '''returns boolean\n\n
+    getInclude()\n
     '''
 def setInclude():
-    '''public void setInclude(final boolean include)
+    '''returns None\n\n
+    setInclude(final boolean include)\n
     '''
 def getNamedDispatch():
-    '''public boolean getNamedDispatch()
+    '''returns boolean\n\n
+    getNamedDispatch()\n
     '''
 def setNamedDispatch():
-    '''public void setNamedDispatch(final boolean namedDispatch)
+    '''returns None\n\n
+    setNamedDispatch(final boolean namedDispatch)\n
     '''
 def setExpirationTime():
-    '''public void setExpirationTime(final long expirationTime)
+    '''returns None\n\n
+    setExpirationTime(final long expirationTime)\n
     '''
 def getExpirationTime():
-    '''public long getExpirationTime()
+    '''returns long\n\n
+    getExpirationTime()\n
     '''
 def getTimeStamp():
-    '''public long getTimeStamp()
+    '''returns long\n\n
+    getTimeStamp()\n
     '''
 def setTimeStamp():
-    '''public void setTimeStamp(final long timeStamp)
+    '''returns None\n\n
+    setTimeStamp(final long timeStamp)\n
     '''
 def getAllInvalidationIds():
-    '''public ValueSet getAllInvalidationIds()
+    '''returns ValueSet\n\n
+    getAllInvalidationIds()\n
     '''
 def getAllTemplates():
-    '''public ValueSet getAllTemplates()
+    '''returns ValueSet\n\n
+    getAllTemplates()\n
     '''
 def setHeader():
-    '''public void setHeader(final String key, final String value, final boolean isSet)
+    '''returns None\n\n
+    setHeader(final String key, final String value, final boolean isSet)\n
     '''
 def sendRedirect():
-    '''public void sendRedirect(final String location)
+    '''returns None\n\n
+    sendRedirect(final String location)\n
     '''
 def addDynamicContentProvider():
-    '''public void addDynamicContentProvider(final DynamicContentProvider dynamicContentProvider)
+    '''returns None\n\n
+    addDynamicContentProvider(final DynamicContentProvider dynamicContentProvider)\n
     '''
 def addCookie():
-    '''public void addCookie(final Cookie cookie)
+    '''returns None\n\n
+    addCookie(final Cookie cookie)\n
     '''
 def setDateHeader():
-    '''public void setDateHeader(final String name, final long value, final boolean isSet)
+    '''returns None\n\n
+    setDateHeader(final String name, final long value, final boolean isSet)\n
     '''
 def setIntHeader():
-    '''public void setIntHeader(final String name, final int value, final boolean isSet)
+    '''returns None\n\n
+    setIntHeader(final String name, final int value, final boolean isSet)\n
     '''
 def setStatus():
-    '''public void setStatus(final int statusCode)
-    public void setStatus(final int statusCode, final String comment)
+    '''returns None\n\n
+    setStatus(final int statusCode)\n
+    setStatus(final int statusCode, final String comment)\n
     '''
 def setContentLength():
-    '''public void setContentLength(final int contentLength)
+    '''returns None\n\n
+    setContentLength(final int contentLength)\n
     '''
 def setContentType():
-    '''public void setContentType(final String contentType)
+    '''returns None\n\n
+    setContentType(final String contentType)\n
     '''
 def setCharacterEncoding():
-    '''public void setCharacterEncoding(final String charEnc)
+    '''returns None\n\n
+    setCharacterEncoding(final String charEnc)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def setESIVersion():
-    '''public void setESIVersion(final int esiVersion)
+    '''returns None\n\n
+    setESIVersion(final int esiVersion)\n
     '''
 def getESIVersion():
-    '''public int getESIVersion()
+    '''returns int\n\n
+    getESIVersion()\n
     '''
 def isArdChild():
-    '''public boolean isArdChild()
+    '''returns boolean\n\n
+    isArdChild()\n
     '''
 def setArdChild():
-    '''public void setArdChild(final boolean ardChild)
+    '''returns None\n\n
+    setArdChild(final boolean ardChild)\n
     '''
 def isArdParent():
-    '''public boolean isArdParent()
+    '''returns boolean\n\n
+    isArdParent()\n
     '''
 def setArdParent():
-    '''public void setArdParent(final boolean ardParent)
-    '''
-def getNumOfUnprocessedARDChildren():
-    '''public synchronized int getNumOfUnprocessedARDChildren()
-    '''
-def finishedProcessingARDChild():
-    '''public synchronized void finishedProcessingARDChild()
-    '''
-def addARDChildForProcessing():
-    '''public synchronized void addARDChildForProcessing()
+    '''returns None\n\n
+    setArdParent(final boolean ardParent)\n
     '''
 def getArdChildID():
-    '''public String getArdChildID()
+    '''returns String\n\n
+    getArdChildID()\n
     '''
 def setArdChildID():
-    '''public void setArdChildID(final String childID)
+    '''returns None\n\n
+    setArdChildID(final String childID)\n
     '''
 def getArdChildren():
-    '''public int getArdChildren()
+    '''returns int\n\n
+    getArdChildren()\n
     '''
 def isFinishedProcessing():
-    '''public boolean isFinishedProcessing()
+    '''returns boolean\n\n
+    isFinishedProcessing()\n
     '''
 def setFinishedProcessing():
-    '''public void setFinishedProcessing(final boolean finishedProcessing)
+    '''returns None\n\n
+    setFinishedProcessing(final boolean finishedProcessing)\n
     '''
 def getARDChildFragmentComposer():
-    '''public FragmentComposer getARDChildFragmentComposer(final String ardID)
+    '''returns FragmentComposer\n\n
+    getARDChildFragmentComposer(final String ardID)\n
     '''
 def addChildARDFragmentComposer():
-    '''public void addChildARDFragmentComposer(final String ardID, final FragmentComposer fragmentComposer)
+    '''returns None\n\n
+    addChildARDFragmentComposer(final String ardID, final FragmentComposer fragmentComposer)\n
     '''
 def removeChildARDFragmentComposer():
-    '''public FragmentComposer removeChildARDFragmentComposer(final String ardID)
+    '''returns FragmentComposer\n\n
+    removeChildARDFragmentComposer(final String ardID)\n
     '''
 def isDiscardJSPContent():
-    '''public boolean isDiscardJSPContent()
+    '''returns boolean\n\n
+    isDiscardJSPContent()\n
     '''
 def setDiscardJSPContent():
-    '''public void setDiscardJSPContent(final boolean discardJSPContent)
+    '''returns None\n\n
+    setDiscardJSPContent(final boolean discardJSPContent)\n
     '''

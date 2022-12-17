@@ -1,15 +1,12 @@
-def Available():
-    '''public Available()
-    public Available(final PropertyList properties)
-    '''
-def validate():
-    '''public final void validate(final boolean recurse)
-    '''
-def Factory():
-    '''public Factory()
+def ():
+    '''returns Factory\n\n
+    ()\n
+    (final PropertyList properties)\n
+    ()\n
     '''
 def createComponent():
-    '''public Available createComponent()
-    public Available createComponent(final PropertyList properties)
-    public Available createComponent(final PropertyList properties, final ComponentList subComponents)
+    '''returns Available\n\n
+    createComponent()\n
+    createComponent(final PropertyList properties)\n
+    createComponent(final PropertyList properties, final ComponentList subComponents)\n
     '''

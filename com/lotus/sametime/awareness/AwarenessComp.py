@@ -1,39 +1,36 @@
-def AwarenessComp():
-    '''public AwarenessComp(final STSession stSession)
-    '''
-def addAwarenessServiceListener():
-    '''public synchronized void addAwarenessServiceListener(final AwarenessServiceListener obj)
-    '''
-def removeAwarenessServiceListener():
-    '''public synchronized void removeAwarenessServiceListener(final AwarenessServiceListener obj)
-    '''
-def addMyAttributeListener():
-    '''public synchronized void addMyAttributeListener(final MyAttributeListener obj)
-    '''
-def removeMyAttributeListener():
-    '''public synchronized void removeMyAttributeListener(final MyAttributeListener obj)
+def ():
+    '''returns AwarenessComp\n\n
+    (final STSession stSession)\n
     '''
 def isServiceAvailable():
-    '''public boolean isServiceAvailable()
+    '''returns boolean\n\n
+    isServiceAvailable()\n
     '''
 def createWatchList():
-    '''public WatchList createWatchList()
+    '''returns WatchList\n\n
+    createWatchList()\n
     '''
 def changeMyAttr():
-    '''public void changeMyAttr(final STExtendedAttribute stExtendedAttribute)
+    '''returns None\n\n
+    changeMyAttr(final STExtendedAttribute stExtendedAttribute)\n
     '''
 def removeMyAttr():
-    '''public void removeMyAttr(final int n)
+    '''returns None\n\n
+    removeMyAttr(final int n)\n
     '''
 def setAttrFilter():
-    '''public void setAttrFilter(final int[] array)
+    '''returns None\n\n
+    setAttrFilter(final int[] array)\n
     '''
 def addToAttrFilter():
-    '''public void addToAttrFilter(final int[] array)
+    '''returns None\n\n
+    addToAttrFilter(final int[] array)\n
     '''
 def removeFromAttrFilter():
-    '''public void removeFromAttrFilter(final int[] array)
+    '''returns None\n\n
+    removeFromAttrFilter(final int[] array)\n
     '''
 def findUserStatus():
-    '''public STUserStatus findUserStatus(final STUser stUser)
+    '''returns STUserStatus\n\n
+    findUserStatus(final STUser stUser)\n
     '''

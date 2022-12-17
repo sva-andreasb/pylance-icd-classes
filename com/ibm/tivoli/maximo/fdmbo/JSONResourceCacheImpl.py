@@ -1,25 +1,25 @@
-def JSONResourceCacheImpl():
-    '''public JSONResourceCacheImpl()
+def ():
+    '''returns JSONResourceCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
-    '''
-def getResourceTypeMap():
-    '''public Map<String, ResourceTypeInfo> getResourceTypeMap()
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getResourceTypeInfo():
-    '''public ResourceTypeInfo getResourceTypeInfo(final String resourceType)
-    '''
-def getResourceMap():
-    '''public Map<String, JSONResourceInfo> getResourceMap()
+    '''returns ResourceTypeInfo\n\n
+    getResourceTypeInfo(final String resourceType)\n
     '''
 def getResourceInfo():
-    '''public JSONResourceInfo getResourceInfo(final String resourceName)
+    '''returns JSONResourceInfo\n\n
+    getResourceInfo(final String resourceName)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

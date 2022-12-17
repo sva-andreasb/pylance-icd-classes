@@ -1,42 +1,56 @@
-def ResourceTypeInfo():
-    '''public ResourceTypeInfo(final String resourceType, final String analyzerClass, final String processingClass, final String description, final String collectionProp, final String dateFormatType, final String dateFormat, final String handlerName, final String pageParams, final String orderbyParam, final String nullFormat, final String stringQualifier, final int fetchLimit)
+def ():
+    '''returns ResourceTypeInfo\n\n
+    (final String resourceType, final String analyzerClass, final String processingClass, final String description, final String collectionProp, final String dateFormatType, final String dateFormat, final String handlerName, final String pageParams, final String orderbyParam, final String nullFormat, final String stringQualifier, final int fetchLimit)\n
     '''
 def getResourceType():
-    '''public String getResourceType()
+    '''returns String\n\n
+    getResourceType()\n
     '''
 def getAnalyzerClass():
-    '''public String getAnalyzerClass()
+    '''returns String\n\n
+    getAnalyzerClass()\n
     '''
 def getProcessingClass():
-    '''public String getProcessingClass()
+    '''returns String\n\n
+    getProcessingClass()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getCollectionProp():
-    '''public String getCollectionProp()
+    '''returns String\n\n
+    getCollectionProp()\n
     '''
 def getDateFormatType():
-    '''public String getDateFormatType()
+    '''returns String\n\n
+    getDateFormatType()\n
     '''
 def getDateFormat():
-    '''public String getDateFormat()
+    '''returns String\n\n
+    getDateFormat()\n
     '''
 def getHandlerName():
-    '''public String getHandlerName()
+    '''returns String\n\n
+    getHandlerName()\n
     '''
 def getFetchLImit():
-    '''public int getFetchLImit()
+    '''returns int\n\n
+    getFetchLImit()\n
     '''
 def getPagingParams():
-    '''public String getPagingParams()
+    '''returns String\n\n
+    getPagingParams()\n
     '''
 def getStringQualifier():
-    '''public String getStringQualifier()
+    '''returns String\n\n
+    getStringQualifier()\n
     '''
 def getNullFormat():
-    '''public String getNullFormat()
+    '''returns String\n\n
+    getNullFormat()\n
     '''
 def getOrderByParam():
-    '''public String getOrderByParam()
+    '''returns String\n\n
+    getOrderByParam()\n
     '''

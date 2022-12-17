@@ -1,73 +1,94 @@
-def BytesTrie():
-    '''public BytesTrie(final byte[] trieBytes, final int offset)
-    public BytesTrie(final BytesTrie other)
+def ():
+    '''returns BytesTrie\n\n
+    (final byte[] trieBytes, final int offset)\n
+    (final BytesTrie other)\n
     '''
 def clone():
-    '''public BytesTrie clone()
+    '''returns BytesTrie\n\n
+    clone()\n
     '''
 def reset():
-    '''public BytesTrie reset()
-    public Iterator reset()
+    '''returns Iterator\n\n
+    reset()\n
+    reset()\n
     '''
 def getState64():
-    '''public long getState64()
+    '''returns long\n\n
+    getState64()\n
     '''
 def resetToState64():
-    '''public BytesTrie resetToState64(final long state)
+    '''returns BytesTrie\n\n
+    resetToState64(final long state)\n
     '''
 def saveState():
-    '''public BytesTrie saveState(final State state)
+    '''returns BytesTrie\n\n
+    saveState(final State state)\n
     '''
 def resetToState():
-    '''public BytesTrie resetToState(final State state)
+    '''returns BytesTrie\n\n
+    resetToState(final State state)\n
     '''
 def current():
-    '''public Result current()
+    '''returns Result\n\n
+    current()\n
     '''
 def first():
-    '''public Result first(int inByte)
+    '''returns Result\n\n
+    first(int inByte)\n
     '''
 def next():
-    '''public Result next(int inByte)
-    public Result next(final byte[] s, int sIndex, final int sLimit)
-    public Entry next()
+    '''returns Entry\n\n
+    next(int inByte)\n
+    next(final byte[] s, int sIndex, final int sLimit)\n
+    next()\n
     '''
 def getValue():
-    '''public int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''
 def getUniqueValue():
-    '''public long getUniqueValue()
+    '''returns long\n\n
+    getUniqueValue()\n
     '''
 def getNextBytes():
-    '''public int getNextBytes(final Appendable out)
+    '''returns int\n\n
+    getNextBytes(final Appendable out)\n
     '''
 def iterator():
-    '''public Iterator iterator()
-    public Iterator iterator(final int maxStringLength)
-    public static Iterator iterator(final byte[] trieBytes, final int offset, final int maxStringLength)
+    '''returns Iterator\n\n
+    iterator()\n
+    iterator(final int maxStringLength)\n
     '''
 def matches():
-    '''public boolean matches()
+    '''returns boolean\n\n
+    matches()\n
     '''
 def hasValue():
-    '''public boolean hasValue()
+    '''returns boolean\n\n
+    hasValue()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    hasNext()\n
     '''
 def bytesLength():
-    '''public int bytesLength()
+    '''returns int\n\n
+    bytesLength()\n
     '''
 def byteAt():
-    '''public byte byteAt(final int index)
+    '''returns byte\n\n
+    byteAt(final int index)\n
     '''
 def copyBytesTo():
-    '''public void copyBytesTo(final byte[] dest, final int destOffset)
+    '''returns None\n\n
+    copyBytesTo(final byte[] dest, final int destOffset)\n
     '''
 def bytesAsByteBuffer():
-    '''public ByteBuffer bytesAsByteBuffer()
+    '''returns ByteBuffer\n\n
+    bytesAsByteBuffer()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

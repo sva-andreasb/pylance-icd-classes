@@ -1,7 +1,9 @@
-def ActivityTooltipResolver():
-    '''public ActivityTooltipResolver(final Schedule schedule)
-    public ActivityTooltipResolver(final Map<String, Object> data, final Schedule schedule)
+def ():
+    '''returns ActivityTooltipResolver\n\n
+    (final Schedule schedule)\n
+    (final Map<String, Object> data, final Schedule schedule)\n
     '''
 def toStyleDisplay():
-    '''public String toStyleDisplay(final boolean b)
+    '''returns String\n\n
+    toStyleDisplay(final boolean b)\n
     '''

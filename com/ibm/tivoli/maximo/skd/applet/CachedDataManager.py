@@ -1,12 +1,16 @@
-def CachedDataManager():
-    '''public CachedDataManager(final long expiry)
+def ():
+    '''returns CachedDataManager\n\n
+    (final long expiry)\n
     '''
 def isFetchRequired():
-    '''public boolean isFetchRequired(final RequestType args)
+    '''returns boolean\n\n
+    isFetchRequired(final RequestType args)\n
     '''
 def fetchAndWait():
-    '''public ReplyType fetchAndWait(final RequestType args)
+    '''returns ReplyType\n\n
+    fetchAndWait(final RequestType args)\n
     '''
 def clearCache():
-    '''public void clearCache()
+    '''returns None\n\n
+    clearCache()\n
     '''

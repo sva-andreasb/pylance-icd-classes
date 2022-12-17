@@ -1,6 +1,8 @@
-def RBAAppSupport():
-    '''public RBAAppSupport(final MboSet ms)
+def ():
+    '''returns RBAAppSupport\n\n
+    (final MboSet ms)\n
     '''
 def addSupport():
-    '''public void addSupport()
+    '''returns None\n\n
+    addSupport()\n
     '''

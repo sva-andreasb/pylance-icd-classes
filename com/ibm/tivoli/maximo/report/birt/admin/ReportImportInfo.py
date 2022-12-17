@@ -1,69 +1,92 @@
-def ReportImportInfo():
-    '''public ReportImportInfo()
+def ():
+    '''returns ReportImportInfo\n\n
+    ()\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def setAppName():
-    '''public void setAppName(final String appName)
+    '''returns None\n\n
+    setAppName(final String appName)\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def setFileName():
-    '''public void setFileName(final String fileName)
+    '''returns None\n\n
+    setFileName(final String fileName)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getResources():
-    '''public byte[] getResources()
+    '''returns byte[]\n\n
+    getResources()\n
     '''
 def setResources():
-    '''public void setResources(final byte[] resources)
+    '''returns None\n\n
+    setResources(final byte[] resources)\n
     '''
 def getXmlReportData():
-    '''public byte[] getXmlReportData()
+    '''returns byte[]\n\n
+    getXmlReportData()\n
     '''
 def setXmlReportData():
-    '''public void setXmlReportData(final byte[] xmlReportData)
+    '''returns None\n\n
+    setXmlReportData(final byte[] xmlReportData)\n
     '''
 def isLibrary():
-    '''public boolean isLibrary()
+    '''returns boolean\n\n
+    isLibrary()\n
     '''
 def setLibrary():
-    '''public void setLibrary(final boolean library)
+    '''returns None\n\n
+    setLibrary(final boolean library)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String attributeName, final String attributeValue)
+    '''returns None\n\n
+    setAttribute(final String attributeName, final String attributeValue)\n
     '''
 def getAttribute():
-    '''public String getAttribute(final String attributeName)
+    '''returns String\n\n
+    getAttribute(final String attributeName)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final String attributeName)
+    '''returns None\n\n
+    removeAttribute(final String attributeName)\n
     '''
 def getAttributes():
-    '''public Iterator getAttributes()
+    '''returns Iterator\n\n
+    getAttributes()\n
     '''
 def isImportResourcesEnabled():
-    '''public boolean isImportResourcesEnabled()
+    '''returns boolean\n\n
+    isImportResourcesEnabled()\n
     '''
 def setImportResourcesEnabled():
-    '''public void setImportResourcesEnabled(final boolean importResourcesEnabled)
+    '''returns None\n\n
+    setImportResourcesEnabled(final boolean importResourcesEnabled)\n
     '''
 def setParameter():
-    '''public void setParameter(final String parameterName, final ReportImportParamInfo paramInfo)
+    '''returns None\n\n
+    setParameter(final String parameterName, final ReportImportParamInfo paramInfo)\n
     '''
 def getParameter():
-    '''public ReportImportParamInfo getParameter(final String parameterName)
+    '''returns ReportImportParamInfo\n\n
+    getParameter(final String parameterName)\n
     '''
 def removeParameter():
-    '''public void removeParameter(final String parameterName)
+    '''returns None\n\n
+    removeParameter(final String parameterName)\n
     '''
 def getParameters():
-    '''public Iterator getParameters()
+    '''returns Iterator\n\n
+    getParameters()\n
     '''

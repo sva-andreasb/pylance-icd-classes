@@ -1,12 +1,16 @@
 def getBaseName():
-    '''public String getBaseName()
+    '''returns String\n\n
+    getBaseName()\n
     '''
 def reset():
-    '''public void reset(final ConfigEntry ce)
+    '''returns None\n\n
+    reset(final ConfigEntry ce)\n
     '''
 def setCacheableCommand():
-    '''public void setCacheableCommand(final CacheableCommand command)
+    '''returns None\n\n
+    setCacheableCommand(final CacheableCommand command)\n
     '''
 def getSharingPolicy():
-    '''public int getSharingPolicy()
+    '''returns int\n\n
+    getSharingPolicy()\n
     '''

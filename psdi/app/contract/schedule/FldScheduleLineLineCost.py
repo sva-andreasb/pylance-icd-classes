@@ -1,6 +1,8 @@
-def FldScheduleLineLineCost():
-    '''public FldScheduleLineLineCost(final MboValue mbv)
+def ():
+    '''returns FldScheduleLineLineCost\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

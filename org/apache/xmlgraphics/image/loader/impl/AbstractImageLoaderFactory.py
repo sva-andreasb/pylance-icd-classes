@@ -1,6 +1,8 @@
 def isSupported():
-    '''public boolean isSupported(final ImageInfo imageInfo)
+    '''returns boolean\n\n
+    isSupported(final ImageInfo imageInfo)\n
     '''
 def getUsagePenalty():
-    '''public int getUsagePenalty(final String mime, final ImageFlavor flavor)
+    '''returns int\n\n
+    getUsagePenalty(final String mime, final ImageFlavor flavor)\n
     '''

@@ -1,3 +1,4 @@
-def FldMaxDomainDomainId():
-    '''public FldMaxDomainDomainId(final MboValue mbv)
+def ():
+    '''returns FldMaxDomainDomainId\n\n
+    (final MboValue mbv)\n
     '''

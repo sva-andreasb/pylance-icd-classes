@@ -1,6 +1,8 @@
-def FldContentAttr():
-    '''public FldContentAttr(final MboValue mv)
+def ():
+    '''returns FldContentAttr\n\n
+    (final MboValue mv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

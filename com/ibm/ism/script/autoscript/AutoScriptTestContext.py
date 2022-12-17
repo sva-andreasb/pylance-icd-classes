@@ -1,51 +1,52 @@
-def getProperties():
-    '''public Map<String, Object> getProperties()
-    '''
 def getProperty():
-    '''public Object getProperty(final String propName)
+    '''returns Object\n\n
+    getProperty(final String propName)\n
     '''
 def getStringProperty():
-    '''public String getStringProperty(final String propName)
+    '''returns String\n\n
+    getStringProperty(final String propName)\n
     '''
 def getLog():
-    '''public String getLog()
+    '''returns String\n\n
+    getLog()\n
     '''
 def getIntegerProperty():
-    '''public Integer getIntegerProperty(final String propName)
+    '''returns Integer\n\n
+    getIntegerProperty(final String propName)\n
     '''
 def getLongProperty():
-    '''public Long getLongProperty(final String propName)
+    '''returns Long\n\n
+    getLongProperty(final String propName)\n
     '''
 def setIntegerProperty():
-    '''public void setIntegerProperty(final String propName, final int val)
+    '''returns None\n\n
+    setIntegerProperty(final String propName, final int val)\n
     '''
 def setDoubleProperty():
-    '''public void setDoubleProperty(final String propName, final double val)
+    '''returns None\n\n
+    setDoubleProperty(final String propName, final double val)\n
     '''
 def getDoubleProperty():
-    '''public Double getDoubleProperty(final String propName)
+    '''returns Double\n\n
+    getDoubleProperty(final String propName)\n
     '''
 def getDateProperty():
-    '''public Date getDateProperty(final String propName)
+    '''returns Date\n\n
+    getDateProperty(final String propName)\n
     '''
 def setProperty():
-    '''public void setProperty(final String propName, final Object value)
+    '''returns None\n\n
+    setProperty(final String propName, final Object value)\n
     '''
 def setLog():
-    '''public void setLog(final String value)
+    '''returns None\n\n
+    setLog(final String value)\n
     '''
 def removeProperty():
-    '''public void removeProperty(final String propName)
+    '''returns None\n\n
+    removeProperty(final String propName)\n
     '''
 def setProperties():
-    '''public void setProperties(final Map<String, Object> data)
-    '''
-def getCurrentContext():
-    '''public static AutoScriptTestContext getCurrentContext()
-    '''
-def createCurrentContext():
-    '''public static AutoScriptTestContext createCurrentContext()
-    '''
-def destroyCurrentContext():
-    '''public static void destroyCurrentContext()
+    '''returns None\n\n
+    setProperties(final Map<String, Object> data)\n
     '''

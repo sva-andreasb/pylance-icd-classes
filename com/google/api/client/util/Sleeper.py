@@ -1,3 +1,4 @@
 def sleep():
-    '''public void sleep(final long millis)
+    '''returns None\n\n
+    sleep(final long millis)\n
     '''

@@ -1,6 +1,8 @@
-def LSHL():
-    '''public LSHL()
+def ():
+    '''returns LSHL\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

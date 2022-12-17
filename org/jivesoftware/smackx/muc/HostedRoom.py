@@ -1,9 +1,12 @@
-def HostedRoom():
-    '''public HostedRoom(final DiscoverItems.Item item)
+def ():
+    '''returns HostedRoom\n\n
+    (final DiscoverItems.Item item)\n
     '''
 def getJid():
-    '''public EntityBareJid getJid()
+    '''returns EntityBareJid\n\n
+    getJid()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

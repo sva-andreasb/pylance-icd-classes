@@ -1,126 +1,168 @@
 def getEcoreModelElement():
-    '''public EModelElement getEcoreModelElement()
+    '''returns EModelElement\n\n
+    getEcoreModelElement()\n
     '''
 def getTypeGenPackage():
-    '''public GenPackage getTypeGenPackage()
+    '''returns GenPackage\n\n
+    getTypeGenPackage()\n
     '''
 def getTypeClassifierAccessorName():
-    '''public String getTypeClassifierAccessorName()
+    '''returns String\n\n
+    getTypeClassifierAccessorName()\n
     '''
 def getTypeClassifier():
-    '''public String getTypeClassifier()
+    '''returns String\n\n
+    getTypeClassifier()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getImportedType():
-    '''public String getImportedType()
+    '''returns String\n\n
+    getImportedType()\n
     '''
 def getObjectType():
-    '''public String getObjectType()
+    '''returns String\n\n
+    getObjectType()\n
     '''
 def getImportedInternalType():
-    '''public String getImportedInternalType()
+    '''returns String\n\n
+    getImportedInternalType()\n
     '''
 def isFeatureMapType():
-    '''public boolean isFeatureMapType()
+    '''returns boolean\n\n
+    isFeatureMapType()\n
     '''
 def isWrappedFeatureMapType():
-    '''public boolean isWrappedFeatureMapType()
+    '''returns boolean\n\n
+    isWrappedFeatureMapType()\n
     '''
 def isFeatureMapWrapped():
-    '''public boolean isFeatureMapWrapped()
+    '''returns boolean\n\n
+    isFeatureMapWrapped()\n
     '''
 def isEffectiveSuppressEMFTypes():
-    '''public boolean isEffectiveSuppressEMFTypes()
+    '''returns boolean\n\n
+    isEffectiveSuppressEMFTypes()\n
     '''
 def getImportedEffectiveFeatureMapWrapperInternalInterface():
-    '''public String getImportedEffectiveFeatureMapWrapperInternalInterface()
+    '''returns String\n\n
+    getImportedEffectiveFeatureMapWrapperInternalInterface()\n
     '''
 def getImportedEffectiveFeatureMapWrapperClass():
-    '''public String getImportedEffectiveFeatureMapWrapperClass()
+    '''returns String\n\n
+    getImportedEffectiveFeatureMapWrapperClass()\n
     '''
 def isListType():
-    '''public boolean isListType()
+    '''returns boolean\n\n
+    isListType()\n
     '''
 def getListItemType():
-    '''public String getListItemType()
+    '''returns String\n\n
+    getListItemType()\n
     '''
 def getQualifiedListItemType():
-    '''public String getQualifiedListItemType()
+    '''returns String\n\n
+    getQualifiedListItemType()\n
     '''
 def isMapType():
-    '''public boolean isMapType()
+    '''returns boolean\n\n
+    isMapType()\n
     '''
 def getMapEntryTypeGenClass():
-    '''public GenClass getMapEntryTypeGenClass()
+    '''returns GenClass\n\n
+    getMapEntryTypeGenClass()\n
     '''
 def getImportedMapEntryType():
-    '''public String getImportedMapEntryType()
+    '''returns String\n\n
+    getImportedMapEntryType()\n
     '''
 def getMapGenClass():
-    '''public GenClass getMapGenClass()
+    '''returns GenClass\n\n
+    getMapGenClass()\n
     '''
 def getMapItemType():
-    '''public String getMapItemType()
+    '''returns String\n\n
+    getMapItemType()\n
     '''
 def getEObjectCast():
-    '''public String getEObjectCast()
+    '''returns String\n\n
+    getEObjectCast()\n
     '''
 def getInternalTypeCast():
-    '''public String getInternalTypeCast()
+    '''returns String\n\n
+    getInternalTypeCast()\n
     '''
 def isPrimitiveType():
-    '''public boolean isPrimitiveType()
+    '''returns boolean\n\n
+    isPrimitiveType()\n
     '''
 def getPrimitiveValueFunction():
-    '''public String getPrimitiveValueFunction()
+    '''returns String\n\n
+    getPrimitiveValueFunction()\n
     '''
 def isBooleanType():
-    '''public boolean isBooleanType()
+    '''returns boolean\n\n
+    isBooleanType()\n
     '''
 def isStringType():
-    '''public boolean isStringType()
+    '''returns boolean\n\n
+    isStringType()\n
     '''
 def isStringBasedType():
-    '''public boolean isStringBasedType()
+    '''returns boolean\n\n
+    isStringBasedType()\n
     '''
 def isEnumType():
-    '''public boolean isEnumType()
+    '''returns boolean\n\n
+    isEnumType()\n
     '''
 def isEnumBasedType():
-    '''public boolean isEnumBasedType()
+    '''returns boolean\n\n
+    isEnumBasedType()\n
     '''
 def getTypeGenEnum():
-    '''public GenEnum getTypeGenEnum()
+    '''returns GenEnum\n\n
+    getTypeGenEnum()\n
     '''
 def getTypeGenDataType():
-    '''public GenDataType getTypeGenDataType()
+    '''returns GenDataType\n\n
+    getTypeGenDataType()\n
     '''
 def getTypeGenClass():
-    '''public GenClass getTypeGenClass()
+    '''returns GenClass\n\n
+    getTypeGenClass()\n
     '''
 def getGenEnumType():
-    '''public GenEnum getGenEnumType()
+    '''returns GenEnum\n\n
+    getGenEnumType()\n
     '''
 def getGenDataTypeType():
-    '''public GenDataType getGenDataTypeType()
+    '''returns GenDataType\n\n
+    getGenDataTypeType()\n
     '''
 def getGenClassType():
-    '''public GenClass getGenClassType()
+    '''returns GenClass\n\n
+    getGenClassType()\n
     '''
 def getLowerBound():
-    '''public String getLowerBound()
+    '''returns String\n\n
+    getLowerBound()\n
     '''
 def getUpperBound():
-    '''public String getUpperBound()
+    '''returns String\n\n
+    getUpperBound()\n
     '''
 def isUnique():
-    '''public boolean isUnique()
+    '''returns boolean\n\n
+    isUnique()\n
     '''
 def getUniqueFlag():
-    '''public String getUniqueFlag()
+    '''returns String\n\n
+    getUniqueFlag()\n
     '''
 def getOrderedFlag():
-    '''public String getOrderedFlag()
+    '''returns String\n\n
+    getOrderedFlag()\n
     '''

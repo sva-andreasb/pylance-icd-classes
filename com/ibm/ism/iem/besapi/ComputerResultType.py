@@ -1,48 +1,64 @@
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final String value)
+    '''returns None\n\n
+    setStatus(final String value)\n
     '''
 def getState():
-    '''public State getState()
+    '''returns State\n\n
+    getState()\n
     '''
 def setState():
-    '''public void setState(final State value)
+    '''returns None\n\n
+    setState(final State value)\n
     '''
 def getApplyCount():
-    '''public BigInteger getApplyCount()
+    '''returns BigInteger\n\n
+    getApplyCount()\n
     '''
 def setApplyCount():
-    '''public void setApplyCount(final BigInteger value)
+    '''returns None\n\n
+    setApplyCount(final BigInteger value)\n
     '''
 def getRetryCount():
-    '''public BigInteger getRetryCount()
+    '''returns BigInteger\n\n
+    getRetryCount()\n
     '''
 def setRetryCount():
-    '''public void setRetryCount(final BigInteger value)
+    '''returns None\n\n
+    setRetryCount(final BigInteger value)\n
     '''
 def getLineNumber():
-    '''public BigInteger getLineNumber()
+    '''returns BigInteger\n\n
+    getLineNumber()\n
     '''
 def setLineNumber():
-    '''public void setLineNumber(final BigInteger value)
+    '''returns None\n\n
+    setLineNumber(final BigInteger value)\n
     '''
 def getID():
-    '''public BigInteger getID()
+    '''returns BigInteger\n\n
+    getID()\n
     '''
 def setID():
-    '''public void setID(final BigInteger value)
+    '''returns None\n\n
+    setID(final BigInteger value)\n
     '''
 def getValue():
-    '''public BigInteger getValue()
+    '''returns BigInteger\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final BigInteger value)
+    '''returns None\n\n
+    setValue(final BigInteger value)\n
     '''
 def isIsError():
-    '''public Boolean isIsError()
+    '''returns Boolean\n\n
+    isIsError()\n
     '''
 def setIsError():
-    '''public void setIsError(final Boolean value)
+    '''returns None\n\n
+    setIsError(final Boolean value)\n
     '''

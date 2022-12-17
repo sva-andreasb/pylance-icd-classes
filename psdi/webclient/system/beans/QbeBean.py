@@ -1,60 +1,72 @@
-def QbeBean():
-    '''public QbeBean()
+def ():
+    '''returns QbeBean\n\n
+    ()\n
     '''
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''
 def qbecancel():
-    '''public int qbecancel()
+    '''returns int\n\n
+    qbecancel()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def defaultExec():
-    '''public int defaultExec()
+    '''returns int\n\n
+    defaultExec()\n
     '''
 def qbeclear():
-    '''public int qbeclear()
+    '''returns int\n\n
+    qbeclear()\n
     '''
 def qbeclearExec():
-    '''public int qbeclearExec()
+    '''returns int\n\n
+    qbeclearExec()\n
     '''
 def qbeclearClassificationExec():
-    '''public int qbeclearClassificationExec()
+    '''returns int\n\n
+    qbeclearClassificationExec()\n
     '''
 def close():
-    '''public void close()
-    '''
-def structureChangedEvent():
-    '''public synchronized void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    close()\n
     '''
 def clearqryandfld():
-    '''public int clearqryandfld()
+    '''returns int\n\n
+    clearqryandfld()\n
     '''
 def clearqryandfldExec():
-    '''public int clearqryandfldExec()
+    '''returns int\n\n
+    clearqryandfldExec()\n
     '''
 def clearfield():
-    '''public int clearfield()
+    '''returns int\n\n
+    clearfield()\n
     '''
 def clearfieldExec():
-    '''public int clearfieldExec()
+    '''returns int\n\n
+    clearfieldExec()\n
     '''
 def restoredefaultqry():
-    '''public int restoredefaultqry()
+    '''returns int\n\n
+    restoredefaultqry()\n
     '''
 def restoredefaultqryExec():
-    '''public int restoredefaultqryExec()
+    '''returns int\n\n
+    restoredefaultqryExec()\n
     '''
 def getCurrentAction():
-    '''public int getCurrentAction()
-    '''
-def getQbeAttributesBeforeReviseAction():
-    '''public Hashtable<String, String> getQbeAttributesBeforeReviseAction()
+    '''returns int\n\n
+    getCurrentAction()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def checkQuery():
-    '''public void checkQuery(final DataBean results)
+    '''returns None\n\n
+    checkQuery(final DataBean results)\n
     '''

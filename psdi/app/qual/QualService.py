@@ -1,4 +1,5 @@
-def QualService():
-    '''public QualService()
-    public QualService(final MXServer mxServer)
+def ():
+    '''returns QualService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

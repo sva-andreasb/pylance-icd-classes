@@ -1,16 +1,17 @@
 def setFeature():
-    '''public void setFeature(final String str, final boolean b)
+    '''returns None\n\n
+    setFeature(final String str, final boolean b)\n
     '''
 def getFeature():
-    '''public boolean getFeature(final String str)
+    '''returns boolean\n\n
+    getFeature(final String str)\n
     '''
 def getDocument():
-    '''public Document getDocument(final Definition definition)
+    '''returns Document\n\n
+    getDocument(final Definition definition)\n
     '''
 def writeWSDL():
-    '''public void writeWSDL(final Definition definition, final Writer out)
-    public void writeWSDL(final Definition definition, final OutputStream outputStream)
-    '''
-def main():
-    '''public static void main(final String[] array)
+    '''returns None\n\n
+    writeWSDL(final Definition definition, final Writer out)\n
+    writeWSDL(final Definition definition, final OutputStream outputStream)\n
     '''

@@ -1,24 +1,32 @@
-def AimUser():
-    '''public AimUser(final String s, final String s2, final String s3, final String nickName)
+def ():
+    '''returns AimUser\n\n
+    (final String s, final String s2, final String s3, final String nickName)\n
     '''
 def getBLId():
-    '''public String getBLId()
+    '''returns String\n\n
+    getBLId()\n
     '''
 def getId():
-    '''public STId getId()
+    '''returns STId\n\n
+    getId()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getNickName():
-    '''public String getNickName()
+    '''returns String\n\n
+    getNickName()\n
     '''
 def setNickName():
-    '''public void setNickName(final String nickName)
+    '''returns None\n\n
+    setNickName(final String nickName)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

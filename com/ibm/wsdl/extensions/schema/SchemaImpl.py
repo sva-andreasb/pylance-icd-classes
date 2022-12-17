@@ -1,58 +1,77 @@
 serialVersionUID = "long  1L"
-def SchemaImpl():
-    '''public SchemaImpl()
+def ():
+    '''returns SchemaImpl\n\n
+    ()\n
     '''
 def getImports():
-    '''public Map getImports()
+    '''returns Map\n\n
+    getImports()\n
     '''
 def createImport():
-    '''public SchemaImport createImport()
+    '''returns SchemaImport\n\n
+    createImport()\n
     '''
 def addImport():
-    '''public void addImport(final SchemaImport schemaImport)
+    '''returns None\n\n
+    addImport(final SchemaImport schemaImport)\n
     '''
 def getIncludes():
-    '''public List getIncludes()
+    '''returns List\n\n
+    getIncludes()\n
     '''
 def createInclude():
-    '''public SchemaReference createInclude()
+    '''returns SchemaReference\n\n
+    createInclude()\n
     '''
 def addInclude():
-    '''public void addInclude(final SchemaReference schemaReference)
+    '''returns None\n\n
+    addInclude(final SchemaReference schemaReference)\n
     '''
 def getRedefines():
-    '''public List getRedefines()
+    '''returns List\n\n
+    getRedefines()\n
     '''
 def createRedefine():
-    '''public SchemaReference createRedefine()
+    '''returns SchemaReference\n\n
+    createRedefine()\n
     '''
 def addRedefine():
-    '''public void addRedefine(final SchemaReference schemaReference)
+    '''returns None\n\n
+    addRedefine(final SchemaReference schemaReference)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setElementType():
-    '''public void setElementType(final QName elementType)
+    '''returns None\n\n
+    setElementType(final QName elementType)\n
     '''
 def getElementType():
-    '''public QName getElementType()
+    '''returns QName\n\n
+    getElementType()\n
     '''
 def setRequired():
-    '''public void setRequired(final Boolean required)
+    '''returns None\n\n
+    setRequired(final Boolean required)\n
     '''
 def getRequired():
-    '''public Boolean getRequired()
+    '''returns Boolean\n\n
+    getRequired()\n
     '''
 def setElement():
-    '''public void setElement(final Element element)
+    '''returns None\n\n
+    setElement(final Element element)\n
     '''
 def getElement():
-    '''public Element getElement()
+    '''returns Element\n\n
+    getElement()\n
     '''
 def setDocumentBaseURI():
-    '''public void setDocumentBaseURI(final String documentBaseURI)
+    '''returns None\n\n
+    setDocumentBaseURI(final String documentBaseURI)\n
     '''
 def getDocumentBaseURI():
-    '''public String getDocumentBaseURI()
+    '''returns String\n\n
+    getDocumentBaseURI()\n
     '''

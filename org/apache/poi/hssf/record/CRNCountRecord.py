@@ -1,17 +1,22 @@
 sid = "short  89"
-def CRNCountRecord():
-    '''public CRNCountRecord()
-    public CRNCountRecord(final RecordInputStream in)
+def ():
+    '''returns CRNCountRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def getNumberOfCRNs():
-    '''public int getNumberOfCRNs()
+    '''returns int\n\n
+    getNumberOfCRNs()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''

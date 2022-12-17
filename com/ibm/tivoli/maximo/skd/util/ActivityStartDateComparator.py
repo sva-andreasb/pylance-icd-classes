@@ -1,3 +1,4 @@
 def compare():
-    '''public int compare(final IMXActivity o1, final IMXActivity o2)
+    '''returns int\n\n
+    compare(final IMXActivity o1, final IMXActivity o2)\n
     '''

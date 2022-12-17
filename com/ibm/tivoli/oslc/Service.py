@@ -1,15 +1,20 @@
-def Service():
-    '''public Service(final String domURI)
+def ():
+    '''returns Service\n\n
+    (final String domURI)\n
     '''
 def addCreationDialog():
-    '''public void addCreationDialog(final String uri, final Set<String> resourceTypes, final Set<String> usage, final Set<String> shapes, final String title)
+    '''returns None\n\n
+    addCreationDialog(final String uri, final Set<String> resourceTypes, final Set<String> usage, final Set<String> shapes, final String title)\n
     '''
 def addSelectionDialog():
-    '''public void addSelectionDialog(final String uri, final Set<String> resourceTypes, final Set<String> usage, final Set<String> shapes, final String title)
+    '''returns None\n\n
+    addSelectionDialog(final String uri, final Set<String> resourceTypes, final Set<String> usage, final Set<String> shapes, final String title)\n
     '''
 def addCreationFactory():
-    '''public void addCreationFactory(final String uri, final Set<String> resourceTypes, final Set<String> usage, final Set<String> shapes, final String title)
+    '''returns None\n\n
+    addCreationFactory(final String uri, final Set<String> resourceTypes, final Set<String> usage, final Set<String> shapes, final String title)\n
     '''
 def addQueryCapability():
-    '''public void addQueryCapability(final String uri, final Set<String> resourceTypes, final Set<String> usage, final Set<String> shapes, final String title)
+    '''returns None\n\n
+    addQueryCapability(final String uri, final Set<String> resourceTypes, final Set<String> usage, final Set<String> shapes, final String title)\n
     '''

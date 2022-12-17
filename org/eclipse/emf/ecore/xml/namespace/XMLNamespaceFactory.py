@@ -1,0 +1,1 @@
+eINSTANCE = "XMLNamespaceFactory  new XMLNamespaceFactoryImpl()"

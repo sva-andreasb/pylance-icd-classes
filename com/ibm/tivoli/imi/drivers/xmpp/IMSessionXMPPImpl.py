@@ -1,82 +1,101 @@
-def IMSessionXMPPImpl():
-    '''public IMSessionXMPPImpl()
+def ():
+    '''returns IMSessionXMPPImpl\n\n
+    ()\n
     '''
 def configure():
-    '''public void configure(final Properties properties)
+    '''returns None\n\n
+    configure(final Properties properties)\n
     '''
 def getServerHostName():
-    '''public String getServerHostName()
+    '''returns String\n\n
+    getServerHostName()\n
     '''
 def getServerPort():
-    '''public int getServerPort()
+    '''returns int\n\n
+    getServerPort()\n
     '''
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def getSessionName():
-    '''public String getSessionName()
+    '''returns String\n\n
+    getSessionName()\n
     '''
 def getUserId():
-    '''public String getUserId()
+    '''returns String\n\n
+    getUserId()\n
     '''
 def getUserPassword():
-    '''public String getUserPassword()
+    '''returns String\n\n
+    getUserPassword()\n
     '''
 def getIMUser():
-    '''public IMUser getIMUser()
+    '''returns IMUser\n\n
+    getIMUser()\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def changeUserStatus():
-    '''public void changeUserStatus(final IMUser.IMUserStatus imUserStatus)
+    '''returns None\n\n
+    changeUserStatus(final IMUser.IMUserStatus imUserStatus)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isOpened():
-    '''public boolean isOpened()
+    '''returns boolean\n\n
+    isOpened()\n
     '''
 def createResolveHandler():
-    '''public IMResolveHandler createResolveHandler(final boolean b, final boolean b2)
+    '''returns IMResolveHandler\n\n
+    createResolveHandler(final boolean b, final boolean b2)\n
     '''
 def createUserStatusHandler():
-    '''public IMUserStatusHandler createUserStatusHandler()
+    '''returns IMUserStatusHandler\n\n
+    createUserStatusHandler()\n
     '''
 def createMessageHandler():
-    '''public IMMessageHandler createMessageHandler(final IMUser imUser)
+    '''returns IMMessageHandler\n\n
+    createMessageHandler(final IMUser imUser)\n
     '''
 def resolve():
-    '''public IMResolveEvent resolve(final String s, final boolean b, final boolean b2)
-    public IMUser resolve(final String s)
+    '''returns IMUser\n\n
+    resolve(final String s, final boolean b, final boolean b2)\n
+    resolve(final String s)\n
     '''
 def getDefaultConnectionTimeout():
-    '''public long getDefaultConnectionTimeout()
+    '''returns long\n\n
+    getDefaultConnectionTimeout()\n
     '''
 def setConnectionTimeout():
-    '''public void setConnectionTimeout(final long connectionTimeout)
+    '''returns None\n\n
+    setConnectionTimeout(final long connectionTimeout)\n
     '''
 def getConnectionTimeout():
-    '''public long getConnectionTimeout()
+    '''returns long\n\n
+    getConnectionTimeout()\n
     '''
 def getDefaultResolveTimeout():
-    '''public long getDefaultResolveTimeout()
-    '''
-def setResolveTimeout():
-    '''public synchronized void setResolveTimeout(final long resolveTimeout)
-    '''
-def getResolveTimeout():
-    '''public synchronized long getResolveTimeout()
+    '''returns long\n\n
+    getDefaultResolveTimeout()\n
     '''
 def registerIMSingleListener():
-    '''public void registerIMSingleListener(final IMSingleListener imSingleListener)
+    '''returns None\n\n
+    registerIMSingleListener(final IMSingleListener imSingleListener)\n
     '''
 def removeIMSingleListener():
-    '''public void removeIMSingleListener(final IMSingleListener imSingleListener)
+    '''returns None\n\n
+    removeIMSingleListener(final IMSingleListener imSingleListener)\n
     '''
 def removeMessageHandlerList():
-    '''public void removeMessageHandlerList(final String anObject)
+    '''returns None\n\n
+    removeMessageHandlerList(final String anObject)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

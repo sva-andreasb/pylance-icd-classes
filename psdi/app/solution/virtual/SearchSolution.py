@@ -1,6 +1,8 @@
-def SearchSolution():
-    '''public SearchSolution(final MboSet ms)
+def ():
+    '''returns SearchSolution\n\n
+    (final MboSet ms)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''

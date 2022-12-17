@@ -1,123 +1,160 @@
-def DMPackage():
-    '''public DMPackage(final MboSet ms)
+def ():
+    '''returns DMPackage\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def deleteForPreview():
-    '''public void deleteForPreview(final long accessModifier)
+    '''returns None\n\n
+    deleteForPreview(final long accessModifier)\n
     '''
 def writeMosToXML():
-    '''public boolean writeMosToXML(final String type, final String defClassName, final String mosName, final MboSetRemote mosMboSet, final boolean isChange, final int batchSize, final boolean useDefaultXMLAction)
+    '''returns boolean\n\n
+    writeMosToXML(final String type, final String defClassName, final String mosName, final MboSetRemote mosMboSet, final boolean isChange, final int batchSize, final boolean useDefaultXMLAction)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final String progressStatus, final Date date, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String status, final String progressStatus, final Date date, final String memo, final long accessModifier)\n
     '''
 def canDistribute():
-    '''public void canDistribute()
+    '''returns None\n\n
+    canDistribute()\n
     '''
 def distributeZipPackage():
-    '''public boolean distributeZipPackage()
+    '''returns boolean\n\n
+    distributeZipPackage()\n
     '''
 def distributePackage():
-    '''public String distributePackage()
+    '''returns String\n\n
+    distributePackage()\n
     '''
 def deployPackage():
-    '''public void deployPackage(final MboSetRemote pkgDefSet)
+    '''returns None\n\n
+    deployPackage(final MboSetRemote pkgDefSet)\n
     '''
 def getLongopPreviewOKMsg():
-    '''public void getLongopPreviewOKMsg(final String pkgName, final UserInfo ui, final MboSetRemote defSet)
+    '''returns None\n\n
+    getLongopPreviewOKMsg(final String pkgName, final UserInfo ui, final MboSetRemote defSet)\n
     '''
 def changeMaxStatus():
-    '''public void changeMaxStatus(final String status, final String progressStatus, final Date asOfDate, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeMaxStatus(final String status, final String progressStatus, final Date asOfDate, final String memo, final long accessModifier)\n
     '''
 def previewLogger():
-    '''public void previewLogger(final String pkgName, final boolean load)
+    '''returns None\n\n
+    previewLogger(final String pkgName, final boolean load)\n
     '''
 def processPreviewXML():
-    '''public void processPreviewXML(final MXTransaction mxTrans, final UserInfo ui, final String mos, final byte[] content, final boolean recordRollback)
+    '''returns None\n\n
+    processPreviewXML(final MXTransaction mxTrans, final UserInfo ui, final String mos, final byte[] content, final boolean recordRollback)\n
     '''
 def confirmCompSrcDeployed():
-    '''public MboRemote confirmCompSrcDeployed()
+    '''returns MboRemote\n\n
+    confirmCompSrcDeployed()\n
     '''
 def closePkg():
-    '''public void closePkg()
+    '''returns None\n\n
+    closePkg()\n
     '''
 def uploadCompiledSrcFile():
-    '''public void uploadCompiledSrcFile(final String fileName, final byte[] content)
+    '''returns None\n\n
+    uploadCompiledSrcFile(final String fileName, final byte[] content)\n
     '''
 def canDownloadPkg():
-    '''public String canDownloadPkg()
+    '''returns String\n\n
+    canDownloadPkg()\n
     '''
 def canDownloadFile():
-    '''public String canDownloadFile(final MboRemote cmpSrc)
+    '''returns String\n\n
+    canDownloadFile(final MboRemote cmpSrc)\n
     '''
 def getRedistribute():
-    '''public boolean getRedistribute()
+    '''returns boolean\n\n
+    getRedistribute()\n
     '''
 def setRedistribute():
-    '''public void setRedistribute(final boolean isRedistribute)
+    '''returns None\n\n
+    setRedistribute(final boolean isRedistribute)\n
     '''
 def getPackageDef():
-    '''public MboRemote getPackageDef()
+    '''returns MboRemote\n\n
+    getPackageDef()\n
     '''
 def canDownloadPreviewLog():
-    '''public String canDownloadPreviewLog()
+    '''returns String\n\n
+    canDownloadPreviewLog()\n
     '''
 def canDownloadScriptLog():
-    '''public String canDownloadScriptLog()
-    '''
-def mosGrpResolver():
-    '''public HashMap<Integer, MosPreviewInfo> mosGrpResolver(final HashMap<Integer, String> objMap)
+    '''returns String\n\n
+    canDownloadScriptLog()\n
     '''
 def applyFix():
-    '''public void applyFix()
+    '''returns None\n\n
+    applyFix()\n
     '''
 def setMosName():
-    '''public void setMosName(final String mos)
+    '''returns None\n\n
+    setMosName(final String mos)\n
     '''
 def getMosName():
-    '''public String getMosName()
+    '''returns String\n\n
+    getMosName()\n
     '''
 def setGroupName():
-    '''public void setGroupName(final String grp)
+    '''returns None\n\n
+    setGroupName(final String grp)\n
     '''
 def getGroupName():
-    '''public String getGroupName()
+    '''returns String\n\n
+    getGroupName()\n
     '''
 def setMosStarted():
-    '''public void setMosStarted(final boolean flag)
+    '''returns None\n\n
+    setMosStarted(final boolean flag)\n
     '''
 def isMosStarted():
-    '''public boolean isMosStarted()
+    '''returns boolean\n\n
+    isMosStarted()\n
     '''
 def setMosEnded():
-    '''public void setMosEnded(final boolean flag)
+    '''returns None\n\n
+    setMosEnded(final boolean flag)\n
     '''
 def isMosEnded():
-    '''public boolean isMosEnded()
+    '''returns boolean\n\n
+    isMosEnded()\n
     '''
 def setGroupStarted():
-    '''public void setGroupStarted(final boolean flag)
+    '''returns None\n\n
+    setGroupStarted(final boolean flag)\n
     '''
 def isGroupStarted():
-    '''public boolean isGroupStarted()
+    '''returns boolean\n\n
+    isGroupStarted()\n
     '''
 def setGroupEnded():
-    '''public void setGroupEnded(final boolean flag)
+    '''returns None\n\n
+    setGroupEnded(final boolean flag)\n
     '''
 def isGroupEnded():
-    '''public boolean isGroupEnded()
+    '''returns boolean\n\n
+    isGroupEnded()\n
     '''

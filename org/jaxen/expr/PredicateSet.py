@@ -1,18 +1,24 @@
-def PredicateSet():
-    '''public PredicateSet()
+def ():
+    '''returns PredicateSet\n\n
+    ()\n
     '''
 def addPredicate():
-    '''public void addPredicate(final Predicate predicate)
+    '''returns None\n\n
+    addPredicate(final Predicate predicate)\n
     '''
 def getPredicates():
-    '''public List getPredicates()
+    '''returns List\n\n
+    getPredicates()\n
     '''
 def simplify():
-    '''public void simplify()
+    '''returns None\n\n
+    simplify()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def applyPredicate():
-    '''public List applyPredicate(final Predicate predicate, final List nodes2Filter, final ContextSupport support)
+    '''returns List\n\n
+    applyPredicate(final Predicate predicate, final List nodes2Filter, final ContextSupport support)\n
     '''

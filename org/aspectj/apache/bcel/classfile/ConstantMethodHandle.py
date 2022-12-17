@@ -1,18 +1,12 @@
-def ConstantMethodHandle():
-    '''public ConstantMethodHandle(final byte referenceKind, final int referenceIndex)
-    '''
-def dump():
-    '''public final void dump(final DataOutputStream file)
-    '''
-def getReferenceKind():
-    '''public final byte getReferenceKind()
-    '''
-def toString():
-    '''public final String toString()
+def ():
+    '''returns ConstantMethodHandle\n\n
+    (final byte referenceKind, final int referenceIndex)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def accept():
-    '''public void accept(final ClassVisitor v)
+    '''returns None\n\n
+    accept(final ClassVisitor v)\n
     '''

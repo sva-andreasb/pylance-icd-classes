@@ -1,10 +1,9 @@
 serialVersionUID = "long  1L"
-def SchemaDeserializer():
-    '''public SchemaDeserializer()
-    '''
-def setLocator():
-    '''public static void setLocator(final WSDLLocator value)
+def ():
+    '''returns SchemaDeserializer\n\n
+    ()\n
     '''
 def unmarshall():
-    '''public ExtensibilityElement unmarshall(final Class clazz, final QName elementType, final Element element, final Definition definition, final ExtensionRegistry extensionRegistry)
+    '''returns ExtensibilityElement\n\n
+    unmarshall(final Class clazz, final QName elementType, final Element element, final Definition definition, final ExtensionRegistry extensionRegistry)\n
     '''

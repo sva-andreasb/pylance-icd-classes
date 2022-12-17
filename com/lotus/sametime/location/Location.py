@@ -1,58 +1,77 @@
-def Location():
-    '''public Location(final boolean callMe, final String city, final String countryName, final String state, final String phoneNumber, final String userDefinedLocationName, final String zipCode, final String timeZoneId)
-    public Location()
+def ():
+    '''returns Location\n\n
+    (final boolean callMe, final String city, final String countryName, final String state, final String phoneNumber, final String userDefinedLocationName, final String zipCode, final String timeZoneId)\n
+    ()\n
     '''
 def getCallMe():
-    '''public boolean getCallMe()
+    '''returns boolean\n\n
+    getCallMe()\n
     '''
 def setCallMe():
-    '''public void setCallMe(final boolean callMe)
+    '''returns None\n\n
+    setCallMe(final boolean callMe)\n
     '''
 def getCity():
-    '''public String getCity()
+    '''returns String\n\n
+    getCity()\n
     '''
 def setCity():
-    '''public void setCity(final String city)
+    '''returns None\n\n
+    setCity(final String city)\n
     '''
 def getCountryName():
-    '''public String getCountryName()
+    '''returns String\n\n
+    getCountryName()\n
     '''
 def setCountryName():
-    '''public void setCountryName(final String countryName)
+    '''returns None\n\n
+    setCountryName(final String countryName)\n
     '''
 def getPhoneNumber():
-    '''public String getPhoneNumber()
+    '''returns String\n\n
+    getPhoneNumber()\n
     '''
 def setPhoneNumber():
-    '''public void setPhoneNumber(final String phoneNumber)
+    '''returns None\n\n
+    setPhoneNumber(final String phoneNumber)\n
     '''
 def getState():
-    '''public String getState()
+    '''returns String\n\n
+    getState()\n
     '''
 def setState():
-    '''public void setState(final String state)
+    '''returns None\n\n
+    setState(final String state)\n
     '''
 def getUserDefinedLocationName():
-    '''public String getUserDefinedLocationName()
+    '''returns String\n\n
+    getUserDefinedLocationName()\n
     '''
 def setUserDefinedLocationName():
-    '''public void setUserDefinedLocationName(final String userDefinedLocationName)
+    '''returns None\n\n
+    setUserDefinedLocationName(final String userDefinedLocationName)\n
     '''
 def getZipCode():
-    '''public String getZipCode()
+    '''returns String\n\n
+    getZipCode()\n
     '''
 def setZipCode():
-    '''public void setZipCode(final String zipCode)
+    '''returns None\n\n
+    setZipCode(final String zipCode)\n
     '''
 def getTimeZoneId():
-    '''public String getTimeZoneId()
+    '''returns String\n\n
+    getTimeZoneId()\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def load():
-    '''public void load(final NdrInputStream ndrInputStream)
+    '''returns None\n\n
+    load(final NdrInputStream ndrInputStream)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

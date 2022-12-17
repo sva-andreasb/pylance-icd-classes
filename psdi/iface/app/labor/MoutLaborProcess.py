@@ -1,3 +1,4 @@
-def MoutLaborProcess():
-    '''public MoutLaborProcess()
+def ():
+    '''returns MoutLaborProcess\n\n
+    ()\n
     '''

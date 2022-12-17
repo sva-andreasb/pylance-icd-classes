@@ -1,76 +1,100 @@
-def Assignment():
-    '''public Assignment(final MboSet ms)
+def ():
+    '''returns Assignment\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def calledFromAssignmentManager():
-    '''public boolean calledFromAssignmentManager()
+    '''returns boolean\n\n
+    calledFromAssignmentManager()\n
     '''
 def completeAssignment():
-    '''public void completeAssignment(final String status, final Date date)
-    public void completeAssignment()
-    public void completeAssignment(final boolean completeWO)
+    '''returns None\n\n
+    completeAssignment(final String status, final Date date)\n
+    completeAssignment()\n
+    completeAssignment(final boolean completeWO)\n
     '''
 def getLabTransSet():
-    '''public LabTransSetRemote getLabTransSet()
+    '''returns LabTransSetRemote\n\n
+    getLabTransSet()\n
     '''
 def createLabTrans():
-    '''public void createLabTrans(final WORemote ownerWO)
+    '''returns None\n\n
+    createLabTrans(final WORemote ownerWO)\n
     '''
 def getToolTransSet():
-    '''public ToolTransSetRemote getToolTransSet()
+    '''returns ToolTransSetRemote\n\n
+    getToolTransSet()\n
     '''
 def createToolTransCrew():
-    '''public void createToolTransCrew(final WORemote ownerWO, final AMCrewRemote crew)
+    '''returns None\n\n
+    createToolTransCrew(final WORemote ownerWO, final AMCrewRemote crew)\n
     '''
 def completeTheWO():
-    '''public void completeTheWO(final WORemote ownerWO)
+    '''returns None\n\n
+    completeTheWO(final WORemote ownerWO)\n
     '''
 def canFinishWO():
-    '''public boolean canFinishWO(final WO woMbo)
+    '''returns boolean\n\n
+    canFinishWO(final WO woMbo)\n
     '''
 def getWPEndDateTime():
-    '''public Date getWPEndDateTime(final MboRemote WorkTimeMbo, final Date wpStartDateTime, final GregorianCalendar scratchCal, final AvailCalc availCalc)
+    '''returns Date\n\n
+    getWPEndDateTime(final MboRemote WorkTimeMbo, final Date wpStartDateTime, final GregorianCalendar scratchCal, final AvailCalc availCalc)\n
     '''
 def calcFinishDate():
-    '''public void calcFinishDate()
+    '''returns None\n\n
+    calcFinishDate()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def startAssignment():
-    '''public void startAssignment(final Date startDate)
+    '''returns None\n\n
+    startAssignment(final Date startDate)\n
     '''
 def interruptAssignment():
-    '''public void interruptAssignment(final Date interruptDate)
+    '''returns None\n\n
+    interruptAssignment(final Date interruptDate)\n
     '''
 def finishAssignment():
-    '''public void finishAssignment(final Date finishDate)
+    '''returns None\n\n
+    finishAssignment(final Date finishDate)\n
     '''
 def getCrewWorkZoneWhere():
-    '''public String getCrewWorkZoneWhere(final MboRemote owner)
-    public String getCrewWorkZoneWhere(final String assetNum, final String location, final String siteId, final String orgId)
+    '''returns String\n\n
+    getCrewWorkZoneWhere(final MboRemote owner)\n
+    getCrewWorkZoneWhere(final String assetNum, final String location, final String siteId, final String orgId)\n
     '''
 def getLaborWorkZoneWhere():
-    '''public String getLaborWorkZoneWhere(final String assetNum, final String location, final String siteId, final String orgId)
-    public String getLaborWorkZoneWhere(final MboRemote owner)
+    '''returns String\n\n
+    getLaborWorkZoneWhere(final String assetNum, final String location, final String siteId, final String orgId)\n
+    getLaborWorkZoneWhere(final MboRemote owner)\n
     '''
 def countMembers():
-    '''public int countMembers()
+    '''returns int\n\n
+    countMembers()\n
     '''
 def getAvailableLabor():
-    '''public MboSetRemote getAvailableLabor()
+    '''returns MboSetRemote\n\n
+    getAvailableLabor()\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''

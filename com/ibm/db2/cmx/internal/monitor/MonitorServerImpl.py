@@ -1,33 +1,43 @@
-def MonitorServerImpl():
-    '''public MonitorServerImpl(final String controllerURL_, final String s, final String[] monitorServerIPs_, final int n, final boolean b, final int n2, final int n3)
+def ():
+    '''returns MonitorServerImpl\n\n
+    (final String controllerURL_, final String s, final String[] monitorServerIPs_, final int n, final boolean b, final int n2, final int n3)\n
     '''
 def registerEventHandler():
-    '''public void registerEventHandler(final EventHandler eventHandler)
+    '''returns None\n\n
+    registerEventHandler(final EventHandler eventHandler)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''
 def registerMonitoredDataSource():
-    '''public void registerMonitoredDataSource(final String s, final boolean b, final int i, final int j, final int[] array, final String[] array2, final int k)
-    public void registerMonitoredDataSource(final String s, final int i, final String s2, final boolean b, final int j, final int k, final int[] array, final String[] array2, final int l)
-    public void registerMonitoredDataSource(final String[] array, final int i, final String s, final boolean b, final int j, final int k, final int[] array2, final String[] array3, final int l)
+    '''returns None\n\n
+    registerMonitoredDataSource(final String s, final boolean b, final int i, final int j, final int[] array, final String[] array2, final int k)\n
+    registerMonitoredDataSource(final String s, final int i, final String s2, final boolean b, final int j, final int k, final int[] array, final String[] array2, final int l)\n
+    registerMonitoredDataSource(final String[] array, final int i, final String s, final boolean b, final int j, final int k, final int[] array2, final String[] array3, final int l)\n
     '''
 def registerMonitoredDatabase():
-    '''public void registerMonitoredDatabase(final String s, final String s2, final Object[] array, final boolean b, final int n, final int n2, final int[] array2, final String[] array3, final int n3)
+    '''returns None\n\n
+    registerMonitoredDatabase(final String s, final String s2, final Object[] array, final boolean b, final int n, final int n2, final int[] array2, final String[] array3, final int n3)\n
     '''
 def registerMonitoredLocation():
-    '''public void registerMonitoredLocation(final String s, final boolean b, final int i, final int j, final int[] array, final String[] array2, final int k)
+    '''returns None\n\n
+    registerMonitoredLocation(final String s, final boolean b, final int i, final int j, final int[] array, final String[] array2, final int k)\n
     '''
 def getRegisteredIPs():
-    '''public String[] getRegisteredIPs()
+    '''returns String[]\n\n
+    getRegisteredIPs()\n
     '''
 def deregisterMonitoredDataSource():
-    '''public void deregisterMonitoredDataSource(final String s, final int i, final String s2)
-    public void deregisterMonitoredDataSource(final String s)
+    '''returns None\n\n
+    deregisterMonitoredDataSource(final String s, final int i, final String s2)\n
+    deregisterMonitoredDataSource(final String s)\n
     '''
 def deregisterMonitoredLocation():
-    '''public void deregisterMonitoredLocation(final String s)
+    '''returns None\n\n
+    deregisterMonitoredLocation(final String s)\n
     '''

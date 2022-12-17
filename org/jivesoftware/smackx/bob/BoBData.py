@@ -1,21 +1,27 @@
-def BoBData():
-    '''public BoBData(final String type, final byte[] content)
-    public BoBData(final String type, final byte[] content, final int maxAge)
-    public BoBData(final String type, final String content)
-    public BoBData(final String type, final String content, final int maxAge)
+def ():
+    '''returns BoBData\n\n
+    (final String type, final byte[] content)\n
+    (final String type, final byte[] content, final int maxAge)\n
+    (final String type, final String content)\n
+    (final String type, final String content, final int maxAge)\n
     '''
 def getMaxAge():
-    '''public int getMaxAge()
+    '''returns int\n\n
+    getMaxAge()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getContent():
-    '''public byte[] getContent()
+    '''returns byte[]\n\n
+    getContent()\n
     '''
 def getContentBase64Encoded():
-    '''public String getContentBase64Encoded()
+    '''returns String\n\n
+    getContentBase64Encoded()\n
     '''
 def isOfReasonableSize():
-    '''public boolean isOfReasonableSize()
+    '''returns boolean\n\n
+    isOfReasonableSize()\n
     '''

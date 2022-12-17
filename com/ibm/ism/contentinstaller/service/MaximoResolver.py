@@ -1,18 +1,24 @@
-def MaximoResolver():
-    '''public MaximoResolver(final URI maximoRoot, final List<URL> additionalJarfiles)
+def ():
+    '''returns MaximoResolver\n\n
+    (final URI maximoRoot, final List<URL> additionalJarfiles)\n
     '''
 def getMaximoPropertiesDirectory():
-    '''public URI getMaximoPropertiesDirectory()
+    '''returns URI\n\n
+    getMaximoPropertiesDirectory()\n
     '''
 def resolvePath():
-    '''public URI resolvePath(final String path)
+    '''returns URI\n\n
+    resolvePath(final String path)\n
     '''
 def loadClass():
-    '''public Class loadClass(final String classname)
+    '''returns Class\n\n
+    loadClass(final String classname)\n
     '''
 def accept():
-    '''public boolean accept(final File pathname)
+    '''returns boolean\n\n
+    accept(final File pathname)\n
     '''
 def resolveSchemaPath():
-    '''public InputStream resolveSchemaPath(final String schemaPath)
+    '''returns InputStream\n\n
+    resolveSchemaPath(final String schemaPath)\n
     '''

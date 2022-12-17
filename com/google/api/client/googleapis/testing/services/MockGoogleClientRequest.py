@@ -1,12 +1,16 @@
-def MockGoogleClientRequest():
-    '''public MockGoogleClientRequest(final AbstractGoogleClient client, final String method, final String uriTemplate, final HttpContent content, final Class<T> responseClass)
+def ():
+    '''returns MockGoogleClientRequest\n\n
+    (final AbstractGoogleClient client, final String method, final String uriTemplate, final HttpContent content, final Class<T> responseClass)\n
     '''
 def setDisableGZipContent():
-    '''public MockGoogleClientRequest<T> setDisableGZipContent(final boolean disableGZipContent)
+    '''returns MockGoogleClientRequest<T>\n\n
+    setDisableGZipContent(final boolean disableGZipContent)\n
     '''
 def setRequestHeaders():
-    '''public MockGoogleClientRequest<T> setRequestHeaders(final HttpHeaders headers)
+    '''returns MockGoogleClientRequest<T>\n\n
+    setRequestHeaders(final HttpHeaders headers)\n
     '''
 def set():
-    '''public MockGoogleClientRequest<T> set(final String fieldName, final Object value)
+    '''returns MockGoogleClientRequest<T>\n\n
+    set(final String fieldName, final Object value)\n
     '''

@@ -1,114 +1,148 @@
-def JSONMboSet():
-    '''public JSONMboSet(final MboServerInterface ms)
+def ():
+    '''returns JSONMboSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def deserialize():
-    '''public void deserialize(final byte[] response, final JSONResourceInfo resourceInfo, final int index)
+    '''returns None\n\n
+    deserialize(final byte[] response, final JSONResourceInfo resourceInfo, final int index)\n
     '''
 def json2MboSet():
-    '''public void json2MboSet(final JSONArray jsonArray, final JSONResourceInfo resourceInfo, final int start, final int end)
+    '''returns None\n\n
+    json2MboSet(final JSONArray jsonArray, final JSONResourceInfo resourceInfo, final int start, final int end)\n
     '''
 def json2Mbo():
-    '''public void json2Mbo(final Object jsonObj, final JSONObjectInfo detailInfo, final MboRemote parentMbo)
+    '''returns None\n\n
+    json2Mbo(final Object jsonObj, final JSONObjectInfo detailInfo, final MboRemote parentMbo)\n
     '''
 def toBeSaved():
-    '''public boolean toBeSaved()
+    '''returns boolean\n\n
+    toBeSaved()\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def setRelationship():
-    '''public void setRelationship(final String relationClause)
+    '''returns None\n\n
+    setRelationship(final String relationClause)\n
     '''
 def setWhere():
-    '''public void setWhere(final String whereClause)
+    '''returns None\n\n
+    setWhere(final String whereClause)\n
     '''
 def setAppWhere():
-    '''public void setAppWhere(final String whereClause)
+    '''returns None\n\n
+    setAppWhere(final String whereClause)\n
     '''
 def setUserWhere():
-    '''public void setUserWhere(final String whereClause)
+    '''returns None\n\n
+    setUserWhere(final String whereClause)\n
     '''
 def getMbo():
-    '''public MboRemote getMbo(final int index)
+    '''returns MboRemote\n\n
+    getMbo(final int index)\n
     '''
 def moveLast():
-    '''public MboRemote moveLast()
+    '''returns MboRemote\n\n
+    moveLast()\n
     '''
 def count():
-    '''public int count()
+    '''returns int\n\n
+    count()\n
     '''
 def getCountFromResponse():
-    '''public int getCountFromResponse(final byte[] response)
+    '''returns int\n\n
+    getCountFromResponse(final byte[] response)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def resetJSON():
-    '''public void resetJSON()
+    '''returns None\n\n
+    resetJSON()\n
     '''
 def load():
-    '''public void load(final int index)
+    '''returns None\n\n
+    load(final int index)\n
     '''
 def invoke():
-    '''public byte[] invoke(final int index, final boolean forCount)
+    '''returns byte[]\n\n
+    invoke(final int index, final boolean forCount)\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboRemote mbo, final JSONObject jo)
+    '''returns None\n\n
+    setAdditionalData(final MboRemote mbo, final JSONObject jo)\n
     '''
 def bytesToJSONArray():
-    '''public JSONArray bytesToJSONArray(final byte[] data)
+    '''returns JSONArray\n\n
+    bytesToJSONArray(final byte[] data)\n
     '''
 def getDataAsDouble():
-    '''public void getDataAsDouble(final Object value, final String attributeName, final MboRemote mbo)
+    '''returns None\n\n
+    getDataAsDouble(final Object value, final String attributeName, final MboRemote mbo)\n
     '''
 def setUserWhereAfterParse():
-    '''public void setUserWhereAfterParse(final String where)
+    '''returns None\n\n
+    setUserWhereAfterParse(final String where)\n
     '''
 def setBulkUpdate():
-    '''public void setBulkUpdate(final boolean bulk)
+    '''returns None\n\n
+    setBulkUpdate(final boolean bulk)\n
     '''
 def setResourceName():
-    '''public void setResourceName(final String resourceName)
+    '''returns None\n\n
+    setResourceName(final String resourceName)\n
     '''
 def getResourceName():
-    '''public String getResourceName()
+    '''returns String\n\n
+    getResourceName()\n
     '''
 def formatResourceName():
-    '''public String formatResourceName(final String where)
+    '''returns String\n\n
+    formatResourceName(final String where)\n
     '''
 def getProductName():
-    '''public String getProductName()
-    '''
-def getMetaData():
-    '''public Map<String, Object> getMetaData()
+    '''returns String\n\n
+    getProductName()\n
     '''
 def getBulkUpdate():
-    '''public boolean getBulkUpdate()
+    '''returns boolean\n\n
+    getBulkUpdate()\n
     '''
 def getEndPointName():
-    '''public String getEndPointName()
+    '''returns String\n\n
+    getEndPointName()\n
     '''
 def getLimit():
-    '''public int getLimit()
+    '''returns int\n\n
+    getLimit()\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''
 def setDateFormatType():
-    '''public void setDateFormatType(final String dateFormatType)
+    '''returns None\n\n
+    setDateFormatType(final String dateFormatType)\n
     '''
 def getDateFormatType():
-    '''public String getDateFormatType()
+    '''returns String\n\n
+    getDateFormatType()\n
     '''
 def setDateFormat():
-    '''public void setDateFormat(final String dateFormat)
+    '''returns None\n\n
+    setDateFormat(final String dateFormat)\n
     '''
 def getDateFormat():
-    '''public String getDateFormat()
+    '''returns String\n\n
+    getDateFormat()\n
     '''
 def getNullFormat():
-    '''public String getNullFormat()
+    '''returns String\n\n
+    getNullFormat()\n
     '''
 def supportsUpdate():
-    '''public boolean supportsUpdate()
+    '''returns boolean\n\n
+    supportsUpdate()\n
     '''

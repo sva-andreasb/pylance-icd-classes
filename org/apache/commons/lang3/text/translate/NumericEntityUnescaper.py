@@ -1,9 +1,12 @@
-def NumericEntityUnescaper():
-    '''public NumericEntityUnescaper(final OPTION... options)
+def ():
+    '''returns NumericEntityUnescaper\n\n
+    (final OPTION... options)\n
     '''
 def isSet():
-    '''public boolean isSet(final OPTION option)
+    '''returns boolean\n\n
+    isSet(final OPTION option)\n
     '''
 def translate():
-    '''public int translate(final CharSequence input, final int index, final Writer out)
+    '''returns int\n\n
+    translate(final CharSequence input, final int index, final Writer out)\n
     '''

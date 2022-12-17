@@ -1,24 +1,24 @@
-def RelationshipTreeBean():
-    '''public RelationshipTreeBean()
+def ():
+    '''returns RelationshipTreeBean\n\n
+    ()\n
     '''
 def getTreeControlObjectName():
-    '''public String getTreeControlObjectName()
-    '''
-def setRelationshipTreeObject():
-    '''public synchronized void setRelationshipTreeObject()
-    '''
-def getString():
-    '''public synchronized String getString(final String attribute)
+    '''returns String\n\n
+    getTreeControlObjectName()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def getExpBuilder():
-    '''public ExpressionBuilderRemote getExpBuilder()
+    '''returns ExpressionBuilderRemote\n\n
+    getExpBuilder()\n
     '''
 def selectnode():
-    '''public int selectnode()
+    '''returns int\n\n
+    selectnode()\n
     '''
 def setcurrentnode():
-    '''public void setcurrentnode(final String newobjectname, final String newuniqueidname, final String newuniqueidvalue)
+    '''returns None\n\n
+    setcurrentnode(final String newobjectname, final String newuniqueidname, final String newuniqueidvalue)\n
     '''

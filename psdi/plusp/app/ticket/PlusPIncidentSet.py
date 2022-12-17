@@ -1,3 +1,4 @@
-def PlusPIncidentSet():
-    '''public PlusPIncidentSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPIncidentSet\n\n
+    (final MboServerInterface arg0)\n
     '''

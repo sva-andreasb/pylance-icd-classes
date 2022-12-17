@@ -1,10 +1,13 @@
-def FixedClock():
-    '''public FixedClock()
-    public FixedClock(final long startTime)
+def ():
+    '''returns FixedClock\n\n
+    ()\n
+    (final long startTime)\n
     '''
 def setTime():
-    '''public FixedClock setTime(final long newTime)
+    '''returns FixedClock\n\n
+    setTime(final long newTime)\n
     '''
 def currentTimeMillis():
-    '''public long currentTimeMillis()
+    '''returns long\n\n
+    currentTimeMillis()\n
     '''

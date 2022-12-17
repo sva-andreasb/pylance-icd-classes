@@ -1,6 +1,8 @@
 def DUPLICATE():
-    '''public int DUPLICATE()
+    '''returns int\n\n
+    DUPLICATE()\n
     '''
 def reallyDuplicate():
-    '''public int reallyDuplicate()
+    '''returns int\n\n
+    reallyDuplicate()\n
     '''

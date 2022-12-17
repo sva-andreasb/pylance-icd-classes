@@ -1,90 +1,97 @@
-def getType():
-    '''public final DateTimeFieldType getType()
-    '''
-def getName():
-    '''public final String getName()
-    '''
-def isSupported():
-    '''public final boolean isSupported()
-    '''
 def getAsText():
-    '''public String getAsText(final long n, final Locale locale)
-    public final String getAsText(final long n)
-    public String getAsText(final ReadablePartial readablePartial, final int n, final Locale locale)
-    public final String getAsText(final ReadablePartial readablePartial, final Locale locale)
-    public String getAsText(final int i, final Locale locale)
+    '''returns String\n\n
+    getAsText(final long n, final Locale locale)\n
+    getAsText(final ReadablePartial readablePartial, final int n, final Locale locale)\n
+    getAsText(final int i, final Locale locale)\n
     '''
 def getAsShortText():
-    '''public String getAsShortText(final long n, final Locale locale)
-    public final String getAsShortText(final long n)
-    public String getAsShortText(final ReadablePartial readablePartial, final int n, final Locale locale)
-    public final String getAsShortText(final ReadablePartial readablePartial, final Locale locale)
-    public String getAsShortText(final int n, final Locale locale)
+    '''returns String\n\n
+    getAsShortText(final long n, final Locale locale)\n
+    getAsShortText(final ReadablePartial readablePartial, final int n, final Locale locale)\n
+    getAsShortText(final int n, final Locale locale)\n
     '''
 def add():
-    '''public long add(final long n, final int n2)
-    public long add(final long n, final long n2)
-    public int[] add(final ReadablePartial readablePartial, final int n, int[] array, int i)
+    '''returns int[]\n\n
+    add(final long n, final int n2)\n
+    add(final long n, final long n2)\n
+    add(final ReadablePartial readablePartial, final int n, int[] array, int i)\n
     '''
 def addWrapPartial():
-    '''public int[] addWrapPartial(final ReadablePartial readablePartial, final int n, int[] array, int i)
+    '''returns int[]\n\n
+    addWrapPartial(final ReadablePartial readablePartial, final int n, int[] array, int i)\n
     '''
 def addWrapField():
-    '''public long addWrapField(final long n, final int n2)
-    public int[] addWrapField(final ReadablePartial readablePartial, final int n, final int[] array, final int n2)
+    '''returns int[]\n\n
+    addWrapField(final long n, final int n2)\n
+    addWrapField(final ReadablePartial readablePartial, final int n, final int[] array, final int n2)\n
     '''
 def getDifference():
-    '''public int getDifference(final long n, final long n2)
+    '''returns int\n\n
+    getDifference(final long n, final long n2)\n
     '''
 def getDifferenceAsLong():
-    '''public long getDifferenceAsLong(final long n, final long n2)
+    '''returns long\n\n
+    getDifferenceAsLong(final long n, final long n2)\n
     '''
 def set():
-    '''public int[] set(final ReadablePartial readablePartial, final int n, final int[] array, final int n2)
-    public long set(final long n, final String s, final Locale locale)
-    public final long set(final long n, final String s)
-    public int[] set(final ReadablePartial readablePartial, final int n, final int[] array, final String s, final Locale locale)
+    '''returns int[]\n\n
+    set(final ReadablePartial readablePartial, final int n, final int[] array, final int n2)\n
+    set(final long n, final String s, final Locale locale)\n
+    set(final ReadablePartial readablePartial, final int n, final int[] array, final String s, final Locale locale)\n
     '''
 def isLeap():
-    '''public boolean isLeap(final long n)
+    '''returns boolean\n\n
+    isLeap(final long n)\n
     '''
 def getLeapAmount():
-    '''public int getLeapAmount(final long n)
+    '''returns int\n\n
+    getLeapAmount(final long n)\n
     '''
 def getLeapDurationField():
-    '''public DurationField getLeapDurationField()
+    '''returns DurationField\n\n
+    getLeapDurationField()\n
     '''
 def getMinimumValue():
-    '''public int getMinimumValue(final long n)
-    public int getMinimumValue(final ReadablePartial readablePartial)
-    public int getMinimumValue(final ReadablePartial readablePartial, final int[] array)
+    '''returns int\n\n
+    getMinimumValue(final long n)\n
+    getMinimumValue(final ReadablePartial readablePartial)\n
+    getMinimumValue(final ReadablePartial readablePartial, final int[] array)\n
     '''
 def getMaximumValue():
-    '''public int getMaximumValue(final long n)
-    public int getMaximumValue(final ReadablePartial readablePartial)
-    public int getMaximumValue(final ReadablePartial readablePartial, final int[] array)
+    '''returns int\n\n
+    getMaximumValue(final long n)\n
+    getMaximumValue(final ReadablePartial readablePartial)\n
+    getMaximumValue(final ReadablePartial readablePartial, final int[] array)\n
     '''
 def getMaximumTextLength():
-    '''public int getMaximumTextLength(final Locale locale)
+    '''returns int\n\n
+    getMaximumTextLength(final Locale locale)\n
     '''
 def getMaximumShortTextLength():
-    '''public int getMaximumShortTextLength(final Locale locale)
+    '''returns int\n\n
+    getMaximumShortTextLength(final Locale locale)\n
     '''
 def roundCeiling():
-    '''public long roundCeiling(long add)
+    '''returns long\n\n
+    roundCeiling(long add)\n
     '''
 def roundHalfFloor():
-    '''public long roundHalfFloor(final long n)
+    '''returns long\n\n
+    roundHalfFloor(final long n)\n
     '''
 def roundHalfCeiling():
-    '''public long roundHalfCeiling(final long n)
+    '''returns long\n\n
+    roundHalfCeiling(final long n)\n
     '''
 def roundHalfEven():
-    '''public long roundHalfEven(final long n)
+    '''returns long\n\n
+    roundHalfEven(final long n)\n
     '''
 def remainder():
-    '''public long remainder(final long n)
+    '''returns long\n\n
+    remainder(final long n)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

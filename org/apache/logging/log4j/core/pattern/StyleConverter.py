@@ -1,12 +1,12 @@
-def newInstance():
-    '''public static StyleConverter newInstance(final Configuration config, final String[] options)
-    '''
 def format():
-    '''public void format(final LogEvent event, final StringBuilder toAppendTo)
+    '''returns None\n\n
+    format(final LogEvent event, final StringBuilder toAppendTo)\n
     '''
 def handlesThrowable():
-    '''public boolean handlesThrowable()
+    '''returns boolean\n\n
+    handlesThrowable()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

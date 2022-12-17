@@ -1,42 +1,51 @@
-def SimpleReifierTripleMap():
-    '''public SimpleReifierTripleMap()
+def ():
+    '''returns SimpleReifierTripleMap\n\n
+    ()\n
     '''
 def getTriple():
-    '''public Triple getTriple(final Node tag)
+    '''returns Triple\n\n
+    getTriple(final Node tag)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def hasTriple():
-    '''public boolean hasTriple(final Triple t)
+    '''returns boolean\n\n
+    hasTriple(final Triple t)\n
     '''
 def putTriple():
-    '''public Triple putTriple(final Node key, final Triple value)
+    '''returns Triple\n\n
+    putTriple(final Node key, final Triple value)\n
     '''
 def removeTriple():
-    '''public void removeTriple(final Node key)
-    public void removeTriple(final Node key, final Triple value)
-    public void removeTriple(final Triple t)
+    '''returns None\n\n
+    removeTriple(final Node key)\n
+    removeTriple(final Node key, final Triple value)\n
+    removeTriple(final Triple t)\n
     '''
 def tagIterator():
-    '''public ExtendedIterator<Node> tagIterator(final Triple t)
-    public ExtendedIterator<Node> tagIterator()
+    '''returns ExtendedIterator<Node>\n\n
+    tagIterator(final Triple t)\n
+    tagIterator()\n
     '''
 def fill():
-    '''public void fill(final GraphAdd ga, final Node n, final Triple t)
-    '''
-def explodeTriple():
-    '''public static ExtendedIterator<Triple> explodeTriple(final Triple pattern, final Node tag, final Triple toExplode)
+    '''returns None\n\n
+    fill(final GraphAdd ga, final Node n, final Triple t)\n
     '''
 def asGraph():
-    '''public Graph asGraph()
+    '''returns Graph\n\n
+    asGraph()\n
     '''
 def graphBaseFind():
-    '''public ExtendedIterator<Triple> graphBaseFind(final TripleMatch tm)
+    '''returns ExtendedIterator<Triple>\n\n
+    graphBaseFind(final TripleMatch tm)\n
     '''
 def find():
-    '''public ExtendedIterator<Triple> find(final TripleMatch m)
+    '''returns ExtendedIterator<Triple>\n\n
+    find(final TripleMatch m)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''

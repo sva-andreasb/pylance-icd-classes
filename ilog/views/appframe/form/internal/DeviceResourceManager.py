@@ -1,61 +1,78 @@
 DEVICE_RESOURCE_MANAGER_PROPERTY = "String  \"JAppFrame:DeviceResourceManager\""
-def DeviceResourceManager():
-    '''public DeviceResourceManager()
+def ():
+    '''returns FontNode\n\n
+    ()\n
+    ()\n
     '''
 def lockColor():
-    '''public Object lockColor(final String s)
+    '''returns Object\n\n
+    lockColor(final String s)\n
     '''
 def unlockColor():
-    '''public boolean unlockColor(final Object o)
+    '''returns boolean\n\n
+    unlockColor(final Object o)\n
     '''
 def encodeColor():
-    '''public String encodeColor(final Object o)
+    '''returns String\n\n
+    encodeColor(final Object o)\n
     '''
 def lockFont():
-    '''public Object lockFont(String nextToken)
+    '''returns Object\n\n
+    lockFont(String nextToken)\n
     '''
 def unlockFont():
-    '''public boolean unlockFont(final Object o)
-    '''
-def FontNode():
-    '''public FontNode()
+    '''returns boolean\n\n
+    unlockFont(final Object o)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String a)
+    '''returns None\n\n
+    setName(final String a)\n
     '''
 def isItalic():
-    '''public boolean isItalic()
+    '''returns boolean\n\n
+    isItalic()\n
     '''
 def setItalic():
-    '''public void setItalic(final boolean b)
+    '''returns None\n\n
+    setItalic(final boolean b)\n
     '''
 def isBold():
-    '''public boolean isBold()
+    '''returns boolean\n\n
+    isBold()\n
     '''
 def setBold():
-    '''public void setBold(final boolean c)
+    '''returns None\n\n
+    setBold(final boolean c)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final int d)
+    '''returns None\n\n
+    setSize(final int d)\n
     '''
 def getFont():
-    '''public Object getFont()
+    '''returns Object\n\n
+    getFont()\n
     '''
 def setFont():
-    '''public void setFont(final Object e)
+    '''returns None\n\n
+    setFont(final Object e)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

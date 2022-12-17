@@ -1,56 +1,73 @@
-def ToSAXHandler():
-    '''public ToSAXHandler()
-    public ToSAXHandler(final ContentHandler hdlr, final LexicalHandler lex, final String encoding)
-    public ToSAXHandler(final ContentHandler handler, final String encoding)
+def ():
+    '''returns ToSAXHandler\n\n
+    ()\n
+    (final ContentHandler hdlr, final LexicalHandler lex, final String encoding)\n
+    (final ContentHandler handler, final String encoding)\n
     '''
 def startDTD():
-    '''public void startDTD(final String arg0, final String arg1, final String arg2)
+    '''returns None\n\n
+    startDTD(final String arg0, final String arg1, final String arg2)\n
     '''
 def characters():
-    '''public void characters(final String characters)
-    public void characters(final Node node)
+    '''returns None\n\n
+    characters(final String characters)\n
+    characters(final Node node)\n
     '''
 def comment():
-    '''public void comment(final String comment)
+    '''returns None\n\n
+    comment(final String comment)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String target, final String data)
+    '''returns None\n\n
+    processingInstruction(final String target, final String data)\n
     '''
 def startElement():
-    '''public void startElement(final String arg0, final String arg1, final String arg2, final Attributes arg3)
-    public void startElement(final String uri, final String localName, final String qName)
-    public void startElement(final String qName)
+    '''returns None\n\n
+    startElement(final String arg0, final String arg1, final String arg2, final Attributes arg3)\n
+    startElement(final String uri, final String localName, final String qName)\n
+    startElement(final String qName)\n
     '''
 def setLexHandler():
-    '''public void setLexHandler(final LexicalHandler _lexHandler)
+    '''returns None\n\n
+    setLexHandler(final LexicalHandler _lexHandler)\n
     '''
 def setContentHandler():
-    '''public void setContentHandler(final ContentHandler _saxHandler)
+    '''returns None\n\n
+    setContentHandler(final ContentHandler _saxHandler)\n
     '''
 def setCdataSectionElements():
-    '''public void setCdataSectionElements(final Vector URI_and_localNames)
+    '''returns None\n\n
+    setCdataSectionElements(final Vector URI_and_localNames)\n
     '''
 def setShouldOutputNSAttr():
-    '''public void setShouldOutputNSAttr(final boolean doOutputNSAttr)
+    '''returns None\n\n
+    setShouldOutputNSAttr(final boolean doOutputNSAttr)\n
     '''
 def flushPending():
-    '''public void flushPending()
+    '''returns None\n\n
+    flushPending()\n
     '''
 def setTransformState():
-    '''public void setTransformState(final TransformStateSetter ts)
+    '''returns None\n\n
+    setTransformState(final TransformStateSetter ts)\n
     '''
 def fatalError():
-    '''public void fatalError(final SAXParseException exc)
+    '''returns None\n\n
+    fatalError(final SAXParseException exc)\n
     '''
 def error():
-    '''public void error(final SAXParseException exc)
+    '''returns None\n\n
+    error(final SAXParseException exc)\n
     '''
 def warning():
-    '''public void warning(final SAXParseException exc)
+    '''returns None\n\n
+    warning(final SAXParseException exc)\n
     '''
 def reset():
-    '''public boolean reset()
+    '''returns boolean\n\n
+    reset()\n
     '''
 def addUniqueAttribute():
-    '''public void addUniqueAttribute(final String qName, final String value, final int flags)
+    '''returns None\n\n
+    addUniqueAttribute(final String qName, final String value, final int flags)\n
     '''

@@ -1,3 +1,4 @@
-def TermStats():
-    '''public TermStats(final int docFreq, final long totalTermFreq)
+def ():
+    '''returns TermStats\n\n
+    (final int docFreq, final long totalTermFreq)\n
     '''

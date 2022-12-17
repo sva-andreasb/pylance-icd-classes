@@ -1,39 +1,48 @@
-def init():
-    '''public static Vector init(final Connection con, final String sqlExpr)
-    '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setNeverCache():
-    '''public void setNeverCache(final boolean neverCacheParam)
+    '''returns None\n\n
+    setNeverCache(final boolean neverCacheParam)\n
     '''
 def getNeverCache():
-    '''public boolean getNeverCache()
+    '''returns boolean\n\n
+    getNeverCache()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getDetail():
-    '''public Object getDetail(final Object[] signature)
+    '''returns Object\n\n
+    getDetail(final Object[] signature)\n
     '''
 def contains():
-    '''public boolean contains(final String site, final String org)
+    '''returns boolean\n\n
+    contains(final String site, final String org)\n
     '''
 def setDetail():
-    '''public void setDetail(final String site, final String org, final Object detail)
+    '''returns None\n\n
+    setDetail(final String site, final String org, final Object detail)\n
     '''
 def needToConsiderSiteOrg():
-    '''public boolean needToConsiderSiteOrg()
+    '''returns boolean\n\n
+    needToConsiderSiteOrg()\n
     '''
 def getSignature():
-    '''public Object[] getSignature(final MboValue value)
+    '''returns Object[]\n\n
+    getSignature(final MboValue value)\n
     '''
 def canSignatureChangeAfterInit():
-    '''public boolean canSignatureChangeAfterInit(final MboValue value)
+    '''returns boolean\n\n
+    canSignatureChangeAfterInit(final MboValue value)\n
     '''
 def isDifferentSignature():
-    '''public boolean isDifferentSignature(final Object[] lastSignature, final Object[] newSignature)
+    '''returns boolean\n\n
+    isDifferentSignature(final Object[] lastSignature, final Object[] newSignature)\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

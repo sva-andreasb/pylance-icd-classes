@@ -1,6 +1,8 @@
-def PurchViewStatusHandler():
-    '''public PurchViewStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns PurchViewStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def approve():
-    '''public void approve(final String desiredStatus, final Date date)
+    '''returns None\n\n
+    approve(final String desiredStatus, final Date date)\n
     '''

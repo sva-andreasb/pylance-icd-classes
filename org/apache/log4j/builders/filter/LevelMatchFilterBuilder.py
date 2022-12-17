@@ -1,8 +1,10 @@
-def LevelMatchFilterBuilder():
-    '''public LevelMatchFilterBuilder()
-    public LevelMatchFilterBuilder(final String prefix, final Properties props)
+def ():
+    '''returns LevelMatchFilterBuilder\n\n
+    ()\n
+    (final String prefix, final Properties props)\n
     '''
 def parseFilter():
-    '''public Filter parseFilter(final Element filterElement, final XmlConfiguration config)
-    public Filter parseFilter(final PropertiesConfiguration config)
+    '''returns Filter\n\n
+    parseFilter(final Element filterElement, final XmlConfiguration config)\n
+    parseFilter(final PropertiesConfiguration config)\n
     '''

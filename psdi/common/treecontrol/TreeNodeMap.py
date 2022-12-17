@@ -1,22 +1,29 @@
-def TreeNodeMap():
-    '''public TreeNodeMap()
+def ():
+    '''returns TreeNodeMap\n\n
+    ()\n
     '''
 def getCurrentSequence():
-    '''public long getCurrentSequence()
+    '''returns long\n\n
+    getCurrentSequence()\n
     '''
 def getMboUniqueID():
-    '''public long getMboUniqueID(final MboRemote mbo, final long treeId)
+    '''returns long\n\n
+    getMboUniqueID(final MboRemote mbo, final long treeId)\n
     '''
 def getMboName():
-    '''public String getMboName(final long treeId)
+    '''returns String\n\n
+    getMboName(final long treeId)\n
     '''
 def addNew():
-    '''public long addNew(final MboRemote mbo)
-    public long addNew(final MboRemote mbo, final Long mboUID)
+    '''returns long\n\n
+    addNew(final MboRemote mbo)\n
+    addNew(final MboRemote mbo, final Long mboUID)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def containsMbo():
-    '''public boolean containsMbo(final Object mbo)
+    '''returns boolean\n\n
+    containsMbo(final Object mbo)\n
     '''

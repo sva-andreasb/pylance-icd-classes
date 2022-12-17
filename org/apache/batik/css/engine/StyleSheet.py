@@ -1,42 +1,56 @@
-def StyleSheet():
-    '''public StyleSheet()
+def ():
+    '''returns StyleSheet\n\n
+    ()\n
     '''
 def setMedia():
-    '''public void setMedia(final SACMediaList m)
+    '''returns None\n\n
+    setMedia(final SACMediaList m)\n
     '''
 def getMedia():
-    '''public SACMediaList getMedia()
+    '''returns SACMediaList\n\n
+    getMedia()\n
     '''
 def getParent():
-    '''public StyleSheet getParent()
+    '''returns StyleSheet\n\n
+    getParent()\n
     '''
 def setParent():
-    '''public void setParent(final StyleSheet ss)
+    '''returns None\n\n
+    setParent(final StyleSheet ss)\n
     '''
 def setAlternate():
-    '''public void setAlternate(final boolean b)
+    '''returns None\n\n
+    setAlternate(final boolean b)\n
     '''
 def isAlternate():
-    '''public boolean isAlternate()
+    '''returns boolean\n\n
+    isAlternate()\n
     '''
 def setTitle():
-    '''public void setTitle(final String t)
+    '''returns None\n\n
+    setTitle(final String t)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def getRule():
-    '''public Rule getRule(final int i)
+    '''returns Rule\n\n
+    getRule(final int i)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def append():
-    '''public void append(final Rule r)
+    '''returns None\n\n
+    append(final Rule r)\n
     '''
 def toString():
-    '''public String toString(final CSSEngine eng)
+    '''returns String\n\n
+    toString(final CSSEngine eng)\n
     '''

@@ -1,3 +1,4 @@
-def PointWOSet():
-    '''public PointWOSet(final MboServerInterface ms)
+def ():
+    '''returns PointWOSet\n\n
+    (final MboServerInterface ms)\n
     '''

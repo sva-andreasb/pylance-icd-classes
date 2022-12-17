@@ -1,48 +1,56 @@
-def getInstanceFor():
-    '''public static synchronized MultiUserChatLightManager getInstanceFor(final XMPPConnection connection)
-    '''
-def getMultiUserChatLight():
-    '''public synchronized MultiUserChatLight getMultiUserChatLight(final EntityBareJid jid)
-    '''
 def isFeatureSupported():
-    '''public boolean isFeatureSupported(final DomainBareJid mucLightService)
+    '''returns boolean\n\n
+    isFeatureSupported(final DomainBareJid mucLightService)\n
     '''
 def getOccupiedRooms():
-    '''public List<Jid> getOccupiedRooms(final DomainBareJid mucLightService)
+    '''returns List<Jid>\n\n
+    getOccupiedRooms(final DomainBareJid mucLightService)\n
     '''
 def getLocalServices():
-    '''public List<DomainBareJid> getLocalServices()
+    '''returns List<DomainBareJid>\n\n
+    getLocalServices()\n
     '''
 def getUsersAndRoomsBlocked():
-    '''public List<Jid> getUsersAndRoomsBlocked(final DomainBareJid mucLightService)
+    '''returns List<Jid>\n\n
+    getUsersAndRoomsBlocked(final DomainBareJid mucLightService)\n
     '''
 def getRoomsBlocked():
-    '''public List<Jid> getRoomsBlocked(final DomainBareJid mucLightService)
+    '''returns List<Jid>\n\n
+    getRoomsBlocked(final DomainBareJid mucLightService)\n
     '''
 def getUsersBlocked():
-    '''public List<Jid> getUsersBlocked(final DomainBareJid mucLightService)
+    '''returns List<Jid>\n\n
+    getUsersBlocked(final DomainBareJid mucLightService)\n
     '''
 def blockRoom():
-    '''public void blockRoom(final DomainBareJid mucLightService, final Jid roomJid)
+    '''returns None\n\n
+    blockRoom(final DomainBareJid mucLightService, final Jid roomJid)\n
     '''
 def blockRooms():
-    '''public void blockRooms(final DomainBareJid mucLightService, final List<Jid> roomsJids)
+    '''returns None\n\n
+    blockRooms(final DomainBareJid mucLightService, final List<Jid> roomsJids)\n
     '''
 def blockUser():
-    '''public void blockUser(final DomainBareJid mucLightService, final Jid userJid)
+    '''returns None\n\n
+    blockUser(final DomainBareJid mucLightService, final Jid userJid)\n
     '''
 def blockUsers():
-    '''public void blockUsers(final DomainBareJid mucLightService, final List<Jid> usersJids)
+    '''returns None\n\n
+    blockUsers(final DomainBareJid mucLightService, final List<Jid> usersJids)\n
     '''
 def unblockRoom():
-    '''public void unblockRoom(final DomainBareJid mucLightService, final Jid roomJid)
+    '''returns None\n\n
+    unblockRoom(final DomainBareJid mucLightService, final Jid roomJid)\n
     '''
 def unblockRooms():
-    '''public void unblockRooms(final DomainBareJid mucLightService, final List<Jid> roomsJids)
+    '''returns None\n\n
+    unblockRooms(final DomainBareJid mucLightService, final List<Jid> roomsJids)\n
     '''
 def unblockUser():
-    '''public void unblockUser(final DomainBareJid mucLightService, final Jid userJid)
+    '''returns None\n\n
+    unblockUser(final DomainBareJid mucLightService, final Jid userJid)\n
     '''
 def unblockUsers():
-    '''public void unblockUsers(final DomainBareJid mucLightService, final List<Jid> usersJids)
+    '''returns None\n\n
+    unblockUsers(final DomainBareJid mucLightService, final List<Jid> usersJids)\n
     '''

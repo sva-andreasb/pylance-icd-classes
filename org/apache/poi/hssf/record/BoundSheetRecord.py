@@ -1,44 +1,54 @@
 sid = "short  133"
-def BoundSheetRecord():
-    '''public BoundSheetRecord(final String sheetname)
-    public BoundSheetRecord(final RecordInputStream in)
+def ():
+    '''returns BoundSheetRecord\n\n
+    (final String sheetname)\n
+    (final RecordInputStream in)\n
     '''
 def setPositionOfBof():
-    '''public void setPositionOfBof(final int pos)
+    '''returns None\n\n
+    setPositionOfBof(final int pos)\n
     '''
 def setSheetname():
-    '''public void setSheetname(final String sheetName)
+    '''returns None\n\n
+    setSheetname(final String sheetName)\n
     '''
 def getPositionOfBof():
-    '''public int getPositionOfBof()
+    '''returns int\n\n
+    getPositionOfBof()\n
     '''
 def getSheetname():
-    '''public String getSheetname()
+    '''returns String\n\n
+    getSheetname()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def isHidden():
-    '''public boolean isHidden()
+    '''returns boolean\n\n
+    isHidden()\n
     '''
 def setHidden():
-    '''public void setHidden(final boolean hidden)
+    '''returns None\n\n
+    setHidden(final boolean hidden)\n
     '''
 def isVeryHidden():
-    '''public boolean isVeryHidden()
+    '''returns boolean\n\n
+    isVeryHidden()\n
     '''
 def setVeryHidden():
-    '''public void setVeryHidden(final boolean veryHidden)
-    '''
-def orderByBofPosition():
-    '''public static BoundSheetRecord[] orderByBofPosition(final List<BoundSheetRecord> boundSheetRecords)
+    '''returns None\n\n
+    setVeryHidden(final boolean veryHidden)\n
     '''
 def compare():
-    '''public int compare(final BoundSheetRecord bsr1, final BoundSheetRecord bsr2)
+    '''returns int\n\n
+    compare(final BoundSheetRecord bsr1, final BoundSheetRecord bsr2)\n
     '''

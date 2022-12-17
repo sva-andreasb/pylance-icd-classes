@@ -1,16 +1,21 @@
-def OptionsMethod():
-    '''public OptionsMethod()
-    public OptionsMethod(final String uri)
+def ():
+    '''returns OptionsMethod\n\n
+    ()\n
+    (final String uri)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def isAllowed():
-    '''public boolean isAllowed(final String method)
+    '''returns boolean\n\n
+    isAllowed(final String method)\n
     '''
 def getAllowedMethods():
-    '''public Enumeration getAllowedMethods()
+    '''returns Enumeration\n\n
+    getAllowedMethods()\n
     '''
 def needContentLength():
-    '''public boolean needContentLength()
+    '''returns boolean\n\n
+    needContentLength()\n
     '''

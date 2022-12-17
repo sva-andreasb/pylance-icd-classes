@@ -1,3 +1,4 @@
-def TAMITJobLicenseSet():
-    '''public TAMITJobLicenseSet(final MboServerInterface ms)
+def ():
+    '''returns TAMITJobLicenseSet\n\n
+    (final MboServerInterface ms)\n
     '''

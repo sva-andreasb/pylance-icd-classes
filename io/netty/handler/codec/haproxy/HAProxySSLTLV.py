@@ -1,24 +1,32 @@
-def HAProxySSLTLV():
-    '''public HAProxySSLTLV(final int verify, final byte clientBitField, final List<HAProxyTLV> tlvs)
+def ():
+    '''returns HAProxySSLTLV\n\n
+    (final int verify, final byte clientBitField, final List<HAProxyTLV> tlvs)\n
     '''
 def isPP2ClientCertConn():
-    '''public boolean isPP2ClientCertConn()
+    '''returns boolean\n\n
+    isPP2ClientCertConn()\n
     '''
 def isPP2ClientSSL():
-    '''public boolean isPP2ClientSSL()
+    '''returns boolean\n\n
+    isPP2ClientSSL()\n
     '''
 def isPP2ClientCertSess():
-    '''public boolean isPP2ClientCertSess()
+    '''returns boolean\n\n
+    isPP2ClientCertSess()\n
     '''
 def client():
-    '''public byte client()
+    '''returns byte\n\n
+    client()\n
     '''
 def verify():
-    '''public int verify()
+    '''returns int\n\n
+    verify()\n
     '''
 def encapsulatedTLVs():
-    '''public List<HAProxyTLV> encapsulatedTLVs()
+    '''returns List<HAProxyTLV>\n\n
+    encapsulatedTLVs()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

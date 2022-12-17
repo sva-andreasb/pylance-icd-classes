@@ -1,6 +1,8 @@
-def FldWOLocUserCustPersonID():
-    '''public FldWOLocUserCustPersonID(final MboValue mbv)
+def ():
+    '''returns FldWOLocUserCustPersonID\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

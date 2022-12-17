@@ -25,15 +25,15 @@ SourceID = "String  \"SourceID\""
 StackMap = "String  \"StackMap\""
 StackMapTable = "String  \"StackMapTable\""
 Synthetic = "String  \"Synthetic\""
-def read():
-    '''public static Attribute read(final ClassReader classReader)
-    '''
 def getName():
-    '''public String getName(final ConstantPool constantPool)
+    '''returns String\n\n
+    getName(final ConstantPool constantPool)\n
     '''
 def byteLength():
-    '''public int byteLength()
+    '''returns int\n\n
+    byteLength()\n
     '''
 def createAttribute():
-    '''public Attribute createAttribute(final ClassReader classReader, final int i, final byte[] array)
+    '''returns Attribute\n\n
+    createAttribute(final ClassReader classReader, final int i, final byte[] array)\n
     '''

@@ -1,18 +1,24 @@
-def PPARowData():
-    '''public PPARowData(final UserInfo userInfo, final String orgid, final String company, final String status, final Set<String> allowedColumns, final ArrayList<String> columns, final ArrayList<String> rowData)
+def ():
+    '''returns PPARowData\n\n
+    (final UserInfo userInfo, final String orgid, final String company, final String status, final Set<String> allowedColumns, final ArrayList<String> columns, final ArrayList<String> rowData)\n
     '''
 def getColumnValue():
-    '''public String getColumnValue(final String columnName)
+    '''returns String\n\n
+    getColumnValue(final String columnName)\n
     '''
 def setColumnValue():
-    '''public void setColumnValue(final String columnName, final String columnValue)
+    '''returns None\n\n
+    setColumnValue(final String columnName, final String columnValue)\n
     '''
 def removeColumn():
-    '''public void removeColumn(final String columnName)
+    '''returns None\n\n
+    removeColumn(final String columnName)\n
     '''
 def toXMLString():
-    '''public String toXMLString()
+    '''returns String\n\n
+    toXMLString()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

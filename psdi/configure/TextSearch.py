@@ -1,35 +1,40 @@
-def TextSearch():
-    '''public TextSearch(final Util util, final Connection con, final Object owner)
+def ():
+    '''returns TextSearch\n\n
+    (final Util util, final Connection con, final Object owner)\n
     '''
 def isTextSearchingEnabled():
-    '''public boolean isTextSearchingEnabled()
+    '''returns boolean\n\n
+    isTextSearchingEnabled()\n
     '''
 def setDB2PrintStream():
-    '''public void setDB2PrintStream(final PrintStream db2Out, final PrintStream db2Out2)
+    '''returns None\n\n
+    setDB2PrintStream(final PrintStream db2Out, final PrintStream db2Out2)\n
     '''
 def stopTextSearchJobs():
-    '''public void stopTextSearchJobs(final boolean dropProcedures, final boolean doWait)
+    '''returns None\n\n
+    stopTextSearchJobs(final boolean dropProcedures, final boolean doWait)\n
     '''
 def doWait():
-    '''public void doWait(final Integer milli)
+    '''returns None\n\n
+    doWait(final Integer milli)\n
     '''
 def getNumberOfCollections():
-    '''public int getNumberOfCollections()
+    '''returns int\n\n
+    getNumberOfCollections()\n
     '''
 def startTextSearchJobs():
-    '''public void startTextSearchJobs()
+    '''returns None\n\n
+    startTextSearchJobs()\n
     '''
 def restartTextJobs():
-    '''public void restartTextJobs()
+    '''returns None\n\n
+    restartTextJobs()\n
     '''
 def enableTextSearchAllTables():
-    '''public void enableTextSearchAllTables()
+    '''returns None\n\n
+    enableTextSearchAllTables()\n
     '''
 def adjustTextSearchOneTable():
-    '''public void adjustTextSearchOneTable(final HashMap objInfo)
-    '''
-def getRichTextCreateIndexStatement():
-    '''public static String getRichTextCreateIndexStatement(final Connection con, final String ixname, final String tbname, final String colName, final boolean multilang, final String langColumnName, final String storageClause)
-    public static String getRichTextCreateIndexStatement(final Connection con, final int dbOut, final String ixname, final String tbname, final String colName, final boolean multilang, final String langColumnName, final String storageClause)
-    public static String getRichTextCreateIndexStatement(final Connection con, final ServerType server, final String ixname, final String tbname, final String colName, final boolean multilang, final String langColumnName, final String storageClause)
+    '''returns None\n\n
+    adjustTextSearchOneTable(final HashMap objInfo)\n
     '''

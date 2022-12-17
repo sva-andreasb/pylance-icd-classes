@@ -1,20 +1,26 @@
-def ArrayStack():
-    '''public ArrayStack()
-    public ArrayStack(final int initialSize)
+def ():
+    '''returns ArrayStack\n\n
+    ()\n
+    (final int initialSize)\n
     '''
 def empty():
-    '''public boolean empty()
+    '''returns boolean\n\n
+    empty()\n
     '''
 def peek():
-    '''public E peek()
-    public E peek(final int n)
+    '''returns E\n\n
+    peek()\n
+    peek(final int n)\n
     '''
 def pop():
-    '''public E pop()
+    '''returns E\n\n
+    pop()\n
     '''
 def push():
-    '''public E push(final E item)
+    '''returns E\n\n
+    push(final E item)\n
     '''
 def search():
-    '''public int search(final Object object)
+    '''returns int\n\n
+    search(final Object object)\n
     '''

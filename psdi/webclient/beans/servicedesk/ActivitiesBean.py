@@ -1,15 +1,20 @@
 def insertAtEnd():
-    '''public void insertAtEnd()
+    '''returns None\n\n
+    insertAtEnd()\n
     '''
 def needssave():
-    '''public int needssave()
+    '''returns int\n\n
+    needssave()\n
     '''
 def activitychangestatus():
-    '''public int activitychangestatus()
+    '''returns int\n\n
+    activitychangestatus()\n
     '''
 def owner():
-    '''public int owner()
+    '''returns int\n\n
+    owner()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

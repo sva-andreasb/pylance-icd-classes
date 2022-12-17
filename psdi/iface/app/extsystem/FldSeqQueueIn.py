@@ -1,3 +1,4 @@
-def FldSeqQueueIn():
-    '''public FldSeqQueueIn(final MboValue mbv)
+def ():
+    '''returns FldSeqQueueIn\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,207 +1,237 @@
 TOKENS_PER_SEGMENT = "int  16"
-def TokenBuffer():
-    '''public TokenBuffer(final ObjectCodec codec)
+def ():
+    '''returns Segment\n\n
+    (final ObjectCodec codec)\n
+    (final Segment firstSeg, final ObjectCodec codec)\n
+    ()\n
     '''
 def asParser():
-    '''public JsonParser asParser()
-    public JsonParser asParser(final ObjectCodec codec)
-    public JsonParser asParser(final JsonParser src)
+    '''returns JsonParser\n\n
+    asParser()\n
+    asParser(final ObjectCodec codec)\n
+    asParser(final JsonParser src)\n
     '''
 def serialize():
-    '''public void serialize(final JsonGenerator jgen)
+    '''returns None\n\n
+    serialize(final JsonGenerator jgen)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def enable():
-    '''public JsonGenerator enable(final Feature f)
+    '''returns JsonGenerator\n\n
+    enable(final Feature f)\n
     '''
 def disable():
-    '''public JsonGenerator disable(final Feature f)
+    '''returns JsonGenerator\n\n
+    disable(final Feature f)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final Feature f)
+    '''returns boolean\n\n
+    isEnabled(final Feature f)\n
     '''
 def useDefaultPrettyPrinter():
-    '''public JsonGenerator useDefaultPrettyPrinter()
+    '''returns JsonGenerator\n\n
+    useDefaultPrettyPrinter()\n
     '''
 def setCodec():
-    '''public JsonGenerator setCodec(final ObjectCodec oc)
-    public void setCodec(final ObjectCodec c)
+    '''returns None\n\n
+    setCodec(final ObjectCodec oc)\n
+    setCodec(final ObjectCodec c)\n
     '''
 def getCodec():
-    '''public ObjectCodec getCodec()
-    public ObjectCodec getCodec()
-    '''
-def getOutputContext():
-    '''public final JsonWriteContext getOutputContext()
+    '''returns ObjectCodec\n\n
+    getCodec()\n
+    getCodec()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
-    public void close()
+    '''returns None\n\n
+    close()\n
+    close()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
-    public boolean isClosed()
-    '''
-def writeStartArray():
-    '''public final void writeStartArray()
-    '''
-def writeEndArray():
-    '''public final void writeEndArray()
-    '''
-def writeStartObject():
-    '''public final void writeStartObject()
-    '''
-def writeEndObject():
-    '''public final void writeEndObject()
+    '''returns boolean\n\n
+    isClosed()\n
+    isClosed()\n
     '''
 def writeFieldName():
-    '''public final void writeFieldName(final String name)
-    public void writeFieldName(final SerializableString name)
-    public void writeFieldName(final SerializedString name)
+    '''returns None\n\n
+    writeFieldName(final SerializableString name)\n
+    writeFieldName(final SerializedString name)\n
     '''
 def writeString():
-    '''public void writeString(final String text)
-    public void writeString(final char[] text, final int offset, final int len)
-    public void writeString(final SerializableString text)
+    '''returns None\n\n
+    writeString(final String text)\n
+    writeString(final char[] text, final int offset, final int len)\n
+    writeString(final SerializableString text)\n
     '''
 def writeRawUTF8String():
-    '''public void writeRawUTF8String(final byte[] text, final int offset, final int length)
+    '''returns None\n\n
+    writeRawUTF8String(final byte[] text, final int offset, final int length)\n
     '''
 def writeUTF8String():
-    '''public void writeUTF8String(final byte[] text, final int offset, final int length)
+    '''returns None\n\n
+    writeUTF8String(final byte[] text, final int offset, final int length)\n
     '''
 def writeRaw():
-    '''public void writeRaw(final String text)
-    public void writeRaw(final String text, final int offset, final int len)
-    public void writeRaw(final char[] text, final int offset, final int len)
-    public void writeRaw(final char c)
+    '''returns None\n\n
+    writeRaw(final String text)\n
+    writeRaw(final String text, final int offset, final int len)\n
+    writeRaw(final char[] text, final int offset, final int len)\n
+    writeRaw(final char c)\n
     '''
 def writeRawValue():
-    '''public void writeRawValue(final String text)
-    public void writeRawValue(final String text, final int offset, final int len)
-    public void writeRawValue(final char[] text, final int offset, final int len)
+    '''returns None\n\n
+    writeRawValue(final String text)\n
+    writeRawValue(final String text, final int offset, final int len)\n
+    writeRawValue(final char[] text, final int offset, final int len)\n
     '''
 def writeNumber():
-    '''public void writeNumber(final int i)
-    public void writeNumber(final long l)
-    public void writeNumber(final double d)
-    public void writeNumber(final float f)
-    public void writeNumber(final BigDecimal dec)
-    public void writeNumber(final BigInteger v)
-    public void writeNumber(final String encodedValue)
+    '''returns None\n\n
+    writeNumber(final int i)\n
+    writeNumber(final long l)\n
+    writeNumber(final double d)\n
+    writeNumber(final float f)\n
+    writeNumber(final BigDecimal dec)\n
+    writeNumber(final BigInteger v)\n
+    writeNumber(final String encodedValue)\n
     '''
 def writeBoolean():
-    '''public void writeBoolean(final boolean state)
+    '''returns None\n\n
+    writeBoolean(final boolean state)\n
     '''
 def writeNull():
-    '''public void writeNull()
+    '''returns None\n\n
+    writeNull()\n
     '''
 def writeObject():
-    '''public void writeObject(final Object value)
+    '''returns None\n\n
+    writeObject(final Object value)\n
     '''
 def writeTree():
-    '''public void writeTree(final JsonNode rootNode)
+    '''returns None\n\n
+    writeTree(final JsonNode rootNode)\n
     '''
 def writeBinary():
-    '''public void writeBinary(final Base64Variant b64variant, final byte[] data, final int offset, final int len)
+    '''returns None\n\n
+    writeBinary(final Base64Variant b64variant, final byte[] data, final int offset, final int len)\n
     '''
 def copyCurrentEvent():
-    '''public void copyCurrentEvent(final JsonParser jp)
+    '''returns None\n\n
+    copyCurrentEvent(final JsonParser jp)\n
     '''
 def copyCurrentStructure():
-    '''public void copyCurrentStructure(final JsonParser jp)
-    '''
-def Parser():
-    '''public Parser(final Segment firstSeg, final ObjectCodec codec)
+    '''returns None\n\n
+    copyCurrentStructure(final JsonParser jp)\n
     '''
 def setLocation():
-    '''public void setLocation(final JsonLocation l)
+    '''returns None\n\n
+    setLocation(final JsonLocation l)\n
     '''
 def peekNextToken():
-    '''public JsonToken peekNextToken()
+    '''returns JsonToken\n\n
+    peekNextToken()\n
     '''
 def nextToken():
-    '''public JsonToken nextToken()
+    '''returns JsonToken\n\n
+    nextToken()\n
     '''
 def getParsingContext():
-    '''public JsonStreamContext getParsingContext()
+    '''returns JsonStreamContext\n\n
+    getParsingContext()\n
     '''
 def getTokenLocation():
-    '''public JsonLocation getTokenLocation()
+    '''returns JsonLocation\n\n
+    getTokenLocation()\n
     '''
 def getCurrentLocation():
-    '''public JsonLocation getCurrentLocation()
+    '''returns JsonLocation\n\n
+    getCurrentLocation()\n
     '''
 def getCurrentName():
-    '''public String getCurrentName()
+    '''returns String\n\n
+    getCurrentName()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getTextCharacters():
-    '''public char[] getTextCharacters()
+    '''returns char[]\n\n
+    getTextCharacters()\n
     '''
 def getTextLength():
-    '''public int getTextLength()
+    '''returns int\n\n
+    getTextLength()\n
     '''
 def getTextOffset():
-    '''public int getTextOffset()
+    '''returns int\n\n
+    getTextOffset()\n
     '''
 def hasTextCharacters():
-    '''public boolean hasTextCharacters()
+    '''returns boolean\n\n
+    hasTextCharacters()\n
     '''
 def getBigIntegerValue():
-    '''public BigInteger getBigIntegerValue()
+    '''returns BigInteger\n\n
+    getBigIntegerValue()\n
     '''
 def getDecimalValue():
-    '''public BigDecimal getDecimalValue()
+    '''returns BigDecimal\n\n
+    getDecimalValue()\n
     '''
 def getDoubleValue():
-    '''public double getDoubleValue()
+    '''returns double\n\n
+    getDoubleValue()\n
     '''
 def getFloatValue():
-    '''public float getFloatValue()
+    '''returns float\n\n
+    getFloatValue()\n
     '''
 def getIntValue():
-    '''public int getIntValue()
+    '''returns int\n\n
+    getIntValue()\n
     '''
 def getLongValue():
-    '''public long getLongValue()
+    '''returns long\n\n
+    getLongValue()\n
     '''
 def getNumberType():
-    '''public NumberType getNumberType()
-    '''
-def getNumberValue():
-    '''public final Number getNumberValue()
+    '''returns NumberType\n\n
+    getNumberType()\n
     '''
 def getEmbeddedObject():
-    '''public Object getEmbeddedObject()
+    '''returns Object\n\n
+    getEmbeddedObject()\n
     '''
 def getBinaryValue():
-    '''public byte[] getBinaryValue(final Base64Variant b64variant)
-    '''
-def Segment():
-    '''public Segment()
+    '''returns byte[]\n\n
+    getBinaryValue(final Base64Variant b64variant)\n
     '''
 def type():
-    '''public JsonToken type(final int index)
+    '''returns JsonToken\n\n
+    type(final int index)\n
     '''
 def get():
-    '''public Object get(final int index)
+    '''returns Object\n\n
+    get(final int index)\n
     '''
 def next():
-    '''public Segment next()
+    '''returns Segment\n\n
+    next()\n
     '''
 def append():
-    '''public Segment append(final int index, final JsonToken tokenType)
-    public Segment append(final int index, final JsonToken tokenType, final Object value)
+    '''returns Segment\n\n
+    append(final int index, final JsonToken tokenType)\n
+    append(final int index, final JsonToken tokenType, final Object value)\n
     '''
 def set():
-    '''public void set(final int index, final JsonToken tokenType)
-    public void set(final int index, final JsonToken tokenType, final Object value)
+    '''returns None\n\n
+    set(final int index, final JsonToken tokenType)\n
+    set(final int index, final JsonToken tokenType, final Object value)\n
     '''

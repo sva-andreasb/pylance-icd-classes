@@ -1,3 +1,4 @@
-def FldCIClass():
-    '''public FldCIClass(final MboValue mbv)
+def ():
+    '''returns FldCIClass\n\n
+    (final MboValue mbv)\n
     '''

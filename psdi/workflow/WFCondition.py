@@ -1,27 +1,36 @@
-def WFCondition():
-    '''public WFCondition(final MboSet ms)
+def ():
+    '''returns WFCondition\n\n
+    (final MboSet ms)\n
     '''
 def evaluateCondition():
-    '''public boolean evaluateCondition()
+    '''returns boolean\n\n
+    evaluateCondition()\n
     '''
 def evaluateConditionGetAction():
-    '''public WFAction evaluateConditionGetAction()
+    '''returns WFAction\n\n
+    evaluateConditionGetAction()\n
     '''
 def wfValidate():
-    '''public void wfValidate(final Vector<MXException> errs, final Hashtable<String, String> hinfo)
+    '''returns None\n\n
+    wfValidate(final Vector<MXException> errs, final Hashtable<String, String> hinfo)\n
     '''
 def getWFInstance():
-    '''public WFInstance getWFInstance()
+    '''returns WFInstance\n\n
+    getWFInstance()\n
     '''
 def canTakePositive():
-    '''public boolean canTakePositive()
+    '''returns boolean\n\n
+    canTakePositive()\n
     '''
 def canTakeNegative():
-    '''public boolean canTakeNegative()
+    '''returns boolean\n\n
+    canTakeNegative()\n
     '''
 def addedAction():
-    '''public void addedAction(final boolean wasPositive)
+    '''returns None\n\n
+    addedAction(final boolean wasPositive)\n
     '''
 def removedAction():
-    '''public void removedAction(final boolean wasPositive)
+    '''returns None\n\n
+    removedAction(final boolean wasPositive)\n
     '''

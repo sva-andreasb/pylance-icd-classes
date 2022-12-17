@@ -1,9 +1,8 @@
-def main():
-    '''public static void main(final String[] args)
-    '''
-def UrlSigner():
-    '''public UrlSigner(String keyString)
+def ():
+    '''returns UrlSigner\n\n
+    (String keyString)\n
     '''
 def signRequest():
-    '''public String[] signRequest(final String path, final String query)
+    '''returns String[]\n\n
+    signRequest(final String path, final String query)\n
     '''

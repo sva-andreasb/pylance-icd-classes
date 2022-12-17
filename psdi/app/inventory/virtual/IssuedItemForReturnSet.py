@@ -1,9 +1,12 @@
-def IssuedItemForReturnSet():
-    '''public IssuedItemForReturnSet(final MboServerInterface ms)
+def ():
+    '''returns IssuedItemForReturnSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def addIssueRecords():
-    '''public void addIssueRecords(final MboSetRemote matUseTransSet, final MboRemote invUseLine)
+    '''returns None\n\n
+    addIssueRecords(final MboSetRemote matUseTransSet, final MboRemote invUseLine)\n
     '''
 def setFields():
-    '''public MboRemote setFields(final MboRemote issuedItemForReturn, final MboRemote matUseTrans)
+    '''returns MboRemote\n\n
+    setFields(final MboRemote issuedItemForReturn, final MboRemote matUseTrans)\n
     '''

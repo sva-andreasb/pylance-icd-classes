@@ -1,6 +1,8 @@
-def FldAutoKeyAutokeyName():
-    '''public FldAutoKeyAutokeyName(final MboValue mbv)
+def ():
+    '''returns FldAutoKeyAutokeyName\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

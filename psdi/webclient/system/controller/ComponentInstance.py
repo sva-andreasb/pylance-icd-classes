@@ -5,235 +5,303 @@ CONTAINER_WARNING_IMAGE = "String  \"async/container_warning.gif\""
 CONTAINER_ERROR_IMAGE = "String  \"async/container_error.gif\""
 CONTAINER_WARNING = "String  \"warning\""
 CONTAINER_ERROR = "String  \"error\""
-def ComponentInstance():
-    '''public ComponentInstance()
+def ():
+    '''returns ComponentInstance\n\n
+    ()\n
     '''
 def setControl():
-    '''public void setControl(final ControlInstance control)
+    '''returns None\n\n
+    setControl(final ControlInstance control)\n
     '''
 def hiddenByProperty():
-    '''public boolean hiddenByProperty()
+    '''returns boolean\n\n
+    hiddenByProperty()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def hiddenByProp():
-    '''public boolean hiddenByProp(final String hideWhen)
-    '''
-def getCurrent():
-    '''public static ComponentInstance getCurrent(final ServletRequest request)
+    '''returns boolean\n\n
+    hiddenByProp(final String hideWhen)\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def isHoversActive():
-    '''public boolean isHoversActive()
+    '''returns boolean\n\n
+    isHoversActive()\n
     '''
 def setIsHoversActive():
-    '''public void setIsHoversActive(final boolean aBool)
+    '''returns None\n\n
+    setIsHoversActive(final boolean aBool)\n
     '''
 def getControl():
-    '''public ControlInstance getControl()
+    '''returns ControlInstance\n\n
+    getControl()\n
     '''
 def renderChildrenControls():
-    '''public void renderChildrenControls()
+    '''returns None\n\n
+    renderChildrenControls()\n
     '''
 def renderChildComponents():
-    '''public void renderChildComponents()
+    '''returns None\n\n
+    renderChildComponents()\n
     '''
 def isChild():
-    '''public boolean isChild(final Element child)
+    '''returns boolean\n\n
+    isChild(final Element child)\n
     '''
 def isComponent():
-    '''public boolean isComponent(final Element component)
+    '''returns boolean\n\n
+    isComponent(final Element component)\n
     '''
 def hasChildren():
-    '''public boolean hasChildren()
-    '''
-def hasComponents():
-    '''public synchronized boolean hasComponents()
+    '''returns boolean\n\n
+    hasChildren()\n
     '''
 def getChildrenDesignOnly():
-    '''public boolean getChildrenDesignOnly()
+    '''returns boolean\n\n
+    getChildrenDesignOnly()\n
     '''
 def hasChanged():
-    '''public boolean hasChanged()
+    '''returns boolean\n\n
+    hasChanged()\n
     '''
 def rerendering():
-    '''public boolean rerendering()
+    '''returns boolean\n\n
+    rerendering()\n
     '''
 def needsRender():
-    '''public boolean needsRender()
+    '''returns boolean\n\n
+    needsRender()\n
     '''
 def broadcastEvent():
-    '''public int broadcastEvent(final WebClientEvent event)
+    '''returns int\n\n
+    broadcastEvent(final WebClientEvent event)\n
     '''
 def action():
-    '''public int action()
+    '''returns int\n\n
+    action()\n
     '''
 def query():
-    '''public int query()
+    '''returns int\n\n
+    query()\n
     '''
 def showMenubarMenu():
-    '''public int showMenubarMenu()
+    '''returns int\n\n
+    showMenubarMenu()\n
     '''
 def signout():
-    '''public void signout()
+    '''returns None\n\n
+    signout()\n
     '''
 def showMenu():
-    '''public int showMenu()
+    '''returns int\n\n
+    showMenu()\n
     '''
 def click():
-    '''public int click()
+    '''returns int\n\n
+    click()\n
     '''
 def canChangeRowFocus():
-    '''public boolean canChangeRowFocus()
+    '''returns boolean\n\n
+    canChangeRowFocus()\n
     '''
 def formatLabel():
-    '''public String formatLabel(final String settingKey, final String label)
-    public String formatLabel(final String label)
+    '''returns String\n\n
+    formatLabel(final String settingKey, final String label)\n
+    formatLabel(final String label)\n
     '''
 def setLabelFormat():
-    '''public void setLabelFormat(final String settingKey)
+    '''returns None\n\n
+    setLabelFormat(final String settingKey)\n
     '''
 def setChangedFlag():
-    '''public void setChangedFlag()
-    public void setChangedFlag(final boolean flag)
+    '''returns None\n\n
+    setChangedFlag()\n
+    setChangedFlag(final boolean flag)\n
     '''
 def clearChangedFlag():
-    '''public void clearChangedFlag()
+    '''returns None\n\n
+    clearChangedFlag()\n
     '''
 def setFocus():
-    '''public void setFocus()
+    '''returns None\n\n
+    setFocus()\n
     '''
 def getClickState():
-    '''public int getClickState()
+    '''returns int\n\n
+    getClickState()\n
     '''
 def getProperty():
-    '''public String getProperty(final String key)
+    '''returns String\n\n
+    getProperty(final String key)\n
     '''
 def getOriginalProperty():
-    '''public String getOriginalProperty(final String key)
+    '''returns String\n\n
+    getOriginalProperty(final String key)\n
     '''
 def findProperty():
-    '''public String findProperty(final String key)
+    '''returns String\n\n
+    findProperty(final String key)\n
     '''
 def getLinkedComponentInstance():
-    '''public ComponentInstance getLinkedComponentInstance()
+    '''returns ComponentInstance\n\n
+    getLinkedComponentInstance()\n
     '''
 def getMenuType():
-    '''public String getMenuType()
+    '''returns String\n\n
+    getMenuType()\n
     '''
 def getLookupName():
-    '''public String getLookupName()
+    '''returns String\n\n
+    getLookupName()\n
     '''
 def getApplink():
-    '''public String getApplink()
+    '''returns String\n\n
+    getApplink()\n
     '''
 def isOnTableRow():
-    '''public boolean isOnTableRow()
+    '''returns boolean\n\n
+    isOnTableRow()\n
     '''
 def isOnTableFilterRow():
-    '''public boolean isOnTableFilterRow()
+    '''returns boolean\n\n
+    isOnTableFilterRow()\n
     '''
 def isOnTableTitleRow():
-    '''public boolean isOnTableTitleRow()
+    '''returns boolean\n\n
+    isOnTableTitleRow()\n
     '''
 def setComponentContainerId():
-    '''public void setComponentContainerId(final String id)
+    '''returns None\n\n
+    setComponentContainerId(final String id)\n
     '''
 def getComponentContainerId():
-    '''public String getComponentContainerId()
+    '''returns String\n\n
+    getComponentContainerId()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def controlPropertyChanged():
-    '''public void controlPropertyChanged(final String property)
+    '''returns None\n\n
+    controlPropertyChanged(final String property)\n
     '''
 def isVisible():
-    '''public boolean isVisible()
+    '''returns boolean\n\n
+    isVisible()\n
     '''
 def hasLocalProperty():
-    '''public boolean hasLocalProperty(final String key)
+    '''returns boolean\n\n
+    hasLocalProperty(final String key)\n
     '''
 def getCssClass():
-    '''public String getCssClass()
+    '''returns String\n\n
+    getCssClass()\n
     '''
 def isDefaultRender():
-    '''public boolean isDefaultRender()
+    '''returns boolean\n\n
+    isDefaultRender()\n
     '''
 def isDisabled():
-    '''public boolean isDisabled()
+    '''returns boolean\n\n
+    isDisabled()\n
     '''
 def isMasked():
-    '''public boolean isMasked()
+    '''returns boolean\n\n
+    isMasked()\n
     '''
 def hasMaskedChanged():
-    '''public boolean hasMaskedChanged()
+    '''returns boolean\n\n
+    hasMaskedChanged()\n
     '''
 def getDesignerSelected():
-    '''public boolean getDesignerSelected()
+    '''returns boolean\n\n
+    getDesignerSelected()\n
     '''
 def skipRender():
-    '''public boolean skipRender()
+    '''returns boolean\n\n
+    skipRender()\n
     '''
 def getRenderId():
-    '''public String getRenderId()
+    '''returns String\n\n
+    getRenderId()\n
     '''
 def getId():
-    '''public String getId()
-    public String getId(final boolean useRow)
+    '''returns String\n\n
+    getId()\n
+    getId(final boolean useRow)\n
     '''
 def getIdWithoutRow():
-    '''public String getIdWithoutRow()
+    '''returns String\n\n
+    getIdWithoutRow()\n
     '''
 def getDataBean():
-    '''public DataBean getDataBean()
+    '''returns DataBean\n\n
+    getDataBean()\n
     '''
 def isIncluded():
-    '''public boolean isIncluded()
+    '''returns boolean\n\n
+    isIncluded()\n
     '''
 def isAsyncEnabled():
-    '''public boolean isAsyncEnabled()
+    '''returns boolean\n\n
+    isAsyncEnabled()\n
     '''
 def updateStyle():
-    '''public void updateStyle(final String attribute, final String value)
-    public void updateStyle(final String style)
+    '''returns None\n\n
+    updateStyle(final String attribute, final String value)\n
+    updateStyle(final String style)\n
     '''
 def updateAttribute():
-    '''public void updateAttribute(final String attribute, final String value)
+    '''returns None\n\n
+    updateAttribute(final String attribute, final String value)\n
     '''
 def getUpdatedStyles():
-    '''public JSONArray getUpdatedStyles()
+    '''returns JSONArray\n\n
+    getUpdatedStyles()\n
     '''
 def getUpdatedAttributes():
-    '''public JSONArray getUpdatedAttributes()
+    '''returns JSONArray\n\n
+    getUpdatedAttributes()\n
     '''
 def getCurrentUpdates():
-    '''public String getCurrentUpdates()
+    '''returns String\n\n
+    getCurrentUpdates()\n
     '''
 def hasUnappliedUIUpdates():
-    '''public boolean hasUnappliedUIUpdates()
+    '''returns boolean\n\n
+    hasUnappliedUIUpdates()\n
     '''
 def clearUIUpdates():
-    '''public void clearUIUpdates()
+    '''returns None\n\n
+    clearUIUpdates()\n
     '''
 def getErrorInfo():
-    '''public ContainerErrorInfo getErrorInfo()
+    '''returns ContainerErrorInfo\n\n
+    getErrorInfo()\n
     '''
 def getLabelledByRenderId():
-    '''public String getLabelledByRenderId()
+    '''returns String\n\n
+    getLabelledByRenderId()\n
     '''
 def getLabelForRenderId():
-    '''public String getLabelForRenderId()
+    '''returns String\n\n
+    getLabelForRenderId()\n
     '''
 def findComponentByDescriptorId():
-    '''public ComponentInstance findComponentByDescriptorId(final String id)
+    '''returns ComponentInstance\n\n
+    findComponentByDescriptorId(final String id)\n
     '''
 def fetchtooltip():
-    '''public int fetchtooltip()
+    '''returns int\n\n
+    fetchtooltip()\n
     '''
 def getFocusRenderId():
-    '''public String getFocusRenderId()
+    '''returns String\n\n
+    getFocusRenderId()\n
     '''

@@ -1,33 +1,44 @@
-def RouteStop():
-    '''public RouteStop(final MboSet ms)
+def ():
+    '''returns RouteStop\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def validateAssetLoc():
-    '''public void validateAssetLoc(boolean newAssetNum, boolean newLocation)
+    '''returns None\n\n
+    validateAssetLoc(boolean newAssetNum, boolean newLocation)\n
     '''
 def getRouteStopId():
-    '''public int getRouteStopId()
+    '''returns int\n\n
+    getRouteStopId()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def setLinearAssetFieldsReadOnly():
-    '''public void setLinearAssetFieldsReadOnly(final boolean readonlystate)
+    '''returns None\n\n
+    setLinearAssetFieldsReadOnly(final boolean readonlystate)\n
     '''
 def clearLinearAssetFields():
-    '''public void clearLinearAssetFields()
+    '''returns None\n\n
+    clearLinearAssetFields()\n
     '''
 def isChangeByUserWhenSetFromLookup():
-    '''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''returns boolean\n\n
+    isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)\n
     '''
 def clearFormName():
-    '''public void clearFormName()
+    '''returns None\n\n
+    clearFormName()\n
     '''

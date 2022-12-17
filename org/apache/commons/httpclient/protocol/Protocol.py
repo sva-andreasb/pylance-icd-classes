@@ -1,37 +1,37 @@
-def registerProtocol():
-    '''public static void registerProtocol(final String id, final Protocol protocol)
-    '''
-def unregisterProtocol():
-    '''public static void unregisterProtocol(final String id)
-    '''
-def getProtocol():
-    '''public static Protocol getProtocol(final String id)
-    '''
-def Protocol():
-    '''public Protocol(final String scheme, final ProtocolSocketFactory factory, final int defaultPort)
-    public Protocol(final String scheme, final SecureProtocolSocketFactory factory, final int defaultPort)
+def ():
+    '''returns Protocol\n\n
+    (final String scheme, final ProtocolSocketFactory factory, final int defaultPort)\n
+    (final String scheme, final SecureProtocolSocketFactory factory, final int defaultPort)\n
     '''
 def getDefaultPort():
-    '''public int getDefaultPort()
+    '''returns int\n\n
+    getDefaultPort()\n
     '''
 def getSocketFactory():
-    '''public ProtocolSocketFactory getSocketFactory()
+    '''returns ProtocolSocketFactory\n\n
+    getSocketFactory()\n
     '''
 def getScheme():
-    '''public String getScheme()
+    '''returns String\n\n
+    getScheme()\n
     '''
 def isSecure():
-    '''public boolean isSecure()
+    '''returns boolean\n\n
+    isSecure()\n
     '''
 def resolvePort():
-    '''public int resolvePort(final int port)
+    '''returns int\n\n
+    resolvePort(final int port)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

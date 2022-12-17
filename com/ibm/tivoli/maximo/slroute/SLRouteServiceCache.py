@@ -1,67 +1,70 @@
-def SLRouteServiceCache():
-    '''public SLRouteServiceCache(final String currentProjectId)
+def ():
+    '''returns SKDResource\n\n
+    (final String currentProjectId)\n
+    ()\n
+    (final String name, final String id, final String parentid, final String objectname, final String refobjname, final String objectid)\n
     '''
 def verifyProject():
-    '''public void verifyProject(final String id, final String calendar, final String shift, final Date startDate, final Date endDate, final String projectName, final String orgId)
+    '''returns None\n\n
+    verifyProject(final String id, final String calendar, final String shift, final Date startDate, final Date endDate, final String projectName, final String orgId)\n
     '''
 def putShiftInfo():
-    '''public void putShiftInfo(final String shift, final HashMap<Long, SLRouteService.ShiftInformation> baseModShifts)
-    '''
-def getShiftCalMap():
-    '''public HashMap<String, SKDCalendarInfo> getShiftCalMap()
-    '''
-def getCalendarBreaks():
-    '''public HashMap<String, ArrayList> getCalendarBreaks()
-    '''
-def getDaysInShiftPattern():
-    '''public HashMap<String, Integer> getDaysInShiftPattern()
+    '''returns None\n\n
+    putShiftInfo(final String shift, final HashMap<Long, SLRouteService.ShiftInformation> baseModShifts)\n
     '''
 def getMergedWorkPeriods():
-    '''public ArrayList<Date> getMergedWorkPeriods()
+    '''returns ArrayList<Date>\n\n
+    getMergedWorkPeriods()\n
     '''
 def setShiftGridInfo():
-    '''public void setShiftGridInfo(final HashMap<String, SKDCalendarInfo> shiftCalMap, final HashMap<String, ArrayList> calendarBreaks, final HashMap<String, Integer> daysInShiftPattern, final ArrayList<Date> mergedWorkPeriods)
+    '''returns None\n\n
+    setShiftGridInfo(final HashMap<String, SKDCalendarInfo> shiftCalMap, final HashMap<String, ArrayList> calendarBreaks, final HashMap<String, Integer> daysInShiftPattern, final ArrayList<Date> mergedWorkPeriods)\n
     '''
 def hasShiftGridInfo():
-    '''public boolean hasShiftGridInfo()
+    '''returns boolean\n\n
+    hasShiftGridInfo()\n
     '''
 def addResourceRow():
-    '''public void addResourceRow(final String name, final String id, final String parentid, final String objectname, final String refobjname, final String objectid)
+    '''returns None\n\n
+    addResourceRow(final String name, final String id, final String parentid, final String objectname, final String refobjname, final String objectid)\n
     '''
 def updateResourceMaps():
-    '''public void updateResourceMaps()
-    '''
-def getResourceHier():
-    '''public HashMap<String, SKDResource> getResourceHier()
+    '''returns None\n\n
+    updateResourceMaps()\n
     '''
 def getObjKeyedResourceHier():
-    '''public SKDResource getObjKeyedResourceHier(final String refobjname, final String objectid)
+    '''returns SKDResource\n\n
+    getObjKeyedResourceHier(final String refobjname, final String objectid)\n
     '''
 def clearResourceHier():
-    '''public void clearResourceHier()
+    '''returns None\n\n
+    clearResourceHier()\n
     '''
 def isUIDebug():
-    '''public boolean isUIDebug()
+    '''returns boolean\n\n
+    isUIDebug()\n
     '''
 def setUIDebug():
-    '''public void setUIDebug(final boolean isUIDebug)
+    '''returns None\n\n
+    setUIDebug(final boolean isUIDebug)\n
     '''
 def getWorkQuery():
-    '''public String getWorkQuery()
+    '''returns String\n\n
+    getWorkQuery()\n
     '''
 def setWorkQuery():
-    '''public void setWorkQuery(final String workQuery)
+    '''returns None\n\n
+    setWorkQuery(final String workQuery)\n
     '''
 def getProjectName():
-    '''public String getProjectName()
+    '''returns String\n\n
+    getProjectName()\n
     '''
 def getOrgId():
-    '''public String getOrgId()
+    '''returns String\n\n
+    getOrgId()\n
     '''
 def getSKDResourceInstance():
-    '''public SKDResource getSKDResourceInstance(final String name, final String id, final String parentid, final String objectname, final String refobjname, final String objectid)
-    '''
-def SKDResource():
-    '''public SKDResource()
-    public SKDResource(final String name, final String id, final String parentid, final String objectname, final String refobjname, final String objectid)
+    '''returns SKDResource\n\n
+    getSKDResourceInstance(final String name, final String id, final String parentid, final String objectname, final String refobjname, final String objectid)\n
     '''

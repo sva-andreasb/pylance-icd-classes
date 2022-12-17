@@ -1,56 +1,70 @@
-def LDAPAttribute():
-    '''public LDAPAttribute(final LDAPAttribute ldapAttribute)
-    public LDAPAttribute(final String s)
-    public LDAPAttribute(final String s, final byte[] array)
-    public LDAPAttribute(final String s, final String s2)
-    public LDAPAttribute(final String s, final String[] array)
+def ():
+    '''returns LDAPAttribute\n\n
+    (final LDAPAttribute ldapAttribute)\n
+    (final String s)\n
+    (final String s, final byte[] array)\n
+    (final String s, final String s2)\n
+    (final String s, final String[] array)\n
     '''
 def addValue():
-    '''public void addValue(final String s)
-    public void addValue(final byte[] array)
+    '''returns None\n\n
+    addValue(final String s)\n
+    addValue(final byte[] array)\n
     '''
 def getByteValues():
-    '''public Enumeration getByteValues()
+    '''returns Enumeration\n\n
+    getByteValues()\n
     '''
 def getStringValues():
-    '''public Enumeration getStringValues()
+    '''returns Enumeration\n\n
+    getStringValues()\n
     '''
 def getByteValueArray():
-    '''public byte[][] getByteValueArray()
+    '''returns byte[][]\n\n
+    getByteValueArray()\n
     '''
 def getStringValueArray():
-    '''public String[] getStringValueArray()
+    '''returns String[]\n\n
+    getStringValueArray()\n
     '''
 def getLangSubtype():
-    '''public String getLangSubtype()
+    '''returns String\n\n
+    getLangSubtype()\n
     '''
 def getBaseName():
-    '''public String getBaseName()
-    public static String getBaseName(final String s)
+    '''returns String\n\n
+    getBaseName()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getSubtypes():
-    '''public String[] getSubtypes()
-    public static String[] getSubtypes(final String s)
+    '''returns String[]\n\n
+    getSubtypes()\n
     '''
 def hasSubtype():
-    '''public boolean hasSubtype(final String s)
+    '''returns boolean\n\n
+    hasSubtype(final String s)\n
     '''
 def hasSubtypes():
-    '''public boolean hasSubtypes(final String[] array)
+    '''returns boolean\n\n
+    hasSubtypes(final String[] array)\n
     '''
 def removeValue():
-    '''public void removeValue(final String s)
-    public void removeValue(final byte[] array)
+    '''returns None\n\n
+    removeValue(final String s)\n
+    removeValue(final byte[] array)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

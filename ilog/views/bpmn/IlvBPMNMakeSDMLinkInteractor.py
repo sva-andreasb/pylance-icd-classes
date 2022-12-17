@@ -1,6 +1,8 @@
-def IlvBPMNMakeSDMLinkInteractor():
-    '''public IlvBPMNMakeSDMLinkInteractor(final IlvBPMNModeler m)
+def ():
+    '''returns IlvBPMNMakeSDMLinkInteractor\n\n
+    (final IlvBPMNModeler m)\n
     '''
 def createObject():
-    '''public IlvLinkImage createObject(final IlvGraphic ilvGraphic, final IlvGraphic ilvGraphic2, final IlvPoint[] array, final boolean b)
+    '''returns IlvLinkImage\n\n
+    createObject(final IlvGraphic ilvGraphic, final IlvGraphic ilvGraphic2, final IlvPoint[] array, final boolean b)\n
     '''

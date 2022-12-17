@@ -1,15 +1,16 @@
 def canConnectWithUser():
-    '''public boolean canConnectWithUser(final String jdbcUrl, final String dbuser, final String dbpassword)
+    '''returns boolean\n\n
+    canConnectWithUser(final String jdbcUrl, final String dbuser, final String dbpassword)\n
     '''
 def instanceExists():
-    '''public boolean instanceExists(final String dbinstance)
+    '''returns boolean\n\n
+    instanceExists(final String dbinstance)\n
     '''
 def dbExists():
-    '''public boolean dbExists(final String dbname)
-    '''
-def getDbName():
-    '''public static String getDbName(final Connection c)
+    '''returns boolean\n\n
+    dbExists(final String dbname)\n
     '''
 def hasDbaAuthority():
-    '''public boolean hasDbaAuthority(final String jdbcUrl, final String dbuser, final String dbpassword)
+    '''returns boolean\n\n
+    hasDbaAuthority(final String jdbcUrl, final String dbuser, final String dbpassword)\n
     '''

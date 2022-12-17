@@ -1,199 +1,138 @@
-def HttpHeaders():
-    '''public HttpHeaders()
+def ():
+    '''returns ParseHeaderState\n\n
+    ()\n
+    (final HttpHeaders headers, final StringBuilder logger)\n
     '''
 def clone():
-    '''public HttpHeaders clone()
+    '''returns HttpHeaders\n\n
+    clone()\n
     '''
 def set():
-    '''public HttpHeaders set(final String fieldName, final Object value)
-    '''
-def getAccept():
-    '''public final String getAccept()
+    '''returns HttpHeaders\n\n
+    set(final String fieldName, final Object value)\n
     '''
 def setAccept():
-    '''public HttpHeaders setAccept(final String accept)
-    '''
-def getAcceptEncoding():
-    '''public final String getAcceptEncoding()
+    '''returns HttpHeaders\n\n
+    setAccept(final String accept)\n
     '''
 def setAcceptEncoding():
-    '''public HttpHeaders setAcceptEncoding(final String acceptEncoding)
-    '''
-def getAuthorization():
-    '''public final String getAuthorization()
-    '''
-def getAuthorizationAsList():
-    '''public final List<String> getAuthorizationAsList()
+    '''returns HttpHeaders\n\n
+    setAcceptEncoding(final String acceptEncoding)\n
     '''
 def setAuthorization():
-    '''public HttpHeaders setAuthorization(final String authorization)
-    public HttpHeaders setAuthorization(final List<String> authorization)
-    '''
-def getCacheControl():
-    '''public final String getCacheControl()
+    '''returns HttpHeaders\n\n
+    setAuthorization(final String authorization)\n
+    setAuthorization(final List<String> authorization)\n
     '''
 def setCacheControl():
-    '''public HttpHeaders setCacheControl(final String cacheControl)
-    '''
-def getContentEncoding():
-    '''public final String getContentEncoding()
+    '''returns HttpHeaders\n\n
+    setCacheControl(final String cacheControl)\n
     '''
 def setContentEncoding():
-    '''public HttpHeaders setContentEncoding(final String contentEncoding)
-    '''
-def getContentLength():
-    '''public final Long getContentLength()
+    '''returns HttpHeaders\n\n
+    setContentEncoding(final String contentEncoding)\n
     '''
 def setContentLength():
-    '''public HttpHeaders setContentLength(final Long contentLength)
-    '''
-def getContentMD5():
-    '''public final String getContentMD5()
+    '''returns HttpHeaders\n\n
+    setContentLength(final Long contentLength)\n
     '''
 def setContentMD5():
-    '''public HttpHeaders setContentMD5(final String contentMD5)
-    '''
-def getContentRange():
-    '''public final String getContentRange()
+    '''returns HttpHeaders\n\n
+    setContentMD5(final String contentMD5)\n
     '''
 def setContentRange():
-    '''public HttpHeaders setContentRange(final String contentRange)
-    '''
-def getContentType():
-    '''public final String getContentType()
+    '''returns HttpHeaders\n\n
+    setContentRange(final String contentRange)\n
     '''
 def setContentType():
-    '''public HttpHeaders setContentType(final String contentType)
-    '''
-def getCookie():
-    '''public final String getCookie()
+    '''returns HttpHeaders\n\n
+    setContentType(final String contentType)\n
     '''
 def setCookie():
-    '''public HttpHeaders setCookie(final String cookie)
-    '''
-def getDate():
-    '''public final String getDate()
+    '''returns HttpHeaders\n\n
+    setCookie(final String cookie)\n
     '''
 def setDate():
-    '''public HttpHeaders setDate(final String date)
-    '''
-def getETag():
-    '''public final String getETag()
+    '''returns HttpHeaders\n\n
+    setDate(final String date)\n
     '''
 def setETag():
-    '''public HttpHeaders setETag(final String etag)
-    '''
-def getExpires():
-    '''public final String getExpires()
+    '''returns HttpHeaders\n\n
+    setETag(final String etag)\n
     '''
 def setExpires():
-    '''public HttpHeaders setExpires(final String expires)
-    '''
-def getIfModifiedSince():
-    '''public final String getIfModifiedSince()
+    '''returns HttpHeaders\n\n
+    setExpires(final String expires)\n
     '''
 def setIfModifiedSince():
-    '''public HttpHeaders setIfModifiedSince(final String ifModifiedSince)
-    '''
-def getIfMatch():
-    '''public final String getIfMatch()
+    '''returns HttpHeaders\n\n
+    setIfModifiedSince(final String ifModifiedSince)\n
     '''
 def setIfMatch():
-    '''public HttpHeaders setIfMatch(final String ifMatch)
-    '''
-def getIfNoneMatch():
-    '''public final String getIfNoneMatch()
+    '''returns HttpHeaders\n\n
+    setIfMatch(final String ifMatch)\n
     '''
 def setIfNoneMatch():
-    '''public HttpHeaders setIfNoneMatch(final String ifNoneMatch)
-    '''
-def getIfUnmodifiedSince():
-    '''public final String getIfUnmodifiedSince()
+    '''returns HttpHeaders\n\n
+    setIfNoneMatch(final String ifNoneMatch)\n
     '''
 def setIfUnmodifiedSince():
-    '''public HttpHeaders setIfUnmodifiedSince(final String ifUnmodifiedSince)
-    '''
-def getIfRange():
-    '''public final String getIfRange()
+    '''returns HttpHeaders\n\n
+    setIfUnmodifiedSince(final String ifUnmodifiedSince)\n
     '''
 def setIfRange():
-    '''public HttpHeaders setIfRange(final String ifRange)
-    '''
-def getLastModified():
-    '''public final String getLastModified()
+    '''returns HttpHeaders\n\n
+    setIfRange(final String ifRange)\n
     '''
 def setLastModified():
-    '''public HttpHeaders setLastModified(final String lastModified)
-    '''
-def getLocation():
-    '''public final String getLocation()
+    '''returns HttpHeaders\n\n
+    setLastModified(final String lastModified)\n
     '''
 def setLocation():
-    '''public HttpHeaders setLocation(final String location)
-    '''
-def getMimeVersion():
-    '''public final String getMimeVersion()
+    '''returns HttpHeaders\n\n
+    setLocation(final String location)\n
     '''
 def setMimeVersion():
-    '''public HttpHeaders setMimeVersion(final String mimeVersion)
-    '''
-def getRange():
-    '''public final String getRange()
+    '''returns HttpHeaders\n\n
+    setMimeVersion(final String mimeVersion)\n
     '''
 def setRange():
-    '''public HttpHeaders setRange(final String range)
-    '''
-def getRetryAfter():
-    '''public final String getRetryAfter()
+    '''returns HttpHeaders\n\n
+    setRange(final String range)\n
     '''
 def setRetryAfter():
-    '''public HttpHeaders setRetryAfter(final String retryAfter)
-    '''
-def getUserAgent():
-    '''public final String getUserAgent()
+    '''returns HttpHeaders\n\n
+    setRetryAfter(final String retryAfter)\n
     '''
 def setUserAgent():
-    '''public HttpHeaders setUserAgent(final String userAgent)
-    '''
-def getAuthenticate():
-    '''public final String getAuthenticate()
-    '''
-def getAuthenticateAsList():
-    '''public final List<String> getAuthenticateAsList()
+    '''returns HttpHeaders\n\n
+    setUserAgent(final String userAgent)\n
     '''
 def setAuthenticate():
-    '''public HttpHeaders setAuthenticate(final String authenticate)
-    '''
-def getAge():
-    '''public final Long getAge()
+    '''returns HttpHeaders\n\n
+    setAuthenticate(final String authenticate)\n
     '''
 def setAge():
-    '''public HttpHeaders setAge(final Long age)
+    '''returns HttpHeaders\n\n
+    setAge(final Long age)\n
     '''
 def setBasicAuthentication():
-    '''public HttpHeaders setBasicAuthentication(final String username, final String password)
-    '''
-def serializeHeadersForMultipartRequests():
-    '''public static void serializeHeadersForMultipartRequests(final HttpHeaders headers, final StringBuilder logbuf, final Logger logger, final Writer writer)
-    '''
-def fromHttpResponse():
-    '''public final void fromHttpResponse(final LowLevelHttpResponse response, final StringBuilder logger)
+    '''returns HttpHeaders\n\n
+    setBasicAuthentication(final String username, final String password)\n
     '''
 def getFirstHeaderStringValue():
-    '''public String getFirstHeaderStringValue(final String name)
+    '''returns String\n\n
+    getFirstHeaderStringValue(final String name)\n
     '''
 def getHeaderStringValues():
-    '''public List<String> getHeaderStringValues(final String name)
-    '''
-def fromHttpHeaders():
-    '''public final void fromHttpHeaders(final HttpHeaders headers)
+    '''returns List<String>\n\n
+    getHeaderStringValues(final String name)\n
     '''
 def addHeader():
-    '''public void addHeader(final String name, final String value)
+    '''returns None\n\n
+    addHeader(final String name, final String value)\n
     '''
 def execute():
-    '''public LowLevelHttpResponse execute()
-    '''
-def ParseHeaderState():
-    '''public ParseHeaderState(final HttpHeaders headers, final StringBuilder logger)
+    '''returns LowLevelHttpResponse\n\n
+    execute()\n
     '''

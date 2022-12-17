@@ -1,75 +1,100 @@
-def ItemISSUE():
-    '''public ItemISSUE()
+def ():
+    '''returns ItemISSUE\n\n
+    ()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def resolveRerefences():
-    '''public void resolveRerefences(final Parser project, final long flags)
+    '''returns None\n\n
+    resolveRerefences(final Parser project, final long flags)\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def getRisk():
-    '''public String getRisk()
+    '''returns String\n\n
+    getRisk()\n
     '''
 def setRisk():
-    '''public void setRisk(final String risk)
+    '''returns None\n\n
+    setRisk(final String risk)\n
     '''
 def getChance():
-    '''public String getChance()
+    '''returns String\n\n
+    getChance()\n
     '''
 def setChance():
-    '''public void setChance(final String chance)
+    '''returns None\n\n
+    setChance(final String chance)\n
     '''
 def getImpact():
-    '''public String getImpact()
+    '''returns String\n\n
+    getImpact()\n
     '''
 def setImpact():
-    '''public void setImpact(final String impact)
+    '''returns None\n\n
+    setImpact(final String impact)\n
     '''
 def getPageId():
-    '''public String getPageId()
+    '''returns String\n\n
+    getPageId()\n
     '''
 def getSheetName1():
-    '''public String getSheetName1()
+    '''returns String\n\n
+    getSheetName1()\n
     '''
 def setSheetName1():
-    '''public void setSheetName1(final String sheetName1)
+    '''returns None\n\n
+    setSheetName1(final String sheetName1)\n
     '''
 def getRowName1():
-    '''public String getRowName1()
+    '''returns String\n\n
+    getRowName1()\n
     '''
 def setRowName1():
-    '''public void setRowName1(final String rowName1)
+    '''returns None\n\n
+    setRowName1(final String rowName1)\n
     '''
 def getSheetName2():
-    '''public String getSheetName2()
+    '''returns String\n\n
+    getSheetName2()\n
     '''
 def setSheetName2():
-    '''public void setSheetName2(final String sheetName2)
+    '''returns None\n\n
+    setSheetName2(final String sheetName2)\n
     '''
 def getRowName2():
-    '''public String getRowName2()
+    '''returns String\n\n
+    getRowName2()\n
     '''
 def setRowName2():
-    '''public void setRowName2(final String rowName2)
+    '''returns None\n\n
+    setRowName2(final String rowName2)\n
     '''
 def getOwner():
-    '''public String getOwner()
+    '''returns String\n\n
+    getOwner()\n
     '''
 def setOwner():
-    '''public void setOwner(final String owner)
+    '''returns None\n\n
+    setOwner(final String owner)\n
     '''
 def getMitigation():
-    '''public String getMitigation()
+    '''returns String\n\n
+    getMitigation()\n
     '''
 def setMitigation():
-    '''public void setMitigation(final String mitigation)
+    '''returns None\n\n
+    setMitigation(final String mitigation)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

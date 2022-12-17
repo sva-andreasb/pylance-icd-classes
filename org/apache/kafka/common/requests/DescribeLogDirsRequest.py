@@ -1,28 +1,26 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def DescribeLogDirsRequest():
-    '''public DescribeLogDirsRequest(final Struct struct, final short version)
-    public DescribeLogDirsRequest(final Set<TopicPartition> topicPartitions, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final Set<TopicPartition> topicPartitions, final short version)\n
+    (final Set<TopicPartition> partitions)\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def isAllTopicPartitions():
-    '''public boolean isAllTopicPartitions()
+    '''returns boolean\n\n
+    isAllTopicPartitions()\n
     '''
 def topicPartitions():
-    '''public Set<TopicPartition> topicPartitions()
-    '''
-def parse():
-    '''public static DescribeLogDirsRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final Set<TopicPartition> partitions)
+    '''returns Set<TopicPartition>\n\n
+    topicPartitions()\n
     '''
 def build():
-    '''public DescribeLogDirsRequest build(final short version)
+    '''returns DescribeLogDirsRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

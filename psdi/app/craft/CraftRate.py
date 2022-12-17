@@ -1,36 +1,48 @@
-def CraftRate():
-    '''public CraftRate(final MboSet ms)
+def ():
+    '''returns CraftRate\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def checkContract():
-    '''public void checkContract()
+    '''returns None\n\n
+    checkContract()\n
     '''
 def getValidContract():
-    '''public MboRemote getValidContract(final Date startDate)
+    '''returns MboRemote\n\n
+    getValidContract(final Date startDate)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def isUnique():
-    '''public boolean isUnique()
+    '''returns boolean\n\n
+    isUnique()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

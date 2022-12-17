@@ -1,123 +1,155 @@
 def size():
-    '''public int size()
-    public int size()
+    '''returns int\n\n
+    size()\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def get():
-    '''public E get(final int index)
-    public E get(final int index)
+    '''returns E\n\n
+    get(final int index)\n
+    get(final int index)\n
     '''
 def iterator():
-    '''public Iterator<E> iterator()
-    public Iterator<E> iterator()
+    '''returns Iterator<E>\n\n
+    iterator()\n
+    iterator()\n
     '''
 def listIterator():
-    '''public ListIterator<E> listIterator()
-    public ListIterator<E> listIterator(final int fromIndex)
-    public ListIterator<E> listIterator(final int index)
+    '''returns ListIterator<E>\n\n
+    listIterator()\n
+    listIterator(final int fromIndex)\n
+    listIterator(final int index)\n
     '''
 def indexOf():
-    '''public int indexOf(final Object value)
+    '''returns int\n\n
+    indexOf(final Object value)\n
     '''
 def lastIndexOf():
-    '''public int lastIndexOf(final Object value)
+    '''returns int\n\n
+    lastIndexOf(final Object value)\n
     '''
 def contains():
-    '''public boolean contains(final Object value)
+    '''returns boolean\n\n
+    contains(final Object value)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> coll)\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public <T> T[] toArray(T[] array)
+    '''returns Object[]\n\n
+    toArray()\n
     '''
 def subList():
-    '''public List<E> subList(final int fromIndexInclusive, final int toIndexExclusive)
-    public List<E> subList(final int fromIndexInclusive, final int toIndexExclusive)
+    '''returns List<E>\n\n
+    subList(final int fromIndexInclusive, final int toIndexExclusive)\n
+    subList(final int fromIndexInclusive, final int toIndexExclusive)\n
     '''
 def add():
-    '''public boolean add(final E value)
-    public void add(final int index, final E value)
-    public void add(final E obj)
-    public void add(final E obj)
-    public void add(final int index, final E obj)
+    '''returns None\n\n
+    add(final E value)\n
+    add(final int index, final E value)\n
+    add(final E obj)\n
+    add(final E obj)\n
+    add(final int index, final E obj)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends E> coll)
-    public boolean addAll(final int index, final Collection<? extends E> coll)
-    public boolean addAll(final Collection<? extends E> coll)
-    public boolean addAll(final int index, final Collection<? extends E> coll)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends E> coll)\n
+    addAll(final int index, final Collection<? extends E> coll)\n
+    addAll(final Collection<? extends E> coll)\n
+    addAll(final int index, final Collection<? extends E> coll)\n
     '''
 def remove():
-    '''public E remove(final int index)
-    public boolean remove(final Object value)
-    public void remove()
-    public void remove()
-    public E remove(final int index)
+    '''returns E\n\n
+    remove(final int index)\n
+    remove(final Object value)\n
+    remove()\n
+    remove()\n
+    remove(final int index)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> coll)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> coll)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> coll)\n
     '''
 def set():
-    '''public E set(final int index, final E value)
-    public void set(final E obj)
-    public E set(final int index, final E obj)
+    '''returns E\n\n
+    set(final int index, final E value)\n
+    set(final E obj)\n
+    set(final int index, final E obj)\n
     '''
 def clear():
-    '''public void clear()
-    public void clear()
+    '''returns None\n\n
+    clear()\n
+    clear()\n
     '''
 def getFirst():
-    '''public E getFirst()
+    '''returns E\n\n
+    getFirst()\n
     '''
 def getLast():
-    '''public E getLast()
+    '''returns E\n\n
+    getLast()\n
     '''
 def addFirst():
-    '''public boolean addFirst(final E o)
+    '''returns boolean\n\n
+    addFirst(final E o)\n
     '''
 def addLast():
-    '''public boolean addLast(final E o)
+    '''returns boolean\n\n
+    addLast(final E o)\n
     '''
 def removeFirst():
-    '''public E removeFirst()
+    '''returns E\n\n
+    removeFirst()\n
     '''
 def removeLast():
-    '''public E removeLast()
+    '''returns E\n\n
+    removeLast()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def hasPrevious():
-    '''public boolean hasPrevious()
-    public boolean hasPrevious()
+    '''returns boolean\n\n
+    hasPrevious()\n
+    hasPrevious()\n
     '''
 def previous():
-    '''public E previous()
+    '''returns E\n\n
+    previous()\n
     '''
 def nextIndex():
-    '''public int nextIndex()
-    public int nextIndex()
+    '''returns int\n\n
+    nextIndex()\n
+    nextIndex()\n
     '''
 def previousIndex():
-    '''public int previousIndex()
+    '''returns int\n\n
+    previousIndex()\n
     '''

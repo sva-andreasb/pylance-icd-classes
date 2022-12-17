@@ -1,15 +1,16 @@
-def PlusPCommonDomainInfo():
-    '''public PlusPCommonDomainInfo(final PlusPCommonDomainInfoInterface commonDomainInfo)
-    '''
-def getKey():
-    '''public static String getKey(final String s, final String s2, final String str)
+def ():
+    '''returns PlusPCommonDomainInfo\n\n
+    (final PlusPCommonDomainInfoInterface commonDomainInfo)\n
     '''
 def getSiteOrgWhere():
-    '''public String getSiteOrgWhere(final ALNDomain alnDomain, final String str)
+    '''returns String\n\n
+    getSiteOrgWhere(final ALNDomain alnDomain, final String str)\n
     '''
 def getSignature():
-    '''public Object[] getSignature(final MboValue mboValue, final Object[] array)
+    '''returns Object[]\n\n
+    getSignature(final MboValue mboValue, final Object[] array)\n
     '''
 def getDetail():
-    '''public Object getDetail(final Object[] array)
+    '''returns Object\n\n
+    getDetail(final Object[] array)\n
     '''

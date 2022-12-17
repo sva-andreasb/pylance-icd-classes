@@ -1,18 +1,24 @@
-def SecurityListener():
-    '''public SecurityListener(final HttpDestination destination, final HttpExchange ex)
+def ():
+    '''returns SecurityListener\n\n
+    (final HttpDestination destination, final HttpExchange ex)\n
     '''
 def onResponseStatus():
-    '''public void onResponseStatus(final Buffer version, final int status, final Buffer reason)
+    '''returns None\n\n
+    onResponseStatus(final Buffer version, final int status, final Buffer reason)\n
     '''
 def onResponseHeader():
-    '''public void onResponseHeader(final Buffer name, final Buffer value)
+    '''returns None\n\n
+    onResponseHeader(final Buffer name, final Buffer value)\n
     '''
 def onRequestComplete():
-    '''public void onRequestComplete()
+    '''returns None\n\n
+    onRequestComplete()\n
     '''
 def onResponseComplete():
-    '''public void onResponseComplete()
+    '''returns None\n\n
+    onResponseComplete()\n
     '''
 def onRetry():
-    '''public void onRetry()
+    '''returns None\n\n
+    onRetry()\n
     '''

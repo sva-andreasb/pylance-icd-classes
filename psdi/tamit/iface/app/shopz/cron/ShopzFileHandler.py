@@ -1,9 +1,12 @@
-def ShopzFileHandler():
-    '''public ShopzFileHandler(final UserInfo userInfo, final String instanceName, final String orgid, final String company, final String status)
+def ():
+    '''returns ShopzFileHandler\n\n
+    (final UserInfo userInfo, final String instanceName, final String orgid, final String company, final String status)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def processFile():
-    '''public void processFile(final File inFile)
+    '''returns None\n\n
+    processFile(final File inFile)\n
     '''

@@ -1,6 +1,8 @@
-def FldMaxAppsPrivilege():
-    '''public FldMaxAppsPrivilege(final MboValue mbv)
+def ():
+    '''returns FldMaxAppsPrivilege\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

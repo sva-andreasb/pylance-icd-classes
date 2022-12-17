@@ -1,73 +1,89 @@
-def Target():
-    '''public Target()
-    public Target(final Target other)
+def ():
+    '''returns Target\n\n
+    ()\n
+    (final Target other)\n
     '''
 def setProject():
-    '''public void setProject(final Project project)
+    '''returns None\n\n
+    setProject(final Project project)\n
     '''
 def getProject():
-    '''public Project getProject()
+    '''returns Project\n\n
+    getProject()\n
     '''
 def setLocation():
-    '''public void setLocation(final Location location)
+    '''returns None\n\n
+    setLocation(final Location location)\n
     '''
 def getLocation():
-    '''public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
     '''
 def setDepends():
-    '''public void setDepends(final String depS)
-    '''
-def parseDepends():
-    '''public static List parseDepends(final String depends, final String targetName, final String attributeName)
+    '''returns None\n\n
+    setDepends(final String depS)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def addTask():
-    '''public void addTask(final Task task)
+    '''returns None\n\n
+    addTask(final Task task)\n
     '''
 def addDataType():
-    '''public void addDataType(final RuntimeConfigurable r)
+    '''returns None\n\n
+    addDataType(final RuntimeConfigurable r)\n
     '''
 def getTasks():
-    '''public Task[] getTasks()
+    '''returns Task[]\n\n
+    getTasks()\n
     '''
 def addDependency():
-    '''public void addDependency(final String dependency)
+    '''returns None\n\n
+    addDependency(final String dependency)\n
     '''
 def getDependencies():
-    '''public Enumeration getDependencies()
+    '''returns Enumeration\n\n
+    getDependencies()\n
     '''
 def dependsOn():
-    '''public boolean dependsOn(final String other)
+    '''returns boolean\n\n
+    dependsOn(final String other)\n
     '''
 def setIf():
-    '''public void setIf(final String property)
+    '''returns None\n\n
+    setIf(final String property)\n
     '''
 def getIf():
-    '''public String getIf()
+    '''returns String\n\n
+    getIf()\n
     '''
 def setUnless():
-    '''public void setUnless(final String property)
+    '''returns None\n\n
+    setUnless(final String property)\n
     '''
 def getUnless():
-    '''public String getUnless()
+    '''returns String\n\n
+    getUnless()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def execute():
-    '''public void execute()
-    '''
-def performTasks():
-    '''public final void performTasks()
+    '''returns None\n\n
+    execute()\n
     '''

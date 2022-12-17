@@ -3,21 +3,26 @@ PARSING = "int  1"
 UNSUPPORTED_ENCODING = "int  2"
 ESCAPING = "int  3"
 PUNYCODE = "int  4"
-def URIException():
-    '''public URIException()
-    public URIException(final int reasonCode)
-    public URIException(final int reasonCode, final String reason)
-    public URIException(final String reason)
+def ():
+    '''returns URIException\n\n
+    ()\n
+    (final int reasonCode)\n
+    (final int reasonCode, final String reason)\n
+    (final String reason)\n
     '''
 def getReasonCode():
-    '''public int getReasonCode()
+    '''returns int\n\n
+    getReasonCode()\n
     '''
 def setReasonCode():
-    '''public void setReasonCode(final int reasonCode)
+    '''returns None\n\n
+    setReasonCode(final int reasonCode)\n
     '''
 def getReason():
-    '''public String getReason()
+    '''returns String\n\n
+    getReason()\n
     '''
 def setReason():
-    '''public void setReason(final String reason)
+    '''returns None\n\n
+    setReason(final String reason)\n
     '''

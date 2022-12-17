@@ -1,33 +1,44 @@
-def CenteredPositioner():
-    '''public CenteredPositioner(final int vO)
+def ():
+    '''returns CenteredPositioner\n\n
+    (final int vO)\n
     '''
 def getPreferredVerticalOffset():
-    '''public int getPreferredVerticalOffset()
+    '''returns int\n\n
+    getPreferredVerticalOffset()\n
     '''
 def setPreferredVerticalOffset():
-    '''public void setPreferredVerticalOffset(final int preferredVerticalOffset)
+    '''returns None\n\n
+    setPreferredVerticalOffset(final int preferredVerticalOffset)\n
     '''
 def isOrientationCorrected():
-    '''public boolean isOrientationCorrected()
+    '''returns boolean\n\n
+    isOrientationCorrected()\n
     '''
 def enableOrientationCorrection():
-    '''public void enableOrientationCorrection(final boolean orientationCorrection)
+    '''returns None\n\n
+    enableOrientationCorrection(final boolean orientationCorrection)\n
     '''
 def isFixedAttachLocation():
-    '''public boolean isFixedAttachLocation()
+    '''returns boolean\n\n
+    isFixedAttachLocation()\n
     '''
 def enableFixedAttachLocation():
-    '''public void enableFixedAttachLocation(final boolean fixedAttachLocation)
+    '''returns None\n\n
+    enableFixedAttachLocation(final boolean fixedAttachLocation)\n
     '''
 def getAttachLocationY():
-    '''public float getAttachLocationY()
+    '''returns float\n\n
+    getAttachLocationY()\n
     '''
 def setAttachLocation():
-    '''public void setAttachLocation(final float attachLocationX, final float attachLocationY)
+    '''returns None\n\n
+    setAttachLocation(final float attachLocationX, final float attachLocationY)\n
     '''
 def getTipLocation():
-    '''public Point getTipLocation()
+    '''returns Point\n\n
+    getTipLocation()\n
     '''
 def determineAndSetLocation():
-    '''public void determineAndSetLocation(final Rectangle attached)
+    '''returns None\n\n
+    determineAndSetLocation(final Rectangle attached)\n
     '''

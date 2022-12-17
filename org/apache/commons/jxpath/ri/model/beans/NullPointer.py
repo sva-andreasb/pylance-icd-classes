@@ -1,43 +1,56 @@
-def NullPointer():
-    '''public NullPointer(final QName name, final Locale locale)
-    public NullPointer(final NodePointer parent, final QName name)
-    public NullPointer(final Locale locale, final String id)
+def ():
+    '''returns NullPointer\n\n
+    (final QName name, final Locale locale)\n
+    (final NodePointer parent, final QName name)\n
+    (final Locale locale, final String id)\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getBaseValue():
-    '''public Object getBaseValue()
+    '''returns Object\n\n
+    getBaseValue()\n
     '''
 def isCollection():
-    '''public boolean isCollection()
+    '''returns boolean\n\n
+    isCollection()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def isActual():
-    '''public boolean isActual()
+    '''returns boolean\n\n
+    isActual()\n
     '''
 def getPropertyPointer():
-    '''public PropertyPointer getPropertyPointer()
+    '''returns PropertyPointer\n\n
+    getPropertyPointer()\n
     '''
 def createPath():
-    '''public NodePointer createPath(final JXPathContext context, final Object value)
-    public NodePointer createPath(final JXPathContext context)
+    '''returns NodePointer\n\n
+    createPath(final JXPathContext context, final Object value)\n
+    createPath(final JXPathContext context)\n
     '''
 def createChild():
-    '''public NodePointer createChild(final JXPathContext context, final QName name, final int index)
-    public NodePointer createChild(final JXPathContext context, final QName name, final int index, final Object value)
+    '''returns NodePointer\n\n
+    createChild(final JXPathContext context, final QName name, final int index)\n
+    createChild(final JXPathContext context, final QName name, final int index, final Object value)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def asPath():
-    '''public String asPath()
+    '''returns String\n\n
+    asPath()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''

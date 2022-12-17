@@ -1,6 +1,8 @@
-def ResponseHeaderHandlerChain():
-    '''public ResponseHeaderHandlerChain(final Unmarshaller<T, InputStream> responseUnmarshaller, final HeaderHandler<T>... headerHandlers)
+def ():
+    '''returns ResponseHeaderHandlerChain\n\n
+    (final Unmarshaller<T, InputStream> responseUnmarshaller, final HeaderHandler<T>... headerHandlers)\n
     '''
 def handle():
-    '''public AmazonWebServiceResponse<T> handle(final HttpResponse response)
+    '''returns AmazonWebServiceResponse<T>\n\n
+    handle(final HttpResponse response)\n
     '''

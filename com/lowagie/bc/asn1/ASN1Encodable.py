@@ -1,12 +1,16 @@
 def getEncoded():
-    '''public byte[] getEncoded()
+    '''returns byte[]\n\n
+    getEncoded()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getDERObject():
-    '''public DERObject getDERObject()
+    '''returns DERObject\n\n
+    getDERObject()\n
     '''

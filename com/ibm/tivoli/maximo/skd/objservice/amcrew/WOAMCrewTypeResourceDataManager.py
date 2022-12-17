@@ -3,20 +3,26 @@ CACHEKEY_RESOURCENONWORKDATA_CREW = "String  \"WOResourceDataManager-Crew-NonWor
 CACHEKEY_RESOURCEWORKDATA_CREW_LOADED = "String  \"WOResourceDataManager-Crew-WorkDataLoaded\""
 CACHEKEY_RESOURCEWORKDATA_CREW = "String  \"WOResourceDataManager-Crew-WorkData\""
 def populate():
-    '''public boolean populate()
+    '''returns boolean\n\n
+    populate()\n
     '''
 def populateResources():
-    '''public void populateResources(final ArrayList<String> queries)
+    '''returns None\n\n
+    populateResources(final ArrayList<String> queries)\n
     '''
 def loadResource():
-    '''public void loadResource(final MXResource resource, final String objectName, final MboRemote mboObject)
+    '''returns None\n\n
+    loadResource(final MXResource resource, final String objectName, final MboRemote mboObject)\n
     '''
 def resourceRecordCount():
-    '''public int resourceRecordCount(final ArrayList<String> queries)
+    '''returns int\n\n
+    resourceRecordCount(final ArrayList<String> queries)\n
     '''
 def getCrewResourceNonWorkData():
-    '''public void getCrewResourceNonWorkData(final String objectName, final String projectId, final long craftId)
+    '''returns None\n\n
+    getCrewResourceNonWorkData(final String objectName, final String projectId, final long craftId)\n
     '''
 def getCrewResourceWorkData():
-    '''public void getCrewResourceWorkData(final String objectName, final String projectId, final long craftId)
+    '''returns None\n\n
+    getCrewResourceWorkData(final String objectName, final String projectId, final long craftId)\n
     '''

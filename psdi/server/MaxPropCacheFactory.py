@@ -1,35 +1,42 @@
-def MaxPropCacheFactory():
-    '''public MaxPropCacheFactory()
-    '''
-def getInstance():
-    '''public static MaxPropCacheFactory getInstance()
+def ():
+    '''returns MaxPropCacheFactory\n\n
+    ()\n
     '''
 def setLandLordUserInfo():
-    '''public void setLandLordUserInfo(final UserInfo llUserInfo)
+    '''returns None\n\n
+    setLandLordUserInfo(final UserInfo llUserInfo)\n
     '''
 def getCache():
-    '''public MaximoCache getCache()
+    '''returns MaximoCache\n\n
+    getCache()\n
     '''
 def isLoaded():
-    '''public boolean isLoaded()
+    '''returns boolean\n\n
+    isLoaded()\n
     '''
 def init():
-    '''public void init()
-    public void init(final Properties propsFromFile)
+    '''returns None\n\n
+    init()\n
+    init(final Properties propsFromFile)\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getMasterPropertyValue():
-    '''public String getMasterPropertyValue(final String propName)
+    '''returns String\n\n
+    getMasterPropertyValue(final String propName)\n
     '''
 def getLoadedTenants():
-    '''public Set<Integer> getLoadedTenants()
+    '''returns Set<Integer>\n\n
+    getLoadedTenants()\n
     '''
 def clearTenant():
-    '''public void clearTenant()
+    '''returns None\n\n
+    clearTenant()\n
     '''

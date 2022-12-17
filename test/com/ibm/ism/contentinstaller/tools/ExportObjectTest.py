@@ -1,3 +1,4 @@
 def testExportToFileStringStringString():
-    '''public void testExportToFileStringStringString()
+    '''returns None\n\n
+    testExportToFileStringStringString()\n
     '''

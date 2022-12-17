@@ -1,6 +1,8 @@
-def Base64Deserializer():
-    '''public Base64Deserializer(final Class javaType, final QName xmlType)
+def ():
+    '''returns Base64Deserializer\n\n
+    (final Class javaType, final QName xmlType)\n
     '''
 def makeValue():
-    '''public Object makeValue(final String source)
+    '''returns Object\n\n
+    makeValue(final String source)\n
     '''

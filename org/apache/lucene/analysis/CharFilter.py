@@ -1,9 +1,8 @@
-def CharFilter():
-    '''public CharFilter(final Reader input)
+def ():
+    '''returns CharFilter\n\n
+    (final Reader input)\n
     '''
 def close():
-    '''public void close()
-    '''
-def correctOffset():
-    '''public final int correctOffset(final int currentOff)
+    '''returns None\n\n
+    close()\n
     '''

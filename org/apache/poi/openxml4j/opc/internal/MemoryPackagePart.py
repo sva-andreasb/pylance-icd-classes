@@ -1,22 +1,29 @@
-def MemoryPackagePart():
-    '''public MemoryPackagePart(final OPCPackage pack, final PackagePartName partName, final String contentType)
-    public MemoryPackagePart(final OPCPackage pack, final PackagePartName partName, final String contentType, final boolean loadRelationships)
+def ():
+    '''returns MemoryPackagePart\n\n
+    (final OPCPackage pack, final PackagePartName partName, final String contentType)\n
+    (final OPCPackage pack, final PackagePartName partName, final String contentType, final boolean loadRelationships)\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def save():
-    '''public boolean save(final OutputStream os)
+    '''returns boolean\n\n
+    save(final OutputStream os)\n
     '''
 def load():
-    '''public boolean load(final InputStream ios)
+    '''returns boolean\n\n
+    load(final InputStream ios)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''

@@ -1,12 +1,16 @@
-def TLOAMSFWView():
-    '''public TLOAMSFWView(final MboSet ms)
+def ():
+    '''returns TLOAMSFWView\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def setFullyLic():
-    '''public void setFullyLic(MboSetRemote contractLineSet)
+    '''returns None\n\n
+    setFullyLic(MboSetRemote contractLineSet)\n
     '''

@@ -1,3 +1,4 @@
-def AdminMonitorSet():
-    '''public AdminMonitorSet(final MboServerInterface ms)
+def ():
+    '''returns AdminMonitorSet\n\n
+    (final MboServerInterface ms)\n
     '''

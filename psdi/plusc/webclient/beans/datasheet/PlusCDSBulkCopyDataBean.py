@@ -1,3 +1,4 @@
 def bulkcopy():
-    '''public int bulkcopy()
+    '''returns int\n\n
+    bulkcopy()\n
     '''

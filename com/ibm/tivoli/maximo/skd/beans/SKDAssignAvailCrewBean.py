@@ -1,9 +1,8 @@
-def SKDAssignAvailCrewBean():
-    '''public SKDAssignAvailCrewBean()
-    '''
-def execute():
-    '''public synchronized int execute()
+def ():
+    '''returns SKDAssignAvailCrewBean\n\n
+    ()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''

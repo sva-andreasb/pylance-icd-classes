@@ -1,24 +1,28 @@
-def ReorderpadBean():
-    '''public ReorderpadBean()
+def ():
+    '''returns ReorderpadBean\n\n
+    ()\n
     '''
 def reorderresults():
-    '''public void reorderresults(final boolean direct, final boolean async)
+    '''returns None\n\n
+    reorderresults(final boolean direct, final boolean async)\n
     '''
 def reorderresultsdirect():
-    '''public int reorderresultsdirect()
+    '''returns int\n\n
+    reorderresultsdirect()\n
     '''
 def reorderresultsitem():
-    '''public int reorderresultsitem()
+    '''returns int\n\n
+    reorderresultsitem()\n
     '''
 def getReorderItemsSet():
-    '''public MboSetRemote getReorderItemsSet()
+    '''returns MboSetRemote\n\n
+    getReorderItemsSet()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def RUNREPORTBYNAME():
-    '''public int RUNREPORTBYNAME()
-    '''
-def close():
-    '''public synchronized void close()
+    '''returns int\n\n
+    RUNREPORTBYNAME()\n
     '''

@@ -1,15 +1,20 @@
-def NodeData():
-    '''public NodeData()
+def ():
+    '''returns NodeData\n\n
+    ()\n
     '''
 def getFields():
-    '''public JSONArray getFields()
+    '''returns JSONArray\n\n
+    getFields()\n
     '''
 def getRows():
-    '''public JSONArray getRows()
+    '''returns JSONArray\n\n
+    getRows()\n
     '''
 def category():
-    '''public int category(final String fld, final String value)
+    '''returns int\n\n
+    category(final String fld, final String value)\n
     '''
 def add():
-    '''public JSONArray add(final String id, final String label)
+    '''returns JSONArray\n\n
+    add(final String id, final String label)\n
     '''

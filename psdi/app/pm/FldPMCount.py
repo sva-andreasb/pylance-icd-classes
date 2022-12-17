@@ -1,6 +1,8 @@
-def FldPMCount():
-    '''public FldPMCount(final MboValue mbv)
+def ():
+    '''returns FldPMCount\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

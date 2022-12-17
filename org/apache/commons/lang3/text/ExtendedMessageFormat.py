@@ -1,30 +1,35 @@
-def ExtendedMessageFormat():
-    '''public ExtendedMessageFormat(final String pattern)
-    public ExtendedMessageFormat(final String pattern, final Locale locale)
-    public ExtendedMessageFormat(final String pattern, final Map<String, ? extends FormatFactory> registry)
-    public ExtendedMessageFormat(final String pattern, final Locale locale, final Map<String, ? extends FormatFactory> registry)
+def ():
+    '''returns ExtendedMessageFormat\n\n
+    (final String pattern)\n
+    (final String pattern, final Locale locale)\n
+    (final String pattern, final Map<String, ? extends FormatFactory> registry)\n
+    (final String pattern, final Locale locale, final Map<String, ? extends FormatFactory> registry)\n
     '''
 def toPattern():
-    '''public String toPattern()
-    '''
-def applyPattern():
-    '''public final void applyPattern(final String pattern)
+    '''returns String\n\n
+    toPattern()\n
     '''
 def setFormat():
-    '''public void setFormat(final int formatElementIndex, final Format newFormat)
+    '''returns None\n\n
+    setFormat(final int formatElementIndex, final Format newFormat)\n
     '''
 def setFormatByArgumentIndex():
-    '''public void setFormatByArgumentIndex(final int argumentIndex, final Format newFormat)
+    '''returns None\n\n
+    setFormatByArgumentIndex(final int argumentIndex, final Format newFormat)\n
     '''
 def setFormats():
-    '''public void setFormats(final Format[] newFormats)
+    '''returns None\n\n
+    setFormats(final Format[] newFormats)\n
     '''
 def setFormatsByArgumentIndex():
-    '''public void setFormatsByArgumentIndex(final Format[] newFormats)
+    '''returns None\n\n
+    setFormatsByArgumentIndex(final Format[] newFormats)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

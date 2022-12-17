@@ -1,3 +1,4 @@
 def savealternate():
-    '''public int savealternate()
+    '''returns int\n\n
+    savealternate()\n
     '''

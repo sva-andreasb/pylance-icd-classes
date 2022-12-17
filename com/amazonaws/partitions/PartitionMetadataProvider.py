@@ -1,12 +1,16 @@
-def PartitionMetadataProvider():
-    '''public PartitionMetadataProvider(final List<Partition> partitions)
+def ():
+    '''returns PartitionMetadataProvider\n\n
+    (final List<Partition> partitions)\n
     '''
 def getRegions():
-    '''public List<Region> getRegions()
+    '''returns List<Region>\n\n
+    getRegions()\n
     '''
 def getRegion():
-    '''public Region getRegion(final String regionName)
+    '''returns Region\n\n
+    getRegion(final String regionName)\n
     '''
 def getRegionsForService():
-    '''public List<Region> getRegionsForService(final String serviceName)
+    '''returns List<Region>\n\n
+    getRegionsForService(final String serviceName)\n
     '''

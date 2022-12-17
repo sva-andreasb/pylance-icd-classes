@@ -1,9 +1,12 @@
-def FldItemAttachOnIssue():
-    '''public FldItemAttachOnIssue(final MboValue mbv)
+def ():
+    '''returns FldItemAttachOnIssue\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

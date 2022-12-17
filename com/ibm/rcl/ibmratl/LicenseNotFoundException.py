@@ -1,9 +1,11 @@
 CLASSNAME = "String  \"LicenseExceptionNotFound\""
 VERSION = "String  \"(%filespec: LicenseNotFoundException.java~2 %)\""
-def LicenseNotFoundException():
-    '''public LicenseNotFoundException(final LicenseControl licenseControl)
-    public LicenseNotFoundException(final String s)
+def ():
+    '''returns LicenseNotFoundException\n\n
+    (final LicenseControl licenseControl)\n
+    (final String s)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

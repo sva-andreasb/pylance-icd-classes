@@ -1,152 +1,190 @@
-def NetCompactReadOnly():
-    '''public NetCompactReadOnly()
+def ():
+    '''returns NetCompactReadOnly\n\n
+    ()\n
     '''
 def first():
-    '''public Node first()
+    '''returns Node\n\n
+    first()\n
     '''
 def get():
-    '''public Object get(final CharacterIterator characterIterator, int n)
-    public Object get(final String s)
+    '''returns Object\n\n
+    get(final CharacterIterator characterIterator, int n)\n
+    get(final String s)\n
     '''
 def traverse():
-    '''public int traverse(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)
-    '''
-def normalizingTraverse():
-    '''public final int normalizingTraverse(final CharacterIterator characterIterator, final MatchBuffer matchBuffer, final Normalizer.Mode mode)
-    '''
-def whitespaceIgnoringTraverse():
-    '''public final int whitespaceIgnoringTraverse(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)
+    '''returns int\n\n
+    traverse(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)\n
     '''
 def traverseReversed():
-    '''public int traverseReversed(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)
+    '''returns int\n\n
+    traverseReversed(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)\n
     '''
 def traverseLongest():
-    '''public boolean traverseLongest(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)
+    '''returns boolean\n\n
+    traverseLongest(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)\n
     '''
 def traverseLongestReversed():
-    '''public boolean traverseLongestReversed(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)
+    '''returns boolean\n\n
+    traverseLongestReversed(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)\n
     '''
 def setChainPolicy():
-    '''public void setChainPolicy(final boolean b)
+    '''returns None\n\n
+    setChainPolicy(final boolean b)\n
     '''
 def getChainPolicy():
-    '''public boolean getChainPolicy()
+    '''returns boolean\n\n
+    getChainPolicy()\n
     '''
 def isContracted():
-    '''public boolean isContracted()
+    '''returns boolean\n\n
+    isContracted()\n
     '''
 def getFileFSTFormat():
-    '''public int getFileFSTFormat()
+    '''returns int\n\n
+    getFileFSTFormat()\n
     '''
 def processGlosses():
-    '''public void processGlosses(final GlossProcessor glossProcessor)
+    '''returns None\n\n
+    processGlosses(final GlossProcessor glossProcessor)\n
     '''
 def endReading():
-    '''public void endReading()
+    '''returns None\n\n
+    endReading()\n
     '''
 def iterator():
-    '''public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def iteratorAC():
-    '''public Iterator iteratorAC(final String s)
+    '''returns Iterator\n\n
+    iteratorAC(final String s)\n
     '''
 def read_FSA():
-    '''public boolean read_FSA(final DataInput dataInput, final int n, final int n2)
-    '''
-def isNetCompact():
-    '''public static boolean isNetCompact(final DataInputStream dataInputStream, final int n, final DictionaryInfo dictionaryInfo)
+    '''returns boolean\n\n
+    read_FSA(final DataInput dataInput, final int n, final int n2)\n
     '''
 def readContents():
-    '''public long readContents(final DataInput dataInput, final int n)
+    '''returns long\n\n
+    readContents(final DataInput dataInput, final int n)\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def getGlossCollectionCount():
-    '''public int getGlossCollectionCount()
+    '''returns int\n\n
+    getGlossCollectionCount()\n
     '''
 def getSignature():
-    '''public int getSignature()
+    '''returns int\n\n
+    getSignature()\n
     '''
 def writeNodes():
-    '''public long writeNodes(final DataOutput dataOutput)
+    '''returns long\n\n
+    writeNodes(final DataOutput dataOutput)\n
     '''
 def writeGlossCollections():
-    '''public void writeGlossCollections(final DataOutput dataOutput, final GlossMapper glossMapper)
+    '''returns None\n\n
+    writeGlossCollections(final DataOutput dataOutput, final GlossMapper glossMapper)\n
     '''
 def clearCharMappings():
-    '''public void clearCharMappings()
+    '''returns None\n\n
+    clearCharMappings()\n
     '''
 def getCharMapping():
-    '''public char getCharMapping(final char c)
+    '''returns char\n\n
+    getCharMapping(final char c)\n
     '''
 def setCharMapping():
-    '''public void setCharMapping(final char c, final char c2)
+    '''returns None\n\n
+    setCharMapping(final char c, final char c2)\n
     '''
 def add():
-    '''public void add(final CharacterIterator characterIterator, final int n, final Object o)
+    '''returns None\n\n
+    add(final CharacterIterator characterIterator, final int n, final Object o)\n
     '''
 def contract():
-    '''public void contract()
+    '''returns None\n\n
+    contract()\n
     '''
 def endBuild():
-    '''public int endBuild()
+    '''returns int\n\n
+    endBuild()\n
     '''
 def remove():
-    '''public int remove(final CharacterIterator characterIterator, final int n)
+    '''returns int\n\n
+    remove(final CharacterIterator characterIterator, final int n)\n
     '''
 def removeGloss():
-    '''public void removeGloss(final CharacterIterator characterIterator, final int n, final Gloss gloss)
+    '''returns None\n\n
+    removeGloss(final CharacterIterator characterIterator, final int n, final Gloss gloss)\n
     '''
 def startBuild():
-    '''public void startBuild(final boolean b)
+    '''returns None\n\n
+    startBuild(final boolean b)\n
     '''
 def newNode():
-    '''public WritableNode newNode(final int n, final int n2)
+    '''returns WritableNode\n\n
+    newNode(final int n, final int n2)\n
     '''
 def setFirstNode():
-    '''public void setFirstNode(final Node node)
+    '''returns None\n\n
+    setFirstNode(final Node node)\n
     '''
 def setOwnerDictionary():
-    '''public void setOwnerDictionary(final Dictionary ownerDictionary)
+    '''returns None\n\n
+    setOwnerDictionary(final Dictionary ownerDictionary)\n
     '''
 def transitionPossible():
-    '''public boolean transitionPossible(final char c)
+    '''returns boolean\n\n
+    transitionPossible(final char c)\n
     '''
 def next():
-    '''public Node next(final char c)
-    public Node next(final CharacterIterator characterIterator)
+    '''returns Node\n\n
+    next(final char c)\n
+    next(final CharacterIterator characterIterator)\n
     '''
 def num_trans():
-    '''public int num_trans()
+    '''returns int\n\n
+    num_trans()\n
     '''
 def num_chars():
-    '''public int num_chars()
+    '''returns int\n\n
+    num_chars()\n
     '''
 def get_trans():
-    '''public Node get_trans(int n)
+    '''returns Node\n\n
+    get_trans(int n)\n
     '''
 def get_char():
-    '''public char get_char(final int n)
+    '''returns char\n\n
+    get_char(final int n)\n
     '''
 def get_chars():
-    '''public String get_chars(final int n)
+    '''returns String\n\n
+    get_chars(final int n)\n
     '''
 def isFinal():
-    '''public boolean isFinal()
+    '''returns boolean\n\n
+    isFinal()\n
     '''
 def getGloss():
-    '''public Object getGloss()
+    '''returns Object\n\n
+    getGloss()\n
     '''
 def nextRestricted():
-    '''public Node nextRestricted(final CharacterIterator characterIterator, final int n)
+    '''returns Node\n\n
+    nextRestricted(final CharacterIterator characterIterator, final int n)\n
     '''
 def dispose():
-    '''public void dispose()
+    '''returns None\n\n
+    dispose()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

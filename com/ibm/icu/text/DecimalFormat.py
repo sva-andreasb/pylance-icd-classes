@@ -2,289 +2,285 @@ PAD_BEFORE_PREFIX = "int  0"
 PAD_AFTER_PREFIX = "int  1"
 PAD_BEFORE_SUFFIX = "int  2"
 PAD_AFTER_SUFFIX = "int  3"
-def DecimalFormat():
-    '''public DecimalFormat()
-    public DecimalFormat(final String pattern)
-    public DecimalFormat(final String pattern, final DecimalFormatSymbols symbols)
-    public DecimalFormat(final String pattern, final DecimalFormatSymbols symbols, final CurrencyPluralInfo infoInput, final int style)
-    '''
-def applyPattern():
-    '''public synchronized void applyPattern(final String pattern)
-    '''
-def applyLocalizedPattern():
-    '''public synchronized void applyLocalizedPattern(final String localizedPattern)
-    '''
-def clone():
-    '''public Object clone()
+def ():
+    '''returns AffixForCurrency\n\n
+    ()\n
+    (final String pattern)\n
+    (final String pattern, final DecimalFormatSymbols symbols)\n
+    (final String pattern, final DecimalFormatSymbols symbols, final CurrencyPluralInfo infoInput, final int style)\n
+    (final String negPrefix, final String negSuffix, final String posPrefix, final String posSuffix, final int type)\n
     '''
 def format():
-    '''public StringBuffer format(final double number, final StringBuffer result, final FieldPosition fieldPosition)
-    public StringBuffer format(final long number, final StringBuffer result, final FieldPosition fieldPosition)
-    public StringBuffer format(final BigInteger number, final StringBuffer result, final FieldPosition fieldPosition)
-    public StringBuffer format(final BigDecimal number, final StringBuffer result, final FieldPosition fieldPosition)
-    public StringBuffer format(final com.ibm.icu.math.BigDecimal number, final StringBuffer result, final FieldPosition fieldPosition)
-    public StringBuffer format(final CurrencyAmount currAmt, final StringBuffer result, final FieldPosition fieldPosition)
-    '''
-def formatToCharacterIterator():
-    '''public AttributedCharacterIterator formatToCharacterIterator(final Object obj)
+    '''returns StringBuffer\n\n
+    format(final double number, final StringBuffer result, final FieldPosition fieldPosition)\n
+    format(final long number, final StringBuffer result, final FieldPosition fieldPosition)\n
+    format(final BigInteger number, final StringBuffer result, final FieldPosition fieldPosition)\n
+    format(final BigDecimal number, final StringBuffer result, final FieldPosition fieldPosition)\n
+    format(com.ibm.icu.math.BigDecimal number, final StringBuffer result, final FieldPosition fieldPosition)\n
     '''
 def parse():
-    '''public Number parse(final String text, ParsePosition parsePosition)
-    '''
-def parseCurrency():
-    '''public CurrencyAmount parseCurrency(final CharSequence text, ParsePosition parsePosition)
+    '''returns Number\n\n
+    parse(final String text, final ParsePosition parsePosition)\n
     '''
 def getDecimalFormatSymbols():
-    '''public synchronized DecimalFormatSymbols getDecimalFormatSymbols()
+    '''returns DecimalFormatSymbols\n\n
+    getDecimalFormatSymbols()\n
     '''
 def setDecimalFormatSymbols():
-    '''public synchronized void setDecimalFormatSymbols(final DecimalFormatSymbols newSymbols)
+    '''returns None\n\n
+    setDecimalFormatSymbols(final DecimalFormatSymbols newSymbols)\n
     '''
 def getPositivePrefix():
-    '''public synchronized String getPositivePrefix()
+    '''returns String\n\n
+    getPositivePrefix()\n
     '''
 def setPositivePrefix():
-    '''public synchronized void setPositivePrefix(final String prefix)
+    '''returns None\n\n
+    setPositivePrefix(final String newValue)\n
     '''
 def getNegativePrefix():
-    '''public synchronized String getNegativePrefix()
+    '''returns String\n\n
+    getNegativePrefix()\n
     '''
 def setNegativePrefix():
-    '''public synchronized void setNegativePrefix(final String prefix)
+    '''returns None\n\n
+    setNegativePrefix(final String newValue)\n
     '''
 def getPositiveSuffix():
-    '''public synchronized String getPositiveSuffix()
+    '''returns String\n\n
+    getPositiveSuffix()\n
     '''
 def setPositiveSuffix():
-    '''public synchronized void setPositiveSuffix(final String suffix)
+    '''returns None\n\n
+    setPositiveSuffix(final String newValue)\n
     '''
 def getNegativeSuffix():
-    '''public synchronized String getNegativeSuffix()
+    '''returns String\n\n
+    getNegativeSuffix()\n
     '''
 def setNegativeSuffix():
-    '''public synchronized void setNegativeSuffix(final String suffix)
-    '''
-def isSignAlwaysShown():
-    '''public synchronized boolean isSignAlwaysShown()
-    '''
-def setSignAlwaysShown():
-    '''public synchronized void setSignAlwaysShown(final boolean value)
+    '''returns None\n\n
+    setNegativeSuffix(final String newValue)\n
     '''
 def getMultiplier():
-    '''public synchronized int getMultiplier()
+    '''returns int\n\n
+    getMultiplier()\n
     '''
 def setMultiplier():
-    '''public synchronized void setMultiplier(final int multiplier)
+    '''returns None\n\n
+    setMultiplier(final int newValue)\n
     '''
 def getRoundingIncrement():
-    '''public synchronized BigDecimal getRoundingIncrement()
+    '''returns BigDecimal\n\n
+    getRoundingIncrement()\n
     '''
 def setRoundingIncrement():
-    '''public synchronized void setRoundingIncrement(final BigDecimal increment)
-    public synchronized void setRoundingIncrement(final com.ibm.icu.math.BigDecimal increment)
-    public synchronized void setRoundingIncrement(final double increment)
+    '''returns None\n\n
+    setRoundingIncrement(final BigDecimal newValue)\n
+    setRoundingIncrement(final com.ibm.icu.math.BigDecimal newValue)\n
+    setRoundingIncrement(final double newValue)\n
     '''
 def getRoundingMode():
-    '''public synchronized int getRoundingMode()
+    '''returns int\n\n
+    getRoundingMode()\n
     '''
 def setRoundingMode():
-    '''public synchronized void setRoundingMode(final int roundingMode)
-    '''
-def setMathContext():
-    '''public synchronized void setMathContext(final java.math.MathContext mathContext)
-    '''
-def getMathContextICU():
-    '''public synchronized MathContext getMathContextICU()
-    '''
-def setMathContextICU():
-    '''public synchronized void setMathContextICU(final MathContext mathContextICU)
-    '''
-def getMinimumIntegerDigits():
-    '''public synchronized int getMinimumIntegerDigits()
-    '''
-def setMinimumIntegerDigits():
-    '''public synchronized void setMinimumIntegerDigits(final int value)
-    '''
-def getMaximumIntegerDigits():
-    '''public synchronized int getMaximumIntegerDigits()
-    '''
-def setMaximumIntegerDigits():
-    '''public synchronized void setMaximumIntegerDigits(final int value)
-    '''
-def getMinimumFractionDigits():
-    '''public synchronized int getMinimumFractionDigits()
-    '''
-def setMinimumFractionDigits():
-    '''public synchronized void setMinimumFractionDigits(final int value)
-    '''
-def getMaximumFractionDigits():
-    '''public synchronized int getMaximumFractionDigits()
-    '''
-def setMaximumFractionDigits():
-    '''public synchronized void setMaximumFractionDigits(final int value)
-    '''
-def areSignificantDigitsUsed():
-    '''public synchronized boolean areSignificantDigitsUsed()
-    '''
-def setSignificantDigitsUsed():
-    '''public synchronized void setSignificantDigitsUsed(final boolean useSignificantDigits)
-    '''
-def getMinimumSignificantDigits():
-    '''public synchronized int getMinimumSignificantDigits()
-    '''
-def setMinimumSignificantDigits():
-    '''public synchronized void setMinimumSignificantDigits(final int value)
-    '''
-def getMaximumSignificantDigits():
-    '''public synchronized int getMaximumSignificantDigits()
-    '''
-def setMaximumSignificantDigits():
-    '''public synchronized void setMaximumSignificantDigits(final int value)
+    '''returns None\n\n
+    setRoundingMode(final int roundingMode)\n
     '''
 def getFormatWidth():
-    '''public synchronized int getFormatWidth()
+    '''returns int\n\n
+    getFormatWidth()\n
     '''
 def setFormatWidth():
-    '''public synchronized void setFormatWidth(final int width)
+    '''returns None\n\n
+    setFormatWidth(final int width)\n
     '''
 def getPadCharacter():
-    '''public synchronized char getPadCharacter()
+    '''returns char\n\n
+    getPadCharacter()\n
     '''
 def setPadCharacter():
-    '''public synchronized void setPadCharacter(final char padChar)
+    '''returns None\n\n
+    setPadCharacter(final char padChar)\n
     '''
 def getPadPosition():
-    '''public synchronized int getPadPosition()
+    '''returns int\n\n
+    getPadPosition()\n
     '''
 def setPadPosition():
-    '''public synchronized void setPadPosition(final int padPos)
+    '''returns None\n\n
+    setPadPosition(final int padPos)\n
     '''
 def isScientificNotation():
-    '''public synchronized boolean isScientificNotation()
+    '''returns boolean\n\n
+    isScientificNotation()\n
     '''
 def setScientificNotation():
-    '''public synchronized void setScientificNotation(final boolean useScientific)
+    '''returns None\n\n
+    setScientificNotation(final boolean useScientific)\n
     '''
 def getMinimumExponentDigits():
-    '''public synchronized byte getMinimumExponentDigits()
+    '''returns byte\n\n
+    getMinimumExponentDigits()\n
     '''
 def setMinimumExponentDigits():
-    '''public synchronized void setMinimumExponentDigits(final byte minExpDig)
+    '''returns None\n\n
+    setMinimumExponentDigits(final byte minExpDig)\n
     '''
 def isExponentSignAlwaysShown():
-    '''public synchronized boolean isExponentSignAlwaysShown()
+    '''returns boolean\n\n
+    isExponentSignAlwaysShown()\n
     '''
 def setExponentSignAlwaysShown():
-    '''public synchronized void setExponentSignAlwaysShown(final boolean expSignAlways)
-    '''
-def isGroupingUsed():
-    '''public synchronized boolean isGroupingUsed()
-    '''
-def setGroupingUsed():
-    '''public synchronized void setGroupingUsed(final boolean enabled)
+    '''returns None\n\n
+    setExponentSignAlwaysShown(final boolean expSignAlways)\n
     '''
 def getGroupingSize():
-    '''public synchronized int getGroupingSize()
+    '''returns int\n\n
+    getGroupingSize()\n
     '''
 def setGroupingSize():
-    '''public synchronized void setGroupingSize(final int width)
+    '''returns None\n\n
+    setGroupingSize(final int newValue)\n
     '''
 def getSecondaryGroupingSize():
-    '''public synchronized int getSecondaryGroupingSize()
+    '''returns int\n\n
+    getSecondaryGroupingSize()\n
     '''
 def setSecondaryGroupingSize():
-    '''public synchronized void setSecondaryGroupingSize(final int width)
+    '''returns None\n\n
+    setSecondaryGroupingSize(final int newValue)\n
     '''
-def getMinimumGroupingDigits():
-    '''public synchronized int getMinimumGroupingDigits()
+def getMathContextICU():
+    '''returns MathContext\n\n
+    getMathContextICU()\n
     '''
-def setMinimumGroupingDigits():
-    '''public synchronized void setMinimumGroupingDigits(final int number)
+def setMathContextICU():
+    '''returns None\n\n
+    setMathContextICU(final MathContext newValue)\n
+    '''
+def setMathContext():
+    '''returns None\n\n
+    setMathContext(final java.math.MathContext newValue)\n
     '''
 def isDecimalSeparatorAlwaysShown():
-    '''public synchronized boolean isDecimalSeparatorAlwaysShown()
+    '''returns boolean\n\n
+    isDecimalSeparatorAlwaysShown()\n
     '''
 def setDecimalSeparatorAlwaysShown():
-    '''public synchronized void setDecimalSeparatorAlwaysShown(final boolean value)
-    '''
-def getCurrency():
-    '''public synchronized Currency getCurrency()
-    '''
-def setCurrency():
-    '''public synchronized void setCurrency(final Currency currency)
-    '''
-def setCurrencyUsage():
-    '''public synchronized void setCurrencyUsage(final Currency.CurrencyUsage usage)
+    '''returns None\n\n
+    setDecimalSeparatorAlwaysShown(final boolean newValue)\n
     '''
 def getCurrencyPluralInfo():
-    '''public synchronized CurrencyPluralInfo getCurrencyPluralInfo()
+    '''returns CurrencyPluralInfo\n\n
+    getCurrencyPluralInfo()\n
     '''
 def setCurrencyPluralInfo():
-    '''public synchronized void setCurrencyPluralInfo(final CurrencyPluralInfo newInfo)
+    '''returns None\n\n
+    setCurrencyPluralInfo(final CurrencyPluralInfo newInfo)\n
     '''
-def isParseBigDecimal():
-    '''public synchronized boolean isParseBigDecimal()
-    '''
-def setParseBigDecimal():
-    '''public synchronized void setParseBigDecimal(final boolean value)
-    '''
-def getParseMaxDigits():
-    '''public int getParseMaxDigits()
-    '''
-def setParseMaxDigits():
-    '''public void setParseMaxDigits(final int maxDigits)
-    '''
-def isParseStrict():
-    '''public synchronized boolean isParseStrict()
-    '''
-def setParseStrict():
-    '''public synchronized void setParseStrict(final boolean parseStrict)
-    '''
-def setParseStrictMode():
-    '''public synchronized void setParseStrictMode(final DecimalFormatProperties.ParseMode parseMode)
-    '''
-def isParseIntegerOnly():
-    '''public synchronized boolean isParseIntegerOnly()
-    '''
-def setParseIntegerOnly():
-    '''public synchronized void setParseIntegerOnly(final boolean parseIntegerOnly)
-    '''
-def isDecimalPatternMatchRequired():
-    '''public synchronized boolean isDecimalPatternMatchRequired()
-    '''
-def setDecimalPatternMatchRequired():
-    '''public synchronized void setDecimalPatternMatchRequired(final boolean value)
-    '''
-def isParseNoExponent():
-    '''public synchronized boolean isParseNoExponent()
-    '''
-def setParseNoExponent():
-    '''public synchronized void setParseNoExponent(final boolean value)
-    '''
-def isParseCaseSensitive():
-    '''public synchronized boolean isParseCaseSensitive()
-    '''
-def setParseCaseSensitive():
-    '''public synchronized void setParseCaseSensitive(final boolean value)
+def clone():
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public synchronized boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def toString():
-    '''public String toString()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toPattern():
-    '''public synchronized String toPattern()
+    '''returns String\n\n
+    toPattern()\n
     '''
 def toLocalizedPattern():
-    '''public synchronized String toLocalizedPattern()
+    '''returns String\n\n
+    toLocalizedPattern()\n
     '''
-def toNumberFormatter():
-    '''public LocalizedNumberFormatter toNumberFormatter()
+def formatToCharacterIterator():
+    '''returns AttributedCharacterIterator\n\n
+    formatToCharacterIterator(final Object obj)\n
     '''
-def setProperties():
-    '''public synchronized void setProperties(final PropertySetter func)
+def applyPattern():
+    '''returns None\n\n
+    applyPattern(final String pattern)\n
+    '''
+def applyLocalizedPattern():
+    '''returns None\n\n
+    applyLocalizedPattern(final String pattern)\n
+    '''
+def setMaximumIntegerDigits():
+    '''returns None\n\n
+    setMaximumIntegerDigits(final int newValue)\n
+    '''
+def setMinimumIntegerDigits():
+    '''returns None\n\n
+    setMinimumIntegerDigits(final int newValue)\n
+    '''
+def getMinimumSignificantDigits():
+    '''returns int\n\n
+    getMinimumSignificantDigits()\n
+    '''
+def getMaximumSignificantDigits():
+    '''returns int\n\n
+    getMaximumSignificantDigits()\n
+    '''
+def setMinimumSignificantDigits():
+    '''returns None\n\n
+    setMinimumSignificantDigits(int min)\n
+    '''
+def setMaximumSignificantDigits():
+    '''returns None\n\n
+    setMaximumSignificantDigits(int max)\n
+    '''
+def areSignificantDigitsUsed():
+    '''returns boolean\n\n
+    areSignificantDigitsUsed()\n
+    '''
+def setSignificantDigitsUsed():
+    '''returns None\n\n
+    setSignificantDigitsUsed(final boolean useSignificantDigits)\n
+    '''
+def setCurrency():
+    '''returns None\n\n
+    setCurrency(final Currency theCurrency)\n
+    '''
+def setMaximumFractionDigits():
+    '''returns None\n\n
+    setMaximumFractionDigits(final int newValue)\n
+    '''
+def setMinimumFractionDigits():
+    '''returns None\n\n
+    setMinimumFractionDigits(final int newValue)\n
+    '''
+def setParseBigDecimal():
+    '''returns None\n\n
+    setParseBigDecimal(final boolean value)\n
+    '''
+def isParseBigDecimal():
+    '''returns boolean\n\n
+    isParseBigDecimal()\n
+    '''
+def getNegPrefix():
+    '''returns String\n\n
+    getNegPrefix()\n
+    '''
+def getNegSuffix():
+    '''returns String\n\n
+    getNegSuffix()\n
+    '''
+def getPosPrefix():
+    '''returns String\n\n
+    getPosPrefix()\n
+    '''
+def getPosSuffix():
+    '''returns String\n\n
+    getPosSuffix()\n
+    '''
+def getPatternType():
+    '''returns int\n\n
+    getPatternType()\n
     '''

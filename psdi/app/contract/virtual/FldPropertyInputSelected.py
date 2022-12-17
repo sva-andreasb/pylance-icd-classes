@@ -1,6 +1,8 @@
-def FldPropertyInputSelected():
-    '''public FldPropertyInputSelected(final MboValue mbv)
+def ():
+    '''returns FldPropertyInputSelected\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,28 +1,24 @@
-def NodeLSearch():
-    '''public NodeLSearch()
-    '''
-def next():
-    '''public final Node next(final CharacterIterator characterIterator)
-    public final Node next(final char c)
-    '''
-def process_glosses():
-    '''public final void process_glosses(final GlossProcessor glossProcessor)
+def ():
+    '''returns NodeLSearch\n\n
+    ()\n
     '''
 def addChar():
-    '''public int addChar(final char c, final int n, final Node node)
+    '''returns int\n\n
+    addChar(final char c, final int n, final Node node)\n
     '''
 def removeChar():
-    '''public int removeChar(final char c, final int n)
-    '''
-def isFinal():
-    '''public final boolean isFinal()
+    '''returns int\n\n
+    removeChar(final char c, final int n)\n
     '''
 def getGloss():
-    '''public Object getGloss()
+    '''returns Object\n\n
+    getGloss()\n
     '''
 def setGloss():
-    '''public void setGloss(final Object o)
+    '''returns None\n\n
+    setGloss(final Object o)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''

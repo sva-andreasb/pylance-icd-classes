@@ -1,12 +1,16 @@
-def NetworkAddressEventData():
-    '''public NetworkAddressEventData(final ASN1Object asn1Object)
+def ():
+    '''returns NetworkAddressEventData\n\n
+    (final ASN1Object asn1Object)\n
     '''
 def getData():
-    '''public String getData()
+    '''returns String\n\n
+    getData()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

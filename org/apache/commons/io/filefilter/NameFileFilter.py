@@ -1,15 +1,18 @@
-def NameFileFilter():
-    '''public NameFileFilter(final String name)
-    public NameFileFilter(final String name, final IOCase caseSensitivity)
-    public NameFileFilter(final String[] names)
-    public NameFileFilter(final String[] names, final IOCase caseSensitivity)
-    public NameFileFilter(final List<String> names)
-    public NameFileFilter(final List<String> names, final IOCase caseSensitivity)
+def ():
+    '''returns NameFileFilter\n\n
+    (final String name)\n
+    (final String name, final IOCase caseSensitivity)\n
+    (final String[] names)\n
+    (final String[] names, final IOCase caseSensitivity)\n
+    (final List<String> names)\n
+    (final List<String> names, final IOCase caseSensitivity)\n
     '''
 def accept():
-    '''public boolean accept(final File file)
-    public boolean accept(final File dir, final String name)
+    '''returns boolean\n\n
+    accept(final File file)\n
+    accept(final File dir, final String name)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

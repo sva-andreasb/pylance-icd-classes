@@ -1,6 +1,8 @@
-def ButtonAutoClickBean():
-    '''public ButtonAutoClickBean()
+def ():
+    '''returns ButtonAutoClickBean\n\n
+    ()\n
     '''
 def setRefreshControl():
-    '''public void setRefreshControl(final ButtonAutoClick ctrl)
+    '''returns None\n\n
+    setRefreshControl(final ButtonAutoClick ctrl)\n
     '''

@@ -1,6 +1,8 @@
 def getPolicyText():
-    '''public String getPolicyText()
+    '''returns String\n\n
+    getPolicyText()\n
     '''
 def setPolicyText():
-    '''public void setPolicyText(final String policyText)
+    '''returns None\n\n
+    setPolicyText(final String policyText)\n
     '''

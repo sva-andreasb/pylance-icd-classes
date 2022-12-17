@@ -1,6 +1,8 @@
 def testexpressions():
-    '''public int testexpressions()
+    '''returns int\n\n
+    testexpressions()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''

@@ -1,43 +1,55 @@
-def TablecellBalloonTip():
-    '''public TablecellBalloonTip(final JTable table, final JComponent component, final int row, final int column, final BalloonTipStyle style, final Orientation alignment, final AttachLocation attachLocation, final int horizontalOffset, final int verticalOffset, final boolean useCloseButton)
-    public TablecellBalloonTip(final JTable table, final JComponent component, final int row, final int column, final BalloonTipStyle style, final BalloonTipPositioner positioner, final JButton closeButton)
+def ():
+    '''returns TablecellBalloonTip\n\n
+    (final JTable table, final JComponent component, final int row, final int column, final BalloonTipStyle style, final Orientation alignment, final AttachLocation attachLocation, final int horizontalOffset, final int verticalOffset, final boolean useCloseButton)\n
+    (final JTable table, final JComponent component, final int row, final int column, final BalloonTipStyle style, final BalloonTipPositioner positioner, final JButton closeButton)\n
     '''
 def columnAdded():
-    '''public void columnAdded(final TableColumnModelEvent e)
-    public void columnAdded(final TableColumnModelEvent e)
+    '''returns None\n\n
+    columnAdded(final TableColumnModelEvent e)\n
+    columnAdded(final TableColumnModelEvent e)\n
     '''
 def columnMarginChanged():
-    '''public void columnMarginChanged(final ChangeEvent e)
-    public void columnMarginChanged(final ChangeEvent e)
+    '''returns None\n\n
+    columnMarginChanged(final ChangeEvent e)\n
+    columnMarginChanged(final ChangeEvent e)\n
     '''
 def columnMoved():
-    '''public void columnMoved(final TableColumnModelEvent e)
-    public void columnMoved(final TableColumnModelEvent e)
+    '''returns None\n\n
+    columnMoved(final TableColumnModelEvent e)\n
+    columnMoved(final TableColumnModelEvent e)\n
     '''
 def columnRemoved():
-    '''public void columnRemoved(final TableColumnModelEvent e)
-    public void columnRemoved(final TableColumnModelEvent e)
+    '''returns None\n\n
+    columnRemoved(final TableColumnModelEvent e)\n
+    columnRemoved(final TableColumnModelEvent e)\n
     '''
 def columnSelectionChanged():
-    '''public void columnSelectionChanged(final ListSelectionEvent e)
-    public void columnSelectionChanged(final ListSelectionEvent e)
+    '''returns None\n\n
+    columnSelectionChanged(final ListSelectionEvent e)\n
+    columnSelectionChanged(final ListSelectionEvent e)\n
     '''
 def tableChanged():
-    '''public void tableChanged(final TableModelEvent e)
-    public void tableChanged(final TableModelEvent e)
+    '''returns None\n\n
+    tableChanged(final TableModelEvent e)\n
+    tableChanged(final TableModelEvent e)\n
     '''
 def setCellPosition():
-    '''public void setCellPosition(final int row, final int column)
+    '''returns None\n\n
+    setCellPosition(final int row, final int column)\n
     '''
 def closeBalloon():
-    '''public void closeBalloon()
+    '''returns None\n\n
+    closeBalloon()\n
     '''
 def ancestorAdded():
-    '''public void ancestorAdded(final AncestorEvent event)
+    '''returns None\n\n
+    ancestorAdded(final AncestorEvent event)\n
     '''
 def ancestorMoved():
-    '''public void ancestorMoved(final AncestorEvent event)
+    '''returns None\n\n
+    ancestorMoved(final AncestorEvent event)\n
     '''
 def ancestorRemoved():
-    '''public void ancestorRemoved(final AncestorEvent event)
+    '''returns None\n\n
+    ancestorRemoved(final AncestorEvent event)\n
     '''

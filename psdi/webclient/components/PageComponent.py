@@ -1,9 +1,12 @@
 def renderDialog():
-    '''public int renderDialog(final PageInstance dialog, final boolean isRerendering)
+    '''returns int\n\n
+    renderDialog(final PageInstance dialog, final boolean isRerendering)\n
     '''
 def renderDialogs():
-    '''public int renderDialogs(final boolean isRerendering)
+    '''returns int\n\n
+    renderDialogs(final boolean isRerendering)\n
     '''
 def setDebugPosition():
-    '''public int setDebugPosition()
+    '''returns int\n\n
+    setDebugPosition()\n
     '''

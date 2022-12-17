@@ -1,18 +1,24 @@
 def getDocumentSummaryInformation():
-    '''public DocumentSummaryInformation getDocumentSummaryInformation()
+    '''returns DocumentSummaryInformation\n\n
+    getDocumentSummaryInformation()\n
     '''
 def getSummaryInformation():
-    '''public SummaryInformation getSummaryInformation()
+    '''returns SummaryInformation\n\n
+    getSummaryInformation()\n
     '''
 def createInformationProperties():
-    '''public void createInformationProperties()
+    '''returns None\n\n
+    createInformationProperties()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getDirectory():
-    '''public DirectoryNode getDirectory()
+    '''returns DirectoryNode\n\n
+    getDirectory()\n
     '''
 def getEncryptionInfo():
-    '''public EncryptionInfo getEncryptionInfo()
+    '''returns EncryptionInfo\n\n
+    getEncryptionInfo()\n
     '''

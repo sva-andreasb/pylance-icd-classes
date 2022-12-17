@@ -1,109 +1,120 @@
-def S3EventNotification():
-    '''public S3EventNotification(@JsonProperty("Records") final List<S3EventNotificationRecord> records)
-    '''
-def parseJson():
-    '''public static S3EventNotification parseJson(final String json)
+def ():
+    '''returns S3EventNotificationRecord\n\n
+    (@JsonProperty("Records") final List<S3EventNotificationRecord> records)\n
+    (@JsonProperty("principalId") final String principalId)\n
+    (@JsonProperty("name") final String name, @JsonProperty("ownerIdentity") final UserIdentityEntity ownerIdentity, @JsonProperty("arn") final String arn)\n
+    (final String key, final Integer size, final String eTag, final String versionId)\n
+    (@JsonProperty("key") final String key, @JsonProperty("size") final Long size, @JsonProperty("eTag") final String eTag, @JsonProperty("versionId") final String versionId)\n
+    (@JsonProperty("configurationId") final String configurationId, @JsonProperty("bucket") final S3BucketEntity bucket, @JsonProperty("object") final S3ObjectEntity object, @JsonProperty("s3SchemaVersion") final String s3SchemaVersion)\n
+    (@JsonProperty("sourceIPAddress") final String sourceIPAddress)\n
+    (@JsonProperty("x-amz-id-2") final String xAmzId2, @JsonProperty("x-amz-request-id") final String xAmzRequestId)\n
+    (@JsonProperty("awsRegion") final String awsRegion, @JsonProperty("eventName") final String eventName, @JsonProperty("eventSource") final String eventSource, @JsonProperty("eventTime") final String eventTime, @JsonProperty("eventVersion") final String eventVersion, @JsonProperty("requestParameters") final RequestParametersEntity requestParameters, @JsonProperty("responseElements") final ResponseElementsEntity responseElements, @JsonProperty("s3") final S3Entity s3, @JsonProperty("userIdentity") final UserIdentityEntity userIdentity)\n
     '''
 def getRecords():
-    '''public List<S3EventNotificationRecord> getRecords()
+    '''returns List<S3EventNotificationRecord>\n\n
+    getRecords()\n
     '''
 def toJson():
-    '''public String toJson()
-    '''
-def UserIdentityEntity():
-    '''public UserIdentityEntity(@JsonProperty("principalId") final String principalId)
+    '''returns String\n\n
+    toJson()\n
     '''
 def getPrincipalId():
-    '''public String getPrincipalId()
-    '''
-def S3BucketEntity():
-    '''public S3BucketEntity(@JsonProperty("name") final String name, @JsonProperty("ownerIdentity") final UserIdentityEntity ownerIdentity, @JsonProperty("arn") final String arn)
+    '''returns String\n\n
+    getPrincipalId()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getOwnerIdentity():
-    '''public UserIdentityEntity getOwnerIdentity()
+    '''returns UserIdentityEntity\n\n
+    getOwnerIdentity()\n
     '''
 def getArn():
-    '''public String getArn()
-    '''
-def S3ObjectEntity():
-    '''public S3ObjectEntity(final String key, final Integer size, final String eTag, final String versionId)
-    public S3ObjectEntity(@JsonProperty("key") final String key, @JsonProperty("size") final Long size, @JsonProperty("eTag") final String eTag, @JsonProperty("versionId") final String versionId)
+    '''returns String\n\n
+    getArn()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getSize():
-    '''public Integer getSize()
+    '''returns Integer\n\n
+    getSize()\n
     '''
 def getSizeAsLong():
-    '''public Long getSizeAsLong()
+    '''returns Long\n\n
+    getSizeAsLong()\n
     '''
 def geteTag():
-    '''public String geteTag()
+    '''returns String\n\n
+    geteTag()\n
     '''
 def getVersionId():
-    '''public String getVersionId()
-    '''
-def S3Entity():
-    '''public S3Entity(@JsonProperty("configurationId") final String configurationId, @JsonProperty("bucket") final S3BucketEntity bucket, @JsonProperty("object") final S3ObjectEntity object, @JsonProperty("s3SchemaVersion") final String s3SchemaVersion)
+    '''returns String\n\n
+    getVersionId()\n
     '''
 def getConfigurationId():
-    '''public String getConfigurationId()
+    '''returns String\n\n
+    getConfigurationId()\n
     '''
 def getBucket():
-    '''public S3BucketEntity getBucket()
+    '''returns S3BucketEntity\n\n
+    getBucket()\n
     '''
 def getObject():
-    '''public S3ObjectEntity getObject()
+    '''returns S3ObjectEntity\n\n
+    getObject()\n
     '''
 def getS3SchemaVersion():
-    '''public String getS3SchemaVersion()
-    '''
-def RequestParametersEntity():
-    '''public RequestParametersEntity(@JsonProperty("sourceIPAddress") final String sourceIPAddress)
+    '''returns String\n\n
+    getS3SchemaVersion()\n
     '''
 def getSourceIPAddress():
-    '''public String getSourceIPAddress()
-    '''
-def ResponseElementsEntity():
-    '''public ResponseElementsEntity(@JsonProperty("x-amz-id-2") final String xAmzId2, @JsonProperty("x-amz-request-id") final String xAmzRequestId)
+    '''returns String\n\n
+    getSourceIPAddress()\n
     '''
 def getxAmzId2():
-    '''public String getxAmzId2()
+    '''returns String\n\n
+    getxAmzId2()\n
     '''
 def getxAmzRequestId():
-    '''public String getxAmzRequestId()
-    '''
-def S3EventNotificationRecord():
-    '''public S3EventNotificationRecord(@JsonProperty("awsRegion") final String awsRegion, @JsonProperty("eventName") final String eventName, @JsonProperty("eventSource") final String eventSource, @JsonProperty("eventTime") final String eventTime, @JsonProperty("eventVersion") final String eventVersion, @JsonProperty("requestParameters") final RequestParametersEntity requestParameters, @JsonProperty("responseElements") final ResponseElementsEntity responseElements, @JsonProperty("s3") final S3Entity s3, @JsonProperty("userIdentity") final UserIdentityEntity userIdentity)
+    '''returns String\n\n
+    getxAmzRequestId()\n
     '''
 def getAwsRegion():
-    '''public String getAwsRegion()
+    '''returns String\n\n
+    getAwsRegion()\n
     '''
 def getEventName():
-    '''public String getEventName()
+    '''returns String\n\n
+    getEventName()\n
     '''
 def getEventSource():
-    '''public String getEventSource()
+    '''returns String\n\n
+    getEventSource()\n
     '''
 def getEventTime():
-    '''public DateTime getEventTime()
+    '''returns DateTime\n\n
+    getEventTime()\n
     '''
 def getEventVersion():
-    '''public String getEventVersion()
+    '''returns String\n\n
+    getEventVersion()\n
     '''
 def getRequestParameters():
-    '''public RequestParametersEntity getRequestParameters()
+    '''returns RequestParametersEntity\n\n
+    getRequestParameters()\n
     '''
 def getResponseElements():
-    '''public ResponseElementsEntity getResponseElements()
+    '''returns ResponseElementsEntity\n\n
+    getResponseElements()\n
     '''
 def getS3():
-    '''public S3Entity getS3()
+    '''returns S3Entity\n\n
+    getS3()\n
     '''
 def getUserIdentity():
-    '''public UserIdentityEntity getUserIdentity()
+    '''returns UserIdentityEntity\n\n
+    getUserIdentity()\n
     '''

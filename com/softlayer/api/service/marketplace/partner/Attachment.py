@@ -1,108 +1,144 @@
 def setAttachmentType():
-    '''public void setAttachmentType(final com.softlayer.api.service.marketplace.partner.attachment.Type attachmentType)
+    '''returns None\n\n
+    setAttachmentType(final com.softlayer.api.service.marketplace.partner.attachment.Type attachmentType)\n
     '''
 def getAttachmentTypeId():
-    '''public Long getAttachmentTypeId()
+    '''returns Long\n\n
+    getAttachmentTypeId()\n
     '''
 def setAttachmentTypeId():
-    '''public void setAttachmentTypeId(final Long attachmentTypeId)
+    '''returns None\n\n
+    setAttachmentTypeId(final Long attachmentTypeId)\n
     '''
 def isAttachmentTypeIdSpecified():
-    '''public boolean isAttachmentTypeIdSpecified()
+    '''returns boolean\n\n
+    isAttachmentTypeIdSpecified()\n
     '''
 def unsetAttachmentTypeId():
-    '''public void unsetAttachmentTypeId()
+    '''returns None\n\n
+    unsetAttachmentTypeId()\n
     '''
 def getBaseName():
-    '''public String getBaseName()
+    '''returns String\n\n
+    getBaseName()\n
     '''
 def setBaseName():
-    '''public void setBaseName(final String baseName)
+    '''returns None\n\n
+    setBaseName(final String baseName)\n
     '''
 def isBaseNameSpecified():
-    '''public boolean isBaseNameSpecified()
+    '''returns boolean\n\n
+    isBaseNameSpecified()\n
     '''
 def unsetBaseName():
-    '''public void unsetBaseName()
+    '''returns None\n\n
+    unsetBaseName()\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def setDisplayName():
-    '''public void setDisplayName(final String displayName)
+    '''returns None\n\n
+    setDisplayName(final String displayName)\n
     '''
 def isDisplayNameSpecified():
-    '''public boolean isDisplayNameSpecified()
+    '''returns boolean\n\n
+    isDisplayNameSpecified()\n
     '''
 def unsetDisplayName():
-    '''public void unsetDisplayName()
+    '''returns None\n\n
+    unsetDisplayName()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def setFileName():
-    '''public void setFileName(final String fileName)
+    '''returns None\n\n
+    setFileName(final String fileName)\n
     '''
 def isFileNameSpecified():
-    '''public boolean isFileNameSpecified()
+    '''returns boolean\n\n
+    isFileNameSpecified()\n
     '''
 def unsetFileName():
-    '''public void unsetFileName()
+    '''returns None\n\n
+    unsetFileName()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getMarketplacePartnerId():
-    '''public Long getMarketplacePartnerId()
+    '''returns Long\n\n
+    getMarketplacePartnerId()\n
     '''
 def setMarketplacePartnerId():
-    '''public void setMarketplacePartnerId(final Long marketplacePartnerId)
+    '''returns None\n\n
+    setMarketplacePartnerId(final Long marketplacePartnerId)\n
     '''
 def isMarketplacePartnerIdSpecified():
-    '''public boolean isMarketplacePartnerIdSpecified()
+    '''returns boolean\n\n
+    isMarketplacePartnerIdSpecified()\n
     '''
 def unsetMarketplacePartnerId():
-    '''public void unsetMarketplacePartnerId()
+    '''returns None\n\n
+    unsetMarketplacePartnerId()\n
     '''
 def getSaveAsName():
-    '''public String getSaveAsName()
+    '''returns String\n\n
+    getSaveAsName()\n
     '''
 def setSaveAsName():
-    '''public void setSaveAsName(final String saveAsName)
+    '''returns None\n\n
+    setSaveAsName(final String saveAsName)\n
     '''
 def isSaveAsNameSpecified():
-    '''public boolean isSaveAsNameSpecified()
+    '''returns boolean\n\n
+    isSaveAsNameSpecified()\n
     '''
 def unsetSaveAsName():
-    '''public void unsetSaveAsName()
+    '''returns None\n\n
+    unsetSaveAsName()\n
     '''
 def attachmentTypeId():
-    '''public Mask attachmentTypeId()
+    '''returns Mask\n\n
+    attachmentTypeId()\n
     '''
 def baseName():
-    '''public Mask baseName()
+    '''returns Mask\n\n
+    baseName()\n
     '''
 def displayName():
-    '''public Mask displayName()
+    '''returns Mask\n\n
+    displayName()\n
     '''
 def fileName():
-    '''public Mask fileName()
+    '''returns Mask\n\n
+    fileName()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def marketplacePartnerId():
-    '''public Mask marketplacePartnerId()
+    '''returns Mask\n\n
+    marketplacePartnerId()\n
     '''
 def saveAsName():
-    '''public Mask saveAsName()
+    '''returns Mask\n\n
+    saveAsName()\n
     '''

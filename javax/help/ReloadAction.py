@@ -1,6 +1,8 @@
-def ReloadAction():
-    '''public ReloadAction(final Object o)
+def ():
+    '''returns ReloadAction\n\n
+    (final Object o)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''

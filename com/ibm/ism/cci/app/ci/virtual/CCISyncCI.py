@@ -1,12 +1,16 @@
-def CCISyncCI():
-    '''public CCISyncCI(final MboSet ms)
+def ():
+    '''returns CCISyncCI\n\n
+    (final MboSet ms)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def disableHierarchyChoices():
-    '''public void disableHierarchyChoices()
+    '''returns None\n\n
+    disableHierarchyChoices()\n
     '''
 def getSynchronizationOptions():
-    '''public long getSynchronizationOptions()
+    '''returns long\n\n
+    getSynchronizationOptions()\n
     '''

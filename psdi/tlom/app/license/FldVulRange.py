@@ -1,6 +1,8 @@
-def FldVulRange():
-    '''public FldVulRange(final MboValue mbv)
+def ():
+    '''returns FldVulRange\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

@@ -1,33 +1,38 @@
 PARAMETER_STYLE = "String  \"parameterStyle\""
 ACCEPT_ENCODING = "String  \"HTTP.header.Accept-Encoding\""
-def OAuthClient():
-    '''public OAuthClient(final HttpClient http)
+def ():
+    '''returns OAuthClient\n\n
+    (final HttpClient http)\n
     '''
 def setHttpClient():
-    '''public void setHttpClient(final HttpClient http)
+    '''returns None\n\n
+    setHttpClient(final HttpClient http)\n
     '''
 def getHttpClient():
-    '''public HttpClient getHttpClient()
-    '''
-def getHttpParameters():
-    '''public Map<String, Object> getHttpParameters()
+    '''returns HttpClient\n\n
+    getHttpClient()\n
     '''
 def getRequestToken():
-    '''public void getRequestToken(final OAuthAccessor accessor)
-    public void getRequestToken(final OAuthAccessor accessor, final String httpMethod)
-    public void getRequestToken(final OAuthAccessor accessor, final String httpMethod, final Collection<? extends Map.Entry> parameters)
+    '''returns None\n\n
+    getRequestToken(final OAuthAccessor accessor)\n
+    getRequestToken(final OAuthAccessor accessor, final String httpMethod)\n
+    getRequestToken(final OAuthAccessor accessor, final String httpMethod, final Collection<? extends Map.Entry> parameters)\n
     '''
 def getRequestTokenResponse():
-    '''public OAuthMessage getRequestTokenResponse(final OAuthAccessor accessor, final String httpMethod, Collection<? extends Map.Entry> parameters)
+    '''returns OAuthMessage\n\n
+    getRequestTokenResponse(final OAuthAccessor accessor, final String httpMethod, Collection<? extends Map.Entry> parameters)\n
     '''
 def getAccessToken():
-    '''public OAuthMessage getAccessToken(final OAuthAccessor accessor, final String httpMethod, Collection<? extends Map.Entry> parameters)
+    '''returns OAuthMessage\n\n
+    getAccessToken(final OAuthAccessor accessor, final String httpMethod, Collection<? extends Map.Entry> parameters)\n
     '''
 def invoke():
-    '''public OAuthMessage invoke(final OAuthAccessor accessor, final String httpMethod, final String url, final Collection<? extends Map.Entry> parameters)
-    public OAuthMessage invoke(final OAuthAccessor accessor, final String url, final Collection<? extends Map.Entry> parameters)
-    public OAuthMessage invoke(final OAuthMessage request, final ParameterStyle style)
+    '''returns OAuthMessage\n\n
+    invoke(final OAuthAccessor accessor, final String httpMethod, final String url, final Collection<? extends Map.Entry> parameters)\n
+    invoke(final OAuthAccessor accessor, final String url, final Collection<? extends Map.Entry> parameters)\n
+    invoke(final OAuthMessage request, final ParameterStyle style)\n
     '''
 def access():
-    '''public OAuthResponseMessage access(final OAuthMessage request, final ParameterStyle style)
+    '''returns OAuthResponseMessage\n\n
+    access(final OAuthMessage request, final ParameterStyle style)\n
     '''

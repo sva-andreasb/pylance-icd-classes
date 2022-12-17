@@ -1,6 +1,8 @@
-def GotoTodayActionListener():
-    '''public GotoTodayActionListener(final IlvTimeScrollController controller)
+def ():
+    '''returns GotoTodayActionListener\n\n
+    (final IlvTimeScrollController controller)\n
     '''
 def zoom():
-    '''public void zoom(final IlvTimeScrollController controller)
+    '''returns None\n\n
+    zoom(final IlvTimeScrollController controller)\n
     '''

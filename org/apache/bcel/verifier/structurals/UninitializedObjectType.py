@@ -1,12 +1,16 @@
-def UninitializedObjectType():
-    '''public UninitializedObjectType(final ObjectType t)
+def ():
+    '''returns UninitializedObjectType\n\n
+    (final ObjectType t)\n
     '''
 def getInitialized():
-    '''public ObjectType getInitialized()
+    '''returns ObjectType\n\n
+    getInitialized()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

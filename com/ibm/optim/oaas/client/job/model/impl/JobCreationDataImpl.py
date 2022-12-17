@@ -1,48 +1,64 @@
-def JobCreationDataImpl():
-    '''public JobCreationDataImpl()
+def ():
+    '''returns JobCreationDataImpl\n\n
+    ()\n
     '''
 def getApplicationId():
-    '''public String getApplicationId()
+    '''returns String\n\n
+    getApplicationId()\n
     '''
 def setApplicationId():
-    '''public void setApplicationId(final String applicationId)
+    '''returns None\n\n
+    setApplicationId(final String applicationId)\n
     '''
 def getApplicationVersion():
-    '''public String getApplicationVersion()
+    '''returns String\n\n
+    getApplicationVersion()\n
     '''
 def setApplicationVersion():
-    '''public void setApplicationVersion(final String applicationVersion)
+    '''returns None\n\n
+    setApplicationVersion(final String applicationVersion)\n
     '''
 def getParameters():
-    '''public JobParameters getParameters()
+    '''returns JobParameters\n\n
+    getParameters()\n
     '''
 def getAttachments():
-    '''public List<JobAttachmentCreationData> getAttachments()
+    '''returns List<JobAttachmentCreationData>\n\n
+    getAttachments()\n
     '''
 def getImplAttachments():
-    '''public List<JobAttachmentImpl> getImplAttachments()
+    '''returns List<JobAttachmentImpl>\n\n
+    getImplAttachments()\n
     '''
 def addJobAttachment():
-    '''public JobAttachmentImpl addJobAttachment(final String name)
+    '''returns JobAttachmentImpl\n\n
+    addJobAttachment(final String name)\n
     '''
 def setClientName():
-    '''public void setClientName(final String name)
+    '''returns None\n\n
+    setClientName(final String name)\n
     '''
 def getClientName():
-    '''public String getClientName()
+    '''returns String\n\n
+    getClientName()\n
     '''
 def setClientEmail():
-    '''public void setClientEmail(final String email)
+    '''returns None\n\n
+    setClientEmail(final String email)\n
     '''
 def getClientEmail():
-    '''public String getClientEmail()
+    '''returns String\n\n
+    getClientEmail()\n
     '''
 def isIgnoreJobCount():
-    '''public boolean isIgnoreJobCount()
+    '''returns boolean\n\n
+    isIgnoreJobCount()\n
     '''
 def setIgnoreJobCount():
-    '''public void setIgnoreJobCount(final boolean ignoreJobCount)
+    '''returns None\n\n
+    setIgnoreJobCount(final boolean ignoreJobCount)\n
     '''
 def getAttachment():
-    '''public JobAttachmentImpl getAttachment(final String name)
+    '''returns JobAttachmentImpl\n\n
+    getAttachment(final String name)\n
     '''

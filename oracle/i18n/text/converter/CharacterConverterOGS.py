@@ -1,30 +1,35 @@
 UNDEFINED_DISPLAY_WIDTH = "byte  -1"
 BELOW_CJK = "int  12287"
-def getInstance():
-    '''public static final synchronized CharacterConverter getInstance(final int i)
-    '''
 def getGroupId():
-    '''public int getGroupId()
+    '''returns int\n\n
+    getGroupId()\n
     '''
 def getOracleId():
-    '''public int getOracleId()
+    '''returns int\n\n
+    getOracleId()\n
     '''
 def getAverageRatio():
-    '''public float getAverageRatio()
+    '''returns float\n\n
+    getAverageRatio()\n
     '''
 def getMaxRatio():
-    '''public float getMaxRatio()
+    '''returns float\n\n
+    getMaxRatio()\n
     '''
 def getMaxBytesRatio():
-    '''public float getMaxBytesRatio()
+    '''returns float\n\n
+    getMaxBytesRatio()\n
     '''
 def toOracleStringWithReplacement():
-    '''public byte[] toOracleStringWithReplacement(final String s)
+    '''returns byte[]\n\n
+    toOracleStringWithReplacement(final String s)\n
     '''
 def toUnistr():
-    '''public String toUnistr(final String s)
+    '''returns String\n\n
+    toUnistr(final String s)\n
     '''
 def run():
-    '''public Object run()
-    public Object run()
+    '''returns Object\n\n
+    run()\n
+    run()\n
     '''

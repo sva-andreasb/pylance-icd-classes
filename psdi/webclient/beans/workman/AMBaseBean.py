@@ -1,36 +1,48 @@
 def setPageStartIndex():
-    '''public boolean setPageStartIndex(final int nRow)
+    '''returns boolean\n\n
+    setPageStartIndex(final int nRow)\n
     '''
 def AMSetCurrentRow():
-    '''public void AMSetCurrentRow(final int nRow)
+    '''returns None\n\n
+    AMSetCurrentRow(final int nRow)\n
     '''
 def AMSetTableFlag():
-    '''public void AMSetTableFlag(final long flag, final boolean value)
+    '''returns None\n\n
+    AMSetTableFlag(final long flag, final boolean value)\n
     '''
 def AMSetCurrentQueryName():
-    '''public void AMSetCurrentQueryName(final String queryName)
+    '''returns None\n\n
+    AMSetCurrentQueryName(final String queryName)\n
     '''
 def getAMCalendarViewBean():
-    '''public DataBean getAMCalendarViewBean()
+    '''returns DataBean\n\n
+    getAMCalendarViewBean()\n
     '''
 def getAMCalendarViewSet():
-    '''public MboSetRemote getAMCalendarViewSet()
+    '''returns MboSetRemote\n\n
+    getAMCalendarViewSet()\n
     '''
 def getAMLaborTableBean():
-    '''public DataBean getAMLaborTableBean()
+    '''returns DataBean\n\n
+    getAMLaborTableBean()\n
     '''
 def getAMLaborCraftRateSet():
-    '''public MboSetRemote getAMLaborCraftRateSet()
+    '''returns MboSetRemote\n\n
+    getAMLaborCraftRateSet()\n
     '''
 def resetWorkList():
-    '''public int resetWorkList()
+    '''returns int\n\n
+    resetWorkList()\n
     '''
 def resetLaborList():
-    '''public int resetLaborList()
+    '''returns int\n\n
+    resetLaborList()\n
     '''
 def resetWorkAndLaborLists():
-    '''public int resetWorkAndLaborLists()
+    '''returns int\n\n
+    resetWorkAndLaborLists()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

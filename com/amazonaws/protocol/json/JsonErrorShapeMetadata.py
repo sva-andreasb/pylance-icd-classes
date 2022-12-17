@@ -1,9 +1,12 @@
 def getErrorCode():
-    '''public String getErrorCode()
+    '''returns String\n\n
+    getErrorCode()\n
     '''
 def withErrorCode():
-    '''public JsonErrorShapeMetadata withErrorCode(final String errorCode)
+    '''returns JsonErrorShapeMetadata\n\n
+    withErrorCode(final String errorCode)\n
     '''
 def withModeledClass():
-    '''public JsonErrorShapeMetadata withModeledClass(final Class<? extends AmazonServiceException> modeledClass)
+    '''returns JsonErrorShapeMetadata\n\n
+    withModeledClass(final Class<? extends AmazonServiceException> modeledClass)\n
     '''

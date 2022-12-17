@@ -1,66 +1,88 @@
-def JDBCTask():
-    '''public JDBCTask()
+def ():
+    '''returns JDBCTask\n\n
+    ()\n
     '''
 def setClasspath():
-    '''public void setClasspath(final Path classpath)
+    '''returns None\n\n
+    setClasspath(final Path classpath)\n
     '''
 def setCaching():
-    '''public void setCaching(final boolean enable)
+    '''returns None\n\n
+    setCaching(final boolean enable)\n
     '''
 def createClasspath():
-    '''public Path createClasspath()
+    '''returns Path\n\n
+    createClasspath()\n
     '''
 def setClasspathRef():
-    '''public void setClasspathRef(final Reference r)
+    '''returns None\n\n
+    setClasspathRef(final Reference r)\n
     '''
 def setDriver():
-    '''public void setDriver(final String driver)
+    '''returns None\n\n
+    setDriver(final String driver)\n
     '''
 def setUrl():
-    '''public void setUrl(final String url)
+    '''returns None\n\n
+    setUrl(final String url)\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def setAutocommit():
-    '''public void setAutocommit(final boolean autocommit)
+    '''returns None\n\n
+    setAutocommit(final boolean autocommit)\n
     '''
 def setRdbms():
-    '''public void setRdbms(final String rdbms)
+    '''returns None\n\n
+    setRdbms(final String rdbms)\n
     '''
 def setVersion():
-    '''public void setVersion(final String version)
+    '''returns None\n\n
+    setVersion(final String version)\n
     '''
 def setFailOnConnectionError():
-    '''public void setFailOnConnectionError(final boolean b)
+    '''returns None\n\n
+    setFailOnConnectionError(final boolean b)\n
     '''
 def addConnectionProperty():
-    '''public void addConnectionProperty(final Property var)
+    '''returns None\n\n
+    addConnectionProperty(final Property var)\n
     '''
 def isCaching():
-    '''public void isCaching(final boolean value)
+    '''returns None\n\n
+    isCaching(final boolean value)\n
     '''
 def getClasspath():
-    '''public Path getClasspath()
+    '''returns Path\n\n
+    getClasspath()\n
     '''
 def isAutocommit():
-    '''public boolean isAutocommit()
+    '''returns boolean\n\n
+    isAutocommit()\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def getUserId():
-    '''public String getUserId()
+    '''returns String\n\n
+    getUserId()\n
     '''
 def setUserid():
-    '''public void setUserid(final String userId)
+    '''returns None\n\n
+    setUserid(final String userId)\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def getRdbms():
-    '''public String getRdbms()
+    '''returns String\n\n
+    getRdbms()\n
     '''
 def getVersion():
-    '''public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
     '''

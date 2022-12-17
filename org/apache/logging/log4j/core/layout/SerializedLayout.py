@@ -1,18 +1,20 @@
 def toByteArray():
-    '''public byte[] toByteArray(final LogEvent event)
+    '''returns byte[]\n\n
+    toByteArray(final LogEvent event)\n
     '''
 def toSerializable():
-    '''public LogEvent toSerializable(final LogEvent event)
-    '''
-def createLayout():
-    '''public static SerializedLayout createLayout()
+    '''returns LogEvent\n\n
+    toSerializable(final LogEvent event)\n
     '''
 def getHeader():
-    '''public byte[] getHeader()
+    '''returns byte[]\n\n
+    getHeader()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
-def PrivateObjectOutputStream():
-    '''public PrivateObjectOutputStream(final OutputStream os)
+def ():
+    '''returns PrivateObjectOutputStream\n\n
+    (final OutputStream os)\n
     '''

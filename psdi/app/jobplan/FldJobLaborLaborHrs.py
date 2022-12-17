@@ -1,6 +1,8 @@
-def FldJobLaborLaborHrs():
-    '''public FldJobLaborLaborHrs(final MboValue mbv)
+def ():
+    '''returns FldJobLaborLaborHrs\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,3 +1,4 @@
-def CDUICommLogSet():
-    '''public CDUICommLogSet(final MboServerInterface ms)
+def ():
+    '''returns CDUICommLogSet\n\n
+    (final MboServerInterface ms)\n
     '''

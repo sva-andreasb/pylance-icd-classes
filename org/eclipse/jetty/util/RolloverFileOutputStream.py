@@ -1,26 +1,33 @@
-def RolloverFileOutputStream():
-    '''public RolloverFileOutputStream(final String filename)
-    public RolloverFileOutputStream(final String filename, final boolean append)
-    public RolloverFileOutputStream(final String filename, final boolean append, final int retainDays)
-    public RolloverFileOutputStream(final String filename, final boolean append, final int retainDays, final TimeZone zone)
-    public RolloverFileOutputStream(String filename, final boolean append, final int retainDays, final TimeZone zone, String dateFormat, String backupFormat)
+def ():
+    '''returns RolloverFileOutputStream\n\n
+    (final String filename)\n
+    (final String filename, final boolean append)\n
+    (final String filename, final boolean append, final int retainDays)\n
+    (final String filename, final boolean append, final int retainDays, final TimeZone zone)\n
+    (String filename, final boolean append, final int retainDays, final TimeZone zone, String dateFormat, String backupFormat)\n
     '''
 def getFilename():
-    '''public String getFilename()
+    '''returns String\n\n
+    getFilename()\n
     '''
 def getDatedFilename():
-    '''public String getDatedFilename()
+    '''returns String\n\n
+    getDatedFilename()\n
     '''
 def getRetainDays():
-    '''public int getRetainDays()
+    '''returns int\n\n
+    getRetainDays()\n
     '''
 def write():
-    '''public void write(final byte[] buf)
-    public void write(final byte[] buf, final int off, final int len)
+    '''returns None\n\n
+    write(final byte[] buf)\n
+    write(final byte[] buf, final int off, final int len)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

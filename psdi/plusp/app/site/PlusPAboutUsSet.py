@@ -1,9 +1,12 @@
-def PlusPAboutUsSet():
-    '''public PlusPAboutUsSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPAboutUsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getMbo():
-    '''public MboRemote getMbo(final int index)
+    '''returns MboRemote\n\n
+    getMbo(final int index)\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

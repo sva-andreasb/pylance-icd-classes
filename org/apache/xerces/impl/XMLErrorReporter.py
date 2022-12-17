@@ -1,60 +1,78 @@
 SEVERITY_WARNING = "short  0"
 SEVERITY_ERROR = "short  1"
 SEVERITY_FATAL_ERROR = "short  2"
-def XMLErrorReporter():
-    '''public XMLErrorReporter()
+def ():
+    '''returns XMLErrorReporter\n\n
+    ()\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale fLocale)
+    '''returns None\n\n
+    setLocale(final Locale fLocale)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def setDocumentLocator():
-    '''public void setDocumentLocator(final XMLLocator fLocator)
+    '''returns None\n\n
+    setDocumentLocator(final XMLLocator fLocator)\n
     '''
 def putMessageFormatter():
-    '''public void putMessageFormatter(final String key, final MessageFormatter value)
+    '''returns None\n\n
+    putMessageFormatter(final String key, final MessageFormatter value)\n
     '''
 def getMessageFormatter():
-    '''public MessageFormatter getMessageFormatter(final String key)
+    '''returns MessageFormatter\n\n
+    getMessageFormatter(final String key)\n
     '''
 def removeMessageFormatter():
-    '''public MessageFormatter removeMessageFormatter(final String key)
+    '''returns MessageFormatter\n\n
+    removeMessageFormatter(final String key)\n
     '''
 def reportError():
-    '''public String reportError(final String s, final String s2, final Object[] array, final short n)
-    public String reportError(final String s, final String s2, final Object[] array, final short n, final Exception ex)
-    public String reportError(final XMLLocator xmlLocator, final String s, final String s2, final Object[] array, final short n)
-    public String reportError(final XMLLocator xmlLocator, final String str, final String str2, final Object[] array, final short n, final Exception ex)
+    '''returns String\n\n
+    reportError(final String s, final String s2, final Object[] array, final short n)\n
+    reportError(final String s, final String s2, final Object[] array, final short n, final Exception ex)\n
+    reportError(final XMLLocator xmlLocator, final String s, final String s2, final Object[] array, final short n)\n
+    reportError(final XMLLocator xmlLocator, final String str, final String str2, final Object[] array, final short n, final Exception ex)\n
     '''
 def reset():
-    '''public void reset(final XMLComponentManager xmlComponentManager)
+    '''returns None\n\n
+    reset(final XMLComponentManager xmlComponentManager)\n
     '''
 def getRecognizedFeatures():
-    '''public String[] getRecognizedFeatures()
+    '''returns String[]\n\n
+    getRecognizedFeatures()\n
     '''
 def setFeature():
-    '''public void setFeature(final String s, final boolean fContinueAfterFatalError)
+    '''returns None\n\n
+    setFeature(final String s, final boolean fContinueAfterFatalError)\n
     '''
 def getFeature():
-    '''public boolean getFeature(final String s)
+    '''returns boolean\n\n
+    getFeature(final String s)\n
     '''
 def getRecognizedProperties():
-    '''public String[] getRecognizedProperties()
+    '''returns String[]\n\n
+    getRecognizedProperties()\n
     '''
 def setProperty():
-    '''public void setProperty(final String s, final Object o)
+    '''returns None\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def getFeatureDefault():
-    '''public Boolean getFeatureDefault(final String anObject)
+    '''returns Boolean\n\n
+    getFeatureDefault(final String anObject)\n
     '''
 def getPropertyDefault():
-    '''public Object getPropertyDefault(final String anObject)
+    '''returns Object\n\n
+    getPropertyDefault(final String anObject)\n
     '''
 def getErrorHandler():
-    '''public XMLErrorHandler getErrorHandler()
+    '''returns XMLErrorHandler\n\n
+    getErrorHandler()\n
     '''
 def getSAXErrorHandler():
-    '''public ErrorHandler getSAXErrorHandler()
+    '''returns ErrorHandler\n\n
+    getSAXErrorHandler()\n
     '''

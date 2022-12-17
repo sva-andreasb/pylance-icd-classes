@@ -1,9 +1,12 @@
-def PRStatusHandler():
-    '''public PRStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns PRStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String desiredStatus, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String desiredStatus, final Date date, final String memo)\n
     '''
 def approve():
-    '''public void approve(final Date date)
+    '''returns None\n\n
+    approve(final Date date)\n
     '''

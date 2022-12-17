@@ -1,12 +1,16 @@
-def SKDResourceNameContainsFilter():
-    '''public SKDResourceNameContainsFilter(final String value)
+def ():
+    '''returns SKDResourceNameContainsFilter\n\n
+    (final String value)\n
     '''
 def evaluate():
-    '''public boolean evaluate(final IlvResource r)
+    '''returns boolean\n\n
+    evaluate(final IlvResource r)\n
     '''
 def getFilterBy():
-    '''public String getFilterBy()
+    '''returns String\n\n
+    getFilterBy()\n
     '''
 def setFilterBy():
-    '''public void setFilterBy(final String filterBy)
+    '''returns None\n\n
+    setFilterBy(final String filterBy)\n
     '''

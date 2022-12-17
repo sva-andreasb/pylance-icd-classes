@@ -1,19 +1,17 @@
-def sort():
-    '''public static List sort(final List objects)
-    '''
-def main():
-    '''public static void main(final String[] args)
-    '''
-def SortObject():
-    '''public SortObject(final PartialComparable o)
+def ():
+    '''returns SortObject\n\n
+    (final PartialComparable o)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object other)
+    '''returns int\n\n
+    compareTo(final Object other)\n
     '''
 def fallbackCompareTo():
-    '''public int fallbackCompareTo(final Object other)
+    '''returns int\n\n
+    fallbackCompareTo(final Object other)\n
     '''

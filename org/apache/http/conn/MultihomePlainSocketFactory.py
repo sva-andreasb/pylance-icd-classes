@@ -1,12 +1,8 @@
-def getSocketFactory():
-    '''public static MultihomePlainSocketFactory getSocketFactory()
-    '''
 def createSocket():
-    '''public Socket createSocket()
+    '''returns Socket\n\n
+    createSocket()\n
     '''
 def connectSocket():
-    '''public Socket connectSocket(final Socket socket, final String host, final int port, final InetAddress localAddress, final int localPort, final HttpParams params)
-    '''
-def isSecure():
-    '''public final boolean isSecure(final Socket sock)
+    '''returns Socket\n\n
+    connectSocket(final Socket socket, final String host, final int port, final InetAddress localAddress, final int localPort, final HttpParams params)\n
     '''

@@ -1,10 +1,13 @@
-def WSDDOperation():
-    '''public WSDDOperation(final OperationDesc desc)
-    public WSDDOperation(final Element e, final ServiceDesc parent)
+def ():
+    '''returns WSDDOperation\n\n
+    (final OperationDesc desc)\n
+    (final Element e, final ServiceDesc parent)\n
     '''
 def writeToContext():
-    '''public void writeToContext(final SerializationContext context)
+    '''returns None\n\n
+    writeToContext(final SerializationContext context)\n
     '''
 def getOperationDesc():
-    '''public OperationDesc getOperationDesc()
+    '''returns OperationDesc\n\n
+    getOperationDesc()\n
     '''

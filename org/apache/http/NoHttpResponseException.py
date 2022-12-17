@@ -1,3 +1,4 @@
-def NoHttpResponseException():
-    '''public NoHttpResponseException(final String message)
+def ():
+    '''returns NoHttpResponseException\n\n
+    (final String message)\n
     '''

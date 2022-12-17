@@ -1,37 +1,49 @@
-def ImageReceiver():
-    '''public ImageReceiver(final InetAddress remoteHost, final int remotePort, final int localPort, final int width, final int height)
+def ():
+    '''returns ImageReceiver\n\n
+    (final InetAddress remoteHost, final int remotePort, final int localPort, final int width, final int height)\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def getLocalHost():
-    '''public InetAddress getLocalHost()
+    '''returns InetAddress\n\n
+    getLocalHost()\n
     '''
 def getRemoteHost():
-    '''public InetAddress getRemoteHost()
+    '''returns InetAddress\n\n
+    getRemoteHost()\n
     '''
 def getLocalPort():
-    '''public int getLocalPort()
+    '''returns int\n\n
+    getLocalPort()\n
     '''
 def getRemotePort():
-    '''public int getRemotePort()
+    '''returns int\n\n
+    getRemotePort()\n
     '''
 def getDatagramSocket():
-    '''public DatagramSocket getDatagramSocket()
+    '''returns DatagramSocket\n\n
+    getDatagramSocket()\n
     '''
 def drawTile():
-    '''public void drawTile(final int x, final int y, final BufferedImage bufferedImage)
+    '''returns None\n\n
+    drawTile(final int x, final int y, final BufferedImage bufferedImage)\n
     '''
 def paint():
-    '''public void paint(final Graphics g)
+    '''returns None\n\n
+    paint(final Graphics g)\n
     '''
 def getDecoder():
-    '''public ImageDecoder getDecoder()
+    '''returns ImageDecoder\n\n
+    getDecoder()\n
     '''
 def setDecoder():
-    '''public void setDecoder(final ImageDecoder decoder)
+    '''returns None\n\n
+    setDecoder(final ImageDecoder decoder)\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''

@@ -1,3 +1,4 @@
-def ModAvailSet():
-    '''public ModAvailSet(final MboServerInterface ms)
+def ():
+    '''returns ModAvailSet\n\n
+    (final MboServerInterface ms)\n
     '''

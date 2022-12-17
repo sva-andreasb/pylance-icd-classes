@@ -1,6 +1,8 @@
-def SQLiteException():
-    '''public SQLiteException(final String message, final SQLiteErrorCode resultCode)
+def ():
+    '''returns SQLiteException\n\n
+    (final String message, final SQLiteErrorCode resultCode)\n
     '''
 def getResultCode():
-    '''public SQLiteErrorCode getResultCode()
+    '''returns SQLiteErrorCode\n\n
+    getResultCode()\n
     '''

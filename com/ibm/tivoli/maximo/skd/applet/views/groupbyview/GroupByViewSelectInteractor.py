@@ -1,6 +1,8 @@
 def isMoveAllowed():
-    '''public boolean isMoveAllowed()
+    '''returns boolean\n\n
+    isMoveAllowed()\n
     '''
 def isEditionAllowed():
-    '''public boolean isEditionAllowed()
+    '''returns boolean\n\n
+    isEditionAllowed()\n
     '''

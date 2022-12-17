@@ -1,55 +1,73 @@
 def notation():
-    '''public T notation(final Notation notation)
+    '''returns T\n\n
+    notation(final Notation notation)\n
     '''
 def unit():
-    '''public T unit(final MeasureUnit unit)
+    '''returns T\n\n
+    unit(final MeasureUnit unit)\n
     '''
 def perUnit():
-    '''public T perUnit(final MeasureUnit perUnit)
+    '''returns T\n\n
+    perUnit(final MeasureUnit perUnit)\n
     '''
 def precision():
-    '''public T precision(final Precision precision)
+    '''returns T\n\n
+    precision(final Precision precision)\n
     '''
 def roundingMode():
-    '''public T roundingMode(final RoundingMode roundingMode)
+    '''returns T\n\n
+    roundingMode(final RoundingMode roundingMode)\n
     '''
 def grouping():
-    '''public T grouping(final NumberFormatter.GroupingStrategy strategy)
+    '''returns T\n\n
+    grouping(final NumberFormatter.GroupingStrategy strategy)\n
     '''
 def integerWidth():
-    '''public T integerWidth(final IntegerWidth style)
+    '''returns T\n\n
+    integerWidth(final IntegerWidth style)\n
     '''
 def symbols():
-    '''public T symbols(DecimalFormatSymbols symbols)
-    public T symbols(final NumberingSystem ns)
+    '''returns T\n\n
+    symbols(DecimalFormatSymbols symbols)\n
+    symbols(final NumberingSystem ns)\n
     '''
 def unitWidth():
-    '''public T unitWidth(final NumberFormatter.UnitWidth style)
+    '''returns T\n\n
+    unitWidth(final NumberFormatter.UnitWidth style)\n
     '''
 def sign():
-    '''public T sign(final NumberFormatter.SignDisplay style)
+    '''returns T\n\n
+    sign(final NumberFormatter.SignDisplay style)\n
     '''
 def decimal():
-    '''public T decimal(final NumberFormatter.DecimalSeparatorDisplay style)
+    '''returns T\n\n
+    decimal(final NumberFormatter.DecimalSeparatorDisplay style)\n
     '''
 def scale():
-    '''public T scale(final Scale scale)
+    '''returns T\n\n
+    scale(final Scale scale)\n
     '''
 def macros():
-    '''public T macros(final MacroProps macros)
+    '''returns T\n\n
+    macros(final MacroProps macros)\n
     '''
 def padding():
-    '''public T padding(final Padder padder)
+    '''returns T\n\n
+    padding(final Padder padder)\n
     '''
 def threshold():
-    '''public T threshold(final Long threshold)
+    '''returns T\n\n
+    threshold(final Long threshold)\n
     '''
 def toSkeleton():
-    '''public String toSkeleton()
+    '''returns String\n\n
+    toSkeleton()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''

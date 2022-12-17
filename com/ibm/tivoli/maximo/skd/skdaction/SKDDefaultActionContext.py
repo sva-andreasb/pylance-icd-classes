@@ -1,57 +1,76 @@
-def SKDDefaultActionContext():
-    '''public SKDDefaultActionContext()
+def ():
+    '''returns SKDDefaultActionContext\n\n
+    ()\n
     '''
 def getProjectId():
-    '''public String getProjectId()
+    '''returns String\n\n
+    getProjectId()\n
     '''
 def setProjectId():
-    '''public void setProjectId(final String id)
+    '''returns None\n\n
+    setProjectId(final String id)\n
     '''
 def getActionName():
-    '''public String getActionName()
+    '''returns String\n\n
+    getActionName()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getSKDObjectName():
-    '''public String getSKDObjectName()
+    '''returns String\n\n
+    getSKDObjectName()\n
     '''
 def setActionName():
-    '''public void setActionName(final String str)
+    '''returns None\n\n
+    setActionName(final String str)\n
     '''
 def getMultiRec():
-    '''public String getMultiRec()
+    '''returns String\n\n
+    getMultiRec()\n
     '''
 def setMultiRec():
-    '''public void setMultiRec(final String multirec)
+    '''returns None\n\n
+    setMultiRec(final String multirec)\n
     '''
 def getMenuOrder():
-    '''public String getMenuOrder()
+    '''returns String\n\n
+    getMenuOrder()\n
     '''
 def setMenuOrder():
-    '''public void setMenuOrder(final String menuorder)
+    '''returns None\n\n
+    setMenuOrder(final String menuorder)\n
     '''
 def setUseWith():
-    '''public void setUseWith(final String usewith)
+    '''returns None\n\n
+    setUseWith(final String usewith)\n
     '''
 def getUseWith():
-    '''public String getUseWith()
+    '''returns String\n\n
+    getUseWith()\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String str)
+    '''returns None\n\n
+    setObjectName(final String str)\n
     '''
 def setSKDObjectName():
-    '''public void setSKDObjectName(final String str)
+    '''returns None\n\n
+    setSKDObjectName(final String str)\n
     '''
 def setUserInfo():
-    '''public void setUserInfo(final UserInfo info)
+    '''returns None\n\n
+    setUserInfo(final UserInfo info)\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def setLogger():
-    '''public void setLogger(final MXLogger l)
+    '''returns None\n\n
+    setLogger(final MXLogger l)\n
     '''
 def getLogger():
-    '''public MXLogger getLogger()
+    '''returns MXLogger\n\n
+    getLogger()\n
     '''

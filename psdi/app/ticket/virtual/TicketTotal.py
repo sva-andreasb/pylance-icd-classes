@@ -1,6 +1,8 @@
-def TicketTotal():
-    '''public TicketTotal(final MboSet ms)
+def ():
+    '''returns TicketTotal\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

@@ -1,19 +1,24 @@
 REMOVING_NONE = "int  0"
 REMOVING_ACTIVITY = "int  1"
 REMOVING_RESOURCE = "int  2"
-def ReservationRemovedEvent():
-    '''public ReservationRemovedEvent(final IlvGanttModel source, final IlvReservation a, final int b)
-    public ReservationRemovedEvent(final IlvGanttModel ilvGanttModel, final IlvReservation ilvReservation)
+def ():
+    '''returns ReservationRemovedEvent\n\n
+    (final IlvGanttModel source, final IlvReservation a, final int b)\n
+    (final IlvGanttModel ilvGanttModel, final IlvReservation ilvReservation)\n
     '''
 def getGanttModel():
-    '''public IlvGanttModel getGanttModel()
+    '''returns IlvGanttModel\n\n
+    getGanttModel()\n
     '''
 def getReservation():
-    '''public IlvReservation getReservation()
+    '''returns IlvReservation\n\n
+    getReservation()\n
     '''
 def isRemovingActivity():
-    '''public boolean isRemovingActivity()
+    '''returns boolean\n\n
+    isRemovingActivity()\n
     '''
 def isRemovingResource():
-    '''public boolean isRemovingResource()
+    '''returns boolean\n\n
+    isRemovingResource()\n
     '''

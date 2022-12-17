@@ -1,3 +1,4 @@
-def FldRelationClassstructureid():
-    '''public FldRelationClassstructureid(final MboValue mbv)
+def ():
+    '''returns FldRelationClassstructureid\n\n
+    (final MboValue mbv)\n
     '''

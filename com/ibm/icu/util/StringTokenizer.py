@@ -1,26 +1,32 @@
-def StringTokenizer():
-    '''public StringTokenizer(final String str, final UnicodeSet delim, final boolean returndelims)
-    public StringTokenizer(final String str, final UnicodeSet delim, final boolean returndelims, final boolean coalescedelims)
-    public StringTokenizer(final String str, final UnicodeSet delim)
-    public StringTokenizer(final String str, final String delim, final boolean returndelims)
-    public StringTokenizer(final String str, final String delim, final boolean returndelims, final boolean coalescedelims)
-    public StringTokenizer(final String str, final String delim)
-    public StringTokenizer(final String str)
+def ():
+    '''returns StringTokenizer\n\n
+    (final String str, final UnicodeSet delim, final boolean returndelims)\n
+    (final String str, final UnicodeSet delim, final boolean returndelims, final boolean coalescedelims)\n
+    (final String str, final UnicodeSet delim)\n
+    (final String str, final String delim, final boolean returndelims)\n
+    (final String str, final String delim, final boolean returndelims, final boolean coalescedelims)\n
+    (final String str, final String delim)\n
+    (final String str)\n
     '''
 def hasMoreTokens():
-    '''public boolean hasMoreTokens()
+    '''returns boolean\n\n
+    hasMoreTokens()\n
     '''
 def nextToken():
-    '''public String nextToken()
-    public String nextToken(final String delim)
-    public String nextToken(final UnicodeSet delim)
+    '''returns String\n\n
+    nextToken()\n
+    nextToken(final String delim)\n
+    nextToken(final UnicodeSet delim)\n
     '''
 def hasMoreElements():
-    '''public boolean hasMoreElements()
+    '''returns boolean\n\n
+    hasMoreElements()\n
     '''
 def nextElement():
-    '''public Object nextElement()
+    '''returns Object\n\n
+    nextElement()\n
     '''
 def countTokens():
-    '''public int countTokens()
+    '''returns int\n\n
+    countTokens()\n
     '''

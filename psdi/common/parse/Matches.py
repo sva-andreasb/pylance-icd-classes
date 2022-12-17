@@ -1,9 +1,8 @@
-def doesMatch():
-    '''public static final boolean doesMatch(final String pattern, final String operand)
-    '''
-def Matches():
-    '''public Matches(final char matchChar, final Matches nextNode)
+def ():
+    '''returns Matches\n\n
+    (final char matchChar, final Matches nextNode)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

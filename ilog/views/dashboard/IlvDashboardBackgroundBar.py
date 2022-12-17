@@ -1,89 +1,114 @@
 ID = "String  \"BackgroundPalette\""
-def IlvDashboardBackgroundBar():
-    '''public IlvDashboardBackgroundBar(final IlvDashboardEditor ilvDashboardEditor)
+def ():
+    '''returns IlvDashboardBackgroundBar\n\n
+    (final IlvDashboardEditor ilvDashboardEditor)\n
     '''
 def getToolBar():
-    '''public IlvDiagrammerToolBar getToolBar()
+    '''returns IlvDiagrammerToolBar\n\n
+    getToolBar()\n
     '''
 def getPredefinedActions():
-    '''public Action[] getPredefinedActions()
+    '''returns Action[]\n\n
+    getPredefinedActions()\n
     '''
 def getPaletteFont():
-    '''public Font getPaletteFont()
+    '''returns Font\n\n
+    getPaletteFont()\n
     '''
 def setPaletteFont():
-    '''public void setPaletteFont(final Font e)
+    '''returns None\n\n
+    setPaletteFont(final Font e)\n
     '''
 def getPaletteForeground():
-    '''public Color getPaletteForeground()
+    '''returns Color\n\n
+    getPaletteForeground()\n
     '''
 def setPaletteForeground():
-    '''public void setPaletteForeground(final Color foreground)
+    '''returns None\n\n
+    setPaletteForeground(final Color foreground)\n
     '''
 def getPaletteBackground():
-    '''public Color getPaletteBackground()
+    '''returns Color\n\n
+    getPaletteBackground()\n
     '''
 def setPaletteBackground():
-    '''public void setPaletteBackground(final Color background)
+    '''returns None\n\n
+    setPaletteBackground(final Color background)\n
     '''
 def createObject():
-    '''public IlvGraphic createObject(final IlvPoint ilvPoint, final String s, final Font font, final Color color)
-    public IlvGraphic createObject(final IlvPoint ilvPoint, final String s, final Font font, final Color color)
-    public IlvGraphic createObject(final IlvPoint ilvPoint, final String s, final Font font, final Color color)
-    public IlvGraphic createObject(final IlvPoint[] array)
-    public IlvGraphic createObject(final IlvPoint[] array)
-    public IlvGraphic createObject(final IlvPoint[] array)
-    public IlvGraphic createObject(final IlvPoint[] array)
-    public IlvGraphic createObject(IlvPoint[] a)
-    public IlvGraphic createObject(final IlvRect ilvRect)
-    public IlvGraphic createObject(final IlvRect ilvRect)
+    '''returns IlvGraphic\n\n
+    createObject(final IlvPoint ilvPoint, final String s, final Font font, final Color color)\n
+    createObject(final IlvPoint ilvPoint, final String s, final Font font, final Color color)\n
+    createObject(final IlvPoint ilvPoint, final String s, final Font font, final Color color)\n
+    createObject(final IlvPoint[] array)\n
+    createObject(final IlvPoint[] array)\n
+    createObject(final IlvPoint[] array)\n
+    createObject(final IlvPoint[] array)\n
+    createObject(IlvPoint[] a)\n
+    createObject(final IlvRect ilvRect)\n
+    createObject(final IlvRect ilvRect)\n
     '''
 def getInteractorCursor():
-    '''public Cursor getInteractorCursor()
+    '''returns Cursor\n\n
+    getInteractorCursor()\n
     '''
 def setInteractorCursor():
-    '''public void setInteractorCursor(final Cursor d)
+    '''returns None\n\n
+    setInteractorCursor(final Cursor d)\n
     '''
 def addObjectPropertyChangeListener():
-    '''public void addObjectPropertyChangeListener(final PropertyChangeListener listener)
+    '''returns None\n\n
+    addObjectPropertyChangeListener(final PropertyChangeListener listener)\n
     '''
 def removeObjectPropertyChangeListener():
-    '''public void removeObjectPropertyChangeListener(final PropertyChangeListener listener)
+    '''returns None\n\n
+    removeObjectPropertyChangeListener(final PropertyChangeListener listener)\n
     '''
 def redo():
-    '''public void redo()
-    public void redo()
+    '''returns None\n\n
+    redo()\n
+    redo()\n
     '''
 def undo():
-    '''public void undo()
-    public void undo()
+    '''returns None\n\n
+    undo()\n
+    undo()\n
     '''
 def apply():
-    '''public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic source, final Object o)
-    public void apply(final IlvGraphic source, final Object o)
+    '''returns None\n\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic source, final Object o)\n
+    apply(final IlvGraphic source, final Object o)\n
     '''
 def componentResized():
-    '''public void componentResized(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentResized(final ComponentEvent componentEvent)\n
     '''
 def processEvent():
-    '''public boolean processEvent(final IlvGraphic ilvGraphic, final AWTEvent awtEvent, final IlvObjectInteractorContext ilvObjectInteractorContext)
+    '''returns boolean\n\n
+    processEvent(final IlvGraphic ilvGraphic, final AWTEvent awtEvent, final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText()
+    '''returns String\n\n
+    getToolTipText()\n
     '''
 def keyPressed():
-    '''public void keyPressed(final KeyEvent keyEvent)
+    '''returns None\n\n
+    keyPressed(final KeyEvent keyEvent)\n
     '''
 def setPermanent():
-    '''public void setPermanent(final boolean g)
+    '''returns None\n\n
+    setPermanent(final boolean g)\n
     '''
 def isPermanent():
-    '''public boolean isPermanent()
+    '''returns boolean\n\n
+    isPermanent()\n
     '''
 def isSelectable():
-    '''public boolean isSelectable()
+    '''returns boolean\n\n
+    isSelectable()\n
     '''
 def perform():
-    '''public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
+    '''returns None\n\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
     '''

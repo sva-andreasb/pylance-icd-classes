@@ -1,15 +1,20 @@
-def ClientExecutionAbortTrackerTaskImpl():
-    '''public ClientExecutionAbortTrackerTaskImpl(final ClientExecutionAbortTask task, final ScheduledFuture<?> future)
+def ():
+    '''returns ClientExecutionAbortTrackerTaskImpl\n\n
+    (final ClientExecutionAbortTask task, final ScheduledFuture<?> future)\n
     '''
 def setCurrentHttpRequest():
-    '''public void setCurrentHttpRequest(final HttpRequestBase newRequest)
+    '''returns None\n\n
+    setCurrentHttpRequest(final HttpRequestBase newRequest)\n
     '''
 def hasTimeoutExpired():
-    '''public boolean hasTimeoutExpired()
+    '''returns boolean\n\n
+    hasTimeoutExpired()\n
     '''
 def isEnabled():
-    '''public boolean isEnabled()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''
 def cancelTask():
-    '''public void cancelTask()
+    '''returns None\n\n
+    cancelTask()\n
     '''

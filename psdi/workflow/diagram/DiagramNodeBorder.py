@@ -1,11 +1,14 @@
-def DiagramNodeBorder():
-    '''public DiagramNodeBorder(final Insets insets)
-    public DiagramNodeBorder(final Insets insets, final Color lineColor)
+def ():
+    '''returns DiagramNodeBorder\n\n
+    (final Insets insets)\n
+    (final Insets insets, final Color lineColor)\n
     '''
 def paintBorder():
-    '''public void paintBorder(final Component c, final Graphics g, final int x, final int y, final int width, final int height)
+    '''returns None\n\n
+    paintBorder(final Component c, final Graphics g, final int x, final int y, final int width, final int height)\n
     '''
 def getBorderInsets():
-    '''public Insets getBorderInsets(final Component c)
-    public Insets getBorderInsets(final Component c, final Insets insetsIn)
+    '''returns Insets\n\n
+    getBorderInsets(final Component c)\n
+    getBorderInsets(final Component c, final Insets insetsIn)\n
     '''

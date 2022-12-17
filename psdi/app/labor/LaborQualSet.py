@@ -1,9 +1,12 @@
-def LaborQualSet():
-    '''public LaborQualSet(final MboServerInterface ms)
+def ():
+    '''returns LaborQualSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getMboIntoSet():
-    '''public MboSetRemote getMboIntoSet(final MboRemote mbo)
+    '''returns MboSetRemote\n\n
+    getMboIntoSet(final MboRemote mbo)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

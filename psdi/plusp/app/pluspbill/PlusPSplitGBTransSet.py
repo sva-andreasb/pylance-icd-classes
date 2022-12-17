@@ -1,60 +1,80 @@
-def PlusPSplitGBTransSet():
-    '''public PlusPSplitGBTransSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPSplitGBTransSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def remove():
-    '''public void remove(final MboRemote mbo)
+    '''returns None\n\n
+    remove(final MboRemote mbo)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def fireEventsBeforeDB():
-    '''public void fireEventsBeforeDB(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsBeforeDB(final MXTransaction txn)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''
 def getValidRecords():
-    '''public Vector<MboRemote> getValidRecords(final MboRemote obj)
+    '''returns Vector<MboRemote>\n\n
+    getValidRecords(final MboRemote obj)\n
     '''
 def getNewValidRecords():
-    '''public Vector<MboRemote> getNewValidRecords(final MboRemote mboRemote)
+    '''returns Vector<MboRemote>\n\n
+    getNewValidRecords(final MboRemote mboRemote)\n
     '''
 def getCustomersOfSplit():
-    '''public HashSet<String> getCustomersOfSplit(final String value)
+    '''returns HashSet<String>\n\n
+    getCustomersOfSplit(final String value)\n
     '''
 def validatePercentageTotals():
-    '''public void validatePercentageTotals()
+    '''returns None\n\n
+    validatePercentageTotals()\n
     '''
 def validateBillPriceTotals():
-    '''public void validateBillPriceTotals()
+    '''returns None\n\n
+    validateBillPriceTotals()\n
     '''
 def hasIncompatibleSplitType():
-    '''public boolean hasIncompatibleSplitType(final String value, final MboRemote mboRemote, final boolean b)
+    '''returns boolean\n\n
+    hasIncompatibleSplitType(final String value, final MboRemote mboRemote, final boolean b)\n
     '''
 def allowTotalOnly():
-    '''public boolean allowTotalOnly()
+    '''returns boolean\n\n
+    allowTotalOnly()\n
     '''
 def deleteAndRemoveIncompatibleSplitType():
-    '''public void deleteAndRemoveIncompatibleSplitType(final String value, final MboRemote mboRemote)
+    '''returns None\n\n
+    deleteAndRemoveIncompatibleSplitType(final String value, final MboRemote mboRemote)\n
     '''
 def applyAgreements():
-    '''public void applyAgreements()
+    '''returns None\n\n
+    applyAgreements()\n
     '''
 def createBillTransactions():
-    '''public void createBillTransactions()
+    '''returns None\n\n
+    createBillTransactions()\n
     '''
 def addAllPayersFromActualTransactions():
-    '''public void addAllPayersFromActualTransactions()
+    '''returns None\n\n
+    addAllPayersFromActualTransactions()\n
     '''
 def splitForTransactionExists():
-    '''public boolean splitForTransactionExists(final MboRemote mboRemote)
+    '''returns boolean\n\n
+    splitForTransactionExists(final MboRemote mboRemote)\n
     '''
 def validatePayerSplitType():
-    '''public void validatePayerSplitType(final boolean b)
+    '''returns None\n\n
+    validatePayerSplitType(final boolean b)\n
     '''

@@ -1,9 +1,12 @@
 def getJavaName():
-    '''public String getJavaName()
+    '''returns String\n\n
+    getJavaName()\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getStaticHandler():
-    '''public String getStaticHandler()
+    '''returns String\n\n
+    getStaticHandler()\n
     '''

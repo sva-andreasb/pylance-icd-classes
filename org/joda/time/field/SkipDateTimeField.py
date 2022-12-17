@@ -1,13 +1,17 @@
-def SkipDateTimeField():
-    '''public SkipDateTimeField(final Chronology chronology, final DateTimeField dateTimeField)
-    public SkipDateTimeField(final Chronology iChronology, final DateTimeField dateTimeField, final int iSkip)
+def ():
+    '''returns SkipDateTimeField\n\n
+    (final Chronology chronology, final DateTimeField dateTimeField)\n
+    (final Chronology iChronology, final DateTimeField dateTimeField, final int iSkip)\n
     '''
 def get():
-    '''public int get(final long n)
+    '''returns int\n\n
+    get(final long n)\n
     '''
 def set():
-    '''public long set(final long n, int i)
+    '''returns long\n\n
+    set(final long n, int i)\n
     '''
 def getMinimumValue():
-    '''public int getMinimumValue()
+    '''returns int\n\n
+    getMinimumValue()\n
     '''

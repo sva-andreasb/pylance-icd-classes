@@ -7,40 +7,39 @@ POS_ADVERB = "int  5"
 POS_ADPOSITION = "int  6"
 POS_INTERJECTION = "int  7"
 POS_CONJUNCTION = "int  8"
-def isUserGloss():
-    '''public static final boolean isUserGloss(final int n)
-    '''
-def parseStr():
-    '''public static final String parseStr(final int i, final boolean b)
-    public static final String parseStr(final int n)
-    '''
-def parseInt():
-    '''public static final int parseInt(final String s)
-    '''
 def getTypeName():
-    '''public String getTypeName()
+    '''returns String\n\n
+    getTypeName()\n
     '''
 def recalcPointers():
-    '''public void recalcPointers(final Gloss[] array)
+    '''returns None\n\n
+    recalcPointers(final Gloss[] array)\n
     '''
 def quickHashCode():
-    '''public int quickHashCode()
+    '''returns int\n\n
+    quickHashCode()\n
     '''
 def numChildren():
-    '''public int numChildren()
+    '''returns int\n\n
+    numChildren()\n
     '''
 def getChild():
-    '''public Gloss getChild(final int n)
+    '''returns Gloss\n\n
+    getChild(final int n)\n
     '''
 def setChild():
-    '''public void setChild(final int n, final Gloss gloss)
+    '''returns None\n\n
+    setChild(final int n, final Gloss gloss)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def is():
-    '''public boolean is(final int n)
+    '''returns boolean\n\n
+    is(final int n)\n
     '''
 def set():
-    '''public void set(final int n)
+    '''returns None\n\n
+    set(final int n)\n
     '''

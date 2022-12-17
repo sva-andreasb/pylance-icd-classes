@@ -1,36 +1,24 @@
-def getInstance():
-    '''public static ICfgConfigurationAction getInstance()
-    '''
-def getSingleton():
-    '''public static CfgMultiTenancy getSingleton()
-    '''
-def db2LevelSupportsMultitenancy():
-    '''public static boolean db2LevelSupportsMultitenancy(final Properties p)
-    '''
 def preCheck():
-    '''public TaskResult preCheck(final ReadConfiguration props)
+    '''returns TaskResult\n\n
+    preCheck(final ReadConfiguration props)\n
     '''
 def performAction():
-    '''public TaskResult performAction()
+    '''returns TaskResult\n\n
+    performAction()\n
     '''
 def existsAndIsConfigured():
-    '''public boolean existsAndIsConfigured()
+    '''returns boolean\n\n
+    existsAndIsConfigured()\n
     '''
 def undoAction():
-    '''public TaskResult undoAction()
-    '''
-def updateDbForMultiTenancy():
-    '''public static TaskResult updateDbForMultiTenancy(final Properties p)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns TaskResult\n\n
+    undoAction()\n
     '''
 def hasDatabaseSchemaBeenDeployed():
-    '''public boolean hasDatabaseSchemaBeenDeployed(final ReadConfiguration props)
-    '''
-def isEnabled():
-    '''public static boolean isEnabled(final ReadConfiguration props)
+    '''returns boolean\n\n
+    hasDatabaseSchemaBeenDeployed(final ReadConfiguration props)\n
     '''
 def handleInstallEvent():
-    '''public void handleInstallEvent(final ICmnInstallEvent requestEvent)
+    '''returns None\n\n
+    handleInstallEvent(final ICmnInstallEvent requestEvent)\n
     '''

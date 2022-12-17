@@ -1,3 +1,4 @@
-def AbstractSmackIntegrationTest():
-    '''public AbstractSmackIntegrationTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns AbstractSmackIntegrationTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''

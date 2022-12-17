@@ -1,12 +1,16 @@
 def getXmlObject():
-    '''public CTNotesSlide getXmlObject()
+    '''returns CTNotesSlide\n\n
+    getXmlObject()\n
     '''
 def getTheme():
-    '''public XSLFTheme getTheme()
+    '''returns XSLFTheme\n\n
+    getTheme()\n
     '''
 def getMasterSheet():
-    '''public XSLFNotesMaster getMasterSheet()
+    '''returns XSLFNotesMaster\n\n
+    getMasterSheet()\n
     '''
 def getTextParagraphs():
-    '''public List<List<XSLFTextParagraph>> getTextParagraphs()
+    '''returns List<List<XSLFTextParagraph>>\n\n
+    getTextParagraphs()\n
     '''

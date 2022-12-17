@@ -1,15 +1,16 @@
 def action():
-    '''public OslcResourceResponse action(final OslcRequest request, final byte[] actionData)
+    '''returns OslcResourceResponse\n\n
+    action(final OslcRequest request, final byte[] actionData)\n
     '''
 def saveImage():
-    '''public void saveImage(final MboRemote img, final OslcRequest request, byte[] actionData)
+    '''returns None\n\n
+    saveImage(final MboRemote img, final OslcRequest request, byte[] actionData)\n
     '''
 def isJSON():
-    '''public boolean isJSON(final byte[] data)
+    '''returns boolean\n\n
+    isJSON(final byte[] data)\n
     '''
 def getRequestSchema():
-    '''public JSONObject getRequestSchema()
-    '''
-def getRequestHeaders():
-    '''public Map<String, RESTParamInfo> getRequestHeaders()
+    '''returns JSONObject\n\n
+    getRequestSchema()\n
     '''

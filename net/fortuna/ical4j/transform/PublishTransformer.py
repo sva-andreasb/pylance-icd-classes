@@ -1,6 +1,8 @@
-def PublishTransformer():
-    '''public PublishTransformer(final Organizer organizer, final UidGenerator uidGenerator, final boolean incrementSequence)
+def ():
+    '''returns PublishTransformer\n\n
+    (final Organizer organizer, final UidGenerator uidGenerator, final boolean incrementSequence)\n
     '''
 def transform():
-    '''public Calendar transform(final Calendar object)
+    '''returns Calendar\n\n
+    transform(final Calendar object)\n
     '''

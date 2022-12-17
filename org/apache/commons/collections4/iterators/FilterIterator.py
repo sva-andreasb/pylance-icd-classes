@@ -1,20 +1,26 @@
-def FilterIterator():
-    '''public FilterIterator()
-    public FilterIterator(final Iterator<? extends E> iterator)
-    public FilterIterator(final Iterator<? extends E> iterator, final Predicate<? super E> predicate)
+def ():
+    '''returns FilterIterator\n\n
+    ()\n
+    (final Iterator<? extends E> iterator)\n
+    (final Iterator<? extends E> iterator, final Predicate<? super E> predicate)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def setIterator():
-    '''public void setIterator(final Iterator<? extends E> iterator)
+    '''returns None\n\n
+    setIterator(final Iterator<? extends E> iterator)\n
     '''
 def setPredicate():
-    '''public void setPredicate(final Predicate<? super E> predicate)
+    '''returns None\n\n
+    setPredicate(final Predicate<? super E> predicate)\n
     '''

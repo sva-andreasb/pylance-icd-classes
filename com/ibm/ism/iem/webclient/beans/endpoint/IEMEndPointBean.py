@@ -1,6 +1,8 @@
 def saveCfg():
-    '''public void saveCfg()
+    '''returns None\n\n
+    saveCfg()\n
     '''
 def testConnection():
-    '''public void testConnection()
+    '''returns None\n\n
+    testConnection()\n
     '''

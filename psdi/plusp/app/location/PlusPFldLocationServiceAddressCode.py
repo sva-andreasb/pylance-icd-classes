@@ -1,9 +1,12 @@
-def PlusPFldLocationServiceAddressCode():
-    '''public PlusPFldLocationServiceAddressCode(final MboValue arg0)
+def ():
+    '''returns PlusPFldLocationServiceAddressCode\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def addNewSA():
-    '''public void addNewSA(final AddressableMbo addressableMbo)
+    '''returns None\n\n
+    addNewSA(final AddressableMbo addressableMbo)\n
     '''

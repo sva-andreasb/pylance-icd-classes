@@ -1,21 +1,28 @@
-def FormulaMboEventListener():
-    '''public FormulaMboEventListener(final String objectName, final String attributeName, final boolean persistent)
+def ():
+    '''returns FormulaMboEventListener\n\n
+    (final String objectName, final String attributeName, final boolean persistent)\n
     '''
 def eventAction():
-    '''public void eventAction(final EventMessage em)
+    '''returns None\n\n
+    eventAction(final EventMessage em)\n
     '''
 def eventValidate():
-    '''public boolean eventValidate(final EventMessage em)
+    '''returns boolean\n\n
+    eventValidate(final EventMessage em)\n
     '''
 def postCommitEventAction():
-    '''public void postCommitEventAction(final EventMessage em)
+    '''returns None\n\n
+    postCommitEventAction(final EventMessage em)\n
     '''
 def preSaveEventAction():
-    '''public void preSaveEventAction(final EventMessage em)
+    '''returns None\n\n
+    preSaveEventAction(final EventMessage em)\n
     '''
 def preSaveInternalEventAction():
-    '''public void preSaveInternalEventAction(final EventMessage em)
+    '''returns None\n\n
+    preSaveInternalEventAction(final EventMessage em)\n
     '''
 def postSaveInternalEventAction():
-    '''public void postSaveInternalEventAction(final EventMessage em)
+    '''returns None\n\n
+    postSaveInternalEventAction(final EventMessage em)\n
     '''

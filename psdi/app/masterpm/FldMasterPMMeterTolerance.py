@@ -1,6 +1,8 @@
-def FldMasterPMMeterTolerance():
-    '''public FldMasterPMMeterTolerance(final MboValue mbv)
+def ():
+    '''returns FldMasterPMMeterTolerance\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

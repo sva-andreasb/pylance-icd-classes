@@ -1,4 +1,5 @@
-def WeatherCfgService():
-    '''public WeatherCfgService()
-    public WeatherCfgService(final MXServer mxServer)
+def ():
+    '''returns WeatherCfgService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

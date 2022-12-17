@@ -1,22 +1,29 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def getApplicationId():
-    '''public String getApplicationId()
+    '''returns String\n\n
+    getApplicationId()\n
     '''
 def getApplicationVersion():
-    '''public String getApplicationVersion()
+    '''returns String\n\n
+    getApplicationVersion()\n
     '''
 def getChecksum():
-    '''public String getChecksum()
+    '''returns String\n\n
+    getChecksum()\n
     '''
 def setChecksum():
-    '''public void setChecksum(final String applicationChecksum)
+    '''returns None\n\n
+    setChecksum(final String applicationChecksum)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

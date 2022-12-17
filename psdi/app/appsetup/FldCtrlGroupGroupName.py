@@ -1,3 +1,4 @@
-def FldCtrlGroupGroupName():
-    '''public FldCtrlGroupGroupName(final MboValue mbv)
+def ():
+    '''returns FldCtrlGroupGroupName\n\n
+    (final MboValue mbv)\n
     '''

@@ -8,49 +8,57 @@ PNG_FILTER_SUB = "int  1"
 PNG_FILTER_UP = "int  2"
 PNG_FILTER_AVERAGE = "int  3"
 PNG_FILTER_PAETH = "int  4"
-def PNGRed():
-    '''public PNGRed(final InputStream stream)
-    public PNGRed(InputStream stream, PNGDecodeParam decodeParam)
-    '''
-def createComponentColorModel():
-    '''public static ColorModel createComponentColorModel(final SampleModel sm)
+def ():
+    '''returns PNGChunk\n\n
+    (final InputStream stream)\n
+    (InputStream stream, PNGDecodeParam decodeParam)\n
+    (final int length, final int type, final byte[] data, final int crc)\n
     '''
 def copyData():
-    '''public WritableRaster copyData(final WritableRaster wr)
+    '''returns WritableRaster\n\n
+    copyData(final WritableRaster wr)\n
     '''
 def getTile():
-    '''public Raster getTile(final int tileX, final int tileY)
-    '''
-def PNGChunk():
-    '''public PNGChunk(final int length, final int type, final byte[] data, final int crc)
+    '''returns Raster\n\n
+    getTile(final int tileX, final int tileY)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getTypeString():
-    '''public String getTypeString()
+    '''returns String\n\n
+    getTypeString()\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''
 def getByte():
-    '''public byte getByte(final int offset)
+    '''returns byte\n\n
+    getByte(final int offset)\n
     '''
 def getInt1():
-    '''public int getInt1(final int offset)
+    '''returns int\n\n
+    getInt1(final int offset)\n
     '''
 def getInt2():
-    '''public int getInt2(final int offset)
+    '''returns int\n\n
+    getInt2(final int offset)\n
     '''
 def getInt4():
-    '''public int getInt4(final int offset)
+    '''returns int\n\n
+    getInt4(final int offset)\n
     '''
 def getString4():
-    '''public String getString4(final int offset)
+    '''returns String\n\n
+    getString4(final int offset)\n
     '''
 def isType():
-    '''public boolean isType(final String typeName)
+    '''returns boolean\n\n
+    isType(final String typeName)\n
     '''

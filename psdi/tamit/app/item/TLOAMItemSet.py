@@ -1,3 +1,4 @@
-def TLOAMItemSet():
-    '''public TLOAMItemSet(final MboServerInterface ms)
+def ():
+    '''returns TLOAMItemSet\n\n
+    (final MboServerInterface ms)\n
     '''

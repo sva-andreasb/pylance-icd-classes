@@ -1,16 +1,21 @@
-def ListClusterMemberTemplatesCommand():
-    '''public ListClusterMemberTemplatesCommand(final CommandMetadata metadata)
-    public ListClusterMemberTemplatesCommand(final CommandData inCommandData)
+def ():
+    '''returns ListClusterMemberTemplatesCommand\n\n
+    (final CommandMetadata metadata)\n
+    (final CommandData inCommandData)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''
 def executeAsSystemId():
-    '''public void executeAsSystemId()
+    '''returns None\n\n
+    executeAsSystemId()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

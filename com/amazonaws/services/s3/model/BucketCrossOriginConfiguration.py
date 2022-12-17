@@ -1,14 +1,18 @@
 def getRules():
-    '''public List<CORSRule> getRules()
+    '''returns List<CORSRule>\n\n
+    getRules()\n
     '''
 def setRules():
-    '''public void setRules(final List<CORSRule> rules)
+    '''returns None\n\n
+    setRules(final List<CORSRule> rules)\n
     '''
 def withRules():
-    '''public BucketCrossOriginConfiguration withRules(final List<CORSRule> rules)
-    public BucketCrossOriginConfiguration withRules(final CORSRule... rules)
+    '''returns BucketCrossOriginConfiguration\n\n
+    withRules(final List<CORSRule> rules)\n
+    withRules(final CORSRule... rules)\n
     '''
-def BucketCrossOriginConfiguration():
-    '''public BucketCrossOriginConfiguration(final List<CORSRule> rules)
-    public BucketCrossOriginConfiguration()
+def ():
+    '''returns BucketCrossOriginConfiguration\n\n
+    (final List<CORSRule> rules)\n
+    ()\n
     '''

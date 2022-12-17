@@ -1,19 +1,24 @@
-def DocumentException():
-    '''public DocumentException(final Exception ex)
-    public DocumentException()
-    public DocumentException(final String message)
+def ():
+    '''returns DocumentException\n\n
+    (final Exception ex)\n
+    ()\n
+    (final String message)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getLocalizedMessage():
-    '''public String getLocalizedMessage()
+    '''returns String\n\n
+    getLocalizedMessage()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def printStackTrace():
-    '''public void printStackTrace()
-    public void printStackTrace(final PrintStream s)
-    public void printStackTrace(final PrintWriter s)
+    '''returns None\n\n
+    printStackTrace()\n
+    printStackTrace(final PrintStream s)\n
+    printStackTrace(final PrintWriter s)\n
     '''

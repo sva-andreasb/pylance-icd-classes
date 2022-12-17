@@ -1,6 +1,8 @@
-def FldExpressionOrClassName():
-    '''public FldExpressionOrClassName(final MboValue mbv)
+def ():
+    '''returns FldExpressionOrClassName\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

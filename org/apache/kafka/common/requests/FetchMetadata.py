@@ -1,36 +1,39 @@
 INVALID_SESSION_ID = "int  0"
 INITIAL_EPOCH = "int  0"
 FINAL_EPOCH = "int  -1"
-def nextEpoch():
-    '''public static int nextEpoch(final int prevEpoch)
-    '''
-def FetchMetadata():
-    '''public FetchMetadata(final int sessionId, final int epoch)
+def ():
+    '''returns FetchMetadata\n\n
+    (final int sessionId, final int epoch)\n
     '''
 def isFull():
-    '''public boolean isFull()
+    '''returns boolean\n\n
+    isFull()\n
     '''
 def sessionId():
-    '''public int sessionId()
+    '''returns int\n\n
+    sessionId()\n
     '''
 def epoch():
-    '''public int epoch()
+    '''returns int\n\n
+    epoch()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def nextCloseExisting():
-    '''public FetchMetadata nextCloseExisting()
-    '''
-def newIncremental():
-    '''public static FetchMetadata newIncremental(final int sessionId)
+    '''returns FetchMetadata\n\n
+    nextCloseExisting()\n
     '''
 def nextIncremental():
-    '''public FetchMetadata nextIncremental()
+    '''returns FetchMetadata\n\n
+    nextIncremental()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

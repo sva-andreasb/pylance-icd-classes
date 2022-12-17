@@ -1,7 +1,9 @@
-def DeleteMethod():
-    '''public DeleteMethod()
-    public DeleteMethod(final String uri)
+def ():
+    '''returns DeleteMethod\n\n
+    ()\n
+    (final String uri)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

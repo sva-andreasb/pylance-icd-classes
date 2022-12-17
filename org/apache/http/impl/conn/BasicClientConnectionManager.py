@@ -1,29 +1,34 @@
 MISUSE_MESSAGE = "String  \"Invalid use of BasicClientConnManager: connection still allocated.\nMake sure to release the connection before allocating another one.\""
-def BasicClientConnectionManager():
-    '''public BasicClientConnectionManager(final SchemeRegistry schreg)
-    public BasicClientConnectionManager()
+def ():
+    '''returns BasicClientConnectionManager\n\n
+    (final SchemeRegistry schreg)\n
+    ()\n
     '''
 def getSchemeRegistry():
-    '''public SchemeRegistry getSchemeRegistry()
-    '''
-def requestConnection():
-    '''public final ClientConnectionRequest requestConnection(final HttpRoute route, final Object state)
+    '''returns SchemeRegistry\n\n
+    getSchemeRegistry()\n
     '''
 def abortRequest():
-    '''public void abortRequest()
+    '''returns None\n\n
+    abortRequest()\n
     '''
 def getConnection():
-    '''public ManagedClientConnection getConnection(final long timeout, final TimeUnit tunit)
+    '''returns ManagedClientConnection\n\n
+    getConnection(final long timeout, final TimeUnit tunit)\n
     '''
 def releaseConnection():
-    '''public void releaseConnection(final ManagedClientConnection conn, final long keepalive, final TimeUnit tunit)
+    '''returns None\n\n
+    releaseConnection(final ManagedClientConnection conn, final long keepalive, final TimeUnit tunit)\n
     '''
 def closeExpiredConnections():
-    '''public void closeExpiredConnections()
+    '''returns None\n\n
+    closeExpiredConnections()\n
     '''
 def closeIdleConnections():
-    '''public void closeIdleConnections(final long idletime, final TimeUnit tunit)
+    '''returns None\n\n
+    closeIdleConnections(final long idletime, final TimeUnit tunit)\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''

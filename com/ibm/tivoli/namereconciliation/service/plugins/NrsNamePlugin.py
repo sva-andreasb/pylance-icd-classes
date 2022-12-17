@@ -1,27 +1,28 @@
-def getInstance():
-    '''public static final NrsNamePlugin getInstance()
-    '''
-def init():
-    '''public synchronized void init(final DataCleanser cleanser, final MetadataService metadata)
-    '''
 def isSuperior():
-    '''public boolean isSuperior(final String className)
+    '''returns boolean\n\n
+    isSuperior(final String className)\n
     '''
 def makeNames():
-    '''public NrsMasterAliasMap[] makeNames(final String classType, final NrsSuperiorInfo[] superiors, final Map identifyingAttributes)
+    '''returns NrsMasterAliasMap[]\n\n
+    makeNames(final String classType, final NrsSuperiorInfo[] superiors, final Map identifyingAttributes)\n
     '''
 def makeNewName():
-    '''public String makeNewName(final String oldName, final String classType, String oldSuperiorName, String newSuperiorName)
+    '''returns String\n\n
+    makeNewName(final String oldName, final String classType, String oldSuperiorName, String newSuperiorName)\n
     '''
 def getNamingRulesVersion():
-    '''public String getNamingRulesVersion()
+    '''returns String\n\n
+    getNamingRulesVersion()\n
     '''
 def isIdentifyingAttribute():
-    '''public boolean isIdentifyingAttribute(final String classType, final String attribute)
+    '''returns boolean\n\n
+    isIdentifyingAttribute(final String classType, final String attribute)\n
     '''
 def lockCache():
-    '''public void lockCache(final DisReadWriteLock.Usage usage)
+    '''returns None\n\n
+    lockCache(final DisReadWriteLock.Usage usage)\n
     '''
 def unlockCache():
-    '''public void unlockCache(final DisReadWriteLock.Usage usage)
+    '''returns None\n\n
+    unlockCache(final DisReadWriteLock.Usage usage)\n
     '''

@@ -1,35 +1,42 @@
-def SimpleChannelPool():
-    '''public SimpleChannelPool(final Bootstrap bootstrap, final ChannelPoolHandler handler)
-    public SimpleChannelPool(final Bootstrap bootstrap, final ChannelPoolHandler handler, final ChannelHealthChecker healthCheck)
-    public SimpleChannelPool(final Bootstrap bootstrap, final ChannelPoolHandler handler, final ChannelHealthChecker healthCheck, final boolean releaseHealthCheck)
-    public SimpleChannelPool(final Bootstrap bootstrap, final ChannelPoolHandler handler, final ChannelHealthChecker healthCheck, final boolean releaseHealthCheck, final boolean lastRecentUsed)
+def ():
+    '''returns SimpleChannelPool\n\n
+    (final Bootstrap bootstrap, final ChannelPoolHandler handler)\n
+    (final Bootstrap bootstrap, final ChannelPoolHandler handler, final ChannelHealthChecker healthCheck)\n
+    (final Bootstrap bootstrap, final ChannelPoolHandler handler, final ChannelHealthChecker healthCheck, final boolean releaseHealthCheck)\n
+    (final Bootstrap bootstrap, final ChannelPoolHandler handler, final ChannelHealthChecker healthCheck, final boolean releaseHealthCheck, final boolean lastRecentUsed)\n
     '''
 def acquire():
-    '''public final Future<Channel> acquire()
-    public Future<Channel> acquire(final Promise<Channel> promise)
+    '''returns Future<Channel>\n\n
+    acquire(final Promise<Channel> promise)\n
     '''
 def operationComplete():
-    '''public void operationComplete(final ChannelFuture future)
-    public void operationComplete(final Future<Boolean> future)
-    public void operationComplete(final Future<Boolean> future)
+    '''returns None\n\n
+    operationComplete(final ChannelFuture future)\n
+    operationComplete(final Future<Boolean> future)\n
+    operationComplete(final Future<Boolean> future)\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def release():
-    '''public final Future<Void> release(final Channel channel)
-    public Future<Void> release(final Channel channel, final Promise<Void> promise)
+    '''returns Future<Void>\n\n
+    release(final Channel channel, final Promise<Void> promise)\n
     '''
 def fillInStackTrace():
-    '''public Throwable fillInStackTrace()
+    '''returns Throwable\n\n
+    fillInStackTrace()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def closeAsync():
-    '''public Future<Void> closeAsync()
+    '''returns Future<Void>\n\n
+    closeAsync()\n
     '''
 def call():
-    '''public Void call()
+    '''returns Void\n\n
+    call()\n
     '''

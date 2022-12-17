@@ -1,12 +1,16 @@
-def FormatterSimpleH2():
-    '''public FormatterSimpleH2(final SDBConnection connection)
+def ():
+    '''returns FormatterSimpleH2\n\n
+    (final SDBConnection connection)\n
     '''
 def truncate():
-    '''public void truncate()
+    '''returns None\n\n
+    truncate()\n
     '''
 def format():
-    '''public void format()
+    '''returns None\n\n
+    format()\n
     '''
 def dropIndexes():
-    '''public void dropIndexes()
+    '''returns None\n\n
+    dropIndexes()\n
     '''

@@ -1,27 +1,36 @@
-def Page():
-    '''public Page(final String sheetName)
+def ():
+    '''returns Page\n\n
+    (final String sheetName)\n
     '''
 def iterator():
-    '''public Iterator<Item> iterator()
+    '''returns Iterator<Item>\n\n
+    iterator()\n
     '''
 def getItem():
-    '''public Item getItem(String key)
+    '''returns Item\n\n
+    getItem(String key)\n
     '''
 def getItemCount():
-    '''public int getItemCount()
+    '''returns int\n\n
+    getItemCount()\n
     '''
 def getPageName():
-    '''public String getPageName()
+    '''returns String\n\n
+    getPageName()\n
     '''
 def put():
-    '''public void put(final Item item)
+    '''returns None\n\n
+    put(final Item item)\n
     '''
 def remove():
-    '''public void remove(final Item item)
+    '''returns None\n\n
+    remove(final Item item)\n
     '''
 def getColumnNames():
-    '''public String[] getColumnNames()
+    '''returns String[]\n\n
+    getColumnNames()\n
     '''
 def setColumnNames():
-    '''public void setColumnNames(final String[] values)
+    '''returns None\n\n
+    setColumnNames(final String[] values)\n
     '''

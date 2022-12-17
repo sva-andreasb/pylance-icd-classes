@@ -1,3 +1,4 @@
 def addAttribute():
-    '''public int addAttribute()
+    '''returns int\n\n
+    addAttribute()\n
     '''

@@ -1,9 +1,12 @@
-def FloatDocValuesField():
-    '''public FloatDocValuesField(final String name, final float value)
+def ():
+    '''returns FloatDocValuesField\n\n
+    (final String name, final float value)\n
     '''
 def setFloatValue():
-    '''public void setFloatValue(final float value)
+    '''returns None\n\n
+    setFloatValue(final float value)\n
     '''
 def setLongValue():
-    '''public void setLongValue(final long value)
+    '''returns None\n\n
+    setLongValue(final long value)\n
     '''

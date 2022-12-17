@@ -1,51 +1,60 @@
-def ReorderService():
-    '''public ReorderService()
-    public ReorderService(final MXServer mxServer)
+def ():
+    '''returns ReorderLockMonitor\n\n
+    ()\n
+    (final MXServer mxServer)\n
+    (final UserInfo ui, final String targetType, final String keyInput, final Date lockDate, final ReorderService rs, final String siteIDInput, final String orgIDInput)\n
     '''
 def changeState():
-    '''public Date changeState(final UserInfo userInfo, final int requestType, final String targetType, final String siteID, final String orgID)
-    public synchronized Date changeState(final UserInfo userInfo, final int requestType, final String targetType, final String key, final String siteID, final String orgID)
+    '''returns Date\n\n
+    changeState(final UserInfo userInfo, final int requestType, final String targetType, final String siteID, final String orgID)\n
     '''
 def getMutexWhere():
-    '''public String getMutexWhere(final UserInfo userInfo, final String targetType, final String key, final String siteID, final String orgID)
+    '''returns String\n\n
+    getMutexWhere(final UserInfo userInfo, final String targetType, final String key, final String siteID, final String orgID)\n
     '''
 def whoHasLock():
-    '''public String whoHasLock(final UserInfo userInfo, final int requestType, final String targetType, final String key, final String siteID, final String orgID)
+    '''returns String\n\n
+    whoHasLock(final UserInfo userInfo, final int requestType, final String targetType, final String key, final String siteID, final String orgID)\n
     '''
 def monitorThisLock():
-    '''public void monitorThisLock(final UserInfo ui, final String type, final String key, final Date lockDate, final String siteID)
+    '''returns None\n\n
+    monitorThisLock(final UserInfo ui, final String type, final String key, final Date lockDate, final String siteID)\n
     '''
 def getReorderSet():
-    '''public ReorderSetRemote getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final int allowanceDays, final boolean directOrder)
-    public ReorderSetRemote getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final int allowanceDays, final boolean directOrder, final boolean ignoreReorderPoint)
-    public ReorderSetRemote getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final int allowanceDays, final boolean directOrder, final boolean ignoreReorderPoint, final boolean includeSoftReservations)
-    public ReorderSetRemote getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventoryRemote inv)
-    public ReorderSetRemote getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventoryRemote inv, final boolean ignoreReorderPoint)
-    public ReorderSetRemote getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final int[] selected, final int allowanceDays, final boolean directOrder)
-    public ReorderSetRemote getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final int[] selected, final int allowanceDays, final boolean directOrder, final boolean ignoreReorderPoint)
-    public ReorderSetRemote getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final int[] selected, final int allowanceDays, final boolean directOrder, final boolean ignoreReorderPoint, final boolean includeSoftReservations)
-    public ReorderSetRemote getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final Vector selected, final int allowanceDays, final boolean directOrder)
-    public ReorderSetRemote getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final Vector selected, final int allowanceDays, final boolean directOrder, final boolean ignoreReorderPoint)
-    public ReorderSetRemote getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final Vector selected, final int allowanceDays, final boolean directOrder, final boolean ignoreReorderPoint, final boolean includeSoftReservations)
+    '''returns ReorderSetRemote\n\n
+    getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final int allowanceDays, final boolean directOrder)\n
+    getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final int allowanceDays, final boolean directOrder, final boolean ignoreReorderPoint)\n
+    getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final int allowanceDays, final boolean directOrder, final boolean ignoreReorderPoint, final boolean includeSoftReservations)\n
+    getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventoryRemote inv)\n
+    getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventoryRemote inv, final boolean ignoreReorderPoint)\n
+    getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final int[] selected, final int allowanceDays, final boolean directOrder)\n
+    getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final int[] selected, final int allowanceDays, final boolean directOrder, final boolean ignoreReorderPoint)\n
+    getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final int[] selected, final int allowanceDays, final boolean directOrder, final boolean ignoreReorderPoint, final boolean includeSoftReservations)\n
+    getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final Vector selected, final int allowanceDays, final boolean directOrder)\n
+    getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final Vector selected, final int allowanceDays, final boolean directOrder, final boolean ignoreReorderPoint)\n
+    getReorderSet(final UserInfo userInfo, final boolean viewOnly, final InventorySetRemote invs, final String storeRoom, final String siteID, final Vector selected, final int allowanceDays, final boolean directOrder, final boolean ignoreReorderPoint, final boolean includeSoftReservations)\n
     '''
 def getReorderSetForMR():
-    '''public ReorderSetRemote getReorderSetForMR(final boolean viewOnly, final MRRemote mr)
+    '''returns ReorderSetRemote\n\n
+    getReorderSetForMR(final boolean viewOnly, final MRRemote mr)\n
     '''
 def getReorderSetForDirectOrderOnly():
-    '''public ReorderSetRemote getReorderSetForDirectOrderOnly(final UserInfo userInfo, final boolean viewOnly, final String siteID)
+    '''returns ReorderSetRemote\n\n
+    getReorderSetForDirectOrderOnly(final UserInfo userInfo, final boolean viewOnly, final String siteID)\n
     '''
 def addFromWPItem():
-    '''public void addFromWPItem(final DBShortcut dbShortcut, final UserInfo userInfo, final String userForThisSet, final int allowanceDays, final String siteIDForThisSet, final String orgIDForThisSet)
+    '''returns None\n\n
+    addFromWPItem(final DBShortcut dbShortcut, final UserInfo userInfo, final String userForThisSet, final int allowanceDays, final String siteIDForThisSet, final String orgIDForThisSet)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def releaseLocks():
-    '''public int releaseLocks(final UserInfo userInfo, final String siteID)
-    '''
-def ReorderLockMonitor():
-    '''public ReorderLockMonitor(final UserInfo ui, final String targetType, final String keyInput, final Date lockDate, final ReorderService rs, final String siteIDInput, final String orgIDInput)
+    '''returns int\n\n
+    releaseLocks(final UserInfo userInfo, final String siteID)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

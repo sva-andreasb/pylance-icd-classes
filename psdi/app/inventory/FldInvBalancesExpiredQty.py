@@ -1,6 +1,8 @@
-def FldInvBalancesExpiredQty():
-    '''public FldInvBalancesExpiredQty(final MboValue mbv)
+def ():
+    '''returns FldInvBalancesExpiredQty\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

@@ -1,7 +1,9 @@
-def RFQService():
-    '''public RFQService()
-    public RFQService(final MXServer mxServer)
+def ():
+    '''returns RFQService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def initCriteriaList():
-    '''public void initCriteriaList(final Hashtable criteriaTable)
+    '''returns None\n\n
+    initCriteriaList(final Hashtable criteriaTable)\n
     '''

@@ -1,3 +1,4 @@
-def IlvBPMNMakeSDMNodeInteractor():
-    '''public IlvBPMNMakeSDMNodeInteractor()
+def ():
+    '''returns IlvBPMNMakeSDMNodeInteractor\n\n
+    ()\n
     '''

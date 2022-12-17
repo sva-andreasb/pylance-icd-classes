@@ -1,64 +1,85 @@
-def IlvFacesDHTMLGanttSupportImpl():
-    '''public IlvFacesDHTMLGanttSupportImpl(final IlvBasicView ilvBasicView)
+def ():
+    '''returns IlvFacesDHTMLGanttSupportImpl\n\n
+    (final IlvBasicView ilvBasicView)\n
     '''
 def getUpdateInterval():
-    '''public int getUpdateInterval()
+    '''returns int\n\n
+    getUpdateInterval()\n
     '''
 def setUpdateInterval():
-    '''public void setUpdateInterval(final int a)
+    '''returns None\n\n
+    setUpdateInterval(final int a)\n
     '''
 def getErrorMessage():
-    '''public String getErrorMessage()
+    '''returns String\n\n
+    getErrorMessage()\n
     '''
 def setErrorMessage():
-    '''public void setErrorMessage(final String b)
+    '''returns None\n\n
+    setErrorMessage(final String b)\n
     '''
 def isAutoUpdateCapabilities():
-    '''public boolean isAutoUpdateCapabilities()
+    '''returns boolean\n\n
+    isAutoUpdateCapabilities()\n
     '''
 def setAutoUpdateCapabilities():
-    '''public void setAutoUpdateCapabilities(final boolean c)
+    '''returns None\n\n
+    setAutoUpdateCapabilities(final boolean c)\n
     '''
 def getColumnResizeMessage():
-    '''public String getColumnResizeMessage()
+    '''returns String\n\n
+    getColumnResizeMessage()\n
     '''
 def setColumnResizeMessage():
-    '''public void setColumnResizeMessage(final String d)
+    '''returns None\n\n
+    setColumnResizeMessage(final String d)\n
     '''
 def isResizable():
-    '''public boolean isResizable()
+    '''returns boolean\n\n
+    isResizable()\n
     '''
 def setResizable():
-    '''public void setResizable(final boolean e)
+    '''returns None\n\n
+    setResizable(final boolean e)\n
     '''
 def isAccessible():
-    '''public boolean isAccessible()
+    '''returns boolean\n\n
+    isAccessible()\n
     '''
 def setAccessible():
-    '''public void setAccessible(final boolean f)
+    '''returns None\n\n
+    setAccessible(final boolean f)\n
     '''
 def getHotkeys():
-    '''public String getHotkeys()
+    '''returns String\n\n
+    getHotkeys()\n
     '''
 def setHotkeys():
-    '''public void setHotkeys(final String g)
+    '''returns None\n\n
+    setHotkeys(final String g)\n
     '''
 def getChart():
-    '''public IlvHierarchyChart getChart(final IlvHierarchyChart ilvHierarchyChart)
-    public IlvHierarchyChart getChart()
+    '''returns IlvHierarchyChart\n\n
+    getChart(final IlvHierarchyChart ilvHierarchyChart)\n
+    getChart()\n
     '''
 def getBeforeSessionExpirationHandler():
-    '''public String getBeforeSessionExpirationHandler()
+    '''returns String\n\n
+    getBeforeSessionExpirationHandler()\n
     '''
 def setBeforeSessionExpirationHandler():
-    '''public void setBeforeSessionExpirationHandler(final String h)
+    '''returns None\n\n
+    setBeforeSessionExpirationHandler(final String h)\n
     '''
 def updateModel():
-    '''public void updateModel(final FacesContext facesContext)
+    '''returns None\n\n
+    updateModel(final FacesContext facesContext)\n
     '''
 def saveState():
-    '''public Object saveState(final FacesContext facesContext)
+    '''returns Object\n\n
+    saveState(final FacesContext facesContext)\n
     '''
 def restoreState():
-    '''public void restoreState(final FacesContext facesContext, final Object o)
+    '''returns None\n\n
+    restoreState(final FacesContext facesContext, final Object o)\n
     '''

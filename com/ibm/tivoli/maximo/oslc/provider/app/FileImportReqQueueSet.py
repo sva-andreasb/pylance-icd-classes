@@ -1,3 +1,4 @@
-def FileImportReqQueueSet():
-    '''public FileImportReqQueueSet(final MboServerInterface ms)
+def ():
+    '''returns FileImportReqQueueSet\n\n
+    (final MboServerInterface ms)\n
     '''

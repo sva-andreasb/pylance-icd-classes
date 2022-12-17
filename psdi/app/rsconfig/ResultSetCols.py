@@ -1,6 +1,8 @@
-def ResultSetCols():
-    '''public ResultSetCols(final MboSet ms)
+def ():
+    '''returns ResultSetCols\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

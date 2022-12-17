@@ -1,6 +1,8 @@
-def LRUCache():
-    '''public LRUCache(final int cacheSize)
+def ():
+    '''returns LRUCache\n\n
+    (final int cacheSize)\n
     '''
 def getCacheSize():
-    '''public int getCacheSize()
+    '''returns int\n\n
+    getCacheSize()\n
     '''

@@ -1,6 +1,7 @@
-def MXUnknownObjectException():
-    '''public MXUnknownObjectException(final String eg, final String ek)
-    public MXUnknownObjectException(final String eg, final String ek, final Object[] params)
-    public MXUnknownObjectException(final String eg, final String ek, final Throwable t)
-    public MXUnknownObjectException(final String eg, final String ek, final Object[] p, final Throwable t)
+def ():
+    '''returns MXUnknownObjectException\n\n
+    (final String eg, final String ek)\n
+    (final String eg, final String ek, final Object[] params)\n
+    (final String eg, final String ek, final Throwable t)\n
+    (final String eg, final String ek, final Object[] p, final Throwable t)\n
     '''

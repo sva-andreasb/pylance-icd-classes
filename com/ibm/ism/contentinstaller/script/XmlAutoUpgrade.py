@@ -1,5 +1,6 @@
-def XmlAutoUpgrade():
-    '''public XmlAutoUpgrade(final Connection con)
-    public XmlAutoUpgrade(final Connection con, final PrintStream ps)
-    public XmlAutoUpgrade(final Connection con, final HashMap params, final PrintStream ps)
+def ():
+    '''returns XmlAutoUpgrade\n\n
+    (final Connection con)\n
+    (final Connection con, final PrintStream ps)\n
+    (final Connection con, final HashMap params, final PrintStream ps)\n
     '''

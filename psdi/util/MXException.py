@@ -1,70 +1,84 @@
-def MXException():
-    '''public MXException(final String eg, final String ek)
-    public MXException(final String eg, final String ek, final Throwable t)
-    public MXException(final String eg, final String ek, final Object[] params)
-    public MXException(final String eg, final String ek, final Object[] params, final Throwable t)
-    '''
-def setServerSide():
-    '''public static void setServerSide(final boolean value)
-    '''
-def isServerSide():
-    '''public static boolean isServerSide()
+def ():
+    '''returns MXException\n\n
+    (final String eg, final String ek)\n
+    (final String eg, final String ek, final Throwable t)\n
+    (final String eg, final String ek, final Object[] params)\n
+    (final String eg, final String ek, final Object[] params, final Throwable t)\n
     '''
 def hasParameters():
-    '''public boolean hasParameters()
+    '''returns boolean\n\n
+    hasParameters()\n
     '''
 def hasDetail():
-    '''public boolean hasDetail()
+    '''returns boolean\n\n
+    hasDetail()\n
     '''
 def getDetail():
-    '''public Throwable getDetail()
+    '''returns Throwable\n\n
+    getDetail()\n
     '''
 def getParameters():
-    '''public Object[] getParameters()
+    '''returns Object[]\n\n
+    getParameters()\n
     '''
 def getErrorGroup():
-    '''public String getErrorGroup()
+    '''returns String\n\n
+    getErrorGroup()\n
     '''
 def getErrorKey():
-    '''public String getErrorKey()
+    '''returns String\n\n
+    getErrorKey()\n
     '''
 def equals():
-    '''public boolean equals(final String g, final String k)
+    '''returns boolean\n\n
+    equals(final String g, final String k)\n
     '''
 def getMessage():
-    '''public String getMessage()
-    public String getMessage(final MboSetRemote remoteObj)
+    '''returns String\n\n
+    getMessage()\n
+    getMessage(final MboSetRemote remoteObj)\n
     '''
 def getErrorAttr():
-    '''public String getErrorAttr()
+    '''returns String\n\n
+    getErrorAttr()\n
     '''
 def setErrorAttr():
-    '''public void setErrorAttr(final String errorMeta)
+    '''returns None\n\n
+    setErrorAttr(final String errorMeta)\n
     '''
 def setErrorAttrValue():
-    '''public void setErrorAttrValue(final MaxType val)
+    '''returns None\n\n
+    setErrorAttrValue(final MaxType val)\n
     '''
 def getErrorAttrValue():
-    '''public MaxType getErrorAttrValue()
+    '''returns MaxType\n\n
+    getErrorAttrValue()\n
     '''
 def getErrorObjectName():
-    '''public String getErrorObjectName()
+    '''returns String\n\n
+    getErrorObjectName()\n
     '''
 def setErrorObjectName():
-    '''public void setErrorObjectName(final String errorObjectName)
+    '''returns None\n\n
+    setErrorObjectName(final String errorObjectName)\n
     '''
 def getErrorCorrelationId():
-    '''public String getErrorCorrelationId()
+    '''returns String\n\n
+    getErrorCorrelationId()\n
     '''
 def setErrorCorrelationId():
-    '''public void setErrorCorrelationId(final String errorCorrelationId)
+    '''returns None\n\n
+    setErrorCorrelationId(final String errorCorrelationId)\n
     '''
 def getDisplayMessage():
-    '''public String getDisplayMessage()
+    '''returns String\n\n
+    getDisplayMessage()\n
     '''
 def getForcedLangCode():
-    '''public String getForcedLangCode()
+    '''returns String\n\n
+    getForcedLangCode()\n
     '''
 def setForcedLangCode():
-    '''public void setForcedLangCode(final String langCode)
+    '''returns None\n\n
+    setForcedLangCode(final String langCode)\n
     '''

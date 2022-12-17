@@ -1,102 +1,136 @@
-def RBAWFDesignAppBean():
-    '''public RBAWFDesignAppBean()
+def ():
+    '''returns RBAWFDesignAppBean\n\n
+    ()\n
     '''
 def bindBeans():
-    '''public void bindBeans(final String targetControlId)
+    '''returns None\n\n
+    bindBeans(final String targetControlId)\n
     '''
 def useAllRecsQuery():
-    '''public int useAllRecsQuery()
+    '''returns int\n\n
+    useAllRecsQuery()\n
     '''
 def useAllBookmarksQuery():
-    '''public int useAllBookmarksQuery()
+    '''returns int\n\n
+    useAllBookmarksQuery()\n
     '''
 def usequery():
-    '''public int usequery()
+    '''returns int\n\n
+    usequery()\n
     '''
 def find():
-    '''public int find()
+    '''returns int\n\n
+    find()\n
     '''
 def resetClassificationTree():
-    '''public void resetClassificationTree()
+    '''returns None\n\n
+    resetClassificationTree()\n
     '''
 def VIEWWFINST():
-    '''public int VIEWWFINST()
+    '''returns int\n\n
+    VIEWWFINST()\n
     '''
 def REFRESHLIST():
-    '''public int REFRESHLIST()
+    '''returns int\n\n
+    REFRESHLIST()\n
     '''
 def VALIDATE():
-    '''public int VALIDATE()
+    '''returns int\n\n
+    VALIDATE()\n
     '''
 def ACTIVATE():
-    '''public void ACTIVATE()
+    '''returns None\n\n
+    ACTIVATE()\n
     '''
 def DEACTIVATE():
-    '''public void DEACTIVATE()
+    '''returns None\n\n
+    DEACTIVATE()\n
     '''
 def ENABLE():
-    '''public int ENABLE()
+    '''returns int\n\n
+    ENABLE()\n
     '''
 def DISABLE():
-    '''public void DISABLE()
+    '''returns None\n\n
+    DISABLE()\n
     '''
 def DELETABLE():
-    '''public void DELETABLE()
+    '''returns None\n\n
+    DELETABLE()\n
     '''
 def NODELETE():
-    '''public void NODELETE()
+    '''returns None\n\n
+    NODELETE()\n
     '''
 def CREATEREV():
-    '''public void CREATEREV()
+    '''returns None\n\n
+    CREATEREV()\n
     '''
 def RESYNC():
-    '''public void RESYNC()
+    '''returns None\n\n
+    RESYNC()\n
     '''
 def AUTOINIT():
-    '''public void AUTOINIT()
+    '''returns None\n\n
+    AUTOINIT()\n
     '''
 def ATOINITCLR():
-    '''public void ATOINITCLR()
+    '''returns None\n\n
+    ATOINITCLR()\n
     '''
 def VIEWSYNC():
-    '''public int VIEWSYNC()
+    '''returns int\n\n
+    VIEWSYNC()\n
     '''
 def refresh():
-    '''public int refresh()
+    '''returns int\n\n
+    refresh()\n
     '''
 def addnode():
-    '''public int addnode()
+    '''returns int\n\n
+    addnode()\n
     '''
 def addaction():
-    '''public int addaction()
+    '''returns int\n\n
+    addaction()\n
     '''
 def movenodes():
-    '''public int movenodes()
+    '''returns int\n\n
+    movenodes()\n
     '''
 def moveaction():
-    '''public int moveaction()
+    '''returns int\n\n
+    moveaction()\n
     '''
 def deletenodes():
-    '''public int deletenodes()
+    '''returns int\n\n
+    deletenodes()\n
     '''
 def deleteaction():
-    '''public int deleteaction()
+    '''returns int\n\n
+    deleteaction()\n
     '''
 def getNodeIndexFromName():
-    '''public int getNodeIndexFromName(final String name)
+    '''returns int\n\n
+    getNodeIndexFromName(final String name)\n
     '''
 def getNodeIdFromName():
-    '''public int getNodeIdFromName(final String name)
+    '''returns int\n\n
+    getNodeIdFromName(final String name)\n
     '''
 def ENABLELOD():
-    '''public void ENABLELOD()
+    '''returns None\n\n
+    ENABLELOD()\n
     '''
 def DISABLELOD():
-    '''public void DISABLELOD()
+    '''returns None\n\n
+    DISABLELOD()\n
     '''
 def GOTOINS():
-    '''public void GOTOINS()
+    '''returns None\n\n
+    GOTOINS()\n
     '''
 def GOTOINSCLR():
-    '''public void GOTOINSCLR()
+    '''returns None\n\n
+    GOTOINSCLR()\n
     '''

@@ -1,16 +1,17 @@
-def ResponseHeader():
-    '''public ResponseHeader(final Struct struct)
-    public ResponseHeader(final int correlationId)
+def ():
+    '''returns ResponseHeader\n\n
+    (final Struct struct)\n
+    (final int correlationId)\n
     '''
 def sizeOf():
-    '''public int sizeOf()
+    '''returns int\n\n
+    sizeOf()\n
     '''
 def toStruct():
-    '''public Struct toStruct()
+    '''returns Struct\n\n
+    toStruct()\n
     '''
 def correlationId():
-    '''public int correlationId()
-    '''
-def parse():
-    '''public static ResponseHeader parse(final ByteBuffer buffer)
+    '''returns int\n\n
+    correlationId()\n
     '''

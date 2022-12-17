@@ -1,3 +1,4 @@
-def ChatOpsInfoSet():
-    '''public ChatOpsInfoSet(final MboServerInterface ms)
+def ():
+    '''returns ChatOpsInfoSet\n\n
+    (final MboServerInterface ms)\n
     '''

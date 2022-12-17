@@ -1,59 +1,74 @@
-def DeserializerImpl():
-    '''public DeserializerImpl()
+def ():
+    '''returns DeserializerImpl\n\n
+    ()\n
     '''
 def getMechanismType():
-    '''public String getMechanismType()
+    '''returns String\n\n
+    getMechanismType()\n
     '''
 def getValue():
-    '''public Object getValue()
-    public Object getValue(final Object hint)
+    '''returns Object\n\n
+    getValue()\n
+    getValue(final Object hint)\n
     '''
 def setValue():
-    '''public void setValue(final Object value)
-    public void setValue(final Object value, final Object hint)
+    '''returns None\n\n
+    setValue(final Object value)\n
+    setValue(final Object value, final Object hint)\n
     '''
 def setChildValue():
-    '''public void setChildValue(final Object value, final Object hint)
+    '''returns None\n\n
+    setChildValue(final Object value, final Object hint)\n
     '''
 def setDefaultType():
-    '''public void setDefaultType(final QName qName)
+    '''returns None\n\n
+    setDefaultType(final QName qName)\n
     '''
 def getDefaultType():
-    '''public QName getDefaultType()
+    '''returns QName\n\n
+    getDefaultType()\n
     '''
 def registerValueTarget():
-    '''public void registerValueTarget(final Target target)
+    '''returns None\n\n
+    registerValueTarget(final Target target)\n
     '''
 def getValueTargets():
-    '''public Vector getValueTargets()
+    '''returns Vector\n\n
+    getValueTargets()\n
     '''
 def removeValueTargets():
-    '''public void removeValueTargets()
+    '''returns None\n\n
+    removeValueTargets()\n
     '''
 def moveValueTargets():
-    '''public void moveValueTargets(final Deserializer other)
+    '''returns None\n\n
+    moveValueTargets(final Deserializer other)\n
     '''
 def componentsReady():
-    '''public boolean componentsReady()
+    '''returns boolean\n\n
+    componentsReady()\n
     '''
 def valueComplete():
-    '''public void valueComplete()
+    '''returns None\n\n
+    valueComplete()\n
     '''
 def addChildDeserializer():
-    '''public void addChildDeserializer(final Deserializer dSer)
+    '''returns None\n\n
+    addChildDeserializer(final Deserializer dSer)\n
     '''
 def startElement():
-    '''public void startElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
+    '''returns None\n\n
+    startElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
     '''
 def onStartElement():
-    '''public void onStartElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
+    '''returns None\n\n
+    onStartElement(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
     '''
 def onStartChild():
-    '''public SOAPHandler onStartChild(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)
-    '''
-def endElement():
-    '''public final void endElement(final String namespace, final String localName, final DeserializationContext context)
+    '''returns SOAPHandler\n\n
+    onStartChild(final String namespace, final String localName, final String prefix, final Attributes attributes, final DeserializationContext context)\n
     '''
 def onEndElement():
-    '''public void onEndElement(final String namespace, final String localName, final DeserializationContext context)
+    '''returns None\n\n
+    onEndElement(final String namespace, final String localName, final DeserializationContext context)\n
     '''

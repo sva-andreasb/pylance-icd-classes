@@ -1,6 +1,8 @@
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''
 def copyqueries():
-    '''public int copyqueries()
+    '''returns int\n\n
+    copyqueries()\n
     '''

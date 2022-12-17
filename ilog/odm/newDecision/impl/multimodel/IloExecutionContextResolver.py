@@ -1,16 +1,17 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def GetExecutionContextResolver():
-    '''public static IloExecutionContextResolver GetExecutionContextResolver()
-    '''
 def registerContext():
-    '''public void registerContext(final IloOplModel model, final IloScriptExecutionContext context)
+    '''returns None\n\n
+    registerContext(final IloOplModel model, final IloScriptExecutionContext context)\n
     '''
 def getContext():
-    '''public IloScriptExecutionContext getContext(final IloOplModel model)
+    '''returns IloScriptExecutionContext\n\n
+    getContext(final IloOplModel model)\n
     '''
 def unregister():
-    '''public void unregister(final IloOplModel model)
+    '''returns None\n\n
+    unregister(final IloOplModel model)\n
     '''
 def getKey():
-    '''public Object getKey(final IloOplModel model)
+    '''returns Object\n\n
+    getKey(final IloOplModel model)\n
     '''

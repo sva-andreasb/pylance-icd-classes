@@ -1,45 +1,60 @@
-def Nested():
-    '''public Nested()
+def ():
+    '''returns Nested\n\n
+    ()\n
     '''
 def setFlattenData():
-    '''public void setFlattenData(final boolean f)
+    '''returns None\n\n
+    setFlattenData(final boolean f)\n
     '''
 def getFlattenData():
-    '''public boolean getFlattenData()
+    '''returns boolean\n\n
+    getFlattenData()\n
     '''
 def setMix():
-    '''public void setMix(final boolean m)
+    '''returns None\n\n
+    setMix(final boolean m)\n
     '''
 def isMix():
-    '''public boolean isMix()
+    '''returns boolean\n\n
+    isMix()\n
     '''
 def hasNestedData():
-    '''public boolean hasNestedData()
+    '''returns boolean\n\n
+    hasNestedData()\n
     '''
 def hasPlainData():
-    '''public boolean hasPlainData()
+    '''returns boolean\n\n
+    hasPlainData()\n
     '''
 def addNested():
-    '''public void addNested(final Nested nested)
+    '''returns None\n\n
+    addNested(final Nested nested)\n
     '''
 def addPlain():
-    '''public void addPlain(final Plain plain)
+    '''returns None\n\n
+    addPlain(final Plain plain)\n
     '''
 def getNested():
-    '''public List getNested()
+    '''returns List\n\n
+    getNested()\n
     '''
 def getPlainList():
-    '''public List getPlainList()
+    '''returns List\n\n
+    getPlainList()\n
     '''
 def getFieldName():
-    '''public String getFieldName()
+    '''returns String\n\n
+    getFieldName()\n
     '''
 def setFieldName():
-    '''public void setFieldName(final String v)
+    '''returns None\n\n
+    setFieldName(final String v)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String v)
+    '''returns None\n\n
+    setClassName(final String v)\n
     '''

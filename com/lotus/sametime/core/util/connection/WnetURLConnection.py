@@ -1,35 +1,46 @@
-def WnetURLConnection():
-    '''public WnetURLConnection(final URL u)
-    public WnetURLConnection(final URL u, final String httpUsername, final String httpPass, final String proxyHost, final int proxyPort, final boolean useIESettings, final String s, final String s2)
+def ():
+    '''returns WnetURLConnection\n\n
+    (final URL u)\n
+    (final URL u, final String httpUsername, final String httpPass, final String proxyHost, final int proxyPort, final boolean useIESettings, final String s, final String s2)\n
     '''
 def connect():
-    '''public void connect()
+    '''returns None\n\n
+    connect()\n
     '''
 def disconnect():
-    '''public void disconnect()
+    '''returns None\n\n
+    disconnect()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def usingProxy():
-    '''public boolean usingProxy()
+    '''returns boolean\n\n
+    usingProxy()\n
     '''
 def setRequestProperty():
-    '''public void setRequestProperty(final String key, final String value)
+    '''returns None\n\n
+    setRequestProperty(final String key, final String value)\n
     '''
 def getHeaderField():
-    '''public String getHeaderField(final String s)
-    public String getHeaderField(final int n)
+    '''returns String\n\n
+    getHeaderField(final String s)\n
+    getHeaderField(final int n)\n
     '''
 def getHeaderFieldKey():
-    '''public String getHeaderFieldKey(final int n)
+    '''returns String\n\n
+    getHeaderFieldKey(final int n)\n
     '''
 def getContentLength():
-    '''public int getContentLength()
+    '''returns int\n\n
+    getContentLength()\n
     '''
 def getResponseCode():
-    '''public int getResponseCode()
+    '''returns int\n\n
+    getResponseCode()\n
     '''

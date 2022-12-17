@@ -1,36 +1,47 @@
-def RecordFactory():
-    '''public RecordFactory(final int keyLength, final int valueLength)
+def ():
+    '''returns RecordFactory\n\n
+    (final int keyLength, final int valueLength)\n
     '''
 def keyFactory():
-    '''public RecordFactory keyFactory()
+    '''returns RecordFactory\n\n
+    keyFactory()\n
     '''
 def createKeyOnly():
-    '''public Record createKeyOnly()
-    public Record createKeyOnly(final Record record)
+    '''returns Record\n\n
+    createKeyOnly()\n
+    createKeyOnly(final Record record)\n
     '''
 def create():
-    '''public Record create(final byte[] key)
-    public Record create()
-    public Record create(final byte[] key, final byte[] value)
+    '''returns Record\n\n
+    create(final byte[] key)\n
+    create()\n
+    create(final byte[] key, final byte[] value)\n
     '''
 def insertInto():
-    '''public void insertInto(final Record record, final ByteBuffer bb, final int idx)
+    '''returns None\n\n
+    insertInto(final Record record, final ByteBuffer bb, final int idx)\n
     '''
 def buildFrom():
-    '''public Record buildFrom(final ByteBuffer bb, final int idx)
+    '''returns Record\n\n
+    buildFrom(final ByteBuffer bb, final int idx)\n
     '''
 def hasValue():
-    '''public boolean hasValue()
+    '''returns boolean\n\n
+    hasValue()\n
     '''
 def recordLength():
-    '''public int recordLength()
+    '''returns int\n\n
+    recordLength()\n
     '''
 def keyLength():
-    '''public int keyLength()
+    '''returns int\n\n
+    keyLength()\n
     '''
 def valueLength():
-    '''public int valueLength()
+    '''returns int\n\n
+    valueLength()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

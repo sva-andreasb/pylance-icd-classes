@@ -1,22 +1,25 @@
 DatatypeUriLength = "int  200"
-def name():
-    '''public static String name()
-    '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def getHashColName():
-    '''public String getHashColName()
+    '''returns String\n\n
+    getHashColName()\n
     '''
 def getLexColName():
-    '''public String getLexColName()
+    '''returns String\n\n
+    getLexColName()\n
     '''
 def getLangColName():
-    '''public String getLangColName()
+    '''returns String\n\n
+    getLangColName()\n
     '''
 def getTypeColName():
-    '''public String getTypeColName()
+    '''returns String\n\n
+    getTypeColName()\n
     '''
 def getDatatypeColName():
-    '''public String getDatatypeColName()
+    '''returns String\n\n
+    getDatatypeColName()\n
     '''

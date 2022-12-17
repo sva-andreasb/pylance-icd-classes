@@ -1,13 +1,17 @@
-def AgileEncryptionHeader():
-    '''public AgileEncryptionHeader(final String descriptor)
-    public AgileEncryptionHeader(final CipherAlgorithm algorithm, final HashAlgorithm hashAlgorithm, final int keyBits, final int blockSize, final ChainingMode chainingMode)
+def ():
+    '''returns AgileEncryptionHeader\n\n
+    (final String descriptor)\n
+    (final CipherAlgorithm algorithm, final HashAlgorithm hashAlgorithm, final int keyBits, final int blockSize, final ChainingMode chainingMode)\n
     '''
 def getEncryptedHmacKey():
-    '''public byte[] getEncryptedHmacKey()
+    '''returns byte[]\n\n
+    getEncryptedHmacKey()\n
     '''
 def getEncryptedHmacValue():
-    '''public byte[] getEncryptedHmacValue()
+    '''returns byte[]\n\n
+    getEncryptedHmacValue()\n
     '''
 def clone():
-    '''public AgileEncryptionHeader clone()
+    '''returns AgileEncryptionHeader\n\n
+    clone()\n
     '''

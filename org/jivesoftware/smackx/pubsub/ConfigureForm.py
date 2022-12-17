@@ -1,167 +1,222 @@
-def ConfigureForm():
-    '''public ConfigureForm(final DataForm configDataForm)
-    public ConfigureForm(final Form nodeConfigForm)
-    public ConfigureForm(final DataForm.Type formType)
+def ():
+    '''returns ConfigureForm\n\n
+    (final DataForm configDataForm)\n
+    (final Form nodeConfigForm)\n
+    (final DataForm.Type formType)\n
     '''
 def getAccessModel():
-    '''public AccessModel getAccessModel()
+    '''returns AccessModel\n\n
+    getAccessModel()\n
     '''
 def setAccessModel():
-    '''public void setAccessModel(final AccessModel accessModel)
+    '''returns None\n\n
+    setAccessModel(final AccessModel accessModel)\n
     '''
 def getBodyXSLT():
-    '''public String getBodyXSLT()
+    '''returns String\n\n
+    getBodyXSLT()\n
     '''
 def setBodyXSLT():
-    '''public void setBodyXSLT(final String bodyXslt)
+    '''returns None\n\n
+    setBodyXSLT(final String bodyXslt)\n
     '''
 def getChildren():
-    '''public List<String> getChildren()
+    '''returns List<String>\n\n
+    getChildren()\n
     '''
 def setChildren():
-    '''public void setChildren(final List<String> children)
+    '''returns None\n\n
+    setChildren(final List<String> children)\n
     '''
 def getChildrenAssociationPolicy():
-    '''public ChildrenAssociationPolicy getChildrenAssociationPolicy()
+    '''returns ChildrenAssociationPolicy\n\n
+    getChildrenAssociationPolicy()\n
     '''
 def setChildrenAssociationPolicy():
-    '''public void setChildrenAssociationPolicy(final ChildrenAssociationPolicy policy)
+    '''returns None\n\n
+    setChildrenAssociationPolicy(final ChildrenAssociationPolicy policy)\n
     '''
 def getChildrenAssociationWhitelist():
-    '''public List<String> getChildrenAssociationWhitelist()
+    '''returns List<String>\n\n
+    getChildrenAssociationWhitelist()\n
     '''
 def setChildrenAssociationWhitelist():
-    '''public void setChildrenAssociationWhitelist(final List<String> whitelist)
+    '''returns None\n\n
+    setChildrenAssociationWhitelist(final List<String> whitelist)\n
     '''
 def getChildrenMax():
-    '''public int getChildrenMax()
+    '''returns int\n\n
+    getChildrenMax()\n
     '''
 def setChildrenMax():
-    '''public void setChildrenMax(final int max)
+    '''returns None\n\n
+    setChildrenMax(final int max)\n
     '''
 def getCollection():
-    '''public String getCollection()
+    '''returns String\n\n
+    getCollection()\n
     '''
 def setCollection():
-    '''public void setCollection(final String collection)
+    '''returns None\n\n
+    setCollection(final String collection)\n
     '''
 def getDataformXSLT():
-    '''public String getDataformXSLT()
+    '''returns String\n\n
+    getDataformXSLT()\n
     '''
 def setDataformXSLT():
-    '''public void setDataformXSLT(final String url)
+    '''returns None\n\n
+    setDataformXSLT(final String url)\n
     '''
 def isDeliverPayloads():
-    '''public boolean isDeliverPayloads()
+    '''returns boolean\n\n
+    isDeliverPayloads()\n
     '''
 def setDeliverPayloads():
-    '''public void setDeliverPayloads(final boolean deliver)
+    '''returns None\n\n
+    setDeliverPayloads(final boolean deliver)\n
     '''
 def getItemReply():
-    '''public ItemReply getItemReply()
+    '''returns ItemReply\n\n
+    getItemReply()\n
     '''
 def setItemReply():
-    '''public void setItemReply(final ItemReply reply)
+    '''returns None\n\n
+    setItemReply(final ItemReply reply)\n
     '''
 def getMaxItems():
-    '''public int getMaxItems()
+    '''returns int\n\n
+    getMaxItems()\n
     '''
 def setMaxItems():
-    '''public void setMaxItems(final int max)
+    '''returns None\n\n
+    setMaxItems(final int max)\n
     '''
 def getMaxPayloadSize():
-    '''public int getMaxPayloadSize()
+    '''returns int\n\n
+    getMaxPayloadSize()\n
     '''
 def setMaxPayloadSize():
-    '''public void setMaxPayloadSize(final int max)
+    '''returns None\n\n
+    setMaxPayloadSize(final int max)\n
     '''
 def getNodeType():
-    '''public NodeType getNodeType()
+    '''returns NodeType\n\n
+    getNodeType()\n
     '''
 def setNodeType():
-    '''public void setNodeType(final NodeType type)
+    '''returns None\n\n
+    setNodeType(final NodeType type)\n
     '''
 def isNotifyConfig():
-    '''public boolean isNotifyConfig()
+    '''returns boolean\n\n
+    isNotifyConfig()\n
     '''
 def setNotifyConfig():
-    '''public void setNotifyConfig(final boolean notify)
+    '''returns None\n\n
+    setNotifyConfig(final boolean notify)\n
     '''
 def isNotifyDelete():
-    '''public boolean isNotifyDelete()
+    '''returns boolean\n\n
+    isNotifyDelete()\n
     '''
 def setNotifyDelete():
-    '''public void setNotifyDelete(final boolean notify)
+    '''returns None\n\n
+    setNotifyDelete(final boolean notify)\n
     '''
 def isNotifyRetract():
-    '''public boolean isNotifyRetract()
+    '''returns boolean\n\n
+    isNotifyRetract()\n
     '''
 def setNotifyRetract():
-    '''public void setNotifyRetract(final boolean notify)
+    '''returns None\n\n
+    setNotifyRetract(final boolean notify)\n
     '''
 def getNotificationType():
-    '''public NotificationType getNotificationType()
+    '''returns NotificationType\n\n
+    getNotificationType()\n
     '''
 def setNotificationType():
-    '''public void setNotificationType(final NotificationType notificationType)
+    '''returns None\n\n
+    setNotificationType(final NotificationType notificationType)\n
     '''
 def isPersistItems():
-    '''public boolean isPersistItems()
+    '''returns boolean\n\n
+    isPersistItems()\n
     '''
 def setPersistentItems():
-    '''public void setPersistentItems(final boolean persist)
+    '''returns None\n\n
+    setPersistentItems(final boolean persist)\n
     '''
 def isPresenceBasedDelivery():
-    '''public boolean isPresenceBasedDelivery()
+    '''returns boolean\n\n
+    isPresenceBasedDelivery()\n
     '''
 def setPresenceBasedDelivery():
-    '''public void setPresenceBasedDelivery(final boolean presenceBased)
+    '''returns None\n\n
+    setPresenceBasedDelivery(final boolean presenceBased)\n
     '''
 def getPublishModel():
-    '''public PublishModel getPublishModel()
+    '''returns PublishModel\n\n
+    getPublishModel()\n
     '''
 def setPublishModel():
-    '''public void setPublishModel(final PublishModel publish)
+    '''returns None\n\n
+    setPublishModel(final PublishModel publish)\n
     '''
 def getReplyRoom():
-    '''public List<String> getReplyRoom()
+    '''returns List<String>\n\n
+    getReplyRoom()\n
     '''
 def setReplyRoom():
-    '''public void setReplyRoom(final List<String> replyRooms)
+    '''returns None\n\n
+    setReplyRoom(final List<String> replyRooms)\n
     '''
 def getReplyTo():
-    '''public List<String> getReplyTo()
+    '''returns List<String>\n\n
+    getReplyTo()\n
     '''
 def setReplyTo():
-    '''public void setReplyTo(final List<String> replyTos)
+    '''returns None\n\n
+    setReplyTo(final List<String> replyTos)\n
     '''
 def getRosterGroupsAllowed():
-    '''public List<String> getRosterGroupsAllowed()
+    '''returns List<String>\n\n
+    getRosterGroupsAllowed()\n
     '''
 def setRosterGroupsAllowed():
-    '''public void setRosterGroupsAllowed(final List<String> groups)
+    '''returns None\n\n
+    setRosterGroupsAllowed(final List<String> groups)\n
     '''
 def isSubscibe():
-    '''public boolean isSubscibe()
+    '''returns boolean\n\n
+    isSubscibe()\n
     '''
 def isSubscribe():
-    '''public boolean isSubscribe()
+    '''returns boolean\n\n
+    isSubscribe()\n
     '''
 def setSubscribe():
-    '''public void setSubscribe(final boolean subscribe)
+    '''returns None\n\n
+    setSubscribe(final boolean subscribe)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getDataType():
-    '''public String getDataType()
+    '''returns String\n\n
+    getDataType()\n
     '''
 def setDataType():
-    '''public void setDataType(final String type)
+    '''returns None\n\n
+    setDataType(final String type)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

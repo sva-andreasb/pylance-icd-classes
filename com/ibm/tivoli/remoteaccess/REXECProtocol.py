@@ -1,20 +1,22 @@
-def REXECProtocol():
-    '''public REXECProtocol()
-    public REXECProtocol(final String username, final byte[] password)
-    public REXECProtocol(final String username, final byte[] password, final String hostname)
+def ():
+    '''returns REXECProtocol\n\n
+    ()\n
+    (final String username, final byte[] password)\n
+    (final String username, final byte[] password, final String hostname)\n
     '''
 def exec():
-    '''public RemoteProcess exec(final String command)
+    '''returns RemoteProcess\n\n
+    exec(final String command)\n
     '''
 def setListeningPortRange():
-    '''public void setListeningPortRange(final int first, final int last)
+    '''returns None\n\n
+    setListeningPortRange(final int first, final int last)\n
     '''
 def getFirstListeningPort():
-    '''public int getFirstListeningPort()
+    '''returns int\n\n
+    getFirstListeningPort()\n
     '''
 def getLastListeningPort():
-    '''public int getLastListeningPort()
-    '''
-def clone():
-    '''public synchronized Object clone()
+    '''returns int\n\n
+    getLastListeningPort()\n
     '''

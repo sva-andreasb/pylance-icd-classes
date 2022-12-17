@@ -2,18 +2,23 @@ PLUSC_IS_MTE = "String  \"pluscismte\""
 PLUSC_IS_MTE_CLASS = "String  \"pluscismteclass\""
 PLUSC_IS_IN_HOUSE_CAL = "String  \"pluscisinhousecal\""
 PLUSC_IS_SOLUTION = "String  \"pluscsolution\""
-def FldAssetItemnum():
-    '''public FldAssetItemnum(final MboValue mbv)
+def ():
+    '''returns FldAssetItemnum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String sourceObj, final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String sourceObj, final String value, final boolean exact)\n
     '''

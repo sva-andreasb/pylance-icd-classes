@@ -1,15 +1,17 @@
-def LocationFinder():
-    '''public LocationFinder(final NeuronSquareMesh2D map)
+def ():
+    '''returns Location\n\n
+    (final NeuronSquareMesh2D map)\n
+    (final int row, final int column)\n
     '''
 def getLocation():
-    '''public Location getLocation(final Neuron n)
-    '''
-def Location():
-    '''public Location(final int row, final int column)
+    '''returns Location\n\n
+    getLocation(final Neuron n)\n
     '''
 def getRow():
-    '''public int getRow()
+    '''returns int\n\n
+    getRow()\n
     '''
 def getColumn():
-    '''public int getColumn()
+    '''returns int\n\n
+    getColumn()\n
     '''

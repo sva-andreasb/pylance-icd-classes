@@ -1,6 +1,8 @@
-def PmscFldClassStructureid():
-    '''public PmscFldClassStructureid(final MboValue mbv)
+def ():
+    '''returns PmscFldClassStructureid\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

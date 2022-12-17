@@ -1,35 +1,46 @@
 def setAlpha():
-    '''public void setAlpha(final float i)
+    '''returns None\n\n
+    setAlpha(final float i)\n
     '''
-def IlvHoverHighlightingImageOperation():
-    '''public IlvHoverHighlightingImageOperation()
-    public IlvHoverHighlightingImageOperation(final BufferedImageOp imageOperation, final float alpha)
+def ():
+    '''returns IlvHoverHighlightingImageOperation\n\n
+    ()\n
+    (final BufferedImageOp imageOperation, final float alpha)\n
     '''
 def getAlpha():
-    '''public float getAlpha()
+    '''returns float\n\n
+    getAlpha()\n
     '''
 def getImageOperation():
-    '''public BufferedImageOp getImageOperation()
+    '''returns BufferedImageOp\n\n
+    getImageOperation()\n
     '''
 def setImageOperation():
-    '''public void setImageOperation(final BufferedImageOp j)
+    '''returns None\n\n
+    setImageOperation(final BufferedImageOp j)\n
     '''
 def processEvent():
-    '''public boolean processEvent(final IlvGraphic ilvGraphic, final AWTEvent awtEvent, final IlvObjectInteractorContext ilvObjectInteractorContext)
+    '''returns boolean\n\n
+    processEvent(final IlvGraphic ilvGraphic, final AWTEvent awtEvent, final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''
 def onExit():
-    '''public void onExit(final IlvGraphic ilvGraphic, final IlvObjectInteractorContext ilvObjectInteractorContext)
+    '''returns None\n\n
+    onExit(final IlvGraphic ilvGraphic, final IlvObjectInteractorContext ilvObjectInteractorContext)\n
     '''
 def setHighlightFilter():
-    '''public void setHighlightFilter(final Filter h)
+    '''returns None\n\n
+    setHighlightFilter(final Filter h)\n
     '''
 def getHighlightFilter():
-    '''public Filter getHighlightFilter()
+    '''returns Filter\n\n
+    getHighlightFilter()\n
     '''
 def showHighlight():
-    '''public boolean showHighlight(final IlvGraphic highlightedGraphic, final IlvManagerView targetView)
+    '''returns boolean\n\n
+    showHighlight(final IlvGraphic highlightedGraphic, final IlvManagerView targetView)\n
     '''
 def highlightObject():
-    '''public boolean highlightObject(final IlvGraphic ilvGraphic)
-    public boolean highlightObject(final IlvGraphic ilvGraphic)
+    '''returns boolean\n\n
+    highlightObject(final IlvGraphic ilvGraphic)\n
+    highlightObject(final IlvGraphic ilvGraphic)\n
     '''

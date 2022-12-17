@@ -1,12 +1,16 @@
-def FldAssetMoveModifyWoNum():
-    '''public FldAssetMoveModifyWoNum(final MboValue mbv)
+def ():
+    '''returns FldAssetMoveModifyWoNum\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def getWoOwner():
-    '''public MboRemote getWoOwner()
+    '''returns MboRemote\n\n
+    getWoOwner()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

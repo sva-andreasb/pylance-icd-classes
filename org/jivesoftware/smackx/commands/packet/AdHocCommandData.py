@@ -1,69 +1,88 @@
 ELEMENT = "String  \"command\""
 NAMESPACE = "String  \"http://jabber.org/protocol/commands\""
 namespace = "String  \"http://jabber.org/protocol/commands\""
-def AdHocCommandData():
-    '''public AdHocCommandData()
+def ():
+    '''returns SpecificError\n\n
+    ()\n
+    (final AdHocCommand.SpecificErrorCondition condition)\n
     '''
 def getId():
-    '''public Jid getId()
+    '''returns Jid\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Jid id)
+    '''returns None\n\n
+    setId(final Jid id)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getNode():
-    '''public String getNode()
+    '''returns String\n\n
+    getNode()\n
     '''
 def setNode():
-    '''public void setNode(final String node)
+    '''returns None\n\n
+    setNode(final String node)\n
     '''
 def getNotes():
-    '''public List<AdHocCommandNote> getNotes()
+    '''returns List<AdHocCommandNote>\n\n
+    getNotes()\n
     '''
 def addNote():
-    '''public void addNote(final AdHocCommandNote note)
+    '''returns None\n\n
+    addNote(final AdHocCommandNote note)\n
     '''
 def removeNote():
-    '''public void removeNote(final AdHocCommandNote note)
+    '''returns None\n\n
+    removeNote(final AdHocCommandNote note)\n
     '''
 def getForm():
-    '''public DataForm getForm()
+    '''returns DataForm\n\n
+    getForm()\n
     '''
 def setForm():
-    '''public void setForm(final DataForm form)
+    '''returns None\n\n
+    setForm(final DataForm form)\n
     '''
 def setAction():
-    '''public void setAction(final AdHocCommand.Action action)
+    '''returns None\n\n
+    setAction(final AdHocCommand.Action action)\n
     '''
 def setStatus():
-    '''public void setStatus(final AdHocCommand.Status status)
+    '''returns None\n\n
+    setStatus(final AdHocCommand.Status status)\n
     '''
 def addAction():
-    '''public void addAction(final AdHocCommand.Action action)
+    '''returns None\n\n
+    addAction(final AdHocCommand.Action action)\n
     '''
 def setExecuteAction():
-    '''public void setExecuteAction(final AdHocCommand.Action executeAction)
+    '''returns None\n\n
+    setExecuteAction(final AdHocCommand.Action executeAction)\n
     '''
 def setSessionID():
-    '''public void setSessionID(final String sessionID)
+    '''returns None\n\n
+    setSessionID(final String sessionID)\n
     '''
 def getSessionID():
-    '''public String getSessionID()
-    '''
-def SpecificError():
-    '''public SpecificError(final AdHocCommand.SpecificErrorCondition condition)
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''

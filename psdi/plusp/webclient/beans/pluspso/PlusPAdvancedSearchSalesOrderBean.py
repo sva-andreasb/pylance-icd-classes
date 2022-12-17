@@ -1,30 +1,32 @@
-def getQbe():
-    '''public synchronized String getQbe(final String attribute)
-    '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String s)
+    '''returns None\n\n
+    setQbe(final String attribute, final String s)\n
     '''
 def defaultExec():
-    '''public int defaultExec()
+    '''returns int\n\n
+    defaultExec()\n
     '''
 def clearqryandfld():
-    '''public int clearqryandfld()
+    '''returns int\n\n
+    clearqryandfld()\n
     '''
 def clearfield():
-    '''public int clearfield()
+    '''returns int\n\n
+    clearfield()\n
     '''
 def restoredefaultqry():
-    '''public int restoredefaultqry()
+    '''returns int\n\n
+    restoredefaultqry()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def qbecancel():
-    '''public int qbecancel()
+    '''returns int\n\n
+    qbecancel()\n
     '''
 def setUsageToRecordQbe():
-    '''public void setUsageToRecordQbe(final String s)
-    '''
-def getUsageToRecordClause():
-    '''public static String getUsageToRecordClause()
+    '''returns None\n\n
+    setUsageToRecordQbe(final String s)\n
     '''

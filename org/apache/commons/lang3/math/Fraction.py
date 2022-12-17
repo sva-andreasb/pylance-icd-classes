@@ -1,75 +1,88 @@
-def getFraction():
-    '''public static Fraction getFraction(int numerator, int denominator)
-    public static Fraction getFraction(final int whole, final int numerator, final int denominator)
-    public static Fraction getFraction(double value)
-    public static Fraction getFraction(String str)
-    '''
-def getReducedFraction():
-    '''public static Fraction getReducedFraction(int numerator, int denominator)
-    '''
 def getNumerator():
-    '''public int getNumerator()
+    '''returns int\n\n
+    getNumerator()\n
     '''
 def getDenominator():
-    '''public int getDenominator()
+    '''returns int\n\n
+    getDenominator()\n
     '''
 def getProperNumerator():
-    '''public int getProperNumerator()
+    '''returns int\n\n
+    getProperNumerator()\n
     '''
 def getProperWhole():
-    '''public int getProperWhole()
+    '''returns int\n\n
+    getProperWhole()\n
     '''
 def intValue():
-    '''public int intValue()
+    '''returns int\n\n
+    intValue()\n
     '''
 def longValue():
-    '''public long longValue()
+    '''returns long\n\n
+    longValue()\n
     '''
 def floatValue():
-    '''public float floatValue()
+    '''returns float\n\n
+    floatValue()\n
     '''
 def doubleValue():
-    '''public double doubleValue()
+    '''returns double\n\n
+    doubleValue()\n
     '''
 def reduce():
-    '''public Fraction reduce()
+    '''returns Fraction\n\n
+    reduce()\n
     '''
 def invert():
-    '''public Fraction invert()
+    '''returns Fraction\n\n
+    invert()\n
     '''
 def negate():
-    '''public Fraction negate()
+    '''returns Fraction\n\n
+    negate()\n
     '''
 def abs():
-    '''public Fraction abs()
+    '''returns Fraction\n\n
+    abs()\n
     '''
 def pow():
-    '''public Fraction pow(final int power)
+    '''returns Fraction\n\n
+    pow(final int power)\n
     '''
 def add():
-    '''public Fraction add(final Fraction fraction)
+    '''returns Fraction\n\n
+    add(final Fraction fraction)\n
     '''
 def subtract():
-    '''public Fraction subtract(final Fraction fraction)
+    '''returns Fraction\n\n
+    subtract(final Fraction fraction)\n
     '''
 def multiplyBy():
-    '''public Fraction multiplyBy(final Fraction fraction)
+    '''returns Fraction\n\n
+    multiplyBy(final Fraction fraction)\n
     '''
 def divideBy():
-    '''public Fraction divideBy(final Fraction fraction)
+    '''returns Fraction\n\n
+    divideBy(final Fraction fraction)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def compareTo():
-    '''public int compareTo(final Fraction other)
+    '''returns int\n\n
+    compareTo(final Fraction other)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toProperString():
-    '''public String toProperString()
+    '''returns String\n\n
+    toProperString()\n
     '''

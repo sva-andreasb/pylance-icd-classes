@@ -1,7 +1,9 @@
-def DispatchActions():
-    '''public DispatchActions()
+def ():
+    '''returns DispatchActions\n\n
+    ()\n
     '''
 def updateActivity():
-    '''public String updateActivity(final MXActivity act, final MXResource mxr, final UserInfo userInfo)
-    public String updateActivity(final MXActivity act, final String resourceType, final String resourceKey, final UserInfo userInfo)
+    '''returns String\n\n
+    updateActivity(final MXActivity act, final MXResource mxr, final UserInfo userInfo)\n
+    updateActivity(final MXActivity act, final String resourceType, final String resourceKey, final UserInfo userInfo)\n
     '''

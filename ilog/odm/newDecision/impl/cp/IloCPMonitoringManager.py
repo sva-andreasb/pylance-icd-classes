@@ -1,16 +1,21 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloCPMonitoringManager():
-    '''public IloCPMonitoringManager()
+def ():
+    '''returns IloCPMonitoringManager\n\n
+    ()\n
     '''
 def goalUpdateHappened():
-    '''public void goalUpdateHappened(final boolean hasSolution, final IloGoalReport goalReport, final long timeMilli)
+    '''returns None\n\n
+    goalUpdateHappened(final boolean hasSolution, final IloGoalReport goalReport, final long timeMilli)\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

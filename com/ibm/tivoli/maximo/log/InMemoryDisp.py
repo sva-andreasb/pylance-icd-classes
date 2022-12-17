@@ -1,12 +1,16 @@
-def InMemoryDisp():
-    '''public InMemoryDisp(final MboSet ms)
+def ():
+    '''returns InMemoryDisp\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def refresh():
-    '''public void refresh()
+    '''returns None\n\n
+    refresh()\n
     '''
 def readFile():
-    '''public String readFile(final String filepath, final int start, final int end)
+    '''returns String\n\n
+    readFile(final String filepath, final int start, final int end)\n
     '''

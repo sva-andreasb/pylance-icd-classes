@@ -1,95 +1,126 @@
-def InitiateMultipartUploadRequest():
-    '''public InitiateMultipartUploadRequest(final String bucketName, final String key)
-    public InitiateMultipartUploadRequest(final String bucketName, final String key, final ObjectMetadata objectMetadata)
+def ():
+    '''returns InitiateMultipartUploadRequest\n\n
+    (final String bucketName, final String key)\n
+    (final String bucketName, final String key, final ObjectMetadata objectMetadata)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public InitiateMultipartUploadRequest withBucketName(final String bucketName)
+    '''returns InitiateMultipartUploadRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def withKey():
-    '''public InitiateMultipartUploadRequest withKey(final String key)
+    '''returns InitiateMultipartUploadRequest\n\n
+    withKey(final String key)\n
     '''
 def getCannedACL():
-    '''public CannedAccessControlList getCannedACL()
+    '''returns CannedAccessControlList\n\n
+    getCannedACL()\n
     '''
 def setCannedACL():
-    '''public void setCannedACL(final CannedAccessControlList cannedACL)
+    '''returns None\n\n
+    setCannedACL(final CannedAccessControlList cannedACL)\n
     '''
 def withCannedACL():
-    '''public InitiateMultipartUploadRequest withCannedACL(final CannedAccessControlList acl)
+    '''returns InitiateMultipartUploadRequest\n\n
+    withCannedACL(final CannedAccessControlList acl)\n
     '''
 def getAccessControlList():
-    '''public AccessControlList getAccessControlList()
+    '''returns AccessControlList\n\n
+    getAccessControlList()\n
     '''
 def setAccessControlList():
-    '''public void setAccessControlList(final AccessControlList accessControlList)
+    '''returns None\n\n
+    setAccessControlList(final AccessControlList accessControlList)\n
     '''
 def withAccessControlList():
-    '''public InitiateMultipartUploadRequest withAccessControlList(final AccessControlList accessControlList)
+    '''returns InitiateMultipartUploadRequest\n\n
+    withAccessControlList(final AccessControlList accessControlList)\n
     '''
 def getStorageClass():
-    '''public StorageClass getStorageClass()
+    '''returns StorageClass\n\n
+    getStorageClass()\n
     '''
 def setStorageClass():
-    '''public void setStorageClass(final StorageClass storageClass)
+    '''returns None\n\n
+    setStorageClass(final StorageClass storageClass)\n
     '''
 def withStorageClass():
-    '''public InitiateMultipartUploadRequest withStorageClass(final StorageClass storageClass)
-    public InitiateMultipartUploadRequest withStorageClass(final String storageClass)
+    '''returns InitiateMultipartUploadRequest\n\n
+    withStorageClass(final StorageClass storageClass)\n
+    withStorageClass(final String storageClass)\n
     '''
 def getObjectMetadata():
-    '''public ObjectMetadata getObjectMetadata()
+    '''returns ObjectMetadata\n\n
+    getObjectMetadata()\n
     '''
 def setObjectMetadata():
-    '''public void setObjectMetadata(final ObjectMetadata objectMetadata)
+    '''returns None\n\n
+    setObjectMetadata(final ObjectMetadata objectMetadata)\n
     '''
 def withObjectMetadata():
-    '''public InitiateMultipartUploadRequest withObjectMetadata(final ObjectMetadata objectMetadata)
+    '''returns InitiateMultipartUploadRequest\n\n
+    withObjectMetadata(final ObjectMetadata objectMetadata)\n
     '''
 def setRedirectLocation():
-    '''public void setRedirectLocation(final String redirectLocation)
+    '''returns None\n\n
+    setRedirectLocation(final String redirectLocation)\n
     '''
 def getRedirectLocation():
-    '''public String getRedirectLocation()
+    '''returns String\n\n
+    getRedirectLocation()\n
     '''
 def withRedirectLocation():
-    '''public InitiateMultipartUploadRequest withRedirectLocation(final String redirectLocation)
+    '''returns InitiateMultipartUploadRequest\n\n
+    withRedirectLocation(final String redirectLocation)\n
     '''
 def getSSECustomerKey():
-    '''public SSECustomerKey getSSECustomerKey()
+    '''returns SSECustomerKey\n\n
+    getSSECustomerKey()\n
     '''
 def setSSECustomerKey():
-    '''public void setSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns None\n\n
+    setSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def withSSECustomerKey():
-    '''public InitiateMultipartUploadRequest withSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns InitiateMultipartUploadRequest\n\n
+    withSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def getSSEAwsKeyManagementParams():
-    '''public SSEAwsKeyManagementParams getSSEAwsKeyManagementParams()
+    '''returns SSEAwsKeyManagementParams\n\n
+    getSSEAwsKeyManagementParams()\n
     '''
 def setSSEAwsKeyManagementParams():
-    '''public void setSSEAwsKeyManagementParams(final SSEAwsKeyManagementParams params)
+    '''returns None\n\n
+    setSSEAwsKeyManagementParams(final SSEAwsKeyManagementParams params)\n
     '''
 def withSSEAwsKeyManagementParams():
-    '''public InitiateMultipartUploadRequest withSSEAwsKeyManagementParams(final SSEAwsKeyManagementParams sseAwsKeyManagementParams)
+    '''returns InitiateMultipartUploadRequest\n\n
+    withSSEAwsKeyManagementParams(final SSEAwsKeyManagementParams sseAwsKeyManagementParams)\n
     '''
 def isRequesterPays():
-    '''public boolean isRequesterPays()
+    '''returns boolean\n\n
+    isRequesterPays()\n
     '''
 def setRequesterPays():
-    '''public void setRequesterPays(final boolean isRequesterPays)
+    '''returns None\n\n
+    setRequesterPays(final boolean isRequesterPays)\n
     '''
 def withRequesterPays():
-    '''public InitiateMultipartUploadRequest withRequesterPays(final boolean isRequesterPays)
+    '''returns InitiateMultipartUploadRequest\n\n
+    withRequesterPays(final boolean isRequesterPays)\n
     '''

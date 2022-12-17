@@ -1,12 +1,16 @@
 def setToken():
-    '''public void setToken(final String token)
+    '''returns None\n\n
+    setToken(final String token)\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def setFiltersfile():
-    '''public void setFiltersfile(final File filtersFile)
+    '''returns None\n\n
+    setFiltersfile(final File filtersFile)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

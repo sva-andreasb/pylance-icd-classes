@@ -1,3 +1,4 @@
-def ReportListSet():
-    '''public ReportListSet(final MboServerInterface ms)
+def ():
+    '''returns ReportListSet\n\n
+    (final MboServerInterface ms)\n
     '''

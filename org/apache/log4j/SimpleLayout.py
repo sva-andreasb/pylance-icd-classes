@@ -1,6 +1,8 @@
 def format():
-    '''public String format(final LoggingEvent theEvent)
+    '''returns String\n\n
+    format(final LoggingEvent theEvent)\n
     '''
 def ignoresThrowable():
-    '''public boolean ignoresThrowable()
+    '''returns boolean\n\n
+    ignoresThrowable()\n
     '''

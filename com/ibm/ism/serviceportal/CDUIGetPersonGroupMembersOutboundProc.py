@@ -1,6 +1,8 @@
-def CDUIGetPersonGroupMembersOutboundProc():
-    '''public CDUIGetPersonGroupMembersOutboundProc()
+def ():
+    '''returns CDUIGetPersonGroupMembersOutboundProc\n\n
+    ()\n
     '''
 def search():
-    '''public void search(final MboSetRemote mboSet, final String group, final String text)
+    '''returns None\n\n
+    search(final MboSetRemote mboSet, final String group, final String text)\n
     '''

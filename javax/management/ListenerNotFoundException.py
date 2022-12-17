@@ -1,4 +1,5 @@
-def ListenerNotFoundException():
-    '''public ListenerNotFoundException()
-    public ListenerNotFoundException(final String s)
+def ():
+    '''returns ListenerNotFoundException\n\n
+    ()\n
+    (final String s)\n
     '''

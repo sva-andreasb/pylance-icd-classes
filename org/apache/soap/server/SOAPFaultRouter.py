@@ -1,11 +1,14 @@
 def getFaultListener():
-    '''public SOAPFaultListener[] getFaultListener()
-    public SOAPFaultListener getFaultListener(final int n)
+    '''returns SOAPFaultListener\n\n
+    getFaultListener()\n
+    getFaultListener(final int n)\n
     '''
 def notifyListeners():
-    '''public void notifyListeners(final Fault fault, final SOAPException ex)
+    '''returns None\n\n
+    notifyListeners(final Fault fault, final SOAPException ex)\n
     '''
 def setFaultListener():
-    '''public void setFaultListener(final int n, final SOAPFaultListener soapFaultListener)
-    public void setFaultListener(final SOAPFaultListener[] faultListener)
+    '''returns None\n\n
+    setFaultListener(final int n, final SOAPFaultListener soapFaultListener)\n
+    setFaultListener(final SOAPFaultListener[] faultListener)\n
     '''

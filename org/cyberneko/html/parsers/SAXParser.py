@@ -1,3 +1,4 @@
-def SAXParser():
-    '''public SAXParser()
+def ():
+    '''returns SAXParser\n\n
+    ()\n
     '''

@@ -1,46 +1,61 @@
 def isLockEnabled():
-    '''public boolean isLockEnabled()
+    '''returns boolean\n\n
+    isLockEnabled()\n
     '''
 def getAppType():
-    '''public String getAppType()
+    '''returns String\n\n
+    getAppType()\n
     '''
 def getAppName():
-    '''public String getAppName()
+    '''returns String\n\n
+    getAppName()\n
     '''
 def getRestrictions():
-    '''public String getRestrictions()
+    '''returns String\n\n
+    getRestrictions()\n
     '''
 def getOriginalApp():
-    '''public String getOriginalApp()
+    '''returns String\n\n
+    getOriginalApp()\n
     '''
 def getMainTable():
-    '''public String getMainTable()
+    '''returns String\n\n
+    getMainTable()\n
     '''
 def getOrderBy():
-    '''public String getOrderBy()
+    '''returns String\n\n
+    getOrderBy()\n
     '''
 def getCustAppType():
-    '''public String getCustAppType()
+    '''returns String\n\n
+    getCustAppType()\n
     '''
 def isMobile():
-    '''public boolean isMobile()
+    '''returns boolean\n\n
+    isMobile()\n
     '''
 def getDescription():
-    '''public String getDescription()
-    public String getDescription(final UserInfo ui)
+    '''returns String\n\n
+    getDescription()\n
+    getDescription(final UserInfo ui)\n
     '''
 def getTypedReference():
-    '''public MaxAppsInfoBase getTypedReference()
+    '''returns MaxAppsInfoBase\n\n
+    getTypedReference()\n
     '''
 def getOsUsed():
-    '''public Set<String> getOsUsed()
+    '''returns Set<String>\n\n
+    getOsUsed()\n
     '''
 def setOsUsed():
-    '''public void setOsUsed(final Set<String> set)
+    '''returns None\n\n
+    setOsUsed(final Set<String> set)\n
     '''
 def getLongDescription():
-    '''public String getLongDescription(final UserInfo ui)
+    '''returns String\n\n
+    getLongDescription(final UserInfo ui)\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

@@ -1,67 +1,89 @@
 def getAnchor():
-    '''public Rectangle2D getAnchor()
+    '''returns Rectangle2D\n\n
+    getAnchor()\n
     '''
 def setAnchor():
-    '''public void setAnchor(final Rectangle2D anchor)
+    '''returns None\n\n
+    setAnchor(final Rectangle2D anchor)\n
     '''
 def getInteriorAnchor():
-    '''public Rectangle2D getInteriorAnchor()
+    '''returns Rectangle2D\n\n
+    getInteriorAnchor()\n
     '''
 def setInteriorAnchor():
-    '''public void setInteriorAnchor(final Rectangle2D anchor)
+    '''returns None\n\n
+    setInteriorAnchor(final Rectangle2D anchor)\n
     '''
 def getShapes():
-    '''public List<XSLFShape> getShapes()
+    '''returns List<XSLFShape>\n\n
+    getShapes()\n
     '''
 def iterator():
-    '''public Iterator<XSLFShape> iterator()
+    '''returns Iterator<XSLFShape>\n\n
+    iterator()\n
     '''
 def removeShape():
-    '''public boolean removeShape(final XSLFShape xShape)
+    '''returns boolean\n\n
+    removeShape(final XSLFShape xShape)\n
     '''
 def createAutoShape():
-    '''public XSLFAutoShape createAutoShape()
+    '''returns XSLFAutoShape\n\n
+    createAutoShape()\n
     '''
 def createFreeform():
-    '''public XSLFFreeformShape createFreeform()
+    '''returns XSLFFreeformShape\n\n
+    createFreeform()\n
     '''
 def createTextBox():
-    '''public XSLFTextBox createTextBox()
+    '''returns XSLFTextBox\n\n
+    createTextBox()\n
     '''
 def createConnector():
-    '''public XSLFConnectorShape createConnector()
+    '''returns XSLFConnectorShape\n\n
+    createConnector()\n
     '''
 def createGroup():
-    '''public XSLFGroupShape createGroup()
+    '''returns XSLFGroupShape\n\n
+    createGroup()\n
     '''
 def createPicture():
-    '''public XSLFPictureShape createPicture(final PictureData pictureData)
+    '''returns XSLFPictureShape\n\n
+    createPicture(final PictureData pictureData)\n
     '''
 def createTable():
-    '''public XSLFTable createTable()
-    public XSLFTable createTable(final int numRows, final int numCols)
+    '''returns XSLFTable\n\n
+    createTable()\n
+    createTable(final int numRows, final int numCols)\n
     '''
 def setFlipHorizontal():
-    '''public void setFlipHorizontal(final boolean flip)
+    '''returns None\n\n
+    setFlipHorizontal(final boolean flip)\n
     '''
 def setFlipVertical():
-    '''public void setFlipVertical(final boolean flip)
+    '''returns None\n\n
+    setFlipVertical(final boolean flip)\n
     '''
 def getFlipHorizontal():
-    '''public boolean getFlipHorizontal()
+    '''returns boolean\n\n
+    getFlipHorizontal()\n
     '''
 def getFlipVertical():
-    '''public boolean getFlipVertical()
+    '''returns boolean\n\n
+    getFlipVertical()\n
     '''
 def setRotation():
-    '''public void setRotation(final double theta)
+    '''returns None\n\n
+    setRotation(final double theta)\n
     '''
 def getRotation():
-    '''public double getRotation()
+    '''returns double\n\n
+    getRotation()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def addShape():
-    '''public void addShape(final XSLFShape shape)
+    '''returns None\n\n
+    addShape(final XSLFShape shape)\n
     '''

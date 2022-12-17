@@ -1,51 +1,65 @@
-def SimpleElementValue():
-    '''public SimpleElementValue(final int type, final ConstantPool cpGen, final int value)
-    public SimpleElementValue(final int type, final ConstantPool cpGen, final long value)
-    public SimpleElementValue(final int type, final ConstantPool cpGen, final double value)
-    public SimpleElementValue(final int type, final ConstantPool cpGen, final float value)
-    public SimpleElementValue(final int type, final ConstantPool cpGen, final short value)
-    public SimpleElementValue(final int type, final ConstantPool cpGen, final byte value)
-    public SimpleElementValue(final int type, final ConstantPool cpGen, final char value)
-    public SimpleElementValue(final int type, final ConstantPool cpGen, final boolean value)
-    public SimpleElementValue(final int type, final ConstantPool cpGen, final String value)
-    public SimpleElementValue(final SimpleElementValue value, final ConstantPool cpool, final boolean copyPoolEntries)
+def ():
+    '''returns SimpleElementValue\n\n
+    (final int type, final ConstantPool cpGen, final int value)\n
+    (final int type, final ConstantPool cpGen, final long value)\n
+    (final int type, final ConstantPool cpGen, final double value)\n
+    (final int type, final ConstantPool cpGen, final float value)\n
+    (final int type, final ConstantPool cpGen, final short value)\n
+    (final int type, final ConstantPool cpGen, final byte value)\n
+    (final int type, final ConstantPool cpGen, final char value)\n
+    (final int type, final ConstantPool cpGen, final boolean value)\n
+    (final int type, final ConstantPool cpGen, final String value)\n
+    (final SimpleElementValue value, final ConstantPool cpool, final boolean copyPoolEntries)\n
     '''
 def getValueByte():
-    '''public byte getValueByte()
+    '''returns byte\n\n
+    getValueByte()\n
     '''
 def getValueChar():
-    '''public char getValueChar()
+    '''returns char\n\n
+    getValueChar()\n
     '''
 def getValueLong():
-    '''public long getValueLong()
+    '''returns long\n\n
+    getValueLong()\n
     '''
 def getValueFloat():
-    '''public float getValueFloat()
+    '''returns float\n\n
+    getValueFloat()\n
     '''
 def getValueDouble():
-    '''public double getValueDouble()
+    '''returns double\n\n
+    getValueDouble()\n
     '''
 def getValueBoolean():
-    '''public boolean getValueBoolean()
+    '''returns boolean\n\n
+    getValueBoolean()\n
     '''
 def getValueShort():
-    '''public short getValueShort()
+    '''returns short\n\n
+    getValueShort()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def getValueString():
-    '''public String getValueString()
+    '''returns String\n\n
+    getValueString()\n
     '''
 def getValueInt():
-    '''public int getValueInt()
+    '''returns int\n\n
+    getValueInt()\n
     '''
 def stringifyValue():
-    '''public String stringifyValue()
+    '''returns String\n\n
+    stringifyValue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream dos)
+    '''returns None\n\n
+    dump(final DataOutputStream dos)\n
     '''

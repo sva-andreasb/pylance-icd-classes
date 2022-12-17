@@ -3,64 +3,84 @@ XML_PREFIX = "String  \"xml\""
 XMLNS_PREFIX = "String  \"xmlns\""
 XMLNS_STRING = "String  \"xmlns:\""
 XMLNS_URI = "String  \"http://www.w3.org/2000/xmlns/\""
-def Sax2Dom():
-    '''public Sax2Dom()
-    public Sax2Dom(final Node root)
+def ():
+    '''returns Sax2Dom\n\n
+    ()\n
+    (final Node root)\n
     '''
 def getDOM():
-    '''public Node getDOM()
+    '''returns Node\n\n
+    getDOM()\n
     '''
 def characters():
-    '''public void characters(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    characters(final char[] ch, final int start, final int length)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def startElement():
-    '''public void startElement(final String namespace, final String localName, final String qName, final Attributes attrs)
+    '''returns None\n\n
+    startElement(final String namespace, final String localName, final String qName, final Attributes attrs)\n
     '''
 def endElement():
-    '''public void endElement(final String namespace, final String localName, final String qName)
+    '''returns None\n\n
+    endElement(final String namespace, final String localName, final String qName)\n
     '''
 def startPrefixMapping():
-    '''public void startPrefixMapping(final String prefix, final String uri)
+    '''returns None\n\n
+    startPrefixMapping(final String prefix, final String uri)\n
     '''
 def endPrefixMapping():
-    '''public void endPrefixMapping(final String prefix)
+    '''returns None\n\n
+    endPrefixMapping(final String prefix)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    ignorableWhitespace(final char[] ch, final int start, final int length)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String target, final String data)
+    '''returns None\n\n
+    processingInstruction(final String target, final String data)\n
     '''
 def setDocumentLocator():
-    '''public void setDocumentLocator(final Locator locator)
+    '''returns None\n\n
+    setDocumentLocator(final Locator locator)\n
     '''
 def skippedEntity():
-    '''public void skippedEntity(final String name)
+    '''returns None\n\n
+    skippedEntity(final String name)\n
     '''
 def comment():
-    '''public void comment(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    comment(final char[] ch, final int start, final int length)\n
     '''
 def startCDATA():
-    '''public void startCDATA()
+    '''returns None\n\n
+    startCDATA()\n
     '''
 def endCDATA():
-    '''public void endCDATA()
+    '''returns None\n\n
+    endCDATA()\n
     '''
 def startEntity():
-    '''public void startEntity(final String name)
+    '''returns None\n\n
+    startEntity(final String name)\n
     '''
 def endEntity():
-    '''public void endEntity(final String name)
+    '''returns None\n\n
+    endEntity(final String name)\n
     '''
 def startDTD():
-    '''public void startDTD(final String name, final String publicId, final String systemId)
+    '''returns None\n\n
+    startDTD(final String name, final String publicId, final String systemId)\n
     '''
 def endDTD():
-    '''public void endDTD()
+    '''returns None\n\n
+    endDTD()\n
     '''

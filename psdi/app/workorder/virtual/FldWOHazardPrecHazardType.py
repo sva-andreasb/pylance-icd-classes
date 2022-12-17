@@ -1,3 +1,4 @@
-def FldWOHazardPrecHazardType():
-    '''public FldWOHazardPrecHazardType(final MboValue mbv)
+def ():
+    '''returns FldWOHazardPrecHazardType\n\n
+    (final MboValue mbv)\n
     '''

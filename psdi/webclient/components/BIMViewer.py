@@ -36,183 +36,229 @@ RECORD_UNKNOWN = "int  0"
 RECORD_ASSET = "int  1"
 RECORD_LOCATION = "int  2"
 RECORD_MODEL = "int  3"
-def BIMViewer():
-    '''public BIMViewer()
+def ():
+    '''returns BIMViewer\n\n
+    ()\n
     '''
 def instantiatedatasrc():
-    '''public void instantiatedatasrc()
+    '''returns None\n\n
+    instantiatedatasrc()\n
     '''
 def handleEvent():
-    '''public int handleEvent(final String methodName, final WebClientEvent event)
+    '''returns int\n\n
+    handleEvent(final String methodName, final WebClientEvent event)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def checkVisibility():
-    '''public int checkVisibility()
+    '''returns int\n\n
+    checkVisibility()\n
     '''
 def eventSelect():
-    '''public int eventSelect()
+    '''returns int\n\n
+    eventSelect()\n
     '''
 def eventRezise():
-    '''public void eventRezise()
+    '''returns None\n\n
+    eventRezise()\n
     '''
 def eventReziseDlg():
-    '''public void eventReziseDlg()
+    '''returns None\n\n
+    eventReziseDlg()\n
     '''
 def jspGetMultiSelection():
-    '''public Set<String> jspGetMultiSelection()
+    '''returns Set<String>\n\n
+    jspGetMultiSelection()\n
     '''
 def jspGetCurrentDataMM():
-    '''public String jspGetCurrentDataMM()
+    '''returns String\n\n
+    jspGetCurrentDataMM()\n
     '''
 def jspGetCurrentDataFrame():
-    '''public String jspGetCurrentDataFrame()
+    '''returns String\n\n
+    jspGetCurrentDataFrame()\n
     '''
 def jspScript():
-    '''public String jspScript(final String id)
+    '''returns String\n\n
+    jspScript(final String id)\n
     '''
 def scriptResize():
-    '''public String scriptResize()
+    '''returns String\n\n
+    scriptResize()\n
     '''
 def jspGetScriptModelList():
-    '''public String jspGetScriptModelList()
+    '''returns String\n\n
+    jspGetScriptModelList()\n
     '''
 def scriptFooter():
-    '''public String scriptFooter()
+    '''returns String\n\n
+    scriptFooter()\n
     '''
 def jspGetRezieOption():
-    '''public int jspGetRezieOption()
+    '''returns int\n\n
+    jspGetRezieOption()\n
     '''
 def jspGetRezieDlgOption():
-    '''public int jspGetRezieDlgOption()
+    '''returns int\n\n
+    jspGetRezieDlgOption()\n
     '''
 def jspGetStatusUpdate():
-    '''public String jspGetStatusUpdate()
+    '''returns String\n\n
+    jspGetStatusUpdate()\n
     '''
 def jspGetViewerTop():
-    '''public int jspGetViewerTop()
+    '''returns int\n\n
+    jspGetViewerTop()\n
     '''
 def jspHasStatusUpdate():
-    '''public boolean jspHasStatusUpdate()
+    '''returns boolean\n\n
+    jspHasStatusUpdate()\n
     '''
 def getAppType():
-    '''public int getAppType()
+    '''returns int\n\n
+    getAppType()\n
     '''
 def getBackgroundColor():
-    '''public String getBackgroundColor()
+    '''returns String\n\n
+    getBackgroundColor()\n
     '''
 def getBoarderColor():
-    '''public String getBoarderColor()
+    '''returns String\n\n
+    getBoarderColor()\n
     '''
 def getForegroundColor():
-    '''public String getForegroundColor()
+    '''returns String\n\n
+    getForegroundColor()\n
     '''
 def getHighlightColor():
-    '''public String getHighlightColor()
+    '''returns String\n\n
+    getHighlightColor()\n
     '''
 def getBinding():
-    '''public String getBinding()
+    '''returns String\n\n
+    getBinding()\n
     '''
 def getCurrentSelection():
-    '''public Set<String> getCurrentSelection()
+    '''returns Set<String>\n\n
+    getCurrentSelection()\n
     '''
 def getHeight():
-    '''public int getHeight()
+    '''returns int\n\n
+    getHeight()\n
     '''
 def getControlTop():
-    '''public int getControlTop()
+    '''returns int\n\n
+    getControlTop()\n
     '''
 def getControlLeft():
-    '''public int getControlLeft()
+    '''returns int\n\n
+    getControlLeft()\n
     '''
 def getMboKey():
-    '''public String getMboKey()
+    '''returns String\n\n
+    getMboKey()\n
     '''
 def getLeftOffset():
-    '''public int getLeftOffset()
+    '''returns int\n\n
+    getLeftOffset()\n
     '''
 def getLookupValue():
-    '''public String getLookupValue()
+    '''returns String\n\n
+    getLookupValue()\n
     '''
 def getMxVersion():
-    '''public int getMxVersion()
+    '''returns int\n\n
+    getMxVersion()\n
     '''
 def getRecordType():
-    '''public int getRecordType()
+    '''returns int\n\n
+    getRecordType()\n
     '''
 def getSiteId():
-    '''public String getSiteId()
+    '''returns String\n\n
+    getSiteId()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def getViewerType():
-    '''public String getViewerType()
+    '''returns String\n\n
+    getViewerType()\n
     '''
 def getWidth():
-    '''public String getWidth()
+    '''returns String\n\n
+    getWidth()\n
     '''
 def isForceUpdate():
-    '''public boolean isForceUpdate()
+    '''returns boolean\n\n
+    isForceUpdate()\n
     '''
 def isHasMultiSelect():
-    '''public boolean isHasMultiSelect()
+    '''returns boolean\n\n
+    isHasMultiSelect()\n
     '''
 def isModelListChanged():
-    '''public boolean isModelListChanged()
+    '''returns boolean\n\n
+    isModelListChanged()\n
     '''
 def isMultiSelectAllowed():
-    '''public boolean isMultiSelectAllowed()
+    '''returns boolean\n\n
+    isMultiSelectAllowed()\n
     '''
 def isSelectionValid():
-    '''public boolean isSelectionValid()
+    '''returns boolean\n\n
+    isSelectionValid()\n
     '''
 def forceUpdate():
-    '''public void forceUpdate()
+    '''returns None\n\n
+    forceUpdate()\n
     '''
 def setModelListChanged():
-    '''public void setModelListChanged(final boolean state)
+    '''returns None\n\n
+    setModelListChanged(final boolean state)\n
     '''
 def isValueChanged():
-    '''public boolean isValueChanged()
+    '''returns boolean\n\n
+    isValueChanged()\n
     '''
 def setValueChanged():
-    '''public void setValueChanged(final boolean state)
+    '''returns None\n\n
+    setValueChanged(final boolean state)\n
     '''
 def isControlVisible():
-    '''public boolean isControlVisible()
+    '''returns boolean\n\n
+    isControlVisible()\n
     '''
 def setControlVisible():
-    '''public void setControlVisible(final boolean vis)
+    '''returns None\n\n
+    setControlVisible(final boolean vis)\n
     '''
 def setMultiSelect():
-    '''public void setMultiSelect(final String modelLocation, final Set<String> selection)
+    '''returns None\n\n
+    setMultiSelect(final String modelLocation, final Set<String> selection)\n
     '''
 def lookupLocation():
-    '''public LocationRemote lookupLocation(final String location)
-    public static LocationRemote lookupLocation(final MboRemote mbo, final String location, final String siteId)
+    '''returns LocationRemote\n\n
+    lookupLocation(final String location)\n
     '''
 def lookupLocationFromModelId():
-    '''public LocationRemote lookupLocationFromModelId(final String modelId)
-    public LocationRemote lookupLocationFromModelId(final String modelLocation, final String modelId)
-    public LocationRemote lookupLocationFromModelId(final String modelLocation, final String modelId, final String siteId)
+    '''returns LocationRemote\n\n
+    lookupLocationFromModelId(final String modelId)\n
+    lookupLocationFromModelId(final String modelLocation, final String modelId)\n
+    lookupLocationFromModelId(final String modelLocation, final String modelId, final String siteId)\n
     '''
 def lookupLocationModelId():
-    '''public String lookupLocationModelId(final String location, final String siteId)
+    '''returns String\n\n
+    lookupLocationModelId(final String location, final String siteId)\n
     '''
 def lookupLocationFromWO():
-    '''public String lookupLocationFromWO(final String woKey, final String siteId)
-    '''
-def findByRenderId():
-    '''public static BaseInstance findByRenderId(final BaseInstance root, final String renderId)
-    '''
-def lookupLocations():
-    '''public static LocationSetRemote lookupLocations(final MboRemote mbo, final String location, final String siteId)
-    '''
-def lookupAssetsAtLocation():
-    '''public static MboSetRemote lookupAssetsAtLocation(final MboRemote locationMbo)
+    '''returns String\n\n
+    lookupLocationFromWO(final String woKey, final String siteId)\n
     '''

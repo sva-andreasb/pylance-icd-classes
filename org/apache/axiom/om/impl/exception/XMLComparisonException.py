@@ -1,5 +1,6 @@
-def XMLComparisonException():
-    '''public XMLComparisonException(final String message)
-    public XMLComparisonException(final Throwable cause)
-    public XMLComparisonException(final String message, final Throwable cause)
+def ():
+    '''returns XMLComparisonException\n\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
     '''

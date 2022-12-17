@@ -1,9 +1,12 @@
-def RtfFontList():
-    '''public RtfFontList(final RtfDocument doc)
+def ():
+    '''returns RtfFontList\n\n
+    (final RtfDocument doc)\n
     '''
 def getFontNumber():
-    '''public int getFontNumber(final RtfFont font)
+    '''returns int\n\n
+    getFontNumber(final RtfFont font)\n
     '''
 def writeDefinition():
-    '''public byte[] writeDefinition()
+    '''returns byte[]\n\n
+    writeDefinition()\n
     '''

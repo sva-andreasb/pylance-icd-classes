@@ -1,7 +1,9 @@
-def DummyNanoClock():
-    '''public DummyNanoClock()
-    public DummyNanoClock(final long fixedNanoTime)
+def ():
+    '''returns DummyNanoClock\n\n
+    ()\n
+    (final long fixedNanoTime)\n
     '''
 def nanoTime():
-    '''public long nanoTime()
+    '''returns long\n\n
+    nanoTime()\n
     '''

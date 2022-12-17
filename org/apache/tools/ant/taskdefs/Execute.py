@@ -1,95 +1,95 @@
 INVALID = "int  Integer.MAX_VALUE"
 def setSpawn():
-    '''public void setSpawn(final boolean spawn)
+    '''returns None\n\n
+    setSpawn(final boolean spawn)\n
     '''
-def getProcEnvironment():
-    '''public static synchronized Vector getProcEnvironment()
-    '''
-def toString():
-    '''public static String toString(final ByteArrayOutputStream bos)
-    '''
-def Execute():
-    '''public Execute()
-    public Execute(final ExecuteStreamHandler streamHandler)
-    public Execute(final ExecuteStreamHandler streamHandler, final ExecuteWatchdog watchdog)
+def ():
+    '''returns VmsCommandLauncher\n\n
+    ()\n
+    (final ExecuteStreamHandler streamHandler)\n
+    (final ExecuteStreamHandler streamHandler, final ExecuteWatchdog watchdog)\n
+    ()\n
+    ()\n
     '''
 def setStreamHandler():
-    '''public void setStreamHandler(final ExecuteStreamHandler streamHandler)
+    '''returns None\n\n
+    setStreamHandler(final ExecuteStreamHandler streamHandler)\n
     '''
 def getCommandline():
-    '''public String[] getCommandline()
+    '''returns String[]\n\n
+    getCommandline()\n
     '''
 def setCommandline():
-    '''public void setCommandline(final String[] commandline)
+    '''returns None\n\n
+    setCommandline(final String[] commandline)\n
     '''
 def setNewenvironment():
-    '''public void setNewenvironment(final boolean newenv)
+    '''returns None\n\n
+    setNewenvironment(final boolean newenv)\n
     '''
 def getEnvironment():
-    '''public String[] getEnvironment()
+    '''returns String[]\n\n
+    getEnvironment()\n
     '''
 def setEnvironment():
-    '''public void setEnvironment(final String[] env)
+    '''returns None\n\n
+    setEnvironment(final String[] env)\n
     '''
 def setWorkingDirectory():
-    '''public void setWorkingDirectory(final File wd)
+    '''returns None\n\n
+    setWorkingDirectory(final File wd)\n
     '''
 def getWorkingDirectory():
-    '''public File getWorkingDirectory()
+    '''returns File\n\n
+    getWorkingDirectory()\n
     '''
 def setAntRun():
-    '''public void setAntRun(final Project project)
+    '''returns None\n\n
+    setAntRun(final Project project)\n
     '''
 def setVMLauncher():
-    '''public void setVMLauncher(final boolean useVMLauncher)
-    '''
-def launch():
-    '''public static Process launch(final Project project, final String[] command, final String[] env, final File dir, final boolean useVM)
+    '''returns None\n\n
+    setVMLauncher(final boolean useVMLauncher)\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def spawn():
-    '''public void spawn()
+    '''returns None\n\n
+    spawn()\n
     '''
 def write():
-    '''public void write(final int b)
+    '''returns None\n\n
+    write(final int b)\n
     '''
 def getExitValue():
-    '''public int getExitValue()
+    '''returns int\n\n
+    getExitValue()\n
     '''
 def isFailure():
-    '''public static boolean isFailure(final int exitValue)
-    public boolean isFailure()
+    '''returns boolean\n\n
+    isFailure()\n
     '''
 def killedProcess():
-    '''public boolean killedProcess()
-    '''
-def runCommand():
-    '''public static void runCommand(final Task task, final String[] cmdline)
-    '''
-def closeStreams():
-    '''public static void closeStreams(final Process process)
+    '''returns boolean\n\n
+    killedProcess()\n
     '''
 def exec():
-    '''public Process exec(final Project project, final String[] cmd, final String[] env)
-    public Process exec(final Project project, final String[] cmd, final String[] env, final File workingDir)
-    public Process exec(final Project project, final String[] cmd, final String[] env, final File workingDir)
-    public Process exec(final Project project, final String[] cmd, final String[] env)
-    public Process exec(final Project project, final String[] cmd, final String[] env, final File workingDir)
-    public Process exec(final Project project, final String[] cmd, final String[] env, final File workingDir)
-    public Process exec(final Project project, final String[] cmd, final String[] env, final File workingDir)
-    public Process exec(final Project project, final String[] cmd, final String[] env, final File workingDir)
-    public Process exec(final Project project, final String[] cmd, final String[] env, final File workingDir)
-    public Process exec(final Project project, final String[] cmd, final String[] env)
-    public Process exec(final Project project, final String[] cmd, final String[] env, final File workingDir)
-    '''
-def Java13CommandLauncher():
-    '''public Java13CommandLauncher()
-    '''
-def VmsCommandLauncher():
-    '''public VmsCommandLauncher()
+    '''returns Process\n\n
+    exec(final Project project, final String[] cmd, final String[] env)\n
+    exec(final Project project, final String[] cmd, final String[] env, final File workingDir)\n
+    exec(final Project project, final String[] cmd, final String[] env, final File workingDir)\n
+    exec(final Project project, final String[] cmd, final String[] env)\n
+    exec(final Project project, final String[] cmd, final String[] env, final File workingDir)\n
+    exec(final Project project, final String[] cmd, final String[] env, final File workingDir)\n
+    exec(final Project project, final String[] cmd, final String[] env, final File workingDir)\n
+    exec(final Project project, final String[] cmd, final String[] env, final File workingDir)\n
+    exec(final Project project, final String[] cmd, final String[] env, final File workingDir)\n
+    exec(final Project project, final String[] cmd, final String[] env)\n
+    exec(final Project project, final String[] cmd, final String[] env, final File workingDir)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

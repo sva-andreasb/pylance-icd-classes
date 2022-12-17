@@ -1,3 +1,4 @@
-def Socks5ServerEncoder():
-    '''public Socks5ServerEncoder(final Socks5AddressEncoder addressEncoder)
+def ():
+    '''returns Socks5ServerEncoder\n\n
+    (final Socks5AddressEncoder addressEncoder)\n
     '''

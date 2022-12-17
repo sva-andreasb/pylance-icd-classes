@@ -1,4 +1,5 @@
-def PlusPPriceBookService():
-    '''public PlusPPriceBookService()
-    public PlusPPriceBookService(final MXServer mxServer)
+def ():
+    '''returns PlusPPriceBookService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

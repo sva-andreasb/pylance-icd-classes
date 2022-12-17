@@ -10,106 +10,140 @@ TRANSPARENT = "int  1"
 OPAQUE = "int  2"
 ALTERNATE = "int  1"
 WINDING = "int  2"
-def MetaState():
-    '''public MetaState()
-    public MetaState(final MetaState state)
+def ():
+    '''returns MetaState\n\n
+    ()\n
+    (final MetaState state)\n
     '''
 def setMetaState():
-    '''public void setMetaState(final MetaState state)
+    '''returns None\n\n
+    setMetaState(final MetaState state)\n
     '''
 def addMetaObject():
-    '''public void addMetaObject(final MetaObject object)
+    '''returns None\n\n
+    addMetaObject(final MetaObject object)\n
     '''
 def selectMetaObject():
-    '''public void selectMetaObject(final int index, final PdfContentByte cb)
+    '''returns None\n\n
+    selectMetaObject(final int index, final PdfContentByte cb)\n
     '''
 def deleteMetaObject():
-    '''public void deleteMetaObject(final int index)
+    '''returns None\n\n
+    deleteMetaObject(final int index)\n
     '''
 def saveState():
-    '''public void saveState(final PdfContentByte cb)
+    '''returns None\n\n
+    saveState(final PdfContentByte cb)\n
     '''
 def restoreState():
-    '''public void restoreState(final int index, final PdfContentByte cb)
+    '''returns None\n\n
+    restoreState(final int index, final PdfContentByte cb)\n
     '''
 def transformX():
-    '''public float transformX(final int x)
+    '''returns float\n\n
+    transformX(final int x)\n
     '''
 def transformY():
-    '''public float transformY(final int y)
+    '''returns float\n\n
+    transformY(final int y)\n
     '''
 def setScalingX():
-    '''public void setScalingX(final float scalingX)
+    '''returns None\n\n
+    setScalingX(final float scalingX)\n
     '''
 def setScalingY():
-    '''public void setScalingY(final float scalingY)
+    '''returns None\n\n
+    setScalingY(final float scalingY)\n
     '''
 def setOffsetWx():
-    '''public void setOffsetWx(final int offsetWx)
+    '''returns None\n\n
+    setOffsetWx(final int offsetWx)\n
     '''
 def setOffsetWy():
-    '''public void setOffsetWy(final int offsetWy)
+    '''returns None\n\n
+    setOffsetWy(final int offsetWy)\n
     '''
 def setExtentWx():
-    '''public void setExtentWx(final int extentWx)
+    '''returns None\n\n
+    setExtentWx(final int extentWx)\n
     '''
 def setExtentWy():
-    '''public void setExtentWy(final int extentWy)
+    '''returns None\n\n
+    setExtentWy(final int extentWy)\n
     '''
 def transformAngle():
-    '''public float transformAngle(final float angle)
+    '''returns float\n\n
+    transformAngle(final float angle)\n
     '''
 def setCurrentPoint():
-    '''public void setCurrentPoint(final Point p)
+    '''returns None\n\n
+    setCurrentPoint(final Point p)\n
     '''
 def getCurrentPoint():
-    '''public Point getCurrentPoint()
+    '''returns Point\n\n
+    getCurrentPoint()\n
     '''
 def getCurrentBrush():
-    '''public MetaBrush getCurrentBrush()
+    '''returns MetaBrush\n\n
+    getCurrentBrush()\n
     '''
 def getCurrentPen():
-    '''public MetaPen getCurrentPen()
+    '''returns MetaPen\n\n
+    getCurrentPen()\n
     '''
 def getCurrentFont():
-    '''public MetaFont getCurrentFont()
+    '''returns MetaFont\n\n
+    getCurrentFont()\n
     '''
 def getCurrentBackgroundColor():
-    '''public Color getCurrentBackgroundColor()
+    '''returns Color\n\n
+    getCurrentBackgroundColor()\n
     '''
 def setCurrentBackgroundColor():
-    '''public void setCurrentBackgroundColor(final Color currentBackgroundColor)
+    '''returns None\n\n
+    setCurrentBackgroundColor(final Color currentBackgroundColor)\n
     '''
 def getCurrentTextColor():
-    '''public Color getCurrentTextColor()
+    '''returns Color\n\n
+    getCurrentTextColor()\n
     '''
 def setCurrentTextColor():
-    '''public void setCurrentTextColor(final Color currentTextColor)
+    '''returns None\n\n
+    setCurrentTextColor(final Color currentTextColor)\n
     '''
 def getBackgroundMode():
-    '''public int getBackgroundMode()
+    '''returns int\n\n
+    getBackgroundMode()\n
     '''
 def setBackgroundMode():
-    '''public void setBackgroundMode(final int backgroundMode)
+    '''returns None\n\n
+    setBackgroundMode(final int backgroundMode)\n
     '''
 def getTextAlign():
-    '''public int getTextAlign()
+    '''returns int\n\n
+    getTextAlign()\n
     '''
 def setTextAlign():
-    '''public void setTextAlign(final int textAlign)
+    '''returns None\n\n
+    setTextAlign(final int textAlign)\n
     '''
 def getPolyFillMode():
-    '''public int getPolyFillMode()
+    '''returns int\n\n
+    getPolyFillMode()\n
     '''
 def setPolyFillMode():
-    '''public void setPolyFillMode(final int polyFillMode)
+    '''returns None\n\n
+    setPolyFillMode(final int polyFillMode)\n
     '''
 def setLineJoinRectangle():
-    '''public void setLineJoinRectangle(final PdfContentByte cb)
+    '''returns None\n\n
+    setLineJoinRectangle(final PdfContentByte cb)\n
     '''
 def setLineJoinPolygon():
-    '''public void setLineJoinPolygon(final PdfContentByte cb)
+    '''returns None\n\n
+    setLineJoinPolygon(final PdfContentByte cb)\n
     '''
 def getLineNeutral():
-    '''public boolean getLineNeutral()
+    '''returns boolean\n\n
+    getLineNeutral()\n
     '''

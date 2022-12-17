@@ -16,93 +16,123 @@ NON_CSS_ORIGIN = "short  16384"
 AUTHOR_ORIGIN = "short  24576"
 INLINE_AUTHOR_ORIGIN = "short  Short.MIN_VALUE"
 OVERRIDE_ORIGIN = "short  -24576"
-def StyleMap():
-    '''public StyleMap(final int size)
+def ():
+    '''returns StyleMap\n\n
+    (final int size)\n
     '''
 def hasFixedCascadedValues():
-    '''public boolean hasFixedCascadedValues()
+    '''returns boolean\n\n
+    hasFixedCascadedValues()\n
     '''
 def setFixedCascadedStyle():
-    '''public void setFixedCascadedStyle(final boolean b)
+    '''returns None\n\n
+    setFixedCascadedStyle(final boolean b)\n
     '''
 def getValue():
-    '''public Value getValue(final int i)
+    '''returns Value\n\n
+    getValue(final int i)\n
     '''
 def getMask():
-    '''public short getMask(final int i)
+    '''returns short\n\n
+    getMask(final int i)\n
     '''
 def isImportant():
-    '''public boolean isImportant(final int i)
+    '''returns boolean\n\n
+    isImportant(final int i)\n
     '''
 def isComputed():
-    '''public boolean isComputed(final int i)
+    '''returns boolean\n\n
+    isComputed(final int i)\n
     '''
 def isNullCascaded():
-    '''public boolean isNullCascaded(final int i)
+    '''returns boolean\n\n
+    isNullCascaded(final int i)\n
     '''
 def isInherited():
-    '''public boolean isInherited(final int i)
+    '''returns boolean\n\n
+    isInherited(final int i)\n
     '''
 def getOrigin():
-    '''public short getOrigin(final int i)
+    '''returns short\n\n
+    getOrigin(final int i)\n
     '''
 def isColorRelative():
-    '''public boolean isColorRelative(final int i)
+    '''returns boolean\n\n
+    isColorRelative(final int i)\n
     '''
 def isParentRelative():
-    '''public boolean isParentRelative(final int i)
+    '''returns boolean\n\n
+    isParentRelative(final int i)\n
     '''
 def isLineHeightRelative():
-    '''public boolean isLineHeightRelative(final int i)
+    '''returns boolean\n\n
+    isLineHeightRelative(final int i)\n
     '''
 def isFontSizeRelative():
-    '''public boolean isFontSizeRelative(final int i)
+    '''returns boolean\n\n
+    isFontSizeRelative(final int i)\n
     '''
 def isBlockWidthRelative():
-    '''public boolean isBlockWidthRelative(final int i)
+    '''returns boolean\n\n
+    isBlockWidthRelative(final int i)\n
     '''
 def isBlockHeightRelative():
-    '''public boolean isBlockHeightRelative(final int i)
+    '''returns boolean\n\n
+    isBlockHeightRelative(final int i)\n
     '''
 def putValue():
-    '''public void putValue(final int i, final Value v)
+    '''returns None\n\n
+    putValue(final int i, final Value v)\n
     '''
 def putMask():
-    '''public void putMask(final int i, final short m)
+    '''returns None\n\n
+    putMask(final int i, final short m)\n
     '''
 def putImportant():
-    '''public void putImportant(final int i, final boolean b)
+    '''returns None\n\n
+    putImportant(final int i, final boolean b)\n
     '''
 def putOrigin():
-    '''public void putOrigin(final int i, final short val)
+    '''returns None\n\n
+    putOrigin(final int i, final short val)\n
     '''
 def putComputed():
-    '''public void putComputed(final int i, final boolean b)
+    '''returns None\n\n
+    putComputed(final int i, final boolean b)\n
     '''
 def putNullCascaded():
-    '''public void putNullCascaded(final int i, final boolean b)
+    '''returns None\n\n
+    putNullCascaded(final int i, final boolean b)\n
     '''
 def putInherited():
-    '''public void putInherited(final int i, final boolean b)
+    '''returns None\n\n
+    putInherited(final int i, final boolean b)\n
     '''
 def putColorRelative():
-    '''public void putColorRelative(final int i, final boolean b)
+    '''returns None\n\n
+    putColorRelative(final int i, final boolean b)\n
     '''
 def putParentRelative():
-    '''public void putParentRelative(final int i, final boolean b)
+    '''returns None\n\n
+    putParentRelative(final int i, final boolean b)\n
     '''
 def putLineHeightRelative():
-    '''public void putLineHeightRelative(final int i, final boolean b)
+    '''returns None\n\n
+    putLineHeightRelative(final int i, final boolean b)\n
     '''
 def putFontSizeRelative():
-    '''public void putFontSizeRelative(final int i, final boolean b)
+    '''returns None\n\n
+    putFontSizeRelative(final int i, final boolean b)\n
     '''
 def putBlockWidthRelative():
-    '''public void putBlockWidthRelative(final int i, final boolean b)
+    '''returns None\n\n
+    putBlockWidthRelative(final int i, final boolean b)\n
     '''
 def putBlockHeightRelative():
-    '''public void putBlockHeightRelative(final int i, final boolean b)
+    '''returns None\n\n
+    putBlockHeightRelative(final int i, final boolean b)\n
     '''
 def toString():
-    '''public String toString(final CSSEngine eng)
+    '''returns String\n\n
+    toString(final CSSEngine eng)\n
     '''

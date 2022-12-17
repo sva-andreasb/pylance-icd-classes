@@ -8,160 +8,208 @@ DROP_AFTEREND = "String  \"afterEnd\""
 DROP_INVALIDTARGET = "String  \"INVALIDTARGET\""
 NEWAPP_SECURITY_GROUP_PROPERTY = "String  \"webclient.designer.group\""
 DESIGNER_SELECTED_CLASS = "String  \"designer_selected\""
-def DesignerAppBean():
-    '''public DesignerAppBean()
+def ():
+    '''returns DesignerAppBean\n\n
+    ()\n
     '''
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def initializeReferences():
-    '''public void initializeReferences()
+    '''returns None\n\n
+    initializeReferences()\n
     '''
 def SHOWALLCTL():
-    '''public int SHOWALLCTL()
+    '''returns int\n\n
+    SHOWALLCTL()\n
     '''
 def SHOWCONDUI():
-    '''public int SHOWCONDUI()
+    '''returns int\n\n
+    SHOWCONDUI()\n
     '''
 def designcontextmenu():
-    '''public int designcontextmenu()
+    '''returns int\n\n
+    designcontextmenu()\n
     '''
 def PROPERTIES():
-    '''public int PROPERTIES()
+    '''returns int\n\n
+    PROPERTIES()\n
     '''
 def CONTROLS():
-    '''public int CONTROLS()
+    '''returns int\n\n
+    CONTROLS()\n
     '''
 def APPCONTENT():
-    '''public int APPCONTENT()
+    '''returns int\n\n
+    APPCONTENT()\n
     '''
 def closepropertydialog():
-    '''public void closepropertydialog()
+    '''returns None\n\n
+    closepropertydialog()\n
     '''
 def closewindows():
-    '''public void closewindows()
+    '''returns None\n\n
+    closewindows()\n
     '''
 def IMPORT():
-    '''public int IMPORT()
+    '''returns int\n\n
+    IMPORT()\n
     '''
 def DELETENODE():
-    '''public int DELETENODE()
+    '''returns int\n\n
+    DELETENODE()\n
     '''
 def CUTNODE():
-    '''public int CUTNODE()
+    '''returns int\n\n
+    CUTNODE()\n
     '''
 def COPYNODE():
-    '''public int COPYNODE()
+    '''returns int\n\n
+    COPYNODE()\n
     '''
 def PASTENODE():
-    '''public int PASTENODE()
+    '''returns int\n\n
+    PASTENODE()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def EXPORT():
-    '''public int EXPORT()
+    '''returns int\n\n
+    EXPORT()\n
     '''
 def INSERT():
-    '''public int INSERT()
+    '''returns int\n\n
+    INSERT()\n
     '''
 def newapp():
-    '''public int newapp()
+    '''returns int\n\n
+    newapp()\n
     '''
 def DUPLICATE():
-    '''public int DUPLICATE()
+    '''returns int\n\n
+    DUPLICATE()\n
     '''
 def cancelinsert():
-    '''public int cancelinsert()
+    '''returns int\n\n
+    cancelinsert()\n
     '''
 def cancelduplicate():
-    '''public int cancelduplicate()
+    '''returns int\n\n
+    cancelduplicate()\n
     '''
 def duplicateappnow():
-    '''public int duplicateappnow()
+    '''returns int\n\n
+    duplicateappnow()\n
     '''
 def duplicateapp():
-    '''public int duplicateapp()
+    '''returns int\n\n
+    duplicateapp()\n
     '''
 def setModifiedFlag():
-    '''public void setModifiedFlag(final boolean modified)
+    '''returns None\n\n
+    setModifiedFlag(final boolean modified)\n
     '''
 def getModifiedFlag():
-    '''public boolean getModifiedFlag()
+    '''returns boolean\n\n
+    getModifiedFlag()\n
     '''
 def toBeSaved():
-    '''public boolean toBeSaved()
+    '''returns boolean\n\n
+    toBeSaved()\n
     '''
 def saveYesNoInteractionCheck():
-    '''public boolean saveYesNoInteractionCheck()
+    '''returns boolean\n\n
+    saveYesNoInteractionCheck()\n
     '''
 def saveYesNoCheck():
-    '''public boolean saveYesNoCheck()
+    '''returns boolean\n\n
+    saveYesNoCheck()\n
     '''
 def isPalleteLabelsOn():
-    '''public boolean isPalleteLabelsOn()
+    '''returns boolean\n\n
+    isPalleteLabelsOn()\n
     '''
 def setcontrollablestate():
-    '''public int setcontrollablestate()
+    '''returns int\n\n
+    setcontrollablestate()\n
     '''
 def find():
-    '''public int find()
+    '''returns int\n\n
+    find()\n
     '''
 def PREVIOUS():
-    '''public int PREVIOUS()
+    '''returns int\n\n
+    PREVIOUS()\n
     '''
 def NEXT():
-    '''public int NEXT()
+    '''returns int\n\n
+    NEXT()\n
     '''
 def getCurrentControl():
-    '''public ControlInstance getCurrentControl()
+    '''returns ControlInstance\n\n
+    getCurrentControl()\n
     '''
 def getCopyId():
-    '''public String getCopyId(final String id)
+    '''returns String\n\n
+    getCopyId(final String id)\n
     '''
 def insertcontrol():
-    '''public int insertcontrol()
+    '''returns int\n\n
+    insertcontrol()\n
     '''
 def setRefreshCanvas():
-    '''public void setRefreshCanvas()
+    '''returns None\n\n
+    setRefreshCanvas()\n
     '''
 def movecontrol():
-    '''public int movecontrol()
+    '''returns int\n\n
+    movecontrol()\n
     '''
 def selectcontrol():
-    '''public int selectcontrol()
+    '''returns int\n\n
+    selectcontrol()\n
     '''
 def selecttab():
-    '''public int selecttab()
+    '''returns int\n\n
+    selecttab()\n
     '''
 def selectControl():
-    '''public ControlInstance selectControl(final String id)
-    public ControlInstance selectControl(final String id, final boolean warn)
+    '''returns ControlInstance\n\n
+    selectControl(final String id)\n
+    selectControl(final String id, final boolean warn)\n
     '''
 def addControlLabelsToCache():
-    '''public void addControlLabelsToCache(final ControlInstance source)
+    '''returns None\n\n
+    addControlLabelsToCache(final ControlInstance source)\n
     '''
 def validateContainer():
-    '''public boolean validateContainer(final String newControlType, final String toContainerType)
+    '''returns boolean\n\n
+    validateContainer(final String newControlType, final String toContainerType)\n
     '''
 def propagateProperties():
-    '''public void propagateProperties(final ControlInstance from, final ControlInstance to)
+    '''returns None\n\n
+    propagateProperties(final ControlInstance from, final ControlInstance to)\n
     '''
 def isPropertyDialogOpen():
-    '''public boolean isPropertyDialogOpen()
+    '''returns boolean\n\n
+    isPropertyDialogOpen()\n
     '''
 def setvalue():
-    '''public int setvalue()
-    '''
-def setValue():
-    '''public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
+    '''returns int\n\n
+    setvalue()\n
     '''
 def setmobilefields():
-    '''public int setmobilefields()
+    '''returns int\n\n
+    setmobilefields()\n
     '''
 def TOGGLEVP():
-    '''public int TOGGLEVP()
+    '''returns int\n\n
+    TOGGLEVP()\n
     '''
 def getViewport():
-    '''public String getViewport()
+    '''returns String\n\n
+    getViewport()\n
     '''

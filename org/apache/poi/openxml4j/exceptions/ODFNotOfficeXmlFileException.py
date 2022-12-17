@@ -1,3 +1,4 @@
-def ODFNotOfficeXmlFileException():
-    '''public ODFNotOfficeXmlFileException(final String message)
+def ():
+    '''returns ODFNotOfficeXmlFileException\n\n
+    (final String message)\n
     '''

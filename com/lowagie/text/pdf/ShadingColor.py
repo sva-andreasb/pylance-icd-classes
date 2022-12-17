@@ -1,6 +1,8 @@
-def ShadingColor():
-    '''public ShadingColor(final PdfShadingPattern shadingPattern)
+def ():
+    '''returns ShadingColor\n\n
+    (final PdfShadingPattern shadingPattern)\n
     '''
 def getPdfShadingPattern():
-    '''public PdfShadingPattern getPdfShadingPattern()
+    '''returns PdfShadingPattern\n\n
+    getPdfShadingPattern()\n
     '''

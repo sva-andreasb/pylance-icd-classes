@@ -10,204 +10,197 @@ TOOLTRANSID = "String  \"TOOLTRANSID\""
 PLUSPGBTRANSID = "String  \"PLUSPGBTRANSID\""
 SERVICES = "String  \"SERVICES\""
 def isBillBatchWarned():
-    '''public boolean isBillBatchWarned()
+    '''returns boolean\n\n
+    isBillBatchWarned()\n
     '''
 def setBillBatchWarned():
-    '''public void setBillBatchWarned(final boolean billBatchWarned)
+    '''returns None\n\n
+    setBillBatchWarned(final boolean billBatchWarned)\n
     '''
 def isToRemoveAgreement():
-    '''public boolean isToRemoveAgreement()
+    '''returns boolean\n\n
+    isToRemoveAgreement()\n
     '''
 def setToRemoveAgreement():
-    '''public void setToRemoveAgreement(final boolean toRemoveAgreement)
-    '''
-def getYesUserInputWarnAssociatedWithBillBatch():
-    '''public static boolean getYesUserInputWarnAssociatedWithBillBatch(final UserInfo o)
-    '''
-def setYesUserInputWarnAssociatedWithBillBatch():
-    '''public static void setYesUserInputWarnAssociatedWithBillBatch(final UserInfo userInfo, final boolean b)
+    '''returns None\n\n
+    setToRemoveAgreement(final boolean toRemoveAgreement)\n
     '''
 def setUserInputWarnAssociatedWithBillBatch():
-    '''public void setUserInputWarnAssociatedWithBillBatch(final Object userInputWarnAssociatedWithBillBatch)
+    '''returns None\n\n
+    setUserInputWarnAssociatedWithBillBatch(final Object userInputWarnAssociatedWithBillBatch)\n
     '''
 def getPluspServRecTrans():
-    '''public MboRemote getPluspServRecTrans()
+    '''returns MboRemote\n\n
+    getPluspServRecTrans()\n
     '''
 def setPluspServRecTrans():
-    '''public void setPluspServRecTrans(final MboRemote pluspServRecTransOwner)
+    '''returns None\n\n
+    setPluspServRecTrans(final MboRemote pluspServRecTransOwner)\n
     '''
-def skipCopyField():
-    '''public static boolean skipCopyField(final MboValueInfo mboValueInfo)
-    '''
-def PlusPWorkorderUtil():
-    '''public PlusPWorkorderUtil(final Mbo mbo)
+def ():
+    '''returns PlusPWorkorderUtil\n\n
+    (final Mbo mbo)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def save():
-    '''public void save(final String s)
-    '''
-def getTopWOOwnerApp():
-    '''public static String getTopWOOwnerApp(final MboRemote mboRemote)
+    '''returns None\n\n
+    save(final String s)\n
     '''
 def canAddEditFeesCharges():
-    '''public boolean canAddEditFeesCharges()
+    '''returns boolean\n\n
+    canAddEditFeesCharges()\n
     '''
 def getPriceTotals():
-    '''public static MboRemote getPriceTotals(final MboRemote mboRemote)
-    public MboRemote getPriceTotals()
+    '''returns MboRemote\n\n
+    getPriceTotals()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def recalculatePrices():
-    '''public void recalculatePrices(final MboRemote mboRemote)
+    '''returns None\n\n
+    recalculatePrices(final MboRemote mboRemote)\n
     '''
 def canPropagateKey():
-    '''public boolean canPropagateKey()
+    '''returns boolean\n\n
+    canPropagateKey()\n
     '''
 def warnAssociatedWithBillBatch():
-    '''public boolean warnAssociatedWithBillBatch(final String ek)
+    '''returns boolean\n\n
+    warnAssociatedWithBillBatch(final String ek)\n
     '''
 def copyPlanFeeChargeToGBTransSet():
-    '''public void copyPlanFeeChargeToGBTransSet(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyPlanFeeChargeToGBTransSet(final MboSetRemote mboSetRemote)\n
     '''
 def delete():
-    '''public void delete(final long n)
+    '''returns None\n\n
+    delete(final long n)\n
     '''
 def undelete():
-    '''public void undelete()
-    '''
-def calculateTotalsForBillLine():
-    '''public static HashMap<String, HashMap<LINE_PRICES, Double>> calculateTotalsForBillLine(final MboRemote mboRemote, final MboRemote mboRemote2)
-    '''
-def getLineTotals():
-    '''public static HashMap<LINE_PRICES, Double> getLineTotals(final MboRemote mboRemote, final MboRemote mboRemote2, final String s, final boolean b, final boolean b2)
+    '''returns None\n\n
+    undelete()\n
     '''
 def calculateTotals():
-    '''public void calculateTotals(final MboRemote mboRemote, final boolean b)
+    '''returns None\n\n
+    calculateTotals(final MboRemote mboRemote, final boolean b)\n
     '''
 def initQuote():
-    '''public void initQuote()
-    public void initQuote(final String quoteRelatedFieldFlags)
+    '''returns None\n\n
+    initQuote()\n
+    initQuote(final String quoteRelatedFieldFlags)\n
     '''
 def copyQuoteFields():
-    '''public void copyQuoteFields()
-    public void copyQuoteFields(final String str)
+    '''returns None\n\n
+    copyQuoteFields()\n
+    copyQuoteFields(final String str)\n
     '''
 def setModifyPSFlags():
-    '''public void setModifyPSFlags()
+    '''returns None\n\n
+    setModifyPSFlags()\n
     '''
 def removePS():
-    '''public boolean removePS(final String s, final String s2)
+    '''returns boolean\n\n
+    removePS(final String s, final String s2)\n
     '''
 def getCurrentBillLines():
-    '''public MboSetRemote getCurrentBillLines()
-    '''
-def setLinePriceValue():
-    '''public static void setLinePriceValue(final MboSetRemote mboSetRemote, final double n)
+    '''returns MboSetRemote\n\n
+    getCurrentBillLines()\n
     '''
 def duplicateExtraMbos():
-    '''public void duplicateExtraMbos(final MboRemote mboRemote)
-    '''
-def getWOClassName():
-    '''public static String getWOClassName(final MboRemote mbo)
+    '''returns None\n\n
+    duplicateExtraMbos(final MboRemote mboRemote)\n
     '''
 def applyWOQuote():
-    '''public void applyWOQuote(final MboRemote mboRemote)
-    public void applyWOQuote(final MboRemote mboRemote, final String s)
+    '''returns None\n\n
+    applyWOQuote(final MboRemote mboRemote)\n
+    applyWOQuote(final MboRemote mboRemote, final String s)\n
     '''
 def applyWOQuoteTotals():
-    '''public void applyWOQuoteTotals(final MboRemote mboRemote)
+    '''returns None\n\n
+    applyWOQuoteTotals(final MboRemote mboRemote)\n
     '''
 def applyWOMinimum():
-    '''public void applyWOMinimum(final MboRemote mboRemote)
+    '''returns None\n\n
+    applyWOMinimum(final MboRemote mboRemote)\n
     '''
 def applyWOInclude():
-    '''public void applyWOInclude(final MboRemote mboRemote)
-    '''
-def getGbtransTypeDescription():
-    '''public static String getGbtransTypeDescription(final String s, final MboRemote mboRemote, final UserInfo userInfo, final MboValue mboValue)
-    '''
-def addGBTrans():
-    '''public static MboRemote addGBTrans(final MboSetRemote mboSetRemote, final MboRemote mboRemote, final MboRemote mbo, final String s, final Date date, final String s2)
+    '''returns None\n\n
+    applyWOInclude(final MboRemote mboRemote)\n
     '''
 def getSumMboSet():
-    '''public double getSumMboSet(final MboSetRemote mboSetRemote, final String s, final boolean b)
-    '''
-def setBillPriceValue():
-    '''public static void setBillPriceValue(final MboSetRemote mboSetRemote, final double n, final boolean b)
-    '''
-def updateWOChildrenInformation():
-    '''public static void updateWOChildrenInformation(final MboRemote mboRemote, final String s, final String s2)
-    '''
-def setPlusPListPriceValue():
-    '''public static void setPlusPListPriceValue(final MboRemote mboRemote, final String str)
+    '''returns double\n\n
+    getSumMboSet(final MboSetRemote mboSetRemote, final String s, final boolean b)\n
     '''
 def populateToBeBilledTr():
-    '''public void populateToBeBilledTr(final MboRemote mboRemote)
+    '''returns None\n\n
+    populateToBeBilledTr(final MboRemote mboRemote)\n
     '''
 def addToBeBilled():
-    '''public void addToBeBilled(final MboRemote mboRemote)
+    '''returns None\n\n
+    addToBeBilled(final MboRemote mboRemote)\n
     '''
 def addToBeBilledTr():
-    '''public void addToBeBilledTr(final MboRemote mboRemote, final String val, final MboRemote mboRemote2)
+    '''returns None\n\n
+    addToBeBilledTr(final MboRemote mboRemote, final String val, final MboRemote mboRemote2)\n
     '''
 def deleteToBeBilledAndTr():
-    '''public void deleteToBeBilledAndTr(final MboRemote mboRemote)
+    '''returns None\n\n
+    deleteToBeBilledAndTr(final MboRemote mboRemote)\n
     '''
 def undeleteToBeBilledAndTr():
-    '''public void undeleteToBeBilledAndTr(final MboRemote mboRemote)
-    '''
-def isFirstBillBatch():
-    '''public static boolean isFirstBillBatch(final MboRemote mr, final MboRemote mboRemote)
-    '''
-def isWoInAnyBilledBillBatch():
-    '''public static boolean isWoInAnyBilledBillBatch(final MboRemote mboRemote)
+    '''returns None\n\n
+    undeleteToBeBilledAndTr(final MboRemote mboRemote)\n
     '''
 def isWoInAnyBillBatch():
-    '''public boolean isWoInAnyBillBatch()
-    '''
-def isWoInAnyCurrentBillBatch():
-    '''public static boolean isWoInAnyCurrentBillBatch(final MboRemote mboRemote)
+    '''returns boolean\n\n
+    isWoInAnyBillBatch()\n
     '''
 def addBillLineTr():
-    '''public void addBillLineTr(final MboRemote mboRemote, final MboRemote mboRemote2)
+    '''returns None\n\n
+    addBillLineTr(final MboRemote mboRemote, final MboRemote mboRemote2)\n
     '''
 def createTransactions():
-    '''public void createTransactions(final MboRemote mboRemote, final String s, final MboRemote mboRemote2)
+    '''returns None\n\n
+    createTransactions(final MboRemote mboRemote, final String s, final MboRemote mboRemote2)\n
     '''
 def copyIntServItemsToServRecTransSet():
-    '''public void copyIntServItemsToServRecTransSet(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyIntServItemsToServRecTransSet(final MboSetRemote mboSetRemote)\n
     '''
 def copyPlanIntServItemsToServRecTransSet():
-    '''public void copyPlanIntServItemsToServRecTransSet(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyPlanIntServItemsToServRecTransSet(final MboSetRemote mboSetRemote)\n
     '''
 def updateServicesListPrice():
-    '''public void updateServicesListPrice()
+    '''returns None\n\n
+    updateServicesListPrice()\n
     '''
 def validateObjectChangeForServices():
-    '''public void validateObjectChangeForServices()
+    '''returns None\n\n
+    validateObjectChangeForServices()\n
     '''
 def hasHoldBillLines():
-    '''public MboSetRemote hasHoldBillLines()
+    '''returns MboSetRemote\n\n
+    hasHoldBillLines()\n
     '''
 def openMultiplePriceEstimatesDialog():
-    '''public boolean openMultiplePriceEstimatesDialog()
+    '''returns boolean\n\n
+    openMultiplePriceEstimatesDialog()\n
     '''
 def isStatusValidForCustomerPriceEstimate():
-    '''public boolean isStatusValidForCustomerPriceEstimate()
+    '''returns boolean\n\n
+    isStatusValidForCustomerPriceEstimate()\n
     '''
 def getValidStatusToCreateBill():
-    '''public HashSet<String> getValidStatusToCreateBill()
-    '''
-def copySPPlanFieldsToActualTransaction():
-    '''public static void copySPPlanFieldsToActualTransaction(final MboRemote mboRemote, final MboSetRemote mboSetRemote)
+    '''returns HashSet<String>\n\n
+    getValidStatusToCreateBill()\n
     '''
 def validateOpenBillBatch():
-    '''public int validateOpenBillBatch()
-    '''
-def validateWOListToApplyAgreement():
-    '''public static void validateWOListToApplyAgreement(final MboSetRemote mboSetRemote, final String s)
+    '''returns int\n\n
+    validateOpenBillBatch()\n
     '''

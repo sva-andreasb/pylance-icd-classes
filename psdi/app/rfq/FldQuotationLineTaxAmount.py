@@ -1,6 +1,8 @@
-def FldQuotationLineTaxAmount():
-    '''public FldQuotationLineTaxAmount(final MboValue mbv)
+def ():
+    '''returns FldQuotationLineTaxAmount\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

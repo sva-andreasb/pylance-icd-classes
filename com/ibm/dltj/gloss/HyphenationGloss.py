@@ -1,40 +1,44 @@
-def HyphenationGloss():
-    '''public HyphenationGloss(final String s)
-    public HyphenationGloss()
+def ():
+    '''returns HyphenationGloss\n\n
+    (final String s)\n
+    ()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def read():
-    '''public void read(final DataInputStream dataInputStream, final int n)
+    '''returns None\n\n
+    read(final DataInputStream dataInputStream, final int n)\n
     '''
 def write():
-    '''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
-    '''
-def read_():
-    '''public final void read_(final DataInputStream dataInputStream, final int n)
+    '''returns None\n\n
+    write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def write_():
-    '''public void write_(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''returns None\n\n
+    write_(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getHyphenationPoints():
-    '''public List getHyphenationPoints(final StringBuffer sb)
-    public List getHyphenationPoints(final String str)
-    public List getHyphenationPoints()
-    public List getHyphenationPoints(final StringBuffer sb, final int n)
+    '''returns List\n\n
+    getHyphenationPoints(final StringBuffer sb)\n
+    getHyphenationPoints(final String str)\n
+    getHyphenationPoints()\n
+    getHyphenationPoints(final StringBuffer sb, final int n)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getmaxposition():
-    '''public int getmaxposition()
-    '''
-def buildHyphens():
-    '''public static void buildHyphens()
+    '''returns int\n\n
+    getmaxposition()\n
     '''

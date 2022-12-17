@@ -1,66 +1,66 @@
-def minutes():
-    '''public static Minutes minutes(final int n)
-    '''
-def minutesBetween():
-    '''public static Minutes minutesBetween(final ReadableInstant readableInstant, final ReadableInstant readableInstant2)
-    public static Minutes minutesBetween(final ReadablePartial readablePartial, final ReadablePartial readablePartial2)
-    '''
-def minutesIn():
-    '''public static Minutes minutesIn(final ReadableInterval readableInterval)
-    '''
-def standardMinutesIn():
-    '''public static Minutes standardMinutesIn(final ReadablePeriod readablePeriod)
-    '''
-def parseMinutes():
-    '''public static Minutes parseMinutes(final String s)
-    '''
 def getFieldType():
-    '''public DurationFieldType getFieldType()
+    '''returns DurationFieldType\n\n
+    getFieldType()\n
     '''
 def getPeriodType():
-    '''public PeriodType getPeriodType()
+    '''returns PeriodType\n\n
+    getPeriodType()\n
     '''
 def toStandardWeeks():
-    '''public Weeks toStandardWeeks()
+    '''returns Weeks\n\n
+    toStandardWeeks()\n
     '''
 def toStandardDays():
-    '''public Days toStandardDays()
+    '''returns Days\n\n
+    toStandardDays()\n
     '''
 def toStandardHours():
-    '''public Hours toStandardHours()
+    '''returns Hours\n\n
+    toStandardHours()\n
     '''
 def toStandardSeconds():
-    '''public Seconds toStandardSeconds()
+    '''returns Seconds\n\n
+    toStandardSeconds()\n
     '''
 def toStandardDuration():
-    '''public Duration toStandardDuration()
+    '''returns Duration\n\n
+    toStandardDuration()\n
     '''
 def getMinutes():
-    '''public int getMinutes()
+    '''returns int\n\n
+    getMinutes()\n
     '''
 def plus():
-    '''public Minutes plus(final int n)
-    public Minutes plus(final Minutes minutes)
+    '''returns Minutes\n\n
+    plus(final int n)\n
+    plus(final Minutes minutes)\n
     '''
 def minus():
-    '''public Minutes minus(final int n)
-    public Minutes minus(final Minutes minutes)
+    '''returns Minutes\n\n
+    minus(final int n)\n
+    minus(final Minutes minutes)\n
     '''
 def multipliedBy():
-    '''public Minutes multipliedBy(final int n)
+    '''returns Minutes\n\n
+    multipliedBy(final int n)\n
     '''
 def dividedBy():
-    '''public Minutes dividedBy(final int n)
+    '''returns Minutes\n\n
+    dividedBy(final int n)\n
     '''
 def negated():
-    '''public Minutes negated()
+    '''returns Minutes\n\n
+    negated()\n
     '''
 def isGreaterThan():
-    '''public boolean isGreaterThan(final Minutes minutes)
+    '''returns boolean\n\n
+    isGreaterThan(final Minutes minutes)\n
     '''
 def isLessThan():
-    '''public boolean isLessThan(final Minutes minutes)
+    '''returns boolean\n\n
+    isLessThan(final Minutes minutes)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

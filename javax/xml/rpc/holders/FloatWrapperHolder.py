@@ -1,4 +1,5 @@
-def FloatWrapperHolder():
-    '''public FloatWrapperHolder()
-    public FloatWrapperHolder(final Float value)
+def ():
+    '''returns FloatWrapperHolder\n\n
+    ()\n
+    (final Float myfloat)\n
     '''

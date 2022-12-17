@@ -1,6 +1,8 @@
-def LUSHR():
-    '''public LUSHR()
+def ():
+    '''returns LUSHR\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

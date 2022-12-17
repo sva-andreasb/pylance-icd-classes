@@ -1,6 +1,8 @@
-def NetscapeDraftHeaderParser():
-    '''public NetscapeDraftHeaderParser()
+def ():
+    '''returns NetscapeDraftHeaderParser\n\n
+    ()\n
     '''
 def parseHeader():
-    '''public HeaderElement parseHeader(final CharArrayBuffer buffer, final ParserCursor cursor)
+    '''returns HeaderElement\n\n
+    parseHeader(final CharArrayBuffer buffer, final ParserCursor cursor)\n
     '''

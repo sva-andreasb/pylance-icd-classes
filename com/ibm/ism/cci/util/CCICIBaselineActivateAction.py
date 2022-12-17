@@ -1,9 +1,12 @@
-def CCICIBaselineActivateAction():
-    '''public CCICIBaselineActivateAction(final CCIBaselineRemote theBaseline, final Date asOf)
+def ():
+    '''returns CCICIBaselineActivateAction\n\n
+    (final CCIBaselineRemote theBaseline, final Date asOf)\n
     '''
 def processState():
-    '''public void processState(final TraversalState state, final UserInfo userInfo)
+    '''returns None\n\n
+    processState(final TraversalState state, final UserInfo userInfo)\n
     '''
 def postTraverseAction():
-    '''public void postTraverseAction(final UserInfo userInfo)
+    '''returns None\n\n
+    postTraverseAction(final UserInfo userInfo)\n
     '''

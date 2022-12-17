@@ -1,94 +1,123 @@
-def ParserAdapter():
-    '''public ParserAdapter()
-    public ParserAdapter(final Parser parser)
+def ():
+    '''returns ParserAdapter\n\n
+    ()\n
+    (final Parser parser)\n
     '''
 def setFeature():
-    '''public void setFeature(final String str, final boolean uris)
+    '''returns None\n\n
+    setFeature(final String str, final boolean uris)\n
     '''
 def getFeature():
-    '''public boolean getFeature(final String str)
+    '''returns boolean\n\n
+    getFeature(final String str)\n
     '''
 def setProperty():
-    '''public void setProperty(final String str, final Object o)
+    '''returns None\n\n
+    setProperty(final String str, final Object o)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String str)
+    '''returns Object\n\n
+    getProperty(final String str)\n
     '''
 def setEntityResolver():
-    '''public void setEntityResolver(final EntityResolver entityResolver)
+    '''returns None\n\n
+    setEntityResolver(final EntityResolver entityResolver)\n
     '''
 def getEntityResolver():
-    '''public EntityResolver getEntityResolver()
+    '''returns EntityResolver\n\n
+    getEntityResolver()\n
     '''
 def setDTDHandler():
-    '''public void setDTDHandler(final DTDHandler dtdHandler)
+    '''returns None\n\n
+    setDTDHandler(final DTDHandler dtdHandler)\n
     '''
 def getDTDHandler():
-    '''public DTDHandler getDTDHandler()
+    '''returns DTDHandler\n\n
+    getDTDHandler()\n
     '''
 def setContentHandler():
-    '''public void setContentHandler(final ContentHandler contentHandler)
+    '''returns None\n\n
+    setContentHandler(final ContentHandler contentHandler)\n
     '''
 def getContentHandler():
-    '''public ContentHandler getContentHandler()
+    '''returns ContentHandler\n\n
+    getContentHandler()\n
     '''
 def setErrorHandler():
-    '''public void setErrorHandler(final ErrorHandler errorHandler)
+    '''returns None\n\n
+    setErrorHandler(final ErrorHandler errorHandler)\n
     '''
 def getErrorHandler():
-    '''public ErrorHandler getErrorHandler()
+    '''returns ErrorHandler\n\n
+    getErrorHandler()\n
     '''
 def parse():
-    '''public void parse(final String s)
-    public void parse(final InputSource inputSource)
+    '''returns None\n\n
+    parse(final String s)\n
+    parse(final InputSource inputSource)\n
     '''
 def setDocumentLocator():
-    '''public void setDocumentLocator(final Locator locator)
+    '''returns None\n\n
+    setDocumentLocator(final Locator locator)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def startElement():
-    '''public void startElement(final String s, final AttributeList attributeList)
+    '''returns None\n\n
+    startElement(final String s, final AttributeList attributeList)\n
     '''
 def endElement():
-    '''public void endElement(final String s)
+    '''returns None\n\n
+    endElement(final String s)\n
     '''
 def characters():
-    '''public void characters(final char[] array, final int n, final int n2)
+    '''returns None\n\n
+    characters(final char[] array, final int n, final int n2)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final char[] array, final int n, final int n2)
+    '''returns None\n\n
+    ignorableWhitespace(final char[] array, final int n, final int n2)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String s, final String s2)
+    '''returns None\n\n
+    processingInstruction(final String s, final String s2)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getURI():
-    '''public String getURI(final int n)
+    '''returns String\n\n
+    getURI(final int n)\n
     '''
 def getLocalName():
-    '''public String getLocalName(final int n)
+    '''returns String\n\n
+    getLocalName(final int n)\n
     '''
 def getQName():
-    '''public String getQName(final int n)
+    '''returns String\n\n
+    getQName(final int n)\n
     '''
 def getType():
-    '''public String getType(final int n)
-    public String getType(final String s, final String s2)
-    public String getType(final String s)
+    '''returns String\n\n
+    getType(final int n)\n
+    getType(final String s, final String s2)\n
+    getType(final String s)\n
     '''
 def getValue():
-    '''public String getValue(final int n)
-    public String getValue(final String s, final String s2)
-    public String getValue(final String s)
+    '''returns String\n\n
+    getValue(final int n)\n
+    getValue(final String s, final String s2)\n
+    getValue(final String s)\n
     '''
 def getIndex():
-    '''public int getIndex(final String s, final String s2)
-    public int getIndex(final String anObject)
+    '''returns int\n\n
+    getIndex(final String s, final String s2)\n
+    getIndex(final String anObject)\n
     '''

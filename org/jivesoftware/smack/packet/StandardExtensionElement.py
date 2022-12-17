@@ -1,49 +1,56 @@
-def StandardExtensionElement():
-    '''public StandardExtensionElement(final String name, final String namespace)
+def ():
+    '''returns StandardExtensionElement\n\n
+    (final String name, final String namespace)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def getAttributeValue():
-    '''public String getAttributeValue(final String attribute)
-    '''
-def getAttributes():
-    '''public Map<String, String> getAttributes()
+    '''returns String\n\n
+    getAttributeValue(final String attribute)\n
     '''
 def getFirstElement():
-    '''public StandardExtensionElement getFirstElement(final String element, final String namespace)
-    public StandardExtensionElement getFirstElement(final String element)
+    '''returns StandardExtensionElement\n\n
+    getFirstElement(final String element, final String namespace)\n
+    getFirstElement(final String element)\n
     '''
 def getElements():
-    '''public List<StandardExtensionElement> getElements(final String element, final String namespace)
-    public List<StandardExtensionElement> getElements(final String element)
-    public List<StandardExtensionElement> getElements()
+    '''returns List<StandardExtensionElement>\n\n
+    getElements(final String element, final String namespace)\n
+    getElements(final String element)\n
+    getElements()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    '''
-def builder():
-    '''public static Builder builder(final String name, final String namespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def addAttribute():
-    '''public Builder addAttribute(final String name, final String value)
+    '''returns Builder\n\n
+    addAttribute(final String name, final String value)\n
     '''
 def addAttributes():
-    '''public Builder addAttributes(final Map<String, String> attributes)
+    '''returns Builder\n\n
+    addAttributes(final Map<String, String> attributes)\n
     '''
 def setText():
-    '''public Builder setText(final String text)
+    '''returns Builder\n\n
+    setText(final String text)\n
     '''
 def addElement():
-    '''public Builder addElement(final StandardExtensionElement element)
-    public Builder addElement(final String name, final String textValue)
+    '''returns Builder\n\n
+    addElement(final StandardExtensionElement element)\n
+    addElement(final String name, final String textValue)\n
     '''
 def build():
-    '''public StandardExtensionElement build()
+    '''returns StandardExtensionElement\n\n
+    build()\n
     '''

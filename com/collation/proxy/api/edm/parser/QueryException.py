@@ -1,5 +1,6 @@
-def QueryException():
-    '''public QueryException()
-    public QueryException(final String msg)
-    public QueryException(final String msg, final Throwable cause)
+def ():
+    '''returns QueryException\n\n
+    ()\n
+    (final String msg)\n
+    (final String msg, final Throwable cause)\n
     '''

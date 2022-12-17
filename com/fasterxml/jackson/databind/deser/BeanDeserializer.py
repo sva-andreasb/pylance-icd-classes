@@ -1,31 +1,40 @@
-def BeanDeserializer():
-    '''public BeanDeserializer(final BeanDeserializerBuilder builder, final BeanDescription beanDesc, final BeanPropertyMap properties, final Map<String, SettableBeanProperty> backRefs, final HashSet<String> ignorableProps, final boolean ignoreAllUnknown, final boolean hasViews)
-    public BeanDeserializer(final BeanDeserializerBase src, final ObjectIdReader oir)
-    public BeanDeserializer(final BeanDeserializerBase src, final Set<String> ignorableProps)
-    public BeanDeserializer(final BeanDeserializerBase src, final BeanPropertyMap props)
+def ():
+    '''returns BeanDeserializer\n\n
+    (final BeanDeserializerBuilder builder, final BeanDescription beanDesc, final BeanPropertyMap properties, final Map<String, SettableBeanProperty> backRefs, final HashSet<String> ignorableProps, final boolean ignoreAllUnknown, final boolean hasViews)\n
+    (final BeanDeserializerBase src, final ObjectIdReader oir)\n
+    (final BeanDeserializerBase src, final Set<String> ignorableProps)\n
+    (final BeanDeserializerBase src, final BeanPropertyMap props)\n
     '''
 def unwrappingDeserializer():
-    '''public JsonDeserializer<Object> unwrappingDeserializer(final NameTransformer transformer)
+    '''returns JsonDeserializer<Object>\n\n
+    unwrappingDeserializer(final NameTransformer transformer)\n
     '''
 def withObjectIdReader():
-    '''public BeanDeserializer withObjectIdReader(final ObjectIdReader oir)
+    '''returns BeanDeserializer\n\n
+    withObjectIdReader(final ObjectIdReader oir)\n
     '''
 def withIgnorableProperties():
-    '''public BeanDeserializer withIgnorableProperties(final Set<String> ignorableProps)
+    '''returns BeanDeserializer\n\n
+    withIgnorableProperties(final Set<String> ignorableProps)\n
     '''
 def withBeanProperties():
-    '''public BeanDeserializerBase withBeanProperties(final BeanPropertyMap props)
+    '''returns BeanDeserializerBase\n\n
+    withBeanProperties(final BeanPropertyMap props)\n
     '''
 def deserialize():
-    '''public Object deserialize(final JsonParser p, final DeserializationContext ctxt)
-    public Object deserialize(final JsonParser p, final DeserializationContext ctxt, final Object bean)
+    '''returns Object\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt, final Object bean)\n
     '''
 def deserializeFromObject():
-    '''public Object deserializeFromObject(final JsonParser p, final DeserializationContext ctxt)
+    '''returns Object\n\n
+    deserializeFromObject(final JsonParser p, final DeserializationContext ctxt)\n
     '''
 def setBean():
-    '''public void setBean(final Object bean)
+    '''returns None\n\n
+    setBean(final Object bean)\n
     '''
 def handleResolvedForwardReference():
-    '''public void handleResolvedForwardReference(final Object id, final Object value)
+    '''returns None\n\n
+    handleResolvedForwardReference(final Object id, final Object value)\n
     '''

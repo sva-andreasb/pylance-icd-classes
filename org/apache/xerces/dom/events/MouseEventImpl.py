@@ -1,33 +1,44 @@
 def getScreenX():
-    '''public int getScreenX()
+    '''returns int\n\n
+    getScreenX()\n
     '''
 def getScreenY():
-    '''public int getScreenY()
+    '''returns int\n\n
+    getScreenY()\n
     '''
 def getClientX():
-    '''public int getClientX()
+    '''returns int\n\n
+    getClientX()\n
     '''
 def getClientY():
-    '''public int getClientY()
+    '''returns int\n\n
+    getClientY()\n
     '''
 def getCtrlKey():
-    '''public boolean getCtrlKey()
+    '''returns boolean\n\n
+    getCtrlKey()\n
     '''
 def getAltKey():
-    '''public boolean getAltKey()
+    '''returns boolean\n\n
+    getAltKey()\n
     '''
 def getShiftKey():
-    '''public boolean getShiftKey()
+    '''returns boolean\n\n
+    getShiftKey()\n
     '''
 def getMetaKey():
-    '''public boolean getMetaKey()
+    '''returns boolean\n\n
+    getMetaKey()\n
     '''
 def getButton():
-    '''public short getButton()
+    '''returns short\n\n
+    getButton()\n
     '''
 def getRelatedTarget():
-    '''public EventTarget getRelatedTarget()
+    '''returns EventTarget\n\n
+    getRelatedTarget()\n
     '''
 def initMouseEvent():
-    '''public void initMouseEvent(final String s, final boolean b, final boolean b2, final AbstractView abstractView, final int n, final int fScreenX, final int fScreenY, final int fClientX, final int fClientY, final boolean fCtrlKey, final boolean fAltKey, final boolean fShiftKey, final boolean fMetaKey, final short fButton, final EventTarget fRelatedTarget)
+    '''returns None\n\n
+    initMouseEvent(final String s, final boolean b, final boolean b2, final AbstractView abstractView, final int n, final int fScreenX, final int fScreenY, final int fClientX, final int fClientY, final boolean fCtrlKey, final boolean fAltKey, final boolean fShiftKey, final boolean fMetaKey, final short fButton, final EventTarget fRelatedTarget)\n
     '''

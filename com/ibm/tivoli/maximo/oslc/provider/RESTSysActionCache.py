@@ -1,18 +1,16 @@
-def getInstance():
-    '''public static final RESTSysActionCache getInstance()
-    '''
 def getImplClass():
-    '''public String getImplClass(final String name)
+    '''returns String\n\n
+    getImplClass(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getOptionName():
-    '''public String getOptionName(final String name)
+    '''returns String\n\n
+    getOptionName(final String name)\n
     '''
 def getActionInfo():
-    '''public OslcActionInfo getActionInfo(final String name)
-    '''
-def getAllActions():
-    '''public Map<String, OslcActionInfo> getAllActions()
+    '''returns OslcActionInfo\n\n
+    getActionInfo(final String name)\n
     '''

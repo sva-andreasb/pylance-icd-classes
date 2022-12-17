@@ -1,6 +1,8 @@
-def QueryCompilerFactory1():
-    '''public QueryCompilerFactory1(final EncoderDecoder codec)
+def ():
+    '''returns QueryCompilerFactory1\n\n
+    (final EncoderDecoder codec)\n
     '''
 def createQueryCompiler():
-    '''public QueryCompiler createQueryCompiler(final SDBRequest request)
+    '''returns QueryCompiler\n\n
+    createQueryCompiler(final SDBRequest request)\n
     '''

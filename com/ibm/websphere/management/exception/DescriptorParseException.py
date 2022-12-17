@@ -1,9 +1,12 @@
-def DescriptorParseException():
-    '''public DescriptorParseException(final Exception ex, final String fileName)
+def ():
+    '''returns DescriptorParseException\n\n
+    (final Exception ex, final String fileName)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getDescriptorFileName():
-    '''public String getDescriptorFileName()
+    '''returns String\n\n
+    getDescriptorFileName()\n
     '''

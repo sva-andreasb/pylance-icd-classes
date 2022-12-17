@@ -1,51 +1,68 @@
-def TableBody():
-    '''public TableBody()
+def ():
+    '''returns TableBody\n\n
+    ()\n
     '''
 def reInitialize():
-    '''public void reInitialize()
+    '''returns None\n\n
+    reInitialize()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def checkRecordLock():
-    '''public void checkRecordLock(final PageInstance page, final List<TableCol> colControls)
+    '''returns None\n\n
+    checkRecordLock(final PageInstance page, final List<TableCol> colControls)\n
     '''
 def setupForSubSelect():
-    '''public void setupForSubSelect()
+    '''returns None\n\n
+    setupForSubSelect()\n
     '''
 def getDisplayRules():
-    '''public List getDisplayRules()
+    '''returns List\n\n
+    getDisplayRules()\n
     '''
 def getRangesForRule():
-    '''public List getRangesForRule(final String aRule)
+    '''returns List\n\n
+    getRangesForRule(final String aRule)\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def removeChild():
-    '''public void removeChild(final ControlInstance child)
+    '''returns None\n\n
+    removeChild(final ControlInstance child)\n
     '''
 def addChild():
-    '''public void addChild(final BaseInstance child, final int index)
+    '''returns None\n\n
+    addChild(final BaseInstance child, final int index)\n
     '''
 def toggleselectrecords():
-    '''public int toggleselectrecords()
+    '''returns int\n\n
+    toggleselectrecords()\n
     '''
 def setDataRowNum():
-    '''public void setDataRowNum(final int row)
+    '''returns None\n\n
+    setDataRowNum(final int row)\n
     '''
 def setMockRowNum():
-    '''public void setMockRowNum(final int row)
+    '''returns None\n\n
+    setMockRowNum(final int row)\n
     '''
 def canRemove():
-    '''public boolean canRemove()
+    '''returns boolean\n\n
+    canRemove()\n
     '''
 def setTableBodyComponentRenderId():
-    '''public void setTableBodyComponentRenderId(final String id)
+    '''returns None\n\n
+    setTableBodyComponentRenderId(final String id)\n
     '''
 def getTableBodyComponentRenderId():
-    '''public String getTableBodyComponentRenderId()
+    '''returns String\n\n
+    getTableBodyComponentRenderId()\n
     '''
 def maintainControlId():
-    '''public boolean maintainControlId()
+    '''returns boolean\n\n
+    maintainControlId()\n
     '''

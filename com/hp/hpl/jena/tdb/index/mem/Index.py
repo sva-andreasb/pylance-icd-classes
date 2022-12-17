@@ -1,21 +1,28 @@
 def get():
-    '''public V get(final K key)
+    '''returns V\n\n
+    get(final K key)\n
     '''
 def put():
-    '''public boolean put(final K key, final V value)
+    '''returns boolean\n\n
+    put(final K key, final V value)\n
     '''
 def remove():
-    '''public boolean remove(final K key)
+    '''returns boolean\n\n
+    remove(final K key)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def values():
-    '''public Collection<V> values()
+    '''returns Collection<V>\n\n
+    values()\n
     '''
 def keys():
-    '''public Set<K> keys()
+    '''returns Set<K>\n\n
+    keys()\n
     '''

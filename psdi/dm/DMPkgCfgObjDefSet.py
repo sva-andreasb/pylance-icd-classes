@@ -1,3 +1,4 @@
-def DMPkgCfgObjDefSet():
-    '''public DMPkgCfgObjDefSet(final MboServerInterface ms)
+def ():
+    '''returns DMPkgCfgObjDefSet\n\n
+    (final MboServerInterface ms)\n
     '''

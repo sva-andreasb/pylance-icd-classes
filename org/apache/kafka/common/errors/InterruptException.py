@@ -1,5 +1,6 @@
-def InterruptException():
-    '''public InterruptException(final InterruptedException cause)
-    public InterruptException(final String message, final InterruptedException cause)
-    public InterruptException(final String message)
+def ():
+    '''returns InterruptException\n\n
+    (final InterruptedException cause)\n
+    (final String message, final InterruptedException cause)\n
+    (final String message)\n
     '''

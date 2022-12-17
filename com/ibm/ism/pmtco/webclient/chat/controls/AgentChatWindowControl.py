@@ -1,12 +1,16 @@
 def getQueueListJson():
-    '''public String getQueueListJson()
+    '''returns String\n\n
+    getQueueListJson()\n
     '''
 def closeChat():
-    '''public int closeChat()
+    '''returns int\n\n
+    closeChat()\n
     '''
 def getEndUserDisplayName():
-    '''public String getEndUserDisplayName()
+    '''returns String\n\n
+    getEndUserDisplayName()\n
     '''
 def getEndUserClientId():
-    '''public String getEndUserClientId()
+    '''returns String\n\n
+    getEndUserClientId()\n
     '''

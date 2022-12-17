@@ -1,6 +1,8 @@
 def setFunctionAlias():
-    '''public void setFunctionAlias(final String functionAlias)
+    '''returns None\n\n
+    setFunctionAlias(final String functionAlias)\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''

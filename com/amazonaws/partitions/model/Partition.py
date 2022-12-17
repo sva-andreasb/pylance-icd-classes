@@ -1,39 +1,44 @@
-def Partition():
-    '''public Partition(@JsonProperty("partition") final String partition, @JsonProperty("regions") final Map<String, Region> regions, @JsonProperty("services") final Map<String, Service> services)
+def ():
+    '''returns Partition\n\n
+    (@JsonProperty("partition") final String partition, @JsonProperty("regions") final Map<String, Region> regions, @JsonProperty("services") final Map<String, Service> services)\n
     '''
 def getPartition():
-    '''public String getPartition()
+    '''returns String\n\n
+    getPartition()\n
     '''
 def getPartitionName():
-    '''public String getPartitionName()
+    '''returns String\n\n
+    getPartitionName()\n
     '''
 def setPartitionName():
-    '''public void setPartitionName(final String partitionName)
+    '''returns None\n\n
+    setPartitionName(final String partitionName)\n
     '''
 def getDnsSuffix():
-    '''public String getDnsSuffix()
+    '''returns String\n\n
+    getDnsSuffix()\n
     '''
 def setDnsSuffix():
-    '''public void setDnsSuffix(final String dnsSuffix)
+    '''returns None\n\n
+    setDnsSuffix(final String dnsSuffix)\n
     '''
 def getRegionRegex():
-    '''public String getRegionRegex()
+    '''returns String\n\n
+    getRegionRegex()\n
     '''
 def setRegionRegex():
-    '''public void setRegionRegex(final String regionRegex)
+    '''returns None\n\n
+    setRegionRegex(final String regionRegex)\n
     '''
 def getDefaults():
-    '''public Endpoint getDefaults()
+    '''returns Endpoint\n\n
+    getDefaults()\n
     '''
 def setDefaults():
-    '''public void setDefaults(final Endpoint defaults)
-    '''
-def getRegions():
-    '''public Map<String, Region> getRegions()
-    '''
-def getServices():
-    '''public Map<String, Service> getServices()
+    '''returns None\n\n
+    setDefaults(final Endpoint defaults)\n
     '''
 def hasRegion():
-    '''public boolean hasRegion(final String region)
+    '''returns boolean\n\n
+    hasRegion(final String region)\n
     '''

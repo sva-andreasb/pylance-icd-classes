@@ -1,39 +1,52 @@
-def ScreenShareSession():
-    '''public ScreenShareSession(final PayloadType payloadType, final TransportCandidate remote, final TransportCandidate local, final String locator, final JingleSession jingleSession)
+def ():
+    '''returns ScreenShareSession\n\n
+    (final PayloadType payloadType, final TransportCandidate remote, final TransportCandidate local, final String locator, final JingleSession jingleSession)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def windowClosed():
-    '''public void windowClosed(final WindowEvent e)
+    '''returns None\n\n
+    windowClosed(final WindowEvent e)\n
     '''
 def startTrasmit():
-    '''public void startTrasmit()
+    '''returns None\n\n
+    startTrasmit()\n
     '''
 def startTransmit():
-    '''public void startTransmit()
+    '''returns None\n\n
+    startTransmit()\n
     '''
 def setTrasmit():
-    '''public void setTrasmit(final boolean active)
+    '''returns None\n\n
+    setTrasmit(final boolean active)\n
     '''
 def setTransmit():
-    '''public void setTransmit(final boolean active)
+    '''returns None\n\n
+    setTransmit(final boolean active)\n
     '''
 def startReceive():
-    '''public void startReceive()
+    '''returns None\n\n
+    startReceive()\n
     '''
 def stopTrasmit():
-    '''public void stopTrasmit()
+    '''returns None\n\n
+    stopTrasmit()\n
     '''
 def stopTransmit():
-    '''public void stopTransmit()
+    '''returns None\n\n
+    stopTransmit()\n
     '''
 def stopReceive():
-    '''public void stopReceive()
+    '''returns None\n\n
+    stopReceive()\n
     '''
 def setEncoder():
-    '''public void setEncoder(final ImageEncoder encoder)
+    '''returns None\n\n
+    setEncoder(final ImageEncoder encoder)\n
     '''
 def setDecoder():
-    '''public void setDecoder(final ImageDecoder decoder)
+    '''returns None\n\n
+    setDecoder(final ImageDecoder decoder)\n
     '''

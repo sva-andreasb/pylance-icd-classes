@@ -1,53 +1,69 @@
-def ByteArrayBuilder():
-    '''public ByteArrayBuilder()
-    public ByteArrayBuilder(final BufferRecycler br)
-    public ByteArrayBuilder(final int firstBlockSize)
-    public ByteArrayBuilder(final BufferRecycler br, final int firstBlockSize)
+def ():
+    '''returns ByteArrayBuilder\n\n
+    ()\n
+    (final BufferRecycler br)\n
+    (final int firstBlockSize)\n
+    (final BufferRecycler br, final int firstBlockSize)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def release():
-    '''public void release()
+    '''returns None\n\n
+    release()\n
     '''
 def append():
-    '''public void append(final int i)
+    '''returns None\n\n
+    append(final int i)\n
     '''
 def appendTwoBytes():
-    '''public void appendTwoBytes(final int b16)
+    '''returns None\n\n
+    appendTwoBytes(final int b16)\n
     '''
 def appendThreeBytes():
-    '''public void appendThreeBytes(final int b24)
+    '''returns None\n\n
+    appendThreeBytes(final int b24)\n
     '''
 def toByteArray():
-    '''public byte[] toByteArray()
+    '''returns byte[]\n\n
+    toByteArray()\n
     '''
 def resetAndGetFirstSegment():
-    '''public byte[] resetAndGetFirstSegment()
+    '''returns byte[]\n\n
+    resetAndGetFirstSegment()\n
     '''
 def finishCurrentSegment():
-    '''public byte[] finishCurrentSegment()
+    '''returns byte[]\n\n
+    finishCurrentSegment()\n
     '''
 def completeAndCoalesce():
-    '''public byte[] completeAndCoalesce(final int lastBlockLength)
+    '''returns byte[]\n\n
+    completeAndCoalesce(final int lastBlockLength)\n
     '''
 def getCurrentSegment():
-    '''public byte[] getCurrentSegment()
+    '''returns byte[]\n\n
+    getCurrentSegment()\n
     '''
 def setCurrentSegmentLength():
-    '''public void setCurrentSegmentLength(final int len)
+    '''returns None\n\n
+    setCurrentSegmentLength(final int len)\n
     '''
 def getCurrentSegmentLength():
-    '''public int getCurrentSegmentLength()
+    '''returns int\n\n
+    getCurrentSegmentLength()\n
     '''
 def write():
-    '''public void write(final byte[] b)
-    public void write(final byte[] b, int off, int len)
-    public void write(final int b)
+    '''returns None\n\n
+    write(final byte[] b)\n
+    write(final byte[] b, int off, int len)\n
+    write(final int b)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''

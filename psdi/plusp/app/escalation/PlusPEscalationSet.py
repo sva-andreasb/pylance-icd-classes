@@ -1,9 +1,12 @@
-def PlusPEscalationSet():
-    '''public PlusPEscalationSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPEscalationSet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''
 def postResponsePlanTaskToAfterCommit():
-    '''public void postResponsePlanTaskToAfterCommit(final PlusPEscalationTask task, final String instanceName)
+    '''returns None\n\n
+    postResponsePlanTaskToAfterCommit(final PlusPEscalationTask task, final String instanceName)\n
     '''

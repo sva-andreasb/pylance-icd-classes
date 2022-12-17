@@ -1,21 +1,28 @@
-def LinearAsset():
-    '''public LinearAsset(final LinearClientSession session, final DataSetInfo setInfo, final DataBean appBean)
+def ():
+    '''returns LinearAsset\n\n
+    (final LinearClientSession session, final DataSetInfo setInfo, final DataBean appBean)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def loadData():
-    '''public void loadData()
+    '''returns None\n\n
+    loadData()\n
     '''
 def getDataSet():
-    '''public DataSet getDataSet(final String id)
+    '''returns DataSet\n\n
+    getDataSet(final String id)\n
     '''
 def toJSON():
-    '''public JSONObject toJSON()
+    '''returns JSONObject\n\n
+    toJSON()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''

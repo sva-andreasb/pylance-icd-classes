@@ -1,15 +1,20 @@
-def CIAppBean():
-    '''public CIAppBean()
+def ():
+    '''returns CIAppBean\n\n
+    ()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def VIEWCIHIS():
-    '''public int VIEWCIHIS()
+    '''returns int\n\n
+    VIEWCIHIS()\n
     '''
 def VIEWATTHIS():
-    '''public int VIEWATTHIS()
+    '''returns int\n\n
+    VIEWATTHIS()\n
     '''
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''

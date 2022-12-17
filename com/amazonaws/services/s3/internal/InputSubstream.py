@@ -1,19 +1,17 @@
-def InputSubstream():
-    '''public InputSubstream(final InputStream in, final long offset, final long length, final boolean closeSourceStream)
+def ():
+    '''returns InputSubstream\n\n
+    (final InputStream in, final long offset, final long length, final boolean closeSourceStream)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, int len)
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, int len)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''

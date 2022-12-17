@@ -1,45 +1,60 @@
 def setType():
-    '''public void setType(final Type type)
+    '''returns None\n\n
+    setType(final Type type)\n
     '''
 def getType():
-    '''public Type getType()
+    '''returns Type\n\n
+    getType()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getConstantPool():
-    '''public ConstantPool getConstantPool()
+    '''returns ConstantPool\n\n
+    getConstantPool()\n
     '''
 def setConstantPool():
-    '''public void setConstantPool(final ConstantPool cp)
+    '''returns None\n\n
+    setConstantPool(final ConstantPool cp)\n
     '''
 def addAttribute():
-    '''public void addAttribute(final Attribute a)
+    '''returns None\n\n
+    addAttribute(final Attribute a)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final Attribute a)
+    '''returns None\n\n
+    removeAttribute(final Attribute a)\n
     '''
 def removeAttributes():
-    '''public void removeAttributes()
+    '''returns None\n\n
+    removeAttributes()\n
     '''
 def getAnnotations():
-    '''public List<AnnotationGen> getAnnotations()
+    '''returns List<AnnotationGen>\n\n
+    getAnnotations()\n
     '''
 def addAnnotation():
-    '''public void addAnnotation(final AnnotationGen ag)
+    '''returns None\n\n
+    addAnnotation(final AnnotationGen ag)\n
     '''
 def removeAnnotation():
-    '''public void removeAnnotation(final AnnotationGen ag)
+    '''returns None\n\n
+    removeAnnotation(final AnnotationGen ag)\n
     '''
 def removeAnnotations():
-    '''public void removeAnnotations()
+    '''returns None\n\n
+    removeAnnotations()\n
     '''
 def getAttributes():
-    '''public List<Attribute> getAttributes()
+    '''returns List<Attribute>\n\n
+    getAttributes()\n
     '''
 def getAttributesImmutable():
-    '''public Attribute[] getAttributesImmutable()
+    '''returns Attribute[]\n\n
+    getAttributesImmutable()\n
     '''

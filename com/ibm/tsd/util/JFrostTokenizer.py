@@ -1,25 +1,29 @@
 EMPTY_STRING = "String  \"\""
-def cleanupThreads():
-    '''public static void cleanupThreads()
-    '''
 def setThread():
-    '''public Thread setThread(final Thread thread)
+    '''returns Thread\n\n
+    setThread(final Thread thread)\n
     '''
 def getThread():
-    '''public Thread getThread()
+    '''returns Thread\n\n
+    getThread()\n
     '''
-def JFrostTokenizer():
-    '''public JFrostTokenizer(final String locale, final Reader in, final boolean indexing)
+def ():
+    '''returns JFrostTokenizer\n\n
+    (final String locale, final Reader in, final boolean indexing)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def next():
-    '''public PackedTokenAttributeImpl next()
+    '''returns PackedTokenAttributeImpl\n\n
+    next()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def incrementToken():
-    '''public boolean incrementToken()
+    '''returns boolean\n\n
+    incrementToken()\n
     '''

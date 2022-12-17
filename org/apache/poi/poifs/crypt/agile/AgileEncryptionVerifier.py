@@ -1,19 +1,25 @@
-def AgileEncryptionVerifier():
-    '''public AgileEncryptionVerifier(final String descriptor)
-    public AgileEncryptionVerifier(final CipherAlgorithm cipherAlgorithm, final HashAlgorithm hashAlgorithm, final int keyBits, final int blockSize, final ChainingMode chainingMode)
+def ():
+    '''returns AgileEncryptionVerifier\n\n
+    (final String descriptor)\n
+    (final CipherAlgorithm cipherAlgorithm, final HashAlgorithm hashAlgorithm, final int keyBits, final int blockSize, final ChainingMode chainingMode)\n
     '''
 def addCertificate():
-    '''public void addCertificate(final X509Certificate x509)
+    '''returns None\n\n
+    addCertificate(final X509Certificate x509)\n
     '''
 def getCertificates():
-    '''public List<AgileCertificateEntry> getCertificates()
+    '''returns List<AgileCertificateEntry>\n\n
+    getCertificates()\n
     '''
 def clone():
-    '''public AgileEncryptionVerifier clone()
+    '''returns AgileEncryptionVerifier\n\n
+    clone()\n
     '''
 def getKeySize():
-    '''public int getKeySize()
+    '''returns int\n\n
+    getKeySize()\n
     '''
 def getBlockSize():
-    '''public int getBlockSize()
+    '''returns int\n\n
+    getBlockSize()\n
     '''

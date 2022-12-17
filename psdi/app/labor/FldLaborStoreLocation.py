@@ -1,3 +1,4 @@
-def FldLaborStoreLocation():
-    '''public FldLaborStoreLocation(final MboValue mbv)
+def ():
+    '''returns FldLaborStoreLocation\n\n
+    (final MboValue mbv)\n
     '''

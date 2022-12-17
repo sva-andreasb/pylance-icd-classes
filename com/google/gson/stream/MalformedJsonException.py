@@ -1,5 +1,6 @@
-def MalformedJsonException():
-    '''public MalformedJsonException(final String msg)
-    public MalformedJsonException(final String msg, final Throwable throwable)
-    public MalformedJsonException(final Throwable throwable)
+def ():
+    '''returns MalformedJsonException\n\n
+    (final String msg)\n
+    (final String msg, final Throwable throwable)\n
+    (final Throwable throwable)\n
     '''

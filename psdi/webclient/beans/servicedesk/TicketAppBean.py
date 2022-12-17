@@ -1,75 +1,96 @@
 def OWNERSHIP():
-    '''public int OWNERSHIP()
+    '''returns int\n\n
+    OWNERSHIP()\n
     '''
 def CREATESR():
-    '''public int CREATESR()
+    '''returns int\n\n
+    CREATESR()\n
     '''
 def CREATEPROB():
-    '''public int CREATEPROB()
+    '''returns int\n\n
+    CREATEPROB()\n
     '''
 def CREATEINC():
-    '''public int CREATEINC()
+    '''returns int\n\n
+    CREATEINC()\n
     '''
 def CREATEWO():
-    '''public int CREATEWO()
+    '''returns int\n\n
+    CREATEWO()\n
     '''
 def createFollowUp():
-    '''public MboRemote createFollowUp(final MboSetRemote mboSet)
+    '''returns MboRemote\n\n
+    createFollowUp(final MboSetRemote mboSet)\n
     '''
 def canSaveFollowUp():
-    '''public boolean canSaveFollowUp(final MboRemote newWO)
+    '''returns boolean\n\n
+    canSaveFollowUp(final MboRemote newWO)\n
     '''
 def beforeFollowUpSave():
-    '''public void beforeFollowUpSave(final MboRemote newWO)
+    '''returns None\n\n
+    beforeFollowUpSave(final MboRemote newWO)\n
     '''
 def afterFollowUpSave():
-    '''public void afterFollowUpSave(final MboRemote newWO)
+    '''returns None\n\n
+    afterFollowUpSave(final MboRemote newWO)\n
     '''
 def CREATECHNG():
-    '''public int CREATECHNG()
+    '''returns int\n\n
+    CREATECHNG()\n
     '''
 def CREATEREL():
-    '''public int CREATEREL()
+    '''returns int\n\n
+    CREATEREL()\n
     '''
 def CREATESOL():
-    '''public int CREATESOL()
+    '''returns int\n\n
+    CREATESOL()\n
     '''
 def TEMPLATE():
-    '''public int TEMPLATE()
+    '''returns int\n\n
+    TEMPLATE()\n
     '''
 def STARTTIMER():
-    '''public int STARTTIMER()
+    '''returns int\n\n
+    STARTTIMER()\n
     '''
 def STOPTIMER():
-    '''public int STOPTIMER()
+    '''returns int\n\n
+    STOPTIMER()\n
     '''
 def VIEWCOSTS():
-    '''public int VIEWCOSTS()
+    '''returns int\n\n
+    VIEWCOSTS()\n
     '''
 def EDITHIST():
-    '''public int EDITHIST()
+    '''returns int\n\n
+    EDITHIST()\n
     '''
 def DUPLICATE():
-    '''public int DUPLICATE()
+    '''returns int\n\n
+    DUPLICATE()\n
     '''
 def DUPLICATECHECK():
-    '''public int DUPLICATECHECK()
+    '''returns int\n\n
+    DUPLICATECHECK()\n
     '''
 def SIMILARTKT():
-    '''public int SIMILARTKT()
+    '''returns int\n\n
+    SIMILARTKT()\n
     '''
 def INSERT():
-    '''public int INSERT()
+    '''returns int\n\n
+    INSERT()\n
     '''
 def OWNER():
-    '''public int OWNER()
+    '''returns int\n\n
+    OWNER()\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def solutionsTabChanged():
-    '''public int solutionsTabChanged()
-    '''
-def returnLookupValue():
-    '''public synchronized int returnLookupValue(final MboRemote lookupMbo)
+    '''returns int\n\n
+    solutionsTabChanged()\n
     '''

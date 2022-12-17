@@ -1,15 +1,20 @@
-def MonitoredDataCacheImpl():
-    '''public MonitoredDataCacheImpl()
+def ():
+    '''returns MonitoredDataCacheImpl\n\n
+    ()\n
     '''
 def getCachedMonitoredData():
-    '''public ArrayList<MonitoredData> getCachedMonitoredData()
+    '''returns ArrayList<MonitoredData>\n\n
+    getCachedMonitoredData()\n
     '''
 def getCachedMonitoredDataByDataSource():
-    '''public ArrayList<MonitoredData> getCachedMonitoredDataByDataSource(final String key)
+    '''returns ArrayList<MonitoredData>\n\n
+    getCachedMonitoredDataByDataSource(final String key)\n
     '''
 def getCachedMonitoredDataByDispatchToken():
-    '''public ArrayList<MonitoredData> getCachedMonitoredDataByDispatchToken(final int i)
+    '''returns ArrayList<MonitoredData>\n\n
+    getCachedMonitoredDataByDispatchToken(final int i)\n
     '''
 def getCachedMonitoredDataByDriver():
-    '''public ArrayList<MonitoredData> getCachedMonitoredDataByDriver(final String key)
+    '''returns ArrayList<MonitoredData>\n\n
+    getCachedMonitoredDataByDriver(final String key)\n
     '''

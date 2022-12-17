@@ -1,12 +1,16 @@
 def _then():
-    '''public JBlock _then()
+    '''returns JBlock\n\n
+    _then()\n
     '''
 def _else():
-    '''public JBlock _else()
+    '''returns JBlock\n\n
+    _else()\n
     '''
 def _elseif():
-    '''public JConditional _elseif(final JExpression boolExp)
+    '''returns JConditional\n\n
+    _elseif(final JExpression boolExp)\n
     '''
 def state():
-    '''public void state(final JFormatter f)
+    '''returns None\n\n
+    state(final JFormatter f)\n
     '''

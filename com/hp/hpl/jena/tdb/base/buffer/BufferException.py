@@ -1,6 +1,7 @@
-def BufferException():
-    '''public BufferException()
-    public BufferException(final String msg)
-    public BufferException(final Throwable th)
-    public BufferException(final String msg, final Throwable th)
+def ():
+    '''returns BufferException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable th)\n
+    (final String msg, final Throwable th)\n
     '''

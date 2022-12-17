@@ -1,6 +1,8 @@
-def PlusPFldAssetItemnum():
-    '''public PlusPFldAssetItemnum(final MboValue arg0)
+def ():
+    '''returns PlusPFldAssetItemnum\n\n
+    (final MboValue arg0)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

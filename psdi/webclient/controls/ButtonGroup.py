@@ -1,15 +1,20 @@
-def ButtonGroup():
-    '''public ButtonGroup()
+def ():
+    '''returns ButtonGroup\n\n
+    ()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def hasDialogCancelEvent():
-    '''public boolean hasDialogCancelEvent()
+    '''returns boolean\n\n
+    hasDialogCancelEvent()\n
     '''
 def maintainControlId():
-    '''public boolean maintainControlId()
+    '''returns boolean\n\n
+    maintainControlId()\n
     '''

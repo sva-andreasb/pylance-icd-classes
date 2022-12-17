@@ -1,30 +1,40 @@
-def TLOAMSFWViewLine():
-    '''public TLOAMSFWViewLine(final MboSet ms)
+def ():
+    '''returns TLOAMSFWViewLine\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def associateLicenses():
-    '''public void associateLicenses(final MboSetRemote licenseSet)
+    '''returns None\n\n
+    associateLicenses(final MboSetRemote licenseSet)\n
     '''
 def associateLicensesBySoftware():
-    '''public void associateLicensesBySoftware(final MboSetRemote licenseSoftwareSet)
+    '''returns None\n\n
+    associateLicensesBySoftware(final MboSetRemote licenseSoftwareSet)\n
     '''
 def getContract():
-    '''public TLOAMSFWViewRemote getContract()
+    '''returns TLOAMSFWViewRemote\n\n
+    getContract()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def setSFWLicensed():
-    '''public void setSFWLicensed(MboSetRemote contSfwLicenseSet)
+    '''returns None\n\n
+    setSFWLicensed(MboSetRemote contSfwLicenseSet)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

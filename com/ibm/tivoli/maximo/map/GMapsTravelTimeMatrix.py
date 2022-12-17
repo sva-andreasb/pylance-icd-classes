@@ -1,12 +1,16 @@
-def GMapsTravelTimeMatrix():
-    '''public GMapsTravelTimeMatrix()
+def ():
+    '''returns GMapsTravelTimeMatrix\n\n
+    ()\n
     '''
 def calculateTravelTimeMatrixFor():
-    '''public List<Long> calculateTravelTimeMatrixFor(final List<SKDMAPInputParamInfo> originPoints, final List<SKDMAPInputParamInfo> destinationPoints, final UserInfo userInfo)
+    '''returns List<Long>\n\n
+    calculateTravelTimeMatrixFor(final List<SKDMAPInputParamInfo> originPoints, final List<SKDMAPInputParamInfo> destinationPoints, final UserInfo userInfo)\n
     '''
 def calculateTravelTimeMatrixWithinUsageLimits():
-    '''public List<Long> calculateTravelTimeMatrixWithinUsageLimits(final List<SKDMAPInputParamInfo> originPoints, final List<SKDMAPInputParamInfo> destinationPoints, final UserInfo userInfo)
+    '''returns List<Long>\n\n
+    calculateTravelTimeMatrixWithinUsageLimits(final List<SKDMAPInputParamInfo> originPoints, final List<SKDMAPInputParamInfo> destinationPoints, final UserInfo userInfo)\n
     '''
 def getElementsPerQueryLimit():
-    '''public int getElementsPerQueryLimit()
+    '''returns int\n\n
+    getElementsPerQueryLimit()\n
     '''

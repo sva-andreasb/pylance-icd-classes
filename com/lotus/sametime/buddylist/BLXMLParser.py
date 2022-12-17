@@ -1,24 +1,28 @@
-def main():
-    '''public static void main(final String[] array)
-    '''
-def BLXMLParser():
-    '''public BLXMLParser(final BLServiceImpl blService)
+def ():
+    '''returns BLXMLParser\n\n
+    (final BLServiceImpl blService)\n
     '''
 def InitXmlParser():
-    '''public void InitXmlParser(final String s)
+    '''returns None\n\n
+    InitXmlParser(final String s)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def startElement():
-    '''public void startElement(final String s, final String s2, final String s3, final Attributes attributes)
+    '''returns None\n\n
+    startElement(final String s, final String s2, final String s3, final Attributes attributes)\n
     '''
 def endElement():
-    '''public void endElement(final String s, final String s2, final String s3)
+    '''returns None\n\n
+    endElement(final String s, final String s2, final String s3)\n
     '''
 def characters():
-    '''public void characters(final char[] array, final int n, final int n2)
+    '''returns None\n\n
+    characters(final char[] array, final int n, final int n2)\n
     '''

@@ -1,24 +1,28 @@
-def CollationWeights():
-    '''public CollationWeights()
+def ():
+    '''returns CollationWeights\n\n
+    ()\n
     '''
 def initForPrimary():
-    '''public void initForPrimary(final boolean compressible)
+    '''returns None\n\n
+    initForPrimary(final boolean compressible)\n
     '''
 def initForSecondary():
-    '''public void initForSecondary()
+    '''returns None\n\n
+    initForSecondary()\n
     '''
 def initForTertiary():
-    '''public void initForTertiary()
+    '''returns None\n\n
+    initForTertiary()\n
     '''
 def allocWeights():
-    '''public boolean allocWeights(final long lowerLimit, final long upperLimit, final int n)
+    '''returns boolean\n\n
+    allocWeights(final long lowerLimit, final long upperLimit, final int n)\n
     '''
 def nextWeight():
-    '''public long nextWeight()
-    '''
-def lengthOfWeight():
-    '''public static int lengthOfWeight(final long weight)
+    '''returns long\n\n
+    nextWeight()\n
     '''
 def compareTo():
-    '''public int compareTo(final WeightRange other)
+    '''returns int\n\n
+    compareTo(final WeightRange other)\n
     '''

@@ -1,6 +1,8 @@
-def ReconCompFilterExpression():
-    '''public ReconCompFilterExpression(final DataSet dataSet, final ReconInfo reconInfo)
+def ():
+    '''returns ReconCompFilterExpression\n\n
+    (final DataSet dataSet, final ReconInfo reconInfo)\n
     '''
 def evaluateExpression():
-    '''public ReconCompFilterReturn evaluateExpression(final ComparisonQueryHelper queries)
+    '''returns ReconCompFilterReturn\n\n
+    evaluateExpression(final ComparisonQueryHelper queries)\n
     '''

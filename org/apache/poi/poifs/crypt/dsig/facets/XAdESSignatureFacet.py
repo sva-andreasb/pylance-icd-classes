@@ -1,9 +1,12 @@
-def XAdESSignatureFacet():
-    '''public XAdESSignatureFacet()
+def ():
+    '''returns XAdESSignatureFacet\n\n
+    ()\n
     '''
 def preSign():
-    '''public void preSign(final Document document, final List<Reference> references, final List<XMLObject> objects)
+    '''returns None\n\n
+    preSign(final Document document, final List<Reference> references, final List<XMLObject> objects)\n
     '''
 def addMimeType():
-    '''public void addMimeType(final String dsReferenceUri, final String mimetype)
+    '''returns None\n\n
+    addMimeType(final String dsReferenceUri, final String mimetype)\n
     '''

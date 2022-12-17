@@ -1,3 +1,4 @@
 def openConnection():
-    '''public URLConnection openConnection(final URL url)
+    '''returns URLConnection\n\n
+    openConnection(final URL url)\n
     '''

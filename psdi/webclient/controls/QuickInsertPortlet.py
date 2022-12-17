@@ -1,18 +1,24 @@
-def QuickInsertPortlet():
-    '''public QuickInsertPortlet()
+def ():
+    '''returns QuickInsertPortlet\n\n
+    ()\n
     '''
 def getFavoriteActions():
-    '''public ArrayList getFavoriteActions()
+    '''returns ArrayList\n\n
+    getFavoriteActions()\n
     '''
 def getRenderData():
-    '''public ArrayList getRenderData()
+    '''returns ArrayList\n\n
+    getRenderData()\n
     '''
 def createRenderData():
-    '''public void createRenderData()
+    '''returns None\n\n
+    createRenderData()\n
     '''
 def quickinsert():
-    '''public int quickinsert()
+    '''returns int\n\n
+    quickinsert()\n
     '''
 def areAllActionsRestricted():
-    '''public boolean areAllActionsRestricted()
+    '''returns boolean\n\n
+    areAllActionsRestricted()\n
     '''

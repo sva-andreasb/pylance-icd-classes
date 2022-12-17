@@ -1,21 +1,16 @@
-def getSingleton():
-    '''public static DB2TextSearch getSingleton()
-    '''
 def offerDB2TextSearchMessage():
-    '''public List<String> offerDB2TextSearchMessage()
+    '''returns List<String>\n\n
+    offerDB2TextSearchMessage()\n
     '''
 def offerDB2TextSearch():
-    '''public boolean offerDB2TextSearch(final Properties updatedProperties)
+    '''returns boolean\n\n
+    offerDB2TextSearch(final Properties updatedProperties)\n
     '''
 def enableTextSearch():
-    '''public List<TaskResult> enableTextSearch(final Properties updatedProperties)
+    '''returns List<TaskResult>\n\n
+    enableTextSearch(final Properties updatedProperties)\n
     '''
 def disableTextSearch():
-    '''public List<TaskResult> disableTextSearch(final Properties updatedProperties, final boolean force)
-    '''
-def main():
-    '''public static void main(final String[] args)
-    '''
-def isCurrentlyEnabled():
-    '''public static boolean isCurrentlyEnabled()
+    '''returns List<TaskResult>\n\n
+    disableTextSearch(final Properties updatedProperties, final boolean force)\n
     '''

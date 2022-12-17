@@ -3,81 +3,104 @@ DEFAULT_APPID = "String  \"srmssctr\""
 SELF_SERVICE_CENTER_APP_NAME = "String  \"SRMSSCTR\""
 OFFERINGS_APP_NAME = "String  \"PMSCOFFER\""
 VIEW_APPROVAL_APP = "String  \"VIEWAPPRSR\""
-def PmScInputSpecBean():
-    '''public PmScInputSpecBean()
+def ():
+    '''returns PmScInputSpecBean\n\n
+    ()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def setMboSet():
-    '''public void setMboSet(final MboSetRemote mboSet)
-    public void setMboSet(final PmScCRSpecSetRemote specSet)
+    '''returns None\n\n
+    setMboSet(final MboSetRemote mboSet)\n
+    setMboSet(final PmScCRSpecSetRemote specSet)\n
     '''
 def callMethod():
-    '''public int callMethod(final WebClientEvent event)
+    '''returns int\n\n
+    callMethod(final WebClientEvent event)\n
     '''
 def cancelClicked():
-    '''public int cancelClicked()
+    '''returns int\n\n
+    cancelClicked()\n
     '''
 def okClicked():
-    '''public int okClicked()
+    '''returns int\n\n
+    okClicked()\n
     '''
 def shippingInfo():
-    '''public int shippingInfo()
+    '''returns int\n\n
+    shippingInfo()\n
     '''
 def quickorder():
-    '''public int quickorder()
+    '''returns int\n\n
+    quickorder()\n
     '''
 def opencrdr():
-    '''public int opencrdr()
+    '''returns int\n\n
+    opencrdr()\n
     '''
 def addtocart():
-    '''public void addtocart(final boolean submitCart, PmScCRSpecRemote crSpec)
+    '''returns None\n\n
+    addtocart(final boolean submitCart, PmScCRSpecRemote crSpec)\n
     '''
 def setValue():
-    '''public void setValue(final int row, final String attribute, final MboRemote mboRemote)
-    public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
-    public synchronized void setValue(final String attribute, final MboRemote mboRemote)
+    '''returns None\n\n
+    setValue(final int row, final String attribute, final MboRemote mboRemote)\n
     '''
 def submit():
-    '''public void submit(final PmScCRRemote cr)
+    '''returns None\n\n
+    submit(final PmScCRRemote cr)\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def launchActionServices():
-    '''public void launchActionServices(final OfferingRemote off, final CatalogRemote catmbo)
+    '''returns None\n\n
+    launchActionServices(final OfferingRemote off, final CatalogRemote catmbo)\n
     '''
 def launchWF():
-    '''public void launchWF(final OfferingRemote off, final long crid)
+    '''returns None\n\n
+    launchWF(final OfferingRemote off, final long crid)\n
     '''
 def deletefav():
-    '''public int deletefav()
+    '''returns int\n\n
+    deletefav()\n
     '''
 def deleteFromFavorites():
-    '''public void deleteFromFavorites(final UserInfo userInfo, final OfferingRemote offering)
+    '''returns None\n\n
+    deleteFromFavorites(final UserInfo userInfo, final OfferingRemote offering)\n
     '''
 def addtofav():
-    '''public int addtofav()
+    '''returns int\n\n
+    addtofav()\n
     '''
 def addToFavorites():
-    '''public void addToFavorites(final UserInfo userInfo, final OfferingRemote offering)
+    '''returns None\n\n
+    addToFavorites(final UserInfo userInfo, final OfferingRemote offering)\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
+    '''returns int\n\n
+    cancelDialog()\n
     '''
 def checkForAppError():
-    '''public void checkForAppError()
+    '''returns None\n\n
+    checkForAppError()\n
     '''
 def validateTemplateOffering():
-    '''public String validateTemplateOffering(final MboRemote offering, final PageInstance dialog, final String dialogId, final SRRemote sr, final boolean findAll)
+    '''returns String\n\n
+    validateTemplateOffering(final MboRemote offering, final PageInstance dialog, final String dialogId, final SRRemote sr, final boolean findAll)\n
     '''
 def getTicketSpec():
-    '''public int getTicketSpec(final String offeringattr)
+    '''returns int\n\n
+    getTicketSpec(final String offeringattr)\n
     '''
 def getERMAttr():
-    '''public UIERMAttribute getERMAttr(final String offeringattr, final int ticketspecid, final PmScCRSpecRemote crSpec)
+    '''returns UIERMAttribute\n\n
+    getERMAttr(final String offeringattr, final int ticketspecid, final PmScCRSpecRemote crSpec)\n
     '''
 def getExtendedToolTip():
-    '''public JSONObject getExtendedToolTip(final JSONObject definition)
+    '''returns JSONObject\n\n
+    getExtendedToolTip(final JSONObject definition)\n
     '''

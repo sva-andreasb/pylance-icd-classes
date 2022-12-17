@@ -1,3 +1,4 @@
-def FldAutoScriptChangeState():
-    '''public FldAutoScriptChangeState(final MboValue mbv)
+def ():
+    '''returns FldAutoScriptChangeState\n\n
+    (final MboValue mbv)\n
     '''

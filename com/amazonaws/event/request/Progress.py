@@ -1,27 +1,36 @@
 def isEnabled():
-    '''public boolean isEnabled()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''
 def addRequestBytesTransferred():
-    '''public void addRequestBytesTransferred(final long bytes)
+    '''returns None\n\n
+    addRequestBytesTransferred(final long bytes)\n
     '''
 def addResponseBytesTransferred():
-    '''public void addResponseBytesTransferred(final long bytes)
+    '''returns None\n\n
+    addResponseBytesTransferred(final long bytes)\n
     '''
 def getRequestContentLength():
-    '''public long getRequestContentLength()
+    '''returns long\n\n
+    getRequestContentLength()\n
     '''
 def addRequestContentLength():
-    '''public void addRequestContentLength(final long contentLength)
+    '''returns None\n\n
+    addRequestContentLength(final long contentLength)\n
     '''
 def getRequestBytesTransferred():
-    '''public long getRequestBytesTransferred()
+    '''returns long\n\n
+    getRequestBytesTransferred()\n
     '''
 def getResponseContentLength():
-    '''public long getResponseContentLength()
+    '''returns long\n\n
+    getResponseContentLength()\n
     '''
 def addResponseContentLength():
-    '''public void addResponseContentLength(final long contentLength)
+    '''returns None\n\n
+    addResponseContentLength(final long contentLength)\n
     '''
 def getResponseBytesTransferred():
-    '''public long getResponseBytesTransferred()
+    '''returns long\n\n
+    getResponseBytesTransferred()\n
     '''

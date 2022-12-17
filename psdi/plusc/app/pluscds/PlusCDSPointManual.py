@@ -1,3 +1,4 @@
 def setFieldFlag():
-    '''public void setFieldFlag(final MboRemote mboRemote, final MboValue mboCurrent, final MboRemote myInstr)
+    '''returns None\n\n
+    setFieldFlag(final MboRemote mboRemote, final MboValue mboCurrent, final MboRemote myInstr)\n
     '''

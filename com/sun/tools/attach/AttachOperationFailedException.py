@@ -1,3 +1,4 @@
-def AttachOperationFailedException():
-    '''public AttachOperationFailedException(final String message)
+def ():
+    '''returns AttachOperationFailedException\n\n
+    (final String message)\n
     '''

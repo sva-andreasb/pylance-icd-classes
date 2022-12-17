@@ -1,3 +1,4 @@
-def MaxLogAppenderSet():
-    '''public MaxLogAppenderSet(final MboServerInterface ms)
+def ():
+    '''returns MaxLogAppenderSet\n\n
+    (final MboServerInterface ms)\n
     '''

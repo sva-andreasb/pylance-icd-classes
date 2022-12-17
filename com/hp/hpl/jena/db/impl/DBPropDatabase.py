@@ -1,67 +1,88 @@
 dbSystemGraphName = "String  \"SystemGraph\""
-def DBPropDatabase():
-    '''public DBPropDatabase(final SpecializedGraph g, final String engineType, final String driverVersion, final String layoutVersion, final String longObjectLength, final String indexKeyLength, final String isTransactionDb, final String doCompressURI, final String compressURILength, final String tableNamePrefix)
-    public DBPropDatabase(final SpecializedGraph g, final Node n)
-    public DBPropDatabase(final SpecializedGraph g)
+def ():
+    '''returns DBPropDatabase\n\n
+    (final SpecializedGraph g, final String engineType, final String driverVersion, final String layoutVersion, final String longObjectLength, final String indexKeyLength, final String isTransactionDb, final String doCompressURI, final String compressURILength, final String tableNamePrefix)\n
+    (final SpecializedGraph g, final Node n)\n
+    (final SpecializedGraph g)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getEngineType():
-    '''public String getEngineType()
+    '''returns String\n\n
+    getEngineType()\n
     '''
 def getDriverVersion():
-    '''public String getDriverVersion()
+    '''returns String\n\n
+    getDriverVersion()\n
     '''
 def getFormatDate():
-    '''public String getFormatDate()
+    '''returns String\n\n
+    getFormatDate()\n
     '''
 def getLayoutVersion():
-    '''public String getLayoutVersion()
+    '''returns String\n\n
+    getLayoutVersion()\n
     '''
 def getLongObjectLength():
-    '''public String getLongObjectLength()
+    '''returns String\n\n
+    getLongObjectLength()\n
     '''
 def getIndexKeyLength():
-    '''public String getIndexKeyLength()
+    '''returns String\n\n
+    getIndexKeyLength()\n
     '''
 def getIsTransactionDb():
-    '''public String getIsTransactionDb()
+    '''returns String\n\n
+    getIsTransactionDb()\n
     '''
 def getDoCompressURI():
-    '''public String getDoCompressURI()
+    '''returns String\n\n
+    getDoCompressURI()\n
     '''
 def getCompressURILength():
-    '''public String getCompressURILength()
+    '''returns String\n\n
+    getCompressURILength()\n
     '''
 def getTableNamePrefix():
-    '''public String getTableNamePrefix()
+    '''returns String\n\n
+    getTableNamePrefix()\n
     '''
 def addGraph():
-    '''public void addGraph(final DBPropGraph g)
+    '''returns None\n\n
+    addGraph(final DBPropGraph g)\n
     '''
 def removeGraph():
-    '''public void removeGraph(final DBPropGraph g)
+    '''returns None\n\n
+    removeGraph(final DBPropGraph g)\n
     '''
 def getAllGraphs():
-    '''public ExtendedIterator<DBPropGraph> getAllGraphs()
+    '''returns ExtendedIterator<DBPropGraph>\n\n
+    getAllGraphs()\n
     '''
 def getAllGraphNames():
-    '''public ExtendedIterator<String> getAllGraphNames()
+    '''returns ExtendedIterator<String>\n\n
+    getAllGraphNames()\n
     '''
 def getInitLongObjectLength():
-    '''public String getInitLongObjectLength()
+    '''returns String\n\n
+    getInitLongObjectLength()\n
     '''
 def getInitIndexKeyLength():
-    '''public String getInitIndexKeyLength()
+    '''returns String\n\n
+    getInitIndexKeyLength()\n
     '''
 def getInitDoCompressURI():
-    '''public String getInitDoCompressURI()
+    '''returns String\n\n
+    getInitDoCompressURI()\n
     '''
 def getInitCompressURILength():
-    '''public String getInitCompressURILength()
+    '''returns String\n\n
+    getInitCompressURILength()\n
     '''
 def map1():
-    '''public String map1(final DBPropGraph o)
-    public DBPropGraph map1(final Triple t)
+    '''returns DBPropGraph\n\n
+    map1(final DBPropGraph o)\n
+    map1(final Triple t)\n
     '''

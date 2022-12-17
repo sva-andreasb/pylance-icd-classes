@@ -1,35 +1,34 @@
-def IlvLocalZoomAxisTransformer():
-    '''public IlvLocalZoomAxisTransformer(final IlvDataInterval ilvDataInterval, final double n, final boolean b)
-    public IlvLocalZoomAxisTransformer(final double n, final double n2, final double b, final boolean c)
-    '''
-def getZoomRange():
-    '''public final IlvDataInterval getZoomRange()
+def ():
+    '''returns IlvLocalZoomAxisTransformer\n\n
+    (final IlvDataInterval ilvDataInterval, final double n, final boolean b)\n
+    (final double n, final double n2, final double b, final boolean c)\n
     '''
 def setZoomRange():
-    '''public boolean setZoomRange(final double n, final double n2)
-    '''
-def getZoomFactor():
-    '''public final double getZoomFactor()
+    '''returns boolean\n\n
+    setZoomRange(final double n, final double n2)\n
     '''
 def setZoomFactor():
-    '''public boolean setZoomFactor(final double n)
-    '''
-def isContinuous():
-    '''public final boolean isContinuous()
+    '''returns boolean\n\n
+    setZoomFactor(final double n)\n
     '''
 def setContinuous():
-    '''public void setContinuous(final boolean c)
+    '''returns None\n\n
+    setContinuous(final boolean c)\n
     '''
 def getTransformedRange():
-    '''public IlvDataInterval getTransformedRange()
+    '''returns IlvDataInterval\n\n
+    getTransformedRange()\n
     '''
 def apply():
-    '''public double apply(double n)
-    public double[] apply(final double[] array, final int n)
+    '''returns double[]\n\n
+    apply(double n)\n
+    apply(final double[] array, final int n)\n
     '''
 def inverse():
-    '''public double inverse(double n)
+    '''returns double\n\n
+    inverse(double n)\n
     '''
 def validateInterval():
-    '''public boolean validateInterval(final IlvDataInterval ilvDataInterval)
+    '''returns boolean\n\n
+    validateInterval(final IlvDataInterval ilvDataInterval)\n
     '''

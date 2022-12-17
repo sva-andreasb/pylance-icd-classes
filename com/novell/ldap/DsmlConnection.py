@@ -1,102 +1,124 @@
 def sendDoc():
-    '''public ArrayList sendDoc(final String s)
+    '''returns ArrayList\n\n
+    sendDoc(final String s)\n
     '''
-def DsmlConnection():
-    '''public DsmlConnection()
-    public DsmlConnection(final LDAPSocketFactory ldapSocketFactory)
+def ():
+    '''returns DsmlConnection\n\n
+    ()\n
+    (final LDAPSocketFactory ldapSocketFactory)\n
     '''
 def connect():
-    '''public void connect(final String serverString, final int n)
+    '''returns None\n\n
+    connect(final String serverString, final int n)\n
     '''
 def bind():
-    '''public void bind(final int n, final String s, final byte[] bytes, final LDAPConstraints ldapConstraints)
-    public LDAPResponseQueue bind(final int n, final String s, final byte[] array, final LDAPResponseQueue ldapResponseQueue, final LDAPConstraints ldapConstraints)
-    public LDAPResponseQueue bind(final int n, final String s, final byte[] array, final LDAPResponseQueue ldapResponseQueue)
-    public void bind(final int n, final String s, final byte[] bytes)
-    public void bind(final int n, final String s, final String original, final LDAPConstraints ldapConstraints)
-    public void bind(final int n, final String s, final String original)
-    public void bind(final String s, final String original, final LDAPConstraints ldapConstraints)
-    public void bind(final String s, final String original, final Map map, final Object o, final LDAPConstraints ldapConstraints)
-    public void bind(final String s, final String original, final Map map, final Object o)
-    public void bind(final String s, final String original, final String[] array, final Map map, final Object o, final LDAPConstraints ldapConstraints)
-    public void bind(final String s, final String s2, final String[] array, final Map map, final Object o)
-    public void bind(final String s, final String s2)
+    '''returns None\n\n
+    bind(final int n, final String s, final byte[] bytes, final LDAPConstraints ldapConstraints)\n
+    bind(final int n, final String s, final byte[] array, final LDAPResponseQueue ldapResponseQueue, final LDAPConstraints ldapConstraints)\n
+    bind(final int n, final String s, final byte[] array, final LDAPResponseQueue ldapResponseQueue)\n
+    bind(final int n, final String s, final byte[] bytes)\n
+    bind(final int n, final String s, final String original, final LDAPConstraints ldapConstraints)\n
+    bind(final int n, final String s, final String original)\n
+    bind(final String s, final String original, final LDAPConstraints ldapConstraints)\n
+    bind(final String s, final String original, final Map map, final Object o, final LDAPConstraints ldapConstraints)\n
+    bind(final String s, final String original, final Map map, final Object o)\n
+    bind(final String s, final String original, final String[] array, final Map map, final Object o, final LDAPConstraints ldapConstraints)\n
+    bind(final String s, final String s2, final String[] array, final Map map, final Object o)\n
+    bind(final String s, final String s2)\n
     '''
 def add():
-    '''public void add(final LDAPEntry ldapEntry, final LDAPConstraints ldapConstraints)
-    public LDAPResponseQueue add(final LDAPEntry ldapEntry, final LDAPResponseQueue ldapResponseQueue, final LDAPConstraints ldapConstraints)
-    public LDAPResponseQueue add(final LDAPEntry ldapEntry, final LDAPResponseQueue ldapResponseQueue)
-    public void add(final LDAPEntry ldapEntry)
+    '''returns None\n\n
+    add(final LDAPEntry ldapEntry, final LDAPConstraints ldapConstraints)\n
+    add(final LDAPEntry ldapEntry, final LDAPResponseQueue ldapResponseQueue, final LDAPConstraints ldapConstraints)\n
+    add(final LDAPEntry ldapEntry, final LDAPResponseQueue ldapResponseQueue)\n
+    add(final LDAPEntry ldapEntry)\n
     '''
 def modify():
-    '''public void modify(final String s, final LDAPModification ldapModification, final LDAPConstraints ldapConstraints)
-    public LDAPResponseQueue modify(final String s, final LDAPModification ldapModification, final LDAPResponseQueue ldapResponseQueue, final LDAPConstraints ldapConstraints)
-    public LDAPResponseQueue modify(final String s, final LDAPModification ldapModification, final LDAPResponseQueue ldapResponseQueue)
-    public void modify(final String s, final LDAPModification ldapModification)
-    public void modify(final String s, final LDAPModification[] array, final LDAPConstraints ldapConstraints)
-    public LDAPResponseQueue modify(final String s, final LDAPModification[] array, final LDAPResponseQueue ldapResponseQueue, final LDAPConstraints ldapConstraints)
-    public LDAPResponseQueue modify(final String s, final LDAPModification[] array, final LDAPResponseQueue ldapResponseQueue)
-    public void modify(final String s, final LDAPModification[] array)
+    '''returns None\n\n
+    modify(final String s, final LDAPModification ldapModification, final LDAPConstraints ldapConstraints)\n
+    modify(final String s, final LDAPModification ldapModification, final LDAPResponseQueue ldapResponseQueue, final LDAPConstraints ldapConstraints)\n
+    modify(final String s, final LDAPModification ldapModification, final LDAPResponseQueue ldapResponseQueue)\n
+    modify(final String s, final LDAPModification ldapModification)\n
+    modify(final String s, final LDAPModification[] array, final LDAPConstraints ldapConstraints)\n
+    modify(final String s, final LDAPModification[] array, final LDAPResponseQueue ldapResponseQueue, final LDAPConstraints ldapConstraints)\n
+    modify(final String s, final LDAPModification[] array, final LDAPResponseQueue ldapResponseQueue)\n
+    modify(final String s, final LDAPModification[] array)\n
     '''
 def rename():
-    '''public void rename(final String s, final String s2, final boolean b, final LDAPConstraints ldapConstraints)
-    public LDAPResponseQueue rename(final String s, final String s2, final boolean b, final LDAPResponseQueue ldapResponseQueue, final LDAPConstraints ldapConstraints)
-    public LDAPResponseQueue rename(final String s, final String s2, final boolean b, final LDAPResponseQueue ldapResponseQueue)
-    public void rename(final String s, final String s2, final boolean b)
-    public void rename(final String s, final String s2, final String s3, final boolean b, final LDAPConstraints ldapConstraints)
-    public LDAPResponseQueue rename(final String s, final String s2, final String s3, final boolean b, final LDAPResponseQueue ldapResponseQueue, final LDAPConstraints ldapConstraints)
-    public LDAPResponseQueue rename(final String s, final String s2, final String s3, final boolean b, final LDAPResponseQueue ldapResponseQueue)
-    public void rename(final String s, final String s2, final String s3, final boolean b)
+    '''returns None\n\n
+    rename(final String s, final String s2, final boolean b, final LDAPConstraints ldapConstraints)\n
+    rename(final String s, final String s2, final boolean b, final LDAPResponseQueue ldapResponseQueue, final LDAPConstraints ldapConstraints)\n
+    rename(final String s, final String s2, final boolean b, final LDAPResponseQueue ldapResponseQueue)\n
+    rename(final String s, final String s2, final boolean b)\n
+    rename(final String s, final String s2, final String s3, final boolean b, final LDAPConstraints ldapConstraints)\n
+    rename(final String s, final String s2, final String s3, final boolean b, final LDAPResponseQueue ldapResponseQueue, final LDAPConstraints ldapConstraints)\n
+    rename(final String s, final String s2, final String s3, final boolean b, final LDAPResponseQueue ldapResponseQueue)\n
+    rename(final String s, final String s2, final String s3, final boolean b)\n
     '''
 def delete():
-    '''public void delete(final String s, final LDAPConstraints ldapConstraints)
-    public LDAPResponseQueue delete(final String s, final LDAPResponseQueue ldapResponseQueue, final LDAPConstraints ldapConstraints)
-    public LDAPResponseQueue delete(final String s, final LDAPResponseQueue ldapResponseQueue)
-    public void delete(final String s)
+    '''returns None\n\n
+    delete(final String s, final LDAPConstraints ldapConstraints)\n
+    delete(final String s, final LDAPResponseQueue ldapResponseQueue, final LDAPConstraints ldapConstraints)\n
+    delete(final String s, final LDAPResponseQueue ldapResponseQueue)\n
+    delete(final String s)\n
     '''
 def search():
-    '''public LDAPSearchResults search(final String s, final int n, final String s2, final String[] array, final boolean b, final LDAPSearchConstraints ldapSearchConstraints)
-    public LDAPSearchQueue search(final String s, final int n, final String s2, final String[] array, final boolean b, final LDAPSearchQueue ldapSearchQueue, final LDAPSearchConstraints ldapSearchConstraints)
-    public LDAPSearchQueue search(final String s, final int n, final String s2, final String[] array, final boolean b, final LDAPSearchQueue ldapSearchQueue)
-    public LDAPSearchResults search(final String s, final int n, final String s2, final String[] array, final boolean b)
+    '''returns LDAPSearchResults\n\n
+    search(final String s, final int n, final String s2, final String[] array, final boolean b, final LDAPSearchConstraints ldapSearchConstraints)\n
+    search(final String s, final int n, final String s2, final String[] array, final boolean b, final LDAPSearchQueue ldapSearchQueue, final LDAPSearchConstraints ldapSearchConstraints)\n
+    search(final String s, final int n, final String s2, final String[] array, final boolean b, final LDAPSearchQueue ldapSearchQueue)\n
+    search(final String s, final int n, final String s2, final String[] array, final boolean b)\n
     '''
 def isConnectionAlive():
-    '''public boolean isConnectionAlive()
+    '''returns boolean\n\n
+    isConnectionAlive()\n
     '''
 def isBound():
-    '''public boolean isBound()
+    '''returns boolean\n\n
+    isBound()\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def isTLS():
-    '''public boolean isTLS()
+    '''returns boolean\n\n
+    isTLS()\n
     '''
 def disconnect():
-    '''public void disconnect()
-    public void disconnect(final LDAPConstraints ldapConstraints)
+    '''returns None\n\n
+    disconnect()\n
+    disconnect(final LDAPConstraints ldapConstraints)\n
     '''
 def sendRequest():
-    '''public LDAPMessageQueue sendRequest(final LDAPMessage ldapMessage, final LDAPMessageQueue ldapMessageQueue)
+    '''returns LDAPMessageQueue\n\n
+    sendRequest(final LDAPMessage ldapMessage, final LDAPMessageQueue ldapMessageQueue)\n
     '''
 def getCallback():
-    '''public HttpRequestCallback getCallback()
+    '''returns HttpRequestCallback\n\n
+    getCallback()\n
     '''
 def setCallback():
-    '''public void setCallback(final HttpRequestCallback callback)
+    '''returns None\n\n
+    setCallback(final HttpRequestCallback callback)\n
     '''
 def getBinddn():
-    '''public String getBinddn()
+    '''returns String\n\n
+    getBinddn()\n
     '''
 def getCon():
-    '''public HttpClient getCon()
+    '''returns HttpClient\n\n
+    getCon()\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPass():
-    '''public String getPass()
+    '''returns String\n\n
+    getPass()\n
     '''
 def getServerString():
-    '''public String getServerString()
+    '''returns String\n\n
+    getServerString()\n
     '''

@@ -1,3 +1,4 @@
-def ResourceViewDividerUpdater():
-    '''public ResourceViewDividerUpdater(final GanttAndResourceUsageView view)
+def ():
+    '''returns ResourceViewDividerUpdater\n\n
+    (final GanttAndResourceUsageView view)\n
     '''

@@ -1,9 +1,12 @@
 def getAnchor():
-    '''public Rectangle2D getAnchor()
+    '''returns Rectangle2D\n\n
+    getAnchor()\n
     '''
 def setPlaceholder():
-    '''public void setPlaceholder(final Placeholder placeholder)
+    '''returns None\n\n
+    setPlaceholder(final Placeholder placeholder)\n
     '''
 def setFillColor():
-    '''public void setFillColor(final Color color)
+    '''returns None\n\n
+    setFillColor(final Color color)\n
     '''

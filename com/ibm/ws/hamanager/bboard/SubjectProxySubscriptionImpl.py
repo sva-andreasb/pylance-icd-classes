@@ -1,3 +1,4 @@
 def requestCurrentState():
-    '''public SubjectValue[] requestCurrentState()
+    '''returns SubjectValue[]\n\n
+    requestCurrentState()\n
     '''

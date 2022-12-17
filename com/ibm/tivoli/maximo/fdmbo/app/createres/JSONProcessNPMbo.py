@@ -1,19 +1,25 @@
-def JSONProcessNPMbo():
-    '''public JSONProcessNPMbo(final MboSet ms)
+def ():
+    '''returns JSONProcessNPMbo\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def fill():
-    '''public void fill(final byte[] jsonData)
-    public void fill(final byte[] jsonData, final byte[] jsonSchema)
+    '''returns None\n\n
+    fill(final byte[] jsonData)\n
+    fill(final byte[] jsonData, final byte[] jsonSchema)\n
     '''
 def populateObjectInfo():
-    '''public void populateObjectInfo()
+    '''returns None\n\n
+    populateObjectInfo()\n
     '''
 def setPropertyInfo():
-    '''public void setPropertyInfo(final JSONPropertyInfo propInfo)
+    '''returns None\n\n
+    setPropertyInfo(final JSONPropertyInfo propInfo)\n
     '''
 def getPropertyInfo():
-    '''public JSONPropertyInfo getPropertyInfo()
+    '''returns JSONPropertyInfo\n\n
+    getPropertyInfo()\n
     '''

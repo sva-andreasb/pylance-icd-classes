@@ -1,6 +1,8 @@
-def PlusCFldSpotCheckCheckDate():
-    '''public PlusCFldSpotCheckCheckDate(final MboValue mbv)
+def ():
+    '''returns PlusCFldSpotCheckCheckDate\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

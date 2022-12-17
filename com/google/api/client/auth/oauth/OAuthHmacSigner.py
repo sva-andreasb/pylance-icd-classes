@@ -1,6 +1,8 @@
 def getSignatureMethod():
-    '''public String getSignatureMethod()
+    '''returns String\n\n
+    getSignatureMethod()\n
     '''
 def computeSignature():
-    '''public String computeSignature(final String signatureBaseString)
+    '''returns String\n\n
+    computeSignature(final String signatureBaseString)\n
     '''

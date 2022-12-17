@@ -1,6 +1,8 @@
-def FldInvoiceLineLoadedCost():
-    '''public FldInvoiceLineLoadedCost(final MboValue mbv)
+def ():
+    '''returns FldInvoiceLineLoadedCost\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

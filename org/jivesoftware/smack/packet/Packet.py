@@ -1,71 +1,62 @@
 ID_NOT_AVAILABLE = "String  \"ID_NOT_AVAILABLE\""
-def Packet():
-    '''public Packet()
-    '''
-def nextID():
-    '''public static synchronized String nextID()
-    '''
-def setDefaultXmlns():
-    '''public static void setDefaultXmlns(final String defaultXmlns)
+def ():
+    '''returns Packet\n\n
+    ()\n
     '''
 def getPacketID():
-    '''public String getPacketID()
+    '''returns String\n\n
+    getPacketID()\n
     '''
 def setPacketID():
-    '''public void setPacketID(final String packetID)
+    '''returns None\n\n
+    setPacketID(final String packetID)\n
     '''
 def getTo():
-    '''public String getTo()
+    '''returns String\n\n
+    getTo()\n
     '''
 def setTo():
-    '''public void setTo(final String to)
+    '''returns None\n\n
+    setTo(final String to)\n
     '''
 def getFrom():
-    '''public String getFrom()
+    '''returns String\n\n
+    getFrom()\n
     '''
 def setFrom():
-    '''public void setFrom(final String from)
+    '''returns None\n\n
+    setFrom(final String from)\n
     '''
 def getError():
-    '''public XMPPError getError()
+    '''returns XMPPError\n\n
+    getError()\n
     '''
 def setError():
-    '''public void setError(final XMPPError error)
-    '''
-def getExtensions():
-    '''public synchronized Collection<PacketExtension> getExtensions()
+    '''returns None\n\n
+    setError(final XMPPError error)\n
     '''
 def getExtension():
-    '''public PacketExtension getExtension(final String namespace)
-    public PacketExtension getExtension(final String elementName, final String namespace)
+    '''returns PacketExtension\n\n
+    getExtension(final String namespace)\n
+    getExtension(final String elementName, final String namespace)\n
     '''
 def addExtension():
-    '''public void addExtension(final PacketExtension extension)
+    '''returns None\n\n
+    addExtension(final PacketExtension extension)\n
     '''
 def removeExtension():
-    '''public void removeExtension(final PacketExtension extension)
-    '''
-def getProperty():
-    '''public synchronized Object getProperty(final String name)
-    '''
-def setProperty():
-    '''public synchronized void setProperty(final String name, final Object value)
-    '''
-def deleteProperty():
-    '''public synchronized void deleteProperty(final String name)
-    '''
-def getPropertyNames():
-    '''public synchronized Collection<String> getPropertyNames()
+    '''returns None\n\n
+    removeExtension(final PacketExtension extension)\n
     '''
 def getXmlns():
-    '''public String getXmlns()
-    '''
-def getDefaultLanguage():
-    '''public static String getDefaultLanguage()
+    '''returns String\n\n
+    getXmlns()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

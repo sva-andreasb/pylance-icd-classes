@@ -1,3 +1,4 @@
-def PmCfgFldReconResultName():
-    '''public PmCfgFldReconResultName(final MboValue mbv)
+def ():
+    '''returns PmCfgFldReconResultName\n\n
+    (final MboValue mbv)\n
     '''

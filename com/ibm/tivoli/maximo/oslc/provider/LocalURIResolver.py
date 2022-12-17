@@ -1,122 +1,155 @@
-def LocalURIResolver():
-    '''public LocalURIResolver(final String resourceId, final String osName)
-    public LocalURIResolver(final String uri, final boolean create)
-    public LocalURIResolver(final String uri)
-    public LocalURIResolver()
-    public LocalURIResolver(final boolean resolveRootCollection)
-    public LocalURIResolver(final String uri, final Map<String, String> keyMap, final UserInfo userInfo)
-    public LocalURIResolver(final String uri, final boolean create, final boolean fillKeyMap)
-    public LocalURIResolver(final String uri, final Map<String, String> keyMap, final String key, final UserInfo userInfo)
+def ():
+    '''returns LocalURIResolver\n\n
+    (final String resourceId, final String osName)\n
+    (final String uri, final boolean create)\n
+    (final String uri)\n
+    ()\n
+    (final boolean resolveRootCollection)\n
+    (final String uri, final Map<String, String> keyMap, final UserInfo userInfo)\n
+    (final String uri, final boolean create, final boolean fillKeyMap)\n
+    (final String uri, final Map<String, String> keyMap, final String key, final UserInfo userInfo)\n
     '''
 def isAttachment():
-    '''public boolean isAttachment(final MboRemote mbo, final String relation)
-    public boolean isAttachment()
+    '''returns boolean\n\n
+    isAttachment(final MboRemote mbo, final String relation)\n
+    isAttachment()\n
     '''
 def resolvePath():
-    '''public ResolvedResource resolvePath(final String osName, final String localURI, final OslcRequest oslcRequest)
-    public ResolvedResource resolvePath(String osName, final List<String> resPath, final OslcRequest oslcRequest)
+    '''returns ResolvedResource\n\n
+    resolvePath(final String osName, final String localURI, final OslcRequest oslcRequest)\n
+    resolvePath(String osName, final List<String> resPath, final OslcRequest oslcRequest)\n
     '''
 def isScript():
-    '''public boolean isScript()
+    '''returns boolean\n\n
+    isScript()\n
     '''
 def getMboForURI():
-    '''public MboRemote getMboForURI(final UserInfo userInfo)
+    '''returns MboRemote\n\n
+    getMboForURI(final UserInfo userInfo)\n
     '''
 def getMboForUniformId():
-    '''public MboRemote getMboForUniformId(final String primaryMboName, final UserInfo userInfo)
-    public MboRemote getMboForUniformId(final MboSetRemote mboSet, final OslcRequest oslcRequest)
+    '''returns MboRemote\n\n
+    getMboForUniformId(final String primaryMboName, final UserInfo userInfo)\n
+    getMboForUniformId(final MboSetRemote mboSet, final OslcRequest oslcRequest)\n
     '''
 def getResourceId():
-    '''public String getResourceId()
+    '''returns String\n\n
+    getResourceId()\n
     '''
 def getOSName():
-    '''public String getOSName()
+    '''returns String\n\n
+    getOSName()\n
     '''
 def getKeyValue():
-    '''public Object getKeyValue()
-    '''
-def getKeyValueMap():
-    '''public Map<String, Object> getKeyValueMap()
+    '''returns Object\n\n
+    getKeyValue()\n
     '''
 def isIdURI():
-    '''public boolean isIdURI()
+    '''returns boolean\n\n
+    isIdURI()\n
     '''
 def getMboName():
-    '''public String getMboName()
+    '''returns String\n\n
+    getMboName()\n
     '''
 def setMboName():
-    '''public void setMboName(final String mboName)
+    '''returns None\n\n
+    setMboName(final String mboName)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final String id)
+    '''returns None\n\n
+    setId(final String id)\n
     '''
 def getOsName():
-    '''public String getOsName()
-    public String getOsName()
+    '''returns String\n\n
+    getOsName()\n
+    getOsName()\n
     '''
 def setOsName():
-    '''public void setOsName(final String osName)
+    '''returns None\n\n
+    setOsName(final String osName)\n
     '''
 def isResourceNotModified():
-    '''public boolean isResourceNotModified()
+    '''returns boolean\n\n
+    isResourceNotModified()\n
     '''
 def isQueryWhereApplied():
-    '''public boolean isQueryWhereApplied()
+    '''returns boolean\n\n
+    isQueryWhereApplied()\n
     '''
 def setQueryWhereApplied():
-    '''public void setQueryWhereApplied()
+    '''returns None\n\n
+    setQueryWhereApplied()\n
     '''
 def getLookupSrcAttr():
-    '''public String getLookupSrcAttr()
+    '''returns String\n\n
+    getLookupSrcAttr()\n
     '''
 def isExtRes():
-    '''public boolean isExtRes()
+    '''returns boolean\n\n
+    isExtRes()\n
     '''
 def isCacheIt():
-    '''public boolean isCacheIt()
+    '''returns boolean\n\n
+    isCacheIt()\n
     '''
 def getETag():
-    '''public String getETag()
+    '''returns String\n\n
+    getETag()\n
     '''
 def isThumbNail():
-    '''public boolean isThumbNail()
+    '''returns boolean\n\n
+    isThumbNail()\n
     '''
 def getJSON():
-    '''public JSONArtifact getJSON()
+    '''returns JSONArtifact\n\n
+    getJSON()\n
     '''
 def getParentPath():
-    '''public String getParentPath()
+    '''returns String\n\n
+    getParentPath()\n
     '''
 def getOSRootMbo():
-    '''public Mbo getOSRootMbo()
+    '''returns Mbo\n\n
+    getOSRootMbo()\n
     '''
 def setOslcResourceDetailInfo():
-    '''public void setOslcResourceDetailInfo(final OslcResourceDetailInfo detInfo)
+    '''returns None\n\n
+    setOslcResourceDetailInfo(final OslcResourceDetailInfo detInfo)\n
     '''
 def getOslcResourceDetailInfo():
-    '''public OslcResourceDetailInfo getOslcResourceDetailInfo()
+    '''returns OslcResourceDetailInfo\n\n
+    getOslcResourceDetailInfo()\n
     '''
 def isCollection():
-    '''public boolean isCollection()
+    '''returns boolean\n\n
+    isCollection()\n
     '''
 def isRelatedMboResource():
-    '''public boolean isRelatedMboResource()
+    '''returns boolean\n\n
+    isRelatedMboResource()\n
     '''
 def isMeta():
-    '''public boolean isMeta()
+    '''returns boolean\n\n
+    isMeta()\n
     '''
 def getMbo():
-    '''public MboRemote getMbo()
+    '''returns MboRemote\n\n
+    getMbo()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def getOverriddenCount():
-    '''public int getOverriddenCount()
+    '''returns int\n\n
+    getOverriddenCount()\n
     '''
 def isSelfRefPrimary():
-    '''public boolean isSelfRefPrimary()
+    '''returns boolean\n\n
+    isSelfRefPrimary()\n
     '''

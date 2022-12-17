@@ -1,45 +1,55 @@
 DEFAULT_AUTHOR = "String  \"\""
 DEFAULT_AUTHOR_ID = "int  0"
-def CommentsTable():
-    '''public CommentsTable()
-    public CommentsTable(final PackagePart part)
+def ():
+    '''returns CommentsTable\n\n
+    ()\n
+    (final PackagePart part)\n
     '''
 def readFrom():
-    '''public void readFrom(final InputStream is)
+    '''returns None\n\n
+    readFrom(final InputStream is)\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def referenceUpdated():
-    '''public void referenceUpdated(final CellAddress oldReference, final CTComment comment)
+    '''returns None\n\n
+    referenceUpdated(final CellAddress oldReference, final CTComment comment)\n
     '''
 def getNumberOfComments():
-    '''public int getNumberOfComments()
+    '''returns int\n\n
+    getNumberOfComments()\n
     '''
 def getNumberOfAuthors():
-    '''public int getNumberOfAuthors()
+    '''returns int\n\n
+    getNumberOfAuthors()\n
     '''
 def getAuthor():
-    '''public String getAuthor(final long authorId)
+    '''returns String\n\n
+    getAuthor(final long authorId)\n
     '''
 def findAuthor():
-    '''public int findAuthor(final String author)
+    '''returns int\n\n
+    findAuthor(final String author)\n
     '''
 def findCellComment():
-    '''public XSSFComment findCellComment(final CellAddress cellAddress)
+    '''returns XSSFComment\n\n
+    findCellComment(final CellAddress cellAddress)\n
     '''
 def getCTComment():
-    '''public CTComment getCTComment(final CellAddress cellRef)
-    '''
-def getCellComments():
-    '''public Map<CellAddress, XSSFComment> getCellComments()
+    '''returns CTComment\n\n
+    getCTComment(final CellAddress cellRef)\n
     '''
 def newComment():
-    '''public CTComment newComment(final CellAddress ref)
+    '''returns CTComment\n\n
+    newComment(final CellAddress ref)\n
     '''
 def removeComment():
-    '''public boolean removeComment(final CellAddress cellRef)
+    '''returns boolean\n\n
+    removeComment(final CellAddress cellRef)\n
     '''
 def getCTComments():
-    '''public CTComments getCTComments()
+    '''returns CTComments\n\n
+    getCTComments()\n
     '''

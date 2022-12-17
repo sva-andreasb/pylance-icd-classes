@@ -1,50 +1,66 @@
 sid = "short  35"
 def isBuiltInName():
-    '''public boolean isBuiltInName()
+    '''returns boolean\n\n
+    isBuiltInName()\n
     '''
 def isAutomaticLink():
-    '''public boolean isAutomaticLink()
+    '''returns boolean\n\n
+    isAutomaticLink()\n
     '''
 def isPicureLink():
-    '''public boolean isPicureLink()
+    '''returns boolean\n\n
+    isPicureLink()\n
     '''
 def isStdDocumentNameIdentifier():
-    '''public boolean isStdDocumentNameIdentifier()
+    '''returns boolean\n\n
+    isStdDocumentNameIdentifier()\n
     '''
 def isOLELink():
-    '''public boolean isOLELink()
+    '''returns boolean\n\n
+    isOLELink()\n
     '''
 def isIconifiedPictureLink():
-    '''public boolean isIconifiedPictureLink()
+    '''returns boolean\n\n
+    isIconifiedPictureLink()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def setText():
-    '''public void setText(final String str)
+    '''returns None\n\n
+    setText(final String str)\n
     '''
 def getIx():
-    '''public short getIx()
+    '''returns short\n\n
+    getIx()\n
     '''
 def setIx():
-    '''public void setIx(final short ix)
+    '''returns None\n\n
+    setIx(final short ix)\n
     '''
 def getParsedExpression():
-    '''public Ptg[] getParsedExpression()
+    '''returns Ptg[]\n\n
+    getParsedExpression()\n
     '''
 def setParsedExpression():
-    '''public void setParsedExpression(final Ptg[] ptgs)
+    '''returns None\n\n
+    setParsedExpression(final Ptg[] ptgs)\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
-def ExternalNameRecord():
-    '''public ExternalNameRecord()
-    public ExternalNameRecord(final RecordInputStream in)
+def ():
+    '''returns ExternalNameRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

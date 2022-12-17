@@ -8,31 +8,24 @@ ST_USER_STATUS_ACTIVE_MOBILE = "short  544"
 ST_USER_STATUS_UNKNOWN = "short  Short.MIN_VALUE"
 ST_USER_STATUS_DONTCARE = "short  16384"
 ST_USER_STATUS_IN_MEETING = "short  8"
-def STUserStatus():
-    '''public STUserStatus(final short type, final int time, final String description)
-    public STUserStatus(final NdrInputStream ndrInputStream)
+def ():
+    '''returns STUserStatus\n\n
+    (final short type, final int time, final String description)\n
+    (final NdrInputStream ndrInputStream)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def load():
-    '''public void load(final NdrInputStream ndrInputStream)
-    '''
-def getStatusType():
-    '''public synchronized short getStatusType()
-    '''
-def getTime():
-    '''public synchronized int getTime()
-    '''
-def getStatusDescription():
-    '''public synchronized String getStatusDescription()
-    '''
-def setStatusType():
-    '''public synchronized void setStatusType(final short type)
+    '''returns None\n\n
+    load(final NdrInputStream ndrInputStream)\n
     '''
 def isStatus():
-    '''public boolean isStatus(final short n)
+    '''returns boolean\n\n
+    isStatus(final short n)\n
     '''

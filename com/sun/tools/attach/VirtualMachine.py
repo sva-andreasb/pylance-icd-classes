@@ -1,31 +1,24 @@
-def list():
-    '''public static List<VirtualMachineDescriptor> list()
-    '''
-def attach():
-    '''public static VirtualMachine attach(final String s)
-    public static VirtualMachine attach(final VirtualMachineDescriptor virtualMachineDescriptor)
-    '''
-def provider():
-    '''public final AttachProvider provider()
-    '''
-def id():
-    '''public final String id()
-    '''
 def loadAgentLibrary():
-    '''public void loadAgentLibrary(final String s)
+    '''returns None\n\n
+    loadAgentLibrary(final String s)\n
     '''
 def loadAgentPath():
-    '''public void loadAgentPath(final String s)
+    '''returns None\n\n
+    loadAgentPath(final String s)\n
     '''
 def loadAgent():
-    '''public void loadAgent(final String s)
+    '''returns None\n\n
+    loadAgent(final String s)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

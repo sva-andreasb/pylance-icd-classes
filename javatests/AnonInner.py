@@ -1,6 +1,8 @@
 def doit():
-    '''public int doit()
+    '''returns int\n\n
+    doit()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

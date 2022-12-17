@@ -1,6 +1,8 @@
-def FldOrder():
-    '''public FldOrder(final MboValue mbv)
+def ():
+    '''returns FldOrder\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

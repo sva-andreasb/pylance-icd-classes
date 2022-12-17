@@ -1,21 +1,28 @@
-def LicenseKey():
-    '''public LicenseKey(final MboSet ms)
+def ():
+    '''returns LicenseKey\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def setThisMboSet():
-    '''public void setThisMboSet(final MboSet owner)
+    '''returns None\n\n
+    setThisMboSet(final MboSet owner)\n
     '''
 def getThisMboSet():
-    '''public MboSetRemote getThisMboSet()
+    '''returns MboSetRemote\n\n
+    getThisMboSet()\n
     '''
 def getOwner():
-    '''public MboRemote getOwner()
+    '''returns MboRemote\n\n
+    getOwner()\n
     '''
 def delete():
-    '''public void delete(final long flags)
+    '''returns None\n\n
+    delete(final long flags)\n
     '''

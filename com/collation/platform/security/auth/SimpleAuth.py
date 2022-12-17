@@ -1,53 +1,70 @@
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setDescription():
-    '''public void setDescription(final String desc)
+    '''returns None\n\n
+    setDescription(final String desc)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setOrder():
-    '''public void setOrder(final int c)
+    '''returns None\n\n
+    setOrder(final int c)\n
     '''
 def getOrder():
-    '''public int getOrder()
+    '''returns int\n\n
+    getOrder()\n
     '''
-def SimpleAuth():
-    '''public SimpleAuth()
-    public SimpleAuth(final String usr, final String pass)
-    public SimpleAuth(final String usr, final String pass, final String name, final String desc)
+def ():
+    '''returns SimpleAuth\n\n
+    ()\n
+    (final String usr, final String pass)\n
+    (final String usr, final String pass, final String name, final String desc)\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def getPassword():
-    '''public String getPassword()
+    '''returns String\n\n
+    getPassword()\n
     '''
 def setUserName():
-    '''public void setUserName(final String name)
+    '''returns None\n\n
+    setUserName(final String name)\n
     '''
 def setPassword():
-    '''public void setPassword(final String pwd)
+    '''returns None\n\n
+    setPassword(final String pwd)\n
     '''
 def setTrustStoreSSLAuth():
-    '''public void setTrustStoreSSLAuth(final SSLAuth truststore)
+    '''returns None\n\n
+    setTrustStoreSSLAuth(final SSLAuth truststore)\n
     '''
 def setKeyStoreSSLAuth():
-    '''public void setKeyStoreSSLAuth(final SSLAuth keystore)
+    '''returns None\n\n
+    setKeyStoreSSLAuth(final SSLAuth keystore)\n
     '''
 def getTrustStoreSSLAuth():
-    '''public SSLAuth getTrustStoreSSLAuth()
+    '''returns SSLAuth\n\n
+    getTrustStoreSSLAuth()\n
     '''
 def getKeyStoreSSLAuth():
-    '''public SSLAuth getKeyStoreSSLAuth()
+    '''returns SSLAuth\n\n
+    getKeyStoreSSLAuth()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

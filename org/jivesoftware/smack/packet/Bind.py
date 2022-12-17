@@ -1,18 +1,24 @@
-def Bind():
-    '''public Bind()
+def ():
+    '''returns Bind\n\n
+    ()\n
     '''
 def getResource():
-    '''public String getResource()
+    '''returns String\n\n
+    getResource()\n
     '''
 def setResource():
-    '''public void setResource(final String resource)
+    '''returns None\n\n
+    setResource(final String resource)\n
     '''
 def getJid():
-    '''public String getJid()
+    '''returns String\n\n
+    getJid()\n
     '''
 def setJid():
-    '''public void setJid(final String jid)
+    '''returns None\n\n
+    setJid(final String jid)\n
     '''
 def getChildElementXML():
-    '''public String getChildElementXML()
+    '''returns String\n\n
+    getChildElementXML()\n
     '''

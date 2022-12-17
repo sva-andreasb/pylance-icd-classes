@@ -1,4 +1,5 @@
-def HashMultiSet():
-    '''public HashMultiSet()
-    public HashMultiSet(final Collection<? extends E> coll)
+def ():
+    '''returns HashMultiSet\n\n
+    ()\n
+    (final Collection<? extends E> coll)\n
     '''

@@ -1,6 +1,8 @@
 def getSession():
-    '''public MXSession getSession()
+    '''returns MXSession\n\n
+    getSession()\n
     '''
 def getNewSession():
-    '''public MXSession getNewSession()
+    '''returns MXSession\n\n
+    getNewSession()\n
     '''

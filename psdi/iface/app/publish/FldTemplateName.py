@@ -1,3 +1,4 @@
-def FldTemplateName():
-    '''public FldTemplateName(final MboValue mbv)
+def ():
+    '''returns FldTemplateName\n\n
+    (final MboValue mbv)\n
     '''

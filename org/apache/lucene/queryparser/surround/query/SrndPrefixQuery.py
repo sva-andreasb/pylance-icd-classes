@@ -1,18 +1,24 @@
-def SrndPrefixQuery():
-    '''public SrndPrefixQuery(final String prefix, final boolean quoted, final char truncator)
+def ():
+    '''returns SrndPrefixQuery\n\n
+    (final String prefix, final boolean quoted, final char truncator)\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def getSuffixOperator():
-    '''public char getSuffixOperator()
+    '''returns char\n\n
+    getSuffixOperator()\n
     '''
 def getLucenePrefixTerm():
-    '''public Term getLucenePrefixTerm(final String fieldName)
+    '''returns Term\n\n
+    getLucenePrefixTerm(final String fieldName)\n
     '''
 def toStringUnquoted():
-    '''public String toStringUnquoted()
+    '''returns String\n\n
+    toStringUnquoted()\n
     '''
 def visitMatchingTerms():
-    '''public void visitMatchingTerms(final IndexReader reader, final String fieldName, final MatchingTermVisitor mtv)
+    '''returns None\n\n
+    visitMatchingTerms(final IndexReader reader, final String fieldName, final MatchingTermVisitor mtv)\n
     '''

@@ -1,18 +1,24 @@
-def SameTypeVisitor():
-    '''public SameTypeVisitor(final List<String> objectNames)
+def ():
+    '''returns SameTypeVisitor\n\n
+    (final List<String> objectNames)\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''
 def cancel():
-    '''public void cancel()
+    '''returns None\n\n
+    cancel()\n
     '''
 def visit():
-    '''public void visit(final IlvActivity item, final IlvGanttModel model, final HasCancelled state)
+    '''returns None\n\n
+    visit(final IlvActivity item, final IlvGanttModel model, final HasCancelled state)\n
     '''
 def isValid():
-    '''public boolean isValid()
+    '''returns boolean\n\n
+    isValid()\n
     '''
 def canAccept():
-    '''public boolean canAccept(final IlvActivity act)
+    '''returns boolean\n\n
+    canAccept(final IlvActivity act)\n
     '''

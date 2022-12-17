@@ -1,27 +1,31 @@
 FEATURE = "String  \"http://javax.xml.transform.sax.SAXSource/feature\""
-def SAXSource():
-    '''public SAXSource()
-    public SAXSource(final XMLReader reader, final InputSource inputSource)
-    public SAXSource(final InputSource inputSource)
+def ():
+    '''returns SAXSource\n\n
+    ()\n
+    (final XMLReader reader, final InputSource inputSource)\n
+    (final InputSource inputSource)\n
     '''
 def setXMLReader():
-    '''public void setXMLReader(final XMLReader reader)
+    '''returns None\n\n
+    setXMLReader(final XMLReader reader)\n
     '''
 def getXMLReader():
-    '''public XMLReader getXMLReader()
+    '''returns XMLReader\n\n
+    getXMLReader()\n
     '''
 def setInputSource():
-    '''public void setInputSource(final InputSource inputSource)
+    '''returns None\n\n
+    setInputSource(final InputSource inputSource)\n
     '''
 def getInputSource():
-    '''public InputSource getInputSource()
+    '''returns InputSource\n\n
+    getInputSource()\n
     '''
 def setSystemId():
-    '''public void setSystemId(final String systemId)
+    '''returns None\n\n
+    setSystemId(final String systemId)\n
     '''
 def getSystemId():
-    '''public String getSystemId()
-    '''
-def sourceToInputSource():
-    '''public static InputSource sourceToInputSource(final Source source)
+    '''returns String\n\n
+    getSystemId()\n
     '''

@@ -8,43 +8,45 @@ FWD_UTF16_CONTAINED = "int  42"
 FWD_UTF16_NOT_CONTAINED = "int  41"
 BACK_UTF16_CONTAINED = "int  26"
 BACK_UTF16_NOT_CONTAINED = "int  25"
-def UnicodeSetStringSpan():
-    '''public UnicodeSetStringSpan(final UnicodeSet set, final ArrayList<String> setStrings, final int which)
-    public UnicodeSetStringSpan(final UnicodeSetStringSpan otherStringSpan, final ArrayList<String> newParentSetStrings)
+def ():
+    '''returns OffsetList\n\n
+    (final UnicodeSet set, final ArrayList<String> setStrings, final int which)\n
+    (final UnicodeSetStringSpan otherStringSpan, final ArrayList<String> newParentSetStrings)\n
+    ()\n
     '''
 def needsStringSpanUTF16():
-    '''public boolean needsStringSpanUTF16()
+    '''returns boolean\n\n
+    needsStringSpanUTF16()\n
     '''
 def contains():
-    '''public boolean contains(final int c)
-    '''
-def span():
-    '''public synchronized int span(final CharSequence s, final int start, final int length, final UnicodeSet.SpanCondition spanCondition)
-    '''
-def spanBack():
-    '''public synchronized int spanBack(final CharSequence s, final int length, final UnicodeSet.SpanCondition spanCondition)
-    '''
-def OffsetList():
-    '''public OffsetList()
+    '''returns boolean\n\n
+    contains(final int c)\n
     '''
 def setMaxLength():
-    '''public void setMaxLength(final int maxLength)
+    '''returns None\n\n
+    setMaxLength(final int maxLength)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def shift():
-    '''public void shift(final int delta)
+    '''returns None\n\n
+    shift(final int delta)\n
     '''
 def addOffset():
-    '''public void addOffset(final int offset)
+    '''returns None\n\n
+    addOffset(final int offset)\n
     '''
 def containsOffset():
-    '''public boolean containsOffset(final int offset)
+    '''returns boolean\n\n
+    containsOffset(final int offset)\n
     '''
 def popMinimum():
-    '''public int popMinimum()
+    '''returns int\n\n
+    popMinimum()\n
     '''

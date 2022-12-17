@@ -1,22 +1,29 @@
-def POIXMLRelation():
-    '''public POIXMLRelation(final String type, final String rel, final String defaultName, final Class<? extends POIXMLDocumentPart> cls)
-    public POIXMLRelation(final String type, final String rel, final String defaultName)
+def ():
+    '''returns POIXMLRelation\n\n
+    (final String type, final String rel, final String defaultName, final Class<? extends POIXMLDocumentPart> cls)\n
+    (final String type, final String rel, final String defaultName)\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getRelation():
-    '''public String getRelation()
+    '''returns String\n\n
+    getRelation()\n
     '''
 def getDefaultFileName():
-    '''public String getDefaultFileName()
+    '''returns String\n\n
+    getDefaultFileName()\n
     '''
 def getFileName():
-    '''public String getFileName(final int index)
+    '''returns String\n\n
+    getFileName(final int index)\n
     '''
 def getFileNameIndex():
-    '''public Integer getFileNameIndex(final POIXMLDocumentPart part)
+    '''returns Integer\n\n
+    getFileNameIndex(final POIXMLDocumentPart part)\n
     '''
 def getContents():
-    '''public InputStream getContents(final PackagePart corePart)
+    '''returns InputStream\n\n
+    getContents(final PackagePart corePart)\n
     '''

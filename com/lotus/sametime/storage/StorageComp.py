@@ -1,24 +1,24 @@
-def StorageComp():
-    '''public StorageComp(final STSession stSession)
+def ():
+    '''returns StorageComp\n\n
+    (final STSession stSession)\n
     '''
 def queryAttr():
-    '''public Integer queryAttr(final int value)
+    '''returns Integer\n\n
+    queryAttr(final int value)\n
     '''
 def queryAttrList():
-    '''public Integer queryAttrList(final Vector vector)
+    '''returns Integer\n\n
+    queryAttrList(final Vector vector)\n
     '''
 def storeAttr():
-    '''public Integer storeAttr(final STAttribute obj)
+    '''returns Integer\n\n
+    storeAttr(final STAttribute obj)\n
     '''
 def storeAttrList():
-    '''public Integer storeAttrList(final Vector vector)
-    '''
-def addStorageServiceListener():
-    '''public synchronized void addStorageServiceListener(final StorageServiceListener obj)
-    '''
-def removeStorageServiceListener():
-    '''public synchronized void removeStorageServiceListener(final StorageServiceListener obj)
+    '''returns Integer\n\n
+    storeAttrList(final Vector vector)\n
     '''
 def enableBuffering():
-    '''public void enableBuffering(final boolean enableBuffering)
+    '''returns None\n\n
+    enableBuffering(final boolean enableBuffering)\n
     '''

@@ -1,78 +1,99 @@
-def OslcQuery():
-    '''public OslcQuery(final String queryClause)
-    public OslcQuery(final String queryClause, final String orderByClause, final String searchTerms)
-    public OslcQuery(final Map<String, String[]> queryParams)
+def ():
+    '''returns OslcQuery\n\n
+    (final String queryClause)\n
+    (final String queryClause, final String orderByClause, final String searchTerms)\n
+    (final Map<String, String[]> queryParams)\n
     '''
 def init():
-    '''public void init(final Map<String, String[]> queryParams)
+    '''returns None\n\n
+    init(final Map<String, String[]> queryParams)\n
     '''
 def getQueryParam():
-    '''public String[] getQueryParam(final String paramName)
+    '''returns String[]\n\n
+    getQueryParam(final String paramName)\n
     '''
 def setTemplatePageSize():
-    '''public void setTemplatePageSize(final int tPageSize)
+    '''returns None\n\n
+    setTemplatePageSize(final int tPageSize)\n
     '''
 def setTemplateSelect():
-    '''public void setTemplateSelect(final String tSelect)
+    '''returns None\n\n
+    setTemplateSelect(final String tSelect)\n
     '''
 def setTemplateSavedQuery():
-    '''public void setTemplateSavedQuery(final String tSavedQuery)
+    '''returns None\n\n
+    setTemplateSavedQuery(final String tSavedQuery)\n
     '''
 def getOslcWhere():
-    '''public List<IOslcTerm> getOslcWhere()
+    '''returns List<IOslcTerm>\n\n
+    getOslcWhere()\n
     '''
 def getOslcSearchTerm():
-    '''public List<String> getOslcSearchTerm()
+    '''returns List<String>\n\n
+    getOslcSearchTerm()\n
     '''
 def getOslcProperties():
-    '''public List<IOslcProperty> getOslcProperties()
+    '''returns List<IOslcProperty>\n\n
+    getOslcProperties()\n
     '''
 def getOslcSelect():
-    '''public List<IOslcProperty> getOslcSelect()
+    '''returns List<IOslcProperty>\n\n
+    getOslcSelect()\n
     '''
 def getOslcOrderBy():
-    '''public List<IOslcSortTerm> getOslcOrderBy()
-    '''
-def getOslcPrefixMap():
-    '''public Map<String, String> getOslcPrefixMap()
+    '''returns List<IOslcSortTerm>\n\n
+    getOslcOrderBy()\n
     '''
 def isPagingEnabled():
-    '''public boolean isPagingEnabled()
+    '''returns boolean\n\n
+    isPagingEnabled()\n
     '''
 def getPageSize():
-    '''public int getPageSize()
+    '''returns int\n\n
+    getPageSize()\n
     '''
 def getPageNumber():
-    '''public int getPageNumber()
+    '''returns int\n\n
+    getPageNumber()\n
     '''
 def applyQueryTemplate():
-    '''public void applyQueryTemplate(final String owner, final String osname)
+    '''returns None\n\n
+    applyQueryTemplate(final String owner, final String osname)\n
     '''
 def getSearchAttributes():
-    '''public String getSearchAttributes()
+    '''returns String\n\n
+    getSearchAttributes()\n
     '''
 def getTimeLineAttribute():
-    '''public String getTimeLineAttribute()
+    '''returns String\n\n
+    getTimeLineAttribute()\n
     '''
 def whereTerm():
-    '''public void whereTerm(final String identifier, final String operator, final String value)
-    public void whereTerm(final String identifier, final String[] values)
+    '''returns None\n\n
+    whereTerm(final String identifier, final String operator, final String value)\n
+    whereTerm(final String identifier, final String[] values)\n
     '''
 def whereScopedTerm():
-    '''public void whereScopedTerm(final String identifier, final List<IOslcTerm> terms)
+    '''returns None\n\n
+    whereScopedTerm(final String identifier, final List<IOslcTerm> terms)\n
     '''
 def selectProperty():
-    '''public void selectProperty(final String identifier)
+    '''returns None\n\n
+    selectProperty(final String identifier)\n
     '''
 def selectNestedProperty():
-    '''public void selectNestedProperty(final String identifier, final List<IOslcProperty> properties)
+    '''returns None\n\n
+    selectNestedProperty(final String identifier, final List<IOslcProperty> properties)\n
     '''
 def searchTerm():
-    '''public void searchTerm(final String term)
+    '''returns None\n\n
+    searchTerm(final String term)\n
     '''
 def orderBySortTerm():
-    '''public void orderBySortTerm(final String sortOrder, final String identifier)
+    '''returns None\n\n
+    orderBySortTerm(final String sortOrder, final String identifier)\n
     '''
 def orderByScopedSortTerm():
-    '''public void orderByScopedSortTerm(final String identifier, final List<IOslcSortTerm> sortTerms)
+    '''returns None\n\n
+    orderByScopedSortTerm(final String identifier, final List<IOslcSortTerm> sortTerms)\n
     '''

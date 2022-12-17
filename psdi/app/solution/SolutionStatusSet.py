@@ -1,3 +1,4 @@
-def SolutionStatusSet():
-    '''public SolutionStatusSet(final MboServerInterface ms)
+def ():
+    '''returns SolutionStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

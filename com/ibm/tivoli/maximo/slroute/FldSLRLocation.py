@@ -1,6 +1,8 @@
-def FldSLRLocation():
-    '''public FldSLRLocation(final MboValue mbv)
+def ():
+    '''returns FldSLRLocation\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

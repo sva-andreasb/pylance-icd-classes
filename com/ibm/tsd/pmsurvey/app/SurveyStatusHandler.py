@@ -1,18 +1,24 @@
-def SurveyStatusHandler():
-    '''public SurveyStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns SurveyStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String desiredExternalStatus)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String desiredExternalStatus)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String currentStatus, final String desiredStatus, final Date date, final String memo)
+    '''returns None\n\n
+    changeStatus(final String currentStatus, final String desiredStatus, final Date date, final String memo)\n
     '''
 def postStatusChange():
-    '''public void postStatusChange(String currentStatus, String desiredStatus, final Date asOfDate, final String memo)
+    '''returns None\n\n
+    postStatusChange(String currentStatus, String desiredStatus, final Date asOfDate, final String memo)\n
     '''
 def preStatusChange():
-    '''public void preStatusChange(final String currentStatus, String desiredStatus, final Date asOfDate, final String memo)
+    '''returns None\n\n
+    preStatusChange(final String currentStatus, String desiredStatus, final Date asOfDate, final String memo)\n
     '''

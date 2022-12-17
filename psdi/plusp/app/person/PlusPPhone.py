@@ -1,9 +1,12 @@
-def PlusPPhone():
-    '''public PlusPPhone(final MboSet arg0)
+def ():
+    '''returns PlusPPhone\n\n
+    (final MboSet arg0)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def makeOtherNotPrimary():
-    '''public void makeOtherNotPrimary()
+    '''returns None\n\n
+    makeOtherNotPrimary()\n
     '''

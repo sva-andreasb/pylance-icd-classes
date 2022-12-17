@@ -1,9 +1,12 @@
-def TimeTemplateMethod():
-    '''public TimeTemplateMethod(final Locale locale, final TimeZone timeZone)
+def ():
+    '''returns TimeTemplateMethod\n\n
+    (final Locale locale, final TimeZone timeZone)\n
     '''
 def exec():
-    '''public Object exec(final Object arg1)
+    '''returns Object\n\n
+    exec(final Object arg1)\n
     '''
 def format():
-    '''public String format(final Date date)
+    '''returns String\n\n
+    format(final Date date)\n
     '''

@@ -1,39 +1,48 @@
 def splitEnd():
-    '''public void splitEnd()
+    '''returns None\n\n
+    splitEnd()\n
     '''
 def splitStart():
-    '''public void splitStart()
+    '''returns None\n\n
+    splitStart()\n
     '''
-def LoadCronTask():
-    '''public LoadCronTask()
+def ():
+    '''returns LoadCronTask\n\n
+    ()\n
     '''
 def splitPerformed():
-    '''public boolean splitPerformed(final byte[] splitXMLData, final int splitIndex)
+    '''returns boolean\n\n
+    splitPerformed(final byte[] splitXMLData, final int splitIndex)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def setCrontaskInstance():
-    '''public void setCrontaskInstance(final CrontaskInstanceRemote inst)
+    '''returns None\n\n
+    setCrontaskInstance(final CrontaskInstanceRemote inst)\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def getParameters():
-    '''public CrontaskParamInfo[] getParameters()
-    '''
-def isOKToRun():
-    '''public synchronized boolean isOKToRun(final MXServerRemote server)
+    '''returns CrontaskParamInfo[]\n\n
+    getParameters()\n
     '''
 def isDiskDown():
-    '''public boolean isDiskDown()
+    '''returns boolean\n\n
+    isDiskDown()\n
     '''
 def processFolderData():
-    '''public void processFolderData()
+    '''returns None\n\n
+    processFolderData()\n
     '''

@@ -1,3 +1,4 @@
-def FldToolQualItemNum():
-    '''public FldToolQualItemNum(final MboValue mbv)
+def ():
+    '''returns FldToolQualItemNum\n\n
+    (final MboValue mbv)\n
     '''

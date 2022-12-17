@@ -1,18 +1,24 @@
 def createCommand():
-    '''public AbstractAdminCommand createCommand(final CommandMetadata metadata)
+    '''returns AbstractAdminCommand\n\n
+    createCommand(final CommandMetadata metadata)\n
     '''
 def loadCommand():
-    '''public AbstractAdminCommand loadCommand(final CommandData cmdData)
+    '''returns AbstractAdminCommand\n\n
+    loadCommand(final CommandData cmdData)\n
     '''
 def initCommandMetadata():
-    '''public List initCommandMetadata(final List metadata)
+    '''returns List\n\n
+    initCommandMetadata(final List metadata)\n
     '''
 def createCommandStep():
-    '''public AbstractCommandStep createCommandStep(final AbstractTaskCommand taskCmd, final String stepName)
+    '''returns AbstractCommandStep\n\n
+    createCommandStep(final AbstractTaskCommand taskCmd, final String stepName)\n
     '''
 def loadCommandStep():
-    '''public AbstractCommandStep loadCommandStep(final AbstractTaskCommand taskCmd, final CommandStepData stepData)
+    '''returns AbstractCommandStep\n\n
+    loadCommandStep(final AbstractTaskCommand taskCmd, final CommandStepData stepData)\n
     '''
 def commandStepPosition():
-    '''public int commandStepPosition(final AbstractTaskCommand taskCmd, final String stepName)
+    '''returns int\n\n
+    commandStepPosition(final AbstractTaskCommand taskCmd, final String stepName)\n
     '''

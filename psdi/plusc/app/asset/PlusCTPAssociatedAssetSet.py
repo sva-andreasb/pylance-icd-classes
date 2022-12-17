@@ -1,3 +1,4 @@
-def PlusCTPAssociatedAssetSet():
-    '''public PlusCTPAssociatedAssetSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCTPAssociatedAssetSet\n\n
+    (final MboServerInterface ms)\n
     '''

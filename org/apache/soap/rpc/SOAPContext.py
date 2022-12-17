@@ -1,73 +1,96 @@
-def SOAPContext():
-    '''public SOAPContext()
+def ():
+    '''returns SOAPContext\n\n
+    ()\n
     '''
 def addBodyPart():
-    '''public void addBodyPart(final MimeBodyPart mimeBodyPart)
-    public void addBodyPart(final MimeBodyPart mimeBodyPart, final int n)
+    '''returns None\n\n
+    addBodyPart(final MimeBodyPart mimeBodyPart)\n
+    addBodyPart(final MimeBodyPart mimeBodyPart, final int n)\n
     '''
 def findBodyPart():
-    '''public MimeBodyPart findBodyPart(final String s)
+    '''returns MimeBodyPart\n\n
+    findBodyPart(final String s)\n
     '''
 def findPartByLocation():
-    '''public MimeBodyPart findPartByLocation(String normalizeURI)
+    '''returns MimeBodyPart\n\n
+    findPartByLocation(String normalizeURI)\n
     '''
 def getBaseURI():
-    '''public String getBaseURI()
+    '''returns String\n\n
+    getBaseURI()\n
     '''
 def getBodyPart():
-    '''public MimeBodyPart getBodyPart(final int n)
-    public MimeBodyPart getBodyPart(final String s)
+    '''returns MimeBodyPart\n\n
+    getBodyPart(final int n)\n
+    getBodyPart(final String s)\n
     '''
 def getClassLoader():
-    '''public ClassLoader getClassLoader()
+    '''returns ClassLoader\n\n
+    getClassLoader()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getCount():
-    '''public int getCount()
+    '''returns int\n\n
+    getCount()\n
     '''
 def getProperty():
-    '''public Object getProperty(final String key)
+    '''returns Object\n\n
+    getProperty(final String key)\n
     '''
 def getPropertyNames():
-    '''public Enumeration getPropertyNames()
+    '''returns Enumeration\n\n
+    getPropertyNames()\n
     '''
 def getRootPart():
-    '''public MimeBodyPart getRootPart()
+    '''returns MimeBodyPart\n\n
+    getRootPart()\n
     '''
 def isRootPartSet():
-    '''public boolean isRootPartSet()
+    '''returns boolean\n\n
+    isRootPartSet()\n
     '''
 def loadClass():
-    '''public Class loadClass(final String s)
+    '''returns Class\n\n
+    loadClass(final String s)\n
     '''
 def readMultipart():
-    '''public void readMultipart(final DataSource dataSource)
+    '''returns None\n\n
+    readMultipart(final DataSource dataSource)\n
     '''
 def removeBodyPart():
-    '''public void removeBodyPart(final MimeBodyPart mimeBodyPart)
+    '''returns None\n\n
+    removeBodyPart(final MimeBodyPart mimeBodyPart)\n
     '''
 def removeProperty():
-    '''public Object removeProperty(final String key)
+    '''returns Object\n\n
+    removeProperty(final String key)\n
     '''
 def setClassLoader():
-    '''public void setClassLoader(final ClassLoader loader)
+    '''returns None\n\n
+    setClassLoader(final ClassLoader loader)\n
     '''
 def setProperty():
-    '''public void setProperty(final String key, final Object value)
+    '''returns None\n\n
+    setProperty(final String key, final Object value)\n
     '''
 def setRootPart():
-    '''public void setRootPart(final String s, final String s2)
-    public void setRootPart(final MimeBodyPart mimeBodyPart)
-    public void setRootPart(final byte[] array, final String s)
+    '''returns None\n\n
+    setRootPart(final String s, final String s2)\n
+    setRootPart(final MimeBodyPart mimeBodyPart)\n
+    setRootPart(final byte[] array, final String s)\n
     '''
 def setSubType():
-    '''public void setSubType(final String subType)
+    '''returns None\n\n
+    setSubType(final String subType)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream outputStream)
+    '''returns None\n\n
+    writeTo(final OutputStream outputStream)\n
     '''

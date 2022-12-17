@@ -1,27 +1,35 @@
-def ByteVector():
-    '''public ByteVector()
-    public ByteVector(final int capacity)
-    public ByteVector(final byte[] a)
-    public ByteVector(final byte[] a, final int capacity)
+def ():
+    '''returns ByteVector\n\n
+    ()\n
+    (final int capacity)\n
+    (final byte[] a)\n
+    (final byte[] a, final int capacity)\n
     '''
 def getArray():
-    '''public byte[] getArray()
+    '''returns byte[]\n\n
+    getArray()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def capacity():
-    '''public int capacity()
+    '''returns int\n\n
+    capacity()\n
     '''
 def put():
-    '''public void put(final int index, final byte val)
+    '''returns None\n\n
+    put(final int index, final byte val)\n
     '''
 def get():
-    '''public byte get(final int index)
+    '''returns byte\n\n
+    get(final int index)\n
     '''
 def alloc():
-    '''public int alloc(final int size)
+    '''returns int\n\n
+    alloc(final int size)\n
     '''
 def trimToSize():
-    '''public void trimToSize()
+    '''returns None\n\n
+    trimToSize()\n
     '''

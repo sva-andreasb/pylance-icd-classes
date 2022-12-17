@@ -1,6 +1,8 @@
-def CIChangeStatusBean():
-    '''public CIChangeStatusBean()
+def ():
+    '''returns CIChangeStatusBean\n\n
+    ()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

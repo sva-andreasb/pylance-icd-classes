@@ -1,4 +1,5 @@
-def CalendarService():
-    '''public CalendarService()
-    public CalendarService(final MXServer mxServer)
+def ():
+    '''returns CalendarService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

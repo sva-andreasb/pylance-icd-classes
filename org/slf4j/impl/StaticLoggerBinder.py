@@ -1,9 +1,8 @@
-def getSingleton():
-    '''public static final StaticLoggerBinder getSingleton()
-    '''
 def getLoggerFactory():
-    '''public ILoggerFactory getLoggerFactory()
+    '''returns ILoggerFactory\n\n
+    getLoggerFactory()\n
     '''
 def getLoggerFactoryClassStr():
-    '''public String getLoggerFactoryClassStr()
+    '''returns String\n\n
+    getLoggerFactoryClassStr()\n
     '''

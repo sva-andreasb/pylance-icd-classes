@@ -1,68 +1,89 @@
 DEFAULT_FILE_FILTER_PROPERTY = "String  \"DefaultFileFilter\""
-def IlvFileDocumentTemplate():
-    '''public IlvFileDocumentTemplate()
-    public IlvFileDocumentTemplate(final String s)
+def ():
+    '''returns IlvFileDocumentTemplate\n\n
+    ()\n
+    (final String s)\n
     '''
 def matchPathName():
-    '''public boolean matchPathName(final URL url)
-    public boolean matchPathName(final String s)
+    '''returns boolean\n\n
+    matchPathName(final URL url)\n
+    matchPathName(final String s)\n
     '''
 def getMatchingFilter():
-    '''public IlvFileFilter getMatchingFilter(final URL url)
-    public IlvFileFilter getMatchingFilter(final String s)
+    '''returns IlvFileFilter\n\n
+    getMatchingFilter(final URL url)\n
+    getMatchingFilter(final String s)\n
     '''
 def readDocument():
-    '''public boolean readDocument(final IlvFileDocument ilvFileDocument, final URL url, final IlvFileFilter ilvFileFilter)
-    public boolean readDocument(final IlvStreamDocument ilvStreamDocument, final Reader reader, final IlvFileFilter ilvFileFilter)
+    '''returns boolean\n\n
+    readDocument(final IlvFileDocument ilvFileDocument, final URL url, final IlvFileFilter ilvFileFilter)\n
+    readDocument(final IlvStreamDocument ilvStreamDocument, final Reader reader, final IlvFileFilter ilvFileFilter)\n
     '''
 def setDocumentPathName():
-    '''public void setDocumentPathName(final IlvFileDocument ilvFileDocument, final URL pathName)
+    '''returns None\n\n
+    setDocumentPathName(final IlvFileDocument ilvFileDocument, final URL pathName)\n
     '''
 def revertDocument():
-    '''public boolean revertDocument(final IlvFileDocument ilvFileDocument)
+    '''returns boolean\n\n
+    revertDocument(final IlvFileDocument ilvFileDocument)\n
     '''
 def initializeFileChooser():
-    '''public void initializeFileChooser(final JFileChooser fileChooser, final boolean b)
+    '''returns None\n\n
+    initializeFileChooser(final JFileChooser fileChooser, final boolean b)\n
     '''
 def getFilterCount():
-    '''public int getFilterCount()
+    '''returns int\n\n
+    getFilterCount()\n
     '''
 def getFilter():
-    '''public IlvFileFilter getFilter(final int n)
+    '''returns IlvFileFilter\n\n
+    getFilter(final int n)\n
     '''
 def addFilter():
-    '''public void addFilter(final IlvFileFilter ilvFileFilter)
+    '''returns None\n\n
+    addFilter(final IlvFileFilter ilvFileFilter)\n
     '''
 def setDefaultFilter():
-    '''public IlvFileFilter setDefaultFilter(final IlvFileFilter ilvFileFilter)
+    '''returns IlvFileFilter\n\n
+    setDefaultFilter(final IlvFileFilter ilvFileFilter)\n
     '''
 def getDefaultFilter():
-    '''public IlvFileFilter getDefaultFilter()
+    '''returns IlvFileFilter\n\n
+    getDefaultFilter()\n
     '''
 def removeFilter():
-    '''public boolean removeFilter(final IlvFileFilter o)
+    '''returns boolean\n\n
+    removeFilter(final IlvFileFilter o)\n
     '''
 def getFilterIndex():
-    '''public int getFilterIndex(final IlvFileFilter ilvFileFilter)
+    '''returns int\n\n
+    getFilterIndex(final IlvFileFilter ilvFileFilter)\n
     '''
 def appearsInLoadFileFilters():
-    '''public boolean appearsInLoadFileFilters()
+    '''returns boolean\n\n
+    appearsInLoadFileFilters()\n
     '''
 def setAppearsInLoadFileFilters():
-    '''public void setAppearsInLoadFileFilters(final boolean b)
+    '''returns None\n\n
+    setAppearsInLoadFileFilters(final boolean b)\n
     '''
 def appearsInNewDocuments():
-    '''public boolean appearsInNewDocuments()
+    '''returns boolean\n\n
+    appearsInNewDocuments()\n
     '''
 def setAppearsInNewDocuments():
-    '''public void setAppearsInNewDocuments(final boolean c)
+    '''returns None\n\n
+    setAppearsInNewDocuments(final boolean c)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def isProcessingAction():
-    '''public boolean isProcessingAction(final String anObject)
+    '''returns boolean\n\n
+    isProcessingAction(final String anObject)\n
     '''
 def readSettings():
-    '''public boolean readSettings(final IlvSettingsElement ilvSettingsElement, final IlvApplication ilvApplication)
+    '''returns boolean\n\n
+    readSettings(final IlvSettingsElement ilvSettingsElement, final IlvApplication ilvApplication)\n
     '''

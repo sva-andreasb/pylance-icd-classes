@@ -1,10 +1,13 @@
-def DefaultServiceUnavailableRetryStrategy():
-    '''public DefaultServiceUnavailableRetryStrategy(final int maxRetries, final int retryInterval)
-    public DefaultServiceUnavailableRetryStrategy()
+def ():
+    '''returns DefaultServiceUnavailableRetryStrategy\n\n
+    (final int maxRetries, final int retryInterval)\n
+    ()\n
     '''
 def retryRequest():
-    '''public boolean retryRequest(final HttpResponse response, final int executionCount, final HttpContext context)
+    '''returns boolean\n\n
+    retryRequest(final HttpResponse response, final int executionCount, final HttpContext context)\n
     '''
 def getRetryInterval():
-    '''public long getRetryInterval()
+    '''returns long\n\n
+    getRetryInterval()\n
     '''

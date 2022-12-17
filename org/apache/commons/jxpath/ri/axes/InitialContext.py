@@ -1,18 +1,24 @@
-def InitialContext():
-    '''public InitialContext(final EvalContext parentContext)
+def ():
+    '''returns InitialContext\n\n
+    (final EvalContext parentContext)\n
     '''
 def getSingleNodePointer():
-    '''public Pointer getSingleNodePointer()
+    '''returns Pointer\n\n
+    getSingleNodePointer()\n
     '''
 def getCurrentNodePointer():
-    '''public NodePointer getCurrentNodePointer()
+    '''returns NodePointer\n\n
+    getCurrentNodePointer()\n
     '''
 def nextNode():
-    '''public boolean nextNode()
+    '''returns boolean\n\n
+    nextNode()\n
     '''
 def setPosition():
-    '''public boolean setPosition(final int position)
+    '''returns boolean\n\n
+    setPosition(final int position)\n
     '''
 def nextSet():
-    '''public boolean nextSet()
+    '''returns boolean\n\n
+    nextSet()\n
     '''

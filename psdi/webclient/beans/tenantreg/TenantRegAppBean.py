@@ -1,12 +1,16 @@
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def RESETPWD():
-    '''public int RESETPWD()
+    '''returns int\n\n
+    RESETPWD()\n
     '''
 def SENDLOGIN():
-    '''public int SENDLOGIN()
+    '''returns int\n\n
+    SENDLOGIN()\n
     '''
 def setValue():
-    '''public void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
+    '''returns None\n\n
+    setValue(final int nRow, final String attribute, final String value, final long accessModifier)\n
     '''

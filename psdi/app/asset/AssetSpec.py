@@ -1,39 +1,52 @@
-def AssetSpec():
-    '''public AssetSpec(final MboSet ms)
+def ():
+    '''returns AssetSpec\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def addDetailInfor():
-    '''public void addDetailInfor(final MboRemote asset, final MboRemote mbo)
+    '''returns None\n\n
+    addDetailInfor(final MboRemote asset, final MboRemote mbo)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setCopyValueChanged():
-    '''public void setCopyValueChanged(final boolean changed)
+    '''returns None\n\n
+    setCopyValueChanged(final boolean changed)\n
     '''
 def canGenerateDesc():
-    '''public MboRemote canGenerateDesc()
+    '''returns MboRemote\n\n
+    canGenerateDesc()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def isChangeByUserWhenSetFromLookup():
-    '''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''returns boolean\n\n
+    isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)\n
     '''
 def isSpecModified():
-    '''public boolean isSpecModified()
+    '''returns boolean\n\n
+    isSpecModified()\n
     '''
 def getSpecHistory():
-    '''public MboSetRemote getSpecHistory()
+    '''returns MboSetRemote\n\n
+    getSpecHistory()\n
     '''
 def updateSpecHistory():
-    '''public void updateSpecHistory()
+    '''returns None\n\n
+    updateSpecHistory()\n
     '''

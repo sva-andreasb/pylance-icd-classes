@@ -1,103 +1,137 @@
 def setReserved():
-    '''public void setReserved(final boolean reserved)
+    '''returns None\n\n
+    setReserved(final boolean reserved)\n
     '''
 def isReserved():
-    '''public boolean isReserved()
+    '''returns boolean\n\n
+    isReserved()\n
     '''
 def getDestination():
-    '''public HttpDestination getDestination()
+    '''returns HttpDestination\n\n
+    getDestination()\n
     '''
 def setDestination():
-    '''public void setDestination(final HttpDestination destination)
+    '''returns None\n\n
+    setDestination(final HttpDestination destination)\n
     '''
 def send():
-    '''public boolean send(final HttpExchange ex)
+    '''returns boolean\n\n
+    send(final HttpExchange ex)\n
     '''
 def isIdle():
-    '''public boolean isIdle()
+    '''returns boolean\n\n
+    isIdle()\n
     '''
 def isSuspended():
-    '''public boolean isSuspended()
+    '''returns boolean\n\n
+    isSuspended()\n
     '''
 def onClose():
-    '''public void onClose()
+    '''returns None\n\n
+    onClose()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def toDetailString():
-    '''public String toDetailString()
+    '''returns String\n\n
+    toDetailString()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def setIdleTimeout():
-    '''public void setIdleTimeout()
+    '''returns None\n\n
+    setIdleTimeout()\n
     '''
 def cancelIdleTimeout():
-    '''public boolean cancelIdleTimeout()
+    '''returns boolean\n\n
+    cancelIdleTimeout()\n
     '''
 def dump():
-    '''public String dump()
-    public void dump(final Appendable out, final String indent)
+    '''returns None\n\n
+    dump()\n
+    dump(final Appendable out, final String indent)\n
     '''
 def startRequest():
-    '''public void startRequest(final Buffer method, final Buffer url, final Buffer version)
+    '''returns None\n\n
+    startRequest(final Buffer method, final Buffer url, final Buffer version)\n
     '''
 def startResponse():
-    '''public void startResponse(final Buffer version, final int status, final Buffer reason)
+    '''returns None\n\n
+    startResponse(final Buffer version, final int status, final Buffer reason)\n
     '''
 def parsedHeader():
-    '''public void parsedHeader(final Buffer name, final Buffer value)
+    '''returns None\n\n
+    parsedHeader(final Buffer name, final Buffer value)\n
     '''
 def headerComplete():
-    '''public void headerComplete()
+    '''returns None\n\n
+    headerComplete()\n
     '''
 def content():
-    '''public void content(final Buffer ref)
+    '''returns None\n\n
+    content(final Buffer ref)\n
     '''
 def messageComplete():
-    '''public void messageComplete(final long contextLength)
+    '''returns None\n\n
+    messageComplete(final long contextLength)\n
     '''
 def earlyEOF():
-    '''public void earlyEOF()
+    '''returns None\n\n
+    earlyEOF()\n
     '''
 def expired():
-    '''public void expired()
+    '''returns None\n\n
+    expired()\n
     '''
-def NonFinalResponseListener():
-    '''public NonFinalResponseListener(final HttpExchange exchange)
+def ():
+    '''returns NonFinalResponseListener\n\n
+    (final HttpExchange exchange)\n
     '''
 def onRequestCommitted():
-    '''public void onRequestCommitted()
+    '''returns None\n\n
+    onRequestCommitted()\n
     '''
 def onRequestComplete():
-    '''public void onRequestComplete()
+    '''returns None\n\n
+    onRequestComplete()\n
     '''
 def onResponseStatus():
-    '''public void onResponseStatus(final Buffer version, final int status, final Buffer reason)
+    '''returns None\n\n
+    onResponseStatus(final Buffer version, final int status, final Buffer reason)\n
     '''
 def onResponseHeader():
-    '''public void onResponseHeader(final Buffer name, final Buffer value)
+    '''returns None\n\n
+    onResponseHeader(final Buffer name, final Buffer value)\n
     '''
 def onResponseHeaderComplete():
-    '''public void onResponseHeaderComplete()
+    '''returns None\n\n
+    onResponseHeaderComplete()\n
     '''
 def onResponseContent():
-    '''public void onResponseContent(final Buffer content)
+    '''returns None\n\n
+    onResponseContent(final Buffer content)\n
     '''
 def onResponseComplete():
-    '''public void onResponseComplete()
+    '''returns None\n\n
+    onResponseComplete()\n
     '''
 def onConnectionFailed():
-    '''public void onConnectionFailed(final Throwable ex)
+    '''returns None\n\n
+    onConnectionFailed(final Throwable ex)\n
     '''
 def onException():
-    '''public void onException(final Throwable ex)
+    '''returns None\n\n
+    onException(final Throwable ex)\n
     '''
 def onExpire():
-    '''public void onExpire()
+    '''returns None\n\n
+    onExpire()\n
     '''
 def onRetry():
-    '''public void onRetry()
+    '''returns None\n\n
+    onRetry()\n
     '''

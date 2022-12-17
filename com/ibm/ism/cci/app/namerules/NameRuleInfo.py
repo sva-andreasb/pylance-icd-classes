@@ -1,16 +1,21 @@
-def NameRuleInfo():
-    '''public NameRuleInfo()
-    public NameRuleInfo(final Nmr nmr, final String _classificationid)
+def ():
+    '''returns NameRuleInfo\n\n
+    ()\n
+    (final Nmr nmr, final String _classificationid)\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''
 def getNameRuleNum():
-    '''public String getNameRuleNum()
+    '''returns String\n\n
+    getNameRuleNum()\n
     '''
 def getNmrGroupNum():
-    '''public String getNmrGroupNum()
+    '''returns String\n\n
+    getNmrGroupNum()\n
     '''
 def getNameRuleAttrList():
-    '''public List<NameRuleAttrInfo> getNameRuleAttrList()
+    '''returns List<NameRuleAttrInfo>\n\n
+    getNameRuleAttrList()\n
     '''

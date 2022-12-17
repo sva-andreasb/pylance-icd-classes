@@ -1,30 +1,32 @@
-def SnappyFramedInputStream():
-    '''public SnappyFramedInputStream(final InputStream inputStream)
-    public SnappyFramedInputStream(final InputStream in, final boolean b)
-    public SnappyFramedInputStream(final ReadableByteChannel readableByteChannel)
-    public SnappyFramedInputStream(final ReadableByteChannel rbc, final boolean verifyChecksums)
+def ():
+    '''returns FrameData\n\n
+    (final InputStream inputStream)\n
+    (final InputStream in, final boolean b)\n
+    (final ReadableByteChannel readableByteChannel)\n
+    (final ReadableByteChannel rbc, final boolean verifyChecksums)\n
+    (final FrameAction frameAction, final int length)\n
+    (final int checkSum, final int offset)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] array, final int i, final int n)
-    public int read(final ByteBuffer byteBuffer)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] array, final int i, final int n)\n
+    read(final ByteBuffer byteBuffer)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def isOpen():
-    '''public boolean isOpen()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def transferTo():
-    '''public long transferTo(final OutputStream outputStream)
-    public long transferTo(final WritableByteChannel writableByteChannel)
+    '''returns long\n\n
+    transferTo(final OutputStream outputStream)\n
+    transferTo(final WritableByteChannel writableByteChannel)\n
     '''
 def close():
-    '''public void close()
-    '''
-def FrameMetaData():
-    '''public FrameMetaData(final FrameAction frameAction, final int length)
-    '''
-def FrameData():
-    '''public FrameData(final int checkSum, final int offset)
+    '''returns None\n\n
+    close()\n
     '''

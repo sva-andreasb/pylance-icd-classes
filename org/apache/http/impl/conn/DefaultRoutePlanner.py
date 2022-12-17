@@ -1,6 +1,8 @@
-def DefaultRoutePlanner():
-    '''public DefaultRoutePlanner(final SchemePortResolver schemePortResolver)
+def ():
+    '''returns DefaultRoutePlanner\n\n
+    (final SchemePortResolver schemePortResolver)\n
     '''
 def determineRoute():
-    '''public HttpRoute determineRoute(final HttpHost host, final HttpRequest request, final HttpContext context)
+    '''returns HttpRoute\n\n
+    determineRoute(final HttpHost host, final HttpRequest request, final HttpContext context)\n
     '''

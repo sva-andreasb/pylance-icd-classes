@@ -1,3 +1,4 @@
-def CloudShellCredential():
-    '''public CloudShellCredential(final int authPort, final JsonFactory jsonFactory)
+def ():
+    '''returns CloudShellCredential\n\n
+    (final int authPort, final JsonFactory jsonFactory)\n
     '''

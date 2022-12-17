@@ -1,3 +1,4 @@
 def register():
-    '''public int register()
+    '''returns int\n\n
+    register()\n
     '''

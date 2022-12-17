@@ -1,21 +1,12 @@
-def XProperty():
-    '''public XProperty(final String name)
-    public XProperty(final String aName, final String aValue)
-    public XProperty(final String aName, final ParameterList aList, final String aValue)
-    '''
-def setValue():
-    '''public final void setValue(final String aValue)
-    '''
-def getValue():
-    '''public final String getValue()
-    '''
-def validate():
-    '''public final void validate()
-    '''
-def Factory():
-    '''public Factory(final String name)
+def ():
+    '''returns Factory\n\n
+    (final String name)\n
+    (final String aName, final String aValue)\n
+    (final String aName, final ParameterList aList, final String aValue)\n
+    (final String name)\n
     '''
 def createProperty():
-    '''public Property createProperty(final ParameterList parameters, final String value)
-    public Property createProperty()
+    '''returns Property\n\n
+    createProperty(final ParameterList parameters, final String value)\n
+    createProperty()\n
     '''

@@ -1,3 +1,4 @@
-def FldWFExternalMainApp():
-    '''public FldWFExternalMainApp(final MboValue mbv)
+def ():
+    '''returns FldWFExternalMainApp\n\n
+    (final MboValue mbv)\n
     '''

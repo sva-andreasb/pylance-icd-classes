@@ -1,3 +1,4 @@
-def MaxRowStamp():
-    '''public MaxRowStamp(final MboSet ms)
+def ():
+    '''returns MaxRowStamp\n\n
+    (final MboSet ms)\n
     '''

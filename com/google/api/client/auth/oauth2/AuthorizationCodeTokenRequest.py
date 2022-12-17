@@ -1,33 +1,36 @@
-def AuthorizationCodeTokenRequest():
-    '''public AuthorizationCodeTokenRequest(final HttpTransport transport, final JsonFactory jsonFactory, final GenericUrl tokenServerUrl, final String code)
+def ():
+    '''returns AuthorizationCodeTokenRequest\n\n
+    (final HttpTransport transport, final JsonFactory jsonFactory, final GenericUrl tokenServerUrl, final String code)\n
     '''
 def setRequestInitializer():
-    '''public AuthorizationCodeTokenRequest setRequestInitializer(final HttpRequestInitializer requestInitializer)
+    '''returns AuthorizationCodeTokenRequest\n\n
+    setRequestInitializer(final HttpRequestInitializer requestInitializer)\n
     '''
 def setTokenServerUrl():
-    '''public AuthorizationCodeTokenRequest setTokenServerUrl(final GenericUrl tokenServerUrl)
+    '''returns AuthorizationCodeTokenRequest\n\n
+    setTokenServerUrl(final GenericUrl tokenServerUrl)\n
     '''
 def setScopes():
-    '''public AuthorizationCodeTokenRequest setScopes(final Collection<String> scopes)
+    '''returns AuthorizationCodeTokenRequest\n\n
+    setScopes(final Collection<String> scopes)\n
     '''
 def setGrantType():
-    '''public AuthorizationCodeTokenRequest setGrantType(final String grantType)
+    '''returns AuthorizationCodeTokenRequest\n\n
+    setGrantType(final String grantType)\n
     '''
 def setClientAuthentication():
-    '''public AuthorizationCodeTokenRequest setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
-    '''
-def getCode():
-    '''public final String getCode()
+    '''returns AuthorizationCodeTokenRequest\n\n
+    setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)\n
     '''
 def setCode():
-    '''public AuthorizationCodeTokenRequest setCode(final String code)
-    '''
-def getRedirectUri():
-    '''public final String getRedirectUri()
+    '''returns AuthorizationCodeTokenRequest\n\n
+    setCode(final String code)\n
     '''
 def setRedirectUri():
-    '''public AuthorizationCodeTokenRequest setRedirectUri(final String redirectUri)
+    '''returns AuthorizationCodeTokenRequest\n\n
+    setRedirectUri(final String redirectUri)\n
     '''
 def set():
-    '''public AuthorizationCodeTokenRequest set(final String fieldName, final Object value)
+    '''returns AuthorizationCodeTokenRequest\n\n
+    set(final String fieldName, final Object value)\n
     '''

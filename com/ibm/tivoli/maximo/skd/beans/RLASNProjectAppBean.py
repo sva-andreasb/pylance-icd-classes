@@ -1,21 +1,24 @@
 def REFRESH():
-    '''public int REFRESH()
+    '''returns int\n\n
+    REFRESH()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def COMPARE():
-    '''public int COMPARE()
+    '''returns int\n\n
+    COMPARE()\n
     '''
 def skdcomparescenario():
-    '''public int skdcomparescenario()
-    '''
-def toJsonObject():
-    '''public static JSONObject toJsonObject(final MboRemote mbo)
+    '''returns int\n\n
+    skdcomparescenario()\n
     '''
 def ASSIGNLAB():
-    '''public int ASSIGNLAB()
+    '''returns int\n\n
+    ASSIGNLAB()\n
     '''
 def CRWASSIGNA():
-    '''public int CRWASSIGNA()
+    '''returns int\n\n
+    CRWASSIGNA()\n
     '''

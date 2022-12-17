@@ -1,0 +1,7 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(STCrosses.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"stcrosses3cc8type\")"
+AUTO_ZERO = "Enum  Enum.forString(\"autoZero\")"
+MAX = "Enum  Enum.forString(\"max\")"
+MIN = "Enum  Enum.forString(\"min\")"
+INT_AUTO_ZERO = "int  1"
+INT_MAX = "int  2"
+INT_MIN = "int  3"

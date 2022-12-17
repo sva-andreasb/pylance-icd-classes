@@ -1,18 +1,24 @@
-def InvoiceSet():
-    '''public InvoiceSet(final MboServerInterface ms)
+def ():
+    '''returns InvoiceSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setHistory():
-    '''public void setHistory(final boolean historyInvoices)
+    '''returns None\n\n
+    setHistory(final boolean historyInvoices)\n
     '''
 def setCurrent():
-    '''public void setCurrent(final boolean currentInvoices)
+    '''returns None\n\n
+    setCurrent(final boolean currentInvoices)\n
     '''
 def getHistory():
-    '''public boolean getHistory()
+    '''returns boolean\n\n
+    getHistory()\n
     '''
 def getCurrent():
-    '''public boolean getCurrent()
+    '''returns boolean\n\n
+    getCurrent()\n
     '''
 def getUserPrefWhere():
-    '''public String getUserPrefWhere()
+    '''returns String\n\n
+    getUserPrefWhere()\n
     '''

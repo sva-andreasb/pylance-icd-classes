@@ -1,3 +1,4 @@
-def FldWMMatchCrwVendor():
-    '''public FldWMMatchCrwVendor(final MboValue mbv)
+def ():
+    '''returns FldWMMatchCrwVendor\n\n
+    (final MboValue mbv)\n
     '''

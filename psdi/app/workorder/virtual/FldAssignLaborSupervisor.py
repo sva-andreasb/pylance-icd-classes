@@ -1,6 +1,8 @@
-def FldAssignLaborSupervisor():
-    '''public FldAssignLaborSupervisor(final MboValue mbv)
+def ():
+    '''returns FldAssignLaborSupervisor\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

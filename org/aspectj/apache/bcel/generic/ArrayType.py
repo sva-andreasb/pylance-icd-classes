@@ -1,20 +1,26 @@
-def ArrayType():
-    '''public ArrayType(final byte type, final int dimensions)
-    public ArrayType(final String class_name, final int dimensions)
-    public ArrayType(final Type type, final int dimensions)
+def ():
+    '''returns ArrayType\n\n
+    (final byte type, final int dimensions)\n
+    (final String class_name, final int dimensions)\n
+    (final Type type, final int dimensions)\n
     '''
 def getBasicType():
-    '''public Type getBasicType()
+    '''returns Type\n\n
+    getBasicType()\n
     '''
 def getElementType():
-    '''public Type getElementType()
+    '''returns Type\n\n
+    getElementType()\n
     '''
 def getDimensions():
-    '''public int getDimensions()
+    '''returns int\n\n
+    getDimensions()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object type)
+    '''returns boolean\n\n
+    equals(final Object type)\n
     '''

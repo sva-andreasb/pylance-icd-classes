@@ -1,3 +1,4 @@
-def ServiceProvider():
-    '''public ServiceProvider(final MboSet ms)
+def ():
+    '''returns ServiceProvider\n\n
+    (final MboSet ms)\n
     '''

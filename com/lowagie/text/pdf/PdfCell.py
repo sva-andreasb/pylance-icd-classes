@@ -1,72 +1,96 @@
-def PdfCell():
-    '''public PdfCell(final Cell cell, final int rownumber, float left, float right, final float top, final float cellspacing, final float cellpadding)
+def ():
+    '''returns PdfCell\n\n
+    (final Cell cell, final int rownumber, float left, float right, final float top, final float cellspacing, final float cellpadding)\n
     '''
 def setBottom():
-    '''public void setBottom(final float value)
+    '''returns None\n\n
+    setBottom(final float value)\n
     '''
 def left():
-    '''public float left()
+    '''returns float\n\n
+    left()\n
     '''
 def right():
-    '''public float right()
+    '''returns float\n\n
+    right()\n
     '''
 def top():
-    '''public float top()
+    '''returns float\n\n
+    top()\n
     '''
 def bottom():
-    '''public float bottom()
+    '''returns float\n\n
+    bottom()\n
     '''
 def getLines():
-    '''public ArrayList getLines(final float top, final float bottom)
+    '''returns ArrayList\n\n
+    getLines(final float top, final float bottom)\n
     '''
 def getImages():
-    '''public ArrayList getImages(float top, final float bottom)
+    '''returns ArrayList\n\n
+    getImages(float top, final float bottom)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def remainingLines():
-    '''public int remainingLines()
+    '''returns int\n\n
+    remainingLines()\n
     '''
 def remainingHeight():
-    '''public float remainingHeight()
+    '''returns float\n\n
+    remainingHeight()\n
     '''
 def leading():
-    '''public float leading()
+    '''returns float\n\n
+    leading()\n
     '''
 def rownumber():
-    '''public int rownumber()
+    '''returns int\n\n
+    rownumber()\n
     '''
 def rowspan():
-    '''public int rowspan()
+    '''returns int\n\n
+    rowspan()\n
     '''
 def cellspacing():
-    '''public float cellspacing()
+    '''returns float\n\n
+    cellspacing()\n
     '''
 def cellpadding():
-    '''public float cellpadding()
+    '''returns float\n\n
+    cellpadding()\n
     '''
 def getGroupNumber():
-    '''public int getGroupNumber()
+    '''returns int\n\n
+    getGroupNumber()\n
     '''
 def rectangle():
-    '''public Rectangle rectangle(final float top, final float bottom)
+    '''returns Rectangle\n\n
+    rectangle(final float top, final float bottom)\n
     '''
 def setUseAscender():
-    '''public void setUseAscender(final boolean use)
+    '''returns None\n\n
+    setUseAscender(final boolean use)\n
     '''
 def isUseAscender():
-    '''public boolean isUseAscender()
+    '''returns boolean\n\n
+    isUseAscender()\n
     '''
 def setUseDescender():
-    '''public void setUseDescender(final boolean use)
+    '''returns None\n\n
+    setUseDescender(final boolean use)\n
     '''
 def isUseDescender():
-    '''public boolean isUseDescender()
+    '''returns boolean\n\n
+    isUseDescender()\n
     '''
 def setUseBorderPadding():
-    '''public void setUseBorderPadding(final boolean use)
+    '''returns None\n\n
+    setUseBorderPadding(final boolean use)\n
     '''
 def isUseBorderPadding():
-    '''public boolean isUseBorderPadding()
+    '''returns boolean\n\n
+    isUseBorderPadding()\n
     '''

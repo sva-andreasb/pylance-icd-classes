@@ -1,34 +1,41 @@
-def AbstractByteVectorGloss():
-    '''public AbstractByteVectorGloss()
-    public AbstractByteVectorGloss(final byte[] value)
+def ():
+    '''returns AbstractByteVectorGloss\n\n
+    ()\n
+    (final byte[] value)\n
     '''
 def read_():
-    '''public void read_(final DataInputStream dataInputStream, final int n)
+    '''returns None\n\n
+    read_(final DataInputStream dataInputStream, final int n)\n
     '''
 def write_():
-    '''public void write_(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
-    '''
-def hashCode_():
-    '''public final int hashCode_()
+    '''returns None\n\n
+    write_(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def getValue():
-    '''public byte[] getValue()
+    '''returns byte[]\n\n
+    getValue()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getRtData():
-    '''public int getRtData()
+    '''returns int\n\n
+    getRtData()\n
     '''
 def setRtData():
-    '''public int setRtData(final int rtData)
+    '''returns int\n\n
+    setRtData(final int rtData)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

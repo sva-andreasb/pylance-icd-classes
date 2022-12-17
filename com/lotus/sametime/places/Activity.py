@@ -1,24 +1,32 @@
 def addActivityListener():
-    '''public void addActivityListener(final ActivityListener activityListener)
+    '''returns None\n\n
+    addActivityListener(final ActivityListener activityListener)\n
     '''
 def removeActivityListener():
-    '''public void removeActivityListener(final ActivityListener activityListener)
+    '''returns None\n\n
+    removeActivityListener(final ActivityListener activityListener)\n
     '''
 def setMyId():
-    '''public void setMyId(final String s)
+    '''returns None\n\n
+    setMyId(final String s)\n
     '''
 def getActivityType():
-    '''public int getActivityType()
+    '''returns int\n\n
+    getActivityType()\n
     '''
 def getActivityData():
-    '''public byte[] getActivityData()
+    '''returns byte[]\n\n
+    getActivityData()\n
     '''
 def getPlace():
-    '''public Place getPlace()
+    '''returns Place\n\n
+    getPlace()\n
     '''
 def addedByMe():
-    '''public boolean addedByMe()
+    '''returns boolean\n\n
+    addedByMe()\n
     '''
 def hasWrapper():
-    '''public boolean hasWrapper()
+    '''returns boolean\n\n
+    hasWrapper()\n
     '''

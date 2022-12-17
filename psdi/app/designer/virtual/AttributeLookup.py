@@ -1,3 +1,4 @@
-def AttributeLookup():
-    '''public AttributeLookup(final MboSet ms)
+def ():
+    '''returns AttributeLookup\n\n
+    (final MboSet ms)\n
     '''

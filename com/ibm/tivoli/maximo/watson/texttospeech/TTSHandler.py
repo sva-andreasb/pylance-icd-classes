@@ -9,28 +9,36 @@ VOICE_FR = "String  \"VOICE_FR\""
 VOICE_IT = "String  \"VOICE_IT\""
 VOICE_JA = "String  \"VOICE_JA\""
 VOICE_PT = "String  \"VOICE_PT\""
-def TTSHandler():
-    '''public TTSHandler(final MaxEndPointInfo endPointInfo)
-    public TTSHandler()
+def ():
+    '''returns TTSHandler\n\n
+    (final MaxEndPointInfo endPointInfo)\n
+    ()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map metaData, byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map metaData, byte[] data)\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def getAPIUSERNAME():
-    '''public String getAPIUSERNAME()
+    '''returns String\n\n
+    getAPIUSERNAME()\n
     '''
 def getAUDIOFORMAT():
-    '''public String getAUDIOFORMAT()
+    '''returns String\n\n
+    getAUDIOFORMAT()\n
     '''
 def getVOICE():
-    '''public String getVOICE()
+    '''returns String\n\n
+    getVOICE()\n
     '''
 def getAPIPASSWORD():
-    '''public String getAPIPASSWORD()
+    '''returns String\n\n
+    getAPIPASSWORD()\n
     '''

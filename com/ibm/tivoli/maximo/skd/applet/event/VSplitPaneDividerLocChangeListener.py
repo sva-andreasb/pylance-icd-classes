@@ -1,6 +1,8 @@
-def VSplitPaneDividerLocChangeListener():
-    '''public VSplitPaneDividerLocChangeListener(final String sourceName)
+def ():
+    '''returns VSplitPaneDividerLocChangeListener\n\n
+    (final String sourceName)\n
     '''
 def updateCurrentDividerInfo():
-    '''public void updateCurrentDividerInfo(final int oldValue, final int newValue)
+    '''returns None\n\n
+    updateCurrentDividerInfo(final int oldValue, final int newValue)\n
     '''

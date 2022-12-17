@@ -1,9 +1,12 @@
-def SimpleServiceMetricType():
-    '''public SimpleServiceMetricType(final String name, final String serviceName)
+def ():
+    '''returns SimpleServiceMetricType\n\n
+    (final String name, final String serviceName)\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''

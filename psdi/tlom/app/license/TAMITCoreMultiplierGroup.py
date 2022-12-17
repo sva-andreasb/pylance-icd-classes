@@ -1,12 +1,16 @@
-def TAMITCoreMultiplierGroup():
-    '''public TAMITCoreMultiplierGroup(final MboSet ms)
+def ():
+    '''returns TAMITCoreMultiplierGroup\n\n
+    (final MboSet ms)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

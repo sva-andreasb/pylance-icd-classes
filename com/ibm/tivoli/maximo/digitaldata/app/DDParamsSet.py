@@ -1,3 +1,4 @@
-def DDParamsSet():
-    '''public DDParamsSet(final MboServerInterface ms)
+def ():
+    '''returns DDParamsSet\n\n
+    (final MboServerInterface ms)\n
     '''

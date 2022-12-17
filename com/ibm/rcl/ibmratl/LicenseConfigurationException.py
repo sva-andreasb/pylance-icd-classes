@@ -1,5 +1,6 @@
 CLASSNAME = "String  \"LicenseConfigurationException\""
 VERSION = "String  \"(%filespec: LicenseConfigurationException.java~6 %)\""
-def LicenseConfigurationException():
-    '''public LicenseConfigurationException(final String s)
+def ():
+    '''returns LicenseConfigurationException\n\n
+    (final String s)\n
     '''

@@ -1,18 +1,20 @@
-def SignatureMarshalListener():
-    '''public SignatureMarshalListener()
+def ():
+    '''returns SignatureMarshalListener\n\n
+    ()\n
     '''
 def setEventTarget():
-    '''public void setEventTarget(final EventTarget target)
+    '''returns None\n\n
+    setEventTarget(final EventTarget target)\n
     '''
 def handleEvent():
-    '''public void handleEvent(final Event e)
+    '''returns None\n\n
+    handleEvent(final Event e)\n
     '''
 def handleElement():
-    '''public void handleElement(final Element el)
-    '''
-def setListener():
-    '''public static void setListener(final EventTarget target, final EventListener listener, final boolean enabled)
+    '''returns None\n\n
+    handleElement(final Element el)\n
     '''
 def setSignatureConfig():
-    '''public void setSignatureConfig(final SignatureConfig signatureConfig)
+    '''returns None\n\n
+    setSignatureConfig(final SignatureConfig signatureConfig)\n
     '''

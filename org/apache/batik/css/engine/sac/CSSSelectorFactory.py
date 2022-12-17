@@ -1,39 +1,52 @@
 def createConditionalSelector():
-    '''public ConditionalSelector createConditionalSelector(final SimpleSelector selector, final Condition condition)
+    '''returns ConditionalSelector\n\n
+    createConditionalSelector(final SimpleSelector selector, final Condition condition)\n
     '''
 def createAnyNodeSelector():
-    '''public SimpleSelector createAnyNodeSelector()
+    '''returns SimpleSelector\n\n
+    createAnyNodeSelector()\n
     '''
 def createRootNodeSelector():
-    '''public SimpleSelector createRootNodeSelector()
+    '''returns SimpleSelector\n\n
+    createRootNodeSelector()\n
     '''
 def createNegativeSelector():
-    '''public NegativeSelector createNegativeSelector(final SimpleSelector selector)
+    '''returns NegativeSelector\n\n
+    createNegativeSelector(final SimpleSelector selector)\n
     '''
 def createElementSelector():
-    '''public ElementSelector createElementSelector(final String namespaceURI, final String tagName)
+    '''returns ElementSelector\n\n
+    createElementSelector(final String namespaceURI, final String tagName)\n
     '''
 def createTextNodeSelector():
-    '''public CharacterDataSelector createTextNodeSelector(final String data)
+    '''returns CharacterDataSelector\n\n
+    createTextNodeSelector(final String data)\n
     '''
 def createCDataSectionSelector():
-    '''public CharacterDataSelector createCDataSectionSelector(final String data)
+    '''returns CharacterDataSelector\n\n
+    createCDataSectionSelector(final String data)\n
     '''
 def createProcessingInstructionSelector():
-    '''public ProcessingInstructionSelector createProcessingInstructionSelector(final String target, final String data)
+    '''returns ProcessingInstructionSelector\n\n
+    createProcessingInstructionSelector(final String target, final String data)\n
     '''
 def createCommentSelector():
-    '''public CharacterDataSelector createCommentSelector(final String data)
+    '''returns CharacterDataSelector\n\n
+    createCommentSelector(final String data)\n
     '''
 def createPseudoElementSelector():
-    '''public ElementSelector createPseudoElementSelector(final String namespaceURI, final String pseudoName)
+    '''returns ElementSelector\n\n
+    createPseudoElementSelector(final String namespaceURI, final String pseudoName)\n
     '''
 def createDescendantSelector():
-    '''public DescendantSelector createDescendantSelector(final Selector parent, final SimpleSelector descendant)
+    '''returns DescendantSelector\n\n
+    createDescendantSelector(final Selector parent, final SimpleSelector descendant)\n
     '''
 def createChildSelector():
-    '''public DescendantSelector createChildSelector(final Selector parent, final SimpleSelector child)
+    '''returns DescendantSelector\n\n
+    createChildSelector(final Selector parent, final SimpleSelector child)\n
     '''
 def createDirectAdjacentSelector():
-    '''public SiblingSelector createDirectAdjacentSelector(final short nodeType, final Selector child, final SimpleSelector directAdjacent)
+    '''returns SiblingSelector\n\n
+    createDirectAdjacentSelector(final short nodeType, final Selector child, final SimpleSelector directAdjacent)\n
     '''

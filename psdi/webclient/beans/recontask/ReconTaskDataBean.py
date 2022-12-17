@@ -1,9 +1,12 @@
 def addRule():
-    '''public int addRule(final String ruleTable, final String dialogToShow)
+    '''returns int\n\n
+    addRule(final String ruleTable, final String dialogToShow)\n
     '''
 def addlinkrule():
-    '''public int addlinkrule()
+    '''returns int\n\n
+    addlinkrule()\n
     '''
 def addcomprule():
-    '''public int addcomprule()
+    '''returns int\n\n
+    addcomprule()\n
     '''

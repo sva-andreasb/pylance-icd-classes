@@ -1,6 +1,7 @@
-def DocumentChangedException():
-    '''public DocumentChangedException()
-    public DocumentChangedException(final String msg)
-    public DocumentChangedException(final Throwable th, final String msg)
-    public DocumentChangedException(final Throwable th)
+def ():
+    '''returns DocumentChangedException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable th, final String msg)\n
+    (final Throwable th)\n
     '''

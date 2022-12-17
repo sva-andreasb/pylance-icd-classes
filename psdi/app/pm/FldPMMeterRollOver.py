@@ -1,6 +1,8 @@
-def FldPMMeterRollOver():
-    '''public FldPMMeterRollOver(final MboValue mbv)
+def ():
+    '''returns FldPMMeterRollOver\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

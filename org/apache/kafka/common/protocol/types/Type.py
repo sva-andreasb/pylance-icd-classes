@@ -1,81 +1,87 @@
 def isNullable():
-    '''public boolean isNullable()
-    public boolean isNullable()
-    public boolean isNullable()
-    public boolean isNullable()
+    '''returns boolean\n\n
+    isNullable()\n
+    isNullable()\n
+    isNullable()\n
+    isNullable()\n
     '''
 def write():
-    '''public void write(final ByteBuffer buffer, final Object o)
-    public void write(final ByteBuffer buffer, final Object o)
-    public void write(final ByteBuffer buffer, final Object o)
-    public void write(final ByteBuffer buffer, final Object o)
-    public void write(final ByteBuffer buffer, final Object o)
-    public void write(final ByteBuffer buffer, final Object o)
-    public void write(final ByteBuffer buffer, final Object o)
-    public void write(final ByteBuffer buffer, final Object o)
-    public void write(final ByteBuffer buffer, final Object o)
-    public void write(final ByteBuffer buffer, final Object o)
-    public void write(final ByteBuffer buffer, final Object o)
-    public void write(final ByteBuffer buffer, final Object o)
-    public void write(final ByteBuffer buffer, final Object o)
+    '''returns None\n\n
+    write(final ByteBuffer buffer, final Object o)\n
+    write(final ByteBuffer buffer, final Object o)\n
+    write(final ByteBuffer buffer, final Object o)\n
+    write(final ByteBuffer buffer, final Object o)\n
+    write(final ByteBuffer buffer, final Object o)\n
+    write(final ByteBuffer buffer, final Object o)\n
+    write(final ByteBuffer buffer, final Object o)\n
+    write(final ByteBuffer buffer, final Object o)\n
+    write(final ByteBuffer buffer, final Object o)\n
+    write(final ByteBuffer buffer, final Object o)\n
+    write(final ByteBuffer buffer, final Object o)\n
+    write(final ByteBuffer buffer, final Object o)\n
+    write(final ByteBuffer buffer, final Object o)\n
     '''
 def read():
-    '''public Object read(final ByteBuffer buffer)
-    public Object read(final ByteBuffer buffer)
-    public Object read(final ByteBuffer buffer)
-    public Object read(final ByteBuffer buffer)
-    public Object read(final ByteBuffer buffer)
-    public Object read(final ByteBuffer buffer)
-    public String read(final ByteBuffer buffer)
-    public String read(final ByteBuffer buffer)
-    public Object read(final ByteBuffer buffer)
-    public Object read(final ByteBuffer buffer)
-    public Records read(final ByteBuffer buffer)
-    public Integer read(final ByteBuffer buffer)
-    public Long read(final ByteBuffer buffer)
+    '''returns Long\n\n
+    read(final ByteBuffer buffer)\n
+    read(final ByteBuffer buffer)\n
+    read(final ByteBuffer buffer)\n
+    read(final ByteBuffer buffer)\n
+    read(final ByteBuffer buffer)\n
+    read(final ByteBuffer buffer)\n
+    read(final ByteBuffer buffer)\n
+    read(final ByteBuffer buffer)\n
+    read(final ByteBuffer buffer)\n
+    read(final ByteBuffer buffer)\n
+    read(final ByteBuffer buffer)\n
+    read(final ByteBuffer buffer)\n
+    read(final ByteBuffer buffer)\n
     '''
 def sizeOf():
-    '''public int sizeOf(final Object o)
-    public int sizeOf(final Object o)
-    public int sizeOf(final Object o)
-    public int sizeOf(final Object o)
-    public int sizeOf(final Object o)
-    public int sizeOf(final Object o)
-    public int sizeOf(final Object o)
-    public int sizeOf(final Object o)
-    public int sizeOf(final Object o)
-    public int sizeOf(final Object o)
-    public int sizeOf(final Object o)
-    public int sizeOf(final Object o)
-    public int sizeOf(final Object o)
+    '''returns int\n\n
+    sizeOf(final Object o)\n
+    sizeOf(final Object o)\n
+    sizeOf(final Object o)\n
+    sizeOf(final Object o)\n
+    sizeOf(final Object o)\n
+    sizeOf(final Object o)\n
+    sizeOf(final Object o)\n
+    sizeOf(final Object o)\n
+    sizeOf(final Object o)\n
+    sizeOf(final Object o)\n
+    sizeOf(final Object o)\n
+    sizeOf(final Object o)\n
+    sizeOf(final Object o)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def validate():
-    '''public Boolean validate(final Object item)
-    public Byte validate(final Object item)
-    public Short validate(final Object item)
-    public Integer validate(final Object item)
-    public Long validate(final Object item)
-    public Long validate(final Object item)
-    public String validate(final Object item)
-    public String validate(final Object item)
-    public ByteBuffer validate(final Object item)
-    public ByteBuffer validate(final Object item)
-    public Records validate(final Object item)
-    public Integer validate(final Object item)
-    public Long validate(final Object item)
+    '''returns Long\n\n
+    validate(final Object item)\n
+    validate(final Object item)\n
+    validate(final Object item)\n
+    validate(final Object item)\n
+    validate(final Object item)\n
+    validate(final Object item)\n
+    validate(final Object item)\n
+    validate(final Object item)\n
+    validate(final Object item)\n
+    validate(final Object item)\n
+    validate(final Object item)\n
+    validate(final Object item)\n
+    validate(final Object item)\n
     '''

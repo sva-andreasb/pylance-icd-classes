@@ -1,3 +1,4 @@
-def MaxExtIfaceList():
-    '''public MaxExtIfaceList(final MboSet ms)
+def ():
+    '''returns MaxExtIfaceList\n\n
+    (final MboSet ms)\n
     '''

@@ -4,234 +4,290 @@ ROUND_CEILING = "int  2"
 ROUND_HALF_FLOOR = "int  3"
 ROUND_HALF_CEILING = "int  4"
 ROUND_HALF_EVEN = "int  5"
-def now():
-    '''public static MutableDateTime now()
-    public static MutableDateTime now(final DateTimeZone dateTimeZone)
-    public static MutableDateTime now(final Chronology chronology)
-    '''
-def parse():
-    '''public static MutableDateTime parse(final String s)
-    public static MutableDateTime parse(final String s, final DateTimeFormatter dateTimeFormatter)
-    '''
-def MutableDateTime():
-    '''public MutableDateTime()
-    public MutableDateTime(final DateTimeZone dateTimeZone)
-    public MutableDateTime(final Chronology chronology)
-    public MutableDateTime(final long n)
-    public MutableDateTime(final long n, final DateTimeZone dateTimeZone)
-    public MutableDateTime(final long n, final Chronology chronology)
-    public MutableDateTime(final Object o)
-    public MutableDateTime(final Object o, final DateTimeZone dateTimeZone)
-    public MutableDateTime(final Object o, final Chronology chronology)
-    public MutableDateTime(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)
-    public MutableDateTime(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7, final DateTimeZone dateTimeZone)
-    public MutableDateTime(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7, final Chronology chronology)
+def ():
+    '''returns MutableDateTime\n\n
+    ()\n
+    (final DateTimeZone dateTimeZone)\n
+    (final Chronology chronology)\n
+    (final long n)\n
+    (final long n, final DateTimeZone dateTimeZone)\n
+    (final long n, final Chronology chronology)\n
+    (final Object o)\n
+    (final Object o, final DateTimeZone dateTimeZone)\n
+    (final Object o, final Chronology chronology)\n
+    (final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)\n
+    (final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7, final DateTimeZone dateTimeZone)\n
+    (final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7, final Chronology chronology)\n
     '''
 def getRoundingField():
-    '''public DateTimeField getRoundingField()
+    '''returns DateTimeField\n\n
+    getRoundingField()\n
     '''
 def getRoundingMode():
-    '''public int getRoundingMode()
+    '''returns int\n\n
+    getRoundingMode()\n
     '''
 def setRounding():
-    '''public void setRounding(final DateTimeField dateTimeField)
-    public void setRounding(final DateTimeField dateTimeField, final int i)
+    '''returns None\n\n
+    setRounding(final DateTimeField dateTimeField)\n
+    setRounding(final DateTimeField dateTimeField, final int i)\n
     '''
 def setMillis():
-    '''public void setMillis(long millis)
-    public void setMillis(final ReadableInstant readableInstant)
+    '''returns None\n\n
+    setMillis(long millis)\n
+    setMillis(final ReadableInstant readableInstant)\n
     '''
 def add():
-    '''public void add(final long n)
-    public void add(final ReadableDuration readableDuration)
-    public void add(final ReadableDuration readableDuration, final int n)
-    public void add(final ReadablePeriod readablePeriod)
-    public void add(final ReadablePeriod readablePeriod, final int n)
-    public void add(final DurationFieldType durationFieldType, final int n)
-    public MutableDateTime add(final int n)
-    public MutableDateTime add(final long n)
+    '''returns MutableDateTime\n\n
+    add(final long n)\n
+    add(final ReadableDuration readableDuration)\n
+    add(final ReadableDuration readableDuration, final int n)\n
+    add(final ReadablePeriod readablePeriod)\n
+    add(final ReadablePeriod readablePeriod, final int n)\n
+    add(final DurationFieldType durationFieldType, final int n)\n
+    add(final int n)\n
+    add(final long n)\n
     '''
 def setChronology():
-    '''public void setChronology(final Chronology chronology)
+    '''returns None\n\n
+    setChronology(final Chronology chronology)\n
     '''
 def setZone():
-    '''public void setZone(DateTimeZone zone)
+    '''returns None\n\n
+    setZone(DateTimeZone zone)\n
     '''
 def setZoneRetainFields():
-    '''public void setZoneRetainFields(DateTimeZone zone)
+    '''returns None\n\n
+    setZoneRetainFields(DateTimeZone zone)\n
     '''
 def set():
-    '''public void set(final DateTimeFieldType dateTimeFieldType, final int n)
-    public MutableDateTime set(final int n)
-    public MutableDateTime set(final String s, final Locale locale)
-    public MutableDateTime set(final String s)
+    '''returns MutableDateTime\n\n
+    set(final DateTimeFieldType dateTimeFieldType, final int n)\n
+    set(final int n)\n
+    set(final String s, final Locale locale)\n
+    set(final String s)\n
     '''
 def setYear():
-    '''public void setYear(final int n)
+    '''returns None\n\n
+    setYear(final int n)\n
     '''
 def addYears():
-    '''public void addYears(final int n)
+    '''returns None\n\n
+    addYears(final int n)\n
     '''
 def setWeekyear():
-    '''public void setWeekyear(final int n)
+    '''returns None\n\n
+    setWeekyear(final int n)\n
     '''
 def addWeekyears():
-    '''public void addWeekyears(final int n)
+    '''returns None\n\n
+    addWeekyears(final int n)\n
     '''
 def setMonthOfYear():
-    '''public void setMonthOfYear(final int n)
+    '''returns None\n\n
+    setMonthOfYear(final int n)\n
     '''
 def addMonths():
-    '''public void addMonths(final int n)
+    '''returns None\n\n
+    addMonths(final int n)\n
     '''
 def setWeekOfWeekyear():
-    '''public void setWeekOfWeekyear(final int n)
+    '''returns None\n\n
+    setWeekOfWeekyear(final int n)\n
     '''
 def addWeeks():
-    '''public void addWeeks(final int n)
+    '''returns None\n\n
+    addWeeks(final int n)\n
     '''
 def setDayOfYear():
-    '''public void setDayOfYear(final int n)
+    '''returns None\n\n
+    setDayOfYear(final int n)\n
     '''
 def setDayOfMonth():
-    '''public void setDayOfMonth(final int n)
+    '''returns None\n\n
+    setDayOfMonth(final int n)\n
     '''
 def setDayOfWeek():
-    '''public void setDayOfWeek(final int n)
+    '''returns None\n\n
+    setDayOfWeek(final int n)\n
     '''
 def addDays():
-    '''public void addDays(final int n)
+    '''returns None\n\n
+    addDays(final int n)\n
     '''
 def setHourOfDay():
-    '''public void setHourOfDay(final int n)
+    '''returns None\n\n
+    setHourOfDay(final int n)\n
     '''
 def addHours():
-    '''public void addHours(final int n)
+    '''returns None\n\n
+    addHours(final int n)\n
     '''
 def setMinuteOfDay():
-    '''public void setMinuteOfDay(final int n)
+    '''returns None\n\n
+    setMinuteOfDay(final int n)\n
     '''
 def setMinuteOfHour():
-    '''public void setMinuteOfHour(final int n)
+    '''returns None\n\n
+    setMinuteOfHour(final int n)\n
     '''
 def addMinutes():
-    '''public void addMinutes(final int n)
+    '''returns None\n\n
+    addMinutes(final int n)\n
     '''
 def setSecondOfDay():
-    '''public void setSecondOfDay(final int n)
+    '''returns None\n\n
+    setSecondOfDay(final int n)\n
     '''
 def setSecondOfMinute():
-    '''public void setSecondOfMinute(final int n)
+    '''returns None\n\n
+    setSecondOfMinute(final int n)\n
     '''
 def addSeconds():
-    '''public void addSeconds(final int n)
+    '''returns None\n\n
+    addSeconds(final int n)\n
     '''
 def setMillisOfDay():
-    '''public void setMillisOfDay(final int n)
+    '''returns None\n\n
+    setMillisOfDay(final int n)\n
     '''
 def setMillisOfSecond():
-    '''public void setMillisOfSecond(final int n)
+    '''returns None\n\n
+    setMillisOfSecond(final int n)\n
     '''
 def addMillis():
-    '''public void addMillis(final int n)
+    '''returns None\n\n
+    addMillis(final int n)\n
     '''
 def setDate():
-    '''public void setDate(final long n)
-    public void setDate(final ReadableInstant readableInstant)
-    public void setDate(final int n, final int n2, final int n3)
+    '''returns None\n\n
+    setDate(final long n)\n
+    setDate(final ReadableInstant readableInstant)\n
+    setDate(final int n, final int n2, final int n3)\n
     '''
 def setTime():
-    '''public void setTime(final long n)
-    public void setTime(final ReadableInstant readableInstant)
-    public void setTime(final int n, final int n2, final int n3, final int n4)
+    '''returns None\n\n
+    setTime(final long n)\n
+    setTime(final ReadableInstant readableInstant)\n
+    setTime(final int n, final int n2, final int n3, final int n4)\n
     '''
 def setDateTime():
-    '''public void setDateTime(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)
+    '''returns None\n\n
+    setDateTime(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)\n
     '''
 def property():
-    '''public Property property(final DateTimeFieldType obj)
+    '''returns Property\n\n
+    property(final DateTimeFieldType obj)\n
     '''
 def era():
-    '''public Property era()
+    '''returns Property\n\n
+    era()\n
     '''
 def centuryOfEra():
-    '''public Property centuryOfEra()
+    '''returns Property\n\n
+    centuryOfEra()\n
     '''
 def yearOfCentury():
-    '''public Property yearOfCentury()
+    '''returns Property\n\n
+    yearOfCentury()\n
     '''
 def yearOfEra():
-    '''public Property yearOfEra()
+    '''returns Property\n\n
+    yearOfEra()\n
     '''
 def year():
-    '''public Property year()
+    '''returns Property\n\n
+    year()\n
     '''
 def weekyear():
-    '''public Property weekyear()
+    '''returns Property\n\n
+    weekyear()\n
     '''
 def monthOfYear():
-    '''public Property monthOfYear()
+    '''returns Property\n\n
+    monthOfYear()\n
     '''
 def weekOfWeekyear():
-    '''public Property weekOfWeekyear()
+    '''returns Property\n\n
+    weekOfWeekyear()\n
     '''
 def dayOfYear():
-    '''public Property dayOfYear()
+    '''returns Property\n\n
+    dayOfYear()\n
     '''
 def dayOfMonth():
-    '''public Property dayOfMonth()
+    '''returns Property\n\n
+    dayOfMonth()\n
     '''
 def dayOfWeek():
-    '''public Property dayOfWeek()
+    '''returns Property\n\n
+    dayOfWeek()\n
     '''
 def hourOfDay():
-    '''public Property hourOfDay()
+    '''returns Property\n\n
+    hourOfDay()\n
     '''
 def minuteOfDay():
-    '''public Property minuteOfDay()
+    '''returns Property\n\n
+    minuteOfDay()\n
     '''
 def minuteOfHour():
-    '''public Property minuteOfHour()
+    '''returns Property\n\n
+    minuteOfHour()\n
     '''
 def secondOfDay():
-    '''public Property secondOfDay()
+    '''returns Property\n\n
+    secondOfDay()\n
     '''
 def secondOfMinute():
-    '''public Property secondOfMinute()
+    '''returns Property\n\n
+    secondOfMinute()\n
     '''
 def millisOfDay():
-    '''public Property millisOfDay()
+    '''returns Property\n\n
+    millisOfDay()\n
     '''
 def millisOfSecond():
-    '''public Property millisOfSecond()
+    '''returns Property\n\n
+    millisOfSecond()\n
     '''
 def copy():
-    '''public MutableDateTime copy()
+    '''returns MutableDateTime\n\n
+    copy()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getField():
-    '''public DateTimeField getField()
+    '''returns DateTimeField\n\n
+    getField()\n
     '''
 def getMutableDateTime():
-    '''public MutableDateTime getMutableDateTime()
+    '''returns MutableDateTime\n\n
+    getMutableDateTime()\n
     '''
 def addWrapField():
-    '''public MutableDateTime addWrapField(final int n)
+    '''returns MutableDateTime\n\n
+    addWrapField(final int n)\n
     '''
 def roundFloor():
-    '''public MutableDateTime roundFloor()
+    '''returns MutableDateTime\n\n
+    roundFloor()\n
     '''
 def roundCeiling():
-    '''public MutableDateTime roundCeiling()
+    '''returns MutableDateTime\n\n
+    roundCeiling()\n
     '''
 def roundHalfFloor():
-    '''public MutableDateTime roundHalfFloor()
+    '''returns MutableDateTime\n\n
+    roundHalfFloor()\n
     '''
 def roundHalfCeiling():
-    '''public MutableDateTime roundHalfCeiling()
+    '''returns MutableDateTime\n\n
+    roundHalfCeiling()\n
     '''
 def roundHalfEven():
-    '''public MutableDateTime roundHalfEven()
+    '''returns MutableDateTime\n\n
+    roundHalfEven()\n
     '''

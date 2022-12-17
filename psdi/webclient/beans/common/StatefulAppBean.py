@@ -1,48 +1,64 @@
-def StatefulAppBean():
-    '''public StatefulAppBean()
+def ():
+    '''returns StatefulAppBean\n\n
+    ()\n
     '''
 def STATUS():
-    '''public int STATUS()
+    '''returns int\n\n
+    STATUS()\n
     '''
 def STATUSSUB():
-    '''public int STATUSSUB()
+    '''returns int\n\n
+    STATUSSUB()\n
     '''
 def APPR():
-    '''public int APPR()
+    '''returns int\n\n
+    APPR()\n
     '''
 def APPROVE():
-    '''public int APPROVE()
+    '''returns int\n\n
+    APPROVE()\n
     '''
 def CLOSE():
-    '''public int CLOSE()
+    '''returns int\n\n
+    CLOSE()\n
     '''
 def CLOSED():
-    '''public int CLOSED()
+    '''returns int\n\n
+    CLOSED()\n
     '''
 def COMPLETE():
-    '''public int COMPLETE()
+    '''returns int\n\n
+    COMPLETE()\n
     '''
 def COMP():
-    '''public int COMP()
+    '''returns int\n\n
+    COMP()\n
     '''
 def INIT():
-    '''public int INIT()
+    '''returns int\n\n
+    INIT()\n
     '''
 def SENT():
-    '''public int SENT()
+    '''returns int\n\n
+    SENT()\n
     '''
 def PAID():
-    '''public int PAID()
+    '''returns int\n\n
+    PAID()\n
     '''
 def QUEUED():
-    '''public int QUEUED()
+    '''returns int\n\n
+    QUEUED()\n
     '''
 def INPROG():
-    '''public int INPROG()
+    '''returns int\n\n
+    INPROG()\n
     '''
 def PENDING():
-    '''public int PENDING()
+    '''returns int\n\n
+    PENDING()\n
     '''
 def RESOLVED():
-    '''public int RESOLVED()
+    '''returns int\n\n
+    RESOLVED()\n
     '''

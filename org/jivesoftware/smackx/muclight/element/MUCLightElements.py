@@ -1,60 +1,48 @@
 ELEMENT = "String  \"x\""
 NAMESPACE = "String  \"urn:xmpp:muclight:0#configuration\""
-def AffiliationsChangeExtension():
-    '''public AffiliationsChangeExtension(final HashMap<Jid, MUCLightAffiliation> affiliations, final String prevVersion, final String version)
+def ():
+    '''returns BlockingElement\n\n
+    (final HashMap<Jid, MUCLightAffiliation> affiliations, final String prevVersion, final String version)\n
+    (final String prevVersion, final String version, final String roomName, final String subject, final HashMap<String, String> customConfigs)\n
+    (final MUCLightRoomConfiguration configuration)\n
+    (final HashMap<Jid, MUCLightAffiliation> occupants)\n
+    (final Jid user, final MUCLightAffiliation affiliation)\n
+    (final Jid jid, final Boolean allow, final Boolean isRoom)\n
     '''
 def getElementName():
-    '''public String getElementName()
-    public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
-    public String getNamespace()
-    '''
-def getAffiliations():
-    '''public HashMap<Jid, MUCLightAffiliation> getAffiliations()
+    '''returns String\n\n
+    getNamespace()\n
+    getNamespace()\n
     '''
 def getPrevVersion():
-    '''public String getPrevVersion()
-    public String getPrevVersion()
+    '''returns String\n\n
+    getPrevVersion()\n
+    getPrevVersion()\n
     '''
 def getVersion():
-    '''public String getVersion()
-    public String getVersion()
+    '''returns String\n\n
+    getVersion()\n
+    getVersion()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
-    public CharSequence toXML(final String enclosingNamespace)
-    public CharSequence toXML(final String enclosingNamespace)
-    public CharSequence toXML(final String enclosingNamespace)
-    public CharSequence toXML(final String enclosingNamespace)
-    public CharSequence toXML(final String enclosingNamespace)
-    '''
-def from():
-    '''public static AffiliationsChangeExtension from(final Message message)
-    public static ConfigurationsChangeExtension from(final Message message)
-    '''
-def ConfigurationsChangeExtension():
-    '''public ConfigurationsChangeExtension(final String prevVersion, final String version, final String roomName, final String subject, final HashMap<String, String> customConfigs)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getRoomName():
-    '''public String getRoomName()
+    '''returns String\n\n
+    getRoomName()\n
     '''
 def getSubject():
-    '''public String getSubject()
-    '''
-def getCustomConfigs():
-    '''public HashMap<String, String> getCustomConfigs()
-    '''
-def ConfigurationElement():
-    '''public ConfigurationElement(final MUCLightRoomConfiguration configuration)
-    '''
-def OccupantsElement():
-    '''public OccupantsElement(final HashMap<Jid, MUCLightAffiliation> occupants)
-    '''
-def UserWithAffiliationElement():
-    '''public UserWithAffiliationElement(final Jid user, final MUCLightAffiliation affiliation)
-    '''
-def BlockingElement():
-    '''public BlockingElement(final Jid jid, final Boolean allow, final Boolean isRoom)
+    '''returns String\n\n
+    getSubject()\n
     '''

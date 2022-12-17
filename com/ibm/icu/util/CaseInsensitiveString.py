@@ -1,15 +1,20 @@
-def CaseInsensitiveString():
-    '''public CaseInsensitiveString(final String s)
+def ():
+    '''returns CaseInsensitiveString\n\n
+    (final String s)\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,6 +1,8 @@
-def CLIFileParameterHandler():
-    '''public CLIFileParameterHandler()
+def ():
+    '''returns CLIFileParameterHandler\n\n
+    ()\n
     '''
 def normalizeAndValidateParameterValue():
-    '''public Object normalizeAndValidateParameterValue(final ICLIParameter descriptor, final String localizedParameterValue, final CLIParseResult results, final String localizedParameterKey)
+    '''returns Object\n\n
+    normalizeAndValidateParameterValue(final ICLIParameter descriptor, final String localizedParameterValue, final CLIParseResult results, final String localizedParameterKey)\n
     '''

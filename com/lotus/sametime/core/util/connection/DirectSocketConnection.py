@@ -1,7 +1,9 @@
-def DirectSocketConnection():
-    '''public DirectSocketConnection(final String s, final int n, final long n2)
-    public DirectSocketConnection(final int n, final long n2)
+def ():
+    '''returns DirectSocketConnection\n\n
+    (final String s, final int n, final long n2)\n
+    (final int n, final long n2)\n
     '''
 def getConnectionInfo():
-    '''public ConnectionInfo getConnectionInfo()
+    '''returns ConnectionInfo\n\n
+    getConnectionInfo()\n
     '''

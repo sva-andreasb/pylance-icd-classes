@@ -1,117 +1,154 @@
-def SysDataElement():
-    '''public SysDataElement()
-    public SysDataElement(final String name, final Namespace namespace)
-    public SysDataElement(final String name)
-    public SysDataElement(final String name, final String uri)
-    public SysDataElement(final String name, final String prefix, final String uri)
-    public SysDataElement(final String tbname, final TreeMap newCol, final TreeMap oldCol, final TreeMap newData, final TreeMap oldData, final TreeMap newDataOldKeys, final TreeMap keyCols, final File codefile)
+def ():
+    '''returns SysDataElement\n\n
+    ()\n
+    (final String name, final Namespace namespace)\n
+    (final String name)\n
+    (final String name, final String uri)\n
+    (final String name, final String prefix, final String uri)\n
+    (final String tbname, final TreeMap newCol, final TreeMap oldCol, final TreeMap newData, final TreeMap oldData, final TreeMap newDataOldKeys, final TreeMap keyCols, final File codefile)\n
     '''
 def loadDoNotUpdateCols():
-    '''public void loadDoNotUpdateCols()
+    '''returns None\n\n
+    loadDoNotUpdateCols()\n
     '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def setTableName():
-    '''public void setTableName(final String tableName)
+    '''returns None\n\n
+    setTableName(final String tableName)\n
     '''
 def scanKeyCols():
-    '''public void scanKeyCols()
+    '''returns None\n\n
+    scanKeyCols()\n
     '''
 def buildFromHashMaps():
-    '''public void buildFromHashMaps()
+    '''returns None\n\n
+    buildFromHashMaps()\n
     '''
 def addOneRow():
-    '''public void addOneRow(final String key, final HashMap newVals)
+    '''returns None\n\n
+    addOneRow(final String key, final HashMap newVals)\n
     '''
 def removeOneRow():
-    '''public void removeOneRow(final String key, final HashMap oldVals)
+    '''returns None\n\n
+    removeOneRow(final String key, final HashMap oldVals)\n
     '''
 def compareRows():
-    '''public void compareRows(final String key, final HashMap newVals, final HashMap oldVals)
-    public ArrayList compareRows(final Element row, final TreeMap colsColno)
+    '''returns ArrayList\n\n
+    compareRows(final String key, final HashMap newVals, final HashMap oldVals)\n
+    compareRows(final Element row, final TreeMap colsColno)\n
     '''
 def setKeyAttributes():
-    '''public void setKeyAttributes(final Element row, final HashMap rowValues)
+    '''returns None\n\n
+    setKeyAttributes(final Element row, final HashMap rowValues)\n
     '''
 def haveDup():
-    '''public boolean haveDup(final Element checkEl)
+    '''returns boolean\n\n
+    haveDup(final Element checkEl)\n
     '''
 def getKeys():
-    '''public List getKeys()
+    '''returns List\n\n
+    getKeys()\n
     '''
 def getAttribute():
-    '''public Element getAttribute(final Element row, final String attrName)
+    '''returns Element\n\n
+    getAttribute(final Element row, final String attrName)\n
     '''
 def getSql():
-    '''public ArrayList getSql(final String tbname, final Connection con, final Util util, final TreeMap oldCol, final TreeMap keyCols)
+    '''returns ArrayList\n\n
+    getSql(final String tbname, final Connection con, final Util util, final TreeMap oldCol, final TreeMap keyCols)\n
     '''
 def getDeleteSql():
-    '''public ArrayList getDeleteSql(final String tbname, final Connection con, final Util util, final TreeMap oldCol, final TreeMap keyCols)
+    '''returns ArrayList\n\n
+    getDeleteSql(final String tbname, final Connection con, final Util util, final TreeMap oldCol, final TreeMap keyCols)\n
     '''
 def getWhereClause():
-    '''public String getWhereClause(final Element row, final boolean useSiteOrg, final String siteid, final String orgid)
+    '''returns String\n\n
+    getWhereClause(final Element row, final boolean useSiteOrg, final String siteid, final String orgid)\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final String status)
+    '''returns None\n\n
+    setStatus(final String status)\n
     '''
 def deleteRow():
-    '''public ArrayList deleteRow(final Element row)
+    '''returns ArrayList\n\n
+    deleteRow(final Element row)\n
     '''
 def deleteRowExtension():
-    '''public ArrayList deleteRowExtension(final Element row, final ArrayList list)
+    '''returns ArrayList\n\n
+    deleteRowExtension(final Element row, final ArrayList list)\n
     '''
 def updateRow():
-    '''public ArrayList updateRow(final Element row, final HashMap currentData, final String siteid, final String orgid)
+    '''returns ArrayList\n\n
+    updateRow(final Element row, final HashMap currentData, final String siteid, final String orgid)\n
     '''
 def canUpdateColumn():
-    '''public boolean canUpdateColumn(final String name)
+    '''returns boolean\n\n
+    canUpdateColumn(final String name)\n
     '''
 def updateRowExtension():
-    '''public ArrayList updateRowExtension(final Element row, final HashMap currentData, final String siteid, final String orgid, final ArrayList list)
+    '''returns ArrayList\n\n
+    updateRowExtension(final Element row, final HashMap currentData, final String siteid, final String orgid, final ArrayList list)\n
     '''
 def insertRow():
-    '''public ArrayList insertRow(final Element row, final String siteid, final String orgid)
+    '''returns ArrayList\n\n
+    insertRow(final Element row, final String siteid, final String orgid)\n
     '''
 def insertRowExtension():
-    '''public ArrayList insertRowExtension(final Element row, final String siteid, final String orgid, final ArrayList list)
+    '''returns ArrayList\n\n
+    insertRowExtension(final Element row, final String siteid, final String orgid, final ArrayList list)\n
     '''
 def getChunkUpdates():
-    '''public ArrayList getChunkUpdates(final Element row, final String colName, final String colValue, final int chunkSize)
+    '''returns ArrayList\n\n
+    getChunkUpdates(final Element row, final String colName, final String colValue, final int chunkSize)\n
     '''
 def setUpgCodes():
-    '''public void setUpgCodes(final File codefile)
+    '''returns None\n\n
+    setUpgCodes(final File codefile)\n
     '''
 def addCodes():
-    '''public void addCodes(Element row, final String key)
+    '''returns None\n\n
+    addCodes(Element row, final String key)\n
     '''
 def addCodesExtension():
-    '''public Element addCodesExtension(final Element row, final Element codeEl)
+    '''returns Element\n\n
+    addCodesExtension(final Element row, final Element codeEl)\n
     '''
 def getUpgCodesElement():
-    '''public Element getUpgCodesElement(final String key)
+    '''returns Element\n\n
+    getUpgCodesElement(final String key)\n
     '''
 def getSequenceName():
-    '''public String getSequenceName(final String tableName, final String columnName)
+    '''returns String\n\n
+    getSequenceName(final String tableName, final String columnName)\n
     '''
 def isUniqueColumnID():
-    '''public boolean isUniqueColumnID(final String columnName)
+    '''returns boolean\n\n
+    isUniqueColumnID(final String columnName)\n
     '''
 def initSequence():
-    '''public void initSequence(final String tableName)
+    '''returns None\n\n
+    initSequence(final String tableName)\n
     '''
 def getMaxReserved():
-    '''public long getMaxReserved(final Element row)
+    '''returns long\n\n
+    getMaxReserved(final Element row)\n
     '''
 def domainInUse():
-    '''public boolean domainInUse(final String domainID)
+    '''returns boolean\n\n
+    domainInUse(final String domainID)\n
     '''
 def getNextVal():
-    '''public int getNextVal(final String tableName, final String columnName)
+    '''returns int\n\n
+    getNextVal(final String tableName, final String columnName)\n
     '''
 def executeQuery():
-    '''public void executeQuery(final String sql)
+    '''returns None\n\n
+    executeQuery(final String sql)\n
     '''

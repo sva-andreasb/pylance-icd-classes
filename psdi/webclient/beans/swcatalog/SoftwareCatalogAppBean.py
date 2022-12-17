@@ -1,12 +1,16 @@
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def LAUNCHENTRY():
-    '''public int LAUNCHENTRY()
+    '''returns int\n\n
+    LAUNCHENTRY()\n
     '''
 def CREATEITEM():
-    '''public int CREATEITEM()
+    '''returns int\n\n
+    CREATEITEM()\n
     '''
 def find():
-    '''public int find()
+    '''returns int\n\n
+    find()\n
     '''

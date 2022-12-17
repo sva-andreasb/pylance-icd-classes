@@ -1,12 +1,13 @@
-def AssetHierarchyBuilder():
-    '''public AssetHierarchyBuilder()
+def ():
+    '''returns Node\n\n
+    ()\n
+    (final String asset)\n
     '''
 def loadHierarchy():
-    '''public List<Node> loadHierarchy(final UserInfo info, final String... assets)
+    '''returns List<Node>\n\n
+    loadHierarchy(final UserInfo info, final String... assets)\n
     '''
 def dunp():
-    '''public void dunp(final List<Node> nodes, final PrintStream ps)
-    '''
-def Node():
-    '''public Node(final String asset)
+    '''returns None\n\n
+    dunp(final List<Node> nodes, final PrintStream ps)\n
     '''

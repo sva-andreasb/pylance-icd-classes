@@ -1,3 +1,4 @@
 def isPost():
-    '''public boolean isPost()
+    '''returns boolean\n\n
+    isPost()\n
     '''

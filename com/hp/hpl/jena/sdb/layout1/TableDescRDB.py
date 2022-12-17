@@ -1,9 +1,8 @@
-def name():
-    '''public static String name()
-    '''
-def TableDescRDB():
-    '''public TableDescRDB()
+def ():
+    '''returns TableDescRDB\n\n
+    ()\n
     '''
 def getGraphColName():
-    '''public String getGraphColName()
+    '''returns String\n\n
+    getGraphColName()\n
     '''

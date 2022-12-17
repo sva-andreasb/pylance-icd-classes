@@ -1,18 +1,24 @@
 def setKeyPrefixEquals():
-    '''public void setKeyPrefixEquals(final String keyPrefixEquals)
+    '''returns None\n\n
+    setKeyPrefixEquals(final String keyPrefixEquals)\n
     '''
 def getKeyPrefixEquals():
-    '''public String getKeyPrefixEquals()
+    '''returns String\n\n
+    getKeyPrefixEquals()\n
     '''
 def withKeyPrefixEquals():
-    '''public RoutingRuleCondition withKeyPrefixEquals(final String keyPrefixEquals)
+    '''returns RoutingRuleCondition\n\n
+    withKeyPrefixEquals(final String keyPrefixEquals)\n
     '''
 def setHttpErrorCodeReturnedEquals():
-    '''public void setHttpErrorCodeReturnedEquals(final String httpErrorCodeReturnedEquals)
+    '''returns None\n\n
+    setHttpErrorCodeReturnedEquals(final String httpErrorCodeReturnedEquals)\n
     '''
 def getHttpErrorCodeReturnedEquals():
-    '''public String getHttpErrorCodeReturnedEquals()
+    '''returns String\n\n
+    getHttpErrorCodeReturnedEquals()\n
     '''
 def withHttpErrorCodeReturnedEquals():
-    '''public RoutingRuleCondition withHttpErrorCodeReturnedEquals(final String httpErrorCodeReturnedEquals)
+    '''returns RoutingRuleCondition\n\n
+    withHttpErrorCodeReturnedEquals(final String httpErrorCodeReturnedEquals)\n
     '''

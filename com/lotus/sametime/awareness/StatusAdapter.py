@@ -1,6 +1,8 @@
 def userStatusChanged():
-    '''public void userStatusChanged(final StatusEvent statusEvent)
+    '''returns None\n\n
+    userStatusChanged(final StatusEvent statusEvent)\n
     '''
 def groupCleared():
-    '''public void groupCleared(final StatusEvent statusEvent)
+    '''returns None\n\n
+    groupCleared(final StatusEvent statusEvent)\n
     '''

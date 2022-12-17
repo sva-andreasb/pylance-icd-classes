@@ -1,67 +1,88 @@
 DEFAULT_CHECK_INTERVAL = "long  1000L"
 DEFAULT_MAX_TIME = "long  15000L"
 def configure():
-    '''public void configure(final long newWriteLimit, final long newReadLimit, final long newCheckInterval)
-    public void configure(final long newWriteLimit, final long newReadLimit)
-    public void configure(final long newCheckInterval)
+    '''returns None\n\n
+    configure(final long newWriteLimit, final long newReadLimit, final long newCheckInterval)\n
+    configure(final long newWriteLimit, final long newReadLimit)\n
+    configure(final long newCheckInterval)\n
     '''
 def getWriteLimit():
-    '''public long getWriteLimit()
+    '''returns long\n\n
+    getWriteLimit()\n
     '''
 def setWriteLimit():
-    '''public void setWriteLimit(final long writeLimit)
+    '''returns None\n\n
+    setWriteLimit(final long writeLimit)\n
     '''
 def getReadLimit():
-    '''public long getReadLimit()
+    '''returns long\n\n
+    getReadLimit()\n
     '''
 def setReadLimit():
-    '''public void setReadLimit(final long readLimit)
+    '''returns None\n\n
+    setReadLimit(final long readLimit)\n
     '''
 def getCheckInterval():
-    '''public long getCheckInterval()
+    '''returns long\n\n
+    getCheckInterval()\n
     '''
 def setCheckInterval():
-    '''public void setCheckInterval(final long checkInterval)
+    '''returns None\n\n
+    setCheckInterval(final long checkInterval)\n
     '''
 def setMaxTimeWait():
-    '''public void setMaxTimeWait(final long maxTime)
+    '''returns None\n\n
+    setMaxTimeWait(final long maxTime)\n
     '''
 def getMaxTimeWait():
-    '''public long getMaxTimeWait()
+    '''returns long\n\n
+    getMaxTimeWait()\n
     '''
 def getMaxWriteDelay():
-    '''public long getMaxWriteDelay()
+    '''returns long\n\n
+    getMaxWriteDelay()\n
     '''
 def setMaxWriteDelay():
-    '''public void setMaxWriteDelay(final long maxWriteDelay)
+    '''returns None\n\n
+    setMaxWriteDelay(final long maxWriteDelay)\n
     '''
 def getMaxWriteSize():
-    '''public long getMaxWriteSize()
+    '''returns long\n\n
+    getMaxWriteSize()\n
     '''
 def setMaxWriteSize():
-    '''public void setMaxWriteSize(final long maxWriteSize)
+    '''returns None\n\n
+    setMaxWriteSize(final long maxWriteSize)\n
     '''
 def channelRead():
-    '''public void channelRead(final ChannelHandlerContext ctx, final Object msg)
+    '''returns None\n\n
+    channelRead(final ChannelHandlerContext ctx, final Object msg)\n
     '''
 def handlerRemoved():
-    '''public void handlerRemoved(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    handlerRemoved(final ChannelHandlerContext ctx)\n
     '''
 def read():
-    '''public void read(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    read(final ChannelHandlerContext ctx)\n
     '''
 def write():
-    '''public void write(final ChannelHandlerContext ctx, final Object msg, final ChannelPromise promise)
+    '''returns None\n\n
+    write(final ChannelHandlerContext ctx, final Object msg, final ChannelPromise promise)\n
     '''
 def channelRegistered():
-    '''public void channelRegistered(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    channelRegistered(final ChannelHandlerContext ctx)\n
     '''
 def trafficCounter():
-    '''public TrafficCounter trafficCounter()
+    '''returns TrafficCounter\n\n
+    trafficCounter()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

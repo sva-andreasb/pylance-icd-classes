@@ -1,3 +1,4 @@
-def TsdObjSrchAttrbtes():
-    '''public TsdObjSrchAttrbtes(final MboSet ms)
+def ():
+    '''returns TsdObjSrchAttrbtes\n\n
+    (final MboSet ms)\n
     '''

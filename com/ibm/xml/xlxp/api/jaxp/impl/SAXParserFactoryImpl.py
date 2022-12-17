@@ -1,20 +1,26 @@
 SAX_NAMESPACES_FEATURE = "String  \"http://xml.org/sax/features/namespaces\""
 SAX_VALIDATION_FEATURE = "String  \"http://xml.org/sax/features/validation\""
-def SAXParserFactoryImpl():
-    '''public SAXParserFactoryImpl()
+def ():
+    '''returns SAXParserFactoryImpl\n\n
+    ()\n
     '''
 def newSAXParser():
-    '''public SAXParser newSAXParser()
+    '''returns SAXParser\n\n
+    newSAXParser()\n
     '''
 def setFeature():
-    '''public void setFeature(final String s, final boolean value)
+    '''returns None\n\n
+    setFeature(final String s, final boolean value)\n
     '''
 def getFeature():
-    '''public boolean getFeature(final String s)
+    '''returns boolean\n\n
+    getFeature(final String s)\n
     '''
 def setValidating():
-    '''public void setValidating(final boolean b)
+    '''returns None\n\n
+    setValidating(final boolean b)\n
     '''
 def setNamespaceAware():
-    '''public void setNamespaceAware(final boolean b)
+    '''returns None\n\n
+    setNamespaceAware(final boolean b)\n
     '''

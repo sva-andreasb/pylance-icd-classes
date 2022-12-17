@@ -1,129 +1,172 @@
 def getCurrency():
-    '''public Currency getCurrency()
+    '''returns Currency\n\n
+    getCurrency()\n
     '''
 def setCurrency():
-    '''public void setCurrency(final Currency currency)
+    '''returns None\n\n
+    setCurrency(final Currency currency)\n
     '''
 def getFunctionalCurrency():
-    '''public Currency getFunctionalCurrency()
+    '''returns Currency\n\n
+    getFunctionalCurrency()\n
     '''
 def setFunctionalCurrency():
-    '''public void setFunctionalCurrency(final Currency functionalCurrency)
+    '''returns None\n\n
+    setFunctionalCurrency(final Currency functionalCurrency)\n
     '''
 def getInvoice():
-    '''public Invoice getInvoice()
+    '''returns Invoice\n\n
+    getInvoice()\n
     '''
 def setInvoice():
-    '''public void setInvoice(final Invoice invoice)
+    '''returns None\n\n
+    setInvoice(final Invoice invoice)\n
     '''
 def setItemWithCurrencyInfo():
-    '''public void setItemWithCurrencyInfo(final com.softlayer.api.service.billing.invoice.item.tax.Info itemWithCurrencyInfo)
+    '''returns None\n\n
+    setItemWithCurrencyInfo(final com.softlayer.api.service.billing.invoice.item.tax.Info itemWithCurrencyInfo)\n
     '''
 def getTotalTaxAmountToCurrency():
-    '''public BigDecimal getTotalTaxAmountToCurrency()
+    '''returns BigDecimal\n\n
+    getTotalTaxAmountToCurrency()\n
     '''
 def setTotalTaxAmountToCurrency():
-    '''public void setTotalTaxAmountToCurrency(final BigDecimal totalTaxAmountToCurrency)
+    '''returns None\n\n
+    setTotalTaxAmountToCurrency(final BigDecimal totalTaxAmountToCurrency)\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getCurrencyId():
-    '''public Long getCurrencyId()
+    '''returns Long\n\n
+    getCurrencyId()\n
     '''
 def setCurrencyId():
-    '''public void setCurrencyId(final Long currencyId)
+    '''returns None\n\n
+    setCurrencyId(final Long currencyId)\n
     '''
 def isCurrencyIdSpecified():
-    '''public boolean isCurrencyIdSpecified()
+    '''returns boolean\n\n
+    isCurrencyIdSpecified()\n
     '''
 def unsetCurrencyId():
-    '''public void unsetCurrencyId()
+    '''returns None\n\n
+    unsetCurrencyId()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getInvoiceId():
-    '''public Long getInvoiceId()
+    '''returns Long\n\n
+    getInvoiceId()\n
     '''
 def setInvoiceId():
-    '''public void setInvoiceId(final Long invoiceId)
+    '''returns None\n\n
+    setInvoiceId(final Long invoiceId)\n
     '''
 def isInvoiceIdSpecified():
-    '''public boolean isInvoiceIdSpecified()
+    '''returns boolean\n\n
+    isInvoiceIdSpecified()\n
     '''
 def unsetInvoiceId():
-    '''public void unsetInvoiceId()
+    '''returns None\n\n
+    unsetInvoiceId()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getReportedFlag():
-    '''public Boolean getReportedFlag()
+    '''returns Boolean\n\n
+    getReportedFlag()\n
     '''
 def setReportedFlag():
-    '''public void setReportedFlag(final Boolean reportedFlag)
+    '''returns None\n\n
+    setReportedFlag(final Boolean reportedFlag)\n
     '''
 def isReportedFlagSpecified():
-    '''public boolean isReportedFlagSpecified()
+    '''returns boolean\n\n
+    isReportedFlagSpecified()\n
     '''
 def unsetReportedFlag():
-    '''public void unsetReportedFlag()
+    '''returns None\n\n
+    unsetReportedFlag()\n
     '''
 def getItemCount():
-    '''public Long getItemCount()
+    '''returns Long\n\n
+    getItemCount()\n
     '''
 def setItemCount():
-    '''public void setItemCount(final Long itemCount)
+    '''returns None\n\n
+    setItemCount(final Long itemCount)\n
     '''
 def totalTaxAmountToCurrency():
-    '''public Mask totalTaxAmountToCurrency()
+    '''returns Mask\n\n
+    totalTaxAmountToCurrency()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def currencyId():
-    '''public Mask currencyId()
+    '''returns Mask\n\n
+    currencyId()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def invoiceId():
-    '''public Mask invoiceId()
+    '''returns Mask\n\n
+    invoiceId()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def reportedFlag():
-    '''public Mask reportedFlag()
+    '''returns Mask\n\n
+    reportedFlag()\n
     '''
 def itemCount():
-    '''public Mask itemCount()
+    '''returns Mask\n\n
+    itemCount()\n
     '''

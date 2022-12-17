@@ -1,6 +1,8 @@
 def getStyle():
-    '''public IlvStyle getStyle(final IlvDataSet set)
+    '''returns IlvStyle\n\n
+    getStyle(final IlvDataSet set)\n
     '''
 def clearStyles():
-    '''public void clearStyles()
+    '''returns None\n\n
+    clearStyles()\n
     '''

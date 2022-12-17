@@ -1,26 +1,23 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def SaslHandshakeRequest():
-    '''public SaslHandshakeRequest(final String mechanism)
-    public SaslHandshakeRequest(final String mechanism, final short version)
-    public SaslHandshakeRequest(final Struct struct, final short version)
+def ():
+    '''returns Builder\n\n
+    (final String mechanism)\n
+    (final String mechanism, final short version)\n
+    (final Struct struct, final short version)\n
+    (final String mechanism)\n
     '''
 def mechanism():
-    '''public String mechanism()
+    '''returns String\n\n
+    mechanism()\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-    '''
-def parse():
-    '''public static SaslHandshakeRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final String mechanism)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def build():
-    '''public SaslHandshakeRequest build(final short version)
+    '''returns SaslHandshakeRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,10 +1,13 @@
-def S3RequestEndpointResolver():
-    '''public S3RequestEndpointResolver(final ServiceEndpointBuilder endpointBuilder, final boolean isPathStyleAccess, final String bucketName, final String key)
+def ():
+    '''returns S3RequestEndpointResolver\n\n
+    (final ServiceEndpointBuilder endpointBuilder, final boolean isPathStyleAccess, final String bucketName, final String key)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def resolveRequestEndpoint():
-    '''public void resolveRequestEndpoint(final Request<?> request)
-    public void resolveRequestEndpoint(final Request<?> request, final String regionString)
+    '''returns None\n\n
+    resolveRequestEndpoint(final Request<?> request)\n
+    resolveRequestEndpoint(final Request<?> request, final String regionString)\n
     '''

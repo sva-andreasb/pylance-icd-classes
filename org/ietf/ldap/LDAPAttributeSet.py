@@ -1,63 +1,83 @@
-def LDAPAttributeSet():
-    '''public LDAPAttributeSet()
+def ():
+    '''returns LDAPAttributeSet\n\n
+    ()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getAttribute():
-    '''public LDAPAttribute getAttribute(final String s)
-    public LDAPAttribute getAttribute(final String s, final String str)
+    '''returns LDAPAttribute\n\n
+    getAttribute(final String s)\n
+    getAttribute(final String s, final String str)\n
     '''
 def getSubset():
-    '''public LDAPAttributeSet getSubset(final String s)
+    '''returns LDAPAttributeSet\n\n
+    getSubset(final String s)\n
     '''
 def add():
-    '''public boolean add(final Object o)
+    '''returns boolean\n\n
+    add(final Object o)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection collection)
+    '''returns boolean\n\n
+    addAll(final Collection collection)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def contains():
-    '''public boolean contains(final Object o)
+    '''returns boolean\n\n
+    contains(final Object o)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection collection)
+    '''returns boolean\n\n
+    containsAll(final Collection collection)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def iterator():
-    '''public Iterator iterator()
+    '''returns Iterator\n\n
+    iterator()\n
     '''
 def remove():
-    '''public boolean remove(final Object o)
-    public void remove()
+    '''returns None\n\n
+    remove(final Object o)\n
+    remove()\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection collection)
+    '''returns boolean\n\n
+    removeAll(final Collection collection)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection collection)
+    '''returns boolean\n\n
+    retainAll(final Collection collection)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def toArray():
-    '''public Object[] toArray()
-    public Object[] toArray(final Object[] array)
+    '''returns Object[]\n\n
+    toArray()\n
+    toArray(final Object[] array)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''

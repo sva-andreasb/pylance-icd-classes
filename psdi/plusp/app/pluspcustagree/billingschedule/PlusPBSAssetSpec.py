@@ -1,24 +1,32 @@
-def PlusPBSAssetSpec():
-    '''public PlusPBSAssetSpec(final MboSet arg0)
+def ():
+    '''returns PlusPBSAssetSpec\n\n
+    (final MboSet arg0)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getSectionProgressiveNum():
-    '''public String getSectionProgressiveNum()
+    '''returns String\n\n
+    getSectionProgressiveNum()\n
     '''
 def addDetailInfor():
-    '''public void addDetailInfor(final MboRemote wo, final MboRemote classspec)
+    '''returns None\n\n
+    addDetailInfor(final MboRemote wo, final MboRemote classspec)\n
     '''
 def hasRange():
-    '''public boolean hasRange()
+    '''returns boolean\n\n
+    hasRange()\n
     '''
 def rangeContains():
-    '''public boolean rangeContains(final double n)
+    '''returns boolean\n\n
+    rangeContains(final double n)\n
     '''
 def match():
-    '''public boolean match(final MboRemote mboRemote)
+    '''returns boolean\n\n
+    match(final MboRemote mboRemote)\n
     '''
 def getClassificationAttributePrice():
-    '''public double getClassificationAttributePrice(final MboRemote mboRemote)
+    '''returns double\n\n
+    getClassificationAttributePrice(final MboRemote mboRemote)\n
     '''

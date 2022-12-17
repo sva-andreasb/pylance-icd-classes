@@ -1,57 +1,75 @@
 RECORD_ID_EMF = "short  -4070"
 RECORD_ID_WMF = "short  -4069"
 RECORD_ID_PICT = "short  -4068"
-def EscherPictBlip():
-    '''public EscherPictBlip()
+def ():
+    '''returns EscherPictBlip\n\n
+    ()\n
     '''
 def fillFields():
-    '''public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
+    '''returns int\n\n
+    fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)\n
     '''
 def serialize():
-    '''public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
+    '''returns int\n\n
+    serialize(final int offset, final byte[] data, final EscherSerializationListener listener)\n
     '''
 def getRecordSize():
-    '''public int getRecordSize()
+    '''returns int\n\n
+    getRecordSize()\n
     '''
 def getUID():
-    '''public byte[] getUID()
+    '''returns byte[]\n\n
+    getUID()\n
     '''
 def setUID():
-    '''public void setUID(final byte[] uid)
+    '''returns None\n\n
+    setUID(final byte[] uid)\n
     '''
 def getUncompressedSize():
-    '''public int getUncompressedSize()
+    '''returns int\n\n
+    getUncompressedSize()\n
     '''
 def setUncompressedSize():
-    '''public void setUncompressedSize(final int uncompressedSize)
+    '''returns None\n\n
+    setUncompressedSize(final int uncompressedSize)\n
     '''
 def getBounds():
-    '''public Rectangle getBounds()
+    '''returns Rectangle\n\n
+    getBounds()\n
     '''
 def setBounds():
-    '''public void setBounds(final Rectangle bounds)
+    '''returns None\n\n
+    setBounds(final Rectangle bounds)\n
     '''
 def getSizeEMU():
-    '''public Dimension getSizeEMU()
+    '''returns Dimension\n\n
+    getSizeEMU()\n
     '''
 def setSizeEMU():
-    '''public void setSizeEMU(final Dimension sizeEMU)
+    '''returns None\n\n
+    setSizeEMU(final Dimension sizeEMU)\n
     '''
 def getCompressedSize():
-    '''public int getCompressedSize()
+    '''returns int\n\n
+    getCompressedSize()\n
     '''
 def setCompressedSize():
-    '''public void setCompressedSize(final int compressedSize)
+    '''returns None\n\n
+    setCompressedSize(final int compressedSize)\n
     '''
 def isCompressed():
-    '''public boolean isCompressed()
+    '''returns boolean\n\n
+    isCompressed()\n
     '''
 def setCompressed():
-    '''public void setCompressed(final boolean compressed)
+    '''returns None\n\n
+    setCompressed(final boolean compressed)\n
     '''
 def getFilter():
-    '''public byte getFilter()
+    '''returns byte\n\n
+    getFilter()\n
     '''
 def setFilter():
-    '''public void setFilter(final byte filter)
+    '''returns None\n\n
+    setFilter(final byte filter)\n
     '''

@@ -1,31 +1,41 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def publishRequirements():
-    '''public void publishRequirements()
+    '''returns None\n\n
+    publishRequirements()\n
     '''
 def publishGoalsValues():
-    '''public void publishGoalsValues()
+    '''returns None\n\n
+    publishGoalsValues()\n
     '''
 def publishGoalsBreadown():
-    '''public void publishGoalsBreadown()
+    '''returns None\n\n
+    publishGoalsBreadown()\n
     '''
 def publishEngineResultsData():
-    '''public void publishEngineResultsData()
+    '''returns None\n\n
+    publishEngineResultsData()\n
     '''
 def hasEngineSolution():
-    '''public boolean hasEngineSolution()
+    '''returns boolean\n\n
+    hasEngineSolution()\n
     '''
 def publishEngineResultsState():
-    '''public void publishEngineResultsState()
+    '''returns None\n\n
+    publishEngineResultsState()\n
     '''
 def getOplDecisionEngine():
-    '''public IloOplDecisionEngine getOplDecisionEngine()
+    '''returns IloOplDecisionEngine\n\n
+    getOplDecisionEngine()\n
     '''
 def setOplDecisionEngine():
-    '''public void setOplDecisionEngine(final IloOplDecisionEngine oplDecisionEngine)
+    '''returns None\n\n
+    setOplDecisionEngine(final IloOplDecisionEngine oplDecisionEngine)\n
     '''
 def publishErrorReport():
-    '''public void publishErrorReport()
+    '''returns None\n\n
+    publishErrorReport()\n
     '''
 def publishGoalBounds():
-    '''public void publishGoalBounds()
+    '''returns None\n\n
+    publishGoalBounds()\n
     '''

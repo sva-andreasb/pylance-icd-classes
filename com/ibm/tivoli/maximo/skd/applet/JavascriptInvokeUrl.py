@@ -1,13 +1,17 @@
-def JavascriptInvokeUrl():
-    '''public JavascriptInvokeUrl(final String url)
+def ():
+    '''returns JavascriptInvokeUrl\n\n
+    (final String url)\n
     '''
 def get():
-    '''public Response get()
-    public String get(final long timeoutMS)
+    '''returns String\n\n
+    get()\n
+    get(final long timeoutMS)\n
     '''
 def post():
-    '''public Response post(final Object data)
+    '''returns Response\n\n
+    post(final Object data)\n
     '''
 def handleMessage():
-    '''public void handleMessage(final String msgId, final Object... args)
+    '''returns None\n\n
+    handleMessage(final String msgId, final Object... args)\n
     '''

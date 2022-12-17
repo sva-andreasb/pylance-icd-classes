@@ -1,6 +1,8 @@
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def getFactoryObject():
-    '''public ConfigurationStepFactory getFactoryObject()
+    '''returns ConfigurationStepFactory\n\n
+    getFactoryObject()\n
     '''

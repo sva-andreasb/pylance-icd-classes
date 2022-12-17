@@ -4,59 +4,73 @@ PROPERTY_LOADLABORHRS = "String  \"loadLaborHrs\""
 PROPERTY_LOADTOOLHRS = "String  \"loadToolHrs\""
 PROPERTY_LOADTOOLQTY = "String  \"loadToolQty\""
 PROPERTY_LOADZONECAPACITY = "String  \"loadZoneCapacity\""
-def MXReservation():
-    '''public MXReservation(final IlvResource resource, final IlvActivity activity)
+def ():
+    '''returns MXReservation\n\n
+    (final IlvResource resource, final IlvActivity activity)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String property, final Object value)
-    public Object setProperty(final String property, final Object value, final boolean ignoreChangeTracking)
+    '''returns Object\n\n
+    setProperty(final String property, final Object value)\n
+    setProperty(final String property, final Object value, final boolean ignoreChangeTracking)\n
     '''
 def getModifiedProperties():
-    '''public Iterator getModifiedProperties()
+    '''returns Iterator\n\n
+    getModifiedProperties()\n
     '''
 def isModified():
-    '''public boolean isModified()
+    '''returns boolean\n\n
+    isModified()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getObjectId():
-    '''public long getObjectId()
+    '''returns long\n\n
+    getObjectId()\n
     '''
 def getApplinkObject():
-    '''public String getApplinkObject(final String propertyName)
-    '''
-def getApplinkAppList():
-    '''public HashMap<String, String> getApplinkAppList(final String propertyName)
+    '''returns String\n\n
+    getApplinkObject(final String propertyName)\n
     '''
 def getInt():
-    '''public int getInt(final String prop)
+    '''returns int\n\n
+    getInt(final String prop)\n
     '''
 def getLong():
-    '''public long getLong(final String prop)
+    '''returns long\n\n
+    getLong(final String prop)\n
     '''
 def getFloat():
-    '''public float getFloat(final String prop)
+    '''returns float\n\n
+    getFloat(final String prop)\n
     '''
 def getDouble():
-    '''public double getDouble(final String prop)
+    '''returns double\n\n
+    getDouble(final String prop)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final String prop)
+    '''returns boolean\n\n
+    getBoolean(final String prop)\n
     '''
 def getString():
-    '''public String getString(final String prop)
-    public String getString(final String prop, final String defValue)
+    '''returns String\n\n
+    getString(final String prop)\n
+    getString(final String prop, final String defValue)\n
     '''
 def getDate():
-    '''public Date getDate(final String prop)
+    '''returns Date\n\n
+    getDate(final String prop)\n
     '''
 def getMXActivity():
-    '''public IMXActivity getMXActivity()
+    '''returns IMXActivity\n\n
+    getMXActivity()\n
     '''
 def getMXResource():
-    '''public IMXResource getMXResource()
+    '''returns IMXResource\n\n
+    getMXResource()\n
     '''
 def createReservation():
-    '''public MXReservation createReservation(final MXResource resource, final MXActivity activity)
+    '''returns MXReservation\n\n
+    createReservation(final MXResource resource, final MXActivity activity)\n
     '''

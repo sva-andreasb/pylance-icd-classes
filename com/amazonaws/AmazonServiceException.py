@@ -1,55 +1,73 @@
-def AmazonServiceException():
-    '''public AmazonServiceException(final String errorMessage)
-    public AmazonServiceException(final String errorMessage, final Exception cause)
+def ():
+    '''returns AmazonServiceException\n\n
+    (final String errorMessage)\n
+    (final String errorMessage, final Exception cause)\n
     '''
 def setRequestId():
-    '''public void setRequestId(final String requestId)
+    '''returns None\n\n
+    setRequestId(final String requestId)\n
     '''
 def getRequestId():
-    '''public String getRequestId()
+    '''returns String\n\n
+    getRequestId()\n
     '''
 def setServiceName():
-    '''public void setServiceName(final String serviceName)
+    '''returns None\n\n
+    setServiceName(final String serviceName)\n
     '''
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def setErrorCode():
-    '''public void setErrorCode(final String errorCode)
+    '''returns None\n\n
+    setErrorCode(final String errorCode)\n
     '''
 def getErrorCode():
-    '''public String getErrorCode()
+    '''returns String\n\n
+    getErrorCode()\n
     '''
 def setErrorType():
-    '''public void setErrorType(final ErrorType errorType)
+    '''returns None\n\n
+    setErrorType(final ErrorType errorType)\n
     '''
 def getErrorType():
-    '''public ErrorType getErrorType()
+    '''returns ErrorType\n\n
+    getErrorType()\n
     '''
 def getErrorMessage():
-    '''public String getErrorMessage()
+    '''returns String\n\n
+    getErrorMessage()\n
     '''
 def setErrorMessage():
-    '''public void setErrorMessage(final String value)
+    '''returns None\n\n
+    setErrorMessage(final String value)\n
     '''
 def setStatusCode():
-    '''public void setStatusCode(final int statusCode)
+    '''returns None\n\n
+    setStatusCode(final int statusCode)\n
     '''
 def getStatusCode():
-    '''public int getStatusCode()
+    '''returns int\n\n
+    getStatusCode()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getRawResponseContent():
-    '''public String getRawResponseContent()
+    '''returns String\n\n
+    getRawResponseContent()\n
     '''
 def setRawResponseContent():
-    '''public void setRawResponseContent(final String rawResponseContent)
+    '''returns None\n\n
+    setRawResponseContent(final String rawResponseContent)\n
     '''
 def getRawResponse():
-    '''public byte[] getRawResponse()
+    '''returns byte[]\n\n
+    getRawResponse()\n
     '''
 def setRawResponse():
-    '''public void setRawResponse(final byte[] rawResponse)
+    '''returns None\n\n
+    setRawResponse(final byte[] rawResponse)\n
     '''

@@ -1,105 +1,60 @@
-def getSession():
-    '''public static synchronized MXSession getSession()
-    '''
-def getNewSession():
-    '''public static synchronized MXSession getNewSession()
-    '''
-def setMXSessionImplFactory():
-    '''public static synchronized void setMXSessionImplFactory(final MXSessionImplFactory factory)
-    '''
-def getUserName():
-    '''public synchronized String getUserName()
-    '''
-def getPassword():
-    '''public synchronized byte[] getPassword(final byte[] param)
-    '''
-def getBaseCurrency():
-    '''public synchronized String getBaseCurrency()
-    '''
-def setLangCode():
-    '''public synchronized void setLangCode(final String lang)
-    '''
-def setUserName():
-    '''public synchronized void setUserName(final String user)
-    '''
-def setPassword():
-    '''public synchronized void setPassword(final String pwd)
-    '''
 def setTenant():
-    '''public void setTenant(final String code)
+    '''returns None\n\n
+    setTenant(final String code)\n
     '''
 def getTenant():
-    '''public String getTenant()
+    '''returns String\n\n
+    getTenant()\n
     '''
 def setForUser():
-    '''public void setForUser(final String username)
+    '''returns None\n\n
+    setForUser(final String username)\n
     '''
 def getForUser():
-    '''public String getForUser()
+    '''returns String\n\n
+    getForUser()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
-    '''
-def setHost():
-    '''public synchronized void setHost(String url)
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def getHost():
-    '''public String getHost()
-    '''
-def setClientHost():
-    '''public synchronized void setClientHost(final String cHost)
+    '''returns String\n\n
+    getHost()\n
     '''
 def getClientHost():
-    '''public String getClientHost()
-    '''
-def setClientAddr():
-    '''public synchronized void setClientAddr(final String cAddr)
+    '''returns String\n\n
+    getClientHost()\n
     '''
 def getClientAddr():
-    '''public String getClientAddr()
+    '''returns String\n\n
+    getClientAddr()\n
     '''
 def getServer():
-    '''public String getServer()
-    '''
-def getLocale():
-    '''public synchronized Locale getLocale()
-    '''
-def setLocale():
-    '''public synchronized void setLocale(final Locale l)
-    '''
-def setTimeZone():
-    '''public synchronized void setTimeZone(final TimeZone tz)
-    '''
-def getTimeZone():
-    '''public synchronized TimeZone getTimeZone()
-    '''
-def getURLAsString():
-    '''public synchronized String getURLAsString()
-    '''
-def addMXSessionListener():
-    '''public synchronized void addMXSessionListener(final MXSessionListener l)
-    '''
-def removeMXSessionListener():
-    '''public synchronized void removeMXSessionListener(final MXSessionListener l)
+    '''returns String\n\n
+    getServer()\n
     '''
 def getDate():
-    '''public Date getDate()
-    '''
-def isConnected():
-    '''public synchronized boolean isConnected()
+    '''returns Date\n\n
+    getDate()\n
     '''
 def setInteractive():
-    '''public void setInteractive(final boolean value)
+    '''returns None\n\n
+    setInteractive(final boolean value)\n
     '''
 def connectAsRegUser():
-    '''public void connectAsRegUser(final String forUser)
+    '''returns None\n\n
+    connectAsRegUser(final String forUser)\n
     '''
 def setCredential():
-    '''public void setCredential(final Object cert)
+    '''returns None\n\n
+    setCredential(final Object cert)\n
     '''
 def getCredential():
-    '''public Object getCredential()
+    '''returns Object\n\n
+    getCredential()\n
     '''
 def hasAdminLogout():
-    '''public boolean hasAdminLogout()
+    '''returns boolean\n\n
+    hasAdminLogout()\n
     '''

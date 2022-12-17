@@ -1,4 +1,5 @@
-def MBeanRegistrationException():
-    '''public MBeanRegistrationException(final Exception ex)
-    public MBeanRegistrationException(final Exception ex, final String s)
+def ():
+    '''returns MBeanRegistrationException\n\n
+    (final Exception ex)\n
+    (final Exception ex, final String s)\n
     '''

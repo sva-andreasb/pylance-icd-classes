@@ -1,43 +1,57 @@
-def DMCollEventListenerMgr():
-    '''public DMCollEventListenerMgr()
+def ():
+    '''returns DMCollEventListenerMgr\n\n
+    ()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''
 def unRegisterEventsForKey():
-    '''public void unRegisterEventsForKey(final String key)
+    '''returns None\n\n
+    unRegisterEventsForKey(final String key)\n
     '''
 def registerEventsForKey():
-    '''public void registerEventsForKey(final String key)
+    '''returns None\n\n
+    registerEventsForKey(final String key)\n
     '''
 def unregisterAllEventListeners():
-    '''public void unregisterAllEventListeners()
+    '''returns None\n\n
+    unregisterAllEventListeners()\n
     '''
 def initCollEventListner():
-    '''public void initCollEventListner()
+    '''returns None\n\n
+    initCollEventListner()\n
     '''
 def initCollectionPersonMap():
-    '''public void initCollectionPersonMap()
+    '''returns None\n\n
+    initCollectionPersonMap()\n
     '''
 def removeFromCollectionPersonMap():
-    '''public void removeFromCollectionPersonMap(final long dmCollectionId)
+    '''returns None\n\n
+    removeFromCollectionPersonMap(final long dmCollectionId)\n
     '''
 def isValidPerson():
-    '''public boolean isValidPerson(final long dmCollectionId, final String userName)
+    '''returns boolean\n\n
+    isValidPerson(final long dmCollectionId, final String userName)\n
     '''
 def addToCollectionPersonMap():
-    '''public void addToCollectionPersonMap(final long dmCollectionId, final String roleName, final UserInfo userInfo)
+    '''returns None\n\n
+    addToCollectionPersonMap(final long dmCollectionId, final String roleName, final UserInfo userInfo)\n
     '''
 def registerAllEventHandlersAtStartup():
-    '''public void registerAllEventHandlersAtStartup()
+    '''returns None\n\n
+    registerAllEventHandlersAtStartup()\n
     '''
 def unregisterEventListenersForCollection():
-    '''public void unregisterEventListenersForCollection(final long collectionid)
+    '''returns None\n\n
+    unregisterEventListenersForCollection(final long collectionid)\n
     '''

@@ -1,14 +1,18 @@
-def LocalizedMessageFactory():
-    '''public LocalizedMessageFactory(final ResourceBundle resourceBundle)
-    public LocalizedMessageFactory(final String baseName)
+def ():
+    '''returns LocalizedMessageFactory\n\n
+    (final ResourceBundle resourceBundle)\n
+    (final String baseName)\n
     '''
 def getBaseName():
-    '''public String getBaseName()
+    '''returns String\n\n
+    getBaseName()\n
     '''
 def getResourceBundle():
-    '''public ResourceBundle getResourceBundle()
+    '''returns ResourceBundle\n\n
+    getResourceBundle()\n
     '''
 def newMessage():
-    '''public Message newMessage(final String key)
-    public Message newMessage(final String key, final Object... params)
+    '''returns Message\n\n
+    newMessage(final String key)\n
+    newMessage(final String key, final Object... params)\n
     '''

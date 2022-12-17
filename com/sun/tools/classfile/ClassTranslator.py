@@ -1,3 +1,4 @@
 def translate():
-    '''public ClassFile translate(final ClassFile classFile, final Map<Object, Object> map)
+    '''returns ClassFile\n\n
+    translate(final ClassFile classFile, final Map<Object, Object> map)\n
     '''

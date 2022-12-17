@@ -1,9 +1,12 @@
-def FldProvider():
-    '''public FldProvider(final MboValue mbv)
+def ():
+    '''returns FldProvider\n\n
+    (final MboValue mbv)\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

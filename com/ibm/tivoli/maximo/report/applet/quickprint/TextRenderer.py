@@ -1,17 +1,22 @@
-def TextRenderer():
-    '''public TextRenderer(final String text, final PageFormat format)
-    public TextRenderer(final URL fileURL, final PageFormat format)
-    public TextRenderer(final Reader stream, final PageFormat format)
+def ():
+    '''returns TextRenderer\n\n
+    (final String text, final PageFormat format)\n
+    (final URL fileURL, final PageFormat format)\n
+    (final Reader stream, final PageFormat format)\n
     '''
 def getNumberOfPages():
-    '''public int getNumberOfPages()
+    '''returns int\n\n
+    getNumberOfPages()\n
     '''
 def getPageFormat():
-    '''public PageFormat getPageFormat(final int pagenum)
+    '''returns PageFormat\n\n
+    getPageFormat(final int pagenum)\n
     '''
 def getPrintable():
-    '''public Printable getPrintable(final int pagenum)
+    '''returns Printable\n\n
+    getPrintable(final int pagenum)\n
     '''
 def print():
-    '''public int print(final Graphics g, final PageFormat format, final int pagenum)
+    '''returns int\n\n
+    print(final Graphics g, final PageFormat format, final int pagenum)\n
     '''

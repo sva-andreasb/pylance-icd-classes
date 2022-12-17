@@ -1,222 +1,274 @@
-def LoggingCallableStatement():
-    '''public LoggingCallableStatement(final CallableStatement prepareCall, final String sql)
+def ():
+    '''returns LoggingCallableStatement\n\n
+    (final CallableStatement prepareCall, final String sql)\n
     '''
 def getArray():
-    '''public Array getArray(final int parameterIndex)
-    public Array getArray(final String parameterName)
+    '''returns Array\n\n
+    getArray(final int parameterIndex)\n
+    getArray(final String parameterName)\n
     '''
 def getBigDecimal():
-    '''public BigDecimal getBigDecimal(final int parameterIndex)
-    public BigDecimal getBigDecimal(final String parameterName)
-    public BigDecimal getBigDecimal(final int parameterIndex, final int scale)
+    '''returns BigDecimal\n\n
+    getBigDecimal(final int parameterIndex)\n
+    getBigDecimal(final String parameterName)\n
+    getBigDecimal(final int parameterIndex, final int scale)\n
     '''
 def getBlob():
-    '''public Blob getBlob(final int parameterIndex)
-    public Blob getBlob(final String parameterName)
+    '''returns Blob\n\n
+    getBlob(final int parameterIndex)\n
+    getBlob(final String parameterName)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final int parameterIndex)
-    public boolean getBoolean(final String parameterName)
+    '''returns boolean\n\n
+    getBoolean(final int parameterIndex)\n
+    getBoolean(final String parameterName)\n
     '''
 def getByte():
-    '''public byte getByte(final int parameterIndex)
-    public byte getByte(final String parameterName)
+    '''returns byte\n\n
+    getByte(final int parameterIndex)\n
+    getByte(final String parameterName)\n
     '''
 def getBytes():
-    '''public byte[] getBytes(final int parameterIndex)
-    public byte[] getBytes(final String parameterName)
+    '''returns byte[]\n\n
+    getBytes(final int parameterIndex)\n
+    getBytes(final String parameterName)\n
     '''
 def getCharacterStream():
-    '''public Reader getCharacterStream(final int parameterIndex)
-    public Reader getCharacterStream(final String parameterName)
+    '''returns Reader\n\n
+    getCharacterStream(final int parameterIndex)\n
+    getCharacterStream(final String parameterName)\n
     '''
 def getClob():
-    '''public Clob getClob(final int parameterIndex)
-    public Clob getClob(final String parameterName)
+    '''returns Clob\n\n
+    getClob(final int parameterIndex)\n
+    getClob(final String parameterName)\n
     '''
 def getDate():
-    '''public Date getDate(final int parameterIndex)
-    public Date getDate(final String parameterName)
-    public Date getDate(final int parameterIndex, final Calendar cal)
-    public Date getDate(final String parameterName, final Calendar cal)
+    '''returns Date\n\n
+    getDate(final int parameterIndex)\n
+    getDate(final String parameterName)\n
+    getDate(final int parameterIndex, final Calendar cal)\n
+    getDate(final String parameterName, final Calendar cal)\n
     '''
 def getDouble():
-    '''public double getDouble(final int parameterIndex)
-    public double getDouble(final String parameterName)
+    '''returns double\n\n
+    getDouble(final int parameterIndex)\n
+    getDouble(final String parameterName)\n
     '''
 def getFloat():
-    '''public float getFloat(final int parameterIndex)
-    public float getFloat(final String parameterName)
+    '''returns float\n\n
+    getFloat(final int parameterIndex)\n
+    getFloat(final String parameterName)\n
     '''
 def getInt():
-    '''public int getInt(final int parameterIndex)
-    public int getInt(final String parameterName)
+    '''returns int\n\n
+    getInt(final int parameterIndex)\n
+    getInt(final String parameterName)\n
     '''
 def getLong():
-    '''public long getLong(final int parameterIndex)
-    public long getLong(final String parameterName)
+    '''returns long\n\n
+    getLong(final int parameterIndex)\n
+    getLong(final String parameterName)\n
     '''
 def getNCharacterStream():
-    '''public Reader getNCharacterStream(final int parameterIndex)
-    public Reader getNCharacterStream(final String parameterName)
+    '''returns Reader\n\n
+    getNCharacterStream(final int parameterIndex)\n
+    getNCharacterStream(final String parameterName)\n
     '''
 def getNClob():
-    '''public NClob getNClob(final int parameterIndex)
-    public NClob getNClob(final String parameterName)
+    '''returns NClob\n\n
+    getNClob(final int parameterIndex)\n
+    getNClob(final String parameterName)\n
     '''
 def getNString():
-    '''public String getNString(final int parameterIndex)
-    public String getNString(final String parameterName)
+    '''returns String\n\n
+    getNString(final int parameterIndex)\n
+    getNString(final String parameterName)\n
     '''
 def getObject():
-    '''public Object getObject(final int parameterIndex)
-    public Object getObject(final String parameterName)
-    public Object getObject(final int parameterIndex, final Map<String, Class<?>> map)
-    public Object getObject(final String parameterName, final Map<String, Class<?>> map)
-    public <T> T getObject(final int parameterIndex, final Class<T> type)
-    public <T> T getObject(final String parameterName, final Class<T> type)
+    '''returns Object\n\n
+    getObject(final int parameterIndex)\n
+    getObject(final String parameterName)\n
+    getObject(final int parameterIndex, final Map<String, Class<?>> map)\n
+    getObject(final String parameterName, final Map<String, Class<?>> map)\n
     '''
 def getRef():
-    '''public Ref getRef(final int parameterIndex)
-    public Ref getRef(final String parameterName)
+    '''returns Ref\n\n
+    getRef(final int parameterIndex)\n
+    getRef(final String parameterName)\n
     '''
 def getRowId():
-    '''public RowId getRowId(final int parameterIndex)
-    public RowId getRowId(final String parameterName)
+    '''returns RowId\n\n
+    getRowId(final int parameterIndex)\n
+    getRowId(final String parameterName)\n
     '''
 def getSQLXML():
-    '''public SQLXML getSQLXML(final int parameterIndex)
-    public SQLXML getSQLXML(final String parameterName)
+    '''returns SQLXML\n\n
+    getSQLXML(final int parameterIndex)\n
+    getSQLXML(final String parameterName)\n
     '''
 def getShort():
-    '''public short getShort(final int parameterIndex)
-    public short getShort(final String parameterName)
+    '''returns short\n\n
+    getShort(final int parameterIndex)\n
+    getShort(final String parameterName)\n
     '''
 def getString():
-    '''public String getString(final int parameterIndex)
-    public String getString(final String parameterName)
+    '''returns String\n\n
+    getString(final int parameterIndex)\n
+    getString(final String parameterName)\n
     '''
 def getTime():
-    '''public Time getTime(final int parameterIndex)
-    public Time getTime(final String parameterName)
-    public Time getTime(final int parameterIndex, final Calendar cal)
-    public Time getTime(final String parameterName, final Calendar cal)
+    '''returns Time\n\n
+    getTime(final int parameterIndex)\n
+    getTime(final String parameterName)\n
+    getTime(final int parameterIndex, final Calendar cal)\n
+    getTime(final String parameterName, final Calendar cal)\n
     '''
 def getTimestamp():
-    '''public Timestamp getTimestamp(final int parameterIndex)
-    public Timestamp getTimestamp(final String parameterName)
-    public Timestamp getTimestamp(final int parameterIndex, final Calendar cal)
-    public Timestamp getTimestamp(final String parameterName, final Calendar cal)
+    '''returns Timestamp\n\n
+    getTimestamp(final int parameterIndex)\n
+    getTimestamp(final String parameterName)\n
+    getTimestamp(final int parameterIndex, final Calendar cal)\n
+    getTimestamp(final String parameterName, final Calendar cal)\n
     '''
 def getURL():
-    '''public URL getURL(final int parameterIndex)
-    public URL getURL(final String parameterName)
+    '''returns URL\n\n
+    getURL(final int parameterIndex)\n
+    getURL(final String parameterName)\n
     '''
 def registerOutParameter():
-    '''public void registerOutParameter(final int parameterIndex, final int sqlType)
-    public void registerOutParameter(final String parameterName, final int sqlType)
-    public void registerOutParameter(final int parameterIndex, final int sqlType, final int scale)
-    public void registerOutParameter(final int parameterIndex, final int sqlType, final String typeName)
-    public void registerOutParameter(final String parameterName, final int sqlType, final int scale)
-    public void registerOutParameter(final String parameterName, final int sqlType, final String typeName)
+    '''returns None\n\n
+    registerOutParameter(final int parameterIndex, final int sqlType)\n
+    registerOutParameter(final String parameterName, final int sqlType)\n
+    registerOutParameter(final int parameterIndex, final int sqlType, final int scale)\n
+    registerOutParameter(final int parameterIndex, final int sqlType, final String typeName)\n
+    registerOutParameter(final String parameterName, final int sqlType, final int scale)\n
+    registerOutParameter(final String parameterName, final int sqlType, final String typeName)\n
     '''
 def setAsciiStream():
-    '''public void setAsciiStream(final String parameterName, final InputStream x)
-    public void setAsciiStream(final String parameterName, final InputStream x, final int length)
-    public void setAsciiStream(final String parameterName, final InputStream x, final long length)
+    '''returns None\n\n
+    setAsciiStream(final String parameterName, final InputStream x)\n
+    setAsciiStream(final String parameterName, final InputStream x, final int length)\n
+    setAsciiStream(final String parameterName, final InputStream x, final long length)\n
     '''
 def setBigDecimal():
-    '''public void setBigDecimal(final String parameterName, final BigDecimal x)
+    '''returns None\n\n
+    setBigDecimal(final String parameterName, final BigDecimal x)\n
     '''
 def setBinaryStream():
-    '''public void setBinaryStream(final String parameterName, final InputStream x)
-    public void setBinaryStream(final String parameterName, final InputStream x, final int length)
-    public void setBinaryStream(final String parameterName, final InputStream x, final long length)
+    '''returns None\n\n
+    setBinaryStream(final String parameterName, final InputStream x)\n
+    setBinaryStream(final String parameterName, final InputStream x, final int length)\n
+    setBinaryStream(final String parameterName, final InputStream x, final long length)\n
     '''
 def setBlob():
-    '''public void setBlob(final String parameterName, final Blob x)
-    public void setBlob(final String parameterName, final InputStream inputStream)
-    public void setBlob(final String parameterName, final InputStream inputStream, final long length)
+    '''returns None\n\n
+    setBlob(final String parameterName, final Blob x)\n
+    setBlob(final String parameterName, final InputStream inputStream)\n
+    setBlob(final String parameterName, final InputStream inputStream, final long length)\n
     '''
 def setBoolean():
-    '''public void setBoolean(final String parameterName, final boolean x)
+    '''returns None\n\n
+    setBoolean(final String parameterName, final boolean x)\n
     '''
 def setByte():
-    '''public void setByte(final String parameterName, final byte x)
+    '''returns None\n\n
+    setByte(final String parameterName, final byte x)\n
     '''
 def setBytes():
-    '''public void setBytes(final String parameterName, final byte[] x)
+    '''returns None\n\n
+    setBytes(final String parameterName, final byte[] x)\n
     '''
 def setCharacterStream():
-    '''public void setCharacterStream(final String parameterName, final Reader reader)
-    public void setCharacterStream(final String parameterName, final Reader reader, final int length)
-    public void setCharacterStream(final String parameterName, final Reader reader, final long length)
+    '''returns None\n\n
+    setCharacterStream(final String parameterName, final Reader reader)\n
+    setCharacterStream(final String parameterName, final Reader reader, final int length)\n
+    setCharacterStream(final String parameterName, final Reader reader, final long length)\n
     '''
 def setClob():
-    '''public void setClob(final String parameterName, final Clob x)
-    public void setClob(final String parameterName, final Reader reader)
-    public void setClob(final String parameterName, final Reader reader, final long length)
+    '''returns None\n\n
+    setClob(final String parameterName, final Clob x)\n
+    setClob(final String parameterName, final Reader reader)\n
+    setClob(final String parameterName, final Reader reader, final long length)\n
     '''
 def setDate():
-    '''public void setDate(final String parameterName, final Date x)
-    public void setDate(final String parameterName, final Date x, final Calendar cal)
+    '''returns None\n\n
+    setDate(final String parameterName, final Date x)\n
+    setDate(final String parameterName, final Date x, final Calendar cal)\n
     '''
 def setDouble():
-    '''public void setDouble(final String parameterName, final double x)
+    '''returns None\n\n
+    setDouble(final String parameterName, final double x)\n
     '''
 def setFloat():
-    '''public void setFloat(final String parameterName, final float x)
+    '''returns None\n\n
+    setFloat(final String parameterName, final float x)\n
     '''
 def setInt():
-    '''public void setInt(final String parameterName, final int x)
+    '''returns None\n\n
+    setInt(final String parameterName, final int x)\n
     '''
 def setLong():
-    '''public void setLong(final String parameterName, final long x)
+    '''returns None\n\n
+    setLong(final String parameterName, final long x)\n
     '''
 def setNCharacterStream():
-    '''public void setNCharacterStream(final String parameterName, final Reader value)
-    public void setNCharacterStream(final String parameterName, final Reader value, final long length)
+    '''returns None\n\n
+    setNCharacterStream(final String parameterName, final Reader value)\n
+    setNCharacterStream(final String parameterName, final Reader value, final long length)\n
     '''
 def setNClob():
-    '''public void setNClob(final String parameterName, final NClob value)
-    public void setNClob(final String parameterName, final Reader reader)
-    public void setNClob(final String parameterName, final Reader reader, final long length)
+    '''returns None\n\n
+    setNClob(final String parameterName, final NClob value)\n
+    setNClob(final String parameterName, final Reader reader)\n
+    setNClob(final String parameterName, final Reader reader, final long length)\n
     '''
 def setNString():
-    '''public void setNString(final String parameterName, final String value)
+    '''returns None\n\n
+    setNString(final String parameterName, final String value)\n
     '''
 def setNull():
-    '''public void setNull(final String parameterName, final int sqlType)
-    public void setNull(final String parameterName, final int sqlType, final String typeName)
+    '''returns None\n\n
+    setNull(final String parameterName, final int sqlType)\n
+    setNull(final String parameterName, final int sqlType, final String typeName)\n
     '''
 def setObject():
-    '''public void setObject(final String parameterName, final Object x)
-    public void setObject(final String parameterName, final Object x, final int targetSqlType)
-    public void setObject(final String parameterName, final Object x, final int targetSqlType, final int scale)
+    '''returns None\n\n
+    setObject(final String parameterName, final Object x)\n
+    setObject(final String parameterName, final Object x, final int targetSqlType)\n
+    setObject(final String parameterName, final Object x, final int targetSqlType, final int scale)\n
     '''
 def setRowId():
-    '''public void setRowId(final String parameterName, final RowId x)
+    '''returns None\n\n
+    setRowId(final String parameterName, final RowId x)\n
     '''
 def setSQLXML():
-    '''public void setSQLXML(final String parameterName, final SQLXML xmlObject)
+    '''returns None\n\n
+    setSQLXML(final String parameterName, final SQLXML xmlObject)\n
     '''
 def setShort():
-    '''public void setShort(final String parameterName, final short x)
+    '''returns None\n\n
+    setShort(final String parameterName, final short x)\n
     '''
 def setString():
-    '''public void setString(final String parameterName, final String x)
+    '''returns None\n\n
+    setString(final String parameterName, final String x)\n
     '''
 def setTime():
-    '''public void setTime(final String parameterName, final Time x)
-    public void setTime(final String parameterName, final Time x, final Calendar cal)
+    '''returns None\n\n
+    setTime(final String parameterName, final Time x)\n
+    setTime(final String parameterName, final Time x, final Calendar cal)\n
     '''
 def setTimestamp():
-    '''public void setTimestamp(final String parameterName, final Timestamp x)
-    public void setTimestamp(final String parameterName, final Timestamp x, final Calendar cal)
+    '''returns None\n\n
+    setTimestamp(final String parameterName, final Timestamp x)\n
+    setTimestamp(final String parameterName, final Timestamp x, final Calendar cal)\n
     '''
 def setURL():
-    '''public void setURL(final String parameterName, final URL val)
+    '''returns None\n\n
+    setURL(final String parameterName, final URL val)\n
     '''
 def wasNull():
-    '''public boolean wasNull()
+    '''returns boolean\n\n
+    wasNull()\n
     '''

@@ -1,17 +1,22 @@
 sid = "short  427"
-def UserSViewEnd():
-    '''public UserSViewEnd(final byte[] data)
-    public UserSViewEnd(final RecordInputStream in)
+def ():
+    '''returns UserSViewEnd\n\n
+    (final byte[] data)\n
+    (final RecordInputStream in)\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

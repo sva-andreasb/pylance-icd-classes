@@ -1,10 +1,13 @@
-def JobStreamOutputImpl():
-    '''public JobStreamOutputImpl(final OutputStream stream)
-    public JobStreamOutputImpl(final String name, final OutputStream stream)
+def ():
+    '''returns JobStreamOutputImpl\n\n
+    (final OutputStream stream)\n
+    (final String name, final OutputStream stream)\n
     '''
 def getContent():
-    '''public OutputStream getContent()
+    '''returns OutputStream\n\n
+    getContent()\n
     '''
 def download():
-    '''public void download(final JobClient client, final String jobid)
+    '''returns None\n\n
+    download(final JobClient client, final String jobid)\n
     '''

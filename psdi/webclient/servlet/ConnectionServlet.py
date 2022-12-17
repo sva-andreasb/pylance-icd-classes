@@ -1,3 +1,4 @@
 def doGet():
-    '''public void doGet(final HttpServletRequest request, final HttpServletResponse response)
+    '''returns None\n\n
+    doGet(final HttpServletRequest request, final HttpServletResponse response)\n
     '''

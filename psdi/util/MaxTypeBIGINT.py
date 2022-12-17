@@ -1,9 +1,12 @@
-def MaxTypeBIGINT():
-    '''public MaxTypeBIGINT(final Locale locale)
+def ():
+    '''returns MaxTypeBIGINT\n\n
+    (final Locale locale)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

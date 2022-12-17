@@ -1,18 +1,24 @@
-def JSONMapperExit():
-    '''public JSONMapperExit()
+def ():
+    '''returns JSONMapperExit\n\n
+    ()\n
     '''
 def setDataIn():
-    '''public StructureData setDataIn(final StructureData erData)
+    '''returns StructureData\n\n
+    setDataIn(final StructureData erData)\n
     '''
 def setDataOut():
-    '''public StructureData setDataOut(final StructureData irData)
+    '''returns StructureData\n\n
+    setDataOut(final StructureData irData)\n
     '''
 def getMapNameOut():
-    '''public String getMapNameOut(final StructureData irData)
+    '''returns String\n\n
+    getMapNameOut(final StructureData irData)\n
     '''
 def afterProcess():
-    '''public JSONArtifact afterProcess(final JSONArtifact jo)
+    '''returns JSONArtifact\n\n
+    afterProcess(final JSONArtifact jo)\n
     '''
 def getMapNameIn():
-    '''public String getMapNameIn(final StructureData irData)
+    '''returns String\n\n
+    getMapNameIn(final StructureData irData)\n
     '''

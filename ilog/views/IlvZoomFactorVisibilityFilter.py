@@ -1,29 +1,38 @@
 NO_LIMIT = "float  -1.0f"
-def IlvZoomFactorVisibilityFilter():
-    '''public IlvZoomFactorVisibilityFilter(final double a, final double b)
-    public IlvZoomFactorVisibilityFilter(final IlvInputStream ilvInputStream)
+def ():
+    '''returns IlvZoomFactorVisibilityFilter\n\n
+    (final double a, final double b)\n
+    (final IlvInputStream ilvInputStream)\n
     '''
 def isVisible():
-    '''public boolean isVisible(final IlvManagerLayer ilvManagerLayer, final IlvManagerView ilvManagerView)
+    '''returns boolean\n\n
+    isVisible(final IlvManagerLayer ilvManagerLayer, final IlvManagerView ilvManagerView)\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def setPersistent():
-    '''public void setPersistent(final boolean c)
+    '''returns None\n\n
+    setPersistent(final boolean c)\n
     '''
 def write():
-    '''public void write(final IlvOutputStream ilvOutputStream)
+    '''returns None\n\n
+    write(final IlvOutputStream ilvOutputStream)\n
     '''
 def getMinZoomFactor():
-    '''public double getMinZoomFactor()
+    '''returns double\n\n
+    getMinZoomFactor()\n
     '''
 def setMinZoomFactor():
-    '''public void setMinZoomFactor(final double a)
+    '''returns None\n\n
+    setMinZoomFactor(final double a)\n
     '''
 def getMaxZoomFactor():
-    '''public double getMaxZoomFactor()
+    '''returns double\n\n
+    getMaxZoomFactor()\n
     '''
 def setMaxZoomFactor():
-    '''public void setMaxZoomFactor(final double b)
+    '''returns None\n\n
+    setMaxZoomFactor(final double b)\n
     '''

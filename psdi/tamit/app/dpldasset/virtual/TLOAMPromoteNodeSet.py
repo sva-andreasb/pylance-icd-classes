@@ -1,24 +1,32 @@
-def TLOAMPromoteNodeSet():
-    '''public TLOAMPromoteNodeSet(final MboServerInterface ms)
+def ():
+    '''returns TLOAMPromoteNodeSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def promoteToAssets():
-    '''public void promoteToAssets(final PromoteValuesRemote promoteValues)
+    '''returns None\n\n
+    promoteToAssets(final PromoteValuesRemote promoteValues)\n
     '''
 def getLinker():
-    '''public CCILinker getLinker()
+    '''returns CCILinker\n\n
+    getLinker()\n
     '''
 def setLinker():
-    '''public void setLinker(final CCILinker linker)
+    '''returns None\n\n
+    setLinker(final CCILinker linker)\n
     '''
 def getLinked():
-    '''public List<String> getLinked()
+    '''returns List<String>\n\n
+    getLinked()\n
     '''
 def getPromotedGenerics():
-    '''public List<String> getPromotedGenerics()
+    '''returns List<String>\n\n
+    getPromotedGenerics()\n
     '''
 def addResult():
-    '''public void addResult(final PromoteNodeRemote node, final int status)
+    '''returns None\n\n
+    addResult(final PromoteNodeRemote node, final int status)\n
     '''
 def getUserMessage():
-    '''public String getUserMessage()
+    '''returns String\n\n
+    getUserMessage()\n
     '''

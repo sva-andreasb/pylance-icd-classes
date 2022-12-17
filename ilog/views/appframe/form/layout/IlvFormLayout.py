@@ -5,188 +5,201 @@ MAXIMUM_SIZE_MODE = "int  4"
 DEFAULT_BORDER_INSET = "int  3"
 DEFAULT_INSET = "int  3"
 PARENT_NAME = "String  \"${Parent}\""
-def IlvFormLayout():
-    '''public IlvFormLayout()
+def ():
+    '''returns SumFunction\n\n
+    ()\n
+    (final IlvControlAnchor ilvControlAnchor)\n
+    ()\n
+    (final float a)\n
+    (final float n)\n
+    (final float divisor)\n
+    (final float factor)\n
+    (final float b)\n
     '''
 def setConstantValue():
-    '''public void setConstantValue(final String s, final Number n)
+    '''returns None\n\n
+    setConstantValue(final String s, final Number n)\n
     '''
 def removeConstantValue():
-    '''public Number removeConstantValue(final String s)
+    '''returns Number\n\n
+    removeConstantValue(final String s)\n
     '''
 def getConstantValue():
-    '''public Number getConstantValue(final String s)
+    '''returns Number\n\n
+    getConstantValue(final String s)\n
     '''
 def setGroup():
-    '''public void setGroup(final Object f)
+    '''returns None\n\n
+    setGroup(final Object f)\n
     '''
 def getGroup():
-    '''public Object getGroup()
+    '''returns Object\n\n
+    getGroup()\n
     '''
 def layout():
-    '''public void layout(final Object group)
+    '''returns None\n\n
+    layout(final Object group)\n
     '''
 def calculateGroupSize():
-    '''public IlvFormDimension calculateGroupSize(final Object group, final int n)
+    '''returns IlvFormDimension\n\n
+    calculateGroupSize(final Object group, final int n)\n
     '''
 def addAttachment():
-    '''public void addAttachment(final IlvAttachment ilvAttachment)
-    public void addAttachment(final IlvControlAnchor ilvControlAnchor, final IlvControlAnchor ilvControlAnchor2, final Function function)
+    '''returns None\n\n
+    addAttachment(final IlvAttachment ilvAttachment)\n
+    addAttachment(final IlvControlAnchor ilvControlAnchor, final IlvControlAnchor ilvControlAnchor2, final Function function)\n
     '''
 def getControlAnchor():
-    '''public IlvControlAnchor getControlAnchor(final Object o, final String str)
-    public IlvControlAnchor getControlAnchor(final String s, final String str)
-    public IlvControlAnchor getControlAnchor(final String s, final Anchor anchor)
+    '''returns IlvControlAnchor\n\n
+    getControlAnchor(final Object o, final String str)\n
+    getControlAnchor(final String s, final String str)\n
+    getControlAnchor(final String s, final Anchor anchor)\n
     '''
 def leftOf():
-    '''public IlvControlAnchor leftOf(final Object o)
+    '''returns IlvControlAnchor\n\n
+    leftOf(final Object o)\n
     '''
 def leadingOf():
-    '''public IlvControlAnchor leadingOf(final Object o)
+    '''returns IlvControlAnchor\n\n
+    leadingOf(final Object o)\n
     '''
 def rightOf():
-    '''public IlvControlAnchor rightOf(final Object o)
+    '''returns IlvControlAnchor\n\n
+    rightOf(final Object o)\n
     '''
 def trailingOf():
-    '''public IlvControlAnchor trailingOf(final Object o)
+    '''returns IlvControlAnchor\n\n
+    trailingOf(final Object o)\n
     '''
 def topOf():
-    '''public IlvControlAnchor topOf(final Object o)
+    '''returns IlvControlAnchor\n\n
+    topOf(final Object o)\n
     '''
 def bottomOf():
-    '''public IlvControlAnchor bottomOf(final Object o)
+    '''returns IlvControlAnchor\n\n
+    bottomOf(final Object o)\n
     '''
 def widthOf():
-    '''public IlvControlAnchor widthOf(final Object o)
+    '''returns IlvControlAnchor\n\n
+    widthOf(final Object o)\n
     '''
 def heightOf():
-    '''public IlvControlAnchor heightOf(final Object o)
+    '''returns IlvControlAnchor\n\n
+    heightOf(final Object o)\n
     '''
 def extensibleRightOf():
-    '''public IlvControlAnchor extensibleRightOf(final Object o)
+    '''returns IlvControlAnchor\n\n
+    extensibleRightOf(final Object o)\n
     '''
 def extensibleTrailingOf():
-    '''public IlvControlAnchor extensibleTrailingOf(final Object o)
+    '''returns IlvControlAnchor\n\n
+    extensibleTrailingOf(final Object o)\n
     '''
 def extensibleBottomOf():
-    '''public IlvControlAnchor extensibleBottomOf(final Object o)
+    '''returns IlvControlAnchor\n\n
+    extensibleBottomOf(final Object o)\n
     '''
 def preferredHeightOf():
-    '''public IlvControlAnchor preferredHeightOf(final Object o)
+    '''returns IlvControlAnchor\n\n
+    preferredHeightOf(final Object o)\n
     '''
 def preferredWidthOf():
-    '''public IlvControlAnchor preferredWidthOf(final Object o)
+    '''returns IlvControlAnchor\n\n
+    preferredWidthOf(final Object o)\n
     '''
 def verticalCenterOf():
-    '''public IlvControlAnchor verticalCenterOf(final Object o)
+    '''returns IlvControlAnchor\n\n
+    verticalCenterOf(final Object o)\n
     '''
 def horizontalCenterOf():
-    '''public IlvControlAnchor horizontalCenterOf(final Object o)
+    '''returns IlvControlAnchor\n\n
+    horizontalCenterOf(final Object o)\n
     '''
 def getComponentOrientation():
-    '''public ComponentOrientation getComponentOrientation()
+    '''returns ComponentOrientation\n\n
+    getComponentOrientation()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''
 def setParentLayout():
-    '''public void setParentLayout(final IlvFormLayout h)
+    '''returns None\n\n
+    setParentLayout(final IlvFormLayout h)\n
     '''
 def getParentLayout():
-    '''public IlvFormLayout getParentLayout()
-    '''
-def GetAnchor():
-    '''public static Anchor GetAnchor(final String s)
-    '''
-def GetAnchors():
-    '''public static Collection GetAnchors()
+    '''returns IlvFormLayout\n\n
+    getParentLayout()\n
     '''
 def setComponentOrientation():
-    '''public void setComponentOrientation(final ComponentOrientation componentOrientation)
-    public void setComponentOrientation(final ComponentOrientation componentOrientation)
-    public void setComponentOrientation(final ComponentOrientation componentOrientation)
-    public void setComponentOrientation(final ComponentOrientation componentOrientation)
-    public void setComponentOrientation(final ComponentOrientation componentOrientation)
-    public void setComponentOrientation(final ComponentOrientation componentOrientation)
-    public void setComponentOrientation(final ComponentOrientation componentOrientation)
-    '''
-def CreateFunction():
-    '''public static Function CreateFunction(final String s, final float n)
-    '''
-def RegisterFunctionFactory():
-    '''public static void RegisterFunctionFactory(final String s, final FunctionFactory functionFactory)
+    '''returns None\n\n
+    setComponentOrientation(final ComponentOrientation componentOrientation)\n
+    setComponentOrientation(final ComponentOrientation componentOrientation)\n
+    setComponentOrientation(final ComponentOrientation componentOrientation)\n
+    setComponentOrientation(final ComponentOrientation componentOrientation)\n
+    setComponentOrientation(final ComponentOrientation componentOrientation)\n
+    setComponentOrientation(final ComponentOrientation componentOrientation)\n
+    setComponentOrientation(final ComponentOrientation componentOrientation)\n
     '''
 def create():
-    '''public Function create(final float n)
-    public Function create(final float n)
-    public Function create(final float n)
-    public Function create(final float n)
-    public Function create(final float n)
-    public Function create(final float n)
-    '''
-def ContainerSizeAttachment():
-    '''public ContainerSizeAttachment(final IlvControlAnchor ilvControlAnchor)
+    '''returns Function\n\n
+    create(final float n)\n
+    create(final float n)\n
+    create(final float n)\n
+    create(final float n)\n
+    create(final float n)\n
+    create(final float n)\n
     '''
 def setMode():
-    '''public void setMode(final int n)
-    public void setMode(final int a)
+    '''returns None\n\n
+    setMode(final int n)\n
+    setMode(final int a)\n
     '''
 def setSize():
-    '''public void setSize(final float constant)
-    '''
-def ContainerSizeFunction():
-    '''public ContainerSizeFunction()
+    '''returns None\n\n
+    setSize(final float constant)\n
     '''
 def calcValue():
-    '''public float calcValue(final float n, final float n2)
-    public float calcValue(final float n, final float n2)
-    public float calcValue(final float n, final float n2)
-    public float calcValue(final float n, final float n2)
-    public float calcValue(final float n, final float n2)
-    public float calcValue(final float n, final float n2)
-    public float calcValue(final float n, final float n2)
+    '''returns float\n\n
+    calcValue(final float n, final float n2)\n
+    calcValue(final float n, final float n2)\n
+    calcValue(final float n, final float n2)\n
+    calcValue(final float n, final float n2)\n
+    calcValue(final float n, final float n2)\n
+    calcValue(final float n, final float n2)\n
+    calcValue(final float n, final float n2)\n
     '''
 def calcInverseValue():
-    '''public float calcInverseValue(final float n, final float n2)
-    public float calcInverseValue(final float n, final float n2)
-    public float calcInverseValue(final float n, final float n2)
-    public float calcInverseValue(final float n, final float n2)
-    public float calcInverseValue(final float n, final float n2)
-    public float calcInverseValue(final float n, final float n2)
-    public float calcInverseValue(final float n, final float n2)
+    '''returns float\n\n
+    calcInverseValue(final float n, final float n2)\n
+    calcInverseValue(final float n, final float n2)\n
+    calcInverseValue(final float n, final float n2)\n
+    calcInverseValue(final float n, final float n2)\n
+    calcInverseValue(final float n, final float n2)\n
+    calcInverseValue(final float n, final float n2)\n
+    calcInverseValue(final float n, final float n2)\n
     '''
 def getDescription():
-    '''public String getDescription(final String s, final String s2)
-    public String getDescription(final String str, final String s)
-    public String getDescription(final String s, final String s2)
-    public String getDescription(final String s, final String s2)
-    public String getDescription(final String s, final String s2)
-    public String getDescription(final String str, final String str2)
-    public String getDescription(final String str, final String str2)
-    '''
-def ConstantFunction():
-    '''public ConstantFunction(final float a)
+    '''returns String\n\n
+    getDescription(final String s, final String s2)\n
+    getDescription(final String str, final String s)\n
+    getDescription(final String s, final String s2)\n
+    getDescription(final String s, final String s2)\n
+    getDescription(final String s, final String s2)\n
+    getDescription(final String str, final String str2)\n
+    getDescription(final String str, final String str2)\n
     '''
 def getConstant():
-    '''public float getConstant()
+    '''returns float\n\n
+    getConstant()\n
     '''
 def setConstant():
-    '''public void setConstant(final float a)
-    '''
-def PercentageFunction():
-    '''public PercentageFunction(final float n)
-    '''
-def DivFunction():
-    '''public DivFunction(final float divisor)
-    '''
-def MulFunction():
-    '''public MulFunction(final float factor)
-    '''
-def SumFunction():
-    '''public SumFunction(final float b)
+    '''returns None\n\n
+    setConstant(final float a)\n
     '''
 def getSumParameter():
-    '''public float getSumParameter()
+    '''returns float\n\n
+    getSumParameter()\n
     '''

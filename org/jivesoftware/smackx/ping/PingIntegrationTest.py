@@ -1,12 +1,16 @@
-def PingIntegrationTest():
-    '''public PingIntegrationTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns PingIntegrationTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def pingServer():
-    '''public void pingServer()
+    '''returns None\n\n
+    pingServer()\n
     '''
 def pingAsync():
-    '''public void pingAsync()
+    '''returns None\n\n
+    pingAsync()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

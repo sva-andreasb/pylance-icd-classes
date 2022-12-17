@@ -1,10 +1,13 @@
-def Transcript():
-    '''public Transcript(final String sessionID)
-    public Transcript(final String sessionID, final List<Stanza> packets)
+def ():
+    '''returns Transcript\n\n
+    (final String sessionID)\n
+    (final String sessionID, final List<Stanza> packets)\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def getPackets():
-    '''public List<Stanza> getPackets()
+    '''returns List<Stanza>\n\n
+    getPackets()\n
     '''

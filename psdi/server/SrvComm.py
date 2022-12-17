@@ -1,83 +1,106 @@
-def SrvComm():
-    '''public SrvComm(final MXServer mxServer)
-    public SrvComm()
+def ():
+    '''returns SrvComm\n\n
+    (final MXServer mxServer)\n
+    ()\n
     '''
 def checkMemory():
-    '''public String checkMemory()
+    '''returns String\n\n
+    checkMemory()\n
     '''
 def shutDown():
-    '''public void shutDown()
-    public void shutDown(final String serviceType)
+    '''returns None\n\n
+    shutDown()\n
+    shutDown(final String serviceType)\n
     '''
 def reloadDBConnections():
-    '''public Date reloadDBConnections()
+    '''returns Date\n\n
+    reloadDBConnections()\n
     '''
 def restartRegistry():
-    '''public Date restartRegistry()
+    '''returns Date\n\n
+    restartRegistry()\n
     '''
 def enableService():
-    '''public void enableService(final String module)
+    '''returns None\n\n
+    enableService(final String module)\n
     '''
 def disableService():
-    '''public void disableService(final String module)
+    '''returns None\n\n
+    disableService(final String module)\n
     '''
 def setLoggerLevel():
-    '''public void setLoggerLevel(final String nameValue)
+    '''returns None\n\n
+    setLoggerLevel(final String nameValue)\n
     '''
 def mboCount():
-    '''public void mboCount(final boolean on)
+    '''returns None\n\n
+    mboCount(final boolean on)\n
     '''
 def getRemoteUsersSize():
-    '''public int getRemoteUsersSize()
+    '''returns int\n\n
+    getRemoteUsersSize()\n
     '''
 def getDBConnTotal():
-    '''public int getDBConnTotal()
+    '''returns int\n\n
+    getDBConnTotal()\n
     '''
 def getDBConnUsed():
-    '''public int getDBConnUsed()
+    '''returns int\n\n
+    getDBConnUsed()\n
     '''
 def getDBConnFree():
-    '''public int getDBConnFree()
-    '''
-def main():
-    '''public static void main(final String[] argv)
+    '''returns int\n\n
+    getDBConnFree()\n
     '''
 def cmd():
-    '''public void cmd(final String[] argv)
+    '''returns None\n\n
+    cmd(final String[] argv)\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def serviceOn():
-    '''public void serviceOn(final String arg)
+    '''returns None\n\n
+    serviceOn(final String arg)\n
     '''
 def serviceOff():
-    '''public void serviceOff(final String arg)
+    '''returns None\n\n
+    serviceOff(final String arg)\n
     '''
 def logger():
-    '''public void logger(final String arg)
+    '''returns None\n\n
+    logger(final String arg)\n
     '''
 def mboCountOn():
-    '''public void mboCountOn()
+    '''returns None\n\n
+    mboCountOn()\n
     '''
 def mboCountOff():
-    '''public void mboCountOff()
+    '''returns None\n\n
+    mboCountOff()\n
     '''
 def printUsage():
-    '''public void printUsage()
+    '''returns None\n\n
+    printUsage()\n
     '''
 def getMemory():
-    '''public String[] getMemory()
+    '''returns String[]\n\n
+    getMemory()\n
     '''
 def getFreeMemory():
-    '''public String[] getFreeMemory()
+    '''returns String[]\n\n
+    getFreeMemory()\n
     '''
 def getRuntimeManagedBean():
-    '''public RuntimeMXBean getRuntimeManagedBean()
+    '''returns RuntimeMXBean\n\n
+    getRuntimeManagedBean()\n
     '''
 def getHeapUsage():
-    '''public String[] getHeapUsage()
+    '''returns String[]\n\n
+    getHeapUsage()\n
     '''
 def getGarbageCollectors():
-    '''public Vector getGarbageCollectors()
+    '''returns Vector\n\n
+    getGarbageCollectors()\n
     '''

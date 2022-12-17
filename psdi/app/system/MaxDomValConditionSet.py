@@ -1,3 +1,4 @@
-def MaxDomValConditionSet():
-    '''public MaxDomValConditionSet(final MboServerInterface ms)
+def ():
+    '''returns MaxDomValConditionSet\n\n
+    (final MboServerInterface ms)\n
     '''

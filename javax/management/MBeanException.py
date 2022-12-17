@@ -1,10 +1,13 @@
 def getTargetException():
-    '''public Exception getTargetException()
+    '''returns Exception\n\n
+    getTargetException()\n
     '''
-def MBeanException():
-    '''public MBeanException(final Exception exception)
-    public MBeanException(final Exception exception, final String s)
+def ():
+    '''returns MBeanException\n\n
+    (final Exception exception)\n
+    (final Exception exception, final String s)\n
     '''
 def getCause():
-    '''public Throwable getCause()
+    '''returns Throwable\n\n
+    getCause()\n
     '''

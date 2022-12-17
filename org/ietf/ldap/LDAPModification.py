@@ -1,12 +1,15 @@
 ADD = "int  0"
 DELETE = "int  1"
 REPLACE = "int  2"
-def LDAPModification():
-    '''public LDAPModification(final int n, final LDAPAttribute ldapAttribute)
+def ():
+    '''returns LDAPModification\n\n
+    (final int n, final LDAPAttribute ldapAttribute)\n
     '''
 def getAttribute():
-    '''public LDAPAttribute getAttribute()
+    '''returns LDAPAttribute\n\n
+    getAttribute()\n
     '''
 def getOp():
-    '''public int getOp()
+    '''returns int\n\n
+    getOp()\n
     '''

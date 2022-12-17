@@ -1,19 +1,25 @@
-def MXSerializationHelper():
-    '''public MXSerializationHelper(final UserInfo userInfo)
-    public MXSerializationHelper(final Supplier<UserInfo> userInfo)
+def ():
+    '''returns MXSerializationHelper\n\n
+    (final UserInfo userInfo)\n
+    (final Supplier<UserInfo> userInfo)\n
     '''
 def getUserTimeZone():
-    '''public TimeZone getUserTimeZone()
+    '''returns TimeZone\n\n
+    getUserTimeZone()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
+    '''returns UserInfo\n\n
+    getUserInfo()\n
     '''
 def isSerializable():
-    '''public boolean isSerializable(final String field, final Object val)
+    '''returns boolean\n\n
+    isSerializable(final String field, final Object val)\n
     '''
 def isModelRefresh():
-    '''public boolean isModelRefresh()
+    '''returns boolean\n\n
+    isModelRefresh()\n
     '''
 def setModelRefresh():
-    '''public void setModelRefresh(final boolean modelRefresh)
+    '''returns None\n\n
+    setModelRefresh(final boolean modelRefresh)\n
     '''

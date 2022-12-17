@@ -1,72 +1,94 @@
-def OMXMLReader():
-    '''public OMXMLReader(final OMElement element)
+def ():
+    '''returns OMXMLReader\n\n
+    (final OMElement element)\n
     '''
 def getContentHandler():
-    '''public ContentHandler getContentHandler()
+    '''returns ContentHandler\n\n
+    getContentHandler()\n
     '''
 def setContentHandler():
-    '''public void setContentHandler(final ContentHandler contentHandler)
+    '''returns None\n\n
+    setContentHandler(final ContentHandler contentHandler)\n
     '''
 def getDTDHandler():
-    '''public DTDHandler getDTDHandler()
+    '''returns DTDHandler\n\n
+    getDTDHandler()\n
     '''
 def setDTDHandler():
-    '''public void setDTDHandler(final DTDHandler dtdHandler)
+    '''returns None\n\n
+    setDTDHandler(final DTDHandler dtdHandler)\n
     '''
 def getEntityResolver():
-    '''public EntityResolver getEntityResolver()
+    '''returns EntityResolver\n\n
+    getEntityResolver()\n
     '''
 def setEntityResolver():
-    '''public void setEntityResolver(final EntityResolver entityResolver)
+    '''returns None\n\n
+    setEntityResolver(final EntityResolver entityResolver)\n
     '''
 def getErrorHandler():
-    '''public ErrorHandler getErrorHandler()
+    '''returns ErrorHandler\n\n
+    getErrorHandler()\n
     '''
 def setErrorHandler():
-    '''public void setErrorHandler(final ErrorHandler errorHandler)
+    '''returns None\n\n
+    setErrorHandler(final ErrorHandler errorHandler)\n
     '''
 def getFeature():
-    '''public boolean getFeature(final String name)
+    '''returns boolean\n\n
+    getFeature(final String name)\n
     '''
 def setFeature():
-    '''public void setFeature(final String name, final boolean value)
+    '''returns None\n\n
+    setFeature(final String name, final boolean value)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String name)
+    '''returns Object\n\n
+    getProperty(final String name)\n
     '''
 def setProperty():
-    '''public void setProperty(final String name, final Object value)
+    '''returns None\n\n
+    setProperty(final String name, final Object value)\n
     '''
 def parse():
-    '''public void parse(final InputSource input)
-    public void parse(final String systemId)
+    '''returns None\n\n
+    parse(final InputSource input)\n
+    parse(final String systemId)\n
     '''
 def setAttributes():
-    '''public void setAttributes(final OMElement element)
+    '''returns None\n\n
+    setAttributes(final OMElement element)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getIndex():
-    '''public int getIndex(final String qName)
-    public int getIndex(final String uri, final String localName)
+    '''returns int\n\n
+    getIndex(final String qName)\n
+    getIndex(final String uri, final String localName)\n
     '''
 def getLocalName():
-    '''public String getLocalName(final int index)
+    '''returns String\n\n
+    getLocalName(final int index)\n
     '''
 def getQName():
-    '''public String getQName(final int index)
+    '''returns String\n\n
+    getQName(final int index)\n
     '''
 def getType():
-    '''public String getType(final int index)
-    public String getType(final String qName)
-    public String getType(final String uri, final String localName)
+    '''returns String\n\n
+    getType(final int index)\n
+    getType(final String qName)\n
+    getType(final String uri, final String localName)\n
     '''
 def getURI():
-    '''public String getURI(final int index)
+    '''returns String\n\n
+    getURI(final int index)\n
     '''
 def getValue():
-    '''public String getValue(final int index)
-    public String getValue(final String qName)
-    public String getValue(final String uri, final String localName)
+    '''returns String\n\n
+    getValue(final int index)\n
+    getValue(final String qName)\n
+    getValue(final String uri, final String localName)\n
     '''

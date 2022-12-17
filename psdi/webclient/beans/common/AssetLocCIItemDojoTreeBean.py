@@ -1,9 +1,12 @@
-def AssetLocCIItemDojoTreeBean():
-    '''public AssetLocCIItemDojoTreeBean()
+def ():
+    '''returns AssetLocCIItemDojoTreeBean\n\n
+    ()\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''

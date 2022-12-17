@@ -1,13 +1,17 @@
-def NodeListIterator():
-    '''public NodeListIterator(final Node node)
-    public NodeListIterator(final NodeList nodeList)
+def ():
+    '''returns NodeListIterator\n\n
+    (final Node node)\n
+    (final NodeList nodeList)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Node next()
+    '''returns Node\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

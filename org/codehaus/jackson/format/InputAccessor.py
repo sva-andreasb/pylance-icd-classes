@@ -1,16 +1,21 @@
-def Std():
-    '''public Std(final InputStream in, final byte[] buffer)
-    public Std(final byte[] inputDocument)
+def ():
+    '''returns Std\n\n
+    (final InputStream in, final byte[] buffer)\n
+    (final byte[] inputDocument)\n
     '''
 def hasMoreBytes():
-    '''public boolean hasMoreBytes()
+    '''returns boolean\n\n
+    hasMoreBytes()\n
     '''
 def nextByte():
-    '''public byte nextByte()
+    '''returns byte\n\n
+    nextByte()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def createMatcher():
-    '''public DataFormatMatcher createMatcher(final JsonFactory match, final MatchStrength matchStrength)
+    '''returns DataFormatMatcher\n\n
+    createMatcher(final JsonFactory match, final MatchStrength matchStrength)\n
     '''

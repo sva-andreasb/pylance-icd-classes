@@ -1,77 +1,98 @@
-def IdentityListKeyImpl():
-    '''public IdentityListKeyImpl()
+def ():
+    '''returns IdentityListKeyImpl\n\n
+    ()\n
     '''
 def add():
-    '''public boolean add(final Identity identity)
-    public void add(final int index, final Identity identity)
+    '''returns None\n\n
+    add(final Identity identity)\n
+    add(final int index, final Identity identity)\n
     '''
 def addAll():
-    '''public boolean addAll(final Collection<? extends Identity> identities)
-    public boolean addAll(final int index, final Collection<? extends Identity> identities)
+    '''returns boolean\n\n
+    addAll(final Collection<? extends Identity> identities)\n
+    addAll(final int index, final Collection<? extends Identity> identities)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def contains():
-    '''public boolean contains(final Identity identity)
-    public boolean contains(final Object identity)
+    '''returns boolean\n\n
+    contains(final Identity identity)\n
+    contains(final Object identity)\n
     '''
 def containsAll():
-    '''public boolean containsAll(final Collection<?> identities)
+    '''returns boolean\n\n
+    containsAll(final Collection<?> identities)\n
     '''
 def equals():
-    '''public boolean equals(final IdentityListKey ilk)
-    public boolean equals(final Object ilk)
+    '''returns boolean\n\n
+    equals(final IdentityListKey ilk)\n
+    equals(final Object ilk)\n
     '''
 def get():
-    '''public Identity get(final int index)
+    '''returns Identity\n\n
+    get(final int index)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def indexOf():
-    '''public int indexOf(final Identity identity)
-    public int indexOf(final Object identity)
+    '''returns int\n\n
+    indexOf(final Identity identity)\n
+    indexOf(final Object identity)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def iterator():
-    '''public Iterator<Identity> iterator()
+    '''returns Iterator<Identity>\n\n
+    iterator()\n
     '''
 def lastIndexOf():
-    '''public int lastIndexOf(final Identity identity)
-    public int lastIndexOf(final Object identity)
+    '''returns int\n\n
+    lastIndexOf(final Identity identity)\n
+    lastIndexOf(final Object identity)\n
     '''
 def listIterator():
-    '''public ListIterator<Identity> listIterator()
-    public ListIterator<Identity> listIterator(final int index)
+    '''returns ListIterator<Identity>\n\n
+    listIterator()\n
+    listIterator(final int index)\n
     '''
 def remove():
-    '''public Identity remove(final int index)
-    public boolean remove(final Identity identity)
-    public boolean remove(final Object identity)
+    '''returns boolean\n\n
+    remove(final int index)\n
+    remove(final Identity identity)\n
+    remove(final Object identity)\n
     '''
 def removeAll():
-    '''public boolean removeAll(final Collection<?> identities)
+    '''returns boolean\n\n
+    removeAll(final Collection<?> identities)\n
     '''
 def retainAll():
-    '''public boolean retainAll(final Collection<?> identities)
+    '''returns boolean\n\n
+    retainAll(final Collection<?> identities)\n
     '''
 def set():
-    '''public Identity set(final int index, final Identity identity)
+    '''returns Identity\n\n
+    set(final int index, final Identity identity)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def subList():
-    '''public List<Identity> subList(final int fromIndex, final int toIndex)
+    '''returns List<Identity>\n\n
+    subList(final int fromIndex, final int toIndex)\n
     '''
 def toArray():
-    '''public Identity[] toArray()
-    public Identity[] toArray(final Identity[] identities)
-    public <T> T[] toArray(final T[] identities)
+    '''returns Identity[]\n\n
+    toArray()\n
+    toArray(final Identity[] identities)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

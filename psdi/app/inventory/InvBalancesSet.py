@@ -1,39 +1,48 @@
-def InvBalancesSet():
-    '''public InvBalancesSet(final MboServerInterface ms)
+def ():
+    '''returns InvBalancesSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def adjustCurrentBalance():
-    '''public void adjustCurrentBalance()
+    '''returns None\n\n
+    adjustCurrentBalance()\n
     '''
 def increaseErrorCount():
-    '''public void increaseErrorCount()
+    '''returns None\n\n
+    increaseErrorCount()\n
     '''
 def totalCurBalErrors():
-    '''public void totalCurBalErrors()
+    '''returns None\n\n
+    totalCurBalErrors()\n
     '''
 def adjustPhysicalCount():
-    '''public void adjustPhysicalCount()
+    '''returns None\n\n
+    adjustPhysicalCount()\n
     '''
 def totalPhyscntErrors():
-    '''public void totalPhyscntErrors()
+    '''returns None\n\n
+    totalPhyscntErrors()\n
     '''
 def checkSpecifyCost():
-    '''public boolean checkSpecifyCost()
+    '''returns boolean\n\n
+    checkSpecifyCost()\n
     '''
 def checkLifoFifoCostType():
-    '''public boolean checkLifoFifoCostType()
-    '''
-def getInvBalanceMap():
-    '''public HashMap<String, Vector<MboRemote>> getInvBalanceMap(final boolean isreconcile)
+    '''returns boolean\n\n
+    checkLifoFifoCostType()\n
     '''
 def getInvBalanceVector():
-    '''public Vector<MboRemote> getInvBalanceVector(final boolean isreconcile)
+    '''returns Vector<MboRemote>\n\n
+    getInvBalanceVector(final boolean isreconcile)\n
     '''
 def connectInventoryPhysCntDate():
-    '''public void connectInventoryPhysCntDate(final MboRemote inventory)
+    '''returns None\n\n
+    connectInventoryPhysCntDate(final MboRemote inventory)\n
     '''
 def getPhysCntInventory():
-    '''public MboRemote getPhysCntInventory()
+    '''returns MboRemote\n\n
+    getPhysCntInventory()\n
     '''

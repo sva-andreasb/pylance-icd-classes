@@ -1,6 +1,8 @@
-def OrganizerUpdate():
-    '''public OrganizerUpdate(final Organizer organizer)
+def ():
+    '''returns OrganizerUpdate\n\n
+    (final Organizer organizer)\n
     '''
 def transform():
-    '''public Component transform(final Component object)
+    '''returns Component\n\n
+    transform(final Component object)\n
     '''

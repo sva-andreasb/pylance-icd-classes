@@ -1,13 +1,13 @@
-def LoggingInputStream():
-    '''public LoggingInputStream(final InputStream inputStream, final Logger logger, final Level loggingLevel, final int contentLoggingLimit)
+def ():
+    '''returns LoggingInputStream\n\n
+    (final InputStream inputStream, final Logger logger, final Level loggingLevel, final int contentLoggingLimit)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''
 def close():
-    '''public void close()
-    '''
-def getLogStream():
-    '''public final LoggingByteArrayOutputStream getLogStream()
+    '''returns None\n\n
+    close()\n
     '''

@@ -1,6 +1,8 @@
-def FldRouteStopJPAssets():
-    '''public FldRouteStopJPAssets(final MboValue mbv)
+def ():
+    '''returns FldRouteStopJPAssets\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

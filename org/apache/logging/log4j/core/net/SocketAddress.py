@@ -1,30 +1,32 @@
-def getLoopback():
-    '''public static SocketAddress getLoopback()
-    '''
 def getSocketAddress():
-    '''public InetSocketAddress getSocketAddress()
+    '''returns InetSocketAddress\n\n
+    getSocketAddress()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getAddress():
-    '''public InetAddress getAddress()
+    '''returns InetAddress\n\n
+    getAddress()\n
     '''
 def getHostName():
-    '''public String getHostName()
-    '''
-def newBuilder():
-    '''public static Builder newBuilder()
+    '''returns String\n\n
+    getHostName()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setHost():
-    '''public Builder setHost(final InetAddress host)
+    '''returns Builder\n\n
+    setHost(final InetAddress host)\n
     '''
 def setPort():
-    '''public Builder setPort(final int port)
+    '''returns Builder\n\n
+    setPort(final int port)\n
     '''
 def build():
-    '''public SocketAddress build()
+    '''returns SocketAddress\n\n
+    build()\n
     '''

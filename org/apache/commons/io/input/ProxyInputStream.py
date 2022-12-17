@@ -1,26 +1,26 @@
-def ProxyInputStream():
-    '''public ProxyInputStream(final InputStream proxy)
+def ():
+    '''returns ProxyInputStream\n\n
+    (final InputStream proxy)\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] bts)
-    public int read(final byte[] bts, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] bts)\n
+    read(final byte[] bts, final int off, final int len)\n
     '''
 def skip():
-    '''public long skip(final long ln)
+    '''returns long\n\n
+    skip(final long ln)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def close():
-    '''public void close()
-    '''
-def mark():
-    '''public synchronized void mark(final int readlimit)
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns None\n\n
+    close()\n
     '''
 def markSupported():
-    '''public boolean markSupported()
+    '''returns boolean\n\n
+    markSupported()\n
     '''

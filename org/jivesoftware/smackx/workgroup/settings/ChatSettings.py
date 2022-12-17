@@ -3,28 +3,36 @@ TEXT_SETTINGS = "int  1"
 BOT_SETTINGS = "int  2"
 ELEMENT_NAME = "String  \"chat-settings\""
 NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
-def ChatSettings():
-    '''public ChatSettings()
-    public ChatSettings(final String key)
+def ():
+    '''returns ChatSettings\n\n
+    ()\n
+    (final String key)\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def setType():
-    '''public void setType(final int type)
+    '''returns None\n\n
+    setType(final int type)\n
     '''
 def addSetting():
-    '''public void addSetting(final ChatSetting setting)
+    '''returns None\n\n
+    addSetting(final ChatSetting setting)\n
     '''
 def getSettings():
-    '''public Collection<ChatSetting> getSettings()
+    '''returns Collection<ChatSetting>\n\n
+    getSettings()\n
     '''
 def getChatSetting():
-    '''public ChatSetting getChatSetting(final String key)
+    '''returns ChatSetting\n\n
+    getChatSetting(final String key)\n
     '''
 def getFirstEntry():
-    '''public ChatSetting getFirstEntry()
+    '''returns ChatSetting\n\n
+    getFirstEntry()\n
     '''
 def parse():
-    '''public ChatSettings parse(final XmlPullParser parser, final int initialDepth)
+    '''returns ChatSettings\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

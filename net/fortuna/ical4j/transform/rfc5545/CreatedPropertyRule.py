@@ -1,6 +1,8 @@
 def applyTo():
-    '''public void applyTo(final Created created)
+    '''returns None\n\n
+    applyTo(final Created created)\n
     '''
 def getSupportedType():
-    '''public Class<Created> getSupportedType()
+    '''returns Class<Created>\n\n
+    getSupportedType()\n
     '''

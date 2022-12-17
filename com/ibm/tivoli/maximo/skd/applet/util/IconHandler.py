@@ -1,31 +1,33 @@
-def IconHandler():
-    '''public IconHandler()
-    public IconHandler(final PropertyResourceBundle resources)
+def ():
+    '''returns IconHandler\n\n
+    ()\n
+    (final PropertyResourceBundle resources)\n
     '''
 def loadIconById():
-    '''public Icon loadIconById(final String id)
+    '''returns Icon\n\n
+    loadIconById(final String id)\n
     '''
 def loadIconByName():
-    '''public Icon loadIconByName(final String name)
+    '''returns Icon\n\n
+    loadIconByName(final String name)\n
     '''
 def getGrayIcon():
-    '''public Icon getGrayIcon(final Icon icon)
+    '''returns Icon\n\n
+    getGrayIcon(final Icon icon)\n
     '''
 def buildCursorByName():
-    '''public Cursor buildCursorByName(final String name, final Point hotspot, final int scale)
-    '''
-def setDefaultIconHandler():
-    '''public static void setDefaultIconHandler(final IconHandler defaultIconHandler)
-    '''
-def getDefaultIconHandler():
-    '''public static IconHandler getDefaultIconHandler()
+    '''returns Cursor\n\n
+    buildCursorByName(final String name, final Point hotspot, final int scale)\n
     '''
 def setResources():
-    '''public void setResources(final PropertyResourceBundle resources)
+    '''returns None\n\n
+    setResources(final PropertyResourceBundle resources)\n
     '''
 def setDebug():
-    '''public void setDebug(final boolean debug)
+    '''returns None\n\n
+    setDebug(final boolean debug)\n
     '''
 def setImageFolder():
-    '''public void setImageFolder(final String imageFolder)
+    '''returns None\n\n
+    setImageFolder(final String imageFolder)\n
     '''

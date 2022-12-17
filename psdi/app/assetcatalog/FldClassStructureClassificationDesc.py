@@ -1,6 +1,8 @@
-def FldClassStructureClassificationDesc():
-    '''public FldClassStructureClassificationDesc(final MboValue mbv)
+def ():
+    '''returns FldClassStructureClassificationDesc\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

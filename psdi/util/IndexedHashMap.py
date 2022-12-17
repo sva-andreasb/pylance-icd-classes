@@ -1,12 +1,16 @@
-def IndexedHashMap():
-    '''public IndexedHashMap()
+def ():
+    '''returns IndexedHashMap\n\n
+    ()\n
     '''
 def put():
-    '''public V put(final I idx, final K key, final V value)
+    '''returns V\n\n
+    put(final I idx, final K key, final V value)\n
     '''
 def getIndexed():
-    '''public V getIndexed(final I idx)
+    '''returns V\n\n
+    getIndexed(final I idx)\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''

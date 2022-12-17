@@ -1,3 +1,4 @@
-def CommonWOSRSet():
-    '''public CommonWOSRSet(final MboServerInterface ms)
+def ():
+    '''returns CommonWOSRSet\n\n
+    (final MboServerInterface ms)\n
     '''

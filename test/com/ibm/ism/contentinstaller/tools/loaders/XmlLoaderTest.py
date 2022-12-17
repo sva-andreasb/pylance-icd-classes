@@ -1,3 +1,4 @@
 def testLoadContent():
-    '''public void testLoadContent()
+    '''returns None\n\n
+    testLoadContent()\n
     '''

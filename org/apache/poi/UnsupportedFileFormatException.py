@@ -1,3 +1,4 @@
-def UnsupportedFileFormatException():
-    '''public UnsupportedFileFormatException(final String s)
+def ():
+    '''returns UnsupportedFileFormatException\n\n
+    (final String s)\n
     '''

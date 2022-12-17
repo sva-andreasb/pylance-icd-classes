@@ -4,36 +4,46 @@ TRANSPORT_HTTP = "String  \"http://schemas.xmlsoap.org/soap/http\""
 STYLE_DOCUMENT = "String  \"document\""
 USE_LITERAL = "String  \"literal\""
 WSDLDIR = "String  \"wsdl\""
-def WSDLGenerator():
-    '''public WSDLGenerator(final String serviceName)
-    public WSDLGenerator(final String serviceName, final String serviceDesc, final String serviceLongDesc)
-    public WSDLGenerator(final String serviceName, final String serviceDesc, final String serviceLongDesc, final String soapVersion)
-    public WSDLGenerator(final WSRegistryInfo wsRegInfo)
+def ():
+    '''returns WSDLGenerator\n\n
+    (final String serviceName)\n
+    (final String serviceName, final String serviceDesc, final String serviceLongDesc)\n
+    (final String serviceName, final String serviceDesc, final String serviceLongDesc, final String soapVersion)\n
+    (final WSRegistryInfo wsRegInfo)\n
     '''
 def getPortName():
-    '''public QName getPortName(final boolean soap12)
+    '''returns QName\n\n
+    getPortName(final boolean soap12)\n
     '''
 def getBindingName():
-    '''public String getBindingName(final boolean soap12)
+    '''returns String\n\n
+    getBindingName(final boolean soap12)\n
     '''
 def getServiceDescription():
-    '''public String getServiceDescription()
+    '''returns String\n\n
+    getServiceDescription()\n
     '''
 def getWsdlFileName():
-    '''public String getWsdlFileName()
+    '''returns String\n\n
+    getWsdlFileName()\n
     '''
 def getWsdlNSUri():
-    '''public String getWsdlNSUri()
+    '''returns String\n\n
+    getWsdlNSUri()\n
     '''
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def getWsdlUrl():
-    '''public String getWsdlUrl()
+    '''returns String\n\n
+    getWsdlUrl()\n
     '''
 def getSoapAddressUrl():
-    '''public String getSoapAddressUrl()
+    '''returns String\n\n
+    getSoapAddressUrl()\n
     '''
 def isWsdlGenerated():
-    '''public boolean isWsdlGenerated()
+    '''returns boolean\n\n
+    isWsdlGenerated()\n
     '''

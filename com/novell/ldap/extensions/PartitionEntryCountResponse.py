@@ -1,6 +1,8 @@
-def PartitionEntryCountResponse():
-    '''public PartitionEntryCountResponse(final RfcLDAPMessage rfcLDAPMessage)
+def ():
+    '''returns PartitionEntryCountResponse\n\n
+    (final RfcLDAPMessage rfcLDAPMessage)\n
     '''
 def getCount():
-    '''public int getCount()
+    '''returns int\n\n
+    getCount()\n
     '''

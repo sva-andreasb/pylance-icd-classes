@@ -1,18 +1,24 @@
-def AppRefException():
-    '''public AppRefException(final List olist, final Hashtable alist)
+def ():
+    '''returns AppRefException\n\n
+    (final List olist, final Hashtable alist)\n
     '''
 def getSyntaxError():
-    '''public String getSyntaxError()
+    '''returns String\n\n
+    getSyntaxError()\n
     '''
 def getObjectList():
-    '''public List getObjectList()
+    '''returns List\n\n
+    getObjectList()\n
     '''
 def getObjectListString():
-    '''public String getObjectListString()
+    '''returns String\n\n
+    getObjectListString()\n
     '''
 def getAppList():
-    '''public Hashtable getAppList()
+    '''returns Hashtable\n\n
+    getAppList()\n
     '''
 def getAppListString():
-    '''public String getAppListString()
+    '''returns String\n\n
+    getAppListString()\n
     '''

@@ -1,9 +1,12 @@
 def select_tools_mu():
-    '''public int select_tools_mu()
+    '''returns int\n\n
+    select_tools_mu()\n
     '''
 def getNoChargeFieldName():
-    '''public String getNoChargeFieldName()
+    '''returns String\n\n
+    getNoChargeFieldName()\n
     '''
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''

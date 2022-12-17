@@ -1,4 +1,5 @@
-def MalformedChunkCodingException():
-    '''public MalformedChunkCodingException()
-    public MalformedChunkCodingException(final String message)
+def ():
+    '''returns MalformedChunkCodingException\n\n
+    ()\n
+    (final String message)\n
     '''

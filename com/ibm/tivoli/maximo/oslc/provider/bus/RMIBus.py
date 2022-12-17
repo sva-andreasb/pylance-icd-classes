@@ -1,19 +1,25 @@
 MEMBER_CONTEXT = "String  \"members\""
-def RMIBus():
-    '''public RMIBus()
+def ():
+    '''returns RMIBus\n\n
+    ()\n
     '''
 def getResource():
-    '''public OslcResourceResponse getResource(final String requestPath, final OslcRequest request)
+    '''returns OslcResourceResponse\n\n
+    getResource(final String requestPath, final OslcRequest request)\n
     '''
 def getDBInfo():
-    '''public BusResource getDBInfo()
+    '''returns BusResource\n\n
+    getDBInfo()\n
     '''
 def getMembers():
-    '''public BusResourceCollection getMembers()
+    '''returns BusResourceCollection\n\n
+    getMembers()\n
     '''
 def isThisServer():
-    '''public boolean isThisServer(final String serverHost, final String serverName)
+    '''returns boolean\n\n
+    isThisServer(final String serverHost, final String serverName)\n
     '''
 def crawlToMember():
-    '''public BusMemberServiceRemote crawlToMember(final String memberId)
+    '''returns BusMemberServiceRemote\n\n
+    crawlToMember(final String memberId)\n
     '''

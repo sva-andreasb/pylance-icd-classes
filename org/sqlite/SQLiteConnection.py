@@ -1,68 +1,90 @@
-def SQLiteConnection():
-    '''public SQLiteConnection(final DB db)
-    public SQLiteConnection(final String url, final String fileName)
-    public SQLiteConnection(final String url, final String fileName, final Properties prop)
+def ():
+    '''returns SQLiteConnection\n\n
+    (final DB db)\n
+    (final String url, final String fileName)\n
+    (final String url, final String fileName, final Properties prop)\n
     '''
 def getConnectionConfig():
-    '''public SQLiteConnectionConfig getConnectionConfig()
+    '''returns SQLiteConnectionConfig\n\n
+    getConnectionConfig()\n
     '''
 def getSQLiteDatabaseMetaData():
-    '''public CoreDatabaseMetaData getSQLiteDatabaseMetaData()
+    '''returns CoreDatabaseMetaData\n\n
+    getSQLiteDatabaseMetaData()\n
     '''
 def getMetaData():
-    '''public DatabaseMetaData getMetaData()
+    '''returns DatabaseMetaData\n\n
+    getMetaData()\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def setSchema():
-    '''public void setSchema(final String schema)
+    '''returns None\n\n
+    setSchema(final String schema)\n
     '''
 def getSchema():
-    '''public String getSchema()
+    '''returns String\n\n
+    getSchema()\n
     '''
 def abort():
-    '''public void abort(final Executor executor)
+    '''returns None\n\n
+    abort(final Executor executor)\n
     '''
 def setNetworkTimeout():
-    '''public void setNetworkTimeout(final Executor executor, final int milliseconds)
+    '''returns None\n\n
+    setNetworkTimeout(final Executor executor, final int milliseconds)\n
     '''
 def getNetworkTimeout():
-    '''public int getNetworkTimeout()
+    '''returns int\n\n
+    getNetworkTimeout()\n
     '''
 def getTransactionIsolation():
-    '''public int getTransactionIsolation()
+    '''returns int\n\n
+    getTransactionIsolation()\n
     '''
 def setTransactionIsolation():
-    '''public void setTransactionIsolation(final int level)
+    '''returns None\n\n
+    setTransactionIsolation(final int level)\n
     '''
 def getDatabase():
-    '''public DB getDatabase()
+    '''returns DB\n\n
+    getDatabase()\n
     '''
 def getAutoCommit():
-    '''public boolean getAutoCommit()
+    '''returns boolean\n\n
+    getAutoCommit()\n
     '''
 def setAutoCommit():
-    '''public void setAutoCommit(final boolean ac)
+    '''returns None\n\n
+    setAutoCommit(final boolean ac)\n
     '''
 def getBusyTimeout():
-    '''public int getBusyTimeout()
+    '''returns int\n\n
+    getBusyTimeout()\n
     '''
 def setBusyTimeout():
-    '''public void setBusyTimeout(final int timeoutMillis)
+    '''returns None\n\n
+    setBusyTimeout(final int timeoutMillis)\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def libversion():
-    '''public String libversion()
+    '''returns String\n\n
+    libversion()\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''
 def rollback():
-    '''public void rollback()
+    '''returns None\n\n
+    rollback()\n
     '''

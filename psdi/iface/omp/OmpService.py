@@ -1,80 +1,100 @@
-def OmpService():
-    '''public OmpService()
-    public OmpService(final MXServer mxServer)
+def ():
+    '''returns OmpService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def getOMPListForLMO():
-    '''public OmpSetRemote getOMPListForLMO(final String ompProductname, final String lmoName, final String lmoNamespace)
+    '''returns OmpSetRemote\n\n
+    getOMPListForLMO(final String ompProductname, final String lmoName, final String lmoNamespace)\n
     '''
 def getOMPListForIM():
-    '''public OmpSetRemote getOMPListForIM(final String imName, final String imVersion)
+    '''returns OmpSetRemote\n\n
+    getOMPListForIM(final String imName, final String imVersion)\n
     '''
 def getLMOListForIM():
-    '''public LMOSetRemote getLMOListForIM(final String imName, final String imVersion)
+    '''returns LMOSetRemote\n\n
+    getLMOListForIM(final String imName, final String imVersion)\n
     '''
 def getPreferredIM():
-    '''public OmpImLmoRelInfo getPreferredIM(final String ompGUID, final String lmoName, final String lmoNamespace)
-    public OmpImLmoRelInfo getPreferredIM(final String ompHostname, final String ompProductname, final String ompManufacturer, final String lmoName, final String lmoNamespace)
+    '''returns OmpImLmoRelInfo\n\n
+    getPreferredIM(final String ompGUID, final String lmoName, final String lmoNamespace)\n
+    getPreferredIM(final String ompHostname, final String ompProductname, final String ompManufacturer, final String lmoName, final String lmoNamespace)\n
     '''
 def getIMListForOMPAndLMO():
-    '''public Collection getIMListForOMPAndLMO(final String ompGUID, final String lmoName, final String lmoNamespace)
-    public Collection getIMListForOMPAndLMO(final String ompHostname, final String ompProductname, final String ompManufacturer, final String lmoName, final String lmoNamespace)
+    '''returns Collection\n\n
+    getIMListForOMPAndLMO(final String ompGUID, final String lmoName, final String lmoNamespace)\n
+    getIMListForOMPAndLMO(final String ompHostname, final String ompProductname, final String ompManufacturer, final String lmoName, final String lmoNamespace)\n
     '''
 def getIMListForOMP():
-    '''public MaxIMSetRemote getIMListForOMP(final String ompGuid)
+    '''returns MaxIMSetRemote\n\n
+    getIMListForOMP(final String ompGuid)\n
     '''
 def getIMListForLMO():
-    '''public MaxIMSetRemote getIMListForLMO(final String lmoName, final String lmoNamespace)
+    '''returns MaxIMSetRemote\n\n
+    getIMListForLMO(final String lmoName, final String lmoNamespace)\n
     '''
 def getIMListForLMOWithOMP():
-    '''public MaxIMSetRemote getIMListForLMOWithOMP(final String lmoName, final String lmoNamespace)
+    '''returns MaxIMSetRemote\n\n
+    getIMListForLMOWithOMP(final String lmoName, final String lmoNamespace)\n
     '''
 def getServiceInvokerListForCIAndLMO():
-    '''public Collection getServiceInvokerListForCIAndLMO(final String ciGUID, final String lmoName, final String lmoNamespace, final UserInfo userInfo)
+    '''returns Collection\n\n
+    getServiceInvokerListForCIAndLMO(final String ciGUID, final String lmoName, final String lmoNamespace, final UserInfo userInfo)\n
     '''
 def getServiceInvoker():
-    '''public Map getServiceInvoker(final String ompGUID, final String lmoName, final String lmoNamespace, final UserInfo userInfo)
-    public Map getServiceInvoker(final OmpImLmoRelRemote ompImLmoRelRemote, final UserInfo userInfo)
-    public Map getServiceInvoker(final String ompGUID, final String imName, final String imVersion, final String lmoName, final String lmoNamespace, final UserInfo userInfo)
-    public Map getServiceInvoker(final OmpImLmoRelInfo ompImLmoRelInfo, final UserInfo userInfo)
+    '''returns Map\n\n
+    getServiceInvoker(final String ompGUID, final String lmoName, final String lmoNamespace, final UserInfo userInfo)\n
+    getServiceInvoker(final OmpImLmoRelRemote ompImLmoRelRemote, final UserInfo userInfo)\n
+    getServiceInvoker(final String ompGUID, final String imName, final String imVersion, final String lmoName, final String lmoNamespace, final UserInfo userInfo)\n
+    getServiceInvoker(final OmpImLmoRelInfo ompImLmoRelInfo, final UserInfo userInfo)\n
     '''
 def getCredentialMapper():
-    '''public BaseCredentialMapper getCredentialMapper(final UserInfo userInfo, final String endPointName)
+    '''returns BaseCredentialMapper\n\n
+    getCredentialMapper(final UserInfo userInfo, final String endPointName)\n
     '''
 def setupEndPoint():
-    '''public Map setupEndPoint(final Map<String, Object> invokerPropMap, final String endPointName, final UserInfo userInfo)
+    '''returns Map\n\n
+    setupEndPoint(final Map<String, Object> invokerPropMap, final String endPointName, final UserInfo userInfo)\n
     '''
 def getLMOsNotAssociatedWithIM():
-    '''public LMOSetRemote getLMOsNotAssociatedWithIM(final MboRemote imMbo)
+    '''returns LMOSetRemote\n\n
+    getLMOsNotAssociatedWithIM(final MboRemote imMbo)\n
     '''
 def getLMOListForOMP():
-    '''public LMOSetRemote getLMOListForOMP(final String ompGuid)
+    '''returns LMOSetRemote\n\n
+    getLMOListForOMP(final String ompGuid)\n
     '''
 def getSourceToken():
-    '''public String getSourceToken(final String ciGUID, final String ompGUID)
-    public String getSourceToken(final String ciGUID, final OmpRemote omp)
-    public String getSourceToken(final ActCIRemote ci, final OmpRemote omp)
+    '''returns String\n\n
+    getSourceToken(final String ciGUID, final String ompGUID)\n
+    getSourceToken(final String ciGUID, final OmpRemote omp)\n
+    getSourceToken(final ActCIRemote ci, final OmpRemote omp)\n
     '''
 def getCIGUIDFromMBO():
-    '''public String getCIGUIDFromMBO(final MboRemote mainMbo)
+    '''returns String\n\n
+    getCIGUIDFromMBO(final MboRemote mainMbo)\n
     '''
 def checkContext():
-    '''public int checkContext(final MaxLaunchEntryInfo entry, final MboRemote mainMbo)
+    '''returns int\n\n
+    checkContext(final MaxLaunchEntryInfo entry, final MboRemote mainMbo)\n
     '''
 def getLaunchEntry():
-    '''public MaxLaunchEntryInfo getLaunchEntry(final String launchEntryName)
+    '''returns MaxLaunchEntryInfo\n\n
+    getLaunchEntry(final String launchEntryName)\n
     '''
 def getURL():
-    '''public String getURL(final String launchEntryName, final OmpRemote omp, final MboRemote mainMbo)
+    '''returns String\n\n
+    getURL(final String launchEntryName, final OmpRemote omp, final MboRemote mainMbo)\n
     '''
 def getOMPList():
-    '''public OmpSetRemote getOMPList(final String launchEntryName, final MboRemote mainMbo)
+    '''returns OmpSetRemote\n\n
+    getOMPList(final String launchEntryName, final MboRemote mainMbo)\n
     '''
 def getLMOsNotAssociatedWithIMAndOmp():
-    '''public LMOSetRemote getLMOsNotAssociatedWithIMAndOmp(final MboRemote ompImRel)
-    '''
-def testCredentialMapper():
-    '''public static void testCredentialMapper()
+    '''returns LMOSetRemote\n\n
+    getLMOsNotAssociatedWithIMAndOmp(final MboRemote ompImRel)\n
     '''
 def test():
-    '''public void test()
+    '''returns None\n\n
+    test()\n
     '''

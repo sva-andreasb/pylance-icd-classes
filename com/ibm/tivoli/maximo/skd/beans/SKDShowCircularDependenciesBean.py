@@ -1,6 +1,4 @@
-def execute():
-    '''public synchronized int execute()
-    '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

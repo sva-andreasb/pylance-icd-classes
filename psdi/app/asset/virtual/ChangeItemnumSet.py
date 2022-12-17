@@ -1,6 +1,8 @@
-def ChangeItemnumSet():
-    '''public ChangeItemnumSet(final MboServerInterface ms)
+def ():
+    '''returns ChangeItemnumSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

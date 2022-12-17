@@ -1,70 +1,84 @@
-def JobRequestBuilderImpl():
-    '''public JobRequestBuilderImpl(final JobClientImpl client)
+def ():
+    '''returns JobRequestBuilderImpl\n\n
+    (final JobClientImpl client)\n
     '''
 def application():
-    '''public JobRequestBuilderImpl application(final String applicationId)
+    '''returns JobRequestBuilderImpl\n\n
+    application(final String applicationId)\n
     '''
 def input():
-    '''public JobRequestBuilderImpl input(final File file)
-    public JobRequestBuilderImpl input(final String name, final File file)
-    public JobRequestBuilderImpl input(final String name, final URL url)
-    public JobRequestBuilderImpl input(final String name, final InputStream stream)
-    public JobRequestBuilderImpl input(final String name, final ObjectMapper mapper, final Object obj)
-    public JobRequestBuilder input(final JobInput input)
+    '''returns JobRequestBuilder\n\n
+    input(final File file)\n
+    input(final String name, final File file)\n
+    input(final String name, final URL url)\n
+    input(final String name, final InputStream stream)\n
+    input(final String name, final ObjectMapper mapper, final Object obj)\n
+    input(final JobInput input)\n
     '''
 def output():
-    '''public JobRequestBuilder output(final File file)
-    public JobRequestBuilder output(final OutputStream stream)
-    public <T> JobRequestBuilder output(final ObjectMapper mapper, final TypeReference<T> type)
-    public <T> JobRequestBuilder output(final ObjectMapper mapper, final Class<T> type)
-    public JobRequestBuilder output(final JobOutput output)
-    public JobRequestBuilder output(final String attid, final File file)
-    public <T> JobRequestBuilder output(final String attid, final ObjectMapper mapper, final Class<T> type)
-    public <T> JobRequestBuilder output(final String attid, final ObjectMapper mapper, final TypeReference<T> type)
-    public JobRequestBuilder output(final String attid, final OutputStream stream)
+    '''returns JobRequestBuilder\n\n
+    output(final File file)\n
+    output(final OutputStream stream)\n
+    output(final JobOutput output)\n
+    output(final String attid, final File file)\n
+    output(final String attid, final OutputStream stream)\n
     '''
 def log():
-    '''public JobRequestBuilder log(final File file)
-    public JobRequestBuilder log(final OutputStream stream)
+    '''returns JobRequestBuilder\n\n
+    log(final File file)\n
+    log(final OutputStream stream)\n
     '''
 def deleteOnCompletion():
-    '''public JobRequestBuilder deleteOnCompletion(final boolean delete)
+    '''returns JobRequestBuilder\n\n
+    deleteOnCompletion(final boolean delete)\n
     '''
 def version():
-    '''public JobRequestBuilderImpl version(final String version)
+    '''returns JobRequestBuilderImpl\n\n
+    version(final String version)\n
     '''
 def parameter():
-    '''public JobRequestBuilderImpl parameter(final String name, final Object value)
+    '''returns JobRequestBuilderImpl\n\n
+    parameter(final String name, final Object value)\n
     '''
 def timeout():
-    '''public JobRequestBuilder timeout(final long timeout, final TimeUnit unit)
+    '''returns JobRequestBuilder\n\n
+    timeout(final long timeout, final TimeUnit unit)\n
     '''
 def build():
-    '''public JobRequest build()
+    '''returns JobRequest\n\n
+    build()\n
     '''
 def execute():
-    '''public Future<JobResponse> execute(final JobExecutor executor)
+    '''returns Future<JobResponse>\n\n
+    execute(final JobExecutor executor)\n
     '''
 def create():
-    '''public Future<JobResponse> create(final JobExecutor executor)
+    '''returns Future<JobResponse>\n\n
+    create(final JobExecutor executor)\n
     '''
 def livelog():
-    '''public JobRequestBuilder livelog(final OutputStream stream)
-    public JobRequestBuilder livelog(final OutputStream stream, final DateFormat format)
+    '''returns JobRequestBuilder\n\n
+    livelog(final OutputStream stream)\n
+    livelog(final OutputStream stream, final DateFormat format)\n
     '''
 def clientName():
-    '''public JobRequestBuilder clientName(final String name)
+    '''returns JobRequestBuilder\n\n
+    clientName(final String name)\n
     '''
 def clientEmail():
-    '''public JobRequestBuilder clientEmail(final String email)
+    '''returns JobRequestBuilder\n\n
+    clientEmail(final String email)\n
     '''
 def copy():
-    '''public JobRequestBuilder copy(final String jobId)
-    public JobRequestBuilder copy(final String jobId, final boolean shallow)
+    '''returns JobRequestBuilder\n\n
+    copy(final String jobId)\n
+    copy(final String jobId, final boolean shallow)\n
     '''
 def recreate():
-    '''public JobRequestBuilder recreate(final String jobId)
+    '''returns JobRequestBuilder\n\n
+    recreate(final String jobId)\n
     '''
 def useBatchSubmitMode():
-    '''public JobRequestBuilder useBatchSubmitMode()
+    '''returns JobRequestBuilder\n\n
+    useBatchSubmitMode()\n
     '''

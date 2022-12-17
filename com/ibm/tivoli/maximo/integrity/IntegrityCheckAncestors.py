@@ -1,12 +1,8 @@
-def IntegrityCheckAncestors():
-    '''public IntegrityCheckAncestors()
-    '''
-def main():
-    '''public static void main(final String[] args)
+def ():
+    '''returns IntegrityCheckAncestors\n\n
+    ()\n
     '''
 def report():
-    '''public void report(final Report report)
-    '''
-def getTimeFileName():
-    '''public static String getTimeFileName(final String prefix)
+    '''returns None\n\n
+    report(final Report report)\n
     '''

@@ -1,4 +1,5 @@
 def getInstance():
-    '''public ICfgConfigurationStep getInstance()
-    public ICfgConfigurationStep getInstance(final ReadWriteConfiguration rc)
+    '''returns ICfgConfigurationStep\n\n
+    getInstance()\n
+    getInstance(final ReadWriteConfiguration rc)\n
     '''

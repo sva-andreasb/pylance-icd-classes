@@ -1,18 +1,24 @@
-def MemberAddress():
-    '''public MemberAddress(final String host, final int port, final int securePort, final int ccPort)
+def ():
+    '''returns MemberAddress\n\n
+    (final String host, final int port, final int securePort, final int ccPort)\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getSSLPort():
-    '''public int getSSLPort()
+    '''returns int\n\n
+    getSSLPort()\n
     '''
 def getSSLCCPort():
-    '''public int getSSLCCPort()
+    '''returns int\n\n
+    getSSLCCPort()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

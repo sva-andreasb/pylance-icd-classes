@@ -1,0 +1,1 @@
+eINSTANCE = "SDOFactory  new SDOFactoryImpl()"

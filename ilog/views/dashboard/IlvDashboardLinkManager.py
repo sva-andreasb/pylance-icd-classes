@@ -1,51 +1,60 @@
-def IlvDashboardLinkManager():
-    '''public IlvDashboardLinkManager(final IlvDashboardEditor a)
+def ():
+    '''returns IlvDashboardLinkManager\n\n
+    (final IlvDashboardEditor a)\n
     '''
 def getEditor():
-    '''public IlvDashboardEditor getEditor()
-    '''
-def getInPorts():
-    '''public static Iterator<IlvGraphic> getInPorts(final IlvDashboardSymbol ilvDashboardSymbol)
-    '''
-def getOutPorts():
-    '''public static Iterator<IlvGraphic> getOutPorts(final IlvDashboardSymbol ilvDashboardSymbol)
+    '''returns IlvDashboardEditor\n\n
+    getEditor()\n
     '''
 def setPortMinSize():
-    '''public void setPortMinSize(final int d)
+    '''returns None\n\n
+    setPortMinSize(final int d)\n
     '''
 def getPortMinSize():
-    '''public int getPortMinSize()
+    '''returns int\n\n
+    getPortMinSize()\n
     '''
 def isIntermediatePointsModeAllowed():
-    '''public boolean isIntermediatePointsModeAllowed()
+    '''returns boolean\n\n
+    isIntermediatePointsModeAllowed()\n
     '''
 def setIntermediatePointsModeAllowed():
-    '''public void setIntermediatePointsModeAllowed(final boolean o)
+    '''returns None\n\n
+    setIntermediatePointsModeAllowed(final boolean o)\n
     '''
 def getInvalidCursor():
-    '''public Cursor getInvalidCursor()
+    '''returns Cursor\n\n
+    getInvalidCursor()\n
     '''
 def setInvalidCursor():
-    '''public void setInvalidCursor(final Cursor p)
+    '''returns None\n\n
+    setInvalidCursor(final Cursor p)\n
     '''
 def getIntermediatePointCursor():
-    '''public Cursor getIntermediatePointCursor()
+    '''returns Cursor\n\n
+    getIntermediatePointCursor()\n
     '''
 def setIntermediatePointCursor():
-    '''public void setIntermediatePointCursor(final Cursor q)
+    '''returns None\n\n
+    setIntermediatePointCursor(final Cursor q)\n
     '''
 def getValidCursor():
-    '''public Cursor getValidCursor()
+    '''returns Cursor\n\n
+    getValidCursor()\n
     '''
 def setValidCursor():
-    '''public void setValidCursor(final Cursor p)
+    '''returns None\n\n
+    setValidCursor(final Cursor p)\n
     '''
 def boundingBox():
-    '''public IlvRect boundingBox(final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    boundingBox(final IlvTransformer ilvTransformer)\n
     '''
 def draw():
-    '''public void draw(final Graphics graphics, final IlvTransformer ilvTransformer)
+    '''returns None\n\n
+    draw(final Graphics graphics, final IlvTransformer ilvTransformer)\n
     '''
 def makeSelection():
-    '''public IlvSelection makeSelection(final IlvGraphic ilvGraphic)
+    '''returns IlvSelection\n\n
+    makeSelection(final IlvGraphic ilvGraphic)\n
     '''

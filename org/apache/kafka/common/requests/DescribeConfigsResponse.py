@@ -1,61 +1,51 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def DescribeConfigsResponse():
-    '''public DescribeConfigsResponse(final int throttleTimeMs, final Map<Resource, Config> configs)
-    public DescribeConfigsResponse(final Struct struct)
-    '''
-def configs():
-    '''public Map<Resource, Config> configs()
+def ():
+    '''returns ConfigSynonym\n\n
+    (final int throttleTimeMs, final Map<Resource, Config> configs)\n
+    (final Struct struct)\n
+    (final ApiError error, final Collection<ConfigEntry> entries)\n
+    (final String name, final String value, final ConfigSource source, final boolean isSensitive, final boolean readOnly, final Collection<ConfigSynonym> synonyms)\n
+    (final String name, final String value, final ConfigSource source)\n
     '''
 def config():
-    '''public Config config(final Resource resource)
+    '''returns Config\n\n
+    config(final Resource resource)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
-    '''
-def parse():
-    '''public static DescribeConfigsResponse parse(final ByteBuffer buffer, final short version)
-    '''
-def Config():
-    '''public Config(final ApiError error, final Collection<ConfigEntry> entries)
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def error():
-    '''public ApiError error()
+    '''returns ApiError\n\n
+    error()\n
     '''
 def entries():
-    '''public Collection<ConfigEntry> entries()
-    '''
-def ConfigEntry():
-    '''public ConfigEntry(final String name, final String value, final ConfigSource source, final boolean isSensitive, final boolean readOnly, final Collection<ConfigSynonym> synonyms)
+    '''returns Collection<ConfigEntry>\n\n
+    entries()\n
     '''
 def name():
-    '''public String name()
-    public String name()
+    '''returns String\n\n
+    name()\n
+    name()\n
     '''
 def value():
-    '''public String value()
-    public String value()
+    '''returns String\n\n
+    value()\n
+    value()\n
     '''
 def isSensitive():
-    '''public boolean isSensitive()
+    '''returns boolean\n\n
+    isSensitive()\n
     '''
 def source():
-    '''public ConfigSource source()
-    public ConfigSource source()
+    '''returns ConfigSource\n\n
+    source()\n
+    source()\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly()
+    '''returns boolean\n\n
+    isReadOnly()\n
     '''
 def synonyms():
-    '''public Collection<ConfigSynonym> synonyms()
-    '''
-def forId():
-    '''public static ConfigSource forId(final byte id)
-    '''
-def ConfigSynonym():
-    '''public ConfigSynonym(final String name, final String value, final ConfigSource source)
+    '''returns Collection<ConfigSynonym>\n\n
+    synonyms()\n
     '''

@@ -1,9 +1,12 @@
 def searchdr():
-    '''public int searchdr()
+    '''returns int\n\n
+    searchdr()\n
     '''
 def cleardr():
-    '''public int cleardr()
+    '''returns int\n\n
+    cleardr()\n
     '''
 def returnMR():
-    '''public int returnMR()
+    '''returns int\n\n
+    returnMR()\n
     '''

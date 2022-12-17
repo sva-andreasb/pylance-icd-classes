@@ -1,15 +1,20 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def applyDefaults():
-    '''public int applyDefaults()
+    '''returns int\n\n
+    applyDefaults()\n
     '''
 def clearDefaults():
-    '''public int clearDefaults()
+    '''returns int\n\n
+    clearDefaults()\n
     '''
 def associateClassification():
-    '''public int associateClassification()
+    '''returns int\n\n
+    associateClassification()\n
     '''

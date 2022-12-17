@@ -1,8 +1,10 @@
 STARTED = "int  1"
 STOPPED = "int  2"
-def AdminAuthzServiceEvent():
-    '''public AdminAuthzServiceEvent(final int state)
+def ():
+    '''returns AdminAuthzServiceEvent\n\n
+    (final int state)\n
     '''
 def getState():
-    '''public int getState()
+    '''returns int\n\n
+    getState()\n
     '''

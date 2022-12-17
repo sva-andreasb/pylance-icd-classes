@@ -1,15 +1,16 @@
 REPLACEMENT = "char  '\ufffd'"
-def Utf8Appendable():
-    '''public Utf8Appendable(final Appendable appendable)
+def ():
+    '''returns NotUtf8Exception\n\n
+    (final Appendable appendable)\n
+    (final String reason)\n
     '''
 def append():
-    '''public void append(final byte b)
-    public void append(final byte[] b, final int offset, final int length)
-    public boolean append(final byte[] b, final int offset, final int length, final int maxChars)
+    '''returns boolean\n\n
+    append(final byte b)\n
+    append(final byte[] b, final int offset, final int length)\n
+    append(final byte[] b, final int offset, final int length, final int maxChars)\n
     '''
 def isUtf8SequenceComplete():
-    '''public boolean isUtf8SequenceComplete()
-    '''
-def NotUtf8Exception():
-    '''public NotUtf8Exception(final String reason)
+    '''returns boolean\n\n
+    isUtf8SequenceComplete()\n
     '''

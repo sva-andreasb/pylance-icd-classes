@@ -1,36 +1,48 @@
-def ComparisonRule():
-    '''public ComparisonRule(final ReconInfo reconInfo, final MboRemote rule)
+def ():
+    '''returns ComparisonRule\n\n
+    (final ReconInfo reconInfo, final MboRemote rule)\n
     '''
 def getCompRuleMbo():
-    '''public MboRemote getCompRuleMbo()
+    '''returns MboRemote\n\n
+    getCompRuleMbo()\n
     '''
 def getAttributesEqualityExpression():
-    '''public ReconCompAttributesEqualityExpression getAttributesEqualityExpression()
+    '''returns ReconCompAttributesEqualityExpression\n\n
+    getAttributesEqualityExpression()\n
     '''
 def getMatchesFoundExpression():
-    '''public ReconCompMatchesFoundExpression getMatchesFoundExpression()
+    '''returns ReconCompMatchesFoundExpression\n\n
+    getMatchesFoundExpression()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def hasAttributesEqualityExpression():
-    '''public boolean hasAttributesEqualityExpression()
+    '''returns boolean\n\n
+    hasAttributesEqualityExpression()\n
     '''
 def hasFilter1():
-    '''public boolean hasFilter1()
+    '''returns boolean\n\n
+    hasFilter1()\n
     '''
 def hasFilter2():
-    '''public boolean hasFilter2()
+    '''returns boolean\n\n
+    hasFilter2()\n
     '''
 def hasMatchesFoundExpression():
-    '''public boolean hasMatchesFoundExpression()
+    '''returns boolean\n\n
+    hasMatchesFoundExpression()\n
     '''
 def getFilterExpression1():
-    '''public ReconCompFilterExpression getFilterExpression1()
+    '''returns ReconCompFilterExpression\n\n
+    getFilterExpression1()\n
     '''
 def getFilterExpression2():
-    '''public ReconCompFilterExpression getFilterExpression2()
+    '''returns ReconCompFilterExpression\n\n
+    getFilterExpression2()\n
     '''
 def getQueries():
-    '''public ComparisonQueryHelper getQueries()
+    '''returns ComparisonQueryHelper\n\n
+    getQueries()\n
     '''

@@ -1,21 +1,20 @@
-def EdirEventSource():
-    '''public EdirEventSource()
+def ():
+    '''returns EdirEventSource\n\n
+    ()\n
     '''
 def removeListener():
-    '''public void removeListener(final LDAPEventListener ldapEventListener)
-    '''
-def registerforEvent():
-    '''public final void registerforEvent(final EdirEventSpecifier[] array, final LDAPConnection ldapConnection, final LDAPEventListener ldapEventListener)
-    '''
-def registerforFilterEvent():
-    '''public final void registerforFilterEvent(final EdirEventSpecifier[] array, final LDAPConnection ldapConnection, final LDAPEventListener ldapEventListener)
+    '''returns None\n\n
+    removeListener(final LDAPEventListener ldapEventListener)\n
     '''
 def ldapEventNotification():
-    '''public void ldapEventNotification(final LDAPEvent ldapEvent)
+    '''returns None\n\n
+    ldapEventNotification(final LDAPEvent ldapEvent)\n
     '''
 def ldapExceptionNotification():
-    '''public void ldapExceptionNotification(final LDAPExceptionEvent ldapExceptionEvent)
+    '''returns None\n\n
+    ldapExceptionNotification(final LDAPExceptionEvent ldapExceptionEvent)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

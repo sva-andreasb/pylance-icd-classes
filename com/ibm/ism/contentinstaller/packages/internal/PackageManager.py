@@ -1,9 +1,12 @@
 def parseSingleImport():
-    '''public RootTag parseSingleImport(final InputStream singleImportStream, final IPackageResolver resolver)
+    '''returns RootTag\n\n
+    parseSingleImport(final InputStream singleImportStream, final IPackageResolver resolver)\n
     '''
 def parsePackageExport():
-    '''public RootTag parsePackageExport(final URI pkgUri, final IPackageResolver resolver)
+    '''returns RootTag\n\n
+    parsePackageExport(final URI pkgUri, final IPackageResolver resolver)\n
     '''
 def parsePackageImport():
-    '''public RootTag parsePackageImport(final URI pkgUri, final IPackageResolver resolver)
+    '''returns RootTag\n\n
+    parsePackageImport(final URI pkgUri, final IPackageResolver resolver)\n
     '''

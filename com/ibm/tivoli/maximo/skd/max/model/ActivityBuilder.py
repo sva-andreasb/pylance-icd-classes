@@ -1,9 +1,12 @@
-def ActivityBuilder():
-    '''public ActivityBuilder(final MXServer mxServer, final boolean adjustActivityTimes)
+def ():
+    '''returns ActivityBuilder\n\n
+    (final MXServer mxServer, final boolean adjustActivityTimes)\n
     '''
 def build():
-    '''public Activity build(final MboRemote projectMbo, final Schedule schedule, final ResultSet resultSet, final Map<String, String> objectColumnsMap, final int dbType)
+    '''returns Activity\n\n
+    build(final MboRemote projectMbo, final Schedule schedule, final ResultSet resultSet, final Map<String, String> objectColumnsMap, final int dbType)\n
     '''
 def saveInitializedActivityChanges():
-    '''public void saveInitializedActivityChanges(final UserInfo userInfo, final MboRemote project, final JSONArray activities)
+    '''returns None\n\n
+    saveInitializedActivityChanges(final UserInfo userInfo, final MboRemote project, final JSONArray activities)\n
     '''

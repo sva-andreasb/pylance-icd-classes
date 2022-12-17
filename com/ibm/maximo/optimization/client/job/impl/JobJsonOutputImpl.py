@@ -1,12 +1,15 @@
-def JobJsonOutputImpl():
-    '''public JobJsonOutputImpl(final ObjectMapper mapper, final TypeReference<T> type)
-    public JobJsonOutputImpl(final ObjectMapper mapper, final Class<T> type)
-    public JobJsonOutputImpl(final String attid, final ObjectMapper mapper, final Class<T> type)
-    public JobJsonOutputImpl(final String attid, final ObjectMapper mapper, final TypeReference<T> type)
+def ():
+    '''returns JobJsonOutputImpl\n\n
+    (final ObjectMapper mapper, final TypeReference<T> type)\n
+    (final ObjectMapper mapper, final Class<T> type)\n
+    (final String attid, final ObjectMapper mapper, final Class<T> type)\n
+    (final String attid, final ObjectMapper mapper, final TypeReference<T> type)\n
     '''
 def getContent():
-    '''public T getContent()
+    '''returns T\n\n
+    getContent()\n
     '''
 def download():
-    '''public void download(final JobClient client, final String jobid)
+    '''returns None\n\n
+    download(final JobClient client, final String jobid)\n
     '''

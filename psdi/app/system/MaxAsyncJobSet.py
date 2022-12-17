@@ -1,3 +1,4 @@
-def MaxAsyncJobSet():
-    '''public MaxAsyncJobSet(final MboServerInterface ms)
+def ():
+    '''returns MaxAsyncJobSet\n\n
+    (final MboServerInterface ms)\n
     '''

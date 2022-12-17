@@ -1,24 +1,32 @@
-def IoTFDeviceMappingInfo():
-    '''public IoTFDeviceMappingInfo(final String meterName, final String feedMappingProp, final String propAggregation, final String groupLevel, final String histQueryName, final String ruleName, final String instanceName)
+def ():
+    '''returns IoTFDeviceMappingInfo\n\n
+    (final String meterName, final String feedMappingProp, final String propAggregation, final String groupLevel, final String histQueryName, final String ruleName, final String instanceName)\n
     '''
 def getMeterName():
-    '''public String getMeterName()
+    '''returns String\n\n
+    getMeterName()\n
     '''
 def getFeedMappingName():
-    '''public String getFeedMappingName()
+    '''returns String\n\n
+    getFeedMappingName()\n
     '''
 def getAggregation():
-    '''public String getAggregation()
+    '''returns String\n\n
+    getAggregation()\n
     '''
 def getGroupLevel():
-    '''public String getGroupLevel()
+    '''returns String\n\n
+    getGroupLevel()\n
     '''
 def getInstanceName():
-    '''public String getInstanceName()
+    '''returns String\n\n
+    getInstanceName()\n
     '''
 def getHistQueryName():
-    '''public String getHistQueryName()
+    '''returns String\n\n
+    getHistQueryName()\n
     '''
 def getRuleName():
-    '''public String getRuleName()
+    '''returns String\n\n
+    getRuleName()\n
     '''

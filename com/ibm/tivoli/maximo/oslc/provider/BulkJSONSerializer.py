@@ -1,17 +1,22 @@
-def BulkJSONSerializer():
-    '''public BulkJSONSerializer(final MboSetRemote mboSet, final String osName, final String templateName, final int pageSize)
-    public BulkJSONSerializer(final MboSetRemote mboSet, final String osName, final int pageSize, final String selectStatement, final String savedQuery, final boolean fetchmodedelta)
+def ():
+    '''returns BulkJSONSerializer\n\n
+    (final MboSetRemote mboSet, final String osName, final String templateName, final int pageSize)\n
+    (final MboSetRemote mboSet, final String osName, final int pageSize, final String selectStatement, final String savedQuery, final boolean fetchmodedelta)\n
     '''
 def serializeNextPage():
-    '''public byte[] serializeNextPage()
+    '''returns byte[]\n\n
+    serializeNextPage()\n
     '''
 def nextPageAsJson():
-    '''public JSONArray nextPageAsJson(final boolean includeHref)
-    public JSONArray nextPageAsJson(final boolean includeHref, final boolean includeRowStamp)
+    '''returns JSONArray\n\n
+    nextPageAsJson(final boolean includeHref)\n
+    nextPageAsJson(final boolean includeHref, final boolean includeRowStamp)\n
     '''
 def hasNextPage():
-    '''public boolean hasNextPage()
+    '''returns boolean\n\n
+    hasNextPage()\n
     '''
 def getMaxRowStamp():
-    '''public Long getMaxRowStamp()
+    '''returns Long\n\n
+    getMaxRowStamp()\n
     '''

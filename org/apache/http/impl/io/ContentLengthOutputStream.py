@@ -1,14 +1,18 @@
-def ContentLengthOutputStream():
-    '''public ContentLengthOutputStream(final SessionOutputBuffer out, final long contentLength)
+def ():
+    '''returns ContentLengthOutputStream\n\n
+    (final SessionOutputBuffer out, final long contentLength)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def write():
-    '''public void write(final byte[] b, final int off, final int len)
-    public void write(final byte[] b)
-    public void write(final int b)
+    '''returns None\n\n
+    write(final byte[] b, final int off, final int len)\n
+    write(final byte[] b)\n
+    write(final int b)\n
     '''

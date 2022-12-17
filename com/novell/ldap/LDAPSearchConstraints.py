@@ -2,32 +2,41 @@ DEREF_NEVER = "int  0"
 DEREF_SEARCHING = "int  1"
 DEREF_FINDING = "int  2"
 DEREF_ALWAYS = "int  3"
-def LDAPSearchConstraints():
-    '''public LDAPSearchConstraints()
-    public LDAPSearchConstraints(final LDAPConstraints ldapConstraints)
-    public LDAPSearchConstraints(final int n, final int serverTimeLimit, final int dereference, final int maxResults, final boolean b, final int batchSize, final LDAPReferralHandler ldapReferralHandler, final int n2)
+def ():
+    '''returns LDAPSearchConstraints\n\n
+    ()\n
+    (final LDAPConstraints ldapConstraints)\n
+    (final int n, final int serverTimeLimit, final int dereference, final int maxResults, final boolean b, final int batchSize, final LDAPReferralHandler ldapReferralHandler, final int n2)\n
     '''
 def getBatchSize():
-    '''public int getBatchSize()
+    '''returns int\n\n
+    getBatchSize()\n
     '''
 def getDereference():
-    '''public int getDereference()
+    '''returns int\n\n
+    getDereference()\n
     '''
 def getMaxResults():
-    '''public int getMaxResults()
+    '''returns int\n\n
+    getMaxResults()\n
     '''
 def getServerTimeLimit():
-    '''public int getServerTimeLimit()
+    '''returns int\n\n
+    getServerTimeLimit()\n
     '''
 def setBatchSize():
-    '''public void setBatchSize(final int batchSize)
+    '''returns None\n\n
+    setBatchSize(final int batchSize)\n
     '''
 def setDereference():
-    '''public void setDereference(final int dereference)
+    '''returns None\n\n
+    setDereference(final int dereference)\n
     '''
 def setMaxResults():
-    '''public void setMaxResults(final int maxResults)
+    '''returns None\n\n
+    setMaxResults(final int maxResults)\n
     '''
 def setServerTimeLimit():
-    '''public void setServerTimeLimit(final int serverTimeLimit)
+    '''returns None\n\n
+    setServerTimeLimit(final int serverTimeLimit)\n
     '''

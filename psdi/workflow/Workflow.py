@@ -8,82 +8,104 @@ NODE_ERROR_KEY = "String  \"errorkey\""
 REL_FROMID = "String  \"fromid\""
 REL_TOID = "String  \"toid\""
 REL_NEGATIVE = "String  \"negative\""
-def Workflow():
-    '''public Workflow(final Object id)
+def ():
+    '''returns Workflow\n\n
+    (final Object id)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getDocumentType():
-    '''public Object getDocumentType()
+    '''returns Object\n\n
+    getDocumentType()\n
     '''
 def setDocumentType():
-    '''public void setDocumentType(final Object documentType)
+    '''returns None\n\n
+    setDocumentType(final Object documentType)\n
     '''
 def isValidated():
-    '''public boolean isValidated()
+    '''returns boolean\n\n
+    isValidated()\n
     '''
 def setValidated():
-    '''public void setValidated(final boolean validated)
+    '''returns None\n\n
+    setValidated(final boolean validated)\n
     '''
 def getId():
-    '''public Object getId()
+    '''returns Object\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Object id)
+    '''returns None\n\n
+    setId(final Object id)\n
     '''
 def addNode():
-    '''public void addNode(final WorkflowNode node)
+    '''returns None\n\n
+    addNode(final WorkflowNode node)\n
     '''
 def removeAllNodes():
-    '''public void removeAllNodes()
+    '''returns None\n\n
+    removeAllNodes()\n
     '''
 def removeNode():
-    '''public void removeNode(final WorkflowNode node)
+    '''returns None\n\n
+    removeNode(final WorkflowNode node)\n
     '''
 def getNode():
-    '''public WorkflowNode getNode(final Object nodeID)
+    '''returns WorkflowNode\n\n
+    getNode(final Object nodeID)\n
     '''
 def getNodes():
-    '''public Vector getNodes()
+    '''returns Vector\n\n
+    getNodes()\n
     '''
 def addRelationship():
-    '''public void addRelationship(final WorkflowRelationship relationship)
+    '''returns None\n\n
+    addRelationship(final WorkflowRelationship relationship)\n
     '''
 def removeAllRelationships():
-    '''public void removeAllRelationships()
+    '''returns None\n\n
+    removeAllRelationships()\n
     '''
 def removeRelationship():
-    '''public void removeRelationship(final WorkflowRelationship relationship)
+    '''returns None\n\n
+    removeRelationship(final WorkflowRelationship relationship)\n
     '''
 def getRelationships():
-    '''public Vector getRelationships()
-    public Vector getRelationships(final WorkflowNode node)
+    '''returns Vector\n\n
+    getRelationships()\n
+    getRelationships(final WorkflowNode node)\n
     '''
 def getRowCount():
-    '''public int getRowCount()
+    '''returns int\n\n
+    getRowCount()\n
     '''
 def getColumnCount():
-    '''public int getColumnCount()
+    '''returns int\n\n
+    getColumnCount()\n
     '''
 def getNextNodeId():
-    '''public Object getNextNodeId()
+    '''returns Object\n\n
+    getNextNodeId()\n
     '''
 def getNodeById():
-    '''public WorkflowNode getNodeById(final Object nodeID)
+    '''returns WorkflowNode\n\n
+    getNodeById(final Object nodeID)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def buildFromProperties():
-    '''public void buildFromProperties(final Vector nodeList, final Vector rels)
-    '''
-def getRelationshipsAsProperties():
-    '''public Vector<Hashtable<String, Object>> getRelationshipsAsProperties()
+    '''returns None\n\n
+    buildFromProperties(final Vector nodeList, final Vector rels)\n
     '''
 def getNodesAsProperties():
-    '''public Vector getNodesAsProperties()
+    '''returns Vector\n\n
+    getNodesAsProperties()\n
     '''

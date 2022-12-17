@@ -1,12 +1,16 @@
-def PlusPPriceBookLineAssetSpecSet():
-    '''public PlusPPriceBookLineAssetSpecSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPPriceBookLineAssetSpecSet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def max():
-    '''public double max(final String attributeName)
+    '''returns double\n\n
+    max(final String attributeName)\n
     '''
 def checkCommonSpecDuplicates():
-    '''public void checkCommonSpecDuplicates(final MboRemote mboRemote)
+    '''returns None\n\n
+    checkCommonSpecDuplicates(final MboRemote mboRemote)\n
     '''
 def copyAssetAttributes():
-    '''public void copyAssetAttributes(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    copyAssetAttributes(final MboSetRemote mboSetRemote)\n
     '''

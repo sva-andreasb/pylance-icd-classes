@@ -1,6 +1,8 @@
-def Map2():
-    '''public Map2()
+def ():
+    '''returns Map2\n\n
+    ()\n
     '''
 def putMapping():
-    '''public void putMapping(final S s, final T t)
+    '''returns None\n\n
+    putMapping(final S s, final T t)\n
     '''

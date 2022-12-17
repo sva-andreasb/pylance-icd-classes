@@ -1,51 +1,52 @@
-def StackMapEntry():
-    '''public StackMapEntry(final int byte_code_offset, final int number_of_locals, final StackMapType[] types_of_locals, final int number_of_stack_items, final StackMapType[] types_of_stack_items, final ConstantPool constant_pool)
-    '''
-def dump():
-    '''public final void dump(final DataOutputStream file)
-    '''
-def toString():
-    '''public final String toString()
+def ():
+    '''returns StackMapEntry\n\n
+    (final int byte_code_offset, final int number_of_locals, final StackMapType[] types_of_locals, final int number_of_stack_items, final StackMapType[] types_of_stack_items, final ConstantPool constant_pool)\n
     '''
 def setByteCodeOffset():
-    '''public void setByteCodeOffset(final int b)
+    '''returns None\n\n
+    setByteCodeOffset(final int b)\n
     '''
 def getByteCodeOffset():
-    '''public int getByteCodeOffset()
+    '''returns int\n\n
+    getByteCodeOffset()\n
     '''
 def setNumberOfLocals():
-    '''public void setNumberOfLocals(final int n)
+    '''returns None\n\n
+    setNumberOfLocals(final int n)\n
     '''
 def getNumberOfLocals():
-    '''public int getNumberOfLocals()
+    '''returns int\n\n
+    getNumberOfLocals()\n
     '''
 def setTypesOfLocals():
-    '''public void setTypesOfLocals(final StackMapType[] t)
+    '''returns None\n\n
+    setTypesOfLocals(final StackMapType[] t)\n
     '''
 def getTypesOfLocals():
-    '''public StackMapType[] getTypesOfLocals()
+    '''returns StackMapType[]\n\n
+    getTypesOfLocals()\n
     '''
 def setNumberOfStackItems():
-    '''public void setNumberOfStackItems(final int n)
+    '''returns None\n\n
+    setNumberOfStackItems(final int n)\n
     '''
 def getNumberOfStackItems():
-    '''public int getNumberOfStackItems()
+    '''returns int\n\n
+    getNumberOfStackItems()\n
     '''
 def setTypesOfStackItems():
-    '''public void setTypesOfStackItems(final StackMapType[] t)
+    '''returns None\n\n
+    setTypesOfStackItems(final StackMapType[] t)\n
     '''
 def getTypesOfStackItems():
-    '''public StackMapType[] getTypesOfStackItems()
+    '''returns StackMapType[]\n\n
+    getTypesOfStackItems()\n
     '''
 def copy():
-    '''public StackMapEntry copy()
+    '''returns StackMapEntry\n\n
+    copy()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
-    '''
-def getConstantPool():
-    '''public final ConstantPool getConstantPool()
-    '''
-def setConstantPool():
-    '''public final void setConstantPool(final ConstantPool constant_pool)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

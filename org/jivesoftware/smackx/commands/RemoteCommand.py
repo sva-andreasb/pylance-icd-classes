@@ -1,19 +1,25 @@
 def cancel():
-    '''public void cancel()
+    '''returns None\n\n
+    cancel()\n
     '''
 def complete():
-    '''public void complete(final Form form)
+    '''returns None\n\n
+    complete(final Form form)\n
     '''
 def execute():
-    '''public void execute()
-    public void execute(final Form form)
+    '''returns None\n\n
+    execute()\n
+    execute(final Form form)\n
     '''
 def next():
-    '''public void next(final Form form)
+    '''returns None\n\n
+    next(final Form form)\n
     '''
 def prev():
-    '''public void prev()
+    '''returns None\n\n
+    prev()\n
     '''
 def getOwnerJID():
-    '''public Jid getOwnerJID()
+    '''returns Jid\n\n
+    getOwnerJID()\n
     '''

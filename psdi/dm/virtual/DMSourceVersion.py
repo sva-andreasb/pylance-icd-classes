@@ -1,6 +1,8 @@
-def DMSourceVersion():
-    '''public DMSourceVersion(final MboSet ms)
+def ():
+    '''returns DMSourceVersion\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

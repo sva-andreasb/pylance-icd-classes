@@ -1,0 +1,6 @@
+OPTION_ORB_INITIAL_HOST = "String  \"ORBInitialHost\""
+OPTION_ORB_INITIAL_PORT = "String  \"ORBInitialPort\""
+OPTION_NAME_ID = "String  \"NameID\""
+OPTION_NAME_KIND = "String  \"NameKind\""
+OPTION_INTERFACE_CLASSNAME = "String  \"InterfaceClassName\""
+OPTION_HELPER_CLASSNAME = "String  \"HelperClassName\""

@@ -1,3 +1,4 @@
-def ReconLinkRuleSet():
-    '''public ReconLinkRuleSet(final MboServerInterface ms)
+def ():
+    '''returns ReconLinkRuleSet\n\n
+    (final MboServerInterface ms)\n
     '''

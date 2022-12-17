@@ -1,6 +1,8 @@
-def OortMBean():
-    '''public OortMBean(final Object managedObject)
+def ():
+    '''returns OortMBean\n\n
+    (final Object managedObject)\n
     '''
 def getObservedChannels():
-    '''public Set<String> getObservedChannels()
+    '''returns Set<String>\n\n
+    getObservedChannels()\n
     '''

@@ -5,14 +5,18 @@ GET_ATTR_FAILED = "int  -2147483641"
 CHANGE_ATTR_FAILED = "int  -2147483640"
 DELETE_ATTR_FAILED = "int  -2147483639"
 def getPlaceMember():
-    '''public PlaceMember getPlaceMember()
+    '''returns PlaceMember\n\n
+    getPlaceMember()\n
     '''
 def getAttributeKey():
-    '''public int getAttributeKey()
+    '''returns int\n\n
+    getAttributeKey()\n
     '''
 def getReason():
-    '''public int getReason()
+    '''returns int\n\n
+    getReason()\n
     '''
 def getAttribute():
-    '''public STExtendedAttribute getAttribute()
+    '''returns STExtendedAttribute\n\n
+    getAttribute()\n
     '''

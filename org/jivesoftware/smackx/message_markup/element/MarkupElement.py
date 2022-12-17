@@ -2,51 +2,63 @@ NAMESPACE = "String  \"urn:xmpp:markup:0\""
 ELEMENT = "String  \"markup\""
 ATTR_START = "String  \"start\""
 ATTR_END = "String  \"end\""
-def MarkupElement():
-    '''public MarkupElement(final List<MarkupChildElement> childElements)
-    '''
-def getBuilder():
-    '''public static Builder getBuilder()
+def ():
+    '''returns MarkupElement\n\n
+    (final List<MarkupChildElement> childElements)\n
     '''
 def getChildElements():
-    '''public List<MarkupChildElement> getChildElements()
+    '''returns List<MarkupChildElement>\n\n
+    getChildElements()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def setDeleted():
-    '''public Builder setDeleted(final int start, final int end)
+    '''returns Builder\n\n
+    setDeleted(final int start, final int end)\n
     '''
 def setEmphasis():
-    '''public Builder setEmphasis(final int start, final int end)
+    '''returns Builder\n\n
+    setEmphasis(final int start, final int end)\n
     '''
 def setCode():
-    '''public Builder setCode(final int start, final int end)
+    '''returns Builder\n\n
+    setCode(final int start, final int end)\n
     '''
 def addSpan():
-    '''public Builder addSpan(final int start, final int end, final Set<SpanElement.SpanStyle> styles)
+    '''returns Builder\n\n
+    addSpan(final int start, final int end, final Set<SpanElement.SpanStyle> styles)\n
     '''
 def setBlockQuote():
-    '''public Builder setBlockQuote(final int start, final int end)
+    '''returns Builder\n\n
+    setBlockQuote(final int start, final int end)\n
     '''
 def setCodeBlock():
-    '''public Builder setCodeBlock(final int start, final int end)
+    '''returns Builder\n\n
+    setCodeBlock(final int start, final int end)\n
     '''
 def beginList():
-    '''public ListBuilder beginList()
+    '''returns ListBuilder\n\n
+    beginList()\n
     '''
 def build():
-    '''public MarkupElement build()
+    '''returns MarkupElement\n\n
+    build()\n
     '''
 def addEntry():
-    '''public ListBuilder addEntry(final int start, final int end)
+    '''returns ListBuilder\n\n
+    addEntry(final int start, final int end)\n
     '''
 def endList():
-    '''public Builder endList()
+    '''returns Builder\n\n
+    endList()\n
     '''

@@ -1,45 +1,49 @@
-def XmlContent():
-    '''public XmlContent()
-    '''
-def getRootElementsByFileName():
-    '''public SortedMap<String, Element> getRootElementsByFileName()
+def ():
+    '''returns MaximoContentXmlVisitor\n\n
+    ()\n
+    (final XmlContent xmlContent)\n
     '''
 def load():
-    '''public void load(final String contentPath)
+    '''returns None\n\n
+    load(final String contentPath)\n
     '''
 def markXmlContentObjectAsChanged():
-    '''public void markXmlContentObjectAsChanged(final XmlContentObject object)
+    '''returns None\n\n
+    markXmlContentObjectAsChanged(final XmlContentObject object)\n
     '''
 def getParentContentObject():
-    '''public XmlContentObject getParentContentObject(final XmlContentObject object)
+    '''returns XmlContentObject\n\n
+    getParentContentObject(final XmlContentObject object)\n
     '''
 def removeObject():
-    '''public void removeObject(final XmlContentObject object)
+    '''returns None\n\n
+    removeObject(final XmlContentObject object)\n
     '''
 def getXmlFileNames():
-    '''public Set<String> getXmlFileNames()
+    '''returns Set<String>\n\n
+    getXmlFileNames()\n
     '''
 def getXmlContentObjectsInFile():
-    '''public List<XmlContentObject> getXmlContentObjectsInFile(final String xmlFileName)
+    '''returns List<XmlContentObject>\n\n
+    getXmlContentObjectsInFile(final String xmlFileName)\n
     '''
 def getXmlContentObjectByXmlElement():
-    '''public XmlContentObject getXmlContentObjectByXmlElement(final Element element)
+    '''returns XmlContentObject\n\n
+    getXmlContentObjectByXmlElement(final Element element)\n
     '''
 def getXmlContentObjectByTypeAndKey():
-    '''public XmlContentObject getXmlContentObjectByTypeAndKey(final String objectType, final String objectKey)
+    '''returns XmlContentObject\n\n
+    getXmlContentObjectByTypeAndKey(final String objectType, final String objectKey)\n
     '''
 def setKeepRootElementsByFileName():
-    '''public void setKeepRootElementsByFileName(final boolean keepRootElementsByFileName)
+    '''returns None\n\n
+    setKeepRootElementsByFileName(final boolean keepRootElementsByFileName)\n
     '''
 def getRootElement():
-    '''public Element getRootElement(final String fileName)
-    '''
-def getAllObjectsByType():
-    '''public SortedMap<String, SortedMap<String, XmlContentObject>> getAllObjectsByType()
+    '''returns Element\n\n
+    getRootElement(final String fileName)\n
     '''
 def getIdentifyingWhereClause():
-    '''public String getIdentifyingWhereClause(final XmlContentObject object)
-    '''
-def MaximoContentXmlVisitor():
-    '''public MaximoContentXmlVisitor(final XmlContent xmlContent)
+    '''returns String\n\n
+    getIdentifyingWhereClause(final XmlContentObject object)\n
     '''

@@ -1,33 +1,37 @@
-def PatternTable():
-    '''public PatternTable(final String tableName)
+def ():
+    '''returns SqlStagePatternTable\n\n
+    (final String tableName)\n
+    (final Node graphNode, final Node subject, final QuadBlock tableQuads)\n
     '''
 def add():
-    '''public void add(final Node property, final String colname)
-    '''
-def getCols():
-    '''public Map<Node, String> getCols()
+    '''returns None\n\n
+    add(final Node property, final String colname)\n
     '''
 def hasColumn():
-    '''public boolean hasColumn(final String colName)
+    '''returns boolean\n\n
+    hasColumn(final String colName)\n
     '''
 def colNames():
-    '''public Iterator<String> colNames()
+    '''returns Iterator<String>\n\n
+    colNames()\n
     '''
 def trigger():
-    '''public boolean trigger(final Quad quad)
+    '''returns boolean\n\n
+    trigger(final Quad quad)\n
     '''
 def process():
-    '''public SqlStage process(final int i, final QuadBlock quadBlock)
-    '''
-def SqlStagePatternTable():
-    '''public SqlStagePatternTable(final Node graphNode, final Node subject, final QuadBlock tableQuads)
+    '''returns SqlStage\n\n
+    process(final int i, final QuadBlock quadBlock)\n
     '''
 def build():
-    '''public SqlNode build(final SDBRequest request, final SlotCompiler slotCompiler)
+    '''returns SqlNode\n\n
+    build(final SDBRequest request, final SlotCompiler slotCompiler)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def output():
-    '''public void output(final IndentedWriter out)
+    '''returns None\n\n
+    output(final IndentedWriter out)\n
     '''

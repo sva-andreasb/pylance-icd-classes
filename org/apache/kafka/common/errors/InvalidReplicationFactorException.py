@@ -1,4 +1,5 @@
-def InvalidReplicationFactorException():
-    '''public InvalidReplicationFactorException(final String message)
-    public InvalidReplicationFactorException(final String message, final Throwable cause)
+def ():
+    '''returns InvalidReplicationFactorException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

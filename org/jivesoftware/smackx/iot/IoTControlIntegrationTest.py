@@ -1,9 +1,12 @@
-def IoTControlIntegrationTest():
-    '''public IoTControlIntegrationTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns IoTControlIntegrationTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def controlTest():
-    '''public void controlTest()
+    '''returns None\n\n
+    controlTest()\n
     '''
 def processRequest():
-    '''public void processRequest(final Jid from, final Collection<SetData> setData)
+    '''returns None\n\n
+    processRequest(final Jid from, final Collection<SetData> setData)\n
     '''

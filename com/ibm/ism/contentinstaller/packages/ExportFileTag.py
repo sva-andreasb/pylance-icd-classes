@@ -1,36 +1,48 @@
-def ExportFileTag():
-    '''public ExportFileTag(final BaseTag parent, final String name)
+def ():
+    '''returns ExportFileTag\n\n
+    (final BaseTag parent, final String name)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getObjectStructure():
-    '''public File getObjectStructure()
+    '''returns File\n\n
+    getObjectStructure()\n
     '''
 def setObjectStructure():
-    '''public void setObjectStructure(final File objectStructure)
+    '''returns None\n\n
+    setObjectStructure(final File objectStructure)\n
     '''
 def resetWhereClause():
-    '''public void resetWhereClause()
+    '''returns None\n\n
+    resetWhereClause()\n
     '''
 def getOriginalWhereClause():
-    '''public String getOriginalWhereClause()
+    '''returns String\n\n
+    getOriginalWhereClause()\n
     '''
 def setOriginalWhereClause():
-    '''public void setOriginalWhereClause(final String where)
+    '''returns None\n\n
+    setOriginalWhereClause(final String where)\n
     '''
 def getWhereclause():
-    '''public String getWhereclause()
+    '''returns String\n\n
+    getWhereclause()\n
     '''
 def setWhereclause():
-    '''public void setWhereclause(final String whereclause)
+    '''returns None\n\n
+    setWhereclause(final String whereclause)\n
     '''
 def getOutput():
-    '''public String getOutput()
+    '''returns String\n\n
+    getOutput()\n
     '''
 def setOutput():
-    '''public void setOutput(final String output)
+    '''returns None\n\n
+    setOutput(final String output)\n
     '''
 def getHasError():
-    '''public boolean getHasError()
+    '''returns boolean\n\n
+    getHasError()\n
     '''

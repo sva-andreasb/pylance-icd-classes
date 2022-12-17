@@ -20,450 +20,581 @@ STATUS_BAR_PROPERTY = "String  \"StatusBar\""
 MENU_BAR_PROPERTY = "String  \"MenuBar\""
 MAIN_WINDOW_PROPERTY = "String  \"MainWindow\""
 SETTINGS_TYPE = "String  \"application\""
-def IlvApplication():
-    '''public IlvApplication()
-    public IlvApplication(final String name)
-    public IlvApplication(final String[] array)
-    public IlvApplication(final String name, final String[] array)
+def ():
+    '''returns SessionSettingsManager\n\n
+    ()\n
+    (final String name)\n
+    (final String[] array)\n
+    (final String name, final String[] array)\n
+    ()\n
+    (final IlvApplication a)\n
+    (final String s)\n
     '''
 def settingsInitialized():
-    '''public void settingsInitialized(final IlvSettings ilvSettings)
+    '''returns None\n\n
+    settingsInitialized(final IlvSettings ilvSettings)\n
     '''
 def settingsModified():
-    '''public void settingsModified(final IlvSettings ilvSettings)
+    '''returns None\n\n
+    settingsModified(final IlvSettings ilvSettings)\n
     '''
 def settingsAdded():
-    '''public void settingsAdded(final IlvSettings ilvSettings)
+    '''returns None\n\n
+    settingsAdded(final IlvSettings ilvSettings)\n
     '''
 def settingsRemoved():
-    '''public void settingsRemoved(final IlvSettings ilvSettings)
+    '''returns None\n\n
+    settingsRemoved(final IlvSettings ilvSettings)\n
     '''
 def saveChanges():
-    '''public void saveChanges(final IlvSettings ilvSettings)
+    '''returns None\n\n
+    saveChanges(final IlvSettings ilvSettings)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def getName():
-    '''public String getName()
-    public String getName()
+    '''returns String\n\n
+    getName()\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String s)
+    '''returns None\n\n
+    setName(final String s)\n
     '''
 def setTitle():
-    '''public void setTitle(final String s)
+    '''returns None\n\n
+    setTitle(final String s)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setImageIcon():
-    '''public void setImageIcon(final ImageIcon imageIcon)
+    '''returns None\n\n
+    setImageIcon(final ImageIcon imageIcon)\n
     '''
 def getImageIcon():
-    '''public ImageIcon getImageIcon()
-    public ImageIcon getImageIcon(final String s)
+    '''returns ImageIcon\n\n
+    getImageIcon()\n
+    getImageIcon(final String s)\n
     '''
 def sendActionEvent():
-    '''public void sendActionEvent(final ActionEvent actionEvent)
-    public void sendActionEvent(final String command)
+    '''returns None\n\n
+    sendActionEvent(final ActionEvent actionEvent)\n
+    sendActionEvent(final String command)\n
     '''
 def sendMessage():
-    '''public void sendMessage(final String s, final Object o, final String s2, final Object[] array)
-    public void sendMessage(final String s, final MessageEvent messageEvent)
+    '''returns None\n\n
+    sendMessage(final String s, final Object o, final String s2, final Object[] array)\n
+    sendMessage(final String s, final MessageEvent messageEvent)\n
     '''
 def addMessageListener():
-    '''public void addMessageListener(final MessageListener messageListener, final String s)
+    '''returns None\n\n
+    addMessageListener(final MessageListener messageListener, final String s)\n
     '''
 def removeMessageListener():
-    '''public void removeMessageListener(final MessageListener messageListener)
+    '''returns None\n\n
+    removeMessageListener(final MessageListener messageListener)\n
     '''
 def addActionHandler():
-    '''public void addActionHandler(final ActionHandler actionHandler)
+    '''returns None\n\n
+    addActionHandler(final ActionHandler actionHandler)\n
     '''
 def getActionHandlers():
-    '''public ActionHandler[] getActionHandlers(final String s)
+    '''returns ActionHandler[]\n\n
+    getActionHandlers(final String s)\n
     '''
 def removeActionHandler():
-    '''public void removeActionHandler(final ActionHandler actionHandler)
+    '''returns None\n\n
+    removeActionHandler(final ActionHandler actionHandler)\n
     '''
 def getAction():
-    '''public Action getAction(final String s)
+    '''returns Action\n\n
+    getAction(final String s)\n
     '''
 def addAction():
-    '''public void addAction(final Action action)
+    '''returns None\n\n
+    addAction(final Action action)\n
     '''
 def removeAction():
-    '''public void removeAction(final Action action)
+    '''returns None\n\n
+    removeAction(final Action action)\n
     '''
 def initialize():
-    '''public boolean initialize()
+    '''returns boolean\n\n
+    initialize()\n
     '''
 def isInitialized():
-    '''public boolean isInitialized()
+    '''returns boolean\n\n
+    isInitialized()\n
     '''
 def close():
-    '''public boolean close(final boolean b)
+    '''returns boolean\n\n
+    close(final boolean b)\n
     '''
 def addSettings():
-    '''public boolean addSettings(final IlvSettings ilvSettings)
-    public boolean addSettings(final IlvSettings ilvSettings, final String s)
+    '''returns boolean\n\n
+    addSettings(final IlvSettings ilvSettings)\n
+    addSettings(final IlvSettings ilvSettings, final String s)\n
     '''
 def addXMLSettings():
-    '''public IlvXMLSettings addXMLSettings(final String s)
-    public IlvXMLSettings addXMLSettings(final URL url)
+    '''returns IlvXMLSettings\n\n
+    addXMLSettings(final String s)\n
+    addXMLSettings(final URL url)\n
     '''
 def removeSettings():
-    '''public boolean removeSettings(final IlvSettings ilvSettings)
-    public boolean removeSettings(final IlvSettings ilvSettings)
+    '''returns boolean\n\n
+    removeSettings(final IlvSettings ilvSettings)\n
+    removeSettings(final IlvSettings ilvSettings)\n
     '''
 def getSettings():
-    '''public IlvSettings getSettings(final String s)
-    public IlvSettings[] getSettings()
+    '''returns IlvSettings[]\n\n
+    getSettings(final String s)\n
+    getSettings()\n
     '''
 def addSettingsListener():
-    '''public void addSettingsListener(final SettingsListener settingsListener)
+    '''returns None\n\n
+    addSettingsListener(final SettingsListener settingsListener)\n
     '''
 def removeSettingsListener():
-    '''public boolean removeSettingsListener(final SettingsListener settingsListener)
+    '''returns boolean\n\n
+    removeSettingsListener(final SettingsListener settingsListener)\n
     '''
 def getSettingsManager():
-    '''public IlvSettingsManager getSettingsManager()
+    '''returns IlvSettingsManager\n\n
+    getSettingsManager()\n
     '''
 def selectElement():
-    '''public IlvSettingsElement selectElement(final IlvSettingsQuery ilvSettingsQuery)
-    public IlvSettingsElement selectElement(final String s, final String s2, final Object o)
+    '''returns IlvSettingsElement\n\n
+    selectElement(final IlvSettingsQuery ilvSettingsQuery)\n
+    selectElement(final String s, final String s2, final Object o)\n
     '''
 def select():
-    '''public IlvSettingsElement[] select(final IlvSettingsQuery ilvSettingsQuery)
-    public IlvSettingsElement[] select(final String s, final IlvSettingsElement[] relativeElementList)
-    public IlvSettingsElement[] select(final IlvSettingsQuery ilvSettingsQuery, final IlvSettingsElement[] relativeElementList)
+    '''returns IlvSettingsElement[]\n\n
+    select(final IlvSettingsQuery ilvSettingsQuery)\n
+    select(final String s, final IlvSettingsElement[] relativeElementList)\n
+    select(final IlvSettingsQuery ilvSettingsQuery, final IlvSettingsElement[] relativeElementList)\n
     '''
 def commitSettingsChanges():
-    '''public void commitSettingsChanges()
+    '''returns None\n\n
+    commitSettingsChanges()\n
     '''
 def addLocaleSettingsListener():
-    '''public void addLocaleSettingsListener(final LocaleSettingsListener e)
+    '''returns None\n\n
+    addLocaleSettingsListener(final LocaleSettingsListener e)\n
     '''
 def removeLocaleSettingsListener():
-    '''public boolean removeLocaleSettingsListener(final LocaleSettingsListener o)
+    '''returns boolean\n\n
+    removeLocaleSettingsListener(final LocaleSettingsListener o)\n
     '''
 def setMainWindow():
-    '''public void setMainWindow(final IlvMainWindow mainWindow)
+    '''returns None\n\n
+    setMainWindow(final IlvMainWindow mainWindow)\n
     '''
 def windowOpened():
-    '''public void windowOpened(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowOpened(final WindowEvent windowEvent)\n
     '''
 def getMainComponent():
-    '''public Component getMainComponent()
+    '''returns Component\n\n
+    getMainComponent()\n
     '''
 def getMainWindow():
-    '''public IlvMainWindow getMainWindow()
+    '''returns IlvMainWindow\n\n
+    getMainWindow()\n
     '''
 def getMainContainer():
-    '''public Container getMainContainer()
+    '''returns Container\n\n
+    getMainContainer()\n
     '''
 def isApplet():
-    '''public boolean isApplet()
+    '''returns boolean\n\n
+    isApplet()\n
     '''
 def getApplet():
-    '''public Applet getApplet()
+    '''returns Applet\n\n
+    getApplet()\n
     '''
 def readApplicationSettings():
-    '''public void readApplicationSettings()
+    '''returns None\n\n
+    readApplicationSettings()\n
     '''
 def getDocumentTemplateCount():
-    '''public int getDocumentTemplateCount()
+    '''returns int\n\n
+    getDocumentTemplateCount()\n
     '''
 def getDocumentTemplate():
-    '''public IlvDocumentTemplate getDocumentTemplate(final int n)
-    public IlvDocumentTemplate getDocumentTemplate(final String anObject)
+    '''returns IlvDocumentTemplate\n\n
+    getDocumentTemplate(final int n)\n
+    getDocumentTemplate(final String anObject)\n
     '''
 def addDocumentTemplate():
-    '''public void addDocumentTemplate(final IlvDocumentTemplate ilvDocumentTemplate)
+    '''returns None\n\n
+    addDocumentTemplate(final IlvDocumentTemplate ilvDocumentTemplate)\n
     '''
 def removeDocumentTemplate():
-    '''public boolean removeDocumentTemplate(final IlvDocumentTemplate ilvDocumentTemplate)
+    '''returns boolean\n\n
+    removeDocumentTemplate(final IlvDocumentTemplate ilvDocumentTemplate)\n
     '''
 def openDocument():
-    '''public IlvDocument openDocument()
-    public IlvDocument openDocument(final IlvFileDocumentTemplate ilvFileDocumentTemplate)
+    '''returns IlvDocument\n\n
+    openDocument()\n
+    openDocument(final IlvFileDocumentTemplate ilvFileDocumentTemplate)\n
     '''
 def openDocumentFile():
-    '''public IlvDocument openDocumentFile(final String pathname, final boolean b, final boolean b2)
+    '''returns IlvDocument\n\n
+    openDocumentFile(final String pathname, final boolean b, final boolean b2)\n
     '''
 def isValidDocumentFile():
-    '''public boolean isValidDocumentFile(final String pathname)
+    '''returns boolean\n\n
+    isValidDocumentFile(final String pathname)\n
     '''
 def initializeFileChooser():
-    '''public void initializeFileChooser(final JFileChooser fileChooser, final String s, final int n, final IlvFileDocumentTemplate ilvFileDocumentTemplate)
+    '''returns None\n\n
+    initializeFileChooser(final JFileChooser fileChooser, final String s, final int n, final IlvFileDocumentTemplate ilvFileDocumentTemplate)\n
     '''
 def showFileChooser():
-    '''public IlvFileChooserSelection[] showFileChooser(final String s, final String s2, final int n, final IlvFileDocumentTemplate ilvFileDocumentTemplate, final Component component)
+    '''returns IlvFileChooserSelection[]\n\n
+    showFileChooser(final String s, final String s2, final int n, final IlvFileDocumentTemplate ilvFileDocumentTemplate, final Component component)\n
     '''
 def newDocument():
-    '''public IlvDocument newDocument()
-    public IlvDocument newDocument(final IlvDocumentTemplate ilvDocumentTemplate, final boolean b, final Object o)
-    public IlvDocument newDocument(final Object o, final boolean b)
+    '''returns IlvDocument\n\n
+    newDocument()\n
+    newDocument(final IlvDocumentTemplate ilvDocumentTemplate, final boolean b, final Object o)\n
+    newDocument(final Object o, final boolean b)\n
     '''
 def newDocumentOnLastTemplate():
-    '''public IlvDocument newDocumentOnLastTemplate()
+    '''returns IlvDocument\n\n
+    newDocumentOnLastTemplate()\n
     '''
 def canCreateDocument():
-    '''public boolean canCreateDocument(final Object o)
+    '''returns boolean\n\n
+    canCreateDocument(final Object o)\n
     '''
 def saveAllDocuments():
-    '''public boolean saveAllDocuments()
+    '''returns boolean\n\n
+    saveAllDocuments()\n
     '''
 def closeAllDocuments():
-    '''public boolean closeAllDocuments(final boolean b)
+    '''returns boolean\n\n
+    closeAllDocuments(final boolean b)\n
     '''
 def closeActiveDocument():
-    '''public boolean closeActiveDocument(final boolean b)
+    '''returns boolean\n\n
+    closeActiveDocument(final boolean b)\n
     '''
 def closeDocument():
-    '''public boolean closeDocument(final IlvDocument ilvDocument, final boolean b)
+    '''returns boolean\n\n
+    closeDocument(final IlvDocument ilvDocument, final boolean b)\n
     '''
 def saveActiveDocument():
-    '''public boolean saveActiveDocument(final boolean b)
+    '''returns boolean\n\n
+    saveActiveDocument(final boolean b)\n
     '''
 def saveDocument():
-    '''public boolean saveDocument(final String spec)
-    public boolean saveDocument(final IlvDocument ilvDocument)
+    '''returns boolean\n\n
+    saveDocument(final String spec)\n
+    saveDocument(final IlvDocument ilvDocument)\n
     '''
 def saveDocumentModifications():
-    '''public boolean saveDocumentModifications(final IlvDocument ilvDocument)
+    '''returns boolean\n\n
+    saveDocumentModifications(final IlvDocument ilvDocument)\n
     '''
 def saveAsActiveDocument():
-    '''public boolean saveAsActiveDocument(final boolean b)
+    '''returns boolean\n\n
+    saveAsActiveDocument(final boolean b)\n
     '''
 def findDocument():
-    '''public IlvDocument findDocument(final String spec)
+    '''returns IlvDocument\n\n
+    findDocument(final String spec)\n
     '''
 def getOpenedDocumentCount():
-    '''public int getOpenedDocumentCount()
+    '''returns int\n\n
+    getOpenedDocumentCount()\n
     '''
 def getOpenDocuments():
-    '''public IlvDocument[] getOpenDocuments()
-    public IlvDocument[] getOpenDocuments(final IlvDocumentTemplate ilvDocumentTemplate)
+    '''returns IlvDocument[]\n\n
+    getOpenDocuments()\n
+    getOpenDocuments(final IlvDocumentTemplate ilvDocumentTemplate)\n
     '''
 def openRecentOpenedFile():
-    '''public IlvDocument openRecentOpenedFile(final int n)
+    '''returns IlvDocument\n\n
+    openRecentOpenedFile(final int n)\n
     '''
 def getRecentOpenedFile():
-    '''public String getRecentOpenedFile(final int n)
+    '''returns String\n\n
+    getRecentOpenedFile(final int n)\n
     '''
 def getRecentOpenedFileCount():
-    '''public int getRecentOpenedFileCount()
+    '''returns int\n\n
+    getRecentOpenedFileCount()\n
     '''
 def getRecentFileList():
-    '''public IlvRecentFileList getRecentFileList()
+    '''returns IlvRecentFileList\n\n
+    getRecentFileList()\n
     '''
 def getActiveDocument():
-    '''public IlvDocument getActiveDocument(final boolean b)
+    '''returns IlvDocument\n\n
+    getActiveDocument(final boolean b)\n
     '''
 def setActiveDocument():
-    '''public void setActiveDocument(final IlvDocument ilvDocument, final IlvDocumentView ilvDocumentView, final boolean b)
+    '''returns None\n\n
+    setActiveDocument(final IlvDocument ilvDocument, final IlvDocumentView ilvDocumentView, final boolean b)\n
     '''
 def setActiveView():
-    '''public void setActiveView(final IlvDocumentView ilvDocumentView, final boolean b)
+    '''returns None\n\n
+    setActiveView(final IlvDocumentView ilvDocumentView, final boolean b)\n
     '''
 def getActiveView():
-    '''public IlvDocumentView getActiveView(final boolean b)
+    '''returns IlvDocumentView\n\n
+    getActiveView(final boolean b)\n
     '''
 def getActiveViewContainer():
-    '''public IlvViewContainer getActiveViewContainer()
+    '''returns IlvViewContainer\n\n
+    getActiveViewContainer()\n
     '''
 def addApplicationListener():
-    '''public void addApplicationListener(final ApplicationListener applicationListener)
-    public void addApplicationListener(final String s, final ApplicationListener applicationListener)
+    '''returns None\n\n
+    addApplicationListener(final ApplicationListener applicationListener)\n
+    addApplicationListener(final String s, final ApplicationListener applicationListener)\n
     '''
 def removeApplicationListener():
-    '''public void removeApplicationListener(final ApplicationListener applicationListener)
-    public void removeApplicationListener(final String s, final ApplicationListener applicationListener)
+    '''returns None\n\n
+    removeApplicationListener(final ApplicationListener applicationListener)\n
+    removeApplicationListener(final String s, final ApplicationListener applicationListener)\n
     '''
 def attachDocument():
-    '''public void attachDocument(final IlvDocument ilvDocument, final IlvDocument ilvDocument2)
+    '''returns None\n\n
+    attachDocument(final IlvDocument ilvDocument, final IlvDocument ilvDocument2)\n
     '''
 def detachDocument():
-    '''public void detachDocument(final IlvDocument ilvDocument, final IlvDocument ilvDocument2)
+    '''returns None\n\n
+    detachDocument(final IlvDocument ilvDocument, final IlvDocument ilvDocument2)\n
     '''
 def updateAction():
-    '''public boolean updateAction(final String s)
-    public boolean updateAction(final Action action)
-    public boolean updateAction(final Action action)
+    '''returns boolean\n\n
+    updateAction(final String s)\n
+    updateAction(final Action action)\n
+    updateAction(final Action action)\n
     '''
 def updateActions():
-    '''public void updateActions()
+    '''returns None\n\n
+    updateActions()\n
     '''
 def updateActionsByCategory():
-    '''public void updateActionsByCategory(final String s)
+    '''returns None\n\n
+    updateActionsByCategory(final String s)\n
     '''
 def getClassLoader():
-    '''public ClassLoader getClassLoader()
+    '''returns ClassLoader\n\n
+    getClassLoader()\n
     '''
 def findResource():
-    '''public URL findResource(final String s)
+    '''returns URL\n\n
+    findResource(final String s)\n
     '''
 def getResource():
-    '''public URL getResource(final String s)
+    '''returns URL\n\n
+    getResource(final String s)\n
     '''
 def loadClass():
-    '''public Class loadClass(final String s)
+    '''returns Class\n\n
+    loadClass(final String s)\n
     '''
 def addClassLoader():
-    '''public void addClassLoader(final ClassLoader e)
+    '''returns None\n\n
+    addClassLoader(final ClassLoader e)\n
     '''
 def removeClassLoader():
-    '''public boolean removeClassLoader(final ClassLoader o)
+    '''returns boolean\n\n
+    removeClassLoader(final ClassLoader o)\n
     '''
 def getClassForName():
-    '''public Class getClassForName(final String s)
+    '''returns Class\n\n
+    getClassForName(final String s)\n
     '''
 def setLocale():
-    '''public void setLocale(final Locale locale)
+    '''returns None\n\n
+    setLocale(final Locale locale)\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getResourceBundleManager():
-    '''public IlvResourceBundleManager getResourceBundleManager()
+    '''returns IlvResourceBundleManager\n\n
+    getResourceBundleManager()\n
     '''
 def setResourceBundleManager():
-    '''public void setResourceBundleManager(final IlvResourceBundleManager ilvResourceBundleManager)
+    '''returns None\n\n
+    setResourceBundleManager(final IlvResourceBundleManager ilvResourceBundleManager)\n
     '''
 def addResourcePropertyFile():
-    '''public ResourceBundle addResourcePropertyFile(final String s)
+    '''returns ResourceBundle\n\n
+    addResourcePropertyFile(final String s)\n
     '''
 def removeResourcePropertyFile():
-    '''public ResourceBundle removeResourcePropertyFile(final String s)
+    '''returns ResourceBundle\n\n
+    removeResourcePropertyFile(final String s)\n
     '''
 def addResourceBundle():
-    '''public void addResourceBundle(final ResourceBundle resourceBundle)
+    '''returns None\n\n
+    addResourceBundle(final ResourceBundle resourceBundle)\n
     '''
 def getString():
-    '''public String getString(final String key)
+    '''returns String\n\n
+    getString(final String key)\n
     '''
 def getFormattedString():
-    '''public String getFormattedString(final String s, final Object[] array)
+    '''returns String\n\n
+    getFormattedString(final String s, final Object[] array)\n
     '''
 def getComponentOrientation():
-    '''public ComponentOrientation getComponentOrientation()
+    '''returns ComponentOrientation\n\n
+    getComponentOrientation()\n
     '''
 def applyCursor():
-    '''public HashMap applyCursor(final Cursor cursor)
+    '''returns HashMap\n\n
+    applyCursor(final Cursor cursor)\n
     '''
 def restoreCursor():
-    '''public void restoreCursor(final HashMap hashMap)
-    public void restoreCursor()
+    '''returns None\n\n
+    restoreCursor(final HashMap hashMap)\n
+    restoreCursor()\n
     '''
 def setCursor():
-    '''public void setCursor(final Cursor cursor)
+    '''returns None\n\n
+    setCursor(final Cursor cursor)\n
     '''
 def getUserSettingsURL():
-    '''public URL getUserSettingsURL()
+    '''returns URL\n\n
+    getUserSettingsURL()\n
     '''
 def setUserSettingsURL():
-    '''public void setUserSettingsURL(final URL userSettingsURL)
+    '''returns None\n\n
+    setUserSettingsURL(final URL userSettingsURL)\n
     '''
 def getUserHomeDirectory():
-    '''public URL getUserHomeDirectory()
+    '''returns URL\n\n
+    getUserHomeDirectory()\n
     '''
 def setUserHomeDirectory():
-    '''public void setUserHomeDirectory(final URL userHomeDirectory)
+    '''returns None\n\n
+    setUserHomeDirectory(final URL userHomeDirectory)\n
     '''
 def getSoftwareProvider():
-    '''public String getSoftwareProvider()
+    '''returns String\n\n
+    getSoftwareProvider()\n
     '''
 def setSoftwareProvider():
-    '''public void setSoftwareProvider(final String softwareProvider)
+    '''returns None\n\n
+    setSoftwareProvider(final String softwareProvider)\n
     '''
 def getUserSettingsSubDirectory():
-    '''public String getUserSettingsSubDirectory()
+    '''returns String\n\n
+    getUserSettingsSubDirectory()\n
     '''
 def setUserSettingsSubDirectory():
-    '''public void setUserSettingsSubDirectory(final String userSettingsSubDirectory)
+    '''returns None\n\n
+    setUserSettingsSubDirectory(final String userSettingsSubDirectory)\n
     '''
 def resolveURL():
-    '''public URL resolveURL(final String s)
+    '''returns URL\n\n
+    resolveURL(final String s)\n
     '''
 def getAbbreviateForm():
-    '''public String getAbbreviateForm(final URL url)
+    '''returns String\n\n
+    getAbbreviateForm(final URL url)\n
     '''
 def addURLResolver():
-    '''public void addURLResolver(final IlvURLResolver ilvURLResolver)
+    '''returns None\n\n
+    addURLResolver(final IlvURLResolver ilvURLResolver)\n
     '''
 def removeURLResolver():
-    '''public boolean removeURLResolver(final IlvURLResolver ilvURLResolver)
+    '''returns boolean\n\n
+    removeURLResolver(final IlvURLResolver ilvURLResolver)\n
     '''
 def getURLResolverManager():
-    '''public IlvURLResolverManager getURLResolverManager()
+    '''returns IlvURLResolverManager\n\n
+    getURLResolverManager()\n
     '''
 def getDocumentBase():
-    '''public URL getDocumentBase()
+    '''returns URL\n\n
+    getDocumentBase()\n
     '''
 def setDocumentBase():
-    '''public void setDocumentBase(final URL documentBase)
+    '''returns None\n\n
+    setDocumentBase(final URL documentBase)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String s, final Object o)
+    '''returns Object\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''
 def addPropertyChangeListener():
-    '''public void addPropertyChangeListener(final PropertyChangeListener propertyChangeListener)
+    '''returns None\n\n
+    addPropertyChangeListener(final PropertyChangeListener propertyChangeListener)\n
     '''
 def removePropertyChangeListener():
-    '''public void removePropertyChangeListener(final PropertyChangeListener propertyChangeListener)
+    '''returns None\n\n
+    removePropertyChangeListener(final PropertyChangeListener propertyChangeListener)\n
     '''
 def setSplashWindow():
-    '''public void setSplashWindow(final IlvSplashWindow r)
+    '''returns None\n\n
+    setSplashWindow(final IlvSplashWindow r)\n
     '''
 def getSplashWindow():
-    '''public IlvSplashWindow getSplashWindow()
-    '''
-def DocumentTemplateInstaller():
-    '''public DocumentTemplateInstaller()
+    '''returns IlvSplashWindow\n\n
+    getSplashWindow()\n
     '''
 def installObject():
-    '''public boolean installObject(final Object o, final IlvSettingsElement ilvSettingsElement, final IlvApplication ilvApplication)
+    '''returns boolean\n\n
+    installObject(final Object o, final IlvSettingsElement ilvSettingsElement, final IlvApplication ilvApplication)\n
     '''
 def uninstallObject():
-    '''public boolean uninstallObject(final Object o, final IlvSettingsElement ilvSettingsElement, final IlvApplication ilvApplication)
-    '''
-def ApplicationActionHandler():
-    '''public ApplicationActionHandler(final IlvApplication a)
+    '''returns boolean\n\n
+    uninstallObject(final Object o, final IlvSettingsElement ilvSettingsElement, final IlvApplication ilvApplication)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def isProcessingAction():
-    '''public boolean isProcessingAction(final String s)
-    '''
-def SessionSettingsManager():
-    '''public SessionSettingsManager(final String s)
+    '''returns boolean\n\n
+    isProcessingAction(final String s)\n
     '''
 def initializeSettings():
-    '''public boolean initializeSettings()
-    public boolean initializeSettings()
+    '''returns boolean\n\n
+    initializeSettings()\n
+    initializeSettings()\n
     '''
 def areSettingsInitialized():
-    '''public boolean areSettingsInitialized()
+    '''returns boolean\n\n
+    areSettingsInitialized()\n
     '''
 def setModel():
-    '''public void setModel(final IlvSettingsModel a)
+    '''returns None\n\n
+    setModel(final IlvSettingsModel a)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''
 def getWritableSettings():
-    '''public IlvSettings getWritableSettings()
+    '''returns IlvSettings\n\n
+    getWritableSettings()\n
     '''
 def mainWindowIntialized():
-    '''public void mainWindowIntialized(final IlvMainWindow ilvMainWindow)
+    '''returns None\n\n
+    mainWindowIntialized(final IlvMainWindow ilvMainWindow)\n
     '''

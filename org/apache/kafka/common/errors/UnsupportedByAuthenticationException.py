@@ -1,4 +1,5 @@
-def UnsupportedByAuthenticationException():
-    '''public UnsupportedByAuthenticationException(final String message)
-    public UnsupportedByAuthenticationException(final String message, final Throwable cause)
+def ():
+    '''returns UnsupportedByAuthenticationException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

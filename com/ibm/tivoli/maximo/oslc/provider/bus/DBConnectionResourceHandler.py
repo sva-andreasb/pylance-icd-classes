@@ -1,9 +1,12 @@
-def DBConnectionResourceHandler():
-    '''public DBConnectionResourceHandler(final BusResourceInfo resInfo, final String contextURI)
+def ():
+    '''returns DBConnectionResourceHandler\n\n
+    (final BusResourceInfo resInfo, final String contextURI)\n
     '''
 def handleRequest():
-    '''public BusResource handleRequest(final ResourceContext resCtx, final BusRequest request)
+    '''returns BusResource\n\n
+    handleRequest(final ResourceContext resCtx, final BusRequest request)\n
     '''
 def getLongRunningCreator():
-    '''public String getLongRunningCreator(final DbConnectionWatchDog.ConnectionData connData)
+    '''returns String\n\n
+    getLongRunningCreator(final DbConnectionWatchDog.ConnectionData connData)\n
     '''

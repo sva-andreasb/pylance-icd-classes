@@ -1,12 +1,12 @@
-def ArrayTypeAdapter():
-    '''public ArrayTypeAdapter(final Gson context, final TypeAdapter<E> componentTypeAdapter, final Class<E> componentType)
+def ():
+    '''returns ArrayTypeAdapter\n\n
+    (final Gson context, final TypeAdapter<E> componentTypeAdapter, final Class<E> componentType)\n
     '''
 def read():
-    '''public Object read(final JsonReader in)
+    '''returns Object\n\n
+    read(final JsonReader in)\n
     '''
 def write():
-    '''public void write(final JsonWriter out, final Object array)
-    '''
-def create():
-    '''public <T> TypeAdapter<T> create(final Gson gson, final TypeToken<T> typeToken)
+    '''returns None\n\n
+    write(final JsonWriter out, final Object array)\n
     '''

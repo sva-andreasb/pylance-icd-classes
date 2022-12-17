@@ -1,23 +1,29 @@
-def StreamNormalizingReader():
-    '''public StreamNormalizingReader(final InputStream is)
-    public StreamNormalizingReader(final InputStream is, String enc)
-    public StreamNormalizingReader(final Reader r)
+def ():
+    '''returns StreamNormalizingReader\n\n
+    (final InputStream is)\n
+    (final InputStream is, String enc)\n
+    (final Reader r)\n
     '''
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''
 def getLine():
-    '''public int getLine()
+    '''returns int\n\n
+    getLine()\n
     '''
 def getColumn():
-    '''public int getColumn()
+    '''returns int\n\n
+    getColumn()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def createCharDecoder():
-    '''public CharDecoder createCharDecoder(final InputStream is)
-    public CharDecoder createCharDecoder(final InputStream is)
-    public CharDecoder createCharDecoder(final InputStream is)
-    public CharDecoder createCharDecoder(final InputStream is)
+    '''returns CharDecoder\n\n
+    createCharDecoder(final InputStream is)\n
+    createCharDecoder(final InputStream is)\n
+    createCharDecoder(final InputStream is)\n
+    createCharDecoder(final InputStream is)\n
     '''

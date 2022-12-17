@@ -1,98 +1,122 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def PmChgWOChange():
-    '''public PmChgWOChange(final MboSet ms)
+def ():
+    '''returns PmChgWOChange\n\n
+    (final MboSet ms)\n
     '''
 def findAndSetAvailableSchedulerValue():
-    '''public void findAndSetAvailableSchedulerValue()
+    '''returns None\n\n
+    findAndSetAvailableSchedulerValue()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def detectConflicts():
-    '''public void detectConflicts()
+    '''returns None\n\n
+    detectConflicts()\n
     '''
 def hasBlackoutConflict():
-    '''public boolean hasBlackoutConflict(final String type)
-    public boolean hasBlackoutConflict()
+    '''returns boolean\n\n
+    hasBlackoutConflict(final String type)\n
+    hasBlackoutConflict()\n
     '''
 def hasChangeWindowConflict():
-    '''public boolean hasChangeWindowConflict()
+    '''returns boolean\n\n
+    hasChangeWindowConflict()\n
     '''
 def getChangeWindowConflictRecords():
-    '''public List<PmChgConflictDetectionRemote> getChangeWindowConflictRecords()
+    '''returns List<PmChgConflictDetectionRemote>\n\n
+    getChangeWindowConflictRecords()\n
     '''
 def hasCiConflict():
-    '''public boolean hasCiConflict()
+    '''returns boolean\n\n
+    hasCiConflict()\n
     '''
 def getCiConflictRecords():
-    '''public List<PmChgConflictDetectionRemote> getCiConflictRecords()
+    '''returns List<PmChgConflictDetectionRemote>\n\n
+    getCiConflictRecords()\n
     '''
 def getBlackoutConflictRecords():
-    '''public List<PmChgConflictDetectionRemote> getBlackoutConflictRecords()
+    '''returns List<PmChgConflictDetectionRemote>\n\n
+    getBlackoutConflictRecords()\n
     '''
 def hasConflict():
-    '''public boolean hasConflict()
+    '''returns boolean\n\n
+    hasConflict()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def hasImpactedCis():
-    '''public boolean hasImpactedCis()
+    '''returns boolean\n\n
+    hasImpactedCis()\n
     '''
 def previewImpactedCIs():
-    '''public MboSetRemote previewImpactedCIs()
+    '''returns MboSetRemote\n\n
+    previewImpactedCIs()\n
     '''
 def previewHistoricalImpactedAssets():
-    '''public MboSetRemote previewHistoricalImpactedAssets()
+    '''returns MboSetRemote\n\n
+    previewHistoricalImpactedAssets()\n
     '''
 def previewHistoricalImpactedCIs():
-    '''public MboSetRemote previewHistoricalImpactedCIs()
+    '''returns MboSetRemote\n\n
+    previewHistoricalImpactedCIs()\n
     '''
 def setJobPlanFieldFlag():
-    '''public void setJobPlanFieldFlag()
+    '''returns None\n\n
+    setJobPlanFieldFlag()\n
     '''
 def calculateImpactedCIs():
-    '''public void calculateImpactedCIs()
+    '''returns None\n\n
+    calculateImpactedCIs()\n
     '''
 def detectHistoricalImpacts():
-    '''public void detectHistoricalImpacts()
+    '''returns None\n\n
+    detectHistoricalImpacts()\n
     '''
 def validateReadyForImpactAssessment():
-    '''public void validateReadyForImpactAssessment(final boolean checkAssets)
+    '''returns None\n\n
+    validateReadyForImpactAssessment(final boolean checkAssets)\n
     '''
 def isReadyForImpactAssessment():
-    '''public boolean isReadyForImpactAssessment(final boolean checkAssets)
+    '''returns boolean\n\n
+    isReadyForImpactAssessment(final boolean checkAssets)\n
     '''
 def applyBlackoutApprovers():
-    '''public void applyBlackoutApprovers(final String blackoutType, final String apprlType)
+    '''returns None\n\n
+    applyBlackoutApprovers(final String blackoutType, final String apprlType)\n
     '''
 def addScheduleApproversByRole():
-    '''public void addScheduleApproversByRole(final String roleName, final String apprlType)
+    '''returns None\n\n
+    addScheduleApproversByRole(final String roleName, final String apprlType)\n
     '''
 def deleteScheduleApprovers():
-    '''public void deleteScheduleApprovers()
+    '''returns None\n\n
+    deleteScheduleApprovers()\n
     '''
 def calculateOutageImpact():
-    '''public int calculateOutageImpact()
+    '''returns int\n\n
+    calculateOutageImpact()\n
     '''
 def previewOutageImpact():
-    '''public int previewOutageImpact()
-    '''
-def previewOutageCIs():
-    '''public HashMap<String, CIRemote> previewOutageCIs()
-    '''
-def calculateOutageCIs():
-    '''public HashMap<String, CIRemote> calculateOutageCIs()
+    '''returns int\n\n
+    previewOutageImpact()\n
     '''
 def calculateMaximumAssessedImpact():
-    '''public int calculateMaximumAssessedImpact()
+    '''returns int\n\n
+    calculateMaximumAssessedImpact()\n
     '''
 def reportMessage():
-    '''public void reportMessage(final MXApplicationException mae)
+    '''returns None\n\n
+    reportMessage(final MXApplicationException mae)\n
     '''
 def copyWOFieldsToMultiAsset():
-    '''public void copyWOFieldsToMultiAsset(final MultiAssetLocCIRemote multiAssetMbo)
+    '''returns None\n\n
+    copyWOFieldsToMultiAsset(final MultiAssetLocCIRemote multiAssetMbo)\n
     '''

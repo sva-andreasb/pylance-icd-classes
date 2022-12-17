@@ -1,6 +1,8 @@
-def DMErrorSet():
-    '''public DMErrorSet(final MboServerInterface ms)
+def ():
+    '''returns DMErrorSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getLatestError():
-    '''public MboRemote getLatestError()
+    '''returns MboRemote\n\n
+    getLatestError()\n
     '''

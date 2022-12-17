@@ -1,6 +1,4 @@
-def main():
-    '''public static void main(final String... argv)
-    '''
-def sdbdelete():
-    '''public sdbdelete(final String... args)
+def ():
+    '''returns sdbdelete\n\n
+    (final String... args)\n
     '''

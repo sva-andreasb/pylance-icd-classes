@@ -1,6 +1,8 @@
-def UnsupportedElementException():
-    '''public UnsupportedElementException(final String msg, final String element)
+def ():
+    '''returns UnsupportedElementException\n\n
+    (final String msg, final String element)\n
     '''
 def getElement():
-    '''public String getElement()
+    '''returns String\n\n
+    getElement()\n
     '''

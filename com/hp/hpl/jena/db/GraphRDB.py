@@ -2,121 +2,143 @@ DEFAULT = "String  \"DEFAULT\""
 OPTIMIZE_ALL_REIFICATIONS_AND_HIDE_NOTHING = "int  1"
 OPTIMIZE_AND_HIDE_FULL_AND_PARTIAL_REIFICATIONS = "int  2"
 OPTIMIZE_AND_HIDE_ONLY_FULL_REIFICATIONS = "int  3"
-def styleRDB():
-    '''public static int styleRDB(final ReificationStyle style)
-    public static ReificationStyle styleRDB(final int behaviour)
-    '''
-def GraphRDB():
-    '''public GraphRDB(final IDBConnection con, String graphID, final Graph requestedProperties, final int reificationBehaviour, final boolean isNew)
+def ():
+    '''returns GraphRDB\n\n
+    (final IDBConnection con, String graphID, final Graph requestedProperties, final int reificationBehaviour, final boolean isNew)\n
     '''
 def getCapabilities():
-    '''public Capabilities getCapabilities()
+    '''returns Capabilities\n\n
+    getCapabilities()\n
     '''
 def handlesLiteralTyping():
-    '''public boolean handlesLiteralTyping()
+    '''returns boolean\n\n
+    handlesLiteralTyping()\n
     '''
 def getNode():
-    '''public Node getNode()
+    '''returns Node\n\n
+    getNode()\n
     '''
 def getPropertyTriples():
-    '''public ExtendedIterator<Triple> getPropertyTriples()
+    '''returns ExtendedIterator<Triple>\n\n
+    getPropertyTriples()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def performAdd():
-    '''public void performAdd(final Triple t)
+    '''returns None\n\n
+    performAdd(final Triple t)\n
     '''
 def add():
-    '''public void add(final List<Triple> triples)
+    '''returns None\n\n
+    add(final List<Triple> triples)\n
     '''
 def performDelete():
-    '''public void performDelete(final Triple t)
+    '''returns None\n\n
+    performDelete(final Triple t)\n
     '''
 def delete():
-    '''public void delete(final List<Triple> triples)
+    '''returns None\n\n
+    delete(final List<Triple> triples)\n
     '''
 def graphBaseSize():
-    '''public int graphBaseSize()
+    '''returns int\n\n
+    graphBaseSize()\n
     '''
 def graphBaseContains():
-    '''public boolean graphBaseContains(final Triple t)
+    '''returns boolean\n\n
+    graphBaseContains(final Triple t)\n
     '''
 def graphBaseFind():
-    '''public ExtendedIterator<Triple> graphBaseFind(final TripleMatch m)
+    '''returns ExtendedIterator<Triple>\n\n
+    graphBaseFind(final TripleMatch m)\n
     '''
 def reifierTriples():
-    '''public ExtendedIterator<Triple> reifierTriples(final TripleMatch m)
+    '''returns ExtendedIterator<Triple>\n\n
+    reifierTriples(final TripleMatch m)\n
     '''
 def reifierSize():
-    '''public int reifierSize()
+    '''returns int\n\n
+    reifierSize()\n
     '''
 def getBulkUpdateHandler():
-    '''public BulkUpdateHandler getBulkUpdateHandler()
+    '''returns BulkUpdateHandler\n\n
+    getBulkUpdateHandler()\n
     '''
 def getReifier():
-    '''public Reifier getReifier()
+    '''returns Reifier\n\n
+    getReifier()\n
     '''
 def getPrefixMapping():
-    '''public PrefixMapping getPrefixMapping()
+    '''returns PrefixMapping\n\n
+    getPrefixMapping()\n
     '''
 def getTransactionHandler():
-    '''public TransactionHandler getTransactionHandler()
-    '''
-def close():
-    '''public synchronized void close()
-    '''
-def remove():
-    '''public synchronized void remove()
-    '''
-def clear():
-    '''public synchronized void clear()
+    '''returns TransactionHandler\n\n
+    getTransactionHandler()\n
     '''
 def getConnection():
-    '''public IDBConnection getConnection()
+    '''returns IDBConnection\n\n
+    getConnection()\n
     '''
 def reificationBehavior():
-    '''public int reificationBehavior()
+    '''returns int\n\n
+    reificationBehavior()\n
     '''
 def getSpecializedGraphs():
-    '''public Iterator<SpecializedGraph> getSpecializedGraphs()
+    '''returns Iterator<SpecializedGraph>\n\n
+    getSpecializedGraphs()\n
     '''
 def queryHandler():
-    '''public QueryHandler queryHandler()
+    '''returns QueryHandler\n\n
+    queryHandler()\n
     '''
 def DBqueryHandler():
-    '''public DBQueryHandler DBqueryHandler()
+    '''returns DBQueryHandler\n\n
+    DBqueryHandler()\n
     '''
 def getDoDuplicateCheck():
-    '''public boolean getDoDuplicateCheck()
+    '''returns boolean\n\n
+    getDoDuplicateCheck()\n
     '''
 def setDoDuplicateCheck():
-    '''public void setDoDuplicateCheck(final boolean bool)
+    '''returns None\n\n
+    setDoDuplicateCheck(final boolean bool)\n
     '''
 def setDoFastpath():
-    '''public void setDoFastpath(final boolean val)
+    '''returns None\n\n
+    setDoFastpath(final boolean val)\n
     '''
 def getDoFastpath():
-    '''public boolean getDoFastpath()
+    '''returns boolean\n\n
+    getDoFastpath()\n
     '''
 def setQueryOnlyAsserted():
-    '''public void setQueryOnlyAsserted(final boolean opt)
+    '''returns None\n\n
+    setQueryOnlyAsserted(final boolean opt)\n
     '''
 def getQueryOnlyAsserted():
-    '''public boolean getQueryOnlyAsserted()
+    '''returns boolean\n\n
+    getQueryOnlyAsserted()\n
     '''
 def setQueryOnlyReified():
-    '''public void setQueryOnlyReified(final boolean opt)
+    '''returns None\n\n
+    setQueryOnlyReified(final boolean opt)\n
     '''
 def getQueryOnlyReified():
-    '''public boolean getQueryOnlyReified()
+    '''returns boolean\n\n
+    getQueryOnlyReified()\n
     '''
 def setQueryFullReified():
-    '''public void setQueryFullReified(final boolean opt)
+    '''returns None\n\n
+    setQueryFullReified(final boolean opt)\n
     '''
 def getQueryFullReified():
-    '''public boolean getQueryFullReified()
+    '''returns boolean\n\n
+    getQueryFullReified()\n
     '''
 def setDoImplicitJoin():
-    '''public void setDoImplicitJoin(final boolean val)
+    '''returns None\n\n
+    setDoImplicitJoin(final boolean val)\n
     '''

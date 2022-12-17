@@ -1,114 +1,144 @@
 def isExpectContinueEnabled():
-    '''public boolean isExpectContinueEnabled()
+    '''returns boolean\n\n
+    isExpectContinueEnabled()\n
     '''
 def getProxy():
-    '''public HttpHost getProxy()
+    '''returns HttpHost\n\n
+    getProxy()\n
     '''
 def getLocalAddress():
-    '''public InetAddress getLocalAddress()
+    '''returns InetAddress\n\n
+    getLocalAddress()\n
     '''
 def isStaleConnectionCheckEnabled():
-    '''public boolean isStaleConnectionCheckEnabled()
+    '''returns boolean\n\n
+    isStaleConnectionCheckEnabled()\n
     '''
 def getCookieSpec():
-    '''public String getCookieSpec()
+    '''returns String\n\n
+    getCookieSpec()\n
     '''
 def isRedirectsEnabled():
-    '''public boolean isRedirectsEnabled()
+    '''returns boolean\n\n
+    isRedirectsEnabled()\n
     '''
 def isRelativeRedirectsAllowed():
-    '''public boolean isRelativeRedirectsAllowed()
+    '''returns boolean\n\n
+    isRelativeRedirectsAllowed()\n
     '''
 def isCircularRedirectsAllowed():
-    '''public boolean isCircularRedirectsAllowed()
+    '''returns boolean\n\n
+    isCircularRedirectsAllowed()\n
     '''
 def getMaxRedirects():
-    '''public int getMaxRedirects()
+    '''returns int\n\n
+    getMaxRedirects()\n
     '''
 def isAuthenticationEnabled():
-    '''public boolean isAuthenticationEnabled()
+    '''returns boolean\n\n
+    isAuthenticationEnabled()\n
     '''
 def getTargetPreferredAuthSchemes():
-    '''public Collection<String> getTargetPreferredAuthSchemes()
+    '''returns Collection<String>\n\n
+    getTargetPreferredAuthSchemes()\n
     '''
 def getProxyPreferredAuthSchemes():
-    '''public Collection<String> getProxyPreferredAuthSchemes()
+    '''returns Collection<String>\n\n
+    getProxyPreferredAuthSchemes()\n
     '''
 def getConnectionRequestTimeout():
-    '''public int getConnectionRequestTimeout()
+    '''returns int\n\n
+    getConnectionRequestTimeout()\n
     '''
 def getConnectTimeout():
-    '''public int getConnectTimeout()
+    '''returns int\n\n
+    getConnectTimeout()\n
     '''
 def getSocketTimeout():
-    '''public int getSocketTimeout()
+    '''returns int\n\n
+    getSocketTimeout()\n
     '''
 def isDecompressionEnabled():
-    '''public boolean isDecompressionEnabled()
+    '''returns boolean\n\n
+    isDecompressionEnabled()\n
     '''
 def isContentCompressionEnabled():
-    '''public boolean isContentCompressionEnabled()
+    '''returns boolean\n\n
+    isContentCompressionEnabled()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def custom():
-    '''public static Builder custom()
-    '''
-def copy():
-    '''public static Builder copy(final RequestConfig config)
+    '''returns String\n\n
+    toString()\n
     '''
 def setExpectContinueEnabled():
-    '''public Builder setExpectContinueEnabled(final boolean expectContinueEnabled)
+    '''returns Builder\n\n
+    setExpectContinueEnabled(final boolean expectContinueEnabled)\n
     '''
 def setProxy():
-    '''public Builder setProxy(final HttpHost proxy)
+    '''returns Builder\n\n
+    setProxy(final HttpHost proxy)\n
     '''
 def setLocalAddress():
-    '''public Builder setLocalAddress(final InetAddress localAddress)
+    '''returns Builder\n\n
+    setLocalAddress(final InetAddress localAddress)\n
     '''
 def setStaleConnectionCheckEnabled():
-    '''public Builder setStaleConnectionCheckEnabled(final boolean staleConnectionCheckEnabled)
+    '''returns Builder\n\n
+    setStaleConnectionCheckEnabled(final boolean staleConnectionCheckEnabled)\n
     '''
 def setCookieSpec():
-    '''public Builder setCookieSpec(final String cookieSpec)
+    '''returns Builder\n\n
+    setCookieSpec(final String cookieSpec)\n
     '''
 def setRedirectsEnabled():
-    '''public Builder setRedirectsEnabled(final boolean redirectsEnabled)
+    '''returns Builder\n\n
+    setRedirectsEnabled(final boolean redirectsEnabled)\n
     '''
 def setRelativeRedirectsAllowed():
-    '''public Builder setRelativeRedirectsAllowed(final boolean relativeRedirectsAllowed)
+    '''returns Builder\n\n
+    setRelativeRedirectsAllowed(final boolean relativeRedirectsAllowed)\n
     '''
 def setCircularRedirectsAllowed():
-    '''public Builder setCircularRedirectsAllowed(final boolean circularRedirectsAllowed)
+    '''returns Builder\n\n
+    setCircularRedirectsAllowed(final boolean circularRedirectsAllowed)\n
     '''
 def setMaxRedirects():
-    '''public Builder setMaxRedirects(final int maxRedirects)
+    '''returns Builder\n\n
+    setMaxRedirects(final int maxRedirects)\n
     '''
 def setAuthenticationEnabled():
-    '''public Builder setAuthenticationEnabled(final boolean authenticationEnabled)
+    '''returns Builder\n\n
+    setAuthenticationEnabled(final boolean authenticationEnabled)\n
     '''
 def setTargetPreferredAuthSchemes():
-    '''public Builder setTargetPreferredAuthSchemes(final Collection<String> targetPreferredAuthSchemes)
+    '''returns Builder\n\n
+    setTargetPreferredAuthSchemes(final Collection<String> targetPreferredAuthSchemes)\n
     '''
 def setProxyPreferredAuthSchemes():
-    '''public Builder setProxyPreferredAuthSchemes(final Collection<String> proxyPreferredAuthSchemes)
+    '''returns Builder\n\n
+    setProxyPreferredAuthSchemes(final Collection<String> proxyPreferredAuthSchemes)\n
     '''
 def setConnectionRequestTimeout():
-    '''public Builder setConnectionRequestTimeout(final int connectionRequestTimeout)
+    '''returns Builder\n\n
+    setConnectionRequestTimeout(final int connectionRequestTimeout)\n
     '''
 def setConnectTimeout():
-    '''public Builder setConnectTimeout(final int connectTimeout)
+    '''returns Builder\n\n
+    setConnectTimeout(final int connectTimeout)\n
     '''
 def setSocketTimeout():
-    '''public Builder setSocketTimeout(final int socketTimeout)
+    '''returns Builder\n\n
+    setSocketTimeout(final int socketTimeout)\n
     '''
 def setDecompressionEnabled():
-    '''public Builder setDecompressionEnabled(final boolean decompressionEnabled)
+    '''returns Builder\n\n
+    setDecompressionEnabled(final boolean decompressionEnabled)\n
     '''
 def setContentCompressionEnabled():
-    '''public Builder setContentCompressionEnabled(final boolean contentCompressionEnabled)
+    '''returns Builder\n\n
+    setContentCompressionEnabled(final boolean contentCompressionEnabled)\n
     '''
 def build():
-    '''public RequestConfig build()
+    '''returns RequestConfig\n\n
+    build()\n
     '''

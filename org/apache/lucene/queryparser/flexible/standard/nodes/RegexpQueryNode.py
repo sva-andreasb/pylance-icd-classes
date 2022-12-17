@@ -1,30 +1,40 @@
-def RegexpQueryNode():
-    '''public RegexpQueryNode(final CharSequence field, final CharSequence text, final int begin, final int end)
+def ():
+    '''returns RegexpQueryNode\n\n
+    (final CharSequence field, final CharSequence text, final int begin, final int end)\n
     '''
 def textToBytesRef():
-    '''public BytesRef textToBytesRef()
+    '''returns BytesRef\n\n
+    textToBytesRef()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def cloneTree():
-    '''public RegexpQueryNode cloneTree()
+    '''returns RegexpQueryNode\n\n
+    cloneTree()\n
     '''
 def getText():
-    '''public CharSequence getText()
+    '''returns CharSequence\n\n
+    getText()\n
     '''
 def setText():
-    '''public void setText(final CharSequence text)
+    '''returns None\n\n
+    setText(final CharSequence text)\n
     '''
 def getField():
-    '''public CharSequence getField()
+    '''returns CharSequence\n\n
+    getField()\n
     '''
 def getFieldAsString():
-    '''public String getFieldAsString()
+    '''returns String\n\n
+    getFieldAsString()\n
     '''
 def setField():
-    '''public void setField(final CharSequence field)
+    '''returns None\n\n
+    setField(final CharSequence field)\n
     '''
 def toQueryString():
-    '''public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
+    '''returns CharSequence\n\n
+    toQueryString(final EscapeQuerySyntax escapeSyntaxParser)\n
     '''

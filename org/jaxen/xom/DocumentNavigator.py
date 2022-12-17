@@ -1,125 +1,163 @@
 def isAttribute():
-    '''public boolean isAttribute(final Object o)
+    '''returns boolean\n\n
+    isAttribute(final Object o)\n
     '''
 def isComment():
-    '''public boolean isComment(final Object o)
+    '''returns boolean\n\n
+    isComment(final Object o)\n
     '''
 def isDocument():
-    '''public boolean isDocument(final Object o)
+    '''returns boolean\n\n
+    isDocument(final Object o)\n
     '''
 def isElement():
-    '''public boolean isElement(final Object o)
+    '''returns boolean\n\n
+    isElement(final Object o)\n
     '''
 def isNamespace():
-    '''public boolean isNamespace(final Object o)
+    '''returns boolean\n\n
+    isNamespace(final Object o)\n
     '''
 def isProcessingInstruction():
-    '''public boolean isProcessingInstruction(final Object o)
+    '''returns boolean\n\n
+    isProcessingInstruction(final Object o)\n
     '''
 def isText():
-    '''public boolean isText(final Object o)
+    '''returns boolean\n\n
+    isText(final Object o)\n
     '''
 def getAttributeName():
-    '''public String getAttributeName(final Object o)
+    '''returns String\n\n
+    getAttributeName(final Object o)\n
     '''
 def getAttributeNamespaceUri():
-    '''public String getAttributeNamespaceUri(final Object o)
+    '''returns String\n\n
+    getAttributeNamespaceUri(final Object o)\n
     '''
 def getAttributeQName():
-    '''public String getAttributeQName(final Object o)
+    '''returns String\n\n
+    getAttributeQName(final Object o)\n
     '''
 def getAttributeStringValue():
-    '''public String getAttributeStringValue(final Object o)
+    '''returns String\n\n
+    getAttributeStringValue(final Object o)\n
     '''
 def getCommentStringValue():
-    '''public String getCommentStringValue(final Object o)
+    '''returns String\n\n
+    getCommentStringValue(final Object o)\n
     '''
 def getElementName():
-    '''public String getElementName(final Object o)
+    '''returns String\n\n
+    getElementName(final Object o)\n
     '''
 def getElementNamespaceUri():
-    '''public String getElementNamespaceUri(final Object o)
+    '''returns String\n\n
+    getElementNamespaceUri(final Object o)\n
     '''
 def getElementQName():
-    '''public String getElementQName(final Object o)
+    '''returns String\n\n
+    getElementQName(final Object o)\n
     '''
 def getElementStringValue():
-    '''public String getElementStringValue(final Object o)
+    '''returns String\n\n
+    getElementStringValue(final Object o)\n
     '''
 def getNamespacePrefix():
-    '''public String getNamespacePrefix(final Object o)
-    public String getNamespacePrefix()
+    '''returns String\n\n
+    getNamespacePrefix(final Object o)\n
+    getNamespacePrefix()\n
     '''
 def getNamespaceStringValue():
-    '''public String getNamespaceStringValue(final Object o)
+    '''returns String\n\n
+    getNamespaceStringValue(final Object o)\n
     '''
 def getTextStringValue():
-    '''public String getTextStringValue(final Object o)
+    '''returns String\n\n
+    getTextStringValue(final Object o)\n
     '''
 def getDocument():
-    '''public Object getDocument(final String s)
+    '''returns Object\n\n
+    getDocument(final String s)\n
     '''
 def getDocumentNode():
-    '''public Object getDocumentNode(final Object o)
+    '''returns Object\n\n
+    getDocumentNode(final Object o)\n
     '''
 def getAttributeAxisIterator():
-    '''public Iterator getAttributeAxisIterator(final Object o)
+    '''returns Iterator\n\n
+    getAttributeAxisIterator(final Object o)\n
     '''
 def get():
-    '''public Object get(final Object o, final int i)
-    public Object get(final Object o, final int i)
+    '''returns Object\n\n
+    get(final Object o, final int i)\n
+    get(final Object o, final int i)\n
     '''
 def getChildAxisIterator():
-    '''public Iterator getChildAxisIterator(final Object o)
+    '''returns Iterator\n\n
+    getChildAxisIterator(final Object o)\n
     '''
 def getParentAxisIterator():
-    '''public Iterator getParentAxisIterator(final Object o)
+    '''returns Iterator\n\n
+    getParentAxisIterator(final Object o)\n
     '''
 def getParentNode():
-    '''public Object getParentNode(final Object o)
+    '''returns Object\n\n
+    getParentNode(final Object o)\n
     '''
 def getPrecedingAxisIterator():
-    '''public Iterator getPrecedingAxisIterator(final Object o)
+    '''returns Iterator\n\n
+    getPrecedingAxisIterator(final Object o)\n
     '''
 def getPrecedingSiblingAxisIterator():
-    '''public Iterator getPrecedingSiblingAxisIterator(final Object o)
+    '''returns Iterator\n\n
+    getPrecedingSiblingAxisIterator(final Object o)\n
     '''
 def getProcessingInstructionData():
-    '''public String getProcessingInstructionData(final Object o)
+    '''returns String\n\n
+    getProcessingInstructionData(final Object o)\n
     '''
 def getProcessingInstructionTarget():
-    '''public String getProcessingInstructionTarget(final Object o)
+    '''returns String\n\n
+    getProcessingInstructionTarget(final Object o)\n
     '''
 def translateNamespacePrefixToUri():
-    '''public String translateNamespacePrefixToUri(final String s, final Object o)
+    '''returns String\n\n
+    translateNamespacePrefixToUri(final String s, final Object o)\n
     '''
 def parseXPath():
-    '''public XPath parseXPath(final String s)
+    '''returns XPath\n\n
+    parseXPath(final String s)\n
     '''
 def getNamespaceAxisIterator():
-    '''public Iterator getNamespaceAxisIterator(final Object o)
+    '''returns Iterator\n\n
+    getNamespaceAxisIterator(final Object o)\n
     '''
-def IndexIterator():
-    '''public IndexIterator(final Object o, final int pos, final int end)
+def ():
+    '''returns XPathNamespace\n\n
+    (final Object o, final int pos, final int end)\n
+    (final Element elt, final String uri, final String prefix)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Object next()
+    '''returns Object\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
-    '''
-def XPathNamespace():
-    '''public XPathNamespace(final Element elt, final String uri, final String prefix)
+    '''returns None\n\n
+    remove()\n
     '''
 def getElement():
-    '''public Element getElement()
+    '''returns Element\n\n
+    getElement()\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

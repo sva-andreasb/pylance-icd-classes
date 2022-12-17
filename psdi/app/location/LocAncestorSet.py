@@ -1,3 +1,4 @@
-def LocAncestorSet():
-    '''public LocAncestorSet(final MboServerInterface ms)
+def ():
+    '''returns LocAncestorSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,9 +1,12 @@
-def JDBC20DataHandler():
-    '''public JDBC20DataHandler(final DataHandler datahandler)
+def ():
+    '''returns JDBC20DataHandler\n\n
+    (final DataHandler datahandler)\n
     '''
 def setJDBCObject():
-    '''public void setJDBCObject(final PreparedStatement stmt, final int index, PyObject object, final int type)
+    '''returns None\n\n
+    setJDBCObject(final PreparedStatement stmt, final int index, PyObject object, final int type)\n
     '''
 def getPyObject():
-    '''public PyObject getPyObject(final ResultSet set, final int col, final int type)
+    '''returns PyObject\n\n
+    getPyObject(final ResultSet set, final int col, final int type)\n
     '''

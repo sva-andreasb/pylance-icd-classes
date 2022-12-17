@@ -1,3 +1,4 @@
-def AMCrewModAvailSet():
-    '''public AMCrewModAvailSet(final MboServerInterface ms)
+def ():
+    '''returns AMCrewModAvailSet\n\n
+    (final MboServerInterface ms)\n
     '''

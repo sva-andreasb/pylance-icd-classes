@@ -1,3 +1,4 @@
-def CDUICatalogTableDomainSet():
-    '''public CDUICatalogTableDomainSet(final MboServerInterface ms)
+def ():
+    '''returns CDUICatalogTableDomainSet\n\n
+    (final MboServerInterface ms)\n
     '''

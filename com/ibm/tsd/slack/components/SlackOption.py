@@ -1,16 +1,21 @@
-def SlackOption():
-    '''public SlackOption()
-    public SlackOption(final String text, final String value)
+def ():
+    '''returns SlackOption\n\n
+    ()\n
+    (final String text, final String value)\n
     '''
 def setText():
-    '''public void setText(final String text)
+    '''returns None\n\n
+    setText(final String text)\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''

@@ -1,17 +1,22 @@
-def SearchResultLimitExceededException():
-    '''public SearchResultLimitExceededException(final String message, final Set results, final boolean sorted)
-    public SearchResultLimitExceededException(final String message)
-    public SearchResultLimitExceededException()
+def ():
+    '''returns SearchResultLimitExceededException\n\n
+    (final String message, final Set results, final boolean sorted)\n
+    (final String message)\n
+    ()\n
     '''
 def getResults():
-    '''public Set getResults()
+    '''returns Set\n\n
+    getResults()\n
     '''
 def setResults():
-    '''public void setResults(final Set results)
+    '''returns None\n\n
+    setResults(final Set results)\n
     '''
 def getSortedOnServer():
-    '''public boolean getSortedOnServer()
+    '''returns boolean\n\n
+    getSortedOnServer()\n
     '''
 def setSortedOnServer():
-    '''public void setSortedOnServer(final boolean sorted)
+    '''returns None\n\n
+    setSortedOnServer(final boolean sorted)\n
     '''

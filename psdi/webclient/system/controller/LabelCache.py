@@ -1,32 +1,38 @@
-def LabelCache():
-    '''public LabelCache(final int initialCapacity, final float loadFactor, final String anapp)
-    public LabelCache(final int initialCapacity, final String anapp)
-    public LabelCache(final String anapp)
-    '''
-def makeUniqueKey():
-    '''public static String makeUniqueKey(final String id, final String property)
+def ():
+    '''returns LabelCache\n\n
+    (final int initialCapacity, final float loadFactor, final String anapp)\n
+    (final int initialCapacity, final String anapp)\n
+    (final String anapp)\n
     '''
 def getCacheApp():
-    '''public String getCacheApp()
+    '''returns String\n\n
+    getCacheApp()\n
     '''
 def getCacheCreateDate():
-    '''public Date getCacheCreateDate()
+    '''returns Date\n\n
+    getCacheCreateDate()\n
     '''
 def put():
-    '''public Object put(final String id, final String property, final Object value)
+    '''returns Object\n\n
+    put(final String id, final String property, final Object value)\n
     '''
 def remove():
-    '''public Object remove(final String id, final String property)
+    '''returns Object\n\n
+    remove(final String id, final String property)\n
     '''
 def get():
-    '''public String get(final String key)
+    '''returns String\n\n
+    get(final String key)\n
     '''
 def getString():
-    '''public String getString(final String id, final String property)
+    '''returns String\n\n
+    getString(final String id, final String property)\n
     '''
 def isModified():
-    '''public boolean isModified()
+    '''returns boolean\n\n
+    isModified()\n
     '''
 def setModified():
-    '''public void setModified(final boolean modified)
+    '''returns None\n\n
+    setModified(final boolean modified)\n
     '''

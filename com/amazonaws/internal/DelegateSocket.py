@@ -1,124 +1,165 @@
-def DelegateSocket():
-    '''public DelegateSocket(final Socket sock)
+def ():
+    '''returns DelegateSocket\n\n
+    (final Socket sock)\n
     '''
 def connect():
-    '''public void connect(final SocketAddress endpoint)
-    public void connect(final SocketAddress endpoint, final int timeout)
+    '''returns None\n\n
+    connect(final SocketAddress endpoint)\n
+    connect(final SocketAddress endpoint, final int timeout)\n
     '''
 def bind():
-    '''public void bind(final SocketAddress bindpoint)
+    '''returns None\n\n
+    bind(final SocketAddress bindpoint)\n
     '''
 def getInetAddress():
-    '''public InetAddress getInetAddress()
+    '''returns InetAddress\n\n
+    getInetAddress()\n
     '''
 def getLocalAddress():
-    '''public InetAddress getLocalAddress()
+    '''returns InetAddress\n\n
+    getLocalAddress()\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def getLocalPort():
-    '''public int getLocalPort()
+    '''returns int\n\n
+    getLocalPort()\n
     '''
 def getRemoteSocketAddress():
-    '''public SocketAddress getRemoteSocketAddress()
+    '''returns SocketAddress\n\n
+    getRemoteSocketAddress()\n
     '''
 def getLocalSocketAddress():
-    '''public SocketAddress getLocalSocketAddress()
+    '''returns SocketAddress\n\n
+    getLocalSocketAddress()\n
     '''
 def getChannel():
-    '''public SocketChannel getChannel()
+    '''returns SocketChannel\n\n
+    getChannel()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def setTcpNoDelay():
-    '''public void setTcpNoDelay(final boolean on)
+    '''returns None\n\n
+    setTcpNoDelay(final boolean on)\n
     '''
 def getTcpNoDelay():
-    '''public boolean getTcpNoDelay()
+    '''returns boolean\n\n
+    getTcpNoDelay()\n
     '''
 def setSoLinger():
-    '''public void setSoLinger(final boolean on, final int linger)
+    '''returns None\n\n
+    setSoLinger(final boolean on, final int linger)\n
     '''
 def getSoLinger():
-    '''public int getSoLinger()
+    '''returns int\n\n
+    getSoLinger()\n
     '''
 def sendUrgentData():
-    '''public void sendUrgentData(final int data)
+    '''returns None\n\n
+    sendUrgentData(final int data)\n
     '''
 def setOOBInline():
-    '''public void setOOBInline(final boolean on)
+    '''returns None\n\n
+    setOOBInline(final boolean on)\n
     '''
 def getOOBInline():
-    '''public boolean getOOBInline()
+    '''returns boolean\n\n
+    getOOBInline()\n
     '''
 def setSoTimeout():
-    '''public void setSoTimeout(final int timeout)
+    '''returns None\n\n
+    setSoTimeout(final int timeout)\n
     '''
 def getSoTimeout():
-    '''public int getSoTimeout()
+    '''returns int\n\n
+    getSoTimeout()\n
     '''
 def setSendBufferSize():
-    '''public void setSendBufferSize(final int size)
+    '''returns None\n\n
+    setSendBufferSize(final int size)\n
     '''
 def getSendBufferSize():
-    '''public int getSendBufferSize()
+    '''returns int\n\n
+    getSendBufferSize()\n
     '''
 def setReceiveBufferSize():
-    '''public void setReceiveBufferSize(final int size)
+    '''returns None\n\n
+    setReceiveBufferSize(final int size)\n
     '''
 def getReceiveBufferSize():
-    '''public int getReceiveBufferSize()
+    '''returns int\n\n
+    getReceiveBufferSize()\n
     '''
 def setKeepAlive():
-    '''public void setKeepAlive(final boolean on)
+    '''returns None\n\n
+    setKeepAlive(final boolean on)\n
     '''
 def getKeepAlive():
-    '''public boolean getKeepAlive()
+    '''returns boolean\n\n
+    getKeepAlive()\n
     '''
 def setTrafficClass():
-    '''public void setTrafficClass(final int tc)
+    '''returns None\n\n
+    setTrafficClass(final int tc)\n
     '''
 def getTrafficClass():
-    '''public int getTrafficClass()
+    '''returns int\n\n
+    getTrafficClass()\n
     '''
 def setReuseAddress():
-    '''public void setReuseAddress(final boolean on)
+    '''returns None\n\n
+    setReuseAddress(final boolean on)\n
     '''
 def getReuseAddress():
-    '''public boolean getReuseAddress()
+    '''returns boolean\n\n
+    getReuseAddress()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def shutdownInput():
-    '''public void shutdownInput()
+    '''returns None\n\n
+    shutdownInput()\n
     '''
 def shutdownOutput():
-    '''public void shutdownOutput()
+    '''returns None\n\n
+    shutdownOutput()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isConnected():
-    '''public boolean isConnected()
+    '''returns boolean\n\n
+    isConnected()\n
     '''
 def isBound():
-    '''public boolean isBound()
+    '''returns boolean\n\n
+    isBound()\n
     '''
 def isClosed():
-    '''public boolean isClosed()
+    '''returns boolean\n\n
+    isClosed()\n
     '''
 def isInputShutdown():
-    '''public boolean isInputShutdown()
+    '''returns boolean\n\n
+    isInputShutdown()\n
     '''
 def isOutputShutdown():
-    '''public boolean isOutputShutdown()
+    '''returns boolean\n\n
+    isOutputShutdown()\n
     '''
 def setPerformancePreferences():
-    '''public void setPerformancePreferences(final int connectionTime, final int latency, final int bandwidth)
+    '''returns None\n\n
+    setPerformancePreferences(final int connectionTime, final int latency, final int bandwidth)\n
     '''

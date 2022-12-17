@@ -1,6 +1,8 @@
-def FldExtensionFld():
-    '''public FldExtensionFld(final MboValue mv)
+def ():
+    '''returns FldExtensionFld\n\n
+    (final MboValue mv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

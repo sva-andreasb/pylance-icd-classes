@@ -1,27 +1,36 @@
 def getXAxis():
-    '''public IlvAxis getXAxis()
+    '''returns IlvAxis\n\n
+    getXAxis()\n
     '''
 def getYAxis():
-    '''public IlvAxis getYAxis()
+    '''returns IlvAxis\n\n
+    getYAxis()\n
     '''
 def getVisibleWindow():
-    '''public IlvDataWindow getVisibleWindow()
+    '''returns IlvDataWindow\n\n
+    getVisibleWindow()\n
     '''
 def setXCrossing():
-    '''public void setXCrossing(final IlvAxis.Crossing c)
+    '''returns None\n\n
+    setXCrossing(final IlvAxis.Crossing c)\n
     '''
 def setXCrossingValue():
-    '''public void setXCrossingValue(final double n)
+    '''returns None\n\n
+    setXCrossingValue(final double n)\n
     '''
 def getXCrossingValue():
-    '''public double getXCrossingValue()
+    '''returns double\n\n
+    getXCrossingValue()\n
     '''
 def setYCrossing():
-    '''public void setYCrossing(final IlvAxis.Crossing d)
+    '''returns None\n\n
+    setYCrossing(final IlvAxis.Crossing d)\n
     '''
 def setYCrossingValue():
-    '''public void setYCrossingValue(final double n)
+    '''returns None\n\n
+    setYCrossingValue(final double n)\n
     '''
 def getYCrossingValue():
-    '''public double getYCrossingValue()
+    '''returns double\n\n
+    getYCrossingValue()\n
     '''

@@ -1,3 +1,4 @@
-def FldPOOriginalPONum():
-    '''public FldPOOriginalPONum(final MboValue mbv)
+def ():
+    '''returns FldPOOriginalPONum\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,41 +1,42 @@
-def ExportObject():
-    '''public ExportObject()
-    '''
-def getObjectValue():
-    '''public static Object getObjectValue(final Element objectElement, final String columnName)
-    public static Object getObjectValue(final XMLObject objectElement, final String columnName)
-    public static Object getObjectValue(final Element columnElement)
-    public static Object getObjectValue(final XMLColumn columnElement)
+def ():
+    '''returns ExportObject\n\n
+    ()\n
     '''
 def getObjectData():
-    '''public void getObjectData(final Connection c, final Element objectElement, final Element targetParentElement, final int depth)
+    '''returns None\n\n
+    getObjectData(final Connection c, final Element objectElement, final Element targetParentElement, final int depth)\n
     '''
 def getObjectWhereClause():
-    '''public String getObjectWhereClause(final Connection c, final String tableName)
+    '''returns String\n\n
+    getObjectWhereClause(final Connection c, final String tableName)\n
     '''
 def exportFiles():
-    '''public void exportFiles(final RootTag rootTag, final MaximoResolver maximoResolver, final IProgressMonitor monitor)
+    '''returns None\n\n
+    exportFiles(final RootTag rootTag, final MaximoResolver maximoResolver, final IProgressMonitor monitor)\n
     '''
 def exportToFile():
-    '''public void exportToFile(final String structureFilename, final String whereClause, final String outFileName)
-    public void exportToFile(final String structureFilename, final String inWhereClause, final String outFileName, final ExportOptions options, final IProgressMonitor monitor, final MaximoResolver maximoResolver)
-    public void exportToFile(final String structureFilename, final String inWhereClause, final String outFileName, final MaximoResolver maximoResolver)
+    '''returns None\n\n
+    exportToFile(final String structureFilename, final String whereClause, final String outFileName)\n
+    exportToFile(final String structureFilename, final String inWhereClause, final String outFileName, final ExportOptions options, final IProgressMonitor monitor, final MaximoResolver maximoResolver)\n
+    exportToFile(final String structureFilename, final String inWhereClause, final String outFileName, final MaximoResolver maximoResolver)\n
     '''
 def exportToDocument():
-    '''public Document exportToDocument(final String structureFilename, final String inWhereClause, final MaximoResolver maximoResolver)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns Document\n\n
+    exportToDocument(final String structureFilename, final String inWhereClause, final MaximoResolver maximoResolver)\n
     '''
 def runExtension():
-    '''public boolean runExtension(final String extensionNames, final int mode, final Connection con, final Element e)
+    '''returns boolean\n\n
+    runExtension(final String extensionNames, final int mode, final Connection con, final Element e)\n
     '''
 def setUpdate():
-    '''public void setUpdate(final boolean shouldUpdate)
+    '''returns None\n\n
+    setUpdate(final boolean shouldUpdate)\n
     '''
 def setAddKeyColumns():
-    '''public void setAddKeyColumns(final boolean shouldAddKeyColumns)
+    '''returns None\n\n
+    setAddKeyColumns(final boolean shouldAddKeyColumns)\n
     '''
 def setUserDefinedKeyColumns():
-    '''public void setUserDefinedKeyColumns(final boolean shouldUse)
+    '''returns None\n\n
+    setUserDefinedKeyColumns(final boolean shouldUse)\n
     '''

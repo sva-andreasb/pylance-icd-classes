@@ -1,37 +1,49 @@
 ERROR_GROUP = "String  \"PMCFG\""
-def PmCfgBaseMbo():
-    '''public PmCfgBaseMbo(final MboSet ms, final String idAttribute)
+def ():
+    '''returns PmCfgBaseMbo\n\n
+    (final MboSet ms, final String idAttribute)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getID():
-    '''public long getID()
+    '''returns long\n\n
+    getID()\n
     '''
 def getList():
-    '''public MboSetRemote getList(final String attribute)
+    '''returns MboSetRemote\n\n
+    getList(final String attribute)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name, final String objectName, final String relationship)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name, final String objectName, final String relationship)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def isSelected():
-    '''public boolean isSelected()
+    '''returns boolean\n\n
+    isSelected()\n
     '''

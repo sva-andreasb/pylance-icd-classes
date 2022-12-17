@@ -1,3 +1,4 @@
-def UnsupportedSchemeException():
-    '''public UnsupportedSchemeException(final String message)
+def ():
+    '''returns UnsupportedSchemeException\n\n
+    (final String message)\n
     '''

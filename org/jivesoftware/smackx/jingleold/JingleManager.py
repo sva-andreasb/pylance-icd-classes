@@ -1,85 +1,96 @@
-def JingleManager():
-    '''public JingleManager(final XMPPConnection connection, final List<JingleMediaManager> jingleMediaManagers)
+def ():
+    '''returns JingleManager\n\n
+    (final XMPPConnection connection, final List<JingleMediaManager> jingleMediaManagers)\n
     '''
 def entriesAdded():
-    '''public void entriesAdded(final Collection<Jid> addresses)
+    '''returns None\n\n
+    entriesAdded(final Collection<Jid> addresses)\n
     '''
 def entriesUpdated():
-    '''public void entriesUpdated(final Collection<Jid> addresses)
+    '''returns None\n\n
+    entriesUpdated(final Collection<Jid> addresses)\n
     '''
 def entriesDeleted():
-    '''public void entriesDeleted(final Collection<Jid> addresses)
+    '''returns None\n\n
+    entriesDeleted(final Collection<Jid> addresses)\n
     '''
 def presenceChanged():
-    '''public void presenceChanged(final Presence presence)
-    '''
-def setJingleServiceEnabled():
-    '''public static void setJingleServiceEnabled()
+    '''returns None\n\n
+    presenceChanged(final Presence presence)\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
-    '''
-def setServiceEnabled():
-    '''public static synchronized void setServiceEnabled(final XMPPConnection connection, final boolean enabled)
-    '''
-def isServiceEnabled():
-    '''public static boolean isServiceEnabled(final XMPPConnection connection)
-    public static boolean isServiceEnabled(final XMPPConnection connection, final Jid userID)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''
 def getMediaManagers():
-    '''public List<JingleMediaManager> getMediaManagers()
+    '''returns List<JingleMediaManager>\n\n
+    getMediaManagers()\n
     '''
 def setMediaManagers():
-    '''public void setMediaManagers(final List<JingleMediaManager> jingleMediaManagers)
-    '''
-def addJingleSessionRequestListener():
-    '''public synchronized void addJingleSessionRequestListener(final JingleSessionRequestListener jingleSessionRequestListener)
+    '''returns None\n\n
+    setMediaManagers(final List<JingleMediaManager> jingleMediaManagers)\n
     '''
 def removeJingleSessionRequestListener():
-    '''public void removeJingleSessionRequestListener(final JingleSessionRequestListener jingleSessionRequestListener)
+    '''returns None\n\n
+    removeJingleSessionRequestListener(final JingleSessionRequestListener jingleSessionRequestListener)\n
     '''
 def addCreationListener():
-    '''public void addCreationListener(final CreatedJingleSessionListener createdJingleSessionListener)
+    '''returns None\n\n
+    addCreationListener(final CreatedJingleSessionListener createdJingleSessionListener)\n
     '''
 def removeCreationListener():
-    '''public void removeCreationListener(final CreatedJingleSessionListener createdJingleSessionListener)
+    '''returns None\n\n
+    removeCreationListener(final CreatedJingleSessionListener createdJingleSessionListener)\n
     '''
 def triggerSessionCreated():
-    '''public void triggerSessionCreated(final JingleSession jingleSession)
+    '''returns None\n\n
+    triggerSessionCreated(final JingleSession jingleSession)\n
     '''
 def sessionEstablished():
-    '''public void sessionEstablished(final PayloadType pt, final TransportCandidate rc, final TransportCandidate lc, final JingleSession jingleSession)
+    '''returns None\n\n
+    sessionEstablished(final PayloadType pt, final TransportCandidate rc, final TransportCandidate lc, final JingleSession jingleSession)\n
     '''
 def sessionDeclined():
-    '''public void sessionDeclined(final String reason, final JingleSession jingleSession)
+    '''returns None\n\n
+    sessionDeclined(final String reason, final JingleSession jingleSession)\n
     '''
 def sessionRedirected():
-    '''public void sessionRedirected(final String redirection, final JingleSession jingleSession)
+    '''returns None\n\n
+    sessionRedirected(final String redirection, final JingleSession jingleSession)\n
     '''
 def sessionClosed():
-    '''public void sessionClosed(final String reason, final JingleSession jingleSession)
+    '''returns None\n\n
+    sessionClosed(final String reason, final JingleSession jingleSession)\n
     '''
 def sessionClosedOnError():
-    '''public void sessionClosedOnError(final XMPPException e, final JingleSession jingleSession)
+    '''returns None\n\n
+    sessionClosedOnError(final XMPPException e, final JingleSession jingleSession)\n
     '''
 def sessionMediaReceived():
-    '''public void sessionMediaReceived(final JingleSession jingleSession, final String participant)
+    '''returns None\n\n
+    sessionMediaReceived(final JingleSession jingleSession, final String participant)\n
     '''
 def accept():
-    '''public boolean accept(final Stanza pin)
+    '''returns boolean\n\n
+    accept(final Stanza pin)\n
     '''
 def processStanza():
-    '''public void processStanza(final Stanza packet)
+    '''returns None\n\n
+    processStanza(final Stanza packet)\n
     '''
 def disconnectAllSessions():
-    '''public void disconnectAllSessions()
+    '''returns None\n\n
+    disconnectAllSessions()\n
     '''
 def createOutgoingJingleSession():
-    '''public JingleSession createOutgoingJingleSession(final EntityFullJid responder)
+    '''returns JingleSession\n\n
+    createOutgoingJingleSession(final EntityFullJid responder)\n
     '''
 def createIncomingJingleSession():
-    '''public JingleSession createIncomingJingleSession(final JingleSessionRequest request)
+    '''returns JingleSession\n\n
+    createIncomingJingleSession(final JingleSessionRequest request)\n
     '''
 def getSession():
-    '''public JingleSession getSession(final String jid)
+    '''returns JingleSession\n\n
+    getSession(final String jid)\n
     '''

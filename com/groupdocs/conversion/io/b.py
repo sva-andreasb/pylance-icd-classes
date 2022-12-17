@@ -1,11 +1,9 @@
-def toCharset():
-    '''public static Charset toCharset(final Charset charset)
-    public static Charset toCharset(final String charset)
-    '''
 def sort():
-    '''public File[] sort(final File... files)
-    public List<File> sort(final List<File> files)
+    '''returns List<File>\n\n
+    sort(final File... files)\n
+    sort(final List<File> files)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

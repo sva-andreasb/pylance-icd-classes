@@ -1,10 +1,13 @@
 def hasChanged():
-    '''public boolean hasChanged()
+    '''returns boolean\n\n
+    hasChanged()\n
     '''
 def wrapText():
-    '''public String wrapText(final String text)
-    public String wrapText(final String text, final int breakPoint)
+    '''returns String\n\n
+    wrapText(final String text)\n
+    wrapText(final String text, final int breakPoint)\n
     '''
 def getRenderId():
-    '''public String getRenderId()
+    '''returns String\n\n
+    getRenderId()\n
     '''

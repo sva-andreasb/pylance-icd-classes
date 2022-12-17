@@ -1,6 +1,8 @@
-def ASTORE():
-    '''public ASTORE(final int n)
+def ():
+    '''returns ASTORE\n\n
+    (final int n)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

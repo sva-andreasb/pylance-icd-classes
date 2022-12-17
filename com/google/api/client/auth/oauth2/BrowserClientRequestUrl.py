@@ -1,24 +1,32 @@
-def BrowserClientRequestUrl():
-    '''public BrowserClientRequestUrl(final String encodedAuthorizationServerUrl, final String clientId)
+def ():
+    '''returns BrowserClientRequestUrl\n\n
+    (final String encodedAuthorizationServerUrl, final String clientId)\n
     '''
 def setResponseTypes():
-    '''public BrowserClientRequestUrl setResponseTypes(final Collection<String> responseTypes)
+    '''returns BrowserClientRequestUrl\n\n
+    setResponseTypes(final Collection<String> responseTypes)\n
     '''
 def setRedirectUri():
-    '''public BrowserClientRequestUrl setRedirectUri(final String redirectUri)
+    '''returns BrowserClientRequestUrl\n\n
+    setRedirectUri(final String redirectUri)\n
     '''
 def setScopes():
-    '''public BrowserClientRequestUrl setScopes(final Collection<String> scopes)
+    '''returns BrowserClientRequestUrl\n\n
+    setScopes(final Collection<String> scopes)\n
     '''
 def setClientId():
-    '''public BrowserClientRequestUrl setClientId(final String clientId)
+    '''returns BrowserClientRequestUrl\n\n
+    setClientId(final String clientId)\n
     '''
 def setState():
-    '''public BrowserClientRequestUrl setState(final String state)
+    '''returns BrowserClientRequestUrl\n\n
+    setState(final String state)\n
     '''
 def set():
-    '''public BrowserClientRequestUrl set(final String fieldName, final Object value)
+    '''returns BrowserClientRequestUrl\n\n
+    set(final String fieldName, final Object value)\n
     '''
 def clone():
-    '''public BrowserClientRequestUrl clone()
+    '''returns BrowserClientRequestUrl\n\n
+    clone()\n
     '''

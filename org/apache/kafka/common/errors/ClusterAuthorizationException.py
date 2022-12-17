@@ -1,4 +1,5 @@
-def ClusterAuthorizationException():
-    '''public ClusterAuthorizationException(final String message)
-    public ClusterAuthorizationException(final String message, final Throwable cause)
+def ():
+    '''returns ClusterAuthorizationException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

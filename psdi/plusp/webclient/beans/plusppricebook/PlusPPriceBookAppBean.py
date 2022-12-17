@@ -1,6 +1,8 @@
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def REVISION():
-    '''public int REVISION()
+    '''returns int\n\n
+    REVISION()\n
     '''

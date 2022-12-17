@@ -1,3 +1,4 @@
-def PlusPLineStatusSet():
-    '''public PlusPLineStatusSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPLineStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,3 +1,4 @@
-def SKDComplianceWOListSet():
-    '''public SKDComplianceWOListSet(final MboServerInterface ms)
+def ():
+    '''returns SKDComplianceWOListSet\n\n
+    (final MboServerInterface ms)\n
     '''

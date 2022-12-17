@@ -1,27 +1,36 @@
-def FileAccessor():
-    '''public FileAccessor(final LifecycleManager manager, final File file)
+def ():
+    '''returns FileAccessor\n\n
+    (final LifecycleManager manager, final File file)\n
     '''
 def getDataHandler():
-    '''public DataHandler getDataHandler(final String contentType)
+    '''returns DataHandler\n\n
+    getDataHandler(final String contentType)\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getOutputStream():
-    '''public OutputStream getOutputStream()
+    '''returns OutputStream\n\n
+    getOutputStream()\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''
 def setFile():
-    '''public void setFile(final File file)
+    '''returns None\n\n
+    setFile(final File file)\n
     '''
 def getAccessCount():
-    '''public int getAccessCount()
+    '''returns int\n\n
+    getAccessCount()\n
     '''

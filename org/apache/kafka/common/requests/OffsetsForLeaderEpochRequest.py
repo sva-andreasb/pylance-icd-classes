@@ -1,30 +1,23 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def epochsByTopicPartition():
-    '''public Map<TopicPartition, Integer> epochsByTopicPartition()
-    '''
-def OffsetsForLeaderEpochRequest():
-    '''public OffsetsForLeaderEpochRequest(final Map<TopicPartition, Integer> epochsByPartition, final short version)
-    public OffsetsForLeaderEpochRequest(final Struct struct, final short version)
-    '''
-def parse():
-    '''public static OffsetsForLeaderEpochRequest parse(final ByteBuffer buffer, final short versionId)
-    public static OffsetsForLeaderEpochRequest parse(final ByteBuffer buffer, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Map<TopicPartition, Integer> epochsByPartition, final short version)\n
+    (final Struct struct, final short version)\n
+    ()\n
+    (final Map<TopicPartition, Integer> epochsByPartition)\n
     '''
 def getErrorResponse():
-    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-    '''
-def Builder():
-    '''public Builder()
-    public Builder(final Map<TopicPartition, Integer> epochsByPartition)
+    '''returns AbstractResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def add():
-    '''public Builder add(final TopicPartition topicPartition, final Integer epoch)
+    '''returns Builder\n\n
+    add(final TopicPartition topicPartition, final Integer epoch)\n
     '''
 def build():
-    '''public OffsetsForLeaderEpochRequest build(final short version)
+    '''returns OffsetsForLeaderEpochRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

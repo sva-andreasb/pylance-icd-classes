@@ -1,6 +1,8 @@
-def SelectArtifactContainer():
-    '''public SelectArtifactContainer()
+def ():
+    '''returns SelectArtifactContainer\n\n
+    ()\n
     '''
 def SELECT():
-    '''public int SELECT()
+    '''returns int\n\n
+    SELECT()\n
     '''

@@ -1,3 +1,4 @@
 def addMembers():
-    '''public int addMembers()
+    '''returns int\n\n
+    addMembers()\n
     '''

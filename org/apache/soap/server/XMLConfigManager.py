@@ -1,12 +1,16 @@
-def XMLConfigManager():
-    '''public XMLConfigManager()
+def ():
+    '''returns XMLConfigManager\n\n
+    ()\n
     '''
 def loadRegistry():
-    '''public void loadRegistry()
+    '''returns None\n\n
+    loadRegistry()\n
     '''
 def saveRegistry():
-    '''public void saveRegistry()
+    '''returns None\n\n
+    saveRegistry()\n
     '''
 def setOptions():
-    '''public void setOptions(final Hashtable hashtable)
+    '''returns None\n\n
+    setOptions(final Hashtable hashtable)\n
     '''

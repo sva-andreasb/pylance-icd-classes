@@ -1,6 +1,8 @@
-def KPIHistory():
-    '''public KPIHistory(final MboSet ms)
+def ():
+    '''returns KPIHistory\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

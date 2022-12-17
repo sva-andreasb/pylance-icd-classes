@@ -1,27 +1,36 @@
-def DepSched():
-    '''public DepSched(final MboSet ms)
+def ():
+    '''returns DepSched\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def validatePreview():
-    '''public void validatePreview()
+    '''returns None\n\n
+    validatePreview()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def generateDepreciationSchedulePeriod():
-    '''public void generateDepreciationSchedulePeriod()
+    '''returns None\n\n
+    generateDepreciationSchedulePeriod()\n
     '''
 def generateDepreciationSchedulePreview():
-    '''public void generateDepreciationSchedulePreview()
+    '''returns None\n\n
+    generateDepreciationSchedulePreview()\n
     '''
 def recalcPoint():
-    '''public boolean recalcPoint(final DepSchedPeriodsSetRemote mboSetTarget)
+    '''returns boolean\n\n
+    recalcPoint(final DepSchedPeriodsSetRemote mboSetTarget)\n
     '''
 def generateDepreciationFinTransaction():
-    '''public void generateDepreciationFinTransaction()
+    '''returns None\n\n
+    generateDepreciationFinTransaction()\n
     '''

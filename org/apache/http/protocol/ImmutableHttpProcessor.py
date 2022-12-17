@@ -1,11 +1,13 @@
-def ImmutableHttpProcessor():
-    '''public ImmutableHttpProcessor(final HttpRequestInterceptor[] requestInterceptors, final HttpResponseInterceptor[] responseInterceptors)
-    public ImmutableHttpProcessor(final List<HttpRequestInterceptor> requestInterceptors, final List<HttpResponseInterceptor> responseInterceptors)
-    public ImmutableHttpProcessor(final HttpRequestInterceptorList requestInterceptors, final HttpResponseInterceptorList responseInterceptors)
-    public ImmutableHttpProcessor(final HttpRequestInterceptor... requestInterceptors)
-    public ImmutableHttpProcessor(final HttpResponseInterceptor... responseInterceptors)
+def ():
+    '''returns ImmutableHttpProcessor\n\n
+    (final HttpRequestInterceptor[] requestInterceptors, final HttpResponseInterceptor[] responseInterceptors)\n
+    (final List<HttpRequestInterceptor> requestInterceptors, final List<HttpResponseInterceptor> responseInterceptors)\n
+    (final HttpRequestInterceptorList requestInterceptors, final HttpResponseInterceptorList responseInterceptors)\n
+    (final HttpRequestInterceptor... requestInterceptors)\n
+    (final HttpResponseInterceptor... responseInterceptors)\n
     '''
 def process():
-    '''public void process(final HttpRequest request, final HttpContext context)
-    public void process(final HttpResponse response, final HttpContext context)
+    '''returns None\n\n
+    process(final HttpRequest request, final HttpContext context)\n
+    process(final HttpResponse response, final HttpContext context)\n
     '''

@@ -1,182 +1,240 @@
 FORMAT_ID = "String  \"{D5CDD505-2E9C-101B-9397-08002B2CF9AE}\""
-def POIXMLProperties():
-    '''public POIXMLProperties(final OPCPackage docPackage)
+def ():
+    '''returns POIXMLProperties\n\n
+    (final OPCPackage docPackage)\n
     '''
 def getCoreProperties():
-    '''public CoreProperties getCoreProperties()
+    '''returns CoreProperties\n\n
+    getCoreProperties()\n
     '''
 def getExtendedProperties():
-    '''public ExtendedProperties getExtendedProperties()
+    '''returns ExtendedProperties\n\n
+    getExtendedProperties()\n
     '''
 def getCustomProperties():
-    '''public CustomProperties getCustomProperties()
+    '''returns CustomProperties\n\n
+    getCustomProperties()\n
     '''
 def getThumbnailFilename():
-    '''public String getThumbnailFilename()
+    '''returns String\n\n
+    getThumbnailFilename()\n
     '''
 def getThumbnailImage():
-    '''public InputStream getThumbnailImage()
+    '''returns InputStream\n\n
+    getThumbnailImage()\n
     '''
 def setThumbnail():
-    '''public void setThumbnail(final String filename, final InputStream imageData)
+    '''returns None\n\n
+    setThumbnail(final String filename, final InputStream imageData)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''
 def getCategory():
-    '''public String getCategory()
+    '''returns String\n\n
+    getCategory()\n
     '''
 def setCategory():
-    '''public void setCategory(final String category)
+    '''returns None\n\n
+    setCategory(final String category)\n
     '''
 def getContentStatus():
-    '''public String getContentStatus()
+    '''returns String\n\n
+    getContentStatus()\n
     '''
 def setContentStatus():
-    '''public void setContentStatus(final String contentStatus)
+    '''returns None\n\n
+    setContentStatus(final String contentStatus)\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def setContentType():
-    '''public void setContentType(final String contentType)
+    '''returns None\n\n
+    setContentType(final String contentType)\n
     '''
 def getCreated():
-    '''public Date getCreated()
+    '''returns Date\n\n
+    getCreated()\n
     '''
 def setCreated():
-    '''public void setCreated(final Nullable<Date> date)
-    public void setCreated(final String date)
+    '''returns None\n\n
+    setCreated(final Nullable<Date> date)\n
+    setCreated(final String date)\n
     '''
 def getCreator():
-    '''public String getCreator()
+    '''returns String\n\n
+    getCreator()\n
     '''
 def setCreator():
-    '''public void setCreator(final String creator)
+    '''returns None\n\n
+    setCreator(final String creator)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def getIdentifier():
-    '''public String getIdentifier()
+    '''returns String\n\n
+    getIdentifier()\n
     '''
 def setIdentifier():
-    '''public void setIdentifier(final String identifier)
+    '''returns None\n\n
+    setIdentifier(final String identifier)\n
     '''
 def getKeywords():
-    '''public String getKeywords()
+    '''returns String\n\n
+    getKeywords()\n
     '''
 def setKeywords():
-    '''public void setKeywords(final String keywords)
+    '''returns None\n\n
+    setKeywords(final String keywords)\n
     '''
 def getLastPrinted():
-    '''public Date getLastPrinted()
+    '''returns Date\n\n
+    getLastPrinted()\n
     '''
 def setLastPrinted():
-    '''public void setLastPrinted(final Nullable<Date> date)
-    public void setLastPrinted(final String date)
+    '''returns None\n\n
+    setLastPrinted(final Nullable<Date> date)\n
+    setLastPrinted(final String date)\n
     '''
 def getLastModifiedByUser():
-    '''public String getLastModifiedByUser()
+    '''returns String\n\n
+    getLastModifiedByUser()\n
     '''
 def setLastModifiedByUser():
-    '''public void setLastModifiedByUser(final String user)
+    '''returns None\n\n
+    setLastModifiedByUser(final String user)\n
     '''
 def getModified():
-    '''public Date getModified()
+    '''returns Date\n\n
+    getModified()\n
     '''
 def setModified():
-    '''public void setModified(final Nullable<Date> date)
-    public void setModified(final String date)
+    '''returns None\n\n
+    setModified(final Nullable<Date> date)\n
+    setModified(final String date)\n
     '''
 def getSubject():
-    '''public String getSubject()
+    '''returns String\n\n
+    getSubject()\n
     '''
 def setSubjectProperty():
-    '''public void setSubjectProperty(final String subject)
+    '''returns None\n\n
+    setSubjectProperty(final String subject)\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getRevision():
-    '''public String getRevision()
+    '''returns String\n\n
+    getRevision()\n
     '''
 def setRevision():
-    '''public void setRevision(final String revision)
+    '''returns None\n\n
+    setRevision(final String revision)\n
     '''
 def getUnderlyingProperties():
-    '''public PackagePropertiesPart getUnderlyingProperties()
-    public CTProperties getUnderlyingProperties()
+    '''returns CTProperties\n\n
+    getUnderlyingProperties()\n
+    getUnderlyingProperties()\n
     '''
 def getTemplate():
-    '''public String getTemplate()
+    '''returns String\n\n
+    getTemplate()\n
     '''
 def getManager():
-    '''public String getManager()
+    '''returns String\n\n
+    getManager()\n
     '''
 def getCompany():
-    '''public String getCompany()
+    '''returns String\n\n
+    getCompany()\n
     '''
 def getPresentationFormat():
-    '''public String getPresentationFormat()
+    '''returns String\n\n
+    getPresentationFormat()\n
     '''
 def getApplication():
-    '''public String getApplication()
+    '''returns String\n\n
+    getApplication()\n
     '''
 def getAppVersion():
-    '''public String getAppVersion()
+    '''returns String\n\n
+    getAppVersion()\n
     '''
 def getPages():
-    '''public int getPages()
+    '''returns int\n\n
+    getPages()\n
     '''
 def getWords():
-    '''public int getWords()
+    '''returns int\n\n
+    getWords()\n
     '''
 def getCharacters():
-    '''public int getCharacters()
+    '''returns int\n\n
+    getCharacters()\n
     '''
 def getCharactersWithSpaces():
-    '''public int getCharactersWithSpaces()
+    '''returns int\n\n
+    getCharactersWithSpaces()\n
     '''
 def getLines():
-    '''public int getLines()
+    '''returns int\n\n
+    getLines()\n
     '''
 def getParagraphs():
-    '''public int getParagraphs()
+    '''returns int\n\n
+    getParagraphs()\n
     '''
 def getSlides():
-    '''public int getSlides()
+    '''returns int\n\n
+    getSlides()\n
     '''
 def getNotes():
-    '''public int getNotes()
+    '''returns int\n\n
+    getNotes()\n
     '''
 def getTotalTime():
-    '''public int getTotalTime()
+    '''returns int\n\n
+    getTotalTime()\n
     '''
 def getHiddenSlides():
-    '''public int getHiddenSlides()
+    '''returns int\n\n
+    getHiddenSlides()\n
     '''
 def getMMClips():
-    '''public int getMMClips()
+    '''returns int\n\n
+    getMMClips()\n
     '''
 def getHyperlinkBase():
-    '''public String getHyperlinkBase()
+    '''returns String\n\n
+    getHyperlinkBase()\n
     '''
 def addProperty():
-    '''public void addProperty(final String name, final String value)
-    public void addProperty(final String name, final double value)
-    public void addProperty(final String name, final int value)
-    public void addProperty(final String name, final boolean value)
+    '''returns None\n\n
+    addProperty(final String name, final String value)\n
+    addProperty(final String name, final double value)\n
+    addProperty(final String name, final int value)\n
+    addProperty(final String name, final boolean value)\n
     '''
 def contains():
-    '''public boolean contains(final String name)
+    '''returns boolean\n\n
+    contains(final String name)\n
     '''
 def getProperty():
-    '''public CTProperty getProperty(final String name)
+    '''returns CTProperty\n\n
+    getProperty(final String name)\n
     '''

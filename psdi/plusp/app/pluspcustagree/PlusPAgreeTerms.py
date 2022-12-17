@@ -1,15 +1,20 @@
-def PlusPAgreeTerms():
-    '''public PlusPAgreeTerms(final MboSet ms)
+def ():
+    '''returns PlusPAgreeTerms\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def validateAttributes():
-    '''public Hashtable validateAttributes()
+    '''returns Hashtable\n\n
+    validateAttributes()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String s, final String s2)
+    '''returns None\n\n
+    propagateKeyValue(final String s, final String s2)\n
     '''

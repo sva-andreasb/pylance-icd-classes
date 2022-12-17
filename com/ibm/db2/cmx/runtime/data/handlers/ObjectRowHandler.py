@@ -1,3 +1,4 @@
 def handle():
-    '''public Object[] handle(final ResultSet set, Object[] array)
+    '''returns Object[]\n\n
+    handle(final ResultSet set, Object[] array)\n
     '''

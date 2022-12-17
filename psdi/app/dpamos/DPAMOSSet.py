@@ -1,3 +1,4 @@
-def DPAMOSSet():
-    '''public DPAMOSSet(final MboServerInterface ms)
+def ():
+    '''returns DPAMOSSet\n\n
+    (final MboServerInterface ms)\n
     '''

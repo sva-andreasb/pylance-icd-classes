@@ -1,24 +1,28 @@
-def MRLineSet():
-    '''public MRLineSet(final MboServerInterface ms)
-    '''
-def init():
-    '''public synchronized void init()
+def ():
+    '''returns MRLineSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def getPriceObject():
-    '''public DefaultOrderPrice getPriceObject()
+    '''returns DefaultOrderPrice\n\n
+    getPriceObject()\n
     '''
 def findMRLinesForCurrentUser():
-    '''public void findMRLinesForCurrentUser()
+    '''returns None\n\n
+    findMRLinesForCurrentUser()\n
     '''
 def findMRLinesForPersonCode():
-    '''public void findMRLinesForPersonCode(final String personId)
+    '''returns None\n\n
+    findMRLinesForPersonCode(final String personId)\n
     '''
 def returnIPCParts():
-    '''public void returnIPCParts(final IpcSelectedPartsSetRemote partset)
+    '''returns None\n\n
+    returnIPCParts(final IpcSelectedPartsSetRemote partset)\n
     '''
 def preValidateIpcBom():
-    '''public void preValidateIpcBom(final IpcBomSetRemote bomset)
+    '''returns None\n\n
+    preValidateIpcBom(final IpcBomSetRemote bomset)\n
     '''

@@ -1,6 +1,8 @@
-def RFC6265StrictSpec():
-    '''public RFC6265StrictSpec()
+def ():
+    '''returns RFC6265StrictSpec\n\n
+    ()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

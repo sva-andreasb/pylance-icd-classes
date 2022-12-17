@@ -1,18 +1,24 @@
 def getDataAttribute():
-    '''public String getDataAttribute()
+    '''returns String\n\n
+    getDataAttribute()\n
     '''
 def setDataAttribute():
-    '''public void setDataAttribute(final String dataAttribute)
+    '''returns None\n\n
+    setDataAttribute(final String dataAttribute)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def getXmlId():
-    '''public String getXmlId()
+    '''returns String\n\n
+    getXmlId()\n
     '''
 def setXmlId():
-    '''public void setXmlId(final String xmlId)
+    '''returns None\n\n
+    setXmlId(final String xmlId)\n
     '''

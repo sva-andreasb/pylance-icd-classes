@@ -1,24 +1,32 @@
-def MultiNetIntegerImpl():
-    '''public MultiNetIntegerImpl()
+def ():
+    '''returns MultiNetIntegerImpl\n\n
+    ()\n
     '''
 def endReading():
-    '''public void endReading()
+    '''returns None\n\n
+    endReading()\n
     '''
 def getGlossCollectionCount():
-    '''public int getGlossCollectionCount()
+    '''returns int\n\n
+    getGlossCollectionCount()\n
     '''
 def processGlosses():
-    '''public void processGlosses(final GlossProcessor glossProcessor)
+    '''returns None\n\n
+    processGlosses(final GlossProcessor glossProcessor)\n
     '''
 def writeGlossCollections():
-    '''public void writeGlossCollections(final DataOutput dataOutput, final GlossMapper glossMapper)
+    '''returns None\n\n
+    writeGlossCollections(final DataOutput dataOutput, final GlossMapper glossMapper)\n
     '''
 def startBuild():
-    '''public void startBuild(final boolean b)
+    '''returns None\n\n
+    startBuild(final boolean b)\n
     '''
 def endBuild():
-    '''public int endBuild()
+    '''returns int\n\n
+    endBuild()\n
     '''
 def compareTo():
-    '''public int compareTo(final Object o)
+    '''returns int\n\n
+    compareTo(final Object o)\n
     '''

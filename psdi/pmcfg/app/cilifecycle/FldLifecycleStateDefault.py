@@ -1,7 +1,9 @@
-def FldLifecycleStateDefault():
-    '''public FldLifecycleStateDefault()
-    public FldLifecycleStateDefault(final MboValue mbv)
+def ():
+    '''returns FldLifecycleStateDefault\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

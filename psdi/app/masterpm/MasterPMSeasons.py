@@ -1,9 +1,12 @@
-def MasterPMSeasons():
-    '''public MasterPMSeasons(final MboSet ms)
+def ():
+    '''returns MasterPMSeasons\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def validDayMonth():
-    '''public void validDayMonth(final int newDay, final String month)
+    '''returns None\n\n
+    validDayMonth(final int newDay, final String month)\n
     '''

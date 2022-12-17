@@ -1,3 +1,4 @@
-def FldAssignLaborCraft():
-    '''public FldAssignLaborCraft(final MboValue mbv)
+def ():
+    '''returns FldAssignLaborCraft\n\n
+    (final MboValue mbv)\n
     '''

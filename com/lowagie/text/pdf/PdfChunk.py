@@ -1,27 +1,32 @@
 def getUnicodeEquivalent():
-    '''public char getUnicodeEquivalent(final char c)
+    '''returns char\n\n
+    getUnicodeEquivalent(final char c)\n
     '''
 def isNewlineSplit():
-    '''public boolean isNewlineSplit()
+    '''returns boolean\n\n
+    isNewlineSplit()\n
     '''
 def getWidthCorrected():
-    '''public float getWidthCorrected(final float charSpacing, final float wordSpacing)
+    '''returns float\n\n
+    getWidthCorrected(final float charSpacing, final float wordSpacing)\n
     '''
 def getTextRise():
-    '''public float getTextRise()
+    '''returns float\n\n
+    getTextRise()\n
     '''
 def trimLastSpace():
-    '''public float trimLastSpace()
+    '''returns float\n\n
+    trimLastSpace()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def isSplitCharacter():
-    '''public boolean isSplitCharacter(final int start, final int current, final int end, final char[] cc, final PdfChunk[] ck)
+    '''returns boolean\n\n
+    isSplitCharacter(final int start, final int current, final int end, final char[] cc, final PdfChunk[] ck)\n
     '''
 def changeLeading():
-    '''public boolean changeLeading()
-    '''
-def noPrint():
-    '''public static boolean noPrint(final char c)
+    '''returns boolean\n\n
+    changeLeading()\n
     '''

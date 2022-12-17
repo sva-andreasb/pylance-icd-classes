@@ -1,21 +1,28 @@
-def MaxSysIndexesSet():
-    '''public MaxSysIndexesSet(final MboServerInterface ms)
+def ():
+    '''returns MaxSysIndexesSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def getValueCHANGE():
-    '''public String getValueCHANGE()
+    '''returns String\n\n
+    getValueCHANGE()\n
     '''
 def getValueADD():
-    '''public String getValueADD()
+    '''returns String\n\n
+    getValueADD()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def finalize():
-    '''public void finalize()
+    '''returns None\n\n
+    finalize()\n
     '''

@@ -1,6 +1,8 @@
 def handleMessage():
-    '''public void handleMessage(final String msgId, final Object... args)
+    '''returns None\n\n
+    handleMessage(final String msgId, final Object... args)\n
     '''
 def get():
-    '''public String get(final long timeoutMS)
+    '''returns String\n\n
+    get(final long timeoutMS)\n
     '''

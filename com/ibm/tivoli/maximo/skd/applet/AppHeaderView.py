@@ -2,32 +2,42 @@ TOOLBAR1 = "int  0"
 TOOLBAR2 = "int  1"
 TITLE = "int  2"
 def getToolbar1():
-    '''public Component getToolbar1()
+    '''returns Component\n\n
+    getToolbar1()\n
     '''
 def getToolbar2():
-    '''public Component getToolbar2()
+    '''returns Component\n\n
+    getToolbar2()\n
     '''
 def getTitle():
-    '''public Component getTitle()
+    '''returns Component\n\n
+    getTitle()\n
     '''
-def AppHeaderView():
-    '''public AppHeaderView(final Container mainView)
+def ():
+    '''returns AppHeaderView\n\n
+    (final Container mainView)\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent e)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent e)\n
     '''
 def add():
-    '''public Component add(final Component comp, final int index)
+    '''returns Component\n\n
+    add(final Component comp, final int index)\n
     '''
 def setToolbar1Visible():
-    '''public void setToolbar1Visible()
+    '''returns None\n\n
+    setToolbar1Visible()\n
     '''
 def setToolbar2Visible():
-    '''public void setToolbar2Visible()
+    '''returns None\n\n
+    setToolbar2Visible()\n
     '''
 def setTitleVisible():
-    '''public void setTitleVisible(final boolean visible)
+    '''returns None\n\n
+    setTitleVisible(final boolean visible)\n
     '''
 def setTitleText():
-    '''public void setTitleText(String name)
+    '''returns None\n\n
+    setTitleText(String name)\n
     '''

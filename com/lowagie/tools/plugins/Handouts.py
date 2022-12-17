@@ -1,12 +1,12 @@
-def Handouts():
-    '''public Handouts()
+def ():
+    '''returns Handouts\n\n
+    ()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def valueHasChanged():
-    '''public void valueHasChanged(final ToolArgument arg)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns None\n\n
+    valueHasChanged(final ToolArgument arg)\n
     '''

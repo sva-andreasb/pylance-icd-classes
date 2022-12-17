@@ -1,21 +1,28 @@
-def LoaderTools():
-    '''public LoaderTools(final ModelProcessIntf loader)
+def ():
+    '''returns LoaderTools\n\n
+    (final ModelProcessIntf loader)\n
     '''
 def canProcessItem():
-    '''public boolean canProcessItem(final ItemRESOURCE resource)
+    '''returns boolean\n\n
+    canProcessItem(final ItemRESOURCE resource)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def matchItem():
-    '''public MboRemote matchItem(final ItemRESOURCE resource, final MboSetRemote toolsSet)
+    '''returns MboRemote\n\n
+    matchItem(final ItemRESOURCE resource, final MboSetRemote toolsSet)\n
     '''
 def addItem():
-    '''public MboRemote addItem(final ItemRESOURCE resource, final MboSetRemote itemSet)
+    '''returns MboRemote\n\n
+    addItem(final ItemRESOURCE resource, final MboSetRemote itemSet)\n
     '''
 def update():
-    '''public void update(final MboRemote toolMbo, final ItemRESOURCE resource)
+    '''returns None\n\n
+    update(final MboRemote toolMbo, final ItemRESOURCE resource)\n
     '''
 def addAttributeValues():
-    '''public int addAttributeValues(final MboRemote mbo, final ItemRESOURCE resource)
+    '''returns int\n\n
+    addAttributeValues(final MboRemote mbo, final ItemRESOURCE resource)\n
     '''

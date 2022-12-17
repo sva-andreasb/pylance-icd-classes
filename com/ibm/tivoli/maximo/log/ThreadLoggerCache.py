@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static final ThreadLoggerCache getInstance()
-    '''
 def getLogInfo():
-    '''public LogInfo getLogInfo(final String key)
+    '''returns LogInfo\n\n
+    getLogInfo(final String key)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

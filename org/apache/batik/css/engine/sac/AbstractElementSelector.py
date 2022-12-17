@@ -1,12 +1,16 @@
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getNamespaceURI():
-    '''public String getNamespaceURI()
+    '''returns String\n\n
+    getNamespaceURI()\n
     '''
 def getLocalName():
-    '''public String getLocalName()
+    '''returns String\n\n
+    getLocalName()\n
     '''
 def fillAttributeSet():
-    '''public void fillAttributeSet(final Set attrSet)
+    '''returns None\n\n
+    fillAttributeSet(final Set attrSet)\n
     '''

@@ -1,4 +1,5 @@
-def LoadingException():
-    '''public LoadingException()
-    public LoadingException(final String message)
+def ():
+    '''returns LoadingException\n\n
+    ()\n
+    (final String message)\n
     '''

@@ -1,62 +1,81 @@
-def MetaFile():
-    '''public MetaFile(final String label, String fn)
+def ():
+    '''returns MetaFile\n\n
+    (final String label, String fn)\n
     '''
 def existsMetaData():
-    '''public boolean existsMetaData()
+    '''returns boolean\n\n
+    existsMetaData()\n
     '''
 def getFilename():
-    '''public String getFilename()
+    '''returns String\n\n
+    getFilename()\n
     '''
 def hasProperty():
-    '''public boolean hasProperty(final String key)
+    '''returns boolean\n\n
+    hasProperty(final String key)\n
     '''
 def getProperty():
-    '''public String getProperty(final String key)
-    public String getProperty(final String key, final String defaultString)
+    '''returns String\n\n
+    getProperty(final String key)\n
+    getProperty(final String key, final String defaultString)\n
     '''
 def getPropertyAsInteger():
-    '''public int getPropertyAsInteger(final String key)
-    public int getPropertyAsInteger(final String key, final int defaultValue)
+    '''returns int\n\n
+    getPropertyAsInteger(final String key)\n
+    getPropertyAsInteger(final String key, final int defaultValue)\n
     '''
 def getPropertySplit():
-    '''public String[] getPropertySplit(final String key)
-    public String[] getPropertySplit(final String key, final String defaultString)
+    '''returns String[]\n\n
+    getPropertySplit(final String key)\n
+    getPropertySplit(final String key, final String defaultString)\n
     '''
 def setProperty():
-    '''public void setProperty(final String key, final String value)
-    public void setProperty(final String key, final int value)
+    '''returns None\n\n
+    setProperty(final String key, final String value)\n
+    setProperty(final String key, final int value)\n
     '''
 def propertyEquals():
-    '''public boolean propertyEquals(final String key, final String value)
+    '''returns boolean\n\n
+    propertyEquals(final String key, final String value)\n
     '''
 def ensurePropertySet():
-    '''public void ensurePropertySet(final String key, final String expected)
+    '''returns None\n\n
+    ensurePropertySet(final String key, final String expected)\n
     '''
 def getOrSetDefault():
-    '''public String getOrSetDefault(final String key, final String expected)
+    '''returns String\n\n
+    getOrSetDefault(final String key, final String expected)\n
     '''
 def checkOrSetMetadata():
-    '''public void checkOrSetMetadata(final String key, final String expected)
+    '''returns None\n\n
+    checkOrSetMetadata(final String key, final String expected)\n
     '''
 def checkMetadata():
-    '''public void checkMetadata(final String key, final String expected)
+    '''returns None\n\n
+    checkMetadata(final String key, final String expected)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def dump():
-    '''public void dump(final PrintStream output)
+    '''returns None\n\n
+    dump(final PrintStream output)\n
     '''
 def sync():
-    '''public void sync()
-    public void sync(final boolean force)
+    '''returns None\n\n
+    sync()\n
+    sync(final boolean force)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def compare():
-    '''public int compare(final String o1, final String o2)
+    '''returns int\n\n
+    compare(final String o1, final String o2)\n
     '''

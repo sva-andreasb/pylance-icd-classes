@@ -1,3 +1,4 @@
-def ReconAssetLink():
-    '''public ReconAssetLink(final MboSet ms)
+def ():
+    '''returns ReconAssetLink\n\n
+    (final MboSet ms)\n
     '''

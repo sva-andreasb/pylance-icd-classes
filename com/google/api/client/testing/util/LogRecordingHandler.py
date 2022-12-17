@@ -1,15 +1,20 @@
-def LogRecordingHandler():
-    '''public LogRecordingHandler()
+def ():
+    '''returns LogRecordingHandler\n\n
+    ()\n
     '''
 def publish():
-    '''public void publish(final LogRecord record)
+    '''returns None\n\n
+    publish(final LogRecord record)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def messages():
-    '''public List<String> messages()
+    '''returns List<String>\n\n
+    messages()\n
     '''

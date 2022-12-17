@@ -1,42 +1,56 @@
-def RandomAccess():
-    '''public RandomAccess()
+def ():
+    '''returns RandomAccess\n\n
+    ()\n
     '''
 def level1():
-    '''public Boolean level1()
+    '''returns Boolean\n\n
+    level1()\n
     '''
 def writeMssCache():
-    '''public void writeMssCache(final RandomAccessFile raf)
+    '''returns None\n\n
+    writeMssCache(final RandomAccessFile raf)\n
     '''
 def writeMeCache():
-    '''public boolean writeMeCache(final RandomAccessFile raf)
+    '''returns boolean\n\n
+    writeMeCache(final RandomAccessFile raf)\n
     '''
 def writeAbstractResourceCache():
-    '''public boolean writeAbstractResourceCache(final RandomAccessFile raf)
+    '''returns boolean\n\n
+    writeAbstractResourceCache(final RandomAccessFile raf)\n
     '''
 def writeExternalRelnCache():
-    '''public boolean writeExternalRelnCache()
+    '''returns boolean\n\n
+    writeExternalRelnCache()\n
     '''
 def seekToPos():
-    '''public void seekToPos(final RandomAccessFile raf, final long offset)
+    '''returns None\n\n
+    seekToPos(final RandomAccessFile raf, final long offset)\n
     '''
 def readObjectFromXml():
-    '''public String readObjectFromXml(final RandomAccessFile raf, final long startOffset)
+    '''returns String\n\n
+    readObjectFromXml(final RandomAccessFile raf, final long startOffset)\n
     '''
 def setFile():
-    '''public void setFile(final String fileName)
+    '''returns None\n\n
+    setFile(final String fileName)\n
     '''
 def setProperties():
-    '''public void setProperties(final BulkLoaderProperties blPropsIn)
+    '''returns None\n\n
+    setProperties(final BulkLoaderProperties blPropsIn)\n
     '''
 def debugCache():
-    '''public void debugCache(final KnownList cache)
+    '''returns None\n\n
+    debugCache(final KnownList cache)\n
     '''
 def traverseChildren():
-    '''public void traverseChildren(final KnownEntry entry, final KnownList cache)
+    '''returns None\n\n
+    traverseChildren(final KnownEntry entry, final KnownList cache)\n
     '''
 def setClient():
-    '''public void setClient(final DisClient disClient)
+    '''returns None\n\n
+    setClient(final DisClient disClient)\n
     '''
 def logNotAttemptedCI():
-    '''public void logNotAttemptedCI(final String thisObjId, final KnownEntry entry, final String parentName)
+    '''returns None\n\n
+    logNotAttemptedCI(final String thisObjId, final KnownEntry entry, final String parentName)\n
     '''

@@ -1,32 +1,42 @@
-def ManagementSoftwareSystem():
-    '''public ManagementSoftwareSystem(final String mssName, final int cdmVersion, final int cdmRelease, final int cdmModifier)
-    public ManagementSoftwareSystem(final String hostName, final String manufacturerName, final String productName, final int cdmVersion, final int cdmRelease, final int cdmModifier)
-    public ManagementSoftwareSystem(final String hostName, final String manufacturerName, final String productName, final String subcomponent, final String subcomponentInstanceName, final int cdmVersion, final int cdmRelease, final int cdmModifier)
+def ():
+    '''returns ManagementSoftwareSystem\n\n
+    (final String mssName, final int cdmVersion, final int cdmRelease, final int cdmModifier)\n
+    (final String hostName, final String manufacturerName, final String productName, final int cdmVersion, final int cdmRelease, final int cdmModifier)\n
+    (final String hostName, final String manufacturerName, final String productName, final String subcomponent, final String subcomponentInstanceName, final int cdmVersion, final int cdmRelease, final int cdmModifier)\n
     '''
 def getVersion():
-    '''public int getVersion()
+    '''returns int\n\n
+    getVersion()\n
     '''
 def getRelease():
-    '''public int getRelease()
+    '''returns int\n\n
+    getRelease()\n
     '''
 def getModifier():
-    '''public int getModifier()
+    '''returns int\n\n
+    getModifier()\n
     '''
 def getMssName():
-    '''public String getMssName()
+    '''returns String\n\n
+    getMssName()\n
     '''
 def getHostName():
-    '''public String getHostName()
+    '''returns String\n\n
+    getHostName()\n
     '''
 def getManufacturerName():
-    '''public String getManufacturerName()
+    '''returns String\n\n
+    getManufacturerName()\n
     '''
 def getProductName():
-    '''public String getProductName()
+    '''returns String\n\n
+    getProductName()\n
     '''
 def getSubcomponent():
-    '''public String getSubcomponent()
+    '''returns String\n\n
+    getSubcomponent()\n
     '''
 def getSubcomponentInstanceName():
-    '''public String getSubcomponentInstanceName()
+    '''returns String\n\n
+    getSubcomponentInstanceName()\n
     '''

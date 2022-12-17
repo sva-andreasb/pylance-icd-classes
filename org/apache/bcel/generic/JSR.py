@@ -1,9 +1,12 @@
-def JSR():
-    '''public JSR(final InstructionHandle target)
+def ():
+    '''returns JSR\n\n
+    (final InstructionHandle target)\n
     '''
 def dump():
-    '''public void dump(final DataOutputStream out)
+    '''returns None\n\n
+    dump(final DataOutputStream out)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

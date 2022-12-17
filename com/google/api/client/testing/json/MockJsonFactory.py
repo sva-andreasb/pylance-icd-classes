@@ -1,10 +1,12 @@
 def createJsonParser():
-    '''public JsonParser createJsonParser(final InputStream in)
-    public JsonParser createJsonParser(final InputStream in, final Charset charset)
-    public JsonParser createJsonParser(final String value)
-    public JsonParser createJsonParser(final Reader reader)
+    '''returns JsonParser\n\n
+    createJsonParser(final InputStream in)\n
+    createJsonParser(final InputStream in, final Charset charset)\n
+    createJsonParser(final String value)\n
+    createJsonParser(final Reader reader)\n
     '''
 def createJsonGenerator():
-    '''public JsonGenerator createJsonGenerator(final OutputStream out, final Charset enc)
-    public JsonGenerator createJsonGenerator(final Writer writer)
+    '''returns JsonGenerator\n\n
+    createJsonGenerator(final OutputStream out, final Charset enc)\n
+    createJsonGenerator(final Writer writer)\n
     '''

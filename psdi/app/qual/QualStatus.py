@@ -1,9 +1,12 @@
-def QualStatus():
-    '''public QualStatus(final MboSet ms)
+def ():
+    '''returns QualStatus\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''

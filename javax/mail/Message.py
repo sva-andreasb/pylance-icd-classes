@@ -1,36 +1,48 @@
 def getMessageNumber():
-    '''public int getMessageNumber()
+    '''returns int\n\n
+    getMessageNumber()\n
     '''
 def isExpunged():
-    '''public boolean isExpunged()
+    '''returns boolean\n\n
+    isExpunged()\n
     '''
 def getAllRecipients():
-    '''public Address[] getAllRecipients()
+    '''returns Address[]\n\n
+    getAllRecipients()\n
     '''
 def getReplyTo():
-    '''public Address[] getReplyTo()
+    '''returns Address[]\n\n
+    getReplyTo()\n
     '''
 def setReplyTo():
-    '''public void setReplyTo(final Address[] addresses)
+    '''returns None\n\n
+    setReplyTo(final Address[] addresses)\n
     '''
 def isSet():
-    '''public boolean isSet(final Flags.Flag flag)
+    '''returns boolean\n\n
+    isSet(final Flags.Flag flag)\n
     '''
 def setFlag():
-    '''public void setFlag(final Flags.Flag flag, final boolean set)
+    '''returns None\n\n
+    setFlag(final Flags.Flag flag, final boolean set)\n
     '''
 def getFolder():
-    '''public Folder getFolder()
+    '''returns Folder\n\n
+    getFolder()\n
     '''
 def match():
-    '''public boolean match(final SearchTerm term)
+    '''returns boolean\n\n
+    match(final SearchTerm term)\n
     '''
 def addRecipient():
-    '''public void addRecipient(final RecipientType type, final Address address)
+    '''returns None\n\n
+    addRecipient(final RecipientType type, final Address address)\n
     '''
 def setRecipient():
-    '''public void setRecipient(final RecipientType type, final Address address)
+    '''returns None\n\n
+    setRecipient(final RecipientType type, final Address address)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,3 +1,4 @@
-def CpyPoLineSet():
-    '''public CpyPoLineSet(final MboServerInterface ms)
+def ():
+    '''returns CpyPoLineSet\n\n
+    (final MboServerInterface ms)\n
     '''

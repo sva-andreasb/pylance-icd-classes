@@ -1,74 +1,94 @@
 def getClassIdentifier():
-    '''public Map getClassIdentifier()
+    '''returns Map\n\n
+    getClassIdentifier()\n
     '''
 def getInstanceIdentifier():
-    '''public Map getInstanceIdentifier()
+    '''returns Map\n\n
+    getInstanceIdentifier()\n
     '''
 def getHAGroup():
-    '''public HAGroup getHAGroup()
+    '''returns HAGroup\n\n
+    getHAGroup()\n
     '''
 def getMemberName():
-    '''public GroupMemberId getMemberName()
+    '''returns GroupMemberId\n\n
+    getMemberName()\n
     '''
 def createInstance():
-    '''public Agent createInstance(final Map agentId, final String channelName)
+    '''returns Agent\n\n
+    createInstance(final Map agentId, final String channelName)\n
     '''
 def getClassMembers():
-    '''public GroupMemberId[] getClassMembers()
+    '''returns GroupMemberId[]\n\n
+    getClassMembers()\n
     '''
 def sendMessage():
-    '''public void sendMessage(final MsgQoS qos, final GroupMemberId destination, final byte[] msg)
-    public void sendMessage(final MsgQoS qos, final GroupMemberId[] destinations, final byte[] msg)
-    public void sendMessage(final MsgQoS qos, final byte[] msg)
-    '''
-def remove():
-    '''public synchronized void remove()
+    '''returns None\n\n
+    sendMessage(final MsgQoS qos, final GroupMemberId destination, final byte[] msg)\n
+    sendMessage(final MsgQoS qos, final GroupMemberId[] destinations, final byte[] msg)\n
+    sendMessage(final MsgQoS qos, final byte[] msg)\n
     '''
 def isAlive():
-    '''public boolean isAlive(final GroupName gn)
+    '''returns boolean\n\n
+    isAlive(final GroupName gn)\n
     '''
 def memberDeactivate():
-    '''public void memberDeactivate(final GroupName groupName, final AsynchOperationComplete callback, final Object callbackContext)
+    '''returns None\n\n
+    memberDeactivate(final GroupName groupName, final AsynchOperationComplete callback, final Object callbackContext)\n
     '''
 def memberIsActivated():
-    '''public void memberIsActivated(final GroupName groupName, final AsynchOperationComplete callback, final Object callbackContext)
+    '''returns None\n\n
+    memberIsActivated(final GroupName groupName, final AsynchOperationComplete callback, final Object callbackContext)\n
     '''
 def memberMayActivate():
-    '''public void memberMayActivate(final GroupName groupName)
+    '''returns None\n\n
+    memberMayActivate(final GroupName groupName)\n
     '''
 def memberMayActivateCancelled():
-    '''public void memberMayActivateCancelled(final GroupName groupName)
+    '''returns None\n\n
+    memberMayActivateCancelled(final GroupName groupName)\n
     '''
 def onMessage():
-    '''public void onMessage(final GroupMemberId sender, final byte[] msg)
+    '''returns None\n\n
+    onMessage(final GroupMemberId sender, final byte[] msg)\n
     '''
 def membershipChanged():
-    '''public void membershipChanged(final GroupName groupName, final GroupMemberId[] members)
+    '''returns None\n\n
+    membershipChanged(final GroupName groupName, final GroupMemberId[] members)\n
     '''
 def dataStackMessageReceived():
-    '''public void dataStackMessageReceived(final GroupMemberId sender, final String channel, final byte[] message)
+    '''returns None\n\n
+    dataStackMessageReceived(final GroupMemberId sender, final String channel, final byte[] message)\n
     '''
 def dataStackMembershipChanged():
-    '''public void dataStackMembershipChanged(final GroupMemberId[] members)
+    '''returns None\n\n
+    dataStackMembershipChanged(final GroupMemberId[] members)\n
     '''
 def dataStackTerminated():
-    '''public void dataStackTerminated()
+    '''returns None\n\n
+    dataStackTerminated()\n
     '''
 def dataStackEvent():
-    '''public void dataStackEvent(final DataStackEvent event)
+    '''returns None\n\n
+    dataStackEvent(final DataStackEvent event)\n
     '''
 def dataStackViewAboutToChange():
-    '''public void dataStackViewAboutToChange()
+    '''returns None\n\n
+    dataStackViewAboutToChange()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def doCallback():
-    '''public void doCallback()
+    '''returns None\n\n
+    doCallback()\n
     '''
 def getQueue():
-    '''public int getQueue(final int numberOfQueues)
+    '''returns int\n\n
+    getQueue(final int numberOfQueues)\n
     '''
 def getUserClassName():
-    '''public String getUserClassName()
+    '''returns String\n\n
+    getUserClassName()\n
     '''

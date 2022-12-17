@@ -1,148 +1,175 @@
-def DOMNormalizer():
-    '''public DOMNormalizer()
-    '''
-def isCDataWF():
-    '''public static final void isCDataWF(final DOMErrorHandler domErrorHandler, final DOMErrorImpl domErrorImpl, final DOMLocatorImpl domLocatorImpl, final String s, final boolean b)
-    '''
-def isXMLCharWF():
-    '''public static final void isXMLCharWF(final DOMErrorHandler domErrorHandler, final DOMErrorImpl domErrorImpl, final DOMLocatorImpl domLocatorImpl, final String s, final boolean b)
-    '''
-def isCommentWF():
-    '''public static final void isCommentWF(final DOMErrorHandler domErrorHandler, final DOMErrorImpl domErrorImpl, final DOMLocatorImpl domLocatorImpl, final String s, final boolean b)
-    '''
-def isAttrValueWF():
-    '''public static final void isAttrValueWF(final DOMErrorHandler domErrorHandler, final DOMErrorImpl domErrorImpl, final DOMLocatorImpl domLocatorImpl, final NamedNodeMap namedNodeMap, final Attr attr, final String s, final boolean b)
-    '''
-def reportDOMError():
-    '''public static final void reportDOMError(final DOMErrorHandler domErrorHandler, final DOMErrorImpl domErrorImpl, final DOMLocatorImpl fLocator, final String fMessage, final short fSeverity, final String fType)
+def ():
+    '''returns DOMNormalizer\n\n
+    ()\n
     '''
 def startDocument():
-    '''public void startDocument(final XMLLocator xmlLocator, final String s, final NamespaceContext namespaceContext, final Augmentations augmentations)
+    '''returns None\n\n
+    startDocument(final XMLLocator xmlLocator, final String s, final NamespaceContext namespaceContext, final Augmentations augmentations)\n
     '''
 def xmlDecl():
-    '''public void xmlDecl(final String s, final String s2, final String s3, final Augmentations augmentations)
+    '''returns None\n\n
+    xmlDecl(final String s, final String s2, final String s3, final Augmentations augmentations)\n
     '''
 def doctypeDecl():
-    '''public void doctypeDecl(final String s, final String s2, final String s3, final Augmentations augmentations)
+    '''returns None\n\n
+    doctypeDecl(final String s, final String s2, final String s3, final Augmentations augmentations)\n
     '''
 def comment():
-    '''public void comment(final XMLString xmlString, final Augmentations augmentations)
+    '''returns None\n\n
+    comment(final XMLString xmlString, final Augmentations augmentations)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String s, final XMLString xmlString, final Augmentations augmentations)
+    '''returns None\n\n
+    processingInstruction(final String s, final XMLString xmlString, final Augmentations augmentations)\n
     '''
 def startElement():
-    '''public void startElement(final QName qName, final XMLAttributes xmlAttributes, final Augmentations augmentations)
+    '''returns None\n\n
+    startElement(final QName qName, final XMLAttributes xmlAttributes, final Augmentations augmentations)\n
     '''
 def emptyElement():
-    '''public void emptyElement(final QName qName, final XMLAttributes xmlAttributes, final Augmentations augmentations)
+    '''returns None\n\n
+    emptyElement(final QName qName, final XMLAttributes xmlAttributes, final Augmentations augmentations)\n
     '''
 def startGeneralEntity():
-    '''public void startGeneralEntity(final String s, final XMLResourceIdentifier xmlResourceIdentifier, final String s2, final Augmentations augmentations)
+    '''returns None\n\n
+    startGeneralEntity(final String s, final XMLResourceIdentifier xmlResourceIdentifier, final String s2, final Augmentations augmentations)\n
     '''
 def textDecl():
-    '''public void textDecl(final String s, final String s2, final Augmentations augmentations)
+    '''returns None\n\n
+    textDecl(final String s, final String s2, final Augmentations augmentations)\n
     '''
 def endGeneralEntity():
-    '''public void endGeneralEntity(final String s, final Augmentations augmentations)
+    '''returns None\n\n
+    endGeneralEntity(final String s, final Augmentations augmentations)\n
     '''
 def characters():
-    '''public void characters(final XMLString xmlString, final Augmentations augmentations)
+    '''returns None\n\n
+    characters(final XMLString xmlString, final Augmentations augmentations)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final XMLString xmlString, final Augmentations augmentations)
+    '''returns None\n\n
+    ignorableWhitespace(final XMLString xmlString, final Augmentations augmentations)\n
     '''
 def endElement():
-    '''public void endElement(final QName qName, final Augmentations augmentations)
+    '''returns None\n\n
+    endElement(final QName qName, final Augmentations augmentations)\n
     '''
 def startCDATA():
-    '''public void startCDATA(final Augmentations augmentations)
+    '''returns None\n\n
+    startCDATA(final Augmentations augmentations)\n
     '''
 def endCDATA():
-    '''public void endCDATA(final Augmentations augmentations)
+    '''returns None\n\n
+    endCDATA(final Augmentations augmentations)\n
     '''
 def endDocument():
-    '''public void endDocument(final Augmentations augmentations)
+    '''returns None\n\n
+    endDocument(final Augmentations augmentations)\n
     '''
 def setDocumentSource():
-    '''public void setDocumentSource(final XMLDocumentSource xmlDocumentSource)
+    '''returns None\n\n
+    setDocumentSource(final XMLDocumentSource xmlDocumentSource)\n
     '''
 def getDocumentSource():
-    '''public XMLDocumentSource getDocumentSource()
+    '''returns XMLDocumentSource\n\n
+    getDocumentSource()\n
     '''
 def fillInStackTrace():
-    '''public Throwable fillInStackTrace()
+    '''returns Throwable\n\n
+    fillInStackTrace()\n
     '''
 def setAttributes():
-    '''public void setAttributes(final AttributeMap fAttributes, final CoreDocumentImpl fDocument, final ElementImpl fElement)
+    '''returns None\n\n
+    setAttributes(final AttributeMap fAttributes, final CoreDocumentImpl fDocument, final ElementImpl fElement)\n
     '''
 def addAttribute():
-    '''public int addAttribute(final QName qName, final String obj, final String nodeValue)
+    '''returns int\n\n
+    addAttribute(final QName qName, final String obj, final String nodeValue)\n
     '''
 def removeAllAttributes():
-    '''public void removeAllAttributes()
+    '''returns None\n\n
+    removeAllAttributes()\n
     '''
 def removeAttributeAt():
-    '''public void removeAttributeAt(final int n)
+    '''returns None\n\n
+    removeAttributeAt(final int n)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getIndex():
-    '''public int getIndex(final String s)
-    public int getIndex(final String s, final String s2)
+    '''returns int\n\n
+    getIndex(final String s)\n
+    getIndex(final String s, final String s2)\n
     '''
 def setName():
-    '''public void setName(final int n, final QName qName)
+    '''returns None\n\n
+    setName(final int n, final QName qName)\n
     '''
 def getName():
-    '''public void getName(final int n, final QName qName)
+    '''returns None\n\n
+    getName(final int n, final QName qName)\n
     '''
 def getPrefix():
-    '''public String getPrefix(final int n)
+    '''returns String\n\n
+    getPrefix(final int n)\n
     '''
 def getURI():
-    '''public String getURI(final int n)
+    '''returns String\n\n
+    getURI(final int n)\n
     '''
 def getLocalName():
-    '''public String getLocalName(final int n)
+    '''returns String\n\n
+    getLocalName(final int n)\n
     '''
 def getQName():
-    '''public String getQName(final int n)
+    '''returns String\n\n
+    getQName(final int n)\n
     '''
 def setType():
-    '''public void setType(final int index, final String obj)
+    '''returns None\n\n
+    setType(final int index, final String obj)\n
     '''
 def getType():
-    '''public String getType(final int index)
-    public String getType(final String s)
-    public String getType(final String s, final String s2)
+    '''returns String\n\n
+    getType(final int index)\n
+    getType(final String s)\n
+    getType(final String s, final String s2)\n
     '''
 def setValue():
-    '''public void setValue(final int n, final String value)
+    '''returns None\n\n
+    setValue(final int n, final String value)\n
     '''
 def getValue():
-    '''public String getValue(final int n)
-    public String getValue(final String s)
-    public String getValue(final String s, final String s2)
+    '''returns String\n\n
+    getValue(final int n)\n
+    getValue(final String s)\n
+    getValue(final String s, final String s2)\n
     '''
 def setNonNormalizedValue():
-    '''public void setNonNormalizedValue(final int n, final String s)
+    '''returns None\n\n
+    setNonNormalizedValue(final int n, final String s)\n
     '''
 def getNonNormalizedValue():
-    '''public String getNonNormalizedValue(final int n)
+    '''returns String\n\n
+    getNonNormalizedValue(final int n)\n
     '''
 def setSpecified():
-    '''public void setSpecified(final int n, final boolean specified)
+    '''returns None\n\n
+    setSpecified(final int n, final boolean specified)\n
     '''
 def isSpecified():
-    '''public boolean isSpecified(final int n)
+    '''returns boolean\n\n
+    isSpecified(final int n)\n
     '''
 def getAugmentations():
-    '''public Augmentations getAugmentations(final int index)
-    public Augmentations getAugmentations(final String s, final String s2)
-    public Augmentations getAugmentations(final String s)
+    '''returns Augmentations\n\n
+    getAugmentations(final int index)\n
+    getAugmentations(final String s, final String s2)\n
+    getAugmentations(final String s)\n
     '''
 def setAugmentations():
-    '''public void setAugmentations(final int index, final Augmentations obj)
+    '''returns None\n\n
+    setAugmentations(final int index, final Augmentations obj)\n
     '''

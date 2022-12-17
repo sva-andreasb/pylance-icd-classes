@@ -1,13 +1,17 @@
-def LibraryDescriptor():
-    '''public LibraryDescriptor(final String appName, final WebClientSession wcs)
+def ():
+    '''returns LibraryDescriptor\n\n
+    (final String appName, final WebClientSession wcs)\n
     '''
 def getElement():
-    '''public Element getElement(final String id)
-    public Element getElement(final String id, final boolean isCaseSensitive)
+    '''returns Element\n\n
+    getElement(final String id)\n
+    getElement(final String id, final boolean isCaseSensitive)\n
     '''
 def getDialog():
-    '''public Element getDialog(final String dialogId, final WebClientSession wcs)
+    '''returns Element\n\n
+    getDialog(final String dialogId, final WebClientSession wcs)\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''

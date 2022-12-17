@@ -1,0 +1,5 @@
+TYPE_SQL = "char  'S'"
+TYPE_JPQL = "char  'J'"
+TYPE_HQL = "char  'H'"
+TYPE_UNKNOWN = "char  'U'"
+InvalidExportTag = "char  ' '"

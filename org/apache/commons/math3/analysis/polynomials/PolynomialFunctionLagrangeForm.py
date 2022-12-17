@@ -1,24 +1,24 @@
-def PolynomialFunctionLagrangeForm():
-    '''public PolynomialFunctionLagrangeForm(final double[] x, final double[] y)
+def ():
+    '''returns PolynomialFunctionLagrangeForm\n\n
+    (final double[] x, final double[] y)\n
     '''
 def value():
-    '''public double value(final double z)
+    '''returns double\n\n
+    value(final double z)\n
     '''
 def degree():
-    '''public int degree()
+    '''returns int\n\n
+    degree()\n
     '''
 def getInterpolatingPoints():
-    '''public double[] getInterpolatingPoints()
+    '''returns double[]\n\n
+    getInterpolatingPoints()\n
     '''
 def getInterpolatingValues():
-    '''public double[] getInterpolatingValues()
+    '''returns double[]\n\n
+    getInterpolatingValues()\n
     '''
 def getCoefficients():
-    '''public double[] getCoefficients()
-    '''
-def evaluate():
-    '''public static double evaluate(final double[] x, final double[] y, final double z)
-    '''
-def verifyInterpolationArray():
-    '''public static boolean verifyInterpolationArray(final double[] x, final double[] y, final boolean abort)
+    '''returns double[]\n\n
+    getCoefficients()\n
     '''

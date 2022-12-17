@@ -1,0 +1,7 @@
+TOUCH_PLATFORM_IOS = "String  \"ios\""
+TOUCH_PLATFORM_ANDROID = "String  \"android\""
+TOUCH_PLATFORM_BLACKBERRY = "String  \"blackberry\""
+TOUCH_PLATFORM_NOT_SUPPORTED = "String  \"not-supported\""
+TOUCH_ADAPTER_ANDROID = "String  \"$res$/touch-adapter-android.js\""
+TOUCH_ADAPTER_IOS = "String  \"$res$/touch-adapter-ios.js\""
+TOUCH_ADAPTER_BLACKBERRY = "String  \"$res$/touch-adapter-blackberry.js\""

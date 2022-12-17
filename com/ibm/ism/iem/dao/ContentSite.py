@@ -1,27 +1,36 @@
-def ContentSite():
-    '''public ContentSite()
+def ():
+    '''returns ContentSite\n\n
+    ()\n
     '''
 def getGatherUrl():
-    '''public String getGatherUrl()
+    '''returns String\n\n
+    getGatherUrl()\n
     '''
 def setGatherUrl():
-    '''public void setGatherUrl(final String gatherUrl)
+    '''returns None\n\n
+    setGatherUrl(final String gatherUrl)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName()
+    '''returns String\n\n
+    getDisplayName()\n
     '''
 def setDisplayName():
-    '''public void setDisplayName(final String displayName)
+    '''returns None\n\n
+    setDisplayName(final String displayName)\n
     '''
 def getPublicName():
-    '''public String getPublicName()
+    '''returns String\n\n
+    getPublicName()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

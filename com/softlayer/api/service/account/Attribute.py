@@ -1,69 +1,92 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def setAccountAttributeType():
-    '''public void setAccountAttributeType(final com.softlayer.api.service.account.attribute.Type accountAttributeType)
+    '''returns None\n\n
+    setAccountAttributeType(final com.softlayer.api.service.account.attribute.Type accountAttributeType)\n
     '''
 def getAccountAttributeTypeId():
-    '''public Long getAccountAttributeTypeId()
+    '''returns Long\n\n
+    getAccountAttributeTypeId()\n
     '''
 def setAccountAttributeTypeId():
-    '''public void setAccountAttributeTypeId(final Long accountAttributeTypeId)
+    '''returns None\n\n
+    setAccountAttributeTypeId(final Long accountAttributeTypeId)\n
     '''
 def isAccountAttributeTypeIdSpecified():
-    '''public boolean isAccountAttributeTypeIdSpecified()
+    '''returns boolean\n\n
+    isAccountAttributeTypeIdSpecified()\n
     '''
 def unsetAccountAttributeTypeId():
-    '''public void unsetAccountAttributeTypeId()
+    '''returns None\n\n
+    unsetAccountAttributeTypeId()\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def isValueSpecified():
-    '''public boolean isValueSpecified()
+    '''returns boolean\n\n
+    isValueSpecified()\n
     '''
 def unsetValue():
-    '''public void unsetValue()
+    '''returns None\n\n
+    unsetValue()\n
     '''
 def accountAttributeTypeId():
-    '''public Mask accountAttributeTypeId()
+    '''returns Mask\n\n
+    accountAttributeTypeId()\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def value():
-    '''public Mask value()
+    '''returns Mask\n\n
+    value()\n
     '''

@@ -1,13 +1,17 @@
 def dispose():
-    '''public void dispose()
-    public void dispose()
+    '''returns None\n\n
+    dispose()\n
+    dispose()\n
     '''
 def getAddress():
-    '''public long getAddress()
+    '''returns long\n\n
+    getAddress()\n
     '''
 def setAutoRelease():
-    '''public void setAutoRelease(final boolean autorelease)
+    '''returns None\n\n
+    setAutoRelease(final boolean autorelease)\n
     '''
 def free():
-    '''public void free()
+    '''returns None\n\n
+    free()\n
     '''

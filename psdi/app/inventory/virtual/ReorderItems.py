@@ -1,6 +1,8 @@
-def ReorderItems():
-    '''public ReorderItems(final MboSet ms)
+def ():
+    '''returns ReorderItems\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

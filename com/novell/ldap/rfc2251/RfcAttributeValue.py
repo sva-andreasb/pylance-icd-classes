@@ -1,4 +1,5 @@
-def RfcAttributeValue():
-    '''public RfcAttributeValue(final String s)
-    public RfcAttributeValue(final byte[] array)
+def ():
+    '''returns RfcAttributeValue\n\n
+    (final String s)\n
+    (final byte[] array)\n
     '''

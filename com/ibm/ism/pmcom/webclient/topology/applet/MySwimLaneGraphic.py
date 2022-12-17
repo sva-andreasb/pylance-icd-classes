@@ -1,17 +1,22 @@
-def MySwimLaneGraphic():
-    '''public MySwimLaneGraphic()
-    public MySwimLaneGraphic(final MySwimLaneGraphic source)
-    public MySwimLaneGraphic(final IlvInputStream stream)
+def ():
+    '''returns MySwimLaneGraphic\n\n
+    ()\n
+    (final MySwimLaneGraphic source)\n
+    (final IlvInputStream stream)\n
     '''
 def copy():
-    '''public IlvGraphic copy()
+    '''returns IlvGraphic\n\n
+    copy()\n
     '''
 def write():
-    '''public void write(final IlvOutputStream stream)
+    '''returns None\n\n
+    write(final IlvOutputStream stream)\n
     '''
 def moveResize():
-    '''public void moveResize(final IlvRect rect)
+    '''returns None\n\n
+    moveResize(final IlvRect rect)\n
     '''
 def setBackground():
-    '''public void setBackground(final Color c)
+    '''returns None\n\n
+    setBackground(final Color c)\n
     '''

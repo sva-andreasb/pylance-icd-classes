@@ -1,12 +1,16 @@
 def copyCustomers():
-    '''public int copyCustomers()
+    '''returns int\n\n
+    copyCustomers()\n
     '''
 def runLongOperation():
-    '''public int runLongOperation(final String s)
+    '''returns int\n\n
+    runLongOperation(final String s)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def applyValues():
-    '''public void applyValues()
+    '''returns None\n\n
+    applyValues()\n
     '''

@@ -1,3 +1,4 @@
-def PMViaRoute():
-    '''public PMViaRoute(final MboSet ms)
+def ():
+    '''returns PMViaRoute\n\n
+    (final MboSet ms)\n
     '''

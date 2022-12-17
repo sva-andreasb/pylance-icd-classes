@@ -1,33 +1,44 @@
-def AMCrewToolUnRestricted():
-    '''public AMCrewToolUnRestricted(final MboSet ms)
+def ():
+    '''returns AMCrewToolUnRestricted\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def checkRequiredTools():
-    '''public void checkRequiredTools()
+    '''returns None\n\n
+    checkRequiredTools()\n
     '''
 def setToolSeqMatched():
-    '''public void setToolSeqMatched(final boolean matched)
+    '''returns None\n\n
+    setToolSeqMatched(final boolean matched)\n
     '''
 def getToolSeqMatched():
-    '''public boolean getToolSeqMatched()
+    '''returns boolean\n\n
+    getToolSeqMatched()\n
     '''
 def setToolItemNumMatched():
-    '''public void setToolItemNumMatched(final boolean matched)
+    '''returns None\n\n
+    setToolItemNumMatched(final boolean matched)\n
     '''
 def getToolItemNumMatched():
-    '''public boolean getToolItemNumMatched()
+    '''returns boolean\n\n
+    getToolItemNumMatched()\n
     '''
 def setToolItemNumMatchedSequence():
-    '''public void setToolItemNumMatchedSequence(final String sequence)
+    '''returns None\n\n
+    setToolItemNumMatchedSequence(final String sequence)\n
     '''
 def getToolItemNumMatchedSequence():
-    '''public String getToolItemNumMatchedSequence()
+    '''returns String\n\n
+    getToolItemNumMatchedSequence()\n
     '''
 def getCurrentShiftStartDate():
-    '''public Date getCurrentShiftStartDate(final Date effectiveDate)
+    '''returns Date\n\n
+    getCurrentShiftStartDate(final Date effectiveDate)\n
     '''
 def getCurrentShiftEndate():
-    '''public Date getCurrentShiftEndate(final Date endDate)
+    '''returns Date\n\n
+    getCurrentShiftEndate(final Date endDate)\n
     '''

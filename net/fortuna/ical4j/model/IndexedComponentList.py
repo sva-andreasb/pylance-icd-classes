@@ -1,9 +1,12 @@
-def IndexedComponentList():
-    '''public IndexedComponentList(final ComponentList<T> list, final String propertyName)
+def ():
+    '''returns IndexedComponentList\n\n
+    (final ComponentList<T> list, final String propertyName)\n
     '''
 def getComponents():
-    '''public ComponentList<T> getComponents(final String propertyValue)
+    '''returns ComponentList<T>\n\n
+    getComponents(final String propertyValue)\n
     '''
 def getComponent():
-    '''public T getComponent(final String propertyValue)
+    '''returns T\n\n
+    getComponent(final String propertyValue)\n
     '''

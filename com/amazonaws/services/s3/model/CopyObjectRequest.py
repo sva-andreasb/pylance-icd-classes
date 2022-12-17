@@ -1,168 +1,223 @@
-def CopyObjectRequest():
-    '''public CopyObjectRequest(final String sourceBucketName, final String sourceKey, final String destinationBucketName, final String destinationKey)
-    public CopyObjectRequest(final String sourceBucketName, final String sourceKey, final String sourceVersionId, final String destinationBucketName, final String destinationKey)
+def ():
+    '''returns CopyObjectRequest\n\n
+    (final String sourceBucketName, final String sourceKey, final String destinationBucketName, final String destinationKey)\n
+    (final String sourceBucketName, final String sourceKey, final String sourceVersionId, final String destinationBucketName, final String destinationKey)\n
     '''
 def getSourceBucketName():
-    '''public String getSourceBucketName()
+    '''returns String\n\n
+    getSourceBucketName()\n
     '''
 def setSourceBucketName():
-    '''public void setSourceBucketName(final String sourceBucketName)
+    '''returns None\n\n
+    setSourceBucketName(final String sourceBucketName)\n
     '''
 def withSourceBucketName():
-    '''public CopyObjectRequest withSourceBucketName(final String sourceBucketName)
+    '''returns CopyObjectRequest\n\n
+    withSourceBucketName(final String sourceBucketName)\n
     '''
 def getSourceKey():
-    '''public String getSourceKey()
+    '''returns String\n\n
+    getSourceKey()\n
     '''
 def setSourceKey():
-    '''public void setSourceKey(final String sourceKey)
+    '''returns None\n\n
+    setSourceKey(final String sourceKey)\n
     '''
 def withSourceKey():
-    '''public CopyObjectRequest withSourceKey(final String sourceKey)
+    '''returns CopyObjectRequest\n\n
+    withSourceKey(final String sourceKey)\n
     '''
 def getSourceVersionId():
-    '''public String getSourceVersionId()
+    '''returns String\n\n
+    getSourceVersionId()\n
     '''
 def setSourceVersionId():
-    '''public void setSourceVersionId(final String sourceVersionId)
+    '''returns None\n\n
+    setSourceVersionId(final String sourceVersionId)\n
     '''
 def withSourceVersionId():
-    '''public CopyObjectRequest withSourceVersionId(final String sourceVersionId)
+    '''returns CopyObjectRequest\n\n
+    withSourceVersionId(final String sourceVersionId)\n
     '''
 def getDestinationBucketName():
-    '''public String getDestinationBucketName()
+    '''returns String\n\n
+    getDestinationBucketName()\n
     '''
 def setDestinationBucketName():
-    '''public void setDestinationBucketName(final String destinationBucketName)
+    '''returns None\n\n
+    setDestinationBucketName(final String destinationBucketName)\n
     '''
 def withDestinationBucketName():
-    '''public CopyObjectRequest withDestinationBucketName(final String destinationBucketName)
+    '''returns CopyObjectRequest\n\n
+    withDestinationBucketName(final String destinationBucketName)\n
     '''
 def getDestinationKey():
-    '''public String getDestinationKey()
+    '''returns String\n\n
+    getDestinationKey()\n
     '''
 def setDestinationKey():
-    '''public void setDestinationKey(final String destinationKey)
+    '''returns None\n\n
+    setDestinationKey(final String destinationKey)\n
     '''
 def withDestinationKey():
-    '''public CopyObjectRequest withDestinationKey(final String destinationKey)
+    '''returns CopyObjectRequest\n\n
+    withDestinationKey(final String destinationKey)\n
     '''
 def getStorageClass():
-    '''public String getStorageClass()
+    '''returns String\n\n
+    getStorageClass()\n
     '''
 def setStorageClass():
-    '''public void setStorageClass(final String storageClass)
-    public void setStorageClass(final StorageClass storageClass)
+    '''returns None\n\n
+    setStorageClass(final String storageClass)\n
+    setStorageClass(final StorageClass storageClass)\n
     '''
 def withStorageClass():
-    '''public CopyObjectRequest withStorageClass(final String storageClass)
-    public CopyObjectRequest withStorageClass(final StorageClass storageClass)
+    '''returns CopyObjectRequest\n\n
+    withStorageClass(final String storageClass)\n
+    withStorageClass(final StorageClass storageClass)\n
     '''
 def getCannedAccessControlList():
-    '''public CannedAccessControlList getCannedAccessControlList()
+    '''returns CannedAccessControlList\n\n
+    getCannedAccessControlList()\n
     '''
 def setCannedAccessControlList():
-    '''public void setCannedAccessControlList(final CannedAccessControlList cannedACL)
+    '''returns None\n\n
+    setCannedAccessControlList(final CannedAccessControlList cannedACL)\n
     '''
 def withCannedAccessControlList():
-    '''public CopyObjectRequest withCannedAccessControlList(final CannedAccessControlList cannedACL)
+    '''returns CopyObjectRequest\n\n
+    withCannedAccessControlList(final CannedAccessControlList cannedACL)\n
     '''
 def getAccessControlList():
-    '''public AccessControlList getAccessControlList()
+    '''returns AccessControlList\n\n
+    getAccessControlList()\n
     '''
 def setAccessControlList():
-    '''public void setAccessControlList(final AccessControlList accessControlList)
+    '''returns None\n\n
+    setAccessControlList(final AccessControlList accessControlList)\n
     '''
 def withAccessControlList():
-    '''public CopyObjectRequest withAccessControlList(final AccessControlList accessControlList)
+    '''returns CopyObjectRequest\n\n
+    withAccessControlList(final AccessControlList accessControlList)\n
     '''
 def getNewObjectMetadata():
-    '''public ObjectMetadata getNewObjectMetadata()
+    '''returns ObjectMetadata\n\n
+    getNewObjectMetadata()\n
     '''
 def setNewObjectMetadata():
-    '''public void setNewObjectMetadata(final ObjectMetadata newObjectMetadata)
+    '''returns None\n\n
+    setNewObjectMetadata(final ObjectMetadata newObjectMetadata)\n
     '''
 def withNewObjectMetadata():
-    '''public CopyObjectRequest withNewObjectMetadata(final ObjectMetadata newObjectMetadata)
+    '''returns CopyObjectRequest\n\n
+    withNewObjectMetadata(final ObjectMetadata newObjectMetadata)\n
     '''
 def getMatchingETagConstraints():
-    '''public List<String> getMatchingETagConstraints()
+    '''returns List<String>\n\n
+    getMatchingETagConstraints()\n
     '''
 def setMatchingETagConstraints():
-    '''public void setMatchingETagConstraints(final List<String> eTagList)
+    '''returns None\n\n
+    setMatchingETagConstraints(final List<String> eTagList)\n
     '''
 def withMatchingETagConstraint():
-    '''public CopyObjectRequest withMatchingETagConstraint(final String eTag)
+    '''returns CopyObjectRequest\n\n
+    withMatchingETagConstraint(final String eTag)\n
     '''
 def getNonmatchingETagConstraints():
-    '''public List<String> getNonmatchingETagConstraints()
+    '''returns List<String>\n\n
+    getNonmatchingETagConstraints()\n
     '''
 def setNonmatchingETagConstraints():
-    '''public void setNonmatchingETagConstraints(final List<String> eTagList)
+    '''returns None\n\n
+    setNonmatchingETagConstraints(final List<String> eTagList)\n
     '''
 def withNonmatchingETagConstraint():
-    '''public CopyObjectRequest withNonmatchingETagConstraint(final String eTag)
+    '''returns CopyObjectRequest\n\n
+    withNonmatchingETagConstraint(final String eTag)\n
     '''
 def getUnmodifiedSinceConstraint():
-    '''public Date getUnmodifiedSinceConstraint()
+    '''returns Date\n\n
+    getUnmodifiedSinceConstraint()\n
     '''
 def setUnmodifiedSinceConstraint():
-    '''public void setUnmodifiedSinceConstraint(final Date date)
+    '''returns None\n\n
+    setUnmodifiedSinceConstraint(final Date date)\n
     '''
 def withUnmodifiedSinceConstraint():
-    '''public CopyObjectRequest withUnmodifiedSinceConstraint(final Date date)
+    '''returns CopyObjectRequest\n\n
+    withUnmodifiedSinceConstraint(final Date date)\n
     '''
 def getModifiedSinceConstraint():
-    '''public Date getModifiedSinceConstraint()
+    '''returns Date\n\n
+    getModifiedSinceConstraint()\n
     '''
 def setModifiedSinceConstraint():
-    '''public void setModifiedSinceConstraint(final Date date)
+    '''returns None\n\n
+    setModifiedSinceConstraint(final Date date)\n
     '''
 def withModifiedSinceConstraint():
-    '''public CopyObjectRequest withModifiedSinceConstraint(final Date date)
+    '''returns CopyObjectRequest\n\n
+    withModifiedSinceConstraint(final Date date)\n
     '''
 def setRedirectLocation():
-    '''public void setRedirectLocation(final String redirectLocation)
+    '''returns None\n\n
+    setRedirectLocation(final String redirectLocation)\n
     '''
 def getRedirectLocation():
-    '''public String getRedirectLocation()
+    '''returns String\n\n
+    getRedirectLocation()\n
     '''
 def withRedirectLocation():
-    '''public CopyObjectRequest withRedirectLocation(final String redirectLocation)
+    '''returns CopyObjectRequest\n\n
+    withRedirectLocation(final String redirectLocation)\n
     '''
 def getSourceSSECustomerKey():
-    '''public SSECustomerKey getSourceSSECustomerKey()
+    '''returns SSECustomerKey\n\n
+    getSourceSSECustomerKey()\n
     '''
 def setSourceSSECustomerKey():
-    '''public void setSourceSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns None\n\n
+    setSourceSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def withSourceSSECustomerKey():
-    '''public CopyObjectRequest withSourceSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns CopyObjectRequest\n\n
+    withSourceSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def getDestinationSSECustomerKey():
-    '''public SSECustomerKey getDestinationSSECustomerKey()
+    '''returns SSECustomerKey\n\n
+    getDestinationSSECustomerKey()\n
     '''
 def setDestinationSSECustomerKey():
-    '''public void setDestinationSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns None\n\n
+    setDestinationSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def withDestinationSSECustomerKey():
-    '''public CopyObjectRequest withDestinationSSECustomerKey(final SSECustomerKey sseKey)
+    '''returns CopyObjectRequest\n\n
+    withDestinationSSECustomerKey(final SSECustomerKey sseKey)\n
     '''
 def getSSEAwsKeyManagementParams():
-    '''public SSEAwsKeyManagementParams getSSEAwsKeyManagementParams()
+    '''returns SSEAwsKeyManagementParams\n\n
+    getSSEAwsKeyManagementParams()\n
     '''
 def setSSEAwsKeyManagementParams():
-    '''public void setSSEAwsKeyManagementParams(final SSEAwsKeyManagementParams params)
+    '''returns None\n\n
+    setSSEAwsKeyManagementParams(final SSEAwsKeyManagementParams params)\n
     '''
 def withSSEAwsKeyManagementParams():
-    '''public CopyObjectRequest withSSEAwsKeyManagementParams(final SSEAwsKeyManagementParams sseAwsKeyManagementParams)
+    '''returns CopyObjectRequest\n\n
+    withSSEAwsKeyManagementParams(final SSEAwsKeyManagementParams sseAwsKeyManagementParams)\n
     '''
 def isRequesterPays():
-    '''public boolean isRequesterPays()
+    '''returns boolean\n\n
+    isRequesterPays()\n
     '''
 def setRequesterPays():
-    '''public void setRequesterPays(final boolean isRequesterPays)
+    '''returns None\n\n
+    setRequesterPays(final boolean isRequesterPays)\n
     '''
 def withRequesterPays():
-    '''public CopyObjectRequest withRequesterPays(final boolean isRequesterPays)
+    '''returns CopyObjectRequest\n\n
+    withRequesterPays(final boolean isRequesterPays)\n
     '''

@@ -2,25 +2,32 @@ ACCESSKEY = "String  \"ACCESSKEY\""
 SECRETKEY = "String  \"SECRETKEY\""
 BUCKETNAME = "String  \"BUCKETNAME\""
 URL = "String  \"URL\""
-def S3Handler():
-    '''public S3Handler(final MaxEndPointInfo endPointInfo)
-    public S3Handler()
+def ():
+    '''returns S3Handler\n\n
+    (final MaxEndPointInfo endPointInfo)\n
+    ()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map metaData, byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map metaData, byte[] data)\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def getAccessKey():
-    '''public String getAccessKey()
+    '''returns String\n\n
+    getAccessKey()\n
     '''
 def getSecretKey():
-    '''public String getSecretKey()
+    '''returns String\n\n
+    getSecretKey()\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''

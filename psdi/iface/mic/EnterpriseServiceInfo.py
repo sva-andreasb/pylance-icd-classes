@@ -1,93 +1,116 @@
-def EnterpriseServiceInfo():
-    '''public EnterpriseServiceInfo()
+def ():
+    '''returns EnterpriseServiceInfo\n\n
+    ()\n
     '''
 def getMosName():
-    '''public String getMosName()
+    '''returns String\n\n
+    getMosName()\n
     '''
 def getIfaceName():
-    '''public String getIfaceName()
+    '''returns String\n\n
+    getIfaceName()\n
     '''
 def getIfaceType():
-    '''public String getIfaceType()
+    '''returns String\n\n
+    getIfaceType()\n
     '''
 def useExternalSchema():
-    '''public boolean useExternalSchema()
+    '''returns boolean\n\n
+    useExternalSchema()\n
     '''
 def getSchemaLocation():
-    '''public String getSchemaLocation()
+    '''returns String\n\n
+    getSchemaLocation()\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def isReplyRequired():
-    '''public boolean isReplyRequired()
+    '''returns boolean\n\n
+    isReplyRequired()\n
     '''
 def isPrimaryMos():
-    '''public boolean isPrimaryMos()
+    '''returns boolean\n\n
+    isPrimaryMos()\n
     '''
 def getReplySchemaLocation():
-    '''public String getReplySchemaLocation()
+    '''returns String\n\n
+    getReplySchemaLocation()\n
     '''
 def getReplyElementName():
-    '''public String getReplyElementName()
+    '''returns String\n\n
+    getReplyElementName()\n
     '''
 def getExitClassName():
-    '''public String getExitClassName()
+    '''returns String\n\n
+    getExitClassName()\n
     '''
 def getUserExitClassName():
-    '''public String getUserExitClassName()
+    '''returns String\n\n
+    getUserExitClassName()\n
     '''
 def getMapName():
-    '''public String getMapName()
+    '''returns String\n\n
+    getMapName()\n
     '''
 def getReplyExitClass():
-    '''public String getReplyExitClass()
+    '''returns String\n\n
+    getReplyExitClass()\n
     '''
 def getReplyUserExitClass():
-    '''public String getReplyUserExitClass()
+    '''returns String\n\n
+    getReplyUserExitClass()\n
     '''
 def getReplyMapName():
-    '''public String getReplyMapName()
+    '''returns String\n\n
+    getReplyMapName()\n
     '''
 def getIfaceTbName():
-    '''public String getIfaceTbName()
+    '''returns String\n\n
+    getIfaceTbName()\n
     '''
 def getMessageType():
-    '''public String getMessageType()
+    '''returns String\n\n
+    getMessageType()\n
     '''
 def getIfacecontrol():
-    '''public String getIfacecontrol()
+    '''returns String\n\n
+    getIfacecontrol()\n
     '''
 def getIfaceMapOrder():
-    '''public int getIfaceMapOrder()
+    '''returns int\n\n
+    getIfaceMapOrder()\n
     '''
 def getInterpreterClassName():
-    '''public String getInterpreterClassName()
+    '''returns String\n\n
+    getInterpreterClassName()\n
     '''
 def getSplitTag():
-    '''public String getSplitTag()
-    '''
-def getNamespaces():
-    '''public Map<String, String> getNamespaces()
+    '''returns String\n\n
+    getSplitTag()\n
     '''
 def addTypeProperty():
-    '''public void addTypeProperty(final int isXMLTag, final String param, final String value)
-    '''
-def getInterpreter():
-    '''public synchronized Interpreter getInterpreter()
+    '''returns None\n\n
+    addTypeProperty(final int isXMLTag, final String param, final String value)\n
     '''
 def getTypeProperties():
-    '''public List<EnterpriseServicePropInfo> getTypeProperties()
+    '''returns List<EnterpriseServicePropInfo>\n\n
+    getTypeProperties()\n
     '''
 def isTxnTrkEnabled():
-    '''public boolean isTxnTrkEnabled()
+    '''returns boolean\n\n
+    isTxnTrkEnabled()\n
     '''
 def isStoreMsg():
-    '''public boolean isStoreMsg()
+    '''returns boolean\n\n
+    isStoreMsg()\n
     '''
 def getExtMsgIDField():
-    '''public String getExtMsgIDField()
+    '''returns String\n\n
+    getExtMsgIDField()\n
     '''
 def getSearchField():
-    '''public String getSearchField()
+    '''returns String\n\n
+    getSearchField()\n
     '''

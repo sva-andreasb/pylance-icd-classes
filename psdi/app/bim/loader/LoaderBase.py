@@ -1,27 +1,36 @@
 def canProcessItem():
-    '''public boolean canProcessItem(final ItemBaseType item)
+    '''returns boolean\n\n
+    canProcessItem(final ItemBaseType item)\n
     '''
 def validatePage():
-    '''public int validatePage(final Page page)
+    '''returns int\n\n
+    validatePage(final Page page)\n
     '''
 def loadPage():
-    '''public int loadPage(final Page page)
+    '''returns int\n\n
+    loadPage(final Page page)\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def validateItem():
-    '''public void validateItem(final ItemBaseType item, final MboSetRemote mboSet)
+    '''returns None\n\n
+    validateItem(final ItemBaseType item, final MboSetRemote mboSet)\n
     '''
 def validateDateValue():
-    '''public void validateDateValue(final String value, final ItemBase item)
+    '''returns None\n\n
+    validateDateValue(final String value, final ItemBase item)\n
     '''
 def validateDocuments():
-    '''public void validateDocuments(final ItemBaseType item)
+    '''returns None\n\n
+    validateDocuments(final ItemBaseType item)\n
     '''
 def isValidUnitValue():
-    '''public boolean isValidUnitValue(final String attribute, String value, final ItemBase item)
+    '''returns boolean\n\n
+    isValidUnitValue(final String attribute, String value, final ItemBase item)\n
     '''
 def matchItem():
-    '''public MboRemote matchItem(final ItemBaseType item, final MboSetRemote mboSet)
+    '''returns MboRemote\n\n
+    matchItem(final ItemBaseType item, final MboSetRemote mboSet)\n
     '''

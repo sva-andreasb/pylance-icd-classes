@@ -1,7 +1,9 @@
-def VMSVersioningFTPEntryParser():
-    '''public VMSVersioningFTPEntryParser()
-    public VMSVersioningFTPEntryParser(final FTPClientConfig config)
+def ():
+    '''returns VMSVersioningFTPEntryParser\n\n
+    ()\n
+    (final FTPClientConfig config)\n
     '''
 def preParse():
-    '''public List preParse(List original)
+    '''returns List\n\n
+    preParse(List original)\n
     '''

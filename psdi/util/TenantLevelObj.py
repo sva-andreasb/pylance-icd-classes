@@ -1,31 +1,37 @@
-def TenantLevelObj():
-    '''public TenantLevelObj()
+def ():
+    '''returns TenantLevelObj\n\n
+    ()\n
     '''
 def set():
-    '''public void set(final int tenantID, final E obj)
-    public void set(final E obj)
+    '''returns None\n\n
+    set(final int tenantID, final E obj)\n
+    set(final E obj)\n
     '''
 def get():
-    '''public E get()
+    '''returns E\n\n
+    get()\n
     '''
 def hasObjectInCurrentContext():
-    '''public boolean hasObjectInCurrentContext()
+    '''returns boolean\n\n
+    hasObjectInCurrentContext()\n
     '''
 def removeObjectInContext():
-    '''public E removeObjectInContext()
+    '''returns E\n\n
+    removeObjectInContext()\n
     '''
 def clearAllTenants():
-    '''public void clearAllTenants()
+    '''returns None\n\n
+    clearAllTenants()\n
     '''
 def clearByMaster():
-    '''public void clearByMaster()
+    '''returns None\n\n
+    clearByMaster()\n
     '''
 def clearTenant():
-    '''public void clearTenant()
+    '''returns None\n\n
+    clearTenant()\n
     '''
 def getLoadedTenants():
-    '''public Set<Integer> getLoadedTenants()
-    '''
-def unloadInactiveCaches():
-    '''public final void unloadInactiveCaches(final long interval)
+    '''returns Set<Integer>\n\n
+    getLoadedTenants()\n
     '''

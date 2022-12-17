@@ -1,59 +1,77 @@
-def JFormatter():
-    '''public JFormatter(final PrintWriter s, final String space)
-    public JFormatter(final PrintWriter s)
-    public JFormatter(final Writer w)
+def ():
+    '''returns JFormatter\n\n
+    (final PrintWriter s, final String space)\n
+    (final PrintWriter s)\n
+    (final Writer w)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isPrinting():
-    '''public boolean isPrinting()
+    '''returns boolean\n\n
+    isPrinting()\n
     '''
 def o():
-    '''public JFormatter o()
+    '''returns JFormatter\n\n
+    o()\n
     '''
 def i():
-    '''public JFormatter i()
+    '''returns JFormatter\n\n
+    i()\n
     '''
 def p():
-    '''public JFormatter p(final char c)
-    public JFormatter p(final String s)
+    '''returns JFormatter\n\n
+    p(final char c)\n
+    p(final String s)\n
     '''
 def t():
-    '''public JFormatter t(final JType type)
-    public JFormatter t(final JClass type)
+    '''returns JFormatter\n\n
+    t(final JType type)\n
+    t(final JClass type)\n
     '''
 def id():
-    '''public JFormatter id(final String id)
+    '''returns JFormatter\n\n
+    id(final String id)\n
     '''
 def nl():
-    '''public JFormatter nl()
+    '''returns JFormatter\n\n
+    nl()\n
     '''
 def g():
-    '''public JFormatter g(final JGenerable g)
-    public JFormatter g(final Collection<? extends JGenerable> list)
+    '''returns JFormatter\n\n
+    g(final JGenerable g)\n
+    g(final Collection<? extends JGenerable> list)\n
     '''
 def d():
-    '''public JFormatter d(final JDeclaration d)
+    '''returns JFormatter\n\n
+    d(final JDeclaration d)\n
     '''
 def s():
-    '''public JFormatter s(final JStatement s)
+    '''returns JFormatter\n\n
+    s(final JStatement s)\n
     '''
 def b():
-    '''public JFormatter b(final JVar v)
+    '''returns JFormatter\n\n
+    b(final JVar v)\n
     '''
 def collisions():
-    '''public boolean collisions(final JDefinedClass enclosingClass)
+    '''returns boolean\n\n
+    collisions(final JDefinedClass enclosingClass)\n
     '''
 def add():
-    '''public void add(final JClass clazz)
+    '''returns None\n\n
+    add(final JClass clazz)\n
     '''
 def getClasses():
-    '''public List<JClass> getClasses()
+    '''returns List<JClass>\n\n
+    getClasses()\n
     '''
 def setId():
-    '''public void setId(final boolean value)
+    '''returns None\n\n
+    setId(final boolean value)\n
     '''
 def isId():
-    '''public boolean isId()
+    '''returns boolean\n\n
+    isId()\n
     '''

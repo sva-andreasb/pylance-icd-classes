@@ -1,6 +1,8 @@
-def FldCIGuid():
-    '''public FldCIGuid(final MboValue mbv)
+def ():
+    '''returns FldCIGuid\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

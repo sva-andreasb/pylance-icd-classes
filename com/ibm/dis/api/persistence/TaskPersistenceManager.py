@@ -1,18 +1,24 @@
-def TaskPersistenceManager():
-    '''public TaskPersistenceManager(final Connection conn)
+def ():
+    '''returns TaskPersistenceManager\n\n
+    (final Connection conn)\n
     '''
 def registerTask():
-    '''public void registerTask(final Guid mssGuid, final Guid classGuid, final Guid taskGuid, final Task task)
+    '''returns None\n\n
+    registerTask(final Guid mssGuid, final Guid classGuid, final Guid taskGuid, final Task task)\n
     '''
 def unregisterTask():
-    '''public void unregisterTask(final Guid mssGuid, final String className, final String taskName)
+    '''returns None\n\n
+    unregisterTask(final Guid mssGuid, final String className, final String taskName)\n
     '''
 def getMSSName():
-    '''public String getMSSName(final Guid mssGuid)
+    '''returns String\n\n
+    getMSSName(final Guid mssGuid)\n
     '''
 def getTaskGuid():
-    '''public Guid getTaskGuid(final String className, final String taskName, final String mssName)
+    '''returns Guid\n\n
+    getTaskGuid(final String className, final String taskName, final String mssName)\n
     '''
 def getTask():
-    '''public Task getTask(final Guid taskGuid)
+    '''returns Task\n\n
+    getTask(final Guid taskGuid)\n
     '''

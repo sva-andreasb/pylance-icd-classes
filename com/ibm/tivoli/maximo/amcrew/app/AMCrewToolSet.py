@@ -1,40 +1,52 @@
-def AMCrewToolSet():
-    '''public AMCrewToolSet(final MboServerInterface ms)
+def ():
+    '''returns AMCrewToolSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def createAMCrewTool():
-    '''public void createAMCrewTool(final MboRemote unrestrictedMbo, final MboRemote owner)
-    public void createAMCrewTool(final MboRemote unrestrictedMbo, final MboRemote owner, final boolean fromNewRow, final String dialogID)
-    public void createAMCrewTool(final MboRemote unrestrictedMbo, final MboRemote owner, final boolean fromNewRow)
+    '''returns None\n\n
+    createAMCrewTool(final MboRemote unrestrictedMbo, final MboRemote owner)\n
+    createAMCrewTool(final MboRemote unrestrictedMbo, final MboRemote owner, final boolean fromNewRow, final String dialogID)\n
+    createAMCrewTool(final MboRemote unrestrictedMbo, final MboRemote owner, final boolean fromNewRow)\n
     '''
 def checkExistingTools():
-    '''public void checkExistingTools(final MboRemote unrestrictedMbo, final MboRemote owner)
+    '''returns None\n\n
+    checkExistingTools(final MboRemote unrestrictedMbo, final MboRemote owner)\n
     '''
 def checkForSecondEntry():
-    '''public void checkForSecondEntry(final MboRemote unrestrictedMbo, final MboRemote owner)
+    '''returns None\n\n
+    checkForSecondEntry(final MboRemote unrestrictedMbo, final MboRemote owner)\n
     '''
 def createAMCrewToolSqEntry():
-    '''public void createAMCrewToolSqEntry(final MboRemote unrestrictedMbo, final MboRemote owner)
+    '''returns None\n\n
+    createAMCrewToolSqEntry(final MboRemote unrestrictedMbo, final MboRemote owner)\n
     '''
 def removeToolAssignment():
-    '''public MboSetRemote removeToolAssignment(final MboRemote unrestrictedMbo, final MboRemote amCrewTool, final String dialogID)
-    public MboSetRemote removeToolAssignment(final MboRemote unrestrictedMbo, final MboRemote amCrewTool, final String dialogID, final MboRemote collision)
+    '''returns MboSetRemote\n\n
+    removeToolAssignment(final MboRemote unrestrictedMbo, final MboRemote amCrewTool, final String dialogID)\n
+    removeToolAssignment(final MboRemote unrestrictedMbo, final MboRemote amCrewTool, final String dialogID, final MboRemote collision)\n
     '''
 def createAMCrewToolForRemove():
-    '''public void createAMCrewToolForRemove(final MboRemote unrestrictedMbo, final MboRemote amCrewTool, final String dialogID)
+    '''returns None\n\n
+    createAMCrewToolForRemove(final MboRemote unrestrictedMbo, final MboRemote amCrewTool, final String dialogID)\n
     '''
 def checkPositionSequence():
-    '''public void checkPositionSequence(final MboRemote unrestrictedMbo, final MboRemote owner)
+    '''returns None\n\n
+    checkPositionSequence(final MboRemote unrestrictedMbo, final MboRemote owner)\n
     '''
 def checkSetInMemory():
-    '''public boolean checkSetInMemory(final MboRemote unrestrictedMbo, final MboSetRemote foundCollisions)
-    public boolean checkSetInMemory(final MboRemote unrestrictedMbo, final MboSetRemote foundCollisions, final boolean findAnyOverlap)
+    '''returns boolean\n\n
+    checkSetInMemory(final MboRemote unrestrictedMbo, final MboSetRemote foundCollisions)\n
+    checkSetInMemory(final MboRemote unrestrictedMbo, final MboSetRemote foundCollisions, final boolean findAnyOverlap)\n
     '''
 def setFromNewRow():
-    '''public void setFromNewRow(final boolean fromNewRow)
+    '''returns None\n\n
+    setFromNewRow(final boolean fromNewRow)\n
     '''
 def isFromNewRow():
-    '''public boolean isFromNewRow()
+    '''returns boolean\n\n
+    isFromNewRow()\n
     '''
 def updateStatusTableViewStatusDialog():
-    '''public void updateStatusTableViewStatusDialog()
+    '''returns None\n\n
+    updateStatusTableViewStatusDialog()\n
     '''

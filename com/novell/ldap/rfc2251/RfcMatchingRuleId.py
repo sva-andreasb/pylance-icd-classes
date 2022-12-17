@@ -1,3 +1,4 @@
-def RfcMatchingRuleId():
-    '''public RfcMatchingRuleId(final String s)
+def ():
+    '''returns RfcMatchingRuleId\n\n
+    (final String s)\n
     '''

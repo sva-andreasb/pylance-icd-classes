@@ -1,4 +1,5 @@
-def ProcessingException():
-    '''public ProcessingException(final Throwable cause)
-    public ProcessingException(final String message)
+def ():
+    '''returns ProcessingException\n\n
+    (final Throwable cause)\n
+    (final String message)\n
     '''

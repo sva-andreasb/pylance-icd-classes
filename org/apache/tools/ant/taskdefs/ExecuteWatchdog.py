@@ -1,22 +1,13 @@
-def ExecuteWatchdog():
-    '''public ExecuteWatchdog(final long timeout)
-    public ExecuteWatchdog(final int timeout)
-    '''
-def start():
-    '''public synchronized void start(final Process process)
-    '''
-def stop():
-    '''public synchronized void stop()
-    '''
-def timeoutOccured():
-    '''public synchronized void timeoutOccured(final Watchdog w)
-    '''
-def checkException():
-    '''public synchronized void checkException()
+def ():
+    '''returns ExecuteWatchdog\n\n
+    (final long timeout)\n
+    (final int timeout)\n
     '''
 def isWatching():
-    '''public boolean isWatching()
+    '''returns boolean\n\n
+    isWatching()\n
     '''
 def killedProcess():
-    '''public boolean killedProcess()
+    '''returns boolean\n\n
+    killedProcess()\n
     '''

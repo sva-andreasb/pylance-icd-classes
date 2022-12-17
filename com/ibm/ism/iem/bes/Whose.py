@@ -1,18 +1,24 @@
 def getProperty():
-    '''public String getProperty()
+    '''returns String\n\n
+    getProperty()\n
     '''
 def setProperty():
-    '''public void setProperty(final String value)
+    '''returns None\n\n
+    setProperty(final String value)\n
     '''
 def getRelation():
-    '''public String getRelation()
+    '''returns String\n\n
+    getRelation()\n
     '''
 def setRelation():
-    '''public void setRelation(final String value)
+    '''returns None\n\n
+    setRelation(final String value)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''

@@ -1,12 +1,16 @@
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def selectpredtasks():
-    '''public int selectpredtasks()
+    '''returns int\n\n
+    selectpredtasks()\n
     '''
 def appSupportsRepairFacilities():
-    '''public boolean appSupportsRepairFacilities()
+    '''returns boolean\n\n
+    appSupportsRepairFacilities()\n
     '''
 def pmcom_launch():
-    '''public void pmcom_launch()
+    '''returns None\n\n
+    pmcom_launch()\n
     '''

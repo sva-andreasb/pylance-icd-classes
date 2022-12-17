@@ -1,6 +1,8 @@
-def LmoImRelSet():
-    '''public LmoImRelSet(final MboServerInterface ms)
+def ():
+    '''returns LmoImRelSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

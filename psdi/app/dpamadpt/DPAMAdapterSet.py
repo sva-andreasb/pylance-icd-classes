@@ -1,3 +1,4 @@
-def DPAMAdapterSet():
-    '''public DPAMAdapterSet(final MboServerInterface ms)
+def ():
+    '''returns DPAMAdapterSet\n\n
+    (final MboServerInterface ms)\n
     '''

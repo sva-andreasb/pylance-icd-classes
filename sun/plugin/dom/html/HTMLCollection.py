@@ -1,13 +1,17 @@
-def HTMLCollection():
-    '''public HTMLCollection(final int n, final DOMObject domObject, final HTMLDocument htmlDocument)
-    public HTMLCollection(final int type, final DOMObject obj, final HTMLDocument doc, final Element owner)
+def ():
+    '''returns HTMLCollection\n\n
+    (final int n, final DOMObject domObject, final HTMLDocument htmlDocument)\n
+    (final int type, final DOMObject obj, final HTMLDocument doc, final Element owner)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def item():
-    '''public Node item(final int n)
+    '''returns Node\n\n
+    item(final int n)\n
     '''
 def namedItem():
-    '''public Node namedItem(final String s)
+    '''returns Node\n\n
+    namedItem(final String s)\n
     '''

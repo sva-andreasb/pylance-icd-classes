@@ -1,28 +1,37 @@
-def HttpServerConnection():
-    '''public HttpServerConnection(final Socket sock, final RequestDispatcher dispatcher, final HttpServerManager manager)
+def ():
+    '''returns HttpServerConnection\n\n
+    (final Socket sock, final RequestDispatcher dispatcher, final HttpServerManager manager)\n
     '''
 def shutdown():
-    '''public boolean shutdown(final boolean b)
+    '''returns boolean\n\n
+    shutdown(final boolean b)\n
     '''
 def run():
-    '''public Object run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def checkPermissions():
-    '''public void checkPermissions()
+    '''returns None\n\n
+    checkPermissions()\n
     '''
 def checkConstraints():
-    '''public InvocationConstraints checkConstraints(final InvocationConstraints invocationConstraints)
+    '''returns InvocationConstraints\n\n
+    checkConstraints(final InvocationConstraints invocationConstraints)\n
     '''
 def populateContext():
-    '''public void populateContext(final Collection collection)
+    '''returns None\n\n
+    populateContext(final Collection collection)\n
     '''
 def addAcknowledgmentListener():
-    '''public boolean addAcknowledgmentListener(final Listener listener)
+    '''returns boolean\n\n
+    addAcknowledgmentListener(final Listener listener)\n
     '''
 def getRequestInputStream():
-    '''public InputStream getRequestInputStream()
+    '''returns InputStream\n\n
+    getRequestInputStream()\n
     '''
 def getResponseOutputStream():
-    '''public OutputStream getResponseOutputStream()
+    '''returns OutputStream\n\n
+    getResponseOutputStream()\n
     '''

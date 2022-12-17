@@ -1,3 +1,4 @@
-def DisabledException():
-    '''public DisabledException(final String message)
+def ():
+    '''returns DisabledException\n\n
+    (final String message)\n
     '''

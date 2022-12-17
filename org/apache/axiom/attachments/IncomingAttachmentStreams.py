@@ -1,6 +1,4 @@
-def IncomingAttachmentStreams():
-    '''public IncomingAttachmentStreams()
-    '''
-def isReadyToGetNextStream():
-    '''public final boolean isReadyToGetNextStream()
+def ():
+    '''returns IncomingAttachmentStreams\n\n
+    ()\n
     '''

@@ -1,43 +1,57 @@
-def SqlTable():
-    '''public SqlTable(final String name)
-    public SqlTable(final String aliasName, final String tableName)
+def ():
+    '''returns SqlTable\n\n
+    (final String name)\n
+    (final String aliasName, final String tableName)\n
     '''
 def isTable():
-    '''public boolean isTable()
+    '''returns boolean\n\n
+    isTable()\n
     '''
 def asTable():
-    '''public SqlTable asTable()
+    '''returns SqlTable\n\n
+    asTable()\n
     '''
 def usesColumn():
-    '''public boolean usesColumn(final SqlColumn c)
+    '''returns boolean\n\n
+    usesColumn(final SqlColumn c)\n
     '''
 def getTableName():
-    '''public String getTableName()
+    '''returns String\n\n
+    getTableName()\n
     '''
 def visit():
-    '''public void visit(final SqlNodeVisitor visitor)
+    '''returns None\n\n
+    visit(final SqlNodeVisitor visitor)\n
     '''
 def getIdScope():
-    '''public Scope getIdScope()
+    '''returns Scope\n\n
+    getIdScope()\n
     '''
 def getNodeScope():
-    '''public Scope getNodeScope()
+    '''returns Scope\n\n
+    getNodeScope()\n
     '''
 def setIdColumnForVar():
-    '''public void setIdColumnForVar(final Var var, final SqlColumn thisCol)
+    '''returns None\n\n
+    setIdColumnForVar(final Var var, final SqlColumn thisCol)\n
     '''
 def setValueColumnForVar():
-    '''public void setValueColumnForVar(final Var var, final SqlColumn thisCol)
+    '''returns None\n\n
+    setValueColumnForVar(final Var var, final SqlColumn thisCol)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def apply():
-    '''public SqlNode apply(final SqlTransform transform)
+    '''returns SqlNode\n\n
+    apply(final SqlTransform transform)\n
     '''
 def copy():
-    '''public SqlNode copy()
+    '''returns SqlNode\n\n
+    copy()\n
     '''

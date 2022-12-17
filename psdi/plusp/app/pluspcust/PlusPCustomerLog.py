@@ -1,18 +1,24 @@
-def PlusPCustomerLog():
-    '''public PlusPCustomerLog(final MboSet ms)
+def ():
+    '''returns PlusPCustomerLog\n\n
+    (final MboSet ms)\n
     '''
 def makeFieldsWritable():
-    '''public void makeFieldsWritable(final String[] names)
+    '''returns None\n\n
+    makeFieldsWritable(final String[] names)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''

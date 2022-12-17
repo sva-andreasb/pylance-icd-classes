@@ -1,3 +1,4 @@
-def RfcAssertionValue():
-    '''public RfcAssertionValue(final byte[] array)
+def ():
+    '''returns RfcAssertionValue\n\n
+    (final byte[] array)\n
     '''

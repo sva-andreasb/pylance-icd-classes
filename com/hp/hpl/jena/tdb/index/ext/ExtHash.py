@@ -1,62 +1,69 @@
-def createMem():
-    '''public static ExtHash createMem(final RecordFactory factory, final int bucketSizeBytes)
-    '''
-def ExtHash():
-    '''public ExtHash(final PlainFile dictionaryBackingFile, final RecordFactory recordFactory, final BlockMgr blockMgrHashBuckets)
-    '''
-def dictionarySize():
-    '''public final int dictionarySize()
+def ():
+    '''returns ExtHash\n\n
+    (final PlainFile dictionaryBackingFile, final RecordFactory recordFactory, final BlockMgr blockMgrHashBuckets)\n
     '''
 def contains():
-    '''public boolean contains(final Record key)
+    '''returns boolean\n\n
+    contains(final Record key)\n
     '''
 def find():
-    '''public Record find(final Record key)
+    '''returns Record\n\n
+    find(final Record key)\n
     '''
 def add():
-    '''public boolean add(final Record record)
+    '''returns boolean\n\n
+    add(final Record record)\n
     '''
 def delete():
-    '''public boolean delete(final Record record)
+    '''returns boolean\n\n
+    delete(final Record record)\n
     '''
 def getRecordFactory():
-    '''public RecordFactory getRecordFactory()
+    '''returns RecordFactory\n\n
+    getRecordFactory()\n
     '''
 def iterator():
-    '''public Iterator<Record> iterator()
+    '''returns Iterator<Record>\n\n
+    iterator()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def size():
-    '''public long size()
+    '''returns long\n\n
+    size()\n
     '''
 def count():
-    '''public long count()
+    '''returns long\n\n
+    count()\n
     '''
 def sync():
-    '''public void sync()
-    public void sync(final boolean force)
+    '''returns None\n\n
+    sync()\n
+    sync(final boolean force)\n
     '''
 def sessionTripleCount():
-    '''public long sessionTripleCount()
+    '''returns long\n\n
+    sessionTripleCount()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def dump():
-    '''public void dump()
+    '''returns None\n\n
+    dump()\n
     '''
 def check():
-    '''public void check()
-    '''
-def hashCode():
-    '''public final int hashCode(final byte[] key)
-    public final int hashCode(final byte[] key)
+    '''returns None\n\n
+    check()\n
     '''

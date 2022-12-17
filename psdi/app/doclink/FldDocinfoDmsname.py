@@ -1,3 +1,4 @@
-def FldDocinfoDmsname():
-    '''public FldDocinfoDmsname(final MboValue mbv)
+def ():
+    '''returns FldDocinfoDmsname\n\n
+    (final MboValue mbv)\n
     '''

@@ -1,18 +1,20 @@
-def blockSize():
-    '''public final int blockSize()
-    '''
 def finishUpdate():
-    '''public void finishUpdate()
+    '''returns None\n\n
+    finishUpdate()\n
     '''
 def startUpdate():
-    '''public void startUpdate()
+    '''returns None\n\n
+    startUpdate()\n
     '''
 def startRead():
-    '''public void startRead()
+    '''returns None\n\n
+    startRead()\n
     '''
 def finishRead():
-    '''public void finishRead()
+    '''returns None\n\n
+    finishRead()\n
     '''
 def sync():
-    '''public void sync()
+    '''returns None\n\n
+    sync()\n
     '''

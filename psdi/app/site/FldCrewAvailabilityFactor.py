@@ -1,6 +1,8 @@
-def FldCrewAvailabilityFactor():
-    '''public FldCrewAvailabilityFactor(final MboValue mbv)
+def ():
+    '''returns FldCrewAvailabilityFactor\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

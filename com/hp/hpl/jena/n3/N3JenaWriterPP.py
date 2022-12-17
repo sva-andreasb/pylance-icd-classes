@@ -1,3 +1,4 @@
-def N3JenaWriterPP():
-    '''public N3JenaWriterPP()
+def ():
+    '''returns N3JenaWriterPP\n\n
+    ()\n
     '''

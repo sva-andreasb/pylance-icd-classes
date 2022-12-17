@@ -1,9 +1,11 @@
 METHOD_NAME = "String  \"DELETE\""
-def HttpDelete():
-    '''public HttpDelete()
-    public HttpDelete(final URI uri)
-    public HttpDelete(final String uri)
+def ():
+    '''returns HttpDelete\n\n
+    ()\n
+    (final URI uri)\n
+    (final String uri)\n
     '''
 def getMethod():
-    '''public String getMethod()
+    '''returns String\n\n
+    getMethod()\n
     '''

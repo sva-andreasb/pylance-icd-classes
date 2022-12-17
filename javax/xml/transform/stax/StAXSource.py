@@ -1,17 +1,22 @@
 FEATURE = "String  \"http://javax.xml.transform.stax.StAXSource/feature\""
-def StAXSource():
-    '''public StAXSource(final XMLStreamReader xmlStreamReader)
-    public StAXSource(final XMLEventReader xmlEventReader)
+def ():
+    '''returns StAXSource\n\n
+    (final XMLStreamReader xmlStreamReader)\n
+    (final XMLEventReader xmlEventReader)\n
     '''
 def getXMLStreamReader():
-    '''public XMLStreamReader getXMLStreamReader()
+    '''returns XMLStreamReader\n\n
+    getXMLStreamReader()\n
     '''
 def getXMLEventReader():
-    '''public XMLEventReader getXMLEventReader()
+    '''returns XMLEventReader\n\n
+    getXMLEventReader()\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''
 def setSystemId():
-    '''public void setSystemId(final String s)
+    '''returns None\n\n
+    setSystemId(final String s)\n
     '''

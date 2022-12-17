@@ -1,61 +1,80 @@
 def getContentLoggingLimit():
-    '''public int getContentLoggingLimit()
+    '''returns int\n\n
+    getContentLoggingLimit()\n
     '''
 def setContentLoggingLimit():
-    '''public HttpResponse setContentLoggingLimit(final int contentLoggingLimit)
+    '''returns HttpResponse\n\n
+    setContentLoggingLimit(final int contentLoggingLimit)\n
     '''
 def isLoggingEnabled():
-    '''public boolean isLoggingEnabled()
+    '''returns boolean\n\n
+    isLoggingEnabled()\n
     '''
 def setLoggingEnabled():
-    '''public HttpResponse setLoggingEnabled(final boolean loggingEnabled)
+    '''returns HttpResponse\n\n
+    setLoggingEnabled(final boolean loggingEnabled)\n
     '''
 def getContentEncoding():
-    '''public String getContentEncoding()
+    '''returns String\n\n
+    getContentEncoding()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getMediaType():
-    '''public HttpMediaType getMediaType()
+    '''returns HttpMediaType\n\n
+    getMediaType()\n
     '''
 def getHeaders():
-    '''public HttpHeaders getHeaders()
+    '''returns HttpHeaders\n\n
+    getHeaders()\n
     '''
 def isSuccessStatusCode():
-    '''public boolean isSuccessStatusCode()
+    '''returns boolean\n\n
+    isSuccessStatusCode()\n
     '''
 def getStatusCode():
-    '''public int getStatusCode()
+    '''returns int\n\n
+    getStatusCode()\n
     '''
 def getStatusMessage():
-    '''public String getStatusMessage()
+    '''returns String\n\n
+    getStatusMessage()\n
     '''
 def getTransport():
-    '''public HttpTransport getTransport()
+    '''returns HttpTransport\n\n
+    getTransport()\n
     '''
 def getRequest():
-    '''public HttpRequest getRequest()
+    '''returns HttpRequest\n\n
+    getRequest()\n
     '''
 def getContent():
-    '''public InputStream getContent()
+    '''returns InputStream\n\n
+    getContent()\n
     '''
 def download():
-    '''public void download(final OutputStream outputStream)
+    '''returns None\n\n
+    download(final OutputStream outputStream)\n
     '''
 def ignore():
-    '''public void ignore()
+    '''returns None\n\n
+    ignore()\n
     '''
 def disconnect():
-    '''public void disconnect()
+    '''returns None\n\n
+    disconnect()\n
     '''
 def parseAs():
-    '''public <T> T parseAs(final Class<T> dataClass)
-    public Object parseAs(final Type dataType)
+    '''returns Object\n\n
+    parseAs(final Type dataType)\n
     '''
 def parseAsString():
-    '''public String parseAsString()
+    '''returns String\n\n
+    parseAsString()\n
     '''
 def getContentCharset():
-    '''public Charset getContentCharset()
+    '''returns Charset\n\n
+    getContentCharset()\n
     '''

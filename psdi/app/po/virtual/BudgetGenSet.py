@@ -1,21 +1,28 @@
-def BudgetGenSet():
-    '''public BudgetGenSet(final MboServerInterface ms)
+def ():
+    '''returns BudgetGenSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getAsyncJobHandlerClassName():
-    '''public String getAsyncJobHandlerClassName()
+    '''returns String\n\n
+    getAsyncJobHandlerClassName()\n
     '''
 def getCompleteWhereClause():
-    '''public String getCompleteWhereClause()
+    '''returns String\n\n
+    getCompleteWhereClause()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getJobName():
-    '''public String getJobName()
+    '''returns String\n\n
+    getJobName()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

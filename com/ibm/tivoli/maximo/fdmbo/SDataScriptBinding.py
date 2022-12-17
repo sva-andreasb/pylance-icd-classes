@@ -1,12 +1,16 @@
-def SDataScriptBinding():
-    '''public SDataScriptBinding(final StructureObject so, final MboSetInfo mboSetInfo)
+def ():
+    '''returns SDataScriptBinding\n\n
+    (final StructureObject so, final MboSetInfo mboSetInfo)\n
     '''
 def get():
-    '''public Object get(final Object key)
+    '''returns Object\n\n
+    get(final Object key)\n
     '''
 def put():
-    '''public Object put(final String name, final Object value)
+    '''returns Object\n\n
+    put(final String name, final Object value)\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''

@@ -1,12 +1,16 @@
-def PlusPMXValue():
-    '''public PlusPMXValue(final MboSet arg0)
+def ():
+    '''returns PlusPMXValue\n\n
+    (final MboSet arg0)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def genValueId():
-    '''public String genValueId()
+    '''returns String\n\n
+    genValueId()\n
     '''

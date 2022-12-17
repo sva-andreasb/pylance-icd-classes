@@ -1,36 +1,37 @@
-def add():
-    '''public static Builder add(final ULocale... locales)
-    public static Builder add(final ULocale locale, final double weight)
-    public static Builder add(final LocalePriorityList list)
-    public static Builder add(final String acceptLanguageString)
-    public Builder add(final LocalePriorityList list)
-    public Builder add(final ULocale locale)
-    public Builder add(final ULocale... locales)
-    public Builder add(final ULocale locale, final double weight)
-    public Builder add(final String acceptLanguageList)
-    '''
 def getWeight():
-    '''public Double getWeight(final ULocale locale)
-    '''
-def getULocales():
-    '''public Set<ULocale> getULocales()
+    '''returns Double\n\n
+    getWeight(final ULocale language)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def iterator():
-    '''public Iterator<ULocale> iterator()
+    '''returns Iterator<ULocale>\n\n
+    iterator()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def compare():
-    '''public int compare(final Double o1, final Double o2)
+    '''returns int\n\n
+    compare(final Double o1, final Double o2)\n
     '''
 def build():
-    '''public LocalePriorityList build()
-    public LocalePriorityList build(final boolean preserveWeights)
+    '''returns LocalePriorityList\n\n
+    build()\n
+    build(final boolean preserveWeights)\n
+    '''
+def add():
+    '''returns Builder\n\n
+    add(final LocalePriorityList languagePriorityList)\n
+    add(final ULocale languageCode)\n
+    add(final ULocale... languageCodes)\n
+    add(final ULocale languageCode, double weight)\n
+    add(final String acceptLanguageList)\n
     '''

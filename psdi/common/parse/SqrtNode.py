@@ -1,6 +1,8 @@
-def SqrtNode():
-    '''public SqrtNode(final Vector operands)
+def ():
+    '''returns SqrtNode\n\n
+    (final Vector operands)\n
     '''
 def getDouble():
-    '''public double getDouble(final MboRemote mbo)
+    '''returns double\n\n
+    getDouble(final MboRemote mbo)\n
     '''

@@ -1,21 +1,28 @@
-def FileContent():
-    '''public FileContent(final String type, final File file)
+def ():
+    '''returns FileContent\n\n
+    (final String type, final File file)\n
     '''
 def getLength():
-    '''public long getLength()
+    '''returns long\n\n
+    getLength()\n
     '''
 def retrySupported():
-    '''public boolean retrySupported()
+    '''returns boolean\n\n
+    retrySupported()\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getFile():
-    '''public File getFile()
+    '''returns File\n\n
+    getFile()\n
     '''
 def setType():
-    '''public FileContent setType(final String type)
+    '''returns FileContent\n\n
+    setType(final String type)\n
     '''
 def setCloseInputStream():
-    '''public FileContent setCloseInputStream(final boolean closeInputStream)
+    '''returns FileContent\n\n
+    setCloseInputStream(final boolean closeInputStream)\n
     '''

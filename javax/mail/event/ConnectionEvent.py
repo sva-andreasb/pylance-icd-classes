@@ -2,11 +2,14 @@ OPENED = "int  1"
 DISCONNECTED = "int  2"
 CLOSED = "int  3"
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def dispatch():
-    '''public void dispatch(final Object listener)
+    '''returns None\n\n
+    dispatch(final Object listener)\n
     '''
-def ConnectionEvent():
-    '''public ConnectionEvent(final Object source, final int type)
+def ():
+    '''returns ConnectionEvent\n\n
+    (final Object source, final int type)\n
     '''

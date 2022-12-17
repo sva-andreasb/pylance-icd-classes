@@ -1,6 +1,8 @@
 def postDataToValidate():
-    '''public String[] postDataToValidate(final AppDeploymentTask task, final String[] data)
+    '''returns String[]\n\n
+    postDataToValidate(final AppDeploymentTask task, final String[] data)\n
     '''
 def resourceObjectsPostProcessing():
-    '''public void resourceObjectsPostProcessing(final Hashtable targetToNodeTbl, final String resType, final Hashtable valuesToObjectTbl)
+    '''returns None\n\n
+    resourceObjectsPostProcessing(final Hashtable targetToNodeTbl, final String resType, final Hashtable valuesToObjectTbl)\n
     '''

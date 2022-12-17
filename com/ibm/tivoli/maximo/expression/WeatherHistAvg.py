@@ -1,9 +1,12 @@
-def WeatherHistAvg():
-    '''public WeatherHistAvg(final Expression exp, final String name, final int numParams)
+def ():
+    '''returns WeatherHistAvg\n\n
+    (final Expression exp, final String name, final int numParams)\n
     '''
 def eval():
-    '''public BigDecimal eval(final List<BigDecimal> parameters)
+    '''returns BigDecimal\n\n
+    eval(final List<BigDecimal> parameters)\n
     '''
 def avg():
-    '''public BigDecimal avg(final MboRemote mbo, final String attrName, final BigDecimal days)
+    '''returns BigDecimal\n\n
+    avg(final MboRemote mbo, final String attrName, final BigDecimal days)\n
     '''

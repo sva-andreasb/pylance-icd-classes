@@ -1,21 +1,28 @@
-def LdapSynchronizerInitData():
-    '''public LdapSynchronizerInitData(final LdapContextSettings contextSettings, final SynchronizerSettings synchronizerSettings, final UserSettings userSettings, final GroupSettings groupSettings, final MXLogger logger, final MXLogger sqlLogger)
+def ():
+    '''returns LdapSynchronizerInitData\n\n
+    (final LdapContextSettings contextSettings, final SynchronizerSettings synchronizerSettings, final UserSettings userSettings, final GroupSettings groupSettings, final MXLogger logger, final MXLogger sqlLogger)\n
     '''
 def getContextSettings():
-    '''public LdapContextSettings getContextSettings()
+    '''returns LdapContextSettings\n\n
+    getContextSettings()\n
     '''
 def getSynchronizerSettings():
-    '''public SynchronizerSettings getSynchronizerSettings()
+    '''returns SynchronizerSettings\n\n
+    getSynchronizerSettings()\n
     '''
 def getUserSettings():
-    '''public UserSettings getUserSettings()
+    '''returns UserSettings\n\n
+    getUserSettings()\n
     '''
 def getGroupSettings():
-    '''public GroupSettings getGroupSettings()
+    '''returns GroupSettings\n\n
+    getGroupSettings()\n
     '''
 def getLogger():
-    '''public MXLogger getLogger()
+    '''returns MXLogger\n\n
+    getLogger()\n
     '''
 def getSqlLogger():
-    '''public MXLogger getSqlLogger()
+    '''returns MXLogger\n\n
+    getSqlLogger()\n
     '''

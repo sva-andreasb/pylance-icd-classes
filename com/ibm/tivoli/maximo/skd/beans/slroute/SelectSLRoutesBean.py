@@ -1,3 +1,4 @@
 def selectSLRoutes():
-    '''public int selectSLRoutes()
+    '''returns int\n\n
+    selectSLRoutes()\n
     '''

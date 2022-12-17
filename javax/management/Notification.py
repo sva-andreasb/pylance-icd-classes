@@ -1,36 +1,47 @@
 def getSequenceNumber():
-    '''public long getSequenceNumber()
+    '''returns long\n\n
+    getSequenceNumber()\n
     '''
 def getTimeStamp():
-    '''public long getTimeStamp()
+    '''returns long\n\n
+    getTimeStamp()\n
     '''
 def setSequenceNumber():
-    '''public void setSequenceNumber(final long sequenceNumber)
+    '''returns None\n\n
+    setSequenceNumber(final long sequenceNumber)\n
     '''
 def setTimeStamp():
-    '''public void setTimeStamp(final long timeStamp)
+    '''returns None\n\n
+    setTimeStamp(final long timeStamp)\n
     '''
 def getUserData():
-    '''public Object getUserData()
+    '''returns Object\n\n
+    getUserData()\n
     '''
 def setSource():
-    '''public void setSource(final Object o)
+    '''returns None\n\n
+    setSource(final Object o)\n
     '''
 def setUserData():
-    '''public void setUserData(final Object userData)
+    '''returns None\n\n
+    setUserData(final Object userData)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def Notification():
-    '''public Notification(final String type, final Object o, final long sequenceNumber)
-    public Notification(final String type, final Object o, final long sequenceNumber, final long timeStamp)
-    public Notification(final String type, final Object o, final long sequenceNumber, final long timeStamp, final String message)
-    public Notification(final String type, final Object o, final long sequenceNumber, final String message)
+def ():
+    '''returns Notification\n\n
+    (final String type, final Object o, final long sequenceNumber)\n
+    (final String type, final Object o, final long sequenceNumber, final long timeStamp)\n
+    (final String type, final Object o, final long sequenceNumber, final long timeStamp, final String message)\n
+    (final String type, final Object o, final long sequenceNumber, final String message)\n
     '''

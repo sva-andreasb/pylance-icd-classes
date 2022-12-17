@@ -1,4 +1,5 @@
 serialVersionUID = "long  1L"
-def PopulatedExtensionRegistry():
-    '''public PopulatedExtensionRegistry()
+def ():
+    '''returns PopulatedExtensionRegistry\n\n
+    ()\n
     '''

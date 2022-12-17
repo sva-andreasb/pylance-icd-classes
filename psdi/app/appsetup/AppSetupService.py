@@ -1,25 +1,33 @@
-def AppSetupService():
-    '''public AppSetupService()
-    public AppSetupService(final MXServer mxServer)
+def ():
+    '''returns AppSetupService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getMainTbname():
-    '''public String getMainTbname(final String app, final UserInfo userInfo)
+    '''returns String\n\n
+    getMainTbname(final String app, final UserInfo userInfo)\n
     '''
 def getCondPropCache():
-    '''public CtrlCondPropCache getCondPropCache()
+    '''returns CtrlCondPropCache\n\n
+    getCondPropCache()\n
     '''
 def getPresentationCache():
-    '''public PresentationCache getPresentationCache()
+    '''returns PresentationCache\n\n
+    getPresentationCache()\n
     '''
 def overridePropValue():
-    '''public void overridePropValue(@WSMboKey("APPPROPCFG") final MboRemote propCfg, final String userAlnValue, final Long userLongVal, final Boolean userBoolValue)
+    '''returns None\n\n
+    overridePropValue(@WSMboKey("APPPROPCFG") final MboRemote propCfg, final String userAlnValue, final Long userLongVal, final Boolean userBoolValue)\n
     '''
 def resetPropValue():
-    '''public void resetPropValue(@WSMboKey("APPPROPCFG") final MboRemote propCfg)
+    '''returns None\n\n
+    resetPropValue(@WSMboKey("APPPROPCFG") final MboRemote propCfg)\n
     '''
 def publishWorkCenter():
-    '''public void publishWorkCenter(@WSMboKey("MAXWORKCENTER") final MboRemote maxWorkcenterMbo, final String revisionDate, final String workcenter, final String comments, final String headerString)
+    '''returns None\n\n
+    publishWorkCenter(@WSMboKey("MAXWORKCENTER") final MboRemote maxWorkcenterMbo, final String revisionDate, final String workcenter, final String comments, final String headerString)\n
     '''

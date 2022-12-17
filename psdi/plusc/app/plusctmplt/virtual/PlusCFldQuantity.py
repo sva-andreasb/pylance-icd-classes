@@ -1,7 +1,9 @@
-def PlusCFldQuantity():
-    '''public PlusCFldQuantity()
-    public PlusCFldQuantity(final MboValue mbv)
+def ():
+    '''returns PlusCFldQuantity\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

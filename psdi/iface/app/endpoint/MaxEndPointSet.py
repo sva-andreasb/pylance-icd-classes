@@ -1,6 +1,8 @@
-def MaxEndPointSet():
-    '''public MaxEndPointSet(final MboServerInterface ms)
+def ():
+    '''returns MaxEndPointSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

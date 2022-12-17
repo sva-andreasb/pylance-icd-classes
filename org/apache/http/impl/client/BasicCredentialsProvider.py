@@ -1,15 +1,20 @@
-def BasicCredentialsProvider():
-    '''public BasicCredentialsProvider()
+def ():
+    '''returns BasicCredentialsProvider\n\n
+    ()\n
     '''
 def setCredentials():
-    '''public void setCredentials(final AuthScope authscope, final Credentials credentials)
+    '''returns None\n\n
+    setCredentials(final AuthScope authscope, final Credentials credentials)\n
     '''
 def getCredentials():
-    '''public Credentials getCredentials(final AuthScope authscope)
+    '''returns Credentials\n\n
+    getCredentials(final AuthScope authscope)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

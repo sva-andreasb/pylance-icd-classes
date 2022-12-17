@@ -1,12 +1,16 @@
-def PlusCDSPointSet():
-    '''public PlusCDSPointSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCDSPointSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canChangeView():
-    '''public boolean canChangeView()
+    '''returns boolean\n\n
+    canChangeView()\n
     '''
 def checkPointPermissions():
-    '''public int checkPointPermissions()
+    '''returns int\n\n
+    checkPointPermissions()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

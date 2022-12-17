@@ -1,22 +1,29 @@
 def applyConstraintChange():
-    '''public void applyConstraintChange(final MboRemote constraintMboRemote, final MXTransaction txn)
-    public void applyConstraintChange(final MboRemote constraintMboRemote, final String ids, final MXTransaction txn)
+    '''returns None\n\n
+    applyConstraintChange(final MboRemote constraintMboRemote, final MXTransaction txn)\n
+    applyConstraintChange(final MboRemote constraintMboRemote, final String ids, final MXTransaction txn)\n
     '''
 def initializeConstraint():
-    '''public void initializeConstraint(final MXConstraint constraint, final String objectName, final MboRemote mboObject)
+    '''returns None\n\n
+    initializeConstraint(final MXConstraint constraint, final String objectName, final MboRemote mboObject)\n
     '''
 def loadConstraint():
-    '''public void loadConstraint(final MXConstraint constraint, final String objectName, final MboRemote mboObject)
+    '''returns None\n\n
+    loadConstraint(final MXConstraint constraint, final String objectName, final MboRemote mboObject)\n
     '''
 def populateConstraintPropertyDetails():
-    '''public void populateConstraintPropertyDetails()
+    '''returns None\n\n
+    populateConstraintPropertyDetails()\n
     '''
 def populateConstraints():
-    '''public void populateConstraints(final HashMap<String, ArrayList<String>> refObjQueries)
+    '''returns None\n\n
+    populateConstraints(final HashMap<String, ArrayList<String>> refObjQueries)\n
     '''
 def constraintRecordCount():
-    '''public int constraintRecordCount(final HashMap<String, ArrayList<String>> refObjQueries)
+    '''returns int\n\n
+    constraintRecordCount(final HashMap<String, ArrayList<String>> refObjQueries)\n
     '''
 def saveConstraints():
-    '''public void saveConstraints(final IlvGeneralConstraint constraint)
+    '''returns None\n\n
+    saveConstraints(final IlvGeneralConstraint constraint)\n
     '''

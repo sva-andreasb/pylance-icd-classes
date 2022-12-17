@@ -1,18 +1,24 @@
-def LocationPath():
-    '''public LocationPath(final boolean absolute, final Step[] steps)
+def ():
+    '''returns LocationPath\n\n
+    (final boolean absolute, final Step[] steps)\n
     '''
 def isAbsolute():
-    '''public boolean isAbsolute()
+    '''returns boolean\n\n
+    isAbsolute()\n
     '''
 def computeContextDependent():
-    '''public boolean computeContextDependent()
+    '''returns boolean\n\n
+    computeContextDependent()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def compute():
-    '''public Object compute(final EvalContext context)
+    '''returns Object\n\n
+    compute(final EvalContext context)\n
     '''
 def computeValue():
-    '''public Object computeValue(final EvalContext context)
+    '''returns Object\n\n
+    computeValue(final EvalContext context)\n
     '''

@@ -1,45 +1,51 @@
-def CustomKit():
-    '''public CustomKit()
+def ():
+    '''returns ObjectView1\n\n
+    ()\n
+    ()\n
+    (final int offset)\n
+    (final Element elem)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def install():
-    '''public void install(final JEditorPane c)
+    '''returns None\n\n
+    install(final JEditorPane c)\n
     '''
 def deinstall():
-    '''public void deinstall(final JEditorPane c)
+    '''returns None\n\n
+    deinstall(final JEditorPane c)\n
     '''
 def createDefaultDocument():
-    '''public Document createDefaultDocument()
+    '''returns Document\n\n
+    createDefaultDocument()\n
     '''
 def getViewFactory():
-    '''public ViewFactory getViewFactory()
-    '''
-def MouseHandler():
-    '''public MouseHandler()
+    '''returns ViewFactory\n\n
+    getViewFactory()\n
     '''
 def mouseDragged():
-    '''public void mouseDragged(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseDragged(final MouseEvent mouseEvent)\n
     '''
 def mouseMoved():
-    '''public void mouseMoved(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseMoved(final MouseEvent mouseEvent)\n
     '''
 def create():
-    '''public View create(final Element element)
+    '''returns View\n\n
+    create(final Element element)\n
     '''
 def getReader():
-    '''public ParserCallback getReader(final int n)
-    '''
-def CustomReader():
-    '''public CustomReader(final int offset)
+    '''returns ParserCallback\n\n
+    getReader(final int n)\n
     '''
 def start():
-    '''public void start(final HTML.Tag t, final MutableAttributeSet a)
+    '''returns None\n\n
+    start(final HTML.Tag t, final MutableAttributeSet a)\n
     '''
 def end():
-    '''public void end(final HTML.Tag t)
-    '''
-def ObjectView1():
-    '''public ObjectView1(final Element elem)
+    '''returns None\n\n
+    end(final HTML.Tag t)\n
     '''

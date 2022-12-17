@@ -1,33 +1,36 @@
 def getFileFSTFormat():
-    '''public int getFileFSTFormat()
+    '''returns int\n\n
+    getFileFSTFormat()\n
     '''
 def readContents():
-    '''public long readContents(final DataInput dataInput, final int n)
+    '''returns long\n\n
+    readContents(final DataInput dataInput, final int n)\n
     '''
 def removeGloss():
-    '''public void removeGloss(final CharacterIterator characterIterator, final int n, final Gloss gloss)
+    '''returns None\n\n
+    removeGloss(final CharacterIterator characterIterator, final int n, final Gloss gloss)\n
     '''
 def contract():
-    '''public void contract()
+    '''returns None\n\n
+    contract()\n
     '''
 def newNode():
-    '''public WritableNode newNode(final int n, final int n2)
+    '''returns WritableNode\n\n
+    newNode(final int n, final int n2)\n
     '''
 def setFirstNode():
-    '''public void setFirstNode(final Node first)
+    '''returns None\n\n
+    setFirstNode(final Node first)\n
     '''
 def startBuild():
-    '''public void startBuild(final boolean b)
+    '''returns None\n\n
+    startBuild(final boolean b)\n
     '''
 def endBuild():
-    '''public int endBuild()
-    '''
-def process():
-    '''public final Object process(final Object o)
+    '''returns int\n\n
+    endBuild()\n
     '''
 def recalc():
-    '''public Object recalc(final long n)
-    '''
-def reset():
-    '''public final void reset()
+    '''returns Object\n\n
+    recalc(final long n)\n
     '''

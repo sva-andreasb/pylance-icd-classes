@@ -1,3 +1,4 @@
-def AutoScriptChangeStateSet():
-    '''public AutoScriptChangeStateSet(final MboServerInterface ms)
+def ():
+    '''returns AutoScriptChangeStateSet\n\n
+    (final MboServerInterface ms)\n
     '''

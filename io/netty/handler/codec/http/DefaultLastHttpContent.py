@@ -1,34 +1,44 @@
-def DefaultLastHttpContent():
-    '''public DefaultLastHttpContent()
-    public DefaultLastHttpContent(final ByteBuf content)
-    public DefaultLastHttpContent(final ByteBuf content, final boolean validateHeaders)
+def ():
+    '''returns DefaultLastHttpContent\n\n
+    ()\n
+    (final ByteBuf content)\n
+    (final ByteBuf content, final boolean validateHeaders)\n
     '''
 def copy():
-    '''public LastHttpContent copy()
+    '''returns LastHttpContent\n\n
+    copy()\n
     '''
 def duplicate():
-    '''public LastHttpContent duplicate()
+    '''returns LastHttpContent\n\n
+    duplicate()\n
     '''
 def retainedDuplicate():
-    '''public LastHttpContent retainedDuplicate()
+    '''returns LastHttpContent\n\n
+    retainedDuplicate()\n
     '''
 def replace():
-    '''public LastHttpContent replace(final ByteBuf content)
+    '''returns LastHttpContent\n\n
+    replace(final ByteBuf content)\n
     '''
 def retain():
-    '''public LastHttpContent retain(final int increment)
-    public LastHttpContent retain()
+    '''returns LastHttpContent\n\n
+    retain(final int increment)\n
+    retain()\n
     '''
 def touch():
-    '''public LastHttpContent touch()
-    public LastHttpContent touch(final Object hint)
+    '''returns LastHttpContent\n\n
+    touch()\n
+    touch(final Object hint)\n
     '''
 def trailingHeaders():
-    '''public HttpHeaders trailingHeaders()
+    '''returns HttpHeaders\n\n
+    trailingHeaders()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def validateName():
-    '''public void validateName(final CharSequence name)
+    '''returns None\n\n
+    validateName(final CharSequence name)\n
     '''

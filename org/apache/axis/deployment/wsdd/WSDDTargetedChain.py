@@ -1,36 +1,44 @@
 def getRequestFlow():
-    '''public WSDDRequestFlow getRequestFlow()
+    '''returns WSDDRequestFlow\n\n
+    getRequestFlow()\n
     '''
 def setRequestFlow():
-    '''public void setRequestFlow(final WSDDRequestFlow flow)
+    '''returns None\n\n
+    setRequestFlow(final WSDDRequestFlow flow)\n
     '''
 def getResponseFlow():
-    '''public WSDDResponseFlow getResponseFlow()
+    '''returns WSDDResponseFlow\n\n
+    getResponseFlow()\n
     '''
 def setResponseFlow():
-    '''public void setResponseFlow(final WSDDResponseFlow flow)
+    '''returns None\n\n
+    setResponseFlow(final WSDDResponseFlow flow)\n
     '''
 def getFaultFlows():
-    '''public WSDDFaultFlow[] getFaultFlows()
+    '''returns WSDDFaultFlow[]\n\n
+    getFaultFlows()\n
     '''
 def getFaultFlow():
-    '''public WSDDFaultFlow getFaultFlow(final QName name)
+    '''returns WSDDFaultFlow\n\n
+    getFaultFlow(final QName name)\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def getPivotQName():
-    '''public QName getPivotQName()
+    '''returns QName\n\n
+    getPivotQName()\n
     '''
 def setPivotQName():
-    '''public void setPivotQName(final QName pivotQName)
+    '''returns None\n\n
+    setPivotQName(final QName pivotQName)\n
     '''
 def makeNewInstance():
-    '''public Handler makeNewInstance(final EngineConfiguration registry)
-    '''
-def writeFlowsToContext():
-    '''public final void writeFlowsToContext(final SerializationContext context)
+    '''returns Handler\n\n
+    makeNewInstance(final EngineConfiguration registry)\n
     '''
 def deployToRegistry():
-    '''public void deployToRegistry(final WSDDDeployment registry)
+    '''returns None\n\n
+    deployToRegistry(final WSDDDeployment registry)\n
     '''

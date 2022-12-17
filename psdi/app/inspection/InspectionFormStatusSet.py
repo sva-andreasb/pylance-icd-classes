@@ -1,3 +1,4 @@
-def InspectionFormStatusSet():
-    '''public InspectionFormStatusSet(final MboServerInterface ms)
+def ():
+    '''returns InspectionFormStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

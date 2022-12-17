@@ -1,3 +1,4 @@
-def WFStopSet():
-    '''public WFStopSet(final MboServerInterface ms)
+def ():
+    '''returns WFStopSet\n\n
+    (final MboServerInterface ms)\n
     '''

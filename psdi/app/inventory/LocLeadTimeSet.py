@@ -1,3 +1,4 @@
-def LocLeadTimeSet():
-    '''public LocLeadTimeSet(final MboServerInterface ms)
+def ():
+    '''returns LocLeadTimeSet\n\n
+    (final MboServerInterface ms)\n
     '''

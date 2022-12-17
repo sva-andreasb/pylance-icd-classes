@@ -1,9 +1,12 @@
-def GanttViewCompareItem():
-    '''public GanttViewCompareItem(final Viewer viewer, final String id, final String name, final IlvTimeScrollController timeController)
+def ():
+    '''returns GanttViewCompareItem\n\n
+    (final Viewer viewer, final String id, final String name, final IlvTimeScrollController timeController)\n
     '''
 def createChart():
-    '''public IlvGanttChart createChart(final IlvGanttModel model, final IlvTimeScrollController timeController)
+    '''returns IlvGanttChart\n\n
+    createChart(final IlvGanttModel model, final IlvTimeScrollController timeController)\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent e)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent e)\n
     '''

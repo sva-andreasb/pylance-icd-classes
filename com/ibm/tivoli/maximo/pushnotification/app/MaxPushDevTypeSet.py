@@ -1,3 +1,4 @@
-def MaxPushDevTypeSet():
-    '''public MaxPushDevTypeSet(final MboServerInterface ms)
+def ():
+    '''returns MaxPushDevTypeSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,54 +1,68 @@
-def createTitle():
-    '''public static PdfLayer createTitle(final String title, final PdfWriter writer)
-    '''
-def PdfLayer():
-    '''public PdfLayer(final String name, final PdfWriter writer)
+def ():
+    '''returns PdfLayer\n\n
+    (final String name, final PdfWriter writer)\n
     '''
 def addChild():
-    '''public void addChild(final PdfLayer child)
+    '''returns None\n\n
+    addChild(final PdfLayer child)\n
     '''
 def getParent():
-    '''public PdfLayer getParent()
+    '''returns PdfLayer\n\n
+    getParent()\n
     '''
 def getChildren():
-    '''public ArrayList getChildren()
+    '''returns ArrayList\n\n
+    getChildren()\n
     '''
 def getRef():
-    '''public PdfIndirectReference getRef()
+    '''returns PdfIndirectReference\n\n
+    getRef()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getPdfObject():
-    '''public PdfObject getPdfObject()
+    '''returns PdfObject\n\n
+    getPdfObject()\n
     '''
 def isOn():
-    '''public boolean isOn()
+    '''returns boolean\n\n
+    isOn()\n
     '''
 def setOn():
-    '''public void setOn(final boolean on)
+    '''returns None\n\n
+    setOn(final boolean on)\n
     '''
 def setCreatorInfo():
-    '''public void setCreatorInfo(final String creator, final String subtype)
+    '''returns None\n\n
+    setCreatorInfo(final String creator, final String subtype)\n
     '''
 def setLanguage():
-    '''public void setLanguage(final String lang, final boolean preferred)
+    '''returns None\n\n
+    setLanguage(final String lang, final boolean preferred)\n
     '''
 def setExport():
-    '''public void setExport(final boolean export)
+    '''returns None\n\n
+    setExport(final boolean export)\n
     '''
 def setZoom():
-    '''public void setZoom(final float min, final float max)
+    '''returns None\n\n
+    setZoom(final float min, final float max)\n
     '''
 def setPrint():
-    '''public void setPrint(final String subtype, final boolean printstate)
+    '''returns None\n\n
+    setPrint(final String subtype, final boolean printstate)\n
     '''
 def setView():
-    '''public void setView(final boolean view)
+    '''returns None\n\n
+    setView(final boolean view)\n
     '''
 def isOnPanel():
-    '''public boolean isOnPanel()
+    '''returns boolean\n\n
+    isOnPanel()\n
     '''
 def setOnPanel():
-    '''public void setOnPanel(final boolean onPanel)
+    '''returns None\n\n
+    setOnPanel(final boolean onPanel)\n
     '''

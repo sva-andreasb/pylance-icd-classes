@@ -1,12 +1,16 @@
-def PMReforecastModelAction():
-    '''public PMReforecastModelAction()
+def ():
+    '''returns PMReforecastModelAction\n\n
+    ()\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final Object actionObject)
+    '''returns boolean\n\n
+    isEnabled(final Object actionObject)\n
     '''
 def processActionResponse():
-    '''public void processActionResponse(final Object responseObject, final MXGanttModel model, final BaseTreeGridMiniAppBean bean, final DataBean appBean)
+    '''returns None\n\n
+    processActionResponse(final Object responseObject, final MXGanttModel model, final BaseTreeGridMiniAppBean bean, final DataBean appBean)\n
     '''
 def setModel():
-    '''public void setModel(final MXGanttModel model)
+    '''returns None\n\n
+    setModel(final MXGanttModel model)\n
     '''

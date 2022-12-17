@@ -1,29 +1,38 @@
-def JavaTimeZone():
-    '''public JavaTimeZone()
-    public JavaTimeZone(String id)
+def ():
+    '''returns JavaTimeZone\n\n
+    ()\n
+    (String id)\n
     '''
 def getOffset():
-    '''public int getOffset(final int era, final int year, final int month, final int day, final int dayOfWeek, final int milliseconds)
-    public void getOffset(final long date, final boolean local, final int[] offsets)
+    '''returns None\n\n
+    getOffset(final int era, final int year, final int month, final int day, final int dayOfWeek, final int milliseconds)\n
+    getOffset(final long date, final boolean local, final int[] offsets)\n
     '''
 def getRawOffset():
-    '''public int getRawOffset()
+    '''returns int\n\n
+    getRawOffset()\n
     '''
 def inDaylightTime():
-    '''public boolean inDaylightTime(final Date date)
+    '''returns boolean\n\n
+    inDaylightTime(final Date date)\n
     '''
 def setRawOffset():
-    '''public void setRawOffset(final int offsetMillis)
+    '''returns None\n\n
+    setRawOffset(final int offsetMillis)\n
     '''
 def useDaylightTime():
-    '''public boolean useDaylightTime()
+    '''returns boolean\n\n
+    useDaylightTime()\n
     '''
 def getDSTSavings():
-    '''public int getDSTSavings()
+    '''returns int\n\n
+    getDSTSavings()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

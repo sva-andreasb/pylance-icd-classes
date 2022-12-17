@@ -1,3 +1,4 @@
-def DataLoader():
-    '''public DataLoader(final ReconInfo reconInfo, final DataSet dataSet)
+def ():
+    '''returns DataLoader\n\n
+    (final ReconInfo reconInfo, final DataSet dataSet)\n
     '''

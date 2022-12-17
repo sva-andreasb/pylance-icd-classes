@@ -1,12 +1,15 @@
 DEFAULT_IDLE_TIMEOUT = "int  120"
 DEFAULT_INTERVAL = "int  5"
-def HttpIdleConnectionMonitorThread():
-    '''public HttpIdleConnectionMonitorThread(final CloseableHttpClient client)
-    public HttpIdleConnectionMonitorThread(final CloseableHttpClient client, final int interval, final int idleTimeout)
+def ():
+    '''returns HttpIdleConnectionMonitorThread\n\n
+    (final CloseableHttpClient client)\n
+    (final CloseableHttpClient client, final int interval, final int idleTimeout)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''

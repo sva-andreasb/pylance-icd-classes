@@ -1,6 +1,8 @@
-def STHttpURLOutput():
-    '''public STHttpURLOutput(final STHttpURLConnection owner)
+def ():
+    '''returns STHttpURLOutput\n\n
+    (final STHttpURLConnection owner)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''

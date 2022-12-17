@@ -1,75 +1,100 @@
-def ItemDOCUMENT():
-    '''public ItemDOCUMENT()
+def ():
+    '''returns ItemDOCUMENT\n\n
+    ()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getPageId():
-    '''public String getPageId()
+    '''returns String\n\n
+    getPageId()\n
     '''
 def resolveRerefences():
-    '''public void resolveRerefences(final Parser project, final long flags)
+    '''returns None\n\n
+    resolveRerefences(final Parser project, final long flags)\n
     '''
 def skip():
-    '''public boolean skip(final Parser parser, final long flags)
+    '''returns boolean\n\n
+    skip(final Parser parser, final long flags)\n
     '''
 def getCreatedOn():
-    '''public String getCreatedOn()
+    '''returns String\n\n
+    getCreatedOn()\n
     '''
 def setCreatedOn():
-    '''public void setCreatedOn(final String createdOn)
+    '''returns None\n\n
+    setCreatedOn(final String createdOn)\n
     '''
 def getCategory():
-    '''public String getCategory()
+    '''returns String\n\n
+    getCategory()\n
     '''
 def setCategory():
-    '''public void setCategory(final String category)
+    '''returns None\n\n
+    setCategory(final String category)\n
     '''
 def getApprovalBy():
-    '''public String getApprovalBy()
+    '''returns String\n\n
+    getApprovalBy()\n
     '''
 def setApprovalBy():
-    '''public void setApprovalBy(final String approvalBy)
+    '''returns None\n\n
+    setApprovalBy(final String approvalBy)\n
     '''
 def getStage():
-    '''public String getStage()
+    '''returns String\n\n
+    getStage()\n
     '''
 def setStage():
-    '''public void setStage(final String stage)
+    '''returns None\n\n
+    setStage(final String stage)\n
     '''
 def getSheetName():
-    '''public String getSheetName()
+    '''returns String\n\n
+    getSheetName()\n
     '''
 def setSheetName():
-    '''public void setSheetName(final String sheetName)
+    '''returns None\n\n
+    setSheetName(final String sheetName)\n
     '''
 def getRowName():
-    '''public String getRowName()
+    '''returns String\n\n
+    getRowName()\n
     '''
 def setRowName():
-    '''public void setRowName(final String rowName)
+    '''returns None\n\n
+    setRowName(final String rowName)\n
     '''
 def getDirectory():
-    '''public String getDirectory()
+    '''returns String\n\n
+    getDirectory()\n
     '''
 def setDirectory():
-    '''public void setDirectory(final String directory)
+    '''returns None\n\n
+    setDirectory(final String directory)\n
     '''
 def getFile():
-    '''public String getFile()
+    '''returns String\n\n
+    getFile()\n
     '''
 def setFile():
-    '''public void setFile(final String file)
+    '''returns None\n\n
+    setFile(final String file)\n
     '''
 def getQualifiedFileName():
-    '''public String getQualifiedFileName()
+    '''returns String\n\n
+    getQualifiedFileName()\n
     '''
 def getReference():
-    '''public String getReference()
+    '''returns String\n\n
+    getReference()\n
     '''
 def setReference():
-    '''public void setReference(final String reference)
+    '''returns None\n\n
+    setReference(final String reference)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

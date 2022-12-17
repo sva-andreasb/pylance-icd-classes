@@ -1,6 +1,8 @@
-def FldOmpGuid():
-    '''public FldOmpGuid(final MboValue mbv)
+def ():
+    '''returns FldOmpGuid\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

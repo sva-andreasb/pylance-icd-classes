@@ -1,18 +1,24 @@
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
-def PlusCFldDSInternationalization():
-    '''public PlusCFldDSInternationalization(final MboValue mbovalue)
+def ():
+    '''returns PlusCFldDSInternationalization\n\n
+    (final MboValue mbovalue)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''
 def checkTypeFormat():
-    '''public String checkTypeFormat(final String fieldName, final String value, final Locale locale)
+    '''returns String\n\n
+    checkTypeFormat(final String fieldName, final String value, final Locale locale)\n
     '''

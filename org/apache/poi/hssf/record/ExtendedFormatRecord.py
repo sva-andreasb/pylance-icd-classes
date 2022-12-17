@@ -44,286 +44,380 @@ THIN_BACKWARD_DIAG = "short  13"
 THIN_FORWARD_DIAG = "short  14"
 SQUARES = "short  15"
 DIAMONDS = "short  16"
-def ExtendedFormatRecord():
-    '''public ExtendedFormatRecord()
-    public ExtendedFormatRecord(final RecordInputStream in)
+def ():
+    '''returns ExtendedFormatRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setFontIndex():
-    '''public void setFontIndex(final short index)
+    '''returns None\n\n
+    setFontIndex(final short index)\n
     '''
 def setFormatIndex():
-    '''public void setFormatIndex(final short index)
+    '''returns None\n\n
+    setFormatIndex(final short index)\n
     '''
 def setCellOptions():
-    '''public void setCellOptions(final short options)
+    '''returns None\n\n
+    setCellOptions(final short options)\n
     '''
 def setLocked():
-    '''public void setLocked(final boolean locked)
+    '''returns None\n\n
+    setLocked(final boolean locked)\n
     '''
 def setHidden():
-    '''public void setHidden(final boolean hidden)
+    '''returns None\n\n
+    setHidden(final boolean hidden)\n
     '''
 def setXFType():
-    '''public void setXFType(final short type)
+    '''returns None\n\n
+    setXFType(final short type)\n
     '''
 def set123Prefix():
-    '''public void set123Prefix(final boolean prefix)
+    '''returns None\n\n
+    set123Prefix(final boolean prefix)\n
     '''
 def setParentIndex():
-    '''public void setParentIndex(final short parent)
+    '''returns None\n\n
+    setParentIndex(final short parent)\n
     '''
 def setAlignmentOptions():
-    '''public void setAlignmentOptions(final short options)
+    '''returns None\n\n
+    setAlignmentOptions(final short options)\n
     '''
 def setAlignment():
-    '''public void setAlignment(final short align)
+    '''returns None\n\n
+    setAlignment(final short align)\n
     '''
 def setWrapText():
-    '''public void setWrapText(final boolean wrapped)
+    '''returns None\n\n
+    setWrapText(final boolean wrapped)\n
     '''
 def setVerticalAlignment():
-    '''public void setVerticalAlignment(final short align)
+    '''returns None\n\n
+    setVerticalAlignment(final short align)\n
     '''
 def setJustifyLast():
-    '''public void setJustifyLast(final short justify)
+    '''returns None\n\n
+    setJustifyLast(final short justify)\n
     '''
 def setRotation():
-    '''public void setRotation(final short rotation)
+    '''returns None\n\n
+    setRotation(final short rotation)\n
     '''
 def setIndentionOptions():
-    '''public void setIndentionOptions(final short options)
+    '''returns None\n\n
+    setIndentionOptions(final short options)\n
     '''
 def setIndent():
-    '''public void setIndent(final short indent)
+    '''returns None\n\n
+    setIndent(final short indent)\n
     '''
 def setShrinkToFit():
-    '''public void setShrinkToFit(final boolean shrink)
+    '''returns None\n\n
+    setShrinkToFit(final boolean shrink)\n
     '''
 def setMergeCells():
-    '''public void setMergeCells(final boolean merge)
+    '''returns None\n\n
+    setMergeCells(final boolean merge)\n
     '''
 def setReadingOrder():
-    '''public void setReadingOrder(final short order)
+    '''returns None\n\n
+    setReadingOrder(final short order)\n
     '''
 def setIndentNotParentFormat():
-    '''public void setIndentNotParentFormat(final boolean parent)
+    '''returns None\n\n
+    setIndentNotParentFormat(final boolean parent)\n
     '''
 def setIndentNotParentFont():
-    '''public void setIndentNotParentFont(final boolean font)
+    '''returns None\n\n
+    setIndentNotParentFont(final boolean font)\n
     '''
 def setIndentNotParentAlignment():
-    '''public void setIndentNotParentAlignment(final boolean alignment)
+    '''returns None\n\n
+    setIndentNotParentAlignment(final boolean alignment)\n
     '''
 def setIndentNotParentBorder():
-    '''public void setIndentNotParentBorder(final boolean border)
+    '''returns None\n\n
+    setIndentNotParentBorder(final boolean border)\n
     '''
 def setIndentNotParentPattern():
-    '''public void setIndentNotParentPattern(final boolean pattern)
+    '''returns None\n\n
+    setIndentNotParentPattern(final boolean pattern)\n
     '''
 def setIndentNotParentCellOptions():
-    '''public void setIndentNotParentCellOptions(final boolean options)
+    '''returns None\n\n
+    setIndentNotParentCellOptions(final boolean options)\n
     '''
 def setBorderOptions():
-    '''public void setBorderOptions(final short options)
+    '''returns None\n\n
+    setBorderOptions(final short options)\n
     '''
 def setBorderLeft():
-    '''public void setBorderLeft(final short border)
+    '''returns None\n\n
+    setBorderLeft(final short border)\n
     '''
 def setBorderRight():
-    '''public void setBorderRight(final short border)
+    '''returns None\n\n
+    setBorderRight(final short border)\n
     '''
 def setBorderTop():
-    '''public void setBorderTop(final short border)
+    '''returns None\n\n
+    setBorderTop(final short border)\n
     '''
 def setBorderBottom():
-    '''public void setBorderBottom(final short border)
+    '''returns None\n\n
+    setBorderBottom(final short border)\n
     '''
 def setPaletteOptions():
-    '''public void setPaletteOptions(final short options)
+    '''returns None\n\n
+    setPaletteOptions(final short options)\n
     '''
 def setLeftBorderPaletteIdx():
-    '''public void setLeftBorderPaletteIdx(final short border)
+    '''returns None\n\n
+    setLeftBorderPaletteIdx(final short border)\n
     '''
 def setRightBorderPaletteIdx():
-    '''public void setRightBorderPaletteIdx(final short border)
+    '''returns None\n\n
+    setRightBorderPaletteIdx(final short border)\n
     '''
 def setDiag():
-    '''public void setDiag(final short diag)
+    '''returns None\n\n
+    setDiag(final short diag)\n
     '''
 def setAdtlPaletteOptions():
-    '''public void setAdtlPaletteOptions(final short options)
+    '''returns None\n\n
+    setAdtlPaletteOptions(final short options)\n
     '''
 def setTopBorderPaletteIdx():
-    '''public void setTopBorderPaletteIdx(final short border)
+    '''returns None\n\n
+    setTopBorderPaletteIdx(final short border)\n
     '''
 def setBottomBorderPaletteIdx():
-    '''public void setBottomBorderPaletteIdx(final short border)
+    '''returns None\n\n
+    setBottomBorderPaletteIdx(final short border)\n
     '''
 def setAdtlDiag():
-    '''public void setAdtlDiag(final short diag)
+    '''returns None\n\n
+    setAdtlDiag(final short diag)\n
     '''
 def setAdtlDiagLineStyle():
-    '''public void setAdtlDiagLineStyle(final short diag)
+    '''returns None\n\n
+    setAdtlDiagLineStyle(final short diag)\n
     '''
 def setAdtlFillPattern():
-    '''public void setAdtlFillPattern(final short fill)
+    '''returns None\n\n
+    setAdtlFillPattern(final short fill)\n
     '''
 def setFillPaletteOptions():
-    '''public void setFillPaletteOptions(final short options)
+    '''returns None\n\n
+    setFillPaletteOptions(final short options)\n
     '''
 def setFillForeground():
-    '''public void setFillForeground(final short color)
+    '''returns None\n\n
+    setFillForeground(final short color)\n
     '''
 def setFillBackground():
-    '''public void setFillBackground(final short color)
+    '''returns None\n\n
+    setFillBackground(final short color)\n
     '''
 def getFontIndex():
-    '''public short getFontIndex()
+    '''returns short\n\n
+    getFontIndex()\n
     '''
 def getFormatIndex():
-    '''public short getFormatIndex()
+    '''returns short\n\n
+    getFormatIndex()\n
     '''
 def getCellOptions():
-    '''public short getCellOptions()
+    '''returns short\n\n
+    getCellOptions()\n
     '''
 def isLocked():
-    '''public boolean isLocked()
+    '''returns boolean\n\n
+    isLocked()\n
     '''
 def isHidden():
-    '''public boolean isHidden()
+    '''returns boolean\n\n
+    isHidden()\n
     '''
 def getXFType():
-    '''public short getXFType()
+    '''returns short\n\n
+    getXFType()\n
     '''
 def get123Prefix():
-    '''public boolean get123Prefix()
+    '''returns boolean\n\n
+    get123Prefix()\n
     '''
 def getParentIndex():
-    '''public short getParentIndex()
+    '''returns short\n\n
+    getParentIndex()\n
     '''
 def getAlignmentOptions():
-    '''public short getAlignmentOptions()
+    '''returns short\n\n
+    getAlignmentOptions()\n
     '''
 def getAlignment():
-    '''public short getAlignment()
+    '''returns short\n\n
+    getAlignment()\n
     '''
 def getWrapText():
-    '''public boolean getWrapText()
+    '''returns boolean\n\n
+    getWrapText()\n
     '''
 def getVerticalAlignment():
-    '''public short getVerticalAlignment()
+    '''returns short\n\n
+    getVerticalAlignment()\n
     '''
 def getJustifyLast():
-    '''public short getJustifyLast()
+    '''returns short\n\n
+    getJustifyLast()\n
     '''
 def getRotation():
-    '''public short getRotation()
+    '''returns short\n\n
+    getRotation()\n
     '''
 def getIndentionOptions():
-    '''public short getIndentionOptions()
+    '''returns short\n\n
+    getIndentionOptions()\n
     '''
 def getIndent():
-    '''public short getIndent()
+    '''returns short\n\n
+    getIndent()\n
     '''
 def getShrinkToFit():
-    '''public boolean getShrinkToFit()
+    '''returns boolean\n\n
+    getShrinkToFit()\n
     '''
 def getMergeCells():
-    '''public boolean getMergeCells()
+    '''returns boolean\n\n
+    getMergeCells()\n
     '''
 def getReadingOrder():
-    '''public short getReadingOrder()
+    '''returns short\n\n
+    getReadingOrder()\n
     '''
 def isIndentNotParentFormat():
-    '''public boolean isIndentNotParentFormat()
+    '''returns boolean\n\n
+    isIndentNotParentFormat()\n
     '''
 def isIndentNotParentFont():
-    '''public boolean isIndentNotParentFont()
+    '''returns boolean\n\n
+    isIndentNotParentFont()\n
     '''
 def isIndentNotParentAlignment():
-    '''public boolean isIndentNotParentAlignment()
+    '''returns boolean\n\n
+    isIndentNotParentAlignment()\n
     '''
 def isIndentNotParentBorder():
-    '''public boolean isIndentNotParentBorder()
+    '''returns boolean\n\n
+    isIndentNotParentBorder()\n
     '''
 def isIndentNotParentPattern():
-    '''public boolean isIndentNotParentPattern()
+    '''returns boolean\n\n
+    isIndentNotParentPattern()\n
     '''
 def isIndentNotParentCellOptions():
-    '''public boolean isIndentNotParentCellOptions()
+    '''returns boolean\n\n
+    isIndentNotParentCellOptions()\n
     '''
 def getBorderOptions():
-    '''public short getBorderOptions()
+    '''returns short\n\n
+    getBorderOptions()\n
     '''
 def getBorderLeft():
-    '''public short getBorderLeft()
+    '''returns short\n\n
+    getBorderLeft()\n
     '''
 def getBorderRight():
-    '''public short getBorderRight()
+    '''returns short\n\n
+    getBorderRight()\n
     '''
 def getBorderTop():
-    '''public short getBorderTop()
+    '''returns short\n\n
+    getBorderTop()\n
     '''
 def getBorderBottom():
-    '''public short getBorderBottom()
+    '''returns short\n\n
+    getBorderBottom()\n
     '''
 def getPaletteOptions():
-    '''public short getPaletteOptions()
+    '''returns short\n\n
+    getPaletteOptions()\n
     '''
 def getLeftBorderPaletteIdx():
-    '''public short getLeftBorderPaletteIdx()
+    '''returns short\n\n
+    getLeftBorderPaletteIdx()\n
     '''
 def getRightBorderPaletteIdx():
-    '''public short getRightBorderPaletteIdx()
+    '''returns short\n\n
+    getRightBorderPaletteIdx()\n
     '''
 def getDiag():
-    '''public short getDiag()
+    '''returns short\n\n
+    getDiag()\n
     '''
 def getAdtlPaletteOptions():
-    '''public int getAdtlPaletteOptions()
+    '''returns int\n\n
+    getAdtlPaletteOptions()\n
     '''
 def getTopBorderPaletteIdx():
-    '''public short getTopBorderPaletteIdx()
+    '''returns short\n\n
+    getTopBorderPaletteIdx()\n
     '''
 def getBottomBorderPaletteIdx():
-    '''public short getBottomBorderPaletteIdx()
+    '''returns short\n\n
+    getBottomBorderPaletteIdx()\n
     '''
 def getAdtlDiag():
-    '''public short getAdtlDiag()
+    '''returns short\n\n
+    getAdtlDiag()\n
     '''
 def getAdtlDiagLineStyle():
-    '''public short getAdtlDiagLineStyle()
+    '''returns short\n\n
+    getAdtlDiagLineStyle()\n
     '''
 def getAdtlFillPattern():
-    '''public short getAdtlFillPattern()
+    '''returns short\n\n
+    getAdtlFillPattern()\n
     '''
 def getFillPaletteOptions():
-    '''public short getFillPaletteOptions()
+    '''returns short\n\n
+    getFillPaletteOptions()\n
     '''
 def getFillForeground():
-    '''public short getFillForeground()
+    '''returns short\n\n
+    getFillForeground()\n
     '''
 def getFillBackground():
-    '''public short getFillBackground()
+    '''returns short\n\n
+    getFillBackground()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''
 def cloneStyleFrom():
-    '''public void cloneStyleFrom(final ExtendedFormatRecord source)
+    '''returns None\n\n
+    cloneStyleFrom(final ExtendedFormatRecord source)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def stateSummary():
-    '''public int[] stateSummary()
+    '''returns int[]\n\n
+    stateSummary()\n
     '''

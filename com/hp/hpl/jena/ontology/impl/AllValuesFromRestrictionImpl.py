@@ -1,21 +1,28 @@
-def AllValuesFromRestrictionImpl():
-    '''public AllValuesFromRestrictionImpl(final Node n, final EnhGraph g)
+def ():
+    '''returns AllValuesFromRestrictionImpl\n\n
+    (final Node n, final EnhGraph g)\n
     '''
 def setAllValuesFrom():
-    '''public void setAllValuesFrom(final Resource cls)
+    '''returns None\n\n
+    setAllValuesFrom(final Resource cls)\n
     '''
 def getAllValuesFrom():
-    '''public Resource getAllValuesFrom()
+    '''returns Resource\n\n
+    getAllValuesFrom()\n
     '''
 def hasAllValuesFrom():
-    '''public boolean hasAllValuesFrom(final Resource cls)
+    '''returns boolean\n\n
+    hasAllValuesFrom(final Resource cls)\n
     '''
 def removeAllValuesFrom():
-    '''public void removeAllValuesFrom(final Resource cls)
+    '''returns None\n\n
+    removeAllValuesFrom(final Resource cls)\n
     '''
 def wrap():
-    '''public EnhNode wrap(final Node n, final EnhGraph eg)
+    '''returns EnhNode\n\n
+    wrap(final Node n, final EnhGraph eg)\n
     '''
 def canWrap():
-    '''public boolean canWrap(final Node node, final EnhGraph eg)
+    '''returns boolean\n\n
+    canWrap(final Node node, final EnhGraph eg)\n
     '''

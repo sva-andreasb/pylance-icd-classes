@@ -1,6 +1,8 @@
-def BIMFilterSet():
-    '''public BIMFilterSet(final MboServerInterface ms)
+def ():
+    '''returns BIMFilterSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getTranslator():
-    '''public Translate getTranslator()
+    '''returns Translate\n\n
+    getTranslator()\n
     '''

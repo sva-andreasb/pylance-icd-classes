@@ -15,368 +15,470 @@ TEXT_RENDER_MODE_FILL_CLIP = "int  4"
 TEXT_RENDER_MODE_STROKE_CLIP = "int  5"
 TEXT_RENDER_MODE_FILL_STROKE_CLIP = "int  6"
 TEXT_RENDER_MODE_CLIP = "int  7"
-def PdfContentByte():
-    '''public PdfContentByte(final PdfWriter wr)
+def ():
+    '''returns PdfContentByte\n\n
+    (final PdfWriter wr)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getInternalBuffer():
-    '''public ByteBuffer getInternalBuffer()
+    '''returns ByteBuffer\n\n
+    getInternalBuffer()\n
     '''
 def toPdf():
-    '''public byte[] toPdf(final PdfWriter writer)
+    '''returns byte[]\n\n
+    toPdf(final PdfWriter writer)\n
     '''
 def add():
-    '''public void add(final PdfContentByte other)
+    '''returns None\n\n
+    add(final PdfContentByte other)\n
     '''
 def getXTLM():
-    '''public float getXTLM()
+    '''returns float\n\n
+    getXTLM()\n
     '''
 def getYTLM():
-    '''public float getYTLM()
+    '''returns float\n\n
+    getYTLM()\n
     '''
 def getLeading():
-    '''public float getLeading()
+    '''returns float\n\n
+    getLeading()\n
     '''
 def setFlatness():
-    '''public void setFlatness(final float flatness)
+    '''returns None\n\n
+    setFlatness(final float flatness)\n
     '''
 def setLineCap():
-    '''public void setLineCap(final int style)
+    '''returns None\n\n
+    setLineCap(final int style)\n
     '''
 def setLineDash():
-    '''public void setLineDash(final float phase)
-    public void setLineDash(final float unitsOn, final float phase)
-    public void setLineDash(final float unitsOn, final float unitsOff, final float phase)
-    public final void setLineDash(final float[] array, final float phase)
+    '''returns None\n\n
+    setLineDash(final float phase)\n
+    setLineDash(final float unitsOn, final float phase)\n
+    setLineDash(final float unitsOn, final float unitsOff, final float phase)\n
     '''
 def setLineJoin():
-    '''public void setLineJoin(final int style)
+    '''returns None\n\n
+    setLineJoin(final int style)\n
     '''
 def setLineWidth():
-    '''public void setLineWidth(final float w)
+    '''returns None\n\n
+    setLineWidth(final float w)\n
     '''
 def setMiterLimit():
-    '''public void setMiterLimit(final float miterLimit)
+    '''returns None\n\n
+    setMiterLimit(final float miterLimit)\n
     '''
 def clip():
-    '''public void clip()
+    '''returns None\n\n
+    clip()\n
     '''
 def eoClip():
-    '''public void eoClip()
+    '''returns None\n\n
+    eoClip()\n
     '''
 def setGrayFill():
-    '''public void setGrayFill(final float gray)
+    '''returns None\n\n
+    setGrayFill(final float gray)\n
     '''
 def resetGrayFill():
-    '''public void resetGrayFill()
+    '''returns None\n\n
+    resetGrayFill()\n
     '''
 def setGrayStroke():
-    '''public void setGrayStroke(final float gray)
+    '''returns None\n\n
+    setGrayStroke(final float gray)\n
     '''
 def resetGrayStroke():
-    '''public void resetGrayStroke()
+    '''returns None\n\n
+    resetGrayStroke()\n
     '''
 def setRGBColorFillF():
-    '''public void setRGBColorFillF(final float red, final float green, final float blue)
+    '''returns None\n\n
+    setRGBColorFillF(final float red, final float green, final float blue)\n
     '''
 def resetRGBColorFill():
-    '''public void resetRGBColorFill()
+    '''returns None\n\n
+    resetRGBColorFill()\n
     '''
 def setRGBColorStrokeF():
-    '''public void setRGBColorStrokeF(final float red, final float green, final float blue)
+    '''returns None\n\n
+    setRGBColorStrokeF(final float red, final float green, final float blue)\n
     '''
 def resetRGBColorStroke():
-    '''public void resetRGBColorStroke()
+    '''returns None\n\n
+    resetRGBColorStroke()\n
     '''
 def setCMYKColorFillF():
-    '''public void setCMYKColorFillF(final float cyan, final float magenta, final float yellow, final float black)
+    '''returns None\n\n
+    setCMYKColorFillF(final float cyan, final float magenta, final float yellow, final float black)\n
     '''
 def resetCMYKColorFill():
-    '''public void resetCMYKColorFill()
+    '''returns None\n\n
+    resetCMYKColorFill()\n
     '''
 def setCMYKColorStrokeF():
-    '''public void setCMYKColorStrokeF(final float cyan, final float magenta, final float yellow, final float black)
+    '''returns None\n\n
+    setCMYKColorStrokeF(final float cyan, final float magenta, final float yellow, final float black)\n
     '''
 def resetCMYKColorStroke():
-    '''public void resetCMYKColorStroke()
+    '''returns None\n\n
+    resetCMYKColorStroke()\n
     '''
 def moveTo():
-    '''public void moveTo(final float x, final float y)
+    '''returns None\n\n
+    moveTo(final float x, final float y)\n
     '''
 def lineTo():
-    '''public void lineTo(final float x, final float y)
+    '''returns None\n\n
+    lineTo(final float x, final float y)\n
     '''
 def curveTo():
-    '''public void curveTo(final float x1, final float y1, final float x2, final float y2, final float x3, final float y3)
-    public void curveTo(final float x2, final float y2, final float x3, final float y3)
+    '''returns None\n\n
+    curveTo(final float x1, final float y1, final float x2, final float y2, final float x3, final float y3)\n
+    curveTo(final float x2, final float y2, final float x3, final float y3)\n
     '''
 def curveFromTo():
-    '''public void curveFromTo(final float x1, final float y1, final float x3, final float y3)
+    '''returns None\n\n
+    curveFromTo(final float x1, final float y1, final float x3, final float y3)\n
     '''
 def circle():
-    '''public void circle(final float x, final float y, final float r)
+    '''returns None\n\n
+    circle(final float x, final float y, final float r)\n
     '''
 def rectangle():
-    '''public void rectangle(final float x, final float y, final float w, final float h)
-    public void rectangle(final Rectangle rectangle)
+    '''returns None\n\n
+    rectangle(final float x, final float y, final float w, final float h)\n
+    rectangle(final Rectangle rectangle)\n
     '''
 def variableRectangle():
-    '''public void variableRectangle(final Rectangle rect)
+    '''returns None\n\n
+    variableRectangle(final Rectangle rect)\n
     '''
 def closePath():
-    '''public void closePath()
+    '''returns None\n\n
+    closePath()\n
     '''
 def newPath():
-    '''public void newPath()
+    '''returns None\n\n
+    newPath()\n
     '''
 def stroke():
-    '''public void stroke()
+    '''returns None\n\n
+    stroke()\n
     '''
 def closePathStroke():
-    '''public void closePathStroke()
+    '''returns None\n\n
+    closePathStroke()\n
     '''
 def fill():
-    '''public void fill()
+    '''returns None\n\n
+    fill()\n
     '''
 def eoFill():
-    '''public void eoFill()
+    '''returns None\n\n
+    eoFill()\n
     '''
 def fillStroke():
-    '''public void fillStroke()
+    '''returns None\n\n
+    fillStroke()\n
     '''
 def closePathFillStroke():
-    '''public void closePathFillStroke()
+    '''returns None\n\n
+    closePathFillStroke()\n
     '''
 def eoFillStroke():
-    '''public void eoFillStroke()
+    '''returns None\n\n
+    eoFillStroke()\n
     '''
 def closePathEoFillStroke():
-    '''public void closePathEoFillStroke()
+    '''returns None\n\n
+    closePathEoFillStroke()\n
     '''
 def addImage():
-    '''public void addImage(final Image image)
-    public void addImage(final Image image, final float a, final float b, final float c, final float d, final float e, final float f)
+    '''returns None\n\n
+    addImage(final Image image)\n
+    addImage(final Image image, final float a, final float b, final float c, final float d, final float e, final float f)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def beginText():
-    '''public void beginText()
+    '''returns None\n\n
+    beginText()\n
     '''
 def endText():
-    '''public void endText()
+    '''returns None\n\n
+    endText()\n
     '''
 def saveState():
-    '''public void saveState()
+    '''returns None\n\n
+    saveState()\n
     '''
 def restoreState():
-    '''public void restoreState()
+    '''returns None\n\n
+    restoreState()\n
     '''
 def setCharacterSpacing():
-    '''public void setCharacterSpacing(final float charSpace)
+    '''returns None\n\n
+    setCharacterSpacing(final float charSpace)\n
     '''
 def setWordSpacing():
-    '''public void setWordSpacing(final float wordSpace)
+    '''returns None\n\n
+    setWordSpacing(final float wordSpace)\n
     '''
 def setHorizontalScaling():
-    '''public void setHorizontalScaling(final float scale)
+    '''returns None\n\n
+    setHorizontalScaling(final float scale)\n
     '''
 def setLeading():
-    '''public void setLeading(final float leading)
+    '''returns None\n\n
+    setLeading(final float leading)\n
     '''
 def setFontAndSize():
-    '''public void setFontAndSize(final BaseFont bf, final float size)
+    '''returns None\n\n
+    setFontAndSize(final BaseFont bf, final float size)\n
     '''
 def setTextRenderingMode():
-    '''public void setTextRenderingMode(final int rendering)
+    '''returns None\n\n
+    setTextRenderingMode(final int rendering)\n
     '''
 def setTextRise():
-    '''public void setTextRise(final float rise)
+    '''returns None\n\n
+    setTextRise(final float rise)\n
     '''
 def showText():
-    '''public void showText(final String text)
-    public void showText(final PdfTextArray text)
-    '''
-def getKernArray():
-    '''public static PdfTextArray getKernArray(final String text, final BaseFont font)
+    '''returns None\n\n
+    showText(final String text)\n
+    showText(final PdfTextArray text)\n
     '''
 def showTextKerned():
-    '''public void showTextKerned(final String text)
+    '''returns None\n\n
+    showTextKerned(final String text)\n
     '''
 def newlineShowText():
-    '''public void newlineShowText(final String text)
-    public void newlineShowText(final float wordSpacing, final float charSpacing, final String text)
+    '''returns None\n\n
+    newlineShowText(final String text)\n
+    newlineShowText(final float wordSpacing, final float charSpacing, final String text)\n
     '''
 def setTextMatrix():
-    '''public void setTextMatrix(final float a, final float b, final float c, final float d, final float x, final float y)
-    public void setTextMatrix(final float x, final float y)
+    '''returns None\n\n
+    setTextMatrix(final float a, final float b, final float c, final float d, final float x, final float y)\n
+    setTextMatrix(final float x, final float y)\n
     '''
 def moveText():
-    '''public void moveText(final float x, final float y)
+    '''returns None\n\n
+    moveText(final float x, final float y)\n
     '''
 def moveTextWithLeading():
-    '''public void moveTextWithLeading(final float x, final float y)
+    '''returns None\n\n
+    moveTextWithLeading(final float x, final float y)\n
     '''
 def newlineText():
-    '''public void newlineText()
+    '''returns None\n\n
+    newlineText()\n
     '''
 def addOutline():
-    '''public void addOutline(final PdfOutline outline)
-    public void addOutline(final PdfOutline outline, final String name)
+    '''returns None\n\n
+    addOutline(final PdfOutline outline)\n
+    addOutline(final PdfOutline outline, final String name)\n
     '''
 def getRootOutline():
-    '''public PdfOutline getRootOutline()
+    '''returns PdfOutline\n\n
+    getRootOutline()\n
     '''
 def showTextAligned():
-    '''public void showTextAligned(final int alignment, final String text, float x, float y, final float rotation)
+    '''returns None\n\n
+    showTextAligned(final int alignment, final String text, float x, float y, final float rotation)\n
     '''
 def showTextAlignedKerned():
-    '''public void showTextAlignedKerned(final int alignement, final String text, float x, float y, final float rotation)
+    '''returns None\n\n
+    showTextAlignedKerned(final int alignement, final String text, float x, float y, final float rotation)\n
     '''
 def concatCTM():
-    '''public void concatCTM(final float a, final float b, final float c, final float d, final float e, final float f)
-    '''
-def bezierArc():
-    '''public static ArrayList bezierArc(float x1, float y1, float x2, float y2, final float startAng, final float extent)
+    '''returns None\n\n
+    concatCTM(final float a, final float b, final float c, final float d, final float e, final float f)\n
     '''
 def arc():
-    '''public void arc(final float x1, final float y1, final float x2, final float y2, final float startAng, final float extent)
+    '''returns None\n\n
+    arc(final float x1, final float y1, final float x2, final float y2, final float startAng, final float extent)\n
     '''
 def ellipse():
-    '''public void ellipse(final float x1, final float y1, final float x2, final float y2)
+    '''returns None\n\n
+    ellipse(final float x1, final float y1, final float x2, final float y2)\n
     '''
 def createPattern():
-    '''public PdfPatternPainter createPattern(final float width, final float height, final float xstep, final float ystep)
-    public PdfPatternPainter createPattern(final float width, final float height)
-    public PdfPatternPainter createPattern(final float width, final float height, final float xstep, final float ystep, final Color color)
-    public PdfPatternPainter createPattern(final float width, final float height, final Color color)
+    '''returns PdfPatternPainter\n\n
+    createPattern(final float width, final float height, final float xstep, final float ystep)\n
+    createPattern(final float width, final float height)\n
+    createPattern(final float width, final float height, final float xstep, final float ystep, final Color color)\n
+    createPattern(final float width, final float height, final Color color)\n
     '''
 def createTemplate():
-    '''public PdfTemplate createTemplate(final float width, final float height)
+    '''returns PdfTemplate\n\n
+    createTemplate(final float width, final float height)\n
     '''
 def createAppearance():
-    '''public PdfAppearance createAppearance(final float width, final float height)
+    '''returns PdfAppearance\n\n
+    createAppearance(final float width, final float height)\n
     '''
 def addPSXObject():
-    '''public void addPSXObject(final PdfPSXObject psobject)
+    '''returns None\n\n
+    addPSXObject(final PdfPSXObject psobject)\n
     '''
 def addTemplate():
-    '''public void addTemplate(final PdfTemplate template, final float a, final float b, final float c, final float d, final float e, final float f)
-    public void addTemplate(final PdfTemplate template, final float x, final float y)
+    '''returns None\n\n
+    addTemplate(final PdfTemplate template, final float a, final float b, final float c, final float d, final float e, final float f)\n
+    addTemplate(final PdfTemplate template, final float x, final float y)\n
     '''
 def setCMYKColorFill():
-    '''public void setCMYKColorFill(final int cyan, final int magenta, final int yellow, final int black)
+    '''returns None\n\n
+    setCMYKColorFill(final int cyan, final int magenta, final int yellow, final int black)\n
     '''
 def setCMYKColorStroke():
-    '''public void setCMYKColorStroke(final int cyan, final int magenta, final int yellow, final int black)
+    '''returns None\n\n
+    setCMYKColorStroke(final int cyan, final int magenta, final int yellow, final int black)\n
     '''
 def setRGBColorFill():
-    '''public void setRGBColorFill(final int red, final int green, final int blue)
+    '''returns None\n\n
+    setRGBColorFill(final int red, final int green, final int blue)\n
     '''
 def setRGBColorStroke():
-    '''public void setRGBColorStroke(final int red, final int green, final int blue)
+    '''returns None\n\n
+    setRGBColorStroke(final int red, final int green, final int blue)\n
     '''
 def setColorStroke():
-    '''public void setColorStroke(final Color color)
-    public void setColorStroke(final PdfSpotColor sp, final float tint)
+    '''returns None\n\n
+    setColorStroke(final Color color)\n
+    setColorStroke(final PdfSpotColor sp, final float tint)\n
     '''
 def setColorFill():
-    '''public void setColorFill(final Color color)
-    public void setColorFill(final PdfSpotColor sp, final float tint)
+    '''returns None\n\n
+    setColorFill(final Color color)\n
+    setColorFill(final PdfSpotColor sp, final float tint)\n
     '''
 def setPatternFill():
-    '''public void setPatternFill(final PdfPatternPainter p)
-    public void setPatternFill(final PdfPatternPainter p, final Color color)
-    public void setPatternFill(final PdfPatternPainter p, final Color color, final float tint)
+    '''returns None\n\n
+    setPatternFill(final PdfPatternPainter p)\n
+    setPatternFill(final PdfPatternPainter p, final Color color)\n
+    setPatternFill(final PdfPatternPainter p, final Color color, final float tint)\n
     '''
 def setPatternStroke():
-    '''public void setPatternStroke(final PdfPatternPainter p, final Color color)
-    public void setPatternStroke(final PdfPatternPainter p, final Color color, final float tint)
-    public void setPatternStroke(final PdfPatternPainter p)
+    '''returns None\n\n
+    setPatternStroke(final PdfPatternPainter p, final Color color)\n
+    setPatternStroke(final PdfPatternPainter p, final Color color, final float tint)\n
+    setPatternStroke(final PdfPatternPainter p)\n
     '''
 def paintShading():
-    '''public void paintShading(final PdfShading shading)
-    public void paintShading(final PdfShadingPattern shading)
+    '''returns None\n\n
+    paintShading(final PdfShading shading)\n
+    paintShading(final PdfShadingPattern shading)\n
     '''
 def setShadingFill():
-    '''public void setShadingFill(final PdfShadingPattern shading)
+    '''returns None\n\n
+    setShadingFill(final PdfShadingPattern shading)\n
     '''
 def setShadingStroke():
-    '''public void setShadingStroke(final PdfShadingPattern shading)
+    '''returns None\n\n
+    setShadingStroke(final PdfShadingPattern shading)\n
     '''
 def getPdfWriter():
-    '''public PdfWriter getPdfWriter()
+    '''returns PdfWriter\n\n
+    getPdfWriter()\n
     '''
 def getPdfDocument():
-    '''public PdfDocument getPdfDocument()
+    '''returns PdfDocument\n\n
+    getPdfDocument()\n
     '''
 def localGoto():
-    '''public void localGoto(final String name, final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    localGoto(final String name, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def localDestination():
-    '''public boolean localDestination(final String name, final PdfDestination destination)
+    '''returns boolean\n\n
+    localDestination(final String name, final PdfDestination destination)\n
     '''
 def getDuplicate():
-    '''public PdfContentByte getDuplicate()
+    '''returns PdfContentByte\n\n
+    getDuplicate()\n
     '''
 def remoteGoto():
-    '''public void remoteGoto(final String filename, final String name, final float llx, final float lly, final float urx, final float ury)
-    public void remoteGoto(final String filename, final int page, final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    remoteGoto(final String filename, final String name, final float llx, final float lly, final float urx, final float ury)\n
+    remoteGoto(final String filename, final int page, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def roundRectangle():
-    '''public void roundRectangle(float x, float y, float w, float h, float r)
+    '''returns None\n\n
+    roundRectangle(float x, float y, float w, float h, float r)\n
     '''
 def setAction():
-    '''public void setAction(final PdfAction action, final float llx, final float lly, final float urx, final float ury)
+    '''returns None\n\n
+    setAction(final PdfAction action, final float llx, final float lly, final float urx, final float ury)\n
     '''
 def setLiteral():
-    '''public void setLiteral(final String s)
-    public void setLiteral(final char c)
-    public void setLiteral(final float n)
+    '''returns None\n\n
+    setLiteral(final String s)\n
+    setLiteral(final char c)\n
+    setLiteral(final float n)\n
     '''
 def drawRadioField():
-    '''public void drawRadioField(float llx, float lly, float urx, float ury, final boolean on)
+    '''returns None\n\n
+    drawRadioField(float llx, float lly, float urx, float ury, final boolean on)\n
     '''
 def drawTextField():
-    '''public void drawTextField(float llx, float lly, float urx, float ury)
+    '''returns None\n\n
+    drawTextField(float llx, float lly, float urx, float ury)\n
     '''
 def drawButton():
-    '''public void drawButton(float llx, float lly, float urx, float ury, final String text, final BaseFont bf, final float size)
+    '''returns None\n\n
+    drawButton(float llx, float lly, float urx, float ury, final String text, final BaseFont bf, final float size)\n
     '''
 def createGraphicsShapes():
-    '''public Graphics2D createGraphicsShapes(final float width, final float height)
-    public Graphics2D createGraphicsShapes(final float width, final float height, final boolean convertImagesToJPEG, final float quality)
+    '''returns Graphics2D\n\n
+    createGraphicsShapes(final float width, final float height)\n
+    createGraphicsShapes(final float width, final float height, final boolean convertImagesToJPEG, final float quality)\n
     '''
 def createPrinterGraphicsShapes():
-    '''public Graphics2D createPrinterGraphicsShapes(final float width, final float height, final PrinterJob printerJob)
-    public Graphics2D createPrinterGraphicsShapes(final float width, final float height, final boolean convertImagesToJPEG, final float quality, final PrinterJob printerJob)
+    '''returns Graphics2D\n\n
+    createPrinterGraphicsShapes(final float width, final float height, final PrinterJob printerJob)\n
+    createPrinterGraphicsShapes(final float width, final float height, final boolean convertImagesToJPEG, final float quality, final PrinterJob printerJob)\n
     '''
 def createGraphics():
-    '''public Graphics2D createGraphics(final float width, final float height)
-    public Graphics2D createGraphics(final float width, final float height, final boolean convertImagesToJPEG, final float quality)
-    public Graphics2D createGraphics(final float width, final float height, final FontMapper fontMapper)
-    public Graphics2D createGraphics(final float width, final float height, final FontMapper fontMapper, final boolean convertImagesToJPEG, final float quality)
+    '''returns Graphics2D\n\n
+    createGraphics(final float width, final float height)\n
+    createGraphics(final float width, final float height, final boolean convertImagesToJPEG, final float quality)\n
+    createGraphics(final float width, final float height, final FontMapper fontMapper)\n
+    createGraphics(final float width, final float height, final FontMapper fontMapper, final boolean convertImagesToJPEG, final float quality)\n
     '''
 def createPrinterGraphics():
-    '''public Graphics2D createPrinterGraphics(final float width, final float height, final PrinterJob printerJob)
-    public Graphics2D createPrinterGraphics(final float width, final float height, final boolean convertImagesToJPEG, final float quality, final PrinterJob printerJob)
-    public Graphics2D createPrinterGraphics(final float width, final float height, final FontMapper fontMapper, final PrinterJob printerJob)
-    public Graphics2D createPrinterGraphics(final float width, final float height, final FontMapper fontMapper, final boolean convertImagesToJPEG, final float quality, final PrinterJob printerJob)
+    '''returns Graphics2D\n\n
+    createPrinterGraphics(final float width, final float height, final PrinterJob printerJob)\n
+    createPrinterGraphics(final float width, final float height, final boolean convertImagesToJPEG, final float quality, final PrinterJob printerJob)\n
+    createPrinterGraphics(final float width, final float height, final FontMapper fontMapper, final PrinterJob printerJob)\n
+    createPrinterGraphics(final float width, final float height, final FontMapper fontMapper, final boolean convertImagesToJPEG, final float quality, final PrinterJob printerJob)\n
     '''
 def setGState():
-    '''public void setGState(final PdfGState gstate)
+    '''returns None\n\n
+    setGState(final PdfGState gstate)\n
     '''
 def beginLayer():
-    '''public void beginLayer(final PdfOCG layer)
+    '''returns None\n\n
+    beginLayer(final PdfOCG layer)\n
     '''
 def endLayer():
-    '''public void endLayer()
+    '''returns None\n\n
+    endLayer()\n
     '''
 def transform():
-    '''public void transform(final AffineTransform af)
+    '''returns None\n\n
+    transform(final AffineTransform af)\n
     '''
 def setDefaultColorspace():
-    '''public void setDefaultColorspace(final PdfName name, final PdfObject obj)
+    '''returns None\n\n
+    setDefaultColorspace(final PdfName name, final PdfObject obj)\n
     '''

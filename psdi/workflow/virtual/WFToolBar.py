@@ -1,3 +1,4 @@
-def WFToolBar():
-    '''public WFToolBar(final MboSet ms)
+def ():
+    '''returns WFToolBar\n\n
+    (final MboSet ms)\n
     '''

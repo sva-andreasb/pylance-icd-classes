@@ -1,3 +1,4 @@
-def TloamFinancialPeriodsSet():
-    '''public TloamFinancialPeriodsSet(final MboServerInterface ms)
+def ():
+    '''returns TloamFinancialPeriodsSet\n\n
+    (final MboServerInterface ms)\n
     '''

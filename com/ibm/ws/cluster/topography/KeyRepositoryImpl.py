@@ -1,16 +1,21 @@
 def getDescriptionKey():
-    '''public DescriptionKey getDescriptionKey(final DescriptionKey key, final Map identitiesToAppend)
-    public DescriptionKey getDescriptionKey(final Map identities)
+    '''returns DescriptionKey\n\n
+    getDescriptionKey(final DescriptionKey key, final Map identitiesToAppend)\n
+    getDescriptionKey(final Map identities)\n
     '''
 def exportToStream():
-    '''public void exportToStream(final DataOutput out, final DescriptionKey key)
+    '''returns None\n\n
+    exportToStream(final DataOutput out, final DescriptionKey key)\n
     '''
 def importFromStream():
-    '''public DescriptionKey importFromStream(final DataInput in)
+    '''returns DescriptionKey\n\n
+    importFromStream(final DataInput in)\n
     '''
-def KeyRepositoryImpl():
-    '''public KeyRepositoryImpl()
+def ():
+    '''returns KeyRepositoryImpl\n\n
+    ()\n
     '''
 def removeDescriptionKey():
-    '''public void removeDescriptionKey(final Map identities)
+    '''returns None\n\n
+    removeDescriptionKey(final Map identities)\n
     '''

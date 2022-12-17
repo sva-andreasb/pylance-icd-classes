@@ -1,118 +1,156 @@
 def getEAuditTableName():
-    '''public String getEAuditTableName()
+    '''returns String\n\n
+    getEAuditTableName()\n
     '''
 def setEAuditTableName():
-    '''public void setEAuditTableName(final String auditTableName)
+    '''returns None\n\n
+    setEAuditTableName(final String auditTableName)\n
     '''
 def isUsedForAuditing():
-    '''public boolean isUsedForAuditing()
+    '''returns boolean\n\n
+    isUsedForAuditing()\n
     '''
 def setUsedForAuditing():
-    '''public void setUsedForAuditing(final boolean usedForAuditing)
+    '''returns None\n\n
+    setUsedForAuditing(final boolean usedForAuditing)\n
     '''
 def isUsedForMLang():
-    '''public boolean isUsedForMLang()
+    '''returns boolean\n\n
+    isUsedForMLang()\n
     '''
 def setUsedForMLang():
-    '''public void setUsedForMLang(final boolean usedForML)
+    '''returns None\n\n
+    setUsedForMLang(final boolean usedForML)\n
     '''
 def isRowStampColumnExists():
-    '''public boolean isRowStampColumnExists()
+    '''returns boolean\n\n
+    isRowStampColumnExists()\n
     '''
 def setRowStampColumnExists():
-    '''public void setRowStampColumnExists(final boolean rowStampColumnExists)
+    '''returns None\n\n
+    setRowStampColumnExists(final boolean rowStampColumnExists)\n
     '''
 def getTableName():
-    '''public String getTableName()
-    public String getTableName(final String entityColumnName)
+    '''returns String\n\n
+    getTableName()\n
+    getTableName(final String entityColumnName)\n
     '''
 def setTableName():
-    '''public void setTableName(final String tableName)
+    '''returns None\n\n
+    setTableName(final String tableName)\n
     '''
 def getExtTableName():
-    '''public String getExtTableName()
+    '''returns String\n\n
+    getExtTableName()\n
     '''
 def setExtTableName():
-    '''public void setExtTableName(final String extTableName)
+    '''returns None\n\n
+    setExtTableName(final String extTableName)\n
     '''
 def setTextSearchEnabled():
-    '''public void setTextSearchEnabled(final boolean textSearchEnabled)
+    '''returns None\n\n
+    setTextSearchEnabled(final boolean textSearchEnabled)\n
     '''
 def isTextSearchEnabled():
-    '''public boolean isTextSearchEnabled()
+    '''returns boolean\n\n
+    isTextSearchEnabled()\n
     '''
 def getTables():
-    '''public Iterator getTables()
+    '''returns Iterator\n\n
+    getTables()\n
     '''
 def getTableCount():
-    '''public int getTableCount()
+    '''returns int\n\n
+    getTableCount()\n
     '''
 def getTablesInHierarchyOrder():
-    '''public Iterator getTablesInHierarchyOrder()
+    '''returns Iterator\n\n
+    getTablesInHierarchyOrder()\n
     '''
 def getTablesInReverseHierarchyOrder():
-    '''public Iterator getTablesInReverseHierarchyOrder()
+    '''returns Iterator\n\n
+    getTablesInReverseHierarchyOrder()\n
     '''
 def getColumnName():
-    '''public String getColumnName(final String entityColumnName)
-    public String getColumnName(final String entityColumnName, final String tableName)
+    '''returns String\n\n
+    getColumnName(final String entityColumnName)\n
+    getColumnName(final String entityColumnName, final String tableName)\n
     '''
 def getEntityColumnName():
-    '''public String getEntityColumnName(final String tableColumnName, final String tableName)
+    '''returns String\n\n
+    getEntityColumnName(final String tableColumnName, final String tableName)\n
     '''
 def getRowStampInfo():
-    '''public RowStampInfo getRowStampInfo()
+    '''returns RowStampInfo\n\n
+    getRowStampInfo()\n
     '''
 def getTenantIdInfo():
-    '''public TenantIdInfo getTenantIdInfo()
+    '''returns TenantIdInfo\n\n
+    getTenantIdInfo()\n
     '''
 def hasRowStamp():
-    '''public boolean hasRowStamp()
+    '''returns boolean\n\n
+    hasRowStamp()\n
     '''
 def getAuditTable():
-    '''public String getAuditTable(final String tableName)
+    '''returns String\n\n
+    getAuditTable(final String tableName)\n
     '''
 def getLangTBName():
-    '''public String getLangTBName()
+    '''returns String\n\n
+    getLangTBName()\n
     '''
 def setLangTBName():
-    '''public void setLangTBName(final String tbname)
+    '''returns None\n\n
+    setLangTBName(final String tbname)\n
     '''
 def getUniqueColumnName():
-    '''public String getUniqueColumnName()
+    '''returns String\n\n
+    getUniqueColumnName()\n
     '''
 def setUniqueColumnName():
-    '''public void setUniqueColumnName(final String name)
+    '''returns None\n\n
+    setUniqueColumnName(final String name)\n
     '''
 def getContentAttrName():
-    '''public String getContentAttrName()
+    '''returns String\n\n
+    getContentAttrName()\n
     '''
 def setContentAttrName():
-    '''public void setContentAttrName(final String name)
+    '''returns None\n\n
+    setContentAttrName(final String name)\n
     '''
 def getAltIxName():
-    '''public String getAltIxName()
+    '''returns String\n\n
+    getAltIxName()\n
     '''
 def setAltIxName():
-    '''public void setAltIxName(final String name)
+    '''returns None\n\n
+    setAltIxName(final String name)\n
     '''
 def getLangColumnName():
-    '''public String getLangColumnName()
-    public String getLangColumnName(final String tableName)
+    '''returns String\n\n
+    getLangColumnName()\n
+    getLangColumnName(final String tableName)\n
     '''
 def setLangColumnName():
-    '''public void setLangColumnName(final String langColName)
+    '''returns None\n\n
+    setLangColumnName(final String langColName)\n
     '''
 def getStorageType():
-    '''public int getStorageType()
+    '''returns int\n\n
+    getStorageType()\n
     '''
 def getMLParent():
-    '''public String getMLParent()
+    '''returns String\n\n
+    getMLParent()\n
     '''
 def hasImplicitTenantId():
-    '''public boolean hasImplicitTenantId(final String tableName)
-    public boolean hasImplicitTenantId()
+    '''returns boolean\n\n
+    hasImplicitTenantId(final String tableName)\n
+    hasImplicitTenantId()\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

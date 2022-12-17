@@ -1,27 +1,36 @@
-def XParseError():
-    '''public XParseError(final boolean errors, final boolean warnings)
+def ():
+    '''returns XParseError\n\n
+    (final boolean errors, final boolean warnings)\n
     '''
 def getErrorCount():
-    '''public int getErrorCount()
+    '''returns int\n\n
+    getErrorCount()\n
     '''
 def getFatalCount():
-    '''public int getFatalCount()
+    '''returns int\n\n
+    getFatalCount()\n
     '''
 def getWarningCount():
-    '''public int getWarningCount()
+    '''returns int\n\n
+    getWarningCount()\n
     '''
 def getMaxMessages():
-    '''public int getMaxMessages()
+    '''returns int\n\n
+    getMaxMessages()\n
     '''
 def setMaxMessages():
-    '''public void setMaxMessages(final int max)
+    '''returns None\n\n
+    setMaxMessages(final int max)\n
     '''
 def error():
-    '''public void error(final SAXParseException exception)
+    '''returns None\n\n
+    error(final SAXParseException exception)\n
     '''
 def fatalError():
-    '''public void fatalError(final SAXParseException exception)
+    '''returns None\n\n
+    fatalError(final SAXParseException exception)\n
     '''
 def warning():
-    '''public void warning(final SAXParseException exception)
+    '''returns None\n\n
+    warning(final SAXParseException exception)\n
     '''

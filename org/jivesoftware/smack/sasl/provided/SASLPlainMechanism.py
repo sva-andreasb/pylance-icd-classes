@@ -1,16 +1,21 @@
 NAME = "String  \"PLAIN\""
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getPriority():
-    '''public int getPriority()
+    '''returns int\n\n
+    getPriority()\n
     '''
 def newInstance():
-    '''public SASLPlainMechanism newInstance()
+    '''returns SASLPlainMechanism\n\n
+    newInstance()\n
     '''
 def checkIfSuccessfulOrThrow():
-    '''public void checkIfSuccessfulOrThrow()
+    '''returns None\n\n
+    checkIfSuccessfulOrThrow()\n
     '''
 def authzidSupported():
-    '''public boolean authzidSupported()
+    '''returns boolean\n\n
+    authzidSupported()\n
     '''

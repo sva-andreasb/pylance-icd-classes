@@ -1,6 +1,8 @@
-def ESigLoginSet():
-    '''public ESigLoginSet(final MboServerInterface ms)
+def ():
+    '''returns ESigLoginSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

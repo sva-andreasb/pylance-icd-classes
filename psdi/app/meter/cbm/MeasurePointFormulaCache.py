@@ -1,15 +1,12 @@
-def getInstance():
-    '''public static final MeasurePointFormulaCache getInstance()
-    '''
 def getName():
-    '''public String getName()
-    '''
-def getMeasurePointFormulaInfoMap():
-    '''public Map<String, MeasurePointFormulaInfo> getMeasurePointFormulaInfoMap()
+    '''returns String\n\n
+    getName()\n
     '''
 def getFormulaForAssetMeter():
-    '''public String getFormulaForAssetMeter(final String meterName, final String siteid, final String assetnum)
+    '''returns String\n\n
+    getFormulaForAssetMeter(final String meterName, final String siteid, final String assetnum)\n
     '''
 def getFormulaForLocMeter():
-    '''public String getFormulaForLocMeter(final String meterName, final String siteid, final String location)
+    '''returns String\n\n
+    getFormulaForLocMeter(final String meterName, final String siteid, final String location)\n
     '''

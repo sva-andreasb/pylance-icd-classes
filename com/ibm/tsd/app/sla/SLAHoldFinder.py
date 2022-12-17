@@ -1,22 +1,24 @@
-def SLAHoldFinder():
-    '''public SLAHoldFinder()
-    public SLAHoldFinder(final Mbo mbo)
+def ():
+    '''returns SLAHoldFinder\n\n
+    ()\n
+    (final Mbo mbo)\n
     '''
 def applySLAs():
-    '''public String[] applySLAs(final MboSet set, final MboRemote subject)
+    '''returns String[]\n\n
+    applySLAs(final MboSet set, final MboRemote subject)\n
     '''
 def calculateMeasurements():
-    '''public void calculateMeasurements(final Date startDate, final Date endDate)
-    public void calculateMeasurements(final MboRemote subject)
-    public void calculateMeasurements(final double SLAHoldTimeInMinutes)
-    public void calculateMeasurements(final double SLAHoldTimeInMinutes, final Date startDate, final Date endDate)
+    '''returns None\n\n
+    calculateMeasurements(final Date startDate, final Date endDate)\n
+    calculateMeasurements(final MboRemote subject)\n
+    calculateMeasurements(final double SLAHoldTimeInMinutes)\n
+    calculateMeasurements(final double SLAHoldTimeInMinutes, final Date startDate, final Date endDate)\n
     '''
 def getAccumlatedSLAHoldDateTime():
-    '''public int getAccumlatedSLAHoldDateTime()
+    '''returns int\n\n
+    getAccumlatedSLAHoldDateTime()\n
     '''
 def calculateSLAHoldTimeAccumlation():
-    '''public int calculateSLAHoldTimeAccumlation(final Mbo sla, final Date reportedHoldDate, final Date removedHoldDate)
-    '''
-def timeDiffInSeconds():
-    '''public static int timeDiffInSeconds(final Date date1, final Date date2)
+    '''returns int\n\n
+    calculateSLAHoldTimeAccumlation(final Mbo sla, final Date reportedHoldDate, final Date removedHoldDate)\n
     '''

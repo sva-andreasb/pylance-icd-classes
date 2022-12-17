@@ -1,10 +1,13 @@
-def QuotationLineSet():
-    '''public QuotationLineSet(final MboServerInterface ms)
+def ():
+    '''returns QuotationLineSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def awardAll():
-    '''public void awardAll()
+    '''returns None\n\n
+    awardAll()\n
     '''
 def checkQuotationLine():
-    '''public void checkQuotationLine()
-    public void checkQuotationLine(final boolean fromPO)
+    '''returns None\n\n
+    checkQuotationLine()\n
+    checkQuotationLine(final boolean fromPO)\n
     '''

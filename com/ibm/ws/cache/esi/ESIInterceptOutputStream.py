@@ -1,12 +1,16 @@
-def ESIInterceptOutputStream():
-    '''public ESIInterceptOutputStream(final ESIChannelLink handle)
+def ():
+    '''returns ESIInterceptOutputStream\n\n
+    (final ESIChannelLink handle)\n
     '''
 def sendMessageHeaders():
-    '''public void sendMessageHeaders()
+    '''returns None\n\n
+    sendMessageHeaders()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def flushWithResponse():
-    '''public ESIInterceptInputStream flushWithResponse(final boolean lookForMsgEnd)
+    '''returns ESIInterceptInputStream\n\n
+    flushWithResponse(final boolean lookForMsgEnd)\n
     '''

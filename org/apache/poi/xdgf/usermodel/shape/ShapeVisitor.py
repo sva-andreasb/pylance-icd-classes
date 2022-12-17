@@ -1,10 +1,13 @@
-def ShapeVisitor():
-    '''public ShapeVisitor()
+def ():
+    '''returns ShapeVisitor\n\n
+    ()\n
     '''
 def accept():
-    '''public boolean accept(final XDGFShape shape)
-    public boolean accept(final XDGFShape shape)
+    '''returns boolean\n\n
+    accept(final XDGFShape shape)\n
+    accept(final XDGFShape shape)\n
     '''
 def setAcceptor():
-    '''public void setAcceptor(final ShapeVisitorAcceptor acceptor)
+    '''returns None\n\n
+    setAcceptor(final ShapeVisitorAcceptor acceptor)\n
     '''

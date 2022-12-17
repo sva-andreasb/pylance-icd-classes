@@ -1,12 +1,15 @@
-def J():
-    '''public J(final ILoader<ca, FromProjectsOptions> loader, final ToImageOptions toImageOptions)
-    public J(final ILoader<ca, FromProjectsOptions> loader, final FileType targetFileType)
+def ():
+    '''returns J\n\n
+    (final ILoader<ca, FromProjectsOptions> loader, final ToImageOptions toImageOptions)\n
+    (final ILoader<ca, FromProjectsOptions> loader, final FileType targetFileType)\n
     '''
 def toImage():
-    '''public void toImage(final OutputStream outputStream)
-    public void toImage(final String savePath)
-    public void toImage(final IStreamCallback<InputStream> dataCallback)
+    '''returns None\n\n
+    toImage(final OutputStream outputStream)\n
+    toImage(final String savePath)\n
+    toImage(final IStreamCallback<InputStream> dataCallback)\n
     '''
 def getSourceFileType():
-    '''public FileType getSourceFileType()
+    '''returns FileType\n\n
+    getSourceFileType()\n
     '''

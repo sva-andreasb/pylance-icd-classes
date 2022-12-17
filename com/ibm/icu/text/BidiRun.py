@@ -1,24 +1,32 @@
 def getStart():
-    '''public int getStart()
+    '''returns int\n\n
+    getStart()\n
     '''
 def getLimit():
-    '''public int getLimit()
+    '''returns int\n\n
+    getLimit()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getEmbeddingLevel():
-    '''public byte getEmbeddingLevel()
+    '''returns byte\n\n
+    getEmbeddingLevel()\n
     '''
 def isOddRun():
-    '''public boolean isOddRun()
+    '''returns boolean\n\n
+    isOddRun()\n
     '''
 def isEvenRun():
-    '''public boolean isEvenRun()
+    '''returns boolean\n\n
+    isEvenRun()\n
     '''
 def getDirection():
-    '''public byte getDirection()
+    '''returns byte\n\n
+    getDirection()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

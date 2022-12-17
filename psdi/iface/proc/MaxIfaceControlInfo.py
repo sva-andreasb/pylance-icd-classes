@@ -1,87 +1,92 @@
 def getExtSystemName():
-    '''public String getExtSystemName()
+    '''returns String\n\n
+    getExtSystemName()\n
     '''
 def setExtSystemName():
-    '''public void setExtSystemName(final String e)
+    '''returns None\n\n
+    setExtSystemName(final String e)\n
     '''
 def getControlName():
-    '''public String getControlName()
+    '''returns String\n\n
+    getControlName()\n
     '''
 def setControlName():
-    '''public void setControlName(final String c)
+    '''returns None\n\n
+    setControlName(final String c)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String c)
+    '''returns None\n\n
+    setDescription(final String c)\n
     '''
 def getControlType():
-    '''public String getControlType()
+    '''returns String\n\n
+    getControlType()\n
     '''
 def setControlType():
-    '''public void setControlType(final String c)
+    '''returns None\n\n
+    setControlType(final String c)\n
     '''
 def getDomainId():
-    '''public String getDomainId()
+    '''returns String\n\n
+    getDomainId()\n
     '''
 def setDomainId():
-    '''public void setDomainId(final String d)
+    '''returns None\n\n
+    setDomainId(final String d)\n
     '''
 def getDefaultValue():
-    '''public String getDefaultValue()
+    '''returns String\n\n
+    getDefaultValue()\n
     '''
 def setDefaultValue():
-    '''public void setDefaultValue(final String d)
+    '''returns None\n\n
+    setDefaultValue(final String d)\n
     '''
 def isTrue():
-    '''public boolean isTrue()
+    '''returns boolean\n\n
+    isTrue()\n
     '''
 def setIsTrue():
-    '''public void setIsTrue(final int d)
+    '''returns None\n\n
+    setIsTrue(final int d)\n
     '''
 def getDefaultValueList():
-    '''public ArrayList<String> getDefaultValueList()
+    '''returns ArrayList<String>\n\n
+    getDefaultValueList()\n
     '''
 def setDefaultValueList():
-    '''public void setDefaultValueList(final ArrayList<String> vl)
-    '''
-def getOrgOverrideData():
-    '''public Map<String, Object> getOrgOverrideData()
+    '''returns None\n\n
+    setDefaultValueList(final ArrayList<String> vl)\n
     '''
 def setOrgOverrideData():
-    '''public void setOrgOverrideData(final Map<String, Object> vl)
-    '''
-def getSiteOverrideData():
-    '''public Map<String, Object> getSiteOverrideData()
+    '''returns None\n\n
+    setOrgOverrideData(final Map<String, Object> vl)\n
     '''
 def setSiteOverrideData():
-    '''public void setSiteOverrideData(final Map<String, Object> vl)
-    '''
-def getExtOrgOverrideData():
-    '''public Map<String, Object> getExtOrgOverrideData()
+    '''returns None\n\n
+    setSiteOverrideData(final Map<String, Object> vl)\n
     '''
 def setExtOrgOverrideData():
-    '''public void setExtOrgOverrideData(final Map<String, Object> vl)
-    '''
-def getExtSiteOverrideData():
-    '''public Map<String, Object> getExtSiteOverrideData()
+    '''returns None\n\n
+    setExtOrgOverrideData(final Map<String, Object> vl)\n
     '''
 def setExtSiteOverrideData():
-    '''public void setExtSiteOverrideData(final Map<String, Object> vl)
-    '''
-def getMaximoDefaultValue():
-    '''public Map<String, List<String>> getMaximoDefaultValue()
+    '''returns None\n\n
+    setExtSiteOverrideData(final Map<String, Object> vl)\n
     '''
 def setMaximoDefaultValue():
-    '''public void setMaximoDefaultValue(final Map<String, List<String>> vl)
-    '''
-def getExtDefaultValue():
-    '''public Map<String, List<String>> getExtDefaultValue()
+    '''returns None\n\n
+    setMaximoDefaultValue(final Map<String, List<String>> vl)\n
     '''
 def setExtDefaultValue():
-    '''public void setExtDefaultValue(final Map<String, List<String>> vl)
+    '''returns None\n\n
+    setExtDefaultValue(final Map<String, List<String>> vl)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,66 +1,83 @@
-def AttrNameValue():
-    '''public AttrNameValue()
-    public AttrNameValue(final String name, final String value, final String category)
-    public AttrNameValue(final String name, final int value, final String category)
-    public AttrNameValue(final String name, final short value, final String category)
-    public AttrNameValue(final String name, final long value, final String category)
-    public AttrNameValue(final String name, final double value, final String category)
-    public AttrNameValue(final String name, final float value, final String category)
-    public AttrNameValue(final String name, final char value, final String category)
-    public AttrNameValue(final String name, final boolean value, final String category)
+def ():
+    '''returns AttrNameValue\n\n
+    ()\n
+    (final String name, final String value, final String category)\n
+    (final String name, final int value, final String category)\n
+    (final String name, final short value, final String category)\n
+    (final String name, final long value, final String category)\n
+    (final String name, final double value, final String category)\n
+    (final String name, final float value, final String category)\n
+    (final String name, final char value, final String category)\n
+    (final String name, final boolean value, final String category)\n
     '''
 def getStringValue():
-    '''public String getStringValue()
+    '''returns String\n\n
+    getStringValue()\n
     '''
 def setStringValue():
-    '''public void setStringValue(final String stringValue)
+    '''returns None\n\n
+    setStringValue(final String stringValue)\n
     '''
 def getIntValue():
-    '''public int getIntValue()
+    '''returns int\n\n
+    getIntValue()\n
     '''
 def setIntValue():
-    '''public void setIntValue(final int intValue)
-    public void setIntValue(final String intValue)
+    '''returns None\n\n
+    setIntValue(final int intValue)\n
+    setIntValue(final String intValue)\n
     '''
 def getShortValue():
-    '''public short getShortValue()
+    '''returns short\n\n
+    getShortValue()\n
     '''
 def setShortValue():
-    '''public void setShortValue(final short shortValue)
-    public void setShortValue(final String shortValue)
+    '''returns None\n\n
+    setShortValue(final short shortValue)\n
+    setShortValue(final String shortValue)\n
     '''
 def getLongValue():
-    '''public long getLongValue()
+    '''returns long\n\n
+    getLongValue()\n
     '''
 def setLongValue():
-    '''public void setLongValue(final long longValue)
-    public void setLongValue(final String longValue)
+    '''returns None\n\n
+    setLongValue(final long longValue)\n
+    setLongValue(final String longValue)\n
     '''
 def getDoubleValue():
-    '''public double getDoubleValue()
+    '''returns double\n\n
+    getDoubleValue()\n
     '''
 def setDoubleValue():
-    '''public void setDoubleValue(final double doubleValue)
-    public void setDoubleValue(final String doubleValue)
+    '''returns None\n\n
+    setDoubleValue(final double doubleValue)\n
+    setDoubleValue(final String doubleValue)\n
     '''
 def getFloatValue():
-    '''public float getFloatValue()
+    '''returns float\n\n
+    getFloatValue()\n
     '''
 def setFloatValue():
-    '''public void setFloatValue(final float floatValue)
-    public void setFloatValue(final String floatValue)
+    '''returns None\n\n
+    setFloatValue(final float floatValue)\n
+    setFloatValue(final String floatValue)\n
     '''
 def getCharValue():
-    '''public char getCharValue()
+    '''returns char\n\n
+    getCharValue()\n
     '''
 def setCharValue():
-    '''public void setCharValue(final char charValue)
-    public void setCharValue(final String charValue)
+    '''returns None\n\n
+    setCharValue(final char charValue)\n
+    setCharValue(final String charValue)\n
     '''
 def getBooleanValue():
-    '''public boolean getBooleanValue()
+    '''returns boolean\n\n
+    getBooleanValue()\n
     '''
 def setBooleanValue():
-    '''public void setBooleanValue(final boolean booleanValue)
-    public void setBooleanValue(final String booleanValue)
+    '''returns None\n\n
+    setBooleanValue(final boolean booleanValue)\n
+    setBooleanValue(final String booleanValue)\n
     '''

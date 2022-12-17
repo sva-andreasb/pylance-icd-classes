@@ -1,3 +1,4 @@
 def executeOK():
-    '''public int executeOK()
+    '''returns int\n\n
+    executeOK()\n
     '''

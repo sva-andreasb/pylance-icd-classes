@@ -1,6 +1,8 @@
-def FldWOAcceptsCharges():
-    '''public FldWOAcceptsCharges(final MboValue mbv)
+def ():
+    '''returns FldWOAcceptsCharges\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

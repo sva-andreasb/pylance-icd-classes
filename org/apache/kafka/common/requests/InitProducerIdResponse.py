@@ -1,29 +1,26 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def InitProducerIdResponse():
-    '''public InitProducerIdResponse(final int throttleTimeMs, final Errors error, final long producerId, final short epoch)
-    public InitProducerIdResponse(final Struct struct)
-    public InitProducerIdResponse(final int throttleTimeMs, final Errors errors)
+def ():
+    '''returns InitProducerIdResponse\n\n
+    (final int throttleTimeMs, final Errors error, final long producerId, final short epoch)\n
+    (final Struct struct)\n
+    (final int throttleTimeMs, final Errors errors)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def producerId():
-    '''public long producerId()
+    '''returns long\n\n
+    producerId()\n
     '''
 def error():
-    '''public Errors error()
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
+    '''returns Errors\n\n
+    error()\n
     '''
 def epoch():
-    '''public short epoch()
-    '''
-def parse():
-    '''public static InitProducerIdResponse parse(final ByteBuffer buffer, final short version)
+    '''returns short\n\n
+    epoch()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

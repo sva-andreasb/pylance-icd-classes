@@ -1,48 +1,64 @@
-def DeserializerFactoryConfig():
-    '''public DeserializerFactoryConfig()
+def ():
+    '''returns DeserializerFactoryConfig\n\n
+    ()\n
     '''
 def withAdditionalDeserializers():
-    '''public DeserializerFactoryConfig withAdditionalDeserializers(final Deserializers additional)
+    '''returns DeserializerFactoryConfig\n\n
+    withAdditionalDeserializers(final Deserializers additional)\n
     '''
 def withAdditionalKeyDeserializers():
-    '''public DeserializerFactoryConfig withAdditionalKeyDeserializers(final KeyDeserializers additional)
+    '''returns DeserializerFactoryConfig\n\n
+    withAdditionalKeyDeserializers(final KeyDeserializers additional)\n
     '''
 def withDeserializerModifier():
-    '''public DeserializerFactoryConfig withDeserializerModifier(final BeanDeserializerModifier modifier)
+    '''returns DeserializerFactoryConfig\n\n
+    withDeserializerModifier(final BeanDeserializerModifier modifier)\n
     '''
 def withAbstractTypeResolver():
-    '''public DeserializerFactoryConfig withAbstractTypeResolver(final AbstractTypeResolver resolver)
+    '''returns DeserializerFactoryConfig\n\n
+    withAbstractTypeResolver(final AbstractTypeResolver resolver)\n
     '''
 def withValueInstantiators():
-    '''public DeserializerFactoryConfig withValueInstantiators(final ValueInstantiators instantiators)
+    '''returns DeserializerFactoryConfig\n\n
+    withValueInstantiators(final ValueInstantiators instantiators)\n
     '''
 def hasDeserializers():
-    '''public boolean hasDeserializers()
+    '''returns boolean\n\n
+    hasDeserializers()\n
     '''
 def hasKeyDeserializers():
-    '''public boolean hasKeyDeserializers()
+    '''returns boolean\n\n
+    hasKeyDeserializers()\n
     '''
 def hasDeserializerModifiers():
-    '''public boolean hasDeserializerModifiers()
+    '''returns boolean\n\n
+    hasDeserializerModifiers()\n
     '''
 def hasAbstractTypeResolvers():
-    '''public boolean hasAbstractTypeResolvers()
+    '''returns boolean\n\n
+    hasAbstractTypeResolvers()\n
     '''
 def hasValueInstantiators():
-    '''public boolean hasValueInstantiators()
+    '''returns boolean\n\n
+    hasValueInstantiators()\n
     '''
 def deserializers():
-    '''public Iterable<Deserializers> deserializers()
+    '''returns Iterable<Deserializers>\n\n
+    deserializers()\n
     '''
 def keyDeserializers():
-    '''public Iterable<KeyDeserializers> keyDeserializers()
+    '''returns Iterable<KeyDeserializers>\n\n
+    keyDeserializers()\n
     '''
 def deserializerModifiers():
-    '''public Iterable<BeanDeserializerModifier> deserializerModifiers()
+    '''returns Iterable<BeanDeserializerModifier>\n\n
+    deserializerModifiers()\n
     '''
 def abstractTypeResolvers():
-    '''public Iterable<AbstractTypeResolver> abstractTypeResolvers()
+    '''returns Iterable<AbstractTypeResolver>\n\n
+    abstractTypeResolvers()\n
     '''
 def valueInstantiators():
-    '''public Iterable<ValueInstantiators> valueInstantiators()
+    '''returns Iterable<ValueInstantiators>\n\n
+    valueInstantiators()\n
     '''

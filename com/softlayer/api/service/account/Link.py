@@ -1,102 +1,136 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getServiceProvider():
-    '''public Provider getServiceProvider()
+    '''returns Provider\n\n
+    getServiceProvider()\n
     '''
 def setServiceProvider():
-    '''public void setServiceProvider(final Provider serviceProvider)
+    '''returns None\n\n
+    setServiceProvider(final Provider serviceProvider)\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getDestinationAccountAlphanumericId():
-    '''public String getDestinationAccountAlphanumericId()
+    '''returns String\n\n
+    getDestinationAccountAlphanumericId()\n
     '''
 def setDestinationAccountAlphanumericId():
-    '''public void setDestinationAccountAlphanumericId(final String destinationAccountAlphanumericId)
+    '''returns None\n\n
+    setDestinationAccountAlphanumericId(final String destinationAccountAlphanumericId)\n
     '''
 def isDestinationAccountAlphanumericIdSpecified():
-    '''public boolean isDestinationAccountAlphanumericIdSpecified()
+    '''returns boolean\n\n
+    isDestinationAccountAlphanumericIdSpecified()\n
     '''
 def unsetDestinationAccountAlphanumericId():
-    '''public void unsetDestinationAccountAlphanumericId()
+    '''returns None\n\n
+    unsetDestinationAccountAlphanumericId()\n
     '''
 def getDestinationAccountId():
-    '''public Long getDestinationAccountId()
+    '''returns Long\n\n
+    getDestinationAccountId()\n
     '''
 def setDestinationAccountId():
-    '''public void setDestinationAccountId(final Long destinationAccountId)
+    '''returns None\n\n
+    setDestinationAccountId(final Long destinationAccountId)\n
     '''
 def isDestinationAccountIdSpecified():
-    '''public boolean isDestinationAccountIdSpecified()
+    '''returns boolean\n\n
+    isDestinationAccountIdSpecified()\n
     '''
 def unsetDestinationAccountId():
-    '''public void unsetDestinationAccountId()
+    '''returns None\n\n
+    unsetDestinationAccountId()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getServiceProviderId():
-    '''public Long getServiceProviderId()
+    '''returns Long\n\n
+    getServiceProviderId()\n
     '''
 def setServiceProviderId():
-    '''public void setServiceProviderId(final Long serviceProviderId)
+    '''returns None\n\n
+    setServiceProviderId(final Long serviceProviderId)\n
     '''
 def isServiceProviderIdSpecified():
-    '''public boolean isServiceProviderIdSpecified()
+    '''returns boolean\n\n
+    isServiceProviderIdSpecified()\n
     '''
 def unsetServiceProviderId():
-    '''public void unsetServiceProviderId()
+    '''returns None\n\n
+    unsetServiceProviderId()\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def destinationAccountAlphanumericId():
-    '''public Mask destinationAccountAlphanumericId()
+    '''returns Mask\n\n
+    destinationAccountAlphanumericId()\n
     '''
 def destinationAccountId():
-    '''public Mask destinationAccountId()
+    '''returns Mask\n\n
+    destinationAccountId()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def serviceProviderId():
-    '''public Mask serviceProviderId()
+    '''returns Mask\n\n
+    serviceProviderId()\n
     '''

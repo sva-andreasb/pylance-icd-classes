@@ -1,3 +1,4 @@
-def MergedGLTrans():
-    '''public MergedGLTrans(final MboSet ms)
+def ():
+    '''returns MergedGLTrans\n\n
+    (final MboSet ms)\n
     '''

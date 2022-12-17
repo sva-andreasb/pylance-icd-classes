@@ -1,6 +1,8 @@
-def FldInventoryManufacturer():
-    '''public FldInventoryManufacturer(final MboValue mbv)
+def ():
+    '''returns FldInventoryManufacturer\n\n
+    (final MboValue mbv)\n
     '''
 def onlyEnabled():
-    '''public boolean onlyEnabled()
+    '''returns boolean\n\n
+    onlyEnabled()\n
     '''

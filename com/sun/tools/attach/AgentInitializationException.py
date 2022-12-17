@@ -1,8 +1,10 @@
-def AgentInitializationException():
-    '''public AgentInitializationException()
-    public AgentInitializationException(final String message)
-    public AgentInitializationException(final String message, final int returnValue)
+def ():
+    '''returns AgentInitializationException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final int returnValue)\n
     '''
 def returnValue():
-    '''public int returnValue()
+    '''returns int\n\n
+    returnValue()\n
     '''

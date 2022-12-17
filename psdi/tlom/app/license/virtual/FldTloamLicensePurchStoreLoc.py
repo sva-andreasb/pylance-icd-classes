@@ -1,3 +1,4 @@
-def FldTloamLicensePurchStoreLoc():
-    '''public FldTloamLicensePurchStoreLoc(final MboValue mbv)
+def ():
+    '''returns FldTloamLicensePurchStoreLoc\n\n
+    (final MboValue mbv)\n
     '''

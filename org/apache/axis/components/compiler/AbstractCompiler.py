@@ -1,21 +1,28 @@
-def AbstractCompiler():
-    '''public AbstractCompiler()
+def ():
+    '''returns AbstractCompiler\n\n
+    ()\n
     '''
 def addFile():
-    '''public void addFile(final String file)
+    '''returns None\n\n
+    addFile(final String file)\n
     '''
 def setSource():
-    '''public void setSource(final String srcDir)
+    '''returns None\n\n
+    setSource(final String srcDir)\n
     '''
 def setDestination():
-    '''public void setDestination(final String destDir)
+    '''returns None\n\n
+    setDestination(final String destDir)\n
     '''
 def setClasspath():
-    '''public void setClasspath(final String classpath)
+    '''returns None\n\n
+    setClasspath(final String classpath)\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String encoding)
+    '''returns None\n\n
+    setEncoding(final String encoding)\n
     '''
 def getErrors():
-    '''public List getErrors()
+    '''returns List\n\n
+    getErrors()\n
     '''

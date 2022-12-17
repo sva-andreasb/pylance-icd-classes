@@ -1,244 +1,318 @@
 OLD_WORKBOOK_DIR_ENTRY_NAME = "String  \"Book\""
-def createWorkbook():
-    '''public static InternalWorkbook createWorkbook(final List<Record> recs)
-    public static InternalWorkbook createWorkbook()
-    '''
 def getSpecificBuiltinRecord():
-    '''public NameRecord getSpecificBuiltinRecord(final byte name, final int sheetNumber)
+    '''returns NameRecord\n\n
+    getSpecificBuiltinRecord(final byte name, final int sheetNumber)\n
     '''
 def removeBuiltinRecord():
-    '''public void removeBuiltinRecord(final byte name, final int sheetIndex)
+    '''returns None\n\n
+    removeBuiltinRecord(final byte name, final int sheetIndex)\n
     '''
 def getNumRecords():
-    '''public int getNumRecords()
+    '''returns int\n\n
+    getNumRecords()\n
     '''
 def getFontRecordAt():
-    '''public FontRecord getFontRecordAt(final int idx)
+    '''returns FontRecord\n\n
+    getFontRecordAt(final int idx)\n
     '''
 def getFontIndex():
-    '''public int getFontIndex(final FontRecord font)
+    '''returns int\n\n
+    getFontIndex(final FontRecord font)\n
     '''
 def createNewFont():
-    '''public FontRecord createNewFont()
+    '''returns FontRecord\n\n
+    createNewFont()\n
     '''
 def removeFontRecord():
-    '''public void removeFontRecord(final FontRecord rec)
+    '''returns None\n\n
+    removeFontRecord(final FontRecord rec)\n
     '''
 def getNumberOfFontRecords():
-    '''public int getNumberOfFontRecords()
+    '''returns int\n\n
+    getNumberOfFontRecords()\n
     '''
 def setSheetBof():
-    '''public void setSheetBof(final int sheetIndex, final int pos)
+    '''returns None\n\n
+    setSheetBof(final int sheetIndex, final int pos)\n
     '''
 def getBackupRecord():
-    '''public BackupRecord getBackupRecord()
+    '''returns BackupRecord\n\n
+    getBackupRecord()\n
     '''
 def setSheetName():
-    '''public void setSheetName(final int sheetnum, final String sheetname)
+    '''returns None\n\n
+    setSheetName(final int sheetnum, final String sheetname)\n
     '''
 def doesContainsSheetName():
-    '''public boolean doesContainsSheetName(final String name, final int excludeSheetIdx)
+    '''returns boolean\n\n
+    doesContainsSheetName(final String name, final int excludeSheetIdx)\n
     '''
 def setSheetOrder():
-    '''public void setSheetOrder(final String sheetname, final int pos)
+    '''returns None\n\n
+    setSheetOrder(final String sheetname, final int pos)\n
     '''
 def getSheetName():
-    '''public String getSheetName(final int sheetIndex)
+    '''returns String\n\n
+    getSheetName(final int sheetIndex)\n
     '''
 def isSheetHidden():
-    '''public boolean isSheetHidden(final int sheetnum)
+    '''returns boolean\n\n
+    isSheetHidden(final int sheetnum)\n
     '''
 def isSheetVeryHidden():
-    '''public boolean isSheetVeryHidden(final int sheetnum)
+    '''returns boolean\n\n
+    isSheetVeryHidden(final int sheetnum)\n
     '''
 def getSheetVisibility():
-    '''public SheetVisibility getSheetVisibility(final int sheetnum)
+    '''returns SheetVisibility\n\n
+    getSheetVisibility(final int sheetnum)\n
     '''
 def setSheetHidden():
-    '''public void setSheetHidden(final int sheetnum, final boolean hidden)
-    public void setSheetHidden(final int sheetnum, final SheetVisibility visibility)
+    '''returns None\n\n
+    setSheetHidden(final int sheetnum, final boolean hidden)\n
+    setSheetHidden(final int sheetnum, final SheetVisibility visibility)\n
     '''
 def getSheetIndex():
-    '''public int getSheetIndex(final String name)
+    '''returns int\n\n
+    getSheetIndex(final String name)\n
     '''
 def removeSheet():
-    '''public void removeSheet(final int sheetIndex)
+    '''returns None\n\n
+    removeSheet(final int sheetIndex)\n
     '''
 def getNumSheets():
-    '''public int getNumSheets()
+    '''returns int\n\n
+    getNumSheets()\n
     '''
 def getNumExFormats():
-    '''public int getNumExFormats()
+    '''returns int\n\n
+    getNumExFormats()\n
     '''
 def getExFormatAt():
-    '''public ExtendedFormatRecord getExFormatAt(final int index)
+    '''returns ExtendedFormatRecord\n\n
+    getExFormatAt(final int index)\n
     '''
 def removeExFormatRecord():
-    '''public void removeExFormatRecord(final ExtendedFormatRecord rec)
-    public void removeExFormatRecord(final int index)
+    '''returns None\n\n
+    removeExFormatRecord(final ExtendedFormatRecord rec)\n
+    removeExFormatRecord(final int index)\n
     '''
 def createCellXF():
-    '''public ExtendedFormatRecord createCellXF()
+    '''returns ExtendedFormatRecord\n\n
+    createCellXF()\n
     '''
 def getStyleRecord():
-    '''public StyleRecord getStyleRecord(final int xfIndex)
+    '''returns StyleRecord\n\n
+    getStyleRecord(final int xfIndex)\n
     '''
 def createStyleRecord():
-    '''public StyleRecord createStyleRecord(final int xfIndex)
+    '''returns StyleRecord\n\n
+    createStyleRecord(final int xfIndex)\n
     '''
 def addSSTString():
-    '''public int addSSTString(final UnicodeString string)
+    '''returns int\n\n
+    addSSTString(final UnicodeString string)\n
     '''
 def getSSTString():
-    '''public UnicodeString getSSTString(final int str)
+    '''returns UnicodeString\n\n
+    getSSTString(final int str)\n
     '''
 def insertSST():
-    '''public void insertSST()
+    '''returns None\n\n
+    insertSST()\n
     '''
 def serialize():
-    '''public int serialize(final int offset, final byte[] data)
+    '''returns int\n\n
+    serialize(final int offset, final byte[] data)\n
     '''
 def preSerialize():
-    '''public void preSerialize()
+    '''returns None\n\n
+    preSerialize()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
 def linkExternalWorkbook():
-    '''public int linkExternalWorkbook(final String name, final Workbook externalWorkbook)
+    '''returns int\n\n
+    linkExternalWorkbook(final String name, final Workbook externalWorkbook)\n
     '''
 def findSheetFirstNameFromExternSheet():
-    '''public String findSheetFirstNameFromExternSheet(final int externSheetIndex)
+    '''returns String\n\n
+    findSheetFirstNameFromExternSheet(final int externSheetIndex)\n
     '''
 def findSheetLastNameFromExternSheet():
-    '''public String findSheetLastNameFromExternSheet(final int externSheetIndex)
+    '''returns String\n\n
+    findSheetLastNameFromExternSheet(final int externSheetIndex)\n
     '''
 def getFirstSheetIndexFromExternSheetIndex():
-    '''public int getFirstSheetIndexFromExternSheetIndex(final int externSheetNumber)
+    '''returns int\n\n
+    getFirstSheetIndexFromExternSheetIndex(final int externSheetNumber)\n
     '''
 def getLastSheetIndexFromExternSheetIndex():
-    '''public int getLastSheetIndexFromExternSheetIndex(final int externSheetNumber)
+    '''returns int\n\n
+    getLastSheetIndexFromExternSheetIndex(final int externSheetNumber)\n
     '''
 def checkExternSheet():
-    '''public short checkExternSheet(final int sheetNumber)
-    public short checkExternSheet(final int firstSheetNumber, final int lastSheetNumber)
+    '''returns short\n\n
+    checkExternSheet(final int sheetNumber)\n
+    checkExternSheet(final int firstSheetNumber, final int lastSheetNumber)\n
     '''
 def getExternalSheetIndex():
-    '''public int getExternalSheetIndex(final String workbookName, final String sheetName)
-    public int getExternalSheetIndex(final String workbookName, final String firstSheetName, final String lastSheetName)
+    '''returns int\n\n
+    getExternalSheetIndex(final String workbookName, final String sheetName)\n
+    getExternalSheetIndex(final String workbookName, final String firstSheetName, final String lastSheetName)\n
     '''
 def getNumNames():
-    '''public int getNumNames()
+    '''returns int\n\n
+    getNumNames()\n
     '''
 def getNameRecord():
-    '''public NameRecord getNameRecord(final int index)
+    '''returns NameRecord\n\n
+    getNameRecord(final int index)\n
     '''
 def getNameCommentRecord():
-    '''public NameCommentRecord getNameCommentRecord(final NameRecord nameRecord)
+    '''returns NameCommentRecord\n\n
+    getNameCommentRecord(final NameRecord nameRecord)\n
     '''
 def createName():
-    '''public NameRecord createName()
+    '''returns NameRecord\n\n
+    createName()\n
     '''
 def addName():
-    '''public NameRecord addName(final NameRecord name)
+    '''returns NameRecord\n\n
+    addName(final NameRecord name)\n
     '''
 def createBuiltInName():
-    '''public NameRecord createBuiltInName(final byte builtInName, final int sheetNumber)
+    '''returns NameRecord\n\n
+    createBuiltInName(final byte builtInName, final int sheetNumber)\n
     '''
 def removeName():
-    '''public void removeName(final int nameIndex)
+    '''returns None\n\n
+    removeName(final int nameIndex)\n
     '''
 def updateNameCommentRecordCache():
-    '''public void updateNameCommentRecordCache(final NameCommentRecord commentRecord)
+    '''returns None\n\n
+    updateNameCommentRecordCache(final NameCommentRecord commentRecord)\n
     '''
 def getFormat():
-    '''public short getFormat(final String format, final boolean createIfNotFound)
+    '''returns short\n\n
+    getFormat(final String format, final boolean createIfNotFound)\n
     '''
 def getFormats():
-    '''public List<FormatRecord> getFormats()
+    '''returns List<FormatRecord>\n\n
+    getFormats()\n
     '''
 def createFormat():
-    '''public int createFormat(final String formatString)
+    '''returns int\n\n
+    createFormat(final String formatString)\n
     '''
 def findFirstRecordBySid():
-    '''public Record findFirstRecordBySid(final short sid)
+    '''returns Record\n\n
+    findFirstRecordBySid(final short sid)\n
     '''
 def findFirstRecordLocBySid():
-    '''public int findFirstRecordLocBySid(final short sid)
+    '''returns int\n\n
+    findFirstRecordLocBySid(final short sid)\n
     '''
 def findNextRecordBySid():
-    '''public Record findNextRecordBySid(final short sid, final int pos)
+    '''returns Record\n\n
+    findNextRecordBySid(final short sid, final int pos)\n
     '''
 def getHyperlinks():
-    '''public List<HyperlinkRecord> getHyperlinks()
+    '''returns List<HyperlinkRecord>\n\n
+    getHyperlinks()\n
     '''
 def getRecords():
-    '''public List<Record> getRecords()
+    '''returns List<Record>\n\n
+    getRecords()\n
     '''
 def isUsing1904DateWindowing():
-    '''public boolean isUsing1904DateWindowing()
+    '''returns boolean\n\n
+    isUsing1904DateWindowing()\n
     '''
 def getCustomPalette():
-    '''public PaletteRecord getCustomPalette()
+    '''returns PaletteRecord\n\n
+    getCustomPalette()\n
     '''
 def findDrawingGroup():
-    '''public DrawingManager2 findDrawingGroup()
+    '''returns DrawingManager2\n\n
+    findDrawingGroup()\n
     '''
 def createDrawingGroup():
-    '''public void createDrawingGroup()
+    '''returns None\n\n
+    createDrawingGroup()\n
     '''
 def getWindowOne():
-    '''public WindowOneRecord getWindowOne()
+    '''returns WindowOneRecord\n\n
+    getWindowOne()\n
     '''
 def getBSERecord():
-    '''public EscherBSERecord getBSERecord(final int pictureIndex)
+    '''returns EscherBSERecord\n\n
+    getBSERecord(final int pictureIndex)\n
     '''
 def addBSERecord():
-    '''public int addBSERecord(final EscherBSERecord e)
+    '''returns int\n\n
+    addBSERecord(final EscherBSERecord e)\n
     '''
 def getDrawingManager():
-    '''public DrawingManager2 getDrawingManager()
+    '''returns DrawingManager2\n\n
+    getDrawingManager()\n
     '''
 def getWriteProtect():
-    '''public WriteProtectRecord getWriteProtect()
+    '''returns WriteProtectRecord\n\n
+    getWriteProtect()\n
     '''
 def getWriteAccess():
-    '''public WriteAccessRecord getWriteAccess()
+    '''returns WriteAccessRecord\n\n
+    getWriteAccess()\n
     '''
 def getFileSharing():
-    '''public FileSharingRecord getFileSharing()
+    '''returns FileSharingRecord\n\n
+    getFileSharing()\n
     '''
 def isWriteProtected():
-    '''public boolean isWriteProtected()
+    '''returns boolean\n\n
+    isWriteProtected()\n
     '''
 def writeProtectWorkbook():
-    '''public void writeProtectWorkbook(final String password, final String username)
+    '''returns None\n\n
+    writeProtectWorkbook(final String password, final String username)\n
     '''
 def unwriteProtectWorkbook():
-    '''public void unwriteProtectWorkbook()
+    '''returns None\n\n
+    unwriteProtectWorkbook()\n
     '''
 def resolveNameXText():
-    '''public String resolveNameXText(final int refIndex, final int definedNameIndex)
+    '''returns String\n\n
+    resolveNameXText(final int refIndex, final int definedNameIndex)\n
     '''
 def getNameXPtg():
-    '''public NameXPtg getNameXPtg(final String name, final int sheetRefIndex, final UDFFinder udf)
-    public NameXPtg getNameXPtg(final String name, final UDFFinder udf)
+    '''returns NameXPtg\n\n
+    getNameXPtg(final String name, final int sheetRefIndex, final UDFFinder udf)\n
+    getNameXPtg(final String name, final UDFFinder udf)\n
     '''
 def cloneDrawings():
-    '''public void cloneDrawings(final InternalSheet sheet)
+    '''returns None\n\n
+    cloneDrawings(final InternalSheet sheet)\n
     '''
 def cloneFilter():
-    '''public NameRecord cloneFilter(final int filterDbNameIndex, final int newSheetIndex)
+    '''returns NameRecord\n\n
+    cloneFilter(final int filterDbNameIndex, final int newSheetIndex)\n
     '''
 def updateNamesAfterCellShift():
-    '''public void updateNamesAfterCellShift(final FormulaShifter shifter)
+    '''returns None\n\n
+    updateNamesAfterCellShift(final FormulaShifter shifter)\n
     '''
 def getRecalcId():
-    '''public RecalcIdRecord getRecalcId()
+    '''returns RecalcIdRecord\n\n
+    getRecalcId()\n
     '''
 def changeExternalReference():
-    '''public boolean changeExternalReference(final String oldUrl, final String newUrl)
+    '''returns boolean\n\n
+    changeExternalReference(final String oldUrl, final String newUrl)\n
     '''
 def getWorkbookRecordList():
-    '''public WorkbookRecordList getWorkbookRecordList()
+    '''returns WorkbookRecordList\n\n
+    getWorkbookRecordList()\n
     '''

@@ -1,9 +1,12 @@
-def OutgoingMessageListenerIntegrationTest():
-    '''public OutgoingMessageListenerIntegrationTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns OutgoingMessageListenerIntegrationTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def outgoingMessageListenerTest():
-    '''public void outgoingMessageListenerTest()
+    '''returns None\n\n
+    outgoingMessageListenerTest()\n
     '''
 def newOutgoingMessage():
-    '''public void newOutgoingMessage(final EntityBareJid to, final Message message, final Chat chat)
+    '''returns None\n\n
+    newOutgoingMessage(final EntityBareJid to, final Message message, final Chat chat)\n
     '''

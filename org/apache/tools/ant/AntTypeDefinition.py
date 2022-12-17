@@ -1,60 +1,80 @@
-def AntTypeDefinition():
-    '''public AntTypeDefinition()
+def ():
+    '''returns AntTypeDefinition\n\n
+    ()\n
     '''
 def setRestrict():
-    '''public void setRestrict(final boolean restrict)
+    '''returns None\n\n
+    setRestrict(final boolean restrict)\n
     '''
 def isRestrict():
-    '''public boolean isRestrict()
+    '''returns boolean\n\n
+    isRestrict()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setClass():
-    '''public void setClass(final Class clazz)
+    '''returns None\n\n
+    setClass(final Class clazz)\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setAdapterClass():
-    '''public void setAdapterClass(final Class adapterClass)
+    '''returns None\n\n
+    setAdapterClass(final Class adapterClass)\n
     '''
 def setAdaptToClass():
-    '''public void setAdaptToClass(final Class adaptToClass)
+    '''returns None\n\n
+    setAdaptToClass(final Class adaptToClass)\n
     '''
 def setClassLoader():
-    '''public void setClassLoader(final ClassLoader classLoader)
+    '''returns None\n\n
+    setClassLoader(final ClassLoader classLoader)\n
     '''
 def getClassLoader():
-    '''public ClassLoader getClassLoader()
+    '''returns ClassLoader\n\n
+    getClassLoader()\n
     '''
 def getExposedClass():
-    '''public Class getExposedClass(final Project project)
+    '''returns Class\n\n
+    getExposedClass(final Project project)\n
     '''
 def getTypeClass():
-    '''public Class getTypeClass(final Project project)
+    '''returns Class\n\n
+    getTypeClass(final Project project)\n
     '''
 def innerGetTypeClass():
-    '''public Class innerGetTypeClass()
+    '''returns Class\n\n
+    innerGetTypeClass()\n
     '''
 def create():
-    '''public Object create(final Project project)
+    '''returns Object\n\n
+    create(final Project project)\n
     '''
 def checkClass():
-    '''public void checkClass(final Project project)
+    '''returns None\n\n
+    checkClass(final Project project)\n
     '''
 def innerCreateAndSet():
-    '''public Object innerCreateAndSet(final Class newclass, final Project project)
+    '''returns Object\n\n
+    innerCreateAndSet(final Class newclass, final Project project)\n
     '''
 def sameDefinition():
-    '''public boolean sameDefinition(final AntTypeDefinition other, final Project project)
+    '''returns boolean\n\n
+    sameDefinition(final AntTypeDefinition other, final Project project)\n
     '''
 def similarDefinition():
-    '''public boolean similarDefinition(final AntTypeDefinition other, final Project project)
+    '''returns boolean\n\n
+    similarDefinition(final AntTypeDefinition other, final Project project)\n
     '''

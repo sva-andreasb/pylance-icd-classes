@@ -1,23 +1,18 @@
-def DescribeDelegationTokenResponse():
-    '''public DescribeDelegationTokenResponse(final int throttleTimeMs, final Errors error, final List<DelegationToken> tokens)
-    public DescribeDelegationTokenResponse(final int throttleTimeMs, final Errors error)
-    public DescribeDelegationTokenResponse(final Struct struct)
-    '''
-def parse():
-    '''public static DescribeDelegationTokenResponse parse(final ByteBuffer buffer, final short version)
-    '''
-def errorCounts():
-    '''public Map<Errors, Integer> errorCounts()
-    '''
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
+def ():
+    '''returns DescribeDelegationTokenResponse\n\n
+    (final int throttleTimeMs, final Errors error, final List<DelegationToken> tokens)\n
+    (final int throttleTimeMs, final Errors error)\n
+    (final Struct struct)\n
     '''
 def throttleTimeMs():
-    '''public int throttleTimeMs()
+    '''returns int\n\n
+    throttleTimeMs()\n
     '''
 def error():
-    '''public Errors error()
+    '''returns Errors\n\n
+    error()\n
     '''
 def tokens():
-    '''public List<DelegationToken> tokens()
+    '''returns List<DelegationToken>\n\n
+    tokens()\n
     '''

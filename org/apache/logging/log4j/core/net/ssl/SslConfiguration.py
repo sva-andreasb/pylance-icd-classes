@@ -1,34 +1,40 @@
 def clearSecrets():
-    '''public void clearSecrets()
+    '''returns None\n\n
+    clearSecrets()\n
     '''
 def getSslSocketFactory():
-    '''public SSLSocketFactory getSslSocketFactory()
+    '''returns SSLSocketFactory\n\n
+    getSslSocketFactory()\n
     '''
 def getSslServerSocketFactory():
-    '''public SSLServerSocketFactory getSslServerSocketFactory()
-    '''
-def createSSLConfiguration():
-    '''public static SslConfiguration createSSLConfiguration(@PluginAttribute("protocol") final String protocol, @PluginElement("KeyStore") final KeyStoreConfiguration keyStoreConfig, @PluginElement("TrustStore") final TrustStoreConfiguration trustStoreConfig)
-    public static SslConfiguration createSSLConfiguration(@PluginAttribute("protocol") final String protocol, @PluginElement("KeyStore") final KeyStoreConfiguration keyStoreConfig, @PluginElement("TrustStore") final TrustStoreConfiguration trustStoreConfig, @PluginAttribute("verifyHostName") final boolean verifyHostName)
+    '''returns SSLServerSocketFactory\n\n
+    getSslServerSocketFactory()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def getKeyStoreConfig():
-    '''public KeyStoreConfiguration getKeyStoreConfig()
+    '''returns KeyStoreConfiguration\n\n
+    getKeyStoreConfig()\n
     '''
 def getTrustStoreConfig():
-    '''public TrustStoreConfiguration getTrustStoreConfig()
+    '''returns TrustStoreConfiguration\n\n
+    getTrustStoreConfig()\n
     '''
 def getSslContext():
-    '''public SSLContext getSslContext()
+    '''returns SSLContext\n\n
+    getSslContext()\n
     '''
 def getProtocol():
-    '''public String getProtocol()
+    '''returns String\n\n
+    getProtocol()\n
     '''
 def isVerifyHostName():
-    '''public boolean isVerifyHostName()
+    '''returns boolean\n\n
+    isVerifyHostName()\n
     '''

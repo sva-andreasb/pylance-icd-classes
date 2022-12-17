@@ -1,3 +1,4 @@
-def PlusPSLABreachCreateSOSet():
-    '''public PlusPSLABreachCreateSOSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPSLABreachCreateSOSet\n\n
+    (final MboServerInterface ms)\n
     '''

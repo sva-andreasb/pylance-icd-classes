@@ -1,12 +1,16 @@
-def NoAvailableTargetExceptionImpl():
-    '''public NoAvailableTargetExceptionImpl(final SelectionCriteria criteria, final String reason)
+def ():
+    '''returns NoAvailableTargetExceptionImpl\n\n
+    (final SelectionCriteria criteria, final String reason)\n
     '''
 def callbackWhenAvailable():
-    '''public void callbackWhenAvailable(final SelectionCallback callback, final Object handback)
+    '''returns None\n\n
+    callbackWhenAvailable(final SelectionCallback callback, final Object handback)\n
     '''
 def run():
-    '''public Object run()
+    '''returns Object\n\n
+    run()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

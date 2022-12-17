@@ -1,15 +1,20 @@
-def ContractSWLic():
-    '''public ContractSWLic(final MboSet ms)
+def ():
+    '''returns ContractSWLic\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setContractTypeEditibility():
-    '''public void setContractTypeEditibility()
+    '''returns None\n\n
+    setContractTypeEditibility()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''

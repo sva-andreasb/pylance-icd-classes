@@ -1,6 +1,8 @@
-def PlusPToBeBilledTr():
-    '''public PlusPToBeBilledTr(final MboSet ms)
+def ():
+    '''returns PlusPToBeBilledTr\n\n
+    (final MboSet ms)\n
     '''
 def restoreBillLineTransaction():
-    '''public void restoreBillLineTransaction(final MboRemote mboRemote, final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    restoreBillLineTransaction(final MboRemote mboRemote, final MboSetRemote mboSetRemote)\n
     '''

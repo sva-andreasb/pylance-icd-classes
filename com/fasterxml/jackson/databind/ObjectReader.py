@@ -1,154 +1,148 @@
 def version():
-    '''public Version version()
+    '''returns Version\n\n
+    version()\n
     '''
 def with():
-    '''public ObjectReader with(final DeserializationFeature feature)
-    public ObjectReader with(final DeserializationFeature first, final DeserializationFeature... other)
-    public ObjectReader with(final JsonParser.Feature feature)
-    public ObjectReader with(final FormatFeature feature)
-    public ObjectReader with(final DeserializationConfig config)
-    public ObjectReader with(final InjectableValues injectableValues)
-    public ObjectReader with(final JsonNodeFactory f)
-    public ObjectReader with(final JsonFactory f)
-    public ObjectReader with(final FormatSchema schema)
-    public ObjectReader with(final Locale l)
-    public ObjectReader with(final TimeZone tz)
-    public ObjectReader with(final Base64Variant defaultBase64)
-    public ObjectReader with(final ContextAttributes attrs)
+    '''returns ObjectReader\n\n
+    with(final DeserializationFeature feature)\n
+    with(final DeserializationFeature first, final DeserializationFeature... other)\n
+    with(final JsonParser.Feature feature)\n
+    with(final FormatFeature feature)\n
+    with(final DeserializationConfig config)\n
+    with(final InjectableValues injectableValues)\n
+    with(final JsonNodeFactory f)\n
+    with(final JsonFactory f)\n
+    with(final FormatSchema schema)\n
+    with(final Locale l)\n
+    with(final TimeZone tz)\n
+    with(final Base64Variant defaultBase64)\n
+    with(final ContextAttributes attrs)\n
     '''
 def withFeatures():
-    '''public ObjectReader withFeatures(final DeserializationFeature... features)
-    public ObjectReader withFeatures(final JsonParser.Feature... features)
-    public ObjectReader withFeatures(final FormatFeature... features)
+    '''returns ObjectReader\n\n
+    withFeatures(final DeserializationFeature... features)\n
+    withFeatures(final JsonParser.Feature... features)\n
+    withFeatures(final FormatFeature... features)\n
     '''
 def without():
-    '''public ObjectReader without(final DeserializationFeature feature)
-    public ObjectReader without(final DeserializationFeature first, final DeserializationFeature... other)
-    public ObjectReader without(final JsonParser.Feature feature)
-    public ObjectReader without(final FormatFeature feature)
+    '''returns ObjectReader\n\n
+    without(final DeserializationFeature feature)\n
+    without(final DeserializationFeature first, final DeserializationFeature... other)\n
+    without(final JsonParser.Feature feature)\n
+    without(final FormatFeature feature)\n
     '''
 def withoutFeatures():
-    '''public ObjectReader withoutFeatures(final DeserializationFeature... features)
-    public ObjectReader withoutFeatures(final JsonParser.Feature... features)
-    public ObjectReader withoutFeatures(final FormatFeature... features)
+    '''returns ObjectReader\n\n
+    withoutFeatures(final DeserializationFeature... features)\n
+    withoutFeatures(final JsonParser.Feature... features)\n
+    withoutFeatures(final FormatFeature... features)\n
     '''
 def at():
-    '''public ObjectReader at(final String value)
-    public ObjectReader at(final JsonPointer pointer)
+    '''returns ObjectReader\n\n
+    at(final String value)\n
+    at(final JsonPointer pointer)\n
     '''
 def withRootName():
-    '''public ObjectReader withRootName(final String rootName)
-    public ObjectReader withRootName(final PropertyName rootName)
+    '''returns ObjectReader\n\n
+    withRootName(final String rootName)\n
+    withRootName(final PropertyName rootName)\n
     '''
 def withoutRootName():
-    '''public ObjectReader withoutRootName()
+    '''returns ObjectReader\n\n
+    withoutRootName()\n
     '''
 def forType():
-    '''public ObjectReader forType(final JavaType valueType)
-    public ObjectReader forType(final Class<?> valueType)
-    public ObjectReader forType(final TypeReference<?> valueTypeRef)
+    '''returns ObjectReader\n\n
+    forType(final JavaType valueType)\n
+    forType(final Class<?> valueType)\n
+    forType(final TypeReference<?> valueTypeRef)\n
     '''
 def withType():
-    '''public ObjectReader withType(final JavaType valueType)
-    public ObjectReader withType(final Class<?> valueType)
-    public ObjectReader withType(final Type valueType)
-    public ObjectReader withType(final TypeReference<?> valueTypeRef)
+    '''returns ObjectReader\n\n
+    withType(final JavaType valueType)\n
+    withType(final Class<?> valueType)\n
+    withType(final Type valueType)\n
+    withType(final TypeReference<?> valueTypeRef)\n
     '''
 def withValueToUpdate():
-    '''public ObjectReader withValueToUpdate(final Object value)
+    '''returns ObjectReader\n\n
+    withValueToUpdate(final Object value)\n
     '''
 def withView():
-    '''public ObjectReader withView(final Class<?> activeView)
+    '''returns ObjectReader\n\n
+    withView(final Class<?> activeView)\n
     '''
 def withHandler():
-    '''public ObjectReader withHandler(final DeserializationProblemHandler h)
+    '''returns ObjectReader\n\n
+    withHandler(final DeserializationProblemHandler h)\n
     '''
 def withFormatDetection():
-    '''public ObjectReader withFormatDetection(final ObjectReader... readers)
-    public ObjectReader withFormatDetection(final DataFormatReaders readers)
+    '''returns ObjectReader\n\n
+    withFormatDetection(final ObjectReader... readers)\n
+    withFormatDetection(final DataFormatReaders readers)\n
     '''
 def withAttributes():
-    '''public ObjectReader withAttributes(final Map<?, ?> attrs)
+    '''returns ObjectReader\n\n
+    withAttributes(final Map<?, ?> attrs)\n
     '''
 def withAttribute():
-    '''public ObjectReader withAttribute(final Object key, final Object value)
+    '''returns ObjectReader\n\n
+    withAttribute(final Object key, final Object value)\n
     '''
 def withoutAttribute():
-    '''public ObjectReader withoutAttribute(final Object key)
+    '''returns ObjectReader\n\n
+    withoutAttribute(final Object key)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final DeserializationFeature f)
-    public boolean isEnabled(final MapperFeature f)
-    public boolean isEnabled(final JsonParser.Feature f)
+    '''returns boolean\n\n
+    isEnabled(final DeserializationFeature f)\n
+    isEnabled(final MapperFeature f)\n
+    isEnabled(final JsonParser.Feature f)\n
     '''
 def getConfig():
-    '''public DeserializationConfig getConfig()
+    '''returns DeserializationConfig\n\n
+    getConfig()\n
     '''
 def getFactory():
-    '''public JsonFactory getFactory()
+    '''returns JsonFactory\n\n
+    getFactory()\n
     '''
 def getTypeFactory():
-    '''public TypeFactory getTypeFactory()
+    '''returns TypeFactory\n\n
+    getTypeFactory()\n
     '''
 def getAttributes():
-    '''public ContextAttributes getAttributes()
+    '''returns ContextAttributes\n\n
+    getAttributes()\n
     '''
 def getInjectableValues():
-    '''public InjectableValues getInjectableValues()
-    '''
-def readValue():
-    '''public <T> T readValue(final JsonParser p)
-    public <T> T readValue(final JsonParser p, final Class<T> valueType)
-    public <T> T readValue(final JsonParser p, final TypeReference<?> valueTypeRef)
-    public <T> T readValue(final JsonParser p, final ResolvedType valueType)
-    public <T> T readValue(final JsonParser p, final JavaType valueType)
-    public <T> T readValue(final InputStream src)
-    public <T> T readValue(final Reader src)
-    public <T> T readValue(final String src)
-    public <T> T readValue(final byte[] src)
-    public <T> T readValue(final byte[] src, final int offset, final int length)
-    public <T> T readValue(final File src)
-    public <T> T readValue(final URL src)
-    public <T> T readValue(final JsonNode src)
-    public <T> T readValue(final DataInput src)
-    '''
-def readValues():
-    '''public <T> Iterator<T> readValues(final JsonParser p, final Class<T> valueType)
-    public <T> Iterator<T> readValues(final JsonParser p, final TypeReference<?> valueTypeRef)
-    public <T> Iterator<T> readValues(final JsonParser p, final ResolvedType valueType)
-    public <T> Iterator<T> readValues(final JsonParser p, final JavaType valueType)
-    public <T> MappingIterator<T> readValues(final JsonParser p)
-    public <T> MappingIterator<T> readValues(final InputStream src)
-    public <T> MappingIterator<T> readValues(final Reader src)
-    public <T> MappingIterator<T> readValues(final String json)
-    public <T> MappingIterator<T> readValues(final byte[] src, final int offset, final int length)
-    public final <T> MappingIterator<T> readValues(final byte[] src)
-    public <T> MappingIterator<T> readValues(final File src)
-    public <T> MappingIterator<T> readValues(final URL src)
-    public <T> MappingIterator<T> readValues(final DataInput src)
+    '''returns InjectableValues\n\n
+    getInjectableValues()\n
     '''
 def createArrayNode():
-    '''public JsonNode createArrayNode()
+    '''returns JsonNode\n\n
+    createArrayNode()\n
     '''
 def createObjectNode():
-    '''public JsonNode createObjectNode()
+    '''returns JsonNode\n\n
+    createObjectNode()\n
     '''
 def treeAsTokens():
-    '''public JsonParser treeAsTokens(final TreeNode n)
-    '''
-def readTree():
-    '''public <T extends TreeNode> T readTree(final JsonParser p)
-    public JsonNode readTree(final InputStream in)
-    public JsonNode readTree(final Reader r)
-    public JsonNode readTree(final String json)
-    public JsonNode readTree(final DataInput src)
+    '''returns JsonParser\n\n
+    treeAsTokens(final TreeNode n)\n
     '''
 def writeTree():
-    '''public void writeTree(final JsonGenerator g, final TreeNode rootNode)
+    '''returns None\n\n
+    writeTree(final JsonGenerator g, final TreeNode rootNode)\n
     '''
-def treeToValue():
-    '''public <T> T treeToValue(final TreeNode n, final Class<T> valueType)
+def readTree():
+    '''returns JsonNode\n\n
+    readTree(final InputStream in)\n
+    readTree(final Reader r)\n
+    readTree(final String json)\n
+    readTree(final DataInput src)\n
     '''
 def writeValue():
-    '''public void writeValue(final JsonGenerator gen, final Object value)
+    '''returns None\n\n
+    writeValue(final JsonGenerator gen, final Object value)\n
     '''

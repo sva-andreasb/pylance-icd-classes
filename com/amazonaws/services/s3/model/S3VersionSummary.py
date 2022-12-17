@@ -1,60 +1,80 @@
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def getVersionId():
-    '''public String getVersionId()
+    '''returns String\n\n
+    getVersionId()\n
     '''
 def setVersionId():
-    '''public void setVersionId(final String id)
+    '''returns None\n\n
+    setVersionId(final String id)\n
     '''
 def isLatest():
-    '''public boolean isLatest()
+    '''returns boolean\n\n
+    isLatest()\n
     '''
 def setIsLatest():
-    '''public void setIsLatest(final boolean isLatest)
+    '''returns None\n\n
+    setIsLatest(final boolean isLatest)\n
     '''
 def getLastModified():
-    '''public Date getLastModified()
+    '''returns Date\n\n
+    getLastModified()\n
     '''
 def setLastModified():
-    '''public void setLastModified(final Date lastModified)
+    '''returns None\n\n
+    setLastModified(final Date lastModified)\n
     '''
 def getOwner():
-    '''public Owner getOwner()
+    '''returns Owner\n\n
+    getOwner()\n
     '''
 def setOwner():
-    '''public void setOwner(final Owner owner)
+    '''returns None\n\n
+    setOwner(final Owner owner)\n
     '''
 def isDeleteMarker():
-    '''public boolean isDeleteMarker()
+    '''returns boolean\n\n
+    isDeleteMarker()\n
     '''
 def setIsDeleteMarker():
-    '''public void setIsDeleteMarker(final boolean isDeleteMarker)
+    '''returns None\n\n
+    setIsDeleteMarker(final boolean isDeleteMarker)\n
     '''
 def getETag():
-    '''public String getETag()
+    '''returns String\n\n
+    getETag()\n
     '''
 def setETag():
-    '''public void setETag(final String eTag)
+    '''returns None\n\n
+    setETag(final String eTag)\n
     '''
 def getStorageClass():
-    '''public String getStorageClass()
+    '''returns String\n\n
+    getStorageClass()\n
     '''
 def setStorageClass():
-    '''public void setStorageClass(final String storageClass)
+    '''returns None\n\n
+    setStorageClass(final String storageClass)\n
     '''
 def getSize():
-    '''public long getSize()
+    '''returns long\n\n
+    getSize()\n
     '''
 def setSize():
-    '''public void setSize(final long size)
+    '''returns None\n\n
+    setSize(final long size)\n
     '''

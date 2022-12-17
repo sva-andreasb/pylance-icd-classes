@@ -1,321 +1,425 @@
-def InvUseLine():
-    '''public InvUseLine(final MboSet ms)
+def ():
+    '''returns InvUseLine\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def isIssue():
-    '''public boolean isIssue()
+    '''returns boolean\n\n
+    isIssue()\n
     '''
 def isReturn():
-    '''public boolean isReturn()
+    '''returns boolean\n\n
+    isReturn()\n
     '''
 def isMixed():
-    '''public boolean isMixed()
+    '''returns boolean\n\n
+    isMixed()\n
     '''
 def isTransfer():
-    '''public boolean isTransfer()
+    '''returns boolean\n\n
+    isTransfer()\n
     '''
 def isRotating():
-    '''public boolean isRotating()
+    '''returns boolean\n\n
+    isRotating()\n
     '''
 def isLotted():
-    '''public boolean isLotted()
+    '''returns boolean\n\n
+    isLotted()\n
     '''
 def isTool():
-    '''public boolean isTool()
+    '''returns boolean\n\n
+    isTool()\n
     '''
 def getSharedInventory():
-    '''public MboRemote getSharedInventory()
-    public MboRemote getSharedInventory(final String storeLoc, final String siteid)
+    '''returns MboRemote\n\n
+    getSharedInventory()\n
+    getSharedInventory(final String storeLoc, final String siteid)\n
     '''
 def getSharedInvBalance():
-    '''public MboRemote getSharedInvBalance()
-    public MboRemote getSharedInvBalance(final String binnum, final String lotnum)
-    public MboRemote getSharedInvBalance(final String binnum, final String lotnum, final boolean sameBin)
-    public MboRemote getSharedInvBalance(final String binnum, final String lotnum, final String storeloc, final String siteid)
+    '''returns MboRemote\n\n
+    getSharedInvBalance()\n
+    getSharedInvBalance(final String binnum, final String lotnum)\n
+    getSharedInvBalance(final String binnum, final String lotnum, final boolean sameBin)\n
+    getSharedInvBalance(final String binnum, final String lotnum, final String storeloc, final String siteid)\n
     '''
 def setIssueForThisReturn():
-    '''public void setIssueForThisReturn(final MboRemote issue)
+    '''returns None\n\n
+    setIssueForThisReturn(final MboRemote issue)\n
     '''
 def getWO():
-    '''public MboRemote getWO()
+    '''returns MboRemote\n\n
+    getWO()\n
     '''
 def validateInvUseLine():
-    '''public void validateInvUseLine(final ArrayList<InvUseLineSplitRemote> splitList)
+    '''returns None\n\n
+    validateInvUseLine(final ArrayList<InvUseLineSplitRemote> splitList)\n
     '''
 def preValidateLine():
-    '''public void preValidateLine()
+    '''returns None\n\n
+    preValidateLine()\n
     '''
 def validateLine():
-    '''public void validateLine()
+    '''returns None\n\n
+    validateLine()\n
     '''
 def checkInvBal():
-    '''public void checkInvBal(final MboRemote invBal, final String parentInvUseStatus)
+    '''returns None\n\n
+    checkInvBal(final MboRemote invBal, final String parentInvUseStatus)\n
     '''
 def checkLotExpiry():
-    '''public void checkLotExpiry(final MboRemote invBal, final ItemRemote item)
+    '''returns None\n\n
+    checkLotExpiry(final MboRemote invBal, final ItemRemote item)\n
     '''
 def checkAssetWOLocValidate():
-    '''public void checkAssetWOLocValidate()
+    '''returns None\n\n
+    checkAssetWOLocValidate()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def getBinNumFlag():
-    '''public boolean getBinNumFlag()
+    '''returns boolean\n\n
+    getBinNumFlag()\n
     '''
 def setBinNumFlag():
-    '''public void setBinNumFlag(final boolean binNumFlag)
+    '''returns None\n\n
+    setBinNumFlag(final boolean binNumFlag)\n
     '''
 def addUpdateInvUseLineSplit():
-    '''public MboRemote addUpdateInvUseLineSplit()
+    '''returns MboRemote\n\n
+    addUpdateInvUseLineSplit()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def setPickListStatus():
-    '''public void setPickListStatus(final MboRemote owner)
+    '''returns None\n\n
+    setPickListStatus(final MboRemote owner)\n
     '''
 def setInvUseStatus():
-    '''public void setInvUseStatus(final MboRemote owner)
+    '''returns None\n\n
+    setInvUseStatus(final MboRemote owner)\n
     '''
 def isPLActionApplied():
-    '''public boolean isPLActionApplied(final String action)
+    '''returns boolean\n\n
+    isPLActionApplied(final String action)\n
     '''
 def chkPickListMbo():
-    '''public boolean chkPickListMbo(final MboRemote owner)
+    '''returns boolean\n\n
+    chkPickListMbo(final MboRemote owner)\n
     '''
 def updateAutoCreatedInvUseLineSplit():
-    '''public MboRemote updateAutoCreatedInvUseLineSplit()
+    '''returns MboRemote\n\n
+    updateAutoCreatedInvUseLineSplit()\n
     '''
 def restockPickedQty():
-    '''public void restockPickedQty()
+    '''returns None\n\n
+    restockPickedQty()\n
     '''
 def restockStagedQty():
-    '''public void restockStagedQty()
+    '''returns None\n\n
+    restockStagedQty()\n
     '''
 def setStagingBin():
-    '''public void setStagingBin(final String binflag, final String stagingBin)
+    '''returns None\n\n
+    setStagingBin(final String binflag, final String stagingBin)\n
     '''
 def checkForNegativeBalance():
-    '''public void checkForNegativeBalance(final MboRemote invBal, final MboRemote invuselinesplit)
+    '''returns None\n\n
+    checkForNegativeBalance(final MboRemote invBal, final MboRemote invuselinesplit)\n
     '''
 def checkForNegativeAvlBalanceBeforeSplitting():
-    '''public void checkForNegativeAvlBalanceBeforeSplitting()
+    '''returns None\n\n
+    checkForNegativeAvlBalanceBeforeSplitting()\n
     '''
 def getSharedInvReserveSet():
-    '''public MboSetRemote getSharedInvReserveSet()
+    '''returns MboSetRemote\n\n
+    getSharedInvReserveSet()\n
     '''
 def updateInvBalances():
-    '''public void updateInvBalances(final MboRemote mbo, final double quantity, final String status)
+    '''returns None\n\n
+    updateInvBalances(final MboRemote mbo, final double quantity, final String status)\n
     '''
 def updateStagedInvBalances():
-    '''public void updateStagedInvBalances(final String status)
-    public void updateStagedInvBalances(final String status, final MboRemote mbo)
+    '''returns None\n\n
+    updateStagedInvBalances(final String status)\n
+    updateStagedInvBalances(final String status, final MboRemote mbo)\n
     '''
 def updateInvReservePendingQty():
-    '''public void updateInvReservePendingQty()
+    '''returns None\n\n
+    updateInvReservePendingQty()\n
     '''
 def updateInvReserveStagedQty():
-    '''public void updateInvReserveStagedQty()
-    public void updateInvReserveStagedQty(final MboRemote mbo)
+    '''returns None\n\n
+    updateInvReserveStagedQty()\n
+    updateInvReserveStagedQty(final MboRemote mbo)\n
     '''
 def updateInvReservePickedQty():
-    '''public void updateInvReservePickedQty(final MboRemote mbo)
+    '''returns None\n\n
+    updateInvReservePickedQty(final MboRemote mbo)\n
     '''
 def updateInvReserveActualQty():
-    '''public void updateInvReserveActualQty()
-    public void updateInvReserveActualQty(final boolean toUpdateWithNoRequestnum)
-    public void updateInvReserveActualQty(final boolean toUpdateWithNoRequestnum, final MboRemote mbo)
+    '''returns None\n\n
+    updateInvReserveActualQty()\n
+    updateInvReserveActualQty(final boolean toUpdateWithNoRequestnum)\n
+    updateInvReserveActualQty(final boolean toUpdateWithNoRequestnum, final MboRemote mbo)\n
     '''
 def updateInvReserveShippedQty():
-    '''public void updateInvReserveShippedQty()
+    '''returns None\n\n
+    updateInvReserveShippedQty()\n
     '''
 def updateInvReserveForCancel():
-    '''public void updateInvReserveForCancel()
+    '''returns None\n\n
+    updateInvReserveForCancel()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def checkReservationExist():
-    '''public boolean checkReservationExist()
+    '''returns boolean\n\n
+    checkReservationExist()\n
     '''
 def checkReservationExistForInfo():
-    '''public void checkReservationExistForInfo()
+    '''returns None\n\n
+    checkReservationExistForInfo()\n
     '''
 def checkIssueExist():
-    '''public boolean checkIssueExist()
+    '''returns boolean\n\n
+    checkIssueExist()\n
     '''
 def checkIssueExistForInfo():
-    '''public void checkIssueExistForInfo()
+    '''returns None\n\n
+    checkIssueExistForInfo()\n
     '''
 def updateInvUseLineForReservation():
-    '''public void updateInvUseLineForReservation(final MboRemote reservation)
+    '''returns None\n\n
+    updateInvUseLineForReservation(final MboRemote reservation)\n
     '''
 def updateInvUseLineForReturn():
-    '''public void updateInvUseLineForReturn(final MboRemote issuedItemForReturn)
+    '''returns None\n\n
+    updateInvUseLineForReturn(final MboRemote issuedItemForReturn)\n
     '''
 def addRecordForStageTransfer():
-    '''public void addRecordForStageTransfer(final MboSetRemote matrecMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit)
+    '''returns None\n\n
+    addRecordForStageTransfer(final MboSetRemote matrecMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit)\n
     '''
 def addMatRecTransRecordForPickTransfer():
-    '''public MboRemote addMatRecTransRecordForPickTransfer(final MboSetRemote matrecMboSet, final MboRemote mbo)
+    '''returns MboRemote\n\n
+    addMatRecTransRecordForPickTransfer(final MboSetRemote matrecMboSet, final MboRemote mbo)\n
     '''
 def addMatRecTransRecordForRestockTransfer():
-    '''public MboRemote addMatRecTransRecordForRestockTransfer(final MboSetRemote matrecMboSet, final MboRemote mbo)
+    '''returns MboRemote\n\n
+    addMatRecTransRecordForRestockTransfer(final MboSetRemote matrecMboSet, final MboRemote mbo)\n
     '''
 def addMatRecTransRecordForStageTransfer():
-    '''public MboRemote addMatRecTransRecordForStageTransfer(final MboSetRemote matrecMboSet, final MboRemote mbo)
+    '''returns MboRemote\n\n
+    addMatRecTransRecordForStageTransfer(final MboSetRemote matrecMboSet, final MboRemote mbo)\n
     '''
 def addRecordForShipTransfer():
-    '''public void addRecordForShipTransfer(final MboSetRemote matrecMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit)
+    '''returns None\n\n
+    addRecordForShipTransfer(final MboSetRemote matrecMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit)\n
     '''
 def addMatRecTransRecordForShipTransfer():
-    '''public MboRemote addMatRecTransRecordForShipTransfer(final MboSetRemote matrecMboSet, final MboRemote mbo)
+    '''returns MboRemote\n\n
+    addMatRecTransRecordForShipTransfer(final MboSetRemote matrecMboSet, final MboRemote mbo)\n
     '''
 def addTransferRecordForComplete():
-    '''public void addTransferRecordForComplete(final MboSetRemote matrecMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit)
+    '''returns None\n\n
+    addTransferRecordForComplete(final MboSetRemote matrecMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit)\n
     '''
 def addMatRecTransRecordForComplete():
-    '''public MboRemote addMatRecTransRecordForComplete(final MboSetRemote matrecMboSet, final MboRemote mbo)
+    '''returns MboRemote\n\n
+    addMatRecTransRecordForComplete(final MboSetRemote matrecMboSet, final MboRemote mbo)\n
     '''
 def addIssueReturnRecordForComplete():
-    '''public void addIssueReturnRecordForComplete(final MboSetRemote matrecMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit)
+    '''returns None\n\n
+    addIssueReturnRecordForComplete(final MboSetRemote matrecMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit)\n
     '''
 def addMatUseTransRecordForComplete():
-    '''public MboRemote addMatUseTransRecordForComplete(final MboSetRemote matuseMboSet, final MboRemote mbo)
+    '''returns MboRemote\n\n
+    addMatUseTransRecordForComplete(final MboSetRemote matuseMboSet, final MboRemote mbo)\n
     '''
 def addMatRecTransRecordForCancelStageTransfer():
-    '''public MboRemote addMatRecTransRecordForCancelStageTransfer()
+    '''returns MboRemote\n\n
+    addMatRecTransRecordForCancelStageTransfer()\n
     '''
 def addMatRecTransRecordForCancelShipTransfer():
-    '''public MboRemote addMatRecTransRecordForCancelShipTransfer()
+    '''returns MboRemote\n\n
+    addMatRecTransRecordForCancelShipTransfer()\n
     '''
 def getPO():
-    '''public MboRemote getPO()
+    '''returns MboRemote\n\n
+    getPO()\n
     '''
 def setOwnerPO():
-    '''public void setOwnerPO(final MboRemote po)
+    '''returns None\n\n
+    setOwnerPO(final MboRemote po)\n
     '''
 def getPOLine():
-    '''public MboRemote getPOLine()
+    '''returns MboRemote\n\n
+    getPOLine()\n
     '''
 def getTotalCurBalance():
-    '''public double getTotalCurBalance()
+    '''returns double\n\n
+    getTotalCurBalance()\n
     '''
 def getInvUseLineQtyForReturn():
-    '''public double getInvUseLineQtyForReturn(final long matusetransid)
+    '''returns double\n\n
+    getInvUseLineQtyForReturn(final long matusetransid)\n
     '''
 def getQtyForReturn():
-    '''public double getQtyForReturn()
+    '''returns double\n\n
+    getQtyForReturn()\n
     '''
 def updateUnitCost():
-    '''public void updateUnitCost()
+    '''returns None\n\n
+    updateUnitCost()\n
     '''
 def validateQty():
-    '''public boolean validateQty()
+    '''returns boolean\n\n
+    validateQty()\n
     '''
 def needsSplitting():
-    '''public boolean needsSplitting()
+    '''returns boolean\n\n
+    needsSplitting()\n
     '''
 def getDefaultLotNum():
-    '''public String getDefaultLotNum()
+    '''returns String\n\n
+    getDefaultLotNum()\n
     '''
 def canGoNegative():
-    '''public void canGoNegative(final UserInfo userInfo, final double toBeIssued, final double curbal, final double totalAvailable, final MboRemote sourceMbo)
-    public void canGoNegative(final UserInfo userInfo, final double toBeIssued, final double totalAvailable, final MboRemote sourceMbo)
+    '''returns None\n\n
+    canGoNegative(final UserInfo userInfo, final double toBeIssued, final double curbal, final double totalAvailable, final MboRemote sourceMbo)\n
+    canGoNegative(final UserInfo userInfo, final double toBeIssued, final double totalAvailable, final MboRemote sourceMbo)\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def checkItemStatus():
-    '''public void checkItemStatus()
+    '''returns None\n\n
+    checkItemStatus()\n
     '''
 def setReservationUserPref():
-    '''public void setReservationUserPref()
+    '''returns None\n\n
+    setReservationUserPref()\n
     '''
 def setReturnUserPref():
-    '''public void setReturnUserPref()
+    '''returns None\n\n
+    setReturnUserPref()\n
     '''
 def setUserPref():
-    '''public void setUserPref(final MboRemote mbo)
+    '''returns None\n\n
+    setUserPref(final MboRemote mbo)\n
     '''
 def getPendingQty():
-    '''public double getPendingQty(final String requestnum, final String siteid)
+    '''returns double\n\n
+    getPendingQty(final String requestnum, final String siteid)\n
     '''
 def smartFindByObjectName():
-    '''public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)\n
     '''
 def checkRotatingAssetExistInToSite():
-    '''public boolean checkRotatingAssetExistInToSite(final String rotassetnum, final MboRemote mbo)
+    '''returns boolean\n\n
+    checkRotatingAssetExistInToSite(final String rotassetnum, final MboRemote mbo)\n
     '''
 def updateAssetStatus():
-    '''public void updateAssetStatus(final String rotassetnum, final String status)
+    '''returns None\n\n
+    updateAssetStatus(final String rotassetnum, final String status)\n
     '''
 def updateReceiptsComplete():
-    '''public void updateReceiptsComplete()
+    '''returns None\n\n
+    updateReceiptsComplete()\n
     '''
 def updateReceivedQty():
-    '''public void updateReceivedQty(final double receivedQty)
+    '''returns None\n\n
+    updateReceivedQty(final double receivedQty)\n
     '''
 def updateReturnedQty():
-    '''public void updateReturnedQty(final double returnedQty)
+    '''returns None\n\n
+    updateReturnedQty(final double returnedQty)\n
     '''
 def isInspectionRequired():
-    '''public boolean isInspectionRequired()
+    '''returns boolean\n\n
+    isInspectionRequired()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def setDisplayUnitCost():
-    '''public void setDisplayUnitCost()
+    '''returns None\n\n
+    setDisplayUnitCost()\n
     '''
 def updateLifoFifoTable():
-    '''public void updateLifoFifoTable(final MboRemote invUseLineSplit)
+    '''returns None\n\n
+    updateLifoFifoTable(final MboRemote invUseLineSplit)\n
     '''
 def updateLifoFifoForCancelled():
-    '''public void updateLifoFifoForCancelled(final MboRemote useLine)
+    '''returns None\n\n
+    updateLifoFifoForCancelled(final MboRemote useLine)\n
     '''
 def addTransactionRecordsLIFOFIFO():
-    '''public void addTransactionRecordsLIFOFIFO(final MboSetRemote transMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit, final String status)
+    '''returns None\n\n
+    addTransactionRecordsLIFOFIFO(final MboSetRemote transMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit, final String status)\n
     '''
 def updateInvLifoFifoCostSet():
-    '''public double updateInvLifoFifoCostSet(final MboSetRemote transMboSet, MboRemote invUseLineSplit, final MboSetRemote invlifofifocostset, final String status)
+    '''returns double\n\n
+    updateInvLifoFifoCostSet(final MboSetRemote transMboSet, MboRemote invUseLineSplit, final MboSetRemote invlifofifocostset, final String status)\n
     '''
 def setAttributesEditibiltyForReturn():
-    '''public void setAttributesEditibiltyForReturn()
+    '''returns None\n\n
+    setAttributesEditibiltyForReturn()\n
     '''
 def allKitComponentsAreInTransferToStore():
-    '''public void allKitComponentsAreInTransferToStore()
+    '''returns None\n\n
+    allKitComponentsAreInTransferToStore()\n
     '''
 def updateMR():
-    '''public void updateMR(final MboRemote invReserve)
+    '''returns None\n\n
+    updateMR(final MboRemote invReserve)\n
     '''
 def getPhyscntDate():
-    '''public Date getPhyscntDate(Date phyCntDate, final Date actualDate)
+    '''returns Date\n\n
+    getPhyscntDate(Date phyCntDate, final Date actualDate)\n
     '''
 def getInvReserveInVector():
-    '''public InvReserveRemote getInvReserveInVector(final Vector v, final MboRemote thisInvReserve)
+    '''returns InvReserveRemote\n\n
+    getInvReserveInVector(final Vector v, final MboRemote thisInvReserve)\n
     '''
 def isSameStoreTransfer():
-    '''public boolean isSameStoreTransfer()
+    '''returns boolean\n\n
+    isSameStoreTransfer()\n
     '''
 def getInvUse():
-    '''public MboRemote getInvUse()
+    '''returns MboRemote\n\n
+    getInvUse()\n
     '''
 def setCancelInvUseLines():
-    '''public void setCancelInvUseLines(final boolean hasBeenCalled)
+    '''returns None\n\n
+    setCancelInvUseLines(final boolean hasBeenCalled)\n
     '''
 def setValue():
-    '''public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''returns None\n\n
+    setValue(final String attributeName, final String val, final long accessModifier)\n
     '''

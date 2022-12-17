@@ -1,69 +1,92 @@
-def BeanDeserializerBuilder():
-    '''public BeanDeserializerBuilder(final BeanDescription beanDesc, final DeserializationContext ctxt)
+def ():
+    '''returns BeanDeserializerBuilder\n\n
+    (final BeanDescription beanDesc, final DeserializationContext ctxt)\n
     '''
 def addOrReplaceProperty():
-    '''public void addOrReplaceProperty(final SettableBeanProperty prop, final boolean allowOverride)
+    '''returns None\n\n
+    addOrReplaceProperty(final SettableBeanProperty prop, final boolean allowOverride)\n
     '''
 def addProperty():
-    '''public void addProperty(final SettableBeanProperty prop)
+    '''returns None\n\n
+    addProperty(final SettableBeanProperty prop)\n
     '''
 def addBackReferenceProperty():
-    '''public void addBackReferenceProperty(final String referenceName, final SettableBeanProperty prop)
+    '''returns None\n\n
+    addBackReferenceProperty(final String referenceName, final SettableBeanProperty prop)\n
     '''
 def addInjectable():
-    '''public void addInjectable(final PropertyName propName, final JavaType propType, final Annotations contextAnnotations, final AnnotatedMember member, final Object valueId)
+    '''returns None\n\n
+    addInjectable(final PropertyName propName, final JavaType propType, final Annotations contextAnnotations, final AnnotatedMember member, final Object valueId)\n
     '''
 def addIgnorable():
-    '''public void addIgnorable(final String propName)
+    '''returns None\n\n
+    addIgnorable(final String propName)\n
     '''
 def addCreatorProperty():
-    '''public void addCreatorProperty(final SettableBeanProperty prop)
+    '''returns None\n\n
+    addCreatorProperty(final SettableBeanProperty prop)\n
     '''
 def setAnySetter():
-    '''public void setAnySetter(final SettableAnyProperty s)
+    '''returns None\n\n
+    setAnySetter(final SettableAnyProperty s)\n
     '''
 def setIgnoreUnknownProperties():
-    '''public void setIgnoreUnknownProperties(final boolean ignore)
+    '''returns None\n\n
+    setIgnoreUnknownProperties(final boolean ignore)\n
     '''
 def setValueInstantiator():
-    '''public void setValueInstantiator(final ValueInstantiator inst)
+    '''returns None\n\n
+    setValueInstantiator(final ValueInstantiator inst)\n
     '''
 def setObjectIdReader():
-    '''public void setObjectIdReader(final ObjectIdReader r)
+    '''returns None\n\n
+    setObjectIdReader(final ObjectIdReader r)\n
     '''
 def setPOJOBuilder():
-    '''public void setPOJOBuilder(final AnnotatedMethod buildMethod, final JsonPOJOBuilder.Value config)
+    '''returns None\n\n
+    setPOJOBuilder(final AnnotatedMethod buildMethod, final JsonPOJOBuilder.Value config)\n
     '''
 def getProperties():
-    '''public Iterator<SettableBeanProperty> getProperties()
+    '''returns Iterator<SettableBeanProperty>\n\n
+    getProperties()\n
     '''
 def findProperty():
-    '''public SettableBeanProperty findProperty(final PropertyName propertyName)
+    '''returns SettableBeanProperty\n\n
+    findProperty(final PropertyName propertyName)\n
     '''
 def hasProperty():
-    '''public boolean hasProperty(final PropertyName propertyName)
+    '''returns boolean\n\n
+    hasProperty(final PropertyName propertyName)\n
     '''
 def removeProperty():
-    '''public SettableBeanProperty removeProperty(final PropertyName name)
+    '''returns SettableBeanProperty\n\n
+    removeProperty(final PropertyName name)\n
     '''
 def getAnySetter():
-    '''public SettableAnyProperty getAnySetter()
+    '''returns SettableAnyProperty\n\n
+    getAnySetter()\n
     '''
 def getValueInstantiator():
-    '''public ValueInstantiator getValueInstantiator()
+    '''returns ValueInstantiator\n\n
+    getValueInstantiator()\n
     '''
 def getInjectables():
-    '''public List<ValueInjector> getInjectables()
+    '''returns List<ValueInjector>\n\n
+    getInjectables()\n
     '''
 def getObjectIdReader():
-    '''public ObjectIdReader getObjectIdReader()
+    '''returns ObjectIdReader\n\n
+    getObjectIdReader()\n
     '''
 def getBuildMethod():
-    '''public AnnotatedMethod getBuildMethod()
+    '''returns AnnotatedMethod\n\n
+    getBuildMethod()\n
     '''
 def hasIgnorable():
-    '''public boolean hasIgnorable(final String name)
+    '''returns boolean\n\n
+    hasIgnorable(final String name)\n
     '''
 def buildAbstract():
-    '''public AbstractDeserializer buildAbstract()
+    '''returns AbstractDeserializer\n\n
+    buildAbstract()\n
     '''

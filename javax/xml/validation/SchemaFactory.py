@@ -1,21 +1,22 @@
-def newInstance():
-    '''public static final SchemaFactory newInstance(final String s)
-    public static SchemaFactory newInstance(final String s, final String s2, ClassLoader contextClassLoader)
-    '''
 def getFeature():
-    '''public boolean getFeature(final String s)
+    '''returns boolean\n\n
+    getFeature(final String s)\n
     '''
 def setFeature():
-    '''public void setFeature(final String s, final boolean b)
+    '''returns None\n\n
+    setFeature(final String s, final boolean b)\n
     '''
 def setProperty():
-    '''public void setProperty(final String s, final Object o)
+    '''returns None\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''
 def newSchema():
-    '''public Schema newSchema(final Source source)
-    public Schema newSchema(final File file)
-    public Schema newSchema(final URL url)
+    '''returns Schema\n\n
+    newSchema(final Source source)\n
+    newSchema(final File file)\n
+    newSchema(final URL url)\n
     '''

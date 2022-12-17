@@ -1,33 +1,44 @@
-def XSDDuration():
-    '''public XSDDuration(final Object value)
+def ():
+    '''returns XSDDuration\n\n
+    (final Object value)\n
     '''
 def getYears():
-    '''public int getYears()
+    '''returns int\n\n
+    getYears()\n
     '''
 def getMonths():
-    '''public int getMonths()
+    '''returns int\n\n
+    getMonths()\n
     '''
 def getDays():
-    '''public int getDays()
+    '''returns int\n\n
+    getDays()\n
     '''
 def getHours():
-    '''public int getHours()
+    '''returns int\n\n
+    getHours()\n
     '''
 def getMinutes():
-    '''public int getMinutes()
+    '''returns int\n\n
+    getMinutes()\n
     '''
 def getFullSeconds():
-    '''public int getFullSeconds()
+    '''returns int\n\n
+    getFullSeconds()\n
     '''
 def getSeconds():
-    '''public double getSeconds()
+    '''returns double\n\n
+    getSeconds()\n
     '''
 def getBigSeconds():
-    '''public BigDecimal getBigSeconds()
+    '''returns BigDecimal\n\n
+    getBigSeconds()\n
     '''
 def getTimePart():
-    '''public double getTimePart()
+    '''returns double\n\n
+    getTimePart()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

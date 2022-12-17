@@ -1,3 +1,4 @@
 def parse():
-    '''public ExplicitMessageEncryptionElement parse(final XmlPullParser parser, final int initialDepth)
+    '''returns ExplicitMessageEncryptionElement\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

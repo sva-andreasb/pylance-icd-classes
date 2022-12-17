@@ -1,3 +1,4 @@
-def CreateRelationshipBean():
-    '''public CreateRelationshipBean()
+def ():
+    '''returns CreateRelationshipBean\n\n
+    ()\n
     '''

@@ -1,96 +1,95 @@
-def iriImplementation():
-    '''public static IRIFactory iriImplementation()
-    '''
-def uriImplementation():
-    '''public static IRIFactory uriImplementation()
-    '''
-def semanticWebImplementation():
-    '''public static IRIFactory semanticWebImplementation()
-    '''
-def jenaImplementation():
-    '''public static IRIFactory jenaImplementation()
-    '''
-def IRIFactory():
-    '''public IRIFactory()
-    public IRIFactory(final IRIFactory template)
+def ():
+    '''returns IRIFactory\n\n
+    ()\n
+    (final IRIFactory template)\n
     '''
 def setSameSchemeRelativeReferences():
-    '''public void setSameSchemeRelativeReferences(final String scheme)
+    '''returns None\n\n
+    setSameSchemeRelativeReferences(final String scheme)\n
     '''
 def allowUnwiseCharacters():
-    '''public void allowUnwiseCharacters()
+    '''returns None\n\n
+    allowUnwiseCharacters()\n
     '''
 def setQueryCharacterRestrictions():
-    '''public void setQueryCharacterRestrictions(final boolean restrict)
+    '''returns None\n\n
+    setQueryCharacterRestrictions(final boolean restrict)\n
     '''
 def setEncoding():
-    '''public void setEncoding(final String enc)
+    '''returns None\n\n
+    setEncoding(final String enc)\n
     '''
 def create():
-    '''public IRI create(final String scheme, final String userInfo, final String host, final int port, final String path, final String query, final String fragment)
-    public IRI create(final String scheme, final String authority, final String path, final String query, final String fragment)
+    '''returns IRI\n\n
+    create(final String scheme, final String userInfo, final String host, final int port, final String path, final String query, final String fragment)\n
+    create(final String scheme, final String authority, final String path, final String query, final String fragment)\n
     '''
 def construct():
-    '''public IRI construct(final String scheme, final String userInfo, final String host, final int port, final String path, final String query, final String fragment)
-    public IRI construct(final String scheme, final String authority, final String path, final String query, final String fragment)
+    '''returns IRI\n\n
+    construct(final String scheme, final String userInfo, final String host, final int port, final String path, final String query, final String fragment)\n
+    construct(final String scheme, final String authority, final String path, final String query, final String fragment)\n
     '''
 def isError():
-    '''public boolean isError(final int code)
+    '''returns boolean\n\n
+    isError(final int code)\n
     '''
 def isWarning():
-    '''public boolean isWarning(final int code)
+    '''returns boolean\n\n
+    isWarning(final int code)\n
     '''
 def setIsError():
-    '''public void setIsError(final int code, final boolean set)
+    '''returns None\n\n
+    setIsError(final int code, final boolean set)\n
     '''
 def setIsWarning():
-    '''public void setIsWarning(final int code, final boolean set)
+    '''returns None\n\n
+    setIsWarning(final int code, final boolean set)\n
     '''
 def ignoring():
-    '''public boolean ignoring(final int code)
+    '''returns boolean\n\n
+    ignoring(final int code)\n
     '''
 def useSpecificationURI():
-    '''public void useSpecificationURI(final boolean asErrors)
+    '''returns None\n\n
+    useSpecificationURI(final boolean asErrors)\n
     '''
 def useSpecificationIRI():
-    '''public void useSpecificationIRI(final boolean asErrors)
+    '''returns None\n\n
+    useSpecificationIRI(final boolean asErrors)\n
     '''
 def useSpecificationRDF():
-    '''public void useSpecificationRDF(final boolean asErrors)
+    '''returns None\n\n
+    useSpecificationRDF(final boolean asErrors)\n
     '''
 def useSpecificationXMLSchema():
-    '''public void useSpecificationXMLSchema(final boolean asErrors)
+    '''returns None\n\n
+    useSpecificationXMLSchema(final boolean asErrors)\n
     '''
 def useSpecificationXMLSystemID():
-    '''public void useSpecificationXMLSystemID(final boolean asErrors)
+    '''returns None\n\n
+    useSpecificationXMLSystemID(final boolean asErrors)\n
     '''
 def useSpecificationXLink():
-    '''public void useSpecificationXLink(final boolean asErrors)
+    '''returns None\n\n
+    useSpecificationXLink(final boolean asErrors)\n
     '''
 def shouldViolation():
-    '''public void shouldViolation(final boolean isError, final boolean isWarning)
+    '''returns None\n\n
+    shouldViolation(final boolean isError, final boolean isWarning)\n
     '''
 def securityViolation():
-    '''public void securityViolation(final boolean isError, final boolean isWarning)
+    '''returns None\n\n
+    securityViolation(final boolean isError, final boolean isWarning)\n
     '''
 def dnsViolation():
-    '''public void dnsViolation(final boolean isError, final boolean isWarning)
+    '''returns None\n\n
+    dnsViolation(final boolean isError, final boolean isWarning)\n
     '''
 def mintingViolation():
-    '''public void mintingViolation(final boolean isError, final boolean isWarning)
+    '''returns None\n\n
+    mintingViolation(final boolean isError, final boolean isWarning)\n
     '''
 def useSchemeSpecificRules():
-    '''public void useSchemeSpecificRules(final String scheme, final boolean asErrors)
-    '''
-def setJenaImplementation():
-    '''public static void setJenaImplementation(final IRIFactory jf)
-    '''
-def setIriImplementation():
-    '''public static void setIriImplementation(final IRIFactory iriF)
-    '''
-def setUriImplementation():
-    '''public static void setUriImplementation(final IRIFactory uriF)
-    '''
-def setSemanticWebImplementation():
-    '''public static void setSemanticWebImplementation(final IRIFactory sw)
+    '''returns None\n\n
+    useSchemeSpecificRules(final String scheme, final boolean asErrors)\n
     '''

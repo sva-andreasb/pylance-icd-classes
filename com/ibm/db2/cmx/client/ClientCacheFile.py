@@ -1,3 +1,4 @@
-def ClientCacheFile():
-    '''public ClientCacheFile(final String filePathAndName_, final int cmxOnDiskFormatLevel_)
+def ():
+    '''returns ClientCacheFile\n\n
+    (final String filePathAndName_, final int cmxOnDiskFormatLevel_)\n
     '''

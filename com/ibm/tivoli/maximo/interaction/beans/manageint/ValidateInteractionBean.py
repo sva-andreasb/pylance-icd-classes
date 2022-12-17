@@ -1,3 +1,4 @@
 def validint():
-    '''public int validint()
+    '''returns int\n\n
+    validint()\n
     '''

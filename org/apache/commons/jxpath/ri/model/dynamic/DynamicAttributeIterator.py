@@ -1,3 +1,4 @@
-def DynamicAttributeIterator():
-    '''public DynamicAttributeIterator(final PropertyOwnerPointer parent, final QName name)
+def ():
+    '''returns DynamicAttributeIterator\n\n
+    (final PropertyOwnerPointer parent, final QName name)\n
     '''

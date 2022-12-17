@@ -1,100 +1,128 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def getImpactedCI():
-    '''public Hashtable<String, Boolean> getImpactedCI()
-    '''
 def setImpactedCI():
-    '''public void setImpactedCI(final Hashtable<String, Boolean> impactedCI)
+    '''returns None\n\n
+    setImpactedCI(final Hashtable<String, Boolean> impactedCI)\n
     '''
-def CiNodeVisitor():
-    '''public CiNodeVisitor(final CiTopologyViewInfo model, final int maxNodeDepth, final int maxCiDepth, final int maxNodes, final boolean showEvents, final String application)
-    public CiNodeVisitor(final IlvDefaultSDMModel model, final int maxNodeDepth, final int maxCiDepth, final int maxNodes, final boolean showEvents, final String application)
+def ():
+    '''returns CiNodeVisitor\n\n
+    (final CiTopologyViewInfo model, final int maxNodeDepth, final int maxCiDepth, final int maxNodes, final boolean showEvents, final String application)\n
+    (final IlvDefaultSDMModel model, final int maxNodeDepth, final int maxCiDepth, final int maxNodes, final boolean showEvents, final String application)\n
     '''
 def atMaxNodeDepth():
-    '''public boolean atMaxNodeDepth()
+    '''returns boolean\n\n
+    atMaxNodeDepth()\n
     '''
 def maxNodesReached():
-    '''public boolean maxNodesReached()
+    '''returns boolean\n\n
+    maxNodesReached()\n
     '''
 def atMaxCiDepth():
-    '''public boolean atMaxCiDepth()
+    '''returns boolean\n\n
+    atMaxCiDepth()\n
     '''
 def notVisited():
-    '''public boolean notVisited(final String cinum)
+    '''returns boolean\n\n
+    notVisited(final String cinum)\n
     '''
 def push():
-    '''public void push(final String ciNum, final Object node)
-    public void push(final String ciNum, final HashSet<String> fromRelations, final HashSet<String> toRelations)
-    public void push(final String ciNum, final Object node, final HashSet<String> inRelations, final HashSet<String> outRelations)
+    '''returns None\n\n
+    push(final String ciNum, final Object node)\n
+    push(final String ciNum, final HashSet<String> fromRelations, final HashSet<String> toRelations)\n
+    push(final String ciNum, final Object node, final HashSet<String> inRelations, final HashSet<String> outRelations)\n
     '''
 def pop():
-    '''public void pop()
+    '''returns None\n\n
+    pop()\n
     '''
 def createNode_new():
-    '''public Object[] createNode_new(final MboRemote ciMbo, final String tag)
+    '''returns Object[]\n\n
+    createNode_new(final MboRemote ciMbo, final String tag)\n
     '''
 def createNode():
-    '''public Object[] createNode(final MboRemote ciMbo, final String tag)
+    '''returns Object[]\n\n
+    createNode(final MboRemote ciMbo, final String tag)\n
     '''
 def isCiImpacted():
-    '''public boolean isCiImpacted(final String cinum)
+    '''returns boolean\n\n
+    isCiImpacted(final String cinum)\n
     '''
 def createLink_new():
-    '''public void createLink_new(final Object from, final Object to, final String relation)
+    '''returns None\n\n
+    createLink_new(final Object from, final Object to, final String relation)\n
     '''
 def createLink():
-    '''public void createLink(final Object from, final Object to, final String relation)
+    '''returns None\n\n
+    createLink(final Object from, final Object to, final String relation)\n
     '''
 def createLinks_new():
-    '''public void createLinks_new(final Object node, final HashSet<String> inRelations, final HashSet<String> outRelations, final String tag, final boolean detailView)
+    '''returns None\n\n
+    createLinks_new(final Object node, final HashSet<String> inRelations, final HashSet<String> outRelations, final String tag, final boolean detailView)\n
     '''
 def createLinks():
-    '''public void createLinks(final Object node, final HashSet<String> inRelations, final HashSet<String> outRelations, final String tag, final boolean detailView)
+    '''returns None\n\n
+    createLinks(final Object node, final HashSet<String> inRelations, final HashSet<String> outRelations, final String tag, final boolean detailView)\n
     '''
 def getClassificationId():
-    '''public String getClassificationId(final MboRemote ciMbo)
+    '''returns String\n\n
+    getClassificationId(final MboRemote ciMbo)\n
     '''
 def isTopLevelCi():
-    '''public boolean isTopLevelCi(final MboRemote ciMbo)
+    '''returns boolean\n\n
+    isTopLevelCi(final MboRemote ciMbo)\n
     '''
 def getNodeImage():
-    '''public String getNodeImage(final MboRemote ciMbo)
+    '''returns String\n\n
+    getNodeImage(final MboRemote ciMbo)\n
     '''
 def getNodeToolTip():
-    '''public String getNodeToolTip(final MboRemote ciMbo, final boolean showStatus, final String ciNum, final String ciName)
+    '''returns String\n\n
+    getNodeToolTip(final MboRemote ciMbo, final boolean showStatus, final String ciNum, final String ciName)\n
     '''
 def getLinkToolTip():
-    '''public String getLinkToolTip(final String relations)
+    '''returns String\n\n
+    getLinkToolTip(final String relations)\n
     '''
 def getScheduledTasks():
-    '''public int getScheduledTasks(final MboRemote ciMbo)
+    '''returns int\n\n
+    getScheduledTasks(final MboRemote ciMbo)\n
     '''
 def getIncidentAndEventCounts():
-    '''public Object[] getIncidentAndEventCounts(final MboRemote ciMbo, final boolean mappedToOSLC)
+    '''returns Object[]\n\n
+    getIncidentAndEventCounts(final MboRemote ciMbo, final boolean mappedToOSLC)\n
     '''
 def getStatusToolTip():
-    '''public String getStatusToolTip(final MboRemote ciMbo, final String status)
+    '''returns String\n\n
+    getStatusToolTip(final MboRemote ciMbo, final String status)\n
     '''
 def getIncidentToolTip():
-    '''public String getIncidentToolTip(final MboRemote ciMbo, final String cinum, final String ciName, final int size, final int eventCount)
+    '''returns String\n\n
+    getIncidentToolTip(final MboRemote ciMbo, final String cinum, final String ciName, final int size, final int eventCount)\n
     '''
 def getInPrgTasksToolTip():
-    '''public String getInPrgTasksToolTip(final MboRemote ciMbo, final String cinum, final String ciName, final int size)
+    '''returns String\n\n
+    getInPrgTasksToolTip(final MboRemote ciMbo, final String cinum, final String ciName, final int size)\n
     '''
 def generateLinkId():
-    '''public String generateLinkId(final Object from, final Object to, final String relation)
+    '''returns String\n\n
+    generateLinkId(final Object from, final Object to, final String relation)\n
     '''
 def getModel():
-    '''public IlvDefaultSDMModel getModel()
+    '''returns IlvDefaultSDMModel\n\n
+    getModel()\n
     '''
 def getModel_new():
-    '''public CiTopologyViewInfo getModel_new()
+    '''returns CiTopologyViewInfo\n\n
+    getModel_new()\n
     '''
 def getBundle():
-    '''public ResourceBundle getBundle()
+    '''returns ResourceBundle\n\n
+    getBundle()\n
     '''
 def setBundle():
-    '''public void setBundle(final ResourceBundle bundle)
+    '''returns None\n\n
+    setBundle(final ResourceBundle bundle)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

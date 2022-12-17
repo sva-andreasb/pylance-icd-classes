@@ -1,6 +1,8 @@
-def ChatopsUserInfoDialogBean():
-    '''public ChatopsUserInfoDialogBean()
+def ():
+    '''returns ChatopsUserInfoDialogBean\n\n
+    ()\n
     '''
 def chatopsDialogOk():
-    '''public int chatopsDialogOk()
+    '''returns int\n\n
+    chatopsDialogOk()\n
     '''

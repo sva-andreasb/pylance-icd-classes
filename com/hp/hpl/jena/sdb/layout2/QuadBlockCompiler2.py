@@ -1,3 +1,4 @@
-def QuadBlockCompiler2():
-    '''public QuadBlockCompiler2(final SDBRequest request, final SlotCompiler slotCompiler)
+def ():
+    '''returns QuadBlockCompiler2\n\n
+    (final SDBRequest request, final SlotCompiler slotCompiler)\n
     '''

@@ -1,18 +1,24 @@
-def SKDViewerAppletExtensionInfo():
-    '''public SKDViewerAppletExtensionInfo()
+def ():
+    '''returns SKDViewerAppletExtensionInfo\n\n
+    ()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def compareTo():
-    '''public int compareTo(final SKDViewerAppletExtensionInfo o)
+    '''returns int\n\n
+    compareTo(final SKDViewerAppletExtensionInfo o)\n
     '''

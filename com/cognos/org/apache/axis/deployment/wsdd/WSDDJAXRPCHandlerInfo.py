@@ -1,25 +1,33 @@
-def WSDDJAXRPCHandlerInfo():
-    '''public WSDDJAXRPCHandlerInfo()
-    public WSDDJAXRPCHandlerInfo(final Element e)
+def ():
+    '''returns WSDDJAXRPCHandlerInfo\n\n
+    ()\n
+    (final Element e)\n
     '''
 def getHandlerClassName():
-    '''public String getHandlerClassName()
+    '''returns String\n\n
+    getHandlerClassName()\n
     '''
 def setHandlerClassName():
-    '''public void setHandlerClassName(final String classname)
+    '''returns None\n\n
+    setHandlerClassName(final String classname)\n
     '''
 def getHandlerMap():
-    '''public Map getHandlerMap()
+    '''returns Map\n\n
+    getHandlerMap()\n
     '''
 def setHandlerMap():
-    '''public void setHandlerMap(final Map map)
+    '''returns None\n\n
+    setHandlerMap(final Map map)\n
     '''
 def getHeaders():
-    '''public QName[] getHeaders()
+    '''returns QName[]\n\n
+    getHeaders()\n
     '''
 def setHeaders():
-    '''public void setHeaders(final QName[] headers)
+    '''returns None\n\n
+    setHeaders(final QName[] headers)\n
     '''
 def writeToContext():
-    '''public void writeToContext(final SerializationContext context)
+    '''returns None\n\n
+    writeToContext(final SerializationContext context)\n
     '''

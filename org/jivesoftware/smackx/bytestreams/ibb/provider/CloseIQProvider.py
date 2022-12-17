@@ -1,3 +1,4 @@
 def parse():
-    '''public Close parse(final XmlPullParser parser, final int initialDepth)
+    '''returns Close\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

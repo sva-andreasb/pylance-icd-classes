@@ -1,9 +1,12 @@
-def InvalidHelpSetContextException():
-    '''public InvalidHelpSetContextException(final String message, final HelpSet context, final HelpSet hs)
+def ():
+    '''returns InvalidHelpSetContextException\n\n
+    (final String message, final HelpSet context, final HelpSet hs)\n
     '''
 def getContext():
-    '''public HelpSet getContext()
+    '''returns HelpSet\n\n
+    getContext()\n
     '''
 def getHelpSet():
-    '''public HelpSet getHelpSet()
+    '''returns HelpSet\n\n
+    getHelpSet()\n
     '''

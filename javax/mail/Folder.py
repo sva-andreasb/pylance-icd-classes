@@ -2,84 +2,53 @@ HOLDS_MESSAGES = "int  1"
 HOLDS_FOLDERS = "int  2"
 READ_ONLY = "int  1"
 READ_WRITE = "int  2"
-def getDeletedMessageCount():
-    '''public synchronized int getDeletedMessageCount()
-    '''
 def getMode():
-    '''public int getMode()
-    '''
-def getNewMessageCount():
-    '''public synchronized int getNewMessageCount()
-    '''
-def getUnreadMessageCount():
-    '''public synchronized int getUnreadMessageCount()
+    '''returns int\n\n
+    getMode()\n
     '''
 def dispatch():
-    '''public void dispatch(final Object listener)
+    '''returns None\n\n
+    dispatch(final Object listener)\n
     '''
 def isSubscribed():
-    '''public boolean isSubscribed()
+    '''returns boolean\n\n
+    isSubscribed()\n
     '''
 def setSubscribed():
-    '''public void setSubscribed(final boolean subscribe)
+    '''returns None\n\n
+    setSubscribed(final boolean subscribe)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def setFlags():
-    '''public synchronized void setFlags(final int start, final int end, final Flags flag, final boolean value)
-    public synchronized void setFlags(final int[] msgnums, final Flags flag, final boolean value)
-    public synchronized void setFlags(final Message[] msgs, final Flags flag, final boolean value)
+    '''returns String\n\n
+    toString()\n
     '''
 def list():
-    '''public Folder[] list()
+    '''returns Folder[]\n\n
+    list()\n
     '''
 def listSubscribed():
-    '''public Folder[] listSubscribed()
-    public Folder[] listSubscribed(final String pattern)
-    '''
-def getMessages():
-    '''public synchronized Message[] getMessages()
-    public synchronized Message[] getMessages(final int start, final int end)
-    public synchronized Message[] getMessages(final int[] msgnums)
+    '''returns Folder[]\n\n
+    listSubscribed()\n
+    listSubscribed(final String pattern)\n
     '''
 def getStore():
-    '''public Store getStore()
+    '''returns Store\n\n
+    getStore()\n
     '''
 def getURLName():
-    '''public URLName getURLName()
-    '''
-def addConnectionListener():
-    '''public synchronized void addConnectionListener(final ConnectionListener l)
-    '''
-def removeConnectionListener():
-    '''public synchronized void removeConnectionListener(final ConnectionListener l)
-    '''
-def addFolderListener():
-    '''public synchronized void addFolderListener(final FolderListener l)
-    '''
-def removeFolderListener():
-    '''public synchronized void removeFolderListener(final FolderListener l)
-    '''
-def addMessageChangedListener():
-    '''public synchronized void addMessageChangedListener(final MessageChangedListener l)
-    '''
-def removeMessageChangedListener():
-    '''public synchronized void removeMessageChangedListener(final MessageChangedListener l)
-    '''
-def addMessageCountListener():
-    '''public synchronized void addMessageCountListener(final MessageCountListener l)
-    '''
-def removeMessageCountListener():
-    '''public synchronized void removeMessageCountListener(final MessageCountListener l)
+    '''returns URLName\n\n
+    getURLName()\n
     '''
 def fetch():
-    '''public void fetch(final Message[] msgs, final FetchProfile fp)
+    '''returns None\n\n
+    fetch(final Message[] msgs, final FetchProfile fp)\n
     '''
 def copyMessages():
-    '''public void copyMessages(final Message[] msgs, final Folder folder)
+    '''returns None\n\n
+    copyMessages(final Message[] msgs, final Folder folder)\n
     '''
 def search():
-    '''public Message[] search(final SearchTerm term)
-    public Message[] search(final SearchTerm term, final Message[] msgs)
+    '''returns Message[]\n\n
+    search(final SearchTerm term)\n
+    search(final SearchTerm term, final Message[] msgs)\n
     '''

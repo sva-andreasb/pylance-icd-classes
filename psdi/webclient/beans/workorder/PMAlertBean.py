@@ -1,3 +1,4 @@
 def doWork():
-    '''public int doWork()
+    '''returns int\n\n
+    doWork()\n
     '''

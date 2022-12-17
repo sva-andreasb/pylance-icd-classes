@@ -1,6 +1,8 @@
 def first():
-    '''public E first()
+    '''returns E\n\n
+    first()\n
     '''
 def last():
-    '''public E last()
+    '''returns E\n\n
+    last()\n
     '''

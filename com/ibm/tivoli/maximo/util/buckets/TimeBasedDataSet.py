@@ -1,12 +1,16 @@
-def TimeBasedDataSet():
-    '''public TimeBasedDataSet(final String name)
+def ():
+    '''returns TimeBasedDataSet\n\n
+    (final String name)\n
     '''
 def addData():
-    '''public void addData(final Date start, final Date end, final double value)
+    '''returns None\n\n
+    addData(final Date start, final Date end, final double value)\n
     '''
 def getData():
-    '''public List<DateRangeWithValue> getData()
+    '''returns List<DateRangeWithValue>\n\n
+    getData()\n
     '''
 def clearData():
-    '''public void clearData()
+    '''returns None\n\n
+    clearData()\n
     '''

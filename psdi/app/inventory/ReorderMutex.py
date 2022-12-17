@@ -1,3 +1,4 @@
-def ReorderMutex():
-    '''public ReorderMutex(final MboSet ms)
+def ():
+    '''returns ReorderMutex\n\n
+    (final MboSet ms)\n
     '''

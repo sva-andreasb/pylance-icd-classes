@@ -1,3 +1,4 @@
-def FldMaxTableCfgStoragePartition():
-    '''public FldMaxTableCfgStoragePartition(final MboValue mbv)
+def ():
+    '''returns FldMaxTableCfgStoragePartition\n\n
+    (final MboValue mbv)\n
     '''

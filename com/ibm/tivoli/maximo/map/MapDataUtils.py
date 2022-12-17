@@ -3,87 +3,99 @@ LNG_PROPERTY = "String  \"lng\""
 LAT_PROPERTY = "String  \"lat\""
 AUTOLOCATEDATA = "String  \"autolocate\""
 GISDATA = "String  \"gisdata\""
-def MapDataUtils():
-    '''public MapDataUtils()
-    '''
-def loadAttributesFromTemplate():
-    '''public Map<String, Integer> loadAttributesFromTemplate(final String template, final String objectName, final MboRemote appMbo, final UserInfo userInfo)
+def ():
+    '''returns MapDataUtils\n\n
+    ()\n
     '''
 def getLinearGraphicsbyWhereClause():
-    '''public List<Long> getLinearGraphicsbyWhereClause(final String whereClause, final String objectName, final MboRemote appMbo, final UserInfo userInfo)
+    '''returns List<Long>\n\n
+    getLinearGraphicsbyWhereClause(final String whereClause, final String objectName, final MboRemote appMbo, final UserInfo userInfo)\n
     '''
 def getLinearLayerGraphicInfo():
-    '''public String getLinearLayerGraphicInfo(final MboRemote mbo, final String objectname, final String relationship, final String msgTemplate, final String mapName, final UserInfo userinfo, final Map<String, String> attributes)
+    '''returns String\n\n
+    getLinearLayerGraphicInfo(final MboRemote mbo, final String objectname, final String relationship, final String msgTemplate, final String mapName, final UserInfo userinfo, final Map<String, String> attributes)\n
     '''
 def deleteLinearSegment():
-    '''public String deleteLinearSegment(final MboRemote appMbo, final String objectName, final String relationship, final Map<String, String> attributes, final UserInfo userinfo)
+    '''returns String\n\n
+    deleteLinearSegment(final MboRemote appMbo, final String objectName, final String relationship, final Map<String, String> attributes, final UserInfo userinfo)\n
     '''
 def getGISData():
-    '''public JSONObject getGISData(final MboRemote currentMbo)
+    '''returns JSONObject\n\n
+    getGISData(final MboRemote currentMbo)\n
     '''
 def getGISDataFromGisable():
-    '''public JSONObject getGISDataFromGisable(final GISable gisMbo)
+    '''returns JSONObject\n\n
+    getGISDataFromGisable(final GISable gisMbo)\n
     '''
 def getLBSData():
-    '''public JSONObject getLBSData(final MboRemote currentMbo)
+    '''returns JSONObject\n\n
+    getLBSData(final MboRemote currentMbo)\n
     '''
 def getMXData():
-    '''public JSONObject getMXData(final MboRemote currentMbo)
+    '''returns JSONObject\n\n
+    getMXData(final MboRemote currentMbo)\n
     '''
 def getParamsAsJsonObject():
-    '''public JSONObject getParamsAsJsonObject(final String jsonAsString)
+    '''returns JSONObject\n\n
+    getParamsAsJsonObject(final String jsonAsString)\n
     '''
 def getParamsAsJsonArray():
-    '''public JSONArray getParamsAsJsonArray(final String jsonAsString)
+    '''returns JSONArray\n\n
+    getParamsAsJsonArray(final String jsonAsString)\n
     '''
 def getMboSetAsJSONArray():
-    '''public JSONArray getMboSetAsJSONArray(final MboSetRemote mboSet)
+    '''returns JSONArray\n\n
+    getMboSetAsJSONArray(final MboSetRemote mboSet)\n
     '''
 def getMboAsJSONObject():
-    '''public JSONObject getMboAsJSONObject(final MboRemote mbo)
+    '''returns JSONObject\n\n
+    getMboAsJSONObject(final MboRemote mbo)\n
     '''
 def setGisableAttributes():
-    '''public void setGisableAttributes(final MboRemote mbo, final JSONObject recordData, final JSONObject gisData)
+    '''returns None\n\n
+    setGisableAttributes(final MboRemote mbo, final JSONObject recordData, final JSONObject gisData)\n
     '''
 def setJSONAutoLocateAttributes():
-    '''public Boolean setJSONAutoLocateAttributes(final MboRemote mbo, final JSONObject recordData)
+    '''returns Boolean\n\n
+    setJSONAutoLocateAttributes(final MboRemote mbo, final JSONObject recordData)\n
     '''
 def hasIfAnyGISInfo():
-    '''public boolean hasIfAnyGISInfo(final JSONObject recordData)
-    '''
-def getAllSymbologyAttributes():
-    '''public static Map<String, Set<String>> getAllSymbologyAttributes(final UserInfo userInfo, final MboRemote mapManager)
-    '''
-def getSymbologyConfigObject():
-    '''public static JSONObject getSymbologyConfigObject(final UserInfo userInfo, MboRemote mapManager)
+    '''returns boolean\n\n
+    hasIfAnyGISInfo(final JSONObject recordData)\n
     '''
 def getObjectNameFromRecordData():
-    '''public String getObjectNameFromRecordData(final JSONObject recordData)
+    '''returns String\n\n
+    getObjectNameFromRecordData(final JSONObject recordData)\n
     '''
 def getObjectIdFromRecordData():
-    '''public Long getObjectIdFromRecordData(final JSONObject recordData)
+    '''returns Long\n\n
+    getObjectIdFromRecordData(final JSONObject recordData)\n
     '''
 def getMapTipData():
-    '''public String getMapTipData(final MboRemote mbo, final String mboName, final String templateField, final UserInfo userInfo, final JSONArray mapTipOverrides)
+    '''returns String\n\n
+    getMapTipData(final MboRemote mbo, final String mboName, final String templateField, final UserInfo userInfo, final JSONArray mapTipOverrides)\n
     '''
 def getMinimumLastUpdateTimestamp():
-    '''public Date getMinimumLastUpdateTimestamp()
+    '''returns Date\n\n
+    getMinimumLastUpdateTimestamp()\n
     '''
 def clearMapTipTemplateCache():
-    '''public void clearMapTipTemplateCache()
+    '''returns None\n\n
+    clearMapTipTemplateCache()\n
     '''
 def getLBSAuditData():
-    '''public JSONArray getLBSAuditData(final MboRemote currentMbo, final Date startDate, final Date endDate)
+    '''returns JSONArray\n\n
+    getLBSAuditData(final MboRemote currentMbo, final Date startDate, final Date endDate)\n
     '''
 def convertMeasure():
-    '''public double convertMeasure(final double measure, final String unitSource, final String unitDestiny)
+    '''returns double\n\n
+    convertMeasure(final double measure, final String unitSource, final String unitDestiny)\n
     '''
 def setPopulateRelatedAttributes():
-    '''public void setPopulateRelatedAttributes(final boolean isPopulateRelatedAttributes)
-    '''
-def isLinearInstalled():
-    '''public static boolean isLinearInstalled()
+    '''returns None\n\n
+    setPopulateRelatedAttributes(final boolean isPopulateRelatedAttributes)\n
     '''
 def calculateLinearTargetSegment():
-    '''public JSONObject calculateLinearTargetSegment(final MboRemote appMbo, final String mapMeasureUnit, final JSONObject linearObjTarget)
+    '''returns JSONObject\n\n
+    calculateLinearTargetSegment(final MboRemote appMbo, final String mapMeasureUnit, final JSONObject linearObjTarget)\n
     '''

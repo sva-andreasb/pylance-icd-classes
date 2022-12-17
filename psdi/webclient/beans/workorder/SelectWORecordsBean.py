@@ -1,21 +1,20 @@
 def needssave():
-    '''public int needssave()
+    '''returns int\n\n
+    needssave()\n
     '''
 def selectallworkorders():
-    '''public int selectallworkorders()
+    '''returns int\n\n
+    selectallworkorders()\n
     '''
 def chldstatus():
-    '''public int chldstatus()
+    '''returns int\n\n
+    chldstatus()\n
     '''
 def addrow():
-    '''public int addrow()
-    '''
-def insert():
-    '''public synchronized void insert(final int nRow)
-    '''
-def insertAtEnd():
-    '''public synchronized void insertAtEnd()
+    '''returns int\n\n
+    addrow()\n
     '''
 def toggledeleterow():
-    '''public int toggledeleterow()
+    '''returns int\n\n
+    toggledeleterow()\n
     '''

@@ -1,84 +1,112 @@
 def applicationEventReceived():
-    '''public void applicationEventReceived(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    applicationEventReceived(final ApplicationEvent applicationEvent)\n
     '''
 def documentInitializing():
-    '''public void documentInitializing(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    documentInitializing(final ApplicationEvent applicationEvent)\n
     '''
 def documentCreated():
-    '''public void documentCreated(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    documentCreated(final ApplicationEvent applicationEvent)\n
     '''
 def documentClosing():
-    '''public void documentClosing(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    documentClosing(final ApplicationEvent applicationEvent)\n
     '''
 def documentClosed():
-    '''public void documentClosed(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    documentClosed(final ApplicationEvent applicationEvent)\n
     '''
 def documentActivated():
-    '''public void documentActivated(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    documentActivated(final ApplicationEvent applicationEvent)\n
     '''
 def documentDeactivated():
-    '''public void documentDeactivated(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    documentDeactivated(final ApplicationEvent applicationEvent)\n
     '''
 def documentSaved():
-    '''public void documentSaved(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    documentSaved(final ApplicationEvent applicationEvent)\n
     '''
 def documentTemplateActivated():
-    '''public void documentTemplateActivated(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    documentTemplateActivated(final ApplicationEvent applicationEvent)\n
     '''
 def documentTemplateDeactivated():
-    '''public void documentTemplateDeactivated(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    documentTemplateDeactivated(final ApplicationEvent applicationEvent)\n
     '''
 def documentViewCreated():
-    '''public void documentViewCreated(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    documentViewCreated(final ApplicationEvent applicationEvent)\n
     '''
 def documentViewInitialized():
-    '''public void documentViewInitialized(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    documentViewInitialized(final ApplicationEvent applicationEvent)\n
     '''
 def documentViewClosing():
-    '''public void documentViewClosing(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    documentViewClosing(final ApplicationEvent applicationEvent)\n
     '''
 def documentViewClosed():
-    '''public void documentViewClosed(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    documentViewClosed(final ApplicationEvent applicationEvent)\n
     '''
 def documentViewActivated():
-    '''public void documentViewActivated(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    documentViewActivated(final ApplicationEvent applicationEvent)\n
     '''
 def documentViewDeactivated():
-    '''public void documentViewDeactivated(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    documentViewDeactivated(final ApplicationEvent applicationEvent)\n
     '''
 def viewContainerCreating():
-    '''public void viewContainerCreating(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    viewContainerCreating(final ApplicationEvent applicationEvent)\n
     '''
 def viewContainerCreated():
-    '''public void viewContainerCreated(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    viewContainerCreated(final ApplicationEvent applicationEvent)\n
     '''
 def viewContainerActivated():
-    '''public void viewContainerActivated(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    viewContainerActivated(final ApplicationEvent applicationEvent)\n
     '''
 def viewContainerDeactivated():
-    '''public void viewContainerDeactivated(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    viewContainerDeactivated(final ApplicationEvent applicationEvent)\n
     '''
 def viewContainerClosing():
-    '''public void viewContainerClosing(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    viewContainerClosing(final ApplicationEvent applicationEvent)\n
     '''
 def viewContainerClosed():
-    '''public void viewContainerClosed(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    viewContainerClosed(final ApplicationEvent applicationEvent)\n
     '''
 def applicationInitializingSettings():
-    '''public void applicationInitializingSettings(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    applicationInitializingSettings(final ApplicationEvent applicationEvent)\n
     '''
 def applicationInitialized():
-    '''public void applicationInitialized(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    applicationInitialized(final ApplicationEvent applicationEvent)\n
     '''
 def mainWindowInitialized():
-    '''public void mainWindowInitialized(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    mainWindowInitialized(final ApplicationEvent applicationEvent)\n
     '''
 def applicationClosing():
-    '''public void applicationClosing(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    applicationClosing(final ApplicationEvent applicationEvent)\n
     '''
 def applicationSavingSettings():
-    '''public void applicationSavingSettings(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    applicationSavingSettings(final ApplicationEvent applicationEvent)\n
     '''
 def applicationClosed():
-    '''public void applicationClosed(final ApplicationEvent applicationEvent)
+    '''returns None\n\n
+    applicationClosed(final ApplicationEvent applicationEvent)\n
     '''

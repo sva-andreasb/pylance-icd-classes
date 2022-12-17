@@ -1,9 +1,12 @@
-def FileResourceLoader():
-    '''public FileResourceLoader(final File file)
+def ():
+    '''returns FileResourceLoader\n\n
+    (final File file)\n
     '''
 def getResourceAsStream():
-    '''public InputStream getResourceAsStream(final String resourceName)
+    '''returns InputStream\n\n
+    getResourceAsStream(final String resourceName)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

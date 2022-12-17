@@ -1,3 +1,4 @@
-def SKDEmergencyWoSet():
-    '''public SKDEmergencyWoSet(final MboServerInterface ms)
+def ():
+    '''returns SKDEmergencyWoSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,3 +1,4 @@
-def InvTransSet():
-    '''public InvTransSet(final MboServerInterface ms)
+def ():
+    '''returns InvTransSet\n\n
+    (final MboServerInterface ms)\n
     '''

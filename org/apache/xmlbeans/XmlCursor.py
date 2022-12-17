@@ -9,60 +9,71 @@ INT_NAMESPACE = "int  7"
 INT_COMMENT = "int  8"
 INT_PROCINST = "int  9"
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def intValue():
-    '''public int intValue()
+    '''returns int\n\n
+    intValue()\n
     '''
 def isNone():
-    '''public boolean isNone()
+    '''returns boolean\n\n
+    isNone()\n
     '''
 def isStartdoc():
-    '''public boolean isStartdoc()
+    '''returns boolean\n\n
+    isStartdoc()\n
     '''
 def isEnddoc():
-    '''public boolean isEnddoc()
+    '''returns boolean\n\n
+    isEnddoc()\n
     '''
 def isStart():
-    '''public boolean isStart()
+    '''returns boolean\n\n
+    isStart()\n
     '''
 def isEnd():
-    '''public boolean isEnd()
+    '''returns boolean\n\n
+    isEnd()\n
     '''
 def isText():
-    '''public boolean isText()
+    '''returns boolean\n\n
+    isText()\n
     '''
 def isAttr():
-    '''public boolean isAttr()
+    '''returns boolean\n\n
+    isAttr()\n
     '''
 def isNamespace():
-    '''public boolean isNamespace()
+    '''returns boolean\n\n
+    isNamespace()\n
     '''
 def isComment():
-    '''public boolean isComment()
+    '''returns boolean\n\n
+    isComment()\n
     '''
 def isProcinst():
-    '''public boolean isProcinst()
+    '''returns boolean\n\n
+    isProcinst()\n
     '''
 def isContainer():
-    '''public boolean isContainer()
+    '''returns boolean\n\n
+    isContainer()\n
     '''
 def isFinish():
-    '''public boolean isFinish()
+    '''returns boolean\n\n
+    isFinish()\n
     '''
 def isAnyAttr():
-    '''public boolean isAnyAttr()
+    '''returns boolean\n\n
+    isAnyAttr()\n
     '''
-def XmlBookmark():
-    '''public XmlBookmark()
-    public XmlBookmark(final boolean weak)
-    '''
-def createCursor():
-    '''public final XmlCursor createCursor()
-    '''
-def toBookmark():
-    '''public final XmlCursor toBookmark(final XmlCursor c)
+def ():
+    '''returns XmlBookmark\n\n
+    ()\n
+    (final boolean weak)\n
     '''
 def getKey():
-    '''public Object getKey()
+    '''returns Object\n\n
+    getKey()\n
     '''

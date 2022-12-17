@@ -1,6 +1,7 @@
-def GroupLoadInProgressException():
-    '''public GroupLoadInProgressException()
-    public GroupLoadInProgressException(final String message)
-    public GroupLoadInProgressException(final String message, final Throwable cause)
-    public GroupLoadInProgressException(final Throwable cause)
+def ():
+    '''returns GroupLoadInProgressException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
+    (final Throwable cause)\n
     '''

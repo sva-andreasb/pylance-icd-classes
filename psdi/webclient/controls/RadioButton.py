@@ -1,6 +1,8 @@
 def preRender():
-    '''public boolean preRender()
+    '''returns boolean\n\n
+    preRender()\n
     '''
 def getRadioComponentId():
-    '''public String getRadioComponentId()
+    '''returns String\n\n
+    getRadioComponentId()\n
     '''

@@ -1,12 +1,12 @@
-def getInstance():
-    '''public static final LocHierarchyCache getInstance()
-    '''
 def getSystemsForLocSite():
-    '''public Set<String> getSystemsForLocSite(final String siteid, final String location)
+    '''returns Set<String>\n\n
+    getSystemsForLocSite(final String siteid, final String location)\n
     '''
 def getLocationHierarchyPathInfo():
-    '''public LocationInfo getLocationHierarchyPathInfo(final String siteid, final String system, final String location)
+    '''returns LocationInfo\n\n
+    getLocationHierarchyPathInfo(final String siteid, final String system, final String location)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

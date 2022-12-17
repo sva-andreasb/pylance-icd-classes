@@ -1,12 +1,16 @@
-def ConfigErrorHandler():
-    '''public ConfigErrorHandler(final String filename)
+def ():
+    '''returns ConfigErrorHandler\n\n
+    (final String filename)\n
     '''
 def error():
-    '''public void error(final SAXParseException exception)
+    '''returns None\n\n
+    error(final SAXParseException exception)\n
     '''
 def fatalError():
-    '''public void fatalError(final SAXParseException exception)
+    '''returns None\n\n
+    fatalError(final SAXParseException exception)\n
     '''
 def warning():
-    '''public void warning(final SAXParseException exception)
+    '''returns None\n\n
+    warning(final SAXParseException exception)\n
     '''

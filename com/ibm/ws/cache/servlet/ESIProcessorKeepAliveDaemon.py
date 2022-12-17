@@ -1,3 +1,4 @@
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''

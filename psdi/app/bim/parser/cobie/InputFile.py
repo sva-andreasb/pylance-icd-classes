@@ -1,106 +1,141 @@
-def InputFile():
-    '''public InputFile(final String fileName, final String sheetName)
-    public InputFile(final InputStream fileStream, final String sheetName)
+def ():
+    '''returns InputFile\n\n
+    (final String fileName, final String sheetName)\n
+    (final InputStream fileStream, final String sheetName)\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def getFileStream():
-    '''public InputStream getFileStream()
+    '''returns InputStream\n\n
+    getFileStream()\n
     '''
 def getSheetName():
-    '''public String getSheetName()
+    '''returns String\n\n
+    getSheetName()\n
     '''
 def isExcel():
-    '''public boolean isExcel()
+    '''returns boolean\n\n
+    isExcel()\n
     '''
 def isUseTabAttribute():
-    '''public boolean isUseTabAttribute()
+    '''returns boolean\n\n
+    isUseTabAttribute()\n
     '''
 def isUseTabAssembly():
-    '''public boolean isUseTabAssembly()
+    '''returns boolean\n\n
+    isUseTabAssembly()\n
     '''
 def isUseTabComponent():
-    '''public boolean isUseTabComponent()
+    '''returns boolean\n\n
+    isUseTabComponent()\n
     '''
 def isUseTabContact():
-    '''public boolean isUseTabContact()
+    '''returns boolean\n\n
+    isUseTabContact()\n
     '''
 def isUseTabDocument():
-    '''public boolean isUseTabDocument()
+    '''returns boolean\n\n
+    isUseTabDocument()\n
     '''
 def isUseTabFacility():
-    '''public boolean isUseTabFacility()
+    '''returns boolean\n\n
+    isUseTabFacility()\n
     '''
 def isUseTabFloor():
-    '''public boolean isUseTabFloor()
+    '''returns boolean\n\n
+    isUseTabFloor()\n
     '''
 def isUseTabIssue():
-    '''public boolean isUseTabIssue()
+    '''returns boolean\n\n
+    isUseTabIssue()\n
     '''
 def isUseTabJob():
-    '''public boolean isUseTabJob()
+    '''returns boolean\n\n
+    isUseTabJob()\n
     '''
 def isUseTabResource():
-    '''public boolean isUseTabResource()
+    '''returns boolean\n\n
+    isUseTabResource()\n
     '''
 def isUseTabSpace():
-    '''public boolean isUseTabSpace()
+    '''returns boolean\n\n
+    isUseTabSpace()\n
     '''
 def isUseTabSpare():
-    '''public boolean isUseTabSpare()
+    '''returns boolean\n\n
+    isUseTabSpare()\n
     '''
 def isUseTabSystem():
-    '''public boolean isUseTabSystem()
+    '''returns boolean\n\n
+    isUseTabSystem()\n
     '''
 def isUseTabType():
-    '''public boolean isUseTabType()
+    '''returns boolean\n\n
+    isUseTabType()\n
     '''
 def isUseTabZone():
-    '''public boolean isUseTabZone()
+    '''returns boolean\n\n
+    isUseTabZone()\n
     '''
 def setUseTabAttribute():
-    '''public void setUseTabAttribute(final boolean useTabAttribute)
+    '''returns None\n\n
+    setUseTabAttribute(final boolean useTabAttribute)\n
     '''
 def setUseTabAssembly():
-    '''public void setUseTabAssembly(final boolean useTabAssembly)
+    '''returns None\n\n
+    setUseTabAssembly(final boolean useTabAssembly)\n
     '''
 def setUseTabComponent():
-    '''public void setUseTabComponent(final boolean useTabComponent)
+    '''returns None\n\n
+    setUseTabComponent(final boolean useTabComponent)\n
     '''
 def setUseTabContact():
-    '''public void setUseTabContact(final boolean useTabContact)
+    '''returns None\n\n
+    setUseTabContact(final boolean useTabContact)\n
     '''
 def setUseTabDocument():
-    '''public void setUseTabDocument(final boolean useTabDocument)
+    '''returns None\n\n
+    setUseTabDocument(final boolean useTabDocument)\n
     '''
 def setUseTabFacility():
-    '''public void setUseTabFacility(final boolean useTabFacility)
+    '''returns None\n\n
+    setUseTabFacility(final boolean useTabFacility)\n
     '''
 def setUseTabFloor():
-    '''public void setUseTabFloor(final boolean useTabFloor)
+    '''returns None\n\n
+    setUseTabFloor(final boolean useTabFloor)\n
     '''
 def setUseTabIssue():
-    '''public void setUseTabIssue(final boolean useTabIssue)
+    '''returns None\n\n
+    setUseTabIssue(final boolean useTabIssue)\n
     '''
 def setUseTabJob():
-    '''public void setUseTabJob(final boolean useTabJob)
+    '''returns None\n\n
+    setUseTabJob(final boolean useTabJob)\n
     '''
 def setUseTabResource():
-    '''public void setUseTabResource(final boolean useTabResource)
+    '''returns None\n\n
+    setUseTabResource(final boolean useTabResource)\n
     '''
 def setUseTabSpace():
-    '''public void setUseTabSpace(final boolean useTabSpace)
+    '''returns None\n\n
+    setUseTabSpace(final boolean useTabSpace)\n
     '''
 def setUseTabSpare():
-    '''public void setUseTabSpare(final boolean useTabSpare)
+    '''returns None\n\n
+    setUseTabSpare(final boolean useTabSpare)\n
     '''
 def setUseTabSystem():
-    '''public void setUseTabSystem(final boolean useTabSystem)
+    '''returns None\n\n
+    setUseTabSystem(final boolean useTabSystem)\n
     '''
 def setUseTabType():
-    '''public void setUseTabType(final boolean useTabType)
+    '''returns None\n\n
+    setUseTabType(final boolean useTabType)\n
     '''
 def setUseTabZone():
-    '''public void setUseTabZone(final boolean useTabZone)
+    '''returns None\n\n
+    setUseTabZone(final boolean useTabZone)\n
     '''

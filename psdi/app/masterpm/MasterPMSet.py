@@ -1,3 +1,4 @@
-def MasterPMSet():
-    '''public MasterPMSet(final MboServerInterface ms)
+def ():
+    '''returns MasterPMSet\n\n
+    (final MboServerInterface ms)\n
     '''

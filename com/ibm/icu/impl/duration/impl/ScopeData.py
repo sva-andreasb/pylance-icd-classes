@@ -1,6 +1,4 @@
 def write():
-    '''public void write(final RecordWriter out)
-    '''
-def read():
-    '''public static ScopeData read(final RecordReader in)
+    '''returns None\n\n
+    write(final RecordWriter out)\n
     '''

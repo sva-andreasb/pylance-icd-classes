@@ -1,6 +1,8 @@
-def KeepCommand():
-    '''public KeepCommand(final T object)
+def ():
+    '''returns KeepCommand\n\n
+    (final T object)\n
     '''
 def accept():
-    '''public void accept(final CommandVisitor<T> visitor)
+    '''returns None\n\n
+    accept(final CommandVisitor<T> visitor)\n
     '''

@@ -1,27 +1,36 @@
-def PmSRMultiAssetLocCIBean():
-    '''public PmSRMultiAssetLocCIBean()
+def ():
+    '''returns PmSRMultiAssetLocCIBean\n\n
+    ()\n
     '''
 def ticketrepdown():
-    '''public int ticketrepdown()
+    '''returns int\n\n
+    ticketrepdown()\n
     '''
 def ticketmeterread():
-    '''public int ticketmeterread()
+    '''returns int\n\n
+    ticketmeterread()\n
     '''
 def setupBean():
-    '''public void setupBean(final WebClientSession wcs)
+    '''returns None\n\n
+    setupBean(final WebClientSession wcs)\n
     '''
 def jsplaunch():
-    '''public int jsplaunch()
+    '''returns int\n\n
+    jsplaunch()\n
     '''
 def refreshTable():
-    '''public void refreshTable()
+    '''returns None\n\n
+    refreshTable()\n
     '''
 def undelete():
-    '''public void undelete(final int nRow)
+    '''returns None\n\n
+    undelete(final int nRow)\n
     '''
 def delete():
-    '''public void delete(final int nRow)
+    '''returns None\n\n
+    delete(final int nRow)\n
     '''
 def toRefreshTKServiceNoticesList():
-    '''public void toRefreshTKServiceNoticesList(final int nRow, final boolean toDesplayWarning)
+    '''returns None\n\n
+    toRefreshTKServiceNoticesList(final int nRow, final boolean toDesplayWarning)\n
     '''

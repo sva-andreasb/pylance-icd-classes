@@ -1,4 +1,5 @@
-def AVScannerException():
-    '''public AVScannerException(final String error)
-    public AVScannerException(final String error, final Throwable exception)
+def ():
+    '''returns AVScannerException\n\n
+    (final String error)\n
+    (final String error, final Throwable exception)\n
     '''

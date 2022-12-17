@@ -3,33 +3,38 @@ HTTPMETHOD_HEAD = "String  \"HEAD\""
 HTTPMETHOD_POST = "String  \"POST\""
 HTTPMETHOD_PUT = "String  \"PUT\""
 HTTPMETHOD_DELETE = "String  \"DELETE\""
-def RestClient():
-    '''public RestClient(final String[] args)
-    public RestClient(final String uri)
+def ():
+    '''returns RestClient\n\n
+    (final String[] args)\n
+    (final String uri)\n
     '''
 def withQueryParams():
-    '''public RestClient withQueryParams(final Map<String, String> qparams)
+    '''returns RestClient\n\n
+    withQueryParams(final Map<String, String> qparams)\n
     '''
 def withHeaders():
-    '''public RestClient withHeaders(final Map<String, String> headers)
+    '''returns RestClient\n\n
+    withHeaders(final Map<String, String> headers)\n
     '''
 def withMethod():
-    '''public RestClient withMethod(final String httpMethod)
+    '''returns RestClient\n\n
+    withMethod(final String httpMethod)\n
     '''
 def withApiKey():
-    '''public RestClient withApiKey(final String apikey)
+    '''returns RestClient\n\n
+    withApiKey(final String apikey)\n
     '''
 def invokeJson():
-    '''public JSONArtifact invokeJson()
+    '''returns JSONArtifact\n\n
+    invokeJson()\n
     '''
 def bytesToJSON():
-    '''public JSONArtifact bytesToJSON(final byte[] data)
+    '''returns JSONArtifact\n\n
+    bytesToJSON(final byte[] data)\n
     '''
 def invoke():
-    '''public byte[] invoke()
-    public JSONArtifact invoke(final JSONArtifact jo)
-    public byte[] invoke(final byte[] data)
-    '''
-def encode():
-    '''public static String encode(final String userName, final String password)
+    '''returns byte[]\n\n
+    invoke()\n
+    invoke(final JSONArtifact jo)\n
+    invoke(final byte[] data)\n
     '''

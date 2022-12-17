@@ -1,4 +1,5 @@
-def ReconTaskService():
-    '''public ReconTaskService()
-    public ReconTaskService(final MXServer mxServer)
+def ():
+    '''returns ReconTaskService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

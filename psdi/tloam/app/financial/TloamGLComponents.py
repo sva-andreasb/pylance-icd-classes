@@ -1,6 +1,8 @@
-def TloamGLComponents():
-    '''public TloamGLComponents(final MboSet ms)
+def ():
+    '''returns TloamGLComponents\n\n
+    (final MboSet ms)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''

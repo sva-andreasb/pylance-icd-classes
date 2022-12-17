@@ -1,13 +1,12 @@
-def SchemaValidator():
-    '''public SchemaValidator(final String schemaUrl)
-    public SchemaValidator(final Source schemaFileResource)
-    public SchemaValidator(final Source[] schemaFileResources)
+def ():
+    '''returns SchemaValidator\n\n
+    (final String schemaUrl)\n
+    (final Source schemaFileResource)\n
+    (final Source[] schemaFileResources)\n
     '''
 def validateXML():
-    '''public void validateXML(final byte[] xmlData)
-    public void validateXML(final File xmlFile)
-    public void validateXML(final InputStream xmlStream)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns None\n\n
+    validateXML(final byte[] xmlData)\n
+    validateXML(final File xmlFile)\n
+    validateXML(final InputStream xmlStream)\n
     '''

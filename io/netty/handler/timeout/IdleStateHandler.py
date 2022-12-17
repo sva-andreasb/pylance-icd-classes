@@ -1,44 +1,58 @@
-def IdleStateHandler():
-    '''public IdleStateHandler(final int readerIdleTimeSeconds, final int writerIdleTimeSeconds, final int allIdleTimeSeconds)
-    public IdleStateHandler(final long readerIdleTime, final long writerIdleTime, final long allIdleTime, final TimeUnit unit)
-    public IdleStateHandler(final boolean observeOutput, final long readerIdleTime, final long writerIdleTime, final long allIdleTime, final TimeUnit unit)
+def ():
+    '''returns IdleStateHandler\n\n
+    (final int readerIdleTimeSeconds, final int writerIdleTimeSeconds, final int allIdleTimeSeconds)\n
+    (final long readerIdleTime, final long writerIdleTime, final long allIdleTime, final TimeUnit unit)\n
+    (final boolean observeOutput, final long readerIdleTime, final long writerIdleTime, final long allIdleTime, final TimeUnit unit)\n
     '''
 def operationComplete():
-    '''public void operationComplete(final ChannelFuture future)
+    '''returns None\n\n
+    operationComplete(final ChannelFuture future)\n
     '''
 def getReaderIdleTimeInMillis():
-    '''public long getReaderIdleTimeInMillis()
+    '''returns long\n\n
+    getReaderIdleTimeInMillis()\n
     '''
 def getWriterIdleTimeInMillis():
-    '''public long getWriterIdleTimeInMillis()
+    '''returns long\n\n
+    getWriterIdleTimeInMillis()\n
     '''
 def getAllIdleTimeInMillis():
-    '''public long getAllIdleTimeInMillis()
+    '''returns long\n\n
+    getAllIdleTimeInMillis()\n
     '''
 def handlerAdded():
-    '''public void handlerAdded(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    handlerAdded(final ChannelHandlerContext ctx)\n
     '''
 def handlerRemoved():
-    '''public void handlerRemoved(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    handlerRemoved(final ChannelHandlerContext ctx)\n
     '''
 def channelRegistered():
-    '''public void channelRegistered(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    channelRegistered(final ChannelHandlerContext ctx)\n
     '''
 def channelActive():
-    '''public void channelActive(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    channelActive(final ChannelHandlerContext ctx)\n
     '''
 def channelInactive():
-    '''public void channelInactive(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    channelInactive(final ChannelHandlerContext ctx)\n
     '''
 def channelRead():
-    '''public void channelRead(final ChannelHandlerContext ctx, final Object msg)
+    '''returns None\n\n
+    channelRead(final ChannelHandlerContext ctx, final Object msg)\n
     '''
 def channelReadComplete():
-    '''public void channelReadComplete(final ChannelHandlerContext ctx)
+    '''returns None\n\n
+    channelReadComplete(final ChannelHandlerContext ctx)\n
     '''
 def write():
-    '''public void write(final ChannelHandlerContext ctx, final Object msg, final ChannelPromise promise)
+    '''returns None\n\n
+    write(final ChannelHandlerContext ctx, final Object msg, final ChannelPromise promise)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

@@ -1,9 +1,12 @@
-def WeatherCurrentVal():
-    '''public WeatherCurrentVal(final Expression exp, final String name, final int numParams)
+def ():
+    '''returns WeatherCurrentVal\n\n
+    (final Expression exp, final String name, final int numParams)\n
     '''
 def eval():
-    '''public BigDecimal eval(final List<BigDecimal> parameters)
+    '''returns BigDecimal\n\n
+    eval(final List<BigDecimal> parameters)\n
     '''
 def val():
-    '''public BigDecimal val(final MboRemote mbo, final String attrName)
+    '''returns BigDecimal\n\n
+    val(final MboRemote mbo, final String attrName)\n
     '''

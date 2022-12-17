@@ -1,9 +1,12 @@
-def Message():
-    '''public Message(final String processor_, final ByteBuffer payload_)
+def ():
+    '''returns Message\n\n
+    (final String processor_, final ByteBuffer payload_)\n
     '''
 def getProcessorName():
-    '''public String getProcessorName()
+    '''returns String\n\n
+    getProcessorName()\n
     '''
 def getPayload():
-    '''public ByteBuffer getPayload()
+    '''returns ByteBuffer\n\n
+    getPayload()\n
     '''

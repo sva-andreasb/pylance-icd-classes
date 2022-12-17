@@ -1,19 +1,25 @@
 ICC_NAMED_COLOR_FUNCTION = "String  \"icc-named-color\""
-def ICCNamedColor():
-    '''public ICCNamedColor(final String profileName, final String colorName)
+def ():
+    '''returns ICCNamedColor\n\n
+    (final String profileName, final String colorName)\n
     '''
 def getCssValueType():
-    '''public short getCssValueType()
+    '''returns short\n\n
+    getCssValueType()\n
     '''
 def getColorProfile():
-    '''public String getColorProfile()
+    '''returns String\n\n
+    getColorProfile()\n
     '''
 def getColorName():
-    '''public String getColorName()
+    '''returns String\n\n
+    getColorName()\n
     '''
 def getCssText():
-    '''public String getCssText()
+    '''returns String\n\n
+    getCssText()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

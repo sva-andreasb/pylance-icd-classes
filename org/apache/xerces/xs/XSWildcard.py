@@ -1,0 +1,6 @@
+NSCONSTRAINT_ANY = "short  1"
+NSCONSTRAINT_NOT = "short  2"
+NSCONSTRAINT_LIST = "short  3"
+PC_STRICT = "short  1"
+PC_SKIP = "short  2"
+PC_LAX = "short  3"

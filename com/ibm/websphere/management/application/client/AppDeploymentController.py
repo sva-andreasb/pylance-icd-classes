@@ -1,122 +1,155 @@
 taskHelperSuffix = "String  \"Helper\""
-def readArchive():
-    '''public static AppDeploymentController readArchive(final String ear, final Hashtable preferences)
-    public static AppDeploymentController readArchive(final String ear, final Hashtable preferences, final Vector taskI)
-    '''
-def AppDeploymentController():
-    '''public AppDeploymentController(final AppDeploymentInfo info, final Hashtable prefs, final Vector taskI)
-    public AppDeploymentController(final Vector tAll, final Vector taskI, final Hashtable prefs)
-    public AppDeploymentController(final AppDeploymentInfo info, final Vector tAll, final Hashtable prefs, final Vector taskI)
+def ():
+    '''returns AppDeploymentController\n\n
+    (final AppDeploymentInfo info, final Hashtable prefs, final Vector taskI)\n
+    (final Vector tAll, final Vector taskI, final Hashtable prefs)\n
+    (final AppDeploymentInfo info, final Vector tAll, final Hashtable prefs, final Vector taskI)\n
     '''
 def getDeploymentMode():
-    '''public long getDeploymentMode()
+    '''returns long\n\n
+    getDeploymentMode()\n
     '''
 def getAppDeploymentTaskNames():
-    '''public String[] getAppDeploymentTaskNames()
+    '''returns String[]\n\n
+    getAppDeploymentTaskNames()\n
     '''
 def getFirstTask():
-    '''public AppDeploymentTask getFirstTask()
+    '''returns AppDeploymentTask\n\n
+    getFirstTask()\n
     '''
 def getNextTask():
-    '''public AppDeploymentTask getNextTask()
+    '''returns AppDeploymentTask\n\n
+    getNextTask()\n
     '''
 def getTaskByName():
-    '''public AppDeploymentTask getTaskByName(final String taskName, final boolean b)
-    public AppDeploymentTask getTaskByName(final String taskName)
+    '''returns AppDeploymentTask\n\n
+    getTaskByName(final String taskName, final boolean b)\n
+    getTaskByName(final String taskName)\n
     '''
 def getAllTasks():
-    '''public Vector getAllTasks()
+    '''returns Vector\n\n
+    getAllTasks()\n
     '''
 def getDependencyTask():
-    '''public void getDependencyTask(final String taskName)
+    '''returns None\n\n
+    getDependencyTask(final String taskName)\n
     '''
 def close():
-    '''public void close(final boolean bSave, final boolean bValidate, final boolean bClose)
+    '''returns None\n\n
+    close(final boolean bSave, final boolean bValidate, final boolean bClose)\n
     '''
 def saveAndClose():
-    '''public void saveAndClose()
+    '''returns None\n\n
+    saveAndClose()\n
     '''
 def validate():
-    '''public String[] validate()
+    '''returns String[]\n\n
+    validate()\n
     '''
 def validateInTaskHelper():
-    '''public String[] validateInTaskHelper(final String taskName)
+    '''returns String[]\n\n
+    validateInTaskHelper(final String taskName)\n
     '''
 def getAppOptions():
-    '''public Hashtable getAppOptions()
+    '''returns Hashtable\n\n
+    getAppOptions()\n
     '''
 def setAppOptions():
-    '''public void setAppOptions(final Hashtable tbl)
+    '''returns None\n\n
+    setAppOptions(final Hashtable tbl)\n
     '''
 def getAppDeploymentSavedResults():
-    '''public Hashtable getAppDeploymentSavedResults()
+    '''returns Hashtable\n\n
+    getAppDeploymentSavedResults()\n
     '''
 def getTaskInfo():
-    '''public AppDeploymentTaskInfo getTaskInfo()
-    public AppDeploymentTaskInfo getTaskInfo(final String taskName)
+    '''returns AppDeploymentTaskInfo\n\n
+    getTaskInfo()\n
+    getTaskInfo(final String taskName)\n
     '''
 def isPartialDeploymentInfo():
-    '''public boolean isPartialDeploymentInfo()
+    '''returns boolean\n\n
+    isPartialDeploymentInfo()\n
     '''
 def getSecurityPolicyData():
-    '''public String getSecurityPolicyData()
+    '''returns String\n\n
+    getSecurityPolicyData()\n
     '''
 def getSecurityPolicyWarning():
-    '''public String getSecurityPolicyWarning()
+    '''returns String\n\n
+    getSecurityPolicyWarning()\n
     '''
 def saveAsFile():
-    '''public void saveAsFile(final String moduleUri, final String fileUriInModule, final InputStream inputStream)
+    '''returns None\n\n
+    saveAsFile(final String moduleUri, final String fileUriInModule, final InputStream inputStream)\n
     '''
 def createDeploymentPlan():
-    '''public void createDeploymentPlan(final OutputStream out)
+    '''returns None\n\n
+    createDeploymentPlan(final OutputStream out)\n
     '''
 def readDeploymentPlan():
-    '''public void readDeploymentPlan(final File file)
-    public void readDeploymentPlan(final InputStream in)
+    '''returns None\n\n
+    readDeploymentPlan(final File file)\n
+    readDeploymentPlan(final InputStream in)\n
     '''
 def getSelectedOptions():
-    '''public List getSelectedOptions()
+    '''returns List\n\n
+    getSelectedOptions()\n
     '''
 def getAppVersion():
-    '''public int getAppVersion()
-    public int getAppVersion(final boolean checkForFeature)
+    '''returns int\n\n
+    getAppVersion()\n
+    getAppVersion(final boolean checkForFeature)\n
     '''
 def getRarVersion():
-    '''public int getRarVersion()
+    '''returns int\n\n
+    getRarVersion()\n
     '''
 def getServerTable():
-    '''public Hashtable getServerTable()
+    '''returns Hashtable\n\n
+    getServerTable()\n
     '''
 def getAdminClient():
-    '''public AdminClient getAdminClient()
+    '''returns AdminClient\n\n
+    getAdminClient()\n
     '''
 def getConfigSession():
-    '''public Session getConfigSession()
+    '''returns Session\n\n
+    getConfigSession()\n
     '''
 def getConfigService():
-    '''public ConfigService getConfigService()
+    '''returns ConfigService\n\n
+    getConfigService()\n
     '''
 def checkIfEnhancedEar():
-    '''public boolean checkIfEnhancedEar()
+    '''returns boolean\n\n
+    checkIfEnhancedEar()\n
     '''
 def getEnhancedEarDeploymentResource():
-    '''public Resource getEnhancedEarDeploymentResource(final String resName)
+    '''returns Resource\n\n
+    getEnhancedEarDeploymentResource(final String resName)\n
     '''
 def postAllPrepareTask():
-    '''public void postAllPrepareTask(final AppDeploymentInfo appInstallInfo, final AppDeploymentTask task)
+    '''returns None\n\n
+    postAllPrepareTask(final AppDeploymentInfo appInstallInfo, final AppDeploymentTask task)\n
     '''
 def setVariableMap():
-    '''public void setVariableMap(final Vector vtask)
+    '''returns None\n\n
+    setVariableMap(final Vector vtask)\n
     '''
 def preAllCompleteTask():
-    '''public AppDeploymentTask preAllCompleteTask(final AppDeploymentTask t)
+    '''returns AppDeploymentTask\n\n
+    preAllCompleteTask(final AppDeploymentTask t)\n
     '''
 def getModifiedTaskData():
-    '''public String[][] getModifiedTaskData(final String taskName, final String[][] data)
+    '''returns String[][]\n\n
+    getModifiedTaskData(final String taskName, final String[][] data)\n
     '''
 def resetDataHolder():
-    '''public void resetDataHolder()
+    '''returns None\n\n
+    resetDataHolder()\n
     '''
 def getDataHolder():
-    '''public DataHolder getDataHolder()
+    '''returns DataHolder\n\n
+    getDataHolder()\n
     '''

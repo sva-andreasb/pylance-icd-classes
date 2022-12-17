@@ -1,9 +1,12 @@
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def attributeSearch():
-    '''public int attributeSearch()
+    '''returns int\n\n
+    attributeSearch()\n
     '''
 def getSearchAttributeBean():
-    '''public SearchAttributeBean getSearchAttributeBean()
+    '''returns SearchAttributeBean\n\n
+    getSearchAttributeBean()\n
     '''

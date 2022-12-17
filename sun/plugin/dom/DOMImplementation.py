@@ -1,15 +1,20 @@
 def hasFeature():
-    '''public boolean hasFeature(final String s, String s2)
+    '''returns boolean\n\n
+    hasFeature(final String s, String s2)\n
     '''
 def createDocumentType():
-    '''public DocumentType createDocumentType(final String s, final String s2, final String s3)
+    '''returns DocumentType\n\n
+    createDocumentType(final String s, final String s2, final String s3)\n
     '''
 def createDocument():
-    '''public Document createDocument(final String s, final String s2, final DocumentType documentType)
+    '''returns Document\n\n
+    createDocument(final String s, final String s2, final DocumentType documentType)\n
     '''
 def createHTMLDocument():
-    '''public HTMLDocument createHTMLDocument(final String s)
+    '''returns HTMLDocument\n\n
+    createHTMLDocument(final String s)\n
     '''
 def createCSSStyleSheet():
-    '''public CSSStyleSheet createCSSStyleSheet(final String s, final String s2)
+    '''returns CSSStyleSheet\n\n
+    createCSSStyleSheet(final String s, final String s2)\n
     '''

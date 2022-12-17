@@ -1,125 +1,166 @@
-def JavaServiceDesc():
-    '''public JavaServiceDesc()
+def ():
+    '''returns JavaServiceDesc\n\n
+    ()\n
     '''
 def getStyle():
-    '''public Style getStyle()
+    '''returns Style\n\n
+    getStyle()\n
     '''
 def setStyle():
-    '''public void setStyle(final Style style)
+    '''returns None\n\n
+    setStyle(final Style style)\n
     '''
 def getUse():
-    '''public Use getUse()
+    '''returns Use\n\n
+    getUse()\n
     '''
 def setUse():
-    '''public void setUse(final Use use)
+    '''returns None\n\n
+    setUse(final Use use)\n
     '''
 def isWrapped():
-    '''public boolean isWrapped()
+    '''returns boolean\n\n
+    isWrapped()\n
     '''
 def getWSDLFile():
-    '''public String getWSDLFile()
+    '''returns String\n\n
+    getWSDLFile()\n
     '''
 def setWSDLFile():
-    '''public void setWSDLFile(final String wsdlFileName)
+    '''returns None\n\n
+    setWSDLFile(final String wsdlFileName)\n
     '''
 def getAllowedMethods():
-    '''public List getAllowedMethods()
+    '''returns List\n\n
+    getAllowedMethods()\n
     '''
 def setAllowedMethods():
-    '''public void setAllowedMethods(final List allowedMethods)
+    '''returns None\n\n
+    setAllowedMethods(final List allowedMethods)\n
     '''
 def getImplClass():
-    '''public Class getImplClass()
+    '''returns Class\n\n
+    getImplClass()\n
     '''
 def setImplClass():
-    '''public void setImplClass(final Class implClass)
+    '''returns None\n\n
+    setImplClass(final Class implClass)\n
     '''
 def getTypeMapping():
-    '''public TypeMapping getTypeMapping()
+    '''returns TypeMapping\n\n
+    getTypeMapping()\n
     '''
 def setTypeMapping():
-    '''public void setTypeMapping(final TypeMapping tm)
+    '''returns None\n\n
+    setTypeMapping(final TypeMapping tm)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getDocumentation():
-    '''public String getDocumentation()
+    '''returns String\n\n
+    getDocumentation()\n
     '''
 def setDocumentation():
-    '''public void setDocumentation(final String documentation)
+    '''returns None\n\n
+    setDocumentation(final String documentation)\n
     '''
 def getStopClasses():
-    '''public ArrayList getStopClasses()
+    '''returns ArrayList\n\n
+    getStopClasses()\n
     '''
 def setStopClasses():
-    '''public void setStopClasses(final ArrayList stopClasses)
+    '''returns None\n\n
+    setStopClasses(final ArrayList stopClasses)\n
     '''
 def getDisallowedMethods():
-    '''public List getDisallowedMethods()
+    '''returns List\n\n
+    getDisallowedMethods()\n
     '''
 def setDisallowedMethods():
-    '''public void setDisallowedMethods(final List disallowedMethods)
+    '''returns None\n\n
+    setDisallowedMethods(final List disallowedMethods)\n
     '''
 def removeOperationDesc():
-    '''public void removeOperationDesc(final OperationDesc operation)
+    '''returns None\n\n
+    removeOperationDesc(final OperationDesc operation)\n
     '''
 def addOperationDesc():
-    '''public void addOperationDesc(final OperationDesc operation)
+    '''returns None\n\n
+    addOperationDesc(final OperationDesc operation)\n
     '''
 def getOperations():
-    '''public ArrayList getOperations()
+    '''returns ArrayList\n\n
+    getOperations()\n
     '''
 def getOperationsByName():
-    '''public OperationDesc[] getOperationsByName(final String methodName)
+    '''returns OperationDesc[]\n\n
+    getOperationsByName(final String methodName)\n
     '''
 def getOperationByName():
-    '''public OperationDesc getOperationByName(final String methodName)
+    '''returns OperationDesc\n\n
+    getOperationByName(final String methodName)\n
     '''
 def getOperationByElementQName():
-    '''public OperationDesc getOperationByElementQName(final QName qname)
+    '''returns OperationDesc\n\n
+    getOperationByElementQName(final QName qname)\n
     '''
 def getOperationsByQName():
-    '''public OperationDesc[] getOperationsByQName(final QName qname)
+    '''returns OperationDesc[]\n\n
+    getOperationsByQName(final QName qname)\n
     '''
 def compare():
-    '''public int compare(final Object o1, final Object o2)
+    '''returns int\n\n
+    compare(final Object o1, final Object o2)\n
     '''
 def loadServiceDescByIntrospection():
-    '''public void loadServiceDescByIntrospection()
-    public void loadServiceDescByIntrospection(final Class implClass)
-    public void loadServiceDescByIntrospection(final Class cls, final TypeMapping tm)
+    '''returns None\n\n
+    loadServiceDescByIntrospection()\n
+    loadServiceDescByIntrospection(final Class implClass)\n
+    loadServiceDescByIntrospection(final Class cls, final TypeMapping tm)\n
     '''
 def setNamespaceMappings():
-    '''public void setNamespaceMappings(final List namespaces)
+    '''returns None\n\n
+    setNamespaceMappings(final List namespaces)\n
     '''
 def getDefaultNamespace():
-    '''public String getDefaultNamespace()
+    '''returns String\n\n
+    getDefaultNamespace()\n
     '''
 def setDefaultNamespace():
-    '''public void setDefaultNamespace(final String namespace)
+    '''returns None\n\n
+    setDefaultNamespace(final String namespace)\n
     '''
 def setProperty():
-    '''public void setProperty(final String name, final Object value)
+    '''returns None\n\n
+    setProperty(final String name, final Object value)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String name)
+    '''returns Object\n\n
+    getProperty(final String name)\n
     '''
 def getEndpointURL():
-    '''public String getEndpointURL()
+    '''returns String\n\n
+    getEndpointURL()\n
     '''
 def setEndpointURL():
-    '''public void setEndpointURL(final String endpointURL)
+    '''returns None\n\n
+    setEndpointURL(final String endpointURL)\n
     '''
 def getTypeMappingRegistry():
-    '''public TypeMappingRegistry getTypeMappingRegistry()
+    '''returns TypeMappingRegistry\n\n
+    getTypeMappingRegistry()\n
     '''
 def setTypeMappingRegistry():
-    '''public void setTypeMappingRegistry(final TypeMappingRegistry tmr)
+    '''returns None\n\n
+    setTypeMappingRegistry(final TypeMappingRegistry tmr)\n
     '''
 def isInitialized():
-    '''public boolean isInitialized()
+    '''returns boolean\n\n
+    isInitialized()\n
     '''

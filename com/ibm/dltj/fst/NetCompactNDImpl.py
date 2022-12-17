@@ -1,49 +1,57 @@
-def NetCompactNDImpl():
-    '''public NetCompactNDImpl()
+def ():
+    '''returns NetCompactNDImpl\n\n
+    ()\n
     '''
 def first():
-    '''public Node first()
-    '''
-def traverse():
-    '''public final int traverse(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)
-    '''
-def traverseLongest():
-    '''public final boolean traverseLongest(final CharacterIterator characterIterator, final MatchBuffer matchBuffer)
+    '''returns Node\n\n
+    first()\n
     '''
 def get_char():
-    '''public char get_char(final int n)
+    '''returns char\n\n
+    get_char(final int n)\n
     '''
 def get_chars():
-    '''public String get_chars(final int n)
+    '''returns String\n\n
+    get_chars(final int n)\n
     '''
 def next():
-    '''public Node next(final char c)
-    public Node next(final CharacterIterator characterIterator)
+    '''returns Node\n\n
+    next(final char c)\n
+    next(final CharacterIterator characterIterator)\n
     '''
 def get_trans():
-    '''public Node get_trans(int n)
+    '''returns Node\n\n
+    get_trans(int n)\n
     '''
 def nextRestricted():
-    '''public Node nextRestricted(final CharacterIterator characterIterator, final int n)
+    '''returns Node\n\n
+    nextRestricted(final CharacterIterator characterIterator, final int n)\n
     '''
 def num_chars():
-    '''public int num_chars()
+    '''returns int\n\n
+    num_chars()\n
     '''
 def num_trans():
-    '''public int num_trans()
+    '''returns int\n\n
+    num_trans()\n
     '''
 def dispose():
-    '''public void dispose()
+    '''returns None\n\n
+    dispose()\n
     '''
 def isFinal():
-    '''public boolean isFinal()
+    '''returns boolean\n\n
+    isFinal()\n
     '''
 def getGloss():
-    '''public Object getGloss()
+    '''returns Object\n\n
+    getGloss()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

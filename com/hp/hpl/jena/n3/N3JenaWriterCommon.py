@@ -1,13 +1,16 @@
-def N3JenaWriterCommon():
-    '''public N3JenaWriterCommon()
+def ():
+    '''returns N3JenaWriterCommon\n\n
+    ()\n
     '''
 def setErrorHandler():
-    '''public RDFErrorHandler setErrorHandler(final RDFErrorHandler errHandler)
+    '''returns RDFErrorHandler\n\n
+    setErrorHandler(final RDFErrorHandler errHandler)\n
     '''
 def setProperty():
-    '''public Object setProperty(String propName, Object propValue)
+    '''returns Object\n\n
+    setProperty(String propName, Object propValue)\n
     '''
 def write():
-    '''public void write(final Model baseModel, Writer _out, final String base)
-    public synchronized void write(final Model model, final OutputStream output, final String base)
+    '''returns None\n\n
+    write(final Model baseModel, Writer _out, final String base)\n
     '''

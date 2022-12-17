@@ -1,3 +1,4 @@
-def PMSchedActivity():
-    '''public PMSchedActivity(final MboSet ms)
+def ():
+    '''returns PMSchedActivity\n\n
+    (final MboSet ms)\n
     '''

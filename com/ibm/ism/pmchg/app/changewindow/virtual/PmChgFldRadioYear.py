@@ -1,6 +1,8 @@
-def PmChgFldRadioYear():
-    '''public PmChgFldRadioYear(final MboValue mbv)
+def ():
+    '''returns PmChgFldRadioYear\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

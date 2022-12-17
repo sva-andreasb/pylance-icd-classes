@@ -1,3 +1,4 @@
-def ServerSessionSet():
-    '''public ServerSessionSet(final MboServerInterface ms)
+def ():
+    '''returns ServerSessionSet\n\n
+    (final MboServerInterface ms)\n
     '''

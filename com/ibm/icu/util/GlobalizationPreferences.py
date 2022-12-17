@@ -23,87 +23,114 @@ BI_WORD = "int  1"
 BI_LINE = "int  2"
 BI_SENTENCE = "int  3"
 BI_TITLE = "int  4"
-def GlobalizationPreferences():
-    '''public GlobalizationPreferences()
+def ():
+    '''returns GlobalizationPreferences\n\n
+    ()\n
     '''
 def setLocales():
-    '''public GlobalizationPreferences setLocales(final List<ULocale> inputLocales)
-    public GlobalizationPreferences setLocales(final ULocale[] uLocales)
-    public GlobalizationPreferences setLocales(final String acceptLanguageString)
+    '''returns GlobalizationPreferences\n\n
+    setLocales(final List<ULocale> inputLocales)\n
+    setLocales(final ULocale[] uLocales)\n
+    setLocales(final String acceptLanguageString)\n
     '''
 def getLocales():
-    '''public List<ULocale> getLocales()
+    '''returns List<ULocale>\n\n
+    getLocales()\n
     '''
 def getLocale():
-    '''public ULocale getLocale(final int index)
+    '''returns ULocale\n\n
+    getLocale(final int index)\n
     '''
 def setLocale():
-    '''public GlobalizationPreferences setLocale(final ULocale uLocale)
+    '''returns GlobalizationPreferences\n\n
+    setLocale(final ULocale uLocale)\n
     '''
 def getResourceBundle():
-    '''public ResourceBundle getResourceBundle(final String baseName)
-    public ResourceBundle getResourceBundle(final String baseName, final ClassLoader loader)
+    '''returns ResourceBundle\n\n
+    getResourceBundle(final String baseName)\n
+    getResourceBundle(final String baseName, final ClassLoader loader)\n
     '''
 def setTerritory():
-    '''public GlobalizationPreferences setTerritory(final String territory)
+    '''returns GlobalizationPreferences\n\n
+    setTerritory(final String territory)\n
     '''
 def getTerritory():
-    '''public String getTerritory()
+    '''returns String\n\n
+    getTerritory()\n
     '''
 def setCurrency():
-    '''public GlobalizationPreferences setCurrency(final Currency currency)
+    '''returns GlobalizationPreferences\n\n
+    setCurrency(final Currency currency)\n
     '''
 def getCurrency():
-    '''public Currency getCurrency()
+    '''returns Currency\n\n
+    getCurrency()\n
     '''
 def setCalendar():
-    '''public GlobalizationPreferences setCalendar(final Calendar calendar)
+    '''returns GlobalizationPreferences\n\n
+    setCalendar(final Calendar calendar)\n
     '''
 def getCalendar():
-    '''public Calendar getCalendar()
+    '''returns Calendar\n\n
+    getCalendar()\n
     '''
 def setTimeZone():
-    '''public GlobalizationPreferences setTimeZone(final TimeZone timezone)
+    '''returns GlobalizationPreferences\n\n
+    setTimeZone(final TimeZone timezone)\n
     '''
 def getTimeZone():
-    '''public TimeZone getTimeZone()
+    '''returns TimeZone\n\n
+    getTimeZone()\n
     '''
 def getCollator():
-    '''public Collator getCollator()
+    '''returns Collator\n\n
+    getCollator()\n
     '''
 def setCollator():
-    '''public GlobalizationPreferences setCollator(final Collator collator)
+    '''returns GlobalizationPreferences\n\n
+    setCollator(final Collator collator)\n
     '''
 def getBreakIterator():
-    '''public BreakIterator getBreakIterator(final int type)
+    '''returns BreakIterator\n\n
+    getBreakIterator(final int type)\n
     '''
 def setBreakIterator():
-    '''public GlobalizationPreferences setBreakIterator(final int type, final BreakIterator iterator)
+    '''returns GlobalizationPreferences\n\n
+    setBreakIterator(final int type, final BreakIterator iterator)\n
     '''
 def getDisplayName():
-    '''public String getDisplayName(final String id, final int type)
+    '''returns String\n\n
+    getDisplayName(final String id, final int type)\n
     '''
 def setDateFormat():
-    '''public GlobalizationPreferences setDateFormat(final int dateStyle, final int timeStyle, final DateFormat format)
+    '''returns GlobalizationPreferences\n\n
+    setDateFormat(final int dateStyle, final int timeStyle, final DateFormat format)\n
     '''
 def getDateFormat():
-    '''public DateFormat getDateFormat(final int dateStyle, final int timeStyle)
+    '''returns DateFormat\n\n
+    getDateFormat(final int dateStyle, final int timeStyle)\n
     '''
 def getNumberFormat():
-    '''public NumberFormat getNumberFormat(final int style)
+    '''returns NumberFormat\n\n
+    getNumberFormat(final int style)\n
     '''
 def setNumberFormat():
-    '''public GlobalizationPreferences setNumberFormat(final int style, final NumberFormat format)
+    '''returns GlobalizationPreferences\n\n
+    setNumberFormat(final int style, final NumberFormat format)\n
     '''
 def reset():
-    '''public GlobalizationPreferences reset()
+    '''returns GlobalizationPreferences\n\n
+    reset()\n
     '''
 def isFrozen():
-    '''public boolean isFrozen()
+    '''returns boolean\n\n
+    isFrozen()\n
     '''
 def freeze():
-    '''public GlobalizationPreferences freeze()
+    '''returns GlobalizationPreferences\n\n
+    freeze()\n
     '''
 def cloneAsThawed():
-    '''public GlobalizationPreferences cloneAsThawed()
+    '''returns GlobalizationPreferences\n\n
+    cloneAsThawed()\n
     '''

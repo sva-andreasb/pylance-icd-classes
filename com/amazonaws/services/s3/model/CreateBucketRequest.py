@@ -1,35 +1,46 @@
-def CreateBucketRequest():
-    '''public CreateBucketRequest(final String bucketName)
-    public CreateBucketRequest(final String bucketName, final Region region)
-    public CreateBucketRequest(final String bucketName, final String region)
+def ():
+    '''returns CreateBucketRequest\n\n
+    (final String bucketName)\n
+    (final String bucketName, final Region region)\n
+    (final String bucketName, final String region)\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setRegion():
-    '''public void setRegion(final String region)
+    '''returns None\n\n
+    setRegion(final String region)\n
     '''
 def getRegion():
-    '''public String getRegion()
+    '''returns String\n\n
+    getRegion()\n
     '''
 def getCannedAcl():
-    '''public CannedAccessControlList getCannedAcl()
+    '''returns CannedAccessControlList\n\n
+    getCannedAcl()\n
     '''
 def setCannedAcl():
-    '''public void setCannedAcl(final CannedAccessControlList cannedAcl)
+    '''returns None\n\n
+    setCannedAcl(final CannedAccessControlList cannedAcl)\n
     '''
 def withCannedAcl():
-    '''public CreateBucketRequest withCannedAcl(final CannedAccessControlList cannedAcl)
+    '''returns CreateBucketRequest\n\n
+    withCannedAcl(final CannedAccessControlList cannedAcl)\n
     '''
 def getAccessControlList():
-    '''public AccessControlList getAccessControlList()
+    '''returns AccessControlList\n\n
+    getAccessControlList()\n
     '''
 def setAccessControlList():
-    '''public void setAccessControlList(final AccessControlList accessControlList)
+    '''returns None\n\n
+    setAccessControlList(final AccessControlList accessControlList)\n
     '''
 def withAccessControlList():
-    '''public CreateBucketRequest withAccessControlList(final AccessControlList accessControlList)
+    '''returns CreateBucketRequest\n\n
+    withAccessControlList(final AccessControlList accessControlList)\n
     '''

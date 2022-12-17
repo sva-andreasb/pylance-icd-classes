@@ -1,24 +1,16 @@
-def TransactionHandlerSDB():
-    '''public TransactionHandlerSDB(final SDBConnection connection)
+def ():
+    '''returns TransactionHandlerSDB\n\n
+    (final SDBConnection connection)\n
     '''
 def transactionsSupported():
-    '''public boolean transactionsSupported()
-    '''
-def begin():
-    '''public synchronized void begin()
-    '''
-def commit():
-    '''public synchronized void commit()
-    '''
-def abort():
-    '''public synchronized void abort()
-    '''
-def abortFinally():
-    '''public synchronized void abortFinally()
+    '''returns boolean\n\n
+    transactionsSupported()\n
     '''
 def abortSilent():
-    '''public void abortSilent()
+    '''returns None\n\n
+    abortSilent()\n
     '''
 def executeInTransaction():
-    '''public Object executeInTransaction(final Command c)
+    '''returns Object\n\n
+    executeInTransaction(final Command c)\n
     '''

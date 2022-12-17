@@ -1,24 +1,32 @@
-def PublicGroup():
-    '''public PublicGroup(final STId stId, final String s, final String s2, final boolean open)
+def ():
+    '''returns PublicGroup\n\n
+    (final STId stId, final String s, final String s2, final boolean open)\n
     '''
 def setGroupOpenStatus():
-    '''public void setGroupOpenStatus(final boolean open)
+    '''returns None\n\n
+    setGroupOpenStatus(final boolean open)\n
     '''
 def getGroupOpenStatus():
-    '''public boolean getGroupOpenStatus()
+    '''returns boolean\n\n
+    getGroupOpenStatus()\n
     '''
 def getBLId():
-    '''public String getBLId()
+    '''returns String\n\n
+    getBLId()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getDesc():
-    '''public String getDesc()
+    '''returns String\n\n
+    getDesc()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

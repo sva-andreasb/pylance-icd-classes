@@ -1,6 +1,8 @@
-def MaxExtIfaceInSet():
-    '''public MaxExtIfaceInSet(final MboServerInterface ms)
+def ():
+    '''returns MaxExtIfaceInSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''

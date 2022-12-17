@@ -1,15 +1,16 @@
-def OslcOASGenerator():
-    '''public OslcOASGenerator(final UserInfo userInfo, final OslcRequest request)
+def ():
+    '''returns OslcOASGenerator\n\n
+    (final UserInfo userInfo, final OslcRequest request)\n
     '''
 def generateJson():
-    '''public byte[] generateJson()
-    '''
-def readFromStream():
-    '''public static JSONObject readFromStream(final String path, final String filename)
+    '''returns byte[]\n\n
+    generateJson()\n
     '''
 def getParamsObjectSource():
-    '''public List<String> getParamsObjectSource(final String methodName)
+    '''returns List<String>\n\n
+    getParamsObjectSource(final String methodName)\n
     '''
 def getResponseObjectSource():
-    '''public List<String> getResponseObjectSource(final String methodName)
+    '''returns List<String>\n\n
+    getResponseObjectSource(final String methodName)\n
     '''

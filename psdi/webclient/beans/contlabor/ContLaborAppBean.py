@@ -1,6 +1,8 @@
 def REVCONT():
-    '''public int REVCONT()
+    '''returns int\n\n
+    REVCONT()\n
     '''
 def APPLYPRAD():
-    '''public int APPLYPRAD()
+    '''returns int\n\n
+    APPLYPRAD()\n
     '''

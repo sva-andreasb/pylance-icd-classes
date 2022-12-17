@@ -13,41 +13,53 @@ LEGEND = "String  \"legend\""
 X_REAL = "String  \"x_real\""
 LABEL_VALUE = "Object  \"value\""
 LABEL_TEXT = "Object  \"text\""
-def Series():
-    '''public Series()
-    public Series(final String name)
+def ():
+    '''returns Series\n\n
+    ()\n
+    (final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getData():
-    '''public JSONArray getData()
+    '''returns JSONArray\n\n
+    getData()\n
     '''
 def setData():
-    '''public void setData(final JSONArray data)
+    '''returns None\n\n
+    setData(final JSONArray data)\n
     '''
 def setOptions():
-    '''public void setOptions(final JSONObject options)
+    '''returns None\n\n
+    setOptions(final JSONObject options)\n
     '''
 def getOptions():
-    '''public JSONObject getOptions()
+    '''returns JSONObject\n\n
+    getOptions()\n
     '''
 def addPoint():
-    '''public JSONObject addPoint(final Number x, final Number y)
-    public JSONObject addPoint(final Number x, final String xlabel, final Number y, final String ylabel)
+    '''returns JSONObject\n\n
+    addPoint(final Number x, final Number y)\n
+    addPoint(final Number x, final String xlabel, final Number y, final String ylabel)\n
     '''
 def addPiePoint():
-    '''public JSONObject addPiePoint(final Number y, final String label, final String legend)
+    '''returns JSONObject\n\n
+    addPiePoint(final Number y, final String label, final String legend)\n
     '''
 def normalizeSequence():
-    '''public void normalizeSequence()
+    '''returns None\n\n
+    normalizeSequence()\n
     '''
 def getXLabels():
-    '''public JSONArray getXLabels()
+    '''returns JSONArray\n\n
+    getXLabels()\n
     '''
 def getYLabels():
-    '''public JSONArray getYLabels()
+    '''returns JSONArray\n\n
+    getYLabels()\n
     '''

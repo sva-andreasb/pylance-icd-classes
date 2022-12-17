@@ -1,15 +1,19 @@
 def getPos():
-    '''public int getPos()
+    '''returns int\n\n
+    getPos()\n
     '''
-def AddressException():
-    '''public AddressException()
-    public AddressException(final String s)
-    public AddressException(final String s, final String ref)
-    public AddressException(final String s, final String ref, final int pos)
+def ():
+    '''returns AddressException\n\n
+    ()\n
+    (final String s)\n
+    (final String s, final String ref)\n
+    (final String s, final String ref, final int pos)\n
     '''
 def getRef():
-    '''public String getRef()
+    '''returns String\n\n
+    getRef()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

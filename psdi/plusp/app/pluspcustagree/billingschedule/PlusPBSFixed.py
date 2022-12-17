@@ -1,15 +1,20 @@
-def PlusPBSFixed():
-    '''public PlusPBSFixed(final MboSet set)
+def ():
+    '''returns PlusPBSFixed\n\n
+    (final MboSet set)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def createSalesOrder():
-    '''public MboRemote createSalesOrder(final MboRemote mboRemote)
+    '''returns MboRemote\n\n
+    createSalesOrder(final MboRemote mboRemote)\n
     '''
 def createGBTrans():
-    '''public MboRemote createGBTrans(final MboRemote mboRemote)
+    '''returns MboRemote\n\n
+    createGBTrans(final MboRemote mboRemote)\n
     '''

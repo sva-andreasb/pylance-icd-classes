@@ -1,63 +1,83 @@
 NOVALIDATIONORACTION = "long  11L"
 MAXFRACTION = "int  10"
 def setSquaredFieldFlags():
-    '''public void setSquaredFieldFlags(final MboRemote mboRemote)
+    '''returns None\n\n
+    setSquaredFieldFlags(final MboRemote mboRemote)\n
     '''
-def PlusCFldToleranceUpdate():
-    '''public PlusCFldToleranceUpdate(final MboValue mbv)
+def ():
+    '''returns PlusCFldToleranceUpdate\n\n
+    (final MboValue mbv)\n
     '''
 def getDSConfig():
-    '''public HashMap getDSConfig()
+    '''returns HashMap\n\n
+    getDSConfig()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def checkInstrTypeSetPermissions():
-    '''public void checkInstrTypeSetPermissions(final String instrType, final MboRemote mboRemote)
+    '''returns None\n\n
+    checkInstrTypeSetPermissions(final String instrType, final MboRemote mboRemote)\n
     '''
 def hasPoints():
-    '''public boolean hasPoints(final MboRemote mboRemote)
+    '''returns boolean\n\n
+    hasPoints(final MboRemote mboRemote)\n
     '''
 def hasFuncPoints():
-    '''public boolean hasFuncPoints(final MboRemote mboRemote)
+    '''returns boolean\n\n
+    hasFuncPoints(final MboRemote mboRemote)\n
     '''
 def hasCalPoints():
-    '''public boolean hasCalPoints(final MboRemote mboRemote)
+    '''returns boolean\n\n
+    hasCalPoints(final MboRemote mboRemote)\n
     '''
 def hasDynamicPoints():
-    '''public boolean hasDynamicPoints(final MboRemote mboRemote)
+    '''returns boolean\n\n
+    hasDynamicPoints(final MboRemote mboRemote)\n
     '''
 def instrSetAsFunctional():
-    '''public boolean instrSetAsFunctional(final MboRemote mboRemote)
+    '''returns boolean\n\n
+    instrSetAsFunctional(final MboRemote mboRemote)\n
     '''
 def instrSetAsDynamic():
-    '''public boolean instrSetAsDynamic(final MboRemote mboRemote)
+    '''returns boolean\n\n
+    instrSetAsDynamic(final MboRemote mboRemote)\n
     '''
 def instrSetAsPoint():
-    '''public boolean instrSetAsPoint(final MboRemote mboRemote)
+    '''returns boolean\n\n
+    instrSetAsPoint(final MboRemote mboRemote)\n
     '''
 def setInstrType():
-    '''public void setInstrType(final MboRemote mboRemote, final boolean flag, final String instrType)
+    '''returns None\n\n
+    setInstrType(final MboRemote mboRemote, final boolean flag, final String instrType)\n
     '''
 def continueInstrTypeChange():
-    '''public boolean continueInstrTypeChange(final MboRemote mboRemote)
+    '''returns boolean\n\n
+    continueInstrTypeChange(final MboRemote mboRemote)\n
     '''
 def action():
-    '''public void action()
-    public boolean action(final boolean bFromValidate)
+    '''returns boolean\n\n
+    action()\n
+    action(final boolean bFromValidate)\n
     '''
 def formatTolerancesValues():
-    '''public void formatTolerancesValues(final MboRemote instr, final int minFraction)
+    '''returns None\n\n
+    formatTolerancesValues(final MboRemote instr, final int minFraction)\n
     '''
 def getMyInstr():
-    '''public MboRemote getMyInstr(final MboRemote mboRemote)
+    '''returns MboRemote\n\n
+    getMyInstr(final MboRemote mboRemote)\n
     '''
 def formatDouble():
-    '''public String formatDouble(final String value, final int minFraction, final boolean shouldRound)
+    '''returns String\n\n
+    formatDouble(final String value, final int minFraction, final boolean shouldRound)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def validateSetPointAdj():
-    '''public void validateSetPointAdj(final MboRemote mboRemote)
+    '''returns None\n\n
+    validateSetPointAdj(final MboRemote mboRemote)\n
     '''

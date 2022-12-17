@@ -1,20 +1,26 @@
-def CachePanel():
-    '''public CachePanel(final ConfigurationInfo configurationInfo)
+def ():
+    '''returns CachePanel\n\n
+    (final ConfigurationInfo configurationInfo)\n
     '''
 def stateChanged():
-    '''public void stateChanged(final ChangeEvent changeEvent)
+    '''returns None\n\n
+    stateChanged(final ChangeEvent changeEvent)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def insertString():
-    '''public void insertString(final int offs, final String str, final AttributeSet a)
-    public void insertString(final int offs, final String str, final AttributeSet a)
+    '''returns None\n\n
+    insertString(final int offs, final String str, final AttributeSet a)\n
+    insertString(final int offs, final String str, final AttributeSet a)\n
     '''
 def remove():
-    '''public void remove(final int offs, final int len)
-    public void remove(final int offs, final int len)
+    '''returns None\n\n
+    remove(final int offs, final int len)\n
+    remove(final int offs, final int len)\n
     '''
 def getPreferredSize():
-    '''public Dimension getPreferredSize()
+    '''returns Dimension\n\n
+    getPreferredSize()\n
     '''

@@ -1,13 +1,17 @@
-def MorphRuleGloss():
-    '''public MorphRuleGloss()
-    public MorphRuleGloss(final int n)
+def ():
+    '''returns MorphRuleGloss\n\n
+    ()\n
+    (final int n)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

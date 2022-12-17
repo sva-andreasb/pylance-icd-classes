@@ -1,30 +1,36 @@
-def LoadFlatFileCronTask():
-    '''public LoadFlatFileCronTask()
+def ():
+    '''returns LoadFlatFileCronTask\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def setCrontaskInstance():
-    '''public void setCrontaskInstance(final CrontaskInstanceRemote inst)
+    '''returns None\n\n
+    setCrontaskInstance(final CrontaskInstanceRemote inst)\n
     '''
 def releaseResources():
-    '''public void releaseResources()
+    '''returns None\n\n
+    releaseResources()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''
 def getParameters():
-    '''public CrontaskParamInfo[] getParameters()
-    '''
-def isOKToRun():
-    '''public synchronized boolean isOKToRun(final MXServerRemote server)
+    '''returns CrontaskParamInfo[]\n\n
+    getParameters()\n
     '''
 def processData():
-    '''public void processData()
+    '''returns None\n\n
+    processData()\n
     '''

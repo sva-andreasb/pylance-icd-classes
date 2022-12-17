@@ -1,6 +1,8 @@
-def FldPMSeasonsStartMonth():
-    '''public FldPMSeasonsStartMonth(final MboValue mbv)
+def ():
+    '''returns FldPMSeasonsStartMonth\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,3 +1,4 @@
-def FldRuleName():
-    '''public FldRuleName(final MboValue mbv)
+def ():
+    '''returns FldRuleName\n\n
+    (final MboValue mbv)\n
     '''

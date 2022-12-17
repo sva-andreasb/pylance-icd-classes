@@ -1,15 +1,20 @@
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def getPreHyphenText():
-    '''public String getPreHyphenText(final int index)
+    '''returns String\n\n
+    getPreHyphenText(final int index)\n
     '''
 def getPostHyphenText():
-    '''public String getPostHyphenText(final int index)
+    '''returns String\n\n
+    getPostHyphenText(final int index)\n
     '''
 def getHyphenationPoints():
-    '''public int[] getHyphenationPoints()
+    '''returns int[]\n\n
+    getHyphenationPoints()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,49 +1,65 @@
-def XmlEventBase():
-    '''public XmlEventBase()
-    public XmlEventBase(final int type)
+def ():
+    '''returns XmlEventBase\n\n
+    ()\n
+    (final int type)\n
     '''
 def setType():
-    '''public void setType(final int type)
+    '''returns None\n\n
+    setType(final int type)\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getTypeAsString():
-    '''public String getTypeAsString()
+    '''returns String\n\n
+    getTypeAsString()\n
     '''
 def isStartElement():
-    '''public boolean isStartElement()
+    '''returns boolean\n\n
+    isStartElement()\n
     '''
 def isEndElement():
-    '''public boolean isEndElement()
+    '''returns boolean\n\n
+    isEndElement()\n
     '''
 def isEntityReference():
-    '''public boolean isEntityReference()
+    '''returns boolean\n\n
+    isEntityReference()\n
     '''
 def isStartPrefixMapping():
-    '''public boolean isStartPrefixMapping()
+    '''returns boolean\n\n
+    isStartPrefixMapping()\n
     '''
 def isEndPrefixMapping():
-    '''public boolean isEndPrefixMapping()
+    '''returns boolean\n\n
+    isEndPrefixMapping()\n
     '''
 def isChangePrefixMapping():
-    '''public boolean isChangePrefixMapping()
+    '''returns boolean\n\n
+    isChangePrefixMapping()\n
     '''
 def isProcessingInstruction():
-    '''public boolean isProcessingInstruction()
+    '''returns boolean\n\n
+    isProcessingInstruction()\n
     '''
 def isCharacterData():
-    '''public boolean isCharacterData()
+    '''returns boolean\n\n
+    isCharacterData()\n
     '''
 def isSpace():
-    '''public boolean isSpace()
+    '''returns boolean\n\n
+    isSpace()\n
     '''
 def isNull():
-    '''public boolean isNull()
+    '''returns boolean\n\n
+    isNull()\n
     '''
 def isStartDocument():
-    '''public boolean isStartDocument()
+    '''returns boolean\n\n
+    isStartDocument()\n
     '''
 def isEndDocument():
-    '''public boolean isEndDocument()
+    '''returns boolean\n\n
+    isEndDocument()\n
     '''

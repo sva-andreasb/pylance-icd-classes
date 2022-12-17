@@ -1,12 +1,16 @@
-def ProcessedFiles():
-    '''public ProcessedFiles()
+def ():
+    '''returns ProcessedFiles\n\n
+    ()\n
     '''
 def manageFileEntry():
-    '''public void manageFileEntry(final BulkLoaderProperties props, final String fileNameAndDir, final String status, final boolean alreadyProcessed)
+    '''returns None\n\n
+    manageFileEntry(final BulkLoaderProperties props, final String fileNameAndDir, final String status, final boolean alreadyProcessed)\n
     '''
 def checkForEntry():
-    '''public boolean checkForEntry(final BulkLoaderProperties props, final String fileName)
+    '''returns boolean\n\n
+    checkForEntry(final BulkLoaderProperties props, final String fileName)\n
     '''
 def maintainEntries():
-    '''public void maintainEntries(final BulkLoaderProperties props)
+    '''returns None\n\n
+    maintainEntries(final BulkLoaderProperties props)\n
     '''

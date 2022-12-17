@@ -1,45 +1,47 @@
-def getInstanceFor():
-    '''public static synchronized ChatManager getInstanceFor(final XMPPConnection connection)
-    '''
 def processStanza():
-    '''public void processStanza(final Stanza packet)
+    '''returns None\n\n
+    processStanza(final Stanza packet)\n
     '''
 def isNormalIncluded():
-    '''public boolean isNormalIncluded()
+    '''returns boolean\n\n
+    isNormalIncluded()\n
     '''
 def setNormalIncluded():
-    '''public void setNormalIncluded(final boolean normalIncluded)
+    '''returns None\n\n
+    setNormalIncluded(final boolean normalIncluded)\n
     '''
 def getMatchMode():
-    '''public MatchMode getMatchMode()
+    '''returns MatchMode\n\n
+    getMatchMode()\n
     '''
 def setMatchMode():
-    '''public void setMatchMode(final MatchMode matchMode)
+    '''returns None\n\n
+    setMatchMode(final MatchMode matchMode)\n
     '''
 def createChat():
-    '''public Chat createChat(final EntityJid userJID)
-    public Chat createChat(final EntityJid userJID, final ChatMessageListener listener)
-    public Chat createChat(final EntityJid userJID, String thread, final ChatMessageListener listener)
+    '''returns Chat\n\n
+    createChat(final EntityJid userJID)\n
+    createChat(final EntityJid userJID, final ChatMessageListener listener)\n
+    createChat(final EntityJid userJID, String thread, final ChatMessageListener listener)\n
     '''
 def getThreadChat():
-    '''public Chat getThreadChat(final String thread)
+    '''returns Chat\n\n
+    getThreadChat(final String thread)\n
     '''
 def addChatListener():
-    '''public void addChatListener(final ChatManagerListener listener)
+    '''returns None\n\n
+    addChatListener(final ChatManagerListener listener)\n
     '''
 def removeChatListener():
-    '''public void removeChatListener(final ChatManagerListener listener)
+    '''returns None\n\n
+    removeChatListener(final ChatManagerListener listener)\n
     '''
 def getChatListeners():
-    '''public Set<ChatManagerListener> getChatListeners()
+    '''returns Set<ChatManagerListener>\n\n
+    getChatListeners()\n
     '''
 def addOutgoingMessageInterceptor():
-    '''public void addOutgoingMessageInterceptor(final MessageListener messageInterceptor)
-    public void addOutgoingMessageInterceptor(final MessageListener messageInterceptor, final StanzaFilter filter)
-    '''
-def setDefaultMatchMode():
-    '''public static void setDefaultMatchMode(final MatchMode mode)
-    '''
-def setDefaultIsNormalIncluded():
-    '''public static void setDefaultIsNormalIncluded(final boolean allowNormal)
+    '''returns None\n\n
+    addOutgoingMessageInterceptor(final MessageListener messageInterceptor)\n
+    addOutgoingMessageInterceptor(final MessageListener messageInterceptor, final StanzaFilter filter)\n
     '''

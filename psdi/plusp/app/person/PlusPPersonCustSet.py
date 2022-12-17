@@ -1,3 +1,4 @@
-def PlusPPersonCustSet():
-    '''public PlusPPersonCustSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPPersonCustSet\n\n
+    (final MboServerInterface ms)\n
     '''

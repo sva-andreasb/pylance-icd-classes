@@ -1,12 +1,16 @@
-def ReconOperator():
-    '''public ReconOperator(final ReconInfo reconInfo, final String operator, final int precedence, final boolean isRightAssociative)
+def ():
+    '''returns ReconOperator\n\n
+    (final ReconInfo reconInfo, final String operator, final int precedence, final boolean isRightAssociative)\n
     '''
 def getPrecedence():
-    '''public int getPrecedence()
+    '''returns int\n\n
+    getPrecedence()\n
     '''
 def isRightAssociative():
-    '''public boolean isRightAssociative()
+    '''returns boolean\n\n
+    isRightAssociative()\n
     '''
 def getOperator():
-    '''public String getOperator()
+    '''returns String\n\n
+    getOperator()\n
     '''

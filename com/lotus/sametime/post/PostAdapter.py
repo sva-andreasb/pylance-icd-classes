@@ -1,6 +1,8 @@
 def userResponded():
-    '''public void userResponded(final PostEvent postEvent)
+    '''returns None\n\n
+    userResponded(final PostEvent postEvent)\n
     '''
 def sendToUserFailed():
-    '''public void sendToUserFailed(final PostEvent postEvent)
+    '''returns None\n\n
+    sendToUserFailed(final PostEvent postEvent)\n
     '''

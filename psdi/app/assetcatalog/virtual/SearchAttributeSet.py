@@ -1,15 +1,20 @@
-def SearchAttributeSet():
-    '''public SearchAttributeSet(final MboServerInterface ms)
+def ():
+    '''returns SearchAttributeSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setSelectValueMboSet():
-    '''public void setSelectValueMboSet(final MboSetRemote mboSet)
+    '''returns None\n\n
+    setSelectValueMboSet(final MboSetRemote mboSet)\n
     '''
 def getObjectNameForUseWith():
-    '''public String getObjectNameForUseWith()
+    '''returns String\n\n
+    getObjectNameForUseWith()\n
     '''

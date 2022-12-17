@@ -1,73 +1,97 @@
 def login():
-    '''public String login(final String user, final String password, String host, final Integer port)
+    '''returns String\n\n
+    login(final String user, final String password, String host, final Integer port)\n
     '''
 def logout():
-    '''public void logout()
+    '''returns None\n\n
+    logout()\n
     '''
 def startDiscovery():
-    '''public void startDiscovery(final String[] scope, final String runName)
+    '''returns None\n\n
+    startDiscovery(final String[] scope, final String runName)\n
     '''
 def abortDiscovery():
-    '''public void abortDiscovery()
+    '''returns None\n\n
+    abortDiscovery()\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def clearTopology():
-    '''public void clearTopology()
+    '''returns None\n\n
+    clearTopology()\n
     '''
 def rebuildTopology():
-    '''public void rebuildTopology()
+    '''returns None\n\n
+    rebuildTopology()\n
     '''
 def find():
-    '''public String find(final String query, final int depth, final int indent, final String mssGuid)
+    '''returns String\n\n
+    find(final String query, final int depth, final int indent, final String mssGuid)\n
     '''
 def findUsingMssName():
-    '''public String findUsingMssName(final String query, final int depth, final int indent, final String mssName)
+    '''returns String\n\n
+    findUsingMssName(final String query, final int depth, final int indent, final String mssName)\n
     '''
 def findUsingGuid():
-    '''public String findUsingGuid(final String guid, final int depth, final int indent)
+    '''returns String\n\n
+    findUsingGuid(final String guid, final int depth, final int indent)\n
     '''
 def findBasedOnChange():
-    '''public String findBasedOnChange(final String root, final int depth, final int indent, final long start, final long end, final int changeType)
+    '''returns String\n\n
+    findBasedOnChange(final String root, final int depth, final int indent, final long start, final long end, final int changeType)\n
     '''
 def getClassNames():
-    '''public String getClassNames()
+    '''returns String\n\n
+    getClassNames()\n
     '''
 def insert():
-    '''public String insert(final String xml, final String mssGuid)
+    '''returns String\n\n
+    insert(final String xml, final String mssGuid)\n
     '''
 def insertUsingMssName():
-    '''public String insertUsingMssName(final String xml, final String mssName)
+    '''returns String\n\n
+    insertUsingMssName(final String xml, final String mssName)\n
     '''
 def getChangeHistory():
-    '''public String getChangeHistory(final String guid, final long start, final long end)
-    public String getChangeHistory(final String[] guids, final long start, final long end)
+    '''returns String\n\n
+    getChangeHistory(final String guid, final long start, final long end)\n
+    getChangeHistory(final String[] guids, final long start, final long end)\n
     '''
 def createVersion():
-    '''public String createVersion(final String name, final String description)
+    '''returns String\n\n
+    createVersion(final String name, final String description)\n
     '''
 def createEmptyVersion():
-    '''public String createEmptyVersion(final String name, final String description)
+    '''returns String\n\n
+    createEmptyVersion(final String name, final String description)\n
     '''
 def deleteVersion():
-    '''public void deleteVersion(final long versionId)
+    '''returns None\n\n
+    deleteVersion(final long versionId)\n
     '''
 def deleteVersionUsingName():
-    '''public void deleteVersionUsingName(final String versionName)
+    '''returns None\n\n
+    deleteVersionUsingName(final String versionName)\n
     '''
 def getAllVersions():
-    '''public String getAllVersions()
+    '''returns String\n\n
+    getAllVersions()\n
     '''
 def exportData():
-    '''public void exportData(final String directoryToWriteTo, final long maxfilesize, final String mssGuid)
+    '''returns None\n\n
+    exportData(final String directoryToWriteTo, final long maxfilesize, final String mssGuid)\n
     '''
 def exportDataUsingMssName():
-    '''public void exportDataUsingMssName(final String directoryToWriteTo, final long maxfilesize, final String mssName)
+    '''returns None\n\n
+    exportDataUsingMssName(final String directoryToWriteTo, final long maxfilesize, final String mssName)\n
     '''
 def importData():
-    '''public void importData(final String source, final boolean rebuildTopo, final long timeout, final String mssGuid)
+    '''returns None\n\n
+    importData(final String source, final boolean rebuildTopo, final long timeout, final String mssGuid)\n
     '''
 def importDataUsingMssName():
-    '''public void importDataUsingMssName(final String source, final boolean rebuildTopo, final long timeout, final String mssName)
+    '''returns None\n\n
+    importDataUsingMssName(final String source, final boolean rebuildTopo, final long timeout, final String mssName)\n
     '''

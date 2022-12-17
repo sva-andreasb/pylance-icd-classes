@@ -1,16 +1,16 @@
-def getInstance():
-    '''public static DERUTF8String getInstance(final Object obj)
-    public static DERUTF8String getInstance(final ASN1TaggedObject obj, final boolean explicit)
-    '''
-def DERUTF8String():
-    '''public DERUTF8String(final String string)
+def ():
+    '''returns DERUTF8String\n\n
+    (final String string)\n
     '''
 def getString():
-    '''public String getString()
+    '''returns String\n\n
+    getString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

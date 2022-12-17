@@ -1,3 +1,4 @@
 def compare():
-    '''public int compare(final Nic n1, final Nic n2)
+    '''returns int\n\n
+    compare(final Nic n1, final Nic n2)\n
     '''

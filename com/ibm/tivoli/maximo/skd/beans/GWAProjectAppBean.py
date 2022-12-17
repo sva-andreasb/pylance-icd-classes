@@ -1,61 +1,77 @@
-def GWAProjectAppBean():
-    '''public GWAProjectAppBean()
+def ():
+    '''returns GWAProjectAppBean\n\n
+    ()\n
     '''
 def getAssignLaborSet():
-    '''public AssignmentSetRemote getAssignLaborSet()
+    '''returns AssignmentSetRemote\n\n
+    getAssignLaborSet()\n
     '''
 def setAssignLaborSet():
-    '''public void setAssignLaborSet(final AssignmentSetRemote anAssignLaborSet)
+    '''returns None\n\n
+    setAssignLaborSet(final AssignmentSetRemote anAssignLaborSet)\n
     '''
 def getAssignedCrewSet():
-    '''public AssignmentSetRemote getAssignedCrewSet()
+    '''returns AssignmentSetRemote\n\n
+    getAssignedCrewSet()\n
     '''
 def setAssignCrewSet():
-    '''public void setAssignCrewSet(final AssignmentSetRemote assignCrewSet)
+    '''returns None\n\n
+    setAssignCrewSet(final AssignmentSetRemote assignCrewSet)\n
     '''
 def REFRESH():
-    '''public int REFRESH()
+    '''returns int\n\n
+    REFRESH()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def STATUS():
-    '''public int STATUS()
+    '''returns int\n\n
+    STATUS()\n
     '''
 def loadSchedule():
-    '''public GWASchedule loadSchedule()
+    '''returns GWASchedule\n\n
+    loadSchedule()\n
     '''
 def getUserInfo():
-    '''public UserInfo getUserInfo()
-    public UserInfo getUserInfo()
-    '''
-def toJsonObject():
-    '''public static JSONObject toJsonObject(final MboRemote mbo)
+    '''returns UserInfo\n\n
+    getUserInfo()\n
+    getUserInfo()\n
     '''
 def ASSIGNLAB():
-    '''public int ASSIGNLAB()
+    '''returns int\n\n
+    ASSIGNLAB()\n
     '''
 def CRWASSIGNA():
-    '''public int CRWASSIGNA()
+    '''returns int\n\n
+    CRWASSIGNA()\n
     '''
 def applink():
-    '''public int applink()
+    '''returns int\n\n
+    applink()\n
     '''
 def solutionsTabChanged():
-    '''public int solutionsTabChanged()
+    '''returns int\n\n
+    solutionsTabChanged()\n
     '''
 def isRefresh():
-    '''public boolean isRefresh()
+    '''returns boolean\n\n
+    isRefresh()\n
     '''
 def clearCurrentWeekDate():
-    '''public void clearCurrentWeekDate()
+    '''returns None\n\n
+    clearCurrentWeekDate()\n
     '''
 def getCurrentWeekDate():
-    '''public Date getCurrentWeekDate()
+    '''returns Date\n\n
+    getCurrentWeekDate()\n
     '''
 def getAssignmentLabors():
-    '''public Set<String> getAssignmentLabors()
+    '''returns Set<String>\n\n
+    getAssignmentLabors()\n
     '''

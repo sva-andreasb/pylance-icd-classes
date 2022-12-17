@@ -1,24 +1,32 @@
-def Delta():
-    '''public Delta(final Graph base)
+def ():
+    '''returns Delta\n\n
+    (final Graph base)\n
     '''
 def getAdditions():
-    '''public Graph getAdditions()
+    '''returns Graph\n\n
+    getAdditions()\n
     '''
 def getDeletions():
-    '''public Graph getDeletions()
+    '''returns Graph\n\n
+    getDeletions()\n
     '''
 def performAdd():
-    '''public void performAdd(final Triple t)
+    '''returns None\n\n
+    performAdd(final Triple t)\n
     '''
 def performDelete():
-    '''public void performDelete(final Triple t)
+    '''returns None\n\n
+    performDelete(final Triple t)\n
     '''
 def graphBaseFind():
-    '''public ExtendedIterator<Triple> graphBaseFind(final TripleMatch tm)
+    '''returns ExtendedIterator<Triple>\n\n
+    graphBaseFind(final TripleMatch tm)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def graphBaseSize():
-    '''public int graphBaseSize()
+    '''returns int\n\n
+    graphBaseSize()\n
     '''

@@ -1,6 +1,8 @@
-def FldPPCraftRateDisplayLabor():
-    '''public FldPPCraftRateDisplayLabor(final MboValue mbv)
+def ():
+    '''returns FldPPCraftRateDisplayLabor\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

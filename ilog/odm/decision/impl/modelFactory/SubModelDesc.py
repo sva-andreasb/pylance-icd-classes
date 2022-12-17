@@ -1,19 +1,21 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def SubModelDesc():
-    '''public SubModelDesc(final DescriptorFactory factory, final IloSubModelDesc desc)
+def ():
+    '''returns SubModelDesc\n\n
+    (final DescriptorFactory factory, final IloSubModelDesc desc)\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def registerConstraint():
-    '''public void registerConstraint(final String label, final IloConstraintDesc ct)
-    '''
-def getConstraintMap():
-    '''public HashMap<String, IloConstraintDesc> getConstraintMap()
+    '''returns None\n\n
+    registerConstraint(final String label, final IloConstraintDesc ct)\n
     '''
 def getDescription():
-    '''public IloSubModelDesc getDescription()
+    '''returns IloSubModelDesc\n\n
+    getDescription()\n
     '''
 def getModelProperties():
-    '''public ModelPropertiesDesc getModelProperties()
+    '''returns ModelPropertiesDesc\n\n
+    getModelProperties()\n
     '''

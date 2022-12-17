@@ -1,77 +1,90 @@
-def MockLowLevelHttpResponse():
-    '''public MockLowLevelHttpResponse()
+def ():
+    '''returns MockLowLevelHttpResponse\n\n
+    ()\n
     '''
 def addHeader():
-    '''public MockLowLevelHttpResponse addHeader(final String name, final String value)
+    '''returns MockLowLevelHttpResponse\n\n
+    addHeader(final String name, final String value)\n
     '''
 def setContent():
-    '''public MockLowLevelHttpResponse setContent(final String stringContent)
-    public MockLowLevelHttpResponse setContent(final byte[] byteContent)
-    public MockLowLevelHttpResponse setContent(final InputStream content)
+    '''returns MockLowLevelHttpResponse\n\n
+    setContent(final String stringContent)\n
+    setContent(final byte[] byteContent)\n
+    setContent(final InputStream content)\n
     '''
 def setZeroContent():
-    '''public MockLowLevelHttpResponse setZeroContent()
+    '''returns MockLowLevelHttpResponse\n\n
+    setZeroContent()\n
     '''
 def getContent():
-    '''public InputStream getContent()
+    '''returns InputStream\n\n
+    getContent()\n
     '''
 def getContentEncoding():
-    '''public String getContentEncoding()
+    '''returns String\n\n
+    getContentEncoding()\n
     '''
 def getContentLength():
-    '''public long getContentLength()
-    '''
-def getContentType():
-    '''public final String getContentType()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def getHeaderCount():
-    '''public int getHeaderCount()
+    '''returns int\n\n
+    getHeaderCount()\n
     '''
 def getHeaderName():
-    '''public String getHeaderName(final int index)
+    '''returns String\n\n
+    getHeaderName(final int index)\n
     '''
 def getHeaderValue():
-    '''public String getHeaderValue(final int index)
+    '''returns String\n\n
+    getHeaderValue(final int index)\n
     '''
 def getReasonPhrase():
-    '''public String getReasonPhrase()
+    '''returns String\n\n
+    getReasonPhrase()\n
     '''
 def getStatusCode():
-    '''public int getStatusCode()
+    '''returns int\n\n
+    getStatusCode()\n
     '''
 def getStatusLine():
-    '''public String getStatusLine()
-    '''
-def getHeaderNames():
-    '''public final List<String> getHeaderNames()
+    '''returns String\n\n
+    getStatusLine()\n
     '''
 def setHeaderNames():
-    '''public MockLowLevelHttpResponse setHeaderNames(final List<String> headerNames)
-    '''
-def getHeaderValues():
-    '''public final List<String> getHeaderValues()
+    '''returns MockLowLevelHttpResponse\n\n
+    setHeaderNames(final List<String> headerNames)\n
     '''
 def setHeaderValues():
-    '''public MockLowLevelHttpResponse setHeaderValues(final List<String> headerValues)
+    '''returns MockLowLevelHttpResponse\n\n
+    setHeaderValues(final List<String> headerValues)\n
     '''
 def setContentType():
-    '''public MockLowLevelHttpResponse setContentType(final String contentType)
+    '''returns MockLowLevelHttpResponse\n\n
+    setContentType(final String contentType)\n
     '''
 def setContentEncoding():
-    '''public MockLowLevelHttpResponse setContentEncoding(final String contentEncoding)
+    '''returns MockLowLevelHttpResponse\n\n
+    setContentEncoding(final String contentEncoding)\n
     '''
 def setContentLength():
-    '''public MockLowLevelHttpResponse setContentLength(final long contentLength)
+    '''returns MockLowLevelHttpResponse\n\n
+    setContentLength(final long contentLength)\n
     '''
 def setStatusCode():
-    '''public MockLowLevelHttpResponse setStatusCode(final int statusCode)
+    '''returns MockLowLevelHttpResponse\n\n
+    setStatusCode(final int statusCode)\n
     '''
 def setReasonPhrase():
-    '''public MockLowLevelHttpResponse setReasonPhrase(final String reasonPhrase)
+    '''returns MockLowLevelHttpResponse\n\n
+    setReasonPhrase(final String reasonPhrase)\n
     '''
 def disconnect():
-    '''public void disconnect()
+    '''returns None\n\n
+    disconnect()\n
     '''
 def isDisconnected():
-    '''public boolean isDisconnected()
+    '''returns boolean\n\n
+    isDisconnected()\n
     '''

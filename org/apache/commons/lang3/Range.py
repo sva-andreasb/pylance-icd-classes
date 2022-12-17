@@ -1,66 +1,77 @@
-def is():
-    '''public static <T extends Comparable<T>> Range<T> is(final T element)
-    public static <T> Range<T> is(final T element, final Comparator<T> comparator)
-    '''
-def between():
-    '''public static <T extends Comparable<T>> Range<T> between(final T fromInclusive, final T toInclusive)
-    public static <T> Range<T> between(final T fromInclusive, final T toInclusive, final Comparator<T> comparator)
-    '''
 def getMinimum():
-    '''public T getMinimum()
+    '''returns T\n\n
+    getMinimum()\n
     '''
 def getMaximum():
-    '''public T getMaximum()
+    '''returns T\n\n
+    getMaximum()\n
     '''
 def getComparator():
-    '''public Comparator<T> getComparator()
+    '''returns Comparator<T>\n\n
+    getComparator()\n
     '''
 def isNaturalOrdering():
-    '''public boolean isNaturalOrdering()
+    '''returns boolean\n\n
+    isNaturalOrdering()\n
     '''
 def contains():
-    '''public boolean contains(final T element)
+    '''returns boolean\n\n
+    contains(final T element)\n
     '''
 def isAfter():
-    '''public boolean isAfter(final T element)
+    '''returns boolean\n\n
+    isAfter(final T element)\n
     '''
 def isStartedBy():
-    '''public boolean isStartedBy(final T element)
+    '''returns boolean\n\n
+    isStartedBy(final T element)\n
     '''
 def isEndedBy():
-    '''public boolean isEndedBy(final T element)
+    '''returns boolean\n\n
+    isEndedBy(final T element)\n
     '''
 def isBefore():
-    '''public boolean isBefore(final T element)
+    '''returns boolean\n\n
+    isBefore(final T element)\n
     '''
 def elementCompareTo():
-    '''public int elementCompareTo(final T element)
+    '''returns int\n\n
+    elementCompareTo(final T element)\n
     '''
 def containsRange():
-    '''public boolean containsRange(final Range<T> otherRange)
+    '''returns boolean\n\n
+    containsRange(final Range<T> otherRange)\n
     '''
 def isAfterRange():
-    '''public boolean isAfterRange(final Range<T> otherRange)
+    '''returns boolean\n\n
+    isAfterRange(final Range<T> otherRange)\n
     '''
 def isOverlappedBy():
-    '''public boolean isOverlappedBy(final Range<T> otherRange)
+    '''returns boolean\n\n
+    isOverlappedBy(final Range<T> otherRange)\n
     '''
 def isBeforeRange():
-    '''public boolean isBeforeRange(final Range<T> otherRange)
+    '''returns boolean\n\n
+    isBeforeRange(final Range<T> otherRange)\n
     '''
 def intersectionWith():
-    '''public Range<T> intersectionWith(final Range<T> other)
+    '''returns Range<T>\n\n
+    intersectionWith(final Range<T> other)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final String format)
+    '''returns String\n\n
+    toString()\n
+    toString(final String format)\n
     '''
 def compare():
-    '''public int compare(final Object obj1, final Object obj2)
+    '''returns int\n\n
+    compare(final Object obj1, final Object obj2)\n
     '''

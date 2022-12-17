@@ -1,3 +1,4 @@
 def build():
-    '''public MatchNoDocsQuery build(final QueryNode queryNode)
+    '''returns MatchNoDocsQuery\n\n
+    build(final QueryNode queryNode)\n
     '''

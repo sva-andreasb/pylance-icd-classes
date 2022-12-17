@@ -1,3 +1,4 @@
-def FldContractAssetLocation():
-    '''public FldContractAssetLocation(final MboValue mbv)
+def ():
+    '''returns FldContractAssetLocation\n\n
+    (final MboValue mbv)\n
     '''

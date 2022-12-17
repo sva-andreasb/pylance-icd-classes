@@ -1,9 +1,12 @@
-def OslcActionsMetaProvider():
-    '''public OslcActionsMetaProvider(final String osName, final OslcRequest oslcRequest, final MboRemote mbo)
+def ():
+    '''returns OslcActionsMetaProvider\n\n
+    (final String osName, final OslcRequest oslcRequest, final MboRemote mbo)\n
     '''
 def getAllowedActionsList():
-    '''public OslcResourceResponse getAllowedActionsList()
+    '''returns OslcResourceResponse\n\n
+    getAllowedActionsList()\n
     '''
 def getAllowedActionsJSON():
-    '''public JSONObject getAllowedActionsJSON()
+    '''returns JSONObject\n\n
+    getAllowedActionsJSON()\n
     '''

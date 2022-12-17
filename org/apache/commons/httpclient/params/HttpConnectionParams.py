@@ -6,44 +6,58 @@ SO_LINGER = "String  \"http.socket.linger\""
 CONNECTION_TIMEOUT = "String  \"http.connection.timeout\""
 STALE_CONNECTION_CHECK = "String  \"http.connection.stalecheck\""
 def getSoTimeout():
-    '''public int getSoTimeout()
+    '''returns int\n\n
+    getSoTimeout()\n
     '''
 def setSoTimeout():
-    '''public void setSoTimeout(final int timeout)
+    '''returns None\n\n
+    setSoTimeout(final int timeout)\n
     '''
 def setTcpNoDelay():
-    '''public void setTcpNoDelay(final boolean value)
+    '''returns None\n\n
+    setTcpNoDelay(final boolean value)\n
     '''
 def getTcpNoDelay():
-    '''public boolean getTcpNoDelay()
+    '''returns boolean\n\n
+    getTcpNoDelay()\n
     '''
 def getSendBufferSize():
-    '''public int getSendBufferSize()
+    '''returns int\n\n
+    getSendBufferSize()\n
     '''
 def setSendBufferSize():
-    '''public void setSendBufferSize(final int size)
+    '''returns None\n\n
+    setSendBufferSize(final int size)\n
     '''
 def getReceiveBufferSize():
-    '''public int getReceiveBufferSize()
+    '''returns int\n\n
+    getReceiveBufferSize()\n
     '''
 def setReceiveBufferSize():
-    '''public void setReceiveBufferSize(final int size)
+    '''returns None\n\n
+    setReceiveBufferSize(final int size)\n
     '''
 def getLinger():
-    '''public int getLinger()
+    '''returns int\n\n
+    getLinger()\n
     '''
 def setLinger():
-    '''public void setLinger(final int value)
+    '''returns None\n\n
+    setLinger(final int value)\n
     '''
 def getConnectionTimeout():
-    '''public int getConnectionTimeout()
+    '''returns int\n\n
+    getConnectionTimeout()\n
     '''
 def setConnectionTimeout():
-    '''public void setConnectionTimeout(final int timeout)
+    '''returns None\n\n
+    setConnectionTimeout(final int timeout)\n
     '''
 def isStaleCheckingEnabled():
-    '''public boolean isStaleCheckingEnabled()
+    '''returns boolean\n\n
+    isStaleCheckingEnabled()\n
     '''
 def setStaleCheckingEnabled():
-    '''public void setStaleCheckingEnabled(final boolean value)
+    '''returns None\n\n
+    setStaleCheckingEnabled(final boolean value)\n
     '''

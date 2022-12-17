@@ -1,9 +1,12 @@
-def TLOAMPromoteValues():
-    '''public TLOAMPromoteValues(final MboSet ms)
+def ():
+    '''returns TLOAMPromoteValues\n\n
+    (final MboSet ms)\n
     '''
 def applyDefaults():
-    '''public void applyDefaults()
+    '''returns None\n\n
+    applyDefaults()\n
     '''
 def clearDefaults():
-    '''public void clearDefaults()
+    '''returns None\n\n
+    clearDefaults()\n
     '''

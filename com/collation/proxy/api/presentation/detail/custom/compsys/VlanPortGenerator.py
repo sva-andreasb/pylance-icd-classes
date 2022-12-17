@@ -1,9 +1,12 @@
-def VlanPortGenerator():
-    '''public VlanPortGenerator()
+def ():
+    '''returns VlanPortGenerator\n\n
+    ()\n
     '''
 def getModel():
-    '''public DetailTableModel getModel()
+    '''returns DetailTableModel\n\n
+    getModel()\n
     '''
 def compare():
-    '''public int compare(final Object obj1, final Object obj2)
+    '''returns int\n\n
+    compare(final Object obj1, final Object obj2)\n
     '''

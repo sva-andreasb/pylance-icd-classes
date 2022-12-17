@@ -1,28 +1,33 @@
-def OslcResourceProperty():
-    '''public OslcResourceProperty(final String identifier)
-    public OslcResourceProperty(final String identifier, final String alias)
+def ():
+    '''returns OslcResourceProperty\n\n
+    (final String identifier)\n
+    (final String identifier, final String alias)\n
     '''
 def setNestedProperty():
-    '''public void setNestedProperty(final OslcResourceProperty property)
+    '''returns None\n\n
+    setNestedProperty(final OslcResourceProperty property)\n
     '''
 def setNestedProperties():
-    '''public void setNestedProperties(final Map<String, OslcResourceProperty> nestedProperties)
+    '''returns None\n\n
+    setNestedProperties(final Map<String, OslcResourceProperty> nestedProperties)\n
     '''
 def getIdentifier():
-    '''public String getIdentifier()
+    '''returns String\n\n
+    getIdentifier()\n
     '''
 def getAlias():
-    '''public String getAlias()
+    '''returns String\n\n
+    getAlias()\n
     '''
 def hasAlias():
-    '''public boolean hasAlias()
-    '''
-def getNestedProperties():
-    '''public Map<String, OslcResourceProperty> getNestedProperties()
+    '''returns boolean\n\n
+    hasAlias()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

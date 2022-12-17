@@ -1,21 +1,20 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def updateClassstructure():
-    '''public void updateClassstructure(final String hierarchypath)
+    '''returns None\n\n
+    updateClassstructure(final String hierarchypath)\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
-    '''
-def getQbe():
-    '''public synchronized String getQbe(final String attribute)
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
-    '''
-def restoreSavedQuickQueryQbeSettings():
-    '''public synchronized void restoreSavedQuickQueryQbeSettings(final Hashtable<String, String> savedQuickQueryQbeAttributes)
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''

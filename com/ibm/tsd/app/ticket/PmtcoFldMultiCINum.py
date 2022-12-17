@@ -1,6 +1,8 @@
-def PmtcoFldMultiCINum():
-    '''public PmtcoFldMultiCINum(final MboValue mbv)
+def ():
+    '''returns PmtcoFldMultiCINum\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

@@ -1,16 +1,21 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def ProgressMap():
-    '''public ProgressMap()
+def ():
+    '''returns ProgressMap\n\n
+    ()\n
     '''
 def fetchDataModel():
-    '''public int fetchDataModel()
+    '''returns int\n\n
+    fetchDataModel()\n
     '''
 def processNodes():
-    '''public void processNodes()
+    '''returns None\n\n
+    processNodes()\n
     '''
 def createMap():
-    '''public void createMap(final String pmcomflowseq, final String status)
+    '''returns None\n\n
+    createMap(final String pmcomflowseq, final String status)\n
     '''
 def getDomainValue():
-    '''public String getDomainValue(final MboRemote mbo, final String attribute, final String value)
+    '''returns String\n\n
+    getDomainValue(final MboRemote mbo, final String attribute, final String value)\n
     '''

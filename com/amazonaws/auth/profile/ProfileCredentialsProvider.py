@@ -1,24 +1,31 @@
-def ProfileCredentialsProvider():
-    '''public ProfileCredentialsProvider()
-    public ProfileCredentialsProvider(final String profileName)
-    public ProfileCredentialsProvider(final String profilesConfigFilePath, final String profileName)
-    public ProfileCredentialsProvider(final ProfilesConfigFile profilesConfigFile, final String profileName)
+def ():
+    '''returns ProfileCredentialsProvider\n\n
+    ()\n
+    (final String profileName)\n
+    (final String profilesConfigFilePath, final String profileName)\n
+    (final ProfilesConfigFile profilesConfigFile, final String profileName)\n
     '''
 def getCredentials():
-    '''public AWSCredentials getCredentials()
+    '''returns AWSCredentials\n\n
+    getCredentials()\n
     '''
 def refresh():
-    '''public void refresh()
+    '''returns None\n\n
+    refresh()\n
     '''
 def getRefreshIntervalNanos():
-    '''public long getRefreshIntervalNanos()
+    '''returns long\n\n
+    getRefreshIntervalNanos()\n
     '''
 def setRefreshIntervalNanos():
-    '''public void setRefreshIntervalNanos(final long refreshIntervalNanos)
+    '''returns None\n\n
+    setRefreshIntervalNanos(final long refreshIntervalNanos)\n
     '''
 def getRefreshForceIntervalNanos():
-    '''public long getRefreshForceIntervalNanos()
+    '''returns long\n\n
+    getRefreshForceIntervalNanos()\n
     '''
 def setRefreshForceIntervalNanos():
-    '''public void setRefreshForceIntervalNanos(final long refreshForceIntervalNanos)
+    '''returns None\n\n
+    setRefreshForceIntervalNanos(final long refreshForceIntervalNanos)\n
     '''

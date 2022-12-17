@@ -3,12 +3,15 @@ URL = "String  \"URL\""
 PUSHEXIT = "String  \"PUSHEXIT\""
 APIKEY = "String  \"APIKEY\""
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
-def AndroidPushNotificationHandler():
-    '''public AndroidPushNotificationHandler(final MaxEndPointInfo endPointInfo)
-    public AndroidPushNotificationHandler()
+def ():
+    '''returns AndroidPushNotificationHandler\n\n
+    (final MaxEndPointInfo endPointInfo)\n
+    ()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map metaData, byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map metaData, byte[] data)\n
     '''

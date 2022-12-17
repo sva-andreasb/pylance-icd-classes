@@ -1,18 +1,24 @@
 def setStatusLevel():
-    '''public void setStatusLevel(final String val)
+    '''returns None\n\n
+    setStatusLevel(final String val)\n
     '''
 def getStatusLevel():
-    '''public String getStatusLevel()
+    '''returns String\n\n
+    getStatusLevel()\n
     '''
 def setDescription():
-    '''public void setDescription(final String val)
+    '''returns None\n\n
+    setDescription(final String val)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setStartPage():
-    '''public void setStartPage(final String val)
+    '''returns None\n\n
+    setStartPage(final String val)\n
     '''
 def getStartPage():
-    '''public String getStartPage()
+    '''returns String\n\n
+    getStartPage()\n
     '''

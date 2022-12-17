@@ -1,60 +1,76 @@
-def ShowActualMboSet():
-    '''public ShowActualMboSet(final MboRemote owner, final String name, final String relationship)
+def ():
+    '''returns ShowActualMboSet\n\n
+    (final MboRemote owner, final String name, final String relationship)\n
     '''
 def getName():
-    '''public String getName()
-    '''
-def setOwner():
-    '''public final void setOwner(final MboRemote mbo)
+    '''returns String\n\n
+    getName()\n
     '''
 def setCurrentWorkOrder():
-    '''public void setCurrentWorkOrder(final MboRemote mbo)
+    '''returns None\n\n
+    setCurrentWorkOrder(final MboRemote mbo)\n
     '''
 def fetchMbos():
-    '''public void fetchMbos(final int toPosition)
+    '''returns None\n\n
+    fetchMbos(final int toPosition)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def fetchMbosOriginal():
-    '''public void fetchMbosOriginal(final int toPosition)
+    '''returns None\n\n
+    fetchMbosOriginal(final int toPosition)\n
     '''
 def setAppWhere():
-    '''public void setAppWhere(final String appWhere)
+    '''returns None\n\n
+    setAppWhere(final String appWhere)\n
     '''
 def getAppWhere():
-    '''public String getAppWhere()
+    '''returns String\n\n
+    getAppWhere()\n
     '''
 def setOrderBy():
-    '''public void setOrderBy(final String orderByClause)
+    '''returns None\n\n
+    setOrderBy(final String orderByClause)\n
     '''
 def getOrderBy():
-    '''public String getOrderBy()
+    '''returns String\n\n
+    getOrderBy()\n
     '''
 def addAtIndex():
-    '''public MboRemote addAtIndex(final long accessModifier, final int index)
+    '''returns MboRemote\n\n
+    addAtIndex(final long accessModifier, final int index)\n
     '''
 def getZombie():
-    '''public MboRemote getZombie()
+    '''returns MboRemote\n\n
+    getZombie()\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''
 def checkMethodAccess():
-    '''public void checkMethodAccess(final String method)
+    '''returns None\n\n
+    checkMethodAccess(final String method)\n
     '''
 def addedMbo():
-    '''public void addedMbo(final MboRemote newMbo, final int position)
+    '''returns None\n\n
+    addedMbo(final MboRemote newMbo, final int position)\n
     '''
 def removedMbo():
-    '''public void removedMbo(final MboRemote newMbo, final int position)
+    '''returns None\n\n
+    removedMbo(final MboRemote newMbo, final int position)\n
     '''
 def modifiedMbo():
-    '''public void modifiedMbo(final MboRemote modifiedMbo)
+    '''returns None\n\n
+    modifiedMbo(final MboRemote modifiedMbo)\n
     '''
 def returnIPCParts():
-    '''public void returnIPCParts(final IpcSelectedPartsSetRemote partset)
+    '''returns None\n\n
+    returnIPCParts(final IpcSelectedPartsSetRemote partset)\n
     '''
 def preValidateIpcBom():
-    '''public void preValidateIpcBom(final IpcBomSetRemote bomset)
+    '''returns None\n\n
+    preValidateIpcBom(final IpcBomSetRemote bomset)\n
     '''

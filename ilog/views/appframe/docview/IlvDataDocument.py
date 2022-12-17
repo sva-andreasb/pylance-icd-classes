@@ -1,14 +1,18 @@
 DATA_PROPERTY = "String  \"Data\""
-def IlvDataDocument():
-    '''public IlvDataDocument()
-    public IlvDataDocument(final Object data)
+def ():
+    '''returns IlvDataDocument\n\n
+    ()\n
+    (final Object data)\n
     '''
 def initializeDocument():
-    '''public boolean initializeDocument(final Object data)
+    '''returns boolean\n\n
+    initializeDocument(final Object data)\n
     '''
 def getData():
-    '''public Object getData()
+    '''returns Object\n\n
+    getData()\n
     '''
 def setData():
-    '''public void setData(final Object o)
+    '''returns None\n\n
+    setData(final Object o)\n
     '''

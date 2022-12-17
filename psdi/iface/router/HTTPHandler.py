@@ -21,34 +21,40 @@ ALLRESPONSEHEADERS = "String  \"ALLRESPONSEHEADERS\""
 RESPONSE_STATUS = "String  \"RESPONSE_STATUS\""
 RESPONSE_STATUS_TEXT = "String  \"RESPONSE_STATUS_TEXT\""
 FIREANDFORGET = "String  \"FIREANDFORGET\""
-def HTTPHandler():
-    '''public HTTPHandler(final MaxEndPointInfo endPointInfo)
-    public HTTPHandler()
+def ():
+    '''returns HTTPHandler\n\n
+    (final MaxEndPointInfo endPointInfo)\n
+    ()\n
     '''
 def invoke():
-    '''public byte[] invoke(final Map metaData, byte[] data)
+    '''returns byte[]\n\n
+    invoke(final Map metaData, byte[] data)\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
 def getReadTimeout():
-    '''public int getReadTimeout()
+    '''returns int\n\n
+    getReadTimeout()\n
     '''
 def getConnectTimeout():
-    '''public int getConnectTimeout()
+    '''returns int\n\n
+    getConnectTimeout()\n
     '''
 def getHttpExitName():
-    '''public String getHttpExitName()
+    '''returns String\n\n
+    getHttpExitName()\n
     '''
 def getUrl():
-    '''public String getUrl()
+    '''returns String\n\n
+    getUrl()\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def getHttpMethod():
-    '''public String getHttpMethod()
-    '''
-def encode():
-    '''public static String encode(final String userName, final String password)
+    '''returns String\n\n
+    getHttpMethod()\n
     '''

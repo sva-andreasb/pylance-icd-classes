@@ -1,25 +1,33 @@
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
-def MimeTypeParameterList():
-    '''public MimeTypeParameterList()
-    public MimeTypeParameterList(final String parameterList)
+def ():
+    '''returns MimeTypeParameterList\n\n
+    ()\n
+    (final String parameterList)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def remove():
-    '''public void remove(final String name)
+    '''returns None\n\n
+    remove(final String name)\n
     '''
 def getNames():
-    '''public Enumeration getNames()
+    '''returns Enumeration\n\n
+    getNames()\n
     '''
 def get():
-    '''public String get(final String name)
+    '''returns String\n\n
+    get(final String name)\n
     '''
 def set():
-    '''public void set(final String name, final String value)
+    '''returns None\n\n
+    set(final String name, final String value)\n
     '''

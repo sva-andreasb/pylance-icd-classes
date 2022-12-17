@@ -1,10 +1,12 @@
-def SecurityException():
-    '''public SecurityException(final String message, final Throwable cause, final Object... parameters)
-    public SecurityException(final String message, final Object... parameters)
-    public SecurityException(final int code, final String message)
-    public SecurityException(final String code)
-    public SecurityException(final Throwable e)
+def ():
+    '''returns SecurityException\n\n
+    (final String message, final Throwable cause, final Object... parameters)\n
+    (final String message, final Object... parameters)\n
+    (final int code, final String message)\n
+    (final String code)\n
+    (final Throwable e)\n
     '''
 def getRestStatusCode():
-    '''public int getRestStatusCode()
+    '''returns int\n\n
+    getRestStatusCode()\n
     '''

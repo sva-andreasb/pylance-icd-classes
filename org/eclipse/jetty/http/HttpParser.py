@@ -20,95 +20,125 @@ STATE_CHUNK_SIZE = "int  4"
 STATE_CHUNK_PARAMS = "int  5"
 STATE_CHUNK = "int  6"
 STATE_SEEKING_EOF = "int  7"
-def HttpParser():
-    '''public HttpParser(final Buffer buffer, final EventHandler handler)
-    public HttpParser(final Buffers buffers, final EndPoint endp, final EventHandler handler)
+def ():
+    '''returns HttpParser\n\n
+    (final Buffer buffer, final EventHandler handler)\n
+    (final Buffers buffers, final EndPoint endp, final EventHandler handler)\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def getContentRead():
-    '''public long getContentRead()
+    '''returns long\n\n
+    getContentRead()\n
     '''
 def setHeadResponse():
-    '''public void setHeadResponse(final boolean head)
+    '''returns None\n\n
+    setHeadResponse(final boolean head)\n
     '''
 def getState():
-    '''public int getState()
+    '''returns int\n\n
+    getState()\n
     '''
 def inContentState():
-    '''public boolean inContentState()
+    '''returns boolean\n\n
+    inContentState()\n
     '''
 def inHeaderState():
-    '''public boolean inHeaderState()
+    '''returns boolean\n\n
+    inHeaderState()\n
     '''
 def isChunking():
-    '''public boolean isChunking()
+    '''returns boolean\n\n
+    isChunking()\n
     '''
 def isIdle():
-    '''public boolean isIdle()
+    '''returns boolean\n\n
+    isIdle()\n
     '''
 def isComplete():
-    '''public boolean isComplete()
+    '''returns boolean\n\n
+    isComplete()\n
     '''
 def isMoreInBuffer():
-    '''public boolean isMoreInBuffer()
+    '''returns boolean\n\n
+    isMoreInBuffer()\n
     '''
 def isState():
-    '''public boolean isState(final int state)
+    '''returns boolean\n\n
+    isState(final int state)\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def setPersistent():
-    '''public void setPersistent(final boolean persistent)
+    '''returns None\n\n
+    setPersistent(final boolean persistent)\n
     '''
 def parse():
-    '''public void parse()
+    '''returns None\n\n
+    parse()\n
     '''
 def parseAvailable():
-    '''public boolean parseAvailable()
+    '''returns boolean\n\n
+    parseAvailable()\n
     '''
 def parseNext():
-    '''public int parseNext()
+    '''returns int\n\n
+    parseNext()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def returnBuffers():
-    '''public void returnBuffers()
+    '''returns None\n\n
+    returnBuffers()\n
     '''
 def setState():
-    '''public void setState(final int state)
+    '''returns None\n\n
+    setState(final int state)\n
     '''
 def toString():
-    '''public String toString(final Buffer buf)
-    public String toString()
+    '''returns String\n\n
+    toString(final Buffer buf)\n
+    toString()\n
     '''
 def getHeaderBuffer():
-    '''public Buffer getHeaderBuffer()
+    '''returns Buffer\n\n
+    getHeaderBuffer()\n
     '''
 def getBodyBuffer():
-    '''public Buffer getBodyBuffer()
+    '''returns Buffer\n\n
+    getBodyBuffer()\n
     '''
 def setForceContentBuffer():
-    '''public void setForceContentBuffer(final boolean force)
+    '''returns None\n\n
+    setForceContentBuffer(final boolean force)\n
     '''
 def blockForContent():
-    '''public Buffer blockForContent(final long maxIdleTime)
+    '''returns Buffer\n\n
+    blockForContent(final long maxIdleTime)\n
     '''
 def available():
-    '''public int available()
+    '''returns int\n\n
+    available()\n
     '''
 def headerComplete():
-    '''public void headerComplete()
+    '''returns None\n\n
+    headerComplete()\n
     '''
 def messageComplete():
-    '''public void messageComplete(final long contentLength)
+    '''returns None\n\n
+    messageComplete(final long contentLength)\n
     '''
 def parsedHeader():
-    '''public void parsedHeader(final Buffer name, final Buffer value)
+    '''returns None\n\n
+    parsedHeader(final Buffer name, final Buffer value)\n
     '''
 def earlyEOF():
-    '''public void earlyEOF()
+    '''returns None\n\n
+    earlyEOF()\n
     '''

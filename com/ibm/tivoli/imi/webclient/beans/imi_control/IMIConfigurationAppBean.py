@@ -1,6 +1,8 @@
 def APPLY():
-    '''public int APPLY()
+    '''returns int\n\n
+    APPLY()\n
     '''
 def CLOSE_CON():
-    '''public int CLOSE_CON()
+    '''returns int\n\n
+    CLOSE_CON()\n
     '''

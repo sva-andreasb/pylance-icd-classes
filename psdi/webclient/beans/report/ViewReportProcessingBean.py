@@ -1,6 +1,8 @@
 def cancelReport():
-    '''public int cancelReport()
+    '''returns int\n\n
+    cancelReport()\n
     '''
 def refreshReport():
-    '''public int refreshReport()
+    '''returns int\n\n
+    refreshReport()\n
     '''

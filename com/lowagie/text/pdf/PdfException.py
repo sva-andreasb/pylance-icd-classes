@@ -1,3 +1,4 @@
-def PdfException():
-    '''public PdfException(final Exception ex)
+def ():
+    '''returns PdfException\n\n
+    (final Exception ex)\n
     '''

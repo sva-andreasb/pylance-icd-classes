@@ -1,12 +1,16 @@
-def BadIDException():
-    '''public BadIDException(final String s, final Map map, final String id, final HelpSet hs)
+def ():
+    '''returns BadIDException\n\n
+    (final String s, final Map map, final String id, final HelpSet hs)\n
     '''
 def getMap():
-    '''public Map getMap()
+    '''returns Map\n\n
+    getMap()\n
     '''
 def getID():
-    '''public String getID()
+    '''returns String\n\n
+    getID()\n
     '''
 def getHelpSet():
-    '''public HelpSet getHelpSet()
+    '''returns HelpSet\n\n
+    getHelpSet()\n
     '''

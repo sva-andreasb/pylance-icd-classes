@@ -1,67 +1,89 @@
-def SAXOMBuilder():
-    '''public SAXOMBuilder(final OMFactory factory)
-    public SAXOMBuilder()
+def ():
+    '''returns SAXOMBuilder\n\n
+    (final OMFactory factory)\n
+    ()\n
     '''
 def setDocumentLocator():
-    '''public void setDocumentLocator(final Locator arg0)
+    '''returns None\n\n
+    setDocumentLocator(final Locator arg0)\n
     '''
 def startDocument():
-    '''public void startDocument()
+    '''returns None\n\n
+    startDocument()\n
     '''
 def endDocument():
-    '''public void endDocument()
+    '''returns None\n\n
+    endDocument()\n
     '''
 def startDTD():
-    '''public void startDTD(final String name, final String publicId, final String systemId)
+    '''returns None\n\n
+    startDTD(final String name, final String publicId, final String systemId)\n
     '''
 def endDTD():
-    '''public void endDTD()
+    '''returns None\n\n
+    endDTD()\n
     '''
 def startPrefixMapping():
-    '''public void startPrefixMapping(final String prefix, final String uri)
+    '''returns None\n\n
+    startPrefixMapping(final String prefix, final String uri)\n
     '''
 def endPrefixMapping():
-    '''public void endPrefixMapping(final String arg0)
+    '''returns None\n\n
+    endPrefixMapping(final String arg0)\n
     '''
 def startElement():
-    '''public void startElement(final String namespaceURI, String localName, final String qName, final Attributes atts)
+    '''returns None\n\n
+    startElement(final String namespaceURI, String localName, final String qName, final Attributes atts)\n
     '''
 def endElement():
-    '''public void endElement(final String arg0, final String arg1, final String arg2)
+    '''returns None\n\n
+    endElement(final String arg0, final String arg1, final String arg2)\n
     '''
 def startCDATA():
-    '''public void startCDATA()
+    '''returns None\n\n
+    startCDATA()\n
     '''
 def endCDATA():
-    '''public void endCDATA()
+    '''returns None\n\n
+    endCDATA()\n
     '''
 def characterData():
-    '''public void characterData(final char[] ch, final int start, final int length, final int nodeType)
+    '''returns None\n\n
+    characterData(final char[] ch, final int start, final int length, final int nodeType)\n
     '''
 def characters():
-    '''public void characters(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    characters(final char[] ch, final int start, final int length)\n
     '''
 def ignorableWhitespace():
-    '''public void ignorableWhitespace(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    ignorableWhitespace(final char[] ch, final int start, final int length)\n
     '''
 def processingInstruction():
-    '''public void processingInstruction(final String target, final String data)
+    '''returns None\n\n
+    processingInstruction(final String target, final String data)\n
     '''
 def comment():
-    '''public void comment(final char[] ch, final int start, final int length)
+    '''returns None\n\n
+    comment(final char[] ch, final int start, final int length)\n
     '''
 def skippedEntity():
-    '''public void skippedEntity(final String arg0)
+    '''returns None\n\n
+    skippedEntity(final String arg0)\n
     '''
 def startEntity():
-    '''public void startEntity(final String name)
+    '''returns None\n\n
+    startEntity(final String name)\n
     '''
 def endEntity():
-    '''public void endEntity(final String name)
+    '''returns None\n\n
+    endEntity(final String name)\n
     '''
 def getDocument():
-    '''public OMDocument getDocument()
+    '''returns OMDocument\n\n
+    getDocument()\n
     '''
 def getRootElement():
-    '''public OMElement getRootElement()
+    '''returns OMElement\n\n
+    getRootElement()\n
     '''

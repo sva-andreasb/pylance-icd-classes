@@ -1,24 +1,28 @@
-def ApptAssignMiniAppBean():
-    '''public ApptAssignMiniAppBean()
-    '''
-def getApptActions():
-    '''public HashMap<String, ApptActionInfo> getApptActions()
+def ():
+    '''returns ApptAssignMiniAppBean\n\n
+    ()\n
     '''
 def loadWeatherData():
-    '''public JSONObject loadWeatherData()
+    '''returns JSONObject\n\n
+    loadWeatherData()\n
     '''
 def getDefaultUIJason():
-    '''public JSONObject getDefaultUIJason()
+    '''returns JSONObject\n\n
+    getDefaultUIJason()\n
     '''
 def getApptBook():
-    '''public MboRemote getApptBook()
+    '''returns MboRemote\n\n
+    getApptBook()\n
     '''
 def getModelLoader():
-    '''public ModelLoader getModelLoader()
+    '''returns ModelLoader\n\n
+    getModelLoader()\n
     '''
 def filterCss():
-    '''public String filterCss(final String css, final MiniAppControl control)
+    '''returns String\n\n
+    filterCss(final String css, final MiniAppControl control)\n
     '''
 def getResolverWithCellText():
-    '''public FunctionMapResolver getResolverWithCellText()
+    '''returns FunctionMapResolver\n\n
+    getResolverWithCellText()\n
     '''

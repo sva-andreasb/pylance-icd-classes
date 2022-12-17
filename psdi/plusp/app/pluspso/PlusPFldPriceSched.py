@@ -1,6 +1,8 @@
-def PlusPFldPriceSched():
-    '''public PlusPFldPriceSched(final MboValue mbv)
+def ():
+    '''returns PlusPFldPriceSched\n\n
+    (final MboValue mbv)\n
     '''
 def action():
-    '''public void action()
+    '''returns None\n\n
+    action()\n
     '''

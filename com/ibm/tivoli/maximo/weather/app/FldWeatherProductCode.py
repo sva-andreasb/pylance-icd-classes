@@ -1,3 +1,4 @@
-def FldWeatherProductCode():
-    '''public FldWeatherProductCode(final MboValue mbv)
+def ():
+    '''returns FldWeatherProductCode\n\n
+    (final MboValue mbv)\n
     '''

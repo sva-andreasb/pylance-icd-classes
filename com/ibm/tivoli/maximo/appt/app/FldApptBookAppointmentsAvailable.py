@@ -1,6 +1,8 @@
-def FldApptBookAppointmentsAvailable():
-    '''public FldApptBookAppointmentsAvailable(final MboValue mbv)
+def ():
+    '''returns FldApptBookAppointmentsAvailable\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

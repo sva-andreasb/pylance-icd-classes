@@ -1,6 +1,8 @@
-def FldApiRouteOption():
-    '''public FldApiRouteOption(final MboValue mbv)
+def ():
+    '''returns FldApiRouteOption\n\n
+    (final MboValue mbv)\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''

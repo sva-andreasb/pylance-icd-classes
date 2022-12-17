@@ -1,106 +1,116 @@
-def ClusterDescriptionImpl():
-    '''public ClusterDescriptionImpl(final DescriptionKey key)
+def ():
+    '''returns ClusterDescriptionImpl\n\n
+    (final DescriptionKey key)\n
     '''
 def getDefinitionKey():
-    '''public String getDefinitionKey()
-    '''
-def setStructuralEpoch():
-    '''public synchronized void setStructuralEpoch(final long epoch)
+    '''returns String\n\n
+    getDefinitionKey()\n
     '''
 def setClusterScopedData():
-    '''public void setClusterScopedData(final DescriptionKey dataKey, final byte[] data)
+    '''returns None\n\n
+    setClusterScopedData(final DescriptionKey dataKey, final byte[] data)\n
     '''
 def setClusterWeightTable():
-    '''public void setClusterWeightTable(final Map weightTable)
+    '''returns None\n\n
+    setClusterWeightTable(final Map weightTable)\n
     '''
 def setClusterWeightTableEntry():
-    '''public void setClusterWeightTableEntry(final DescriptionKey memberKey, final Integer weight)
+    '''returns None\n\n
+    setClusterWeightTableEntry(final DescriptionKey memberKey, final Integer weight)\n
     '''
 def setClusterIdentityForWeightTable():
-    '''public void setClusterIdentityForWeightTable(final Identity parentClusterIdentity)
+    '''returns None\n\n
+    setClusterIdentityForWeightTable(final Identity parentClusterIdentity)\n
     '''
 def removeClusterScopedData():
-    '''public void removeClusterScopedData(final DescriptionKey dataKey)
-    '''
-def setInfluentialEpoch():
-    '''public synchronized void setInfluentialEpoch(final long epoch)
+    '''returns None\n\n
+    removeClusterScopedData(final DescriptionKey dataKey)\n
     '''
 def addMember():
-    '''public void addMember(final ClusterMemberDescription member)
-    public void addMember(final ClusterMemberDescription member, final int delay)
+    '''returns None\n\n
+    addMember(final ClusterMemberDescription member)\n
+    addMember(final ClusterMemberDescription member, final int delay)\n
     '''
 def removeMember():
-    '''public void removeMember(final ClusterMemberDescription member)
-    public void removeMember(final ClusterMemberDescription member, final int delay)
-    '''
-def setSelectionDescription():
-    '''public synchronized void setSelectionDescription(final SelectionDescription selection)
-    '''
-def setBackupCluster():
-    '''public synchronized void setBackupCluster(final ClusterDescription backupCluster)
-    '''
-def exportToStream():
-    '''public synchronized void exportToStream(final DataOutput out, final Format format)
+    '''returns None\n\n
+    removeMember(final ClusterMemberDescription member)\n
+    removeMember(final ClusterMemberDescription member, final int delay)\n
     '''
 def handleNotification():
-    '''public void handleNotification(final DescriptionKey key, final String type, final Object data, final Object handback)
+    '''returns None\n\n
+    handleNotification(final DescriptionKey key, final String type, final Object data, final Object handback)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def setMemento():
-    '''public void setMemento(final Description.Memento memento)
+    '''returns None\n\n
+    setMemento(final Description.Memento memento)\n
     '''
 def setQuiesce():
-    '''public void setQuiesce(final Identity member)
+    '''returns None\n\n
+    setQuiesce(final Identity member)\n
     '''
 def unsetQuiesce():
-    '''public void unsetQuiesce(final Identity member)
-    '''
-def getWeightTableKey():
-    '''public static DescriptionKey getWeightTableKey(final DescriptionKey cluster)
+    '''returns None\n\n
+    unsetQuiesce(final Identity member)\n
     '''
 def getStructuralEpoch():
-    '''public long getStructuralEpoch()
+    '''returns long\n\n
+    getStructuralEpoch()\n
     '''
 def getClusterMembers():
-    '''public Iterator getClusterMembers()
+    '''returns Iterator\n\n
+    getClusterMembers()\n
     '''
 def getMembers():
-    '''public Map getMembers()
+    '''returns Map\n\n
+    getMembers()\n
     '''
 def getMemberEntrySet():
-    '''public Set getMemberEntrySet()
+    '''returns Set\n\n
+    getMemberEntrySet()\n
     '''
 def getWeightTable():
-    '''public Map getWeightTable()
+    '''returns Map\n\n
+    getWeightTable()\n
     '''
 def getWeightTableEntry():
-    '''public int getWeightTableEntry(final DescriptionKey memberKey)
+    '''returns int\n\n
+    getWeightTableEntry(final DescriptionKey memberKey)\n
     '''
 def getBackupCluster():
-    '''public ClusterDescription getBackupCluster()
+    '''returns ClusterDescription\n\n
+    getBackupCluster()\n
     '''
 def getSelectionDescription():
-    '''public SelectionDescription getSelectionDescription()
+    '''returns SelectionDescription\n\n
+    getSelectionDescription()\n
     '''
 def getInfluentialEpoch():
-    '''public long getInfluentialEpoch()
+    '''returns long\n\n
+    getInfluentialEpoch()\n
     '''
 def getClusterScopedData():
-    '''public byte[] getClusterScopedData(final DescriptionKey dataKey)
-    public Set getClusterScopedData()
+    '''returns Set\n\n
+    getClusterScopedData(final DescriptionKey dataKey)\n
+    getClusterScopedData()\n
     '''
 def isQuiesced():
-    '''public boolean isQuiesced(final Identity member)
+    '''returns boolean\n\n
+    isQuiesced(final Identity member)\n
     '''
 def getQuiesceState():
-    '''public Map getQuiesceState()
+    '''returns Map\n\n
+    getQuiesceState()\n
     '''
 def getState():
-    '''public byte getState()
+    '''returns byte\n\n
+    getState()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''

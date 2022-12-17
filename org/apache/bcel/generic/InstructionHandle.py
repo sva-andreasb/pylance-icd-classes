@@ -1,52 +1,57 @@
-def getNext():
-    '''public final InstructionHandle getNext()
-    '''
-def getPrev():
-    '''public final InstructionHandle getPrev()
-    '''
-def getInstruction():
-    '''public final Instruction getInstruction()
-    '''
 def setInstruction():
-    '''public void setInstruction(final Instruction i)
+    '''returns None\n\n
+    setInstruction(final Instruction i)\n
     '''
 def swapInstruction():
-    '''public Instruction swapInstruction(final Instruction i)
+    '''returns Instruction\n\n
+    swapInstruction(final Instruction i)\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def removeAllTargeters():
-    '''public void removeAllTargeters()
+    '''returns None\n\n
+    removeAllTargeters()\n
     '''
 def removeTargeter():
-    '''public void removeTargeter(final InstructionTargeter t)
+    '''returns None\n\n
+    removeTargeter(final InstructionTargeter t)\n
     '''
 def addTargeter():
-    '''public void addTargeter(final InstructionTargeter t)
+    '''returns None\n\n
+    addTargeter(final InstructionTargeter t)\n
     '''
 def hasTargeters():
-    '''public boolean hasTargeters()
+    '''returns boolean\n\n
+    hasTargeters()\n
     '''
 def getTargeters():
-    '''public InstructionTargeter[] getTargeters()
+    '''returns InstructionTargeter[]\n\n
+    getTargeters()\n
     '''
 def toString():
-    '''public String toString(final boolean verbose)
-    public String toString()
+    '''returns String\n\n
+    toString(final boolean verbose)\n
+    toString()\n
     '''
 def addAttribute():
-    '''public void addAttribute(final Object key, final Object attr)
+    '''returns None\n\n
+    addAttribute(final Object key, final Object attr)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final Object key)
+    '''returns None\n\n
+    removeAttribute(final Object key)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final Object key)
+    '''returns Object\n\n
+    getAttribute(final Object key)\n
     '''
 def getAttributes():
-    '''public Collection getAttributes()
+    '''returns Collection\n\n
+    getAttributes()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

@@ -5,6 +5,7 @@ AVAILABLE_HOURS = "String  \"AVAILABLEHOURS\""
 LOAD_HOURS = "String  \"LOADHOURS\""
 ADDITIONAL_HOURS = "String  \"ADDITIONALHOURS\""
 SKD_ODME_RUN_ID = "String  \"SKDODMERUNID\""
-def SKDODMEResourceSummary():
-    '''public SKDODMEResourceSummary(final MboSet ms)
+def ():
+    '''returns SKDODMEResourceSummary\n\n
+    (final MboSet ms)\n
     '''

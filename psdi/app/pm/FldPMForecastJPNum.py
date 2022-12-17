@@ -1,12 +1,16 @@
-def FldPMForecastJPNum():
-    '''public FldPMForecastJPNum(final MboValue mbv)
+def ():
+    '''returns FldPMForecastJPNum\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String sourceObj, final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String sourceObj, final String value, final boolean exact)\n
     '''

@@ -1,24 +1,32 @@
-def IlvDashboardSymbolPalette():
-    '''public IlvDashboardSymbolPalette(final IlvDashboardEditor ilvDashboardEditor)
+def ():
+    '''returns IlvDashboardSymbolPalette\n\n
+    (final IlvDashboardEditor ilvDashboardEditor)\n
     '''
 def stateChanged():
-    '''public void stateChanged(final ChangeEvent changeEvent)
+    '''returns None\n\n
+    stateChanged(final ChangeEvent changeEvent)\n
     '''
 def addNotify():
-    '''public void addNotify()
+    '''returns None\n\n
+    addNotify()\n
     '''
 def setDiagram():
-    '''public void setDiagram(final IlvDashboardDiagram diagram)
+    '''returns None\n\n
+    setDiagram(final IlvDashboardDiagram diagram)\n
     '''
 def isClosable():
-    '''public boolean isClosable(final IlvPalette ilvPalette)
+    '''returns boolean\n\n
+    isClosable(final IlvPalette ilvPalette)\n
     '''
 def setClosable():
-    '''public void setClosable(final IlvPalette ilvPalette, final boolean b)
+    '''returns None\n\n
+    setClosable(final IlvPalette ilvPalette, final boolean b)\n
     '''
 def paletteAdded():
-    '''public void paletteAdded(final PaletteManagerEvent paletteManagerEvent)
+    '''returns None\n\n
+    paletteAdded(final PaletteManagerEvent paletteManagerEvent)\n
     '''
 def paletteRemoved():
-    '''public void paletteRemoved(final PaletteManagerEvent paletteManagerEvent)
+    '''returns None\n\n
+    paletteRemoved(final PaletteManagerEvent paletteManagerEvent)\n
     '''

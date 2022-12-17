@@ -1,3 +1,4 @@
-def PlusPFldDownPaymentBillStatus():
-    '''public PlusPFldDownPaymentBillStatus(final MboValue mv)
+def ():
+    '''returns PlusPFldDownPaymentBillStatus\n\n
+    (final MboValue mv)\n
     '''

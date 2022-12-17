@@ -6,9 +6,11 @@ FIELD_MAPNAME = "String  \"MAPNAME\""
 FIELD_ORGID = "String  \"ORGID\""
 FIELD_SITEID = "String  \"SITEID\""
 FIELD_DESCRIPTION = "String  \"DESCRIPTION\""
-def BIMTypeMap():
-    '''public BIMTypeMap(final MboSet ms)
+def ():
+    '''returns BIMTypeMap\n\n
+    (final MboSet ms)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

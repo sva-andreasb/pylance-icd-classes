@@ -1,7 +1,9 @@
-def ReportListCfgService():
-    '''public ReportListCfgService()
-    public ReportListCfgService(final MXServer mxServer)
+def ():
+    '''returns ReportListCfgService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def getAllowedReports():
-    '''public MboSetRemote getAllowedReports(final MboSetRemote msb, final UserInfo ui)
+    '''returns MboSetRemote\n\n
+    getAllowedReports(final MboSetRemote msb, final UserInfo ui)\n
     '''

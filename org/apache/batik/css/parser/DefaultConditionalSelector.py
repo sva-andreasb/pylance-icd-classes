@@ -1,15 +1,20 @@
-def DefaultConditionalSelector():
-    '''public DefaultConditionalSelector(final SimpleSelector s, final Condition c)
+def ():
+    '''returns DefaultConditionalSelector\n\n
+    (final SimpleSelector s, final Condition c)\n
     '''
 def getSelectorType():
-    '''public short getSelectorType()
+    '''returns short\n\n
+    getSelectorType()\n
     '''
 def getSimpleSelector():
-    '''public SimpleSelector getSimpleSelector()
+    '''returns SimpleSelector\n\n
+    getSimpleSelector()\n
     '''
 def getCondition():
-    '''public Condition getCondition()
+    '''returns Condition\n\n
+    getCondition()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

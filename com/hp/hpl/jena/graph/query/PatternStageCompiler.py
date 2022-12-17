@@ -1,15 +1,16 @@
-def compile():
-    '''public static Pattern[] compile(final PatternCompiler compiler, final Mapping map, final Triple[] source)
-    '''
 def fixed():
-    '''public Element fixed(final Node value)
+    '''returns Element\n\n
+    fixed(final Node value)\n
     '''
 def bound():
-    '''public Element bound(final Node n, final int index)
+    '''returns Element\n\n
+    bound(final Node n, final int index)\n
     '''
 def bind():
-    '''public Element bind(final Node n, final int index)
+    '''returns Element\n\n
+    bind(final Node n, final int index)\n
     '''
 def any():
-    '''public Element any()
+    '''returns Element\n\n
+    any()\n
     '''

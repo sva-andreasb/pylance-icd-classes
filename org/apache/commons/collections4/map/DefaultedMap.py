@@ -1,12 +1,9 @@
-def defaultedMap():
-    '''public static <K, V> DefaultedMap<K, V> defaultedMap(final Map<K, V> map, final V defaultValue)
-    public static <K, V> DefaultedMap<K, V> defaultedMap(final Map<K, V> map, final Factory<? extends V> factory)
-    public static <K, V> Map<K, V> defaultedMap(final Map<K, V> map, final Transformer<? super K, ? extends V> transformer)
-    '''
-def DefaultedMap():
-    '''public DefaultedMap(final V defaultValue)
-    public DefaultedMap(final Transformer<? super K, ? extends V> defaultValueTransformer)
+def ():
+    '''returns DefaultedMap\n\n
+    (final V defaultValue)\n
+    (final Transformer<? super K, ? extends V> defaultValueTransformer)\n
     '''
 def get():
-    '''public V get(final Object key)
+    '''returns V\n\n
+    get(final Object key)\n
     '''

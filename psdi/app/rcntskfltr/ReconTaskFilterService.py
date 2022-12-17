@@ -1,4 +1,5 @@
-def ReconTaskFilterService():
-    '''public ReconTaskFilterService()
-    public ReconTaskFilterService(final MXServer mxServer)
+def ():
+    '''returns ReconTaskFilterService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

@@ -1,10 +1,13 @@
-def WFTransactionSet():
-    '''public WFTransactionSet(final MboServerInterface ms)
+def ():
+    '''returns WFTransactionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def writeTransaction():
-    '''public void writeTransaction(final MboRemote writer, final String transType, final String memo)
-    public void writeTransaction(final String transType, final String memo)
+    '''returns None\n\n
+    writeTransaction(final MboRemote writer, final String transType, final String memo)\n
+    writeTransaction(final String transType, final String memo)\n
     '''
 def getTransactions():
-    '''public void getTransactions()
+    '''returns None\n\n
+    getTransactions()\n
     '''

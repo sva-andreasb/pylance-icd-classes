@@ -1,15 +1,20 @@
-def InteractionGroupAppMenuInfo():
-    '''public InteractionGroupAppMenuInfo(final String menuId, final String origMenuId, final String attributeId, final String attributeName)
+def ():
+    '''returns InteractionGroupAppMenuInfo\n\n
+    (final String menuId, final String origMenuId, final String attributeId, final String attributeName)\n
     '''
 def getMenuId():
-    '''public String getMenuId()
+    '''returns String\n\n
+    getMenuId()\n
     '''
 def getOriginalMenuId():
-    '''public String getOriginalMenuId()
+    '''returns String\n\n
+    getOriginalMenuId()\n
     '''
 def getAttributeId():
-    '''public String getAttributeId()
+    '''returns String\n\n
+    getAttributeId()\n
     '''
 def getAttributeName():
-    '''public String getAttributeName()
+    '''returns String\n\n
+    getAttributeName()\n
     '''

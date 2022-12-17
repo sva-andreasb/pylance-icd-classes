@@ -1,12 +1,12 @@
-def DMMapRulesBean():
-    '''public DMMapRulesBean()
-    '''
-def getList():
-    '''public synchronized MboSetRemote getList(final int nRow, final String attribute)
+def ():
+    '''returns DMMapRulesBean\n\n
+    ()\n
     '''
 def handlerule():
-    '''public int handlerule()
+    '''returns int\n\n
+    handlerule()\n
     '''
 def handleclose():
-    '''public int handleclose()
+    '''returns int\n\n
+    handleclose()\n
     '''

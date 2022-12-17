@@ -1,157 +1,205 @@
-def HttpConnection():
-    '''public HttpConnection(final String host, final int port)
-    public HttpConnection(final String host, final int port, final Protocol protocol)
-    public HttpConnection(final String host, final String virtualHost, final int port, final Protocol protocol)
-    public HttpConnection(final String proxyHost, final int proxyPort, final String host, final int port)
-    public HttpConnection(final HostConfiguration hostConfiguration)
-    public HttpConnection(final String proxyHost, final int proxyPort, final String host, final String virtualHost, final int port, final Protocol protocol)
-    public HttpConnection(final String proxyHost, final int proxyPort, final String host, final int port, final Protocol protocol)
+def ():
+    '''returns HttpConnection\n\n
+    (final String host, final int port)\n
+    (final String host, final int port, final Protocol protocol)\n
+    (final String host, final String virtualHost, final int port, final Protocol protocol)\n
+    (final String proxyHost, final int proxyPort, final String host, final int port)\n
+    (final HostConfiguration hostConfiguration)\n
+    (final String proxyHost, final int proxyPort, final String host, final String virtualHost, final int port, final Protocol protocol)\n
+    (final String proxyHost, final int proxyPort, final String host, final int port, final Protocol protocol)\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def setHost():
-    '''public void setHost(final String host)
+    '''returns None\n\n
+    setHost(final String host)\n
     '''
 def getVirtualHost():
-    '''public String getVirtualHost()
+    '''returns String\n\n
+    getVirtualHost()\n
     '''
 def setVirtualHost():
-    '''public void setVirtualHost(final String host)
+    '''returns None\n\n
+    setVirtualHost(final String host)\n
     '''
 def getPort():
-    '''public int getPort()
+    '''returns int\n\n
+    getPort()\n
     '''
 def setPort():
-    '''public void setPort(final int port)
+    '''returns None\n\n
+    setPort(final int port)\n
     '''
 def getProxyHost():
-    '''public String getProxyHost()
+    '''returns String\n\n
+    getProxyHost()\n
     '''
 def setProxyHost():
-    '''public void setProxyHost(final String host)
+    '''returns None\n\n
+    setProxyHost(final String host)\n
     '''
 def getProxyPort():
-    '''public int getProxyPort()
+    '''returns int\n\n
+    getProxyPort()\n
     '''
 def setProxyPort():
-    '''public void setProxyPort(final int port)
+    '''returns None\n\n
+    setProxyPort(final int port)\n
     '''
 def isSecure():
-    '''public boolean isSecure()
+    '''returns boolean\n\n
+    isSecure()\n
     '''
 def getProtocol():
-    '''public Protocol getProtocol()
+    '''returns Protocol\n\n
+    getProtocol()\n
     '''
 def setProtocol():
-    '''public void setProtocol(final Protocol protocol)
+    '''returns None\n\n
+    setProtocol(final Protocol protocol)\n
     '''
 def getLocalAddress():
-    '''public InetAddress getLocalAddress()
+    '''returns InetAddress\n\n
+    getLocalAddress()\n
     '''
 def setLocalAddress():
-    '''public void setLocalAddress(final InetAddress localAddress)
+    '''returns None\n\n
+    setLocalAddress(final InetAddress localAddress)\n
     '''
 def isOpen():
-    '''public boolean isOpen()
+    '''returns boolean\n\n
+    isOpen()\n
     '''
 def closeIfStale():
-    '''public boolean closeIfStale()
+    '''returns boolean\n\n
+    closeIfStale()\n
     '''
 def isStaleCheckingEnabled():
-    '''public boolean isStaleCheckingEnabled()
+    '''returns boolean\n\n
+    isStaleCheckingEnabled()\n
     '''
 def setStaleCheckingEnabled():
-    '''public void setStaleCheckingEnabled(final boolean staleCheckEnabled)
+    '''returns None\n\n
+    setStaleCheckingEnabled(final boolean staleCheckEnabled)\n
     '''
 def isProxied():
-    '''public boolean isProxied()
+    '''returns boolean\n\n
+    isProxied()\n
     '''
 def setLastResponseInputStream():
-    '''public void setLastResponseInputStream(final InputStream inStream)
+    '''returns None\n\n
+    setLastResponseInputStream(final InputStream inStream)\n
     '''
 def getLastResponseInputStream():
-    '''public InputStream getLastResponseInputStream()
+    '''returns InputStream\n\n
+    getLastResponseInputStream()\n
     '''
 def getParams():
-    '''public HttpConnectionParams getParams()
+    '''returns HttpConnectionParams\n\n
+    getParams()\n
     '''
 def setParams():
-    '''public void setParams(final HttpConnectionParams params)
+    '''returns None\n\n
+    setParams(final HttpConnectionParams params)\n
     '''
 def setSoTimeout():
-    '''public void setSoTimeout(final int timeout)
+    '''returns None\n\n
+    setSoTimeout(final int timeout)\n
     '''
 def setSocketTimeout():
-    '''public void setSocketTimeout(final int timeout)
+    '''returns None\n\n
+    setSocketTimeout(final int timeout)\n
     '''
 def getSoTimeout():
-    '''public int getSoTimeout()
+    '''returns int\n\n
+    getSoTimeout()\n
     '''
 def setConnectionTimeout():
-    '''public void setConnectionTimeout(final int timeout)
+    '''returns None\n\n
+    setConnectionTimeout(final int timeout)\n
     '''
 def open():
-    '''public void open()
+    '''returns None\n\n
+    open()\n
     '''
 def tunnelCreated():
-    '''public void tunnelCreated()
+    '''returns None\n\n
+    tunnelCreated()\n
     '''
 def isTransparent():
-    '''public boolean isTransparent()
+    '''returns boolean\n\n
+    isTransparent()\n
     '''
 def flushRequestOutputStream():
-    '''public void flushRequestOutputStream()
+    '''returns None\n\n
+    flushRequestOutputStream()\n
     '''
 def getRequestOutputStream():
-    '''public OutputStream getRequestOutputStream()
+    '''returns OutputStream\n\n
+    getRequestOutputStream()\n
     '''
 def getResponseInputStream():
-    '''public InputStream getResponseInputStream()
+    '''returns InputStream\n\n
+    getResponseInputStream()\n
     '''
 def isResponseAvailable():
-    '''public boolean isResponseAvailable()
-    public boolean isResponseAvailable(final int timeout)
+    '''returns boolean\n\n
+    isResponseAvailable()\n
+    isResponseAvailable(final int timeout)\n
     '''
 def write():
-    '''public void write(final byte[] data)
-    public void write(final byte[] data, final int offset, final int length)
+    '''returns None\n\n
+    write(final byte[] data)\n
+    write(final byte[] data, final int offset, final int length)\n
     '''
 def writeLine():
-    '''public void writeLine(final byte[] data)
-    public void writeLine()
+    '''returns None\n\n
+    writeLine(final byte[] data)\n
+    writeLine()\n
     '''
 def print():
-    '''public void print(final String data)
-    public void print(final String data, final String charset)
+    '''returns None\n\n
+    print(final String data)\n
+    print(final String data, final String charset)\n
     '''
 def printLine():
-    '''public void printLine(final String data)
-    public void printLine(final String data, final String charset)
-    public void printLine()
+    '''returns None\n\n
+    printLine(final String data)\n
+    printLine(final String data, final String charset)\n
+    printLine()\n
     '''
 def readLine():
-    '''public String readLine()
-    public String readLine(final String charset)
+    '''returns String\n\n
+    readLine()\n
+    readLine(final String charset)\n
     '''
 def shutdownOutput():
-    '''public void shutdownOutput()
+    '''returns None\n\n
+    shutdownOutput()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getHttpConnectionManager():
-    '''public HttpConnectionManager getHttpConnectionManager()
+    '''returns HttpConnectionManager\n\n
+    getHttpConnectionManager()\n
     '''
 def setHttpConnectionManager():
-    '''public void setHttpConnectionManager(final HttpConnectionManager httpConnectionManager)
+    '''returns None\n\n
+    setHttpConnectionManager(final HttpConnectionManager httpConnectionManager)\n
     '''
 def releaseConnection():
-    '''public void releaseConnection()
+    '''returns None\n\n
+    releaseConnection()\n
     '''
 def getSendBufferSize():
-    '''public int getSendBufferSize()
+    '''returns int\n\n
+    getSendBufferSize()\n
     '''
 def setSendBufferSize():
-    '''public void setSendBufferSize(final int sendBufferSize)
+    '''returns None\n\n
+    setSendBufferSize(final int sendBufferSize)\n
     '''

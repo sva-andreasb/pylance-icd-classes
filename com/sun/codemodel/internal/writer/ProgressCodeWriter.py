@@ -1,9 +1,12 @@
-def ProgressCodeWriter():
-    '''public ProgressCodeWriter(final CodeWriter output, final PrintStream progress)
+def ():
+    '''returns ProgressCodeWriter\n\n
+    (final CodeWriter output, final PrintStream progress)\n
     '''
 def openBinary():
-    '''public OutputStream openBinary(final JPackage pkg, final String fileName)
+    '''returns OutputStream\n\n
+    openBinary(final JPackage pkg, final String fileName)\n
     '''
 def openSource():
-    '''public Writer openSource(final JPackage pkg, final String fileName)
+    '''returns Writer\n\n
+    openSource(final JPackage pkg, final String fileName)\n
     '''

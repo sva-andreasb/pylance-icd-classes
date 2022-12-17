@@ -1,6 +1,8 @@
 def pmtsched():
-    '''public int pmtsched()
+    '''returns int\n\n
+    pmtsched()\n
     '''
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''

@@ -1,52 +1,69 @@
-def Dialog():
-    '''public Dialog()
-    public Dialog(final String title, final URI dialog)
+def ():
+    '''returns Dialog\n\n
+    ()\n
+    (final String title, final URI dialog)\n
     '''
 def addResourceType():
-    '''public void addResourceType(final URI resourceType)
+    '''returns None\n\n
+    addResourceType(final URI resourceType)\n
     '''
 def addUsage():
-    '''public void addUsage(final URI usage)
+    '''returns None\n\n
+    addUsage(final URI usage)\n
     '''
 def getDialog():
-    '''public URI getDialog()
+    '''returns URI\n\n
+    getDialog()\n
     '''
 def getHintHeight():
-    '''public String getHintHeight()
+    '''returns String\n\n
+    getHintHeight()\n
     '''
 def getHintWidth():
-    '''public String getHintWidth()
+    '''returns String\n\n
+    getHintWidth()\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def getResourceTypes():
-    '''public URI[] getResourceTypes()
+    '''returns URI[]\n\n
+    getResourceTypes()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def getUsages():
-    '''public URI[] getUsages()
+    '''returns URI[]\n\n
+    getUsages()\n
     '''
 def setDialog():
-    '''public void setDialog(final URI dialog)
+    '''returns None\n\n
+    setDialog(final URI dialog)\n
     '''
 def setHintHeight():
-    '''public void setHintHeight(final String hintHeight)
+    '''returns None\n\n
+    setHintHeight(final String hintHeight)\n
     '''
 def setHintWidth():
-    '''public void setHintWidth(final String hintWidth)
+    '''returns None\n\n
+    setHintWidth(final String hintWidth)\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def setResourceTypes():
-    '''public void setResourceTypes(final URI[] resourceTypes)
+    '''returns None\n\n
+    setResourceTypes(final URI[] resourceTypes)\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def setUsages():
-    '''public void setUsages(final URI[] usages)
+    '''returns None\n\n
+    setUsages(final URI[] usages)\n
     '''

@@ -1,13 +1,16 @@
-def AffiliationsExtension():
-    '''public AffiliationsExtension()
-    public AffiliationsExtension(final List<Affiliation> subList)
-    public AffiliationsExtension(final Affiliation.AffiliationNamespace affiliationsNamespace, final List<Affiliation> subList)
-    public AffiliationsExtension(final List<Affiliation> subList, final String node)
-    public AffiliationsExtension(final Affiliation.AffiliationNamespace affiliationsNamespace, final List<Affiliation> subList, final String node)
+def ():
+    '''returns AffiliationsExtension\n\n
+    ()\n
+    (final List<Affiliation> subList)\n
+    (final Affiliation.AffiliationNamespace affiliationsNamespace, final List<Affiliation> subList)\n
+    (final List<Affiliation> subList, final String node)\n
+    (final Affiliation.AffiliationNamespace affiliationsNamespace, final List<Affiliation> subList, final String node)\n
     '''
 def getAffiliations():
-    '''public List<Affiliation> getAffiliations()
+    '''returns List<Affiliation>\n\n
+    getAffiliations()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
     '''

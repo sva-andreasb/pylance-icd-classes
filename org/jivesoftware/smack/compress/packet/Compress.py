@@ -1,23 +1,26 @@
 ELEMENT = "String  \"compression\""
 NAMESPACE = "String  \"http://jabber.org/protocol/compress\""
-def Compress():
-    '''public Compress(final String method)
+def ():
+    '''returns Feature\n\n
+    (final String method)\n
+    (final List<String> methods)\n
     '''
 def getElementName():
-    '''public String getElementName()
-    public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
-    public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
-    public XmlStringBuilder toXML(final String enclosingNamespace)
-    '''
-def Feature():
-    '''public Feature(final List<String> methods)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getMethods():
-    '''public List<String> getMethods()
+    '''returns List<String>\n\n
+    getMethods()\n
     '''

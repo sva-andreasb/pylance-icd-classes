@@ -1,6 +1,8 @@
 def operationComplete():
-    '''public void operationComplete(final StatusEvent statusEvent)
+    '''returns None\n\n
+    operationComplete(final StatusEvent statusEvent)\n
     '''
 def processStatus():
-    '''public void processStatus(final StatusEvent statusEvent)
+    '''returns None\n\n
+    processStatus(final StatusEvent statusEvent)\n
     '''

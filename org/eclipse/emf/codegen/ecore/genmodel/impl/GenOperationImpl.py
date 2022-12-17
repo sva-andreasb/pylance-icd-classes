@@ -1,152 +1,202 @@
 def getGenClass():
-    '''public GenClass getGenClass()
+    '''returns GenClass\n\n
+    getGenClass()\n
     '''
 def setGenClass():
-    '''public void setGenClass(final GenClass newGenClass)
+    '''returns None\n\n
+    setGenClass(final GenClass newGenClass)\n
     '''
 def getEcoreOperation():
-    '''public EOperation getEcoreOperation()
+    '''returns EOperation\n\n
+    getEcoreOperation()\n
     '''
 def basicGetEcoreOperation():
-    '''public EOperation basicGetEcoreOperation()
+    '''returns EOperation\n\n
+    basicGetEcoreOperation()\n
     '''
 def setEcoreOperation():
-    '''public void setEcoreOperation(final EOperation newEcoreOperation)
+    '''returns None\n\n
+    setEcoreOperation(final EOperation newEcoreOperation)\n
     '''
 def getGenParameters():
-    '''public EList getGenParameters()
+    '''returns EList\n\n
+    getGenParameters()\n
     '''
 def eInverseAdd():
-    '''public NotificationChain eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)\n
     '''
 def eInverseRemove():
-    '''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)\n
     '''
 def eBasicRemoveFromContainer():
-    '''public NotificationChain eBasicRemoveFromContainer(final NotificationChain msgs)
+    '''returns NotificationChain\n\n
+    eBasicRemoveFromContainer(final NotificationChain msgs)\n
     '''
 def eGet():
-    '''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''returns Object\n\n
+    eGet(final EStructuralFeature eFeature, final boolean resolve)\n
     '''
 def eIsSet():
-    '''public boolean eIsSet(final EStructuralFeature eFeature)
+    '''returns boolean\n\n
+    eIsSet(final EStructuralFeature eFeature)\n
     '''
 def eSet():
-    '''public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''returns None\n\n
+    eSet(final EStructuralFeature eFeature, final Object newValue)\n
     '''
 def eUnset():
-    '''public void eUnset(final EStructuralFeature eFeature)
+    '''returns None\n\n
+    eUnset(final EStructuralFeature eFeature)\n
     '''
 def getEcoreTypedElement():
-    '''public ETypedElement getEcoreTypedElement()
+    '''returns ETypedElement\n\n
+    getEcoreTypedElement()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getCapName():
-    '''public String getCapName()
+    '''returns String\n\n
+    getCapName()\n
     '''
 def getFormattedName():
-    '''public String getFormattedName()
+    '''returns String\n\n
+    getFormattedName()\n
     '''
 def isVoid():
-    '''public boolean isVoid()
+    '''returns boolean\n\n
+    isVoid()\n
     '''
 def getTypeClassifierAccessorName():
-    '''public String getTypeClassifierAccessorName()
+    '''returns String\n\n
+    getTypeClassifierAccessorName()\n
     '''
 def getTypeGenPackage():
-    '''public GenPackage getTypeGenPackage()
+    '''returns GenPackage\n\n
+    getTypeGenPackage()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def getImportedType():
-    '''public String getImportedType()
+    '''returns String\n\n
+    getImportedType()\n
     '''
 def getObjectType():
-    '''public String getObjectType()
+    '''returns String\n\n
+    getObjectType()\n
     '''
 def getImportedInternalType():
-    '''public String getImportedInternalType()
+    '''returns String\n\n
+    getImportedInternalType()\n
     '''
 def isFeatureMapType():
-    '''public boolean isFeatureMapType()
+    '''returns boolean\n\n
+    isFeatureMapType()\n
     '''
 def getListItemType():
-    '''public String getListItemType()
+    '''returns String\n\n
+    getListItemType()\n
     '''
 def getQualifiedListItemType():
-    '''public String getQualifiedListItemType()
+    '''returns String\n\n
+    getQualifiedListItemType()\n
     '''
 def isPrimitiveType():
-    '''public boolean isPrimitiveType()
+    '''returns boolean\n\n
+    isPrimitiveType()\n
     '''
 def getPrimitiveValueFunction():
-    '''public String getPrimitiveValueFunction()
+    '''returns String\n\n
+    getPrimitiveValueFunction()\n
     '''
 def isStringType():
-    '''public boolean isStringType()
+    '''returns boolean\n\n
+    isStringType()\n
     '''
 def isStringBasedType():
-    '''public boolean isStringBasedType()
+    '''returns boolean\n\n
+    isStringBasedType()\n
     '''
 def getReturnTypeClassifier():
-    '''public String getReturnTypeClassifier()
+    '''returns String\n\n
+    getReturnTypeClassifier()\n
     '''
 def getReturnTypeGenPackage():
-    '''public GenPackage getReturnTypeGenPackage()
+    '''returns GenPackage\n\n
+    getReturnTypeGenPackage()\n
     '''
 def getReturnType():
-    '''public String getReturnType()
+    '''returns String\n\n
+    getReturnType()\n
     '''
 def getImportedReturnType():
-    '''public String getImportedReturnType()
+    '''returns String\n\n
+    getImportedReturnType()\n
     '''
 def getObjectReturnType():
-    '''public String getObjectReturnType()
+    '''returns String\n\n
+    getObjectReturnType()\n
     '''
 def isPrimitiveReturnType():
-    '''public boolean isPrimitiveReturnType()
+    '''returns boolean\n\n
+    isPrimitiveReturnType()\n
     '''
 def getParameters():
-    '''public String getParameters()
+    '''returns String\n\n
+    getParameters()\n
     '''
 def getParameterTypes():
-    '''public String getParameterTypes(final String separator)
-    public String getParameterTypes(final String separator, final boolean qualified)
+    '''returns String\n\n
+    getParameterTypes(final String separator)\n
+    getParameterTypes(final String separator, final boolean qualified)\n
     '''
 def getImportedMetaType():
-    '''public String getImportedMetaType()
+    '''returns String\n\n
+    getImportedMetaType()\n
     '''
 def getGenPackage():
-    '''public GenPackage getGenPackage()
+    '''returns GenPackage\n\n
+    getGenPackage()\n
     '''
 def initialize():
-    '''public void initialize(final EOperation eOperation)
+    '''returns None\n\n
+    initialize(final EOperation eOperation)\n
     '''
 def getModelInfo():
-    '''public String getModelInfo()
+    '''returns String\n\n
+    getModelInfo()\n
     '''
 def reconcile():
-    '''public boolean reconcile(final GenOperation oldGenOperationVersion)
-    public boolean reconcile()
+    '''returns boolean\n\n
+    reconcile(final GenOperation oldGenOperationVersion)\n
+    reconcile()\n
     '''
 def hasBody():
-    '''public boolean hasBody()
+    '''returns boolean\n\n
+    hasBody()\n
     '''
 def getBody():
-    '''public String getBody(final String indentation)
+    '''returns String\n\n
+    getBody(final String indentation)\n
     '''
 def getGenExceptions():
-    '''public List getGenExceptions()
+    '''returns List\n\n
+    getGenExceptions()\n
     '''
 def getThrows():
-    '''public String getThrows()
+    '''returns String\n\n
+    getThrows()\n
     '''
 def isInvariant():
-    '''public boolean isInvariant()
+    '''returns boolean\n\n
+    isInvariant()\n
     '''
 def getParameterNames():
-    '''public String getParameterNames(final String separator)
+    '''returns String\n\n
+    getParameterNames(final String separator)\n
     '''

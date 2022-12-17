@@ -1,12 +1,16 @@
-def BoundedIterator():
-    '''public BoundedIterator(final Iterator<? extends E> iterator, final long offset, final long max)
+def ():
+    '''returns BoundedIterator\n\n
+    (final Iterator<? extends E> iterator, final long offset, final long max)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public E next()
+    '''returns E\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

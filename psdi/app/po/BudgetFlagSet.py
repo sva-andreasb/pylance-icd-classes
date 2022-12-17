@@ -1,6 +1,8 @@
-def BudgetFlagSet():
-    '''public BudgetFlagSet(final MboServerInterface ms)
+def ():
+    '''returns BudgetFlagSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def findFlag():
-    '''public BudgetFlagRemote findFlag(final long budgetRuleId, final String transactionObjectName, final long transactionId)
+    '''returns BudgetFlagRemote\n\n
+    findFlag(final long budgetRuleId, final String transactionObjectName, final long transactionId)\n
     '''

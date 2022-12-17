@@ -1,40 +1,52 @@
-def MaxTypeALN():
-    '''public MaxTypeALN(final Locale l)
-    public MaxTypeALN()
+def ():
+    '''returns MaxTypeALN\n\n
+    (final Locale l)\n
+    ()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getMaxLength():
-    '''public int getMaxLength()
+    '''returns int\n\n
+    getMaxLength()\n
     '''
 def setMaxLength():
-    '''public void setMaxLength(final int l)
+    '''returns None\n\n
+    setMaxLength(final int l)\n
     '''
 def setValue():
-    '''public void setValue(final String value)
-    public void setValue(final MaxType value)
+    '''returns None\n\n
+    setValue(final String value)\n
+    setValue(final MaxType value)\n
     '''
 def asString():
-    '''public String asString()
+    '''returns String\n\n
+    asString()\n
     '''
 def asLocaleString():
-    '''public String asLocaleString(final Locale l, final TimeZone tz)
-    public String asLocaleString()
-    public String asLocaleString(final Locale locale)
+    '''returns String\n\n
+    asLocaleString(final Locale l, final TimeZone tz)\n
+    asLocaleString()\n
+    asLocaleString(final Locale locale)\n
     '''
 def asLong():
-    '''public long asLong()
+    '''returns long\n\n
+    asLong()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def overrideStringData():
-    '''public void overrideStringData(final String newValue)
+    '''returns None\n\n
+    overrideStringData(final String newValue)\n
     '''
 def asDouble():
-    '''public double asDouble()
+    '''returns double\n\n
+    asDouble()\n
     '''

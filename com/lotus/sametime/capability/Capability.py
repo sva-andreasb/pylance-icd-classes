@@ -1,9 +1,12 @@
-def Capability():
-    '''public Capability(final STLoginId loginId, final byte[] value)
+def ():
+    '''returns Capability\n\n
+    (final STLoginId loginId, final byte[] value)\n
     '''
 def getLoginId():
-    '''public STLoginId getLoginId()
+    '''returns STLoginId\n\n
+    getLoginId()\n
     '''
 def getValue():
-    '''public byte[] getValue()
+    '''returns byte[]\n\n
+    getValue()\n
     '''

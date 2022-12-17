@@ -1,9 +1,8 @@
-def andPredicate():
-    '''public static <T> Predicate<T> andPredicate(final Predicate<? super T> predicate1, final Predicate<? super T> predicate2)
-    '''
-def AndPredicate():
-    '''public AndPredicate(final Predicate<? super T> predicate1, final Predicate<? super T> predicate2)
+def ():
+    '''returns AndPredicate\n\n
+    (final Predicate<? super T> predicate1, final Predicate<? super T> predicate2)\n
     '''
 def evaluate():
-    '''public boolean evaluate(final T object)
+    '''returns boolean\n\n
+    evaluate(final T object)\n
     '''

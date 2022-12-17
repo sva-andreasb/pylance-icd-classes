@@ -1,6 +1,8 @@
-def FldAssignName():
-    '''public FldAssignName(final MboValue mbv)
+def ():
+    '''returns FldAssignName\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

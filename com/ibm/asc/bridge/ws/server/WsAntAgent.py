@@ -1,16 +1,21 @@
-def WsAntAgent():
-    '''public WsAntAgent(final Properties initProps)
-    public WsAntAgent(final Properties initProps, final String profilePath)
+def ():
+    '''returns WsAntAgent\n\n
+    (final Properties initProps)\n
+    (final Properties initProps, final String profilePath)\n
     '''
 def invokeAnt():
-    '''public void invokeAnt(final String[] invocationProperties, final String taskFilePath, final String antTarget)
+    '''returns None\n\n
+    invokeAnt(final String[] invocationProperties, final String taskFilePath, final String antTarget)\n
     '''
 def getScript():
-    '''public byte[] getScript(final String filePath)
+    '''returns byte[]\n\n
+    getScript(final String filePath)\n
     '''
 def putScript():
-    '''public void putScript(final String filePath, final byte[] putFileContents)
+    '''returns None\n\n
+    putScript(final String filePath, final byte[] putFileContents)\n
     '''
 def getLastLog():
-    '''public byte[] getLastLog()
+    '''returns byte[]\n\n
+    getLastLog()\n
     '''

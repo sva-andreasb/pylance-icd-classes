@@ -1,12 +1,16 @@
-def ClassificationUniFormatLoader():
-    '''public ClassificationUniFormatLoader(final MboRemote importMbo, final ProgressLogger<BIMClassification> logger, final String fileName, final String classStructId, final String siteId, final String orgId, final BIMOmniClssUseWithRemote[] useWithList)
+def ():
+    '''returns ClassificationUniFormatLoader\n\n
+    (final MboRemote importMbo, final ProgressLogger<BIMClassification> logger, final String fileName, final String classStructId, final String siteId, final String orgId, final BIMOmniClssUseWithRemote[] useWithList)\n
     '''
 def setDeleteFiles():
-    '''public void setDeleteFiles(final boolean deleteFiles)
+    '''returns None\n\n
+    setDeleteFiles(final boolean deleteFiles)\n
     '''
 def setGenerateDescription():
-    '''public void setGenerateDescription(final boolean generateDescription)
+    '''returns None\n\n
+    setGenerateDescription(final boolean generateDescription)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

@@ -1,15 +1,20 @@
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def GENLOGPROP():
-    '''public int GENLOGPROP()
+    '''returns int\n\n
+    GENLOGPROP()\n
     '''
 def APPLY():
-    '''public int APPLY()
+    '''returns int\n\n
+    APPLY()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def LAUNCHLTA():
-    '''public int LAUNCHLTA()
+    '''returns int\n\n
+    LAUNCHLTA()\n
     '''

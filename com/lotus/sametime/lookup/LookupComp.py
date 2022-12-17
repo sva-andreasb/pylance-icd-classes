@@ -1,15 +1,12 @@
-def LookupComp():
-    '''public LookupComp(final STSession session)
+def ():
+    '''returns LookupComp\n\n
+    (final STSession session)\n
     '''
 def createResolver():
-    '''public Resolver createResolver(final boolean b, final boolean b2, final boolean b3, final boolean b4)
+    '''returns Resolver\n\n
+    createResolver(final boolean b, final boolean b2, final boolean b3, final boolean b4)\n
     '''
 def createGroupContentGetter():
-    '''public GroupContentGetter createGroupContentGetter()
-    '''
-def addLookupServiceListener():
-    '''public synchronized void addLookupServiceListener(final LookupServiceListener obj)
-    '''
-def removeLookupServiceListener():
-    '''public synchronized void removeLookupServiceListener(final LookupServiceListener obj)
+    '''returns GroupContentGetter\n\n
+    createGroupContentGetter()\n
     '''

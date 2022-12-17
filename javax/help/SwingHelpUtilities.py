@@ -1,17 +1,13 @@
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-    '''
-def setContentViewerUI():
-    '''public static void setContentViewerUI(final String str)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def createValue():
-    '''public Object createValue(final UIDefaults uiDefaults)
-    public Object createValue(final UIDefaults uiDefaults)
-    public Object createValue(final UIDefaults uiDefaults)
-    public Object createValue(final UIDefaults uiDefaults)
-    public Object createValue(final UIDefaults uiDefaults)
-    public Object createValue(final UIDefaults uiDefaults)
-    '''
-def getImageIcon():
-    '''public static ImageIcon getImageIcon(final Class clazz, final String str)
+    '''returns Object\n\n
+    createValue(final UIDefaults uiDefaults)\n
+    createValue(final UIDefaults uiDefaults)\n
+    createValue(final UIDefaults uiDefaults)\n
+    createValue(final UIDefaults uiDefaults)\n
+    createValue(final UIDefaults uiDefaults)\n
+    createValue(final UIDefaults uiDefaults)\n
     '''

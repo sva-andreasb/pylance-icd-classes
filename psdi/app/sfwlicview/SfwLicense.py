@@ -1,9 +1,12 @@
-def SfwLicense():
-    '''public SfwLicense(final MboSet ms)
+def ():
+    '''returns SfwLicense\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''

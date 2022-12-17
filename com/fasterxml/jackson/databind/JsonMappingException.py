@@ -1,69 +1,61 @@
-def JsonMappingException():
-    '''public JsonMappingException(final String msg)
-    public JsonMappingException(final String msg, final Throwable rootCause)
-    public JsonMappingException(final String msg, final JsonLocation loc)
-    public JsonMappingException(final String msg, final JsonLocation loc, final Throwable rootCause)
-    public JsonMappingException(final Closeable processor, final String msg)
-    public JsonMappingException(final Closeable processor, final String msg, final Throwable problem)
-    public JsonMappingException(final Closeable processor, final String msg, final JsonLocation loc)
-    '''
-def from():
-    '''public static JsonMappingException from(final JsonParser p, final String msg)
-    public static JsonMappingException from(final JsonParser p, final String msg, final Throwable problem)
-    public static JsonMappingException from(final JsonGenerator g, final String msg)
-    public static JsonMappingException from(final JsonGenerator g, final String msg, final Throwable problem)
-    public static JsonMappingException from(final DeserializationContext ctxt, final String msg)
-    public static JsonMappingException from(final DeserializationContext ctxt, final String msg, final Throwable t)
-    public static JsonMappingException from(final SerializerProvider ctxt, final String msg)
-    public static JsonMappingException from(final SerializerProvider ctxt, final String msg, final Throwable problem)
-    '''
-def fromUnexpectedIOE():
-    '''public static JsonMappingException fromUnexpectedIOE(final IOException src)
-    '''
-def wrapWithPath():
-    '''public static JsonMappingException wrapWithPath(final Throwable src, final Object refFrom, final String refFieldName)
-    public static JsonMappingException wrapWithPath(final Throwable src, final Object refFrom, final int index)
-    public static JsonMappingException wrapWithPath(final Throwable src, final Reference ref)
+def ():
+    '''returns Reference\n\n
+    (final String msg)\n
+    (final String msg, final Throwable rootCause)\n
+    (final String msg, final JsonLocation loc)\n
+    (final String msg, final JsonLocation loc, final Throwable rootCause)\n
+    (final Closeable processor, final String msg)\n
+    (final Closeable processor, final String msg, final Throwable problem)\n
+    (final Closeable processor, final String msg, final JsonLocation loc)\n
+    (final Object from)\n
+    (final Object from, final String fieldName)\n
+    (final Object from, final int index)\n
     '''
 def getPath():
-    '''public List<Reference> getPath()
+    '''returns List<Reference>\n\n
+    getPath()\n
     '''
 def getPathReference():
-    '''public String getPathReference()
-    public StringBuilder getPathReference(final StringBuilder sb)
+    '''returns StringBuilder\n\n
+    getPathReference()\n
+    getPathReference(final StringBuilder sb)\n
     '''
 def prependPath():
-    '''public void prependPath(final Object referrer, final String fieldName)
-    public void prependPath(final Object referrer, final int index)
-    public void prependPath(final Reference r)
+    '''returns None\n\n
+    prependPath(final Object referrer, final String fieldName)\n
+    prependPath(final Object referrer, final int index)\n
+    prependPath(final Reference r)\n
     '''
 def getProcessor():
-    '''public Object getProcessor()
+    '''returns Object\n\n
+    getProcessor()\n
     '''
 def getLocalizedMessage():
-    '''public String getLocalizedMessage()
+    '''returns String\n\n
+    getLocalizedMessage()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    '''
-def Reference():
-    '''public Reference(final Object from)
-    public Reference(final Object from, final String fieldName)
-    public Reference(final Object from, final int index)
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getFrom():
-    '''public Object getFrom()
+    '''returns Object\n\n
+    getFrom()\n
     '''
 def getFieldName():
-    '''public String getFieldName()
+    '''returns String\n\n
+    getFieldName()\n
     '''
 def getIndex():
-    '''public int getIndex()
+    '''returns int\n\n
+    getIndex()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''

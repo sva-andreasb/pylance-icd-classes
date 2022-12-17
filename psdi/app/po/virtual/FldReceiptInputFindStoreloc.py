@@ -1,9 +1,12 @@
-def FldReceiptInputFindStoreloc():
-    '''public FldReceiptInputFindStoreloc(final MboValue mbv)
+def ():
+    '''returns FldReceiptInputFindStoreloc\n\n
+    (final MboValue mbv)\n
     '''
 def hasList():
-    '''public boolean hasList()
+    '''returns boolean\n\n
+    hasList()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

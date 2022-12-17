@@ -1,6 +1,8 @@
-def IterableDescendantAxis():
-    '''public IterableDescendantAxis(final int value)
+def ():
+    '''returns IterableDescendantAxis\n\n
+    (final int value)\n
     '''
 def iterator():
-    '''public Iterator iterator(final Object contextNode, final ContextSupport support)
+    '''returns Iterator\n\n
+    iterator(final Object contextNode, final ContextSupport support)\n
     '''

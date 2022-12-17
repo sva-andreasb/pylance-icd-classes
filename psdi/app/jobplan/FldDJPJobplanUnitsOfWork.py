@@ -1,6 +1,8 @@
-def FldDJPJobplanUnitsOfWork():
-    '''public FldDJPJobplanUnitsOfWork(final MboValue mbv)
+def ():
+    '''returns FldDJPJobplanUnitsOfWork\n\n
+    (final MboValue mbv)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

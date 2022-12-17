@@ -1,3 +1,4 @@
-def AutoAttrUpdateSet():
-    '''public AutoAttrUpdateSet(final MboServerInterface ms)
+def ():
+    '''returns AutoAttrUpdateSet\n\n
+    (final MboServerInterface ms)\n
     '''

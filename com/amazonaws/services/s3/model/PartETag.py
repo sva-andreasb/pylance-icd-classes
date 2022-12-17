@@ -1,21 +1,28 @@
-def PartETag():
-    '''public PartETag(final int partNumber, final String eTag)
+def ():
+    '''returns PartETag\n\n
+    (final int partNumber, final String eTag)\n
     '''
 def getPartNumber():
-    '''public int getPartNumber()
+    '''returns int\n\n
+    getPartNumber()\n
     '''
 def setPartNumber():
-    '''public void setPartNumber(final int partNumber)
+    '''returns None\n\n
+    setPartNumber(final int partNumber)\n
     '''
 def withPartNumber():
-    '''public PartETag withPartNumber(final int partNumber)
+    '''returns PartETag\n\n
+    withPartNumber(final int partNumber)\n
     '''
 def getETag():
-    '''public String getETag()
+    '''returns String\n\n
+    getETag()\n
     '''
 def setETag():
-    '''public void setETag(final String eTag)
+    '''returns None\n\n
+    setETag(final String eTag)\n
     '''
 def withETag():
-    '''public PartETag withETag(final String eTag)
+    '''returns PartETag\n\n
+    withETag(final String eTag)\n
     '''

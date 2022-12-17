@@ -1,3 +1,4 @@
-def PlusPFldCustomerLanguageCode():
-    '''public PlusPFldCustomerLanguageCode(final MboValue mbv)
+def ():
+    '''returns PlusPFldCustomerLanguageCode\n\n
+    (final MboValue mbv)\n
     '''

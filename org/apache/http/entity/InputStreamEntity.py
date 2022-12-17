@@ -1,21 +1,27 @@
-def InputStreamEntity():
-    '''public InputStreamEntity(final InputStream instream)
-    public InputStreamEntity(final InputStream instream, final long length)
-    public InputStreamEntity(final InputStream instream, final ContentType contentType)
-    public InputStreamEntity(final InputStream instream, final long length, final ContentType contentType)
+def ():
+    '''returns InputStreamEntity\n\n
+    (final InputStream instream)\n
+    (final InputStream instream, final long length)\n
+    (final InputStream instream, final ContentType contentType)\n
+    (final InputStream instream, final long length, final ContentType contentType)\n
     '''
 def isRepeatable():
-    '''public boolean isRepeatable()
+    '''returns boolean\n\n
+    isRepeatable()\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def getContent():
-    '''public InputStream getContent()
+    '''returns InputStream\n\n
+    getContent()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream outstream)
+    '''returns None\n\n
+    writeTo(final OutputStream outstream)\n
     '''
 def isStreaming():
-    '''public boolean isStreaming()
+    '''returns boolean\n\n
+    isStreaming()\n
     '''

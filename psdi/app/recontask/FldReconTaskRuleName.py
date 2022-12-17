@@ -1,6 +1,8 @@
-def FldReconTaskRuleName():
-    '''public FldReconTaskRuleName(final MboValue mbv)
+def ():
+    '''returns FldReconTaskRuleName\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

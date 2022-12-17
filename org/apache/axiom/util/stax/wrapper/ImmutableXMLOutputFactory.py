@@ -1,6 +1,8 @@
-def ImmutableXMLOutputFactory():
-    '''public ImmutableXMLOutputFactory(final XMLOutputFactory parent)
+def ():
+    '''returns ImmutableXMLOutputFactory\n\n
+    (final XMLOutputFactory parent)\n
     '''
 def setProperty():
-    '''public void setProperty(final String name, final Object value)
+    '''returns None\n\n
+    setProperty(final String name, final Object value)\n
     '''

@@ -1,3 +1,4 @@
-def ContractSFWSet():
-    '''public ContractSFWSet(final MboServerInterface ms)
+def ():
+    '''returns ContractSFWSet\n\n
+    (final MboServerInterface ms)\n
     '''

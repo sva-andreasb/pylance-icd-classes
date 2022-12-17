@@ -1,70 +1,92 @@
-def TreeTableModelImpl():
-    '''public TreeTableModelImpl(final CompareResults[] results, final long version1)
-    public TreeTableModelImpl()
+def ():
+    '''returns TreeTableModelImpl\n\n
+    (final CompareResults[] results, final long version1)\n
+    ()\n
     '''
 def getColumnClass():
-    '''public Class getColumnClass(final int column)
+    '''returns Class\n\n
+    getColumnClass(final int column)\n
     '''
 def getColumnCount():
-    '''public int getColumnCount()
+    '''returns int\n\n
+    getColumnCount()\n
     '''
 def getColumnName():
-    '''public String getColumnName(final int column)
+    '''returns String\n\n
+    getColumnName(final int column)\n
     '''
 def getValueAt():
-    '''public Object getValueAt(final int row, final int col)
-    public Object getValueAt(final Object node, final int column)
+    '''returns Object\n\n
+    getValueAt(final int row, final int col)\n
+    getValueAt(final Object node, final int column)\n
     '''
 def getRow():
-    '''public CompareResultRow getRow(final int row)
+    '''returns CompareResultRow\n\n
+    getRow(final int row)\n
     '''
 def getRowForNode():
-    '''public int getRowForNode(final CompareResultRow node)
+    '''returns int\n\n
+    getRowForNode(final CompareResultRow node)\n
     '''
 def getChildren():
-    '''public List getChildren(final Object parent)
+    '''returns List\n\n
+    getChildren(final Object parent)\n
     '''
 def isCellEditable():
-    '''public boolean isCellEditable(final Object node, final int column)
-    public boolean isCellEditable(final int r, final int c)
+    '''returns boolean\n\n
+    isCellEditable(final Object node, final int column)\n
+    isCellEditable(final int r, final int c)\n
     '''
 def getRowCount():
-    '''public int getRowCount()
+    '''returns int\n\n
+    getRowCount()\n
     '''
 def getRoot():
-    '''public CompareResultRow getRoot()
+    '''returns CompareResultRow\n\n
+    getRoot()\n
     '''
 def getChild():
-    '''public Object getChild(final Object parent, final int index)
+    '''returns Object\n\n
+    getChild(final Object parent, final int index)\n
     '''
 def getChildCount():
-    '''public int getChildCount(final Object parent)
+    '''returns int\n\n
+    getChildCount(final Object parent)\n
     '''
 def isLeaf():
-    '''public boolean isLeaf(final Object parent)
+    '''returns boolean\n\n
+    isLeaf(final Object parent)\n
     '''
 def getIndexOfChild():
-    '''public int getIndexOfChild(final Object parent, final Object child)
+    '''returns int\n\n
+    getIndexOfChild(final Object parent, final Object child)\n
     '''
 def valueForPathChanged():
-    '''public void valueForPathChanged(final TreePath path, final Object newValue)
+    '''returns None\n\n
+    valueForPathChanged(final TreePath path, final Object newValue)\n
     '''
 def addTreeModelListener():
-    '''public void addTreeModelListener(final TreeModelListener listener)
+    '''returns None\n\n
+    addTreeModelListener(final TreeModelListener listener)\n
     '''
 def removeTreeModelListener():
-    '''public void removeTreeModelListener(final TreeModelListener listener)
+    '''returns None\n\n
+    removeTreeModelListener(final TreeModelListener listener)\n
     '''
 def setObjectAt():
-    '''public void setObjectAt(final Object value, final Object node, final int column)
+    '''returns None\n\n
+    setObjectAt(final Object value, final Object node, final int column)\n
     '''
 def setValueAt():
-    '''public void setValueAt(final Object o, final int r, final int c)
-    public void setValueAt(final Object o, final Object r, final int c)
+    '''returns None\n\n
+    setValueAt(final Object o, final int r, final int c)\n
+    setValueAt(final Object o, final Object r, final int c)\n
     '''
 def addTableModelListener():
-    '''public void addTableModelListener(final TableModelListener listener)
+    '''returns None\n\n
+    addTableModelListener(final TableModelListener listener)\n
     '''
 def removeTableModelListener():
-    '''public void removeTableModelListener(final TableModelListener listener)
+    '''returns None\n\n
+    removeTableModelListener(final TableModelListener listener)\n
     '''

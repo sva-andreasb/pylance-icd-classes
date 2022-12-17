@@ -1,15 +1,20 @@
-def ImmutableXMLInputFactory():
-    '''public ImmutableXMLInputFactory(final XMLInputFactory parent)
+def ():
+    '''returns ImmutableXMLInputFactory\n\n
+    (final XMLInputFactory parent)\n
     '''
 def setEventAllocator():
-    '''public void setEventAllocator(final XMLEventAllocator allocator)
+    '''returns None\n\n
+    setEventAllocator(final XMLEventAllocator allocator)\n
     '''
 def setProperty():
-    '''public void setProperty(final String name, final Object value)
+    '''returns None\n\n
+    setProperty(final String name, final Object value)\n
     '''
 def setXMLReporter():
-    '''public void setXMLReporter(final XMLReporter reporter)
+    '''returns None\n\n
+    setXMLReporter(final XMLReporter reporter)\n
     '''
 def setXMLResolver():
-    '''public void setXMLResolver(final XMLResolver resolver)
+    '''returns None\n\n
+    setXMLResolver(final XMLResolver resolver)\n
     '''

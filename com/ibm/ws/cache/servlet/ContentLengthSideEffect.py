@@ -1,9 +1,12 @@
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def ContentLengthSideEffect():
-    '''public ContentLengthSideEffect(final int length)
+def ():
+    '''returns ContentLengthSideEffect\n\n
+    (final int length)\n
     '''
 def performSideEffect():
-    '''public void performSideEffect(final HttpServletResponse response)
+    '''returns None\n\n
+    performSideEffect(final HttpServletResponse response)\n
     '''

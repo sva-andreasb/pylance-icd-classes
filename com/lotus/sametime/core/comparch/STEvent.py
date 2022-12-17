@@ -1,15 +1,20 @@
-def STEvent():
-    '''public STEvent(final Object source, final int id)
+def ():
+    '''returns STEvent\n\n
+    (final Object source, final int id)\n
     '''
 def getId():
-    '''public int getId()
+    '''returns int\n\n
+    getId()\n
     '''
 def isConsumed():
-    '''public boolean isConsumed()
+    '''returns boolean\n\n
+    isConsumed()\n
     '''
 def setConsumed():
-    '''public void setConsumed(final boolean consumed)
+    '''returns None\n\n
+    setConsumed(final boolean consumed)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

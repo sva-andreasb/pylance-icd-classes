@@ -1,208 +1,257 @@
-def IlvDiagrammerApplication():
-    '''public IlvDiagrammerApplication(final ResourceBundle c, final String[] aw)
-    public IlvDiagrammerApplication(final String[] array)
-    public IlvDiagrammerApplication()
-    '''
-def main():
-    '''public static void main(final String[] array)
+def ():
+    '''returns ToggleVisibilityAction\n\n
+    (final ResourceBundle c, final String[] aw)\n
+    (final String[] array)\n
+    ()\n
+    ()\n
+    (final TogglePaneAction a)\n
+    (final String s)\n
+    (final String s)\n
     '''
 def getBundle():
-    '''public ResourceBundle getBundle()
+    '''returns ResourceBundle\n\n
+    getBundle()\n
     '''
 def getDesktopPane():
-    '''public JDesktopPane getDesktopPane()
+    '''returns JDesktopPane\n\n
+    getDesktopPane()\n
     '''
 def isEditMode():
-    '''public boolean isEditMode()
+    '''returns boolean\n\n
+    isEditMode()\n
     '''
 def isMdi():
-    '''public boolean isMdi()
+    '''returns boolean\n\n
+    isMdi()\n
     '''
 def getMenuBar():
-    '''public IlvDiagrammerMenuBar getMenuBar()
+    '''returns IlvDiagrammerMenuBar\n\n
+    getMenuBar()\n
     '''
 def getPaletteToolBars():
-    '''public JToolBar[] getPaletteToolBars()
+    '''returns JToolBar[]\n\n
+    getPaletteToolBars()\n
     '''
 def getEditToolBar():
-    '''public IlvDiagrammerToolBar getEditToolBar()
+    '''returns IlvDiagrammerToolBar\n\n
+    getEditToolBar()\n
     '''
 def getViewToolBar():
-    '''public IlvDiagrammerToolBar getViewToolBar()
+    '''returns IlvDiagrammerToolBar\n\n
+    getViewToolBar()\n
     '''
 def getStatusBar():
-    '''public IlvDiagrammerStatusBar getStatusBar()
+    '''returns IlvDiagrammerStatusBar\n\n
+    getStatusBar()\n
     '''
 def getSdiContainer():
-    '''public JPanel getSdiContainer()
+    '''returns JPanel\n\n
+    getSdiContainer()\n
     '''
 def getSdiDiagrammer():
-    '''public IlvDiagrammer getSdiDiagrammer()
+    '''returns IlvDiagrammer\n\n
+    getSdiDiagrammer()\n
     '''
 def getStyleSheetURL():
-    '''public URL getStyleSheetURL()
+    '''returns URL\n\n
+    getStyleSheetURL()\n
     '''
 def setStyleSheetURL():
-    '''public void setStyleSheetURL(final URL h)
+    '''returns None\n\n
+    setStyleSheetURL(final URL h)\n
     '''
 def getTable():
-    '''public IlvDiagrammerTable getTable()
+    '''returns IlvDiagrammerTable\n\n
+    getTable()\n
     '''
 def mouseClicked():
-    '''public void mouseClicked(final MouseEvent mouseEvent)
-    public void mouseClicked(final MouseEvent mouseEvent)
-    public void mouseClicked(final MouseEvent mouseEvent)
+    '''returns None\n\n
+    mouseClicked(final MouseEvent mouseEvent)\n
+    mouseClicked(final MouseEvent mouseEvent)\n
+    mouseClicked(final MouseEvent mouseEvent)\n
     '''
 def getTree():
-    '''public IlvDiagrammerTree getTree()
+    '''returns IlvDiagrammerTree\n\n
+    getTree()\n
     '''
 def getOverview():
-    '''public IlvDiagrammerOverview getOverview()
+    '''returns IlvDiagrammerOverview\n\n
+    getOverview()\n
     '''
 def getPropertySheet():
-    '''public IlvDiagrammerPropertySheet getPropertySheet()
+    '''returns IlvDiagrammerPropertySheet\n\n
+    getPropertySheet()\n
     '''
 def setTreeVisible():
-    '''public void setTreeVisible(final boolean b)
+    '''returns None\n\n
+    setTreeVisible(final boolean b)\n
     '''
 def isTreeVisible():
-    '''public boolean isTreeVisible()
+    '''returns boolean\n\n
+    isTreeVisible()\n
     '''
 def setPropertySheetVisible():
-    '''public void setPropertySheetVisible(final boolean b)
+    '''returns None\n\n
+    setPropertySheetVisible(final boolean b)\n
     '''
 def isPropertySheetVisible():
-    '''public boolean isPropertySheetVisible()
+    '''returns boolean\n\n
+    isPropertySheetVisible()\n
     '''
 def setOverviewVisible():
-    '''public void setOverviewVisible(final boolean b)
+    '''returns None\n\n
+    setOverviewVisible(final boolean b)\n
     '''
 def isOverviewVisible():
-    '''public boolean isOverviewVisible()
+    '''returns boolean\n\n
+    isOverviewVisible()\n
     '''
 def setTableVisible():
-    '''public void setTableVisible(final boolean b)
+    '''returns None\n\n
+    setTableVisible(final boolean b)\n
     '''
 def isTableVisible():
-    '''public boolean isTableVisible()
+    '''returns boolean\n\n
+    isTableVisible()\n
     '''
 def getCurrentDiagrammer():
-    '''public IlvDiagrammer getCurrentDiagrammer()
+    '''returns IlvDiagrammer\n\n
+    getCurrentDiagrammer()\n
     '''
 def getDiagrammers():
-    '''public IlvDiagrammer[] getDiagrammers()
+    '''returns IlvDiagrammer[]\n\n
+    getDiagrammers()\n
     '''
 def setDefaultArgs():
-    '''public void setDefaultArgs(final String[] aw)
+    '''returns None\n\n
+    setDefaultArgs(final String[] aw)\n
     '''
 def init():
-    '''public void init(final String[] array)
-    public void init()
-    public void init(final Container p)
+    '''returns None\n\n
+    init(final String[] array)\n
+    init()\n
+    init(final Container p)\n
     '''
 def run():
-    '''public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def componentHidden():
-    '''public void componentHidden(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentHidden(final ComponentEvent componentEvent)\n
     '''
 def componentShown():
-    '''public void componentShown(final ComponentEvent componentEvent)
+    '''returns None\n\n
+    componentShown(final ComponentEvent componentEvent)\n
     '''
 def isApplet():
-    '''public boolean isApplet()
+    '''returns boolean\n\n
+    isApplet()\n
     '''
 def isJnlp():
-    '''public boolean isJnlp()
+    '''returns boolean\n\n
+    isJnlp()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def stop():
-    '''public void stop()
+    '''returns None\n\n
+    stop()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def parseArgs():
-    '''public void parseArgs(final String[] array)
+    '''returns None\n\n
+    parseArgs(final String[] array)\n
     '''
 def getBaseURL():
-    '''public URL getBaseURL()
+    '''returns URL\n\n
+    getBaseURL()\n
     '''
 def createFrame():
-    '''public JFrame createFrame()
+    '''returns JFrame\n\n
+    createFrame()\n
     '''
 def windowClosing():
-    '''public void windowClosing(final WindowEvent windowEvent)
+    '''returns None\n\n
+    windowClosing(final WindowEvent windowEvent)\n
     '''
 def perform():
-    '''public void perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer, final ActionEvent actionEvent)
-    public void perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer, final ActionEvent actionEvent)
-    public void perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer, final ActionEvent actionEvent)
-    public void perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer comp, final ActionEvent actionEvent)
-    public void perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)
+    '''returns None\n\n
+    perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer, final ActionEvent actionEvent)\n
+    perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer, final ActionEvent actionEvent)\n
+    perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer, final ActionEvent actionEvent)\n
+    perform(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer comp, final ActionEvent actionEvent)\n
+    perform(final ActionEvent actionEvent, final IlvDiagrammer ilvDiagrammer)\n
     '''
 def traverse():
-    '''public void traverse(final Component component)
+    '''returns None\n\n
+    traverse(final Component component)\n
     '''
 def update():
-    '''public void update(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer)
+    '''returns None\n\n
+    update(final IlvDiagrammerAction ilvDiagrammerAction, final IlvDiagrammer ilvDiagrammer)\n
     '''
 def isUseAutomaticWaitCursor():
-    '''public boolean isUseAutomaticWaitCursor()
+    '''returns boolean\n\n
+    isUseAutomaticWaitCursor()\n
     '''
 def setUseAutomaticWaitCursor():
-    '''public void setUseAutomaticWaitCursor(final boolean a0)
+    '''returns None\n\n
+    setUseAutomaticWaitCursor(final boolean a0)\n
     '''
 def isFloatable():
-    '''public boolean isFloatable()
+    '''returns boolean\n\n
+    isFloatable()\n
     '''
 def getApplicationContentPane():
-    '''public Container getApplicationContentPane()
+    '''returns Container\n\n
+    getApplicationContentPane()\n
     '''
 def hierarchyChanged():
-    '''public void hierarchyChanged(final HierarchyEvent hierarchyEvent)
-    public void hierarchyChanged(final HierarchyEvent hierarchyEvent)
+    '''returns None\n\n
+    hierarchyChanged(final HierarchyEvent hierarchyEvent)\n
+    hierarchyChanged(final HierarchyEvent hierarchyEvent)\n
     '''
 def vetoableChange():
-    '''public void vetoableChange(final PropertyChangeEvent evt)
+    '''returns None\n\n
+    vetoableChange(final PropertyChangeEvent evt)\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def error():
-    '''public void error(final ResourceBundle resourceBundle, final String s, final Object[] array, final Throwable t)
-    '''
-def NoFocusButton():
-    '''public NoFocusButton()
+    '''returns None\n\n
+    error(final ResourceBundle resourceBundle, final String s, final Object[] array, final Throwable t)\n
     '''
 def isFocusable():
-    '''public boolean isFocusable()
+    '''returns boolean\n\n
+    isFocusable()\n
     '''
 def requestFocus():
-    '''public void requestFocus()
-    '''
-def TitledPane():
-    '''public TitledPane(final TogglePaneAction a)
+    '''returns None\n\n
+    requestFocus()\n
     '''
 def addNotify():
-    '''public void addNotify()
+    '''returns None\n\n
+    addNotify()\n
     '''
 def removeNotify():
-    '''public void removeNotify()
-    '''
-def TogglePaneAction():
-    '''public TogglePaneAction(final String s)
-    '''
-def ToggleVisibilityAction():
-    '''public ToggleVisibilityAction(final String s)
+    '''returns None\n\n
+    removeNotify()\n
     '''
 def isSelectable():
-    '''public boolean isSelectable()
+    '''returns boolean\n\n
+    isSelectable()\n
     '''

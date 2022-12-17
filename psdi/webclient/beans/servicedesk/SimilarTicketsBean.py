@@ -1,9 +1,12 @@
-def SimilarTicketsBean():
-    '''public SimilarTicketsBean()
+def ():
+    '''returns SimilarTicketsBean\n\n
+    ()\n
     '''
 def relate():
-    '''public int relate()
+    '''returns int\n\n
+    relate()\n
     '''
 def relateglobal():
-    '''public int relateglobal()
+    '''returns int\n\n
+    relateglobal()\n
     '''

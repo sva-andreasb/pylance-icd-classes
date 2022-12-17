@@ -1,6 +1,8 @@
-def SPWorkAssetSet():
-    '''public SPWorkAssetSet(final MboServerInterface ms)
+def ():
+    '''returns SPWorkAssetSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def canAdd():
-    '''public void canAdd()
+    '''returns None\n\n
+    canAdd()\n
     '''

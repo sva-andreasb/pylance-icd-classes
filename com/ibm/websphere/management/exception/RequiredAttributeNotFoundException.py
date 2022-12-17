@@ -1,6 +1,8 @@
-def RequiredAttributeNotFoundException():
-    '''public RequiredAttributeNotFoundException(final String attributeName)
+def ():
+    '''returns RequiredAttributeNotFoundException\n\n
+    (final String attributeName)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

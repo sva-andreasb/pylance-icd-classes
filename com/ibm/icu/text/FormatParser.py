@@ -1,20 +1,25 @@
-def FormatParser():
-    '''public FormatParser()
+def ():
+    '''returns FormatParser\n\n
+    ()\n
     '''
 def set():
-    '''public final FormatParser set(final String string)
-    public FormatParser set(final String string, final boolean strict)
+    '''returns FormatParser\n\n
+    set(final String string, final boolean strict)\n
     '''
 def getItems():
-    '''public List<Object> getItems()
+    '''returns List<Object>\n\n
+    getItems()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final int start, final int limit)
+    '''returns String\n\n
+    toString()\n
+    toString(final int start, final int limit)\n
     '''
 def hasDateAndTimeFields():
-    '''public boolean hasDateAndTimeFields()
+    '''returns boolean\n\n
+    hasDateAndTimeFields()\n
     '''
 def quoteLiteral():
-    '''public Object quoteLiteral(final String string)
+    '''returns Object\n\n
+    quoteLiteral(final String string)\n
     '''

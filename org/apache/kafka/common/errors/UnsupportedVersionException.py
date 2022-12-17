@@ -1,4 +1,5 @@
-def UnsupportedVersionException():
-    '''public UnsupportedVersionException(final String message, final Throwable cause)
-    public UnsupportedVersionException(final String message)
+def ():
+    '''returns UnsupportedVersionException\n\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
     '''

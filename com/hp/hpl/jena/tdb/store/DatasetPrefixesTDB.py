@@ -1,45 +1,26 @@
-def create():
-    '''public static DatasetPrefixesTDB create(final Location location)
-    public static DatasetPrefixesTDB create(final IndexBuilder indexBuilder, final Location location)
-    '''
-def DatasetPrefixesTDB():
-    '''public DatasetPrefixesTDB(final TupleIndex[] indexes, final NodeTable nodes)
-    '''
-def testing():
-    '''public static DatasetPrefixesTDB testing()
-    '''
-def insertPrefix():
-    '''public synchronized void insertPrefix(final String graphName, final String prefix, final String uri)
+def ():
+    '''returns DatasetPrefixesTDB\n\n
+    (final TupleIndex[] indexes, final NodeTable nodes)\n
     '''
 def graphNames():
-    '''public Set<String> graphNames()
-    '''
-def readPrefix():
-    '''public synchronized String readPrefix(final String graphName, final String prefix)
-    '''
-def readByURI():
-    '''public synchronized String readByURI(final String graphName, final String uriStr)
-    '''
-def readPrefixMap():
-    '''public synchronized Map<String, String> readPrefixMap(final String graphName)
-    '''
-def loadPrefixMapping():
-    '''public synchronized void loadPrefixMapping(final String graphName, final PrefixMapping pmap)
-    '''
-def removeFromPrefixMap():
-    '''public synchronized void removeFromPrefixMap(final String graphName, final String prefix, final String uri)
+    '''returns Set<String>\n\n
+    graphNames()\n
     '''
 def getNodeTupleTable():
-    '''public NodeTupleTable getNodeTupleTable()
+    '''returns NodeTupleTable\n\n
+    getNodeTupleTable()\n
     '''
 def getPrefixMapping():
-    '''public PrefixMapping getPrefixMapping()
-    public PrefixMapping getPrefixMapping(final String graphName)
+    '''returns PrefixMapping\n\n
+    getPrefixMapping()\n
+    getPrefixMapping(final String graphName)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def sync():
-    '''public void sync()
-    public void sync(final boolean force)
+    '''returns None\n\n
+    sync()\n
+    sync(final boolean force)\n
     '''

@@ -1,15 +1,20 @@
-def SrndTermQuery():
-    '''public SrndTermQuery(final String termText, final boolean quoted)
+def ():
+    '''returns SrndTermQuery\n\n
+    (final String termText, final boolean quoted)\n
     '''
 def getTermText():
-    '''public String getTermText()
+    '''returns String\n\n
+    getTermText()\n
     '''
 def getLuceneTerm():
-    '''public Term getLuceneTerm(final String fieldName)
+    '''returns Term\n\n
+    getLuceneTerm(final String fieldName)\n
     '''
 def toStringUnquoted():
-    '''public String toStringUnquoted()
+    '''returns String\n\n
+    toStringUnquoted()\n
     '''
 def visitMatchingTerms():
-    '''public void visitMatchingTerms(final IndexReader reader, final String fieldName, final MatchingTermVisitor mtv)
+    '''returns None\n\n
+    visitMatchingTerms(final IndexReader reader, final String fieldName, final MatchingTermVisitor mtv)\n
     '''

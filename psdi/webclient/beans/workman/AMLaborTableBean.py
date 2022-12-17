@@ -1,21 +1,28 @@
-def AMLaborTableBean():
-    '''public AMLaborTableBean()
+def ():
+    '''returns AMLaborTableBean\n\n
+    ()\n
     '''
 def getActiveLaborRestriction():
-    '''public String getActiveLaborRestriction()
+    '''returns String\n\n
+    getActiveLaborRestriction()\n
     '''
 def getActiveVendorRestriction():
-    '''public String getActiveVendorRestriction()
+    '''returns String\n\n
+    getActiveVendorRestriction()\n
     '''
 def amlaborrefresh():
-    '''public int amlaborrefresh()
+    '''returns int\n\n
+    amlaborrefresh()\n
     '''
 def assignlabgrid():
-    '''public int assignlabgrid()
+    '''returns int\n\n
+    assignlabgrid()\n
     '''
 def modavail():
-    '''public int modavail()
+    '''returns int\n\n
+    modavail()\n
     '''
 def getRemoteForDownload():
-    '''public MboSetRemote getRemoteForDownload()
+    '''returns MboSetRemote\n\n
+    getRemoteForDownload()\n
     '''

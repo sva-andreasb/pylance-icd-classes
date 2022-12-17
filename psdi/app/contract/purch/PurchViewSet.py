@@ -1,3 +1,4 @@
-def PurchViewSet():
-    '''public PurchViewSet(final MboServerInterface ms)
+def ():
+    '''returns PurchViewSet\n\n
+    (final MboServerInterface ms)\n
     '''

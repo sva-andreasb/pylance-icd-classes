@@ -1,3 +1,4 @@
 def removeTag():
-    '''public String removeTag(String msgBody)
+    '''returns String\n\n
+    removeTag(String msgBody)\n
     '''

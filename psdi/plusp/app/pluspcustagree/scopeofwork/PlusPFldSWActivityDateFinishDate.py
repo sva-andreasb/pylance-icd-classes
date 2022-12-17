@@ -1,6 +1,8 @@
-def PlusPFldSWActivityDateFinishDate():
-    '''public PlusPFldSWActivityDateFinishDate(final MboValue mboValue)
+def ():
+    '''returns PlusPFldSWActivityDateFinishDate\n\n
+    (final MboValue mboValue)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

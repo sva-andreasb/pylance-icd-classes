@@ -1,36 +1,40 @@
-def CacheableCommandImpl():
-    '''public CacheableCommandImpl()
-    '''
-def getId():
-    '''public final String getId()
-    '''
-def getSharingPolicy():
-    '''public final int getSharingPolicy()
+def ():
+    '''returns CacheableCommandImpl\n\n
+    ()\n
     '''
 def preExecute():
-    '''public boolean preExecute()
+    '''returns boolean\n\n
+    preExecute()\n
     '''
 def postExecute():
-    '''public void postExecute()
+    '''returns None\n\n
+    postExecute()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setCaller():
-    '''public void setCaller(final CommandCaller caller)
+    '''returns None\n\n
+    setCaller(final CommandCaller caller)\n
     '''
 def getCaller():
-    '''public CommandCaller getCaller()
+    '''returns CommandCaller\n\n
+    getCaller()\n
     '''
 def unionDependencies():
-    '''public void unionDependencies(final com.ibm.websphere.cache.EntryInfo entryInfo)
+    '''returns None\n\n
+    unionDependencies(final com.ibm.websphere.cache.EntryInfo entryInfo)\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def executeFromCache():
-    '''public boolean executeFromCache()
+    '''returns boolean\n\n
+    executeFromCache()\n
     '''
 def updateCache():
-    '''public void updateCache()
+    '''returns None\n\n
+    updateCache()\n
     '''

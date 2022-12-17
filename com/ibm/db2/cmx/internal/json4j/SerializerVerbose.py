@@ -1,21 +1,28 @@
-def SerializerVerbose():
-    '''public SerializerVerbose(final Writer writer)
+def ():
+    '''returns SerializerVerbose\n\n
+    (final Writer writer)\n
     '''
 def space():
-    '''public void space()
+    '''returns None\n\n
+    space()\n
     '''
 def newLine():
-    '''public void newLine()
+    '''returns None\n\n
+    newLine()\n
     '''
 def indent():
-    '''public void indent()
+    '''returns None\n\n
+    indent()\n
     '''
 def indentPush():
-    '''public void indentPush()
+    '''returns None\n\n
+    indentPush()\n
     '''
 def indentPop():
-    '''public void indentPop()
+    '''returns None\n\n
+    indentPop()\n
     '''
 def getPropertyNames():
-    '''public List getPropertyNames(final Map map)
+    '''returns List\n\n
+    getPropertyNames(final Map map)\n
     '''

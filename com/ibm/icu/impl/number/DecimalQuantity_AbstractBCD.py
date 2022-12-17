@@ -1,128 +1,170 @@
-def DecimalQuantity_AbstractBCD():
-    '''public DecimalQuantity_AbstractBCD()
+def ():
+    '''returns DecimalQuantity_AbstractBCD\n\n
+    ()\n
     '''
 def copyFrom():
-    '''public void copyFrom(final DecimalQuantity _other)
+    '''returns None\n\n
+    copyFrom(final DecimalQuantity _other)\n
     '''
 def clear():
-    '''public DecimalQuantity_AbstractBCD clear()
+    '''returns DecimalQuantity_AbstractBCD\n\n
+    clear()\n
     '''
 def setMinInteger():
-    '''public void setMinInteger(int minInt)
+    '''returns None\n\n
+    setMinInteger(int minInt)\n
     '''
 def setMinFraction():
-    '''public void setMinFraction(final int minFrac)
+    '''returns None\n\n
+    setMinFraction(final int minFrac)\n
     '''
 def applyMaxInteger():
-    '''public void applyMaxInteger(final int maxInt)
+    '''returns None\n\n
+    applyMaxInteger(final int maxInt)\n
     '''
 def getPositionFingerprint():
-    '''public long getPositionFingerprint()
+    '''returns long\n\n
+    getPositionFingerprint()\n
     '''
 def roundToIncrement():
-    '''public void roundToIncrement(final BigDecimal roundingIncrement, final MathContext mathContext)
+    '''returns None\n\n
+    roundToIncrement(final BigDecimal roundingIncrement, final MathContext mathContext)\n
     '''
 def multiplyBy():
-    '''public void multiplyBy(final BigDecimal multiplicand)
+    '''returns None\n\n
+    multiplyBy(final BigDecimal multiplicand)\n
     '''
 def negate():
-    '''public void negate()
+    '''returns None\n\n
+    negate()\n
     '''
 def getMagnitude():
-    '''public int getMagnitude()
+    '''returns int\n\n
+    getMagnitude()\n
     '''
 def adjustMagnitude():
-    '''public void adjustMagnitude(final int delta)
+    '''returns None\n\n
+    adjustMagnitude(final int delta)\n
     '''
 def getExponent():
-    '''public int getExponent()
+    '''returns int\n\n
+    getExponent()\n
     '''
 def adjustExponent():
-    '''public void adjustExponent(final int delta)
+    '''returns None\n\n
+    adjustExponent(final int delta)\n
     '''
 def getStandardPlural():
-    '''public StandardPlural getStandardPlural(final PluralRules rules)
+    '''returns StandardPlural\n\n
+    getStandardPlural(final PluralRules rules)\n
     '''
 def getPluralOperand():
-    '''public double getPluralOperand(final PluralRules.Operand operand)
+    '''returns double\n\n
+    getPluralOperand(final PluralRules.Operand operand)\n
     '''
 def populateUFieldPosition():
-    '''public void populateUFieldPosition(final FieldPosition fp)
+    '''returns None\n\n
+    populateUFieldPosition(final FieldPosition fp)\n
     '''
 def getUpperDisplayMagnitude():
-    '''public int getUpperDisplayMagnitude()
+    '''returns int\n\n
+    getUpperDisplayMagnitude()\n
     '''
 def getLowerDisplayMagnitude():
-    '''public int getLowerDisplayMagnitude()
+    '''returns int\n\n
+    getLowerDisplayMagnitude()\n
     '''
 def getDigit():
-    '''public byte getDigit(final int magnitude)
+    '''returns byte\n\n
+    getDigit(final int magnitude)\n
     '''
 def isNegative():
-    '''public boolean isNegative()
+    '''returns boolean\n\n
+    isNegative()\n
     '''
 def isInfinite():
-    '''public boolean isInfinite()
+    '''returns boolean\n\n
+    isInfinite()\n
     '''
 def isNaN():
-    '''public boolean isNaN()
+    '''returns boolean\n\n
+    isNaN()\n
     '''
 def isZeroish():
-    '''public boolean isZeroish()
+    '''returns boolean\n\n
+    isZeroish()\n
     '''
 def setToInt():
-    '''public void setToInt(int n)
+    '''returns None\n\n
+    setToInt(int n)\n
     '''
 def setToLong():
-    '''public void setToLong(long n)
+    '''returns None\n\n
+    setToLong(long n)\n
     '''
 def setToBigInteger():
-    '''public void setToBigInteger(BigInteger n)
+    '''returns None\n\n
+    setToBigInteger(BigInteger n)\n
     '''
 def setToDouble():
-    '''public void setToDouble(double n)
+    '''returns None\n\n
+    setToDouble(double n)\n
     '''
 def setToBigDecimal():
-    '''public void setToBigDecimal(BigDecimal n)
+    '''returns None\n\n
+    setToBigDecimal(BigDecimal n)\n
     '''
 def toLong():
-    '''public long toLong(final boolean truncateIfOverflow)
+    '''returns long\n\n
+    toLong(final boolean truncateIfOverflow)\n
     '''
 def toFractionLong():
-    '''public long toFractionLong(final boolean includeTrailingZeros)
+    '''returns long\n\n
+    toFractionLong(final boolean includeTrailingZeros)\n
     '''
 def fitsInLong():
-    '''public boolean fitsInLong()
+    '''returns boolean\n\n
+    fitsInLong()\n
     '''
 def toDouble():
-    '''public double toDouble()
+    '''returns double\n\n
+    toDouble()\n
     '''
 def toBigDecimal():
-    '''public BigDecimal toBigDecimal()
+    '''returns BigDecimal\n\n
+    toBigDecimal()\n
     '''
 def truncate():
-    '''public void truncate()
+    '''returns None\n\n
+    truncate()\n
     '''
 def roundToNickel():
-    '''public void roundToNickel(final int magnitude, final MathContext mathContext)
+    '''returns None\n\n
+    roundToNickel(final int magnitude, final MathContext mathContext)\n
     '''
 def roundToMagnitude():
-    '''public void roundToMagnitude(final int magnitude, final MathContext mathContext)
+    '''returns None\n\n
+    roundToMagnitude(final int magnitude, final MathContext mathContext)\n
     '''
 def roundToInfinity():
-    '''public void roundToInfinity()
+    '''returns None\n\n
+    roundToInfinity()\n
     '''
 def appendDigit():
-    '''public void appendDigit(final byte value, int leadingZeros, final boolean appendAsInteger)
+    '''returns None\n\n
+    appendDigit(final byte value, int leadingZeros, final boolean appendAsInteger)\n
     '''
 def toPlainString():
-    '''public String toPlainString()
-    public void toPlainString(final StringBuilder result)
+    '''returns None\n\n
+    toPlainString()\n
+    toPlainString(final StringBuilder result)\n
     '''
 def toScientificString():
-    '''public String toScientificString()
-    public void toScientificString(final StringBuilder result)
+    '''returns None\n\n
+    toScientificString()\n
+    toScientificString(final StringBuilder result)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''

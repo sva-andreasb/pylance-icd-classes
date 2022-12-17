@@ -1,15 +1,20 @@
-def UploadImpl():
-    '''public UploadImpl(final String description, final TransferProgress transferProgressInternalState, final ProgressListenerChain progressListenerChain, final TransferStateChangeListener listener)
+def ():
+    '''returns UploadImpl\n\n
+    (final String description, final TransferProgress transferProgressInternalState, final ProgressListenerChain progressListenerChain, final TransferStateChangeListener listener)\n
     '''
 def waitForUploadResult():
-    '''public UploadResult waitForUploadResult()
+    '''returns UploadResult\n\n
+    waitForUploadResult()\n
     '''
 def pause():
-    '''public PersistableUpload pause()
+    '''returns PersistableUpload\n\n
+    pause()\n
     '''
 def tryPause():
-    '''public PauseResult<PersistableUpload> tryPause(final boolean forceCancelTransfers)
+    '''returns PauseResult<PersistableUpload>\n\n
+    tryPause(final boolean forceCancelTransfers)\n
     '''
 def abort():
-    '''public void abort()
+    '''returns None\n\n
+    abort()\n
     '''

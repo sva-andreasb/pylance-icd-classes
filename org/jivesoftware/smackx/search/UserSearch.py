@@ -1,17 +1,22 @@
 ELEMENT = "String  \"query\""
 NAMESPACE = "String  \"jabber:iq:search\""
-def UserSearch():
-    '''public UserSearch()
+def ():
+    '''returns UserSearch\n\n
+    ()\n
     '''
 def getSearchForm():
-    '''public Form getSearchForm(final XMPPConnection con, final DomainBareJid searchService)
+    '''returns Form\n\n
+    getSearchForm(final XMPPConnection con, final DomainBareJid searchService)\n
     '''
 def sendSearchForm():
-    '''public ReportedData sendSearchForm(final XMPPConnection con, final Form searchForm, final DomainBareJid searchService)
+    '''returns ReportedData\n\n
+    sendSearchForm(final XMPPConnection con, final Form searchForm, final DomainBareJid searchService)\n
     '''
 def sendSimpleSearchForm():
-    '''public ReportedData sendSimpleSearchForm(final XMPPConnection con, final Form searchForm, final DomainBareJid searchService)
+    '''returns ReportedData\n\n
+    sendSimpleSearchForm(final XMPPConnection con, final Form searchForm, final DomainBareJid searchService)\n
     '''
 def parse():
-    '''public IQ parse(final XmlPullParser parser, final int initialDepth)
+    '''returns IQ\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

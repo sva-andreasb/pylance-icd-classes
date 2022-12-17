@@ -1,3 +1,4 @@
 def open():
-    '''public StoreDesc open(final Assembler a, final Resource root, final Mode mode)
+    '''returns StoreDesc\n\n
+    open(final Assembler a, final Resource root, final Mode mode)\n
     '''

@@ -1,9 +1,12 @@
-def Auth():
-    '''public Auth()
+def ():
+    '''returns Auth\n\n
+    ()\n
     '''
 def getScopeName():
-    '''public String getScopeName()
+    '''returns String\n\n
+    getScopeName()\n
     '''
 def setScopeName():
-    '''public void setScopeName(final String scopeName)
+    '''returns None\n\n
+    setScopeName(final String scopeName)\n
     '''

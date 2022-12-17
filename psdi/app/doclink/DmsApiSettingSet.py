@@ -1,3 +1,4 @@
-def DmsApiSettingSet():
-    '''public DmsApiSettingSet(final MboServerInterface ms)
+def ():
+    '''returns DmsApiSettingSet\n\n
+    (final MboServerInterface ms)\n
     '''

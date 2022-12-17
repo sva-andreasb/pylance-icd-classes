@@ -1,18 +1,24 @@
-def DefaultExcludes():
-    '''public DefaultExcludes()
+def ():
+    '''returns DefaultExcludes\n\n
+    ()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setDefault():
-    '''public void setDefault(final boolean def)
+    '''returns None\n\n
+    setDefault(final boolean def)\n
     '''
 def setAdd():
-    '''public void setAdd(final String add)
+    '''returns None\n\n
+    setAdd(final String add)\n
     '''
 def setRemove():
-    '''public void setRemove(final String remove)
+    '''returns None\n\n
+    setRemove(final String remove)\n
     '''
 def setEcho():
-    '''public void setEcho(final boolean echo)
+    '''returns None\n\n
+    setEcho(final boolean echo)\n
     '''

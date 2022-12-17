@@ -1,7 +1,9 @@
-def CCIFldAutoCreateAsset():
-    '''public CCIFldAutoCreateAsset()
-    public CCIFldAutoCreateAsset(final MboValue mbv)
+def ():
+    '''returns CCIFldAutoCreateAsset\n\n
+    ()\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,35 +1,32 @@
-def MaximoIndex():
-    '''public MaximoIndex(final Connection connection)
-    '''
-def findIndexQuery():
-    '''public static String findIndexQuery(final String table, final boolean isTextSearch, final List<String> keyList)
-    public static String findIndexQuery(final String table, final boolean isTextSearch, final String... keys)
-    public static String findIndexQuery(final String table, final String conditions, final String... keys)
+def ():
+    '''returns MaximoIndex\n\n
+    (final Connection connection)\n
     '''
 def createMaximoIndex():
-    '''public void createMaximoIndex(final IndexDefinition id)
+    '''returns None\n\n
+    createMaximoIndex(final IndexDefinition id)\n
     '''
 def getStorageForIndex():
-    '''public void getStorageForIndex(final IndexDefinition id)
+    '''returns None\n\n
+    getStorageForIndex(final IndexDefinition id)\n
     '''
 def doCreateIndex():
-    '''public void doCreateIndex(final IndexDefinition id)
+    '''returns None\n\n
+    doCreateIndex(final IndexDefinition id)\n
     '''
 def getDefaultIndexPartition():
-    '''public String getDefaultIndexPartition()
-    '''
-def getDefaultStoragePartition():
-    '''public final String getDefaultStoragePartition()
+    '''returns String\n\n
+    getDefaultIndexPartition()\n
     '''
 def dropIndex():
-    '''public void dropIndex(final IndexDefinition id)
-    '''
-def suggestedIxname():
-    '''public static String suggestedIxname(final String tbname, final String suffix)
+    '''returns None\n\n
+    dropIndex(final IndexDefinition id)\n
     '''
 def dropMaximoIndex():
-    '''public void dropMaximoIndex(final IndexDefinition dropId)
+    '''returns None\n\n
+    dropMaximoIndex(final IndexDefinition dropId)\n
     '''
 def dropIndexMeta():
-    '''public void dropIndexMeta(final IndexDefinition id)
+    '''returns None\n\n
+    dropIndexMeta(final IndexDefinition id)\n
     '''

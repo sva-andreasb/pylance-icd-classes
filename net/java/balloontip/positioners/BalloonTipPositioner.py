@@ -1,12 +1,8 @@
-def BalloonTipPositioner():
-    '''public BalloonTipPositioner()
+def ():
+    '''returns BalloonTipPositioner\n\n
+    ()\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent evt)
-    '''
-def getBalloonTip():
-    '''public final BalloonTip getBalloonTip()
-    '''
-def setBalloonTip():
-    '''public final void setBalloonTip(final BalloonTip balloonTip)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent evt)\n
     '''

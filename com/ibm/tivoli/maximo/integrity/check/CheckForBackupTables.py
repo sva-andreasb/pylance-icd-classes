@@ -1,12 +1,16 @@
-def CheckForBackupTables():
-    '''public CheckForBackupTables(final DatabaseInformation mdi, final ReportCollector ic, final ValidateLogger vl)
+def ():
+    '''returns CheckForBackupTables\n\n
+    (final DatabaseInformation mdi, final ReportCollector ic, final ValidateLogger vl)\n
     '''
 def conditionsCheck():
-    '''public boolean conditionsCheck()
+    '''returns boolean\n\n
+    conditionsCheck()\n
     '''
 def getTitle():
-    '''public MXException getTitle()
+    '''returns MXException\n\n
+    getTitle()\n
     '''
 def prerequisitesCheck():
-    '''public boolean prerequisitesCheck()
+    '''returns boolean\n\n
+    prerequisitesCheck()\n
     '''

@@ -1,12 +1,16 @@
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def OpenMBeanInfoSupport():
-    '''public OpenMBeanInfoSupport(final String s, final String s2, final OpenMBeanAttributeInfo[] array, final OpenMBeanConstructorInfo[] array2, final OpenMBeanOperationInfo[] array3, final MBeanNotificationInfo[] array4)
+def ():
+    '''returns OpenMBeanInfoSupport\n\n
+    (final String s, final String s2, final OpenMBeanAttributeInfo[] array, final OpenMBeanConstructorInfo[] array2, final OpenMBeanOperationInfo[] array3, final MBeanNotificationInfo[] array4)\n
     '''

@@ -1,6 +1,8 @@
-def L2I():
-    '''public L2I()
+def ():
+    '''returns L2I\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

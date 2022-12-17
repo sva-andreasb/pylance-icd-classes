@@ -1,73 +1,89 @@
 TEXT = "String  \"text\""
 ITEM = "String  \"item\""
 def getStanzaId():
-    '''public String getStanzaId()
+    '''returns String\n\n
+    getStanzaId()\n
     '''
 def getPacketID():
-    '''public String getPacketID()
+    '''returns String\n\n
+    getPacketID()\n
     '''
 def setStanzaId():
-    '''public void setStanzaId(final String id)
-    public String setStanzaId()
+    '''returns String\n\n
+    setStanzaId(final String id)\n
+    setStanzaId()\n
     '''
 def setPacketID():
-    '''public void setPacketID(final String packetID)
+    '''returns None\n\n
+    setPacketID(final String packetID)\n
     '''
 def hasStanzaIdSet():
-    '''public boolean hasStanzaIdSet()
+    '''returns boolean\n\n
+    hasStanzaIdSet()\n
     '''
 def getTo():
-    '''public Jid getTo()
+    '''returns Jid\n\n
+    getTo()\n
     '''
 def setTo():
-    '''public void setTo(final String to)
-    public void setTo(final Jid to)
+    '''returns None\n\n
+    setTo(final String to)\n
+    setTo(final Jid to)\n
     '''
 def getFrom():
-    '''public Jid getFrom()
+    '''returns Jid\n\n
+    getFrom()\n
     '''
 def setFrom():
-    '''public void setFrom(final String from)
-    public void setFrom(final Jid from)
+    '''returns None\n\n
+    setFrom(final String from)\n
+    setFrom(final Jid from)\n
     '''
 def getError():
-    '''public StanzaError getError()
+    '''returns StanzaError\n\n
+    getError()\n
     '''
 def setError():
-    '''public void setError(final StanzaError error)
-    public void setError(final StanzaError.Builder xmppErrorBuilder)
+    '''returns None\n\n
+    setError(final StanzaError error)\n
+    setError(final StanzaError.Builder xmppErrorBuilder)\n
     '''
 def getLanguage():
-    '''public String getLanguage()
+    '''returns String\n\n
+    getLanguage()\n
     '''
 def setLanguage():
-    '''public void setLanguage(final String language)
+    '''returns None\n\n
+    setLanguage(final String language)\n
     '''
 def getExtensions():
-    '''public List<ExtensionElement> getExtensions()
-    public List<ExtensionElement> getExtensions(final String elementName, final String namespace)
+    '''returns List<ExtensionElement>\n\n
+    getExtensions()\n
+    getExtensions(final String elementName, final String namespace)\n
     '''
 def getExtension():
-    '''public ExtensionElement getExtension(final String namespace)
-    public <PE extends ExtensionElement> PE getExtension(final String elementName, final String namespace)
+    '''returns ExtensionElement\n\n
+    getExtension(final String namespace)\n
     '''
 def addExtension():
-    '''public void addExtension(final ExtensionElement extension)
+    '''returns None\n\n
+    addExtension(final ExtensionElement extension)\n
     '''
 def overrideExtension():
-    '''public ExtensionElement overrideExtension(final ExtensionElement extension)
+    '''returns ExtensionElement\n\n
+    overrideExtension(final ExtensionElement extension)\n
     '''
 def addExtensions():
-    '''public void addExtensions(final Collection<ExtensionElement> extensions)
+    '''returns None\n\n
+    addExtensions(final Collection<ExtensionElement> extensions)\n
     '''
 def hasExtension():
-    '''public boolean hasExtension(final String elementName, final String namespace)
-    public boolean hasExtension(final String namespace)
+    '''returns boolean\n\n
+    hasExtension(final String elementName, final String namespace)\n
+    hasExtension(final String namespace)\n
     '''
 def removeExtension():
-    '''public ExtensionElement removeExtension(final String elementName, final String namespace)
-    public ExtensionElement removeExtension(final ExtensionElement extension)
-    '''
-def getDefaultLanguage():
-    '''public static String getDefaultLanguage()
+    '''returns ExtensionElement\n\n
+    removeExtension(final String elementName, final String namespace)\n
+    removeExtension(final ExtensionElement extension)\n
     '''

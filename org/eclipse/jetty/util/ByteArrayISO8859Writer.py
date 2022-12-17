@@ -1,51 +1,66 @@
-def ByteArrayISO8859Writer():
-    '''public ByteArrayISO8859Writer()
-    public ByteArrayISO8859Writer(final int capacity)
-    public ByteArrayISO8859Writer(final byte[] buf)
+def ():
+    '''returns ByteArrayISO8859Writer\n\n
+    ()\n
+    (final int capacity)\n
+    (final byte[] buf)\n
     '''
 def getLock():
-    '''public Object getLock()
+    '''returns Object\n\n
+    getLock()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def capacity():
-    '''public int capacity()
+    '''returns int\n\n
+    capacity()\n
     '''
 def spareCapacity():
-    '''public int spareCapacity()
+    '''returns int\n\n
+    spareCapacity()\n
     '''
 def setLength():
-    '''public void setLength(final int l)
+    '''returns None\n\n
+    setLength(final int l)\n
     '''
 def getBuf():
-    '''public byte[] getBuf()
+    '''returns byte[]\n\n
+    getBuf()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def write():
-    '''public void write(final char c)
-    public void write(final char[] ca)
-    public void write(final char[] ca, final int offset, final int length)
-    public void write(final String s)
-    public void write(final String s, final int offset, final int length)
+    '''returns None\n\n
+    write(final char c)\n
+    write(final char[] ca)\n
+    write(final char[] ca, final int offset, final int length)\n
+    write(final String s)\n
+    write(final String s, final int offset, final int length)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def resetWriter():
-    '''public void resetWriter()
+    '''returns None\n\n
+    resetWriter()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def ensureSpareCapacity():
-    '''public void ensureSpareCapacity(final int n)
+    '''returns None\n\n
+    ensureSpareCapacity(final int n)\n
     '''
 def getByteArray():
-    '''public byte[] getByteArray()
+    '''returns byte[]\n\n
+    getByteArray()\n
     '''

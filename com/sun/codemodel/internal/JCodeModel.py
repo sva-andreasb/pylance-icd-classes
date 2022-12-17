@@ -1,103 +1,127 @@
-def JCodeModel():
-    '''public JCodeModel()
+def ():
+    '''returns TypeNameParser\n\n
+    ()\n
+    (final String s)\n
     '''
 def _package():
-    '''public JPackage _package(final String name)
-    public JPackage _package()
-    '''
-def rootPackage():
-    '''public final JPackage rootPackage()
+    '''returns JPackage\n\n
+    _package(final String name)\n
+    _package()\n
     '''
 def packages():
-    '''public Iterator<JPackage> packages()
+    '''returns Iterator<JPackage>\n\n
+    packages()\n
     '''
 def _class():
-    '''public JDefinedClass _class(final String fullyqualifiedName)
-    public JDefinedClass _class(final int mods, final String fullyqualifiedName, final ClassType t)
-    public JDefinedClass _class(final String fullyqualifiedName, final ClassType t)
+    '''returns JDefinedClass\n\n
+    _class(final String fullyqualifiedName)\n
+    _class(final int mods, final String fullyqualifiedName, final ClassType t)\n
+    _class(final String fullyqualifiedName, final ClassType t)\n
     '''
 def directClass():
-    '''public JClass directClass(final String name)
+    '''returns JClass\n\n
+    directClass(final String name)\n
     '''
 def _getClass():
-    '''public JDefinedClass _getClass(final String fullyQualifiedName)
+    '''returns JDefinedClass\n\n
+    _getClass(final String fullyQualifiedName)\n
     '''
 def newAnonymousClass():
-    '''public JDefinedClass newAnonymousClass(final JClass baseType)
+    '''returns JDefinedClass\n\n
+    newAnonymousClass(final JClass baseType)\n
     '''
 def anonymousClass():
-    '''public JDefinedClass anonymousClass(final JClass baseType)
-    public JDefinedClass anonymousClass(final Class<?> baseType)
+    '''returns JDefinedClass\n\n
+    anonymousClass(final JClass baseType)\n
+    anonymousClass(final Class<?> baseType)\n
     '''
 def build():
-    '''public void build(final File destDir, final PrintStream status)
-    public void build(final File srcDir, final File resourceDir, final PrintStream status)
-    public void build(final File destDir)
-    public void build(final File srcDir, final File resourceDir)
-    public void build(final CodeWriter out)
-    public void build(final CodeWriter source, final CodeWriter resource)
+    '''returns None\n\n
+    build(final File destDir, final PrintStream status)\n
+    build(final File srcDir, final File resourceDir, final PrintStream status)\n
+    build(final File destDir)\n
+    build(final File srcDir, final File resourceDir)\n
+    build(final CodeWriter out)\n
+    build(final CodeWriter source, final CodeWriter resource)\n
     '''
 def countArtifacts():
-    '''public int countArtifacts()
+    '''returns int\n\n
+    countArtifacts()\n
     '''
 def ref():
-    '''public JClass ref(final Class<?> clazz)
-    public JClass ref(final String fullyQualifiedClassName)
+    '''returns JClass\n\n
+    ref(final Class<?> clazz)\n
+    ref(final String fullyQualifiedClassName)\n
     '''
 def _ref():
-    '''public JType _ref(final Class<?> c)
+    '''returns JType\n\n
+    _ref(final Class<?> c)\n
     '''
 def wildcard():
-    '''public JClass wildcard()
+    '''returns JClass\n\n
+    wildcard()\n
     '''
 def parseType():
-    '''public JType parseType(final String name)
-    '''
-def TypeNameParser():
-    '''public TypeNameParser(final String s)
+    '''returns JType\n\n
+    parseType(final String name)\n
     '''
 def name():
-    '''public String name()
+    '''returns String\n\n
+    name()\n
     '''
 def fullName():
-    '''public String fullName()
+    '''returns String\n\n
+    fullName()\n
     '''
 def binaryName():
-    '''public String binaryName()
+    '''returns String\n\n
+    binaryName()\n
     '''
 def outer():
-    '''public JClass outer()
+    '''returns JClass\n\n
+    outer()\n
     '''
 def _extends():
-    '''public JClass _extends()
+    '''returns JClass\n\n
+    _extends()\n
     '''
 def _implements():
-    '''public Iterator<JClass> _implements()
+    '''returns Iterator<JClass>\n\n
+    _implements()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public JClass next()
+    '''returns JClass\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def isInterface():
-    '''public boolean isInterface()
+    '''returns boolean\n\n
+    isInterface()\n
     '''
 def isAbstract():
-    '''public boolean isAbstract()
+    '''returns boolean\n\n
+    isAbstract()\n
     '''
 def getPrimitiveType():
-    '''public JPrimitiveType getPrimitiveType()
+    '''returns JPrimitiveType\n\n
+    getPrimitiveType()\n
     '''
 def isArray():
-    '''public boolean isArray()
+    '''returns boolean\n\n
+    isArray()\n
     '''
 def declare():
-    '''public void declare(final JFormatter f)
+    '''returns None\n\n
+    declare(final JFormatter f)\n
     '''
 def typeParams():
-    '''public JTypeVar[] typeParams()
+    '''returns JTypeVar[]\n\n
+    typeParams()\n
     '''

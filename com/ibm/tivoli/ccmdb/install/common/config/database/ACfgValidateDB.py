@@ -1,54 +1,64 @@
 def canConnectWithUser():
-    '''public boolean canConnectWithUser(final String jdbcUrl, final String dbuser, final String dbpassword)
+    '''returns boolean\n\n
+    canConnectWithUser(final String jdbcUrl, final String dbuser, final String dbpassword)\n
     '''
 def instanceExists():
-    '''public boolean instanceExists(final String dbinstance)
+    '''returns boolean\n\n
+    instanceExists(final String dbinstance)\n
     '''
 def dbExists():
-    '''public boolean dbExists(final String dbname)
+    '''returns boolean\n\n
+    dbExists(final String dbname)\n
     '''
 def hasDbaAuthority():
-    '''public boolean hasDbaAuthority(final String jdbcUrl, final String dbaUser, final String dbaPassword)
+    '''returns boolean\n\n
+    hasDbaAuthority(final String jdbcUrl, final String dbaUser, final String dbaPassword)\n
     '''
 def tableSpaceExists():
-    '''public boolean tableSpaceExists(final String dbtsname)
+    '''returns boolean\n\n
+    tableSpaceExists(final String dbtsname)\n
     '''
 def tableSpaceSize():
-    '''public boolean tableSpaceSize(final String dbtsname, final String dbtssize)
+    '''returns boolean\n\n
+    tableSpaceSize(final String dbtsname, final String dbtssize)\n
     '''
 def bufferPoolExists():
-    '''public boolean bufferPoolExists(final String dbbpname)
+    '''returns boolean\n\n
+    bufferPoolExists(final String dbbpname)\n
     '''
 def bufferPoolSize():
-    '''public boolean bufferPoolSize(final String dbbpname, final String dbbpsize)
+    '''returns boolean\n\n
+    bufferPoolSize(final String dbbpname, final String dbbpsize)\n
     '''
 def dbSize():
-    '''public boolean dbSize(final String dbsize, final String dbname)
+    '''returns boolean\n\n
+    dbSize(final String dbsize, final String dbname)\n
     '''
 def dbLogFileSize():
-    '''public boolean dbLogFileSize(final String dblfsize, final String dbname)
+    '''returns boolean\n\n
+    dbLogFileSize(final String dblfsize, final String dbname)\n
     '''
 def isCompatibleDatabaseExists():
-    '''public boolean isCompatibleDatabaseExists(final String minReqDBVersion, final String schemaOwner)
+    '''returns boolean\n\n
+    isCompatibleDatabaseExists(final String minReqDBVersion, final String schemaOwner)\n
     '''
 def isDatabaseReadyForUpdatedb():
-    '''public boolean isDatabaseReadyForUpdatedb(String schemaOwner)
+    '''returns boolean\n\n
+    isDatabaseReadyForUpdatedb(String schemaOwner)\n
     '''
 def isXXTablesExists():
-    '''public boolean isXXTablesExists(final String schemaOwner)
-    '''
-def getMAXUPG():
-    '''public static String getMAXUPG(final Connection mycon, final String schemaOwner)
+    '''returns boolean\n\n
+    isXXTablesExists(final String schemaOwner)\n
     '''
 def isMXServerUp():
-    '''public boolean isMXServerUp(final String serverName, final String dbType, String schemaOwner)
+    '''returns boolean\n\n
+    isMXServerUp(final String serverName, final String dbType, String schemaOwner)\n
     '''
 def nativeTableExists():
-    '''public boolean nativeTableExists(final String tbname, final String dbType, final String schemaName)
+    '''returns boolean\n\n
+    nativeTableExists(final String tbname, final String dbType, final String schemaName)\n
     '''
 def rowFound():
-    '''public boolean rowFound(final String sql, final String dbType)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns boolean\n\n
+    rowFound(final String sql, final String dbType)\n
     '''

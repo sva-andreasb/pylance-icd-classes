@@ -1,22 +1,21 @@
-def of():
-    '''public static <L, R> Pair<L, R> of(final L left, final R right)
-    '''
-def getKey():
-    '''public final L getKey()
-    '''
 def getValue():
-    '''public R getValue()
+    '''returns R\n\n
+    getValue()\n
     '''
 def compareTo():
-    '''public int compareTo(final Pair<L, R> other)
+    '''returns int\n\n
+    compareTo(final Pair<L, R> other)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final String format)
+    '''returns String\n\n
+    toString()\n
+    toString(final String format)\n
     '''

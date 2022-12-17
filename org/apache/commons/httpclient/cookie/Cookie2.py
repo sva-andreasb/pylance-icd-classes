@@ -7,48 +7,62 @@ MAXAGE = "String  \"max-age\""
 COMMENT = "String  \"comment\""
 COMMENTURL = "String  \"commenturl\""
 DISCARD = "String  \"discard\""
-def Cookie2():
-    '''public Cookie2()
-    public Cookie2(final String domain, final String name, final String value)
-    public Cookie2(final String domain, final String name, final String value, final String path, final Date expires, final boolean secure)
-    public Cookie2(final String domain, final String name, final String value, final String path, final Date expires, final boolean secure, final int[] ports)
+def ():
+    '''returns Cookie2\n\n
+    ()\n
+    (final String domain, final String name, final String value)\n
+    (final String domain, final String name, final String value, final String path, final Date expires, final boolean secure)\n
+    (final String domain, final String name, final String value, final String path, final Date expires, final boolean secure, final int[] ports)\n
     '''
 def getCommentURL():
-    '''public String getCommentURL()
+    '''returns String\n\n
+    getCommentURL()\n
     '''
 def setCommentURL():
-    '''public void setCommentURL(final String commentURL)
+    '''returns None\n\n
+    setCommentURL(final String commentURL)\n
     '''
 def getPorts():
-    '''public int[] getPorts()
+    '''returns int[]\n\n
+    getPorts()\n
     '''
 def setPorts():
-    '''public void setPorts(final int[] ports)
+    '''returns None\n\n
+    setPorts(final int[] ports)\n
     '''
 def setDiscard():
-    '''public void setDiscard(final boolean toDiscard)
+    '''returns None\n\n
+    setDiscard(final boolean toDiscard)\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def setPortAttributeSpecified():
-    '''public void setPortAttributeSpecified(final boolean value)
+    '''returns None\n\n
+    setPortAttributeSpecified(final boolean value)\n
     '''
 def isPortAttributeSpecified():
-    '''public boolean isPortAttributeSpecified()
+    '''returns boolean\n\n
+    isPortAttributeSpecified()\n
     '''
 def setPortAttributeBlank():
-    '''public void setPortAttributeBlank(final boolean value)
+    '''returns None\n\n
+    setPortAttributeBlank(final boolean value)\n
     '''
 def isPortAttributeBlank():
-    '''public boolean isPortAttributeBlank()
+    '''returns boolean\n\n
+    isPortAttributeBlank()\n
     '''
 def setVersionAttributeSpecified():
-    '''public void setVersionAttributeSpecified(final boolean value)
+    '''returns None\n\n
+    setVersionAttributeSpecified(final boolean value)\n
     '''
 def isVersionAttributeSpecified():
-    '''public boolean isVersionAttributeSpecified()
+    '''returns boolean\n\n
+    isVersionAttributeSpecified()\n
     '''
 def toExternalForm():
-    '''public String toExternalForm()
+    '''returns String\n\n
+    toExternalForm()\n
     '''

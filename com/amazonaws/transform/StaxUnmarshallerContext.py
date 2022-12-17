@@ -1,38 +1,43 @@
 def setCurrentHeader():
-    '''public void setCurrentHeader(final String currentHeader)
+    '''returns None\n\n
+    setCurrentHeader(final String currentHeader)\n
     '''
 def isInsideResponseHeader():
-    '''public boolean isInsideResponseHeader()
+    '''returns boolean\n\n
+    isInsideResponseHeader()\n
     '''
-def StaxUnmarshallerContext():
-    '''public StaxUnmarshallerContext(final XMLEventReader eventReader)
-    public StaxUnmarshallerContext(final XMLEventReader eventReader, final Map<String, String> headers)
+def ():
+    '''returns MetadataExpression\n\n
+    (final XMLEventReader eventReader)\n
+    (final XMLEventReader eventReader, final Map<String, String> headers)\n
+    (final String expression, final int targetDepth, final String key)\n
     '''
 def getHeader():
-    '''public String getHeader(final String header)
+    '''returns String\n\n
+    getHeader(final String header)\n
     '''
 def readText():
-    '''public String readText()
+    '''returns String\n\n
+    readText()\n
     '''
 def getCurrentDepth():
-    '''public int getCurrentDepth()
+    '''returns int\n\n
+    getCurrentDepth()\n
     '''
 def testExpression():
-    '''public boolean testExpression(final String expression)
-    public boolean testExpression(final String expression, int startingStackDepth)
+    '''returns boolean\n\n
+    testExpression(final String expression)\n
+    testExpression(final String expression, int startingStackDepth)\n
     '''
 def isStartOfDocument():
-    '''public boolean isStartOfDocument()
+    '''returns boolean\n\n
+    isStartOfDocument()\n
     '''
 def nextEvent():
-    '''public XMLEvent nextEvent()
-    '''
-def getMetadata():
-    '''public Map<String, String> getMetadata()
+    '''returns XMLEvent\n\n
+    nextEvent()\n
     '''
 def registerMetadataExpression():
-    '''public void registerMetadataExpression(final String expression, final int targetDepth, final String storageKey)
-    '''
-def MetadataExpression():
-    '''public MetadataExpression(final String expression, final int targetDepth, final String key)
+    '''returns None\n\n
+    registerMetadataExpression(final String expression, final int targetDepth, final String storageKey)\n
     '''

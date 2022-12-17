@@ -1,6 +1,8 @@
-def WMMatchSet():
-    '''public WMMatchSet(final MboServerInterface ms)
+def ():
+    '''returns WMMatchSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def addMatchMbos():
-    '''public void addMatchMbos(final Vector selectedMbos)
+    '''returns None\n\n
+    addMatchMbos(final Vector selectedMbos)\n
     '''

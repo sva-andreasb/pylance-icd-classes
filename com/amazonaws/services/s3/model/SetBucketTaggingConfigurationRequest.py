@@ -1,21 +1,28 @@
-def SetBucketTaggingConfigurationRequest():
-    '''public SetBucketTaggingConfigurationRequest(final String bucketName, final BucketTaggingConfiguration taggingConfiguration)
+def ():
+    '''returns SetBucketTaggingConfigurationRequest\n\n
+    (final String bucketName, final BucketTaggingConfiguration taggingConfiguration)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public SetBucketTaggingConfigurationRequest withBucketName(final String bucketName)
+    '''returns SetBucketTaggingConfigurationRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getTaggingConfiguration():
-    '''public BucketTaggingConfiguration getTaggingConfiguration()
+    '''returns BucketTaggingConfiguration\n\n
+    getTaggingConfiguration()\n
     '''
 def setTaggingConfiguration():
-    '''public void setTaggingConfiguration(final BucketTaggingConfiguration taggingConfiguration)
+    '''returns None\n\n
+    setTaggingConfiguration(final BucketTaggingConfiguration taggingConfiguration)\n
     '''
 def withTaggingConfiguration():
-    '''public SetBucketTaggingConfigurationRequest withTaggingConfiguration(final BucketTaggingConfiguration taggingConfiguration)
+    '''returns SetBucketTaggingConfigurationRequest\n\n
+    withTaggingConfiguration(final BucketTaggingConfiguration taggingConfiguration)\n
     '''

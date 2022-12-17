@@ -1,9 +1,12 @@
-def PlusPCustObjectInboundProcess():
-    '''public PlusPCustObjectInboundProcess()
+def ():
+    '''returns PlusPCustObjectInboundProcess\n\n
+    ()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''returns int\n\n
+    checkBusinessRules(final MboSetRemote mboSet, final String tableName)\n
     '''
 def afterProcess():
-    '''public void afterProcess()
+    '''returns None\n\n
+    afterProcess()\n
     '''

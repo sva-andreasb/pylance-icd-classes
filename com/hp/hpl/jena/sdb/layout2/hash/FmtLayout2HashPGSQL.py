@@ -1,3 +1,4 @@
-def FmtLayout2HashPGSQL():
-    '''public FmtLayout2HashPGSQL(final SDBConnection connection)
+def ():
+    '''returns FmtLayout2HashPGSQL\n\n
+    (final SDBConnection connection)\n
     '''

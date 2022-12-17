@@ -1,22 +1,29 @@
-def OAuthConfiguration():
-    '''public OAuthConfiguration()
-    public OAuthConfiguration(final URI oauthRequestTokenURI, final URI authorizationURI, final URI oauthAccessTokenURI)
+def ():
+    '''returns OAuthConfiguration\n\n
+    ()\n
+    (final URI oauthRequestTokenURI, final URI authorizationURI, final URI oauthAccessTokenURI)\n
     '''
 def getAuthorizationURI():
-    '''public URI getAuthorizationURI()
+    '''returns URI\n\n
+    getAuthorizationURI()\n
     '''
 def getOauthAccessTokenURI():
-    '''public URI getOauthAccessTokenURI()
+    '''returns URI\n\n
+    getOauthAccessTokenURI()\n
     '''
 def getOauthRequestTokenURI():
-    '''public URI getOauthRequestTokenURI()
+    '''returns URI\n\n
+    getOauthRequestTokenURI()\n
     '''
 def setAuthorizationURI():
-    '''public void setAuthorizationURI(final URI authorizationURI)
+    '''returns None\n\n
+    setAuthorizationURI(final URI authorizationURI)\n
     '''
 def setOauthAccessTokenURI():
-    '''public void setOauthAccessTokenURI(final URI oauthAccessTokenURI)
+    '''returns None\n\n
+    setOauthAccessTokenURI(final URI oauthAccessTokenURI)\n
     '''
 def setOauthRequestTokenURI():
-    '''public void setOauthRequestTokenURI(final URI oauthRequestTokenURI)
+    '''returns None\n\n
+    setOauthRequestTokenURI(final URI oauthRequestTokenURI)\n
     '''

@@ -1,55 +1,67 @@
-def BeanPropertyMap():
-    '''public BeanPropertyMap(final boolean caseInsensitive, final Collection<SettableBeanProperty> props, final Map<String, List<PropertyName>> aliasDefs)
-    public BeanPropertyMap(final boolean caseInsensitive, final Collection<SettableBeanProperty> props)
+def ():
+    '''returns BeanPropertyMap\n\n
+    (final boolean caseInsensitive, final Collection<SettableBeanProperty> props, final Map<String, List<PropertyName>> aliasDefs)\n
+    (final boolean caseInsensitive, final Collection<SettableBeanProperty> props)\n
     '''
 def withCaseInsensitivity():
-    '''public BeanPropertyMap withCaseInsensitivity(final boolean state)
-    '''
-def construct():
-    '''public static BeanPropertyMap construct(final Collection<SettableBeanProperty> props, final boolean caseInsensitive, final Map<String, List<PropertyName>> aliasMapping)
-    public static BeanPropertyMap construct(final Collection<SettableBeanProperty> props, final boolean caseInsensitive)
+    '''returns BeanPropertyMap\n\n
+    withCaseInsensitivity(final boolean state)\n
     '''
 def withProperty():
-    '''public BeanPropertyMap withProperty(final SettableBeanProperty newProp)
+    '''returns BeanPropertyMap\n\n
+    withProperty(final SettableBeanProperty newProp)\n
     '''
 def assignIndexes():
-    '''public BeanPropertyMap assignIndexes()
+    '''returns BeanPropertyMap\n\n
+    assignIndexes()\n
     '''
 def renameAll():
-    '''public BeanPropertyMap renameAll(final NameTransformer transformer)
+    '''returns BeanPropertyMap\n\n
+    renameAll(final NameTransformer transformer)\n
     '''
 def withoutProperties():
-    '''public BeanPropertyMap withoutProperties(final Collection<String> toExclude)
+    '''returns BeanPropertyMap\n\n
+    withoutProperties(final Collection<String> toExclude)\n
     '''
 def replace():
-    '''public void replace(final SettableBeanProperty newProp)
-    public void replace(final SettableBeanProperty origProp, final SettableBeanProperty newProp)
+    '''returns None\n\n
+    replace(final SettableBeanProperty newProp)\n
+    replace(final SettableBeanProperty origProp, final SettableBeanProperty newProp)\n
     '''
 def remove():
-    '''public void remove(final SettableBeanProperty propToRm)
+    '''returns None\n\n
+    remove(final SettableBeanProperty propToRm)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def isCaseInsensitive():
-    '''public boolean isCaseInsensitive()
+    '''returns boolean\n\n
+    isCaseInsensitive()\n
     '''
 def hasAliases():
-    '''public boolean hasAliases()
+    '''returns boolean\n\n
+    hasAliases()\n
     '''
 def iterator():
-    '''public Iterator<SettableBeanProperty> iterator()
+    '''returns Iterator<SettableBeanProperty>\n\n
+    iterator()\n
     '''
 def getPropertiesInInsertionOrder():
-    '''public SettableBeanProperty[] getPropertiesInInsertionOrder()
+    '''returns SettableBeanProperty[]\n\n
+    getPropertiesInInsertionOrder()\n
     '''
 def find():
-    '''public SettableBeanProperty find(final int index)
-    public SettableBeanProperty find(String key)
+    '''returns SettableBeanProperty\n\n
+    find(final int index)\n
+    find(String key)\n
     '''
 def findDeserializeAndSet():
-    '''public boolean findDeserializeAndSet(final JsonParser p, final DeserializationContext ctxt, final Object bean, final String key)
+    '''returns boolean\n\n
+    findDeserializeAndSet(final JsonParser p, final DeserializationContext ctxt, final Object bean, final String key)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

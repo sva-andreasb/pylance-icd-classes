@@ -1,6 +1,8 @@
-def ChangePasswordsSet():
-    '''public ChangePasswordsSet(final MboServerInterface ms)
+def ():
+    '''returns ChangePasswordsSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

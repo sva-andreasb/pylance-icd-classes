@@ -1,21 +1,20 @@
-def MockBackOff():
-    '''public MockBackOff()
+def ():
+    '''returns MockBackOff\n\n
+    ()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def nextBackOffMillis():
-    '''public long nextBackOffMillis()
+    '''returns long\n\n
+    nextBackOffMillis()\n
     '''
 def setBackOffMillis():
-    '''public MockBackOff setBackOffMillis(final long backOffMillis)
+    '''returns MockBackOff\n\n
+    setBackOffMillis(final long backOffMillis)\n
     '''
 def setMaxTries():
-    '''public MockBackOff setMaxTries(final int maxTries)
-    '''
-def getMaxTries():
-    '''public final int getMaxTries()
-    '''
-def getNumberOfTries():
-    '''public final int getNumberOfTries()
+    '''returns MockBackOff\n\n
+    setMaxTries(final int maxTries)\n
     '''

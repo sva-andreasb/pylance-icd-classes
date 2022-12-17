@@ -1,8 +1,10 @@
-def SQLiteConnectionPoolDataSource():
-    '''public SQLiteConnectionPoolDataSource()
-    public SQLiteConnectionPoolDataSource(final SQLiteConfig config)
+def ():
+    '''returns SQLiteConnectionPoolDataSource\n\n
+    ()\n
+    (final SQLiteConfig config)\n
     '''
 def getPooledConnection():
-    '''public PooledConnection getPooledConnection()
-    public PooledConnection getPooledConnection(final String user, final String password)
+    '''returns PooledConnection\n\n
+    getPooledConnection()\n
+    getPooledConnection(final String user, final String password)\n
     '''

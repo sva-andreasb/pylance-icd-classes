@@ -1,6 +1,8 @@
 def getPlannedLaborCriteria():
-    '''public String getPlannedLaborCriteria(final MboRemote mbo)
+    '''returns String\n\n
+    getPlannedLaborCriteria(final MboRemote mbo)\n
     '''
 def getCriteriaForContract():
-    '''public String getCriteriaForContract(final MboRemote mbo)
+    '''returns String\n\n
+    getCriteriaForContract(final MboRemote mbo)\n
     '''

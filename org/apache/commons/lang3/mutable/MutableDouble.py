@@ -1,60 +1,78 @@
-def MutableDouble():
-    '''public MutableDouble()
-    public MutableDouble(final double value)
-    public MutableDouble(final Number value)
-    public MutableDouble(final String value)
+def ():
+    '''returns MutableDouble\n\n
+    ()\n
+    (final double value)\n
+    (final Number value)\n
+    (final String value)\n
     '''
 def getValue():
-    '''public Double getValue()
+    '''returns Double\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final double value)
-    public void setValue(final Number value)
+    '''returns None\n\n
+    setValue(final double value)\n
+    setValue(final Number value)\n
     '''
 def isNaN():
-    '''public boolean isNaN()
+    '''returns boolean\n\n
+    isNaN()\n
     '''
 def isInfinite():
-    '''public boolean isInfinite()
+    '''returns boolean\n\n
+    isInfinite()\n
     '''
 def increment():
-    '''public void increment()
+    '''returns None\n\n
+    increment()\n
     '''
 def decrement():
-    '''public void decrement()
+    '''returns None\n\n
+    decrement()\n
     '''
 def add():
-    '''public void add(final double operand)
-    public void add(final Number operand)
+    '''returns None\n\n
+    add(final double operand)\n
+    add(final Number operand)\n
     '''
 def subtract():
-    '''public void subtract(final double operand)
-    public void subtract(final Number operand)
+    '''returns None\n\n
+    subtract(final double operand)\n
+    subtract(final Number operand)\n
     '''
 def intValue():
-    '''public int intValue()
+    '''returns int\n\n
+    intValue()\n
     '''
 def longValue():
-    '''public long longValue()
+    '''returns long\n\n
+    longValue()\n
     '''
 def floatValue():
-    '''public float floatValue()
+    '''returns float\n\n
+    floatValue()\n
     '''
 def doubleValue():
-    '''public double doubleValue()
+    '''returns double\n\n
+    doubleValue()\n
     '''
 def toDouble():
-    '''public Double toDouble()
+    '''returns Double\n\n
+    toDouble()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def compareTo():
-    '''public int compareTo(final MutableDouble other)
+    '''returns int\n\n
+    compareTo(final MutableDouble other)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

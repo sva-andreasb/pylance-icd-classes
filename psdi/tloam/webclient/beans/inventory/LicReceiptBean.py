@@ -1,9 +1,12 @@
 def execute():
-    '''public int execute()
+    '''returns int\n\n
+    execute()\n
     '''
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''
 def licrecptcreate():
-    '''public int licrecptcreate()
+    '''returns int\n\n
+    licrecptcreate()\n
     '''

@@ -1,9 +1,12 @@
-def EventStAXSplitter():
-    '''public EventStAXSplitter(final XMLSplitListener listener)
+def ():
+    '''returns EventStAXSplitter\n\n
+    (final XMLSplitListener listener)\n
     '''
 def split():
-    '''public void split(final InputStream xmlStream, final XPathExpression expr)
+    '''returns None\n\n
+    split(final InputStream xmlStream, final XPathExpression expr)\n
     '''
 def getCurrentBlockIndex():
-    '''public int getCurrentBlockIndex()
+    '''returns int\n\n
+    getCurrentBlockIndex()\n
     '''

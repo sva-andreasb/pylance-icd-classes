@@ -1,3 +1,4 @@
 def transform():
-    '''public CalendarComponent transform(final CalendarComponent object)
+    '''returns CalendarComponent\n\n
+    transform(final CalendarComponent object)\n
     '''

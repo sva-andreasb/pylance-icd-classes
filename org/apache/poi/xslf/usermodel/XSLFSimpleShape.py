@@ -1,122 +1,160 @@
 def setShapeType():
-    '''public void setShapeType(final ShapeType type)
+    '''returns None\n\n
+    setShapeType(final ShapeType type)\n
     '''
 def getShapeType():
-    '''public ShapeType getShapeType()
+    '''returns ShapeType\n\n
+    getShapeType()\n
     '''
 def fetch():
-    '''public boolean fetch(final XSLFShape shape)
-    public boolean fetch(final XSLFShape shape)
-    public boolean fetch(final XSLFShape shape)
-    public boolean fetch(final XSLFShape shape)
-    public boolean fetch(final XSLFShape shape)
-    public boolean fetch(final XSLFShape shape)
-    public boolean fetch(final XSLFShape shape)
+    '''returns boolean\n\n
+    fetch(final XSLFShape shape)\n
+    fetch(final XSLFShape shape)\n
+    fetch(final XSLFShape shape)\n
+    fetch(final XSLFShape shape)\n
+    fetch(final XSLFShape shape)\n
+    fetch(final XSLFShape shape)\n
+    fetch(final XSLFShape shape)\n
     '''
 def getAnchor():
-    '''public Rectangle2D getAnchor()
+    '''returns Rectangle2D\n\n
+    getAnchor()\n
     '''
 def setAnchor():
-    '''public void setAnchor(final Rectangle2D anchor)
+    '''returns None\n\n
+    setAnchor(final Rectangle2D anchor)\n
     '''
 def setRotation():
-    '''public void setRotation(final double theta)
+    '''returns None\n\n
+    setRotation(final double theta)\n
     '''
 def getRotation():
-    '''public double getRotation()
+    '''returns double\n\n
+    getRotation()\n
     '''
 def setFlipHorizontal():
-    '''public void setFlipHorizontal(final boolean flip)
+    '''returns None\n\n
+    setFlipHorizontal(final boolean flip)\n
     '''
 def setFlipVertical():
-    '''public void setFlipVertical(final boolean flip)
+    '''returns None\n\n
+    setFlipVertical(final boolean flip)\n
     '''
 def getFlipHorizontal():
-    '''public boolean getFlipHorizontal()
+    '''returns boolean\n\n
+    getFlipHorizontal()\n
     '''
 def getFlipVertical():
-    '''public boolean getFlipVertical()
+    '''returns boolean\n\n
+    getFlipVertical()\n
     '''
 def setLineColor():
-    '''public void setLineColor(final Color color)
+    '''returns None\n\n
+    setLineColor(final Color color)\n
     '''
 def getLineColor():
-    '''public Color getLineColor()
+    '''returns Color\n\n
+    getLineColor()\n
     '''
 def setLineWidth():
-    '''public void setLineWidth(final double width)
+    '''returns None\n\n
+    setLineWidth(final double width)\n
     '''
 def getLineWidth():
-    '''public double getLineWidth()
-    public double getLineWidth()
+    '''returns double\n\n
+    getLineWidth()\n
+    getLineWidth()\n
     '''
 def setLineCompound():
-    '''public void setLineCompound(final StrokeStyle.LineCompound compound)
+    '''returns None\n\n
+    setLineCompound(final StrokeStyle.LineCompound compound)\n
     '''
 def setLineDash():
-    '''public void setLineDash(final StrokeStyle.LineDash dash)
+    '''returns None\n\n
+    setLineDash(final StrokeStyle.LineDash dash)\n
     '''
 def setLineCap():
-    '''public void setLineCap(final StrokeStyle.LineCap cap)
+    '''returns None\n\n
+    setLineCap(final StrokeStyle.LineCap cap)\n
     '''
 def setFillColor():
-    '''public void setFillColor(final Color color)
+    '''returns None\n\n
+    setFillColor(final Color color)\n
     '''
 def getFillColor():
-    '''public Color getFillColor()
+    '''returns Color\n\n
+    getFillColor()\n
     '''
 def getShadow():
-    '''public XSLFShadow getShadow()
+    '''returns XSLFShadow\n\n
+    getShadow()\n
     '''
 def getGeometry():
-    '''public CustomGeometry getGeometry()
+    '''returns CustomGeometry\n\n
+    getGeometry()\n
     '''
 def setLineHeadDecoration():
-    '''public void setLineHeadDecoration(final LineDecoration.DecorationShape style)
+    '''returns None\n\n
+    setLineHeadDecoration(final LineDecoration.DecorationShape style)\n
     '''
 def setLineHeadWidth():
-    '''public void setLineHeadWidth(final LineDecoration.DecorationSize style)
+    '''returns None\n\n
+    setLineHeadWidth(final LineDecoration.DecorationSize style)\n
     '''
 def setLineHeadLength():
-    '''public void setLineHeadLength(final LineDecoration.DecorationSize style)
+    '''returns None\n\n
+    setLineHeadLength(final LineDecoration.DecorationSize style)\n
     '''
 def setLineTailDecoration():
-    '''public void setLineTailDecoration(final LineDecoration.DecorationShape style)
+    '''returns None\n\n
+    setLineTailDecoration(final LineDecoration.DecorationShape style)\n
     '''
 def setLineTailWidth():
-    '''public void setLineTailWidth(final LineDecoration.DecorationSize style)
+    '''returns None\n\n
+    setLineTailWidth(final LineDecoration.DecorationSize style)\n
     '''
 def setLineTailLength():
-    '''public void setLineTailLength(final LineDecoration.DecorationSize style)
+    '''returns None\n\n
+    setLineTailLength(final LineDecoration.DecorationSize style)\n
     '''
 def isPlaceholder():
-    '''public boolean isPlaceholder()
+    '''returns boolean\n\n
+    isPlaceholder()\n
     '''
 def getAdjustValue():
-    '''public Guide getAdjustValue(final String name)
+    '''returns Guide\n\n
+    getAdjustValue(final String name)\n
     '''
 def getLineDecoration():
-    '''public LineDecoration getLineDecoration()
+    '''returns LineDecoration\n\n
+    getLineDecoration()\n
     '''
 def getFillStyle():
-    '''public FillStyle getFillStyle()
+    '''returns FillStyle\n\n
+    getFillStyle()\n
     '''
 def getPaint():
-    '''public PaintStyle getPaint()
-    public PaintStyle getPaint()
+    '''returns PaintStyle\n\n
+    getPaint()\n
+    getPaint()\n
     '''
 def getStrokeStyle():
-    '''public StrokeStyle getStrokeStyle()
+    '''returns StrokeStyle\n\n
+    getStrokeStyle()\n
     '''
 def setStrokeStyle():
-    '''public void setStrokeStyle(final Object... styles)
+    '''returns None\n\n
+    setStrokeStyle(final Object... styles)\n
     '''
 def setPlaceholder():
-    '''public void setPlaceholder(final Placeholder placeholder)
+    '''returns None\n\n
+    setPlaceholder(final Placeholder placeholder)\n
     '''
 def getHyperlink():
-    '''public XSLFHyperlink getHyperlink()
+    '''returns XSLFHyperlink\n\n
+    getHyperlink()\n
     '''
 def createHyperlink():
-    '''public XSLFHyperlink createHyperlink()
+    '''returns XSLFHyperlink\n\n
+    createHyperlink()\n
     '''

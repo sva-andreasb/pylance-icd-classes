@@ -1,9 +1,12 @@
-def SnappyIOException():
-    '''public SnappyIOException(final SnappyErrorCode errorCode, final String message)
+def ():
+    '''returns SnappyIOException\n\n
+    (final SnappyErrorCode errorCode, final String message)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getErrorCode():
-    '''public SnappyErrorCode getErrorCode()
+    '''returns SnappyErrorCode\n\n
+    getErrorCode()\n
     '''

@@ -1,9 +1,8 @@
-def getInstance():
-    '''public static final WeatherAlertImpactCache getInstance()
-    '''
 def exists():
-    '''public boolean exists(final String osName, final long objectId)
+    '''returns boolean\n\n
+    exists(final String osName, final long objectId)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

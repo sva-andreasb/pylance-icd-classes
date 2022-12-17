@@ -1,6 +1,8 @@
-def Issue2455Test():
-    '''public Issue2455Test()
+def ():
+    '''returns Issue2455Test\n\n
+    ()\n
     '''
 def testJavaModule():
-    '''public void testJavaModule()
+    '''returns None\n\n
+    testJavaModule()\n
     '''

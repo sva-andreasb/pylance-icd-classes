@@ -1,163 +1,211 @@
-def AssetCatalogService():
-    '''public AssetCatalogService()
-    public AssetCatalogService(final MXServer mxServer)
+def ():
+    '''returns AssetCatalogService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''
 def getClassStructure():
-    '''public MboRemote getClassStructure(final UserInfo userInfo, final String[] classificationsArray)
-    public MboRemote getClassStructure(final UserInfo userInfo, final String[] classificationsArray, final boolean returnANewMbo)
-    public MboRemote getClassStructure(final UserInfo userInfo, final String classStructureUID)
+    '''returns MboRemote\n\n
+    getClassStructure(final UserInfo userInfo, final String[] classificationsArray)\n
+    getClassStructure(final UserInfo userInfo, final String[] classificationsArray, final boolean returnANewMbo)\n
+    getClassStructure(final UserInfo userInfo, final String classStructureUID)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def getClassStructureFromPath():
-    '''public MboRemote getClassStructureFromPath(final UserInfo userInfo, final String hierarchyPath)
-    public MboRemote getClassStructureFromPath(final UserInfo userInfo, final String hierarchyPath, final String objectName)
-    public MboRemote getClassStructureFromPath(final UserInfo userInfo, final String hierarchyPath, String orgid, String siteid)
+    '''returns MboRemote\n\n
+    getClassStructureFromPath(final UserInfo userInfo, final String hierarchyPath)\n
+    getClassStructureFromPath(final UserInfo userInfo, final String hierarchyPath, final String objectName)\n
+    getClassStructureFromPath(final UserInfo userInfo, final String hierarchyPath, String orgid, String siteid)\n
     '''
 def parsePathIntoVector():
-    '''public Vector parsePathIntoVector(final String hierarchyPathPassed)
+    '''returns Vector\n\n
+    parsePathIntoVector(final String hierarchyPathPassed)\n
     '''
 def getClassStructureMboList():
-    '''public MboSetRemote getClassStructureMboList(final UserInfo userInfo, final String[] classificationsArray)
+    '''returns MboSetRemote\n\n
+    getClassStructureMboList(final UserInfo userInfo, final String[] classificationsArray)\n
     '''
 def getClassStructureList():
-    '''public String getClassStructureList(final UserInfo userInfo, final String[] classificationsArray)
+    '''returns String\n\n
+    getClassStructureList(final UserInfo userInfo, final String[] classificationsArray)\n
     '''
 def getAllAttributes():
-    '''public MboSetRemote getAllAttributes(final UserInfo userInfo, final String[] classificationsArray)
+    '''returns MboSetRemote\n\n
+    getAllAttributes(final UserInfo userInfo, final String[] classificationsArray)\n
     '''
 def getAllItems():
-    '''public MboSetRemote getAllItems(final UserInfo userInfo, final String[] classificationsArray)
+    '''returns MboSetRemote\n\n
+    getAllItems(final UserInfo userInfo, final String[] classificationsArray)\n
     '''
 def classStructureSearch():
-    '''public MboSetRemote classStructureSearch(final UserInfo userInfo, final String objectName, final String[] classificationsArray)
-    public MboSetRemote classStructureSearch(final UserInfo userInfo, final String objectName, final String classStructureid)
+    '''returns MboSetRemote\n\n
+    classStructureSearch(final UserInfo userInfo, final String objectName, final String[] classificationsArray)\n
+    classStructureSearch(final UserInfo userInfo, final String objectName, final String classStructureid)\n
     '''
 def anyLevelSearch():
-    '''public MboSetRemote anyLevelSearch(final UserInfo userInfo, final String objectName, final String[] classificationsArray)
+    '''returns MboSetRemote\n\n
+    anyLevelSearch(final UserInfo userInfo, final String objectName, final String[] classificationsArray)\n
     '''
 def classAndAttributesSearch():
-    '''public MboSetRemote classAndAttributesSearch(final UserInfo userInfo, final String objectName, final String classStructureid, final String[][] attrAndValues)
-    public MboSetRemote classAndAttributesSearch(final UserInfo userInfo, final String objectName, final String classStructureid, final String[][] attrAndValues, final boolean convertArray)
-    public MboSetRemote classAndAttributesSearch(final UserInfo userInfo, final String objectName, final String[] classificationsArray, final String[][] attrAndValues, final boolean convertArray)
-    public MboSetRemote classAndAttributesSearch(final UserInfo userInfo, final String objectName, final String[][] itemColumns, final String[][] invVendorColumns, final String[][] attrAndValues, final String[] classificationsArray)
-    public String classAndAttributesSearch(final UserInfo userInfo, final String objectName, final MboRemote selectedClassStructureMbo, final MboSetRemote classSpecSet)
+    '''returns String\n\n
+    classAndAttributesSearch(final UserInfo userInfo, final String objectName, final String classStructureid, final String[][] attrAndValues)\n
+    classAndAttributesSearch(final UserInfo userInfo, final String objectName, final String classStructureid, final String[][] attrAndValues, final boolean convertArray)\n
+    classAndAttributesSearch(final UserInfo userInfo, final String objectName, final String[] classificationsArray, final String[][] attrAndValues, final boolean convertArray)\n
+    classAndAttributesSearch(final UserInfo userInfo, final String objectName, final String[][] itemColumns, final String[][] invVendorColumns, final String[][] attrAndValues, final String[] classificationsArray)\n
+    classAndAttributesSearch(final UserInfo userInfo, final String objectName, final MboRemote selectedClassStructureMbo, final MboSetRemote classSpecSet)\n
     '''
 def getClassAndAttributesSearchWhere():
-    '''public String getClassAndAttributesSearchWhere(final UserInfo userInfo, final String objectName, final String classStructureid, final String[][] attrAndValues, final String[][] itemWhere, final String[][] invVendorWhere)
+    '''returns String\n\n
+    getClassAndAttributesSearchWhere(final UserInfo userInfo, final String objectName, final String classStructureid, final String[][] attrAndValues, final String[][] itemWhere, final String[][] invVendorWhere)\n
     '''
 def attributesSearch():
-    '''public MboSetRemote attributesSearch(final UserInfo userInfo, final String objectName, final String[][] attrAndValues)
-    public MboSetRemote attributesSearch(final UserInfo userInfo, final String objectName, final String[][] attrAndValues, final boolean convertArray)
-    public String attributesSearch(final UserInfo userInfo, final String objectName, final MboSetRemote searchAttrSet)
-    public String attributesSearch(final UserInfo userInfo, final String objectName, final MboSetRemote searchAttrSet, final MboSetRemote relatedAttrSet)
+    '''returns String\n\n
+    attributesSearch(final UserInfo userInfo, final String objectName, final String[][] attrAndValues)\n
+    attributesSearch(final UserInfo userInfo, final String objectName, final String[][] attrAndValues, final boolean convertArray)\n
+    attributesSearch(final UserInfo userInfo, final String objectName, final MboSetRemote searchAttrSet)\n
+    attributesSearch(final UserInfo userInfo, final String objectName, final MboSetRemote searchAttrSet, final MboSetRemote relatedAttrSet)\n
     '''
 def getMeasureUnits():
-    '''public MboSetRemote getMeasureUnits(final UserInfo userInfo, final String classStructureId, final String assetAttrid, final String objectName)
+    '''returns MboSetRemote\n\n
+    getMeasureUnits(final UserInfo userInfo, final String classStructureId, final String assetAttrid, final String objectName)\n
     '''
 def getClassStructureId():
-    '''public String getClassStructureId(final UserInfo userInfo, final String objectName, final String attrName, final String attrValue)
+    '''returns String\n\n
+    getClassStructureId(final UserInfo userInfo, final String objectName, final String attrName, final String attrValue)\n
     '''
 def getAttributeValues():
-    '''public MboSetRemote getAttributeValues(final UserInfo userInfo, final String classstructureid, final String assetattrid)
-    public MboSetRemote getAttributeValues(final UserInfo userInfo, final String assetattrid)
+    '''returns MboSetRemote\n\n
+    getAttributeValues(final UserInfo userInfo, final String classstructureid, final String assetattrid)\n
+    getAttributeValues(final UserInfo userInfo, final String assetattrid)\n
     '''
 def validateObjectName():
-    '''public void validateObjectName(final String objectName)
+    '''returns None\n\n
+    validateObjectName(final String objectName)\n
     '''
 def getSpecifications():
-    '''public MboSetRemote getSpecifications(final MboRemote mbo)
+    '''returns MboSetRemote\n\n
+    getSpecifications(final MboRemote mbo)\n
     '''
 def getChildren():
-    '''public MboSetRemote getChildren(final UserInfo userInfo, final String[] classificationsArray, final int currentLevel, String searchString, String searchType)
+    '''returns MboSetRemote\n\n
+    getChildren(final UserInfo userInfo, final String[] classificationsArray, final int currentLevel, String searchString, String searchType)\n
     '''
 def convertList():
-    '''public String[][] convertList(final UserInfo userInfo, final String[][] attrAndValues)
-    public String[][] convertList(final String classstructureid, final String[][] attrAndValues)
+    '''returns String[][]\n\n
+    convertList(final UserInfo userInfo, final String[][] attrAndValues)\n
+    convertList(final String classstructureid, final String[][] attrAndValues)\n
     '''
 def stringBySearchType():
-    '''public String stringBySearchType(final String searchType, final String searchString)
+    '''returns String\n\n
+    stringBySearchType(final String searchType, final String searchString)\n
     '''
 def classAndAttributesSearchCU():
-    '''public MboSetRemote classAndAttributesSearchCU(final UserInfo userInfo, final String[] classificationsArray, final String[][] attrAndValues, final boolean convertArray)
+    '''returns MboSetRemote\n\n
+    classAndAttributesSearchCU(final UserInfo userInfo, final String[] classificationsArray, final String[][] attrAndValues, final boolean convertArray)\n
     '''
 def getClassAndRelatedAttributesSearchWhere():
-    '''public String getClassAndRelatedAttributesSearchWhere(final UserInfo userInfo, final String objectName, final String[][] attrAndValues)
+    '''returns String\n\n
+    getClassAndRelatedAttributesSearchWhere(final UserInfo userInfo, final String objectName, final String[][] attrAndValues)\n
     '''
 def createRelatedAttributeWhereClause():
-    '''public String createRelatedAttributeWhereClause(final String[][] attrAndValues, final MboSetRemote specSet)
+    '''returns String\n\n
+    createRelatedAttributeWhereClause(final String[][] attrAndValues, final MboSetRemote specSet)\n
     '''
 def generateDescription():
-    '''public String generateDescription(final ClassStructureRemote classMbo, final SpecificationMboSetRemote specSet)
+    '''returns String\n\n
+    generateDescription(final ClassStructureRemote classMbo, final SpecificationMboSetRemote specSet)\n
     '''
 def generateSpecSet():
-    '''public MboSetRemote generateSpecSet(final MboRemote mbo)
-    public MboSetRemote generateSpecSet(final MboRemote mbo, final String itemNum)
-    public MboSetRemote generateSpecSet(final MboRemote mbo, final String itemNum, final MboRemote baseMbo)
+    '''returns MboSetRemote\n\n
+    generateSpecSet(final MboRemote mbo)\n
+    generateSpecSet(final MboRemote mbo, final String itemNum)\n
+    generateSpecSet(final MboRemote mbo, final String itemNum, final MboRemote baseMbo)\n
     '''
 def getCorrectObjectName():
-    '''public String getCorrectObjectName(final MboRemote mbo)
-    public String getCorrectObjectName(final UserInfo userInfo, final String objectName)
+    '''returns String\n\n
+    getCorrectObjectName(final MboRemote mbo)\n
+    getCorrectObjectName(final UserInfo userInfo, final String objectName)\n
     '''
 def getUseWithDomainBaseObjects():
-    '''public Vector getUseWithDomainBaseObjects(final UserInfo userInfo)
+    '''returns Vector\n\n
+    getUseWithDomainBaseObjects(final UserInfo userInfo)\n
     '''
 def getUseWithDomainObjects():
-    '''public MboSetRemote getUseWithDomainObjects(final UserInfo userInfo, final boolean persistentObjectsOnly)
+    '''returns MboSetRemote\n\n
+    getUseWithDomainObjects(final UserInfo userInfo, final boolean persistentObjectsOnly)\n
     '''
 def getClassSpecUseWith():
-    '''public MboRemote getClassSpecUseWith(final MboRemote classSpec, String objectName)
+    '''returns MboRemote\n\n
+    getClassSpecUseWith(final MboRemote classSpec, String objectName)\n
     '''
 def getClassUseWithDomain():
-    '''public MboRemote getClassUseWithDomain(final UserInfo userInfo, final String objectName)
+    '''returns MboRemote\n\n
+    getClassUseWithDomain(final UserInfo userInfo, final String objectName)\n
     '''
 def processOldAndNewSpecSets():
-    '''public void processOldAndNewSpecSets(final MboSetRemote oldSpecDeletedSet, final MboSetRemote newSpecSet)
+    '''returns None\n\n
+    processOldAndNewSpecSets(final MboSetRemote oldSpecDeletedSet, final MboSetRemote newSpecSet)\n
     '''
 def setAttributesSearchMboSet():
-    '''public void setAttributesSearchMboSet(final MboSetRemote mboSet)
+    '''returns None\n\n
+    setAttributesSearchMboSet(final MboSetRemote mboSet)\n
     '''
 def getAttributesSearchMboSet():
-    '''public MboSetRemote getAttributesSearchMboSet()
+    '''returns MboSetRemote\n\n
+    getAttributesSearchMboSet()\n
     '''
 def deleteMbosetNotViaMbo():
-    '''public void deleteMbosetNotViaMbo(final MboRemote mbo, final MboSetRemote mboSetReferencedNotViaMbo)
+    '''returns None\n\n
+    deleteMbosetNotViaMbo(final MboRemote mbo, final MboSetRemote mboSetReferencedNotViaMbo)\n
     '''
 def doNotGenerateDescForThisObject():
-    '''public void doNotGenerateDescForThisObject(final String objectName)
+    '''returns None\n\n
+    doNotGenerateDescForThisObject(final String objectName)\n
     '''
 def toGenerateDescForThisObject():
-    '''public boolean toGenerateDescForThisObject(final String objectName)
+    '''returns boolean\n\n
+    toGenerateDescForThisObject(final String objectName)\n
     '''
 def getDescDelimiter():
-    '''public String getDescDelimiter()
-    public String getDescDelimiter(final boolean isForClassDesc)
+    '''returns String\n\n
+    getDescDelimiter()\n
+    getDescDelimiter(final boolean isForClassDesc)\n
     '''
 def sortedClassSpecSet():
-    '''public Vector sortedClassSpecSet(final MboSetRemote classSpecSet, final MboRemote mbo)
+    '''returns Vector\n\n
+    sortedClassSpecSet(final MboSetRemote classSpecSet, final MboRemote mbo)\n
     '''
 def getClassStructureTopDown():
-    '''public MboSetRemote getClassStructureTopDown(final MboSetRemote parentSet, final Vector classificationVector, final int whichElement)
+    '''returns MboSetRemote\n\n
+    getClassStructureTopDown(final MboSetRemote parentSet, final Vector classificationVector, final int whichElement)\n
     '''
 def reprocessClassStructureSortOrder():
-    '''public void reprocessClassStructureSortOrder()
+    '''returns None\n\n
+    reprocessClassStructureSortOrder()\n
     '''
 def createCategoryToSR():
-    '''public void createCategoryToSR(final String description, final Integer order)
+    '''returns None\n\n
+    createCategoryToSR(final String description, final Integer order)\n
     '''
 def createSubCategoryToSR():
-    '''public void createSubCategoryToSR(final String parent, final String description, final Integer order)
+    '''returns None\n\n
+    createSubCategoryToSR(final String parent, final String description, final Integer order)\n
     '''
 def updateClassification():
-    '''public void updateClassification(@WSMboKey("CLASSSTRUCTURE") final MboRemote classstructure, final String description, final Integer sortOrder)
+    '''returns None\n\n
+    updateClassification(@WSMboKey("CLASSSTRUCTURE") final MboRemote classstructure, final String description, final Integer sortOrder)\n
     '''
 def getAttributeInternalType():
-    '''public String getAttributeInternalType(final String assetattrid, final String orgid, final String siteid)
+    '''returns String\n\n
+    getAttributeInternalType(final String assetattrid, final String orgid, final String siteid)\n
     '''
 def setAttributeInternalTye():
-    '''public void setAttributeInternalTye(final String assetattrid, final String orgid, final String siteid, final String internalType)
+    '''returns None\n\n
+    setAttributeInternalTye(final String assetattrid, final String orgid, final String siteid, final String internalType)\n
     '''
 def clearAssetAttrHash():
-    '''public void clearAssetAttrHash()
+    '''returns None\n\n
+    clearAssetAttrHash()\n
     '''

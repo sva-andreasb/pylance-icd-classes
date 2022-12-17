@@ -1,3 +1,4 @@
-def MaxLicPurchDetSet():
-    '''public MaxLicPurchDetSet(final MboServerInterface ms)
+def ():
+    '''returns MaxLicPurchDetSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,9 +1,12 @@
-def MaxRSVProcess():
-    '''public MaxRSVProcess()
+def ():
+    '''returns MaxRSVProcess\n\n
+    ()\n
     '''
 def copyParentKey():
-    '''public void copyParentKey(final String attributeName, final String value)
+    '''returns None\n\n
+    copyParentKey(final String attributeName, final String value)\n
     '''
 def setAdditionalData():
-    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''returns None\n\n
+    setAdditionalData(final MboSetRemote mboSet, final String tableName)\n
     '''

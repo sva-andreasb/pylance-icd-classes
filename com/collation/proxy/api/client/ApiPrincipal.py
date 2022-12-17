@@ -1,16 +1,21 @@
-def ApiPrincipal():
-    '''public ApiPrincipal(final String name)
-    public ApiPrincipal(final Principal principal)
+def ():
+    '''returns ApiPrincipal\n\n
+    (final String name)\n
+    (final Principal principal)\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

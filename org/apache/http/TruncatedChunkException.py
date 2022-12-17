@@ -1,3 +1,4 @@
-def TruncatedChunkException():
-    '''public TruncatedChunkException(final String message)
+def ():
+    '''returns TruncatedChunkException\n\n
+    (final String message)\n
     '''

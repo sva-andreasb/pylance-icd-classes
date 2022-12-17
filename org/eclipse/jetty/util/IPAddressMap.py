@@ -1,25 +1,26 @@
-def IPAddressMap():
-    '''public IPAddressMap()
-    public IPAddressMap(final int capacity)
+def ():
+    '''returns OctetPattern\n\n
+    ()\n
+    (final int capacity)\n
+    (final String value)\n
+    (final String octetSpec)\n
     '''
 def put():
-    '''public TYPE put(final String addrSpec, final TYPE object)
+    '''returns TYPE\n\n
+    put(final String addrSpec, final TYPE object)\n
     '''
 def get():
-    '''public TYPE get(final Object key)
+    '''returns TYPE\n\n
+    get(final Object key)\n
     '''
 def match():
-    '''public TYPE match(final String addr)
-    public boolean match(final String value)
-    public boolean match(final String value)
-    public boolean match(final int number)
+    '''returns boolean\n\n
+    match(final String addr)\n
+    match(final String value)\n
+    match(final String value)\n
+    match(final int number)\n
     '''
 def getLazyMatches():
-    '''public Object getLazyMatches(final String addr)
-    '''
-def IPAddrPattern():
-    '''public IPAddrPattern(final String value)
-    '''
-def OctetPattern():
-    '''public OctetPattern(final String octetSpec)
+    '''returns Object\n\n
+    getLazyMatches(final String addr)\n
     '''

@@ -1,51 +1,53 @@
-def UnicodeRegex():
-    '''public UnicodeRegex()
+def ():
+    '''returns UnicodeRegex\n\n
+    ()\n
     '''
 def compare():
-    '''public int compare(final Object obj0, final Object obj1)
+    '''returns int\n\n
+    compare(final Object obj0, final Object obj1)\n
     '''
 def transform():
-    '''public String transform(final String regex)
-    '''
-def fix():
-    '''public static String fix(final String regex)
-    '''
-def compile():
-    '''public static Pattern compile(final String regex)
-    public static Pattern compile(final String regex, final int options)
+    '''returns String\n\n
+    transform(final String regex)\n
     '''
 def compileBnf():
-    '''public String compileBnf(final String bnfLines)
-    public String compileBnf(final List<String> lines)
+    '''returns String\n\n
+    compileBnf(final String bnfLines)\n
+    compileBnf(final List<String> lines)\n
     '''
 def getBnfCommentString():
-    '''public String getBnfCommentString()
+    '''returns String\n\n
+    getBnfCommentString()\n
     '''
 def setBnfCommentString():
-    '''public void setBnfCommentString(final String bnfCommentString)
+    '''returns None\n\n
+    setBnfCommentString(final String bnfCommentString)\n
     '''
 def getBnfVariableInfix():
-    '''public String getBnfVariableInfix()
+    '''returns String\n\n
+    getBnfVariableInfix()\n
     '''
 def setBnfVariableInfix():
-    '''public void setBnfVariableInfix(final String bnfVariableInfix)
+    '''returns None\n\n
+    setBnfVariableInfix(final String bnfVariableInfix)\n
     '''
 def getBnfLineSeparator():
-    '''public String getBnfLineSeparator()
+    '''returns String\n\n
+    getBnfLineSeparator()\n
     '''
 def setBnfLineSeparator():
-    '''public void setBnfLineSeparator(final String bnfLineSeparator)
-    '''
-def appendLines():
-    '''public static List<String> appendLines(final List<String> result, final String file, final String encoding)
-    public static List<String> appendLines(final List<String> result, final InputStream inputStream, final String encoding)
+    '''returns None\n\n
+    setBnfLineSeparator(final String bnfLineSeparator)\n
     '''
 def cloneAsThawed():
-    '''public UnicodeRegex cloneAsThawed()
+    '''returns UnicodeRegex\n\n
+    cloneAsThawed()\n
     '''
 def freeze():
-    '''public UnicodeRegex freeze()
+    '''returns UnicodeRegex\n\n
+    freeze()\n
     '''
 def isFrozen():
-    '''public boolean isFrozen()
+    '''returns boolean\n\n
+    isFrozen()\n
     '''

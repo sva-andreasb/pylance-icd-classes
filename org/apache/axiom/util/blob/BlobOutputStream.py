@@ -1,3 +1,4 @@
 def readFrom():
-    '''public long readFrom(final InputStream inputStream, final long length)
+    '''returns long\n\n
+    readFrom(final InputStream inputStream, final long length)\n
     '''

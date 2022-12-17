@@ -1,3 +1,4 @@
-def FldNamedUsersLocation():
-    '''public FldNamedUsersLocation(final MboValue mbv)
+def ():
+    '''returns FldNamedUsersLocation\n\n
+    (final MboValue mbv)\n
     '''

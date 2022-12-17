@@ -1,15 +1,16 @@
-def WOPMsDisplayBean():
-    '''public WOPMsDisplayBean()
+def ():
+    '''returns WOPMsDisplayBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns None\n\n
+    initialize()\n
     '''
 def lookupAllAssetLocationsCIforWO():
-    '''public MboSetRemote lookupAllAssetLocationsCIforWO(final String recordKey, final String siteId)
+    '''returns MboSetRemote\n\n
+    lookupAllAssetLocationsCIforWO(final String recordKey, final String siteId)\n
     '''
 def lookupAllAssetLocationsCIforTickets():
-    '''public MboSetRemote lookupAllAssetLocationsCIforTickets(final String recordKey, final String siteId)
+    '''returns MboSetRemote\n\n
+    lookupAllAssetLocationsCIforTickets(final String recordKey, final String siteId)\n
     '''

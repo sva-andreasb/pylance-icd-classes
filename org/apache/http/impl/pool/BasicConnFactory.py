@@ -1,11 +1,13 @@
-def BasicConnFactory():
-    '''public BasicConnFactory(final SSLSocketFactory sslfactory, final HttpParams params)
-    public BasicConnFactory(final HttpParams params)
-    public BasicConnFactory(final SocketFactory plainfactory, final SSLSocketFactory sslfactory, final int connectTimeout, final SocketConfig sconfig, final ConnectionConfig cconfig)
-    public BasicConnFactory(final int connectTimeout, final SocketConfig sconfig, final ConnectionConfig cconfig)
-    public BasicConnFactory(final SocketConfig sconfig, final ConnectionConfig cconfig)
-    public BasicConnFactory()
+def ():
+    '''returns BasicConnFactory\n\n
+    (final SSLSocketFactory sslfactory, final HttpParams params)\n
+    (final HttpParams params)\n
+    (final SocketFactory plainfactory, final SSLSocketFactory sslfactory, final int connectTimeout, final SocketConfig sconfig, final ConnectionConfig cconfig)\n
+    (final int connectTimeout, final SocketConfig sconfig, final ConnectionConfig cconfig)\n
+    (final SocketConfig sconfig, final ConnectionConfig cconfig)\n
+    ()\n
     '''
 def create():
-    '''public HttpClientConnection create(final HttpHost host)
+    '''returns HttpClientConnection\n\n
+    create(final HttpHost host)\n
     '''

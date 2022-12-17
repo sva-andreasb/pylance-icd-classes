@@ -1,6 +1,8 @@
-def FldSKDLaborHrsCalDate():
-    '''public FldSKDLaborHrsCalDate(final MboValue mbv)
+def ():
+    '''returns FldSKDLaborHrsCalDate\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

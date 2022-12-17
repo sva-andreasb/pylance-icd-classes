@@ -1,43 +1,57 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def addRange():
-    '''public void addRange(final IloRange range)
+    '''returns None\n\n
+    addRange(final IloRange range)\n
     '''
 def rangeIterator():
-    '''public Iterator<IloRange> rangeIterator()
+    '''returns Iterator<IloRange>\n\n
+    rangeIterator()\n
     '''
 def postToCplex():
-    '''public void postToCplex(final IloCplexController ctl, final boolean propagate)
+    '''returns None\n\n
+    postToCplex(final IloCplexController ctl, final boolean propagate)\n
     '''
 def removeFromCplex():
-    '''public void removeFromCplex(final IloCplexController ctl, final boolean propagate)
+    '''returns None\n\n
+    removeFromCplex(final IloCplexController ctl, final boolean propagate)\n
     '''
 def changeRangesPriority():
-    '''public void changeRangesPriority(final IloCplexController ctl)
+    '''returns None\n\n
+    changeRangesPriority(final IloCplexController ctl)\n
     '''
 def addRangeInList():
-    '''public void addRangeInList(final ArrayList<IloRange> list)
+    '''returns None\n\n
+    addRangeInList(final ArrayList<IloRange> list)\n
     '''
 def onSetController():
-    '''public void onSetController(final IloEngineController ctl)
+    '''returns None\n\n
+    onSetController(final IloEngineController ctl)\n
     '''
 def getChildCount():
-    '''public int getChildCount()
+    '''returns int\n\n
+    getChildCount()\n
     '''
 def isComposite():
-    '''public boolean isComposite()
+    '''returns boolean\n\n
+    isComposite()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def getParent():
-    '''public IloRequirementNode getParent()
+    '''returns IloRequirementNode\n\n
+    getParent()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public IloRange next()
+    '''returns IloRange\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

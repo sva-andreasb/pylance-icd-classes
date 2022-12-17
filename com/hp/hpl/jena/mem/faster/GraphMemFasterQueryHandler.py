@@ -1,3 +1,4 @@
 def patternStage():
-    '''public Stage patternStage(final Mapping map, final ExpressionSet constraints, final Triple[] t)
+    '''returns Stage\n\n
+    patternStage(final Mapping map, final ExpressionSet constraints, final Triple[] t)\n
     '''

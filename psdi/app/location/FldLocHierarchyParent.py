@@ -1,12 +1,16 @@
-def FldLocHierarchyParent():
-    '''public FldLocHierarchyParent(final MboValue mbv)
+def ():
+    '''returns FldLocHierarchyParent\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''

@@ -1,22 +1,25 @@
-def PolynomialFunctionNewtonForm():
-    '''public PolynomialFunctionNewtonForm(final double[] a, final double[] c)
+def ():
+    '''returns PolynomialFunctionNewtonForm\n\n
+    (final double[] a, final double[] c)\n
     '''
 def value():
-    '''public double value(final double z)
-    public DerivativeStructure value(final DerivativeStructure t)
+    '''returns DerivativeStructure\n\n
+    value(final double z)\n
+    value(final DerivativeStructure t)\n
     '''
 def degree():
-    '''public int degree()
+    '''returns int\n\n
+    degree()\n
     '''
 def getNewtonCoefficients():
-    '''public double[] getNewtonCoefficients()
+    '''returns double[]\n\n
+    getNewtonCoefficients()\n
     '''
 def getCenters():
-    '''public double[] getCenters()
+    '''returns double[]\n\n
+    getCenters()\n
     '''
 def getCoefficients():
-    '''public double[] getCoefficients()
-    '''
-def evaluate():
-    '''public static double evaluate(final double[] a, final double[] c, final double z)
+    '''returns double[]\n\n
+    getCoefficients()\n
     '''

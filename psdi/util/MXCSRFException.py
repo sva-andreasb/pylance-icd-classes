@@ -1,6 +1,7 @@
-def MXCSRFException():
-    '''public MXCSRFException(final String errorGroup, final String errorKey)
-    public MXCSRFException(final String errorGroup, final String errorKey, final Object[] parameters)
-    public MXCSRFException(final String errorGroup, final String errorKey, final Throwable throwable)
-    public MXCSRFException(final String errorGroup, final String errorKey, final Object[] parameters, final Throwable throwable)
+def ():
+    '''returns MXCSRFException\n\n
+    (final String errorGroup, final String errorKey)\n
+    (final String errorGroup, final String errorKey, final Object[] parameters)\n
+    (final String errorGroup, final String errorKey, final Throwable throwable)\n
+    (final String errorGroup, final String errorKey, final Object[] parameters, final Throwable throwable)\n
     '''

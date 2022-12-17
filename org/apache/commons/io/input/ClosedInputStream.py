@@ -1,3 +1,4 @@
 def read():
-    '''public int read()
+    '''returns int\n\n
+    read()\n
     '''

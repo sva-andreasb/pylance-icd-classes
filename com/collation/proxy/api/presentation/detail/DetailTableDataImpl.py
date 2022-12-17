@@ -1,42 +1,56 @@
-def DetailTableDataImpl():
-    '''public DetailTableDataImpl()
+def ():
+    '''returns DetailTableDataImpl\n\n
+    ()\n
     '''
 def getGuid():
-    '''public Guid getGuid()
+    '''returns Guid\n\n
+    getGuid()\n
     '''
 def addActualValue():
-    '''public void addActualValue(final int columnNo, final Object value)
+    '''returns None\n\n
+    addActualValue(final int columnNo, final Object value)\n
     '''
 def getActualValue():
-    '''public Object getActualValue(final int columnNo)
+    '''returns Object\n\n
+    getActualValue(final int columnNo)\n
     '''
 def getComparator():
-    '''public Comparator getComparator(final int col)
+    '''returns Comparator\n\n
+    getComparator(final int col)\n
     '''
 def addComparator():
-    '''public void addComparator(final int columnNo, final Comparator comparator)
+    '''returns None\n\n
+    addComparator(final int columnNo, final Comparator comparator)\n
     '''
 def setModelObject():
-    '''public void setModelObject(final ModelObject v)
+    '''returns None\n\n
+    setModelObject(final ModelObject v)\n
     '''
 def getColumnCount():
-    '''public int getColumnCount()
+    '''returns int\n\n
+    getColumnCount()\n
     '''
 def addColumn():
-    '''public void addColumn(final String column)
+    '''returns None\n\n
+    addColumn(final String column)\n
     '''
 def addValue():
-    '''public void addValue(final Object obj)
+    '''returns None\n\n
+    addValue(final Object obj)\n
     '''
 def getColumnName():
-    '''public String getColumnName(final int position)
+    '''returns String\n\n
+    getColumnName(final int position)\n
     '''
 def getValue():
-    '''public Object getValue(final int position)
+    '''returns Object\n\n
+    getValue(final int position)\n
     '''
 def getColumn():
-    '''public Object getColumn(final int positon)
+    '''returns Object\n\n
+    getColumn(final int positon)\n
     '''
 def getAllValues():
-    '''public List getAllValues()
+    '''returns List\n\n
+    getAllValues()\n
     '''

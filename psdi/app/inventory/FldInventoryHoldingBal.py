@@ -1,6 +1,8 @@
-def FldInventoryHoldingBal():
-    '''public FldInventoryHoldingBal(final MboValue mbv)
+def ():
+    '''returns FldInventoryHoldingBal\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

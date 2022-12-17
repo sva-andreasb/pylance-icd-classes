@@ -1,14 +1,15 @@
-def MfMailMXApplicationMailException():
-    '''public MfMailMXApplicationMailException(final String eg, final String ek)
-    public MfMailMXApplicationMailException(final String ek)
-    public MfMailMXApplicationMailException(final String ek, final MboRemote trackEntry)
-    public MfMailMXApplicationMailException(final String eg, final String ek, final Object[] params)
-    public MfMailMXApplicationMailException(final String ek, final Object[] params)
-    public MfMailMXApplicationMailException(final String ek, final Object[] params, final MboRemote trackEntry)
-    public MfMailMXApplicationMailException(final String eg, final String ek, final Throwable t)
-    public MfMailMXApplicationMailException(final String ek, final Throwable t)
-    public MfMailMXApplicationMailException(final String ek, final Throwable t, final MboRemote trackEntry)
-    public MfMailMXApplicationMailException(final String eg, final String ek, final Object[] p, final Throwable t)
-    public MfMailMXApplicationMailException(final String ek, final Object[] p, final Throwable t)
-    public MfMailMXApplicationMailException(final String ek, final Object[] p, final Throwable t, final MboRemote trackEntry)
+def ():
+    '''returns MfMailMXApplicationMailException\n\n
+    (final String eg, final String ek)\n
+    (final String ek)\n
+    (final String ek, final MboRemote trackEntry)\n
+    (final String eg, final String ek, final Object[] params)\n
+    (final String ek, final Object[] params)\n
+    (final String ek, final Object[] params, final MboRemote trackEntry)\n
+    (final String eg, final String ek, final Throwable t)\n
+    (final String ek, final Throwable t)\n
+    (final String ek, final Throwable t, final MboRemote trackEntry)\n
+    (final String eg, final String ek, final Object[] p, final Throwable t)\n
+    (final String ek, final Object[] p, final Throwable t)\n
+    (final String ek, final Object[] p, final Throwable t, final MboRemote trackEntry)\n
     '''

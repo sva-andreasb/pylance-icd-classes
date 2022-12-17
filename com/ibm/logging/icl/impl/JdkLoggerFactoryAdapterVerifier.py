@@ -1,3 +1,4 @@
 def isFactoryInstantiable():
-    '''public boolean isFactoryInstantiable()
+    '''returns boolean\n\n
+    isFactoryInstantiable()\n
     '''

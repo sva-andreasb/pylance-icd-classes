@@ -1,6 +1,7 @@
-def DocumentLockedException():
-    '''public DocumentLockedException()
-    public DocumentLockedException(final String msg)
-    public DocumentLockedException(final Throwable th, final String msg)
-    public DocumentLockedException(final Throwable th)
+def ():
+    '''returns DocumentLockedException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable th, final String msg)\n
+    (final Throwable th)\n
     '''

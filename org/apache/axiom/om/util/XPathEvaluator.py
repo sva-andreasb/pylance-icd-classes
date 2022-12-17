@@ -1,3 +1,4 @@
 def evaluateXpath():
-    '''public List evaluateXpath(final String xpathExpression, final Object element, final String nsURI)
+    '''returns List\n\n
+    evaluateXpath(final String xpathExpression, final Object element, final String nsURI)\n
     '''

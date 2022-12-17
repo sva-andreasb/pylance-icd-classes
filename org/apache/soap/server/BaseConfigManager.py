@@ -1,21 +1,28 @@
-def BaseConfigManager():
-    '''public BaseConfigManager()
+def ():
+    '''returns BaseConfigManager\n\n
+    ()\n
     '''
 def deploy():
-    '''public void deploy(final DeploymentDescriptor value)
+    '''returns None\n\n
+    deploy(final DeploymentDescriptor value)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def list():
-    '''public String[] list()
+    '''returns String[]\n\n
+    list()\n
     '''
 def query():
-    '''public DeploymentDescriptor query(final String key)
+    '''returns DeploymentDescriptor\n\n
+    query(final String key)\n
     '''
 def setContext():
-    '''public void setContext(final ServletContext context)
+    '''returns None\n\n
+    setContext(final ServletContext context)\n
     '''
 def undeploy():
-    '''public DeploymentDescriptor undeploy(final String s)
+    '''returns DeploymentDescriptor\n\n
+    undeploy(final String s)\n
     '''

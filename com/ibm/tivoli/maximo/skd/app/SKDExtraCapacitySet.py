@@ -1,3 +1,4 @@
-def SKDExtraCapacitySet():
-    '''public SKDExtraCapacitySet(final MboServerInterface ms)
+def ():
+    '''returns SKDExtraCapacitySet\n\n
+    (final MboServerInterface ms)\n
     '''

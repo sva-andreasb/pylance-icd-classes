@@ -1,7 +1,9 @@
 def openConnection():
-    '''public URLConnection openConnection(final URL url)
+    '''returns URLConnection\n\n
+    openConnection(final URL url)\n
     '''
 def run():
-    '''public Object run()
-    public Object run()
+    '''returns Object\n\n
+    run()\n
+    run()\n
     '''

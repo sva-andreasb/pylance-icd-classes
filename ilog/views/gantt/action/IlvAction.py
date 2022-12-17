@@ -1,46 +1,60 @@
-def IlvAction():
-    '''public IlvAction(final String s)
-    public IlvAction(final String s, final Icon icon)
-    public IlvAction(final String s, final Icon icon, final KeyStroke keyStroke)
-    public IlvAction(final String name, final Icon icon, final KeyStroke accelerator, final String shortDescription, final String longDescription)
+def ():
+    '''returns IlvAction\n\n
+    (final String s)\n
+    (final String s, final Icon icon)\n
+    (final String s, final Icon icon, final KeyStroke keyStroke)\n
+    (final String name, final Icon icon, final KeyStroke accelerator, final String shortDescription, final String longDescription)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String newValue)
+    '''returns None\n\n
+    setName(final String newValue)\n
     '''
 def getIcon():
-    '''public Icon getIcon()
+    '''returns Icon\n\n
+    getIcon()\n
     '''
 def setIcon():
-    '''public void setIcon(final Icon newValue)
-    public void setIcon(final Class clazz, final String str)
+    '''returns None\n\n
+    setIcon(final Icon newValue)\n
+    setIcon(final Class clazz, final String str)\n
     '''
 def getAccelerator():
-    '''public KeyStroke getAccelerator()
+    '''returns KeyStroke\n\n
+    getAccelerator()\n
     '''
 def getAcceleratorText():
-    '''public String getAcceleratorText()
+    '''returns String\n\n
+    getAcceleratorText()\n
     '''
 def setAccelerator():
-    '''public void setAccelerator(final KeyStroke newValue)
+    '''returns None\n\n
+    setAccelerator(final KeyStroke newValue)\n
     '''
 def getMnemonic():
-    '''public int getMnemonic()
+    '''returns int\n\n
+    getMnemonic()\n
     '''
 def setMnemonic():
-    '''public void setMnemonic(final int value)
+    '''returns None\n\n
+    setMnemonic(final int value)\n
     '''
 def getShortDescription():
-    '''public String getShortDescription()
+    '''returns String\n\n
+    getShortDescription()\n
     '''
 def setShortDescription():
-    '''public void setShortDescription(final String newValue)
+    '''returns None\n\n
+    setShortDescription(final String newValue)\n
     '''
 def getLongDescription():
-    '''public String getLongDescription()
+    '''returns String\n\n
+    getLongDescription()\n
     '''
 def setLongDescription():
-    '''public void setLongDescription(final String newValue)
+    '''returns None\n\n
+    setLongDescription(final String newValue)\n
     '''

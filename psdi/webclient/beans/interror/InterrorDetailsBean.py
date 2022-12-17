@@ -1,6 +1,8 @@
 def noprocess():
-    '''public int noprocess()
+    '''returns int\n\n
+    noprocess()\n
     '''
 def process():
-    '''public int process()
+    '''returns int\n\n
+    process()\n
     '''

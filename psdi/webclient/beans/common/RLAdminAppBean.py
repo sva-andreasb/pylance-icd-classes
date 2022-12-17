@@ -1,6 +1,8 @@
 def releasereclock():
-    '''public int releasereclock()
+    '''returns int\n\n
+    releasereclock()\n
     '''
 def RECUNLOCK():
-    '''public int RECUNLOCK()
+    '''returns int\n\n
+    RECUNLOCK()\n
     '''

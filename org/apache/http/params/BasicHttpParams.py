@@ -1,36 +1,48 @@
-def BasicHttpParams():
-    '''public BasicHttpParams()
+def ():
+    '''returns BasicHttpParams\n\n
+    ()\n
     '''
 def getParameter():
-    '''public Object getParameter(final String name)
+    '''returns Object\n\n
+    getParameter(final String name)\n
     '''
 def setParameter():
-    '''public HttpParams setParameter(final String name, final Object value)
+    '''returns HttpParams\n\n
+    setParameter(final String name, final Object value)\n
     '''
 def removeParameter():
-    '''public boolean removeParameter(final String name)
+    '''returns boolean\n\n
+    removeParameter(final String name)\n
     '''
 def setParameters():
-    '''public void setParameters(final String[] names, final Object value)
+    '''returns None\n\n
+    setParameters(final String[] names, final Object value)\n
     '''
 def isParameterSet():
-    '''public boolean isParameterSet(final String name)
+    '''returns boolean\n\n
+    isParameterSet(final String name)\n
     '''
 def isParameterSetLocally():
-    '''public boolean isParameterSetLocally(final String name)
+    '''returns boolean\n\n
+    isParameterSetLocally(final String name)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def copy():
-    '''public HttpParams copy()
+    '''returns HttpParams\n\n
+    copy()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def copyParams():
-    '''public void copyParams(final HttpParams target)
+    '''returns None\n\n
+    copyParams(final HttpParams target)\n
     '''
 def getNames():
-    '''public Set<String> getNames()
+    '''returns Set<String>\n\n
+    getNames()\n
     '''

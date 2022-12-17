@@ -1,3 +1,4 @@
-def PlusCDSAssetsLinkSet():
-    '''public PlusCDSAssetsLinkSet(final MboServerInterface ms)
+def ():
+    '''returns PlusCDSAssetsLinkSet\n\n
+    (final MboServerInterface ms)\n
     '''

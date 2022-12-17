@@ -1,33 +1,44 @@
-def WMLTemplateElementImpl():
-    '''public WMLTemplateElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+def ():
+    '''returns WMLTemplateElementImpl\n\n
+    (final WMLDocumentImpl wmlDocumentImpl, final String s)\n
     '''
 def setOnTimer():
-    '''public void setOnTimer(final String s)
+    '''returns None\n\n
+    setOnTimer(final String s)\n
     '''
 def getOnTimer():
-    '''public String getOnTimer()
+    '''returns String\n\n
+    getOnTimer()\n
     '''
 def setOnEnterBackward():
-    '''public void setOnEnterBackward(final String s)
+    '''returns None\n\n
+    setOnEnterBackward(final String s)\n
     '''
 def getOnEnterBackward():
-    '''public String getOnEnterBackward()
+    '''returns String\n\n
+    getOnEnterBackward()\n
     '''
 def setClassName():
-    '''public void setClassName(final String s)
+    '''returns None\n\n
+    setClassName(final String s)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setId():
-    '''public void setId(final String s)
+    '''returns None\n\n
+    setId(final String s)\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def setOnEnterForward():
-    '''public void setOnEnterForward(final String s)
+    '''returns None\n\n
+    setOnEnterForward(final String s)\n
     '''
 def getOnEnterForward():
-    '''public String getOnEnterForward()
+    '''returns String\n\n
+    getOnEnterForward()\n
     '''

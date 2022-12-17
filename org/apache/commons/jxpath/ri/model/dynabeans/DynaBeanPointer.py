@@ -1,34 +1,45 @@
-def DynaBeanPointer():
-    '''public DynaBeanPointer(final QName name, final DynaBean dynaBean, final Locale locale)
-    public DynaBeanPointer(final NodePointer parent, final QName name, final DynaBean dynaBean)
+def ():
+    '''returns DynaBeanPointer\n\n
+    (final QName name, final DynaBean dynaBean, final Locale locale)\n
+    (final NodePointer parent, final QName name, final DynaBean dynaBean)\n
     '''
 def getPropertyPointer():
-    '''public PropertyPointer getPropertyPointer()
+    '''returns PropertyPointer\n\n
+    getPropertyPointer()\n
     '''
 def getName():
-    '''public QName getName()
+    '''returns QName\n\n
+    getName()\n
     '''
 def getBaseValue():
-    '''public Object getBaseValue()
+    '''returns Object\n\n
+    getBaseValue()\n
     '''
 def getImmediateNode():
-    '''public Object getImmediateNode()
+    '''returns Object\n\n
+    getImmediateNode()\n
     '''
 def isCollection():
-    '''public boolean isCollection()
+    '''returns boolean\n\n
+    isCollection()\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def asPath():
-    '''public String asPath()
+    '''returns String\n\n
+    asPath()\n
     '''

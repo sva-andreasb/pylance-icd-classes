@@ -1,6 +1,8 @@
-def UnsupportedAttributeException():
-    '''public UnsupportedAttributeException(final String msg, final String attribute)
+def ():
+    '''returns UnsupportedAttributeException\n\n
+    (final String msg, final String attribute)\n
     '''
 def getAttribute():
-    '''public String getAttribute()
+    '''returns String\n\n
+    getAttribute()\n
     '''

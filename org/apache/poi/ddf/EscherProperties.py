@@ -299,9 +299,3 @@ GROUPSHAPE__ISBUTTON = "short  956"
 GROUPSHAPE__1DADJUSTMENT = "short  957"
 GROUPSHAPE__HIDDEN = "short  958"
 GROUPSHAPE__PRINT = "short  959"
-def getPropertyName():
-    '''public static String getPropertyName(final short propertyId)
-    '''
-def getPropertyType():
-    '''public static byte getPropertyType(final short propertyId)
-    '''

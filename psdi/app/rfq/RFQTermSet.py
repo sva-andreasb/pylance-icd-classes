@@ -1,3 +1,4 @@
-def RFQTermSet():
-    '''public RFQTermSet(final MboServerInterface ms)
+def ():
+    '''returns RFQTermSet\n\n
+    (final MboServerInterface ms)\n
     '''

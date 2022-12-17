@@ -1,6 +1,8 @@
-def DatabaseAccessIDSet():
-    '''public DatabaseAccessIDSet(final MboServerInterface ms)
+def ():
+    '''returns DatabaseAccessIDSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

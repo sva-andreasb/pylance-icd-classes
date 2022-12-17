@@ -1,3 +1,4 @@
 def parse():
-    '''public StanzaIdElement parse(final XmlPullParser parser, final int initialDepth)
+    '''returns StanzaIdElement\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

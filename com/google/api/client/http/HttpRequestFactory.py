@@ -1,27 +1,36 @@
 def getTransport():
-    '''public HttpTransport getTransport()
+    '''returns HttpTransport\n\n
+    getTransport()\n
     '''
 def getInitializer():
-    '''public HttpRequestInitializer getInitializer()
+    '''returns HttpRequestInitializer\n\n
+    getInitializer()\n
     '''
 def buildRequest():
-    '''public HttpRequest buildRequest(final String requestMethod, final GenericUrl url, final HttpContent content)
+    '''returns HttpRequest\n\n
+    buildRequest(final String requestMethod, final GenericUrl url, final HttpContent content)\n
     '''
 def buildDeleteRequest():
-    '''public HttpRequest buildDeleteRequest(final GenericUrl url)
+    '''returns HttpRequest\n\n
+    buildDeleteRequest(final GenericUrl url)\n
     '''
 def buildGetRequest():
-    '''public HttpRequest buildGetRequest(final GenericUrl url)
+    '''returns HttpRequest\n\n
+    buildGetRequest(final GenericUrl url)\n
     '''
 def buildPostRequest():
-    '''public HttpRequest buildPostRequest(final GenericUrl url, final HttpContent content)
+    '''returns HttpRequest\n\n
+    buildPostRequest(final GenericUrl url, final HttpContent content)\n
     '''
 def buildPutRequest():
-    '''public HttpRequest buildPutRequest(final GenericUrl url, final HttpContent content)
+    '''returns HttpRequest\n\n
+    buildPutRequest(final GenericUrl url, final HttpContent content)\n
     '''
 def buildPatchRequest():
-    '''public HttpRequest buildPatchRequest(final GenericUrl url, final HttpContent content)
+    '''returns HttpRequest\n\n
+    buildPatchRequest(final GenericUrl url, final HttpContent content)\n
     '''
 def buildHeadRequest():
-    '''public HttpRequest buildHeadRequest(final GenericUrl url)
+    '''returns HttpRequest\n\n
+    buildHeadRequest(final GenericUrl url)\n
     '''

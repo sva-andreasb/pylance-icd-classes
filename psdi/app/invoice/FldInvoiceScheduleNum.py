@@ -1,3 +1,4 @@
-def FldInvoiceScheduleNum():
-    '''public FldInvoiceScheduleNum(final MboValue mbv)
+def ():
+    '''returns FldInvoiceScheduleNum\n\n
+    (final MboValue mbv)\n
     '''

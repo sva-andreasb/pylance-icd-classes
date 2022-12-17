@@ -1,7 +1,9 @@
-def UncheckedIOException():
-    '''public UncheckedIOException(final IOException cause)
-    public UncheckedIOException(final String message)
+def ():
+    '''returns UncheckedIOException\n\n
+    (final IOException cause)\n
+    (final String message)\n
     '''
 def ioException():
-    '''public IOException ioException()
+    '''returns IOException\n\n
+    ioException()\n
     '''

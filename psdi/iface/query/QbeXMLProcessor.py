@@ -8,6 +8,7 @@ OPERATOR_GREATEREQUALS = "String  \">=\""
 OPERATOR_LESSEQUALS = "String  \"<=\""
 OPERATOR_ENDSWITH = "String  \"EW\""
 OPERATOR_STARTSWITH = "String  \"SW\""
-def QbeXMLProcessor():
-    '''public QbeXMLProcessor(final String objName, final UserInfo userInfo)
+def ():
+    '''returns QbeXMLProcessor\n\n
+    (final String objName, final UserInfo userInfo)\n
     '''

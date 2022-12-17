@@ -1,9 +1,12 @@
-def CDUIOffOutboundProc():
-    '''public CDUIOffOutboundProc()
+def ():
+    '''returns CDUIOffOutboundProc\n\n
+    ()\n
     '''
 def checkBusinessRules():
-    '''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''returns int\n\n
+    checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)\n
     '''
 def writeFormattedXML():
-    '''public String writeFormattedXML(final String xml, final String langCode)
+    '''returns String\n\n
+    writeFormattedXML(final String xml, final String langCode)\n
     '''

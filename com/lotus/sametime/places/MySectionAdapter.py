@@ -1,6 +1,8 @@
 def sectionChanged():
-    '''public void sectionChanged(final MyselfEvent myselfEvent)
+    '''returns None\n\n
+    sectionChanged(final MyselfEvent myselfEvent)\n
     '''
 def changeSectionFailed():
-    '''public void changeSectionFailed(final MyselfEvent myselfEvent)
+    '''returns None\n\n
+    changeSectionFailed(final MyselfEvent myselfEvent)\n
     '''

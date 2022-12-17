@@ -1,6 +1,8 @@
-def AShopzFldNotNull():
-    '''public AShopzFldNotNull(final MboValue mbv, final String msgKey, final String logMsg)
+def ():
+    '''returns AShopzFldNotNull\n\n
+    (final MboValue mbv, final String msgKey, final String logMsg)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

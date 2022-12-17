@@ -1,63 +1,84 @@
 def getTagName():
-    '''public String getTagName()
+    '''returns String\n\n
+    getTagName()\n
     '''
 def getAttribute():
-    '''public String getAttribute(final String s)
+    '''returns String\n\n
+    getAttribute(final String s)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String s, final String s2)
+    '''returns None\n\n
+    setAttribute(final String s, final String s2)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final String s)
+    '''returns None\n\n
+    removeAttribute(final String s)\n
     '''
 def getAttributeNode():
-    '''public Attr getAttributeNode(final String s)
+    '''returns Attr\n\n
+    getAttributeNode(final String s)\n
     '''
 def setAttributeNode():
-    '''public Attr setAttributeNode(final Attr attr)
+    '''returns Attr\n\n
+    setAttributeNode(final Attr attr)\n
     '''
 def removeAttributeNode():
-    '''public Attr removeAttributeNode(final Attr attr)
+    '''returns Attr\n\n
+    removeAttributeNode(final Attr attr)\n
     '''
 def getElementsByTagName():
-    '''public NodeList getElementsByTagName(final String s)
+    '''returns NodeList\n\n
+    getElementsByTagName(final String s)\n
     '''
 def getAttributeNS():
-    '''public String getAttributeNS(final String s, final String s2)
+    '''returns String\n\n
+    getAttributeNS(final String s, final String s2)\n
     '''
 def setAttributeNS():
-    '''public void setAttributeNS(final String s, final String s2, final String s3)
+    '''returns None\n\n
+    setAttributeNS(final String s, final String s2, final String s3)\n
     '''
 def removeAttributeNS():
-    '''public void removeAttributeNS(final String s, final String s2)
+    '''returns None\n\n
+    removeAttributeNS(final String s, final String s2)\n
     '''
 def getAttributeNodeNS():
-    '''public Attr getAttributeNodeNS(final String s, final String s2)
+    '''returns Attr\n\n
+    getAttributeNodeNS(final String s, final String s2)\n
     '''
 def setAttributeNodeNS():
-    '''public Attr setAttributeNodeNS(final Attr attr)
+    '''returns Attr\n\n
+    setAttributeNodeNS(final Attr attr)\n
     '''
 def getElementsByTagNameNS():
-    '''public NodeList getElementsByTagNameNS(final String s, final String s2)
+    '''returns NodeList\n\n
+    getElementsByTagNameNS(final String s, final String s2)\n
     '''
 def hasAttribute():
-    '''public boolean hasAttribute(final String s)
+    '''returns boolean\n\n
+    hasAttribute(final String s)\n
     '''
 def hasAttributeNS():
-    '''public boolean hasAttributeNS(final String s, final String s2)
+    '''returns boolean\n\n
+    hasAttributeNS(final String s, final String s2)\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''
 def getNodeValue():
-    '''public String getNodeValue()
+    '''returns String\n\n
+    getNodeValue()\n
     '''
 def setNodeValue():
-    '''public void setNodeValue(final String s)
+    '''returns None\n\n
+    setNodeValue(final String s)\n
     '''
 def getNodeType():
-    '''public short getNodeType()
+    '''returns short\n\n
+    getNodeType()\n
     '''
 def getOwnerDocument():
-    '''public Document getOwnerDocument()
+    '''returns Document\n\n
+    getOwnerDocument()\n
     '''

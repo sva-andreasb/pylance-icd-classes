@@ -25,24 +25,31 @@ PORTLET_WINDOW_ID = "int  23"
 PORTLET_MODE = "int  24"
 PORTLET_WINDOW_STATE = "int  25"
 SESSION_ID = "int  26"
-def Component():
-    '''public Component()
+def ():
+    '''returns Component\n\n
+    ()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def fancyFormat():
-    '''public String fancyFormat(final int level)
+    '''returns String\n\n
+    fancyFormat(final int level)\n
     '''
 def getESIComponent():
-    '''public void getESIComponent(final StringBuffer sb)
+    '''returns None\n\n
+    getESIComponent(final StringBuffer sb)\n
     '''
 def getESIValues():
-    '''public void getESIValues(final StringBuffer sb)
+    '''returns None\n\n
+    getESIValues(final StringBuffer sb)\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''

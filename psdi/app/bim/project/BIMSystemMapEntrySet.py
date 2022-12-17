@@ -1,3 +1,4 @@
-def BIMSystemMapEntrySet():
-    '''public BIMSystemMapEntrySet(final MboServerInterface ms)
+def ():
+    '''returns BIMSystemMapEntrySet\n\n
+    (final MboServerInterface ms)\n
     '''

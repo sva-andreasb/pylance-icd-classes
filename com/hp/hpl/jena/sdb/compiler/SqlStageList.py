@@ -1,6 +1,8 @@
 def build():
-    '''public SqlNode build(final SDBRequest request, final SlotCompiler slotCompiler)
+    '''returns SqlNode\n\n
+    build(final SDBRequest request, final SlotCompiler slotCompiler)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

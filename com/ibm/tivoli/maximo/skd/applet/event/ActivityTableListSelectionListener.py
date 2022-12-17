@@ -1,13 +1,17 @@
-def ActivityTableListSelectionListener():
-    '''public ActivityTableListSelectionListener(final IlvGanttChart gChart)
-    public ActivityTableListSelectionListener(final IlvGanttChart gChart, final IlvJScrollGanttSheet sGanttSheet)
+def ():
+    '''returns ActivityTableListSelectionListener\n\n
+    (final IlvGanttChart gChart)\n
+    (final IlvGanttChart gChart, final IlvJScrollGanttSheet sGanttSheet)\n
     '''
 def valueChanged():
-    '''public void valueChanged(final ListSelectionEvent e)
+    '''returns None\n\n
+    valueChanged(final ListSelectionEvent e)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''
 def setEnabled():
-    '''public void setEnabled(final boolean enabled)
+    '''returns None\n\n
+    setEnabled(final boolean enabled)\n
     '''

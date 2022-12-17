@@ -1,6 +1,8 @@
-def NPInspForm():
-    '''public NPInspForm(final MboSet ms)
+def ():
+    '''returns NPInspForm\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

@@ -1,23 +1,30 @@
 FORM_URL_PROPERTY = "String  \"FormURL\""
-def IlvFormWizardPage():
-    '''public IlvFormWizardPage(final IlvServicesProvider servicesProvider)
-    public IlvFormWizardPage()
+def ():
+    '''returns IlvFormWizardPage\n\n
+    (final IlvServicesProvider servicesProvider)\n
+    ()\n
     '''
 def constructPage():
-    '''public void constructPage(final IlvEditionContext editionContext)
+    '''returns None\n\n
+    constructPage(final IlvEditionContext editionContext)\n
     '''
 def validationErrorAdded():
-    '''public void validationErrorAdded(final ValidationEvent validationEvent)
+    '''returns None\n\n
+    validationErrorAdded(final ValidationEvent validationEvent)\n
     '''
 def validationErrorRemoved():
-    '''public void validationErrorRemoved(final ValidationEvent validationEvent)
+    '''returns None\n\n
+    validationErrorRemoved(final ValidationEvent validationEvent)\n
     '''
 def initializePage():
-    '''public void initializePage(final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    initializePage(final IlvEditionContext ilvEditionContext)\n
     '''
 def read():
-    '''public void read(final Element element)
+    '''returns None\n\n
+    read(final Element element)\n
     '''
 def readForm():
-    '''public void readForm(final URL url)
+    '''returns None\n\n
+    readForm(final URL url)\n
     '''

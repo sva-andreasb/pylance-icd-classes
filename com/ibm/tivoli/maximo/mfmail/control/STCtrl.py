@@ -1,3 +1,4 @@
-def STCtrl():
-    '''public STCtrl(final MboSet ms)
+def ():
+    '''returns STCtrl\n\n
+    (final MboSet ms)\n
     '''

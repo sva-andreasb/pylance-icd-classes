@@ -1,3 +1,4 @@
 def getProxyInfo():
-    '''public ProxyInfo[] getProxyInfo(final URL url)
+    '''returns ProxyInfo[]\n\n
+    getProxyInfo(final URL url)\n
     '''

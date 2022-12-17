@@ -3,90 +3,96 @@ ECLIPSE_PROJECT = "String  \".project\""
 ECLIPSE_OPL_PROJECT = "String  \".oplproject\""
 ECLIPSE_ODME_PROJECT = "String  \".odmeproject\""
 ODMDS_EXTENSION = "String  \".odmds\""
-def IloODMSIDEAppDeployer():
-    '''public IloODMSIDEAppDeployer(final IloODMSIDEProject project, final File deployedConfiguration)
+def ():
+    '''returns IloODMSIDEAppDeployer\n\n
+    (final IloODMSIDEProject project, final File deployedConfiguration)\n
     '''
 def setCredential():
-    '''public void setCredential(final IloCredential creds)
+    '''returns None\n\n
+    setCredential(final IloCredential creds)\n
     '''
 def setDeployTemporary():
-    '''public void setDeployTemporary(final boolean deployTemporary)
+    '''returns None\n\n
+    setDeployTemporary(final boolean deployTemporary)\n
     '''
 def cleanTemporary():
-    '''public boolean cleanTemporary()
+    '''returns boolean\n\n
+    cleanTemporary()\n
     '''
 def accept():
-    '''public boolean accept(final File dir, final String name)
-    public boolean accept(final File dir, final String name)
+    '''returns boolean\n\n
+    accept(final File dir, final String name)\n
+    accept(final File dir, final String name)\n
     '''
 def setDeployLocally():
-    '''public void setDeployLocally(final boolean deployLocally)
+    '''returns None\n\n
+    setDeployLocally(final boolean deployLocally)\n
     '''
 def setDeployOnServer():
-    '''public void setDeployOnServer(final boolean deployOnServer)
+    '''returns None\n\n
+    setDeployOnServer(final boolean deployOnServer)\n
     '''
 def setDefaultDeployer():
-    '''public void setDefaultDeployer(final IloDeploymentManager default_deployer)
+    '''returns None\n\n
+    setDefaultDeployer(final IloDeploymentManager default_deployer)\n
     '''
 def setStartedFromCommandLine():
-    '''public void setStartedFromCommandLine(final boolean startedFromCommandLine)
+    '''returns None\n\n
+    setStartedFromCommandLine(final boolean startedFromCommandLine)\n
     '''
 def run():
-    '''public void run(ProgressMonitor monitor)
+    '''returns None\n\n
+    run(ProgressMonitor monitor)\n
     '''
 def call():
-    '''public Void call()
+    '''returns Void\n\n
+    call()\n
     '''
 def isAborted():
-    '''public boolean isAborted()
+    '''returns boolean\n\n
+    isAborted()\n
     '''
 def wasDeployedOnServer():
-    '''public boolean wasDeployedOnServer()
+    '''returns boolean\n\n
+    wasDeployedOnServer()\n
     '''
 def needToDeployOnServer():
-    '''public boolean needToDeployOnServer()
+    '''returns boolean\n\n
+    needToDeployOnServer()\n
     '''
 def getOdmAppLocation():
-    '''public File getOdmAppLocation()
+    '''returns File\n\n
+    getOdmAppLocation()\n
     '''
 def getComputedCheckSum():
-    '''public String getComputedCheckSum()
+    '''returns String\n\n
+    getComputedCheckSum()\n
     '''
 def setOdmAppLocation():
-    '''public void setOdmAppLocation(final File odmAppLocation)
-    '''
-def main():
-    '''public static void main(final String[] args)
-    '''
-def execute():
-    '''public static int execute(final String... args)
-    '''
-def guessOplProjectDirectory():
-    '''public static File guessOplProjectDirectory(final File odmeProjectFile)
-    '''
-def makeDeployableProject():
-    '''public static IloODMSIDEProject makeDeployableProject(final File firstFileOrDirectory)
-    public static IloODMSIDEProject makeDeployableProject(final File firstFileOrDirectory, final File secondFileOrDirectory)
-    '''
-def deploy():
-    '''public static IloODMSIDEAppDeployer deploy(final IloODMSIDEProject projectToDeploy, final File settingsFile, final boolean deployDefaultSettings, final boolean deployLocally, final boolean deployOnServer, final boolean deployTemporary, final boolean startedFromCommandLine, final boolean verbose)
+    '''returns None\n\n
+    setOdmAppLocation(final File odmAppLocation)\n
     '''
 def done():
-    '''public void done()
-    public void done()
+    '''returns None\n\n
+    done()\n
+    done()\n
     '''
 def worked():
-    '''public void worked(final int work)
-    public void worked(final int work)
+    '''returns None\n\n
+    worked(final int work)\n
+    worked(final int work)\n
     '''
 def beginTask():
-    '''public void beginTask(final String name, final int totalWork)
-    public void beginTask(final String name, final int totalWork)
+    '''returns None\n\n
+    beginTask(final String name, final int totalWork)\n
+    beginTask(final String name, final int totalWork)\n
     '''
 def worked_():
-    '''public void worked_(final int work)
+    '''returns None\n\n
+    worked_(final int work)\n
     '''
 def subTask():
-    '''public void subTask(final String name)
-    public void subTask(final String name)
+    '''returns None\n\n
+    subTask(final String name)\n
+    subTask(final String name)\n
     '''

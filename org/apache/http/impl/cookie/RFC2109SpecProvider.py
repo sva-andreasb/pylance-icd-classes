@@ -1,8 +1,10 @@
-def RFC2109SpecProvider():
-    '''public RFC2109SpecProvider(final PublicSuffixMatcher publicSuffixMatcher, final boolean oneHeader)
-    public RFC2109SpecProvider(final PublicSuffixMatcher publicSuffixMatcher)
-    public RFC2109SpecProvider()
+def ():
+    '''returns RFC2109SpecProvider\n\n
+    (final PublicSuffixMatcher publicSuffixMatcher, final boolean oneHeader)\n
+    (final PublicSuffixMatcher publicSuffixMatcher)\n
+    ()\n
     '''
 def create():
-    '''public CookieSpec create(final HttpContext context)
+    '''returns CookieSpec\n\n
+    create(final HttpContext context)\n
     '''

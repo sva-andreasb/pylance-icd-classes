@@ -1,6 +1,4 @@
-def getInstance():
-    '''public static IgnorablesMatcher getInstance(final int parseFlags)
-    '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

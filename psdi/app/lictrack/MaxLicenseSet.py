@@ -1,3 +1,4 @@
-def MaxLicenseSet():
-    '''public MaxLicenseSet(final MboServerInterface ms)
+def ():
+    '''returns MaxLicenseSet\n\n
+    (final MboServerInterface ms)\n
     '''

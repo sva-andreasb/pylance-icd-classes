@@ -1,28 +1,37 @@
-def ToImageOptions():
-    '''public ToImageOptions(final ImageSaveOptions saveOptions)
-    public ToImageOptions(final FileType targetFileType)
+def ():
+    '''returns ToImageOptions\n\n
+    (final ImageSaveOptions saveOptions)\n
+    (final FileType targetFileType)\n
     '''
 def getTargetFileType():
-    '''public FileType getTargetFileType()
+    '''returns FileType\n\n
+    getTargetFileType()\n
     '''
 def setTargetFileType():
-    '''public void setTargetFileType(final FileType targetFileType)
+    '''returns None\n\n
+    setTargetFileType(final FileType targetFileType)\n
     '''
 def getResolution():
-    '''public int getResolution()
+    '''returns int\n\n
+    getResolution()\n
     '''
 def setResolution():
-    '''public void setResolution(final int resolution)
+    '''returns None\n\n
+    setResolution(final int resolution)\n
     '''
 def getWidth():
-    '''public int getWidth()
+    '''returns int\n\n
+    getWidth()\n
     '''
 def setWidth():
-    '''public void setWidth(final int width)
+    '''returns None\n\n
+    setWidth(final int width)\n
     '''
 def getHeight():
-    '''public int getHeight()
+    '''returns int\n\n
+    getHeight()\n
     '''
 def setHeight():
-    '''public void setHeight(final int height)
+    '''returns None\n\n
+    setHeight(final int height)\n
     '''

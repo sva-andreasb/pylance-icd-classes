@@ -1,9 +1,12 @@
-def CompositeTextResolver():
-    '''public CompositeTextResolver(final TextReplacement.TextResolver... resolvers)
+def ():
+    '''returns CompositeTextResolver\n\n
+    (final TextReplacement.TextResolver... resolvers)\n
     '''
 def add():
-    '''public void add(final TextReplacement.TextResolver resolver)
+    '''returns None\n\n
+    add(final TextReplacement.TextResolver resolver)\n
     '''
 def resolve():
-    '''public String resolve(final String in)
+    '''returns String\n\n
+    resolve(final String in)\n
     '''

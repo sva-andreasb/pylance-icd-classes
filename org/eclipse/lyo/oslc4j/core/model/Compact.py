@@ -1,30 +1,40 @@
 def getIcon():
-    '''public URI getIcon()
+    '''returns URI\n\n
+    getIcon()\n
     '''
 def getLargePreview():
-    '''public Preview getLargePreview()
+    '''returns Preview\n\n
+    getLargePreview()\n
     '''
 def getShortTitle():
-    '''public String getShortTitle()
+    '''returns String\n\n
+    getShortTitle()\n
     '''
 def getSmallPreview():
-    '''public Preview getSmallPreview()
+    '''returns Preview\n\n
+    getSmallPreview()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setIcon():
-    '''public void setIcon(final URI icon)
+    '''returns None\n\n
+    setIcon(final URI icon)\n
     '''
 def setLargePreview():
-    '''public void setLargePreview(final Preview largePreview)
+    '''returns None\n\n
+    setLargePreview(final Preview largePreview)\n
     '''
 def setShortTitle():
-    '''public void setShortTitle(final String shortTitle)
+    '''returns None\n\n
+    setShortTitle(final String shortTitle)\n
     '''
 def setSmallPreview():
-    '''public void setSmallPreview(final Preview smallPreview)
+    '''returns None\n\n
+    setSmallPreview(final Preview smallPreview)\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''

@@ -1,9 +1,12 @@
-def CCICdmCiTypeStatusHandler():
-    '''public CCICdmCiTypeStatusHandler(final StatefulMbo sm)
+def ():
+    '''returns CCICdmCiTypeStatusHandler\n\n
+    (final StatefulMbo sm)\n
     '''
 def setUseWithActCI():
-    '''public void setUseWithActCI()
+    '''returns None\n\n
+    setUseWithActCI()\n
     '''
 def setUseWithActCIForAddedSpec():
-    '''public void setUseWithActCIForAddedSpec(final MboRemote domainMbo)
+    '''returns None\n\n
+    setUseWithActCIForAddedSpec(final MboRemote domainMbo)\n
     '''

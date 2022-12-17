@@ -1,12 +1,16 @@
-def ApplicableStatesRule():
-    '''public ApplicableStatesRule(final byte[] applicableStates)
+def ():
+    '''returns ApplicableStatesRule\n\n
+    (final byte[] applicableStates)\n
     '''
 def subset():
-    '''public void subset(final List identities, final StringBuffer reason)
+    '''returns None\n\n
+    subset(final List identities, final StringBuffer reason)\n
     '''
 def registerRuleArbitrator():
-    '''public void registerRuleArbitrator(final RuleArbitrator coordinator)
+    '''returns None\n\n
+    registerRuleArbitrator(final RuleArbitrator coordinator)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

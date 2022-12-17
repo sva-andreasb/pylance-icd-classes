@@ -1,6 +1,8 @@
-def ListReplicasResponse():
-    '''public ListReplicasResponse(final RfcLDAPMessage rfcLDAPMessage)
+def ():
+    '''returns ListReplicasResponse\n\n
+    (final RfcLDAPMessage rfcLDAPMessage)\n
     '''
 def getReplicaList():
-    '''public String[] getReplicaList()
+    '''returns String[]\n\n
+    getReplicaList()\n
     '''

@@ -2,23 +2,26 @@ SELECT_LIST_CONTROL_ID = "String  \"selected_field_table\""
 AVAILABLE_LIST_CONTROL_ID = "String  \"available_columns_table\""
 TREE_CONTROL_ID = "String  \"objecttree\""
 def initializeApp():
-    '''public void initializeApp()
+    '''returns None\n\n
+    initializeApp()\n
     '''
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''
 def gotostartcenter():
-    '''public int gotostartcenter()
+    '''returns int\n\n
+    gotostartcenter()\n
     '''
 def cancel():
-    '''public int cancel()
-    '''
-def save():
-    '''public synchronized void save()
+    '''returns int\n\n
+    cancel()\n
     '''
 def savedata():
-    '''public int savedata()
+    '''returns int\n\n
+    savedata()\n
     '''
 def setValue():
-    '''public void setValue(final int row, final String attribute, final MboRemote mboRemote)
+    '''returns None\n\n
+    setValue(final int row, final String attribute, final MboRemote mboRemote)\n
     '''

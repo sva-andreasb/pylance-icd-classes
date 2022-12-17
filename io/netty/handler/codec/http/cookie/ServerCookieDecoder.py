@@ -1,6 +1,8 @@
 def decodeAll():
-    '''public List<Cookie> decodeAll(final String header)
+    '''returns List<Cookie>\n\n
+    decodeAll(final String header)\n
     '''
 def decode():
-    '''public Set<Cookie> decode(final String header)
+    '''returns Set<Cookie>\n\n
+    decode(final String header)\n
     '''

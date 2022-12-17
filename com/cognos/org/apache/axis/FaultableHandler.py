@@ -1,18 +1,24 @@
-def FaultableHandler():
-    '''public FaultableHandler(final Handler workHandler)
+def ():
+    '''returns FaultableHandler\n\n
+    (final Handler workHandler)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def cleanup():
-    '''public void cleanup()
+    '''returns None\n\n
+    cleanup()\n
     '''
 def invoke():
-    '''public void invoke(final MessageContext msgContext)
+    '''returns None\n\n
+    invoke(final MessageContext msgContext)\n
     '''
 def onFault():
-    '''public void onFault(final MessageContext msgContext)
+    '''returns None\n\n
+    onFault(final MessageContext msgContext)\n
     '''
 def canHandleBlock():
-    '''public boolean canHandleBlock(final QName qname)
+    '''returns boolean\n\n
+    canHandleBlock(final QName qname)\n
     '''

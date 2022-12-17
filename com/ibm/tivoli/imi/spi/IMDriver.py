@@ -1,10 +1,12 @@
 def validateProperties():
-    '''public boolean validateProperties(final Properties properties)
+    '''returns boolean\n\n
+    validateProperties(final Properties properties)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
+    toString()\n
     '''

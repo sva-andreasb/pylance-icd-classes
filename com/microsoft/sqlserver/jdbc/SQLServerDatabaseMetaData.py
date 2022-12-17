@@ -1,539 +1,710 @@
-def toString():
-    '''public final String toString()
-    '''
-def SQLServerDatabaseMetaData():
-    '''public SQLServerDatabaseMetaData(final SQLServerConnection con)
+def ():
+    '''returns SQLServerDatabaseMetaData\n\n
+    (final SQLServerConnection con)\n
     '''
 def isWrapperFor():
-    '''public boolean isWrapperFor(final Class<?> iface)
-    '''
-def unwrap():
-    '''public <T> T unwrap(final Class<T> iface)
+    '''returns boolean\n\n
+    isWrapperFor(final Class<?> iface)\n
     '''
 def allProceduresAreCallable():
-    '''public boolean allProceduresAreCallable()
+    '''returns boolean\n\n
+    allProceduresAreCallable()\n
     '''
 def allTablesAreSelectable():
-    '''public boolean allTablesAreSelectable()
+    '''returns boolean\n\n
+    allTablesAreSelectable()\n
     '''
 def autoCommitFailureClosesAllResultSets():
-    '''public boolean autoCommitFailureClosesAllResultSets()
+    '''returns boolean\n\n
+    autoCommitFailureClosesAllResultSets()\n
     '''
 def dataDefinitionCausesTransactionCommit():
-    '''public boolean dataDefinitionCausesTransactionCommit()
+    '''returns boolean\n\n
+    dataDefinitionCausesTransactionCommit()\n
     '''
 def dataDefinitionIgnoredInTransactions():
-    '''public boolean dataDefinitionIgnoredInTransactions()
+    '''returns boolean\n\n
+    dataDefinitionIgnoredInTransactions()\n
     '''
 def doesMaxRowSizeIncludeBlobs():
-    '''public boolean doesMaxRowSizeIncludeBlobs()
+    '''returns boolean\n\n
+    doesMaxRowSizeIncludeBlobs()\n
     '''
 def generatedKeyAlwaysReturned():
-    '''public boolean generatedKeyAlwaysReturned()
+    '''returns boolean\n\n
+    generatedKeyAlwaysReturned()\n
     '''
 def getMaxLogicalLobSize():
-    '''public long getMaxLogicalLobSize()
+    '''returns long\n\n
+    getMaxLogicalLobSize()\n
     '''
 def supportsRefCursors():
-    '''public boolean supportsRefCursors()
+    '''returns boolean\n\n
+    supportsRefCursors()\n
     '''
 def supportsSharding():
-    '''public boolean supportsSharding()
+    '''returns boolean\n\n
+    supportsSharding()\n
     '''
 def getCatalogs():
-    '''public ResultSet getCatalogs()
+    '''returns ResultSet\n\n
+    getCatalogs()\n
     '''
 def getCatalogSeparator():
-    '''public String getCatalogSeparator()
+    '''returns String\n\n
+    getCatalogSeparator()\n
     '''
 def getCatalogTerm():
-    '''public String getCatalogTerm()
+    '''returns String\n\n
+    getCatalogTerm()\n
     '''
 def getColumnPrivileges():
-    '''public ResultSet getColumnPrivileges(final String catalog, final String schema, final String table, String col)
+    '''returns ResultSet\n\n
+    getColumnPrivileges(final String catalog, final String schema, final String table, String col)\n
     '''
 def getTables():
-    '''public ResultSet getTables(final String catalog, String schema, String table, final String[] types)
+    '''returns ResultSet\n\n
+    getTables(final String catalog, String schema, String table, final String[] types)\n
     '''
 def getColumns():
-    '''public ResultSet getColumns(final String catalog, final String schema, final String table, final String col)
+    '''returns ResultSet\n\n
+    getColumns(final String catalog, final String schema, final String table, final String col)\n
     '''
 def getFunctions():
-    '''public ResultSet getFunctions(final String catalog, final String schemaPattern, final String functionNamePattern)
+    '''returns ResultSet\n\n
+    getFunctions(final String catalog, final String schemaPattern, final String functionNamePattern)\n
     '''
 def getFunctionColumns():
-    '''public ResultSet getFunctionColumns(final String catalog, final String schemaPattern, final String functionNamePattern, final String columnNamePattern)
+    '''returns ResultSet\n\n
+    getFunctionColumns(final String catalog, final String schemaPattern, final String functionNamePattern, final String columnNamePattern)\n
     '''
 def getClientInfoProperties():
-    '''public ResultSet getClientInfoProperties()
+    '''returns ResultSet\n\n
+    getClientInfoProperties()\n
     '''
 def getBestRowIdentifier():
-    '''public ResultSet getBestRowIdentifier(final String catalog, final String schema, final String table, final int scope, final boolean nullable)
+    '''returns ResultSet\n\n
+    getBestRowIdentifier(final String catalog, final String schema, final String table, final int scope, final boolean nullable)\n
     '''
 def getCrossReference():
-    '''public ResultSet getCrossReference(final String cat1, final String schem1, final String tab1, final String cat2, final String schem2, final String tab2)
+    '''returns ResultSet\n\n
+    getCrossReference(final String cat1, final String schem1, final String tab1, final String cat2, final String schem2, final String tab2)\n
     '''
 def getDatabaseProductName():
-    '''public String getDatabaseProductName()
+    '''returns String\n\n
+    getDatabaseProductName()\n
     '''
 def getDatabaseProductVersion():
-    '''public String getDatabaseProductVersion()
+    '''returns String\n\n
+    getDatabaseProductVersion()\n
     '''
 def getDefaultTransactionIsolation():
-    '''public int getDefaultTransactionIsolation()
+    '''returns int\n\n
+    getDefaultTransactionIsolation()\n
     '''
 def getDriverMajorVersion():
-    '''public int getDriverMajorVersion()
+    '''returns int\n\n
+    getDriverMajorVersion()\n
     '''
 def getDriverMinorVersion():
-    '''public int getDriverMinorVersion()
+    '''returns int\n\n
+    getDriverMinorVersion()\n
     '''
 def getDriverName():
-    '''public String getDriverName()
+    '''returns String\n\n
+    getDriverName()\n
     '''
 def getDriverVersion():
-    '''public String getDriverVersion()
+    '''returns String\n\n
+    getDriverVersion()\n
     '''
 def getExportedKeys():
-    '''public ResultSet getExportedKeys(final String cat, final String schema, final String table)
+    '''returns ResultSet\n\n
+    getExportedKeys(final String cat, final String schema, final String table)\n
     '''
 def getExtraNameCharacters():
-    '''public String getExtraNameCharacters()
+    '''returns String\n\n
+    getExtraNameCharacters()\n
     '''
 def getIdentifierQuoteString():
-    '''public String getIdentifierQuoteString()
+    '''returns String\n\n
+    getIdentifierQuoteString()\n
     '''
 def getImportedKeys():
-    '''public ResultSet getImportedKeys(final String cat, final String schema, final String table)
+    '''returns ResultSet\n\n
+    getImportedKeys(final String cat, final String schema, final String table)\n
     '''
 def getIndexInfo():
-    '''public ResultSet getIndexInfo(final String cat, final String schema, final String table, final boolean unique, final boolean approximate)
+    '''returns ResultSet\n\n
+    getIndexInfo(final String cat, final String schema, final String table, final boolean unique, final boolean approximate)\n
     '''
 def getMaxBinaryLiteralLength():
-    '''public int getMaxBinaryLiteralLength()
+    '''returns int\n\n
+    getMaxBinaryLiteralLength()\n
     '''
 def getMaxCatalogNameLength():
-    '''public int getMaxCatalogNameLength()
+    '''returns int\n\n
+    getMaxCatalogNameLength()\n
     '''
 def getMaxCharLiteralLength():
-    '''public int getMaxCharLiteralLength()
+    '''returns int\n\n
+    getMaxCharLiteralLength()\n
     '''
 def getMaxColumnNameLength():
-    '''public int getMaxColumnNameLength()
+    '''returns int\n\n
+    getMaxColumnNameLength()\n
     '''
 def getMaxColumnsInGroupBy():
-    '''public int getMaxColumnsInGroupBy()
+    '''returns int\n\n
+    getMaxColumnsInGroupBy()\n
     '''
 def getMaxColumnsInIndex():
-    '''public int getMaxColumnsInIndex()
+    '''returns int\n\n
+    getMaxColumnsInIndex()\n
     '''
 def getMaxColumnsInOrderBy():
-    '''public int getMaxColumnsInOrderBy()
+    '''returns int\n\n
+    getMaxColumnsInOrderBy()\n
     '''
 def getMaxColumnsInSelect():
-    '''public int getMaxColumnsInSelect()
+    '''returns int\n\n
+    getMaxColumnsInSelect()\n
     '''
 def getMaxColumnsInTable():
-    '''public int getMaxColumnsInTable()
+    '''returns int\n\n
+    getMaxColumnsInTable()\n
     '''
 def getMaxConnections():
-    '''public int getMaxConnections()
+    '''returns int\n\n
+    getMaxConnections()\n
     '''
 def getMaxCursorNameLength():
-    '''public int getMaxCursorNameLength()
+    '''returns int\n\n
+    getMaxCursorNameLength()\n
     '''
 def getMaxIndexLength():
-    '''public int getMaxIndexLength()
+    '''returns int\n\n
+    getMaxIndexLength()\n
     '''
 def getMaxProcedureNameLength():
-    '''public int getMaxProcedureNameLength()
+    '''returns int\n\n
+    getMaxProcedureNameLength()\n
     '''
 def getMaxRowSize():
-    '''public int getMaxRowSize()
+    '''returns int\n\n
+    getMaxRowSize()\n
     '''
 def getMaxSchemaNameLength():
-    '''public int getMaxSchemaNameLength()
+    '''returns int\n\n
+    getMaxSchemaNameLength()\n
     '''
 def getMaxStatementLength():
-    '''public int getMaxStatementLength()
+    '''returns int\n\n
+    getMaxStatementLength()\n
     '''
 def getMaxStatements():
-    '''public int getMaxStatements()
+    '''returns int\n\n
+    getMaxStatements()\n
     '''
 def getMaxTableNameLength():
-    '''public int getMaxTableNameLength()
+    '''returns int\n\n
+    getMaxTableNameLength()\n
     '''
 def getMaxTablesInSelect():
-    '''public int getMaxTablesInSelect()
+    '''returns int\n\n
+    getMaxTablesInSelect()\n
     '''
 def getMaxUserNameLength():
-    '''public int getMaxUserNameLength()
+    '''returns int\n\n
+    getMaxUserNameLength()\n
     '''
 def getNumericFunctions():
-    '''public String getNumericFunctions()
+    '''returns String\n\n
+    getNumericFunctions()\n
     '''
 def getPrimaryKeys():
-    '''public ResultSet getPrimaryKeys(final String cat, final String schema, final String table)
+    '''returns ResultSet\n\n
+    getPrimaryKeys(final String cat, final String schema, final String table)\n
     '''
 def getProcedureColumns():
-    '''public ResultSet getProcedureColumns(final String catalog, final String schema, String proc, String col)
+    '''returns ResultSet\n\n
+    getProcedureColumns(final String catalog, final String schema, String proc, String col)\n
     '''
 def getProcedures():
-    '''public ResultSet getProcedures(final String catalog, final String schema, final String proc)
+    '''returns ResultSet\n\n
+    getProcedures(final String catalog, final String schema, final String proc)\n
     '''
 def getProcedureTerm():
-    '''public String getProcedureTerm()
+    '''returns String\n\n
+    getProcedureTerm()\n
     '''
 def getPseudoColumns():
-    '''public ResultSet getPseudoColumns(final String catalog, final String schemaPattern, final String tableNamePattern, final String columnNamePattern)
+    '''returns ResultSet\n\n
+    getPseudoColumns(final String catalog, final String schemaPattern, final String tableNamePattern, final String columnNamePattern)\n
     '''
 def getSchemas():
-    '''public ResultSet getSchemas()
-    public ResultSet getSchemas(final String catalog, final String schemaPattern)
+    '''returns ResultSet\n\n
+    getSchemas()\n
+    getSchemas(final String catalog, final String schemaPattern)\n
     '''
 def getSchemaTerm():
-    '''public String getSchemaTerm()
+    '''returns String\n\n
+    getSchemaTerm()\n
     '''
 def getSearchStringEscape():
-    '''public String getSearchStringEscape()
+    '''returns String\n\n
+    getSearchStringEscape()\n
     '''
 def getSQLKeywords():
-    '''public String getSQLKeywords()
+    '''returns String\n\n
+    getSQLKeywords()\n
     '''
 def getStringFunctions():
-    '''public String getStringFunctions()
+    '''returns String\n\n
+    getStringFunctions()\n
     '''
 def getSystemFunctions():
-    '''public String getSystemFunctions()
+    '''returns String\n\n
+    getSystemFunctions()\n
     '''
 def getTablePrivileges():
-    '''public ResultSet getTablePrivileges(final String catalog, String schema, String table)
+    '''returns ResultSet\n\n
+    getTablePrivileges(final String catalog, String schema, String table)\n
     '''
 def getTableTypes():
-    '''public ResultSet getTableTypes()
+    '''returns ResultSet\n\n
+    getTableTypes()\n
     '''
 def getTimeDateFunctions():
-    '''public String getTimeDateFunctions()
+    '''returns String\n\n
+    getTimeDateFunctions()\n
     '''
 def getTypeInfo():
-    '''public ResultSet getTypeInfo()
+    '''returns ResultSet\n\n
+    getTypeInfo()\n
     '''
 def getURL():
-    '''public String getURL()
+    '''returns String\n\n
+    getURL()\n
     '''
 def getUserName():
-    '''public String getUserName()
+    '''returns String\n\n
+    getUserName()\n
     '''
 def getVersionColumns():
-    '''public ResultSet getVersionColumns(final String catalog, final String schema, final String table)
+    '''returns ResultSet\n\n
+    getVersionColumns(final String catalog, final String schema, final String table)\n
     '''
 def isCatalogAtStart():
-    '''public boolean isCatalogAtStart()
+    '''returns boolean\n\n
+    isCatalogAtStart()\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly()
+    '''returns boolean\n\n
+    isReadOnly()\n
     '''
 def nullPlusNonNullIsNull():
-    '''public boolean nullPlusNonNullIsNull()
+    '''returns boolean\n\n
+    nullPlusNonNullIsNull()\n
     '''
 def nullsAreSortedAtEnd():
-    '''public boolean nullsAreSortedAtEnd()
+    '''returns boolean\n\n
+    nullsAreSortedAtEnd()\n
     '''
 def nullsAreSortedAtStart():
-    '''public boolean nullsAreSortedAtStart()
+    '''returns boolean\n\n
+    nullsAreSortedAtStart()\n
     '''
 def nullsAreSortedHigh():
-    '''public boolean nullsAreSortedHigh()
+    '''returns boolean\n\n
+    nullsAreSortedHigh()\n
     '''
 def nullsAreSortedLow():
-    '''public boolean nullsAreSortedLow()
+    '''returns boolean\n\n
+    nullsAreSortedLow()\n
     '''
 def storesLowerCaseIdentifiers():
-    '''public boolean storesLowerCaseIdentifiers()
+    '''returns boolean\n\n
+    storesLowerCaseIdentifiers()\n
     '''
 def storesLowerCaseQuotedIdentifiers():
-    '''public boolean storesLowerCaseQuotedIdentifiers()
+    '''returns boolean\n\n
+    storesLowerCaseQuotedIdentifiers()\n
     '''
 def storesMixedCaseIdentifiers():
-    '''public boolean storesMixedCaseIdentifiers()
+    '''returns boolean\n\n
+    storesMixedCaseIdentifiers()\n
     '''
 def storesMixedCaseQuotedIdentifiers():
-    '''public boolean storesMixedCaseQuotedIdentifiers()
+    '''returns boolean\n\n
+    storesMixedCaseQuotedIdentifiers()\n
     '''
 def storesUpperCaseIdentifiers():
-    '''public boolean storesUpperCaseIdentifiers()
+    '''returns boolean\n\n
+    storesUpperCaseIdentifiers()\n
     '''
 def storesUpperCaseQuotedIdentifiers():
-    '''public boolean storesUpperCaseQuotedIdentifiers()
+    '''returns boolean\n\n
+    storesUpperCaseQuotedIdentifiers()\n
     '''
 def supportsAlterTableWithAddColumn():
-    '''public boolean supportsAlterTableWithAddColumn()
+    '''returns boolean\n\n
+    supportsAlterTableWithAddColumn()\n
     '''
 def supportsAlterTableWithDropColumn():
-    '''public boolean supportsAlterTableWithDropColumn()
+    '''returns boolean\n\n
+    supportsAlterTableWithDropColumn()\n
     '''
 def supportsANSI92EntryLevelSQL():
-    '''public boolean supportsANSI92EntryLevelSQL()
+    '''returns boolean\n\n
+    supportsANSI92EntryLevelSQL()\n
     '''
 def supportsANSI92FullSQL():
-    '''public boolean supportsANSI92FullSQL()
+    '''returns boolean\n\n
+    supportsANSI92FullSQL()\n
     '''
 def supportsANSI92IntermediateSQL():
-    '''public boolean supportsANSI92IntermediateSQL()
+    '''returns boolean\n\n
+    supportsANSI92IntermediateSQL()\n
     '''
 def supportsCatalogsInDataManipulation():
-    '''public boolean supportsCatalogsInDataManipulation()
+    '''returns boolean\n\n
+    supportsCatalogsInDataManipulation()\n
     '''
 def supportsCatalogsInIndexDefinitions():
-    '''public boolean supportsCatalogsInIndexDefinitions()
+    '''returns boolean\n\n
+    supportsCatalogsInIndexDefinitions()\n
     '''
 def supportsCatalogsInPrivilegeDefinitions():
-    '''public boolean supportsCatalogsInPrivilegeDefinitions()
+    '''returns boolean\n\n
+    supportsCatalogsInPrivilegeDefinitions()\n
     '''
 def supportsCatalogsInProcedureCalls():
-    '''public boolean supportsCatalogsInProcedureCalls()
+    '''returns boolean\n\n
+    supportsCatalogsInProcedureCalls()\n
     '''
 def supportsCatalogsInTableDefinitions():
-    '''public boolean supportsCatalogsInTableDefinitions()
+    '''returns boolean\n\n
+    supportsCatalogsInTableDefinitions()\n
     '''
 def supportsColumnAliasing():
-    '''public boolean supportsColumnAliasing()
+    '''returns boolean\n\n
+    supportsColumnAliasing()\n
     '''
 def supportsConvert():
-    '''public boolean supportsConvert()
-    public boolean supportsConvert(final int fromType, final int toType)
+    '''returns boolean\n\n
+    supportsConvert()\n
+    supportsConvert(final int fromType, final int toType)\n
     '''
 def supportsCoreSQLGrammar():
-    '''public boolean supportsCoreSQLGrammar()
+    '''returns boolean\n\n
+    supportsCoreSQLGrammar()\n
     '''
 def supportsCorrelatedSubqueries():
-    '''public boolean supportsCorrelatedSubqueries()
+    '''returns boolean\n\n
+    supportsCorrelatedSubqueries()\n
     '''
 def supportsDataDefinitionAndDataManipulationTransactions():
-    '''public boolean supportsDataDefinitionAndDataManipulationTransactions()
+    '''returns boolean\n\n
+    supportsDataDefinitionAndDataManipulationTransactions()\n
     '''
 def supportsDataManipulationTransactionsOnly():
-    '''public boolean supportsDataManipulationTransactionsOnly()
+    '''returns boolean\n\n
+    supportsDataManipulationTransactionsOnly()\n
     '''
 def supportsDifferentTableCorrelationNames():
-    '''public boolean supportsDifferentTableCorrelationNames()
+    '''returns boolean\n\n
+    supportsDifferentTableCorrelationNames()\n
     '''
 def supportsExpressionsInOrderBy():
-    '''public boolean supportsExpressionsInOrderBy()
+    '''returns boolean\n\n
+    supportsExpressionsInOrderBy()\n
     '''
 def supportsExtendedSQLGrammar():
-    '''public boolean supportsExtendedSQLGrammar()
+    '''returns boolean\n\n
+    supportsExtendedSQLGrammar()\n
     '''
 def supportsFullOuterJoins():
-    '''public boolean supportsFullOuterJoins()
+    '''returns boolean\n\n
+    supportsFullOuterJoins()\n
     '''
 def supportsGroupBy():
-    '''public boolean supportsGroupBy()
+    '''returns boolean\n\n
+    supportsGroupBy()\n
     '''
 def supportsGroupByBeyondSelect():
-    '''public boolean supportsGroupByBeyondSelect()
+    '''returns boolean\n\n
+    supportsGroupByBeyondSelect()\n
     '''
 def supportsGroupByUnrelated():
-    '''public boolean supportsGroupByUnrelated()
+    '''returns boolean\n\n
+    supportsGroupByUnrelated()\n
     '''
 def supportsIntegrityEnhancementFacility():
-    '''public boolean supportsIntegrityEnhancementFacility()
+    '''returns boolean\n\n
+    supportsIntegrityEnhancementFacility()\n
     '''
 def supportsLikeEscapeClause():
-    '''public boolean supportsLikeEscapeClause()
+    '''returns boolean\n\n
+    supportsLikeEscapeClause()\n
     '''
 def supportsLimitedOuterJoins():
-    '''public boolean supportsLimitedOuterJoins()
+    '''returns boolean\n\n
+    supportsLimitedOuterJoins()\n
     '''
 def supportsMinimumSQLGrammar():
-    '''public boolean supportsMinimumSQLGrammar()
+    '''returns boolean\n\n
+    supportsMinimumSQLGrammar()\n
     '''
 def supportsMixedCaseIdentifiers():
-    '''public boolean supportsMixedCaseIdentifiers()
+    '''returns boolean\n\n
+    supportsMixedCaseIdentifiers()\n
     '''
 def supportsMixedCaseQuotedIdentifiers():
-    '''public boolean supportsMixedCaseQuotedIdentifiers()
+    '''returns boolean\n\n
+    supportsMixedCaseQuotedIdentifiers()\n
     '''
 def supportsMultipleResultSets():
-    '''public boolean supportsMultipleResultSets()
+    '''returns boolean\n\n
+    supportsMultipleResultSets()\n
     '''
 def supportsMultipleTransactions():
-    '''public boolean supportsMultipleTransactions()
+    '''returns boolean\n\n
+    supportsMultipleTransactions()\n
     '''
 def supportsNonNullableColumns():
-    '''public boolean supportsNonNullableColumns()
+    '''returns boolean\n\n
+    supportsNonNullableColumns()\n
     '''
 def supportsOpenCursorsAcrossCommit():
-    '''public boolean supportsOpenCursorsAcrossCommit()
+    '''returns boolean\n\n
+    supportsOpenCursorsAcrossCommit()\n
     '''
 def supportsOpenCursorsAcrossRollback():
-    '''public boolean supportsOpenCursorsAcrossRollback()
+    '''returns boolean\n\n
+    supportsOpenCursorsAcrossRollback()\n
     '''
 def supportsOpenStatementsAcrossCommit():
-    '''public boolean supportsOpenStatementsAcrossCommit()
+    '''returns boolean\n\n
+    supportsOpenStatementsAcrossCommit()\n
     '''
 def supportsOpenStatementsAcrossRollback():
-    '''public boolean supportsOpenStatementsAcrossRollback()
+    '''returns boolean\n\n
+    supportsOpenStatementsAcrossRollback()\n
     '''
 def supportsOrderByUnrelated():
-    '''public boolean supportsOrderByUnrelated()
+    '''returns boolean\n\n
+    supportsOrderByUnrelated()\n
     '''
 def supportsOuterJoins():
-    '''public boolean supportsOuterJoins()
+    '''returns boolean\n\n
+    supportsOuterJoins()\n
     '''
 def supportsPositionedDelete():
-    '''public boolean supportsPositionedDelete()
+    '''returns boolean\n\n
+    supportsPositionedDelete()\n
     '''
 def supportsPositionedUpdate():
-    '''public boolean supportsPositionedUpdate()
+    '''returns boolean\n\n
+    supportsPositionedUpdate()\n
     '''
 def supportsSchemasInDataManipulation():
-    '''public boolean supportsSchemasInDataManipulation()
+    '''returns boolean\n\n
+    supportsSchemasInDataManipulation()\n
     '''
 def supportsSchemasInIndexDefinitions():
-    '''public boolean supportsSchemasInIndexDefinitions()
+    '''returns boolean\n\n
+    supportsSchemasInIndexDefinitions()\n
     '''
 def supportsSchemasInPrivilegeDefinitions():
-    '''public boolean supportsSchemasInPrivilegeDefinitions()
+    '''returns boolean\n\n
+    supportsSchemasInPrivilegeDefinitions()\n
     '''
 def supportsSchemasInProcedureCalls():
-    '''public boolean supportsSchemasInProcedureCalls()
+    '''returns boolean\n\n
+    supportsSchemasInProcedureCalls()\n
     '''
 def supportsSchemasInTableDefinitions():
-    '''public boolean supportsSchemasInTableDefinitions()
+    '''returns boolean\n\n
+    supportsSchemasInTableDefinitions()\n
     '''
 def supportsSelectForUpdate():
-    '''public boolean supportsSelectForUpdate()
+    '''returns boolean\n\n
+    supportsSelectForUpdate()\n
     '''
 def supportsStoredProcedures():
-    '''public boolean supportsStoredProcedures()
+    '''returns boolean\n\n
+    supportsStoredProcedures()\n
     '''
 def supportsSubqueriesInComparisons():
-    '''public boolean supportsSubqueriesInComparisons()
+    '''returns boolean\n\n
+    supportsSubqueriesInComparisons()\n
     '''
 def supportsSubqueriesInExists():
-    '''public boolean supportsSubqueriesInExists()
+    '''returns boolean\n\n
+    supportsSubqueriesInExists()\n
     '''
 def supportsSubqueriesInIns():
-    '''public boolean supportsSubqueriesInIns()
+    '''returns boolean\n\n
+    supportsSubqueriesInIns()\n
     '''
 def supportsSubqueriesInQuantifieds():
-    '''public boolean supportsSubqueriesInQuantifieds()
+    '''returns boolean\n\n
+    supportsSubqueriesInQuantifieds()\n
     '''
 def supportsTableCorrelationNames():
-    '''public boolean supportsTableCorrelationNames()
+    '''returns boolean\n\n
+    supportsTableCorrelationNames()\n
     '''
 def supportsTransactionIsolationLevel():
-    '''public boolean supportsTransactionIsolationLevel(final int level)
+    '''returns boolean\n\n
+    supportsTransactionIsolationLevel(final int level)\n
     '''
 def supportsTransactions():
-    '''public boolean supportsTransactions()
+    '''returns boolean\n\n
+    supportsTransactions()\n
     '''
 def supportsUnion():
-    '''public boolean supportsUnion()
+    '''returns boolean\n\n
+    supportsUnion()\n
     '''
 def supportsUnionAll():
-    '''public boolean supportsUnionAll()
+    '''returns boolean\n\n
+    supportsUnionAll()\n
     '''
 def usesLocalFilePerTable():
-    '''public boolean usesLocalFilePerTable()
+    '''returns boolean\n\n
+    usesLocalFilePerTable()\n
     '''
 def usesLocalFiles():
-    '''public boolean usesLocalFiles()
+    '''returns boolean\n\n
+    usesLocalFiles()\n
     '''
 def supportsResultSetType():
-    '''public boolean supportsResultSetType(final int type)
+    '''returns boolean\n\n
+    supportsResultSetType(final int type)\n
     '''
 def supportsResultSetConcurrency():
-    '''public boolean supportsResultSetConcurrency(final int type, final int concurrency)
+    '''returns boolean\n\n
+    supportsResultSetConcurrency(final int type, final int concurrency)\n
     '''
 def ownUpdatesAreVisible():
-    '''public boolean ownUpdatesAreVisible(final int type)
+    '''returns boolean\n\n
+    ownUpdatesAreVisible(final int type)\n
     '''
 def ownDeletesAreVisible():
-    '''public boolean ownDeletesAreVisible(final int type)
+    '''returns boolean\n\n
+    ownDeletesAreVisible(final int type)\n
     '''
 def ownInsertsAreVisible():
-    '''public boolean ownInsertsAreVisible(final int type)
+    '''returns boolean\n\n
+    ownInsertsAreVisible(final int type)\n
     '''
 def othersUpdatesAreVisible():
-    '''public boolean othersUpdatesAreVisible(final int type)
+    '''returns boolean\n\n
+    othersUpdatesAreVisible(final int type)\n
     '''
 def othersDeletesAreVisible():
-    '''public boolean othersDeletesAreVisible(final int type)
+    '''returns boolean\n\n
+    othersDeletesAreVisible(final int type)\n
     '''
 def othersInsertsAreVisible():
-    '''public boolean othersInsertsAreVisible(final int type)
+    '''returns boolean\n\n
+    othersInsertsAreVisible(final int type)\n
     '''
 def updatesAreDetected():
-    '''public boolean updatesAreDetected(final int type)
+    '''returns boolean\n\n
+    updatesAreDetected(final int type)\n
     '''
 def deletesAreDetected():
-    '''public boolean deletesAreDetected(final int type)
+    '''returns boolean\n\n
+    deletesAreDetected(final int type)\n
     '''
 def insertsAreDetected():
-    '''public boolean insertsAreDetected(final int type)
+    '''returns boolean\n\n
+    insertsAreDetected(final int type)\n
     '''
 def supportsBatchUpdates():
-    '''public boolean supportsBatchUpdates()
+    '''returns boolean\n\n
+    supportsBatchUpdates()\n
     '''
 def getUDTs():
-    '''public ResultSet getUDTs(final String catalog, final String schemaPattern, final String typeNamePattern, final int[] types)
+    '''returns ResultSet\n\n
+    getUDTs(final String catalog, final String schemaPattern, final String typeNamePattern, final int[] types)\n
     '''
 def getConnection():
-    '''public Connection getConnection()
+    '''returns Connection\n\n
+    getConnection()\n
     '''
 def getSQLStateType():
-    '''public int getSQLStateType()
+    '''returns int\n\n
+    getSQLStateType()\n
     '''
 def getDatabaseMajorVersion():
-    '''public int getDatabaseMajorVersion()
+    '''returns int\n\n
+    getDatabaseMajorVersion()\n
     '''
 def getDatabaseMinorVersion():
-    '''public int getDatabaseMinorVersion()
+    '''returns int\n\n
+    getDatabaseMinorVersion()\n
     '''
 def getJDBCMajorVersion():
-    '''public int getJDBCMajorVersion()
+    '''returns int\n\n
+    getJDBCMajorVersion()\n
     '''
 def getJDBCMinorVersion():
-    '''public int getJDBCMinorVersion()
+    '''returns int\n\n
+    getJDBCMinorVersion()\n
     '''
 def getResultSetHoldability():
-    '''public int getResultSetHoldability()
+    '''returns int\n\n
+    getResultSetHoldability()\n
     '''
 def getRowIdLifetime():
-    '''public RowIdLifetime getRowIdLifetime()
+    '''returns RowIdLifetime\n\n
+    getRowIdLifetime()\n
     '''
 def supportsResultSetHoldability():
-    '''public boolean supportsResultSetHoldability(final int holdability)
+    '''returns boolean\n\n
+    supportsResultSetHoldability(final int holdability)\n
     '''
 def getAttributes():
-    '''public ResultSet getAttributes(final String catalog, final String schemaPattern, final String typeNamePattern, final String attributeNamePattern)
+    '''returns ResultSet\n\n
+    getAttributes(final String catalog, final String schemaPattern, final String typeNamePattern, final String attributeNamePattern)\n
     '''
 def getSuperTables():
-    '''public ResultSet getSuperTables(final String catalog, final String schemaPattern, final String tableNamePattern)
+    '''returns ResultSet\n\n
+    getSuperTables(final String catalog, final String schemaPattern, final String tableNamePattern)\n
     '''
 def getSuperTypes():
-    '''public ResultSet getSuperTypes(final String catalog, final String schemaPattern, final String typeNamePattern)
+    '''returns ResultSet\n\n
+    getSuperTypes(final String catalog, final String schemaPattern, final String typeNamePattern)\n
     '''
 def supportsGetGeneratedKeys():
-    '''public boolean supportsGetGeneratedKeys()
+    '''returns boolean\n\n
+    supportsGetGeneratedKeys()\n
     '''
 def supportsMultipleOpenResults():
-    '''public boolean supportsMultipleOpenResults()
+    '''returns boolean\n\n
+    supportsMultipleOpenResults()\n
     '''
 def supportsNamedParameters():
-    '''public boolean supportsNamedParameters()
+    '''returns boolean\n\n
+    supportsNamedParameters()\n
     '''
 def supportsSavepoints():
-    '''public boolean supportsSavepoints()
+    '''returns boolean\n\n
+    supportsSavepoints()\n
     '''
 def supportsStatementPooling():
-    '''public boolean supportsStatementPooling()
+    '''returns boolean\n\n
+    supportsStatementPooling()\n
     '''
 def supportsStoredFunctionsUsingCallSyntax():
-    '''public boolean supportsStoredFunctionsUsingCallSyntax()
+    '''returns boolean\n\n
+    supportsStoredFunctionsUsingCallSyntax()\n
     '''
 def locatorsUpdateCopy():
-    '''public boolean locatorsUpdateCopy()
+    '''returns boolean\n\n
+    locatorsUpdateCopy()\n
     '''

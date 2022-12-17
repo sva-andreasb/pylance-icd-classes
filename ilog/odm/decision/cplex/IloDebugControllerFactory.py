@@ -1,22 +1,29 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloDebugControllerFactory():
-    '''public IloDebugControllerFactory(final String testClassName, final String testDirName)
+def ():
+    '''returns IloDebugControllerFactory\n\n
+    (final String testClassName, final String testDirName)\n
     '''
 def getTestClassName():
-    '''public String getTestClassName()
+    '''returns String\n\n
+    getTestClassName()\n
     '''
 def getTestDirectoryName():
-    '''public String getTestDirectoryName()
+    '''returns String\n\n
+    getTestDirectoryName()\n
     '''
 def setTestClassName():
-    '''public void setTestClassName(final String className)
+    '''returns None\n\n
+    setTestClassName(final String className)\n
     '''
 def setTestDirectoryName():
-    '''public void setTestDirectoryName(final String dirName)
+    '''returns None\n\n
+    setTestDirectoryName(final String dirName)\n
     '''
 def makeController():
-    '''public IloCplexController makeController()
+    '''returns IloCplexController\n\n
+    makeController()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''

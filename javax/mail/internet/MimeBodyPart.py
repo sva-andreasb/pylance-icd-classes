@@ -1,117 +1,154 @@
 def getLineCount():
-    '''public int getLineCount()
+    '''returns int\n\n
+    getLineCount()\n
     '''
 def getSize():
-    '''public int getSize()
+    '''returns int\n\n
+    getSize()\n
     '''
-def MimeBodyPart():
-    '''public MimeBodyPart()
-    public MimeBodyPart(InputStream is)
-    public MimeBodyPart(final InternetHeaders headers, final byte[] content)
+def ():
+    '''returns MimeBodyPart\n\n
+    ()\n
+    (InputStream is)\n
+    (final InternetHeaders headers, final byte[] content)\n
     '''
 def getInputStream():
-    '''public InputStream getInputStream()
+    '''returns InputStream\n\n
+    getInputStream()\n
     '''
 def getRawInputStream():
-    '''public InputStream getRawInputStream()
+    '''returns InputStream\n\n
+    getRawInputStream()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream os)
+    '''returns None\n\n
+    writeTo(final OutputStream os)\n
     '''
 def getContent():
-    '''public Object getContent()
+    '''returns Object\n\n
+    getContent()\n
     '''
 def getContentID():
-    '''public String getContentID()
+    '''returns String\n\n
+    getContentID()\n
     '''
 def getContentMD5():
-    '''public String getContentMD5()
+    '''returns String\n\n
+    getContentMD5()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getDisposition():
-    '''public String getDisposition()
+    '''returns String\n\n
+    getDisposition()\n
     '''
 def getEncoding():
-    '''public String getEncoding()
+    '''returns String\n\n
+    getEncoding()\n
     '''
 def getFileName():
-    '''public String getFileName()
+    '''returns String\n\n
+    getFileName()\n
     '''
 def getContentLanguage():
-    '''public String[] getContentLanguage()
+    '''returns String[]\n\n
+    getContentLanguage()\n
     '''
 def addHeaderLine():
-    '''public void addHeaderLine(final String line)
+    '''returns None\n\n
+    addHeaderLine(final String line)\n
     '''
 def removeHeader():
-    '''public void removeHeader(final String name)
+    '''returns None\n\n
+    removeHeader(final String name)\n
     '''
 def setContentID():
-    '''public void setContentID(final String cid)
+    '''returns None\n\n
+    setContentID(final String cid)\n
     '''
 def setContentMD5():
-    '''public void setContentMD5(final String md5)
+    '''returns None\n\n
+    setContentMD5(final String md5)\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
-    public void setDescription(final String description, final String charset)
+    '''returns None\n\n
+    setDescription(final String description)\n
+    setDescription(final String description, final String charset)\n
     '''
 def setDisposition():
-    '''public void setDisposition(final String disposition)
+    '''returns None\n\n
+    setDisposition(final String disposition)\n
     '''
 def setFileName():
-    '''public void setFileName(final String filename)
+    '''returns None\n\n
+    setFileName(final String filename)\n
     '''
 def setText():
-    '''public void setText(final String text)
-    public void setText(final String text, final String charset)
+    '''returns None\n\n
+    setText(final String text)\n
+    setText(final String text, final String charset)\n
     '''
 def isMimeType():
-    '''public boolean isMimeType(final String mimeType)
+    '''returns boolean\n\n
+    isMimeType(final String mimeType)\n
     '''
 def setContentLanguage():
-    '''public void setContentLanguage(final String[] languages)
+    '''returns None\n\n
+    setContentLanguage(final String[] languages)\n
     '''
 def getAllHeaderLines():
-    '''public Enumeration getAllHeaderLines()
+    '''returns Enumeration\n\n
+    getAllHeaderLines()\n
     '''
 def getAllHeaders():
-    '''public Enumeration getAllHeaders()
+    '''returns Enumeration\n\n
+    getAllHeaders()\n
     '''
 def getDataHandler():
-    '''public DataHandler getDataHandler()
+    '''returns DataHandler\n\n
+    getDataHandler()\n
     '''
 def setDataHandler():
-    '''public void setDataHandler(final DataHandler dh)
+    '''returns None\n\n
+    setDataHandler(final DataHandler dh)\n
     '''
 def setContent():
-    '''public void setContent(final Multipart mp)
-    public void setContent(final Object o, final String type)
+    '''returns None\n\n
+    setContent(final Multipart mp)\n
+    setContent(final Object o, final String type)\n
     '''
 def getHeader():
-    '''public String[] getHeader(final String name)
-    public String getHeader(final String name, final String delimiter)
+    '''returns String\n\n
+    getHeader(final String name)\n
+    getHeader(final String name, final String delimiter)\n
     '''
 def addHeader():
-    '''public void addHeader(final String name, final String value)
+    '''returns None\n\n
+    addHeader(final String name, final String value)\n
     '''
 def setHeader():
-    '''public void setHeader(final String name, final String value)
+    '''returns None\n\n
+    setHeader(final String name, final String value)\n
     '''
 def getMatchingHeaderLines():
-    '''public Enumeration getMatchingHeaderLines(final String[] names)
+    '''returns Enumeration\n\n
+    getMatchingHeaderLines(final String[] names)\n
     '''
 def getMatchingHeaders():
-    '''public Enumeration getMatchingHeaders(final String[] names)
+    '''returns Enumeration\n\n
+    getMatchingHeaders(final String[] names)\n
     '''
 def getNonMatchingHeaderLines():
-    '''public Enumeration getNonMatchingHeaderLines(final String[] names)
+    '''returns Enumeration\n\n
+    getNonMatchingHeaderLines(final String[] names)\n
     '''
 def getNonMatchingHeaders():
-    '''public Enumeration getNonMatchingHeaders(final String[] names)
+    '''returns Enumeration\n\n
+    getNonMatchingHeaders(final String[] names)\n
     '''

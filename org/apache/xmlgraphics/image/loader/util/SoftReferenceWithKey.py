@@ -1,6 +1,8 @@
-def SoftReferenceWithKey():
-    '''public SoftReferenceWithKey(final Object referent, final Object key, final ReferenceQueue q)
+def ():
+    '''returns SoftReferenceWithKey\n\n
+    (final Object referent, final Object key, final ReferenceQueue q)\n
     '''
 def getKey():
-    '''public Object getKey()
+    '''returns Object\n\n
+    getKey()\n
     '''

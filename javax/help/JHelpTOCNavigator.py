@@ -1,23 +1,30 @@
-def JHelpTOCNavigator():
-    '''public JHelpTOCNavigator(final NavigatorView navigatorView)
-    public JHelpTOCNavigator(final NavigatorView navigatorView, final HelpModel helpModel)
-    public JHelpTOCNavigator(final HelpSet set, final String s, final String s2, final URL url)
+def ():
+    '''returns JHelpTOCNavigator\n\n
+    (final NavigatorView navigatorView)\n
+    (final NavigatorView navigatorView, final HelpModel helpModel)\n
+    (final HelpSet set, final String s, final String s2, final URL url)\n
     '''
 def getUIClassID():
-    '''public String getUIClassID()
+    '''returns String\n\n
+    getUIClassID()\n
     '''
 def canMerge():
-    '''public boolean canMerge(final NavigatorView navigatorView)
+    '''returns boolean\n\n
+    canMerge(final NavigatorView navigatorView)\n
     '''
 def merge():
-    '''public void merge(final NavigatorView obj)
+    '''returns None\n\n
+    merge(final NavigatorView obj)\n
     '''
 def remove():
-    '''public void remove(final NavigatorView navigatorView)
+    '''returns None\n\n
+    remove(final NavigatorView navigatorView)\n
     '''
 def expandID():
-    '''public void expandID(final String newValue)
+    '''returns None\n\n
+    expandID(final String newValue)\n
     '''
 def collapseID():
-    '''public void collapseID(final String newValue)
+    '''returns None\n\n
+    collapseID(final String newValue)\n
     '''

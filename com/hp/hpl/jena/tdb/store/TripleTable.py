@@ -1,33 +1,43 @@
-def TripleTable():
-    '''public TripleTable(final TupleIndex[] indexes, final NodeTable nodeTable)
+def ():
+    '''returns TripleTable\n\n
+    (final TupleIndex[] indexes, final NodeTable nodeTable)\n
     '''
 def add():
-    '''public boolean add(final Triple triple)
-    public boolean add(final Node s, final Node p, final Node o)
+    '''returns boolean\n\n
+    add(final Triple triple)\n
+    add(final Node s, final Node p, final Node o)\n
     '''
 def delete():
-    '''public boolean delete(final Triple triple)
-    public boolean delete(final Node s, final Node p, final Node o)
+    '''returns boolean\n\n
+    delete(final Triple triple)\n
+    delete(final Node s, final Node p, final Node o)\n
     '''
 def find():
-    '''public Iterator<Triple> find(final Node s, final Node p, final Node o)
+    '''returns Iterator<Triple>\n\n
+    find(final Node s, final Node p, final Node o)\n
     '''
 def getNodeTupleTable():
-    '''public NodeTupleTable getNodeTupleTable()
+    '''returns NodeTupleTable\n\n
+    getNodeTupleTable()\n
     '''
 def sync():
-    '''public void sync()
-    public void sync(final boolean force)
+    '''returns None\n\n
+    sync()\n
+    sync(final boolean force)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def clearTriples():
-    '''public void clearTriples()
+    '''returns None\n\n
+    clearTriples()\n
     '''
 def convert():
-    '''public Triple convert(final Tuple<Node> item)
+    '''returns Triple\n\n
+    convert(final Tuple<Node> item)\n
     '''

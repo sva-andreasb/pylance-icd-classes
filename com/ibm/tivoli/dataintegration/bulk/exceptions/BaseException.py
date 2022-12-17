@@ -1,6 +1,7 @@
-def BaseException():
-    '''public BaseException()
-    public BaseException(final String msg)
-    public BaseException(final Throwable t)
-    public BaseException(final String msg, final Throwable t)
+def ():
+    '''returns BaseException\n\n
+    ()\n
+    (final String msg)\n
+    (final Throwable t)\n
+    (final String msg, final Throwable t)\n
     '''

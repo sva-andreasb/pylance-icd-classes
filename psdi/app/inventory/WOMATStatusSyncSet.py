@@ -1,3 +1,4 @@
-def WOMATStatusSyncSet():
-    '''public WOMATStatusSyncSet(final MboServerInterface ms)
+def ():
+    '''returns WOMATStatusSyncSet\n\n
+    (final MboServerInterface ms)\n
     '''

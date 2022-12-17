@@ -1,62 +1,80 @@
-def BlockingArrayQueue():
-    '''public BlockingArrayQueue()
-    public BlockingArrayQueue(final int limit)
-    public BlockingArrayQueue(final int capacity, final int growBy)
-    public BlockingArrayQueue(final int capacity, final int growBy, final int limit)
+def ():
+    '''returns BlockingArrayQueue\n\n
+    ()\n
+    (final int limit)\n
+    (final int capacity, final int growBy)\n
+    (final int capacity, final int growBy, final int limit)\n
     '''
 def getCapacity():
-    '''public int getCapacity()
+    '''returns int\n\n
+    getCapacity()\n
     '''
 def getLimit():
-    '''public int getLimit()
+    '''returns int\n\n
+    getLimit()\n
     '''
 def add():
-    '''public boolean add(final E e)
-    public void add(final int index, final E e)
+    '''returns None\n\n
+    add(final E e)\n
+    add(final int index, final E e)\n
     '''
 def element():
-    '''public E element()
+    '''returns E\n\n
+    element()\n
     '''
 def peek():
-    '''public E peek()
+    '''returns E\n\n
+    peek()\n
     '''
 def offer():
-    '''public boolean offer(final E e)
-    public boolean offer(final E o, final long timeout, final TimeUnit unit)
+    '''returns boolean\n\n
+    offer(final E e)\n
+    offer(final E o, final long timeout, final TimeUnit unit)\n
     '''
 def poll():
-    '''public E poll()
-    public E poll(final long time, final TimeUnit unit)
+    '''returns E\n\n
+    poll()\n
+    poll(final long time, final TimeUnit unit)\n
     '''
 def take():
-    '''public E take()
+    '''returns E\n\n
+    take()\n
     '''
 def remove():
-    '''public E remove()
-    public E remove(final int index)
+    '''returns E\n\n
+    remove()\n
+    remove(final int index)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def get():
-    '''public E get(final int index)
+    '''returns E\n\n
+    get(final int index)\n
     '''
 def set():
-    '''public E set(final int index, final E e)
+    '''returns E\n\n
+    set(final int index, final E e)\n
     '''
 def drainTo():
-    '''public int drainTo(final Collection<? super E> c)
-    public int drainTo(final Collection<? super E> c, final int maxElements)
+    '''returns int\n\n
+    drainTo(final Collection<? super E> c)\n
+    drainTo(final Collection<? super E> c, final int maxElements)\n
     '''
 def put():
-    '''public void put(final E o)
+    '''returns None\n\n
+    put(final E o)\n
     '''
 def remainingCapacity():
-    '''public int remainingCapacity()
+    '''returns int\n\n
+    remainingCapacity()\n
     '''

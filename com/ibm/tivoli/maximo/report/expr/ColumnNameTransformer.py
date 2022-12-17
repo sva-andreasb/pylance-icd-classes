@@ -1,6 +1,8 @@
-def ColumnNameTransformer():
-    '''public ColumnNameTransformer(final String objectName, final Set<String> validAttributes, final String qualifier)
+def ():
+    '''returns ColumnNameTransformer\n\n
+    (final String objectName, final Set<String> validAttributes, final String qualifier)\n
     '''
 def transform():
-    '''public String transform(final Node n)
+    '''returns String\n\n
+    transform(final Node n)\n
     '''

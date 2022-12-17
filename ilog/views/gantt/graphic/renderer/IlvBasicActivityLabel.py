@@ -4,64 +4,80 @@ INSIDE_LEADING = "int  110"
 INSIDE_TRAILING = "int  111"
 ABOVE = "int  101"
 BELOW = "int  103"
-def IlvBasicActivityLabel():
-    '''public IlvBasicActivityLabel()
-    public IlvBasicActivityLabel(final IlvActivityRenderer mainRenderer)
+def ():
+    '''returns IlvBasicActivityLabel\n\n
+    ()\n
+    (final IlvActivityRenderer mainRenderer)\n
     '''
 def getMainRenderer():
-    '''public IlvActivityRenderer getMainRenderer()
+    '''returns IlvActivityRenderer\n\n
+    getMainRenderer()\n
     '''
 def setMainRenderer():
-    '''public void setMainRenderer(final IlvActivityRenderer a)
+    '''returns None\n\n
+    setMainRenderer(final IlvActivityRenderer a)\n
     '''
 def getForeground():
-    '''public Color getForeground()
+    '''returns Color\n\n
+    getForeground()\n
     '''
 def getFont():
-    '''public Font getFont()
+    '''returns Font\n\n
+    getFont()\n
     '''
 def setFont():
-    '''public void setFont(final Font font)
-    '''
-def isAntialiasing():
-    '''public final boolean isAntialiasing()
+    '''returns None\n\n
+    setFont(final Font font)\n
     '''
 def setAntialiasing():
-    '''public void setAntialiasing(final boolean b)
+    '''returns None\n\n
+    setAntialiasing(final boolean b)\n
     '''
 def getHorizontalAlignment():
-    '''public int getHorizontalAlignment()
+    '''returns int\n\n
+    getHorizontalAlignment()\n
     '''
 def setHorizontalAlignment():
-    '''public void setHorizontalAlignment(final int b)
+    '''returns None\n\n
+    setHorizontalAlignment(final int b)\n
     '''
 def getVerticalAlignment():
-    '''public int getVerticalAlignment()
+    '''returns int\n\n
+    getVerticalAlignment()\n
     '''
 def setVerticalAlignment():
-    '''public void setVerticalAlignment(final int c)
+    '''returns None\n\n
+    setVerticalAlignment(final int c)\n
     '''
 def getOffset():
-    '''public float getOffset()
+    '''returns float\n\n
+    getOffset()\n
     '''
 def setOffset():
-    '''public void setOffset(final float d)
+    '''returns None\n\n
+    setOffset(final float d)\n
     '''
 def getYOffset():
-    '''public float getYOffset()
+    '''returns float\n\n
+    getYOffset()\n
     '''
 def setYOffset():
-    '''public void setYOffset(final float e)
+    '''returns None\n\n
+    setYOffset(final float e)\n
     '''
 def getLabel():
-    '''public String getLabel()
+    '''returns String\n\n
+    getLabel()\n
     '''
 def setLabel():
-    '''public void setLabel(final String label)
+    '''returns None\n\n
+    setLabel(final String label)\n
     '''
 def setGraphic():
-    '''public void setGraphic(final IlvGraphic graphic)
+    '''returns None\n\n
+    setGraphic(final IlvGraphic graphic)\n
     '''
 def getBounds():
-    '''public IlvRect getBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)
+    '''returns IlvRect\n\n
+    getBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)\n
     '''

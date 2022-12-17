@@ -1,25 +1,33 @@
 def reload():
-    '''public void reload()
+    '''returns None\n\n
+    reload()\n
     '''
 def addListener():
-    '''public void addListener(final AgentRosterListener listener)
+    '''returns None\n\n
+    addListener(final AgentRosterListener listener)\n
     '''
 def removeListener():
-    '''public void removeListener(final AgentRosterListener listener)
+    '''returns None\n\n
+    removeListener(final AgentRosterListener listener)\n
     '''
 def getAgentCount():
-    '''public int getAgentCount()
+    '''returns int\n\n
+    getAgentCount()\n
     '''
 def getAgents():
-    '''public Set<EntityBareJid> getAgents()
+    '''returns Set<EntityBareJid>\n\n
+    getAgents()\n
     '''
 def contains():
-    '''public boolean contains(final Jid jid)
+    '''returns boolean\n\n
+    contains(final Jid jid)\n
     '''
 def getPresence():
-    '''public Presence getPresence(final Jid user)
+    '''returns Presence\n\n
+    getPresence(final Jid user)\n
     '''
 def processStanza():
-    '''public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
+    '''returns None\n\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
     '''

@@ -1,6 +1,8 @@
-def PlusPFldHasCustomer():
-    '''public PlusPFldHasCustomer(final MboValue mbv)
+def ():
+    '''returns PlusPFldHasCustomer\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

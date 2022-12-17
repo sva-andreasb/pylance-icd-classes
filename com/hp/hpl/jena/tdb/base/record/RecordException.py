@@ -1,4 +1,5 @@
-def RecordException():
-    '''public RecordException()
-    public RecordException(final String msg)
+def ():
+    '''returns RecordException\n\n
+    ()\n
+    (final String msg)\n
     '''

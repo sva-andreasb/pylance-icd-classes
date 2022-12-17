@@ -1,7 +1,9 @@
 def createDatasetGraph():
-    '''public DatasetGraphTDB createDatasetGraph()
-    public DatasetGraphTDB createDatasetGraph(final Location location)
+    '''returns DatasetGraphTDB\n\n
+    createDatasetGraph()\n
+    createDatasetGraph(final Location location)\n
     '''
 def releaseDatasetGraph():
-    '''public void releaseDatasetGraph(final DatasetGraphTDB dataset)
+    '''returns None\n\n
+    releaseDatasetGraph(final DatasetGraphTDB dataset)\n
     '''

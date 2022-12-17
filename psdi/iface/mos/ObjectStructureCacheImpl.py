@@ -1,26 +1,22 @@
 NAME = "String  \"INTOBJECT\""
-def ObjectStructureCacheImpl():
-    '''public ObjectStructureCacheImpl()
+def ():
+    '''returns ObjectStructureCacheImpl\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
-    '''
-def getIntObjAlias():
-    '''public Map<String, String> getIntObjAlias(final MosDetailInfo mosDInfo)
-    '''
-def getAllMos():
-    '''public Map<String, MosInfo> getAllMos()
+    '''returns None\n\n
+    init()\n
     '''
 def getMosInfo():
-    '''public MosInfo getMosInfo(final String intObjectName)
+    '''returns MosInfo\n\n
+    getMosInfo(final String intObjectName)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String key)
-    '''
-def refresh():
-    '''public synchronized void refresh()
+    '''returns None\n\n
+    reload()\n
+    reload(final String key)\n
     '''

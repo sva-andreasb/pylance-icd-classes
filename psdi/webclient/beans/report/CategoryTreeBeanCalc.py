@@ -1,15 +1,20 @@
-def CategoryTreeBeanCalc():
-    '''public CategoryTreeBeanCalc()
+def ():
+    '''returns CategoryTreeBeanCalc\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''
 def selectnode():
-    '''public int selectnode()
+    '''returns int\n\n
+    selectnode()\n
     '''
 def getCurrentTargetId():
-    '''public String getCurrentTargetId()
+    '''returns String\n\n
+    getCurrentTargetId()\n
     '''

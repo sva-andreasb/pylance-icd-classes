@@ -1,3 +1,4 @@
-def MapTipDefault():
-    '''public MapTipDefault(final MboSet ms)
+def ():
+    '''returns MapTipDefault\n\n
+    (final MboSet ms)\n
     '''

@@ -1,17 +1,22 @@
-def ItemPublishEvent():
-    '''public ItemPublishEvent(final String nodeId, final List<T> eventItems)
-    public ItemPublishEvent(final String nodeId, final List<T> eventItems, final List<String> subscriptionIds)
-    public ItemPublishEvent(final String nodeId, final List<T> eventItems, final List<String> subscriptionIds, final Date publishedDate)
+def ():
+    '''returns ItemPublishEvent\n\n
+    (final String nodeId, final List<T> eventItems)\n
+    (final String nodeId, final List<T> eventItems, final List<String> subscriptionIds)\n
+    (final String nodeId, final List<T> eventItems, final List<String> subscriptionIds, final Date publishedDate)\n
     '''
 def getItems():
-    '''public List<T> getItems()
+    '''returns List<T>\n\n
+    getItems()\n
     '''
 def isDelayed():
-    '''public boolean isDelayed()
+    '''returns boolean\n\n
+    isDelayed()\n
     '''
 def getPublishedDate():
-    '''public Date getPublishedDate()
+    '''returns Date\n\n
+    getPublishedDate()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

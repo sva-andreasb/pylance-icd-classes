@@ -1,6 +1,8 @@
-def SelectAttrBean():
-    '''public SelectAttrBean()
+def ():
+    '''returns SelectAttrBean\n\n
+    ()\n
     '''
 def selectattr():
-    '''public int selectattr()
+    '''returns int\n\n
+    selectattr()\n
     '''

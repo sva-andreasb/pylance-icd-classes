@@ -1,4 +1,5 @@
-def OpenXML4JRuntimeException():
-    '''public OpenXML4JRuntimeException(final String msg)
-    public OpenXML4JRuntimeException(final String msg, final Throwable reason)
+def ():
+    '''returns OpenXML4JRuntimeException\n\n
+    (final String msg)\n
+    (final String msg, final Throwable reason)\n
     '''

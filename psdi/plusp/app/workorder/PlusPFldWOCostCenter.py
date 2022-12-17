@@ -1,6 +1,8 @@
-def PlusPFldWOCostCenter():
-    '''public PlusPFldWOCostCenter(final MboValue mbv)
+def ():
+    '''returns PlusPFldWOCostCenter\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

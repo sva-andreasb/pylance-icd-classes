@@ -1,21 +1,28 @@
-def DOMObject():
-    '''public DOMObject(final JSObject jsobj)
+def ():
+    '''returns DOMObject\n\n
+    (final JSObject jsobj)\n
     '''
 def call():
-    '''public Object call(final String s, final Object[] array)
+    '''returns Object\n\n
+    call(final String s, final Object[] array)\n
     '''
 def getMember():
-    '''public Object getMember(final String s)
+    '''returns Object\n\n
+    getMember(final String s)\n
     '''
 def setMember():
-    '''public void setMember(final String s, Object unwrapObject)
+    '''returns None\n\n
+    setMember(final String s, Object unwrapObject)\n
     '''
 def removeMember():
-    '''public void removeMember(final String s)
+    '''returns None\n\n
+    removeMember(final String s)\n
     '''
 def getSlot():
-    '''public Object getSlot(final int n)
+    '''returns Object\n\n
+    getSlot(final int n)\n
     '''
 def setSlot():
-    '''public void setSlot(final int n, Object unwrapObject)
+    '''returns None\n\n
+    setSlot(final int n, Object unwrapObject)\n
     '''

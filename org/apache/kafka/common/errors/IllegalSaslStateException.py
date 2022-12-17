@@ -1,4 +1,5 @@
-def IllegalSaslStateException():
-    '''public IllegalSaslStateException(final String message)
-    public IllegalSaslStateException(final String message, final Throwable cause)
+def ():
+    '''returns IllegalSaslStateException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

@@ -1,6 +1,8 @@
 def assetreg():
-    '''public int assetreg()
+    '''returns int\n\n
+    assetreg()\n
     '''
 def assetunreg():
-    '''public int assetunreg()
+    '''returns int\n\n
+    assetunreg()\n
     '''

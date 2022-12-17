@@ -1,21 +1,24 @@
-def JMSMessageProcessor():
-    '''public JMSMessageProcessor()
+def ():
+    '''returns JMSMessageProcessor\n\n
+    ()\n
     '''
 def getMessageDrivenContext():
-    '''public MessageDrivenContext getMessageDrivenContext()
+    '''returns MessageDrivenContext\n\n
+    getMessageDrivenContext()\n
     '''
 def ejbCreate():
-    '''public void ejbCreate()
+    '''returns None\n\n
+    ejbCreate()\n
     '''
 def ejbRemove():
-    '''public void ejbRemove()
+    '''returns None\n\n
+    ejbRemove()\n
     '''
 def setMessageDrivenContext():
-    '''public void setMessageDrivenContext(final MessageDrivenContext arg0)
+    '''returns None\n\n
+    setMessageDrivenContext(final MessageDrivenContext arg0)\n
     '''
 def onMessage():
-    '''public void onMessage(final Message msg)
-    '''
-def getAllConfiguredCacheInstances():
-    '''public static Set getAllConfiguredCacheInstances()
+    '''returns None\n\n
+    onMessage(final Message msg)\n
     '''

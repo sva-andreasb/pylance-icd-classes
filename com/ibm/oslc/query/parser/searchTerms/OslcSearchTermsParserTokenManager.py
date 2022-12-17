@@ -1,17 +1,22 @@
 def setDebugStream():
-    '''public void setDebugStream(final PrintStream ds)
+    '''returns None\n\n
+    setDebugStream(final PrintStream ds)\n
     '''
-def OslcSearchTermsParserTokenManager():
-    '''public OslcSearchTermsParserTokenManager(final JavaCharStream stream)
-    public OslcSearchTermsParserTokenManager(final JavaCharStream stream, final int lexState)
+def ():
+    '''returns OslcSearchTermsParserTokenManager\n\n
+    (final JavaCharStream stream)\n
+    (final JavaCharStream stream, final int lexState)\n
     '''
 def ReInit():
-    '''public void ReInit(final JavaCharStream stream)
-    public void ReInit(final JavaCharStream stream, final int lexState)
+    '''returns None\n\n
+    ReInit(final JavaCharStream stream)\n
+    ReInit(final JavaCharStream stream, final int lexState)\n
     '''
 def SwitchTo():
-    '''public void SwitchTo(final int lexState)
+    '''returns None\n\n
+    SwitchTo(final int lexState)\n
     '''
 def getNextToken():
-    '''public Token getNextToken()
+    '''returns Token\n\n
+    getNextToken()\n
     '''

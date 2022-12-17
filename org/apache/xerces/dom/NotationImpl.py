@@ -1,27 +1,36 @@
-def NotationImpl():
-    '''public NotationImpl(final CoreDocumentImpl coreDocumentImpl, final String name)
+def ():
+    '''returns NotationImpl\n\n
+    (final CoreDocumentImpl coreDocumentImpl, final String name)\n
     '''
 def getNodeType():
-    '''public short getNodeType()
+    '''returns short\n\n
+    getNodeType()\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''
 def getPublicId():
-    '''public String getPublicId()
+    '''returns String\n\n
+    getPublicId()\n
     '''
 def getSystemId():
-    '''public String getSystemId()
+    '''returns String\n\n
+    getSystemId()\n
     '''
 def setPublicId():
-    '''public void setPublicId(final String publicId)
+    '''returns None\n\n
+    setPublicId(final String publicId)\n
     '''
 def setSystemId():
-    '''public void setSystemId(final String systemId)
+    '''returns None\n\n
+    setSystemId(final String systemId)\n
     '''
 def getBaseURI():
-    '''public String getBaseURI()
+    '''returns String\n\n
+    getBaseURI()\n
     '''
 def setBaseURI():
-    '''public void setBaseURI(final String baseURI)
+    '''returns None\n\n
+    setBaseURI(final String baseURI)\n
     '''

@@ -1,12 +1,16 @@
-def LDC2_W():
-    '''public LDC2_W(final int index)
+def ():
+    '''returns LDC2_W\n\n
+    (final int index)\n
     '''
 def getType():
-    '''public Type getType(final ConstantPoolGen cpg)
+    '''returns Type\n\n
+    getType(final ConstantPoolGen cpg)\n
     '''
 def getValue():
-    '''public Number getValue(final ConstantPoolGen cpg)
+    '''returns Number\n\n
+    getValue(final ConstantPoolGen cpg)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

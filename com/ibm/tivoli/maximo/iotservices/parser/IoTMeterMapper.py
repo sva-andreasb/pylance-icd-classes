@@ -1,27 +1,36 @@
-def IoTMeterMapper():
-    '''public IoTMeterMapper(final Map<String, String> meta, final HashMap<String, String> mapper, final JSONObject payload)
+def ():
+    '''returns IoTMeterMapper\n\n
+    (final Map<String, String> meta, final HashMap<String, String> mapper, final JSONObject payload)\n
     '''
 def isDateInRange():
-    '''public boolean isDateInRange(final String dateStr)
+    '''returns boolean\n\n
+    isDateInRange(final String dateStr)\n
     '''
 def readings():
-    '''public JSONArray readings(final String maximometer, final long since)
+    '''returns JSONArray\n\n
+    readings(final String maximometer, final long since)\n
     '''
 def getMapper():
-    '''public HashMap getMapper()
+    '''returns HashMap\n\n
+    getMapper()\n
     '''
 def setMapper():
-    '''public void setMapper(final HashMap<String, String> mapper)
+    '''returns None\n\n
+    setMapper(final HashMap<String, String> mapper)\n
     '''
 def getMaximoMeter():
-    '''public String getMaximoMeter()
+    '''returns String\n\n
+    getMaximoMeter()\n
     '''
 def setMaximoMeter():
-    '''public void setMaximoMeter(final String maximometer)
+    '''returns None\n\n
+    setMaximoMeter(final String maximometer)\n
     '''
 def getSince():
-    '''public long getSince()
+    '''returns long\n\n
+    getSince()\n
     '''
 def setSince():
-    '''public void setSince(final long since)
+    '''returns None\n\n
+    setSince(final long since)\n
     '''

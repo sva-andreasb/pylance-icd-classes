@@ -1,0 +1,3 @@
+MANAGER_EVENT = "int  1"
+SCOPE_EVENT = "int  2"
+VERSION_EVENT = "int  3"

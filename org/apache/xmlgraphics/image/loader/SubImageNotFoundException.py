@@ -1,4 +1,5 @@
-def SubImageNotFoundException():
-    '''public SubImageNotFoundException(final String s)
-    public SubImageNotFoundException(final String message, final Throwable cause)
+def ():
+    '''returns SubImageNotFoundException\n\n
+    (final String s)\n
+    (final String message, final Throwable cause)\n
     '''

@@ -1,36 +1,45 @@
-def PdfRectangle():
-    '''public PdfRectangle(final float llx, final float lly, final float urx, final float ury, final int rotation)
-    public PdfRectangle(final float llx, final float lly, final float urx, final float ury)
-    public PdfRectangle(final float urx, final float ury, final int rotation)
-    public PdfRectangle(final float urx, final float ury)
-    public PdfRectangle(final Rectangle rectangle, final int rotation)
-    public PdfRectangle(final Rectangle rectangle)
+def ():
+    '''returns PdfRectangle\n\n
+    (final float llx, final float lly, final float urx, final float ury, final int rotation)\n
+    (final float llx, final float lly, final float urx, final float ury)\n
+    (final float urx, final float ury, final int rotation)\n
+    (final float urx, final float ury)\n
+    (final Rectangle rectangle, final int rotation)\n
+    (final Rectangle rectangle)\n
     '''
 def add():
-    '''public boolean add(final PdfObject object)
+    '''returns boolean\n\n
+    add(final PdfObject object)\n
     '''
 def left():
-    '''public float left()
-    public float left(final int margin)
+    '''returns float\n\n
+    left()\n
+    left(final int margin)\n
     '''
 def right():
-    '''public float right()
-    public float right(final int margin)
+    '''returns float\n\n
+    right()\n
+    right(final int margin)\n
     '''
 def top():
-    '''public float top()
-    public float top(final int margin)
+    '''returns float\n\n
+    top()\n
+    top(final int margin)\n
     '''
 def bottom():
-    '''public float bottom()
-    public float bottom(final int margin)
+    '''returns float\n\n
+    bottom()\n
+    bottom(final int margin)\n
     '''
 def width():
-    '''public float width()
+    '''returns float\n\n
+    width()\n
     '''
 def height():
-    '''public float height()
+    '''returns float\n\n
+    height()\n
     '''
 def rotate():
-    '''public PdfRectangle rotate()
+    '''returns PdfRectangle\n\n
+    rotate()\n
     '''

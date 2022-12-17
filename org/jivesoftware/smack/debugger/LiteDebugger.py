@@ -1,53 +1,69 @@
-def LiteDebugger():
-    '''public LiteDebugger(final Connection connection, final Writer writer, final Reader reader)
+def ():
+    '''returns LiteDebugger\n\n
+    (final Connection connection, final Writer writer, final Reader reader)\n
     '''
 def windowClosing():
-    '''public void windowClosing(final WindowEvent evt)
+    '''returns None\n\n
+    windowClosing(final WindowEvent evt)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
-    public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def read():
-    '''public void read(final String str)
+    '''returns None\n\n
+    read(final String str)\n
     '''
 def write():
-    '''public void write(final String str)
+    '''returns None\n\n
+    write(final String str)\n
     '''
 def processPacket():
-    '''public void processPacket(final Packet packet)
+    '''returns None\n\n
+    processPacket(final Packet packet)\n
     '''
 def rootWindowClosing():
-    '''public void rootWindowClosing(final WindowEvent evt)
+    '''returns None\n\n
+    rootWindowClosing(final WindowEvent evt)\n
     '''
 def newConnectionReader():
-    '''public Reader newConnectionReader(final Reader newReader)
+    '''returns Reader\n\n
+    newConnectionReader(final Reader newReader)\n
     '''
 def newConnectionWriter():
-    '''public Writer newConnectionWriter(final Writer newWriter)
+    '''returns Writer\n\n
+    newConnectionWriter(final Writer newWriter)\n
     '''
 def userHasLogged():
-    '''public void userHasLogged(final String user)
+    '''returns None\n\n
+    userHasLogged(final String user)\n
     '''
 def getReader():
-    '''public Reader getReader()
+    '''returns Reader\n\n
+    getReader()\n
     '''
 def getWriter():
-    '''public Writer getWriter()
+    '''returns Writer\n\n
+    getWriter()\n
     '''
 def getReaderListener():
-    '''public PacketListener getReaderListener()
+    '''returns PacketListener\n\n
+    getReaderListener()\n
     '''
 def getWriterListener():
-    '''public PacketListener getWriterListener()
+    '''returns PacketListener\n\n
+    getWriterListener()\n
     '''
 def mousePressed():
-    '''public void mousePressed(final MouseEvent e)
+    '''returns None\n\n
+    mousePressed(final MouseEvent e)\n
     '''
 def mouseReleased():
-    '''public void mouseReleased(final MouseEvent e)
+    '''returns None\n\n
+    mouseReleased(final MouseEvent e)\n
     '''

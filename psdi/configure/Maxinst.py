@@ -1,40 +1,49 @@
-def Maxinst():
-    '''public Maxinst()
-    public Maxinst(final MXServer server)
+def ():
+    '''returns Maxinst\n\n
+    ()\n
+    (final MXServer server)\n
     '''
 def process():
-    '''public void process()
+    '''returns None\n\n
+    process()\n
     '''
 def doUnlcvtSql():
-    '''public void doUnlcvtSql()
+    '''returns None\n\n
+    doUnlcvtSql()\n
     '''
 def doOneUnlcvtLine():
-    '''public void doOneUnlcvtLine(String sql)
+    '''returns None\n\n
+    doOneUnlcvtLine(String sql)\n
     '''
 def updateMaximo():
-    '''public void updateMaximo()
+    '''returns None\n\n
+    updateMaximo()\n
     '''
 def updateUserPasswords():
-    '''public void updateUserPasswords()
+    '''returns None\n\n
+    updateUserPasswords()\n
     '''
 def bytefileUpdate():
-    '''public void bytefileUpdate()
+    '''returns None\n\n
+    bytefileUpdate()\n
     '''
 def cleanOutFulltextCatalog():
-    '''public void cleanOutFulltextCatalog(final String dropCatSql)
+    '''returns None\n\n
+    cleanOutFulltextCatalog(final String dropCatSql)\n
     '''
 def getMaxID():
-    '''public int getMaxID(final String tbname, final String name)
+    '''returns int\n\n
+    getMaxID(final String tbname, final String name)\n
     '''
 def doSql():
-    '''public void doSql(String sql)
+    '''returns None\n\n
+    doSql(String sql)\n
     '''
 def setupFromPropfile():
-    '''public String setupFromPropfile(String propfile, final String user, final String password, final String url, final String rootDirName, String propdir)
+    '''returns String\n\n
+    setupFromPropfile(String propfile, final String user, final String password, final String url, final String rootDirName, String propdir)\n
     '''
 def endSetupInstance():
-    '''public void endSetupInstance(final String outdir, final String outfile, final HashMap params)
-    '''
-def main():
-    '''public static void main(final String[] argv)
+    '''returns None\n\n
+    endSetupInstance(final String outdir, final String outfile, final HashMap params)\n
     '''

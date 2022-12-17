@@ -1,91 +1,116 @@
 def getImpactedResources():
-    '''public List<Resource> getImpactedResources()
+    '''returns List<Resource>\n\n
+    getImpactedResources()\n
     '''
 def getNotificationOccurrenceEvent():
-    '''public Event getNotificationOccurrenceEvent()
+    '''returns Event\n\n
+    getNotificationOccurrenceEvent()\n
     '''
 def setNotificationOccurrenceEvent():
-    '''public void setNotificationOccurrenceEvent(final Event notificationOccurrenceEvent)
+    '''returns None\n\n
+    setNotificationOccurrenceEvent(final Event notificationOccurrenceEvent)\n
     '''
 def getUser():
-    '''public Customer getUser()
+    '''returns Customer\n\n
+    getUser()\n
     '''
 def setUser():
-    '''public void setUser(final Customer user)
+    '''returns None\n\n
+    setUser(final Customer user)\n
     '''
 def getAcknowledgedFlag():
-    '''public Long getAcknowledgedFlag()
+    '''returns Long\n\n
+    getAcknowledgedFlag()\n
     '''
 def setAcknowledgedFlag():
-    '''public void setAcknowledgedFlag(final Long acknowledgedFlag)
+    '''returns None\n\n
+    setAcknowledgedFlag(final Long acknowledgedFlag)\n
     '''
 def isAcknowledgedFlagSpecified():
-    '''public boolean isAcknowledgedFlagSpecified()
+    '''returns boolean\n\n
+    isAcknowledgedFlagSpecified()\n
     '''
 def unsetAcknowledgedFlag():
-    '''public void unsetAcknowledgedFlag()
+    '''returns None\n\n
+    unsetAcknowledgedFlag()\n
     '''
 def getActive():
-    '''public Long getActive()
+    '''returns Long\n\n
+    getActive()\n
     '''
 def setActive():
-    '''public void setActive(final Long active)
+    '''returns None\n\n
+    setActive(final Long active)\n
     '''
 def isActiveSpecified():
-    '''public boolean isActiveSpecified()
+    '''returns boolean\n\n
+    isActiveSpecified()\n
     '''
 def unsetActive():
-    '''public void unsetActive()
+    '''returns None\n\n
+    unsetActive()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getUsrRecordId():
-    '''public Long getUsrRecordId()
+    '''returns Long\n\n
+    getUsrRecordId()\n
     '''
 def setUsrRecordId():
-    '''public void setUsrRecordId(final Long usrRecordId)
+    '''returns None\n\n
+    setUsrRecordId(final Long usrRecordId)\n
     '''
 def isUsrRecordIdSpecified():
-    '''public boolean isUsrRecordIdSpecified()
+    '''returns boolean\n\n
+    isUsrRecordIdSpecified()\n
     '''
 def unsetUsrRecordId():
-    '''public void unsetUsrRecordId()
+    '''returns None\n\n
+    unsetUsrRecordId()\n
     '''
 def getImpactedResourceCount():
-    '''public Long getImpactedResourceCount()
+    '''returns Long\n\n
+    getImpactedResourceCount()\n
     '''
 def setImpactedResourceCount():
-    '''public void setImpactedResourceCount(final Long impactedResourceCount)
+    '''returns None\n\n
+    setImpactedResourceCount(final Long impactedResourceCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def acknowledgedFlag():
-    '''public Mask acknowledgedFlag()
+    '''returns Mask\n\n
+    acknowledgedFlag()\n
     '''
 def active():
-    '''public Mask active()
+    '''returns Mask\n\n
+    active()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def usrRecordId():
-    '''public Mask usrRecordId()
+    '''returns Mask\n\n
+    usrRecordId()\n
     '''
 def impactedResourceCount():
-    '''public Mask impactedResourceCount()
+    '''returns Mask\n\n
+    impactedResourceCount()\n
     '''

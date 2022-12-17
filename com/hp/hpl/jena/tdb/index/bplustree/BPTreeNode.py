@@ -1,55 +1,61 @@
 def search():
-    '''public Record search(final Record rec)
+    '''returns Record\n\n
+    search(final Record rec)\n
     '''
 def insert():
-    '''public Record insert(final Record record)
+    '''returns Record\n\n
+    insert(final Record record)\n
     '''
 def delete():
-    '''public Record delete(final Record rec)
-    '''
-def getMaxSize():
-    '''public final int getMaxSize()
-    '''
-def getCount():
-    '''public final int getCount()
-    '''
-def setCount():
-    '''public final void setCount(final int count)
+    '''returns Record\n\n
+    delete(final Record rec)\n
     '''
 def getBackingByteBuffer():
-    '''public ByteBuffer getBackingByteBuffer()
+    '''returns ByteBuffer\n\n
+    getBackingByteBuffer()\n
     '''
 def getRecordBuffer():
-    '''public RecordBuffer getRecordBuffer()
+    '''returns RecordBuffer\n\n
+    getRecordBuffer()\n
     '''
 def getPtrBuffer():
-    '''public PtrBuffer getPtrBuffer()
+    '''returns PtrBuffer\n\n
+    getPtrBuffer()\n
     '''
 def getId():
-    '''public int getId()
+    '''returns int\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final int id)
+    '''returns None\n\n
+    setId(final int id)\n
     '''
 def setIsLeaf():
-    '''public void setIsLeaf(final boolean isLeaf)
+    '''returns None\n\n
+    setIsLeaf(final boolean isLeaf)\n
     '''
 def isLeaf():
-    '''public boolean isLeaf()
+    '''returns boolean\n\n
+    isLeaf()\n
     '''
 def size():
-    '''public long size()
+    '''returns long\n\n
+    size()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def dump():
-    '''public void dump()
-    public void dump(final IndentedWriter out)
+    '''returns None\n\n
+    dump()\n
+    dump(final IndentedWriter out)\n
     '''
 def dumpToString():
-    '''public String dumpToString()
+    '''returns String\n\n
+    dumpToString()\n
     '''
 def output():
-    '''public void output(final IndentedWriter out)
+    '''returns None\n\n
+    output(final IndentedWriter out)\n
     '''

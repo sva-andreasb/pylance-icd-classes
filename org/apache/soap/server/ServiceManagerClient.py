@@ -1,24 +1,28 @@
-def ServiceManagerClient():
-    '''public ServiceManagerClient(final URL routerURL)
+def ():
+    '''returns ServiceManagerClient\n\n
+    (final URL routerURL)\n
     '''
 def deploy():
-    '''public void deploy(final DeploymentDescriptor deploymentDescriptor)
+    '''returns None\n\n
+    deploy(final DeploymentDescriptor deploymentDescriptor)\n
     '''
 def list():
-    '''public String[] list()
-    '''
-def main():
-    '''public static void main(final String[] array)
+    '''returns String[]\n\n
+    list()\n
     '''
 def query():
-    '''public DeploymentDescriptor query(final String s)
+    '''returns DeploymentDescriptor\n\n
+    query(final String s)\n
     '''
 def setPassword():
-    '''public void setPassword(final String password)
+    '''returns None\n\n
+    setPassword(final String password)\n
     '''
 def setUserName():
-    '''public void setUserName(final String userName)
+    '''returns None\n\n
+    setUserName(final String userName)\n
     '''
 def undeploy():
-    '''public void undeploy(final String s)
+    '''returns None\n\n
+    undeploy(final String s)\n
     '''

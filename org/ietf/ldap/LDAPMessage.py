@@ -18,15 +18,19 @@ ABANDON_REQUEST = "int  16"
 SEARCH_RESULT_REFERENCE = "int  19"
 EXTENDED_REQUEST = "int  23"
 EXTENDED_RESPONSE = "int  24"
-def LDAPMessage():
-    '''public LDAPMessage(final com.novell.ldap.LDAPMessage message)
+def ():
+    '''returns LDAPMessage\n\n
+    (final com.novell.ldap.LDAPMessage message)\n
     '''
 def getControls():
-    '''public LDAPControl[] getControls()
+    '''returns LDAPControl[]\n\n
+    getControls()\n
     '''
 def getMessageID():
-    '''public int getMessageID()
+    '''returns int\n\n
+    getMessageID()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''

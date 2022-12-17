@@ -1,3 +1,4 @@
-def FWMJavascriptInvokeUrl():
-    '''public FWMJavascriptInvokeUrl(final String url)
+def ():
+    '''returns FWMJavascriptInvokeUrl\n\n
+    (final String url)\n
     '''

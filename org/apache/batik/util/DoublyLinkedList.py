@@ -1,46 +1,42 @@
-def DoublyLinkedList():
-    '''public DoublyLinkedList()
-    '''
-def getSize():
-    '''public synchronized int getSize()
-    '''
-def empty():
-    '''public synchronized void empty()
+def ():
+    '''returns Node\n\n
+    ()\n
+    ()\n
     '''
 def getHead():
-    '''public Node getHead()
+    '''returns Node\n\n
+    getHead()\n
     '''
 def getTail():
-    '''public Node getTail()
+    '''returns Node\n\n
+    getTail()\n
     '''
 def touch():
-    '''public void touch(final Node nde)
+    '''returns None\n\n
+    touch(final Node nde)\n
     '''
 def add():
-    '''public void add(int index, final Node nde)
-    public void add(final Node nde)
+    '''returns None\n\n
+    add(int index, final Node nde)\n
+    add(final Node nde)\n
     '''
 def remove():
-    '''public void remove(final Node nde)
+    '''returns None\n\n
+    remove(final Node nde)\n
     '''
 def pop():
-    '''public Node pop()
+    '''returns Node\n\n
+    pop()\n
     '''
 def unpush():
-    '''public Node unpush()
+    '''returns Node\n\n
+    unpush()\n
     '''
 def push():
-    '''public void push(final Node nde)
+    '''returns None\n\n
+    push(final Node nde)\n
     '''
 def unpop():
-    '''public void unpop(final Node nde)
-    '''
-def Node():
-    '''public Node()
-    '''
-def getNext():
-    '''public final Node getNext()
-    '''
-def getPrev():
-    '''public final Node getPrev()
+    '''returns None\n\n
+    unpop(final Node nde)\n
     '''

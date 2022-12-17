@@ -9,87 +9,110 @@ CACHEKEY_WORKLOG = "String  \"WOActivityDataManager-WorkLogData\""
 CACHEKEY_CREWTYPEWORKZONE = "String  \"WOActivityDataManager-CrewTypeWorkZoneData\""
 CACHEKEY_CRAFTWORKZONE = "String  \"WOActivityDataManager-CraftWorkZoneData\""
 CACHEKEY_ASSIGNREPLOC = "String  \"WOActivityDataManager-AssignRepLocData\""
-def WOActivityDataManager():
-    '''public WOActivityDataManager()
+def ():
+    '''returns WOActivityDataManager\n\n
+    ()\n
     '''
 def initializeActivity():
-    '''public void initializeActivity(final MXActivity activity, final String objectName, final MboRemote mboObject, final MXGanttModel model)
+    '''returns None\n\n
+    initializeActivity(final MXActivity activity, final String objectName, final MboRemote mboObject, final MXGanttModel model)\n
     '''
 def initializeActivityChildren():
-    '''public void initializeActivityChildren(final MXActivity activity, final String objectName, final MboRemote mboObject, final MXGanttModel model)
+    '''returns None\n\n
+    initializeActivityChildren(final MXActivity activity, final String objectName, final MboRemote mboObject, final MXGanttModel model)\n
     '''
 def loadActivity():
-    '''public void loadActivity(final MXActivity activity, final String objectName, final MXGanttModel model)
-    public void loadActivity(final MXActivity activity, final String objectName, final MboRemote mboObject)
+    '''returns None\n\n
+    loadActivity(final MXActivity activity, final String objectName, final MXGanttModel model)\n
+    loadActivity(final MXActivity activity, final String objectName, final MboRemote mboObject)\n
     '''
 def calculateHours():
-    '''public double calculateHours(final Date date1, final Date date2)
+    '''returns double\n\n
+    calculateHours(final Date date1, final Date date2)\n
     '''
 def getWOClassRestriction():
-    '''public String getWOClassRestriction(final String objectName)
+    '''returns String\n\n
+    getWOClassRestriction(final String objectName)\n
     '''
 def getDefaultRestriction():
-    '''public String getDefaultRestriction(final String objectName)
+    '''returns String\n\n
+    getDefaultRestriction(final String objectName)\n
     '''
 def getCompleteQueryWhere():
-    '''public String getCompleteQueryWhere(final String objectName, final HashMap<String, ArrayList<String>> queryMap)
+    '''returns String\n\n
+    getCompleteQueryWhere(final String objectName, final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def activityRecordCount():
-    '''public int activityRecordCount(final HashMap<String, ArrayList<String>> queryMap)
+    '''returns int\n\n
+    activityRecordCount(final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def populateActivities():
-    '''public void populateActivities(final HashMap<String, ArrayList<String>> queryMap)
+    '''returns None\n\n
+    populateActivities(final HashMap<String, ArrayList<String>> queryMap)\n
     '''
 def loadAdditionalActivities():
-    '''public void loadAdditionalActivities(final MXGanttModel model, final SKDAppService.ActivityData activityData)
+    '''returns None\n\n
+    loadAdditionalActivities(final MXGanttModel model, final SKDAppService.ActivityData activityData)\n
     '''
 def loadWorkAndNonWorkActivities():
-    '''public void loadWorkAndNonWorkActivities(final MXGanttModel model, final SKDAppService.ActivityData activityData)
+    '''returns None\n\n
+    loadWorkAndNonWorkActivities(final MXGanttModel model, final SKDAppService.ActivityData activityData)\n
     '''
 def populateActivityPropertyDetails():
-    '''public void populateActivityPropertyDetails()
+    '''returns None\n\n
+    populateActivityPropertyDetails()\n
     '''
 def applyActivityChange():
-    '''public void applyActivityChange(final MboRemote activityMboRemote, final MXTransaction txn)
-    public void applyActivityChange(final MboRemote activityMboRemote, final String ids, final MXTransaction txn)
+    '''returns None\n\n
+    applyActivityChange(final MboRemote activityMboRemote, final MXTransaction txn)\n
+    applyActivityChange(final MboRemote activityMboRemote, final String ids, final MXTransaction txn)\n
     '''
 def applyScenarioChange():
-    '''public void applyScenarioChange(final MboRemote activity, final MboRemote parentactivity, final MXTransaction txn)
-    public void applyScenarioChange(final MboRemote activity, final MboRemote parentactivity, final String ids, final MXTransaction txn)
+    '''returns None\n\n
+    applyScenarioChange(final MboRemote activity, final MboRemote parentactivity, final MXTransaction txn)\n
+    applyScenarioChange(final MboRemote activity, final MboRemote parentactivity, final String ids, final MXTransaction txn)\n
     '''
 def sortActivityChildren():
-    '''public List<IlvActivity> sortActivityChildren(final IlvActivity activity, final String objectName, final MXGanttModel model)
+    '''returns List<IlvActivity>\n\n
+    sortActivityChildren(final IlvActivity activity, final String objectName, final MXGanttModel model)\n
     '''
 def linkChildDummyNode():
-    '''public List<IlvActivity> linkChildDummyNode(final MXActivity activity, final MXGanttModel model, final SKDAppService.ActivityData activityData)
+    '''returns List<IlvActivity>\n\n
+    linkChildDummyNode(final MXActivity activity, final MXGanttModel model, final SKDAppService.ActivityData activityData)\n
     '''
 def saveActivities():
-    '''public void saveActivities(final IlvGeneralActivity activity, final MXTransaction txn)
+    '''returns None\n\n
+    saveActivities(final IlvGeneralActivity activity, final MXTransaction txn)\n
     '''
 def applyAssignmentChanges():
-    '''public void applyAssignmentChanges(final IlvGeneralActivity activity, final MXTransaction txn)
+    '''returns None\n\n
+    applyAssignmentChanges(final IlvGeneralActivity activity, final MXTransaction txn)\n
     '''
 def getModifiedActivityChildren():
-    '''public List<IlvActivity> getModifiedActivityChildren(final MXActivity activity, final String objectName, final MboRemote mboObject, final MXGanttModel model)
+    '''returns List<IlvActivity>\n\n
+    getModifiedActivityChildren(final MXActivity activity, final String objectName, final MboRemote mboObject, final MXGanttModel model)\n
     '''
 def loadCrewWorkAndNonWorkActivities():
-    '''public void loadCrewWorkAndNonWorkActivities(final MXGanttModel model, final SKDAppService.ActivityData activityData)
+    '''returns None\n\n
+    loadCrewWorkAndNonWorkActivities(final MXGanttModel model, final SKDAppService.ActivityData activityData)\n
     '''
 def loadCostTypeReservations():
-    '''public void loadCostTypeReservations(final MXGanttModel model, final SKDAppService.ActivityData activityData)
+    '''returns None\n\n
+    loadCostTypeReservations(final MXGanttModel model, final SKDAppService.ActivityData activityData)\n
     '''
 def populateActivityParentFromAsset():
-    '''public void populateActivityParentFromAsset(final String objectname, final String uniqueidname)
+    '''returns None\n\n
+    populateActivityParentFromAsset(final String objectname, final String uniqueidname)\n
     '''
 def populateActivityParentFromLocation():
-    '''public void populateActivityParentFromLocation(final String objectname, final String uniqueidname)
-    '''
-def isAVIATIONMROLicensePresent():
-    '''public static boolean isAVIATIONMROLicensePresent()
+    '''returns None\n\n
+    populateActivityParentFromLocation(final String objectname, final String uniqueidname)\n
     '''
 def setPLUSAReservation():
-    '''public void setPLUSAReservation(final MXGanttModel model, final IlvGeneralActivity currentActivity, final MboRemote asstMbo)
+    '''returns None\n\n
+    setPLUSAReservation(final MXGanttModel model, final IlvGeneralActivity currentActivity, final MboRemote asstMbo)\n
     '''
 def compare():
-    '''public int compare(final IlvActivity a01, final IlvActivity a02)
+    '''returns int\n\n
+    compare(final IlvActivity a01, final IlvActivity a02)\n
     '''

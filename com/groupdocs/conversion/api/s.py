@@ -1,9 +1,11 @@
-def s():
-    '''public s(final ILoader<bp, FromImagesOptions> loader, final ToImageOptions toImageOptions)
-    public s(final q q, final FileType targetFileType)
+def ():
+    '''returns s\n\n
+    (final ILoader<bp, FromImagesOptions> loader, final ToImageOptions toImageOptions)\n
+    (final q q, final FileType targetFileType)\n
     '''
 def toImage():
-    '''public void toImage(final OutputStream outputStream)
-    public void toImage(final String savePath)
-    public void toImage(final IStreamCallback<InputStream> dataCallback)
+    '''returns None\n\n
+    toImage(final OutputStream outputStream)\n
+    toImage(final String savePath)\n
+    toImage(final IStreamCallback<InputStream> dataCallback)\n
     '''

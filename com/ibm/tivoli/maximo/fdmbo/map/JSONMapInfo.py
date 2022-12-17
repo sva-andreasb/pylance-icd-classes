@@ -1,36 +1,40 @@
-def JSONMapInfo():
-    '''public JSONMapInfo(final String mapName, final String intObectName, final String objectName, final String mapType, final String direction, final String scriptName)
+def ():
+    '''returns JSONMapInfo\n\n
+    (final String mapName, final String intObectName, final String objectName, final String mapType, final String direction, final String scriptName)\n
     '''
 def getIntObjectName():
-    '''public String getIntObjectName()
+    '''returns String\n\n
+    getIntObjectName()\n
     '''
 def getMapDetailList():
-    '''public List<JSONMapDetailInfo> getMapDetailList()
+    '''returns List<JSONMapDetailInfo>\n\n
+    getMapDetailList()\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def getMapName():
-    '''public String getMapName()
+    '''returns String\n\n
+    getMapName()\n
     '''
 def getDirection():
-    '''public String getDirection()
+    '''returns String\n\n
+    getDirection()\n
     '''
 def getMapType():
-    '''public String getMapType()
+    '''returns String\n\n
+    getMapType()\n
     '''
 def getScriptName():
-    '''public String getScriptName()
+    '''returns String\n\n
+    getScriptName()\n
     '''
 def getPrimaryMapDetailInfo():
-    '''public JSONMapDetailInfo getPrimaryMapDetailInfo()
+    '''returns JSONMapDetailInfo\n\n
+    getPrimaryMapDetailInfo()\n
     '''
 def getMapDetailInfo():
-    '''public JSONMapDetailInfo getMapDetailInfo(final String hierarchyPath)
-    '''
-def getSiblings():
-    '''public Map<String, List<JSONMapDetailInfo>> getSiblings()
-    '''
-def getParentMap():
-    '''public Map<Integer, Map<String, JSONMapDetailInfo>> getParentMap()
+    '''returns JSONMapDetailInfo\n\n
+    getMapDetailInfo(final String hierarchyPath)\n
     '''

@@ -3,8 +3,10 @@ ATTR_ACTIVITY = "String  \"ACTIVITY\""
 ATTR_RELEASE = "String  \"RELEASE\""
 ATTR_NEWCHILDCLASS = "String  \"NEWCHILDCLASS\""
 def newactivity():
-    '''public int newactivity()
+    '''returns int\n\n
+    newactivity()\n
     '''
 def newrelease():
-    '''public int newrelease()
+    '''returns int\n\n
+    newrelease()\n
     '''

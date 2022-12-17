@@ -8,540 +8,712 @@ PLUSC_IS_MTE = "String  \"PLUSCISMTE\""
 PLUSC_DUE_DATE_NP = "String  \"PLUSCDUEDATE_NP\""
 PLUSC_DUE_DATE = "String  \"PLUSCDUEDATE\""
 PLUSC_IS_CALIBRATION = "String  \"ISCALIBRATION\""
-def Asset():
-    '''public Asset(final MboSet ms)
+def ():
+    '''returns Asset\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def getAssetMeterNowDate():
-    '''public Date getAssetMeterNowDate()
+    '''returns Date\n\n
+    getAssetMeterNowDate()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def updateDesc():
-    '''public void updateDesc()
+    '''returns None\n\n
+    updateDesc()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def createAssetTrans():
-    '''public MboRemote createAssetTrans()
+    '''returns MboRemote\n\n
+    createAssetTrans()\n
     '''
 def createMatRecTrans():
-    '''public MboRemote createMatRecTrans()
+    '''returns MboRemote\n\n
+    createMatRecTrans()\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def isInventoryTypeLocation():
-    '''public boolean isInventoryTypeLocation()
+    '''returns boolean\n\n
+    isInventoryTypeLocation()\n
     '''
 def isInventoryLocation():
-    '''public boolean isInventoryLocation()
+    '''returns boolean\n\n
+    isInventoryLocation()\n
     '''
 def isDecommissionedLocation():
-    '''public boolean isDecommissionedLocation()
+    '''returns boolean\n\n
+    isDecommissionedLocation()\n
     '''
 def getBinnum():
-    '''public void getBinnum()
+    '''returns None\n\n
+    getBinnum()\n
     '''
 def createHistoryForWorkOrder():
-    '''public void createHistoryForWorkOrder(final String wonum)
+    '''returns None\n\n
+    createHistoryForWorkOrder(final String wonum)\n
     '''
 def setChildren():
-    '''public void setChildren(final boolean value)
+    '''returns None\n\n
+    setChildren(final boolean value)\n
     '''
 def isRotating():
-    '''public boolean isRotating()
+    '''returns boolean\n\n
+    isRotating()\n
     '''
 def recordAssetStatusChange():
-    '''public void recordAssetStatusChange(final MboRemote woMbo, final Date changeDate, final String code, final boolean operational)
+    '''returns None\n\n
+    recordAssetStatusChange(final MboRemote woMbo, final Date changeDate, final String code, final boolean operational)\n
     '''
 def reportDowntime():
-    '''public void reportDowntime(final MboRemote woMbo, final Date startDate, final Date endDate, final double hoursDown, final String code, final boolean operational)
+    '''returns None\n\n
+    reportDowntime(final MboRemote woMbo, final Date startDate, final Date endDate, final double hoursDown, final String code, final boolean operational)\n
     '''
 def lastAssetStatusForAssetnum():
-    '''public MboRemote lastAssetStatusForAssetnum()
+    '''returns MboRemote\n\n
+    lastAssetStatusForAssetnum()\n
     '''
 def lastUpOrDownAssetStatusForAssetnum():
-    '''public MboRemote lastUpOrDownAssetStatusForAssetnum()
+    '''returns MboRemote\n\n
+    lastUpOrDownAssetStatusForAssetnum()\n
     '''
 def intermediateAssetStatusExists():
-    '''public boolean intermediateAssetStatusExists(final Date newDTStart, final Date mostRecentNotRunningAssetStatusDate)
+    '''returns boolean\n\n
+    intermediateAssetStatusExists(final Date newDTStart, final Date mostRecentNotRunningAssetStatusDate)\n
     '''
 def calculateDownTime():
-    '''public double calculateDownTime(final Date lastChangeDate, final Date currentChangeDate)
+    '''returns double\n\n
+    calculateDownTime(final Date lastChangeDate, final Date currentChangeDate)\n
     '''
 def issueAsset():
-    '''public void issueAsset(final String newLocation, final String memo, final Date dateMoved, final String wonum, final boolean checkMismatch, final boolean checkOccupied, final boolean updateWo, final String matUseTransID)
+    '''returns None\n\n
+    issueAsset(final String newLocation, final String memo, final Date dateMoved, final String wonum, final boolean checkMismatch, final boolean checkOccupied, final boolean updateWo, final String matUseTransID)\n
     '''
 def returnAsset():
-    '''public void returnAsset(final String newLocation, final String memo, final Date dateMoved, final String wonum, final String newBinnum, final String ponum, final String glCreditAcct, final String glDebitAcct, final boolean updateWo, final String matRecTransID)
+    '''returns None\n\n
+    returnAsset(final String newLocation, final String memo, final Date dateMoved, final String wonum, final String newBinnum, final String ponum, final String glCreditAcct, final String glDebitAcct, final boolean updateWo, final String matRecTransID)\n
     '''
 def canReturnAsset():
-    '''public void canReturnAsset(final String newLocation, final String memo, final Date dateMoved, final String wonum, final String newBinnum, final String ponum, final String glCreditAcct, final String glDebitAcct, final boolean updateWo, final String matRecTransID)
+    '''returns None\n\n
+    canReturnAsset(final String newLocation, final String memo, final Date dateMoved, final String wonum, final String newBinnum, final String ponum, final String glCreditAcct, final String glDebitAcct, final boolean updateWo, final String matRecTransID)\n
     '''
 def returnAssetForAsset():
-    '''public void returnAssetForAsset(final String newLocation, final String memo, final Date dateMoved, final String wonum, final String newBinnum, final String ponum, final String glCreditAcct, final String glDebitAcct, final boolean updateWo)
+    '''returns None\n\n
+    returnAssetForAsset(final String newLocation, final String memo, final Date dateMoved, final String wonum, final String newBinnum, final String ponum, final String glCreditAcct, final String glDebitAcct, final boolean updateWo)\n
     '''
 def moveAssetWithinNonInventory():
-    '''public void moveAssetWithinNonInventory(final String newLocation, final String memo, final Date dateMoved, final String enterBy, final String wonum, final String toParent, final boolean checkMismatch, final boolean checkOccupied, final boolean updateWo)
-    public void moveAssetWithinNonInventory(final String newLocation, final String memo, final Date dateMoved, final String wonum, final String toParent, final boolean checkMismatch, final boolean checkOccupied, final boolean updateWo)
+    '''returns None\n\n
+    moveAssetWithinNonInventory(final String newLocation, final String memo, final Date dateMoved, final String enterBy, final String wonum, final String toParent, final boolean checkMismatch, final boolean checkOccupied, final boolean updateWo)\n
+    moveAssetWithinNonInventory(final String newLocation, final String memo, final Date dateMoved, final String wonum, final String toParent, final boolean checkMismatch, final boolean checkOccupied, final boolean updateWo)\n
     '''
 def canMoveAssetWithinNonInventory():
-    '''public void canMoveAssetWithinNonInventory(final String newLocation, final String memo, final Date dateMoved, final String enterBy, final String wonum, final String toParent, final boolean checkMismatch, final boolean checkOccupied, final boolean updateWo)
-    public void canMoveAssetWithinNonInventory(final String newLocation, final String memo, final Date dateMoved, final String wonum, final String toParent, final boolean checkMismatch, final boolean checkOccupied, final boolean updateWo)
+    '''returns None\n\n
+    canMoveAssetWithinNonInventory(final String newLocation, final String memo, final Date dateMoved, final String enterBy, final String wonum, final String toParent, final boolean checkMismatch, final boolean checkOccupied, final boolean updateWo)\n
+    canMoveAssetWithinNonInventory(final String newLocation, final String memo, final Date dateMoved, final String wonum, final String toParent, final boolean checkMismatch, final boolean checkOccupied, final boolean updateWo)\n
     '''
 def moveAssetWithinInventory():
-    '''public void moveAssetWithinInventory(final String newLocation, final String memo, final Date dateMoved, final String newBinnum, final String ponum, final String glCreditAcct, final String glDebitAcct, final String matRecTransID)
+    '''returns None\n\n
+    moveAssetWithinInventory(final String newLocation, final String memo, final Date dateMoved, final String newBinnum, final String ponum, final String glCreditAcct, final String glDebitAcct, final String matRecTransID)\n
     '''
 def moveAssetWithinInventoryAcrossOrgFromHolding():
-    '''public void moveAssetWithinInventoryAcrossOrgFromHolding(final String newLocation, final String memo, final Date dateMoved, final String newBinnum, final String orgid, final String glCreditAcct, final String glDebitAcct, final String matRecTransID)
+    '''returns None\n\n
+    moveAssetWithinInventoryAcrossOrgFromHolding(final String newLocation, final String memo, final Date dateMoved, final String newBinnum, final String orgid, final String glCreditAcct, final String glDebitAcct, final String matRecTransID)\n
     '''
 def canMoveAssetWithinInventory():
-    '''public void canMoveAssetWithinInventory(final String newLocation, final String memo, final Date dateMoved, final String newBinnum, final String ponum, final String glCreditAcct, final String glDebitAcct, final String matRecTransID)
+    '''returns None\n\n
+    canMoveAssetWithinInventory(final String newLocation, final String memo, final Date dateMoved, final String newBinnum, final String ponum, final String glCreditAcct, final String glDebitAcct, final String matRecTransID)\n
     '''
 def canMoveAssetWithinInventoryCrossOrgFromHolding():
-    '''public void canMoveAssetWithinInventoryCrossOrgFromHolding(final String newLocation, final String memo, final Date dateMoved, final String newBinnum, final String orgid, final String glCreditAcct, final String glDebitAcct, final String matRecTransID)
+    '''returns None\n\n
+    canMoveAssetWithinInventoryCrossOrgFromHolding(final String newLocation, final String memo, final Date dateMoved, final String newBinnum, final String orgid, final String glCreditAcct, final String glDebitAcct, final String matRecTransID)\n
     '''
 def isLocAuthorized():
-    '''public void isLocAuthorized(final MboRemote ofloc)
+    '''returns None\n\n
+    isLocAuthorized(final MboRemote ofloc)\n
     '''
 def isGLAccountValid():
-    '''public void isGLAccountValid(final String glAccount, final String glType)
-    public void isGLAccountValid(final String glAccount, final String glType, final String orgId)
+    '''returns None\n\n
+    isGLAccountValid(final String glAccount, final String glType)\n
+    isGLAccountValid(final String glAccount, final String glType, final String orgId)\n
     '''
 def isGLAccountPartialValid():
-    '''public void isGLAccountPartialValid(final String glAccount)
+    '''returns None\n\n
+    isGLAccountPartialValid(final String glAccount)\n
     '''
 def incrInvCost():
-    '''public void incrInvCost(final double amount)
+    '''returns None\n\n
+    incrInvCost(final double amount)\n
     '''
 def isTop():
-    '''public boolean isTop()
+    '''returns boolean\n\n
+    isTop()\n
     '''
 def hasChildren():
-    '''public boolean hasChildren()
+    '''returns boolean\n\n
+    hasChildren()\n
     '''
 def hasParents():
-    '''public boolean hasParents()
+    '''returns boolean\n\n
+    hasParents()\n
     '''
 def getChildren():
-    '''public MboSetRemote getChildren()
+    '''returns MboSetRemote\n\n
+    getChildren()\n
     '''
 def getParents():
-    '''public MboSetRemote getParents()
+    '''returns MboSetRemote\n\n
+    getParents()\n
     '''
 def showHierarchy():
-    '''public MboSetRemote showHierarchy()
+    '''returns MboSetRemote\n\n
+    showHierarchy()\n
     '''
 def walkUpHierarchy():
-    '''public Vector walkUpHierarchy()
+    '''returns Vector\n\n
+    walkUpHierarchy()\n
     '''
 def getTop():
-    '''public MboSetRemote getTop()
+    '''returns MboSetRemote\n\n
+    getTop()\n
     '''
 def getHierarchies():
-    '''public String[] getHierarchies()
+    '''returns String[]\n\n
+    getHierarchies()\n
     '''
 def alreadyAppliedIAS():
-    '''public boolean alreadyAppliedIAS()
+    '''returns boolean\n\n
+    alreadyAppliedIAS()\n
     '''
 def canApplyIAS():
-    '''public void canApplyIAS()
+    '''returns None\n\n
+    canApplyIAS()\n
     '''
 def applyIAS():
-    '''public void applyIAS(final boolean autokey)
+    '''returns None\n\n
+    applyIAS(final boolean autokey)\n
     '''
 def applyIASAutoNumAll():
-    '''public void applyIASAutoNumAll()
+    '''returns None\n\n
+    applyIASAutoNumAll()\n
     '''
 def applyIASCreateChild():
-    '''public MboRemote applyIASCreateChild(final MboRemote itemStruct, final boolean autokey)
+    '''returns MboRemote\n\n
+    applyIASCreateChild(final MboRemote itemStruct, final boolean autokey)\n
     '''
 def isAssetBeingCreatedViaApplyIAS():
-    '''public boolean isAssetBeingCreatedViaApplyIAS()
+    '''returns boolean\n\n
+    isAssetBeingCreatedViaApplyIAS()\n
     '''
 def applyIASGenPMs():
-    '''public MboSetRemote applyIASGenPMs(final boolean autokey)
+    '''returns MboSetRemote\n\n
+    applyIASGenPMs(final boolean autokey)\n
     '''
 def applyIASGenSpareParts():
-    '''public MboSetRemote applyIASGenSpareParts(final MboSetRemote itemStructSet)
+    '''returns MboSetRemote\n\n
+    applyIASGenSpareParts(final MboSetRemote itemStructSet)\n
     '''
 def autoKeyAll():
-    '''public void autoKeyAll(final boolean doChildren)
+    '''returns None\n\n
+    autoKeyAll(final boolean doChildren)\n
     '''
 def setAssetnumOnRelated():
-    '''public void setAssetnumOnRelated()
+    '''returns None\n\n
+    setAssetnumOnRelated()\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def autoKeyAssetnumForChildSet():
-    '''public void autoKeyAssetnumForChildSet(final boolean doChildren)
+    '''returns None\n\n
+    autoKeyAssetnumForChildSet(final boolean doChildren)\n
     '''
 def autoKeyPmnumForSet():
-    '''public void autoKeyPmnumForSet(final boolean doChildren)
+    '''returns None\n\n
+    autoKeyPmnumForSet(final boolean doChildren)\n
     '''
 def setParent():
-    '''public void setParent(final String newParent)
+    '''returns None\n\n
+    setParent(final String newParent)\n
     '''
 def acceptMyNewSet():
-    '''public void acceptMyNewSet(final MboSetRemote myNewSet)
+    '''returns None\n\n
+    acceptMyNewSet(final MboSetRemote myNewSet)\n
     '''
 def getMyChildAssetSet():
-    '''public MboSetRemote getMyChildAssetSet()
+    '''returns MboSetRemote\n\n
+    getMyChildAssetSet()\n
     '''
 def getMySparePartSet():
-    '''public MboSetRemote getMySparePartSet()
+    '''returns MboSetRemote\n\n
+    getMySparePartSet()\n
     '''
 def getMyPMSet():
-    '''public MboSetRemote getMyPMSet()
+    '''returns MboSetRemote\n\n
+    getMyPMSet()\n
     '''
 def getMyParent():
-    '''public MboRemote getMyParent()
+    '''returns MboRemote\n\n
+    getMyParent()\n
     '''
 def getChild():
-    '''public MboRemote getChild(final int row)
+    '''returns MboRemote\n\n
+    getChild(final int row)\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def zeroCosts():
-    '''public void zeroCosts(final boolean ytd, final boolean total)
+    '''returns None\n\n
+    zeroCosts(final boolean ytd, final boolean total)\n
     '''
 def setItemNum():
-    '''public void setItemNum(final String newItem, final String itemSetID, final String conditionCode)
+    '''returns None\n\n
+    setItemNum(final String newItem, final String itemSetID, final String conditionCode)\n
     '''
 def appendDescription():
-    '''public void appendDescription(final String descSpec)
+    '''returns None\n\n
+    appendDescription(final String descSpec)\n
     '''
 def generateAssetSpec():
-    '''public MboSetRemote generateAssetSpec()
+    '''returns MboSetRemote\n\n
+    generateAssetSpec()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def copySpareParts():
-    '''public void copySpareParts(final MboSetRemote spareParts)
+    '''returns None\n\n
+    copySpareParts(final MboSetRemote spareParts)\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String relationName, final MboSetRemote mboSet)\n
     '''
 def validateAssetSite():
-    '''public void validateAssetSite(final String asset_type, final String siteid)
+    '''returns None\n\n
+    validateAssetSite(final String asset_type, final String siteid)\n
     '''
 def checkForAssetSite():
-    '''public void checkForAssetSite(final String siteid)
+    '''returns None\n\n
+    checkForAssetSite(final String siteid)\n
     '''
 def checkForChildrenAssetSite():
-    '''public void checkForChildrenAssetSite(final String siteid)
+    '''returns None\n\n
+    checkForChildrenAssetSite(final String siteid)\n
     '''
 def checkForNewAssetSite():
-    '''public void checkForNewAssetSite(final boolean replaceAssetFlag)
+    '''returns None\n\n
+    checkForNewAssetSite(final boolean replaceAssetFlag)\n
     '''
 def setWoNumAssetMv():
-    '''public void setWoNumAssetMv(final String wonum)
+    '''returns None\n\n
+    setWoNumAssetMv(final String wonum)\n
     '''
 def setPoNumAssetMv():
-    '''public void setPoNumAssetMv(final String ponum)
+    '''returns None\n\n
+    setPoNumAssetMv(final String ponum)\n
     '''
 def getClearDupSeqNumsOnMeterGroupChange():
-    '''public boolean getClearDupSeqNumsOnMeterGroupChange()
+    '''returns boolean\n\n
+    getClearDupSeqNumsOnMeterGroupChange()\n
     '''
 def checkForDuplicateMeterSequenceValues():
-    '''public void checkForDuplicateMeterSequenceValues()
+    '''returns None\n\n
+    checkForDuplicateMeterSequenceValues()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String changeToStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String changeToStatus, final long accessModifier)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final boolean rollToAllChildren, final boolean removeFromActiveRoutes, final boolean removeFromActiveSP, final boolean changePMStatus)
-    public void changeStatus(final String status, boolean rollToAllChildren, final boolean removeFromActiveRoutes, final boolean removeFromActiveSP, final boolean changePMStatus, final Hashtable changedStatusPMs, final LocationRemote topLevelLocationOnStatusChangeFromLocStatChangeRollDown)
-    public void changeStatus(final String status, final boolean rollToAllChildren, final boolean removeFromActiveRoutes, final boolean removeFromActiveSP, final boolean changePMStatus, final Hashtable changedStatusPMs)
+    '''returns None\n\n
+    changeStatus(final String status, final boolean rollToAllChildren, final boolean removeFromActiveRoutes, final boolean removeFromActiveSP, final boolean changePMStatus)\n
+    changeStatus(final String status, boolean rollToAllChildren, final boolean removeFromActiveRoutes, final boolean removeFromActiveSP, final boolean changePMStatus, final Hashtable changedStatusPMs, final LocationRemote topLevelLocationOnStatusChangeFromLocStatChangeRollDown)\n
+    changeStatus(final String status, final boolean rollToAllChildren, final boolean removeFromActiveRoutes, final boolean removeFromActiveSP, final boolean changePMStatus, final Hashtable changedStatusPMs)\n
     '''
 def isActiveRoutes():
-    '''public boolean isActiveRoutes()
+    '''returns boolean\n\n
+    isActiveRoutes()\n
     '''
 def isActiveSP():
-    '''public boolean isActiveSP()
+    '''returns boolean\n\n
+    isActiveSP()\n
     '''
 def isActivePM():
-    '''public boolean isActivePM()
+    '''returns boolean\n\n
+    isActivePM()\n
     '''
 def createAssetToBeMoved():
-    '''public Asset createAssetToBeMoved()
+    '''returns Asset\n\n
+    createAssetToBeMoved()\n
     '''
 def setValuesForMboSet():
-    '''public void setValuesForMboSet(final MboSetRemote mboSet)
+    '''returns None\n\n
+    setValuesForMboSet(final MboSetRemote mboSet)\n
     '''
 def validateMoveAcrossOrg():
-    '''public void validateMoveAcrossOrg(final String siteid)
+    '''returns None\n\n
+    validateMoveAcrossOrg(final String siteid)\n
     '''
 def validateCopySpecAcrossOrgSite():
-    '''public boolean validateCopySpecAcrossOrgSite(final String siteid)
+    '''returns boolean\n\n
+    validateCopySpecAcrossOrgSite(final String siteid)\n
     '''
 def setAssetAttributesForWO():
-    '''public void setAssetAttributesForWO()
-    public void setAssetAttributesForWO(final AutoAttrUpdateSetRemote autoAttrUpdateSet)
+    '''returns None\n\n
+    setAssetAttributesForWO()\n
+    setAssetAttributesForWO(final AutoAttrUpdateSetRemote autoAttrUpdateSet)\n
     '''
 def getWarrantyInfo():
-    '''public List<Mbo> getWarrantyInfo(final Date woDate, final boolean isParent)
-    public List<Mbo> getWarrantyInfo(final Date woDate, final boolean isParent, final String type)
+    '''returns List<Mbo>\n\n
+    getWarrantyInfo(final Date woDate, final boolean isParent)\n
+    getWarrantyInfo(final Date woDate, final boolean isParent, final String type)\n
     '''
 def getParentAsset():
-    '''public MboRemote getParentAsset(final Date date)
+    '''returns MboRemote\n\n
+    getParentAsset(final Date date)\n
     '''
 def getRootParent():
-    '''public MboRemote getRootParent()
+    '''returns MboRemote\n\n
+    getRootParent()\n
     '''
 def assetMoved():
-    '''public void assetMoved()
+    '''returns None\n\n
+    assetMoved()\n
     '''
 def childInBundle():
-    '''public void childInBundle()
+    '''returns None\n\n
+    childInBundle()\n
     '''
 def addMoreAssetsToSet():
-    '''public void addMoreAssetsToSet(final MboSetRemote selectedMoreMboSet, final MboSetRemote selectedMboSet)
+    '''returns None\n\n
+    addMoreAssetsToSet(final MboSetRemote selectedMoreMboSet, final MboSetRemote selectedMboSet)\n
     '''
 def hasMeters():
-    '''public void hasMeters()
+    '''returns None\n\n
+    hasMeters()\n
     '''
 def hasReadings():
-    '''public void hasReadings()
+    '''returns None\n\n
+    hasReadings()\n
     '''
 def getIssueUnitForItem():
-    '''public String getIssueUnitForItem(final String location)
+    '''returns String\n\n
+    getIssueUnitForItem(final String location)\n
     '''
 def getLeaseContractForAsset():
-    '''public MboSetRemote getLeaseContractForAsset()
+    '''returns MboSetRemote\n\n
+    getLeaseContractForAsset()\n
     '''
 def getWarrantyContractForAsset():
-    '''public MboSetRemote getWarrantyContractForAsset()
+    '''returns MboSetRemote\n\n
+    getWarrantyContractForAsset()\n
     '''
 def getPurchaseContractForAsset():
-    '''public MboSetRemote getPurchaseContractForAsset()
+    '''returns MboSetRemote\n\n
+    getPurchaseContractForAsset()\n
     '''
 def getWarranty():
-    '''public MboSetRemote getWarranty()
+    '''returns MboSetRemote\n\n
+    getWarranty()\n
     '''
 def autoWogen():
-    '''public void autoWogen()
-    public void autoWogen(final MboRemote assetMeter)
+    '''returns None\n\n
+    autoWogen()\n
+    autoWogen(final MboRemote assetMeter)\n
     '''
 def setDefaults():
-    '''public void setDefaults(final String siteid, final String storeloc)
+    '''returns None\n\n
+    setDefaults(final String siteid, final String storeloc)\n
     '''
 def getDefSiteId():
-    '''public String getDefSiteId()
+    '''returns String\n\n
+    getDefSiteId()\n
     '''
 def getDefStoreloc():
-    '''public String getDefStoreloc()
+    '''returns String\n\n
+    getDefStoreloc()\n
     '''
 def createTicket():
-    '''public void createTicket(final MboRemote tkMbo)
+    '''returns None\n\n
+    createTicket(final MboRemote tkMbo)\n
     '''
 def createWO():
-    '''public void createWO(final MboRemote workorderMbo)
+    '''returns None\n\n
+    createWO(final MboRemote workorderMbo)\n
     '''
 def copyAssetToCollectDetailsSet():
-    '''public void copyAssetToCollectDetailsSet(final MboSetRemote collectionSet)
+    '''returns None\n\n
+    copyAssetToCollectDetailsSet(final MboSetRemote collectionSet)\n
     '''
 def createWorkorder():
-    '''public MboRemote createWorkorder(final String jpnum)
+    '''returns MboRemote\n\n
+    createWorkorder(final String jpnum)\n
     '''
 def createChange():
-    '''public MboRemote createChange(final String jpnum)
+    '''returns MboRemote\n\n
+    createChange(final String jpnum)\n
     '''
 def createRelease():
-    '''public MboRemote createRelease(final String jpnum)
+    '''returns MboRemote\n\n
+    createRelease(final String jpnum)\n
     '''
 def createServiceRequest():
-    '''public MboRemote createServiceRequest(final String tickettemplateid)
+    '''returns MboRemote\n\n
+    createServiceRequest(final String tickettemplateid)\n
     '''
 def createProblem():
-    '''public MboRemote createProblem(final String tickettemplateid)
+    '''returns MboRemote\n\n
+    createProblem(final String tickettemplateid)\n
     '''
 def createIncident():
-    '''public MboRemote createIncident(final String tickettemplateid)
+    '''returns MboRemote\n\n
+    createIncident(final String tickettemplateid)\n
     '''
 def copyAdditionalPMAttributes():
-    '''public void copyAdditionalPMAttributes(final MboRemote copyToMbo, final MboRemote copyFromMbo)
+    '''returns None\n\n
+    copyAdditionalPMAttributes(final MboRemote copyToMbo, final MboRemote copyFromMbo)\n
     '''
 def updateRelatedCI():
-    '''public void updateRelatedCI(final String newlocation, final String newsite, final String newassetnum, final boolean isChild, final String ChangeBy, final String ChangeDate)
+    '''returns None\n\n
+    updateRelatedCI(final String newlocation, final String newsite, final String newassetnum, final boolean isChild, final String ChangeBy, final String ChangeDate)\n
     '''
 def copyAssetSpecToAssetSpec():
-    '''public void copyAssetSpecToAssetSpec(final MboRemote newAsset)
+    '''returns None\n\n
+    copyAssetSpecToAssetSpec(final MboRemote newAsset)\n
     '''
 def setInCopyingAssetSpecReceiveRotating():
-    '''public void setInCopyingAssetSpecReceiveRotating(final boolean inCopying)
+    '''returns None\n\n
+    setInCopyingAssetSpecReceiveRotating(final boolean inCopying)\n
     '''
 def getInCopyingAssetSpecReceiveRotating():
-    '''public boolean getInCopyingAssetSpecReceiveRotating()
+    '''returns boolean\n\n
+    getInCopyingAssetSpecReceiveRotating()\n
     '''
 def setRememberToClearAssesInHash():
-    '''public void setRememberToClearAssesInHash(final boolean remberToClear)
+    '''returns None\n\n
+    setRememberToClearAssesInHash(final boolean remberToClear)\n
     '''
 def notifyAssetSpecValueChanged():
-    '''public void notifyAssetSpecValueChanged(final boolean valueChanged)
+    '''returns None\n\n
+    notifyAssetSpecValueChanged(final boolean valueChanged)\n
     '''
 def isAssetSpecSetModified():
-    '''public boolean isAssetSpecSetModified()
+    '''returns boolean\n\n
+    isAssetSpecSetModified()\n
     '''
 def duplicateCalAsset():
-    '''public MboRemote duplicateCalAsset(final MboRemote newAssetRemote)
+    '''returns MboRemote\n\n
+    duplicateCalAsset(final MboRemote newAssetRemote)\n
     '''
 def setPhysicalLoc():
-    '''public void setPhysicalLoc()
+    '''returns None\n\n
+    setPhysicalLoc()\n
     '''
 def querySpotChecks():
-    '''public void querySpotChecks(final MboSetRemote plusWOSet, final Date fromDate, final Date toDate)
+    '''returns None\n\n
+    querySpotChecks(final MboSetRemote plusWOSet, final Date fromDate, final Date toDate)\n
     '''
 def queryDataSheets():
-    '''public void queryDataSheets(final PlusCWODSSetRemote woDsSet, final boolean loopCalibrations, final Date fromDate, final Date toDate)
+    '''returns None\n\n
+    queryDataSheets(final PlusCWODSSetRemote woDsSet, final boolean loopCalibrations, final Date fromDate, final Date toDate)\n
     '''
 def queryToolWoActuals():
-    '''public void queryToolWoActuals(final MboSetRemote plusWoSet, final Date fromDate, final Date toDate)
+    '''returns None\n\n
+    queryToolWoActuals(final MboSetRemote plusWoSet, final Date fromDate, final Date toDate)\n
     '''
 def viewDataSheets():
-    '''public MboSetRemote viewDataSheets(final MboRemote newDS)
+    '''returns MboSetRemote\n\n
+    viewDataSheets(final MboRemote newDS)\n
     '''
 def validateOperatingRange():
-    '''public void validateOperatingRange()
+    '''returns None\n\n
+    validateOperatingRange()\n
     '''
 def calculateNextCalDueDate():
-    '''public Date calculateNextCalDueDate()
+    '''returns Date\n\n
+    calculateNextCalDueDate()\n
     '''
 def getTagLocation():
-    '''public LocationRemote getTagLocation()
+    '''returns LocationRemote\n\n
+    getTagLocation()\n
     '''
 def getAssetBeingReplacedByThisInSwap():
-    '''public String[] getAssetBeingReplacedByThisInSwap()
+    '''returns String[]\n\n
+    getAssetBeingReplacedByThisInSwap()\n
     '''
 def setAssetBeingReplacedByThisInSwap():
-    '''public void setAssetBeingReplacedByThisInSwap(final String[] assetBeingReplacedByThisInSwap)
+    '''returns None\n\n
+    setAssetBeingReplacedByThisInSwap(final String[] assetBeingReplacedByThisInSwap)\n
     '''
 def hasServiceAddress():
-    '''public boolean hasServiceAddress()
+    '''returns boolean\n\n
+    hasServiceAddress()\n
     '''
 def saveGISData():
-    '''public void saveGISData(final String address, final String lat, final String lng)
+    '''returns None\n\n
+    saveGISData(final String address, final String lat, final String lng)\n
     '''
 def isGISDataReadonly():
-    '''public boolean isGISDataReadonly()
+    '''returns boolean\n\n
+    isGISDataReadonly()\n
     '''
 def getLatitudeY():
-    '''public Double getLatitudeY()
+    '''returns Double\n\n
+    getLatitudeY()\n
     '''
 def getLongitudeX():
-    '''public Double getLongitudeX()
+    '''returns Double\n\n
+    getLongitudeX()\n
     '''
 def getAddressString():
-    '''public String getAddressString()
+    '''returns String\n\n
+    getAddressString()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def getServiceAddress():
-    '''public ServiceAddressRemote getServiceAddress()
+    '''returns ServiceAddressRemote\n\n
+    getServiceAddress()\n
     '''
 def getAutoLocateObject():
-    '''public MboRemote getAutoLocateObject(final AutoLocatable nextInChain)
-    public MboRemote getAutoLocateObject()
+    '''returns MboRemote\n\n
+    getAutoLocateObject(final AutoLocatable nextInChain)\n
+    getAutoLocateObject()\n
     '''
 def hasCoords():
-    '''public Boolean hasCoords()
+    '''returns Boolean\n\n
+    hasCoords()\n
     '''
 def getLocationAccuracy():
-    '''public Double getLocationAccuracy()
+    '''returns Double\n\n
+    getLocationAccuracy()\n
     '''
 def getAltitude():
-    '''public Double getAltitude()
+    '''returns Double\n\n
+    getAltitude()\n
     '''
 def getAltitudeAccuracy():
-    '''public Double getAltitudeAccuracy()
+    '''returns Double\n\n
+    getAltitudeAccuracy()\n
     '''
 def getHeading():
-    '''public Double getHeading()
+    '''returns Double\n\n
+    getHeading()\n
     '''
 def getLastUpdate():
-    '''public Date getLastUpdate()
+    '''returns Date\n\n
+    getLastUpdate()\n
     '''
 def getSpeed():
-    '''public Double getSpeed()
+    '''returns Double\n\n
+    getSpeed()\n
     '''
 def saveLBSData():
-    '''public void saveLBSData(final Double lat, final Double lng, final Double locationAccuracy, final Double altitudeAccuracy, final Double altitude, final Double heading, final Double speed)
+    '''returns None\n\n
+    saveLBSData(final Double lat, final Double lng, final Double locationAccuracy, final Double altitudeAccuracy, final Double altitude, final Double heading, final Double speed)\n
     '''
 def getLBSLatitudeY():
-    '''public Double getLBSLatitudeY()
+    '''returns Double\n\n
+    getLBSLatitudeY()\n
     '''
 def getLBSLongitudeX():
-    '''public Double getLBSLongitudeX()
+    '''returns Double\n\n
+    getLBSLongitudeX()\n
     '''
 def getPeriodTypeValue():
-    '''public String getPeriodTypeValue()
+    '''returns String\n\n
+    getPeriodTypeValue()\n
     '''
 def createNewDepreciation():
-    '''public MboRemote createNewDepreciation()
+    '''returns MboRemote\n\n
+    createNewDepreciation()\n
     '''
 def swapDepreciationSchedule():
-    '''public void swapDepreciationSchedule()
+    '''returns None\n\n
+    swapDepreciationSchedule()\n
     '''
 def swapDepreciationScheduleValidate():
-    '''public void swapDepreciationScheduleValidate()
+    '''returns None\n\n
+    swapDepreciationScheduleValidate()\n
     '''
 def managePMMeterTallyOnMeterDeleteUndelete():
-    '''public void managePMMeterTallyOnMeterDeleteUndelete(final MboRemote pmMeter, final String action)
+    '''returns None\n\n
+    managePMMeterTallyOnMeterDeleteUndelete(final MboRemote pmMeter, final String action)\n
     '''
 def getPMMeterTally():
-    '''public int getPMMeterTally(final MboRemote pmMeter)
+    '''returns int\n\n
+    getPMMeterTally(final MboRemote pmMeter)\n
     '''
 def getCurrentMeterLife():
-    '''public Double getCurrentMeterLife(final String meterName)
+    '''returns Double\n\n
+    getCurrentMeterLife(final String meterName)\n
     '''
 def getDepreciationCurrentValue():
-    '''public Double getDepreciationCurrentValue()
+    '''returns Double\n\n
+    getDepreciationCurrentValue()\n
     '''
 def createDepreciationScheduleBasedOnItemFromMatrecTrans():
-    '''public MboRemote createDepreciationScheduleBasedOnItemFromMatrecTrans(final String itemNum, final String itemSetId, final MboRemote matrecTrans)
+    '''returns MboRemote\n\n
+    createDepreciationScheduleBasedOnItemFromMatrecTrans(final String itemNum, final String itemSetId, final MboRemote matrecTrans)\n
     '''
 def createDepreciationScheduleBasedOnItem():
-    '''public void createDepreciationScheduleBasedOnItem(final MboRemote itemMbo)
-    '''
-def cleanupAssetsMap():
-    '''public static void cleanupAssetsMap()
+    '''returns None\n\n
+    createDepreciationScheduleBasedOnItem(final MboRemote itemMbo)\n
     '''
 def hasAssetSpecBeenCreated():
-    '''public boolean hasAssetSpecBeenCreated()
+    '''returns boolean\n\n
+    hasAssetSpecBeenCreated()\n
     '''
 def setAssetSpecCreated():
-    '''public void setAssetSpecCreated(final boolean created)
+    '''returns None\n\n
+    setAssetSpecCreated(final boolean created)\n
     '''
 def changeMaxStatus():
-    '''public void changeMaxStatus(final String internalStatus, final Date date, final String memo)
+    '''returns None\n\n
+    changeMaxStatus(final String internalStatus, final Date date, final String memo)\n
     '''
 def assetInTransit():
-    '''public void assetInTransit()
+    '''returns None\n\n
+    assetInTransit()\n
     '''

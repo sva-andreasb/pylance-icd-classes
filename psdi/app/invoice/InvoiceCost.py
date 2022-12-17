@@ -1,46 +1,61 @@
-def InvoiceCost():
-    '''public InvoiceCost(final MboSet ms)
+def ():
+    '''returns InvoiceCost\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def clearInvCostPOLine():
-    '''public void clearInvCostPOLine()
+    '''returns None\n\n
+    clearInvCostPOLine()\n
     '''
 def createReceipt():
-    '''public MboRemote createReceipt()
+    '''returns MboRemote\n\n
+    createReceipt()\n
     '''
 def createReceiptForProrate():
-    '''public void createReceiptForProrate()
+    '''returns None\n\n
+    createReceiptForProrate()\n
     '''
 def hasReceipt():
-    '''public boolean hasReceipt()
+    '''returns boolean\n\n
+    hasReceipt()\n
     '''
 def writeToInvoiceMatch():
-    '''public MboRemote writeToInvoiceMatch(final MboRemote receipt, final double qty, final double cost)
-    public MboRemote writeToInvoiceMatch(final MboRemote receipt)
+    '''returns MboRemote\n\n
+    writeToInvoiceMatch(final MboRemote receipt, final double qty, final double cost)\n
+    writeToInvoiceMatch(final MboRemote receipt)\n
     '''
 def setReadonly():
-    '''public void setReadonly()
+    '''returns None\n\n
+    setReadonly()\n
     '''
 def isEditabilitySetByPO():
-    '''public boolean isEditabilitySetByPO()
+    '''returns boolean\n\n
+    isEditabilitySetByPO()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def getValidateOrder():
-    '''public String[] getValidateOrder()
+    '''returns String[]\n\n
+    getValidateOrder()\n
     '''
 def checkWOAssetLocGLDebitForCost():
-    '''public void checkWOAssetLocGLDebitForCost()
+    '''returns None\n\n
+    checkWOAssetLocGLDebitForCost()\n
     '''

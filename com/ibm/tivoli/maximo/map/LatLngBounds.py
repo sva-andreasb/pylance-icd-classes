@@ -1,37 +1,40 @@
-def LatLngBounds():
-    '''public LatLngBounds(final double swLatY, final double swLngX, final double neLatY, final double neLngX)
+def ():
+    '''returns LatLngBounds\n\n
+    (final double swLatY, final double swLngX, final double neLatY, final double neLngX)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def parseMapBounds():
-    '''public static LatLngBounds parseMapBounds(final JSONObject params)
-    public static LatLngBounds parseMapBounds(final HttpServletRequest request)
-    '''
-def createFromValuesOrNull():
-    '''public static LatLngBounds createFromValuesOrNull(final String swLatY, final String swLngX, final String neLatY, final String neLngX)
+    '''returns String\n\n
+    toString()\n
     '''
 def getSouthWestLat():
-    '''public double getSouthWestLat()
+    '''returns double\n\n
+    getSouthWestLat()\n
     '''
 def setSouthWestLat():
-    '''public void setSouthWestLat(final double swLat)
+    '''returns None\n\n
+    setSouthWestLat(final double swLat)\n
     '''
 def getSouthWestLng():
-    '''public double getSouthWestLng()
+    '''returns double\n\n
+    getSouthWestLng()\n
     '''
 def setSouthWestLng():
-    '''public void setSouthWestLng(final double swLng)
+    '''returns None\n\n
+    setSouthWestLng(final double swLng)\n
     '''
 def getNorthEastLat():
-    '''public double getNorthEastLat()
+    '''returns double\n\n
+    getNorthEastLat()\n
     '''
 def setNorthEastLat():
-    '''public void setNorthEastLat(final double neLat)
+    '''returns None\n\n
+    setNorthEastLat(final double neLat)\n
     '''
 def getNorthEastLng():
-    '''public double getNorthEastLng()
+    '''returns double\n\n
+    getNorthEastLng()\n
     '''
 def setNorthEastLng():
-    '''public void setNorthEastLng(final double neLng)
+    '''returns None\n\n
+    setNorthEastLng(final double neLng)\n
     '''

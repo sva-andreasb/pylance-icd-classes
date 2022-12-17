@@ -1,30 +1,40 @@
-def MonitorSettings():
-    '''public MonitorSettings(final String[] monitorServerIPs_, final int monitorServerPort_, final boolean monitorEnabled_, final int monitorLevel_, final int monitorCollectionInterval_, final int[] supportedKeyTypes_, final String[] clientInfoMasks_, final int dispatchToken_, final boolean disableOCMDynamicControl_)
+def ():
+    '''returns MonitorSettings\n\n
+    (final String[] monitorServerIPs_, final int monitorServerPort_, final boolean monitorEnabled_, final int monitorLevel_, final int monitorCollectionInterval_, final int[] supportedKeyTypes_, final String[] clientInfoMasks_, final int dispatchToken_, final boolean disableOCMDynamicControl_)\n
     '''
 def getMonitorServerIPs():
-    '''public String[] getMonitorServerIPs()
+    '''returns String[]\n\n
+    getMonitorServerIPs()\n
     '''
 def getMonitorServerPort():
-    '''public int getMonitorServerPort()
+    '''returns int\n\n
+    getMonitorServerPort()\n
     '''
 def isMonitorEnabled():
-    '''public boolean isMonitorEnabled()
+    '''returns boolean\n\n
+    isMonitorEnabled()\n
     '''
 def isOCMDynamicControlDisabled():
-    '''public boolean isOCMDynamicControlDisabled()
+    '''returns boolean\n\n
+    isOCMDynamicControlDisabled()\n
     '''
 def getMonitorLevel():
-    '''public int getMonitorLevel()
+    '''returns int\n\n
+    getMonitorLevel()\n
     '''
 def getMonitorCollectionInterval():
-    '''public int getMonitorCollectionInterval()
+    '''returns int\n\n
+    getMonitorCollectionInterval()\n
     '''
 def getSupportedKeyTypes():
-    '''public int[] getSupportedKeyTypes()
+    '''returns int[]\n\n
+    getSupportedKeyTypes()\n
     '''
 def getClientInfoMasks():
-    '''public String[] getClientInfoMasks()
+    '''returns String[]\n\n
+    getClientInfoMasks()\n
     '''
 def getDispatchToken():
-    '''public int getDispatchToken()
+    '''returns int\n\n
+    getDispatchToken()\n
     '''

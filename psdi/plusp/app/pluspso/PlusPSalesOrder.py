@@ -1,142 +1,185 @@
 SALESORDER_STATUS_LIST = "String  \"PLUSPSOSTATUS\""
-def PlusPSalesOrder():
-    '''public PlusPSalesOrder(final MboSet ms)
+def ():
+    '''returns PlusPSalesOrder\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setFieldFlagsAccordingToGBTransRules():
-    '''public void setFieldFlagsAccordingToGBTransRules()
+    '''returns None\n\n
+    setFieldFlagsAccordingToGBTransRules()\n
     '''
 def editHistory():
-    '''public void editHistory()
+    '''returns None\n\n
+    editHistory()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def hasBeenExtractedForBilling():
-    '''public boolean hasBeenExtractedForBilling()
+    '''returns boolean\n\n
+    hasBeenExtractedForBilling()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def ownership():
-    '''public void ownership()
+    '''returns None\n\n
+    ownership()\n
     '''
 def insertOwnerHistory():
-    '''public void insertOwnerHistory(String personId, Date date, final String s, final String s2)
+    '''returns None\n\n
+    insertOwnerHistory(String personId, Date date, final String s, final String s2)\n
     '''
 def generateAutoKey():
-    '''public void generateAutoKey()
+    '''returns None\n\n
+    generateAutoKey()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def toInternalSalesOrderStatus():
-    '''public String toInternalSalesOrderStatus(final String value)
+    '''returns String\n\n
+    toInternalSalesOrderStatus(final String value)\n
     '''
 def toExternalSalesOrderStatus():
-    '''public String toExternalSalesOrderStatus(final String value)
+    '''returns String\n\n
+    toExternalSalesOrderStatus(final String value)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final Date asOfDate, final String memo, final long accessModifier)
+    '''returns None\n\n
+    changeStatus(final String status, final Date asOfDate, final String memo, final long accessModifier)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def applyAssetLoc():
-    '''public void applyAssetLoc()
+    '''returns None\n\n
+    applyAssetLoc()\n
     '''
 def determineLocationAction():
-    '''public String[] determineLocationAction(final MboValue mboValue, String s, String string)
+    '''returns String[]\n\n
+    determineLocationAction(final MboValue mboValue, String s, String string)\n
     '''
 def coordinateAssetLocChange():
-    '''public void coordinateAssetLocChange(final MboValue mboValue, final String s, final String s2)
+    '''returns None\n\n
+    coordinateAssetLocChange(final MboValue mboValue, final String s, final String s2)\n
     '''
 def determineAssetNumAction():
-    '''public String[] determineAssetNumAction(final MboValue mboValue, String s, String assetForLocation)
+    '''returns String[]\n\n
+    determineAssetNumAction(final MboValue mboValue, String s, String assetForLocation)\n
     '''
 def copyFieldsToPlusPGBTrans():
-    '''public void copyFieldsToPlusPGBTrans(final PlusPGBTransRemote plusPGBTransRemote)
+    '''returns None\n\n
+    copyFieldsToPlusPGBTrans(final PlusPGBTransRemote plusPGBTransRemote)\n
     '''
 def isWAppr():
-    '''public boolean isWAppr()
+    '''returns boolean\n\n
+    isWAppr()\n
     '''
 def isAppr():
-    '''public boolean isAppr()
+    '''returns boolean\n\n
+    isAppr()\n
     '''
 def isComp():
-    '''public boolean isComp()
+    '''returns boolean\n\n
+    isComp()\n
     '''
 def modifyLocation():
-    '''public void modifyLocation()
+    '''returns None\n\n
+    modifyLocation()\n
     '''
 def modifyAsset():
-    '''public void modifyAsset()
+    '''returns None\n\n
+    modifyAsset()\n
     '''
 def resetAddressUserInput():
-    '''public void resetAddressUserInput()
+    '''returns None\n\n
+    resetAddressUserInput()\n
     '''
 def setStreetAddress():
-    '''public void setStreetAddress()
+    '''returns None\n\n
+    setStreetAddress()\n
     '''
 def setModifySOFlags():
-    '''public void setModifySOFlags(final boolean b)
+    '''returns None\n\n
+    setModifySOFlags(final boolean b)\n
     '''
 def removePS():
-    '''public boolean removePS()
+    '''returns boolean\n\n
+    removePS()\n
     '''
 def incrActFeePrice():
-    '''public void incrActFeePrice(final double n)
-    '''
-def updateSOChildrenInformation():
-    '''public static void updateSOChildrenInformation(final MboRemote mboRemote, final String s, final String s2)
+    '''returns None\n\n
+    incrActFeePrice(final double n)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def setValue():
-    '''public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''returns None\n\n
+    setValue(final String attributeName, final String val, final long accessModifier)\n
     '''
 def warnAddRemoveFeesForSOwithCompStatus():
-    '''public boolean warnAddRemoveFeesForSOwithCompStatus()
+    '''returns boolean\n\n
+    warnAddRemoveFeesForSOwithCompStatus()\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String changeToStatus, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String changeToStatus, final long accessModifier)\n
     '''
 def validateActions():
-    '''public void validateActions()
+    '''returns None\n\n
+    validateActions()\n
     '''
 def hasBeenBilled():
-    '''public boolean hasBeenBilled()
+    '''returns boolean\n\n
+    hasBeenBilled()\n
     '''
 def getServiceAddress():
-    '''public MboRemote getServiceAddress()
+    '''returns MboRemote\n\n
+    getServiceAddress()\n
     '''
 def hasServiceAddress():
-    '''public boolean hasServiceAddress()
+    '''returns boolean\n\n
+    hasServiceAddress()\n
     '''
 def copyDataFromServiceAddress():
-    '''public void copyDataFromServiceAddress(final MboRemote sourceMbo)
+    '''returns None\n\n
+    copyDataFromServiceAddress(final MboRemote sourceMbo)\n
     '''
 def clearServiceAddress():
-    '''public void clearServiceAddress()
+    '''returns None\n\n
+    clearServiceAddress()\n
     '''
 def recalculatePrices():
-    '''public void recalculatePrices(final MboRemote mboRemote)
+    '''returns None\n\n
+    recalculatePrices(final MboRemote mboRemote)\n
     '''
 def applyPriceScheduleToGBTrans():
-    '''public void applyPriceScheduleToGBTrans(final MboRemote mboRemote, final MboRemote mboRemote2, final boolean b)
+    '''returns None\n\n
+    applyPriceScheduleToGBTrans(final MboRemote mboRemote, final MboRemote mboRemote2, final boolean b)\n
     '''
 def initRelationship():
-    '''public void initRelationship(final String s, final MboSetRemote mboSet)
+    '''returns None\n\n
+    initRelationship(final String s, final MboSetRemote mboSet)\n
     '''
 def loadMatUseTransItemSaleSet():
-    '''public void loadMatUseTransItemSaleSet(final MboSetRemote mboSetRemote)
+    '''returns None\n\n
+    loadMatUseTransItemSaleSet(final MboSetRemote mboSetRemote)\n
     '''

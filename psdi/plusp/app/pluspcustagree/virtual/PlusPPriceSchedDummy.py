@@ -1,3 +1,4 @@
-def PlusPPriceSchedDummy():
-    '''public PlusPPriceSchedDummy(final MboSet ms)
+def ():
+    '''returns PlusPPriceSchedDummy\n\n
+    (final MboSet ms)\n
     '''

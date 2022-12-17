@@ -1,3 +1,4 @@
-def XDGFPageSheet():
-    '''public XDGFPageSheet(final PageSheetType sheet, final XDGFDocument document)
+def ():
+    '''returns XDGFPageSheet\n\n
+    (final PageSheetType sheet, final XDGFDocument document)\n
     '''

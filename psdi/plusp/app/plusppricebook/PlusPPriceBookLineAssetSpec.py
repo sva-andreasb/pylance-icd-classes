@@ -1,30 +1,40 @@
-def PlusPPriceBookLineAssetSpec():
-    '''public PlusPPriceBookLineAssetSpec(final MboSet arg0)
+def ():
+    '''returns PlusPPriceBookLineAssetSpec\n\n
+    (final MboSet arg0)\n
     '''
 def setCopyDefaults():
-    '''public void setCopyDefaults()
+    '''returns None\n\n
+    setCopyDefaults()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def addDetailInfor():
-    '''public void addDetailInfor(final MboRemote wo, final MboRemote classspec)
+    '''returns None\n\n
+    addDetailInfor(final MboRemote wo, final MboRemote classspec)\n
     '''
 def getLineSpecPrice():
-    '''public double getLineSpecPrice(final MboRemote mboRemote)
+    '''returns double\n\n
+    getLineSpecPrice(final MboRemote mboRemote)\n
     '''
 def getInternalCalculation():
-    '''public String getInternalCalculation()
+    '''returns String\n\n
+    getInternalCalculation()\n
     '''
 def match():
-    '''public boolean match(final MboRemote mboRemote)
+    '''returns boolean\n\n
+    match(final MboRemote mboRemote)\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String attributeName, final String val)
+    '''returns None\n\n
+    propagateKeyValue(final String attributeName, final String val)\n
     '''

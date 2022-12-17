@@ -1,9 +1,12 @@
 def refresh():
-    '''public int refresh()
+    '''returns int\n\n
+    refresh()\n
     '''
 def clearContinuousQueue():
-    '''public int clearContinuousQueue()
+    '''returns int\n\n
+    clearContinuousQueue()\n
     '''
 def clearSequentialQueue():
-    '''public int clearSequentialQueue()
+    '''returns int\n\n
+    clearSequentialQueue()\n
     '''

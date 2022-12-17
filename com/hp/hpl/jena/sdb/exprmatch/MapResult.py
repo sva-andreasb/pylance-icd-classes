@@ -1,6 +1,8 @@
 def put():
-    '''public void put(final Var var, final String v)
+    '''returns None\n\n
+    put(final Var var, final String v)\n
     '''
 def get():
-    '''public Expr get(final String varName)
+    '''returns Expr\n\n
+    get(final String varName)\n
     '''

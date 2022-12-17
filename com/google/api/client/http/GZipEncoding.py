@@ -1,9 +1,12 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def encode():
-    '''public void encode(final StreamingContent content, final OutputStream out)
+    '''returns None\n\n
+    encode(final StreamingContent content, final OutputStream out)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

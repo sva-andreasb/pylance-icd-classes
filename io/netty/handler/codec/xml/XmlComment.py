@@ -1,3 +1,4 @@
-def XmlComment():
-    '''public XmlComment(final String data)
+def ():
+    '''returns XmlComment\n\n
+    (final String data)\n
     '''

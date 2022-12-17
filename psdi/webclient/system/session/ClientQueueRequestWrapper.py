@@ -1,15 +1,16 @@
-def ClientQueueRequestWrapper():
-    '''public ClientQueueRequestWrapper(final HttpServletRequest request, final Map<String, Object> eventParameters)
+def ():
+    '''returns ClientQueueRequestWrapper\n\n
+    (final HttpServletRequest request, final Map<String, Object> eventParameters)\n
     '''
 def getParameter():
-    '''public String getParameter(final String name)
-    '''
-def getParameterMap():
-    '''public Map<String, String[]> getParameterMap()
+    '''returns String\n\n
+    getParameter(final String name)\n
     '''
 def getParameterValues():
-    '''public String[] getParameterValues(final String name)
+    '''returns String[]\n\n
+    getParameterValues(final String name)\n
     '''
 def getParameterNames():
-    '''public Enumeration<String> getParameterNames()
+    '''returns Enumeration<String>\n\n
+    getParameterNames()\n
     '''

@@ -23,63 +23,82 @@ BORDER_DOUBLE_WAVY = "int  21"
 BORDER_STRIPED = "int  22"
 BORDER_EMBOSS = "int  23"
 BORDER_ENGRAVE = "int  24"
-def RtfTableCell():
-    '''public RtfTableCell(final boolean dummy)
-    public RtfTableCell(final Element element)
-    public RtfTableCell(final String content)
-    public RtfTableCell(final Properties attributes)
+def ():
+    '''returns RtfTableCell\n\n
+    (final boolean dummy)\n
+    (final Element element)\n
+    (final String content)\n
+    (final Properties attributes)\n
     '''
 def setBorderWidth():
-    '''public void setBorderWidth(final float f)
+    '''returns None\n\n
+    setBorderWidth(final float f)\n
     '''
 def setTopBorderWidth():
-    '''public void setTopBorderWidth(final float f)
+    '''returns None\n\n
+    setTopBorderWidth(final float f)\n
     '''
 def topBorderWidth():
-    '''public float topBorderWidth()
+    '''returns float\n\n
+    topBorderWidth()\n
     '''
 def setLeftBorderWidth():
-    '''public void setLeftBorderWidth(final float f)
+    '''returns None\n\n
+    setLeftBorderWidth(final float f)\n
     '''
 def leftBorderWidth():
-    '''public float leftBorderWidth()
+    '''returns float\n\n
+    leftBorderWidth()\n
     '''
 def setRightBorderWidth():
-    '''public void setRightBorderWidth(final float f)
+    '''returns None\n\n
+    setRightBorderWidth(final float f)\n
     '''
 def rightBorderWidth():
-    '''public float rightBorderWidth()
+    '''returns float\n\n
+    rightBorderWidth()\n
     '''
 def setBottomBorderWidth():
-    '''public void setBottomBorderWidth(final float f)
+    '''returns None\n\n
+    setBottomBorderWidth(final float f)\n
     '''
 def bottomBorderWidth():
-    '''public float bottomBorderWidth()
+    '''returns float\n\n
+    bottomBorderWidth()\n
     '''
 def setBorderStyle():
-    '''public void setBorderStyle(final int style)
+    '''returns None\n\n
+    setBorderStyle(final int style)\n
     '''
 def setTopBorderStyle():
-    '''public void setTopBorderStyle(final int style)
+    '''returns None\n\n
+    setTopBorderStyle(final int style)\n
     '''
 def topBorderStyle():
-    '''public int topBorderStyle()
+    '''returns int\n\n
+    topBorderStyle()\n
     '''
 def setLeftBorderStyle():
-    '''public void setLeftBorderStyle(final int style)
+    '''returns None\n\n
+    setLeftBorderStyle(final int style)\n
     '''
 def leftBorderStyle():
-    '''public int leftBorderStyle()
+    '''returns int\n\n
+    leftBorderStyle()\n
     '''
 def setRightBorderStyle():
-    '''public void setRightBorderStyle(final int style)
+    '''returns None\n\n
+    setRightBorderStyle(final int style)\n
     '''
 def rightBorderStyle():
-    '''public int rightBorderStyle()
+    '''returns int\n\n
+    rightBorderStyle()\n
     '''
 def setBottomBorderStyle():
-    '''public void setBottomBorderStyle(final int style)
+    '''returns None\n\n
+    setBottomBorderStyle(final int style)\n
     '''
 def bottomBorderStyle():
-    '''public int bottomBorderStyle()
+    '''returns int\n\n
+    bottomBorderStyle()\n
     '''

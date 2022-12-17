@@ -1,3 +1,4 @@
-def PlusPMeterReadingSet():
-    '''public PlusPMeterReadingSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPMeterReadingSet\n\n
+    (final MboServerInterface arg0)\n
     '''

@@ -1,3 +1,4 @@
-def SlotCompilerHash():
-    '''public SlotCompilerHash(final SDBRequest request)
+def ():
+    '''returns SlotCompilerHash\n\n
+    (final SDBRequest request)\n
     '''

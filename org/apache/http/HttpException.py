@@ -1,5 +1,6 @@
-def HttpException():
-    '''public HttpException()
-    public HttpException(final String message)
-    public HttpException(final String message, final Throwable cause)
+def ():
+    '''returns HttpException\n\n
+    ()\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

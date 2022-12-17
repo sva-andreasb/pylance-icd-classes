@@ -1,9 +1,12 @@
-def EchoHandler():
-    '''public EchoHandler()
+def ():
+    '''returns EchoHandler\n\n
+    ()\n
     '''
 def invoke():
-    '''public void invoke(final MessageContext msgContext)
+    '''returns None\n\n
+    invoke(final MessageContext msgContext)\n
     '''
 def generateWSDL():
-    '''public void generateWSDL(final MessageContext msgContext)
+    '''returns None\n\n
+    generateWSDL(final MessageContext msgContext)\n
     '''

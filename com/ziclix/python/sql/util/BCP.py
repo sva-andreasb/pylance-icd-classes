@@ -1,22 +1,25 @@
-def BCP():
-    '''public BCP(final PyConnection source, final PyConnection destination)
-    public BCP(final PyConnection source, final PyConnection destination, final int batchsize)
+def ():
+    '''returns BCP\n\n
+    (final PyConnection source, final PyConnection destination)\n
+    (final PyConnection source, final PyConnection destination, final int batchsize)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def __setattr__():
-    '''public void __setattr__(final String name, final PyObject value)
+    '''returns None\n\n
+    __setattr__(final String name, final PyObject value)\n
     '''
 def __findattr_ex__():
-    '''public PyObject __findattr_ex__(final String name)
-    '''
-def classDictInit():
-    '''public static void classDictInit(final PyObject dict)
+    '''returns PyObject\n\n
+    __findattr_ex__(final String name)\n
     '''
 def traverse():
-    '''public int traverse(final Visitproc visit, final Object arg)
+    '''returns int\n\n
+    traverse(final Visitproc visit, final Object arg)\n
     '''
 def refersDirectlyTo():
-    '''public boolean refersDirectlyTo(final PyObject ob)
+    '''returns boolean\n\n
+    refersDirectlyTo(final PyObject ob)\n
     '''

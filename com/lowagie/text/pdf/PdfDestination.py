@@ -6,15 +6,18 @@ FITR = "int  4"
 FITB = "int  5"
 FITBH = "int  6"
 FITBV = "int  7"
-def PdfDestination():
-    '''public PdfDestination(final int type)
-    public PdfDestination(final int type, final float parameter)
-    public PdfDestination(final int type, final float left, final float top, final float zoom)
-    public PdfDestination(final int type, final float left, final float bottom, final float right, final float top)
+def ():
+    '''returns PdfDestination\n\n
+    (final int type)\n
+    (final int type, final float parameter)\n
+    (final int type, final float left, final float top, final float zoom)\n
+    (final int type, final float left, final float bottom, final float right, final float top)\n
     '''
 def hasPage():
-    '''public boolean hasPage()
+    '''returns boolean\n\n
+    hasPage()\n
     '''
 def addPage():
-    '''public boolean addPage(final PdfIndirectReference page)
+    '''returns boolean\n\n
+    addPage(final PdfIndirectReference page)\n
     '''

@@ -1,63 +1,75 @@
-def MaxMessageCache():
-    '''public MaxMessageCache()
+def ():
+    '''returns MaxMessageCache\n\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def reload():
-    '''public void reload()
-    public void reload(final String hashKey)
-    public void reload(final String group, final String key, final String langCode)
+    '''returns None\n\n
+    reload()\n
+    reload(final String hashKey)\n
+    reload(final String group, final String key, final String langCode)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getMaxMessage():
-    '''public MaxMessage getMaxMessage(final String group, final String key, final UserInfo ui)
-    public MaxMessage getMaxMessage(final String group, final String key, final String langCode)
-    public MaxMessage getMaxMessage(final String group, final String key)
+    '''returns MaxMessage\n\n
+    getMaxMessage(final String group, final String key, final UserInfo ui)\n
+    getMaxMessage(final String group, final String key, final String langCode)\n
+    getMaxMessage(final String group, final String key)\n
     '''
 def getMessage():
-    '''public Message getMessage(final String group, final String key, final UserInfo ui)
-    public Message getMessage(final String group, final String key)
+    '''returns Message\n\n
+    getMessage(final String group, final String key, final UserInfo ui)\n
+    getMessage(final String group, final String key)\n
     '''
 def getTaggedMessage():
-    '''public Message getTaggedMessage(final String group, final String key, final UserInfo ui)
-    public Message getTaggedMessage(final String group, final String key, final String langCode)
-    public Message getTaggedMessage(final String group, final String key)
-    public static Message getTaggedMessage(final MaxMessage mmsg)
-    public static Message getTaggedMessage(final MaxMessageBase mmsg)
+    '''returns Message\n\n
+    getTaggedMessage(final String group, final String key, final UserInfo ui)\n
+    getTaggedMessage(final String group, final String key, final String langCode)\n
+    getTaggedMessage(final String group, final String key)\n
     '''
 def loadMsgGroup():
-    '''public void loadMsgGroup(final String group, final UserInfo ui)
-    '''
-def isMsgBundleLoaded():
-    '''public synchronized boolean isMsgBundleLoaded(final String msgGroup, final String langCode)
+    '''returns None\n\n
+    loadMsgGroup(final String group, final UserInfo ui)\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def addElement():
-    '''public void addElement(String group, final String key, final String langCode, final MaxMessage msgRef)
+    '''returns None\n\n
+    addElement(String group, final String key, final String langCode, final MaxMessage msgRef)\n
     '''
 def getElement():
-    '''public MaxMessage getElement(String group, final String key, final String langCode)
+    '''returns MaxMessage\n\n
+    getElement(String group, final String key, final String langCode)\n
     '''
 def getElementInAnyLanguage():
-    '''public MaxMessage getElementInAnyLanguage(String group, final String key)
+    '''returns MaxMessage\n\n
+    getElementInAnyLanguage(String group, final String key)\n
     '''
 def isGroupLoaded():
-    '''public boolean isGroupLoaded(String group, final String langCode)
+    '''returns boolean\n\n
+    isGroupLoaded(String group, final String langCode)\n
     '''
 def clearGroupForAllLanguage():
-    '''public void clearGroupForAllLanguage(final String group)
+    '''returns None\n\n
+    clearGroupForAllLanguage(final String group)\n
     '''
 def clearMessageForAllLanguage():
-    '''public void clearMessageForAllLanguage(String group, final String key)
+    '''returns None\n\n
+    clearMessageForAllLanguage(String group, final String key)\n
     '''
 def getLoadedLanguages():
-    '''public String[] getLoadedLanguages(String group, final String key)
+    '''returns String[]\n\n
+    getLoadedLanguages(String group, final String key)\n
     '''
 def clearMessage():
-    '''public void clearMessage(String group, final String key, final String langCode)
+    '''returns None\n\n
+    clearMessage(String group, final String key, final String langCode)\n
     '''

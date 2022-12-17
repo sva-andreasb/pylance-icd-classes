@@ -1,9 +1,12 @@
-def AutoScriptTest():
-    '''public AutoScriptTest(final MboSet ms)
+def ():
+    '''returns AutoScriptTest\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setfaceName():
-    '''public void setfaceName(final String ifaceType, String ifaceName)
+    '''returns None\n\n
+    setfaceName(final String ifaceType, String ifaceName)\n
     '''

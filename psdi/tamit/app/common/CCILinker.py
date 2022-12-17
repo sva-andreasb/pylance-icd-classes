@@ -1,115 +1,147 @@
 batchSize = "int  200"
 CCILINKDISGUID = "String  \"CCIAssetCIDISGUID\""
 def getReconInfo():
-    '''public ReconInfo getReconInfo()
+    '''returns ReconInfo\n\n
+    getReconInfo()\n
     '''
 def setReconInfo():
-    '''public void setReconInfo(final ReconInfo reconInfo)
+    '''returns None\n\n
+    setReconInfo(final ReconInfo reconInfo)\n
     '''
-def CCILinker():
-    '''public CCILinker(final UserInfo userInfo)
+def ():
+    '''returns LinkResult\n\n
+    (final UserInfo userInfo)\n
+    ()\n
     '''
 def findAssetsForCIs():
-    '''public void findAssetsForCIs(final List<String> ciKeys)
-    public void findAssetsForCIs(final MboSet ciMbos)
-    public void findAssetsForCIs(final String filterCIs, final String filterAssets)
+    '''returns None\n\n
+    findAssetsForCIs(final List<String> ciKeys)\n
+    findAssetsForCIs(final MboSet ciMbos)\n
+    findAssetsForCIs(final String filterCIs, final String filterAssets)\n
     '''
 def findCIsForAssets():
-    '''public void findCIsForAssets(final List<String[]> assetKeys)
-    public void findCIsForAssets(final MboSet assetMbos)
-    public void findCIsForAssets(final String filterAssets, final String filterCIs)
+    '''returns None\n\n
+    findCIsForAssets(final List<String[]> assetKeys)\n
+    findCIsForAssets(final MboSet assetMbos)\n
+    findCIsForAssets(final String filterAssets, final String filterCIs)\n
     '''
 def findAssetsForDeployedAssets():
-    '''public void findAssetsForDeployedAssets(final List<Long> dpaKeys)
-    public void findAssetsForDeployedAssets(final MboSet dpaMbos)
-    public void findAssetsForDeployedAssets(final String where)
+    '''returns None\n\n
+    findAssetsForDeployedAssets(final List<Long> dpaKeys)\n
+    findAssetsForDeployedAssets(final MboSet dpaMbos)\n
+    findAssetsForDeployedAssets(final String where)\n
     '''
 def findCIsForActualCIs():
-    '''public void findCIsForActualCIs(final List<String> actCIKeys)
-    public void findCIsForActualCIs(final MboSet actCIMbos)
-    public void findCIsForActualCIs(final String where)
+    '''returns None\n\n
+    findCIsForActualCIs(final List<String> actCIKeys)\n
+    findCIsForActualCIs(final MboSet actCIMbos)\n
+    findCIsForActualCIs(final String where)\n
     '''
 def findCIsForActualCIsByKey():
-    '''public void findCIsForActualCIsByKey(final String actCIKey)
+    '''returns None\n\n
+    findCIsForActualCIsByKey(final String actCIKey)\n
     '''
 def findCIsForAssetsViaRecon():
-    '''public void findCIsForAssetsViaRecon(final ReconInfo rInfo, final String ciFilter, final String assetFilter)
+    '''returns None\n\n
+    findCIsForAssetsViaRecon(final ReconInfo rInfo, final String ciFilter, final String assetFilter)\n
     '''
 def getResults():
-    '''public List<LinkResult> getResults()
+    '''returns List<LinkResult>\n\n
+    getResults()\n
     '''
 def getResultByCI():
-    '''public LinkResult getResultByCI(final String cinum)
+    '''returns LinkResult\n\n
+    getResultByCI(final String cinum)\n
     '''
 def getResultByAsset():
-    '''public LinkResult getResultByAsset(final String assetnum, final String siteid)
+    '''returns LinkResult\n\n
+    getResultByAsset(final String assetnum, final String siteid)\n
     '''
 def getResultByDPA():
-    '''public LinkResult getResultByDPA(final int nodeid)
+    '''returns LinkResult\n\n
+    getResultByDPA(final int nodeid)\n
     '''
 def getResultByActCI():
-    '''public LinkResult getResultByActCI(final String actcinum)
+    '''returns LinkResult\n\n
+    getResultByActCI(final String actcinum)\n
     '''
 def isSaveLinks():
-    '''public boolean isSaveLinks()
+    '''returns boolean\n\n
+    isSaveLinks()\n
     '''
 def setSaveLinks():
-    '''public void setSaveLinks(final boolean saveLinks)
+    '''returns None\n\n
+    setSaveLinks(final boolean saveLinks)\n
     '''
 def setTest():
-    '''public void setTest(final boolean test)
+    '''returns None\n\n
+    setTest(final boolean test)\n
     '''
 def getTestQueries():
-    '''public List<String> getTestQueries()
+    '''returns List<String>\n\n
+    getTestQueries()\n
     '''
 def gettestSaveWhere():
-    '''public List<String> gettestSaveWhere()
-    '''
-def LinkResult():
-    '''public LinkResult()
+    '''returns List<String>\n\n
+    gettestSaveWhere()\n
     '''
 def getAssetnum():
-    '''public String getAssetnum()
+    '''returns String\n\n
+    getAssetnum()\n
     '''
 def getOrgid():
-    '''public String getOrgid()
+    '''returns String\n\n
+    getOrgid()\n
     '''
 def getSiteid():
-    '''public String getSiteid()
+    '''returns String\n\n
+    getSiteid()\n
     '''
 def getCinum():
-    '''public String getCinum()
+    '''returns String\n\n
+    getCinum()\n
     '''
 def getNodeid():
-    '''public String getNodeid()
+    '''returns String\n\n
+    getNodeid()\n
     '''
 def getActcinum():
-    '''public String getActcinum()
+    '''returns String\n\n
+    getActcinum()\n
     '''
 def getDisguid():
-    '''public String getDisguid()
+    '''returns String\n\n
+    getDisguid()\n
     '''
 def getLinkRule():
-    '''public String getLinkRule()
+    '''returns String\n\n
+    getLinkRule()\n
     '''
 def getConflictAssetnum():
-    '''public String getConflictAssetnum()
+    '''returns String\n\n
+    getConflictAssetnum()\n
     '''
 def getConflictSiteid():
-    '''public String getConflictSiteid()
+    '''returns String\n\n
+    getConflictSiteid()\n
     '''
 def getConflictCinum():
-    '''public String getConflictCinum()
+    '''returns String\n\n
+    getConflictCinum()\n
     '''
 def getConflictNodeid():
-    '''public String getConflictNodeid()
+    '''returns String\n\n
+    getConflictNodeid()\n
     '''
 def isSaveFailed():
-    '''public boolean isSaveFailed()
+    '''returns boolean\n\n
+    isSaveFailed()\n
     '''
 def isMultiLink():
-    '''public boolean isMultiLink()
+    '''returns boolean\n\n
+    isMultiLink()\n
     '''
 def setSaveFailed():
-    '''public void setSaveFailed(final boolean saveFailed)
+    '''returns None\n\n
+    setSaveFailed(final boolean saveFailed)\n
     '''

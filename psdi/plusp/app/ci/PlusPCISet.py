@@ -1,6 +1,8 @@
-def PlusPCISet():
-    '''public PlusPCISet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPCISet\n\n
+    (final MboServerInterface arg0)\n
     '''
 def copyCIs():
-    '''public void copyCIs(final MboRemote mboRemote)
+    '''returns None\n\n
+    copyCIs(final MboRemote mboRemote)\n
     '''

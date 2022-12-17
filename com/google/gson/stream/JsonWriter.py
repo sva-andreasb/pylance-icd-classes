@@ -1,55 +1,48 @@
-def JsonWriter():
-    '''public JsonWriter(final Writer out)
-    '''
-def setIndent():
-    '''public final void setIndent(final String indent)
-    '''
-def setLenient():
-    '''public final void setLenient(final boolean lenient)
+def ():
+    '''returns JsonWriter\n\n
+    (final Writer out)\n
     '''
 def isLenient():
-    '''public boolean isLenient()
-    '''
-def setHtmlSafe():
-    '''public final void setHtmlSafe(final boolean htmlSafe)
-    '''
-def isHtmlSafe():
-    '''public final boolean isHtmlSafe()
-    '''
-def setSerializeNulls():
-    '''public final void setSerializeNulls(final boolean serializeNulls)
-    '''
-def getSerializeNulls():
-    '''public final boolean getSerializeNulls()
+    '''returns boolean\n\n
+    isLenient()\n
     '''
 def beginArray():
-    '''public JsonWriter beginArray()
+    '''returns JsonWriter\n\n
+    beginArray()\n
     '''
 def endArray():
-    '''public JsonWriter endArray()
+    '''returns JsonWriter\n\n
+    endArray()\n
     '''
 def beginObject():
-    '''public JsonWriter beginObject()
+    '''returns JsonWriter\n\n
+    beginObject()\n
     '''
 def endObject():
-    '''public JsonWriter endObject()
+    '''returns JsonWriter\n\n
+    endObject()\n
     '''
 def name():
-    '''public JsonWriter name(final String name)
+    '''returns JsonWriter\n\n
+    name(final String name)\n
     '''
 def value():
-    '''public JsonWriter value(final String value)
-    public JsonWriter value(final boolean value)
-    public JsonWriter value(final double value)
-    public JsonWriter value(final long value)
-    public JsonWriter value(final Number value)
+    '''returns JsonWriter\n\n
+    value(final String value)\n
+    value(final boolean value)\n
+    value(final double value)\n
+    value(final long value)\n
+    value(final Number value)\n
     '''
 def nullValue():
-    '''public JsonWriter nullValue()
+    '''returns JsonWriter\n\n
+    nullValue()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''

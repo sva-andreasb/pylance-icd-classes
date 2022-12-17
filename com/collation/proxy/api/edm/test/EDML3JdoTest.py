@@ -1,12 +1,16 @@
-def EDML3JdoTest():
-    '''public EDML3JdoTest(final String testName)
+def ():
+    '''returns EDML3JdoTest\n\n
+    (final String testName)\n
     '''
 def testDataView1():
-    '''public void testDataView1()
+    '''returns None\n\n
+    testDataView1()\n
     '''
 def testDataView2():
-    '''public void testDataView2()
+    '''returns None\n\n
+    testDataView2()\n
     '''
 def testDataView3():
-    '''public void testDataView3()
+    '''returns None\n\n
+    testDataView3()\n
     '''

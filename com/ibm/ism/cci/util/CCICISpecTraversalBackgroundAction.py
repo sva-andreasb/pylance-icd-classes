@@ -1,13 +1,17 @@
-def CCICISpecTraversalBackgroundAction():
-    '''public CCICISpecTraversalBackgroundAction(final CIClassSpec theSpec, final MboRemote classSpecUseWith, final boolean copyValue, final boolean _isBackground)
-    public CCICISpecTraversalBackgroundAction(final CIClassSpec ciClassSpec, final boolean _isBackground)
+def ():
+    '''returns CCICISpecTraversalBackgroundAction\n\n
+    (final CIClassSpec theSpec, final MboRemote classSpecUseWith, final boolean copyValue, final boolean _isBackground)\n
+    (final CIClassSpec ciClassSpec, final boolean _isBackground)\n
     '''
 def processState():
-    '''public void processState(final TraversalState state, final UserInfo userInfo)
+    '''returns None\n\n
+    processState(final TraversalState state, final UserInfo userInfo)\n
     '''
 def postTraverseAction():
-    '''public void postTraverseAction(final UserInfo userInfo)
+    '''returns None\n\n
+    postTraverseAction(final UserInfo userInfo)\n
     '''
 def postTraversalAction():
-    '''public void postTraversalAction(final UserInfo userInfo, final Collection<TraversalState> failedStates)
+    '''returns None\n\n
+    postTraversalAction(final UserInfo userInfo, final Collection<TraversalState> failedStates)\n
     '''

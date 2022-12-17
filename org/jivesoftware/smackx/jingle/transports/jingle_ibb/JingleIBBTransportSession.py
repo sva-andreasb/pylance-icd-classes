@@ -1,27 +1,36 @@
-def JingleIBBTransportSession():
-    '''public JingleIBBTransportSession(final JingleSession session)
+def ():
+    '''returns JingleIBBTransportSession\n\n
+    (final JingleSession session)\n
     '''
 def createTransport():
-    '''public JingleIBBTransport createTransport()
+    '''returns JingleIBBTransport\n\n
+    createTransport()\n
     '''
 def setTheirProposal():
-    '''public void setTheirProposal(final JingleContentTransport transport)
+    '''returns None\n\n
+    setTheirProposal(final JingleContentTransport transport)\n
     '''
 def initiateOutgoingSession():
-    '''public void initiateOutgoingSession(final JingleTransportInitiationCallback callback)
+    '''returns None\n\n
+    initiateOutgoingSession(final JingleTransportInitiationCallback callback)\n
     '''
 def initiateIncomingSession():
-    '''public void initiateIncomingSession(final JingleTransportInitiationCallback callback)
+    '''returns None\n\n
+    initiateIncomingSession(final JingleTransportInitiationCallback callback)\n
     '''
 def incomingBytestreamRequest():
-    '''public void incomingBytestreamRequest(final BytestreamRequest request)
+    '''returns None\n\n
+    incomingBytestreamRequest(final BytestreamRequest request)\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def handleTransportInfo():
-    '''public IQ handleTransportInfo(final Jingle transportInfo)
+    '''returns IQ\n\n
+    handleTransportInfo(final Jingle transportInfo)\n
     '''
 def transportManager():
-    '''public JingleTransportManager<JingleIBBTransport> transportManager()
+    '''returns JingleTransportManager<JingleIBBTransport>\n\n
+    transportManager()\n
     '''

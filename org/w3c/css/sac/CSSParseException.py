@@ -1,15 +1,19 @@
-def CSSParseException():
-    '''public CSSParseException(final String s, final Locator locator)
-    public CSSParseException(final String s, final Locator locator, final Exception ex)
-    public CSSParseException(final String s, final String uri, final int lineNumber, final int columnNumber)
-    public CSSParseException(final String s, final String uri, final int lineNumber, final int columnNumber, final Exception ex)
+def ():
+    '''returns CSSParseException\n\n
+    (final String s, final Locator locator)\n
+    (final String s, final Locator locator, final Exception ex)\n
+    (final String s, final String uri, final int lineNumber, final int columnNumber)\n
+    (final String s, final String uri, final int lineNumber, final int columnNumber, final Exception ex)\n
     '''
 def getURI():
-    '''public String getURI()
+    '''returns String\n\n
+    getURI()\n
     '''
 def getLineNumber():
-    '''public int getLineNumber()
+    '''returns int\n\n
+    getLineNumber()\n
     '''
 def getColumnNumber():
-    '''public int getColumnNumber()
+    '''returns int\n\n
+    getColumnNumber()\n
     '''

@@ -1,99 +1,117 @@
-def getProperty():
-    '''public static Object getProperty(final Project project, final String name)
-    public Object getProperty(final String ns, final String name)
-    public Object getProperty(final String name)
-    '''
-def setProperty():
-    '''public static void setProperty(final Project project, final String name, final Object value)
-    public boolean setProperty(final String ns, final String name, final Object value, final boolean verbose)
-    public boolean setProperty(final String name, final Object value, final boolean verbose)
-    '''
-def setNewProperty():
-    '''public static void setNewProperty(final Project project, final String name, final Object value)
-    public void setNewProperty(final String ns, final String name, final Object value)
-    public void setNewProperty(final String name, final Object value)
-    '''
 def setProject():
-    '''public void setProject(final Project p)
+    '''returns None\n\n
+    setProject(final Project p)\n
     '''
 def getProject():
-    '''public Project getProject()
+    '''returns Project\n\n
+    getProject()\n
     '''
 def setNext():
-    '''public void setNext(final PropertyHelper next)
+    '''returns None\n\n
+    setNext(final PropertyHelper next)\n
     '''
 def getNext():
-    '''public PropertyHelper getNext()
-    '''
-def getPropertyHelper():
-    '''public static synchronized PropertyHelper getPropertyHelper(final Project project)
+    '''returns PropertyHelper\n\n
+    getNext()\n
     '''
 def getExpanders():
-    '''public Collection getExpanders()
+    '''returns Collection\n\n
+    getExpanders()\n
     '''
 def setPropertyHook():
-    '''public boolean setPropertyHook(final String ns, final String name, final Object value, final boolean inherited, final boolean user, final boolean isNew)
+    '''returns boolean\n\n
+    setPropertyHook(final String ns, final String name, final Object value, final boolean inherited, final boolean user, final boolean isNew)\n
     '''
 def getPropertyHook():
-    '''public Object getPropertyHook(final String ns, String name, final boolean user)
+    '''returns Object\n\n
+    getPropertyHook(final String ns, String name, final boolean user)\n
     '''
 def parsePropertyString():
-    '''public void parsePropertyString(final String value, final Vector fragments, final Vector propertyRefs)
+    '''returns None\n\n
+    parsePropertyString(final String value, final Vector fragments, final Vector propertyRefs)\n
     '''
 def replaceProperties():
-    '''public String replaceProperties(final String ns, final String value, final Hashtable keys)
-    public String replaceProperties(final String value)
+    '''returns String\n\n
+    replaceProperties(final String ns, final String value, final Hashtable keys)\n
+    replaceProperties(final String value)\n
     '''
 def parseProperties():
-    '''public Object parseProperties(final String value)
+    '''returns Object\n\n
+    parseProperties(final String value)\n
     '''
 def containsProperties():
-    '''public boolean containsProperties(final String value)
+    '''returns boolean\n\n
+    containsProperties(final String value)\n
+    '''
+def setProperty():
+    '''returns boolean\n\n
+    setProperty(final String ns, final String name, final Object value, final boolean verbose)\n
+    setProperty(final String name, final Object value, final boolean verbose)\n
+    '''
+def setNewProperty():
+    '''returns None\n\n
+    setNewProperty(final String ns, final String name, final Object value)\n
+    setNewProperty(final String name, final Object value)\n
     '''
 def setUserProperty():
-    '''public void setUserProperty(final String ns, final String name, final Object value)
-    public void setUserProperty(final String name, final Object value)
+    '''returns None\n\n
+    setUserProperty(final String ns, final String name, final Object value)\n
+    setUserProperty(final String name, final Object value)\n
     '''
 def setInheritedProperty():
-    '''public void setInheritedProperty(final String ns, final String name, final Object value)
-    public void setInheritedProperty(final String name, final Object value)
+    '''returns None\n\n
+    setInheritedProperty(final String ns, final String name, final Object value)\n
+    setInheritedProperty(final String name, final Object value)\n
+    '''
+def getProperty():
+    '''returns Object\n\n
+    getProperty(final String ns, final String name)\n
+    getProperty(final String name)\n
     '''
 def getUserProperty():
-    '''public Object getUserProperty(final String ns, final String name)
-    public Object getUserProperty(final String name)
+    '''returns Object\n\n
+    getUserProperty(final String ns, final String name)\n
+    getUserProperty(final String name)\n
     '''
 def getProperties():
-    '''public Hashtable getProperties()
+    '''returns Hashtable\n\n
+    getProperties()\n
     '''
 def getUserProperties():
-    '''public Hashtable getUserProperties()
+    '''returns Hashtable\n\n
+    getUserProperties()\n
     '''
 def getInheritedProperties():
-    '''public Hashtable getInheritedProperties()
+    '''returns Hashtable\n\n
+    getInheritedProperties()\n
     '''
 def copyInheritedProperties():
-    '''public void copyInheritedProperties(final Project other)
+    '''returns None\n\n
+    copyInheritedProperties(final Project other)\n
     '''
 def copyUserProperties():
-    '''public void copyUserProperties(final Project other)
+    '''returns None\n\n
+    copyUserProperties(final Project other)\n
     '''
 def add():
-    '''public void add(final Delegate delegate)
-    '''
-def toBoolean():
-    '''public static Boolean toBoolean(final Object value)
+    '''returns None\n\n
+    add(final Delegate delegate)\n
     '''
 def testIfCondition():
-    '''public boolean testIfCondition(final Object value)
+    '''returns boolean\n\n
+    testIfCondition(final Object value)\n
     '''
 def testUnlessCondition():
-    '''public boolean testUnlessCondition(final Object value)
+    '''returns boolean\n\n
+    testUnlessCondition(final Object value)\n
     '''
 def evaluate():
-    '''public Object evaluate(final String property, final PropertyHelper propertyHelper)
-    public Object evaluate(final String prop, final PropertyHelper helper)
+    '''returns Object\n\n
+    evaluate(final String property, final PropertyHelper propertyHelper)\n
+    evaluate(final String prop, final PropertyHelper helper)\n
     '''
 def parsePropertyName():
-    '''public String parsePropertyName(final String s, final ParsePosition pos, final ParseNextProperty notUsed)
-    public String parsePropertyName(final String s, final ParsePosition pos, final ParseNextProperty notUsed)
+    '''returns String\n\n
+    parsePropertyName(final String s, final ParsePosition pos, final ParseNextProperty notUsed)\n
+    parsePropertyName(final String s, final ParsePosition pos, final ParseNextProperty notUsed)\n
     '''

@@ -1,110 +1,137 @@
 def hasParent():
-    '''public boolean hasParent()
+    '''returns boolean\n\n
+    hasParent()\n
     '''
 def attr():
-    '''public String attr(final String attributeKey)
-    public Node attr(String attributeKey, final String attributeValue)
+    '''returns Node\n\n
+    attr(final String attributeKey)\n
+    attr(String attributeKey, final String attributeValue)\n
     '''
 def hasAttr():
-    '''public boolean hasAttr(final String attributeKey)
+    '''returns boolean\n\n
+    hasAttr(final String attributeKey)\n
     '''
 def removeAttr():
-    '''public Node removeAttr(final String attributeKey)
+    '''returns Node\n\n
+    removeAttr(final String attributeKey)\n
     '''
 def clearAttributes():
-    '''public Node clearAttributes()
+    '''returns Node\n\n
+    clearAttributes()\n
     '''
 def setBaseUri():
-    '''public void setBaseUri(final String baseUri)
+    '''returns None\n\n
+    setBaseUri(final String baseUri)\n
     '''
 def head():
-    '''public void head(final Node node, final int depth)
-    public void head(final Node node, final int depth)
+    '''returns None\n\n
+    head(final Node node, final int depth)\n
+    head(final Node node, final int depth)\n
     '''
 def tail():
-    '''public void tail(final Node node, final int depth)
-    public void tail(final Node node, final int depth)
+    '''returns None\n\n
+    tail(final Node node, final int depth)\n
+    tail(final Node node, final int depth)\n
     '''
 def absUrl():
-    '''public String absUrl(final String attributeKey)
+    '''returns String\n\n
+    absUrl(final String attributeKey)\n
     '''
 def childNode():
-    '''public Node childNode(final int index)
+    '''returns Node\n\n
+    childNode(final int index)\n
     '''
 def childNodes():
-    '''public List<Node> childNodes()
+    '''returns List<Node>\n\n
+    childNodes()\n
     '''
 def childNodesCopy():
-    '''public List<Node> childNodesCopy()
+    '''returns List<Node>\n\n
+    childNodesCopy()\n
     '''
 def parent():
-    '''public Node parent()
-    '''
-def parentNode():
-    '''public final Node parentNode()
+    '''returns Node\n\n
+    parent()\n
     '''
 def root():
-    '''public Node root()
+    '''returns Node\n\n
+    root()\n
     '''
 def ownerDocument():
-    '''public Document ownerDocument()
+    '''returns Document\n\n
+    ownerDocument()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def before():
-    '''public Node before(final String html)
-    public Node before(final Node node)
+    '''returns Node\n\n
+    before(final String html)\n
+    before(final Node node)\n
     '''
 def after():
-    '''public Node after(final String html)
-    public Node after(final Node node)
+    '''returns Node\n\n
+    after(final String html)\n
+    after(final Node node)\n
     '''
 def wrap():
-    '''public Node wrap(final String html)
+    '''returns Node\n\n
+    wrap(final String html)\n
     '''
 def unwrap():
-    '''public Node unwrap()
+    '''returns Node\n\n
+    unwrap()\n
     '''
 def replaceWith():
-    '''public void replaceWith(final Node in)
+    '''returns None\n\n
+    replaceWith(final Node in)\n
     '''
 def siblingNodes():
-    '''public List<Node> siblingNodes()
+    '''returns List<Node>\n\n
+    siblingNodes()\n
     '''
 def nextSibling():
-    '''public Node nextSibling()
+    '''returns Node\n\n
+    nextSibling()\n
     '''
 def previousSibling():
-    '''public Node previousSibling()
+    '''returns Node\n\n
+    previousSibling()\n
     '''
 def siblingIndex():
-    '''public int siblingIndex()
+    '''returns int\n\n
+    siblingIndex()\n
     '''
 def traverse():
-    '''public Node traverse(final NodeVisitor nodeVisitor)
+    '''returns Node\n\n
+    traverse(final NodeVisitor nodeVisitor)\n
     '''
 def filter():
-    '''public Node filter(final NodeFilter nodeFilter)
+    '''returns Node\n\n
+    filter(final NodeFilter nodeFilter)\n
     '''
 def outerHtml():
-    '''public String outerHtml()
-    '''
-def html():
-    '''public <T extends Appendable> T html(final T appendable)
+    '''returns String\n\n
+    outerHtml()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hasSameValue():
-    '''public boolean hasSameValue(final Object o)
+    '''returns boolean\n\n
+    hasSameValue(final Object o)\n
     '''
 def clone():
-    '''public Node clone()
+    '''returns Node\n\n
+    clone()\n
     '''
 def shallowClone():
-    '''public Node shallowClone()
+    '''returns Node\n\n
+    shallowClone()\n
     '''

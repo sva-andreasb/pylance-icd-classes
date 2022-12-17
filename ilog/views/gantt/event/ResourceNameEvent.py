@@ -1,12 +1,16 @@
-def ResourceNameEvent():
-    '''public ResourceNameEvent(final IlvResource ilvResource, final String s, final String s2, final boolean b)
+def ():
+    '''returns ResourceNameEvent\n\n
+    (final IlvResource ilvResource, final String s, final String s2, final boolean b)\n
     '''
 def getOldName():
-    '''public String getOldName()
+    '''returns String\n\n
+    getOldName()\n
     '''
 def getNewName():
-    '''public String getNewName()
+    '''returns String\n\n
+    getNewName()\n
     '''
 def setNewName():
-    '''public void setNewName(final String newValue)
+    '''returns None\n\n
+    setNewName(final String newValue)\n
     '''

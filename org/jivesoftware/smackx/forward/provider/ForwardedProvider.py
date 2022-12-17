@@ -1,3 +1,4 @@
 def parse():
-    '''public Forwarded parse(final XmlPullParser parser, final int initialDepth)
+    '''returns Forwarded\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

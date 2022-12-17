@@ -1,24 +1,32 @@
-def OslcProviderInfo():
-    '''public OslcProviderInfo(final String providerName, final String catalogURI, final String baseURL, final String endPointName, final boolean useRegistry, final String oslcVersion, final boolean nativePreview)
+def ():
+    '''returns OslcProviderInfo\n\n
+    (final String providerName, final String catalogURI, final String baseURL, final String endPointName, final boolean useRegistry, final String oslcVersion, final boolean nativePreview)\n
     '''
 def getOslcVersion():
-    '''public String getOslcVersion()
+    '''returns String\n\n
+    getOslcVersion()\n
     '''
 def isUseRegistry():
-    '''public boolean isUseRegistry()
+    '''returns boolean\n\n
+    isUseRegistry()\n
     '''
 def isNativePreview():
-    '''public boolean isNativePreview()
+    '''returns boolean\n\n
+    isNativePreview()\n
     '''
 def getProviderName():
-    '''public String getProviderName()
+    '''returns String\n\n
+    getProviderName()\n
     '''
 def getCatalogURI():
-    '''public String getCatalogURI()
+    '''returns String\n\n
+    getCatalogURI()\n
     '''
 def getBaseURL():
-    '''public String getBaseURL()
+    '''returns String\n\n
+    getBaseURL()\n
     '''
 def getEndPointName():
-    '''public String getEndPointName()
+    '''returns String\n\n
+    getEndPointName()\n
     '''

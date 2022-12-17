@@ -1,12 +1,12 @@
-def SupportedLanguages():
-    '''public SupportedLanguages(final String s, final boolean b)
+def ():
+    '''returns SupportedLanguages\n\n
+    (final String s, final boolean b)\n
     '''
 def getSupportedLocale():
-    '''public Locale getSupportedLocale(final Locale locale)
+    '''returns Locale\n\n
+    getSupportedLocale(final Locale locale)\n
     '''
 def getSupportedLocales():
-    '''public Locale[] getSupportedLocales()
-    '''
-def isDBCSLocale():
-    '''public static boolean isDBCSLocale(final Locale locale)
+    '''returns Locale[]\n\n
+    getSupportedLocales()\n
     '''

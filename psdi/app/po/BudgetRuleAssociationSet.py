@@ -1,3 +1,4 @@
-def BudgetRuleAssociationSet():
-    '''public BudgetRuleAssociationSet(final MboServerInterface ms)
+def ():
+    '''returns BudgetRuleAssociationSet\n\n
+    (final MboServerInterface ms)\n
     '''

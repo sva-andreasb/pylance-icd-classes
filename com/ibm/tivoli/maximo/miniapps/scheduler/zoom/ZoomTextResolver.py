@@ -1,12 +1,16 @@
-def ZoomTextResolver():
-    '''public ZoomTextResolver(final Map<String, String> act, final float zoomFactor, final float snapConstant)
+def ():
+    '''returns ZoomTextResolver\n\n
+    (final Map<String, String> act, final float zoomFactor, final float snapConstant)\n
     '''
 def getProperty():
-    '''public Object getProperty(final Map<String, String> data, final String in)
+    '''returns Object\n\n
+    getProperty(final Map<String, String> data, final String in)\n
     '''
 def getColumnInfo():
-    '''public IMXGanttPropertyInfo getColumnInfo(final String in)
+    '''returns IMXGanttPropertyInfo\n\n
+    getColumnInfo(final String in)\n
     '''
 def getPropertyNames():
-    '''public Collection<String> getPropertyNames(final Map<String, String> data)
+    '''returns Collection<String>\n\n
+    getPropertyNames(final Map<String, String> data)\n
     '''

@@ -1,6 +1,8 @@
-def PmtcoBBSet():
-    '''public PmtcoBBSet(final MboServerInterface ms)
+def ():
+    '''returns PmtcoBBSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getValidMesssagesWhereClause():
-    '''public String getValidMesssagesWhereClause()
+    '''returns String\n\n
+    getValidMesssagesWhereClause()\n
     '''

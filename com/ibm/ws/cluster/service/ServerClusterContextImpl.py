@@ -1,12 +1,16 @@
-def ServerClusterContextImpl():
-    '''public ServerClusterContextImpl()
+def ():
+    '''returns ServerClusterContextImpl\n\n
+    ()\n
     '''
 def checkClientContext():
-    '''public byte[] checkClientContext(final byte[] clientContext)
+    '''returns byte[]\n\n
+    checkClientContext(final byte[] clientContext)\n
     '''
 def validateClusterResidency():
-    '''public boolean validateClusterResidency(final Identity clusterIdentity)
+    '''returns boolean\n\n
+    validateClusterResidency(final Identity clusterIdentity)\n
     '''
 def validateClusterProcessResidency():
-    '''public boolean validateClusterProcessResidency(final Identity clusterIdentity)
+    '''returns boolean\n\n
+    validateClusterProcessResidency(final Identity clusterIdentity)\n
     '''

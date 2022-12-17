@@ -1,73 +1,93 @@
-def SqlNodeBase():
-    '''public SqlNodeBase(final String aliasName)
+def ():
+    '''returns SqlNodeBase\n\n
+    (final String aliasName)\n
     '''
 def isJoin():
-    '''public boolean isJoin()
+    '''returns boolean\n\n
+    isJoin()\n
     '''
 def isInnerJoin():
-    '''public boolean isInnerJoin()
+    '''returns boolean\n\n
+    isInnerJoin()\n
     '''
 def isLeftJoin():
-    '''public boolean isLeftJoin()
+    '''returns boolean\n\n
+    isLeftJoin()\n
     '''
 def asJoin():
-    '''public SqlJoin asJoin()
+    '''returns SqlJoin\n\n
+    asJoin()\n
     '''
 def asLeftJoin():
-    '''public SqlJoinLeftOuter asLeftJoin()
+    '''returns SqlJoinLeftOuter\n\n
+    asLeftJoin()\n
     '''
 def asInnerJoin():
-    '''public SqlJoinInner asInnerJoin()
+    '''returns SqlJoinInner\n\n
+    asInnerJoin()\n
     '''
 def isRestrict():
-    '''public boolean isRestrict()
+    '''returns boolean\n\n
+    isRestrict()\n
     '''
 def asRestrict():
-    '''public SqlRestrict asRestrict()
+    '''returns SqlRestrict\n\n
+    asRestrict()\n
     '''
 def isProject():
-    '''public boolean isProject()
+    '''returns boolean\n\n
+    isProject()\n
     '''
 def asProject():
-    '''public SqlProject asProject()
+    '''returns SqlProject\n\n
+    asProject()\n
     '''
 def isDistinct():
-    '''public boolean isDistinct()
+    '''returns boolean\n\n
+    isDistinct()\n
     '''
 def asDistinct():
-    '''public SqlDistinct asDistinct()
+    '''returns SqlDistinct\n\n
+    asDistinct()\n
     '''
 def isCoalesce():
-    '''public boolean isCoalesce()
+    '''returns boolean\n\n
+    isCoalesce()\n
     '''
 def asCoalesce():
-    '''public SqlCoalesce asCoalesce()
+    '''returns SqlCoalesce\n\n
+    asCoalesce()\n
     '''
 def isTable():
-    '''public boolean isTable()
+    '''returns boolean\n\n
+    isTable()\n
     '''
 def asTable():
-    '''public SqlTable asTable()
+    '''returns SqlTable\n\n
+    asTable()\n
     '''
 def isSelectBlock():
-    '''public boolean isSelectBlock()
+    '''returns boolean\n\n
+    isSelectBlock()\n
     '''
 def asSelectBlock():
-    '''public SqlSelectBlock asSelectBlock()
+    '''returns SqlSelectBlock\n\n
+    asSelectBlock()\n
     '''
 def output():
-    '''public void output(final IndentedWriter out)
-    public void output(final IndentedWriter out, final boolean withAnnotations)
+    '''returns None\n\n
+    output(final IndentedWriter out)\n
+    output(final IndentedWriter out, final boolean withAnnotations)\n
     '''
 def usesColumn():
-    '''public boolean usesColumn(final SqlColumn c)
-    '''
-def getAliasName():
-    '''public final String getAliasName()
+    '''returns boolean\n\n
+    usesColumn(final SqlColumn c)\n
     '''
 def tablesInvolved():
-    '''public Set<SqlTable> tablesInvolved()
+    '''returns Set<SqlTable>\n\n
+    tablesInvolved()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

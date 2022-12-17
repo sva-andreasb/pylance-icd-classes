@@ -1,19 +1,20 @@
-def getEmpty():
-    '''public static ContextAttributes getEmpty()
-    public static ContextAttributes getEmpty()
-    '''
 def withSharedAttribute():
-    '''public ContextAttributes withSharedAttribute(final Object key, final Object value)
+    '''returns ContextAttributes\n\n
+    withSharedAttribute(final Object key, final Object value)\n
     '''
 def withSharedAttributes():
-    '''public ContextAttributes withSharedAttributes(final Map<?, ?> shared)
+    '''returns ContextAttributes\n\n
+    withSharedAttributes(final Map<?, ?> shared)\n
     '''
 def withoutSharedAttribute():
-    '''public ContextAttributes withoutSharedAttribute(final Object key)
+    '''returns ContextAttributes\n\n
+    withoutSharedAttribute(final Object key)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final Object key)
+    '''returns Object\n\n
+    getAttribute(final Object key)\n
     '''
 def withPerCallAttribute():
-    '''public ContextAttributes withPerCallAttribute(final Object key, Object value)
+    '''returns ContextAttributes\n\n
+    withPerCallAttribute(final Object key, Object value)\n
     '''

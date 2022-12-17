@@ -1,12 +1,16 @@
-def TFTPAckPacket():
-    '''public TFTPAckPacket(final InetAddress destination, final int port, final int blockNumber)
+def ():
+    '''returns TFTPAckPacket\n\n
+    (final InetAddress destination, final int port, final int blockNumber)\n
     '''
 def newDatagram():
-    '''public DatagramPacket newDatagram()
+    '''returns DatagramPacket\n\n
+    newDatagram()\n
     '''
 def getBlockNumber():
-    '''public int getBlockNumber()
+    '''returns int\n\n
+    getBlockNumber()\n
     '''
 def setBlockNumber():
-    '''public void setBlockNumber(final int blockNumber)
+    '''returns None\n\n
+    setBlockNumber(final int blockNumber)\n
     '''

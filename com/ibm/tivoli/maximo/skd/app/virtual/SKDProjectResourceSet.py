@@ -1,15 +1,20 @@
-def SKDProjectResourceSet():
-    '''public SKDProjectResourceSet(final MboServerInterface ms)
+def ():
+    '''returns SKDProjectResourceSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def filterByErrorsWarningsOnly():
-    '''public void filterByErrorsWarningsOnly()
+    '''returns None\n\n
+    filterByErrorsWarningsOnly()\n
     '''
 def preSetValues():
-    '''public void preSetValues(final Collection<IMXReservation> reservations)
+    '''returns None\n\n
+    preSetValues(final Collection<IMXReservation> reservations)\n
     '''
 def reload():
-    '''public void reload(final long skdProjectId)
+    '''returns None\n\n
+    reload(final long skdProjectId)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''

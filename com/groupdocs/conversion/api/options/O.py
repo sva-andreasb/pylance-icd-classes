@@ -1,8 +1,10 @@
-def O():
-    '''public O(final ILoader<mn, FromSlidesOptions> loader, final ToImageOptions toImageOptions)
+def ():
+    '''returns O\n\n
+    (final ILoader<mn, FromSlidesOptions> loader, final ToImageOptions toImageOptions)\n
     '''
 def toImage():
-    '''public void toImage(final OutputStream outputStream)
-    public void toImage(final String savePath)
-    public void toImage(final IStreamCallback<InputStream> dataCallback)
+    '''returns None\n\n
+    toImage(final OutputStream outputStream)\n
+    toImage(final String savePath)\n
+    toImage(final IStreamCallback<InputStream> dataCallback)\n
     '''

@@ -1,3 +1,4 @@
-def RefTable4Values():
-    '''public RefTable4Values(final MboSet mboSet)
+def ():
+    '''returns RefTable4Values\n\n
+    (final MboSet mboSet)\n
     '''

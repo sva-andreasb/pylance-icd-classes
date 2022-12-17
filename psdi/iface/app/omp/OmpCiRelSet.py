@@ -1,3 +1,4 @@
-def OmpCiRelSet():
-    '''public OmpCiRelSet(final MboServerInterface ms)
+def ():
+    '''returns OmpCiRelSet\n\n
+    (final MboServerInterface ms)\n
     '''

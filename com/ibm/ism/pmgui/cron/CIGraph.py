@@ -1,55 +1,73 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def CIGraph():
-    '''public CIGraph()
+def ():
+    '''returns CIGraph\n\n
+    ()\n
     '''
 def pushVisibleNodeStack():
-    '''public void pushVisibleNodeStack(final CINode node)
+    '''returns None\n\n
+    pushVisibleNodeStack(final CINode node)\n
     '''
 def popVisibleNodeStack():
-    '''public void popVisibleNodeStack()
+    '''returns None\n\n
+    popVisibleNodeStack()\n
     '''
 def getLastVisibleNode():
-    '''public CINode getLastVisibleNode()
+    '''returns CINode\n\n
+    getLastVisibleNode()\n
     '''
 def getVisibleNodeStackDepth():
-    '''public int getVisibleNodeStackDepth()
+    '''returns int\n\n
+    getVisibleNodeStackDepth()\n
     '''
 def notVisited():
-    '''public boolean notVisited(final String cinum)
+    '''returns boolean\n\n
+    notVisited(final String cinum)\n
     '''
 def pushNodeStack():
-    '''public void pushNodeStack(final String ciNum, final CINode node)
+    '''returns None\n\n
+    pushNodeStack(final String ciNum, final CINode node)\n
     '''
 def popNodeStack():
-    '''public void popNodeStack()
+    '''returns None\n\n
+    popNodeStack()\n
     '''
 def getNodeStackDepth():
-    '''public int getNodeStackDepth()
+    '''returns int\n\n
+    getNodeStackDepth()\n
     '''
 def getLastNode():
-    '''public CINode getLastNode()
+    '''returns CINode\n\n
+    getLastNode()\n
     '''
 def addNode():
-    '''public void addNode(final CINode n)
+    '''returns None\n\n
+    addNode(final CINode n)\n
     '''
 def getNode():
-    '''public CINode getNode(final String ciNum)
+    '''returns CINode\n\n
+    getNode(final String ciNum)\n
     '''
 def addLInk():
-    '''public void addLInk(final CILink l)
+    '''returns None\n\n
+    addLInk(final CILink l)\n
     '''
 def getNodesSkipped():
-    '''public String getNodesSkipped(final CINode from, final CINode to)
+    '''returns String\n\n
+    getNodesSkipped(final CINode from, final CINode to)\n
     '''
 def printLinks():
-    '''public void printLinks(final String cinum)
+    '''returns None\n\n
+    printLinks(final String cinum)\n
     '''
 def log():
-    '''public void log(final String method, final String str)
+    '''returns None\n\n
+    log(final String method, final String str)\n
     '''
 def getLinks():
-    '''public ArrayList<CILink> getLinks()
+    '''returns ArrayList<CILink>\n\n
+    getLinks()\n
     '''
 def setLinks():
-    '''public void setLinks(final ArrayList<CILink> links)
+    '''returns None\n\n
+    setLinks(final ArrayList<CILink> links)\n
     '''

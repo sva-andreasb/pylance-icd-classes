@@ -1,6 +1,8 @@
-def ZipContentTypeManager():
-    '''public ZipContentTypeManager(final InputStream in, final OPCPackage pkg)
+def ():
+    '''returns ZipContentTypeManager\n\n
+    (final InputStream in, final OPCPackage pkg)\n
     '''
 def saveImpl():
-    '''public boolean saveImpl(final Document content, final OutputStream out)
+    '''returns boolean\n\n
+    saveImpl(final Document content, final OutputStream out)\n
     '''

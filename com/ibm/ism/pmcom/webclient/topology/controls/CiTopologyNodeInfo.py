@@ -1,54 +1,72 @@
-def CiTopologyNodeInfo():
-    '''public CiTopologyNodeInfo()
+def ():
+    '''returns CiTopologyNodeInfo\n\n
+    ()\n
     '''
 def getIsImpackted():
-    '''public String getIsImpackted()
+    '''returns String\n\n
+    getIsImpackted()\n
     '''
 def setIsImpackted():
-    '''public void setIsImpackted(final String isImpackted)
+    '''returns None\n\n
+    setIsImpackted(final String isImpackted)\n
     '''
 def packCidata():
-    '''public void packCidata(final MboRemote t)
+    '''returns None\n\n
+    packCidata(final MboRemote t)\n
     '''
 def getTag():
-    '''public String getTag()
+    '''returns String\n\n
+    getTag()\n
     '''
 def setTag():
-    '''public void setTag(final String tag)
+    '''returns None\n\n
+    setTag(final String tag)\n
     '''
 def getNodeId():
-    '''public String getNodeId()
+    '''returns String\n\n
+    getNodeId()\n
     '''
 def setNodeId():
-    '''public void setNodeId(final String nodeId)
+    '''returns None\n\n
+    setNodeId(final String nodeId)\n
     '''
 def getCiname():
-    '''public String getCiname()
+    '''returns String\n\n
+    getCiname()\n
     '''
 def setCiname():
-    '''public void setCiname(final String ciname)
+    '''returns None\n\n
+    setCiname(final String ciname)\n
     '''
 def getClassStrID():
-    '''public String getClassStrID()
+    '''returns String\n\n
+    getClassStrID()\n
     '''
 def setClassStrID():
-    '''public void setClassStrID(final String classStrID)
+    '''returns None\n\n
+    setClassStrID(final String classStrID)\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def setStatus():
-    '''public void setStatus(final String status)
+    '''returns None\n\n
+    setStatus(final String status)\n
     '''
 def getClassification():
-    '''public String getClassification()
+    '''returns String\n\n
+    getClassification()\n
     '''
 def setClassification():
-    '''public void setClassification(final String classification)
+    '''returns None\n\n
+    setClassification(final String classification)\n
     '''
 def getBidiclassification():
-    '''public String getBidiclassification()
+    '''returns String\n\n
+    getBidiclassification()\n
     '''
 def setBidiclassification():
-    '''public void setBidiclassification(final String bidiclassification)
+    '''returns None\n\n
+    setBidiclassification(final String bidiclassification)\n
     '''

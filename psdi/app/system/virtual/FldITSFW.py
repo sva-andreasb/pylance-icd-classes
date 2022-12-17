@@ -1,3 +1,4 @@
-def FldITSFW():
-    '''public FldITSFW(final MboValue mbv)
+def ():
+    '''returns FldITSFW\n\n
+    (final MboValue mbv)\n
     '''

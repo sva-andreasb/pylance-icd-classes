@@ -1,13 +1,17 @@
-def AttachmentNotFoundException():
-    '''public AttachmentNotFoundException(final String jobid, final String attid, final OperationException e)
-    public AttachmentNotFoundException(final String jobid, final String attid)
+def ():
+    '''returns AttachmentNotFoundException\n\n
+    (final String jobid, final String attid, final OperationException e)\n
+    (final String jobid, final String attid)\n
     '''
 def getJobId():
-    '''public String getJobId()
+    '''returns String\n\n
+    getJobId()\n
     '''
 def getAttachmentId():
-    '''public String getAttachmentId()
+    '''returns String\n\n
+    getAttachmentId()\n
     '''
 def getRestStatusCode():
-    '''public int getRestStatusCode()
+    '''returns int\n\n
+    getRestStatusCode()\n
     '''

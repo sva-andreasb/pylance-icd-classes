@@ -1,3 +1,4 @@
 def updatecounter():
-    '''public int updatecounter()
+    '''returns int\n\n
+    updatecounter()\n
     '''

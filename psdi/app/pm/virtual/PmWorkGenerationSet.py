@@ -1,17 +1,19 @@
-def PmWorkGenerationSet():
-    '''public PmWorkGenerationSet(final MboServerInterface ms)
+def ():
+    '''returns AsyncProcess\n\n
+    (final MboServerInterface ms)\n
+    (final Enumeration enumit, final UserInfo ui, final boolean useFreq, final int leadtime, final String notifyEmail)\n
+    (final MboSetRemote mboset, final boolean useFreq, final int leadtime, final String notifyEmail)\n
     '''
 def execute():
-    '''public void execute()
-    public void execute(final MboRemote mbo)
+    '''returns None\n\n
+    execute()\n
+    execute(final MboRemote mbo)\n
     '''
 def executeOnSet():
-    '''public void executeOnSet(final MboSetRemote resultSet)
-    '''
-def AsyncProcess():
-    '''public AsyncProcess(final Enumeration enumit, final UserInfo ui, final boolean useFreq, final int leadtime, final String notifyEmail)
-    public AsyncProcess(final MboSetRemote mboset, final boolean useFreq, final int leadtime, final String notifyEmail)
+    '''returns None\n\n
+    executeOnSet(final MboSetRemote resultSet)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

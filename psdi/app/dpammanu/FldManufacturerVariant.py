@@ -1,6 +1,8 @@
-def FldManufacturerVariant():
-    '''public FldManufacturerVariant(final MboValue mbv)
+def ():
+    '''returns FldManufacturerVariant\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

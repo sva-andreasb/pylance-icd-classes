@@ -1,4 +1,5 @@
 def createCompatibleVolatileImage():
-    '''public VolatileImage createCompatibleVolatileImage(final int width, final int height)
-    public VolatileImage createCompatibleVolatileImage(final int width, final int height, final int transparency)
+    '''returns VolatileImage\n\n
+    createCompatibleVolatileImage(final int width, final int height)\n
+    createCompatibleVolatileImage(final int width, final int height, final int transparency)\n
     '''

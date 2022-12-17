@@ -1,9 +1,12 @@
 def getName():
-    '''public CharSequence getName()
+    '''returns CharSequence\n\n
+    getName()\n
     '''
 def getData():
-    '''public V getData()
+    '''returns V\n\n
+    getData()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,51 +1,53 @@
 PER_FIELD_NAME = "String  \"PerField40\""
-def PerFieldPostingsFormat():
-    '''public PerFieldPostingsFormat()
-    '''
-def fieldsConsumer():
-    '''public final FieldsConsumer fieldsConsumer(final SegmentWriteState state)
-    '''
-def fieldsProducer():
-    '''public final FieldsProducer fieldsProducer(final SegmentReadState state)
-    '''
-def FieldsWriter():
-    '''public FieldsWriter(final SegmentWriteState writeState)
+def ():
+    '''returns FieldsReader\n\n
+    ()\n
+    (final SegmentWriteState writeState)\n
+    (final SegmentReadState readState)\n
     '''
 def write():
-    '''public void write(final Fields fields, final NormsProducer norms)
+    '''returns None\n\n
+    write(final Fields fields, final NormsProducer norms)\n
     '''
 def iterator():
-    '''public Iterator<String> iterator()
-    public Iterator<String> iterator()
+    '''returns Iterator<String>\n\n
+    iterator()\n
+    iterator()\n
     '''
 def merge():
-    '''public void merge(final MergeState mergeState, final NormsProducer norms)
+    '''returns None\n\n
+    merge(final MergeState mergeState, final NormsProducer norms)\n
     '''
 def close():
-    '''public void close()
-    public void close()
-    '''
-def FieldsReader():
-    '''public FieldsReader(final SegmentReadState readState)
+    '''returns None\n\n
+    close()\n
+    close()\n
     '''
 def terms():
-    '''public Terms terms(final String field)
+    '''returns Terms\n\n
+    terms(final String field)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def ramBytesUsed():
-    '''public long ramBytesUsed()
+    '''returns long\n\n
+    ramBytesUsed()\n
     '''
 def getChildResources():
-    '''public Collection<Accountable> getChildResources()
+    '''returns Collection<Accountable>\n\n
+    getChildResources()\n
     '''
 def checkIntegrity():
-    '''public void checkIntegrity()
+    '''returns None\n\n
+    checkIntegrity()\n
     '''
 def getMergeInstance():
-    '''public FieldsProducer getMergeInstance()
+    '''returns FieldsProducer\n\n
+    getMergeInstance()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

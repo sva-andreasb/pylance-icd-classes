@@ -1,9 +1,8 @@
-def JSONStream():
-    '''public JSONStream(final InputStream inputStream)
+def ():
+    '''returns JSONStream\n\n
+    (final InputStream inputStream)\n
     '''
 def getJsonObject():
-    '''public JSONObject getJsonObject()
-    '''
-def clean4Json4J():
-    '''public static String clean4Json4J(String s)
+    '''returns JSONObject\n\n
+    getJsonObject()\n
     '''

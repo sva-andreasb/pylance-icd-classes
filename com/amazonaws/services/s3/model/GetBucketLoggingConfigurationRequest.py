@@ -1,3 +1,4 @@
-def GetBucketLoggingConfigurationRequest():
-    '''public GetBucketLoggingConfigurationRequest(final String bucketName)
+def ():
+    '''returns GetBucketLoggingConfigurationRequest\n\n
+    (final String bucketName)\n
     '''

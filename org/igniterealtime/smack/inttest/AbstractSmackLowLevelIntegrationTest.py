@@ -1,3 +1,4 @@
-def AbstractSmackLowLevelIntegrationTest():
-    '''public AbstractSmackLowLevelIntegrationTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns AbstractSmackLowLevelIntegrationTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''

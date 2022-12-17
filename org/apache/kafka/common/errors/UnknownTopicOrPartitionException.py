@@ -1,6 +1,7 @@
-def UnknownTopicOrPartitionException():
-    '''public UnknownTopicOrPartitionException()
-    public UnknownTopicOrPartitionException(final String message)
-    public UnknownTopicOrPartitionException(final Throwable throwable)
-    public UnknownTopicOrPartitionException(final String message, final Throwable throwable)
+def ():
+    '''returns UnknownTopicOrPartitionException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable throwable)\n
+    (final String message, final Throwable throwable)\n
     '''

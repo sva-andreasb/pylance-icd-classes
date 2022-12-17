@@ -3,15 +3,19 @@ RELATIONSHIP_REQUIREMENTFORPRODUCT = "String  \"REQUIREMENTFORPRODUCT\""
 RELATIONSHIP_COMMENT = "String  \"COMMENT\""
 RELATIONSHIP_REQUIREMENTFORLOC = "String  \"REQUIREMENTFORLOC\""
 RELATIONSHIP_DOCLINKS = "String  \"DOCLINKS\""
-def BIMDesignSpec():
-    '''public BIMDesignSpec(final MboSet ms)
+def ():
+    '''returns BIMDesignSpec\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''

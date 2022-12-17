@@ -1,6 +1,8 @@
-def SetValueNullToMbo():
-    '''public SetValueNullToMbo(final Expression exp, final String name, final int numParams)
+def ():
+    '''returns SetValueNullToMbo\n\n
+    (final Expression exp, final String name, final int numParams)\n
     '''
 def eval():
-    '''public BigDecimal eval(final List<BigDecimal> parameters)
+    '''returns BigDecimal\n\n
+    eval(final List<BigDecimal> parameters)\n
     '''

@@ -1,8 +1,10 @@
 NAME_CHANGED = "int  1"
 DELIMITER_CHANGED = "int  2"
 def getUser():
-    '''public STUser getUser()
+    '''returns STUser\n\n
+    getUser()\n
     '''
 def getNameDelimiter():
-    '''public String getNameDelimiter()
+    '''returns String\n\n
+    getNameDelimiter()\n
     '''

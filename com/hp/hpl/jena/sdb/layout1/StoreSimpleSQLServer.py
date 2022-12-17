@@ -1,3 +1,4 @@
-def StoreSimpleSQLServer():
-    '''public StoreSimpleSQLServer(final SDBConnection connection, final StoreDesc desc)
+def ():
+    '''returns StoreSimpleSQLServer\n\n
+    (final SDBConnection connection, final StoreDesc desc)\n
     '''

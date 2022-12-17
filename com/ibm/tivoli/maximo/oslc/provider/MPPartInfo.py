@@ -1,9 +1,12 @@
-def MPPartInfo():
-    '''public MPPartInfo(final byte[] data, final String contentType)
+def ():
+    '''returns MPPartInfo\n\n
+    (final byte[] data, final String contentType)\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''
 def getContentType():
-    '''public String getContentType()
+    '''returns String\n\n
+    getContentType()\n
     '''

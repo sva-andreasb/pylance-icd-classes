@@ -1,12 +1,16 @@
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def isAnimatableProperty():
-    '''public boolean isAnimatableProperty()
+    '''returns boolean\n\n
+    isAnimatableProperty()\n
     '''
 def isAdditiveProperty():
-    '''public boolean isAdditiveProperty()
+    '''returns boolean\n\n
+    isAdditiveProperty()\n
     '''
 def setValues():
-    '''public void setValues(final CSSEngine eng, final PropertyHandler ph, LexicalUnit lu, final boolean imp)
+    '''returns None\n\n
+    setValues(final CSSEngine eng, final PropertyHandler ph, LexicalUnit lu, final boolean imp)\n
     '''

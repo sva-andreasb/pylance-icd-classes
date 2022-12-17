@@ -1,6 +1,8 @@
-def GuardArranger():
-    '''public GuardArranger(final Triple[] triples)
+def ():
+    '''returns GuardArranger\n\n
+    (final Triple[] triples)\n
     '''
 def makeGuards():
-    '''public ValuatorSet[] makeGuards(final Mapping map, final ExpressionSet constraints)
+    '''returns ValuatorSet[]\n\n
+    makeGuards(final Mapping map, final ExpressionSet constraints)\n
     '''

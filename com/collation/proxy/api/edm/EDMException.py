@@ -1,4 +1,5 @@
-def EDMException():
-    '''public EDMException(final String msg)
-    public EDMException(final String msg, final Throwable t)
+def ():
+    '''returns EDMException\n\n
+    (final String msg)\n
+    (final String msg, final Throwable t)\n
     '''

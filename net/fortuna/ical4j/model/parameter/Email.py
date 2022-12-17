@@ -1,12 +1,13 @@
-def Email():
-    '''public Email(final String address)
+def ():
+    '''returns Factory\n\n
+    (final String address)\n
+    ()\n
     '''
 def getValue():
-    '''public String getValue()
-    '''
-def Factory():
-    '''public Factory()
+    '''returns String\n\n
+    getValue()\n
     '''
 def createParameter():
-    '''public Parameter createParameter(final String value)
+    '''returns Parameter\n\n
+    createParameter(final String value)\n
     '''

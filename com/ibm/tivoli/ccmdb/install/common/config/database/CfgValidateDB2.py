@@ -1,48 +1,60 @@
 def canConnectWithUser():
-    '''public boolean canConnectWithUser(final String jdbcUrl, final String dbuser, final String dbpassword)
+    '''returns boolean\n\n
+    canConnectWithUser(final String jdbcUrl, final String dbuser, final String dbpassword)\n
     '''
 def instanceExists():
-    '''public boolean instanceExists(final String dbinstance)
+    '''returns boolean\n\n
+    instanceExists(final String dbinstance)\n
     '''
 def dbExists():
-    '''public boolean dbExists(final String dbname)
+    '''returns boolean\n\n
+    dbExists(final String dbname)\n
     '''
 def hasDbaAuthority():
-    '''public boolean hasDbaAuthority(final String jdbcUrl, final String dbaUser, final String dbaPassword)
+    '''returns boolean\n\n
+    hasDbaAuthority(final String jdbcUrl, final String dbaUser, final String dbaPassword)\n
     '''
 def tableSpaceExists():
-    '''public boolean tableSpaceExists(final String dbtsname)
+    '''returns boolean\n\n
+    tableSpaceExists(final String dbtsname)\n
     '''
 def tableSpaceSize():
-    '''public boolean tableSpaceSize(final String dbtsname, final String dbtssize)
+    '''returns boolean\n\n
+    tableSpaceSize(final String dbtsname, final String dbtssize)\n
     '''
 def tablespaceHasFreeMinimumRequiredFreePages():
-    '''public int tablespaceHasFreeMinimumRequiredFreePages(final String dbtsname, final int minFreePages)
+    '''returns int\n\n
+    tablespaceHasFreeMinimumRequiredFreePages(final String dbtsname, final int minFreePages)\n
     '''
 def bufferPoolExists():
-    '''public boolean bufferPoolExists(final String dbbpname)
+    '''returns boolean\n\n
+    bufferPoolExists(final String dbbpname)\n
     '''
 def bufferPoolSize():
-    '''public boolean bufferPoolSize(final String dbbpname, final String dbbpsize)
+    '''returns boolean\n\n
+    bufferPoolSize(final String dbbpname, final String dbbpsize)\n
     '''
 def dbSize():
-    '''public boolean dbSize(final String dbsize, final String dbname)
+    '''returns boolean\n\n
+    dbSize(final String dbsize, final String dbname)\n
     '''
 def dbLogFileSize():
-    '''public boolean dbLogFileSize(final String dblfsize, final String dbname)
+    '''returns boolean\n\n
+    dbLogFileSize(final String dblfsize, final String dbname)\n
     '''
 def dbApplCtlHeapSize():
-    '''public boolean dbApplCtlHeapSize(final String dbacsize)
+    '''returns boolean\n\n
+    dbApplCtlHeapSize(final String dbacsize)\n
     '''
 def dbApplHeapSize():
-    '''public boolean dbApplHeapSize(final String dbahsize)
+    '''returns boolean\n\n
+    dbApplHeapSize(final String dbahsize)\n
     '''
 def dbLockListSize():
-    '''public boolean dbLockListSize(final String dbllsize)
+    '''returns boolean\n\n
+    dbLockListSize(final String dbllsize)\n
     '''
 def dbLogSecSize():
-    '''public boolean dbLogSecSize(final String dbslsize)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns boolean\n\n
+    dbLogSecSize(final String dbslsize)\n
     '''

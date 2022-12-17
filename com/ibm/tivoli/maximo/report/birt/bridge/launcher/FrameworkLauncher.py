@@ -1,39 +1,28 @@
-def FrameworkLauncher():
-    '''public FrameworkLauncher()
+def ():
+    '''returns ChildFirstURLClassLoader\n\n
+    ()\n
+    (final URL[] urls)\n
+    (final URL[] urls, final ClassLoader parent)\n
+    (final URL[] urls, final ClassLoader parent, final URLStreamHandlerFactory factory)\n
     '''
 def init():
-    '''public void init(final ServletConfig servletConfig)
-    public void init()
+    '''returns None\n\n
+    init(final ServletConfig servletConfig)\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
-    '''
-def deploy():
-    '''public synchronized void deploy()
-    '''
-def undeploy():
-    '''public synchronized void undeploy()
-    '''
-def start():
-    '''public synchronized void start()
+    '''returns None\n\n
+    destroy()\n
     '''
 def getFrameworkInternalProperties():
-    '''public Properties getFrameworkInternalProperties(final ClassLoader cl)
-    '''
-def stop():
-    '''public synchronized void stop()
-    '''
-def getFrameworkContextClassLoader():
-    '''public synchronized ClassLoader getFrameworkContextClassLoader()
+    '''returns Properties\n\n
+    getFrameworkInternalProperties(final ClassLoader cl)\n
     '''
 def accept():
-    '''public boolean accept(final File candidate)
-    '''
-def ChildFirstURLClassLoader():
-    '''public ChildFirstURLClassLoader(final URL[] urls)
-    public ChildFirstURLClassLoader(final URL[] urls, final ClassLoader parent)
-    public ChildFirstURLClassLoader(final URL[] urls, final ClassLoader parent, final URLStreamHandlerFactory factory)
+    '''returns boolean\n\n
+    accept(final File candidate)\n
     '''
 def getResource():
-    '''public URL getResource(final String name)
+    '''returns URL\n\n
+    getResource(final String name)\n
     '''

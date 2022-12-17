@@ -1,13 +1,17 @@
-def XmlVisioDocument():
-    '''public XmlVisioDocument(final OPCPackage pkg)
-    public XmlVisioDocument(final InputStream is)
+def ():
+    '''returns XmlVisioDocument\n\n
+    (final OPCPackage pkg)\n
+    (final InputStream is)\n
     '''
 def getAllEmbedds():
-    '''public List<PackagePart> getAllEmbedds()
+    '''returns List<PackagePart>\n\n
+    getAllEmbedds()\n
     '''
 def getPages():
-    '''public Collection<XDGFPage> getPages()
+    '''returns Collection<XDGFPage>\n\n
+    getPages()\n
     '''
 def getStyleById():
-    '''public XDGFStyleSheet getStyleById(final long id)
+    '''returns XDGFStyleSheet\n\n
+    getStyleById(final long id)\n
     '''

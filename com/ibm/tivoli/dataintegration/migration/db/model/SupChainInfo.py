@@ -1,21 +1,28 @@
-def SupChainInfo():
-    '''public SupChainInfo(final Guid alGuid, final Guid supGuid, final int supOrder, final Timestamp createTs, final String role)
+def ():
+    '''returns SupChainInfo\n\n
+    (final Guid alGuid, final Guid supGuid, final int supOrder, final Timestamp createTs, final String role)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getAlGuid():
-    '''public Guid getAlGuid()
+    '''returns Guid\n\n
+    getAlGuid()\n
     '''
 def getSupGuid():
-    '''public Guid getSupGuid()
+    '''returns Guid\n\n
+    getSupGuid()\n
     '''
 def getRole():
-    '''public String getRole()
+    '''returns String\n\n
+    getRole()\n
     '''
 def getSupOrder():
-    '''public int getSupOrder()
+    '''returns int\n\n
+    getSupOrder()\n
     '''
 def getCreateTs():
-    '''public Timestamp getCreateTs()
+    '''returns Timestamp\n\n
+    getCreateTs()\n
     '''

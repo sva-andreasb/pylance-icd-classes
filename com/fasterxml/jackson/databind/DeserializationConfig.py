@@ -1,80 +1,65 @@
-def DeserializationConfig():
-    '''public DeserializationConfig(final BaseSettings base, final SubtypeResolver str, final SimpleMixInResolver mixins, final RootNameLookup rootNames, final ConfigOverrides configOverrides)
+def ():
+    '''returns DeserializationConfig\n\n
+    (final BaseSettings base, final SubtypeResolver str, final SimpleMixInResolver mixins, final RootNameLookup rootNames, final ConfigOverrides configOverrides)\n
     '''
 def with():
-    '''public DeserializationConfig with(final SubtypeResolver str)
-    public DeserializationConfig with(final ContextAttributes attrs)
-    public DeserializationConfig with(final DeserializationFeature feature)
-    public DeserializationConfig with(final DeserializationFeature first, final DeserializationFeature... features)
-    public DeserializationConfig with(final JsonParser.Feature feature)
-    public DeserializationConfig with(final FormatFeature feature)
-    public DeserializationConfig with(final JsonNodeFactory f)
+    '''returns DeserializationConfig\n\n
+    with(final SubtypeResolver str)\n
+    with(final ContextAttributes attrs)\n
+    with(final DeserializationFeature feature)\n
+    with(final DeserializationFeature first, final DeserializationFeature... features)\n
+    with(final JsonParser.Feature feature)\n
+    with(final FormatFeature feature)\n
+    with(final JsonNodeFactory f)\n
     '''
 def withRootName():
-    '''public DeserializationConfig withRootName(final PropertyName rootName)
+    '''returns DeserializationConfig\n\n
+    withRootName(final PropertyName rootName)\n
     '''
 def withView():
-    '''public DeserializationConfig withView(final Class<?> view)
+    '''returns DeserializationConfig\n\n
+    withView(final Class<?> view)\n
     '''
 def withFeatures():
-    '''public DeserializationConfig withFeatures(final DeserializationFeature... features)
-    public DeserializationConfig withFeatures(final JsonParser.Feature... features)
-    public DeserializationConfig withFeatures(final FormatFeature... features)
+    '''returns DeserializationConfig\n\n
+    withFeatures(final DeserializationFeature... features)\n
+    withFeatures(final JsonParser.Feature... features)\n
+    withFeatures(final FormatFeature... features)\n
     '''
 def without():
-    '''public DeserializationConfig without(final DeserializationFeature feature)
-    public DeserializationConfig without(final DeserializationFeature first, final DeserializationFeature... features)
-    public DeserializationConfig without(final JsonParser.Feature feature)
-    public DeserializationConfig without(final FormatFeature feature)
+    '''returns DeserializationConfig\n\n
+    without(final DeserializationFeature feature)\n
+    without(final DeserializationFeature first, final DeserializationFeature... features)\n
+    without(final JsonParser.Feature feature)\n
+    without(final FormatFeature feature)\n
     '''
 def withoutFeatures():
-    '''public DeserializationConfig withoutFeatures(final DeserializationFeature... features)
-    public DeserializationConfig withoutFeatures(final JsonParser.Feature... features)
-    public DeserializationConfig withoutFeatures(final FormatFeature... features)
+    '''returns DeserializationConfig\n\n
+    withoutFeatures(final DeserializationFeature... features)\n
+    withoutFeatures(final JsonParser.Feature... features)\n
+    withoutFeatures(final FormatFeature... features)\n
     '''
 def withHandler():
-    '''public DeserializationConfig withHandler(final DeserializationProblemHandler h)
+    '''returns DeserializationConfig\n\n
+    withHandler(final DeserializationProblemHandler h)\n
     '''
 def withNoProblemHandlers():
-    '''public DeserializationConfig withNoProblemHandlers()
+    '''returns DeserializationConfig\n\n
+    withNoProblemHandlers()\n
     '''
 def initialize():
-    '''public void initialize(final JsonParser p)
+    '''returns None\n\n
+    initialize(final JsonParser p)\n
     '''
 def useRootWrapping():
-    '''public boolean useRootWrapping()
-    '''
-def isEnabled():
-    '''public final boolean isEnabled(final DeserializationFeature f)
-    public final boolean isEnabled(final JsonParser.Feature f, final JsonFactory factory)
-    '''
-def hasDeserializationFeatures():
-    '''public final boolean hasDeserializationFeatures(final int featureMask)
-    '''
-def hasSomeOfFeatures():
-    '''public final boolean hasSomeOfFeatures(final int featureMask)
-    '''
-def getDeserializationFeatures():
-    '''public final int getDeserializationFeatures()
-    '''
-def requiresFullValue():
-    '''public final boolean requiresFullValue()
+    '''returns boolean\n\n
+    useRootWrapping()\n
     '''
 def getProblemHandlers():
-    '''public LinkedNode<DeserializationProblemHandler> getProblemHandlers()
-    '''
-def getNodeFactory():
-    '''public final JsonNodeFactory getNodeFactory()
-    '''
-def introspect():
-    '''public <T extends BeanDescription> T introspect(final JavaType type)
-    '''
-def introspectForCreation():
-    '''public <T extends BeanDescription> T introspectForCreation(final JavaType type)
-    '''
-def introspectForBuilder():
-    '''public <T extends BeanDescription> T introspectForBuilder(final JavaType type)
+    '''returns LinkedNode<DeserializationProblemHandler>\n\n
+    getProblemHandlers()\n
     '''
 def findTypeDeserializer():
-    '''public TypeDeserializer findTypeDeserializer(final JavaType baseType)
+    '''returns TypeDeserializer\n\n
+    findTypeDeserializer(final JavaType baseType)\n
     '''

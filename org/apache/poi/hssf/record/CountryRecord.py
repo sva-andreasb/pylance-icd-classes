@@ -1,26 +1,34 @@
 sid = "short  140"
-def CountryRecord():
-    '''public CountryRecord()
-    public CountryRecord(final RecordInputStream in)
+def ():
+    '''returns CountryRecord\n\n
+    ()\n
+    (final RecordInputStream in)\n
     '''
 def setDefaultCountry():
-    '''public void setDefaultCountry(final short country)
+    '''returns None\n\n
+    setDefaultCountry(final short country)\n
     '''
 def setCurrentCountry():
-    '''public void setCurrentCountry(final short country)
+    '''returns None\n\n
+    setCurrentCountry(final short country)\n
     '''
 def getDefaultCountry():
-    '''public short getDefaultCountry()
+    '''returns short\n\n
+    getDefaultCountry()\n
     '''
 def getCurrentCountry():
-    '''public short getCurrentCountry()
+    '''returns short\n\n
+    getCurrentCountry()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def serialize():
-    '''public void serialize(final LittleEndianOutput out)
+    '''returns None\n\n
+    serialize(final LittleEndianOutput out)\n
     '''
 def getSid():
-    '''public short getSid()
+    '''returns short\n\n
+    getSid()\n
     '''

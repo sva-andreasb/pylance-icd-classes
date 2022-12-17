@@ -1,82 +1,104 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getAuthenticationRecord():
-    '''public Saml getAuthenticationRecord()
+    '''returns Saml\n\n
+    getAuthenticationRecord()\n
     '''
 def setAuthenticationRecord():
-    '''public void setAuthenticationRecord(final Saml authenticationRecord)
+    '''returns None\n\n
+    setAuthenticationRecord(final Saml authenticationRecord)\n
     '''
 def setType():
-    '''public void setType(final com.softlayer.api.service.account.authentication.attribute.Type type)
+    '''returns None\n\n
+    setType(final com.softlayer.api.service.account.authentication.attribute.Type type)\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getTypeId():
-    '''public Long getTypeId()
+    '''returns Long\n\n
+    getTypeId()\n
     '''
 def setTypeId():
-    '''public void setTypeId(final Long typeId)
+    '''returns None\n\n
+    setTypeId(final Long typeId)\n
     '''
 def isTypeIdSpecified():
-    '''public boolean isTypeIdSpecified()
+    '''returns boolean\n\n
+    isTypeIdSpecified()\n
     '''
 def unsetTypeId():
-    '''public void unsetTypeId()
+    '''returns None\n\n
+    unsetTypeId()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def isValueSpecified():
-    '''public boolean isValueSpecified()
+    '''returns boolean\n\n
+    isValueSpecified()\n
     '''
 def unsetValue():
-    '''public void unsetValue()
+    '''returns None\n\n
+    unsetValue()\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def typeId():
-    '''public Mask typeId()
+    '''returns Mask\n\n
+    typeId()\n
     '''
 def value():
-    '''public Mask value()
+    '''returns Mask\n\n
+    value()\n
     '''

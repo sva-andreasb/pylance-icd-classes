@@ -1,27 +1,36 @@
-def AppFrameActionManager():
-    '''public AppFrameActionManager(final IlvApplication b)
+def ():
+    '''returns AppFrameActionManager\n\n
+    (final IlvApplication b)\n
     '''
 def readAction():
-    '''public void readAction(final Element element, final IlvServicesProvider ilvServicesProvider)
+    '''returns None\n\n
+    readAction(final Element element, final IlvServicesProvider ilvServicesProvider)\n
     '''
 def createMenuItem():
-    '''public JMenuItem createMenuItem(final Action action, final IlvServicesProvider ilvServicesProvider)
+    '''returns JMenuItem\n\n
+    createMenuItem(final Action action, final IlvServicesProvider ilvServicesProvider)\n
     '''
 def setAction():
-    '''public void setAction(final AbstractButton abstractButton, final Action action, final IlvServicesProvider ilvServicesProvider)
+    '''returns None\n\n
+    setAction(final AbstractButton abstractButton, final Action action, final IlvServicesProvider ilvServicesProvider)\n
     '''
 def setButtonProperties():
-    '''public void setButtonProperties(final JToolBar toolBar, final AbstractButton abstractButton, final Action action)
+    '''returns None\n\n
+    setButtonProperties(final JToolBar toolBar, final AbstractButton abstractButton, final Action action)\n
     '''
 def updateButtonProperties():
-    '''public void updateButtonProperties(final AbstractButton abstractButton, final IlvServicesProvider ilvServicesProvider)
+    '''returns None\n\n
+    updateButtonProperties(final AbstractButton abstractButton, final IlvServicesProvider ilvServicesProvider)\n
     '''
 def alignMenuIcons():
-    '''public void alignMenuIcons(final MenuElement[] array, final boolean b, final boolean b2)
+    '''returns None\n\n
+    alignMenuIcons(final MenuElement[] array, final boolean b, final boolean b2)\n
     '''
 def setServicesDelegate():
-    '''public void setServicesDelegate(final IlvServices a)
+    '''returns None\n\n
+    setServicesDelegate(final IlvServices a)\n
     '''
 def getServicesDelegate():
-    '''public IlvServices getServicesDelegate()
+    '''returns IlvServices\n\n
+    getServicesDelegate()\n
     '''

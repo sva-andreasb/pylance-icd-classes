@@ -1,34 +1,34 @@
-def schemaVersions():
-    '''public static Schema[] schemaVersions()
-    '''
-def AddOffsetsToTxnRequest():
-    '''public AddOffsetsToTxnRequest(final Struct struct, final short version)
+def ():
+    '''returns Builder\n\n
+    (final Struct struct, final short version)\n
+    (final String transactionalId, final long producerId, final short producerEpoch, final String consumerGroupId)\n
     '''
 def transactionalId():
-    '''public String transactionalId()
+    '''returns String\n\n
+    transactionalId()\n
     '''
 def producerId():
-    '''public long producerId()
+    '''returns long\n\n
+    producerId()\n
     '''
 def producerEpoch():
-    '''public short producerEpoch()
+    '''returns short\n\n
+    producerEpoch()\n
     '''
 def consumerGroupId():
-    '''public String consumerGroupId()
-    public String consumerGroupId()
+    '''returns String\n\n
+    consumerGroupId()\n
+    consumerGroupId()\n
     '''
 def getErrorResponse():
-    '''public AddOffsetsToTxnResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-    '''
-def parse():
-    '''public static AddOffsetsToTxnRequest parse(final ByteBuffer buffer, final short version)
-    '''
-def Builder():
-    '''public Builder(final String transactionalId, final long producerId, final short producerEpoch, final String consumerGroupId)
+    '''returns AddOffsetsToTxnResponse\n\n
+    getErrorResponse(final int throttleTimeMs, final Throwable e)\n
     '''
 def build():
-    '''public AddOffsetsToTxnRequest build(final short version)
+    '''returns AddOffsetsToTxnRequest\n\n
+    build(final short version)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

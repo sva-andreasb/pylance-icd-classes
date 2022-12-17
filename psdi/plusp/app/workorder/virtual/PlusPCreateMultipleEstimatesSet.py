@@ -1,3 +1,4 @@
-def PlusPCreateMultipleEstimatesSet():
-    '''public PlusPCreateMultipleEstimatesSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPCreateMultipleEstimatesSet\n\n
+    (final MboServerInterface ms)\n
     '''

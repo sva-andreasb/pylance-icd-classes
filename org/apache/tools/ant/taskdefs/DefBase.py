@@ -1,30 +1,40 @@
 def setReverseLoader():
-    '''public void setReverseLoader(final boolean reverseLoader)
+    '''returns None\n\n
+    setReverseLoader(final boolean reverseLoader)\n
     '''
 def getClasspath():
-    '''public Path getClasspath()
+    '''returns Path\n\n
+    getClasspath()\n
     '''
 def isReverseLoader():
-    '''public boolean isReverseLoader()
+    '''returns boolean\n\n
+    isReverseLoader()\n
     '''
 def getLoaderId():
-    '''public String getLoaderId()
+    '''returns String\n\n
+    getLoaderId()\n
     '''
 def getClasspathId():
-    '''public String getClasspathId()
+    '''returns String\n\n
+    getClasspathId()\n
     '''
 def setClasspath():
-    '''public void setClasspath(final Path classpath)
+    '''returns None\n\n
+    setClasspath(final Path classpath)\n
     '''
 def createClasspath():
-    '''public Path createClasspath()
+    '''returns Path\n\n
+    createClasspath()\n
     '''
 def setClasspathRef():
-    '''public void setClasspathRef(final Reference r)
+    '''returns None\n\n
+    setClasspathRef(final Reference r)\n
     '''
 def setLoaderRef():
-    '''public void setLoaderRef(final Reference r)
+    '''returns None\n\n
+    setLoaderRef(final Reference r)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

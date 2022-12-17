@@ -1,9 +1,12 @@
-def StatefulInfo():
-    '''public StatefulInfo(final String st, final String memo)
+def ():
+    '''returns StatefulInfo\n\n
+    (final String st, final String memo)\n
     '''
 def getStatus():
-    '''public String getStatus()
+    '''returns String\n\n
+    getStatus()\n
     '''
 def getMemo():
-    '''public String getMemo()
+    '''returns String\n\n
+    getMemo()\n
     '''

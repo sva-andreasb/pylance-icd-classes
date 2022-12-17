@@ -1,53 +1,64 @@
-def IloCplex__NodeCallbackI():
-    '''public IloCplex__NodeCallbackI(final long cPtr, final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__NodeCallbackI obj)
+def ():
+    '''returns IloCplex__NodeCallbackI\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def getNodeId():
-    '''public NodeId getNodeId(final long node)
+    '''returns NodeId\n\n
+    getNodeId(final long node)\n
     '''
 def getObjValue():
-    '''public double getObjValue(final long node)
-    public double getObjValue(final NodeId nodeid)
+    '''returns double\n\n
+    getObjValue(final long node)\n
+    getObjValue(final NodeId nodeid)\n
     '''
 def getEstimatedObjValue():
-    '''public double getEstimatedObjValue(final long node)
-    public double getEstimatedObjValue(final NodeId nodeid)
+    '''returns double\n\n
+    getEstimatedObjValue(final long node)\n
+    getEstimatedObjValue(final NodeId nodeid)\n
     '''
 def getDepth():
-    '''public int getDepth(final long node)
-    public int getDepth(final NodeId nodeid)
+    '''returns int\n\n
+    getDepth(final long node)\n
+    getDepth(final NodeId nodeid)\n
     '''
 def getInfeasibilitySum():
-    '''public double getInfeasibilitySum(final long node)
-    public double getInfeasibilitySum(final NodeId nodeid)
+    '''returns double\n\n
+    getInfeasibilitySum(final long node)\n
+    getInfeasibilitySum(final NodeId nodeid)\n
     '''
 def getNinfeasibilities():
-    '''public int getNinfeasibilities(final long node)
-    public int getNinfeasibilities(final NodeId nodeid)
+    '''returns int\n\n
+    getNinfeasibilities(final long node)\n
+    getNinfeasibilities(final NodeId nodeid)\n
     '''
 def getNodeData():
-    '''public SWIGTYPE_p_NodeData getNodeData(final long node)
-    public SWIGTYPE_p_NodeData getNodeData(final NodeId nodeid)
+    '''returns SWIGTYPE_p_NodeData\n\n
+    getNodeData(final long node)\n
+    getNodeData(final NodeId nodeid)\n
     '''
 def setNodeData():
-    '''public SWIGTYPE_p_NodeData setNodeData(final long node, final SWIGTYPE_p_NodeData data)
+    '''returns SWIGTYPE_p_NodeData\n\n
+    setNodeData(final long node, final SWIGTYPE_p_NodeData data)\n
     '''
 def selectNode():
-    '''public void selectNode(final long node)
-    public void selectNode(final NodeId nodeid)
+    '''returns None\n\n
+    selectNode(final long node)\n
+    selectNode(final NodeId nodeid)\n
     '''
 def getBranchVar():
-    '''public IloNumVar getBranchVar(final long node)
-    public IloNumVar getBranchVar(final NodeId nodeid)
+    '''returns IloNumVar\n\n
+    getBranchVar(final long node)\n
+    getBranchVar(final NodeId nodeid)\n
     '''
 def getNodeNumber64():
-    '''public long getNodeNumber64(final NodeId nodeid)
+    '''returns long\n\n
+    getNodeNumber64(final NodeId nodeid)\n
     '''
 def getNodeNumber():
-    '''public int getNodeNumber(final NodeId nodeid)
+    '''returns int\n\n
+    getNodeNumber(final NodeId nodeid)\n
     '''

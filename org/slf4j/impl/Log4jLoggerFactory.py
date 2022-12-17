@@ -1,6 +1,8 @@
-def Log4jLoggerFactory():
-    '''public Log4jLoggerFactory()
+def ():
+    '''returns Log4jLoggerFactory\n\n
+    ()\n
     '''
 def getLogger():
-    '''public Logger getLogger(final String name)
+    '''returns Logger\n\n
+    getLogger(final String name)\n
     '''

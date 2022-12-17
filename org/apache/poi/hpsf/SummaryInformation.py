@@ -1,174 +1,231 @@
 DEFAULT_STREAM_NAME = "String  \"\u0005SummaryInformation\""
 def getPropertySetIDMap():
-    '''public PropertyIDMap getPropertySetIDMap()
+    '''returns PropertyIDMap\n\n
+    getPropertySetIDMap()\n
     '''
-def SummaryInformation():
-    '''public SummaryInformation()
-    public SummaryInformation(final PropertySet ps)
-    public SummaryInformation(final InputStream stream)
+def ():
+    '''returns SummaryInformation\n\n
+    ()\n
+    (final PropertySet ps)\n
+    (final InputStream stream)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String title)
+    '''returns None\n\n
+    setTitle(final String title)\n
     '''
 def removeTitle():
-    '''public void removeTitle()
+    '''returns None\n\n
+    removeTitle()\n
     '''
 def getSubject():
-    '''public String getSubject()
+    '''returns String\n\n
+    getSubject()\n
     '''
 def setSubject():
-    '''public void setSubject(final String subject)
+    '''returns None\n\n
+    setSubject(final String subject)\n
     '''
 def removeSubject():
-    '''public void removeSubject()
+    '''returns None\n\n
+    removeSubject()\n
     '''
 def getAuthor():
-    '''public String getAuthor()
+    '''returns String\n\n
+    getAuthor()\n
     '''
 def setAuthor():
-    '''public void setAuthor(final String author)
+    '''returns None\n\n
+    setAuthor(final String author)\n
     '''
 def removeAuthor():
-    '''public void removeAuthor()
+    '''returns None\n\n
+    removeAuthor()\n
     '''
 def getKeywords():
-    '''public String getKeywords()
+    '''returns String\n\n
+    getKeywords()\n
     '''
 def setKeywords():
-    '''public void setKeywords(final String keywords)
+    '''returns None\n\n
+    setKeywords(final String keywords)\n
     '''
 def removeKeywords():
-    '''public void removeKeywords()
+    '''returns None\n\n
+    removeKeywords()\n
     '''
 def getComments():
-    '''public String getComments()
+    '''returns String\n\n
+    getComments()\n
     '''
 def setComments():
-    '''public void setComments(final String comments)
+    '''returns None\n\n
+    setComments(final String comments)\n
     '''
 def removeComments():
-    '''public void removeComments()
+    '''returns None\n\n
+    removeComments()\n
     '''
 def getTemplate():
-    '''public String getTemplate()
+    '''returns String\n\n
+    getTemplate()\n
     '''
 def setTemplate():
-    '''public void setTemplate(final String template)
+    '''returns None\n\n
+    setTemplate(final String template)\n
     '''
 def removeTemplate():
-    '''public void removeTemplate()
+    '''returns None\n\n
+    removeTemplate()\n
     '''
 def getLastAuthor():
-    '''public String getLastAuthor()
+    '''returns String\n\n
+    getLastAuthor()\n
     '''
 def setLastAuthor():
-    '''public void setLastAuthor(final String lastAuthor)
+    '''returns None\n\n
+    setLastAuthor(final String lastAuthor)\n
     '''
 def removeLastAuthor():
-    '''public void removeLastAuthor()
+    '''returns None\n\n
+    removeLastAuthor()\n
     '''
 def getRevNumber():
-    '''public String getRevNumber()
+    '''returns String\n\n
+    getRevNumber()\n
     '''
 def setRevNumber():
-    '''public void setRevNumber(final String revNumber)
+    '''returns None\n\n
+    setRevNumber(final String revNumber)\n
     '''
 def removeRevNumber():
-    '''public void removeRevNumber()
+    '''returns None\n\n
+    removeRevNumber()\n
     '''
 def getEditTime():
-    '''public long getEditTime()
+    '''returns long\n\n
+    getEditTime()\n
     '''
 def setEditTime():
-    '''public void setEditTime(final long time)
+    '''returns None\n\n
+    setEditTime(final long time)\n
     '''
 def removeEditTime():
-    '''public void removeEditTime()
+    '''returns None\n\n
+    removeEditTime()\n
     '''
 def getLastPrinted():
-    '''public Date getLastPrinted()
+    '''returns Date\n\n
+    getLastPrinted()\n
     '''
 def setLastPrinted():
-    '''public void setLastPrinted(final Date lastPrinted)
+    '''returns None\n\n
+    setLastPrinted(final Date lastPrinted)\n
     '''
 def removeLastPrinted():
-    '''public void removeLastPrinted()
+    '''returns None\n\n
+    removeLastPrinted()\n
     '''
 def getCreateDateTime():
-    '''public Date getCreateDateTime()
+    '''returns Date\n\n
+    getCreateDateTime()\n
     '''
 def setCreateDateTime():
-    '''public void setCreateDateTime(final Date createDateTime)
+    '''returns None\n\n
+    setCreateDateTime(final Date createDateTime)\n
     '''
 def removeCreateDateTime():
-    '''public void removeCreateDateTime()
+    '''returns None\n\n
+    removeCreateDateTime()\n
     '''
 def getLastSaveDateTime():
-    '''public Date getLastSaveDateTime()
+    '''returns Date\n\n
+    getLastSaveDateTime()\n
     '''
 def setLastSaveDateTime():
-    '''public void setLastSaveDateTime(final Date time)
+    '''returns None\n\n
+    setLastSaveDateTime(final Date time)\n
     '''
 def removeLastSaveDateTime():
-    '''public void removeLastSaveDateTime()
+    '''returns None\n\n
+    removeLastSaveDateTime()\n
     '''
 def getPageCount():
-    '''public int getPageCount()
+    '''returns int\n\n
+    getPageCount()\n
     '''
 def setPageCount():
-    '''public void setPageCount(final int pageCount)
+    '''returns None\n\n
+    setPageCount(final int pageCount)\n
     '''
 def removePageCount():
-    '''public void removePageCount()
+    '''returns None\n\n
+    removePageCount()\n
     '''
 def getWordCount():
-    '''public int getWordCount()
+    '''returns int\n\n
+    getWordCount()\n
     '''
 def setWordCount():
-    '''public void setWordCount(final int wordCount)
+    '''returns None\n\n
+    setWordCount(final int wordCount)\n
     '''
 def removeWordCount():
-    '''public void removeWordCount()
+    '''returns None\n\n
+    removeWordCount()\n
     '''
 def getCharCount():
-    '''public int getCharCount()
+    '''returns int\n\n
+    getCharCount()\n
     '''
 def setCharCount():
-    '''public void setCharCount(final int charCount)
+    '''returns None\n\n
+    setCharCount(final int charCount)\n
     '''
 def removeCharCount():
-    '''public void removeCharCount()
+    '''returns None\n\n
+    removeCharCount()\n
     '''
 def getThumbnail():
-    '''public byte[] getThumbnail()
+    '''returns byte[]\n\n
+    getThumbnail()\n
     '''
 def getThumbnailThumbnail():
-    '''public Thumbnail getThumbnailThumbnail()
+    '''returns Thumbnail\n\n
+    getThumbnailThumbnail()\n
     '''
 def setThumbnail():
-    '''public void setThumbnail(final byte[] thumbnail)
+    '''returns None\n\n
+    setThumbnail(final byte[] thumbnail)\n
     '''
 def removeThumbnail():
-    '''public void removeThumbnail()
+    '''returns None\n\n
+    removeThumbnail()\n
     '''
 def getApplicationName():
-    '''public String getApplicationName()
+    '''returns String\n\n
+    getApplicationName()\n
     '''
 def setApplicationName():
-    '''public void setApplicationName(final String applicationName)
+    '''returns None\n\n
+    setApplicationName(final String applicationName)\n
     '''
 def removeApplicationName():
-    '''public void removeApplicationName()
+    '''returns None\n\n
+    removeApplicationName()\n
     '''
 def getSecurity():
-    '''public int getSecurity()
+    '''returns int\n\n
+    getSecurity()\n
     '''
 def setSecurity():
-    '''public void setSecurity(final int security)
+    '''returns None\n\n
+    setSecurity(final int security)\n
     '''
 def removeSecurity():
-    '''public void removeSecurity()
+    '''returns None\n\n
+    removeSecurity()\n
     '''

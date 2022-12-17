@@ -1,39 +1,52 @@
-def SCConfig():
-    '''public SCConfig(final MboSet ms)
+def ():
+    '''returns SCConfig\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def addPortletsToLeft():
-    '''public void addPortletsToLeft(final MboSetRemote layoutSet, final MboSetRemote portletSet)
+    '''returns None\n\n
+    addPortletsToLeft(final MboSetRemote layoutSet, final MboSetRemote portletSet)\n
     '''
 def addPortletsToRight():
-    '''public void addPortletsToRight(final MboSetRemote layoutSet, final MboSetRemote portletSet)
+    '''returns None\n\n
+    addPortletsToRight(final MboSetRemote layoutSet, final MboSetRemote portletSet)\n
     '''
 def setAddPortletsToLeft():
-    '''public void setAddPortletsToLeft(final boolean newValue)
+    '''returns None\n\n
+    setAddPortletsToLeft(final boolean newValue)\n
     '''
 def getAllPortletsByColumns():
-    '''public TreeMap getAllPortletsByColumns()
+    '''returns TreeMap\n\n
+    getAllPortletsByColumns()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def getPageLayout():
-    '''public String getPageLayout()
+    '''returns String\n\n
+    getPageLayout()\n
     '''
 def deleteAssociatedTemplate():
-    '''public void deleteAssociatedTemplate()
+    '''returns None\n\n
+    deleteAssociatedTemplate()\n
     '''
 def validateDisplay():
-    '''public void validateDisplay()
+    '''returns None\n\n
+    validateDisplay()\n
     '''
 def validateDefault():
-    '''public void validateDefault()
+    '''returns None\n\n
+    validateDefault()\n
     '''
 def validateMobile():
-    '''public void validateMobile()
+    '''returns None\n\n
+    validateMobile()\n
     '''
 def isTemplate():
-    '''public boolean isTemplate()
+    '''returns boolean\n\n
+    isTemplate()\n
     '''

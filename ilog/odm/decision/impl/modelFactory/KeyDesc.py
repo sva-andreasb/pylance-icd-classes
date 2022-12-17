@@ -1,10 +1,13 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def KeyDesc():
-    '''public KeyDesc(final DescriptorFactory factory, final IloKeyDesc desc)
+def ():
+    '''returns KeyDesc\n\n
+    (final DescriptorFactory factory, final IloKeyDesc desc)\n
     '''
 def getDescriptor():
-    '''public IloKeyDesc getDescriptor()
+    '''returns IloKeyDesc\n\n
+    getDescriptor()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''

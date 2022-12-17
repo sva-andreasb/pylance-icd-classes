@@ -1,18 +1,24 @@
-def DataAdapter():
-    '''public DataAdapter(final String name)
+def ():
+    '''returns DataAdapter\n\n
+    (final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getResourceType():
-    '''public String getResourceType()
+    '''returns String\n\n
+    getResourceType()\n
     '''
 def getResourceName():
-    '''public String getResourceName()
+    '''returns String\n\n
+    getResourceName()\n
     '''
 def getToFormat():
-    '''public String getToFormat()
+    '''returns String\n\n
+    getToFormat()\n
     '''
 def getFromFormat():
-    '''public String getFromFormat()
+    '''returns String\n\n
+    getFromFormat()\n
     '''

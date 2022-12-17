@@ -1,94 +1,119 @@
-def SelectorManager():
-    '''public SelectorManager()
+def ():
+    '''returns ChannelAndAttachment\n\n
+    ()\n
+    (final SelectableChannel channel, final Object attachment)\n
     '''
 def setMaxIdleTime():
-    '''public void setMaxIdleTime(final long maxIdleTime)
+    '''returns None\n\n
+    setMaxIdleTime(final long maxIdleTime)\n
     '''
 def setSelectSets():
-    '''public void setSelectSets(final int selectSets)
+    '''returns None\n\n
+    setSelectSets(final int selectSets)\n
     '''
 def getMaxIdleTime():
-    '''public long getMaxIdleTime()
+    '''returns long\n\n
+    getMaxIdleTime()\n
     '''
 def getSelectSets():
-    '''public int getSelectSets()
+    '''returns int\n\n
+    getSelectSets()\n
     '''
 def getSelectSet():
-    '''public SelectSet getSelectSet(final int i)
+    '''returns SelectSet\n\n
+    getSelectSet(final int i)\n
     '''
 def register():
-    '''public void register(final SocketChannel channel, final Object att)
-    public void register(final SocketChannel channel)
-    public void register(final ServerSocketChannel acceptChannel)
+    '''returns None\n\n
+    register(final SocketChannel channel, final Object att)\n
+    register(final SocketChannel channel)\n
+    register(final ServerSocketChannel acceptChannel)\n
     '''
 def getSelectorPriorityDelta():
-    '''public int getSelectorPriorityDelta()
+    '''returns int\n\n
+    getSelectorPriorityDelta()\n
     '''
 def setSelectorPriorityDelta():
-    '''public void setSelectorPriorityDelta(final int delta)
+    '''returns None\n\n
+    setSelectorPriorityDelta(final int delta)\n
     '''
 def getLowResourcesConnections():
-    '''public long getLowResourcesConnections()
+    '''returns long\n\n
+    getLowResourcesConnections()\n
     '''
 def setLowResourcesConnections():
-    '''public void setLowResourcesConnections(final long lowResourcesConnections)
+    '''returns None\n\n
+    setLowResourcesConnections(final long lowResourcesConnections)\n
     '''
 def getLowResourcesMaxIdleTime():
-    '''public long getLowResourcesMaxIdleTime()
+    '''returns long\n\n
+    getLowResourcesMaxIdleTime()\n
     '''
 def setLowResourcesMaxIdleTime():
-    '''public void setLowResourcesMaxIdleTime(final long lowResourcesMaxIdleTime)
+    '''returns None\n\n
+    setLowResourcesMaxIdleTime(final long lowResourcesMaxIdleTime)\n
     '''
 def run():
-    '''public void run()
-    public void run()
-    public void run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run()\n
+    run()\n
+    run()\n
     '''
 def dump():
-    '''public String dump()
-    public void dump(final Appendable out, final String indent)
-    public String dump()
-    public void dump(final Appendable out, final String indent)
+    '''returns None\n\n
+    dump()\n
+    dump(final Appendable out, final String indent)\n
+    dump()\n
+    dump(final Appendable out, final String indent)\n
     '''
 def isDeferringInterestedOps0():
-    '''public boolean isDeferringInterestedOps0()
+    '''returns boolean\n\n
+    isDeferringInterestedOps0()\n
     '''
 def setDeferringInterestedOps0():
-    '''public void setDeferringInterestedOps0(final boolean deferringInterestedOps0)
+    '''returns None\n\n
+    setDeferringInterestedOps0(final boolean deferringInterestedOps0)\n
     '''
 def addChange():
-    '''public void addChange(final Object change)
-    public void addChange(final SelectableChannel channel, final Object att)
+    '''returns None\n\n
+    addChange(final Object change)\n
+    addChange(final SelectableChannel channel, final Object att)\n
     '''
 def doSelect():
-    '''public void doSelect()
+    '''returns None\n\n
+    doSelect()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def getManager():
-    '''public SelectorManager getManager()
+    '''returns SelectorManager\n\n
+    getManager()\n
     '''
 def getNow():
-    '''public long getNow()
+    '''returns long\n\n
+    getNow()\n
     '''
 def scheduleTimeout():
-    '''public void scheduleTimeout(final Timeout.Task task, final long timeoutMs)
+    '''returns None\n\n
+    scheduleTimeout(final Timeout.Task task, final long timeoutMs)\n
     '''
 def cancelTimeout():
-    '''public void cancelTimeout(final Timeout.Task task)
+    '''returns None\n\n
+    cancelTimeout(final Timeout.Task task)\n
     '''
 def wakeup():
-    '''public void wakeup()
+    '''returns None\n\n
+    wakeup()\n
     '''
 def destroyEndPoint():
-    '''public void destroyEndPoint(final SelectChannelEndPoint endp)
+    '''returns None\n\n
+    destroyEndPoint(final SelectChannelEndPoint endp)\n
     '''
 def dumpKeyState():
-    '''public void dumpKeyState(final List<Object> dumpto)
-    '''
-def ChannelAndAttachment():
-    '''public ChannelAndAttachment(final SelectableChannel channel, final Object attachment)
+    '''returns None\n\n
+    dumpKeyState(final List<Object> dumpto)\n
     '''

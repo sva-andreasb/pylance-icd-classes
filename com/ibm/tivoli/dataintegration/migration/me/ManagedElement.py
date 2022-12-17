@@ -1,28 +1,29 @@
-def ManagedElement():
-    '''public ManagedElement(final String classType)
+def ():
+    '''returns ManagedElement\n\n
+    (final String classType)\n
     '''
 def addAttribute():
-    '''public void addAttribute(final String attributeName, final String attributeValue)
+    '''returns None\n\n
+    addAttribute(final String attributeName, final String attributeValue)\n
     '''
 def addNamingContext():
-    '''public void addNamingContext(final String role, final Guid superior)
-    public void addNamingContext(final String role, final Integer index)
-    '''
-def asHashMap():
-    '''public HashMap<String, Object> asHashMap()
+    '''returns None\n\n
+    addNamingContext(final String role, final Guid superior)\n
+    addNamingContext(final String role, final Integer index)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def attributeNames():
-    '''public List<String> attributeNames()
+    '''returns List<String>\n\n
+    attributeNames()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns int\n\n
+    hashCode()\n
     '''

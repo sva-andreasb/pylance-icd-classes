@@ -1,85 +1,113 @@
-def Calendar():
-    '''public Calendar()
+def ():
+    '''returns Calendar\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def setdate():
-    '''public int setdate()
+    '''returns int\n\n
+    setdate()\n
     '''
 def thisdayworkperiods():
-    '''public int thisdayworkperiods()
+    '''returns int\n\n
+    thisdayworkperiods()\n
     '''
 def changedate():
-    '''public int changedate()
-    public void changedate(final String type, String valueTyped)
+    '''returns None\n\n
+    changedate()\n
+    changedate(final String type, String valueTyped)\n
     '''
 def spintime():
-    '''public void spintime(final String type, final boolean increment)
+    '''returns None\n\n
+    spintime(final String type, final boolean increment)\n
     '''
 def invalidyear():
-    '''public int invalidyear()
+    '''returns int\n\n
+    invalidyear()\n
     '''
 def getCurrentDateString():
-    '''public String getCurrentDateString()
+    '''returns String\n\n
+    getCurrentDateString()\n
     '''
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def getHTMLNotes():
-    '''public String getHTMLNotes(final int dayNum)
+    '''returns String\n\n
+    getHTMLNotes(final int dayNum)\n
     '''
 def getHours():
-    '''public String getHours(final int dayNum)
+    '''returns String\n\n
+    getHours(final int dayNum)\n
     '''
 def dataChangedEvent():
-    '''public void dataChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    dataChangedEvent(final DataBean speaker)\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def isCurrent():
-    '''public boolean isCurrent()
+    '''returns boolean\n\n
+    isCurrent()\n
     '''
 def getDaysInMonth():
-    '''public int getDaysInMonth()
+    '''returns int\n\n
+    getDaysInMonth()\n
     '''
 def getFirstDayOfWeek():
-    '''public int getFirstDayOfWeek()
+    '''returns int\n\n
+    getFirstDayOfWeek()\n
     '''
 def getTodaysMonth():
-    '''public int getTodaysMonth()
+    '''returns int\n\n
+    getTodaysMonth()\n
     '''
 def getTodaysYear():
-    '''public int getTodaysYear()
+    '''returns int\n\n
+    getTodaysYear()\n
     '''
 def getTodaysDay():
-    '''public int getTodaysDay()
+    '''returns int\n\n
+    getTodaysDay()\n
     '''
 def getStartDay():
-    '''public int getStartDay()
+    '''returns int\n\n
+    getStartDay()\n
     '''
 def getMonth():
-    '''public int getMonth()
+    '''returns int\n\n
+    getMonth()\n
     '''
 def getYear():
-    '''public int getYear()
+    '''returns int\n\n
+    getYear()\n
     '''
 def getDay():
-    '''public int getDay()
+    '''returns int\n\n
+    getDay()\n
     '''
 def getDays():
-    '''public String[] getDays()
+    '''returns String[]\n\n
+    getDays()\n
     '''
 def getMonths():
-    '''public String[] getMonths()
+    '''returns String[]\n\n
+    getMonths()\n
     '''
 def getStartDateAttribute():
-    '''public String getStartDateAttribute()
+    '''returns String\n\n
+    getStartDateAttribute()\n
     '''
 def getEndDateAttribute():
-    '''public String getEndDateAttribute()
+    '''returns String\n\n
+    getEndDateAttribute()\n
     '''
 def getCurrentMonth():
-    '''public String getCurrentMonth()
+    '''returns String\n\n
+    getCurrentMonth()\n
     '''

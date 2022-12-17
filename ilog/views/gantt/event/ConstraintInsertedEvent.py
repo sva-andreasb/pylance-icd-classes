@@ -1,9 +1,12 @@
-def ConstraintInsertedEvent():
-    '''public ConstraintInsertedEvent(final IlvGanttModel source, final IlvConstraint a)
+def ():
+    '''returns ConstraintInsertedEvent\n\n
+    (final IlvGanttModel source, final IlvConstraint a)\n
     '''
 def getGanttModel():
-    '''public IlvGanttModel getGanttModel()
+    '''returns IlvGanttModel\n\n
+    getGanttModel()\n
     '''
 def getConstraint():
-    '''public IlvConstraint getConstraint()
+    '''returns IlvConstraint\n\n
+    getConstraint()\n
     '''

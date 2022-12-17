@@ -1,6 +1,4 @@
 def getMboSetRemote():
-    '''public MboSetRemote getMboSetRemote()
-    '''
-def execute():
-    '''public synchronized int execute()
+    '''returns MboSetRemote\n\n
+    getMboSetRemote()\n
     '''

@@ -1,15 +1,16 @@
-def parse():
-    '''public static TLSA parse(final DataInputStream dis, final int length)
-    '''
 def serialize():
-    '''public void serialize(final DataOutputStream dos)
+    '''returns None\n\n
+    serialize(final DataOutputStream dos)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getCertificateAssociation():
-    '''public byte[] getCertificateAssociation()
+    '''returns byte[]\n\n
+    getCertificateAssociation()\n
     '''
 def certificateAssociationEquals():
-    '''public boolean certificateAssociationEquals(final byte[] otherCertificateAssociation)
+    '''returns boolean\n\n
+    certificateAssociationEquals(final byte[] otherCertificateAssociation)\n
     '''

@@ -1,21 +1,24 @@
-def PortletBean():
-    '''public PortletBean()
+def ():
+    '''returns PortletBean\n\n
+    ()\n
     '''
 def getPortletInfoValue():
-    '''public Object getPortletInfoValue(final Object key)
+    '''returns Object\n\n
+    getPortletInfoValue(final Object key)\n
     '''
 def getPortletInfo():
-    '''public Hashtable getPortletInfo()
+    '''returns Hashtable\n\n
+    getPortletInfo()\n
     '''
 def isPropertyDefined():
-    '''public boolean isPropertyDefined(final Object key)
+    '''returns boolean\n\n
+    isPropertyDefined(final Object key)\n
     '''
 def removeProperty():
-    '''public void removeProperty(final Object key)
-    '''
-def structureChangedEvent():
-    '''public synchronized void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    removeProperty(final Object key)\n
     '''
 def setFireSCEvent():
-    '''public void setFireSCEvent(final boolean val)
+    '''returns None\n\n
+    setFireSCEvent(final boolean val)\n
     '''

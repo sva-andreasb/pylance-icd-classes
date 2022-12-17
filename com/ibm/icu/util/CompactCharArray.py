@@ -1,34 +1,43 @@
 UNICODECOUNT = "int  65536"
 BLOCKSHIFT = "int  5"
-def CompactCharArray():
-    '''public CompactCharArray()
-    public CompactCharArray(final char defaultValue)
-    public CompactCharArray(final char[] indexArray, final char[] newValues)
-    public CompactCharArray(final String indexArray, final String valueArray)
+def ():
+    '''returns CompactCharArray\n\n
+    ()\n
+    (final char defaultValue)\n
+    (final char[] indexArray, final char[] newValues)\n
+    (final String indexArray, final String valueArray)\n
     '''
 def elementAt():
-    '''public char elementAt(final char index)
+    '''returns char\n\n
+    elementAt(final char index)\n
     '''
 def setElementAt():
-    '''public void setElementAt(final char index, final char value)
-    public void setElementAt(final char start, final char end, final char value)
+    '''returns None\n\n
+    setElementAt(final char index, final char value)\n
+    setElementAt(final char start, final char end, final char value)\n
     '''
 def compact():
-    '''public void compact()
-    public void compact(final boolean exhaustive)
+    '''returns None\n\n
+    compact()\n
+    compact(final boolean exhaustive)\n
     '''
 def getIndexArray():
-    '''public char[] getIndexArray()
+    '''returns char[]\n\n
+    getIndexArray()\n
     '''
 def getValueArray():
-    '''public char[] getValueArray()
+    '''returns char[]\n\n
+    getValueArray()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

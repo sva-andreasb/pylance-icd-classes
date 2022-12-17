@@ -1,30 +1,40 @@
 def getShapeType():
-    '''public ShapeType getShapeType()
+    '''returns ShapeType\n\n
+    getShapeType()\n
     '''
 def getAnchor():
-    '''public Rectangle2D getAnchor()
+    '''returns Rectangle2D\n\n
+    getAnchor()\n
     '''
 def setAnchor():
-    '''public void setAnchor(final Rectangle2D anchor)
+    '''returns None\n\n
+    setAnchor(final Rectangle2D anchor)\n
     '''
 def setRotation():
-    '''public void setRotation(final double theta)
+    '''returns None\n\n
+    setRotation(final double theta)\n
     '''
 def getRotation():
-    '''public double getRotation()
+    '''returns double\n\n
+    getRotation()\n
     '''
 def setFlipHorizontal():
-    '''public void setFlipHorizontal(final boolean flip)
+    '''returns None\n\n
+    setFlipHorizontal(final boolean flip)\n
     '''
 def setFlipVertical():
-    '''public void setFlipVertical(final boolean flip)
+    '''returns None\n\n
+    setFlipVertical(final boolean flip)\n
     '''
 def getFlipHorizontal():
-    '''public boolean getFlipHorizontal()
+    '''returns boolean\n\n
+    getFlipHorizontal()\n
     '''
 def getFlipVertical():
-    '''public boolean getFlipVertical()
+    '''returns boolean\n\n
+    getFlipVertical()\n
     '''
 def getFallbackPicture():
-    '''public XSLFPictureShape getFallbackPicture()
+    '''returns XSLFPictureShape\n\n
+    getFallbackPicture()\n
     '''

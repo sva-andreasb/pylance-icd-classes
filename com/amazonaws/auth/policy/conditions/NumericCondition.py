@@ -1,3 +1,4 @@
-def NumericCondition():
-    '''public NumericCondition(final NumericComparisonType type, final String key, final String value)
+def ():
+    '''returns NumericCondition\n\n
+    (final NumericComparisonType type, final String key, final String value)\n
     '''

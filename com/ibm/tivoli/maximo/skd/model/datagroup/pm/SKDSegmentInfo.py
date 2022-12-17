@@ -18,127 +18,160 @@ PROPERTY_REGENERATE_TITLE = "String  \"regenerateTitle\""
 PROPERTY_DURATION = "String  \"D\""
 PROPERTY_SKD_TITLE_JPMAP = "String  \"skdTitleJPMap\""
 PROPERTY_SKD_TITLE_MAP = "String  \"skdTitleMap\""
-def SKDSegmentInfo():
-    '''public SKDSegmentInfo(final MXActivity parent, final int seq, final String prefix)
-    public SKDSegmentInfo(final MXActivity parent, final int seq)
+def ():
+    '''returns SKDSegmentInfo\n\n
+    (final MXActivity parent, final int seq, final String prefix)\n
+    (final MXActivity parent, final int seq)\n
     '''
 def getForecastSeqNo():
-    '''public int getForecastSeqNo()
+    '''returns int\n\n
+    getForecastSeqNo()\n
     '''
 def setForecastSeqNo():
-    '''public void setForecastSeqNo(final int number)
+    '''returns None\n\n
+    setForecastSeqNo(final int number)\n
     '''
 def getLTDCounter():
-    '''public int getLTDCounter()
+    '''returns int\n\n
+    getLTDCounter()\n
     '''
 def setLTDCounter():
-    '''public void setLTDCounter(final int number)
+    '''returns None\n\n
+    setLTDCounter(final int number)\n
     '''
 def isNewDateNotNull():
-    '''public boolean isNewDateNotNull()
+    '''returns boolean\n\n
+    isNewDateNotNull()\n
     '''
 def setNewDateNotNull():
-    '''public void setNewDateNotNull(final boolean flag)
+    '''returns None\n\n
+    setNewDateNotNull(final boolean flag)\n
     '''
 def isModofied():
-    '''public boolean isModofied()
+    '''returns boolean\n\n
+    isModofied()\n
     '''
 def setModofied():
-    '''public void setModofied(final boolean flag)
+    '''returns None\n\n
+    setModofied(final boolean flag)\n
     '''
 def isRegenerate():
-    '''public boolean isRegenerate()
+    '''returns boolean\n\n
+    isRegenerate()\n
     '''
 def setRegenerate():
-    '''public void setRegenerate(final boolean flag)
+    '''returns None\n\n
+    setRegenerate(final boolean flag)\n
     '''
 def isMovable():
-    '''public boolean isMovable()
+    '''returns boolean\n\n
+    isMovable()\n
     '''
 def setMovable():
-    '''public void setMovable(final boolean flag)
+    '''returns None\n\n
+    setMovable(final boolean flag)\n
     '''
 def getStartDate():
-    '''public Date getStartDate()
+    '''returns Date\n\n
+    getStartDate()\n
     '''
 def setStartDate():
-    '''public void setStartDate(final Date d)
+    '''returns None\n\n
+    setStartDate(final Date d)\n
     '''
 def getEndDate():
-    '''public Date getEndDate()
+    '''returns Date\n\n
+    getEndDate()\n
     '''
 def setEndDate():
-    '''public void setEndDate(final Date d)
+    '''returns None\n\n
+    setEndDate(final Date d)\n
     '''
 def getInitialStartDate():
-    '''public Date getInitialStartDate()
+    '''returns Date\n\n
+    getInitialStartDate()\n
     '''
 def setInitialStartDate():
-    '''public void setInitialStartDate(final Date d)
+    '''returns None\n\n
+    setInitialStartDate(final Date d)\n
     '''
 def getInitialEndDate():
-    '''public Date getInitialEndDate()
+    '''returns Date\n\n
+    getInitialEndDate()\n
     '''
 def setInitialEndDate():
-    '''public void setInitialEndDate(final Date d)
+    '''returns None\n\n
+    setInitialEndDate(final Date d)\n
     '''
 def getDurationAsDouble():
-    '''public double getDurationAsDouble()
+    '''returns double\n\n
+    getDurationAsDouble()\n
     '''
 def setDurationDurationAsDouble():
-    '''public void setDurationDurationAsDouble(final double number)
+    '''returns None\n\n
+    setDurationDurationAsDouble(final double number)\n
     '''
 def getRemark():
-    '''public String getRemark()
+    '''returns String\n\n
+    getRemark()\n
     '''
 def setRemark():
-    '''public void setRemark(final String remark)
+    '''returns None\n\n
+    setRemark(final String remark)\n
     '''
 def getJPNum():
-    '''public String getJPNum()
+    '''returns String\n\n
+    getJPNum()\n
     '''
 def setJPNum():
-    '''public void setJPNum(final String jpnum)
+    '''returns None\n\n
+    setJPNum(final String jpnum)\n
     '''
 def getRemarkTitle():
-    '''public String getRemarkTitle()
+    '''returns String\n\n
+    getRemarkTitle()\n
     '''
 def setRemarkTitle():
-    '''public void setRemarkTitle(final String title)
+    '''returns None\n\n
+    setRemarkTitle(final String title)\n
     '''
 def getNewDateTitle():
-    '''public String getNewDateTitle()
+    '''returns String\n\n
+    getNewDateTitle()\n
     '''
 def setNewDateTitle():
-    '''public void setNewDateTitle(final String title)
+    '''returns None\n\n
+    setNewDateTitle(final String title)\n
     '''
 def getltdcounterTitle():
-    '''public String getltdcounterTitle()
+    '''returns String\n\n
+    getltdcounterTitle()\n
     '''
 def setltdcounterTitle():
-    '''public void setltdcounterTitle(final String title)
+    '''returns None\n\n
+    setltdcounterTitle(final String title)\n
     '''
 def getjpnumTitle():
-    '''public String getjpnumTitle()
+    '''returns String\n\n
+    getjpnumTitle()\n
     '''
 def setjpnumTitle():
-    '''public void setjpnumTitle(final String title)
+    '''returns None\n\n
+    setjpnumTitle(final String title)\n
     '''
 def getRegenerateTitle():
-    '''public String getRegenerateTitle()
+    '''returns String\n\n
+    getRegenerateTitle()\n
     '''
 def setRegenerateTitle():
-    '''public void setRegenerateTitle(final String title)
-    '''
-def getSKDPMForecastTitleMap():
-    '''public HashMap<String, String> getSKDPMForecastTitleMap()
+    '''returns None\n\n
+    setRegenerateTitle(final String title)\n
     '''
 def setSKDPMForecastTitleMap():
-    '''public void setSKDPMForecastTitleMap(final HashMap<String, String> map)
-    '''
-def getSKDPMForecastJPTitleMap():
-    '''public HashMap<String, String> getSKDPMForecastJPTitleMap()
+    '''returns None\n\n
+    setSKDPMForecastTitleMap(final HashMap<String, String> map)\n
     '''
 def setSKDPMForecastJPTitleMap():
-    '''public void setSKDPMForecastJPTitleMap(final HashMap<String, String> map)
+    '''returns None\n\n
+    setSKDPMForecastJPTitleMap(final HashMap<String, String> map)\n
     '''

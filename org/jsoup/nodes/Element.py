@@ -1,261 +1,333 @@
-def Element():
-    '''public Element(final String tag)
-    public Element(final Tag tag, final String baseUri, final Attributes attributes)
-    public Element(final Tag tag, final String baseUri)
+def ():
+    '''returns Element\n\n
+    (final String tag)\n
+    (final Tag tag, final String baseUri, final Attributes attributes)\n
+    (final Tag tag, final String baseUri)\n
     '''
 def attributes():
-    '''public Attributes attributes()
+    '''returns Attributes\n\n
+    attributes()\n
     '''
 def baseUri():
-    '''public String baseUri()
+    '''returns String\n\n
+    baseUri()\n
     '''
 def childNodeSize():
-    '''public int childNodeSize()
+    '''returns int\n\n
+    childNodeSize()\n
     '''
 def nodeName():
-    '''public String nodeName()
+    '''returns String\n\n
+    nodeName()\n
     '''
 def tagName():
-    '''public String tagName()
-    public Element tagName(final String tagName)
+    '''returns Element\n\n
+    tagName()\n
+    tagName(final String tagName)\n
     '''
 def normalName():
-    '''public String normalName()
+    '''returns String\n\n
+    normalName()\n
     '''
 def tag():
-    '''public Tag tag()
+    '''returns Tag\n\n
+    tag()\n
     '''
 def isBlock():
-    '''public boolean isBlock()
+    '''returns boolean\n\n
+    isBlock()\n
     '''
 def id():
-    '''public String id()
+    '''returns String\n\n
+    id()\n
     '''
 def attr():
-    '''public Element attr(final String attributeKey, final String attributeValue)
-    public Element attr(final String attributeKey, final boolean attributeValue)
-    '''
-def dataset():
-    '''public Map<String, String> dataset()
-    '''
-def parent():
-    '''public final Element parent()
+    '''returns Element\n\n
+    attr(final String attributeKey, final String attributeValue)\n
+    attr(final String attributeKey, final boolean attributeValue)\n
     '''
 def parents():
-    '''public Elements parents()
+    '''returns Elements\n\n
+    parents()\n
     '''
 def child():
-    '''public Element child(final int index)
+    '''returns Element\n\n
+    child(final int index)\n
     '''
 def children():
-    '''public Elements children()
+    '''returns Elements\n\n
+    children()\n
     '''
 def textNodes():
-    '''public List<TextNode> textNodes()
+    '''returns List<TextNode>\n\n
+    textNodes()\n
     '''
 def dataNodes():
-    '''public List<DataNode> dataNodes()
+    '''returns List<DataNode>\n\n
+    dataNodes()\n
     '''
 def select():
-    '''public Elements select(final String cssQuery)
+    '''returns Elements\n\n
+    select(final String cssQuery)\n
     '''
 def selectFirst():
-    '''public Element selectFirst(final String cssQuery)
+    '''returns Element\n\n
+    selectFirst(final String cssQuery)\n
     '''
 def is():
-    '''public boolean is(final String cssQuery)
-    public boolean is(final Evaluator evaluator)
+    '''returns boolean\n\n
+    is(final String cssQuery)\n
+    is(final Evaluator evaluator)\n
     '''
 def appendChild():
-    '''public Element appendChild(final Node child)
+    '''returns Element\n\n
+    appendChild(final Node child)\n
     '''
 def appendTo():
-    '''public Element appendTo(final Element parent)
+    '''returns Element\n\n
+    appendTo(final Element parent)\n
     '''
 def prependChild():
-    '''public Element prependChild(final Node child)
+    '''returns Element\n\n
+    prependChild(final Node child)\n
     '''
 def insertChildren():
-    '''public Element insertChildren(int index, final Collection<? extends Node> children)
-    public Element insertChildren(int index, final Node... children)
+    '''returns Element\n\n
+    insertChildren(int index, final Collection<? extends Node> children)\n
+    insertChildren(int index, final Node... children)\n
     '''
 def appendElement():
-    '''public Element appendElement(final String tagName)
+    '''returns Element\n\n
+    appendElement(final String tagName)\n
     '''
 def prependElement():
-    '''public Element prependElement(final String tagName)
+    '''returns Element\n\n
+    prependElement(final String tagName)\n
     '''
 def appendText():
-    '''public Element appendText(final String text)
+    '''returns Element\n\n
+    appendText(final String text)\n
     '''
 def prependText():
-    '''public Element prependText(final String text)
+    '''returns Element\n\n
+    prependText(final String text)\n
     '''
 def append():
-    '''public Element append(final String html)
+    '''returns Element\n\n
+    append(final String html)\n
     '''
 def prepend():
-    '''public Element prepend(final String html)
+    '''returns Element\n\n
+    prepend(final String html)\n
     '''
 def before():
-    '''public Element before(final String html)
-    public Element before(final Node node)
+    '''returns Element\n\n
+    before(final String html)\n
+    before(final Node node)\n
     '''
 def after():
-    '''public Element after(final String html)
-    public Element after(final Node node)
+    '''returns Element\n\n
+    after(final String html)\n
+    after(final Node node)\n
     '''
 def empty():
-    '''public Element empty()
+    '''returns Element\n\n
+    empty()\n
     '''
 def wrap():
-    '''public Element wrap(final String html)
+    '''returns Element\n\n
+    wrap(final String html)\n
     '''
 def cssSelector():
-    '''public String cssSelector()
+    '''returns String\n\n
+    cssSelector()\n
     '''
 def siblingElements():
-    '''public Elements siblingElements()
+    '''returns Elements\n\n
+    siblingElements()\n
     '''
 def nextElementSibling():
-    '''public Element nextElementSibling()
+    '''returns Element\n\n
+    nextElementSibling()\n
     '''
 def nextElementSiblings():
-    '''public Elements nextElementSiblings()
+    '''returns Elements\n\n
+    nextElementSiblings()\n
     '''
 def previousElementSibling():
-    '''public Element previousElementSibling()
+    '''returns Element\n\n
+    previousElementSibling()\n
     '''
 def previousElementSiblings():
-    '''public Elements previousElementSiblings()
+    '''returns Elements\n\n
+    previousElementSiblings()\n
     '''
 def firstElementSibling():
-    '''public Element firstElementSibling()
+    '''returns Element\n\n
+    firstElementSibling()\n
     '''
 def elementSiblingIndex():
-    '''public int elementSiblingIndex()
+    '''returns int\n\n
+    elementSiblingIndex()\n
     '''
 def lastElementSibling():
-    '''public Element lastElementSibling()
+    '''returns Element\n\n
+    lastElementSibling()\n
     '''
 def getElementsByTag():
-    '''public Elements getElementsByTag(String tagName)
+    '''returns Elements\n\n
+    getElementsByTag(String tagName)\n
     '''
 def getElementById():
-    '''public Element getElementById(final String id)
+    '''returns Element\n\n
+    getElementById(final String id)\n
     '''
 def getElementsByClass():
-    '''public Elements getElementsByClass(final String className)
+    '''returns Elements\n\n
+    getElementsByClass(final String className)\n
     '''
 def getElementsByAttribute():
-    '''public Elements getElementsByAttribute(String key)
+    '''returns Elements\n\n
+    getElementsByAttribute(String key)\n
     '''
 def getElementsByAttributeStarting():
-    '''public Elements getElementsByAttributeStarting(String keyPrefix)
+    '''returns Elements\n\n
+    getElementsByAttributeStarting(String keyPrefix)\n
     '''
 def getElementsByAttributeValue():
-    '''public Elements getElementsByAttributeValue(final String key, final String value)
+    '''returns Elements\n\n
+    getElementsByAttributeValue(final String key, final String value)\n
     '''
 def getElementsByAttributeValueNot():
-    '''public Elements getElementsByAttributeValueNot(final String key, final String value)
+    '''returns Elements\n\n
+    getElementsByAttributeValueNot(final String key, final String value)\n
     '''
 def getElementsByAttributeValueStarting():
-    '''public Elements getElementsByAttributeValueStarting(final String key, final String valuePrefix)
+    '''returns Elements\n\n
+    getElementsByAttributeValueStarting(final String key, final String valuePrefix)\n
     '''
 def getElementsByAttributeValueEnding():
-    '''public Elements getElementsByAttributeValueEnding(final String key, final String valueSuffix)
+    '''returns Elements\n\n
+    getElementsByAttributeValueEnding(final String key, final String valueSuffix)\n
     '''
 def getElementsByAttributeValueContaining():
-    '''public Elements getElementsByAttributeValueContaining(final String key, final String match)
+    '''returns Elements\n\n
+    getElementsByAttributeValueContaining(final String key, final String match)\n
     '''
 def getElementsByAttributeValueMatching():
-    '''public Elements getElementsByAttributeValueMatching(final String key, final Pattern pattern)
-    public Elements getElementsByAttributeValueMatching(final String key, final String regex)
+    '''returns Elements\n\n
+    getElementsByAttributeValueMatching(final String key, final Pattern pattern)\n
+    getElementsByAttributeValueMatching(final String key, final String regex)\n
     '''
 def getElementsByIndexLessThan():
-    '''public Elements getElementsByIndexLessThan(final int index)
+    '''returns Elements\n\n
+    getElementsByIndexLessThan(final int index)\n
     '''
 def getElementsByIndexGreaterThan():
-    '''public Elements getElementsByIndexGreaterThan(final int index)
+    '''returns Elements\n\n
+    getElementsByIndexGreaterThan(final int index)\n
     '''
 def getElementsByIndexEquals():
-    '''public Elements getElementsByIndexEquals(final int index)
+    '''returns Elements\n\n
+    getElementsByIndexEquals(final int index)\n
     '''
 def getElementsContainingText():
-    '''public Elements getElementsContainingText(final String searchText)
+    '''returns Elements\n\n
+    getElementsContainingText(final String searchText)\n
     '''
 def getElementsContainingOwnText():
-    '''public Elements getElementsContainingOwnText(final String searchText)
+    '''returns Elements\n\n
+    getElementsContainingOwnText(final String searchText)\n
     '''
 def getElementsMatchingText():
-    '''public Elements getElementsMatchingText(final Pattern pattern)
-    public Elements getElementsMatchingText(final String regex)
+    '''returns Elements\n\n
+    getElementsMatchingText(final Pattern pattern)\n
+    getElementsMatchingText(final String regex)\n
     '''
 def getElementsMatchingOwnText():
-    '''public Elements getElementsMatchingOwnText(final Pattern pattern)
-    public Elements getElementsMatchingOwnText(final String regex)
+    '''returns Elements\n\n
+    getElementsMatchingOwnText(final Pattern pattern)\n
+    getElementsMatchingOwnText(final String regex)\n
     '''
 def getAllElements():
-    '''public Elements getAllElements()
+    '''returns Elements\n\n
+    getAllElements()\n
     '''
 def text():
-    '''public String text()
-    public Element text(final String text)
+    '''returns Element\n\n
+    text()\n
+    text(final String text)\n
     '''
 def head():
-    '''public void head(final Node node, final int depth)
-    public void head(final Node node, final int depth)
+    '''returns None\n\n
+    head(final Node node, final int depth)\n
+    head(final Node node, final int depth)\n
     '''
 def tail():
-    '''public void tail(final Node node, final int depth)
-    public void tail(final Node node, final int depth)
+    '''returns None\n\n
+    tail(final Node node, final int depth)\n
+    tail(final Node node, final int depth)\n
     '''
 def wholeText():
-    '''public String wholeText()
+    '''returns String\n\n
+    wholeText()\n
     '''
 def ownText():
-    '''public String ownText()
+    '''returns String\n\n
+    ownText()\n
     '''
 def hasText():
-    '''public boolean hasText()
+    '''returns boolean\n\n
+    hasText()\n
     '''
 def data():
-    '''public String data()
+    '''returns String\n\n
+    data()\n
     '''
 def className():
-    '''public String className()
+    '''returns String\n\n
+    className()\n
     '''
 def classNames():
-    '''public Set<String> classNames()
-    public Element classNames(final Set<String> classNames)
+    '''returns Element\n\n
+    classNames()\n
+    classNames(final Set<String> classNames)\n
     '''
 def hasClass():
-    '''public boolean hasClass(final String className)
+    '''returns boolean\n\n
+    hasClass(final String className)\n
     '''
 def addClass():
-    '''public Element addClass(final String className)
+    '''returns Element\n\n
+    addClass(final String className)\n
     '''
 def removeClass():
-    '''public Element removeClass(final String className)
+    '''returns Element\n\n
+    removeClass(final String className)\n
     '''
 def toggleClass():
-    '''public Element toggleClass(final String className)
+    '''returns Element\n\n
+    toggleClass(final String className)\n
     '''
 def val():
-    '''public String val()
-    public Element val(final String value)
+    '''returns Element\n\n
+    val()\n
+    val(final String value)\n
     '''
 def html():
-    '''public String html()
-    public <T extends Appendable> T html(final T appendable)
-    public Element html(final String html)
+    '''returns Element\n\n
+    html()\n
+    html(final String html)\n
     '''
 def clone():
-    '''public Element clone()
+    '''returns Element\n\n
+    clone()\n
     '''
 def shallowClone():
-    '''public Element shallowClone()
+    '''returns Element\n\n
+    shallowClone()\n
     '''
 def onContentsChanged():
-    '''public void onContentsChanged()
+    '''returns None\n\n
+    onContentsChanged()\n
     '''

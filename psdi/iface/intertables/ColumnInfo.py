@@ -1,27 +1,36 @@
-def ColumnInfo():
-    '''public ColumnInfo()
+def ():
+    '''returns ColumnInfo\n\n
+    ()\n
     '''
 def getColumnValue():
-    '''public String getColumnValue()
+    '''returns String\n\n
+    getColumnValue()\n
     '''
 def isValueNull():
-    '''public boolean isValueNull()
+    '''returns boolean\n\n
+    isValueNull()\n
     '''
 def setColumnValue():
-    '''public void setColumnValue(final String c)
+    '''returns None\n\n
+    setColumnValue(final String c)\n
     '''
 def getMboValueInfo():
-    '''public MboValueInfo getMboValueInfo()
+    '''returns MboValueInfo\n\n
+    getMboValueInfo()\n
     '''
 def setMboValueInfo():
-    '''public void setMboValueInfo(final MboValueInfo e)
+    '''returns None\n\n
+    setMboValueInfo(final MboValueInfo e)\n
     '''
 def getMaxType():
-    '''public int getMaxType()
+    '''returns int\n\n
+    getMaxType()\n
     '''
 def setMaxType():
-    '''public void setMaxType(final int maxType)
+    '''returns None\n\n
+    setMaxType(final int maxType)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

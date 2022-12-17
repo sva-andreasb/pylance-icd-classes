@@ -1,169 +1,222 @@
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String value)
+    '''returns None\n\n
+    setTitle(final String value)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String value)
+    '''returns None\n\n
+    setDescription(final String value)\n
     '''
 def getRelevance():
-    '''public List<RelevanceString> getRelevance()
-    public RelevanceString getRelevance()
-    public RelevanceString getRelevance()
+    '''returns RelevanceString\n\n
+    getRelevance()\n
+    getRelevance()\n
+    getRelevance()\n
     '''
 def getGroupRelevance():
-    '''public GroupRelevance getGroupRelevance()
+    '''returns GroupRelevance\n\n
+    getGroupRelevance()\n
     '''
 def setGroupRelevance():
-    '''public void setGroupRelevance(final GroupRelevance value)
+    '''returns None\n\n
+    setGroupRelevance(final GroupRelevance value)\n
     '''
 def getCategory():
-    '''public String getCategory()
+    '''returns String\n\n
+    getCategory()\n
     '''
 def setCategory():
-    '''public void setCategory(final String value)
+    '''returns None\n\n
+    setCategory(final String value)\n
     '''
 def getWizardData():
-    '''public WizardData getWizardData()
+    '''returns WizardData\n\n
+    getWizardData()\n
     '''
 def setWizardData():
-    '''public void setWizardData(final WizardData value)
+    '''returns None\n\n
+    setWizardData(final WizardData value)\n
     '''
 def getDownloadSize():
-    '''public BigInteger getDownloadSize()
+    '''returns BigInteger\n\n
+    getDownloadSize()\n
     '''
 def setDownloadSize():
-    '''public void setDownloadSize(final BigInteger value)
+    '''returns None\n\n
+    setDownloadSize(final BigInteger value)\n
     '''
 def getSource():
-    '''public String getSource()
+    '''returns String\n\n
+    getSource()\n
     '''
 def setSource():
-    '''public void setSource(final String value)
+    '''returns None\n\n
+    setSource(final String value)\n
     '''
 def getSourceID():
-    '''public String getSourceID()
+    '''returns String\n\n
+    getSourceID()\n
     '''
 def setSourceID():
-    '''public void setSourceID(final String value)
+    '''returns None\n\n
+    setSourceID(final String value)\n
     '''
 def getSourceReleaseDate():
-    '''public XMLGregorianCalendar getSourceReleaseDate()
+    '''returns XMLGregorianCalendar\n\n
+    getSourceReleaseDate()\n
     '''
 def setSourceReleaseDate():
-    '''public void setSourceReleaseDate(final XMLGregorianCalendar value)
+    '''returns None\n\n
+    setSourceReleaseDate(final XMLGregorianCalendar value)\n
     '''
 def getSourceSeverity():
-    '''public String getSourceSeverity()
+    '''returns String\n\n
+    getSourceSeverity()\n
     '''
 def setSourceSeverity():
-    '''public void setSourceSeverity(final String value)
+    '''returns None\n\n
+    setSourceSeverity(final String value)\n
     '''
 def getCVENames():
-    '''public String getCVENames()
+    '''returns String\n\n
+    getCVENames()\n
     '''
 def setCVENames():
-    '''public void setCVENames(final String value)
+    '''returns None\n\n
+    setCVENames(final String value)\n
     '''
 def getSANSID():
-    '''public String getSANSID()
+    '''returns String\n\n
+    getSANSID()\n
     '''
 def setSANSID():
-    '''public void setSANSID(final String value)
+    '''returns None\n\n
+    setSANSID(final String value)\n
     '''
 def getMIMEField():
-    '''public List<MIMEField> getMIMEField()
+    '''returns List<MIMEField>\n\n
+    getMIMEField()\n
     '''
 def getDomain():
-    '''public String getDomain()
+    '''returns String\n\n
+    getDomain()\n
     '''
 def setDomain():
-    '''public void setDomain(final String value)
+    '''returns None\n\n
+    setDomain(final String value)\n
     '''
 def getDelay():
-    '''public Duration getDelay()
+    '''returns Duration\n\n
+    getDelay()\n
     '''
 def setDelay():
-    '''public void setDelay(final Duration value)
+    '''returns None\n\n
+    setDelay(final Duration value)\n
     '''
 def isSkipUI():
-    '''public Boolean isSkipUI()
+    '''returns Boolean\n\n
+    isSkipUI()\n
     '''
 def setSkipUI():
-    '''public void setSkipUI(final Boolean value)
-    public void setSkipUI(final String value)
+    '''returns None\n\n
+    setSkipUI(final Boolean value)\n
+    setSkipUI(final String value)\n
     '''
 def getComputerGroup():
-    '''public List<Object> getComputerGroup()
+    '''returns List<Object>\n\n
+    getComputerGroup()\n
     '''
 def isJoinByIntersection():
-    '''public Boolean isJoinByIntersection()
+    '''returns Boolean\n\n
+    isJoinByIntersection()\n
     '''
 def setJoinByIntersection():
-    '''public void setJoinByIntersection(final Boolean value)
+    '''returns None\n\n
+    setJoinByIntersection(final Boolean value)\n
     '''
 def getGroupName():
-    '''public String getGroupName()
+    '''returns String\n\n
+    getGroupName()\n
     '''
 def setGroupName():
-    '''public void setGroupName(final String value)
+    '''returns None\n\n
+    setGroupName(final String value)\n
     '''
 def getComparison():
-    '''public String getComparison()
-    public String getComparison()
-    public String getComparison()
+    '''returns String\n\n
+    getComparison()\n
+    getComparison()\n
+    getComparison()\n
     '''
 def setComparison():
-    '''public void setComparison(final String value)
-    public void setComparison(final String value)
-    public void setComparison(final String value)
+    '''returns None\n\n
+    setComparison(final String value)\n
+    setComparison(final String value)\n
+    setComparison(final String value)\n
     '''
 def getSearchText():
-    '''public String getSearchText()
+    '''returns String\n\n
+    getSearchText()\n
     '''
 def setSearchText():
-    '''public void setSearchText(final String value)
+    '''returns None\n\n
+    setSearchText(final String value)\n
     '''
 def setRelevance():
-    '''public void setRelevance(final RelevanceString value)
-    public void setRelevance(final RelevanceString value)
+    '''returns None\n\n
+    setRelevance(final RelevanceString value)\n
+    setRelevance(final RelevanceString value)\n
     '''
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def setPropertyName():
-    '''public void setPropertyName(final String value)
+    '''returns None\n\n
+    setPropertyName(final String value)\n
     '''
 def getName():
-    '''public String getName()
-    public String getName()
+    '''returns String\n\n
+    getName()\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String value)
-    public void setName(final String value)
+    '''returns None\n\n
+    setName(final String value)\n
+    setName(final String value)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def getDataStore():
-    '''public String getDataStore()
+    '''returns String\n\n
+    getDataStore()\n
     '''
 def setDataStore():
-    '''public void setDataStore(final String value)
+    '''returns None\n\n
+    setDataStore(final String value)\n
     '''
 def getStartURL():
-    '''public String getStartURL()
+    '''returns String\n\n
+    getStartURL()\n
     '''
 def setStartURL():
-    '''public void setStartURL(final String value)
+    '''returns None\n\n
+    setStartURL(final String value)\n
     '''
 def getSkipUI():
-    '''public String getSkipUI()
+    '''returns String\n\n
+    getSkipUI()\n
     '''

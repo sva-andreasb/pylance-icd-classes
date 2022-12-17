@@ -1,9 +1,12 @@
-def CrewWorkModelSerializer():
-    '''public CrewWorkModelSerializer(final BaseTreeGridMiniAppBean bean, final TreeGridUtil.ITGSerializationHelper helper)
+def ():
+    '''returns CrewWorkModelSerializer\n\n
+    (final BaseTreeGridMiniAppBean bean, final TreeGridUtil.ITGSerializationHelper helper)\n
     '''
 def serialize():
-    '''public void serialize(final Future<MXGanttModel> in, final HttpServletRequest request, final HttpServletResponse resp)
+    '''returns None\n\n
+    serialize(final Future<MXGanttModel> in, final HttpServletRequest request, final HttpServletResponse resp)\n
     '''
 def setVisibility():
-    '''public void setVisibility(final MXActivity mxa, final boolean visible)
+    '''returns None\n\n
+    setVisibility(final MXActivity mxa, final boolean visible)\n
     '''

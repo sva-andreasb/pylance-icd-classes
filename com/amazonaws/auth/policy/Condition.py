@@ -1,28 +1,37 @@
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final String type)
+    '''returns None\n\n
+    setType(final String type)\n
     '''
 def getConditionKey():
-    '''public String getConditionKey()
+    '''returns String\n\n
+    getConditionKey()\n
     '''
 def setConditionKey():
-    '''public void setConditionKey(final String conditionKey)
+    '''returns None\n\n
+    setConditionKey(final String conditionKey)\n
     '''
 def getValues():
-    '''public List<String> getValues()
+    '''returns List<String>\n\n
+    getValues()\n
     '''
 def setValues():
-    '''public void setValues(final List<String> values)
+    '''returns None\n\n
+    setValues(final List<String> values)\n
     '''
 def withType():
-    '''public Condition withType(final String type)
+    '''returns Condition\n\n
+    withType(final String type)\n
     '''
 def withConditionKey():
-    '''public Condition withConditionKey(final String key)
+    '''returns Condition\n\n
+    withConditionKey(final String key)\n
     '''
 def withValues():
-    '''public Condition withValues(final String... values)
-    public Condition withValues(final List<String> values)
+    '''returns Condition\n\n
+    withValues(final String... values)\n
+    withValues(final List<String> values)\n
     '''

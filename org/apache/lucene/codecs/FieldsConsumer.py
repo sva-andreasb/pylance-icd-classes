@@ -1,3 +1,4 @@
 def merge():
-    '''public void merge(final MergeState mergeState, final NormsProducer norms)
+    '''returns None\n\n
+    merge(final MergeState mergeState, final NormsProducer norms)\n
     '''

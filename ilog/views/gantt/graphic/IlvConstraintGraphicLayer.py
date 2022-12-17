@@ -1,22 +1,29 @@
-def IlvConstraintGraphicLayer():
-    '''public IlvConstraintGraphicLayer()
-    public IlvConstraintGraphicLayer(final int n, final int n2)
+def ():
+    '''returns IlvConstraintGraphicLayer\n\n
+    ()\n
+    (final int n, final int n2)\n
     '''
 def addConstraintGraphic():
-    '''public void addConstraintGraphic(final IlvConstraintGraphic ilvConstraintGraphic)
+    '''returns None\n\n
+    addConstraintGraphic(final IlvConstraintGraphic ilvConstraintGraphic)\n
     '''
 def removeConstraintGraphic():
-    '''public void removeConstraintGraphic(final IlvConstraintGraphic ilvConstraintGraphic)
+    '''returns None\n\n
+    removeConstraintGraphic(final IlvConstraintGraphic ilvConstraintGraphic)\n
     '''
 def removeAllConstraintGraphics():
-    '''public void removeAllConstraintGraphics()
+    '''returns None\n\n
+    removeAllConstraintGraphics()\n
     '''
 def constraintGraphicsIterator():
-    '''public Iterator<IlvConstraintGraphic> constraintGraphicsIterator()
+    '''returns Iterator<IlvConstraintGraphic>\n\n
+    constraintGraphicsIterator()\n
     '''
 def getConstraintGraphics():
-    '''public Collection<IlvConstraintGraphic> getConstraintGraphics()
+    '''returns Collection<IlvConstraintGraphic>\n\n
+    getConstraintGraphics()\n
     '''
 def getConstraintGraphic():
-    '''public IlvConstraintGraphic getConstraintGraphic(final IlvConstraint ilvConstraint)
+    '''returns IlvConstraintGraphic\n\n
+    getConstraintGraphic(final IlvConstraint ilvConstraint)\n
     '''

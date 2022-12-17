@@ -1,12 +1,8 @@
-def getFileCleaningTracker():
-    '''public static FileCleaningTracker getFileCleaningTracker(final ServletContext pServletContext)
-    '''
-def setFileCleaningTracker():
-    '''public static void setFileCleaningTracker(final ServletContext pServletContext, final FileCleaningTracker pTracker)
-    '''
 def contextInitialized():
-    '''public void contextInitialized(final ServletContextEvent sce)
+    '''returns None\n\n
+    contextInitialized(final ServletContextEvent sce)\n
     '''
 def contextDestroyed():
-    '''public void contextDestroyed(final ServletContextEvent sce)
+    '''returns None\n\n
+    contextDestroyed(final ServletContextEvent sce)\n
     '''

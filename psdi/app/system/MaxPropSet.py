@@ -1,12 +1,16 @@
-def MaxPropSet():
-    '''public MaxPropSet(final MboServerInterface ms)
+def ():
+    '''returns MaxPropSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def liveRefresh():
-    '''public void liveRefresh()
+    '''returns None\n\n
+    liveRefresh()\n
     '''
 def restoreMaximoDefaults():
-    '''public void restoreMaximoDefaults()
+    '''returns None\n\n
+    restoreMaximoDefaults()\n
     '''
 def restoreGlobalDefaults():
-    '''public void restoreGlobalDefaults()
+    '''returns None\n\n
+    restoreGlobalDefaults()\n
     '''

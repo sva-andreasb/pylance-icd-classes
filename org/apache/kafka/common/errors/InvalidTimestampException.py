@@ -1,4 +1,5 @@
-def InvalidTimestampException():
-    '''public InvalidTimestampException(final String message)
-    public InvalidTimestampException(final String message, final Throwable cause)
+def ():
+    '''returns InvalidTimestampException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

@@ -1,74 +1,98 @@
-def ReportViewerServletContextAdaptor():
-    '''public ReportViewerServletContextAdaptor(final ServletContext servletContext, Dictionary initparams)
+def ():
+    '''returns ReportViewerServletContextAdaptor\n\n
+    (final ServletContext servletContext, Dictionary initparams)\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final String attrName)
+    '''returns Object\n\n
+    getAttribute(final String attrName)\n
     '''
 def getAttributeNames():
-    '''public Enumeration getAttributeNames()
+    '''returns Enumeration\n\n
+    getAttributeNames()\n
     '''
 def getContext():
-    '''public ServletContext getContext(final String uriPath)
+    '''returns ServletContext\n\n
+    getContext(final String uriPath)\n
     '''
 def getInitParameter():
-    '''public String getInitParameter(final String name)
+    '''returns String\n\n
+    getInitParameter(final String name)\n
     '''
 def getInitParameterNames():
-    '''public Enumeration getInitParameterNames()
+    '''returns Enumeration\n\n
+    getInitParameterNames()\n
     '''
 def getMajorVersion():
-    '''public int getMajorVersion()
+    '''returns int\n\n
+    getMajorVersion()\n
     '''
 def getMimeType():
-    '''public String getMimeType(final String arg0)
+    '''returns String\n\n
+    getMimeType(final String arg0)\n
     '''
 def getMinorVersion():
-    '''public int getMinorVersion()
+    '''returns int\n\n
+    getMinorVersion()\n
     '''
 def getNamedDispatcher():
-    '''public RequestDispatcher getNamedDispatcher(final String uriPath)
+    '''returns RequestDispatcher\n\n
+    getNamedDispatcher(final String uriPath)\n
     '''
 def getRealPath():
-    '''public String getRealPath(final String path)
+    '''returns String\n\n
+    getRealPath(final String path)\n
     '''
 def getRequestDispatcher():
-    '''public RequestDispatcher getRequestDispatcher(final String path)
+    '''returns RequestDispatcher\n\n
+    getRequestDispatcher(final String path)\n
     '''
 def getResource():
-    '''public URL getResource(final String path)
+    '''returns URL\n\n
+    getResource(final String path)\n
     '''
 def getResourceAsStream():
-    '''public InputStream getResourceAsStream(final String path)
+    '''returns InputStream\n\n
+    getResourceAsStream(final String path)\n
     '''
 def getResourcePaths():
-    '''public Set getResourcePaths(final String path)
+    '''returns Set\n\n
+    getResourcePaths(final String path)\n
     '''
 def getServerInfo():
-    '''public String getServerInfo()
+    '''returns String\n\n
+    getServerInfo()\n
     '''
 def getServlet():
-    '''public Servlet getServlet(final String name)
+    '''returns Servlet\n\n
+    getServlet(final String name)\n
     '''
 def getServletContextName():
-    '''public String getServletContextName()
+    '''returns String\n\n
+    getServletContextName()\n
     '''
 def getServletNames():
-    '''public Enumeration getServletNames()
+    '''returns Enumeration\n\n
+    getServletNames()\n
     '''
 def getServlets():
-    '''public Enumeration getServlets()
+    '''returns Enumeration\n\n
+    getServlets()\n
     '''
 def log():
-    '''public void log(final String msg)
-    public void log(final Exception exception, final String msg)
-    public void log(final String msg, final Throwable throwable)
+    '''returns None\n\n
+    log(final String msg)\n
+    log(final Exception exception, final String msg)\n
+    log(final String msg, final Throwable throwable)\n
     '''
 def removeAttribute():
-    '''public void removeAttribute(final String name)
+    '''returns None\n\n
+    removeAttribute(final String name)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final String name, final Object object)
+    '''returns None\n\n
+    setAttribute(final String name, final Object object)\n
     '''
 def getContextPath():
-    '''public String getContextPath()
+    '''returns String\n\n
+    getContextPath()\n
     '''

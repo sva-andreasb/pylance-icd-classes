@@ -1,13 +1,17 @@
-def ActivityGraphicReshapedEvent():
-    '''public ActivityGraphicReshapedEvent(final IlvGanttSheet ilvGanttSheet, final IlvActivityGraphic ilvActivityGraphic, final int n, final Date b, final boolean c, final EventObject eventObject)
-    public ActivityGraphicReshapedEvent(final IlvGanttSheet ilvGanttSheet, final IlvActivityGraphic ilvActivityGraphic, final int n, final Date a, final Date b, final boolean c, final EventObject eventObject)
+def ():
+    '''returns ActivityGraphicReshapedEvent\n\n
+    (final IlvGanttSheet ilvGanttSheet, final IlvActivityGraphic ilvActivityGraphic, final int n, final Date b, final boolean c, final EventObject eventObject)\n
+    (final IlvGanttSheet ilvGanttSheet, final IlvActivityGraphic ilvActivityGraphic, final int n, final Date a, final Date b, final boolean c, final EventObject eventObject)\n
     '''
 def getFixedTime():
-    '''public Date getFixedTime()
+    '''returns Date\n\n
+    getFixedTime()\n
     '''
 def getUpdatedTime():
-    '''public Date getUpdatedTime()
+    '''returns Date\n\n
+    getUpdatedTime()\n
     '''
 def isOpaqueReshape():
-    '''public boolean isOpaqueReshape()
+    '''returns boolean\n\n
+    isOpaqueReshape()\n
     '''

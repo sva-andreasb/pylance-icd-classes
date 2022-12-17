@@ -1,9 +1,8 @@
-def Editor():
-    '''public Editor()
-    '''
-def create():
-    '''public static synchronized Editor create(final String lineSeparator)
+def ():
+    '''returns Editor\n\n
+    ()\n
     '''
 def generate():
-    '''public String generate(final Object argument)
+    '''returns String\n\n
+    generate(final Object argument)\n
     '''

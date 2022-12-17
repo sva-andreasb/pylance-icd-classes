@@ -1,3 +1,4 @@
-def MeasurePointFormula():
-    '''public MeasurePointFormula(final MboSet ms)
+def ():
+    '''returns MeasurePointFormula\n\n
+    (final MboSet ms)\n
     '''

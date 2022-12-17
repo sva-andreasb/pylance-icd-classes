@@ -1,176 +1,213 @@
 def getInputSource():
-    '''public Object getInputSource()
+    '''returns Object\n\n
+    getInputSource()\n
     '''
 def getCurrentValue():
-    '''public Object getCurrentValue()
+    '''returns Object\n\n
+    getCurrentValue()\n
     '''
 def setCurrentValue():
-    '''public void setCurrentValue(final Object v)
+    '''returns None\n\n
+    setCurrentValue(final Object v)\n
     '''
 def setRequestPayloadOnError():
-    '''public void setRequestPayloadOnError(final RequestPayload payload)
-    public void setRequestPayloadOnError(final byte[] payload, final String charset)
-    public void setRequestPayloadOnError(final String payload)
+    '''returns None\n\n
+    setRequestPayloadOnError(final RequestPayload payload)\n
+    setRequestPayloadOnError(final byte[] payload, final String charset)\n
+    setRequestPayloadOnError(final String payload)\n
     '''
 def setSchema():
-    '''public void setSchema(final FormatSchema schema)
+    '''returns None\n\n
+    setSchema(final FormatSchema schema)\n
     '''
 def getSchema():
-    '''public FormatSchema getSchema()
+    '''returns FormatSchema\n\n
+    getSchema()\n
     '''
 def canUseSchema():
-    '''public boolean canUseSchema(final FormatSchema schema)
+    '''returns boolean\n\n
+    canUseSchema(final FormatSchema schema)\n
     '''
 def requiresCustomCodec():
-    '''public boolean requiresCustomCodec()
+    '''returns boolean\n\n
+    requiresCustomCodec()\n
     '''
 def canParseAsync():
-    '''public boolean canParseAsync()
+    '''returns boolean\n\n
+    canParseAsync()\n
     '''
 def getNonBlockingInputFeeder():
-    '''public NonBlockingInputFeeder getNonBlockingInputFeeder()
+    '''returns NonBlockingInputFeeder\n\n
+    getNonBlockingInputFeeder()\n
     '''
 def releaseBuffered():
-    '''public int releaseBuffered(final OutputStream out)
-    public int releaseBuffered(final Writer w)
+    '''returns int\n\n
+    releaseBuffered(final OutputStream out)\n
+    releaseBuffered(final Writer w)\n
     '''
 def enable():
-    '''public JsonParser enable(final Feature f)
+    '''returns JsonParser\n\n
+    enable(final Feature f)\n
     '''
 def disable():
-    '''public JsonParser disable(final Feature f)
+    '''returns JsonParser\n\n
+    disable(final Feature f)\n
     '''
 def configure():
-    '''public JsonParser configure(final Feature f, final boolean state)
+    '''returns JsonParser\n\n
+    configure(final Feature f, final boolean state)\n
     '''
 def isEnabled():
-    '''public boolean isEnabled(final Feature f)
+    '''returns boolean\n\n
+    isEnabled(final Feature f)\n
     '''
 def getFeatureMask():
-    '''public int getFeatureMask()
+    '''returns int\n\n
+    getFeatureMask()\n
     '''
 def setFeatureMask():
-    '''public JsonParser setFeatureMask(final int mask)
+    '''returns JsonParser\n\n
+    setFeatureMask(final int mask)\n
     '''
 def overrideStdFeatures():
-    '''public JsonParser overrideStdFeatures(final int values, final int mask)
+    '''returns JsonParser\n\n
+    overrideStdFeatures(final int values, final int mask)\n
     '''
 def getFormatFeatures():
-    '''public int getFormatFeatures()
+    '''returns int\n\n
+    getFormatFeatures()\n
     '''
 def overrideFormatFeatures():
-    '''public JsonParser overrideFormatFeatures(final int values, final int mask)
+    '''returns JsonParser\n\n
+    overrideFormatFeatures(final int values, final int mask)\n
     '''
 def nextFieldName():
-    '''public boolean nextFieldName(final SerializableString str)
-    public String nextFieldName()
+    '''returns String\n\n
+    nextFieldName(final SerializableString str)\n
+    nextFieldName()\n
     '''
 def nextTextValue():
-    '''public String nextTextValue()
+    '''returns String\n\n
+    nextTextValue()\n
     '''
 def nextIntValue():
-    '''public int nextIntValue(final int defaultValue)
+    '''returns int\n\n
+    nextIntValue(final int defaultValue)\n
     '''
 def nextLongValue():
-    '''public long nextLongValue(final long defaultValue)
+    '''returns long\n\n
+    nextLongValue(final long defaultValue)\n
     '''
 def nextBooleanValue():
-    '''public Boolean nextBooleanValue()
+    '''returns Boolean\n\n
+    nextBooleanValue()\n
     '''
 def finishToken():
-    '''public void finishToken()
+    '''returns None\n\n
+    finishToken()\n
     '''
 def currentToken():
-    '''public JsonToken currentToken()
+    '''returns JsonToken\n\n
+    currentToken()\n
     '''
 def currentTokenId():
-    '''public int currentTokenId()
+    '''returns int\n\n
+    currentTokenId()\n
     '''
 def isExpectedStartArrayToken():
-    '''public boolean isExpectedStartArrayToken()
+    '''returns boolean\n\n
+    isExpectedStartArrayToken()\n
     '''
 def isExpectedStartObjectToken():
-    '''public boolean isExpectedStartObjectToken()
+    '''returns boolean\n\n
+    isExpectedStartObjectToken()\n
     '''
 def isNaN():
-    '''public boolean isNaN()
+    '''returns boolean\n\n
+    isNaN()\n
     '''
 def currentName():
-    '''public String currentName()
+    '''returns String\n\n
+    currentName()\n
     '''
 def getText():
-    '''public int getText(final Writer writer)
+    '''returns int\n\n
+    getText(final Writer writer)\n
     '''
 def getByteValue():
-    '''public byte getByteValue()
+    '''returns byte\n\n
+    getByteValue()\n
     '''
 def getShortValue():
-    '''public short getShortValue()
+    '''returns short\n\n
+    getShortValue()\n
     '''
 def getBooleanValue():
-    '''public boolean getBooleanValue()
+    '''returns boolean\n\n
+    getBooleanValue()\n
     '''
 def getEmbeddedObject():
-    '''public Object getEmbeddedObject()
+    '''returns Object\n\n
+    getEmbeddedObject()\n
     '''
 def getBinaryValue():
-    '''public byte[] getBinaryValue()
+    '''returns byte[]\n\n
+    getBinaryValue()\n
     '''
 def readBinaryValue():
-    '''public int readBinaryValue(final OutputStream out)
-    public int readBinaryValue(final Base64Variant bv, final OutputStream out)
+    '''returns int\n\n
+    readBinaryValue(final OutputStream out)\n
+    readBinaryValue(final Base64Variant bv, final OutputStream out)\n
     '''
 def getValueAsInt():
-    '''public int getValueAsInt()
-    public int getValueAsInt(final int def)
+    '''returns int\n\n
+    getValueAsInt()\n
+    getValueAsInt(final int def)\n
     '''
 def getValueAsLong():
-    '''public long getValueAsLong()
-    public long getValueAsLong(final long def)
+    '''returns long\n\n
+    getValueAsLong()\n
+    getValueAsLong(final long def)\n
     '''
 def getValueAsDouble():
-    '''public double getValueAsDouble()
-    public double getValueAsDouble(final double def)
+    '''returns double\n\n
+    getValueAsDouble()\n
+    getValueAsDouble(final double def)\n
     '''
 def getValueAsBoolean():
-    '''public boolean getValueAsBoolean()
-    public boolean getValueAsBoolean(final boolean def)
+    '''returns boolean\n\n
+    getValueAsBoolean()\n
+    getValueAsBoolean(final boolean def)\n
     '''
 def getValueAsString():
-    '''public String getValueAsString()
+    '''returns String\n\n
+    getValueAsString()\n
     '''
 def canReadObjectId():
-    '''public boolean canReadObjectId()
+    '''returns boolean\n\n
+    canReadObjectId()\n
     '''
 def canReadTypeId():
-    '''public boolean canReadTypeId()
+    '''returns boolean\n\n
+    canReadTypeId()\n
     '''
 def getObjectId():
-    '''public Object getObjectId()
+    '''returns Object\n\n
+    getObjectId()\n
     '''
 def getTypeId():
-    '''public Object getTypeId()
-    '''
-def readValueAs():
-    '''public <T> T readValueAs(final Class<T> valueType)
-    public <T> T readValueAs(final TypeReference<?> valueTypeRef)
-    '''
-def readValuesAs():
-    '''public <T> Iterator<T> readValuesAs(final Class<T> valueType)
-    public <T> Iterator<T> readValuesAs(final TypeReference<?> valueTypeRef)
-    '''
-def readValueAsTree():
-    '''public <T extends TreeNode> T readValueAsTree()
-    '''
-def collectDefaults():
-    '''public static int collectDefaults()
+    '''returns Object\n\n
+    getTypeId()\n
     '''
 def enabledByDefault():
-    '''public boolean enabledByDefault()
+    '''returns boolean\n\n
+    enabledByDefault()\n
     '''
 def enabledIn():
-    '''public boolean enabledIn(final int flags)
+    '''returns boolean\n\n
+    enabledIn(final int flags)\n
     '''
 def getMask():
-    '''public int getMask()
+    '''returns int\n\n
+    getMask()\n
     '''

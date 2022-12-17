@@ -1,3 +1,4 @@
-def ContractTypeSet():
-    '''public ContractTypeSet(final MboServerInterface ms)
+def ():
+    '''returns ContractTypeSet\n\n
+    (final MboServerInterface ms)\n
     '''

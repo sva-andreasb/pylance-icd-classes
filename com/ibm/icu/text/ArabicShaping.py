@@ -41,19 +41,24 @@ DIGIT_TYPE_AN = "int  0"
 DIGIT_TYPE_AN_EXTENDED = "int  256"
 DIGIT_TYPE_MASK = "int  256"
 def shape():
-    '''public int shape(final char[] source, final int sourceStart, final int sourceLength, final char[] dest, final int destStart, final int destSize)
-    public void shape(final char[] source, final int start, final int length)
-    public String shape(final String text)
+    '''returns String\n\n
+    shape(final char[] source, final int sourceStart, final int sourceLength, final char[] dest, final int destStart, final int destSize)\n
+    shape(final char[] source, final int start, final int length)\n
+    shape(final String text)\n
     '''
-def ArabicShaping():
-    '''public ArabicShaping(final int options)
+def ():
+    '''returns ArabicShaping\n\n
+    (final int options)\n
     '''
 def equals():
-    '''public boolean equals(final Object rhs)
+    '''returns boolean\n\n
+    equals(final Object rhs)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

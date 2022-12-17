@@ -1,40 +1,52 @@
-def ReorderingBuffer():
-    '''public ReorderingBuffer(final Normalizer2Impl ni, final Appendable dest, final int destCapacity)
+def ():
+    '''returns ReorderingBuffer\n\n
+    (final Normalizer2Impl ni, final Appendable dest, final int destCapacity)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def length():
-    '''public int length()
+    '''returns int\n\n
+    length()\n
     '''
 def getLastCC():
-    '''public int getLastCC()
+    '''returns int\n\n
+    getLastCC()\n
     '''
 def getStringBuilder():
-    '''public StringBuilder getStringBuilder()
+    '''returns StringBuilder\n\n
+    getStringBuilder()\n
     '''
 def equals():
-    '''public boolean equals(final CharSequence s, final int start, final int limit)
+    '''returns boolean\n\n
+    equals(final CharSequence s, final int start, final int limit)\n
     '''
 def append():
-    '''public void append(final int c, final int cc)
-    public void append(final CharSequence s, int start, final int limit, final boolean isNFD, int leadCC, final int trailCC)
-    public ReorderingBuffer append(final char c)
-    public ReorderingBuffer append(final CharSequence s)
-    public ReorderingBuffer append(final CharSequence s, final int start, final int limit)
+    '''returns ReorderingBuffer\n\n
+    append(final int c, final int cc)\n
+    append(final CharSequence s, int start, final int limit, final boolean isNFD, int leadCC, final int trailCC)\n
+    append(final char c)\n
+    append(final CharSequence s)\n
+    append(final CharSequence s, final int start, final int limit)\n
     '''
 def appendZeroCC():
-    '''public void appendZeroCC(final int c)
+    '''returns None\n\n
+    appendZeroCC(final int c)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def flushAndAppendZeroCC():
-    '''public ReorderingBuffer flushAndAppendZeroCC(final CharSequence s, final int start, final int limit)
+    '''returns ReorderingBuffer\n\n
+    flushAndAppendZeroCC(final CharSequence s, final int start, final int limit)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def removeSuffix():
-    '''public void removeSuffix(final int suffixLength)
+    '''returns None\n\n
+    removeSuffix(final int suffixLength)\n
     '''

@@ -1,4 +1,5 @@
-def IntegerWrapperHolder():
-    '''public IntegerWrapperHolder()
-    public IntegerWrapperHolder(final Integer value)
+def ():
+    '''returns IntegerWrapperHolder\n\n
+    ()\n
+    (final Integer myint)\n
     '''

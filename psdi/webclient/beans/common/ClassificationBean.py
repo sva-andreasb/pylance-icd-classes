@@ -1,54 +1,64 @@
-def ClassificationBean():
-    '''public ClassificationBean()
+def ():
+    '''returns ClassificationBean\n\n
+    ()\n
     '''
 def updateClassstructure():
-    '''public void updateClassstructure(final String hierarchypath)
+    '''returns None\n\n
+    updateClassstructure(final String hierarchypath)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
-    '''
-def getQbe():
-    '''public synchronized String getQbe(final String attribute)
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def defaultExec():
-    '''public int defaultExec()
+    '''returns int\n\n
+    defaultExec()\n
     '''
 def checkQuery():
-    '''public void checkQuery(final DataBean results)
-    '''
-def setQbeAttributes():
-    '''public synchronized void setQbeAttributes(final Hashtable newQbeAttributes)
+    '''returns None\n\n
+    checkQuery(final DataBean results)\n
     '''
 def clearqryandfld():
-    '''public int clearqryandfld()
+    '''returns int\n\n
+    clearqryandfld()\n
     '''
 def clearqryandfldExec():
-    '''public int clearqryandfldExec()
+    '''returns int\n\n
+    clearqryandfldExec()\n
     '''
 def clearfield():
-    '''public int clearfield()
+    '''returns int\n\n
+    clearfield()\n
     '''
 def clearfieldExec():
-    '''public int clearfieldExec()
+    '''returns int\n\n
+    clearfieldExec()\n
     '''
 def restoredefaultqry():
-    '''public int restoredefaultqry()
+    '''returns int\n\n
+    restoredefaultqry()\n
     '''
 def restoredefaultqryExec():
-    '''public int restoredefaultqryExec()
+    '''returns int\n\n
+    restoredefaultqryExec()\n
     '''
 def qbeclear():
-    '''public int qbeclear()
+    '''returns int\n\n
+    qbeclear()\n
     '''
 def qbeclearExec():
-    '''public int qbeclearExec()
+    '''returns int\n\n
+    qbeclearExec()\n
     '''
 def setQbe():
-    '''public void setQbe(final String attribute, final String expression)
+    '''returns None\n\n
+    setQbe(final String attribute, final String expression)\n
     '''
 def setSelectedClassMbo():
-    '''public void setSelectedClassMbo(final MboRemote selectedMbo)
+    '''returns None\n\n
+    setSelectedClassMbo(final MboRemote selectedMbo)\n
     '''
 def qbecancel():
-    '''public int qbecancel()
+    '''returns int\n\n
+    qbecancel()\n
     '''

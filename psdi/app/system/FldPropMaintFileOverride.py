@@ -1,6 +1,8 @@
-def FldPropMaintFileOverride():
-    '''public FldPropMaintFileOverride(final MboValue mbv)
+def ():
+    '''returns FldPropMaintFileOverride\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

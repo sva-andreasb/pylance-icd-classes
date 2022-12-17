@@ -1,6 +1,8 @@
-def Rate_Limit():
-    '''public Rate_Limit()
+def ():
+    '''returns Rate_Limit\n\n
+    ()\n
     '''
 def getResult():
-    '''public Object[] getResult()
+    '''returns Object[]\n\n
+    getResult()\n
     '''

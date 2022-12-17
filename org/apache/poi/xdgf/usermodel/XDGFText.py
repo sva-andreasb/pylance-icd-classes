@@ -1,9 +1,12 @@
-def XDGFText():
-    '''public XDGFText(final TextType text, final XDGFShape parent)
+def ():
+    '''returns XDGFText\n\n
+    (final TextType text, final XDGFShape parent)\n
     '''
 def getTextContent():
-    '''public String getTextContent()
+    '''returns String\n\n
+    getTextContent()\n
     '''
 def draw():
-    '''public void draw(final Graphics2D graphics)
+    '''returns None\n\n
+    draw(final Graphics2D graphics)\n
     '''

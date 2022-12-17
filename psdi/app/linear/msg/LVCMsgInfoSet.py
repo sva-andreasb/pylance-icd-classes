@@ -1,3 +1,4 @@
-def LVCMsgInfoSet():
-    '''public LVCMsgInfoSet(final MboServerInterface ms)
+def ():
+    '''returns LVCMsgInfoSet\n\n
+    (final MboServerInterface ms)\n
     '''

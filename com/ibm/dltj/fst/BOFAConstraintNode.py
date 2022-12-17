@@ -1,15 +1,16 @@
 def get_char():
-    '''public char get_char(final int n)
+    '''returns char\n\n
+    get_char(final int n)\n
     '''
-def BOFAConstraintNode():
-    '''public BOFAConstraintNode(final char c)
+def ():
+    '''returns BOFAConstraintNode\n\n
+    (final char c)\n
     '''
 def next():
-    '''public Node next(final char c)
+    '''returns Node\n\n
+    next(final char c)\n
     '''
 def num_trans():
-    '''public int num_trans()
-    '''
-def isFinal():
-    '''public final boolean isFinal()
+    '''returns int\n\n
+    num_trans()\n
     '''

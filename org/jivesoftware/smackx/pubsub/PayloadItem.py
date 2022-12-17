@@ -1,15 +1,19 @@
-def PayloadItem():
-    '''public PayloadItem(final E payloadExt)
-    public PayloadItem(final String itemId, final E payloadExt)
-    public PayloadItem(final String itemId, final String nodeId, final E payloadExt)
-    public PayloadItem(final ItemNamespace itemNamespace, final String itemId, final String nodeId, final E payloadExt)
+def ():
+    '''returns PayloadItem\n\n
+    (final E payloadExt)\n
+    (final String itemId, final E payloadExt)\n
+    (final String itemId, final String nodeId, final E payloadExt)\n
+    (final ItemNamespace itemNamespace, final String itemId, final String nodeId, final E payloadExt)\n
     '''
 def getPayload():
-    '''public E getPayload()
+    '''returns E\n\n
+    getPayload()\n
     '''
 def toXML():
-    '''public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''returns XmlStringBuilder\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

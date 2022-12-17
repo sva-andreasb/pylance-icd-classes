@@ -1,18 +1,24 @@
 def categories():
-    '''public Enumeration<String> categories()
+    '''returns Enumeration<String>\n\n
+    categories()\n
     '''
 def categoriesBySheet():
-    '''public Enumeration<String> categoriesBySheet(final String sheet)
+    '''returns Enumeration<String>\n\n
+    categoriesBySheet(final String sheet)\n
     '''
 def getAttributeTypesByCategory():
-    '''public Set<ItemAttributeType> getAttributeTypesByCategory(final String category)
+    '''returns Set<ItemAttributeType>\n\n
+    getAttributeTypesByCategory(final String category)\n
     '''
 def getAttributeTypesByCategoryAndSheet():
-    '''public Set<ItemAttributeType> getAttributeTypesByCategoryAndSheet(final String sheet, final String category)
+    '''returns Set<ItemAttributeType>\n\n
+    getAttributeTypesByCategoryAndSheet(final String sheet, final String category)\n
     '''
 def sheets():
-    '''public Enumeration<String> sheets()
+    '''returns Enumeration<String>\n\n
+    sheets()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

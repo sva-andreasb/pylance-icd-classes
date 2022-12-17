@@ -1,61 +1,63 @@
 NAMESPACE = "String  \"urn:xmpp:tmp:jingle\""
 NODENAME = "String  \"jingle\""
-def Jingle():
-    '''public Jingle(final List<JingleContent> contents, final JingleContentInfo mi, final String sid)
-    public Jingle(final JingleContent content)
-    public Jingle(final JingleContentInfo info)
-    public Jingle(final JingleActionEnum action)
-    public Jingle(final String sid)
-    public Jingle()
-    '''
-def setSid():
-    '''public final void setSid(final String sid)
+def ():
+    '''returns Jingle\n\n
+    (final List<JingleContent> contents, final JingleContentInfo mi, final String sid)\n
+    (final JingleContent content)\n
+    (final JingleContentInfo info)\n
+    (final JingleActionEnum action)\n
+    (final String sid)\n
+    ()\n
     '''
 def getSid():
-    '''public String getSid()
-    '''
-def getElementName():
-    '''public static String getElementName()
-    '''
-def getNamespace():
-    '''public static String getNamespace()
+    '''returns String\n\n
+    getSid()\n
     '''
 def getContentInfo():
-    '''public JingleContentInfo getContentInfo()
+    '''returns JingleContentInfo\n\n
+    getContentInfo()\n
     '''
 def setContentInfo():
-    '''public void setContentInfo(final JingleContentInfo contentInfo)
+    '''returns None\n\n
+    setContentInfo(final JingleContentInfo contentInfo)\n
     '''
 def getContents():
-    '''public Iterator<JingleContent> getContents()
+    '''returns Iterator<JingleContent>\n\n
+    getContents()\n
     '''
 def getContentsList():
-    '''public List<JingleContent> getContentsList()
+    '''returns List<JingleContent>\n\n
+    getContentsList()\n
     '''
 def addContent():
-    '''public void addContent(final JingleContent content)
+    '''returns None\n\n
+    addContent(final JingleContent content)\n
     '''
 def addContents():
-    '''public void addContents(final List<JingleContent> contentList)
+    '''returns None\n\n
+    addContents(final List<JingleContent> contentList)\n
     '''
 def getAction():
-    '''public JingleActionEnum getAction()
+    '''returns JingleActionEnum\n\n
+    getAction()\n
     '''
 def setAction():
-    '''public void setAction(final JingleActionEnum action)
+    '''returns None\n\n
+    setAction(final JingleActionEnum action)\n
     '''
 def getInitiator():
-    '''public Jid getInitiator()
+    '''returns Jid\n\n
+    getInitiator()\n
     '''
 def setInitiator():
-    '''public void setInitiator(final Jid initiator)
+    '''returns None\n\n
+    setInitiator(final Jid initiator)\n
     '''
 def getResponder():
-    '''public Jid getResponder()
+    '''returns Jid\n\n
+    getResponder()\n
     '''
 def setResponder():
-    '''public void setResponder(final Jid resp)
-    '''
-def getSessionHash():
-    '''public static int getSessionHash(final String sid, final Jid initiator)
+    '''returns None\n\n
+    setResponder(final Jid resp)\n
     '''

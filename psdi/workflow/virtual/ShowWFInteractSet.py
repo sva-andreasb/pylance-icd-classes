@@ -1,6 +1,8 @@
-def ShowWFInteractSet():
-    '''public ShowWFInteractSet(final MboServerInterface ms)
+def ():
+    '''returns ShowWFInteractSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''

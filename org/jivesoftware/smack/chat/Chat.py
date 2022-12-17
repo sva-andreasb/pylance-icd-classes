@@ -1,34 +1,45 @@
 def getThreadID():
-    '''public String getThreadID()
+    '''returns String\n\n
+    getThreadID()\n
     '''
 def getParticipant():
-    '''public EntityJid getParticipant()
+    '''returns EntityJid\n\n
+    getParticipant()\n
     '''
 def sendMessage():
-    '''public void sendMessage(final String text)
-    public void sendMessage(final Message message)
+    '''returns None\n\n
+    sendMessage(final String text)\n
+    sendMessage(final Message message)\n
     '''
 def addMessageListener():
-    '''public void addMessageListener(final ChatMessageListener listener)
+    '''returns None\n\n
+    addMessageListener(final ChatMessageListener listener)\n
     '''
 def removeMessageListener():
-    '''public void removeMessageListener(final ChatMessageListener listener)
+    '''returns None\n\n
+    removeMessageListener(final ChatMessageListener listener)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def getListeners():
-    '''public Set<ChatMessageListener> getListeners()
+    '''returns Set<ChatMessageListener>\n\n
+    getListeners()\n
     '''
 def createCollector():
-    '''public StanzaCollector createCollector()
+    '''returns StanzaCollector\n\n
+    createCollector()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''

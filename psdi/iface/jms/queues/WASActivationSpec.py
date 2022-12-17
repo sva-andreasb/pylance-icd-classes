@@ -5,15 +5,19 @@ activationProps = "String  \"getActivationProperties\""
 Active = "int  1"
 Inactive = "int  2"
 Stopped = "int  3"
-def WASActivationSpec():
-    '''public WASActivationSpec(final AdminService service)
+def ():
+    '''returns WASActivationSpec\n\n
+    (final AdminService service)\n
     '''
 def pauseAll():
-    '''public int pauseAll()
+    '''returns int\n\n
+    pauseAll()\n
     '''
 def resumeAll():
-    '''public int resumeAll()
+    '''returns int\n\n
+    resumeAll()\n
     '''
 def allQueues():
-    '''public Object allQueues()
+    '''returns Object\n\n
+    allQueues()\n
     '''

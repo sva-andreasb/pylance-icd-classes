@@ -1,9 +1,12 @@
-def ActivityRendererFactory():
-    '''public ActivityRendererFactory()
+def ():
+    '''returns ActivityRendererFactory\n\n
+    ()\n
     '''
 def createActivityRenderer():
-    '''public IlvActivityRenderer createActivityRenderer(final IlvActivity act)
+    '''returns IlvActivityRenderer\n\n
+    createActivityRenderer(final IlvActivity act)\n
     '''
 def getToolTipText():
-    '''public String getToolTipText(final IlvActivityGraphic gr, final IlvPoint arg1, final IlvTransformer arg2)
+    '''returns String\n\n
+    getToolTipText(final IlvActivityGraphic gr, final IlvPoint arg1, final IlvTransformer arg2)\n
     '''

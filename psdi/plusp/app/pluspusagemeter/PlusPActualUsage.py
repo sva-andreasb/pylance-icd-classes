@@ -1,21 +1,28 @@
-def PlusPActualUsage():
-    '''public PlusPActualUsage(final MboSet ms)
+def ():
+    '''returns PlusPActualUsage\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def createSalesOrder():
-    '''public MboRemote createSalesOrder(final MboRemote mboRemote)
+    '''returns MboRemote\n\n
+    createSalesOrder(final MboRemote mboRemote)\n
     '''
 def createSalesOrderStatus():
-    '''public MboRemote createSalesOrderStatus(final MboRemote mboRemote, final String s)
+    '''returns MboRemote\n\n
+    createSalesOrderStatus(final MboRemote mboRemote, final String s)\n
     '''
 def createGBTrans():
-    '''public MboRemote createGBTrans(final MboRemote mboRemote, final double n, final double n2)
+    '''returns MboRemote\n\n
+    createGBTrans(final MboRemote mboRemote, final double n, final double n2)\n
     '''

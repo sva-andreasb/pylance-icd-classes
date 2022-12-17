@@ -1,6 +1,7 @@
-def IMBotException():
-    '''public IMBotException()
-    public IMBotException(final String message, final Throwable cause)
-    public IMBotException(final String message)
-    public IMBotException(final Throwable cause)
+def ():
+    '''returns IMBotException\n\n
+    ()\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
+    (final Throwable cause)\n
     '''

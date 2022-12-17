@@ -1,30 +1,40 @@
-def MaxEndPoint():
-    '''public MaxEndPoint(final MboSet ms)
+def ():
+    '''returns MaxEndPoint\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def setCheckResourceForDelete():
-    '''public void setCheckResourceForDelete(final boolean checkResourceForDelete)
+    '''returns None\n\n
+    setCheckResourceForDelete(final boolean checkResourceForDelete)\n
     '''

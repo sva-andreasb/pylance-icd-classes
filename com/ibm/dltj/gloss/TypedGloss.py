@@ -1,19 +1,25 @@
-def TypedGloss():
-    '''public TypedGloss()
-    public TypedGloss(final StringGloss type, final int rtData)
+def ():
+    '''returns TypedGloss\n\n
+    ()\n
+    (final StringGloss type, final int rtData)\n
     '''
 def getTypeName():
-    '''public String getTypeName()
+    '''returns String\n\n
+    getTypeName()\n
     '''
 def recalcPointers():
-    '''public void recalcPointers(final Gloss[] array)
+    '''returns None\n\n
+    recalcPointers(final Gloss[] array)\n
     '''
 def getRtData():
-    '''public int getRtData()
+    '''returns int\n\n
+    getRtData()\n
     '''
 def setRtData():
-    '''public void setRtData(final int rtData)
+    '''returns None\n\n
+    setRtData(final int rtData)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

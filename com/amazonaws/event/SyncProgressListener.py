@@ -1,3 +1,4 @@
 def isSyncCallSafe():
-    '''public boolean isSyncCallSafe()
+    '''returns boolean\n\n
+    isSyncCallSafe()\n
     '''

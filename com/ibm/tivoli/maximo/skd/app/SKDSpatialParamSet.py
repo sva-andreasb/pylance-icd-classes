@@ -1,3 +1,4 @@
-def SKDSpatialParamSet():
-    '''public SKDSpatialParamSet(final MboServerInterface ms)
+def ():
+    '''returns SKDSpatialParamSet\n\n
+    (final MboServerInterface ms)\n
     '''

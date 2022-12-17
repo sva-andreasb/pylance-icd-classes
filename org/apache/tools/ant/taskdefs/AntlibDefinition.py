@@ -1,15 +1,20 @@
-def AntlibDefinition():
-    '''public AntlibDefinition()
+def ():
+    '''returns AntlibDefinition\n\n
+    ()\n
     '''
 def setURI():
-    '''public void setURI(String uri)
+    '''returns None\n\n
+    setURI(String uri)\n
     '''
 def getURI():
-    '''public String getURI()
+    '''returns String\n\n
+    getURI()\n
     '''
 def setAntlibClassLoader():
-    '''public void setAntlibClassLoader(final ClassLoader classLoader)
+    '''returns None\n\n
+    setAntlibClassLoader(final ClassLoader classLoader)\n
     '''
 def getAntlibClassLoader():
-    '''public ClassLoader getAntlibClassLoader()
+    '''returns ClassLoader\n\n
+    getAntlibClassLoader()\n
     '''

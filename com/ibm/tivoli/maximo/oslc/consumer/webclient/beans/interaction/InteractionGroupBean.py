@@ -1,3 +1,4 @@
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

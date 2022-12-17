@@ -1,6 +1,8 @@
-def MaximoMacroParserHelper():
-    '''public MaximoMacroParserHelper()
+def ():
+    '''returns MaximoMacroParserHelper\n\n
+    ()\n
     '''
 def getNodeType():
-    '''public int getNodeType()
+    '''returns int\n\n
+    getNodeType()\n
     '''

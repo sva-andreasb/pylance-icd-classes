@@ -1,3 +1,4 @@
-def CalendarSet():
-    '''public CalendarSet(final MboServerInterface ms)
+def ():
+    '''returns CalendarSet\n\n
+    (final MboServerInterface ms)\n
     '''

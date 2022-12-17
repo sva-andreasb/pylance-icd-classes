@@ -1,3 +1,4 @@
 def doRender():
-    '''public String doRender(final Object obj)
+    '''returns String\n\n
+    doRender(final Object obj)\n
     '''

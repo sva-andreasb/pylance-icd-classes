@@ -1,18 +1,24 @@
-def ReportParameterData():
-    '''public ReportParameterData()
+def ():
+    '''returns ReportParameterData\n\n
+    ()\n
     '''
 def addParameter():
-    '''public void addParameter(final String paramName, final String value)
+    '''returns None\n\n
+    addParameter(final String paramName, final String value)\n
     '''
 def getParameter():
-    '''public String getParameter(final String paramName)
+    '''returns String\n\n
+    getParameter(final String paramName)\n
     '''
 def clearParameter():
-    '''public void clearParameter(final String paramName)
+    '''returns None\n\n
+    clearParameter(final String paramName)\n
     '''
 def clearAllParameters():
-    '''public void clearAllParameters()
+    '''returns None\n\n
+    clearAllParameters()\n
     '''
 def getParameters():
-    '''public Iterator getParameters()
+    '''returns Iterator\n\n
+    getParameters()\n
     '''

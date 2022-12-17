@@ -1,6 +1,4 @@
-def getSessionTable():
-    '''public static SessionTable getSessionTable()
-    '''
 def getSession():
-    '''public STSession getSession(final String key)
+    '''returns STSession\n\n
+    getSession(final String key)\n
     '''

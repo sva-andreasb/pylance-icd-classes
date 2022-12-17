@@ -1,21 +1,27 @@
-def SPInterface():
-    '''public SPInterface(final Class provider)
-    public SPInterface(final Class spi, final String propertyName)
-    public SPInterface(final Class provider, final Class[] constructorParamClasses, final Object[] constructorParams)
-    public SPInterface(final Class spi, final String propertyName, final Class[] constructorParamClasses, final Object[] constructorParams)
+def ():
+    '''returns SPInterface\n\n
+    (final Class provider)\n
+    (final Class spi, final String propertyName)\n
+    (final Class provider, final Class[] constructorParamClasses, final Object[] constructorParams)\n
+    (final Class spi, final String propertyName, final Class[] constructorParamClasses, final Object[] constructorParams)\n
     '''
 def getSPName():
-    '''public String getSPName()
+    '''returns String\n\n
+    getSPName()\n
     '''
 def getSPClass():
-    '''public Class getSPClass()
+    '''returns Class\n\n
+    getSPClass()\n
     '''
 def getPropertyName():
-    '''public String getPropertyName()
+    '''returns String\n\n
+    getPropertyName()\n
     '''
 def newInstance():
-    '''public Object newInstance(final Class impl)
+    '''returns Object\n\n
+    newInstance(final Class impl)\n
     '''
 def verifyAncestory():
-    '''public void verifyAncestory(final Class impl)
+    '''returns None\n\n
+    verifyAncestory(final Class impl)\n
     '''

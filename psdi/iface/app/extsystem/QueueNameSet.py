@@ -1,3 +1,4 @@
-def QueueNameSet():
-    '''public QueueNameSet(final MboServerInterface ms)
+def ():
+    '''returns QueueNameSet\n\n
+    (final MboServerInterface ms)\n
     '''

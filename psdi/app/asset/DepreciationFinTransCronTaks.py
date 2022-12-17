@@ -1,6 +1,8 @@
-def DepreciationFinTransCronTaks():
-    '''public DepreciationFinTransCronTaks()
+def ():
+    '''returns DepreciationFinTransCronTaks\n\n
+    ()\n
     '''
 def cronAction():
-    '''public void cronAction()
+    '''returns None\n\n
+    cronAction()\n
     '''

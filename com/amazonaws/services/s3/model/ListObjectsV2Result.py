@@ -1,72 +1,96 @@
-def ListObjectsV2Result():
-    '''public ListObjectsV2Result()
+def ():
+    '''returns ListObjectsV2Result\n\n
+    ()\n
     '''
 def isTruncated():
-    '''public boolean isTruncated()
+    '''returns boolean\n\n
+    isTruncated()\n
     '''
 def setTruncated():
-    '''public void setTruncated(final boolean isTruncated)
+    '''returns None\n\n
+    setTruncated(final boolean isTruncated)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def setPrefix():
-    '''public void setPrefix(final String prefix)
+    '''returns None\n\n
+    setPrefix(final String prefix)\n
     '''
 def getDelimiter():
-    '''public String getDelimiter()
+    '''returns String\n\n
+    getDelimiter()\n
     '''
 def setDelimiter():
-    '''public void setDelimiter(final String delimiter)
+    '''returns None\n\n
+    setDelimiter(final String delimiter)\n
     '''
 def getEncodingType():
-    '''public String getEncodingType()
+    '''returns String\n\n
+    getEncodingType()\n
     '''
 def setEncodingType():
-    '''public void setEncodingType(final String encodingType)
+    '''returns None\n\n
+    setEncodingType(final String encodingType)\n
     '''
 def getContinuationToken():
-    '''public String getContinuationToken()
+    '''returns String\n\n
+    getContinuationToken()\n
     '''
 def setContinuationToken():
-    '''public void setContinuationToken(final String continuationToken)
+    '''returns None\n\n
+    setContinuationToken(final String continuationToken)\n
     '''
 def getNextContinuationToken():
-    '''public String getNextContinuationToken()
+    '''returns String\n\n
+    getNextContinuationToken()\n
     '''
 def setNextContinuationToken():
-    '''public void setNextContinuationToken(final String nextContinuationToken)
+    '''returns None\n\n
+    setNextContinuationToken(final String nextContinuationToken)\n
     '''
 def getKeyCount():
-    '''public int getKeyCount()
+    '''returns int\n\n
+    getKeyCount()\n
     '''
 def setKeyCount():
-    '''public void setKeyCount(final int keyCount)
+    '''returns None\n\n
+    setKeyCount(final int keyCount)\n
     '''
 def getMaxKeys():
-    '''public int getMaxKeys()
+    '''returns int\n\n
+    getMaxKeys()\n
     '''
 def setMaxKeys():
-    '''public void setMaxKeys(final int maxKeys)
+    '''returns None\n\n
+    setMaxKeys(final int maxKeys)\n
     '''
 def getStartAfter():
-    '''public String getStartAfter()
+    '''returns String\n\n
+    getStartAfter()\n
     '''
 def setStartAfter():
-    '''public void setStartAfter(final String startAfter)
+    '''returns None\n\n
+    setStartAfter(final String startAfter)\n
     '''
 def getObjectSummaries():
-    '''public List<S3ObjectSummary> getObjectSummaries()
+    '''returns List<S3ObjectSummary>\n\n
+    getObjectSummaries()\n
     '''
 def getCommonPrefixes():
-    '''public List<String> getCommonPrefixes()
+    '''returns List<String>\n\n
+    getCommonPrefixes()\n
     '''
 def setCommonPrefixes():
-    '''public void setCommonPrefixes(final List<String> commonPrefixes)
+    '''returns None\n\n
+    setCommonPrefixes(final List<String> commonPrefixes)\n
     '''

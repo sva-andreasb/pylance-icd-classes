@@ -1,9 +1,12 @@
-def WSIOResponseExit():
-    '''public WSIOResponseExit()
+def ():
+    '''returns WSIOResponseExit\n\n
+    ()\n
     '''
 def setDataIn():
-    '''public StructureData setDataIn(final StructureData userExitData)
+    '''returns StructureData\n\n
+    setDataIn(final StructureData userExitData)\n
     '''
 def mapResponse():
-    '''public Document mapResponse(final Document responseDoc, final byte[] bObp)
+    '''returns Document\n\n
+    mapResponse(final Document responseDoc, final byte[] bObp)\n
     '''

@@ -1,3 +1,4 @@
-def SfwLicenseSet():
-    '''public SfwLicenseSet(final MboServerInterface ms)
+def ():
+    '''returns SfwLicenseSet\n\n
+    (final MboServerInterface ms)\n
     '''

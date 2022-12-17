@@ -1,265 +1,348 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getAttributes():
-    '''public List<Attribute> getAttributes()
+    '''returns List<Attribute>\n\n
+    getAttributes()\n
     '''
 def getAccountId():
-    '''public String getAccountId()
+    '''returns String\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final String accountId)
+    '''returns None\n\n
+    setAccountId(final String accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getCertificate():
-    '''public String getCertificate()
+    '''returns String\n\n
+    getCertificate()\n
     '''
 def setCertificate():
-    '''public void setCertificate(final String certificate)
+    '''returns None\n\n
+    setCertificate(final String certificate)\n
     '''
 def isCertificateSpecified():
-    '''public boolean isCertificateSpecified()
+    '''returns boolean\n\n
+    isCertificateSpecified()\n
     '''
 def unsetCertificate():
-    '''public void unsetCertificate()
+    '''returns None\n\n
+    unsetCertificate()\n
     '''
 def getCertificateFingerprint():
-    '''public String getCertificateFingerprint()
+    '''returns String\n\n
+    getCertificateFingerprint()\n
     '''
 def setCertificateFingerprint():
-    '''public void setCertificateFingerprint(final String certificateFingerprint)
+    '''returns None\n\n
+    setCertificateFingerprint(final String certificateFingerprint)\n
     '''
 def isCertificateFingerprintSpecified():
-    '''public boolean isCertificateFingerprintSpecified()
+    '''returns boolean\n\n
+    isCertificateFingerprintSpecified()\n
     '''
 def unsetCertificateFingerprint():
-    '''public void unsetCertificateFingerprint()
+    '''returns None\n\n
+    unsetCertificateFingerprint()\n
     '''
 def getEntityId():
-    '''public String getEntityId()
+    '''returns String\n\n
+    getEntityId()\n
     '''
 def setEntityId():
-    '''public void setEntityId(final String entityId)
+    '''returns None\n\n
+    setEntityId(final String entityId)\n
     '''
 def isEntityIdSpecified():
-    '''public boolean isEntityIdSpecified()
+    '''returns boolean\n\n
+    isEntityIdSpecified()\n
     '''
 def unsetEntityId():
-    '''public void unsetEntityId()
+    '''returns None\n\n
+    unsetEntityId()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getServiceProviderCertificate():
-    '''public String getServiceProviderCertificate()
+    '''returns String\n\n
+    getServiceProviderCertificate()\n
     '''
 def setServiceProviderCertificate():
-    '''public void setServiceProviderCertificate(final String serviceProviderCertificate)
+    '''returns None\n\n
+    setServiceProviderCertificate(final String serviceProviderCertificate)\n
     '''
 def isServiceProviderCertificateSpecified():
-    '''public boolean isServiceProviderCertificateSpecified()
+    '''returns boolean\n\n
+    isServiceProviderCertificateSpecified()\n
     '''
 def unsetServiceProviderCertificate():
-    '''public void unsetServiceProviderCertificate()
+    '''returns None\n\n
+    unsetServiceProviderCertificate()\n
     '''
 def getServiceProviderEntityId():
-    '''public String getServiceProviderEntityId()
+    '''returns String\n\n
+    getServiceProviderEntityId()\n
     '''
 def setServiceProviderEntityId():
-    '''public void setServiceProviderEntityId(final String serviceProviderEntityId)
+    '''returns None\n\n
+    setServiceProviderEntityId(final String serviceProviderEntityId)\n
     '''
 def isServiceProviderEntityIdSpecified():
-    '''public boolean isServiceProviderEntityIdSpecified()
+    '''returns boolean\n\n
+    isServiceProviderEntityIdSpecified()\n
     '''
 def unsetServiceProviderEntityId():
-    '''public void unsetServiceProviderEntityId()
+    '''returns None\n\n
+    unsetServiceProviderEntityId()\n
     '''
 def getServiceProviderPublicKey():
-    '''public String getServiceProviderPublicKey()
+    '''returns String\n\n
+    getServiceProviderPublicKey()\n
     '''
 def setServiceProviderPublicKey():
-    '''public void setServiceProviderPublicKey(final String serviceProviderPublicKey)
+    '''returns None\n\n
+    setServiceProviderPublicKey(final String serviceProviderPublicKey)\n
     '''
 def isServiceProviderPublicKeySpecified():
-    '''public boolean isServiceProviderPublicKeySpecified()
+    '''returns boolean\n\n
+    isServiceProviderPublicKeySpecified()\n
     '''
 def unsetServiceProviderPublicKey():
-    '''public void unsetServiceProviderPublicKey()
+    '''returns None\n\n
+    unsetServiceProviderPublicKey()\n
     '''
 def getServiceProviderSingleLogoutEncoding():
-    '''public String getServiceProviderSingleLogoutEncoding()
+    '''returns String\n\n
+    getServiceProviderSingleLogoutEncoding()\n
     '''
 def setServiceProviderSingleLogoutEncoding():
-    '''public void setServiceProviderSingleLogoutEncoding(final String serviceProviderSingleLogoutEncoding)
+    '''returns None\n\n
+    setServiceProviderSingleLogoutEncoding(final String serviceProviderSingleLogoutEncoding)\n
     '''
 def isServiceProviderSingleLogoutEncodingSpecified():
-    '''public boolean isServiceProviderSingleLogoutEncodingSpecified()
+    '''returns boolean\n\n
+    isServiceProviderSingleLogoutEncodingSpecified()\n
     '''
 def unsetServiceProviderSingleLogoutEncoding():
-    '''public void unsetServiceProviderSingleLogoutEncoding()
+    '''returns None\n\n
+    unsetServiceProviderSingleLogoutEncoding()\n
     '''
 def getServiceProviderSingleLogoutUrl():
-    '''public String getServiceProviderSingleLogoutUrl()
+    '''returns String\n\n
+    getServiceProviderSingleLogoutUrl()\n
     '''
 def setServiceProviderSingleLogoutUrl():
-    '''public void setServiceProviderSingleLogoutUrl(final String serviceProviderSingleLogoutUrl)
+    '''returns None\n\n
+    setServiceProviderSingleLogoutUrl(final String serviceProviderSingleLogoutUrl)\n
     '''
 def isServiceProviderSingleLogoutUrlSpecified():
-    '''public boolean isServiceProviderSingleLogoutUrlSpecified()
+    '''returns boolean\n\n
+    isServiceProviderSingleLogoutUrlSpecified()\n
     '''
 def unsetServiceProviderSingleLogoutUrl():
-    '''public void unsetServiceProviderSingleLogoutUrl()
+    '''returns None\n\n
+    unsetServiceProviderSingleLogoutUrl()\n
     '''
 def getServiceProviderSingleSignOnEncoding():
-    '''public String getServiceProviderSingleSignOnEncoding()
+    '''returns String\n\n
+    getServiceProviderSingleSignOnEncoding()\n
     '''
 def setServiceProviderSingleSignOnEncoding():
-    '''public void setServiceProviderSingleSignOnEncoding(final String serviceProviderSingleSignOnEncoding)
+    '''returns None\n\n
+    setServiceProviderSingleSignOnEncoding(final String serviceProviderSingleSignOnEncoding)\n
     '''
 def isServiceProviderSingleSignOnEncodingSpecified():
-    '''public boolean isServiceProviderSingleSignOnEncodingSpecified()
+    '''returns boolean\n\n
+    isServiceProviderSingleSignOnEncodingSpecified()\n
     '''
 def unsetServiceProviderSingleSignOnEncoding():
-    '''public void unsetServiceProviderSingleSignOnEncoding()
+    '''returns None\n\n
+    unsetServiceProviderSingleSignOnEncoding()\n
     '''
 def getServiceProviderSingleSignOnUrl():
-    '''public String getServiceProviderSingleSignOnUrl()
+    '''returns String\n\n
+    getServiceProviderSingleSignOnUrl()\n
     '''
 def setServiceProviderSingleSignOnUrl():
-    '''public void setServiceProviderSingleSignOnUrl(final String serviceProviderSingleSignOnUrl)
+    '''returns None\n\n
+    setServiceProviderSingleSignOnUrl(final String serviceProviderSingleSignOnUrl)\n
     '''
 def isServiceProviderSingleSignOnUrlSpecified():
-    '''public boolean isServiceProviderSingleSignOnUrlSpecified()
+    '''returns boolean\n\n
+    isServiceProviderSingleSignOnUrlSpecified()\n
     '''
 def unsetServiceProviderSingleSignOnUrl():
-    '''public void unsetServiceProviderSingleSignOnUrl()
+    '''returns None\n\n
+    unsetServiceProviderSingleSignOnUrl()\n
     '''
 def getSingleLogoutEncoding():
-    '''public String getSingleLogoutEncoding()
+    '''returns String\n\n
+    getSingleLogoutEncoding()\n
     '''
 def setSingleLogoutEncoding():
-    '''public void setSingleLogoutEncoding(final String singleLogoutEncoding)
+    '''returns None\n\n
+    setSingleLogoutEncoding(final String singleLogoutEncoding)\n
     '''
 def isSingleLogoutEncodingSpecified():
-    '''public boolean isSingleLogoutEncodingSpecified()
+    '''returns boolean\n\n
+    isSingleLogoutEncodingSpecified()\n
     '''
 def unsetSingleLogoutEncoding():
-    '''public void unsetSingleLogoutEncoding()
+    '''returns None\n\n
+    unsetSingleLogoutEncoding()\n
     '''
 def getSingleLogoutUrl():
-    '''public String getSingleLogoutUrl()
+    '''returns String\n\n
+    getSingleLogoutUrl()\n
     '''
 def setSingleLogoutUrl():
-    '''public void setSingleLogoutUrl(final String singleLogoutUrl)
+    '''returns None\n\n
+    setSingleLogoutUrl(final String singleLogoutUrl)\n
     '''
 def isSingleLogoutUrlSpecified():
-    '''public boolean isSingleLogoutUrlSpecified()
+    '''returns boolean\n\n
+    isSingleLogoutUrlSpecified()\n
     '''
 def unsetSingleLogoutUrl():
-    '''public void unsetSingleLogoutUrl()
+    '''returns None\n\n
+    unsetSingleLogoutUrl()\n
     '''
 def getSingleSignOnEncoding():
-    '''public String getSingleSignOnEncoding()
+    '''returns String\n\n
+    getSingleSignOnEncoding()\n
     '''
 def setSingleSignOnEncoding():
-    '''public void setSingleSignOnEncoding(final String singleSignOnEncoding)
+    '''returns None\n\n
+    setSingleSignOnEncoding(final String singleSignOnEncoding)\n
     '''
 def isSingleSignOnEncodingSpecified():
-    '''public boolean isSingleSignOnEncodingSpecified()
+    '''returns boolean\n\n
+    isSingleSignOnEncodingSpecified()\n
     '''
 def unsetSingleSignOnEncoding():
-    '''public void unsetSingleSignOnEncoding()
+    '''returns None\n\n
+    unsetSingleSignOnEncoding()\n
     '''
 def getSingleSignOnUrl():
-    '''public String getSingleSignOnUrl()
+    '''returns String\n\n
+    getSingleSignOnUrl()\n
     '''
 def setSingleSignOnUrl():
-    '''public void setSingleSignOnUrl(final String singleSignOnUrl)
+    '''returns None\n\n
+    setSingleSignOnUrl(final String singleSignOnUrl)\n
     '''
 def isSingleSignOnUrlSpecified():
-    '''public boolean isSingleSignOnUrlSpecified()
+    '''returns boolean\n\n
+    isSingleSignOnUrlSpecified()\n
     '''
 def unsetSingleSignOnUrl():
-    '''public void unsetSingleSignOnUrl()
+    '''returns None\n\n
+    unsetSingleSignOnUrl()\n
     '''
 def getAttributeCount():
-    '''public Long getAttributeCount()
+    '''returns Long\n\n
+    getAttributeCount()\n
     '''
 def setAttributeCount():
-    '''public void setAttributeCount(final Long attributeCount)
+    '''returns None\n\n
+    setAttributeCount(final Long attributeCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def certificate():
-    '''public Mask certificate()
+    '''returns Mask\n\n
+    certificate()\n
     '''
 def certificateFingerprint():
-    '''public Mask certificateFingerprint()
+    '''returns Mask\n\n
+    certificateFingerprint()\n
     '''
 def entityId():
-    '''public Mask entityId()
+    '''returns Mask\n\n
+    entityId()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def serviceProviderCertificate():
-    '''public Mask serviceProviderCertificate()
+    '''returns Mask\n\n
+    serviceProviderCertificate()\n
     '''
 def serviceProviderEntityId():
-    '''public Mask serviceProviderEntityId()
+    '''returns Mask\n\n
+    serviceProviderEntityId()\n
     '''
 def serviceProviderPublicKey():
-    '''public Mask serviceProviderPublicKey()
+    '''returns Mask\n\n
+    serviceProviderPublicKey()\n
     '''
 def serviceProviderSingleLogoutEncoding():
-    '''public Mask serviceProviderSingleLogoutEncoding()
+    '''returns Mask\n\n
+    serviceProviderSingleLogoutEncoding()\n
     '''
 def serviceProviderSingleLogoutUrl():
-    '''public Mask serviceProviderSingleLogoutUrl()
+    '''returns Mask\n\n
+    serviceProviderSingleLogoutUrl()\n
     '''
 def serviceProviderSingleSignOnEncoding():
-    '''public Mask serviceProviderSingleSignOnEncoding()
+    '''returns Mask\n\n
+    serviceProviderSingleSignOnEncoding()\n
     '''
 def serviceProviderSingleSignOnUrl():
-    '''public Mask serviceProviderSingleSignOnUrl()
+    '''returns Mask\n\n
+    serviceProviderSingleSignOnUrl()\n
     '''
 def singleLogoutEncoding():
-    '''public Mask singleLogoutEncoding()
+    '''returns Mask\n\n
+    singleLogoutEncoding()\n
     '''
 def singleLogoutUrl():
-    '''public Mask singleLogoutUrl()
+    '''returns Mask\n\n
+    singleLogoutUrl()\n
     '''
 def singleSignOnEncoding():
-    '''public Mask singleSignOnEncoding()
+    '''returns Mask\n\n
+    singleSignOnEncoding()\n
     '''
 def singleSignOnUrl():
-    '''public Mask singleSignOnUrl()
+    '''returns Mask\n\n
+    singleSignOnUrl()\n
     '''
 def attributeCount():
-    '''public Mask attributeCount()
+    '''returns Mask\n\n
+    attributeCount()\n
     '''

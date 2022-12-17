@@ -1,12 +1,16 @@
-def DBSource():
-    '''public DBSource(final PyConnection connection, final Class dataHandler, final String tableName, final String where, final PyObject include, final PyObject params)
+def ():
+    '''returns DBSource\n\n
+    (final PyConnection connection, final Class dataHandler, final String tableName, final String where, final PyObject include, final PyObject params)\n
     '''
 def next():
-    '''public PyObject next()
+    '''returns PyObject\n\n
+    next()\n
     '''
 def start():
-    '''public void start()
+    '''returns None\n\n
+    start()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''

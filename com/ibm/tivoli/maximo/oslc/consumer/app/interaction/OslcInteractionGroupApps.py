@@ -1,45 +1,56 @@
-def OslcInteractionGroupApps():
-    '''public OslcInteractionGroupApps(final MboSet ms)
+def ():
+    '''returns OslcInteractionGroupApps\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def setPresentataion():
-    '''public void setPresentataion(final byte[] data, final boolean setTabs)
+    '''returns None\n\n
+    setPresentataion(final byte[] data, final boolean setTabs)\n
     '''
 def setMenuPresentataion():
-    '''public void setMenuPresentataion(final byte[] menuData)
+    '''returns None\n\n
+    setMenuPresentataion(final byte[] menuData)\n
     '''
 def setTabList():
-    '''public void setTabList()
+    '''returns None\n\n
+    setTabList()\n
     '''
 def setMenuList():
-    '''public void setMenuList()
+    '''returns None\n\n
+    setMenuList()\n
     '''
 def getMenuPresentataion():
-    '''public byte[] getMenuPresentataion()
+    '''returns byte[]\n\n
+    getMenuPresentataion()\n
     '''
 def getPresentataion():
-    '''public byte[] getPresentataion()
-    '''
-def getTabMap():
-    '''public Map<String, String> getTabMap()
+    '''returns byte[]\n\n
+    getPresentataion()\n
     '''
 def saveInteractionGroupApp():
-    '''public List<byte[]> saveInteractionGroupApp(final byte[] menuBytes)
+    '''returns List<byte[]>\n\n
+    saveInteractionGroupApp(final byte[] menuBytes)\n
     '''
 def modify():
-    '''public void modify()
+    '''returns None\n\n
+    modify()\n
     '''
 def deleteGroupApp():
-    '''public String deleteGroupApp(final byte[] presentataion)
+    '''returns String\n\n
+    deleteGroupApp(final byte[] presentataion)\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

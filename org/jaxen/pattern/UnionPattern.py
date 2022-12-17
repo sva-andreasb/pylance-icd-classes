@@ -1,37 +1,49 @@
-def UnionPattern():
-    '''public UnionPattern()
-    public UnionPattern(final Pattern lhs, final Pattern rhs)
+def ():
+    '''returns UnionPattern\n\n
+    ()\n
+    (final Pattern lhs, final Pattern rhs)\n
     '''
 def getLHS():
-    '''public Pattern getLHS()
+    '''returns Pattern\n\n
+    getLHS()\n
     '''
 def setLHS():
-    '''public void setLHS(final Pattern lhs)
+    '''returns None\n\n
+    setLHS(final Pattern lhs)\n
     '''
 def getRHS():
-    '''public Pattern getRHS()
+    '''returns Pattern\n\n
+    getRHS()\n
     '''
 def setRHS():
-    '''public void setRHS(final Pattern rhs)
+    '''returns None\n\n
+    setRHS(final Pattern rhs)\n
     '''
 def matches():
-    '''public boolean matches(final Object node, final Context context)
+    '''returns boolean\n\n
+    matches(final Object node, final Context context)\n
     '''
 def getUnionPatterns():
-    '''public Pattern[] getUnionPatterns()
+    '''returns Pattern[]\n\n
+    getUnionPatterns()\n
     '''
 def getMatchType():
-    '''public short getMatchType()
+    '''returns short\n\n
+    getMatchType()\n
     '''
 def getMatchesNodeName():
-    '''public String getMatchesNodeName()
+    '''returns String\n\n
+    getMatchesNodeName()\n
     '''
 def simplify():
-    '''public Pattern simplify()
+    '''returns Pattern\n\n
+    simplify()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

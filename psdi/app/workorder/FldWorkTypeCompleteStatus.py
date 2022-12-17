@@ -1,3 +1,4 @@
-def FldWorkTypeCompleteStatus():
-    '''public FldWorkTypeCompleteStatus(final MboValue mbv)
+def ():
+    '''returns FldWorkTypeCompleteStatus\n\n
+    (final MboValue mbv)\n
     '''

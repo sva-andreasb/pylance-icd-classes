@@ -1,3 +1,4 @@
-def FldLaunchPointAttrName():
-    '''public FldLaunchPointAttrName(final MboValue mbv)
+def ():
+    '''returns FldLaunchPointAttrName\n\n
+    (final MboValue mbv)\n
     '''

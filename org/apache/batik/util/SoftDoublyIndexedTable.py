@@ -1,22 +1,26 @@
-def SoftDoublyIndexedTable():
-    '''public SoftDoublyIndexedTable()
-    public SoftDoublyIndexedTable(final int c)
+def ():
+    '''returns Entry\n\n
+    ()\n
+    (final int c)\n
+    (final int hash, final Object key1, final Object key2, final Object value, final Entry next)\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def get():
-    '''public Object get(final Object o1, final Object o2)
+    '''returns Object\n\n
+    get(final Object o1, final Object o2)\n
     '''
 def put():
-    '''public Object put(final Object o1, final Object o2, final Object value)
+    '''returns Object\n\n
+    put(final Object o1, final Object o2, final Object value)\n
     '''
 def clear():
-    '''public void clear()
-    '''
-def Entry():
-    '''public Entry(final int hash, final Object key1, final Object key2, final Object value, final Entry next)
+    '''returns None\n\n
+    clear()\n
     '''
 def match():
-    '''public boolean match(final Object o1, final Object o2)
+    '''returns boolean\n\n
+    match(final Object o1, final Object o2)\n
     '''

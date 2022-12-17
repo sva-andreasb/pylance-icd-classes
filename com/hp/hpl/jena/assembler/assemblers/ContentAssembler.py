@@ -1,22 +1,29 @@
-def ContentAssembler():
-    '''public ContentAssembler()
-    public ContentAssembler(final FileManager fm)
+def ():
+    '''returns ContentAssembler\n\n
+    ()\n
+    (final FileManager fm)\n
     '''
 def open():
-    '''public Object open(final Assembler a, final Resource root, final Mode irrelevant)
+    '''returns Object\n\n
+    open(final Assembler a, final Resource root, final Mode irrelevant)\n
     '''
 def loadContent():
-    '''public List<Content> loadContent(final List<Content> contents, final Assembler a, final Resource root)
+    '''returns List<Content>\n\n
+    loadContent(final List<Content> contents, final Assembler a, final Resource root)\n
     '''
 def fill():
-    '''public Model fill(final Model x)
+    '''returns Model\n\n
+    fill(final Model x)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def getFileManager():
-    '''public Object getFileManager()
+    '''returns Object\n\n
+    getFileManager()\n
     '''
 def with():
-    '''public HashSetWith<T> with(final T x)
+    '''returns HashSetWith<T>\n\n
+    with(final T x)\n
     '''

@@ -1,6 +1,8 @@
 def help():
-    '''public String help()
+    '''returns String\n\n
+    help()\n
     '''
 def process():
-    '''public String process(final String s, final String s2)
+    '''returns String\n\n
+    process(final String s, final String s2)\n
     '''

@@ -1,18 +1,24 @@
-def OrganizationSet():
-    '''public OrganizationSet(final MboServerInterface ms)
+def ():
+    '''returns OrganizationSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def saveTransaction():
-    '''public void saveTransaction(final MXTransaction txn)
+    '''returns None\n\n
+    saveTransaction(final MXTransaction txn)\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''
 def getOrgsForBBAudience():
-    '''public void getOrgsForBBAudience(final String bbId)
+    '''returns None\n\n
+    getOrgsForBBAudience(final String bbId)\n
     '''
 def appendToWhere():
-    '''public String appendToWhere()
+    '''returns String\n\n
+    appendToWhere()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''

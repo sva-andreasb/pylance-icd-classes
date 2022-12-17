@@ -1,9 +1,12 @@
 def render():
-    '''public int render()
+    '''returns int\n\n
+    render()\n
     '''
 def click():
-    '''public int click()
+    '''returns int\n\n
+    click()\n
     '''
 def selectrecord():
-    '''public int selectrecord()
+    '''returns int\n\n
+    selectrecord()\n
     '''

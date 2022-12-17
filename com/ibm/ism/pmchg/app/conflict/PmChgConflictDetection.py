@@ -1,13 +1,17 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def PmChgConflictDetection():
-    '''public PmChgConflictDetection(final MboSet ms)
+def ():
+    '''returns PmChgConflictDetection\n\n
+    (final MboSet ms)\n
     '''
 def permit():
-    '''public void permit()
+    '''returns None\n\n
+    permit()\n
     '''
 def reschedule():
-    '''public void reschedule()
+    '''returns None\n\n
+    reschedule()\n
     '''
 def isPermitted():
-    '''public boolean isPermitted()
+    '''returns boolean\n\n
+    isPermitted()\n
     '''

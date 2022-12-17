@@ -1,91 +1,105 @@
-def DefaultRequest():
-    '''public DefaultRequest(final AmazonWebServiceRequest originalRequest, final String serviceName)
-    public DefaultRequest(final String serviceName)
+def ():
+    '''returns DefaultRequest\n\n
+    (final AmazonWebServiceRequest originalRequest, final String serviceName)\n
+    (final String serviceName)\n
     '''
 def getOriginalRequest():
-    '''public AmazonWebServiceRequest getOriginalRequest()
+    '''returns AmazonWebServiceRequest\n\n
+    getOriginalRequest()\n
     '''
 def addHeader():
-    '''public void addHeader(final String name, final String value)
-    '''
-def getHeaders():
-    '''public Map<String, String> getHeaders()
+    '''returns None\n\n
+    addHeader(final String name, final String value)\n
     '''
 def setResourcePath():
-    '''public void setResourcePath(final String resourcePath)
+    '''returns None\n\n
+    setResourcePath(final String resourcePath)\n
     '''
 def getResourcePath():
-    '''public String getResourcePath()
+    '''returns String\n\n
+    getResourcePath()\n
     '''
 def addParameter():
-    '''public void addParameter(final String name, final String value)
+    '''returns None\n\n
+    addParameter(final String name, final String value)\n
     '''
 def addParameters():
-    '''public void addParameters(final String name, final List<String> values)
-    '''
-def getParameters():
-    '''public Map<String, List<String>> getParameters()
+    '''returns None\n\n
+    addParameters(final String name, final List<String> values)\n
     '''
 def withParameter():
-    '''public Request<T> withParameter(final String name, final String value)
+    '''returns Request<T>\n\n
+    withParameter(final String name, final String value)\n
     '''
 def getHttpMethod():
-    '''public HttpMethodName getHttpMethod()
+    '''returns HttpMethodName\n\n
+    getHttpMethod()\n
     '''
 def setHttpMethod():
-    '''public void setHttpMethod(final HttpMethodName httpMethod)
+    '''returns None\n\n
+    setHttpMethod(final HttpMethodName httpMethod)\n
     '''
 def setEndpoint():
-    '''public void setEndpoint(final URI endpoint)
+    '''returns None\n\n
+    setEndpoint(final URI endpoint)\n
     '''
 def getEndpoint():
-    '''public URI getEndpoint()
+    '''returns URI\n\n
+    getEndpoint()\n
     '''
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def getContent():
-    '''public InputStream getContent()
+    '''returns InputStream\n\n
+    getContent()\n
     '''
 def setContent():
-    '''public void setContent(final InputStream content)
+    '''returns None\n\n
+    setContent(final InputStream content)\n
     '''
 def setHeaders():
-    '''public void setHeaders(final Map<String, String> headers)
+    '''returns None\n\n
+    setHeaders(final Map<String, String> headers)\n
     '''
 def setParameters():
-    '''public void setParameters(final Map<String, List<String>> parameters)
+    '''returns None\n\n
+    setParameters(final Map<String, List<String>> parameters)\n
     '''
 def getTimeOffset():
-    '''public int getTimeOffset()
+    '''returns int\n\n
+    getTimeOffset()\n
     '''
 def setTimeOffset():
-    '''public void setTimeOffset(final int timeOffset)
+    '''returns None\n\n
+    setTimeOffset(final int timeOffset)\n
     '''
 def withTimeOffset():
-    '''public Request<T> withTimeOffset(final int timeOffset)
+    '''returns Request<T>\n\n
+    withTimeOffset(final int timeOffset)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getAWSRequestMetrics():
-    '''public AWSRequestMetrics getAWSRequestMetrics()
+    '''returns AWSRequestMetrics\n\n
+    getAWSRequestMetrics()\n
     '''
 def setAWSRequestMetrics():
-    '''public void setAWSRequestMetrics(final AWSRequestMetrics metrics)
-    '''
-def addHandlerContext():
-    '''public <X> void addHandlerContext(final HandlerContextKey<X> key, final X value)
-    '''
-def getHandlerContext():
-    '''public <X> X getHandlerContext(final HandlerContextKey<X> key)
+    '''returns None\n\n
+    setAWSRequestMetrics(final AWSRequestMetrics metrics)\n
     '''
 def getContentUnwrapped():
-    '''public InputStream getContentUnwrapped()
+    '''returns InputStream\n\n
+    getContentUnwrapped()\n
     '''
 def getReadLimitInfo():
-    '''public ReadLimitInfo getReadLimitInfo()
+    '''returns ReadLimitInfo\n\n
+    getReadLimitInfo()\n
     '''
 def getOriginalRequestObject():
-    '''public Object getOriginalRequestObject()
+    '''returns Object\n\n
+    getOriginalRequestObject()\n
     '''

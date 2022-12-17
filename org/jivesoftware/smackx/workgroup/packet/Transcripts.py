@@ -1,37 +1,42 @@
-def Transcripts():
-    '''public Transcripts(final Jid userID)
-    public Transcripts(final Jid userID, final List<TranscriptSummary> summaries)
+def ():
+    '''returns AgentDetail\n\n
+    (final Jid userID)\n
+    (final Jid userID, final List<TranscriptSummary> summaries)\n
+    (final String sessionID, final Date joinTime, final Date leftTime, final List<AgentDetail> agentDetails)\n
+    (final String agentJID, final Date joinTime, final Date leftTime)\n
     '''
 def getUserID():
-    '''public Jid getUserID()
+    '''returns Jid\n\n
+    getUserID()\n
     '''
 def getSummaries():
-    '''public List<TranscriptSummary> getSummaries()
-    '''
-def TranscriptSummary():
-    '''public TranscriptSummary(final String sessionID, final Date joinTime, final Date leftTime, final List<AgentDetail> agentDetails)
+    '''returns List<TranscriptSummary>\n\n
+    getSummaries()\n
     '''
 def getSessionID():
-    '''public String getSessionID()
+    '''returns String\n\n
+    getSessionID()\n
     '''
 def getJoinTime():
-    '''public Date getJoinTime()
-    public Date getJoinTime()
+    '''returns Date\n\n
+    getJoinTime()\n
+    getJoinTime()\n
     '''
 def getLeftTime():
-    '''public Date getLeftTime()
-    public Date getLeftTime()
+    '''returns Date\n\n
+    getLeftTime()\n
+    getLeftTime()\n
     '''
 def getAgentDetails():
-    '''public List<AgentDetail> getAgentDetails()
+    '''returns List<AgentDetail>\n\n
+    getAgentDetails()\n
     '''
 def toXML():
-    '''public String toXML()
-    public String toXML()
-    '''
-def AgentDetail():
-    '''public AgentDetail(final String agentJID, final Date joinTime, final Date leftTime)
+    '''returns String\n\n
+    toXML()\n
+    toXML()\n
     '''
 def getAgentJID():
-    '''public String getAgentJID()
+    '''returns String\n\n
+    getAgentJID()\n
     '''

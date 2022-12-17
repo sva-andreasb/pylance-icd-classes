@@ -1,13 +1,17 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloGoalPublisher():
-    '''public IloGoalPublisher(final IloObjectiveModel model)
+def ():
+    '''returns IloGoalPublisher\n\n
+    (final IloObjectiveModel model)\n
     '''
 def makeGoalTable():
-    '''public boolean makeGoalTable(final IloTable[] resultArray, final IloValueAccessor accessor)
+    '''returns boolean\n\n
+    makeGoalTable(final IloTable[] resultArray, final IloValueAccessor accessor)\n
     '''
 def makeMonitoringGoalReport():
-    '''public InMemoryGoalReport makeMonitoringGoalReport(final IloValueAccessor valueAccessor)
+    '''returns InMemoryGoalReport\n\n
+    makeMonitoringGoalReport(final IloValueAccessor valueAccessor)\n
     '''
 def mergeGoalResults():
-    '''public IloTable mergeGoalResults(final IloTable oldResult, final IloTable newResult)
+    '''returns IloTable\n\n
+    mergeGoalResults(final IloTable oldResult, final IloTable newResult)\n
     '''

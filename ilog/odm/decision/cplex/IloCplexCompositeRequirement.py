@@ -1,49 +1,64 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def postToCplex():
-    '''public void postToCplex(final IloCplexController ctl, final boolean propagate)
+    '''returns None\n\n
+    postToCplex(final IloCplexController ctl, final boolean propagate)\n
     '''
 def removeFromCplex():
-    '''public void removeFromCplex(final IloCplexController ctl, final boolean propagate)
+    '''returns None\n\n
+    removeFromCplex(final IloCplexController ctl, final boolean propagate)\n
     '''
 def changeRangesPriority():
-    '''public void changeRangesPriority(final IloCplexController ctl)
+    '''returns None\n\n
+    changeRangesPriority(final IloCplexController ctl)\n
     '''
 def needEngineUpdate():
-    '''public boolean needEngineUpdate(final int propIndex)
+    '''returns boolean\n\n
+    needEngineUpdate(final int propIndex)\n
     '''
 def getRelaxationEps():
-    '''public double getRelaxationEps(final double defaultVal)
+    '''returns double\n\n
+    getRelaxationEps(final double defaultVal)\n
     '''
 def getRelaxationMsg():
-    '''public IloMessage getRelaxationMsg()
+    '''returns IloMessage\n\n
+    getRelaxationMsg()\n
     '''
 def getFormattedRelaxationMsg():
-    '''public String getFormattedRelaxationMsg(final IloCplexController ctl)
+    '''returns String\n\n
+    getFormattedRelaxationMsg(final IloCplexController ctl)\n
     '''
 def getRelaxationPref():
-    '''public double getRelaxationPref(final double defaultVal)
+    '''returns double\n\n
+    getRelaxationPref(final double defaultVal)\n
     '''
 def setExplanationPriority():
-    '''public void setExplanationPriority(final int v)
+    '''returns None\n\n
+    setExplanationPriority(final int v)\n
     '''
 def setRelaxationMsg():
-    '''public void setRelaxationMsg(final IloMessage msg)
-    public void setRelaxationMsg(final String msg)
+    '''returns None\n\n
+    setRelaxationMsg(final IloMessage msg)\n
+    setRelaxationMsg(final String msg)\n
     '''
 def setRelaxationEps():
-    '''public void setRelaxationEps(final Double v)
-    public void setRelaxationEps(final double v)
+    '''returns None\n\n
+    setRelaxationEps(final Double v)\n
+    setRelaxationEps(final double v)\n
     '''
 def setRelaxationPref():
-    '''public void setRelaxationPref(final double v)
-    public void setRelaxationPref(final Double v)
+    '''returns None\n\n
+    setRelaxationPref(final double v)\n
+    setRelaxationPref(final Double v)\n
     '''
 def onChangePriority():
-    '''public void onChangePriority(final IloEngineController ctler)
+    '''returns None\n\n
+    onChangePriority(final IloEngineController ctler)\n
     '''
 def onChangeProperty():
-    '''public void onChangeProperty(final int index, final Object oldValue, final IloEngineController ctler)
+    '''returns None\n\n
+    onChangeProperty(final int index, final Object oldValue, final IloEngineController ctler)\n
     '''
 def registerRequirement():
-    '''public void registerRequirement(final IloRequirement r)
+    '''returns None\n\n
+    registerRequirement(final IloRequirement r)\n
     '''

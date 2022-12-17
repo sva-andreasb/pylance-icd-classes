@@ -1,60 +1,77 @@
-def XSSFReader():
-    '''public XSSFReader(final OPCPackage pkg)
+def ():
+    '''returns XSSFSheetRef\n\n
+    (final OPCPackage pkg)\n
+    (final String id, final String name)\n
     '''
 def getSharedStringsTable():
-    '''public SharedStringsTable getSharedStringsTable()
+    '''returns SharedStringsTable\n\n
+    getSharedStringsTable()\n
     '''
 def getStylesTable():
-    '''public StylesTable getStylesTable()
+    '''returns StylesTable\n\n
+    getStylesTable()\n
     '''
 def getSharedStringsData():
-    '''public InputStream getSharedStringsData()
+    '''returns InputStream\n\n
+    getSharedStringsData()\n
     '''
 def getStylesData():
-    '''public InputStream getStylesData()
+    '''returns InputStream\n\n
+    getStylesData()\n
     '''
 def getThemesData():
-    '''public InputStream getThemesData()
+    '''returns InputStream\n\n
+    getThemesData()\n
     '''
 def getWorkbookData():
-    '''public InputStream getWorkbookData()
+    '''returns InputStream\n\n
+    getWorkbookData()\n
     '''
 def getSheet():
-    '''public InputStream getSheet(final String relId)
+    '''returns InputStream\n\n
+    getSheet(final String relId)\n
     '''
 def getSheetsData():
-    '''public Iterator<InputStream> getSheetsData()
+    '''returns Iterator<InputStream>\n\n
+    getSheetsData()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public InputStream next()
+    '''returns InputStream\n\n
+    next()\n
     '''
 def getSheetName():
-    '''public String getSheetName()
+    '''returns String\n\n
+    getSheetName()\n
     '''
 def getSheetComments():
-    '''public CommentsTable getSheetComments()
+    '''returns CommentsTable\n\n
+    getSheetComments()\n
     '''
 def getShapes():
-    '''public List<XSSFShape> getShapes()
+    '''returns List<XSSFShape>\n\n
+    getShapes()\n
     '''
 def getSheetPart():
-    '''public PackagePart getSheetPart()
+    '''returns PackagePart\n\n
+    getSheetPart()\n
     '''
 def remove():
-    '''public void remove()
-    '''
-def XSSFSheetRef():
-    '''public XSSFSheetRef(final String id, final String name)
+    '''returns None\n\n
+    remove()\n
     '''
 def getId():
-    '''public String getId()
+    '''returns String\n\n
+    getId()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def startElement():
-    '''public void startElement(final String uri, final String localName, final String qName, final Attributes attrs)
+    '''returns None\n\n
+    startElement(final String uri, final String localName, final String qName, final Attributes attrs)\n
     '''

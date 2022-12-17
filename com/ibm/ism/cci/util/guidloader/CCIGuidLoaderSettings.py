@@ -1,32 +1,42 @@
 IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def CCIGuidLoaderSettings():
-    '''public CCIGuidLoaderSettings(final UserInfo userInfo, final Map<String, Object> parameterMap)
-    public CCIGuidLoaderSettings(final CCIGuidLoaderActionEnum action, final List<CCIGuidLoaderObjectEnum> objectList, final int timeLimit, final String whereClause)
+def ():
+    '''returns CCIGuidLoaderSettings\n\n
+    (final UserInfo userInfo, final Map<String, Object> parameterMap)\n
+    (final CCIGuidLoaderActionEnum action, final List<CCIGuidLoaderObjectEnum> objectList, final int timeLimit, final String whereClause)\n
     '''
 def performCrossParamChecks():
-    '''public Object[] performCrossParamChecks(final UserInfo userInfo)
+    '''returns Object[]\n\n
+    performCrossParamChecks(final UserInfo userInfo)\n
     '''
 def setAction():
-    '''public void setAction(final CCIGuidLoaderActionEnum action)
+    '''returns None\n\n
+    setAction(final CCIGuidLoaderActionEnum action)\n
     '''
 def getAction():
-    '''public CCIGuidLoaderActionEnum getAction()
+    '''returns CCIGuidLoaderActionEnum\n\n
+    getAction()\n
     '''
 def getObjectList():
-    '''public List<CCIGuidLoaderObjectEnum> getObjectList()
+    '''returns List<CCIGuidLoaderObjectEnum>\n\n
+    getObjectList()\n
     '''
 def setWhereClause():
-    '''public void setWhereClause(final String whereClause)
+    '''returns None\n\n
+    setWhereClause(final String whereClause)\n
     '''
 def getWhereClause():
-    '''public String getWhereClause()
+    '''returns String\n\n
+    getWhereClause()\n
     '''
 def setTimeLimit():
-    '''public void setTimeLimit(final int timeLimit)
+    '''returns None\n\n
+    setTimeLimit(final int timeLimit)\n
     '''
 def getTimeLimit():
-    '''public int getTimeLimit()
+    '''returns int\n\n
+    getTimeLimit()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,3 +1,4 @@
 def selectSuccWos():
-    '''public int selectSuccWos()
+    '''returns int\n\n
+    selectSuccWos()\n
     '''

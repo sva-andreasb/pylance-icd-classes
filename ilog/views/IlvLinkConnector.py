@@ -1,55 +1,56 @@
-def IlvLinkConnector():
-    '''public IlvLinkConnector()
-    public IlvLinkConnector(final IlvGraphic ilvGraphic)
-    public IlvLinkConnector(final IlvLinkImage ilvLinkImage, final boolean b)
-    public IlvLinkConnector(final IlvInputStream ilvInputStream)
+def ():
+    '''returns IlvLinkConnector\n\n
+    ()\n
+    (final IlvGraphic ilvGraphic)\n
+    (final IlvLinkImage ilvLinkImage, final boolean b)\n
+    (final IlvInputStream ilvInputStream)\n
     '''
 def attach():
-    '''public void attach(final IlvGraphic a, final boolean b)
-    public void attach(final IlvLinkImage ilvLinkImage, final boolean c, final boolean b)
-    public IlvLinkConnector attach(final IlvLinkImage ilvLinkImage, boolean b, final boolean b2, final boolean b3)
+    '''returns IlvLinkConnector\n\n
+    attach(final IlvGraphic a, final boolean b)\n
+    attach(final IlvLinkImage ilvLinkImage, final boolean c, final boolean b)\n
+    attach(final IlvLinkImage ilvLinkImage, boolean b, final boolean b2, final boolean b3)\n
     '''
 def detach():
-    '''public void detach(final boolean b)
-    public void detach(final IlvLinkImage ilvLinkImage, final boolean b, final boolean b2)
-    '''
-def GetAttached():
-    '''public static IlvLinkConnector GetAttached(final IlvGraphic ilvGraphic)
-    public static IlvLinkConnector GetAttached(final IlvLinkImage ilvLinkImage, final boolean b)
+    '''returns None\n\n
+    detach(final boolean b)\n
+    detach(final IlvLinkImage ilvLinkImage, final boolean b, final boolean b2)\n
     '''
 def apply():
-    '''public void apply(final IlvGraphic ilvGraphic, final Object o)
-    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''returns None\n\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
+    apply(final IlvGraphic ilvGraphic, final Object o)\n
     '''
 def write():
-    '''public void write(final IlvOutputStream ilvOutputStream)
-    public void write(final IlvOutputStream ilvOutputStream, final IlvLinkImage ilvLinkImage, final boolean b)
+    '''returns None\n\n
+    write(final IlvOutputStream ilvOutputStream)\n
+    write(final IlvOutputStream ilvOutputStream, final IlvLinkImage ilvLinkImage, final boolean b)\n
     '''
 def read():
-    '''public void read(final IlvInputStream ilvInputStream, final IlvLinkImage ilvLinkImage, final boolean b)
+    '''returns None\n\n
+    read(final IlvInputStream ilvInputStream, final IlvLinkImage ilvLinkImage, final boolean b)\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
-    '''
-def getNode():
-    '''public final IlvGraphic getNode()
-    '''
-def Get():
-    '''public static IlvLinkConnector Get(final IlvGraphic ilvGraphic)
-    public static IlvLinkConnector Get(final IlvLinkImage ilvLinkImage, final boolean b)
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def disconnectLink():
-    '''public void disconnectLink(final IlvLinkImage ilvLinkImage, final boolean b)
+    '''returns None\n\n
+    disconnectLink(final IlvLinkImage ilvLinkImage, final boolean b)\n
     '''
 def allowsConnectionPointMove():
-    '''public boolean allowsConnectionPointMove(final IlvLinkImage ilvLinkImage, final boolean b)
+    '''returns boolean\n\n
+    allowsConnectionPointMove(final IlvLinkImage ilvLinkImage, final boolean b)\n
     '''
 def linkRemoved():
-    '''public void linkRemoved(final IlvLinkImage ilvLinkImage)
+    '''returns None\n\n
+    linkRemoved(final IlvLinkImage ilvLinkImage)\n
     '''
 def drawGhost():
-    '''public void drawGhost(final Graphics graphics, final IlvTransformer ilvTransformer, final Object o, final Object o2, final Object o3, final boolean b)
+    '''returns None\n\n
+    drawGhost(final Graphics graphics, final IlvTransformer ilvTransformer, final Object o, final Object o2, final Object o3, final boolean b)\n
     '''
 def supportsDrawGhost():
-    '''public boolean supportsDrawGhost()
+    '''returns boolean\n\n
+    supportsDrawGhost()\n
     '''

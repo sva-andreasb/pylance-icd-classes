@@ -1,3 +1,4 @@
-def PlusPCustOper():
-    '''public PlusPCustOper(final MboSet ms)
+def ():
+    '''returns PlusPCustOper\n\n
+    (final MboSet ms)\n
     '''

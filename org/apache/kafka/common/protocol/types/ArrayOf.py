@@ -1,27 +1,32 @@
-def ArrayOf():
-    '''public ArrayOf(final Type type)
-    '''
-def nullable():
-    '''public static ArrayOf nullable(final Type type)
+def ():
+    '''returns ArrayOf\n\n
+    (final Type type)\n
     '''
 def isNullable():
-    '''public boolean isNullable()
+    '''returns boolean\n\n
+    isNullable()\n
     '''
 def write():
-    '''public void write(final ByteBuffer buffer, final Object o)
+    '''returns None\n\n
+    write(final ByteBuffer buffer, final Object o)\n
     '''
 def read():
-    '''public Object read(final ByteBuffer buffer)
+    '''returns Object\n\n
+    read(final ByteBuffer buffer)\n
     '''
 def sizeOf():
-    '''public int sizeOf(final Object o)
+    '''returns int\n\n
+    sizeOf(final Object o)\n
     '''
 def type():
-    '''public Type type()
+    '''returns Type\n\n
+    type()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def validate():
-    '''public Object[] validate(final Object item)
+    '''returns Object[]\n\n
+    validate(final Object item)\n
     '''

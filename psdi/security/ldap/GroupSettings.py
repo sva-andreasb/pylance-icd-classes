@@ -1,51 +1,68 @@
-def GroupSettings():
-    '''public GroupSettings()
+def ():
+    '''returns GroupSettings\n\n
+    ()\n
     '''
 def getBaseDN():
-    '''public String getBaseDN()
+    '''returns String\n\n
+    getBaseDN()\n
     '''
 def setBaseDN():
-    '''public void setBaseDN(final String string)
+    '''returns None\n\n
+    setBaseDN(final String string)\n
     '''
 def getSearchFilter():
-    '''public String getSearchFilter()
+    '''returns String\n\n
+    getSearchFilter()\n
     '''
 def setSearchFilter():
-    '''public void setSearchFilter(final String string)
+    '''returns None\n\n
+    setSearchFilter(final String string)\n
     '''
 def getSearchScope():
-    '''public String getSearchScope()
+    '''returns String\n\n
+    getSearchScope()\n
     '''
 def getSearchScopeAsInt():
-    '''public int getSearchScopeAsInt()
+    '''returns int\n\n
+    getSearchScopeAsInt()\n
     '''
 def setSearchScope():
-    '''public void setSearchScope(final String string)
+    '''returns None\n\n
+    setSearchScope(final String string)\n
     '''
 def getAttributes():
-    '''public Iterator getAttributes()
+    '''returns Iterator\n\n
+    getAttributes()\n
     '''
 def getAttributeArray():
-    '''public String[] getAttributeArray()
+    '''returns String[]\n\n
+    getAttributeArray()\n
     '''
 def setAttributes():
-    '''public void setAttributes(final Set attributesSet)
+    '''returns None\n\n
+    setAttributes(final Set attributesSet)\n
     '''
 def addAttribute():
-    '''public void addAttribute(final String attribute)
+    '''returns None\n\n
+    addAttribute(final String attribute)\n
     '''
 def getDataMap():
-    '''public DataMap getDataMap()
+    '''returns DataMap\n\n
+    getDataMap()\n
     '''
 def setDataMap():
-    '''public void setDataMap(final DataMap dataMap)
+    '''returns None\n\n
+    setDataMap(final DataMap dataMap)\n
     '''
 def getMemberDataMap():
-    '''public MemberDataMap getMemberDataMap()
+    '''returns MemberDataMap\n\n
+    getMemberDataMap()\n
     '''
 def setMemberDataMap():
-    '''public void setMemberDataMap(final MemberDataMap memberDataMap)
+    '''returns None\n\n
+    setMemberDataMap(final MemberDataMap memberDataMap)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

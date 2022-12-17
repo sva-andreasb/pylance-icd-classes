@@ -1,34 +1,41 @@
-def StoredCredential():
-    '''public StoredCredential()
-    public StoredCredential(final Credential credential)
+def ():
+    '''returns StoredCredential\n\n
+    ()\n
+    (final Credential credential)\n
     '''
 def getAccessToken():
-    '''public String getAccessToken()
+    '''returns String\n\n
+    getAccessToken()\n
     '''
 def setAccessToken():
-    '''public StoredCredential setAccessToken(final String accessToken)
+    '''returns StoredCredential\n\n
+    setAccessToken(final String accessToken)\n
     '''
 def getExpirationTimeMilliseconds():
-    '''public Long getExpirationTimeMilliseconds()
+    '''returns Long\n\n
+    getExpirationTimeMilliseconds()\n
     '''
 def setExpirationTimeMilliseconds():
-    '''public StoredCredential setExpirationTimeMilliseconds(final Long expirationTimeMilliseconds)
+    '''returns StoredCredential\n\n
+    setExpirationTimeMilliseconds(final Long expirationTimeMilliseconds)\n
     '''
 def getRefreshToken():
-    '''public String getRefreshToken()
+    '''returns String\n\n
+    getRefreshToken()\n
     '''
 def setRefreshToken():
-    '''public StoredCredential setRefreshToken(final String refreshToken)
+    '''returns StoredCredential\n\n
+    setRefreshToken(final String refreshToken)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def hashCode():
-    '''public int hashCode()
-    '''
-def getDefaultDataStore():
-    '''public static DataStore<StoredCredential> getDefaultDataStore(final DataStoreFactory dataStoreFactory)
+    '''returns int\n\n
+    hashCode()\n
     '''

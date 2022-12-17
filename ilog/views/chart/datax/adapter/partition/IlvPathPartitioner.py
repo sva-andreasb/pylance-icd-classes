@@ -1,0 +1,16 @@
+def createClassifier():
+    '''returns IlvClassifier<IlvPathClusterId>\n\n
+    createClassifier(final Object o, final IlvClassifier ilvClassifier, final IlvClusterId ilvClusterId)\n
+    '''
+def ():
+    '''returns IlvPathPartitioner\n\n
+    (final IlvObjectModelWithColumns ilvObjectModelWithColumns, final IlvDataColumnInfo ilvDataColumnInfo, final String s, final boolean c, final boolean d, final int e, final boolean f)\n
+    '''
+def classify():
+    '''returns IlvPathClusterId\n\n
+    classify(final Object o)\n
+    '''
+def dispose():
+    '''returns None\n\n
+    dispose()\n
+    '''

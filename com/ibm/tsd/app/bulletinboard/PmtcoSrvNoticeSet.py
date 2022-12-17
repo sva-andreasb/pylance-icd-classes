@@ -1,6 +1,8 @@
-def PmtcoSrvNoticeSet():
-    '''public PmtcoSrvNoticeSet(final MboServerInterface ms)
+def ():
+    '''returns PmtcoSrvNoticeSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def associateServiceNoticeScope():
-    '''public void associateServiceNoticeScope(final MboSetRemote dataSet)
+    '''returns None\n\n
+    associateServiceNoticeScope(final MboSetRemote dataSet)\n
     '''

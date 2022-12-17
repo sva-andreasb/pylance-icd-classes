@@ -1,4 +1,5 @@
-def EvaluationLimitException():
-    '''public EvaluationLimitException(final String message, final Throwable cause)
-    public EvaluationLimitException(final String message)
+def ():
+    '''returns EvaluationLimitException\n\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
     '''

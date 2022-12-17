@@ -1,36 +1,44 @@
 NODENAME = "String  \"description\""
 NAMESPACE = "String  \"urn:xmpp:tmp:jingle:apps:rtp\""
-def JingleDescription():
-    '''public JingleDescription()
+def ():
+    '''returns Audio\n\n
+    ()\n
+    ()\n
+    (final PayloadType pt)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def addPayloadType():
-    '''public void addPayloadType(final PayloadType pt)
+    '''returns None\n\n
+    addPayloadType(final PayloadType pt)\n
     '''
 def addAudioPayloadTypes():
-    '''public void addAudioPayloadTypes(final List<PayloadType> pts)
+    '''returns None\n\n
+    addAudioPayloadTypes(final List<PayloadType> pts)\n
     '''
 def getPayloadTypes():
-    '''public Iterator<PayloadType> getPayloadTypes()
+    '''returns Iterator<PayloadType>\n\n
+    getPayloadTypes()\n
     '''
 def getPayloadTypesList():
-    '''public List<PayloadType> getPayloadTypesList()
+    '''returns List<PayloadType>\n\n
+    getPayloadTypesList()\n
     '''
 def getAudioPayloadTypesList():
-    '''public List<PayloadType> getAudioPayloadTypesList()
+    '''returns List<PayloadType>\n\n
+    getAudioPayloadTypesList()\n
     '''
 def getPayloadTypesCount():
-    '''public int getPayloadTypesCount()
+    '''returns int\n\n
+    getPayloadTypesCount()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
-    '''
-def Audio():
-    '''public Audio()
-    public Audio(final PayloadType pt)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''

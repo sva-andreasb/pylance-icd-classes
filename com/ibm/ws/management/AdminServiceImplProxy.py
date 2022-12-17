@@ -1,164 +1,214 @@
 def getMBeanFactory():
-    '''public MBeanFactory getMBeanFactory()
+    '''returns MBeanFactory\n\n
+    getMBeanFactory()\n
     '''
 def getCellName():
-    '''public String getCellName()
+    '''returns String\n\n
+    getCellName()\n
     '''
 def getNodeName():
-    '''public String getNodeName()
+    '''returns String\n\n
+    getNodeName()\n
     '''
 def getProcessName():
-    '''public String getProcessName()
+    '''returns String\n\n
+    getProcessName()\n
     '''
 def getServerType():
-    '''public String getServerType()
+    '''returns String\n\n
+    getServerType()\n
     '''
 def getCellType():
-    '''public String getCellType()
+    '''returns String\n\n
+    getCellType()\n
     '''
 def isCellRegistered():
-    '''public boolean isCellRegistered()
+    '''returns boolean\n\n
+    isCellRegistered()\n
     '''
 def isAlive():
-    '''public Session isAlive()
-    public Session isAlive(final int timeout)
+    '''returns Session\n\n
+    isAlive()\n
+    isAlive(final int timeout)\n
     '''
 def getJvmType():
-    '''public String getJvmType()
+    '''returns String\n\n
+    getJvmType()\n
     '''
 def instantiate():
-    '''public Object instantiate(final String className)
-    public Object instantiate(final String className, final ObjectName loaderName)
-    public Object instantiate(final String className, final Object[] args, final String[] parameters)
-    public Object instantiate(final String className, final ObjectName loaderName, final Object[] args, final String[] parameters)
+    '''returns Object\n\n
+    instantiate(final String className)\n
+    instantiate(final String className, final ObjectName loaderName)\n
+    instantiate(final String className, final Object[] args, final String[] parameters)\n
+    instantiate(final String className, final ObjectName loaderName, final Object[] args, final String[] parameters)\n
     '''
 def createMBean():
-    '''public ObjectInstance createMBean(final String className, final ObjectName name)
-    public ObjectInstance createMBean(final String className, final ObjectName name, final ObjectName loaderName)
-    public ObjectInstance createMBean(final String className, final ObjectName name, final Object[] params, final String[] signature)
-    public ObjectInstance createMBean(final String className, final ObjectName name, final ObjectName loaderName, final Object[] params, final String[] signature)
+    '''returns ObjectInstance\n\n
+    createMBean(final String className, final ObjectName name)\n
+    createMBean(final String className, final ObjectName name, final ObjectName loaderName)\n
+    createMBean(final String className, final ObjectName name, final Object[] params, final String[] signature)\n
+    createMBean(final String className, final ObjectName name, final ObjectName loaderName, final Object[] params, final String[] signature)\n
     '''
 def registerMBean():
-    '''public ObjectInstance registerMBean(final Object object, final ObjectName name)
+    '''returns ObjectInstance\n\n
+    registerMBean(final Object object, final ObjectName name)\n
     '''
 def getDomainName():
-    '''public String getDomainName()
+    '''returns String\n\n
+    getDomainName()\n
     '''
 def unregisterMBean():
-    '''public void unregisterMBean(final ObjectName name)
+    '''returns None\n\n
+    unregisterMBean(final ObjectName name)\n
     '''
 def queryMBeans():
-    '''public Set queryMBeans(final ObjectName name, final QueryExp query)
+    '''returns Set\n\n
+    queryMBeans(final ObjectName name, final QueryExp query)\n
     '''
 def queryNames():
-    '''public Set queryNames(final ObjectName name, final QueryExp query)
+    '''returns Set\n\n
+    queryNames(final ObjectName name, final QueryExp query)\n
     '''
 def isRegistered():
-    '''public boolean isRegistered(final ObjectName name)
+    '''returns boolean\n\n
+    isRegistered(final ObjectName name)\n
     '''
 def getMBeanCount():
-    '''public Integer getMBeanCount()
+    '''returns Integer\n\n
+    getMBeanCount()\n
     '''
 def getAttribute():
-    '''public Object getAttribute(final ObjectName name, final String attribute)
+    '''returns Object\n\n
+    getAttribute(final ObjectName name, final String attribute)\n
     '''
 def getAttributes():
-    '''public AttributeList getAttributes(final ObjectName name, final String[] attributes)
+    '''returns AttributeList\n\n
+    getAttributes(final ObjectName name, final String[] attributes)\n
     '''
 def setAttribute():
-    '''public void setAttribute(final ObjectName name, final Attribute attribute)
+    '''returns None\n\n
+    setAttribute(final ObjectName name, final Attribute attribute)\n
     '''
 def setAttributes():
-    '''public AttributeList setAttributes(final ObjectName name, final AttributeList attributes)
+    '''returns AttributeList\n\n
+    setAttributes(final ObjectName name, final AttributeList attributes)\n
     '''
 def invoke():
-    '''public Object invoke(final ObjectName origName, final String operationName, final Object[] params, final String[] signature)
+    '''returns Object\n\n
+    invoke(final ObjectName origName, final String operationName, final Object[] params, final String[] signature)\n
     '''
 def getDefaultDomain():
-    '''public String getDefaultDomain()
+    '''returns String\n\n
+    getDefaultDomain()\n
     '''
 def getMBeanInfo():
-    '''public MBeanInfo getMBeanInfo(final ObjectName name)
+    '''returns MBeanInfo\n\n
+    getMBeanInfo(final ObjectName name)\n
     '''
 def isInstanceOf():
-    '''public boolean isInstanceOf(final ObjectName name, final String className)
+    '''returns boolean\n\n
+    isInstanceOf(final ObjectName name, final String className)\n
     '''
 def addNotificationListener():
-    '''public void addNotificationListener(final ObjectName name, final NotificationListener listener, final NotificationFilter filter, final Object handback)
-    public ListenerIdentifier addNotificationListener(final ConsolidatedFilter filter, final PushNotificationListener listener)
-    public void addNotificationListener(final ObjectName name, final ObjectName listener, final NotificationFilter filter, final Object handback)
+    '''returns None\n\n
+    addNotificationListener(final ObjectName name, final NotificationListener listener, final NotificationFilter filter, final Object handback)\n
+    addNotificationListener(final ConsolidatedFilter filter, final PushNotificationListener listener)\n
+    addNotificationListener(final ObjectName name, final ObjectName listener, final NotificationFilter filter, final Object handback)\n
     '''
 def addNotificationListenerExtended():
-    '''public void addNotificationListenerExtended(final ObjectName name, final NotificationListener listener, final NotificationFilter filter, final Object handback)
+    '''returns None\n\n
+    addNotificationListenerExtended(final ObjectName name, final NotificationListener listener, final NotificationFilter filter, final Object handback)\n
     '''
 def removeNotificationListener():
-    '''public void removeNotificationListener(final ObjectName name, final NotificationListener listener)
-    public void removeNotificationListener(final ListenerIdentifier listenerId)
-    public void removeNotificationListener(final ObjectName name, final ObjectName listener)
-    public void removeNotificationListener(final ObjectName name, final ObjectName listener, final NotificationFilter filter, final Object handback)
-    public void removeNotificationListener(final ObjectName name, final NotificationListener listener, final NotificationFilter filter, final Object handback)
+    '''returns None\n\n
+    removeNotificationListener(final ObjectName name, final NotificationListener listener)\n
+    removeNotificationListener(final ListenerIdentifier listenerId)\n
+    removeNotificationListener(final ObjectName name, final ObjectName listener)\n
+    removeNotificationListener(final ObjectName name, final ObjectName listener, final NotificationFilter filter, final Object handback)\n
+    removeNotificationListener(final ObjectName name, final NotificationListener listener, final NotificationFilter filter, final Object handback)\n
     '''
 def removeNotificationListenerExtended():
-    '''public void removeNotificationListenerExtended(final ObjectName name, final NotificationListener listener)
-    public void removeNotificationListenerExtended(final NotificationListener listener)
+    '''returns None\n\n
+    removeNotificationListenerExtended(final ObjectName name, final NotificationListener listener)\n
+    removeNotificationListenerExtended(final NotificationListener listener)\n
     '''
 def initializeNotificationService():
-    '''public void initializeNotificationService()
+    '''returns None\n\n
+    initializeNotificationService()\n
     '''
 def getNotificationService():
-    '''public NotificationService getNotificationService()
+    '''returns NotificationService\n\n
+    getNotificationService()\n
     '''
 def resetFilter():
-    '''public void resetFilter(final ListenerIdentifier listenerId, final ConsolidatedFilter filter)
+    '''returns None\n\n
+    resetFilter(final ListenerIdentifier listenerId, final ConsolidatedFilter filter)\n
     '''
 def pullNotifications():
-    '''public Notification[] pullNotifications(final ListenerIdentifier id, final Integer batchSize)
+    '''returns Notification[]\n\n
+    pullNotifications(final ListenerIdentifier id, final Integer batchSize)\n
     '''
 def getProcessType():
-    '''public String getProcessType()
+    '''returns String\n\n
+    getProcessType()\n
     '''
 def setProcessType():
-    '''public void setProcessType(final String type)
+    '''returns None\n\n
+    setProcessType(final String type)\n
     '''
 def getServerMBean():
-    '''public ObjectName getServerMBean()
+    '''returns ObjectName\n\n
+    getServerMBean()\n
     '''
 def getLocalServer():
-    '''public ObjectName getLocalServer()
+    '''returns ObjectName\n\n
+    getLocalServer()\n
     '''
 def setLocalServer():
-    '''public void setLocalServer(final ObjectName svrBean)
+    '''returns None\n\n
+    setLocalServer(final ObjectName svrBean)\n
     '''
 def isLocalServer():
-    '''public boolean isLocalServer(final String cellname, final String nodename, final String servername)
+    '''returns boolean\n\n
+    isLocalServer(final String cellname, final String nodename, final String servername)\n
     '''
 def getDeploymentManagerAdminClient():
-    '''public AdminClient getDeploymentManagerAdminClient()
+    '''returns AdminClient\n\n
+    getDeploymentManagerAdminClient()\n
     '''
 def zOSInitComplete():
-    '''public void zOSInitComplete()
+    '''returns None\n\n
+    zOSInitComplete()\n
     '''
 def isZOSInitComplete():
-    '''public boolean isZOSInitComplete()
+    '''returns boolean\n\n
+    isZOSInitComplete()\n
     '''
 def transformConfigId():
-    '''public String transformConfigId(final String old)
+    '''returns String\n\n
+    transformConfigId(final String old)\n
     '''
 def reverseTransformConfigId():
-    '''public String reverseTransformConfigId(final String old)
+    '''returns String\n\n
+    reverseTransformConfigId(final String old)\n
     '''
 def getClassLoaderFor():
-    '''public ClassLoader getClassLoaderFor(final ObjectName name)
+    '''returns ClassLoader\n\n
+    getClassLoaderFor(final ObjectName name)\n
     '''
 def getClassLoader():
-    '''public ClassLoader getClassLoader(final ObjectName name)
+    '''returns ClassLoader\n\n
+    getClassLoader(final ObjectName name)\n
     '''
 def getClassLoaderRepository():
-    '''public ClassLoaderRepository getClassLoaderRepository()
+    '''returns ClassLoaderRepository\n\n
+    getClassLoaderRepository()\n
     '''
 def getDomains():
-    '''public String[] getDomains()
+    '''returns String[]\n\n
+    getDomains()\n
     '''
 def getObjectInstance():
-    '''public ObjectInstance getObjectInstance(final ObjectName name)
+    '''returns ObjectInstance\n\n
+    getObjectInstance(final ObjectName name)\n
     '''

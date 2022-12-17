@@ -1,9 +1,12 @@
-def ViewWOPMsBeanAsset():
-    '''public ViewWOPMsBeanAsset()
+def ():
+    '''returns ViewWOPMsBeanAsset\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def doRefresh():
-    '''public void doRefresh()
+    '''returns None\n\n
+    doRefresh()\n
     '''

@@ -1,21 +1,24 @@
-def IMHProducer():
-    '''public IMHProducer(final Properties producerProperties)
-    '''
-def getConnectionMetaData():
-    '''public Map<String, Object> getConnectionMetaData()
+def ():
+    '''returns IMHProducer\n\n
+    (final Properties producerProperties)\n
     '''
 def beginTX():
-    '''public void beginTX()
+    '''returns None\n\n
+    beginTX()\n
     '''
 def sendMessage():
-    '''public void sendMessage(final Message msg)
+    '''returns None\n\n
+    sendMessage(final Message msg)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def commit():
-    '''public void commit()
+    '''returns None\n\n
+    commit()\n
     '''
 def rollback():
-    '''public void rollback()
+    '''returns None\n\n
+    rollback()\n
     '''

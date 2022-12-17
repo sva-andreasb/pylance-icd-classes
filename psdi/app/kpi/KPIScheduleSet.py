@@ -1,3 +1,4 @@
-def KPIScheduleSet():
-    '''public KPIScheduleSet(final MboServerInterface ms)
+def ():
+    '''returns KPIScheduleSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,0 +1,2 @@
+EOPPOSITE_FEATURE_BASE = "int  -1"
+NO_INDEX = "int  -1"

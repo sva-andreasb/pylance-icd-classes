@@ -1,21 +1,28 @@
-def HttpConnectionParamBean():
-    '''public HttpConnectionParamBean(final HttpParams params)
+def ():
+    '''returns HttpConnectionParamBean\n\n
+    (final HttpParams params)\n
     '''
 def setSoTimeout():
-    '''public void setSoTimeout(final int soTimeout)
+    '''returns None\n\n
+    setSoTimeout(final int soTimeout)\n
     '''
 def setTcpNoDelay():
-    '''public void setTcpNoDelay(final boolean tcpNoDelay)
+    '''returns None\n\n
+    setTcpNoDelay(final boolean tcpNoDelay)\n
     '''
 def setSocketBufferSize():
-    '''public void setSocketBufferSize(final int socketBufferSize)
+    '''returns None\n\n
+    setSocketBufferSize(final int socketBufferSize)\n
     '''
 def setLinger():
-    '''public void setLinger(final int linger)
+    '''returns None\n\n
+    setLinger(final int linger)\n
     '''
 def setConnectionTimeout():
-    '''public void setConnectionTimeout(final int connectionTimeout)
+    '''returns None\n\n
+    setConnectionTimeout(final int connectionTimeout)\n
     '''
 def setStaleCheckingEnabled():
-    '''public void setStaleCheckingEnabled(final boolean staleCheckingEnabled)
+    '''returns None\n\n
+    setStaleCheckingEnabled(final boolean staleCheckingEnabled)\n
     '''

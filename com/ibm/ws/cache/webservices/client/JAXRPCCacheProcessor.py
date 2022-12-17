@@ -1,18 +1,24 @@
-def JAXRPCCacheProcessor():
-    '''public JAXRPCCacheProcessor()
+def ():
+    '''returns JAXRPCCacheProcessor\n\n
+    ()\n
     '''
 def execute():
-    '''public boolean execute(final SOAPMessageContext smc, final String configId, final QName serviceQName, final QName portQName, final SOAPHeader soapHeader, final SOAPBody soapBody)
+    '''returns boolean\n\n
+    execute(final SOAPMessageContext smc, final String configId, final QName serviceQName, final QName portQName, final SOAPHeader soapHeader, final SOAPBody soapBody)\n
     '''
 def reset():
-    '''public void reset(final ConfigEntry ce)
+    '''returns None\n\n
+    reset(final ConfigEntry ce)\n
     '''
 def getComponentValue():
-    '''public Object getComponentValue(final Component c)
+    '''returns Object\n\n
+    getComponentValue(final Component c)\n
     '''
 def processCacheIdProperties():
-    '''public void processCacheIdProperties(final CacheId cacheid)
+    '''returns None\n\n
+    processCacheIdProperties(final CacheId cacheid)\n
     '''
 def setEntryInfo():
-    '''public void setEntryInfo(final JAXRPCEntryInfo entryInfo)
+    '''returns None\n\n
+    setEntryInfo(final JAXRPCEntryInfo entryInfo)\n
     '''

@@ -1,9 +1,11 @@
-def g():
-    '''public g(final ILoader<Diagram, FromDiagramsOptions> loader, final ToHtmlOptions toHtmlOptions)
-    public g(final ILoader<Diagram, FromDiagramsOptions> loader)
+def ():
+    '''returns g\n\n
+    (final ILoader<Diagram, FromDiagramsOptions> loader, final ToHtmlOptions toHtmlOptions)\n
+    (final ILoader<Diagram, FromDiagramsOptions> loader)\n
     '''
 def toHtml():
-    '''public void toHtml(final OutputStream outputStream, final IResourceCallback resourceCallback)
-    public void toHtml(final String savePath, final IResourceCallback resourceCallback)
-    public void toHtml(final IHtmlStreamCallback<Y> dataCallback)
+    '''returns None\n\n
+    toHtml(final OutputStream outputStream, final IResourceCallback resourceCallback)\n
+    toHtml(final String savePath, final IResourceCallback resourceCallback)\n
+    toHtml(final IHtmlStreamCallback<Y> dataCallback)\n
     '''

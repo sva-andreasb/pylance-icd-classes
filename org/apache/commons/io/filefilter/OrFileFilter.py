@@ -1,24 +1,31 @@
-def OrFileFilter():
-    '''public OrFileFilter()
-    public OrFileFilter(final List<IOFileFilter> fileFilters)
-    public OrFileFilter(final IOFileFilter filter1, final IOFileFilter filter2)
+def ():
+    '''returns OrFileFilter\n\n
+    ()\n
+    (final List<IOFileFilter> fileFilters)\n
+    (final IOFileFilter filter1, final IOFileFilter filter2)\n
     '''
 def addFileFilter():
-    '''public void addFileFilter(final IOFileFilter ioFileFilter)
+    '''returns None\n\n
+    addFileFilter(final IOFileFilter ioFileFilter)\n
     '''
 def getFileFilters():
-    '''public List<IOFileFilter> getFileFilters()
+    '''returns List<IOFileFilter>\n\n
+    getFileFilters()\n
     '''
 def removeFileFilter():
-    '''public boolean removeFileFilter(final IOFileFilter ioFileFilter)
+    '''returns boolean\n\n
+    removeFileFilter(final IOFileFilter ioFileFilter)\n
     '''
 def setFileFilters():
-    '''public void setFileFilters(final List<IOFileFilter> fileFilters)
+    '''returns None\n\n
+    setFileFilters(final List<IOFileFilter> fileFilters)\n
     '''
 def accept():
-    '''public boolean accept(final File file)
-    public boolean accept(final File file, final String name)
+    '''returns boolean\n\n
+    accept(final File file)\n
+    accept(final File file, final String name)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,3 +1,4 @@
-def FldLocAuthLocation():
-    '''public FldLocAuthLocation(final MboValue mbv)
+def ():
+    '''returns FldLocAuthLocation\n\n
+    (final MboValue mbv)\n
     '''

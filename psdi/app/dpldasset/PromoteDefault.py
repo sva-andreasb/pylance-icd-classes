@@ -1,14 +1,17 @@
 MBO_PRMDFLT = "String  \"TLOAMPRMDFLT\""
-def PromoteDefault():
-    '''public PromoteDefault(final MboSet ms)
+def ():
+    '''returns PromoteDefault\n\n
+    (final MboSet ms)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setAttributeFlags():
-    '''public void setAttributeFlags()
-    public static void setAttributeFlags(final MboRemote mbo)
+    '''returns None\n\n
+    setAttributeFlags()\n
     '''

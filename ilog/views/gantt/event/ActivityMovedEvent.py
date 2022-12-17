@@ -1,12 +1,16 @@
-def ActivityMovedEvent():
-    '''public ActivityMovedEvent(final IlvGanttModel ilvGanttModel, final IlvActivity ilvActivity, final IlvActivity ilvActivity2, final int n, final IlvActivity ilvActivity3, final int n2)
+def ():
+    '''returns ActivityMovedEvent\n\n
+    (final IlvGanttModel ilvGanttModel, final IlvActivity ilvActivity, final IlvActivity ilvActivity2, final int n, final IlvActivity ilvActivity3, final int n2)\n
     '''
 def getActivity():
-    '''public IlvActivity getActivity()
+    '''returns IlvActivity\n\n
+    getActivity()\n
     '''
 def getOldParent():
-    '''public IlvActivity getOldParent()
+    '''returns IlvActivity\n\n
+    getOldParent()\n
     '''
 def getNewParent():
-    '''public IlvActivity getNewParent()
+    '''returns IlvActivity\n\n
+    getNewParent()\n
     '''

@@ -1,79 +1,89 @@
-def IoTConnectionService():
-    '''public IoTConnectionService(final MXServer mxServer)
-    public IoTConnectionService()
+def ():
+    '''returns IoTConnectionService\n\n
+    (final MXServer mxServer)\n
+    ()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def pingIoT():
-    '''public JSONObject pingIoT(@WSMboKey("IOTSERVICE") final MboRemote iotserv, final boolean iotcfg)
+    '''returns JSONObject\n\n
+    pingIoT(@WSMboKey("IOTSERVICE") final MboRemote iotserv, final boolean iotcfg)\n
     '''
 def getAllDeviceTypes():
-    '''public List<Object> getAllDeviceTypes(@WSMboKey("IOTSERVICE") final MboRemote iotserv, final String sort)
+    '''returns List<Object>\n\n
+    getAllDeviceTypes(@WSMboKey("IOTSERVICE") final MboRemote iotserv, final String sort)\n
     '''
 def getDeviceTypeList():
-    '''public List<Object> getDeviceTypeList(@WSMboKey("IOTSERVICE") final MboRemote iotserv, final String sort, final boolean isMapped)
+    '''returns List<Object>\n\n
+    getDeviceTypeList(@WSMboKey("IOTSERVICE") final MboRemote iotserv, final String sort, final boolean isMapped)\n
     '''
 def getNotMappedYetDeviceTypes():
-    '''public List<Object> getNotMappedYetDeviceTypes(@WSMboKey("IOTSERVICE") final MboRemote iotserv, final String sort)
-    '''
-def getLastMessageFromCache():
-    '''public Map<String, Object> getLastMessageFromCache(@WSMboKey("IOTSERVICE") final MboRemote iotService, final String deviceType)
-    '''
-def getLastMessageFromCacheForDevice():
-    '''public Map<String, Object> getLastMessageFromCacheForDevice(@WSMboKey("IOTSERVICE") final MboRemote iotserv, final String deviceType, final String deviceid)
+    '''returns List<Object>\n\n
+    getNotMappedYetDeviceTypes(@WSMboKey("IOTSERVICE") final MboRemote iotserv, final String sort)\n
     '''
 def getSampleAggregateResultForDeviceType():
-    '''public JSONObject getSampleAggregateResultForDeviceType(@WSMboKey("IOTSERVICE") final MboRemote iotService, final String deviceType, final String feedMapProperty, final String deviceid)
+    '''returns JSONObject\n\n
+    getSampleAggregateResultForDeviceType(@WSMboKey("IOTSERVICE") final MboRemote iotService, final String deviceType, final String feedMapProperty, final String deviceid)\n
     '''
 def clearDeviceRefernceForService():
-    '''public void clearDeviceRefernceForService(@WSMboKey("IOTSERVICE") final MboRemote iotservice)
+    '''returns None\n\n
+    clearDeviceRefernceForService(@WSMboKey("IOTSERVICE") final MboRemote iotservice)\n
     '''
 def clearDeviceReferenceAssetLocationLevel():
-    '''public void clearDeviceReferenceAssetLocationLevel(final MboRemote iotconfig)
+    '''returns None\n\n
+    clearDeviceReferenceAssetLocationLevel(final MboRemote iotconfig)\n
     '''
 def clearDeviceRefernce():
-    '''public void clearDeviceRefernce(@WSMboKey("IOTFDEVICETYPECFG") final MboRemote iotf)
+    '''returns None\n\n
+    clearDeviceRefernce(@WSMboKey("IOTFDEVICETYPECFG") final MboRemote iotf)\n
     '''
 def getEndPointValues():
-    '''public List<String> getEndPointValues(final String servicename)
+    '''returns List<String>\n\n
+    getEndPointValues(final String servicename)\n
     '''
 def refreshIoTServicesCache():
-    '''public void refreshIoTServicesCache(final MboSet mboset)
+    '''returns None\n\n
+    refreshIoTServicesCache(final MboSet mboset)\n
     '''
 def getDevices():
-    '''public List<Object> getDevices(@WSMboKey("IOTSERVICE") final MboRemote iotserv, final String deviceType, final String limit)
-    '''
-def checkCronTaskInstance():
-    '''public Map<String, Object> checkCronTaskInstance(final String instancename)
+    '''returns List<Object>\n\n
+    getDevices(@WSMboKey("IOTSERVICE") final MboRemote iotserv, final String deviceType, final String limit)\n
     '''
 def devices():
-    '''public List<Object> devices(final String deviceType)
+    '''returns List<Object>\n\n
+    devices(final String deviceType)\n
     '''
 def createAsset():
-    '''public void createAsset(final String iotfOrg, final String deviceType, final JSONObject deviceJO)
+    '''returns None\n\n
+    createAsset(final String iotfOrg, final String deviceType, final JSONObject deviceJO)\n
     '''
 def getHistorianDatabaseName():
-    '''public String getHistorianDatabaseName(final String orgid, final String historian, final Date dt)
+    '''returns String\n\n
+    getHistorianDatabaseName(final String orgid, final String historian, final Date dt)\n
     '''
 def getAnyHistorianDatabaseName():
-    '''public String getAnyHistorianDatabaseName(final String orgid, final String historian, String choice, String bucket, final Date dt, final int offset, final boolean isDefault)
+    '''returns String\n\n
+    getAnyHistorianDatabaseName(final String orgid, final String historian, String choice, String bucket, final Date dt, final int offset, final boolean isDefault)\n
     '''
 def deleteDocument():
-    '''public void deleteDocument(final Map<String, Object> metaData, String postUrl, final HTTPHandler handler)
+    '''returns None\n\n
+    deleteDocument(final Map<String, Object> metaData, String postUrl, final HTTPHandler handler)\n
     '''
 def canDeleteDeviceType():
-    '''public void canDeleteDeviceType(@WSMboKey("IOTFDEVICETYPECFG") final MboRemote iotdevtype)
+    '''returns None\n\n
+    canDeleteDeviceType(@WSMboKey("IOTFDEVICETYPECFG") final MboRemote iotdevtype)\n
     '''
 def anyDeviceTypesMapped():
-    '''public boolean anyDeviceTypesMapped(@WSMboKey("IOTSERVICE") final MboRemote iotserv)
+    '''returns boolean\n\n
+    anyDeviceTypesMapped(@WSMboKey("IOTSERVICE") final MboRemote iotserv)\n
     '''
 def isDeviceTypeAssociated():
-    '''public boolean isDeviceTypeAssociated(@WSMboKey("IOTFDEVICETYPECFG") final MboRemote iotservice, final String deviceType)
+    '''returns boolean\n\n
+    isDeviceTypeAssociated(@WSMboKey("IOTFDEVICETYPECFG") final MboRemote iotservice, final String deviceType)\n
     '''
 def getTimePeriods():
-    '''public List<String> getTimePeriods(@WSMboKey("IOTSERVICE") final MboRemote iotserv)
-    '''
-def listOwnerChain():
-    '''public static String listOwnerChain(MboSet mboset)
+    '''returns List<String>\n\n
+    getTimePeriods(@WSMboKey("IOTSERVICE") final MboRemote iotserv)\n
     '''

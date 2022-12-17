@@ -1,6 +1,8 @@
-def FldTloamLicensePurchQuantity():
-    '''public FldTloamLicensePurchQuantity(final MboValue mbv)
+def ():
+    '''returns FldTloamLicensePurchQuantity\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

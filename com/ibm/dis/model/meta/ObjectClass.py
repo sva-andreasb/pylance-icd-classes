@@ -1,33 +1,44 @@
-def ObjectClass():
-    '''public ObjectClass(final String newClassName, final String superClassName, final Set<ObjectAttribute> newAttributes, final SortedSet<NamingRule> namingRules)
+def ():
+    '''returns ObjectClass\n\n
+    (final String newClassName, final String superClassName, final Set<ObjectAttribute> newAttributes, final SortedSet<NamingRule> namingRules)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getSuperClassName():
-    '''public String getSuperClassName()
+    '''returns String\n\n
+    getSuperClassName()\n
     '''
 def getNewAttributes():
-    '''public Set<ObjectAttribute> getNewAttributes()
+    '''returns Set<ObjectAttribute>\n\n
+    getNewAttributes()\n
     '''
 def getNamingRules():
-    '''public SortedSet<NamingRule> getNamingRules()
+    '''returns SortedSet<NamingRule>\n\n
+    getNamingRules()\n
     '''
 def setSuperClassName():
-    '''public void setSuperClassName(final String name)
+    '''returns None\n\n
+    setSuperClassName(final String name)\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def setNewAttributes():
-    '''public void setNewAttributes(final Set<ObjectAttribute> newAttributes)
+    '''returns None\n\n
+    setNewAttributes(final Set<ObjectAttribute> newAttributes)\n
     '''
 def setNamingRules():
-    '''public void setNamingRules(final SortedSet<NamingRule> namingRules)
+    '''returns None\n\n
+    setNamingRules(final SortedSet<NamingRule> namingRules)\n
     '''
 def getSupportedTasks():
-    '''public List<Task> getSupportedTasks()
+    '''returns List<Task>\n\n
+    getSupportedTasks()\n
     '''
 def setSupportedTasks():
-    '''public void setSupportedTasks(final List<Task> tasks)
+    '''returns None\n\n
+    setSupportedTasks(final List<Task> tasks)\n
     '''

@@ -1,3 +1,4 @@
-def PlusPSLABreachLineSet():
-    '''public PlusPSLABreachLineSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPSLABreachLineSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,4 +1,5 @@
-def UnsupportedSaslMechanismException():
-    '''public UnsupportedSaslMechanismException(final String message)
-    public UnsupportedSaslMechanismException(final String message, final Throwable cause)
+def ():
+    '''returns UnsupportedSaslMechanismException\n\n
+    (final String message)\n
+    (final String message, final Throwable cause)\n
     '''

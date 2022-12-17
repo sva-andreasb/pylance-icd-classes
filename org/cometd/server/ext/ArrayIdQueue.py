@@ -1,37 +1,48 @@
-def ArrayIdQueue():
-    '''public ArrayIdQueue()
-    public ArrayIdQueue(final int capacity)
-    public ArrayIdQueue(final int initCapacity, final int growBy)
-    public ArrayIdQueue(final int initCapacity, final int growBy, final Object lock)
+def ():
+    '''returns ArrayIdQueue\n\n
+    ()\n
+    (final int capacity)\n
+    (final int initCapacity, final int growBy)\n
+    (final int initCapacity, final int growBy, final Object lock)\n
     '''
 def getCurrentId():
-    '''public int getCurrentId()
+    '''returns int\n\n
+    getCurrentId()\n
     '''
 def setCurrentId():
-    '''public void setCurrentId(final int currentId)
+    '''returns None\n\n
+    setCurrentId(final int currentId)\n
     '''
 def incrementCurrentId():
-    '''public void incrementCurrentId()
+    '''returns None\n\n
+    incrementCurrentId()\n
     '''
 def add():
-    '''public boolean add(final E e)
-    public void add(final int index, final E element)
+    '''returns None\n\n
+    add(final E e)\n
+    add(final int index, final E element)\n
     '''
 def addUnsafe():
-    '''public void addUnsafe(final E e)
+    '''returns None\n\n
+    addUnsafe(final E e)\n
     '''
 def offer():
-    '''public boolean offer(final E e)
+    '''returns boolean\n\n
+    offer(final E e)\n
     '''
 def getAssociatedId():
-    '''public int getAssociatedId(final int index)
+    '''returns int\n\n
+    getAssociatedId(final int index)\n
     '''
 def getAssociatedIdUnsafe():
-    '''public int getAssociatedIdUnsafe(final int index)
+    '''returns int\n\n
+    getAssociatedIdUnsafe(final int index)\n
     '''
 def remove():
-    '''public E remove(final int index)
+    '''returns E\n\n
+    remove(final int index)\n
     '''
 def set():
-    '''public E set(final int index, final E element)
+    '''returns E\n\n
+    set(final int index, final E element)\n
     '''

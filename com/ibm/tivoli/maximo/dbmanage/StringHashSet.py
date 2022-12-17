@@ -1,3 +1,4 @@
-def StringHashSet():
-    '''public StringHashSet(final String... startString)
+def ():
+    '''returns StringHashSet\n\n
+    (final String... startString)\n
     '''

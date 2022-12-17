@@ -1,49 +1,65 @@
-def HeaderGroup():
-    '''public HeaderGroup()
+def ():
+    '''returns HeaderGroup\n\n
+    ()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''
 def addHeader():
-    '''public void addHeader(final Header header)
+    '''returns None\n\n
+    addHeader(final Header header)\n
     '''
 def removeHeader():
-    '''public void removeHeader(final Header header)
+    '''returns None\n\n
+    removeHeader(final Header header)\n
     '''
 def updateHeader():
-    '''public void updateHeader(final Header header)
+    '''returns None\n\n
+    updateHeader(final Header header)\n
     '''
 def setHeaders():
-    '''public void setHeaders(final Header[] headers)
+    '''returns None\n\n
+    setHeaders(final Header[] headers)\n
     '''
 def getCondensedHeader():
-    '''public Header getCondensedHeader(final String name)
+    '''returns Header\n\n
+    getCondensedHeader(final String name)\n
     '''
 def getHeaders():
-    '''public Header[] getHeaders(final String name)
+    '''returns Header[]\n\n
+    getHeaders(final String name)\n
     '''
 def getFirstHeader():
-    '''public Header getFirstHeader(final String name)
+    '''returns Header\n\n
+    getFirstHeader(final String name)\n
     '''
 def getLastHeader():
-    '''public Header getLastHeader(final String name)
+    '''returns Header\n\n
+    getLastHeader(final String name)\n
     '''
 def getAllHeaders():
-    '''public Header[] getAllHeaders()
+    '''returns Header[]\n\n
+    getAllHeaders()\n
     '''
 def containsHeader():
-    '''public boolean containsHeader(final String name)
+    '''returns boolean\n\n
+    containsHeader(final String name)\n
     '''
 def iterator():
-    '''public HeaderIterator iterator()
-    public HeaderIterator iterator(final String name)
+    '''returns HeaderIterator\n\n
+    iterator()\n
+    iterator(final String name)\n
     '''
 def copy():
-    '''public HeaderGroup copy()
+    '''returns HeaderGroup\n\n
+    copy()\n
     '''
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

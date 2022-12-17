@@ -1,4 +1,5 @@
-def VMMismatchException():
-    '''public VMMismatchException()
-    public VMMismatchException(final String message)
+def ():
+    '''returns VMMismatchException\n\n
+    ()\n
+    (final String message)\n
     '''

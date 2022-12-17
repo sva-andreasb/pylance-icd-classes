@@ -1,51 +1,68 @@
 def setPageStartIndex():
-    '''public boolean setPageStartIndex(final int nRow)
+    '''returns boolean\n\n
+    setPageStartIndex(final int nRow)\n
     '''
 def getAMLaborTableBean():
-    '''public DataBean getAMLaborTableBean()
+    '''returns DataBean\n\n
+    getAMLaborTableBean()\n
     '''
 def resetWorkList():
-    '''public int resetWorkList()
+    '''returns int\n\n
+    resetWorkList()\n
     '''
 def resetLaborList():
-    '''public int resetLaborList()
+    '''returns int\n\n
+    resetLaborList()\n
     '''
 def resetWorkAndLaborLists():
-    '''public int resetWorkAndLaborLists()
+    '''returns int\n\n
+    resetWorkAndLaborLists()\n
     '''
 def amworkrefresh():
-    '''public int amworkrefresh()
+    '''returns int\n\n
+    amworkrefresh()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def SHOWALLLAB():
-    '''public int SHOWALLLAB()
+    '''returns int\n\n
+    SHOWALLLAB()\n
     '''
 def ASSIGNLAB():
-    '''public int ASSIGNLAB()
+    '''returns int\n\n
+    ASSIGNLAB()\n
     '''
 def STARTASSN():
-    '''public int STARTASSN()
+    '''returns int\n\n
+    STARTASSN()\n
     '''
 def INTRPTASSN():
-    '''public int INTRPTASSN()
+    '''returns int\n\n
+    INTRPTASSN()\n
     '''
 def FNSHASSN():
-    '''public int FNSHASSN()
+    '''returns int\n\n
+    FNSHASSN()\n
     '''
 def CRWSHOWALL():
-    '''public int CRWSHOWALL()
+    '''returns int\n\n
+    CRWSHOWALL()\n
     '''
 def CRWASSIGN():
-    '''public int CRWASSIGN()
+    '''returns int\n\n
+    CRWASSIGN()\n
     '''
 def getAMCrewTableBean():
-    '''public DataBean getAMCrewTableBean()
+    '''returns DataBean\n\n
+    getAMCrewTableBean()\n
     '''
 def resetCrewList():
-    '''public int resetCrewList()
+    '''returns int\n\n
+    resetCrewList()\n
     '''
 def checkWMAssigments():
-    '''public void checkWMAssigments(final Vector assigments, final boolean forcrew)
+    '''returns None\n\n
+    checkWMAssigments(final Vector assigments, final boolean forcrew)\n
     '''

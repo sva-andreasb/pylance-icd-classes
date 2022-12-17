@@ -1,6 +1,8 @@
-def FldCreateInvoiceInvoiceNum():
-    '''public FldCreateInvoiceInvoiceNum(final MboValue mbv)
+def ():
+    '''returns FldCreateInvoiceInvoiceNum\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

@@ -1,9 +1,12 @@
-def SignerKey():
-    '''public SignerKey(final long numberOfDaysSinceEpoch, final byte[] signingKey)
+def ():
+    '''returns SignerKey\n\n
+    (final long numberOfDaysSinceEpoch, final byte[] signingKey)\n
     '''
 def getNumberOfDaysSinceEpoch():
-    '''public long getNumberOfDaysSinceEpoch()
+    '''returns long\n\n
+    getNumberOfDaysSinceEpoch()\n
     '''
 def getSigningKey():
-    '''public byte[] getSigningKey()
+    '''returns byte[]\n\n
+    getSigningKey()\n
     '''

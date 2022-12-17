@@ -1,3 +1,4 @@
-def LiveChatOortSet():
-    '''public LiveChatOortSet(final MboServerInterface ms)
+def ():
+    '''returns LiveChatOortSet\n\n
+    (final MboServerInterface ms)\n
     '''

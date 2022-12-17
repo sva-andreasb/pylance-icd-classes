@@ -1,16 +1,20 @@
-def PureJavaCrc32C():
-    '''public PureJavaCrc32C()
+def ():
+    '''returns PureJavaCrc32C\n\n
+    ()\n
     '''
 def getIntegerValue():
-    '''public int getIntegerValue()
+    '''returns int\n\n
+    getIntegerValue()\n
     '''
 def getValue():
-    '''public long getValue()
+    '''returns long\n\n
+    getValue()\n
     '''
 def reset():
-    '''public void reset()
+    '''returns None\n\n
+    reset()\n
     '''
 def update():
-    '''public void update(final byte[] array, int n, int i)
-    public final void update(final int n)
+    '''returns None\n\n
+    update(final byte[] array, int n, int i)\n
     '''

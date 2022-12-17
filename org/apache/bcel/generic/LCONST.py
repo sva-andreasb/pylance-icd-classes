@@ -1,12 +1,16 @@
-def LCONST():
-    '''public LCONST(final long l)
+def ():
+    '''returns LCONST\n\n
+    (final long l)\n
     '''
 def getValue():
-    '''public Number getValue()
+    '''returns Number\n\n
+    getValue()\n
     '''
 def getType():
-    '''public Type getType(final ConstantPoolGen cp)
+    '''returns Type\n\n
+    getType(final ConstantPoolGen cp)\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

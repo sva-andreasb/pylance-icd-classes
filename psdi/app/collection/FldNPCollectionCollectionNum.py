@@ -1,6 +1,8 @@
-def FldNPCollectionCollectionNum():
-    '''public FldNPCollectionCollectionNum(final MboValue mbv)
+def ():
+    '''returns FldNPCollectionCollectionNum\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

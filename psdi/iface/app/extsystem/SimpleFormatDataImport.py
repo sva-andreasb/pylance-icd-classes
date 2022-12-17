@@ -1,12 +1,16 @@
-def SimpleFormatDataImport():
-    '''public SimpleFormatDataImport(final MboSet ms)
+def ():
+    '''returns SimpleFormatDataImport\n\n
+    (final MboSet ms)\n
     '''
 def importData():
-    '''public FileLoaderImpl importData(final InputStream in, final String fileType, final String delimiter, final boolean ispreview, final MboRemote npMbo, final boolean isFileExtract, final String fileName, final String textQualifier)
+    '''returns FileLoaderImpl\n\n
+    importData(final InputStream in, final String fileType, final String delimiter, final boolean ispreview, final MboRemote npMbo, final boolean isFileExtract, final String fileName, final String textQualifier)\n
     '''
 def ignoreExtraCommasBlankLines():
-    '''public int ignoreExtraCommasBlankLines()
+    '''returns int\n\n
+    ignoreExtraCommasBlankLines()\n
     '''
 def checkAllowedRecordLimit():
-    '''public void checkAllowedRecordLimit(final int recordCount)
+    '''returns None\n\n
+    checkAllowedRecordLimit(final int recordCount)\n
     '''

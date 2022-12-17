@@ -1,3 +1,4 @@
-def PersistStatusSet():
-    '''public PersistStatusSet(final MboServerInterface ms)
+def ():
+    '''returns PersistStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

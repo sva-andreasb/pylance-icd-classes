@@ -1,12 +1,12 @@
-def isTicketStatusBeingAdded():
-    '''public static boolean isTicketStatusBeingAdded(final Mbo mbo)
-    '''
-def PmTKStatus():
-    '''public PmTKStatus(final MboSet ms)
+def ():
+    '''returns PmTKStatus\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getCummulativeTimeSec():
-    '''public long getCummulativeTimeSec()
+    '''returns long\n\n
+    getCummulativeTimeSec()\n
     '''

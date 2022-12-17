@@ -1,42 +1,32 @@
 def getLiteral():
-    '''public LiteralLabel getLiteral()
-    '''
-def getLiteralValue():
-    '''public final Object getLiteralValue()
-    '''
-def getLiteralLexicalForm():
-    '''public final String getLiteralLexicalForm()
-    '''
-def getLiteralLanguage():
-    '''public final String getLiteralLanguage()
-    '''
-def getLiteralDatatypeURI():
-    '''public final String getLiteralDatatypeURI()
-    '''
-def getLiteralDatatype():
-    '''public final RDFDatatype getLiteralDatatype()
-    '''
-def getLiteralIsXML():
-    '''public final boolean getLiteralIsXML()
+    '''returns LiteralLabel\n\n
+    getLiteral()\n
     '''
 def toString():
-    '''public String toString(final PrefixMapping pm, final boolean quoting)
+    '''returns String\n\n
+    toString(final PrefixMapping pm, final boolean quoting)\n
     '''
 def isLiteral():
-    '''public boolean isLiteral()
+    '''returns boolean\n\n
+    isLiteral()\n
     '''
 def getIndexingValue():
-    '''public Object getIndexingValue()
+    '''returns Object\n\n
+    getIndexingValue()\n
     '''
 def visitWith():
-    '''public Object visitWith(final NodeVisitor v)
+    '''returns Object\n\n
+    visitWith(final NodeVisitor v)\n
     '''
 def equals():
-    '''public boolean equals(final Object other)
+    '''returns boolean\n\n
+    equals(final Object other)\n
     '''
 def sameValueAs():
-    '''public boolean sameValueAs(final Object o)
+    '''returns boolean\n\n
+    sameValueAs(final Object o)\n
     '''
 def matches():
-    '''public boolean matches(final Node x)
+    '''returns boolean\n\n
+    matches(final Node x)\n
     '''

@@ -1,3 +1,4 @@
-def WeatherAlertImpactSet():
-    '''public WeatherAlertImpactSet(final MboServerInterface ms)
+def ():
+    '''returns WeatherAlertImpactSet\n\n
+    (final MboServerInterface ms)\n
     '''

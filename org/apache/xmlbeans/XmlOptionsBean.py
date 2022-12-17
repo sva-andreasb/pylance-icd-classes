@@ -1,211 +1,281 @@
-def XmlOptionsBean():
-    '''public XmlOptionsBean()
-    public XmlOptionsBean(final XmlOptions other)
+def ():
+    '''returns XmlOptionsBean\n\n
+    ()\n
+    (final XmlOptions other)\n
     '''
 def setSaveNamespacesFirst():
-    '''public void setSaveNamespacesFirst(final boolean b)
+    '''returns None\n\n
+    setSaveNamespacesFirst(final boolean b)\n
     '''
 def isSaveNamespacesFirst():
-    '''public boolean isSaveNamespacesFirst()
+    '''returns boolean\n\n
+    isSaveNamespacesFirst()\n
     '''
 def setSavePrettyPrint():
-    '''public void setSavePrettyPrint(final boolean b)
+    '''returns None\n\n
+    setSavePrettyPrint(final boolean b)\n
     '''
 def isSavePrettyPrint():
-    '''public boolean isSavePrettyPrint()
+    '''returns boolean\n\n
+    isSavePrettyPrint()\n
     '''
 def getSavePrettyPrintIndent():
-    '''public Integer getSavePrettyPrintIndent()
+    '''returns Integer\n\n
+    getSavePrettyPrintIndent()\n
     '''
 def getSavePrettyPrintOffset():
-    '''public Integer getSavePrettyPrintOffset()
+    '''returns Integer\n\n
+    getSavePrettyPrintOffset()\n
     '''
 def getCharacterEncoding():
-    '''public String getCharacterEncoding()
+    '''returns String\n\n
+    getCharacterEncoding()\n
     '''
 def getDocumentType():
-    '''public SchemaType getDocumentType()
+    '''returns SchemaType\n\n
+    getDocumentType()\n
     '''
 def setSaveAggressiveNamespaces():
-    '''public void setSaveAggressiveNamespaces(final boolean b)
+    '''returns None\n\n
+    setSaveAggressiveNamespaces(final boolean b)\n
     '''
 def isSaveAggressiveNamespaces():
-    '''public boolean isSaveAggressiveNamespaces()
+    '''returns boolean\n\n
+    isSaveAggressiveNamespaces()\n
     '''
 def getSaveSyntheticDocumentElement():
-    '''public QName getSaveSyntheticDocumentElement()
+    '''returns QName\n\n
+    getSaveSyntheticDocumentElement()\n
     '''
 def setUseDefaultNamespace():
-    '''public void setUseDefaultNamespace(final boolean b)
+    '''returns None\n\n
+    setUseDefaultNamespace(final boolean b)\n
     '''
 def isUseDefaultNamespace():
-    '''public boolean isUseDefaultNamespace()
+    '''returns boolean\n\n
+    isUseDefaultNamespace()\n
     '''
 def getSaveImplicitNamespaces():
-    '''public Map getSaveImplicitNamespaces()
+    '''returns Map\n\n
+    getSaveImplicitNamespaces()\n
     '''
 def getSaveSuggestedPrefixes():
-    '''public Map getSaveSuggestedPrefixes()
+    '''returns Map\n\n
+    getSaveSuggestedPrefixes()\n
     '''
 def getSaveFilterProcinst():
-    '''public String getSaveFilterProcinst()
+    '''returns String\n\n
+    getSaveFilterProcinst()\n
     '''
 def getSaveSubstituteCharacters():
-    '''public XmlOptionCharEscapeMap getSaveSubstituteCharacters()
+    '''returns XmlOptionCharEscapeMap\n\n
+    getSaveSubstituteCharacters()\n
     '''
 def setSaveUseOpenFrag():
-    '''public void setSaveUseOpenFrag(final boolean b)
+    '''returns None\n\n
+    setSaveUseOpenFrag(final boolean b)\n
     '''
 def isSaveUseOpenFrag():
-    '''public boolean isSaveUseOpenFrag()
+    '''returns boolean\n\n
+    isSaveUseOpenFrag()\n
     '''
 def setSaveOuter():
-    '''public void setSaveOuter(final boolean b)
+    '''returns None\n\n
+    setSaveOuter(final boolean b)\n
     '''
 def isSaveOuter():
-    '''public boolean isSaveOuter()
+    '''returns boolean\n\n
+    isSaveOuter()\n
     '''
 def setSaveInner():
-    '''public void setSaveInner(final boolean b)
+    '''returns None\n\n
+    setSaveInner(final boolean b)\n
     '''
 def isSaveInner():
-    '''public boolean isSaveInner()
+    '''returns boolean\n\n
+    isSaveInner()\n
     '''
 def setSaveNoXmlDecl():
-    '''public void setSaveNoXmlDecl(final boolean b)
+    '''returns None\n\n
+    setSaveNoXmlDecl(final boolean b)\n
     '''
 def isSaveNoXmlDecl():
-    '''public boolean isSaveNoXmlDecl()
+    '''returns boolean\n\n
+    isSaveNoXmlDecl()\n
     '''
 def getSaveCDataLengthThreshold():
-    '''public Integer getSaveCDataLengthThreshold()
+    '''returns Integer\n\n
+    getSaveCDataLengthThreshold()\n
     '''
 def getSaveCDataEntityCountThreshold():
-    '''public Integer getSaveCDataEntityCountThreshold()
+    '''returns Integer\n\n
+    getSaveCDataEntityCountThreshold()\n
     '''
 def setSaveSaxNoNSDeclsInAttributes():
-    '''public void setSaveSaxNoNSDeclsInAttributes(final boolean b)
+    '''returns None\n\n
+    setSaveSaxNoNSDeclsInAttributes(final boolean b)\n
     '''
 def isSaveSaxNoNSDeclsInAttributes():
-    '''public boolean isSaveSaxNoNSDeclsInAttributes()
+    '''returns boolean\n\n
+    isSaveSaxNoNSDeclsInAttributes()\n
     '''
 def getLoadReplaceDocumentElement():
-    '''public QName getLoadReplaceDocumentElement()
+    '''returns QName\n\n
+    getLoadReplaceDocumentElement()\n
     '''
 def setLoadStripWhitespace():
-    '''public void setLoadStripWhitespace(final boolean b)
+    '''returns None\n\n
+    setLoadStripWhitespace(final boolean b)\n
     '''
 def isSetLoadStripWhitespace():
-    '''public boolean isSetLoadStripWhitespace()
+    '''returns boolean\n\n
+    isSetLoadStripWhitespace()\n
     '''
 def setLoadStripComments():
-    '''public void setLoadStripComments(final boolean b)
+    '''returns None\n\n
+    setLoadStripComments(final boolean b)\n
     '''
 def isLoadStripComments():
-    '''public boolean isLoadStripComments()
+    '''returns boolean\n\n
+    isLoadStripComments()\n
     '''
 def setLoadStripProcinsts():
-    '''public void setLoadStripProcinsts(final boolean b)
+    '''returns None\n\n
+    setLoadStripProcinsts(final boolean b)\n
     '''
 def isLoadStripProcinsts():
-    '''public boolean isLoadStripProcinsts()
+    '''returns boolean\n\n
+    isLoadStripProcinsts()\n
     '''
 def setLoadLineNumbers():
-    '''public void setLoadLineNumbers(final boolean b)
+    '''returns None\n\n
+    setLoadLineNumbers(final boolean b)\n
     '''
 def isLoadLineNumbers():
-    '''public boolean isLoadLineNumbers()
+    '''returns boolean\n\n
+    isLoadLineNumbers()\n
     '''
 def getLoadSubstituteNamespaces():
-    '''public Map getLoadSubstituteNamespaces()
+    '''returns Map\n\n
+    getLoadSubstituteNamespaces()\n
     '''
 def setLoadTrimTextBuffer():
-    '''public void setLoadTrimTextBuffer(final boolean b)
+    '''returns None\n\n
+    setLoadTrimTextBuffer(final boolean b)\n
     '''
 def isLoadTrimTextBuffer():
-    '''public boolean isLoadTrimTextBuffer()
+    '''returns boolean\n\n
+    isLoadTrimTextBuffer()\n
     '''
 def getLoadAdditionalNamespaces():
-    '''public Map getLoadAdditionalNamespaces()
+    '''returns Map\n\n
+    getLoadAdditionalNamespaces()\n
     '''
 def setLoadMessageDigest():
-    '''public void setLoadMessageDigest(final boolean b)
+    '''returns None\n\n
+    setLoadMessageDigest(final boolean b)\n
     '''
 def isLoadMessageDigest():
-    '''public boolean isLoadMessageDigest()
+    '''returns boolean\n\n
+    isLoadMessageDigest()\n
     '''
 def setLoadUseDefaultResolver():
-    '''public void setLoadUseDefaultResolver(final boolean b)
+    '''returns None\n\n
+    setLoadUseDefaultResolver(final boolean b)\n
     '''
 def isLoadUseDefaultResolver():
-    '''public boolean isLoadUseDefaultResolver()
+    '''returns boolean\n\n
+    isLoadUseDefaultResolver()\n
     '''
 def getXqueryCurrentNodeVar():
-    '''public String getXqueryCurrentNodeVar()
+    '''returns String\n\n
+    getXqueryCurrentNodeVar()\n
     '''
 def getXqueryVariables():
-    '''public Map getXqueryVariables()
+    '''returns Map\n\n
+    getXqueryVariables()\n
     '''
 def getDocumentSourceName():
-    '''public String getDocumentSourceName()
+    '''returns String\n\n
+    getDocumentSourceName()\n
     '''
 def getCompileSubstituteNames():
-    '''public Map getCompileSubstituteNames()
+    '''returns Map\n\n
+    getCompileSubstituteNames()\n
     '''
 def setCompileNoUpaRule():
-    '''public void setCompileNoUpaRule(final boolean b)
+    '''returns None\n\n
+    setCompileNoUpaRule(final boolean b)\n
     '''
 def isCompileNoUpaRule():
-    '''public boolean isCompileNoUpaRule()
+    '''returns boolean\n\n
+    isCompileNoUpaRule()\n
     '''
 def setCompileNoPvrRule():
-    '''public void setCompileNoPvrRule(final boolean b)
+    '''returns None\n\n
+    setCompileNoPvrRule(final boolean b)\n
     '''
 def isCompileNoPvrRule():
-    '''public boolean isCompileNoPvrRule()
+    '''returns boolean\n\n
+    isCompileNoPvrRule()\n
     '''
 def setCompileNoAnnotations():
-    '''public void setCompileNoAnnotations(final boolean b)
+    '''returns None\n\n
+    setCompileNoAnnotations(final boolean b)\n
     '''
 def isCompileNoAnnotations():
-    '''public boolean isCompileNoAnnotations()
+    '''returns boolean\n\n
+    isCompileNoAnnotations()\n
     '''
 def setCompileDownloadUrls():
-    '''public void setCompileDownloadUrls(final boolean b)
+    '''returns None\n\n
+    setCompileDownloadUrls(final boolean b)\n
     '''
 def isCompileDownloadUrls():
-    '''public boolean isCompileDownloadUrls()
+    '''returns boolean\n\n
+    isCompileDownloadUrls()\n
     '''
 def getCompileMdefNamespaces():
-    '''public Set getCompileMdefNamespaces()
+    '''returns Set\n\n
+    getCompileMdefNamespaces()\n
     '''
 def setValidateOnSet():
-    '''public void setValidateOnSet(final boolean b)
+    '''returns None\n\n
+    setValidateOnSet(final boolean b)\n
     '''
 def isValidateOnSet():
-    '''public boolean isValidateOnSet()
+    '''returns boolean\n\n
+    isValidateOnSet()\n
     '''
 def setValidateTreatLaxAsSkip():
-    '''public void setValidateTreatLaxAsSkip(final boolean b)
+    '''returns None\n\n
+    setValidateTreatLaxAsSkip(final boolean b)\n
     '''
 def isValidateTreatLaxAsSkip():
-    '''public boolean isValidateTreatLaxAsSkip()
+    '''returns boolean\n\n
+    isValidateTreatLaxAsSkip()\n
     '''
 def setValidateStrict():
-    '''public void setValidateStrict(final boolean b)
+    '''returns None\n\n
+    setValidateStrict(final boolean b)\n
     '''
 def isValidateStrict():
-    '''public boolean isValidateStrict()
+    '''returns boolean\n\n
+    isValidateStrict()\n
     '''
 def setUnsynchronized():
-    '''public void setUnsynchronized(final boolean b)
+    '''returns None\n\n
+    setUnsynchronized(final boolean b)\n
     '''
 def isUnsynchronized():
-    '''public boolean isUnsynchronized()
+    '''returns boolean\n\n
+    isUnsynchronized()\n
     '''
 def getEntityResolver():
-    '''public EntityResolver getEntityResolver()
+    '''returns EntityResolver\n\n
+    getEntityResolver()\n
     '''
 def getGenerateJavaVersion():
-    '''public String getGenerateJavaVersion()
+    '''returns String\n\n
+    getGenerateJavaVersion()\n
     '''

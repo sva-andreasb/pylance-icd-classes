@@ -1,0 +1,6 @@
+APPSYNC_STATUS_KEY = "String  \"syncstatus\""
+APPSYNC_DELTA_FILESTBL_KEY = "String  \"filestbl\""
+APPSYNC_STOPPEDDEPLOYLIST_KEY = "String  \"stoppedlist\""
+APPSYNC_APPNAME = "String  \"appname\""
+NULLEVENT = "int  -1"
+APPSYNC_RECYLEAPPASV5 = "String  \"com.ibm.websphere.management.application.sync.recycleappasv5\""

@@ -1,6 +1,8 @@
 def iorgstatus():
-    '''public int iorgstatus()
+    '''returns int\n\n
+    iorgstatus()\n
     '''
 def iorghistory():
-    '''public int iorghistory()
+    '''returns int\n\n
+    iorghistory()\n
     '''

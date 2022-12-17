@@ -1,25 +1,25 @@
-def EncLevel():
-    '''public EncLevel(final short level)
-    public EncLevel(final NdrInputStream ndrInputStream)
+def ():
+    '''returns EncLevel\n\n
+    (final short level)\n
+    (final NdrInputStream ndrInputStream)\n
     '''
 def getValue():
-    '''public short getValue()
+    '''returns short\n\n
+    getValue()\n
     '''
 def isEqual():
-    '''public boolean isEqual(final EncLevel encLevel)
+    '''returns boolean\n\n
+    isEqual(final EncLevel encLevel)\n
     '''
 def isLower():
-    '''public boolean isLower(final EncLevel encLevel)
-    '''
-def max():
-    '''public static EncLevel max(final EncLevel encLevel, final EncLevel encLevel2)
-    '''
-def min():
-    '''public static EncLevel min(final EncLevel encLevel, final EncLevel encLevel2)
+    '''returns boolean\n\n
+    isLower(final EncLevel encLevel)\n
     '''
 def dump():
-    '''public void dump(final NdrOutputStream ndrOutputStream)
+    '''returns None\n\n
+    dump(final NdrOutputStream ndrOutputStream)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

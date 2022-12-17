@@ -1,30 +1,36 @@
-def IoTServiceDeviceTypeInfo():
-    '''public IoTServiceDeviceTypeInfo(final Map<String, String> data)
+def ():
+    '''returns IoTServiceDeviceTypeInfo\n\n
+    (final Map<String, String> data)\n
     '''
 def getExtSystem():
-    '''public String getExtSystem()
+    '''returns String\n\n
+    getExtSystem()\n
     '''
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def getDeviceType():
-    '''public String getDeviceType()
-    '''
-def getMeterToPayloadMappingInfo():
-    '''public Map<String, IoTMeterToPayloadMappingInfo> getMeterToPayloadMappingInfo()
+    '''returns String\n\n
+    getDeviceType()\n
     '''
 def addMeterToPayloadMappingInfo():
-    '''public void addMeterToPayloadMappingInfo(final IoTMeterToPayloadMappingInfo deviceMappingInfo)
+    '''returns None\n\n
+    addMeterToPayloadMappingInfo(final IoTMeterToPayloadMappingInfo deviceMappingInfo)\n
     '''
 def getMapper():
-    '''public String getMapper()
+    '''returns String\n\n
+    getMapper()\n
     '''
 def getHistMapper():
-    '''public String getHistMapper()
+    '''returns String\n\n
+    getHistMapper()\n
     '''
 def getUseWith():
-    '''public String getUseWith()
+    '''returns String\n\n
+    getUseWith()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''

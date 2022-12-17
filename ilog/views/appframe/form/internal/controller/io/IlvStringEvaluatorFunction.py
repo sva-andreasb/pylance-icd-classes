@@ -1,62 +1,68 @@
 def evaluateValues():
-    '''public double evaluateValues(final double n, final double n2)
-    public double evaluateValues(final double n, final double n2)
-    public double evaluateValues(final double n, final double n2)
-    public double evaluateValues(final double n, final double n2)
+    '''returns double\n\n
+    evaluateValues(final double n, final double n2)\n
+    evaluateValues(final double n, final double n2)\n
+    evaluateValues(final double n, final double n2)\n
+    evaluateValues(final double n, final double n2)\n
     '''
 def evaluateString():
-    '''public String evaluateString(final String str, final String str2)
-    public String evaluateString(final String s, final String s2)
+    '''returns String\n\n
+    evaluateString(final String str, final String str2)\n
+    evaluateString(final String s, final String s2)\n
     '''
 def initialize():
-    '''public Object initialize(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)
-    public Object initialize(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)
-    public Object initialize(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)
-    public Object initialize(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)
-    public Object initialize(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)
-    public Object initialize(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)
-    public Object initialize(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)
-    public Object initialize(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)
+    '''returns Object\n\n
+    initialize(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)\n
+    initialize(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)\n
+    initialize(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)\n
+    initialize(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)\n
+    initialize(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)\n
+    initialize(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)\n
+    initialize(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)\n
+    initialize(final IlvFormEditor ilvFormEditor, final IlvEditionContext ilvEditionContext)\n
     '''
 def connectUI():
-    '''public void connectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)
-    public void connectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)
-    public void connectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)
-    public void connectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)
-    public void connectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)
-    public void connectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)
-    public void connectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)
-    public void connectUI()
-    public void connectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    connectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)\n
+    connectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)\n
+    connectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)\n
+    connectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)\n
+    connectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)\n
+    connectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)\n
+    connectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)\n
+    connectUI()\n
+    connectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)\n
     '''
 def disconnectUI():
-    '''public void disconnectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)
-    public void disconnectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)
-    public void disconnectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)
-    public void disconnectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)
-    public void disconnectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)
-    public void disconnectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)
-    public void disconnectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)
-    public void disconnectUI()
-    public void disconnectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)
+    '''returns None\n\n
+    disconnectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)\n
+    disconnectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)\n
+    disconnectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)\n
+    disconnectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)\n
+    disconnectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)\n
+    disconnectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)\n
+    disconnectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)\n
+    disconnectUI()\n
+    disconnectUI(final IlvFormEditor ilvFormEditor, final Object o, final IlvEditionContext ilvEditionContext)\n
     '''
 def evaluate():
-    '''public Object evaluate(final Object[] array, final Object o, final IlvEditionContext ilvEditionContext)
-    public Object evaluate(final Object[] array, final Object o, final IlvEditionContext ilvEditionContext)
-    public Object evaluate(final Object[] array, final Object o, final IlvEditionContext ilvEditionContext)
-    public Object evaluate(final Object[] array, final Object o, final IlvEditionContext ilvEditionContext)
-    public Object evaluate(final Object[] array, final Object o, final IlvEditionContext ilvEditionContext)
-    public Object evaluate(final Object[] array, final Object o, final IlvEditionContext ilvEditionContext)
-    public Object evaluate(final Object[] array, final Object o, final IlvEditionContext ilvEditionContext)
-    public Object evaluate(final Object[] array, final Object o, final IlvEditionContext ilvEditionContext)
+    '''returns Object\n\n
+    evaluate(final Object[] array, final Object o, final IlvEditionContext ilvEditionContext)\n
+    evaluate(final Object[] array, final Object o, final IlvEditionContext ilvEditionContext)\n
+    evaluate(final Object[] array, final Object o, final IlvEditionContext ilvEditionContext)\n
+    evaluate(final Object[] array, final Object o, final IlvEditionContext ilvEditionContext)\n
+    evaluate(final Object[] array, final Object o, final IlvEditionContext ilvEditionContext)\n
+    evaluate(final Object[] array, final Object o, final IlvEditionContext ilvEditionContext)\n
+    evaluate(final Object[] array, final Object o, final IlvEditionContext ilvEditionContext)\n
+    evaluate(final Object[] array, final Object o, final IlvEditionContext ilvEditionContext)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
-def RefEditorContext():
-    '''public RefEditorContext(final IlvFormEditor editor)
-    '''
-def ArithmeticBinaryFunction():
-    '''public ArithmeticBinaryFunction(final String a)
+def ():
+    '''returns ArithmeticBinaryFunction\n\n
+    (final IlvFormEditor editor)\n
+    (final String a)\n
     '''

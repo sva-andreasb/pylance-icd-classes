@@ -1,9 +1,12 @@
-def FldLocationReorderFromStore():
-    '''public FldLocationReorderFromStore(final MboValue mbv)
+def ():
+    '''returns FldLocationReorderFromStore\n\n
+    (final MboValue mbv)\n
     '''
 def getList():
-    '''public MboSetRemote getList()
+    '''returns MboSetRemote\n\n
+    getList()\n
     '''
 def smartFind():
-    '''public MboSetRemote smartFind(final String value, final boolean exact)
+    '''returns MboSetRemote\n\n
+    smartFind(final String value, final boolean exact)\n
     '''

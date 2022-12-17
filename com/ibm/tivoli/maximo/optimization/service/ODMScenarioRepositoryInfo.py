@@ -1,45 +1,60 @@
-def ODMScenarioRepositoryInfo():
-    '''public ODMScenarioRepositoryInfo()
+def ():
+    '''returns ODMScenarioRepositoryInfo\n\n
+    ()\n
     '''
 def getDatabaseType():
-    '''public ODMScenarioDatabaseType getDatabaseType()
+    '''returns ODMScenarioDatabaseType\n\n
+    getDatabaseType()\n
     '''
 def setDatabaseType():
-    '''public void setDatabaseType(final ODMScenarioDatabaseType databaseType)
+    '''returns None\n\n
+    setDatabaseType(final ODMScenarioDatabaseType databaseType)\n
     '''
 def getDatabaseHostName():
-    '''public String getDatabaseHostName()
+    '''returns String\n\n
+    getDatabaseHostName()\n
     '''
 def setDatabaseHostName():
-    '''public void setDatabaseHostName(final String databaseHostName)
+    '''returns None\n\n
+    setDatabaseHostName(final String databaseHostName)\n
     '''
 def getDatabasePort():
-    '''public Integer getDatabasePort()
+    '''returns Integer\n\n
+    getDatabasePort()\n
     '''
 def setDatabasePort():
-    '''public void setDatabasePort(final Integer databasePort)
+    '''returns None\n\n
+    setDatabasePort(final Integer databasePort)\n
     '''
 def getDatabaseInstanceName():
-    '''public String getDatabaseInstanceName()
+    '''returns String\n\n
+    getDatabaseInstanceName()\n
     '''
 def setDatabaseInstanceName():
-    '''public void setDatabaseInstanceName(final String databaseInstanceName)
+    '''returns None\n\n
+    setDatabaseInstanceName(final String databaseInstanceName)\n
     '''
 def getSchemaUserName():
-    '''public String getSchemaUserName()
+    '''returns String\n\n
+    getSchemaUserName()\n
     '''
 def setSchemaUserName():
-    '''public void setSchemaUserName(final String schemaUserName)
+    '''returns None\n\n
+    setSchemaUserName(final String schemaUserName)\n
     '''
 def getSchemaUserPassword():
-    '''public String getSchemaUserPassword()
+    '''returns String\n\n
+    getSchemaUserPassword()\n
     '''
 def setSchemaUserPassword():
-    '''public void setSchemaUserPassword(final String schemaUserPassword)
+    '''returns None\n\n
+    setSchemaUserPassword(final String schemaUserPassword)\n
     '''
 def getValidateDatabaseConnection():
-    '''public Boolean getValidateDatabaseConnection()
+    '''returns Boolean\n\n
+    getValidateDatabaseConnection()\n
     '''
 def setValidateDatabaseConnection():
-    '''public void setValidateDatabaseConnection(final Boolean setValidateDatabaseConnection)
+    '''returns None\n\n
+    setValidateDatabaseConnection(final Boolean setValidateDatabaseConnection)\n
     '''

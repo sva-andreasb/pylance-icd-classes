@@ -1,21 +1,28 @@
-def RouteActionRule():
-    '''public RouteActionRule(final List<TimePeriodRule> tpRules)
+def ():
+    '''returns RouteActionRule\n\n
+    (final List<TimePeriodRule> tpRules)\n
     '''
 def subset():
-    '''public void subset(final List identities, final StringBuffer reason)
+    '''returns None\n\n
+    subset(final List identities, final StringBuffer reason)\n
     '''
 def registerRuleArbitrator():
-    '''public void registerRuleArbitrator(final RuleArbitrator coordinator)
+    '''returns None\n\n
+    registerRuleArbitrator(final RuleArbitrator coordinator)\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def setDestroy():
-    '''public void setDestroy()
+    '''returns None\n\n
+    setDestroy()\n
     '''

@@ -1,68 +1,90 @@
-def GsonBuilder():
-    '''public GsonBuilder()
+def ():
+    '''returns GsonBuilder\n\n
+    ()\n
     '''
 def setVersion():
-    '''public GsonBuilder setVersion(final double ignoreVersionsAfter)
+    '''returns GsonBuilder\n\n
+    setVersion(final double ignoreVersionsAfter)\n
     '''
 def excludeFieldsWithModifiers():
-    '''public GsonBuilder excludeFieldsWithModifiers(final int... modifiers)
+    '''returns GsonBuilder\n\n
+    excludeFieldsWithModifiers(final int... modifiers)\n
     '''
 def generateNonExecutableJson():
-    '''public GsonBuilder generateNonExecutableJson()
+    '''returns GsonBuilder\n\n
+    generateNonExecutableJson()\n
     '''
 def excludeFieldsWithoutExposeAnnotation():
-    '''public GsonBuilder excludeFieldsWithoutExposeAnnotation()
+    '''returns GsonBuilder\n\n
+    excludeFieldsWithoutExposeAnnotation()\n
     '''
 def serializeNulls():
-    '''public GsonBuilder serializeNulls()
+    '''returns GsonBuilder\n\n
+    serializeNulls()\n
     '''
 def enableComplexMapKeySerialization():
-    '''public GsonBuilder enableComplexMapKeySerialization()
+    '''returns GsonBuilder\n\n
+    enableComplexMapKeySerialization()\n
     '''
 def disableInnerClassSerialization():
-    '''public GsonBuilder disableInnerClassSerialization()
+    '''returns GsonBuilder\n\n
+    disableInnerClassSerialization()\n
     '''
 def setLongSerializationPolicy():
-    '''public GsonBuilder setLongSerializationPolicy(final LongSerializationPolicy serializationPolicy)
+    '''returns GsonBuilder\n\n
+    setLongSerializationPolicy(final LongSerializationPolicy serializationPolicy)\n
     '''
 def setFieldNamingPolicy():
-    '''public GsonBuilder setFieldNamingPolicy(final FieldNamingPolicy namingConvention)
+    '''returns GsonBuilder\n\n
+    setFieldNamingPolicy(final FieldNamingPolicy namingConvention)\n
     '''
 def setFieldNamingStrategy():
-    '''public GsonBuilder setFieldNamingStrategy(final FieldNamingStrategy fieldNamingStrategy)
+    '''returns GsonBuilder\n\n
+    setFieldNamingStrategy(final FieldNamingStrategy fieldNamingStrategy)\n
     '''
 def setExclusionStrategies():
-    '''public GsonBuilder setExclusionStrategies(final ExclusionStrategy... strategies)
+    '''returns GsonBuilder\n\n
+    setExclusionStrategies(final ExclusionStrategy... strategies)\n
     '''
 def addSerializationExclusionStrategy():
-    '''public GsonBuilder addSerializationExclusionStrategy(final ExclusionStrategy strategy)
+    '''returns GsonBuilder\n\n
+    addSerializationExclusionStrategy(final ExclusionStrategy strategy)\n
     '''
 def addDeserializationExclusionStrategy():
-    '''public GsonBuilder addDeserializationExclusionStrategy(final ExclusionStrategy strategy)
+    '''returns GsonBuilder\n\n
+    addDeserializationExclusionStrategy(final ExclusionStrategy strategy)\n
     '''
 def setPrettyPrinting():
-    '''public GsonBuilder setPrettyPrinting()
+    '''returns GsonBuilder\n\n
+    setPrettyPrinting()\n
     '''
 def disableHtmlEscaping():
-    '''public GsonBuilder disableHtmlEscaping()
+    '''returns GsonBuilder\n\n
+    disableHtmlEscaping()\n
     '''
 def setDateFormat():
-    '''public GsonBuilder setDateFormat(final String pattern)
-    public GsonBuilder setDateFormat(final int style)
-    public GsonBuilder setDateFormat(final int dateStyle, final int timeStyle)
+    '''returns GsonBuilder\n\n
+    setDateFormat(final String pattern)\n
+    setDateFormat(final int style)\n
+    setDateFormat(final int dateStyle, final int timeStyle)\n
     '''
 def registerTypeAdapter():
-    '''public GsonBuilder registerTypeAdapter(final Type type, final Object typeAdapter)
+    '''returns GsonBuilder\n\n
+    registerTypeAdapter(final Type type, final Object typeAdapter)\n
     '''
 def registerTypeAdapterFactory():
-    '''public GsonBuilder registerTypeAdapterFactory(final TypeAdapterFactory factory)
+    '''returns GsonBuilder\n\n
+    registerTypeAdapterFactory(final TypeAdapterFactory factory)\n
     '''
 def registerTypeHierarchyAdapter():
-    '''public GsonBuilder registerTypeHierarchyAdapter(final Class<?> baseType, final Object typeAdapter)
+    '''returns GsonBuilder\n\n
+    registerTypeHierarchyAdapter(final Class<?> baseType, final Object typeAdapter)\n
     '''
 def serializeSpecialFloatingPointValues():
-    '''public GsonBuilder serializeSpecialFloatingPointValues()
+    '''returns GsonBuilder\n\n
+    serializeSpecialFloatingPointValues()\n
     '''
 def create():
-    '''public Gson create()
+    '''returns Gson\n\n
+    create()\n
     '''

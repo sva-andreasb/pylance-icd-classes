@@ -6,20 +6,23 @@ CHAR_TOKEN_BUFFER = "int  0"
 CHAR_CONCAT_BUFFER = "int  1"
 CHAR_TEXT_BUFFER = "int  2"
 CHAR_NAME_COPY_BUFFER = "int  3"
-def BufferRecycler():
-    '''public BufferRecycler()
+def ():
+    '''returns BufferRecycler\n\n
+    ()\n
     '''
 def allocByteBuffer():
-    '''public final byte[] allocByteBuffer(final int ix)
-    public byte[] allocByteBuffer(final int ix, int minSize)
+    '''returns byte[]\n\n
+    allocByteBuffer(final int ix, int minSize)\n
     '''
 def releaseByteBuffer():
-    '''public void releaseByteBuffer(final int ix, final byte[] buffer)
+    '''returns None\n\n
+    releaseByteBuffer(final int ix, final byte[] buffer)\n
     '''
 def allocCharBuffer():
-    '''public final char[] allocCharBuffer(final int ix)
-    public char[] allocCharBuffer(final int ix, int minSize)
+    '''returns char[]\n\n
+    allocCharBuffer(final int ix, int minSize)\n
     '''
 def releaseCharBuffer():
-    '''public void releaseCharBuffer(final int ix, final char[] buffer)
+    '''returns None\n\n
+    releaseCharBuffer(final int ix, final char[] buffer)\n
     '''

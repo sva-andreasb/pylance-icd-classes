@@ -1,6 +1,8 @@
 def setDir():
-    '''public void setDir(final String dir)
+    '''returns None\n\n
+    setDir(final String dir)\n
     '''
 def accept():
-    '''public boolean accept(final File file, final String name)
+    '''returns boolean\n\n
+    accept(final File file, final String name)\n
     '''

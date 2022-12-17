@@ -1,3 +1,4 @@
-def PmFldModDowntimeHistRecordKey():
-    '''public PmFldModDowntimeHistRecordKey(final MboValue mbv)
+def ():
+    '''returns PmFldModDowntimeHistRecordKey\n\n
+    (final MboValue mbv)\n
     '''

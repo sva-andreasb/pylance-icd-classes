@@ -1,20 +1,26 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloCompositeDecisionVariable():
-    '''public IloCompositeDecisionVariable(final String name, final Object explanation, final IloPropertiesDef def)
+def ():
+    '''returns IloCompositeDecisionVariable\n\n
+    (final String name, final Object explanation, final IloPropertiesDef def)\n
     '''
 def registerDecisionVariable():
-    '''public void registerDecisionVariable(final IloDecisionVariable v, final boolean force)
+    '''returns None\n\n
+    registerDecisionVariable(final IloDecisionVariable v, final boolean force)\n
     '''
 def needEngineUpdate():
-    '''public boolean needEngineUpdate(final int propIndex)
+    '''returns boolean\n\n
+    needEngineUpdate(final int propIndex)\n
     '''
 def getDecisionVariable():
-    '''public IloDecisionVariable getDecisionVariable(final String name)
-    public IloDecisionVariable getDecisionVariable(final IloCompositeId name)
+    '''returns IloDecisionVariable\n\n
+    getDecisionVariable(final String name)\n
+    getDecisionVariable(final IloCompositeId name)\n
     '''
 def internalRemoveVar():
-    '''public void internalRemoveVar(final String name)
+    '''returns None\n\n
+    internalRemoveVar(final String name)\n
     '''
 def internalPutVar():
-    '''public void internalPutVar(final IloDecisionVariable var)
+    '''returns None\n\n
+    internalPutVar(final IloDecisionVariable var)\n
     '''

@@ -1,55 +1,73 @@
-def EscherColorRef():
-    '''public EscherColorRef(final int colorRef)
-    public EscherColorRef(final byte[] source, final int start, final int len)
+def ():
+    '''returns EscherColorRef\n\n
+    (final int colorRef)\n
+    (final byte[] source, final int start, final int len)\n
     '''
 def hasSysIndexFlag():
-    '''public boolean hasSysIndexFlag()
+    '''returns boolean\n\n
+    hasSysIndexFlag()\n
     '''
 def setSysIndexFlag():
-    '''public void setSysIndexFlag(final boolean flag)
+    '''returns None\n\n
+    setSysIndexFlag(final boolean flag)\n
     '''
 def hasSchemeIndexFlag():
-    '''public boolean hasSchemeIndexFlag()
+    '''returns boolean\n\n
+    hasSchemeIndexFlag()\n
     '''
 def setSchemeIndexFlag():
-    '''public void setSchemeIndexFlag(final boolean flag)
+    '''returns None\n\n
+    setSchemeIndexFlag(final boolean flag)\n
     '''
 def hasSystemRGBFlag():
-    '''public boolean hasSystemRGBFlag()
+    '''returns boolean\n\n
+    hasSystemRGBFlag()\n
     '''
 def setSystemRGBFlag():
-    '''public void setSystemRGBFlag(final boolean flag)
+    '''returns None\n\n
+    setSystemRGBFlag(final boolean flag)\n
     '''
 def hasPaletteRGBFlag():
-    '''public boolean hasPaletteRGBFlag()
+    '''returns boolean\n\n
+    hasPaletteRGBFlag()\n
     '''
 def setPaletteRGBFlag():
-    '''public void setPaletteRGBFlag(final boolean flag)
+    '''returns None\n\n
+    setPaletteRGBFlag(final boolean flag)\n
     '''
 def hasPaletteIndexFlag():
-    '''public boolean hasPaletteIndexFlag()
+    '''returns boolean\n\n
+    hasPaletteIndexFlag()\n
     '''
 def setPaletteIndexFlag():
-    '''public void setPaletteIndexFlag(final boolean flag)
+    '''returns None\n\n
+    setPaletteIndexFlag(final boolean flag)\n
     '''
 def getRGB():
-    '''public int[] getRGB()
+    '''returns int[]\n\n
+    getRGB()\n
     '''
 def getSysIndexSource():
-    '''public SysIndexSource getSysIndexSource()
+    '''returns SysIndexSource\n\n
+    getSysIndexSource()\n
     '''
 def getSysIndexProcedure():
-    '''public SysIndexProcedure getSysIndexProcedure()
+    '''returns SysIndexProcedure\n\n
+    getSysIndexProcedure()\n
     '''
 def getSysIndexInvert():
-    '''public int getSysIndexInvert()
+    '''returns int\n\n
+    getSysIndexInvert()\n
     '''
 def getSchemeIndex():
-    '''public int getSchemeIndex()
+    '''returns int\n\n
+    getSchemeIndex()\n
     '''
 def getPaletteIndex():
-    '''public int getPaletteIndex()
+    '''returns int\n\n
+    getPaletteIndex()\n
     '''
 def getSysIndex():
-    '''public int getSysIndex()
+    '''returns int\n\n
+    getSysIndex()\n
     '''

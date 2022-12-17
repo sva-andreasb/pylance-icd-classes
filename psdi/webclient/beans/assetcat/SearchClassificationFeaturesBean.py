@@ -1,30 +1,40 @@
-def SearchClassificationFeaturesBean():
-    '''public SearchClassificationFeaturesBean()
+def ():
+    '''returns SearchClassificationFeaturesBean\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def classAndAttributesSearch():
-    '''public int classAndAttributesSearch()
+    '''returns int\n\n
+    classAndAttributesSearch()\n
     '''
 def clearSearch():
-    '''public int clearSearch()
+    '''returns int\n\n
+    clearSearch()\n
     '''
 def getResultSetForReturn():
-    '''public MboSetRemote getResultSetForReturn()
+    '''returns MboSetRemote\n\n
+    getResultSetForReturn()\n
     '''
 def getAttributeForReturn():
-    '''public String getAttributeForReturn()
+    '''returns String\n\n
+    getAttributeForReturn()\n
     '''
 def getResultObjectName():
-    '''public String getResultObjectName()
+    '''returns String\n\n
+    getResultObjectName()\n
     '''
 def multiSelectRecords():
-    '''public int multiSelectRecords()
+    '''returns int\n\n
+    multiSelectRecords()\n
     '''
 def featureCancel():
-    '''public int featureCancel()
+    '''returns int\n\n
+    featureCancel()\n
     '''
 def setSelectValueBean():
-    '''public void setSelectValueBean(final DataBean selectBean)
+    '''returns None\n\n
+    setSelectValueBean(final DataBean selectBean)\n
     '''

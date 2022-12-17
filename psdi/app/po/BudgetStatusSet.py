@@ -1,3 +1,4 @@
-def BudgetStatusSet():
-    '''public BudgetStatusSet(final MboServerInterface ms)
+def ():
+    '''returns BudgetStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,3 +1,4 @@
 def open():
-    '''public Object open(final Assembler a, final Resource root, final Mode irrelevant)
+    '''returns Object\n\n
+    open(final Assembler a, final Resource root, final Mode irrelevant)\n
     '''

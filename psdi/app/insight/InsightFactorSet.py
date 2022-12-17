@@ -1,3 +1,4 @@
-def InsightFactorSet():
-    '''public InsightFactorSet(final MboServerInterface ms)
+def ():
+    '''returns InsightFactorSet\n\n
+    (final MboServerInterface ms)\n
     '''

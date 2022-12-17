@@ -1,3 +1,4 @@
-def WFAppToolBarSet():
-    '''public WFAppToolBarSet(final MboServerInterface ms)
+def ():
+    '''returns WFAppToolBarSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,89 +1,108 @@
-def Tooltips():
-    '''public Tooltips()
-    '''
-def sharedInstance():
-    '''public static Tooltips sharedInstance()
-    '''
-def setSharedInstance():
-    '''public static void setSharedInstance(final Tooltips tips)
+def ():
+    '''returns Tooltips\n\n
+    ()\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def configureTooltipsForChildren():
-    '''public void configureTooltipsForChildren(final Container container)
+    '''returns None\n\n
+    configureTooltipsForChildren(final Container container)\n
     '''
 def configureTooltip():
-    '''public void configureTooltip(final Component attach)
+    '''returns None\n\n
+    configureTooltip(final Component attach)\n
     '''
 def get():
-    '''public BalloonTip get(final MouseEvent e)
-    public BalloonTip get(final MouseEvent e)
-    public BalloonTip get(final MouseEvent e)
-    public BalloonTip get(final MouseEvent e)
-    public BalloonTip get(final MouseEvent e)
+    '''returns BalloonTip\n\n
+    get(final MouseEvent e)\n
+    get(final MouseEvent e)\n
+    get(final MouseEvent e)\n
+    get(final MouseEvent e)\n
+    get(final MouseEvent e)\n
     '''
 def mouseEntered():
-    '''public void mouseEntered(final MouseEvent e)
-    public void mouseEntered(final MouseEvent e)
+    '''returns None\n\n
+    mouseEntered(final MouseEvent e)\n
+    mouseEntered(final MouseEvent e)\n
     '''
 def mouseExited():
-    '''public void mouseExited(final MouseEvent e)
-    public void mouseExited(final MouseEvent e)
-    public void mouseExited(final MouseEvent e)
+    '''returns None\n\n
+    mouseExited(final MouseEvent e)\n
+    mouseExited(final MouseEvent e)\n
+    mouseExited(final MouseEvent e)\n
     '''
 def mouseMoved():
-    '''public void mouseMoved(final MouseEvent e)
+    '''returns None\n\n
+    mouseMoved(final MouseEvent e)\n
     '''
 def onActivityExit():
-    '''public void onActivityExit(final MouseEvent e)
+    '''returns None\n\n
+    onActivityExit(final MouseEvent e)\n
     '''
 def onActivityMouseMove():
-    '''public void onActivityMouseMove(final MouseEvent e)
+    '''returns None\n\n
+    onActivityMouseMove(final MouseEvent e)\n
     '''
 def onActivityEnter():
-    '''public void onActivityEnter(final MouseEvent e)
+    '''returns None\n\n
+    onActivityEnter(final MouseEvent e)\n
     '''
 def onRowExited():
-    '''public void onRowExited(final JTable table, final int row, final MouseEvent evt)
+    '''returns None\n\n
+    onRowExited(final JTable table, final int row, final MouseEvent evt)\n
     '''
 def onRowEntered():
-    '''public void onRowEntered(final JTable table, final int row, final MouseEvent evt)
+    '''returns None\n\n
+    onRowEntered(final JTable table, final int row, final MouseEvent evt)\n
     '''
 def onColumnExited():
-    '''public void onColumnExited(final JTable table, final int col, final MouseEvent evt)
+    '''returns None\n\n
+    onColumnExited(final JTable table, final int col, final MouseEvent evt)\n
     '''
 def onColumnEntered():
-    '''public void onColumnEntered(final JTable table, final int col, final MouseEvent evt)
+    '''returns None\n\n
+    onColumnEntered(final JTable table, final int col, final MouseEvent evt)\n
     '''
 def configureSimpleTooltipWithText():
-    '''public void configureSimpleTooltipWithText(final JComponent attach, final String text)
+    '''returns None\n\n
+    configureSimpleTooltipWithText(final JComponent attach, final String text)\n
     '''
 def configureTooltipForChart():
-    '''public void configureTooltipForChart(final IlvHierarchyChart chart)
+    '''returns None\n\n
+    configureTooltipForChart(final IlvHierarchyChart chart)\n
     '''
 def setTooltipInstance():
-    '''public void setTooltipInstance(final BalloonTip tip)
+    '''returns None\n\n
+    setTooltipInstance(final BalloonTip tip)\n
     '''
 def getTooltipInstance():
-    '''public BalloonTip getTooltipInstance()
+    '''returns BalloonTip\n\n
+    getTooltipInstance()\n
     '''
 def showTooltip():
-    '''public void showTooltip(final JComponent attach, final int x, final int y, final String text)
-    public void showTooltip(final JComponent attach, final int x, final int y, final String text, float defOpactiy)
+    '''returns None\n\n
+    showTooltip(final JComponent attach, final int x, final int y, final String text)\n
+    showTooltip(final JComponent attach, final int x, final int y, final String text, float defOpactiy)\n
     '''
 def hideTooltip():
-    '''public void hideTooltip()
+    '''returns None\n\n
+    hideTooltip()\n
     '''
 def isTooltipVisible():
-    '''public boolean isTooltipVisible()
+    '''returns boolean\n\n
+    isTooltipVisible()\n
     '''
 def getDefaultOpactiy():
-    '''public float getDefaultOpactiy()
+    '''returns float\n\n
+    getDefaultOpactiy()\n
     '''
 def isEnabled():
-    '''public boolean isEnabled()
+    '''returns boolean\n\n
+    isEnabled()\n
     '''
 def setEnabled():
-    '''public void setEnabled(final boolean enabled)
+    '''returns None\n\n
+    setEnabled(final boolean enabled)\n
     '''

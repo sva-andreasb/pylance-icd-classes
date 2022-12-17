@@ -1,85 +1,108 @@
 def getAccount():
-    '''public Account getAccount()
+    '''returns Account\n\n
+    getAccount()\n
     '''
 def setAccount():
-    '''public void setAccount(final Account account)
+    '''returns None\n\n
+    setAccount(final Account account)\n
     '''
 def getReferences():
-    '''public List<Reference> getReferences()
+    '''returns List<Reference>\n\n
+    getReferences()\n
     '''
 def getAccountId():
-    '''public Long getAccountId()
+    '''returns Long\n\n
+    getAccountId()\n
     '''
 def setAccountId():
-    '''public void setAccountId(final Long accountId)
+    '''returns None\n\n
+    setAccountId(final Long accountId)\n
     '''
 def isAccountIdSpecified():
-    '''public boolean isAccountIdSpecified()
+    '''returns boolean\n\n
+    isAccountIdSpecified()\n
     '''
 def unsetAccountId():
-    '''public void unsetAccountId()
+    '''returns None\n\n
+    unsetAccountId()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getInternal():
-    '''public Long getInternal()
+    '''returns Long\n\n
+    getInternal()\n
     '''
 def setInternal():
-    '''public void setInternal(final Long internal)
+    '''returns None\n\n
+    setInternal(final Long internal)\n
     '''
 def isInternalSpecified():
-    '''public boolean isInternalSpecified()
+    '''returns boolean\n\n
+    isInternalSpecified()\n
     '''
 def unsetInternal():
-    '''public void unsetInternal()
+    '''returns None\n\n
+    unsetInternal()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def isNameSpecified():
-    '''public boolean isNameSpecified()
+    '''returns boolean\n\n
+    isNameSpecified()\n
     '''
 def unsetName():
-    '''public void unsetName()
+    '''returns None\n\n
+    unsetName()\n
     '''
 def getReferenceCount():
-    '''public Long getReferenceCount()
+    '''returns Long\n\n
+    getReferenceCount()\n
     '''
 def setReferenceCount():
-    '''public void setReferenceCount(final Long referenceCount)
+    '''returns None\n\n
+    setReferenceCount(final Long referenceCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def accountId():
-    '''public Mask accountId()
+    '''returns Mask\n\n
+    accountId()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def internal():
-    '''public Mask internal()
+    '''returns Mask\n\n
+    internal()\n
     '''
 def name():
-    '''public Mask name()
+    '''returns Mask\n\n
+    name()\n
     '''
 def referenceCount():
-    '''public Mask referenceCount()
+    '''returns Mask\n\n
+    referenceCount()\n
     '''

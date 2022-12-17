@@ -1,177 +1,224 @@
 ACTIVITY_ROWS = "int  0"
 RESOURCE_ROWS = "int  1"
 DEFAULT_ROW_HEIGHT = "int  20"
-def IlvVerticalDisplayController():
-    '''public IlvVerticalDisplayController(final int n)
+def ():
+    '''returns IlvVerticalDisplayController\n\n
+    (final int n)\n
     '''
 def getRowType():
-    '''public int getRowType()
+    '''returns int\n\n
+    getRowType()\n
     '''
 def getGanttConfiguration():
-    '''public IlvGanttConfiguration getGanttConfiguration()
+    '''returns IlvGanttConfiguration\n\n
+    getGanttConfiguration()\n
     '''
 def getRootDataNode():
-    '''public IlvHierarchyNode getRootDataNode()
+    '''returns IlvHierarchyNode\n\n
+    getRootDataNode()\n
     '''
 def getRootNode():
-    '''public IlvHierarchyNode getRootNode()
+    '''returns IlvHierarchyNode\n\n
+    getRootNode()\n
     '''
 def getFirstNode():
-    '''public IlvHierarchyNode getFirstNode()
+    '''returns IlvHierarchyNode\n\n
+    getFirstNode()\n
     '''
 def getNodeForRow():
-    '''public IlvHierarchyNode getNodeForRow(final int n)
+    '''returns IlvHierarchyNode\n\n
+    getNodeForRow(final int n)\n
     '''
 def getRowForNode():
-    '''public int getRowForNode(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns int\n\n
+    getRowForNode(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def getRowCount():
-    '''public int getRowCount()
+    '''returns int\n\n
+    getRowCount()\n
     '''
 def validateRowHeights():
-    '''public void validateRowHeights()
+    '''returns None\n\n
+    validateRowHeights()\n
     '''
 def isFixedRowHeight():
-    '''public boolean isFixedRowHeight()
+    '''returns boolean\n\n
+    isFixedRowHeight()\n
     '''
 def getRowHeight():
-    '''public int getRowHeight()
-    public int getRowHeight(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns int\n\n
+    getRowHeight()\n
+    getRowHeight(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def setRowHeight():
-    '''public void setRowHeight(final int rowHeight)
-    public void setRowHeight(final IlvHierarchyNode ilvHierarchyNode, final int n)
+    '''returns None\n\n
+    setRowHeight(final int rowHeight)\n
+    setRowHeight(final IlvHierarchyNode ilvHierarchyNode, final int n)\n
     '''
 def getRowAtPosition():
-    '''public int getRowAtPosition(final int n)
+    '''returns int\n\n
+    getRowAtPosition(final int n)\n
     '''
 def getDisplayedRowAtPosition():
-    '''public int getDisplayedRowAtPosition(final int n)
+    '''returns int\n\n
+    getDisplayedRowAtPosition(final int n)\n
     '''
 def getNodeAtPosition():
-    '''public IlvHierarchyNode getNodeAtPosition(final int n)
+    '''returns IlvHierarchyNode\n\n
+    getNodeAtPosition(final int n)\n
     '''
 def getDisplayedNodeAtPosition():
-    '''public IlvHierarchyNode getDisplayedNodeAtPosition(final int n)
+    '''returns IlvHierarchyNode\n\n
+    getDisplayedNodeAtPosition(final int n)\n
     '''
 def getRowBounds():
-    '''public Rectangle getRowBounds(final int n)
+    '''returns Rectangle\n\n
+    getRowBounds(final int n)\n
     '''
 def getNodeBounds():
-    '''public Rectangle getNodeBounds(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns Rectangle\n\n
+    getNodeBounds(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def isRootNodeVisible():
-    '''public boolean isRootNodeVisible()
+    '''returns boolean\n\n
+    isRootNodeVisible()\n
     '''
 def setRootNodeVisible():
-    '''public void setRootNodeVisible(final boolean rootRowVisible)
+    '''returns None\n\n
+    setRootNodeVisible(final boolean rootRowVisible)\n
     '''
 def isExpanded():
-    '''public boolean isExpanded(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns boolean\n\n
+    isExpanded(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def isVisible():
-    '''public boolean isVisible(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns boolean\n\n
+    isVisible(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def visibleNodesIterator():
-    '''public Iterator<IlvHierarchyNode> visibleNodesIterator(final IlvHierarchyNode ilvHierarchyNode)
-    public Iterator<IlvHierarchyNode> visibleNodesIterator()
+    '''returns Iterator<IlvHierarchyNode>\n\n
+    visibleNodesIterator(final IlvHierarchyNode ilvHierarchyNode)\n
+    visibleNodesIterator()\n
     '''
 def makeVisible():
-    '''public void makeVisible(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns None\n\n
+    makeVisible(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def expandNode():
-    '''public void expandNode(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns None\n\n
+    expandNode(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def collapseNode():
-    '''public void collapseNode(final IlvHierarchyNode ilvHierarchyNode)
-    '''
-def addExpandable():
-    '''public synchronized void addExpandable(final IlvVerticalExpandable ilvVerticalExpandable)
-    '''
-def removeExpandable():
-    '''public synchronized void removeExpandable(final IlvVerticalExpandable ilvVerticalExpandable)
+    '''returns None\n\n
+    collapseNode(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def setVerticalExpansionMaster():
-    '''public void setVerticalExpansionMaster(final IlvVerticalExpansionMaster f)
+    '''returns None\n\n
+    setVerticalExpansionMaster(final IlvVerticalExpansionMaster f)\n
     '''
 def addExpansionListener():
-    '''public void addExpansionListener(final VerticalExpansionListener verticalExpansionListener)
+    '''returns None\n\n
+    addExpansionListener(final VerticalExpansionListener verticalExpansionListener)\n
     '''
 def removeExpansionListener():
-    '''public void removeExpansionListener(final VerticalExpansionListener verticalExpansionListener)
+    '''returns None\n\n
+    removeExpansionListener(final VerticalExpansionListener verticalExpansionListener)\n
     '''
 def getMaxPosition():
-    '''public int getMaxPosition()
+    '''returns int\n\n
+    getMaxPosition()\n
     '''
 def setMaxPosition():
-    '''public void setMaxPosition(final int maxVerticalPosition)
+    '''returns None\n\n
+    setMaxPosition(final int maxVerticalPosition)\n
     '''
 def getPosition():
-    '''public int getPosition()
+    '''returns int\n\n
+    getPosition()\n
     '''
 def setPosition():
-    '''public void setPosition(final int verticalPosition)
+    '''returns None\n\n
+    setPosition(final int verticalPosition)\n
     '''
 def getExtent():
-    '''public int getExtent()
+    '''returns int\n\n
+    getExtent()\n
     '''
 def setExtent():
-    '''public void setExtent(final int verticalExtent)
+    '''returns None\n\n
+    setExtent(final int verticalExtent)\n
     '''
 def addScrollable():
-    '''public void addScrollable(final IlvVerticalScrollable ilvVerticalScrollable)
+    '''returns None\n\n
+    addScrollable(final IlvVerticalScrollable ilvVerticalScrollable)\n
     '''
 def removeScrollable():
-    '''public void removeScrollable(final IlvVerticalScrollable ilvVerticalScrollable)
+    '''returns None\n\n
+    removeScrollable(final IlvVerticalScrollable ilvVerticalScrollable)\n
     '''
 def addScrollListener():
-    '''public void addScrollListener(final VerticalScrollListener verticalScrollListener)
+    '''returns None\n\n
+    addScrollListener(final VerticalScrollListener verticalScrollListener)\n
     '''
 def removeScrollListener():
-    '''public void removeScrollListener(final VerticalScrollListener verticalScrollListener)
+    '''returns None\n\n
+    removeScrollListener(final VerticalScrollListener verticalScrollListener)\n
     '''
 def makeDisplayed():
-    '''public void makeDisplayed(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns None\n\n
+    makeDisplayed(final IlvHierarchyNode ilvHierarchyNode)\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''
 def scrollBoundsToDisplay():
-    '''public void scrollBoundsToDisplay(final Rectangle rectangle)
+    '''returns None\n\n
+    scrollBoundsToDisplay(final Rectangle rectangle)\n
     '''
 def computeScrollPosition():
-    '''public int computeScrollPosition(final int n)
+    '''returns int\n\n
+    computeScrollPosition(final int n)\n
     '''
 def inform():
-    '''public void inform(final GanttModelChangedEvent ganttModelChangedEvent)
-    public void inform(final ResourcesInsertedEvent resourcesInsertedEvent)
-    public void inform(final ResourcesRemovedEvent resourcesRemovedEvent)
-    public void inform(final ResourceMovedEvent resourceMovedEvent)
-    public void inform(final ActivitiesInsertedEvent activitiesInsertedEvent)
-    public void inform(final ActivitiesRemovedEvent activitiesRemovedEvent)
-    public void inform(final ActivityMovedEvent activityMovedEvent)
+    '''returns None\n\n
+    inform(final GanttModelChangedEvent ganttModelChangedEvent)\n
+    inform(final ResourcesInsertedEvent resourcesInsertedEvent)\n
+    inform(final ResourcesRemovedEvent resourcesRemovedEvent)\n
+    inform(final ResourceMovedEvent resourceMovedEvent)\n
+    inform(final ActivitiesInsertedEvent activitiesInsertedEvent)\n
+    inform(final ActivitiesRemovedEvent activitiesRemovedEvent)\n
+    inform(final ActivityMovedEvent activityMovedEvent)\n
     '''
 def fireGanttModelChanged():
-    '''public void fireGanttModelChanged(final GanttModelChangedEvent ganttModelChangedEvent)
+    '''returns None\n\n
+    fireGanttModelChanged(final GanttModelChangedEvent ganttModelChangedEvent)\n
     '''
 def fireNodesInserted():
-    '''public void fireNodesInserted(final RowsInsertedEvent rowsInsertedEvent)
+    '''returns None\n\n
+    fireNodesInserted(final RowsInsertedEvent rowsInsertedEvent)\n
     '''
 def fireNodesRemoved():
-    '''public void fireNodesRemoved(final RowsRemovedEvent rowsRemovedEvent)
+    '''returns None\n\n
+    fireNodesRemoved(final RowsRemovedEvent rowsRemovedEvent)\n
     '''
 def fireNodeMoved():
-    '''public void fireNodeMoved(final RowMovedEvent rowMovedEvent)
+    '''returns None\n\n
+    fireNodeMoved(final RowMovedEvent rowMovedEvent)\n
     '''
 def fireNodeExpanded():
-    '''public void fireNodeExpanded(final RowExpandedEvent rowExpandedEvent)
+    '''returns None\n\n
+    fireNodeExpanded(final RowExpandedEvent rowExpandedEvent)\n
     '''
 def fireNodeCollapsed():
-    '''public void fireNodeCollapsed(final RowCollapsedEvent rowCollapsedEvent)
+    '''returns None\n\n
+    fireNodeCollapsed(final RowCollapsedEvent rowCollapsedEvent)\n
     '''
 def fireRootRowVisibilityChanged():
-    '''public void fireRootRowVisibilityChanged(final RootRowVisibilityChangedEvent rootRowVisibilityChangedEvent)
+    '''returns None\n\n
+    fireRootRowVisibilityChanged(final RootRowVisibilityChangedEvent rootRowVisibilityChangedEvent)\n
     '''
 def evaluate():
-    '''public boolean evaluate(final IlvHierarchyNode ilvHierarchyNode)
+    '''returns boolean\n\n
+    evaluate(final IlvHierarchyNode ilvHierarchyNode)\n
     '''

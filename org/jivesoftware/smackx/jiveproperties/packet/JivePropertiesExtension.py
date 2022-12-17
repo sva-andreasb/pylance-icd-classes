@@ -1,33 +1,19 @@
 NAMESPACE = "String  \"http://www.jivesoftware.com/xmlns/xmpp/properties\""
 ELEMENT = "String  \"properties\""
-def JivePropertiesExtension():
-    '''public JivePropertiesExtension()
-    public JivePropertiesExtension(final Map<String, Object> properties)
-    '''
-def getProperty():
-    '''public synchronized Object getProperty(final String name)
-    '''
-def setProperty():
-    '''public synchronized void setProperty(final String name, final Object value)
-    '''
-def deleteProperty():
-    '''public synchronized void deleteProperty(final String name)
-    '''
-def getPropertyNames():
-    '''public synchronized Collection<String> getPropertyNames()
-    '''
-def getProperties():
-    '''public synchronized Map<String, Object> getProperties()
+def ():
+    '''returns JivePropertiesExtension\n\n
+    ()\n
+    (final Map<String, Object> properties)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public CharSequence toXML(final String enclosingNamespace)
-    '''
-def from():
-    '''public static JivePropertiesExtension from(final Message message)
+    '''returns CharSequence\n\n
+    toXML(final String enclosingNamespace)\n
     '''

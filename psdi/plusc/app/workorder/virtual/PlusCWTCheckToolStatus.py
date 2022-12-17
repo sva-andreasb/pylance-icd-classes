@@ -1,3 +1,4 @@
-def PlusCWTCheckToolStatus():
-    '''public PlusCWTCheckToolStatus(final MboSet ms)
+def ():
+    '''returns PlusCWTCheckToolStatus\n\n
+    (final MboSet ms)\n
     '''

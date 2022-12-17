@@ -57,44 +57,53 @@ REFERRAL_LIMIT_EXCEEDED = "int  97"
 INVALID_RESPONSE = "int  100"
 AMBIGUOUS_RESPONSE = "int  101"
 TLS_NOT_SUPPORTED = "int  112"
-def LDAPException():
-    '''public LDAPException()
-    public LDAPException(final String message, final int n, final String s)
-    public LDAPException(final String message, final int n, final String s, final Throwable t)
-    public LDAPException(final String message, final int n, final String s, final String s2)
+def ():
+    '''returns LDAPException\n\n
+    ()\n
+    (final String message, final int n, final String s)\n
+    (final String message, final int n, final String s, final Throwable t)\n
+    (final String message, final int n, final String s, final String s2)\n
     '''
 def getCause():
-    '''public Throwable getCause()
+    '''returns Throwable\n\n
+    getCause()\n
     '''
 def getLDAPErrorMessage():
-    '''public String getLDAPErrorMessage()
+    '''returns String\n\n
+    getLDAPErrorMessage()\n
     '''
 def getResultCode():
-    '''public int getResultCode()
+    '''returns int\n\n
+    getResultCode()\n
     '''
 def getMatchedDN():
-    '''public String getMatchedDN()
+    '''returns String\n\n
+    getMatchedDN()\n
     '''
 def resultCodeToString():
-    '''public String resultCodeToString()
-    public static String resultCodeToString(final int n)
-    public String resultCodeToString(final Locale locale)
-    public static String resultCodeToString(final int n, final Locale locale)
+    '''returns String\n\n
+    resultCodeToString()\n
+    resultCodeToString(final Locale locale)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def printStackTrace():
-    '''public void printStackTrace()
-    public void printStackTrace(final PrintStream s)
-    public void printStackTrace(final PrintWriter s)
+    '''returns None\n\n
+    printStackTrace()\n
+    printStackTrace(final PrintStream s)\n
+    printStackTrace(final PrintWriter s)\n
     '''
 def fillInStackTrace():
-    '''public Throwable fillInStackTrace()
+    '''returns Throwable\n\n
+    fillInStackTrace()\n
     '''
 def getLocalizedMessage():
-    '''public String getLocalizedMessage()
+    '''returns String\n\n
+    getLocalizedMessage()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

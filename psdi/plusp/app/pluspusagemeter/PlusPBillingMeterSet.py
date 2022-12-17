@@ -1,3 +1,4 @@
-def PlusPBillingMeterSet():
-    '''public PlusPBillingMeterSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPBillingMeterSet\n\n
+    (final MboServerInterface ms)\n
     '''

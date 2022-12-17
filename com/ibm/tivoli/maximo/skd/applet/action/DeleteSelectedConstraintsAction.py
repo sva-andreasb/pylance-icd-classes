@@ -1,9 +1,12 @@
-def DeleteSelectedConstraintsAction():
-    '''public DeleteSelectedConstraintsAction(final IlvHierarchyChart chart)
+def ():
+    '''returns DeleteSelectedConstraintsAction\n\n
+    (final IlvHierarchyChart chart)\n
     '''
 def selectionChanged():
-    '''public void selectionChanged(final SelectionEvent event)
+    '''returns None\n\n
+    selectionChanged(final SelectionEvent event)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent event)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent event)\n
     '''

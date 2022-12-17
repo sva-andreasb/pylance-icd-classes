@@ -1,3 +1,4 @@
-def AssetTopologyCacheMboSet():
-    '''public AssetTopologyCacheMboSet(final MboServerInterface ms)
+def ():
+    '''returns AssetTopologyCacheMboSet\n\n
+    (final MboServerInterface ms)\n
     '''

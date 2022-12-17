@@ -1,3 +1,4 @@
-def AttributeListSet():
-    '''public AttributeListSet(final MboServerInterface ms)
+def ():
+    '''returns AttributeListSet\n\n
+    (final MboServerInterface ms)\n
     '''

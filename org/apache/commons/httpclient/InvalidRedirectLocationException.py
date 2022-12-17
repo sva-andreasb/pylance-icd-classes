@@ -1,7 +1,9 @@
-def InvalidRedirectLocationException():
-    '''public InvalidRedirectLocationException(final String message, final String location)
-    public InvalidRedirectLocationException(final String message, final String location, final Throwable cause)
+def ():
+    '''returns InvalidRedirectLocationException\n\n
+    (final String message, final String location)\n
+    (final String message, final String location, final Throwable cause)\n
     '''
 def getLocation():
-    '''public String getLocation()
+    '''returns String\n\n
+    getLocation()\n
     '''

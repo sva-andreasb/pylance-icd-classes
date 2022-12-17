@@ -1,19 +1,25 @@
-def QueryUnary():
-    '''public QueryUnary(final QueryOp op, final QueryFilter right)
-    public QueryUnary(final QueryFilter left, final QueryOp op)
+def ():
+    '''returns QueryUnary\n\n
+    (final QueryOp op, final QueryFilter right)\n
+    (final QueryFilter left, final QueryOp op)\n
     '''
 def getOp():
-    '''public QueryOp getOp()
+    '''returns QueryOp\n\n
+    getOp()\n
     '''
 def getRight():
-    '''public QueryFilter getRight()
+    '''returns QueryFilter\n\n
+    getRight()\n
     '''
 def getLeft():
-    '''public QueryFilter getLeft()
+    '''returns QueryFilter\n\n
+    getLeft()\n
     '''
 def genString():
-    '''public String genString(final QueryContext qc, final DataView view)
+    '''returns String\n\n
+    genString(final QueryContext qc, final DataView view)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

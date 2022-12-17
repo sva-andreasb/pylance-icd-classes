@@ -1,3 +1,4 @@
 def parse():
-    '''public IoTDisown parse(final XmlPullParser parser, final int initialDepth)
+    '''returns IoTDisown\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

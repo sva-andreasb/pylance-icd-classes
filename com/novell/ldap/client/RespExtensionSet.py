@@ -1,15 +1,12 @@
-def RespExtensionSet():
-    '''public RespExtensionSet()
-    '''
-def registerResponseExtension():
-    '''public final synchronized void registerResponseExtension(final String s, final Class value)
+def ():
+    '''returns RespExtensionSet\n\n
+    ()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def iterator():
-    '''public Iterator iterator()
-    '''
-def findResponseExtension():
-    '''public final synchronized Class findResponseExtension(final String s)
+    '''returns Iterator\n\n
+    iterator()\n
     '''

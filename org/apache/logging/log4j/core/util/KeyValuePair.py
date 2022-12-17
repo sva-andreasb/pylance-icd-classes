@@ -1,30 +1,36 @@
-def KeyValuePair():
-    '''public KeyValuePair(final String key, final String value)
+def ():
+    '''returns KeyValuePair\n\n
+    (final String key, final String value)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def newBuilder():
-    '''public static Builder newBuilder()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def setKey():
-    '''public Builder setKey(final String aKey)
+    '''returns Builder\n\n
+    setKey(final String aKey)\n
     '''
 def setValue():
-    '''public Builder setValue(final String aValue)
+    '''returns Builder\n\n
+    setValue(final String aValue)\n
     '''
 def build():
-    '''public KeyValuePair build()
+    '''returns KeyValuePair\n\n
+    build()\n
     '''

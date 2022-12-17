@@ -1,24 +1,24 @@
-def init():
-    '''public static DirectoryRosterStore init(final File baseDir)
-    '''
-def open():
-    '''public static DirectoryRosterStore open(final File baseDir)
-    '''
 def getRosterVersion():
-    '''public String getRosterVersion()
+    '''returns String\n\n
+    getRosterVersion()\n
     '''
 def addEntry():
-    '''public boolean addEntry(final RosterPacket.Item item, final String version)
+    '''returns boolean\n\n
+    addEntry(final RosterPacket.Item item, final String version)\n
     '''
 def removeEntry():
-    '''public boolean removeEntry(final Jid bareJid, final String version)
+    '''returns boolean\n\n
+    removeEntry(final Jid bareJid, final String version)\n
     '''
 def resetEntries():
-    '''public boolean resetEntries(final Collection<RosterPacket.Item> items, final String version)
+    '''returns boolean\n\n
+    resetEntries(final Collection<RosterPacket.Item> items, final String version)\n
     '''
 def resetStore():
-    '''public void resetStore()
+    '''returns None\n\n
+    resetStore()\n
     '''
 def accept():
-    '''public boolean accept(final File file)
+    '''returns boolean\n\n
+    accept(final File file)\n
     '''

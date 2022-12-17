@@ -1,18 +1,24 @@
-def NamespaceTest():
-    '''public NamespaceTest(String prefix, final short nodeType)
+def ():
+    '''returns NamespaceTest\n\n
+    (String prefix, final short nodeType)\n
     '''
 def matches():
-    '''public boolean matches(final Object node, final Context context)
+    '''returns boolean\n\n
+    matches(final Object node, final Context context)\n
     '''
 def getPriority():
-    '''public double getPriority()
+    '''returns double\n\n
+    getPriority()\n
     '''
 def getMatchType():
-    '''public short getMatchType()
+    '''returns short\n\n
+    getMatchType()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -3,155 +3,204 @@ MSG_METHOD_SOAPENVELOPE = "int  2"
 MSG_METHOD_ELEMENTARRAY = "int  3"
 MSG_METHOD_DOCUMENT = "int  4"
 MSG_METHOD_NONCONFORMING = "int  -4"
-def OperationDesc():
-    '''public OperationDesc()
-    public OperationDesc(final String name, final ParameterDesc[] parameters, final QName returnQName)
+def ():
+    '''returns OperationDesc\n\n
+    ()\n
+    (final String name, final ParameterDesc[] parameters, final QName returnQName)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getDocumentation():
-    '''public String getDocumentation()
+    '''returns String\n\n
+    getDocumentation()\n
     '''
 def setDocumentation():
-    '''public void setDocumentation(final String documentation)
+    '''returns None\n\n
+    setDocumentation(final String documentation)\n
     '''
 def getReturnQName():
-    '''public QName getReturnQName()
+    '''returns QName\n\n
+    getReturnQName()\n
     '''
 def setReturnQName():
-    '''public void setReturnQName(final QName returnQName)
+    '''returns None\n\n
+    setReturnQName(final QName returnQName)\n
     '''
 def getReturnType():
-    '''public QName getReturnType()
+    '''returns QName\n\n
+    getReturnType()\n
     '''
 def setReturnType():
-    '''public void setReturnType(final QName returnType)
+    '''returns None\n\n
+    setReturnType(final QName returnType)\n
     '''
 def getReturnClass():
-    '''public Class getReturnClass()
+    '''returns Class\n\n
+    getReturnClass()\n
     '''
 def setReturnClass():
-    '''public void setReturnClass(final Class returnClass)
+    '''returns None\n\n
+    setReturnClass(final Class returnClass)\n
     '''
 def getElementQName():
-    '''public QName getElementQName()
+    '''returns QName\n\n
+    getElementQName()\n
     '''
 def setElementQName():
-    '''public void setElementQName(final QName elementQName)
+    '''returns None\n\n
+    setElementQName(final QName elementQName)\n
     '''
 def getParent():
-    '''public ServiceDesc getParent()
+    '''returns ServiceDesc\n\n
+    getParent()\n
     '''
 def setParent():
-    '''public void setParent(final ServiceDesc parent)
+    '''returns None\n\n
+    setParent(final ServiceDesc parent)\n
     '''
 def getSoapAction():
-    '''public String getSoapAction()
+    '''returns String\n\n
+    getSoapAction()\n
     '''
 def setSoapAction():
-    '''public void setSoapAction(final String soapAction)
+    '''returns None\n\n
+    setSoapAction(final String soapAction)\n
     '''
 def setStyle():
-    '''public void setStyle(final Style style)
+    '''returns None\n\n
+    setStyle(final Style style)\n
     '''
 def getStyle():
-    '''public Style getStyle()
+    '''returns Style\n\n
+    getStyle()\n
     '''
 def setUse():
-    '''public void setUse(final Use use)
+    '''returns None\n\n
+    setUse(final Use use)\n
     '''
 def getUse():
-    '''public Use getUse()
+    '''returns Use\n\n
+    getUse()\n
     '''
 def addParameter():
-    '''public void addParameter(final ParameterDesc param)
-    public void addParameter(final QName paramName, final QName xmlType, final Class javaType, final byte parameterMode, final boolean inHeader, final boolean outHeader)
+    '''returns None\n\n
+    addParameter(final ParameterDesc param)\n
+    addParameter(final QName paramName, final QName xmlType, final Class javaType, final byte parameterMode, final boolean inHeader, final boolean outHeader)\n
     '''
 def getParameter():
-    '''public ParameterDesc getParameter(final int i)
+    '''returns ParameterDesc\n\n
+    getParameter(final int i)\n
     '''
 def getParameters():
-    '''public ArrayList getParameters()
+    '''returns ArrayList\n\n
+    getParameters()\n
     '''
 def setParameters():
-    '''public void setParameters(final ArrayList newParameters)
+    '''returns None\n\n
+    setParameters(final ArrayList newParameters)\n
     '''
 def getNumInParams():
-    '''public int getNumInParams()
+    '''returns int\n\n
+    getNumInParams()\n
     '''
 def getNumOutParams():
-    '''public int getNumOutParams()
+    '''returns int\n\n
+    getNumOutParams()\n
     '''
 def getNumParams():
-    '''public int getNumParams()
+    '''returns int\n\n
+    getNumParams()\n
     '''
 def getMethod():
-    '''public Method getMethod()
+    '''returns Method\n\n
+    getMethod()\n
     '''
 def setMethod():
-    '''public void setMethod(final Method method)
+    '''returns None\n\n
+    setMethod(final Method method)\n
     '''
 def isReturnHeader():
-    '''public boolean isReturnHeader()
+    '''returns boolean\n\n
+    isReturnHeader()\n
     '''
 def setReturnHeader():
-    '''public void setReturnHeader(final boolean value)
+    '''returns None\n\n
+    setReturnHeader(final boolean value)\n
     '''
 def getParamByQName():
-    '''public ParameterDesc getParamByQName(final QName qname)
+    '''returns ParameterDesc\n\n
+    getParamByQName(final QName qname)\n
     '''
 def getInputParamByQName():
-    '''public ParameterDesc getInputParamByQName(final QName qname)
+    '''returns ParameterDesc\n\n
+    getInputParamByQName(final QName qname)\n
     '''
 def getOutputParamByQName():
-    '''public ParameterDesc getOutputParamByQName(final QName qname)
+    '''returns ParameterDesc\n\n
+    getOutputParamByQName(final QName qname)\n
     '''
 def getAllInParams():
-    '''public ArrayList getAllInParams()
+    '''returns ArrayList\n\n
+    getAllInParams()\n
     '''
 def getAllOutParams():
-    '''public ArrayList getAllOutParams()
+    '''returns ArrayList\n\n
+    getAllOutParams()\n
     '''
 def getOutParams():
-    '''public ArrayList getOutParams()
+    '''returns ArrayList\n\n
+    getOutParams()\n
     '''
 def addFault():
-    '''public void addFault(final FaultDesc fault)
+    '''returns None\n\n
+    addFault(final FaultDesc fault)\n
     '''
 def getFaults():
-    '''public ArrayList getFaults()
+    '''returns ArrayList\n\n
+    getFaults()\n
     '''
 def getFaultByClass():
-    '''public FaultDesc getFaultByClass(Class cls)
-    public FaultDesc getFaultByClass(final Class cls, final boolean checkParents)
+    '''returns FaultDesc\n\n
+    getFaultByClass(Class cls)\n
+    getFaultByClass(final Class cls, final boolean checkParents)\n
     '''
 def getFaultByQName():
-    '''public FaultDesc getFaultByQName(final QName qname)
+    '''returns FaultDesc\n\n
+    getFaultByQName(final QName qname)\n
     '''
 def getFaultByXmlType():
-    '''public FaultDesc getFaultByXmlType(final QName xmlType)
+    '''returns FaultDesc\n\n
+    getFaultByXmlType(final QName xmlType)\n
     '''
 def getReturnParamDesc():
-    '''public ParameterDesc getReturnParamDesc()
+    '''returns ParameterDesc\n\n
+    getReturnParamDesc()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final String indent)
+    '''returns String\n\n
+    toString()\n
+    toString(final String indent)\n
     '''
 def getMessageOperationStyle():
-    '''public int getMessageOperationStyle()
+    '''returns int\n\n
+    getMessageOperationStyle()\n
     '''
 def setMessageOperationStyle():
-    '''public void setMessageOperationStyle(final int messageOperationStyle)
+    '''returns None\n\n
+    setMessageOperationStyle(final int messageOperationStyle)\n
     '''
 def getMep():
-    '''public OperationType getMep()
+    '''returns OperationType\n\n
+    getMep()\n
     '''
 def setMep():
-    '''public void setMep(final OperationType mep)
-    public void setMep(final String mepString)
+    '''returns None\n\n
+    setMep(final OperationType mep)\n
+    setMep(final String mepString)\n
     '''

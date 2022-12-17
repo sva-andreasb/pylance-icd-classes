@@ -1,3 +1,4 @@
-def PersCommoditySet():
-    '''public PersCommoditySet(final MboServerInterface ms)
+def ():
+    '''returns PersCommoditySet\n\n
+    (final MboServerInterface ms)\n
     '''

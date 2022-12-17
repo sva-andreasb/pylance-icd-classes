@@ -1,9 +1,12 @@
 def getPropertyNames():
-    '''public String[] getPropertyNames(final Object pageScope)
+    '''returns String[]\n\n
+    getPropertyNames(final Object pageScope)\n
     '''
 def getProperty():
-    '''public Object getProperty(final Object pageScope, final String property)
+    '''returns Object\n\n
+    getProperty(final Object pageScope, final String property)\n
     '''
 def setProperty():
-    '''public void setProperty(final Object pageScope, final String property, final Object value)
+    '''returns None\n\n
+    setProperty(final Object pageScope, final String property, final Object value)\n
     '''

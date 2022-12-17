@@ -1,39 +1,50 @@
-def MixedGraphMemStore():
-    '''public MixedGraphMemStore(final Graph parent)
+def ():
+    '''returns MixedGraphMemStore\n\n
+    (final Graph parent)\n
     '''
 def add():
-    '''public void add(final Triple t)
+    '''returns None\n\n
+    add(final Triple t)\n
     '''
 def remove():
-    '''public void remove(final Triple t)
-    public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove(final Triple t)\n
+    remove()\n
+    remove()\n
     '''
 def contains():
-    '''public boolean contains(final Triple t)
+    '''returns boolean\n\n
+    contains(final Triple t)\n
     '''
 def iterator():
-    '''public ExtendedIterator<Triple> iterator(final Node key, final Triple pattern)
-    public ExtendedIterator<Triple> iterator(final Triple pattern)
+    '''returns ExtendedIterator<Triple>\n\n
+    iterator(final Node key, final Triple pattern)\n
+    iterator(final Triple pattern)\n
     '''
 def next():
-    '''public Triple next()
-    public Triple next()
+    '''returns Triple\n\n
+    next()\n
+    next()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    hasNext()\n
     '''
 def excise():
-    '''public void excise(final Node k, final Triple triple)
-    public void excise(final Node key, final Triple triple)
+    '''returns None\n\n
+    excise(final Node k, final Triple triple)\n
+    excise(final Node key, final Triple triple)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty()
+    '''returns boolean\n\n
+    isEmpty()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def clear():
-    '''public void clear()
+    '''returns None\n\n
+    clear()\n
     '''

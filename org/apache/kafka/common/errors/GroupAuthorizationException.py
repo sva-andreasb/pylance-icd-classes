@@ -1,6 +1,8 @@
-def GroupAuthorizationException():
-    '''public GroupAuthorizationException(final String groupId)
+def ():
+    '''returns GroupAuthorizationException\n\n
+    (final String groupId)\n
     '''
 def groupId():
-    '''public String groupId()
+    '''returns String\n\n
+    groupId()\n
     '''

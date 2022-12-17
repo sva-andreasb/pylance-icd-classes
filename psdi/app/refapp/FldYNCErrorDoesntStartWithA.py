@@ -1,12 +1,16 @@
-def FldYNCErrorDoesntStartWithA():
-    '''public FldYNCErrorDoesntStartWithA(final MboValue mbv)
+def ():
+    '''returns FldYNCErrorDoesntStartWithA\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def processYes():
-    '''public void processYes()
+    '''returns None\n\n
+    processYes()\n
     '''
 def processNo():
-    '''public void processNo()
+    '''returns None\n\n
+    processNo()\n
     '''

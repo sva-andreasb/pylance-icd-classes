@@ -1,12 +1,16 @@
-def AssocContInputSet():
-    '''public AssocContInputSet(final MboServerInterface ms)
+def ():
+    '''returns AssocContInputSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def appsSigOptionAccessAuthorized():
-    '''public void appsSigOptionAccessAuthorized(final String objName, final String sigoption, final String orgId)
+    '''returns None\n\n
+    appsSigOptionAccessAuthorized(final String objName, final String sigoption, final String orgId)\n
     '''

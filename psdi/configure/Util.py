@@ -1,794 +1,983 @@
-def Util():
-    '''public Util(final Connection conparam, final PrintStream outparam, final String schemaOwnerparam)
-    public Util(final Connection conparam, final PrintStream outparam, final String schemaOwnerparam, final boolean reloadAttrs)
+def ():
+    '''returns Util\n\n
+    (final Connection conparam, final PrintStream outparam, final String schemaOwnerparam)\n
+    (final Connection conparam, final PrintStream outparam, final String schemaOwnerparam, final boolean reloadAttrs)\n
     '''
 def getMaxTableAttrs():
-    '''public String[] getMaxTableAttrs()
+    '''returns String[]\n\n
+    getMaxTableAttrs()\n
     '''
 def reloadAttributeList():
-    '''public void reloadAttributeList()
+    '''returns None\n\n
+    reloadAttributeList()\n
     '''
 def getCurrentNativeSchema():
-    '''public String getCurrentNativeSchema()
+    '''returns String\n\n
+    getCurrentNativeSchema()\n
     '''
 def writeDumpTable():
-    '''public void writeDumpTable(final String tbname, final TreeMap tableCols, final PrintStream out)
-    public int writeDumpTable(final String tbname, TreeMap tableCols, PrintStream out, int maxLines, int numLines, final Unlcvt unlcvt, final boolean psFormat)
+    '''returns int\n\n
+    writeDumpTable(final String tbname, final TreeMap tableCols, final PrintStream out)\n
+    writeDumpTable(final String tbname, TreeMap tableCols, PrintStream out, int maxLines, int numLines, final Unlcvt unlcvt, final boolean psFormat)\n
     '''
 def getData():
-    '''public TreeMap getData(final String tbname, TreeMap tableCols, final String where)
+    '''returns TreeMap\n\n
+    getData(final String tbname, TreeMap tableCols, final String where)\n
     '''
 def isTable():
-    '''public boolean isTable(final HashMap tableInfo)
+    '''returns boolean\n\n
+    isTable(final HashMap tableInfo)\n
     '''
 def buildCreateTableStatement():
-    '''public String buildCreateTableStatement(final HashMap tableInfo, final boolean doColDefault, final boolean includeDroppedCols, final String dbstoragepartition, final boolean specifyStorage)
-    public String buildCreateTableStatement(final String tbname, final TreeMap tableCols, final boolean doColDefault, final boolean includeDroppedCols, final String dbstoragepartition, final boolean addRowstamp, final String storageClause)
+    '''returns String\n\n
+    buildCreateTableStatement(final HashMap tableInfo, final boolean doColDefault, final boolean includeDroppedCols, final String dbstoragepartition, final boolean specifyStorage)\n
+    buildCreateTableStatement(final String tbname, final TreeMap tableCols, final boolean doColDefault, final boolean includeDroppedCols, final String dbstoragepartition, final boolean addRowstamp, final String storageClause)\n
     '''
 def buildCreateViewStatement():
-    '''public ArrayList<String> buildCreateViewStatement(final HashMap viewInfo, final boolean includeDroppedCols, final boolean forceDropStmt)
+    '''returns ArrayList<String>\n\n
+    buildCreateViewStatement(final HashMap viewInfo, final boolean includeDroppedCols, final boolean forceDropStmt)\n
     '''
 def getAttributeForMaxViewColumn():
-    '''public HashMap getAttributeForMaxViewColumn(final String viewName, final HashMap viewcolInfo, final TreeMap distinctAttrs)
+    '''returns HashMap\n\n
+    getAttributeForMaxViewColumn(final String viewName, final HashMap viewcolInfo, final TreeMap distinctAttrs)\n
     '''
 def buildColumnLine():
-    '''public String buildColumnLine(final HashMap colInfo, final boolean doDefault, final boolean alter)
-    public String buildColumnLine(final HashMap colInfo, final boolean doDefault, final boolean doNullClause, final boolean alter)
+    '''returns String\n\n
+    buildColumnLine(final HashMap colInfo, final boolean doDefault, final boolean alter)\n
+    buildColumnLine(final HashMap colInfo, final boolean doDefault, final boolean doNullClause, final boolean alter)\n
     '''
 def buildDefaultDataStatement():
-    '''public ArrayList<String> buildDefaultDataStatement(final String tbname, final TreeMap newTableCols, final String colNameList, TreeMap<String, HashMap<String, String>> oldTableCols)
-    public String buildDefaultDataStatement(final String tbname, final HashMap newColInfo, final HashMap oldColInfo)
+    '''returns String\n\n
+    buildDefaultDataStatement(final String tbname, final TreeMap newTableCols, final String colNameList, TreeMap<String, HashMap<String, String>> oldTableCols)\n
+    buildDefaultDataStatement(final String tbname, final HashMap newColInfo, final HashMap oldColInfo)\n
     '''
 def buildShortenStringStatement():
-    '''public ArrayList<String> buildShortenStringStatement(final String tbname, final TreeMap newTableCols, final TreeMap oldTableCols)
+    '''returns ArrayList<String>\n\n
+    buildShortenStringStatement(final String tbname, final TreeMap newTableCols, final TreeMap oldTableCols)\n
     '''
 def buildChangeCaseStatement():
-    '''public ArrayList<String> buildChangeCaseStatement(final String tbname, TreeMap<String, HashMap<String, String>> oldCols, TreeMap<String, HashMap<String, String>> newCols)
-    public String buildChangeCaseStatement(final String tbname, final String name, final String oldMaxtype, final String newMaxtype)
+    '''returns String\n\n
+    buildChangeCaseStatement(final String tbname, TreeMap<String, HashMap<String, String>> oldCols, TreeMap<String, HashMap<String, String>> newCols)\n
+    buildChangeCaseStatement(final String tbname, final String name, final String oldMaxtype, final String newMaxtype)\n
     '''
 def buildSelectStatement():
-    '''public String buildSelectStatement(final String tbname, final TreeMap tableCols, final boolean includeDroppedCols, final boolean addRowstamp)
-    public String buildSelectStatement(final String tbname, final TreeMap tableCols, final boolean includeDroppedCols, final boolean addRowstamp, final boolean addTenantID)
-    public String buildSelectStatement(final String tbname, final TreeMap tableCols, final boolean includeDroppedCols, final boolean addRowstamp, final boolean addtenantID, final String colNameList)
+    '''returns String\n\n
+    buildSelectStatement(final String tbname, final TreeMap tableCols, final boolean includeDroppedCols, final boolean addRowstamp)\n
+    buildSelectStatement(final String tbname, final TreeMap tableCols, final boolean includeDroppedCols, final boolean addRowstamp, final boolean addTenantID)\n
+    buildSelectStatement(final String tbname, final TreeMap tableCols, final boolean includeDroppedCols, final boolean addRowstamp, final boolean addtenantID, final String colNameList)\n
     '''
 def buildSelectStatementForRestore():
-    '''public String buildSelectStatementForRestore(final String tempTbName, final TreeMap newTableCols, final boolean addRowstamp, final String colNameList, final boolean doLineBreaks)
+    '''returns String\n\n
+    buildSelectStatementForRestore(final String tempTbName, final TreeMap newTableCols, final boolean addRowstamp, final String colNameList, final boolean doLineBreaks)\n
     '''
 def getDefaultString():
-    '''public String getDefaultString(final String tbname, final HashMap colInfo)
-    public String getDefaultString(final String tbname, final String colName, final String maxtype, final String metaDefaultValue, final String domainid)
-    public String getDefaultString(final String tbname, final String colName, final String maxtype, String metaDefaultValue, final String domainid, String sequenceName, final int uidRule, final int seqRule, final int autoRule, final int mboRule, final int appRule, final boolean outputQuotes, final boolean assignIfNoMeta)
+    '''returns String\n\n
+    getDefaultString(final String tbname, final HashMap colInfo)\n
+    getDefaultString(final String tbname, final String colName, final String maxtype, final String metaDefaultValue, final String domainid)\n
+    getDefaultString(final String tbname, final String colName, final String maxtype, String metaDefaultValue, final String domainid, String sequenceName, final int uidRule, final int seqRule, final int autoRule, final int mboRule, final int appRule, final boolean outputQuotes, final boolean assignIfNoMeta)\n
     '''
 def isSpecialDefaultValue():
-    '''public boolean isSpecialDefaultValue(final String value)
+    '''returns boolean\n\n
+    isSpecialDefaultValue(final String value)\n
     '''
 def getOracleConvertString():
-    '''public String getOracleConvertString(String oldNativeType, String newNativeType, final String colName)
+    '''returns String\n\n
+    getOracleConvertString(String oldNativeType, String newNativeType, final String colName)\n
     '''
 def getSqlServerConvertString():
-    '''public String getSqlServerConvertString(final String oldTbname, final String newTbname, final HashMap newColInfo)
+    '''returns String\n\n
+    getSqlServerConvertString(final String oldTbname, final String newTbname, final HashMap newColInfo)\n
     '''
 def getDB2ConvertString():
-    '''public String getDB2ConvertString(String oldNativeType, String newNativeType, final String colName)
+    '''returns String\n\n
+    getDB2ConvertString(String oldNativeType, String newNativeType, final String colName)\n
     '''
 def nativeTypesAreCompatible():
-    '''public boolean nativeTypesAreCompatible(String oldNativeType, String newNativeType)
+    '''returns boolean\n\n
+    nativeTypesAreCompatible(String oldNativeType, String newNativeType)\n
     '''
 def buildInsertStatementPrefix():
-    '''public String buildInsertStatementPrefix(final String tbname, final TreeMap tableCols, final boolean doRowstamp, final boolean includeDroppedCols)
-    public String buildInsertStatementPrefix(final String tbname, final TreeMap tableCols, final boolean doRowstamp, final boolean includeDroppedCols, final String colNameList, final boolean doLineBreaks)
-    public String buildInsertStatementPrefix(final String tbname, final TreeMap tableCols, final boolean doRowstamp, final boolean includeDroppedCols, final String colNameList, final boolean doLineBreaks, final boolean addTenantid)
+    '''returns String\n\n
+    buildInsertStatementPrefix(final String tbname, final TreeMap tableCols, final boolean doRowstamp, final boolean includeDroppedCols)\n
+    buildInsertStatementPrefix(final String tbname, final TreeMap tableCols, final boolean doRowstamp, final boolean includeDroppedCols, final String colNameList, final boolean doLineBreaks)\n
+    buildInsertStatementPrefix(final String tbname, final TreeMap tableCols, final boolean doRowstamp, final boolean includeDroppedCols, final String colNameList, final boolean doLineBreaks, final boolean addTenantid)\n
     '''
 def buildInsertValuesStatement():
-    '''public TreeMap buildInsertValuesStatement(final String prefix, final ResultSet rs, final TreeMap tableCols, final boolean includeDroppedCols, final String rowstampValue)
-    public TreeMap<Integer, String> buildInsertValuesStatement(final String prefix, final ResultSet rs, final TreeMap tableCols, final boolean includeDroppedCols, final String rowstampValue, final boolean psFormat)
-    public TreeMap<Integer, String> buildInsertValuesStatement(final String prefix, final ResultSet rs, final TreeMap tableCols, final boolean includeDroppedCols, final String rowstampValue, final boolean psFormat, final Map<String, String> allSeq)
-    public TreeMap<Integer, String> buildInsertValuesStatement(final String prefix, final ResultSet rs, final TreeMap tableCols, final boolean includeDroppedCols, final String rowstampValue, final boolean psFormat, final Map<String, String> allSeq, final int tenantid)
-    '''
-def getKeyColumns():
-    '''public TreeMap<String, String> getKeyColumns(final TreeMap indexMeta, final TreeMap tableCols, final String indexToSkip)
+    '''returns TreeMap\n\n
+    buildInsertValuesStatement(final String prefix, final ResultSet rs, final TreeMap tableCols, final boolean includeDroppedCols, final String rowstampValue)\n
     '''
 def getColumnNames():
-    '''public String getColumnNames(final TreeMap tableCols, final boolean doLineBreaks, final boolean includeDroppedCols)
-    public String getColumnNames(final TreeMap tableCols, final boolean doLineBreaks, final boolean includeDroppedCols, final String colNameList, final boolean useAlias)
+    '''returns String\n\n
+    getColumnNames(final TreeMap tableCols, final boolean doLineBreaks, final boolean includeDroppedCols)\n
+    getColumnNames(final TreeMap tableCols, final boolean doLineBreaks, final boolean includeDroppedCols, final String colNameList, final boolean useAlias)\n
     '''
 def processTemplateData():
-    '''public void processTemplateData(final int toTenantid, final boolean delete, final String maxUserGroup, final String allUserGroup, final String newUserGroup, final PrintStream out)
+    '''returns None\n\n
+    processTemplateData(final int toTenantid, final boolean delete, final String maxUserGroup, final String allUserGroup, final String newUserGroup, final PrintStream out)\n
     '''
 def copyData():
-    '''public void copyData(final String tabName, final String uniqueColumn, final int toTenantid, final int storageType, final boolean delete, final PrintStream out)
+    '''returns None\n\n
+    copyData(final String tabName, final String uniqueColumn, final int toTenantid, final int storageType, final boolean delete, final PrintStream out)\n
     '''
 def updateGroupName():
-    '''public void updateGroupName(final String tabName, final String maxUserGroup, final String allUserGroup, final String newUserGroup, final int toTenantid)
+    '''returns None\n\n
+    updateGroupName(final String tabName, final String maxUserGroup, final String allUserGroup, final String newUserGroup, final int toTenantid)\n
     '''
 def getColumnNamesNative():
-    '''public String getColumnNamesNative(final String tbname)
+    '''returns String\n\n
+    getColumnNamesNative(final String tbname)\n
     '''
 def getColumnInfo():
-    '''public HashMap getColumnInfo(final TreeMap tableCols, String name)
+    '''returns HashMap\n\n
+    getColumnInfo(final TreeMap tableCols, String name)\n
     '''
 def getAddRowstampSql():
-    '''public String getAddRowstampSql(final String tbname)
+    '''returns String\n\n
+    getAddRowstampSql(final String tbname)\n
     '''
 def getRowstampTriggerSql():
-    '''public ArrayList<String> getRowstampTriggerSql(final String tbname, final boolean dropIfExists)
-    public ArrayList<String> getRowstampTriggerSql(final String tbname, final boolean dropIfExists, final boolean makeSecure)
+    '''returns ArrayList<String>\n\n
+    getRowstampTriggerSql(final String tbname, final boolean dropIfExists)\n
+    getRowstampTriggerSql(final String tbname, final boolean dropIfExists, final boolean makeSecure)\n
     '''
 def getTrigRoot():
-    '''public String getTrigRoot(final String tbname)
+    '''returns String\n\n
+    getTrigRoot(final String tbname)\n
     '''
 def buildGrants():
-    '''public ArrayList<String> buildGrants(final String tbname, final boolean outputSchema, final boolean maxusersOnly)
-    '''
-def getGrants():
-    '''public HashMap<String, int[]> getGrants(final String username, final String entityname)
+    '''returns ArrayList<String>\n\n
+    buildGrants(final String tbname, final boolean outputSchema, final boolean maxusersOnly)\n
     '''
 def getGrantSql():
-    '''public String getGrantSql(final String dbUserID, final String entityname, final String privilege, final boolean grant)
+    '''returns String\n\n
+    getGrantSql(final String dbUserID, final String entityname, final String privilege, final boolean grant)\n
     '''
 def getTriggerNames():
-    '''public ArrayList<String> getTriggerNames(final String tbname, final boolean getEnabled, final boolean getDisabled, final boolean includeRowstamp)
+    '''returns ArrayList<String>\n\n
+    getTriggerNames(final String tbname, final boolean getEnabled, final boolean getDisabled, final boolean includeRowstamp)\n
     '''
 def getEnableTriggerStatement():
-    '''public String getEnableTriggerStatement(final String triggerName, final String tbname)
+    '''returns String\n\n
+    getEnableTriggerStatement(final String triggerName, final String tbname)\n
     '''
 def getDisableTriggerStatement():
-    '''public String getDisableTriggerStatement(final String triggerName, final String tbname)
+    '''returns String\n\n
+    getDisableTriggerStatement(final String triggerName, final String tbname)\n
     '''
 def getEnableDisableTriggersAll():
-    '''public String getEnableDisableTriggersAll(final String tbname, final boolean enable)
+    '''returns String\n\n
+    getEnableDisableTriggersAll(final String tbname, final boolean enable)\n
     '''
 def changeAmountFormat():
-    '''public ArrayList<String> changeAmountFormat(final int newLength, final int newScale)
+    '''returns ArrayList<String>\n\n
+    changeAmountFormat(final int newLength, final int newScale)\n
     '''
 def isRichTextSupported():
-    '''public boolean isRichTextSupported(String tbname, String name)
+    '''returns boolean\n\n
+    isRichTextSupported(String tbname, String name)\n
     '''
 def isHandleColumn():
-    '''public boolean isHandleColumn(final String colName, final TreeMap attrs)
+    '''returns boolean\n\n
+    isHandleColumn(final String colName, final TreeMap attrs)\n
     '''
 def enableRichTextSearch():
-    '''public ArrayList<String> enableRichTextSearch(final HashMap objInfo, final TreeMap tbIndexes, final boolean doCheck, final boolean skipDb2Connect)
-    public ArrayList<String> enableRichTextSearch(final String tbname, final String colName, final String handleColName, final HashMap ixInfo, final boolean skipCreateUniqueIndex)
-    public ArrayList<String> enableRichTextSearch(final String tbname, final String colName, final String handleColName, final HashMap ixInfo, final boolean skipCreateUniqueIndex, final int startIxNum)
-    public ArrayList<String> enableRichTextSearch(String tbname, String colName, final String handleColName, final HashMap ixInfo, final boolean skipCreateUniqueIndex, final int startIxNum, final boolean skipDb2Connect)
+    '''returns ArrayList<String>\n\n
+    enableRichTextSearch(final HashMap objInfo, final TreeMap tbIndexes, final boolean doCheck, final boolean skipDb2Connect)\n
+    enableRichTextSearch(final String tbname, final String colName, final String handleColName, final HashMap ixInfo, final boolean skipCreateUniqueIndex)\n
+    enableRichTextSearch(final String tbname, final String colName, final String handleColName, final HashMap ixInfo, final boolean skipCreateUniqueIndex, final int startIxNum)\n
+    enableRichTextSearch(String tbname, String colName, final String handleColName, final HashMap ixInfo, final boolean skipCreateUniqueIndex, final int startIxNum, final boolean skipDb2Connect)\n
     '''
 def getDB2TextIndexSpace():
-    '''public String getDB2TextIndexSpace()
+    '''returns String\n\n
+    getDB2TextIndexSpace()\n
     '''
 def isRTSupportedForDB():
-    '''public boolean isRTSupportedForDB()
+    '''returns boolean\n\n
+    isRTSupportedForDB()\n
     '''
 def revalidateTextSearchIndexes():
-    '''public ArrayList<String> revalidateTextSearchIndexes(final String tbname)
+    '''returns ArrayList<String>\n\n
+    revalidateTextSearchIndexes(final String tbname)\n
     '''
 def isReorgPending():
-    '''public boolean isReorgPending(final String tbname)
+    '''returns boolean\n\n
+    isReorgPending(final String tbname)\n
     '''
 def reorgTable():
-    '''public ArrayList<String> reorgTable(final String tbname, final boolean redoTriggers)
+    '''returns ArrayList<String>\n\n
+    reorgTable(final String tbname, final boolean redoTriggers)\n
     '''
 def db2textAlterIndexes():
-    '''public ArrayList<String> db2textAlterIndexes()
-    public ArrayList<String> db2textAlterIndexes(final boolean updateNow)
+    '''returns ArrayList<String>\n\n
+    db2textAlterIndexes()\n
+    db2textAlterIndexes(final boolean updateNow)\n
     '''
 def activateRichTextSearch():
-    '''public ArrayList<String> activateRichTextSearch(final ArrayList<String> list, final String tbname, final boolean doCheck)
+    '''returns ArrayList<String>\n\n
+    activateRichTextSearch(final ArrayList<String> list, final String tbname, final boolean doCheck)\n
     '''
 def disableRichTextSearch():
-    '''public ArrayList<String> disableRichTextSearch(final String tbname, String colName, final String handleColName)
+    '''returns ArrayList<String>\n\n
+    disableRichTextSearch(final String tbname, String colName, final String handleColName)\n
     '''
 def getTextSearchIndexForColumn():
-    '''public HashMap getTextSearchIndexForColumn(final String tbname, final String colName, TreeMap tbIndexes)
+    '''returns HashMap\n\n
+    getTextSearchIndexForColumn(final String tbname, final String colName, TreeMap tbIndexes)\n
     '''
 def getRenameTableStatement():
-    '''public String getRenameTableStatement(final String oldTbname, final String newTbname)
+    '''returns String\n\n
+    getRenameTableStatement(final String oldTbname, final String newTbname)\n
     '''
 def getDropStatisticsStatementsForConfig():
-    '''public ArrayList getDropStatisticsStatementsForConfig(final String entityname)
+    '''returns ArrayList\n\n
+    getDropStatisticsStatementsForConfig(final String entityname)\n
     '''
 def getDropStatisticsStatements():
-    '''public ArrayList<String> getDropStatisticsStatements(String tbname, String colname)
+    '''returns ArrayList<String>\n\n
+    getDropStatisticsStatements(String tbname, String colname)\n
     '''
 def canAnalyzeTable():
-    '''public boolean canAnalyzeTable()
+    '''returns boolean\n\n
+    canAnalyzeTable()\n
     '''
 def getAnalyzeTableStatement():
-    '''public ArrayList<String> getAnalyzeTableStatement(String tbname)
+    '''returns ArrayList<String>\n\n
+    getAnalyzeTableStatement(String tbname)\n
     '''
 def getDisallowPageLocks():
-    '''public ArrayList<String> getDisallowPageLocks()
+    '''returns ArrayList<String>\n\n
+    getDisallowPageLocks()\n
     '''
 def lockMaximoTables():
-    '''public boolean lockMaximoTables(String tbname, final boolean lock)
+    '''returns boolean\n\n
+    lockMaximoTables(String tbname, final boolean lock)\n
     '''
 def isObjectLocked():
-    '''public boolean isObjectLocked(final String entityname)
+    '''returns boolean\n\n
+    isObjectLocked(final String entityname)\n
     '''
 def isReservedWord():
-    '''public boolean isReservedWord(final String testWord)
+    '''returns boolean\n\n
+    isReservedWord(final String testWord)\n
     '''
 def getAttributeRefresh():
-    '''public ArrayList<String> getAttributeRefresh()
-    public ArrayList<String> getAttributeRefresh(final int tenantId, final boolean mtEnabled, final String objectName)
+    '''returns ArrayList<String>\n\n
+    getAttributeRefresh()\n
+    getAttributeRefresh(final int tenantId, final boolean mtEnabled, final String objectName)\n
     '''
 def getAttributeCfgRefresh():
-    '''public ArrayList<String> getAttributeCfgRefresh()
-    public ArrayList<String> getAttributeCfgRefresh(final int tenantId, final boolean mtEnabled)
+    '''returns ArrayList<String>\n\n
+    getAttributeCfgRefresh()\n
+    getAttributeCfgRefresh(final int tenantId, final boolean mtEnabled)\n
     '''
 def getViewColumnRefresh():
-    '''public String getViewColumnRefresh()
-    public String getViewColumnRefresh(final int tenantId, final boolean mtEnabled)
+    '''returns String\n\n
+    getViewColumnRefresh()\n
+    getViewColumnRefresh(final int tenantId, final boolean mtEnabled)\n
     '''
 def getViewColumnCfgRefresh():
-    '''public String getViewColumnCfgRefresh()
-    public String getViewColumnCfgRefresh(final int tenantId, final boolean mtEnabled)
+    '''returns String\n\n
+    getViewColumnCfgRefresh()\n
+    getViewColumnCfgRefresh(final int tenantId, final boolean mtEnabled)\n
     '''
 def getTableRefresh():
-    '''public String getTableRefresh()
-    public String getTableRefresh(final int tenantId, final boolean mtEnabled, final String tableName)
+    '''returns String\n\n
+    getTableRefresh()\n
+    getTableRefresh(final int tenantId, final boolean mtEnabled, final String tableName)\n
     '''
 def getTableCfgRefresh():
-    '''public String getTableCfgRefresh()
-    public String getTableCfgRefresh(final int tenantId, final boolean mtEnabled)
+    '''returns String\n\n
+    getTableCfgRefresh()\n
+    getTableCfgRefresh(final int tenantId, final boolean mtEnabled)\n
     '''
 def getViewRefresh():
-    '''public String getViewRefresh()
-    public String getViewRefresh(final int tenantId, final boolean mtEnabled)
+    '''returns String\n\n
+    getViewRefresh()\n
+    getViewRefresh(final int tenantId, final boolean mtEnabled)\n
     '''
 def getViewCfgRefresh():
-    '''public String getViewCfgRefresh()
-    public String getViewCfgRefresh(final int tenantId, final boolean mtEnabled)
+    '''returns String\n\n
+    getViewCfgRefresh()\n
+    getViewCfgRefresh(final int tenantId, final boolean mtEnabled)\n
     '''
 def deleteObjectDelta():
-    '''public ArrayList<String> deleteObjectDelta(final int tenantId)
+    '''returns ArrayList<String>\n\n
+    deleteObjectDelta(final int tenantId)\n
     '''
 def getObjectRefresh():
-    '''public ArrayList<String> getObjectRefresh()
-    public ArrayList<String> getObjectRefresh(final int tenantId, final boolean mtEnabled, final String objectName)
+    '''returns ArrayList<String>\n\n
+    getObjectRefresh()\n
+    getObjectRefresh(final int tenantId, final boolean mtEnabled, final String objectName)\n
     '''
 def getObjectCfgRefresh():
-    '''public ArrayList<String> getObjectCfgRefresh()
-    public ArrayList<String> getObjectCfgRefresh(final int tenantId, final boolean mtEnabled)
+    '''returns ArrayList<String>\n\n
+    getObjectCfgRefresh()\n
+    getObjectCfgRefresh(final int tenantId, final boolean mtEnabled)\n
     '''
 def getSysIndexRefresh():
-    '''public ArrayList<String> getSysIndexRefresh(String tbname, String ixname)
+    '''returns ArrayList<String>\n\n
+    getSysIndexRefresh(String tbname, String ixname)\n
     '''
 def updateIndexRequired():
-    '''public List<String> updateIndexRequired()
+    '''returns List<String>\n\n
+    updateIndexRequired()\n
     '''
 def longIndexNamesExist():
-    '''public boolean longIndexNamesExist(final String tbname)
+    '''returns boolean\n\n
+    longIndexNamesExist(final String tbname)\n
     '''
 def dupIndexNamesExist():
-    '''public boolean dupIndexNamesExist(final String tbname, final String ixname)
+    '''returns boolean\n\n
+    dupIndexNamesExist(final String tbname, final String ixname)\n
     '''
 def descendingIndexesSupported():
-    '''public boolean descendingIndexesSupported()
+    '''returns boolean\n\n
+    descendingIndexesSupported()\n
     '''
 def getPartitionRefresh():
-    '''public ArrayList<String> getPartitionRefresh()
+    '''returns ArrayList<String>\n\n
+    getPartitionRefresh()\n
     '''
 def getOracleVersion():
-    '''public int getOracleVersion()
-    public double getOracleVersion(final boolean getPoint)
+    '''returns double\n\n
+    getOracleVersion()\n
+    getOracleVersion(final boolean getPoint)\n
     '''
 def getDB2Version():
-    '''public int getDB2Version()
-    public double getDB2Version(final boolean getPoint)
+    '''returns double\n\n
+    getDB2Version()\n
+    getDB2Version(final boolean getPoint)\n
     '''
 def getSqlServerVersion():
-    '''public int getSqlServerVersion()
-    public double getSqlServerVersion(final boolean getPoint)
+    '''returns double\n\n
+    getSqlServerVersion()\n
+    getSqlServerVersion(final boolean getPoint)\n
     '''
 def getSqlServerCompatLevel():
-    '''public int getSqlServerCompatLevel()
+    '''returns int\n\n
+    getSqlServerCompatLevel()\n
     '''
 def getUpdateStatistics():
-    '''public ArrayList<String> getUpdateStatistics(final TreeMap tableMap, final TreeMap indexMap)
+    '''returns ArrayList<String>\n\n
+    getUpdateStatistics(final TreeMap tableMap, final TreeMap indexMap)\n
     '''
 def getRemoveChanges():
-    '''public ArrayList<String> getRemoveChanges()
+    '''returns ArrayList<String>\n\n
+    getRemoveChanges()\n
     '''
 def getRemoveTenantChanges():
-    '''public ArrayList<String> getRemoveTenantChanges(final int tenantid, final boolean mtEnabled)
+    '''returns ArrayList<String>\n\n
+    getRemoveTenantChanges(final int tenantid, final boolean mtEnabled)\n
     '''
 def getApplyTenantChanges():
-    '''public ArrayList<String> getApplyTenantChanges(final int tenantid, final boolean mtEnabled)
+    '''returns ArrayList<String>\n\n
+    getApplyTenantChanges(final int tenantid, final boolean mtEnabled)\n
     '''
 def objAttrDelRefresh():
-    '''public ArrayList<String> objAttrDelRefresh(final int tenantid, final boolean mtEnabled)
+    '''returns ArrayList<String>\n\n
+    objAttrDelRefresh(final int tenantid, final boolean mtEnabled)\n
     '''
 def attrRefresh():
-    '''public ArrayList<String> attrRefresh(final int tenantid, final boolean mtEnabled)
+    '''returns ArrayList<String>\n\n
+    attrRefresh(final int tenantid, final boolean mtEnabled)\n
     '''
 def renumberAttributeNumber():
-    '''public ArrayList<String> renumberAttributeNumber(final String objectname, final TreeMap attrs)
+    '''returns ArrayList<String>\n\n
+    renumberAttributeNumber(final String objectname, final TreeMap attrs)\n
     '''
 def renumberExtAttributeNumber():
-    '''public ArrayList<String> renumberExtAttributeNumber(final String objectname, final Map extTables, final int start, ArrayList<String> sqlList)
-    '''
-def getPrimaryKeys():
-    '''public TreeMap<String, String> getPrimaryKeys(String objname, final boolean getCfg)
+    '''returns ArrayList<String>\n\n
+    renumberExtAttributeNumber(final String objectname, final Map extTables, final int start, ArrayList<String> sqlList)\n
     '''
 def indexMetaExistsForPrikeycolseq():
-    '''public boolean indexMetaExistsForPrikeycolseq(String objname, String tbname, final boolean getCfg)
+    '''returns boolean\n\n
+    indexMetaExistsForPrikeycolseq(String objname, String tbname, final boolean getCfg)\n
     '''
 def buildIndexStatement():
-    '''public String buildIndexStatement(final String tbname, final TreeMap tableCols, final String dbstoragepartition)
-    public String buildIndexStatement(final HashMap ixInfo, final boolean specifySchema, final boolean specifyStorage)
+    '''returns String\n\n
+    buildIndexStatement(final String tbname, final TreeMap tableCols, final String dbstoragepartition)\n
+    buildIndexStatement(final HashMap ixInfo, final boolean specifySchema, final boolean specifyStorage)\n
     '''
 def rebuildIndexes():
-    '''public ArrayList<String> rebuildIndexes(final TreeMap indexMeta, final boolean alwaysDrop, final boolean neverDrop, final boolean specifySchema, final boolean specifyStorage)
+    '''returns ArrayList<String>\n\n
+    rebuildIndexes(final TreeMap indexMeta, final boolean alwaysDrop, final boolean neverDrop, final boolean specifySchema, final boolean specifyStorage)\n
     '''
 def adjustPrimaryKeyColSeq():
-    '''public ArrayList<String> adjustPrimaryKeyColSeq(final TreeMap indexMeta)
+    '''returns ArrayList<String>\n\n
+    adjustPrimaryKeyColSeq(final TreeMap indexMeta)\n
     '''
 def buildSequences():
-    '''public ArrayList<String> buildSequences(final HashSet sequences, final boolean doMaxseq)
-    public ArrayList<String> buildSequences(final HashSet sequences, final Map<String, Long> alreadyDone, final boolean doMaxseq)
+    '''returns ArrayList<String>\n\n
+    buildSequences(final HashSet sequences, final boolean doMaxseq)\n
+    buildSequences(final HashSet sequences, final Map<String, Long> alreadyDone, final boolean doMaxseq)\n
     '''
 def updateMaxSequence():
-    '''public ArrayList<String> updateMaxSequence(final HashSet sequences)
-    public ArrayList<String> updateMaxSequence(final HashSet sequences, final Map<String, Long> lastNumbers)
+    '''returns ArrayList<String>\n\n
+    updateMaxSequence(final HashSet sequences)\n
+    updateMaxSequence(final HashSet sequences, final Map<String, Long> lastNumbers)\n
     '''
 def getNextSequenceNo():
-    '''public long getNextSequenceNo(final String sequenceName)
+    '''returns long\n\n
+    getNextSequenceNo(final String sequenceName)\n
     '''
 def rebuildMetadataSequences():
-    '''public ArrayList<String> rebuildMetadataSequences()
+    '''returns ArrayList<String>\n\n
+    rebuildMetadataSequences()\n
     '''
 def getMetadataSequenceNames():
-    '''public HashSet<String[]> getMetadataSequenceNames()
+    '''returns HashSet<String[]>\n\n
+    getMetadataSequenceNames()\n
     '''
 def getMaxEAuditTransID():
-    '''public int getMaxEAuditTransID()
+    '''returns int\n\n
+    getMaxEAuditTransID()\n
     '''
 def createOneSequenceFromMaxSequence():
-    '''public ArrayList<String> createOneSequenceFromMaxSequence(final String sequenceName)
+    '''returns ArrayList<String>\n\n
+    createOneSequenceFromMaxSequence(final String sequenceName)\n
     '''
 def getUnrestoredTables():
-    '''public String getUnrestoredTables(final String tbname)
+    '''returns String\n\n
+    getUnrestoredTables(final String tbname)\n
     '''
 def getBackupTableName():
-    '''public String getBackupTableName(final String tbname)
+    '''returns String\n\n
+    getBackupTableName(final String tbname)\n
     '''
 def getOldBackupTables():
-    '''public String getOldBackupTables(final String tbname)
+    '''returns String\n\n
+    getOldBackupTables(final String tbname)\n
     '''
 def clearAlreadyDidUsingMultiSchema():
-    '''public void clearAlreadyDidUsingMultiSchema()
+    '''returns None\n\n
+    clearAlreadyDidUsingMultiSchema()\n
     '''
 def usingMultiSchema():
-    '''public boolean usingMultiSchema()
-    '''
-def getSites():
-    '''public TreeMap<String, String> getSites(final boolean includeDisabled)
-    '''
-def getOrgs():
-    '''public TreeMap<String, String> getOrgs(final boolean includeDisabled)
+    '''returns boolean\n\n
+    usingMultiSchema()\n
     '''
 def getSiteOrgType():
-    '''public String getSiteOrgType(final String objectname)
+    '''returns String\n\n
+    getSiteOrgType(final String objectname)\n
     '''
 def getStoragePartition():
-    '''public String getStoragePartition(final String tbname)
+    '''returns String\n\n
+    getStoragePartition(final String tbname)\n
     '''
 def getUniqueIndexSpace():
-    '''public String getUniqueIndexSpace(final String tbname, final String tbPartition)
+    '''returns String\n\n
+    getUniqueIndexSpace(final String tbname, final String tbPartition)\n
     '''
 def getLangColumnName():
-    '''public String getLangColumnName(final String tbname)
+    '''returns String\n\n
+    getLangColumnName(final String tbname)\n
     '''
 def getUniqueColumnName():
-    '''public String getUniqueColumnName(final String tbname)
+    '''returns String\n\n
+    getUniqueColumnName(final String tbname)\n
     '''
 def getUniqueColumnNameNative():
-    '''public String getUniqueColumnNameNative(final String tbname)
+    '''returns String\n\n
+    getUniqueColumnNameNative(final String tbname)\n
     '''
 def getObjectName():
-    '''public String getObjectName(final String entityname, final boolean useIsViewConstraint, final boolean isView)
+    '''returns String\n\n
+    getObjectName(final String entityname, final boolean useIsViewConstraint, final boolean isView)\n
     '''
 def getTableName():
-    '''public String getTableName(final String objectname)
+    '''returns String\n\n
+    getTableName(final String objectname)\n
     '''
 def getStorageType():
-    '''public MTStorageType getStorageType(final String tableName)
+    '''returns MTStorageType\n\n
+    getStorageType(final String tableName)\n
     '''
 def getViewName():
-    '''public String getViewName(final String objectname)
+    '''returns String\n\n
+    getViewName(final String objectname)\n
     '''
 def getAttributeName():
-    '''public String getAttributeName(final String objectname, final String tablename, final String columnname)
+    '''returns String\n\n
+    getAttributeName(final String objectname, final String tablename, final String columnname)\n
     '''
 def getColumnName():
-    '''public String[] getColumnName(final String objectname, final String attributename)
+    '''returns String[]\n\n
+    getColumnName(final String objectname, final String attributename)\n
     '''
 def getKeyAttribute():
-    '''public String getKeyAttribute(String objectname, String tablename)
-    '''
-def getObjectMeta():
-    '''public TreeMap<String, HashMap<String, Object>> getObjectMeta(String objectname, final boolean getCfg, final boolean getPersistentOnly, boolean getChangedOnly, final boolean getColumns, final boolean colsOrderByName, boolean getTablesOnly, boolean getViewsOnly)
-    '''
-def getAttributeMeta():
-    '''public TreeMap<String, TreeMap<String, HashMap<String, String>>> getAttributeMeta(final String objectname, final boolean getCfg, final boolean orderByName, final boolean getPersistentOnly, boolean getChangedOnly, final boolean selectView, final String entityName)
-    '''
-def getTenantAttributeMeta():
-    '''public HashMap<String, HashMap<String, String>> getTenantAttributeMeta(final String objectname, final int tenantId)
-    '''
-def gettenantSameAsExtendedAtributes():
-    '''public Map<String, List<String>> gettenantSameAsExtendedAtributes(final int tenantId)
-    '''
-def getIndexMeta():
-    '''public TreeMap<String, HashMap<String, Object>> getIndexMeta(final String tbname, final boolean getChangedOnly)
-    public TreeMap<String, HashMap<String, Object>> getIndexMeta(final String tbname, final boolean getChangedOnly, final boolean getPrimary)
-    public TreeMap<String, HashMap<String, Object>> getIndexMeta(final String tbname, final boolean getChangedOnly, final boolean getPrimary, final boolean includeDeleted)
+    '''returns String\n\n
+    getKeyAttribute(String objectname, String tablename)\n
     '''
 def getIndexNamesForColumn():
-    '''public ArrayList<String> getIndexNamesForColumn(final String tbname, final String colName)
+    '''returns ArrayList<String>\n\n
+    getIndexNamesForColumn(final String tbname, final String colName)\n
     '''
 def getMaxvar():
-    '''public String getMaxvar(String varname, final boolean getDefault)
+    '''returns String\n\n
+    getMaxvar(String varname, final boolean getDefault)\n
     '''
 def getYes():
-    '''public String getYes()
+    '''returns String\n\n
+    getYes()\n
     '''
 def getNo():
-    '''public String getNo()
+    '''returns String\n\n
+    getNo()\n
     '''
 def getMaxUpgVersion():
-    '''public String getMaxUpgVersion()
+    '''returns String\n\n
+    getMaxUpgVersion()\n
     '''
 def nativeTableExists():
-    '''public boolean nativeTableExists(final String tbname)
+    '''returns boolean\n\n
+    nativeTableExists(final String tbname)\n
     '''
 def nativeColumnExists():
-    '''public boolean nativeColumnExists(final String tbname, final String name)
+    '''returns boolean\n\n
+    nativeColumnExists(final String tbname, final String name)\n
     '''
 def nativeViewExists():
-    '''public boolean nativeViewExists(final String vname)
+    '''returns boolean\n\n
+    nativeViewExists(final String vname)\n
     '''
 def nativeIndexExists():
-    '''public boolean nativeIndexExists(final String ixname, final String tbname)
+    '''returns boolean\n\n
+    nativeIndexExists(final String ixname, final String tbname)\n
     '''
 def nativeIndexExistsForColumn():
-    '''public ArrayList<String> nativeIndexExistsForColumn(final String tbname, final String name)
+    '''returns ArrayList<String>\n\n
+    nativeIndexExistsForColumn(final String tbname, final String name)\n
     '''
 def nativeIndexExistsForColumns():
-    '''public String nativeIndexExistsForColumns(final String tbname, final Object[] names)
-    public String nativeIndexExistsForColumns(final String tbname, final Object[] names, final boolean ignoreTS)
+    '''returns String\n\n
+    nativeIndexExistsForColumns(final String tbname, final Object[] names)\n
+    nativeIndexExistsForColumns(final String tbname, final Object[] names, final boolean ignoreTS)\n
     '''
 def cleanStatisticNames():
-    '''public ArrayList<String> cleanStatisticNames()
+    '''returns ArrayList<String>\n\n
+    cleanStatisticNames()\n
     '''
 def fixMetadataForDescendingKeys():
-    '''public ArrayList<String> fixMetadataForDescendingKeys(String tbname, String ixname)
+    '''returns ArrayList<String>\n\n
+    fixMetadataForDescendingKeys(String tbname, String ixname)\n
     '''
 def nativeIndexIsUnique():
-    '''public boolean nativeIndexIsUnique(final String ixname)
+    '''returns boolean\n\n
+    nativeIndexIsUnique(final String ixname)\n
     '''
 def nativeIndexIsPrimaryKey():
-    '''public boolean nativeIndexIsPrimaryKey(final String ixname)
+    '''returns boolean\n\n
+    nativeIndexIsPrimaryKey(final String ixname)\n
     '''
 def nativeColumnIsNullable():
-    '''public boolean nativeColumnIsNullable(final String tbname, final String name)
+    '''returns boolean\n\n
+    nativeColumnIsNullable(final String tbname, final String name)\n
     '''
 def addTenantIDIndex():
-    '''public ArrayList<String> addTenantIDIndex(final String tbname, String storagepartition, final MTStorageType storageType)
+    '''returns ArrayList<String>\n\n
+    addTenantIDIndex(final String tbname, String storagepartition, final MTStorageType storageType)\n
     '''
 def addIndex():
-    '''public ArrayList<String> addIndex(final String tbname, String[] names, String startWith, final boolean addUnique, String storagepartition)
+    '''returns ArrayList<String>\n\n
+    addIndex(final String tbname, String[] names, String startWith, final boolean addUnique, String storagepartition)\n
     '''
 def getNewIndexName():
-    '''public String getNewIndexName(final String tbname, int startWith)
+    '''returns String\n\n
+    getNewIndexName(final String tbname, int startWith)\n
     '''
 def nativeDefaultConstraintExists():
-    '''public ArrayList<String> nativeDefaultConstraintExists(final String tbname, final String name)
+    '''returns ArrayList<String>\n\n
+    nativeDefaultConstraintExists(final String tbname, final String name)\n
     '''
 def nativeTriggerExists():
-    '''public boolean nativeTriggerExists(final String trigname)
+    '''returns boolean\n\n
+    nativeTriggerExists(final String trigname)\n
     '''
 def nativeSequenceExists():
-    '''public boolean nativeSequenceExists(final String name)
+    '''returns boolean\n\n
+    nativeSequenceExists(final String name)\n
     '''
 def isNickname():
-    '''public boolean isNickname(final String name)
+    '''returns boolean\n\n
+    isNickname(final String name)\n
     '''
 def isSysYORN():
-    '''public boolean isSysYORN(String attrName)
+    '''returns boolean\n\n
+    isSysYORN(String attrName)\n
     '''
 def isSysNumeric():
-    '''public boolean isSysNumeric(String attrName)
+    '''returns boolean\n\n
+    isSysNumeric(String attrName)\n
     '''
 def adjustViewMeta():
-    '''public ArrayList<String> adjustViewMeta(final String viewname)
-    public ArrayList<String> adjustViewMeta(String viewname, final boolean addP, final boolean addNP)
+    '''returns ArrayList<String>\n\n
+    adjustViewMeta(final String viewname)\n
+    adjustViewMeta(String viewname, final boolean addP, final boolean addNP)\n
     '''
 def getMaximumColumnNameLength():
-    '''public int getMaximumColumnNameLength()
+    '''returns int\n\n
+    getMaximumColumnNameLength()\n
     '''
 def useQuotes():
-    '''public boolean useQuotes(String maxtype)
+    '''returns boolean\n\n
+    useQuotes(String maxtype)\n
     '''
 def singleToDoubleQuotes():
-    '''public String singleToDoubleQuotes(final String in)
+    '''returns String\n\n
+    singleToDoubleQuotes(final String in)\n
     '''
 def toggleStringConcat():
-    '''public String toggleStringConcat(final String inString, final String inConcat, final String outConcat)
+    '''returns String\n\n
+    toggleStringConcat(final String inString, final String inConcat, final String outConcat)\n
     '''
 def getNativeType():
-    '''public String getNativeType(final String maxType, final String length, int dbPlatform)
+    '''returns String\n\n
+    getNativeType(final String maxType, final String length, int dbPlatform)\n
     '''
 def getJdbcType():
-    '''public int getJdbcType(String nativeType, final int dbPlatform)
+    '''returns int\n\n
+    getJdbcType(String nativeType, final int dbPlatform)\n
     '''
 def getNativeTypeForColumn():
-    '''public String getNativeTypeForColumn(final String tbname, final String name)
+    '''returns String\n\n
+    getNativeTypeForColumn(final String tbname, final String name)\n
     '''
 def getNativeDateDefault():
-    '''public String getNativeDateDefault()
+    '''returns String\n\n
+    getNativeDateDefault()\n
     '''
 def getNativePartition():
-    '''public String getNativePartition(final String tbname)
+    '''returns String\n\n
+    getNativePartition(final String tbname)\n
     '''
 def spaceIsActive():
-    '''public boolean spaceIsActive(final String spaceName)
+    '''returns boolean\n\n
+    spaceIsActive(final String spaceName)\n
     '''
 def spaceIsSysManaged():
-    '''public boolean spaceIsSysManaged(final String spaceName)
+    '''returns boolean\n\n
+    spaceIsSysManaged(final String spaceName)\n
     '''
 def bytesSpaceNeeded():
-    '''public int bytesSpaceNeeded(final String spaceName)
+    '''returns int\n\n
+    bytesSpaceNeeded(final String spaceName)\n
     '''
 def spaceNeeded():
-    '''public Object[] spaceNeeded(final String spaceName)
+    '''returns Object[]\n\n
+    spaceNeeded(final String spaceName)\n
     '''
 def makeSpace():
-    '''public ArrayList<String> makeSpace(final String spaceName, final int numBytes)
-    public ArrayList<String> makeSpace(final String spaceName, final int numBytes, final String multiplier)
+    '''returns ArrayList<String>\n\n
+    makeSpace(final String spaceName, final int numBytes)\n
+    makeSpace(final String spaceName, final int numBytes, final String multiplier)\n
     '''
 def spaceCheckForDBConfig():
-    '''public String[] spaceCheckForDBConfig()
+    '''returns String[]\n\n
+    spaceCheckForDBConfig()\n
     '''
 def getStorageClause():
-    '''public String getStorageClause(final String name, final boolean isTable)
+    '''returns String\n\n
+    getStorageClause(final String name, final boolean isTable)\n
     '''
 def adjustNativeSql():
-    '''public String adjustNativeSql(final String origSql)
+    '''returns String\n\n
+    adjustNativeSql(final String origSql)\n
     '''
 def getMaxType():
-    '''public String getMaxType(final String nativeType)
+    '''returns String\n\n
+    getMaxType(final String nativeType)\n
     '''
 def getDefaultStoragePartition():
-    '''public String getDefaultStoragePartition(final boolean checkValuelist)
+    '''returns String\n\n
+    getDefaultStoragePartition(final boolean checkValuelist)\n
     '''
 def getDBStoragePartitions():
-    '''public ArrayList<String> getDBStoragePartitions()
+    '''returns ArrayList<String>\n\n
+    getDBStoragePartitions()\n
     '''
 def nativeSpaceExists():
-    '''public boolean nativeSpaceExists(final String name)
+    '''returns boolean\n\n
+    nativeSpaceExists(final String name)\n
     '''
 def needLength():
-    '''public boolean needLength(String maxtype, String nativeType)
+    '''returns boolean\n\n
+    needLength(String maxtype, String nativeType)\n
     '''
 def needScale():
-    '''public boolean needScale(String maxtype, String nativeType)
+    '''returns boolean\n\n
+    needScale(String maxtype, String nativeType)\n
     '''
 def reEvaluateObjectChanged():
-    '''public String reEvaluateObjectChanged(final HashMap newObject, final HashMap oldObject, final boolean useAttrChanged, final String upgradeDir)
-    public String reEvaluateObjectChanged(final HashMap newObject, final HashMap oldObject, final boolean useAttrChanged, final String upgradeDir, String langcode)
+    '''returns String\n\n
+    reEvaluateObjectChanged(final HashMap newObject, final HashMap oldObject, final boolean useAttrChanged, final String upgradeDir)\n
+    reEvaluateObjectChanged(final HashMap newObject, final HashMap oldObject, final boolean useAttrChanged, final String upgradeDir, String langcode)\n
     '''
 def reEvaluateObjectChangedQuickGL():
-    '''public String reEvaluateObjectChangedQuickGL(final String entityname, final boolean isView, final HashMap attrs, final boolean persistent, final String origChanged)
+    '''returns String\n\n
+    reEvaluateObjectChangedQuickGL(final String entityname, final boolean isView, final HashMap attrs, final boolean persistent, final String origChanged)\n
     '''
 def reEvaluateAttributeChangedQuickGL():
-    '''public String reEvaluateAttributeChangedQuickGL(final String entityname, final String columnname, final boolean isView, final int oldLength, final int newLength, final boolean persistent, final String origChanged)
+    '''returns String\n\n
+    reEvaluateAttributeChangedQuickGL(final String entityname, final String columnname, final boolean isView, final int oldLength, final int newLength, final boolean persistent, final String origChanged)\n
     '''
 def reEvaluateAttributeChanged():
-    '''public String reEvaluateAttributeChanged(final String entityname, final HashMap newAttr, final HashMap oldAttr, final String upgradeDir, final boolean isView)
+    '''returns String\n\n
+    reEvaluateAttributeChanged(final String entityname, final HashMap newAttr, final HashMap oldAttr, final String upgradeDir, final boolean isView)\n
     '''
 def reEvaluateTableAttributeChanged():
-    '''public String reEvaluateTableAttributeChanged(final String tablename, final HashMap newAttr, final HashMap oldAttr, final String upgradeDir)
+    '''returns String\n\n
+    reEvaluateTableAttributeChanged(final String tablename, final HashMap newAttr, final HashMap oldAttr, final String upgradeDir)\n
     '''
 def reEvaluateViewAttributeChanged():
-    '''public String reEvaluateViewAttributeChanged(final String viewname, final HashMap newAttr, final HashMap oldAttr, final String upgradeDir)
+    '''returns String\n\n
+    reEvaluateViewAttributeChanged(final String viewname, final HashMap newAttr, final HashMap oldAttr, final String upgradeDir)\n
     '''
 def canAlterTable():
-    '''public boolean canAlterTable(final String tablename, final HashMap newAttr, final HashMap oldAttr, final String upgradeDir)
+    '''returns boolean\n\n
+    canAlterTable(final String tablename, final HashMap newAttr, final HashMap oldAttr, final String upgradeDir)\n
     '''
 def canAlterForLengthChange():
-    '''public boolean canAlterForLengthChange(final String tablename, final String columnname, final int oldLength, final int newLength)
+    '''returns boolean\n\n
+    canAlterForLengthChange(final String tablename, final String columnname, final int oldLength, final int newLength)\n
     '''
 def upgradeDefaultExists():
-    '''public boolean upgradeDefaultExists(String tbname, String name, final String upgradeDir)
+    '''returns boolean\n\n
+    upgradeDefaultExists(String tbname, String name, final String upgradeDir)\n
     '''
 def implicitConversionSupported():
-    '''public boolean implicitConversionSupported(String newType, String oldType)
+    '''returns boolean\n\n
+    implicitConversionSupported(String newType, String oldType)\n
     '''
 def explicitConversionSupported():
-    '''public boolean explicitConversionSupported(String newType, String oldType)
+    '''returns boolean\n\n
+    explicitConversionSupported(String newType, String oldType)\n
     '''
 def tableIsEmpty():
-    '''public boolean tableIsEmpty(final String tbname)
+    '''returns boolean\n\n
+    tableIsEmpty(final String tbname)\n
     '''
 def columnIsEmpty():
-    '''public boolean columnIsEmpty(final String tbname, final String name)
+    '''returns boolean\n\n
+    columnIsEmpty(final String tbname, final String name)\n
     '''
 def nullValueExists():
-    '''public boolean nullValueExists(final String tbname, final String name)
+    '''returns boolean\n\n
+    nullValueExists(final String tbname, final String name)\n
     '''
 def getMaxColumnLength():
-    '''public int getMaxColumnLength(final String tbname, final String name)
+    '''returns int\n\n
+    getMaxColumnLength(final String tbname, final String name)\n
     '''
 def getMaxColno():
-    '''public int getMaxColno(final String objectname, final boolean getCfg, final String where)
+    '''returns int\n\n
+    getMaxColno(final String objectname, final boolean getCfg, final String where)\n
     '''
 def getMaxLengthColumnInIndex():
-    '''public int getMaxLengthColumnInIndex()
+    '''returns int\n\n
+    getMaxLengthColumnInIndex()\n
     '''
 def getMaxLengthIndex():
-    '''public int getMaxLengthIndex()
+    '''returns int\n\n
+    getMaxLengthIndex()\n
     '''
 def getMaxVarcharLength():
-    '''public int getMaxVarcharLength()
+    '''returns int\n\n
+    getMaxVarcharLength()\n
     '''
 def setVarcharMultiple():
-    '''public void setVarcharMultiple(final int val)
+    '''returns None\n\n
+    setVarcharMultiple(final int val)\n
     '''
 def getVarcharMultiple():
-    '''public int getVarcharMultiple()
+    '''returns int\n\n
+    getVarcharMultiple()\n
     '''
 def setVargraphic():
-    '''public void setVargraphic(final boolean val)
+    '''returns None\n\n
+    setVargraphic(final boolean val)\n
     '''
 def useVargraphic():
-    '''public boolean useVargraphic()
+    '''returns boolean\n\n
+    useVargraphic()\n
     '''
 def getInternalSiteOrgType():
-    '''public String getInternalSiteOrgType(final String externalSiteOrgType)
+    '''returns String\n\n
+    getInternalSiteOrgType(final String externalSiteOrgType)\n
     '''
 def getInternalSearchType():
-    '''public String getInternalSearchType(final String externalSearchType)
+    '''returns String\n\n
+    getInternalSearchType(final String externalSearchType)\n
     '''
 def isLocAllowed():
-    '''public boolean isLocAllowed(final String objectName, final String attributeName, final HashMap attrInfo, final HashMap sameasAtrInfo)
+    '''returns boolean\n\n
+    isLocAllowed(final String objectName, final String attributeName, final HashMap attrInfo, final HashMap sameasAtrInfo)\n
     '''
 def getLocDefault():
-    '''public boolean getLocDefault(final String objectName, final String attributeName, final HashMap attrInfo, final HashMap sameasAttrInfo)
+    '''returns boolean\n\n
+    getLocDefault(final String objectName, final String attributeName, final HashMap attrInfo, final HashMap sameasAttrInfo)\n
     '''
 def nameInList():
-    '''public boolean nameInList(final String name, final String list)
+    '''returns boolean\n\n
+    nameInList(final String name, final String list)\n
     '''
 def selectString():
-    '''public String selectString(final String sql)
+    '''returns String\n\n
+    selectString(final String sql)\n
     '''
 def rowFound():
-    '''public boolean rowFound(final String sql)
-    '''
-def changeTreeKey():
-    '''public TreeMap<String, HashMap<String, String>> changeTreeKey(final TreeMap<String, HashMap<String, String>> oldMap, final String keyAttr)
+    '''returns boolean\n\n
+    rowFound(final String sql)\n
     '''
 def setConnection():
-    '''public void setConnection(final Connection connection)
+    '''returns None\n\n
+    setConnection(final Connection connection)\n
     '''
 def setPrintStream():
-    '''public void setPrintStream(final PrintStream outstream)
+    '''returns None\n\n
+    setPrintStream(final PrintStream outstream)\n
     '''
 def setDB2tsPreferSysproc():
-    '''public void setDB2tsPreferSysproc(final boolean val)
+    '''returns None\n\n
+    setDB2tsPreferSysproc(final boolean val)\n
     '''
 def setDBOut():
-    '''public void setDBOut(final int platform)
+    '''returns None\n\n
+    setDBOut(final int platform)\n
     '''
 def mxServerIsUp():
-    '''public boolean mxServerIsUp(final String serverName)
+    '''returns boolean\n\n
+    mxServerIsUp(final String serverName)\n
     '''
 def configInProcess():
-    '''public boolean configInProcess()
+    '''returns boolean\n\n
+    configInProcess()\n
     '''
 def setConfigInProcess():
-    '''public String setConfigInProcess(final boolean inProcess)
+    '''returns String\n\n
+    setConfigInProcess(final boolean inProcess)\n
     '''
 def createStatement():
-    '''public Statement createStatement()
+    '''returns Statement\n\n
+    createStatement()\n
     '''
 def prepareStatement():
-    '''public PreparedStatement prepareStatement(final String sql)
+    '''returns PreparedStatement\n\n
+    prepareStatement(final String sql)\n
     '''
 def getNextSequenceValueForSqlServer():
-    '''public String getNextSequenceValueForSqlServer(final String seqName)
+    '''returns String\n\n
+    getNextSequenceValueForSqlServer(final String seqName)\n
     '''
 def updateDMSource():
-    '''public List<String> updateDMSource()
+    '''returns List<String>\n\n
+    updateDMSource()\n
     '''
 def getDatabaseName():
-    '''public String getDatabaseName()
+    '''returns String\n\n
+    getDatabaseName()\n
     '''
 def getSchemaName():
-    '''public String getSchemaName()
+    '''returns String\n\n
+    getSchemaName()\n
     '''
 def getDBHostName():
-    '''public String getDBHostName()
-    '''
-def getFileText():
-    '''public static String getFileText(final InputStream fileStrm)
+    '''returns String\n\n
+    getDBHostName()\n
     '''
 def enableForMultiTenancy():
-    '''public ArrayList<String> enableForMultiTenancy(final String tabName, final String uniqueName, final String userName, final String adminUser, final MTStorageType storageType)
+    '''returns ArrayList<String>\n\n
+    enableForMultiTenancy(final String tabName, final String uniqueName, final String userName, final String adminUser, final MTStorageType storageType)\n
     '''
 def addTenantidToTable():
-    '''public ArrayList<String> addTenantidToTable(final String tabName, final MTStorageType storageType)
+    '''returns ArrayList<String>\n\n
+    addTenantidToTable(final String tabName, final MTStorageType storageType)\n
     '''
 def changeStorageType():
-    '''public ArrayList<String> changeStorageType(final String tabName, final String uniqueName, final MTStorageType oldType, final MTStorageType newType, final String userName, final String adminUser, final boolean isInternal)
+    '''returns ArrayList<String>\n\n
+    changeStorageType(final String tabName, final String uniqueName, final MTStorageType oldType, final MTStorageType newType, final String userName, final String adminUser, final boolean isInternal)\n
     '''
 def disableMTPermission():
-    '''public ArrayList<String> disableMTPermission(final String tabName, final MTStorageType storageType)
+    '''returns ArrayList<String>\n\n
+    disableMTPermission(final String tabName, final MTStorageType storageType)\n
     '''
 def createPermission():
-    '''public List<String> createPermission(final String tabName, final String uniqueName, final String newTenantUser, final String landlordUser, final MTStorageType type)
-    public List<String> createPermission(String tabName, final String uniqueName, final String newTenantUser, final String landlordUser, MTStorageType type, final boolean addProcessUser)
+    '''returns List<String>\n\n
+    createPermission(final String tabName, final String uniqueName, final String newTenantUser, final String landlordUser, final MTStorageType type)\n
+    createPermission(String tabName, final String uniqueName, final String newTenantUser, final String landlordUser, MTStorageType type, final boolean addProcessUser)\n
     '''
 def rebuildProcessUserVariable():
-    '''public List<String> rebuildProcessUserVariable(final String adminUser)
+    '''returns List<String>\n\n
+    rebuildProcessUserVariable(final String adminUser)\n
     '''
 def rebuildPermissions():
-    '''public void rebuildPermissions(final String processUser)
+    '''returns None\n\n
+    rebuildPermissions(final String processUser)\n
     '''
 def createTenantidTriggeres():
-    '''public List<String> createTenantidTriggeres(String tbname, final MTStorageType storageType, final boolean secureRowlevelTriggers, final boolean dropInsert, final boolean dropUpdateDelete, final boolean createDeltaTriggers)
+    '''returns List<String>\n\n
+    createTenantidTriggeres(String tbname, final MTStorageType storageType, final boolean secureRowlevelTriggers, final boolean dropInsert, final boolean dropUpdateDelete, final boolean createDeltaTriggers)\n
     '''
 def dropDeltaTriggers():
-    '''public ArrayList<String> dropDeltaTriggers()
+    '''returns ArrayList<String>\n\n
+    dropDeltaTriggers()\n
     '''
 def getDeltaTriggerSql():
-    '''public List<String> getDeltaTriggerSql(final String tbname)
-    '''
-def getSequences():
-    '''public HashMap<String, String> getSequences(final String tableName)
+    '''returns List<String>\n\n
+    getDeltaTriggerSql(final String tbname)\n
     '''
 def registerTableFromTemplate():
-    '''public List<String> registerTableFromTemplate(final String tbname, TreeMap tableCols, final String whereClause)
+    '''returns List<String>\n\n
+    registerTableFromTemplate(final String tbname, TreeMap tableCols, final String whereClause)\n
     '''
 def getColumnNamesForExtendedView():
-    '''public String[] getColumnNamesForExtendedView(final TreeMap tableCols, final String tableName, final Map<String, Map<String, String>> extendedTables, final String uniqueColumnName, final String isView, final boolean mtEnabled)
+    '''returns String[]\n\n
+    getColumnNamesForExtendedView(final TreeMap tableCols, final String tableName, final Map<String, Map<String, String>> extendedTables, final String uniqueColumnName, final String isView, final boolean mtEnabled)\n
     '''
 def getExtendedUniqueColumnForView():
-    '''public String getExtendedUniqueColumnForView(final String viewName, final String extTableName)
+    '''returns String\n\n
+    getExtendedUniqueColumnForView(final String viewName, final String extTableName)\n
     '''
 def isMTEnabled():
-    '''public boolean isMTEnabled()
+    '''returns boolean\n\n
+    isMTEnabled()\n
     '''
 def getUserFromProperties():
-    '''public String getUserFromProperties(final boolean getLandlordUser)
-    '''
-def getTenantExtAttributes():
-    '''public Map<String, Map<String, Map<String, String>>> getTenantExtAttributes(final Connection conn, final String objectName, final int tenantId)
+    '''returns String\n\n
+    getUserFromProperties(final boolean getLandlordUser)\n
     '''
 def updateViewMetaDataForExtendedAttr():
-    '''public ArrayList<String> updateViewMetaDataForExtendedAttr(final Connection conn, final String objectName, final String viewName, final Map<String, Map<String, String>> extAttr, final int tenantId)
+    '''returns ArrayList<String>\n\n
+    updateViewMetaDataForExtendedAttr(final Connection conn, final String objectName, final String viewName, final Map<String, Map<String, String>> extAttr, final int tenantId)\n
     '''
 def createExtensionView():
-    '''public List<String> createExtensionView(final String objectName, final Map<String, Map<String, String>> extendedTables, final Connection masterCon, final int tenantId, final boolean deleteOnly, final boolean mtEnabled)
+    '''returns List<String>\n\n
+    createExtensionView(final String objectName, final Map<String, Map<String, String>> extendedTables, final Connection masterCon, final int tenantId, final boolean deleteOnly, final boolean mtEnabled)\n
     '''
 def storeChangedAttributes():
-    '''public void storeChangedAttributes(final HashMap<String, HashMap<String, HashMap<String, String[]>>> changedObjects, final TreeMap<String, HashMap<String, String>> attrs, final String objectname)
+    '''returns None\n\n
+    storeChangedAttributes(final HashMap<String, HashMap<String, HashMap<String, String[]>>> changedObjects, final TreeMap<String, HashMap<String, String>> attrs, final String objectname)\n
     '''
 def renumberExtendedAttributes():
-    '''public ArrayList<String> renumberExtendedAttributes(final int tenantId, final Map<String, Integer> lastNumbers, ArrayList<String> list)
+    '''returns ArrayList<String>\n\n
+    renumberExtendedAttributes(final int tenantId, final Map<String, Integer> lastNumbers, ArrayList<String> list)\n
     '''
 def getUpdateTenantDelta():
-    '''public ArrayList getUpdateTenantDelta(final HashMap<String, HashMap<String, HashMap<String, String[]>>> changedObjects, final int tenantId, final TreeMap<String, HashMap<String, String>> cfgAttrs, final Vector<String[]> skipList)
+    '''returns ArrayList\n\n
+    getUpdateTenantDelta(final HashMap<String, HashMap<String, HashMap<String, String[]>>> changedObjects, final int tenantId, final TreeMap<String, HashMap<String, String>> cfgAttrs, final Vector<String[]> skipList)\n
     '''
 def getNextAttrNo():
-    '''public int getNextAttrNo(final String tablename)
+    '''returns int\n\n
+    getNextAttrNo(final String tablename)\n
     '''
 def getTenantCodeMetadata():
-    '''public ArrayList<String> getTenantCodeMetadata()
+    '''returns ArrayList<String>\n\n
+    getTenantCodeMetadata()\n
     '''
 def addTenantid():
-    '''public List<String> addTenantid(final String tablename, final String uniqueColumnName, final MTStorageType storageType)
+    '''returns List<String>\n\n
+    addTenantid(final String tablename, final String uniqueColumnName, final MTStorageType storageType)\n
     '''
 def reorgBeforeDB2TSUpdate():
-    '''public void reorgBeforeDB2TSUpdate()
+    '''returns None\n\n
+    reorgBeforeDB2TSUpdate()\n
     '''

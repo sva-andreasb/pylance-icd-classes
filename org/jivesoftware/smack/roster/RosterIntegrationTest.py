@@ -1,21 +1,20 @@
-def RosterIntegrationTest():
-    '''public RosterIntegrationTest(final SmackIntegrationTestEnvironment environment)
+def ():
+    '''returns RosterIntegrationTest\n\n
+    (final SmackIntegrationTestEnvironment environment)\n
     '''
 def subscribeRequestListenerTest():
-    '''public void subscribeRequestListenerTest()
+    '''returns None\n\n
+    subscribeRequestListenerTest()\n
     '''
 def entriesAdded():
-    '''public void entriesAdded(final Collection<Jid> addresses)
+    '''returns None\n\n
+    entriesAdded(final Collection<Jid> addresses)\n
     '''
 def entriesUpdated():
-    '''public void entriesUpdated(final Collection<Jid> addresses)
-    '''
-def ensureBothAccountsAreNotInEachOthersRoster():
-    '''public static void ensureBothAccountsAreNotInEachOthersRoster(final XMPPConnection conOne, final XMPPConnection conTwo)
-    '''
-def ensureBothAccountsAreSubscribedToEachOther():
-    '''public static void ensureBothAccountsAreSubscribedToEachOther(final XMPPConnection conOne, final XMPPConnection conTwo, final long timeout)
+    '''returns None\n\n
+    entriesUpdated(final Collection<Jid> addresses)\n
     '''
 def presenceSubscribed():
-    '''public void presenceSubscribed(final BareJid address, final Presence subscribedPresence)
+    '''returns None\n\n
+    presenceSubscribed(final BareJid address, final Presence subscribedPresence)\n
     '''

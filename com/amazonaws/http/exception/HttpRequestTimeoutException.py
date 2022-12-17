@@ -1,5 +1,6 @@
-def HttpRequestTimeoutException():
-    '''public HttpRequestTimeoutException(final String message)
-    public HttpRequestTimeoutException(final Throwable throwable)
-    public HttpRequestTimeoutException(final String message, final Throwable throwable)
+def ():
+    '''returns HttpRequestTimeoutException\n\n
+    (final String message)\n
+    (final Throwable throwable)\n
+    (final String message, final Throwable throwable)\n
     '''

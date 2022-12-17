@@ -1,17 +1,17 @@
-def getInstance():
-    '''public static DERUTCTime getInstance(final Object obj)
-    public static DERUTCTime getInstance(final ASN1TaggedObject obj, final boolean explicit)
-    '''
-def DERUTCTime():
-    '''public DERUTCTime(final String time)
-    public DERUTCTime(final Date time)
+def ():
+    '''returns DERUTCTime\n\n
+    (final String time)\n
+    (final Date time)\n
     '''
 def getTime():
-    '''public String getTime()
+    '''returns String\n\n
+    getTime()\n
     '''
 def getAdjustedTime():
-    '''public String getAdjustedTime()
+    '''returns String\n\n
+    getAdjustedTime()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

@@ -1,73 +1,97 @@
-def PlusCAssetTemplate():
-    '''public PlusCAssetTemplate(final MboSet ms)
+def ():
+    '''returns PlusCAssetTemplate\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def generateAssetSpec():
-    '''public MboSetRemote generateAssetSpec()
+    '''returns MboSetRemote\n\n
+    generateAssetSpec()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def initializeDepPeriodsFields():
-    '''public void initializeDepPeriodsFields()
+    '''returns None\n\n
+    initializeDepPeriodsFields()\n
     '''
 def getSpec():
-    '''public MboSetRemote getSpec()
+    '''returns MboSetRemote\n\n
+    getSpec()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def setCopyDefaults():
-    '''public void setCopyDefaults()
+    '''returns None\n\n
+    setCopyDefaults()\n
     '''
 def warrantyAuthorizedForSite():
-    '''public boolean warrantyAuthorizedForSite(final MboRemote warranty, final String siteID)
+    '''returns boolean\n\n
+    warrantyAuthorizedForSite(final MboRemote warranty, final String siteID)\n
     '''
 def thereAreAuthorizedWarranties():
-    '''public boolean thereAreAuthorizedWarranties(final String siteID)
+    '''returns boolean\n\n
+    thereAreAuthorizedWarranties(final String siteID)\n
     '''
 def isDuplicate():
-    '''public boolean isDuplicate()
+    '''returns boolean\n\n
+    isDuplicate()\n
     '''
 def setDuplicate():
-    '''public void setDuplicate(final boolean duplicate)
+    '''returns None\n\n
+    setDuplicate(final boolean duplicate)\n
     '''
 def getAssetTemplateMboSetInfo():
-    '''public MboSetInfo getAssetTemplateMboSetInfo()
+    '''returns MboSetInfo\n\n
+    getAssetTemplateMboSetInfo()\n
     '''
 def setReadOnlyFields():
-    '''public void setReadOnlyFields()
+    '''returns None\n\n
+    setReadOnlyFields()\n
     '''
 def updateDesc():
-    '''public void updateDesc()
+    '''returns None\n\n
+    updateDesc()\n
     '''
 def generateDescription():
-    '''public String generateDescription(final ClassStructureRemote classMbo, final PlusCATSpecSet specSet)
+    '''returns String\n\n
+    generateDescription(final ClassStructureRemote classMbo, final PlusCATSpecSet specSet)\n
     '''
 def getDescDelimiter():
-    '''public String getDescDelimiter(final boolean isForClassDesc)
-    public String getDescDelimiter()
+    '''returns String\n\n
+    getDescDelimiter(final boolean isForClassDesc)\n
+    getDescDelimiter()\n
     '''
 def sortedClassSpecSet():
-    '''public Vector sortedClassSpecSet(final MboSetRemote classSpecSet)
+    '''returns Vector\n\n
+    sortedClassSpecSet(final MboSetRemote classSpecSet)\n
     '''
 def createNewDepreciation():
-    '''public MboRemote createNewDepreciation()
+    '''returns MboRemote\n\n
+    createNewDepreciation()\n
     '''

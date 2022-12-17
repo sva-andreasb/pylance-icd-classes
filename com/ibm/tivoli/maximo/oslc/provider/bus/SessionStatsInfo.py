@@ -1,7 +1,9 @@
 APP_NAME = "String  \"maximo\""
-def SessionStatsInfo():
-    '''public SessionStatsInfo(final BusResourceInfo resInfo, final String contextURI)
+def ():
+    '''returns SessionStatsInfo\n\n
+    (final BusResourceInfo resInfo, final String contextURI)\n
     '''
 def handleRequest():
-    '''public BusResource handleRequest(final ResourceContext resCtx, final BusRequest request)
+    '''returns BusResource\n\n
+    handleRequest(final ResourceContext resCtx, final BusRequest request)\n
     '''

@@ -1,6 +1,8 @@
-def FldChartOfAcctDate():
-    '''public FldChartOfAcctDate(final MboValue mbv)
+def ():
+    '''returns FldChartOfAcctDate\n\n
+    (final MboValue mbv)\n
     '''
 def setActiveFlag():
-    '''public void setActiveFlag(final Date activeDate, final Date expireDate)
+    '''returns None\n\n
+    setActiveFlag(final Date activeDate, final Date expireDate)\n
     '''

@@ -1,3 +1,4 @@
-def MaxDomainLinkSet():
-    '''public MaxDomainLinkSet(final MboServerInterface ms)
+def ():
+    '''returns MaxDomainLinkSet\n\n
+    (final MboServerInterface ms)\n
     '''

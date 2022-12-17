@@ -1,4 +1,5 @@
-def StringInputStream():
-    '''public StringInputStream(final String source)
-    public StringInputStream(final String source, final String encoding)
+def ():
+    '''returns StringInputStream\n\n
+    (final String source)\n
+    (final String source, final String encoding)\n
     '''

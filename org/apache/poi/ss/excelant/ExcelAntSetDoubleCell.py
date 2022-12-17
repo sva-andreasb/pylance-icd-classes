@@ -1,9 +1,12 @@
 def setValue():
-    '''public void setValue(final double value)
+    '''returns None\n\n
+    setValue(final double value)\n
     '''
 def getCellValue():
-    '''public double getCellValue()
+    '''returns double\n\n
+    getCellValue()\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''

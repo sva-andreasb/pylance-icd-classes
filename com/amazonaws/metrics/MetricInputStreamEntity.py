@@ -1,7 +1,9 @@
-def MetricInputStreamEntity():
-    '''public MetricInputStreamEntity(final ThroughputMetricType metricType, final InputStream instream, final long length)
-    public MetricInputStreamEntity(final ThroughputMetricType metricType, final InputStream instream, final long length, final ContentType contentType)
+def ():
+    '''returns MetricInputStreamEntity\n\n
+    (final ThroughputMetricType metricType, final InputStream instream, final long length)\n
+    (final ThroughputMetricType metricType, final InputStream instream, final long length, final ContentType contentType)\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream outstream)
+    '''returns None\n\n
+    writeTo(final OutputStream outstream)\n
     '''

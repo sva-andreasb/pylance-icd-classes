@@ -1,34 +1,45 @@
-def DefaultFilterExpr():
-    '''public DefaultFilterExpr(final PredicateSet predicateSet)
-    public DefaultFilterExpr(final Expr expr, final PredicateSet predicateSet)
+def ():
+    '''returns DefaultFilterExpr\n\n
+    (final PredicateSet predicateSet)\n
+    (final Expr expr, final PredicateSet predicateSet)\n
     '''
 def addPredicate():
-    '''public void addPredicate(final Predicate predicate)
+    '''returns None\n\n
+    addPredicate(final Predicate predicate)\n
     '''
 def getPredicates():
-    '''public List getPredicates()
+    '''returns List\n\n
+    getPredicates()\n
     '''
 def getPredicateSet():
-    '''public PredicateSet getPredicateSet()
+    '''returns PredicateSet\n\n
+    getPredicateSet()\n
     '''
 def getExpr():
-    '''public Expr getExpr()
+    '''returns Expr\n\n
+    getExpr()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def simplify():
-    '''public Expr simplify()
+    '''returns Expr\n\n
+    simplify()\n
     '''
 def asBoolean():
-    '''public boolean asBoolean(final Context context)
+    '''returns boolean\n\n
+    asBoolean(final Context context)\n
     '''
 def evaluate():
-    '''public Object evaluate(final Context context)
+    '''returns Object\n\n
+    evaluate(final Context context)\n
     '''
 def accept():
-    '''public void accept(final Visitor visitor)
+    '''returns None\n\n
+    accept(final Visitor visitor)\n
     '''

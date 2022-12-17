@@ -1,6 +1,8 @@
-def MergeActionListener():
-    '''public MergeActionListener(final IlvReservation reservation, final MXActivity parentActivity)
+def ():
+    '''returns MergeActionListener\n\n
+    (final IlvReservation reservation, final MXActivity parentActivity)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''

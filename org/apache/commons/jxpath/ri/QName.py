@@ -1,19 +1,25 @@
-def QName():
-    '''public QName(final String qualifiedName)
-    public QName(final String prefix, final String localName)
+def ():
+    '''returns QName\n\n
+    (final String qualifiedName)\n
+    (final String prefix, final String localName)\n
     '''
 def getPrefix():
-    '''public String getPrefix()
+    '''returns String\n\n
+    getPrefix()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''

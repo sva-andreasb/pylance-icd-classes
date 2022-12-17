@@ -1,9 +1,12 @@
-def XSLFCommonSlideData():
-    '''public XSLFCommonSlideData(final CTCommonSlideData data)
+def ():
+    '''returns XSLFCommonSlideData\n\n
+    (final CTCommonSlideData data)\n
     '''
 def getDrawingText():
-    '''public List<DrawingTextBody> getDrawingText()
+    '''returns List<DrawingTextBody>\n\n
+    getDrawingText()\n
     '''
 def getText():
-    '''public List<DrawingParagraph> getText()
+    '''returns List<DrawingParagraph>\n\n
+    getText()\n
     '''

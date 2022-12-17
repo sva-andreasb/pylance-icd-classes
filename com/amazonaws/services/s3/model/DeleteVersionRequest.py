@@ -1,40 +1,53 @@
-def DeleteVersionRequest():
-    '''public DeleteVersionRequest(final String bucketName, final String key, final String versionId)
-    public DeleteVersionRequest(final String bucketName, final String key, final String versionId, final MultiFactorAuthentication mfa)
+def ():
+    '''returns DeleteVersionRequest\n\n
+    (final String bucketName, final String key, final String versionId)\n
+    (final String bucketName, final String key, final String versionId, final MultiFactorAuthentication mfa)\n
     '''
 def getBucketName():
-    '''public String getBucketName()
+    '''returns String\n\n
+    getBucketName()\n
     '''
 def setBucketName():
-    '''public void setBucketName(final String bucketName)
+    '''returns None\n\n
+    setBucketName(final String bucketName)\n
     '''
 def withBucketName():
-    '''public DeleteVersionRequest withBucketName(final String bucketName)
+    '''returns DeleteVersionRequest\n\n
+    withBucketName(final String bucketName)\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def setKey():
-    '''public void setKey(final String key)
+    '''returns None\n\n
+    setKey(final String key)\n
     '''
 def withKey():
-    '''public DeleteVersionRequest withKey(final String key)
+    '''returns DeleteVersionRequest\n\n
+    withKey(final String key)\n
     '''
 def getVersionId():
-    '''public String getVersionId()
+    '''returns String\n\n
+    getVersionId()\n
     '''
 def setVersionId():
-    '''public void setVersionId(final String versionId)
+    '''returns None\n\n
+    setVersionId(final String versionId)\n
     '''
 def withVersionId():
-    '''public DeleteVersionRequest withVersionId(final String versionId)
+    '''returns DeleteVersionRequest\n\n
+    withVersionId(final String versionId)\n
     '''
 def getMfa():
-    '''public MultiFactorAuthentication getMfa()
+    '''returns MultiFactorAuthentication\n\n
+    getMfa()\n
     '''
 def setMfa():
-    '''public void setMfa(final MultiFactorAuthentication mfa)
+    '''returns None\n\n
+    setMfa(final MultiFactorAuthentication mfa)\n
     '''
 def withMfa():
-    '''public DeleteVersionRequest withMfa(final MultiFactorAuthentication mfa)
+    '''returns DeleteVersionRequest\n\n
+    withMfa(final MultiFactorAuthentication mfa)\n
     '''

@@ -1,4 +1,5 @@
-def ClosedConnectionException():
-    '''public ClosedConnectionException()
-    public ClosedConnectionException(final String message)
+def ():
+    '''returns ClosedConnectionException\n\n
+    ()\n
+    (final String message)\n
     '''

@@ -1,72 +1,89 @@
-def ServerMboAdapter():
-    '''public ServerMboAdapter(final Mbo mbo)
+def ():
+    '''returns ServerMboAdapter\n\n
+    (final Mbo mbo)\n
     '''
 def getMbo():
-    '''public Mbo getMbo()
+    '''returns Mbo\n\n
+    getMbo()\n
     '''
 def getMboSet():
-    '''public MboSetAdapter getMboSet(final String relationshipName)
+    '''returns MboSetAdapter\n\n
+    getMboSet(final String relationshipName)\n
     '''
 def getThisMboSet():
-    '''public MboSetAdapter getThisMboSet()
+    '''returns MboSetAdapter\n\n
+    getThisMboSet()\n
     '''
 def setValue():
-    '''public void setValue(final String attributeName, final String value)
-    public void setValue(final String attributeName, final String value, final long flags)
-    public void setValue(final String attributeName, final boolean value)
-    public void setValue(final String attributeName, final boolean value, final long flags)
-    public void setValue(final String attributeName, final int value)
-    public void setValue(final String attributeName, final int value, final long flags)
-    public void setValue(final String attributeName, final Date value)
-    public void setValue(final String attributeName, final Date value, final long flags)
+    '''returns None\n\n
+    setValue(final String attributeName, final String value)\n
+    setValue(final String attributeName, final String value, final long flags)\n
+    setValue(final String attributeName, final boolean value)\n
+    setValue(final String attributeName, final boolean value, final long flags)\n
+    setValue(final String attributeName, final int value)\n
+    setValue(final String attributeName, final int value, final long flags)\n
+    setValue(final String attributeName, final Date value)\n
+    setValue(final String attributeName, final Date value, final long flags)\n
     '''
 def setValueIfDifferent():
-    '''public void setValueIfDifferent(final String attributeName, final boolean value)
-    public void setValueIfDifferent(final String attributeName, final boolean value, final long flags)
+    '''returns None\n\n
+    setValueIfDifferent(final String attributeName, final boolean value)\n
+    setValueIfDifferent(final String attributeName, final boolean value, final long flags)\n
     '''
 def getString():
-    '''public String getString(final String attributeName)
+    '''returns String\n\n
+    getString(final String attributeName)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final String attributeName)
+    '''returns boolean\n\n
+    getBoolean(final String attributeName)\n
     '''
 def getInt():
-    '''public int getInt(final String attributeName)
+    '''returns int\n\n
+    getInt(final String attributeName)\n
     '''
 def getDate():
-    '''public Date getDate(final String attributeName)
+    '''returns Date\n\n
+    getDate(final String attributeName)\n
     '''
 def isNull():
-    '''public boolean isNull(final String attributeName)
+    '''returns boolean\n\n
+    isNull(final String attributeName)\n
     '''
 def isReadOnly():
-    '''public boolean isReadOnly(final String attributeName)
+    '''returns boolean\n\n
+    isReadOnly(final String attributeName)\n
     '''
 def setReadOnly():
-    '''public void setReadOnly(final String attributeName, final boolean readOnly)
+    '''returns None\n\n
+    setReadOnly(final String attributeName, final boolean readOnly)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getOwner():
-    '''public MboAdapter getOwner()
+    '''returns MboAdapter\n\n
+    getOwner()\n
     '''
 def newApplicationException():
-    '''public Exception newApplicationException(final String group, final String key, final Object[] params)
-    public Exception newApplicationException(final String group, final String key)
+    '''returns Exception\n\n
+    newApplicationException(final String group, final String key, final Object[] params)\n
+    newApplicationException(final String group, final String key)\n
     '''
 def getMaxVarString():
-    '''public String getMaxVarString(final String maxvarName)
+    '''returns String\n\n
+    getMaxVarString(final String maxvarName)\n
     '''
 def getMaxVarInt():
-    '''public int getMaxVarInt(final String maxvarName)
+    '''returns int\n\n
+    getMaxVarInt(final String maxvarName)\n
     '''
 def getMaxVarBoolean():
-    '''public boolean getMaxVarBoolean(final String maxvarName)
+    '''returns boolean\n\n
+    getMaxVarBoolean(final String maxvarName)\n
     '''
 def toBeDeleted():
-    '''public boolean toBeDeleted()
-    '''
-def wrapException():
-    '''public static void wrapException(final Exception e)
+    '''returns boolean\n\n
+    toBeDeleted()\n
     '''

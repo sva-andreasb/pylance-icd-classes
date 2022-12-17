@@ -1,20 +1,21 @@
 TADDM = "int  1"
 OAL = "int  2"
-def ApiFactory():
-    '''public ApiFactory(final int type)
-    '''
-def getInstance():
-    '''public static synchronized ApiFactory getInstance()
+def ():
+    '''returns ApiFactory\n\n
+    (final int type)\n
     '''
 def getApiConnection():
-    '''public ApiConnection getApiConnection(final String host, final int port, final String trustStoreLocation, final boolean useSSL)
-    public ApiConnection getApiConnection()
+    '''returns ApiConnection\n\n
+    getApiConnection(final String host, final int port, final String trustStoreLocation, final boolean useSSL)\n
+    getApiConnection()\n
     '''
 def getSession():
-    '''public ApiSession getSession(final ApiConnection conn, final String user, final String password, final long version)
-    public ApiSession getSession(final ApiConnection conn, final long sessionId, final long version)
-    public ApiSession getSession(final ApiConnection conn, final Principal p, final long version)
+    '''returns ApiSession\n\n
+    getSession(final ApiConnection conn, final String user, final String password, final long version)\n
+    getSession(final ApiConnection conn, final long sessionId, final long version)\n
+    getSession(final ApiConnection conn, final Principal p, final long version)\n
     '''
 def postProcess():
-    '''public void postProcess()
+    '''returns None\n\n
+    postProcess()\n
     '''

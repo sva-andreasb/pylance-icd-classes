@@ -1,42 +1,44 @@
-def PNGChunk():
-    '''public PNGChunk(final int length, final int type, final byte[] data, final int crc)
+def ():
+    '''returns PNGChunk\n\n
+    (final int length, final int type, final byte[] data, final int crc)\n
     '''
 def getLength():
-    '''public int getLength()
+    '''returns int\n\n
+    getLength()\n
     '''
 def getType():
-    '''public int getType()
+    '''returns int\n\n
+    getType()\n
     '''
 def getTypeString():
-    '''public String getTypeString()
+    '''returns String\n\n
+    getTypeString()\n
     '''
 def getData():
-    '''public byte[] getData()
+    '''returns byte[]\n\n
+    getData()\n
     '''
 def getByte():
-    '''public byte getByte(final int offset)
+    '''returns byte\n\n
+    getByte(final int offset)\n
     '''
 def getInt1():
-    '''public int getInt1(final int offset)
+    '''returns int\n\n
+    getInt1(final int offset)\n
     '''
 def getInt2():
-    '''public int getInt2(final int offset)
+    '''returns int\n\n
+    getInt2(final int offset)\n
     '''
 def getInt4():
-    '''public int getInt4(final int offset)
+    '''returns int\n\n
+    getInt4(final int offset)\n
     '''
 def getString4():
-    '''public String getString4(final int offset)
+    '''returns String\n\n
+    getString4(final int offset)\n
     '''
 def isType():
-    '''public boolean isType(final String typeName)
-    '''
-def readChunk():
-    '''public static PNGChunk readChunk(final DataInputStream distream)
-    '''
-def getChunkType():
-    '''public static String getChunkType(final DataInputStream distream)
-    '''
-def skipChunk():
-    '''public static boolean skipChunk(final DataInputStream distream)
+    '''returns boolean\n\n
+    isType(final String typeName)\n
     '''

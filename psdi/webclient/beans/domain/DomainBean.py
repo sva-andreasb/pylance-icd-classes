@@ -1,30 +1,36 @@
 def properties():
-    '''public int properties()
+    '''returns int\n\n
+    properties()\n
     '''
 def addalndomain():
-    '''public int addalndomain()
+    '''returns int\n\n
+    addalndomain()\n
     '''
 def addnumericdomain():
-    '''public int addnumericdomain()
+    '''returns int\n\n
+    addnumericdomain()\n
     '''
 def addsynonymdomain():
-    '''public int addsynonymdomain()
+    '''returns int\n\n
+    addsynonymdomain()\n
     '''
 def addnumrangedomain():
-    '''public int addnumrangedomain()
+    '''returns int\n\n
+    addnumrangedomain()\n
     '''
 def addmaxtabledomain():
-    '''public int addmaxtabledomain()
+    '''returns int\n\n
+    addmaxtabledomain()\n
     '''
 def addcrossoverdomain():
-    '''public int addcrossoverdomain()
+    '''returns int\n\n
+    addcrossoverdomain()\n
     '''
 def adddomain():
-    '''public int adddomain(final String intDomType)
+    '''returns int\n\n
+    adddomain(final String intDomType)\n
     '''
 def cancelDialog():
-    '''public int cancelDialog()
-    '''
-def insert():
-    '''public synchronized void insert()
+    '''returns int\n\n
+    cancelDialog()\n
     '''

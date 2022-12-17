@@ -5,89 +5,112 @@ MIME_APPLICATION_DIME = "String  \"application/dime\""
 CONTENT_TYPE_MTOM = "String  \"application/xop+xml\""
 DEFAULT_ATTACHMNET_IMPL = "String  \"com.cognos.org.apache.axis.attachments.AttachmentsImpl\""
 MIME_UNKNOWN = "String  \"  \""
-def getAttachmentImplClassName():
-    '''public static String getAttachmentImplClassName()
-    '''
 def getMessageType():
-    '''public String getMessageType()
+    '''returns String\n\n
+    getMessageType()\n
     '''
 def setMessageType():
-    '''public void setMessageType(final String messageType)
+    '''returns None\n\n
+    setMessageType(final String messageType)\n
     '''
 def getMessageContext():
-    '''public MessageContext getMessageContext()
+    '''returns MessageContext\n\n
+    getMessageContext()\n
     '''
 def setMessageContext():
-    '''public void setMessageContext(final MessageContext msgContext)
+    '''returns None\n\n
+    setMessageContext(final MessageContext msgContext)\n
     '''
-def Message():
-    '''public Message(final Object initialContents, final boolean bodyInStream)
-    public Message(final Object initialContents, final boolean bodyInStream, final javax.xml.soap.MimeHeaders headers)
-    public Message(final Object initialContents, final MimeHeaders headers)
-    public Message(final Object initialContents, final boolean bodyInStream, final String contentType, final String contentLocation)
-    public Message(final Object initialContents)
+def ():
+    '''returns Message\n\n
+    (final Object initialContents, final boolean bodyInStream)\n
+    (final Object initialContents, final boolean bodyInStream, final javax.xml.soap.MimeHeaders headers)\n
+    (final Object initialContents, final MimeHeaders headers)\n
+    (final Object initialContents, final boolean bodyInStream, final String contentType, final String contentLocation)\n
+    (final Object initialContents)\n
     '''
 def getSOAPPartAsString():
-    '''public String getSOAPPartAsString()
+    '''returns String\n\n
+    getSOAPPartAsString()\n
     '''
 def getSOAPPartAsBytes():
-    '''public byte[] getSOAPPartAsBytes()
+    '''returns byte[]\n\n
+    getSOAPPartAsBytes()\n
     '''
 def getSOAPEnvelope():
-    '''public SOAPEnvelope getSOAPEnvelope()
+    '''returns SOAPEnvelope\n\n
+    getSOAPEnvelope()\n
     '''
 def getAttachmentsImpl():
-    '''public Attachments getAttachmentsImpl()
+    '''returns Attachments\n\n
+    getAttachmentsImpl()\n
     '''
 def getContentType():
-    '''public String getContentType(final SOAPConstants sc)
+    '''returns String\n\n
+    getContentType(final SOAPConstants sc)\n
     '''
 def getContentLength():
-    '''public long getContentLength()
+    '''returns long\n\n
+    getContentLength()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream os)
+    '''returns None\n\n
+    writeTo(final OutputStream os)\n
     '''
 def getSOAPBody():
-    '''public SOAPBody getSOAPBody()
+    '''returns SOAPBody\n\n
+    getSOAPBody()\n
     '''
 def getSOAPHeader():
-    '''public SOAPHeader getSOAPHeader()
+    '''returns SOAPHeader\n\n
+    getSOAPHeader()\n
     '''
 def setProperty():
-    '''public void setProperty(final String property, final Object value)
+    '''returns None\n\n
+    setProperty(final String property, final Object value)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String property)
+    '''returns Object\n\n
+    getProperty(final String property)\n
     '''
 def getContentDescription():
-    '''public String getContentDescription()
+    '''returns String\n\n
+    getContentDescription()\n
     '''
 def setContentDescription():
-    '''public void setContentDescription(final String description)
+    '''returns None\n\n
+    setContentDescription(final String description)\n
     '''
 def saveChanges():
-    '''public void saveChanges()
+    '''returns None\n\n
+    saveChanges()\n
     '''
 def saveRequired():
-    '''public boolean saveRequired()
+    '''returns boolean\n\n
+    saveRequired()\n
     '''
 def removeAllAttachments():
-    '''public void removeAllAttachments()
+    '''returns None\n\n
+    removeAllAttachments()\n
     '''
 def countAttachments():
-    '''public int countAttachments()
+    '''returns int\n\n
+    countAttachments()\n
     '''
 def getAttachments():
-    '''public Iterator getAttachments()
-    public Iterator getAttachments(final javax.xml.soap.MimeHeaders headers)
+    '''returns Iterator\n\n
+    getAttachments()\n
+    getAttachments(final javax.xml.soap.MimeHeaders headers)\n
     '''
 def addAttachmentPart():
-    '''public void addAttachmentPart(final AttachmentPart attachmentpart)
+    '''returns None\n\n
+    addAttachmentPart(final AttachmentPart attachmentpart)\n
     '''
 def createAttachmentPart():
-    '''public AttachmentPart createAttachmentPart()
+    '''returns AttachmentPart\n\n
+    createAttachmentPart()\n
     '''
 def dispose():
-    '''public void dispose()
+    '''returns None\n\n
+    dispose()\n
     '''

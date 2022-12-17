@@ -1,4 +1,5 @@
-def CIService():
-    '''public CIService()
-    public CIService(final MXServer mxServer)
+def ():
+    '''returns CIService\n\n
+    ()\n
+    (final MXServer mxServer)\n
     '''

@@ -1,3 +1,4 @@
-def MaxIfaceInDetailSet():
-    '''public MaxIfaceInDetailSet(final MboServerInterface ms)
+def ():
+    '''returns MaxIfaceInDetailSet\n\n
+    (final MboServerInterface ms)\n
     '''

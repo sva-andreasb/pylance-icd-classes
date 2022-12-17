@@ -1,9 +1,12 @@
-def CollapseAllAction():
-    '''public CollapseAllAction(final IlvHierarchyChart chart)
+def ():
+    '''returns CollapseAllAction\n\n
+    (final IlvHierarchyChart chart)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent e)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent e)\n
     '''
 def canAccept():
-    '''public boolean canAccept(final IlvHierarchyNode act)
+    '''returns boolean\n\n
+    canAccept(final IlvHierarchyNode act)\n
     '''

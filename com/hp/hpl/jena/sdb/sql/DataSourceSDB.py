@@ -1,25 +1,29 @@
-def DataSourceSDB():
-    '''public DataSourceSDB(final SDBConnectionDesc sdbConnDesc)
+def ():
+    '''returns DataSourceSDB\n\n
+    (final SDBConnectionDesc sdbConnDesc)\n
     '''
 def getConnection():
-    '''public Connection getConnection()
-    public Connection getConnection(final String username, final String password)
+    '''returns Connection\n\n
+    getConnection()\n
+    getConnection(final String username, final String password)\n
     '''
 def getLogWriter():
-    '''public PrintWriter getLogWriter()
+    '''returns PrintWriter\n\n
+    getLogWriter()\n
     '''
 def setLogWriter():
-    '''public void setLogWriter(final PrintWriter out)
+    '''returns None\n\n
+    setLogWriter(final PrintWriter out)\n
     '''
 def getLoginTimeout():
-    '''public int getLoginTimeout()
+    '''returns int\n\n
+    getLoginTimeout()\n
     '''
 def setLoginTimeout():
-    '''public void setLoginTimeout(final int seconds)
+    '''returns None\n\n
+    setLoginTimeout(final int seconds)\n
     '''
 def isWrapperFor():
-    '''public boolean isWrapperFor(final Class<?> iface)
-    '''
-def unwrap():
-    '''public <T> T unwrap(final Class<T> iface)
+    '''returns boolean\n\n
+    isWrapperFor(final Class<?> iface)\n
     '''

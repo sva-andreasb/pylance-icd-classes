@@ -1,174 +1,207 @@
-def AWSKMSAsyncClient():
-    '''public AWSKMSAsyncClient()
-    public AWSKMSAsyncClient(final ClientConfiguration clientConfiguration)
-    public AWSKMSAsyncClient(final AWSCredentials awsCredentials)
-    public AWSKMSAsyncClient(final AWSCredentials awsCredentials, final ExecutorService executorService)
-    public AWSKMSAsyncClient(final AWSCredentials awsCredentials, final ClientConfiguration clientConfiguration, final ExecutorService executorService)
-    public AWSKMSAsyncClient(final AWSCredentialsProvider awsCredentialsProvider)
-    public AWSKMSAsyncClient(final AWSCredentialsProvider awsCredentialsProvider, final ClientConfiguration clientConfiguration)
-    public AWSKMSAsyncClient(final AWSCredentialsProvider awsCredentialsProvider, final ExecutorService executorService)
-    public AWSKMSAsyncClient(final AWSCredentialsProvider awsCredentialsProvider, final ClientConfiguration clientConfiguration, final ExecutorService executorService)
+def ():
+    '''returns AWSKMSAsyncClient\n\n
+    ()\n
+    (final ClientConfiguration clientConfiguration)\n
+    (final AWSCredentials awsCredentials)\n
+    (final AWSCredentials awsCredentials, final ExecutorService executorService)\n
+    (final AWSCredentials awsCredentials, final ClientConfiguration clientConfiguration, final ExecutorService executorService)\n
+    (final AWSCredentialsProvider awsCredentialsProvider)\n
+    (final AWSCredentialsProvider awsCredentialsProvider, final ClientConfiguration clientConfiguration)\n
+    (final AWSCredentialsProvider awsCredentialsProvider, final ExecutorService executorService)\n
+    (final AWSCredentialsProvider awsCredentialsProvider, final ClientConfiguration clientConfiguration, final ExecutorService executorService)\n
     '''
 def getExecutorService():
-    '''public ExecutorService getExecutorService()
+    '''returns ExecutorService\n\n
+    getExecutorService()\n
     '''
 def cancelKeyDeletionAsync():
-    '''public Future<CancelKeyDeletionResult> cancelKeyDeletionAsync(final CancelKeyDeletionRequest request)
-    public Future<CancelKeyDeletionResult> cancelKeyDeletionAsync(final CancelKeyDeletionRequest request, final AsyncHandler<CancelKeyDeletionRequest, CancelKeyDeletionResult> asyncHandler)
+    '''returns Future<CancelKeyDeletionResult>\n\n
+    cancelKeyDeletionAsync(final CancelKeyDeletionRequest request)\n
+    cancelKeyDeletionAsync(final CancelKeyDeletionRequest request, final AsyncHandler<CancelKeyDeletionRequest, CancelKeyDeletionResult> asyncHandler)\n
     '''
 def call():
-    '''public CancelKeyDeletionResult call()
-    public CreateAliasResult call()
-    public CreateGrantResult call()
-    public CreateKeyResult call()
-    public DecryptResult call()
-    public DeleteAliasResult call()
-    public DescribeKeyResult call()
-    public DisableKeyResult call()
-    public DisableKeyRotationResult call()
-    public EnableKeyResult call()
-    public EnableKeyRotationResult call()
-    public EncryptResult call()
-    public GenerateDataKeyResult call()
-    public GenerateDataKeyWithoutPlaintextResult call()
-    public GenerateRandomResult call()
-    public GetKeyPolicyResult call()
-    public GetKeyRotationStatusResult call()
-    public ListAliasesResult call()
-    public ListGrantsResult call()
-    public ListKeyPoliciesResult call()
-    public ListKeysResult call()
-    public ListRetirableGrantsResult call()
-    public PutKeyPolicyResult call()
-    public ReEncryptResult call()
-    public RetireGrantResult call()
-    public RevokeGrantResult call()
-    public ScheduleKeyDeletionResult call()
-    public UpdateAliasResult call()
-    public UpdateKeyDescriptionResult call()
+    '''returns UpdateKeyDescriptionResult\n\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
+    call()\n
     '''
 def createAliasAsync():
-    '''public Future<CreateAliasResult> createAliasAsync(final CreateAliasRequest request)
-    public Future<CreateAliasResult> createAliasAsync(final CreateAliasRequest request, final AsyncHandler<CreateAliasRequest, CreateAliasResult> asyncHandler)
+    '''returns Future<CreateAliasResult>\n\n
+    createAliasAsync(final CreateAliasRequest request)\n
+    createAliasAsync(final CreateAliasRequest request, final AsyncHandler<CreateAliasRequest, CreateAliasResult> asyncHandler)\n
     '''
 def createGrantAsync():
-    '''public Future<CreateGrantResult> createGrantAsync(final CreateGrantRequest request)
-    public Future<CreateGrantResult> createGrantAsync(final CreateGrantRequest request, final AsyncHandler<CreateGrantRequest, CreateGrantResult> asyncHandler)
+    '''returns Future<CreateGrantResult>\n\n
+    createGrantAsync(final CreateGrantRequest request)\n
+    createGrantAsync(final CreateGrantRequest request, final AsyncHandler<CreateGrantRequest, CreateGrantResult> asyncHandler)\n
     '''
 def createKeyAsync():
-    '''public Future<CreateKeyResult> createKeyAsync(final CreateKeyRequest request)
-    public Future<CreateKeyResult> createKeyAsync(final CreateKeyRequest request, final AsyncHandler<CreateKeyRequest, CreateKeyResult> asyncHandler)
-    public Future<CreateKeyResult> createKeyAsync()
-    public Future<CreateKeyResult> createKeyAsync(final AsyncHandler<CreateKeyRequest, CreateKeyResult> asyncHandler)
+    '''returns Future<CreateKeyResult>\n\n
+    createKeyAsync(final CreateKeyRequest request)\n
+    createKeyAsync(final CreateKeyRequest request, final AsyncHandler<CreateKeyRequest, CreateKeyResult> asyncHandler)\n
+    createKeyAsync()\n
+    createKeyAsync(final AsyncHandler<CreateKeyRequest, CreateKeyResult> asyncHandler)\n
     '''
 def decryptAsync():
-    '''public Future<DecryptResult> decryptAsync(final DecryptRequest request)
-    public Future<DecryptResult> decryptAsync(final DecryptRequest request, final AsyncHandler<DecryptRequest, DecryptResult> asyncHandler)
+    '''returns Future<DecryptResult>\n\n
+    decryptAsync(final DecryptRequest request)\n
+    decryptAsync(final DecryptRequest request, final AsyncHandler<DecryptRequest, DecryptResult> asyncHandler)\n
     '''
 def deleteAliasAsync():
-    '''public Future<DeleteAliasResult> deleteAliasAsync(final DeleteAliasRequest request)
-    public Future<DeleteAliasResult> deleteAliasAsync(final DeleteAliasRequest request, final AsyncHandler<DeleteAliasRequest, DeleteAliasResult> asyncHandler)
+    '''returns Future<DeleteAliasResult>\n\n
+    deleteAliasAsync(final DeleteAliasRequest request)\n
+    deleteAliasAsync(final DeleteAliasRequest request, final AsyncHandler<DeleteAliasRequest, DeleteAliasResult> asyncHandler)\n
     '''
 def describeKeyAsync():
-    '''public Future<DescribeKeyResult> describeKeyAsync(final DescribeKeyRequest request)
-    public Future<DescribeKeyResult> describeKeyAsync(final DescribeKeyRequest request, final AsyncHandler<DescribeKeyRequest, DescribeKeyResult> asyncHandler)
+    '''returns Future<DescribeKeyResult>\n\n
+    describeKeyAsync(final DescribeKeyRequest request)\n
+    describeKeyAsync(final DescribeKeyRequest request, final AsyncHandler<DescribeKeyRequest, DescribeKeyResult> asyncHandler)\n
     '''
 def disableKeyAsync():
-    '''public Future<DisableKeyResult> disableKeyAsync(final DisableKeyRequest request)
-    public Future<DisableKeyResult> disableKeyAsync(final DisableKeyRequest request, final AsyncHandler<DisableKeyRequest, DisableKeyResult> asyncHandler)
+    '''returns Future<DisableKeyResult>\n\n
+    disableKeyAsync(final DisableKeyRequest request)\n
+    disableKeyAsync(final DisableKeyRequest request, final AsyncHandler<DisableKeyRequest, DisableKeyResult> asyncHandler)\n
     '''
 def disableKeyRotationAsync():
-    '''public Future<DisableKeyRotationResult> disableKeyRotationAsync(final DisableKeyRotationRequest request)
-    public Future<DisableKeyRotationResult> disableKeyRotationAsync(final DisableKeyRotationRequest request, final AsyncHandler<DisableKeyRotationRequest, DisableKeyRotationResult> asyncHandler)
+    '''returns Future<DisableKeyRotationResult>\n\n
+    disableKeyRotationAsync(final DisableKeyRotationRequest request)\n
+    disableKeyRotationAsync(final DisableKeyRotationRequest request, final AsyncHandler<DisableKeyRotationRequest, DisableKeyRotationResult> asyncHandler)\n
     '''
 def enableKeyAsync():
-    '''public Future<EnableKeyResult> enableKeyAsync(final EnableKeyRequest request)
-    public Future<EnableKeyResult> enableKeyAsync(final EnableKeyRequest request, final AsyncHandler<EnableKeyRequest, EnableKeyResult> asyncHandler)
+    '''returns Future<EnableKeyResult>\n\n
+    enableKeyAsync(final EnableKeyRequest request)\n
+    enableKeyAsync(final EnableKeyRequest request, final AsyncHandler<EnableKeyRequest, EnableKeyResult> asyncHandler)\n
     '''
 def enableKeyRotationAsync():
-    '''public Future<EnableKeyRotationResult> enableKeyRotationAsync(final EnableKeyRotationRequest request)
-    public Future<EnableKeyRotationResult> enableKeyRotationAsync(final EnableKeyRotationRequest request, final AsyncHandler<EnableKeyRotationRequest, EnableKeyRotationResult> asyncHandler)
+    '''returns Future<EnableKeyRotationResult>\n\n
+    enableKeyRotationAsync(final EnableKeyRotationRequest request)\n
+    enableKeyRotationAsync(final EnableKeyRotationRequest request, final AsyncHandler<EnableKeyRotationRequest, EnableKeyRotationResult> asyncHandler)\n
     '''
 def encryptAsync():
-    '''public Future<EncryptResult> encryptAsync(final EncryptRequest request)
-    public Future<EncryptResult> encryptAsync(final EncryptRequest request, final AsyncHandler<EncryptRequest, EncryptResult> asyncHandler)
+    '''returns Future<EncryptResult>\n\n
+    encryptAsync(final EncryptRequest request)\n
+    encryptAsync(final EncryptRequest request, final AsyncHandler<EncryptRequest, EncryptResult> asyncHandler)\n
     '''
 def generateDataKeyAsync():
-    '''public Future<GenerateDataKeyResult> generateDataKeyAsync(final GenerateDataKeyRequest request)
-    public Future<GenerateDataKeyResult> generateDataKeyAsync(final GenerateDataKeyRequest request, final AsyncHandler<GenerateDataKeyRequest, GenerateDataKeyResult> asyncHandler)
+    '''returns Future<GenerateDataKeyResult>\n\n
+    generateDataKeyAsync(final GenerateDataKeyRequest request)\n
+    generateDataKeyAsync(final GenerateDataKeyRequest request, final AsyncHandler<GenerateDataKeyRequest, GenerateDataKeyResult> asyncHandler)\n
     '''
 def generateDataKeyWithoutPlaintextAsync():
-    '''public Future<GenerateDataKeyWithoutPlaintextResult> generateDataKeyWithoutPlaintextAsync(final GenerateDataKeyWithoutPlaintextRequest request)
-    public Future<GenerateDataKeyWithoutPlaintextResult> generateDataKeyWithoutPlaintextAsync(final GenerateDataKeyWithoutPlaintextRequest request, final AsyncHandler<GenerateDataKeyWithoutPlaintextRequest, GenerateDataKeyWithoutPlaintextResult> asyncHandler)
+    '''returns Future<GenerateDataKeyWithoutPlaintextResult>\n\n
+    generateDataKeyWithoutPlaintextAsync(final GenerateDataKeyWithoutPlaintextRequest request)\n
+    generateDataKeyWithoutPlaintextAsync(final GenerateDataKeyWithoutPlaintextRequest request, final AsyncHandler<GenerateDataKeyWithoutPlaintextRequest, GenerateDataKeyWithoutPlaintextResult> asyncHandler)\n
     '''
 def generateRandomAsync():
-    '''public Future<GenerateRandomResult> generateRandomAsync(final GenerateRandomRequest request)
-    public Future<GenerateRandomResult> generateRandomAsync(final GenerateRandomRequest request, final AsyncHandler<GenerateRandomRequest, GenerateRandomResult> asyncHandler)
-    public Future<GenerateRandomResult> generateRandomAsync()
-    public Future<GenerateRandomResult> generateRandomAsync(final AsyncHandler<GenerateRandomRequest, GenerateRandomResult> asyncHandler)
+    '''returns Future<GenerateRandomResult>\n\n
+    generateRandomAsync(final GenerateRandomRequest request)\n
+    generateRandomAsync(final GenerateRandomRequest request, final AsyncHandler<GenerateRandomRequest, GenerateRandomResult> asyncHandler)\n
+    generateRandomAsync()\n
+    generateRandomAsync(final AsyncHandler<GenerateRandomRequest, GenerateRandomResult> asyncHandler)\n
     '''
 def getKeyPolicyAsync():
-    '''public Future<GetKeyPolicyResult> getKeyPolicyAsync(final GetKeyPolicyRequest request)
-    public Future<GetKeyPolicyResult> getKeyPolicyAsync(final GetKeyPolicyRequest request, final AsyncHandler<GetKeyPolicyRequest, GetKeyPolicyResult> asyncHandler)
+    '''returns Future<GetKeyPolicyResult>\n\n
+    getKeyPolicyAsync(final GetKeyPolicyRequest request)\n
+    getKeyPolicyAsync(final GetKeyPolicyRequest request, final AsyncHandler<GetKeyPolicyRequest, GetKeyPolicyResult> asyncHandler)\n
     '''
 def getKeyRotationStatusAsync():
-    '''public Future<GetKeyRotationStatusResult> getKeyRotationStatusAsync(final GetKeyRotationStatusRequest request)
-    public Future<GetKeyRotationStatusResult> getKeyRotationStatusAsync(final GetKeyRotationStatusRequest request, final AsyncHandler<GetKeyRotationStatusRequest, GetKeyRotationStatusResult> asyncHandler)
+    '''returns Future<GetKeyRotationStatusResult>\n\n
+    getKeyRotationStatusAsync(final GetKeyRotationStatusRequest request)\n
+    getKeyRotationStatusAsync(final GetKeyRotationStatusRequest request, final AsyncHandler<GetKeyRotationStatusRequest, GetKeyRotationStatusResult> asyncHandler)\n
     '''
 def listAliasesAsync():
-    '''public Future<ListAliasesResult> listAliasesAsync(final ListAliasesRequest request)
-    public Future<ListAliasesResult> listAliasesAsync(final ListAliasesRequest request, final AsyncHandler<ListAliasesRequest, ListAliasesResult> asyncHandler)
-    public Future<ListAliasesResult> listAliasesAsync()
-    public Future<ListAliasesResult> listAliasesAsync(final AsyncHandler<ListAliasesRequest, ListAliasesResult> asyncHandler)
+    '''returns Future<ListAliasesResult>\n\n
+    listAliasesAsync(final ListAliasesRequest request)\n
+    listAliasesAsync(final ListAliasesRequest request, final AsyncHandler<ListAliasesRequest, ListAliasesResult> asyncHandler)\n
+    listAliasesAsync()\n
+    listAliasesAsync(final AsyncHandler<ListAliasesRequest, ListAliasesResult> asyncHandler)\n
     '''
 def listGrantsAsync():
-    '''public Future<ListGrantsResult> listGrantsAsync(final ListGrantsRequest request)
-    public Future<ListGrantsResult> listGrantsAsync(final ListGrantsRequest request, final AsyncHandler<ListGrantsRequest, ListGrantsResult> asyncHandler)
+    '''returns Future<ListGrantsResult>\n\n
+    listGrantsAsync(final ListGrantsRequest request)\n
+    listGrantsAsync(final ListGrantsRequest request, final AsyncHandler<ListGrantsRequest, ListGrantsResult> asyncHandler)\n
     '''
 def listKeyPoliciesAsync():
-    '''public Future<ListKeyPoliciesResult> listKeyPoliciesAsync(final ListKeyPoliciesRequest request)
-    public Future<ListKeyPoliciesResult> listKeyPoliciesAsync(final ListKeyPoliciesRequest request, final AsyncHandler<ListKeyPoliciesRequest, ListKeyPoliciesResult> asyncHandler)
+    '''returns Future<ListKeyPoliciesResult>\n\n
+    listKeyPoliciesAsync(final ListKeyPoliciesRequest request)\n
+    listKeyPoliciesAsync(final ListKeyPoliciesRequest request, final AsyncHandler<ListKeyPoliciesRequest, ListKeyPoliciesResult> asyncHandler)\n
     '''
 def listKeysAsync():
-    '''public Future<ListKeysResult> listKeysAsync(final ListKeysRequest request)
-    public Future<ListKeysResult> listKeysAsync(final ListKeysRequest request, final AsyncHandler<ListKeysRequest, ListKeysResult> asyncHandler)
-    public Future<ListKeysResult> listKeysAsync()
-    public Future<ListKeysResult> listKeysAsync(final AsyncHandler<ListKeysRequest, ListKeysResult> asyncHandler)
+    '''returns Future<ListKeysResult>\n\n
+    listKeysAsync(final ListKeysRequest request)\n
+    listKeysAsync(final ListKeysRequest request, final AsyncHandler<ListKeysRequest, ListKeysResult> asyncHandler)\n
+    listKeysAsync()\n
+    listKeysAsync(final AsyncHandler<ListKeysRequest, ListKeysResult> asyncHandler)\n
     '''
 def listRetirableGrantsAsync():
-    '''public Future<ListRetirableGrantsResult> listRetirableGrantsAsync(final ListRetirableGrantsRequest request)
-    public Future<ListRetirableGrantsResult> listRetirableGrantsAsync(final ListRetirableGrantsRequest request, final AsyncHandler<ListRetirableGrantsRequest, ListRetirableGrantsResult> asyncHandler)
+    '''returns Future<ListRetirableGrantsResult>\n\n
+    listRetirableGrantsAsync(final ListRetirableGrantsRequest request)\n
+    listRetirableGrantsAsync(final ListRetirableGrantsRequest request, final AsyncHandler<ListRetirableGrantsRequest, ListRetirableGrantsResult> asyncHandler)\n
     '''
 def putKeyPolicyAsync():
-    '''public Future<PutKeyPolicyResult> putKeyPolicyAsync(final PutKeyPolicyRequest request)
-    public Future<PutKeyPolicyResult> putKeyPolicyAsync(final PutKeyPolicyRequest request, final AsyncHandler<PutKeyPolicyRequest, PutKeyPolicyResult> asyncHandler)
+    '''returns Future<PutKeyPolicyResult>\n\n
+    putKeyPolicyAsync(final PutKeyPolicyRequest request)\n
+    putKeyPolicyAsync(final PutKeyPolicyRequest request, final AsyncHandler<PutKeyPolicyRequest, PutKeyPolicyResult> asyncHandler)\n
     '''
 def reEncryptAsync():
-    '''public Future<ReEncryptResult> reEncryptAsync(final ReEncryptRequest request)
-    public Future<ReEncryptResult> reEncryptAsync(final ReEncryptRequest request, final AsyncHandler<ReEncryptRequest, ReEncryptResult> asyncHandler)
+    '''returns Future<ReEncryptResult>\n\n
+    reEncryptAsync(final ReEncryptRequest request)\n
+    reEncryptAsync(final ReEncryptRequest request, final AsyncHandler<ReEncryptRequest, ReEncryptResult> asyncHandler)\n
     '''
 def retireGrantAsync():
-    '''public Future<RetireGrantResult> retireGrantAsync(final RetireGrantRequest request)
-    public Future<RetireGrantResult> retireGrantAsync(final RetireGrantRequest request, final AsyncHandler<RetireGrantRequest, RetireGrantResult> asyncHandler)
-    public Future<RetireGrantResult> retireGrantAsync()
-    public Future<RetireGrantResult> retireGrantAsync(final AsyncHandler<RetireGrantRequest, RetireGrantResult> asyncHandler)
+    '''returns Future<RetireGrantResult>\n\n
+    retireGrantAsync(final RetireGrantRequest request)\n
+    retireGrantAsync(final RetireGrantRequest request, final AsyncHandler<RetireGrantRequest, RetireGrantResult> asyncHandler)\n
+    retireGrantAsync()\n
+    retireGrantAsync(final AsyncHandler<RetireGrantRequest, RetireGrantResult> asyncHandler)\n
     '''
 def revokeGrantAsync():
-    '''public Future<RevokeGrantResult> revokeGrantAsync(final RevokeGrantRequest request)
-    public Future<RevokeGrantResult> revokeGrantAsync(final RevokeGrantRequest request, final AsyncHandler<RevokeGrantRequest, RevokeGrantResult> asyncHandler)
+    '''returns Future<RevokeGrantResult>\n\n
+    revokeGrantAsync(final RevokeGrantRequest request)\n
+    revokeGrantAsync(final RevokeGrantRequest request, final AsyncHandler<RevokeGrantRequest, RevokeGrantResult> asyncHandler)\n
     '''
 def scheduleKeyDeletionAsync():
-    '''public Future<ScheduleKeyDeletionResult> scheduleKeyDeletionAsync(final ScheduleKeyDeletionRequest request)
-    public Future<ScheduleKeyDeletionResult> scheduleKeyDeletionAsync(final ScheduleKeyDeletionRequest request, final AsyncHandler<ScheduleKeyDeletionRequest, ScheduleKeyDeletionResult> asyncHandler)
+    '''returns Future<ScheduleKeyDeletionResult>\n\n
+    scheduleKeyDeletionAsync(final ScheduleKeyDeletionRequest request)\n
+    scheduleKeyDeletionAsync(final ScheduleKeyDeletionRequest request, final AsyncHandler<ScheduleKeyDeletionRequest, ScheduleKeyDeletionResult> asyncHandler)\n
     '''
 def updateAliasAsync():
-    '''public Future<UpdateAliasResult> updateAliasAsync(final UpdateAliasRequest request)
-    public Future<UpdateAliasResult> updateAliasAsync(final UpdateAliasRequest request, final AsyncHandler<UpdateAliasRequest, UpdateAliasResult> asyncHandler)
+    '''returns Future<UpdateAliasResult>\n\n
+    updateAliasAsync(final UpdateAliasRequest request)\n
+    updateAliasAsync(final UpdateAliasRequest request, final AsyncHandler<UpdateAliasRequest, UpdateAliasResult> asyncHandler)\n
     '''
 def updateKeyDescriptionAsync():
-    '''public Future<UpdateKeyDescriptionResult> updateKeyDescriptionAsync(final UpdateKeyDescriptionRequest request)
-    public Future<UpdateKeyDescriptionResult> updateKeyDescriptionAsync(final UpdateKeyDescriptionRequest request, final AsyncHandler<UpdateKeyDescriptionRequest, UpdateKeyDescriptionResult> asyncHandler)
+    '''returns Future<UpdateKeyDescriptionResult>\n\n
+    updateKeyDescriptionAsync(final UpdateKeyDescriptionRequest request)\n
+    updateKeyDescriptionAsync(final UpdateKeyDescriptionRequest request, final AsyncHandler<UpdateKeyDescriptionRequest, UpdateKeyDescriptionResult> asyncHandler)\n
     '''
 def shutdown():
-    '''public void shutdown()
+    '''returns None\n\n
+    shutdown()\n
     '''

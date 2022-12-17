@@ -1,6 +1,8 @@
-def InvalidFileNameException():
-    '''public InvalidFileNameException(final String pName, final String pMessage)
+def ():
+    '''returns InvalidFileNameException\n\n
+    (final String pName, final String pMessage)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''

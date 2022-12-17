@@ -1,21 +1,28 @@
-def ClientCredentialsTokenRequest():
-    '''public ClientCredentialsTokenRequest(final HttpTransport transport, final JsonFactory jsonFactory, final GenericUrl tokenServerUrl)
+def ():
+    '''returns ClientCredentialsTokenRequest\n\n
+    (final HttpTransport transport, final JsonFactory jsonFactory, final GenericUrl tokenServerUrl)\n
     '''
 def setRequestInitializer():
-    '''public ClientCredentialsTokenRequest setRequestInitializer(final HttpRequestInitializer requestInitializer)
+    '''returns ClientCredentialsTokenRequest\n\n
+    setRequestInitializer(final HttpRequestInitializer requestInitializer)\n
     '''
 def setTokenServerUrl():
-    '''public ClientCredentialsTokenRequest setTokenServerUrl(final GenericUrl tokenServerUrl)
+    '''returns ClientCredentialsTokenRequest\n\n
+    setTokenServerUrl(final GenericUrl tokenServerUrl)\n
     '''
 def setScopes():
-    '''public ClientCredentialsTokenRequest setScopes(final Collection<String> scopes)
+    '''returns ClientCredentialsTokenRequest\n\n
+    setScopes(final Collection<String> scopes)\n
     '''
 def setGrantType():
-    '''public ClientCredentialsTokenRequest setGrantType(final String grantType)
+    '''returns ClientCredentialsTokenRequest\n\n
+    setGrantType(final String grantType)\n
     '''
 def setClientAuthentication():
-    '''public ClientCredentialsTokenRequest setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
+    '''returns ClientCredentialsTokenRequest\n\n
+    setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)\n
     '''
 def set():
-    '''public ClientCredentialsTokenRequest set(final String fieldName, final Object value)
+    '''returns ClientCredentialsTokenRequest\n\n
+    set(final String fieldName, final Object value)\n
     '''

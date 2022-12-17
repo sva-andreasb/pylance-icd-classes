@@ -1,3 +1,4 @@
-def FocusEvent():
-    '''public FocusEvent(final Object o)
+def ():
+    '''returns FocusEvent\n\n
+    (final Object o)\n
     '''

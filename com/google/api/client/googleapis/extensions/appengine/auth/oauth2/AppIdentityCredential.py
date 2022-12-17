@@ -1,36 +1,31 @@
-def AppIdentityCredential():
-    '''public AppIdentityCredential(final Collection<String> scopes)
+def ():
+    '''returns AppEngineCredentialWrapper\n\n
+    (final Collection<String> scopes)\n
+    (final Collection<String> scopes)\n
+    (final HttpTransport transport, final JsonFactory jsonFactory)\n
     '''
 def initialize():
-    '''public void initialize(final HttpRequest request)
+    '''returns None\n\n
+    initialize(final HttpRequest request)\n
     '''
 def intercept():
-    '''public void intercept(final HttpRequest request)
-    public void intercept(final HttpRequest request)
-    '''
-def getAppIdentityService():
-    '''public final AppIdentityService getAppIdentityService()
-    public final AppIdentityService getAppIdentityService()
-    '''
-def getScopes():
-    '''public final Collection<String> getScopes()
-    public final Collection<String> getScopes()
-    '''
-def Builder():
-    '''public Builder(final Collection<String> scopes)
+    '''returns None\n\n
+    intercept(final HttpRequest request)\n
+    intercept(final HttpRequest request)\n
     '''
 def setAppIdentityService():
-    '''public Builder setAppIdentityService(final AppIdentityService appIdentityService)
+    '''returns Builder\n\n
+    setAppIdentityService(final AppIdentityService appIdentityService)\n
     '''
 def build():
-    '''public AppIdentityCredential build()
-    '''
-def AppEngineCredentialWrapper():
-    '''public AppEngineCredentialWrapper(final HttpTransport transport, final JsonFactory jsonFactory)
+    '''returns AppIdentityCredential\n\n
+    build()\n
     '''
 def createScopedRequired():
-    '''public boolean createScopedRequired()
+    '''returns boolean\n\n
+    createScopedRequired()\n
     '''
 def createScoped():
-    '''public GoogleCredential createScoped(final Collection<String> scopes)
+    '''returns GoogleCredential\n\n
+    createScoped(final Collection<String> scopes)\n
     '''

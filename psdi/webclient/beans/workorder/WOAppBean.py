@@ -1,115 +1,141 @@
-def WOAppBean():
-    '''public WOAppBean()
+def ():
+    '''returns WOAppBean\n\n
+    ()\n
     '''
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def DUPLICATE():
-    '''public int DUPLICATE()
+    '''returns int\n\n
+    DUPLICATE()\n
     '''
 def DUPLICATECHECK():
-    '''public int DUPLICATECHECK()
+    '''returns int\n\n
+    DUPLICATECHECK()\n
     '''
 def EDITHIST():
-    '''public int EDITHIST()
-    public int EDITHIST(final boolean checkEsig)
+    '''returns int\n\n
+    EDITHIST()\n
+    EDITHIST(final boolean checkEsig)\n
     '''
 def REMOVEWP():
-    '''public int REMOVEWP()
+    '''returns int\n\n
+    REMOVEWP()\n
     '''
 def REMOVESP():
-    '''public int REMOVESP()
+    '''returns int\n\n
+    REMOVESP()\n
     '''
 def NEWWRKPKG():
-    '''public int NEWWRKPKG()
+    '''returns int\n\n
+    NEWWRKPKG()\n
     '''
 def METERREAD():
-    '''public int METERREAD()
+    '''returns int\n\n
+    METERREAD()\n
     '''
 def REPDOWN():
-    '''public int REPDOWN()
+    '''returns int\n\n
+    REPDOWN()\n
     '''
 def MANDWNTIME():
-    '''public int MANDWNTIME()
+    '''returns int\n\n
+    MANDWNTIME()\n
     '''
 def OWNERSHIP():
-    '''public int OWNERSHIP()
+    '''returns int\n\n
+    OWNERSHIP()\n
     '''
 def STARTTIMER():
-    '''public int STARTTIMER()
+    '''returns int\n\n
+    STARTTIMER()\n
     '''
 def STOPTIMER():
-    '''public int STOPTIMER()
+    '''returns int\n\n
+    STOPTIMER()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def savewithoutalreadyreportedcheck():
-    '''public int savewithoutalreadyreportedcheck()
+    '''returns int\n\n
+    savewithoutalreadyreportedcheck()\n
     '''
 def ASGNEWPRNT():
-    '''public int ASGNEWPRNT()
+    '''returns int\n\n
+    ASGNEWPRNT()\n
     '''
 def MASSMOVE():
-    '''public int MASSMOVE()
+    '''returns int\n\n
+    MASSMOVE()\n
     '''
 def resetMboSetRemote():
-    '''public void resetMboSetRemote()
+    '''returns None\n\n
+    resetMboSetRemote()\n
     '''
 def createWorkorder():
-    '''public int createWorkorder()
+    '''returns int\n\n
+    createWorkorder()\n
     '''
 def createFollowUp():
-    '''public MboRemote createFollowUp(final MboSetRemote mboSet)
+    '''returns MboRemote\n\n
+    createFollowUp(final MboSetRemote mboSet)\n
     '''
 def canSaveFollowUp():
-    '''public boolean canSaveFollowUp(final MboRemote newWO)
+    '''returns boolean\n\n
+    canSaveFollowUp(final MboRemote newWO)\n
     '''
 def beforeFollowUpSave():
-    '''public void beforeFollowUpSave(final MboRemote newWO)
+    '''returns None\n\n
+    beforeFollowUpSave(final MboRemote newWO)\n
     '''
 def afterFollowUpSave():
-    '''public void afterFollowUpSave(final MboRemote newWO)
+    '''returns None\n\n
+    afterFollowUpSave(final MboRemote newWO)\n
     '''
 def createServiceRequest():
-    '''public int createServiceRequest()
+    '''returns int\n\n
+    createServiceRequest()\n
     '''
 def createProblem():
-    '''public int createProblem()
+    '''returns int\n\n
+    createProblem()\n
     '''
 def createIncident():
-    '''public int createIncident()
+    '''returns int\n\n
+    createIncident()\n
     '''
 def createChange():
-    '''public int createChange()
+    '''returns int\n\n
+    createChange()\n
     '''
 def createRelease():
-    '''public int createRelease()
+    '''returns int\n\n
+    createRelease()\n
     '''
 def CREATECOMM():
-    '''public int CREATECOMM()
+    '''returns int\n\n
+    CREATECOMM()\n
     '''
 def COPYLNK2WO():
-    '''public int COPYLNK2WO()
-    '''
-def getList():
-    '''public synchronized MboSetRemote getList(final int row, final String attribute)
-    '''
-def setValue():
-    '''public synchronized void setValue(final int row, final String attribute, final String value, final long accessModifier)
+    '''returns int\n\n
+    COPYLNK2WO()\n
     '''
 def smartFill():
-    '''public MboSetRemote smartFill(final int row, final String attribute, final String value, final boolean exactMatch)
-    '''
-def returnLookupValue():
-    '''public synchronized int returnLookupValue(final MboRemote lookupMbo)
+    '''returns MboSetRemote\n\n
+    smartFill(final int row, final String attribute, final String value, final boolean exactMatch)\n
     '''
 def appSupportsRepairFacilities():
-    '''public boolean appSupportsRepairFacilities()
+    '''returns boolean\n\n
+    appSupportsRepairFacilities()\n
     '''
 def ENTERINSP():
-    '''public int ENTERINSP()
+    '''returns int\n\n
+    ENTERINSP()\n
     '''
 def setInspFormNum():
-    '''public void setInspFormNum(final String inspformnum)
+    '''returns None\n\n
+    setInspFormNum(final String inspformnum)\n
     '''

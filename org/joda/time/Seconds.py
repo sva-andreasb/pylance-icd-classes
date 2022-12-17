@@ -1,66 +1,66 @@
-def seconds():
-    '''public static Seconds seconds(final int n)
-    '''
-def secondsBetween():
-    '''public static Seconds secondsBetween(final ReadableInstant readableInstant, final ReadableInstant readableInstant2)
-    public static Seconds secondsBetween(final ReadablePartial readablePartial, final ReadablePartial readablePartial2)
-    '''
-def secondsIn():
-    '''public static Seconds secondsIn(final ReadableInterval readableInterval)
-    '''
-def standardSecondsIn():
-    '''public static Seconds standardSecondsIn(final ReadablePeriod readablePeriod)
-    '''
-def parseSeconds():
-    '''public static Seconds parseSeconds(final String s)
-    '''
 def getFieldType():
-    '''public DurationFieldType getFieldType()
+    '''returns DurationFieldType\n\n
+    getFieldType()\n
     '''
 def getPeriodType():
-    '''public PeriodType getPeriodType()
+    '''returns PeriodType\n\n
+    getPeriodType()\n
     '''
 def toStandardWeeks():
-    '''public Weeks toStandardWeeks()
+    '''returns Weeks\n\n
+    toStandardWeeks()\n
     '''
 def toStandardDays():
-    '''public Days toStandardDays()
+    '''returns Days\n\n
+    toStandardDays()\n
     '''
 def toStandardHours():
-    '''public Hours toStandardHours()
+    '''returns Hours\n\n
+    toStandardHours()\n
     '''
 def toStandardMinutes():
-    '''public Minutes toStandardMinutes()
+    '''returns Minutes\n\n
+    toStandardMinutes()\n
     '''
 def toStandardDuration():
-    '''public Duration toStandardDuration()
+    '''returns Duration\n\n
+    toStandardDuration()\n
     '''
 def getSeconds():
-    '''public int getSeconds()
+    '''returns int\n\n
+    getSeconds()\n
     '''
 def plus():
-    '''public Seconds plus(final int n)
-    public Seconds plus(final Seconds seconds)
+    '''returns Seconds\n\n
+    plus(final int n)\n
+    plus(final Seconds seconds)\n
     '''
 def minus():
-    '''public Seconds minus(final int n)
-    public Seconds minus(final Seconds seconds)
+    '''returns Seconds\n\n
+    minus(final int n)\n
+    minus(final Seconds seconds)\n
     '''
 def multipliedBy():
-    '''public Seconds multipliedBy(final int n)
+    '''returns Seconds\n\n
+    multipliedBy(final int n)\n
     '''
 def dividedBy():
-    '''public Seconds dividedBy(final int n)
+    '''returns Seconds\n\n
+    dividedBy(final int n)\n
     '''
 def negated():
-    '''public Seconds negated()
+    '''returns Seconds\n\n
+    negated()\n
     '''
 def isGreaterThan():
-    '''public boolean isGreaterThan(final Seconds seconds)
+    '''returns boolean\n\n
+    isGreaterThan(final Seconds seconds)\n
     '''
 def isLessThan():
-    '''public boolean isLessThan(final Seconds seconds)
+    '''returns boolean\n\n
+    isLessThan(final Seconds seconds)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

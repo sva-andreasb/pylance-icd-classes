@@ -1,278 +1,356 @@
-def CompositeByteBuf():
-    '''public CompositeByteBuf(final ByteBufAllocator alloc, final boolean direct, final int maxNumComponents)
-    public CompositeByteBuf(final ByteBufAllocator alloc, final boolean direct, final int maxNumComponents, final ByteBuf... buffers)
-    public CompositeByteBuf(final ByteBufAllocator alloc, final boolean direct, final int maxNumComponents, final Iterable<ByteBuf> buffers)
+def ():
+    '''returns CompositeByteBuf\n\n
+    (final ByteBufAllocator alloc, final boolean direct, final int maxNumComponents)\n
+    (final ByteBufAllocator alloc, final boolean direct, final int maxNumComponents, final ByteBuf... buffers)\n
+    (final ByteBufAllocator alloc, final boolean direct, final int maxNumComponents, final Iterable<ByteBuf> buffers)\n
     '''
 def addComponent():
-    '''public CompositeByteBuf addComponent(final ByteBuf buffer)
-    public CompositeByteBuf addComponent(final int cIndex, final ByteBuf buffer)
-    public CompositeByteBuf addComponent(final boolean increaseWriterIndex, final ByteBuf buffer)
-    public CompositeByteBuf addComponent(final boolean increaseWriterIndex, final int cIndex, final ByteBuf buffer)
+    '''returns CompositeByteBuf\n\n
+    addComponent(final ByteBuf buffer)\n
+    addComponent(final int cIndex, final ByteBuf buffer)\n
+    addComponent(final boolean increaseWriterIndex, final ByteBuf buffer)\n
+    addComponent(final boolean increaseWriterIndex, final int cIndex, final ByteBuf buffer)\n
     '''
 def addComponents():
-    '''public CompositeByteBuf addComponents(final ByteBuf... buffers)
-    public CompositeByteBuf addComponents(final Iterable<ByteBuf> buffers)
-    public CompositeByteBuf addComponents(final boolean increaseWriterIndex, final ByteBuf... buffers)
-    public CompositeByteBuf addComponents(final boolean increaseWriterIndex, final Iterable<ByteBuf> buffers)
-    public CompositeByteBuf addComponents(final int cIndex, final ByteBuf... buffers)
-    public CompositeByteBuf addComponents(final int cIndex, final Iterable<ByteBuf> buffers)
+    '''returns CompositeByteBuf\n\n
+    addComponents(final ByteBuf... buffers)\n
+    addComponents(final Iterable<ByteBuf> buffers)\n
+    addComponents(final boolean increaseWriterIndex, final ByteBuf... buffers)\n
+    addComponents(final boolean increaseWriterIndex, final Iterable<ByteBuf> buffers)\n
+    addComponents(final int cIndex, final ByteBuf... buffers)\n
+    addComponents(final int cIndex, final Iterable<ByteBuf> buffers)\n
     '''
 def addFlattenedComponents():
-    '''public CompositeByteBuf addFlattenedComponents(final boolean increaseWriterIndex, ByteBuf buffer)
+    '''returns CompositeByteBuf\n\n
+    addFlattenedComponents(final boolean increaseWriterIndex, ByteBuf buffer)\n
     '''
 def removeComponent():
-    '''public CompositeByteBuf removeComponent(final int cIndex)
+    '''returns CompositeByteBuf\n\n
+    removeComponent(final int cIndex)\n
     '''
 def removeComponents():
-    '''public CompositeByteBuf removeComponents(final int cIndex, final int numComponents)
+    '''returns CompositeByteBuf\n\n
+    removeComponents(final int cIndex, final int numComponents)\n
     '''
 def iterator():
-    '''public Iterator<ByteBuf> iterator()
+    '''returns Iterator<ByteBuf>\n\n
+    iterator()\n
     '''
 def decompose():
-    '''public List<ByteBuf> decompose(final int offset, final int length)
+    '''returns List<ByteBuf>\n\n
+    decompose(final int offset, final int length)\n
     '''
 def isDirect():
-    '''public boolean isDirect()
+    '''returns boolean\n\n
+    isDirect()\n
     '''
 def hasArray():
-    '''public boolean hasArray()
+    '''returns boolean\n\n
+    hasArray()\n
     '''
 def array():
-    '''public byte[] array()
+    '''returns byte[]\n\n
+    array()\n
     '''
 def arrayOffset():
-    '''public int arrayOffset()
+    '''returns int\n\n
+    arrayOffset()\n
     '''
 def hasMemoryAddress():
-    '''public boolean hasMemoryAddress()
+    '''returns boolean\n\n
+    hasMemoryAddress()\n
     '''
 def memoryAddress():
-    '''public long memoryAddress()
+    '''returns long\n\n
+    memoryAddress()\n
     '''
 def capacity():
-    '''public int capacity()
-    public CompositeByteBuf capacity(final int newCapacity)
+    '''returns CompositeByteBuf\n\n
+    capacity()\n
+    capacity(final int newCapacity)\n
     '''
 def alloc():
-    '''public ByteBufAllocator alloc()
+    '''returns ByteBufAllocator\n\n
+    alloc()\n
     '''
 def order():
-    '''public ByteOrder order()
+    '''returns ByteOrder\n\n
+    order()\n
     '''
 def numComponents():
-    '''public int numComponents()
+    '''returns int\n\n
+    numComponents()\n
     '''
 def maxNumComponents():
-    '''public int maxNumComponents()
+    '''returns int\n\n
+    maxNumComponents()\n
     '''
 def toComponentIndex():
-    '''public int toComponentIndex(final int offset)
+    '''returns int\n\n
+    toComponentIndex(final int offset)\n
     '''
 def toByteIndex():
-    '''public int toByteIndex(final int cIndex)
+    '''returns int\n\n
+    toByteIndex(final int cIndex)\n
     '''
 def getByte():
-    '''public byte getByte(final int index)
+    '''returns byte\n\n
+    getByte(final int index)\n
     '''
 def getBytes():
-    '''public CompositeByteBuf getBytes(int index, final byte[] dst, int dstIndex, int length)
-    public CompositeByteBuf getBytes(int index, final ByteBuffer dst)
-    public CompositeByteBuf getBytes(int index, final ByteBuf dst, int dstIndex, int length)
-    public int getBytes(final int index, final GatheringByteChannel out, final int length)
-    public int getBytes(final int index, final FileChannel out, final long position, final int length)
-    public CompositeByteBuf getBytes(int index, final OutputStream out, int length)
-    public CompositeByteBuf getBytes(final int index, final ByteBuf dst)
-    public CompositeByteBuf getBytes(final int index, final ByteBuf dst, final int length)
-    public CompositeByteBuf getBytes(final int index, final byte[] dst)
+    '''returns CompositeByteBuf\n\n
+    getBytes(int index, final byte[] dst, int dstIndex, int length)\n
+    getBytes(int index, final ByteBuffer dst)\n
+    getBytes(int index, final ByteBuf dst, int dstIndex, int length)\n
+    getBytes(final int index, final GatheringByteChannel out, final int length)\n
+    getBytes(final int index, final FileChannel out, final long position, final int length)\n
+    getBytes(int index, final OutputStream out, int length)\n
+    getBytes(final int index, final ByteBuf dst)\n
+    getBytes(final int index, final ByteBuf dst, final int length)\n
+    getBytes(final int index, final byte[] dst)\n
     '''
 def setByte():
-    '''public CompositeByteBuf setByte(final int index, final int value)
+    '''returns CompositeByteBuf\n\n
+    setByte(final int index, final int value)\n
     '''
 def setShort():
-    '''public CompositeByteBuf setShort(final int index, final int value)
+    '''returns CompositeByteBuf\n\n
+    setShort(final int index, final int value)\n
     '''
 def setMedium():
-    '''public CompositeByteBuf setMedium(final int index, final int value)
+    '''returns CompositeByteBuf\n\n
+    setMedium(final int index, final int value)\n
     '''
 def setInt():
-    '''public CompositeByteBuf setInt(final int index, final int value)
+    '''returns CompositeByteBuf\n\n
+    setInt(final int index, final int value)\n
     '''
 def setLong():
-    '''public CompositeByteBuf setLong(final int index, final long value)
+    '''returns CompositeByteBuf\n\n
+    setLong(final int index, final long value)\n
     '''
 def setBytes():
-    '''public CompositeByteBuf setBytes(int index, final byte[] src, int srcIndex, int length)
-    public CompositeByteBuf setBytes(int index, final ByteBuffer src)
-    public CompositeByteBuf setBytes(int index, final ByteBuf src, int srcIndex, int length)
-    public int setBytes(int index, final InputStream in, int length)
-    public int setBytes(int index, final ScatteringByteChannel in, int length)
-    public int setBytes(int index, final FileChannel in, final long position, int length)
-    public CompositeByteBuf setBytes(final int index, final ByteBuf src)
-    public CompositeByteBuf setBytes(final int index, final ByteBuf src, final int length)
-    public CompositeByteBuf setBytes(final int index, final byte[] src)
+    '''returns CompositeByteBuf\n\n
+    setBytes(int index, final byte[] src, int srcIndex, int length)\n
+    setBytes(int index, final ByteBuffer src)\n
+    setBytes(int index, final ByteBuf src, int srcIndex, int length)\n
+    setBytes(int index, final InputStream in, int length)\n
+    setBytes(int index, final ScatteringByteChannel in, int length)\n
+    setBytes(int index, final FileChannel in, final long position, int length)\n
+    setBytes(final int index, final ByteBuf src)\n
+    setBytes(final int index, final ByteBuf src, final int length)\n
+    setBytes(final int index, final byte[] src)\n
     '''
 def copy():
-    '''public ByteBuf copy(final int index, final int length)
+    '''returns ByteBuf\n\n
+    copy(final int index, final int length)\n
     '''
 def component():
-    '''public ByteBuf component(final int cIndex)
+    '''returns ByteBuf\n\n
+    component(final int cIndex)\n
     '''
 def componentAtOffset():
-    '''public ByteBuf componentAtOffset(final int offset)
+    '''returns ByteBuf\n\n
+    componentAtOffset(final int offset)\n
     '''
 def internalComponent():
-    '''public ByteBuf internalComponent(final int cIndex)
+    '''returns ByteBuf\n\n
+    internalComponent(final int cIndex)\n
     '''
 def internalComponentAtOffset():
-    '''public ByteBuf internalComponentAtOffset(final int offset)
+    '''returns ByteBuf\n\n
+    internalComponentAtOffset(final int offset)\n
     '''
 def nioBufferCount():
-    '''public int nioBufferCount()
+    '''returns int\n\n
+    nioBufferCount()\n
     '''
 def internalNioBuffer():
-    '''public ByteBuffer internalNioBuffer(final int index, final int length)
+    '''returns ByteBuffer\n\n
+    internalNioBuffer(final int index, final int length)\n
     '''
 def nioBuffer():
-    '''public ByteBuffer nioBuffer(final int index, final int length)
+    '''returns ByteBuffer\n\n
+    nioBuffer(final int index, final int length)\n
     '''
 def nioBuffers():
-    '''public ByteBuffer[] nioBuffers(int index, int length)
-    public ByteBuffer[] nioBuffers()
+    '''returns ByteBuffer[]\n\n
+    nioBuffers(int index, int length)\n
+    nioBuffers()\n
     '''
 def consolidate():
-    '''public CompositeByteBuf consolidate()
-    public CompositeByteBuf consolidate(final int cIndex, final int numComponents)
+    '''returns CompositeByteBuf\n\n
+    consolidate()\n
+    consolidate(final int cIndex, final int numComponents)\n
     '''
 def discardReadComponents():
-    '''public CompositeByteBuf discardReadComponents()
+    '''returns CompositeByteBuf\n\n
+    discardReadComponents()\n
     '''
 def discardReadBytes():
-    '''public CompositeByteBuf discardReadBytes()
+    '''returns CompositeByteBuf\n\n
+    discardReadBytes()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def readerIndex():
-    '''public CompositeByteBuf readerIndex(final int readerIndex)
+    '''returns CompositeByteBuf\n\n
+    readerIndex(final int readerIndex)\n
     '''
 def writerIndex():
-    '''public CompositeByteBuf writerIndex(final int writerIndex)
+    '''returns CompositeByteBuf\n\n
+    writerIndex(final int writerIndex)\n
     '''
 def setIndex():
-    '''public CompositeByteBuf setIndex(final int readerIndex, final int writerIndex)
+    '''returns CompositeByteBuf\n\n
+    setIndex(final int readerIndex, final int writerIndex)\n
     '''
 def clear():
-    '''public CompositeByteBuf clear()
+    '''returns CompositeByteBuf\n\n
+    clear()\n
     '''
 def markReaderIndex():
-    '''public CompositeByteBuf markReaderIndex()
+    '''returns CompositeByteBuf\n\n
+    markReaderIndex()\n
     '''
 def resetReaderIndex():
-    '''public CompositeByteBuf resetReaderIndex()
+    '''returns CompositeByteBuf\n\n
+    resetReaderIndex()\n
     '''
 def markWriterIndex():
-    '''public CompositeByteBuf markWriterIndex()
+    '''returns CompositeByteBuf\n\n
+    markWriterIndex()\n
     '''
 def resetWriterIndex():
-    '''public CompositeByteBuf resetWriterIndex()
+    '''returns CompositeByteBuf\n\n
+    resetWriterIndex()\n
     '''
 def ensureWritable():
-    '''public CompositeByteBuf ensureWritable(final int minWritableBytes)
+    '''returns CompositeByteBuf\n\n
+    ensureWritable(final int minWritableBytes)\n
     '''
 def setBoolean():
-    '''public CompositeByteBuf setBoolean(final int index, final boolean value)
+    '''returns CompositeByteBuf\n\n
+    setBoolean(final int index, final boolean value)\n
     '''
 def setChar():
-    '''public CompositeByteBuf setChar(final int index, final int value)
+    '''returns CompositeByteBuf\n\n
+    setChar(final int index, final int value)\n
     '''
 def setFloat():
-    '''public CompositeByteBuf setFloat(final int index, final float value)
+    '''returns CompositeByteBuf\n\n
+    setFloat(final int index, final float value)\n
     '''
 def setDouble():
-    '''public CompositeByteBuf setDouble(final int index, final double value)
+    '''returns CompositeByteBuf\n\n
+    setDouble(final int index, final double value)\n
     '''
 def setZero():
-    '''public CompositeByteBuf setZero(final int index, final int length)
+    '''returns CompositeByteBuf\n\n
+    setZero(final int index, final int length)\n
     '''
 def readBytes():
-    '''public CompositeByteBuf readBytes(final ByteBuf dst)
-    public CompositeByteBuf readBytes(final ByteBuf dst, final int length)
-    public CompositeByteBuf readBytes(final ByteBuf dst, final int dstIndex, final int length)
-    public CompositeByteBuf readBytes(final byte[] dst)
-    public CompositeByteBuf readBytes(final byte[] dst, final int dstIndex, final int length)
-    public CompositeByteBuf readBytes(final ByteBuffer dst)
-    public CompositeByteBuf readBytes(final OutputStream out, final int length)
+    '''returns CompositeByteBuf\n\n
+    readBytes(final ByteBuf dst)\n
+    readBytes(final ByteBuf dst, final int length)\n
+    readBytes(final ByteBuf dst, final int dstIndex, final int length)\n
+    readBytes(final byte[] dst)\n
+    readBytes(final byte[] dst, final int dstIndex, final int length)\n
+    readBytes(final ByteBuffer dst)\n
+    readBytes(final OutputStream out, final int length)\n
     '''
 def skipBytes():
-    '''public CompositeByteBuf skipBytes(final int length)
+    '''returns CompositeByteBuf\n\n
+    skipBytes(final int length)\n
     '''
 def writeBoolean():
-    '''public CompositeByteBuf writeBoolean(final boolean value)
+    '''returns CompositeByteBuf\n\n
+    writeBoolean(final boolean value)\n
     '''
 def writeByte():
-    '''public CompositeByteBuf writeByte(final int value)
+    '''returns CompositeByteBuf\n\n
+    writeByte(final int value)\n
     '''
 def writeShort():
-    '''public CompositeByteBuf writeShort(final int value)
+    '''returns CompositeByteBuf\n\n
+    writeShort(final int value)\n
     '''
 def writeMedium():
-    '''public CompositeByteBuf writeMedium(final int value)
+    '''returns CompositeByteBuf\n\n
+    writeMedium(final int value)\n
     '''
 def writeInt():
-    '''public CompositeByteBuf writeInt(final int value)
+    '''returns CompositeByteBuf\n\n
+    writeInt(final int value)\n
     '''
 def writeLong():
-    '''public CompositeByteBuf writeLong(final long value)
+    '''returns CompositeByteBuf\n\n
+    writeLong(final long value)\n
     '''
 def writeChar():
-    '''public CompositeByteBuf writeChar(final int value)
+    '''returns CompositeByteBuf\n\n
+    writeChar(final int value)\n
     '''
 def writeFloat():
-    '''public CompositeByteBuf writeFloat(final float value)
+    '''returns CompositeByteBuf\n\n
+    writeFloat(final float value)\n
     '''
 def writeDouble():
-    '''public CompositeByteBuf writeDouble(final double value)
+    '''returns CompositeByteBuf\n\n
+    writeDouble(final double value)\n
     '''
 def writeBytes():
-    '''public CompositeByteBuf writeBytes(final ByteBuf src)
-    public CompositeByteBuf writeBytes(final ByteBuf src, final int length)
-    public CompositeByteBuf writeBytes(final ByteBuf src, final int srcIndex, final int length)
-    public CompositeByteBuf writeBytes(final byte[] src)
-    public CompositeByteBuf writeBytes(final byte[] src, final int srcIndex, final int length)
-    public CompositeByteBuf writeBytes(final ByteBuffer src)
+    '''returns CompositeByteBuf\n\n
+    writeBytes(final ByteBuf src)\n
+    writeBytes(final ByteBuf src, final int length)\n
+    writeBytes(final ByteBuf src, final int srcIndex, final int length)\n
+    writeBytes(final byte[] src)\n
+    writeBytes(final byte[] src, final int srcIndex, final int length)\n
+    writeBytes(final ByteBuffer src)\n
     '''
 def writeZero():
-    '''public CompositeByteBuf writeZero(final int length)
+    '''returns CompositeByteBuf\n\n
+    writeZero(final int length)\n
     '''
 def retain():
-    '''public CompositeByteBuf retain(final int increment)
-    public CompositeByteBuf retain()
+    '''returns CompositeByteBuf\n\n
+    retain(final int increment)\n
+    retain()\n
     '''
 def touch():
-    '''public CompositeByteBuf touch()
-    public CompositeByteBuf touch(final Object hint)
+    '''returns CompositeByteBuf\n\n
+    touch()\n
+    touch(final Object hint)\n
     '''
 def discardSomeReadBytes():
-    '''public CompositeByteBuf discardSomeReadBytes()
+    '''returns CompositeByteBuf\n\n
+    discardSomeReadBytes()\n
     '''
 def unwrap():
-    '''public ByteBuf unwrap()
+    '''returns ByteBuf\n\n
+    unwrap()\n
     '''
 def wrap():
-    '''public ByteBuf wrap(final byte[] bytes)
-    public ByteBuf wrap(final ByteBuffer bytes)
+    '''returns ByteBuf\n\n
+    wrap(final byte[] bytes)\n
+    wrap(final ByteBuffer bytes)\n
     '''
 def isEmpty():
-    '''public boolean isEmpty(final byte[] bytes)
-    public boolean isEmpty(final ByteBuffer bytes)
+    '''returns boolean\n\n
+    isEmpty(final byte[] bytes)\n
+    isEmpty(final ByteBuffer bytes)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public ByteBuf next()
+    '''returns ByteBuf\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

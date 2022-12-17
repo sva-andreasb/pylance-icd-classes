@@ -1,12 +1,16 @@
-def Operator():
-    '''public Operator(final String oper, final int precedence, final boolean leftAssoc)
+def ():
+    '''returns Operator\n\n
+    (final String oper, final int precedence, final boolean leftAssoc)\n
     '''
 def getOper():
-    '''public String getOper()
+    '''returns String\n\n
+    getOper()\n
     '''
 def getPrecedence():
-    '''public int getPrecedence()
+    '''returns int\n\n
+    getPrecedence()\n
     '''
 def isLeftAssoc():
-    '''public boolean isLeftAssoc()
+    '''returns boolean\n\n
+    isLeftAssoc()\n
     '''

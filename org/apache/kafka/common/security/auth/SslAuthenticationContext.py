@@ -1,12 +1,16 @@
-def SslAuthenticationContext():
-    '''public SslAuthenticationContext(final SSLSession session, final InetAddress clientAddress)
+def ():
+    '''returns SslAuthenticationContext\n\n
+    (final SSLSession session, final InetAddress clientAddress)\n
     '''
 def session():
-    '''public SSLSession session()
+    '''returns SSLSession\n\n
+    session()\n
     '''
 def securityProtocol():
-    '''public SecurityProtocol securityProtocol()
+    '''returns SecurityProtocol\n\n
+    securityProtocol()\n
     '''
 def clientAddress():
-    '''public InetAddress clientAddress()
+    '''returns InetAddress\n\n
+    clientAddress()\n
     '''

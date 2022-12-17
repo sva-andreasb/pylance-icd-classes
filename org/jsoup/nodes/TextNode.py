@@ -1,27 +1,30 @@
-def TextNode():
-    '''public TextNode(final String text)
-    public TextNode(final String text, final String baseUri)
+def ():
+    '''returns TextNode\n\n
+    (final String text)\n
+    (final String text, final String baseUri)\n
     '''
 def nodeName():
-    '''public String nodeName()
+    '''returns String\n\n
+    nodeName()\n
     '''
 def text():
-    '''public String text()
-    public TextNode text(final String text)
+    '''returns TextNode\n\n
+    text()\n
+    text(final String text)\n
     '''
 def getWholeText():
-    '''public String getWholeText()
+    '''returns String\n\n
+    getWholeText()\n
     '''
 def isBlank():
-    '''public boolean isBlank()
+    '''returns boolean\n\n
+    isBlank()\n
     '''
 def splitText():
-    '''public TextNode splitText(final int offset)
+    '''returns TextNode\n\n
+    splitText(final int offset)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def createFromEncoded():
-    '''public static TextNode createFromEncoded(final String encodedText, final String baseUri)
-    public static TextNode createFromEncoded(final String encodedText)
+    '''returns String\n\n
+    toString()\n
     '''

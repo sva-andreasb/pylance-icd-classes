@@ -1,125 +1,164 @@
 UNDO_CMD = "String  \"Undo\""
 REDO_CMD = "String  \"Redo\""
-def IlvAbstractDocument():
-    '''public IlvAbstractDocument()
+def ():
+    '''returns IlvAbstractDocument\n\n
+    ()\n
     '''
 def propertyChange():
-    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''returns None\n\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
+    propertyChange(final PropertyChangeEvent propertyChangeEvent)\n
     '''
 def actionPerformed():
-    '''public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
-    public void actionPerformed(final ActionEvent actionEvent)
+    '''returns None\n\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
+    actionPerformed(final ActionEvent actionEvent)\n
     '''
 def initializeDocument():
-    '''public boolean initializeDocument(final Object o)
+    '''returns boolean\n\n
+    initializeDocument(final Object o)\n
     '''
 def documentClosing():
-    '''public void documentClosing()
+    '''returns None\n\n
+    documentClosing()\n
     '''
 def documentClosed():
-    '''public void documentClosed()
+    '''returns None\n\n
+    documentClosed()\n
     '''
 def clean():
-    '''public void clean()
+    '''returns None\n\n
+    clean()\n
     '''
 def activated():
-    '''public void activated(final boolean b)
+    '''returns None\n\n
+    activated(final boolean b)\n
     '''
 def getViewCount():
-    '''public int getViewCount()
+    '''returns int\n\n
+    getViewCount()\n
     '''
 def removeView():
-    '''public boolean removeView(final IlvDocumentView ilvDocumentView)
+    '''returns boolean\n\n
+    removeView(final IlvDocumentView ilvDocumentView)\n
     '''
 def removeViews():
-    '''public void removeViews()
+    '''returns None\n\n
+    removeViews()\n
     '''
 def addView():
-    '''public void addView(final IlvDocumentView ilvDocumentView)
+    '''returns None\n\n
+    addView(final IlvDocumentView ilvDocumentView)\n
     '''
 def getView():
-    '''public IlvDocumentView getView(final int n)
+    '''returns IlvDocumentView\n\n
+    getView(final int n)\n
     '''
 def getViews():
-    '''public IlvDocumentView[] getViews()
+    '''returns IlvDocumentView[]\n\n
+    getViews()\n
     '''
 def getActiveView():
-    '''public IlvDocumentView getActiveView()
+    '''returns IlvDocumentView\n\n
+    getActiveView()\n
     '''
 def isModified():
-    '''public boolean isModified()
+    '''returns boolean\n\n
+    isModified()\n
     '''
 def setModified():
-    '''public void setModified(final boolean b)
+    '''returns None\n\n
+    setModified(final boolean b)\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''
 def setTitle():
-    '''public void setTitle(final String s)
+    '''returns None\n\n
+    setTitle(final String s)\n
     '''
 def getDocumentTemplate():
-    '''public IlvDocumentTemplate getDocumentTemplate()
+    '''returns IlvDocumentTemplate\n\n
+    getDocumentTemplate()\n
     '''
 def updateAction():
-    '''public boolean updateAction(final Action action)
+    '''returns boolean\n\n
+    updateAction(final Action action)\n
     '''
 def isProcessingAction():
-    '''public boolean isProcessingAction(final String s)
+    '''returns boolean\n\n
+    isProcessingAction(final String s)\n
     '''
 def addActionHandler():
-    '''public void addActionHandler(final ActionHandler actionHandler)
+    '''returns None\n\n
+    addActionHandler(final ActionHandler actionHandler)\n
     '''
 def removeActionHandler():
-    '''public boolean removeActionHandler(final ActionHandler actionHandler)
+    '''returns boolean\n\n
+    removeActionHandler(final ActionHandler actionHandler)\n
     '''
 def receiveMessage():
-    '''public void receiveMessage(final MessageEvent messageEvent)
+    '''returns None\n\n
+    receiveMessage(final MessageEvent messageEvent)\n
     '''
 def getUndoManager():
-    '''public UndoManager getUndoManager()
+    '''returns UndoManager\n\n
+    getUndoManager()\n
     '''
 def canUndo():
-    '''public boolean canUndo()
+    '''returns boolean\n\n
+    canUndo()\n
     '''
 def undo():
-    '''public void undo()
-    public void undo()
+    '''returns None\n\n
+    undo()\n
+    undo()\n
     '''
 def canRedo():
-    '''public boolean canRedo()
+    '''returns boolean\n\n
+    canRedo()\n
     '''
 def redo():
-    '''public void redo()
-    public void redo()
+    '''returns None\n\n
+    redo()\n
+    redo()\n
     '''
 def addEdit():
-    '''public void addEdit(final UndoableEdit undoableEdit)
-    public boolean addEdit(final UndoableEdit undoableEdit)
+    '''returns boolean\n\n
+    addEdit(final UndoableEdit undoableEdit)\n
+    addEdit(final UndoableEdit undoableEdit)\n
     '''
 def setProperty():
-    '''public Object setProperty(final String s, final Object o)
+    '''returns Object\n\n
+    setProperty(final String s, final Object o)\n
     '''
 def getProperty():
-    '''public Object getProperty(final String s)
+    '''returns Object\n\n
+    getProperty(final String s)\n
     '''
 def getApplication():
-    '''public IlvApplication getApplication()
+    '''returns IlvApplication\n\n
+    getApplication()\n
     '''
 def setApplication():
-    '''public void setApplication(final IlvApplication ilvApplication)
+    '''returns None\n\n
+    setApplication(final IlvApplication ilvApplication)\n
     '''
 def addPropertyChangeListener():
-    '''public void addPropertyChangeListener(final PropertyChangeListener propertyChangeListener)
+    '''returns None\n\n
+    addPropertyChangeListener(final PropertyChangeListener propertyChangeListener)\n
     '''
 def removePropertyChangeListener():
-    '''public void removePropertyChangeListener(final PropertyChangeListener propertyChangeListener)
+    '''returns None\n\n
+    removePropertyChangeListener(final PropertyChangeListener propertyChangeListener)\n
     '''
 def attachDocument():
-    '''public void attachDocument(final IlvDocument ilvDocument, final boolean b)
+    '''returns None\n\n
+    attachDocument(final IlvDocument ilvDocument, final boolean b)\n
     '''
 def discardAllEdits():
-    '''public void discardAllEdits()
+    '''returns None\n\n
+    discardAllEdits()\n
     '''

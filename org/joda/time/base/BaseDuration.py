@@ -1,22 +1,28 @@
 def getMillis():
-    '''public long getMillis()
+    '''returns long\n\n
+    getMillis()\n
     '''
 def toPeriod():
-    '''public Period toPeriod(final PeriodType periodType)
-    public Period toPeriod(final Chronology chronology)
-    public Period toPeriod(final PeriodType periodType, final Chronology chronology)
+    '''returns Period\n\n
+    toPeriod(final PeriodType periodType)\n
+    toPeriod(final Chronology chronology)\n
+    toPeriod(final PeriodType periodType, final Chronology chronology)\n
     '''
 def toPeriodFrom():
-    '''public Period toPeriodFrom(final ReadableInstant readableInstant)
-    public Period toPeriodFrom(final ReadableInstant readableInstant, final PeriodType periodType)
+    '''returns Period\n\n
+    toPeriodFrom(final ReadableInstant readableInstant)\n
+    toPeriodFrom(final ReadableInstant readableInstant, final PeriodType periodType)\n
     '''
 def toPeriodTo():
-    '''public Period toPeriodTo(final ReadableInstant readableInstant)
-    public Period toPeriodTo(final ReadableInstant readableInstant, final PeriodType periodType)
+    '''returns Period\n\n
+    toPeriodTo(final ReadableInstant readableInstant)\n
+    toPeriodTo(final ReadableInstant readableInstant, final PeriodType periodType)\n
     '''
 def toIntervalFrom():
-    '''public Interval toIntervalFrom(final ReadableInstant readableInstant)
+    '''returns Interval\n\n
+    toIntervalFrom(final ReadableInstant readableInstant)\n
     '''
 def toIntervalTo():
-    '''public Interval toIntervalTo(final ReadableInstant readableInstant)
+    '''returns Interval\n\n
+    toIntervalTo(final ReadableInstant readableInstant)\n
     '''

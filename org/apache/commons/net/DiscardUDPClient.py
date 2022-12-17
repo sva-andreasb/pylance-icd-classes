@@ -1,9 +1,11 @@
 DEFAULT_PORT = "int  9"
-def DiscardUDPClient():
-    '''public DiscardUDPClient()
+def ():
+    '''returns DiscardUDPClient\n\n
+    ()\n
     '''
 def send():
-    '''public void send(final byte[] data, final int length, final InetAddress host, final int port)
-    public void send(final byte[] data, final int length, final InetAddress host)
-    public void send(final byte[] data, final InetAddress host)
+    '''returns None\n\n
+    send(final byte[] data, final int length, final InetAddress host, final int port)\n
+    send(final byte[] data, final int length, final InetAddress host)\n
+    send(final byte[] data, final InetAddress host)\n
     '''

@@ -1,9 +1,12 @@
-def SQLNode():
-    '''public SQLNode(final Vector operands)
+def ():
+    '''returns SQLNode\n\n
+    (final Vector operands)\n
     '''
 def getBoolean():
-    '''public boolean getBoolean(final MboRemote mbo)
+    '''returns boolean\n\n
+    getBoolean(final MboRemote mbo)\n
     '''
 def getNodeDataType():
-    '''public int getNodeDataType()
+    '''returns int\n\n
+    getNodeDataType()\n
     '''

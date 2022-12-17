@@ -1,9 +1,12 @@
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def request():
-    '''public Message request(final Message message)
+    '''returns Message\n\n
+    request(final Message message)\n
     '''
-def TopicRequestor():
-    '''public TopicRequestor(final TopicSession session, final Topic topic)
+def ():
+    '''returns TopicRequestor\n\n
+    (final TopicSession session, final Topic topic)\n
     '''

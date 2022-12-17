@@ -1,12 +1,16 @@
-def DispatchClient():
-    '''public DispatchClient(final int dispPtr, final int threadId)
+def ():
+    '''returns DispatchClient\n\n
+    (final int dispPtr, final int threadId)\n
     '''
 def invoke():
-    '''public Object invoke(final int n, final String s, final int n2, final Object[] array)
+    '''returns Object\n\n
+    invoke(final int n, final String s, final int n2, final Object[] array)\n
     '''
 def release():
-    '''public void release(final int n)
+    '''returns None\n\n
+    release(final int n)\n
     '''
 def getDispatchWrapper():
-    '''public int getDispatchWrapper()
+    '''returns int\n\n
+    getDispatchWrapper()\n
     '''

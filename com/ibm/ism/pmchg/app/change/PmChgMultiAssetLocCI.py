@@ -1,19 +1,25 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def PmChgMultiAssetLocCI():
-    '''public PmChgMultiAssetLocCI(final MboSet ms)
+def ():
+    '''returns PmChgMultiAssetLocCI\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def hasOutage():
-    '''public boolean hasOutage()
+    '''returns boolean\n\n
+    hasOutage()\n
     '''
 def getCI():
-    '''public CIRemote getCI()
+    '''returns CIRemote\n\n
+    getCI()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

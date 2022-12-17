@@ -1,13 +1,13 @@
-def CRC32ChecksumCalculatingInputStream():
-    '''public CRC32ChecksumCalculatingInputStream(final InputStream in)
+def ():
+    '''returns CRC32ChecksumCalculatingInputStream\n\n
+    (final InputStream in)\n
     '''
 def getCRC32Checksum():
-    '''public long getCRC32Checksum()
-    '''
-def reset():
-    '''public synchronized void reset()
+    '''returns long\n\n
+    getCRC32Checksum()\n
     '''
 def read():
-    '''public int read()
-    public int read(final byte[] b, final int off, final int len)
+    '''returns int\n\n
+    read()\n
+    read(final byte[] b, final int off, final int len)\n
     '''

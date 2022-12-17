@@ -1,26 +1,33 @@
-def TGIBMJsonWriter():
-    '''public TGIBMJsonWriter(final JSONObject root)
-    public TGIBMJsonWriter(final JSONArray root)
+def ():
+    '''returns TGIBMJsonWriter\n\n
+    (final JSONObject root)\n
+    (final JSONArray root)\n
     '''
 def beginArray():
-    '''public TGJsonWriter beginArray()
+    '''returns TGJsonWriter\n\n
+    beginArray()\n
     '''
 def beginObject():
-    '''public TGJsonWriter beginObject()
+    '''returns TGJsonWriter\n\n
+    beginObject()\n
     '''
 def endArray():
-    '''public TGJsonWriter endArray()
+    '''returns TGJsonWriter\n\n
+    endArray()\n
     '''
 def endObject():
-    '''public TGJsonWriter endObject()
+    '''returns TGJsonWriter\n\n
+    endObject()\n
     '''
 def name():
-    '''public TGJsonWriter name(final String name)
+    '''returns TGJsonWriter\n\n
+    name(final String name)\n
     '''
 def value():
-    '''public TGJsonWriter value(final boolean value)
-    public TGJsonWriter value(final double value)
-    public TGJsonWriter value(final long value)
-    public TGJsonWriter value(final Number value)
-    public TGJsonWriter value(final String value)
+    '''returns TGJsonWriter\n\n
+    value(final boolean value)\n
+    value(final double value)\n
+    value(final long value)\n
+    value(final Number value)\n
+    value(final String value)\n
     '''

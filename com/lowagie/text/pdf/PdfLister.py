@@ -1,18 +1,24 @@
-def PdfLister():
-    '''public PdfLister(final PrintStream out)
+def ():
+    '''returns PdfLister\n\n
+    (final PrintStream out)\n
     '''
 def listAnyObject():
-    '''public void listAnyObject(final PdfObject object)
+    '''returns None\n\n
+    listAnyObject(final PdfObject object)\n
     '''
 def listDict():
-    '''public void listDict(final PdfDictionary dictionary)
+    '''returns None\n\n
+    listDict(final PdfDictionary dictionary)\n
     '''
 def listArray():
-    '''public void listArray(final PdfArray array)
+    '''returns None\n\n
+    listArray(final PdfArray array)\n
     '''
 def listStream():
-    '''public void listStream(final PRStream stream, final PdfReaderInstance reader)
+    '''returns None\n\n
+    listStream(final PRStream stream, final PdfReaderInstance reader)\n
     '''
 def listPage():
-    '''public void listPage(final PdfImportedPage iPage)
+    '''returns None\n\n
+    listPage(final PdfImportedPage iPage)\n
     '''

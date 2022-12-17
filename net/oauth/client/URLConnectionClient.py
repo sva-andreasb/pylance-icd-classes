@@ -1,3 +1,4 @@
 def execute():
-    '''public HttpResponseMessage execute(final HttpMessage request, final Map<String, Object> parameters)
+    '''returns HttpResponseMessage\n\n
+    execute(final HttpMessage request, final Map<String, Object> parameters)\n
     '''

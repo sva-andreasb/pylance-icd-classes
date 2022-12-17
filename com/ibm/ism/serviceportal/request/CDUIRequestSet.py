@@ -1,3 +1,4 @@
-def CDUIRequestSet():
-    '''public CDUIRequestSet(final MboServerInterface ms)
+def ():
+    '''returns CDUIRequestSet\n\n
+    (final MboServerInterface ms)\n
     '''

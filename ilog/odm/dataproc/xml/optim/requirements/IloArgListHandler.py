@@ -1,16 +1,21 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloArgListHandler():
-    '''public IloArgListHandler(final IloDefaultRecursiveHandler previous, final String startTag)
+def ():
+    '''returns IloArgListHandler\n\n
+    (final IloDefaultRecursiveHandler previous, final String startTag)\n
     '''
 def startElement():
-    '''public void startElement(final String namespaceURI, final String localName, final String qName, final Attributes attrs)
+    '''returns None\n\n
+    startElement(final String namespaceURI, final String localName, final String qName, final Attributes attrs)\n
     '''
 def endElement():
-    '''public void endElement(final String namespaceURI, final String localName, final String qName)
+    '''returns None\n\n
+    endElement(final String namespaceURI, final String localName, final String qName)\n
     '''
 def getArgumentDescs():
-    '''public IloArgumentDesc[] getArgumentDescs()
+    '''returns IloArgumentDesc[]\n\n
+    getArgumentDescs()\n
     '''
 def getStartTagLocation():
-    '''public IloXMLLocation getStartTagLocation()
+    '''returns IloXMLLocation\n\n
+    getStartTagLocation()\n
     '''

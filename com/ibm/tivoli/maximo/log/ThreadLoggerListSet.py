@@ -1,15 +1,17 @@
-def ThreadLoggerListSet():
-    '''public ThreadLoggerListSet(final MboServerInterface ms)
+def ():
+    '''returns ThreadLoggerListEntries\n\n
+    (final MboServerInterface ms)\n
+    (final String contexname, final String description)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def passValidationList():
-    '''public HashSet<String> passValidationList()
-    '''
-def ThreadLoggerListEntries():
-    '''public ThreadLoggerListEntries(final String contexname, final String description)
+    '''returns HashSet<String>\n\n
+    passValidationList()\n
     '''

@@ -1,6 +1,8 @@
-def TailoredSet():
-    '''public TailoredSet(final UnicodeSet t)
+def ():
+    '''returns TailoredSet\n\n
+    (final UnicodeSet t)\n
     '''
 def forData():
-    '''public void forData(final CollationData d)
+    '''returns None\n\n
+    forData(final CollationData d)\n
     '''

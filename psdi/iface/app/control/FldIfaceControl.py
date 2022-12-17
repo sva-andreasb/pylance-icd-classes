@@ -1,3 +1,4 @@
-def FldIfaceControl():
-    '''public FldIfaceControl(final MboValue mbv)
+def ():
+    '''returns FldIfaceControl\n\n
+    (final MboValue mbv)\n
     '''

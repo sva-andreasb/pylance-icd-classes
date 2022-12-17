@@ -14,39 +14,47 @@ CATALOG_TAG = "String  \"Catalog\""
 ITEM_GROUP_TAG = "String  \"ItemGroup\""
 WBS_TAG = "String  \"WBS\""
 NAME_TAG = "String  \"Name\""
-def UniFormatParser():
-    '''public UniFormatParser(final MessageLogger logger, final String fileName)
+def ():
+    '''returns UniFormatParser\n\n
+    (final MessageLogger logger, final String fileName)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def getRootClass():
-    '''public UniFormat getRootClass()
+    '''returns UniFormat\n\n
+    getRootClass()\n
     '''
 def parseUniFormat():
-    '''public String[] parseUniFormat(final UniFormat parentClass, String[] values)
+    '''returns String[]\n\n
+    parseUniFormat(final UniFormat parentClass, String[] values)\n
     '''
 def buildLevelOneTree():
-    '''public String[] buildLevelOneTree(final UniFormat parentClass, String[] values, final int idx_level)
+    '''returns String[]\n\n
+    buildLevelOneTree(final UniFormat parentClass, String[] values, final int idx_level)\n
     '''
 def buildLevelTwoTree():
-    '''public String[] buildLevelTwoTree(final UniFormat parentClass, String[] values, final int idx_level)
+    '''returns String[]\n\n
+    buildLevelTwoTree(final UniFormat parentClass, String[] values, final int idx_level)\n
     '''
 def buildLevelThreeTree():
-    '''public String[] buildLevelThreeTree(final UniFormat parentClass, String[] values, final int idx_level)
+    '''returns String[]\n\n
+    buildLevelThreeTree(final UniFormat parentClass, String[] values, final int idx_level)\n
     '''
 def validateHeaderRow():
-    '''public String[] validateHeaderRow(String[] values)
+    '''returns String[]\n\n
+    validateHeaderRow(String[] values)\n
     '''
 def parseHeaderRow():
-    '''public String[] parseHeaderRow(String[] values)
+    '''returns String[]\n\n
+    parseHeaderRow(String[] values)\n
     '''
 def buildUniformatClass():
-    '''public UniFormat buildUniformatClass(final int idx_level, final String[] values, final int level)
+    '''returns UniFormat\n\n
+    buildUniformatClass(final int idx_level, final String[] values, final int level)\n
     '''
 def buildUniformatXMLClass():
-    '''public UniFormat buildUniformatXMLClass(final XmlnputTokenizer _tokenizer, final int level, final HashMap<Integer, String> wbs)
-    '''
-def main():
-    '''public static void main(final String[] args)
+    '''returns UniFormat\n\n
+    buildUniformatXMLClass(final XmlnputTokenizer _tokenizer, final int level, final HashMap<Integer, String> wbs)\n
     '''

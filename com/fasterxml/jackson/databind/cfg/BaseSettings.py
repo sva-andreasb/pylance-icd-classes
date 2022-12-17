@@ -1,68 +1,90 @@
-def BaseSettings():
-    '''public BaseSettings(final ClassIntrospector ci, final AnnotationIntrospector ai, final PropertyNamingStrategy pns, final TypeFactory tf, final TypeResolverBuilder<?> typer, final DateFormat dateFormat, final HandlerInstantiator hi, final Locale locale, final TimeZone tz, final Base64Variant defaultBase64)
+def ():
+    '''returns BaseSettings\n\n
+    (final ClassIntrospector ci, final AnnotationIntrospector ai, final PropertyNamingStrategy pns, final TypeFactory tf, final TypeResolverBuilder<?> typer, final DateFormat dateFormat, final HandlerInstantiator hi, final Locale locale, final TimeZone tz, final Base64Variant defaultBase64)\n
     '''
 def copy():
-    '''public BaseSettings copy()
+    '''returns BaseSettings\n\n
+    copy()\n
     '''
 def withClassIntrospector():
-    '''public BaseSettings withClassIntrospector(final ClassIntrospector ci)
+    '''returns BaseSettings\n\n
+    withClassIntrospector(final ClassIntrospector ci)\n
     '''
 def withAnnotationIntrospector():
-    '''public BaseSettings withAnnotationIntrospector(final AnnotationIntrospector ai)
+    '''returns BaseSettings\n\n
+    withAnnotationIntrospector(final AnnotationIntrospector ai)\n
     '''
 def withInsertedAnnotationIntrospector():
-    '''public BaseSettings withInsertedAnnotationIntrospector(final AnnotationIntrospector ai)
+    '''returns BaseSettings\n\n
+    withInsertedAnnotationIntrospector(final AnnotationIntrospector ai)\n
     '''
 def withAppendedAnnotationIntrospector():
-    '''public BaseSettings withAppendedAnnotationIntrospector(final AnnotationIntrospector ai)
+    '''returns BaseSettings\n\n
+    withAppendedAnnotationIntrospector(final AnnotationIntrospector ai)\n
     '''
 def withPropertyNamingStrategy():
-    '''public BaseSettings withPropertyNamingStrategy(final PropertyNamingStrategy pns)
+    '''returns BaseSettings\n\n
+    withPropertyNamingStrategy(final PropertyNamingStrategy pns)\n
     '''
 def withTypeFactory():
-    '''public BaseSettings withTypeFactory(final TypeFactory tf)
+    '''returns BaseSettings\n\n
+    withTypeFactory(final TypeFactory tf)\n
     '''
 def withTypeResolverBuilder():
-    '''public BaseSettings withTypeResolverBuilder(final TypeResolverBuilder<?> typer)
+    '''returns BaseSettings\n\n
+    withTypeResolverBuilder(final TypeResolverBuilder<?> typer)\n
     '''
 def withDateFormat():
-    '''public BaseSettings withDateFormat(DateFormat df)
+    '''returns BaseSettings\n\n
+    withDateFormat(DateFormat df)\n
     '''
 def withHandlerInstantiator():
-    '''public BaseSettings withHandlerInstantiator(final HandlerInstantiator hi)
+    '''returns BaseSettings\n\n
+    withHandlerInstantiator(final HandlerInstantiator hi)\n
     '''
 def with():
-    '''public BaseSettings with(final Locale l)
-    public BaseSettings with(final TimeZone tz)
-    public BaseSettings with(final Base64Variant base64)
+    '''returns BaseSettings\n\n
+    with(final Locale l)\n
+    with(final TimeZone tz)\n
+    with(final Base64Variant base64)\n
     '''
 def getClassIntrospector():
-    '''public ClassIntrospector getClassIntrospector()
+    '''returns ClassIntrospector\n\n
+    getClassIntrospector()\n
     '''
 def getAnnotationIntrospector():
-    '''public AnnotationIntrospector getAnnotationIntrospector()
+    '''returns AnnotationIntrospector\n\n
+    getAnnotationIntrospector()\n
     '''
 def getPropertyNamingStrategy():
-    '''public PropertyNamingStrategy getPropertyNamingStrategy()
+    '''returns PropertyNamingStrategy\n\n
+    getPropertyNamingStrategy()\n
     '''
 def getTypeFactory():
-    '''public TypeFactory getTypeFactory()
+    '''returns TypeFactory\n\n
+    getTypeFactory()\n
     '''
 def getDateFormat():
-    '''public DateFormat getDateFormat()
+    '''returns DateFormat\n\n
+    getDateFormat()\n
     '''
 def getHandlerInstantiator():
-    '''public HandlerInstantiator getHandlerInstantiator()
+    '''returns HandlerInstantiator\n\n
+    getHandlerInstantiator()\n
     '''
 def getLocale():
-    '''public Locale getLocale()
+    '''returns Locale\n\n
+    getLocale()\n
     '''
 def getTimeZone():
-    '''public TimeZone getTimeZone()
+    '''returns TimeZone\n\n
+    getTimeZone()\n
     '''
 def hasExplicitTimeZone():
-    '''public boolean hasExplicitTimeZone()
+    '''returns boolean\n\n
+    hasExplicitTimeZone()\n
     '''
 def getBase64Variant():
-    '''public Base64Variant getBase64Variant()
+    '''returns Base64Variant\n\n
+    getBase64Variant()\n
     '''

@@ -1,39 +1,33 @@
 def setIntervalSeconds():
-    '''public void setIntervalSeconds(final int intervalSeconds_)
+    '''returns None\n\n
+    setIntervalSeconds(final int intervalSeconds_)\n
     '''
-def PeriodicTask():
-    '''public PeriodicTask(final MonitorAgentImpl referent)
+def ():
+    '''returns ShutdownHookRunnable\n\n
+    (final MonitorAgentImpl referent)\n
+    (final PeriodicTask periodicTask_, final String name_)\n
+    (final TimerTask tt_)\n
     '''
 def cancel():
-    '''public boolean cancel()
+    '''returns boolean\n\n
+    cancel()\n
     '''
 def isCancelled():
-    '''public boolean isCancelled()
+    '''returns boolean\n\n
+    isCancelled()\n
     '''
 def run():
-    '''public void run()
-    public void run(final MonitorAgentImpl monitorAgentImpl)
-    public Thread run()
-    public void run()
+    '''returns None\n\n
+    run()\n
+    run(final MonitorAgentImpl monitorAgentImpl)\n
+    run()\n
+    run()\n
     '''
 def logActiveBeans():
-    '''public void logActiveBeans(final Logger logger)
-    '''
-def aggregateInflight():
-    '''public synchronized void aggregateInflight(final List<DataBeanTransactionExecution> list)
-    '''
-def aggregate():
-    '''public synchronized void aggregate(final List<DataBeanTransactionExecution> list, final int n)
+    '''returns None\n\n
+    logActiveBeans(final Logger logger)\n
     '''
 def createMessage():
-    '''public Message createMessage(final MonitorAgentImpl monitorAgentImpl)
-    '''
-def sendIntervalData():
-    '''public synchronized void sendIntervalData(final MonitorAgentImpl monitorAgentImpl)
-    '''
-def ShutdownHookAction():
-    '''public ShutdownHookAction(final PeriodicTask periodicTask_, final String name_)
-    '''
-def ShutdownHookRunnable():
-    '''public ShutdownHookRunnable(final TimerTask tt_)
+    '''returns Message\n\n
+    createMessage(final MonitorAgentImpl monitorAgentImpl)\n
     '''

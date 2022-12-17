@@ -1,25 +1,29 @@
-def AbstractDeserializer():
-    '''public AbstractDeserializer(final BeanDeserializerBuilder builder, final BeanDescription beanDesc, final Map<String, SettableBeanProperty> backRefProps, final Map<String, SettableBeanProperty> props)
-    public AbstractDeserializer(final BeanDeserializerBuilder builder, final BeanDescription beanDesc, final Map<String, SettableBeanProperty> backRefProps)
-    '''
-def constructForNonPOJO():
-    '''public static AbstractDeserializer constructForNonPOJO(final BeanDescription beanDesc)
+def ():
+    '''returns AbstractDeserializer\n\n
+    (final BeanDeserializerBuilder builder, final BeanDescription beanDesc, final Map<String, SettableBeanProperty> backRefProps, final Map<String, SettableBeanProperty> props)\n
+    (final BeanDeserializerBuilder builder, final BeanDescription beanDesc, final Map<String, SettableBeanProperty> backRefProps)\n
     '''
 def isCachable():
-    '''public boolean isCachable()
+    '''returns boolean\n\n
+    isCachable()\n
     '''
 def supportsUpdate():
-    '''public Boolean supportsUpdate(final DeserializationConfig config)
+    '''returns Boolean\n\n
+    supportsUpdate(final DeserializationConfig config)\n
     '''
 def getObjectIdReader():
-    '''public ObjectIdReader getObjectIdReader()
+    '''returns ObjectIdReader\n\n
+    getObjectIdReader()\n
     '''
 def findBackReference():
-    '''public SettableBeanProperty findBackReference(final String logicalName)
+    '''returns SettableBeanProperty\n\n
+    findBackReference(final String logicalName)\n
     '''
 def deserializeWithType():
-    '''public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
+    '''returns Object\n\n
+    deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)\n
     '''
 def deserialize():
-    '''public Object deserialize(final JsonParser p, final DeserializationContext ctxt)
+    '''returns Object\n\n
+    deserialize(final JsonParser p, final DeserializationContext ctxt)\n
     '''

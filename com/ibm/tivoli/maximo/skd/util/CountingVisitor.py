@@ -1,9 +1,12 @@
-def CountingVisitor():
-    '''public CountingVisitor()
+def ():
+    '''returns CountingVisitor\n\n
+    ()\n
     '''
 def visit():
-    '''public void visit(final IlvHierarchyNode type, final IlvGanttModel model, final Void state)
+    '''returns None\n\n
+    visit(final IlvHierarchyNode type, final IlvGanttModel model, final Void state)\n
     '''
 def getCount():
-    '''public long getCount()
+    '''returns long\n\n
+    getCount()\n
     '''

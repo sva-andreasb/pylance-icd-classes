@@ -1,3 +1,4 @@
 def getBackoffPeriod():
-    '''public int getBackoffPeriod(final int retries)
+    '''returns int\n\n
+    getBackoffPeriod(final int retries)\n
     '''

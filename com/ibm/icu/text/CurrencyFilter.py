@@ -1,50 +1,35 @@
-def all():
-    '''public static CurrencyFilter all()
-    '''
-def now():
-    '''public static CurrencyFilter now()
-    '''
-def onRegion():
-    '''public static CurrencyFilter onRegion(final String region)
-    '''
-def onCurrency():
-    '''public static CurrencyFilter onCurrency(final String currency)
-    '''
-def onDate():
-    '''public static CurrencyFilter onDate(final Date date)
-    public static CurrencyFilter onDate(final long date)
-    '''
-def onDateRange():
-    '''public static CurrencyFilter onDateRange(final Date from, final Date to)
-    public static CurrencyFilter onDateRange(final long from, final long to)
-    '''
-def onTender():
-    '''public static CurrencyFilter onTender()
-    '''
 def withRegion():
-    '''public CurrencyFilter withRegion(final String region)
+    '''returns CurrencyFilter\n\n
+    withRegion(final String region)\n
     '''
 def withCurrency():
-    '''public CurrencyFilter withCurrency(final String currency)
+    '''returns CurrencyFilter\n\n
+    withCurrency(final String currency)\n
     '''
 def withDate():
-    '''public CurrencyFilter withDate(final Date date)
-    public CurrencyFilter withDate(final long date)
+    '''returns CurrencyFilter\n\n
+    withDate(final Date date)\n
+    withDate(final long date)\n
     '''
 def withDateRange():
-    '''public CurrencyFilter withDateRange(final Date from, final Date to)
-    public CurrencyFilter withDateRange(final long from, final long to)
+    '''returns CurrencyFilter\n\n
+    withDateRange(final Date from, final Date to)\n
+    withDateRange(final long from, final long to)\n
     '''
 def withTender():
-    '''public CurrencyFilter withTender()
+    '''returns CurrencyFilter\n\n
+    withTender()\n
     '''
 def equals():
-    '''public boolean equals(final Object rhs)
-    public boolean equals(final CurrencyFilter rhs)
+    '''returns boolean\n\n
+    equals(final Object rhs)\n
+    equals(final CurrencyFilter rhs)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

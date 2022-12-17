@@ -1,3 +1,4 @@
-def RFQStatusSet():
-    '''public RFQStatusSet(final MboServerInterface ms)
+def ():
+    '''returns RFQStatusSet\n\n
+    (final MboServerInterface ms)\n
     '''

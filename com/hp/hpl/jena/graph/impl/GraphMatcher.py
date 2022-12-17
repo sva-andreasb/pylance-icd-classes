@@ -1,26 +1,27 @@
-def equals():
-    '''public static boolean equals(final Graph m1, final Graph m2)
-    public boolean equals(final Object o)
-    '''
-def hashCode():
-    '''public static int hashCode(final Graph g)
-    public int hashCode()
-    '''
-def match():
-    '''public static Node[][] match(final Graph m1, final Graph m2)
-    '''
 def accept():
-    '''public boolean accept(final Bucket o)
+    '''returns boolean\n\n
+    accept(final Bucket o)\n
     '''
 def toString():
-    '''public String toString()
-    public String toString()
+    '''returns String\n\n
+    toString()\n
+    toString()\n
     '''
 def myHashCodeFromStatement():
-    '''public int myHashCodeFromStatement()
-    public int myHashCodeFromStatement()
+    '''returns int\n\n
+    myHashCodeFromStatement()\n
+    myHashCodeFromStatement()\n
     '''
 def mightBeEqual():
-    '''public boolean mightBeEqual(final SomeResource r)
-    public boolean mightBeEqual(final SomeResource r)
+    '''returns boolean\n\n
+    mightBeEqual(final SomeResource r)\n
+    mightBeEqual(final SomeResource r)\n
+    '''
+def equals():
+    '''returns boolean\n\n
+    equals(final Object o)\n
+    '''
+def hashCode():
+    '''returns int\n\n
+    hashCode()\n
     '''

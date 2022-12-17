@@ -1,10 +1,12 @@
 def intercept():
-    '''public void intercept(final HttpRequest request, final String accessToken)
-    public void intercept(final HttpRequest request, final String accessToken)
-    public void intercept(final HttpRequest request, final String accessToken)
+    '''returns None\n\n
+    intercept(final HttpRequest request, final String accessToken)\n
+    intercept(final HttpRequest request, final String accessToken)\n
+    intercept(final HttpRequest request, final String accessToken)\n
     '''
 def getAccessTokenFromRequest():
-    '''public String getAccessTokenFromRequest(final HttpRequest request)
-    public String getAccessTokenFromRequest(final HttpRequest request)
-    public String getAccessTokenFromRequest(final HttpRequest request)
+    '''returns String\n\n
+    getAccessTokenFromRequest(final HttpRequest request)\n
+    getAccessTokenFromRequest(final HttpRequest request)\n
+    getAccessTokenFromRequest(final HttpRequest request)\n
     '''

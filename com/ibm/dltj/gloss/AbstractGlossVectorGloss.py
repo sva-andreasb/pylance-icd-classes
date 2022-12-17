@@ -1,41 +1,53 @@
-def AbstractGlossVectorGloss():
-    '''public AbstractGlossVectorGloss()
-    public AbstractGlossVectorGloss(final Gloss[] array)
+def ():
+    '''returns AbstractGlossVectorGloss\n\n
+    ()\n
+    (final Gloss[] array)\n
     '''
 def numChildren():
-    '''public int numChildren()
+    '''returns int\n\n
+    numChildren()\n
     '''
 def getChild():
-    '''public Gloss getChild(final int n)
+    '''returns Gloss\n\n
+    getChild(final int n)\n
     '''
 def setChild():
-    '''public void setChild(final int n, final Gloss gloss)
+    '''returns None\n\n
+    setChild(final int n, final Gloss gloss)\n
     '''
 def read_():
-    '''public void read_(final DataInputStream dataInputStream, final int n)
+    '''returns None\n\n
+    read_(final DataInputStream dataInputStream, final int n)\n
     '''
 def write_():
-    '''public void write_(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''returns None\n\n
+    write_(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)\n
     '''
 def recalcPointers():
-    '''public void recalcPointers(final Gloss[] array)
+    '''returns None\n\n
+    recalcPointers(final Gloss[] array)\n
     '''
 def hashCode_():
-    '''public int hashCode_()
+    '''returns int\n\n
+    hashCode_()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def getRtData():
-    '''public int getRtData()
+    '''returns int\n\n
+    getRtData()\n
     '''
 def setRtData():
-    '''public void setRtData(final int rtData)
+    '''returns None\n\n
+    setRtData(final int rtData)\n
     '''
 def getGloss():
-    '''public final Gloss getGloss(final Class clazz)
-    public Gloss getGloss(final int n)
+    '''returns Gloss\n\n
+    getGloss(final int n)\n
     '''

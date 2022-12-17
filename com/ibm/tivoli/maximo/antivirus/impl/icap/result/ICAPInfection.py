@@ -1,21 +1,28 @@
 def getType():
-    '''public TYPE getType()
+    '''returns TYPE\n\n
+    getType()\n
     '''
 def setType():
-    '''public void setType(final int type)
+    '''returns None\n\n
+    setType(final int type)\n
     '''
 def getResolution():
-    '''public RESOLUTION getResolution()
+    '''returns RESOLUTION\n\n
+    getResolution()\n
     '''
 def setResolution():
-    '''public void setResolution(final int resolution)
+    '''returns None\n\n
+    setResolution(final int resolution)\n
     '''
 def getThreat():
-    '''public String getThreat()
+    '''returns String\n\n
+    getThreat()\n
     '''
 def setThreat():
-    '''public void setThreat(final String threat)
+    '''returns None\n\n
+    setThreat(final String threat)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,25 +1,33 @@
-def MappingObjectsNPSet():
-    '''public MappingObjectsNPSet(final MboServerInterface ms)
+def ():
+    '''returns MappingObjectsNPSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def fillOSPath():
-    '''public void fillOSPath(final MboSetRemote parent, final MboRemote thisMbo)
+    '''returns None\n\n
+    fillOSPath(final MboSetRemote parent, final MboRemote thisMbo)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def fillProperties():
-    '''public void fillProperties(final JSONObjectInfo objectInfo, final String propPath, final String direction)
+    '''returns None\n\n
+    fillProperties(final JSONObjectInfo objectInfo, final String propPath, final String direction)\n
     '''
 def fillAttributes():
-    '''public void fillAttributes(final MosDetailInfo objectInfo, final String objectPath)
+    '''returns None\n\n
+    fillAttributes(final MosDetailInfo objectInfo, final String objectPath)\n
     '''
 def fillPropertyPath():
-    '''public void fillPropertyPath(final JSONObjectInfo objectInfo, final String parentPath)
-    public void fillPropertyPath(final MboSetRemote parent, final MboRemote thisMbo)
+    '''returns None\n\n
+    fillPropertyPath(final JSONObjectInfo objectInfo, final String parentPath)\n
+    fillPropertyPath(final MboSetRemote parent, final MboRemote thisMbo)\n
     '''
 def addObjectInfo():
-    '''public void addObjectInfo(final MosDetailInfo mdi)
+    '''returns None\n\n
+    addObjectInfo(final MosDetailInfo mdi)\n
     '''
 def addPropertyInfo():
-    '''public void addPropertyInfo(final JSONObjectInfo objectInfo, final String parentPath)
+    '''returns None\n\n
+    addPropertyInfo(final JSONObjectInfo objectInfo, final String parentPath)\n
     '''

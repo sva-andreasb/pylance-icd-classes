@@ -1,3 +1,4 @@
 def merge():
-    '''public void merge(final LDAPMessageQueue ldapMessageQueue)
+    '''returns None\n\n
+    merge(final LDAPMessageQueue ldapMessageQueue)\n
     '''

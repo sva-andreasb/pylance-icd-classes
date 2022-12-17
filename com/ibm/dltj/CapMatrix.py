@@ -1,106 +1,72 @@
-def CapMatrix():
-    '''public CapMatrix(final String dataSpec)
-    '''
-def getAvailableLangs():
-    '''public synchronized String[] getAvailableLangs()
+def ():
+    '''returns CapMatrix\n\n
+    (final String dataSpec)\n
     '''
 def getAvailableFuncs():
-    '''public Integer[] getAvailableFuncs(final Locale locale)
-    public Integer[] getAvailableFuncs(final String s)
-    '''
-def getEntryByFilename():
-    '''public synchronized Entry getEntryByFilename(final String anotherString)
-    '''
-def getEntryByFile():
-    '''public synchronized Entry getEntryByFile(final File file)
+    '''returns Integer[]\n\n
+    getAvailableFuncs(final Locale locale)\n
+    getAvailableFuncs(final String s)\n
     '''
 def getAvailableEntries():
-    '''public Entry[] getAvailableEntries(final String s, final int n)
-    public Entry[] getAvailableEntries(final String s, final int[] array)
+    '''returns Entry[]\n\n
+    getAvailableEntries(final String s, final int n)\n
+    getAvailableEntries(final String s, final int[] array)\n
     '''
 def getEntries():
-    '''public Entry[] getEntries(final Locale locale, final int[] array)
-    '''
-def getAllEntries():
-    '''public synchronized Entry[] getAllEntries()
+    '''returns Entry[]\n\n
+    getEntries(final Locale locale, final int[] array)\n
     '''
 def getAvailableFiles():
-    '''public File[] getAvailableFiles(final Locale locale, final int n)
-    public File[] getAvailableFiles(final String s, final int n)
-    '''
-def getActivatedDicts():
-    '''public synchronized Dictionary[] getActivatedDicts()
-    '''
-def activate():
-    '''public synchronized Entry[] activate(final Locale locale, final int n)
-    public synchronized Entry[] activate(final String s, final int n)
-    public synchronized Dictionary activate()
-    public synchronized Dictionary activate(final boolean b)
-    public synchronized Dictionary activate(final boolean b, final boolean b2)
-    public synchronized Dictionary activate(final int n)
-    '''
-def deactivateAll():
-    '''public synchronized void deactivateAll()
-    '''
-def deactivateFuzzy():
-    '''public synchronized void deactivateFuzzy(final int n)
-    '''
-def registerDictionary():
-    '''public synchronized Entry registerDictionary(final File file, final Dictionary dictionary)
-    '''
-def registerEntry():
-    '''public synchronized void registerEntry(final Entry e)
-    '''
-def getDataSpec():
-    '''public synchronized String getDataSpec()
-    '''
-def setDataSpec():
-    '''public synchronized void setDataSpec(final String s)
-    public synchronized void setDataSpec(String theDataSpec, final boolean b)
+    '''returns File[]\n\n
+    getAvailableFiles(final Locale locale, final int n)\n
+    getAvailableFiles(final String s, final int n)\n
     '''
 def setDictCacheSize():
-    '''public void setDictCacheSize(final int n)
+    '''returns None\n\n
+    setDictCacheSize(final int n)\n
     '''
 def getDictCacheSize():
-    '''public int getDictCacheSize()
+    '''returns int\n\n
+    getDictCacheSize()\n
     '''
 def compare():
-    '''public int compare(final Object o, final Object o2)
-    public int compare(final Object o, final Object o2)
+    '''returns int\n\n
+    compare(final Object o, final Object o2)\n
+    compare(final Object o, final Object o2)\n
     '''
 def getFile():
-    '''public File getFile()
-    '''
-def getDictInfo():
-    '''public synchronized DictionaryInfo getDictInfo()
+    '''returns File\n\n
+    getFile()\n
     '''
 def getDict():
-    '''public Dictionary getDict()
-    '''
-def deactivate():
-    '''public synchronized void deactivate()
-    '''
-def isActivated():
-    '''public synchronized boolean isActivated()
+    '''returns Dictionary\n\n
+    getDict()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def getActivatedTime():
-    '''public long getActivatedTime()
+    '''returns long\n\n
+    getActivatedTime()\n
     '''
 def isNoDeactivateFuzzy():
-    '''public boolean isNoDeactivateFuzzy()
+    '''returns boolean\n\n
+    isNoDeactivateFuzzy()\n
     '''
 def setNoDeactivateFuzzy():
-    '''public void setNoDeactivateFuzzy(final boolean noDeactivateFuzzy)
+    '''returns None\n\n
+    setNoDeactivateFuzzy(final boolean noDeactivateFuzzy)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''

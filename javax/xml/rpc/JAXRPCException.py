@@ -1,9 +1,11 @@
-def JAXRPCException():
-    '''public JAXRPCException()
-    public JAXRPCException(final String message)
-    public JAXRPCException(final String message, final Throwable cause)
-    public JAXRPCException(final Throwable cause)
+def ():
+    '''returns JAXRPCException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable cause)\n
+    (final String message, final Throwable cause)\n
     '''
 def getLinkedCause():
-    '''public Throwable getLinkedCause()
+    '''returns Throwable\n\n
+    getLinkedCause()\n
     '''

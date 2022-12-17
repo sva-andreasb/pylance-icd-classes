@@ -1,3 +1,4 @@
 def LISTFAILURECODES():
-    '''public int LISTFAILURECODES()
+    '''returns int\n\n
+    LISTFAILURECODES()\n
     '''

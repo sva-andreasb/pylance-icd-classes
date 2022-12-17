@@ -1,3 +1,4 @@
-def ClearMessage():
-    '''public ClearMessage()
+def ():
+    '''returns ClearMessage\n\n
+    ()\n
     '''

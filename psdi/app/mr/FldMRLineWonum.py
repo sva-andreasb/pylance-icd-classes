@@ -1,3 +1,4 @@
-def FldMRLineWonum():
-    '''public FldMRLineWonum(final MboValue mbv)
+def ():
+    '''returns FldMRLineWonum\n\n
+    (final MboValue mbv)\n
     '''

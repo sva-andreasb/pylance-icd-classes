@@ -1,6 +1,8 @@
 def restdef():
-    '''public int restdef()
+    '''returns int\n\n
+    restdef()\n
     '''
 def restglobdef():
-    '''public int restglobdef()
+    '''returns int\n\n
+    restglobdef()\n
     '''

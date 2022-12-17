@@ -1,3 +1,4 @@
-def ExcludePassword():
-    '''public ExcludePassword(final MboSet ms)
+def ():
+    '''returns ExcludePassword\n\n
+    (final MboSet ms)\n
     '''

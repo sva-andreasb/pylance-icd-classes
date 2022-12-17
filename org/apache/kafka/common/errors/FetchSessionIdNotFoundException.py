@@ -1,4 +1,5 @@
-def FetchSessionIdNotFoundException():
-    '''public FetchSessionIdNotFoundException()
-    public FetchSessionIdNotFoundException(final String message)
+def ():
+    '''returns FetchSessionIdNotFoundException\n\n
+    ()\n
+    (final String message)\n
     '''

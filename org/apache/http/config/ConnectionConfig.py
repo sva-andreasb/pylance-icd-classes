@@ -1,48 +1,56 @@
 def getBufferSize():
-    '''public int getBufferSize()
+    '''returns int\n\n
+    getBufferSize()\n
     '''
 def getFragmentSizeHint():
-    '''public int getFragmentSizeHint()
+    '''returns int\n\n
+    getFragmentSizeHint()\n
     '''
 def getCharset():
-    '''public Charset getCharset()
+    '''returns Charset\n\n
+    getCharset()\n
     '''
 def getMalformedInputAction():
-    '''public CodingErrorAction getMalformedInputAction()
+    '''returns CodingErrorAction\n\n
+    getMalformedInputAction()\n
     '''
 def getUnmappableInputAction():
-    '''public CodingErrorAction getUnmappableInputAction()
+    '''returns CodingErrorAction\n\n
+    getUnmappableInputAction()\n
     '''
 def getMessageConstraints():
-    '''public MessageConstraints getMessageConstraints()
+    '''returns MessageConstraints\n\n
+    getMessageConstraints()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def custom():
-    '''public static Builder custom()
-    '''
-def copy():
-    '''public static Builder copy(final ConnectionConfig config)
+    '''returns String\n\n
+    toString()\n
     '''
 def setBufferSize():
-    '''public Builder setBufferSize(final int bufferSize)
+    '''returns Builder\n\n
+    setBufferSize(final int bufferSize)\n
     '''
 def setFragmentSizeHint():
-    '''public Builder setFragmentSizeHint(final int fragmentSizeHint)
+    '''returns Builder\n\n
+    setFragmentSizeHint(final int fragmentSizeHint)\n
     '''
 def setCharset():
-    '''public Builder setCharset(final Charset charset)
+    '''returns Builder\n\n
+    setCharset(final Charset charset)\n
     '''
 def setMalformedInputAction():
-    '''public Builder setMalformedInputAction(final CodingErrorAction malformedInputAction)
+    '''returns Builder\n\n
+    setMalformedInputAction(final CodingErrorAction malformedInputAction)\n
     '''
 def setUnmappableInputAction():
-    '''public Builder setUnmappableInputAction(final CodingErrorAction unmappableInputAction)
+    '''returns Builder\n\n
+    setUnmappableInputAction(final CodingErrorAction unmappableInputAction)\n
     '''
 def setMessageConstraints():
-    '''public Builder setMessageConstraints(final MessageConstraints messageConstraints)
+    '''returns Builder\n\n
+    setMessageConstraints(final MessageConstraints messageConstraints)\n
     '''
 def build():
-    '''public ConnectionConfig build()
+    '''returns ConnectionConfig\n\n
+    build()\n
     '''

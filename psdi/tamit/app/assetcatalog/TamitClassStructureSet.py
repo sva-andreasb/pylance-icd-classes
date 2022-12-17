@@ -1,6 +1,8 @@
-def TamitClassStructureSet():
-    '''public TamitClassStructureSet(final MboServerInterface ms)
+def ():
+    '''returns TamitClassStructureSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getExceptionsToCustomerFilter():
-    '''public ArrayList<String> getExceptionsToCustomerFilter()
+    '''returns ArrayList<String>\n\n
+    getExceptionsToCustomerFilter()\n
     '''

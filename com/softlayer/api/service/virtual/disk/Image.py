@@ -1,292 +1,384 @@
 def setBillingItem():
-    '''public void setBillingItem(final com.softlayer.api.service.billing.item.virtual.disk.Image billingItem)
+    '''returns None\n\n
+    setBillingItem(final com.softlayer.api.service.billing.item.virtual.disk.Image billingItem)\n
     '''
 def getBlockDevices():
-    '''public List<Device> getBlockDevices()
+    '''returns List<Device>\n\n
+    getBlockDevices()\n
     '''
 def getBootableVolumeFlag():
-    '''public Boolean getBootableVolumeFlag()
+    '''returns Boolean\n\n
+    getBootableVolumeFlag()\n
     '''
 def setBootableVolumeFlag():
-    '''public void setBootableVolumeFlag(final Boolean bootableVolumeFlag)
+    '''returns None\n\n
+    setBootableVolumeFlag(final Boolean bootableVolumeFlag)\n
     '''
 def getCoalescedDiskImages():
-    '''public List<Image> getCoalescedDiskImages()
+    '''returns List<Image>\n\n
+    getCoalescedDiskImages()\n
     '''
 def getCopyOnWriteFlag():
-    '''public Boolean getCopyOnWriteFlag()
+    '''returns Boolean\n\n
+    getCopyOnWriteFlag()\n
     '''
 def setCopyOnWriteFlag():
-    '''public void setCopyOnWriteFlag(final Boolean copyOnWriteFlag)
+    '''returns None\n\n
+    setCopyOnWriteFlag(final Boolean copyOnWriteFlag)\n
     '''
 def getLocalDiskFlag():
-    '''public Boolean getLocalDiskFlag()
+    '''returns Boolean\n\n
+    getLocalDiskFlag()\n
     '''
 def setLocalDiskFlag():
-    '''public void setLocalDiskFlag(final Boolean localDiskFlag)
+    '''returns None\n\n
+    setLocalDiskFlag(final Boolean localDiskFlag)\n
     '''
 def getMetadataFlag():
-    '''public Boolean getMetadataFlag()
+    '''returns Boolean\n\n
+    getMetadataFlag()\n
     '''
 def setMetadataFlag():
-    '''public void setMetadataFlag(final Boolean metadataFlag)
+    '''returns None\n\n
+    setMetadataFlag(final Boolean metadataFlag)\n
     '''
 def getSoftwareReferences():
-    '''public List<Software> getSoftwareReferences()
+    '''returns List<Software>\n\n
+    getSoftwareReferences()\n
     '''
 def getSourceDiskImage():
-    '''public Image getSourceDiskImage()
+    '''returns Image\n\n
+    getSourceDiskImage()\n
     '''
 def setSourceDiskImage():
-    '''public void setSourceDiskImage(final Image sourceDiskImage)
+    '''returns None\n\n
+    setSourceDiskImage(final Image sourceDiskImage)\n
     '''
 def getStorageRepository():
-    '''public Repository getStorageRepository()
+    '''returns Repository\n\n
+    getStorageRepository()\n
     '''
 def setStorageRepository():
-    '''public void setStorageRepository(final Repository storageRepository)
+    '''returns None\n\n
+    setStorageRepository(final Repository storageRepository)\n
     '''
 def setStorageRepositoryType():
-    '''public void setStorageRepositoryType(final com.softlayer.api.service.virtual.storage.repository.Type storageRepositoryType)
+    '''returns None\n\n
+    setStorageRepositoryType(final com.softlayer.api.service.virtual.storage.repository.Type storageRepositoryType)\n
     '''
 def getTemplateBlockDevice():
-    '''public Template getTemplateBlockDevice()
+    '''returns Template\n\n
+    getTemplateBlockDevice()\n
     '''
 def setTemplateBlockDevice():
-    '''public void setTemplateBlockDevice(final Template templateBlockDevice)
+    '''returns None\n\n
+    setTemplateBlockDevice(final Template templateBlockDevice)\n
     '''
 def setType():
-    '''public void setType(final com.softlayer.api.service.virtual.disk.image.Type type)
+    '''returns None\n\n
+    setType(final com.softlayer.api.service.virtual.disk.image.Type type)\n
     '''
 def getCapacity():
-    '''public Long getCapacity()
+    '''returns Long\n\n
+    getCapacity()\n
     '''
 def setCapacity():
-    '''public void setCapacity(final Long capacity)
+    '''returns None\n\n
+    setCapacity(final Long capacity)\n
     '''
 def isCapacitySpecified():
-    '''public boolean isCapacitySpecified()
+    '''returns boolean\n\n
+    isCapacitySpecified()\n
     '''
 def unsetCapacity():
-    '''public void unsetCapacity()
+    '''returns None\n\n
+    unsetCapacity()\n
     '''
 def getChecksum():
-    '''public String getChecksum()
+    '''returns String\n\n
+    getChecksum()\n
     '''
 def setChecksum():
-    '''public void setChecksum(final String checksum)
+    '''returns None\n\n
+    setChecksum(final String checksum)\n
     '''
 def isChecksumSpecified():
-    '''public boolean isChecksumSpecified()
+    '''returns boolean\n\n
+    isChecksumSpecified()\n
     '''
 def unsetChecksum():
-    '''public void unsetChecksum()
+    '''returns None\n\n
+    unsetChecksum()\n
     '''
 def getCreateDate():
-    '''public GregorianCalendar getCreateDate()
+    '''returns GregorianCalendar\n\n
+    getCreateDate()\n
     '''
 def setCreateDate():
-    '''public void setCreateDate(final GregorianCalendar createDate)
+    '''returns None\n\n
+    setCreateDate(final GregorianCalendar createDate)\n
     '''
 def isCreateDateSpecified():
-    '''public boolean isCreateDateSpecified()
+    '''returns boolean\n\n
+    isCreateDateSpecified()\n
     '''
 def unsetCreateDate():
-    '''public void unsetCreateDate()
+    '''returns None\n\n
+    unsetCreateDate()\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def isDescriptionSpecified():
-    '''public boolean isDescriptionSpecified()
+    '''returns boolean\n\n
+    isDescriptionSpecified()\n
     '''
 def unsetDescription():
-    '''public void unsetDescription()
+    '''returns None\n\n
+    unsetDescription()\n
     '''
 def getId():
-    '''public Long getId()
+    '''returns Long\n\n
+    getId()\n
     '''
 def setId():
-    '''public void setId(final Long id)
+    '''returns None\n\n
+    setId(final Long id)\n
     '''
 def isIdSpecified():
-    '''public boolean isIdSpecified()
+    '''returns boolean\n\n
+    isIdSpecified()\n
     '''
 def unsetId():
-    '''public void unsetId()
+    '''returns None\n\n
+    unsetId()\n
     '''
 def getModifyDate():
-    '''public GregorianCalendar getModifyDate()
+    '''returns GregorianCalendar\n\n
+    getModifyDate()\n
     '''
 def setModifyDate():
-    '''public void setModifyDate(final GregorianCalendar modifyDate)
+    '''returns None\n\n
+    setModifyDate(final GregorianCalendar modifyDate)\n
     '''
 def isModifyDateSpecified():
-    '''public boolean isModifyDateSpecified()
+    '''returns boolean\n\n
+    isModifyDateSpecified()\n
     '''
 def unsetModifyDate():
-    '''public void unsetModifyDate()
+    '''returns None\n\n
+    unsetModifyDate()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def isNameSpecified():
-    '''public boolean isNameSpecified()
+    '''returns boolean\n\n
+    isNameSpecified()\n
     '''
 def unsetName():
-    '''public void unsetName()
+    '''returns None\n\n
+    unsetName()\n
     '''
 def getParentId():
-    '''public Long getParentId()
+    '''returns Long\n\n
+    getParentId()\n
     '''
 def setParentId():
-    '''public void setParentId(final Long parentId)
+    '''returns None\n\n
+    setParentId(final Long parentId)\n
     '''
 def isParentIdSpecified():
-    '''public boolean isParentIdSpecified()
+    '''returns boolean\n\n
+    isParentIdSpecified()\n
     '''
 def unsetParentId():
-    '''public void unsetParentId()
+    '''returns None\n\n
+    unsetParentId()\n
     '''
 def getStorageRepositoryId():
-    '''public Long getStorageRepositoryId()
+    '''returns Long\n\n
+    getStorageRepositoryId()\n
     '''
 def setStorageRepositoryId():
-    '''public void setStorageRepositoryId(final Long storageRepositoryId)
+    '''returns None\n\n
+    setStorageRepositoryId(final Long storageRepositoryId)\n
     '''
 def isStorageRepositoryIdSpecified():
-    '''public boolean isStorageRepositoryIdSpecified()
+    '''returns boolean\n\n
+    isStorageRepositoryIdSpecified()\n
     '''
 def unsetStorageRepositoryId():
-    '''public void unsetStorageRepositoryId()
+    '''returns None\n\n
+    unsetStorageRepositoryId()\n
     '''
 def getTypeId():
-    '''public Long getTypeId()
+    '''returns Long\n\n
+    getTypeId()\n
     '''
 def setTypeId():
-    '''public void setTypeId(final Long typeId)
+    '''returns None\n\n
+    setTypeId(final Long typeId)\n
     '''
 def isTypeIdSpecified():
-    '''public boolean isTypeIdSpecified()
+    '''returns boolean\n\n
+    isTypeIdSpecified()\n
     '''
 def unsetTypeId():
-    '''public void unsetTypeId()
+    '''returns None\n\n
+    unsetTypeId()\n
     '''
 def getUnits():
-    '''public String getUnits()
+    '''returns String\n\n
+    getUnits()\n
     '''
 def setUnits():
-    '''public void setUnits(final String units)
+    '''returns None\n\n
+    setUnits(final String units)\n
     '''
 def isUnitsSpecified():
-    '''public boolean isUnitsSpecified()
+    '''returns boolean\n\n
+    isUnitsSpecified()\n
     '''
 def unsetUnits():
-    '''public void unsetUnits()
+    '''returns None\n\n
+    unsetUnits()\n
     '''
 def getUuid():
-    '''public String getUuid()
+    '''returns String\n\n
+    getUuid()\n
     '''
 def setUuid():
-    '''public void setUuid(final String uuid)
+    '''returns None\n\n
+    setUuid(final String uuid)\n
     '''
 def isUuidSpecified():
-    '''public boolean isUuidSpecified()
+    '''returns boolean\n\n
+    isUuidSpecified()\n
     '''
 def unsetUuid():
-    '''public void unsetUuid()
+    '''returns None\n\n
+    unsetUuid()\n
     '''
 def getBlockDeviceCount():
-    '''public Long getBlockDeviceCount()
+    '''returns Long\n\n
+    getBlockDeviceCount()\n
     '''
 def setBlockDeviceCount():
-    '''public void setBlockDeviceCount(final Long blockDeviceCount)
+    '''returns None\n\n
+    setBlockDeviceCount(final Long blockDeviceCount)\n
     '''
 def getCoalescedDiskImageCount():
-    '''public Long getCoalescedDiskImageCount()
+    '''returns Long\n\n
+    getCoalescedDiskImageCount()\n
     '''
 def setCoalescedDiskImageCount():
-    '''public void setCoalescedDiskImageCount(final Long coalescedDiskImageCount)
+    '''returns None\n\n
+    setCoalescedDiskImageCount(final Long coalescedDiskImageCount)\n
     '''
 def getSoftwareReferenceCount():
-    '''public Long getSoftwareReferenceCount()
+    '''returns Long\n\n
+    getSoftwareReferenceCount()\n
     '''
 def setSoftwareReferenceCount():
-    '''public void setSoftwareReferenceCount(final Long softwareReferenceCount)
+    '''returns None\n\n
+    setSoftwareReferenceCount(final Long softwareReferenceCount)\n
     '''
 def asService():
-    '''public Service asService(final ApiClient client)
-    '''
-def service():
-    '''public static Service service(final ApiClient client)
-    public static Service service(final ApiClient client, final Long id)
+    '''returns Service\n\n
+    asService(final ApiClient client)\n
     '''
 def bootableVolumeFlag():
-    '''public Mask bootableVolumeFlag()
+    '''returns Mask\n\n
+    bootableVolumeFlag()\n
     '''
 def coalescedDiskImages():
-    '''public Mask coalescedDiskImages()
+    '''returns Mask\n\n
+    coalescedDiskImages()\n
     '''
 def copyOnWriteFlag():
-    '''public Mask copyOnWriteFlag()
+    '''returns Mask\n\n
+    copyOnWriteFlag()\n
     '''
 def localDiskFlag():
-    '''public Mask localDiskFlag()
+    '''returns Mask\n\n
+    localDiskFlag()\n
     '''
 def metadataFlag():
-    '''public Mask metadataFlag()
+    '''returns Mask\n\n
+    metadataFlag()\n
     '''
 def sourceDiskImage():
-    '''public Mask sourceDiskImage()
+    '''returns Mask\n\n
+    sourceDiskImage()\n
     '''
 def capacity():
-    '''public Mask capacity()
+    '''returns Mask\n\n
+    capacity()\n
     '''
 def checksum():
-    '''public Mask checksum()
+    '''returns Mask\n\n
+    checksum()\n
     '''
 def createDate():
-    '''public Mask createDate()
+    '''returns Mask\n\n
+    createDate()\n
     '''
 def description():
-    '''public Mask description()
+    '''returns Mask\n\n
+    description()\n
     '''
 def id():
-    '''public Mask id()
+    '''returns Mask\n\n
+    id()\n
     '''
 def modifyDate():
-    '''public Mask modifyDate()
+    '''returns Mask\n\n
+    modifyDate()\n
     '''
 def name():
-    '''public Mask name()
+    '''returns Mask\n\n
+    name()\n
     '''
 def parentId():
-    '''public Mask parentId()
+    '''returns Mask\n\n
+    parentId()\n
     '''
 def storageRepositoryId():
-    '''public Mask storageRepositoryId()
+    '''returns Mask\n\n
+    storageRepositoryId()\n
     '''
 def typeId():
-    '''public Mask typeId()
+    '''returns Mask\n\n
+    typeId()\n
     '''
 def units():
-    '''public Mask units()
+    '''returns Mask\n\n
+    units()\n
     '''
 def uuid():
-    '''public Mask uuid()
+    '''returns Mask\n\n
+    uuid()\n
     '''
 def blockDeviceCount():
-    '''public Mask blockDeviceCount()
+    '''returns Mask\n\n
+    blockDeviceCount()\n
     '''
 def coalescedDiskImageCount():
-    '''public Mask coalescedDiskImageCount()
+    '''returns Mask\n\n
+    coalescedDiskImageCount()\n
     '''
 def softwareReferenceCount():
-    '''public Mask softwareReferenceCount()
+    '''returns Mask\n\n
+    softwareReferenceCount()\n
     '''

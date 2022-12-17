@@ -1,3 +1,4 @@
-def InvPickListSet():
-    '''public InvPickListSet(final MboServerInterface ms)
+def ():
+    '''returns InvPickListSet\n\n
+    (final MboServerInterface ms)\n
     '''

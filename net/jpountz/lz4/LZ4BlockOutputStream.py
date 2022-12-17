@@ -1,23 +1,29 @@
-def LZ4BlockOutputStream():
-    '''public LZ4BlockOutputStream(final OutputStream out, final int blockSize, final LZ4Compressor compressor, final Checksum checksum, final boolean syncFlush)
-    public LZ4BlockOutputStream(final OutputStream out, final int blockSize, final LZ4Compressor compressor)
-    public LZ4BlockOutputStream(final OutputStream out, final int blockSize)
-    public LZ4BlockOutputStream(final OutputStream out)
+def ():
+    '''returns LZ4BlockOutputStream\n\n
+    (final OutputStream out, final int blockSize, final LZ4Compressor compressor, final Checksum checksum, final boolean syncFlush)\n
+    (final OutputStream out, final int blockSize, final LZ4Compressor compressor)\n
+    (final OutputStream out, final int blockSize)\n
+    (final OutputStream out)\n
     '''
 def write():
-    '''public void write(final int b)
-    public void write(final byte[] b, int off, int len)
-    public void write(final byte[] b)
+    '''returns None\n\n
+    write(final int b)\n
+    write(final byte[] b, int off, int len)\n
+    write(final byte[] b)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def finish():
-    '''public void finish()
+    '''returns None\n\n
+    finish()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

@@ -1,3 +1,4 @@
-def ConversionException():
-    '''public ConversionException(final String msg)
+def ():
+    '''returns ConversionException\n\n
+    (final String msg)\n
     '''

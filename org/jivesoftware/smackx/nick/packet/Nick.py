@@ -1,23 +1,30 @@
 NAMESPACE = "String  \"http://jabber.org/protocol/nick\""
 ELEMENT_NAME = "String  \"nick\""
-def Nick():
-    '''public Nick(final String name)
+def ():
+    '''returns Nick\n\n
+    (final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getElementName():
-    '''public String getElementName()
+    '''returns String\n\n
+    getElementName()\n
     '''
 def getNamespace():
-    '''public String getNamespace()
+    '''returns String\n\n
+    getNamespace()\n
     '''
 def toXML():
-    '''public String toXML(final String enclosingNamespace)
+    '''returns String\n\n
+    toXML(final String enclosingNamespace)\n
     '''
 def parse():
-    '''public Nick parse(final XmlPullParser parser, final int initialDepth)
+    '''returns Nick\n\n
+    parse(final XmlPullParser parser, final int initialDepth)\n
     '''

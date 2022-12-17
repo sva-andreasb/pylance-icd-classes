@@ -1,9 +1,8 @@
-def createPolicy():
-    '''public static NoOpTriggeringPolicy createPolicy()
-    '''
 def initialize():
-    '''public void initialize(final RollingFileManager manager)
+    '''returns None\n\n
+    initialize(final RollingFileManager manager)\n
     '''
 def isTriggeringEvent():
-    '''public boolean isTriggeringEvent(final LogEvent logEvent)
+    '''returns boolean\n\n
+    isTriggeringEvent(final LogEvent logEvent)\n
     '''

@@ -1,39 +1,51 @@
 def clone():
-    '''public Object clone()
+    '''returns Object\n\n
+    clone()\n
     '''
 def getMBeanDescriptor():
-    '''public Descriptor getMBeanDescriptor()
+    '''returns Descriptor\n\n
+    getMBeanDescriptor()\n
     '''
 def setMBeanDescriptor():
-    '''public void setMBeanDescriptor(final Descriptor descriptor)
+    '''returns None\n\n
+    setMBeanDescriptor(final Descriptor descriptor)\n
     '''
 def setDescriptors():
-    '''public void setDescriptors(final Descriptor[] array)
+    '''returns None\n\n
+    setDescriptors(final Descriptor[] array)\n
     '''
-def ModelMBeanInfoSupport():
-    '''public ModelMBeanInfoSupport(final ModelMBeanInfo modelMBeanInfo)
-    public ModelMBeanInfoSupport(final String s, final String s2, final ModelMBeanAttributeInfo[] array, final ModelMBeanConstructorInfo[] array2, final ModelMBeanOperationInfo[] array3, final ModelMBeanNotificationInfo[] array4)
-    public ModelMBeanInfoSupport(final String s, final String s2, final ModelMBeanAttributeInfo[] modelMBeanAttributes, final ModelMBeanConstructorInfo[] modelMBeanConstructors, final ModelMBeanOperationInfo[] modelMBeanOperations, final ModelMBeanNotificationInfo[] modelMBeanNotifications, final Descriptor descriptor)
+def ():
+    '''returns ModelMBeanInfoSupport\n\n
+    (final ModelMBeanInfo modelMBeanInfo)\n
+    (final String s, final String s2, final ModelMBeanAttributeInfo[] array, final ModelMBeanConstructorInfo[] array2, final ModelMBeanOperationInfo[] array3, final ModelMBeanNotificationInfo[] array4)\n
+    (final String s, final String s2, final ModelMBeanAttributeInfo[] modelMBeanAttributes, final ModelMBeanConstructorInfo[] modelMBeanConstructors, final ModelMBeanOperationInfo[] modelMBeanOperations, final ModelMBeanNotificationInfo[] modelMBeanNotifications, final Descriptor descriptor)\n
     '''
 def setDescriptor():
-    '''public void setDescriptor(final Descriptor descriptor, String s)
+    '''returns None\n\n
+    setDescriptor(final Descriptor descriptor, String s)\n
     '''
 def getDescriptor():
-    '''public Descriptor getDescriptor(final String s)
-    public Descriptor getDescriptor(final String s, final String anotherString)
+    '''returns Descriptor\n\n
+    getDescriptor(final String s)\n
+    getDescriptor(final String s, final String anotherString)\n
     '''
 def getDescriptors():
-    '''public Descriptor[] getDescriptors(String s)
+    '''returns Descriptor[]\n\n
+    getDescriptors(String s)\n
     '''
 def getAttribute():
-    '''public ModelMBeanAttributeInfo getAttribute(final String s)
+    '''returns ModelMBeanAttributeInfo\n\n
+    getAttribute(final String s)\n
     '''
 def getConstructor():
-    '''public ModelMBeanConstructorInfo getConstructor(final String s)
+    '''returns ModelMBeanConstructorInfo\n\n
+    getConstructor(final String s)\n
     '''
 def getNotification():
-    '''public ModelMBeanNotificationInfo getNotification(final String s)
+    '''returns ModelMBeanNotificationInfo\n\n
+    getNotification(final String s)\n
     '''
 def getOperation():
-    '''public ModelMBeanOperationInfo getOperation(final String s)
+    '''returns ModelMBeanOperationInfo\n\n
+    getOperation(final String s)\n
     '''

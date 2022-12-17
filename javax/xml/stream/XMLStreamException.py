@@ -1,14 +1,17 @@
-def XMLStreamException():
-    '''public XMLStreamException()
-    public XMLStreamException(final String message)
-    public XMLStreamException(final Throwable nested)
-    public XMLStreamException(final String message, final Throwable nested)
-    public XMLStreamException(final String message, final Location location, final Throwable nested)
-    public XMLStreamException(final String message, final Location location)
+def ():
+    '''returns XMLStreamException\n\n
+    ()\n
+    (final String message)\n
+    (final Throwable nested)\n
+    (final String message, final Throwable nested)\n
+    (final String message, final Location location, final Throwable nested)\n
+    (final String message, final Location location)\n
     '''
 def getNestedException():
-    '''public Throwable getNestedException()
+    '''returns Throwable\n\n
+    getNestedException()\n
     '''
 def getLocation():
-    '''public Location getLocation()
+    '''returns Location\n\n
+    getLocation()\n
     '''

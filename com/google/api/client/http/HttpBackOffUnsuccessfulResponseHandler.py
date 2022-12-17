@@ -1,25 +1,17 @@
-def HttpBackOffUnsuccessfulResponseHandler():
-    '''public HttpBackOffUnsuccessfulResponseHandler(final BackOff backOff)
-    '''
-def getBackOff():
-    '''public final BackOff getBackOff()
-    '''
-def getBackOffRequired():
-    '''public final BackOffRequired getBackOffRequired()
+def ():
+    '''returns HttpBackOffUnsuccessfulResponseHandler\n\n
+    (final BackOff backOff)\n
     '''
 def setBackOffRequired():
-    '''public HttpBackOffUnsuccessfulResponseHandler setBackOffRequired(final BackOffRequired backOffRequired)
-    '''
-def getSleeper():
-    '''public final Sleeper getSleeper()
+    '''returns HttpBackOffUnsuccessfulResponseHandler\n\n
+    setBackOffRequired(final BackOffRequired backOffRequired)\n
     '''
 def setSleeper():
-    '''public HttpBackOffUnsuccessfulResponseHandler setSleeper(final Sleeper sleeper)
-    '''
-def handleResponse():
-    '''public final boolean handleResponse(final HttpRequest request, final HttpResponse response, final boolean supportsRetry)
+    '''returns HttpBackOffUnsuccessfulResponseHandler\n\n
+    setSleeper(final Sleeper sleeper)\n
     '''
 def isRequired():
-    '''public boolean isRequired(final HttpResponse response)
-    public boolean isRequired(final HttpResponse response)
+    '''returns boolean\n\n
+    isRequired(final HttpResponse response)\n
+    isRequired(final HttpResponse response)\n
     '''

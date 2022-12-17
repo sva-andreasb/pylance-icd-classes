@@ -1,72 +1,96 @@
-def ExternalCacheFragment():
-    '''public ExternalCacheFragment()
+def ():
+    '''returns ExternalCacheFragment\n\n
+    ()\n
     '''
 def getExternalCacheGroupId():
-    '''public String getExternalCacheGroupId()
+    '''returns String\n\n
+    getExternalCacheGroupId()\n
     '''
 def setExternalCacheGroupId():
-    '''public void setExternalCacheGroupId(final String externalCacheGroupId)
+    '''returns None\n\n
+    setExternalCacheGroupId(final String externalCacheGroupId)\n
     '''
 def getUri():
-    '''public String getUri()
+    '''returns String\n\n
+    getUri()\n
     '''
 def setUri():
-    '''public void setUri(final String uri)
+    '''returns None\n\n
+    setUri(final String uri)\n
     '''
 def getHost():
-    '''public String getHost()
+    '''returns String\n\n
+    getHost()\n
     '''
 def setHost():
-    '''public void setHost(final String host)
+    '''returns None\n\n
+    setHost(final String host)\n
     '''
 def addHostToList():
-    '''public void addHostToList(final String host)
+    '''returns None\n\n
+    addHostToList(final String host)\n
     '''
 def getHostList():
-    '''public ArrayList getHostList()
+    '''returns ArrayList\n\n
+    getHostList()\n
     '''
 def getContent():
-    '''public byte[] getContent()
+    '''returns byte[]\n\n
+    getContent()\n
     '''
 def setContent():
-    '''public void setContent(final byte[] content)
+    '''returns None\n\n
+    setContent(final byte[] content)\n
     '''
 def getInvalidationIds():
-    '''public Enumeration getInvalidationIds()
+    '''returns Enumeration\n\n
+    getInvalidationIds()\n
     '''
 def setInvalidationIds():
-    '''public void setInvalidationIds(final ValueSet invalidationIds)
+    '''returns None\n\n
+    setInvalidationIds(final ValueSet invalidationIds)\n
     '''
 def getTemplates():
-    '''public Enumeration getTemplates()
+    '''returns Enumeration\n\n
+    getTemplates()\n
     '''
 def setTemplates():
-    '''public void setTemplates(final ValueSet uris)
+    '''returns None\n\n
+    setTemplates(final ValueSet uris)\n
     '''
 def getHeaderTable():
-    '''public Vector[] getHeaderTable()
+    '''returns Vector[]\n\n
+    getHeaderTable()\n
     '''
 def setHeaderTable():
-    '''public void setHeaderTable(final Vector[] headerTable)
+    '''returns None\n\n
+    setHeaderTable(final Vector[] headerTable)\n
     '''
 def getExpirationTime():
-    '''public long getExpirationTime()
+    '''returns long\n\n
+    getExpirationTime()\n
     '''
 def setExpirationTime():
-    '''public void setExpirationTime(final long expirationTime)
+    '''returns None\n\n
+    setExpirationTime(final long expirationTime)\n
     '''
 def getTimeStamp():
-    '''public long getTimeStamp()
+    '''returns long\n\n
+    getTimeStamp()\n
     '''
 def setTimeStamp():
-    '''public void setTimeStamp(final long timeStamp)
+    '''returns None\n\n
+    setTimeStamp(final long timeStamp)\n
     '''
 def getEntry():
-    '''public ExternalCacheEntry getEntry()
+    '''returns ExternalCacheEntry\n\n
+    getEntry()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''

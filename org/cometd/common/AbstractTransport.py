@@ -1,22 +1,28 @@
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getOption():
-    '''public Object getOption(final String name)
-    public String getOption(final String option, final String dftValue)
-    public long getOption(final String option, final long dftValue)
-    public int getOption(final String option, final int dftValue)
-    public boolean getOption(final String option, final boolean dftValue)
+    '''returns boolean\n\n
+    getOption(final String name)\n
+    getOption(final String option, final String dftValue)\n
+    getOption(final String option, final long dftValue)\n
+    getOption(final String option, final int dftValue)\n
+    getOption(final String option, final boolean dftValue)\n
     '''
 def setOption():
-    '''public void setOption(final String name, final Object value)
+    '''returns None\n\n
+    setOption(final String name, final Object value)\n
     '''
 def getOptionPrefix():
-    '''public String getOptionPrefix()
+    '''returns String\n\n
+    getOptionPrefix()\n
     '''
 def setOptionPrefix():
-    '''public void setOptionPrefix(final String prefix)
+    '''returns None\n\n
+    setOptionPrefix(final String prefix)\n
     '''
 def getOptionNames():
-    '''public Set<String> getOptionNames()
+    '''returns Set<String>\n\n
+    getOptionNames()\n
     '''

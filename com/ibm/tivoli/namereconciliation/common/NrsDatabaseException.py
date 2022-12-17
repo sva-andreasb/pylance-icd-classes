@@ -10,12 +10,11 @@ DATABASE_CONNECTION_CLOSED_ERROR = "int  2005"
 ERROR_TEXT_DATABASE_CONNECTION_CLOSED_ERROR = "String  \"A database has been closed. Need to re-establish the connection and/or call init()to refresh the cache\""
 OTHER_DATABASE_ERRORS = "int  3001"
 ERROR_TEXT_OTHER_DATABASE_ERRORS = "String  \"An unexpected database system error has occurred. \""
-def NrsDatabaseException():
-    '''public NrsDatabaseException(final int errorCode)
-    '''
-def getErrorText():
-    '''public static String getErrorText(final int errorCode)
+def ():
+    '''returns NrsDatabaseException\n\n
+    (final int errorCode)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

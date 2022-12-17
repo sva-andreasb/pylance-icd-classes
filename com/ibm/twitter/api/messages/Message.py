@@ -1,6 +1,8 @@
-def Message():
-    '''public Message(final long id, final String text, final String created_at)
+def ():
+    '''returns Message\n\n
+    (final long id, final String text, final String created_at)\n
     '''
 def isDM():
-    '''public boolean isDM()
+    '''returns boolean\n\n
+    isDM()\n
     '''

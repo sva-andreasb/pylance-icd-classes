@@ -1,3 +1,4 @@
 def genMask():
-    '''public void genMask(final byte[] mask)
+    '''returns None\n\n
+    genMask(final byte[] mask)\n
     '''

@@ -1,4 +1,5 @@
-def OpenXML4JException():
-    '''public OpenXML4JException(final String msg)
-    public OpenXML4JException(final String msg, final Throwable cause)
+def ():
+    '''returns OpenXML4JException\n\n
+    (final String msg)\n
+    (final String msg, final Throwable cause)\n
     '''

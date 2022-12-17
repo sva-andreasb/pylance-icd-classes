@@ -1,41 +1,47 @@
 ATTR_ON_MISMATCH = "String  \"onMismatch\""
 ATTR_ON_MATCH = "String  \"onMatch\""
 def filter():
-    '''public Result filter(final LogEvent event)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final Message msg, final Throwable t)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final Object msg, final Throwable t)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object... params)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)
-    public Result filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
-    '''
-def getOnMatch():
-    '''public final Result getOnMatch()
-    public Result getOnMatch()
-    '''
-def getOnMismatch():
-    '''public final Result getOnMismatch()
-    public Result getOnMismatch()
+    '''returns Result\n\n
+    filter(final LogEvent event)\n
+    filter(final Logger logger, final Level level, final Marker marker, final Message msg, final Throwable t)\n
+    filter(final Logger logger, final Level level, final Marker marker, final Object msg, final Throwable t)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object... params)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8)\n
+    filter(final Logger logger, final Level level, final Marker marker, final String msg, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
-def AbstractFilterBuilder():
-    '''public AbstractFilterBuilder()
+def ():
+    '''returns AbstractFilterBuilder\n\n
+    ()\n
+    '''
+def getOnMatch():
+    '''returns Result\n\n
+    getOnMatch()\n
+    '''
+def getOnMismatch():
+    '''returns Result\n\n
+    getOnMismatch()\n
     '''
 def setOnMatch():
-    '''public B setOnMatch(final Result onMatch)
+    '''returns B\n\n
+    setOnMatch(final Result onMatch)\n
     '''
 def setOnMismatch():
-    '''public B setOnMismatch(final Result onMismatch)
+    '''returns B\n\n
+    setOnMismatch(final Result onMismatch)\n
     '''
 def asBuilder():
-    '''public B asBuilder()
+    '''returns B\n\n
+    asBuilder()\n
     '''

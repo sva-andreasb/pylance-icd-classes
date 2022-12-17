@@ -1,9 +1,12 @@
-def TAMITWOHelper():
-    '''public TAMITWOHelper(final Mbo wo)
+def ():
+    '''returns TAMITWOHelper\n\n
+    (final Mbo wo)\n
     '''
 def copyJobPlanToWorkPlan():
-    '''public void copyJobPlanToWorkPlan(final MboValue jpnum)
+    '''returns None\n\n
+    copyJobPlanToWorkPlan(final MboValue jpnum)\n
     '''
 def createJPFromWO():
-    '''public void createJPFromWO(final MboRemote jobPlan)
+    '''returns None\n\n
+    createJPFromWO(final MboRemote jobPlan)\n
     '''

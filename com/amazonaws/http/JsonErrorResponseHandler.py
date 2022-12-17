@@ -1,15 +1,16 @@
-def JsonErrorResponseHandler():
-    '''public JsonErrorResponseHandler(final List<JsonErrorUnmarshaller> errorUnmarshallers, final JsonErrorCodeParser errorCodeParser, final JsonErrorMessageParser errorMessageParser, final JsonFactory jsonFactory)
+def ():
+    '''returns JsonErrorResponseHandler\n\n
+    (final List<JsonErrorUnmarshaller> errorUnmarshallers, final JsonErrorCodeParser errorCodeParser, final JsonErrorMessageParser errorMessageParser, final JsonFactory jsonFactory)\n
     '''
 def needsConnectionLeftOpen():
-    '''public boolean needsConnectionLeftOpen()
+    '''returns boolean\n\n
+    needsConnectionLeftOpen()\n
     '''
 def handle():
-    '''public AmazonServiceException handle(final HttpResponse response)
-    '''
-def createJsonContent():
-    '''public static JsonContent createJsonContent(final HttpResponse httpResponse, final JsonFactory jsonFactory)
+    '''returns AmazonServiceException\n\n
+    handle(final HttpResponse response)\n
     '''
 def isJsonValid():
-    '''public boolean isJsonValid()
+    '''returns boolean\n\n
+    isJsonValid()\n
     '''

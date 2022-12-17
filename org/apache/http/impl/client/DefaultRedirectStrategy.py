@@ -1,13 +1,17 @@
 REDIRECT_LOCATIONS = "String  \"http.protocol.redirect-locations\""
-def DefaultRedirectStrategy():
-    '''public DefaultRedirectStrategy()
+def ():
+    '''returns DefaultRedirectStrategy\n\n
+    ()\n
     '''
 def isRedirected():
-    '''public boolean isRedirected(final HttpRequest request, final HttpResponse response, final HttpContext context)
+    '''returns boolean\n\n
+    isRedirected(final HttpRequest request, final HttpResponse response, final HttpContext context)\n
     '''
 def getLocationURI():
-    '''public URI getLocationURI(final HttpRequest request, final HttpResponse response, final HttpContext context)
+    '''returns URI\n\n
+    getLocationURI(final HttpRequest request, final HttpResponse response, final HttpContext context)\n
     '''
 def getRedirect():
-    '''public HttpUriRequest getRedirect(final HttpRequest request, final HttpResponse response, final HttpContext context)
+    '''returns HttpUriRequest\n\n
+    getRedirect(final HttpRequest request, final HttpResponse response, final HttpContext context)\n
     '''

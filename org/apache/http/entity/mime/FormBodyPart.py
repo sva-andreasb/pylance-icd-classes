@@ -1,15 +1,20 @@
-def FormBodyPart():
-    '''public FormBodyPart(final String name, final ContentBody body)
+def ():
+    '''returns FormBodyPart\n\n
+    (final String name, final ContentBody body)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getBody():
-    '''public ContentBody getBody()
+    '''returns ContentBody\n\n
+    getBody()\n
     '''
 def getHeader():
-    '''public Header getHeader()
+    '''returns Header\n\n
+    getHeader()\n
     '''
 def addField():
-    '''public void addField(final String name, final String value)
+    '''returns None\n\n
+    addField(final String name, final String value)\n
     '''

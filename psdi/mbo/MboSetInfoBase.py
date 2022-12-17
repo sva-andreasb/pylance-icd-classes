@@ -1,177 +1,236 @@
 def getKeyRelationshipWhere():
-    '''public String getKeyRelationshipWhere()
+    '''returns String\n\n
+    getKeyRelationshipWhere()\n
     '''
 def setKeyRelationshipWhere():
-    '''public void setKeyRelationshipWhere(final String keyRelationshipWhere)
+    '''returns None\n\n
+    setKeyRelationshipWhere(final String keyRelationshipWhere)\n
     '''
 def getUniqueEntityColumns():
-    '''public HashSet<String> getUniqueEntityColumns()
+    '''returns HashSet<String>\n\n
+    getUniqueEntityColumns()\n
     '''
 def setUniqueEntityColumns():
-    '''public void setUniqueEntityColumns(final HashSet<String> uniqueEntityColumns)
+    '''returns None\n\n
+    setUniqueEntityColumns(final HashSet<String> uniqueEntityColumns)\n
     '''
 def isIncludedParentRelationship():
-    '''public boolean isIncludedParentRelationship()
+    '''returns boolean\n\n
+    isIncludedParentRelationship()\n
     '''
 def setIncludedParentRelationship():
-    '''public void setIncludedParentRelationship(final boolean includedParentRelationship)
+    '''returns None\n\n
+    setIncludedParentRelationship(final boolean includedParentRelationship)\n
     '''
 def getUniqueIDName():
-    '''public String getUniqueIDName()
+    '''returns String\n\n
+    getUniqueIDName()\n
     '''
 def setUniqueIDName():
-    '''public void setUniqueIDName(final String name)
+    '''returns None\n\n
+    setUniqueIDName(final String name)\n
     '''
 def getContentAttrName():
-    '''public String getContentAttrName()
+    '''returns String\n\n
+    getContentAttrName()\n
     '''
 def setContentAttrName():
-    '''public void setContentAttrName(final String name)
+    '''returns None\n\n
+    setContentAttrName(final String name)\n
     '''
 def getClassName():
-    '''public String getClassName()
+    '''returns String\n\n
+    getClassName()\n
     '''
 def setClassName():
-    '''public void setClassName(final String className)
+    '''returns None\n\n
+    setClassName(final String className)\n
     '''
 def getDescription():
-    '''public String getDescription()
+    '''returns String\n\n
+    getDescription()\n
     '''
 def setDescription():
-    '''public void setDescription(final String description)
+    '''returns None\n\n
+    setDescription(final String description)\n
     '''
 def isMainObject():
-    '''public boolean isMainObject()
+    '''returns boolean\n\n
+    isMainObject()\n
     '''
 def setMainObject():
-    '''public void setMainObject(final boolean mainObject)
+    '''returns None\n\n
+    setMainObject(final boolean mainObject)\n
     '''
 def isEAuditEnabled():
-    '''public boolean isEAuditEnabled()
+    '''returns boolean\n\n
+    isEAuditEnabled()\n
     '''
 def setEAuditEnabled():
-    '''public void setEAuditEnabled(final boolean enabled)
+    '''returns None\n\n
+    setEAuditEnabled(final boolean enabled)\n
     '''
 def getEAuditFilter():
-    '''public String getEAuditFilter()
+    '''returns String\n\n
+    getEAuditFilter()\n
     '''
 def setEAuditFilter():
-    '''public void setEAuditFilter(final String filter)
+    '''returns None\n\n
+    setEAuditFilter(final String filter)\n
     '''
 def getESigFilter():
-    '''public String getESigFilter()
+    '''returns String\n\n
+    getESigFilter()\n
     '''
 def setESigFilter():
-    '''public void setESigFilter(final String filter)
+    '''returns None\n\n
+    setESigFilter(final String filter)\n
     '''
 def getEntityName():
-    '''public String getEntityName()
+    '''returns String\n\n
+    getEntityName()\n
     '''
 def setEntityName():
-    '''public void setEntityName(final String entityName)
+    '''returns None\n\n
+    setEntityName(final String entityName)\n
     '''
 def getExtendsObject():
-    '''public String getExtendsObject()
+    '''returns String\n\n
+    getExtendsObject()\n
     '''
 def getResourceType():
-    '''public String getResourceType()
+    '''returns String\n\n
+    getResourceType()\n
     '''
 def isNOSql():
-    '''public boolean isNOSql()
+    '''returns boolean\n\n
+    isNOSql()\n
     '''
 def setExtendsObject():
-    '''public void setExtendsObject(final String baseBusinessObjectName)
+    '''returns None\n\n
+    setExtendsObject(final String baseBusinessObjectName)\n
     '''
 def isView():
-    '''public boolean isView()
+    '''returns boolean\n\n
+    isView()\n
     '''
 def setView():
-    '''public void setView(final boolean view)
+    '''returns None\n\n
+    setView(final boolean view)\n
     '''
 def getObjectName():
-    '''public String getObjectName()
+    '''returns String\n\n
+    getObjectName()\n
     '''
 def setObjectName():
-    '''public void setObjectName(final String objectName)
+    '''returns None\n\n
+    setObjectName(final String objectName)\n
     '''
 def isPersistent():
-    '''public boolean isPersistent()
+    '''returns boolean\n\n
+    isPersistent()\n
     '''
 def setPersistent():
-    '''public void setPersistent(final boolean persistent)
+    '''returns None\n\n
+    setPersistent(final boolean persistent)\n
     '''
 def getServiceName():
-    '''public String getServiceName()
+    '''returns String\n\n
+    getServiceName()\n
     '''
 def setServiceName():
-    '''public void setServiceName(final String serviceName)
+    '''returns None\n\n
+    setServiceName(final String serviceName)\n
     '''
 def getSiteOrgType():
-    '''public int getSiteOrgType()
+    '''returns int\n\n
+    getSiteOrgType()\n
     '''
 def getSiteOrgTypeAsString():
-    '''public String getSiteOrgTypeAsString()
+    '''returns String\n\n
+    getSiteOrgTypeAsString()\n
     '''
 def isUserdefined():
-    '''public boolean isUserdefined()
+    '''returns boolean\n\n
+    isUserdefined()\n
     '''
 def setUserdefined():
-    '''public void setUserdefined(final boolean userdefined)
+    '''returns None\n\n
+    setUserdefined(final boolean userdefined)\n
     '''
 def isImported():
-    '''public boolean isImported()
+    '''returns boolean\n\n
+    isImported()\n
     '''
 def setImported():
-    '''public void setImported(final boolean imported)
+    '''returns None\n\n
+    setImported(final boolean imported)\n
     '''
 def isInternal():
-    '''public boolean isInternal()
+    '''returns boolean\n\n
+    isInternal()\n
     '''
 def setInternal():
-    '''public void setInternal(final boolean flag)
+    '''returns None\n\n
+    setInternal(final boolean flag)\n
     '''
 def setSiteOrgType():
-    '''public void setSiteOrgType(final String level)
+    '''returns None\n\n
+    setSiteOrgType(final String level)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getInitEventName():
-    '''public String getInitEventName()
+    '''returns String\n\n
+    getInitEventName()\n
     '''
 def getAppValidateEventName():
-    '''public String getAppValidateEventName()
+    '''returns String\n\n
+    getAppValidateEventName()\n
     '''
 def setFetchStopLimit():
-    '''public void setFetchStopLimit(final int max)
+    '''returns None\n\n
+    setFetchStopLimit(final int max)\n
     '''
 def getFetchStopLimit():
-    '''public int getFetchStopLimit()
+    '''returns int\n\n
+    getFetchStopLimit()\n
     '''
 def getTextdirection():
-    '''public String getTextdirection()
+    '''returns String\n\n
+    getTextdirection()\n
     '''
 def setTextdirection():
-    '''public void setTextdirection(final String string)
+    '''returns None\n\n
+    setTextdirection(final String string)\n
     '''
 def setHierarchyList():
-    '''public void setHierarchyList(final List<String> hierarchyList)
+    '''returns None\n\n
+    setHierarchyList(final List<String> hierarchyList)\n
     '''
 def getHierarchyList():
-    '''public List<String> getHierarchyList()
+    '''returns List<String>\n\n
+    getHierarchyList()\n
     '''
 def getLatitude():
-    '''public String getLatitude()
+    '''returns String\n\n
+    getLatitude()\n
     '''
 def getLongtitude():
-    '''public String getLongtitude()
+    '''returns String\n\n
+    getLongtitude()\n
     '''
 def setLatitude():
-    '''public void setLatitude(final String refy)
+    '''returns None\n\n
+    setLatitude(final String refy)\n
     '''
 def setLongtitude():
-    '''public void setLongtitude(final String refx)
+    '''returns None\n\n
+    setLongtitude(final String refx)\n
     '''
 def getCacheName():
-    '''public String getCacheName()
+    '''returns String\n\n
+    getCacheName()\n
     '''

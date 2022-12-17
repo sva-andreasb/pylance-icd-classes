@@ -1,6 +1,8 @@
-def AnalyticData():
-    '''public AnalyticData(final MboSet ms)
+def ():
+    '''returns AnalyticData\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''

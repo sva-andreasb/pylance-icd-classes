@@ -1,65 +1,86 @@
 SINGLE_STRIP = "int  -1"
 ONE_ROW_PER_STRIP = "int  1"
-def ImageWriterParams():
-    '''public ImageWriterParams()
+def ():
+    '''returns ImageWriterParams\n\n
+    ()\n
     '''
 def hasResolution():
-    '''public boolean hasResolution()
+    '''returns boolean\n\n
+    hasResolution()\n
     '''
 def getResolution():
-    '''public Integer getResolution()
+    '''returns Integer\n\n
+    getResolution()\n
     '''
 def getJPEGQuality():
-    '''public Float getJPEGQuality()
+    '''returns Float\n\n
+    getJPEGQuality()\n
     '''
 def getJPEGForceBaseline():
-    '''public Boolean getJPEGForceBaseline()
+    '''returns Boolean\n\n
+    getJPEGForceBaseline()\n
     '''
 def getCompressionMethod():
-    '''public String getCompressionMethod()
+    '''returns String\n\n
+    getCompressionMethod()\n
     '''
 def setResolution():
-    '''public void setResolution(final int resolution)
+    '''returns None\n\n
+    setResolution(final int resolution)\n
     '''
 def setJPEGQuality():
-    '''public void setJPEGQuality(final float quality, final boolean forceBaseline)
+    '''returns None\n\n
+    setJPEGQuality(final float quality, final boolean forceBaseline)\n
     '''
 def setCompressionMethod():
-    '''public void setCompressionMethod(final String method)
+    '''returns None\n\n
+    setCompressionMethod(final String method)\n
     '''
 def isSingleStrip():
-    '''public boolean isSingleStrip()
+    '''returns boolean\n\n
+    isSingleStrip()\n
     '''
 def setSingleStrip():
-    '''public void setSingleStrip(final boolean isSingle)
+    '''returns None\n\n
+    setSingleStrip(final boolean isSingle)\n
     '''
 def setRowsPerStrip():
-    '''public void setRowsPerStrip(final int rowsPerStrip)
+    '''returns None\n\n
+    setRowsPerStrip(final int rowsPerStrip)\n
     '''
 def getRowsPerStrip():
-    '''public int getRowsPerStrip()
+    '''returns int\n\n
+    getRowsPerStrip()\n
     '''
 def getResolutionUnit():
-    '''public ResolutionUnit getResolutionUnit()
+    '''returns ResolutionUnit\n\n
+    getResolutionUnit()\n
     '''
 def setResolutionUnit():
-    '''public void setResolutionUnit(final ResolutionUnit resolutionUnit)
+    '''returns None\n\n
+    setResolutionUnit(final ResolutionUnit resolutionUnit)\n
     '''
 def getXResolution():
-    '''public Integer getXResolution()
+    '''returns Integer\n\n
+    getXResolution()\n
     '''
 def setXResolution():
-    '''public void setXResolution(final int resolution)
+    '''returns None\n\n
+    setXResolution(final int resolution)\n
     '''
 def getYResolution():
-    '''public Integer getYResolution()
+    '''returns Integer\n\n
+    getYResolution()\n
     '''
 def setYResolution():
-    '''public void setYResolution(final int resolution)
+    '''returns None\n\n
+    setYResolution(final int resolution)\n
     '''
 def getEndianness():
-    '''public Endianness getEndianness()
+    '''returns Endianness\n\n
+    getEndianness()\n
     '''
 def setEndianness():
-    '''public void setEndianness(final Endianness endianness)
+    '''returns None\n\n
+    setEndianness(final Endianness endianness)\n
     '''

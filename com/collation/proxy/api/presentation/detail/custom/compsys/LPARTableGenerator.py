@@ -1,6 +1,8 @@
-def LPARTableGenerator():
-    '''public LPARTableGenerator(final Guid guid, final long version, final TableContent content, final SessionContext session)
+def ():
+    '''returns LPARTableGenerator\n\n
+    (final Guid guid, final long version, final TableContent content, final SessionContext session)\n
     '''
 def getModel():
-    '''public DetailTableModel getModel()
+    '''returns DetailTableModel\n\n
+    getModel()\n
     '''

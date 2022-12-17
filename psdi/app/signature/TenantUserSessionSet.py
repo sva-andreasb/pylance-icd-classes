@@ -1,21 +1,24 @@
-def TenantUserSessionSet():
-    '''public TenantUserSessionSet(final MboServerInterface ms)
+def ():
+    '''returns TenantUserSessionSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def count():
-    '''public int count(final int countConstant)
+    '''returns int\n\n
+    count(final int countConstant)\n
     '''
 def sum():
-    '''public double sum(final String attributeName)
-    '''
-def getMbo():
-    '''public synchronized MboRemote getMbo(final int row)
+    '''returns double\n\n
+    sum(final String attributeName)\n
     '''
 def setTenant():
-    '''public void setTenant(final int id)
+    '''returns None\n\n
+    setTenant(final int id)\n
     '''
 def setLandlordInfo():
-    '''public void setLandlordInfo(final UserInfo landlord)
+    '''returns None\n\n
+    setLandlordInfo(final UserInfo landlord)\n
     '''
 def getLandlordInfo():
-    '''public UserInfo getLandlordInfo()
+    '''returns UserInfo\n\n
+    getLandlordInfo()\n
     '''

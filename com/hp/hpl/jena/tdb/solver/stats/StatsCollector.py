@@ -1,18 +1,12 @@
-def gather():
-    '''public static Item gather(final Graph graph)
-    '''
-def gatherTDB():
-    '''public static Item gatherTDB(final GraphTDB graph)
-    '''
-def format():
-    '''public static Item format(final Map<Node, Integer> predicates, final long count)
-    '''
-def StatsGraph_OLD():
-    '''public StatsGraph_OLD()
+def ():
+    '''returns StatsGraph_OLD\n\n
+    ()\n
     '''
 def performAdd():
-    '''public void performAdd(final Triple t)
+    '''returns None\n\n
+    performAdd(final Triple t)\n
     '''
 def printStats():
-    '''public void printStats()
+    '''returns None\n\n
+    printStats()\n
     '''

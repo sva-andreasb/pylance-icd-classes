@@ -1,9 +1,12 @@
 def addrow():
-    '''public int addrow()
+    '''returns int\n\n
+    addrow()\n
     '''
 def setvalue():
-    '''public int setvalue()
+    '''returns int\n\n
+    setvalue()\n
     '''
 def testConnection():
-    '''public int testConnection()
+    '''returns int\n\n
+    testConnection()\n
     '''

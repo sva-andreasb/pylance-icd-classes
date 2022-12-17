@@ -1,3 +1,4 @@
-def MXCollabRefSet():
-    '''public MXCollabRefSet(final MboServerInterface ms)
+def ():
+    '''returns MXCollabRefSet\n\n
+    (final MboServerInterface ms)\n
     '''

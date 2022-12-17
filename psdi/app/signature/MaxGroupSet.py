@@ -1,18 +1,24 @@
-def MaxGroupSet():
-    '''public MaxGroupSet(final MboServerInterface ms)
+def ():
+    '''returns MaxGroupSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getAdminWhereSiteSubselect():
-    '''public String getAdminWhereSiteSubselect()
+    '''returns String\n\n
+    getAdminWhereSiteSubselect()\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''
 def fireEventsAfterDBCommit():
-    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''returns None\n\n
+    fireEventsAfterDBCommit(final MXTransaction txn)\n
     '''
 def setIsLookup():
-    '''public void setIsLookup(final boolean is)
+    '''returns None\n\n
+    setIsLookup(final boolean is)\n
     '''
 def isLookup():
-    '''public boolean isLookup()
+    '''returns boolean\n\n
+    isLookup()\n
     '''

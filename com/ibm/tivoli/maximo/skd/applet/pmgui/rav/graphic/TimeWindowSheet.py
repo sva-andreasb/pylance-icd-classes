@@ -1,144 +1,191 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
-def TimeWindowSheet():
-    '''public TimeWindowSheet()
+def ():
+    '''returns TimeWindowSheet\n\n
+    ()\n
     '''
 def addTimeScrollListener():
-    '''public void addTimeScrollListener(final TimeScrollListener l)
+    '''returns None\n\n
+    addTimeScrollListener(final TimeScrollListener l)\n
     '''
 def createGridContext():
-    '''public TimeWindowGridContext createGridContext()
+    '''returns TimeWindowGridContext\n\n
+    createGridContext()\n
     '''
 def getHorizontalGrid():
-    '''public IlvGanttGridRenderer getHorizontalGrid()
+    '''returns IlvGanttGridRenderer\n\n
+    getHorizontalGrid()\n
     '''
 def getMaxVisibleTime():
-    '''public Date getMaxVisibleTime()
+    '''returns Date\n\n
+    getMaxVisibleTime()\n
     '''
 def getMinVisibleDuration():
-    '''public IlvDuration getMinVisibleDuration()
+    '''returns IlvDuration\n\n
+    getMinVisibleDuration()\n
     '''
 def getMinVisibleTime():
-    '''public Date getMinVisibleTime()
+    '''returns Date\n\n
+    getMinVisibleTime()\n
     '''
 def getRowHeight():
-    '''public int getRowHeight()
+    '''returns int\n\n
+    getRowHeight()\n
     '''
 def getTimeConverter():
-    '''public IlvTimeConverter getTimeConverter()
-    public IlvTimeConverter getTimeConverter()
+    '''returns IlvTimeConverter\n\n
+    getTimeConverter()\n
+    getTimeConverter()\n
     '''
 def getTimeWindowModel():
-    '''public TimeWindowModel getTimeWindowModel()
+    '''returns TimeWindowModel\n\n
+    getTimeWindowModel()\n
     '''
 def getToolTipListener():
-    '''public TimeWindowTooltipListener getToolTipListener()
+    '''returns TimeWindowTooltipListener\n\n
+    getToolTipListener()\n
     '''
 def getVerticalGrid():
-    '''public IlvGanttGridRenderer getVerticalGrid()
+    '''returns IlvGanttGridRenderer\n\n
+    getVerticalGrid()\n
     '''
 def getVisibleDuration():
-    '''public IlvDuration getVisibleDuration()
+    '''returns IlvDuration\n\n
+    getVisibleDuration()\n
     '''
 def getVisibleInterval():
-    '''public IlvTimeInterval getVisibleInterval()
+    '''returns IlvTimeInterval\n\n
+    getVisibleInterval()\n
     '''
 def getVisibleTime():
-    '''public Date getVisibleTime()
+    '''returns Date\n\n
+    getVisibleTime()\n
     '''
 def paint():
-    '''public void paint(final Graphics g)
+    '''returns None\n\n
+    paint(final Graphics g)\n
     '''
 def registerTopRowPopupMenu():
-    '''public void registerTopRowPopupMenu(final JPopupMenu popupMenu)
+    '''returns None\n\n
+    registerTopRowPopupMenu(final JPopupMenu popupMenu)\n
     '''
 def removeTimeScrollListener():
-    '''public void removeTimeScrollListener(final TimeScrollListener l)
+    '''returns None\n\n
+    removeTimeScrollListener(final TimeScrollListener l)\n
     '''
 def setHorizontalGrid():
-    '''public void setHorizontalGrid(final IlvGanttGridRenderer horizontalGrid)
+    '''returns None\n\n
+    setHorizontalGrid(final IlvGanttGridRenderer horizontalGrid)\n
     '''
 def setMaxVisibleTime():
-    '''public void setMaxVisibleTime(final Date max)
+    '''returns None\n\n
+    setMaxVisibleTime(final Date max)\n
     '''
 def setMinVisibleDuration():
-    '''public void setMinVisibleDuration(final IlvDuration arg0)
+    '''returns None\n\n
+    setMinVisibleDuration(final IlvDuration arg0)\n
     '''
 def setMinVisibleTime():
-    '''public void setMinVisibleTime(final Date min)
+    '''returns None\n\n
+    setMinVisibleTime(final Date min)\n
     '''
 def setRowHeight():
-    '''public void setRowHeight(final int arg0)
+    '''returns None\n\n
+    setRowHeight(final int arg0)\n
     '''
 def setTimeConverter():
-    '''public void setTimeConverter(final IlvTimeConverter timeConverter)
+    '''returns None\n\n
+    setTimeConverter(final IlvTimeConverter timeConverter)\n
     '''
 def setToolTipListener():
-    '''public void setToolTipListener(final TimeWindowTooltipListener listener)
+    '''returns None\n\n
+    setToolTipListener(final TimeWindowTooltipListener listener)\n
     '''
 def setVerticalGrid():
-    '''public void setVerticalGrid(final IlvGanttGridRenderer verticalGrid)
+    '''returns None\n\n
+    setVerticalGrid(final IlvGanttGridRenderer verticalGrid)\n
     '''
 def setVisibleDuration():
-    '''public void setVisibleDuration(final IlvDuration arg0)
+    '''returns None\n\n
+    setVisibleDuration(final IlvDuration arg0)\n
     '''
 def setVisibleInterval():
-    '''public void setVisibleInterval(final Date arg0, final IlvDuration arg1)
+    '''returns None\n\n
+    setVisibleInterval(final Date arg0, final IlvDuration arg1)\n
     '''
 def setVisibleTime():
-    '''public void setVisibleTime(final Date arg0)
+    '''returns None\n\n
+    setVisibleTime(final Date arg0)\n
     '''
 def timeWindowModelChanged():
-    '''public void timeWindowModelChanged(final TimeWindowModelChangedEvent event)
+    '''returns None\n\n
+    timeWindowModelChanged(final TimeWindowModelChangedEvent event)\n
     '''
 def rowCollapsed():
-    '''public void rowCollapsed(final TimeWindowRowCollapsedEvent event)
+    '''returns None\n\n
+    rowCollapsed(final TimeWindowRowCollapsedEvent event)\n
     '''
 def rowDisabled():
-    '''public void rowDisabled(final TimeWindowRowDisabledEvent event)
+    '''returns None\n\n
+    rowDisabled(final TimeWindowRowDisabledEvent event)\n
     '''
 def rowExpanded():
-    '''public void rowExpanded(final TimeWindowRowExpandedEvent event)
+    '''returns None\n\n
+    rowExpanded(final TimeWindowRowExpandedEvent event)\n
     '''
 def getAvailableColor():
-    '''public Color getAvailableColor()
+    '''returns Color\n\n
+    getAvailableColor()\n
     '''
 def setAvailableColor():
-    '''public void setAvailableColor(final Color availableColor)
+    '''returns None\n\n
+    setAvailableColor(final Color availableColor)\n
     '''
 def getDisabledColor():
-    '''public Color getDisabledColor()
+    '''returns Color\n\n
+    getDisabledColor()\n
     '''
 def setDisabledColor():
-    '''public void setDisabledColor(final Color disabledColor)
+    '''returns None\n\n
+    setDisabledColor(final Color disabledColor)\n
     '''
 def getUnavailableColor():
-    '''public Color getUnavailableColor()
+    '''returns Color\n\n
+    getUnavailableColor()\n
     '''
 def setUnavailableColor():
-    '''public void setUnavailableColor(final Color unavailableColor)
+    '''returns None\n\n
+    setUnavailableColor(final Color unavailableColor)\n
     '''
 def getMinimumDurationToDisplay():
-    '''public double getMinimumDurationToDisplay()
+    '''returns double\n\n
+    getMinimumDurationToDisplay()\n
     '''
 def setMinimumDurationToDisplay():
-    '''public void setMinimumDurationToDisplay(final double minimumDuration)
+    '''returns None\n\n
+    setMinimumDurationToDisplay(final double minimumDuration)\n
     '''
 def getVisibleTimeWindowRowCount():
-    '''public int getVisibleTimeWindowRowCount()
+    '''returns int\n\n
+    getVisibleTimeWindowRowCount()\n
     '''
 def getTransformer():
-    '''public IlvTransformer getTransformer()
+    '''returns IlvTransformer\n\n
+    getTransformer()\n
     '''
 def getVisibleGanttRowAt():
-    '''public IlvGanttRow getVisibleGanttRowAt(final int arg0)
-    public IlvGanttRow getVisibleGanttRowAt(final IlvPoint arg0)
+    '''returns IlvGanttRow\n\n
+    getVisibleGanttRowAt(final int arg0)\n
+    getVisibleGanttRowAt(final IlvPoint arg0)\n
     '''
 def getVisibleGanttRowCount():
-    '''public int getVisibleGanttRowCount()
+    '''returns int\n\n
+    getVisibleGanttRowCount()\n
     '''
 def getTimeWindowRowHeight():
-    '''public int getTimeWindowRowHeight()
+    '''returns int\n\n
+    getTimeWindowRowHeight()\n
     '''
 def getULocale():
-    '''public ULocale getULocale()
+    '''returns ULocale\n\n
+    getULocale()\n
     '''

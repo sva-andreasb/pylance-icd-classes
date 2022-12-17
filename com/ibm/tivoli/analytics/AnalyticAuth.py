@@ -1,3 +1,4 @@
-def AnalyticAuth():
-    '''public AnalyticAuth(final MboSet ms)
+def ():
+    '''returns AnalyticAuth\n\n
+    (final MboSet ms)\n
     '''

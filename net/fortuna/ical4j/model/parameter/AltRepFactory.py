@@ -1,6 +1,8 @@
-def AltRepFactory():
-    '''public AltRepFactory()
+def ():
+    '''returns AltRepFactory\n\n
+    ()\n
     '''
 def newInstance():
-    '''public Object newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)
+    '''returns Object\n\n
+    newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)\n
     '''

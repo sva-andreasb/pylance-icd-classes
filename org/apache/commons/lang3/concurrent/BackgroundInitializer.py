@@ -1,24 +1,12 @@
-def getExternalExecutor():
-    '''public final synchronized ExecutorService getExternalExecutor()
-    '''
-def isStarted():
-    '''public synchronized boolean isStarted()
-    '''
-def setExternalExecutor():
-    '''public final synchronized void setExternalExecutor(final ExecutorService externalExecutor)
-    '''
-def start():
-    '''public synchronized boolean start()
-    '''
 def get():
-    '''public T get()
+    '''returns T\n\n
+    get()\n
     '''
-def getFuture():
-    '''public synchronized Future<T> getFuture()
-    '''
-def InitializationTask():
-    '''public InitializationTask(final ExecutorService exec)
+def ():
+    '''returns InitializationTask\n\n
+    (final ExecutorService exec)\n
     '''
 def call():
-    '''public T call()
+    '''returns T\n\n
+    call()\n
     '''

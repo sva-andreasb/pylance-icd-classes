@@ -1,18 +1,24 @@
-def ProcProcesser():
-    '''public ProcProcesser(final String usewith, final String ifacename, final String mosname, final String tableName, final String hpath, final String extSys, final boolean isOut, final boolean isObject, final boolean isEvent, final UserInfo userInfo)
+def ():
+    '''returns ProcProcesser\n\n
+    (final String usewith, final String ifacename, final String mosname, final String tableName, final String hpath, final String extSys, final boolean isOut, final boolean isObject, final boolean isEvent, final UserInfo userInfo)\n
     '''
 def checkAssignmentProcs():
-    '''public int checkAssignmentProcs(final MboRemote mbo, final StructureData data)
+    '''returns int\n\n
+    checkAssignmentProcs(final MboRemote mbo, final StructureData data)\n
     '''
 def processAssignments():
-    '''public int processAssignments(final MboRemote mbo, final StructureData data, final List allProcs)
+    '''returns int\n\n
+    processAssignments(final MboRemote mbo, final StructureData data, final List allProcs)\n
     '''
 def setReplaceColumns():
-    '''public void setReplaceColumns(final MaxIfaceProcInfo procInfo, final StructureData data, final MboRemote mbo, final MboRemote realMbo)
+    '''returns None\n\n
+    setReplaceColumns(final MaxIfaceProcInfo procInfo, final StructureData data, final MboRemote mbo, final MboRemote realMbo)\n
     '''
 def setSplitColumns():
-    '''public void setSplitColumns(final MaxIfaceProcInfo procInfo, final StructureData data, final MboRemote mbo, final MboRemote realMbo)
+    '''returns None\n\n
+    setSplitColumns(final MaxIfaceProcInfo procInfo, final StructureData data, final MboRemote mbo, final MboRemote realMbo)\n
     '''
 def setCombineColumns():
-    '''public void setCombineColumns(final MaxIfaceProcInfo procInfo, final StructureData data, final MboRemote mbo, final MboRemote realMbo)
+    '''returns None\n\n
+    setCombineColumns(final MaxIfaceProcInfo procInfo, final StructureData data, final MboRemote mbo, final MboRemote realMbo)\n
     '''

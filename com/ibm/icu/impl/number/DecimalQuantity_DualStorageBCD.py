@@ -1,25 +1,31 @@
 def maxRepresentableDigits():
-    '''public int maxRepresentableDigits()
+    '''returns int\n\n
+    maxRepresentableDigits()\n
     '''
-def DecimalQuantity_DualStorageBCD():
-    '''public DecimalQuantity_DualStorageBCD()
-    public DecimalQuantity_DualStorageBCD(final long input)
-    public DecimalQuantity_DualStorageBCD(final int input)
-    public DecimalQuantity_DualStorageBCD(final double input)
-    public DecimalQuantity_DualStorageBCD(final BigInteger input)
-    public DecimalQuantity_DualStorageBCD(final BigDecimal input)
-    public DecimalQuantity_DualStorageBCD(final DecimalQuantity_DualStorageBCD other)
-    public DecimalQuantity_DualStorageBCD(final Number number)
+def ():
+    '''returns DecimalQuantity_DualStorageBCD\n\n
+    ()\n
+    (final long input)\n
+    (final int input)\n
+    (final double input)\n
+    (final BigInteger input)\n
+    (final BigDecimal input)\n
+    (final DecimalQuantity_DualStorageBCD other)\n
+    (final Number number)\n
     '''
 def createCopy():
-    '''public DecimalQuantity createCopy()
+    '''returns DecimalQuantity\n\n
+    createCopy()\n
     '''
 def checkHealth():
-    '''public String checkHealth()
+    '''returns String\n\n
+    checkHealth()\n
     '''
 def isUsingBytes():
-    '''public boolean isUsingBytes()
+    '''returns boolean\n\n
+    isUsingBytes()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

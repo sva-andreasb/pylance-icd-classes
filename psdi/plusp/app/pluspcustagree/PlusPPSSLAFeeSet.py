@@ -1,3 +1,4 @@
-def PlusPPSSLAFeeSet():
-    '''public PlusPPSSLAFeeSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPPSSLAFeeSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,24 +1,32 @@
-def SinkProgress():
-    '''public SinkProgress(final String label, final String units, final int interval, final boolean showProgress)
+def ():
+    '''returns SinkProgress\n\n
+    (final String label, final String units, final int interval, final boolean showProgress)\n
     '''
 def getCount():
-    '''public long getCount()
+    '''returns long\n\n
+    getCount()\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def startMonitor():
-    '''public void startMonitor()
+    '''returns None\n\n
+    startMonitor()\n
     '''
 def finishMonitor():
-    '''public void finishMonitor()
+    '''returns None\n\n
+    finishMonitor()\n
     '''
 def resetTimer():
-    '''public void resetTimer()
+    '''returns None\n\n
+    resetTimer()\n
     '''
 def send():
-    '''public void send(final X item)
+    '''returns None\n\n
+    send(final X item)\n
     '''

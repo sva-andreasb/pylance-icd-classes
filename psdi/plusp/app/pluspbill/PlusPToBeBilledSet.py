@@ -1,3 +1,4 @@
-def PlusPToBeBilledSet():
-    '''public PlusPToBeBilledSet(final MboServerInterface ms)
+def ():
+    '''returns PlusPToBeBilledSet\n\n
+    (final MboServerInterface ms)\n
     '''

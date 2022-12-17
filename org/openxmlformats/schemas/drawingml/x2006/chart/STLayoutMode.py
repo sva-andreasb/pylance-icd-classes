@@ -1,0 +1,5 @@
+type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(STLayoutMode.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"stlayoutmode19dftype\")"
+EDGE = "Enum  Enum.forString(\"edge\")"
+FACTOR = "Enum  Enum.forString(\"factor\")"
+INT_EDGE = "int  1"
+INT_FACTOR = "int  2"

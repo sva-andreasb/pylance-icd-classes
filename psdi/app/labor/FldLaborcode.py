@@ -1,4 +1,5 @@
-def FldLaborcode():
-    '''public FldLaborcode(final MboValue mbv)
-    public FldLaborcode(final MboValue mbv, final String criteriaName)
+def ():
+    '''returns FldLaborcode\n\n
+    (final MboValue mbv)\n
+    (final MboValue mbv, final String criteriaName)\n
     '''

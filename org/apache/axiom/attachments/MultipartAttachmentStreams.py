@@ -1,6 +1,8 @@
-def MultipartAttachmentStreams():
-    '''public MultipartAttachmentStreams(final BoundaryDelimitedStream delimitedStream)
+def ():
+    '''returns MultipartAttachmentStreams\n\n
+    (final BoundaryDelimitedStream delimitedStream)\n
     '''
 def getNextStream():
-    '''public IncomingAttachmentInputStream getNextStream()
+    '''returns IncomingAttachmentInputStream\n\n
+    getNextStream()\n
     '''

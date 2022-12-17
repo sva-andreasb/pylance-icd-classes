@@ -1,44 +1,38 @@
-def setDefaultAutoReceiptMode():
-    '''public static void setDefaultAutoReceiptMode(final AutoReceiptMode autoReceiptMode)
-    '''
 def processStanza():
-    '''public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
-    public void processStanza(final Stanza packet)
-    '''
-def getInstanceFor():
-    '''public static synchronized DeliveryReceiptManager getInstanceFor(final XMPPConnection connection)
+    '''returns None\n\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
+    processStanza(final Stanza packet)\n
     '''
 def isSupported():
-    '''public boolean isSupported(final Jid jid)
+    '''returns boolean\n\n
+    isSupported(final Jid jid)\n
     '''
 def setAutoReceiptMode():
-    '''public void setAutoReceiptMode(final AutoReceiptMode autoReceiptMode)
+    '''returns None\n\n
+    setAutoReceiptMode(final AutoReceiptMode autoReceiptMode)\n
     '''
 def getAutoReceiptMode():
-    '''public AutoReceiptMode getAutoReceiptMode()
+    '''returns AutoReceiptMode\n\n
+    getAutoReceiptMode()\n
     '''
 def addReceiptReceivedListener():
-    '''public void addReceiptReceivedListener(final ReceiptReceivedListener listener)
+    '''returns None\n\n
+    addReceiptReceivedListener(final ReceiptReceivedListener listener)\n
     '''
 def removeReceiptReceivedListener():
-    '''public void removeReceiptReceivedListener(final ReceiptReceivedListener listener)
+    '''returns None\n\n
+    removeReceiptReceivedListener(final ReceiptReceivedListener listener)\n
     '''
 def autoAddDeliveryReceiptRequests():
-    '''public void autoAddDeliveryReceiptRequests()
+    '''returns None\n\n
+    autoAddDeliveryReceiptRequests()\n
     '''
 def dontAutoAddDeliveryReceiptRequests():
-    '''public void dontAutoAddDeliveryReceiptRequests()
-    '''
-def hasDeliveryReceiptRequest():
-    '''public static boolean hasDeliveryReceiptRequest(final Message message)
-    '''
-def addDeliveryReceiptRequest():
-    '''public static String addDeliveryReceiptRequest(final Message m)
-    '''
-def receiptMessageFor():
-    '''public static Message receiptMessageFor(final Message messageWithReceiptRequest)
+    '''returns None\n\n
+    dontAutoAddDeliveryReceiptRequests()\n
     '''
 def connectionCreated():
-    '''public void connectionCreated(final XMPPConnection connection)
+    '''returns None\n\n
+    connectionCreated(final XMPPConnection connection)\n
     '''

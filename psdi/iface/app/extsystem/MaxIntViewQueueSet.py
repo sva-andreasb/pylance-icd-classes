@@ -1,12 +1,12 @@
-def MaxIntViewQueueSet():
-    '''public MaxIntViewQueueSet(final MboServerInterface ms)
+def ():
+    '''returns MaxIntViewQueueSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def setup():
-    '''public MboRemote setup()
+    '''returns MboRemote\n\n
+    setup()\n
     '''
 def fill():
-    '''public void fill(final List<String> files, String queueName, final String requestUrl)
-    '''
-def getViewFileURL():
-    '''public static String getViewFileURL(final String filePath, final String viewDir, final String queueName, final String requestUrl)
+    '''returns None\n\n
+    fill(final List<String> files, String queueName, final String requestUrl)\n
     '''

@@ -8,33 +8,43 @@ KPITEMPLATEMAINNUM = "String  \"KPITEMPLATEMAINNUM\""
 KPITEMPLATENUM = "String  \"KPITEMPLATENUM\""
 TARGET = "String  \"TARGET\""
 RELATIONSHIP_VALUES = "String  \"KPITEMPLATEVARVALUES\""
-def KPITemplateMain():
-    '''public KPITemplateMain(final MboSet ms)
+def ():
+    '''returns KPITemplateMain\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def validateTemplate():
-    '''public String validateTemplate()
+    '''returns String\n\n
+    validateTemplate()\n
     '''
 def getVariableData():
-    '''public VariableData getVariableData(final String variable)
+    '''returns VariableData\n\n
+    getVariableData(final String variable)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def copy():
-    '''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''returns MboRemote\n\n
+    copy(final MboSetRemote mboset, final long mboAddFlags)\n
     '''
 def findValueForVariable():
-    '''public String findValueForVariable(final MboSetRemote mboset, final String varname)
+    '''returns String\n\n
+    findValueForVariable(final MboSetRemote mboset, final String varname)\n
     '''

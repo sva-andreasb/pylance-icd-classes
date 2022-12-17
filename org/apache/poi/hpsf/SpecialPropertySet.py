@@ -1,4 +1,5 @@
-def SpecialPropertySet():
-    '''public SpecialPropertySet()
-    public SpecialPropertySet(final PropertySet ps)
+def ():
+    '''returns SpecialPropertySet\n\n
+    ()\n
+    (final PropertySet ps)\n
     '''

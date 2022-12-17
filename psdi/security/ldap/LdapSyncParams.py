@@ -1,3 +1,4 @@
-def LdapSyncParams():
-    '''public LdapSyncParams(final MboSet ms)
+def ():
+    '''returns LdapSyncParams\n\n
+    (final MboSet ms)\n
     '''

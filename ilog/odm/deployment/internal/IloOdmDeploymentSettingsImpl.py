@@ -1,109 +1,133 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
-def IloOdmDeploymentSettingsImpl():
-    '''public IloOdmDeploymentSettingsImpl(final String name, final IloOdmDeployerBaseImpl application, final File odmdsFile)
+def ():
+    '''returns PropertiesMap\n\n
+    (final String name, final IloOdmDeployerBaseImpl application, final File odmdsFile)\n
+    (final Properties props)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def write():
-    '''public void write(final OutputStream settingsStream)
+    '''returns None\n\n
+    write(final OutputStream settingsStream)\n
     '''
 def getScenarioRepositoryDatabase():
-    '''public IloOdmScenarioRepositoryDatabaseImpl getScenarioRepositoryDatabase()
+    '''returns IloOdmScenarioRepositoryDatabaseImpl\n\n
+    getScenarioRepositoryDatabase()\n
     '''
 def getApplication():
-    '''public IloOdmDeployerBaseImpl getApplication()
+    '''returns IloOdmDeployerBaseImpl\n\n
+    getApplication()\n
     '''
 def setupServer():
-    '''public void setupServer(final IloOdmServerDesc odmeServerDesc, final boolean optimizationServerEnabled, final boolean dataServerEnabled)
-    public void setupServer(final IloOdmServerDesc odmeServerDesc, final boolean optimizationServerEnabled, final IloCredential odmeSystemCreds)
+    '''returns None\n\n
+    setupServer(final IloOdmServerDesc odmeServerDesc, final boolean optimizationServerEnabled, final boolean dataServerEnabled)\n
+    setupServer(final IloOdmServerDesc odmeServerDesc, final boolean optimizationServerEnabled, final IloCredential odmeSystemCreds)\n
     '''
 def getServer():
-    '''public IloOdmServerDescImpl getServer()
+    '''returns IloOdmServerDescImpl\n\n
+    getServer()\n
     '''
 def setServerURL():
-    '''public void setServerURL(final String url)
+    '''returns None\n\n
+    setServerURL(final String url)\n
     '''
 def isOptimizationServerEnabled():
-    '''public boolean isOptimizationServerEnabled()
+    '''returns boolean\n\n
+    isOptimizationServerEnabled()\n
     '''
 def setOptimizationServerEnabled():
-    '''public void setOptimizationServerEnabled(final boolean optimizationServerEnabled)
-    '''
-def getOptimizationServerParameters():
-    '''public Map<String, String> getOptimizationServerParameters()
+    '''returns None\n\n
+    setOptimizationServerEnabled(final boolean optimizationServerEnabled)\n
     '''
 def setOptimizationServerParameters():
-    '''public void setOptimizationServerParameters(final Map<String, String> parameters)
+    '''returns None\n\n
+    setOptimizationServerParameters(final Map<String, String> parameters)\n
     '''
 def isDataServerEnabled():
-    '''public boolean isDataServerEnabled()
+    '''returns boolean\n\n
+    isDataServerEnabled()\n
     '''
 def setDataServerEnabled():
-    '''public void setDataServerEnabled(final boolean dataServerEnabled)
+    '''returns None\n\n
+    setDataServerEnabled(final boolean dataServerEnabled)\n
     '''
 def checkSettings():
-    '''public String checkSettings()
+    '''returns String\n\n
+    checkSettings()\n
     '''
 def install():
-    '''public void install()
-    public void install(final IloCredential odmeAdminCreds, final X509TrustManager trustMgr)
+    '''returns None\n\n
+    install()\n
+    install(final IloCredential odmeAdminCreds, final X509TrustManager trustMgr)\n
     '''
 def packageOdmApplication():
-    '''public void packageOdmApplication(final OutputStream odmApplicationStream, final OutputStreamProvider osProvider)
-    public void packageOdmApplication(final File odmApplicationFile)
+    '''returns None\n\n
+    packageOdmApplication(final OutputStream odmApplicationStream, final OutputStreamProvider osProvider)\n
+    packageOdmApplication(final File odmApplicationFile)\n
     '''
 def copy():
-    '''public IloOdmDeploymentSettingsImpl copy(final String newSettingsName)
+    '''returns IloOdmDeploymentSettingsImpl\n\n
+    copy(final String newSettingsName)\n
     '''
 def flush():
-    '''public void flush()
+    '''returns None\n\n
+    flush()\n
     '''
 def getDefaultODMApplicationFile():
-    '''public File getDefaultODMApplicationFile()
+    '''returns File\n\n
+    getDefaultODMApplicationFile()\n
     '''
 def getClasspathEntries():
-    '''public String[] getClasspathEntries()
+    '''returns String[]\n\n
+    getClasspathEntries()\n
     '''
 def setClasspathEntries():
-    '''public void setClasspathEntries(final String[] classpathEntries)
-    '''
-def getDeploymentProperties():
-    '''public Map<String, String> getDeploymentProperties()
+    '''returns None\n\n
+    setClasspathEntries(final String[] classpathEntries)\n
     '''
 def setDeploymentProperties():
-    '''public void setDeploymentProperties(final Map<String, String> properties)
+    '''returns None\n\n
+    setDeploymentProperties(final Map<String, String> properties)\n
     '''
 def getArchiveChecksum():
-    '''public String getArchiveChecksum()
+    '''returns String\n\n
+    getArchiveChecksum()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def clone():
-    '''public IloOdmDeploymentSettingsImpl clone()
+    '''returns IloOdmDeploymentSettingsImpl\n\n
+    clone()\n
     '''
 def getSystemCredentials():
-    '''public IloCredential getSystemCredentials()
-    '''
-def PropertiesMap():
-    '''public PropertiesMap(final Properties props)
+    '''returns IloCredential\n\n
+    getSystemCredentials()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def getKey():
-    '''public String getKey()
+    '''returns String\n\n
+    getKey()\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
 def setValue():
-    '''public String setValue(final String value)
+    '''returns String\n\n
+    setValue(final String value)\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''

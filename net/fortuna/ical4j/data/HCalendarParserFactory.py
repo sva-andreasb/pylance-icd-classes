@@ -1,3 +1,4 @@
 def get():
-    '''public CalendarParser get()
+    '''returns CalendarParser\n\n
+    get()\n
     '''

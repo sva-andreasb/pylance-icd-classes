@@ -1,16 +1,21 @@
-def VisibleDurationChangedEvent():
-    '''public VisibleDurationChangedEvent(final IlvTimeScrollable source, final IlvDuration a, final boolean b)
-    public VisibleDurationChangedEvent(final IlvTimeScrollable ilvTimeScrollable, final IlvDuration ilvDuration)
+def ():
+    '''returns VisibleDurationChangedEvent\n\n
+    (final IlvTimeScrollable source, final IlvDuration a, final boolean b)\n
+    (final IlvTimeScrollable ilvTimeScrollable, final IlvDuration ilvDuration)\n
     '''
 def getTimeScrollable():
-    '''public IlvTimeScrollable getTimeScrollable()
+    '''returns IlvTimeScrollable\n\n
+    getTimeScrollable()\n
     '''
 def getDuration():
-    '''public IlvDuration getDuration()
+    '''returns IlvDuration\n\n
+    getDuration()\n
     '''
 def isViewResized():
-    '''public boolean isViewResized()
+    '''returns boolean\n\n
+    isViewResized()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

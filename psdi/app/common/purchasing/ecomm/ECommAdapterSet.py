@@ -1,3 +1,4 @@
-def ECommAdapterSet():
-    '''public ECommAdapterSet(final MboServerInterface ms)
+def ():
+    '''returns ECommAdapterSet\n\n
+    (final MboServerInterface ms)\n
     '''

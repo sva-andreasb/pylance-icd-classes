@@ -1,16 +1,17 @@
-def growthList():
-    '''public static <E> GrowthList<E> growthList(final List<E> list)
-    '''
-def GrowthList():
-    '''public GrowthList()
-    public GrowthList(final int initialSize)
+def ():
+    '''returns GrowthList\n\n
+    ()\n
+    (final int initialSize)\n
     '''
 def add():
-    '''public void add(final int index, final E element)
+    '''returns None\n\n
+    add(final int index, final E element)\n
     '''
 def addAll():
-    '''public boolean addAll(final int index, final Collection<? extends E> coll)
+    '''returns boolean\n\n
+    addAll(final int index, final Collection<? extends E> coll)\n
     '''
 def set():
-    '''public E set(final int index, final E element)
+    '''returns E\n\n
+    set(final int index, final E element)\n
     '''

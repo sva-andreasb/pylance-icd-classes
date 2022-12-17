@@ -1,6 +1,8 @@
-def FldWogenHasChildren():
-    '''public FldWogenHasChildren(final MboValue mbv)
+def ():
+    '''returns FldWogenHasChildren\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

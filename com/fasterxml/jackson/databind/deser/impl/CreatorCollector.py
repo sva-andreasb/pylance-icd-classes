@@ -1,94 +1,117 @@
 TYPE_ARRAY_LIST = "int  1"
 TYPE_HASH_MAP = "int  2"
 TYPE_LINKED_HASH_MAP = "int  3"
-def CreatorCollector():
-    '''public CreatorCollector(final BeanDescription beanDesc, final MapperConfig<?> config)
+def ():
+    '''returns StdTypeConstructor\n\n
+    (final BeanDescription beanDesc, final MapperConfig<?> config)\n
+    (final AnnotatedWithParams base, final int t)\n
     '''
 def constructValueInstantiator():
-    '''public ValueInstantiator constructValueInstantiator(final DeserializationContext ctxt)
+    '''returns ValueInstantiator\n\n
+    constructValueInstantiator(final DeserializationContext ctxt)\n
     '''
 def setDefaultCreator():
-    '''public void setDefaultCreator(final AnnotatedWithParams creator)
+    '''returns None\n\n
+    setDefaultCreator(final AnnotatedWithParams creator)\n
     '''
 def addStringCreator():
-    '''public void addStringCreator(final AnnotatedWithParams creator, final boolean explicit)
+    '''returns None\n\n
+    addStringCreator(final AnnotatedWithParams creator, final boolean explicit)\n
     '''
 def addIntCreator():
-    '''public void addIntCreator(final AnnotatedWithParams creator, final boolean explicit)
+    '''returns None\n\n
+    addIntCreator(final AnnotatedWithParams creator, final boolean explicit)\n
     '''
 def addLongCreator():
-    '''public void addLongCreator(final AnnotatedWithParams creator, final boolean explicit)
+    '''returns None\n\n
+    addLongCreator(final AnnotatedWithParams creator, final boolean explicit)\n
     '''
 def addDoubleCreator():
-    '''public void addDoubleCreator(final AnnotatedWithParams creator, final boolean explicit)
+    '''returns None\n\n
+    addDoubleCreator(final AnnotatedWithParams creator, final boolean explicit)\n
     '''
 def addBooleanCreator():
-    '''public void addBooleanCreator(final AnnotatedWithParams creator, final boolean explicit)
+    '''returns None\n\n
+    addBooleanCreator(final AnnotatedWithParams creator, final boolean explicit)\n
     '''
 def addDelegatingCreator():
-    '''public void addDelegatingCreator(final AnnotatedWithParams creator, final boolean explicit, final SettableBeanProperty[] injectables, final int delegateeIndex)
+    '''returns None\n\n
+    addDelegatingCreator(final AnnotatedWithParams creator, final boolean explicit, final SettableBeanProperty[] injectables, final int delegateeIndex)\n
     '''
 def addPropertyCreator():
-    '''public void addPropertyCreator(final AnnotatedWithParams creator, final boolean explicit, final SettableBeanProperty[] properties)
+    '''returns None\n\n
+    addPropertyCreator(final AnnotatedWithParams creator, final boolean explicit, final SettableBeanProperty[] properties)\n
     '''
 def hasDefaultCreator():
-    '''public boolean hasDefaultCreator()
+    '''returns boolean\n\n
+    hasDefaultCreator()\n
     '''
 def hasDelegatingCreator():
-    '''public boolean hasDelegatingCreator()
+    '''returns boolean\n\n
+    hasDelegatingCreator()\n
     '''
 def hasPropertyBasedCreator():
-    '''public boolean hasPropertyBasedCreator()
-    '''
-def StdTypeConstructor():
-    '''public StdTypeConstructor(final AnnotatedWithParams base, final int t)
-    '''
-def tryToOptimize():
-    '''public static AnnotatedWithParams tryToOptimize(final AnnotatedWithParams src)
+    '''returns boolean\n\n
+    hasPropertyBasedCreator()\n
     '''
 def getParameterCount():
-    '''public int getParameterCount()
+    '''returns int\n\n
+    getParameterCount()\n
     '''
 def getParameterType():
-    '''public JavaType getParameterType(final int index)
+    '''returns JavaType\n\n
+    getParameterType(final int index)\n
     '''
 def getGenericParameterType():
-    '''public Type getGenericParameterType(final int index)
+    '''returns Type\n\n
+    getGenericParameterType(final int index)\n
     '''
 def call():
-    '''public Object call()
-    public Object call(final Object[] args)
+    '''returns Object\n\n
+    call()\n
+    call(final Object[] args)\n
     '''
 def call1():
-    '''public Object call1(final Object arg)
+    '''returns Object\n\n
+    call1(final Object arg)\n
     '''
 def getMember():
-    '''public Member getMember()
+    '''returns Member\n\n
+    getMember()\n
     '''
 def setValue():
-    '''public void setValue(final Object pojo, final Object value)
+    '''returns None\n\n
+    setValue(final Object pojo, final Object value)\n
     '''
 def getValue():
-    '''public Object getValue(final Object pojo)
+    '''returns Object\n\n
+    getValue(final Object pojo)\n
     '''
 def withAnnotations():
-    '''public Annotated withAnnotations(final AnnotationMap fallback)
+    '''returns Annotated\n\n
+    withAnnotations(final AnnotationMap fallback)\n
     '''
 def getAnnotated():
-    '''public AnnotatedElement getAnnotated()
+    '''returns AnnotatedElement\n\n
+    getAnnotated()\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def getType():
-    '''public JavaType getType()
+    '''returns JavaType\n\n
+    getType()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

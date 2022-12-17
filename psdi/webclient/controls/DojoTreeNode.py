@@ -15,55 +15,64 @@ DOJO_TREENODE_SIGOPTION = "String  \"sigoption\""
 DOJO_TREENODE_SIGOPTION_DATASRC = "String  \"sigoptiondatasrc\""
 DOJO_TREENODE_EVENTVALUE = "String  \"eventvalue\""
 DOJO_TREENODE_CONTEXTMENU = "String  \"contextmenu\""
-def DojoTreeNode():
-    '''public DojoTreeNode()
-    public DojoTreeNode(final DojoTree owner, final MboRemote representedObject, final DojoTreeNodePrototype prototype)
+def ():
+    '''returns DojoTreeNode\n\n
+    ()\n
+    (final DojoTree owner, final MboRemote representedObject, final DojoTreeNodePrototype prototype)\n
     '''
 def initialize():
-    '''public void initialize()
+    '''returns None\n\n
+    initialize()\n
     '''
 def getPrototype():
-    '''public DojoTreeNodePrototype getPrototype()
+    '''returns DojoTreeNodePrototype\n\n
+    getPrototype()\n
     '''
 def contextmenu():
-    '''public int contextmenu()
-    '''
-def getData():
-    '''public Map<String, Object> getData()
+    '''returns int\n\n
+    contextmenu()\n
     '''
 def getRepresentedObject():
-    '''public MboRemote getRepresentedObject()
+    '''returns MboRemote\n\n
+    getRepresentedObject()\n
     '''
 def openNode():
-    '''public int openNode()
+    '''returns int\n\n
+    openNode()\n
     '''
 def setOpened():
-    '''public void setOpened(final boolean value)
+    '''returns None\n\n
+    setOpened(final boolean value)\n
     '''
 def compare():
-    '''public int compare(final DojoTreeNode o1, final DojoTreeNode o2)
+    '''returns int\n\n
+    compare(final DojoTreeNode o1, final DojoTreeNode o2)\n
     '''
 def getChildrenNodes():
-    '''public int getChildrenNodes()
+    '''returns int\n\n
+    getChildrenNodes()\n
     '''
 def getTree():
-    '''public DojoTree getTree()
+    '''returns DojoTree\n\n
+    getTree()\n
     '''
 def getChildrenSize():
-    '''public int getChildrenSize()
+    '''returns int\n\n
+    getChildrenSize()\n
     '''
 def toJSON():
-    '''public JSONObject toJSON()
+    '''returns JSONObject\n\n
+    toJSON()\n
     '''
 def isChecked():
-    '''public boolean isChecked()
+    '''returns boolean\n\n
+    isChecked()\n
     '''
 def setChecked():
-    '''public int setChecked()
+    '''returns int\n\n
+    setChecked()\n
     '''
 def rightClick():
-    '''public int rightClick()
-    '''
-def fromString():
-    '''public static List<SortDescriptor> fromString(final String s)
+    '''returns int\n\n
+    rightClick()\n
     '''

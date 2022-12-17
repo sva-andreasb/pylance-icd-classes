@@ -1,30 +1,35 @@
-def Dyadic():
-    '''public Dyadic(final Expression L, final String F, final Expression R)
+def ():
+    '''returns Dyadic\n\n
+    (final Expression L, final String F, final Expression R)\n
     '''
 def argCount():
-    '''public int argCount()
+    '''returns int\n\n
+    argCount()\n
     '''
 def getArg():
-    '''public Expression getArg(final int i)
+    '''returns Expression\n\n
+    getArg(final int i)\n
     '''
 def getFun():
-    '''public String getFun()
+    '''returns String\n\n
+    getFun()\n
     '''
 def evalObject():
-    '''public Object evalObject(final Object l, final Object r)
-    public Object evalObject(final IndexValues iv)
+    '''returns Object\n\n
+    evalObject(final Object l, final Object r)\n
+    evalObject(final IndexValues iv)\n
     '''
 def evalBool():
-    '''public boolean evalBool(final Object l, final Object r)
-    public boolean evalBool(final IndexValues iv)
-    public boolean evalBool(final Object x, final Object y)
+    '''returns boolean\n\n
+    evalBool(final Object l, final Object r)\n
+    evalBool(final IndexValues iv)\n
+    evalBool(final Object x, final Object y)\n
     '''
 def prepare():
-    '''public Valuator prepare(final VariableIndexes vi)
+    '''returns Valuator\n\n
+    prepare(final VariableIndexes vi)\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def and():
-    '''public static Expression and(final Expression L, final Expression R)
+    '''returns String\n\n
+    toString()\n
     '''

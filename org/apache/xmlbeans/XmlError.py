@@ -1,78 +1,52 @@
 SEVERITY_ERROR = "int  0"
 SEVERITY_WARNING = "int  1"
 SEVERITY_INFO = "int  2"
-def XmlError():
-    '''public XmlError(final XmlError src)
-    '''
-def forMessage():
-    '''public static XmlError forMessage(final String message)
-    public static XmlError forMessage(final String message, final int severity)
-    public static XmlError forMessage(final String code, final Object[] args)
-    public static XmlError forMessage(final String code, final Object[] args, final int severity)
-    '''
-def forSource():
-    '''public static XmlError forSource(final String message, final String sourceName)
-    public static XmlError forSource(final String message, final int severity, final String sourceName)
-    public static XmlError forSource(final String code, final Object[] args, final int severity, final String sourceName)
-    '''
-def forLocation():
-    '''public static XmlError forLocation(final String message, final String sourceName, final Location location)
-    public static XmlError forLocation(final String message, final String sourceName, final int line, final int column, final int offset)
-    public static XmlError forLocation(final String code, final Object[] args, final int severity, final String sourceName, final int line, final int column, final int offset)
-    public static XmlError forLocation(final String message, final int severity, final String sourceName, final int line, final int column, final int offset)
-    '''
-def forLocationAndCursor():
-    '''public static XmlError forLocationAndCursor(final String message, final int severity, final String sourceName, final int line, final int column, final int offset, final XmlCursor cursor)
-    '''
-def forObject():
-    '''public static XmlError forObject(final String message, final XmlObject xobj)
-    public static XmlError forObject(final String code, final Object[] args, final XmlObject xobj)
-    public static XmlError forObject(final String message, final int severity, final XmlObject xobj)
-    public static XmlError forObject(final String code, final Object[] args, final int severity, final XmlObject xobj)
-    '''
-def forCursor():
-    '''public static XmlError forCursor(final String message, final XmlCursor cursor)
-    public static XmlError forCursor(final String code, final Object[] args, final XmlCursor cursor)
-    public static XmlError forCursor(final String message, final int severity, final XmlCursor cursor)
-    public static XmlError forCursor(final String code, final Object[] args, final int severity, final XmlCursor cursor)
-    '''
-def formattedMessage():
-    '''public static String formattedMessage(final String code, final Object[] args)
+def ():
+    '''returns XmlError\n\n
+    (final XmlError src)\n
     '''
 def getSeverity():
-    '''public int getSeverity()
+    '''returns int\n\n
+    getSeverity()\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''
 def getErrorCode():
-    '''public String getErrorCode()
+    '''returns String\n\n
+    getErrorCode()\n
     '''
 def getSourceName():
-    '''public String getSourceName()
+    '''returns String\n\n
+    getSourceName()\n
     '''
 def getLine():
-    '''public int getLine()
+    '''returns int\n\n
+    getLine()\n
     '''
 def getColumn():
-    '''public int getColumn()
+    '''returns int\n\n
+    getColumn()\n
     '''
 def getOffset():
-    '''public int getOffset()
+    '''returns int\n\n
+    getOffset()\n
     '''
 def getLocation():
-    '''public Object getLocation(final Object type)
+    '''returns Object\n\n
+    getLocation(final Object type)\n
     '''
 def getCursorLocation():
-    '''public XmlCursor getCursorLocation()
+    '''returns XmlCursor\n\n
+    getCursorLocation()\n
     '''
 def getObjectLocation():
-    '''public XmlObject getObjectLocation()
+    '''returns XmlObject\n\n
+    getObjectLocation()\n
     '''
 def toString():
-    '''public String toString()
-    public String toString(final URI base)
-    '''
-def severityAsString():
-    '''public static String severityAsString(final int severity)
+    '''returns String\n\n
+    toString()\n
+    toString(final URI base)\n
     '''

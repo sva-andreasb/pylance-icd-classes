@@ -9,349 +9,311 @@ LEFT_SIDE = "int  1"
 RIGHT_SIDE = "int  2"
 OUTSIDE = "int  1"
 INSIDE = "int  2"
-def IlvScale():
-    '''public IlvScale()
-    public IlvScale(final double value, final double value2)
-    public IlvScale(final IlvTimeUnit timeUnit)
-    '''
-def getComponentOrientation():
-    '''public final ComponentOrientation getComponentOrientation()
-    '''
-def getAxisStroke():
-    '''public final Stroke getAxisStroke()
+def ():
+    '''returns Title\n\n
+    ()\n
+    (final double value, final double value2)\n
+    (final IlvTimeUnit timeUnit)\n
+    (final String d, final double rotation)\n
     '''
 def setAxisStroke():
-    '''public void setAxisStroke(final Stroke stroke)
+    '''returns None\n\n
+    setAxisStroke(final Stroke stroke)\n
     '''
 def getResolvedBaseTextDirection():
-    '''public int getResolvedBaseTextDirection()
-    '''
-def getLabelFont():
-    '''public final Font getLabelFont()
+    '''returns int\n\n
+    getResolvedBaseTextDirection()\n
     '''
 def setLabelFont():
-    '''public void setLabelFont(final Font as)
-    '''
-def getLabelColor():
-    '''public final Color getLabelColor()
+    '''returns None\n\n
+    setLabelFont(final Font as)\n
     '''
 def setLabelColor():
-    '''public void setLabelColor(final Color ao)
+    '''returns None\n\n
+    setLabelColor(final Color ao)\n
     '''
 def getForeground():
-    '''public Color getForeground()
+    '''returns Color\n\n
+    getForeground()\n
     '''
 def setForeground():
-    '''public void setForeground(Color ag)
-    '''
-def getDrawOrder():
-    '''public final int getDrawOrder()
+    '''returns None\n\n
+    setForeground(Color ag)\n
     '''
 def setDrawOrder():
-    '''public void setDrawOrder(final int s)
-    '''
-def getMajorTickSize():
-    '''public final int getMajorTickSize()
+    '''returns None\n\n
+    setDrawOrder(final int s)\n
     '''
 def setMajorTickSize():
-    '''public void setMajorTickSize(final int t)
-    '''
-def getMinorTickSize():
-    '''public final int getMinorTickSize()
+    '''returns None\n\n
+    setMajorTickSize(final int t)\n
     '''
 def setMinorTickSize():
-    '''public void setMinorTickSize(final int u)
-    '''
-def getTickLayout():
-    '''public final int getTickLayout()
+    '''returns None\n\n
+    setMinorTickSize(final int u)\n
     '''
 def setTickLayout():
-    '''public void setTickLayout(final int y)
-    '''
-def getLabelOffset():
-    '''public final int getLabelOffset()
+    '''returns None\n\n
+    setTickLayout(final int y)\n
     '''
 def setLabelOffset():
-    '''public void setLabelOffset(final int v)
-    '''
-def getTitleOffset():
-    '''public final int getTitleOffset()
+    '''returns None\n\n
+    setLabelOffset(final int v)\n
     '''
 def setTitleOffset():
-    '''public void setTitleOffset(final int w)
-    '''
-def isAutoWrapping():
-    '''public final boolean isAutoWrapping()
+    '''returns None\n\n
+    setTitleOffset(final int w)\n
     '''
 def setAutoWrapping():
-    '''public void setAutoWrapping(final boolean ab)
-    '''
-def getLabelAlignment():
-    '''public final int getLabelAlignment()
+    '''returns None\n\n
+    setAutoWrapping(final boolean ab)\n
     '''
 def setLabelAlignment():
-    '''public void setLabelAlignment(final int x)
+    '''returns None\n\n
+    setLabelAlignment(final int x)\n
     '''
 def getTitleRotation():
-    '''public double getTitleRotation()
+    '''returns double\n\n
+    getTitleRotation()\n
     '''
 def setTitleRotation():
-    '''public void setTitleRotation(final double rotation)
+    '''returns None\n\n
+    setTitleRotation(final double rotation)\n
     '''
 def getTitleFont():
-    '''public Font getTitleFont()
+    '''returns Font\n\n
+    getTitleFont()\n
     '''
 def setTitleFont():
-    '''public void setTitleFont(final Font font)
-    '''
-def getTitle():
-    '''public final String getTitle()
+    '''returns None\n\n
+    setTitleFont(final Font font)\n
     '''
 def setTitle():
-    '''public void setTitle(final String text)
-    public void setTitle(final String text, final double rotation)
+    '''returns None\n\n
+    setTitle(final String text)\n
+    setTitle(final String text, final double rotation)\n
     '''
 def getTitleRenderer():
-    '''public IlvLabelRenderer getTitleRenderer()
+    '''returns IlvLabelRenderer\n\n
+    getTitleRenderer()\n
     '''
 def getTitlePlacement():
-    '''public int getTitlePlacement()
+    '''returns int\n\n
+    getTitlePlacement()\n
     '''
 def setTitlePlacement():
-    '''public void setTitlePlacement(final int placement)
-    '''
-def isViewable():
-    '''public final boolean isViewable()
+    '''returns None\n\n
+    setTitlePlacement(final int placement)\n
     '''
 def getLabelRotation():
-    '''public double getLabelRotation()
+    '''returns double\n\n
+    getLabelRotation()\n
     '''
 def setLabelRotation():
-    '''public void setLabelRotation(final double aa)
-    '''
-def isSkippingLabel():
-    '''public final boolean isSkippingLabel()
+    '''returns None\n\n
+    setLabelRotation(final double aa)\n
     '''
 def setSkippingLabel():
-    '''public void setSkippingLabel(final boolean b)
-    '''
-def getSkipLabelMode():
-    '''public final int getSkipLabelMode()
+    '''returns None\n\n
+    setSkippingLabel(final boolean b)\n
     '''
 def setSkipLabelMode():
-    '''public void setSkipLabelMode(final int z)
+    '''returns None\n\n
+    setSkipLabelMode(final int z)\n
     '''
 def has3DSupport():
-    '''public boolean has3DSupport()
-    '''
-def isVisible():
-    '''public final boolean isVisible()
+    '''returns boolean\n\n
+    has3DSupport()\n
     '''
 def setVisible():
-    '''public void setVisible(final boolean b)
-    '''
-def isAxisVisible():
-    '''public final boolean isAxisVisible()
+    '''returns None\n\n
+    setVisible(final boolean b)\n
     '''
 def setAxisVisible():
-    '''public void setAxisVisible(final boolean b)
-    '''
-def isMajorTickVisible():
-    '''public final boolean isMajorTickVisible()
+    '''returns None\n\n
+    setAxisVisible(final boolean b)\n
     '''
 def setMajorTickVisible():
-    '''public void setMajorTickVisible(final boolean b)
-    '''
-def isMinorTickVisible():
-    '''public final boolean isMinorTickVisible()
+    '''returns None\n\n
+    setMajorTickVisible(final boolean b)\n
     '''
 def setMinorTickVisible():
-    '''public void setMinorTickVisible(final boolean b)
-    '''
-def isLabelVisible():
-    '''public final boolean isLabelVisible()
+    '''returns None\n\n
+    setMinorTickVisible(final boolean b)\n
     '''
 def setLabelVisible():
-    '''public void setLabelVisible(final boolean b)
-    '''
-def isAutoCrossing():
-    '''public final boolean isAutoCrossing()
+    '''returns None\n\n
+    setLabelVisible(final boolean b)\n
     '''
 def setAutoCrossing():
-    '''public void setAutoCrossing(final boolean b)
+    '''returns None\n\n
+    setAutoCrossing(final boolean b)\n
     '''
 def setCrossing():
-    '''public void setCrossing(final IlvAxis.Crossing crossing)
-    '''
-def getCrossingValue():
-    '''public final double getCrossingValue()
+    '''returns None\n\n
+    setCrossing(final IlvAxis.Crossing crossing)\n
     '''
 def setCrossingValue():
-    '''public void setCrossingValue(final double n)
-    '''
-def isAutoSide():
-    '''public final boolean isAutoSide()
+    '''returns None\n\n
+    setCrossingValue(final double n)\n
     '''
 def setAutoSide():
-    '''public void setAutoSide(final boolean b)
+    '''returns None\n\n
+    setAutoSide(final boolean b)\n
     '''
 def getDefaultSide():
-    '''public int getDefaultSide()
+    '''returns int\n\n
+    getDefaultSide()\n
     '''
 def getSide():
-    '''public int getSide()
+    '''returns int\n\n
+    getSide()\n
     '''
 def setSide():
-    '''public void setSide(final int n)
+    '''returns None\n\n
+    setSide(final int n)\n
     '''
 def getRadialSide():
-    '''public int getRadialSide()
+    '''returns int\n\n
+    getRadialSide()\n
     '''
 def setRadialSide():
-    '''public void setRadialSide(final int n)
+    '''returns None\n\n
+    setRadialSide(final int n)\n
     '''
 def getCircleSide():
-    '''public int getCircleSide()
+    '''returns int\n\n
+    getCircleSide()\n
     '''
 def setCircleSide():
-    '''public void setCircleSide(final int n)
-    '''
-def getStepsDefinition():
-    '''public final IlvStepsDefinition getStepsDefinition()
+    '''returns None\n\n
+    setCircleSide(final int n)\n
     '''
 def setStepsDefinition():
-    '''public void setStepsDefinition(final IlvStepsDefinition al)
+    '''returns None\n\n
+    setStepsDefinition(final IlvStepsDefinition al)\n
     '''
 def setStepUnit():
-    '''public void setStepUnit(final Double n, final Double n2)
+    '''returns None\n\n
+    setStepUnit(final Double n, final Double n2)\n
     '''
 def setTimeUnit():
-    '''public void setTimeUnit(final IlvTimeUnit unit)
-    '''
-def isCategory():
-    '''public final boolean isCategory()
+    '''returns None\n\n
+    setTimeUnit(final IlvTimeUnit unit)\n
     '''
 def setCategory():
-    '''public final void setCategory(final boolean b)
-    public void setCategory(final IlvDataSet set, final boolean b)
+    '''returns None\n\n
+    setCategory(final IlvDataSet set, final boolean b)\n
     '''
 def setLogarithmic():
-    '''public void setLogarithmic(final double n)
-    '''
-def getAxis():
-    '''public final IlvAxis getAxis()
-    '''
-def getDualAxis():
-    '''public final IlvAxis getDualAxis()
-    '''
-def getCoordinateSystem():
-    '''public final IlvCoordinateSystem getCoordinateSystem()
-    '''
-def getChart():
-    '''public final IlvChart getChart()
-    '''
-def getStepValues():
-    '''public final IlvDoubleArray getStepValues()
-    '''
-def getSubStepValues():
-    '''public final IlvDoubleArray getSubStepValues()
-    '''
-def recalc():
-    '''public final void recalc()
-    '''
-def draw():
-    '''public synchronized void draw(final Graphics graphics)
+    '''returns None\n\n
+    setLogarithmic(final double n)\n
     '''
 def toValue():
-    '''public double toValue(final int n, final int n2)
+    '''returns double\n\n
+    toValue(final int n, final int n2)\n
     '''
 def toPoint():
-    '''public Point toPoint(final double n)
-    '''
-def getBounds():
-    '''public synchronized Rectangle2D getBounds(final Rectangle2D rectangle2D)
+    '''returns Point\n\n
+    toPoint(final double n)\n
     '''
 def getBoundsUsingCache():
-    '''public Rectangle2D getBoundsUsingCache(Rectangle2D rectangle2D)
+    '''returns Rectangle2D\n\n
+    getBoundsUsingCache(Rectangle2D rectangle2D)\n
     '''
 def drawSelectionHandles():
-    '''public void drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle)
+    '''returns None\n\n
+    drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle)\n
     '''
 def drawHighlight():
-    '''public void drawHighlight(final Graphics graphics)
+    '''returns None\n\n
+    drawHighlight(final Graphics graphics)\n
     '''
 def hit():
-    '''public boolean hit(final Point2D point2D)
+    '''returns boolean\n\n
+    hit(final Point2D point2D)\n
     '''
 def drawIntoHitmap():
-    '''public void drawIntoHitmap(final IlvChartHitmapDefinition ilvChartHitmapDefinition, final IlvChartHitmapAccumulator ilvChartHitmapAccumulator)
+    '''returns None\n\n
+    drawIntoHitmap(final IlvChartHitmapDefinition ilvChartHitmapDefinition, final IlvChartHitmapAccumulator ilvChartHitmapAccumulator)\n
     '''
 def getAnnotations():
-    '''public IlvScaleAnnotation[] getAnnotations()
+    '''returns IlvScaleAnnotation[]\n\n
+    getAnnotations()\n
     '''
 def setAnnotations():
-    '''public void setAnnotations(final IlvScaleAnnotation[] array)
+    '''returns None\n\n
+    setAnnotations(final IlvScaleAnnotation[] array)\n
     '''
 def addAnnotation():
-    '''public void addAnnotation(final IlvScaleAnnotation ilvScaleAnnotation)
+    '''returns None\n\n
+    addAnnotation(final IlvScaleAnnotation ilvScaleAnnotation)\n
     '''
 def removeAnnotation():
-    '''public void removeAnnotation(final IlvScaleAnnotation ilvScaleAnnotation)
+    '''returns None\n\n
+    removeAnnotation(final IlvScaleAnnotation ilvScaleAnnotation)\n
     '''
 def updateAnnotations():
-    '''public void updateAnnotations()
+    '''returns None\n\n
+    updateAnnotations()\n
     '''
 def getLabelBounds():
-    '''public Rectangle2D getLabelBounds(final int n, final Rectangle2D rectangle2D)
+    '''returns Rectangle2D\n\n
+    getLabelBounds(final int n, final Rectangle2D rectangle2D)\n
     '''
 def getLabelCount():
-    '''public int getLabelCount()
+    '''returns int\n\n
+    getLabelCount()\n
     '''
 def getLabelValue():
-    '''public double getLabelValue(final int n)
-    '''
-def getLabelFormat():
-    '''public final IlvValueFormat getLabelFormat()
+    '''returns double\n\n
+    getLabelValue(final int n)\n
     '''
 def setLabelFormat():
-    '''public void setLabelFormat(final IlvValueFormat ar)
+    '''returns None\n\n
+    setLabelFormat(final IlvValueFormat ar)\n
     '''
 def computeLabel():
-    '''public String computeLabel(final double n)
+    '''returns String\n\n
+    computeLabel(final double n)\n
     '''
 def getTitleBackgroundShape():
-    '''public Shape getTitleBackgroundShape()
-    '''
-def getAxisIndex():
-    '''public static int getAxisIndex(final IlvScale ilvScale)
+    '''returns Shape\n\n
+    getTitleBackgroundShape()\n
     '''
 def axisRangeChanged():
-    '''public void axisRangeChanged(final AxisRangeEvent axisRangeEvent)
+    '''returns None\n\n
+    axisRangeChanged(final AxisRangeEvent axisRangeEvent)\n
     '''
 def axisChanged():
-    '''public void axisChanged(final AxisChangeEvent axisChangeEvent)
-    '''
-def Title():
-    '''public Title(final String d, final double rotation)
+    '''returns None\n\n
+    axisChanged(final AxisChangeEvent axisChangeEvent)\n
     '''
 def stateChanged():
-    '''public void stateChanged()
+    '''returns None\n\n
+    stateChanged()\n
     '''
 def getText():
-    '''public String getText()
+    '''returns String\n\n
+    getText()\n
     '''
 def setText():
-    '''public void setText(final String d)
+    '''returns None\n\n
+    setText(final String d)\n
     '''
 def getLabelRenderer():
-    '''public IlvLabelRenderer getLabelRenderer()
+    '''returns IlvLabelRenderer\n\n
+    getLabelRenderer()\n
     '''
 def setPlacement():
-    '''public void setPlacement(int c)
+    '''returns None\n\n
+    setPlacement(int c)\n
     '''
 def getPlacement():
-    '''public int getPlacement()
+    '''returns int\n\n
+    getPlacement()\n
     '''
 def getSize2D():
-    '''public Dimension2D getSize2D(final boolean b)
+    '''returns Dimension2D\n\n
+    getSize2D(final boolean b)\n
     '''

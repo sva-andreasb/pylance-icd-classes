@@ -1,3 +1,4 @@
-def TenantUsersPerType():
-    '''public TenantUsersPerType(final MboSet ms)
+def ():
+    '''returns TenantUsersPerType\n\n
+    (final MboSet ms)\n
     '''

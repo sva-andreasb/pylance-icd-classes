@@ -1,6 +1,8 @@
-def FALOAD():
-    '''public FALOAD()
+def ():
+    '''returns FALOAD\n\n
+    ()\n
     '''
 def accept():
-    '''public void accept(final Visitor v)
+    '''returns None\n\n
+    accept(final Visitor v)\n
     '''

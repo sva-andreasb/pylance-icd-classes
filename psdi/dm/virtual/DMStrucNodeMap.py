@@ -1,9 +1,12 @@
-def DMStrucNodeMap():
-    '''public DMStrucNodeMap()
+def ():
+    '''returns DMStrucNodeMap\n\n
+    ()\n
     '''
 def getRootNodeId():
-    '''public long getRootNodeId()
+    '''returns long\n\n
+    getRootNodeId()\n
     '''
 def getTreeUniqueID():
-    '''public long getTreeUniqueID(final MboRemote mbo)
+    '''returns long\n\n
+    getTreeUniqueID(final MboRemote mbo)\n
     '''

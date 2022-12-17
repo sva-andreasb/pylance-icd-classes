@@ -1,3 +1,4 @@
-def MailEvent():
-    '''public MailEvent(final Object source)
+def ():
+    '''returns MailEvent\n\n
+    (final Object source)\n
     '''

@@ -1,3 +1,4 @@
-def DPANetPrinterSet():
-    '''public DPANetPrinterSet(final MboServerInterface ms)
+def ():
+    '''returns DPANetPrinterSet\n\n
+    (final MboServerInterface ms)\n
     '''

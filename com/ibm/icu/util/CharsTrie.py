@@ -1,46 +1,59 @@
-def CharsTrie():
-    '''public CharsTrie(final CharSequence trieChars, final int offset)
-    public CharsTrie(final CharsTrie other)
+def ():
+    '''returns CharsTrie\n\n
+    (final CharSequence trieChars, final int offset)\n
+    (final CharsTrie other)\n
     '''
 def clone():
-    '''public CharsTrie clone()
+    '''returns CharsTrie\n\n
+    clone()\n
     '''
 def reset():
-    '''public CharsTrie reset()
-    public Iterator reset()
+    '''returns Iterator\n\n
+    reset()\n
+    reset()\n
     '''
 def getState64():
-    '''public long getState64()
+    '''returns long\n\n
+    getState64()\n
     '''
 def resetToState64():
-    '''public CharsTrie resetToState64(final long state)
+    '''returns CharsTrie\n\n
+    resetToState64(final long state)\n
     '''
 def saveState():
-    '''public CharsTrie saveState(final State state)
+    '''returns CharsTrie\n\n
+    saveState(final State state)\n
     '''
 def resetToState():
-    '''public CharsTrie resetToState(final State state)
+    '''returns CharsTrie\n\n
+    resetToState(final State state)\n
     '''
 def getValue():
-    '''public int getValue()
+    '''returns int\n\n
+    getValue()\n
     '''
 def getUniqueValue():
-    '''public long getUniqueValue()
+    '''returns long\n\n
+    getUniqueValue()\n
     '''
 def getNextChars():
-    '''public int getNextChars(final Appendable out)
+    '''returns int\n\n
+    getNextChars(final Appendable out)\n
     '''
 def iterator():
-    '''public Iterator iterator()
-    public Iterator iterator(final int maxStringLength)
-    public static Iterator iterator(final CharSequence trieChars, final int offset, final int maxStringLength)
+    '''returns Iterator\n\n
+    iterator()\n
+    iterator(final int maxStringLength)\n
     '''
 def hasNext():
-    '''public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
     '''
 def next():
-    '''public Entry next()
+    '''returns Entry\n\n
+    next()\n
     '''
 def remove():
-    '''public void remove()
+    '''returns None\n\n
+    remove()\n
     '''

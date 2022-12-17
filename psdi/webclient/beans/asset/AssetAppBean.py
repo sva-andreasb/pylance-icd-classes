@@ -1,132 +1,172 @@
-def AssetAppBean():
-    '''public AssetAppBean()
+def ():
+    '''returns AssetAppBean\n\n
+    ()\n
     '''
 def REFRESHLIST():
-    '''public int REFRESHLIST()
+    '''returns int\n\n
+    REFRESHLIST()\n
     '''
 def structureChangedEvent():
-    '''public void structureChangedEvent(final DataBean speaker)
+    '''returns None\n\n
+    structureChangedEvent(final DataBean speaker)\n
     '''
 def APPLYIAS():
-    '''public int APPLYIAS()
+    '''returns int\n\n
+    APPLYIAS()\n
     '''
 def MOVEASSET():
-    '''public int MOVEASSET()
+    '''returns int\n\n
+    MOVEASSET()\n
     '''
 def SWAPASSET():
-    '''public int SWAPASSET()
+    '''returns int\n\n
+    SWAPASSET()\n
     '''
 def STATUS():
-    '''public int STATUS()
+    '''returns int\n\n
+    STATUS()\n
     '''
 def STATUSSUB():
-    '''public int STATUSSUB()
+    '''returns int\n\n
+    STATUSSUB()\n
     '''
 def ALTERITEM():
-    '''public int ALTERITEM()
+    '''returns int\n\n
+    ALTERITEM()\n
     '''
 def USERCUST():
-    '''public int USERCUST()
+    '''returns int\n\n
+    USERCUST()\n
     '''
 def ASTLOCCOMM():
-    '''public int ASTLOCCOMM()
+    '''returns int\n\n
+    ASTLOCCOMM()\n
     '''
 def DUPLICATE():
-    '''public int DUPLICATE()
+    '''returns int\n\n
+    DUPLICATE()\n
     '''
 def DELETE():
-    '''public int DELETE()
+    '''returns int\n\n
+    DELETE()\n
     '''
 def SAVE():
-    '''public int SAVE()
+    '''returns int\n\n
+    SAVE()\n
     '''
 def recalibrateLinearAssets():
-    '''public int recalibrateLinearAssets()
+    '''returns int\n\n
+    recalibrateLinearAssets()\n
     '''
 def considerDuplicateMeterSequences():
-    '''public void considerDuplicateMeterSequences()
+    '''returns None\n\n
+    considerDuplicateMeterSequences()\n
     '''
 def MANAGELIB():
-    '''public int MANAGELIB()
+    '''returns int\n\n
+    MANAGELIB()\n
     '''
 def MANAGEFOLD():
-    '''public int MANAGEFOLD()
+    '''returns int\n\n
+    MANAGEFOLD()\n
     '''
 def ASSOCFOLD():
-    '''public int ASSOCFOLD()
+    '''returns int\n\n
+    ASSOCFOLD()\n
     '''
 def ISSUEITEMS():
-    '''public int ISSUEITEMS()
+    '''returns int\n\n
+    ISSUEITEMS()\n
     '''
 def METREAD():
-    '''public int METREAD()
+    '''returns int\n\n
+    METREAD()\n
     '''
 def METRESET():
-    '''public int METRESET()
+    '''returns int\n\n
+    METRESET()\n
     '''
 def METHIST():
-    '''public int METHIST()
+    '''returns int\n\n
+    METHIST()\n
     '''
 def VIEWWOPM():
-    '''public int VIEWWOPM()
+    '''returns int\n\n
+    VIEWWOPM()\n
     '''
 def checkDPAAppsAccess():
-    '''public void checkDPAAppsAccess()
+    '''returns None\n\n
+    checkDPAAppsAccess()\n
     '''
 def viewdetails():
-    '''public int viewdetails()
+    '''returns int\n\n
+    viewdetails()\n
     '''
 def openMaximoDiscovery():
-    '''public int openMaximoDiscovery()
+    '''returns int\n\n
+    openMaximoDiscovery()\n
     '''
 def ZEROYTD():
-    '''public int ZEROYTD()
+    '''returns int\n\n
+    ZEROYTD()\n
     '''
 def setValue():
-    '''public void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
-    '''
-def save():
-    '''public synchronized void save()
+    '''returns None\n\n
+    setValue(final int nRow, final String attribute, final String value, final long accessModifier)\n
     '''
 def PLUSVIEWSP():
-    '''public int PLUSVIEWSP()
+    '''returns int\n\n
+    PLUSVIEWSP()\n
     '''
 def convertsachildtoparent():
-    '''public int convertsachildtoparent()
+    '''returns int\n\n
+    convertsachildtoparent()\n
     '''
 def createNewSA():
-    '''public int createNewSA()
+    '''returns int\n\n
+    createNewSA()\n
     '''
 def addNewSAusingTempData():
-    '''public int addNewSAusingTempData()
+    '''returns int\n\n
+    addNewSAusingTempData()\n
     '''
 def changeTemplateState():
-    '''public int changeTemplateState()
+    '''returns int\n\n
+    changeTemplateState()\n
     '''
 def ASTDEFOP():
-    '''public int ASTDEFOP()
+    '''returns int\n\n
+    ASTDEFOP()\n
     '''
 def ASTMNGOP():
-    '''public int ASTMNGOP()
+    '''returns int\n\n
+    ASTMNGOP()\n
     '''
 def ASTDEFMNT():
-    '''public int ASTDEFMNT()
+    '''returns int\n\n
+    ASTDEFMNT()\n
     '''
 def ASTMNGMNT():
-    '''public int ASTMNGMNT()
+    '''returns int\n\n
+    ASTMNGMNT()\n
     '''
 def refreshhistory():
-    '''public int refreshhistory()
+    '''returns int\n\n
+    refreshhistory()\n
     '''
 def SPLITDEP():
-    '''public int SPLITDEP()
+    '''returns int\n\n
+    SPLITDEP()\n
     '''
 def MANAGEDEP():
-    '''public int MANAGEDEP()
+    '''returns int\n\n
+    MANAGEDEP()\n
     '''
 def hasSigOptionAccess():
-    '''public boolean hasSigOptionAccess(final String sigOption)
+    '''returns boolean\n\n
+    hasSigOptionAccess(final String sigOption)\n
     '''
 def IMPORTDIGITALDATA():
-    '''public int IMPORTDIGITALDATA()
+    '''returns int\n\n
+    IMPORTDIGITALDATA()\n
     '''

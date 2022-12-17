@@ -1,35 +1,31 @@
-def IloCplex__Callback():
-    '''public IloCplex__Callback(final long cPtr, final boolean cMemoryOwn)
-    public IloCplex__Callback(final IloCplex__CallbackI impl)
-    public IloCplex__Callback()
+def ():
+    '''returns Type\n\n
+    (final long cPtr, final boolean cMemoryOwn)\n
+    (final IloCplex__CallbackI impl)\n
+    ()\n
+    (final String swigName, final int swigValue)\n
     '''
 def setOwn():
-    '''public void setOwn(final boolean cMemoryOwn)
-    '''
-def getCPtr():
-    '''public static long getCPtr(final IloCplex__Callback obj)
+    '''returns None\n\n
+    setOwn(final boolean cMemoryOwn)\n
     '''
 def delete():
-    '''public void delete()
+    '''returns None\n\n
+    delete()\n
     '''
 def end():
-    '''public void end()
+    '''returns None\n\n
+    end()\n
     '''
 def getImplObj():
-    '''public IloCplex__CallbackI getImplObj()
+    '''returns IloCplex__CallbackI\n\n
+    getImplObj()\n
     '''
 def mySwigValue():
-    '''public int mySwigValue()
-    '''
-def swigValue():
-    '''public final int swigValue()
+    '''returns int\n\n
+    mySwigValue()\n
     '''
 def toString():
-    '''public String toString()
-    '''
-def swigToEnum():
-    '''public static Type swigToEnum(final int swigValue)
-    '''
-def Type():
-    '''public Type(final String swigName, final int swigValue)
+    '''returns String\n\n
+    toString()\n
     '''

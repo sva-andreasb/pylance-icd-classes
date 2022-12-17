@@ -1,3 +1,4 @@
 def recognize():
-    '''public SDBConstraint recognize(final Expr expr)
+    '''returns SDBConstraint\n\n
+    recognize(final Expr expr)\n
     '''

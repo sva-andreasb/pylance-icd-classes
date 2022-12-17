@@ -1,41 +1,42 @@
-def BudgetService():
-    '''public BudgetService(final MXServer mxServer)
+def ():
+    '''returns DeleteEventListener\n\n
+    (final MXServer mxServer)\n
+    (final String objectName, final List<BudgetRuleRemote> rules)\n
+    (final String objectName, final List<BudgetRuleRemote> rules)\n
+    (final String objectName, final List<BudgetRuleRemote> rules)\n
+    (final String objectName, final List<BudgetRuleRemote> rules)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def destroy():
-    '''public void destroy()
+    '''returns None\n\n
+    destroy()\n
     '''
 def isSingletonService():
-    '''public boolean isSingletonService()
+    '''returns boolean\n\n
+    isSingletonService()\n
     '''
 def restart():
-    '''public void restart()
-    '''
-def BudgetEventListener():
-    '''public BudgetEventListener(final String objectName, final List<BudgetRuleRemote> rules)
+    '''returns None\n\n
+    restart()\n
     '''
 def eventValidate():
-    '''public boolean eventValidate(final EventMessage em)
+    '''returns boolean\n\n
+    eventValidate(final EventMessage em)\n
     '''
 def preSaveEventAction():
-    '''public void preSaveEventAction(final EventMessage em)
+    '''returns None\n\n
+    preSaveEventAction(final EventMessage em)\n
     '''
 def eventAction():
-    '''public void eventAction(final EventMessage em)
-    '''
-def InsertEventListener():
-    '''public InsertEventListener(final String objectName, final List<BudgetRuleRemote> rules)
+    '''returns None\n\n
+    eventAction(final EventMessage em)\n
     '''
 def postCommitEventAction():
-    '''public void postCommitEventAction(final EventMessage em)
-    public void postCommitEventAction(final EventMessage em)
-    public void postCommitEventAction(final EventMessage em)
-    '''
-def UpdateEventListener():
-    '''public UpdateEventListener(final String objectName, final List<BudgetRuleRemote> rules)
-    '''
-def DeleteEventListener():
-    '''public DeleteEventListener(final String objectName, final List<BudgetRuleRemote> rules)
+    '''returns None\n\n
+    postCommitEventAction(final EventMessage em)\n
+    postCommitEventAction(final EventMessage em)\n
+    postCommitEventAction(final EventMessage em)\n
     '''

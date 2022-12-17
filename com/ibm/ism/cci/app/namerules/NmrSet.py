@@ -1,3 +1,4 @@
-def NmrSet():
-    '''public NmrSet(final MboServerInterface ms)
+def ():
+    '''returns NmrSet\n\n
+    (final MboServerInterface ms)\n
     '''

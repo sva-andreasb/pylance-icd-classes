@@ -1,6 +1,8 @@
 def selectlinkrecord():
-    '''public int selectlinkrecord()
+    '''returns int\n\n
+    selectlinkrecord()\n
     '''
 def selectcomprecord():
-    '''public int selectcomprecord()
+    '''returns int\n\n
+    selectcomprecord()\n
     '''

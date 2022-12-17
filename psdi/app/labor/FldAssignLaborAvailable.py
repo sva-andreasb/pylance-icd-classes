@@ -1,6 +1,8 @@
-def FldAssignLaborAvailable():
-    '''public FldAssignLaborAvailable(final MboValue mbv)
+def ():
+    '''returns FldAssignLaborAvailable\n\n
+    (final MboValue mbv)\n
     '''
 def initValue():
-    '''public void initValue()
+    '''returns None\n\n
+    initValue()\n
     '''

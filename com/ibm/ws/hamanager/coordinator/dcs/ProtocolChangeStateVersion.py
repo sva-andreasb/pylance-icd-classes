@@ -1,12 +1,16 @@
-def ProtocolChangeStateVersion():
-    '''public ProtocolChangeStateVersion(final String name)
+def ():
+    '''returns ProtocolChangeStateVersion\n\n
+    (final String name)\n
     '''
 def equals():
-    '''public boolean equals(final Object obj)
+    '''returns boolean\n\n
+    equals(final Object obj)\n
     '''
 def compareTo():
-    '''public int compareTo(final Object obj)
+    '''returns int\n\n
+    compareTo(final Object obj)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

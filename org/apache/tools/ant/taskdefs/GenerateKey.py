@@ -1,66 +1,88 @@
 def createDname():
-    '''public DistinguishedName createDname()
+    '''returns DistinguishedName\n\n
+    createDname()\n
     '''
 def setDname():
-    '''public void setDname(final String dname)
+    '''returns None\n\n
+    setDname(final String dname)\n
     '''
 def setAlias():
-    '''public void setAlias(final String alias)
+    '''returns None\n\n
+    setAlias(final String alias)\n
     '''
 def setKeystore():
-    '''public void setKeystore(final String keystore)
+    '''returns None\n\n
+    setKeystore(final String keystore)\n
     '''
 def setStorepass():
-    '''public void setStorepass(final String storepass)
+    '''returns None\n\n
+    setStorepass(final String storepass)\n
     '''
 def setStoretype():
-    '''public void setStoretype(final String storetype)
+    '''returns None\n\n
+    setStoretype(final String storetype)\n
     '''
 def setKeypass():
-    '''public void setKeypass(final String keypass)
+    '''returns None\n\n
+    setKeypass(final String keypass)\n
     '''
 def setSigalg():
-    '''public void setSigalg(final String sigalg)
+    '''returns None\n\n
+    setSigalg(final String sigalg)\n
     '''
 def setKeyalg():
-    '''public void setKeyalg(final String keyalg)
+    '''returns None\n\n
+    setKeyalg(final String keyalg)\n
     '''
 def setKeysize():
-    '''public void setKeysize(final String keysize)
+    '''returns None\n\n
+    setKeysize(final String keysize)\n
     '''
 def setValidity():
-    '''public void setValidity(final String validity)
+    '''returns None\n\n
+    setValidity(final String validity)\n
     '''
 def setVerbose():
-    '''public void setVerbose(final boolean verbose)
+    '''returns None\n\n
+    setVerbose(final boolean verbose)\n
     '''
 def execute():
-    '''public void execute()
+    '''returns None\n\n
+    execute()\n
     '''
 def setName():
-    '''public void setName(final String name)
+    '''returns None\n\n
+    setName(final String name)\n
     '''
 def getName():
-    '''public String getName()
+    '''returns String\n\n
+    getName()\n
     '''
 def setValue():
-    '''public void setValue(final String value)
+    '''returns None\n\n
+    setValue(final String value)\n
     '''
 def getValue():
-    '''public String getValue()
+    '''returns String\n\n
+    getValue()\n
     '''
-def DistinguishedName():
-    '''public DistinguishedName()
+def ():
+    '''returns DistinguishedName\n\n
+    ()\n
     '''
 def createParam():
-    '''public Object createParam()
+    '''returns Object\n\n
+    createParam()\n
     '''
 def getParams():
-    '''public Enumeration getParams()
+    '''returns Enumeration\n\n
+    getParams()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def encode():
-    '''public String encode(final String string)
+    '''returns String\n\n
+    encode(final String string)\n
     '''

@@ -1,3 +1,4 @@
 def getMbosByAttribValues():
-    '''public MboAdapter[] getMbosByAttribValues(final String[][] attributeValues)
+    '''returns MboAdapter[]\n\n
+    getMbosByAttribValues(final String[][] attributeValues)\n
     '''

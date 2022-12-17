@@ -1,18 +1,20 @@
-def createLevel():
-    '''public static CustomLevelConfig createLevel(@PluginAttribute("name") final String levelName, @PluginAttribute("intLevel") final int intLevel)
-    '''
 def getLevelName():
-    '''public String getLevelName()
+    '''returns String\n\n
+    getLevelName()\n
     '''
 def getIntLevel():
-    '''public int getIntLevel()
+    '''returns int\n\n
+    getIntLevel()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object object)
+    '''returns boolean\n\n
+    equals(final Object object)\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''

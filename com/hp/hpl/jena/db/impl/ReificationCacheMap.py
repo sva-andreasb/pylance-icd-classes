@@ -1,10 +1,13 @@
 def flushAll():
-    '''public void flushAll()
+    '''returns None\n\n
+    flushAll()\n
     '''
 def flush():
-    '''public void flush(final ReificationCache entry)
+    '''returns None\n\n
+    flush(final ReificationCache entry)\n
     '''
 def load():
-    '''public ReificationCache load(final Node stmtURI)
-    public ReificationCache load(final Node stmtURI, final Triple s, final ReificationStatementMask sm, final ReificationStatementMask dm)
+    '''returns ReificationCache\n\n
+    load(final Node stmtURI)\n
+    load(final Node stmtURI, final Triple s, final ReificationStatementMask sm, final ReificationStatementMask dm)\n
     '''

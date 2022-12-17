@@ -1,15 +1,8 @@
-def getInstance():
-    '''public static synchronized DNSResolver getInstance()
-    '''
-def isSupported():
-    '''public static boolean isSupported()
-    '''
-def setup():
-    '''public static void setup()
-    '''
-def JavaxResolver():
-    '''public JavaxResolver()
+def ():
+    '''returns JavaxResolver\n\n
+    ()\n
     '''
 def initialize():
-    '''public List<Exception> initialize()
+    '''returns List<Exception>\n\n
+    initialize()\n
     '''

@@ -1,9 +1,12 @@
-def ItemOrgInfoSet():
-    '''public ItemOrgInfoSet(final MboServerInterface ms)
+def ():
+    '''returns ItemOrgInfoSet\n\n
+    (final MboServerInterface ms)\n
     '''
 def getPersonOrgCriteria():
-    '''public String getPersonOrgCriteria()
+    '''returns String\n\n
+    getPersonOrgCriteria()\n
     '''
 def setCurrentUserOrgs():
-    '''public void setCurrentUserOrgs()
+    '''returns None\n\n
+    setCurrentUserOrgs()\n
     '''

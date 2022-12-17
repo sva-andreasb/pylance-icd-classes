@@ -1,3 +1,4 @@
-def FldInvBalancesAdustedPhysCntDate():
-    '''public FldInvBalancesAdustedPhysCntDate(final MboValue mbv)
+def ():
+    '''returns FldInvBalancesAdustedPhysCntDate\n\n
+    (final MboValue mbv)\n
     '''

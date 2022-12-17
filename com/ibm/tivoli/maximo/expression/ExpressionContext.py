@@ -1,96 +1,103 @@
-def isKeyPrefix():
-    '''public static boolean isKeyPrefix(final String rel)
-    '''
 def setMbrMode():
-    '''public void setMbrMode(final boolean mbrMode)
+    '''returns None\n\n
+    setMbrMode(final boolean mbrMode)\n
     '''
 def setMathContext():
-    '''public void setMathContext(final MathContext mc)
+    '''returns None\n\n
+    setMathContext(final MathContext mc)\n
     '''
-def ExpressionContext():
-    '''public ExpressionContext()
-    public ExpressionContext(final MboRemote mbo)
-    public ExpressionContext(final MboRemote mbo, final Map<String, Double> vars)
-    public ExpressionContext(final MboRemote mbo, final boolean client)
+def ():
+    '''returns ExpressionContext\n\n
+    ()\n
+    (final MboRemote mbo)\n
+    (final MboRemote mbo, final Map<String, Double> vars)\n
+    (final MboRemote mbo, final boolean client)\n
     '''
 def setMboSet():
-    '''public void setMboSet(final MboSetRemote msr)
+    '''returns None\n\n
+    setMboSet(final MboSetRemote msr)\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet()
+    '''returns MboSetRemote\n\n
+    getMboSet()\n
     '''
 def getMbo():
-    '''public MboRemote getMbo()
+    '''returns MboRemote\n\n
+    getMbo()\n
     '''
 def isClient():
-    '''public boolean isClient()
+    '''returns boolean\n\n
+    isClient()\n
     '''
 def validate():
-    '''public boolean validate(final Object key, final Boolean validate)
+    '''returns boolean\n\n
+    validate(final Object key, final Boolean validate)\n
     '''
 def containsKey():
-    '''public boolean containsKey(final Object key)
+    '''returns boolean\n\n
+    containsKey(final Object key)\n
     '''
 def setExpValue():
-    '''public void setExpValue(final String prop, final Double value)
+    '''returns None\n\n
+    setExpValue(final String prop, final Double value)\n
     '''
 def getCalculatedValue():
-    '''public Object getCalculatedValue(final String prop)
-    '''
-def getCalculatedValueMap():
-    '''public Map<String, Object> getCalculatedValueMap()
+    '''returns Object\n\n
+    getCalculatedValue(final String prop)\n
     '''
 def getExpValue():
-    '''public Double getExpValue(final String prop)
-    '''
-def getExpValueMap():
-    '''public Map<String, Double> getExpValueMap()
+    '''returns Double\n\n
+    getExpValue(final String prop)\n
     '''
 def get():
-    '''public Object get(final Object key)
+    '''returns Object\n\n
+    get(final Object key)\n
     '''
 def getOwnerValueFromMaxType():
-    '''public BigDecimal getOwnerValueFromMaxType(String mboAttrName, final MboRemote mbo)
+    '''returns BigDecimal\n\n
+    getOwnerValueFromMaxType(String mboAttrName, final MboRemote mbo)\n
     '''
 def getInternalValue():
-    '''public String getInternalValue(final String mboAttrName, final MboRemote mbo)
+    '''returns String\n\n
+    getInternalValue(final String mboAttrName, final MboRemote mbo)\n
     '''
 def getValueFromMaxType():
-    '''public BigDecimal getValueFromMaxType(final MaxType maxType)
+    '''returns BigDecimal\n\n
+    getValueFromMaxType(final MaxType maxType)\n
     '''
 def setAttrFormulaAttrName():
-    '''public void setAttrFormulaAttrName(final String attrName)
+    '''returns None\n\n
+    setAttrFormulaAttrName(final String attrName)\n
     '''
 def getAttrFormulaAttrName():
-    '''public String getAttrFormulaAttrName()
+    '''returns String\n\n
+    getAttrFormulaAttrName()\n
     '''
 def getObjectFormulaInfo():
-    '''public ObjectFormulaInfo getObjectFormulaInfo()
+    '''returns ObjectFormulaInfo\n\n
+    getObjectFormulaInfo()\n
     '''
 def setObjectFormulaInfo():
-    '''public void setObjectFormulaInfo(final ObjectFormulaInfo objectFormulaInfo)
+    '''returns None\n\n
+    setObjectFormulaInfo(final ObjectFormulaInfo objectFormulaInfo)\n
     '''
 def getMetaData():
-    '''public Object getMetaData(final String key)
-    '''
-def getMetaDataMap():
-    '''public Map<String, Object> getMetaDataMap()
+    '''returns Object\n\n
+    getMetaData(final String key)\n
     '''
 def setMetaData():
-    '''public void setMetaData(final String key, final Object value)
-    '''
-def getErrorDataMap():
-    '''public Map<String, Exception> getErrorDataMap()
+    '''returns None\n\n
+    setMetaData(final String key, final Object value)\n
     '''
 def setErrorData():
-    '''public void setErrorData(final String key, final Exception value)
-    '''
-def getVars():
-    '''public Map<String, Double> getVars()
+    '''returns None\n\n
+    setErrorData(final String key, final Exception value)\n
     '''
 def setVar():
-    '''public void setVar(final String key, final Double value)
+    '''returns None\n\n
+    setVar(final String key, final Double value)\n
     '''
 def setVars():
-    '''public void setVars(final Map<String, Double> vars)
+    '''returns None\n\n
+    setVars(final Map<String, Double> vars)\n
     '''

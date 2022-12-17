@@ -1,12 +1,16 @@
 def rcv():
-    '''public boolean rcv(final ClientSession session, final Message.Mutable message)
+    '''returns boolean\n\n
+    rcv(final ClientSession session, final Message.Mutable message)\n
     '''
 def rcvMeta():
-    '''public boolean rcvMeta(final ClientSession session, final Message.Mutable message)
+    '''returns boolean\n\n
+    rcvMeta(final ClientSession session, final Message.Mutable message)\n
     '''
 def send():
-    '''public boolean send(final ClientSession session, final Message.Mutable message)
+    '''returns boolean\n\n
+    send(final ClientSession session, final Message.Mutable message)\n
     '''
 def sendMeta():
-    '''public boolean sendMeta(final ClientSession session, final Message.Mutable message)
+    '''returns boolean\n\n
+    sendMeta(final ClientSession session, final Message.Mutable message)\n
     '''

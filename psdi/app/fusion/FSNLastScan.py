@@ -1,3 +1,4 @@
-def FSNLastScan():
-    '''public FSNLastScan(final MboSet ms)
+def ():
+    '''returns FSNLastScan\n\n
+    (final MboSet ms)\n
     '''

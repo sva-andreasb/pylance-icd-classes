@@ -1,123 +1,164 @@
-def SLA():
-    '''public SLA(final MboSet ms)
+def ():
+    '''returns SLA\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def duplicate():
-    '''public MboRemote duplicate()
+    '''returns MboRemote\n\n
+    duplicate()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def defineEscalation():
-    '''public void defineEscalation(final int row)
+    '''returns None\n\n
+    defineEscalation(final int row)\n
     '''
 def statusValidate():
-    '''public void statusValidate(final String newStatus)
+    '''returns None\n\n
+    statusValidate(final String newStatus)\n
     '''
 def validateCriteria():
-    '''public void validateCriteria()
+    '''returns None\n\n
+    validateCriteria()\n
     '''
 def validateEscalation():
-    '''public void validateEscalation()
+    '''returns None\n\n
+    validateEscalation()\n
     '''
 def deleteEscalation():
-    '''public void deleteEscalation()
+    '''returns None\n\n
+    deleteEscalation()\n
     '''
 def actDeactEscalation():
-    '''public void actDeactEscalation()
+    '''returns None\n\n
+    actDeactEscalation()\n
     '''
 def checkRelatedSLAs():
-    '''public boolean checkRelatedSLAs(final MboRemote commitment)
+    '''returns boolean\n\n
+    checkRelatedSLAs(final MboRemote commitment)\n
     '''
 def validateRelatedSLAs():
-    '''public boolean validateRelatedSLAs()
+    '''returns boolean\n\n
+    validateRelatedSLAs()\n
     '''
 def validateRelatedSLA():
-    '''public boolean validateRelatedSLA(final MboRemote sla, final boolean isParent)
+    '''returns boolean\n\n
+    validateRelatedSLA(final MboRemote sla, final boolean isParent)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String status, final boolean deactivateEscalation)
+    '''returns None\n\n
+    changeStatus(final String status, final boolean deactivateEscalation)\n
     '''
 def addRelatedSLA():
-    '''public void addRelatedSLA(final MboSetRemote slaSet, final boolean isParent)
+    '''returns None\n\n
+    addRelatedSLA(final MboSetRemote slaSet, final boolean isParent)\n
     '''
 def addAsscoiatedContracts():
-    '''public void addAsscoiatedContracts(final MboSetRemote contractSet)
+    '''returns None\n\n
+    addAsscoiatedContracts(final MboSetRemote contractSet)\n
     '''
 def addKPIs():
-    '''public void addKPIs(final MboSetRemote kpiSet)
+    '''returns None\n\n
+    addKPIs(final MboSetRemote kpiSet)\n
     '''
 def addAssets():
-    '''public void addAssets(final MboSetRemote assetSet)
+    '''returns None\n\n
+    addAssets(final MboSetRemote assetSet)\n
     '''
 def addLocations():
-    '''public void addLocations(final MboSetRemote locationSet)
+    '''returns None\n\n
+    addLocations(final MboSetRemote locationSet)\n
     '''
 def getStatusListName():
-    '''public String getStatusListName()
+    '''returns String\n\n
+    getStatusListName()\n
     '''
 def calculateMeasurements():
-    '''public void calculateMeasurements()
+    '''returns None\n\n
+    calculateMeasurements()\n
     '''
 def isActive():
-    '''public boolean isActive()
+    '''returns boolean\n\n
+    isActive()\n
     '''
 def isInactive():
-    '''public boolean isInactive()
+    '''returns boolean\n\n
+    isInactive()\n
     '''
 def isVendorSLA():
-    '''public boolean isVendorSLA()
+    '''returns boolean\n\n
+    isVendorSLA()\n
     '''
 def enableFields():
-    '''public void enableFields(final String prevStatus)
+    '''returns None\n\n
+    enableFields(final String prevStatus)\n
     '''
 def enableCalendarFields():
-    '''public void enableCalendarFields(final boolean setCalcOrg)
+    '''returns None\n\n
+    enableCalendarFields(final boolean setCalcOrg)\n
     '''
 def resetCalendarFields():
-    '''public void resetCalendarFields(final String whichOrg)
+    '''returns None\n\n
+    resetCalendarFields(final String whichOrg)\n
     '''
 def getCalendarFields():
-    '''public Vector getCalendarFields(final boolean includeOrg)
+    '''returns Vector\n\n
+    getCalendarFields(final boolean includeOrg)\n
     '''
 def getSlaCalendarFields():
-    '''public Vector getSlaCalendarFields(final boolean includeOrg)
+    '''returns Vector\n\n
+    getSlaCalendarFields(final boolean includeOrg)\n
     '''
 def getCalcCalendarFields():
-    '''public Vector getCalcCalendarFields(final boolean includeOrg)
+    '''returns Vector\n\n
+    getCalcCalendarFields(final boolean includeOrg)\n
     '''
 def setOrgID():
-    '''public void setOrgID()
+    '''returns None\n\n
+    setOrgID()\n
     '''
 def getMboSet():
-    '''public MboSetRemote getMboSet(final String name)
+    '''returns MboSetRemote\n\n
+    getMboSet(final String name)\n
     '''
 def getsitesByOrg():
-    '''public MboSetRemote getsitesByOrg()
+    '''returns MboSetRemote\n\n
+    getsitesByOrg()\n
     '''
 def validateCompanyOrg():
-    '''public boolean validateCompanyOrg(final String company, final String orgid)
+    '''returns boolean\n\n
+    validateCompanyOrg(final String company, final String orgid)\n
     '''
 def getKPISelect():
-    '''public String getKPISelect()
+    '''returns String\n\n
+    getKPISelect()\n
     '''
 def getKPIWhere():
-    '''public String getKPIWhere()
+    '''returns String\n\n
+    getKPIWhere()\n
     '''
 def setKPIId():
-    '''public void setKPIId(final long newID)
+    '''returns None\n\n
+    setKPIId(final long newID)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''

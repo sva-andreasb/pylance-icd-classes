@@ -1,33 +1,44 @@
-def CompressingTermVectorsWriter():
-    '''public CompressingTermVectorsWriter(final Directory directory, final SegmentInfo si, final String segmentSuffix, final IOContext context, final String formatName, final CompressionMode compressionMode, final int chunkSize, final int blockShift)
+def ():
+    '''returns CompressingTermVectorsWriter\n\n
+    (final Directory directory, final SegmentInfo si, final String segmentSuffix, final IOContext context, final String formatName, final CompressionMode compressionMode, final int chunkSize, final int blockShift)\n
     '''
 def close():
-    '''public void close()
+    '''returns None\n\n
+    close()\n
     '''
 def startDocument():
-    '''public void startDocument(final int numVectorFields)
+    '''returns None\n\n
+    startDocument(final int numVectorFields)\n
     '''
 def finishDocument():
-    '''public void finishDocument()
+    '''returns None\n\n
+    finishDocument()\n
     '''
 def startField():
-    '''public void startField(final FieldInfo info, final int numTerms, final boolean positions, final boolean offsets, final boolean payloads)
+    '''returns None\n\n
+    startField(final FieldInfo info, final int numTerms, final boolean positions, final boolean offsets, final boolean payloads)\n
     '''
 def finishField():
-    '''public void finishField()
+    '''returns None\n\n
+    finishField()\n
     '''
 def startTerm():
-    '''public void startTerm(final BytesRef term, final int freq)
+    '''returns None\n\n
+    startTerm(final BytesRef term, final int freq)\n
     '''
 def addPosition():
-    '''public void addPosition(final int position, final int startOffset, final int endOffset, final BytesRef payload)
+    '''returns None\n\n
+    addPosition(final int position, final int startOffset, final int endOffset, final BytesRef payload)\n
     '''
 def finish():
-    '''public void finish(final FieldInfos fis, final int numDocs)
+    '''returns None\n\n
+    finish(final FieldInfos fis, final int numDocs)\n
     '''
 def addProx():
-    '''public void addProx(final int numProx, final DataInput positions, final DataInput offsets)
+    '''returns None\n\n
+    addProx(final int numProx, final DataInput positions, final DataInput offsets)\n
     '''
 def merge():
-    '''public int merge(final MergeState mergeState)
+    '''returns int\n\n
+    merge(final MergeState mergeState)\n
     '''

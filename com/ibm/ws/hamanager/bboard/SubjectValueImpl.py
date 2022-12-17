@@ -1,34 +1,45 @@
-def SubjectValueImpl():
-    '''public SubjectValueImpl()
-    public SubjectValueImpl(final String serverName, final BulletinBoardPost value)
+def ():
+    '''returns SubjectValueImpl\n\n
+    ()\n
+    (final String serverName, final BulletinBoardPost value)\n
     '''
 def getServerName():
-    '''public String getServerName()
+    '''returns String\n\n
+    getServerName()\n
     '''
 def getValues():
-    '''public byte[] getValues()
+    '''returns byte[]\n\n
+    getValues()\n
     '''
 def getVersion():
-    '''public long getVersion()
+    '''returns long\n\n
+    getVersion()\n
     '''
 def isProxyPost():
-    '''public boolean isProxyPost()
+    '''returns boolean\n\n
+    isProxyPost()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def readExternal():
-    '''public void readExternal(final ObjectInput arg0)
+    '''returns None\n\n
+    readExternal(final ObjectInput arg0)\n
     '''
 def writeExternal():
-    '''public void writeExternal(final ObjectOutput arg0)
+    '''returns None\n\n
+    writeExternal(final ObjectOutput arg0)\n
     '''
 def processUpdateToExistingPost():
-    '''public void processUpdateToExistingPost(final ArrayList values, final Map aggregatedState, final Set addOrUpdate, final Set explicitlyClosed, final Set implicitlyClosed, final boolean rebuild, final boolean optimize)
+    '''returns None\n\n
+    processUpdateToExistingPost(final ArrayList values, final Map aggregatedState, final Set addOrUpdate, final Set explicitlyClosed, final Set implicitlyClosed, final boolean rebuild, final boolean optimize)\n
     '''
 def updateProxyPost():
-    '''public void updateProxyPost(final ArrayList values, final Map updates, final Set addOrUpdate, final Set explicitlyClosed, final Set implicitlyClosed, final int mode)
+    '''returns None\n\n
+    updateProxyPost(final ArrayList values, final Map updates, final Set addOrUpdate, final Set explicitlyClosed, final Set implicitlyClosed, final int mode)\n
     '''
 def updateLocalPost():
-    '''public void updateLocalPost(final ArrayList values, final Map updates, final Set addOrUpdate, final Set explicitlyClosed, final Set implicitlyClosed, final int mode)
+    '''returns None\n\n
+    updateLocalPost(final ArrayList values, final Map updates, final Set addOrUpdate, final Set explicitlyClosed, final Set implicitlyClosed, final int mode)\n
     '''

@@ -3,5 +3,6 @@ PMCHGRELID = "String  \"pmchgrelid\""
 PMCHGRELSITEID = "String  \"pmchgrelsiteid\""
 PMCHGRELORGID = "String  \"pmchgrelorgid\""
 def applyCustomAction():
-    '''public void applyCustomAction(final MboRemote mbo, final Object[] params)
+    '''returns None\n\n
+    applyCustomAction(final MboRemote mbo, final Object[] params)\n
     '''

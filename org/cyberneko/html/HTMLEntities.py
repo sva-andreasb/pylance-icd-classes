@@ -1,11 +1,12 @@
-def get():
-    '''public static int get(final String name)
-    public static String get(final int c)
-    public String get(final int key)
-    '''
 def put():
-    '''public void put(final int key, final String value)
+    '''returns None\n\n
+    put(final int key, final String value)\n
     '''
-def Entry():
-    '''public Entry(final int key, final String value, final Entry next)
+def get():
+    '''returns String\n\n
+    get(final int key)\n
+    '''
+def ():
+    '''returns Entry\n\n
+    (final int key, final String value, final Entry next)\n
     '''

@@ -1,21 +1,23 @@
 NOOP = "ProgressListener  new NoOpProgressListener()"
 def isSyncCallSafe():
-    '''public boolean isSyncCallSafe()
-    public boolean isSyncCallSafe()
+    '''returns boolean\n\n
+    isSyncCallSafe()\n
+    isSyncCallSafe()\n
     '''
 def progressChanged():
-    '''public void progressChanged(final ProgressEvent progressEvent)
-    public void progressChanged(final ProgressEvent progressEvent)
+    '''returns None\n\n
+    progressChanged(final ProgressEvent progressEvent)\n
+    progressChanged(final ProgressEvent progressEvent)\n
     '''
-def ExceptionReporter():
-    '''public ExceptionReporter(final ProgressListener listener)
+def ():
+    '''returns ExceptionReporter\n\n
+    (final ProgressListener listener)\n
     '''
 def throwExceptionIfAny():
-    '''public void throwExceptionIfAny()
+    '''returns None\n\n
+    throwExceptionIfAny()\n
     '''
 def getCause():
-    '''public Throwable getCause()
-    '''
-def wrap():
-    '''public static ExceptionReporter wrap(final ProgressListener listener)
+    '''returns Throwable\n\n
+    getCause()\n
     '''

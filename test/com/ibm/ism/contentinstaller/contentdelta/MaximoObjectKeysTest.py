@@ -1,3 +1,4 @@
 def testLoadFromDatabase():
-    '''public void testLoadFromDatabase()
+    '''returns None\n\n
+    testLoadFromDatabase()\n
     '''

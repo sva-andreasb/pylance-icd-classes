@@ -1,3 +1,4 @@
-def PlusPSecurityRestrictSet():
-    '''public PlusPSecurityRestrictSet(final MboServerInterface arg0)
+def ():
+    '''returns PlusPSecurityRestrictSet\n\n
+    (final MboServerInterface arg0)\n
     '''

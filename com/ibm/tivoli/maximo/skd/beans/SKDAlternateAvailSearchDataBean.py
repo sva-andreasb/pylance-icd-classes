@@ -1,9 +1,12 @@
-def SKDAlternateAvailSearchDataBean():
-    '''public SKDAlternateAvailSearchDataBean()
+def ():
+    '''returns SKDAlternateAvailSearchDataBean\n\n
+    ()\n
     '''
 def setProject():
-    '''public void setProject(final MboRemote project)
+    '''returns None\n\n
+    setProject(final MboRemote project)\n
     '''
 def getProject():
-    '''public MboRemote getProject()
+    '''returns MboRemote\n\n
+    getProject()\n
     '''

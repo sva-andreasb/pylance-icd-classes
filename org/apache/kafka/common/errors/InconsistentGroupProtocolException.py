@@ -1,4 +1,5 @@
-def InconsistentGroupProtocolException():
-    '''public InconsistentGroupProtocolException(final String message, final Throwable cause)
-    public InconsistentGroupProtocolException(final String message)
+def ():
+    '''returns InconsistentGroupProtocolException\n\n
+    (final String message, final Throwable cause)\n
+    (final String message)\n
     '''

@@ -1,3 +1,4 @@
 def reservationChanged():
-    '''public void reservationChanged(final ReservationEvent event)
+    '''returns None\n\n
+    reservationChanged(final ReservationEvent event)\n
     '''

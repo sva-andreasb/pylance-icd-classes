@@ -1,3 +1,4 @@
-def DataLoadMonitorLock():
-    '''public DataLoadMonitorLock()
+def ():
+    '''returns DataLoadMonitorLock\n\n
+    ()\n
     '''

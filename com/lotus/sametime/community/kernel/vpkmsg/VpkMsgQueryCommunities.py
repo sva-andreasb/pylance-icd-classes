@@ -1,3 +1,4 @@
-def VpkMsgQueryCommunities():
-    '''public VpkMsgQueryCommunities(final int n)
+def ():
+    '''returns VpkMsgQueryCommunities\n\n
+    (final int n)\n
     '''

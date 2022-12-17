@@ -1,42 +1,56 @@
-def JpAssetSpLink():
-    '''public JpAssetSpLink(final MboSet ms)
+def ():
+    '''returns JpAssetSpLink\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def propagateKeyValue():
-    '''public void propagateKeyValue(final String keyName, final String keyValue)
+    '''returns None\n\n
+    propagateKeyValue(final String keyName, final String keyValue)\n
     '''
 def validateItemAssetLoc():
-    '''public void validateItemAssetLoc(boolean newItem, boolean newAssetnum, boolean newLocation)
+    '''returns None\n\n
+    validateItemAssetLoc(boolean newItem, boolean newAssetnum, boolean newLocation)\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def getRelevantJPAssetRecords():
-    '''public MboSetRemote getRelevantJPAssetRecords(final String itemnum, final String itemsetid, final String assetnum, final String location, final String siteid)
+    '''returns MboSetRemote\n\n
+    getRelevantJPAssetRecords(final String itemnum, final String itemsetid, final String assetnum, final String location, final String siteid)\n
     '''
 def validWorkAsset():
-    '''public void validWorkAsset(final MboSetRemote dbJpAssetSet, final String item, final String itemsetid, final String asset, final String loc)
+    '''returns None\n\n
+    validWorkAsset(final MboSetRemote dbJpAssetSet, final String item, final String itemsetid, final String asset, final String loc)\n
     '''
 def validWoreqWhenPruch():
-    '''public void validWoreqWhenPruch(final String item, final String itemsetid)
+    '''returns None\n\n
+    validWoreqWhenPruch(final String item, final String itemsetid)\n
     '''
 def setReadOnlyFields():
-    '''public void setReadOnlyFields(final String status)
+    '''returns None\n\n
+    setReadOnlyFields(final String status)\n
     '''
 def delete():
-    '''public void delete(final long accessmodifier)
+    '''returns None\n\n
+    delete(final long accessmodifier)\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''
 def isCalibrationInstalled():
-    '''public boolean isCalibrationInstalled()
+    '''returns boolean\n\n
+    isCalibrationInstalled()\n
     '''

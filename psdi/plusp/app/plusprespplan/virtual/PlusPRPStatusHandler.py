@@ -1,18 +1,24 @@
-def PlusPRPStatusHandler():
-    '''public PlusPRPStatusHandler(final StatefulMbo statefulMbo)
+def ():
+    '''returns PlusPRPStatusHandler\n\n
+    (final StatefulMbo statefulMbo)\n
     '''
 def preStatusChange():
-    '''public void preStatusChange(final String s, final String s2, final Date date, final String s3)
+    '''returns None\n\n
+    preStatusChange(final String s, final String s2, final Date date, final String s3)\n
     '''
 def postStatusChange():
-    '''public void postStatusChange(final String s, final String s2, final Date date, final String s3)
+    '''returns None\n\n
+    postStatusChange(final String s, final String s2, final Date date, final String s3)\n
     '''
 def checkStatusChangeAuthorization():
-    '''public void checkStatusChangeAuthorization(final String s)
+    '''returns None\n\n
+    checkStatusChangeAuthorization(final String s)\n
     '''
 def canChangeStatus():
-    '''public void canChangeStatus(final String currentStatus, final String s, final long accessModifier)
+    '''returns None\n\n
+    canChangeStatus(final String currentStatus, final String s, final long accessModifier)\n
     '''
 def changeStatus():
-    '''public void changeStatus(final String s, final String s2, final Date val, final String s3)
+    '''returns None\n\n
+    changeStatus(final String s, final String s2, final Date val, final String s3)\n
     '''

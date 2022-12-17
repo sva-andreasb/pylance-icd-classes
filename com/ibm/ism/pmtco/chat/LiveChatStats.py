@@ -1,3 +1,4 @@
-def LiveChatStats():
-    '''public LiveChatStats(final MboSet ms)
+def ():
+    '''returns LiveChatStats\n\n
+    (final MboSet ms)\n
     '''

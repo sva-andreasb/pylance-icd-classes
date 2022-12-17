@@ -1,15 +1,20 @@
-def PushMessageToSlackUtil():
-    '''public PushMessageToSlackUtil(final MboRemote mainTicket, final MboSetRemote channelSet, final String contxtPath)
+def ():
+    '''returns PushMessageToSlackUtil\n\n
+    (final MboRemote mainTicket, final MboSetRemote channelSet, final String contxtPath)\n
     '''
 def loadChatOpsInfo():
-    '''public void loadChatOpsInfo()
+    '''returns None\n\n
+    loadChatOpsInfo()\n
     '''
 def loadChannel():
-    '''public void loadChannel()
+    '''returns None\n\n
+    loadChannel()\n
     '''
 def pushMessageToSlack():
-    '''public void pushMessageToSlack()
+    '''returns None\n\n
+    pushMessageToSlack()\n
     '''
 def run():
-    '''public void run()
+    '''returns None\n\n
+    run()\n
     '''

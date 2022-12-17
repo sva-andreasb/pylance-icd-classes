@@ -1,3 +1,4 @@
-def InboundCommCfgSet():
-    '''public InboundCommCfgSet(final MboServerInterface ms)
+def ():
+    '''returns InboundCommCfgSet\n\n
+    (final MboServerInterface ms)\n
     '''

@@ -1,16 +1,16 @@
-def constructWeavingMessage():
-    '''public static WeaveMessage constructWeavingMessage(final WeaveMessageKind kind, final String[] inserts)
-    public static WeaveMessage constructWeavingMessage(final WeaveMessageKind kind, final String[] inserts, final String affectedtypename, final String aspectname)
-    '''
 def getAspectname():
-    '''public String getAspectname()
+    '''returns String\n\n
+    getAspectname()\n
     '''
 def getAffectedtypename():
-    '''public String getAffectedtypename()
+    '''returns String\n\n
+    getAffectedtypename()\n
     '''
-def WeaveMessageKind():
-    '''public WeaveMessageKind(final int id, final String message)
+def ():
+    '''returns WeaveMessageKind\n\n
+    (final int id, final String message)\n
     '''
 def getMessage():
-    '''public String getMessage()
+    '''returns String\n\n
+    getMessage()\n
     '''

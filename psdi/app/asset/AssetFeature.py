@@ -1,78 +1,100 @@
-def AssetFeature():
-    '''public AssetFeature(final MboSet ms)
+def ():
+    '''returns AssetFeature\n\n
+    (final MboSet ms)\n
     '''
 def add():
-    '''public void add()
+    '''returns None\n\n
+    add()\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def isChangeByUserWhenSetFromLookup():
-    '''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''returns boolean\n\n
+    isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)\n
     '''
 def initFieldFlagsOnMbo():
-    '''public void initFieldFlagsOnMbo(final String attrName)
+    '''returns None\n\n
+    initFieldFlagsOnMbo(final String attrName)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def isFeatureMeasureModified():
-    '''public boolean isFeatureMeasureModified()
+    '''returns boolean\n\n
+    isFeatureMeasureModified()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def checkStartReferencePoint():
-    '''public void checkStartReferencePoint()
+    '''returns None\n\n
+    checkStartReferencePoint()\n
     '''
 def checkEndReferencePoint():
-    '''public void checkEndReferencePoint()
+    '''returns None\n\n
+    checkEndReferencePoint()\n
     '''
 def checkStart():
-    '''public void checkStart(final long afBeingDefined_AFID, final long afBeingDefined_StartAFID, final long referencedAF_StartAFID, final String afBeingDefined_StartFeatureLabel)
+    '''returns None\n\n
+    checkStart(final long afBeingDefined_AFID, final long afBeingDefined_StartAFID, final long referencedAF_StartAFID, final String afBeingDefined_StartFeatureLabel)\n
     '''
 def checkEnd():
-    '''public void checkEnd(final long afBeingDefined_AFID, final long afBeingDefined_EndAFID, final long referencedAF_EndAFID, final String afBeingDefined_EndFeatureLabel)
+    '''returns None\n\n
+    checkEnd(final long afBeingDefined_AFID, final long afBeingDefined_EndAFID, final long referencedAF_EndAFID, final String afBeingDefined_EndFeatureLabel)\n
     '''
 def checkReferencePoint():
-    '''public void checkReferencePoint()
+    '''returns None\n\n
+    checkReferencePoint()\n
     '''
 def checkStartRefsForSelfRef():
-    '''public void checkStartRefsForSelfRef(final MboRemote assetfeaturebeingdefined)
+    '''returns None\n\n
+    checkStartRefsForSelfRef(final MboRemote assetfeaturebeingdefined)\n
     '''
 def checkEndRefsForSelfRef():
-    '''public void checkEndRefsForSelfRef(final MboRemote assetfeaturebeingdefined)
+    '''returns None\n\n
+    checkEndRefsForSelfRef(final MboRemote assetfeaturebeingdefined)\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def checkDuplicateAssetFeature():
-    '''public void checkDuplicateAssetFeature(final String feature, final String label, final double startmeasure, final double startyoffset, final double startzoffset)
+    '''returns None\n\n
+    checkDuplicateAssetFeature(final String feature, final String label, final double startmeasure, final double startyoffset, final double startzoffset)\n
     '''
 def delete():
-    '''public void delete(final long modifier)
+    '''returns None\n\n
+    delete(final long modifier)\n
     '''
 def assetFeatureRefPointMeasIsModified():
-    '''public int assetFeatureRefPointMeasIsModified()
+    '''returns int\n\n
+    assetFeatureRefPointMeasIsModified()\n
     '''
 def doLinearRecalibration():
-    '''public void doLinearRecalibration()
+    '''returns None\n\n
+    doLinearRecalibration()\n
     '''
 def prepareAFLinearRecalibrationStatements():
-    '''public void prepareAFLinearRecalibrationStatements()
+    '''returns None\n\n
+    prepareAFLinearRecalibrationStatements()\n
     '''
 def prepareOtherLinearRecalibrationStatements():
-    '''public void prepareOtherLinearRecalibrationStatements(String recalObj)
+    '''returns None\n\n
+    prepareOtherLinearRecalibrationStatements(String recalObj)\n
     '''
 def handleAFHistory():
-    '''public void handleAFHistory()
-    '''
-def recalibrationForAssetFeature():
-    '''public synchronized void recalibrationForAssetFeature(Hashtable<Long, String> rolling)
+    '''returns None\n\n
+    handleAFHistory()\n
     '''
 def undelete():
-    '''public void undelete()
+    '''returns None\n\n
+    undelete()\n
     '''

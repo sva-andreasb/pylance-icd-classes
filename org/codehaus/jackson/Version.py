@@ -1,33 +1,40 @@
-def Version():
-    '''public Version(final int major, final int minor, final int patchLevel, final String snapshotInfo)
-    '''
-def unknownVersion():
-    '''public static Version unknownVersion()
+def ():
+    '''returns Version\n\n
+    (final int major, final int minor, final int patchLevel, final String snapshotInfo)\n
     '''
 def isUknownVersion():
-    '''public boolean isUknownVersion()
+    '''returns boolean\n\n
+    isUknownVersion()\n
     '''
 def isSnapshot():
-    '''public boolean isSnapshot()
+    '''returns boolean\n\n
+    isSnapshot()\n
     '''
 def getMajorVersion():
-    '''public int getMajorVersion()
+    '''returns int\n\n
+    getMajorVersion()\n
     '''
 def getMinorVersion():
-    '''public int getMinorVersion()
+    '''returns int\n\n
+    getMinorVersion()\n
     '''
 def getPatchLevel():
-    '''public int getPatchLevel()
+    '''returns int\n\n
+    getPatchLevel()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def compareTo():
-    '''public int compareTo(final Version other)
+    '''returns int\n\n
+    compareTo(final Version other)\n
     '''

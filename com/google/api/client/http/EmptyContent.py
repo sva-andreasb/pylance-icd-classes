@@ -1,12 +1,16 @@
 def getLength():
-    '''public long getLength()
+    '''returns long\n\n
+    getLength()\n
     '''
 def getType():
-    '''public String getType()
+    '''returns String\n\n
+    getType()\n
     '''
 def writeTo():
-    '''public void writeTo(final OutputStream out)
+    '''returns None\n\n
+    writeTo(final OutputStream out)\n
     '''
 def retrySupported():
-    '''public boolean retrySupported()
+    '''returns boolean\n\n
+    retrySupported()\n
     '''

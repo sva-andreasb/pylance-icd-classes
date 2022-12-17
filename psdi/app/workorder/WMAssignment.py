@@ -1,27 +1,36 @@
-def WMAssignment():
-    '''public WMAssignment(final MboSet ms)
+def ():
+    '''returns WMAssignment\n\n
+    (final MboSet ms)\n
     '''
 def init():
-    '''public void init()
+    '''returns None\n\n
+    init()\n
     '''
 def setUniqueIDValue():
-    '''public void setUniqueIDValue()
+    '''returns None\n\n
+    setUniqueIDValue()\n
     '''
 def validateKeyUniqueness():
-    '''public void validateKeyUniqueness()
+    '''returns None\n\n
+    validateKeyUniqueness()\n
     '''
 def save():
-    '''public void save()
+    '''returns None\n\n
+    save()\n
     '''
 def delete():
-    '''public void delete(final long accessModifier)
+    '''returns None\n\n
+    delete(final long accessModifier)\n
     '''
 def canDelete():
-    '''public void canDelete()
+    '''returns None\n\n
+    canDelete()\n
     '''
 def appValidate():
-    '''public void appValidate()
+    '''returns None\n\n
+    appValidate()\n
     '''
 def clearClassification():
-    '''public void clearClassification()
+    '''returns None\n\n
+    clearClassification()\n
     '''

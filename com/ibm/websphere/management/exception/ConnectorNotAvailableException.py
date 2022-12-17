@@ -1,6 +1,7 @@
-def ConnectorNotAvailableException():
-    '''public ConnectorNotAvailableException()
-    public ConnectorNotAvailableException(final String mesg)
-    public ConnectorNotAvailableException(final String msg, final Throwable th)
-    public ConnectorNotAvailableException(final Throwable th)
+def ():
+    '''returns ConnectorNotAvailableException\n\n
+    ()\n
+    (final String mesg)\n
+    (final String msg, final Throwable th)\n
+    (final Throwable th)\n
     '''

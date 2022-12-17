@@ -1,6 +1,8 @@
-def DateInRangeRule():
-    '''public DateInRangeRule(final DateRange range, final int inclusiveMask)
+def ():
+    '''returns DateInRangeRule\n\n
+    (final DateRange range, final int inclusiveMask)\n
     '''
 def test():
-    '''public boolean test(final Date date)
+    '''returns boolean\n\n
+    test(final Date date)\n
     '''

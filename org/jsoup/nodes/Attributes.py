@@ -1,70 +1,87 @@
-def Attributes():
-    '''public Attributes()
+def ():
+    '''returns Attributes\n\n
+    ()\n
     '''
 def get():
-    '''public String get(final String key)
+    '''returns String\n\n
+    get(final String key)\n
     '''
 def getIgnoreCase():
-    '''public String getIgnoreCase(final String key)
+    '''returns String\n\n
+    getIgnoreCase(final String key)\n
     '''
 def put():
-    '''public Attributes put(final String key, final String value)
-    public Attributes put(final String key, final boolean value)
-    public Attributes put(final Attribute attribute)
-    public String put(final String key, final String value)
+    '''returns String\n\n
+    put(final String key, final String value)\n
+    put(final String key, final boolean value)\n
+    put(final Attribute attribute)\n
+    put(final String key, final String value)\n
     '''
 def remove():
-    '''public void remove(final String key)
-    public void remove()
-    public void remove()
+    '''returns None\n\n
+    remove(final String key)\n
+    remove()\n
+    remove()\n
     '''
 def removeIgnoreCase():
-    '''public void removeIgnoreCase(final String key)
+    '''returns None\n\n
+    removeIgnoreCase(final String key)\n
     '''
 def hasKey():
-    '''public boolean hasKey(final String key)
+    '''returns boolean\n\n
+    hasKey(final String key)\n
     '''
 def hasKeyIgnoreCase():
-    '''public boolean hasKeyIgnoreCase(final String key)
+    '''returns boolean\n\n
+    hasKeyIgnoreCase(final String key)\n
     '''
 def size():
-    '''public int size()
-    public int size()
+    '''returns int\n\n
+    size()\n
+    size()\n
     '''
 def addAll():
-    '''public void addAll(final Attributes incoming)
+    '''returns None\n\n
+    addAll(final Attributes incoming)\n
     '''
 def iterator():
-    '''public Iterator<Attribute> iterator()
+    '''returns Iterator<Attribute>\n\n
+    iterator()\n
     '''
 def hasNext():
-    '''public boolean hasNext()
-    public boolean hasNext()
+    '''returns boolean\n\n
+    hasNext()\n
+    hasNext()\n
     '''
 def next():
-    '''public Attribute next()
+    '''returns Attribute\n\n
+    next()\n
     '''
 def asList():
-    '''public List<Attribute> asList()
-    '''
-def dataset():
-    '''public Map<String, String> dataset()
+    '''returns List<Attribute>\n\n
+    asList()\n
     '''
 def html():
-    '''public String html()
+    '''returns String\n\n
+    html()\n
     '''
 def toString():
-    '''public String toString()
+    '''returns String\n\n
+    toString()\n
     '''
 def equals():
-    '''public boolean equals(final Object o)
+    '''returns boolean\n\n
+    equals(final Object o)\n
     '''
 def hashCode():
-    '''public int hashCode()
+    '''returns int\n\n
+    hashCode()\n
     '''
 def clone():
-    '''public Attributes clone()
+    '''returns Attributes\n\n
+    clone()\n
     '''
 def normalize():
-    '''public void normalize()
+    '''returns None\n\n
+    normalize()\n
     '''

@@ -1,18 +1,24 @@
 def getMessageHubProducer():
-    '''public MessageHubProducer getMessageHubProducer(final Map<String, String> cfg)
+    '''returns MessageHubProducer\n\n
+    getMessageHubProducer(final Map<String, String> cfg)\n
     '''
 def getMessageHubConsumer():
-    '''public MessageHubConsumer getMessageHubConsumer(final Map<String, String> cfg)
+    '''returns MessageHubConsumer\n\n
+    getMessageHubConsumer(final Map<String, String> cfg)\n
     '''
 def getProperties():
-    '''public List<RouterPropsInfo> getProperties()
+    '''returns List<RouterPropsInfo>\n\n
+    getProperties()\n
     '''
 def listDestinations():
-    '''public Set<String> listDestinations()
+    '''returns Set<String>\n\n
+    listDestinations()\n
     '''
 def refreshConfig():
-    '''public void refreshConfig(final Map<String, String> cfg)
+    '''returns None\n\n
+    refreshConfig(final Map<String, String> cfg)\n
     '''
 def testconnect():
-    '''public void testconnect(final Map<String, String> userprops)
+    '''returns None\n\n
+    testconnect(final Map<String, String> userprops)\n
     '''

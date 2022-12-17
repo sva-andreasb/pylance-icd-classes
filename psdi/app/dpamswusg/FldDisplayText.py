@@ -1,6 +1,8 @@
-def FldDisplayText():
-    '''public FldDisplayText(final MboValue mbv)
+def ():
+    '''returns FldDisplayText\n\n
+    (final MboValue mbv)\n
     '''
 def validate():
-    '''public void validate()
+    '''returns None\n\n
+    validate()\n
     '''

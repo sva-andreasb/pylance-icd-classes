@@ -1,6 +1,8 @@
-def SetIntData():
-    '''public SetIntData(final String name, final int value)
+def ():
+    '''returns SetIntData\n\n
+    (final String name, final int value)\n
     '''
 def getIntegerValue():
-    '''public Integer getIntegerValue()
+    '''returns Integer\n\n
+    getIntegerValue()\n
     '''

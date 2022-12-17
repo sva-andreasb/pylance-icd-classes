@@ -1,3 +1,4 @@
 def generateResource():
-    '''public byte[] generateResource()
+    '''returns byte[]\n\n
+    generateResource()\n
     '''

@@ -1,22 +1,21 @@
-def ClassLoaders():
-    '''public ClassLoaders()
+def ():
+    '''returns ClassLoaders\n\n
+    ()\n
     '''
 def size():
-    '''public int size()
+    '''returns int\n\n
+    size()\n
     '''
 def get():
-    '''public ClassLoader get(final int idx)
+    '''returns ClassLoader\n\n
+    get(final int idx)\n
     '''
 def put():
-    '''public void put(final ClassLoader classLoader)
-    public void put(final ClassLoader classLoader, final boolean prune)
+    '''returns None\n\n
+    put(final ClassLoader classLoader)\n
+    put(final ClassLoader classLoader, final boolean prune)\n
     '''
 def isAncestor():
-    '''public boolean isAncestor(final ClassLoader classLoader)
-    '''
-def getLibLoaders():
-    '''public static ClassLoaders getLibLoaders(final Class spi, final Class factory, final boolean prune)
-    '''
-def getAppLoaders():
-    '''public static ClassLoaders getAppLoaders(final Class spi, final Class factory, final boolean prune)
+    '''returns boolean\n\n
+    isAncestor(final ClassLoader classLoader)\n
     '''

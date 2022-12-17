@@ -1,15 +1,20 @@
-def KPIGraph():
-    '''public KPIGraph(final Vector vecData, final boolean forStartCenter, final WebClientSession sessionContext)
+def ():
+    '''returns KPIGraph\n\n
+    (final Vector vecData, final boolean forStartCenter, final WebClientSession sessionContext)\n
     '''
 def makeChartData():
-    '''public ChartData makeChartData()
+    '''returns ChartData\n\n
+    makeChartData()\n
     '''
 def makeBarChartData():
-    '''public BarChartData makeBarChartData()
+    '''returns BarChartData\n\n
+    makeBarChartData()\n
     '''
 def makeDialChartData():
-    '''public DialChartData makeDialChartData()
+    '''returns DialChartData\n\n
+    makeDialChartData()\n
     '''
 def getTitle():
-    '''public String getTitle()
+    '''returns String\n\n
+    getTitle()\n
     '''

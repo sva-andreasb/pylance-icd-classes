@@ -1,25 +1,13 @@
-def BaseProp():
-    '''public BaseProp()
-    public BaseProp(final SchemaInfo schemaInfo)
+def ():
+    '''returns BaseProp\n\n
+    ()\n
+    (final SchemaInfo schemaInfo)\n
     '''
 def getSchemaInfo():
-    '''public SchemaInfo getSchemaInfo()
+    '''returns SchemaInfo\n\n
+    getSchemaInfo()\n
     '''
 def setSchemaInfo():
-    '''public void setSchemaInfo(final SchemaInfo schemaInfo)
-    '''
-def equals():
-    '''public synchronized boolean equals(final Object obj)
-    '''
-def hashCode():
-    '''public synchronized int hashCode()
-    '''
-def getTypeDesc():
-    '''public static TypeDesc getTypeDesc()
-    '''
-def getSerializer():
-    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-    '''
-def getDeserializer():
-    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''returns None\n\n
+    setSchemaInfo(final SchemaInfo schemaInfo)\n
     '''
